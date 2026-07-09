@@ -1,0 +1,95 @@
+{
+  "topic_slug": "kinder-motorik",
+  "slug": "kinder-motorik-kleine-haende",
+  "title": "Kleine Hände lernen viel",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🖐️ Wie lernen kleine Hände greifen? Teil 1. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "✊ Greifen mit der ganzen Hand." },
+          { "text": "🖐️ Scherengriff: Greifen mit Daumen und Fingern." },
+          { "text": "🤏 Pinzettengriff: Greifen mit Daumen und Zeigefinger." },
+          { "text": "🖍️ Malen und Kritzeln." },
+          { "text": "✂️ Eine Schere benutzen." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧵 Teil 2: Die Hände können immer mehr. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "👕 Knöpfe schließen." },
+          { "text": "🧥 Den Reißverschluss zumachen." },
+          { "text": "👟 Eine Schleife binden." },
+          { "text": "🍴 Mit Besteck essen." },
+          { "text": "📿 Perlen auffädeln." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🤝 Welcher Griff passt zu welchem Beispiel? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "✊ Greifen mit der ganzen Hand" }, "right": { "text": "🧱 Einen Bauklotz greifen" } },
+          { "left": { "text": "🤏 Pinzettengriff" }, "right": { "text": "📿 Eine kleine Perle aufheben" } },
+          { "left": { "text": "🖍️ Stift halten" }, "right": { "text": "🎨 Malen und Kritzeln" } },
+          { "left": { "text": "✂️ Schere halten" }, "right": { "text": "📄 Papier schneiden" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤏 Ein Kind will eine kleine Perle aufheben. Welchen Griff braucht es?",
+        "options": [
+          { "text": "🤏 Den Pinzettengriff", "correct": true },
+          { "text": "✊ Die ganze Hand" },
+          { "text": "🦶 Die Füße" }
+        ],
+        "explanation": "Richtig! Beim Pinzettengriff greift das Kind mit Daumen und Zeigefinger. So kann es ganz kleine Dinge aufheben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Was lernt ein Baby zuerst?",
+        "options": [
+          { "text": "✊ Greifen mit der ganzen Hand", "correct": true },
+          { "text": "🤏 Der Pinzettengriff" },
+          { "text": "👟 Eine Schleife binden" }
+        ],
+        "explanation": "Genau! Am Anfang greift das Baby mit der ganzen Hand. Die feinen Griffe kommen später."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖐️ Was bedeutet Feinmotorik?",
+        "options": [
+          { "text": "🤏 Kleine, genaue Bewegungen mit Händen und Fingern", "correct": true },
+          { "text": "🏃 Schnelles Rennen" },
+          { "text": "😴 Ruhig schlafen" }
+        ],
+        "explanation": "Feinmotorik heißt: kleine Bewegungen mit den Händen und Fingern. Zum Beispiel malen, schneiden oder Knöpfe schließen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Was braucht ein Kind zum Malen?",
+        "options": [
+          { "text": "🖍️ Stift und Papier", "correct": true },
+          { "text": "🧦 Eine Socke" },
+          { "text": "🥄 Einen Kochlöffel" }
+        ],
+        "explanation": "Super! Mit Stift und Papier kann das Kind kritzeln und malen. Das übt die kleinen Hände."
+      }
+    }
+  ]
+}

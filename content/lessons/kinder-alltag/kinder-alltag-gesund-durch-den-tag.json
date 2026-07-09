@@ -1,0 +1,123 @@
+{
+  "topic_slug": "kinder-alltag",
+  "slug": "kinder-alltag-gesund-durch-den-tag",
+  "title": "Gesund durch den Tag",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧼 Hände waschen mit Kindern. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "💧 Hände nass machen." },
+          { "text": "🧼 Seife nehmen." },
+          { "text": "⏱️ 20 Sekunden einseifen. Auch zwischen den Fingern." },
+          { "text": "🚿 Seife gut abspülen." },
+          { "text": "🤲 Hände abtrocknen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Wie lange sollen die Hände eingeseift werden?",
+        "options": [
+          { "text": "🎵 Etwa 20 Sekunden", "correct": true },
+          { "text": "⚡ 1 Sekunde reicht" },
+          { "text": "🕙 10 Minuten" }
+        ],
+        "explanation": "Richtig! 20 Sekunden einseifen. Tipp: Singt dabei zweimal „Happy Birthday“. Dann passt die Zeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤧 Ein Kind muss niesen. Wohin niest es am besten?",
+        "options": [
+          { "text": "💪 In die Armbeuge", "correct": true },
+          { "text": "🤲 In die Hände" },
+          { "text": "🌬️ Einfach in den Raum" }
+        ],
+        "explanation": "Genau! In die Armbeuge niesen. So kommen weniger Krankmacher an die Hände. Und andere werden nicht angesteckt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☀️ Ihr geht im Sommer nach draußen. Die Sonne scheint stark. Was ist wichtig?",
+        "options": [
+          { "text": "🧴 Sonnencreme und Sonnenhut für die Kinder", "correct": true },
+          { "text": "🧥 Eine dicke Winterjacke" },
+          { "text": "🤷 Nichts. Sonne macht Kindern nichts." }
+        ],
+        "explanation": "Richtig! Kinderhaut ist empfindlich. Also: Sonnencreme, Sonnenhut und mittags in den Schatten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👕 Welche Kleidung passt zu welchem Wetter? Sortiere.",
+        "buckets": [
+          { "id": "regen", "label": "Regenwetter", "icon": "🌧️" },
+          { "id": "sommer", "label": "Sonniger Sommertag", "icon": "☀️" }
+        ],
+        "items": [
+          { "text": "🥾 Gummistiefel", "bucket": "regen" },
+          { "text": "🧥 Regenjacke", "bucket": "regen" },
+          { "text": "👖 Matschhose", "bucket": "regen" },
+          { "text": "👒 Sonnenhut", "bucket": "sommer" },
+          { "text": "🧴 Sonnencreme", "bucket": "sommer" },
+          { "text": "👕 Kurze Hose und T-Shirt", "bucket": "sommer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Was trinken Kinder am besten über den Tag?",
+        "options": [
+          { "text": "💧 Wasser oder ungesüßten Tee", "correct": true },
+          { "text": "🥤 Cola" },
+          { "text": "☕ Kaffee" }
+        ],
+        "explanation": "Genau! Kinder müssen viel trinken. Am besten Wasser. Erinnere die Kinder oft an das Trinken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Was ist ein gesunder Snack für Kinder?",
+        "options": [
+          { "text": "🍎 Ein Apfel oder Gemüsesticks", "correct": true },
+          { "text": "🍫 Eine ganze Tafel Schokolade" },
+          { "text": "🍟 Eine große Tüte Chips" }
+        ],
+        "explanation": "Richtig! Obst und Gemüse machen fit. Süßes ist nur ab und zu okay."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Wann waschen sich Kinder die Hände?",
+        "options": [
+          { "text": "🍽️ Vor dem Essen und nach der Toilette", "correct": true },
+          { "text": "🎄 Nur an Weihnachten" },
+          { "text": "🙅 Nie" }
+        ],
+        "explanation": "Genau! Vor dem Essen und nach der Toilette. Auch nach dem Spielen draußen. Das weißt du super!"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌦️ Was gehört zusammen? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🌧️ Regen" }, "right": { "text": "🥾 Gummistiefel" } },
+          { "left": { "text": "☀️ Sonne" }, "right": { "text": "👒 Sonnenhut" } },
+          { "left": { "text": "❄️ Kälte" }, "right": { "text": "🧤 Warme Mütze und Handschuhe" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

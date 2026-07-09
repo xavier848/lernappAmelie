@@ -1,0 +1,94 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-4",
+  "title": "Sparen und Konten",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Dein Sparziel: 600 € für den Führerschein. Du sparst 50 € im Monat. Wie lange brauchst du?",
+        "options": [
+          { "text": "12 Monate. Das ist 1 Jahr.", "correct": true },
+          { "text": "6 Monate." },
+          { "text": "20 Monate." }
+        ],
+        "explanation": "Rechne: 600 geteilt durch 50 = 12. Nach 12 Monaten hast du 600 € zusammen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐴 Ein neuer Reithelm kostet 120 €. Du sparst 30 € im Monat. Wie lange sparst du?",
+        "options": [
+          { "text": "4 Monate.", "correct": true },
+          { "text": "3 Monate." },
+          { "text": "6 Monate." }
+        ],
+        "explanation": "120 geteilt durch 30 = 4. Nach 4 Monaten kannst du den Helm kaufen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐷 Du sparst jeden Monat 200 €. Wie viel hast du nach 3 Monaten?",
+        "options": [
+          { "text": "600 €", "correct": true },
+          { "text": "400 €" },
+          { "text": "500 €" }
+        ],
+        "explanation": "200 + 200 + 200 = 600. Sparen lohnt sich!"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏦 Was gehört zusammen? Verbinde das Wort mit der Erklärung.",
+        "pairs": [
+          { "left": { "text": "💳 Girokonto" }, "right": { "text": "Dein Konto für den Alltag." } },
+          { "left": { "text": "🐷 Sparkonto" }, "right": { "text": "Dein Konto für Rücklagen." } },
+          { "left": { "text": "🔁 Dauerauftrag" }, "right": { "text": "Zahlt automatisch jeden Monat." } },
+          { "left": { "text": "🏢 Lastschrift" }, "right": { "text": "Eine Firma bucht das Geld ab." } },
+          { "left": { "text": "📊 Kontostand" }, "right": { "text": "So viel Geld ist auf dem Konto." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔁 Du willst jeden Monat 50 € auf dein Sparkonto legen. Ohne es zu vergessen. Was hilft dir?",
+        "options": [
+          { "text": "Ein Dauerauftrag. Er überweist das Geld automatisch.", "correct": true },
+          { "text": "Einfach hoffen, dass ich daran denke." },
+          { "text": "Das Geld zu Hause unter das Kissen legen." }
+        ],
+        "explanation": "Ein Dauerauftrag überweist jeden Monat von selbst. So sparst du automatisch. Sehr schlau!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛟 Wofür sind Rücklagen gut?",
+        "options": [
+          { "text": "Für Überraschungen. Zum Beispiel: Das Pferd muss zum Tierarzt.", "correct": true },
+          { "text": "Für Schokolade im Supermarkt." },
+          { "text": "Rücklagen braucht niemand." }
+        ],
+        "explanation": "Manchmal geht die Waschmaschine kaputt. Oder das Pferd braucht den Tierarzt. 🐴 Mit Rücklagen bist du vorbereitet. Spare darum jeden Monat etwas."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Zum Schluss ein Memory! Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "💳 Girokonto" }, "right": { "text": "Alltag" } },
+          { "left": { "text": "🐷 Sparkonto" }, "right": { "text": "Rücklagen" } },
+          { "left": { "text": "📊 Kontostand" }, "right": { "text": "So viel ist da" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

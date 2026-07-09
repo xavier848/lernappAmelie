@@ -1,0 +1,100 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-1",
+  "title": "Woher kommt dein Geld?",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💰 Was ist eine Einnahme?",
+        "options": [
+          { "text": "Geld, das du bekommst.", "correct": true },
+          { "text": "Geld, das du ausgibst." },
+          { "text": "Geld, das du verlierst." }
+        ],
+        "explanation": "Einnahme heißt: Geld kommt zu dir. Zum Beispiel dein Taschengeld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎓 Du fängst bald deine Ausbildung an. Was ist eine Ausbildungs-Vergütung?",
+        "options": [
+          { "text": "Geld, das du jeden Monat für deine Ausbildung bekommst.", "correct": true },
+          { "text": "Geld, das du für die Ausbildung bezahlen musst." },
+          { "text": "Ein Geschenk zum Geburtstag." }
+        ],
+        "explanation": "In der Ausbildung arbeitest du. Dafür bekommst du jeden Monat Geld. Das ist deine Ausbildungs-Vergütung. 🎉"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Sortiere: Ist das eine Einnahme oder eine Ausgabe?",
+        "buckets": [
+          { "id": "einnahme", "label": "Einnahme", "icon": "💰" },
+          { "id": "ausgabe", "label": "Ausgabe", "icon": "🛒" }
+        ],
+        "items": [
+          { "text": "🎓 Ausbildungs-Vergütung", "bucket": "einnahme" },
+          { "text": "🎂 Geburtstags-Geld", "bucket": "einnahme" },
+          { "text": "📱 Handy-Rechnung", "bucket": "ausgabe" },
+          { "text": "🎬 Kino-Karte", "bucket": "ausgabe" },
+          { "text": "💶 Taschengeld", "bucket": "einnahme" },
+          { "text": "🐴 Futter für dein Pferd", "bucket": "ausgabe" },
+          { "text": "🧾 Lohn vom Nebenjob", "bucket": "einnahme" },
+          { "text": "🚌 Bus-Ticket", "bucket": "ausgabe" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was gehört zusammen? Verbinde die Einnahme mit der Erklärung.",
+        "pairs": [
+          { "left": { "text": "🎓 Ausbildungs-Vergütung" }, "right": { "text": "Dein Lohn in der Ausbildung. Kommt jeden Monat." } },
+          { "left": { "text": "💶 Taschengeld" }, "right": { "text": "Geld von den Eltern." } },
+          { "left": { "text": "🎂 Geburtstags-Geld" }, "right": { "text": "Geld-Geschenk zum Geburtstag." } },
+          { "left": { "text": "🎄 Weihnachts-Geld" }, "right": { "text": "Extra-Geld zu Weihnachten." } },
+          { "left": { "text": "🧾 Nebenjob" }, "right": { "text": "Lohn für Arbeit nebenbei." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Welche Einnahme kommt sicher jeden Monat?",
+        "options": [
+          { "text": "Die Ausbildungs-Vergütung.", "correct": true },
+          { "text": "Das Geburtstags-Geld." },
+          { "text": "Das Weihnachts-Geld." }
+        ],
+        "explanation": "Geburtstag und Weihnachten sind nur einmal im Jahr. Deine Ausbildungs-Vergütung kommt jeden Monat. Damit kannst du planen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Oma schenkt dir 50 € zum Geburtstag. Kannst du jeden Monat mit diesem Geld rechnen?",
+        "options": [
+          { "text": "Nein. Das Geld kommt nur einmal im Jahr.", "correct": true },
+          { "text": "Ja. Oma schenkt mir jeden Monat 50 €." }
+        ],
+        "explanation": "Geschenk-Geld ist toll! Aber es kommt nicht regelmäßig. Plane deinen Monat mit dem Geld, das sicher kommt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du bekommst bald deine Ausbildungs-Vergütung. Was ist das?",
+        "options": [
+          { "text": "Eine Einnahme.", "correct": true },
+          { "text": "Eine Ausgabe." }
+        ],
+        "explanation": "Super! Geld, das du bekommst, ist eine Einnahme. 🎉"
+      }
+    }
+  ]
+}

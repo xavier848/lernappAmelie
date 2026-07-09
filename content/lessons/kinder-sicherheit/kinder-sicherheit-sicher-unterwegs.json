@@ -1,0 +1,123 @@
+{
+  "topic_slug": "kinder-sicherheit",
+  "slug": "kinder-sicherheit-sicher-unterwegs",
+  "title": "Sicher unterwegs",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚶 Du gehst mit einem Kind am Gehweg. Auf welcher Seite läuft das Kind?",
+        "options": [
+          { "text": "🏠 Auf der Seite weg von der Straße.", "correct": true },
+          { "text": "🚗 Auf der Seite an der Straße." },
+          { "text": "🛣️ Mitten auf der Straße." }
+        ],
+        "explanation": "Richtig! Das Kind läuft auf der sicheren Seite. Also weg von der Straße. Du gehst auf der Straßenseite."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤝 Wie führst du ein kleines Kind am Gehweg?",
+        "options": [
+          { "text": "✋ Ich halte das Kind an der Hand.", "correct": true },
+          { "text": "🏃 Das Kind rennt allein voraus." },
+          { "text": "📱 Ich schaue auf mein Handy." }
+        ],
+        "explanation": "Genau! Du hältst das Kind an der Hand. Und du schaust voraus. So siehst du Gefahren früh."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛑 Ihr kommt an eine Straße. Was sagst du zum Kind?",
+        "options": [
+          { "text": "🗣️ Stopp, hier bleiben wir stehen!", "correct": true },
+          { "text": "🏃 Lauf schnell rüber!" },
+          { "text": "🤫 Ich sage nichts." }
+        ],
+        "explanation": "Super! Du sagst: Stopp, hier bleiben wir stehen. So lernt das Kind: Vor der Straße halte ich immer an."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚸 Ihr wollt die Straße überqueren. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🛑 Am Straßenrand anhalten." },
+          { "text": "👈 Nach links schauen." },
+          { "text": "👉 Nach rechts schauen." },
+          { "text": "👈 Noch einmal nach links schauen." },
+          { "text": "🚶 Zügig geradeaus über die Straße gehen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚗 Darf ein Kind zwischen parkenden Autos auf die Straße laufen?",
+        "options": [
+          { "text": "❌ Nein! Autofahrer sehen das Kind dort nicht.", "correct": true },
+          { "text": "✅ Ja, das geht schneller." },
+          { "text": "🤷 Das ist egal." }
+        ],
+        "explanation": "Richtig! Zwischen parkenden Autos ist ein Kind versteckt. Autofahrer sehen es nicht. Geht immer an einer freien Stelle über die Straße."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🚦 Was ist im Straßenverkehr richtig? Was ist falsch? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "🏠 Das Kind läuft weg von der Straße.", "bucket": "richtig" },
+          { "text": "✋ Das Kind geht an deiner Hand.", "bucket": "richtig" },
+          { "text": "🏃 Das Kind rennt allein über die Straße.", "bucket": "falsch" },
+          { "text": "🚗 Zwischen parkenden Autos auf die Straße laufen.", "bucket": "falsch" },
+          { "text": "👀 Vor der Straße anhalten und schauen.", "bucket": "richtig" },
+          { "text": "📱 Beim Gehen nur auf das Handy schauen.", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚴 Auf dem Weg kommt ein Fahrradfahrer. Was machst du?",
+        "options": [
+          { "text": "👀 Ich achte auf ihn und gehe mit dem Kind zur Seite.", "correct": true },
+          { "text": "🙈 Ich beachte ihn nicht." },
+          { "text": "🏃 Ich laufe schnell vor das Fahrrad." }
+        ],
+        "explanation": "Genau! Fahrräder sind oft leise und schnell. Achte auf Fahrradfahrer und mache mit dem Kind Platz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👨‍👩‍👧‍👦 Du bist mit mehreren Kindern unterwegs. Was ist wichtig?",
+        "options": [
+          { "text": "👀 Ich behalte die ganze Gruppe im Blick.", "correct": true },
+          { "text": "1️⃣ Ich schaue nur auf das erste Kind." },
+          { "text": "🎧 Ich höre Musik mit Kopfhörern." }
+        ],
+        "explanation": "Richtig! Du hast die Aufsicht. Zähle die Kinder immer wieder durch. Kein Kind darf zurückbleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Die Ampel ist rot. Was macht ihr?",
+        "options": [
+          { "text": "🛑 Stehen bleiben und warten.", "correct": true },
+          { "text": "🏃 Schnell rüberrennen." },
+          { "text": "🎶 Auf der Straße tanzen." }
+        ],
+        "explanation": "Super gemacht! Bei Rot bleibt ihr stehen. Erst bei Grün geht ihr los. Und trotzdem: erst schauen, dann gehen."
+      }
+    }
+  ]
+}

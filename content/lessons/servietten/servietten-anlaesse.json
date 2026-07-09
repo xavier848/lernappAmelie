@@ -1,0 +1,85 @@
+{
+  "topic_slug": "servietten",
+  "slug": "servietten-anlaesse",
+  "title": "Welche Serviette für welchen Anlass?",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Frühstück soll es schnell gehen. 🥐 Welche Serviette passt?",
+        "options": [
+          { "text": "Eine einfache Faltung.", "correct": true },
+          { "text": "Eine Bischofsmütze. 👑" },
+          { "text": "Ein Fächer. 🪭" }
+        ],
+        "explanation": "Richtig! Am Morgen reicht eine einfache Faltung. Sie geht schnell und sieht trotzdem ordentlich aus. 🥐"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Heute Abend gibt es ein festliches Essen. 🎉 Welche Serviette passt?",
+        "options": [
+          { "text": "Ein Fächer 🪭 oder eine Bischofsmütze. 👑", "correct": true },
+          { "text": "Eine zerknitterte Serviette." },
+          { "text": "Gar keine Serviette." }
+        ],
+        "explanation": "Genau! Bei einem Fest soll der Tisch besonders schön sein. Fächer und Bischofsmütze sehen festlich aus. 🎉"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Freunde kommen zu Kaffee und Kuchen. ☕🍰 Welche Serviette passt?",
+        "options": [
+          { "text": "Eine hübsche, einfache Faltung.", "correct": true },
+          { "text": "Eine große Bischofsmütze. 👑" },
+          { "text": "Ein Küchentuch." }
+        ],
+        "explanation": "Richtig! Zu Kaffee und Kuchen passt eine hübsche, einfache Faltung. Sie soll nett aussehen, aber nicht zu prunkvoll. ☕"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Sortiere die Servietten: Ist die Faltung einfach oder festlich?",
+        "buckets": [
+          { "id": "einfach", "label": "Einfach: Frühstück, Kaffee und Kuchen", "icon": "☕" },
+          { "id": "festlich", "label": "Festlich: festliches Essen", "icon": "🎉" }
+        ],
+        "items": [
+          { "text": "🪭 Fächer", "bucket": "festlich" },
+          { "text": "👑 Bischofsmütze", "bucket": "festlich" },
+          { "text": "Einmal zum Dreieck gefaltet", "bucket": "einfach" },
+          { "text": "Einmal zum Rechteck gefaltet", "bucket": "einfach" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "So faltest du eine Bestecktasche. ✉️ Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🍽️ Die Serviette glatt hinlegen." },
+          { "text": "Die Serviette einmal in der Mitte falten." },
+          { "text": "Noch einmal falten. Jetzt ist sie klein." },
+          { "text": "Die oberste Lage umklappen. Das wird die Tasche." },
+          { "text": "🍴 Messer und Gabel in die Tasche stecken." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Wofür ist eine Serviette da?",
+        "options": [
+          { "text": "Zum Mund abwischen.", "correct": true },
+          { "text": "Zum Boden wischen." },
+          { "text": "Zum Haare kämmen." }
+        ],
+        "explanation": "Genau! Mit der Serviette wischt man sich beim Essen den Mund ab. Und schön aussehen soll sie auch. 😊"
+      }
+    }
+  ]
+}

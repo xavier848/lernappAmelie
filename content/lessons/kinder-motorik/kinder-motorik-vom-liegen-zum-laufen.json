@@ -1,0 +1,101 @@
+{
+  "topic_slug": "kinder-motorik",
+  "slug": "kinder-motorik-vom-liegen-zum-laufen",
+  "title": "Vom Liegen zum Laufen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "👶 Wie lernt ein Baby sich zu bewegen? Teil 1: Vom Liegen zum Krabbeln. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🛏️ Bauchlage: Das Baby liegt auf dem Bauch." },
+          { "text": "👶 Das Baby hebt den Kopf." },
+          { "text": "💪 Das Baby stützt sich auf die Arme." },
+          { "text": "🔄 Das Baby rollt sich vom Bauch auf den Rücken." },
+          { "text": "🐛 Das Baby robbt auf dem Bauch nach vorne." },
+          { "text": "🐻 Das Baby krabbelt auf Händen und Knien." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚶 Teil 2: Vom Sitzen zum Balancieren. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪑 Das Kind sitzt alleine." },
+          { "text": "🙌 Das Kind zieht sich an Möbeln hoch." },
+          { "text": "🧍 Das Kind steht alleine." },
+          { "text": "🚶 Das Kind läuft die ersten Schritte." },
+          { "text": "🏃 Das Kind rennt." },
+          { "text": "🤸 Das Kind hüpft und balanciert." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Was kommt zuerst: Krabbeln oder Laufen?",
+        "options": [
+          { "text": "🐻 Krabbeln", "correct": true },
+          { "text": "🚶 Laufen" }
+        ],
+        "explanation": "Richtig! Zuerst krabbelt das Baby. Erst später lernt es zu laufen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Warum ist die Bauchlage für ein Baby wichtig?",
+        "options": [
+          { "text": "💪 Das Baby übt den Kopf zu heben. Die Muskeln werden stark.", "correct": true },
+          { "text": "😴 Das Baby schläft dabei besser." },
+          { "text": "🍼 Das Baby trinkt dabei besser." }
+        ],
+        "explanation": "In der Bauchlage übt das Baby den Kopf zu heben. So werden Nacken und Rücken stark. Das braucht es später zum Krabbeln."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧸 Was kann ein Baby am Anfang? Was kommt erst später? Sortiere.",
+        "buckets": [
+          { "id": "anfang", "label": "Am Anfang", "icon": "👶" },
+          { "id": "spaeter", "label": "Erst später", "icon": "🧒" }
+        ],
+        "items": [
+          { "text": "Auf dem Bauch liegen", "bucket": "anfang" },
+          { "text": "Den Kopf heben", "bucket": "anfang" },
+          { "text": "Rennen", "bucket": "spaeter" },
+          { "text": "Sich auf den Rücken rollen", "bucket": "anfang" },
+          { "text": "Hüpfen", "bucket": "spaeter" },
+          { "text": "Balancieren", "bucket": "spaeter" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Was kommt direkt vor dem Laufen?",
+        "options": [
+          { "text": "🧍 Stehen", "correct": true },
+          { "text": "🏃 Rennen" },
+          { "text": "🤸 Balancieren" }
+        ],
+        "explanation": "Genau! Erst steht das Kind sicher. Dann macht es die ersten Schritte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Was lernt ein Baby zuerst?",
+        "options": [
+          { "text": "🛏️ Liegen und den Kopf heben", "correct": true },
+          { "text": "🚴 Fahrrad fahren" },
+          { "text": "🤸 Seil springen" }
+        ],
+        "explanation": "Super! Alles beginnt mit dem Liegen. Schritt für Schritt lernt das Baby mehr."
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "topic_slug": "schlafzimmer",
+  "slug": "schlafzimmer-was-zuerst",
+  "title": "Was zuerst im Schlafzimmer?",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Du putzt das Schlafzimmer. Was kommt zuerst: Bettwäsche abziehen oder staubsaugen?",
+        "options": [
+          { "text": "Zuerst die Bettwäsche abziehen.", "correct": true },
+          { "text": "Zuerst staubsaugen." },
+          { "text": "Die Reihenfolge ist egal." }
+        ],
+        "explanation": "Beim Abziehen fällt Staub auf den Boden. Wenn du danach saugst, ist der Staub weg. Andersherum müsstest du zweimal saugen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Warum öffnest du zuerst das Fenster?",
+        "options": [
+          { "text": "Damit frische Luft ins Zimmer kommt.", "correct": true },
+          { "text": "Damit es im Zimmer kälter wird." },
+          { "text": "Damit man die Vögel hört." }
+        ],
+        "explanation": "Frische Luft tut dem Zimmer gut. Verbrauchte Luft und Staub gehen nach draußen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛏️ Vom alten Bett zum frischen Bett: Ordne die Schritte.",
+        "steps": [
+          { "text": "🪟 Fenster öffnen." },
+          { "text": "🛏️ Bettwäsche abziehen." },
+          { "text": "🧺 Schmutzige Wäsche in den Wäschekorb legen." },
+          { "text": "🆕 Frische Bettwäsche holen." },
+          { "text": "✨ Bett frisch beziehen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Was kommt zuerst: Staub wischen oder Boden saugen?",
+        "options": [
+          { "text": "Erst Staub wischen, dann saugen.", "correct": true },
+          { "text": "Erst saugen, dann Staub wischen." },
+          { "text": "Nur saugen. Staub wischen ist nicht nötig." }
+        ],
+        "explanation": "Beim Staubwischen fällt Staub nach unten auf den Boden. Danach saugst du ihn weg. Merke: immer von oben nach unten!"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧹 Vor dem Saugen oder nach dem Saugen? Sortiere die Aufgaben.",
+        "buckets": [
+          { "id": "vor-dem-saugen", "label": "Vor dem Saugen", "icon": "1️⃣" },
+          { "id": "nach-dem-saugen", "label": "Nach dem Saugen", "icon": "2️⃣" }
+        ],
+        "items": [
+          { "text": "🛏️ Bettwäsche abziehen", "bucket": "vor-dem-saugen" },
+          { "text": "🧻 Staub wischen", "bucket": "vor-dem-saugen" },
+          { "text": "✨ Bett frisch beziehen", "bucket": "vor-dem-saugen" },
+          { "text": "🧽 Boden wischen", "bucket": "nach-dem-saugen" },
+          { "text": "👀 Endkontrolle machen", "bucket": "nach-dem-saugen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Du bist mit dem Saugen fertig. Was machst du direkt danach?",
+        "options": [
+          { "text": "Ich wische den Boden.", "correct": true },
+          { "text": "Ich ziehe die Bettwäsche ab." },
+          { "text": "Ich wische noch mal Staub." }
+        ],
+        "explanation": "Erst saugen, dann wischen. So wird der Boden richtig sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Geschafft! Eine leichte Frage zum Schluss: Was ziehst du im Schlafzimmer zuerst ab?",
+        "options": [
+          { "text": "Die Bettwäsche.", "correct": true },
+          { "text": "Den Teppich." },
+          { "text": "Die Gardinen." }
+        ],
+        "explanation": "Richtig! Zuerst die Bettwäsche abziehen. Du hast es dir gemerkt! 🌟"
+      }
+    }
+  ]
+}

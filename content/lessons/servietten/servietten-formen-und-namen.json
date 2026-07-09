@@ -1,0 +1,94 @@
+{
+  "topic_slug": "servietten",
+  "slug": "servietten-formen-und-namen",
+  "title": "Formen und Namen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Servietten kann man schön falten. Jede Form hat einen Namen. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🪭 Viele kleine Falten nebeneinander" }, "right": { "text": "Fächer" } },
+          { "left": { "text": "🕯️ Eng gerollt, steht hoch und schmal" }, "right": { "text": "Kerze" } },
+          { "left": { "text": "✉️ Eine Tasche für Messer und Gabel" }, "right": { "text": "Bestecktasche" } },
+          { "left": { "text": "👑 Steht spitz wie eine Krone" }, "right": { "text": "Bischofsmütze" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Serviette hat viele kleine Falten. Sie sieht aus wie zum Luft-Wedeln. 🪭 Wie heißt diese Form?",
+        "options": [
+          { "text": "Fächer", "correct": true },
+          { "text": "Kerze" },
+          { "text": "Bestecktasche" }
+        ],
+        "explanation": "Richtig ist: Fächer. Mit einem Fächer wedelt man sich Luft zu. Die Serviette sieht genauso aus. 🪭"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Serviette ist eng gerollt. Sie steht hoch und schmal. 🕯️ Wie heißt diese Form?",
+        "options": [
+          { "text": "Kerze", "correct": true },
+          { "text": "Fächer" },
+          { "text": "Bischofsmütze" }
+        ],
+        "explanation": "Richtig ist: Kerze. Die gerollte Serviette steht hoch und schmal. Genau wie eine Kerze. 🕯️"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "In dieser Serviette stecken Messer und Gabel. ✉️ Wie heißt diese Form?",
+        "options": [
+          { "text": "Bestecktasche", "correct": true },
+          { "text": "Kerze" },
+          { "text": "Fächer" }
+        ],
+        "explanation": "Richtig ist: Bestecktasche. Die Serviette ist wie eine kleine Tasche. Das Besteck steckt darin. 🍴"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Serviette steht spitz auf dem Teller. Sie sieht aus wie eine Mütze oder Krone. 👑 Wie heißt diese Form?",
+        "options": [
+          { "text": "Bischofsmütze", "correct": true },
+          { "text": "Bestecktasche" },
+          { "text": "Kerze" }
+        ],
+        "explanation": "Richtig ist: Bischofsmütze. Ein Bischof trägt eine hohe, spitze Mütze. Die Serviette sieht genauso aus. 👑"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory! 🧠 Finde die Paare: Bild und Name.",
+        "pairs": [
+          { "left": { "text": "🪭" }, "right": { "text": "Fächer" } },
+          { "left": { "text": "🕯️" }, "right": { "text": "Kerze" } },
+          { "left": { "text": "✉️" }, "right": { "text": "Bestecktasche" } },
+          { "left": { "text": "👑" }, "right": { "text": "Bischofsmütze" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Womit faltest du Servietten?",
+        "options": [
+          { "text": "Mit meinen Händen. 🙌", "correct": true },
+          { "text": "Mit dem Staubsauger." },
+          { "text": "Mit einem Kochtopf." }
+        ],
+        "explanation": "Genau! Du faltest mit deinen Händen. Langsam und in Ruhe. Das klappt super. 🙌"
+      }
+    }
+  ]
+}

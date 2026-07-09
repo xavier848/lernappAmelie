@@ -1,0 +1,98 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-clever-arbeiten",
+  "title": "Clever arbeiten",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Du sprühst Reiniger ins Waschbecken und ins WC. Der Reiniger muss einwirken. Was machst du?",
+        "options": [
+          { "text": "Ich putze in der Zeit einen anderen Raum.", "correct": true },
+          { "text": "Ich stehe daneben und warte." },
+          { "text": "Ich wische den Reiniger sofort wieder ab." }
+        ],
+        "explanation": "Der Reiniger arbeitet für dich. Nutze die Zeit und putze woanders weiter. Das ist clever!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Warum putzt du die Böden immer ganz zuletzt?",
+        "options": [
+          { "text": "Beim Putzen fällt Schmutz nach unten auf den Boden.", "correct": true },
+          { "text": "Weil man Böden gar nicht putzen muss." },
+          { "text": "Weil der Lappen am Anfang zu trocken ist." }
+        ],
+        "explanation": "Erst alles oben putzen. Der Schmutz fällt nach unten. Der Boden kommt ganz zum Schluss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Du wischst den Boden. In welche Richtung arbeitest du?",
+        "options": [
+          { "text": "Rückwärts zur Tür.", "correct": true },
+          { "text": "Von der Tür weg in die Ecke hinein." },
+          { "text": "Einfach kreuz und quer." }
+        ],
+        "explanation": "Wische rückwärts zur Tür. So läufst du nicht über den nassen Boden."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧠 Arbeiten verbinden – so geht es schlau. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧴 Im Bad Reiniger einsprühen." },
+          { "text": "🛏️ In der Einwirkzeit die Betten frisch beziehen." },
+          { "text": "🛁 Zurück ins Bad: alles abwischen und nachspülen." },
+          { "text": "🧹 Ganz zum Schluss die Böden." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⏰ Machst du das am Anfang oder am Ende?",
+        "buckets": [
+          { "id": "anfang", "label": "Am Anfang", "icon": "🌅" },
+          { "id": "ende", "label": "Am Ende", "icon": "🏁" }
+        ],
+        "items": [
+          { "text": "🪟 Fenster öffnen", "bucket": "anfang" },
+          { "text": "🗑️ Müll einsammeln", "bucket": "anfang" },
+          { "text": "🧴 Reiniger im Bad einsprühen", "bucket": "anfang" },
+          { "text": "💧 Böden wischen", "bucket": "ende" },
+          { "text": "🪟 Fenster schließen", "bucket": "ende" },
+          { "text": "🔑 Tür abschließen", "bucket": "ende" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏁 Die Abschluss-Runde: Alles fertig? Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪟 Alle Fenster schließen." },
+          { "text": "🗑️ Müllbeutel zubinden und mitnehmen." },
+          { "text": "👀 End-Kontrolle: einmal durch alle Räume schauen." },
+          { "text": "🔑 Tür abschließen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗑️ Du gehst als Letztes aus der Tür. Was nimmst du mit nach draußen?",
+        "options": [
+          { "text": "Den vollen Müllbeutel.", "correct": true },
+          { "text": "Das Sofa." },
+          { "text": "Den Kühlschrank." }
+        ],
+        "explanation": "Der Müll geht mit raus in die Mülltonne. Geschafft – super Arbeit! 🎉"
+      }
+    }
+  ]
+}

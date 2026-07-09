@@ -1,0 +1,89 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-3",
+  "title": "Wechselgeld",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Was ist Wechselgeld?",
+        "options": [
+          { "text": "Das Geld, das du zurückbekommst, wenn du zu viel gegeben hast.", "correct": true },
+          { "text": "Geld aus einem anderen Land." },
+          { "text": "Geld, das man verschenkt." }
+        ],
+        "explanation": "Genau! Du gibst zum Beispiel 10 €. Es kostet aber nur 7 €. Dann bekommst du 3 € zurück. Das ist das Wechselgeld."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🥨 Die Brezel kostet 1,80 €. Der Kunde gibt dir 2 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 180,
+        "given": 200
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🧃 Der Saft kostet 3,50 €. Der Kunde gibt dir 5 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 350,
+        "given": 500
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Du bekommst Wechselgeld zurück. Warum zählst du es nach?",
+        "options": [
+          { "text": "So merke ich, ob der Betrag stimmt.", "correct": true },
+          { "text": "Nachzählen bringt nichts." },
+          { "text": "Damit das Geld schöner aussieht." }
+        ],
+        "explanation": "Richtig! Beim Herausgeben passieren manchmal Fehler. Zähle dein Wechselgeld immer in Ruhe nach."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🧴 Das Shampoo kostet 7,20 €. Der Kunde gibt dir 10 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 720,
+        "given": 1000
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🎁 Das Geschenk kostet 12,40 €. Der Kunde gibt dir 20 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 1240,
+        "given": 2000
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Wie viel Geld kommt zurück? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Kostet 1 €. Du gibst 2 €." }, "right": { "text": "1 € zurück" } },
+          { "left": { "text": "Kostet 3 €. Du gibst 5 €." }, "right": { "text": "2 € zurück" } },
+          { "left": { "text": "Kostet 5 €. Du gibst 10 €." }, "right": { "text": "5 € zurück" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz einfach. Es kostet 1,50 €. Der Kunde gibt dir 2 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 150,
+        "given": 200
+      }
+    }
+  ]
+}

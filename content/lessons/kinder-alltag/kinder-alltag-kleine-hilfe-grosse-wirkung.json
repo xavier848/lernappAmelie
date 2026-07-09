@@ -1,0 +1,111 @@
+{
+  "topic_slug": "kinder-alltag",
+  "slug": "kinder-alltag-kleine-hilfe-grosse-wirkung",
+  "title": "Kleine Hilfe, große Wirkung",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩹 Ein Kind hat einen kleinen Kratzer am Knie. Was machst du?",
+        "options": [
+          { "text": "🩹 Ich klebe ein Pflaster auf die kleine Wunde. Danach sage ich einer Fachkraft Bescheid.", "correct": true },
+          { "text": "⏳ Ich warte einfach bis zum Abend." },
+          { "text": "😠 Ich schimpfe mit dem Kind." }
+        ],
+        "explanation": "Richtig! Auf eine kleine Wunde kommt ein Pflaster. Und ganz wichtig: Sag immer einer erwachsenen Fachkraft Bescheid."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Ein Kind stößt sich den Kopf. Es bekommt eine Beule. Was machst du?",
+        "options": [
+          { "text": "🧊 Ich kühle die Beule. Und ich sage einer Fachkraft Bescheid.", "correct": true },
+          { "text": "🔥 Ich lege etwas Warmes auf die Beule." },
+          { "text": "🙈 Ich mache gar nichts." }
+        ],
+        "explanation": "Genau! Kühlen hilft gegen die Schwellung. Wickle das Kühlpack in ein Tuch. Und sag immer der Fachkraft Bescheid."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩸 Ein Kind hat Nasenbluten. Wie hält es den Kopf am besten?",
+        "options": [
+          { "text": "⬇️ Leicht nach vorne", "correct": true },
+          { "text": "⬆️ Weit nach hinten" },
+          { "text": "🛏️ Es legt sich flach auf den Rücken." }
+        ],
+        "explanation": "Richtig! Kopf leicht nach vorne. So kann das Blut ablaufen. Es läuft nicht in den Hals. Und dann: Fachkraft Bescheid sagen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Du hast einem Kind geholfen. Was machst du danach immer?",
+        "options": [
+          { "text": "👩‍🏫 Ich sage einer erwachsenen Fachkraft Bescheid.", "correct": true },
+          { "text": "🤫 Ich behalte es für mich." },
+          { "text": "👧 Ich erzähle es nur den anderen Kindern." }
+        ],
+        "explanation": "Genau! Die Fachkraft muss immer Bescheid wissen. Sie entscheidet, was noch zu tun ist. Das ist die goldene Regel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Sortiere: Was darfst du selbst tun? Was ist nicht deine Aufgabe?",
+        "buckets": [
+          { "id": "darfst-du", "label": "Das darfst du tun", "icon": "💚" },
+          { "id": "nicht-deine-aufgabe", "label": "Nicht deine Aufgabe", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "🩹 Pflaster auf einen kleinen Kratzer kleben", "bucket": "darfst-du" },
+          { "text": "🧊 Eine Beule kühlen", "bucket": "darfst-du" },
+          { "text": "🤗 Das Kind trösten", "bucket": "darfst-du" },
+          { "text": "🩺 Eine Krankheit feststellen (Diagnose)", "bucket": "nicht-deine-aufgabe" },
+          { "text": "💊 Medikamente geben", "bucket": "nicht-deine-aufgabe" },
+          { "text": "😠 Den Eltern Vorwürfe machen", "bucket": "nicht-deine-aufgabe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Dir fällt auf: Ein Kind spricht viel weniger als die anderen Kinder. Was tust du?",
+        "options": [
+          { "text": "🗣️ Ich erzähle der Fachkraft ruhig, was ich beobachtet habe.", "correct": true },
+          { "text": "🩺 Ich stelle selbst fest, welche Krankheit das Kind hat." },
+          { "text": "😠 Ich sage den Eltern, dass sie etwas falsch machen." }
+        ],
+        "explanation": "Super! Du bist aufmerksam. Aber Diagnosen stellen nur Fachleute, zum Beispiel Ärztinnen. Du gibst deine Beobachtung weiter. Mehr nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Dir fällt auf: Ein Kind stolpert sehr oft. Was machst du?",
+        "options": [
+          { "text": "📝 Ich beobachte es und sage es der Fachkraft.", "correct": true },
+          { "text": "🏃 Ich sage dem Kind, es soll sich mehr anstrengen." },
+          { "text": "🤷 Nichts. Das geht mich nichts an." }
+        ],
+        "explanation": "Genau! Auffälligkeiten nimmst du wahr. Dann gibst du sie an die Fachkraft weiter. Das ist eine große Hilfe."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🩹 Zum Schluss: Pflaster kleben. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧼 Hände waschen." },
+          { "text": "👀 Die Wunde ansehen." },
+          { "text": "📦 Pflaster auspacken." },
+          { "text": "🩹 Pflaster auf die Wunde kleben." },
+          { "text": "🗣️ Der Fachkraft Bescheid sagen." }
+        ]
+      }
+    }
+  ]
+}

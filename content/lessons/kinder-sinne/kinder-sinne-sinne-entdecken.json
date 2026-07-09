@@ -1,0 +1,114 @@
+{
+  "topic_slug": "kinder-sinne",
+  "slug": "kinder-sinne-sinne-entdecken",
+  "title": "Die Sinne spielend entdecken",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎲 Welches Spiel übt welchen Sinn? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "📦 Fühlkiste" }, "right": { "text": "🖐️ Tasten" } },
+          { "left": { "text": "🌶️ Gewürze erraten" }, "right": { "text": "👃 Riechen" } },
+          { "left": { "text": "🔔 Geräusche erraten" }, "right": { "text": "👂 Hören" } },
+          { "left": { "text": "🌈 Farben suchen" }, "right": { "text": "👀 Sehen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Sortiere die Spiele zum richtigen Sinn.",
+        "buckets": [
+          { "id": "hoeren", "label": "Hören", "icon": "👂" },
+          { "id": "tasten", "label": "Tasten", "icon": "🖐️" },
+          { "id": "schmecken", "label": "Schmecken", "icon": "👅" }
+        ],
+        "items": [
+          { "text": "🐦 Vogelstimmen erraten", "bucket": "hoeren" },
+          { "text": "🎵 Eine Klanggeschichte hören", "bucket": "hoeren" },
+          { "text": "🪨 Glatt oder rau fühlen", "bucket": "tasten" },
+          { "text": "🧊 Warm oder kalt fühlen", "bucket": "tasten" },
+          { "text": "🍋 Süß oder sauer probieren", "bucket": "schmecken" },
+          { "text": "🥨 Salzig probieren", "bucket": "schmecken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤸 Womit übt ein Kind das Gleichgewicht?",
+        "options": [
+          { "text": "🦵 Auf einem Bein stehen.", "correct": true },
+          { "text": "🌶️ Gewürze riechen." },
+          { "text": "📖 Ein Bilderbuch anschauen." }
+        ],
+        "explanation": "Richtig! Auf einem Bein stehen übt das Gleichgewicht. Auch gut: über eine Linie balancieren oder Baum im Wind spielen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦵 Du fragst ein Kind: Wo ist dein Knie? Was übt das Kind dabei?",
+        "options": [
+          { "text": "🧍 Die Körperwahrnehmung.", "correct": true },
+          { "text": "👃 Das Riechen." },
+          { "text": "👅 Das Schmecken." }
+        ],
+        "explanation": "Genau! Das Kind lernt seinen Körper kennen. Das nennt man Körperwahrnehmung. Auch Bewegungen nachmachen übt das."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍋 Ein Kind probiert ein Stück Zitrone. Welchen Sinn übt es?",
+        "options": [
+          { "text": "👅 Das Schmecken.", "correct": true },
+          { "text": "👂 Das Hören." },
+          { "text": "🤸 Das Gleichgewicht." }
+        ],
+        "explanation": "Richtig! Die Zunge schmeckt: süß, sauer, salzig und bitter. Die Zitrone ist sauer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌳 Die Kinder spielen Baum im Wind. Sie stehen und schwanken hin und her. Was üben sie?",
+        "options": [
+          { "text": "🤸 Das Gleichgewicht.", "correct": true },
+          { "text": "👃 Das Riechen." },
+          { "text": "👀 Das Sehen." }
+        ],
+        "explanation": "Super! Beim Schwanken muss der Körper die Balance halten. Das übt das Gleichgewicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Welches Körperteil gehört zu welchem Sinn? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "👀 Augen" }, "right": { "text": "Sehen" } },
+          { "left": { "text": "👂 Ohren" }, "right": { "text": "Hören" } },
+          { "left": { "text": "👃 Nase" }, "right": { "text": "Riechen" } },
+          { "left": { "text": "👅 Zunge" }, "right": { "text": "Schmecken" } },
+          { "left": { "text": "🖐️ Haut" }, "right": { "text": "Tasten" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Womit hörst du?",
+        "options": [
+          { "text": "👂 Mit den Ohren.", "correct": true },
+          { "text": "🦶 Mit den Füßen." },
+          { "text": "👃 Mit der Nase." }
+        ],
+        "explanation": "Super gemacht! Mit den Ohren hörst du. Zum Beispiel Vogelstimmen und Musik."
+      }
+    }
+  ]
+}

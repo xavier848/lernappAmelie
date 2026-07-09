@@ -1,0 +1,111 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-3",
+  "title": "Wunsch oder Bedürfnis?",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧡 Was ist ein Bedürfnis?",
+        "options": [
+          { "text": "Etwas, das du wirklich brauchst.", "correct": true },
+          { "text": "Etwas, das nur schön wäre." },
+          { "text": "Etwas, das teuer ist." }
+        ],
+        "explanation": "Ein Bedürfnis brauchst du zum Leben oder für deine Sicherheit. Zum Beispiel Essen, Zahnpasta oder eine warme Jacke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⭐ Was ist ein Wunsch?",
+        "options": [
+          { "text": "Etwas, das schön wäre. Aber du brauchst es nicht sofort.", "correct": true },
+          { "text": "Etwas, das du zum Leben brauchst." },
+          { "text": "Etwas, das man nie kaufen darf." }
+        ],
+        "explanation": "Wünsche sind toll und völlig ok! Du musst sie nur nicht sofort kaufen. Erst kommen die Bedürfnisse."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Sortiere: Wunsch oder Bedürfnis?",
+        "buckets": [
+          { "id": "beduerfnis", "label": "Bedürfnis", "icon": "🧡" },
+          { "id": "wunsch", "label": "Wunsch", "icon": "⭐" }
+        ],
+        "items": [
+          { "text": "🧥 Warme Winterjacke", "bucket": "beduerfnis" },
+          { "text": "🍫 Schokolade", "bucket": "wunsch" },
+          { "text": "🪥 Zahnpasta", "bucket": "beduerfnis" },
+          { "text": "📱 Neues Handy, obwohl das alte noch geht", "bucket": "wunsch" },
+          { "text": "🐴 Neuer Reithelm, dein alter ist kaputt", "bucket": "beduerfnis" },
+          { "text": "👟 Drittes Paar Sneaker", "bucket": "wunsch" },
+          { "text": "🛒 Lebensmittel", "bucket": "beduerfnis" },
+          { "text": "🎬 Kino-Abend", "bucket": "wunsch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐴 Dein Reithelm ist kaputt. Warum ist ein neuer Helm ein Bedürfnis?",
+        "options": [
+          { "text": "Der Helm schützt deinen Kopf beim Reiten.", "correct": true },
+          { "text": "Ein neuer Helm sieht einfach schöner aus." },
+          { "text": "Alle anderen haben auch einen neuen Helm." }
+        ],
+        "explanation": "Sicherheit geht vor! Ein kaputter Helm schützt dich nicht mehr. Darum ist ein neuer Helm ein Bedürfnis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Du hast diesen Monat nur noch 10 €. Was kaufst du zuerst?",
+        "options": [
+          { "text": "🪥 Neue Zahnpasta. Meine ist leer.", "correct": true },
+          { "text": "🍫 Schokolade." },
+          { "text": "🎬 Eine Kino-Karte." }
+        ],
+        "explanation": "Zahnpasta brauchst du jeden Tag. Sie ist ein Bedürfnis. Schokolade und Kino sind Wünsche. Die können warten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛍️ Du siehst etwas Schönes im Laden. So entscheidest du klug.",
+        "steps": [
+          { "text": "✋ Stopp! Nicht sofort kaufen." },
+          { "text": "🤔 Frag dich: Brauche ich das wirklich?" },
+          { "text": "🧡 Ist es ein Bedürfnis? Dann kaufe es." },
+          { "text": "⭐ Ist es ein Wunsch? Dann schau auf dein Geld." },
+          { "text": "💰 Ist genug Geld übrig? Dann darfst du dir den Wunsch erfüllen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💛 Sind Wünsche etwas Schlechtes?",
+        "options": [
+          { "text": "Nein! Wünsche sind ok. Erst die Bedürfnisse, dann die Wünsche.", "correct": true },
+          { "text": "Ja. Wünsche darf man sich nie erfüllen." }
+        ],
+        "explanation": "Wünsche machen das Leben schön. Plane zuerst deine Bedürfnisse. Mit dem Rest darfst du dir gerne Wünsche erfüllen. 😊"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Zahnpasta: Wunsch oder Bedürfnis?",
+        "options": [
+          { "text": "Bedürfnis.", "correct": true },
+          { "text": "Wunsch." }
+        ],
+        "explanation": "Genau! Zahnpasta brauchst du jeden Tag. 🎉"
+      }
+    }
+  ]
+}

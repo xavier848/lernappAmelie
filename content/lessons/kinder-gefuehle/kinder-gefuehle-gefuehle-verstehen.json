@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-gefuehle",
+  "slug": "kinder-gefuehle-gefuehle-verstehen",
+  "title": "Gefühle erkennen und benennen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💛 Welches Gesicht zeigt welches Gefühl? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "😄" }, "right": { "text": "Freude" } },
+          { "left": { "text": "😢" }, "right": { "text": "Trauer" } },
+          { "left": { "text": "😠" }, "right": { "text": "Wut" } },
+          { "left": { "text": "😨" }, "right": { "text": "Angst" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧱 Ein Kind weint. Sein Turm ist umgefallen. Was fühlt es?",
+        "options": [
+          { "text": "😢 Es ist traurig und frustriert.", "correct": true },
+          { "text": "😄 Es freut sich sehr." },
+          { "text": "😴 Es ist müde." }
+        ],
+        "explanation": "Richtig! Der Turm war dem Kind wichtig. Jetzt ist es traurig und frustriert. Du kannst sagen: Ich sehe, du bist traurig. Wir bauen den Turm zusammen neu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦶 Ein Kind stampft mit dem Fuß. Es schreit: Nein! Nein! Was ist das?",
+        "options": [
+          { "text": "😠 Wut. Das Kind ist in der Trotzphase.", "correct": true },
+          { "text": "😨 Angst vor dem Dunkeln." },
+          { "text": "🤒 Das Kind ist krank." }
+        ],
+        "explanation": "Genau! Das Kind ist wütend. Das nennt man Trotzphase. Die Trotzphase ist ganz normal. Das Kind lernt gerade, was es selbst will."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Ein Kind ist wütend. Was hilft dem Kind?",
+        "options": [
+          { "text": "💬 Das Gefühl benennen: Ich sehe, du bist wütend.", "correct": true },
+          { "text": "🙈 Das Kind ignorieren." },
+          { "text": "😠 Zurückschreien." }
+        ],
+        "explanation": "Super! Du benennst das Gefühl. So fühlt sich das Kind verstanden. Danach könnt ihr zusammen eine Lösung suchen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😨 Woran erkennst du, dass ein Kind Angst hat?",
+        "options": [
+          { "text": "🙈 Es versteckt sich, weint oder klammert sich fest.", "correct": true },
+          { "text": "😄 Es lacht und hüpft herum." },
+          { "text": "🍽️ Es isst sein Essen auf." }
+        ],
+        "explanation": "Richtig! Bei Angst versteckt sich ein Kind oft. Es weint oder klammert sich an dich. Dann braucht es Trost und Nähe."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎭 Welches Gefühl passt zur Situation? Sortiere.",
+        "buckets": [
+          { "id": "freude", "label": "Freude", "icon": "😄" },
+          { "id": "trauer", "label": "Trauer", "icon": "😢" },
+          { "id": "wut", "label": "Wut", "icon": "😠" }
+        ],
+        "items": [
+          { "text": "🎂 Das Kind feiert Geburtstag.", "bucket": "freude" },
+          { "text": "🧸 Das Kuscheltier ist weg.", "bucket": "trauer" },
+          { "text": "🍦 Es gibt kein Eis. Das Kind schreit.", "bucket": "wut" },
+          { "text": "🎠 Das Kind darf Karussell fahren.", "bucket": "freude" },
+          { "text": "👋 Die Mama geht weg. Das Kind weint.", "bucket": "trauer" },
+          { "text": "🧱 Der Turm klappt nicht. Das Kind wirft den Klotz.", "bucket": "wut" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧥 Ein Kind übt, die Jacke selbst anzuziehen. Es klappt noch nicht. Was machst du?",
+        "options": [
+          { "text": "💪 Ich mache Mut und lasse das Kind weiter üben.", "correct": true },
+          { "text": "🏃 Ich mache es schnell selbst." },
+          { "text": "🙄 Ich sage: Das kannst du nicht." }
+        ],
+        "explanation": "Genau! Das Kind lernt so, Frust auszuhalten. Wenn es die Jacke dann schafft, ist es stolz. Das stärkt sein Selbstvertrauen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 Du schaust mit einem Kind ein Bilderbuch an. Was kannst du fragen?",
+        "options": [
+          { "text": "💬 Wie fühlt sich der Junge im Buch gerade?", "correct": true },
+          { "text": "🤫 Am besten fragst du gar nichts." },
+          { "text": "💶 Was kostet das Buch?" }
+        ],
+        "explanation": "Super! Mit Bilderbüchern lernen Kinder Gefühle kennen. Frage zum Beispiel: Warum ist das Mädchen traurig? Woran siehst du das?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Welches Gesicht zeigt Freude?",
+        "options": [
+          { "text": "😄", "correct": true },
+          { "text": "😢" },
+          { "text": "😠" }
+        ],
+        "explanation": "Super gemacht! 😄 ist ein fröhliches Gesicht. Das Kind freut sich."
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "topic_slug": "kinder-spielen",
+  "slug": "kinder-spielen-so-lernen-kinder-spielen",
+  "title": "So lernen Kinder spielen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧩 Wie lernen Kinder miteinander spielen? Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧸 Das Kind spielt alleine." },
+          { "text": "👥 Kinder spielen nebeneinander. Jedes für sich." },
+          { "text": "🤝 Kinder spielen miteinander." },
+          { "text": "💛 Kinder lernen zu teilen." },
+          { "text": "🎲 Kinder halten sich an gemeinsame Regeln." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧩 Was lernt ein Kind beim Puzzeln?",
+        "options": [
+          { "text": "👀 Formen erkennen und sich konzentrieren", "correct": true },
+          { "text": "🏊 Schwimmen" },
+          { "text": "🎤 Laut singen" }
+        ],
+        "explanation": "Beim Puzzeln schaut das Kind genau hin. Es erkennt Formen. Und es übt, bei einer Sache zu bleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧱 Ein Kind stößt seinen Bauklotz-Turm an. Was passiert?",
+        "options": [
+          { "text": "💥 Der Turm fällt um.", "correct": true },
+          { "text": "🎈 Der Turm fliegt weg." },
+          { "text": "🧱 Der Turm wird größer." }
+        ],
+        "explanation": "Genau! Der Turm fällt um. So lernt das Kind: Ursache und Wirkung. Wenn ich etwas anstoße, dann fällt es."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎯 Welches Spiel übt was? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧩 Puzzle" }, "right": { "text": "Formen erkennen" } },
+          { "left": { "text": "🃏 Memory" }, "right": { "text": "Sich Dinge merken" } },
+          { "left": { "text": "🎲 Brettspiel" }, "right": { "text": "Regeln verstehen" } },
+          { "left": { "text": "🛒 Kaufladen" }, "right": { "text": "Zahlen und Mengen" } },
+          { "left": { "text": "🧱 Bauklötze" }, "right": { "text": "Ursache und Wirkung" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧠💛 Was übt das Denken? Was übt das Miteinander? Sortiere.",
+        "buckets": [
+          { "id": "denken", "label": "Denken", "icon": "🧠" },
+          { "id": "miteinander", "label": "Miteinander", "icon": "💛" },
+          { "id": "beides", "label": "Beides", "icon": "🌟" }
+        ],
+        "items": [
+          { "text": "Farben erkennen", "bucket": "denken" },
+          { "text": "Teilen", "bucket": "miteinander" },
+          { "text": "Mengen vergleichen", "bucket": "denken" },
+          { "text": "Rücksicht nehmen", "bucket": "miteinander" },
+          { "text": "Sich Dinge merken", "bucket": "denken" },
+          { "text": "Gemeinsam nach Regeln spielen", "bucket": "beides" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏖️ Zwei kleine Kinder sitzen im Sandkasten. Jedes buddelt für sich. Wie heißt das?",
+        "options": [
+          { "text": "👥 Nebeneinander spielen", "correct": true },
+          { "text": "🤝 Miteinander spielen" },
+          { "text": "😴 Schlafen" }
+        ],
+        "explanation": "Richtig! Kleine Kinder spielen oft nebeneinander. Jedes spielt für sich. Miteinander spielen kommt erst später."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Zwei Kinder streiten um ein Spielzeug. Was hilft?",
+        "options": [
+          { "text": "😌 Ruhig bleiben. Die Kinder wechseln sich ab.", "correct": true },
+          { "text": "😱 Laut schreien." },
+          { "text": "🗑️ Das Spielzeug wegwerfen." }
+        ],
+        "explanation": "Bleib ruhig. Sag den Kindern: Ihr wechselt euch ab. Erst du, dann du. So lernen Kinder, Streit zu lösen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Was lernen Kinder beim Spielen?",
+        "options": [
+          { "text": "🎉 Ganz viel! Spielen ist Lernen.", "correct": true },
+          { "text": "🚫 Gar nichts." },
+          { "text": "🥱 Nur Langeweile." }
+        ],
+        "explanation": "Super! Spielen ist die beste Art zu lernen. Kinder üben dabei Denken, Bewegen und das Miteinander."
+      }
+    }
+  ]
+}

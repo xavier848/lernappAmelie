@@ -1,0 +1,100 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-zahlen-und-fruehstueck",
+  "title": "Zahlen und Frühstück",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Englische Zahlen und Uhrzeiten: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "eight" }, "right": { "text": "8" } },
+          { "left": { "text": "ten" }, "right": { "text": "10" } },
+          { "left": { "text": "half past nine" }, "right": { "text": "halb zehn 🕤" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst dem Gast: Breakfast is from eight to ten. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Frühstück gibt es von 8 bis 10 Uhr. 🥐", "correct": true },
+          { "text": "Frühstück gibt es von 10 bis 12 Uhr." },
+          { "text": "Heute gibt es kein Frühstück." }
+        ],
+        "explanation": "Richtig! Eight heißt 8. Ten heißt 10. Breakfast heißt Frühstück. 🥐"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Frühstück gibt es um 8 Uhr. 🥐",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Breakfast" },
+          { "text": "is" },
+          { "text": "at" },
+          { "text": "eight" },
+          { "text": "o'clock" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Was heißt eight auf Deutsch?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Acht (8)", "correct": true },
+          { "text": "Zehn (10)" },
+          { "text": "Drei (3)" }
+        ],
+        "explanation": "Genau! Eight heißt acht. Die 8 brauchst du für die Frühstückszeit. 🕗"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: When is breakfast? Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wann es Frühstück gibt. 🥐", "correct": true },
+          { "text": "Wo der Schlüssel ist." },
+          { "text": "Wann er abreisen muss." }
+        ],
+        "explanation": "Richtig! When heißt wann. Breakfast heißt Frühstück. 🥐"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste reisen ab. 🚗 Was sagst du zum Abschied?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Goodbye! Safe travels! 👋", "correct": true },
+          { "text": "Welcome!" },
+          { "text": "Breakfast is at eight." }
+        ],
+        "explanation": "Genau! Goodbye heißt Auf Wiedersehen. Safe travels heißt: Gute Reise! 👋"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Zum Schluss ganz leicht! 😊 Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Goodbye! 👋" }, "right": { "text": "Auf Wiedersehen!" } },
+          { "left": { "text": "Safe travels! 🧳" }, "right": { "text": "Gute Reise!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

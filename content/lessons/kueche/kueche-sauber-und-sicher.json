@@ -1,0 +1,103 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-sauber-und-sicher",
+  "title": "Sauber und sicher in der Küche",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Du willst den Herd putzen. Er ist noch heiß. Was machst du?",
+        "options": [
+          { "text": "Ich warte, bis der Herd kalt ist.", "correct": true },
+          { "text": "Ich putze sofort mit einem nassen Lappen." },
+          { "text": "Ich fasse mit der Hand auf die Platte." }
+        ],
+        "explanation": "Ein heißer Herd kann dich verbrennen. Warte immer, bis er kalt ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Der Herd kühlt ab. Das dauert. Was machst du in der Zeit?",
+        "options": [
+          { "text": "Ich putze so lange etwas anderes. Zum Beispiel die Spüle.", "correct": true },
+          { "text": "Ich stehe davor und warte." },
+          { "text": "Ich mache Pause und schaue Videos." }
+        ],
+        "explanation": "Wartezeit kannst du nutzen. Putze in der Zeit die Spüle oder die Arbeitsfläche."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧐 Räum auf! Wohin gehört das?",
+        "buckets": [
+          { "id": "kuehlschrank", "label": "Kühlschrank", "icon": "❄️" },
+          { "id": "schrank", "label": "Schrank", "icon": "🗄️" },
+          { "id": "muell", "label": "Müll", "icon": "🗑️" }
+        ],
+        "items": [
+          { "text": "🥛 Milch", "bucket": "kuehlschrank" },
+          { "text": "🧈 Butter", "bucket": "kuehlschrank" },
+          { "text": "🧀 Käse", "bucket": "kuehlschrank" },
+          { "text": "🍝 Nudeln", "bucket": "schrank" },
+          { "text": "🌾 Mehl", "bucket": "schrank" },
+          { "text": "🥫 Dose Mais", "bucket": "schrank" },
+          { "text": "🍞 Brot mit Schimmel", "bucket": "muell" },
+          { "text": "🥣 Joghurt, lange abgelaufen", "bucket": "muell" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧴 Was gehört zusammen? Verbinde das Putzmittel mit seinem Einsatzort.",
+        "pairs": [
+          { "left": { "text": "🧴 Spülmittel" }, "right": { "text": "Schmutziges Geschirr" } },
+          { "left": { "text": "🧼 Allzweck-Reiniger" }, "right": { "text": "Arbeitsfläche" } },
+          { "left": { "text": "🧹 Besen" }, "right": { "text": "Krümel auf dem Boden" } },
+          { "left": { "text": "🧻 Geschirrtuch" }, "right": { "text": "Nasses Geschirr abtrocknen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Der Boden ist frisch gewischt. Er ist noch nass. Was machst du?",
+        "options": [
+          { "text": "Ich laufe nicht über den nassen Boden.", "correct": true },
+          { "text": "Ich renne schnell darüber." },
+          { "text": "Ich stelle mich mit Socken darauf." }
+        ],
+        "explanation": "Nasser Boden ist rutschig. Warte, bis er trocken ist. So fällst du nicht hin."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Finde die Paare: Welches Werkzeug macht welche Arbeit?",
+        "pairs": [
+          { "left": { "text": "🧽 Schwamm" }, "right": { "text": "Abwischen" } },
+          { "left": { "text": "🧹 Besen" }, "right": { "text": "Fegen" } },
+          { "left": { "text": "🧤 Handschuhe" }, "right": { "text": "Hände schützen" } },
+          { "left": { "text": "🗑️ Mülleimer" }, "right": { "text": "Müll sammeln" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Du willst deine Kleidung beim Putzen schützen. Was ziehst du an?",
+        "options": [
+          { "text": "Eine Schürze.", "correct": true },
+          { "text": "Eine Badehose." },
+          { "text": "Einen dicken Wintermantel." }
+        ],
+        "explanation": "Eine Schürze schützt deine Kleidung. Geschafft – super gemacht! 🎉"
+      }
+    }
+  ]
+}

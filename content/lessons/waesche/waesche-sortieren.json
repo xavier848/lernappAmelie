@@ -1,0 +1,101 @@
+{
+  "topic_slug": "waesche",
+  "slug": "waesche-sortieren",
+  "title": "Wäsche sortieren",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Der Wäschekorb ist voll. Was machst du zuerst?",
+        "options": [
+          { "text": "Ich sortiere die Wäsche: hell, dunkel, fein.", "correct": true },
+          { "text": "Ich stopfe alles zusammen in die Maschine." },
+          { "text": "Ich lege alles direkt in den Schrank." }
+        ],
+        "explanation": "Zuerst wird sortiert. So behalten deine Sachen ihre Farbe und ihre Form."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👕 Sortiere die Wäsche in die richtigen Haufen.",
+        "buckets": [
+          { "id": "hell", "label": "Helle Wäsche", "icon": "⚪" },
+          { "id": "dunkel", "label": "Dunkle Wäsche", "icon": "⚫" },
+          { "id": "fein", "label": "Feinwäsche", "icon": "🦋" }
+        ],
+        "items": [
+          { "text": "Weißes T-Shirt", "bucket": "hell" },
+          { "text": "Helles Bettlaken", "bucket": "hell" },
+          { "text": "Weiße Socken", "bucket": "hell" },
+          { "text": "Schwarze Hose", "bucket": "dunkel" },
+          { "text": "Blaue Jeans", "bucket": "dunkel" },
+          { "text": "Schwarzes T-Shirt", "bucket": "dunkel" },
+          { "text": "Woll-Pullover", "bucket": "fein" },
+          { "text": "Seiden-Bluse", "bucket": "fein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Du weißt nicht, wie warm du ein Kleidungsstück waschen darfst. Was machst du?",
+        "options": [
+          { "text": "Ich schaue auf das Pflege-Etikett. Das ist der kleine Zettel innen.", "correct": true },
+          { "text": "Ich wasche einfach immer ganz heiß." },
+          { "text": "Ich rate einfach." }
+        ],
+        "explanation": "Auf dem Etikett steht die richtige Temperatur. Zum Beispiel: 30 oder 60 Grad."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔴 Ups! Eine rote Socke liegt in der weißen Wäsche. Du wäschst sie mit. Was passiert?",
+        "options": [
+          { "text": "Die weiße Wäsche wird rosa.", "correct": true },
+          { "text": "Nichts. Das ist egal." },
+          { "text": "Die rote Socke wird weiß." }
+        ],
+        "explanation": "Rote Farbe färbt ab. Darum ist gutes Sortieren so wichtig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧺 Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🏷️ Pflege-Etikett" }, "right": { "text": "Zeigt die Wasch-Temperatur" } },
+          { "left": { "text": "🦋 Feinwäsche" }, "right": { "text": "Wolle und Seide" } },
+          { "left": { "text": "⚪ Helle Wäsche" }, "right": { "text": "Weißes T-Shirt" } },
+          { "left": { "text": "⚫ Dunkle Wäsche" }, "right": { "text": "Schwarze Hose" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👖 Vor dem Waschen: Was machst du mit den Hosen-Taschen?",
+        "options": [
+          { "text": "Ich mache alle Taschen leer.", "correct": true },
+          { "text": "Ich lasse alles drin." },
+          { "text": "Ich stecke noch ein Taschentuch hinein." }
+        ],
+        "explanation": "Ein Taschentuch in der Wäsche macht viele Fussel. Also: Taschen immer leeren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚪ Ein weißes Handtuch. Zu welchem Haufen gehört es?",
+        "options": [
+          { "text": "Zur hellen Wäsche.", "correct": true },
+          { "text": "Zur dunklen Wäsche." }
+        ],
+        "explanation": "Weiß gehört zur hellen Wäsche. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-fragen-verstehen",
+  "title": "Fragen verstehen",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: When is check-out? 🕙 Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wann muss ich ausziehen?", "correct": true },
+          { "text": "Wo gibt es Frühstück?" },
+          { "text": "Wie wird das Wetter?" }
+        ],
+        "explanation": "Richtig! Check-out heißt Abreise. Der Gast will wissen, wann er ausziehen muss. 🕙"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Fragen der Gäste: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Where is the bakery? 🥐" }, "right": { "text": "Wo ist die Bäckerei?" } },
+          { "left": { "text": "Can we have more towels? 🧻" }, "right": { "text": "Können wir mehr Handtücher haben?" } },
+          { "left": { "text": "When is check-out? 🕙" }, "right": { "text": "Wann ist die Abreise?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Antwort: Die Abreise ist um 10 Uhr. 🕙",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Check-out" },
+          { "text": "is" },
+          { "text": "at" },
+          { "text": "ten" },
+          { "text": "o'clock" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Can we have more towels? Was möchte er?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Mehr Handtücher. 🧻", "correct": true },
+          { "text": "Mehr Kissen." },
+          { "text": "Mehr Seife." }
+        ],
+        "explanation": "Richtig! Towels heißt Handtücher. Der Gast möchte mehr Handtücher. 🧻"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Where is the bakery? Was zeigst du ihm?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Den Weg zur Bäckerei. 🥐", "correct": true },
+          { "text": "Den Weg zur Apotheke." },
+          { "text": "Den Weg zum Bahnhof." }
+        ],
+        "explanation": "Genau! Bakery heißt Bäckerei. Where is heißt: Wo ist. 🥐"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wo ist die Bäckerei? 🥐",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Where" },
+          { "text": "is" },
+          { "text": "the" },
+          { "text": "bakery" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Was heißt towels auf Deutsch?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Handtücher 🧻", "correct": true },
+          { "text": "Teller" },
+          { "text": "Tische" }
+        ],
+        "explanation": "Super! Towels heißt Handtücher. Das Wort brauchst du oft. 🧻"
+      }
+    }
+  ]
+}

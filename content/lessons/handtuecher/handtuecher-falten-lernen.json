@@ -1,0 +1,97 @@
+{
+  "topic_slug": "handtuecher",
+  "slug": "handtuecher-falten-lernen",
+  "title": "Handtücher falten lernen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst ein Handtuch falten. 🧺 Was machst du zuerst?",
+        "options": [
+          { "text": "Ich lege es glatt hin.", "correct": true },
+          { "text": "Ich knülle es zusammen." },
+          { "text": "Ich lege es nass in den Schrank." }
+        ],
+        "explanation": "Richtig! Erst glatt hinlegen. Dann wird die Faltung schön gerade. ✨"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "So geht die Grund-Faltung. 🧺 Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Das Handtuch glatt hinlegen." },
+          { "text": "Mit der Hand glatt streichen." },
+          { "text": "Das Handtuch längs in drei Teile falten." },
+          { "text": "Das Handtuch einmal in der Mitte falten." },
+          { "text": "Die glatte Kante nach vorne legen. ✨" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Warum legst du die glatte Kante nach vorne?",
+        "options": [
+          { "text": "Das sieht ordentlich aus. ✨", "correct": true },
+          { "text": "Das Handtuch trocknet dann schneller." },
+          { "text": "Das Handtuch wird dann weicher." }
+        ],
+        "explanation": "Genau! Die glatte Kante nach vorne sieht ordentlich aus. Wie im Hotel. ✨"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Jede Faltung hat ihren Ort. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🌀 Rolle" }, "right": { "text": "Wellnessbereich" } },
+          { "left": { "text": "📏 Drittelfaltung" }, "right": { "text": "Schrank" } },
+          { "left": { "text": "🎀 Dekofaltung" }, "right": { "text": "Gästezimmer" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wohin kommt welches Handtuch? Sortiere.",
+        "buckets": [
+          { "id": "wellness", "label": "Wellnessbereich", "icon": "🧖" },
+          { "id": "schrank", "label": "Schrank", "icon": "🗄️" },
+          { "id": "gaestezimmer", "label": "Gästezimmer", "icon": "🛏️" }
+        ],
+        "items": [
+          { "text": "🌀 Gerolltes Handtuch", "bucket": "wellness" },
+          { "text": "📏 Handtuch in Drittelfaltung", "bucket": "schrank" },
+          { "text": "🎀 Handtuch mit Dekofaltung", "bucket": "gaestezimmer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du machst den Wellnessbereich fertig. 🧖 Wie legst du die Handtücher hin?",
+        "options": [
+          { "text": "Ich rolle sie zu schönen Rollen. 🌀", "correct": true },
+          { "text": "Ich werfe sie auf einen Haufen." },
+          { "text": "Ich lasse sie im Wäschekorb." }
+        ],
+        "explanation": "Richtig! Im Wellnessbereich sehen Rollen besonders schön aus. 🌀"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Ein Gast kommt. Wie soll das Handtuch im Gästezimmer sein?",
+        "options": [
+          { "text": "Frisch und schön gefaltet. 🎀", "correct": true },
+          { "text": "Nass und zerknittert." },
+          { "text": "Auf dem Boden." }
+        ],
+        "explanation": "Genau! Ein frisches, schön gefaltetes Handtuch. Der Gast freut sich. 😊"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-hallo-und-willkommen",
+  "title": "Hallo und Willkommen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast kommt an. 🚗 Was sagst du zur Begrüßung?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Welcome! 😊", "correct": true },
+          { "text": "Goodbye!" },
+          { "text": "Sorry!" }
+        ],
+        "explanation": "Richtig! Welcome heißt Willkommen. Das sagst du, wenn ein Gast ankommt. 😊"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Deutsch und Englisch: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Willkommen!" }, "right": { "text": "Welcome!" } },
+          { "left": { "text": "Hier ist Ihr Schlüssel. 🔑" }, "right": { "text": "Here is your key." } },
+          { "left": { "text": "Schönen Tag! ☀️" }, "right": { "text": "Have a nice day!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Willkommen in Ihrem Ferienhaus. 🏠",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Welcome" },
+          { "text": "to" },
+          { "text": "your" },
+          { "text": "holiday" },
+          { "text": "home" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Was heißt: Here is your key.",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Hier ist Ihr Schlüssel. 🔑", "correct": true },
+          { "text": "Hier ist Ihr Zimmer." },
+          { "text": "Hier ist Ihr Auto." }
+        ],
+        "explanation": "Richtig! Key heißt Schlüssel. Den Satz sagst du bei der Schlüssel-Übergabe. 🔑"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Gast geht zum Ausflug los. 🚶 Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Have a nice day! ☀️", "correct": true },
+          { "text": "Welcome!" },
+          { "text": "Here is your key." }
+        ],
+        "explanation": "Genau! Have a nice day heißt: Schönen Tag! Das wünschst du dem Gast. ☀️"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Hier ist Ihr Schlüssel. 🔑",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Here" },
+          { "text": "is" },
+          { "text": "your" },
+          { "text": "key" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Zum Schluss ganz leicht! 😊 Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Hallo! 👋" }, "right": { "text": "Hello!" } },
+          { "left": { "text": "Danke! 🙏" }, "right": { "text": "Thank you!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-4",
+  "title": "Rechnen im Alltag",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Du hast 20 €. Das Shampoo kostet 4,50 €. Die Zeitschrift kostet 3 €. Wie viel Geld bleibt dir?",
+        "options": [
+          { "text": "12,50 €", "correct": true },
+          { "text": "13,50 €" },
+          { "text": "11,50 €" }
+        ],
+        "explanation": "Super gerechnet! 4,50 € und 3 € sind zusammen 7,50 €. 20 € minus 7,50 € sind 12,50 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 So viel Geld bleibt dir. Lege 12,50 € hin.",
+        "mode": "assemble",
+        "target": 1250
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Das Brot kostet 2,80 €. Die Milch kostet 1,20 €. Wie viel kostet beides zusammen?",
+        "options": [
+          { "text": "4 €", "correct": true },
+          { "text": "3,80 €" },
+          { "text": "4,20 €" }
+        ],
+        "explanation": "Genau! 2,80 € plus 1,20 € sind 4 €. Die 80 Cent und die 20 Cent ergeben zusammen 1 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Bezahle das Brot und die Milch. Lege 4 € hin.",
+        "mode": "assemble",
+        "target": 400
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🍞 Du gibst an der Kasse 5 €. Brot und Milch kosten 4 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 400,
+        "given": 500
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍦 Ein Eis kostet 2,80 €. Du möchtest 2 Eis kaufen. Du hast 5 €. Reicht dein Geld?",
+        "options": [
+          { "text": "Nein. 2 Eis kosten 5,60 €.", "correct": true },
+          { "text": "Ja, es reicht genau." },
+          { "text": "Ja, es bleibt sogar Geld übrig." }
+        ],
+        "explanation": "Richtig! 2,80 € plus 2,80 € sind 5,60 €. Das ist mehr als 5 €. Dein Geld reicht nicht."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🍦 So viel kosten die 2 Eis zusammen. Lege 5,60 € hin.",
+        "mode": "assemble",
+        "target": 560
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Geschafft! Zum Schluss ganz einfach. Lege 2 € hin.",
+        "mode": "assemble",
+        "target": 200
+      }
+    }
+  ]
+}

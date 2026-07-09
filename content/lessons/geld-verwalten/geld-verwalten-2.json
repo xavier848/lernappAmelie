@@ -1,0 +1,111 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-2",
+  "title": "Feste und variable Ausgaben",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📌 Was ist eine feste Ausgabe?",
+        "options": [
+          { "text": "Sie kommt jeden Monat. Der Betrag ist immer gleich.", "correct": true },
+          { "text": "Sie kommt nur manchmal. Der Betrag ändert sich." },
+          { "text": "Geld, das du geschenkt bekommst." }
+        ],
+        "explanation": "Fest heißt: Du weißt genau, wann und wie viel. Zum Beispiel die Handy-Rechnung: jeden Monat 20 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎈 Was ist eine variable Ausgabe?",
+        "options": [
+          { "text": "Sie ist mal mehr, mal weniger. Du kannst sie selbst ändern.", "correct": true },
+          { "text": "Sie ist jeden Monat genau gleich." },
+          { "text": "Das ist eine Einnahme." }
+        ],
+        "explanation": "Variabel heißt: Der Betrag ändert sich. Beim Kino oder bei Kleidung entscheidest du selbst, wie viel du ausgibst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Sortiere die Ausgaben: fest oder variabel?",
+        "buckets": [
+          { "id": "fest", "label": "Feste Ausgabe", "icon": "📌" },
+          { "id": "variabel", "label": "Variable Ausgabe", "icon": "🎈" }
+        ],
+        "items": [
+          { "text": "📱 Handy-Vertrag", "bucket": "fest" },
+          { "text": "🏠 Miete", "bucket": "fest" },
+          { "text": "🚌 Bus-Monatskarte", "bucket": "fest" },
+          { "text": "💪 Fitness-Studio", "bucket": "fest" },
+          { "text": "🎬 Kino", "bucket": "variabel" },
+          { "text": "👕 Kleidung", "bucket": "variabel" },
+          { "text": "🎁 Geschenke", "bucket": "variabel" },
+          { "text": "🍕 Restaurant", "bucket": "variabel" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥇 Warum planst du die festen Ausgaben zuerst ein?",
+        "options": [
+          { "text": "Sie müssen auf jeden Fall bezahlt werden. Jeden Monat.", "correct": true },
+          { "text": "Sie machen am meisten Spaß." },
+          { "text": "Sie sind immer am billigsten." }
+        ],
+        "explanation": "Miete, Handy und Bus musst du immer bezahlen. Plane sie zuerst ein. Der Rest vom Geld ist dann frei für dich."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🗓️ So planst du deinen Monat. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "💰 Schau: Wie viel Geld bekommst du?" },
+          { "text": "📌 Plane die festen Ausgaben ein." },
+          { "text": "🐷 Lege Geld zum Sparen zur Seite." },
+          { "text": "🎈 Der Rest ist für variable Ausgaben." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Rechne: Handy 20 € + Bus 49 € + Fitness-Studio 31 €. Wie viel sind deine festen Ausgaben zusammen?",
+        "options": [
+          { "text": "100 €", "correct": true },
+          { "text": "90 €" },
+          { "text": "110 €" }
+        ],
+        "explanation": "20 + 49 = 69. Und 69 + 31 = 100. Deine festen Ausgaben sind 100 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Du bekommst 900 €. Deine festen Ausgaben sind 100 €. Wie viel Geld bleibt übrig?",
+        "options": [
+          { "text": "800 €", "correct": true },
+          { "text": "700 €" },
+          { "text": "900 €" }
+        ],
+        "explanation": "900 minus 100 = 800. Du hast noch 800 € für alles andere. Gut gerechnet!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Die Miete ist jeden Monat gleich. Ist die Miete eine feste Ausgabe?",
+        "options": [
+          { "text": "Ja.", "correct": true },
+          { "text": "Nein." }
+        ],
+        "explanation": "Richtig! Die Miete ist fest: gleicher Betrag, jeden Monat. 🎉"
+      }
+    }
+  ]
+}

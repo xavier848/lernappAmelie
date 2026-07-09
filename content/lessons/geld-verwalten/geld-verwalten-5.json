@@ -1,0 +1,95 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-5",
+  "title": "Die Monats-Challenge",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Du willst Preise vergleichen. Was hilft dir am besten?",
+        "options": [
+          { "text": "Der Preis pro 100 Gramm.", "correct": true },
+          { "text": "Nur der Endpreis." },
+          { "text": "Die schönste Packung." }
+        ],
+        "explanation": "Packungen sind verschieden groß. Der Preis pro 100 g macht sie vergleichbar. Er steht klein auf dem Preisschild."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Zwei Joghurts: Der große hat 500 g und kostet 1,20 €. Der kleine hat 300 g und kostet 0,90 €. Welcher ist pro 100 g günstiger?",
+        "options": [
+          { "text": "Der große Joghurt.", "correct": true },
+          { "text": "Der kleine Joghurt." },
+          { "text": "Beide kosten pro 100 g gleich viel." }
+        ],
+        "explanation": "Der große: 1,20 € geteilt durch 5 = 0,24 € pro 100 g. Der kleine: 0,90 € geteilt durch 3 = 0,30 € pro 100 g. Der große ist günstiger!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Am Regal steht: Shampoo heute 1,50 € statt 2,50 €. Was bedeutet das?",
+        "options": [
+          { "text": "Das Shampoo ist heute 1 € billiger. Das ist ein Angebot.", "correct": true },
+          { "text": "Das Shampoo kostet heute 1 € mehr." },
+          { "text": "Du bekommst das Shampoo geschenkt." }
+        ],
+        "explanation": "Das Wort 'statt' zeigt den alten Preis. Früher: 2,50 €. Heute zahlst du nur 1,50 €. Du sparst 1 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Im Laden sind Chips im Angebot. Ganz billig! Aber du brauchst keine Chips. Was machst du?",
+        "options": [
+          { "text": "Ich kaufe sie nicht. Billig ist nur gut, wenn ich es brauche.", "correct": true },
+          { "text": "Ich kaufe 5 Tüten. Es ist ja billig!" }
+        ],
+        "explanation": "Ein Angebot spart nur Geld, wenn du die Sache wirklich brauchst. Sonst gibst du Geld für nichts aus."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🗓️ Gleich kommt die große Challenge! So teilst du deinen Monat ein.",
+        "steps": [
+          { "text": "💰 Schau: 950 € kommen rein." },
+          { "text": "📌 Bezahle zuerst die festen Ausgaben." },
+          { "text": "🐷 Lege dein Spargeld zur Seite." },
+          { "text": "🎈 Teile den Rest ein: Essen, Pferd, Freizeit, Kleidung." }
+        ]
+      }
+    },
+    {
+      "type": "budget",
+      "data": {
+        "prompt": "🏆 Die Monats-Challenge! Du bekommst 950 €. Teile dein Geld ein. Spare mindestens 100 €.",
+        "income": 95000,
+        "categories": [
+          { "id": "handy", "label": "Handy", "icon": "📱", "fixed": 2000 },
+          { "id": "bus", "label": "Bus und Bahn", "icon": "🚌", "fixed": 4900 },
+          { "id": "lebensmittel", "label": "Lebensmittel", "icon": "🛒" },
+          { "id": "kleidung", "label": "Kleidung", "icon": "👕" },
+          { "id": "freizeit", "label": "Freizeit", "icon": "🎉" },
+          { "id": "pferd", "label": "Pferd", "icon": "🐴" },
+          { "id": "sparen", "label": "Sparen", "icon": "🐷" }
+        ],
+        "savingsGoal": 10000
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Geschafft! Letzte Frage: Am Ende vom Monat ist Geld übrig. Was kannst du damit machen?",
+        "options": [
+          { "text": "Ich kann es sparen. Oder mir einen Wunsch erfüllen.", "correct": true },
+          { "text": "Ich muss es wegwerfen." }
+        ],
+        "explanation": "Super gemacht! Übriges Geld ist toll. Spare es oder gönn dir etwas. Du hast es dir verdient! 🎉"
+      }
+    }
+  ]
+}

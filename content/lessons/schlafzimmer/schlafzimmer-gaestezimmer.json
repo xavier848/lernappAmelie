@@ -1,0 +1,94 @@
+{
+  "topic_slug": "schlafzimmer",
+  "slug": "schlafzimmer-gaestezimmer",
+  "title": "Das Gästezimmer komplett",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Ein Gast ist abgereist. Du machst das Zimmer fertig. Was machst du als Erstes?",
+        "options": [
+          { "text": "Ich öffne das Fenster.", "correct": true },
+          { "text": "Ich wische den Boden." },
+          { "text": "Ich fülle die Handtücher auf." }
+        ],
+        "explanation": "Zuerst kommt frische Luft ins Zimmer. Dabei kannst du in Ruhe weiterarbeiten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛏️ Gästezimmer, Teil 1: Ordne die ersten 5 Schritte.",
+        "steps": [
+          { "text": "🪟 Fenster öffnen." },
+          { "text": "🛏️ Bettwäsche abziehen." },
+          { "text": "🗑️ Müll leeren." },
+          { "text": "🧻 Staub wischen." },
+          { "text": "✨ Bett frisch beziehen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Das Bett ist frisch bezogen. Was kommt als Nächstes?",
+        "options": [
+          { "text": "Staubsaugen.", "correct": true },
+          { "text": "Noch mal Staub wischen." },
+          { "text": "Das Fenster putzen." }
+        ],
+        "explanation": "Jetzt liegt aller Staub auf dem Boden. Also: staubsaugen!"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏁 Gästezimmer, Teil 2: Ordne die letzten 4 Schritte.",
+        "steps": [
+          { "text": "🧹 Staubsaugen." },
+          { "text": "🧽 Boden wischen." },
+          { "text": "🧺 Handtücher auffüllen." },
+          { "text": "👀 Endkontrolle machen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Endkontrolle: Was prüfst du am Schluss?",
+        "options": [
+          { "text": "Ist alles sauber? Ist das Bett bezogen? Sind Handtücher da?", "correct": true },
+          { "text": "Ob der Fernseher das richtige Programm zeigt." },
+          { "text": "Nichts. Ich gehe einfach raus." }
+        ],
+        "explanation": "Bei der Endkontrolle schaust du dich genau um. Der nächste Gast soll sich sofort wohlfühlen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory! Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🪟 Fenster" }, "right": { "text": "öffnen" } },
+          { "left": { "text": "🛏️ Bett" }, "right": { "text": "frisch beziehen" } },
+          { "left": { "text": "🗑️ Mülleimer" }, "right": { "text": "leeren" } },
+          { "left": { "text": "🧺 Handtücher" }, "right": { "text": "auffüllen" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Alles fertig! Für wen machst du das Gästezimmer so schön?",
+        "options": [
+          { "text": "Für den nächsten Gast.", "correct": true },
+          { "text": "Für den Staubsauger." },
+          { "text": "Für niemanden." }
+        ],
+        "explanation": "Genau! Der nächste Gast freut sich über ein sauberes Zimmer. Super Arbeit! 🌟"
+      }
+    }
+  ]
+}

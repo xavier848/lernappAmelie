@@ -1,0 +1,93 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-reihenfolge",
+  "title": "Die richtige Reihenfolge",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍳 Wir putzen die Küche! Teil 1: So fängst du an. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Putzsachen holen: Lappen, Reiniger, Eimer." },
+          { "text": "🍽️ Sauberes Geschirr wegräumen." },
+          { "text": "🧽 Arbeitsflächen abwischen." },
+          { "text": "🚿 Spüle säubern." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Warum räumst du das Geschirr zuerst weg?",
+        "options": [
+          { "text": "Dann sind die Flächen frei. So kann ich gut wischen.", "correct": true },
+          { "text": "Weil Geschirr am schwersten ist." },
+          { "text": "Das ist egal. Ich kann es auch zuletzt machen." }
+        ],
+        "explanation": "Erst das Geschirr weg. Dann sind die Arbeitsflächen frei. So kannst du überall gut wischen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍳 Teil 2: So machst du die Küche fertig. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🔥 Herd reinigen." },
+          { "text": "❄️ Kühlschrank kontrollieren." },
+          { "text": "🧹 Boden fegen." },
+          { "text": "💧 Boden wischen." },
+          { "text": "👀 Abschluss-Kontrolle: Ist alles sauber?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Du kontrollierst den Kühlschrank. Worauf achtest du besonders?",
+        "options": [
+          { "text": "Sind Lebensmittel abgelaufen? Ich schaue auf das Datum.", "correct": true },
+          { "text": "Ist das Licht im Kühlschrank schön hell?" },
+          { "text": "Stehen alle Flaschen in einer geraden Reihe?" }
+        ],
+        "explanation": "Schau auf das Datum. Abgelaufene Lebensmittel kommen in den Müll."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Warum putzt du den Boden erst ganz am Ende?",
+        "options": [
+          { "text": "Beim Putzen fallen Krümel nach unten. Der Boden kommt zuletzt.", "correct": true },
+          { "text": "Weil der Boden nicht wichtig ist." },
+          { "text": "Weil der Lappen am Anfang noch trocken ist." }
+        ],
+        "explanation": "Die Regel heißt: von oben nach unten. Erst die Flächen, ganz zum Schluss der Boden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Erst fegen oder erst wischen?",
+        "options": [
+          { "text": "Erst fegen, dann wischen.", "correct": true },
+          { "text": "Erst wischen, dann fegen." },
+          { "text": "Nur wischen. Fegen braucht man nicht." }
+        ],
+        "explanation": "Erst die Krümel wegfegen. Sonst schiebst du sie mit dem nassen Lappen nur herum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Du bist fast fertig. Was kommt ganz zum Schluss?",
+        "options": [
+          { "text": "👀 Die Abschluss-Kontrolle: Ich schaue, ob alles sauber ist.", "correct": true },
+          { "text": "Ich gehe einfach, ohne zu schauen." },
+          { "text": "Ich räume das saubere Geschirr wieder aus." }
+        ],
+        "explanation": "Einmal durch die Küche schauen: Alles sauber? Dann bist du fertig. Toll gemacht! 🎉"
+      }
+    }
+  ]
+}

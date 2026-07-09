@@ -1,0 +1,112 @@
+{
+  "topic_slug": "waesche",
+  "slug": "waesche-waschen-bis-einraeumen",
+  "title": "Vom Waschen bis zum Einräumen",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌀 So wäschst du mit der Maschine. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Wäsche sortieren." },
+          { "text": "👕 Wäsche in die Maschine füllen." },
+          { "text": "🧴 Waschmittel einfüllen." },
+          { "text": "🎛️ Programm auswählen." },
+          { "text": "▶️ Maschine starten." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛁 Du wäschst Handtücher. Welches Programm passt?",
+        "options": [
+          { "text": "60 Grad.", "correct": true },
+          { "text": "Feinwäsche mit 30 Grad." },
+          { "text": "Nur kalt ausspülen." }
+        ],
+        "explanation": "Handtücher wäscht man heiß. 60 Grad macht sie richtig sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧶 Du wäschst einen Woll-Pullover. Welches Programm passt?",
+        "options": [
+          { "text": "Feinwäsche mit 30 Grad.", "correct": true },
+          { "text": "60 Grad." },
+          { "text": "90 Grad, ganz heiß." }
+        ],
+        "explanation": "Wolle mag es sanft und kühl. Zu heiß gewaschen wird der Pullover zu klein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Was darf NICHT in den Trockner?",
+        "options": [
+          { "text": "Der Woll-Pullover.", "correct": true },
+          { "text": "Die Handtücher." },
+          { "text": "Die Bettwäsche." }
+        ],
+        "explanation": "Wolle läuft im Trockner ein. Schau immer auf das Pflege-Etikett."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌀 Trockner an! Was darf hinein? Was nicht?",
+        "buckets": [
+          { "id": "ja", "label": "Darf in den Trockner", "icon": "✅" },
+          { "id": "nein", "label": "Darf nicht hinein", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Handtücher", "bucket": "ja" },
+          { "text": "Bettwäsche", "bucket": "ja" },
+          { "text": "Baumwoll-Socken", "bucket": "ja" },
+          { "text": "Woll-Pullover", "bucket": "nein" },
+          { "text": "Seiden-Bluse", "bucket": "nein" },
+          { "text": "Feine Strumpfhose", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Wann legst du die Wäsche zusammen?",
+        "options": [
+          { "text": "Wenn sie ganz trocken ist.", "correct": true },
+          { "text": "Sofort nach dem Waschen, noch nass." },
+          { "text": "Egal, ob nass oder trocken." }
+        ],
+        "explanation": "Erst wenn die Wäsche ganz trocken ist. Feuchte Wäsche im Schrank riecht schlecht."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧺 Von der Maschine bis in den Schrank. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Nasse Wäsche aus der Maschine nehmen." },
+          { "text": "🌬️ Aufhängen oder in den Trockner geben." },
+          { "text": "⏳ Warten, bis alles ganz trocken ist." },
+          { "text": "👕 Wäsche zusammenlegen." },
+          { "text": "🗄️ Wäsche in den Schrank räumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Die Wäsche ist trocken und zusammengelegt. Wohin kommt sie jetzt?",
+        "options": [
+          { "text": "In den Schrank.", "correct": true },
+          { "text": "Zurück in den Korb mit der schmutzigen Wäsche." },
+          { "text": "Unter das Bett." }
+        ],
+        "explanation": "Ab in den Schrank. Geschafft – tolle Arbeit! 🎉"
+      }
+    }
+  ]
+}

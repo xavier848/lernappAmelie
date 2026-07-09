@@ -1,0 +1,72 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-2",
+  "title": "Beträge legen",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Jetzt legst du Geld hin. Lege 2,00 € hin.",
+        "mode": "assemble",
+        "target": 200
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Sehr gut! Jetzt mit Cent. Lege 3,50 € hin.",
+        "mode": "assemble",
+        "target": 350
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Welcher Schein ist mehr wert? 10 € oder 20 €?",
+        "options": [
+          { "text": "Der 20-Euro-Schein", "correct": true },
+          { "text": "Der 10-Euro-Schein" },
+          { "text": "Beide sind gleich viel wert" }
+        ],
+        "explanation": "Genau! 20 ist mehr als 10. Der 20-Euro-Schein ist so viel wert wie zwei 10-Euro-Scheine."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Du schaffst das! Lege 5,80 € hin.",
+        "mode": "assemble",
+        "target": 580
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Du legst 2 Euro und 1 Euro zusammen. Wie viel ist das?",
+        "options": [
+          { "text": "3 Euro", "correct": true },
+          { "text": "2 Euro" },
+          { "text": "4 Euro" }
+        ],
+        "explanation": "Richtig! 2 Euro plus 1 Euro sind 3 Euro."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Ein großer Betrag! Lege 12,00 € hin. Tipp: Nimm einen Schein und Münzen.",
+        "mode": "assemble",
+        "target": 1200
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz einfach. Lege 1,00 € hin.",
+        "mode": "assemble",
+        "target": 100
+      }
+    }
+  ]
+}

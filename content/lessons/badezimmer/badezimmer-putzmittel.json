@@ -1,0 +1,114 @@
+{
+  "topic_slug": "badezimmer",
+  "slug": "badezimmer-putzmittel",
+  "title": "Putzmittel für das Bad",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚽 Womit putzt du die Toilette?",
+        "options": [
+          { "text": "Mit WC-Reiniger.", "correct": true },
+          { "text": "Mit Glasreiniger." },
+          { "text": "Mit Shampoo." }
+        ],
+        "explanation": "WC-Reiniger ist extra für die Toilette gemacht. Er löst den Schmutz im WC am besten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪞 Womit putzt du den Spiegel?",
+        "options": [
+          { "text": "Mit Glasreiniger.", "correct": true },
+          { "text": "Mit WC-Reiniger." },
+          { "text": "Mit viel Seife." }
+        ],
+        "explanation": "Glasreiniger macht den Spiegel klar. Er hinterlässt keine Streifen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Womit putzt du das Waschbecken und die Dusche?",
+        "options": [
+          { "text": "Mit Badreiniger.", "correct": true },
+          { "text": "Mit Glasreiniger." },
+          { "text": "Nur mit Wasser." }
+        ],
+        "explanation": "Badreiniger löst Kalk und Seifenreste. Nur Wasser reicht dafür nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧴 Welches Mittel gehört wohin? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🚽 WC-Reiniger" }, "right": { "text": "Toilette" } },
+          { "left": { "text": "🧴 Badreiniger" }, "right": { "text": "Waschbecken und Dusche" } },
+          { "left": { "text": "✨ Glasreiniger" }, "right": { "text": "Spiegel" } },
+          { "left": { "text": "🧻 Trockenes Tuch" }, "right": { "text": "Nachpolieren" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🪣 Was brauchst du zum Bad-Putzen? Sortiere!",
+        "buckets": [
+          { "id": "brauche-ich", "label": "Brauche ich im Bad", "icon": "✅" },
+          { "id": "brauche-ich-nicht", "label": "Brauche ich nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "🚽 WC-Reiniger", "bucket": "brauche-ich" },
+          { "text": "🧴 Badreiniger", "bucket": "brauche-ich" },
+          { "text": "✨ Glasreiniger", "bucket": "brauche-ich" },
+          { "text": "🧤 Gummihandschuhe", "bucket": "brauche-ich" },
+          { "text": "🧽 Schwamm und Tücher", "bucket": "brauche-ich" },
+          { "text": "🍳 Backofen-Spray", "bucket": "brauche-ich-nicht" },
+          { "text": "🪑 Möbel-Politur", "bucket": "brauche-ich-nicht" },
+          { "text": "🧺 Bügeleisen", "bucket": "brauche-ich-nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Was machst du, bevor du mit dem Putzen anfängst?",
+        "options": [
+          { "text": "Ich hole das ganze Putzmaterial.", "correct": true },
+          { "text": "Ich fange einfach irgendwo an." },
+          { "text": "Ich mache erst eine Pause." }
+        ],
+        "explanation": "Hole zuerst alles zusammen. Dann musst du beim Putzen nicht immer hin und her laufen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory! Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧽" }, "right": { "text": "Schwamm" } },
+          { "left": { "text": "🧤" }, "right": { "text": "Handschuhe" } },
+          { "left": { "text": "🪣" }, "right": { "text": "Eimer" } },
+          { "left": { "text": "🧴" }, "right": { "text": "Reiniger" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Super! Letzte Frage: Was schützt deine Hände beim Putzen?",
+        "options": [
+          { "text": "Gummihandschuhe.", "correct": true },
+          { "text": "Eine Mütze." },
+          { "text": "Warme Socken." }
+        ],
+        "explanation": "Genau! Gummihandschuhe schützen deine Haut vor dem Reiniger. Toll gemacht! 🎉"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-ueberblick",
+  "title": "Der große Überblick",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏠 Du putzt eine ganze Ferienwohnung. Was ist die beste Reihenfolge?",
+        "steps": [
+          { "text": "🪟 Zuerst: alle Fenster öffnen." },
+          { "text": "🗑️ Müll in allen Räumen einsammeln." },
+          { "text": "🛏️ Schlafzimmer und Wohnzimmer putzen." },
+          { "text": "🍳 Küche putzen." },
+          { "text": "🛁 Bad putzen." },
+          { "text": "🧹 Ganz zum Schluss: alle Böden." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Du gehst zur Ferienwohnung. Was nimmst du mit?",
+        "options": [
+          { "text": "Einen Korb mit allen Putzsachen: Lappen, Reiniger, Müllbeutel, Handschuhe.", "correct": true },
+          { "text": "Nur einen trockenen Lappen." },
+          { "text": "Nichts. Ich hole jede Sache einzeln." }
+        ],
+        "explanation": "Packe alles in einen Korb. So hast du alles dabei und sparst viele Wege."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Du kommst in einen Raum. Was machst du zuerst?",
+        "options": [
+          { "text": "🪟 Fenster öffnen und 🗑️ Müll einsammeln.", "correct": true },
+          { "text": "Sofort den Boden wischen." },
+          { "text": "Die Bilder an der Wand gerade rücken." }
+        ],
+        "explanation": "Frische Luft tut gut. Und ohne Müll putzt es sich viel leichter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Welche Räume putzt du zuerst?",
+        "options": [
+          { "text": "Schlafzimmer und Wohnzimmer.", "correct": true },
+          { "text": "Das Bad. Es kommt immer zuerst." },
+          { "text": "Egal. Ich fange irgendwo an." }
+        ],
+        "explanation": "Erst die Zimmer, dann die Küche. Das Bad kommt meistens zuletzt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Was kommt in deinen Putzkorb?",
+        "buckets": [
+          { "id": "korb", "label": "Kommt in den Korb", "icon": "🧺" },
+          { "id": "bleibt", "label": "Brauchst du nicht", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "🧽 Schwamm", "bucket": "korb" },
+          { "text": "🧴 Reiniger", "bucket": "korb" },
+          { "text": "🗑️ Müllbeutel", "bucket": "korb" },
+          { "text": "🧤 Handschuhe", "bucket": "korb" },
+          { "text": "🧸 Teddybär", "bucket": "bleibt" },
+          { "text": "☂️ Regenschirm", "bucket": "bleibt" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛋️ So putzt du ein Zimmer. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪟 Fenster öffnen." },
+          { "text": "🗑️ Müll einsammeln." },
+          { "text": "🪣 Staub oben abwischen: Regale und Schränke." },
+          { "text": "🧽 Tisch und Flächen abwischen." },
+          { "text": "🧹 Boden ganz zum Schluss." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Du öffnest zuerst das Fenster. Warum ist das gut?",
+        "options": [
+          { "text": "Frische Luft kommt in den Raum.", "correct": true },
+          { "text": "Damit es hereinregnet." },
+          { "text": "Damit es drinnen richtig kalt wird." }
+        ],
+        "explanation": "Frische Luft macht den Raum angenehm. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

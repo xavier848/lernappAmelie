@@ -1,0 +1,111 @@
+{
+  "topic_slug": "kinder-sicherheit",
+  "slug": "kinder-sicherheit-gefahren-erkennen",
+  "title": "Gefahren erkennen",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚠️ Was ist für ein Kleinkind gefährlich? Was ist sicher? Sortiere.",
+        "buckets": [
+          { "id": "gefaehrlich", "label": "Gefährlich", "icon": "⚠️" },
+          { "id": "sicher", "label": "Sicher", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "🔵 Eine kleine Murmel", "bucket": "gefaehrlich" },
+          { "text": "🧱 Ein kleiner Legostein", "bucket": "gefaehrlich" },
+          { "text": "🍲 Ein heißer Topf", "bucket": "gefaehrlich" },
+          { "text": "✂️ Eine spitze Schere", "bucket": "gefaehrlich" },
+          { "text": "🧸 Ein weiches Kuscheltier", "bucket": "sicher" },
+          { "text": "⚽ Ein großer Ball", "bucket": "sicher" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔵 Warum sind kleine Teile für Kleinkinder gefährlich?",
+        "options": [
+          { "text": "😮 Kleinkinder stecken sie in den Mund und können sie verschlucken.", "correct": true },
+          { "text": "🎨 Kleine Teile haben langweilige Farben." },
+          { "text": "💶 Kleine Teile sind teuer." }
+        ],
+        "explanation": "Richtig! Kleinkinder stecken vieles in den Mund. Kleine Teile können sie verschlucken. Das ist sehr gefährlich. Räume kleine Teile immer weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✂️ Ein Kind möchte schneiden. Wie geht das sicher?",
+        "options": [
+          { "text": "🪑 Das Kind sitzt, hat eine Kinderschere und ein Erwachsener ist dabei.", "correct": true },
+          { "text": "🏃 Das Kind läuft mit der Schere herum." },
+          { "text": "🔪 Das Kind nimmt allein die große spitze Schere." }
+        ],
+        "explanation": "Genau! Schneiden nur im Sitzen. Nur mit einer Kinderschere. Und ein Erwachsener bleibt dabei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥜 Ein Kind sagt: Ich darf keine Nüsse essen. Ich habe eine Allergie. Was machst du?",
+        "options": [
+          { "text": "☝️ Ich nehme das ernst. Das Kind bekommt nichts mit Nüssen.", "correct": true },
+          { "text": "🤏 Ich gebe ihm nur ein bisschen davon." },
+          { "text": "🙉 Ich glaube dem Kind nicht." }
+        ],
+        "explanation": "Richtig! Eine Allergie ist ernst. Sie kann sehr gefährlich werden. Gib dem Kind nichts davon. Informiere immer die Erwachsenen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Du kochst. Ein Kleinkind ist in der Küche. Wohin drehst du die Topfgriffe?",
+        "options": [
+          { "text": "🔄 Nach hinten. So kann das Kind sie nicht erreichen.", "correct": true },
+          { "text": "👶 Nach vorne, zum Kind hin." },
+          { "text": "🤷 Das ist egal." }
+        ],
+        "explanation": "Super! Die Topfgriffe zeigen immer nach hinten. Sonst zieht das Kind den heißen Topf herunter. Das gibt schlimme Verbrennungen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🛡️ Welcher Schutz passt zu welcher Gefahr? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍲 Heißer Topf" }, "right": { "text": "🔄 Griffe nach hinten drehen" } },
+          { "left": { "text": "✂️ Schere" }, "right": { "text": "🧑 Nur mit Erwachsenem benutzen" } },
+          { "left": { "text": "🔵 Kleine Teile" }, "right": { "text": "🧺 Wegräumen, hoch stellen" } },
+          { "left": { "text": "🥜 Allergie" }, "right": { "text": "☝️ Ernst nehmen, Erwachsene informieren" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛝 Ihr seid auf dem Spielplatz. Was ist deine Aufgabe?",
+        "options": [
+          { "text": "👀 Ich behalte die Kinder immer im Blick.", "correct": true },
+          { "text": "📱 Ich schaue die ganze Zeit auf mein Handy." },
+          { "text": "😴 Ich mache ein Nickerchen auf der Bank." }
+        ],
+        "explanation": "Richtig! Das nennt man Aufsichtspflicht. Du achtest auf die Kinder und auf die Spielplatzregeln. So passiert nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Welches Spielzeug ist sicher für ein Kleinkind?",
+        "options": [
+          { "text": "🧸 Ein weiches Kuscheltier.", "correct": true },
+          { "text": "🔵 Eine kleine Murmel." },
+          { "text": "✂️ Eine spitze Schere." }
+        ],
+        "explanation": "Super gemacht! Das Kuscheltier ist weich und groß. Das Kind kann nichts verschlucken. Damit spielt es sicher."
+      }
+    }
+  ]
+}

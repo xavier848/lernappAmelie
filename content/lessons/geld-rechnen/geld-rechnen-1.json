@@ -1,0 +1,110 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-1",
+  "title": "Münzen und Scheine kennen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🪙 Schau genau hin. Welche Münze ist das?",
+        "mode": "recognize",
+        "moneyImage": "100",
+        "options": [
+          { "text": "1 Euro", "correct": true },
+          { "text": "2 Euro" },
+          { "text": "50 Cent" }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🪙 Und welche Münze ist das?",
+        "mode": "recognize",
+        "moneyImage": "200",
+        "options": [
+          { "text": "2 Euro", "correct": true },
+          { "text": "1 Euro" },
+          { "text": "20 Cent" }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🪙 Diese Münze ist kleiner als 1 Euro. Welche ist es?",
+        "mode": "recognize",
+        "moneyImage": "50",
+        "options": [
+          { "text": "50 Cent", "correct": true },
+          { "text": "5 Cent" },
+          { "text": "1 Euro" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Wie viele Cent hat 1 Euro?",
+        "options": [
+          { "text": "100 Cent", "correct": true },
+          { "text": "10 Cent" },
+          { "text": "1000 Cent" }
+        ],
+        "explanation": "Super! 1 Euro hat 100 Cent. Zwei 50-Cent-Münzen sind also 1 Euro."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💵 Jetzt kommen die Scheine. Welcher Schein ist das?",
+        "mode": "recognize",
+        "moneyImage": "1000",
+        "options": [
+          { "text": "10 Euro", "correct": true },
+          { "text": "20 Euro" },
+          { "text": "5 Euro" }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💵 Und welcher Schein ist das?",
+        "mode": "recognize",
+        "moneyImage": "2000",
+        "options": [
+          { "text": "20 Euro", "correct": true },
+          { "text": "10 Euro" },
+          { "text": "50 Euro" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Was gehört zusammen? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🪙 Münze mit der 1" }, "right": { "text": "1 Euro" } },
+          { "left": { "text": "🪙 Münze mit der 2" }, "right": { "text": "2 Euro" } },
+          { "left": { "text": "💵 Schein mit der 10" }, "right": { "text": "10 Euro" } },
+          { "left": { "text": "💵 Schein mit der 20" }, "right": { "text": "20 Euro" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Zum Schluss noch einmal. Welche Münze ist das?",
+        "mode": "recognize",
+        "moneyImage": "100",
+        "options": [
+          { "text": "1 Euro", "correct": true },
+          { "text": "10 Euro" }
+        ]
+      }
+    }
+  ]
+}

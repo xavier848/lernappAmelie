@@ -1,0 +1,101 @@
+{
+  "topic_slug": "wohnzimmer",
+  "slug": "wohnzimmer-reihenfolge",
+  "title": "Wohnzimmer putzen: Schritt für Schritt",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏺 Im Wohnzimmer steht Dekoration, zum Beispiel Vasen und Bilder. Wie fasst du sie an?",
+        "options": [
+          { "text": "Vorsichtig und mit beiden Händen.", "correct": true },
+          { "text": "Schnell und mit einer Hand." },
+          { "text": "Gar nicht. Ich putze um sie herum." }
+        ],
+        "explanation": "Deko kann leicht zerbrechen. Nimm sie vorsichtig mit beiden Händen. Dann passiert nichts."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛋️ Wohnzimmer putzen: Bringe alle 6 Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🏺 Deko vorsichtig wegstellen und reinigen." },
+          { "text": "🧻 Staub wischen: von oben nach unten." },
+          { "text": "🛋️ Polstermöbel absaugen." },
+          { "text": "🧹 Boden saugen." },
+          { "text": "🧽 Boden wischen." },
+          { "text": "🖼️ Deko vorsichtig zurückstellen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬇️ Warum wischst du Staub von oben nach unten?",
+        "options": [
+          { "text": "Staub fällt nach unten. Unten wische ich zuletzt.", "correct": true },
+          { "text": "Weil ich oben besser hinkomme." },
+          { "text": "Die Richtung ist egal." }
+        ],
+        "explanation": "Staub rieselt immer nach unten. Wenn du oben anfängst, wischst du nichts doppelt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Warum saugst du den Boden, bevor du ihn wischst?",
+        "options": [
+          { "text": "Der Sauger holt erst Krümel und Staub weg. Dann wird das Wischen sauber.", "correct": true },
+          { "text": "Weil der Staubsauger den Boden nass macht." },
+          { "text": "Man muss gar nicht saugen." }
+        ],
+        "explanation": "Ohne Saugen verschmierst du die Krümel mit dem nassen Tuch. Also: erst saugen, dann wischen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧹🧽 Absaugen oder feucht abwischen? Sortiere!",
+        "buckets": [
+          { "id": "absaugen", "label": "Absaugen", "icon": "🧹" },
+          { "id": "abwischen", "label": "Feucht abwischen", "icon": "🧽" }
+        ],
+        "items": [
+          { "text": "🛋️ Sofa", "bucket": "absaugen" },
+          { "text": "🪑 Sessel-Polster", "bucket": "absaugen" },
+          { "text": "🟫 Teppich", "bucket": "absaugen" },
+          { "text": "🪵 Tisch", "bucket": "abwischen" },
+          { "text": "📚 Regalbrett", "bucket": "abwischen" },
+          { "text": "🪟 Fensterbank", "bucket": "abwischen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖼️ Der Boden ist sauber und trocken. Was machst du ganz am Ende?",
+        "options": [
+          { "text": "Ich stelle die Deko vorsichtig zurück.", "correct": true },
+          { "text": "Ich sauge den Boden noch einmal." },
+          { "text": "Ich lasse die Deko im Schrank." }
+        ],
+        "explanation": "Zum Schluss kommt alles an seinen Platz zurück. Dann sieht das Wohnzimmer wieder schön aus."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌟 Leichte Aufgabe zum Schluss: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🧹 Staubsauger" }, "right": { "text": "saugt den Boden" } },
+          { "left": { "text": "🧻 Staubtuch" }, "right": { "text": "wischt den Staub" } },
+          { "left": { "text": "🪣 Eimer" }, "right": { "text": "hält das Wasser" } },
+          { "left": { "text": "🧤 Handschuhe" }, "right": { "text": "schützen die Hände" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}
