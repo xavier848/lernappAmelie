@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 "use client";
 
 // Ergebnis-Screen nach einer Lektion (Spec §4.3): Konfetti, Maskottchen lobt,
@@ -6,7 +5,9 @@ import { useEffect } from "react";
 // zurueck zum Lernpfad. Animationen rein dekorativ (prefers-reduced-motion).
 // Der Ueben-Modus nutzt denselben Screen ohne Sterne (stars weglassen) und
 // mit eigenem Lob-Text + Button-Beschriftung.
+import { useEffect } from "react";
 import { motion, useReducedMotion } from "framer-motion";
+import { playFinish } from "@/lib/sound";
 import { Button } from "@/components/ui/Button";
 import { Confetti } from "@/components/ui/Confetti";
 import { Mascot } from "@/components/ui/Mascot";
@@ -85,4 +86,3 @@ export function ResultScreen({
     </div>
   );
 }
-import { playFinish } from "@/lib/sound";
