@@ -70,6 +70,23 @@ export function berlinToday(): string {
 }
 
 /**
+ * Aggregiert Uebungs-Versuche zu einer Map exerciseId -> {correct, wrong}.
+ * Pure Funktion - Basis fuer den Ueben-Modus (lib/practice.ts).
+ */
+export function aggregateAttemptStats(
+  attempts: readonly { exercise_id: string; correct: boolean }[]
+): Map<string, { correct: number; wrong: number }> {
+  const stats = new Map<string, { correct: number; wrong: number }>();
+  for (const attempt of attempts) {
+    const entry = stats.get(attempt.exercise_id) ?? { correct: 0, wrong: 0 };
+    if (attempt.correct) entry.correct += 1;
+    else entry.wrong += 1;
+    stats.set(attempt.exercise_id, entry);
+  }
+  return stats;
+}
+
+/**
  * Gruppiert Lektionen unter ihre Themen und sortiert beides nach `sort`.
  * Pure Funktion - veraendert die Eingaben nicht.
  */
@@ -149,6 +166,58 @@ export async function fetchActivityDays(deviceId: string): Promise<string[]> {
     .eq("device_id", deviceId);
   if (res.error) throw res.error;
   return ((res.data ?? []) as { day: string }[]).map((row) => row.day);
+}
+
+/**
+ * Tages-Aktivitaet mit XP - Quelle der Wahrheit fuer Streak UND Gesamt-XP
+ * (zaehlt auch Ueben-Runden und Lektions-Wiederholungen, nicht nur die
+ * Bestleistung pro Lektion).
+ */
+export async function fetchDailyActivity(
+  deviceId: string,
+): Promise<{ day: string; xp: number }[]> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("daily_activity")
+    .select("day, xp")
+    .eq("device_id", deviceId);
+  if (res.error) throw res.error;
+  return (res.data ?? []) as { day: string; xp: number }[];
+}
+
+/**
+ * Alle (publizierten) Uebungen der angegebenen Lektionen - Basis fuer den
+ * Ueben-Modus. RLS liefert ohnehin nur publizierte Inhalte.
+ */
+export async function fetchExercisesForLessons(
+  lessonIds: string[]
+): Promise<ExerciseRow[]> {
+  if (lessonIds.length === 0) return [];
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("exercises")
+    .select("*")
+    .in("lesson_id", lessonIds);
+  if (res.error) throw res.error;
+  return (res.data ?? []) as ExerciseRow[];
+}
+
+/**
+ * Versuchs-Statistik eines Geraets, aggregiert zu
+ * Map exerciseId -> {correct, wrong} (fuer die Ueben-Auswahl).
+ */
+export async function fetchAttemptStats(
+  deviceId: string
+): Promise<Map<string, { correct: number; wrong: number }>> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("exercise_attempts")
+    .select("exercise_id, correct")
+    .eq("device_id", deviceId);
+  if (res.error) throw res.error;
+  return aggregateAttemptStats(
+    (res.data ?? []) as { exercise_id: string; correct: boolean }[]
+  );
 }
 
 // ---------------------------------------------------------------------------

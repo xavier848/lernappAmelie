@@ -34,6 +34,9 @@ export function xpForExercise(firstTry: boolean): number {
 /** Bonus fuer eine abgeschlossene Lektion. */
 export const LESSON_BONUS_XP = 20;
 
+/** Ueben-Modus: 5 XP pro richtig geloester Uebung, kein Lektions-Bonus. */
+export const PRACTICE_XP_PER_EXERCISE = 5;
+
 /**
  * Sterne fuer eine Lektion: 3 = alles beim ersten Versuch,
  * 2 = maximal 2 Wiederholungen, 1 = geschafft.

@@ -13,7 +13,7 @@ import { StreakCalendar } from "@/components/profile/StreakCalendar";
 import { BadgeGrid } from "@/components/profile/BadgeGrid";
 import {
   berlinToday,
-  fetchActivityDays,
+  fetchDailyActivity,
   fetchPath,
   fetchProgress,
 } from "@/lib/data";
@@ -30,22 +30,22 @@ type LoadState =
       status: "ready";
       topics: TopicWithLessons[];
       progress: ProgressRow[];
-      activityDays: string[];
+      activity: { day: string; xp: number }[];
     };
 
 /** Laedt alle Daten fuer die Profil-Seite. */
 async function loadProfileData(): Promise<{
   topics: TopicWithLessons[];
   progress: ProgressRow[];
-  activityDays: string[];
+  activity: { day: string; xp: number }[];
 }> {
   const topics = await fetchPath();
   const deviceId = getDeviceId();
-  const [progress, activityDays] = await Promise.all([
+  const [progress, activity] = await Promise.all([
     fetchProgress(deviceId),
-    fetchActivityDays(deviceId),
+    fetchDailyActivity(deviceId),
   ]);
-  return { topics, progress, activityDays };
+  return { topics, progress, activity };
 }
 
 export default function ProfilPage() {
@@ -100,8 +100,9 @@ export default function ProfilPage() {
     );
   }
 
-  const totalXp = state.progress.reduce((sum, row) => sum + row.xp, 0);
-  const streak = computeStreak(state.activityDays, berlinToday());
+  // XP-Quelle: daily_activity (zaehlt auch Ueben-Runden und Wiederholungen).
+  const totalXp = state.activity.reduce((sum, row) => sum + row.xp, 0);
+  const streak = computeStreak(state.activity.map((row) => row.day), berlinToday());
   const { level, currentXp, nextLevelXp } = levelForXp(totalXp);
 
   // Abzeichen-Grundlage: abgeschlossene Lektionen + komplett geschaffte Themen.
@@ -155,7 +156,7 @@ export default function ProfilPage() {
             Meine Lerntage 🔥
           </h2>
           <Card>
-            <StreakCalendar activityDays={state.activityDays} />
+            <StreakCalendar activityDays={state.activity.map((row) => row.day)} />
           </Card>
         </section>
 

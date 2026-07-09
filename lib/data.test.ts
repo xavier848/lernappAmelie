@@ -3,6 +3,7 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   PENDING_WRITES_KEY,
+  aggregateAttemptStats,
   berlinToday,
   clearPending,
   enqueuePending,
@@ -148,5 +149,29 @@ describe("berlinToday", () => {
       timeZone: "Europe/Berlin",
     }).format(new Date());
     expect(berlinToday()).toBe(expected);
+  });
+});
+
+describe("aggregateAttemptStats", () => {
+  it("leere Liste -> leere Map", () => {
+    expect(aggregateAttemptStats([]).size).toBe(0);
+  });
+
+  it("zaehlt richtige und falsche Versuche je Uebung", () => {
+    const stats = aggregateAttemptStats([
+      { exercise_id: "e1", correct: true },
+      { exercise_id: "e1", correct: false },
+      { exercise_id: "e1", correct: false },
+      { exercise_id: "e2", correct: true },
+    ]);
+    expect(stats.get("e1")).toEqual({ correct: 1, wrong: 2 });
+    expect(stats.get("e2")).toEqual({ correct: 1, wrong: 0 });
+    expect(stats.size).toBe(2);
+  });
+
+  it("veraendert die Eingabe nicht (pure Funktion)", () => {
+    const attempts = [{ exercise_id: "e1", correct: true }];
+    aggregateAttemptStats(attempts);
+    expect(attempts).toEqual([{ exercise_id: "e1", correct: true }]);
   });
 });

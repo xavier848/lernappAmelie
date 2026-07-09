@@ -6,13 +6,14 @@
 // Offline-Schreibvorgaenge nach (flushPendingWrites).
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { AppHeader } from "@/components/ui/AppHeader";
 import { Mascot } from "@/components/ui/Mascot";
 import { Button } from "@/components/ui/Button";
 import { LearningPath } from "@/components/path/LearningPath";
 import {
   berlinToday,
-  fetchActivityDays,
+  fetchDailyActivity,
   fetchPath,
   fetchProgress,
   flushPendingWrites,
@@ -28,23 +29,23 @@ type LoadState =
       status: "ready";
       topics: TopicWithLessons[];
       progress: ProgressRow[];
-      activityDays: string[];
+      activity: { day: string; xp: number }[];
     };
 
 /** Laedt alle Daten fuer die Startseite (und reicht Offline-Writes nach). */
 async function loadStartData(): Promise<{
   topics: TopicWithLessons[];
   progress: ProgressRow[];
-  activityDays: string[];
+  activity: { day: string; xp: number }[];
 }> {
   await flushPendingWrites();
   const deviceId = getDeviceId();
-  const [topics, progress, activityDays] = await Promise.all([
+  const [topics, progress, activity] = await Promise.all([
     fetchPath(),
     fetchProgress(deviceId),
-    fetchActivityDays(deviceId),
+    fetchDailyActivity(deviceId),
   ]);
-  return { topics, progress, activityDays };
+  return { topics, progress, activity };
 }
 
 /** Ladezustand: einfache pulsierende Kreise als Platzhalter fuer den Pfad. */
@@ -67,6 +68,7 @@ function PathSkeleton() {
 }
 
 export default function StartPage() {
+  const router = useRouter();
   const [state, setState] = useState<LoadState>({ status: "loading" });
   const [reloadKey, setReloadKey] = useState(0);
 
@@ -114,8 +116,9 @@ export default function StartPage() {
     );
   }
 
-  const totalXp = state.progress.reduce((sum, row) => sum + row.xp, 0);
-  const streak = computeStreak(state.activityDays, berlinToday());
+  // XP-Quelle: daily_activity (zaehlt auch Ueben-Runden und Wiederholungen).
+  const totalXp = state.activity.reduce((sum, row) => sum + row.xp, 0);
+  const streak = computeStreak(state.activity.map((row) => row.day), berlinToday());
 
   return (
     <div className="flex min-h-dvh flex-col">
@@ -123,6 +126,26 @@ export default function StartPage() {
 
       <div className="px-4 pt-6 pb-8">
         <Mascot mood="happy" message="Hallo Amelie! Schön, dass du da bist." />
+
+        {/* Ueben-Modus: erst sichtbar, wenn mind. 1 Lektion abgeschlossen ist. */}
+        {state.progress.length > 0 && (
+          <div className="pt-6">
+            <Button
+              variant="secondary"
+              size="lg"
+              full
+              onClick={() => router.push("/ueben")}
+            >
+              <span aria-hidden>🔁</span>
+              <span className="flex flex-col items-start text-left leading-tight">
+                <span>Üben</span>
+                <span className="text-sm font-semibold opacity-70">
+                  Gelerntes wiederholen
+                </span>
+              </span>
+            </Button>
+          </div>
+        )}
       </div>
 
       <LearningPath topics={state.topics} progress={state.progress} />

@@ -5,6 +5,10 @@
 // Vorlese-Button + Uebungskomponente, unten fixer „Pruefen"-Button.
 // Falsche Uebungen wandern ans Ende der Queue (components/player/queue.ts);
 // am Ende XP/Sterne berechnen, speichern und den Ergebnis-Screen zeigen.
+// Ueben-Modus (mode="practice" + exercisesOverride, Route /ueben): gleiche
+// Mechanik inkl. Wiederholungs-Queue und logAttempt, aber 5 XP pro Uebung,
+// kein Lektions-Bonus, keine Sterne, kein saveLessonResult - nur
+// bumpDailyActivity (Streak zaehlt).
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { exerciseSchema, type ExerciseInput } from "@/lib/content-schema";
@@ -17,6 +21,7 @@ import {
 import { getDeviceId } from "@/lib/device";
 import {
   LESSON_BONUS_XP,
+  PRACTICE_XP_PER_EXERCISE,
   starsForLesson,
   xpForExercise,
 } from "@/lib/scoring";
@@ -75,7 +80,37 @@ function ExerciseView({
   }
 }
 
-export function LessonPlayer({ slug }: { slug: string }) {
+/** Rohe Uebungs-Zeilen (z. B. aus der DB) fuer exercisesOverride. */
+export type ExerciseRowLike = { id: string; type: string; data: unknown };
+
+export type LessonPlayerProps = {
+  /** Lektions-Slug (Standard-Modus). Im Ueben-Modus nicht noetig. */
+  slug?: string;
+  /** "practice" = Ueben-Modus (keine Sterne, 5 XP/Uebung, kein Speichern). */
+  mode?: "lesson" | "practice";
+  /** Uebungen direkt uebergeben statt per slug zu laden (Ueben-Modus). */
+  exercisesOverride?: ExerciseRowLike[];
+};
+
+/** Validiert rohe Uebungs-Zeilen; ungueltige werden uebersprungen. */
+function parseExerciseRows(rows: ExerciseRowLike[]): PlayableExercise[] {
+  const playable: PlayableExercise[] = [];
+  for (const row of rows) {
+    try {
+      const parsed = exerciseSchema.parse({ type: row.type, data: row.data });
+      playable.push({ id: row.id, exercise: parsed });
+    } catch (error) {
+      console.warn(`Übung ${row.id} übersprungen (ungültige Daten):`, error);
+    }
+  }
+  return playable;
+}
+
+export function LessonPlayer({
+  slug,
+  mode = "lesson",
+  exercisesOverride,
+}: LessonPlayerProps) {
   const router = useRouter();
 
   const [phase, setPhase] = useState<Phase>("loading");
@@ -99,26 +134,30 @@ export function LessonPlayer({ slug }: { slug: string }) {
     setReady(false);
     setCheckRequested(0);
     try {
+      // Ueben-Modus: Uebungen kommen fertig geladen von aussen.
+      if (exercisesOverride) {
+        const playable = parseExerciseRows(exercisesOverride);
+        if (playable.length === 0) {
+          setPhase("error");
+          return;
+        }
+        setLessonId(null);
+        setExercises(playable);
+        setQueueState(createQueue(playable));
+        setPhase("playing");
+        return;
+      }
+
+      if (!slug) {
+        setPhase("error");
+        return;
+      }
       const data = await fetchLesson(slug);
       if (!data) {
         setPhase("error");
         return;
       }
-      const playable: PlayableExercise[] = [];
-      for (const row of data.exercises) {
-        try {
-          const parsed = exerciseSchema.parse({
-            type: row.type,
-            data: row.data,
-          });
-          playable.push({ id: row.id, exercise: parsed });
-        } catch (error) {
-          console.warn(
-            `Übung ${row.id} übersprungen (ungültige Daten):`,
-            error
-          );
-        }
-      }
+      const playable = parseExerciseRows(data.exercises);
       if (playable.length === 0) {
         setPhase("error");
         return;
@@ -131,7 +170,7 @@ export function LessonPlayer({ slug }: { slug: string }) {
       console.warn("Lektion konnte nicht geladen werden:", error);
       setPhase("error");
     }
-  }, [slug]);
+  }, [slug, exercisesOverride]);
 
   useEffect(() => {
     void load();
@@ -159,6 +198,24 @@ export function LessonPlayer({ slug }: { slug: string }) {
   }
 
   function finishLesson(finalState: QueueState) {
+    // Ueben-Modus: 5 XP pro (am Ende immer richtig geloester) Uebung,
+    // kein Lektions-Bonus, keine Sterne, kein Lektions-Ergebnis –
+    // aber Tages-Aktivitaet zaehlt (Streak!).
+    if (mode === "practice") {
+      const xp = finalState.total * PRACTICE_XP_PER_EXERCISE;
+      setResult({ xp, stars: 1 });
+      setPhase("finished");
+      try {
+        const deviceId = getDeviceId();
+        if (deviceId) {
+          void bumpDailyActivity(deviceId, xp);
+        }
+      } catch {
+        // bewusst still – Ergebnis-Screen zeigen wir trotzdem
+      }
+      return;
+    }
+
     const xp =
       finalState.firstTry.reduce(
         (sum, firstTry) => sum + xpForExercise(firstTry),
@@ -222,6 +279,16 @@ export function LessonPlayer({ slug }: { slug: string }) {
   }
 
   if (phase === "finished") {
+    if (mode === "practice") {
+      return (
+        <ResultScreen
+          xp={result.xp}
+          message="Fleißig geübt, Amelie!"
+          buttonLabel="Fertig"
+          onContinue={() => router.push("/")}
+        />
+      );
+    }
     return (
       <ResultScreen
         xp={result.xp}
@@ -239,7 +306,7 @@ export function LessonPlayer({ slug }: { slug: string }) {
       <div className="flex items-center gap-3 px-4 pt-4">
         <button
           type="button"
-          aria-label="Lektion beenden"
+          aria-label={mode === "practice" ? "Üben beenden" : "Lektion beenden"}
           onClick={() => setShowQuitDialog(true)}
           className="flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl text-2xl font-bold text-ink/50 select-none"
         >
@@ -301,7 +368,7 @@ export function LessonPlayer({ slug }: { slug: string }) {
         <div
           role="dialog"
           aria-modal="true"
-          aria-label="Lektion beenden?"
+          aria-label={mode === "practice" ? "Üben beenden?" : "Lektion beenden?"}
           className="fixed inset-0 z-50 flex items-center justify-center bg-ink/40 px-6"
         >
           <div className="w-full max-w-sm rounded-3xl bg-white p-6 shadow-lg">
@@ -309,7 +376,9 @@ export function LessonPlayer({ slug }: { slug: string }) {
               Willst du wirklich aufhören?
             </p>
             <p className="mt-2 text-base text-ink">
-              Dein Fortschritt in dieser Lektion geht dann verloren.
+              {mode === "practice"
+                ? "Dein Fortschritt beim Üben geht dann verloren."
+                : "Dein Fortschritt in dieser Lektion geht dann verloren."}
             </p>
             <div className="mt-5 flex flex-col gap-3">
               <Button size="lg" full onClick={() => setShowQuitDialog(false)}>

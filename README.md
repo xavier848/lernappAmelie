@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amelies Lernapp 🐴
 
-## Getting Started
+Eine Duolingo-artige Lern-Web-App für Amelie – mobile-first, weiß/türkis, mit Pony-Maskottchen. Sie übt Alltags- und Ausbildungsfähigkeiten für die Hauswirtschaftsschule: Putzen in der richtigen Reihenfolge, Wäsche, Servietten falten, Rechnen mit Geld, Geld verwalten, Englisch für Feriengäste und Kinderbetreuung.
 
-First, run the development server:
+**Roter Faden:** „Wie gehe ich systematisch vor?" – die richtige Reihenfolge steht überall im Mittelpunkt.
+
+## Für wen & was ist besonders
+
+Amelie hat Dyspraxie. Deshalb gilt in der ganzen App:
+
+- **Nur Tippen, nie Ziehen** – kein Drag & Drop, große Buttons (min. 48 px), Aktion erst beim Loslassen
+- **Kein Zeitdruck, keine Leben/Herzen** – Fehler werden freundlich (orange, nie rot) erklärt und am Ende der Lektion einfach wiederholt
+- **Leichte Sprache** und ein Vorlese-Button 🔊 an jeder Aufgabe
+- **Gamification, die gut tut:** XP, Level, Streak 🔥, Abzeichen – und ein Üben-Modus, der Gelerntes mischt und bevorzugt wiederholt, was schwerfällt
+
+## Technik
+
+- **Next.js** (App Router, TypeScript, Tailwind 4, Framer Motion)
+- **Supabase** (Projekt `lernapp-amelie`): Inhalte (topics → lessons → exercises), Bilder-Storage, Fortschritt/Streak über anonyme Geräte-ID – **kein Login für Amelie**
+- **Admin-Bereich** `/admin` (gemeinsames Passwort): Fortschritts-Dashboard, schwierige Übungen, Publish-Schalter, Lektions-Import per JSON, Bild-Upload
+- 6 Übungstypen: Schritte ordnen, Quiz, Paare/Memory, Sortieren, Geld zählen, Budget-Challenge – Format dokumentiert in [CONTENT_FORMAT.md](CONTENT_FORMAT.md)
+
+## Lokal starten
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # Werte eintragen, siehe unten
+npm run dev                  # http://localhost:3000
+npm test                     # Vitest
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Umgebungsvariablen (.env.local)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Variable | Woher |
+|---|---|
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase → Project Settings → API |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | ebenda („anon public") |
+| `SUPABASE_SERVICE_ROLE_KEY` | ebenda („service_role" – geheim!). Nur nötig für Admin-Import/Upload/Publish und Seed-Skript |
+| `ADMIN_PASSWORD` | frei wählen – Login für `/admin` |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Neue Inhalte
 
-## Learn More
+**Weg 1 (empfohlen):** Xavier beschreibt Claude im Chat das Thema → Claude erstellt die Lektion nach [CONTENT_FORMAT.md](CONTENT_FORMAT.md), legt sie unter `content/lessons/` ab und spielt sie direkt per Supabase ein. Kein Deploy nötig, sofort auf dem Handy.
 
-To learn more about Next.js, take a look at the following resources:
+**Weg 2:** `/admin/inhalte` → „Neue Lektion (JSON)" einfügen.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Seed-Skript:** `npx tsx scripts/seed.ts` (validiert + upsertet alles aus `content/`; `--check` validiert nur).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment (Vercel)
 
-## Deploy on Vercel
+1. Repo importieren: `vercel` CLI oder vercel.com → Projekt aus `xavier848/lernappAmelie`
+2. Die 4 Umgebungsvariablen setzen (Production)
+3. Deploy – fertig. Danach Domain zuweisen: Subdomain von alpflow.net (z. B. `lernen.alpflow.net`) als CNAME auf `cname.vercel-dns.com` + Domain im Vercel-Projekt eintragen
+4. Amelie: Seite öffnen → „Zum Home-Bildschirm hinzufügen" → fühlt sich wie eine App an (PWA)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Projekt-Dokumente
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Design-Spezifikation: [docs/superpowers/specs/2026-07-09-lernapp-amelie-design.md](docs/superpowers/specs/2026-07-09-lernapp-amelie-design.md)
+- Implementierungsplan: [docs/superpowers/plans/2026-07-09-lernapp-amelie.md](docs/superpowers/plans/2026-07-09-lernapp-amelie.md)
+- Inhalts-Format: [CONTENT_FORMAT.md](CONTENT_FORMAT.md)
+- Lizenzen/Credits: in der App unter `/credits`
