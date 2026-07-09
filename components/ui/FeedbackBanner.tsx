@@ -3,9 +3,11 @@
 // Feedback-Banner unten im Lektions-Player (Spec §4.2):
 // Grün „Richtig! 🎉" / sanftes Orange „Fast! Schau nochmal." – NIE rot.
 // Rutscht von unten herein (Framer), respektiert prefers-reduced-motion.
+import { useEffect } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "./Button";
 import { cn } from "@/lib/cn";
+import { playCorrect, playWrong } from "@/lib/sound";
 
 export type FeedbackBannerProps = {
   state: "correct" | "wrong";
@@ -44,6 +46,12 @@ export function FeedbackBanner({
   const reducedMotion = useReducedMotion();
   const c = STATES[state];
   const shownTitle = title ?? c.title;
+
+  // Kurzer Feedback-Sound beim Erscheinen des Banners.
+  useEffect(() => {
+    if (state === "correct") playCorrect();
+    else playWrong();
+  }, [state]);
 
   return (
     <motion.div

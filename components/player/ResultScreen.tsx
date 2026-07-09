@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 "use client";
 
 // Ergebnis-Screen nach einer Lektion (Spec §4.3): Konfetti, Maskottchen lobt,
@@ -28,6 +29,11 @@ export function ResultScreen({
   buttonLabel = "Weiter lernen",
   onContinue,
 }: ResultScreenProps) {
+  // Kleiner Jubel beim Erscheinen des Ergebnis-Screens.
+  useEffect(() => {
+    playFinish();
+  }, []);
+
   const reducedMotion = useReducedMotion();
 
   return (
@@ -79,3 +85,4 @@ export function ResultScreen({
     </div>
   );
 }
+import { playFinish } from "@/lib/sound";
