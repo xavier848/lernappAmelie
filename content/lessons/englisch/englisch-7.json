@@ -1,0 +1,123 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-7",
+  "title": "Abreise und Verabschiedung",
+  "sort": 7,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Morgen reisen die Gäste ab. Ein Gast fragt: When do we have to leave? Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Check-out is at ten. 🕙", "correct": true },
+          { "text": "Breakfast is at eight." },
+          { "text": "Welcome to your holiday home." }
+        ],
+        "explanation": "Richtig! Check-out heißt Abreise. At ten heißt: um 10 Uhr. 🕙"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Bitte lassen Sie den Schlüssel auf dem Tisch. 🔑",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Please" },
+          { "text": "leave" },
+          { "text": "the key" },
+          { "text": "on" },
+          { "text": "the table" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Zum Abschied: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Danke, dass Sie bei uns waren!" }, "right": { "text": "Thank you for staying with us!" } },
+          { "left": { "text": "Gute Heimreise! 🚗" }, "right": { "text": "Have a safe trip home!" } },
+          { "left": { "text": "Bis nächstes Jahr! 👋" }, "right": { "text": "See you next year!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste packen ihr Auto. 🚗 Gleich fahren sie nach Hause. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Have a safe trip home!", "correct": true },
+          { "text": "Did you sleep well?" },
+          { "text": "Enjoy your stay!" }
+        ],
+        "explanation": "Genau! Safe trip home heißt: Gute Heimreise. Enjoy your stay passt nur zur Ankunft. 🚗"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Danke, dass Sie bei uns waren. 🙏",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Thank" },
+          { "text": "you" },
+          { "text": "for" },
+          { "text": "staying" },
+          { "text": "with" },
+          { "text": "us" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste sagen beim Abschied: We had a wonderful time! Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wir hatten eine wunderschöne Zeit. 😊", "correct": true },
+          { "text": "Wir hatten keine Zeit." },
+          { "text": "Wir hatten schlechtes Wetter." }
+        ],
+        "explanation": "Richtig! Wonderful heißt wunderschön. Time heißt Zeit. Das ist ein tolles Lob für euch. 😊"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste möchten nächstes Jahr wiederkommen. Was sagst du zum Abschied?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "See you next year! 👋", "correct": true },
+          { "text": "Welcome!" },
+          { "text": "The dishwasher is broken." }
+        ],
+        "explanation": "Genau! See you heißt: Wir sehen uns. Next year heißt: nächstes Jahr. 👋"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Ankunft oder Abreise? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "ankunft", "label": "Ankunft", "icon": "🔑" },
+          { "id": "abreise", "label": "Abreise", "icon": "🚗" }
+        ],
+        "items": [
+          { "text": "Welcome!", "bucket": "ankunft" },
+          { "text": "Here is your key.", "bucket": "ankunft" },
+          { "text": "Enjoy your stay!", "bucket": "ankunft" },
+          { "text": "Thank you for staying with us!", "bucket": "abreise" },
+          { "text": "Have a safe trip home!", "bucket": "abreise" },
+          { "text": "See you next year!", "bucket": "abreise" }
+        ]
+      }
+    }
+  ]
+}

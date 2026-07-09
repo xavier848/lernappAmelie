@@ -11,6 +11,10 @@ export type FeedbackBannerProps = {
   state: "correct" | "wrong";
   explanation?: string;
   onContinue: () => void;
+  /** Ueberschreibt den Standard-Titel (z. B. "Fast! Probier es gleich nochmal."). */
+  title?: string;
+  /** Beschriftung des Weiter-Buttons (Default "Weiter"). */
+  continueLabel?: string;
 };
 
 const STATES = {
@@ -34,9 +38,12 @@ export function FeedbackBanner({
   state,
   explanation,
   onContinue,
+  title,
+  continueLabel,
 }: FeedbackBannerProps) {
   const reducedMotion = useReducedMotion();
   const c = STATES[state];
+  const shownTitle = title ?? c.title;
 
   return (
     <motion.div
@@ -48,17 +55,17 @@ export function FeedbackBanner({
     >
       <div
         className={cn(
-          "mx-auto w-full max-w-md rounded-t-3xl border-t-4 px-4 pt-4 pb-6",
+          "mx-auto w-full max-w-md rounded-t-3xl border-t-4 px-4 pt-4 pb-[max(1.5rem,env(safe-area-inset-bottom))]",
           c.wrap
         )}
       >
         <p className={cn("text-xl font-extrabold", c.text)}>
-          {c.emoji} {c.title}
+          {c.emoji} {shownTitle}
         </p>
         {explanation && <p className="mt-2 text-base text-ink">{explanation}</p>}
         <div className="mt-4">
           <Button variant={c.variant} size="lg" full onClick={onContinue}>
-            Weiter
+            {continueLabel ?? "Weiter"}
           </Button>
         </div>
       </div>

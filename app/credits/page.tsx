@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function CreditsPage() {
   return (
-    <div className="flex min-h-dvh flex-col gap-6 px-4 py-8">
+    <div className="flex min-h-svh flex-col gap-6 px-4 py-8">
       <h1 className="text-2xl font-extrabold text-ink">Danke &amp; Lizenzen</h1>
 
       <section className="flex flex-col gap-2">

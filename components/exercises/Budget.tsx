@@ -3,6 +3,8 @@
 // budget – Monats-Challenge (Spec §5.6). Betraege IMMER in Cent.
 // Kopf: Einnahme + „Noch übrig" (tuerkis ≥ 0, orange < 0).
 // Zeilen: Icon, Label, Betrag, −/+ Stepper in 10-€-Schritten (min 0).
+// Kompakt-Layout: Zeilen min-h-12, Stepper 44×44 px (Tap-Ziel-Minimum),
+// damit 7 Kategorien plus Kopf ohne Scrollen auf einen iPhone-Screen passen.
 // fixe Kategorien sind ausgegraut ohne Stepper.
 // Nach dem Pruefen: einfaches Balken-Diagramm + ✔️/⚠️-Text.
 
@@ -76,21 +78,21 @@ export function Budget({
   );
 
   return (
-    <div className="flex flex-col gap-4">
-      {/* Kopf: Einnahme + Noch uebrig */}
-      <div className="flex flex-col gap-1 rounded-2xl bg-primary-light p-4">
-        <p className="text-lg">
+    <div className="flex flex-col gap-3">
+      {/* Kopf: EINE kompakte Card – Einnahmen, Spar-Ziel, Noch uebrig */}
+      <div className="flex flex-col gap-0.5 rounded-2xl bg-primary-light p-3">
+        <p className="text-sm">
           Einnahmen: <strong>{formatEuro(data.income)}</strong>
         </p>
         {data.savingsGoal !== undefined && (
-          <p className="text-base">
+          <p className="text-sm">
             Spar-Ziel: <strong>{formatEuro(data.savingsGoal)}</strong>
           </p>
         )}
         <p
           data-testid="budget-remaining"
           className={cn(
-            "text-2xl font-extrabold",
+            "text-xl font-extrabold",
             remaining >= 0 ? "text-primary-dark" : "text-warning-dark",
           )}
         >
@@ -98,8 +100,8 @@ export function Budget({
         </p>
       </div>
 
-      {/* Kategorien-Zeilen */}
-      <ul className="flex flex-col gap-3">
+      {/* Kategorien-Zeilen, kompakt – 7 Zeilen passen mit Kopf auf einen Screen */}
+      <ul className="flex flex-col gap-2">
         {data.categories.map((category) => {
           const amount = amounts[category.id] ?? 0;
           const isFixed = category.fixed !== undefined;
@@ -107,24 +109,24 @@ export function Budget({
             <li
               key={category.id}
               className={cn(
-                "flex min-h-16 items-center gap-3 rounded-2xl border-2 border-locked bg-white px-3 py-2",
+                "flex min-h-12 items-center gap-2 rounded-2xl border-2 border-locked bg-white px-2.5 py-0.5",
                 isFixed && "opacity-60",
               )}
             >
               {category.icon && (
-                <span aria-hidden="true" className="text-2xl">
+                <span aria-hidden="true" className="text-xl">
                   {category.icon}
                 </span>
               )}
-              <span className="flex-1 text-base font-semibold">
+              <span className="flex-1 text-sm font-semibold">
                 {category.label}
                 {isFixed && (
-                  <span className="block text-sm font-normal text-ink/60">
+                  <span className="block text-xs font-normal text-ink/60">
                     fester Betrag
                   </span>
                 )}
               </span>
-              <span className="min-w-20 text-right text-base font-bold">
+              <span className="min-w-16 text-right text-sm font-bold">
                 {formatEuro(amount)}
               </span>
               {!isFixed && (
@@ -134,7 +136,7 @@ export function Budget({
                     onClick={() => changeAmount(category.id, -BUDGET_STEP_CENTS)}
                     disabled={amount === 0}
                     aria-label={`Weniger für ${category.label}`}
-                    className="flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl border-2 border-b-4 border-locked bg-white text-2xl font-bold text-ink active:translate-y-1 active:border-b-2 disabled:cursor-not-allowed disabled:opacity-40"
+                    className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-2xl border-2 border-b-4 border-locked bg-white text-xl font-bold text-ink active:translate-y-1 active:border-b-2 disabled:cursor-not-allowed disabled:opacity-40"
                   >
                     −
                   </button>
@@ -142,7 +144,7 @@ export function Budget({
                     type="button"
                     onClick={() => changeAmount(category.id, BUDGET_STEP_CENTS)}
                     aria-label={`Mehr für ${category.label}`}
-                    className="flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl border-b-4 border-primary-dark bg-primary text-2xl font-bold text-white active:translate-y-1 active:border-b-0"
+                    className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-2xl border-b-4 border-primary-dark bg-primary text-xl font-bold text-white active:translate-y-1 active:border-b-0"
                   >
                     +
                   </button>
@@ -155,8 +157,8 @@ export function Budget({
 
       {/* Ergebnis nach dem Pruefen: Text + einfache Balken */}
       {checked && (
-        <div className="flex flex-col gap-3 rounded-2xl border-2 border-locked bg-white p-4">
-          <p data-testid="budget-result" className="text-lg font-bold">
+        <div className="flex flex-col gap-2 rounded-2xl border-2 border-locked bg-white p-3">
+          <p data-testid="budget-result" className="text-base font-bold">
             {VERDICT_TEXT[verdict]}
           </p>
           <div data-testid="budget-bars" className="flex flex-col gap-2">

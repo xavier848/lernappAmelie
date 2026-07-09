@@ -16,6 +16,7 @@ describe("createQueue", () => {
     expect(state.queue).toEqual([0, 1, 2]);
     expect(state.solvedCount).toBe(0);
     expect(state.retried).toEqual([0, 0, 0]);
+    expect(state.attemptFails).toEqual([0, 0, 0]);
     expect(state.firstTry).toEqual([false, false, false]);
   });
 
@@ -35,26 +36,52 @@ describe("currentExerciseIndex", () => {
 
 describe("advanceQueue", () => {
   it("richtig: Uebung verlaesst die Queue, solvedCount steigt, firstTry = true", () => {
-    const { state, done } = advanceQueue(createQueue(three), true);
+    const { state, done, outcome } = advanceQueue(createQueue(three), true);
     expect(state.queue).toEqual([1, 2]);
     expect(state.solvedCount).toBe(1);
     expect(state.firstTry[0]).toBe(true);
     expect(done).toBe(false);
+    expect(outcome).toBe("solved");
   });
 
-  it("falsch: Uebung wandert ans Ende, retried zaehlt hoch", () => {
-    const { state, done } = advanceQueue(createQueue(three), false);
-    expect(state.queue).toEqual([1, 2, 0]);
-    expect(state.solvedCount).toBe(0);
+  it("ERSTER Fehler: Uebung bleibt vorne fuer sofortigen zweiten Versuch (retry)", () => {
+    const { state, done, outcome } = advanceQueue(createQueue(three), false);
+    expect(outcome).toBe("retry");
+    expect(state.queue).toEqual([0, 1, 2]); // bleibt vorne!
     expect(state.retried).toEqual([1, 0, 0]);
+    expect(state.attemptFails).toEqual([1, 0, 0]);
     expect(done).toBe(false);
   });
 
-  it("nach Wiederholung geloest: firstTry bleibt false", () => {
+  it("ZWEITER Fehler in Folge: Uebung wandert ans Ende (defer)", () => {
+    let state = createQueue(three);
+    ({ state } = advanceQueue(state, false)); // 1. Fehler -> retry
+    const result = advanceQueue(state, false); // 2. Fehler -> defer
+    expect(result.outcome).toBe("defer");
+    expect(result.state.queue).toEqual([1, 2, 0]);
+    expect(result.state.retried).toEqual([2, 0, 0]);
+    // attemptFails fuer die naechste Praesentation zurueckgesetzt:
+    expect(result.state.attemptFails).toEqual([0, 0, 0]);
+    expect(result.done).toBe(false);
+  });
+
+  it("nach deferter Wiederholung gilt wieder: 1. Fehler = retry", () => {
+    let state = createQueue(["a", "b"]);
+    ({ state } = advanceQueue(state, false)); // a: 1. Fehler -> retry
+    ({ state } = advanceQueue(state, false)); // a: 2. Fehler -> defer, queue [b, a]
+    ({ state } = advanceQueue(state, true)); // b richtig, queue [a]
+    const result = advanceQueue(state, false); // a wieder vorne: 1. Fehler -> retry
+    expect(result.outcome).toBe("retry");
+    expect(result.state.queue).toEqual([0]);
+    expect(result.state.retried[0]).toBe(3);
+  });
+
+  it("retry und dann richtig: Uebung geloest, firstTry bleibt false", () => {
     let state = createQueue(["a"]);
-    ({ state } = advanceQueue(state, false)); // falsch -> ans Ende
-    const result = advanceQueue(state, true); // beim 2. Mal richtig
+    ({ state } = advanceQueue(state, false)); // 1. Fehler -> retry, bleibt vorne
+    const result = advanceQueue(state, true); // sofortiger 2. Versuch sitzt
     expect(result.done).toBe(true);
+    expect(result.outcome).toBe("solved");
     expect(result.state.firstTry[0]).toBe(false);
     expect(result.state.retried[0]).toBe(1);
     expect(result.state.solvedCount).toBe(1);
@@ -71,18 +98,6 @@ describe("advanceQueue", () => {
     expect(done).toBe(true);
     expect(state.solvedCount).toBe(3);
     expect(state.firstTry).toEqual([true, true, true]);
-  });
-
-  it("mehrfach falsch: retried zaehlt je Uebung weiter", () => {
-    let state = createQueue(["a", "b"]);
-    ({ state } = advanceQueue(state, false)); // a falsch -> [1, 0]... queue [b, a]
-    ({ state } = advanceQueue(state, true)); // b richtig
-    ({ state } = advanceQueue(state, false)); // a wieder falsch
-    expect(state.retried).toEqual([2, 0]);
-    expect(state.queue).toEqual([0]);
-    const result = advanceQueue(state, true);
-    expect(result.done).toBe(true);
-    expect(result.state.firstTry).toEqual([false, true]);
   });
 
   it("leere Queue: done true, Zustand unveraendert", () => {
@@ -102,12 +117,12 @@ describe("advanceQueue", () => {
 });
 
 describe("retriedExerciseCount", () => {
-  it("zaehlt Uebungen mit mindestens einer Wiederholung (nicht Versuche)", () => {
+  it("zaehlt Uebungen mit mindestens einem Fehler (nicht Versuche)", () => {
     let state = createQueue(three);
-    ({ state } = advanceQueue(state, false)); // 0 falsch
-    ({ state } = advanceQueue(state, true)); // 1 richtig
-    ({ state } = advanceQueue(state, false)); // 2 falsch
-    ({ state } = advanceQueue(state, false)); // 0 nochmal falsch
+    ({ state } = advanceQueue(state, false)); // 0: 1. Fehler (retry, bleibt vorne)
+    ({ state } = advanceQueue(state, true)); // 0 im 2. Versuch richtig
+    ({ state } = advanceQueue(state, false)); // 1: 1. Fehler
+    ({ state } = advanceQueue(state, false)); // 1: 2. Fehler (defer)
     expect(retriedExerciseCount(state)).toBe(2);
   });
 

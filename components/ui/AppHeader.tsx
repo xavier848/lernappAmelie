@@ -5,8 +5,10 @@ import { levelForXp } from "@/lib/scoring";
 export function AppHeader({ streak, xp }: { streak: number; xp: number }) {
   const { level } = levelForXp(xp);
 
+  // Solides Weiß statt backdrop-blur: Blur verursacht auf Handys
+  // sichtbares Ruckeln beim Scrollen unter dem Sticky-Header.
   return (
-    <header className="sticky top-0 z-40 border-b border-locked bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-locked bg-white">
       <div className="mx-auto flex w-full max-w-md items-center justify-between gap-3 px-4 py-2">
         <span
           aria-label={`${streak} Tage Serie`}

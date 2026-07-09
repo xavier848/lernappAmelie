@@ -1,0 +1,194 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-6",
+  "title": "Im Restaurant und Café",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Du bist im Restaurant. Die Cola kostet 3,20 €. Die Pommes kosten 4,50 €. Wie viel steht auf der Rechnung?",
+        "options": [
+          {
+            "text": "7,70 €",
+            "correct": true
+          },
+          {
+            "text": "7,50 €"
+          },
+          {
+            "text": "8,70 €"
+          }
+        ],
+        "explanation": "Rechne die Euro zuerst: 3 € plus 4 € sind 7 €. Dann die Cent: 20 plus 50 sind 70. Zusammen: 7,70 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Im Café: Der Kaffee kostet 2,80 €. Der Kuchen kostet 3,40 €. Wie viel zusammen?",
+        "options": [
+          {
+            "text": "6,20 €",
+            "correct": true
+          },
+          {
+            "text": "5,20 €"
+          },
+          {
+            "text": "6,40 €"
+          }
+        ],
+        "explanation": "2 € plus 3 € sind 5 €. 80 Cent plus 40 Cent sind 1,20 €. Zusammen: 6,20 €. Vergiss den Euro aus den Cents nicht!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Die Rechnung ist 18,40 €. Du willst Trinkgeld geben. Du sagst: \"Machen Sie 20 €.\" Wie viel Trinkgeld ist das?",
+        "options": [
+          {
+            "text": "1,60 €",
+            "correct": true
+          },
+          {
+            "text": "2,60 €"
+          },
+          {
+            "text": "1,40 €"
+          }
+        ],
+        "explanation": "Ergänze: Von 18,40 € bis 19 € sind es 60 Cent. Von 19 € bis 20 € ist es 1 €. Das Trinkgeld ist 1,60 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Warum gibt man im Restaurant Trinkgeld?",
+        "options": [
+          {
+            "text": "Als Dankeschön für guten Service.",
+            "correct": true
+          },
+          {
+            "text": "Weil es Pflicht ist. Man muss immer zahlen."
+          },
+          {
+            "text": "Damit das Essen billiger wird."
+          }
+        ],
+        "explanation": "Trinkgeld ist freiwillig. Es ist ein Dankeschön. Üblich ist: Man rundet die Rechnung etwas auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👭 Du isst mit einer Freundin. Die Rechnung ist 23 €. Ihr teilt sie fair, jede zahlt die Hälfte. Wie viel zahlst du?",
+        "options": [
+          {
+            "text": "11,50 €",
+            "correct": true
+          },
+          {
+            "text": "11 €"
+          },
+          {
+            "text": "12,50 €"
+          }
+        ],
+        "explanation": "Die Hälfte von 22 € ist 11 €. Die Hälfte von 1 € ist 50 Cent. Du zahlst 11,50 €."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Rechnung teilen: Wie viel zahlt jede Person? Finde die Paare.",
+        "pairs": [
+          {
+            "left": {
+              "text": "16 € zu zweit"
+            },
+            "right": {
+              "text": "8 € pro Person"
+            }
+          },
+          {
+            "left": {
+              "text": "24 € zu zweit"
+            },
+            "right": {
+              "text": "12 € pro Person"
+            }
+          },
+          {
+            "left": {
+              "text": "30 € zu dritt"
+            },
+            "right": {
+              "text": "10 € pro Person"
+            }
+          },
+          {
+            "left": {
+              "text": "9 € zu dritt"
+            },
+            "right": {
+              "text": "3 € pro Person"
+            }
+          }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🧾 Du hilfst beim Kassieren aus. Die Rechnung ist 14,60 €. Der Gast gibt 20 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 1460,
+        "given": 2000
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "☕ Ein Kaffee und ein Wasser kosten zusammen 5,30 €. Der Gast gibt 10 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 530,
+        "given": 1000
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧾 Du willst im Restaurant bezahlen. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Du bittest um die Rechnung."
+          },
+          {
+            "text": "Du prüfst die Rechnung: Stimmt alles?"
+          },
+          {
+            "text": "Du überlegst dein Trinkgeld."
+          },
+          {
+            "text": "Du nennst den Betrag: \"Machen Sie 20 €.\""
+          },
+          {
+            "text": "Du kontrollierst dein Rückgeld."
+          }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Letzte Aufgabe. Die Rechnung ist 18,40 €. Der Gast gibt 20 € und möchte alles zurück. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 1840,
+        "given": 2000
+      }
+    }
+  ]
+}

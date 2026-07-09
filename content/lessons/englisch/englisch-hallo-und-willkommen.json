@@ -1,31 +1,32 @@
 {
   "topic_slug": "englisch",
   "slug": "englisch-hallo-und-willkommen",
-  "title": "Hallo und Willkommen",
+  "title": "Gäste begrüßen",
   "sort": 1,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Ein Gast kommt an. 🚗 Was sagst du zur Begrüßung?",
+        "prompt": "Die Gäste kommen mit dem Auto an. 🚗 Du begrüßt sie und fragst nach der Fahrt. Was sagst du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Welcome! 😊", "correct": true },
-          { "text": "Goodbye!" },
-          { "text": "Sorry!" }
+          { "text": "Welcome! Did you have a good trip?", "correct": true },
+          { "text": "Goodbye! See you next time!" },
+          { "text": "Check-out is at ten o'clock." }
         ],
-        "explanation": "Richtig! Welcome heißt Willkommen. Das sagst du, wenn ein Gast ankommt. 😊"
+        "explanation": "Did you have a good trip? heißt: Hatten Sie eine gute Fahrt? Das fragst du bei der Ankunft. Goodbye sagst du erst bei der Abreise."
       }
     },
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "Deutsch und Englisch: Was gehört zusammen?",
+        "prompt": "Sätze für die Ankunft: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Willkommen!" }, "right": { "text": "Welcome!" } },
-          { "left": { "text": "Hier ist Ihr Schlüssel. 🔑" }, "right": { "text": "Here is your key." } },
-          { "left": { "text": "Schönen Tag! ☀️" }, "right": { "text": "Have a nice day!" } }
+          { "left": { "text": "Did you have a good trip?" }, "right": { "text": "Hatten Sie eine gute Fahrt?" } },
+          { "left": { "text": "Here is your key. 🔑" }, "right": { "text": "Hier ist Ihr Schlüssel." } },
+          { "left": { "text": "I will show you the apartment." }, "right": { "text": "Ich zeige Ihnen die Wohnung." } },
+          { "left": { "text": "Please come in!" }, "right": { "text": "Kommen Sie herein!" } }
         ],
         "memory": false
       }
@@ -33,66 +34,117 @@
     {
       "type": "steps_order",
       "data": {
-        "prompt": "Baue den Satz: Willkommen in Ihrem Ferienhaus. 🏠",
+        "prompt": "Baue den Satz: Ich zeige Ihnen die Wohnung. 🏠",
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "Welcome" },
-          { "text": "to" },
-          { "text": "your" },
-          { "text": "holiday" },
-          { "text": "home" }
+          { "text": "I" },
+          { "text": "will" },
+          { "text": "show" },
+          { "text": "you" },
+          { "text": "the" },
+          { "text": "apartment" }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Was heißt: Here is your key.",
+        "prompt": "Ein Gast fragt: What is the wifi password? 📶 Was will er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Hier ist Ihr Schlüssel. 🔑", "correct": true },
-          { "text": "Hier ist Ihr Zimmer." },
-          { "text": "Hier ist Ihr Auto." }
+          { "text": "Das WLAN-Passwort.", "correct": true },
+          { "text": "Wo er parken kann." },
+          { "text": "Wann es Frühstück gibt." }
         ],
-        "explanation": "Richtig! Key heißt Schlüssel. Den Satz sagst du bei der Schlüssel-Übergabe. 🔑"
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "Der Gast geht zum Ausflug los. 🚶 Was sagst du?",
-        "tts_lang": "en-GB",
-        "options": [
-          { "text": "Have a nice day! ☀️", "correct": true },
-          { "text": "Welcome!" },
-          { "text": "Here is your key." }
-        ],
-        "explanation": "Genau! Have a nice day heißt: Schönen Tag! Das wünschst du dem Gast. ☀️"
+        "explanation": "Wifi heißt WLAN. Password heißt Passwort. Diese Frage kommt fast von jedem Gast."
       }
     },
     {
       "type": "steps_order",
       "data": {
-        "prompt": "Baue den Satz: Hier ist Ihr Schlüssel. 🔑",
+        "prompt": "Baue die Antwort: Hier ist das WLAN-Passwort. 📶",
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
           { "text": "Here" },
           { "text": "is" },
-          { "text": "your" },
-          { "text": "key" }
+          { "text": "the" },
+          { "text": "wifi" },
+          { "text": "password" }
         ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste sagen: The trip was long, we are tired. 😴 Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Fahrt war lang, wir sind müde.", "correct": true },
+          { "text": "Die Fahrt war kurz, wir haben Hunger." },
+          { "text": "Wir möchten sofort wieder abreisen." }
+        ],
+        "explanation": "Long heißt lang. Tired heißt müde. Du zeigst den Gästen dann am besten schnell die Wohnung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Ankunft oder Abreise? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "ankunft", "label": "Ankunft", "icon": "🔑" },
+          { "id": "abreise", "label": "Abreise", "icon": "🚗" }
+        ],
+        "items": [
+          { "text": "Welcome!", "bucket": "ankunft" },
+          { "text": "Did you have a good trip?", "bucket": "ankunft" },
+          { "text": "Here is your key.", "bucket": "ankunft" },
+          { "text": "Goodbye!", "bucket": "abreise" },
+          { "text": "Safe travels!", "bucket": "abreise" },
+          { "text": "See you next year!", "bucket": "abreise" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Hatten Sie eine gute Fahrt? 🚗",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Did" },
+          { "text": "you" },
+          { "text": "have" },
+          { "text": "a" },
+          { "text": "good" },
+          { "text": "trip" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du übergibst den Gästen den Schlüssel. 🔑 Was sagst du dazu?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Here is your key.", "correct": true },
+          { "text": "Where is your key?" },
+          { "text": "I need the key back." }
+        ],
+        "explanation": "Here is heißt: Hier ist. Where is heißt: Wo ist – das wäre eine Frage. Den Schlüssel zurück brauchst du erst am Ende."
       }
     },
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "Zum Schluss ganz leicht! 😊 Was gehört zusammen?",
+        "prompt": "Noch drei wichtige Sätze: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Hallo! 👋" }, "right": { "text": "Hello!" } },
-          { "left": { "text": "Danke! 🙏" }, "right": { "text": "Thank you!" } }
+          { "left": { "text": "Please come in!" }, "right": { "text": "Kommen Sie herein!" } },
+          { "left": { "text": "Have a nice stay! 😊" }, "right": { "text": "Schönen Aufenthalt!" } },
+          { "left": { "text": "See you tomorrow!" }, "right": { "text": "Bis morgen!" } }
         ],
         "memory": false
       }

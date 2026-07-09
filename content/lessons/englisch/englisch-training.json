@@ -1,145 +1,147 @@
 {
   "topic_slug": "englisch",
   "slug": "englisch-training",
-  "title": "Training: Englisch für Gäste",
-  "sort": 4,
+  "title": "Training: English",
+  "sort": 8,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Ein Gast fragt: How is the weather today? ☀️ Was will er wissen?",
+        "prompt": "Ein Gast ruft an und fragt: Is the apartment free from Monday to Friday? 📞 Was will er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Wie das Wetter heute wird.", "correct": true },
-          { "text": "Wann es Abendessen gibt." },
-          { "text": "Wo der Bus abfährt." }
+          { "text": "Ob die Wohnung von Montag bis Freitag frei ist.", "correct": true },
+          { "text": "Ob die Wohnung am Wochenende frei ist." },
+          { "text": "Ob das Frühstück am Freitag stattfindet." }
         ],
-        "explanation": "Richtig! Weather heißt Wetter. Der Gast fragt nach dem Wetter. ☀️"
+        "explanation": "Free heißt hier: frei, nicht belegt. From Monday to Friday heißt: von Montag bis Freitag."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Antwort: Die Wohnung ist nächste Woche frei. 🏠",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "apartment" },
+          { "text": "is" },
+          { "text": "free" },
+          { "text": "next" },
+          { "text": "week" }
+        ]
       }
     },
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "Wetter-Wörter: Was gehört zusammen?",
+        "prompt": "Sätze für den Alltag mit Gästen: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "sun ☀️" }, "right": { "text": "Sonne" } },
-          { "left": { "text": "rain 🌧️" }, "right": { "text": "Regen" } },
-          { "left": { "text": "snow ❄️" }, "right": { "text": "Schnee" } }
+          { "left": { "text": "Can I help you?" }, "right": { "text": "Kann ich Ihnen helfen?" } },
+          { "left": { "text": "One moment, please." }, "right": { "text": "Einen Moment, bitte." } },
+          { "left": { "text": "Enjoy your stay! 😊" }, "right": { "text": "Genießen Sie Ihren Aufenthalt!" } },
+          { "left": { "text": "See you tomorrow!" }, "right": { "text": "Bis morgen!" } }
         ],
         "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: The heating does not work. 🌡️ Was ist das Problem?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Heizung funktioniert nicht.", "correct": true },
+          { "text": "Das WLAN funktioniert nicht." },
+          { "text": "Der Gast findet den Schlüssel nicht." }
+        ],
+        "explanation": "Heating heißt Heizung. Does not work heißt: funktioniert nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Heizung ist wirklich kaputt. Was sagst du dem Gast?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Sorry, I will check it.", "correct": true },
+          { "text": "You are welcome!" },
+          { "text": "Have a good trip!" }
+        ],
+        "explanation": "Sorry, I will check it heißt: Entschuldigung, ich schaue es mir an. So bleibt der Gast ruhig und weiß: Du kümmerst dich."
       }
     },
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "Gutes Wetter oder schlechtes Wetter? Sortiere die englischen Wörter.",
+        "prompt": "Ankunft, Aufenthalt oder Abreise? Sortiere die Sätze.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "gut", "label": "Gutes Wetter", "icon": "☀️" },
-          { "id": "schlecht", "label": "Schlechtes Wetter", "icon": "🌧️" }
+          { "id": "ankunft", "label": "Ankunft", "icon": "🔑" },
+          { "id": "aufenthalt", "label": "Aufenthalt", "icon": "🏠" },
+          { "id": "abreise", "label": "Abreise", "icon": "🚗" }
         ],
         "items": [
-          { "text": "sunny", "bucket": "gut" },
-          { "text": "warm", "bucket": "gut" },
-          { "text": "rain", "bucket": "schlecht" },
-          { "text": "storm", "bucket": "schlecht" }
-        ]
-      }
-    },
-    {
-      "type": "steps_order",
-      "data": {
-        "prompt": "Baue den Satz: Das Wetter ist heute schön. ☀️",
-        "tts_lang": "en-GB",
-        "mode": "words",
-        "steps": [
-          { "text": "The" },
-          { "text": "weather" },
-          { "text": "is" },
-          { "text": "nice" },
-          { "text": "today" }
+          { "text": "Welcome! Did you have a good trip?", "bucket": "ankunft" },
+          { "text": "Here is your key.", "bucket": "ankunft" },
+          { "text": "Can we get more towels?", "bucket": "aufenthalt" },
+          { "text": "How does the heating work?", "bucket": "aufenthalt" },
+          { "text": "Check-out is at ten o'clock.", "bucket": "abreise" },
+          { "text": "Goodbye! Safe travels!", "bucket": "abreise" }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Du sagst dem Gast: It will rain today. 🌧️ Was heißt das?",
+        "prompt": "Ein Gast fragt: How much is one night? 💶 Was will er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Heute wird es regnen.", "correct": true },
-          { "text": "Heute scheint die Sonne." },
-          { "text": "Heute ist es sehr heiß." }
+          { "text": "Was eine Nacht kostet.", "correct": true },
+          { "text": "Wie lange die Nacht dauert." },
+          { "text": "Wie viele Nächte er bleiben kann." }
         ],
-        "explanation": "Richtig! Rain heißt Regen. Der Gast nimmt besser einen Regenschirm mit. ☂️"
-      }
-    },
-    {
-      "type": "match_pairs",
-      "data": {
-        "prompt": "Den Weg zeigen: Was gehört zusammen?",
-        "tts_lang": "en-GB",
-        "pairs": [
-          { "left": { "text": "left ⬅️" }, "right": { "text": "links" } },
-          { "left": { "text": "right ➡️" }, "right": { "text": "rechts" } },
-          { "left": { "text": "straight on ⬆️" }, "right": { "text": "geradeaus" } }
-        ],
-        "memory": false
+        "explanation": "How much heißt: Wie viel kostet das? Deine Antwort: It is ninety euros per night."
       }
     },
     {
       "type": "steps_order",
       "data": {
-        "prompt": "Baue den Satz: Biegen Sie an der Kirche rechts ab. ⛪",
+        "prompt": "Ein Gast sucht den Weg. Baue den Satz: Biegen Sie an der Bäckerei links ab. 🥐",
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
           { "text": "Turn" },
-          { "text": "right" },
+          { "text": "left" },
           { "text": "at" },
           { "text": "the" },
-          { "text": "church" }
+          { "text": "bakery" }
         ]
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "money_count",
       "data": {
-        "prompt": "Ein Gast sucht den See. Der See ist geradeaus. 🚶 Was sagst du?",
+        "prompt": "Ein Gast bucht einen Ausflug: The trip is twelve euros fifty. Er gibt dir 20 €. 💶 Lege das Rückgeld.",
         "tts_lang": "en-GB",
-        "options": [
-          { "text": "Go straight on. ⬆️", "correct": true },
-          { "text": "Turn right." },
-          { "text": "Go back." }
-        ],
-        "explanation": "Genau! Go straight on heißt: Gehen Sie geradeaus. ⬆️"
+        "mode": "change",
+        "price": 1250,
+        "given": 2000
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Ein Gast sagt: Thank you very much! 🙏 Was antwortest du?",
+        "prompt": "Die Gäste reisen ab und sagen: Thank you, it was wonderful! 🚗 Was antwortest du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "You are welcome! 😊", "correct": true },
-          { "text": "Turn left!" },
-          { "text": "It will rain today!" }
+          { "text": "Thank you! See you next time!", "correct": true },
+          { "text": "No, breakfast is extra." },
+          { "text": "Turn right at the church." }
         ],
-        "explanation": "Richtig! You are welcome heißt: Gern geschehen. Das ist eine freundliche Antwort. 😊"
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "Letzte Frage, ganz leicht! 😊 Was heißt sun auf Deutsch?",
-        "tts_lang": "en-GB",
-        "options": [
-          { "text": "Sonne ☀️", "correct": true },
-          { "text": "Mond" },
-          { "text": "Regen" }
-        ],
-        "explanation": "Super! Sun heißt Sonne. Bei Sonne freuen sich alle Gäste. ☀️"
+        "explanation": "See you next time heißt: Bis zum nächsten Mal! So verabschiedest du Gäste freundlich – vielleicht kommen sie wieder."
       }
     }
   ]

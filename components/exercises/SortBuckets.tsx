@@ -67,11 +67,11 @@ export function SortBuckets({
   }
 
   return (
-    <div className="flex flex-col gap-4">
-      {/* Korb-Buttons oben */}
+    <div className="flex flex-col gap-3">
+      {/* Korb-Buttons oben, kompakt nebeneinander */}
       <div
         className={cn(
-          "grid gap-3",
+          "grid gap-2",
           data.buckets.length === 3 ? "grid-cols-3" : "grid-cols-2",
         )}
       >
@@ -84,7 +84,7 @@ export function SortBuckets({
               onClick={() => handleBucketTap(bucket.id)}
               disabled={done || wrongFeedbackBucket !== null}
               className={cn(
-                "flex min-h-16 cursor-pointer flex-col items-center justify-center gap-1 rounded-2xl border-2 border-b-4 px-2 py-2 font-bold text-ink transition-colors",
+                "flex min-h-14 cursor-pointer flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-b-4 px-1.5 py-1.5 font-bold text-ink transition-colors",
                 "active:translate-y-1 active:border-b-2",
                 "disabled:cursor-not-allowed",
                 isCorrectHint
@@ -93,28 +93,25 @@ export function SortBuckets({
               )}
             >
               {bucket.icon && (
-                <span aria-hidden="true" className="text-2xl leading-none">
+                <span aria-hidden="true" className="text-xl leading-none">
                   {bucket.icon}
                 </span>
               )}
-              <span className="text-sm leading-tight sm:text-base">{bucket.label}</span>
+              <span className="text-sm leading-tight">{bucket.label}</span>
             </button>
           );
         })}
       </div>
 
-      {/* Aktuelles Item mittig, gross */}
+      {/* Aktuelles Item mittig, kompakt – Fortschritt klein darunter */}
       {currentItem ? (
-        <div className="flex flex-col items-center gap-2">
-          <p className="text-sm text-ink/70">
-            Karte {index + 1} von {items.length}
-          </p>
+        <div className="flex flex-col items-center gap-1.5">
           <motion.div
             data-testid="sort-item"
             animate={wrongFeedbackBucket ? { x: [0, -10, 10, -8, 8, 0] } : { x: 0 }}
             transition={{ duration: 0.5 }}
             className={cn(
-              "flex min-h-16 w-full flex-col items-center justify-center gap-2 rounded-2xl border-2 p-4 text-center text-xl font-bold",
+              "flex max-h-28 min-h-14 w-full flex-col items-center justify-center gap-1.5 rounded-2xl border-2 p-3 text-center text-lg font-bold",
               wrongFeedbackBucket
                 ? "border-warning bg-warning-light text-warning-dark"
                 : "border-primary bg-primary-light text-ink",
@@ -125,19 +122,22 @@ export function SortBuckets({
               <img
                 src={currentItem.image}
                 alt=""
-                className="h-20 w-20 rounded-xl object-cover"
+                className="h-12 w-12 rounded-xl object-cover"
               />
             )}
             <span>{currentItem.text}</span>
           </motion.div>
+          <p className="text-sm text-ink/70">
+            {index + 1} von {items.length}
+          </p>
           {wrongFeedbackBucket && (
-            <p className="text-base font-semibold text-warning-dark">
+            <p className="text-sm font-semibold text-warning-dark">
               Fast! Der richtige Korb leuchtet.
             </p>
           )}
         </div>
       ) : (
-        <div className="flex min-h-16 items-center justify-center rounded-2xl border-2 border-success bg-success-light p-4 text-center text-xl font-bold text-ink">
+        <div className="flex min-h-14 items-center justify-center rounded-2xl border-2 border-success bg-success-light p-3 text-center text-lg font-bold text-ink">
           Alles sortiert! Tippe auf Prüfen.
         </div>
       )}

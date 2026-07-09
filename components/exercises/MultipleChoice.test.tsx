@@ -45,7 +45,7 @@ describe("MultipleChoice", () => {
     const cards = screen.getAllByTestId("choice-card");
     expect(cards).toHaveLength(3);
     for (const card of cards) {
-      expect(card.className).toContain("min-h-16");
+      expect(card.className).toContain("min-h-14");
       expect(card.className).toContain("w-full");
     }
     expect(onReadyChange).toHaveBeenLastCalledWith(false);

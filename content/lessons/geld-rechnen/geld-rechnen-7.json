@@ -1,0 +1,171 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-7",
+  "title": "Große Beträge",
+  "sort": 7,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💵 Jetzt geht es um große Scheine. Du hast einen 50-€-Schein und zwei 20-€-Scheine. Wie viel Geld ist das?",
+        "options": [
+          {
+            "text": "90 €",
+            "correct": true
+          },
+          {
+            "text": "70 €"
+          },
+          {
+            "text": "100 €"
+          }
+        ],
+        "explanation": "50 € plus 20 € sind 70 €. Noch einmal 20 € dazu sind 90 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Die neue Kaffeemaschine für die Ferienwohnung kostet 137 €. Lege 137 € hin. Tipp: Fange mit dem größten Schein an.",
+        "mode": "assemble",
+        "target": 13700
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Die neuen Reitstiefel kosten 89,90 €. Lege 89,90 € hin.",
+        "mode": "assemble",
+        "target": 8990
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Der Einkauf kostet 78 €. Du gibst 100 €. Wie viel Rückgeld bekommst du?",
+        "options": [
+          {
+            "text": "22 €",
+            "correct": true
+          },
+          {
+            "text": "32 €"
+          },
+          {
+            "text": "12 €"
+          }
+        ],
+        "explanation": "Ergänze: Von 78 € bis 80 € sind es 2 €. Von 80 € bis 100 € sind es 20 €. Zusammen: 22 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🐴 Das Futter für dein Pferd kostet 34,50 €. Du gibst 50 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 3450,
+        "given": 5000
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "👖 Die neue Reithose kostet 62,90 €. Du gibst 100 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 6290,
+        "given": 10000
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏇 Überschlage im Kopf: Der Reithelm kostet 79 €. Die Decke kostet 45 €. Du hast 120 € dabei. Reicht dein Geld?",
+        "options": [
+          {
+            "text": "Nein. Zusammen sind es 124 €.",
+            "correct": true
+          },
+          {
+            "text": "Ja, es reicht genau."
+          },
+          {
+            "text": "Ja, es bleiben 4 € übrig."
+          }
+        ],
+        "explanation": "Überschlage: 79 € sind fast 80 €. 80 € plus 45 € sind 125 €. Das ist mehr als 120 €. Genau gerechnet: 124 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Für die Ferienwohnung: Neue Handtücher kosten 38 €. Neue Bettwäsche kostet 54 €. Reichen 100 €?",
+        "options": [
+          {
+            "text": "Ja. Zusammen sind es 92 €.",
+            "correct": true
+          },
+          {
+            "text": "Nein, es fehlt Geld."
+          },
+          {
+            "text": "Ja, es bleiben 18 € übrig."
+          }
+        ],
+        "explanation": "Überschlage: 38 € sind fast 40 €. 40 € plus 54 € sind 94 €. Das ist weniger als 100 €. Genau: 92 €, es bleiben 8 € übrig."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💶 Du hast 100 €. Überschlage: Reicht dein Geld? Sortiere.",
+        "buckets": [
+          {
+            "id": "reicht",
+            "label": "Das Geld reicht",
+            "icon": "✅"
+          },
+          {
+            "id": "reicht-nicht",
+            "label": "Das Geld reicht nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Reithelm 79 € + Striegel 12 €",
+            "bucket": "reicht"
+          },
+          {
+            "text": "Decke 45 € + Halfter 60 €",
+            "bucket": "reicht-nicht"
+          },
+          {
+            "text": "2 Lampen für je 35 €",
+            "bucket": "reicht"
+          },
+          {
+            "text": "Staubsauger für 119 €",
+            "bucket": "reicht-nicht"
+          },
+          {
+            "text": "Bettwäsche 54 € + Handtücher 38 €",
+            "bucket": "reicht"
+          },
+          {
+            "text": "Kaffeemaschine 89 € + Wasserkocher 25 €",
+            "bucket": "reicht-nicht"
+          }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Letzte Aufgabe. Der Einkauf kostet 85 €. Der Kunde gibt 100 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 8500,
+        "given": 10000
+      }
+    }
+  ]
+}

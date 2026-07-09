@@ -1,18 +1,19 @@
 {
   "topic_slug": "englisch",
   "slug": "englisch-zahlen-und-fruehstueck",
-  "title": "Zahlen und Frühstück",
+  "title": "Zahlen, Zeiten und Preise auf Englisch",
   "sort": 3,
   "exercises": [
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "Englische Zahlen und Uhrzeiten: Was gehört zusammen?",
+        "prompt": "Englische Uhrzeiten: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "eight" }, "right": { "text": "8" } },
-          { "left": { "text": "ten" }, "right": { "text": "10" } },
-          { "left": { "text": "half past nine" }, "right": { "text": "halb zehn 🕤" } }
+          { "left": { "text": "half past nine" }, "right": { "text": "halb zehn (9:30) 🕤" } },
+          { "left": { "text": "a quarter to eight" }, "right": { "text": "Viertel vor acht (7:45)" } },
+          { "left": { "text": "a quarter past seven" }, "right": { "text": "Viertel nach sieben (7:15)" } },
+          { "left": { "text": "ten o'clock" }, "right": { "text": "zehn Uhr (10:00) 🕙" } }
         ],
         "memory": false
       }
@@ -20,80 +21,121 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Du sagst dem Gast: Breakfast is from eight to ten. Was heißt das?",
+        "prompt": "Ein Gast fragt nach dem Preis. Du sagst: The apartment is ninety euros per night. Was heißt das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Frühstück gibt es von 8 bis 10 Uhr. 🥐", "correct": true },
-          { "text": "Frühstück gibt es von 10 bis 12 Uhr." },
-          { "text": "Heute gibt es kein Frühstück." }
+          { "text": "Die Wohnung kostet 90 Euro pro Nacht.", "correct": true },
+          { "text": "Die Wohnung kostet 19 Euro pro Nacht." },
+          { "text": "Die Wohnung kostet 90 Euro pro Woche." }
         ],
-        "explanation": "Richtig! Eight heißt 8. Ten heißt 10. Breakfast heißt Frühstück. 🥐"
+        "explanation": "Ninety heißt 90. Nineteen heißt 19 – die beiden klingen ähnlich, pass gut auf. Per night heißt: pro Nacht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Vorsicht, ähnliche Zahlen! Was heißt fifteen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "15", "correct": true },
+          { "text": "50" },
+          { "text": "5" }
+        ],
+        "explanation": "Fifteen heißt 15. Fifty heißt 50. Five heißt 5. Bei -teen ist das Ende lang und betont: fif-TEEN."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "Ein Gast bucht einen Ausflug und zahlt bar: twenty-five euros. 💶 Lege den Betrag.",
+        "tts_lang": "en-GB",
+        "mode": "assemble",
+        "target": 2500
       }
     },
     {
       "type": "steps_order",
       "data": {
-        "prompt": "Baue den Satz: Frühstück gibt es um 8 Uhr. 🥐",
+        "prompt": "Baue den Satz: Frühstück gibt es um halb neun. 🥐",
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
           { "text": "Breakfast" },
           { "text": "is" },
           { "text": "at" },
-          { "text": "eight" },
-          { "text": "o'clock" }
+          { "text": "half" },
+          { "text": "past" },
+          { "text": "eight" }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Was heißt eight auf Deutsch?",
+        "prompt": "Du sagst am Telefon: We are open from Monday to Friday. Was heißt das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Acht (8)", "correct": true },
-          { "text": "Zehn (10)" },
-          { "text": "Drei (3)" }
+          { "text": "Wir haben von Montag bis Freitag geöffnet.", "correct": true },
+          { "text": "Wir haben von Montag bis Samstag geöffnet." },
+          { "text": "Wir haben nur am Freitag geöffnet." }
         ],
-        "explanation": "Genau! Eight heißt acht. Die 8 brauchst du für die Frühstückszeit. 🕗"
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "Ein Gast fragt: When is breakfast? Was will er wissen?",
-        "tts_lang": "en-GB",
-        "options": [
-          { "text": "Wann es Frühstück gibt. 🥐", "correct": true },
-          { "text": "Wo der Schlüssel ist." },
-          { "text": "Wann er abreisen muss." }
-        ],
-        "explanation": "Richtig! When heißt wann. Breakfast heißt Frühstück. 🥐"
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "Die Gäste reisen ab. 🚗 Was sagst du zum Abschied?",
-        "tts_lang": "en-GB",
-        "options": [
-          { "text": "Goodbye! Safe travels! 👋", "correct": true },
-          { "text": "Welcome!" },
-          { "text": "Breakfast is at eight." }
-        ],
-        "explanation": "Genau! Goodbye heißt Auf Wiedersehen. Safe travels heißt: Gute Reise! 👋"
+        "explanation": "From ... to heißt: von ... bis. Monday heißt Montag. Friday heißt Freitag."
       }
     },
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "Zum Schluss ganz leicht! 😊 Was gehört zusammen?",
+        "prompt": "Wochentage für die Buchung: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Goodbye! 👋" }, "right": { "text": "Auf Wiedersehen!" } },
-          { "left": { "text": "Safe travels! 🧳" }, "right": { "text": "Gute Reise!" } }
+          { "left": { "text": "Monday" }, "right": { "text": "Montag" } },
+          { "left": { "text": "Friday" }, "right": { "text": "Freitag" } },
+          { "left": { "text": "Saturday" }, "right": { "text": "Samstag" } },
+          { "left": { "text": "Sunday" }, "right": { "text": "Sonntag" } }
         ],
         "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast will eure Telefonnummer. 📞 Du sagst auf Englisch: oh - six - two, five - eight - one. Welche Nummer ist das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "062 581", "correct": true },
+          { "text": "062 158" },
+          { "text": "026 581" }
+        ],
+        "explanation": "Oh heißt hier: null. Telefonnummern sagst du auf Englisch Ziffer für Ziffer: oh, six, two, five, eight, one."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Es kostet 90 Euro pro Nacht. 💶",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "It" },
+          { "text": "is" },
+          { "text": "ninety" },
+          { "text": "euros" },
+          { "text": "per" },
+          { "text": "night" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: When is breakfast? Frühstück ist um halb neun (8:30). Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Breakfast is at half past eight.", "correct": true },
+          { "text": "Breakfast is at half past nine." },
+          { "text": "Breakfast is at eight o'clock." }
+        ],
+        "explanation": "Achtung, Falle: Halb neun heißt auf Englisch half past eight. Half past heißt: eine halbe Stunde NACH der vollen Stunde."
       }
     }
   ]

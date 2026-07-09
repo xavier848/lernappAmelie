@@ -1,117 +1,194 @@
 {
   "topic_slug": "geld-rechnen",
   "slug": "geld-rechnen-training",
-  "title": "Training: Geld rechnen",
-  "sort": 5,
+  "title": "Training: Geld",
+  "sort": 9,
   "exercises": [
     {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 In deiner Hand: 5 €, 2 €, 1 €, 50 Cent und 20 Cent. Wie viel Geld hast du?",
+        "options": [
+          {
+            "text": "8,70 €",
+            "correct": true
+          },
+          {
+            "text": "8,50 €"
+          },
+          {
+            "text": "7,70 €"
+          }
+        ],
+        "explanation": "5 € + 2 € + 1 € = 8 €. Cent: 50 + 20 = 70. Zusammen 8,70 €."
+      }
+    },
+    {
       "type": "money_count",
       "data": {
-        "prompt": "💵 Zeit zum Üben! Welcher Schein ist das?",
-        "mode": "recognize",
-        "moneyImage": "500",
-        "options": [
-          { "text": "5 Euro", "correct": true },
-          { "text": "50 Euro" },
-          { "text": "5 Cent" }
-        ]
+        "prompt": "💶 Lege genau 15,45 € hin.",
+        "mode": "assemble",
+        "target": 1545
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍎 Der Apfel kostet 1,50 €. Die Banane kostet 0,80 €. Wie viel kostet beides zusammen?",
+        "prompt": "🍚 Knifflig: Du kaufst 3 Packungen Reis. Jede Packung kostet 2,30 €. Wie viel zahlst du zusammen?",
         "options": [
-          { "text": "2,30 €", "correct": true },
-          { "text": "2,50 €" },
-          { "text": "1,30 €" }
+          {
+            "text": "6,90 €",
+            "correct": true
+          },
+          {
+            "text": "6,60 €"
+          },
+          {
+            "text": "6,30 €"
+          }
         ],
-        "explanation": "Super! 1,50 € plus 0,80 € sind 2,30 €."
+        "explanation": "Rechne in zwei Schritten: 3 mal 2 € = 6 €. 3 mal 30 Cent = 90 Cent. Zusammen 6,90 €."
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "💶 Bezahle den Apfel und die Banane. Lege 2,30 € hin.",
-        "mode": "assemble",
-        "target": 230
-      }
-    },
-    {
-      "type": "money_count",
-      "data": {
-        "prompt": "📓 Das Heft kostet 2,60 €. Der Kunde gibt dir 5 €. Gib das Rückgeld.",
+        "prompt": "🛒 Der Einkauf kostet 6,90 €. Der Kunde gibt dir 10 €. Gib das Rückgeld.",
         "mode": "change",
-        "price": 260,
-        "given": 500
+        "price": 690,
+        "given": 1000
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✏️ Du hast 10 €. Die Stifte kosten 3,20 €. Der Block kostet 2,80 €. Wie viel Geld bleibt dir?",
+        "prompt": "🧐 Es kostet 9,45 €. Du gibst 10 €. Du bekommst 65 Cent zurück. Stimmt das?",
         "options": [
-          { "text": "4 €", "correct": true },
-          { "text": "5 €" },
-          { "text": "3 €" }
+          {
+            "text": "Nein. Richtig wären 55 Cent. Das sind 10 Cent zu viel.",
+            "correct": true
+          },
+          {
+            "text": "Ja, das passt genau."
+          },
+          {
+            "text": "Nein. Richtig wären 1,55 €."
+          }
         ],
-        "explanation": "Stark! 3,20 € plus 2,80 € sind 6 €. 10 € minus 6 € sind 4 €."
+        "explanation": "Rechne: 9,45 € + 55 Cent = 10 €. Richtig sind also 55 Cent. Auch zu viel Rückgeld solltest du ehrlich zurückgeben."
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "💶 Bezahle die Stifte und den Block. Lege 6 € hin.",
-        "mode": "assemble",
-        "target": 600
+        "prompt": "🚲 Ein Gast zahlt die Fahrradmiete: 11,30 €. Er gibt dir 20 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 1130,
+        "given": 2000
       }
     },
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🧩 Rechne zusammen. Finde die Paare.",
+        "prompt": "🧩 Wie viel Rückgeld ist richtig? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "2 € + 2 €" }, "right": { "text": "4 €" } },
-          { "left": { "text": "5 € + 1 €" }, "right": { "text": "6 €" } },
-          { "left": { "text": "10 € + 5 €" }, "right": { "text": "15 €" } },
-          { "left": { "text": "20 € + 10 €" }, "right": { "text": "30 €" } }
+          {
+            "left": {
+              "text": "Kostet 3,60 €. Du gibst 5 €."
+            },
+            "right": {
+              "text": "1,40 € zurück"
+            }
+          },
+          {
+            "left": {
+              "text": "Kostet 7,25 €. Du gibst 10 €."
+            },
+            "right": {
+              "text": "2,75 € zurück"
+            }
+          },
+          {
+            "left": {
+              "text": "Kostet 12,80 €. Du gibst 20 €."
+            },
+            "right": {
+              "text": "7,20 € zurück"
+            }
+          },
+          {
+            "left": {
+              "text": "Kostet 1,85 €. Du gibst 2 €."
+            },
+            "right": {
+              "text": "15 Cent zurück"
+            }
+          }
         ],
         "memory": false
       }
     },
     {
-      "type": "money_count",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "💌 Die Postkarte kostet 0,90 €. Der Kunde gibt dir 2 €. Gib das Rückgeld.",
-        "mode": "change",
-        "price": 90,
-        "given": 200
+        "prompt": "💧 Knifflig: Ein Sixpack Wasser mit 6 Flaschen kostet 3,60 €. Wie viel kostet eine Flasche?",
+        "options": [
+          {
+            "text": "60 Cent",
+            "correct": true
+          },
+          {
+            "text": "50 Cent"
+          },
+          {
+            "text": "36 Cent"
+          }
+        ],
+        "explanation": "3,60 € geteilt durch 6 = 60 Cent. Probe: 6 mal 60 Cent = 3,60 €."
       }
     },
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "👛 Du hast 5 € dabei. Reicht dein Geld? Sortiere.",
+        "prompt": "👛 Du hast 10 € dabei. Rechne zusammen und sortiere: Reicht dein Geld?",
         "buckets": [
-          { "id": "reicht", "label": "Das Geld reicht", "icon": "✅" },
-          { "id": "reicht-nicht", "label": "Das Geld reicht nicht", "icon": "❌" }
+          {
+            "id": "reicht",
+            "label": "Das Geld reicht",
+            "icon": "✅"
+          },
+          {
+            "id": "reicht-nicht",
+            "label": "Das Geld reicht nicht",
+            "icon": "❌"
+          }
         ],
         "items": [
-          { "text": "🍦 Eis für 2 €", "bucket": "reicht" },
-          { "text": "📖 Buch für 8 €", "bucket": "reicht-nicht" },
-          { "text": "🥤 Limo für 3 €", "bucket": "reicht" },
-          { "text": "🎧 Kopfhörer für 15 €", "bucket": "reicht-nicht" },
-          { "text": "🍏 Apfel für 1 €", "bucket": "reicht" },
-          { "text": "🖼️ Poster für 6 €", "bucket": "reicht-nicht" }
+          {
+            "text": "☕ Kaffee 3,50 € + Kuchen 3,20 €",
+            "bucket": "reicht"
+          },
+          {
+            "text": "🎬 Kinokarte 9 € + Popcorn 4 €",
+            "bucket": "reicht-nicht"
+          },
+          {
+            "text": "🧴 Shampoo 4,95 € + Bürste 5,95 €",
+            "bucket": "reicht-nicht"
+          },
+          {
+            "text": "📓 Heft 2,20 € + Stift 1,80 €",
+            "bucket": "reicht"
+          }
         ]
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "🌟 Geschafft! Zum Schluss ganz einfach. Lege 50 Cent hin.",
+        "prompt": "💶 Letzte Aufgabe: Lege genau 8,05 € hin.",
         "mode": "assemble",
-        "target": 50
+        "target": 805
       }
     }
   ]

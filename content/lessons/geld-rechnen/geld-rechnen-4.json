@@ -1,84 +1,114 @@
 {
   "topic_slug": "geld-rechnen",
   "slug": "geld-rechnen-4",
-  "title": "Rechnen im Alltag",
+  "title": "Einkaufen planen",
   "sort": 4,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛒 Du hast 20 €. Das Shampoo kostet 4,50 €. Die Zeitschrift kostet 3 €. Wie viel Geld bleibt dir?",
+        "prompt": "📝 Deine Einkaufsliste: Nudeln 1,29 €, Tomatensoße 1,79 €, Käse 2,49 €, Salat 0,99 €. Ungefähr wie viel kostet der Einkauf?",
         "options": [
-          { "text": "12,50 €", "correct": true },
-          { "text": "13,50 €" },
-          { "text": "11,50 €" }
+          { "text": "ungefähr 6,50 €", "correct": true },
+          { "text": "ungefähr 4,50 €" },
+          { "text": "ungefähr 8,50 €" }
         ],
-        "explanation": "Super gerechnet! 4,50 € und 3 € sind zusammen 7,50 €. 20 € minus 7,50 € sind 12,50 €."
-      }
-    },
-    {
-      "type": "money_count",
-      "data": {
-        "prompt": "💶 So viel Geld bleibt dir. Lege 12,50 € hin.",
-        "mode": "assemble",
-        "target": 1250
+        "explanation": "Runde jeden Preis: 1,30 € + 1,80 € + 2,50 € + 1 € = 6,60 €. Genau sind es 6,56 €."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍞 Das Brot kostet 2,80 €. Die Milch kostet 1,20 €. Wie viel kostet beides zusammen?",
+        "prompt": "🧺 Waschmittel 4,95 € und Spülmittel 1,85 €. Wie viel kostet beides zusammen?",
         "options": [
-          { "text": "4 €", "correct": true },
-          { "text": "3,80 €" },
-          { "text": "4,20 €" }
+          { "text": "6,80 €", "correct": true },
+          { "text": "6,70 €" },
+          { "text": "5,80 €" }
         ],
-        "explanation": "Genau! 2,80 € plus 1,20 € sind 4 €. Die 80 Cent und die 20 Cent ergeben zusammen 1 €."
+        "explanation": "Trick: 4,95 € + 2 € = 6,95 €. Dann 15 Cent abziehen: 6,80 €."
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "💶 Bezahle das Brot und die Milch. Lege 4 € hin.",
+        "prompt": "💶 Bezahle Waschmittel und Spülmittel passend. Lege 6,80 € hin.",
         "mode": "assemble",
-        "target": 400
-      }
-    },
-    {
-      "type": "money_count",
-      "data": {
-        "prompt": "🍞 Du gibst an der Kasse 5 €. Brot und Milch kosten 4 €. Gib das Rückgeld.",
-        "mode": "change",
-        "price": 400,
-        "given": 500
+        "target": 680
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍦 Ein Eis kostet 2,80 €. Du möchtest 2 Eis kaufen. Du hast 5 €. Reicht dein Geld?",
+        "prompt": "💰 Du hast 20 € für den Einkauf. An der Kasse zahlst du 14,35 €. Wie viel bleibt dir?",
         "options": [
-          { "text": "Nein. 2 Eis kosten 5,60 €.", "correct": true },
-          { "text": "Ja, es reicht genau." },
-          { "text": "Ja, es bleibt sogar Geld übrig." }
+          { "text": "5,65 €", "correct": true },
+          { "text": "6,65 €" },
+          { "text": "5,75 €" }
         ],
-        "explanation": "Richtig! 2,80 € plus 2,80 € sind 5,60 €. Das ist mehr als 5 €. Dein Geld reicht nicht."
+        "explanation": "Zähle hoch: Von 14,35 € bis 15 € sind es 65 Cent. Von 15 € bis 20 € sind es 5 €. Es bleiben 5,65 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧃 Saft im Regal: Die kleine Flasche hat 1 Liter und kostet 1,20 €. Die große Flasche hat 2 Liter und kostet 2 €. Was ist pro Liter günstiger?",
+        "options": [
+          { "text": "Die große Flasche. Dort kostet 1 Liter nur 1 €.", "correct": true },
+          { "text": "Die kleine Flasche, weil sie weniger kostet." },
+          { "text": "Beide kosten pro Liter gleich viel." }
+        ],
+        "explanation": "Große Flasche: 2 € für 2 Liter, also 1 € pro Liter. Kleine Flasche: 1,20 € pro Liter. Vergleiche immer den Grundpreis, nicht nur den Preis am Schild."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Äpfel: 6 Stück für 3 € oder 4 Stück für 2,40 €. Was ist pro Apfel günstiger?",
+        "options": [
+          { "text": "Die 6er-Packung. Ein Apfel kostet dort 50 Cent.", "correct": true },
+          { "text": "Die 4er-Packung. Ein Apfel kostet dort 50 Cent." },
+          { "text": "Pro Apfel kostet beides gleich viel." }
+        ],
+        "explanation": "6er-Packung: 3 € geteilt durch 6 = 50 Cent pro Apfel. 4er-Packung: 2,40 € geteilt durch 4 = 60 Cent pro Apfel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👛 Du hast genau 20 € dabei. Welcher Einkauf passt, welcher nicht? Sortiere.",
+        "buckets": [
+          { "id": "passt", "label": "Reicht mit 20 €", "icon": "✅" },
+          { "id": "zu-teuer", "label": "Zu teuer für 20 €", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "🧺 Wocheneinkauf für 18,90 €", "bucket": "passt" },
+          { "text": "🎁 Geschenk mit Karte für 21,50 €", "bucket": "zu-teuer" },
+          { "text": "🐴 Möhren und Äpfel fürs Pferd für 6,75 €", "bucket": "passt" },
+          { "text": "🧴 Drogerie-Einkauf für genau 20 €", "bucket": "passt" },
+          { "text": "🍰 Backzutaten für 23,10 €", "bucket": "zu-teuer" }
+        ]
+      }
+    },
+    {
+      "type": "budget",
+      "data": {
+        "prompt": "📅 Plane deine Woche. Du hast 50 €. Das Futter für dein Pferd kostet fest 15 €. Teile den Rest ein. Spare mindestens 10 €.",
+        "income": 5000,
+        "categories": [
+          { "id": "pferd", "label": "Pferd", "icon": "🐴", "fixed": 1500 },
+          { "id": "lebensmittel", "label": "Lebensmittel", "icon": "🛒" },
+          { "id": "freizeit", "label": "Freizeit", "icon": "🎉" },
+          { "id": "sparen", "label": "Sparen", "icon": "🐷" }
+        ],
+        "savingsGoal": 1000
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "🍦 So viel kosten die 2 Eis zusammen. Lege 5,60 € hin.",
+        "prompt": "🛒 Letzte Aufgabe: Dein geplanter Einkauf kostet 13,70 €. Lege den Betrag passend hin.",
         "mode": "assemble",
-        "target": 560
-      }
-    },
-    {
-      "type": "money_count",
-      "data": {
-        "prompt": "🌟 Geschafft! Zum Schluss ganz einfach. Lege 2 € hin.",
-        "mode": "assemble",
-        "target": 200
+        "target": 1370
       }
     }
   ]

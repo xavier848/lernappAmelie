@@ -1,0 +1,206 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-5",
+  "title": "Schnell im Kopf",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Hier lernst du Tricks für die Kasse. Erster Trick: Ergänzen. Etwas kostet 7,80 €. Du gibst 10 €. Wie viel bekommst du zurück?",
+        "options": [
+          {
+            "text": "2,20 €",
+            "correct": true
+          },
+          {
+            "text": "3,20 €"
+          },
+          {
+            "text": "2,80 €"
+          }
+        ],
+        "explanation": "So geht der Trick: Von 7,80 € bis 8 € sind es 20 Cent. Von 8 € bis 10 € sind es 2 €. Zusammen: 2,20 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Gleicher Trick, neue Zahlen. Etwas kostet 4,60 €. Wie viel fehlt bis 5 €?",
+        "options": [
+          {
+            "text": "40 Cent",
+            "correct": true
+          },
+          {
+            "text": "60 Cent"
+          },
+          {
+            "text": "1,40 €"
+          }
+        ],
+        "explanation": "Von 60 Cent bis 100 Cent fehlen 40 Cent. Also: Von 4,60 € bis 5 € fehlen 40 Cent."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Ergänze auf 10 €. Finde die Paare.",
+        "pairs": [
+          {
+            "left": {
+              "text": "9,50 €"
+            },
+            "right": {
+              "text": "50 Cent fehlen"
+            }
+          },
+          {
+            "left": {
+              "text": "8,20 €"
+            },
+            "right": {
+              "text": "1,80 € fehlen"
+            }
+          },
+          {
+            "left": {
+              "text": "7,50 €"
+            },
+            "right": {
+              "text": "2,50 € fehlen"
+            }
+          },
+          {
+            "left": {
+              "text": "6,90 €"
+            },
+            "right": {
+              "text": "3,10 € fehlen"
+            }
+          }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Zweiter Trick: Verdoppeln. Ein Croissant kostet 1,60 €. Du kaufst 2 Stück. Wie viel zahlst du?",
+        "options": [
+          {
+            "text": "3,20 €",
+            "correct": true
+          },
+          {
+            "text": "2,60 €"
+          },
+          {
+            "text": "3,60 €"
+          }
+        ],
+        "explanation": "Verdopple in zwei Schritten: 2 mal 1 € sind 2 €. 2 mal 60 Cent sind 1,20 €. Zusammen: 3,20 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍕 Dritter Trick: Halbieren. Eine Pizza kostet 9 €. Du teilst sie mit einer Freundin. Jede zahlt die Hälfte. Wie viel zahlst du?",
+        "options": [
+          {
+            "text": "4,50 €",
+            "correct": true
+          },
+          {
+            "text": "4 €"
+          },
+          {
+            "text": "5 €"
+          }
+        ],
+        "explanation": "Die Hälfte von 8 € ist 4 €. Die Hälfte von 1 € ist 50 Cent. Zusammen: 4,50 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Vierter Trick: 3 mal der gleiche Preis. Eine Packung Möhren für dein Pferd kostet 1,50 €. Du kaufst 3 Packungen. Wie viel zahlst du?",
+        "options": [
+          {
+            "text": "4,50 €",
+            "correct": true
+          },
+          {
+            "text": "3 €"
+          },
+          {
+            "text": "5,50 €"
+          }
+        ],
+        "explanation": "Rechne so: 1,50 € plus 1,50 € sind 3 €. Noch einmal 1,50 € dazu sind 4,50 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Jetzt du an der Kasse. Der Einkauf kostet 7,80 €. Der Kunde gibt 10 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 780,
+        "given": 1000
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧠 Überschlage im Kopf: Ist das Ergebnis mehr oder weniger als 5 €? Sortiere.",
+        "buckets": [
+          {
+            "id": "mehr",
+            "label": "Mehr als 5 €",
+            "icon": "⬆️"
+          },
+          {
+            "id": "weniger",
+            "label": "Weniger als 5 €",
+            "icon": "⬇️"
+          }
+        ],
+        "items": [
+          {
+            "text": "2 mal 2,60 €",
+            "bucket": "mehr"
+          },
+          {
+            "text": "1,90 € + 2,90 €",
+            "bucket": "weniger"
+          },
+          {
+            "text": "3 mal 1,50 €",
+            "bucket": "weniger"
+          },
+          {
+            "text": "2 mal 3 €",
+            "bucket": "mehr"
+          },
+          {
+            "text": "Die Hälfte von 8 €",
+            "bucket": "weniger"
+          },
+          {
+            "text": "2 mal 2,80 €",
+            "bucket": "mehr"
+          }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Letzte Aufgabe. Nutze den Ergänzen-Trick: Es kostet 8,50 €. Der Kunde gibt 10 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 850,
+        "given": 1000
+      }
+    }
+  ]
+}

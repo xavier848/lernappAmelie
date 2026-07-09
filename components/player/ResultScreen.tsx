@@ -31,7 +31,7 @@ export function ResultScreen({
   const reducedMotion = useReducedMotion();
 
   return (
-    <div className="flex min-h-dvh flex-col items-center justify-center gap-8 px-4 py-10">
+    <div className="flex min-h-svh flex-col items-center justify-center gap-8 px-4 py-10">
       <Confetti />
 
       <Mascot mood="cheer" message={message} />

@@ -1,0 +1,116 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-4",
+  "title": "Small Talk mit Gästen",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt dich: How are you? 😊 Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I am fine, thank you. And you?", "correct": true },
+          { "text": "Yes, please." },
+          { "text": "Goodbye!" }
+        ],
+        "explanation": "Richtig! I am fine heißt: Mir geht es gut. Mit And you? fragst du höflich zurück. 😊"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Small Talk: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Wie geht es Ihnen?" }, "right": { "text": "How are you?" } },
+          { "left": { "text": "Haben Sie gut geschlafen? 😴" }, "right": { "text": "Did you sleep well?" } },
+          { "left": { "text": "Genießen Sie Ihren Aufenthalt!" }, "right": { "text": "Enjoy your stay!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Haben Sie gut geschlafen? 😴",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Did" },
+          { "text": "you" },
+          { "text": "sleep" },
+          { "text": "well" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du fragst: Did you sleep well? Der Gast sagt: Yes, very well, thank you. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ja, sehr gut, danke. 😊", "correct": true },
+          { "text": "Nein, es war zu laut." },
+          { "text": "Ja, aber das Bett war zu hart." }
+        ],
+        "explanation": "Richtig! Yes heißt ja. Very well heißt: sehr gut. Der Gast hat gut geschlafen. 😊"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das Wetter wird morgen sonnig. ☀️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "weather" },
+          { "text": "will" },
+          { "text": "be" },
+          { "text": "sunny" },
+          { "text": "tomorrow" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast plant einen Ausflug. Er fragt nach dem Wetter für morgen. Die Sonne wird scheinen. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The weather will be sunny tomorrow. ☀️", "correct": true },
+          { "text": "It will rain tomorrow." },
+          { "text": "The weather was nice yesterday." }
+        ],
+        "explanation": "Genau! Sunny heißt sonnig. Tomorrow heißt morgen. So kann der Gast seinen Ausflug planen. ☀️"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Neue Gäste haben gerade eingecheckt. 🔑 Was wünschst du ihnen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Enjoy your stay! 😊", "correct": true },
+          { "text": "Have a safe trip home!" },
+          { "text": "Did you sleep well?" }
+        ],
+        "explanation": "Richtig! Enjoy your stay heißt: Genießen Sie Ihren Aufenthalt. Das sagst du zur Ankunft. 😊"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Frage und Antwort: Was passt zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "How are you?" }, "right": { "text": "I am fine, thank you." } },
+          { "left": { "text": "Did you sleep well?" }, "right": { "text": "Yes, very well." } },
+          { "left": { "text": "Enjoy your stay!" }, "right": { "text": "Thank you very much!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

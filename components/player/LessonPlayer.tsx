@@ -49,7 +49,12 @@ type PlayableExercise = { id: string; exercise: ExerciseInput };
 
 type Phase = "loading" | "error" | "playing" | "finished";
 
-type Feedback = { correct: boolean; explanation?: string };
+type Feedback = {
+  correct: boolean;
+  explanation?: string;
+  /** Was nach "Weiter" passiert: retry = gleiche Uebung sofort nochmal. */
+  outcome: "solved" | "retry" | "defer";
+};
 
 /** Rendert die passende Uebungskomponente nach exercise.type. */
 function ExerciseView({
@@ -185,7 +190,10 @@ export function LessonPlayer({
       "explanation" in current.exercise.data
         ? current.exercise.data.explanation
         : undefined;
-    setFeedback({ correct: r.correct, explanation });
+    // advanceQueue ist pure - wir schauen nur, was "Weiter" bewirken wird,
+    // damit der Banner-Text ehrlich ankuendigt, wie es weitergeht.
+    const { outcome } = advanceQueue(queueState, r.correct);
+    setFeedback({ correct: r.correct, explanation, outcome });
     // Statistik fire-and-forget – Fehler schluckt lib/data.
     const deviceId = getDeviceId();
     if (deviceId) {
@@ -256,7 +264,7 @@ export function LessonPlayer({
 
   if (phase === "loading") {
     return (
-      <div className="flex min-h-dvh items-center justify-center px-4">
+      <div className="flex min-h-svh items-center justify-center px-4">
         <p className="animate-pulse text-lg font-semibold text-ink/60">
           Einen Moment bitte …
         </p>
@@ -266,7 +274,7 @@ export function LessonPlayer({
 
   if (phase === "error") {
     return (
-      <div className="flex min-h-dvh flex-col items-center justify-center gap-8 px-4">
+      <div className="flex min-h-svh flex-col items-center justify-center gap-8 px-4">
         <Mascot
           mood="neutral"
           message="Gerade klappt es nicht. Versuch es später nochmal."
@@ -301,7 +309,10 @@ export function LessonPlayer({
   if (!current || currentIndex === null) return null;
 
   return (
-    <div className="flex min-h-dvh flex-col">
+    // Exakt bildschirmhoch und selbst NICHT scrollbar: nur der
+    // Aufgabenbereich scrollt (wenn noetig). So kann die Seite auf dem
+    // Handy nicht "verrutschen" (iOS-Gummiband ueber der ganzen Karte).
+    <div className="flex h-svh flex-col overflow-hidden">
       {/* Kopf: X-Button + Fortschritt */}
       <div className="flex items-center gap-3 px-4 pt-4">
         <button
@@ -329,7 +340,7 @@ export function LessonPlayer({
       </div>
 
       {/* Uebung – key erzwingt Remount bei Wiederholung derselben Uebung */}
-      <div className="flex-1 px-4 pt-6 pb-40">
+      <div className="flex-1 overflow-y-auto overscroll-contain px-4 pt-6 pb-40">
         <ExerciseView
           key={`${currentIndex}-${queueState.retried[currentIndex]}`}
           exercise={current.exercise}
@@ -342,7 +353,7 @@ export function LessonPlayer({
       {/* Unten: fixer Pruefen-Button (verdeckt vom FeedbackBanner waehrend Feedback) */}
       {feedback === null && (
         <div className="fixed inset-x-0 bottom-0 z-40">
-          <div className="mx-auto w-full max-w-md bg-white/95 px-4 pt-3 pb-6">
+          <div className="mx-auto w-full max-w-md bg-white px-4 pt-3 pb-[max(1.5rem,env(safe-area-inset-bottom))]">
             <Button
               size="lg"
               full
@@ -358,6 +369,16 @@ export function LessonPlayer({
       {feedback !== null && (
         <FeedbackBanner
           state={feedback.correct ? "correct" : "wrong"}
+          title={
+            feedback.outcome === "retry"
+              ? "Fast! Probier es gleich nochmal."
+              : feedback.outcome === "defer"
+                ? "Schau es dir in Ruhe an. Die Übung kommt später nochmal."
+                : undefined
+          }
+          continueLabel={
+            feedback.outcome === "retry" ? "Nochmal versuchen" : "Weiter"
+          }
           explanation={feedback.explanation}
           onContinue={handleContinue}
         />

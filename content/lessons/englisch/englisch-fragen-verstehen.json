@@ -1,7 +1,7 @@
 {
   "topic_slug": "englisch",
   "slug": "englisch-fragen-verstehen",
-  "title": "Fragen verstehen",
+  "title": "Fragen von Gästen verstehen",
   "sort": 2,
   "exercises": [
     {
@@ -10,24 +10,110 @@
         "prompt": "Ein Gast fragt: When is check-out? 🕙 Was will er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Wann muss ich ausziehen?", "correct": true },
-          { "text": "Wo gibt es Frühstück?" },
-          { "text": "Wie wird das Wetter?" }
+          { "text": "Wann er am Abreisetag die Wohnung verlassen muss.", "correct": true },
+          { "text": "Wann das Frühstück beginnt." },
+          { "text": "Wann der Supermarkt öffnet." }
         ],
-        "explanation": "Richtig! Check-out heißt Abreise. Der Gast will wissen, wann er ausziehen muss. 🕙"
+        "explanation": "Check-out heißt Abreise. When heißt wann. Der Gast fragt nach der Uhrzeit für die Abreise."
       }
     },
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "Fragen der Gäste: Was gehört zusammen?",
+        "prompt": "Typische Gäste-Fragen: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Where is the bakery? 🥐" }, "right": { "text": "Wo ist die Bäckerei?" } },
-          { "left": { "text": "Can we have more towels? 🧻" }, "right": { "text": "Können wir mehr Handtücher haben?" } },
-          { "left": { "text": "When is check-out? 🕙" }, "right": { "text": "Wann ist die Abreise?" } }
+          { "left": { "text": "Can we get more towels? 🧺" }, "right": { "text": "Können wir mehr Handtücher bekommen?" } },
+          { "left": { "text": "Where can we park? 🚗" }, "right": { "text": "Wo können wir parken?" } },
+          { "left": { "text": "Is breakfast included? 🥐" }, "right": { "text": "Ist das Frühstück im Preis enthalten?" } },
+          { "left": { "text": "How does the heating work? 🌡️" }, "right": { "text": "Wie funktioniert die Heizung?" } }
         ],
         "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Can we get more towels? 🧺 Was ist eine gute Antwort?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Of course, one moment.", "correct": true },
+          { "text": "This way, please." },
+          { "text": "Goodbye!" }
+        ],
+        "explanation": "Of course, one moment heißt: Natürlich, einen Moment. Dann holst du die Handtücher. This way, please sagst du, wenn du jemandem den Weg zeigst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Where can we park? 🚗 Der Parkplatz ist hinter dem Haus. Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "You can park behind the house.", "correct": true },
+          { "text": "Breakfast is at eight o'clock." },
+          { "text": "The key is in the door." }
+        ],
+        "explanation": "Behind the house heißt: hinter dem Haus. Die anderen Antworten passen nicht zur Frage nach dem Parken."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Antwort: Sie können hinter dem Haus parken. 🚗",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "can" },
+          { "text": "park" },
+          { "text": "behind" },
+          { "text": "the" },
+          { "text": "house" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Is breakfast included? Bei euch kostet das Frühstück extra. Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "No, breakfast is extra.", "correct": true },
+          { "text": "Yes, breakfast is free." },
+          { "text": "The heating is in the hall." }
+        ],
+        "explanation": "Included heißt: im Preis enthalten. Extra heißt: kostet zusätzlich. Free wäre falsch, denn das Frühstück ist nicht gratis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: How does the heating work? 🌡️ Was machst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Du zeigst ihm, wie die Heizung angeht.", "correct": true },
+          { "text": "Du bringst ihm mehr Handtücher." },
+          { "text": "Du gibst ihm die Rechnung." }
+        ],
+        "explanation": "Heating heißt Heizung. How does it work heißt: Wie funktioniert das? Der Gast braucht deine Hilfe mit der Heizung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Welche Antwort passt zu der Frage? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "holen", "label": "Of course, one moment.", "icon": "🙋" },
+          { "id": "weg", "label": "This way, please.", "icon": "👉" }
+        ],
+        "items": [
+          { "text": "Can we get more towels?", "bucket": "holen" },
+          { "text": "Where is the apartment?", "bucket": "weg" },
+          { "text": "Can we have another blanket?", "bucket": "holen" },
+          { "text": "Where can we park?", "bucket": "weg" }
+        ]
       }
     },
     {
@@ -46,56 +132,16 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "match_pairs",
       "data": {
-        "prompt": "Ein Gast fragt: Can we have more towels? Was möchte er?",
+        "prompt": "Deine drei wichtigsten Antworten: Was gehört zusammen?",
         "tts_lang": "en-GB",
-        "options": [
-          { "text": "Mehr Handtücher. 🧻", "correct": true },
-          { "text": "Mehr Kissen." },
-          { "text": "Mehr Seife." }
+        "pairs": [
+          { "left": { "text": "Of course, one moment." }, "right": { "text": "Natürlich, einen Moment." } },
+          { "left": { "text": "This way, please. 👉" }, "right": { "text": "Hier entlang, bitte." } },
+          { "left": { "text": "No problem." }, "right": { "text": "Kein Problem." } }
         ],
-        "explanation": "Richtig! Towels heißt Handtücher. Der Gast möchte mehr Handtücher. 🧻"
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "Ein Gast fragt: Where is the bakery? Was zeigst du ihm?",
-        "tts_lang": "en-GB",
-        "options": [
-          { "text": "Den Weg zur Bäckerei. 🥐", "correct": true },
-          { "text": "Den Weg zur Apotheke." },
-          { "text": "Den Weg zum Bahnhof." }
-        ],
-        "explanation": "Genau! Bakery heißt Bäckerei. Where is heißt: Wo ist. 🥐"
-      }
-    },
-    {
-      "type": "steps_order",
-      "data": {
-        "prompt": "Baue die Frage: Wo ist die Bäckerei? 🥐",
-        "tts_lang": "en-GB",
-        "mode": "words",
-        "steps": [
-          { "text": "Where" },
-          { "text": "is" },
-          { "text": "the" },
-          { "text": "bakery" }
-        ]
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "Letzte Frage, ganz leicht! 😊 Was heißt towels auf Deutsch?",
-        "tts_lang": "en-GB",
-        "options": [
-          { "text": "Handtücher 🧻", "correct": true },
-          { "text": "Teller" },
-          { "text": "Tische" }
-        ],
-        "explanation": "Super! Towels heißt Handtücher. Das Wort brauchst du oft. 🧻"
+        "memory": false
       }
     }
   ]

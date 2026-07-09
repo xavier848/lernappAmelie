@@ -1,7 +1,8 @@
 "use client";
 
 // Übungstyp 2: multiple_choice – Quiz mit genau einer richtigen Antwort (Spec §5.2).
-// Große Antwortkarten (Text und/oder Bild), volle Breite, min. 64 px hoch.
+// Große Antwortkarten (Text und/oder Bild), volle Breite, min. 56 px hoch
+// (kompakt, damit 4 Optionen ohne Scrollen auf einen iPhone-Screen passen).
 // Auswahl = türkiser Rand. Nach dem Prüfen: richtige Karte grün,
 // gewählte falsche Karte orange (nie rot).
 // Die Antworten werden pro Aufruf neu gemischt, damit die richtige Antwort
@@ -50,7 +51,7 @@ export function MultipleChoice({
   });
 
   return (
-    <div aria-label="Antworten" className="flex flex-col gap-3">
+    <div aria-label="Antworten" className="flex flex-col gap-2.5">
       {options.map(({ option, index }) => {
         const isSelected = selected === index;
         const showCorrect = checked && option.correct === true;
@@ -65,7 +66,7 @@ export function MultipleChoice({
             aria-pressed={isSelected}
             onClick={() => setSelected(index)}
             className={cn(
-              "flex min-h-16 w-full cursor-pointer items-center gap-3 rounded-2xl border-2 border-b-4 p-4 text-left text-lg font-semibold text-ink transition-transform select-none",
+              "flex min-h-14 w-full cursor-pointer items-center gap-3 rounded-2xl border-2 border-b-4 p-3 text-left text-lg font-semibold text-ink transition-transform select-none",
               "active:translate-y-1 active:border-b-2",
               !checked &&
                 (isSelected
@@ -80,7 +81,7 @@ export function MultipleChoice({
               <img
                 src={option.image}
                 alt=""
-                className="h-14 w-14 rounded-lg object-contain"
+                className="h-12 w-12 rounded-lg object-contain"
               />
             )}
             <span>{option.text}</span>

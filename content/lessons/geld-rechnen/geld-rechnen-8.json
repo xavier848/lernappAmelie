@@ -1,0 +1,218 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-8",
+  "title": "Geld-Quiz für Profis",
+  "sort": 8,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Profi-Aufgabe in 2 Schritten: Du bekommst 15 € Taschengeld. Du verdienst 20 € beim Nachbarn. Dann kaufst du ein Buch für 12 €. Wie viel Geld hast du jetzt?",
+        "options": [
+          {
+            "text": "23 €",
+            "correct": true
+          },
+          {
+            "text": "35 €"
+          },
+          {
+            "text": "3 €"
+          }
+        ],
+        "explanation": "Schritt 1: 15 € plus 20 € sind 35 €. Schritt 2: 35 € minus 12 € sind 23 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 So viel Geld hast du jetzt. Lege 23 € hin.",
+        "mode": "assemble",
+        "target": 2300
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Ein Gast bucht die Ferienwohnung für 3 Nächte. Eine Nacht kostet 80 €. Dazu kommen 30 € für die Endreinigung. Wie viel zahlt der Gast?",
+        "options": [
+          {
+            "text": "270 €",
+            "correct": true
+          },
+          {
+            "text": "240 €"
+          },
+          {
+            "text": "110 €"
+          }
+        ],
+        "explanation": "3 mal 80 € sind 240 €. Plus 30 € Reinigung sind 270 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Trick-Frage: Ein Duschgel kostet 2,95 €. Du kaufst 2 Stück. Wie viel zahlst du?",
+        "options": [
+          {
+            "text": "5,90 €",
+            "correct": true
+          },
+          {
+            "text": "6,10 €"
+          },
+          {
+            "text": "4,90 €"
+          }
+        ],
+        "explanation": "Der Trick: Rechne 2 mal 3 € — das sind 6 €. Dann ziehe 2 mal 5 Cent ab: 6 € minus 10 Cent sind 5,90 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🛒 Der Wocheneinkauf kostet 23,70 €. Der Kunde gibt 50 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 2370,
+        "given": 5000
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Kopfrechnen gemischt. Finde die Paare.",
+        "pairs": [
+          {
+            "left": {
+              "text": "2 mal 4,50 €"
+            },
+            "right": {
+              "text": "9 €"
+            }
+          },
+          {
+            "left": {
+              "text": "Die Hälfte von 17 €"
+            },
+            "right": {
+              "text": "8,50 €"
+            }
+          },
+          {
+            "left": {
+              "text": "Von 6,40 € bis 10 €"
+            },
+            "right": {
+              "text": "3,60 €"
+            }
+          },
+          {
+            "left": {
+              "text": "3 mal 2,50 €"
+            },
+            "right": {
+              "text": "7,50 €"
+            }
+          }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Du kaufst für die Ferienwohnung ein: Kaffee für 6,50 €, Milch für 1,20 € und Kekse für 2,30 €. Du gibst 20 €. Wie viel bekommst du zurück?",
+        "options": [
+          {
+            "text": "10 €",
+            "correct": true
+          },
+          {
+            "text": "9 €"
+          },
+          {
+            "text": "10,50 €"
+          }
+        ],
+        "explanation": "Zuerst alles zusammenzählen: 6,50 € plus 1,20 € plus 2,30 € sind genau 10 €. Dann: 20 € minus 10 € sind 10 € zurück."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Kontrolliere das Rückgeld wie ein Profi. Stimmt es? Sortiere.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Rückgeld stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Rückgeld ist falsch",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Kostet 7 €. Du gibst 10 €. Du bekommst 3 €.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Kostet 12,50 €. Du gibst 20 €. Du bekommst 8,50 €.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Kostet 4,20 €. Du gibst 5 €. Du bekommst 80 Cent.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Kostet 15 €. Du gibst 50 €. Du bekommst 25 €.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Kostet 9,90 €. Du gibst 10 €. Du bekommst 10 Cent.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Kostet 18 €. Du gibst 20 €. Du bekommst 3 €.",
+            "bucket": "falsch"
+          }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔍 So kontrollierst du dein Rückgeld. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Du schaust auf den Kassenzettel: Was kostet der Einkauf?"
+          },
+          {
+            "text": "Du überlegst: Wie viel Geld habe ich gegeben?"
+          },
+          {
+            "text": "Du rechnest das Rückgeld im Kopf aus."
+          },
+          {
+            "text": "Du zählst das Geld in deiner Hand."
+          },
+          {
+            "text": "Du vergleichst: Stimmen beide Beträge überein?"
+          }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Letzte Profi-Aufgabe. Der Einkauf kostet 16,50 €. Du gibst 20 €. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 1650,
+        "given": 2000
+      }
+    }
+  ]
+}

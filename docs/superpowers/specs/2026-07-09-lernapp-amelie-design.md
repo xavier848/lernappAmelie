@@ -27,8 +27,10 @@ Genau **eine Lernende** (Amelie, ohne Login), plus passwortgeschützter Admin-Be
 
 ## 4. Screens
 
-### 4.1 Lernpfad `/` (Startseite)
-Vertikaler Pfad von Lektions-Kreisen, gruppiert in Themen-Abschnitte mit Header (Icon + Titel). Zustände: ✅ abgeschlossen (türkis, Häkchen, 1–3 Sterne), ▶️ aktuell (groß, pulsierend), 🔒 gesperrt (grau; Lektionen innerhalb eines Themas linear freischalten, Themen selbst sind alle frei wählbar). Sticky-Header: Streak-Flamme 🔥 + Zahl, XP-Stand, Level. Maskottchen begrüßt oben.
+### 4.1 Startseite `/` (Update 2026-07-10, Xaviers Feedback)
+Kein langer Duolingo-Pfad mehr (zu viel Scrollen; Amelie lernt nicht linear). Stattdessen: Sticky-Header (🔥 Streak, ⚡ XP, Level), Maskottchen-Begrüßung, dann **„Für dich heute ✨"** mit max. 3 persönlichen Vorschlags-Karten aus `lib/suggestions.ts` (🔁 wiederholen = abgeschlossene Lektion mit den meisten Fehlversuchen; 🎯 weitermachen = angefangenes Thema; ✨ neues = per Tages-Seed rotierende unangefangene Lektion), Üben-Button, dann **„Alle Themen"** als 2-Spalten-Karten-Raster (Icon, Titel, Fortschritt x/y + Mini-Balken, ✓-Badge wenn komplett). Themen-Karte → `/thema/[slug]`: Lektionsliste mit Zuständen (✓ fertig + Sterne + „Nochmal üben", ▶ aktuell, 🔒 gesperrt; innerhalb des Themas weiterhin linear).
+
+**Fehler-Ablauf im Player (Update):** 1. Fehler → „Fast! Probier es gleich nochmal." + sofortiger zweiter Versuch derselben Übung; 2. Fehler in Folge → Lösung ansehen, weiter, Übung kommt am Lektionsende nochmal (`components/player/queue.ts`).
 
 ### 4.2 Lektions-Player `/lektion/[slug]`
 Eine Übung pro Screen. Oben: Fortschrittsbalken + Schließen-X (mit „Wirklich beenden?"-Dialog, Fortschritt der Session geht sonst verloren – Hinweis in Leichter Sprache). Mitte: Übung. Unten: großer „Prüfen"-Button (min. 56 px hoch, volle Breite). Feedback als Bottom-Banner: Grün „Richtig! 🎉" / Orange „Fast! Schau nochmal." mit Erklärung + „Weiter"-Button. Falsche Übungen werden ans Ende der Warteschlange gehängt. Lektion endet, wenn alle Übungen richtig gelöst.

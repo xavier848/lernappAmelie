@@ -52,7 +52,7 @@ describe("SortBuckets", () => {
     expect(screen.getByRole("button", { name: /30 Grad/ })).toBeTruthy();
     expect(screen.getByRole("button", { name: /60 Grad/ })).toBeTruthy();
     expect(screen.getByText("T-Shirt")).toBeTruthy();
-    expect(screen.getByText("Karte 1 von 2")).toBeTruthy();
+    expect(screen.getByText("1 von 2")).toBeTruthy();
     expect(props.onReadyChange).toHaveBeenLastCalledWith(false);
   });
 

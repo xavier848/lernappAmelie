@@ -1,71 +1,104 @@
 {
   "topic_slug": "geld-rechnen",
   "slug": "geld-rechnen-2",
-  "title": "Beträge legen",
+  "title": "An der Kasse",
   "sort": 2,
   "exercises": [
     {
-      "type": "money_count",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "💶 Jetzt legst du Geld hin. Lege 2,00 € hin.",
-        "mode": "assemble",
-        "target": 200
-      }
-    },
-    {
-      "type": "money_count",
-      "data": {
-        "prompt": "💶 Sehr gut! Jetzt mit Cent. Lege 3,50 € hin.",
-        "mode": "assemble",
-        "target": 350
+        "prompt": "🥖 Das Brot kostet 2,49 €. Die Butter kostet 1,99 €. Trick: 2,49 € ist fast 2,50 €. 1,99 € ist fast 2 €. Wie viel kostet beides ungefähr?",
+        "options": [
+          { "text": "ungefähr 4,50 €", "correct": true },
+          { "text": "ungefähr 3,50 €" },
+          { "text": "ungefähr 5,50 €" }
+        ],
+        "explanation": "2,50 € + 2 € = 4,50 €. Genau sind es 4,48 €. Der Trick mit dem Runden macht das Kopfrechnen leicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Welcher Schein ist mehr wert? 10 € oder 20 €?",
+        "prompt": "🧃 Der Saft kostet 1,79 €. Der Käse kostet 2,20 €. Wie viel kostet beides genau?",
         "options": [
-          { "text": "Der 20-Euro-Schein", "correct": true },
-          { "text": "Der 10-Euro-Schein" },
-          { "text": "Beide sind gleich viel wert" }
+          { "text": "3,99 €", "correct": true },
+          { "text": "3,89 €" },
+          { "text": "4,99 €" }
         ],
-        "explanation": "Genau! 20 ist mehr als 10. Der 20-Euro-Schein ist so viel wert wie zwei 10-Euro-Scheine."
+        "explanation": "Euro: 1 € + 2 € = 3 €. Cent: 79 + 20 = 99. Zusammen 3,99 €."
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "💶 Du schaffst das! Lege 5,80 € hin.",
+        "prompt": "🛒 Die Anzeige an der Kasse zeigt 8,35 €. Lege den Betrag passend hin.",
         "mode": "assemble",
-        "target": 580
+        "target": 835
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Du legst 2 Euro und 1 Euro zusammen. Wie viel ist das?",
+        "prompt": "🧴 Du hast 10 € dabei. Shampoo 3,95 €, Duschgel 2,95 €, Zahnpasta 2,45 €. Reicht dein Geld?",
         "options": [
-          { "text": "3 Euro", "correct": true },
-          { "text": "2 Euro" },
-          { "text": "4 Euro" }
+          { "text": "Ja. Zusammen sind es 9,35 €.", "correct": true },
+          { "text": "Nein. Zusammen ist es mehr als 10 €." },
+          { "text": "Es reicht genau. Es bleibt nichts übrig." }
         ],
-        "explanation": "Richtig! 2 Euro plus 1 Euro sind 3 Euro."
+        "explanation": "Runde großzügig auf: 4 € + 3 € + 2,50 € = 9,50 €. Das ist weniger als 10 €. Genau sind es 9,35 €."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧾 So läuft es an der Kasse. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Lege deine Waren aufs Band." },
+          { "text": "Schau auf die Anzeige: Wie viel kostet alles?" },
+          { "text": "Gib das Geld." },
+          { "text": "Nimm Rückgeld und Kassenbon." },
+          { "text": "Prüfe das Rückgeld, bevor du gehst." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 Nudeln 1,49 €, Tomatensoße 1,99 €, Parmesan 2,50 €. Wie viel kostet alles zusammen?",
+        "options": [
+          { "text": "5,98 €", "correct": true },
+          { "text": "6,08 €" },
+          { "text": "5,48 €" }
+        ],
+        "explanation": "Trick: 1,50 € + 2 € + 2,50 € = 6 €. Dann 2 Cent abziehen: 5,98 €."
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "💶 Ein großer Betrag! Lege 12,00 € hin. Tipp: Nimm einen Schein und Münzen.",
+        "prompt": "💶 Du willst passend zahlen. Es kostet 7,25 €. Lege den Betrag hin.",
         "mode": "assemble",
-        "target": 1200
+        "target": 725
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 An der Kasse piepen drei Preise: 4,99 €, 3,02 € und 1,95 €. Ungefähr wie viel musst du zahlen?",
+        "options": [
+          { "text": "ungefähr 10 €", "correct": true },
+          { "text": "ungefähr 8 €" },
+          { "text": "ungefähr 12 €" }
+        ],
+        "explanation": "Runde: 5 € + 3 € + 2 € = 10 €. So weißt du schnell, ob dein Geld reicht."
       }
     },
     {
       "type": "money_count",
       "data": {
-        "prompt": "🌟 Zum Schluss ganz einfach. Lege 1,00 € hin.",
+        "prompt": "🧾 Letzte Aufgabe: Die Kasse zeigt 11,90 €. Lege den Betrag passend hin.",
         "mode": "assemble",
-        "target": 100
+        "target": 1190
       }
     }
   ]

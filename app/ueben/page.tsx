@@ -73,7 +73,7 @@ export default function UebenPage() {
 
   if (state.status === "loading") {
     return (
-      <div className="flex min-h-dvh items-center justify-center px-4">
+      <div className="flex min-h-svh items-center justify-center px-4">
         <p className="animate-pulse text-lg font-semibold text-ink/60">
           Einen Moment bitte …
         </p>
@@ -83,7 +83,7 @@ export default function UebenPage() {
 
   if (state.status === "error") {
     return (
-      <div className="flex min-h-dvh flex-col items-center justify-center gap-8 px-4">
+      <div className="flex min-h-svh flex-col items-center justify-center gap-8 px-4">
         <Mascot
           mood="neutral"
           message="Gerade klappt es nicht. Versuch es später nochmal."
@@ -104,7 +104,7 @@ export default function UebenPage() {
 
   if (state.status === "empty") {
     return (
-      <div className="flex min-h-dvh flex-col items-center justify-center gap-8 px-4">
+      <div className="flex min-h-svh flex-col items-center justify-center gap-8 px-4">
         <Mascot
           mood="neutral"
           message="Schließe zuerst eine Lektion ab. Dann kannst du hier üben."

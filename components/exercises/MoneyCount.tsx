@@ -59,13 +59,13 @@ function MoneyRecognize({
   }, [checkRequested, selected, data.options, onResult]);
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-3">
       {moneyValue !== null && (
-        <div className="flex justify-center py-2">
-          <MoneySvg value={moneyValue} size={120} />
+        <div className="flex justify-center py-1">
+          <MoneySvg value={moneyValue} size={96} />
         </div>
       )}
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-2.5">
         {data.options.map((option, optionIndex) => {
           const isSelected = selected === optionIndex;
           const showCorrect = checked && option.correct === true;
@@ -76,7 +76,7 @@ function MoneyRecognize({
               type="button"
               onClick={() => setSelected(optionIndex)}
               className={cn(
-                "flex min-h-16 w-full cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 p-4 text-lg font-bold text-ink",
+                "flex min-h-14 w-full cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 p-3 text-lg font-bold text-ink",
                 "active:translate-y-1 active:border-b-2",
                 showCorrect
                   ? "border-success bg-success-light"
@@ -136,10 +136,10 @@ function MoneyAssemble({
   }
 
   return (
-    <div className="flex flex-col gap-4">
-      {/* Ziel-Info oben */}
+    <div className="flex flex-col gap-3">
+      {/* Ziel-Info oben, kompakt */}
       {data.mode === "change" ? (
-        <div className="flex flex-col gap-1 rounded-2xl bg-primary-light p-4 text-lg">
+        <div className="flex flex-col gap-0.5 rounded-2xl bg-primary-light p-3 text-base">
           <p>
             Preis: <strong>{formatEuro(data.price)}</strong>
           </p>
@@ -149,15 +149,15 @@ function MoneyAssemble({
           <p className="font-bold">Lege das Rückgeld.</p>
         </div>
       ) : (
-        <div className="rounded-2xl bg-primary-light p-4 text-lg">
+        <div className="rounded-2xl bg-primary-light p-3 text-base">
           <p>
             Lege genau: <strong>{formatEuro(data.target)}</strong>
           </p>
         </div>
       )}
 
-      {/* Hand-Bereich: gelegtes Geld, Antippen entfernt */}
-      <div className="flex min-h-24 flex-wrap items-center justify-center gap-3 rounded-2xl border-2 border-dashed border-locked bg-white p-3">
+      {/* Hand-Bereich: feste Mindesthoehe, damit das Layout nicht springt */}
+      <div className="flex min-h-24 flex-wrap items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-locked bg-white p-2">
         {laid.length === 0 ? (
           <p className="text-base text-ink/60">
             Tippe unten auf Geld, um es hierher zu legen.
@@ -181,7 +181,7 @@ function MoneyAssemble({
       <p
         data-testid="money-sum"
         className={cn(
-          "text-center text-3xl font-extrabold",
+          "text-center text-2xl font-extrabold",
           checked
             ? sum === target
               ? "text-success-dark"
@@ -192,17 +192,18 @@ function MoneyAssemble({
         {formatEuro(sum)}
       </p>
 
-      {/* Palette aller Nennwerte unten */}
-      <div className="grid grid-cols-4 items-center gap-3">
+      {/* Palette aller Nennwerte unten – 12 Werte in 3 Reihen à 4 */}
+      <div className="grid grid-cols-4 items-center gap-2">
         {MONEY_VALUES.map((value) => (
           <button
             key={value}
             type="button"
             onClick={() => addMoney(value)}
             aria-label={`${moneyLabel(value)} legen`}
-            className="flex min-h-12 cursor-pointer items-center justify-center rounded-2xl border-2 border-b-4 border-locked bg-white p-1 active:translate-y-1 active:border-b-2"
+            className="flex min-h-14 cursor-pointer items-center justify-center rounded-2xl border-2 border-b-4 border-locked bg-white p-1 active:translate-y-1 active:border-b-2"
           >
-            <MoneySvg value={value} size={40} />
+            {/* Scheine sind ×1,7 breiter als size – kleiner rendern, damit sie in die Zelle passen. */}
+            <MoneySvg value={value} size={value >= 500 ? 38 : 46} />
           </button>
         ))}
       </div>

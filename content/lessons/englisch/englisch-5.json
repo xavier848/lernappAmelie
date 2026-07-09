@@ -1,0 +1,135 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-5",
+  "title": "Probleme lösen",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast ruft an: The heating is not working. 🥶 Was ist das Problem?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Heizung geht nicht.", "correct": true },
+          { "text": "Das Licht geht nicht." },
+          { "text": "Die Dusche ist zu heiß." }
+        ],
+        "explanation": "Richtig! Heating heißt Heizung. Not working heißt: geht nicht. Der Gast friert. 🥶"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Wichtige Wörter bei Problemen: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "heating 🔥" }, "right": { "text": "Heizung" } },
+          { "left": { "text": "dishwasher 🍽️" }, "right": { "text": "Spülmaschine" } },
+          { "left": { "text": "broken" }, "right": { "text": "kaputt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: The dishwasher is broken. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Spülmaschine ist kaputt. 🍽️", "correct": true },
+          { "text": "Die Waschmaschine ist zu laut." },
+          { "text": "Die Spülmaschine ist neu." }
+        ],
+        "explanation": "Genau! Dishwasher heißt Spülmaschine. Broken heißt kaputt. Jetzt weißt du, was zu tun ist. 🛠️"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Du kannst das Problem beheben. Baue den Satz: Ich repariere das. 🛠️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "will" },
+          { "text": "fix" },
+          { "text": "it" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste brauchen frische Handtücher. 🧺 Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "We will bring new towels.", "correct": true },
+          { "text": "The heating is not working." },
+          { "text": "Please leave the key on the table." }
+        ],
+        "explanation": "Richtig! We will bring heißt: Wir bringen. New towels heißt: neue Handtücher. 🧺"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir bringen neue Handtücher. 🧺",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "will" },
+          { "text": "bring" },
+          { "text": "new" },
+          { "text": "towels" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Heizung war kaputt. Der Gast hatte eine kalte Nacht. Was sagst du zur Entschuldigung?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I am sorry for the trouble.", "correct": true },
+          { "text": "Enjoy your stay!" },
+          { "text": "See you next year!" }
+        ],
+        "explanation": "Genau! I am sorry heißt: Es tut mir leid. Trouble heißt Ärger. Eine Entschuldigung wirkt freundlich. 🙏"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Es tut mir leid für den Ärger. 🙏",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "am" },
+          { "text": "sorry" },
+          { "text": "for" },
+          { "text": "the" },
+          { "text": "trouble" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Problem oder Lösung? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "problem", "label": "Problem", "icon": "😟" },
+          { "id": "loesung", "label": "Lösung", "icon": "🛠️" }
+        ],
+        "items": [
+          { "text": "The heating is not working.", "bucket": "problem" },
+          { "text": "The dishwasher is broken.", "bucket": "problem" },
+          { "text": "I will fix it.", "bucket": "loesung" },
+          { "text": "We will bring new towels.", "bucket": "loesung" }
+        ]
+      }
+    }
+  ]
+}

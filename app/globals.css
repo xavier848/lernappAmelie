@@ -19,6 +19,17 @@ body {
   background: #f8fafc;
   color: var(--color-ink);
   font-family: var(--font-sans);
+  /* Kein versehentliches Pull-to-Refresh / Ruckeln am Seitenrand:
+     mitten in einer Lektion waere ein Reload aergerlich. */
+  overscroll-behavior-y: contain;
+}
+
+/* Auf dem Handy fuellt die App die volle Breite - dort soll beim
+   Gummiband-Scrollen (iOS) niemals grauer Hintergrund durchscheinen. */
+@media (max-width: 448px) {
+  body {
+    background: #ffffff;
+  }
 }
 
 /* Keine Aktion beim bloßen Berühren: Tap-Highlight aus, Auslösen regelt onClick */

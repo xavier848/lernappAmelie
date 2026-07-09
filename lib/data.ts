@@ -220,6 +220,46 @@ export async function fetchAttemptStats(
   );
 }
 
+/**
+ * Wie fetchAttemptStats, liefert aber zusaetzlich die Zuordnung
+ * exerciseId -> lessonId (zweiter Query ueber die exercise-ids).
+ * Basis fuer die Tages-Vorschlaege (lib/suggestions.ts).
+ */
+export async function fetchAttemptStatsWithLessons(deviceId: string): Promise<{
+  stats: Map<string, { correct: number; wrong: number }>;
+  exerciseToLesson: Map<string, string>;
+}> {
+  const supabase = supabaseBrowser();
+  const attemptsRes = await supabase
+    .from("exercise_attempts")
+    .select("exercise_id, correct")
+    .eq("device_id", deviceId);
+  if (attemptsRes.error) throw attemptsRes.error;
+  const attempts = (attemptsRes.data ?? []) as {
+    exercise_id: string;
+    correct: boolean;
+  }[];
+  const stats = aggregateAttemptStats(attempts);
+
+  const exerciseToLesson = new Map<string, string>();
+  const exerciseIds = [...stats.keys()];
+  if (exerciseIds.length > 0) {
+    const exercisesRes = await supabase
+      .from("exercises")
+      .select("id, lesson_id")
+      .in("id", exerciseIds);
+    if (exercisesRes.error) throw exercisesRes.error;
+    for (const row of (exercisesRes.data ?? []) as {
+      id: string;
+      lesson_id: string;
+    }[]) {
+      exerciseToLesson.set(row.id, row.lesson_id);
+    }
+  }
+
+  return { stats, exerciseToLesson };
+}
+
 // ---------------------------------------------------------------------------
 // Schreib-Funktionen (mit Offline-Queue-Fallback)
 // ---------------------------------------------------------------------------

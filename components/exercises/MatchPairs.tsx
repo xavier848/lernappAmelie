@@ -40,12 +40,19 @@ function SideContent({ side }: { side: PairSide }) {
         <img
           src={side.image}
           alt={side.text ? "" : sideLabel(side)}
-          className="h-12 w-12 rounded-lg object-contain"
+          className="h-10 w-10 rounded-lg object-contain"
         />
       )}
       {side.text && <span>{side.text}</span>}
     </>
   );
+}
+
+/** Nur-Emoji-Texte (z. B. 🐶) duerfen auf Memory-Karten groesser erscheinen. */
+const EMOJI_ONLY = /^[\p{Extended_Pictographic}\p{Emoji_Component}\s]+$/u;
+
+function memoryFaceTextClass(side: PairSide): string {
+  return side.text && EMOJI_ONLY.test(side.text) ? "text-2xl" : "text-sm";
 }
 
 export function MatchPairs(props: MatchPairsProps) {
@@ -128,7 +135,7 @@ function ColumnsBoard({
     isSelected: boolean;
   }): string =>
     cn(
-      "flex min-h-16 w-full cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 p-3 text-center text-lg font-semibold text-ink transition-transform select-none",
+      "flex min-h-14 w-full cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 p-2 text-center text-base font-semibold text-ink transition-transform select-none",
       "active:translate-y-1 active:border-b-2",
       options.isSelected
         ? "border-primary bg-primary-light"
@@ -138,8 +145,8 @@ function ColumnsBoard({
     );
 
   return (
-    <div className="grid grid-cols-2 gap-3">
-      <div aria-label="Linke Spalte" className="flex flex-col gap-3">
+    <div className="grid grid-cols-2 gap-2.5">
+      <div aria-label="Linke Spalte" className="flex flex-col gap-2.5">
         {leftItems.map((item) => {
           const isMatched = matched.includes(item.pair);
           const isSelected = selectedLeft === item.pair;
@@ -161,7 +168,7 @@ function ColumnsBoard({
           );
         })}
       </div>
-      <div aria-label="Rechte Spalte" className="flex flex-col gap-3">
+      <div aria-label="Rechte Spalte" className="flex flex-col gap-2.5">
         {rightItems.map((item) => {
           const isMatched = matched.includes(item.pair);
           return (
@@ -251,7 +258,7 @@ function MemoryBoard({
   };
 
   return (
-    <div aria-label="Memory-Karten" className="grid grid-cols-3 gap-3">
+    <div aria-label="Memory-Karten" className="grid grid-cols-3 gap-2">
       {cards.map((card, index) => {
         const isMatched = matched.includes(card.pair);
         const isFaceUp = isMatched || open.includes(card.key);
@@ -267,12 +274,12 @@ function MemoryBoard({
             onClick={() => tapCard(card)}
             animate={{ rotateY: isFaceUp ? 180 : 0 }}
             transition={{ duration: 0.3 }}
-            className="relative min-h-24 cursor-pointer rounded-2xl select-none [transform-style:preserve-3d]"
+            className="relative aspect-square min-h-14 cursor-pointer rounded-2xl select-none [transform-style:preserve-3d]"
           >
             {/* Rückseite (verdeckt): ? */}
             <span
               aria-hidden
-              className="absolute inset-0 flex items-center justify-center rounded-2xl border-2 border-b-4 border-primary-dark bg-primary text-3xl font-extrabold text-white [backface-visibility:hidden]"
+              className="absolute inset-0 flex items-center justify-center rounded-2xl border-2 border-b-4 border-primary-dark bg-primary text-2xl font-extrabold text-white [backface-visibility:hidden]"
             >
               ?
             </span>
@@ -280,7 +287,8 @@ function MemoryBoard({
             <span
               aria-hidden
               className={cn(
-                "absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl border-2 p-2 text-center text-base font-semibold text-ink [backface-visibility:hidden] [transform:rotateY(180deg)]",
+                "absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl border-2 p-1 text-center font-semibold text-ink [backface-visibility:hidden] [transform:rotateY(180deg)]",
+                memoryFaceTextClass(card.side),
                 isMatched
                   ? "border-success bg-success-light"
                   : "border-primary bg-white",

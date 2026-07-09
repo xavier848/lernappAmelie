@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="de" className={`${openSans.variable} h-full antialiased`}>
       <body className="min-h-full">
-        <main className="mx-auto min-h-dvh w-full max-w-md bg-white shadow-sm">
+        <main className="mx-auto min-h-svh w-full max-w-md bg-white shadow-sm">
           {children}
         </main>
       </body>

@@ -69,7 +69,7 @@ export default function ProfilPage() {
 
   if (state.status === "loading") {
     return (
-      <div className="flex min-h-dvh flex-col">
+      <div className="flex min-h-svh flex-col">
         <AppHeader streak={0} xp={0} />
         <div className="flex flex-col gap-4 px-4 py-8" aria-label="Lädt…">
           <div className="h-28 animate-pulse rounded-2xl bg-locked" />
@@ -82,7 +82,7 @@ export default function ProfilPage() {
 
   if (state.status === "error") {
     return (
-      <div className="flex min-h-dvh flex-col items-center justify-center gap-6 px-4 py-10">
+      <div className="flex min-h-svh flex-col items-center justify-center gap-6 px-4 py-10">
         <Mascot
           mood="neutral"
           message="Gerade klappt es nicht. Versuch es später nochmal."
@@ -128,7 +128,7 @@ export default function ProfilPage() {
   });
 
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className="flex min-h-svh flex-col">
       <AppHeader streak={streak} xp={totalXp} />
 
       <div className="flex flex-col gap-6 px-4 py-6">

@@ -1,0 +1,118 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-6",
+  "title": "Tipps für Gäste",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Where can we eat tonight? 🍽️ Was empfiehlst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "There is a nice restaurant in the village.", "correct": true },
+          { "text": "The bakery opens at seven." },
+          { "text": "You can go hiking here." }
+        ],
+        "explanation": "Richtig! There is heißt: Es gibt. In the village heißt: im Dorf. Das passt zum Abendessen. 🍽️"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Wunsch und Tipp: Was passt zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Wandern 🥾" }, "right": { "text": "You can go hiking here." } },
+          { "left": { "text": "Essen gehen 🍽️" }, "right": { "text": "There is a nice restaurant in the village." } },
+          { "left": { "text": "Brötchen kaufen 🥐" }, "right": { "text": "The bakery opens at seven." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie können hier wandern gehen. 🥾",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "can" },
+          { "text": "go" },
+          { "text": "hiking" },
+          { "text": "here" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Was heißt: I recommend the mountain trail. 🏔️",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ich empfehle den Bergweg.", "correct": true },
+          { "text": "Der Bergweg ist gesperrt." },
+          { "text": "Ich kenne den Bergweg nicht." }
+        ],
+        "explanation": "Genau! I recommend heißt: Ich empfehle. Mountain trail heißt Bergweg. 🏔️"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Bäckerei öffnet um sieben. 🥐",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "bakery" },
+          { "text": "opens" },
+          { "text": "at" },
+          { "text": "seven" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: When does the bakery open? Die Bäckerei öffnet um 7 Uhr. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The bakery opens at seven.", "correct": true },
+          { "text": "The bakery opens at ten." },
+          { "text": "The bakery is in the village." }
+        ],
+        "explanation": "Richtig! Seven heißt sieben. Die letzte Antwort sagt nur, wo die Bäckerei ist – nicht, wann sie öffnet. 🥐"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich empfehle den Bergweg. 🏔️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "recommend" },
+          { "text": "the" },
+          { "text": "mountain" },
+          { "text": "trail" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was wünschen sich die Gäste? Finde den passenden Tipp.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "We love walking. 🥾" }, "right": { "text": "I recommend the mountain trail." } },
+          { "left": { "text": "We are hungry. 🍽️" }, "right": { "text": "There is a nice restaurant in the village." } },
+          { "left": { "text": "We need fresh bread. 🥖" }, "right": { "text": "The bakery opens at seven." } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}
