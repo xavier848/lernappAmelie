@@ -1,0 +1,122 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-training",
+  "title": "Training: Küche",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍽️ Heute spülst du mit der Hand. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "💧 Warmes Wasser in die Spüle einlassen." },
+          { "text": "🧴 Einen Spritzer Spülmittel dazugeben." },
+          { "text": "🥛 Gläser zuerst spülen." },
+          { "text": "🍲 Töpfe und Pfannen zuletzt spülen." },
+          { "text": "🧻 Alles abtrocknen und wegräumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Warum spülst du die Gläser zuerst?",
+        "options": [
+          { "text": "Gläser sind nur wenig schmutzig. So bleibt das Wasser lange sauber.", "correct": true },
+          { "text": "Weil Gläser am schwersten sind." },
+          { "text": "Das ist egal. Die Reihenfolge spielt keine Rolle." }
+        ],
+        "explanation": "Erst das Saubere, dann das Schmutzige. Die fettigen Töpfe kommen ganz zuletzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖐️ Du willst in der Küche anfangen. Was machst du zuerst mit deinen Händen?",
+        "options": [
+          { "text": "Ich wasche sie mit Seife.", "correct": true },
+          { "text": "Nichts. Das dauert zu lange." },
+          { "text": "Ich creme sie nur ein." }
+        ],
+        "explanation": "Saubere Hände sind wichtig in der Küche. Immer zuerst mit Seife waschen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "♻️ Wir trennen den Müll. Sortiere richtig!",
+        "buckets": [
+          { "id": "bio", "label": "Bio-Müll", "icon": "🍌" },
+          { "id": "papier", "label": "Papier", "icon": "📦" },
+          { "id": "rest", "label": "Restmüll", "icon": "🗑️" }
+        ],
+        "items": [
+          { "text": "🍌 Bananenschale", "bucket": "bio" },
+          { "text": "🥚 Eierschalen", "bucket": "bio" },
+          { "text": "📰 Alte Zeitung", "bucket": "papier" },
+          { "text": "📦 Leerer Karton", "bucket": "papier" },
+          { "text": "🤧 Benutztes Taschentuch", "bucket": "rest" },
+          { "text": "☕ Kaputte Tasse", "bucket": "rest" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🗑️ Der Mülleimer ist voll. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪢 Müllbeutel zubinden." },
+          { "text": "🧺 Beutel aus dem Eimer heben." },
+          { "text": "🚮 Beutel in die Mülltonne werfen." },
+          { "text": "🛍️ Neuen Beutel in den Eimer einsetzen." },
+          { "text": "🧼 Hände waschen." }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🧽 Ein neuer Schwamm kostet 1,20 €. Du bezahlst mit 2 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 120,
+        "given": 200
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Wohin räumst du das? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍽️ Sauberer Teller" }, "right": { "text": "Geschirrschrank" } },
+          { "left": { "text": "🍴 Besteck" }, "right": { "text": "Besteck-Schublade" } },
+          { "left": { "text": "🍕 Tiefkühl-Pizza" }, "right": { "text": "Gefrierfach" } },
+          { "left": { "text": "🍎 Äpfel" }, "right": { "text": "Obstschale" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Das Geschirrtuch ist nass und riecht komisch. Was machst du?",
+        "options": [
+          { "text": "Ich nehme ein frisches Tuch. Das alte kommt in die Wäsche.", "correct": true },
+          { "text": "Ich benutze es einfach weiter." },
+          { "text": "Ich verstecke es in der Schublade." }
+        ],
+        "explanation": "Ein frisches Tuch ist sauber und hygienisch. Das alte Tuch wird gewaschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Was brauchst du zum Abwaschen?",
+        "options": [
+          { "text": "Spülmittel.", "correct": true },
+          { "text": "Shampoo." }
+        ],
+        "explanation": "Genau! Spülmittel macht das Geschirr sauber. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

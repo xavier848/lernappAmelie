@@ -1,0 +1,128 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-training",
+  "title": "Training: Geld verwalten",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Du kaufst dir ein T-Shirt für 12 €. Was ist das?",
+        "options": [
+          { "text": "Eine Ausgabe. Geld geht weg.", "correct": true },
+          { "text": "Eine Einnahme. Geld kommt rein." },
+          { "text": "Ein Sparziel." }
+        ],
+        "explanation": "Richtig! Beim Kaufen gibst du Geld aus. Das ist eine Ausgabe."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Neue Beispiele! Sortiere: Einnahme oder Ausgabe?",
+        "buckets": [
+          { "id": "einnahme", "label": "Einnahme", "icon": "💰" },
+          { "id": "ausgabe", "label": "Ausgabe", "icon": "🛒" }
+        ],
+        "items": [
+          { "text": "💇 Friseur-Besuch", "bucket": "ausgabe" },
+          { "text": "♻️ Pfand-Geld für leere Flaschen", "bucket": "einnahme" },
+          { "text": "🍕 Pizza bestellen", "bucket": "ausgabe" },
+          { "text": "🎉 Geld-Geschenk zur bestandenen Prüfung", "bucket": "einnahme" },
+          { "text": "🎮 Videospiel kaufen", "bucket": "ausgabe" },
+          { "text": "🧺 Geld vom Flohmarkt-Verkauf", "bucket": "einnahme" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Rechne: Handy 15 € + Bus-Karte 45 €. Wie viel sind diese festen Ausgaben zusammen?",
+        "options": [
+          { "text": "60 €", "correct": true },
+          { "text": "50 €" },
+          { "text": "70 €" }
+        ],
+        "explanation": "Genau! 15 + 45 = 60. Diese 60 € planst du zuerst ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Ein Tablet kostet 240 €. Du sparst 40 € im Monat. Wie lange sparst du?",
+        "options": [
+          { "text": "6 Monate.", "correct": true },
+          { "text": "4 Monate." },
+          { "text": "8 Monate." }
+        ],
+        "explanation": "240 geteilt durch 40 = 6. Nach 6 Monaten gehört das Tablet dir!"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎯 So erreichst du dein Sparziel. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "⭐ Wähle dein Sparziel. Zum Beispiel ein Tablet." },
+          { "text": "💶 Schau nach: Wie viel kostet es?" },
+          { "text": "🧮 Rechne: Wie viel kannst du im Monat sparen?" },
+          { "text": "🐷 Lege das Geld jeden Monat zur Seite." },
+          { "text": "🎉 Genug gespart? Dann kaufe dein Tablet!" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was gehört zusammen? Verbinde das Wort mit der Erklärung.",
+        "pairs": [
+          { "left": { "text": "💶 Bargeld" }, "right": { "text": "Münzen und Scheine in der Hand." } },
+          { "left": { "text": "💳 Karte" }, "right": { "text": "Damit bezahlst du ohne Bargeld." } },
+          { "left": { "text": "🧾 Kassenbon" }, "right": { "text": "Der Zettel zeigt, was du bezahlt hast." } },
+          { "left": { "text": "🏦 Bank" }, "right": { "text": "Hier ist dein Konto." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "budget",
+      "data": {
+        "prompt": "🏆 Die Trainings-Challenge! Du bekommst 900 €. Teile dein Geld ein. Spare mindestens 150 €.",
+        "income": 90000,
+        "categories": [
+          { "id": "handy", "label": "Handy", "icon": "📱", "fixed": 1500 },
+          { "id": "streaming", "label": "Musik und Filme", "icon": "🎧", "fixed": 1200 },
+          { "id": "essen", "label": "Essen und Trinken", "icon": "🍎" },
+          { "id": "pflege", "label": "Pflege-Produkte", "icon": "🧴" },
+          { "id": "geschenke", "label": "Geschenke", "icon": "🎁" },
+          { "id": "hobby", "label": "Hobby", "icon": "🎨" },
+          { "id": "sparen", "label": "Sparen", "icon": "🐷" }
+        ],
+        "savingsGoal": 15000
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📊 Du willst wissen: Wie viel Geld ist auf meinem Konto? Wo schaust du nach?",
+        "options": [
+          { "text": "Ich schaue auf den Kontostand. Zum Beispiel in der Bank-App.", "correct": true },
+          { "text": "Ich schaue in den Kalender." },
+          { "text": "Ich rate einfach." }
+        ],
+        "explanation": "Genau! Der Kontostand zeigt dir, wie viel Geld da ist. Schau regelmäßig nach. So behältst du den Überblick."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du bekommst 900 € im Monat. Darfst du 1000 € ausgeben?",
+        "options": [
+          { "text": "Nein. Ich gebe nur so viel aus, wie ich habe.", "correct": true },
+          { "text": "Ja, das macht nichts." }
+        ],
+        "explanation": "Super! Du gibst nie mehr aus, als du hast. So bleibst du sicher bei deinem Geld. 🎉"
+      }
+    }
+  ]
+}

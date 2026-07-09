@@ -1,0 +1,227 @@
+{
+  "topic_slug": "kinder-sicherheit",
+  "slug": "kinder-sicherheit-training",
+  "title": "Training: Sicherheit",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔒 Was musst du wegsperren? Was darf das Kind benutzen? Sortiere.",
+        "buckets": [
+          {
+            "id": "wegsperren",
+            "label": "Wegsperren",
+            "icon": "🔒"
+          },
+          {
+            "id": "benutzen",
+            "label": "Darf das Kind benutzen",
+            "icon": "✅"
+          }
+        ],
+        "items": [
+          {
+            "text": "🧴 Putzmittel",
+            "bucket": "wegsperren"
+          },
+          {
+            "text": "💊 Tabletten",
+            "bucket": "wegsperren"
+          },
+          {
+            "text": "🔥 Feuerzeug",
+            "bucket": "wegsperren"
+          },
+          {
+            "text": "🖍️ Dicke Malstifte",
+            "bucket": "benutzen"
+          },
+          {
+            "text": "📚 Bilderbuch",
+            "bucket": "benutzen"
+          },
+          {
+            "text": "🧩 Großes Steck-Puzzle",
+            "bucket": "benutzen"
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Warum sind Putzmittel für Kinder gefährlich?",
+        "options": [
+          {
+            "text": "☠️ Kinder können davon trinken. Das ist giftig.",
+            "correct": true
+          },
+          {
+            "text": "🎨 Die Flaschen sind zu bunt."
+          },
+          {
+            "text": "💶 Putzmittel sind zu teuer."
+          }
+        ],
+        "explanation": "Richtig! Putzmittel sind giftig. Die Flaschen sehen manchmal aus wie Saft. Sperre sie hoch oben oder in einen Schrank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛁 Du badest ein Kleinkind. Das Telefon klingelt im anderen Zimmer. Was machst du?",
+        "options": [
+          {
+            "text": "🧍 Ich bleibe beim Kind. Das Telefon muss warten.",
+            "correct": true
+          },
+          {
+            "text": "🏃 Ich laufe schnell zum Telefon."
+          },
+          {
+            "text": "📱 Ich telefoniere lange im Flur."
+          }
+        ],
+        "explanation": "Richtig! Lass ein Kleinkind nie allein im Wasser. Auch nicht kurz. Wasser ist für kleine Kinder schnell gefährlich."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🛡️ Training: Finde zu jeder Gefahr den passenden Schutz.",
+        "pairs": [
+          {
+            "left": {
+              "text": "🪜 Treppe"
+            },
+            "right": {
+              "text": "🚧 Treppen-Gitter"
+            }
+          },
+          {
+            "left": {
+              "text": "🔌 Steckdose"
+            },
+            "right": {
+              "text": "🛡️ Steckdosen-Schutz"
+            }
+          },
+          {
+            "left": {
+              "text": "☀️ Starke Sonne"
+            },
+            "right": {
+              "text": "🧢 Hut und Sonnencreme"
+            }
+          },
+          {
+            "left": {
+              "text": "🕯️ Kerze"
+            },
+            "right": {
+              "text": "🧑 Nur mit Erwachsenem"
+            }
+          }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔥 Ein Kind fasst an eine heiße Tasse. Der Finger tut weh. Hilf dem Kind. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "🤗 Ruhig bleiben und das Kind trösten."
+          },
+          {
+            "text": "💧 Den Finger unter kühles Wasser halten."
+          },
+          {
+            "text": "⏳ Lange kühlen, bis es weniger weh tut."
+          },
+          {
+            "text": "🗣️ Einem Erwachsenen Bescheid sagen."
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚨 Ein schlimmer Unfall passiert. Ein Erwachsener ruft den Notruf. Welche Nummer ist das?",
+        "options": [
+          {
+            "text": "📞 112",
+            "correct": true
+          },
+          {
+            "text": "📞 555"
+          },
+          {
+            "text": "📞 123"
+          }
+        ],
+        "explanation": "Richtig! Die 112 ist der Notruf. Damit rufst du Feuerwehr und Rettungswagen. Der Anruf kostet nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍒 Das Kind findet rote Beeren am Busch. Es will sie essen. Was sagst du?",
+        "options": [
+          {
+            "text": "🛑 Stopp! Wir essen keine Beeren vom Busch.",
+            "correct": true
+          },
+          {
+            "text": "😋 Probier ruhig, sie sehen lecker aus."
+          },
+          {
+            "text": "🤷 Mach, was du willst."
+          }
+        ],
+        "explanation": "Genau! Viele Beeren sind giftig. Kinder essen nur, was ein Erwachsener erlaubt hat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Das Fenster steht weit offen. Ein Kleinkind klettert auf die Fensterbank. Was machst du?",
+        "options": [
+          {
+            "text": "🏃 Ich hole das Kind sofort herunter und schließe das Fenster.",
+            "correct": true
+          },
+          {
+            "text": "📸 Ich mache erst ein Foto."
+          },
+          {
+            "text": "🙈 Ich schaue weg."
+          }
+        ],
+        "explanation": "Richtig! Das Kind kann aus dem Fenster fallen. Hole es sofort herunter. Sichere offene Fenster immer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Es blitzt und donnert ⛈️. Wo spielt ihr?",
+        "options": [
+          {
+            "text": "🏠 Drinnen im Haus.",
+            "correct": true
+          },
+          {
+            "text": "🌳 Draußen unter dem großen Baum."
+          },
+          {
+            "text": "🏊 Im Schwimmbad."
+          }
+        ],
+        "explanation": "Super gemacht! Bei Gewitter bleibt ihr drinnen. Da seid ihr sicher."
+      }
+    }
+  ]
+}

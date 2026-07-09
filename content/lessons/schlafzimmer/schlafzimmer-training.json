@@ -1,0 +1,237 @@
+{
+  "topic_slug": "schlafzimmer",
+  "slug": "schlafzimmer-training",
+  "title": "Training: Schlafzimmer",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Wie lüftest du das Schlafzimmer richtig?",
+        "options": [
+          {
+            "text": "Fenster ganz öffnen. Ein paar Minuten lüften.",
+            "correct": true
+          },
+          {
+            "text": "Fenster den ganzen Tag nur kippen."
+          },
+          {
+            "text": "Gar nicht lüften."
+          }
+        ],
+        "explanation": "Das nennt man Stoßlüften: Fenster ganz auf, kurz und kräftig lüften. So kommt schnell frische Luft herein."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛌 Das Kissen frisch beziehen: Ordne die Schritte.",
+        "steps": [
+          {
+            "text": "🛌 Alten Bezug vom Kissen abziehen."
+          },
+          {
+            "text": "🧺 Alten Bezug in den Wäschekorb legen."
+          },
+          {
+            "text": "🆕 Frischen Bezug holen."
+          },
+          {
+            "text": "👐 Kissen in den Bezug stecken."
+          },
+          {
+            "text": "📐 Ecken zurechtziehen."
+          },
+          {
+            "text": "✨ Kissen glatt auf das Bett legen."
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Ein neuer Gast kommt. Das Bett sieht noch sauber aus. Wechselst du die Bettwäsche trotzdem?",
+        "options": [
+          {
+            "text": "Ja. Jeder Gast bekommt frische Bettwäsche.",
+            "correct": true
+          },
+          {
+            "text": "Nein. Es sieht ja sauber aus."
+          },
+          {
+            "text": "Nur wenn der Gast danach fragt."
+          }
+        ],
+        "explanation": "Das ist eine feste Regel: Für jeden neuen Gast gibt es frische Bettwäsche. Immer."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Was ist Bettwäsche? Sortiere!",
+        "buckets": [
+          {
+            "id": "bettwaesche",
+            "label": "Bettwäsche",
+            "icon": "🛏️"
+          },
+          {
+            "id": "keine-bettwaesche",
+            "label": "Keine Bettwäsche",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "🛏️ Spannbettlaken",
+            "bucket": "bettwaesche"
+          },
+          {
+            "text": "💤 Kissenbezug",
+            "bucket": "bettwaesche"
+          },
+          {
+            "text": "🌙 Deckenbezug",
+            "bucket": "bettwaesche"
+          },
+          {
+            "text": "🪟 Gardine",
+            "bucket": "keine-bettwaesche"
+          },
+          {
+            "text": "🍽️ Tischdecke",
+            "bucket": "keine-bettwaesche"
+          },
+          {
+            "text": "🧺 Handtuch",
+            "bucket": "keine-bettwaesche"
+          }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌅 Das Schlafzimmer schnell ordentlich machen: Ordne die Schritte.",
+        "steps": [
+          {
+            "text": "🪟 Fenster öffnen."
+          },
+          {
+            "text": "🛏️ Bettdecke glatt ziehen."
+          },
+          {
+            "text": "👕 Kleidung in den Schrank räumen."
+          },
+          {
+            "text": "🧻 Nachttisch abwischen."
+          },
+          {
+            "text": "🧹 Boden saugen."
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Musst du auch unter dem Bett saugen?",
+        "options": [
+          {
+            "text": "Ja. Auch unter dem Bett sammelt sich Staub.",
+            "correct": true
+          },
+          {
+            "text": "Nein. Da sieht man ja nichts."
+          },
+          {
+            "text": "Nur einmal im Jahr."
+          }
+        ],
+        "explanation": "Unter dem Bett sammeln sich Staub und Wollmäuse. Fahre mit dem Sauger auch darunter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory-Training! Finde die Paare, die zusammen gehören.",
+        "pairs": [
+          {
+            "left": {
+              "text": "🛏️ Matratze"
+            },
+            "right": {
+              "text": "Spannbettlaken"
+            }
+          },
+          {
+            "left": {
+              "text": "💤 Kissen"
+            },
+            "right": {
+              "text": "Kissenbezug"
+            }
+          },
+          {
+            "left": {
+              "text": "🌙 Bettdecke"
+            },
+            "right": {
+              "text": "Deckenbezug"
+            }
+          },
+          {
+            "left": {
+              "text": "🧺 Wäschekorb"
+            },
+            "right": {
+              "text": "Schmutzige Wäsche"
+            }
+          }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪑 Auf dem Stuhl liegt ein Berg Kleidung. Was machst du beim Aufräumen?",
+        "options": [
+          {
+            "text": "Ich räume die Kleidung in den Schrank.",
+            "correct": true
+          },
+          {
+            "text": "Ich schiebe alles unter das Bett."
+          },
+          {
+            "text": "Ich lege noch mehr Kleidung darauf."
+          }
+        ],
+        "explanation": "Kleidung gehört in den Schrank. Dann sieht das Zimmer sofort ordentlich aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💤 Letzte Frage, ganz leicht: Was ziehst du über das Kissen?",
+        "options": [
+          {
+            "text": "Den Kissenbezug.",
+            "correct": true
+          },
+          {
+            "text": "Eine Socke."
+          },
+          {
+            "text": "Ein Handtuch."
+          }
+        ],
+        "explanation": "Richtig! Der Kissenbezug kommt über das Kissen. Toll gemacht! 🌟"
+      }
+    }
+  ]
+}

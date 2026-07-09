@@ -1,0 +1,123 @@
+{
+  "topic_slug": "kinder-sprache",
+  "slug": "kinder-sprache-training",
+  "title": "Training: Sprechen",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👂 Was kann ein Baby zuerst: Wörter verstehen oder selbst sprechen?",
+        "options": [
+          { "text": "👂 Wörter verstehen.", "correct": true },
+          { "text": "🗣️ Selbst sprechen." }
+        ],
+        "explanation": "Babys verstehen viele Wörter, bevor sie selbst sprechen können. Das Verstehen kommt zuerst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💬 Was hilft einem Kind beim Sprechen lernen? Sortiere.",
+        "buckets": [
+          { "id": "hilft", "label": "Das hilft", "icon": "💛" },
+          { "id": "hilft-nicht", "label": "Das hilft nicht", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "📖 Jeden Tag vorlesen", "bucket": "hilft" },
+          { "text": "🎵 Zusammen Lieder singen", "bucket": "hilft" },
+          { "text": "📺 Den ganzen Tag fernsehen", "bucket": "hilft-nicht" },
+          { "text": "🗣️ Beim Essen erzählen", "bucket": "hilft" },
+          { "text": "🤫 Kaum mit dem Kind sprechen", "bucket": "hilft-nicht" },
+          { "text": "🖐️ Fingerspiele machen", "bucket": "hilft" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📖 Du liest einem Kind vor. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "📚 Zusammen ein Buch aussuchen." },
+          { "text": "🛋️ Gemütlich zusammensitzen." },
+          { "text": "📖 Langsam und deutlich vorlesen." },
+          { "text": "🖼️ Auf die Bilder zeigen." },
+          { "text": "❓ Fragen: Was siehst du auf dem Bild?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐕 Ein Kind zeigt auf einen Hund. Es sagt: „Wau-wau!“ Was sagst du?",
+        "options": [
+          { "text": "🗣️ „Ja, das ist ein Hund!“", "correct": true },
+          { "text": "🤫 Ich sage nichts." },
+          { "text": "❌ „Das heißt nicht Wau-wau!“" }
+        ],
+        "explanation": "Sag das richtige Wort freundlich dazu: „Ja, das ist ein Hund!“ So lernt das Kind neue Wörter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Welches Tier macht welchen Laut? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🐶 Hund" }, "right": { "text": "Wau-wau" } },
+          { "left": { "text": "🐱 Katze" }, "right": { "text": "Miau" } },
+          { "left": { "text": "🐮 Kuh" }, "right": { "text": "Muh" } },
+          { "left": { "text": "🐑 Schaf" }, "right": { "text": "Mäh" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎵 Warum ist Singen gut für die Sprache?",
+        "options": [
+          { "text": "🎶 Das Kind hört Wörter oft und merkt sie sich leichter.", "correct": true },
+          { "text": "🔇 Singen ist schlecht für die Ohren." },
+          { "text": "😴 Singen macht nur müde." }
+        ],
+        "explanation": "Beim Singen hört das Kind Wörter immer wieder. Mit Melodie merkt man sich Wörter leichter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Du sprichst mit einem kleinen Kind. Wie sprichst du am besten?",
+        "options": [
+          { "text": "🐢 Langsam, deutlich und freundlich.", "correct": true },
+          { "text": "🏎️ Ganz schnell." },
+          { "text": "📢 Ganz laut schreien." }
+        ],
+        "explanation": "Sprich langsam und deutlich. Schau das Kind dabei an. So versteht es dich gut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👂 Ein Kind erzählt dir etwas. Es braucht lange. Was machst du?",
+        "options": [
+          { "text": "😊 Ich höre geduldig zu und lasse es ausreden.", "correct": true },
+          { "text": "⏩ Ich rede einfach dazwischen." },
+          { "text": "🚶 Ich gehe weg." }
+        ],
+        "explanation": "Höre geduldig zu. Lass das Kind ausreden. So traut es sich, viel zu sprechen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Was sagt die Katze?",
+        "options": [
+          { "text": "🐱 Miau.", "correct": true },
+          { "text": "🐮 Muh." },
+          { "text": "🐶 Wau-wau." }
+        ],
+        "explanation": "Super! Die Katze sagt Miau. Gut gemacht!"
+      }
+    }
+  ]
+}

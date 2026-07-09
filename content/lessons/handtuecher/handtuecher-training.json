@@ -1,0 +1,122 @@
+{
+  "topic_slug": "handtuecher",
+  "slug": "handtuecher-training",
+  "title": "Training: Handtücher",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Handtuch ist noch feucht. 💧 Darf es in den Schrank?",
+        "options": [
+          { "text": "Nein. Erst ganz trocknen lassen.", "correct": true },
+          { "text": "Ja, das macht nichts." },
+          { "text": "Ja, aber nur ganz unten." }
+        ],
+        "explanation": "Richtig! Feuchte Handtücher riechen schnell schlecht. Erst trocknen, dann in den Schrank. 💨"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "So rollst du ein Handtuch für den Wellnessbereich. 🌀 Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Das Handtuch glatt hinlegen." },
+          { "text": "Das Handtuch längs in der Mitte falten." },
+          { "text": "An einer kurzen Seite anfangen." },
+          { "text": "Das Handtuch fest aufrollen." },
+          { "text": "🌀 Die Rolle ins Regal legen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Schrank oder Wäsche? Sortiere die Handtücher.",
+        "buckets": [
+          { "id": "schrank", "label": "In den Schrank", "icon": "🗄️" },
+          { "id": "waesche", "label": "In die Wäsche", "icon": "🧺" }
+        ],
+        "items": [
+          { "text": "Frisch gewaschen und trocken", "bucket": "schrank" },
+          { "text": "Vom Gast benutzt", "bucket": "waesche" },
+          { "text": "Hat einen Fleck", "bucket": "waesche" },
+          { "text": "Frisch und schön gefaltet", "bucket": "schrank" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Groß oder klein? Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🛁 Großes Badetuch" }, "right": { "text": "Nach dem Duschen abtrocknen." } },
+          { "left": { "text": "✋ Kleines Handtuch" }, "right": { "text": "Die Hände abtrocknen." } },
+          { "left": { "text": "🧖 Gästehandtuch" }, "right": { "text": "Für den Gast im Bad." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du findest ein Loch im Handtuch. 🕳️ Was machst du?",
+        "options": [
+          { "text": "Ich lege es zur Seite und sage Bescheid.", "correct": true },
+          { "text": "Ich falte es und stelle es zum Gast." },
+          { "text": "Ich verstecke es ganz unten im Schrank." }
+        ],
+        "explanation": "Richtig! Kaputte Handtücher kommen zur Seite. Sag es der Lehrerin oder Chefin. 👍"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Handtücher kommen aus dem Trockner. 🌀 Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Die Handtücher aus dem Trockner holen." },
+          { "text": "Prüfen: Sind alle ganz trocken?" },
+          { "text": "Die Handtücher auf den Tisch legen." },
+          { "text": "Jedes Handtuch ordentlich falten." },
+          { "text": "🗄️ Die Handtücher in den Schrank räumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Im Gästezimmer schlafen 2 Gäste. Jeder bekommt 2 Handtücher. 🧮 Wie viele brauchst du?",
+        "options": [
+          { "text": "4 Handtücher.", "correct": true },
+          { "text": "2 Handtücher." },
+          { "text": "8 Handtücher." }
+        ],
+        "explanation": "Genau! 2 Gäste mal 2 Handtücher sind 4 Handtücher. 🧮"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Handtuch-Stapel im Schrank ist schief. 😅 Was machst du?",
+        "options": [
+          { "text": "Ich stapele ihn neu, schön gerade.", "correct": true },
+          { "text": "Ich mache schnell die Tür zu." },
+          { "text": "Ich lege noch mehr obendrauf." }
+        ],
+        "explanation": "Richtig! Ein gerader Stapel kippt nicht um. Und der Schrank sieht ordentlich aus. ✨"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Wie riecht ein frisch gewaschenes Handtuch?",
+        "options": [
+          { "text": "Frisch und sauber. 🌸", "correct": true },
+          { "text": "Nach Fisch." },
+          { "text": "Nach Benzin." }
+        ],
+        "explanation": "Super! Frisch gewaschen riecht es sauber. So mögen es die Gäste. 🌸"
+      }
+    }
+  ]
+}

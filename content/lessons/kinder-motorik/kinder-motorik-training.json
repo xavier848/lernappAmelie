@@ -1,0 +1,123 @@
+{
+  "topic_slug": "kinder-motorik",
+  "slug": "kinder-motorik-training",
+  "title": "Training: Bewegung",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏃 Was ist Grobmotorik?",
+        "options": [
+          { "text": "💪 Große Bewegungen mit dem ganzen Körper. Zum Beispiel rennen und klettern.", "correct": true },
+          { "text": "🤏 Ganz kleine Bewegungen mit den Fingern." },
+          { "text": "🍽️ Das Decken von einem Tisch." }
+        ],
+        "explanation": "Grobmotorik heißt: große Bewegungen. Der ganze Körper macht mit. Zum Beispiel rennen, klettern und hüpfen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏃🤏 Große Bewegung oder kleine Bewegung? Sortiere.",
+        "buckets": [
+          { "id": "grob", "label": "Grobmotorik", "icon": "🏃" },
+          { "id": "fein", "label": "Feinmotorik", "icon": "🤏" }
+        ],
+        "items": [
+          { "text": "Treppen steigen", "bucket": "grob" },
+          { "text": "Mit Knete kneten", "bucket": "fein" },
+          { "text": "Dreirad fahren", "bucket": "grob" },
+          { "text": "Papier falten", "bucket": "fein" },
+          { "text": "Ball werfen", "bucket": "grob" },
+          { "text": "Sticker aufkleben", "bucket": "fein" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🪜 Wie lernt ein Kind Treppen steigen? Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🐻 Das Kind krabbelt die Treppe hoch." },
+          { "text": "🤚 Das Kind geht mit Festhalten. Beide Füße auf eine Stufe." },
+          { "text": "🚶 Das Kind geht mit Festhalten. Ein Fuß pro Stufe." },
+          { "text": "🧍 Das Kind geht die Treppe frei. Ohne Festhalten." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "⚽ Was lernt ein Kind mit dem Ball zuerst? Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🎳 Den Ball rollen." },
+          { "text": "🤾 Den Ball werfen." },
+          { "text": "🦶 Den Ball kicken." },
+          { "text": "🙌 Den Ball fangen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎯 Was übt das Kind dabei? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🚲 Laufrad fahren" }, "right": { "text": "Das Gleichgewicht halten" } },
+          { "left": { "text": "🧗 Klettergerüst" }, "right": { "text": "Arme und Beine stark machen" } },
+          { "left": { "text": "🤲 Kneten" }, "right": { "text": "Hände und Finger üben" } },
+          { "left": { "text": "🥁 Trommeln" }, "right": { "text": "Beide Hände zusammen benutzen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖍️ Ein kleines Kind malt zum ersten Mal. Wie hält es den Stift?",
+        "options": [
+          { "text": "✊ Mit der ganzen Faust.", "correct": true },
+          { "text": "✍️ Mit drei Fingern, wie Erwachsene." },
+          { "text": "🦶 Mit den Zehen." }
+        ],
+        "explanation": "Kleine Kinder halten den Stift zuerst mit der Faust. Der Griff mit drei Fingern kommt erst später."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛝 Ein Kind klettert auf dem Spielplatz. Was machst du?",
+        "options": [
+          { "text": "👀 Ich bleibe in der Nähe und passe auf.", "correct": true },
+          { "text": "📱 Ich schaue nur auf mein Handy." },
+          { "text": "🏠 Ich gehe nach Hause." }
+        ],
+        "explanation": "Bleib in der Nähe. So kannst du helfen, wenn das Kind Hilfe braucht. Lass das Kind aber selbst probieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤸 Warum ist Toben und Bewegen wichtig für Kinder?",
+        "options": [
+          { "text": "💪 Bewegung macht den Körper stark und das Kind froh.", "correct": true },
+          { "text": "🛋️ Sitzen ist besser als Bewegen." },
+          { "text": "📺 Bewegung ist nur für Erwachsene." }
+        ],
+        "explanation": "Bewegung macht stark und froh. Kinder brauchen jeden Tag viel Bewegung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Womit kickst du einen Ball?",
+        "options": [
+          { "text": "🦶 Mit dem Fuß.", "correct": true },
+          { "text": "👂 Mit dem Ohr." },
+          { "text": "👃 Mit der Nase." }
+        ],
+        "explanation": "Super! Den Ball kickst du mit dem Fuß. Gut gemacht!"
+      }
+    }
+  ]
+}

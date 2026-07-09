@@ -1,0 +1,138 @@
+{
+  "topic_slug": "kinder-alltag",
+  "slug": "kinder-alltag-training",
+  "title": "Training: Der Kita-Alltag",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🪥 Zähne putzen mit Kindern. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪥 Die Zahnbürste nass machen." },
+          { "text": "🧴 Wenig Zahnpasta auf die Bürste geben." },
+          { "text": "😬 Erst die Kauflächen putzen." },
+          { "text": "😁 Dann außen putzen." },
+          { "text": "👅 Dann innen putzen." },
+          { "text": "💧 Den Mund ausspülen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Wie lange putzen Kinder ihre Zähne?",
+        "options": [
+          { "text": "🎵 Etwa 2 bis 3 Minuten", "correct": true },
+          { "text": "⚡ 5 Sekunden reichen" },
+          { "text": "🕐 Eine ganze Stunde" }
+        ],
+        "explanation": "Richtig! 2 bis 3 Minuten putzen. Tipp: Ein Zahnputzlied hilft. Wenn das Lied fertig ist, sind die Zähne sauber."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧥 Anziehen für den Winter. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "👖 Die Schneehose anziehen." },
+          { "text": "🥾 Die Stiefel anziehen." },
+          { "text": "🧥 Die Jacke anziehen." },
+          { "text": "🧢 Die Mütze aufsetzen." },
+          { "text": "🧤 Zum Schluss die Handschuhe anziehen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚸 Ihr wollt über die Straße gehen. Was machst du mit den Kindern?",
+        "options": [
+          { "text": "🛑 Am Bordstein anhalten. Links, rechts, links schauen.", "correct": true },
+          { "text": "🏃 Schnell über die Straße rennen." },
+          { "text": "📱 Beim Gehen auf das Handy schauen." }
+        ],
+        "explanation": "Genau! Erst anhalten. Dann gut schauen: links, rechts und wieder links. Erst wenn alles frei ist, gehen wir los."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧹 Aufräum-Zeit! Wohin gehören die Sachen? Sortiere.",
+        "buckets": [
+          { "id": "regal", "label": "Bücherregal", "icon": "📚" },
+          { "id": "kiste", "label": "Spielzeugkiste", "icon": "🧸" },
+          { "id": "maltisch", "label": "Maltisch", "icon": "🎨" }
+        ],
+        "items": [
+          { "text": "📖 Bilderbuch", "bucket": "regal" },
+          { "text": "📕 Vorlesebuch", "bucket": "regal" },
+          { "text": "🧱 Bauklötze", "bucket": "kiste" },
+          { "text": "🪆 Puppe", "bucket": "kiste" },
+          { "text": "🖍️ Buntstifte", "bucket": "maltisch" },
+          { "text": "📄 Malpapier", "bucket": "maltisch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😴 Nach dem Mittagessen ist Ruhezeit. Warum ist die Pause wichtig?",
+        "options": [
+          { "text": "🔋 Die Kinder tanken neue Kraft. Ausruhen ist gesund.", "correct": true },
+          { "text": "📺 Damit die Kinder fernsehen können." },
+          { "text": "🙄 Die Pause ist gar nicht wichtig." }
+        ],
+        "explanation": "Richtig! Spielen macht müde. In der Ruhezeit erholen sich die Kinder. Danach haben sie wieder Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Die Kinder essen zu Mittag. Was machst du?",
+        "options": [
+          { "text": "🪑 Ich sitze mit am Tisch. Wir essen in Ruhe zusammen.", "correct": true },
+          { "text": "🏃 Ich laufe im Raum herum." },
+          { "text": "📱 Ich schaue die ganze Zeit auf mein Handy." }
+        ],
+        "explanation": "Genau! Du bist ein Vorbild. Du sitzt ruhig am Tisch. So lernen die Kinder: Essen ist gemütlich."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Was gehört zusammen? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🪥 Zahnbürste" }, "right": { "text": "Zähne putzen" } },
+          { "left": { "text": "🧻 Taschentuch" }, "right": { "text": "Nase putzen" } },
+          { "left": { "text": "🦺 Warnweste" }, "right": { "text": "Gut gesehen werden" } },
+          { "left": { "text": "🧸 Spielzeugkiste" }, "right": { "text": "Aufräumen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚶 Ihr macht einen Ausflug mit der Gruppe. Was ist wichtig?",
+        "options": [
+          { "text": "🤝 Alle bleiben zusammen. Jedes Kind hat einen Partner an der Hand.", "correct": true },
+          { "text": "🏃 Jedes Kind rennt, wohin es will." },
+          { "text": "🙈 Wir zählen die Kinder nicht." }
+        ],
+        "explanation": "Richtig! Beim Ausflug bleiben alle zusammen. Die Kinder gehen paarweise. Und wir zählen oft nach: Sind alle da?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪥 Wann putzen die Kinder ihre Zähne?",
+        "options": [
+          { "text": "🍽️ Nach dem Essen", "correct": true },
+          { "text": "🙅 Nie" }
+        ],
+        "explanation": "Super! Nach dem Essen werden die Zähne geputzt. Das machst du prima!"
+      }
+    }
+  ]
+}

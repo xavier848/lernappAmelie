@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-gefuehle",
+  "slug": "kinder-gefuehle-training",
+  "title": "Training: Gefühle",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💡 Ein Kind fühlt etwas. Was hilft ihm? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "😢 Traurig" }, "right": { "text": "🤗 In den Arm nehmen" } },
+          { "left": { "text": "😨 Ängstlich" }, "right": { "text": "✋ Dabei bleiben und Halt geben" } },
+          { "left": { "text": "😄 Fröhlich" }, "right": { "text": "🎉 Sich mitfreuen" } },
+          { "left": { "text": "😴 Müde" }, "right": { "text": "🛏️ Ausruhen lassen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Ein Kind malt ein Bild fertig. Es strahlt und zeigt dir das Bild. Was fühlt es?",
+        "options": [
+          { "text": "🌟 Es ist stolz.", "correct": true },
+          { "text": "😢 Es ist traurig." },
+          { "text": "😨 Es hat Angst." }
+        ],
+        "explanation": "Richtig! Das Kind ist stolz. Es hat etwas geschafft. Sag: Toll gemacht! Das macht das Kind stark."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "😢 Ein Kind sitzt allein in der Ecke und weint. Wie hilfst du? Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🚶 Ruhig zum Kind gehen." },
+          { "text": "🧎 In die Hocke gehen. So bist du auf Augenhöhe." },
+          { "text": "💬 Freundlich fragen: Was ist los?" },
+          { "text": "🤗 Das Kind trösten." },
+          { "text": "💡 Zusammen eine Idee suchen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎒 Ein Kind ist neu in der Kita. Es versteckt sich hinter Mama und schaut auf den Boden. Was fühlt das Kind?",
+        "options": [
+          { "text": "😟 Es ist unsicher. Alles ist neu.", "correct": true },
+          { "text": "😄 Es will sofort laut toben." },
+          { "text": "🍽️ Es hat nur Hunger." }
+        ],
+        "explanation": "Richtig! Alles ist neu und fremd. Das macht unsicher. Gib dem Kind Zeit. Bleib in seiner Nähe."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💛 Was tut Kindern gut? Was tut ihnen nicht gut? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Tut gut", "icon": "💚" },
+          { "id": "nicht-gut", "label": "Tut nicht gut", "icon": "💔" }
+        ],
+        "items": [
+          { "text": "👂 Gut zuhören.", "bucket": "gut" },
+          { "text": "🌟 Das Kind loben.", "bucket": "gut" },
+          { "text": "⏳ Dem Kind Zeit geben.", "bucket": "gut" },
+          { "text": "😂 Das Kind auslachen.", "bucket": "nicht-gut" },
+          { "text": "🚪 Das Kind wegschicken.", "bucket": "nicht-gut" },
+          { "text": "💬 Böse Worte sagen.", "bucket": "nicht-gut" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👶 Ein Baby ist neu in der Familie. Das große Kind ist oft sauer und will auf den Schoß. Was fühlt es?",
+        "options": [
+          { "text": "💛 Es ist eifersüchtig. Es will auch Aufmerksamkeit.", "correct": true },
+          { "text": "😄 Es freut sich die ganze Zeit." },
+          { "text": "🤒 Es ist bestimmt krank." }
+        ],
+        "explanation": "Richtig! Das große Kind ist eifersüchtig. Das ist normal. Extra Zeit nur für das große Kind hilft."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪣 Zwei Kinder streiten um eine Schaufel im Sandkasten. Was machst du zuerst?",
+        "options": [
+          { "text": "👂 Ich höre beide Kinder in Ruhe an.", "correct": true },
+          { "text": "🗑️ Ich nehme die Schaufel weg und schimpfe." },
+          { "text": "🏃 Ich gehe einfach weg." }
+        ],
+        "explanation": "Genau! Erst hörst du beiden Kindern zu. Du sagst: Ihr seid beide wütend. Dann findet ihr zusammen eine Lösung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧘 Du bist bei der Arbeit selbst einmal wütend. Was hilft dir?",
+        "options": [
+          { "text": "🌬️ Tief durchatmen und langsam bis 10 zählen.", "correct": true },
+          { "text": "📣 Die Kinder anschreien." },
+          { "text": "🚪 Einfach weglaufen." }
+        ],
+        "explanation": "Super! Tief atmen macht ruhig. Du bist ein Vorbild. Die Kinder lernen das von dir."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Ein Kind bekommt ein Geschenk 🎁. Es lacht laut. Was fühlt es?",
+        "options": [
+          { "text": "😄 Freude.", "correct": true },
+          { "text": "😢 Trauer." },
+          { "text": "😠 Wut." }
+        ],
+        "explanation": "Super gemacht! Das Kind freut sich riesig über das Geschenk."
+      }
+    }
+  ]
+}

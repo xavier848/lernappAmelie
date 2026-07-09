@@ -1,0 +1,124 @@
+{
+  "topic_slug": "wohnzimmer",
+  "slug": "wohnzimmer-training",
+  "title": "Training: Wohnzimmer",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Auf dem Couchtisch steht eine schmutzige Tasse. Wohin damit?",
+        "options": [
+          { "text": "Ich bringe sie in die Küche.", "correct": true },
+          { "text": "Ich stelle sie unter das Sofa." },
+          { "text": "Ich verstecke sie im Regal." }
+        ],
+        "explanation": "Schmutziges Geschirr gehört in die Küche. Dort wird es gespült."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛋️ Den Couchtisch sauber machen: Ordne die Schritte.",
+        "steps": [
+          { "text": "☕ Geschirr in die Küche bringen." },
+          { "text": "📰 Zeitungen ins Altpapier legen." },
+          { "text": "🧽 Tisch feucht abwischen." },
+          { "text": "✨ Tisch trocken nachwischen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧹 Aufräumen: Wohin gehören die Sachen?",
+        "buckets": [
+          { "id": "kueche", "label": "In die Küche", "icon": "🍽️" },
+          { "id": "regal", "label": "Ins Regal", "icon": "📚" },
+          { "id": "muell", "label": "In den Müll", "icon": "🗑️" }
+        ],
+        "items": [
+          { "text": "☕ Schmutzige Tasse", "bucket": "kueche" },
+          { "text": "🍪 Teller mit Krümeln", "bucket": "kueche" },
+          { "text": "📖 Buch", "bucket": "regal" },
+          { "text": "🎲 Spiel", "bucket": "regal" },
+          { "text": "🍟 Leere Chipstüte", "bucket": "muell" },
+          { "text": "🤧 Benutztes Taschentuch", "bucket": "muell" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📺 Womit putzt du den Fernseher?",
+        "options": [
+          { "text": "Mit einem trockenen, weichen Tuch.", "correct": true },
+          { "text": "Mit viel Wasser." },
+          { "text": "Mit WC-Reiniger." }
+        ],
+        "explanation": "Der Bildschirm ist empfindlich. Wasser kann ihn kaputt machen. Ein trockenes, weiches Tuch reicht."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧹 Richtig staubsaugen: Ordne die Schritte.",
+        "steps": [
+          { "text": "🧸 Kleine Dinge vom Boden aufheben." },
+          { "text": "🔌 Stecker in die Steckdose stecken." },
+          { "text": "🧹 Boden saugen, auch unter dem Couchtisch." },
+          { "text": "🚪 Staubsauger wieder wegräumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Der Staubsauger geht nicht an. Was prüfst du zuerst?",
+        "options": [
+          { "text": "Steckt der Stecker in der Steckdose?", "correct": true },
+          { "text": "Ich werfe den Staubsauger weg." },
+          { "text": "Ich sauge einfach ohne Strom weiter." }
+        ],
+        "explanation": "Erst den Stecker prüfen! Oft ist er nur nicht eingesteckt. Das kannst du ganz leicht selbst lösen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧡 Pflege im Wohnzimmer: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "📺 Fernseher" }, "right": { "text": "Trockenes Tuch" } },
+          { "left": { "text": "🪴 Pflanze" }, "right": { "text": "Wasser gießen" } },
+          { "left": { "text": "🛋️ Sofakissen" }, "right": { "text": "Aufschütteln" } },
+          { "left": { "text": "🧶 Kuscheldecke" }, "right": { "text": "Zusammenlegen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪴 Die Blätter der Pflanze sind staubig. Was machst du?",
+        "options": [
+          { "text": "Ich wische die Blätter vorsichtig mit einem weichen Tuch ab.", "correct": true },
+          { "text": "Ich schneide alle Blätter ab." },
+          { "text": "Ich stelle die Pflanze in den Schrank." }
+        ],
+        "explanation": "Blätter vorsichtig abwischen. Dann kann die Pflanze wieder gut atmen und sieht schön aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛋️ Letzte Frage, ganz leicht: Alles ist sauber! Was legst du schön auf das Sofa?",
+        "options": [
+          { "text": "Die Kissen und die Kuscheldecke.", "correct": true },
+          { "text": "Den nassen Lappen." },
+          { "text": "Den Staubsauger." }
+        ],
+        "explanation": "Genau! Kissen aufschütteln, Decke zusammenlegen. Das Wohnzimmer ist fertig. Super Arbeit! 🎉"
+      }
+    }
+  ]
+}

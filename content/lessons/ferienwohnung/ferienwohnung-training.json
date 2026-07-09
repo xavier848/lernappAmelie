@@ -1,0 +1,124 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-training",
+  "title": "Training: Ferienwohnung",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛏️ Neue Gäste kommen. Beziehe das Bett frisch. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🛏️ Alte Bettwäsche abziehen." },
+          { "text": "👜 Alte Wäsche in den Wäschesack legen." },
+          { "text": "📄 Frisches Laken aufziehen." },
+          { "text": "🛌 Decke frisch beziehen." },
+          { "text": "🤍 Kissen frisch beziehen." },
+          { "text": "✨ Bett glatt streichen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📱 Du putzt und findest ein Handy unter dem Bett. Ein Gast hat es vergessen. Was machst du?",
+        "options": [
+          { "text": "Ich gebe es sofort bei meiner Chefin ab.", "correct": true },
+          { "text": "Ich behalte es für mich." },
+          { "text": "Ich lasse es einfach liegen." }
+        ],
+        "explanation": "Fundsachen gibst du immer ab. So bekommt der Gast sein Handy zurück."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Die Lampe im Schlafzimmer ist kaputt. Was machst du?",
+        "options": [
+          { "text": "Ich melde es meiner Chefin.", "correct": true },
+          { "text": "Ich sage einfach nichts." },
+          { "text": "Ich repariere sie selbst am Strom." }
+        ],
+        "explanation": "Kaputte Sachen meldest du immer. Strom ist gefährlich. Das repariert ein Profi."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Die Gäste sind abgereist. Was kommt in den Wäschesack? Was bleibt in der Wohnung?",
+        "buckets": [
+          { "id": "sack", "label": "In den Wäschesack", "icon": "🧺" },
+          { "id": "bleibt", "label": "Bleibt in der Wohnung", "icon": "🏠" }
+        ],
+        "items": [
+          { "text": "🛏️ Benutzte Bettwäsche", "bucket": "sack" },
+          { "text": "🤍 Benutzte Handtücher", "bucket": "sack" },
+          { "text": "🥻 Nasser Bademantel", "bucket": "sack" },
+          { "text": "📺 Fernbedienung", "bucket": "bleibt" },
+          { "text": "💨 Föhn", "bucket": "bleibt" },
+          { "text": "☕ Kaffeemaschine", "bucket": "bleibt" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🚪 Jeder Raum hat seine Aufgabe. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🛁 Bad" }, "right": { "text": "Frische Handtücher aufhängen" } },
+          { "left": { "text": "🛏️ Schlafzimmer" }, "right": { "text": "Bett frisch beziehen" } },
+          { "left": { "text": "🍳 Küche" }, "right": { "text": "Geschirr kontrollieren" } },
+          { "left": { "text": "🛋️ Wohnzimmer" }, "right": { "text": "Kissen aufschütteln" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Das Toilettenpapier ist fast leer. Bald kommen neue Gäste. Was machst du?",
+        "options": [
+          { "text": "Ich stelle neue Rollen ins Bad.", "correct": true },
+          { "text": "Ich lasse es so." },
+          { "text": "Ich nehme die letzte Rolle mit." }
+        ],
+        "explanation": "Die neuen Gäste sollen alles haben. Fülle Toilettenpapier immer auf."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛁 Frische Handtücher für die Gäste. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🤍 Benutzte Handtücher abnehmen." },
+          { "text": "👜 In den Wäschesack legen." },
+          { "text": "🧽 Handtuch-Halter abwischen." },
+          { "text": "✨ Frische Handtücher aufhängen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Du hast eine Checkliste für die Wohnung. Wofür ist sie gut?",
+        "options": [
+          { "text": "Ich hake alles Fertige ab. So vergesse ich nichts.", "correct": true },
+          { "text": "Sie ist nur zur Dekoration." },
+          { "text": "Ich falte daraus ein Flugzeug." }
+        ],
+        "explanation": "Eine Checkliste hilft dir. Abhaken macht Spaß und du vergisst nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Wohin kommen die benutzten Handtücher?",
+        "options": [
+          { "text": "In den Wäschesack.", "correct": true },
+          { "text": "Zurück an den Haken." }
+        ],
+        "explanation": "Richtig! Benutzte Handtücher kommen in die Wäsche. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

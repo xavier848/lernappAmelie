@@ -1,0 +1,118 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-training",
+  "title": "Training: Geld rechnen",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💵 Zeit zum Üben! Welcher Schein ist das?",
+        "mode": "recognize",
+        "moneyImage": "500",
+        "options": [
+          { "text": "5 Euro", "correct": true },
+          { "text": "50 Euro" },
+          { "text": "5 Cent" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Der Apfel kostet 1,50 €. Die Banane kostet 0,80 €. Wie viel kostet beides zusammen?",
+        "options": [
+          { "text": "2,30 €", "correct": true },
+          { "text": "2,50 €" },
+          { "text": "1,30 €" }
+        ],
+        "explanation": "Super! 1,50 € plus 0,80 € sind 2,30 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Bezahle den Apfel und die Banane. Lege 2,30 € hin.",
+        "mode": "assemble",
+        "target": 230
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "📓 Das Heft kostet 2,60 €. Der Kunde gibt dir 5 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 260,
+        "given": 500
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✏️ Du hast 10 €. Die Stifte kosten 3,20 €. Der Block kostet 2,80 €. Wie viel Geld bleibt dir?",
+        "options": [
+          { "text": "4 €", "correct": true },
+          { "text": "5 €" },
+          { "text": "3 €" }
+        ],
+        "explanation": "Stark! 3,20 € plus 2,80 € sind 6 €. 10 € minus 6 € sind 4 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Bezahle die Stifte und den Block. Lege 6 € hin.",
+        "mode": "assemble",
+        "target": 600
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Rechne zusammen. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "2 € + 2 €" }, "right": { "text": "4 €" } },
+          { "left": { "text": "5 € + 1 €" }, "right": { "text": "6 €" } },
+          { "left": { "text": "10 € + 5 €" }, "right": { "text": "15 €" } },
+          { "left": { "text": "20 € + 10 €" }, "right": { "text": "30 €" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💌 Die Postkarte kostet 0,90 €. Der Kunde gibt dir 2 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 90,
+        "given": 200
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👛 Du hast 5 € dabei. Reicht dein Geld? Sortiere.",
+        "buckets": [
+          { "id": "reicht", "label": "Das Geld reicht", "icon": "✅" },
+          { "id": "reicht-nicht", "label": "Das Geld reicht nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "🍦 Eis für 2 €", "bucket": "reicht" },
+          { "text": "📖 Buch für 8 €", "bucket": "reicht-nicht" },
+          { "text": "🥤 Limo für 3 €", "bucket": "reicht" },
+          { "text": "🎧 Kopfhörer für 15 €", "bucket": "reicht-nicht" },
+          { "text": "🍏 Apfel für 1 €", "bucket": "reicht" },
+          { "text": "🖼️ Poster für 6 €", "bucket": "reicht-nicht" }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Geschafft! Zum Schluss ganz einfach. Lege 50 Cent hin.",
+        "mode": "assemble",
+        "target": 50
+      }
+    }
+  ]
+}

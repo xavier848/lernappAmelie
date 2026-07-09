@@ -1,0 +1,135 @@
+{
+  "topic_slug": "kinder-foerdern",
+  "slug": "kinder-foerdern-training",
+  "title": "Training: Spielen und Fördern",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎲 Kinder spielen ein Brettspiel mit Würfel. Was wird hauptsächlich gefördert?",
+        "options": [
+          { "text": "📏 Regeln verstehen, warten können und verlieren lernen", "correct": true },
+          { "text": "🏋️ Muskelkraft in den Armen" },
+          { "text": "🚗 Auto fahren" }
+        ],
+        "explanation": "Richtig! Bei einem Brettspiel gibt es Regeln. Jeder wartet, bis er dran ist. Und manchmal verliert man. Auch das muss man lernen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Ein Kind pflanzt Samen ein und gießt jeden Tag die Blume. Was wird hauptsächlich gefördert?",
+        "options": [
+          { "text": "💚 Verantwortung und Wissen über die Natur", "correct": true },
+          { "text": "🎵 Rhythmusgefühl" },
+          { "text": "⚽ Ballgefühl" }
+        ],
+        "explanation": "Genau! Das Kind kümmert sich jeden Tag um die Pflanze. Das ist Verantwortung. Und es sieht: So wächst eine Blume."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙈 Kinder spielen Verstecken. Was wird hauptsächlich gefördert?",
+        "options": [
+          { "text": "🔢 Zählen, warten und sich im Raum orientieren", "correct": true },
+          { "text": "✏️ Schön schreiben" },
+          { "text": "🍽️ Tisch decken" }
+        ],
+        "explanation": "Richtig! Ein Kind zählt laut. Die anderen suchen ein gutes Versteck. Dabei üben sie Zählen, Warten und Orientierung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦘 Ein Kind hüpft auf dem Trampolin. Was wird hauptsächlich gefördert?",
+        "options": [
+          { "text": "💪 Sprungkraft und Ausdauer", "correct": true },
+          { "text": "📖 Wortschatz" },
+          { "text": "🤏 Pinzettengriff" }
+        ],
+        "explanation": "Genau! Hüpfen macht die Beine stark. Das Kind kommt außer Atem. So übt es die Ausdauer."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌻 Du pflanzt mit einem Kind eine Blume. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪴 Den Topf mit Erde füllen." },
+          { "text": "👉 Ein kleines Loch in die Erde drücken." },
+          { "text": "🌱 Den Samen in das Loch legen." },
+          { "text": "🤲 Das Loch mit Erde zudecken." },
+          { "text": "💧 Vorsichtig gießen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧠 Sortiere: Was fördert vor allem den Körper? Was fördert vor allem den Kopf?",
+        "buckets": [
+          { "id": "koerper", "label": "Körper", "icon": "💪" },
+          { "id": "kopf", "label": "Kopf", "icon": "🧠" }
+        ],
+        "items": [
+          { "text": "🪢 Seilspringen", "bucket": "koerper" },
+          { "text": "🦘 Trampolin springen", "bucket": "koerper" },
+          { "text": "🏃 Fangen spielen", "bucket": "koerper" },
+          { "text": "🎲 Brettspiel spielen", "bucket": "kopf" },
+          { "text": "🃏 Memory-Karten spielen", "bucket": "kopf" },
+          { "text": "❓ Rätsel raten", "bucket": "kopf" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Warum sind Regeln bei Spielen wichtig?",
+        "options": [
+          { "text": "🤝 Alle wissen, was gilt. So ist das Spiel fair.", "correct": true },
+          { "text": "😠 Damit Erwachsene schimpfen können." },
+          { "text": "🐌 Damit das Spiel langweilig wird." }
+        ],
+        "explanation": "Richtig! Regeln machen das Spiel fair. Jedes Kind weiß: So geht es. Das gibt Sicherheit."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Ein Memory für dich! Finde die versteckten Paare.",
+        "pairs": [
+          { "left": { "text": "🎲 Brettspiel" }, "right": { "text": "📏 Regeln lernen" } },
+          { "left": { "text": "🌱 Gärtnern" }, "right": { "text": "💚 Verantwortung" } },
+          { "left": { "text": "🙈 Verstecken" }, "right": { "text": "🔢 Zählen" } },
+          { "left": { "text": "🦘 Trampolin" }, "right": { "text": "💪 Ausdauer" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌳 Ein Kind sammelt draußen Blätter und Kastanien. Was wird hauptsächlich gefördert?",
+        "options": [
+          { "text": "🔍 Genau hinschauen und die Natur entdecken", "correct": true },
+          { "text": "📺 Fernsehen" },
+          { "text": "🛌 Schlafen" }
+        ],
+        "explanation": "Genau! Das Kind schaut genau hin: Welches Blatt ist das? Es entdeckt die Natur. Sammeln macht neugierig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌞 Draußen spielen an der frischen Luft – ist das gut für Kinder?",
+        "options": [
+          { "text": "😊 Ja! Bewegung und frische Luft machen fit und froh.", "correct": true },
+          { "text": "🙅 Nein, Kinder sollen immer drinnen bleiben." }
+        ],
+        "explanation": "Super! Draußen können Kinder rennen, klettern und entdecken. Das tut Körper und Kopf gut. Das weißt du!"
+      }
+    }
+  ]
+}

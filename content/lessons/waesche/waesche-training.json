@@ -1,0 +1,131 @@
+{
+  "topic_slug": "waesche",
+  "slug": "waesche-training",
+  "title": "Training: Wäsche",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍅 Auf deinem T-Shirt ist ein Tomaten-Fleck. Was machst du?",
+        "options": [
+          { "text": "Ich wasche es bald. Alte Flecken gehen schwer raus.", "correct": true },
+          { "text": "Ich lege es mit Fleck in den Schrank." },
+          { "text": "Ich schneide das Stück mit dem Fleck heraus." }
+        ],
+        "explanation": "Frische Flecken gehen leichter raus. Warte nicht zu lange mit dem Waschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Wie viel Waschmittel füllst du ein?",
+        "options": [
+          { "text": "So viel, wie auf der Packung steht.", "correct": true },
+          { "text": "Die ganze Flasche auf einmal." },
+          { "text": "Gar keins. Wasser reicht." }
+        ],
+        "explanation": "Auf der Packung steht die richtige Menge. Zu viel schäumt. Zu wenig wäscht nicht sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Die Trommel ist schon ganz voll gestopft. Passt noch mehr hinein?",
+        "options": [
+          { "text": "Nein. In einer zu vollen Maschine wird die Wäsche nicht sauber.", "correct": true },
+          { "text": "Ja, ich drücke einfach fest nach." },
+          { "text": "Ja, ich stopfe mit dem Fuß nach." }
+        ],
+        "explanation": "Die Wäsche braucht Platz in der Trommel. Sonst wird sie nicht richtig sauber."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌬️ Die Wäsche ist fertig gewaschen. Häng sie auf! Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧍 Wäscheständer aufstellen." },
+          { "text": "🧺 Nasse Wäsche aus der Maschine holen." },
+          { "text": "💨 Jedes Teil kurz ausschütteln." },
+          { "text": "🧷 Wäsche glatt aufhängen." },
+          { "text": "⏳ Trocknen lassen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💨 Warum schüttelst du jedes Teil vor dem Aufhängen aus?",
+        "options": [
+          { "text": "So gibt es weniger Falten.", "correct": true },
+          { "text": "Damit es wieder nass wird." },
+          { "text": "Nur zum Spaß." }
+        ],
+        "explanation": "Ausschütteln glättet die Wäsche. Später musst du weniger bügeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Die Wäsche ist aus der Maschine. Was machst du mit der Maschinen-Tür?",
+        "options": [
+          { "text": "Ich lasse sie offen stehen.", "correct": true },
+          { "text": "Ich mache sie sofort fest zu." },
+          { "text": "Ich hänge ein Handtuch hinein." }
+        ],
+        "explanation": "Offen kann die Maschine innen trocknen. So riecht sie nicht schlecht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👔 Die Wäsche ist trocken. Was kommt auf den Bügel? Was legst du zusammen?",
+        "buckets": [
+          { "id": "buegel", "label": "Auf den Bügel", "icon": "👔" },
+          { "id": "legen", "label": "Zusammenlegen", "icon": "🗄️" }
+        ],
+        "items": [
+          { "text": "👔 Hemd", "bucket": "buegel" },
+          { "text": "👗 Kleid", "bucket": "buegel" },
+          { "text": "🧥 Blazer", "bucket": "buegel" },
+          { "text": "👕 T-Shirt", "bucket": "legen" },
+          { "text": "🧦 Socken", "bucket": "legen" },
+          { "text": "🤍 Handtuch", "bucket": "legen" }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🪙 Im Wasch-Salon kostet der Trockner 2,50 €. Lege das Geld passend hin.",
+        "mode": "assemble",
+        "target": 250
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Was gehört zusammen? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧷 Wäscheklammer" }, "right": { "text": "Hält die Wäsche an der Leine" } },
+          { "left": { "text": "🧺 Wäschekorb" }, "right": { "text": "Sammelt die schmutzige Wäsche" } },
+          { "left": { "text": "👔 Kleiderbügel" }, "right": { "text": "Hemden aufhängen" } },
+          { "left": { "text": "🧴 Waschmittel" }, "right": { "text": "Macht die Wäsche sauber" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧦 Zwei gleiche Socken sind trocken. Was machst du?",
+        "options": [
+          { "text": "Ich lege sie als Paar zusammen.", "correct": true },
+          { "text": "Ich werfe eine davon weg." }
+        ],
+        "explanation": "Genau! Gleiche Socken werden ein Paar. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

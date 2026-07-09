@@ -1,0 +1,122 @@
+{
+  "topic_slug": "servietten",
+  "slug": "servietten-training",
+  "title": "Training: Servietten",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst gleich Servietten falten. 🧼 Was machst du vorher?",
+        "options": [
+          { "text": "Ich wasche mir die Hände.", "correct": true },
+          { "text": "Ich esse ein Butterbrot." },
+          { "text": "Ich ziehe Gartenhandschuhe an." }
+        ],
+        "explanation": "Richtig! Erst Hände waschen. So bleiben die Servietten sauber. 🧼"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "So rollst du die Kerze. 🕯️ Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🍽️ Die Serviette glatt hinlegen." },
+          { "text": "Die Serviette zum Dreieck falten." },
+          { "text": "An einer Ecke anfangen." },
+          { "text": "Die Serviette eng aufrollen." },
+          { "text": "🕯️ Die Rolle auf den Teller stellen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Papier oder Stoff? Sortiere: Welche Serviette passt zu welchem Anlass?",
+        "buckets": [
+          { "id": "papier", "label": "Papierserviette", "icon": "🧻" },
+          { "id": "stoff", "label": "Stoffserviette", "icon": "🧵" }
+        ],
+        "items": [
+          { "text": "🧺 Picknick im Park", "bucket": "papier" },
+          { "text": "🎈 Kindergeburtstag", "bucket": "papier" },
+          { "text": "💍 Hochzeitsessen", "bucket": "stoff" },
+          { "text": "🎄 Festliches Weihnachtsessen", "bucket": "stoff" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Serviette und was du mit ihr machst.",
+        "pairs": [
+          { "left": { "text": "🧻 Papierserviette" }, "right": { "text": "Nach dem Essen wegwerfen." } },
+          { "left": { "text": "🧵 Stoffserviette" }, "right": { "text": "Waschen und wieder benutzen." } },
+          { "left": { "text": "🧺 Zerknitterte Stoffserviette" }, "right": { "text": "Erst bügeln, dann falten." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Eine Serviette hat einen Fleck. 😮 Was machst du?",
+        "options": [
+          { "text": "Ich nehme eine saubere Serviette.", "correct": true },
+          { "text": "Ich falte sie trotzdem." },
+          { "text": "Ich lege den Fleck nach unten." }
+        ],
+        "explanation": "Richtig! Auf den Tisch kommen nur saubere Servietten. Die fleckige kommt in die Wäsche. 🧺"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Gäste kommen zum Essen. 🍽️ So machst du die Servietten fertig. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧼 Die Hände waschen." },
+          { "text": "Saubere Servietten holen." },
+          { "text": "Jede Serviette schön falten." },
+          { "text": "Auf jeden Teller eine Serviette legen." },
+          { "text": "✨ Den Tisch noch einmal anschauen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Heute kommen 4 Gäste. 🍽️ Wie viele Servietten faltest du?",
+        "options": [
+          { "text": "4 Servietten.", "correct": true },
+          { "text": "2 Servietten." },
+          { "text": "12 Servietten." }
+        ],
+        "explanation": "Genau! Jeder Gast bekommt eine Serviette. 4 Gäste brauchen 4 Servietten. 😊"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Bischofsmütze ist fertig gefaltet. 👑 Wohin stellst du sie?",
+        "options": [
+          { "text": "Auf den Teller.", "correct": true },
+          { "text": "Unter den Tisch." },
+          { "text": "In die Spülmaschine." }
+        ],
+        "explanation": "Richtig! Die Bischofsmütze steht auf dem Teller. Da sieht jeder Gast sie sofort. 👑"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Aus was ist eine Stoffserviette gemacht?",
+        "options": [
+          { "text": "Aus Stoff. 🧵", "correct": true },
+          { "text": "Aus Holz." },
+          { "text": "Aus Glas." }
+        ],
+        "explanation": "Super! Eine Stoffserviette ist aus Stoff. Deshalb kann man sie waschen. 🧵"
+      }
+    }
+  ]
+}

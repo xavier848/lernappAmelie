@@ -1,0 +1,125 @@
+{
+  "topic_slug": "kinder-sinne",
+  "slug": "kinder-sinne-training",
+  "title": "Training: Sinne",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🦶 Ihr baut einen Barfuß-Pfad. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Sand, Steine und Moos sammeln." },
+          { "text": "📦 Alles in flache Kisten füllen." },
+          { "text": "➡️ Die Kisten in eine Reihe stellen." },
+          { "text": "🧦 Das Kind zieht Schuhe und Socken aus." },
+          { "text": "🚶 Das Kind geht langsam über den Pfad." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦶 Das Kind geht über den Barfuß-Pfad. Welchen Sinn übt es?",
+        "options": [
+          { "text": "🖐️ Das Tasten. Die Füße fühlen den Boden.", "correct": true },
+          { "text": "👅 Das Schmecken." },
+          { "text": "👂 Das Hören." }
+        ],
+        "explanation": "Richtig! Die Fußsohlen fühlen den Boden: weich, hart, kühl. Das übt das Tasten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛝 Ein Kind schaukelt auf der Schaukel. Was übt es dabei?",
+        "options": [
+          { "text": "🤸 Das Gleichgewicht.", "correct": true },
+          { "text": "👃 Das Riechen." },
+          { "text": "👅 Das Schmecken." }
+        ],
+        "explanation": "Richtig! Beim Schaukeln spürt der Körper die Bewegung. Das übt das Gleichgewicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Welcher Sinn passt? Sortiere die Spiele.",
+        "buckets": [
+          { "id": "sehen", "label": "Sehen", "icon": "👀" },
+          { "id": "riechen", "label": "Riechen", "icon": "👃" },
+          { "id": "hoeren", "label": "Hören", "icon": "👂" }
+        ],
+        "items": [
+          { "text": "🔍 Ein Wimmelbuch anschauen", "bucket": "sehen" },
+          { "text": "🦋 Einen Schmetterling beobachten", "bucket": "sehen" },
+          { "text": "🌹 An einer Blume riechen", "bucket": "riechen" },
+          { "text": "🍞 Frisches Brot riechen", "bucket": "riechen" },
+          { "text": "🥁 Auf der Trommel spielen", "bucket": "hoeren" },
+          { "text": "🌧️ Dem Regen zuhören", "bucket": "hoeren" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Wie schmeckt das? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍯 Honig" }, "right": { "text": "Süß" } },
+          { "left": { "text": "🥒 Essig-Gurke" }, "right": { "text": "Sauer" } },
+          { "left": { "text": "🍟 Pommes" }, "right": { "text": "Salzig" } },
+          { "left": { "text": "☕ Kaffee" }, "right": { "text": "Bitter" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤫 Stille-Spiel: Alle Kinder schließen die Augen und lauschen. Welchen Sinn üben sie?",
+        "options": [
+          { "text": "👂 Das Hören.", "correct": true },
+          { "text": "👅 Das Schmecken." },
+          { "text": "🖐️ Das Tasten." }
+        ],
+        "explanation": "Richtig! Beim Lauschen üben die Kinder das Hören. Vielleicht hören sie eine Uhr. Oder Autos draußen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙈 Beim Fühl-Spiel macht das Kind die Augen zu. Warum?",
+        "options": [
+          { "text": "🖐️ Ohne Sehen fühlt die Hand viel genauer.", "correct": true },
+          { "text": "😴 Damit das Kind einschlafen kann." },
+          { "text": "🙃 Das hilft gar nicht." }
+        ],
+        "explanation": "Genau! Ohne die Augen konzentriert sich das Kind auf das Fühlen. So wird das Tasten stärker."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕺 Stopp-Tanz: Die Kinder tanzen. Stoppt die Musik, bleiben alle stehen. Was üben die Kinder besonders?",
+        "options": [
+          { "text": "👂 Genau hinhören.", "correct": true },
+          { "text": "👃 Gut riechen." },
+          { "text": "👅 Gut schmecken." }
+        ],
+        "explanation": "Richtig! Die Kinder hören genau hin: Läuft die Musik noch? Stopp-Tanz übt das Hören. Und er macht Spaß!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Du streichelst eine Katze 🐱. Wie fühlt sich das Fell an?",
+        "options": [
+          { "text": "🪶 Weich.", "correct": true },
+          { "text": "🧱 Hart wie Stein." },
+          { "text": "💦 Nass wie Wasser." }
+        ],
+        "explanation": "Super gemacht! Das Fell ist weich. Deine Haut fühlt das beim Streicheln."
+      }
+    }
+  ]
+}

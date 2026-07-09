@@ -1,0 +1,123 @@
+{
+  "topic_slug": "kinder-sprechen",
+  "slug": "kinder-sprechen-training",
+  "title": "Training: Reden mit Kindern",
+  "sort": 2,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Zwei Kinder streiten um ein Spielzeug. Was machst du?",
+        "options": [
+          { "text": "👂 Ich höre beide Kinder ruhig an.", "correct": true },
+          { "text": "📢 Ich gebe dem lauteren Kind Recht." },
+          { "text": "🙈 Ich schaue weg und sage nichts." }
+        ],
+        "explanation": "Richtig! Bei einem Streit hörst du erst beide Kinder an. Jedes Kind darf erzählen. Dann sucht ihr zusammen eine Lösung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧱 Du bittest ein Kind: Räum bitte die Bausteine auf. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🚶 Geh zu dem Kind hin." },
+          { "text": "🗣️ Sag seinen Namen." },
+          { "text": "👀 Warte, bis es dich anschaut." },
+          { "text": "📦 Sag einen kurzen Satz: „Bitte räum die Bausteine in die Kiste.“" },
+          { "text": "🌟 Lobe das Kind, wenn es fertig ist." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐊 Ein Kind ruft: „Ich habe ein Kokodil gesehen!“ Was machst du?",
+        "options": [
+          { "text": "🙂 Ich wiederhole das Wort freundlich richtig: „Oh, ein Krokodil!“", "correct": true },
+          { "text": "😝 Ich lache über das falsche Wort." },
+          { "text": "☝️ Ich sage: „Falsch! Sag das Wort zehnmal richtig.“" }
+        ],
+        "explanation": "Genau! Du sagst das Wort einfach richtig vor. Ganz nebenbei. So lernt das Kind, ohne sich zu schämen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😢 Ein Kind weint. Sein Turm ist umgefallen. Was sagst du?",
+        "options": [
+          { "text": "💛 „Du bist traurig. Das verstehe ich. Ich helfe dir beim neuen Turm.“", "correct": true },
+          { "text": "🙄 „Stell dich nicht so an. Ist doch nur ein Turm.“" },
+          { "text": "🤫 Ich sage nichts und gehe weiter." }
+        ],
+        "explanation": "Richtig! Du benennst das Gefühl: „Du bist traurig.“ Das Kind fühlt sich verstanden. Das nennt man trösten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Sortiere: Was hilft dem Kind beim Verstehen? Was macht es schwer?",
+        "buckets": [
+          { "id": "hilft", "label": "Hilft beim Verstehen", "icon": "💡" },
+          { "id": "schwer", "label": "Macht es schwer", "icon": "🌫️" }
+        ],
+        "items": [
+          { "text": "✂️ Kurze Sätze sagen", "bucket": "hilft" },
+          { "text": "👐 Mit den Händen zeigen", "bucket": "hilft" },
+          { "text": "📛 Den Namen des Kindes sagen", "bucket": "hilft" },
+          { "text": "📚 Viele schwere Wörter benutzen", "bucket": "schwer" },
+          { "text": "🌀 Sehr schnell sprechen", "bucket": "schwer" },
+          { "text": "🙃 Beim Sprechen weggucken", "bucket": "schwer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Du gibst einem Kind Aufträge. Wie viele auf einmal?",
+        "options": [
+          { "text": "1️⃣ Einen Auftrag. Erst wenn er fertig ist, kommt der nächste.", "correct": true },
+          { "text": "5️⃣ Fünf Aufträge auf einmal." },
+          { "text": "🔟 Zehn Aufträge, damit es schneller geht." }
+        ],
+        "explanation": "Genau! Kleine Kinder können sich nur eine Sache merken. Also: ein Auftrag nach dem anderen. Schritt für Schritt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Welche Reaktion passt zu welcher Situation? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "😢 Ein Kind ist traurig" }, "right": { "text": "Trösten und das Gefühl benennen" } },
+          { "left": { "text": "🖼️ Ein Kind zeigt sein Bild" }, "right": { "text": "Interesse zeigen und nachfragen" } },
+          { "left": { "text": "🗯️ Zwei Kinder streiten" }, "right": { "text": "Beide ruhig anhören" } },
+          { "left": { "text": "🐊 Ein Kind sagt „Kokodil“" }, "right": { "text": "Das Wort freundlich richtig vorsagen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖼️ Ein Kind zeigt dir stolz sein gemaltes Bild. Was sagst du?",
+        "options": [
+          { "text": "😊 „Erzähl mir von deinem Bild! Was hast du gemalt?“", "correct": true },
+          { "text": "😑 „Leg es da drüben hin.“" },
+          { "text": "⏰ „Jetzt nicht. Ich habe keine Zeit.“" }
+        ],
+        "explanation": "Richtig! Du zeigst Interesse. Du stellst eine Frage. Das Kind darf erzählen. So übt es das Sprechen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌅 Ein Kind sagt fröhlich: „Guten Morgen!“ Was machst du?",
+        "options": [
+          { "text": "😊 Ich lächle und sage: „Guten Morgen!“", "correct": true },
+          { "text": "🙃 Ich sage nichts." }
+        ],
+        "explanation": "Super! Freundlich grüßen tut allen gut. Das machst du bestimmt jeden Tag toll!"
+      }
+    }
+  ]
+}

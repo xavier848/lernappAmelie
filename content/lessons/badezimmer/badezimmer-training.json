@@ -1,0 +1,124 @@
+{
+  "topic_slug": "badezimmer",
+  "slug": "badezimmer-training",
+  "title": "Training: Badezimmer",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Nach dem Duschen ist alles voller Wasserdampf. Was machst du?",
+        "options": [
+          { "text": "Ich öffne das Fenster und lüfte.", "correct": true },
+          { "text": "Ich mache die Tür fest zu." },
+          { "text": "Nichts. Der Dampf ist egal." }
+        ],
+        "explanation": "Lüften ist wichtig! Die Feuchtigkeit muss raus. Sonst kann Schimmel entstehen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧺 Handtücher wechseln: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Benutzte Handtücher abnehmen." },
+          { "text": "👕 Handtücher in den Wäschekorb legen." },
+          { "text": "🚪 Frische Handtücher aus dem Schrank holen." },
+          { "text": "✨ Frische Handtücher aufhängen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Die Seife am Waschbecken ist leer. Was machst du?",
+        "options": [
+          { "text": "Ich stelle neue Seife hin.", "correct": true },
+          { "text": "Ich lasse die leere Flasche stehen." },
+          { "text": "Ich verstecke die leere Flasche im Schrank." }
+        ],
+        "explanation": "Ohne Seife kann sich niemand die Hände waschen. Neue Seife hinstellen, fertig!"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛁 Nachfüllen oder wegbringen? Sortiere!",
+        "buckets": [
+          { "id": "nachfuellen", "label": "Neu hinstellen", "icon": "🆕" },
+          { "id": "wegbringen", "label": "Wegbringen", "icon": "🚮" }
+        ],
+        "items": [
+          { "text": "🧻 Neues Klopapier", "bucket": "nachfuellen" },
+          { "text": "🧼 Neue Seife", "bucket": "nachfuellen" },
+          { "text": "🧺 Frische Handtücher", "bucket": "nachfuellen" },
+          { "text": "🗑️ Voller Müllbeutel", "bucket": "wegbringen" },
+          { "text": "👕 Benutzte Handtücher", "bucket": "wegbringen" },
+          { "text": "🧴 Leere Shampoo-Flasche", "bucket": "wegbringen" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚰 Der Wasserhahn hat Kalkflecken. Ordne die Schritte.",
+        "steps": [
+          { "text": "🧴 Kalkreiniger auf ein Tuch geben." },
+          { "text": "🚰 Wasserhahn mit dem Tuch abwischen." },
+          { "text": "⏱️ Kurz warten. Der Reiniger wirkt ein." },
+          { "text": "💧 Mit klarem Wasser abspülen." },
+          { "text": "✨ Mit trockenem Tuch nachpolieren." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕳️ Im Duschabfluss sind Haare. Warum machst du sie weg?",
+        "options": [
+          { "text": "Sonst läuft das Wasser nicht mehr gut ab.", "correct": true },
+          { "text": "Weil Haare gut riechen." },
+          { "text": "Das ist nicht nötig. Haare lösen sich von selbst auf." }
+        ],
+        "explanation": "Haare verstopfen den Abfluss. Nimm sie mit einem Tuch heraus und wirf sie in den Müll."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Problem und Lösung: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "💨 Spiegel ist beschlagen" }, "right": { "text": "Lüften" } },
+          { "left": { "text": "⚪ Kalk am Wasserhahn" }, "right": { "text": "Kalkreiniger" } },
+          { "left": { "text": "🕳️ Haare im Abfluss" }, "right": { "text": "Herausnehmen, in den Müll" } },
+          { "left": { "text": "🗑️ Mülleimer ist voll" }, "right": { "text": "Leeren, neuer Beutel" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Darfst du zwei Putzmittel zusammen mischen?",
+        "options": [
+          { "text": "Nein. Niemals mischen!", "correct": true },
+          { "text": "Ja. Dann putzt es doppelt gut." },
+          { "text": "Nur am Wochenende." }
+        ],
+        "explanation": "Putzmittel nie mischen! Dabei können giftige Dämpfe entstehen. Immer nur ein Mittel benutzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Letzte Frage, ganz leicht: Das Klopapier ist alle. Was hängst du auf?",
+        "options": [
+          { "text": "Eine neue Rolle Klopapier.", "correct": true },
+          { "text": "Ein Poster." },
+          { "text": "Eine Girlande." }
+        ],
+        "explanation": "Genau! Eine neue Rolle aufhängen. Du denkst an alles. Super! 🎉"
+      }
+    }
+  ]
+}
