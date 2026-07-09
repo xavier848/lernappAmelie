@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #14b8a6;
+  --color-primary-dark: #0f766e;
+  --color-primary-light: #f0fdfa;
+  --color-ink: #1e293b;
+  --color-success: #22c55e;
+  --color-success-dark: #16a34a;
+  --color-success-light: #f0fdf4;
+  --color-warning: #f97316;
+  --color-warning-dark: #ea580c;
+  --color-warning-light: #fff7ed;
+  --color-locked: #e2e8f0;
+  --font-sans: var(--font-open-sans), system-ui, sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Keine Aktion beim bloßen Berühren: Tap-Highlight aus, Auslösen regelt onClick */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
