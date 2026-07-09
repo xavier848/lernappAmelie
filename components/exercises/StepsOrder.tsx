@@ -8,7 +8,7 @@
 import { useMemo, useState } from "react";
 import type { StepsOrderData } from "@/lib/content-schema";
 import type { ExerciseComponentProps } from "./types";
-import { seedFromData, shuffleSeeded } from "./shuffle";
+import { shuffleSeeded } from "./shuffle";
 import { useCheck, useReportReady } from "./useCheck";
 import { cn } from "@/lib/cn";
 
@@ -35,15 +35,15 @@ export function StepsOrder({
   const isWords = data.mode === "words";
   const total = data.steps.length;
 
-  // Karten mit stabiler id (= korrekte Position), deterministisch gemischt.
+  // Karten mit stabiler id (= korrekte Position), gemischt.
+  // Ohne expliziten seed (nur Tests setzen einen) wird pro Aufruf neu
+  // gemischt, damit Wiederholungen nicht immer gleich aussehen.
   // Der Shuffle liefert NIE die Lösungs-Reihenfolge, wenn vermeidbar.
+  const [mountSeed] = useState(() => `mount-${Math.random()}`);
   const cards = useMemo(() => {
     const indexed = data.steps.map((step, index) => ({ ...step, id: index }));
-    return shuffleSeeded(
-      indexed,
-      seed ?? seedFromData("steps_order", total, data.steps[0]?.text),
-    );
-  }, [data, seed, total]);
+    return shuffleSeeded(indexed, seed ?? mountSeed);
+  }, [data, seed, mountSeed]);
 
   // placed[slot] = Karten-id, in Antipp-Reihenfolge gefüllt.
   const [placed, setPlaced] = useState<number[]>([]);

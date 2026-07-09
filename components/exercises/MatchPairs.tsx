@@ -61,13 +61,10 @@ function ColumnsBoard({
   onReadyChange,
   seed,
 }: MatchPairsProps) {
-  const baseSeed =
-    seed ??
-    seedFromData(
-      "match_pairs",
-      data.pairs.length,
-      data.pairs[0]?.left.text ?? data.pairs[0]?.left.image,
-    );
+  // Ohne expliziten seed (nur Tests setzen einen) wird pro Aufruf neu
+  // gemischt, damit Wiederholungen nicht immer gleich aussehen.
+  const [mountSeed] = useState(() => `mount-${Math.random()}`);
+  const baseSeed = seed ?? mountSeed;
 
   // Beide Spalten getrennt und deterministisch mischen,
   // damit die Paare nicht schon nebeneinander liegen.
@@ -199,21 +196,16 @@ function MemoryBoard({
   onReadyChange,
   seed,
 }: MatchPairsProps) {
+  // Ohne expliziten seed (nur Tests setzen einen) wird pro Aufruf neu
+  // gemischt, damit Wiederholungen nicht immer gleich aussehen.
+  const [mountSeed] = useState(() => `mount-${Math.random()}`);
   const cards = useMemo(() => {
     const all: MemoryCard[] = data.pairs.flatMap((pair, index) => [
       { key: `l${index}`, pair: index, side: pair.left },
       { key: `r${index}`, pair: index, side: pair.right },
     ]);
-    return shuffleSeeded(
-      all,
-      seed ??
-        seedFromData(
-          "memory",
-          data.pairs.length,
-          data.pairs[0]?.left.text ?? data.pairs[0]?.left.image,
-        ),
-    );
-  }, [data, seed]);
+    return shuffleSeeded(all, seed ?? mountSeed);
+  }, [data, seed, mountSeed]);
 
   const [open, setOpen] = useState<string[]>([]);
   const [matched, setMatched] = useState<number[]>([]);

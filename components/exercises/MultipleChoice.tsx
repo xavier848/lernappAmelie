@@ -4,19 +4,39 @@
 // Große Antwortkarten (Text und/oder Bild), volle Breite, min. 64 px hoch.
 // Auswahl = türkiser Rand. Nach dem Prüfen: richtige Karte grün,
 // gewählte falsche Karte orange (nie rot).
+// Die Antworten werden pro Aufruf neu gemischt, damit die richtige Antwort
+// nicht immer an derselben Stelle steht (Wiederholungen bleiben spannend).
 // Den Aufgaben-Prompt (+ TTS) zeigt der Lektions-Player an, nicht die Komponente.
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { MultipleChoiceData } from "@/lib/content-schema";
 import type { ExerciseComponentProps } from "./types";
+import { shuffleSeeded } from "./shuffle";
 import { useCheck, useReportReady } from "./useCheck";
 import { cn } from "@/lib/cn";
+
+type MultipleChoiceProps = ExerciseComponentProps<MultipleChoiceData> & {
+  /** Optionaler stabiler Seed (nur für Tests). Default: zufällig pro Aufruf. */
+  seed?: string | number;
+};
 
 export function MultipleChoice({
   data,
   onResult,
   checkRequested,
   onReadyChange,
-}: ExerciseComponentProps<MultipleChoiceData>) {
+  seed,
+}: MultipleChoiceProps) {
+  const [mountSeed] = useState(() => `mount-${Math.random()}`);
+  // Gemischte Optionen; index bleibt der Original-Index für die Auswertung.
+  const options = useMemo(
+    () =>
+      shuffleSeeded(
+        data.options.map((option, index) => ({ option, index })),
+        seed ?? mountSeed,
+      ),
+    [data, seed, mountSeed],
+  );
+
   const [selected, setSelected] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
 
@@ -31,7 +51,7 @@ export function MultipleChoice({
 
   return (
     <div aria-label="Antworten" className="flex flex-col gap-3">
-      {data.options.map((option, index) => {
+      {options.map(({ option, index }) => {
         const isSelected = selected === index;
         const showCorrect = checked && option.correct === true;
         const showWrong = checked && isSelected && option.correct !== true;

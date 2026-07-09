@@ -2,7 +2,7 @@
 // Liefert Zahlen (Lektionen, Streak, XP), den Themen-Baum inkl. unpublizierter
 // Inhalte, schwierige Uebungen und die letzten Abschluesse.
 import { NextRequest, NextResponse } from "next/server";
-import type { SupabaseClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { requireAdmin } from "@/lib/admin-auth";
 import { supabaseService } from "@/lib/supabase";
 import { computeStreak } from "@/lib/streak";
@@ -86,11 +86,17 @@ type ProgressRowLite = {
 
 type AttemptRowLite = { exercise_id: string; correct: boolean };
 
-function getService(): SupabaseClient | null {
+// Statistiken sind reine Lesezugriffe: mit Service-Key sieht man auch
+// unpublizierte Inhalte, ohne reicht der Anon-Key (RLS erlaubt das Lesen
+// von Fortschritt/Aktivität; unpublizierte Lektionen fehlen dann im Baum).
+function getReadClient(): SupabaseClient | null {
   try {
     return supabaseService();
   } catch {
-    return null;
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    if (!url || !anonKey) return null;
+    return createClient(url, anonKey, { auth: { persistSession: false } });
   }
 }
 
@@ -98,13 +104,10 @@ export async function GET(req: NextRequest) {
   if (!requireAdmin(req)) {
     return NextResponse.json({ error: "Nicht angemeldet." }, { status: 401 });
   }
-  const supabase = getService();
+  const supabase = getReadClient();
   if (!supabase) {
     return NextResponse.json(
-      {
-        error:
-          "Service-Key fehlt. Bitte SUPABASE_SERVICE_ROLE_KEY in .env.local eintragen.",
-      },
+      { error: "Supabase-Konfiguration fehlt (URL/Anon-Key)." },
       { status: 503 }
     );
   }

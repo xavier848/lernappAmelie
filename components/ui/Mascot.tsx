@@ -50,8 +50,9 @@ export function Mascot({ mood = "neutral", message, size = 140 }: MascotProps) {
         <Image
           src="/mascot.png"
           alt="Maskottchen: Pony mit Buch"
+          // Originalbild ist 554x816 – Seitenverhältnis beibehalten.
           width={size}
-          height={size}
+          height={Math.round((size * 816) / 554)}
           priority
         />
       </motion.div>
