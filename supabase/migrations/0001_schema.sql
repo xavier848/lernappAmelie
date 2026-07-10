@@ -26,3 +26,8 @@ create policy "progress all" on progress for all using (true) with check (true);
 create policy "attempts insert" on exercise_attempts for insert with check (true);
 create policy "activity all" on daily_activity for all using (true) with check (true);
 insert into storage.buckets (id, name, public) values ('images','images',true);
+
+-- Nachtraege (2026-07-10):
+-- Reset-Funktion + Lesezugriff auf Versuchs-Statistik (fehlte in v1).
+create policy "attempts delete" on exercise_attempts for delete using (true);
+create policy "attempts read" on exercise_attempts for select using (true);

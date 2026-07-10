@@ -1,0 +1,125 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-vertiefung-2",
+  "title": "Noch gut oder muss das weg?",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Auf dem Joghurt steht: \"Mindestens haltbar bis\". Was bedeutet das?",
+        "options": [
+          { "text": "Bis zu diesem Datum ist er sicher gut. Danach prüfe ich ihn.", "correct": true },
+          { "text": "Nach diesem Datum muss er sofort in den Müll." },
+          { "text": "Das Datum ist nur Dekoration." }
+        ],
+        "explanation": "MHD heißt: mindestens haltbar bis. Es ist kein Wegwerf-Datum. Danach gilt: erst prüfen, dann entscheiden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Das MHD vom Joghurt war gestern. Er sieht normal aus und riecht normal. Was machst du?",
+        "options": [
+          { "text": "Ich probiere vorsichtig. Ist alles normal, kann ich ihn essen.", "correct": true },
+          { "text": "Ich werfe ihn sofort weg." },
+          { "text": "Ich esse ihn mit geschlossenen Augen, ohne zu prüfen." }
+        ],
+        "explanation": "Augen, Nase, kleiner Probier-Test: Ist alles normal, ist der Joghurt meist noch gut. So landet weniger Essen im Müll."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Auf dem Hackfleisch steht: \"Zu verbrauchen bis\" – und das war gestern. Was machst du?",
+        "options": [
+          { "text": "Ab in den Müll. Dieses Datum ist streng.", "correct": true },
+          { "text": "Ich rieche kurz daran und esse es dann." },
+          { "text": "Ich brate es einfach extra lange." }
+        ],
+        "explanation": "\"Zu verbrauchen bis\" steht auf schnell verderblichen Sachen wie Hackfleisch. Danach kannst du krank werden. Also: weg damit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "❄️ Jede Zone im Kühlschrank hat ihre Aufgabe. Räum richtig ein!",
+        "buckets": [
+          { "id": "unten", "label": "Ganz unten (am kältesten)", "icon": "🥶" },
+          { "id": "gemuese", "label": "Gemüsefach", "icon": "🥬" },
+          { "id": "tuer", "label": "Tür", "icon": "🚪" }
+        ],
+        "items": [
+          { "text": "🥩 Frisches Fleisch", "bucket": "unten" },
+          { "text": "🐟 Frischer Fisch", "bucket": "unten" },
+          { "text": "🥗 Salat", "bucket": "gemuese" },
+          { "text": "🥕 Karotten", "bucket": "gemuese" },
+          { "text": "🧈 Butter", "bucket": "tuer" },
+          { "text": "🍅 Ketchup", "bucket": "tuer" },
+          { "text": "🧃 Angebrochener Saft", "bucket": "tuer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Du hast neuen Joghurt gekauft. Im Kühlschrank steht noch alter. Wohin mit dem neuen?",
+        "options": [
+          { "text": "Neu nach hinten, alt nach vorn.", "correct": true },
+          { "text": "Neu nach vorn, alt nach hinten." },
+          { "text": "Egal, Hauptsache kalt." }
+        ],
+        "explanation": "Die Regel heißt: Erst rein, erst raus. Das Alte steht vorn und wird zuerst gegessen. So läuft nichts ab."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛍️ Du kommst vom Einkaufen. Räum die Vorräte richtig weg. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🛍️ Tasche auspacken." },
+          { "text": "🧊 Tiefkühl-Sachen sofort ins Gefrierfach." },
+          { "text": "❄️ Kühl-Sachen in den Kühlschrank." },
+          { "text": "🔄 Neues nach hinten stellen, Altes nach vorn." },
+          { "text": "🍝 Trockene Vorräte in den Schrank räumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍓 Auf der Marmelade ist ein Fleck Schimmel. Was machst du?",
+        "options": [
+          { "text": "Das ganze Glas wegwerfen.", "correct": true },
+          { "text": "Nur den Schimmel mit dem Löffel abheben." },
+          { "text": "Den Schimmel unterrühren." }
+        ],
+        "explanation": "Schimmel hat unsichtbare Fäden. Sie stecken schon im ganzen Glas. Darum: komplett wegwerfen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Finde die Paare rund um Vorräte und Kühlschrank.",
+        "pairs": [
+          { "left": { "text": "📅 MHD" }, "right": { "text": "Mindestens haltbar bis" } },
+          { "left": { "text": "👃 Schauen und riechen" }, "right": { "text": "Prüfen, ob es noch gut ist" } },
+          { "left": { "text": "🥶 Ganz unten im Kühlschrank" }, "right": { "text": "Die kälteste Stelle" } },
+          { "left": { "text": "🗑️ Schimmel" }, "right": { "text": "Ab in den Müll" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Die Milch riecht sauer und ist klumpig. Was machst du?",
+        "options": [
+          { "text": "Weg damit. Die trinke ich nicht mehr.", "correct": true },
+          { "text": "Ich trinke sie schnell aus." }
+        ],
+        "explanation": "Genau! Sauer und klumpig heißt: verdorben. Deine Nase hat dich gewarnt. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

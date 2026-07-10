@@ -1,0 +1,124 @@
+{
+  "topic_slug": "wohnzimmer",
+  "slug": "wohnzimmer-vertiefung-2",
+  "title": "Streifenfrei! Fenster und Glas putzen",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☀️ Die Sonne scheint direkt auf das Fenster. Putzt du es jetzt?",
+        "options": [
+          { "text": "Nein. Ich putze zuerst ein Fenster ohne Sonne.", "correct": true },
+          { "text": "Ja. Bei Sonne sieht man besser." },
+          { "text": "Fenster putzt man nur nachts." }
+        ],
+        "explanation": "In der prallen Sonne trocknet der Reiniger zu schnell. Dann entstehen Streifen. Ohne direkte Sonne wird das Glas schöner."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖼️ Was putzt du zuerst: den Rahmen oder die Glasscheibe?",
+        "options": [
+          { "text": "Zuerst den Rahmen und die Fensterbank.", "correct": true },
+          { "text": "Zuerst die Glasscheibe." },
+          { "text": "Nur die Scheibe. Der Rahmen ist egal." }
+        ],
+        "explanation": "Am Rahmen sitzt der grobe Schmutz. Putzt du erst das Glas, machst du es beim Rahmen-Putzen wieder schmutzig."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🪟 Das Fenster streifenfrei putzen: Ordne die Schritte.",
+        "steps": [
+          { "text": "🧽 Rahmen und Fensterbank feucht abwischen." },
+          { "text": "✨ Glasreiniger auf die Scheibe sprühen." },
+          { "text": "🧻 Scheibe abwischen: von oben nach unten." },
+          { "text": "🧻 Mit trockenem Mikrofasertuch nachpolieren." },
+          { "text": "👀 Gegen das Licht schauen: Noch Streifen da?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬇️ Warum wischst du die Scheibe von oben nach unten?",
+        "options": [
+          { "text": "Der Reiniger läuft nach unten. So wische ich nichts doppelt.", "correct": true },
+          { "text": "Von unten nach oben ist verboten." },
+          { "text": "Die Richtung ist egal." }
+        ],
+        "explanation": "Wie beim Staubwischen gilt auch am Fenster: immer von oben nach unten arbeiten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧰 Was darf ans Glas? Und was macht Kratzer oder Fussel? Sortiere!",
+        "buckets": [
+          { "id": "gut", "label": "Gut für Glas", "icon": "✨" },
+          { "id": "nicht", "label": "Nicht für Glas", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "✨ Glasreiniger", "bucket": "gut" },
+          { "text": "🧻 Mikrofasertuch", "bucket": "gut" },
+          { "text": "🪟 Abzieher", "bucket": "gut" },
+          { "text": "🧽 Kratzige Scheuerseite vom Schwamm", "bucket": "nicht" },
+          { "text": "🧴 Scheuermilch", "bucket": "nicht" },
+          { "text": "🧶 Fusseliges Wolltuch", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😤 Nach dem Putzen siehst du Streifen auf dem Glas. Was hilft?",
+        "options": [
+          { "text": "Mit einem trockenen Mikrofasertuch nachpolieren.", "correct": true },
+          { "text": "Noch viel mehr Reiniger aufsprühen." },
+          { "text": "Die Streifen bleiben für immer." }
+        ],
+        "explanation": "Trocken nachpolieren nimmt die letzten Schlieren weg. Und merke: Weniger Reiniger ist oft mehr!"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧡 Glatte Flächen im Wohnzimmer: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🪞 Spiegel" }, "right": { "text": "Glasreiniger" } },
+          { "left": { "text": "📺 Fernseher-Bildschirm" }, "right": { "text": "Nur trockenes, weiches Tuch" } },
+          { "left": { "text": "🪵 Fensterbank" }, "right": { "text": "Feuchtes Tuch" } },
+          { "left": { "text": "🖼️ Bilderrahmen" }, "right": { "text": "Trocken abstauben" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📺 Der Fernseher hat auch eine glatte Fläche. Putzt du ihn mit Glasreiniger?",
+        "options": [
+          { "text": "Nein! Der Bildschirm ist empfindlich. Nur ein trockenes, weiches Tuch.", "correct": true },
+          { "text": "Ja. Glas ist Glas." },
+          { "text": "Ich sprühe den Reiniger direkt auf den Bildschirm." }
+        ],
+        "explanation": "Ein Bildschirm ist kein Fensterglas. Reiniger und Nässe können ihn beschädigen. Trockenes Tuch reicht völlig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Womit machst du das Glas am Ende streifenfrei?",
+        "options": [
+          { "text": "Mit einem trockenen Mikrofasertuch.", "correct": true },
+          { "text": "Mit einem nassen Schwamm." },
+          { "text": "Mit den Fingern." }
+        ],
+        "explanation": "Genau! Trocken nachpolieren, und das Fenster glänzt. Klasse Arbeit! 🎉"
+      }
+    }
+  ]
+}

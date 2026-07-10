@@ -1,0 +1,124 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-vertiefung-2",
+  "title": "Kleine Extras, große Freude",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💝 Warum lohnen sich kleine Extras für die Gäste?",
+        "options": [
+          { "text": "Die Gäste fühlen sich willkommen, geben gute Bewertungen und kommen wieder.", "correct": true },
+          { "text": "Damit die Wohnung voller aussieht." },
+          { "text": "Extras bringen gar nichts." }
+        ],
+        "explanation": "Kleine Aufmerksamkeiten bleiben im Kopf. Zufriedene Gäste empfehlen die Wohnung weiter – das ist gut fürs Geschäft."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍫 Bereite das Begrüßungs-Tablett vor. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🍽️ Tablett holen." },
+          { "text": "💧 Eine Flasche Wasser daraufstellen." },
+          { "text": "🥂 Zwei saubere Gläser dazustellen." },
+          { "text": "🍫 Eine kleine Süßigkeit dazulegen." },
+          { "text": "💌 Willkommens-Karte dazulegen." },
+          { "text": "🛋️ Tablett auf den Wohnzimmer-Tisch stellen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📖 Die Info-Mappe hilft den Gästen. Was gehört hinein?",
+        "buckets": [
+          { "id": "mappe", "label": "In die Info-Mappe", "icon": "📖" },
+          { "id": "nicht", "label": "Gehört da nicht hinein", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "📶 WLAN-Name und Passwort", "bucket": "mappe" },
+          { "text": "♻️ Regeln für die Mülltrennung", "bucket": "mappe" },
+          { "text": "🚨 Wichtige Telefon-Nummern", "bucket": "mappe" },
+          { "text": "🥾 Tipps für Ausflüge", "bucket": "mappe" },
+          { "text": "👨‍👩‍👧 Private Familien-Fotos", "bucket": "nicht" },
+          { "text": "🧾 Alte Rechnungen", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Ein Gast fragt dich: \"Wo gibt es hier frische Brötchen?\" Du bist nicht sicher. Was machst du?",
+        "options": [
+          { "text": "Ich sage freundlich: \"Ich frage kurz nach.\" Dann frage ich meine Chefin.", "correct": true },
+          { "text": "Ich rate irgendeine Richtung." },
+          { "text": "Ich drehe mich um und gehe weg." }
+        ],
+        "explanation": "Ehrlich und freundlich ist immer richtig. Nachfragen ist kein Fehler – falsche Auskunft schon."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Du triffst Gäste im Treppenhaus. Was machst du?",
+        "options": [
+          { "text": "Ich grüße freundlich und lächle.", "correct": true },
+          { "text": "Ich schaue auf den Boden und sage nichts." },
+          { "text": "Ich renne schnell vorbei." }
+        ],
+        "explanation": "Ein freundlicher Gruß gehört zum guten Service. Die Gäste merken: Hier bin ich willkommen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Welches Extra macht welche Freude? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "📶 WLAN-Zettel" }, "right": { "text": "Gäste kommen sofort ins Internet" } },
+          { "left": { "text": "🌸 Frische Blumen" }, "right": { "text": "Der Raum wirkt freundlich" } },
+          { "left": { "text": "🗺️ Karte der Umgebung" }, "right": { "text": "Hilft beim Planen von Ausflügen" } },
+          { "left": { "text": "🍎 Obstschale" }, "right": { "text": "Kleine gesunde Freude" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👶 Eine Familie mit Baby hat gebucht. Was bereitest du extra vor?",
+        "options": [
+          { "text": "Kinderbett und Hochstuhl aufstellen.", "correct": true },
+          { "text": "Nichts. Babys brauchen keine Extras." },
+          { "text": "Ich stelle mehr Weingläser hin." }
+        ],
+        "explanation": "Gut vorbereitet heißt: entspannte Ankunft. Familien freuen sich sehr, wenn schon alles fürs Baby bereitsteht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤍 Wie legst du die frischen Handtücher ins Bad?",
+        "options": [
+          { "text": "Ordentlich gefaltet und schön gestapelt – wie im Hotel.", "correct": true },
+          { "text": "Als Knäuel auf den Boden." },
+          { "text": "Über die Heizung geworfen." }
+        ],
+        "explanation": "Ordentlich gefaltete Handtücher sehen gepflegt aus. Der Gast denkt: Hier ist alles frisch und sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💌 Was schreibst du auf die Willkommens-Karte?",
+        "options": [
+          { "text": "\"Herzlich willkommen! Wir wünschen schöne Ferien.\"", "correct": true },
+          { "text": "\"Bitte nichts kaputt machen!\"" }
+        ],
+        "explanation": "Genau! Ein paar freundliche Worte reichen. So fühlen sich die Gäste ab der ersten Minute wohl. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

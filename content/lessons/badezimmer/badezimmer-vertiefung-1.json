@@ -1,0 +1,124 @@
+{
+  "topic_slug": "badezimmer",
+  "slug": "badezimmer-vertiefung-1",
+  "title": "Schimmel? Nein danke!",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Wie entsteht Schimmel im Bad?",
+        "options": [
+          { "text": "Wenn es lange feucht ist und die Luft nicht raus kann.", "correct": true },
+          { "text": "Wenn man zu oft putzt." },
+          { "text": "Wenn das Licht zu hell ist." }
+        ],
+        "explanation": "Schimmel liebt Feuchtigkeit. Bleibt die nasse Luft im Bad, kann Schimmel wachsen. Deshalb: Feuchtigkeit immer raus!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Du hast geduscht. Die Duschwände sind voller Wasser. Was machst du?",
+        "options": [
+          { "text": "Ich ziehe das Wasser mit dem Abzieher ab.", "correct": true },
+          { "text": "Ich lasse das Wasser einfach trocknen." },
+          { "text": "Ich puste das Wasser weg." }
+        ],
+        "explanation": "Der Abzieher hat eine Gummi-Lippe. Damit ziehst du das Wasser nach unten ab. So bleibt weniger Feuchtigkeit im Bad und es gibt keine Kalkflecken."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "💨 Nach dem Duschen: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "💧 Wasser mit dem Abzieher von den Wänden ziehen." },
+          { "text": "🧺 Nasses Handtuch ordentlich aufhängen." },
+          { "text": "🪟 Fenster ganz öffnen." },
+          { "text": "⏱️ Ein paar Minuten lüften." },
+          { "text": "🪟 Fenster wieder schließen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Wie lüftest du das Bad nach dem Duschen richtig?",
+        "options": [
+          { "text": "Fenster ganz öffnen, ein paar Minuten lüften.", "correct": true },
+          { "text": "Die Tür zur Wohnung weit öffnen." },
+          { "text": "Gar nicht lüften." }
+        ],
+        "explanation": "Fenster ganz auf, kurz und kräftig: Das ist Stoßlüften. Öffnest du nur die Tür, zieht die feuchte Luft in die Wohnung. Das ist schlecht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🦠 Was schützt vor Schimmel? Und was hilft dem Schimmel? Sortiere!",
+        "buckets": [
+          { "id": "schutz", "label": "Schützt vor Schimmel", "icon": "✅" },
+          { "id": "hilft-schimmel", "label": "Hilft dem Schimmel", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "🪟 Nach dem Duschen stoßlüften", "bucket": "schutz" },
+          { "text": "💧 Wasser von den Wänden abziehen", "bucket": "schutz" },
+          { "text": "🧺 Handtücher zum Trocknen aufhängen", "bucket": "schutz" },
+          { "text": "🚪 Fenster immer zu lassen", "bucket": "hilft-schimmel" },
+          { "text": "🧦 Nasse Handtücher auf den Boden werfen", "bucket": "hilft-schimmel" },
+          { "text": "💦 Wasserpfützen stehen lassen", "bucket": "hilft-schimmel" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Wo wächst Schimmel im Bad meistens zuerst?",
+        "options": [
+          { "text": "In den Ecken und in den Fugen.", "correct": true },
+          { "text": "Auf dem Spiegel." },
+          { "text": "Am Türgriff." }
+        ],
+        "explanation": "In Ecken und Fugen trocknet das Wasser am langsamsten. Schau dort beim Putzen genau hin und wische sie trocken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚫ Du entdeckst schwarze Punkte in den Fugen der Dusche. Was machst du?",
+        "options": [
+          { "text": "Ich melde es meiner Chefin.", "correct": true },
+          { "text": "Ich übermale die Punkte mit weißer Farbe." },
+          { "text": "Nichts. Die Punkte gehören dahin." }
+        ],
+        "explanation": "Schwarze Punkte können Schimmel sein. Melden ist genau richtig! Dann wird der Schimmel richtig entfernt, bevor er größer wird."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💧 Feuchtigkeit im Bad: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "💧 Nasse Duschwand" }, "right": { "text": "Mit dem Abzieher abziehen" } },
+          { "left": { "text": "🧺 Nasses Handtuch" }, "right": { "text": "Zum Trocknen aufhängen" } },
+          { "left": { "text": "💦 Pfütze auf dem Boden" }, "right": { "text": "Sofort aufwischen" } },
+          { "left": { "text": "⚫ Schwarze Punkte in der Fuge" }, "right": { "text": "Der Chefin melden" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌬️ Letzte Frage, ganz leicht: Was ist der beste Schutz gegen Schimmel?",
+        "options": [
+          { "text": "Lüften, lüften, lüften!", "correct": true },
+          { "text": "Das Licht anlassen." },
+          { "text": "Die Tür abschließen." }
+        ],
+        "explanation": "Genau! Frische Luft rein, Feuchtigkeit raus. Dann hat Schimmel keine Chance. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

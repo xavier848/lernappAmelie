@@ -1,0 +1,125 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-vertiefung-1",
+  "title": "Die Spülmaschine richtig einräumen",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 Auf den Tellern sind noch Essensreste. Was machst du vor dem Einräumen?",
+        "options": [
+          { "text": "Ich kratze die Reste in den Müll.", "correct": true },
+          { "text": "Ich räume die Teller mit den Resten ein." },
+          { "text": "Ich spüle jeden Teller erst komplett mit der Hand." }
+        ],
+        "explanation": "Grobe Reste kommen in den Müll. Sonst verstopfen sie das Sieb der Maschine. Komplett vorspülen musst du aber nicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Räum die Spülmaschine ein! Was kommt wohin?",
+        "buckets": [
+          { "id": "oben", "label": "Oberkorb", "icon": "🔼" },
+          { "id": "unten", "label": "Unterkorb", "icon": "🔽" },
+          { "id": "draussen", "label": "Bleibt draußen", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "🥂 Gläser", "bucket": "oben" },
+          { "text": "☕ Tassen", "bucket": "oben" },
+          { "text": "🍽️ Teller", "bucket": "unten" },
+          { "text": "🍲 Großer Topf", "bucket": "unten" },
+          { "text": "🪵 Holzbrett", "bucket": "draussen" },
+          { "text": "🔪 Scharfes Kochmesser", "bucket": "draussen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥂 Warum kommen Gläser und Tassen nach oben?",
+        "options": [
+          { "text": "Oben ist der Platz für empfindliche Sachen. Unten spritzt das Wasser stärker.", "correct": true },
+          { "text": "Weil oben mehr Platz ist." },
+          { "text": "Das ist egal. Gläser können überall stehen." }
+        ],
+        "explanation": "Unten ist der Wasserstrahl stark. Empfindliche Gläser stehen darum sicher im Oberkorb."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Du stellst Messer in den Besteckkorb. Wie herum?",
+        "options": [
+          { "text": "Mit der Spitze nach unten.", "correct": true },
+          { "text": "Mit der Spitze nach oben." },
+          { "text": "Egal, wie sie gerade fallen." }
+        ],
+        "explanation": "Spitze nach unten! So schneidest du dich nicht, wenn du später in den Korb greifst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "▶️ Von schmutzig bis fertig: Starte die Spülmaschine. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🍝 Essensreste in den Müll kratzen." },
+          { "text": "🍽️ Geschirr einräumen: Gläser oben, Töpfe unten." },
+          { "text": "🔄 Prüfen: Kann sich der Sprüharm frei drehen?" },
+          { "text": "🧼 Tab ins Spülmittel-Fach legen." },
+          { "text": "🎛️ Programm wählen." },
+          { "text": "▶️ Maschine starten." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Ein hoher Topf steht im Weg. Der Sprüharm kann sich nicht drehen. Was machst du?",
+        "options": [
+          { "text": "Ich stelle den Topf um, bis sich der Arm frei drehen kann.", "correct": true },
+          { "text": "Ich starte die Maschine trotzdem." },
+          { "text": "Ich baue den Sprüharm aus." }
+        ],
+        "explanation": "Der Sprüharm verteilt das Wasser. Kann er sich nicht drehen, wird das Geschirr nicht sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Die Maschine ist fertig. Welchen Korb räumst du zuerst aus?",
+        "options": [
+          { "text": "Den Unterkorb.", "correct": true },
+          { "text": "Den Oberkorb." },
+          { "text": "Beide gleichzeitig mit beiden Händen." }
+        ],
+        "explanation": "Auf dem Geschirr oben steht oft noch Wasser. Räumst du unten zuerst aus, tropft nichts auf das trockene Geschirr."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Was gehört zusammen? Verbinde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧼 Tab" }, "right": { "text": "Kommt ins Spülmittel-Fach" } },
+          { "left": { "text": "🕸️ Sieb im Boden" }, "right": { "text": "Fängt Essensreste auf" } },
+          { "left": { "text": "🔼 Oberkorb" }, "right": { "text": "Gläser und Tassen" } },
+          { "left": { "text": "🔽 Unterkorb" }, "right": { "text": "Teller und Töpfe" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Die Maschine ist fertig und das Geschirr ist trocken. Was jetzt?",
+        "options": [
+          { "text": "Ausräumen und alles in den Schrank stellen.", "correct": true },
+          { "text": "Das Geschirr eine Woche in der Maschine lassen." }
+        ],
+        "explanation": "Genau! Ausräumen, wegräumen – und die Maschine ist bereit für die nächste Runde. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

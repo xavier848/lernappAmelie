@@ -1,0 +1,125 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-vertiefung-1",
+  "title": "Bereit für die Gäste? Die End-Kontrolle",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Vor der Ankunft gehst du einmal durch die Wohnung – mit den Augen des Gastes. Warum?",
+        "options": [
+          { "text": "So sehe ich die Wohnung wie der Gast beim ersten Eindruck.", "correct": true },
+          { "text": "Weil ich sonst nichts zu tun habe." },
+          { "text": "Damit ich noch einmal spazieren gehe." }
+        ],
+        "explanation": "Der erste Eindruck zählt. Was der Gast als Erstes sieht, muss perfekt sein."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📋 So läuft die End-Kontrolle. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "📋 Checkliste holen." },
+          { "text": "🚪 An der Wohnungstür anfangen." },
+          { "text": "🚶 Raum für Raum durchgehen." },
+          { "text": "✅ Jeden Punkt abhaken." },
+          { "text": "🛠️ Fehler sofort beheben oder melden." },
+          { "text": "🔑 Zum Schluss abschließen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Was prüfst du in welchem Raum? Ordne zu.",
+        "buckets": [
+          { "id": "bad", "label": "Bad", "icon": "🛁" },
+          { "id": "kueche", "label": "Küche", "icon": "🍳" },
+          { "id": "schlafzimmer", "label": "Schlafzimmer", "icon": "🛏️" }
+        ],
+        "items": [
+          { "text": "🧻 Toilettenpapier aufgefüllt?", "bucket": "bad" },
+          { "text": "🤍 Frische Handtücher da?", "bucket": "bad" },
+          { "text": "🧴 Spülmittel und Schwamm da?", "bucket": "kueche" },
+          { "text": "❄️ Kühlschrank leer und sauber?", "bucket": "kueche" },
+          { "text": "🛏️ Bett frisch bezogen?", "bucket": "schlafzimmer" },
+          { "text": "💡 Nachttisch-Lampe geht?", "bucket": "schlafzimmer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤍 Auf dem frischen Kopfkissen liegt ein Haar. Was machst du?",
+        "options": [
+          { "text": "Ich beziehe das Kissen neu.", "correct": true },
+          { "text": "Ich puste es weg und gehe weiter." },
+          { "text": "Ich decke es mit der Decke zu." }
+        ],
+        "explanation": "Gäste dürfen nichts von den Gästen davor finden. Ein Haar auf dem Kissen wirkt ungepflegt – also: neu beziehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Du kommst herein und es riecht muffig. Was machst du?",
+        "options": [
+          { "text": "Stoßlüften: Fenster kurz weit öffnen.", "correct": true },
+          { "text": "Viel Parfüm in die Luft sprühen." },
+          { "text": "Nichts. Der Geruch geht von allein weg." }
+        ],
+        "explanation": "Der erste Eindruck zählt auch für die Nase. Stoßlüften bringt schnell frische Luft in die Wohnung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Die Nachttisch-Lampe geht nicht. In 2 Stunden kommen die Gäste. Was machst du?",
+        "options": [
+          { "text": "Ich tausche die Glühbirne oder melde es sofort meiner Chefin.", "correct": true },
+          { "text": "Ich hoffe, dass die Gäste es nicht merken." },
+          { "text": "Ich stelle die Lampe in den Keller." }
+        ],
+        "explanation": "Alles muss funktionieren, bevor die Gäste da sind. Kleine Sachen behebst du selbst, alles andere meldest du."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✅ Die letzten Punkte auf der Checkliste. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🧻 Toilettenpapier" }, "right": { "text": "Mindestens 2 Rollen im Bad" } },
+          { "left": { "text": "🔑 Schlüssel" }, "right": { "text": "Vollständig und bereit für die Gäste" } },
+          { "left": { "text": "🗑️ Mülleimer" }, "right": { "text": "Leer, mit frischem Beutel" } },
+          { "left": { "text": "📺 Fernbedienung" }, "right": { "text": "Liegt sichtbar, Batterien gehen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥶 Es ist Winter. Die Gäste kommen heute Abend. Woran denkst du?",
+        "options": [
+          { "text": "Ich stelle die Heizung an. Die Wohnung soll angenehm warm sein.", "correct": true },
+          { "text": "Ich lasse alle Fenster bis zum Abend offen." },
+          { "text": "Heizen ist Aufgabe der Gäste." }
+        ],
+        "explanation": "Niemand will in eine kalte Wohnung kommen. Eine warme Wohnung sagt: Willkommen!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Alle Punkte sind abgehakt. Was machst du zum Schluss?",
+        "options": [
+          { "text": "Fenster schließen und die Tür abschließen. Die Wohnung ist bereit!", "correct": true },
+          { "text": "Die Tür weit offen stehen lassen." }
+        ],
+        "explanation": "Perfekt! Alles geprüft, alles bereit. Die Gäste können kommen. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

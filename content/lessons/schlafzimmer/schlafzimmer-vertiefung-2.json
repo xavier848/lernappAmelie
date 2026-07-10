@@ -1,0 +1,124 @@
+{
+  "topic_slug": "schlafzimmer",
+  "slug": "schlafzimmer-vertiefung-2",
+  "title": "Matratze, Fundsachen und Endkontrolle",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Zwischen Matratze und Spannbettlaken liegt der Matratzenschoner. Wozu ist er da?",
+        "options": [
+          { "text": "Er schützt die Matratze vor Flecken und Schweiß.", "correct": true },
+          { "text": "Er macht das Bett höher." },
+          { "text": "Er ist nur Dekoration." }
+        ],
+        "explanation": "Den Schoner kann man waschen, die Matratze nicht. So bleibt die Matratze lange sauber und hygienisch."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧺 Wäschewechsel mit Matratzen-Pflege: Ordne die Schritte.",
+        "steps": [
+          { "text": "🛏️ Bettwäsche und Laken abziehen." },
+          { "text": "🧺 Matratzenschoner abnehmen und zur Wäsche legen." },
+          { "text": "🪟 Fenster öffnen und die Matratze lüften lassen." },
+          { "text": "🆕 Frischen Matratzenschoner auflegen." },
+          { "text": "✨ Frisches Spannbettlaken aufziehen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Auf der Matratze ist ein großer Fleck. Was machst du?",
+        "options": [
+          { "text": "Ich melde es meiner Chefin.", "correct": true },
+          { "text": "Ich beziehe das Bett einfach trotzdem." },
+          { "text": "Ich stelle die Matratze in den Flur." }
+        ],
+        "explanation": "Flecken auf der Matratze müssen richtig behandelt werden. Melden ist immer richtig. Du musst das nicht allein lösen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⌚ Der Gast ist abgereist. In der Schublade liegt eine Uhr. Was machst du?",
+        "options": [
+          { "text": "Ich gebe die Uhr sofort bei meiner Chefin ab.", "correct": true },
+          { "text": "Ich behalte die Uhr. Der Gast ist ja weg." },
+          { "text": "Ich lasse sie einfach in der Schublade liegen." }
+        ],
+        "explanation": "Das nennt man Fundsache. Der Gast wird angerufen und bekommt seine Uhr zurück. Fundsachen behalten ist verboten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔦 Warum schaust du bei der Endkontrolle auch unter das Bett?",
+        "options": [
+          { "text": "Gäste vergessen dort oft Sachen. Und dort sammelt sich Staub.", "correct": true },
+          { "text": "Unter dem Bett wohnen Tiere." },
+          { "text": "Das muss man nicht." }
+        ],
+        "explanation": "Socken, Ladekabel, Schuhe: Unter dem Bett findet man viel! Ein kurzer Blick darunter gehört zu jeder Endkontrolle."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👀 Endkontrolle im Zimmer: Ist alles in Ordnung? Sortiere!",
+        "buckets": [
+          { "id": "in-ordnung", "label": "In Ordnung", "icon": "✅" },
+          { "id": "handeln", "label": "Da musst du handeln", "icon": "🔧" }
+        ],
+        "items": [
+          { "text": "✨ Bett ist glatt und frisch bezogen", "bucket": "in-ordnung" },
+          { "text": "🪞 Spiegel ist sauber", "bucket": "in-ordnung" },
+          { "text": "👗 Im Schrank hängen leere Bügel", "bucket": "in-ordnung" },
+          { "text": "🗑️ Der Mülleimer ist noch voll", "bucket": "handeln" },
+          { "text": "💡 Die Nachttisch-Lampe ist kaputt", "bucket": "handeln" },
+          { "text": "👃 Es riecht muffig", "bucket": "handeln" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory! So prüfst du das Zimmer mit allen Sinnen.",
+        "pairs": [
+          { "left": { "text": "👀 Schauen" }, "right": { "text": "Ist alles sauber?" } },
+          { "left": { "text": "👃 Riechen" }, "right": { "text": "Riecht es frisch?" } },
+          { "left": { "text": "✋ Fühlen" }, "right": { "text": "Ist das Bett glatt?" } },
+          { "left": { "text": "💡 Ausprobieren" }, "right": { "text": "Geht die Lampe an?" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Bei der Endkontrolle riecht das Zimmer muffig. Was machst du?",
+        "options": [
+          { "text": "Ich lüfte noch einmal kurz durch.", "correct": true },
+          { "text": "Ich sprühe ganz viel Parfüm." },
+          { "text": "Ich schließe schnell die Tür." }
+        ],
+        "explanation": "Frische Luft ist besser als jedes Spray. Parfüm überdeckt den Geruch nur. Lüften macht ihn wirklich weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏁 Letzte Frage, ganz leicht: Alles geprüft, alles top! Was machst du zum Schluss?",
+        "options": [
+          { "text": "Ich melde: Das Zimmer ist fertig!", "correct": true },
+          { "text": "Ich lege mich in das frische Bett." },
+          { "text": "Ich fange noch einmal von vorne an." }
+        ],
+        "explanation": "Genau! Zimmer fertig melden, dann weiß das ganze Team Bescheid. Tolle Arbeit! 🎉"
+      }
+    }
+  ]
+}

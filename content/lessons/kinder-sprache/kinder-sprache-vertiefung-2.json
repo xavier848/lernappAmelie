@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-sprache",
+  "slug": "kinder-sprache-vertiefung-2",
+  "title": "Singen, Reimen, Fingerspiele",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖐️ Was ist ein Fingerspiel?",
+        "options": [
+          { "text": "🖐️ Ein kleiner Reim mit Bewegungen der Finger und Hände.", "correct": true },
+          { "text": "🎮 Ein Spiel auf dem Handy." },
+          { "text": "🃏 Ein Kartenspiel." }
+        ],
+        "explanation": "Bei einem Fingerspiel sprichst du einen Reim. Die Finger machen die passenden Bewegungen dazu. Das übt Sprache und Hände gleichzeitig."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🖐️ Du machst ein Fingerspiel mit den Kindern. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪑 Die Kinder setzen sich ruhig hin." },
+          { "text": "🗣️ Du sagst den Reim langsam vor." },
+          { "text": "🖐️ Du zeigst die Bewegungen dazu." },
+          { "text": "🧒 Die Kinder machen die Bewegungen mit." },
+          { "text": "🔁 Ihr wiederholt das Fingerspiel zusammen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Welche Situation passt zu welchem Lied? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧹 Aufräumen" }, "right": { "text": "Aufräum-Lied" } },
+          { "left": { "text": "🍽️ Vor dem Essen" }, "right": { "text": "Tischspruch" } },
+          { "left": { "text": "😴 Vor dem Schlafen" }, "right": { "text": "Schlaflied" } },
+          { "left": { "text": "🎂 Geburtstag" }, "right": { "text": "Geburtstagslied" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎶 Warum helfen Reime beim Sprechen lernen?",
+        "options": [
+          { "text": "🧠 Das Kind hört, wie Wörter klingen. Der Rhythmus hilft beim Merken.", "correct": true },
+          { "text": "🔇 Reime machen Kinder stumm." },
+          { "text": "🍬 Reime sind nur zum Naschen da." }
+        ],
+        "explanation": "In Reimen klingen Wörter ähnlich: Haus und Maus. Das Kind hört genau hin. Mit Rhythmus und Wiederholung merkt es sich Wörter viel leichter."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎵 Macht das die Kinder munter oder ruhig? Sortiere.",
+        "buckets": [
+          { "id": "munter", "label": "Macht munter", "icon": "🏃" },
+          { "id": "ruhig", "label": "Macht ruhig", "icon": "😌" }
+        ],
+        "items": [
+          { "text": "Ein Tanzlied mit Hüpfen", "bucket": "munter" },
+          { "text": "Ein leises Schlaflied", "bucket": "ruhig" },
+          { "text": "Ein Bewegungslied mit Stampfen", "bucket": "munter" },
+          { "text": "Ein ruhiges Fingerspiel", "bucket": "ruhig" },
+          { "text": "Ein Kreisspiel mit Rennen", "bucket": "munter" },
+          { "text": "Leises Summen einer Melodie", "bucket": "ruhig" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎤 Du singst nicht perfekt. Darfst du trotzdem mit Kindern singen?",
+        "options": [
+          { "text": "💛 Ja klar! Den Kindern ist das egal. Mitmachen zählt.", "correct": true },
+          { "text": "🚫 Nein. Nur Profis dürfen singen." },
+          { "text": "📀 Nein. Ich spiele nur Musik vom Handy ab." }
+        ],
+        "explanation": "Kinder lieben es, wenn DU singst. Ob schief oder gerade ist ihnen egal. Deine Stimme und der Spaß zusammen sind wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐴 Was ist ein Kniereiter wie „Hoppe hoppe Reiter“?",
+        "options": [
+          { "text": "🧒 Ein Reim, bei dem das Kind auf deinen Knien wippt.", "correct": true },
+          { "text": "🏇 Ein echtes Pferderennen." },
+          { "text": "🪑 Ein Stuhl für die Küche." }
+        ],
+        "explanation": "Beim Kniereiter sitzt das Kind auf deinen Knien und wippt wie auf einem Pferd. Reim und Bewegung zusammen machen großen Spaß und üben die Sprache."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👶 Ein Kind spricht noch fast gar nicht. Hilft Singen trotzdem?",
+        "options": [
+          { "text": "👂 Ja. Zuhören, Mitklatschen und Mitsummen helfen schon.", "correct": true },
+          { "text": "🚫 Nein. Singen hilft erst, wenn das Kind sprechen kann." },
+          { "text": "😴 Nein. Singen ist nur zum Einschlafen da." }
+        ],
+        "explanation": "Verstehen kommt vor dem Sprechen. Das Kind hört die Wörter beim Singen immer wieder. Irgendwann singt es die ersten Wörter einfach mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Womit machst du ein Fingerspiel?",
+        "options": [
+          { "text": "🖐️ Mit den Fingern.", "correct": true },
+          { "text": "🦶 Mit den Zehen." },
+          { "text": "👂 Mit den Ohren." }
+        ],
+        "explanation": "Super! Fingerspiel heißt so, weil die Finger mitspielen. Gut gemacht!"
+      }
+    }
+  ]
+}

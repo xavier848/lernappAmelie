@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Open_Sans } from "next/font/google";
+import { ScrollReset } from "@/components/ui/ScrollReset";
 import "./globals.css";
 
 const openSans = Open_Sans({
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="de" className={`${openSans.variable} h-full antialiased`}>
       <body className="min-h-full">
+        <ScrollReset />
         <main className="mx-auto min-h-svh w-full max-w-md bg-white shadow-sm">
           {children}
         </main>

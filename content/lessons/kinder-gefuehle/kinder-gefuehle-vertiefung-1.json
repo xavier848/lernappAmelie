@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-gefuehle",
+  "slug": "kinder-gefuehle-vertiefung-1",
+  "title": "Trösten wie ein Profi",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤕 Ein Kind stolpert und fällt hin. Es schaut dich an. Es weint noch nicht. Wie reagierst du?",
+        "options": [
+          { "text": "🙂 Ich bleibe ruhig und gehe freundlich hin.", "correct": true },
+          { "text": "😱 Ich schreie laut: Oh nein, ein Unfall!" },
+          { "text": "🙈 Ich schaue weg und mache nichts." }
+        ],
+        "explanation": "Richtig! Das Kind schaut auf deine Reaktion. Bleibst du ruhig, bleibt das Kind oft auch ruhig. Erschrickst du laut, erschrickt das Kind mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Ein Kind weint. Jemand sagt: Ist doch nicht schlimm! Warum ist dieser Satz nicht gut?",
+        "options": [
+          { "text": "💔 Der Satz macht das Gefühl klein. Das Kind fühlt sich nicht ernst genommen.", "correct": true },
+          { "text": "📏 Der Satz ist zu lang für Kinder." },
+          { "text": "👍 Der Satz ist eigentlich perfekt." }
+        ],
+        "explanation": "Genau! Für das Kind ist es gerade schlimm. Sag lieber: Das tut weh, oder? Ich bin bei dir. So fühlt sich das Kind verstanden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗣️ Welche Sätze trösten? Welche Sätze verletzen? Sortiere.",
+        "buckets": [
+          { "id": "troestet", "label": "Das tröstet", "icon": "💚" },
+          { "id": "verletzt", "label": "Das verletzt", "icon": "💔" }
+        ],
+        "items": [
+          { "text": "🤗 Ich bin bei dir.", "bucket": "troestet" },
+          { "text": "💬 Das tut weh, oder?", "bucket": "troestet" },
+          { "text": "💛 Du darfst traurig sein.", "bucket": "troestet" },
+          { "text": "🙄 Stell dich nicht so an!", "bucket": "verletzt" },
+          { "text": "🤐 Hör sofort auf zu weinen!", "bucket": "verletzt" },
+          { "text": "😤 Ein großes Kind weint doch nicht!", "bucket": "verletzt" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤗 Du willst ein trauriges Kind in den Arm nehmen. Das Kind dreht sich weg. Was machst du?",
+        "options": [
+          { "text": "✋ Ich respektiere das. Ich bleibe einfach in der Nähe.", "correct": true },
+          { "text": "💪 Ich nehme es trotzdem fest in den Arm." },
+          { "text": "🚶 Ich bin beleidigt und gehe weg." }
+        ],
+        "explanation": "Richtig! Nicht jedes Kind mag immer Umarmungen. Das Kind bestimmt selbst über seinen Körper. Deine Nähe tröstet auch ohne Umarmung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "👋 Morgens in der Kita: Ein Kind weint, weil Mama zur Arbeit geht. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "👩 Mama verabschiedet sich kurz und klar." },
+          { "text": "✋ Du nimmst das Kind an die Hand." },
+          { "text": "🪟 Ihr winkt Mama zusammen am Fenster." },
+          { "text": "💬 Du benennst das Gefühl: Du vermisst Mama." },
+          { "text": "🧩 Du bietest ein Lieblingsspiel an." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Warum hilft ein festes Ritual beim Abschied? Zum Beispiel: jeden Morgen am Fenster winken.",
+        "options": [
+          { "text": "🔁 Das Kind weiß genau, was passiert. Das gibt Sicherheit.", "correct": true },
+          { "text": "⏰ So geht der Morgen schneller vorbei." },
+          { "text": "📸 Das sieht für die Eltern schön aus." }
+        ],
+        "explanation": "Genau! Ein Ritual ist jeden Tag gleich. Das Kind kennt den Ablauf. Das macht den Abschied leichter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💡 Was tröstet in dieser Situation? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧸 Kuscheltier zu Hause vergessen" }, "right": { "text": "Ein Leih-Kuscheltier anbieten" } },
+          { "left": { "text": "🤕 Kind hat sich gestoßen" }, "right": { "text": "Kühlen und dabei bleiben" } },
+          { "left": { "text": "😢 Kind vermisst Mama" }, "right": { "text": "Sagen, wann Mama kommt" } },
+          { "left": { "text": "😴 Kind ist müde und quengelig" }, "right": { "text": "Einen ruhigen Platz anbieten" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😭 Ein Kind weint sehr lange. Nichts hilft. Was machst du?",
+        "options": [
+          { "text": "🤝 Ich bleibe ruhig beim Kind und hole eine Kollegin dazu.", "correct": true },
+          { "text": "🚪 Ich lasse das Kind allein im Raum." },
+          { "text": "😠 Ich werde streng: Jetzt ist aber Schluss!" }
+        ],
+        "explanation": "Richtig! Hilfe holen ist kein Fehler. Das machen Profis so. Wichtig ist: Das Kind bleibt nie allein mit seinem Kummer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Was zeigt dem Kind: Ich bin für dich da?",
+        "options": [
+          { "text": "🤗 Bei ihm bleiben und zuhören.", "correct": true },
+          { "text": "📱 Auf das Handy schauen." },
+          { "text": "🚶 Schnell weggehen." }
+        ],
+        "explanation": "Super gemacht! Dableiben und zuhören ist der beste Trost. Mehr braucht es oft gar nicht."
+      }
+    }
+  ]
+}

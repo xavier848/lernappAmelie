@@ -171,6 +171,8 @@ export function LessonPlayer({
       setExercises(playable);
       setQueueState(createQueue(playable));
       setPhase("playing");
+      // Sicherheitsnetz gegen wiederhergestellte Scroll-Positionen (iOS).
+      window.scrollTo(0, 0);
     } catch (error) {
       console.warn("Lektion konnte nicht geladen werden:", error);
       setPhase("error");

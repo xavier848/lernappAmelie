@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-foerdern",
+  "slug": "kinder-foerdern-vertiefung-1",
+  "title": "Ein Angebot gut vorbereiten",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Du planst ein Bastelangebot. Warum legst du das Material VORHER bereit?",
+        "options": [
+          { "text": "🧒 Die Kinder müssen nicht warten. Du kannst bei ihnen bleiben.", "correct": true },
+          { "text": "📦 Damit der Schrank leer wird." },
+          { "text": "🤷 Das ist egal, man kann alles später holen." }
+        ],
+        "explanation": "Richtig! Wenn du mitten im Angebot Material holst, sind die Kinder allein. Sie werden unruhig. Gute Vorbereitung macht das Angebot ruhig und sicher."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🖌️ Du bereitest ein Malangebot mit Wasserfarben vor. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🛡️ Den Tisch mit Folie oder Zeitung abdecken." },
+          { "text": "🎨 Farben, Pinsel und Papier bereitlegen." },
+          { "text": "💧 Die Wasserbecher füllen." },
+          { "text": "🥼 Die Malkittel bereitlegen." },
+          { "text": "🧒 Die Kinder zum Maltisch einladen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Welches Material brauchst du wofür? Sortiere.",
+        "buckets": [
+          { "id": "malen", "label": "Malen", "icon": "🎨" },
+          { "id": "basteln", "label": "Basteln", "icon": "✂️" },
+          { "id": "backen", "label": "Backen", "icon": "🍪" }
+        ],
+        "items": [
+          { "text": "🖌️ Pinsel", "bucket": "malen" },
+          { "text": "🥼 Malkittel", "bucket": "malen" },
+          { "text": "✂️ Kinderschere", "bucket": "basteln" },
+          { "text": "🩹 Klebestift", "bucket": "basteln" },
+          { "text": "🌾 Mehl", "bucket": "backen" },
+          { "text": "🥣 Rührschüssel", "bucket": "backen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📿 Du planst ein Angebot mit kleinen Perlen. In der Gruppe sind auch Kinder unter 3 Jahren. Was beachtest du?",
+        "options": [
+          { "text": "⚠️ Kleine Teile sind für kleine Kinder gefährlich. Sie können sie verschlucken.", "correct": true },
+          { "text": "🤷 Kleine Perlen sind für alle Kinder gut geeignet." },
+          { "text": "🍬 Perlen sehen aus wie Bonbons, das ist lustig." }
+        ],
+        "explanation": "Genau! Kleine Kinder stecken vieles in den Mund. Kleine Teile können sie verschlucken. Wähle das Material immer passend zum Alter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✂️ Welche Schere geben wir Kindern zum Basteln?",
+        "options": [
+          { "text": "🧒 Eine Kinderschere mit runden Spitzen", "correct": true },
+          { "text": "🔪 Eine spitze, scharfe Haushaltsschere" },
+          { "text": "🪚 Eine große Stoffschere" }
+        ],
+        "explanation": "Richtig! Kinderscheren haben runde Spitzen. So kann sich niemand stechen. Trotzdem gilt: Beim Schneiden bleibst du dabei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Du willst eine neue Bastelidee anbieten. Was ist ein guter Tipp?",
+        "options": [
+          { "text": "🙋 Probiere die Idee vorher einmal selbst aus.", "correct": true },
+          { "text": "🎲 Einfach anfangen und schauen, was passiert." },
+          { "text": "📺 Den Kindern nur ein Video davon zeigen." }
+        ],
+        "explanation": "Genau! Wenn du es selbst probiert hast, kennst du jeden Schritt. Du weißt, wo es schwer wird. Dann kannst du gut helfen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Ein Memory! Welches Material gehört zusammen? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🖌️ Pinsel" }, "right": { "text": "🎨 Farbe" } },
+          { "left": { "text": "✂️ Schere" }, "right": { "text": "📄 Papier" } },
+          { "left": { "text": "🥣 Schüssel" }, "right": { "text": "🥄 Rührlöffel" } },
+          { "left": { "text": "🧽 Lappen" }, "right": { "text": "🪑 Tisch abwischen" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Das Angebot ist zu Ende. Was passiert mit dem Maltisch?",
+        "options": [
+          { "text": "🤝 Wir räumen zusammen mit den Kindern auf. Pinsel auswaschen, Tisch abwischen.", "correct": true },
+          { "text": "🏃 Alle rennen weg. Der Tisch bleibt so." },
+          { "text": "🙈 Aufräumen ist allein deine Aufgabe. Die Kinder schauen zu." }
+        ],
+        "explanation": "Richtig! Aufräumen gehört zum Angebot dazu. Die Kinder helfen mit. So lernen sie: Wir tragen zusammen Verantwortung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥼 Warum ziehen die Kinder beim Malen einen Malkittel an?",
+        "options": [
+          { "text": "😊 Die Kleidung bleibt sauber. Die Kinder können frei malen.", "correct": true },
+          { "text": "🎭 Damit alle gleich aussehen." }
+        ],
+        "explanation": "Super! Mit Kittel darf ruhig mal Farbe daneben gehen. Niemand muss Angst um die Kleidung haben. Das hast du dir gemerkt!"
+      }
+    }
+  ]
+}

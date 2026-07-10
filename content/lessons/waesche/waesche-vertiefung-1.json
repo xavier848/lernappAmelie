@@ -1,0 +1,136 @@
+{
+  "topic_slug": "waesche",
+  "slug": "waesche-vertiefung-1",
+  "title": "Das Flecken-Einmaleins",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Die wichtigste Regel bei Flecken: Was ist sie?",
+        "options": [
+          { "text": "Schnell handeln. Frische Flecken gehen viel leichter raus.", "correct": true },
+          { "text": "Erst mal ein paar Tage warten." },
+          { "text": "Den Fleck einfach übermalen." }
+        ],
+        "explanation": "Je länger ein Fleck einzieht, desto fester sitzt er im Stoff. Also: sofort behandeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Tupfen oder reiben – wie behandelst du einen frischen Fleck?",
+        "options": [
+          { "text": "Vorsichtig tupfen.", "correct": true },
+          { "text": "Fest reiben." },
+          { "text": "Mit dem Fingernagel kratzen." }
+        ],
+        "explanation": "Reiben drückt den Fleck tiefer in den Stoff und macht ihn größer. Tupfen nimmt den Fleck auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩸 Ein Blutfleck, zum Beispiel von einem kleinen Kratzer im Stall. Womit spülst du ihn aus?",
+        "options": [
+          { "text": "Mit kaltem Wasser.", "correct": true },
+          { "text": "Mit heißem Wasser." },
+          { "text": "Gar nicht. Blut geht von allein raus." }
+        ],
+        "explanation": "Wichtig: Blut immer kalt! Warmes Wasser lässt das Blut gerinnen – dann sitzt der Fleck fest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Ein Fettfleck von Butter oder Pommes. Was hilft?",
+        "options": [
+          { "text": "Etwas Spülmittel auf den Fleck geben.", "correct": true },
+          { "text": "Nur kaltes Wasser." },
+          { "text": "Den Fleck föhnen." }
+        ],
+        "explanation": "Spülmittel löst Fett – genau wie beim Abwasch. Kurz einwirken lassen, dann waschen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎯 Welcher Fleck, welche Behandlung? Verbinde die Paare.",
+        "pairs": [
+          { "left": { "text": "🩸 Blut" }, "right": { "text": "Kaltes Wasser" } },
+          { "left": { "text": "🍟 Fett" }, "right": { "text": "Spülmittel" } },
+          { "left": { "text": "🌱 Gras" }, "right": { "text": "Gallseife" } },
+          { "left": { "text": "☕ Kaffee" }, "right": { "text": "Sofort mit Wasser ausspülen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧼 So behandelst du einen Fleck. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "👀 Fleck entdecken." },
+          { "text": "🏃 Sofort handeln, nicht warten." },
+          { "text": "🧻 Vorsichtig abtupfen." },
+          { "text": "🧼 Gallseife oder Fleckenmittel auftragen." },
+          { "text": "⏳ Kurz einwirken lassen." },
+          { "text": "🌀 Normal in der Maschine waschen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧊 Kaltes Wasser oder Spülmittel? Sortiere die Flecken zur richtigen Behandlung.",
+        "buckets": [
+          { "id": "kalt", "label": "Kaltes Wasser", "icon": "🧊" },
+          { "id": "spuelmittel", "label": "Spülmittel", "icon": "🧴" }
+        ],
+        "items": [
+          { "text": "🩸 Blut", "bucket": "kalt" },
+          { "text": "🥚 Ei", "bucket": "kalt" },
+          { "text": "🍷 Rotwein", "bucket": "kalt" },
+          { "text": "🫒 Öl", "bucket": "spuelmittel" },
+          { "text": "🧈 Butter", "bucket": "spuelmittel" },
+          { "text": "🍕 Fettige Soße", "bucket": "spuelmittel" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐴 Deine Reithose hat Grasflecken. Was machst du?",
+        "options": [
+          { "text": "Einweichen und mit Gallseife behandeln. Dann waschen.", "correct": true },
+          { "text": "Nur trocken ausbürsten." },
+          { "text": "Die Hose wegwerfen." }
+        ],
+        "explanation": "Die grüne Farbe vom Gras sitzt tief im Stoff. Gallseife löst sie. Danach ganz normal waschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😬 Nach dem Waschen ist der Fleck noch da. Was machst du?",
+        "options": [
+          { "text": "Nochmal behandeln und waschen. Auf keinen Fall in den Trockner!", "correct": true },
+          { "text": "Ab in den Trockner, das trocknet den Fleck weg." },
+          { "text": "Das Teil so in den Schrank legen." }
+        ],
+        "explanation": "Die Hitze im Trockner brennt den Fleck fest. Dann geht er nie mehr raus. Also: erst nochmal behandeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏆 Welcher Fleck geht leichter raus?",
+        "options": [
+          { "text": "Der frische Fleck.", "correct": true },
+          { "text": "Der alte, eingetrocknete Fleck." }
+        ],
+        "explanation": "Genau! Frisch behandelt ist halb gewonnen. Du kennst jetzt das Flecken-Einmaleins. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

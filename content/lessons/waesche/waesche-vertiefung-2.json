@@ -1,0 +1,124 @@
+{
+  "topic_slug": "waesche",
+  "slug": "waesche-vertiefung-2",
+  "title": "Glatt gemacht: Bügeln und Wäsche schonen",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤐 Eine Jacke mit Reißverschluss kommt in die Wäsche. Was machst du vorher?",
+        "options": [
+          { "text": "Ich mache den Reißverschluss zu.", "correct": true },
+          { "text": "Ich lasse ihn offen." },
+          { "text": "Ich schneide ihn ab." }
+        ],
+        "explanation": "Ein offener Reißverschluss reibt in der Trommel an anderer Wäsche. Das macht Löcher und zieht Fäden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫧 Feine Sachen wie BH oder dünne Bluse: Wie wäschst du sie schonend?",
+        "options": [
+          { "text": "Ich stecke sie in ein Wäschenetz.", "correct": true },
+          { "text": "Ich werfe sie lose zu den Jeans." },
+          { "text": "Ich wasche sie ganz heiß." }
+        ],
+        "explanation": "Das Wäschenetz schützt feine Stoffe. Nichts verhakt sich, nichts verzieht sich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Ein T-Shirt hat einen Aufdruck. Wie wäschst und bügelst du es?",
+        "options": [
+          { "text": "Auf links gedreht.", "correct": true },
+          { "text": "Ganz normal, mit dem Druck nach außen." },
+          { "text": "Mit dem heißen Eisen direkt auf den Druck." }
+        ],
+        "explanation": "Auf links heißt: Innenseite nach außen. So schützt du den Aufdruck vor Hitze und Reibung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Die Punkte auf dem Bügel-Zeichen zeigen die Temperatur. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🔥 Bügeleisen mit 1 Punkt" }, "right": { "text": "Kühl: z. B. Synthetik" } },
+          { "left": { "text": "🔥🔥 Bügeleisen mit 2 Punkten" }, "right": { "text": "Mittel: z. B. Wolle und Seide" } },
+          { "left": { "text": "🔥🔥🔥 Bügeleisen mit 3 Punkten" }, "right": { "text": "Heiß: z. B. Baumwolle und Leinen" } },
+          { "left": { "text": "🚫 Durchgestrichenes Bügeleisen" }, "right": { "text": "Nicht bügeln!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "♨️ So bügelst du sicher. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧍 Bügelbrett aufstellen." },
+          { "text": "🔌 Bügeleisen einstecken und Temperatur wählen." },
+          { "text": "⏳ Warten, bis das Eisen heiß ist." },
+          { "text": "👕 Wäschestück glatt auf das Brett legen." },
+          { "text": "♨️ Bügeln." },
+          { "text": "🔌 Stecker ziehen und Eisen abkühlen lassen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Du machst beim Bügeln kurz Pause. Wie stellst du das heiße Eisen ab?",
+        "options": [
+          { "text": "Aufrecht auf den Standfuß.", "correct": true },
+          { "text": "Flach auf das Bügelbrett." },
+          { "text": "Auf das frisch gebügelte Hemd." }
+        ],
+        "explanation": "Liegt das heiße Eisen flach, verbrennt es Stoff und Brett. Das ist Brandgefahr! Immer aufrecht abstellen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Du bügelst einen ganzen Korb. Womit fängst du an?",
+        "options": [
+          { "text": "Mit den kühlen Sachen. Die heißen kommen danach.", "correct": true },
+          { "text": "Mit den heißen Sachen. Die kühlen kommen danach." },
+          { "text": "Immer bunt durcheinander." }
+        ],
+        "explanation": "Das Eisen wird schnell heißer, aber nur langsam kühler. Darum: erst kühl (Synthetik), dann heiß (Baumwolle)."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👔 Was lohnt sich zu bügeln? Und was braucht kein Bügeleisen?",
+        "buckets": [
+          { "id": "buegeln", "label": "Bügeln lohnt sich", "icon": "👔" },
+          { "id": "nicht", "label": "Braucht kein Bügeleisen", "icon": "🙅" }
+        ],
+        "items": [
+          { "text": "👔 Hemd", "bucket": "buegeln" },
+          { "text": "👚 Bluse", "bucket": "buegeln" },
+          { "text": "🍽️ Tischdecke", "bucket": "buegeln" },
+          { "text": "🤍 Handtücher", "bucket": "nicht" },
+          { "text": "🧦 Socken", "bucket": "nicht" },
+          { "text": "🧥 Fleece-Jacke", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Das Hemd ist fertig gebügelt. Was machst du damit?",
+        "options": [
+          { "text": "Sofort auf einen Kleiderbügel hängen.", "correct": true },
+          { "text": "Zusammenknüllen und in den Schrank werfen." }
+        ],
+        "explanation": "Genau! Auf dem Bügel bleibt das Hemd glatt – deine Arbeit hat sich gelohnt. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

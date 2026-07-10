@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-alltag",
+  "slug": "kinder-alltag-vertiefung-2",
+  "title": "Wickeln und Umziehen mit Respekt",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧷 Du willst ein Kind wickeln. Was machst du ZUERST?",
+        "options": [
+          { "text": "📦 Ich lege alles bereit: Windel, Feuchttücher, frische Kleidung.", "correct": true },
+          { "text": "🏃 Ich lege das Kind hin und hole dann erst die Sachen." },
+          { "text": "🤷 Ich fange einfach an und schaue, was fehlt." }
+        ],
+        "explanation": "Richtig! Erst alles bereitlegen. Denn ganz wichtig: Ein Kind auf dem Wickeltisch lässt du niemals allein. Es könnte herunterfallen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧷 Wickeln – Schritt für Schritt. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "📦 Material bereitlegen: Windel, Feuchttücher, frische Kleidung." },
+          { "text": "🧼 Hände waschen und Handschuhe anziehen." },
+          { "text": "🗣️ Dem Kind sagen: „Ich wickle dich jetzt.“" },
+          { "text": "🧷 Das Kind sauber machen und die frische Windel anziehen." },
+          { "text": "🤲 Das Kind vom Wickeltisch nehmen." },
+          { "text": "🧴 Die Unterlage desinfizieren und Hände waschen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📞 Du wickelst ein Kind. Da klingelt das Telefon im Nebenraum. Was machst du?",
+        "options": [
+          { "text": "✋ Ich bleibe beim Kind. Das Telefon muss warten.", "correct": true },
+          { "text": "🏃 Ich laufe schnell zum Telefon. Das Kind wartet auf dem Wickeltisch." },
+          { "text": "📱 Ich telefoniere und wickle gleichzeitig." }
+        ],
+        "explanation": "Genau! Das Kind auf dem Wickeltisch lässt du nie allein – keine Sekunde. Es kann herunterfallen. Eine Hand bleibt immer am Kind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Warum sagst du dem Kind vorher, was du beim Wickeln machst?",
+        "options": [
+          { "text": "💛 Es ist sein Körper. Das Kind soll wissen, was passiert. Das ist Respekt.", "correct": true },
+          { "text": "🙄 Damit die Zeit schneller vergeht." },
+          { "text": "📢 Damit alle anderen es auch hören." }
+        ],
+        "explanation": "Richtig! Wickeln ist etwas sehr Persönliches. Du kündigst jeden Schritt an. So erschrickt das Kind nicht und fühlt sich sicher."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Sortiere: Was ist beim Wickeln hygienisch richtig? Was ist falsch?",
+        "buckets": [
+          { "id": "richtig", "label": "Hygienisch richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "🧤 Handschuhe tragen", "bucket": "richtig" },
+          { "text": "🧴 Die Unterlage nach jedem Wickeln desinfizieren", "bucket": "richtig" },
+          { "text": "🗑️ Die Windel sofort in den Windeleimer werfen", "bucket": "richtig" },
+          { "text": "🙅 Ohne Händewaschen weiterarbeiten", "bucket": "falsch" },
+          { "text": "🧷 Die volle Windel offen liegen lassen", "bucket": "falsch" },
+          { "text": "🧤 Dieselben Handschuhe für zwei Kinder benutzen", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Du machst ein Mädchen beim Wickeln sauber. In welche Richtung wischst du?",
+        "options": [
+          { "text": "➡️ Immer von vorne nach hinten.", "correct": true },
+          { "text": "⬅️ Immer von hinten nach vorne." },
+          { "text": "🔄 Die Richtung ist egal." }
+        ],
+        "explanation": "Genau! Von vorne nach hinten. So kommen keine Darm-Bakterien in die Harnwege. Das schützt vor Entzündungen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧥 Ein Kind kann seine Jacke schon fast alleine anziehen. Es braucht nur lange. Was machst du?",
+        "options": [
+          { "text": "⏳ Ich lasse dem Kind Zeit. Ich helfe nur, wo es nötig ist.", "correct": true },
+          { "text": "⚡ Ich ziehe das Kind schnell selbst an. Das geht schneller." },
+          { "text": "😤 Ich sage: „Das kannst du sowieso nicht.“" }
+        ],
+        "explanation": "Richtig! Der Leitsatz heißt: „Hilf mir, es selbst zu tun.“ Nur wer üben darf, wird selbstständig. Deine Geduld ist ein Geschenk."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Warum machen wir das beim Wickeln so? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧤 Handschuhe" }, "right": { "text": "Schutz vor Krankmachern" } },
+          { "left": { "text": "🗣️ „Ich wickle dich jetzt.“" }, "right": { "text": "Respekt vor dem Kind" } },
+          { "left": { "text": "🧴 Desinfektionsmittel" }, "right": { "text": "Die Unterlage sauber machen" } },
+          { "left": { "text": "✋ Eine Hand am Kind" }, "right": { "text": "Schutz vor dem Herunterfallen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Das Wickeln ist fertig. Was machst du zum Schluss?",
+        "options": [
+          { "text": "🧼 Gründlich die Hände waschen.", "correct": true },
+          { "text": "🍪 Sofort einen Keks essen." }
+        ],
+        "explanation": "Super! Nach dem Wickeln immer Hände waschen – auch mit Handschuhen. Das weißt du schon richtig gut!"
+      }
+    }
+  ]
+}

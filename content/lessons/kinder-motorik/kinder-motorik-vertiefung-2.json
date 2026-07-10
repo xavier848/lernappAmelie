@@ -1,0 +1,125 @@
+{
+  "topic_slug": "kinder-motorik",
+  "slug": "kinder-motorik-vertiefung-2",
+  "title": "Draußen toben – aber sicher!",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌳 Ihr wollt raus auf den Spielplatz. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🌦️ Aus dem Fenster schauen: Wie ist das Wetter?" },
+          { "text": "🧥 Dem Kind passende Kleidung anziehen." },
+          { "text": "👟 Feste Schuhe anziehen." },
+          { "text": "🎒 Wasser zum Trinken einpacken." },
+          { "text": "🚶 Zusammen losgehen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Ihr kommt auf dem Spielplatz an. Was prüfst du zuerst?",
+        "options": [
+          { "text": "🔍 Sind die Geräte heil? Liegt Müll oder Glas herum?", "correct": true },
+          { "text": "📱 Ob mein Handy Empfang hat." },
+          { "text": "🪑 Wo die beste Bank zum Sitzen ist." }
+        ],
+        "explanation": "Sicherheit geht vor. Schau kurz: Sind Schaukel und Rutsche heil? Liegen Scherben oder Müll im Sand? Erst dann dürfen die Kinder loslegen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Welches Wetter braucht welche Kleidung? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🌧️ Regen" }, "right": { "text": "Matschhose und Gummistiefel" } },
+          { "left": { "text": "☀️ Sonne" }, "right": { "text": "Sonnenhut und Sonnencreme" } },
+          { "left": { "text": "❄️ Kälte" }, "right": { "text": "Mütze und Handschuhe" } },
+          { "left": { "text": "💨 Wind" }, "right": { "text": "Eine Jacke zum Schließen" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💪 Was übt das Kind dabei? Sortiere.",
+        "buckets": [
+          { "id": "gleichgewicht", "label": "Gleichgewicht", "icon": "🤸" },
+          { "id": "kraft", "label": "Kraft", "icon": "💪" },
+          { "id": "zielen", "label": "Zielen", "icon": "🎯" }
+        ],
+        "items": [
+          { "text": "Auf einem Baumstamm balancieren", "bucket": "gleichgewicht" },
+          { "text": "Schaukeln", "bucket": "gleichgewicht" },
+          { "text": "Am Klettergerüst klettern", "bucket": "kraft" },
+          { "text": "Den Hügel hochrennen", "bucket": "kraft" },
+          { "text": "Zapfen in einen Eimer werfen", "bucket": "zielen" },
+          { "text": "Steine auf einen Turm stapeln", "bucket": "zielen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧗 Ein Kind will hoch aufs Klettergerüst. Es kommt alleine nicht weiter. Was machst du?",
+        "options": [
+          { "text": "🧍 Ich bleibe nah dabei. Das Kind klettert nur so hoch, wie es alleine kommt.", "correct": true },
+          { "text": "🙌 Ich hebe das Kind ganz nach oben." },
+          { "text": "🚶 Ich gehe weg. Das Kind schafft das schon." }
+        ],
+        "explanation": "Wichtige Regel: Kinder klettern nur so hoch, wie sie alleine kommen. Dann kommen sie auch alleine wieder herunter. Hebst du das Kind hoch, ist es oben nicht sicher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚴 Ein Kind kommt mit dem Fahrradhelm zum Klettergerüst. Was machst du?",
+        "options": [
+          { "text": "⛑️ Ich nehme dem Kind den Helm ab, bevor es klettert.", "correct": true },
+          { "text": "👍 Der Helm bleibt auf. Er schützt doch." },
+          { "text": "🙈 Das ist mir egal." }
+        ],
+        "explanation": "Beim Klettern und Rutschen kann der Helm hängen bleiben. Das ist sehr gefährlich. Darum gilt: Helm auf dem Rad, Helm ab am Klettergerüst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚲 Ein Kind fährt mit dem Laufrad. Was braucht es auf dem Kopf?",
+        "options": [
+          { "text": "⛑️ Einen Helm.", "correct": true },
+          { "text": "🎩 Einen Zylinder." },
+          { "text": "🍳 Einen Kochtopf." }
+        ],
+        "explanation": "Auf dem Laufrad und dem Fahrrad gilt: Helm auf! Der Helm schützt den Kopf, wenn das Kind stürzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩹 Ein Kind stolpert und schürft sich das Knie auf. Es weint. Was machst du?",
+        "options": [
+          { "text": "🤗 Ruhig bleiben, das Kind trösten und die Wunde sauber machen.", "correct": true },
+          { "text": "😱 Laut schreien und in Panik geraten." },
+          { "text": "🙄 Sagen: Stell dich nicht so an." }
+        ],
+        "explanation": "Bleib ruhig. Wenn du ruhig bist, beruhigt sich auch das Kind. Dann die Wunde sauber machen und ein Pflaster draufkleben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Wo tobt es sich am besten?",
+        "options": [
+          { "text": "🌳 Draußen auf der Wiese. Da ist viel Platz.", "correct": true },
+          { "text": "🚪 Im engen Flur." },
+          { "text": "🛁 In der Badewanne." }
+        ],
+        "explanation": "Super! Draußen ist viel Platz zum Rennen, Hüpfen und Toben. Und frische Luft gibt es gratis dazu."
+      }
+    }
+  ]
+}

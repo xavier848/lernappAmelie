@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-sicherheit",
+  "slug": "kinder-sicherheit-vertiefung-1",
+  "title": "Die Wohnung kindersicher machen",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔍 Du machst einen Sicherheits-Rundgang im Wohnzimmer. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧎 Auf Knie-Höhe gehen. So siehst du die Welt wie das Kind." },
+          { "text": "🔵 Kleine Teile vom Boden aufheben." },
+          { "text": "🔌 Kabel und Kordeln hoch wegräumen." },
+          { "text": "📐 Spitze Ecken und Kanten prüfen." },
+          { "text": "🗄️ Schwere Möbel prüfen: Wackeln sie?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔋 Eine kleine Knopf-Batterie liegt auf dem Boden. Was machst du?",
+        "options": [
+          { "text": "⚡ Sofort aufheben und sicher wegräumen.", "correct": true },
+          { "text": "🤷 Liegen lassen. Die ist doch winzig." },
+          { "text": "🧸 Dem Kind zum Spielen geben." }
+        ],
+        "explanation": "Richtig! Knopf-Batterien sind sehr gefährlich. Verschluckt können sie innen schwer verletzen. Dann muss das Kind sofort ins Krankenhaus."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏠 Zimmer-Check: Wo musst du etwas ändern? Was ist schon sicher? Sortiere.",
+        "buckets": [
+          { "id": "sichern", "label": "Gefahr! Sichern!", "icon": "⚠️" },
+          { "id": "sicher", "label": "Schon sicher", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "🪢 Die Kordel der Jalousie hängt tief herunter.", "bucket": "sichern" },
+          { "text": "🫖 Die Tischdecke hängt weit herunter. Darauf steht heißer Tee.", "bucket": "sichern" },
+          { "text": "🗄️ Das Regal ist nicht an der Wand festgeschraubt.", "bucket": "sichern" },
+          { "text": "🔌 Alle Steckdosen haben einen Schutz.", "bucket": "sicher" },
+          { "text": "🔵 Kleine Teile liegen hoch oben im Schrank.", "bucket": "sicher" },
+          { "text": "🚧 Das Treppen-Gitter ist geschlossen.", "bucket": "sicher" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫖 Warum ist eine herabhängende Tischdecke mit heißem Tee gefährlich?",
+        "options": [
+          { "text": "🔥 Das Kind zieht an der Decke. Der heiße Tee kippt auf das Kind.", "correct": true },
+          { "text": "🎨 Die Tischdecke passt nicht zur Wohnung." },
+          { "text": "🧺 Die Tischdecke wird schneller schmutzig." }
+        ],
+        "explanation": "Genau! Kleine Kinder ziehen an allem, was herunterhängt. Heiße Getränke verbrennen die Haut sofort. Stelle Heißes immer weit weg vom Rand. Besser ohne lange Tischdecke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Warum schraubt man Regale und Kommoden an der Wand fest?",
+        "options": [
+          { "text": "🧗 Kinder klettern daran hoch. Das Möbel kann sonst umkippen.", "correct": true },
+          { "text": "🎨 Festgeschraubt sieht es schöner aus." },
+          { "text": "🧹 Dann muss man weniger putzen." }
+        ],
+        "explanation": "Richtig! Kinder ziehen Schubladen auf und klettern hinauf. Ein umkippendes Möbel ist lebensgefährlich. Festschrauben schützt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🛡️ Finde zu jeder Gefahr den passenden Schutz.",
+        "pairs": [
+          { "left": { "text": "🗄️ Wackelige Kommode" }, "right": { "text": "An der Wand festschrauben" } },
+          { "left": { "text": "📐 Spitze Tischkante" }, "right": { "text": "Kantenschutz aufkleben" } },
+          { "left": { "text": "🪢 Kordel am Fenster" }, "right": { "text": "Hochbinden, außer Reichweite" } },
+          { "left": { "text": "🛍️ Plastiktüte" }, "right": { "text": "Hoch oben wegräumen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👶 Du wickelst ein Baby. Dir fehlt eine frische Windel. Was machst du?",
+        "options": [
+          { "text": "🤱 Ich nehme das Baby mit. Es bleibt nie allein auf dem Wickeltisch.", "correct": true },
+          { "text": "🏃 Ich hole schnell die Windel. Das dauert ja nur kurz." },
+          { "text": "📱 Ich rufe erst eine Kollegin an." }
+        ],
+        "explanation": "Richtig! Babys drehen sich blitzschnell. Vom Wickeltisch fallen sie tief. Darum gilt: immer eine Hand am Baby oder das Baby mitnehmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫗 Der Wasserkocher steht in der Küche. Worauf achtest du?",
+        "options": [
+          { "text": "🔌 Das Kabel hängt nicht herunter. Das Kind kann nicht daran ziehen.", "correct": true },
+          { "text": "✨ Der Wasserkocher glänzt schön." },
+          { "text": "🎵 Der Wasserkocher pfeift laut." }
+        ],
+        "explanation": "Genau! Zieht das Kind am Kabel, kippt kochendes Wasser herunter. Schiebe Geräte und Kabel immer ganz nach hinten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Wo ist ein guter Platz für kleine Teile, die Kinder verschlucken können?",
+        "options": [
+          { "text": "🗄️ Hoch oben im Schrank.", "correct": true },
+          { "text": "🧺 Unten im Spielzeugkorb." },
+          { "text": "🛋️ Auf dem Boden vor dem Sofa." }
+        ],
+        "explanation": "Super gemacht! Hoch oben kommt das Kind nicht heran. So ist es sicher."
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "topic_slug": "kinder-sprechen",
+  "slug": "kinder-sprechen-vertiefung-1",
+  "title": "Sag es kurz und positiv!",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏃 Ein Kind rennt durch den Raum. Was sagst du am besten?",
+        "options": [
+          { "text": "🙂 „Geh bitte langsam.“", "correct": true },
+          { "text": "🚫 „Renn nicht!“" },
+          { "text": "😤 „Wie oft soll ich das noch sagen?!“" }
+        ],
+        "explanation": "Richtig! Sag dem Kind, was es TUN soll. Nicht, was es lassen soll. Bei „Renn nicht!“ hört das Kind vor allem das Wort „rennen“."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔄 Mach aus dem Verbot einen positiven Satz. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🚫 „Schrei nicht!“" }, "right": { "text": "„Sprich bitte leise.“" } },
+          { "left": { "text": "🚫 „Mal nicht auf den Tisch!“" }, "right": { "text": "„Mal bitte auf das Papier.“" } },
+          { "left": { "text": "🚫 „Wirf das Essen nicht!“" }, "right": { "text": "„Das Essen bleibt auf dem Teller.“" } },
+          { "left": { "text": "🚫 „Schubs nicht!“" }, "right": { "text": "„Warte bitte, bis du dran bist.“" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Sortiere die Sätze: Welche sind positiv formuliert? Welche sind Verbote?",
+        "buckets": [
+          { "id": "positiv", "label": "Positiv formuliert", "icon": "💚" },
+          { "id": "verbot", "label": "Verbot", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "„Geh bitte langsam.“", "bucket": "positiv" },
+          { "text": "„Halte dich am Geländer fest.“", "bucket": "positiv" },
+          { "text": "„Leg die Bücher ins Regal.“", "bucket": "positiv" },
+          { "text": "„Renn nicht!“", "bucket": "verbot" },
+          { "text": "„Fass das nicht an!“", "bucket": "verbot" },
+          { "text": "„Sei nicht so laut!“", "bucket": "verbot" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Welche Anweisung ist am klarsten für ein Kind?",
+        "options": [
+          { "text": "🪑 „Setz dich bitte auf deinen Stuhl.“", "correct": true },
+          { "text": "😐 „Sei jetzt endlich mal brav.“" },
+          { "text": "🌀 „Also, es wäre schön, wenn du vielleicht irgendwann mal…“" }
+        ],
+        "explanation": "Genau! „Sei brav“ ist unklar. Das Kind weiß nicht, was es tun soll. Eine gute Anweisung ist kurz und konkret."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧹 Das Freispiel ist gleich zu Ende. Ihr wollt aufräumen. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "⏰ Früh ankündigen: „In 5 Minuten räumen wir auf.“" },
+          { "text": "🎵 Das Signal geben, zum Beispiel das Aufräum-Lied." },
+          { "text": "🗣️ Eine klare Anweisung sagen: „Leg die Autos in die Kiste.“" },
+          { "text": "🤝 Mithelfen und zeigen, wie es geht." },
+          { "text": "🌟 Loben: „Ihr habt super aufgeräumt!“" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Warum kündigst du das Aufräumen früher an?",
+        "options": [
+          { "text": "🧠 Die Kinder können ihr Spiel zu Ende bringen. Der Wechsel fällt leichter.", "correct": true },
+          { "text": "🙄 Damit die Kinder länger spielen können." },
+          { "text": "📢 Damit du zweimal schimpfen kannst." }
+        ],
+        "explanation": "Richtig! Ein plötzliches Stopp ist für Kinder schwer. Mit einer Ankündigung können sie sich vorbereiten. Das gibt weniger Streit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧥 Ein Kind trödelt beim Anziehen. Es kommt nicht voran. Was sagst du?",
+        "options": [
+          { "text": "👟 „Zieh zuerst deine Schuhe an.“ Ein Schritt nach dem anderen.", "correct": true },
+          { "text": "😤 „Beeil dich endlich! Immer trödelst du.“" },
+          { "text": "🤐 Nichts. Ich ziehe das Kind einfach schnell selbst an." }
+        ],
+        "explanation": "Genau! Viele Aufgaben auf einmal überfordern. Nenne einen kleinen Schritt. Wenn er fertig ist, kommt der nächste."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Wie klingt deine Stimme bei einer Anweisung am besten?",
+        "options": [
+          { "text": "🙂 Freundlich, ruhig und deutlich", "correct": true },
+          { "text": "📢 Laut und drohend" },
+          { "text": "🤫 So leise, dass niemand etwas versteht" }
+        ],
+        "explanation": "Richtig! Freundlich und deutlich – so hören Kinder gerne zu. Schau das Kind dabei an. Dann weiß es: Du meinst mich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💛 Gehören „Bitte“ und „Danke“ auch in deine Anweisungen?",
+        "options": [
+          { "text": "😊 Ja! Ich bin höflich – so lernen es die Kinder auch.", "correct": true },
+          { "text": "🙅 Nein, das ist bei Kindern nicht nötig." }
+        ],
+        "explanation": "Super! Du bist das Vorbild. Wenn du „Bitte“ und „Danke“ sagst, sagen es die Kinder bald auch. Das machst du toll!"
+      }
+    }
+  ]
+}

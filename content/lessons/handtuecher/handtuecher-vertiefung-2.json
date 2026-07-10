@@ -1,0 +1,126 @@
+{
+  "topic_slug": "handtuecher",
+  "slug": "handtuecher-vertiefung-2",
+  "title": "Alles frisch für neue Gäste",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste sind abgereist. 🚗 Was passiert mit den Handtüchern in der Wohnung?",
+        "options": [
+          { "text": "Alle kommen in die Wäsche. Auch die, die sauber aussehen.", "correct": true },
+          { "text": "Nur die nassen kommen in die Wäsche." },
+          { "text": "Sie bleiben für die nächsten Gäste hängen." }
+        ],
+        "explanation": "Richtig! Für neue Gäste wird alles frisch gemacht. Jeder Gast bekommt nur unbenutzte Handtücher. 🧺"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "So beziehst du das Bett frisch. 🛏️ Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🛏️ Die alte Bettwäsche abziehen." },
+          { "text": "🧺 Alles in den Wäschekorb legen." },
+          { "text": "Das frische Spannbettlaken über die Matratze ziehen." },
+          { "text": "Die Decke frisch beziehen." },
+          { "text": "Das Kissen frisch beziehen." },
+          { "text": "✨ Decke und Kissen glatt auf das Bett legen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Bettwäsche-Wissen: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🛏️ Spannbettlaken" }, "right": { "text": "Kommt über die Matratze" } },
+          { "left": { "text": "🛌 Bettbezug" }, "right": { "text": "Kommt um die Decke" } },
+          { "left": { "text": "💤 Kissenbezug" }, "right": { "text": "Kommt um das Kissen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Wie viele Handtücher legst du pro Gast bereit? 🧺",
+        "options": [
+          { "text": "Ein großes Duschtuch und ein kleines Handtuch.", "correct": true },
+          { "text": "Nur einen Waschlappen." },
+          { "text": "Zehn Handtücher pro Gast." }
+        ],
+        "explanation": "Genau! Pro Gast: ein großes Duschtuch und ein kleines Handtuch. So macht man es auch im Hotel. 🧺"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wohin gehört die frische Wäsche? Sortiere.",
+        "buckets": [
+          { "id": "bad", "label": "Bad", "icon": "🛁" },
+          { "id": "schlafzimmer", "label": "Schlafzimmer", "icon": "🛏️" },
+          { "id": "kueche", "label": "Küche", "icon": "🍳" }
+        ],
+        "items": [
+          { "text": "Duschtuch", "bucket": "bad" },
+          { "text": "Kleines Handtuch", "bucket": "bad" },
+          { "text": "Waschlappen", "bucket": "bad" },
+          { "text": "Bettwäsche", "bucket": "schlafzimmer" },
+          { "text": "Spannbettlaken", "bucket": "schlafzimmer" },
+          { "text": "Geschirrtuch", "bucket": "kueche" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Wie legst du die frischen Handtücher für die Gäste hin? 🎀",
+        "options": [
+          { "text": "Schön gefaltet ins Bad oder ans Fußende vom Bett.", "correct": true },
+          { "text": "Zusammengeknüllt in eine Ecke." },
+          { "text": "Ich lasse sie im Wäschekorb." }
+        ],
+        "explanation": "Richtig! Schön gefaltet im Bad oder auf dem Bett. Das sieht einladend aus, wie im Hotel. 🎀"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Auf einem frischen Duschtuch entdeckst du einen Fleck. 😮 Was machst du?",
+        "options": [
+          { "text": "Zurück in die Wäsche. Ich nehme ein anderes.", "correct": true },
+          { "text": "Ich falte es so, dass man den Fleck nicht sieht." },
+          { "text": "Ich lege es trotzdem hin." }
+        ],
+        "explanation": "Genau! Gäste bekommen nur einwandfreie Handtücher. Das fleckige Tuch wird noch einmal gewaschen. 👍"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Der letzte Check vor der Ankunft. ✨ Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🪟 Das Fenster öffnen und kurz lüften." },
+          { "text": "🛏️ Das Bett frisch beziehen." },
+          { "text": "🧺 Frische Handtücher ins Bad legen." },
+          { "text": "🧼 Seife und Klopapier prüfen." },
+          { "text": "✨ Einmal durch die Wohnung gehen: Sieht alles einladend aus?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Wie soll das Bad für neue Gäste aussehen?",
+        "options": [
+          { "text": "Sauber und frisch. ✨", "correct": true },
+          { "text": "Mit benutzten Handtüchern." },
+          { "text": "Das ist egal." }
+        ],
+        "explanation": "Super! Sauber und frisch. So fühlen sich die Gäste sofort wohl und kommen gerne wieder. ✨"
+      }
+    }
+  ]
+}

@@ -119,8 +119,8 @@ function SuggestionCard({ suggestion }: { suggestion: Suggestion }) {
 function BigPracticeCard() {
   return (
     <Link
-      href="/ueben"
-      aria-label="Üben – Gelerntes wiederholen"
+      href="/wiederholen"
+      aria-label="Üben – Wiederholen und gemischt üben"
       className="flex min-h-24 w-full items-center justify-center gap-3 rounded-2xl border-b-4 border-primary-dark bg-primary p-4 select-none active:translate-y-1 active:border-b-0"
     >
       <span className="text-4xl" aria-hidden>
@@ -129,7 +129,7 @@ function BigPracticeCard() {
       <span className="flex flex-col text-left text-white">
         <span className="text-lg font-bold">Üben</span>
         <span className="text-sm font-semibold opacity-90">
-          Gelerntes wiederholen
+          Wiederholen &amp; gemischt üben
         </span>
       </span>
     </Link>
@@ -237,6 +237,14 @@ export default function StartPage() {
   const totalXp = state.activity.reduce((sum, row) => sum + row.xp, 0);
   const streak = computeStreak(state.activity.map((row) => row.day), berlinToday());
 
+  // Tagesgruss: merkt, ob heute schon geuebt wurde.
+  const learnedToday = state.activity.some((row) => row.day === berlinToday());
+  const greeting = learnedToday
+    ? "Stark! Du hast heute schon geübt. 💪"
+    : streak > 0
+      ? `Hallo Amelie! Dein ${streak}-Tage-Feuer wartet. 🔥`
+      : "Hallo Amelie! Schön, dass du da bist.";
+
   const completedLessonIds = new Set(
     state.progress.map((row) => row.lesson_id)
   );
@@ -253,11 +261,7 @@ export default function StartPage() {
       <AppHeader streak={streak} xp={totalXp} />
 
       <div className="mx-auto w-full max-w-md px-4 pt-6 pb-8">
-        <Mascot
-          mood="happy"
-          size={100}
-          message="Hallo Amelie! Schön, dass du da bist."
-        />
+        <Mascot mood="happy" size={100} message={greeting} />
 
         {/* Tages-Vorschlaege: max. 3 Karten. Ohne Vorschlaege (alles fertig,
             keine Fehler) gibt es stattdessen die grosse Ueben-Karte. */}
@@ -287,13 +291,13 @@ export default function StartPage() {
               variant="secondary"
               size="lg"
               full
-              onClick={() => router.push("/ueben")}
+              onClick={() => router.push("/wiederholen")}
             >
               <span aria-hidden>🔁</span>
               <span className="flex flex-col items-start text-left leading-tight">
                 <span>Üben</span>
                 <span className="text-sm font-semibold opacity-70">
-                  Gelerntes wiederholen
+                  Wiederholen &amp; gemischt üben
                 </span>
               </span>
             </Button>

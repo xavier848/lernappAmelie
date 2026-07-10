@@ -1,0 +1,119 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-vertiefung-1",
+  "title": "Sale! Rabatte richtig verstehen",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Überall steht 'Sale' und 'Rabatt'. Was bedeutet Rabatt?",
+        "options": [
+          { "text": "Die Sache kostet weniger als sonst.", "correct": true },
+          { "text": "Die Sache kostet mehr als sonst." },
+          { "text": "Die Sache ist ausverkauft." }
+        ],
+        "explanation": "Rabatt heißt: Der Preis ist gesenkt. Du zahlst weniger als den normalen Preis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Ein Pulli kostet 24 €. Am Schild steht: 'Halber Preis!' Wie viel zahlst du?",
+        "options": [
+          { "text": "12 €", "correct": true },
+          { "text": "14 €" },
+          { "text": "24 €" }
+        ],
+        "explanation": "Halber Preis heißt: Du zahlst nur die Hälfte. Die Hälfte von 24 € ist 12 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Der Trick für 10 % Rabatt: Teile den Preis durch 10. Eine Tasche kostet 30 €. Es gibt 10 % Rabatt. Wie viel sparst du?",
+        "options": [
+          { "text": "3 €", "correct": true },
+          { "text": "10 €" },
+          { "text": "13 €" }
+        ],
+        "explanation": "10 % ist ein Zehntel. 30 € geteilt durch 10 = 3 €. Du sparst 3 € und zahlst nur 27 €."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Rechne den neuen Preis aus. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "10 % Rabatt auf 20 €" }, "right": { "text": "Du sparst 2 €" } },
+          { "left": { "text": "10 % Rabatt auf 50 €" }, "right": { "text": "Du sparst 5 €" } },
+          { "left": { "text": "Halber Preis statt 18 €" }, "right": { "text": "Du zahlst 9 €" } },
+          { "left": { "text": "Halber Preis statt 7 €" }, "right": { "text": "Du zahlst 3,50 €" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Aktion im Drogeriemarkt: 'Nimm 3, zahl 2!' Ein Duschgel kostet 2 €. Du nimmst 3 Stück mit. Wie viel zahlst du?",
+        "options": [
+          { "text": "4 €", "correct": true },
+          { "text": "6 €" },
+          { "text": "2 €" }
+        ],
+        "explanation": "Bei '3 für 2' zahlst du nur 2 Stück. 2 mal 2 € = 4 €. Das dritte Duschgel ist gratis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Am Regal steht: 'Jetzt 9,99 € statt 14,99 €'. Wie viel sparst du?",
+        "options": [
+          { "text": "5 €", "correct": true },
+          { "text": "9,99 €" },
+          { "text": "4 €" }
+        ],
+        "explanation": "Rechne: 14,99 € minus 9,99 € = 5 €. Das Wort 'statt' zeigt dir den alten Preis."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🤔 Rabatt ist nur gut, wenn du die Sache auch brauchst. Sortiere: Gutes Angebot oder lieber nicht?",
+        "buckets": [
+          { "id": "gut", "label": "Gutes Angebot", "icon": "✅" },
+          { "id": "lieber-nicht", "label": "Lieber nicht", "icon": "✋" }
+        ],
+        "items": [
+          { "text": "🧴 Dein Shampoo ist leer. Heute ist es 1 € billiger.", "bucket": "gut" },
+          { "text": "🍫 5 Tafeln Schokolade im Sale. Du wolltest gar keine.", "bucket": "lieber-nicht" },
+          { "text": "📓 Blöcke '3 für 2'. Du brauchst sowieso neue für die Berufsschule.", "bucket": "gut" },
+          { "text": "👟 Das vierte Paar Sneaker, nur weil 20 % Rabatt drauf sind.", "bucket": "lieber-nicht" },
+          { "text": "🐴 Mähnenspray im Angebot. Deins ist fast leer.", "bucket": "gut" },
+          { "text": "🎀 Deko im Sale. Du weißt nicht, wohin damit.", "bucket": "lieber-nicht" }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🧥 Die Jacke kostet nur den halben Preis: statt 60 € nur 30 €. Lege 30 € hin.",
+        "mode": "assemble",
+        "target": 3000
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Ein Buch kostet 10 €. Heute gibt es den halben Preis. Wie viel zahlst du?",
+        "options": [
+          { "text": "5 €", "correct": true },
+          { "text": "10 €" },
+          { "text": "8 €" }
+        ],
+        "explanation": "Super! Die Hälfte von 10 € ist 5 €. Rabatte rechnen kannst du jetzt richtig gut. 🎉"
+      }
+    }
+  ]
+}

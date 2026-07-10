@@ -16,6 +16,7 @@ import {
   fetchDailyActivity,
   fetchPath,
   fetchProgress,
+  resetDeviceData,
 } from "@/lib/data";
 import { getDeviceId } from "@/lib/device";
 import { computeStreak } from "@/lib/streak";
@@ -51,6 +52,8 @@ async function loadProfileData(): Promise<{
 export default function ProfilPage() {
   const [state, setState] = useState<LoadState>({ status: "loading" });
   const [reloadKey, setReloadKey] = useState(0);
+  const [showReset, setShowReset] = useState(false);
+  const [resetting, setResetting] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -166,7 +169,59 @@ export default function ProfilPage() {
           </h2>
           <BadgeGrid earnedIds={earnedIds} />
         </section>
+
+        {/* Kompletter Neustart - bewusst dezent ganz unten (Xavier, 2026-07-10). */}
+        <section aria-label="Neustart" className="pt-4 pb-2">
+          <button
+            type="button"
+            onClick={() => setShowReset(true)}
+            className="mx-auto flex min-h-12 cursor-pointer items-center gap-2 rounded-2xl px-4 text-sm font-semibold text-ink/50 select-none"
+          >
+            🗑️ Alles auf null setzen
+          </button>
+        </section>
       </div>
+
+      {showReset && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Wirklich alles löschen?"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-ink/40 px-6"
+        >
+          <Card className="w-full max-w-sm p-5">
+            <p className="text-lg font-extrabold text-ink">
+              Wirklich alles löschen? 🗑️
+            </p>
+            <p className="mt-2 text-base text-ink">
+              Dein ganzer Fortschritt, deine Punkte, dein Streak und deine
+              Abzeichen werden gelöscht. Das kann man nicht rückgängig machen.
+            </p>
+            <div className="mt-5 flex flex-col gap-2.5">
+              <Button size="lg" full onClick={() => setShowReset(false)}>
+                Nein, alles behalten
+              </Button>
+              <Button
+                variant="warning"
+                size="lg"
+                full
+                disabled={resetting}
+                onClick={async () => {
+                  setResetting(true);
+                  try {
+                    await resetDeviceData(getDeviceId());
+                    window.location.href = "/";
+                  } catch {
+                    setResetting(false);
+                  }
+                }}
+              >
+                {resetting ? "Wird gelöscht …" : "Ja, alles löschen"}
+              </Button>
+            </div>
+          </Card>
+        </div>
+      )}
     </div>
   );
 }

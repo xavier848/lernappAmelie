@@ -1,0 +1,137 @@
+{
+  "topic_slug": "kinder-spielen",
+  "slug": "kinder-spielen-vertiefung-1",
+  "title": "Das richtige Spiel für jedes Alter",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Auf jeder Spiele-Packung steht eine Altersangabe. Wofür ist sie da?",
+        "options": [
+          { "text": "✅ Sie zeigt: Für dieses Alter ist das Spiel passend und sicher.", "correct": true },
+          { "text": "🎨 Sie ist nur Dekoration." },
+          { "text": "💶 Sie zeigt den Preis an." }
+        ],
+        "explanation": "Die Altersangabe hilft dir bei der Auswahl. Sie zeigt: Für dieses Alter ist das Spiel sicher und nicht zu schwer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Auf einem Spielzeug steht: Nicht für Kinder unter 3 Jahren. Warum?",
+        "options": [
+          { "text": "😮 Kleine Teile können verschluckt werden. Das ist gefährlich.", "correct": true },
+          { "text": "😢 Kleine Kinder finden es langweilig." },
+          { "text": "💶 Es ist zu teuer für kleine Kinder." }
+        ],
+        "explanation": "Kleine Kinder stecken vieles in den Mund. Kleine Teile können verschluckt werden. Darum gilt: Unter 3 Jahren keine kleinen Teile!"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧸 Welches Spielzeug passt zu welchem Alter? Sortiere.",
+        "buckets": [
+          { "id": "baby", "label": "Baby (0–1 Jahr)", "icon": "👶" },
+          { "id": "kleinkind", "label": "Kleinkind (1–3 Jahre)", "icon": "🧒" },
+          { "id": "kiga", "label": "Ab 3 Jahren", "icon": "🎒" }
+        ],
+        "items": [
+          { "text": "🪇 Rassel", "bucket": "baby" },
+          { "text": "🦷 Beißring", "bucket": "baby" },
+          { "text": "🥤 Stapelbecher", "bucket": "kleinkind" },
+          { "text": "🐴 Schaukelpferd", "bucket": "kleinkind" },
+          { "text": "🃏 Memory mit vielen Karten", "bucket": "kiga" },
+          { "text": "🎲 Brettspiel mit Regeln", "bucket": "kiga" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧩 Ein 1-jähriges Kind bekommt ein Puzzle mit 100 kleinen Teilen. Passt das?",
+        "options": [
+          { "text": "🚫 Nein. Die Teile sind zu klein und das Puzzle ist viel zu schwer.", "correct": true },
+          { "text": "✅ Ja, das passt perfekt." },
+          { "text": "🤷 Das ist egal." }
+        ],
+        "explanation": "Kleine Teile sind für ein 1-jähriges Kind gefährlich. Und 100 Teile sind viel zu schwer. Besser: ein Holzpuzzle mit wenigen großen Teilen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎯 Welches Spiel passt zu welchem Alter? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "👶 Baby" }, "right": { "text": "Kuckuck spielen" } },
+          { "left": { "text": "🧒 2 Jahre" }, "right": { "text": "Bauklötze stapeln" } },
+          { "left": { "text": "🎈 4 Jahre" }, "right": { "text": "Einfaches Brettspiel" } },
+          { "left": { "text": "🎒 6 Jahre" }, "right": { "text": "Spiel mit schwierigen Regeln" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😤 Woran merkst du: Das Spiel ist zu schwer für das Kind?",
+        "options": [
+          { "text": "😖 Das Kind schafft nichts und gibt frustriert auf.", "correct": true },
+          { "text": "😄 Das Kind lacht die ganze Zeit." },
+          { "text": "🏆 Das Kind gewinnt jede Runde." }
+        ],
+        "explanation": "Wenn nichts klappt, wird das Kind frustriert und hört auf. Dann ist das Spiel zu schwer. Wähle ein leichteres Spiel. Erfolg macht Lust auf mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥱 Ein Kind langweilt sich bei einem Spiel sofort. Was kann der Grund sein?",
+        "options": [
+          { "text": "😴 Das Spiel ist zu leicht für das Kind.", "correct": true },
+          { "text": "🌧️ Das Wetter ist schlecht." },
+          { "text": "👟 Die Schuhe sind zu klein." }
+        ],
+        "explanation": "Ist ein Spiel zu leicht, wird es schnell langweilig. Das beste Spiel ist nicht zu leicht und nicht zu schwer. Es fordert das Kind ein kleines bisschen heraus."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎁 Du probierst ein neues Spiel mit einem Kind aus. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🔎 Auf die Altersangabe schauen." },
+          { "text": "📦 Das Spiel zusammen auspacken und anschauen." },
+          { "text": "🗣️ Die Regeln einfach erklären." },
+          { "text": "🧪 Eine Proberunde spielen." },
+          { "text": "🎉 Richtig losspielen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚨 Du entdeckst ein kaputtes Spielzeug mit einer scharfen Kante. Was machst du?",
+        "options": [
+          { "text": "📤 Ich räume es sofort weg und sage Bescheid.", "correct": true },
+          { "text": "🤷 Ich lasse es liegen." },
+          { "text": "🎁 Ich gebe es einem Kind zum Spielen." }
+        ],
+        "explanation": "Kaputtes Spielzeug mit scharfen Kanten kann Kinder verletzen. Räume es sofort weg. Und sage deiner Chefin oder den Eltern Bescheid."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Für wen ist eine Babyrassel?",
+        "options": [
+          { "text": "👶 Für ein Baby.", "correct": true },
+          { "text": "👵 Für die Oma." },
+          { "text": "🐕 Für den Hund." }
+        ],
+        "explanation": "Super! Die Rassel ist für Babys. Sie können sie gut greifen und sie macht spannende Geräusche."
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "topic_slug": "wohnzimmer",
+  "slug": "wohnzimmer-vertiefung-1",
+  "title": "Holz, Fliesen, Teppich: Jeder Boden ist anders",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵⬜🟫 Holzboden, Fliesen, Teppich: Putzt du alle Böden gleich?",
+        "options": [
+          { "text": "Nein. Jeder Boden braucht eine andere Pflege.", "correct": true },
+          { "text": "Ja. Boden ist Boden." },
+          { "text": "Böden muss man gar nicht putzen." }
+        ],
+        "explanation": "Holz mag kein Wasser. Fliesen vertragen viel Wasser. Teppich wird nur gesaugt. Wer das weiß, macht nichts kaputt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Für Holzböden gilt: nur nebelfeucht wischen. Was heißt das?",
+        "options": [
+          { "text": "Das Tuch ist nur ganz leicht feucht, fast trocken.", "correct": true },
+          { "text": "Das Tuch ist tropfnass." },
+          { "text": "Man wischt nur bei Nebel draußen." }
+        ],
+        "explanation": "Nebelfeucht heißt: so wenig Wasser, dass auf dem Boden keine Pfütze entsteht. Der Boden trocknet in wenigen Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Warum darf viel Wasser nicht auf den Holzboden?",
+        "options": [
+          { "text": "Das Holz saugt das Wasser auf und quillt auf.", "correct": true },
+          { "text": "Das Wasser macht das Holz zu glänzend." },
+          { "text": "Wasser ist zu teuer." }
+        ],
+        "explanation": "Aufgequollenes Holz wird wellig und geht kaputt. Deshalb: Tuch immer sehr gut auswringen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🪵 Den Holzboden richtig wischen: Ordne die Schritte.",
+        "steps": [
+          { "text": "🧹 Boden gründlich saugen." },
+          { "text": "💧 Wischtuch nass machen." },
+          { "text": "💪 Tuch sehr gut auswringen." },
+          { "text": "🧽 Nebelfeucht wischen." },
+          { "text": "⏱️ Boden trocknen lassen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧐 Welcher Boden ist gemeint? Sortiere die Aussagen!",
+        "buckets": [
+          { "id": "holz", "label": "Holzboden", "icon": "🪵" },
+          { "id": "fliesen", "label": "Fliesen", "icon": "⬜" },
+          { "id": "teppich", "label": "Teppich", "icon": "🟫" }
+        ],
+        "items": [
+          { "text": "💧 Nur nebelfeucht wischen", "bucket": "holz" },
+          { "text": "🌳 Quillt bei viel Wasser auf", "bucket": "holz" },
+          { "text": "🌊 Verträgt nasses Wischen gut", "bucket": "fliesen" },
+          { "text": "🧊 Aus Stein, Wasser macht ihnen nichts", "bucket": "fliesen" },
+          { "text": "🧹 Nur saugen, nicht wischen", "bucket": "teppich" },
+          { "text": "🩹 Flecken vorsichtig abtupfen", "bucket": "teppich" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟫 Auf dem Teppich ist ein Fleck. Reiben oder tupfen?",
+        "options": [
+          { "text": "Tupfen! Vorsichtig mit einem feuchten Tuch.", "correct": true },
+          { "text": "Fest reiben, so fest es geht." },
+          { "text": "Den Fleck einfach lassen." }
+        ],
+        "explanation": "Reiben drückt den Fleck tiefer in den Teppich und macht ihn größer. Tupfen holt den Fleck nach oben heraus."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧡 Welcher Boden bekommt welche Pflege? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🪵 Holzboden" }, "right": { "text": "Nebelfeucht wischen" } },
+          { "left": { "text": "⬜ Fliesen" }, "right": { "text": "Nass wischen" } },
+          { "left": { "text": "🟫 Teppich" }, "right": { "text": "Saugen" } },
+          { "left": { "text": "🚪 Fußmatte" }, "right": { "text": "Draußen ausschütteln" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Du hast die Fliesen frisch gewischt. Warum ist jetzt Vorsicht wichtig?",
+        "options": [
+          { "text": "Der nasse Boden ist rutschig.", "correct": true },
+          { "text": "Der Boden ist danach heiß." },
+          { "text": "Vorsicht ist nicht nötig." }
+        ],
+        "explanation": "Auf nassem Boden rutscht man leicht aus. Warte, bis er trocken ist. Und warne die anderen, zum Beispiel mit einem Schild."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Letzte Frage, ganz leicht: Was machst du bei jedem Boden zuerst?",
+        "options": [
+          { "text": "Saugen.", "correct": true },
+          { "text": "Nass wischen." },
+          { "text": "Gar nichts." }
+        ],
+        "explanation": "Richtig! Erst saugen, dann wischen. Das gilt für jeden Boden. Super gemacht! 🎉"
+      }
+    }
+  ]
+}

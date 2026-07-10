@@ -1,0 +1,123 @@
+{
+  "topic_slug": "badezimmer",
+  "slug": "badezimmer-vertiefung-2",
+  "title": "Nachfüllen wie ein Profi",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Seife, Klopapier und Shampoo nennt man Verbrauchsmaterial. Warum prüfst du es regelmäßig?",
+        "options": [
+          { "text": "Damit nichts ausgeht, wenn man es braucht.", "correct": true },
+          { "text": "Damit das Bad voller aussieht." },
+          { "text": "Das muss man nicht prüfen." }
+        ],
+        "explanation": "Verbrauchsmaterial wird jeden Tag weniger. Wer regelmäßig prüft, füllt rechtzeitig nach. So steht kein Gast ohne Seife da."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📋 Die Prüf-Runde im Bad: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "📋 Checkliste nehmen." },
+          { "text": "🧻 Klopapier prüfen: Ist genug da?" },
+          { "text": "🧼 Seife prüfen: Ist der Spender voll?" },
+          { "text": "🧴 Shampoo und Duschgel prüfen." },
+          { "text": "🧺 Handtücher zählen." },
+          { "text": "✏️ Fehlendes auf die Liste schreiben." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Eine Rolle Klopapier hängt am Halter. Wie viele Ersatzrollen legst du dazu?",
+        "options": [
+          { "text": "Mindestens eine Ersatzrolle.", "correct": true },
+          { "text": "Keine. Eine Rolle reicht immer." },
+          { "text": "Zehn Rollen auf den Boden." }
+        ],
+        "explanation": "Profis legen immer Ersatz bereit. Ist die Rolle leer, liegt die nächste schon da. So geht nie etwas aus."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛁 Du füllst das Bad auf. Wohin gehören die Sachen?",
+        "buckets": [
+          { "id": "waschbecken", "label": "Ans Waschbecken", "icon": "🚰" },
+          { "id": "dusche", "label": "In die Dusche", "icon": "🚿" },
+          { "id": "toilette", "label": "Zur Toilette", "icon": "🚽" }
+        ],
+        "items": [
+          { "text": "🧼 Seife", "bucket": "waschbecken" },
+          { "text": "🥤 Zahnputz-Becher", "bucket": "waschbecken" },
+          { "text": "🧴 Duschgel", "bucket": "dusche" },
+          { "text": "🧴 Shampoo", "bucket": "dusche" },
+          { "text": "🧻 Ersatzrolle Klopapier", "bucket": "toilette" },
+          { "text": "🪥 WC-Bürste", "bucket": "toilette" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Du holst die letzte Flasche Seife aus dem Vorrat. Was machst du?",
+        "options": [
+          { "text": "Ich schreibe Seife auf die Einkaufsliste.", "correct": true },
+          { "text": "Nichts. Irgendwer merkt das schon." },
+          { "text": "Ich fülle die alte Flasche mit Wasser auf." }
+        ],
+        "explanation": "Wer das Letzte nimmt, schreibt es auf die Liste. So wird rechtzeitig neue Seife gekauft und der Vorrat ist nie leer."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🛒 Du kaufst Klopapier für den Vorrat. Es kostet 3,60 €. Du gibst 5 €. Gib das Rückgeld.",
+        "mode": "change",
+        "price": 360,
+        "given": 500
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory! Finde das Verbrauchsmaterial.",
+        "pairs": [
+          { "left": { "text": "🧻" }, "right": { "text": "Klopapier" } },
+          { "left": { "text": "🧼" }, "right": { "text": "Seife" } },
+          { "left": { "text": "🧴" }, "right": { "text": "Shampoo" } },
+          { "left": { "text": "🧺" }, "right": { "text": "Handtuch" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏡 In der Ferienwohnung: Wie viele Handtücher bekommt jeder Gast?",
+        "options": [
+          { "text": "Ein großes und ein kleines Handtuch.", "correct": true },
+          { "text": "Gar keins. Gäste bringen alles selbst mit." },
+          { "text": "Nur einen Waschlappen." }
+        ],
+        "explanation": "Das große Handtuch ist zum Duschen. Das kleine ist für die Hände. So macht man es für jeden Gast."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Letzte Frage, ganz leicht: Der Seifenspender ist fast leer. Was machst du?",
+        "options": [
+          { "text": "Ich fülle ihn auf.", "correct": true },
+          { "text": "Ich stelle ihn auf den Kopf." },
+          { "text": "Ich verstecke ihn im Schrank." }
+        ],
+        "explanation": "Genau! Auffüllen, fertig. Du denkst mit wie ein Profi. Super! 🎉"
+      }
+    }
+  ]
+}

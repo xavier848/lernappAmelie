@@ -1,0 +1,124 @@
+{
+  "topic_slug": "handtuecher",
+  "slug": "handtuecher-vertiefung-1",
+  "title": "Waschtag: So bleiben Handtücher flauschig",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du wäschst Handtücher. 🌡️ Welche Temperatur stellst du ein?",
+        "options": [
+          { "text": "60 Grad.", "correct": true },
+          { "text": "20 Grad." },
+          { "text": "95 Grad, so heiß wie möglich." }
+        ],
+        "explanation": "Richtig! 60 Grad tötet Keime ab. Handtücher müssen hygienisch sauber werden, besonders für Gäste. 🌡️"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Kommt Weichspüler zu den Frottee-Handtüchern? 🧴",
+        "options": [
+          { "text": "Nein. Weichspüler macht Handtücher weniger saugfähig.", "correct": true },
+          { "text": "Ja, immer eine ganze Flasche." },
+          { "text": "Ja, sonst werden sie nicht sauber." }
+        ],
+        "explanation": "Genau! Weichspüler legt sich wie ein Film um die Fasern. Das Handtuch saugt dann schlechter Wasser auf. Also: kein Weichspüler. 🧴"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "60 Grad oder 30 Grad? Sortiere die Wäsche.",
+        "buckets": [
+          { "id": "heiss", "label": "60 Grad: Hygiene-Wäsche", "icon": "🌡️" },
+          { "id": "bunt", "label": "30 Grad: Buntwäsche", "icon": "👕" }
+        ],
+        "items": [
+          { "text": "🧺 Handtücher", "bucket": "heiss" },
+          { "text": "🧽 Waschlappen", "bucket": "heiss" },
+          { "text": "🍽️ Geschirrtücher", "bucket": "heiss" },
+          { "text": "🛏️ Bettwäsche", "bucket": "heiss" },
+          { "text": "👕 Buntes T-Shirt", "bucket": "bunt" },
+          { "text": "👖 Dunkle Jeans", "bucket": "bunt" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "So wäschst du Handtücher. 🧺 Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Helle und dunkle Handtücher trennen." },
+          { "text": "Die Trommel locker füllen, nicht stopfen." },
+          { "text": "🧴 Waschmittel einfüllen. Ohne Weichspüler!" },
+          { "text": "🌡️ 60 Grad einstellen." },
+          { "text": "▶️ Die Maschine starten." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Warum darf die Trommel nicht zu voll sein? 🌀",
+        "options": [
+          { "text": "Zu volle Wäsche wird nicht richtig sauber.", "correct": true },
+          { "text": "Die Maschine wird sonst zu leise." },
+          { "text": "Das Waschmittel riecht sonst zu gut." }
+        ],
+        "explanation": "Richtig! Die Wäsche braucht Platz, um sich zu bewegen. Nur so kommt das Wasser überall hin. 🌀"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Handtücher kommen aus der Waschmaschine. 💨 Was macht sie schön flauschig?",
+        "options": [
+          { "text": "Jedes Handtuch kräftig ausschütteln, dann trocknen.", "correct": true },
+          { "text": "Die Handtücher nass zusammenknüllen." },
+          { "text": "Die Handtücher nass in den Schrank legen." }
+        ],
+        "explanation": "Genau! Ausschütteln richtet die Fasern wieder auf. Der Trockner macht sie danach extra weich. 💨"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Wasch-Wissen: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🌡️ 60 Grad" }, "right": { "text": "Tötet Keime ab" } },
+          { "left": { "text": "🚫 Weichspüler" }, "right": { "text": "Macht Frottee weniger saugfähig" } },
+          { "left": { "text": "💨 Ausschütteln" }, "right": { "text": "Richtet die Fasern auf" } },
+          { "left": { "text": "🌀 Trockner" }, "right": { "text": "Macht extra weich und flauschig" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Es gibt neue Handtücher für die Ferienwohnung. 🛍️ Was machst du vor dem ersten Benutzen?",
+        "options": [
+          { "text": "Ich wasche sie einmal.", "correct": true },
+          { "text": "Ich lege sie sofort ins Bad." },
+          { "text": "Ich bügle sie nur kurz." }
+        ],
+        "explanation": "Richtig! Neue Handtücher erst waschen. Dann saugen sie besser und mögliche Farb-Reste sind raus. 🛍️"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Womit wäschst du Handtücher?",
+        "options": [
+          { "text": "Mit der Waschmaschine. 🌀", "correct": true },
+          { "text": "Mit der Spülmaschine." },
+          { "text": "Mit dem Staubsauger." }
+        ],
+        "explanation": "Super! Handtücher kommen in die Waschmaschine. Bei 60 Grad und ohne Weichspüler – das weißt du jetzt! 🌀"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "topic_slug": "kinder-sicherheit",
+  "slug": "kinder-sicherheit-vertiefung-2",
+  "title": "Der Ausflug: gut geplant, sicher unterwegs",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎒 Ihr plant einen Ausflug in den Park. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🗺️ Mit dem Team das Ziel und den Weg planen." },
+          { "text": "📩 Die Eltern über den Ausflug informieren." },
+          { "text": "🌦️ Am Morgen das Wetter prüfen." },
+          { "text": "🎒 Den Rucksack packen." },
+          { "text": "🗣️ Vor dem Start die Regeln mit den Kindern besprechen." },
+          { "text": "🔢 Die Kinder durchzählen und losgehen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎒 Was kommt in den Ausflugs-Rucksack? Was bleibt zu Hause? Sortiere.",
+        "buckets": [
+          { "id": "mitnehmen", "label": "Kommt mit", "icon": "🎒" },
+          { "id": "zuhause", "label": "Bleibt zu Hause", "icon": "🏠" }
+        ],
+        "items": [
+          { "text": "🩹 Erste-Hilfe-Set", "bucket": "mitnehmen" },
+          { "text": "💧 Wasser zum Trinken", "bucket": "mitnehmen" },
+          { "text": "📋 Telefon-Liste der Eltern", "bucket": "mitnehmen" },
+          { "text": "🧴 Sonnencreme", "bucket": "mitnehmen" },
+          { "text": "🍾 Getränke in Glasflaschen", "bucket": "zuhause" },
+          { "text": "🔥 Feuerzeug", "bucket": "zuhause" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦺 Warum tragen die Kinder beim Ausflug Warnwesten?",
+        "options": [
+          { "text": "👀 Autofahrer sehen die Gruppe schon von weitem.", "correct": true },
+          { "text": "🌧️ Die Westen halten den Regen ab." },
+          { "text": "👗 Die Westen sind gerade modern." }
+        ],
+        "explanation": "Richtig! Die Warnwesten leuchten hell. So sieht jeder Autofahrer die Kindergruppe sofort. Das schützt am Straßenrand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Wann zählst du die Kinder durch?",
+        "options": [
+          { "text": "🔁 Immer wieder: beim Start, unterwegs und am Ziel.", "correct": true },
+          { "text": "1️⃣ Nur einmal ganz am Anfang." },
+          { "text": "🤷 Zählen ist nicht nötig." }
+        ],
+        "explanation": "Genau! Du zählst oft: beim Losgehen, nach jeder Pause, nach dem Spielplatz und am Ziel. So merkst du sofort, wenn ein Kind fehlt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Welche Regel besprecht ihr mit den Kindern vor dem Ausflug?",
+        "options": [
+          { "text": "👨‍👩‍👧‍👦 Alle bleiben bei der Gruppe.", "correct": true },
+          { "text": "🏃 Jeder läuft, wohin er will." },
+          { "text": "🤫 Regeln braucht man draußen nicht." }
+        ],
+        "explanation": "Richtig! Die wichtigste Regel: bei der Gruppe bleiben. Kinder verstehen Regeln besser, wenn ihr sie vorher in Ruhe besprecht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧭 Unterwegs: Was ist richtig? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🚌 Fahrt im Bus" }, "right": { "text": "Sitzen bleiben und festhalten" } },
+          { "left": { "text": "🚻 Ein Kind muss zur Toilette" }, "right": { "text": "Ein Erwachsener geht mit" } },
+          { "left": { "text": "🍄 Ein Kind findet Beeren oder Pilze" }, "right": { "text": "Stopp! Nicht anfassen." } },
+          { "left": { "text": "⏸️ Pause machen" }, "right": { "text": "Trinken und alle durchzählen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😨 Beim Durchzählen fehlt ein Kind! Was machst du zuerst?",
+        "options": [
+          { "text": "🗣️ Ich sage sofort der Gruppen-Leitung Bescheid. Die Gruppe bleibt zusammen.", "correct": true },
+          { "text": "🏃 Ich renne allein los und lasse die Gruppe stehen." },
+          { "text": "🤫 Ich sage erst mal niemandem etwas." }
+        ],
+        "explanation": "Richtig! Melde es sofort. Die Gruppe bleibt mit einem Erwachsenen zusammen. Ein anderer Erwachsener sucht das Kind. So geht kein weiteres Kind verloren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧒 Was übt ihr mit den Kindern für den Notfall: Was macht ein Kind, wenn es die Gruppe verliert?",
+        "options": [
+          { "text": "🧍 Stehen bleiben und warten. Wir finden dich.", "correct": true },
+          { "text": "🏃 Allein nach Hause laufen." },
+          { "text": "🙈 Sich gut verstecken." }
+        ],
+        "explanation": "Genau! Die Regel heißt: Bleib stehen, wo du bist. Ein Kind, das steht, findet man schnell. Ein Kind, das herumläuft, findet man schwer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Warum nimmst du die Telefon-Liste der Eltern mit?",
+        "options": [
+          { "text": "📞 Im Notfall kannst du die Eltern sofort anrufen.", "correct": true },
+          { "text": "📝 Damit der Rucksack voller ist." },
+          { "text": "🎨 Die Kinder können darauf malen." }
+        ],
+        "explanation": "Richtig! Wenn etwas passiert, brauchst du die Nummern schnell. Zum Beispiel bei einem Unfall oder wenn ein Kind krank wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Die Sonne scheint stark ☀️. Was brauchen die Kinder draußen?",
+        "options": [
+          { "text": "🧢 Sonnencreme und eine Mütze.", "correct": true },
+          { "text": "🧤 Dicke Winterhandschuhe." },
+          { "text": "🌂 Einen Regenschirm gegen den Schnee." }
+        ],
+        "explanation": "Super gemacht! Sonnencreme und Kopfbedeckung schützen vor Sonnenbrand. Und zwischendurch: ab in den Schatten und Wasser trinken."
+      }
+    }
+  ]
+}

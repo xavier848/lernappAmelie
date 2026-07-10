@@ -1,0 +1,124 @@
+{
+  "topic_slug": "schlafzimmer",
+  "slug": "schlafzimmer-vertiefung-1",
+  "title": "Das Bett beziehen wie im Hotel",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Du beziehst das Bett komplett frisch. Womit fängst du an?",
+        "options": [
+          { "text": "Mit dem Spannbettlaken.", "correct": true },
+          { "text": "Mit dem Kissen." },
+          { "text": "Mit der Bettdecke." }
+        ],
+        "explanation": "Beim Bett gilt: von unten nach oben. Erst das Laken auf die Matratze, dann die Decke, dann das Kissen. So liegt dir nichts im Weg."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📐 Das Spannbettlaken aufziehen: Ordne die Schritte.",
+        "steps": [
+          { "text": "🛏️ Laken auf die Matratze legen." },
+          { "text": "📐 Eine Ecke über die Matratzen-Ecke ziehen." },
+          { "text": "↔️ Die Ecke gegenüber straff ziehen und überziehen." },
+          { "text": "📐 Die letzten zwei Ecken überziehen." },
+          { "text": "✋ Laken glatt streichen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Warum ziehst du das Spannbettlaken schön straff?",
+        "options": [
+          { "text": "Damit keine Falten drücken und das Bett glatt aussieht.", "correct": true },
+          { "text": "Damit es besser riecht." },
+          { "text": "Straff ist nicht wichtig." }
+        ],
+        "explanation": "Falten sehen unordentlich aus und stören beim Schlafen. Ein straffes, glattes Laken ist das Zeichen von guter Arbeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Auf dem frischen Laken entdeckst du einen Fleck. Was machst du?",
+        "options": [
+          { "text": "Ich hole ein neues Laken. Das fleckige kommt zurück zur Wäsche.", "correct": true },
+          { "text": "Ich decke den Fleck mit dem Kissen zu." },
+          { "text": "Ich lasse es so. Das fällt keinem auf." }
+        ],
+        "explanation": "Gäste bekommen nur einwandfreie Wäsche. Beim Beziehen kontrollierst du jedes Teil kurz. Das machen Profis immer so."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌙 Der Profi-Trick für den Deckenbezug: Ordne die Schritte.",
+        "steps": [
+          { "text": "🔄 Deckenbezug auf links drehen." },
+          { "text": "🙌 Mit den Armen in den Bezug greifen und die Bezug-Ecken fassen." },
+          { "text": "🤝 Durch den Stoff die Ecken der Bettdecke greifen." },
+          { "text": "🌀 Bezug über die Decke stülpen." },
+          { "text": "💨 Kräftig schütteln, bis die Decke richtig sitzt." },
+          { "text": "🔒 Knöpfe oder Reißverschluss schließen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Warum drehst du den Deckenbezug zuerst auf links?",
+        "options": [
+          { "text": "So landen die Decken-Ecken genau in den Bezug-Ecken.", "correct": true },
+          { "text": "Weil die linke Seite schöner ist." },
+          { "text": "Das macht keinen Unterschied." }
+        ],
+        "explanation": "Der Trick spart Zeit und Kraft: Du greifst die Ecken, stülpst den Bezug um, und die Decke sitzt sofort richtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔒 Wohin zeigt die Öffnung vom Deckenbezug am fertigen Bett?",
+        "options": [
+          { "text": "Nach unten, zum Fußende.", "correct": true },
+          { "text": "Nach oben, zum Kissen." },
+          { "text": "Das ist egal." }
+        ],
+        "explanation": "Die Öffnung zeigt zum Fußende. So sieht das Bett ordentlich aus und die Decke rutscht nicht heraus."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏨 Wie im Hotel oder unordentlich? Sortiere!",
+        "buckets": [
+          { "id": "hotel", "label": "Wie im Hotel", "icon": "✨" },
+          { "id": "unordentlich", "label": "Unordentlich", "icon": "😕" }
+        ],
+        "items": [
+          { "text": "🛏️ Decke glatt gestrichen", "bucket": "hotel" },
+          { "text": "💤 Kissen aufgeschüttelt und gerade", "bucket": "hotel" },
+          { "text": "🔒 Bezug richtig zugeknöpft", "bucket": "hotel" },
+          { "text": "🌀 Laken voller Falten", "bucket": "unordentlich" },
+          { "text": "🧦 Decken-Zipfel hängt aus dem Bezug", "bucket": "unordentlich" },
+          { "text": "😴 Kissen platt und schief", "bucket": "unordentlich" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌟 Letzte Aufgabe, ganz leicht: Die Profi-Reihenfolge beim Bett!",
+        "steps": [
+          { "text": "🛏️ Spannbettlaken aufziehen." },
+          { "text": "🌙 Bettdecke beziehen." },
+          { "text": "💤 Kissen beziehen und aufschütteln." }
+        ]
+      }
+    }
+  ]
+}

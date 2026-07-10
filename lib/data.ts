@@ -414,3 +414,27 @@ export async function flushPendingWrites(): Promise<void> {
     }
   }
 }
+
+/**
+ * Kompletter Neustart (Reset-Button im Profil): loescht Fortschritt,
+ * Versuchs-Statistik und Tages-Aktivitaet dieses Geraets in Supabase und
+ * raeumt den localStorage auf (inkl. Geraete-ID - beim naechsten Laden
+ * beginnt alles bei null).
+ */
+export async function resetDeviceData(deviceId: string): Promise<void> {
+  const supabase = supabaseBrowser();
+  const results = await Promise.all([
+    supabase.from("exercise_attempts").delete().eq("device_id", deviceId),
+    supabase.from("progress").delete().eq("device_id", deviceId),
+    supabase.from("daily_activity").delete().eq("device_id", deviceId),
+  ]);
+  const firstError = results.find((r) => r.error)?.error;
+  if (firstError) throw firstError;
+  try {
+    localStorage.removeItem(PENDING_WRITES_KEY);
+    localStorage.removeItem("lernapp-device-id");
+    localStorage.removeItem("lernapp-device-registered");
+  } catch {
+    // localStorage nicht verfuegbar - macht nichts
+  }
+}

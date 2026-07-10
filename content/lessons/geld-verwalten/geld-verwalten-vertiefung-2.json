@@ -1,0 +1,227 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-vertiefung-2",
+  "title": "Wo ist mein Geld geblieben?",
+  "sort": 8,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 An der Kasse bekommst du einen Kassenbon. Was steht darauf?",
+        "options": [
+          {
+            "text": "Jede gekaufte Sache mit Preis. Und die Gesamtsumme.",
+            "correct": true
+          },
+          {
+            "text": "Nur der Name vom Laden."
+          },
+          {
+            "text": "Dein Kontostand."
+          }
+        ],
+        "explanation": "Der Bon listet alles auf: jede Ware, jeden Preis und die Summe. So kannst du kontrollieren, ob alles stimmt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Warum solltest du den Kassenbon von teuren Sachen aufheben?",
+        "options": [
+          {
+            "text": "Für Umtausch und Reklamation brauche ich den Bon als Beweis.",
+            "correct": true
+          },
+          {
+            "text": "Weil der Bon schön aussieht."
+          },
+          {
+            "text": "Man muss alle Bons für immer sammeln, das ist Gesetz."
+          }
+        ],
+        "explanation": "Geht etwas kaputt oder passt nicht, zeigt der Bon: Hier und dann habe ich es gekauft. Ohne Bon ist Umtauschen oft schwer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Was zeigt dir der Kontoauszug von deinem Konto?",
+        "options": [
+          {
+            "text": "Alle Einnahmen und Ausgaben. Und den Kontostand.",
+            "correct": true
+          },
+          {
+            "text": "Nur Werbung von der Bank."
+          },
+          {
+            "text": "Die Preise im Supermarkt."
+          }
+        ],
+        "explanation": "Der Kontoauszug ist die Liste deines Kontos: Was kam rein? Was ging raus? Du findest ihn in der Bank-App oder am Automaten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Auf dem Kontoauszug: Kommt das Geld rein oder geht es weg? Sortiere.",
+        "buckets": [
+          {
+            "id": "rein",
+            "label": "Geld kommt rein",
+            "icon": "➕"
+          },
+          {
+            "id": "raus",
+            "label": "Geld geht weg",
+            "icon": "➖"
+          }
+        ],
+        "items": [
+          {
+            "text": "🎓 Ausbildungs-Vergütung",
+            "bucket": "rein"
+          },
+          {
+            "text": "📱 Handy-Rechnung",
+            "bucket": "raus"
+          },
+          {
+            "text": "🛒 Karten-Zahlung im Supermarkt",
+            "bucket": "raus"
+          },
+          {
+            "text": "🎂 Überweisung von Oma",
+            "bucket": "rein"
+          },
+          {
+            "text": "💪 Beitrag fürs Fitness-Studio",
+            "bucket": "raus"
+          },
+          {
+            "text": "📦 Geld zurück für ein zurückgeschicktes Paket",
+            "bucket": "rein"
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚨 Auf deinem Kontoauszug steht eine Abbuchung, die du nicht kennst. Was machst du?",
+        "options": [
+          {
+            "text": "Ich prüfe sie genau. Wenn sie nicht stimmt, melde ich mich bei der Bank.",
+            "correct": true
+          },
+          {
+            "text": "Ich ignoriere sie einfach."
+          },
+          {
+            "text": "Ich werfe den Kontoauszug weg."
+          }
+        ],
+        "explanation": "Eine unbekannte Abbuchung kann ein Fehler sein — oder Betrug. Prüfen und nachfragen schützt dein Geld."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📓 Ausgaben notieren hilft dir beim Überblick. So führst du dein Haushaltsbuch.",
+        "steps": [
+          {
+            "text": "Sammle deine Kassenbons vom Tag."
+          },
+          {
+            "text": "Schreibe jede Ausgabe auf. Ins Heft oder in eine App."
+          },
+          {
+            "text": "Zähle am Ende der Woche alles zusammen."
+          },
+          {
+            "text": "Vergleiche: Wie viel wollte ich ausgeben?"
+          },
+          {
+            "text": "Überlege: Wo kann ich nächste Woche sparen?"
+          }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Belege und Konto: Verbinde jeden Begriff mit der passenden Erklärung.",
+        "pairs": [
+          {
+            "left": {
+              "text": "🧾 Kassenbon"
+            },
+            "right": {
+              "text": "Der Zettel vom Einkauf."
+            }
+          },
+          {
+            "left": {
+              "text": "📄 Kontoauszug"
+            },
+            "right": {
+              "text": "Die Liste von deinem Konto."
+            }
+          },
+          {
+            "left": {
+              "text": "📓 Haushaltsbuch"
+            },
+            "right": {
+              "text": "Hier notierst du deine Ausgaben."
+            }
+          },
+          {
+            "left": {
+              "text": "💳 Abbuchung"
+            },
+            "right": {
+              "text": "Geld geht von deinem Konto weg."
+            }
+          }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 In deinem Haushaltsbuch steht diese Woche: Montag 12 €, Mittwoch 8 €, Samstag 20 €. Wie viel hast du ausgegeben?",
+        "options": [
+          {
+            "text": "40 €",
+            "correct": true
+          },
+          {
+            "text": "30 €"
+          },
+          {
+            "text": "42 €"
+          }
+        ],
+        "explanation": "12 + 8 = 20. Und 20 + 20 = 40. Dein Haushaltsbuch zeigt dir genau, wo dein Geld hingeht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du willst wissen, wofür dein Geld weggeht. Was hilft dir?",
+        "options": [
+          {
+            "text": "Ausgaben notieren und den Kontoauszug anschauen.",
+            "correct": true
+          },
+          {
+            "text": "Einfach raten."
+          }
+        ],
+        "explanation": "Genau! Wer notiert und den Kontoauszug liest, behält den Überblick. Du hast dein Geld im Griff! 🎉"
+      }
+    }
+  ]
+}

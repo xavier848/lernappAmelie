@@ -1,0 +1,124 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-vertiefung-1",
+  "title": "Abo-Fallen? Nicht mit dir!",
+  "sort": 7,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔁 Was ist ein Abo?",
+        "options": [
+          { "text": "Du zahlst regelmäßig Geld, zum Beispiel jeden Monat. Dafür bekommst du etwas.", "correct": true },
+          { "text": "Du zahlst einmal und bist fertig." },
+          { "text": "Du bekommst jeden Monat Geld geschenkt." }
+        ],
+        "explanation": "Abo heißt: Es läuft weiter, bis du kündigst. Zum Beispiel Musik-Streaming: Jeden Monat wird Geld abgebucht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Sortiere: Ist das ein Abo oder ein einmaliger Kauf?",
+        "buckets": [
+          { "id": "abo", "label": "Abo", "icon": "🔁" },
+          { "id": "einmal", "label": "Einmaliger Kauf", "icon": "1️⃣" }
+        ],
+        "items": [
+          { "text": "🎧 Musik-Streaming", "bucket": "abo" },
+          { "text": "💪 Fitness-Studio", "bucket": "abo" },
+          { "text": "🍕 Eine Pizza bestellen", "bucket": "einmal" },
+          { "text": "📱 Handy-Vertrag", "bucket": "abo" },
+          { "text": "👟 Neue Schuhe kaufen", "bucket": "einmal" },
+          { "text": "🎬 Film-Streaming", "bucket": "abo" },
+          { "text": "📓 Ein Heft für die Berufsschule", "bucket": "einmal" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Ein Streaming-Abo kostet 10 € im Monat. Wie viel kostet es im ganzen Jahr?",
+        "options": [
+          { "text": "120 €", "correct": true },
+          { "text": "100 €" },
+          { "text": "10 €" }
+        ],
+        "explanation": "Ein Jahr hat 12 Monate. 12 mal 10 € = 120 €. Ein kleines Abo ist im Jahr eine große Summe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😮 Du hast drei Abos: Musik 10 €, Filme 8 € und eine App 5 €. Wie viel zahlst du jeden Monat für Abos?",
+        "options": [
+          { "text": "23 €", "correct": true },
+          { "text": "18 €" },
+          { "text": "13 €" }
+        ],
+        "explanation": "10 + 8 = 18. Und 18 + 5 = 23. Viele kleine Abos zusammen sind viel Geld. Prüfe ab und zu: Brauche ich alle noch?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🆓 Eine App wirbt: 'Der erste Monat ist gratis!' Was musst du dabei wissen?",
+        "options": [
+          { "text": "Danach kostet die App Geld, wenn ich nicht rechtzeitig kündige.", "correct": true },
+          { "text": "Die App bleibt für immer gratis." },
+          { "text": "Gratis-Angebote sind immer verboten." }
+        ],
+        "explanation": "Das ist die typische Abo-Falle: Nach der Gratis-Zeit läuft das Abo automatisch weiter — gegen Geld. Tipp: Schreib dir das Ende der Gratis-Zeit in den Kalender. 📅"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 In vielen Verträgen steht eine Kündigungsfrist. Was bedeutet das?",
+        "options": [
+          { "text": "So lange vorher musst du Bescheid geben, wenn du kündigen willst.", "correct": true },
+          { "text": "So lange musst du auf ein Paket warten." },
+          { "text": "So oft darfst du das Abo benutzen." }
+        ],
+        "explanation": "Beispiel: Kündigungsfrist 1 Monat heißt: Du musst 1 Monat vor dem Ende kündigen. Sonst läuft der Vertrag weiter."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "✉️ Du willst ein Abo kündigen. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Finde heraus: Bis wann muss ich kündigen?" },
+          { "text": "Kündige schriftlich oder über den Kündigungs-Button." },
+          { "text": "Bitte um eine Bestätigung der Kündigung." },
+          { "text": "Bewahre die Bestätigung gut auf." },
+          { "text": "Prüfe dein Konto: Wird wirklich nichts mehr abgebucht?" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Ein Memory zu den wichtigen Wörtern. Finde die Paare!",
+        "pairs": [
+          { "left": { "text": "📄 Vertrag" }, "right": { "text": "Feste Abmachung" } },
+          { "left": { "text": "📅 Kündigungsfrist" }, "right": { "text": "Rechtzeitig Bescheid geben" } },
+          { "left": { "text": "✉️ Kündigung" }, "right": { "text": "Du beendest den Vertrag" } },
+          { "left": { "text": "🆓 Probe-Abo" }, "right": { "text": "Erst gratis, dann kostet es" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du benutzt ein Abo seit Monaten nicht mehr. Was ist schlau?",
+        "options": [
+          { "text": "Kündigen. So spare ich jeden Monat Geld.", "correct": true },
+          { "text": "Weiter bezahlen. Vielleicht brauche ich es irgendwann." }
+        ],
+        "explanation": "Genau! Ein Abo, das du nicht nutzt, ist Geld für nichts. Kündigen lohnt sich. 🎉"
+      }
+    }
+  ]
+}

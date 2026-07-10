@@ -1,0 +1,125 @@
+{
+  "topic_slug": "kinder-sinne",
+  "slug": "kinder-sinne-vertiefung-1",
+  "title": "Die Fühlkiste: selbst gebaut!",
+  "sort": 3,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Was ist eine Fühlkiste?",
+        "options": [
+          { "text": "🖐️ Eine Kiste mit einem Loch. Das Kind fühlt Dinge, ohne sie zu sehen.", "correct": true },
+          { "text": "🍬 Eine Kiste voller Süßigkeiten." },
+          { "text": "🗑️ Eine Kiste für alten Müll." }
+        ],
+        "explanation": "Richtig! Das Kind greift durch das Loch in die Kiste. Es rät nur mit den Händen, was drin ist. Das übt das Tasten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛠️ Du baust eine Fühlkiste für die Kinder. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "📦 Einen stabilen Karton holen." },
+          { "text": "✂️ Ein Loch für die Hand hineinschneiden." },
+          { "text": "🧵 Einen Stoff über das Loch kleben. So kann keiner spicken." },
+          { "text": "🧺 Spannende Gegenstände sammeln." },
+          { "text": "🔍 Jeden Gegenstand auf Sicherheit prüfen." },
+          { "text": "🎁 Einen Gegenstand in die Kiste legen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Warum prüfst du vorher jeden Gegenstand für die Fühlkiste?",
+        "options": [
+          { "text": "⚠️ Spitze und sehr kleine Teile können das Kind verletzen.", "correct": true },
+          { "text": "💶 Teure Gegenstände fühlen sich besser an." },
+          { "text": "🎨 Nur bunte Sachen dürfen in die Kiste." }
+        ],
+        "explanation": "Genau! Das Kind sieht nicht, was es anfasst. Spitze Teile können stechen. Kleine Teile können verschluckt werden. Darum prüfst du alles vorher."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Was darf in die Fühlkiste für kleine Kinder? Sortiere.",
+        "buckets": [
+          { "id": "geeignet", "label": "Darf hinein", "icon": "✅" },
+          { "id": "ungeeignet", "label": "Bleibt draußen", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "🌰 Ein großer Tannenzapfen", "bucket": "geeignet" },
+          { "text": "🧽 Ein weicher Schwamm", "bucket": "geeignet" },
+          { "text": "⚽ Ein kleiner weicher Ball", "bucket": "geeignet" },
+          { "text": "📌 Eine spitze Nadel", "bucket": "ungeeignet" },
+          { "text": "🔵 Eine kleine Murmel", "bucket": "ungeeignet" },
+          { "text": "🍴 Eine scharfe Gabel", "bucket": "ungeeignet" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Wie fühlt sich das an? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "☁️ Watte" }, "right": { "text": "Weich" } },
+          { "left": { "text": "🪨 Stein" }, "right": { "text": "Hart" } },
+          { "left": { "text": "🌰 Tannenzapfen" }, "right": { "text": "Rau" } },
+          { "left": { "text": "🥄 Metall-Löffel" }, "right": { "text": "Glatt und kühl" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Ein Kind fühlt in der Kiste und überlegt. Wie hilfst du gut?",
+        "options": [
+          { "text": "❓ Ich stelle Fragen: Ist es weich oder hart? Groß oder klein?", "correct": true },
+          { "text": "🗣️ Ich verrate sofort die Lösung." },
+          { "text": "⏰ Ich sage: Beeil dich endlich!" }
+        ],
+        "explanation": "Super! Deine Fragen helfen dem Kind beim Beschreiben. So lernt es neue Wörter: weich, hart, rau, glatt. Raten darf ruhig dauern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😟 Ein Kind traut sich nicht, in die Kiste zu fassen. Was machst du?",
+        "options": [
+          { "text": "🙂 Ich zwinge es nicht. Es darf erst bei den anderen zuschauen.", "correct": true },
+          { "text": "💪 Ich drücke seine Hand in die Kiste." },
+          { "text": "😂 Ich lache und sage: Bist du ein Angsthase?" }
+        ],
+        "explanation": "Richtig! Mitmachen ist immer freiwillig. Beim Zuschauen sieht das Kind: Das macht Spaß und ist nicht gefährlich. Oft traut es sich dann von selbst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👧👦 Mehrere Kinder wollen raten. Welche Regel ist wichtig?",
+        "options": [
+          { "text": "🔁 Jedes Kind kommt einmal dran. Die anderen verraten nichts.", "correct": true },
+          { "text": "🏃 Der Schnellste darf immer wieder." },
+          { "text": "📣 Alle rufen die Lösung laut dazwischen." }
+        ],
+        "explanation": "Genau! Mit klaren Regeln bleibt das Spiel für alle schön. Jeder kommt dran. Und wer die Lösung kennt, behält sie noch für sich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: In der Kiste liegt ein Kuscheltier 🧸. Wie fühlt es sich an?",
+        "options": [
+          { "text": "☁️ Weich.", "correct": true },
+          { "text": "🧊 Eiskalt und nass." },
+          { "text": "🧱 Hart wie ein Stein." }
+        ],
+        "explanation": "Super gemacht! Das Kuscheltier ist weich und flauschig. Das fühlt die Hand sofort."
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "topic_slug": "servietten",
+  "slug": "servietten-vertiefung-2",
+  "title": "Serviette auf den Schoß! Knigge bei Tisch",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Das Essen beginnt. 🍽️ Wohin kommt deine Serviette?",
+        "options": [
+          { "text": "Auf meinen Schoß.", "correct": true },
+          { "text": "In meinen Kragen." },
+          { "text": "Sie bleibt gefaltet auf dem Tisch." }
+        ],
+        "explanation": "Richtig! Die Serviette kommt auf den Schoß. So schützt sie deine Kleidung. Das gehört zum guten Benehmen. 🍽️"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Warum steckt man die Serviette nicht in den Kragen? 👔",
+        "options": [
+          { "text": "Bei Erwachsenen wirkt das nicht fein. Der Schoß ist die Regel.", "correct": true },
+          { "text": "Die Serviette ist zu schwer dafür." },
+          { "text": "Der Kragen wird sonst nass." }
+        ],
+        "explanation": "Genau! Im Restaurant und bei Festen gilt: Serviette auf den Schoß. In den Kragen gehört sie nur bei kleinen Kindern. 👔"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du möchtest gleich aus dem Glas trinken. 🥂 Was machst du vorher mit der Serviette?",
+        "options": [
+          { "text": "Ich tupfe kurz meinen Mund ab.", "correct": true },
+          { "text": "Ich wische das Glas damit ab." },
+          { "text": "Nichts. Ich trinke einfach." }
+        ],
+        "explanation": "Richtig! Erst den Mund abtupfen, dann trinken. So kommen keine Fett-Ränder an das Glas. 🥂"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du musst kurz aufstehen, zum Beispiel zur Toilette. 🚻 Wohin legst du die Serviette?",
+        "options": [
+          { "text": "Auf meinen Stuhl.", "correct": true },
+          { "text": "Auf meinen Teller ins Essen." },
+          { "text": "Ich nehme sie mit." }
+        ],
+        "explanation": "Genau! Die Serviette auf dem Stuhl ist ein Zeichen: Ich komme gleich wieder. 🚻"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Das Essen ist fertig. ✅ Wohin kommt die Serviette jetzt?",
+        "options": [
+          { "text": "Locker links neben den Teller.", "correct": true },
+          { "text": "Wieder ordentlich falten wie am Anfang." },
+          { "text": "Zerknüllt auf den Teller in die Reste." }
+        ],
+        "explanation": "Richtig! Am Ende legst du die Serviette locker links neben den Teller. Nicht neu falten und nicht ins Essen legen. ✅"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Serviette beim Essen: Bringe die Schritte in die richtige Reihenfolge. 🍽️",
+        "steps": [
+          { "text": "🪑 Du setzt dich an den Tisch." },
+          { "text": "Du entfaltest die Serviette." },
+          { "text": "Du legst sie auf deinen Schoß." },
+          { "text": "👄 Beim Essen tupfst du damit den Mund ab." },
+          { "text": "✅ Am Ende legst du sie locker links neben den Teller." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Gutes Benehmen oder lieber nicht? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gutes Benehmen", "icon": "👍" },
+          { "id": "nicht", "label": "Lieber nicht", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Serviette auf den Schoß legen", "bucket": "gut" },
+          { "text": "Vor dem Trinken den Mund abtupfen", "bucket": "gut" },
+          { "text": "Am Ende locker neben den Teller legen", "bucket": "gut" },
+          { "text": "Serviette als Taschentuch benutzen", "bucket": "nicht" },
+          { "text": "Serviette ins Essen auf den Teller werfen", "bucket": "nicht" },
+          { "text": "Mit der Serviette den Tisch abwischen", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Situation und Serviette: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🍽️ Das Essen beginnt" }, "right": { "text": "Auf den Schoß legen" } },
+          { "left": { "text": "🚻 Du stehst kurz auf" }, "right": { "text": "Auf den Stuhl legen" } },
+          { "left": { "text": "🥂 Du willst trinken" }, "right": { "text": "Erst den Mund abtupfen" } },
+          { "left": { "text": "✅ Das Essen ist fertig" }, "right": { "text": "Locker links neben den Teller" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Wofür ist ein Serviettenring da? 💍",
+        "options": [
+          { "text": "Er hält die gerollte Serviette schön zusammen.", "correct": true },
+          { "text": "Er ist Schmuck für den Finger." },
+          { "text": "Er hält den Teller warm." }
+        ],
+        "explanation": "Super! Der Serviettenring hält die Serviette zusammen. Das sieht auf dem Tisch sehr edel aus. 💍"
+      }
+    }
+  ]
+}

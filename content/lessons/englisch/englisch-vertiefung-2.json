@@ -1,0 +1,141 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-vertiefung-2",
+  "title": "Frühstück servieren auf Englisch",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Frühstücks-Wörter: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "bread 🍞" }, "right": { "text": "Brot" } },
+          { "left": { "text": "butter 🧈" }, "right": { "text": "Butter" } },
+          { "left": { "text": "jam 🍓" }, "right": { "text": "Marmelade" } },
+          { "left": { "text": "cheese 🧀" }, "right": { "text": "Käse" } },
+          { "left": { "text": "egg 🥚" }, "right": { "text": "Ei" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du servierst das Frühstück. ☕ Was fragst du die Gäste?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Would you like coffee or tea?", "correct": true },
+          { "text": "When do we have to leave?" },
+          { "text": "The heating is not working." }
+        ],
+        "explanation": "Richtig! Would you like heißt: Möchten Sie. Coffee or tea heißt: Kaffee oder Tee. ☕"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Möchten Sie Kaffee oder Tee? ☕",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Would" },
+          { "text": "you" },
+          { "text": "like" },
+          { "text": "coffee" },
+          { "text": "or" },
+          { "text": "tea" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Gast antwortet: Tea with milk, please. 🫖 Was bringst du ihm?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Tee mit Milch.", "correct": true },
+          { "text": "Kaffee mit Zucker." },
+          { "text": "Nur ein Glas Milch." }
+        ],
+        "explanation": "Genau! Tea heißt Tee. With milk heißt: mit Milch. Please heißt bitte. 🫖"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory! 🧠 Finde die Paare: Getränk und deutsches Wort.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "coffee ☕" }, "right": { "text": "Kaffee" } },
+          { "left": { "text": "tea 🫖" }, "right": { "text": "Tee" } },
+          { "left": { "text": "milk 🥛" }, "right": { "text": "Milch" } },
+          { "left": { "text": "orange juice 🧃" }, "right": { "text": "Orangensaft" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: I am allergic to nuts. 🥜 Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Er ist allergisch gegen Nüsse.", "correct": true },
+          { "text": "Er isst sehr gerne Nüsse." },
+          { "text": "Er möchte mehr Nüsse haben." }
+        ],
+        "explanation": "Richtig! Allergic heißt allergisch. Nuts heißt Nüsse. Ganz wichtig: Sein Essen darf keine Nüsse enthalten. Frag nach, wenn du unsicher bist. 🥜"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du stellst die Teller auf den Tisch. 🍽️ Was wünschst du den Gästen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Enjoy your meal! 😊", "correct": true },
+          { "text": "Have a safe trip home!" },
+          { "text": "How much is one night?" }
+        ],
+        "explanation": "Genau! Enjoy your meal heißt: Guten Appetit. Das sagst du immer, wenn du Essen servierst. 😊"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "So servierst du das Frühstück. 🥐 Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧼 Die Hände waschen." },
+          { "text": "🍽️ Den Tisch eindecken." },
+          { "text": "🍞 Brot, Butter und Marmelade hinstellen." },
+          { "text": "☕ Fragen: Would you like coffee or tea?" },
+          { "text": "Die Getränke bringen." },
+          { "text": "😊 Enjoy your meal! wünschen." }
+        ]
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "Ein Gast zahlt ein Frühstück bar: seven euros fifty. 💶 Lege den Betrag.",
+        "tts_lang": "en-GB",
+        "mode": "assemble",
+        "target": 750
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage, ganz leicht! 😊 Der Gast sagt nach dem Frühstück: It was delicious! Was heißt delicious?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Lecker! 😋", "correct": true },
+          { "text": "Zu kalt." },
+          { "text": "Zu teuer." }
+        ],
+        "explanation": "Super! Delicious heißt: lecker, köstlich. Das ist ein tolles Lob für dein Frühstück. 😋"
+      }
+    }
+  ]
+}
