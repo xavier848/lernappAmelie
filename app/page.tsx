@@ -11,6 +11,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { AppHeader } from "@/components/ui/AppHeader";
 import { Mascot } from "@/components/ui/Mascot";
+import { MamaStatsLink } from "@/components/ui/MamaStatsLink";
 import { Button } from "@/components/ui/Button";
 import {
   berlinToday,
@@ -283,6 +284,9 @@ export default function StartPage() {
 
       <div className="mx-auto w-full max-w-md px-4 pt-6 pb-8">
         <Mascot mood="happy" size={100} message={greeting} />
+
+        {/* Nur im Mama-Modus: Link zu Amelies Fortschritts-Statistik. */}
+        <MamaStatsLink />
 
         {/* Tages-Vorschlaege: max. 3 Karten. Ohne Vorschlaege (alles fertig,
             keine Fehler) gibt es stattdessen die grosse Ueben-Karte. */}

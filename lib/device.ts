@@ -14,8 +14,12 @@ const REGISTERED_KEY = "lernapp-device-registered";
 
 export type Profile = "amelie" | "mama";
 
+/** Amelies feste Geraete-ID (auch von der Mama-Statistik-Seite gelesen). */
+export const AMELIE_DEVICE_ID =
+  process.env.NEXT_PUBLIC_DEVICE_ID ?? "8ad172de-2bb9-4f6a-8de6-dc720b45b9c0";
+
 const DEVICE_IDS: Record<Profile, string> = {
-  amelie: process.env.NEXT_PUBLIC_DEVICE_ID ?? "8ad172de-2bb9-4f6a-8de6-dc720b45b9c0",
+  amelie: AMELIE_DEVICE_ID,
   mama: "a4a1e000-0000-4000-a000-000000000002",
 };
 
