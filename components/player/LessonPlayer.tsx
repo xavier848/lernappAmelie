@@ -190,7 +190,7 @@ export function LessonPlayer({
   const currentIndex = currentExerciseIndex(queueState);
   const current = currentIndex !== null ? exercises[currentIndex] : null;
 
-  function handleResult(r: { correct: boolean }) {
+  function handleResult(r: { correct: boolean; given?: string }) {
     if (feedback || !current) return;
     const explanation =
       "explanation" in current.exercise.data
@@ -207,6 +207,7 @@ export function LessonPlayer({
         deviceId,
         exerciseId: current.id,
         correct: r.correct,
+        given: r.given,
       });
     }
   }

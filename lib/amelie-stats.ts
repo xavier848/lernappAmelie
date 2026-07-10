@@ -7,6 +7,7 @@ import {
   fetchDailyActivity,
   fetchAttemptStatsWithLessons,
   fetchExercisesForLessons,
+  fetchWrongAnswers,
 } from "@/lib/data";
 import { AMELIE_DEVICE_ID } from "@/lib/device";
 import type { ProgressRow, TopicWithLessons } from "@/lib/types";
@@ -34,6 +35,10 @@ export type DifficultExercise = {
   topicIcon: string;
   wrong: number;
   total: number;
+  /** Richtige Antwort (bei Quiz-Fragen). */
+  correctAnswer?: string;
+  /** Was Amelie falsch angeklickt hat (nur bei neueren Versuchen erfasst). */
+  givenAnswers: string[];
 };
 
 export type AmelieStats = {
@@ -118,12 +123,18 @@ export function rankTopics(stats: TopicStat[]): {
  * Die schwierigsten Uebungen: mind. 1 Fehler, nach Fehlerzahl sortiert.
  * `prompts` liefert Prompt + Lektions-/Themen-Namen je exerciseId.
  */
+export type ExerciseMeta = {
+  prompt: string;
+  lessonTitle: string;
+  topicTitle: string;
+  topicIcon: string;
+  correctAnswer?: string;
+};
+
 export function topDifficultExercises(
   attemptStats: Map<string, AttemptStat>,
-  prompts: Map<
-    string,
-    { prompt: string; lessonTitle: string; topicTitle: string; topicIcon: string }
-  >,
+  prompts: Map<string, ExerciseMeta>,
+  wrongAnswers: Map<string, string[]> = new Map(),
   limit = 8
 ): DifficultExercise[] {
   const list: DifficultExercise[] = [];
@@ -139,6 +150,8 @@ export function topDifficultExercises(
       topicIcon: meta.topicIcon,
       wrong: stat.wrong,
       total: stat.correct + stat.wrong,
+      correctAnswer: meta.correctAnswer,
+      givenAnswers: wrongAnswers.get(exerciseId) ?? [],
     });
   }
   return list.sort((a, b) => b.wrong - a.wrong).slice(0, limit);
@@ -179,24 +192,36 @@ export async function fetchAmelieStats(): Promise<AmelieStats> {
       });
     }
   }
-  const prompts = new Map<
-    string,
-    { prompt: string; lessonTitle: string; topicTitle: string; topicIcon: string }
-  >();
+  const prompts = new Map<string, ExerciseMeta>();
+  const difficultIds: string[] = [];
+  for (const [exerciseId, stat] of attempts.stats) {
+    if (stat.wrong >= 1) difficultIds.push(exerciseId);
+  }
   if (wrongLessonIds.size > 0) {
     const exercises = await fetchExercisesForLessons([...wrongLessonIds]);
     for (const ex of exercises) {
       const meta = lessonMeta.get(ex.lesson_id);
-      const data = ex.data as { prompt?: string };
+      const data = ex.data as {
+        prompt?: string;
+        options?: { text: string; correct?: boolean }[];
+      };
+      // Richtige Antwort nur bei Quiz-Fragen (multiple_choice) ablesbar.
+      const correctAnswer =
+        ex.type === "multiple_choice"
+          ? data.options?.find((o) => o.correct)?.text
+          : undefined;
       prompts.set(ex.id, {
         prompt: data?.prompt ?? "(ohne Text)",
         lessonTitle: meta?.title ?? "",
         topicTitle: meta?.topicTitle ?? "",
         topicIcon: meta?.topicIcon ?? "📘",
+        correctAnswer,
       });
     }
   }
-  const difficult = topDifficultExercises(attempts.stats, prompts);
+  // Amelies falsch angeklickte Antworten zu diesen Uebungen nachladen.
+  const wrongAnswers = await fetchWrongAnswers(AMELIE_DEVICE_ID, difficultIds);
+  const difficult = topDifficultExercises(attempts.stats, prompts, wrongAnswers);
 
   let correct = 0;
   let wrong = 0;

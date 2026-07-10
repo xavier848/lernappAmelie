@@ -8,7 +8,12 @@ import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Mascot } from "@/components/ui/Mascot";
 import { Button } from "@/components/ui/Button";
-import { fetchAmelieStats, type AmelieStats, type TopicStat } from "@/lib/amelie-stats";
+import {
+  fetchAmelieStats,
+  type AmelieStats,
+  type DifficultExercise,
+  type TopicStat,
+} from "@/lib/amelie-stats";
 
 type LoadState =
   | { status: "loading" }
@@ -39,6 +44,58 @@ function AccuracyBar({ value }: { value: number | null }) {
         {percent} %
       </span>
     </span>
+  );
+}
+
+/** Aufklappbare Zeile: zeigt richtige Antwort + was Amelie geklickt hat. */
+function DifficultRow({ ex }: { ex: DifficultExercise }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="rounded-2xl border-2 border-warning bg-warning-light">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        aria-expanded={open}
+        className="flex w-full items-start gap-3 p-3 text-left select-none"
+      >
+        <span className="text-2xl" aria-hidden>
+          {ex.topicIcon}
+        </span>
+        <span className="flex-1">
+          <span className="block font-semibold text-ink">{ex.prompt}</span>
+          <span className="block text-sm text-ink/70">
+            {ex.topicTitle} · {ex.lessonTitle} ·{" "}
+            {ex.wrong === 1 ? "1 Mal falsch" : `${ex.wrong} Mal falsch`}
+          </span>
+        </span>
+        <span aria-hidden className="text-warning-dark">
+          {open ? "▲" : "▼"}
+        </span>
+      </button>
+      {open && (
+        <div className="flex flex-col gap-2 border-t-2 border-warning/40 px-3 py-3">
+          {ex.correctAnswer && (
+            <p className="text-sm text-ink">
+              <span className="font-bold text-success-dark">Richtig:</span>{" "}
+              {ex.correctAnswer}
+            </p>
+          )}
+          {ex.givenAnswers.length > 0 ? (
+            <p className="text-sm text-ink">
+              <span className="font-bold text-warning-dark">
+                Amelie hat geklickt:
+              </span>{" "}
+              {ex.givenAnswers.join(", ")}
+            </p>
+          ) : (
+            <p className="text-sm text-ink/50">
+              Was genau angeklickt wurde, wird ab jetzt gespeichert – beim
+              nächsten Mal siehst du es hier.
+            </p>
+          )}
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -187,27 +244,12 @@ export default function AmelieFortschrittPage() {
               <h2 className="mb-3 text-lg font-extrabold text-ink">
                 🔎 Diese Aufgaben fielen schwer
               </h2>
+              <p className="mb-2 text-sm text-ink/60">
+                Tipp drauf, um die richtige Antwort und Amelies Klick zu sehen.
+              </p>
               <div className="flex flex-col gap-2.5">
                 {s.difficult.map((d) => (
-                  <div
-                    key={d.exerciseId}
-                    className="flex items-start gap-3 rounded-2xl border-2 border-warning bg-warning-light p-3"
-                  >
-                    <span className="text-2xl" aria-hidden>
-                      {d.topicIcon}
-                    </span>
-                    <span className="flex-1">
-                      <span className="block font-semibold text-ink">
-                        {d.prompt}
-                      </span>
-                      <span className="block text-sm text-ink/70">
-                        {d.topicTitle} · {d.lessonTitle} ·{" "}
-                        {d.wrong === 1
-                          ? "1 Mal falsch"
-                          : `${d.wrong} Mal falsch`}
-                      </span>
-                    </span>
-                  </div>
+                  <DifficultRow key={d.exerciseId} ex={d} />
                 ))}
               </div>
             </section>

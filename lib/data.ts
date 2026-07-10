@@ -377,6 +377,8 @@ export async function logAttempt(p: {
   deviceId: string;
   exerciseId: string;
   correct: boolean;
+  /** Was angeklickt wurde (v. a. bei falschen Antworten, fuer die Statistik). */
+  given?: string;
 }): Promise<void> {
   try {
     const supabase = supabaseBrowser();
@@ -384,10 +386,42 @@ export async function logAttempt(p: {
       device_id: p.deviceId,
       exercise_id: p.exerciseId,
       correct: p.correct,
+      given: p.given ?? null,
     });
   } catch {
     // bewusst ignorieren - Statistik ist nicht kritisch
   }
+}
+
+/**
+ * Falsche Antworten (mit angeklicktem Wert) zu bestimmten Uebungen — fuer
+ * die Detail-Ansicht in Mamas Statistik ("was hat Amelie geklickt?").
+ * Liefert Map exerciseId -> Liste der gegebenen (falschen) Antworten.
+ */
+export async function fetchWrongAnswers(
+  deviceId: string,
+  exerciseIds: string[]
+): Promise<Map<string, string[]>> {
+  const result = new Map<string, string[]>();
+  if (exerciseIds.length === 0) return result;
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("exercise_attempts")
+    .select("exercise_id, given")
+    .eq("device_id", deviceId)
+    .eq("correct", false)
+    .in("exercise_id", exerciseIds);
+  if (res.error) throw res.error;
+  for (const row of (res.data ?? []) as {
+    exercise_id: string;
+    given: string | null;
+  }[]) {
+    if (!row.given) continue;
+    const list = result.get(row.exercise_id) ?? [];
+    if (!list.includes(row.given)) list.push(row.given);
+    result.set(row.exercise_id, list);
+  }
+  return result;
 }
 
 /**

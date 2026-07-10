@@ -45,8 +45,14 @@ export function MultipleChoice({
 
   useCheck(checkRequested, () => {
     setChecked(true);
+    const correct = selected !== null && data.options[selected]?.correct === true;
     onResult({
-      correct: selected !== null && data.options[selected]?.correct === true,
+      correct,
+      // Bei falscher Antwort merken, was angeklickt wurde (fuer Mamas Statistik).
+      given:
+        !correct && selected !== null
+          ? data.options[selected]?.text
+          : undefined,
     });
   });
 

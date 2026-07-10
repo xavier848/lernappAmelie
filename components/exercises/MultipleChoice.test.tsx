@@ -98,7 +98,11 @@ describe("MultipleChoice", () => {
     tap("Warten und nichts tun");
     check();
 
-    expect(onResult).toHaveBeenCalledWith({ correct: false });
+    // Bei falscher Antwort wird zusaetzlich gemerkt, was angeklickt wurde.
+    expect(onResult).toHaveBeenCalledWith({
+      correct: false,
+      given: "Warten und nichts tun",
+    });
     const wrong = screen.getByRole("button", { name: "Warten und nichts tun" });
     const right = screen.getByRole("button", { name: "Spiegel putzen" });
     expect(wrong.className).toContain("border-warning");
