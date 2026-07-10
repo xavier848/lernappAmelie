@@ -1,6 +1,6 @@
 # Amelies Lernapp 🐴
 
-Eine Duolingo-artige Lern-Web-App für Amelie – mobile-first, weiß/türkis, mit Pony-Maskottchen. Sie übt Alltags- und Ausbildungsfähigkeiten für die Hauswirtschaftsschule: Putzen in der richtigen Reihenfolge, Wäsche, Servietten falten, Rechnen mit Geld, Geld verwalten, Englisch für Feriengäste und Kinderbetreuung.
+Eine Duolingo-artige Lern-Web-App für Amelie – mobile-first, weiß/türkis, mit Pony-Maskottchen. Über 100 Lektionen mit ~950 Übungen zu Alltags- und Ausbildungsfähigkeiten für die Hauswirtschaftsschule: Putzen in der richtigen Reihenfolge, Wäsche, Servietten falten, Rechnen mit Geld, Geld verwalten, Englisch für Feriengäste und Kinderbetreuung.
 
 **Roter Faden:** „Wie gehe ich systematisch vor?" – die richtige Reihenfolge steht überall im Mittelpunkt.
 
@@ -11,7 +11,9 @@ Amelie hat Dyspraxie. Deshalb gilt in der ganzen App:
 - **Nur Tippen, nie Ziehen** – kein Drag & Drop, große Buttons (min. 48 px), Aktion erst beim Loslassen
 - **Kein Zeitdruck, keine Leben/Herzen** – Fehler werden freundlich (orange, nie rot) erklärt und am Ende der Lektion einfach wiederholt
 - **Leichte Sprache** und ein Vorlese-Button 🔊 an jeder Aufgabe
-- **Gamification, die gut tut:** XP, Level, Streak 🔥, Abzeichen – und ein Üben-Modus, der Gelerntes mischt und bevorzugt wiederholt, was schwerfällt
+- **Gamification, die gut tut:** XP, Level (mit Level-Up-Moment 🎉), Streak 🔥, Abzeichen – und ein Wiederholen-Menü (/wiederholen), das zeigt, was zuletzt schwergefallen ist, plus „Gemischt üben" mit Fehler-Priorisierung
+- **Fehler-Ablauf:** 1. Fehler = sofort nochmal versuchen, 2. Fehler = Lösung ansehen, Übung kommt am Lektionsende wieder
+- **Reset:** Im Profil kann alles auf null gesetzt werden (mit Sicherheitsabfrage)
 
 ## Technik
 
