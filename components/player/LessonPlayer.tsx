@@ -14,6 +14,7 @@ import { useRouter } from "next/navigation";
 import { exerciseSchema, type ExerciseInput } from "@/lib/content-schema";
 import {
   bumpDailyActivity,
+  fetchDailyActivity,
   fetchLesson,
   logAttempt,
   saveLessonResult,
@@ -22,6 +23,7 @@ import { getDeviceId } from "@/lib/device";
 import {
   LESSON_BONUS_XP,
   PRACTICE_XP_PER_EXERCISE,
+  levelForXp,
   starsForLesson,
   xpForExercise,
 } from "@/lib/scoring";
@@ -128,10 +130,11 @@ export function LessonPlayer({
   const [ready, setReady] = useState(false);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [showQuitDialog, setShowQuitDialog] = useState(false);
-  const [result, setResult] = useState<{ xp: number; stars: 1 | 2 | 3 }>({
-    xp: 0,
-    stars: 1,
-  });
+  const [result, setResult] = useState<{
+    xp: number;
+    stars: 1 | 2 | 3;
+    levelUp: number | null;
+  }>({ xp: 0, stars: 1, levelUp: null });
 
   const load = useCallback(async () => {
     setPhase("loading");
@@ -207,18 +210,39 @@ export function LessonPlayer({
     }
   }
 
+  /**
+   * Prueft (fire-and-forget), ob die frisch verdienten XP ein neues Level
+   * bedeuten, und blendet den Level-Up-Hinweis im Ergebnis-Screen nach.
+   * Muss VOR bumpDailyActivity laufen, sonst zaehlt das neue XP doppelt.
+   */
+  async function detectLevelUp(deviceId: string, gainedXp: number) {
+    try {
+      const activity = await fetchDailyActivity(deviceId);
+      const before = activity.reduce((sum, row) => sum + row.xp, 0);
+      const levelBefore = levelForXp(before).level;
+      const levelAfter = levelForXp(before + gainedXp).level;
+      if (levelAfter > levelBefore) {
+        setResult((prev) => ({ ...prev, levelUp: levelAfter }));
+      }
+    } catch {
+      // kein Netz -> einfach kein Level-Up-Hinweis
+    }
+  }
+
   function finishLesson(finalState: QueueState) {
     // Ueben-Modus: 5 XP pro (am Ende immer richtig geloester) Uebung,
     // kein Lektions-Bonus, keine Sterne, kein Lektions-Ergebnis –
     // aber Tages-Aktivitaet zaehlt (Streak!).
     if (mode === "practice") {
       const xp = finalState.total * PRACTICE_XP_PER_EXERCISE;
-      setResult({ xp, stars: 1 });
+      setResult({ xp, stars: 1, levelUp: null });
       setPhase("finished");
       try {
         const deviceId = getDeviceId();
         if (deviceId) {
-          void bumpDailyActivity(deviceId, xp);
+          void detectLevelUp(deviceId, xp).then(() =>
+            bumpDailyActivity(deviceId, xp)
+          );
         }
       } catch {
         // bewusst still – Ergebnis-Screen zeigen wir trotzdem
@@ -235,7 +259,7 @@ export function LessonPlayer({
       finalState.total,
       retriedExerciseCount(finalState)
     );
-    setResult({ xp, stars });
+    setResult({ xp, stars, levelUp: null });
     setPhase("finished");
 
     // Speichern – bei Netzfehlern uebernimmt die Offline-Queue in lib/data.
@@ -243,7 +267,9 @@ export function LessonPlayer({
       const deviceId = getDeviceId();
       if (deviceId && lessonId) {
         void saveLessonResult({ deviceId, lessonId, stars, xp });
-        void bumpDailyActivity(deviceId, xp);
+        void detectLevelUp(deviceId, xp).then(() =>
+          bumpDailyActivity(deviceId, xp)
+        );
       }
     } catch {
       // bewusst still – Ergebnis-Screen zeigen wir trotzdem
@@ -293,6 +319,7 @@ export function LessonPlayer({
       return (
         <ResultScreen
           xp={result.xp}
+          levelUp={result.levelUp}
           message="Fleißig geübt, Amelie!"
           buttonLabel="Fertig"
           onContinue={() => router.push("/")}
@@ -303,6 +330,7 @@ export function LessonPlayer({
       <ResultScreen
         xp={result.xp}
         stars={result.stars}
+        levelUp={result.levelUp}
         onContinue={() => router.push("/")}
       />
     );

@@ -29,6 +29,14 @@ export default function CreditsPage() {
             Illustrationen. Sie sind bewusst keine echten Abbildungen von
             Euro-Geld.
           </li>
+          <li>Das Pony-Maskottchen hat Xavier erstellt.</li>
+          <li>
+            Schriftart: Open Sans (SIL Open Font License), selbst gehostet.
+          </li>
+          <li>
+            Technik: Next.js, Tailwind CSS, Framer Motion und Supabase (alle
+            Open Source, MIT/Apache-Lizenzen).
+          </li>
         </ul>
       </section>
 

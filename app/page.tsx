@@ -140,9 +140,12 @@ function BigPracticeCard() {
 function TopicCard({
   topic,
   completedCount,
+  perfect = false,
 }: {
   topic: TopicWithLessons;
   completedCount: number;
+  /** true = jede Lektion des Themas mit 3 Sternen geschafft (Gold-Glanz). */
+  perfect?: boolean;
 }) {
   const total = topic.lessons.length;
   const finished = total > 0 && completedCount >= total;
@@ -151,16 +154,30 @@ function TopicCard({
   return (
     <Link
       href={`/thema/${topic.slug}`}
-      aria-label={`${topic.title} – ${completedCount} von ${total} Lektionen geschafft`}
-      className="relative flex min-h-32 flex-col items-center justify-center gap-1.5 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 text-center select-none active:translate-y-0.5 active:border-b-2"
+      aria-label={
+        perfect
+          ? `${topic.title} – alles mit 3 Sternen geschafft!`
+          : `${topic.title} – ${completedCount} von ${total} Lektionen geschafft`
+      }
+      className={
+        perfect
+          ? "relative flex min-h-32 flex-col items-center justify-center gap-1.5 rounded-2xl border-2 border-b-4 border-amber-400 bg-amber-50 p-3 text-center select-none active:translate-y-0.5 active:border-b-2"
+          : "relative flex min-h-32 flex-col items-center justify-center gap-1.5 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 text-center select-none active:translate-y-0.5 active:border-b-2"
+      }
     >
-      {finished && (
-        <span
-          className="absolute top-2 right-2 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
-          aria-hidden
-        >
-          ✓
+      {perfect ? (
+        <span className="absolute top-2 right-2 text-lg" aria-hidden>
+          ⭐
         </span>
+      ) : (
+        finished && (
+          <span
+            className="absolute top-2 right-2 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
+            aria-hidden
+          >
+            ✓
+          </span>
+        )
       )}
       <span className="text-4xl" aria-hidden>
         {topic.icon}
@@ -248,6 +265,10 @@ export default function StartPage() {
   const completedLessonIds = new Set(
     state.progress.map((row) => row.lesson_id)
   );
+  // Beste Sterne je Lektion - fuer den "alles perfekt"-Glanz der Themen-Karten.
+  const starsByLesson = new Map(
+    state.progress.map((row) => [row.lesson_id, row.stars])
+  );
   const suggestions = buildSuggestions({
     topics: state.topics,
     progress: state.progress,
@@ -321,6 +342,12 @@ export default function StartPage() {
                     topic.lessons.filter((lesson) =>
                       completedLessonIds.has(lesson.id)
                     ).length
+                  }
+                  perfect={
+                    topic.lessons.length > 0 &&
+                    topic.lessons.every(
+                      (lesson) => starsByLesson.get(lesson.id) === 3
+                    )
                   }
                 />
               ))}

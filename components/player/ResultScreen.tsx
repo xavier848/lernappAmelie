@@ -14,6 +14,8 @@ import { Mascot } from "@/components/ui/Mascot";
 
 export type ResultScreenProps = {
   xp: number;
+  /** Neues Level, wenn diese Runde ein Level-Aufstieg war (sonst null/weg). */
+  levelUp?: number | null;
   /** Sterne der Lektion; weglassen = keine Sterne anzeigen (Ueben-Modus). */
   stars?: 1 | 2 | 3;
   /** Lob-Text des Maskottchens. */
@@ -25,6 +27,7 @@ export type ResultScreenProps = {
 
 export function ResultScreen({
   xp,
+  levelUp = null,
   stars,
   message = "Super gemacht, Amelie!",
   buttonLabel = "Weiter lernen",
@@ -71,11 +74,21 @@ export function ResultScreen({
         </div>
       )}
 
-      <div className="text-center">
+      <div className="flex flex-col items-center text-center">
         <p className="text-5xl font-extrabold text-primary">+{xp} XP</p>
         <p className="mt-2 text-base font-semibold text-ink">
           Das hast du dir verdient!
         </p>
+        {levelUp !== null && (
+          <motion.p
+            initial={reducedMotion ? false : { scale: 0.6, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: reducedMotion ? 0 : 0.5, type: "spring" }}
+            className="mt-4 rounded-full bg-primary px-5 py-2 text-lg font-extrabold text-white"
+          >
+            Level {levelUp} erreicht! 🎉
+          </motion.p>
+        )}
       </div>
 
       <div className="w-full pt-2">
