@@ -1,20 +1,27 @@
-// Anonyme Geraete-ID (client-only, Spec §6): eine UUID in localStorage
-// identifiziert Amelies Geraet. Beim ersten Mal wird das Geraet
-// fire-and-forget in der devices-Tabelle registriert (Plan Task 4) –
-// noetig, weil progress/exercise_attempts/daily_activity per Fremdschluessel
-// auf devices(id) zeigen.
+// Geraete-ID (client-only, Spec §6). Die App ist fuer GENAU EINE Nutzerin
+// (Amelie) gebaut, ohne Login. Frueher wurde pro Browser eine zufaellige UUID
+// erzeugt und in localStorage gelegt — das Problem: iOS Safari und die zum
+// Home-Bildschirm hinzugefuegte PWA haben GETRENNTE localStorage-Speicher,
+// bekamen also verschiedene IDs und damit verschiedenen (leeren) Fortschritt.
+//
+// Loesung: eine FESTE, geteilte Identitaet. So sieht Amelie ueberall denselben
+// Fortschritt — Browser, Home-Screen-App und jedes neue Geraet. Kein Login noetig.
+// Die feste ID entspricht Amelies bestehendem Fortschritt (nichts geht verloren).
+// Ueberschreibbar per NEXT_PUBLIC_DEVICE_ID, falls spaeter mehrere Profile noetig sind.
 import { supabaseBrowser } from "@/lib/supabase";
 
-const STORAGE_KEY = "lernapp-device-id";
 const REGISTERED_KEY = "lernapp-device-registered";
+
+/** Feste Geraete-ID fuer Amelie (bisheriger Fortschritt haengt hier dran). */
+const AMELIE_DEVICE_ID =
+  process.env.NEXT_PUBLIC_DEVICE_ID ?? "8ad172de-2bb9-4f6a-8de6-dc720b45b9c0";
 
 let registrationInFlight = false;
 
 /**
- * Registriert das Geraet in der devices-Tabelle (fire-and-forget).
- * Erst nach erfolgreichem Insert (oder wenn die Zeile schon existiert)
- * wird das lokale "registriert"-Flag gesetzt – schlaegt der Insert fehl
- * (z. B. offline), wird es beim naechsten getDeviceId() erneut versucht.
+ * Stellt sicher, dass die Geraete-Zeile in der devices-Tabelle existiert
+ * (progress/exercise_attempts/daily_activity zeigen per Fremdschluessel darauf).
+ * Fire-and-forget; bei bereits vorhandener Zeile (23505) ein No-op.
  */
 function registerDevice(id: string): void {
   if (registrationInFlight) return;
@@ -24,7 +31,6 @@ function registerDevice(id: string): void {
       .from("devices")
       .insert({ id })
       .then(({ error }) => {
-        // 23505 = unique_violation: Geraet ist schon registriert.
         if (!error || error.code === "23505") {
           window.localStorage.setItem(REGISTERED_KEY, "1");
         }
@@ -38,27 +44,18 @@ function registerDevice(id: string): void {
         }
       );
   } catch {
-    // Supabase nicht konfiguriert o. ae. – App laeuft weiter,
-    // Registrierung wird beim naechsten Aufruf erneut versucht.
     registrationInFlight = false;
   }
 }
 
 /**
- * Liest die Geraete-ID aus localStorage oder erzeugt sie beim ersten Besuch
- * (inkl. Registrierung in der devices-Tabelle, fire-and-forget).
- * Auf dem Server (ohne window) wird ein leerer String zurueckgegeben.
+ * Liefert Amelies feste Geraete-ID. Auf dem Server (ohne window) ein leerer
+ * String. Registriert die Zeile beim ersten Aufruf pro Browser (fire-and-forget).
  */
 export function getDeviceId(): string {
   if (typeof window === "undefined") return "";
-
-  let id = window.localStorage.getItem(STORAGE_KEY);
-  if (!id) {
-    id = crypto.randomUUID();
-    window.localStorage.setItem(STORAGE_KEY, id);
-  }
   if (!window.localStorage.getItem(REGISTERED_KEY)) {
-    registerDevice(id);
+    registerDevice(AMELIE_DEVICE_ID);
   }
-  return id;
+  return AMELIE_DEVICE_ID;
 }
