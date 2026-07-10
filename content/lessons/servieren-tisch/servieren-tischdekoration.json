@@ -1,0 +1,122 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tischdekoration",
+  "title": "Tischdekoration",
+  "sort": 70,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✨ Welche Aufgabe hat welche Dekoration? Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🪧 Tischkarten" }, "right": { "text": "zeigen, wo jeder Gast sitzt" } },
+          { "left": { "text": "📜 Menükarten" }, "right": { "text": "zeigen die Reihenfolge der Speisen" } },
+          { "left": { "text": "🕯️ Kerzen" }, "right": { "text": "machen eine gemütliche Stimmung" } },
+          { "left": { "text": "💐 Blumengesteck" }, "right": { "text": "schmückt den Tisch" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪧 Was zeigt dem Gast, wo er sitzen soll?",
+        "options": [
+          { "text": "Die Tischkarte.", "correct": true },
+          { "text": "Die Menükarte." },
+          { "text": "Die Kerze." }
+        ],
+        "explanation": "Auf der Tischkarte steht der Name. So weiß jeder Gast, welcher Platz für ihn ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📜 Was zeigt dem Gast die Reihenfolge der Speisen?",
+        "options": [
+          { "text": "Die Menükarte.", "correct": true },
+          { "text": "Die Tischkarte." },
+          { "text": "Das Blumengesteck." }
+        ],
+        "explanation": "Auf der Menükarte steht, welche Speisen nacheinander kommen. Das ist bei einem festlichen Menü praktisch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✨ Gibt die Dekoration eine Information, oder schmückt sie nur? Sortiere.",
+        "buckets": [
+          { "id": "info", "label": "Gibt Infos", "icon": "ℹ️" },
+          { "id": "schmuck", "label": "Schmückt den Tisch", "icon": "✨" }
+        ],
+        "items": [
+          { "text": "Tischkarten", "bucket": "info" },
+          { "text": "Menükarten", "bucket": "info" },
+          { "text": "Kerzen", "bucket": "schmuck" },
+          { "text": "Blumengesteck", "bucket": "schmuck" },
+          { "text": "Tischläufer", "bucket": "schmuck" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💐 Wie hoch darf ein Blumengesteck auf dem Tisch sein?",
+        "options": [
+          { "text": "Nicht zu hoch, sonst sieht man die anderen Gäste nicht.", "correct": true },
+          { "text": "So hoch wie möglich." },
+          { "text": "Das ist ganz egal." }
+        ],
+        "explanation": "Ein Blumengesteck soll niedrig sein. Sonst verdeckt es die Sicht zu den anderen am Tisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎀 Wohin legst du den Tischläufer?",
+        "options": [
+          { "text": "Über die Mitte der Tafel.", "correct": true },
+          { "text": "An den äußersten Rand." },
+          { "text": "Unter den Tisch." }
+        ],
+        "explanation": "Der Tischläufer und die Tischbänder werden über die Mitte der Tafel gelegt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Worauf achtest du bei Servietten und Tischdecke?",
+        "options": [
+          { "text": "Die Farben passen zum Geschirr.", "correct": true },
+          { "text": "Sie müssen möglichst bunt gemischt sein." },
+          { "text": "Sie müssen immer weiß sein." }
+        ],
+        "explanation": "Tischdecke, Tischläufer und Servietten stimmst du farblich auf das Geschirr ab. Dann sieht der Tisch stimmig aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕯️ Wozu stellst du Kerzen auf den Tisch?",
+        "options": [
+          { "text": "Für eine schöne, gemütliche Stimmung.", "correct": true },
+          { "text": "Damit es wärmer im Raum wird." },
+          { "text": "Damit man den Tisch riecht." }
+        ],
+        "explanation": "Kerzen und Kerzenleuchter geben dem Raum eine stimmungsvolle Atmosphäre."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Was kannst du mit einer Serviette machen?",
+        "options": [
+          { "text": "Man kann sie schön falten.", "correct": true },
+          { "text": "Man kann sie als Teller nehmen." },
+          { "text": "Man kann sie als Kerze nehmen." }
+        ],
+        "explanation": "Servietten kann man unterschiedlich falten, zum Beispiel als Spitz oder als Mütze. Die Farbe passt zum Geschirr."
+      }
+    }
+  ]
+}

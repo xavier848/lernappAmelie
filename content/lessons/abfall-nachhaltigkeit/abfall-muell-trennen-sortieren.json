@@ -1,0 +1,118 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-muell-trennen-sortieren",
+  "title": "Müll richtig trennen",
+  "sort": 210,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗑️ In welche Tonne gehört der Müll? Sortiere.",
+        "buckets": [
+          { "id": "papier", "label": "Altpapier", "icon": "📄" },
+          { "id": "gelb", "label": "Gelbe Tonne", "icon": "🟡" },
+          { "id": "glas", "label": "Glascontainer", "icon": "🫙" }
+        ],
+        "items": [
+          { "text": "Zeitung", "bucket": "papier" },
+          { "text": "Pappkarton", "bucket": "papier" },
+          { "text": "Joghurtbecher", "bucket": "gelb" },
+          { "text": "Zahnpastatube", "bucket": "gelb" },
+          { "text": "Leere Glasflasche", "bucket": "glas" },
+          { "text": "Leeres Gurkenglas", "bucket": "glas" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Wohin gehören Eierschalen und Kartoffelschalen?",
+        "options": [
+          { "text": "In die Biotonne oder auf den Kompost.", "correct": true },
+          { "text": "In die Gelbe Tonne." },
+          { "text": "In den Glascontainer." }
+        ],
+        "explanation": "Schalen und andere Küchenreste können verrotten. Aus ihnen wird auf dem Kompost neue Erde."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗑️ In welche Tonne gehört der Müll? Sortiere.",
+        "buckets": [
+          { "id": "bio", "label": "Biotonne", "icon": "🌱" },
+          { "id": "rest", "label": "Restmüll", "icon": "⚫" },
+          { "id": "sonder", "label": "Sondermüll", "icon": "☠️" }
+        ],
+        "items": [
+          { "text": "Kartoffelschalen", "bucket": "bio" },
+          { "text": "Kaffeesatz", "bucket": "bio" },
+          { "text": "Papiertaschentuch", "bucket": "rest" },
+          { "text": "Windel", "bucket": "rest" },
+          { "text": "Alte Batterien", "bucket": "sonder" },
+          { "text": "Reste von Farbe und Lack", "bucket": "sonder" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Eine kaputte LED-Lampe – wohin damit?",
+        "options": [
+          { "text": "In den Restmüll.", "correct": true },
+          { "text": "In den Sondermüll." },
+          { "text": "In den Glascontainer." }
+        ],
+        "explanation": "Eine LED-Lampe enthält keine gefährlichen Stoffe. Deshalb darf sie in den Restmüll."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Eine kaputte Energiesparlampe – wohin damit?",
+        "options": [
+          { "text": "In den Sondermüll.", "correct": true },
+          { "text": "In den Restmüll." },
+          { "text": "In die Biotonne." }
+        ],
+        "explanation": "In einer Energiesparlampe stecken Schadstoffe. Darum gehört sie in den Sondermüll und nicht in den normalen Müll."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "♻️ Diese Sachen haben einen besonderen Weg. Verbinde.",
+        "pairs": [
+          { "left": { "text": "💊 Alte Medikamente" }, "right": { "text": "In der Apotheke zurückgeben" } },
+          { "left": { "text": "🍾 Leere Pfandflasche" }, "right": { "text": "Gegen Pfand zurückgeben" } },
+          { "left": { "text": "🔋 Alte Batterien" }, "right": { "text": "In die Sammelbox im Geschäft" } },
+          { "left": { "text": "👕 Getragene Kleidung" }, "right": { "text": "In die Altkleidersammlung" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Wohin gehört ein leerer Joghurtbecher aus Plastik?",
+        "options": [
+          { "text": "In die Gelbe Tonne mit dem Grünen Punkt.", "correct": true },
+          { "text": "In den Glascontainer." },
+          { "text": "Ins Altpapier." }
+        ],
+        "explanation": "Verpackungen aus Plastik gehören in die Gelbe Tonne. Von dort werden sie recycelt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫙 Eine leere Glasflasche – wohin damit?",
+        "options": [
+          { "text": "In den Glascontainer.", "correct": true },
+          { "text": "In den Restmüll." },
+          { "text": "In die Biotonne." }
+        ],
+        "explanation": "Altglas kommt nach Farben sortiert in den Glascontainer. Daraus wird neues Glas gemacht."
+      }
+    }
+  ]
+}

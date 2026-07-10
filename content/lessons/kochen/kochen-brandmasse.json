@@ -1,0 +1,133 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-brandmasse",
+  "title": "Brandmasse herstellen",
+  "sort": 210,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍮 Du stellst eine Brandmasse her. Bringe die ersten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧰 Arbeitsgeräte und Zutaten bereitstellen." },
+          { "text": "♨️ Wasser, Salz und Margarine zum Sieden bringen." },
+          { "text": "🌾 Das Mehl unter ständigem Rühren dazugeben." },
+          { "text": "🥔 Weiterrühren, bis ein Kloß entsteht." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Wasser, Salz und Margarine bringst du zuerst zum ___.",
+        "options": [
+          { "text": "Sieden", "correct": true },
+          { "text": "Abkühlen" },
+          { "text": "Einfrieren" }
+        ],
+        "explanation": "Sieden heißt: Die Flüssigkeit kocht und blubbert. Erst dann kommt das Mehl dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Wie gibst du das Mehl in den Topf?",
+        "options": [
+          { "text": "Unter ständigem Rühren.", "correct": true },
+          { "text": "Alles auf einmal, ohne zu rühren." },
+          { "text": "Erst nach dem Abkühlen." }
+        ],
+        "explanation": "Beim Rühren verteilt sich das Mehl gleichmäßig. So gibt es keine Klumpen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Woran erkennst du, dass die Masse fertig gerührt ist?",
+        "options": [
+          { "text": "Es entsteht ein Kloß und am Topfboden bildet sich ein weißer Belag.", "correct": true },
+          { "text": "Die Masse wird ganz flüssig wie Wasser." },
+          { "text": "Die Masse wird schwarz." }
+        ],
+        "explanation": "Wenn sich die Masse zu einem Kloß zusammenballt und der Topfboden einen weißen Belag hat, ist sie fertig abgebrannt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍮 Was kommt am Anfang in den Topf, was erst am Ende? Sortiere.",
+        "buckets": [
+          { "id": "anfang", "label": "Am Anfang", "icon": "▶️" },
+          { "id": "ende", "label": "Am Ende", "icon": "⏹️" }
+        ],
+        "items": [
+          { "text": "Wasser", "bucket": "anfang" },
+          { "text": "Margarine", "bucket": "anfang" },
+          { "text": "Salz", "bucket": "anfang" },
+          { "text": "Die Eier", "bucket": "ende" },
+          { "text": "Das Backpulver", "bucket": "ende" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥚 Die Masse ist abgebrannt. Bringe die letzten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥚 Ein Ei unter die heiße Masse rühren." },
+          { "text": "🥚 Drei weitere Eier einzeln unterrühren und die Masse abkühlen lassen." },
+          { "text": "🎈 Einen Teelöffel Backpulver unterrühren." },
+          { "text": "🧽 Den Arbeitsplatz aufräumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Wie viele Eier kommen insgesamt in die Brandmasse?",
+        "options": [
+          { "text": "4 Eier", "correct": true },
+          { "text": "2 Eier" },
+          { "text": "6 Eier" }
+        ],
+        "explanation": "Zuerst rührst du 1 Ei unter. Danach kommen noch 3 Eier einzeln dazu. Das sind zusammen 4 Eier."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Wann rührst du das erste Ei unter?",
+        "options": [
+          { "text": "Wenn die Masse noch heiß ist.", "correct": true },
+          { "text": "Erst wenn die Masse ganz kalt ist." },
+          { "text": "Bevor das Mehl dazukommt." }
+        ],
+        "explanation": "Das erste Ei rührst du in die noch heiße Masse. Die weiteren Eier kommen dann nach und nach dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎈 Wozu rührst du am Schluss Backpulver unter?",
+        "options": [
+          { "text": "Es macht die Masse locker.", "correct": true },
+          { "text": "Es macht die Masse salzig." },
+          { "text": "Es färbt die Masse braun." }
+        ],
+        "explanation": "Das Backpulver lockert die Brandmasse. So geht das Gebäck später schön auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Was machst du ganz zum Schluss, wenn die Brandmasse fertig ist?",
+        "options": [
+          { "text": "Den Arbeitsplatz aufräumen.", "correct": true },
+          { "text": "Noch mehr Wasser dazugeben." },
+          { "text": "Die Masse einfrieren." }
+        ],
+        "explanation": "Am Ende räumst du deinen Arbeitsplatz auf. So bleibt die Küche sauber und ordentlich."
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-gartechniken",
+  "title": "Gartechniken",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥧 Ein Kuchen gart in heißer Luft im Backofen und wird dabei braun. Wie heißt diese Gartechnik?",
+        "options": [
+          { "text": "Backen.", "correct": true },
+          { "text": "Kochen." },
+          { "text": "Dämpfen." }
+        ],
+        "explanation": "Beim Backen gart das Essen in der heißen Luft des Backofens. Die Oberfläche wird dabei braun und knusprig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Gemüse gart nur im heißen Wasserdampf, ohne im Wasser zu liegen. Wie heißt diese Gartechnik?",
+        "options": [
+          { "text": "Dämpfen.", "correct": true },
+          { "text": "Frittieren." },
+          { "text": "Braten." }
+        ],
+        "explanation": "Beim Dämpfen liegt das Essen über dem Wasser. Nur der Dampf gart es. So bleiben Vitamine und Farbe gut erhalten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Nudeln garen in viel sprudelndem Wasser. Wie heißt diese Gartechnik?",
+        "options": [
+          { "text": "Kochen.", "correct": true },
+          { "text": "Dünsten." },
+          { "text": "Grillen." }
+        ],
+        "explanation": "Beim Kochen liegt das Essen in viel siedender Flüssigkeit. Das Wasser sprudelt bei 100 Grad. So garen zum Beispiel Nudeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥘 Fleisch wird erst scharf angebraten und dann mit wenig Flüssigkeit weitergegart, zum Beispiel Gulasch. Wie heißt das?",
+        "options": [
+          { "text": "Schmoren.", "correct": true },
+          { "text": "Backen." },
+          { "text": "Dämpfen." }
+        ],
+        "explanation": "Beim Schmoren brätst du das Fleisch zuerst in heißem Fett an. Dann gibst du wenig Flüssigkeit dazu. So gart es langsam weiter und wird zart."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Pommes frites garen in heißem, reinem Fett. Wie heißt diese Gartechnik?",
+        "options": [
+          { "text": "Frittieren.", "correct": true },
+          { "text": "Garziehen." },
+          { "text": "Dünsten." }
+        ],
+        "explanation": "Beim Frittieren liegt das Essen ganz im heißen Fettbad. Es wird schnell gar und außen knusprig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Woran erkennst du die Gartechnik? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Braten" }, "right": { "text": "in heißem Fett, wird braun" } },
+          { "left": { "text": "Grillen" }, "right": { "text": "durch Strahlungshitze" } },
+          { "left": { "text": "Dünsten" }, "right": { "text": "im eigenen Saft, wenig Fett" } },
+          { "left": { "text": "Druckgaren" }, "right": { "text": "unter Druck bei 115 Grad" } },
+          { "left": { "text": "Garziehen" }, "right": { "text": "bei etwa 85 Grad, nicht kochend" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Womit gart die Speise? Sortiere die Gartechniken.",
+        "buckets": [
+          { "id": "fett", "label": "Mit Fett", "icon": "🧈" },
+          { "id": "wasser", "label": "Mit Wasser oder Dampf", "icon": "💧" },
+          { "id": "hitze", "label": "Mit trockener Hitze", "icon": "🔥" }
+        ],
+        "items": [
+          { "text": "Braten", "bucket": "fett" },
+          { "text": "Frittieren", "bucket": "fett" },
+          { "text": "Kochen", "bucket": "wasser" },
+          { "text": "Dämpfen", "bucket": "wasser" },
+          { "text": "Garziehen", "bucket": "wasser" },
+          { "text": "Backen", "bucket": "hitze" },
+          { "text": "Grillen", "bucket": "hitze" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Pommes frites garst du im heißen Fett. Wie heißt diese Gartechnik noch einmal?",
+        "options": [
+          { "text": "Frittieren.", "correct": true },
+          { "text": "Kochen." },
+          { "text": "Backen." }
+        ],
+        "explanation": "Im heißen Fettbad heißt es Frittieren. Kochen wäre in Wasser, Backen wäre in heißer Luft."
+      }
+    }
+  ]
+}

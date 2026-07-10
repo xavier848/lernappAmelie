@@ -1,0 +1,126 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-getraenke-wasser",
+  "title": "Getränke & Wasser",
+  "sort": 60,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Wasser ist lebenswichtig für den Körper. Warum?",
+        "options": [
+          { "text": "Es hat viele Aufgaben im Körper, zum Beispiel als Transportmittel.", "correct": true },
+          { "text": "Es macht nur satt." },
+          { "text": "Es hat gar keine Aufgabe." }
+        ],
+        "explanation": "Wasser steckt in jeder Zelle. Es löst Nährstoffe, transportiert sie und regelt die Wärme. Ohne Wasser geht im Körper nichts."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Aufgabe hat das Wasser im Körper? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Baustoff" }, "right": { "text": "Wasser steckt in jeder Zelle" } },
+          { "left": { "text": "Lösungsmittel" }, "right": { "text": "Löst Nährstoffe auf" } },
+          { "left": { "text": "Transportmittel" }, "right": { "text": "Bringt Stoffe durch den Körper" } },
+          { "left": { "text": "Wärmeregulation" }, "right": { "text": "Kühlt beim Schwitzen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥤 Sortiere die Getränke nach ihrem Nährstoffgehalt.",
+        "buckets": [
+          { "id": "wenig", "label": "Wenig Energie", "icon": "💧" },
+          { "id": "zucker", "label": "Viel Zucker", "icon": "🍬" },
+          { "id": "vitamine", "label": "Energie + Vitamine", "icon": "🥕" }
+        ],
+        "items": [
+          { "text": "Mineralwasser", "bucket": "wenig" },
+          { "text": "Kräutertee", "bucket": "wenig" },
+          { "text": "Limonade", "bucket": "zucker" },
+          { "text": "Cola", "bucket": "zucker" },
+          { "text": "Gemüsesaft", "bucket": "vitamine" },
+          { "text": "Buttermilch", "bucket": "vitamine" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Ein Mensch braucht am Tag etwa 2,5 Liter Wasser. Woher kommt das?",
+        "options": [
+          { "text": "Etwa 1,5 Liter aus Getränken und 1 Liter aus dem Essen.", "correct": true },
+          { "text": "Alles nur aus Getränken." },
+          { "text": "Alles nur aus dem Essen." }
+        ],
+        "explanation": "Rund 1,5 Liter trinkst du. Etwa 1 Liter steckt schon im Essen, zum Beispiel in Obst und Gemüse. Zusammen sind das ungefähr 2,5 Liter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Wie viel Wasser steckt in diesen Lebensmitteln? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Gurke" }, "right": { "text": "96 %" } },
+          { "left": { "text": "Fisch" }, "right": { "text": "87 %" } },
+          { "left": { "text": "Milch" }, "right": { "text": "86 %" } },
+          { "left": { "text": "Ei" }, "right": { "text": "49 %" } },
+          { "left": { "text": "Brot" }, "right": { "text": "40 %" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥒 Welches Lebensmittel enthält am meisten Wasser?",
+        "options": [
+          { "text": "Die Gurke mit 96 %.", "correct": true },
+          { "text": "Das Brot mit 40 %." },
+          { "text": "Das Ei mit 49 %." }
+        ],
+        "explanation": "Die Gurke besteht fast nur aus Wasser: 96 Prozent. Brot und Ei haben viel weniger Wasser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👍 Welches Getränk ist gut, um den Durst zu löschen?",
+        "options": [
+          { "text": "Mineralwasser, es hat kaum Energie.", "correct": true },
+          { "text": "Cola, weil sie viel Zucker hat." },
+          { "text": "Limonade, weil sie süß ist." }
+        ],
+        "explanation": "Mineralwasser hat fast keine Energie und keinen Zucker. Es ist das beste Getränk zum Durstlöschen. Auch Kräutertee ist gut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍬 Warum solltest du Limonade nur selten trinken?",
+        "options": [
+          { "text": "Sie hat viel Zucker und viel Energie.", "correct": true },
+          { "text": "Sie hat gar keinen Geschmack." },
+          { "text": "Sie ist immer zu teuer." }
+        ],
+        "explanation": "In Limonade steckt viel Zucker. Das gibt viel Energie, aber keine wichtigen Nährstoffe. Darum ist sie kein gutes Durstlöscher-Getränk."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was ist das beste Getränk für jeden Tag?",
+        "options": [
+          { "text": "Wasser.", "correct": true },
+          { "text": "Cola." },
+          { "text": "Limonade." }
+        ],
+        "explanation": "Wasser ist das beste Alltagsgetränk. Es löscht den Durst ohne Zucker und ohne unnötige Energie."
+      }
+    }
+  ]
+}

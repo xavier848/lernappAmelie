@@ -1,0 +1,123 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-anrichten",
+  "title": "Speisen richtig anrichten",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍽️ In welches Geschirr kommt welche Speise? Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🍖 Braten" }, "right": { "text": "vorgewärmte Platte mit Fleischgabel" } },
+          { "left": { "text": "🥣 Suppe" }, "right": { "text": "Suppenterrine mit Suppenkelle" } },
+          { "left": { "text": "🍨 Süßspeise" }, "right": { "text": "Glasschälchen" } },
+          { "left": { "text": "🥔 Salzkartoffeln" }, "right": { "text": "vorgewärmte Schüssel mit Kartoffellöffel" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Wie voll füllst du eine Salatschüssel?",
+        "options": [
+          { "text": "Nur etwa drei Viertel voll.", "correct": true },
+          { "text": "Bis ganz oben, randvoll." },
+          { "text": "Nur ein kleines bisschen." }
+        ],
+        "explanation": "Die Schüssel ist nur drei Viertel voll. So kannst du den Salat noch gut mischen und vorlegen, ohne dass etwas überschwappt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Warum wärmst du die Platte für den Braten vorher an?",
+        "options": [
+          { "text": "Damit die warme Speise nicht so schnell kalt wird.", "correct": true },
+          { "text": "Damit die Platte schöner glänzt." },
+          { "text": "Damit der Braten schneller gart." }
+        ],
+        "explanation": "Warme Speisen kommen in vorgewärmtes Geschirr. Auf einer kalten Platte würde der Braten sonst schnell auskühlen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Welche Speise kommt in warmes, vorgewärmtes Geschirr? Welche in kaltes Glasgeschirr? Sortiere.",
+        "buckets": [
+          { "id": "warm", "label": "Warm & vorgewärmt", "icon": "🔥" },
+          { "id": "glas", "label": "Kalt im Glas", "icon": "🍧" }
+        ],
+        "items": [
+          { "text": "Braten", "bucket": "warm" },
+          { "text": "Nudeln", "bucket": "warm" },
+          { "text": "Salzkartoffeln", "bucket": "warm" },
+          { "text": "Pudding", "bucket": "glas" },
+          { "text": "Eis", "bucket": "glas" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥄 Welches Vorlegebesteck gehört zu welcher Speise? Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🍖 Braten" }, "right": { "text": "Fleischgabel" } },
+          { "left": { "text": "🥣 Suppe" }, "right": { "text": "Suppenkelle" } },
+          { "left": { "text": "🥗 Salat" }, "right": { "text": "Salatbesteck" } },
+          { "left": { "text": "🥔 Salzkartoffeln" }, "right": { "text": "Kartoffellöffel" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍨 Worin richtest du eine Süßspeise an?",
+        "options": [
+          { "text": "In einem Glasschälchen.", "correct": true },
+          { "text": "Auf einer heißen Platte." },
+          { "text": "In einer Suppenterrine." }
+        ],
+        "explanation": "Süßspeisen kommen in Glasgeschirr, zum Beispiel in ein Glasschälchen. Darin sehen sie besonders schön aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Wie richtest du den Braten auf der Platte an?",
+        "options": [
+          { "text": "Aufgeschnitten, mit einer Fleischgabel dazu.", "correct": true },
+          { "text": "Im Ganzen, ganz ohne Besteck." },
+          { "text": "Zerdrückt in einem Glas." }
+        ],
+        "explanation": "Der Braten wird aufgeschnitten auf einer vorgewärmten Platte angerichtet. Dazu legst du eine Fleischgabel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 In welchem Geschirr richtest du warme Nudeln an?",
+        "options": [
+          { "text": "In einer runden, vorgewärmten Schüssel.", "correct": true },
+          { "text": "In einem kalten Glasteller." },
+          { "text": "Auf einer nassen Untertasse." }
+        ],
+        "explanation": "Warme Nudeln kommen in eine runde, vorgewärmte Schüssel. Dazu gehört ein Vorlegebesteck."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Was legst du zu einer Suppenterrine dazu?",
+        "options": [
+          { "text": "Eine Suppenkelle.", "correct": true },
+          { "text": "Eine Fleischgabel." },
+          { "text": "Einen Tortenheber." }
+        ],
+        "explanation": "Mit der Suppenkelle kannst du die Suppe aus der Terrine schöpfen. Sie gehört immer dazu."
+      }
+    }
+  ]
+}

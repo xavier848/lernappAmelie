@@ -1,0 +1,113 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-umrechnen",
+  "title": "Maße & Gewichte umrechnen",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Wie viele Gramm sind 1 Kilogramm?",
+        "options": [
+          { "text": "1000 Gramm.", "correct": true },
+          { "text": "100 Gramm." },
+          { "text": "500 Gramm." }
+        ],
+        "explanation": "1 Kilogramm sind immer 1000 Gramm. Die Abkürzung kg steht für Kilogramm, g steht für Gramm."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Du brauchst ein halbes Kilo Mehl. Wie viele Gramm sind das?",
+        "options": [
+          { "text": "500 Gramm.", "correct": true },
+          { "text": "250 Gramm." },
+          { "text": "750 Gramm." }
+        ],
+        "explanation": "Ein halbes Kilo ist die Hälfte von 1000 Gramm. Die Hälfte von 1000 ist 500. Also sind ein halbes Kilo 500 Gramm."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie viele Gramm sind das? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "⅛ kg" }, "right": { "text": "125 g" } },
+          { "left": { "text": "¼ kg" }, "right": { "text": "250 g" } },
+          { "left": { "text": "½ kg" }, "right": { "text": "500 g" } },
+          { "left": { "text": "¾ kg" }, "right": { "text": "750 g" } },
+          { "left": { "text": "1 kg" }, "right": { "text": "1000 g" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ist die Menge kleiner als ein halbes Kilo oder nicht? Sortiere.",
+        "buckets": [
+          { "id": "klein", "label": "Weniger als 500 g", "icon": "🤏" },
+          { "id": "gross", "label": "500 g oder mehr", "icon": "✋" }
+        ],
+        "items": [
+          { "text": "125 g", "bucket": "klein" },
+          { "text": "250 g", "bucket": "klein" },
+          { "text": "500 g", "bucket": "gross" },
+          { "text": "750 g", "bucket": "gross" },
+          { "text": "1000 g", "bucket": "gross" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Du brauchst ein Viertel Kilo Zucker. Wie viele Gramm sind das?",
+        "options": [
+          { "text": "250 Gramm.", "correct": true },
+          { "text": "125 Gramm." },
+          { "text": "500 Gramm." }
+        ],
+        "explanation": "Ein Viertel Kilo ist ein Viertel von 1000 Gramm. 1000 geteilt durch 4 ist 250. Also sind ein Viertel Kilo 250 Gramm."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie viele Milliliter sind das? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "⅛ l" }, "right": { "text": "125 ml" } },
+          { "left": { "text": "¼ l" }, "right": { "text": "250 ml" } },
+          { "left": { "text": "½ l" }, "right": { "text": "500 ml" } },
+          { "left": { "text": "¾ l" }, "right": { "text": "750 ml" } },
+          { "left": { "text": "1 l" }, "right": { "text": "1000 ml" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Bei Wasser gilt eine praktische Regel. Wie viel wiegt 1 Milliliter Wasser?",
+        "options": [
+          { "text": "Genau 1 Gramm.", "correct": true },
+          { "text": "10 Gramm." },
+          { "text": "100 Gramm." }
+        ],
+        "explanation": "Bei Wasser wiegt 1 Milliliter genau 1 Gramm. So sind 1 Liter Wasser auch 1000 Gramm. Bei Mehl oder Öl stimmt das nicht genau."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧁 Im Rezept steht ein Viertel Kilo. Wie viel wiegst du ab?",
+        "options": [
+          { "text": "250 Gramm.", "correct": true },
+          { "text": "25 Gramm." },
+          { "text": "2500 Gramm." }
+        ],
+        "explanation": "Ein Viertel Kilo sind 250 Gramm. Merke dir die kleine Reihe: 125, 250, 500, 750, 1000 Gramm."
+      }
+    }
+  ]
+}

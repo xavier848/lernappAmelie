@@ -1,0 +1,104 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-textile-kette",
+  "title": "Die textile Kette",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Die textile Kette zeigt den ganzen Weg eines Kleidungsstücks. Womit beginnt sie?",
+        "options": [
+          { "text": "Mit der Fasererzeugung.", "correct": true },
+          { "text": "Mit dem Waschen." },
+          { "text": "Mit dem Wegwerfen." }
+        ],
+        "explanation": "Am Anfang steht die Fasererzeugung. Hier entsteht die Faser, zum Beispiel wächst die Baumwolle. Ohne Faser gibt es keinen Stoff."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧵 Bringe die ersten vier Stationen der textilen Kette in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Fasererzeugung" },
+          { "text": "Textilerzeugung" },
+          { "text": "Textilveredlung" },
+          { "text": "Konfektion" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧵 Und weiter: Bringe die letzten Stationen in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Konfektion" },
+          { "text": "Verteilung" },
+          { "text": "Gebrauch und Pflege" },
+          { "text": "Entsorgung und Verwertung" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was passiert in welcher Station? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Fasererzeugung" }, "right": { "text": "Die Faser entsteht, z. B. Baumwolle wächst" } },
+          { "left": { "text": "Konfektion" }, "right": { "text": "Aus dem Stoff wird Kleidung genäht" } },
+          { "left": { "text": "Gebrauch und Pflege" }, "right": { "text": "Das Kleidungsstück wird getragen und gewaschen" } },
+          { "left": { "text": "Entsorgung und Verwertung" }, "right": { "text": "Alte Kleidung wird recycelt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "👚 Das Leben eines T-Shirts. Bringe die ersten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Baumwolle für das T-Shirt wird angebaut." },
+          { "text": "Die Baumwolle wird zu Stoff verarbeitet." },
+          { "text": "Der Stoff wird bedruckt." },
+          { "text": "Aus dem Stoff wird ein T-Shirt genäht." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "👚 Und weiter im Leben des T-Shirts. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das T-Shirt wird verkauft und getragen." },
+          { "text": "Nach vielem Waschen wird es blasser." },
+          { "text": "Es kommt in den Altkleider-Container und wird recycelt." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Was passiert am Ende der textilen Kette?",
+        "options": [
+          { "text": "Die alte Kleidung wird entsorgt oder verwertet.", "correct": true },
+          { "text": "Die Faser wird zum ersten Mal angebaut." },
+          { "text": "Der Stoff wird bedruckt." }
+        ],
+        "explanation": "Am Ende steht die Entsorgung und Verwertung. Alte Kleidung wird recycelt. Die Fasern können so wieder neu genutzt werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ In welcher Station wird aus dem Stoff ein fertiges Kleidungsstück?",
+        "options": [
+          { "text": "In der Konfektion.", "correct": true },
+          { "text": "In der Fasererzeugung." },
+          { "text": "Bei der Entsorgung." }
+        ],
+        "explanation": "In der Konfektion wird der Stoff zugeschnitten und zu Kleidung genäht. Danach ist das Kleidungsstück fertig."
+      }
+    }
+  ]
+}

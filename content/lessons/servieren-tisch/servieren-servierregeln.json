@@ -1,0 +1,109 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-servierregeln",
+  "title": "Richtig servieren",
+  "sort": 80,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🤵 Von welcher Seite machst du das? Sortiere die Vorgänge.",
+        "buckets": [
+          { "id": "links", "label": "Von links", "icon": "👈" },
+          { "id": "rechts", "label": "Von rechts", "icon": "👉" }
+        ],
+        "items": [
+          { "text": "Eine Platte zur Selbstbedienung anreichen", "bucket": "links" },
+          { "text": "Einen fertigen Teller einsetzen", "bucket": "rechts" },
+          { "text": "Den leeren Teller abräumen", "bucket": "rechts" },
+          { "text": "Kaffee einschenken", "bucket": "rechts" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Von welcher Seite reichst du eine Platte zur Selbstbedienung an?",
+        "options": [
+          { "text": "Von links.", "correct": true },
+          { "text": "Von rechts." },
+          { "text": "Von hinten über den Kopf." }
+        ],
+        "explanation": "Die Selbstbedienungsplatte reichst du von links an. So kann sich der Gast bequem mit der rechten Hand auftun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Von welcher Seite setzt du einen fertig angerichteten Teller ein?",
+        "options": [
+          { "text": "Von rechts, mit der rechten Hand.", "correct": true },
+          { "text": "Von links, mit der linken Hand." },
+          { "text": "Von vorne über den Tisch." }
+        ],
+        "explanation": "Fertige Teller setzt du von rechts mit der rechten Hand ein. Von rechts hebst du sie später auch wieder ab."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🤵 Von welcher Seite gehört welcher Vorgang? Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🍲 Selbstbedienungsplatte" }, "right": { "text": "von links anreichen" } },
+          { "left": { "text": "🍽️ Fertiger Teller" }, "right": { "text": "von rechts einsetzen" } },
+          { "left": { "text": "🍴 Leerer Teller" }, "right": { "text": "von rechts abräumen" } },
+          { "left": { "text": "☕ Kaffeekanne" }, "right": { "text": "in der linken Hand halten" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Von welcher Seite räumst du den leeren Teller ab?",
+        "options": [
+          { "text": "Von rechts, mit der rechten Hand.", "correct": true },
+          { "text": "Von links, mit der linken Hand." },
+          { "text": "Von schräg oben." }
+        ],
+        "explanation": "Den leeren Teller hebst du von rechts mit der rechten Hand ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Woran erkennst du, dass ein Gast fertig gegessen hat?",
+        "options": [
+          { "text": "Das Besteck liegt nebeneinander auf dem Teller.", "correct": true },
+          { "text": "Der Gast klopft auf den Tisch." },
+          { "text": "Der Teller ist noch voll." }
+        ],
+        "explanation": "Liegt das Besteck nebeneinander auf dem Teller, ist das ein Zeichen: Der Gast ist mit dem Gang fertig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ In welcher Hand hältst du die Kaffeekanne beim Einschenken?",
+        "options": [
+          { "text": "In der linken Hand.", "correct": true },
+          { "text": "In der rechten Hand." },
+          { "text": "In beiden Händen." }
+        ],
+        "explanation": "Die Kaffeekanne hältst du links. Die Tasse nimmst du mit der rechten Hand von rechts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👉 Von welcher Seite servierst du meistens fertige Teller und Getränke?",
+        "options": [
+          { "text": "Von rechts.", "correct": true },
+          { "text": "Von links." },
+          { "text": "Von hinten." }
+        ],
+        "explanation": "Merke dir: Fertige Teller und Getränke kommen von rechts. Nur die Selbstbedienungsplatte reichst du von links an."
+      }
+    }
+  ]
+}

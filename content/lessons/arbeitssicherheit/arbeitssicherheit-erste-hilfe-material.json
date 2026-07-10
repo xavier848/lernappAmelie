@@ -1,0 +1,112 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-erste-hilfe-material",
+  "title": "Erste-Hilfe-Material im Verbandkasten",
+  "sort": 200,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🩹 Welche Beschreibung passt zu welchem Material? Verbinde.",
+        "pairs": [
+          { "left": { "text": "Weiche Binde zum Umwickeln einer Wunde" }, "right": { "text": "Mullbinde" } },
+          { "left": { "text": "Klebeband, um einen Verband zu befestigen" }, "right": { "text": "Heftpflaster" } },
+          { "left": { "text": "Großes Tuch, zum Beispiel als Armschlinge" }, "right": { "text": "Dreiecktuch" } },
+          { "left": { "text": "Fertiges Pflaster mit Auflage für kleine Wunden" }, "right": { "text": "Wundschnellverband" } },
+          { "left": { "text": "Kleines Pflaster für die Fingerspitze" }, "right": { "text": "Fingerkuppenverband" } },
+          { "left": { "text": "Schutzkappe über einen verletzten Finger" }, "right": { "text": "Lederfingerling" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Was ziehst du an, bevor du eine Wunde versorgst?",
+        "options": [
+          { "text": "Einmalhandschuhe.", "correct": true },
+          { "text": "Kochhandschuhe." },
+          { "text": "Gar nichts." }
+        ],
+        "explanation": "Einmalhandschuhe schützen dich und die verletzte Person vor Keimen. Sie gehören in jeden Verbandkasten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👁️ Wie heißt die Auflage für ein verletztes Auge?",
+        "options": [
+          { "text": "Augenkompresse.", "correct": true },
+          { "text": "Augenpflaster für die Sonne." },
+          { "text": "Brillenputztuch." }
+        ],
+        "explanation": "Die Augenkompresse ist eine weiche Auflage aus Watte mit Umhüllung. Sie deckt das Auge sanft ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 Was hilft dir, wenn du nicht genau weißt, wie du helfen sollst?",
+        "options": [
+          { "text": "Die Erste-Hilfe-Anleitung.", "correct": true },
+          { "text": "Das Kochbuch." },
+          { "text": "Der Reinigungsplan." }
+        ],
+        "explanation": "In der Anleitung steht Schritt für Schritt, was zu tun ist. Sie liegt deshalb im Verbandkasten bereit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩹 Welches fertige Material nimmst du für eine größere Wunde?",
+        "options": [
+          { "text": "Ein Verbandpäckchen.", "correct": true },
+          { "text": "Ein winziges Fingerpflaster." },
+          { "text": "Ein Papiertaschentuch." }
+        ],
+        "explanation": "Das Verbandpäckchen hat eine saubere Auflage mit Binde. Damit deckst du auch größere Wunden gut ab."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📦 Für kleine oder große Wunden? Sortiere das Material.",
+        "buckets": [
+          { "id": "klein", "label": "Für kleine Wunden", "icon": "🩹" },
+          { "id": "gross", "label": "Für große Wunden", "icon": "🩹" }
+        ],
+        "items": [
+          { "text": "Fingerkuppenverband", "bucket": "klein" },
+          { "text": "Wundschnellverband", "bucket": "klein" },
+          { "text": "Heftpflaster-Strips", "bucket": "klein" },
+          { "text": "Verbandpäckchen", "bucket": "gross" },
+          { "text": "Mullbinde", "bucket": "gross" },
+          { "text": "Dreiecktuch", "bucket": "gross" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧣 Wofür kannst du ein Dreiecktuch benutzen?",
+        "options": [
+          { "text": "Als Schlinge für einen verletzten Arm.", "correct": true },
+          { "text": "Als Topflappen." },
+          { "text": "Als Serviette." }
+        ],
+        "explanation": "Ein Dreiecktuch ist groß und lässt sich binden. So stützt es einen verletzten Arm."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Wo findest du das ganze Erste-Hilfe-Material?",
+        "options": [
+          { "text": "Im Verbandkasten.", "correct": true },
+          { "text": "In der Besteckschublade." },
+          { "text": "Im Kühlschrank." }
+        ],
+        "explanation": "Alle Materialien liegen zusammen im Verbandkasten. So findest du im Notfall schnell alles."
+      }
+    }
+  ]
+}

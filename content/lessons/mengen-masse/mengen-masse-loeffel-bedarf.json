@@ -1,0 +1,135 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-loeffel-bedarf",
+  "title": "Löffelmaße & Bedarf berechnen",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥄 Ein gestrichener Esslöffel (EL) wiegt je nach Zutat unterschiedlich viel. Ordne zu, wie viel Gramm 1 EL wiegt.",
+        "pairs": [
+          { "left": { "text": "🍬 Zucker" }, "right": { "text": "15 g" } },
+          { "left": { "text": "🧂 Salz" }, "right": { "text": "12 g" } },
+          { "left": { "text": "🎈 Backpulver" }, "right": { "text": "10 g" } },
+          { "left": { "text": "🌽 Speisestärke" }, "right": { "text": "8 g" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍬 Du brauchst 60 g Zucker. Ein Esslöffel Zucker wiegt 15 g. Wie viele Esslöffel sind das?",
+        "options": [
+          { "text": "4 Esslöffel", "correct": true },
+          { "text": "3 Esslöffel" },
+          { "text": "6 Esslöffel" }
+        ],
+        "explanation": "Du teilst 60 durch 15. Das ergibt 4. Also brauchst du 4 Esslöffel Zucker."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎈 Du brauchst 18 g Backpulver. Ein Teelöffel (TL) Backpulver wiegt 3 g. Wie viele Teelöffel sind das?",
+        "options": [
+          { "text": "6 Teelöffel", "correct": true },
+          { "text": "5 Teelöffel" },
+          { "text": "9 Teelöffel" }
+        ],
+        "explanation": "Du teilst 18 durch 3. Das ergibt 6. Also nimmst du 6 Teelöffel Backpulver."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Womit misst du was? Flüssiges misst du in Millilitern (ml). Festes misst du in Gramm (g). Sortiere.",
+        "buckets": [
+          { "id": "ml", "label": "In Millilitern (ml)", "icon": "🥛" },
+          { "id": "g", "label": "In Gramm (g)", "icon": "🥣" }
+        ],
+        "items": [
+          { "text": "Suppe", "bucket": "ml" },
+          { "text": "Kaffee", "bucket": "ml" },
+          { "text": "Wasser", "bucket": "ml" },
+          { "text": "Mehl", "bucket": "g" },
+          { "text": "Zucker", "bucket": "g" },
+          { "text": "Backpulver", "bucket": "g" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Wie viele Milliliter sind ein Viertel Liter (1/4 l)?",
+        "options": [
+          { "text": "250 ml", "correct": true },
+          { "text": "125 ml" },
+          { "text": "500 ml" }
+        ],
+        "explanation": "Ein ganzer Liter sind 1000 ml. Ein Viertel davon sind 250 ml."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Wie viele Liter sind 750 Milliliter (750 ml)?",
+        "options": [
+          { "text": "0,750 Liter", "correct": true },
+          { "text": "7,50 Liter" },
+          { "text": "0,075 Liter" }
+        ],
+        "explanation": "1000 ml sind 1 Liter. 750 ml sind also drei Viertel davon, das schreibst du 0,750 Liter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍵 Wie viel passt in das Gefäß hinein? Ordne das Fassungsvermögen zu.",
+        "pairs": [
+          { "left": { "text": "☕ Kaffeetasse" }, "right": { "text": "125 ml" } },
+          { "left": { "text": "🥣 Suppenteller" }, "right": { "text": "250 ml" } },
+          { "left": { "text": "🍲 Suppentasse" }, "right": { "text": "200 ml" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 8 Personen essen je 2 Teller Suppe. Ein Teller fasst 250 ml. Wie viel Suppe brauchst du?",
+        "options": [
+          { "text": "4 Liter", "correct": true },
+          { "text": "2 Liter" },
+          { "text": "8 Liter" }
+        ],
+        "explanation": "8 Personen mal 2 Teller sind 16 Teller. 16 mal 250 ml sind 4000 ml, also 4 Liter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ 40 Personen trinken je 3 Tassen Kaffee. Eine Tasse fasst 125 ml. Wie viel Kaffee brauchst du?",
+        "options": [
+          { "text": "15 Liter", "correct": true },
+          { "text": "12 Liter" },
+          { "text": "5 Liter" }
+        ],
+        "explanation": "40 Personen mal 3 Tassen sind 120 Tassen. 120 mal 125 ml sind 15000 ml, also 15 Liter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Was ist größer: ein Esslöffel oder ein Teelöffel?",
+        "options": [
+          { "text": "Der Esslöffel. In ihn passt mehr hinein.", "correct": true },
+          { "text": "Der Teelöffel. In ihn passt mehr hinein." },
+          { "text": "Beide sind genau gleich groß." }
+        ],
+        "explanation": "Der Esslöffel ist der große Löffel. In einen Esslöffel passt mehr als in einen kleinen Teelöffel."
+      }
+    }
+  ]
+}

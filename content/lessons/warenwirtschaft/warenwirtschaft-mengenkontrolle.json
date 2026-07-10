@@ -1,0 +1,137 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-mengenkontrolle",
+  "title": "Lieferung prüfen & umrechnen",
+  "sort": 80,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Du machst eine Mengenkontrolle. Was vergleichst du dabei?",
+        "options": [
+          { "text": "Die gelieferte Ware mit der Bestellung.", "correct": true },
+          { "text": "Die Ware mit dem Wetter." },
+          { "text": "Nur den Preis auf der Rechnung." }
+        ],
+        "explanation": "Bei der Mengenkontrolle legst du Bestellung und Lieferung nebeneinander. So siehst du, ob Menge und Qualität stimmen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔎 Was ist bei diesen Lieferungen passiert? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "5 kg Zucker bestellt – 4 kg da" }, "right": { "text": "Falsche Menge" } },
+          { "left": { "text": "Entrahmte Milch bestellt – Vollmilch da" }, "right": { "text": "Falscher Fettgehalt" } },
+          { "left": { "text": "Allzweckreiniger bestellt – Neutralreiniger da" }, "right": { "text": "Falsche Qualität" } },
+          { "left": { "text": "1 Flasche Glasreiniger bestellt – 2 da" }, "right": { "text": "Zu viel geliefert" } },
+          { "left": { "text": "2 l Olivenöl bestellt – 2 l da" }, "right": { "text": "Alles richtig" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welche Fehlerart liegt vor? Sortiere die Lieferungen.",
+        "buckets": [
+          { "id": "menge", "label": "Falsche Menge", "icon": "🔢" },
+          { "id": "qualitaet", "label": "Falsche Qualität", "icon": "🏷️" }
+        ],
+        "items": [
+          { "text": "5 kg Zucker bestellt, 4 kg da", "bucket": "menge" },
+          { "text": "1 Flasche bestellt, 2 da", "bucket": "menge" },
+          { "text": "5 Orangen bestellt, 6 da", "bucket": "menge" },
+          { "text": "Allzweckreiniger → Neutralreiniger", "bucket": "qualitaet" },
+          { "text": "Sahnequark → Magerquark", "bucket": "qualitaet" },
+          { "text": "Wollwaschmittel → Vollwaschmittel", "bucket": "qualitaet" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Bestellt: 24 Eier in Größe XL. Geliefert: 36 Eier in Größe M. Was stimmt nicht?",
+        "options": [
+          { "text": "Die Menge und die Größe stimmen nicht.", "correct": true },
+          { "text": "Nur die Menge ist falsch." },
+          { "text": "Alles ist richtig." }
+        ],
+        "explanation": "36 Eier sind mehr als 24 – falsche Menge. Und M ist nicht XL – falsche Größe. Hier stimmen gleich zwei Dinge nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Bestellt war Wollwaschmittel. Geliefert wurde Vollwaschmittel. Ist das richtig?",
+        "options": [
+          { "text": "Nein. Das ist ein anderes Mittel, also falsche Qualität.", "correct": true },
+          { "text": "Ja, das klingt fast gleich." },
+          { "text": "Nein, die Menge ist falsch." }
+        ],
+        "explanation": "Woll- und Vollwaschmittel klingen ähnlich, sind aber verschieden. Wollwaschmittel ist mild für Wolle. Hier ist die Qualität falsch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Du hast 5 Tüten Mehl mit je 1 kg. Wie viel Gramm sind das zusammen?",
+        "options": [
+          { "text": "5000 g", "correct": true },
+          { "text": "500 g" },
+          { "text": "5500 g" }
+        ],
+        "explanation": "1 kg sind 1000 g. Fünf Tüten mal 1000 g sind 5000 g. Das sind genau 5 kg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ 750 g – wie viel Kilogramm sind das?",
+        "options": [
+          { "text": "0,750 kg", "correct": true },
+          { "text": "7,50 kg" },
+          { "text": "75 kg" }
+        ],
+        "explanation": "1000 g sind 1 kg. Für kg teilst du die Gramm durch 1000. 750 geteilt durch 1000 sind 0,750 kg."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧮 Rechne aus: Wie viel Gramm sind das zusammen? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "5 Tüten Mehl je 1 kg" }, "right": { "text": "5000 g" } },
+          { "left": { "text": "3 Becher Margarine je 250 g" }, "right": { "text": "750 g" } },
+          { "left": { "text": "5 Orangen je 200 g" }, "right": { "text": "1000 g" } },
+          { "left": { "text": "2 Becher Sahne je 150 g" }, "right": { "text": "300 g" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "➕ Alle Waren zusammen wiegen 5000 g + 750 g + 2000 g + 1000 g + 300 g + 300 g. Wie viel ist das?",
+        "options": [
+          { "text": "9350 g, also 9,350 kg", "correct": true },
+          { "text": "8350 g, also 8,350 kg" },
+          { "text": "9350 kg" }
+        ],
+        "explanation": "Du addierst alle Gramm: 5000 + 750 + 2000 + 1000 + 300 + 300 = 9350 g. Geteilt durch 1000 sind das 9,350 kg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Bestellt war eine Kiste einheimische Äpfel. Geliefert: eine Kiste Äpfel aus dem Alten Land. Passt das?",
+        "options": [
+          { "text": "Ja. Das Alte Land liegt in Deutschland, das ist einheimisch.", "correct": true },
+          { "text": "Nein, das ist zu weit weg." },
+          { "text": "Nein, die Menge ist falsch." }
+        ],
+        "explanation": "Das Alte Land ist ein Obstgebiet in Deutschland. Die Äpfel sind also einheimisch. Menge und Qualität stimmen."
+      }
+    }
+  ]
+}

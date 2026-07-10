@@ -1,0 +1,117 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-waeschearten",
+  "title": "Wäschearten",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Wäsche teilt man in Wäschearten ein. Zu welcher Wäscheart gehört ein Bettlaken?",
+        "options": [
+          { "text": "Zur Bettwäsche.", "correct": true },
+          { "text": "Zur Tischwäsche." },
+          { "text": "Zur Berufskleidung." }
+        ],
+        "explanation": "Ein Bettlaken kommt aufs Bett. Alles fürs Bett gehört zur Bettwäsche, zum Beispiel auch der Kopfkissenbezug."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Sortiere die Wäschestücke in die richtige Wäscheart.",
+        "buckets": [
+          { "id": "bett", "label": "Bettwäsche", "icon": "🛏️" },
+          { "id": "tisch", "label": "Tischwäsche", "icon": "🍽️" },
+          { "id": "koerper", "label": "Körperhygiene", "icon": "🛀" }
+        ],
+        "items": [
+          { "text": "Bettlaken", "bucket": "bett" },
+          { "text": "Kopfkissenbezug", "bucket": "bett" },
+          { "text": "Serviette", "bucket": "tisch" },
+          { "text": "Mitteldecke", "bucket": "tisch" },
+          { "text": "Badetuch", "bucket": "koerper" },
+          { "text": "Waschlappen", "bucket": "koerper" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Diese Wäschestücke gehören zur Küche oder zur Arbeit. Sortiere sie.",
+        "buckets": [
+          { "id": "kueche", "label": "Küchenbereich", "icon": "🍳" },
+          { "id": "beruf", "label": "Berufskleidung", "icon": "🦺" }
+        ],
+        "items": [
+          { "text": "Geschirrtuch", "bucket": "kueche" },
+          { "text": "Gläsertuch", "bucket": "kueche" },
+          { "text": "Arbeitshose", "bucket": "beruf" },
+          { "text": "Arbeitskittel", "bucket": "beruf" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Ordne jeder Wäscheart ein passendes Wäschestück zu.",
+        "pairs": [
+          { "left": { "text": "Bettwäsche" }, "right": { "text": "Bettlaken" } },
+          { "left": { "text": "Tischwäsche" }, "right": { "text": "Serviette" } },
+          { "left": { "text": "Körperhygiene" }, "right": { "text": "Badetuch" } },
+          { "left": { "text": "Küchenbereich" }, "right": { "text": "Geschirrtuch" } },
+          { "left": { "text": "Berufskleidung" }, "right": { "text": "Arbeitskittel" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Servietten und Mitteldecken gehören zu welcher Wäscheart?",
+        "options": [
+          { "text": "Zur Tischwäsche.", "correct": true },
+          { "text": "Zur Bettwäsche." },
+          { "text": "Zum Küchenbereich." }
+        ],
+        "explanation": "Servietten und Mitteldecken kommen auf den Tisch. Deshalb gehören sie zur Tischwäsche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Ein Geschirrtuch gehört zu welcher Wäscheart?",
+        "options": [
+          { "text": "Zum Küchenbereich.", "correct": true },
+          { "text": "Zur Körperhygiene." },
+          { "text": "Zur Bettwäsche." }
+        ],
+        "explanation": "Ein Geschirrtuch benutzt du in der Küche zum Abtrocknen. Deshalb gehört es zum Küchenbereich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦺 Wozu gehört ein Arbeitskittel?",
+        "options": [
+          { "text": "Zur Berufskleidung.", "correct": true },
+          { "text": "Zur Tischwäsche." },
+          { "text": "Zur Bettwäsche." }
+        ],
+        "explanation": "Einen Arbeitskittel trägst du bei der Arbeit. Deshalb gehört er zur Berufskleidung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Womit trocknest du dich nach dem Duschen ab, und zu welcher Wäscheart gehört es?",
+        "options": [
+          { "text": "Mit einem Badetuch, es gehört zur Körperhygiene.", "correct": true },
+          { "text": "Mit einer Serviette, sie gehört zur Bettwäsche." },
+          { "text": "Mit einem Geschirrtuch, es gehört zur Tischwäsche." }
+        ],
+        "explanation": "Nach dem Duschen nimmst du ein Badetuch. Es gehört zur Wäscheart Körperhygiene, wie auch der Waschlappen."
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-fisch",
+  "title": "Fisch: Fett- & Magerfisch",
+  "sort": 110,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Man teilt Fische nach ihrem Fettgehalt ein. Was ist ein Fettfisch?",
+        "options": [
+          { "text": "Ein Fisch mit viel Fett im Fleisch, zum Beispiel der Lachs.", "correct": true },
+          { "text": "Ein Fisch, der besonders groß und schwer ist." },
+          { "text": "Ein Fisch, der nur in warmem Wasser lebt." }
+        ],
+        "explanation": "Fettfische haben viel Fett im Fleisch. Magerfische haben wenig Fett. Nach dieser Menge teilt man die Fische ein."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🐠 Sortiere die Fische nach ihrem Fettgehalt.",
+        "buckets": [
+          { "id": "fett", "label": "Fettfisch", "icon": "🧈" },
+          { "id": "mager", "label": "Magerfisch", "icon": "🍃" }
+        ],
+        "items": [
+          { "text": "Aal", "bucket": "fett" },
+          { "text": "Hering", "bucket": "fett" },
+          { "text": "Lachs", "bucket": "fett" },
+          { "text": "Makrele", "bucket": "fett" },
+          { "text": "Forelle", "bucket": "mager" },
+          { "text": "Scholle", "bucket": "mager" },
+          { "text": "Dorsch", "bucket": "mager" },
+          { "text": "Karpfen", "bucket": "mager" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍣 Welcher dieser Fische ist ein Fettfisch?",
+        "options": [
+          { "text": "Lachs.", "correct": true },
+          { "text": "Scholle." },
+          { "text": "Forelle." }
+        ],
+        "explanation": "Lachs hat viel Fett im Fleisch. Er ist ein Fettfisch. Scholle und Forelle sind Magerfische."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Du willst frischen Fisch kaufen. Woran erkennst du ihn an den Kiemen?",
+        "options": [
+          { "text": "Die Kiemen sind rot.", "correct": true },
+          { "text": "Die Kiemen sind grau und trocken." },
+          { "text": "Die Kiemen fehlen ganz." }
+        ],
+        "explanation": "Bei frischem Fisch sind die Kiemen rot. Werden sie grau oder braun, ist der Fisch nicht mehr frisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Du drückst leicht auf den Fisch. Was zeigt, dass er frisch ist?",
+        "options": [
+          { "text": "Die Haut ist straff und federt zurück, es bleiben keine Dellen.", "correct": true },
+          { "text": "Die Haut bleibt eingedrückt und fühlt sich weich an." },
+          { "text": "Die Haut löst sich sofort ab." }
+        ],
+        "explanation": "Frischer Fisch hat eine straffe Haut. Nach dem Drücken bleibt keine Delle. Weiche Druckstellen zeigen, dass er alt ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Wie riecht frischer Fisch?",
+        "options": [
+          { "text": "Nur mild, nicht streng.", "correct": true },
+          { "text": "Sehr stark und scharf." },
+          { "text": "Nach faulen Eiern." }
+        ],
+        "explanation": "Frischer Fisch riecht mild, oft leicht nach Meer. Ein starker, strenger Fischgeruch zeigt, dass er nicht mehr frisch ist."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Ist der Fisch ein Fettfisch oder ein Magerfisch? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🐟 Hering" }, "right": { "text": "Fettfisch" } },
+          { "left": { "text": "🐟 Makrele" }, "right": { "text": "Fettfisch" } },
+          { "left": { "text": "🐟 Aal" }, "right": { "text": "Fettfisch" } },
+          { "left": { "text": "🐟 Scholle" }, "right": { "text": "Magerfisch" } },
+          { "left": { "text": "🐟 Forelle" }, "right": { "text": "Magerfisch" } },
+          { "left": { "text": "🐟 Rotbarsch" }, "right": { "text": "Magerfisch" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Was zeigt frischen Fisch? Und was zeigt alten Fisch? Sortiere die Merkmale.",
+        "buckets": [
+          { "id": "frisch", "label": "Fisch ist frisch", "icon": "✅" },
+          { "id": "alt", "label": "Fisch ist nicht mehr frisch", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Rote Kiemen", "bucket": "frisch" },
+          { "text": "Straffe Haut", "bucket": "frisch" },
+          { "text": "Milder Geruch", "bucket": "frisch" },
+          { "text": "Graue Kiemen", "bucket": "alt" },
+          { "text": "Weiche Druckstellen", "bucket": "alt" },
+          { "text": "Strenger Fischgeruch", "bucket": "alt" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Woran erkennst du auf einen Blick frischen Fisch?",
+        "options": [
+          { "text": "An den roten Kiemen.", "correct": true },
+          { "text": "An den grauen Kiemen." },
+          { "text": "Am starken Fischgeruch." }
+        ],
+        "explanation": "Rote Kiemen sind das beste Zeichen für frischen Fisch. Grau und starker Geruch bedeuten: lieber nicht kaufen."
+      }
+    }
+  ]
+}

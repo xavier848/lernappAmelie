@@ -1,0 +1,123 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-metalle",
+  "title": "Metalle und ihre Verwendung",
+  "sort": 200,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔩 Welches Metall passt zu welcher Verwendung? Verbinde – Teil 1.",
+        "pairs": [
+          { "left": { "text": "Aluminium" }, "right": { "text": "Kuchenbleche" } },
+          { "left": { "text": "Edelstahl" }, "right": { "text": "Serviergeschirr" } },
+          { "left": { "text": "Gusseisen" }, "right": { "text": "Pfannen" } },
+          { "left": { "text": "Silber" }, "right": { "text": "Besteck" } }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔩 Welches Metall passt zu welcher Verwendung? Verbinde – Teil 2.",
+        "pairs": [
+          { "left": { "text": "Emaille" }, "right": { "text": "Töpfe" } },
+          { "left": { "text": "Kupfer" }, "right": { "text": "Backformen" } },
+          { "left": { "text": "Messing" }, "right": { "text": "Möbelbeschläge" } },
+          { "left": { "text": "Zinn" }, "right": { "text": "Becher" } }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍳 Zum Kochen und Backen oder zum Essen und Decken? Sortiere.",
+        "buckets": [
+          { "id": "kochen", "label": "Zum Kochen und Backen", "icon": "🍳" },
+          { "id": "decken", "label": "Zum Essen und Decken", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "Aluminium-Kuchenblech", "bucket": "kochen" },
+          { "text": "Gusseisen-Pfanne", "bucket": "kochen" },
+          { "text": "Emaille-Topf", "bucket": "kochen" },
+          { "text": "Kupfer-Backform", "bucket": "kochen" },
+          { "text": "Silber-Besteck", "bucket": "decken" },
+          { "text": "Zinn-Becher", "bucket": "decken" },
+          { "text": "Edelstahl-Serviergeschirr", "bucket": "decken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Woraus sind Kuchenbleche oft gemacht?",
+        "options": [
+          { "text": "Aus Aluminium.", "correct": true },
+          { "text": "Aus Silber." },
+          { "text": "Aus Zinn." }
+        ],
+        "explanation": "Aluminium ist leicht und leitet die Wärme gut. Deshalb sind viele Kuchenbleche aus Aluminium."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Welches Metall nimmt man gern für Pfannen zum scharfen Anbraten?",
+        "options": [
+          { "text": "Gusseisen.", "correct": true },
+          { "text": "Silber." },
+          { "text": "Messing." }
+        ],
+        "explanation": "Gusseisen hält die Hitze lange und gleichmäßig. Darum brät man darin gern scharf an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Woraus sind Griffe und Beschläge an Möbeln oft?",
+        "options": [
+          { "text": "Aus Messing.", "correct": true },
+          { "text": "Aus Emaille." },
+          { "text": "Aus Aluminium." }
+        ],
+        "explanation": "Messing sieht golden aus und ist stabil. Deshalb macht man daraus oft Beschläge an Möbeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥧 Woraus sind viele Backformen mit rötlichem Glanz?",
+        "options": [
+          { "text": "Aus Kupfer.", "correct": true },
+          { "text": "Aus Zinn." },
+          { "text": "Aus Edelstahl." }
+        ],
+        "explanation": "Kupfer hat eine rötliche Farbe und leitet die Wärme sehr gut. Darum werden Backformen daraus gemacht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍺 Aus welchem Metall sind alte Becher oft?",
+        "options": [
+          { "text": "Aus Zinn.", "correct": true },
+          { "text": "Aus Gusseisen." },
+          { "text": "Aus Kupfer." }
+        ],
+        "explanation": "Zinn ist weich und leicht zu formen. Früher machte man daraus gern Becher und Krüge."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Woraus können Töpfe mit glänzender, glatter Oberfläche sein?",
+        "options": [
+          { "text": "Aus Emaille.", "correct": true },
+          { "text": "Aus Silber." },
+          { "text": "Aus Messing." }
+        ],
+        "explanation": "Emaille ist eine glatte Schutzschicht auf dem Metall. Sie ist leicht zu reinigen, deshalb werden Töpfe damit überzogen."
+      }
+    }
+  ]
+}

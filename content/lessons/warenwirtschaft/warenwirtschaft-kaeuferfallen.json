@@ -1,0 +1,110 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-kaeuferfallen",
+  "title": "Käuferfallen im Supermarkt",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Wo stehen Milch, Brot und andere wichtige Lebensmittel meistens?",
+        "options": [
+          { "text": "Weit hinten im Laden.", "correct": true },
+          { "text": "Gleich am Eingang." },
+          { "text": "Direkt an der Kasse." }
+        ],
+        "explanation": "Die wichtigen Sachen liegen hinten. So gehst du an vielen anderen Waren vorbei und kaufst vielleicht mehr, als du brauchst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Die Ware auf Augenhöhe ist meistens ...",
+        "options": [
+          { "text": "teurer.", "correct": true },
+          { "text": "immer die billigste." },
+          { "text": "abgelaufen." }
+        ],
+        "explanation": "Was du bequem siehst, greifst du schnell. Darum stehen die teuren Sachen auf Augenhöhe. Die günstigen liegen weiter unten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍫 Warum liegen Süßigkeiten direkt an der Kasse?",
+        "options": [
+          { "text": "Damit man beim Warten noch schnell zugreift.", "correct": true },
+          { "text": "Weil dort am meisten Platz ist." },
+          { "text": "Damit sie kühl bleiben." }
+        ],
+        "explanation": "An der Kasse muss man warten. In dieser Zeit sollen die Süßigkeiten zum spontanen Kauf verleiten. Man nennt das Quengelware."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎯 Ist das ein Trick des Ladens oder ein Schutz für dich? Sortiere.",
+        "buckets": [
+          { "id": "trick", "label": "Trick des Ladens", "icon": "🎣" },
+          { "id": "schutz", "label": "Schutz für dich", "icon": "🛡️" }
+        ],
+        "items": [
+          { "text": "Wichtige Lebensmittel liegen weit hinten", "bucket": "trick" },
+          { "text": "Süßigkeiten stehen an der Kasse", "bucket": "trick" },
+          { "text": "Die Verpackung ist größer als der Inhalt", "bucket": "trick" },
+          { "text": "Einen Einkaufszettel schreiben", "bucket": "schutz" },
+          { "text": "Auf den Grundpreis pro Kilo achten", "bucket": "schutz" },
+          { "text": "Satt einkaufen gehen", "bucket": "schutz" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✏️ Diese Aussagen sind falsch. Verbinde sie mit der richtigen Antwort.",
+        "pairs": [
+          { "left": { "text": "„Angebote im Schüttkorb sind immer billig.“" }, "right": { "text": "Oft sind sie gar nicht billiger." } },
+          { "left": { "text": "„Die billigste Ware liegt auf Augenhöhe.“" }, "right": { "text": "Die billigste Ware liegt unten." } },
+          { "left": { "text": "„Mogelpackungen gibt es nicht.“" }, "right": { "text": "Mogelpackungen gibt es trotzdem." } },
+          { "left": { "text": "„Wer hungrig einkauft, kauft weniger.“" }, "right": { "text": "Wer hungrig einkauft, kauft mehr." } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Was ist eine Mogelpackung?",
+        "options": [
+          { "text": "Eine große Verpackung mit wenig Inhalt.", "correct": true },
+          { "text": "Eine Verpackung mit einem Geschenk darin." },
+          { "text": "Eine Packung ohne Preis." }
+        ],
+        "explanation": "Die Verpackung sieht groß aus, ist aber halb leer. So denkst du, du bekommst mehr, als wirklich drin ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Wie nennt man alle diese Verkaufstricks zusammen?",
+        "options": [
+          { "text": "Käuferfalle.", "correct": true },
+          { "text": "Sonderangebot." },
+          { "text": "Pfandregel." }
+        ],
+        "explanation": "Alle Tricks locken dich zum Kaufen. Das Lösungswort dazu heißt Käuferfalle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Was hilft dir, nur das Nötige zu kaufen?",
+        "options": [
+          { "text": "Ein Einkaufszettel.", "correct": true },
+          { "text": "Ein besonders großer Wagen." },
+          { "text": "Ein leerer Magen." }
+        ],
+        "explanation": "Mit einem Zettel kaufst du gezielt ein. So schützt du dich vor spontanen Käufen, die du nicht brauchst."
+      }
+    }
+  ]
+}

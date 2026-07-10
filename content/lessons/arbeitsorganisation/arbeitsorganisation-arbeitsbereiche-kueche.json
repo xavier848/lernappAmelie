@@ -1,0 +1,113 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-arbeitsbereiche-kueche",
+  "title": "Arbeitsbereiche in der Küche",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Eine Küche ist in Arbeitsbereiche eingeteilt. Wie viele Hauptbereiche gibt es?",
+        "options": [
+          { "text": "Vier Bereiche.", "correct": true },
+          { "text": "Zwei Bereiche." },
+          { "text": "Sechs Bereiche." }
+        ],
+        "explanation": "Die Küche hat vier Bereiche: den Vorbereitungsbereich, den Vorratsbereich, den Kochbereich und den Spülbereich. Jeder Bereich hat eine eigene Aufgabe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 In jedem Bereich steht ein bestimmtes Gerät. Ordne den Bereich seinem wichtigsten Gerät zu.",
+        "pairs": [
+          { "left": { "text": "🔥 Kochbereich" }, "right": { "text": "Herd" } },
+          { "left": { "text": "🚰 Spülbereich" }, "right": { "text": "Spüle" } },
+          { "left": { "text": "❄️ Vorratsbereich" }, "right": { "text": "Kühlschrank" } },
+          { "left": { "text": "🔪 Vorbereitungsbereich" }, "right": { "text": "Arbeitstisch" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Sortiere jede Tätigkeit in den passenden Küchenbereich.",
+        "buckets": [
+          { "id": "vorbereitung", "label": "Vorbereitungsbereich", "icon": "🔪" },
+          { "id": "koch", "label": "Kochbereich", "icon": "🔥" },
+          { "id": "spuel", "label": "Spülbereich", "icon": "🚰" }
+        ],
+        "items": [
+          { "text": "Möhren reiben", "bucket": "vorbereitung" },
+          { "text": "Plätzchen ausstechen", "bucket": "vorbereitung" },
+          { "text": "Rohkost mit Marinade mischen", "bucket": "vorbereitung" },
+          { "text": "Eine Roulade anbraten", "bucket": "koch" },
+          { "text": "Gelatine auflösen", "bucket": "koch" },
+          { "text": "Gemüse waschen", "bucket": "spuel" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Du hast eine Süßspeise gekocht. Wo stellst du sie kalt?",
+        "options": [
+          { "text": "Im Vorratsbereich, in den Kühlschrank.", "correct": true },
+          { "text": "Im Kochbereich, auf den Herd." },
+          { "text": "Im Spülbereich, in die Spüle." }
+        ],
+        "explanation": "Zum Vorratsbereich gehören der Kühlschrank und der Vorratsschrank. Hier lagerst du Lebensmittel und stellst Speisen kalt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 In welchem Bereich wäschst du das Gemüse?",
+        "options": [
+          { "text": "Im Spülbereich.", "correct": true },
+          { "text": "Im Kochbereich." },
+          { "text": "Im Vorratsbereich." }
+        ],
+        "explanation": "Zum Spülbereich gehören die Spüle und die Flächen daneben. Hier wäschst du Lebensmittel und spülst Geschirr."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📌 Jeder Bereich hat eine Aufgabe. Ordne zu, was dort passiert.",
+        "pairs": [
+          { "left": { "text": "Vorbereitungsbereich" }, "right": { "text": "Hier schneidest und reibst du" } },
+          { "left": { "text": "Kochbereich" }, "right": { "text": "Hier wird gekocht und gebraten" } },
+          { "left": { "text": "Spülbereich" }, "right": { "text": "Hier wird gewaschen und gespült" } },
+          { "left": { "text": "Vorratsbereich" }, "right": { "text": "Hier werden Lebensmittel gelagert" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪑 In welchem Bereich kannst du auch im Sitzen arbeiten?",
+        "options": [
+          { "text": "Im Vorbereitungsbereich.", "correct": true },
+          { "text": "Im Kochbereich." },
+          { "text": "Im Spülbereich." }
+        ],
+        "explanation": "Der Vorbereitungsbereich ist so gestaltet, dass du dort im Stehen und im Sitzen arbeiten kannst. Das schont den Rücken bei langen Arbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Der Herd steht in welchem Bereich?",
+        "options": [
+          { "text": "Im Kochbereich.", "correct": true },
+          { "text": "Im Vorratsbereich." },
+          { "text": "Im Spülbereich." }
+        ],
+        "explanation": "Zum Kochbereich gehören der Herd und die Abstellflächen daneben. Hier wird gekocht und gebraten."
+      }
+    }
+  ]
+}

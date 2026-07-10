@@ -1,0 +1,115 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-messer-arbeitsgeraete",
+  "title": "Messer & Arbeitsgeräte",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Womit stichst du das Kerngehäuse aus einem ganzen Apfel heraus?",
+        "options": [
+          { "text": "Mit dem Apfelentkerner.", "correct": true },
+          { "text": "Mit dem Tortenmesser." },
+          { "text": "Mit dem Kugelaushöhler." }
+        ],
+        "explanation": "Der Apfelentkerner ist ein schmales Rohr. Du drückst ihn durch den Apfel. So kommt das Kerngehäuse in einem Stück heraus."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wofür brauchst du welches Gerät? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🌿 Wiegemesser" }, "right": { "text": "Kräuter fein zerhacken" } },
+          { "left": { "text": "🍅 Tomatenmesser" }, "right": { "text": "Tomaten leicht schneiden" } },
+          { "left": { "text": "🎂 Tortenmesser" }, "right": { "text": "Kuchenstücke schneiden" } },
+          { "left": { "text": "🍖 Küchengabel" }, "right": { "text": "Braten anstechen" } },
+          { "left": { "text": "🎀 Buntschneidemesser" }, "right": { "text": "Wellenmuster schneiden" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍈 Womit machst du kleine Kugeln aus einer Melone?",
+        "options": [
+          { "text": "Mit dem Kugelaushöhler.", "correct": true },
+          { "text": "Mit dem Apfelentkerner." },
+          { "text": "Mit der Küchengabel." }
+        ],
+        "explanation": "Der Kugelaushöhler hat eine kleine runde Schale. Du drehst ihn ins Fruchtfleisch. So entstehen hübsche Kugeln, zum Beispiel aus Melone."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ist das Gerät zum Schneiden oder zum Verzieren und Formen? Sortiere.",
+        "buckets": [
+          { "id": "schneiden", "label": "Schneiden & Putzen", "icon": "🔪" },
+          { "id": "verzieren", "label": "Verzieren & Formen", "icon": "🎀" }
+        ],
+        "items": [
+          { "text": "Küchenmesser", "bucket": "schneiden" },
+          { "text": "Tomatenmesser", "bucket": "schneiden" },
+          { "text": "Wiegemesser", "bucket": "schneiden" },
+          { "text": "Gemüsemesser", "bucket": "schneiden" },
+          { "text": "Buntschneidemesser", "bucket": "verzieren" },
+          { "text": "Tourniermesser", "bucket": "verzieren" },
+          { "text": "Kugelaushöhler", "bucket": "verzieren" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌿 Wofür ist das Wiegemesser gut?",
+        "options": [
+          { "text": "Zum feinen Zerhacken von Kräutern und Zwiebeln.", "correct": true },
+          { "text": "Zum Schälen von Kartoffeln." },
+          { "text": "Zum Anrichten von Torten." }
+        ],
+        "explanation": "Das Wiegemesser hat eine gebogene Klinge. Du wiegst es hin und her. So zerhackst du Kräuter und Zwiebeln sehr fein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wofür brauchst du welches Gerät? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🥬 Gemüsemesser" }, "right": { "text": "Gemüse und Salat putzen" } },
+          { "left": { "text": "🔪 Küchenmesser" }, "right": { "text": "großes Allzweckmesser" } },
+          { "left": { "text": "🍎 Apfelentkerner" }, "right": { "text": "Kerngehäuse entfernen" } },
+          { "left": { "text": "🍈 Kugelaushöhler" }, "right": { "text": "Melonenkugeln formen" } },
+          { "left": { "text": "🥕 Tourniermesser" }, "right": { "text": "Gemüse gleichmäßig formen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍅 Warum hat das Tomatenmesser einen Wellenschliff?",
+        "options": [
+          { "text": "Damit es die glatte Tomatenhaut leicht durchschneidet.", "correct": true },
+          { "text": "Damit es hübscher aussieht." },
+          { "text": "Damit man sich nicht schneiden kann." }
+        ],
+        "explanation": "Die Tomatenhaut ist glatt und fest. Eine gerade Klinge rutscht leicht ab. Die Wellen im Tomatenmesser greifen und schneiden leicht hinein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Welches Messer nimmst du, um Kuchenstücke zu schneiden und anzurichten?",
+        "options": [
+          { "text": "Das Tortenmesser.", "correct": true },
+          { "text": "Das Wiegemesser." },
+          { "text": "Der Apfelentkerner." }
+        ],
+        "explanation": "Das Tortenmesser ist breit und flach. Damit schneidest du saubere Kuchenstücke. Du kannst sie auch damit auf den Teller heben."
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-weniger-fett",
+  "title": "Gesund durch weniger Fett",
+  "sort": 210,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Sortiere die Lebensmittel nach ihrem Fettgehalt.",
+        "buckets": [
+          { "id": "viel", "label": "Viel Fett", "icon": "🧈" },
+          { "id": "wenig", "label": "Wenig Fett", "icon": "🥗" }
+        ],
+        "items": [
+          { "text": "Speck", "bucket": "viel" },
+          { "text": "Sahne", "bucket": "viel" },
+          { "text": "Butter", "bucket": "viel" },
+          { "text": "Schokolade", "bucket": "viel" },
+          { "text": "Apfel", "bucket": "wenig" },
+          { "text": "Möhren", "bucket": "wenig" },
+          { "text": "Quark", "bucket": "wenig" },
+          { "text": "Forelle", "bucket": "wenig" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥔 Kartoffeln kann man auf viele Arten zubereiten. Sortiere die Beilagen.",
+        "buckets": [
+          { "id": "fettarm", "label": "Fettarm", "icon": "✅" },
+          { "id": "fettreich", "label": "Fettreich", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Salzkartoffeln", "bucket": "fettarm" },
+          { "text": "Pellkartoffeln", "bucket": "fettarm" },
+          { "text": "Kartoffelbrei", "bucket": "fettarm" },
+          { "text": "Pommes frites", "bucket": "fettreich" },
+          { "text": "Kroketten", "bucket": "fettreich" },
+          { "text": "Kartoffelpuffer", "bucket": "fettreich" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Wie machst du Pommes fettärmer?",
+        "options": [
+          { "text": "Im Backofen zubereiten.", "correct": true },
+          { "text": "In viel Öl frittieren." },
+          { "text": "In Butter braten." }
+        ],
+        "explanation": "Im Backofen brauchst du fast kein Fett. So werden die Pommes fettärmer als beim Frittieren in heißem Öl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Wer viel Fett isst, wird leicht zu dick. Welche Krankheit kann durch Übergewicht entstehen?",
+        "options": [
+          { "text": "Die Zuckerkrankheit (Diabetes).", "correct": true },
+          { "text": "Ein Beinbruch." },
+          { "text": "Eine Erkältung." }
+        ],
+        "explanation": "Übergewicht kann zur Zuckerkrankheit führen. Sie heißt auch Diabetes. Auch das Herz und der Kreislauf werden dann stärker belastet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❤️ Übergewicht belastet auch das Herz. Was kann eine Folge sein?",
+        "options": [
+          { "text": "Bluthochdruck.", "correct": true },
+          { "text": "Bessere Augen." },
+          { "text": "Mehr Muskeln." }
+        ],
+        "explanation": "Bei Übergewicht muss das Herz stärker arbeiten. Das kann zu Bluthochdruck und anderen Herz-Kreislauf-Problemen führen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔁 Zu jeder fettreichen Kartoffelbeilage gibt es eine fettärmere. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍟 Pommes frites" }, "right": { "text": "Salzkartoffeln" } },
+          { "left": { "text": "Kroketten" }, "right": { "text": "Pellkartoffeln" } },
+          { "left": { "text": "Kartoffelpuffer" }, "right": { "text": "Backkartoffeln" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Welches Lebensmittel hat wenig Fett?",
+        "options": [
+          { "text": "Ein Apfel.", "correct": true },
+          { "text": "Speck." },
+          { "text": "Sahne." }
+        ],
+        "explanation": "Ein Apfel enthält kaum Fett. Speck und Sahne dagegen haben sehr viel Fett."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was ist die fettärmere Wahl zum Abendessen?",
+        "options": [
+          { "text": "Salzkartoffeln mit Quark.", "correct": true },
+          { "text": "Pommes mit Mayonnaise." },
+          { "text": "Sahnetorte." }
+        ],
+        "explanation": "Salzkartoffeln und Quark haben wenig Fett. Pommes, Mayonnaise und Sahnetorte enthalten dagegen sehr viel Fett."
+      }
+    }
+  ]
+}

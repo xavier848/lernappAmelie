@@ -1,0 +1,115 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-eier-verarbeiten",
+  "title": "Hühnereier verarbeiten",
+  "sort": 220,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 In einem Kloßteig oder Fleischteig ist ein Ei drin. Warum?",
+        "options": [
+          { "text": "Das Ei ist ein Bindemittel. Es hält den Teig zusammen.", "correct": true },
+          { "text": "Das Ei macht den Teig süß." },
+          { "text": "Das Ei kühlt den Teig." }
+        ],
+        "explanation": "Beim Erhitzen bindet das Ei die Flüssigkeit. So fällt der Teig nicht auseinander."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥚 So trennst du ein Ei in Eigelb und Eiklar. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥚 Das Ei vorsichtig aufschlagen." },
+          { "text": "🔄 Das Eigelb von einer Schalenhälfte in die andere gleiten lassen." },
+          { "text": "💧 Das Eiklar dabei in ein Gefäß tropfen lassen." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍲 Du legierst eine Suppe mit Eigelb. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥚 Das Ei trennen und das Eigelb nehmen." },
+          { "text": "🥣 Das Eigelb mit etwas heißer Flüssigkeit verrühren." },
+          { "text": "🍲 Das Eigelb in die heiße Speise einrühren." },
+          { "text": "🚫 Die Speise danach nicht mehr kochen lassen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚫 Warum darf die Suppe nach dem Legieren nicht mehr kochen?",
+        "options": [
+          { "text": "Sonst gerinnt das Eigelb und flockt aus.", "correct": true },
+          { "text": "Sonst wird die Suppe zu kalt." },
+          { "text": "Sonst schmeckt sie nach nichts." }
+        ],
+        "explanation": "Zu große Hitze lässt das Eigelb gerinnen. Dann bilden sich kleine Flocken statt einer sämigen Suppe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Wozu benutzt du das Ei? Ordne die Verwendung dem Zweck zu.",
+        "pairs": [
+          { "left": { "text": "🍖 Ei im Fleischteig" }, "right": { "text": "hält den Teig zusammen" } },
+          { "left": { "text": "🖌️ Eigelb auf dem Mürbeteig" }, "right": { "text": "gibt eine braune Farbe" } },
+          { "left": { "text": "🍲 Eigelb in der Soße" }, "right": { "text": "macht die Soße sämig" } },
+          { "left": { "text": "☁️ Eischnee im Teig" }, "right": { "text": "macht die Masse locker" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖌️ Womit bestreichst du Mürbeteig vor dem Backen?",
+        "options": [
+          { "text": "Mit Eigelb oder Milch.", "correct": true },
+          { "text": "Mit kaltem Wasser." },
+          { "text": "Mit Öl und Salz." }
+        ],
+        "explanation": "Eigelb oder Milch auf dem Teig geben beim Backen eine schöne braune Farbe."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "☁️ Du hebst Eischnee unter einen Teig. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "☁️ Den Eischnee auf die Teigmasse gleiten lassen." },
+          { "text": "🥄 Den Eischnee vorsichtig unterheben." },
+          { "text": "🚫 Danach nicht mehr rühren." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☁️ Wie hebst du Eischnee richtig unter?",
+        "options": [
+          { "text": "Vorsichtig, und danach nicht mehr rühren.", "correct": true },
+          { "text": "Kräftig mit dem Mixer schlagen." },
+          { "text": "Lange und schnell rühren." }
+        ],
+        "explanation": "Wird zu viel gerührt, fällt der Eischnee zusammen. Vorsichtiges Unterheben hält die Luft im Teig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Was bedeutet legieren?",
+        "options": [
+          { "text": "Suppen oder Soßen mit Eigelb sämig machen.", "correct": true },
+          { "text": "Eier hart kochen." },
+          { "text": "Teig ausrollen." }
+        ],
+        "explanation": "Legieren heißt: Du rührst Eigelb in eine Suppe oder Soße. Dadurch wird sie schön sämig und fein."
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-haushaltsbuch",
+  "title": "Haushaltsbuch führen",
+  "sort": 200,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📒 In einem Haushaltsbuch schreibst du etwas auf. Was?",
+        "options": [
+          { "text": "Alle Einnahmen und Ausgaben.", "correct": true },
+          { "text": "Nur die Telefonnummern." },
+          { "text": "Nur die Geburtstage." }
+        ],
+        "explanation": "Im Haushaltsbuch notierst du, welches Geld hereinkommt und welches Geld du ausgibst. So behältst du den Überblick."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ist das eine Einnahme oder eine Ausgabe? Sortiere.",
+        "buckets": [
+          { "id": "einnahme", "label": "Einnahme", "icon": "⬆️" },
+          { "id": "ausgabe", "label": "Ausgabe", "icon": "⬇️" }
+        ],
+        "items": [
+          { "text": "Gehalt", "bucket": "einnahme" },
+          { "text": "Manfred zahlt fürs Wohnen und Essen", "bucket": "einnahme" },
+          { "text": "Miete", "bucket": "ausgabe" },
+          { "text": "Einkauf im Supermarkt", "bucket": "ausgabe" },
+          { "text": "Benzin", "bucket": "ausgabe" },
+          { "text": "Strom", "bucket": "ausgabe" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jede Ausgabe gehört zu einer Ausgabengruppe. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "Miete" }, "right": { "text": "Wohnen" } },
+          { "left": { "text": "Bluse" }, "right": { "text": "Bekleidung" } },
+          { "left": { "text": "Benzin" }, "right": { "text": "Verkehr und Post" } },
+          { "left": { "text": "Kino" }, "right": { "text": "Freizeit und Bildung" } },
+          { "left": { "text": "Fleisch" }, "right": { "text": "Lebensmittel" } },
+          { "left": { "text": "Blumen" }, "right": { "text": "Sonstiges" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "➕ Familie Meier bekommt 1.997,00 € Gehalt und 75,00 € von Manfred. Wie hoch sind die Einnahmen zusammen?",
+        "options": [
+          { "text": "2.072,00 €.", "correct": true },
+          { "text": "1.997,00 €." },
+          { "text": "1.922,00 €." }
+        ],
+        "explanation": "Du rechnest 1.997,00 € plus 75,00 €. Das ergibt 2.072,00 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Die Einnahmen sind 2.072,00 €. Die Ausgaben sind 810,78 €. Wie viel Geld bleibt übrig?",
+        "options": [
+          { "text": "1.261,22 €.", "correct": true },
+          { "text": "2.882,78 €." },
+          { "text": "810,78 €." }
+        ],
+        "explanation": "Du rechnest 2.072,00 € minus 810,78 €. Das ergibt 1.261,22 €. Diesen Betrag nennt man Kassenbestand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Warum ist ein Haushaltsbuch nützlich?",
+        "options": [
+          { "text": "Du siehst, wofür du dein Geld ausgibst und wo du sparen kannst.", "correct": true },
+          { "text": "Du bekommst automatisch mehr Gehalt." },
+          { "text": "Du musst keine Miete mehr zahlen." }
+        ],
+        "explanation": "Mit dem Haushaltsbuch erkennst du, wofür viel Geld weggeht. So kannst du besser einteilen und machst nicht so leicht Schulden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ordne die Ausgaben in die richtige Ausgabengruppe.",
+        "buckets": [
+          { "id": "lebensmittel", "label": "Lebensmittel", "icon": "🛒" },
+          { "id": "wohnen", "label": "Wohnen", "icon": "🏠" },
+          { "id": "freizeit", "label": "Freizeit und Bildung", "icon": "🎉" }
+        ],
+        "items": [
+          { "text": "Einkauf im Supermarkt", "bucket": "lebensmittel" },
+          { "text": "Fleisch", "bucket": "lebensmittel" },
+          { "text": "Miete", "bucket": "wohnen" },
+          { "text": "Strom", "bucket": "wohnen" },
+          { "text": "Zeitung", "bucket": "freizeit" },
+          { "text": "Kino", "bucket": "freizeit" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Zu welcher Gruppe gehört das Benzin fürs Auto?",
+        "options": [
+          { "text": "Verkehr und Post.", "correct": true },
+          { "text": "Lebensmittel." },
+          { "text": "Bekleidung." }
+        ],
+        "explanation": "Benzin brauchst du für das Auto. Alles rund ums Fahren gehört zur Gruppe Verkehr und Post."
+      }
+    }
+  ]
+}

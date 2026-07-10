@@ -1,0 +1,105 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-kuehlschrank-reinigen",
+  "title": "Kühlschrank reinigen",
+  "sort": 210,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧊 Kühlschrank reinigen – Teil 1. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Arbeitsgeräte und Reinigungsmittel bereitstellen." },
+          { "text": "Den Kühlschrank ausschalten und ausräumen." },
+          { "text": "Die Fächer herausnehmen und in der Spüle reinigen; Eis mit dem Teigschaber lösen." },
+          { "text": "Die Innenwände von oben nach unten mit Allzweckreiniger säubern." },
+          { "text": "Mit Essigwasser nachwischen und trockenreiben." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚪 Kühlschrank reinigen – Teil 2. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Tür wie die Innenwände reinigen." },
+          { "text": "Die sauberen Fächer wieder einsetzen." },
+          { "text": "Die Vorräte geordnet einräumen." },
+          { "text": "Den Kühlschrank einschalten, die Tür schließen und die Mittel wegräumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Was machst du zuerst, bevor du den Kühlschrank putzt?",
+        "options": [
+          { "text": "Ausschalten und ausräumen.", "correct": true },
+          { "text": "Sofort mit dem nassen Lappen loswischen." },
+          { "text": "Die Temperatur höher stellen." }
+        ],
+        "explanation": "Ausgeschaltet und leer kannst du überall gut putzen. Außerdem sparst du Strom, solange die Tür offen steht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Womit löst du das Eis im Eisfach?",
+        "options": [
+          { "text": "Mit einem Teigschaber.", "correct": true },
+          { "text": "Mit einem spitzen Messer." },
+          { "text": "Mit einer Gabel." }
+        ],
+        "explanation": "Der weiche Teigschaber löst das Eis, ohne die Wand zu beschädigen. Mit einem Messer könntest du dich oder den Kühlschrank verletzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬇️ In welche Richtung reinigst du die Innenwände?",
+        "options": [
+          { "text": "Von oben nach unten.", "correct": true },
+          { "text": "Von unten nach oben." },
+          { "text": "Kreuz und quer." }
+        ],
+        "explanation": "Von oben nach unten läuft schmutziges Wasser auf die noch ungeputzten Stellen. So musst du nichts doppelt wischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Womit wischst du am Ende nach?",
+        "options": [
+          { "text": "Mit Essigwasser.", "correct": true },
+          { "text": "Mit Speiseöl." },
+          { "text": "Mit Zuckerwasser." }
+        ],
+        "explanation": "Essigwasser reinigt die Wände hygienisch und nimmt Gerüche weg. Danach reibst du alles trocken."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧰 Was benutzt du wofür? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🍥 Teigschaber" }, "right": { "text": "Eis lösen" } },
+          { "left": { "text": "🧴 Allzweckreiniger" }, "right": { "text": "Innenwände säubern" } },
+          { "left": { "text": "🍶 Essigwasser" }, "right": { "text": "Zum Nachwischen" } },
+          { "left": { "text": "🧊 Fächer" }, "right": { "text": "In der Spüle reinigen" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was machst du ganz zum Schluss?",
+        "options": [
+          { "text": "Den Kühlschrank wieder einschalten.", "correct": true },
+          { "text": "Die Tür offen stehen lassen." },
+          { "text": "Den Stecker gezogen lassen." }
+        ],
+        "explanation": "Erst wenn alles sauber und eingeräumt ist, schaltest du den Kühlschrank wieder ein. So kühlt er die Vorräte weiter."
+      }
+    }
+  ]
+}

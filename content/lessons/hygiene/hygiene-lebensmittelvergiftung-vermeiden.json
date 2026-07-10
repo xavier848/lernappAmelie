@@ -1,0 +1,122 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-lebensmittelvergiftung-vermeiden",
+  "title": "Lebensmittelvergiftung vermeiden",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Du garst Fleisch. Welche Temperatur soll es im Inneren erreichen?",
+        "options": [
+          { "text": "80 Grad.", "correct": true },
+          { "text": "30 Grad." },
+          { "text": "Die Temperatur ist egal." }
+        ],
+        "explanation": "Erst bei etwa 80 Grad im Kern sterben die Keime im Fleisch ab. Dann kannst du es sicher essen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Du hast gefrorenes Geflügel. Was ist beim Auftauen wichtig?",
+        "options": [
+          { "text": "Es sorgfältig auftauen und die Auftauflüssigkeit auffangen.", "correct": true },
+          { "text": "Es warm neben dem Herd liegen lassen." },
+          { "text": "Es halb gefroren braten." }
+        ],
+        "explanation": "In der Auftauflüssigkeit von Geflügel sind oft Keime. Fängst du sie auf und arbeitest sauber, verteilen sie sich nicht in der Küche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Worauf achtest du bei Eiern?",
+        "options": [
+          { "text": "Auf das Legedatum und die Haltbarkeit.", "correct": true },
+          { "text": "Nur auf die Größe." },
+          { "text": "Auf gar nichts." }
+        ],
+        "explanation": "Alte Eier können krank machen. Das Legedatum zeigt dir, ob ein Ei noch frisch genug ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Du wärmst Essen in der Mikrowelle. Wann ist es sicher?",
+        "options": [
+          { "text": "Wenn es überall richtig heiß ist.", "correct": true },
+          { "text": "Wenn es außen lauwarm ist." },
+          { "text": "Wenn es kurz gedreht hat." }
+        ],
+        "explanation": "In lauwarmem Essen leben Keime weiter. Nur wenn die Speise ganz durch heiß ist, sind sie abgetötet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Wie stellst du Speisen in den Kühlschrank?",
+        "options": [
+          { "text": "Sauber und abgedeckt.", "correct": true },
+          { "text": "Offen und unverpackt." },
+          { "text": "Noch dampfend heiß." }
+        ],
+        "explanation": "Abgedeckte Speisen nehmen keine Keime von anderen Lebensmitteln auf. So bleibt alles sauber und sicher."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛡️ Schützt das vor einer Vergiftung? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "So schützt du dich", "icon": "🛡️" },
+          { "id": "gefahr", "label": "So wird es gefährlich", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Fleisch bis 80 Grad durchgaren", "bucket": "gut" },
+          { "text": "Speisen abgedeckt kühlen", "bucket": "gut" },
+          { "text": "Geräte zwischendurch reinigen", "bucket": "gut" },
+          { "text": "Ein altes Ei verwenden", "bucket": "gefahr" },
+          { "text": "Essen nur lauwarm machen", "bucket": "gefahr" },
+          { "text": "Rohes Geflügel offen liegen lassen", "bucket": "gefahr" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Ein Fehler ist passiert. Was hilft dagegen? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🍖 Das Fleisch ist innen noch roh" }, "right": { "text": "Auf 80 Grad durchgaren" } },
+          { "left": { "text": "🥚 Das Ei ist zu alt" }, "right": { "text": "Ein frisches Ei nehmen" } },
+          { "left": { "text": "🔪 Das Küchenmesser ist schmutzig" }, "right": { "text": "Zwischendurch reinigen" } },
+          { "left": { "text": "🥗 Der Salat steht offen im Kühlschrank" }, "right": { "text": "Mit einem Deckel abdecken" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Wie brätst du ein Spiegelei sicher durch?",
+        "options": [
+          { "text": "Mit einem Deckel auf der Pfanne.", "correct": true },
+          { "text": "Ganz ohne Deckel." },
+          { "text": "Nur ganz kurz und noch flüssig." }
+        ],
+        "explanation": "Mit Deckel wird das Ei auch oben heiß und stockt durch. So sind mögliche Keime abgetötet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Was tust du nach dem Toilettengang, bevor du kochst?",
+        "options": [
+          { "text": "Die Hände gründlich waschen.", "correct": true },
+          { "text": "Nichts, ich koche gleich weiter." },
+          { "text": "Nur die Schürze wechseln." }
+        ],
+        "explanation": "Über ungewaschene Hände kommen Keime ins Essen. Gründliches Händewaschen ist der einfachste Schutz."
+      }
+    }
+  ]
+}

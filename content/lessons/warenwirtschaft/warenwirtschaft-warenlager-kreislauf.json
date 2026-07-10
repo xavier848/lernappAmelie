@@ -1,0 +1,108 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-warenlager-kreislauf",
+  "title": "Arbeiten im Warenlager",
+  "sort": 60,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Die Arbeit im Warenlager läuft immer wieder gleich ab. Man nennt das einen Kreislauf. Was heißt das?",
+        "options": [
+          { "text": "Die gleichen Stationen wiederholen sich immer wieder.", "correct": true },
+          { "text": "Man arbeitet nur ein einziges Mal." },
+          { "text": "Jeder macht, was er will." }
+        ],
+        "explanation": "Von der Kontrolle bis zur Ausgabe gibt es feste Stationen. Ist die Ware ausgegeben, beginnt der Kreislauf von vorne."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍚 Beispiel Reis: Bringe die Stationen der Lagerarbeit in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Du prüfst den Bestand. Der Reis wird knapp." },
+          { "text": "Du bestellst neuen Reis." },
+          { "text": "Der Reis wird geliefert. Du prüfst Menge und Qualität." },
+          { "text": "Du bringst den Reis ins passende Lager." },
+          { "text": "Du lagerst den Reis ein. Neue Ware kommt nach hinten." },
+          { "text": "Die Küche braucht Reis. Du gibst ihn aus." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Im Lager gilt: First in – first out. Was bedeutet das?",
+        "options": [
+          { "text": "Die Ware, die zuerst da war, geht zuerst wieder raus.", "correct": true },
+          { "text": "Die neueste Ware geht zuerst raus." },
+          { "text": "Man nimmt einfach die Ware ganz vorne im Regal." }
+        ],
+        "explanation": "First in – first out heißt: zuerst rein, zuerst raus. Die älteste Ware wird zuerst benutzt. So verdirbt nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬅️ Neue Ware kommt ins Regal. Wohin stellst du sie?",
+        "options": [
+          { "text": "Nach hinten. Die ältere Ware bleibt vorne.", "correct": true },
+          { "text": "Nach vorne, damit sie zuerst rausgeht." },
+          { "text": "Irgendwohin, das ist egal." }
+        ],
+        "explanation": "Neue Ware nach hinten, alte nach vorne. So nimmst du automatisch zuerst die ältere Ware. Das ist First in – first out."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Was passiert an welcher Station? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Bestandskontrolle" }, "right": { "text": "Nachsehen, was noch da ist" } },
+          { "left": { "text": "Bestellung" }, "right": { "text": "Neue Ware ordern" } },
+          { "left": { "text": "Warenannahme" }, "right": { "text": "Lieferung prüfen" } },
+          { "left": { "text": "Lagerung" }, "right": { "text": "Ware richtig einräumen" } },
+          { "left": { "text": "Ausgabe" }, "right": { "text": "Ware in die Küche geben" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Bei der Bestandskontrolle prüfst du das Lager. Worauf achtest du?",
+        "options": [
+          { "text": "Ob von jeder Ware noch genug da ist.", "correct": true },
+          { "text": "Ob das Regal schön aussieht." },
+          { "text": "Wer zuletzt im Lager war." }
+        ],
+        "explanation": "Bei der Bestandskontrolle zählst du, was noch da ist. So merkst du früh, wann du nachbestellen musst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Die Lieferung kommt an. Was gehört zur Warenannahme?",
+        "options": [
+          { "text": "Menge und Qualität der Ware kontrollieren.", "correct": true },
+          { "text": "Alles sofort in die Küche werfen." },
+          { "text": "Die Ware ungeprüft ins Regal stellen." }
+        ],
+        "explanation": "Bei der Warenannahme prüfst du: Stimmt die Menge? Ist die Qualität gut? Erst dann nimmst du die Ware an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was ist die letzte Station im Lager-Kreislauf?",
+        "options": [
+          { "text": "Die Ausgabe der Ware an die Küche.", "correct": true },
+          { "text": "Die Bestellung neuer Ware." },
+          { "text": "Die Warenannahme." }
+        ],
+        "explanation": "Am Ende gibst du die Ware aus. Danach fällt der Bestand, und der Kreislauf startet wieder mit der Kontrolle."
+      }
+    }
+  ]
+}

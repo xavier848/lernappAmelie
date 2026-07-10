@@ -1,0 +1,122 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-buegeln-bluse",
+  "title": "Bluse bügeln",
+  "sort": 90,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👚 Du willst eine Bluse bügeln. Wonach stellst du die Temperatur am Bügeleisen ein?",
+        "options": [
+          { "text": "Nach dem Pflegesymbol, das in der Bluse eingenäht ist.", "correct": true },
+          { "text": "Immer auf die höchste Stufe.", "correct": false },
+          { "text": "Nach der Farbe der Bluse.", "correct": false }
+        ],
+        "explanation": "Im Kragen der Bluse ist ein kleines Schild mit Pflegesymbolen. Das Bügel-Symbol zeigt dir, wie heiß das Eisen sein darf. So bügelst du den Stoff nicht kaputt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔥 So fängst du an. Bringe die ersten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Temperatur am Bügeleisen nach dem Pflegesymbol einstellen." },
+          { "text": "Zuerst Kragen und Ärmelbündchen bügeln." },
+          { "text": "Den ersten Ärmel bügeln." },
+          { "text": "Den zweiten Ärmel genauso bügeln." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👔 In welche Richtung bügelst du einen Ärmel?",
+        "options": [
+          { "text": "Vom Weiten ins Enge, von der Schulter zum Bündchen.", "correct": true },
+          { "text": "Vom Bündchen hoch zur Schulter.", "correct": false },
+          { "text": "Kreuz und quer, wie es gerade passt.", "correct": false }
+        ],
+        "explanation": "Am breiten Teil hat der Stoff mehr Platz. Wenn du von der Schulter zum Bündchen bügelst, schiebst du keine Falten vor dir her."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Bügelst du zuerst die kleinen Teile oder die großen Teile?",
+        "options": [
+          { "text": "Erst die kleinen Teile wie Kragen und Bündchen, dann die großen.", "correct": true },
+          { "text": "Erst Vorderteil und Rücken, dann den Kragen.", "correct": false },
+          { "text": "Das ist ganz egal.", "correct": false }
+        ],
+        "explanation": "Beim Bügeln der großen Teile knitterst du sonst die schon fertigen kleinen Teile wieder. Darum kommen Kragen und Bündchen zuerst dran."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "✅ Jetzt geht es zum Schluss. Bringe die letzten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Knopfleiste bügeln." },
+          { "text": "Vorderteil und Rückenteil der Bluse bügeln." },
+          { "text": "Die fertige Bluse sofort auf einen Kleiderbügel hängen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie behandelst du welches Blusen-Teil? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "👔 Kragen und Bündchen" }, "right": { "text": "Von links und dann von rechts bügeln" } },
+          { "left": { "text": "🧥 Ärmel" }, "right": { "text": "Vom Weiten ins Enge bügeln" } },
+          { "left": { "text": "🔘 Knopfleiste" }, "right": { "text": "Vorsichtig um die Knöpfe herum bügeln" } },
+          { "left": { "text": "👚 Fertige Bluse" }, "right": { "text": "Gleich auf einen Bügel hängen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪝 Warum hängst du die Bluse gleich nach dem Bügeln auf einen Kleiderbügel?",
+        "options": [
+          { "text": "Damit sie nicht wieder knittert.", "correct": true },
+          { "text": "Damit sie schneller kalt wird.", "correct": false },
+          { "text": "Damit sie mehr Platz braucht.", "correct": false }
+        ],
+        "explanation": "Legst du die warme Bluse auf einen Stapel, bekommt sie neue Falten. Auf dem Bügel bleibt sie glatt und deine Arbeit war nicht umsonst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🤔 Was ist beim Bügeln richtig? Was ist ein Fehler? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Richtig gemacht", "icon": "✅" },
+          { "id": "fehler", "label": "Fehler", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Die Temperatur nach dem Pflegesymbol einstellen.", "bucket": "gut" },
+          { "text": "Zuerst Kragen und Bündchen bügeln.", "bucket": "gut" },
+          { "text": "Die Bluse sofort aufhängen.", "bucket": "gut" },
+          { "text": "Immer mit voller Hitze bügeln.", "bucket": "fehler" },
+          { "text": "Zuerst das große Rückenteil bügeln.", "bucket": "fehler" },
+          { "text": "Die fertige Bluse auf einen Stapel legen.", "bucket": "fehler" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧷 Was brauchst du zum Bügeln einer Bluse?",
+        "options": [
+          { "text": "Ein Bügeleisen und ein Bügelbrett.", "correct": true },
+          { "text": "Eine Waschmaschine.", "correct": false },
+          { "text": "Nur ein trockenes Tuch.", "correct": false }
+        ],
+        "explanation": "Auf dem Bügelbrett liegt die Bluse glatt. Mit dem heißen Bügeleisen streichst du die Falten heraus."
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-speisenkunde",
+  "title": "Speisen erkennen",
+  "sort": 60,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Eine Grundlage aus Mehl und Fett, mit der du Suppen und Soßen bindest. Wie heißt sie?",
+        "options": [
+          { "text": "Mehlschwitze.", "correct": true },
+          { "text": "Marinade." },
+          { "text": "Kompott." }
+        ],
+        "explanation": "Für die Mehlschwitze rührst du Mehl in heißes Fett. Dann gießt du Flüssigkeit dazu. So wird die Soße oder Suppe schön sämig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍏 Obst, das mit Zucker gegart wurde. Wie heißt diese Speise?",
+        "options": [
+          { "text": "Kompott.", "correct": true },
+          { "text": "Auflauf." },
+          { "text": "Bratlinge." }
+        ],
+        "explanation": "Beim Kompott kochst du Obst mit Zucker weich. Man isst es oft als Nachtisch, zum Beispiel Apfelkompott."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Ein Gericht in einer feuerfesten Form, das im Backofen überbacken wird und aufgeht. Wie heißt es?",
+        "options": [
+          { "text": "Auflauf.", "correct": true },
+          { "text": "Suppe." },
+          { "text": "Salat." }
+        ],
+        "explanation": "Der Auflauf gart in einer feuerfesten Form im Backofen. Oben wird er goldbraun. Man macht ihn zum Beispiel mit Nudeln oder Kartoffeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌿 Eine gewürzte Flüssigkeit, die Zutaten Geschmack gibt und sie zarter macht. Wie heißt sie?",
+        "options": [
+          { "text": "Marinade.", "correct": true },
+          { "text": "Mehlschwitze.", "correct": false },
+          { "text": "Creme." }
+        ],
+        "explanation": "In der Marinade legst du zum Beispiel Fleisch ein. Sie besteht oft aus Öl, Säure und Gewürzen. So bekommt das Essen Geschmack."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Speise passt zur Erklärung? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🥣 Suppe" }, "right": { "text": "flüssiges, gekochtes Gericht" } },
+          { "left": { "text": "🥔 Bratlinge" }, "right": { "text": "Teigmasse in der Pfanne gebraten" } },
+          { "left": { "text": "🥟 Klöße" }, "right": { "text": "in Flüssigkeit gar gezogen" } },
+          { "left": { "text": "🥞 Plinsen" }, "right": { "text": "andere Wort für Pfannkuchen" } },
+          { "left": { "text": "🍮 Creme" }, "right": { "text": "feine süße Eierspeise" } },
+          { "left": { "text": "🥗 Salat" }, "right": { "text": "kalt, aus marinierten Zutaten" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍮 Eine süße Speise, die in einer verschlossenen Form im Wasserbad gart. Wie heißt sie?",
+        "options": [
+          { "text": "Pudding.", "correct": true },
+          { "text": "Kompott." },
+          { "text": "Suppe." }
+        ],
+        "explanation": "Der Pudding gart in einer geschlossenen Form. Die Form steht im heißen Wasserbad. Danach stürzt man den Pudding warm auf einen Teller."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ist die Speise süß oder herzhaft? Sortiere.",
+        "buckets": [
+          { "id": "suess", "label": "Süße Speise", "icon": "🍮" },
+          { "id": "herzhaft", "label": "Herzhafte Speise", "icon": "🧂" }
+        ],
+        "items": [
+          { "text": "Kompott", "bucket": "suess" },
+          { "text": "Creme", "bucket": "suess" },
+          { "text": "Flammeri", "bucket": "suess" },
+          { "text": "Pudding", "bucket": "suess" },
+          { "text": "Mehlschwitze", "bucket": "herzhaft" },
+          { "text": "Suppe", "bucket": "herzhaft" },
+          { "text": "Bratlinge", "bucket": "herzhaft" },
+          { "text": "Salat", "bucket": "herzhaft" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Ein kaltes Gericht aus rohem Gemüse mit einer Marinade. Wie heißt es?",
+        "options": [
+          { "text": "Salat.", "correct": true },
+          { "text": "Auflauf." },
+          { "text": "Pudding." }
+        ],
+        "explanation": "Der Salat wird kalt gegessen. Die Zutaten sind mit einer Marinade angemacht. So schmeckt er frisch und würzig."
+      }
+    }
+  ]
+}

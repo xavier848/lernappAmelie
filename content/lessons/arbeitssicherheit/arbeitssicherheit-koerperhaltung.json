@@ -1,0 +1,110 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-koerperhaltung",
+  "title": "Richtig stehen, sitzen, heben, tragen",
+  "sort": 210,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Du hebst eine schwere Kiste vom Boden. Wie machst du es?",
+        "options": [
+          { "text": "In die Hocke gehen und mit den Beinen hochkommen.", "correct": true },
+          { "text": "Mit gestreckten Beinen und rundem Rücken bücken." },
+          { "text": "Die Kiste mit einer Hand hochreißen." }
+        ],
+        "explanation": "In der Hocke heben die starken Beinmuskeln. So bleibt dein Rücken gerade und wird nicht überlastet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Wie trägst du einen vollen Wäschekorb?",
+        "options": [
+          { "text": "Dicht am Körper.", "correct": true },
+          { "text": "Mit gestreckten Armen weit vor dem Körper." },
+          { "text": "Nur an einem Finger." }
+        ],
+        "explanation": "Nah am Körper müssen die Arme weniger halten. Das schont deine Muskeln und deinen Rücken."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🦴 Ist das gut oder schlecht für den Rücken? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gut für den Rücken", "icon": "✅" },
+          { "id": "schlecht", "label": "Schlecht für den Rücken", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Beim Stehen den Rücken gerade halten", "bucket": "gut" },
+          { "text": "Zum Heben in die Hocke gehen", "bucket": "gut" },
+          { "text": "Eine Last dicht am Körper tragen", "bucket": "gut" },
+          { "text": "Mit rundem Rücken nach unten bücken", "bucket": "schlecht" },
+          { "text": "Eine Kiste weit weg vom Körper tragen", "bucket": "schlecht" },
+          { "text": "Beide Taschen in einer Hand tragen", "bucket": "schlecht" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🤝 Welche Regel passt zu welcher Tätigkeit? Verbinde.",
+        "pairs": [
+          { "left": { "text": "📦 Eine Kiste vom Boden heben" }, "right": { "text": "In die Hocke gehen" } },
+          { "left": { "text": "🧺 Einen Korb tragen" }, "right": { "text": "Dicht am Körper halten" } },
+          { "left": { "text": "🧍 Am Tisch stehen" }, "right": { "text": "Den Rücken gerade halten" } },
+          { "left": { "text": "🛍️ Zwei Taschen tragen" }, "right": { "text": "Auf beide Hände verteilen" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Du räumst den Einkauf aus dem Korb. Wie vermeidest du das Bücken?",
+        "options": [
+          { "text": "Den Korb auf einen Stuhl stellen.", "correct": true },
+          { "text": "Immer bis zum Boden bücken." },
+          { "text": "Den Korb auf den Boden stellen." }
+        ],
+        "explanation": "Steht der Korb höher, musst du dich nicht ständig bücken. So bleibt dein Rücken gerade."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Du musst etwas ganz unten am Boden erreichen. Was ist besser?",
+        "options": [
+          { "text": "In die Hocke gehen.", "correct": true },
+          { "text": "Sich mit rundem Rücken bücken." },
+          { "text": "Sich weit nach vorne beugen." }
+        ],
+        "explanation": "In der Hocke arbeiten die Beine, nicht der Rücken. Bücken mit rundem Rücken kann Schäden verursachen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪑 Du sitzt bei der Arbeit. Was stützt deinen Rücken?",
+        "options": [
+          { "text": "Die Stuhllehne.", "correct": true },
+          { "text": "Der Tisch vor dir." },
+          { "text": "Die Füße." }
+        ],
+        "explanation": "Lehnst du dich an, stützt die Lehne deine Wirbelsäule. Sitze aufrecht mit geradem Rücken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Wie sieht eine gute Haltung beim Stehen aus?",
+        "options": [
+          { "text": "Aufrecht mit geradem Rücken.", "correct": true },
+          { "text": "Krumm und nach vorne gebeugt." },
+          { "text": "Auf nur einem Bein." }
+        ],
+        "explanation": "Ein gerader Rücken und beide Füße gleich belastet: So stehst du gesund und ohne Schmerzen."
+      }
+    }
+  ]
+}

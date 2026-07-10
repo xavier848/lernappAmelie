@@ -1,0 +1,120 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-lebensmittelkennzeichnung",
+  "title": "Lebensmittelkennzeichnung",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Auf jeder Verpackung steht eine Lebensmittelkennzeichnung. Wofür ist sie da?",
+        "options": [
+          { "text": "Sie sagt dir, was drin ist und wie lange es hält.", "correct": true },
+          { "text": "Sie ist nur zur Dekoration da." },
+          { "text": "Sie zeigt das Lieblingsrezept vom Chef." }
+        ],
+        "explanation": "Die Kennzeichnung gibt dir wichtige Infos: Menge, Zutaten, Haltbarkeit und Lagerung. So weißt du genau, was du kaufst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Welche Angabe muss auf jeder Verpackung stehen?",
+        "options": [
+          { "text": "Die Zutaten.", "correct": true },
+          { "text": "Die Handynummer vom Käufer." },
+          { "text": "Das Lieblingsessen des Herstellers." }
+        ],
+        "explanation": "Die Zutaten sind eine Pflichtangabe. Auch Hersteller, Menge, Bezeichnung, Haltbarkeit und Lagerhinweis müssen drauf stehen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍓 Erdbeerquark: Welcher Inhalt gehört zu welchem Feld? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Hersteller" }, "right": { "text": "Firma Klasse" } },
+          { "left": { "text": "Menge" }, "right": { "text": "200 g" } },
+          { "left": { "text": "Bezeichnung" }, "right": { "text": "Speisequarkzubereitung" } },
+          { "left": { "text": "Zutaten" }, "right": { "text": "Magerquark, Erdbeeren, Milch …" } },
+          { "left": { "text": "Lagerung" }, "right": { "text": "Gekühlt bei höchstens 8 °C" } },
+          { "left": { "text": "Mindestens haltbar bis" }, "right": { "text": "Datum in zwei Tagen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 In welcher Reihenfolge stehen die Zutaten auf der Verpackung?",
+        "options": [
+          { "text": "Von der größten Menge zur kleinsten.", "correct": true },
+          { "text": "In alphabetischer Reihenfolge." },
+          { "text": "Zufällig durcheinander." }
+        ],
+        "explanation": "Die Zutat mit der größten Menge steht vorne. Danach kommen die kleineren Mengen. So siehst du sofort, was am meisten drin ist."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧾 Bringe die Zutaten vom Erdbeerquark in die richtige Reihenfolge – von der größten Menge zur kleinsten.",
+        "steps": [
+          { "text": "Magerquark (250 g)" },
+          { "text": "Erdbeeren (240 g)" },
+          { "text": "Milch (125 g)" },
+          { "text": "Zucker (20 g)" },
+          { "text": "Vanillinzucker (10 g)" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Auf dem Quark steht: gekühlt bei höchstens 8 °C. Warum dieser Lagerhinweis?",
+        "options": [
+          { "text": "Quark verdirbt sonst schnell. Kälte hält ihn frisch.", "correct": true },
+          { "text": "Der Quark schmeckt nur warm gut." },
+          { "text": "Der Hinweis ist nicht wichtig." }
+        ],
+        "explanation": "Quark ist ein frisches Milchprodukt. In der Kälte halten sich Keime zurück. Darum gehört er in den Kühlschrank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Was bedeutet das Mindesthaltbarkeitsdatum (MHD)?",
+        "options": [
+          { "text": "Bis zu diesem Tag ist die Ware mindestens gut.", "correct": true },
+          { "text": "An diesem Tag muss man die Ware wegwerfen." },
+          { "text": "Das ist der Tag, an dem die Ware gemacht wurde." }
+        ],
+        "explanation": "Bis zum MHD bleibt die Ware bei guter Lagerung sicher. Danach ist sie nicht sofort schlecht. Prüfe dann mit Augen und Nase."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍓 Auf dem Becher steht: Erdbeeranteil 37 %. Wo gehört diese Angabe hin?",
+        "options": [
+          { "text": "Zur Bezeichnung, sie beschreibt das Produkt.", "correct": true },
+          { "text": "Zum Preis." },
+          { "text": "Zum Lagerhinweis." }
+        ],
+        "explanation": "Der Fruchtanteil gehört zur Bezeichnung. Er sagt dir, wie viel Erdbeere wirklich drin ist. Hier sind es 37 Prozent."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Angaben gehören auf jede Lebensmittelverpackung?",
+        "options": [
+          { "text": "Hersteller, Menge, Bezeichnung, Zutaten, Haltbarkeit und Lagerhinweis.", "correct": true },
+          { "text": "Nur der Name des Produkts." },
+          { "text": "Nur der Preis." }
+        ],
+        "explanation": "Diese sechs Pflichtangaben stehen immer drauf. Damit hast du alle wichtigen Infos über das Lebensmittel."
+      }
+    }
+  ]
+}

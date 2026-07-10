@@ -1,0 +1,124 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-garnieren",
+  "title": "Speisen garnieren",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎨 Welche Garnitur passt zu welcher Speise? Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🐟 Fisch" }, "right": { "text": "Zitronenachtel" } },
+          { "left": { "text": "🍨 Süßspeise" }, "right": { "text": "Sahnetupfen" } },
+          { "left": { "text": "🥣 Suppe" }, "right": { "text": "geröstete Brotwürfel" } },
+          { "left": { "text": "🥔 Kartoffeln" }, "right": { "text": "Petersilie" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Was passt gut als Garnitur zu einem Fischgericht?",
+        "options": [
+          { "text": "Ein Zitronenachtel.", "correct": true },
+          { "text": "Ein Sahnetupfen." },
+          { "text": "Schokoladenraspeln." }
+        ],
+        "explanation": "Zum Fisch passt ein Achtel Zitrone. Man kann auch Tomatenscheiben oder gehackte Kräuter nehmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍨 Womit garnierst du eine Süßspeise?",
+        "options": [
+          { "text": "Mit einem Sahnetupfen und Obst.", "correct": true },
+          { "text": "Mit gerösteten Brotwürfeln." },
+          { "text": "Mit Zwiebelringen." }
+        ],
+        "explanation": "Zur Süßspeise passen Sahne, Obst, Schokoladenraspeln oder Nüsse. Das sieht fein aus und schmeckt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎨 Welche Garnitur gehört zu welcher Speise? Sortiere.",
+        "buckets": [
+          { "id": "fisch", "label": "Fisch", "icon": "🐟" },
+          { "id": "suess", "label": "Süßspeise", "icon": "🍨" },
+          { "id": "suppe", "label": "Suppe", "icon": "🥣" }
+        ],
+        "items": [
+          { "text": "Zitronenachtel", "bucket": "fisch" },
+          { "text": "Tomatenscheiben", "bucket": "fisch" },
+          { "text": "Sahnetupfen", "bucket": "suess" },
+          { "text": "Schokoladenraspeln", "bucket": "suess" },
+          { "text": "geröstete Brotwürfel", "bucket": "suppe" },
+          { "text": "Paprikapulver", "bucket": "suppe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Was streust du gern über eine Suppe?",
+        "options": [
+          { "text": "Geröstete Brotwürfel.", "correct": true },
+          { "text": "Schokoladenraspeln." },
+          { "text": "Apfelringe." }
+        ],
+        "explanation": "Kleine geröstete Brotwürfel passen gut zu Suppe. Man nennt sie auch Croutons."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Womit garnierst du Kartoffeln oder Gemüse?",
+        "options": [
+          { "text": "Mit gehackten Kräutern oder Petersilie.", "correct": true },
+          { "text": "Mit einem Sahnetupfen." },
+          { "text": "Mit einem Zitronenachtel." }
+        ],
+        "explanation": "Frische, gehackte Kräuter oder Petersilie passen gut zu Kartoffeln und Gemüse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Was passt als Garnitur zu einem Fleischgericht?",
+        "options": [
+          { "text": "Zwiebelringe oder gedünstete Apfelringe.", "correct": true },
+          { "text": "Sahnetupfen und Schokolade." },
+          { "text": "Croutons und Paprikapulver." }
+        ],
+        "explanation": "Zu Fleisch passen zum Beispiel Zwiebelringe, gedünstete Tomaten, Pilze oder Apfelringe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Wozu garnierst du eine Speise überhaupt?",
+        "options": [
+          { "text": "Damit sie schön aussieht und Appetit macht.", "correct": true },
+          { "text": "Damit sie länger satt macht." },
+          { "text": "Damit sie kälter wird." }
+        ],
+        "explanation": "Eine Garnitur schmückt die Speise. Sie sieht schöner aus und macht mehr Lust auf das Essen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍦 Was ist ein Sahnetupfen?",
+        "options": [
+          { "text": "Ein kleiner Klecks Sahne auf der Speise.", "correct": true },
+          { "text": "Ein Stück Fisch." },
+          { "text": "Ein Löffel Suppe." }
+        ],
+        "explanation": "Ein Sahnetupfen ist ein kleiner Klecks Schlagsahne. Er schmückt zum Beispiel eine Süßspeise."
+      }
+    }
+  ]
+}

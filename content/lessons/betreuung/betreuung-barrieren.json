@@ -1,0 +1,125 @@
+{
+  "topic_slug": "betreuung",
+  "slug": "betreuung-barrieren",
+  "title": "Barrieren überwinden",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚧 Was ist eine Barriere?",
+        "options": [
+          { "text": "Ein Hindernis, das einen Menschen im Alltag aufhält.", "correct": true },
+          { "text": "Ein besonders schnelles Auto.", "correct": false },
+          { "text": "Ein Spielzeug für Kinder.", "correct": false }
+        ],
+        "explanation": "Eine Barriere ist ein Hindernis. Zum Beispiel eine Treppe für eine Person im Rollstuhl. Gute Lösungen helfen, solche Hindernisse zu überwinden."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Lösung passt zu welcher Barriere? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🦯 Blinde Person an der Straße" }, "right": { "text": "Ampel mit Signalton" } },
+          { "left": { "text": "🧏 Gehörlose Person vor dem Fernseher" }, "right": { "text": "Nachrichten in Gebärdensprache" } },
+          { "left": { "text": "📖 Speisekarte nicht lesen können" }, "right": { "text": "Speisekarte mit Bildern" } },
+          { "left": { "text": "♿ Person im Rollstuhl am Zug" }, "right": { "text": "Ein Lift zum Einsteigen" } },
+          { "left": { "text": "🌍 Menschen aus verschiedenen Kulturen" }, "right": { "text": "Gemeinsame Aktivitäten" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦯 Eine blinde Person will über die Straße gehen. Was hilft?",
+        "options": [
+          { "text": "Eine Ampel mit einem Signalton.", "correct": true },
+          { "text": "Eine bunte Reklametafel.", "correct": false },
+          { "text": "Ein größeres Straßenschild.", "correct": false }
+        ],
+        "explanation": "Ein Signalton sagt der blinden Person, wann sie sicher gehen kann. So kann sie die Straße auch ohne Augen überqueren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧏 Wie kann sich eine gehörlose Person über die Nachrichten informieren?",
+        "options": [
+          { "text": "Die Nachrichten werden in Gebärdensprache gezeigt.", "correct": true },
+          { "text": "Der Ton wird lauter gestellt.", "correct": false },
+          { "text": "Die Nachrichten werden schneller gesprochen.", "correct": false }
+        ],
+        "explanation": "Wer nicht hört, kann den Ton nicht nutzen. In Gebärdensprache werden die Nachrichten mit den Händen gezeigt. So versteht die Person alles."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧭 Um welche Art von Barriere geht es? Sortiere.",
+        "buckets": [
+          { "id": "sinne", "label": "Sehen und Hören", "icon": "👁️" },
+          { "id": "sprache", "label": "Sprache und Kultur", "icon": "💬" },
+          { "id": "bewegung", "label": "Bewegung", "icon": "♿" }
+        ],
+        "items": [
+          { "text": "Eine blinde Person überquert die Straße.", "bucket": "sinne" },
+          { "text": "Eine gehörlose Person schaut Nachrichten.", "bucket": "sinne" },
+          { "text": "Jemand kann die Speisekarte nicht lesen.", "bucket": "sprache" },
+          { "text": "Kinder aus verschiedenen Kulturen spielen zusammen.", "bucket": "sprache" },
+          { "text": "Eine Person im Rollstuhl will in den Zug.", "bucket": "bewegung" },
+          { "text": "Ein hoher Randstein blockiert den Rollstuhl.", "bucket": "bewegung" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 Jemand kann die Speisekarte nicht lesen. Was ist eine gute Lösung?",
+        "options": [
+          { "text": "Eine Speisekarte mit Bildern statt Text.", "correct": true },
+          { "text": "Die Schrift noch kleiner machen.", "correct": false },
+          { "text": "Die Karte gar nicht zeigen.", "correct": false }
+        ],
+        "explanation": "Auf einer Bild-Speisekarte sieht man die Gerichte als Foto. So kann die Person auswählen, auch wenn sie den Text nicht lesen kann."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚆 Wie kommt eine Person im Rollstuhl in den Zug, wenn eine hohe Stufe im Weg ist?",
+        "options": [
+          { "text": "Mit einem Lift.", "correct": true },
+          { "text": "Mit einer langen Leiter.", "correct": false },
+          { "text": "Gar nicht, das geht nie.", "correct": false }
+        ],
+        "explanation": "Ein Lift überwindet den Höhenunterschied. So kommt der Rollstuhl auf die Höhe des Zuges und die Person kann bequem einsteigen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Zwei Kinder kommen aus verschiedenen Kulturen. Was hilft, sich besser zu verstehen?",
+        "options": [
+          { "text": "Gemeinsame Aktivitäten.", "correct": true },
+          { "text": "Sich aus dem Weg gehen.", "correct": false },
+          { "text": "Nie miteinander reden.", "correct": false }
+        ],
+        "explanation": "Wenn Menschen etwas zusammen machen, lernen sie sich kennen. Gemeinsame Aktivitäten bauen das Verständnis füreinander auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♿ Eine Rampe oder ein Lift hilft vor allem wem?",
+        "options": [
+          { "text": "Menschen im Rollstuhl.", "correct": true },
+          { "text": "Menschen, die nicht hören können.", "correct": false },
+          { "text": "Menschen, die eine Brille tragen.", "correct": false }
+        ],
+        "explanation": "Rampen und Lifte überwinden Stufen und Höhen. So können Menschen im Rollstuhl überallhin kommen, ohne eine Treppe zu brauchen."
+      }
+    }
+  ]
+}

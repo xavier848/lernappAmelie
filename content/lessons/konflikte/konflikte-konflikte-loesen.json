@@ -1,0 +1,125 @@
+{
+  "topic_slug": "konflikte",
+  "slug": "konflikte-konflikte-loesen",
+  "title": "Konflikte lösen",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Ein Konflikt ist ein Streit oder eine Spannung zwischen Menschen. Was ist eine häufige Ursache?",
+        "options": [
+          { "text": "Jemand beharrt stur auf seiner eigenen Meinung.", "correct": true },
+          { "text": "Beide hören einander gut zu.", "correct": false },
+          { "text": "Alle sind ehrlich zueinander.", "correct": false }
+        ],
+        "explanation": "Wer nur seine eigene Meinung gelten lässt, macht einen Streit größer. Andere Ursachen sind Unehrlichkeit oder die Angst, miteinander zu reden."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🪜 So bearbeitest du einen Konflikt Schritt für Schritt. Bringe die 6 Stufen in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Klären, worum es genau geht." },
+          { "text": "Die Zusammenhänge und Ursachen herausfinden." },
+          { "text": "Mehrere Lösungen überlegen." },
+          { "text": "Eine Lösung auswählen." },
+          { "text": "Die Lösung durchführen." },
+          { "text": "Kontrollieren, ob die Lösung geholfen hat." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧩 Ist das eine Ursache, ein Erkennungszeichen oder eine Voraussetzung zum Lösen? Sortiere.",
+        "buckets": [
+          { "id": "ursache", "label": "Ursache", "icon": "⚡" },
+          { "id": "zeichen", "label": "Erkennungszeichen", "icon": "👀" },
+          { "id": "loesung", "label": "Hilft beim Lösen", "icon": "🤝" }
+        ],
+        "items": [
+          { "text": "Einer beharrt stur auf seiner Meinung.", "bucket": "ursache" },
+          { "text": "Jemand ist unehrlich.", "bucket": "ursache" },
+          { "text": "Die Stimmung ist gereizt.", "bucket": "zeichen" },
+          { "text": "Es gibt kaum Blickkontakt.", "bucket": "zeichen" },
+          { "text": "Beide wollen miteinander reden.", "bucket": "loesung" },
+          { "text": "Man sieht die eigenen Fehler ein.", "bucket": "loesung" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Woran erkennst du einen Konflikt bei anderen Menschen?",
+        "options": [
+          { "text": "An einer abgewandten Haltung und einem bösen Gesicht.", "correct": true },
+          { "text": "An einem freundlichen Lächeln.", "correct": false },
+          { "text": "An einem langen, ruhigen Gespräch.", "correct": false }
+        ],
+        "explanation": "Bei einem Konflikt drehen sich Menschen oft voneinander weg. Auch ein böser Blick und kaum Blickkontakt sind Zeichen dafür."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "1️⃣ Was ist die erste Stufe, wenn du einen Konflikt bearbeitest?",
+        "options": [
+          { "text": "Klären, worum es genau geht.", "correct": true },
+          { "text": "Sofort eine Lösung durchführen.", "correct": false },
+          { "text": "Die Sache vergessen.", "correct": false }
+        ],
+        "explanation": "Zuerst musst du wissen, worum der Streit wirklich geht. Erst dann kannst du die Ursachen suchen und eine Lösung finden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Warum solltest du mit der Person reden und nicht über sie?",
+        "options": [
+          { "text": "Miteinander reden löst den Konflikt, übereinander reden macht ihn größer.", "correct": true },
+          { "text": "Über andere zu reden ist immer besser.", "correct": false },
+          { "text": "Reden hilft bei einem Streit gar nicht.", "correct": false }
+        ],
+        "explanation": "Wer über andere spricht, verletzt sie und schürt den Streit. Nur im Gespräch miteinander findet ihr eine gemeinsame Lösung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Was gehört dazu, damit man einen Konflikt lösen kann?",
+        "options": [
+          { "text": "Die eigenen Fehler einsehen können.", "correct": true },
+          { "text": "Immer recht behalten wollen.", "correct": false },
+          { "text": "Dem anderen nicht mehr zuhören.", "correct": false }
+        ],
+        "explanation": "Zum Lösen gehört, dass man auch eigene Fehler erkennt. Nur so kann man aufeinander zugehen und eine Einigung finden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Du hast eine Lösung ausprobiert. Was machst du danach?",
+        "options": [
+          { "text": "Kontrollieren, ob die Lösung wirklich geholfen hat.", "correct": true },
+          { "text": "Sofort einen neuen Streit anfangen.", "correct": false },
+          { "text": "Nie wieder darüber nachdenken.", "correct": false }
+        ],
+        "explanation": "Am Ende schaust du nach, ob die Lösung funktioniert hat. Wenn nicht, suchst du eine andere Lösung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Was hilft am meisten, wenn es einen Streit gibt?",
+        "options": [
+          { "text": "Ruhig miteinander reden.", "correct": true },
+          { "text": "Wütend schweigen.", "correct": false },
+          { "text": "Weglaufen.", "correct": false }
+        ],
+        "explanation": "Miteinander reden ist der Schlüssel. Nur so versteht ihr euch und findet gemeinsam eine Lösung."
+      }
+    }
+  ]
+}

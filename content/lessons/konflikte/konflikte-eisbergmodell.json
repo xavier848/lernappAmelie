@@ -1,0 +1,110 @@
+{
+  "topic_slug": "konflikte",
+  "slug": "konflikte-eisbergmodell",
+  "title": "Das Eisbergmodell",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Denk an einen Eisberg im Wasser. Wie viel davon siehst du?",
+        "options": [
+          { "text": "Nur einen kleinen Teil über dem Wasser. Der größte Teil ist unter Wasser.", "correct": true },
+          { "text": "Den ganzen Eisberg, er schwimmt oben.", "correct": false },
+          { "text": "Gar nichts, ein Eisberg ist unsichtbar.", "correct": false }
+        ],
+        "explanation": "Über dem Wasser ragt nur die Spitze heraus. Der viel größere Teil steckt unsichtbar unter Wasser. Genau das nutzt das Eisbergmodell als Bild."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤝 Was bedeutet das Eisbergmodell für einen Streit zwischen Menschen?",
+        "options": [
+          { "text": "Man sieht nur einen kleinen Teil. Die meisten Gründe bleiben verborgen.", "correct": true },
+          { "text": "Bei einem Streit sieht man immer alles ganz genau.", "correct": false },
+          { "text": "Ein Streit hat nie versteckte Gründe.", "correct": false }
+        ],
+        "explanation": "Bei einem Streit zeigt sich nur das Verhalten an der Oberfläche. Die eigentlichen Gefühle und Gründe liegen darunter und sind nicht zu sehen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧊 Tulay will zu Oles Party. Ihr Bruder verbietet es. Was ist sichtbar, was ist verborgen? Sortiere.",
+        "buckets": [
+          { "id": "sichtbar", "label": "Sichtbar (über Wasser)", "icon": "☀️" },
+          { "id": "verborgen", "label": "Verborgen (unter Wasser)", "icon": "🌊" }
+        ],
+        "items": [
+          { "text": "Tulay möchte zu Oles Geburtstagsparty.", "bucket": "sichtbar" },
+          { "text": "Der Bruder verbietet ihr, abends wegzugehen.", "bucket": "sichtbar" },
+          { "text": "Tulay möchte dazugehören.", "bucket": "verborgen" },
+          { "text": "Tulay fühlt sich als Außenseiterin.", "bucket": "verborgen" },
+          { "text": "Der Bruder sorgt sich um seine Schwester.", "bucket": "verborgen" },
+          { "text": "Der Bruder will die Tradition bewahren.", "bucket": "verborgen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☀️ Was ist der sichtbare Teil eines Konflikts?",
+        "options": [
+          { "text": "Das, was man sehen und hören kann, zum Beispiel Worte und Verhalten.", "correct": true },
+          { "text": "Die versteckten Gefühle im Inneren.", "correct": false },
+          { "text": "Alte Erinnerungen, die keiner kennt.", "correct": false }
+        ],
+        "explanation": "Über Wasser liegt das, was offen passiert: Was jemand sagt und wie er sich verhält. Das ist der Teil, den alle bemerken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌊 Was gehört zum verborgenen Teil unter Wasser?",
+        "options": [
+          { "text": "Gefühle, Sorgen und Wünsche, die man nicht sieht.", "correct": true },
+          { "text": "Die lauten Worte im Streit.", "correct": false },
+          { "text": "Die Handbewegungen der Personen.", "correct": false }
+        ],
+        "explanation": "Unter Wasser stecken die Gefühle und Beweggründe. Zum Beispiel Angst, Sorge oder der Wunsch dazuzugehören. Sie treiben den Streit an, ohne dass man sie sieht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welcher verborgene Grund steckt hinter dem sichtbaren Verhalten? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "☀️ Tulay will unbedingt zur Party" }, "right": { "text": "🌊 Sie möchte dazugehören" } },
+          { "left": { "text": "☀️ Der Bruder verbietet das Weggehen" }, "right": { "text": "🌊 Er sorgt sich um sie" } },
+          { "left": { "text": "☀️ Der Bruder bleibt streng" }, "right": { "text": "🌊 Er will die Tradition bewahren" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Warum ist das Eisbergmodell hilfreich?",
+        "options": [
+          { "text": "Es zeigt, dass hinter einem Streit oft tiefere Gründe stecken.", "correct": true },
+          { "text": "Es sagt, dass Streit keine Gründe hat.", "correct": false },
+          { "text": "Es hilft nur beim Eislaufen.", "correct": false }
+        ],
+        "explanation": "Wenn du an den Eisberg denkst, suchst du nach den versteckten Gründen. So verstehst du den anderen besser und findest leichter eine Lösung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Wo ist der größte Teil des Eisbergs?",
+        "options": [
+          { "text": "Unter Wasser.", "correct": true },
+          { "text": "Über Wasser.", "correct": false },
+          { "text": "In der Luft.", "correct": false }
+        ],
+        "explanation": "Der größte Teil des Eisbergs liegt unter Wasser und ist verborgen. Genauso ist es mit den Gründen für einen Streit."
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-guetezeichen",
+  "title": "Güte- und Prüfzeichen",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Welches Zeichen hat welche Bedeutung? Verbinde.",
+        "pairs": [
+          { "left": { "text": "CE-Zeichen" }, "right": { "text": "Bestätigt Sicherheit und Gesundheitsschutz" } },
+          { "left": { "text": "Blauer Engel" }, "right": { "text": "Schont die Umwelt" } },
+          { "left": { "text": "Grüner Punkt" }, "right": { "text": "Verpackung wird recycelt" } },
+          { "left": { "text": "GS-Zeichen" }, "right": { "text": "Geprüfte Sicherheit" } },
+          { "left": { "text": "Wollsiegel" }, "right": { "text": "Reine Schurwolle" } },
+          { "left": { "text": "spiel gut" }, "right": { "text": "Gutes, geprüftes Spielzeug" } }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🛒 Auf welchem Produkt findest du das Zeichen? Verbinde.",
+        "pairs": [
+          { "left": { "text": "Wollsiegel" }, "right": { "text": "Wollpullover" } },
+          { "left": { "text": "Grüner Punkt" }, "right": { "text": "Joghurtbecher" } },
+          { "left": { "text": "Blauer Engel" }, "right": { "text": "Umweltfreundliche Farbe" } },
+          { "left": { "text": "VDE-Zeichen" }, "right": { "text": "Elektrogerät" } },
+          { "left": { "text": "PET-Zeichen" }, "right": { "text": "Plastik-Getränkeflasche" } },
+          { "left": { "text": "GS-Zeichen" }, "right": { "text": "Haushaltsleiter" } }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Sagt das Zeichen etwas über Sicherheit oder über die Umwelt? Sortiere.",
+        "buckets": [
+          { "id": "sicherheit", "label": "Über Sicherheit", "icon": "🛡️" },
+          { "id": "umwelt", "label": "Über die Umwelt", "icon": "🌍" }
+        ],
+        "items": [
+          { "text": "CE-Zeichen", "bucket": "sicherheit" },
+          { "text": "GS-Zeichen", "bucket": "sicherheit" },
+          { "text": "VDE-Zeichen", "bucket": "sicherheit" },
+          { "text": "Blauer Engel", "bucket": "umwelt" },
+          { "text": "Grüner Punkt", "bucket": "umwelt" },
+          { "text": "PET-Zeichen", "bucket": "umwelt" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Welches Zeichen bedeutet „geprüfte Sicherheit“?",
+        "options": [
+          { "text": "Das GS-Zeichen.", "correct": true },
+          { "text": "Der Grüne Punkt." },
+          { "text": "Das Wollsiegel." }
+        ],
+        "explanation": "GS steht für Geprüfte Sicherheit. Eine unabhängige Stelle wie der TÜV hat das Produkt getestet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Welches Zeichen steht für Umweltschutz?",
+        "options": [
+          { "text": "Der Blaue Engel.", "correct": true },
+          { "text": "Das CE-Zeichen." },
+          { "text": "Das VDE-Zeichen." }
+        ],
+        "explanation": "Der Blaue Engel wird an Produkte vergeben, die die Umwelt weniger belasten als andere. Es ist ein Umweltzeichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐑 Welches Zeichen garantiert reine Schurwolle?",
+        "options": [
+          { "text": "Das Wollsiegel.", "correct": true },
+          { "text": "Der Grüne Punkt." },
+          { "text": "Das GS-Zeichen." }
+        ],
+        "explanation": "Das Wollsiegel bekommt nur Kleidung aus reiner Schurwolle vom gesunden Schaf. Du findest es zum Beispiel auf Pullovern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Welches Zeichen sagt, dass die Verpackung recycelt wird?",
+        "options": [
+          { "text": "Der Grüne Punkt.", "correct": true },
+          { "text": "Der Blaue Engel." },
+          { "text": "Das CE-Zeichen." }
+        ],
+        "explanation": "Der Grüne Punkt zeigt, dass die Verpackung gesammelt und wiederverwertet wird. Du siehst ihn oft auf Bechern und Kartons."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Welches Zeichen findest du auf gutem Spielzeug?",
+        "options": [
+          { "text": "Das Zeichen „spiel gut“.", "correct": true },
+          { "text": "Das PET-Zeichen." },
+          { "text": "Das Wollsiegel." }
+        ],
+        "explanation": "„spiel gut“ bekommt nur Spielzeug mit guter Qualität, das auch umweltfreundlich ist. Es hilft dir bei der Auswahl."
+      }
+    }
+  ]
+}

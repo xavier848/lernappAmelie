@@ -1,0 +1,114 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-vorbereitungsarten",
+  "title": "Vorbereitungsarten benennen",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Du wälzt ein Schnitzel in Mehl, Ei und Paniermehl. So bekommt es eine Kruste. Wie heißt das?",
+        "options": [
+          { "text": "Panieren.", "correct": true },
+          { "text": "Legieren." },
+          { "text": "Passieren." }
+        ],
+        "explanation": "Beim Panieren umhüllst du das Lebensmittel mit einer Kruste aus Mehl, Ei und Paniermehl. Beim Braten wird sie schön knusprig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Du arbeitest Luft in Sahne ein, bis sie fest wird. Wie heißt das?",
+        "options": [
+          { "text": "Schlagen.", "correct": true },
+          { "text": "Kneten." },
+          { "text": "Reiben." }
+        ],
+        "explanation": "Beim Schlagen bringst du Luft in eine flüssige Speise. Die Sahne oder das Eiweiß wird dabei fest und locker."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welcher Fachbegriff passt zur Erklärung? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Entsaften" }, "right": { "text": "Flüssigkeit aus Obst herausholen" } },
+          { "left": { "text": "Reiben" }, "right": { "text": "auf einer feinen Fläche zerkleinern" } },
+          { "left": { "text": "Schneiden" }, "right": { "text": "in Würfel oder Scheiben teilen" } },
+          { "left": { "text": "Hacken" }, "right": { "text": "in ganz feine Stücke zerteilen" } },
+          { "left": { "text": "Putzen" }, "right": { "text": "wertlose Teile entfernen" } },
+          { "left": { "text": "Waschen" }, "right": { "text": "Schmutz mit Wasser entfernen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Du streichst weiche Lebensmittel durch ein Sieb. Wie heißt das?",
+        "options": [
+          { "text": "Passieren.", "correct": true },
+          { "text": "Panieren." },
+          { "text": "Mixen." }
+        ],
+        "explanation": "Beim Passieren drückst du weiche Zutaten durch ein Sieb. Kerne und harte Reste bleiben zurück. Es wird fein und glatt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du bindest eine Soße mit Eigelb und machst sie so sämig. Wie heißt das?",
+        "options": [
+          { "text": "Legieren.", "correct": true },
+          { "text": "Schlagen." },
+          { "text": "Entsaften." }
+        ],
+        "explanation": "Beim Legieren rührst du Eigelb in eine warme Soße oder Suppe. Sie wird dadurch dicker und sämig. Sie darf danach nicht mehr kochen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ordne jede Vorbereitungsart ihrer Gruppe zu.",
+        "buckets": [
+          { "id": "mischen", "label": "Mischen", "icon": "🥄" },
+          { "id": "zerkleinern", "label": "Zerkleinern", "icon": "🔪" },
+          { "id": "reinigen", "label": "Reinigen", "icon": "🧽" }
+        ],
+        "items": [
+          { "text": "Schlagen", "bucket": "mischen" },
+          { "text": "Kneten", "bucket": "mischen" },
+          { "text": "Reiben", "bucket": "zerkleinern" },
+          { "text": "Hacken", "bucket": "zerkleinern" },
+          { "text": "Putzen", "bucket": "reinigen" },
+          { "text": "Waschen", "bucket": "reinigen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Ein Gerät mit rotierendem Messer mischt und zerkleinert zugleich, zum Beispiel für einen Smoothie. Wie heißt das?",
+        "options": [
+          { "text": "Mixen.", "correct": true },
+          { "text": "Kneten." },
+          { "text": "Panieren." }
+        ],
+        "explanation": "Beim Mixen dreht sich ein Messer sehr schnell. Es mischt die Zutaten und zerkleinert sie gleichzeitig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Du teilst eine Möhre in Scheiben. Wie heißt das?",
+        "options": [
+          { "text": "Schneiden.", "correct": true },
+          { "text": "Reiben." },
+          { "text": "Waschen." }
+        ],
+        "explanation": "Beim Schneiden teilst du ein Lebensmittel in Stücke, Würfel oder Scheiben. Dafür nimmst du ein Messer."
+      }
+    }
+  ]
+}

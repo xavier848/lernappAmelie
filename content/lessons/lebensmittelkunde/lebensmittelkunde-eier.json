@@ -1,0 +1,136 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-eier",
+  "title": "Hühnereier: Code & Aufbau",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Auf jedem Ei steht ein Code. Was verrät dir die erste Ziffer?",
+        "options": [
+          { "text": "Wie die Hühner gehalten wurden.", "correct": true },
+          { "text": "Wie schwer das Ei ist." },
+          { "text": "Den Preis vom Ei." }
+        ],
+        "explanation": "Die erste Ziffer im Eiercode zeigt die Haltungsform. So erkennst du, wie die Hühner gelebt haben."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Welche Ziffer steht für welche Haltung? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "0" }, "right": { "text": "Bio-Haltung" } },
+          { "left": { "text": "1" }, "right": { "text": "Freilandhaltung" } },
+          { "left": { "text": "2" }, "right": { "text": "Bodenhaltung" } },
+          { "left": { "text": "3" }, "right": { "text": "Käfighaltung" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🇩🇪 Ein Ei hat den Code 0-DE-2171023. Was bedeutet die 0 am Anfang?",
+        "options": [
+          { "text": "Bio-Haltung.", "correct": true },
+          { "text": "Käfighaltung." },
+          { "text": "Bodenhaltung." }
+        ],
+        "explanation": "Die 0 steht für Bio. DE bedeutet Deutschland. So liest du am Code die Haltung und das Land ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐔 Welche Ziffer steht für die Käfighaltung?",
+        "options": [
+          { "text": "Die 3.", "correct": true },
+          { "text": "Die 0." },
+          { "text": "Die 1." }
+        ],
+        "explanation": "Die 3 bedeutet Käfighaltung. Dort haben die Hühner am wenigsten Platz. Die 0 ist dagegen die Bio-Haltung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥚 Wo liegt welcher Teil des Eies? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Luftkammer" }, "right": { "text": "Am stumpfen Ende" } },
+          { "left": { "text": "Dotter" }, "right": { "text": "Der gelbe Kern in der Mitte" } },
+          { "left": { "text": "Eiklar" }, "right": { "text": "Das Klare um den Dotter" } },
+          { "left": { "text": "Hagelschnüre" }, "right": { "text": "Halten den Dotter in der Mitte" } },
+          { "left": { "text": "Eischale" }, "right": { "text": "Die harte Hülle außen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Gehört der Teil zum Inhalt oder zur Hülle des Eies? Sortiere.",
+        "buckets": [
+          { "id": "inhalt", "label": "Inhalt des Eies", "icon": "🟡" },
+          { "id": "huelle", "label": "Hülle des Eies", "icon": "🥚" }
+        ],
+        "items": [
+          { "text": "Dotter", "bucket": "inhalt" },
+          { "text": "Eiklar", "bucket": "inhalt" },
+          { "text": "Hagelschnüre", "bucket": "inhalt" },
+          { "text": "Eischale", "bucket": "huelle" },
+          { "text": "Schalenhaut", "bucket": "huelle" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Auf der Packung steht: im Kühlschrank aufbewahren. Warum ist das wichtig?",
+        "options": [
+          { "text": "In der Kälte vermehren sich Salmonellen kaum.", "correct": true },
+          { "text": "Kalte Eier sind leichter." },
+          { "text": "Der Hinweis ist nur eine Empfehlung ohne Grund." }
+        ],
+        "explanation": "Eier können Salmonellen enthalten. Diese Keime können krank machen. Im Kühlschrank vermehren sie sich kaum. Darum gehören Eier in die Kälte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Warum kaufen manche Menschen lieber Bio-Eier?",
+        "options": [
+          { "text": "Keine Massentierhaltung und oft weniger Schadstoffe.", "correct": true },
+          { "text": "Bio-Eier sind immer riesig." },
+          { "text": "Bio-Eier muss man nicht kühlen." }
+        ],
+        "explanation": "Bei Bio haben die Hühner mehr Platz. Es gibt keine Massentierhaltung. Oft sind auch weniger Schadstoffe im Ei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Im Code 0-DE-2171023 stehen die Buchstaben DE. Wofür stehen sie?",
+        "options": [
+          { "text": "Für das Land: Deutschland.", "correct": true },
+          { "text": "Für die Größe des Eies." },
+          { "text": "Für den Namen des Bauern." }
+        ],
+        "explanation": "Die Buchstaben zeigen das Erzeugerland. DE steht für Deutschland. Danach folgt die Nummer des Betriebs."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Ziffer bedeutet die beste Haltung für die Hühner?",
+        "options": [
+          { "text": "Die 0 (Bio-Haltung).", "correct": true },
+          { "text": "Die 3 (Käfighaltung)." },
+          { "text": "Die 2 (Bodenhaltung)." }
+        ],
+        "explanation": "Die 0 steht für Bio. Dort haben die Hühner am meisten Platz und Auslauf. Die 3 ist die enge Käfighaltung."
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-salmonellose",
+  "title": "Salmonellose – Infektion und Schutz",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Wo lässt du ein gefrorenes Hähnchen auftauen?",
+        "options": [
+          { "text": "Im Kühlschrank, in einem Gefäß.", "correct": true },
+          { "text": "Offen auf der Arbeitsfläche." },
+          { "text": "In warmem Wasser in der Spüle." }
+        ],
+        "explanation": "Im kühlen Kühlschrank vermehren sich Salmonellen kaum. Das Gefäß fängt die Auftauflüssigkeit auf, damit sie nichts anderes verschmutzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Wo siedeln sich Salmonellen bei einer Salmonellose an?",
+        "options": [
+          { "text": "Im Darm.", "correct": true },
+          { "text": "In den Haaren." },
+          { "text": "In den Fingernägeln." }
+        ],
+        "explanation": "Salmonellen setzen sich im Darm fest. Von dort machen sie den Menschen krank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚽 Wie kommen Salmonellen aus dem Körper heraus?",
+        "options": [
+          { "text": "Mit dem Stuhl auf der Toilette.", "correct": true },
+          { "text": "Über den Schweiß." },
+          { "text": "Über die Tränen." }
+        ],
+        "explanation": "Salmonellen werden mit dem Stuhl ausgeschieden. Deshalb ist Händewaschen nach der Toilette so wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du machst eine Speise mit rohen Eiern. Wie alt dürfen die Eier höchstens sein?",
+        "options": [
+          { "text": "Höchstens fünf Tage nach dem Legedatum.", "correct": true },
+          { "text": "Bis zu vier Wochen alt." },
+          { "text": "Das Alter ist egal." }
+        ],
+        "explanation": "In älteren Eiern können sich Salmonellen vermehren. Für rohe Speisen nimmst du darum nur ganz frische Eier."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏫 Fallbeispiel Kantine: So kam es zur Salmonellose. Bringe es in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Im gefrorenen Hähnchen waren Salmonellen." },
+          { "text": "Beim Auftauen tropfte die Flüssigkeit auf die Abtropffläche der Spüle." },
+          { "text": "Dort kühlten gekochte Kartoffeln ab und wurden verschmutzt." },
+          { "text": "Im fertigen Kartoffelsalat vermehrten sich die Salmonellen." },
+          { "text": "Die Gäste aßen den Salat und wurden krank." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏨 Fallbeispiel Hotel: So steckte Herr K. die Gäste an. Bringe es in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Herr K. bekam im Urlaub eine Salmonellose." },
+          { "text": "Die Salmonellen siedelten sich in seinem Darm an." },
+          { "text": "Er schied die Salmonellen mit dem Stuhl aus." },
+          { "text": "Nach der Toilette wusch er sich die Hände nicht." },
+          { "text": "Er belegte Schnittchen und verschmutzte sie." },
+          { "text": "Die Gäste aßen die Schnittchen und wurden krank." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "➡️ Welcher Fehler hat welche Folge? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🚽 Hände nach der Toilette nicht gewaschen" }, "right": { "text": "Keime kommen ins Essen" } },
+          { "left": { "text": "🥔 Kartoffelsalat lange warm gehalten" }, "right": { "text": "Salmonellen vermehren sich" } },
+          { "left": { "text": "💧 Auftauflüssigkeit läuft über die Arbeitsfläche" }, "right": { "text": "Keime verteilen sich in der Küche" } },
+          { "left": { "text": "🥚 Ein zu altes Ei verwendet" }, "right": { "text": "Gefahr, krank zu werden" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Jemand hat Salmonellen, fühlt sich aber gesund. Kann er andere anstecken?",
+        "options": [
+          { "text": "Ja, auch ohne eigene Beschwerden.", "correct": true },
+          { "text": "Nein, nur kranke Menschen stecken an." },
+          { "text": "Nur wenn er hustet." }
+        ],
+        "explanation": "Manche Menschen tragen Salmonellen in sich, ohne selbst Beschwerden zu spüren. Trotzdem können sie andere anstecken. Deshalb gilt Händewaschen für alle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Was tust du nach jedem Toilettengang?",
+        "options": [
+          { "text": "Die Hände waschen.", "correct": true },
+          { "text": "Nichts." },
+          { "text": "Nur die Hände an der Hose abwischen." }
+        ],
+        "explanation": "Beim Waschen entfernst du die Salmonellen von den Händen. So gibst du sie nicht an das Essen weiter."
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tischdecken-fehler",
+  "title": "Gedeck: Fehler finden",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Zu welchem Gedeck gehört welcher Fehler? Sortiere.",
+        "buckets": [
+          { "id": "grund", "label": "Grundgedeck", "icon": "🍽️" },
+          { "id": "fruehstueck", "label": "Frühstück", "icon": "☕" },
+          { "id": "menue", "label": "Festliches Menü", "icon": "🕯️" }
+        ],
+        "items": [
+          { "text": "Das Glas steht nicht über dem Messer.", "bucket": "grund" },
+          { "text": "Die Serviette liegt falsch herum.", "bucket": "grund" },
+          { "text": "Der Löffel an der Kaffeetasse fehlt.", "bucket": "fruehstueck" },
+          { "text": "Der Eierlöffel fehlt.", "bucket": "fruehstueck" },
+          { "text": "Der Salatteller steht falsch.", "bucket": "menue" },
+          { "text": "Der Brotteller steht auf der falschen Seite.", "bucket": "menue" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Beim Grundgedeck: Wo soll das Glas stehen?",
+        "options": [
+          { "text": "Über dem Messer.", "correct": true },
+          { "text": "Über der Gabel." },
+          { "text": "Unter dem Teller." }
+        ],
+        "explanation": "Das Glas gehört über die Messerspitze. Steht es woanders, ist das ein Fehler im Gedeck."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Die Schneide des Messers zeigt nach außen. Stimmt das?",
+        "options": [
+          { "text": "Nein, die Schneide muss zum Teller zeigen.", "correct": true },
+          { "text": "Ja, so ist es richtig." },
+          { "text": "Das ist egal." }
+        ],
+        "explanation": "Die scharfe Seite des Messers zeigt immer zum Teller. Zeigt sie nach außen, ist das falsch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✅ So ist es richtig. Ordne jedem Teil die richtige Regel zu.",
+        "pairs": [
+          { "left": { "text": "🔪 Die Messerschneide" }, "right": { "text": "zeigt zum Teller" } },
+          { "left": { "text": "🥛 Das Glas" }, "right": { "text": "steht über dem Messer" } },
+          { "left": { "text": "🍞 Der Brotteller" }, "right": { "text": "steht links" } },
+          { "left": { "text": "🧻 Die Serviette" }, "right": { "text": "liegt richtig herum" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Beim Frühstück fehlt etwas an der Kaffeetasse. Was?",
+        "options": [
+          { "text": "Ein Löffel.", "correct": true },
+          { "text": "Ein Messer." },
+          { "text": "Eine Gabel." }
+        ],
+        "explanation": "Zur Kaffeetasse gehört ein kleiner Löffel. Fehlt er, ist das ein Fehler beim Gedeck."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Zum weich gekochten Ei am Frühstückstisch – welches Besteck braucht man?",
+        "options": [
+          { "text": "Einen Eierlöffel.", "correct": true },
+          { "text": "Ein Fischmesser." },
+          { "text": "Eine Suppenkelle." }
+        ],
+        "explanation": "Für das gekochte Ei brauchst du einen Eierlöffel. Fehlt er im Frühstücksgedeck, ist das ein Fehler."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Beim Frühstück lag eine Kuchengabel dabei. Braucht man die?",
+        "options": [
+          { "text": "Nein, zum Frühstück braucht man keine Kuchengabel.", "correct": true },
+          { "text": "Ja, sie gehört immer dazu." },
+          { "text": "Ja, statt des Messers." }
+        ],
+        "explanation": "Eine Kuchengabel gehört nicht zum Frühstück. Sie liegt dort zu viel und ist ein Fehler."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Beim festlichen Menü stand der Brotteller rechts. Wo gehört er hin?",
+        "options": [
+          { "text": "Auf die linke Seite.", "correct": true },
+          { "text": "Auf die rechte Seite." },
+          { "text": "In die Mitte des Tellers." }
+        ],
+        "explanation": "Der Brotteller steht immer links. Steht er rechts, ist das ein Fehler im Gedeck."
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-arbeitsplatz-greifraum",
+  "title": "Arbeitsplatz und Greifraum",
+  "sort": 230,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Du bist Rechtshänder und machst Obstsalat. Wo liegt das rohe Obst?",
+        "options": [
+          { "text": "Links.", "correct": true },
+          { "text": "Rechts." },
+          { "text": "Hinter dem Rücken." }
+        ],
+        "explanation": "Als Rechtshänder greifst du das Obst von links und arbeitest nach rechts. So kreuzen sich deine Hände nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗑️ Wo steht die Schüssel für den Abfall bei Rechtshändern?",
+        "options": [
+          { "text": "Rechts.", "correct": true },
+          { "text": "Links." },
+          { "text": "Genau in der Mitte." }
+        ],
+        "explanation": "Der Abfall kommt nach der Arbeitsrichtung ganz nach rechts. So wirfst du Schalen weg, ohne quer zu greifen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🖐️ Innerer oder äußerer Greifraum? Sortiere.",
+        "buckets": [
+          { "id": "innen", "label": "Innerer Greifraum", "icon": "🫱" },
+          { "id": "aussen", "label": "Äußerer Greifraum", "icon": "💪" }
+        ],
+        "items": [
+          { "text": "Das Schneidbrett, das du dauernd brauchst", "bucket": "innen" },
+          { "text": "Das Messer für den Obstsalat", "bucket": "innen" },
+          { "text": "Die große Schüssel für den fertigen Salat", "bucket": "aussen" },
+          { "text": "Ein Vorrat, den du selten brauchst", "bucket": "aussen" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Wohin gehört es am Arbeitsplatz für Rechtshänder? Sortiere.",
+        "buckets": [
+          { "id": "links", "label": "Links", "icon": "⬅️" },
+          { "id": "mitte", "label": "In der Mitte", "icon": "⏺️" },
+          { "id": "rechts", "label": "Rechts", "icon": "➡️" }
+        ],
+        "items": [
+          { "text": "Das rohe Obst", "bucket": "links" },
+          { "text": "Das Schneidbrett", "bucket": "mitte" },
+          { "text": "Die Schüssel für das geschnittene Obst", "bucket": "mitte" },
+          { "text": "Die Abfallschüssel", "bucket": "rechts" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📍 Wohin gehört welcher Gegenstand? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🍎 Rohes Obst" }, "right": { "text": "Nach links" } },
+          { "left": { "text": "🔪 Schneidbrett" }, "right": { "text": "In die Mitte" } },
+          { "left": { "text": "🥣 Schüssel für geschnittenes Obst" }, "right": { "text": "In die Mitte, etwas nach oben" } },
+          { "left": { "text": "🗑️ Abfallschüssel" }, "right": { "text": "Nach rechts" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫱 Was ist der innere Greifraum?",
+        "options": [
+          { "text": "Der Bereich, den du mit gebeugtem Arm erreichst.", "correct": true },
+          { "text": "Der Bereich hinter deinem Rücken." },
+          { "text": "Der Bereich am anderen Ende des Raums." }
+        ],
+        "explanation": "Den inneren Greifraum erreichst du bequem mit gebeugtem Arm. Dort liegen die Dinge, die du oft brauchst, zum Beispiel das Schneidbrett."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Wohin legst du Dinge, die du nur selten brauchst?",
+        "options": [
+          { "text": "In den äußeren Greifraum.", "correct": true },
+          { "text": "Direkt vor die Hand." },
+          { "text": "Auf das Schneidbrett." }
+        ],
+        "explanation": "Den äußeren Greifraum erreichst du nur mit gestrecktem Arm. Selten gebrauchte Dinge stören dort nicht bei der Arbeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Warum liegt das Obst bei Rechtshändern links?",
+        "options": [
+          { "text": "Damit sich die Hände beim Arbeiten nicht kreuzen.", "correct": true },
+          { "text": "Weil links mehr Licht ist." },
+          { "text": "Das hat keinen Grund." }
+        ],
+        "explanation": "Der Weg vom Obst zum Abfall geht von links nach rechts. So arbeiten die Hände ruhig und ohne sich zu kreuzen."
+      }
+    }
+  ]
+}

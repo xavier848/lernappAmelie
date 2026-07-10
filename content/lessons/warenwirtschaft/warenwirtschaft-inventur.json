@@ -1,0 +1,114 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-inventur",
+  "title": "Inventur im Lager",
+  "sort": 90,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📊 Bei einer Inventur zählst du das Lager. Was findest du dabei heraus?",
+        "options": [
+          { "text": "Wie viel von jeder Ware wirklich da ist.", "correct": true },
+          { "text": "Welche Ware am schönsten aussieht." },
+          { "text": "Wer die Ware gekauft hat." }
+        ],
+        "explanation": "Bei der Inventur zählst du jede Ware. Danach rechnest du die Gesamtmenge und den Wert aus. So kennst du den genauen Bestand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟢 Im Regal stehen 7 Beutel Erbsen mit je 800 g. Wie viel sind das zusammen?",
+        "options": [
+          { "text": "5600 g, also 5,600 kg", "correct": true },
+          { "text": "560 g, also 0,560 kg" },
+          { "text": "8000 g, also 8 kg" }
+        ],
+        "explanation": "Du rechnest 7 mal 800 g. Das sind 5600 g. Geteilt durch 1000 ergibt das 5,600 kg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Du zählst 8 Pakete Haferflocken mit je 1,5 kg. Wie viel Kilogramm sind das?",
+        "options": [
+          { "text": "12 kg", "correct": true },
+          { "text": "9,5 kg" },
+          { "text": "1,2 kg" }
+        ],
+        "explanation": "8 mal 1,5 kg sind 12 kg. Du zählst also die Einheiten mal das Gewicht pro Einheit."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧮 Wie viel ist jeweils die Gesamtmenge? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "5 Beutel Reis je 1 kg" }, "right": { "text": "5 kg" } },
+          { "left": { "text": "8 Beutel Spaghetti je 800 g" }, "right": { "text": "6,4 kg" } },
+          { "left": { "text": "7 Flaschen Öl je 0,7 l" }, "right": { "text": "4,9 l" } },
+          { "left": { "text": "2 Gläser Konfitüre je 7,5 kg" }, "right": { "text": "15 kg" } },
+          { "left": { "text": "7 Dosen Würzsalz je 100 g" }, "right": { "text": "0,7 kg" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Du zählst 2 Säcke Weizenmehl mit je 25 kg. Wie viel ist das zusammen?",
+        "options": [
+          { "text": "50 kg", "correct": true },
+          { "text": "27 kg" },
+          { "text": "25 kg" }
+        ],
+        "explanation": "2 mal 25 kg sind 50 kg. Auch bei großen Säcken gilt: Einheiten mal Gewicht ergibt die Gesamtmenge."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 50 kg Kartoffeln kosten 1,28 € pro Kilo. Was ist der Gesamtwert?",
+        "options": [
+          { "text": "64,00 €", "correct": true },
+          { "text": "51,28 €" },
+          { "text": "6,40 €" }
+        ],
+        "explanation": "Für den Wert rechnest du Menge mal Preis. 50 mal 1,28 € sind 64,00 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🥚 25 Hühnereier kosten 0,15 € pro Stück. Das sind 3,75 €. Lege genau 3,75 € hin.",
+        "mode": "assemble",
+        "target": 375
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 10 kg Äpfel kosten 1,68 € pro Kilo. Was ist der Gesamtwert?",
+        "options": [
+          { "text": "16,80 €", "correct": true },
+          { "text": "11,68 €" },
+          { "text": "1,68 €" }
+        ],
+        "explanation": "Menge mal Preis: 10 mal 1,68 € sind 16,80 €. So bekommst du den Wert dieser Ware."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Öl ist flüssig. Womit gibst du seine Menge an?",
+        "options": [
+          { "text": "In Litern (l).", "correct": true },
+          { "text": "In Kilogramm (kg)." },
+          { "text": "In Stück." }
+        ],
+        "explanation": "Flüssige Ware misst du in Litern. Feste Ware wie Mehl oder Reis misst du in Kilogramm."
+      }
+    }
+  ]
+}

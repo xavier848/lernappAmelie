@@ -1,0 +1,128 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-fette-oele",
+  "title": "Fette & Öle",
+  "sort": 120,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Warum darfst du Butter und Margarine nicht stark erhitzen?",
+        "options": [
+          { "text": "Sie enthalten Eiweiß und Wasser. Das Wasser spritzt, das Eiweiß wird braun.", "correct": true },
+          { "text": "Sie werden bei Hitze giftig." },
+          { "text": "Sie sind zu teuer zum Braten." }
+        ],
+        "explanation": "In Butter und Margarine steckt Wasser und Eiweiß. Bei starker Hitze spritzt das Wasser. Das Eiweiß wird braun und verbrennt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Manche Fette kann man stark erhitzen. Andere nicht. Sortiere.",
+        "buckets": [
+          { "id": "hoch", "label": "Hoch erhitzbar", "icon": "🔥" },
+          { "id": "niedrig", "label": "Nicht hoch erhitzbar", "icon": "🌡️" }
+        ],
+        "items": [
+          { "text": "Reines Pflanzenöl", "bucket": "hoch" },
+          { "text": "Pflanzenfett", "bucket": "hoch" },
+          { "text": "Schmalz", "bucket": "hoch" },
+          { "text": "Talg", "bucket": "hoch" },
+          { "text": "Butter", "bucket": "niedrig" },
+          { "text": "Margarine", "bucket": "niedrig" },
+          { "text": "Kaltgepresstes Öl", "bucket": "niedrig" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Du willst Pommes frites frittieren. Das Fett wird sehr heiß. Welches Fett passt?",
+        "options": [
+          { "text": "Reines Pflanzenfett oder reines Pflanzenöl.", "correct": true },
+          { "text": "Butter." },
+          { "text": "Margarine." }
+        ],
+        "explanation": "Zum Frittieren wird das Fett über 150 Grad heiß. Reine Pflanzenfette und -öle halten das aus. Butter und Margarine würden verbrennen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Fett passt zu welcher Speise? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍰 Marmorkuchen" }, "right": { "text": "Margarine" } },
+          { "left": { "text": "🥕 Karottengemüse" }, "right": { "text": "Butter" } },
+          { "left": { "text": "🍟 Pommes frites" }, "right": { "text": "reines Pflanzenfett" } },
+          { "left": { "text": "🍲 Gulasch" }, "right": { "text": "reines Pflanzenöl" } },
+          { "left": { "text": "🥞 Eierpfannkuchen" }, "right": { "text": "Speiseöl" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Bei welcher Garart brauchst du heißes Fett?",
+        "options": [
+          { "text": "Beim Frittieren.", "correct": true },
+          { "text": "Beim Kochen in Wasser." },
+          { "text": "Beim Dämpfen mit Wasserdampf." }
+        ],
+        "explanation": "Frittieren, Braten und Schmoren brauchen Fett. Kochen und Dämpfen brauchen dagegen Wasser oder Wasserdampf."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧴 Fette sind flüssig, weich oder hart. Sortiere sie nach ihrer Beschaffenheit.",
+        "buckets": [
+          { "id": "fluessig", "label": "Flüssig", "icon": "💧" },
+          { "id": "weich", "label": "Weich & fest", "icon": "🧈" },
+          { "id": "hart", "label": "Hart & fest", "icon": "🧱" }
+        ],
+        "items": [
+          { "text": "Sonnenblumenöl", "bucket": "fluessig" },
+          { "text": "Rapsöl", "bucket": "fluessig" },
+          { "text": "Butter", "bucket": "weich" },
+          { "text": "Margarine", "bucket": "weich" },
+          { "text": "Kokosfett", "bucket": "hart" },
+          { "text": "Talg", "bucket": "hart" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌱🐄 Fette kommen von Pflanzen oder von Tieren. Sortiere sie nach ihrer Herkunft.",
+        "buckets": [
+          { "id": "pflanzlich", "label": "Pflanzlich", "icon": "🌱" },
+          { "id": "tierisch", "label": "Tierisch", "icon": "🐄" }
+        ],
+        "items": [
+          { "text": "Olivenöl", "bucket": "pflanzlich" },
+          { "text": "Margarine", "bucket": "pflanzlich" },
+          { "text": "Kokosfett", "bucket": "pflanzlich" },
+          { "text": "Maiskeimöl", "bucket": "pflanzlich" },
+          { "text": "Butter", "bucket": "tierisch" },
+          { "text": "Schmalz", "bucket": "tierisch" },
+          { "text": "Talg", "bucket": "tierisch" },
+          { "text": "Fischöl", "bucket": "tierisch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Welches Fett solltest du in der Pfanne nur bei niedriger Hitze verwenden?",
+        "options": [
+          { "text": "Butter.", "correct": true },
+          { "text": "Reines Pflanzenöl." },
+          { "text": "Schmalz." }
+        ],
+        "explanation": "Butter verträgt keine starke Hitze. Sie wird schnell braun. Für hohe Hitze nimmst du reines Pflanzenöl oder Schmalz."
+      }
+    }
+  ]
+}

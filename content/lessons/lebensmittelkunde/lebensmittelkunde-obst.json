@@ -1,0 +1,114 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-obst",
+  "title": "Obst & exotische Früchte",
+  "sort": 90,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥝 Diese Frucht hat eine braune, pelzige Schale. Innen ist sie grün mit kleinen schwarzen Kernen. Welche Frucht ist das?",
+        "options": [
+          { "text": "Kiwi.", "correct": true },
+          { "text": "Avocado." },
+          { "text": "Mango." }
+        ],
+        "explanation": "Die Kiwi ist außen braun und rau. Innen ist sie leuchtend grün. Sie hat viel Vitamin C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔴 Diese Frucht hat eine harte Schale. Innen stecken viele kleine, saftige rote Kerne. Welche Frucht ist das?",
+        "options": [
+          { "text": "Granatapfel.", "correct": true },
+          { "text": "Feige." },
+          { "text": "Limette." }
+        ],
+        "explanation": "Der Granatapfel ist innen voller roter Kerne. Man isst die saftigen Kerne. Die harte Schale wirft man weg."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌍 Manche Früchte wachsen bei uns. Andere kommen aus warmen Ländern. Sortiere.",
+        "buckets": [
+          { "id": "heimisch", "label": "Heimisch", "icon": "🏡" },
+          { "id": "exotisch", "label": "Exotisch", "icon": "🌴" }
+        ],
+        "items": [
+          { "text": "Apfel", "bucket": "heimisch" },
+          { "text": "Birne", "bucket": "heimisch" },
+          { "text": "Kirsche", "bucket": "heimisch" },
+          { "text": "Pflaume", "bucket": "heimisch" },
+          { "text": "Mango", "bucket": "exotisch" },
+          { "text": "Litschi", "bucket": "exotisch" },
+          { "text": "Physalis", "bucket": "exotisch" },
+          { "text": "Karambole", "bucket": "exotisch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥑 Diese Frucht ist grün, hat einen großen runden Kern und schmeckt nicht süß. Sie enthält viel Fett. Welche Frucht ist das?",
+        "options": [
+          { "text": "Avocado.", "correct": true },
+          { "text": "Kiwi." },
+          { "text": "Granatapfel." }
+        ],
+        "explanation": "Die Avocado ist eine besondere Frucht. Sie ist nicht süß und hat viel gesundes Fett. Man isst sie oft aufs Brot."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏮 Diese kleine orange Frucht steckt in einer dünnen Hülle wie in einem Lampion. Welche Frucht ist das?",
+        "options": [
+          { "text": "Physalis.", "correct": true },
+          { "text": "Mango." },
+          { "text": "Kaki." }
+        ],
+        "explanation": "Die Physalis sitzt in einer dünnen, papierartigen Hülle. Man klappt die Hülle auf. Darunter kommt eine kleine orange Kugel zum Vorschein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Woran erkennst du diese Früchte? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍊 Kaki" }, "right": { "text": "orange, sieht aus wie eine Tomate" } },
+          { "left": { "text": "🔴 Litschi" }, "right": { "text": "rote raue Schale, weiß innen" } },
+          { "left": { "text": "⭐ Karambole" }, "right": { "text": "quer geschnitten ein Stern" } },
+          { "left": { "text": "🥭 Mango" }, "right": { "text": "großer flacher Kern, süß" } },
+          { "left": { "text": "🟢 Limette" }, "right": { "text": "kleine grüne saure Zitrusfrucht" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⭐ Schneidest du diese Frucht quer durch, sieht jede Scheibe aus wie ein Stern. Welche Frucht ist das?",
+        "options": [
+          { "text": "Karambole, auch Sternfrucht genannt.", "correct": true },
+          { "text": "Kiwi." },
+          { "text": "Feige." }
+        ],
+        "explanation": "Die Karambole hat Kanten. Beim Querschneiden entstehen Sterne. Deshalb heißt sie auch Sternfrucht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌴 Welche dieser Früchte ist eine exotische Frucht aus einem warmen Land?",
+        "options": [
+          { "text": "Mango.", "correct": true },
+          { "text": "Apfel." },
+          { "text": "Kirsche." }
+        ],
+        "explanation": "Die Mango wächst in warmen Ländern. Apfel und Kirsche wachsen bei uns. Sie sind heimisch."
+      }
+    }
+  ]
+}

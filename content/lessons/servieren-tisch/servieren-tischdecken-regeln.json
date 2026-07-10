@@ -1,0 +1,110 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tischdecken-regeln",
+  "title": "Tisch decken – Regeln",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍽️ Wohin gehört welches Teil am Gedeck? Ordne die Position zu.",
+        "pairs": [
+          { "left": { "text": "🔪 Messer" }, "right": { "text": "rechts neben dem Teller" } },
+          { "left": { "text": "🍴 Gabel" }, "right": { "text": "links neben dem Teller" } },
+          { "left": { "text": "🥄 Löffel" }, "right": { "text": "ganz außen rechts" } },
+          { "left": { "text": "🥛 Glas" }, "right": { "text": "oben rechts über der Messerspitze" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Auf welche Seite legst du das Messer?",
+        "options": [
+          { "text": "Rechts neben den Teller.", "correct": true },
+          { "text": "Links neben den Teller." },
+          { "text": "Oben über den Teller." }
+        ],
+        "explanation": "Das Messer liegt rechts neben dem Teller. Die Gabel liegt auf der linken Seite."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Was liegt rechts vom Teller, was links? Sortiere.",
+        "buckets": [
+          { "id": "rechts", "label": "Rechts vom Teller", "icon": "👉" },
+          { "id": "links", "label": "Links vom Teller", "icon": "👈" }
+        ],
+        "items": [
+          { "text": "Messer", "bucket": "rechts" },
+          { "text": "Löffel", "bucket": "rechts" },
+          { "text": "Glas", "bucket": "rechts" },
+          { "text": "Gabel", "bucket": "links" },
+          { "text": "Salatschälchen", "bucket": "links" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Wohin zeigt die Schneide (die scharfe Seite) vom Messer?",
+        "options": [
+          { "text": "Zum Teller hin.", "correct": true },
+          { "text": "Nach außen weg." },
+          { "text": "Nach unten." }
+        ],
+        "explanation": "Die scharfe Seite des Messers zeigt immer zum Teller. Das ist sicherer und sieht ordentlich aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Wo steht das Glas?",
+        "options": [
+          { "text": "Rechts oben, über der Messerspitze.", "correct": true },
+          { "text": "Links unten neben der Gabel." },
+          { "text": "Genau in der Mitte des Tellers." }
+        ],
+        "explanation": "Das Glas steht rechts oben über der Spitze des Messers. So kannst du es gut mit der rechten Hand greifen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Wo liegt der Löffel?",
+        "options": [
+          { "text": "Rechts außen, neben dem Messer.", "correct": true },
+          { "text": "Links außen, neben der Gabel." },
+          { "text": "Oben über dem Teller." }
+        ],
+        "explanation": "Der Löffel liegt ganz außen rechts, neben dem Messer. Von außen nach innen isst man Gang für Gang."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Wo steht das Salatschälchen?",
+        "options": [
+          { "text": "Links neben dem Teller.", "correct": true },
+          { "text": "Rechts neben dem Messer." },
+          { "text": "Unter dem Teller." }
+        ],
+        "explanation": "Das Salatschälchen wird links neben dem Teller eingedeckt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Wie weit liegt der Teller am Tischrand?",
+        "options": [
+          { "text": "Er schließt mit der Tischkante ab oder liegt eine Fingerbreit nach innen.", "correct": true },
+          { "text": "Er hängt weit über die Tischkante hinaus." },
+          { "text": "Er steht ganz in der Tischmitte." }
+        ],
+        "explanation": "Der Tellerrand schließt mit der Tischkante ab. Höchstens eine Fingerbreit rückt er nach innen."
+      }
+    }
+  ]
+}

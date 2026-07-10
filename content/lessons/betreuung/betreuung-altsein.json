@@ -1,0 +1,131 @@
+{
+  "topic_slug": "betreuung",
+  "slug": "betreuung-altsein",
+  "title": "Altsein verstehen",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧑‍🦳 Was passiert mit der Haut, wenn ein Mensch älter wird?",
+        "options": [
+          { "text": "Sie wird dünner.", "correct": true },
+          { "text": "Sie wird dicker.", "correct": false },
+          { "text": "Sie bleibt genau gleich.", "correct": false }
+        ],
+        "explanation": "Im Alter wird die Haut dünner. Auch das Fettpolster direkt unter der Haut wird weniger. Darum frieren ältere Menschen oft leichter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Stimmt das? \"Das biologische Alter ist immer gleich dem kalendarischen Alter.\"",
+        "options": [
+          { "text": "Nein, das stimmt nicht.", "correct": true },
+          { "text": "Ja, das stimmt immer.", "correct": false }
+        ],
+        "explanation": "Das kalendarische Alter zählt die gelebten Jahre. Das biologische Alter meint die körperliche und seelische Verfassung. Beide können sich stark unterscheiden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👂 Welche Töne hört ein älterer Mensch oft schlechter?",
+        "options": [
+          { "text": "Sehr hohe Töne.", "correct": true },
+          { "text": "Tiefe Töne.", "correct": false },
+          { "text": "Alle Töne fallen gleich weg.", "correct": false }
+        ],
+        "explanation": "Meist gehen nur die sehr hohen Töne verloren. Tiefe Töne hört man weiter gut. Das Hören lässt insgesamt nach."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie verändert sich der Körper im Alter? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧑‍🦳 Haut" }, "right": { "text": "wird dünner" } },
+          { "left": { "text": "💪 Muskeln" }, "right": { "text": "werden weniger" } },
+          { "left": { "text": "👂 Ohren" }, "right": { "text": "hören hohe Töne schlechter" } },
+          { "left": { "text": "💧 Durstgefühl" }, "right": { "text": "lässt nach" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Stimmt das? \"Das Durstgefühl lässt im Alter nach, aber der Körper braucht trotzdem genug Flüssigkeit.\"",
+        "options": [
+          { "text": "Ja, das stimmt.", "correct": true },
+          { "text": "Nein, das ist falsch.", "correct": false }
+        ],
+        "explanation": "Ältere Menschen spüren weniger Durst. Ihr Körper braucht aber genauso viel Flüssigkeit. Darum ist es wichtig, dass sie an das Trinken erinnert werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Stimmt das? \"Das Älterwerden beginnt erst mit 65 Jahren.\"",
+        "options": [
+          { "text": "Nein, das stimmt nicht.", "correct": true },
+          { "text": "Ja, erst ab 65.", "correct": false }
+        ],
+        "explanation": "Jeder Mensch wird jeden Tag älter. Auch ein Kind oder eine 16-Jährige wird älter. Das Älterwerden fängt nicht erst mit 65 an."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✔️ Was stimmt über das Altern? Was stimmt nicht? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Stimmt", "icon": "✅" },
+          { "id": "falsch", "label": "Stimmt nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Ältere Menschen werden etwas kleiner.", "bucket": "richtig" },
+          { "text": "Die Muskeln werden im Alter weniger.", "bucket": "richtig" },
+          { "text": "Bewegung und gutes Essen halten fit.", "bucket": "richtig" },
+          { "text": "Alle älteren Menschen sind starrsinnig.", "bucket": "falsch" },
+          { "text": "Alle älteren Menschen sind sehr vergesslich.", "bucket": "falsch" },
+          { "text": "Die Haut wird im Alter dicker.", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Sind alle älteren Menschen vergesslich?",
+        "options": [
+          { "text": "Nein, das Gedächtnis hängt vom Training ab.", "correct": true },
+          { "text": "Ja, im Alter vergisst jeder alles.", "correct": false },
+          { "text": "Ja, ab 65 Jahren.", "correct": false }
+        ],
+        "explanation": "Vergesslich wird man nicht einfach durch das Alter. Wer sein Gedächtnis benutzt und trainiert, bleibt auch im Alter geistig fit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔑 Im Buch ergeben die Antworten das Lösungswort SCHWERHÖRIG. Was fällt vielen Menschen im Alter schwer?",
+        "options": [
+          { "text": "Das Hören, sie werden schwerhörig.", "correct": true },
+          { "text": "Das Rechnen.", "correct": false },
+          { "text": "Das Träumen.", "correct": false }
+        ],
+        "explanation": "Im Alter lässt das Hörvermögen nach. Man sagt dann: Der Mensch wird schwerhörig. Genau das ist das Lösungswort in der Aufgabe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Stimmt das? \"Auch ein 16-Jähriger wird älter.\"",
+        "options": [
+          { "text": "Ja, das stimmt.", "correct": true },
+          { "text": "Nein, das stimmt nicht.", "correct": false }
+        ],
+        "explanation": "Jeder Mensch wird mit jedem Tag ein bisschen älter, egal wie jung er ist. Altern ist also nichts, was erst spät im Leben beginnt."
+      }
+    }
+  ]
+}

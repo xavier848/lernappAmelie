@@ -1,0 +1,118 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-grundtechniken",
+  "title": "Grundtechniken der Zubereitung",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👩‍🍳 In der Küche gibt es viele Techniken. Man teilt sie in drei Gruppen ein. Zu welcher Gruppe gehören Rühren, Schlagen und Kneten?",
+        "options": [
+          { "text": "Zum Mischen.", "correct": true },
+          { "text": "Zum Zerkleinern." },
+          { "text": "Zum Entfernen von unerwünschten Teilen." }
+        ],
+        "explanation": "Beim Rühren, Schlagen und Kneten bringst du Zutaten zusammen. Sie werden vermengt. Deshalb gehören sie zum Mischen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ordne jede Technik ihrer Gruppe zu.",
+        "buckets": [
+          { "id": "entfernen", "label": "Entfernen", "icon": "🧹" },
+          { "id": "mischen", "label": "Mischen", "icon": "🥄" },
+          { "id": "zerkleinern", "label": "Zerkleinern", "icon": "🔪" }
+        ],
+        "items": [
+          { "text": "Schälen", "bucket": "entfernen" },
+          { "text": "Waschen", "bucket": "entfernen" },
+          { "text": "Putzen", "bucket": "entfernen" },
+          { "text": "Rühren", "bucket": "mischen" },
+          { "text": "Schlagen", "bucket": "mischen" },
+          { "text": "Schneiden", "bucket": "zerkleinern" },
+          { "text": "Raspeln", "bucket": "zerkleinern" },
+          { "text": "Hacken", "bucket": "zerkleinern" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Zu welcher Zutat passt die Technik? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Schlagen" }, "right": { "text": "🥚 Eischnee" } },
+          { "left": { "text": "Kneten" }, "right": { "text": "🍞 Hefeteig" } },
+          { "left": { "text": "Raspeln" }, "right": { "text": "🧀 Käse" } },
+          { "left": { "text": "Hobeln" }, "right": { "text": "🥒 Gurke" } },
+          { "left": { "text": "Hacken" }, "right": { "text": "🌿 Petersilie" } },
+          { "left": { "text": "Rühren" }, "right": { "text": "🎂 Rührteig" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Du streichst weiches Obst durch ein Sieb, damit es fein wird. Zu welcher Gruppe gehört das Passieren?",
+        "options": [
+          { "text": "Zum Zerkleinern.", "correct": true },
+          { "text": "Zum Mischen." },
+          { "text": "Zum Entfernen." }
+        ],
+        "explanation": "Beim Passieren drückst du das Obst durch ein Sieb. Es wird dabei kleiner und feiner. Deshalb gehört es zum Zerkleinern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Du hältst den Salat unter fließendes Wasser. Zu welcher Gruppe gehört das Waschen?",
+        "options": [
+          { "text": "Zum Entfernen von unerwünschten Teilen.", "correct": true },
+          { "text": "Zum Mischen." },
+          { "text": "Zum Zerkleinern." }
+        ],
+        "explanation": "Beim Waschen entfernst du Schmutz und Sand. Diese Teile willst du nicht essen. Deshalb gehört Waschen zum Entfernen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was passiert bei jeder Technik? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Raspeln" }, "right": { "text": "in feine Streifen zerkleinern" } },
+          { "left": { "text": "Hobeln" }, "right": { "text": "in dünne Scheiben zerkleinern" } },
+          { "left": { "text": "Hacken" }, "right": { "text": "in ganz feine Stücke zerkleinern" } },
+          { "left": { "text": "Schälen" }, "right": { "text": "die Schale entfernen" } },
+          { "left": { "text": "Rühren" }, "right": { "text": "Zutaten gleichmäßig mischen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du schlägst Eiweiß, bis es steif wird. Was passiert dabei?",
+        "options": [
+          { "text": "Du arbeitest Luft ein. Das Eiweiß wird fest und locker.", "correct": true },
+          { "text": "Du entfernst Schmutz aus dem Eiweiß." },
+          { "text": "Du schneidest das Eiweiß klein." }
+        ],
+        "explanation": "Beim Schlagen kommt viel Luft in das Eiweiß. So entsteht fester Eischnee. Schlagen gehört deshalb zum Mischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Zu welcher Gruppe gehört das Schneiden von Zwiebeln?",
+        "options": [
+          { "text": "Zum Zerkleinern.", "correct": true },
+          { "text": "Zum Mischen." },
+          { "text": "Zum Entfernen." }
+        ],
+        "explanation": "Beim Schneiden machst du die Zwiebel in kleinere Stücke. Sie wird kleiner. Deshalb gehört Schneiden zum Zerkleinern."
+      }
+    }
+  ]
+}

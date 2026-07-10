@@ -1,0 +1,113 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-vegetarisch-vegan",
+  "title": "Vegetarisch & vegan",
+  "sort": 200,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Ein Ovo-lakto-Vegetarier isst kein Fleisch. Was isst er trotzdem?",
+        "options": [
+          { "text": "Eier und Milch.", "correct": true },
+          { "text": "Fisch und Wurst." },
+          { "text": "Speck und Schmalz." }
+        ],
+        "explanation": "\"Ovo\" heißt Ei und \"lakto\" heißt Milch. Ein Ovo-lakto-Vegetarier isst also Eier und Milchprodukte, aber kein Fleisch und keinen Fisch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Sortiere die Lebensmittel: Wer darf was essen?",
+        "buckets": [
+          { "id": "veg_meiden", "label": "Vegetarier meiden", "icon": "🚫🥩" },
+          { "id": "vegan_meiden", "label": "Nur Veganer meiden zusätzlich", "icon": "🚫🥛" },
+          { "id": "alle", "label": "Alle essen das", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "Wurst", "bucket": "veg_meiden" },
+          { "text": "Fisch", "bucket": "veg_meiden" },
+          { "text": "Milch", "bucket": "vegan_meiden" },
+          { "text": "Käse", "bucket": "vegan_meiden" },
+          { "text": "Honig", "bucket": "vegan_meiden" },
+          { "text": "Apfel", "bucket": "alle" },
+          { "text": "Kartoffeln", "bucket": "alle" },
+          { "text": "Nüsse", "bucket": "alle" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Isst ein Veganer Käse?",
+        "options": [
+          { "text": "Nein, Käse kommt vom Tier.", "correct": true },
+          { "text": "Ja, Käse ist immer erlaubt." },
+          { "text": "Ja, aber nur mit Wurst." }
+        ],
+        "explanation": "Käse wird aus Milch gemacht. Milch kommt von der Kuh. Ein Veganer isst nichts vom Tier, deshalb keinen Käse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍯 Warum isst ein Veganer keinen Honig?",
+        "options": [
+          { "text": "Weil Honig von Bienen kommt, also von Tieren.", "correct": true },
+          { "text": "Weil Honig zu süß ist." },
+          { "text": "Weil Honig eine Pflanze ist." }
+        ],
+        "explanation": "Honig machen die Bienen. Bienen sind Tiere. Ein Veganer verzichtet auf alles, was vom Tier stammt, deshalb auch auf Honig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeuten die Wörter? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "ovo" }, "right": { "text": "Ei" } },
+          { "left": { "text": "lakto" }, "right": { "text": "Milch" } },
+          { "left": { "text": "vegan" }, "right": { "text": "Nichts vom Tier" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Ein Ovo-lakto-Vegetarier möchte frühstücken. Was passt zu ihm?",
+        "options": [
+          { "text": "Rührei mit Brot.", "correct": true },
+          { "text": "Schinken mit Brot." },
+          { "text": "Eine Bratwurst." }
+        ],
+        "explanation": "Ein Ovo-lakto-Vegetarier isst Eier. Rührei ist deshalb erlaubt. Schinken und Bratwurst sind aus Fleisch und passen nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Isst ein Vegetarier Fisch?",
+        "options": [
+          { "text": "Nein, Fisch ist ein Tier.", "correct": true },
+          { "text": "Ja, Fisch zählt als Gemüse." },
+          { "text": "Ja, Fisch ist immer erlaubt." }
+        ],
+        "explanation": "Viele denken, Fisch sei erlaubt. Aber ein Fisch ist ein Tier. Ein Vegetarier isst nichts vom toten Tier, also auch keinen Fisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was können Vegetarier und Veganer beide essen?",
+        "options": [
+          { "text": "Äpfel und Kartoffeln.", "correct": true },
+          { "text": "Wurst und Käse." },
+          { "text": "Speck und Eier." }
+        ],
+        "explanation": "Äpfel und Kartoffeln sind rein pflanzlich. Pflanzliche Lebensmittel dürfen alle Vegetarier und alle Veganer essen."
+      }
+    }
+  ]
+}

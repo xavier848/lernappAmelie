@@ -1,0 +1,112 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-energie-lebensmittel",
+  "title": "Energiereich & energiearm",
+  "sort": 220,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔋 Manche Lebensmittel geben viel Energie, andere wenig. Was bedeutet \"energiereich\"?",
+        "options": [
+          { "text": "Es steckt viel Energie drin, also viele Kalorien.", "correct": true },
+          { "text": "Es ist besonders kalt." },
+          { "text": "Es hat besonders viele Vitamine." }
+        ],
+        "explanation": "Energiereich bedeutet: Das Lebensmittel liefert viele Kalorien. Meist ist viel Fett oder Zucker enthalten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Beide Lebensmittel sind ähnlich. Links steht das energiearme, rechts das energiereiche. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍎 Apfel" }, "right": { "text": "🍇 Weintrauben" } },
+          { "left": { "text": "🥔 Salzkartoffeln" }, "right": { "text": "🍟 Pommes frites" } },
+          { "left": { "text": "💧 Mineralwasser" }, "right": { "text": "🥤 Cola" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Sortiere die Lebensmittel nach ihrem Energiegehalt.",
+        "buckets": [
+          { "id": "reich", "label": "Energiereich", "icon": "🔋" },
+          { "id": "arm", "label": "Energiearm", "icon": "🍃" }
+        ],
+        "items": [
+          { "text": "Cola", "bucket": "reich" },
+          { "text": "Pommes frites", "bucket": "reich" },
+          { "text": "Sahnetorte", "bucket": "reich" },
+          { "text": "Erdnüsse", "bucket": "reich" },
+          { "text": "Mineralwasser", "bucket": "arm" },
+          { "text": "Apfel", "bucket": "arm" },
+          { "text": "Salzkartoffeln", "bucket": "arm" },
+          { "text": "Forelle", "bucket": "arm" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Was ist energieärmer?",
+        "options": [
+          { "text": "Mineralwasser.", "correct": true },
+          { "text": "Cola." },
+          { "text": "Sahnetorte." }
+        ],
+        "explanation": "Mineralwasser hat keine Kalorien. In Cola steckt viel Zucker, deshalb ist sie energiereich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Du möchtest etwas Süßes mit wenig Energie. Was passt am besten?",
+        "options": [
+          { "text": "Ein Apfel.", "correct": true },
+          { "text": "Weintrauben." },
+          { "text": "Erdnüsse." }
+        ],
+        "explanation": "Ein Apfel ist energiearm. Weintrauben haben mehr Zucker und Erdnüsse viel Fett. Beide sind energiereicher."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Auch hier gehören energiearm und energiereich zusammen. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Gemüsebrühe" }, "right": { "text": "Ochsenschwanzsuppe" } },
+          { "left": { "text": "Joghurt-Dressing" }, "right": { "text": "Mayonnaise" } },
+          { "left": { "text": "Forelle geräuchert" }, "right": { "text": "Aal geräuchert" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Was ist die energieärmere Beilage?",
+        "options": [
+          { "text": "Salzkartoffeln.", "correct": true },
+          { "text": "Pommes frites." },
+          { "text": "Kroketten." }
+        ],
+        "explanation": "Salzkartoffeln werden in Wasser gekocht und brauchen kein Fett. Pommes und Kroketten werden in Fett zubereitet und sind energiereicher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Du möchtest wenig Energie zu dir nehmen. Was trinkst du?",
+        "options": [
+          { "text": "Mineralwasser.", "correct": true },
+          { "text": "Cola." },
+          { "text": "Kakao mit Sahne." }
+        ],
+        "explanation": "Mineralwasser hat keine Kalorien und löscht den Durst. Cola und Kakao mit Sahne enthalten viel Zucker und Fett."
+      }
+    }
+  ]
+}

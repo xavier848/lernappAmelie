@@ -1,0 +1,108 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-fristenplan",
+  "title": "Fristenplan erstellen",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Du planst ein großes Fest. Ein Fristenplan hilft dir dabei. Was legt ein Fristenplan fest?",
+        "options": [
+          { "text": "Bis wann jede Aufgabe fertig sein muss.", "correct": true },
+          { "text": "Wie viel jede Aufgabe kostet." },
+          { "text": "Wer zum Fest eingeladen wird." }
+        ],
+        "explanation": "Ein Fristenplan zeigt, welche Aufgabe bis wann erledigt sein muss. So ist bis zum Fest alles rechtzeitig fertig."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧭 So erstellst du einen Fristenplan. Bringe die drei Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Zuerst alle Tätigkeiten aufschreiben, die zu tun sind." },
+          { "text": "Dann ähnliche Tätigkeiten zu Arbeitspaketen zusammenfassen." },
+          { "text": "Zuletzt die Arbeitspakete mit ihren Fristen in eine Tabelle eintragen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Ergänze den Satz: Zuerst werden alle ___ Tätigkeiten aufgelistet.",
+        "options": [
+          { "text": "durchzuführenden", "correct": true },
+          { "text": "bezahlten" },
+          { "text": "vergessenen" }
+        ],
+        "explanation": "Im ersten Schritt sammelst du alle Tätigkeiten, die durchgeführt werden müssen. So vergisst du nichts."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Manche Aufgaben sind Planung, andere sind Durchführung. Sortiere sie.",
+        "buckets": [
+          { "id": "planung", "label": "Planungsarbeiten", "icon": "🧠" },
+          { "id": "durchfuehrung", "label": "Durchführungsarbeiten", "icon": "🛠️" }
+        ],
+        "items": [
+          { "text": "Speisen und Getränke zusammenstellen", "bucket": "planung" },
+          { "text": "Ein Unterhaltungsprogramm zusammenstellen", "bucket": "planung" },
+          { "text": "Die Einkaufsliste erstellen", "bucket": "durchfuehrung" },
+          { "text": "Die Dekoration erstellen", "bucket": "durchfuehrung" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ In welchen Einheiten kannst du die Fristen angeben?",
+        "options": [
+          { "text": "In Kalenderwochen oder Tagen.", "correct": true },
+          { "text": "Nur in Minuten." },
+          { "text": "Nur in Sekunden." }
+        ],
+        "explanation": "Ein Fristenplan geht meist über einen längeren Zeitraum. Deshalb rechnest du in Kalenderwochen oder in Tagen vor dem Fest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Ergänze den Satz: Im nächsten Schritt werden die Tätigkeiten zu ___ zusammengefasst.",
+        "options": [
+          { "text": "Arbeitspaketen", "correct": true },
+          { "text": "Fristen" },
+          { "text": "Rechnungen" }
+        ],
+        "explanation": "Ähnliche Tätigkeiten fasst du zu einem Arbeitspaket zusammen. Das macht den Plan übersichtlicher."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeuten die Begriffe? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Stichtag" }, "right": { "text": "Der Tag des Festes" } },
+          { "left": { "text": "Frist" }, "right": { "text": "Zeit, bis eine Aufgabe fertig sein muss" } },
+          { "left": { "text": "Arbeitspaket" }, "right": { "text": "Mehrere ähnliche Tätigkeiten zusammen" } },
+          { "left": { "text": "Tabelle" }, "right": { "text": "Hier stehen Aufgaben und Fristen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Wohin trägst du die Tätigkeiten mit ihren Fristen ein?",
+        "options": [
+          { "text": "In eine Tabelle.", "correct": true },
+          { "text": "Auf den Herd." },
+          { "text": "In den Kühlschrank." }
+        ],
+        "explanation": "Im letzten Schritt kommen alle Arbeitspakete mit ihren Fristen in eine Tabelle. So siehst du auf einen Blick, was wann dran ist."
+      }
+    }
+  ]
+}

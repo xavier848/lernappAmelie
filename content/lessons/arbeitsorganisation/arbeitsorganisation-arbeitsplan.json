@@ -1,0 +1,135 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-arbeitsplan",
+  "title": "Arbeitsplan erstellen",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📋 Du planst ein ganzes Menü. Bringe die Vorbereitung in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "📖 Zuerst die Rezepte genau durchlesen." },
+          { "text": "🗂️ Den Arbeitsablauf planen: erst Vorbereiten, dann Kochen, dann Nacharbeiten." },
+          { "text": "🧺 Den Arbeitsplatz vorbereiten und alle Zutaten bereitstellen." },
+          { "text": "➡️ Als Rechtshänder alles von rechts nach links einrichten." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Mit welcher Speise fängst du beim Kochen an?",
+        "options": [
+          { "text": "Mit der Speise, die am längsten garen muss.", "correct": true },
+          { "text": "Mit der Speise, die am schnellsten fertig ist." },
+          { "text": "Mit der Nachspeise." }
+        ],
+        "explanation": "Du beginnst mit der längsten Garzeit. So werden am Ende alle Speisen zur gleichen Zeit fertig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 Was machst du ganz zuerst, bevor du mit dem Kochen loslegst?",
+        "options": [
+          { "text": "Die Rezepte genau durchlesen.", "correct": true },
+          { "text": "Sofort das Fleisch anbraten." },
+          { "text": "Den Tisch decken." }
+        ],
+        "explanation": "Erst liest du die Rezepte durch. Dann weißt du, welche Zutaten und Schritte du brauchst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Was gehört zum Vorbereiten, was zur Hauptarbeit beim Kochen? Sortiere.",
+        "buckets": [
+          { "id": "vor", "label": "Vorbereiten", "icon": "📋" },
+          { "id": "koch", "label": "Hauptarbeit (Kochen)", "icon": "🍳" }
+        ],
+        "items": [
+          { "text": "Rezepte lesen", "bucket": "vor" },
+          { "text": "Zutaten bereitstellen", "bucket": "vor" },
+          { "text": "Arbeitsplatz einrichten", "bucket": "vor" },
+          { "text": "Fleisch anbraten", "bucket": "koch" },
+          { "text": "Kartoffelbrei kochen", "bucket": "koch" },
+          { "text": "Kopfsalat anmachen", "bucket": "koch" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍳 Jetzt geht es ans Kochen. Bringe die Schritte in eine sinnvolle Reihenfolge.",
+        "steps": [
+          { "text": "⏱️ Mit der Speise mit der längsten Garzeit anfangen." },
+          { "text": "🍗 Das Fleisch in Streifen schneiden und anbraten." },
+          { "text": "🥔 Den Kartoffelbrei zubereiten." },
+          { "text": "🍽️ Die Wartezeit zum Tischdecken nutzen." },
+          { "text": "🥗 Den Kopfsalat als Letztes anmachen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Wann machst du den Salat?",
+        "options": [
+          { "text": "Ganz zum Schluss.", "correct": true },
+          { "text": "Ganz am Anfang." },
+          { "text": "Bevor du die Rezepte liest." }
+        ],
+        "explanation": "Den Salat machst du zuletzt an. Sonst wird die Marinade wässrig und der Salat welk."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "➡️ Wie richtest du als Rechtshänder deinen Arbeitsplatz ein?",
+        "options": [
+          { "text": "Von rechts nach links, so kreuzen sich die Hände nicht.", "correct": true },
+          { "text": "Von links nach rechts, quer über den Körper." },
+          { "text": "Alles auf einen Haufen." }
+        ],
+        "explanation": "Als Rechtshänder arbeitest du von rechts nach links. So musst du die Arme nicht kreuzen und arbeitest sicherer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was machst du klug, während eine Speise gart?",
+        "options": [
+          { "text": "Die Wartezeit nutzen, zum Beispiel den Tisch decken.", "correct": true },
+          { "text": "Nur danebenstehen und warten." },
+          { "text": "Schon das Essen austeilen." }
+        ],
+        "explanation": "Die Garzeit nutzt du für andere Arbeiten wie das Tischdecken. So sparst du Zeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Bei der Kopfstandmethode stehen die Aussagen zuerst falsch da. Was machst du damit?",
+        "options": [
+          { "text": "Ich drehe jede Aussage ins Richtige um.", "correct": true },
+          { "text": "Ich lasse sie einfach falsch stehen." },
+          { "text": "Ich streiche alle durch." }
+        ],
+        "explanation": "Bei der Kopfstandmethode sind die Sätze absichtlich verkehrt. Du drehst jeden Satz um, dann stimmt er wieder."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗂️ In welcher groben Reihenfolge arbeitest du?",
+        "options": [
+          { "text": "Erst vorbereiten, dann kochen, dann nacharbeiten.", "correct": true },
+          { "text": "Erst nacharbeiten, dann kochen." },
+          { "text": "Alles gleichzeitig." }
+        ],
+        "explanation": "Der Ablauf ist immer gleich: zuerst vorbereiten, dann die Hauptarbeit (kochen), zum Schluss die Nacharbeiten."
+      }
+    }
+  ]
+}

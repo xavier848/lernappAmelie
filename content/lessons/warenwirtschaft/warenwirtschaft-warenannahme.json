@@ -1,0 +1,124 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-warenannahme",
+  "title": "Warenannahme & Mängel",
+  "sort": 70,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Eine Lieferung kommt an. Was ist deine Aufgabe bei der Warenannahme?",
+        "options": [
+          { "text": "Ich prüfe die Ware genau, bevor ich sie annehme.", "correct": true },
+          { "text": "Ich nehme alles ungeprüft an." },
+          { "text": "Ich schicke jede Lieferung zurück." }
+        ],
+        "explanation": "Bei der Warenannahme prüfst du die Ware. Nur einwandfreie Ware nimmst du an. So kommt nichts Schlechtes in die Küche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍫 Ein Kakaotrunk ist haltbar bis 31. Juli. Heute ist der 3. August. Was machst du?",
+        "options": [
+          { "text": "Ich nehme ihn nicht an. Das Datum ist abgelaufen.", "correct": true },
+          { "text": "Ich nehme ihn an, ein paar Tage sind egal." },
+          { "text": "Ich stelle ihn einfach ins Regal." }
+        ],
+        "explanation": "Das Mindesthaltbarkeitsdatum ist vorbei. So eine Ware nimmst du nicht an. Ein abgelaufenes Datum ist ein Mangel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍐 Bei den gelieferten Birnen siehst du braune, weiche Stellen. Was ist das?",
+        "options": [
+          { "text": "Faulstellen. Die Birnen haben einen Mangel.", "correct": true },
+          { "text": "Das ist ganz normal und kein Problem." },
+          { "text": "Das macht die Birnen süßer." }
+        ],
+        "explanation": "Braune, weiche Stellen sind Faulstellen. Die Ware ist beschädigt. So ein Mangel ist ein Grund, die Ware nicht anzunehmen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥚 Du nimmst 50 Eier an. Welcher Wert gehört zu welchem Kontrollpunkt? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Menge" }, "right": { "text": "50 Stück" } },
+          { "left": { "text": "Größe" }, "right": { "text": "M" } },
+          { "left": { "text": "Güteklasse" }, "right": { "text": "A" } },
+          { "left": { "text": "Haltung" }, "right": { "text": "Freiland" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Was prüfst du bei Eiern, was bei Milch? Sortiere die Kontrollpunkte.",
+        "buckets": [
+          { "id": "eier", "label": "Bei Eiern prüfen", "icon": "🥚" },
+          { "id": "milch", "label": "Bei Milch prüfen", "icon": "🥛" }
+        ],
+        "items": [
+          { "text": "Güteklasse A", "bucket": "eier" },
+          { "text": "Freilandhaltung", "bucket": "eier" },
+          { "text": "Größe M", "bucket": "eier" },
+          { "text": "Fettgehalt 3,5 %", "bucket": "milch" },
+          { "text": "Lagertemperatur", "bucket": "milch" },
+          { "text": "Wärmebehandlung (längerfrisch)", "bucket": "milch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Bei der Milch prüfst du auch die Lagertemperatur. Warum ist das wichtig?",
+        "options": [
+          { "text": "Warme Milch verdirbt schnell. Sie muss kühl geliefert werden.", "correct": true },
+          { "text": "Warme Milch schmeckt besser." },
+          { "text": "Die Temperatur ist völlig egal." }
+        ],
+        "explanation": "Milch braucht Kälte. War die Lieferung zu warm, können sich Keime bilden. Darum kontrollierst du die Temperatur."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥛 Du nimmst 10 Liter Vollmilch an. Welcher Wert gehört zu welchem Kontrollpunkt?",
+        "pairs": [
+          { "left": { "text": "Menge" }, "right": { "text": "10 Liter" } },
+          { "left": { "text": "Fettgehalt" }, "right": { "text": "3,5 %" } },
+          { "left": { "text": "Sorte" }, "right": { "text": "Längerfrische Vollmilch" } },
+          { "left": { "text": "Verpackung" }, "right": { "text": "Nicht beschädigt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was prüfst du bei fast jeder Lieferung?",
+        "options": [
+          { "text": "Menge, Qualität, Haltbarkeit und Verpackung.", "correct": true },
+          { "text": "Nur die Farbe der Verpackung." },
+          { "text": "Nur den Namen der Firma." }
+        ],
+        "explanation": "Diese Punkte gehören zu fast jeder Warenannahme: Stimmt die Menge? Ist die Qualität gut? Ist das Datum in Ordnung? Ist die Verpackung heil?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du entdeckst einen Mangel an der Ware. Was tust du?",
+        "options": [
+          { "text": "Ich nehme diese Ware nicht an.", "correct": true },
+          { "text": "Ich nehme sie trotzdem und stelle sie ins Regal." },
+          { "text": "Ich koche sofort damit." }
+        ],
+        "explanation": "Ware mit Mangel nimmst du nicht an. So schützt du die Gäste und die Küche vor schlechten Lebensmitteln."
+      }
+    }
+  ]
+}

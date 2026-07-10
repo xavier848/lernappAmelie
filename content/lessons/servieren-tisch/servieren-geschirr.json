@@ -1,0 +1,124 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-geschirr",
+  "title": "Geschirr benennen",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍽️ Welcher Name gehört zu welcher Beschreibung? Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🍲 Darin servierst du Suppe für viele Personen." }, "right": { "text": "Suppenterrine" } },
+          { "left": { "text": "🥚 Da hinein stellst du ein gekochtes Ei." }, "right": { "text": "Eierbecher" } },
+          { "left": { "text": "🥛 Darin ist die Milch für den Kaffee." }, "right": { "text": "Milchkännchen" } },
+          { "left": { "text": "🍨 Ein hohes Glas für die Nachspeise." }, "right": { "text": "Dessertkelch" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Worin servierst du Suppe für die ganze Familie?",
+        "options": [
+          { "text": "In der Suppenterrine.", "correct": true },
+          { "text": "Im Eierbecher." },
+          { "text": "Im Milchkännchen." }
+        ],
+        "explanation": "Die Suppenterrine ist ein großes Gefäß. Daraus schöpfst du Suppe für mehrere Personen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Wozu ist ein Eierbecher da?",
+        "options": [
+          { "text": "Um ein gekochtes Ei hineinzustellen.", "correct": true },
+          { "text": "Um Milch einzugießen." },
+          { "text": "Um Suppe zu servieren." }
+        ],
+        "explanation": "In den Eierbecher stellst du ein gekochtes Ei. So steht es sicher, wenn du es auslöffelst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Ist das Geschirr für Getränke oder für Speisen? Sortiere.",
+        "buckets": [
+          { "id": "getraenke", "label": "Für Getränke", "icon": "☕" },
+          { "id": "speisen", "label": "Für Speisen", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "Kaffeekanne", "bucket": "getraenke" },
+          { "text": "Teekanne", "bucket": "getraenke" },
+          { "text": "Milchkännchen", "bucket": "getraenke" },
+          { "text": "Suppenterrine", "bucket": "speisen" },
+          { "text": "Kompottschälchen", "bucket": "speisen" },
+          { "text": "Ovale Platte", "bucket": "speisen" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍽️ Ordne auch diese Beschreibungen dem richtigen Namen zu.",
+        "pairs": [
+          { "left": { "text": "🍑 Eine kleine Schale für Obst oder Kompott." }, "right": { "text": "Kompottschälchen" } },
+          { "left": { "text": "🥣 Eine Tasse mit Untertasse für Suppe." }, "right": { "text": "Suppentasse" } },
+          { "left": { "text": "🐟 Eine längliche Platte, z. B. für Fisch." }, "right": { "text": "ovale Platte" } },
+          { "left": { "text": "🍰 Eine runde Platte, z. B. für Kuchen." }, "right": { "text": "runde Platte" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Was ist ein Milchkännchen?",
+        "options": [
+          { "text": "Ein kleines Kännchen für Milch, zum Beispiel zum Kaffee.", "correct": true },
+          { "text": "Ein tiefer Teller für Suppe." },
+          { "text": "Eine Platte für Braten." }
+        ],
+        "explanation": "Aus dem Milchkännchen gießt du etwas Milch in den Kaffee oder Tee."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍨 In welchem Geschirr kommt eine feine Nachspeise gut zur Geltung?",
+        "options": [
+          { "text": "Im Dessertkelch.", "correct": true },
+          { "text": "In der Suppenterrine." },
+          { "text": "Im Milchkännchen." }
+        ],
+        "explanation": "Der Dessertkelch ist ein hohes Glas. Darin sieht eine Nachspeise besonders schön aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍑 Was ist ein Kompottschälchen?",
+        "options": [
+          { "text": "Eine kleine Schale für Obst oder Kompott.", "correct": true },
+          { "text": "Ein großer Teller für Fleisch." },
+          { "text": "Eine Kanne für Tee." }
+        ],
+        "explanation": "In das kleine Kompottschälchen füllst du Obst oder Kompott als Nachtisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Auf welcher Platte richtest du einen langen Fisch an?",
+        "options": [
+          { "text": "Auf der ovalen Platte.", "correct": true },
+          { "text": "Auf der runden Platte." },
+          { "text": "Im Eierbecher." }
+        ],
+        "explanation": "Die ovale Platte ist länglich. Darauf passt ein ganzer Fisch besonders gut."
+      }
+    }
+  ]
+}

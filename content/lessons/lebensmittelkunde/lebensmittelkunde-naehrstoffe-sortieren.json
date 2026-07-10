@@ -1,0 +1,123 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-naehrstoffe-sortieren",
+  "title": "Eiweiß, Fett & Kohlenhydrate",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Es gibt drei Hauptnährstoffe im Essen. Welche sind das?",
+        "options": [
+          { "text": "Eiweiß, Fett und Kohlenhydrate.", "correct": true },
+          { "text": "Wasser, Luft und Salz." },
+          { "text": "Farbe, Form und Geruch." }
+        ],
+        "explanation": "Die drei Hauptnährstoffe sind Eiweiß, Fett und Kohlenhydrate. Sie liefern deinem Körper Bausteine und Energie."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welcher Nährstoff steckt viel in diesem Lebensmittel? Sortiere.",
+        "buckets": [
+          { "id": "eiweiss", "label": "Viel Eiweiß", "icon": "💪" },
+          { "id": "fett", "label": "Viel Fett", "icon": "🧈" },
+          { "id": "kh", "label": "Viel Kohlenhydrate", "icon": "🍞" }
+        ],
+        "items": [
+          { "text": "Fisch", "bucket": "eiweiss" },
+          { "text": "Hähnchen", "bucket": "eiweiss" },
+          { "text": "Butter", "bucket": "fett" },
+          { "text": "Speiseöl", "bucket": "fett" },
+          { "text": "Nudeln", "bucket": "kh" },
+          { "text": "Zucker", "bucket": "kh" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫒 In Speiseöl steckt vor allem welcher Nährstoff?",
+        "options": [
+          { "text": "Fett.", "correct": true },
+          { "text": "Eiweiß." },
+          { "text": "Kohlenhydrate." }
+        ],
+        "explanation": "Öl besteht fast nur aus Fett. Auch Butter und Margarine sind sehr fettreich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 In Nudeln und Brot steckt vor allem welcher Nährstoff?",
+        "options": [
+          { "text": "Kohlenhydrate.", "correct": true },
+          { "text": "Fett." },
+          { "text": "Eiweiß." }
+        ],
+        "explanation": "Nudeln, Brot und Kartoffeln liefern viele Kohlenhydrate. Sie geben dem Körper Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 In Fisch und Fleisch steckt vor allem welcher Nährstoff?",
+        "options": [
+          { "text": "Eiweiß.", "correct": true },
+          { "text": "Kohlenhydrate." },
+          { "text": "Zucker." }
+        ],
+        "explanation": "Fisch, Fleisch und Eier sind reich an Eiweiß. Eiweiß ist der wichtigste Baustoff für den Körper."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥜 Manche Lebensmittel haben viel von zwei Nährstoffen. Was steckt viel in Erdnüssen?",
+        "options": [
+          { "text": "Eiweiß und Fett.", "correct": true },
+          { "text": "Nur Kohlenhydrate." },
+          { "text": "Nur Wasser." }
+        ],
+        "explanation": "Erdnüsse liefern viel Eiweiß und gleichzeitig viel Fett. Darum stehen sie in zwei Gruppen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌭 Und was steckt viel in Wurst?",
+        "options": [
+          { "text": "Eiweiß und Fett.", "correct": true },
+          { "text": "Nur Kohlenhydrate." },
+          { "text": "Nur Zucker." }
+        ],
+        "explanation": "Wurst hat viel Eiweiß und auch viel Fett. Sie gehört darum zu beiden Nährstoffgruppen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welcher Nährstoff steckt vor allem drin? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Butter" }, "right": { "text": "Viel Fett" } },
+          { "left": { "text": "Nudeln" }, "right": { "text": "Viel Kohlenhydrate" } },
+          { "left": { "text": "Fisch" }, "right": { "text": "Viel Eiweiß" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Zucker gehört zu welchem Nährstoff?",
+        "options": [
+          { "text": "Zu den Kohlenhydraten.", "correct": true },
+          { "text": "Zum Fett." },
+          { "text": "Zum Eiweiß." }
+        ],
+        "explanation": "Zucker ist ein Kohlenhydrat. Er gibt schnell Energie, sollte aber nur in kleinen Mengen gegessen werden."
+      }
+    }
+  ]
+}

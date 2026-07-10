@@ -1,0 +1,110 @@
+{
+  "topic_slug": "betreuung",
+  "slug": "betreuung-kleinkind-trotzphase",
+  "title": "Kleinkind: Trotzphase",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧒 Die Trotzphase heißt auch \"Phase der Willensbildung\". Warum?",
+        "options": [
+          { "text": "Das Kind testet Grenzen, um selbstständig zu werden und einen eigenen Willen zu entwickeln.", "correct": true },
+          { "text": "Das Kind will die Eltern einfach nur ärgern.", "correct": false },
+          { "text": "Das Kind ist krank und braucht Medizin.", "correct": false }
+        ],
+        "explanation": "In dieser Zeit lernt das Kind: Ich bin jemand mit eigenem Willen. Es probiert aus, was erlaubt ist. Das gehört zum Großwerden dazu."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Ein kleines Kind trotzt. Welche Reaktion passt zur Situation? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍝 Sabine wirft mit dem Essen" }, "right": { "text": "Ruhig bleiben und etwas geben, das sie allein essen kann" } },
+          { "left": { "text": "🥛 Marcus will die Milch nicht" }, "right": { "text": "Eine Wahl anbieten: rote oder blaue Tasse" } },
+          { "left": { "text": "🍬 Gaby schreit nach Bonbons" }, "right": { "text": "Ablenken: Banane oder Apfel aussuchen lassen" } },
+          { "left": { "text": "🚶 Ole wirft sich auf den Boden" }, "right": { "text": "Eine kleine Aufgabe geben, zum Beispiel Nüsse sammeln" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 In welchem Alter sind Kinder meist in der Trotzphase?",
+        "options": [
+          { "text": "Etwa von 1 bis 3 Jahren.", "correct": true },
+          { "text": "Erst ab 10 Jahren.", "correct": false },
+          { "text": "Schon als Baby unter einem Monat.", "correct": false }
+        ],
+        "explanation": "Zwischen ein und drei Jahren zeigt ein Kleinkind seinen eigenen Willen besonders stark. Diese Zeit nennt man Trotzphase."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Ein Kind schreit im Supermarkt nach Süßem. Was ist am besten?",
+        "options": [
+          { "text": "Ruhig bleiben und das Kind ablenken.", "correct": true },
+          { "text": "Laut zurückschimpfen.", "correct": false },
+          { "text": "Sofort die Süßigkeit kaufen.", "correct": false }
+        ],
+        "explanation": "Wenn du ruhig bleibst, beruhigt sich auch das Kind schneller. Lenkst du es ab, vergisst es den Wunsch oft von allein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Warum bietest du dem Kind eine Wahl an, zum Beispiel die rote oder die blaue Tasse?",
+        "options": [
+          { "text": "Das Kind darf selbst entscheiden und fühlt sich ernst genommen.", "correct": true },
+          { "text": "So dauert alles länger.", "correct": false },
+          { "text": "So bekommt das Kind gar nichts.", "correct": false }
+        ],
+        "explanation": "Eine kleine Wahl gibt dem Kind das Gefühl, mitzubestimmen. Das passt gut zur Phase der Willensbildung und beruhigt es."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🤔 Was hilft in der Trotzphase? Was hilft nicht? Sortiere.",
+        "buckets": [
+          { "id": "hilft", "label": "Hilft", "icon": "✅" },
+          { "id": "hilftnicht", "label": "Hilft nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Ruhig bleiben.", "bucket": "hilft" },
+          { "text": "Das Kind ablenken.", "bucket": "hilft" },
+          { "text": "Eine kleine Wahl anbieten.", "bucket": "hilft" },
+          { "text": "Laut zurückschreien.", "bucket": "hilftnicht" },
+          { "text": "Immer sofort nachgeben.", "bucket": "hilftnicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Silke will nicht allein im Kinderzimmer spielen. Was ist eine gute Lösung?",
+        "options": [
+          { "text": "Eine Spielecke in der Nähe der Mutter einrichten.", "correct": true },
+          { "text": "Silke ins Zimmer schicken und die Tür schließen.", "correct": false },
+          { "text": "Silke das Spielen ganz verbieten.", "correct": false }
+        ],
+        "explanation": "In der Nähe der Mutter fühlt sich Silke sicher. So kann sie spielen und ist trotzdem nicht allein. Das nimmt ihr die Angst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😤 Ein Kind wirft sich schreiend auf den Boden. Solltest du auch laut werden?",
+        "options": [
+          { "text": "Nein, ruhig bleiben ist besser.", "correct": true },
+          { "text": "Ja, lauter als das Kind schreien.", "correct": false },
+          { "text": "Ja, das Kind einfach anschreien.", "correct": false }
+        ],
+        "explanation": "Wirst du auch laut, wird alles schlimmer. Bleibst du ruhig, kann sich das Kind an dir orientieren und beruhigt sich."
+      }
+    }
+  ]
+}

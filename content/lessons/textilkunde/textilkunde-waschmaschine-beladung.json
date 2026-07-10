@@ -1,0 +1,123 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-waschmaschine-beladung",
+  "title": "Waschmaschine beladen & berechnen",
+  "sort": 70,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Deine Waschmaschine fasst im Normalprogramm 4.500 g Wäsche. Was bedeutet das?",
+        "options": [
+          { "text": "Du darfst höchstens 4.500 g Wäsche einfüllen.", "correct": true },
+          { "text": "Die Wäsche wird 4.500 Minuten gewaschen." },
+          { "text": "Du brauchst 4.500 g Waschmittel." }
+        ],
+        "explanation": "4.500 g ist die Füllmenge. So viel Wäsche darf höchstens hinein. Ist die Maschine zu voll, wird die Wäsche nicht richtig sauber."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie schwer ist jedes Wäschestück? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Frotteetuch" }, "right": { "text": "180 g" } },
+          { "left": { "text": "Duschtuch" }, "right": { "text": "350 g" } },
+          { "left": { "text": "Bettbezug" }, "right": { "text": "700 g" } },
+          { "left": { "text": "Serviette" }, "right": { "text": "60 g" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ist das Wäschestück leicht oder schwer? Sortiere.",
+        "buckets": [
+          { "id": "leicht", "label": "Leicht (unter 200 g)", "icon": "🪶" },
+          { "id": "schwer", "label": "Schwer (ab 400 g)", "icon": "🪨" }
+        ],
+        "items": [
+          { "text": "Serviette (60 g)", "bucket": "leicht" },
+          { "text": "Unterhose (60 g)", "bucket": "leicht" },
+          { "text": "Frotteetuch (180 g)", "bucket": "leicht" },
+          { "text": "Bettbezug (700 g)", "bucket": "schwer" },
+          { "text": "Jeans (600 g)", "bucket": "schwer" },
+          { "text": "Hose (400 g)", "bucket": "schwer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Ein Frotteetuch wiegt 180 g. Wie viele passen in eine Füllung von 4.500 g? (4.500 : 180)",
+        "options": [
+          { "text": "25 Frotteetücher.", "correct": true },
+          { "text": "18 Frotteetücher." },
+          { "text": "45 Frotteetücher." }
+        ],
+        "explanation": "Du teilst 4.500 durch 180. Das Ergebnis ist 25. Es passen also 25 Frotteetücher in eine Füllung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Ein Duschtuch wiegt 350 g. Wie viele passen ungefähr in eine Füllung von 4.500 g? (4.500 : 350)",
+        "options": [
+          { "text": "Rund 13 Duschtücher.", "correct": true },
+          { "text": "Rund 10 Duschtücher." },
+          { "text": "Rund 20 Duschtücher." }
+        ],
+        "explanation": "Du teilst 4.500 durch 350. Das ergibt rund 13. Es passen also etwa 13 Duschtücher in eine Füllung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👔 Eine Hose wiegt 400 g, ein T-Shirt 200 g. Zusammen sind das 600 g pro Person. Für wie viele Personen reicht eine Füllung von 4.500 g? (4.500 : 600)",
+        "options": [
+          { "text": "Für 7 Personen.", "correct": true },
+          { "text": "Für 5 Personen." },
+          { "text": "Für 9 Personen." }
+        ],
+        "explanation": "600 g braucht eine Person. Du teilst 4.500 durch 600 und erhältst 7,5. Für 7 Personen passt die Kleidung komplett hinein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Ein Bett-Set wiegt: Bettlaken 500 g + Bettbezug 700 g + Kissenbezug 180 g = 1.380 g. Für wie viele Gäste-Betten reicht eine Füllung? (4.500 : 1.380)",
+        "options": [
+          { "text": "Für 3 Betten.", "correct": true },
+          { "text": "Für 5 Betten." },
+          { "text": "Für 1 Bett." }
+        ],
+        "explanation": "Ein Set wiegt 1.380 g. Du teilst 4.500 durch 1.380 und erhältst rund 3,2. Für 3 komplette Betten reicht eine Füllung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Du wäschst 4 Tischdecken (je 400 g) und 24 Servietten (je 60 g). Wie viel wiegt das zusammen?",
+        "options": [
+          { "text": "3.040 g.", "correct": true },
+          { "text": "1.600 g." },
+          { "text": "4.500 g." }
+        ],
+        "explanation": "4 Tischdecken sind 4 mal 400 g = 1.600 g. 24 Servietten sind 24 mal 60 g = 1.440 g. Zusammen sind das 3.040 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Eine Serviette wiegt 60 g. Wie schwer ist ein Geschirrtuch?",
+        "options": [
+          { "text": "100 g.", "correct": true },
+          { "text": "700 g." },
+          { "text": "500 g." }
+        ],
+        "explanation": "Ein Geschirrtuch wiegt 100 g. Es ist etwas schwerer als eine Serviette, aber immer noch leicht."
+      }
+    }
+  ]
+}

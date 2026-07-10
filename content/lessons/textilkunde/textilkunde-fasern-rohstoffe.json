@@ -1,0 +1,123 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-fasern-rohstoffe",
+  "title": "Textile Rohstoffe & Fasern",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧶 Welche Faser wächst in Kapseln an einem Strauch?",
+        "options": [
+          { "text": "Baumwolle.", "correct": true },
+          { "text": "Seide." },
+          { "text": "Wolle." }
+        ],
+        "explanation": "Baumwolle wächst als Kapsel an einem Strauch. Ein wichtiges Anbauland ist zum Beispiel Ägypten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐑 Welches Tier liefert Wolle?",
+        "options": [
+          { "text": "Das Schaf.", "correct": true },
+          { "text": "Die Kuh." },
+          { "text": "Das Huhn." }
+        ],
+        "explanation": "Wolle kommt vom Schaf. Das Schaf wird geschoren und aus der Wolle wird Garn gemacht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐛 Die Seidenraupe spinnt sich in eine Hülle ein. Wie heißt diese Hülle?",
+        "options": [
+          { "text": "Kokon.", "correct": true },
+          { "text": "Kapsel." },
+          { "text": "Strauch." }
+        ],
+        "explanation": "Die Seidenraupe spinnt sich in einen Kokon ein. Aus den feinen Fäden des Kokons gewinnt man die Seide."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Woraus werden synthetische Chemiefasern wie Polyamid gemacht?",
+        "options": [
+          { "text": "Aus Erdöl.", "correct": true },
+          { "text": "Aus Milch." },
+          { "text": "Aus Holz." }
+        ],
+        "explanation": "Synthetische Chemiefasern werden aus Erdöl hergestellt. Polyamid ist so eine Faser. Man nennt sie auch Kunstfaser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Aus welcher Pflanze gewinnt man Leinen?",
+        "options": [
+          { "text": "Aus Flachs.", "correct": true },
+          { "text": "Aus Baumwolle." },
+          { "text": "Aus Hanf." }
+        ],
+        "explanation": "Leinen wird aus der Pflanze Flachs gewonnen. Flachs ist eine alte Nutzpflanze."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Kommt die Faser aus der Natur oder aus der Fabrik? Sortiere.",
+        "buckets": [
+          { "id": "natur", "label": "Naturfaser", "icon": "🌿" },
+          { "id": "chemie", "label": "Chemiefaser", "icon": "🧪" }
+        ],
+        "items": [
+          { "text": "Baumwolle", "bucket": "natur" },
+          { "text": "Wolle", "bucket": "natur" },
+          { "text": "Seide", "bucket": "natur" },
+          { "text": "Leinen", "bucket": "natur" },
+          { "text": "Polyamid", "bucket": "chemie" },
+          { "text": "Viskose", "bucket": "chemie" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Woher kommt die Faser? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Wächst in Kapseln am Strauch" }, "right": { "text": "Baumwolle" } },
+          { "left": { "text": "Kommt vom Schaf" }, "right": { "text": "Wolle" } },
+          { "left": { "text": "Kommt aus dem Kokon der Raupe" }, "right": { "text": "Seide" } },
+          { "left": { "text": "Wird aus Flachs gewonnen" }, "right": { "text": "Leinen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌳 Viskose ist eine Chemiefaser. Woraus wird sie gemacht?",
+        "options": [
+          { "text": "Aus Cellulose, also aus Holz.", "correct": true },
+          { "text": "Aus Erdöl." },
+          { "text": "Aus Wolle." }
+        ],
+        "explanation": "Viskose wird aus Cellulose hergestellt. Cellulose steckt im Holz. Deshalb heißt Viskose auch cellulosische Chemiefaser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔑 Baumwolle, Wolle, Seide und Leinen kommen aus der Natur. Wie nennt man sie zusammen?",
+        "options": [
+          { "text": "Naturfasern.", "correct": true },
+          { "text": "Chemiefasern." },
+          { "text": "Kunstfasern." }
+        ],
+        "explanation": "Diese Fasern stammen von Pflanzen oder Tieren. Deshalb heißen sie Naturfasern. Das ist auch das Lösungswort des Rätsels."
+      }
+    }
+  ]
+}

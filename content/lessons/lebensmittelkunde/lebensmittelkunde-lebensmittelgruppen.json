@@ -1,0 +1,140 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-lebensmittelgruppen",
+  "title": "Die 7 Lebensmittelgruppen",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Man teilt Lebensmittel in 7 Gruppen ein. Warum macht man das?",
+        "options": [
+          { "text": "Lebensmittel in einer Gruppe haben ähnliche Nährstoffe.", "correct": true },
+          { "text": "Weil 7 eine Glückszahl ist." },
+          { "text": "Damit es teurer aussieht." }
+        ],
+        "explanation": "In jeder Gruppe stecken ähnliche Nährstoffe. So kannst du dein Essen leichter bunt und ausgewogen zusammenstellen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Welcher Name gehört zu welcher Gruppen-Nummer? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Gruppe 1" }, "right": { "text": "Getreide & Kartoffeln" } },
+          { "left": { "text": "Gruppe 2" }, "right": { "text": "Gemüse & Hülsenfrüchte" } },
+          { "left": { "text": "Gruppe 3" }, "right": { "text": "Obst" } },
+          { "left": { "text": "Gruppe 4" }, "right": { "text": "Milch & Milchprodukte" } },
+          { "left": { "text": "Gruppe 5" }, "right": { "text": "Fleisch, Fisch & Eier" } },
+          { "left": { "text": "Gruppe 6" }, "right": { "text": "Fette & Öle" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Es gibt auch eine Gruppe 7. Welche ist das?",
+        "options": [
+          { "text": "Die Getränke.", "correct": true },
+          { "text": "Die Süßigkeiten." },
+          { "text": "Die Gewürze." }
+        ],
+        "explanation": "Gruppe 7 sind die Getränke, zum Beispiel Wasser und Saft. Man kann den Ernährungskreis auch mit dieser Gruppe beginnen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Zu welcher Gruppe gehören diese Lebensmittel? Sortiere.",
+        "buckets": [
+          { "id": "getreide", "label": "Getreide & Kartoffeln", "icon": "🥔" },
+          { "id": "gemuese", "label": "Gemüse & Hülsenfrüchte", "icon": "🥕" },
+          { "id": "obst", "label": "Obst", "icon": "🍎" }
+        ],
+        "items": [
+          { "text": "Brot", "bucket": "getreide" },
+          { "text": "Pellkartoffel", "bucket": "getreide" },
+          { "text": "Möhren", "bucket": "gemuese" },
+          { "text": "Linsen", "bucket": "gemuese" },
+          { "text": "Apfel", "bucket": "obst" },
+          { "text": "Apfelsine", "bucket": "obst" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Und wohin gehören diese? Sortiere weiter.",
+        "buckets": [
+          { "id": "milch", "label": "Milch & Milchprodukte", "icon": "🥛" },
+          { "id": "fleisch", "label": "Fleisch, Fisch & Eier", "icon": "🍖" },
+          { "id": "getraenke", "label": "Getränke", "icon": "🥤" }
+        ],
+        "items": [
+          { "text": "Käse", "bucket": "milch" },
+          { "text": "Joghurt", "bucket": "milch" },
+          { "text": "Wurst", "bucket": "fleisch" },
+          { "text": "Spiegelei", "bucket": "fleisch" },
+          { "text": "Mineralwasser", "bucket": "getraenke" },
+          { "text": "Apfelsaft", "bucket": "getraenke" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Zu welcher Gruppe gehört die Butter?",
+        "options": [
+          { "text": "Zu den Fetten & Ölen (Gruppe 6).", "correct": true },
+          { "text": "Zu Milch & Milchprodukten." },
+          { "text": "Zum Obst." }
+        ],
+        "explanation": "Butter besteht fast nur aus Fett. Darum gehört sie zur Gruppe der Fette und Öle, zusammen mit Öl und Margarine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫘 Zu welcher Gruppe gehören Linsen?",
+        "options": [
+          { "text": "Zu Gemüse & Hülsenfrüchten (Gruppe 2).", "correct": true },
+          { "text": "Zum Obst." },
+          { "text": "Zu den Getränken." }
+        ],
+        "explanation": "Linsen sind Hülsenfrüchte, wie auch Erbsen und Bohnen. Sie gehören in die Gruppe mit dem Gemüse."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Letzte Runde: Sortiere diese Lebensmittel.",
+        "buckets": [
+          { "id": "obst", "label": "Obst", "icon": "🍐" },
+          { "id": "gemuese", "label": "Gemüse & Hülsenfrüchte", "icon": "🥬" },
+          { "id": "fette", "label": "Fette & Öle", "icon": "🧈" }
+        ],
+        "items": [
+          { "text": "Birne", "bucket": "obst" },
+          { "text": "Kiwi", "bucket": "obst" },
+          { "text": "Chicorée", "bucket": "gemuese" },
+          { "text": "Erbsen", "bucket": "gemuese" },
+          { "text": "Butter", "bucket": "fette" },
+          { "text": "Speiseöl", "bucket": "fette" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Zu welcher Gruppe gehört ein Apfel?",
+        "options": [
+          { "text": "Zum Obst (Gruppe 3).", "correct": true },
+          { "text": "Zum Gemüse." },
+          { "text": "Zu den Fetten." }
+        ],
+        "explanation": "Ein Apfel ist Obst und gehört in Gruppe 3. Auch Birnen, Kiwis und Apfelsinen sind Obst."
+      }
+    }
+  ]
+}

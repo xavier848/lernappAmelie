@@ -1,0 +1,110 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-waschmittel",
+  "title": "Waschmittel & Inhaltsstoffe",
+  "sort": 80,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Waschmittel besteht aus vielen Stoffen. Jeder hat eine Aufgabe. Welcher Stoff löst den Schmutz aus der Faser?",
+        "options": [
+          { "text": "Die Tenside.", "correct": true },
+          { "text": "Die Duftstoffe." },
+          { "text": "Die Bleichmittel." }
+        ],
+        "explanation": "Tenside verringern die Oberflächenspannung des Wassers. So lösen sie den Schmutz aus der Faser. Sie sind der wichtigste Stoff im Waschmittel."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welcher Stoff hat welche Aufgabe? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Tenside" }, "right": { "text": "Lösen den Schmutz aus der Faser" } },
+          { "left": { "text": "Enzyme" }, "right": { "text": "Entfernen Flecken von Eiweiß und Stärke" } },
+          { "left": { "text": "Gerüststoffe" }, "right": { "text": "Schützen die Maschine vor Kalk" } },
+          { "left": { "text": "Bleichmittel" }, "right": { "text": "Machen weiße Wäsche wieder weiß" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Wie wichtig ist der Stoff zum Waschen? Sortiere.",
+        "buckets": [
+          { "id": "noetig", "label": "Unbedingt nötig", "icon": "✅" },
+          { "id": "fall", "label": "Nur manchmal nötig", "icon": "🟡" },
+          { "id": "unnoetig", "label": "Nicht nötig", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Tenside", "bucket": "noetig" },
+          { "text": "Gerüststoffe", "bucket": "noetig" },
+          { "text": "Bleichmittel", "bucket": "fall" },
+          { "text": "Duftstoffe", "bucket": "unnoetig" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌸 Duftstoffe sorgen für einen guten Geruch. Sind sie zum Waschen nötig?",
+        "options": [
+          { "text": "Nein, sie sind nicht nötig.", "correct": true },
+          { "text": "Ja, ohne sie wird nichts sauber." },
+          { "text": "Ja, sie lösen den Schmutz." }
+        ],
+        "explanation": "Duftstoffe machen nur einen angenehmen Geruch. Sauber wird die Wäsche auch ohne sie. Deshalb sind sie eigentlich nicht nötig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Welcher Stoff entfernt Flecken von Ei und Soße, also von Eiweiß und Stärke?",
+        "options": [
+          { "text": "Die Enzyme.", "correct": true },
+          { "text": "Die Duftstoffe." },
+          { "text": "Der Enthärter." }
+        ],
+        "explanation": "Enzyme entfernen Flecken, die aus Eiweiß oder Stärke bestehen. Zum Beispiel Ei, Soße oder Gras."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Manches Wasser ist sehr kalkhaltig, also hart. Welcher Stoff macht es weich?",
+        "options": [
+          { "text": "Der Enthärter.", "correct": true },
+          { "text": "Das Bleichmittel." },
+          { "text": "Der Duftstoff." }
+        ],
+        "explanation": "Der Enthärter macht hartes, kalkhaltiges Wasser weich. So wirkt das Waschmittel besser und es bildet sich weniger Kalk."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚪ Wofür sind Bleichmittel da?",
+        "options": [
+          { "text": "Sie machen weiße Wäsche wieder strahlend weiß.", "correct": true },
+          { "text": "Sie machen die Wäsche bunt." },
+          { "text": "Sie lösen den Schmutz aus der Faser." }
+        ],
+        "explanation": "Bleichmittel verstärken die Weißkraft bei weißer Wäsche. Bei bunter Wäsche braucht man sie nicht. Deshalb sind sie nur manchmal nötig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Welcher Stoff ist zum Reinigen unbedingt nötig?",
+        "options": [
+          { "text": "Die Tenside.", "correct": true },
+          { "text": "Die Duftstoffe." },
+          { "text": "Keiner davon." }
+        ],
+        "explanation": "Ohne Tenside geht der Schmutz nicht aus der Faser. Deshalb sind Tenside in jedem Waschmittel unbedingt nötig."
+      }
+    }
+  ]
+}

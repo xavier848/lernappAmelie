@@ -1,0 +1,132 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-pflegekennzeichnung",
+  "title": "Pflegekennzeichnung von Textilien",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ In jedem Kleidungsstück ist ein kleines Schild eingenäht. Was steht darauf?",
+        "options": [
+          { "text": "Wie du das Textil pflegen und waschen sollst.", "correct": true },
+          { "text": "Der Preis des Textils." },
+          { "text": "Der Name des Käufers." }
+        ],
+        "explanation": "Das eingenähte Schild ist die Pflegekennzeichnung. Kleine Symbole zeigen dir, wie du waschen, bleichen, bügeln und reinigen darfst."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jedes Material verträgt eine andere Waschtemperatur. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "Baumwolle" }, "right": { "text": "Bis 95 °C" } },
+          { "left": { "text": "Mischgewebe" }, "right": { "text": "30 bis 60 °C" } },
+          { "left": { "text": "Wolle und Angora" }, "right": { "text": "Nur Handwäsche" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Heiß in der Maschine oder vorsichtig mit der Hand? Sortiere die Textilien.",
+        "buckets": [
+          { "id": "heiss", "label": "Bis 95 °C waschbar", "icon": "🌡️" },
+          { "id": "hand", "label": "Nur Handwäsche", "icon": "✋" }
+        ],
+        "items": [
+          { "text": "Unterhemd aus Baumwolle", "bucket": "heiss" },
+          { "text": "Tischdecke aus Leinen", "bucket": "heiss" },
+          { "text": "Strickjacke aus Wolle", "bucket": "hand" },
+          { "text": "Pullover aus Angora", "bucket": "hand" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Ein Unterhemd aus reiner Baumwolle. Bei wie viel Grad darfst du es waschen?",
+        "options": [
+          { "text": "Bis 95 °C.", "correct": true },
+          { "text": "Nur mit der Hand." },
+          { "text": "Gar nicht waschen." }
+        ],
+        "explanation": "Baumwolle ist robust. Sie verträgt heißes Wasser bis 95 °C. So werden auch weiße Unterhemden wieder richtig sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧶 Eine Strickjacke aus Wolle und Angora. Wie wäschst du sie?",
+        "options": [
+          { "text": "Vorsichtig mit der Hand (Handwäsche).", "correct": true },
+          { "text": "Bei 95 °C in der Maschine." },
+          { "text": "Im Geschirrspüler." }
+        ],
+        "explanation": "Wolle und Angora sind empfindlich. Bei zu heißem Wasser laufen sie ein. Deshalb wäschst du sie nur mit der Hand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Auf dem Schild siehst du einen Waschzuber mit der Zahl 30. Was bedeutet das?",
+        "options": [
+          { "text": "Waschen bei höchstens 30 °C.", "correct": true },
+          { "text": "30 Minuten waschen." },
+          { "text": "30 Kleidungsstücke waschen." }
+        ],
+        "explanation": "Der Waschzuber steht fürs Waschen. Die Zahl darin ist die höchste Temperatur. Bei 30 wäschst du also höchstens bei 30 °C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔺 Ein durchgestrichenes Dreieck steht auf dem Schild. Was bedeutet es?",
+        "options": [
+          { "text": "Nicht bleichen.", "correct": true },
+          { "text": "Nicht bügeln." },
+          { "text": "Nicht waschen." }
+        ],
+        "explanation": "Das Dreieck steht fürs Bleichen. Ist es durchgestrichen, darfst du das Textil nicht bleichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Auf dem Schild ist ein Bügeleisen mit einem Punkt. Was bedeutet das?",
+        "options": [
+          { "text": "Bei niedriger Temperatur bügeln.", "correct": true },
+          { "text": "Gar nicht bügeln." },
+          { "text": "Bei höchster Stufe bügeln." }
+        ],
+        "explanation": "Das Bügeleisen steht fürs Bügeln. Ein Punkt heißt niedrige Temperatur. Drei Punkte heißen heiß bügeln."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Aus welchem Material ist das Textil? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Socken" }, "right": { "text": "Baumwolle und Polyamid" } },
+          { "left": { "text": "Tischdecke" }, "right": { "text": "Reinleinen" } },
+          { "left": { "text": "Strickjacke" }, "right": { "text": "Wolle und Angora" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Wolle wäschst du am besten wie?",
+        "options": [
+          { "text": "Vorsichtig mit der Hand.", "correct": true },
+          { "text": "Heiß bei 95 °C." },
+          { "text": "Im Backofen." }
+        ],
+        "explanation": "Wolle ist empfindlich. Handwäsche mit kühlem Wasser schont die Fasern. So bleibt der Pullover in Form."
+      }
+    }
+  ]
+}

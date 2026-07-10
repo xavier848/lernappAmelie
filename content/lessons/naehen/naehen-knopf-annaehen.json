@@ -1,0 +1,104 @@
+{
+  "topic_slug": "naehen",
+  "slug": "naehen-knopf-annaehen",
+  "title": "Knopf annähen",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔘 Ein Knopf ist abgefallen. Wie wählst du den neuen Knopf aus?",
+        "options": [
+          { "text": "Er muss zur Größe des Knopflochs passen.", "correct": true },
+          { "text": "Er sollte so groß wie möglich sein.", "correct": false },
+          { "text": "Die Größe ist egal.", "correct": false }
+        ],
+        "explanation": "Ist der Knopf zu groß, passt er nicht durchs Loch. Ist er zu klein, rutscht er wieder heraus. Er muss zum Knopfloch passen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧵 Warum nimmst du den Nähfaden doppelt?",
+        "options": [
+          { "text": "So hält der Knopf viel besser.", "correct": true },
+          { "text": "So sieht der Faden schöner aus.", "correct": false },
+          { "text": "So sparst du Faden.", "correct": false }
+        ],
+        "explanation": "Ein doppelter Faden ist stärker als ein einfacher. Der Knopf hält länger, auch wenn du oft an ihm ziehst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🪡 So bereitest du alles vor. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Einen Knopf in der passenden Größe auswählen." },
+          { "text": "Eine Nadel wählen, die durch die Löcher passt." },
+          { "text": "Den Faden doppelt nehmen und am Ende verknoten." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧶 Beim Annähen lässt du einen kleinen \"Stiel\" aus Faden zwischen Knopf und Stoff. Wofür ist der gut?",
+        "options": [
+          { "text": "Damit über dem Knopf Platz für den Stoff bleibt und er sich gut schließen lässt.", "correct": true },
+          { "text": "Damit der Knopf schöner glänzt.", "correct": false },
+          { "text": "Damit man weniger Faden braucht.", "correct": false }
+        ],
+        "explanation": "Der Stiel ist ein kleiner Abstand aus Faden. So kann der Stoff der anderen Seite unter den Knopf gleiten. Ohne Stiel würde der Knopf zu fest sitzen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📌 Jetzt nähst du den Knopf fest. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Nadel von vorne durch das obere Loch stechen." },
+          { "text": "Von hinten durch das untere Loch zurückstechen." },
+          { "text": "Den Faden zwischen Knopf und Stoff umwickeln und einen Stiel bilden." },
+          { "text": "Den Faden befestigen und abschneiden." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was gehört zusammen? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧵 Doppelter Faden" }, "right": { "text": "Der Knopf hält stärker" } },
+          { "left": { "text": "🪢 Knoten am Ende" }, "right": { "text": "Der Faden rutscht nicht durch" } },
+          { "left": { "text": "🧶 Stiel aus Faden" }, "right": { "text": "Platz zum Schließen des Knopfs" } },
+          { "left": { "text": "🪡 Passende Nadel" }, "right": { "text": "Passt durch die Löcher" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✂️ Was machst du ganz am Ende, wenn der Knopf fest sitzt?",
+        "options": [
+          { "text": "Den Faden befestigen und dann abschneiden.", "correct": true },
+          { "text": "Den Faden einfach lang hängen lassen.", "correct": false },
+          { "text": "Noch einen zweiten Knopf danebennähen.", "correct": false }
+        ],
+        "explanation": "Erst befestigst du den Faden mit ein paar kleinen Stichen. Dann schneidest du ihn ab. So löst sich die Naht nicht wieder."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧰 Was brauchst du, um einen Knopf anzunähen?",
+        "options": [
+          { "text": "Nadel, Faden und den passenden Knopf.", "correct": true },
+          { "text": "Eine Schere und Klebstoff.", "correct": false },
+          { "text": "Nur ein Bügeleisen.", "correct": false }
+        ],
+        "explanation": "Mit Nadel und Faden nähst du den Knopf fest. Der Knopf muss zum Knopfloch passen. Mehr brauchst du nicht."
+      }
+    }
+  ]
+}

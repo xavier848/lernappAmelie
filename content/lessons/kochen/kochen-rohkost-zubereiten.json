@@ -1,0 +1,122 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-rohkost-zubereiten",
+  "title": "Möhren-Apfel-Rohkost",
+  "sort": 200,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥕 Du machst Möhren-Apfel-Rohkost. Bringe die ersten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🍋 Zitronensaft, Öl und Wasser zu einer Marinade verrühren." },
+          { "text": "💧 Äpfel und Möhren gründlich waschen." },
+          { "text": "🔪 Die Möhren mit dem Küchenmesser putzen." },
+          { "text": "🥔 Die Möhren mit dem Sparschäler schälen und noch einmal waschen." },
+          { "text": "🍏 Die Äpfel mit dem Sparschäler schälen und mit dem Messer putzen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍋 Woraus rührst du die Marinade an?",
+        "options": [
+          { "text": "Aus Zitronensaft, Öl und Wasser.", "correct": true },
+          { "text": "Aus Milch, Mehl und Zucker." },
+          { "text": "Nur aus warmem Wasser." }
+        ],
+        "explanation": "Die Marinade besteht aus Zitronensaft, Öl und Wasser. Der Zitronensaft gibt Geschmack und hält die Äpfel hell."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Welches Gerät brauchst du für welchen Arbeitsschritt?",
+        "pairs": [
+          { "left": { "text": "🥔 Möhren schälen" }, "right": { "text": "Sparschäler" } },
+          { "left": { "text": "🍏 Äpfel raspeln" }, "right": { "text": "Handreibe" } },
+          { "left": { "text": "🔪 Möhren putzen" }, "right": { "text": "Küchenmesser" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍳 Wofür nimmst du welches Gerät? Sortiere die Küchengeräte.",
+        "buckets": [
+          { "id": "putzen", "label": "Zum Putzen", "icon": "🔪" },
+          { "id": "schaelen", "label": "Zum Schälen", "icon": "🥔" },
+          { "id": "raspeln", "label": "Zum Raspeln", "icon": "🧀" }
+        ],
+        "items": [
+          { "text": "Küchenmesser", "bucket": "putzen" },
+          { "text": "Sparschäler", "bucket": "schaelen" },
+          { "text": "Handreibe", "bucket": "raspeln" },
+          { "text": "Küchenmaschine", "bucket": "raspeln" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥗 Jetzt machst du die Rohkost fertig. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🍏 Die Äpfel mit der Handreibe raspeln." },
+          { "text": "🥕 Die Möhren mit der Handreibe reiben." },
+          { "text": "🥣 Äpfel und Möhren mit der Marinade mischen." },
+          { "text": "🧂 Zum Schluss mit Zucker und Salz abschmecken." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Warum wäschst du die Möhren nach dem Schälen noch einmal?",
+        "options": [
+          { "text": "Damit keine kleinen Schmutzreste mehr daran sind.", "correct": true },
+          { "text": "Damit sie süßer schmecken." },
+          { "text": "Damit sie schneller weich werden." }
+        ],
+        "explanation": "Beim Schälen und Putzen bleiben oft kleine Reste zurück. Mit dem zweiten Waschen werden die Möhren richtig sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍏 Warum kommt Zitronensaft an die Rohkost?",
+        "options": [
+          { "text": "Der Saft hält die Äpfel schön hell.", "correct": true },
+          { "text": "Der Saft macht die Möhren weich." },
+          { "text": "Der Saft ersetzt das Salz." }
+        ],
+        "explanation": "Geschälte Äpfel werden an der Luft schnell braun. Der Zitronensaft hält sie hell und frisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧂 Womit schmeckst du die Rohkost am Ende ab?",
+        "options": [
+          { "text": "Mit Zucker und Salz.", "correct": true },
+          { "text": "Nur mit heißem Wasser." },
+          { "text": "Mit Mehl und Backpulver." }
+        ],
+        "explanation": "Ganz zum Schluss schmeckst du ab. Zucker und Salz geben der Rohkost den richtigen Geschmack."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Was bedeutet das Wort Rohkost?",
+        "options": [
+          { "text": "Gemüse und Obst, das man roh isst.", "correct": true },
+          { "text": "Gemüse, das lange gekocht wird." },
+          { "text": "Ein warmes Fleischgericht." }
+        ],
+        "explanation": "Rohkost heißt: Du isst das Gemüse und Obst roh. Es wird nicht gekocht."
+      }
+    }
+  ]
+}

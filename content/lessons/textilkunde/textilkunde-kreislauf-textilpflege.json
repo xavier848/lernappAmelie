@@ -1,0 +1,105 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-kreislauf-textilpflege",
+  "title": "Kreislauf der Textilpflege",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Die Textilpflege ist ein Kreislauf. Womit beginnt er?",
+        "options": [
+          { "text": "Mit dem Sammeln der Schmutzwäsche.", "correct": true },
+          { "text": "Mit dem Bügeln." },
+          { "text": "Mit der Ausgabe der Wäsche." }
+        ],
+        "explanation": "Zuerst wird die schmutzige Wäsche gesammelt. Erst danach folgen Sortieren, Waschen und die weiteren Schritte."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧺 Bringe die ersten Schritte der Textilpflege in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Schmutzwäsche sammeln" },
+          { "text": "Wäsche sortieren und vorbereiten" },
+          { "text": "Wäsche waschen" },
+          { "text": "Wäsche trocknen" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧺 Und weiter: Bringe die nächsten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Mangeln und Bügeln" },
+          { "text": "Ausbessern und kennzeichnen" },
+          { "text": "Wäsche lagern" },
+          { "text": "Wäsche ausgeben" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was passiert in welchem Schritt? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Sammeln" }, "right": { "text": "Schmutzige Wäsche einsammeln" } },
+          { "left": { "text": "Waschen" }, "right": { "text": "Die Wäsche sauber machen" } },
+          { "left": { "text": "Mangeln und Bügeln" }, "right": { "text": "Die Wäsche glatt machen" } },
+          { "left": { "text": "Lagern" }, "right": { "text": "Saubere Wäsche aufbewahren" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍽️ Der Kreislauf am Beispiel Tischwäsche. Bringe die ersten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die benutzte Tischwäsche wird gesammelt." },
+          { "text": "Sie wird nach Waschprogrammen sortiert." },
+          { "text": "Die Tischwäsche wird gewaschen." },
+          { "text": "Danach wird sie getrocknet." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍽️ Und weiter mit der Tischwäsche. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Tischwäsche wird gemangelt." },
+          { "text": "Kaputte Stellen werden ausgebessert." },
+          { "text": "Die Wäsche wird im Lager aufbewahrt." },
+          { "text": "Zum Schluss wird sie wieder ausgegeben." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧷 Was passiert beim Schritt \"Ausbessern\"?",
+        "options": [
+          { "text": "Kaputte Stellen werden repariert.", "correct": true },
+          { "text": "Die Wäsche wird gewaschen." },
+          { "text": "Die Wäsche wird verkauft." }
+        ],
+        "explanation": "Beim Ausbessern werden zum Beispiel Löcher gestopft oder Knöpfe angenäht. So bleibt die Wäsche länger nutzbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was ist der letzte Schritt im Kreislauf?",
+        "options": [
+          { "text": "Die Wäsche wird ausgegeben.", "correct": true },
+          { "text": "Die Wäsche wird gesammelt." },
+          { "text": "Die Wäsche wird gewaschen." }
+        ],
+        "explanation": "Am Ende wird die saubere Wäsche wieder ausgegeben. Dann kann sie neu benutzt werden und der Kreislauf beginnt von vorn."
+      }
+    }
+  ]
+}

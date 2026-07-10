@@ -1,0 +1,110 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-wasser-energie-sparen",
+  "title": "Wasser und Energie sparen",
+  "sort": 200,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Du wäschst Gemüse. Wie sparst du dabei Wasser?",
+        "options": [
+          { "text": "In einer Schüssel mit stehendem Wasser.", "correct": true },
+          { "text": "Unter dem laufenden Wasserhahn." },
+          { "text": "Mit heißem Wasser aus dem Wasserkocher." }
+        ],
+        "explanation": "Ein laufender Hahn verbraucht viel Wasser. In einer Schüssel wird das Gemüse genauso sauber und du sparst Wasser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Du hast heiße Suppe übrig. Wie kommt sie in den Kühlschrank?",
+        "options": [
+          { "text": "Erst abkühlen lassen, dann abgedeckt hineinstellen.", "correct": true },
+          { "text": "Sofort dampfend heiß hineinstellen." },
+          { "text": "Offen und noch warm hineinstellen." }
+        ],
+        "explanation": "Heißes Essen erwärmt den ganzen Kühlschrank, der dann mehr Strom braucht. Abgekühlt und abgedeckt spart das Energie."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Ein Fehler passiert. Wie machst du es richtig? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🚰 Der Hahn läuft beim Gemüsewaschen" }, "right": { "text": "In einer Schüssel mit Wasser waschen" } },
+          { "left": { "text": "🔥 Heiße Suppe kommt sofort in den Kühlschrank" }, "right": { "text": "Erst abkühlen lassen" } },
+          { "left": { "text": "🍳 Kleiner Topf auf großer Platte" }, "right": { "text": "Passende Topfgröße wählen" } },
+          { "left": { "text": "🚽 Speisereste im Abfluss" }, "right": { "text": "In den Abfalleimer geben" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Ein kleiner Topf steht auf einer großen Herdplatte. Was ist das Problem?",
+        "options": [
+          { "text": "Die Wärme geht daneben verloren.", "correct": true },
+          { "text": "Der Topf wird zu voll." },
+          { "text": "Es gibt kein Problem." }
+        ],
+        "explanation": "Bei einem zu kleinen Topf heizt die Platte nutzlos die Luft. Passt der Topf zur Platte, sparst du Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗑️ Wohin gehören Speisereste und Abfälle?",
+        "options": [
+          { "text": "In den Abfalleimer.", "correct": true },
+          { "text": "In den Abfluss der Spüle." },
+          { "text": "In die Toilette." }
+        ],
+        "explanation": "Reste im Abwasser verstopfen die Rohre und verschmutzen das Wasser. Sie gehören in den Abfall."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Du bügelst mit der Bügelmaschine. Wie arbeitest du sparsam?",
+        "options": [
+          { "text": "Die volle Breite der Walze ausnutzen.", "correct": true },
+          { "text": "Nur einen kleinen Streifen benutzen." },
+          { "text": "Die Maschine leer laufen lassen." }
+        ],
+        "explanation": "Nutzt du die ganze Walzenbreite, schaffst du mehr in einem Durchgang. Das spart Zeit und Energie."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💧⚡ Spart das Wasser oder Energie? Sortiere.",
+        "buckets": [
+          { "id": "wasser", "label": "Spart Wasser", "icon": "💧" },
+          { "id": "energie", "label": "Spart Energie", "icon": "⚡" }
+        ],
+        "items": [
+          { "text": "Gemüse in stehendem Wasser waschen", "bucket": "wasser" },
+          { "text": "Den Hahn beim Einseifen zudrehen", "bucket": "wasser" },
+          { "text": "Wasser nicht unnötig laufen lassen", "bucket": "wasser" },
+          { "text": "Die passende Topfgröße wählen", "bucket": "energie" },
+          { "text": "Einen Deckel auf den Topf legen", "bucket": "energie" },
+          { "text": "Warme Speisen erst abkühlen vor dem Kühlen", "bucket": "energie" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Wie viel Reinigungsmittel nimmst du zum Putzen?",
+        "options": [
+          { "text": "Genau die Menge abmessen und sparsam sein.", "correct": true },
+          { "text": "Immer einen großen Schwung." },
+          { "text": "So viel wie möglich." }
+        ],
+        "explanation": "Zu viel Reiniger belastet das Abwasser und kostet Geld. Die richtige, kleine Menge reicht völlig aus."
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-zeitplan-zubereitung",
+  "title": "Zeitplan der Zubereitung",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍲 Du kochst einen Eintopf mit Nachtisch. Bringe den Anfang in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🔪 Das Fleisch in Würfel schneiden." },
+          { "text": "🧅 Die Zwiebeln schneiden." },
+          { "text": "🍳 Das Fleisch mit den Zwiebeln anbraten." },
+          { "text": "⏲️ Alles mit Wasser aufgießen und 50 Minuten garen lassen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Warum brätst du das Fleisch zuerst an?",
+        "options": [
+          { "text": "Weil es am längsten braucht.", "correct": true },
+          { "text": "Weil es am schnellsten fertig ist." },
+          { "text": "Weil es kalt bleiben muss." }
+        ],
+        "explanation": "Das Fleisch hat die längste Garzeit. Darum fängst du damit an, damit am Ende alles zusammen fertig ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏲️ Wie lange muss der Eintopf garen?",
+        "options": [
+          { "text": "Etwa 50 Minuten.", "correct": true },
+          { "text": "Nur 5 Minuten." },
+          { "text": "Etwa 3 Stunden." }
+        ],
+        "explanation": "Der Eintopf gart rund 50 Minuten. In dieser Zeit kannst du gut andere Arbeiten erledigen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⏳ Was machst du gleich am Anfang, was erst in der Wartezeit? Sortiere.",
+        "buckets": [
+          { "id": "anfang", "label": "Am Anfang", "icon": "🔪" },
+          { "id": "wartezeit", "label": "In der Wartezeit", "icon": "⏳" }
+        ],
+        "items": [
+          { "text": "Fleisch schneiden", "bucket": "anfang" },
+          { "text": "Zwiebeln schneiden", "bucket": "anfang" },
+          { "text": "Fleisch anbraten", "bucket": "anfang" },
+          { "text": "Möhren putzen und schneiden", "bucket": "wartezeit" },
+          { "text": "Quarkspeise anrühren", "bucket": "wartezeit" },
+          { "text": "Tisch decken", "bucket": "wartezeit" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "⏳ Der Eintopf gart. Bringe die Schritte für die Wartezeit und den Schluss in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥕 Die Möhren putzen und schneiden." },
+          { "text": "🍮 Die Quarkspeise anrühren." },
+          { "text": "🍽️ Den Tisch decken." },
+          { "text": "🍲 Zum Schluss die Speisen anrichten und servieren." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Was machst du klug, während der Eintopf 50 Minuten gart?",
+        "options": [
+          { "text": "Andere Arbeiten erledigen, zum Beispiel Möhren schneiden und den Tisch decken.", "correct": true },
+          { "text": "Nur danebenstehen und warten." },
+          { "text": "Den Herd ausschalten und Pause machen." }
+        ],
+        "explanation": "Die Wartezeit nutzt du für andere Arbeiten. So sparst du Zeit und alles wird zusammen fertig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍮 Wann rührst du die Quarkspeise (den Nachtisch) an?",
+        "options": [
+          { "text": "In der Wartezeit, während der Eintopf gart.", "correct": true },
+          { "text": "Ganz zuerst, bevor du das Fleisch schneidest." },
+          { "text": "Erst nach dem Essen." }
+        ],
+        "explanation": "Den Nachtisch machst du in der Wartezeit. Der Eintopf gart ja allein im Topf weiter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕒 Wie lange dauert die ganze Zubereitung ungefähr?",
+        "options": [
+          { "text": "Etwa 2 Stunden (rund 130 Minuten).", "correct": true },
+          { "text": "Nur etwa 10 Minuten." },
+          { "text": "Einen ganzen Tag." }
+        ],
+        "explanation": "Vom Schneiden bis zum Anrichten brauchst du ungefähr 2 Stunden, also rund 130 Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Ist es schlau, in der Garzeit einfach nur zu warten?",
+        "options": [
+          { "text": "Nein, in der Wartezeit erledigst du andere Arbeiten.", "correct": true },
+          { "text": "Ja, warten ist am besten." },
+          { "text": "Ja, man darf die Küche nicht verlassen." }
+        ],
+        "explanation": "Nur warten wäre Zeitverschwendung. Ein guter Zeitplan nutzt die Garzeit für andere Aufgaben."
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-geraete-vorbereiten",
+  "title": "Küchengeräte zum Vorbereiten",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Womit schälst du Kartoffeln schnell und dünn?",
+        "options": [
+          { "text": "Mit dem Sparschäler.", "correct": true },
+          { "text": "Mit dem Schneebesen." },
+          { "text": "Mit dem Eierschneider." }
+        ],
+        "explanation": "Der Sparschäler nimmt nur eine dünne Schicht ab. So bleibt viel Kartoffel übrig. Er eignet sich auch gut für Spargel."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wofür brauchst du welches Gerät? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧀 Kastenreibe" }, "right": { "text": "Käse reiben" } },
+          { "left": { "text": "🥤 Pürierstab" }, "right": { "text": "Smoothie mixen" } },
+          { "left": { "text": "🥚 Eierschneider" }, "right": { "text": "gekochtes Ei in Scheiben" } },
+          { "left": { "text": "🎈 Schneebesen" }, "right": { "text": "Eischnee schlagen" } },
+          { "left": { "text": "🍟 Pommes-Schneider" }, "right": { "text": "Pommes frites schneiden" } },
+          { "left": { "text": "🕳️ Sieb" }, "right": { "text": "Nudeln abgießen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Womit machst du Kartoffelbrei schön glatt?",
+        "options": [
+          { "text": "Mit der Kartoffelpresse.", "correct": true },
+          { "text": "Mit dem Sparschäler." },
+          { "text": "Mit der Kastenreibe." }
+        ],
+        "explanation": "Durch die Kartoffelpresse drückst du die gekochten Kartoffeln. Sie werden dabei fein und glatt. So gibt es keine Klümpchen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Wozu benutzt du das Gerät? Sortiere.",
+        "buckets": [
+          { "id": "schaelen", "label": "Schälen & Schneiden", "icon": "🔪" },
+          { "id": "reiben", "label": "Reiben & Pürieren", "icon": "🥣" },
+          { "id": "schlagen", "label": "Schlagen & Mischen", "icon": "🥄" }
+        ],
+        "items": [
+          { "text": "Sparschäler", "bucket": "schaelen" },
+          { "text": "Eierschneider", "bucket": "schaelen" },
+          { "text": "Pommes-Schneider", "bucket": "schaelen" },
+          { "text": "Kastenreibe", "bucket": "reiben" },
+          { "text": "Pürierstab", "bucket": "reiben" },
+          { "text": "Schneebesen", "bucket": "schlagen" },
+          { "text": "Handrührgerät", "bucket": "schlagen" },
+          { "text": "Schüttelbecher", "bucket": "schlagen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Womit schlägst du Sahne mit Strom steif?",
+        "options": [
+          { "text": "Mit dem Handrührgerät.", "correct": true },
+          { "text": "Mit dem Sieb." },
+          { "text": "Mit der Kartoffelpresse." }
+        ],
+        "explanation": "Das Handrührgerät hat schnelle Rührbesen. Damit schlägst du Sahne oder Eischnee steif. Von Hand geht das mit dem Schneebesen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wofür brauchst du welches Gerät? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍶 Küchenmaschine" }, "right": { "text": "Teig kneten" } },
+          { "left": { "text": "🧂 Schüttelbecher" }, "right": { "text": "Stärke mit Wasser mischen" } },
+          { "left": { "text": "🍰 Schneebesen" }, "right": { "text": "Biskuitmasse rühren" } },
+          { "left": { "text": "🥕 Kastenreibe" }, "right": { "text": "Möhren reiben" } },
+          { "left": { "text": "🥦 Pürierstab" }, "right": { "text": "Gemüse pürieren" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Du willst eine Suppe direkt im Topf fein pürieren. Welches Gerät nimmst du?",
+        "options": [
+          { "text": "Den Pürierstab.", "correct": true },
+          { "text": "Den Eierschneider." },
+          { "text": "Den Sparschäler." }
+        ],
+        "explanation": "Der Pürierstab taucht direkt in den Topf. Er zerkleinert die Suppe fein. Auch für Smoothies ist er gut geeignet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Womit reibst du Käse in feine Streifen?",
+        "options": [
+          { "text": "Mit der Reibe.", "correct": true },
+          { "text": "Mit dem Schneebesen." },
+          { "text": "Mit dem Sieb." }
+        ],
+        "explanation": "Die Reibe hat scharfe Löcher. Ziehst du den Käse darüber, entstehen feine Streifen. Das geht auch mit Möhren oder Äpfeln."
+      }
+    }
+  ]
+}

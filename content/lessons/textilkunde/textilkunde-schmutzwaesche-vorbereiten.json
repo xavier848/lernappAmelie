@@ -1,0 +1,121 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-schmutzwaesche-vorbereiten",
+  "title": "Schmutzwäsche vorbereiten",
+  "sort": 60,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Bevor du wäschst, bereitest du die Schmutzwäsche vor. Warum?",
+        "options": [
+          { "text": "Damit die Wäsche sauber wird und nichts kaputt geht.", "correct": true },
+          { "text": "Damit die Maschine schneller läuft." },
+          { "text": "Damit die Wäsche bunter wird." }
+        ],
+        "explanation": "Beim Vorbereiten holst du Dinge aus den Taschen und schließt Reißverschlüsse. So wird die Wäsche besser sauber und die Kleidung bleibt heil."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👖 Ergänze die Regel: Taschen ___ und ausbürsten.",
+        "options": [
+          { "text": "entleeren", "correct": true },
+          { "text": "zunähen" },
+          { "text": "bemalen" }
+        ],
+        "explanation": "Du entleerst die Taschen. So kommen keine Taschentücher, Münzen oder Schmutz in die Waschmaschine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔘 Ergänze die Regel: Knöpfe und Haken ___.",
+        "options": [
+          { "text": "öffnen", "correct": true },
+          { "text": "abschneiden" },
+          { "text": "ankleben" }
+        ],
+        "explanation": "Du öffnest Knöpfe und Haken. Das schont die Knopflöcher beim Waschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤐 Ergänze die Regel: Reißverschlüsse ___.",
+        "options": [
+          { "text": "schließen", "correct": true },
+          { "text": "öffnen" },
+          { "text": "entfernen" }
+        ],
+        "explanation": "Reißverschlüsse schließt du vor dem Waschen. So werden der Reißverschluss und die Waschtrommel geschont."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌈 Ergänze die Regel: Farbige Wäsche nach ___ wenden, also auf links drehen.",
+        "options": [
+          { "text": "links", "correct": true },
+          { "text": "oben" },
+          { "text": "vorne" }
+        ],
+        "explanation": "Farbige Wäsche drehst du auf links. So bleiben die Farben und die Stoffstruktur besser erhalten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Was öffnest du und was schließt du vor dem Waschen? Sortiere.",
+        "buckets": [
+          { "id": "oeffnen", "label": "Vor dem Waschen öffnen", "icon": "🔓" },
+          { "id": "schliessen", "label": "Vor dem Waschen schließen", "icon": "🔒" }
+        ],
+        "items": [
+          { "text": "Knöpfe", "bucket": "oeffnen" },
+          { "text": "Haken", "bucket": "oeffnen" },
+          { "text": "Reißverschluss", "bucket": "schliessen" },
+          { "text": "Beim Bettbezug jeden zweiten Knopf", "bucket": "schliessen" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jede Regel hat einen Grund. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Taschen entleeren" }, "right": { "text": "Kein Papier und keine Münzen in der Wäsche" } },
+          { "left": { "text": "Reißverschlüsse schließen" }, "right": { "text": "Schont Trommel und Reißverschluss" } },
+          { "left": { "text": "Knöpfe öffnen" }, "right": { "text": "Schont die Knopflöcher" } },
+          { "left": { "text": "Farbige Wäsche auf links drehen" }, "right": { "text": "Die Farben bleiben schön" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Was machst du mit stark verschmutzten Stellen vor dem Waschen?",
+        "options": [
+          { "text": "Mit etwas Waschmittel einreiben.", "correct": true },
+          { "text": "Nur mit Wasser übergießen und liegen lassen." },
+          { "text": "Trocken abbürsten und so lassen." }
+        ],
+        "explanation": "Stark verschmutzte Stellen reibst du mit etwas Waschmittel ein. Das verbessert die Waschwirkung an genau dieser Stelle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Warum entleerst du vor dem Waschen die Taschen?",
+        "options": [
+          { "text": "Damit keine Taschentücher und Münzen in die Maschine kommen.", "correct": true },
+          { "text": "Damit die Hose leichter wird." },
+          { "text": "Damit die Farbe besser hält." }
+        ],
+        "explanation": "In den Taschen können Taschentücher, Münzen oder Schmutz stecken. Leere Taschen schützen Wäsche und Maschine."
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-kraeuter",
+  "title": "Küchenkräuter",
+  "sort": 100,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌿 Welches Kraut wird in der Küche am häufigsten benutzt?",
+        "options": [
+          { "text": "Petersilie.", "correct": true },
+          { "text": "Estragon." },
+          { "text": "Liebstöckel." }
+        ],
+        "explanation": "Die Petersilie ist das häufigste Küchenkraut. Sie schmeckt mild und passt zu vielen Gerichten. Man streut sie oft frisch übers Essen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧅 Dieses Kraut hat dünne, röhrenförmige Halme und schmeckt leicht nach Zwiebel. Welches Kraut ist das?",
+        "options": [
+          { "text": "Schnittlauch.", "correct": true },
+          { "text": "Rosmarin." },
+          { "text": "Basilikum." }
+        ],
+        "explanation": "Schnittlauch hat dünne, hohle Halme. Sein Geschmack erinnert an Zwiebel. Klein geschnitten passt er gut aufs Butterbrot."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌱 Manche Kräuter schmecken kräftig und würzig. Andere sind mild und frisch. Sortiere.",
+        "buckets": [
+          { "id": "kraeftig", "label": "Kräftig & würzig", "icon": "🌶️" },
+          { "id": "mild", "label": "Mild & frisch", "icon": "🍃" }
+        ],
+        "items": [
+          { "text": "Rosmarin", "bucket": "kraeftig" },
+          { "text": "Thymian", "bucket": "kraeftig" },
+          { "text": "Majoran", "bucket": "kraeftig" },
+          { "text": "Petersilie", "bucket": "mild" },
+          { "text": "Schnittlauch", "bucket": "mild" },
+          { "text": "Kerbel", "bucket": "mild" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌲 Dieses Kraut hat harte, nadelförmige Blätter und ein starkes Aroma. Es passt gut zu Kartoffeln und Fleisch. Welches Kraut ist das?",
+        "options": [
+          { "text": "Rosmarin.", "correct": true },
+          { "text": "Dill." },
+          { "text": "Petersilie." }
+        ],
+        "explanation": "Rosmarin hat feste Blätter wie kleine Nadeln. Sein Geschmack ist kräftig. Deshalb nimmt man nur wenig davon."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Dieses Kraut hat feine, fedrige Blätter und passt besonders gut zu Fisch und Gurken. Welches Kraut ist das?",
+        "options": [
+          { "text": "Dill.", "correct": true },
+          { "text": "Basilikum." },
+          { "text": "Thymian." }
+        ],
+        "explanation": "Dill hat weiche, fedrige Blätter. Er passt gut zu Fisch, Gurkensalat und eingelegten Gurken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍜 Dieses Kraut schmeckt ähnlich wie Maggi-Würze. Deshalb heißt es auch Maggikraut. Welches Kraut ist das?",
+        "options": [
+          { "text": "Liebstöckel.", "correct": true },
+          { "text": "Kerbel." },
+          { "text": "Schnittlauch." }
+        ],
+        "explanation": "Liebstöckel hat ein sehr kräftiges Aroma. Es erinnert an die bekannte Maggi-Würze. Man nutzt es für Suppen und Eintöpfe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wozu passt das Kraut oder wie erkennst du es? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🌿 Petersilie" }, "right": { "text": "mild, oft zum Garnieren" } },
+          { "left": { "text": "🧅 Schnittlauch" }, "right": { "text": "schmeckt nach Zwiebel" } },
+          { "left": { "text": "🌲 Rosmarin" }, "right": { "text": "harte Nadelblätter" } },
+          { "left": { "text": "🍅 Basilikum" }, "right": { "text": "passt zu Tomaten und Pizza" } },
+          { "left": { "text": "🐟 Dill" }, "right": { "text": "passt zu Fisch" } },
+          { "left": { "text": "🍜 Liebstöckel" }, "right": { "text": "schmeckt wie Maggi" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Du sollst ein Gericht mit einem milden, bekannten Kraut bestreuen. Welches passt fast immer?",
+        "options": [
+          { "text": "Petersilie.", "correct": true },
+          { "text": "Rosmarin." },
+          { "text": "Liebstöckel." }
+        ],
+        "explanation": "Petersilie ist mild und passt zu fast allem. Rosmarin und Liebstöckel schmecken sehr kräftig. Davon braucht man nur wenig."
+      }
+    }
+  ]
+}

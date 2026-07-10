@@ -1,0 +1,133 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-kartoffeln",
+  "title": "Kartoffeln & Kochtypen",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Es gibt verschiedene Kochtypen bei Kartoffeln. Warum ist der Kochtyp wichtig?",
+        "options": [
+          { "text": "Jeder Kochtyp passt zu anderen Gerichten.", "correct": true },
+          { "text": "Der Kochtyp sagt nur, wie schwer die Kartoffel ist." },
+          { "text": "Der Kochtyp ist egal beim Kochen." }
+        ],
+        "explanation": "Festkochende Kartoffeln bleiben in Form. Mehligkochende zerfallen leicht. Darum passt jeder Typ zu anderen Speisen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Welche Sorte hat welchen Kochtyp? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Afra" }, "right": { "text": "Mehligkochend" } },
+          { "left": { "text": "Nicola" }, "right": { "text": "Festkochend" } },
+          { "left": { "text": "Agria" }, "right": { "text": "Vorwiegend festkochend" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Für welches Gericht nimmst du festkochende Kartoffeln?",
+        "options": [
+          { "text": "Für Kartoffelsalat.", "correct": true },
+          { "text": "Für Kartoffelbrei." },
+          { "text": "Für Kroketten." }
+        ],
+        "explanation": "Festkochende Kartoffeln bleiben fest und behalten ihre Form. Darum sind sie ideal für Salat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Für welches Gericht nimmst du mehligkochende Kartoffeln?",
+        "options": [
+          { "text": "Für Kartoffelbrei.", "correct": true },
+          { "text": "Für Kartoffelsalat." },
+          { "text": "Für Bratkartoffeln." }
+        ],
+        "explanation": "Mehligkochende Kartoffeln zerfallen leicht und werden schön weich. Das ist perfekt für Brei oder Püree."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Welcher Kochtyp passt zu welchem Gericht? Sortiere.",
+        "buckets": [
+          { "id": "fest", "label": "Festkochend", "icon": "🥗" },
+          { "id": "mehlig", "label": "Mehligkochend", "icon": "🥣" }
+        ],
+        "items": [
+          { "text": "Kartoffelsalat", "bucket": "fest" },
+          { "text": "Bratkartoffeln", "bucket": "fest" },
+          { "text": "Kartoffelpüree", "bucket": "mehlig" },
+          { "text": "Kroketten", "bucket": "mehlig" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔪 Bringe die Verarbeitung der Kartoffeln in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Kartoffeln erst kurz vor dem Garen schälen." },
+          { "text": "Dünn mit dem Sparschäler schälen." },
+          { "text": "Kurz in kaltem Wasser waschen." },
+          { "text": "Mit wenig Wasser in den Topf geben." },
+          { "text": "Den Deckel gut schließen und garen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Warum schälst du Kartoffeln möglichst dünn?",
+        "options": [
+          { "text": "Direkt unter der Schale sitzen viele Nährstoffe.", "correct": true },
+          { "text": "Dünn schälen geht schneller kaputt." },
+          { "text": "Dick schälen macht sie giftig." }
+        ],
+        "explanation": "Gleich unter der Schale stecken viele Vitamine und Mineralstoffe. Schälst du dünn, bleiben mehr davon erhalten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Warum garst du Kartoffeln mit wenig Wasser und geschlossenem Deckel?",
+        "options": [
+          { "text": "So bleiben mehr Nährstoffe erhalten und es spart Energie.", "correct": true },
+          { "text": "So werden die Kartoffeln bunt." },
+          { "text": "Das ist nur eine alte Gewohnheit." }
+        ],
+        "explanation": "Viel Wasser schwemmt Nährstoffe aus. Wenig Wasser mit Deckel schont die Vitamine und braucht weniger Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Pellkartoffeln werden mit Schale gegart. Warum ist das gut?",
+        "options": [
+          { "text": "Mit Schale bleiben mehr Vitamine und Mineralstoffe drin.", "correct": true },
+          { "text": "Mit Schale schmecken sie nach nichts." },
+          { "text": "Die Schale macht sie giftig." }
+        ],
+        "explanation": "Beim Garen mit Schale gehen weniger Nährstoffe ins Wasser über. Darum sind Pellkartoffeln nährstoffreicher als geschälte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du willst Kartoffelbrei machen. Welchen Kochtyp brauchst du?",
+        "options": [
+          { "text": "Mehligkochende Kartoffeln.", "correct": true },
+          { "text": "Festkochende Kartoffeln." },
+          { "text": "Der Kochtyp ist egal." }
+        ],
+        "explanation": "Für Brei nimmst du mehligkochende Kartoffeln. Sie zerfallen leicht und werden schön cremig."
+      }
+    }
+  ]
+}

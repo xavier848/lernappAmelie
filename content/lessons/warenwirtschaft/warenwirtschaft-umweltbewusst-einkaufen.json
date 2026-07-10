@@ -1,0 +1,127 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-umweltbewusst-einkaufen",
+  "title": "Umweltbewusst einkaufen",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Du kaufst umweltbewusst ein. Worauf achtest du dabei?",
+        "options": [
+          { "text": "Kurzer Transportweg, wenig Verpackung und Mehrweg.", "correct": true },
+          { "text": "Nur auf den niedrigsten Preis." },
+          { "text": "Auf die schönste Verpackung." }
+        ],
+        "explanation": "Gute Fragen sind: Wie weit war der Weg? Wie viel Verpackung ist dabei? Kann ich die Flasche wieder benutzen? So schützt du die Umwelt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Was kaufst du der Umwelt zuliebe? Sortiere.",
+        "buckets": [
+          { "id": "kaufen", "label": "Kaufen", "icon": "👍" },
+          { "id": "nicht", "label": "Lieber nicht kaufen", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Selbst gemachter Joghurt", "bucket": "kaufen" },
+          { "text": "Deutsche Butter", "bucket": "kaufen" },
+          { "text": "Wasser in der Mehrwegflasche", "bucket": "kaufen" },
+          { "text": "Erdbeeren zum Selberpflücken", "bucket": "kaufen" },
+          { "text": "Hähnchen aus den USA", "bucket": "nicht" },
+          { "text": "Gurke in Plastikfolie", "bucket": "nicht" },
+          { "text": "Äpfel aus Südafrika", "bucket": "nicht" },
+          { "text": "Butter aus Irland", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💚 Warum ist der Kauf gut für die Umwelt? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Deutsche Butter" }, "right": { "text": "Kurzer Transportweg" } },
+          { "left": { "text": "Geflügel von Bioland" }, "right": { "text": "Artgerechte Tierhaltung" } },
+          { "left": { "text": "Wasser in der Mehrwegflasche" }, "right": { "text": "Mehrweg statt Einweg" } },
+          { "left": { "text": "Selbst gemachter Joghurt" }, "right": { "text": "Keine Verpackung" } },
+          { "left": { "text": "Birnen vom Bodensee" }, "right": { "text": "Aus der Region" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Äpfel aus Südafrika oder Äpfel aus der Region – was ist besser für die Umwelt?",
+        "options": [
+          { "text": "Äpfel aus der Region, denn der Transportweg ist kurz.", "correct": true },
+          { "text": "Äpfel aus Südafrika, die sind immer frischer." },
+          { "text": "Das ist völlig egal." }
+        ],
+        "explanation": "Äpfel aus Südafrika reisen mit dem Schiff oder Flugzeug sehr weit. Das kostet viel Energie. Regionale Äpfel haben einen kurzen Weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Was ist besser: eine Mehrwegflasche oder eine Einwegflasche?",
+        "options": [
+          { "text": "Die Mehrwegflasche, sie wird viele Male neu befüllt.", "correct": true },
+          { "text": "Die Einwegflasche, die kann man wegwerfen." },
+          { "text": "Beide sind gleich gut." }
+        ],
+        "explanation": "Eine Mehrwegflasche wird gereinigt und wieder befüllt. Das spart Müll. Eine Einwegflasche nutzt man nur einmal."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🚫 Warum kaufst du das lieber nicht? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Hähnchen aus den USA" }, "right": { "text": "Langer Transportweg" } },
+          { "left": { "text": "Gurke in Folie" }, "right": { "text": "Zu viel Plastik" } },
+          { "left": { "text": "Joghurt mit Pappbanderole" }, "right": { "text": "Unnötige Verpackung" } },
+          { "left": { "text": "Einwegflasche" }, "right": { "text": "Wird nur einmal genutzt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥒 Eine Gurke steckt in einer Plastikfolie. Was spricht dagegen?",
+        "options": [
+          { "text": "Die Folie ist unnötiger Verpackungsmüll.", "correct": true },
+          { "text": "Die Folie macht die Gurke gesünder." },
+          { "text": "Nichts, das ist super." }
+        ],
+        "explanation": "Eine Gurke hat eine feste Schale. Sie braucht keine Folie. Die Folie wird gleich zu Müll."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐔 Was bedeutet artgerechte Tierhaltung, zum Beispiel bei Bioland-Geflügel?",
+        "options": [
+          { "text": "Die Tiere haben mehr Platz und Auslauf.", "correct": true },
+          { "text": "Die Tiere leben eng zusammengedrängt." },
+          { "text": "Die Tiere bekommen nie Futter." }
+        ],
+        "explanation": "Artgerecht heißt: Die Tiere leben so, wie es für sie gut ist. Sie haben Platz und Auslauf. Bioland achtet darauf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Wahl ist am besten für die Umwelt?",
+        "options": [
+          { "text": "Regional, wenig Verpackung und Mehrweg.", "correct": true },
+          { "text": "Weit gereist und in viel Plastik." },
+          { "text": "Einwegflasche mit langem Transportweg." }
+        ],
+        "explanation": "Aus der Region, wenig Verpackung und Mehrweg – das ist die umweltfreundlichste Wahl. Genau darauf kannst du beim Einkauf achten."
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-arbeitshaltung",
+  "title": "Gesunde Arbeitshaltung",
+  "sort": 220,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧍🪑 Machst du das im Stehen oder im Sitzen? Sortiere.",
+        "buckets": [
+          { "id": "stehen", "label": "Im Stehen", "icon": "🧍" },
+          { "id": "sitzen", "label": "Im Sitzen", "icon": "🪑" }
+        ],
+        "items": [
+          { "text": "Kuchenteig ausrollen", "bucket": "stehen" },
+          { "text": "Große Wäschestücke bügeln", "bucket": "stehen" },
+          { "text": "Schweren Teig kneten", "bucket": "stehen" },
+          { "text": "Kartoffeln schälen", "bucket": "sitzen" },
+          { "text": "Bohnen putzen", "bucket": "sitzen" },
+          { "text": "Petersilie klein schneiden", "bucket": "sitzen" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Welcher Tipp passt zu welchem Gerät? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🧹 Staubsaugerrohr" }, "right": { "text": "Auf die richtige Länge einstellen" } },
+          { "left": { "text": "🧹 Besenstiel" }, "right": { "text": "Sollte bis zum Kinn reichen" } },
+          { "left": { "text": "🧽 Schrubber" }, "right": { "text": "Statt auf den Knien zu wischen" } },
+          { "left": { "text": "🍽️ Abwaschen als Rechtshänder" }, "right": { "text": "Von rechts nach links arbeiten" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Das Rohr des Staubsaugers ist zu kurz eingestellt. Was tust du?",
+        "options": [
+          { "text": "Das Rohr auf meine Länge einstellen.", "correct": true },
+          { "text": "Gebückt weitersaugen." },
+          { "text": "Auf den Knien saugen." }
+        ],
+        "explanation": "Mit dem richtig eingestellten Rohr arbeitest du aufrecht. So bleibt der Rücken gerade und tut nicht weh."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Du wischst einen großen Boden auf. Was ist besser für den Rücken?",
+        "options": [
+          { "text": "Einen Schrubber benutzen.", "correct": true },
+          { "text": "Auf den Knien mit dem Lappen wischen." },
+          { "text": "Tief gebückt wischen." }
+        ],
+        "explanation": "Mit dem Schrubber stehst du aufrecht. Auf den Knien und gebückt wird der Rücken stark belastet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Wie lang sollte ein Besenstiel sein?",
+        "options": [
+          { "text": "Etwa bis zum Kinn.", "correct": true },
+          { "text": "Nur bis zur Hüfte." },
+          { "text": "So kurz wie möglich." }
+        ],
+        "explanation": "Ein zu kurzer Stiel zwingt dich in eine gebückte Haltung. Reicht er bis zum Kinn, kannst du aufrecht kehren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Du bist Rechtshänder und wäschst ab. In welche Richtung arbeitest du?",
+        "options": [
+          { "text": "Von rechts nach links.", "correct": true },
+          { "text": "Von links nach rechts." },
+          { "text": "Wild durcheinander." }
+        ],
+        "explanation": "Von rechts nach links kreuzen sich deine Hände nicht. So arbeitest du ruhig und ohne Verrenkung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Du schälst einen Sack Kartoffeln. Wie machst du es rückenschonend?",
+        "options": [
+          { "text": "Im Sitzen, denn es braucht wenig Kraft.", "correct": true },
+          { "text": "Immer im Stehen." },
+          { "text": "In der Hocke am Boden." }
+        ],
+        "explanation": "Arbeiten mit wenig Kraft und wenig Platz macht man im Sitzen. Das schont die Beine und den Rücken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Wie arbeitest du am besten für deinen Rücken?",
+        "options": [
+          { "text": "Möglichst aufrecht und nicht gebückt.", "correct": true },
+          { "text": "Immer tief gebückt." },
+          { "text": "Mit rundem Rücken." }
+        ],
+        "explanation": "Eine aufrechte Haltung schützt deinen Rücken den ganzen Tag. Gebücktes Arbeiten macht auf Dauer krank."
+      }
+    }
+  ]
+}
