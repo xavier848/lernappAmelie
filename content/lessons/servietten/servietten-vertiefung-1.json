@@ -9,9 +9,16 @@
       "data": {
         "prompt": "Du deckst den Tisch. 🍴 Wohin legst du die Gabel?",
         "options": [
-          { "text": "Links neben den Teller.", "correct": true },
-          { "text": "Rechts neben den Teller." },
-          { "text": "Auf den Teller." }
+          {
+            "text": "Links neben den Teller.",
+            "correct": true
+          },
+          {
+            "text": "Rechts neben den Teller."
+          },
+          {
+            "text": "Auf den Teller."
+          }
         ],
         "explanation": "Richtig! Die Gabel liegt links. Die meisten Menschen halten die Gabel mit der linken Hand. 🍴"
       }
@@ -21,9 +28,16 @@
       "data": {
         "prompt": "Wohin legst du das Messer? 🔪",
         "options": [
-          { "text": "Rechts neben den Teller. Die Schneide zeigt zum Teller.", "correct": true },
-          { "text": "Links neben den Teller. Die Schneide zeigt nach außen." },
-          { "text": "Unter den Teller." }
+          {
+            "text": "Rechts neben den Teller. Die Schneide zeigt zum Teller.",
+            "correct": true
+          },
+          {
+            "text": "Links neben den Teller. Die Schneide zeigt nach außen."
+          },
+          {
+            "text": "Unter den Teller."
+          }
         ],
         "explanation": "Genau! Das Messer liegt rechts. Die Schneide zeigt zum Teller. Das ist die Regel beim Eindecken. 🔪"
       }
@@ -33,10 +47,38 @@
       "data": {
         "prompt": "Jedes Teil hat seinen festen Platz. Was gehört zusammen?",
         "pairs": [
-          { "left": { "text": "🍴 Gabel" }, "right": { "text": "Links vom Teller" } },
-          { "left": { "text": "🔪 Messer" }, "right": { "text": "Rechts vom Teller" } },
-          { "left": { "text": "🥄 Suppenlöffel" }, "right": { "text": "Ganz rechts außen" } },
-          { "left": { "text": "🍮 Dessertlöffel" }, "right": { "text": "Oben über dem Teller" } }
+          {
+            "left": {
+              "text": "🍴 Gabel"
+            },
+            "right": {
+              "text": "Links vom Teller"
+            }
+          },
+          {
+            "left": {
+              "text": "🔪 Messer"
+            },
+            "right": {
+              "text": "Rechts vom Teller"
+            }
+          },
+          {
+            "left": {
+              "text": "🥄 Suppenlöffel"
+            },
+            "right": {
+              "text": "Ganz rechts außen"
+            }
+          },
+          {
+            "left": {
+              "text": "🍮 Dessertlöffel"
+            },
+            "right": {
+              "text": "Oben über dem Teller"
+            }
+          }
         ],
         "memory": false
       }
@@ -46,9 +88,16 @@
       "data": {
         "prompt": "Wohin stellst du das Glas? 🥛",
         "options": [
-          { "text": "Oben rechts, über dem Messer.", "correct": true },
-          { "text": "Links neben die Gabel." },
-          { "text": "Mitten auf den Teller." }
+          {
+            "text": "Oben rechts, über dem Messer.",
+            "correct": true
+          },
+          {
+            "text": "Links neben die Gabel."
+          },
+          {
+            "text": "Mitten auf den Teller."
+          }
         ],
         "explanation": "Richtig! Das Glas steht oben rechts über dem Messer. So erreicht man es gut mit der rechten Hand. 🥛"
       }
@@ -58,12 +107,24 @@
       "data": {
         "prompt": "So deckst du einen Platz ein. 🍽️ Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Die Tischdecke glatt auflegen." },
-          { "text": "🍽️ Den Teller an den Platz stellen." },
-          { "text": "🍴 Die Gabel links vom Teller legen." },
-          { "text": "🔪 Das Messer rechts legen. Die Schneide zeigt zum Teller." },
-          { "text": "🥛 Das Glas oben rechts hinstellen." },
-          { "text": "✨ Die Serviette schön dazulegen." }
+          {
+            "text": "Die Tischdecke glatt auflegen."
+          },
+          {
+            "text": "🍽️ Den Teller an den Platz stellen."
+          },
+          {
+            "text": "🍴 Die Gabel links vom Teller legen."
+          },
+          {
+            "text": "🔪 Das Messer rechts legen. Die Schneide zeigt zum Teller."
+          },
+          {
+            "text": "🥛 Das Glas oben rechts hinstellen."
+          },
+          {
+            "text": "✨ Die Serviette schön dazulegen."
+          }
         ]
       }
     },
@@ -72,16 +133,43 @@
       "data": {
         "prompt": "Links, rechts oder oben? Sortiere alles an seinen Platz.",
         "buckets": [
-          { "id": "links", "label": "Links vom Teller", "icon": "👈" },
-          { "id": "rechts", "label": "Rechts vom Teller", "icon": "👉" },
-          { "id": "oben", "label": "Über dem Teller", "icon": "👆" }
+          {
+            "id": "links",
+            "label": "Links vom Teller",
+            "icon": "👈"
+          },
+          {
+            "id": "rechts",
+            "label": "Rechts vom Teller",
+            "icon": "👉"
+          },
+          {
+            "id": "oben",
+            "label": "Über dem Teller",
+            "icon": "👆"
+          }
         ],
         "items": [
-          { "text": "🍴 Gabel", "bucket": "links" },
-          { "text": "🔪 Messer", "bucket": "rechts" },
-          { "text": "🥄 Suppenlöffel", "bucket": "rechts" },
-          { "text": "🥛 Glas", "bucket": "oben" },
-          { "text": "🍮 Dessertlöffel", "bucket": "oben" }
+          {
+            "text": "🍴 Gabel",
+            "bucket": "links"
+          },
+          {
+            "text": "🔪 Messer",
+            "bucket": "rechts"
+          },
+          {
+            "text": "🥄 Suppenlöffel",
+            "bucket": "rechts"
+          },
+          {
+            "text": "🥛 Glas",
+            "bucket": "oben"
+          },
+          {
+            "text": "🍮 Dessertlöffel",
+            "bucket": "oben"
+          }
         ]
       }
     },
@@ -90,9 +178,16 @@
       "data": {
         "prompt": "Am Platz liegt viel Besteck. 🍴🥄 Welches Teil benutzt man zuerst?",
         "options": [
-          { "text": "Das Teil ganz außen.", "correct": true },
-          { "text": "Das Teil ganz innen am Teller." },
-          { "text": "Das ist egal." }
+          {
+            "text": "Das Teil ganz außen.",
+            "correct": true
+          },
+          {
+            "text": "Das Teil ganz innen am Teller."
+          },
+          {
+            "text": "Das ist egal."
+          }
         ],
         "explanation": "Richtig! Besteck benutzt man von außen nach innen. Der Suppenlöffel liegt ganz außen, denn die Suppe kommt zuerst. 🥄"
       }
@@ -102,9 +197,16 @@
       "data": {
         "prompt": "Wohin kommt die gefaltete Serviette beim Eindecken? ✨",
         "options": [
-          { "text": "Auf den Teller oder links neben die Gabel.", "correct": true },
-          { "text": "In das Glas mit Wasser." },
-          { "text": "Unter den Stuhl." }
+          {
+            "text": "Auf den Teller oder links neben die Gabel.",
+            "correct": true
+          },
+          {
+            "text": "In das Glas mit Wasser."
+          },
+          {
+            "text": "Unter den Stuhl."
+          }
         ],
         "explanation": "Genau! Die Serviette liegt auf dem Teller oder links neben der Gabel. Beides ist richtig und sieht schön aus. ✨"
       }
@@ -112,13 +214,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Letzte Frage, ganz leicht! 😊 Womit isst man Suppe?",
+        "prompt": "🧐 Der Tisch ist gedeckt. Beim letzten Blick siehst du: Auf einem Messer ist ein Fleck. Was machst du?",
         "options": [
-          { "text": "Mit dem Löffel. 🥄", "correct": true },
-          { "text": "Mit dem Messer." },
-          { "text": "Mit den Fingern." }
+          {
+            "text": "Ich hole ein sauberes Messer und lege es an denselben Platz.",
+            "correct": true
+          },
+          {
+            "text": "Ich wische das Messer schnell an meiner Hose ab."
+          },
+          {
+            "text": "Ich lasse es liegen. Das merkt sicher niemand."
+          }
         ],
-        "explanation": "Super! Suppe isst man mit dem Löffel. Deshalb liegt der Suppenlöffel gleich griffbereit rechts außen. 🥄"
+        "explanation": "Genau! Nur sauberes Besteck kommt auf den Tisch. Der letzte Prüf-Blick vor dem Essen gehört immer dazu – so wirkt dein gedeckter Tisch richtig gepflegt. ✨"
       }
     }
   ]
