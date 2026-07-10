@@ -1,0 +1,131 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-allergene",
+  "title": "Allergene und Zusatzstoffe",
+  "sort": 240,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥜 Auf Verpackungen stehen Allergene. Was ist ein Allergen?",
+        "options": [
+          { "text": "Ein Stoff im Essen, der bei manchen Menschen eine Allergie auslöst.", "correct": true },
+          { "text": "Ein Stoff, der das Essen länger haltbar macht." },
+          { "text": "Eine Zahl, die den Preis angibt." }
+        ],
+        "explanation": "Ein Allergen macht manche Menschen krank, auch in kleinen Mengen. Darum muss es auf der Verpackung stehen. 14 Allergene müssen immer genannt werden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 14 Allergene müssen gekennzeichnet werden. Andere Zutaten nicht. Sortiere.",
+        "buckets": [
+          { "id": "allergen", "label": "Muss als Allergen drauf", "icon": "⚠️" },
+          { "id": "kein", "label": "Kein Pflicht-Allergen", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "Milch", "bucket": "allergen" },
+          { "text": "Ei", "bucket": "allergen" },
+          { "text": "Erdnuss", "bucket": "allergen" },
+          { "text": "Fisch", "bucket": "allergen" },
+          { "text": "Apfel", "bucket": "kein" },
+          { "text": "Reis", "bucket": "kein" },
+          { "text": "Kartoffel", "bucket": "kein" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Manche Allergene klingen fremd. Ordne die Gruppe dem Beispiel zu.",
+        "pairs": [
+          { "left": { "text": "Glutenhaltiges Getreide" }, "right": { "text": "🌾 Weizen & Roggen" } },
+          { "left": { "text": "Schalenfrüchte" }, "right": { "text": "🌰 Haselnuss & Mandel" } },
+          { "left": { "text": "Krebstiere" }, "right": { "text": "🦐 Garnele" } },
+          { "left": { "text": "Weichtiere" }, "right": { "text": "🐌 Muschel" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Wo findest du die Allergene auf einer Packung?",
+        "options": [
+          { "text": "In der Zutatenliste. Sie sind extra hervorgehoben, zum Beispiel fett gedruckt.", "correct": true },
+          { "text": "Nur ganz versteckt auf der Rückseite ohne Kennzeichen." },
+          { "text": "Gar nicht, das darf die Firma selbst entscheiden." }
+        ],
+        "explanation": "Allergene stehen in der Zutatenliste und werden hervorgehoben, damit man sie schnell findet. So kann jeder mit Allergie sicher einkaufen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧪 Zusatzstoffe haben verschiedene Aufgaben. Ordne die Klasse ihrer Aufgabe zu.",
+        "pairs": [
+          { "left": { "text": "Konservierungsstoff" }, "right": { "text": "macht länger haltbar" } },
+          { "left": { "text": "Farbstoff" }, "right": { "text": "gibt Farbe" } },
+          { "left": { "text": "Geschmacksverstärker" }, "right": { "text": "macht den Geschmack stärker" } },
+          { "left": { "text": "Süßungsmittel" }, "right": { "text": "macht süß ohne Zucker" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ist das ein Zusatzstoff oder ein Allergen? Sortiere die Begriffe.",
+        "buckets": [
+          { "id": "zusatz", "label": "Zusatzstoff-Klasse", "icon": "🧪" },
+          { "id": "allergen", "label": "Allergen", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Farbstoff", "bucket": "zusatz" },
+          { "text": "Konservierungsstoff", "bucket": "zusatz" },
+          { "text": "Geschmacksverstärker", "bucket": "zusatz" },
+          { "text": "Erdnuss", "bucket": "allergen" },
+          { "text": "Sellerie", "bucket": "allergen" },
+          { "text": "Senf", "bucket": "allergen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 In der Zutatenliste steht \"E 160\". Was bedeutet das?",
+        "options": [
+          { "text": "Das ist ein Zusatzstoff mit seiner E-Nummer.", "correct": true },
+          { "text": "Das ist der Preis in Cent." },
+          { "text": "Das ist die Menge in Gramm." }
+        ],
+        "explanation": "Zusatzstoffe darf man mit einer E-Nummer oder dem Klassennamen kennzeichnen. \"E 160\" ist zum Beispiel ein Farbstoff. Der Klassenname sagt dir, was der Stoff macht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🇪🇺 Seit 2011 gelten in der ganzen EU die gleichen Regeln beim Kennzeichnen. Was bringt das dir?",
+        "options": [
+          { "text": "In jedem EU-Land steht klar drauf, was drin ist, auch Zusatzstoffe und Allergene.", "correct": true },
+          { "text": "Das Essen wird dadurch billiger." },
+          { "text": "Die Firmen dürfen die Zutaten geheim halten." }
+        ],
+        "explanation": "Die Regel heißt Lebensmittelinformationsverordnung, kurz LMIV. Seit 2011 wird in der ganzen EU gleich gekennzeichnet. So weißt du überall, was im Essen steckt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Ein Gast ist allergisch gegen Nüsse. Wo schaust du nach, ob Nüsse im Gericht sind?",
+        "options": [
+          { "text": "In der Zutatenliste. Dort müssen die Allergene stehen.", "correct": true },
+          { "text": "Ich rate einfach und hoffe, dass es passt." },
+          { "text": "Auf dem Preisschild." }
+        ],
+        "explanation": "Bei Allergien hilft die Zutatenliste. Dort sind die Allergene genannt und hervorgehoben. So kannst du den Gast sicher beraten."
+      }
+    }
+  ]
+}

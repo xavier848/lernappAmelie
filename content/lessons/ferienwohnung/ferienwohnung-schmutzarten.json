@@ -1,0 +1,142 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-schmutzarten",
+  "title": "Schmutz, Reinigen und Pflegen",
+  "sort": 201,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Reinigen und Pflegen sind nicht dasselbe. Was macht das Reinigen?",
+        "options": [
+          { "text": "Es holt den Schmutz von einer Fläche weg.", "correct": true },
+          { "text": "Es legt eine Schutz-Schicht auf die Fläche." },
+          { "text": "Es tötet alle Keime ab." }
+        ],
+        "explanation": "Beim Reinigen entfernst du den Schmutz. Das Pflegen kommt erst danach. Es schützt die Fläche und lässt sie glänzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Ein Fachmann sagt über Schmutz: Er ist ...",
+        "options": [
+          { "text": "Materie am falschen Ort. Materie heißt: Stoff oder Material.", "correct": true },
+          { "text": "immer gefährlich für die Gesundheit." },
+          { "text": "nur auf dem Boden zu finden." }
+        ],
+        "explanation": "Schmutz ist Stoff am falschen Ort. Erde im Garten ist normal. Dieselbe Erde auf dem Teppich ist Schmutz. Ob etwas Schmutz ist, hängt also vom Ort ab."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔎 Drei Wörter, drei Aufgaben. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🧹 Reinigen" }, "right": { "text": "Schmutz entfernen" } },
+          { "left": { "text": "✨ Pflegen" }, "right": { "text": "Die Fläche schützen und glänzend halten" } },
+          { "left": { "text": "🦠 Desinfizieren" }, "right": { "text": "Keime abtöten" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧴 Gehört die Arbeit zum Reinigen, Pflegen oder Desinfizieren? Sortiere.",
+        "buckets": [
+          { "id": "reinigen", "label": "Reinigen", "icon": "🧹" },
+          { "id": "pflegen", "label": "Pflegen", "icon": "✨" },
+          { "id": "desinfizieren", "label": "Desinfizieren", "icon": "🦠" }
+        ],
+        "items": [
+          { "text": "Krümel vom Tisch wischen", "bucket": "reinigen" },
+          { "text": "Sand vom Boden kehren", "bucket": "reinigen" },
+          { "text": "Wachs auf ein Holz-Möbel auftragen", "bucket": "pflegen" },
+          { "text": "Politur für mehr Glanz auftragen", "bucket": "pflegen" },
+          { "text": "Im Krankenzimmer Keime abtöten", "bucket": "desinfizieren" },
+          { "text": "Eine Arbeitsfläche keimfrei machen", "bucket": "desinfizieren" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Wann ist das Desinfizieren besonders wichtig?",
+        "options": [
+          { "text": "In großen Haushalten und bei kranken Menschen.", "correct": true },
+          { "text": "Nur, wenn Besuch kommt." },
+          { "text": "Nur im eigenen Schlafzimmer." }
+        ],
+        "explanation": "Desinfizieren tötet winzige Keime ab. Das ist wichtig, wo viele Menschen sind oder wo kranke Menschen leben. Dort verbreiten sich Keime schnell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Du willst ein Holz-Möbel pflegen. Was machst du zuerst?",
+        "options": [
+          { "text": "Erst reinigen, dann die Pflege auftragen.", "correct": true },
+          { "text": "Erst die Pflege auftragen, dann reinigen." },
+          { "text": "Beides gleichzeitig machen." }
+        ],
+        "explanation": "Pflege gehört immer auf eine saubere Fläche. Sonst schließt du den Schmutz unter der Pflege-Schicht ein. Also: erst reinigen, dann pflegen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍂 Es gibt groben und feinen Schmutz. Sortiere die Beispiele.",
+        "buckets": [
+          { "id": "grob", "label": "Grober Schmutz", "icon": "🪨" },
+          { "id": "fein", "label": "Feiner Schmutz", "icon": "💨" }
+        ],
+        "items": [
+          { "text": "Laub", "bucket": "grob" },
+          { "text": "Sand", "bucket": "grob" },
+          { "text": "Verpackungs-Müll", "bucket": "grob" },
+          { "text": "Staub", "bucket": "fein" },
+          { "text": "Flusen und Wollmäuse", "bucket": "fein" },
+          { "text": "Blütenstaub", "bucket": "fein" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Welches Beispiel passt zu welcher Schmutz-Art?",
+        "pairs": [
+          { "left": { "text": "🪨 Grober Schmutz" }, "right": { "text": "Laub und Zigaretten-Kippen" } },
+          { "left": { "text": "💨 Feiner Schmutz" }, "right": { "text": "Staub und Flusen" } },
+          { "left": { "text": "🪥 Mineralischer Schmutz" }, "right": { "text": "Kalk und Ruß" } },
+          { "left": { "text": "🍬 Fest haftender Schmutz" }, "right": { "text": "Ein festgetretener Kaugummi" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟤 Auf dem Teppich ist Schlamm. Was ist hier richtig?",
+        "options": [
+          { "text": "Den Schlamm erst antrocknen lassen, dann abheben.", "correct": true },
+          { "text": "Sofort kräftig reiben, bis er weg ist." },
+          { "text": "Viel Wasser darauf gießen." }
+        ],
+        "explanation": "Bei Schlamm oder Wachs auf Textilien gilt eine Ausnahme. Reibst du sofort, drückst du alles tief in die Fasern. Lass es erst trocknen. Dann kannst du es leicht abheben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz leicht: Warum lohnt sich Reinigen?",
+        "options": [
+          { "text": "Es hält Dinge sauber und schützt ihren Wert.", "correct": true },
+          { "text": "Es macht die Dinge schneller kaputt." },
+          { "text": "Es kostet immer sehr viel Geld." }
+        ],
+        "explanation": "Regelmäßiges Reinigen erhält den Wert und die Funktion von Dingen. So halten sie länger. Das spart am Ende sogar Geld."
+      }
+    }
+  ]
+}

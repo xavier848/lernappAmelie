@@ -1,0 +1,129 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-eiweiss-vertieft",
+  "title": "Eiweiß ganz genau",
+  "sort": 280,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧩 Die 9 essenziellen Aminosäuren musst du essen. Sie haben eigene Namen. Welcher Name gehört dazu?",
+        "options": [
+          { "text": "Lysin", "correct": true },
+          { "text": "Glykose" },
+          { "text": "Glycerin" }
+        ],
+        "explanation": "Lysin ist eine der 9 essenziellen Aminosäuren. Weitere sind zum Beispiel Leucin, Methionin, Valin und Tryptophan. Essenziell heißt: Dein Körper kann sie nicht selbst bauen. Du musst sie essen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⭐ Manche Aminosäuren musst du essen (essenziell). Andere baut der Körper selbst. Sortiere die Namen.",
+        "buckets": [
+          { "id": "essenziell", "label": "Muss ich essen", "icon": "⭐" },
+          { "id": "selbst", "label": "Baut der Körper selbst", "icon": "🔧" }
+        ],
+        "items": [
+          { "text": "Leucin", "bucket": "essenziell" },
+          { "text": "Methionin", "bucket": "essenziell" },
+          { "text": "Tryptophan", "bucket": "essenziell" },
+          { "text": "Threonin", "bucket": "essenziell" },
+          { "text": "Alanin", "bucket": "selbst" },
+          { "text": "Serin", "bucket": "selbst" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Manche Eiweiße haben noch einen fremden Baustein dabei, der kein Eiweiß ist. Was kann das sein?",
+        "options": [
+          { "text": "Ein Farbstoff oder ein Mineralstoff", "correct": true },
+          { "text": "Nur Wasser" },
+          { "text": "Gar nichts, Eiweiß ist immer allein" }
+        ],
+        "explanation": "Ein Eiweiß kann einen eiweißfremden Baustein enthalten. Das kann ein Farbstoff, ein Mineralstoff, ein Fett oder ein Kohlenhydrat sein. Man nennt das eine zusammengesetzte Eiweißverbindung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Du brätst ein Ei. Das Eiweiß gerinnt. Welche Aufbau-Stufe bleibt dabei erhalten?",
+        "options": [
+          { "text": "Die Primärstruktur (die Reihenfolge der Aminosäuren)", "correct": true },
+          { "text": "Die Sekundärstruktur (die Schraube)" },
+          { "text": "Keine, alles löst sich auf" }
+        ],
+        "explanation": "Beim Gerinnen lösen sich die Sekundärstruktur und die höhere Struktur auf. Nur die Primärstruktur bleibt, also die Reihenfolge der Aminosäuren. Das Fachwort dafür ist Denaturierung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍳 Was passiert beim Braten eines Eies? Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das rohe Eiweiß ist noch flüssig und durchsichtig." },
+          { "text": "Die Hitze der Pfanne kommt dazu." },
+          { "text": "Die höhere Struktur und die Schraube lösen sich auf." },
+          { "text": "Nur die Reihenfolge der Aminosäuren bleibt übrig." },
+          { "text": "Das Eiweiß wird weiß und fest." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Ein gebratenes Ei wird nie wieder flüssig. Kann man das Gerinnen also rückgängig machen?",
+        "options": [
+          { "text": "Meistens nicht. Bei Gelatine geht es aber doch.", "correct": true },
+          { "text": "Ja, immer, wenn man es kühlt." },
+          { "text": "Ja, mit ganz viel Salz." }
+        ],
+        "explanation": "Meistens kann man das Gerinnen nicht rückgängig machen. Ein gebratenes Ei bleibt fest. Eine Ausnahme ist Gelatine: Sie wird warm flüssig und kalt wieder fest."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie verhalten sich die Aufbau-Stufen, wenn Eiweiß gerinnt? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Primärstruktur" }, "right": { "text": "Bleibt erhalten" } },
+          { "left": { "text": "Sekundärstruktur" }, "right": { "text": "Löst sich auf" } },
+          { "left": { "text": "Höhere Struktur" }, "right": { "text": "Löst sich auf" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧶 Eiweiß steckt nicht nur im Essen. Auch Wolle, Seide und Haare bestehen aus Eiweiß. Sortiere: Was kann man essen?",
+        "buckets": [
+          { "id": "essen", "label": "Eiweiß zum Essen", "icon": "🍽️" },
+          { "id": "nicht", "label": "Eiweiß, aber nicht zum Essen", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "🥩 Fleisch", "bucket": "essen" },
+          { "text": "🥚 Ei", "bucket": "essen" },
+          { "text": "🥛 Milch", "bucket": "essen" },
+          { "text": "🧶 Wolle", "bucket": "nicht" },
+          { "text": "🎀 Seide", "bucket": "nicht" },
+          { "text": "💇 Haare", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Wie heißt Eiweiß mit einem Fachwort?",
+        "options": [
+          { "text": "Protein", "correct": true },
+          { "text": "Vitamin" },
+          { "text": "Mineral" }
+        ],
+        "explanation": "Ein anderes Wort für Eiweiß ist Protein. Es steckt in Fleisch, Fisch, Eiern und Milch. Eiweiß ist der wichtigste Baustoff für deine Zellen und Muskeln."
+      }
+    }
+  ]
+}

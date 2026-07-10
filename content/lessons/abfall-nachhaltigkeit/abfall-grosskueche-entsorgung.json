@@ -1,0 +1,122 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-grosskueche-entsorgung",
+  "title": "Abfall in der Großküche",
+  "sort": 220,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚖️ Für Abfall in der Küche gibt es Gesetze. Ordne die Abkürzung ihrem Bereich zu.",
+        "pairs": [
+          { "left": { "text": "🥩 TierKBG" }, "right": { "text": "Regelt Abfälle mit Tierresten" } },
+          { "left": { "text": "♻️ KrWG" }, "right": { "text": "Das Gesetz für Abfall und Kreislauf" } },
+          { "left": { "text": "🍽️ LFGB" }, "right": { "text": "Regelt die Hygiene bei Lebensmitteln" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ Du willst wissen, wann in deiner Gemeinde welche Tonne geleert wird. Wo findest du das?",
+        "options": [
+          { "text": "Im Abfallkalender der Gemeinde.", "correct": true },
+          { "text": "In der Zeitung von gestern." },
+          { "text": "Auf der Mülltonne selbst." }
+        ],
+        "explanation": "Jede Gemeinde hat einen Abfallkalender. Dort stehen die Termine für die Tonnen. Auskunft gibt auch das Ordnungsamt oder das Abfallwirtschaftsamt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍳 Wo in der Küche entsteht welcher Abfall? Sortiere.",
+        "buckets": [
+          { "id": "einkauf", "label": "Beim Einkauf", "icon": "📦" },
+          { "id": "zubereitung", "label": "Bei der Zubereitung", "icon": "🔪" },
+          { "id": "ausgabe", "label": "Bei der Essensausgabe", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "Karton von der Lieferung", "bucket": "einkauf" },
+          { "text": "Folie um das Gemüse", "bucket": "einkauf" },
+          { "text": "Kartoffelschalen", "bucket": "zubereitung" },
+          { "text": "Knochen und Fett vom Fleisch", "bucket": "zubereitung" },
+          { "text": "Reste vom Teller der Gäste", "bucket": "ausgabe" },
+          { "text": "Benutzte Servietten", "bucket": "ausgabe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥬 In der Großküche fallen viele pflanzliche Reste an. Dürfen sie auf den Kompost?",
+        "options": [
+          { "text": "Nein, sie kommen in die Biotonne oder einen Container.", "correct": true },
+          { "text": "Ja, immer auf den Kompost." },
+          { "text": "Ja, in den normalen Restmüll." }
+        ],
+        "explanation": "In der Großküche kommen pflanzliche Reste nicht auf den Kompost. Sie gehören in die Biotonne oder in einen Container einer Firma, die sie abholt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Wohin kommen Speisereste mit Fleisch oder anderen tierischen Teilen?",
+        "options": [
+          { "text": "In die verschließbare Drangtonne.", "correct": true },
+          { "text": "In die Biotonne." },
+          { "text": "Auf den Kompost." }
+        ],
+        "explanation": "Reste mit tierischen Teilen kommen in die Drangtonne. Die lässt sich fest verschließen. So kommen keine Tiere und keine Gerüche heran."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Das alte Fett aus der Fritteuse ist verbraucht. Was für ein Abfall ist das?",
+        "options": [
+          { "text": "Sondermüll, den man getrennt lagert.", "correct": true },
+          { "text": "Ganz normaler Restmüll." },
+          { "text": "Etwas für den Abfluss." }
+        ],
+        "explanation": "Altes Frittierfett ist Sondermüll. Du lagerst es getrennt. In den Abfluss darf es nie, sonst verstopfen die Rohre."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Küche A zahlt für eine 80-Liter-Tonne 240 € im Jahr. Küche B zahlt für eine 120-Liter-Tonne auch 240 € im Jahr. Wer zahlt pro Liter weniger?",
+        "options": [
+          { "text": "Küche B, sie bekommt mehr Liter für das gleiche Geld.", "correct": true },
+          { "text": "Küche A." },
+          { "text": "Beide zahlen gleich viel pro Liter." }
+        ],
+        "explanation": "Beide zahlen 240 €. Küche B bekommt dafür mehr Liter Platz. Also ist bei Küche B jeder Liter billiger. Mehr Liter für gleiches Geld heißt: günstiger pro Liter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Ein Komposter kostet 150 €. Damit sparst du 50 € Müllgebühren pro Jahr. Nach wie vielen Jahren hast du die 150 € wieder drin?",
+        "options": [
+          { "text": "Nach 3 Jahren.", "correct": true },
+          { "text": "Nach 1 Jahr." },
+          { "text": "Nach 10 Jahren." }
+        ],
+        "explanation": "Du sparst 50 € pro Jahr. 50 € mal 3 Jahre sind 150 €. Nach 3 Jahren hast du den Kaufpreis wieder gespart. Danach sparst du echtes Geld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Ganz leicht zum Schluss: Darf altes Frittierfett in den Abfluss?",
+        "options": [
+          { "text": "Nein, niemals in den Abfluss.", "correct": true },
+          { "text": "Ja, mit viel Wasser." },
+          { "text": "Ja, wenn es noch warm ist." }
+        ],
+        "explanation": "Altes Fett darf nie in den Abfluss. Es verstopft die Rohre. Es kommt getrennt in einen Behälter für Sondermüll."
+      }
+    }
+  ]
+}

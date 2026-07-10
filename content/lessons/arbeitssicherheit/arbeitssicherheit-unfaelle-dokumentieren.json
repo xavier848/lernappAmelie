@@ -1,0 +1,122 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-unfaelle-dokumentieren",
+  "title": "Unfälle melden und aufschreiben",
+  "sort": 250,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Eine Kollegin schneidet sich leicht in den Finger. Muss dieser kleine Unfall aufgeschrieben werden?",
+        "options": [
+          { "text": "Ja, jeder Unfall wird aufgeschrieben.", "correct": true },
+          { "text": "Nein, nur schwere Unfälle." },
+          { "text": "Nur wenn sie danach fehlt." }
+        ],
+        "explanation": "Jede Verletzung im Betrieb wird aufgeschrieben. Auch kleine. Egal, ob die Kollegin danach weiterarbeitet oder nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Wie lange muss der Betrieb die Papiere zu einem Unfall aufheben?",
+        "options": [
+          { "text": "5 Jahre", "correct": true },
+          { "text": "5 Wochen" },
+          { "text": "Nur bis zum nächsten Tag" }
+        ],
+        "explanation": "Die Papiere zu einem Unfall werden 5 Jahre aufbewahrt. So kann man auch später noch nachschauen, was passiert ist."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📕 Rund um die Unfall-Meldung. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "📕 Verbandbuch" }, "right": { "text": "Hier wird jeder Unfall eingetragen" } },
+          { "left": { "text": "📝 Meldeblock" }, "right": { "text": "Ein Block zum Melden von Unfällen" } },
+          { "left": { "text": "🏢 DGUV" }, "right": { "text": "Gibt Verbandbuch und Meldeblock heraus" } },
+          { "left": { "text": "📄 Unfallanzeige" }, "right": { "text": "Meldung an die Berufsgenossenschaft" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Beim Melden von Unfällen hilft die DGUV. Was ist die DGUV?",
+        "options": [
+          { "text": "Die Deutsche Gesetzliche Unfallversicherung.", "correct": true },
+          { "text": "Ein Reinigungsmittel." },
+          { "text": "Ein Küchengerät." }
+        ],
+        "explanation": "DGUV ist die Abkürzung für Deutsche Gesetzliche Unfallversicherung. Dort gibt es das Verbandbuch und den Meldeblock für Unfälle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚑 Ein Kollege ist nach einem Arbeitsunfall länger als 3 Tage krank. Was muss der Betrieb tun?",
+        "options": [
+          { "text": "Den Unfall der Berufsgenossenschaft melden.", "correct": true },
+          { "text": "Gar nichts weiter." },
+          { "text": "Der Kollege zahlt den Schaden selbst." }
+        ],
+        "explanation": "Ist jemand nach einem Arbeitsunfall mehr als 3 Tage arbeitsunfähig, muss der Betrieb das melden. Diese Meldung heißt Unfallanzeige und geht an die Berufsgenossenschaft."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✍️ Was gehört in die Unfall-Aufschreibung? Sortiere.",
+        "buckets": [
+          { "id": "rein", "label": "Gehört hinein", "icon": "✅" },
+          { "id": "nicht", "label": "Gehört nicht hinein", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Name der verletzten Person", "bucket": "rein" },
+          { "text": "Datum und Uhrzeit", "bucket": "rein" },
+          { "text": "Wie der Unfall passiert ist", "bucket": "rein" },
+          { "text": "Namen der Zeugen", "bucket": "rein" },
+          { "text": "Das Lieblingsessen der Person", "bucket": "nicht" },
+          { "text": "Die Handynummer der Oma", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👷 In einem Betrieb arbeiten 15 Menschen. Wie viele Ersthelfer braucht er mindestens?",
+        "options": [
+          { "text": "1 Ersthelfer.", "correct": true },
+          { "text": "15 Ersthelfer." },
+          { "text": "Keinen." }
+        ],
+        "explanation": "Bis 20 Beschäftigte reicht 1 ausgebildeter Ersthelfer. In größeren Betrieben müssen mehr Menschen einen Ersthelfer-Kurs machen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔒 Im Verbandbuch stehen Namen und Verletzungen. Wie wird es aufbewahrt?",
+        "options": [
+          { "text": "Verschlossen, nur bestimmte Personen dürfen hinein.", "correct": true },
+          { "text": "Offen für alle auf dem Tisch." },
+          { "text": "Im Müll." }
+        ],
+        "explanation": "Im Verbandbuch stehen persönliche Daten. Die sind geschützt. Darum wird es verschlossen aufbewahrt. Nur bestimmte Personen dürfen es lesen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Zum Schluss: Wird ein kleiner Schnitt im Finger auch aufgeschrieben?",
+        "options": [
+          { "text": "Ja, jeder Unfall kommt ins Verbandbuch.", "correct": true },
+          { "text": "Nein, das lohnt sich nicht." },
+          { "text": "Nur wenn es stark blutet." }
+        ],
+        "explanation": "Auch ein kleiner Schnitt kommt ins Verbandbuch. So ist jeder Unfall festgehalten. Das schützt dich und den Betrieb."
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-stoffwechsel",
+  "title": "Stoffwechsel – so nutzt der Körper das Essen",
+  "sort": 290,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🩸 Bei der Resorption gehen die Nährstoffe durch die Darmwand. Danach nehmen sie einen von zwei Wegen. Sortiere.",
+        "buckets": [
+          { "id": "blut", "label": "Über das Blut zur Leber", "icon": "🩸" },
+          { "id": "lymphe", "label": "Über die Lymphe", "icon": "💧" }
+        ],
+        "items": [
+          { "text": "Aminosäuren", "bucket": "blut" },
+          { "text": "Einfach-Zucker", "bucket": "blut" },
+          { "text": "kurzkettige Fettsäuren", "bucket": "blut" },
+          { "text": "langkettige Fettsäuren", "bucket": "lymphe" },
+          { "text": "Monoglyceride", "bucket": "lymphe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔋 Die Zelle macht aus den Nährstoffen Energie. Wie funktioniert das?",
+        "options": [
+          { "text": "Die Zelle verbrennt die Nährstoffe mit Sauerstoff. Das nennt man Oxidation.", "correct": true },
+          { "text": "Die Zelle friert die Nährstoffe ein." },
+          { "text": "Die Zelle braucht Licht, so wie eine Pflanze." }
+        ],
+        "explanation": "Die Zelle ist wie ein kleines Kraftwerk. Sie verbrennt Nährstoffe mit Sauerstoff. Dieser Vorgang heißt Oxidation. So entsteht Energie für den Körper."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💨 Bei der Oxidation entsteht Energie. Was entsteht sonst noch?",
+        "options": [
+          { "text": "Kohlendioxid, Wasser und ein bisschen Harnstoff.", "correct": true },
+          { "text": "Neue Zähne und Haare." },
+          { "text": "Nur Luft, sonst nichts." }
+        ],
+        "explanation": "Beim Verbrennen bleiben Reste übrig: Kohlendioxid atmest du aus, Wasser gibst du zum Beispiel über die Haut ab, und Harnstoff kommt in den Urin."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Die Zelle wandelt Energie um, wie ein Transformator. Ein Teil der Energie geht dabei verloren. Als was?",
+        "options": [
+          { "text": "Als Wärme. Darum ist dein Körper immer etwa 37 Grad warm.", "correct": true },
+          { "text": "Als Licht, das du sehen kannst." },
+          { "text": "Als Geräusch." }
+        ],
+        "explanation": "Ein Teil der Energie wird immer zu Wärme. Das ist wie bei einem Handrührgerät, das beim Arbeiten warm wird. Die Wärme hält deinen Körper warm."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💪 Mit der Energie leistet der Körper 3 Arten von Arbeit. Sortiere die Beispiele.",
+        "buckets": [
+          { "id": "chemisch", "label": "Chemische Arbeit", "icon": "🧱" },
+          { "id": "transport", "label": "Transportarbeit", "icon": "🚚" },
+          { "id": "mechanisch", "label": "Mechanische Arbeit", "icon": "🏃" }
+        ],
+        "items": [
+          { "text": "Körper-Eiweiß aufbauen", "bucket": "chemisch" },
+          { "text": "Im Jugendalter wachsen", "bucket": "chemisch" },
+          { "text": "Zucker bergauf in die Zelle pumpen", "bucket": "transport" },
+          { "text": "Kalium gegen das Gefälle bringen", "bucket": "transport" },
+          { "text": "Den Arm bewegen", "bucket": "mechanisch" },
+          { "text": "Den Speisebrei weiterschieben", "bucket": "mechanisch" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeuten die 3 Arten von Arbeit? Ordne die Erklärung zu.",
+        "pairs": [
+          { "left": { "text": "Chemische Arbeit" }, "right": { "text": "baut Körpersubstanz auf" } },
+          { "left": { "text": "Transportarbeit" }, "right": { "text": "bringt Stoffe bergauf in die Zelle" } },
+          { "left": { "text": "Mechanische Arbeit" }, "right": { "text": "jede Bewegung des Körpers" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Alle diese Vorgänge zusammen heißen Stoffwechsel. Was gehört dazu?",
+        "options": [
+          { "text": "Alle Vorgänge, bei denen der Körper Stoffe aufbaut, umbaut und abbaut.", "correct": true },
+          { "text": "Nur das Kauen im Mund." },
+          { "text": "Nur das Schlafen in der Nacht." }
+        ],
+        "explanation": "Stoffwechsel heißt auch Metabolismus. Der Körper baut Stoffe auf, um und ab und tauscht sie mit der Umwelt. Die Ernährung ist nur ein Teil davon."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔁 Der Stoffwechsel läuft in einer Reihe ab. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🍽️ Ernährung: Du isst und trinkst." },
+          { "text": "🔪 Verdauung: Das Essen wird in kleine Bausteine zerlegt." },
+          { "text": "🩸 Resorption: Die Bausteine gehen ins Blut und zu den Organen." },
+          { "text": "🔋 Zelle: Sie macht aus den Bausteinen Energie." },
+          { "text": "🚽 Ausscheidung: Reste und Abfall verlassen den Körper." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫁 Die Zelle braucht Sauerstoff für die Oxidation. Woher bekommt sie den?",
+        "options": [
+          { "text": "Aus der Atmung. Die Lunge nimmt Sauerstoff auf, das Blut bringt ihn zur Zelle.", "correct": true },
+          { "text": "Aus dem Essen, das du kaust." },
+          { "text": "Aus dem Wasser, das du trinkst." }
+        ],
+        "explanation": "Beim Atmen holt die Lunge Sauerstoff aus der Luft. Das Blut bringt ihn zu jeder Zelle. Dort verbrennt die Zelle damit die Nährstoffe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Was ist der erste Schritt im Stoffwechsel?",
+        "options": [
+          { "text": "Die Ernährung. Du isst und trinkst.", "correct": true },
+          { "text": "Die Ausscheidung." },
+          { "text": "Die Energie in der Zelle." }
+        ],
+        "explanation": "Alles beginnt mit der Ernährung. Ohne Essen und Trinken hat der Körper keine Bausteine und keine Energie."
+      }
+    }
+  ]
+}

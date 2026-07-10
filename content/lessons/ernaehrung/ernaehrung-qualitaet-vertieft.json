@@ -1,0 +1,118 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-qualitaet-vertieft",
+  "title": "Nährstoffdichte und Energiedichte",
+  "sort": 230,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Manche Lebensmittel haben viele gute Nährstoffe und wenig Kalorien. Wie nennt man das?",
+        "options": [
+          { "text": "Hohe Nährstoffdichte", "correct": true },
+          { "text": "Hohe Energiedichte" },
+          { "text": "Hoher Genusswert" }
+        ],
+        "explanation": "Nährstoffdichte heißt: Wie viele Vitamine und Mineralstoffe stecken im Essen, im Vergleich zu den Kalorien? Viele Nährstoffe und wenig Kalorien bedeuten eine hohe Nährstoffdichte. Gemüse ist ein gutes Beispiel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍏 Sortiere das Essen. Was hat viele Nährstoffe (hohe Nährstoffdichte)? Was hat kaum Nährstoffe?",
+        "buckets": [
+          { "id": "hoch", "label": "Viele Nährstoffe", "icon": "🥦" },
+          { "id": "niedrig", "label": "Kaum Nährstoffe", "icon": "🍬" }
+        ],
+        "items": [
+          { "text": "🥕 Gemüse", "bucket": "hoch" },
+          { "text": "🍓 Obst", "bucket": "hoch" },
+          { "text": "🌾 Vollkornbrot", "bucket": "hoch" },
+          { "text": "🥤 Limonade", "bucket": "niedrig" },
+          { "text": "🍭 Bonbons", "bucket": "niedrig" },
+          { "text": "🍟 Pommes", "bucket": "niedrig" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Vollkornbrot oder Weißbrot – was hat mehr Nährstoffe pro Kalorie?",
+        "options": [
+          { "text": "Vollkornbrot", "correct": true },
+          { "text": "Weißbrot" },
+          { "text": "Beide gleich" }
+        ],
+        "explanation": "Vollkornbrot enthält mehr B-Vitamine und mehr Mineralstoffe als Weißbrot. Darum hat Vollkornbrot eine höhere Nährstoffdichte. Es macht auch länger satt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Wie viel Energie steckt in 100 Gramm Essen? Wie nennt man diesen Wert?",
+        "options": [
+          { "text": "Energiedichte", "correct": true },
+          { "text": "Nährstoffdichte" },
+          { "text": "Eignungswert" }
+        ],
+        "explanation": "Die Energiedichte sagt, wie viel Energie in 100 Gramm Essen steckt. Man misst sie in Kilojoule pro 100 Gramm. Fettes und süßes Essen hat oft eine hohe Energiedichte."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Sortiere: Was hat viel Energie auf 100 Gramm (hohe Energiedichte)? Was hat wenig?",
+        "buckets": [
+          { "id": "viel", "label": "Viel Energie", "icon": "🧈" },
+          { "id": "wenig", "label": "Wenig Energie", "icon": "🥒" }
+        ],
+        "items": [
+          { "text": "🫒 Öl", "bucket": "viel" },
+          { "text": "🍫 Schokolade", "bucket": "viel" },
+          { "text": "🥜 Nüsse", "bucket": "viel" },
+          { "text": "🥒 Gurke", "bucket": "wenig" },
+          { "text": "🍅 Tomate", "bucket": "wenig" },
+          { "text": "🍎 Apfel", "bucket": "wenig" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💪 Der Gesundheitswert eines Lebensmittels hängt von mehreren Dingen ab. Ordne jeden Punkt seiner Bedeutung zu.",
+        "pairs": [
+          { "left": { "text": "🥦 Nährstoffdichte" }, "right": { "text": "Viele Nährstoffe pro Kalorie" } },
+          { "left": { "text": "🔥 Energiedichte" }, "right": { "text": "Energie pro 100 Gramm" } },
+          { "left": { "text": "🌿 Frische" }, "right": { "text": "Wie neu und frisch das Essen ist" } },
+          { "left": { "text": "⚠️ Unerwünschte Stoffe" }, "right": { "text": "Schädliche Stoffe im Essen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌸 Ein Lebensmittel hat mehrere Werte. Ordne jedes Merkmal dem passenden Wert zu.",
+        "pairs": [
+          { "left": { "text": "Vitamine im Essen" }, "right": { "text": "💪 Gesundheitswert" } },
+          { "left": { "text": "Preis und Lagerung" }, "right": { "text": "⏱️ Eignungswert" } },
+          { "left": { "text": "Mehrweg-Verpackung" }, "right": { "text": "🌍 Ökologischer Wert" } },
+          { "left": { "text": "Geschmack und Aussehen" }, "right": { "text": "😋 Genusswert" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Welcher Snack hat mehr Nährstoffe und weniger Kalorien?",
+        "options": [
+          { "text": "🍎 Ein Apfel", "correct": true },
+          { "text": "🍬 Eine Handvoll Bonbons" },
+          { "text": "🥤 Ein Glas Limonade" }
+        ],
+        "explanation": "Ein Apfel hat Vitamine und Ballaststoffe, aber wenig Kalorien. Er hat eine hohe Nährstoffdichte. Bonbons und Limonade haben viel Zucker, aber kaum Nährstoffe."
+      }
+    }
+  ]
+}

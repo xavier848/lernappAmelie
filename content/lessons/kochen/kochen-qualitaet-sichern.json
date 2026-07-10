@@ -1,0 +1,123 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-qualitaet-sichern",
+  "title": "Qualität sichern beim Kochen",
+  "sort": 221,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Das Essen ist fertig gekocht. Wie lange darf es höchstens warm gehalten werden?",
+        "options": [
+          { "text": "Höchstens 30 Minuten.", "correct": true },
+          { "text": "So lange wie nötig, auch mehrere Stunden." },
+          { "text": "Höchstens 3 Stunden." }
+        ],
+        "explanation": "Warmes Essen soll nicht länger als 30 Minuten warm stehen. Danach gehen Vitamine verloren. Auch Keime wachsen leichter. Serviere das Essen darum frisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Warum fragst du die Bewohner nach ihren Vorlieben und Abneigungen?",
+        "options": [
+          { "text": "Damit das Essen schmeckt und gern gegessen wird.", "correct": true },
+          { "text": "Damit du weniger kochen musst." },
+          { "text": "Das ist nicht so wichtig." }
+        ],
+        "explanation": "Jeder Mensch mag anderes Essen. Wenn du die Vorlieben kennst, isst die Person gern und gut. Frag darum regelmäßig nach."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Du schreibst auf, wie viel jede Person isst. Warum machst du das?",
+        "options": [
+          { "text": "So erkennst du, ob jemand zu wenig isst.", "correct": true },
+          { "text": "Damit die Küche ordentlich aussieht." },
+          { "text": "Das macht man nur zum Spaß." }
+        ],
+        "explanation": "Die gegessene Menge zeigt dir, ob eine Person genug isst. Wer wenig isst, braucht vielleicht Hilfe. Darum portionierst du genau und schreibst es auf."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Was ist gut für die Qualität? Was ist schlecht? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gut für die Qualität", "icon": "✅" },
+          { "id": "schlecht", "label": "Schlecht für die Qualität", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Essen nur 30 Minuten warm halten", "bucket": "gut" },
+          { "text": "Frisches Obst und Gemüse anbieten", "bucket": "gut" },
+          { "text": "Gemüse schonend garen", "bucket": "gut" },
+          { "text": "Essen 2 Stunden warm stehen lassen", "bucket": "schlecht" },
+          { "text": "Gemüse ganz weich kochen", "bucket": "schlecht" },
+          { "text": "Nie nach Vorlieben fragen", "bucket": "schlecht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Wie garst du Gemüse, damit die Vitamine erhalten bleiben?",
+        "options": [
+          { "text": "Kurz und schonend mit wenig Wasser garen.", "correct": true },
+          { "text": "Sehr lange in viel Wasser kochen." },
+          { "text": "Immer frittieren." }
+        ],
+        "explanation": "Vitamine mögen keine große Hitze und kein langes Kochen. Gare Gemüse kurz und mit wenig Wasser. So bleiben mehr Vitamine im Essen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Maßnahme bringt welchen Vorteil? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🕒 Nur 30 Minuten warm halten" }, "right": { "text": "Vitamine bleiben erhalten" } },
+          { "left": { "text": "🍎 Frisches Obst anbieten" }, "right": { "text": "Liefert Vitamine" } },
+          { "left": { "text": "🗣️ Nach Vorlieben fragen" }, "right": { "text": "Essen schmeckt besser" } },
+          { "left": { "text": "🧼 Hände gut waschen" }, "right": { "text": "Weniger Keime im Essen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍽️ Du machst das Mittagessen für die Bewohner fertig. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Speisen schonend garen." },
+          { "text": "Sofort auf die Teller portionieren." },
+          { "text": "Appetitlich anrichten und mit frischen Kräutern verfeinern." },
+          { "text": "Das Essen innerhalb von 30 Minuten servieren." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Wie oft wechselst du deine Arbeitskleidung in der Küche?",
+        "options": [
+          { "text": "Jeden Tag, bei Bedarf auch öfter.", "correct": true },
+          { "text": "Einmal in der Woche." },
+          { "text": "Nur wenn ein großer Fleck drauf ist." }
+        ],
+        "explanation": "Saubere Kleidung schützt das Essen vor Keimen. Wechsle sie jeden Tag. Wird sie schmutzig, wechselst du auch mehrmals am Tag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Frisch gekochtes Essen soll höchstens wie lange warm stehen?",
+        "options": [
+          { "text": "30 Minuten.", "correct": true },
+          { "text": "5 Stunden." },
+          { "text": "Einen ganzen Tag." }
+        ],
+        "explanation": "Nach 30 Minuten leidet die Qualität. Serviere das Essen frisch. Dann schmeckt es am besten und ist gesund."
+      }
+    }
+  ]
+}

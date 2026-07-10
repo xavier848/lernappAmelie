@@ -1,0 +1,125 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-erste-hilfe-verletzungen",
+  "title": "Erste Hilfe bei Verletzungen",
+  "sort": 260,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🩹 Welche Hilfe passt zu welcher Verletzung? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🩹 Kleine Wunde" }, "right": { "text": "Mit steriler Auflage abdecken" } },
+          { "left": { "text": "🧪 Verätzung durch Reiniger" }, "right": { "text": "Mit viel kaltem Wasser spülen" } },
+          { "left": { "text": "☠️ Vergiftung" }, "right": { "text": "Notarzt rufen, dann Gift-Notruf" } },
+          { "left": { "text": "😵 Schwindel" }, "right": { "text": "Hinlegen und frische Luft" } },
+          { "left": { "text": "🥶 Schock, blass und zittrig" }, "right": { "text": "Beine hochlegen" } },
+          { "left": { "text": "🩸 Stark blutende Wunde" }, "right": { "text": "Druckverband und Notruf 112" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩹 Du hast eine kleine Wunde an der Hand. Solltest du sie mit Wasser auswaschen?",
+        "options": [
+          { "text": "Nein, nur grobe Teile entfernen und steril abdecken.", "correct": true },
+          { "text": "Ja, kräftig mit Seife schrubben." },
+          { "text": "Ja, mit Reiniger putzen." }
+        ],
+        "explanation": "Eine Wunde wäschst du nicht aus. Du entfernst nur grobe Teile wie einen Splitter. Dann deckst du sie mit einer sauberen, sterilen Auflage ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Reiniger spritzt auf deine Haut und brennt. Was tust du zuerst?",
+        "options": [
+          { "text": "Sofort mit viel kaltem Wasser spülen.", "correct": true },
+          { "text": "Eine Creme drauf schmieren." },
+          { "text": "Warten und abwischen." }
+        ],
+        "explanation": "Bei einer Verätzung spülst du die Stelle sofort lange mit kaltem Wasser. Das verdünnt den Reiniger und stoppt das Brennen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☠️ Jemand hat aus Versehen ein Putzmittel geschluckt. Wen rufst du zuerst?",
+        "options": [
+          { "text": "Zuerst den Notarzt, danach die Gift-Notrufzentrale.", "correct": true },
+          { "text": "Nur einen Freund." },
+          { "text": "Niemanden, es geht vorbei." }
+        ],
+        "explanation": "Bei einer Vergiftung rufst du zuerst den Notarzt. Danach rufst du die Gift-Notrufzentrale an. Dort sagen die Fachleute dir, was zu tun ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥶 Eine Kollegin ist blass, zittert und hat Schweiß auf der Stirn. Das sind Zeichen für einen Schock. Wie hilfst du?",
+        "options": [
+          { "text": "Beine hochlagern und sofort den Notarzt rufen.", "correct": true },
+          { "text": "Sie aufstehen und herumlaufen lassen." },
+          { "text": "Ihr heißen Kaffee geben." }
+        ],
+        "explanation": "Bei einem Schock lagerst du die Beine hoch. So kommt mehr Blut zum Herzen und zum Kopf. Ruf sofort den Notarzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😵 Dir wird plötzlich schwindelig und schwarz vor Augen. Was hilft?",
+        "options": [
+          { "text": "Hinlegen und für frische Luft sorgen.", "correct": true },
+          { "text": "Schnell weiterarbeiten." },
+          { "text": "In die Sonne stellen." }
+        ],
+        "explanation": "Bei Schwindel legst du dich am besten hin. Frische Luft tut gut. So kommt der Kreislauf wieder in Schwung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🩸 Ein Kollege hat sich tief geschnitten und blutet stark. Bringe die Hilfe in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Einmalhandschuhe anziehen." },
+          { "text": "Sterilen Druckverband auf die Wunde legen." },
+          { "text": "Notruf 112 wählen." },
+          { "text": "Den verletzten Arm oder das Bein hochhalten." },
+          { "text": "Beim Kollegen bleiben und ihn beruhigen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🚑 Sofort Notarzt oder selbst versorgen? Sortiere.",
+        "buckets": [
+          { "id": "notarzt", "label": "Sofort Notarzt", "icon": "🚑" },
+          { "id": "selbst", "label": "Selbst versorgen", "icon": "🩹" }
+        ],
+        "items": [
+          { "text": "Stark blutende Wunde", "bucket": "notarzt" },
+          { "text": "Vergiftung", "bucket": "notarzt" },
+          { "text": "Zeichen für einen Schock", "bucket": "notarzt" },
+          { "text": "Kleine Schürfwunde", "bucket": "selbst" },
+          { "text": "Leichte Prellung", "bucket": "selbst" },
+          { "text": "Kleiner Splitter im Finger", "bucket": "selbst" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Zum Schluss eine leichte Frage: Wie hilfst du bei einer Verätzung durch Reiniger?",
+        "options": [
+          { "text": "Mit viel kaltem Wasser spülen.", "correct": true },
+          { "text": "Mit warmem Öl einreiben." },
+          { "text": "Gar nichts tun." }
+        ],
+        "explanation": "Viel kaltes Wasser ist die beste erste Hilfe bei einer Verätzung. Es spült den Reiniger weg und kühlt die Haut."
+      }
+    }
+  ]
+}

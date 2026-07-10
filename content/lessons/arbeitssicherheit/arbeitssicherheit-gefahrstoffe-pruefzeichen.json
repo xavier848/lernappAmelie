@@ -1,0 +1,122 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-gefahrstoffe-pruefzeichen",
+  "title": "Gefahrstoffe und Prüfzeichen",
+  "sort": 240,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Es ist noch Reiniger übrig. Darfst du ihn in eine leere Cola-Flasche umfüllen?",
+        "options": [
+          { "text": "Nein, niemals in eine Getränkeflasche.", "correct": true },
+          { "text": "Ja, wenn ich einen Zettel draufklebe." },
+          { "text": "Ja, das spart Platz im Schrank." }
+        ],
+        "explanation": "Gefahrstoffe bleiben in ihrer eigenen, beschrifteten Flasche. In einer Getränkeflasche verwechselt sie jemand mit einem Getränk und vergiftet sich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Zwei Reiniger putzen allein nicht gut. Darfst du sie zusammen mischen?",
+        "options": [
+          { "text": "Nein, beim Mischen können giftige Gase entstehen.", "correct": true },
+          { "text": "Ja, dann putzt es doppelt so gut." },
+          { "text": "Ja, wenn ich schnell arbeite." }
+        ],
+        "explanation": "Werden zwei Reiniger gemischt, kann ein giftiges Gas entstehen. Manche Mischungen sind sogar gefährlich. Nutze jedes Mittel einzeln und richtig dosiert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Auf einem Lebensmittel ist ein Fleck Schimmel. Reicht es, den Fleck wegzuschneiden?",
+        "options": [
+          { "text": "Nein, das ganze Lebensmittel muss weg.", "correct": true },
+          { "text": "Ja, der Rest ist noch gut." },
+          { "text": "Ja, wenn ich großzügig schneide." }
+        ],
+        "explanation": "Schimmel bildet feine Sporen. Die stecken schon im ganzen Lebensmittel, auch wenn du sie nicht siehst. Darum wirf das ganze Stück weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Auf dem Hackfleisch steht ein Verfallsdatum. Das Datum ist seit gestern vorbei. Was tust du?",
+        "options": [
+          { "text": "Ich entsorge es sofort.", "correct": true },
+          { "text": "Ich brate es einfach länger." },
+          { "text": "Ich rieche nur kurz daran." }
+        ],
+        "explanation": "Ein Verfallsdatum ist streng. Nach dem Tag kann das Lebensmittel krank machen. Leicht verderbliche Sachen wie Hackfleisch oder Muscheln kommen dann sofort in den Müll."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du machst eine Creme, die nicht gekocht wird. Welche Eier nimmst du?",
+        "options": [
+          { "text": "Pasteurisiertes Vollei aus der Packung.", "correct": true },
+          { "text": "Frische rohe Eier." },
+          { "text": "Das ist egal." }
+        ],
+        "explanation": "In rohen Eiern können Salmonellen sein. Die machen krank. Für Speisen ohne Kochen nimmst du Vollei aus der Packung. Das ist sicher behandelt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🛡️ Sicher mit Gefahren umgehen. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🧴 Reiniger übrig" }, "right": { "text": "In der beschrifteten Flasche lassen" } },
+          { "left": { "text": "🧪 Zwei Reiniger" }, "right": { "text": "Niemals mischen" } },
+          { "left": { "text": "🍄 Schimmel am Brot" }, "right": { "text": "Ganz wegwerfen" } },
+          { "left": { "text": "🔌 Neues Küchengerät" }, "right": { "text": "Auf das Prüfzeichen achten" } }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Sicher oder gefährlich? Sortiere den Umgang mit Reinigern.",
+        "buckets": [
+          { "id": "sicher", "label": "Sicher", "icon": "✅" },
+          { "id": "gefaehrlich", "label": "Gefährlich", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Reiniger in der Originalflasche lassen", "bucket": "sicher" },
+          { "text": "Die Flasche klar beschriften", "bucket": "sicher" },
+          { "text": "Richtig dosieren, nicht zu viel", "bucket": "sicher" },
+          { "text": "Zwei Reiniger zusammenkippen", "bucket": "gefaehrlich" },
+          { "text": "Putzmittel in eine Saftflasche füllen", "bucket": "gefaehrlich" },
+          { "text": "Offenen Reiniger neben das Essen stellen", "bucket": "gefaehrlich" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Der Betrieb kauft ein neues Küchengerät. Worauf sollte man achten?",
+        "options": [
+          { "text": "Auf ein Prüfzeichen wie GS, VDE oder TÜV.", "correct": true },
+          { "text": "Auf eine schöne Farbe." },
+          { "text": "Auf eine große Verpackung." }
+        ],
+        "explanation": "Zeichen wie GS, VDE oder TÜV zeigen: Das Gerät wurde auf Sicherheit geprüft. So ist es sicherer im Betrieb. GS heißt geprüfte Sicherheit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☠️ Zum Schluss das Wichtigste: Wohin gehört ein Reiniger?",
+        "options": [
+          { "text": "In seine eigene, beschriftete Flasche.", "correct": true },
+          { "text": "In eine Wasserflasche." },
+          { "text": "Offen neben das Essen." }
+        ],
+        "explanation": "Gefahrstoffe bleiben immer in ihrer eigenen Flasche mit Namen darauf. So verwechselt sie niemand. Das schützt alle im Betrieb."
+      }
+    }
+  ]
+}

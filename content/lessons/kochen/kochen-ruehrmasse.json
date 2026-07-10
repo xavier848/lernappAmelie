@@ -1,0 +1,122 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-ruehrmasse",
+  "title": "Rührmasse und Kuchen backen",
+  "sort": 260,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Was ist der Unterschied zwischen einem Teig und einer Masse?",
+        "options": [
+          { "text": "Ein Teig wird geknetet, eine Masse wird gerührt.", "correct": true },
+          { "text": "Teig und Masse sind genau das Gleiche." },
+          { "text": "Eine Masse wird geknetet, ein Teig wird gerührt." }
+        ],
+        "explanation": "Merke dir das gut: Einen Teig knetest du, zum Beispiel Mürbeteig. Eine Masse rührst du, zum Beispiel Rührmasse für Kuchen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫧 Was macht die Rührmasse locker und luftig?",
+        "options": [
+          { "text": "Eingerührte Luft, die Eier und vor allem das Backpulver.", "correct": true },
+          { "text": "Nur ein Schluck Wasser." },
+          { "text": "Nur eine Prise Salz." }
+        ],
+        "explanation": "Drei Dinge lockern die Masse: die Luft, die du beim Rühren einarbeitest, die Eier und vor allem das Backpulver. So geht der Kuchen im Ofen schön auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Backpulver bildet schon Gas, sobald es feucht wird. Was heißt das für deine Arbeit?",
+        "options": [
+          { "text": "Alles vorher vorbereiten und den Teig zügig in den Ofen bringen.", "correct": true },
+          { "text": "Den fertigen Teig erst lange stehen lassen." },
+          { "text": "Ganz langsam und in Ruhe alles nach dem Rühren vorbereiten." }
+        ],
+        "explanation": "Sobald Flüssigkeit an das Backpulver kommt, entsteht Gas. Diese Triebkraft soll im Ofen wirken. Bereite darum alles vorher vor und schieb den Teig zügig in den Ofen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Jede Backform wird anders vorbereitet. Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "⭕ Springform" }, "right": { "text": "einfetten und mit Mehl bestäuben" } },
+          { "left": { "text": "🟦 Silikonform" }, "right": { "text": "mit kaltem Wasser ausspülen" } },
+          { "left": { "text": "⬜ Backblech" }, "right": { "text": "mit Backpapier auslegen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔽 Auf welche Schiene im Ofen kommt der Kuchen? Sortiere.",
+        "buckets": [
+          { "id": "unten", "label": "Untere Schiene", "icon": "⬇️" },
+          { "id": "mitte", "label": "Mittlere Schiene", "icon": "➡️" }
+        ],
+        "items": [
+          { "text": "🧁 Hoher Gugelhupf", "bucket": "unten" },
+          { "text": "🍰 Hoher Marmorkuchen", "bucket": "unten" },
+          { "text": "🟫 Blechkuchen", "bucket": "mitte" },
+          { "text": "🍪 Halbhoher Kuchen", "bucket": "mitte" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Bei der All-in-Methode rührst du die Masse etwa 4 Minuten. Warum so lange?",
+        "options": [
+          { "text": "Damit sich der Zucker löst und genug Luft in die Masse kommt.", "correct": true },
+          { "text": "Damit die Masse kalt wird." },
+          { "text": "Die Rührzeit ist ganz egal." }
+        ],
+        "explanation": "Bei der All-in-Methode kommt alles zusammen in die Schüssel. Rühr etwa 4 Minuten. So löst sich der Zucker und es kommt genug Luft in die Masse. Der Kuchen wird dann schön locker."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Wie prüfst du, ob der Kuchen durchgebacken ist?",
+        "options": [
+          { "text": "Ein Holzstäbchen in die Mitte stechen. Bleibt kein Teig hängen, ist er fertig.", "correct": true },
+          { "text": "Den Kuchen einfach in der Mitte anschneiden." },
+          { "text": "Nur auf die Uhr schauen, das reicht immer." }
+        ],
+        "explanation": "Mach die Garprobe mit einem Holzstäbchen. Stich es in die Mitte des Kuchens. Kommt es sauber heraus, ist der Kuchen durch. Klebt noch Teig dran, braucht er länger."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎂 So läuft das Backen ab, wenn die Masse fertig gerührt ist. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🔥 Den Backofen vorheizen." },
+          { "text": "🧈 Die Backform einfetten und vorbereiten." },
+          { "text": "🥄 Den Teig einfüllen, aber nur zu zwei Dritteln." },
+          { "text": "🚪 Backen und den Ofen in der ersten Hälfte zulassen." },
+          { "text": "🪵 Mit dem Holzstäbchen die Garprobe machen." },
+          { "text": "❄️ Den Kuchen 10 Minuten in der Form auskühlen, dann auf ein Gitter geben." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥜 Zum Schluss: Wann bereitest du Obst und Nüsse für den Kuchen vor?",
+        "options": [
+          { "text": "Zuerst, bevor du die Masse rührst.", "correct": true },
+          { "text": "Erst ganz am Ende, wenn der Teig schon fertig ist." },
+          { "text": "Gar nicht, das macht der Ofen." }
+        ],
+        "explanation": "Bereite Obst und Nüsse zuerst vor. Dann ist alles fertig, wenn du die Masse rührst. So kannst du den Teig danach zügig in den Ofen bringen."
+      }
+    }
+  ]
+}

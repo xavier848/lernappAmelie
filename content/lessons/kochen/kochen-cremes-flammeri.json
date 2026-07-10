@@ -1,0 +1,112 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-cremes-flammeri",
+  "title": "Creme und Flammeri genau erklärt",
+  "sort": 230,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍮 Manche Speisen kannst du aus der Form stürzen, andere bleiben weich. Sortiere.",
+        "buckets": [
+          { "id": "stuerzen", "label": "Lässt sich stürzen", "icon": "🍥" },
+          { "id": "weich", "label": "Bleibt weich in der Schale", "icon": "🥣" }
+        ],
+        "items": [
+          { "text": "Flammeri", "bucket": "stuerzen" },
+          { "text": "Grießflammeri", "bucket": "stuerzen" },
+          { "text": "Reisflammeri", "bucket": "stuerzen" },
+          { "text": "Gekochte Creme", "bucket": "weich" },
+          { "text": "Kalt gerührte Creme", "bucket": "weich" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Du kochst eine Creme für einen Gast ohne tierisches Eiweiß und ohne Gluten. Welches Bindemittel nimmst du?",
+        "options": [
+          { "text": "Mais-, Soja- oder Leinmehl.", "correct": true },
+          { "text": "Ganz normales Weizenmehl." },
+          { "text": "Gar kein Bindemittel." }
+        ],
+        "explanation": "Eine gekochte Creme wird mit Stärke oder Grieß fest. Mais-, Soja- oder Leinmehl binden auch. Sie sind pflanzlich und glutenfrei. So passt die Creme für vegane und glutenfreie Ernährung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍧 So machst du einen Flammeri. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥄 Stärke mit etwas kalter Milch glatt rühren." },
+          { "text": "🍶 Die restliche Milch mit Zucker und Vanillezucker aufkochen." },
+          { "text": "🌀 Die angerührte Stärke einrühren und einmal aufkochen." },
+          { "text": "💧 Die Förmchen mit kaltem Wasser ausspülen und füllen." },
+          { "text": "❄️ Den Flammeri abkühlen und kalt stellen." },
+          { "text": "🍮 Den festen Flammeri auf einen Teller stürzen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍊 Welche Flüssigkeit kannst du für einen Flammeri nehmen?",
+        "options": [
+          { "text": "Milch oder Fruchtsaft.", "correct": true },
+          { "text": "Nur Milch, sonst wird er nicht fest." },
+          { "text": "Nur klares Wasser." }
+        ],
+        "explanation": "Ein Flammeri gelingt mit Milch. Er gelingt aber auch mit Fruchtsaft. So bekommst du zum Beispiel einen fruchtigen Orangen-Flammeri."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Jeder Flammeri und jede Creme hat eine besondere Zutat. Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "🌾 Grießflammeri" }, "right": { "text": "Grieß statt Stärke" } },
+          { "left": { "text": "🍚 Reisflammeri" }, "right": { "text": "Rundkornreis statt Stärke" } },
+          { "left": { "text": "🍊 Orangen-Flammeri" }, "right": { "text": "Fruchtsaft statt Milch" } },
+          { "left": { "text": "🥃 Irish-Cream-Creme" }, "right": { "text": "ein Schuss Likör" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Bevor du den Flammeri in die Form füllst: Was machst du mit der Form?",
+        "options": [
+          { "text": "Die Form mit kaltem Wasser ausspülen.", "correct": true },
+          { "text": "Die Form dick mit Butter einfetten." },
+          { "text": "Die Form mit Mehl bestäuben." }
+        ],
+        "explanation": "Spüle die Form mit kaltem Wasser aus. Dann löst sich der Flammeri nach dem Erkalten leicht. Du kannst ihn dann sauber auf einen Teller stürzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍮 Im Laden heißt ein Flammeri oft „Pudding\". Was ist ein ECHTER Pudding?",
+        "options": [
+          { "text": "Ein echter Pudding wird in einer festen Form im Wasserbad gegart und warm gestürzt.", "correct": true },
+          { "text": "Ein echter Pudding ist genau das Gleiche wie ein Flammeri." },
+          { "text": "Ein echter Pudding wird nur kalt gerührt." }
+        ],
+        "explanation": "Ein Flammeri wird mit Stärke gekocht. Ein echter Pudding ist anders: Er kommt in eine feste Form mit Deckel. Er gart im Wasserbad und wird warm gestürzt. Es gibt ihn süß oder pikant."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Zum Schluss: Wie machst du eine gekochte Creme cremiger und feiner im Geschmack?",
+        "options": [
+          { "text": "Steif geschlagene Sahne unter die abgekühlte Creme heben.", "correct": true },
+          { "text": "Viel Salz einrühren." },
+          { "text": "Kaltes Wasser dazugießen." }
+        ],
+        "explanation": "Schlage Sahne steif. Hebe sie vorsichtig unter die abgekühlte Creme. Das macht die Creme locker, cremig und lecker."
+      }
+    }
+  ]
+}

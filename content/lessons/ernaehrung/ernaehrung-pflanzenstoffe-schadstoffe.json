@@ -1,0 +1,124 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-pflanzenstoffe-schadstoffe",
+  "title": "Schutzstoffe und Schadstoffe im Essen",
+  "sort": 270,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 In Obst und Gemüse stecken sekundäre Pflanzenstoffe. Was sind das?",
+        "options": [
+          { "text": "Stoffe, die die Pflanze bildet, um sich zu schützen. Für uns sind sie gesund, geben aber keine Energie.", "correct": true },
+          { "text": "Stoffe, die dem Körper viel Energie geben, so wie Fett." },
+          { "text": "Kleine Tiere, die auf der Pflanze leben." }
+        ],
+        "explanation": "Die Pflanze bildet diese Stoffe nur in winzigen Mengen. Sie schützen die Pflanze und sind auch für dich gesund. Energie liefern sie aber nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐛 Wozu bildet die Pflanze diese Schutzstoffe?",
+        "options": [
+          { "text": "Sie wehren Schädlinge ab und locken Insekten an.", "correct": true },
+          { "text": "Sie machen die Pflanze größer und schwerer." },
+          { "text": "Sie sind nur zufällig da und haben keine Aufgabe." }
+        ],
+        "explanation": "Die Stoffe schützen die Pflanze vor Schädlingen und Krankheiten. Manche locken auch Insekten an, zum Beispiel mit Farbe oder Duft."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎨 Manche Pflanzenstoffe geben Farbe. Ordne den Farbstoff dem Lebensmittel zu.",
+        "pairs": [
+          { "left": { "text": "Carotinoide" }, "right": { "text": "🥕 Möhre & Tomate" } },
+          { "left": { "text": "Chlorophyll" }, "right": { "text": "🥬 Spinat & Grünkohl" } },
+          { "left": { "text": "Anthozyane" }, "right": { "text": "🍇 Weintraube & Rotkohl" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌈 Die Farbstoffe färben das Gemüse. Sortiere das Gemüse nach seiner Farbe.",
+        "buckets": [
+          { "id": "rotgelb", "label": "Rot & Gelb (Carotinoide)", "icon": "🟠" },
+          { "id": "gruen", "label": "Grün (Chlorophyll)", "icon": "🟢" },
+          { "id": "violett", "label": "Violett (Anthozyane)", "icon": "🟣" }
+        ],
+        "items": [
+          { "text": "Möhre", "bucket": "rotgelb" },
+          { "text": "Paprika", "bucket": "rotgelb" },
+          { "text": "Spinat", "bucket": "gruen" },
+          { "text": "Grünkohl", "bucket": "gruen" },
+          { "text": "Rotkohl", "bucket": "violett" },
+          { "text": "Aubergine", "bucket": "violett" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👃 Andere Pflanzenstoffe wirken auf Geruch und Geschmack. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "Schwefel-Verbindungen" }, "right": { "text": "🧅 Zwiebel & Knoblauch" } },
+          { "left": { "text": "Monoterpene" }, "right": { "text": "🍋 Zitrone & Pfefferminze" } },
+          { "left": { "text": "Polyphenole" }, "right": { "text": "🍵 Tee & Rotwein" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Nicht alles im Essen ist erwünscht. Manche Stoffe nennt man Schadstoffe. Woher kommt Acrylamid?",
+        "options": [
+          { "text": "Es entsteht beim starken Backen, Braten und Frittieren.", "correct": true },
+          { "text": "Es wird extra ins Essen gemischt, damit es besser schmeckt." },
+          { "text": "Es steckt von Natur aus in jeder Frucht." }
+        ],
+        "explanation": "Acrylamid entsteht erst beim Verarbeiten, zum Beispiel in dunkel gebackenem Gebäck oder in braunen Pommes. Darum lieber goldgelb backen statt dunkelbraun."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔎 Schadstoffe kommen aus verschiedenen Quellen. Ordne die Herkunft dem Beispiel zu.",
+        "pairs": [
+          { "left": { "text": "Rückstand aus dem Anbau" }, "right": { "text": "🚜 Pflanzenschutzmittel" } },
+          { "left": { "text": "Umwelt: Industrie & Verkehr" }, "right": { "text": "🏭 Schmutz aus der Luft" } },
+          { "left": { "text": "Beim Verarbeiten entstanden" }, "right": { "text": "🔥 Acrylamid im Gebäck" } },
+          { "left": { "text": "Von Natur aus enthalten" }, "right": { "text": "🥔 Solanin in der Kartoffel" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌿 Manche Lebensmittel haben von Natur aus einen Schadstoff. Ordne den Stoff zu.",
+        "pairs": [
+          { "left": { "text": "Solanin" }, "right": { "text": "🥔 grüne Kartoffel" } },
+          { "left": { "text": "Cumarin" }, "right": { "text": "🍂 Zimt" } },
+          { "left": { "text": "Oxalsäure" }, "right": { "text": "🌱 Rhabarber & Spinat" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Eine Kartoffel hat grüne Stellen. Was machst du?",
+        "options": [
+          { "text": "Die grünen Stellen großzügig wegschneiden. Kartoffeln immer dunkel lagern.", "correct": true },
+          { "text": "Nichts, grüne Stellen sind besonders gesund." },
+          { "text": "Die Kartoffel ins helle Fenster legen, damit sie nachreift." }
+        ],
+        "explanation": "In grünen Stellen steckt Solanin. Das ist ein natürlicher Schadstoff. Schneide grüne und keimende Stellen weg und lagere Kartoffeln dunkel und kühl."
+      }
+    }
+  ]
+}

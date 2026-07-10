@@ -1,0 +1,125 @@
+{
+  "topic_slug": "wahrnehmung",
+  "slug": "wahrnehmung-sinnesuebungen",
+  "title": "Übungen für die fünf Sinne",
+  "sort": 31,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Welcher Sinn gilt als der ursprünglichste Sinn des Menschen?",
+        "options": [
+          { "text": "Der Geruchssinn – also das Riechen.", "correct": true },
+          { "text": "Der Sehsinn – also das Sehen." },
+          { "text": "Der Tastsinn – also das Fühlen." }
+        ],
+        "explanation": "Das Riechen ist der älteste Sinn. Gerüche wecken oft starke Erinnerungen und Gefühle. Ein Duft kann dich sofort an früher denken lassen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👅 Es gibt vier Grund-Geschmacksrichtungen. Welches Lebensmittel passt?",
+        "pairs": [
+          { "left": { "text": "🍯 Süß" }, "right": { "text": "Honig" } },
+          { "left": { "text": "🧂 Salzig" }, "right": { "text": "Salz-Stange" } },
+          { "left": { "text": "🍋 Sauer" }, "right": { "text": "Zitrone" } },
+          { "left": { "text": "☕ Bitter" }, "right": { "text": "Schwarzer Kaffee" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Welche vier Geschmacksrichtungen übst du beim Schmecken?",
+        "options": [
+          { "text": "Süß, salzig, sauer und bitter.", "correct": true },
+          { "text": "Warm, kalt, weich und hart." },
+          { "text": "Rot, gelb, grün und blau." }
+        ],
+        "explanation": "Die Zunge schmeckt vier Grund-Richtungen: süß, salzig, sauer und bitter. Beim Üben probierst du Lebensmittel und ordnest sie diesen Richtungen zu."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎯 Welchen Sinn übst du damit? Sortiere.",
+        "buckets": [
+          { "id": "riechen", "label": "Riechen", "icon": "👃" },
+          { "id": "fuehlen", "label": "Fühlen", "icon": "✋" },
+          { "id": "schmecken", "label": "Schmecken", "icon": "👅" }
+        ],
+        "items": [
+          { "text": "An einem Zweig Pfefferminze schnuppern", "bucket": "riechen" },
+          { "text": "Vanille-Öl auf Watte erschnuppern", "bucket": "riechen" },
+          { "text": "Im Karton einen Tannenzapfen ertasten", "bucket": "fuehlen" },
+          { "text": "Mit den Füßen über verschiedene Böden gehen", "bucket": "fuehlen" },
+          { "text": "Einen Tropfen Essig probieren", "bucket": "schmecken" },
+          { "text": "Ein Stück Apfel kosten", "bucket": "schmecken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤫 Beim Hören übt man auch die Stille. Was ist Stille im engeren Sinn?",
+        "options": [
+          { "text": "Wenn gar kein Geräusch da ist – also Lautlosigkeit.", "correct": true },
+          { "text": "Wenn leise Musik läuft." },
+          { "text": "Wenn nur eine Person spricht." }
+        ],
+        "explanation": "Stille im engeren Sinn heißt: Es ist gar kein Geräusch zu hören. Im weiteren Sinn meint Stille auch das Zur-Ruhe-Kommen und den Abstand vom Alltag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙈 Beim Fühlen verbindest du oft die Augen. Warum?",
+        "options": [
+          { "text": "Damit du nur den Tastsinn benutzt und nicht mit den Augen schummelst.", "correct": true },
+          { "text": "Damit die Übung schneller geht." },
+          { "text": "Damit du dich besser ausruhen kannst." }
+        ],
+        "explanation": "Ohne Augen kannst du nicht sehen, was du in der Hand hast. So trainierst du allein den Tastsinn. Du erkennst den Gegenstand nur durch das Fühlen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "👀 So machst du eine Seh-Übung (das Kim-Spiel). Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Mehrere Gegenstände auf einen Tisch legen." },
+          { "text": "Die Gegenstände in Ruhe genau anschauen." },
+          { "text": "Die Gegenstände mit einem Tuch abdecken." },
+          { "text": "Alle Gegenstände aus dem Gedächtnis aufzählen." },
+          { "text": "Das Tuch abnehmen und die Antworten prüfen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👂 Für eine Hör-Übung füllst du Dosen mit Material. Was passt gut hinein?",
+        "options": [
+          { "text": "Reis, Sand oder kleine Steine.", "correct": true },
+          { "text": "Wasserdampf und Rauch." },
+          { "text": "Licht und Schatten." }
+        ],
+        "explanation": "In verschlossene Dosen kommen zum Beispiel Reis, Sand, Zucker oder Steine. Beim Schütteln klingt jede Dose anders. Am Klang sollst du erraten, was drin ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz leicht: Du gehst barfuß über Gras, Steine und Waldboden. Welchen Sinn übst du?",
+        "options": [
+          { "text": "Den Tastsinn – also das Fühlen.", "correct": true },
+          { "text": "Den Geschmackssinn." },
+          { "text": "Den Sehsinn." }
+        ],
+        "explanation": "Auch die Füße können fühlen. Auf einem Barfuß-Parcours spürst du verschiedene Böden. So trainierst du deinen Tastsinn."
+      }
+    }
+  ]
+}

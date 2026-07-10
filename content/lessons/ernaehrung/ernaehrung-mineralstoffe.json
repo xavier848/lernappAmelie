@@ -1,0 +1,114 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-mineralstoffe",
+  "title": "Mineralstoffe im Detail",
+  "sort": 250,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧂 Man teilt Mineralstoffe in zwei Gruppen ein. Wonach richtet sich das?",
+        "options": [
+          { "text": "Nach der Menge, die der Körper braucht", "correct": true },
+          { "text": "Nach der Farbe" },
+          { "text": "Nach dem Preis" }
+        ],
+        "explanation": "Von manchen Mineralstoffen braucht der Körper viel. Das sind die Mengenelemente. Von anderen braucht er nur ganz wenig. Das sind die Spurenelemente."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🪣 Sortiere die Mineralstoffe. Von Mengenelementen braucht der Körper viel, von Spurenelementen nur wenig.",
+        "buckets": [
+          { "id": "menge", "label": "Mengenelemente (viel)", "icon": "🪣" },
+          { "id": "spur", "label": "Spurenelemente (wenig)", "icon": "🥄" }
+        ],
+        "items": [
+          { "text": "🦴 Calcium", "bucket": "menge" },
+          { "text": "🍌 Kalium", "bucket": "menge" },
+          { "text": "🧂 Natrium", "bucket": "menge" },
+          { "text": "🦷 Phosphor", "bucket": "menge" },
+          { "text": "🩸 Eisen", "bucket": "spur" },
+          { "text": "🐟 Jod", "bucket": "spur" },
+          { "text": "🧬 Zink", "bucket": "spur" },
+          { "text": "🟤 Kupfer", "bucket": "spur" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jeder Mineralstoff hat eine wichtige Aufgabe im Körper. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🦴 Calcium" }, "right": { "text": "Baut Knochen und Zähne" } },
+          { "left": { "text": "🩸 Eisen" }, "right": { "text": "Bringt Sauerstoff ins Blut" } },
+          { "left": { "text": "🦋 Jod" }, "right": { "text": "Wichtig für die Schilddrüse" } },
+          { "left": { "text": "🧂 Natrium" }, "right": { "text": "Regelt den Wasserhaushalt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: In welchem Essen steckt viel davon? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🦴 Calcium" }, "right": { "text": "🥛 Milch und Käse" } },
+          { "left": { "text": "🩸 Eisen" }, "right": { "text": "🍖 Fleisch und Leber" } },
+          { "left": { "text": "🦋 Jod" }, "right": { "text": "🐟 Seefisch" } },
+          { "left": { "text": "🍌 Kalium" }, "right": { "text": "🥔 Kartoffeln und Obst" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟤 Kupfer ist ein Spurenelement. Bei welcher Aufgabe hilft es dem Körper?",
+        "options": [
+          { "text": "Es hilft, das Eisen im Körper zu transportieren.", "correct": true },
+          { "text": "Es macht die Haare blond." },
+          { "text": "Es baut die Zähne auf." }
+        ],
+        "explanation": "Kupfer ist ein Baustein von Enzymen. Es sorgt dafür, dass das Eisen im Körper richtig transportiert wird. Kupfer steckt zum Beispiel in Nüssen, Fisch und Kakao."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦷 Phosphor ist ein Mengenelement. Wofür braucht der Körper Phosphor?",
+        "options": [
+          { "text": "Für Knochen und Zähne und für die Energie in den Zellen", "correct": true },
+          { "text": "Nur für die Haare" },
+          { "text": "Für die Farbe der Haut" }
+        ],
+        "explanation": "Phosphor steckt in Knochen und Zähnen. Es hilft auch bei der Energieversorgung der Zellen. Phosphor findest du in eiweißreichem Essen wie Fleisch, Fisch, Milch und Eiern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧬 Zink ist ein Spurenelement. Was macht Zink im Körper?",
+        "options": [
+          { "text": "Es ist ein Baustein von vielen Enzymen.", "correct": true },
+          { "text": "Es färbt das Blut rot." },
+          { "text": "Es macht die Knochen weich." }
+        ],
+        "explanation": "Zink steckt in vielen Enzymen. Enzyme sind kleine Helfer im Körper. Zink ist auch bei der Speicherung von Insulin dabei. Viel Zink steckt in Fleisch, Hafer und Weizen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Welcher Mineralstoff macht Knochen und Zähne stark?",
+        "options": [
+          { "text": "🦴 Calcium", "correct": true },
+          { "text": "🦋 Jod" },
+          { "text": "🟤 Kupfer" }
+        ],
+        "explanation": "Calcium baut Knochen und Zähne auf. Es steckt vor allem in Milch, Käse und Joghurt. Darum sind Milchprodukte gut für die Knochen."
+      }
+    }
+  ]
+}

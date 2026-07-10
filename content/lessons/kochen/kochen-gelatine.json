@@ -1,0 +1,125 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-gelatine",
+  "title": "Mit Gelatine sicher arbeiten",
+  "sort": 240,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Gelatine ist farblos, geruchlos und schmeckt nach nichts. Wofür kannst du sie darum nehmen?",
+        "options": [
+          { "text": "Für süße und für pikante Speisen.", "correct": true },
+          { "text": "Nur für süße Speisen." },
+          { "text": "Nur für rote Speisen." }
+        ],
+        "explanation": "Gelatine wird aus tierischem Eiweiß gewonnen. Sie ist farblos und schmeckt nach nichts. Darum passt sie zu süßen Desserts und auch zu pikanten Speisen wie einer Gemüsesülze."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 In welchen Formen kannst du Gelatine kaufen?",
+        "options": [
+          { "text": "Als Blätter, als Pulver und als Sofort-Gelatine.", "correct": true },
+          { "text": "Nur als Blätter." },
+          { "text": "Nur flüssig in der Flasche." }
+        ],
+        "explanation": "Es gibt Blattgelatine, Pulvergelatine und Sofort-Gelatine. Blattgelatine musst du erst einweichen. Sofort-Gelatine kannst du gleich einrühren."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Für jede Speise brauchst du eine andere Menge Gelatine (pro halben Liter). Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "🍹 Gelee in der Schale" }, "right": { "text": "6 Blatt" } },
+          { "left": { "text": "🍮 Gelee zum Stürzen" }, "right": { "text": "8 bis 10 Blatt" } },
+          { "left": { "text": "🥛 Creme ohne Ei" }, "right": { "text": "4 bis 5 Blatt" } },
+          { "left": { "text": "🍋 Saure pikante Speise" }, "right": { "text": "1 bis 2 Blatt mehr" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Amelie kocht für einen Gast, der vegan lebt. Was nimmt sie statt Gelatine?",
+        "options": [
+          { "text": "Agar-Agar. Das ist ein pflanzliches Geliermittel aus Algen.", "correct": true },
+          { "text": "Einfach mehr Zucker." },
+          { "text": "Ganz normale Blattgelatine." }
+        ],
+        "explanation": "Agar-Agar wird aus Algen gemacht. Es ist pflanzlich und passt für vegane Ernährung. Ein Beutel Agar-Agar bindet etwa so gut wie 6 Blatt Gelatine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Woran erkennst du, dass die Creme fest genug ist, um die Sahne unterzuheben?",
+        "options": [
+          { "text": "Der Schneebesen zieht sichtbare Bahnen in der Creme.", "correct": true },
+          { "text": "Die Creme fängt an zu kochen." },
+          { "text": "Die Creme ist noch ganz dünn und flüssig." }
+        ],
+        "explanation": "Zieh mit dem Schneebesen durch die Creme. Wenn du danach kurze Bahnen siehst, ist der richtige Moment da. Erst dann die Sahne unterheben. Sonst setzt sich die Sahne unten ab."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍹 So machst du ein Gelee. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "💧 Die Blätter Gelatine in kaltem Wasser einweichen." },
+          { "text": "♨️ Die weiche Gelatine vorsichtig auflösen." },
+          { "text": "🥄 Ein paar Löffel der kalten Flüssigkeit zur Gelatine rühren." },
+          { "text": "🌀 Die Gelatine mit Zucker in die restliche Flüssigkeit rühren." },
+          { "text": "🥃 Alles in Gläser oder Schälchen füllen." },
+          { "text": "❄️ Kühl stellen, bis das Gelee fest ist." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍍 Welches Obst passt frisch in eine Gelatine-Speise? Sortiere.",
+        "buckets": [
+          { "id": "passt", "label": "Passt frisch hinein", "icon": "✅" },
+          { "id": "erst", "label": "Erst kochen oder Dose nehmen", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "🍎 Apfel", "bucket": "passt" },
+          { "text": "🍓 Erdbeere", "bucket": "passt" },
+          { "text": "🍌 Banane", "bucket": "passt" },
+          { "text": "🍍 Frische Ananas", "bucket": "erst" },
+          { "text": "🥝 Frische Kiwi", "bucket": "erst" },
+          { "text": "🫐 Frische Papaya", "bucket": "erst" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Deine Gelatine-Speise ist zu fest geworden oder hat Klümpchen. Was tust du?",
+        "options": [
+          { "text": "Die Speise vorsichtig erwärmen. Dann wird sie wieder flüssig.", "correct": true },
+          { "text": "Die Speise wegwerfen und neu anfangen." },
+          { "text": "Noch mehr Gelatine dazugeben." }
+        ],
+        "explanation": "Erwärme die Speise vorsichtig. Die Gelatine wird wieder flüssig. Dann kannst du sie glatt rühren und wie gewohnt weitermachen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Zum Schluss: Wie lange weichst du Blattgelatine in kaltem Wasser ein?",
+        "options": [
+          { "text": "Etwa 10 Minuten.", "correct": true },
+          { "text": "Nur eine Sekunde." },
+          { "text": "Einen ganzen Tag." }
+        ],
+        "explanation": "Leg die Blätter einzeln in kaltes Wasser. Nach etwa 10 Minuten sind sie weich. Dann kannst du sie abtropfen und auflösen."
+      }
+    }
+  ]
+}
