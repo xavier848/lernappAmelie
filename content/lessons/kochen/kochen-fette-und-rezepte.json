@@ -1,0 +1,132 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-fette-und-rezepte",
+  "title": "Fette, Öle und Rezepte lesen",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Butter wird in der heißen Pfanne schnell braun und spritzt. Warum?",
+        "options": [
+          { "text": "Butter enthält Wasser und Eiweiß.", "correct": true },
+          { "text": "Butter ist zu kalt aus dem Kühlschrank." },
+          { "text": "Die Pfanne ist zu groß." }
+        ],
+        "explanation": "In Butter und Margarine stecken Wasser und Eiweiß. Bei großer Hitze spritzt das Wasser. Das Eiweiß wird braun und verbrennt. Darum darf Butter nicht sehr heiß werden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Welches Fett hält große Hitze aus? Sortiere.",
+        "buckets": [
+          { "id": "hoch", "label": "Hoch erhitzbar", "icon": "🔥" },
+          { "id": "nicht", "label": "Nicht hoch erhitzbar", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "🌻 Reines Pflanzenöl", "bucket": "hoch" },
+          { "text": "🥥 Reines Pflanzenfett", "bucket": "hoch" },
+          { "text": "🐖 Schweineschmalz", "bucket": "hoch" },
+          { "text": "🐄 Rindertalg", "bucket": "hoch" },
+          { "text": "🧈 Butter", "bucket": "nicht" },
+          { "text": "🧴 Margarine", "bucket": "nicht" },
+          { "text": "🫒 Kaltgepresstes Olivenöl", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Ein Gericht wird sehr heiß gebraten – über 150 °C. Welches Fett nimmst du?",
+        "options": [
+          { "text": "Reines Pflanzenöl oder reines Pflanzenfett.", "correct": true },
+          { "text": "Butter." },
+          { "text": "Margarine." }
+        ],
+        "explanation": "Reine Öle und Fette enthalten kein Wasser und kein Eiweiß. Sie halten große Hitze aus. Auch Schmalz und Talg kannst du stark erhitzen. Butter und Margarine würden verbrennen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌡️ Wie heiß wird das Gericht? Wähle das passende Fett.",
+        "buckets": [
+          { "id": "butter", "label": "Butter oder Margarine (unter 150 °C)", "icon": "🧈" },
+          { "id": "oel", "label": "Reines Öl oder Fett (über 150 °C)", "icon": "🔥" }
+        ],
+        "items": [
+          { "text": "🍰 Marmorkuchen backen", "bucket": "butter" },
+          { "text": "🥕 Karottengemüse dünsten", "bucket": "butter" },
+          { "text": "🥩 Gulasch scharf anbraten", "bucket": "oel" },
+          { "text": "🍟 Pommes frites frittieren", "bucket": "oel" },
+          { "text": "🥞 Pfannkuchen in der Pfanne backen", "bucket": "oel" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Bei welchen Garverfahren brauchst du Fett oder Öl?",
+        "options": [
+          { "text": "Beim Braten und Frittieren.", "correct": true },
+          { "text": "Beim Kochen in Wasser." },
+          { "text": "Beim Garen im Dampf." }
+        ],
+        "explanation": "Mit Fett oder Öl arbeitest du beim Dünsten, Schmoren, Braten und Frittieren. Beim Kochen und beim Dampfgaren gart Wasser das Essen – dafür brauchst du kein Fett."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 Du schreibst ein Bildrezept als Text auf. Wie baust du das Textrezept auf?",
+        "options": [
+          { "text": "Links die Zutaten mit Menge, rechts die Arbeitsschritte.", "correct": true },
+          { "text": "Alles in einem langen Satz." },
+          { "text": "Nur die Zutaten, ohne Arbeitsschritte." }
+        ],
+        "explanation": "Ein Textrezept hat zwei Spalten: Links steht die Zutat mit der Menge. Rechts steht, was du mit der Zutat machst. So findest du dich beim Kochen schnell zurecht."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍅 Tomatensalat machen: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Tomaten waschen und in Scheiben schneiden." },
+          { "text": "Die Zwiebel schälen, würfeln und über die Tomaten streuen." },
+          { "text": "Essig, Öl und Wasser zu einer Marinade verrühren." },
+          { "text": "Die Marinade mit Salz, Zucker und Pfeffer würzen." },
+          { "text": "Schnittlauch klein schneiden und in die Marinade geben." },
+          { "text": "Die Marinade über die Tomaten gießen." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥔 Kartoffelbrei machen: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Kartoffeln waschen und schälen." },
+          { "text": "Die Kartoffeln kochen." },
+          { "text": "Die Kartoffeln durch die Kartoffelpresse drücken." },
+          { "text": "Heiße Milch mit Butter dazugeben." },
+          { "text": "Alles schaumig rühren." },
+          { "text": "Mit Salz und Muskatnuss abschmecken." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👩‍🍳 Was machst du mit der Zutat? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🍅 Tomaten" }, "right": { "text": "Waschen und in Scheiben schneiden" } },
+          { "left": { "text": "🧅 Zwiebel" }, "right": { "text": "Schälen und würfeln" } },
+          { "left": { "text": "🥔 Kartoffeln" }, "right": { "text": "Kochen und durch die Presse drücken" } },
+          { "left": { "text": "🌿 Schnittlauch" }, "right": { "text": "Klein schneiden" } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-vitamine-mineralstoffe",
+  "title": "Vitamine und Mineralstoffe",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍊 Vitamine teilt man in zwei Gruppen. Manche lösen sich in Fett, manche in Wasser. Sortiere sie.",
+        "buckets": [
+          { "id": "fett", "label": "Fettlöslich", "icon": "🧈" },
+          { "id": "wasser", "label": "Wasserlöslich", "icon": "💧" }
+        ],
+        "items": [
+          { "text": "Vitamin A", "bucket": "fett" },
+          { "text": "Vitamin D", "bucket": "fett" },
+          { "text": "Vitamin E", "bucket": "fett" },
+          { "text": "Vitamin K", "bucket": "fett" },
+          { "text": "Vitamin C", "bucket": "wasser" },
+          { "text": "Vitamin B1", "bucket": "wasser" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔑 Welche Vitamine sind fettlöslich?",
+        "options": [
+          { "text": "A, D, E und K", "correct": true },
+          { "text": "B und C" },
+          { "text": "Nur Vitamin C" }
+        ],
+        "explanation": "Fettlöslich sind A, D, E und K. Als Merkhilfe kannst du dir das Wort EDEKA denken: E, D, E, K, A. Alle anderen Vitamine (B-Gruppe und C) sind wasserlöslich."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧂 Mineralstoffe teilt man nach der Menge ein, die der Körper braucht. Sortiere sie.",
+        "buckets": [
+          { "id": "menge", "label": "Mengen­elemente (viel)", "icon": "🪣" },
+          { "id": "spur", "label": "Spuren­elemente (wenig)", "icon": "🥄" }
+        ],
+        "items": [
+          { "text": "🦴 Calcium", "bucket": "menge" },
+          { "text": "🍌 Kalium", "bucket": "menge" },
+          { "text": "🌿 Magnesium", "bucket": "menge" },
+          { "text": "🩸 Eisen", "bucket": "spur" },
+          { "text": "🐟 Jod", "bucket": "spur" },
+          { "text": "🧬 Zink", "bucket": "spur" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Fehlt ein Vitamin lange, kann man krank werden. Ordne die Krankheit dem fehlenden Vitamin zu.",
+        "pairs": [
+          { "left": { "text": "🦴 Rachitis (weiche Knochen)" }, "right": { "text": "Vitamin D fehlt" } },
+          { "left": { "text": "🦷 Skorbut (Zahnfleisch blutet)" }, "right": { "text": "Vitamin C fehlt" } },
+          { "left": { "text": "🦵 Beri-Beri (schwache Nerven)" }, "right": { "text": "Vitamin B1 fehlt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jeder Mineralstoff hat eine wichtige Aufgabe. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🦴 Calcium" }, "right": { "text": "Baut Knochen und Zähne" } },
+          { "left": { "text": "🩸 Eisen" }, "right": { "text": "Bringt Sauerstoff ins Blut" } },
+          { "left": { "text": "🦋 Jod" }, "right": { "text": "Wichtig für die Schilddrüse" } },
+          { "left": { "text": "🦷 Fluor" }, "right": { "text": "Härtet den Zahnschmelz" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦴 Ein Kind bekommt zu wenig Vitamin D. Welche Krankheit droht?",
+        "options": [
+          { "text": "Rachitis – die Knochen werden weich.", "correct": true },
+          { "text": "Skorbut – das Zahnfleisch blutet." },
+          { "text": "Beri-Beri – die Nerven werden schwach." }
+        ],
+        "explanation": "Vitamin D sorgt dafür, dass Calcium in die Knochen kommt. Fehlt es, werden die Knochen weich. Das nennt man Rachitis. Vitamin D steckt in fettem Fisch, Eigelb und Butter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩸 Welcher Mineralstoff steckt im Blut und bringt Sauerstoff durch den Körper?",
+        "options": [
+          { "text": "🩸 Eisen", "correct": true },
+          { "text": "🦋 Jod" },
+          { "text": "🦷 Fluor" }
+        ],
+        "explanation": "Eisen steckt in den roten Blutkörperchen und transportiert den Sauerstoff. Bei Eisenmangel fühlt man sich müde und blass. Viel Eisen ist in Fleisch, Leber und Vollkorn."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Was passiert mit zu viel wasserlöslichem Vitamin, zum Beispiel Vitamin C?",
+        "options": [
+          { "text": "Der Körper scheidet es über den Urin aus.", "correct": true },
+          { "text": "Der Körper speichert es für Jahre." },
+          { "text": "Der Körper wandelt es in Fett um." }
+        ],
+        "explanation": "Wasserlösliche Vitamine speichert der Körper kaum. Zu viel davon geht über den Urin wieder raus. Fettlösliche Vitamine (A, D, E, K) dagegen kann der Körper speichern."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: In welchem Essen steckt viel davon? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🦴 Calcium" }, "right": { "text": "🥛 Milch und Käse" } },
+          { "left": { "text": "🩸 Eisen" }, "right": { "text": "🍖 Fleisch und Leber" } },
+          { "left": { "text": "🍊 Vitamin C" }, "right": { "text": "🍓 Obst und Gemüse" } },
+          { "left": { "text": "🦋 Jod" }, "right": { "text": "🐟 Seefisch" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Welcher Mineralstoff macht Knochen und Zähne stark?",
+        "options": [
+          { "text": "🦴 Calcium", "correct": true },
+          { "text": "🦋 Jod" },
+          { "text": "🩸 Eisen" }
+        ],
+        "explanation": "Calcium baut Knochen und Zähne. Es steckt vor allem in Milch, Käse und Joghurt. Darum sind Milchprodukte gut für die Knochen."
+      }
+    }
+  ]
+}

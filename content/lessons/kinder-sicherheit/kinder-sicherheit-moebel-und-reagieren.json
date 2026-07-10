@@ -1,0 +1,135 @@
+{
+  "topic_slug": "kinder-sicherheit",
+  "slug": "kinder-sicherheit-moebel-und-reagieren",
+  "title": "Kippende Möbel und richtig reagieren",
+  "sort": 7,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Ein Baby beginnt, sich hochzuziehen. Woran darf es sich festhalten?",
+        "options": [
+          { "text": "Nur an stabilen, festen Möbeln.", "correct": true },
+          { "text": "An allem, was gerade in der Nähe ist." },
+          { "text": "Am besten an der Tischdecke." }
+        ],
+        "explanation": "Kinder ziehen sich an allem hoch, was sie greifen können. Prüfe die Wohnung aus der Sicht des Kindes: Was wackelt? Was kann kippen oder herunterfallen?"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏠 Das Kind zieht sich hoch. Was ist sicher? Wo droht Gefahr? Sortiere.",
+        "buckets": [
+          { "id": "sicher", "label": "Sicher", "icon": "✅" },
+          { "id": "gefahr", "label": "Gefahr", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "🛋️ Ein schweres, stabiles Sofa", "bucket": "sicher" },
+          { "text": "🗄️ Eine Kommode, fest an der Wand verschraubt", "bucket": "sicher" },
+          { "text": "🪑 Ein leichter Stuhl, der wegrutschen kann", "bucket": "gefahr" },
+          { "text": "📚 Ein wackeliges Regal ohne Befestigung", "bucket": "gefahr" },
+          { "text": "🫖 Ein Tisch mit langer Tischdecke und heißem Tee", "bucket": "gefahr" },
+          { "text": "📺 Eine Kommode mit losem Fernseher darauf", "bucket": "gefahr" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📺 Warum ist ein loser Fernseher auf der Kommode gefährlich?",
+        "options": [
+          { "text": "Das Kind zieht sich hoch. Der Fernseher kann auf das Kind fallen.", "correct": true },
+          { "text": "Das Fernseh-Bild wird dort schlechter." },
+          { "text": "Der Fernseher verstaubt dort schneller." }
+        ],
+        "explanation": "Ein Fernseher ist schwer. Fällt er auf ein kleines Kind, wird es schwer verletzt. Stelle nichts Schweres lose auf Möbel. Sichere den Fernseher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⭐ Die Grundregel bei jeder Gefahr: Was kommt zuerst?",
+        "options": [
+          { "text": "Zuerst das Kind schützen. Danach die Gefahr beseitigen.", "correct": true },
+          { "text": "Zuerst aufräumen. Dann nach dem Kind schauen." },
+          { "text": "Zuerst die Eltern anrufen." }
+        ],
+        "explanation": "Das Kind ist wichtiger als jedes Möbelstück. Bring erst das Kind in Sicherheit. Achte dabei auch auf dich selbst. Dann beseitigst du die Gefahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Ein großer, schwerer Schrank kippt schon. Das Kind steht davor. Was machst du?",
+        "options": [
+          { "text": "Ich ziehe das Kind sofort weg. Den Schrank fange ich NICHT auf.", "correct": true },
+          { "text": "Ich stemme mich mit aller Kraft gegen den Schrank." },
+          { "text": "Ich rufe laut um Hilfe und warte." }
+        ],
+        "explanation": "Einen schweren Schrank kannst du nicht halten. Du wirst dabei selbst verletzt. Zieh das Kind blitzschnell aus dem Gefahren-Bereich. Das Kind geht immer vor."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚡ Gefahr erkannt! Was ist die richtige Sofort-Reaktion? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🫖 Kind zieht an der Tischdecke" }, "right": { "text": "Hand lösen, Kind wegziehen" } },
+          { "left": { "text": "🍳 Kind greift nach dem heißen Topf" }, "right": { "text": "Hand wegnehmen, weg vom Herd" } },
+          { "left": { "text": "🚗 Kind läuft Richtung Straße" }, "right": { "text": "Sofort festhalten" } },
+          { "left": { "text": "🧗 Kind klettert auf das Regal" }, "right": { "text": "Herunterheben, Möbel sichern" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Das Kind fasst an eine Steckdose. Was machst du?",
+        "options": [
+          { "text": "Das Kind sofort wegziehen. Danach die Steckdose sichern.", "correct": true },
+          { "text": "Erst mal zuschauen, was passiert." },
+          { "text": "Nichts. Steckdosen sind harmlos." }
+        ],
+        "explanation": "Strom ist lebensgefährlich. Zieh das Kind sofort weg. Danach beseitigst du die Gefahr: Steckdosen-Schutz einsetzen, kaputte Kabel ausschalten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "😮 Das Kind hat ein kleines Teil in den Mund gesteckt. Reagiere richtig – Schritt für Schritt.",
+        "steps": [
+          { "text": "Ruhig bleiben. Nicht erschrecken und nicht schreien." },
+          { "text": "Wenn es leicht geht: das Teil vorsichtig aus dem Mund nehmen." },
+          { "text": "Prüfen: Bekommt das Kind gut Luft?" },
+          { "text": "Wenn nicht: sofort Hilfe holen und Erste Hilfe leisten." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Das Kind öffnet den Schrank mit den Putzmitteln. Was machst du?",
+        "options": [
+          { "text": "Das Kind wegnehmen. Danach die Putzmittel wegschließen.", "correct": true },
+          { "text": "Nur die Schranktür wieder zumachen." },
+          { "text": "Kurz schimpfen und weiterarbeiten." }
+        ],
+        "explanation": "Putzmittel und Medikamente sind giftig. Erst das Kind in Sicherheit bringen. Dann die Gefahr beseitigen: alles hoch lagern oder abschließen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Was schützt du zuerst – das Kind oder die Möbel?",
+        "options": [
+          { "text": "Das Kind. Immer.", "correct": true },
+          { "text": "Die Möbel. Die sind teuer." },
+          { "text": "Keins von beiden." }
+        ],
+        "explanation": "Möbel kann man ersetzen, ein Kind nicht. Zuerst das Kind schützen. Danach die Gefahr beseitigen."
+      }
+    }
+  ]
+}

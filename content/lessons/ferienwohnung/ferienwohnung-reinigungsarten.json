@@ -1,0 +1,148 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-reinigungsarten",
+  "title": "Sicht-, Unterhalts- und Grundreinigung",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Auf dem Tisch ist ein frischer Fleck. Wann entfernst du ihn am besten?",
+        "options": [
+          { "text": "Sofort. Frischer Schmutz geht am leichtesten weg.", "correct": true },
+          { "text": "Nächste Woche. Dann lohnt es sich mehr." },
+          { "text": "Erst, wenn Gäste kommen." }
+        ],
+        "explanation": "Je früher du Schmutz entfernst, desto leichter geht es. Alter Schmutz trocknet ein und haftet fest. Dann brauchst du viel mehr Kraft und Zeit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Es gibt losen Schmutz und fest haftenden Schmutz. Sortiere.",
+        "buckets": [
+          { "id": "lose", "label": "Loser Schmutz", "icon": "🍂" },
+          { "id": "fest", "label": "Fest haftender Schmutz", "icon": "🫠" }
+        ],
+        "items": [
+          { "text": "🍞 Krümel", "bucket": "lose" },
+          { "text": "💨 Staub", "bucket": "lose" },
+          { "text": "🍂 Laub", "bucket": "lose" },
+          { "text": "🍬 Festgetretener Kaugummi", "bucket": "fest" },
+          { "text": "🍳 Eingebrannter Schmutz am Herd", "bucket": "fest" },
+          { "text": "🥤 Eingetrockneter Saft-Fleck", "bucket": "fest" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Was ist eine Sichtreinigung?",
+        "options": [
+          { "text": "Eine schnelle Reinigung: Nur der sichtbare Schmutz kommt weg.", "correct": true },
+          { "text": "Eine sehr gründliche Reinigung mit allen Schränken." },
+          { "text": "Nur aus dem Fenster schauen." }
+        ],
+        "explanation": "Bei der Sichtreinigung machst du nur das weg, was man sieht. Zum Beispiel: lüften, Papierkorb leeren, Krümel wegwischen. Das geht schnell und passiert meist jeden Tag."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📊 Ordne die Reinigungsarten: von schnell und einfach bis sehr gründlich.",
+        "steps": [
+          { "text": "👀 Sichtreinigung: nur sichtbarer Schmutz." },
+          { "text": "🧹 Unterhaltsreinigung: regelmäßig und gründlicher." },
+          { "text": "🧼 Zwischenreinigung: extra gründlich zwischendurch." },
+          { "text": "🪣 Grundreinigung: alles, auch versteckte Stellen." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏠 Du machst ein Gästezimmer sauber. Welche Arbeit gehört zu welcher Reinigungsart?",
+        "buckets": [
+          { "id": "sicht", "label": "Sichtreinigung", "icon": "👀" },
+          { "id": "unterhalt", "label": "Unterhaltsreinigung", "icon": "🧹" },
+          { "id": "grund", "label": "Grundreinigung", "icon": "🪣" }
+        ],
+        "items": [
+          { "text": "🪟 Lüften", "bucket": "sicht" },
+          { "text": "🛏️ Bett glatt ziehen", "bucket": "sicht" },
+          { "text": "🗑️ Papierkorb leeren", "bucket": "sicht" },
+          { "text": "🛏️ Bett frisch beziehen", "bucket": "unterhalt" },
+          { "text": "🧹 Boden saugen", "bucket": "unterhalt" },
+          { "text": "🧽 Fensterbank feucht abwischen", "bucket": "unterhalt" },
+          { "text": "🚪 Schränke innen auswischen", "bucket": "grund" },
+          { "text": "🧴 Teppich shampoonieren", "bucket": "grund" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪣 Wie oft macht man zu Hause eine Grundreinigung?",
+        "options": [
+          { "text": "Selten: etwa 1 bis 2 Mal im Jahr.", "correct": true },
+          { "text": "Jeden Tag." },
+          { "text": "Nie." }
+        ],
+        "explanation": "Die Grundreinigung ist die gründlichste Reinigung. Sie braucht viel Zeit, darum macht man sie zu Hause nur 1 bis 2 Mal im Jahr. In großen Häusern wie Hotels öfter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Wozu gibt es die Zwischenreinigung?",
+        "options": [
+          { "text": "Sie ist extra gründlich, damit die teure Grundreinigung später kommen kann.", "correct": true },
+          { "text": "Sie ist eine Pause zwischen zwei Arbeiten." },
+          { "text": "Man putzt dabei nur die Fenster." }
+        ],
+        "explanation": "Die Grundreinigung kostet viel Zeit und Geld. Eine gründliche Zwischenreinigung hält alles länger schön. So muss die Grundreinigung nicht so oft sein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👥 In großen Häusern putzen Teams nach einem System. Welches System passt zu welcher Beschreibung?",
+        "pairs": [
+          { "left": { "text": "🚶 Kolonnensystem" }, "right": { "text": "Eine Person macht überall die gleiche Arbeit" } },
+          { "left": { "text": "🗺️ Reviersystem" }, "right": { "text": "Eine Person putzt ihren Bereich komplett" } },
+          { "left": { "text": "🔀 Mischsystem" }, "right": { "text": "Beides gemischt: Spezial-Arbeiten plus eigener Bereich" } }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Kolonnensystem oder Reviersystem? Ordne die Aussagen zu.",
+        "buckets": [
+          { "id": "kolonne", "label": "Kolonnensystem", "icon": "🚶" },
+          { "id": "revier", "label": "Reviersystem", "icon": "🗺️" }
+        ],
+        "items": [
+          { "text": "Immer die gleiche Arbeit im ganzen Haus", "bucket": "kolonne" },
+          { "text": "Durch Übung sehr schnell", "bucket": "kolonne" },
+          { "text": "Einseitig: man wird schneller müde", "bucket": "kolonne" },
+          { "text": "Ein eigener Bereich, alles selbst machen", "bucket": "revier" },
+          { "text": "Viel Abwechslung bei der Arbeit", "bucket": "revier" },
+          { "text": "Braucht viele eigene Geräte", "bucket": "revier" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss ein Memory: Wie oft macht man welche Reinigung?",
+        "pairs": [
+          { "left": { "text": "👀 Sichtreinigung" }, "right": { "text": "Jeden Tag, schnell" } },
+          { "left": { "text": "🧹 Unterhaltsreinigung" }, "right": { "text": "Regelmäßig, gründlicher" } },
+          { "left": { "text": "🪣 Grundreinigung" }, "right": { "text": "Selten, dafür komplett" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

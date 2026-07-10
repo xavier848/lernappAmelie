@@ -1,0 +1,149 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-lebensmittel-qualitaet",
+  "title": "Gute Lebensmittel erkennen",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌱 Lebensmittel kommen von Pflanzen oder von Tieren. Sortiere sie.",
+        "buckets": [
+          { "id": "pflanze", "label": "Von der Pflanze", "icon": "🌱" },
+          { "id": "tier", "label": "Vom Tier", "icon": "🐄" }
+        ],
+        "items": [
+          { "text": "🍎 Apfel", "bucket": "pflanze" },
+          { "text": "🥕 Möhre", "bucket": "pflanze" },
+          { "text": "🍝 Nudeln", "bucket": "pflanze" },
+          { "text": "🥚 Ei", "bucket": "tier" },
+          { "text": "🧀 Käse", "bucket": "tier" },
+          { "text": "🥩 Fleisch", "bucket": "tier" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Man kann Lebensmittel auch nach ihrem Haupt-Nährstoff einteilen. Sortiere sie.",
+        "buckets": [
+          { "id": "eiweiss", "label": "Viel Eiweiß", "icon": "🥚" },
+          { "id": "kh", "label": "Viel Kohlenhydrate", "icon": "🍞" },
+          { "id": "fett", "label": "Viel Fett", "icon": "🧈" }
+        ],
+        "items": [
+          { "text": "🐟 Fisch", "bucket": "eiweiss" },
+          { "text": "🥚 Ei", "bucket": "eiweiss" },
+          { "text": "🍞 Brot", "bucket": "kh" },
+          { "text": "🥔 Kartoffeln", "bucket": "kh" },
+          { "text": "🧈 Butter", "bucket": "fett" },
+          { "text": "🫒 Öl", "bucket": "fett" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌸 Ein Lebensmittel hat mehrere Werte. Ordne jedem Wert zu, worum es geht.",
+        "pairs": [
+          { "left": { "text": "😋 Genusswert" }, "right": { "text": "Aussehen, Geruch und Geschmack" } },
+          { "left": { "text": "💪 Gesundheitswert" }, "right": { "text": "Nährstoffe und Vitamine" } },
+          { "left": { "text": "⏱️ Eignungswert" }, "right": { "text": "Preis und Haltbarkeit" } },
+          { "left": { "text": "🌍 Ökologischer Wert" }, "right": { "text": "Gut für die Umwelt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😋 Welcher Wert sagt, wie ein Lebensmittel aussieht, riecht und schmeckt?",
+        "options": [
+          { "text": "😋 Der Genusswert", "correct": true },
+          { "text": "🌍 Der ökologische Wert" },
+          { "text": "⏱️ Der Eignungswert" }
+        ],
+        "explanation": "Der Genusswert steht für Aussehen, Geruch, Geschmack und Konsistenz. Also für alles, was du mit den Sinnen wahrnimmst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Du kaufst regionales Obst in einer Mehrweg-Kiste, um die Umwelt zu schonen. Welcher Wert ist dir wichtig?",
+        "options": [
+          { "text": "🌍 Der ökologische Wert", "correct": true },
+          { "text": "😋 Der Genusswert" },
+          { "text": "💪 Der Gesundheitswert" }
+        ],
+        "explanation": "Beim ökologischen Wert geht es um die Umwelt: kurze Transportwege, wenig Verpackung, Mehrweg und Ware aus der Region und der Saison."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Zusatzstoffe stehen auf der Verpackung. Wie werden sie gekennzeichnet?",
+        "options": [
+          { "text": "Mit einer E-Nummer oder dem Klassen-Namen", "correct": true },
+          { "text": "Mit einem roten Warndreieck" },
+          { "text": "Gar nicht, das ist geheim" }
+        ],
+        "explanation": "Zusatzstoffe müssen in der Zutatenliste stehen. Dort erkennst du sie an einer E-Nummer (zum Beispiel E 300) oder am Klassen-Namen wie Farbstoff oder Konservierungsstoff."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Manche Stoffe lösen Allergien aus. Wie viele davon müssen auf der Verpackung stehen?",
+        "options": [
+          { "text": "14 Allergene", "correct": true },
+          { "text": "3 Allergene" },
+          { "text": "50 Allergene" }
+        ],
+        "explanation": "Es gibt 14 Allergene, die immer gekennzeichnet werden müssen. Dazu gehören zum Beispiel Milch, Eier, Erdnüsse und Fisch. So können Allergiker das Essen sicher meiden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚠️ Welche Zutat ist ein kennzeichnungspflichtiges Allergen und welche nicht?",
+        "buckets": [
+          { "id": "allergen", "label": "Ist ein Allergen", "icon": "⚠️" },
+          { "id": "kein", "label": "Kein Pflicht-Allergen", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "🥜 Erdnuss", "bucket": "allergen" },
+          { "text": "🥛 Milch", "bucket": "allergen" },
+          { "text": "🐟 Fisch", "bucket": "allergen" },
+          { "text": "🌰 Sellerie", "bucket": "allergen" },
+          { "text": "🍚 Reis", "bucket": "kein" },
+          { "text": "🥔 Kartoffel", "bucket": "kein" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Wozu ist der Zusatzstoff da? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🎨 Farbstoff" }, "right": { "text": "Gibt Farbe" } },
+          { "left": { "text": "🧊 Konservierungsstoff" }, "right": { "text": "Hält länger frisch" } },
+          { "left": { "text": "🍬 Süßungsmittel" }, "right": { "text": "Macht süß" } },
+          { "left": { "text": "👅 Geschmacksverstärker" }, "right": { "text": "Verstärkt den Geschmack" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Kommt ein Apfel von einer Pflanze oder von einem Tier?",
+        "options": [
+          { "text": "🌱 Von einer Pflanze", "correct": true },
+          { "text": "🐄 Von einem Tier" },
+          { "text": "🏭 Aus einer Fabrik" }
+        ],
+        "explanation": "Der Apfel wächst am Baum. Er ist ein pflanzliches Lebensmittel. Obst, Gemüse, Getreide und Nudeln kommen alle von Pflanzen."
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-suesse-speisen",
+  "title": "Süße Nachspeisen zubereiten",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Vier süße Speisen, vier Merkmale. Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "🍮 Gekochte Creme" }, "right": { "text": "weich, lässt sich nicht stürzen" } },
+          { "left": { "text": "🍧 Flammeri" }, "right": { "text": "fester, lässt sich stürzen" } },
+          { "left": { "text": "🧊 Kalt gerührte Creme" }, "right": { "text": "mit Gelatine und Sahne" } },
+          { "left": { "text": "🍹 Gelee" }, "right": { "text": "fest, ganz ohne Sahne" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍮 Gekochte Creme und Flammeri sind fast gleich. Was ist der Unterschied?",
+        "options": [
+          { "text": "Der Flammeri hat mehr Stärke. Darum wird er fest und lässt sich stürzen.", "correct": true },
+          { "text": "Der Flammeri hat weniger Stärke und bleibt ganz flüssig." },
+          { "text": "Es gibt gar keinen Unterschied." }
+        ],
+        "explanation": "Beide werden mit Stärke gekocht. Der Flammeri bekommt mehr Stärke. Darum wird er so fest, dass du ihn aus der Form stürzen kannst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍮 So machst du eine gekochte Creme. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥣 Stärke mit etwas kalter Milch glatt rühren." },
+          { "text": "🍶 Die restliche Milch mit Zucker aufkochen." },
+          { "text": "🌀 Die angerührte Stärke einrühren und einmal aufkochen." },
+          { "text": "❄️ Die Creme abkühlen lassen." },
+          { "text": "🥄 Zum Schluss die steife Sahne unterheben." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥄 Womit werden diese Speisen fest? Ordne sie nach dem Bindemittel.",
+        "buckets": [
+          { "id": "staerke", "label": "Stärke", "icon": "🌽" },
+          { "id": "gelatine", "label": "Gelatine", "icon": "🧊" }
+        ],
+        "items": [
+          { "text": "Gekochte Creme", "bucket": "staerke" },
+          { "text": "Flammeri", "bucket": "staerke" },
+          { "text": "Kalt gerührte Creme", "bucket": "gelatine" },
+          { "text": "Gelee", "bucket": "gelatine" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧊 So arbeitest du mit Blatt-Gelatine. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "💧 Die Blätter in kaltem Wasser einweichen." },
+          { "text": "♨️ Die weiche Gelatine vorsichtig auflösen." },
+          { "text": "🥄 Ein paar Löffel der Speise zur Gelatine rühren." },
+          { "text": "🌀 Die Gelatine unter die ganze Speise rühren." },
+          { "text": "❄️ Alles kalt stellen, bis es fest wird." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Warum darf Gelatine nicht zu heiß werden?",
+        "options": [
+          { "text": "Über 60 Grad verliert sie ihre Kraft. Dann wird die Speise nicht fest.", "correct": true },
+          { "text": "Über 60 Grad wird sie giftig." },
+          { "text": "Sie darf ruhig kochen, das macht gar nichts." }
+        ],
+        "explanation": "Gelatine mag keine große Hitze. Über 60 Grad kann sie nicht mehr binden. Dann bleibt dein Dessert flüssig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍍 Welches Obst passt NICHT frisch in eine Gelatine-Speise?",
+        "options": [
+          { "text": "Frische Ananas und Kiwi. Sie lösen die Gelatine wieder auf.", "correct": true },
+          { "text": "Frische Äpfel und Birnen." },
+          { "text": "Eingekochte Pfirsiche aus der Dose." }
+        ],
+        "explanation": "Frische Ananas, Kiwi, Papaya und Feige haben ein besonderes Enzym. Es zerstört die Gelatine. Tipp: das Obst kurz kochen oder Obst aus der Dose nehmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍹 Was ist bei einem Gelee anders als bei der kalt gerührten Creme?",
+        "options": [
+          { "text": "Das Gelee ist fester. Und es kommt keine Sahne hinein.", "correct": true },
+          { "text": "Das Gelee ist weicher und hat viel Sahne." },
+          { "text": "Das Gelee wird mit Stärke gekocht." }
+        ],
+        "explanation": "Beide werden mit Gelatine fest. Das Gelee bekommt mehr Gelatine und keine Sahne. Darum ist es fester und klarer."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎂 So rührst du einen einfachen Rührteig. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧈 Das weiche Fett schaumig rühren." },
+          { "text": "🍬 Den Zucker dazugeben und cremig rühren." },
+          { "text": "🥚 Die Eier einzeln unterrühren." },
+          { "text": "🌾 Mehl und Backpulver mischen." },
+          { "text": "🥛 Das Mehl abwechselnd mit Milch unterrühren." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Zum Schluss: Wann darfst du beim Kuchen die Ofentür aufmachen?",
+        "options": [
+          { "text": "Erst in der zweiten Hälfte der Backzeit.", "correct": true },
+          { "text": "Immer wieder, so oft du willst." },
+          { "text": "Am besten gleich am Anfang ganz weit." }
+        ],
+        "explanation": "Am Anfang bleibt die Tür zu. Wenn du zu früh öffnest, fällt der Kuchen zusammen. Erst in der zweiten Hälfte darfst du vorsichtig schauen."
+      }
+    }
+  ]
+}

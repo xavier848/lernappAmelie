@@ -1,0 +1,133 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-reinigungsmittel",
+  "title": "Das richtige Putzmittel wählen",
+  "sort": 7,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Es gibt Reinigungsmittel und Pflegemittel. Was macht ein Reinigungsmittel?",
+        "options": [
+          { "text": "Es entfernt Schmutz.", "correct": true },
+          { "text": "Es macht die Wohnung nur gut riechen." },
+          { "text": "Es legt eine Wachs-Schicht auf die Möbel." }
+        ],
+        "explanation": "Reinigungsmittel lösen und entfernen Schmutz. Pflegemittel kommen danach: Sie schützen die saubere Fläche, zum Beispiel mit Wachs oder Politur."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧽 Reinigen oder pflegen? Sortiere die Mittel.",
+        "buckets": [
+          { "id": "reinigung", "label": "Reinigungsmittel", "icon": "🧽" },
+          { "id": "pflege", "label": "Pflegemittel", "icon": "✨" }
+        ],
+        "items": [
+          { "text": "🪟 Glasreiniger", "bucket": "reinigung" },
+          { "text": "🚽 WC-Reiniger", "bucket": "reinigung" },
+          { "text": "🧴 Scheuermilch", "bucket": "reinigung" },
+          { "text": "🕳️ Abflussreiniger", "bucket": "reinigung" },
+          { "text": "🪑 Möbelpolitur", "bucket": "pflege" },
+          { "text": "🕯️ Möbelwachs", "bucket": "pflege" },
+          { "text": "🌸 Raumduft", "bucket": "pflege" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎯 Jedes Mittel hat seinen Einsatzort. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🪟 Glasreiniger" }, "right": { "text": "Fenster" } },
+          { "left": { "text": "🚽 Sanitärreiniger" }, "right": { "text": "Toilette" } },
+          { "left": { "text": "✨ Edelstahlreiniger" }, "right": { "text": "Spüle" } },
+          { "left": { "text": "🫧 Spülmittel" }, "right": { "text": "Geschirr" } },
+          { "left": { "text": "🧴 Allzweckreiniger" }, "right": { "text": "Küchenschrank" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Das Dampfbügeleisen ist verkalkt. Welches Hausmittel hilft?",
+        "options": [
+          { "text": "Essigwasser.", "correct": true },
+          { "text": "Möbelpolitur." },
+          { "text": "Raumduft." }
+        ],
+        "explanation": "Essig ist eine Säure. Säure löst Kalk auf. Darum kannst du das Bügeleisen mit Essigwasser entkalken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 In manchen Putzmitteln steckt Scheuermittel. Was ist das?",
+        "options": [
+          { "text": "Winzige harte Körnchen. Sie reiben den Schmutz ab.", "correct": true },
+          { "text": "Ein Duftstoff für frischen Geruch." },
+          { "text": "Ein Schaum, der von allein putzt." }
+        ],
+        "explanation": "Scheuermittel sind kleine harte Körnchen im Putzmittel. Sie schmirgeln festen Schmutz weg. Aber Vorsicht: Sie können empfindliche Flächen zerkratzen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Welche Mittel enthalten Scheuermittel? Sortiere.",
+        "buckets": [
+          { "id": "mit", "label": "Mit Scheuermittel", "icon": "⚠️" },
+          { "id": "ohne", "label": "Ohne Scheuermittel", "icon": "💧" }
+        ],
+        "items": [
+          { "text": "Scheuerpulver", "bucket": "mit" },
+          { "text": "Scheuermilch", "bucket": "mit" },
+          { "text": "Metallpolitur", "bucket": "mit" },
+          { "text": "Silberpflege", "bucket": "mit" },
+          { "text": "Glasreiniger", "bucket": "ohne" },
+          { "text": "Spülmittel", "bucket": "ohne" },
+          { "text": "Neutralreiniger", "bucket": "ohne" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Am Herd klebt eingebrannter Schmutz. Was nimmst du?",
+        "options": [
+          { "text": "Einen Scheuerschwamm.", "correct": true },
+          { "text": "Möbelwachs." },
+          { "text": "Nur ein trockenes Tuch." }
+        ],
+        "explanation": "Eingebrannter Schmutz sitzt fest. Ein Scheuerschwamm hat eine raue Seite. Damit bekommst du den Schmutz vom Herd."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Darfst du Scheuerpulver auf einem Fenster benutzen?",
+        "options": [
+          { "text": "Nein. Die harten Körnchen zerkratzen das Glas.", "correct": true },
+          { "text": "Ja, das macht das Glas besonders klar." },
+          { "text": "Ja, aber nur bei Sonne." }
+        ],
+        "explanation": "Glas hat eine glatte, empfindliche Oberfläche. Scheuermittel hinterlässt feine Kratzer. Für Fenster nimmst du Glasreiniger."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Finde die Paare: Mittel und Einsatzort.",
+        "pairs": [
+          { "left": { "text": "🍶 Essig" }, "right": { "text": "Bügeleisen entkalken" } },
+          { "left": { "text": "🕯️ Metallpflegemittel" }, "right": { "text": "Kerzenleuchter" } },
+          { "left": { "text": "🧴 Scheuermilch" }, "right": { "text": "Waschbecken" } },
+          { "left": { "text": "🚪 Neutralreiniger" }, "right": { "text": "Tür" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-materialkunde",
+  "title": "Materialien und ihre Pflege",
+  "sort": 8,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Du gießt kochendes Wasser in ein kaltes Trinkglas. Was kann passieren?",
+        "options": [
+          { "text": "Das Glas kann springen.", "correct": true },
+          { "text": "Nichts. Glas hält jede Temperatur aus." },
+          { "text": "Das Glas wird weich." }
+        ],
+        "explanation": "Glas leitet Wärme schlecht. Bei einem plötzlichen Wechsel von kalt zu heiß entsteht Spannung – das Glas springt. Nur feuerfestes Glas verträgt das."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Ein Kochlöffel aus Melamin-Kunststoff liegt im heißen Topf. Warum ist das ein Problem?",
+        "options": [
+          { "text": "Über 70 °C gibt Melamin schädliche Stoffe ans Essen ab.", "correct": true },
+          { "text": "Der Löffel wird dabei sauberer." },
+          { "text": "Melamin verträgt jede Hitze." }
+        ],
+        "explanation": "Melamin ist ein Kunststoff. Wird er heißer als 70 °C, können schädliche Stoffe ins Essen übergehen. Für heißes Essen lieber einen Holz- oder Edelstahl-Löffel nehmen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Was darf in die Spülmaschine? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Spülmaschine: ja", "icon": "✅" },
+          { "id": "nein", "label": "Besser von Hand", "icon": "🖐️" }
+        ],
+        "items": [
+          { "text": "🍴 Besteck aus Edelstahl", "bucket": "ja" },
+          { "text": "🍲 Topf aus Edelstahl", "bucket": "ja" },
+          { "text": "🍽️ Teller mit Muster unter der Glasur", "bucket": "ja" },
+          { "text": "🥄 Kochlöffel aus Rohholz", "bucket": "nein" },
+          { "text": "🪵 Schneidebrett aus Rohholz", "bucket": "nein" },
+          { "text": "🎨 Teller mit Muster auf der Glasur", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Warum soll man ein Frühstücksei nicht mit einem Silberlöffel essen?",
+        "options": [
+          { "text": "Im Ei steckt Schwefel. Der lässt das Silber schwarz anlaufen.", "correct": true },
+          { "text": "Silber macht das Ei giftig." },
+          { "text": "Der Löffel schmilzt am warmen Ei." }
+        ],
+        "explanation": "Eier enthalten Schwefel. Schwefel und Silber reagieren miteinander – auf dem Löffel entsteht eine dunkle Schicht. Für Eier nimmst du darum einen Löffel aus Edelstahl oder Kunststoff."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Die Spüle ist aus Edelstahl. Worauf achtest du beim Putzen?",
+        "options": [
+          { "text": "Keine kratzenden Mittel benutzen – Edelstahl bekommt leicht Kratzer.", "correct": true },
+          { "text": "Nur mit Drahtbürste schrubben." },
+          { "text": "Gar nicht putzen, Edelstahl bleibt von allein sauber." }
+        ],
+        "explanation": "Edelstahl rostet nicht und verträgt sogar Säuren. Aber die glatte Oberfläche ist empfindlich gegen Kratzer. Darum sanfte Mittel nehmen, zum Beispiel Edelstahlreiniger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Wie machst du ein Schneidebrett aus Rohholz sauber?",
+        "options": [
+          { "text": "Mit kaltem Wasser abspülen und an der Luft trocknen lassen.", "correct": true },
+          { "text": "In die Spülmaschine stellen." },
+          { "text": "Lange in heißem Wasser einweichen." }
+        ],
+        "explanation": "Rohholz hat offene Poren und saugt Farben und Gerüche auf. Kaltes Wasser hält die Poren eher geschlossen. Danach das Brett an der Luft trocknen lassen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jedes Material hat eine typische Eigenschaft. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🥛 Glas" }, "right": { "text": "Zerbricht leicht" } },
+          { "left": { "text": "✨ Edelstahl" }, "right": { "text": "Rostet nicht" } },
+          { "left": { "text": "🥈 Silber" }, "right": { "text": "Läuft schwarz an" } },
+          { "left": { "text": "🪵 Holz" }, "right": { "text": "Dehnt sich bei Feuchtigkeit aus" } },
+          { "left": { "text": "👞 Leder" }, "right": { "text": "Wasserdicht, aber atmungsaktiv" } },
+          { "left": { "text": "🧃 Kunststoff" }, "right": { "text": "Vergilbt in der Sonne" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Darf heißes Fett in eine Schüssel aus Kunststoff?",
+        "options": [
+          { "text": "Nein. Heißes Fett verformt den Kunststoff.", "correct": true },
+          { "text": "Ja, Kunststoff hält alles aus." },
+          { "text": "Ja, aber nur mit Deckel." }
+        ],
+        "explanation": "Kochendes Wasser vertragen viele Kunststoffe. Heißes Fett wird aber noch viel heißer – die Schüssel verformt sich und die Oberfläche wird rau. In rauen Stellen sammeln sich Keime."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩🥕 Du schneidest rohes Fleisch und danach Gemüse. Was ist richtig?",
+        "options": [
+          { "text": "Für Fleisch und Gemüse getrennte Bretter benutzen.", "correct": true },
+          { "text": "Alles auf demselben Brett schneiden." },
+          { "text": "Das Brett nur kurz abwischen und weitermachen." }
+        ],
+        "explanation": "Rohes Fleisch kann Keime enthalten. Mit getrennten Brettern kommen die Keime nicht ans Gemüse. Das ist wichtige Küchen-Hygiene."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Welcher Gegenstand ist aus welchem Material? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🥛 Glas" }, "right": { "text": "Fenster" } },
+          { "left": { "text": "✨ Edelstahl" }, "right": { "text": "Spüle" } },
+          { "left": { "text": "🪵 Holz" }, "right": { "text": "Kochlöffel" } },
+          { "left": { "text": "👞 Leder" }, "right": { "text": "Schuhe" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

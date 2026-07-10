@@ -1,0 +1,142 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-gefahren-kueche",
+  "title": "Gefahren in der Küche vermeiden",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Du schneidest Gemüse. Wie hältst du die Hand, die das Gemüse festhält?",
+        "options": [
+          { "text": "Wie eine Kralle: Die Fingerspitzen sind nach innen eingeknickt.", "correct": true },
+          { "text": "Flach, mit gestreckten Fingern." },
+          { "text": "Weit weg – das Gemüse liegt von allein still." }
+        ],
+        "explanation": "Das nennt man Krallengriff. Die Fingerspitzen sind eingeknickt und zeigen nach hinten. Das Messer gleitet an den Knöcheln entlang und kann dich nicht schneiden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Ein Messer rutscht vom Tisch und fällt. Was machst du?",
+        "options": [
+          { "text": "Einen Schritt zurückgehen und das Messer fallen lassen.", "correct": true },
+          { "text": "Das Messer schnell auffangen." },
+          { "text": "Das Messer mit dem Fuß stoppen." }
+        ],
+        "explanation": "Beim Auffangen greifst du in die scharfe Klinge. Geh zur Seite und lass das Messer fallen. Danach hebst du es am Griff auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Wohin legst du ein benutztes Messer beim Abwasch?",
+        "options": [
+          { "text": "Sichtbar auf die Ablage neben dem Spülbecken.", "correct": true },
+          { "text": "Ins Spülwasser, zwischen das andere Geschirr." },
+          { "text": "Unten in den Stapel mit dem schmutzigen Geschirr." }
+        ],
+        "explanation": "Im trüben Spülwasser sieht niemand das Messer. Wer hineingreift, kann sich schwer schneiden. Darum liegt das Messer immer sichtbar auf der Ablage."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚠️ Welche Gefahr ist das? Sortiere.",
+        "buckets": [
+          { "id": "sturz", "label": "Sturz-Gefahr", "icon": "🚶" },
+          { "id": "schnitt", "label": "Schnitt-Gefahr", "icon": "🔪" },
+          { "id": "hitze", "label": "Verbrennungs-Gefahr", "icon": "🔥" }
+        ],
+        "items": [
+          { "text": "Fett-Spritzer auf dem Boden", "bucket": "sturz" },
+          { "text": "Eine Tasche liegt im Laufweg", "bucket": "sturz" },
+          { "text": "Ein Messer liegt mitten auf der Arbeitsfläche", "bucket": "schnitt" },
+          { "text": "Ein Glas hat einen Sprung", "bucket": "schnitt" },
+          { "text": "Der Topfstiel ragt in den Gang", "bucket": "hitze" },
+          { "text": "Ein Eimer mit heißem Wasser steht mitten im Weg", "bucket": "hitze" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🛡️ Wie machst du es sicher? Verbinde die Gefahr mit der Lösung.",
+        "pairs": [
+          { "left": { "text": "🧴 Putzmittel steht neben dem Essen" }, "right": { "text": "Putzmittel getrennt vom Essen lagern" } },
+          { "left": { "text": "🪑 Ein Hocker dient als Leiter" }, "right": { "text": "Eine richtige Leiter holen" } },
+          { "left": { "text": "🍳 Der Pfannenstiel zeigt in den Gang" }, "right": { "text": "Den Stiel nach hinten drehen" } },
+          { "left": { "text": "🛢️ Fett ist auf den Boden getropft" }, "right": { "text": "Sofort aufwischen" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Du ziehst den Stecker aus der Steckdose. Wie machst du es richtig?",
+        "options": [
+          { "text": "Den Stecker anfassen und gerade herausziehen.", "correct": true },
+          { "text": "Am Kabel ziehen." },
+          { "text": "Mit nassen Händen ziehen, das geht schneller." }
+        ],
+        "explanation": "Ziehst du am Kabel, kann es kaputtgehen. Ein kaputtes Kabel kann einen Stromschlag geben. Fasse immer den Stecker selbst an – und nur mit trockenen Händen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Du willst den Mixer sauber machen. Was machst du zuerst?",
+        "options": [
+          { "text": "Den Stecker ziehen.", "correct": true },
+          { "text": "Den Mixer unter fließendes Wasser halten." },
+          { "text": "Mit dem nassen Lappen über das eingesteckte Gerät wischen." }
+        ],
+        "explanation": "Strom und Wasser sind zusammen gefährlich. Erst wenn der Stecker gezogen ist, kann dir beim Putzen nichts passieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 In der Pfanne brennt Fett. Was machst du?",
+        "options": [
+          { "text": "Den Deckel auf die Pfanne legen. Das erstickt das Feuer.", "correct": true },
+          { "text": "Wasser in die Pfanne gießen." },
+          { "text": "Kräftig auf die Flammen pusten." }
+        ],
+        "explanation": "Wasser in brennendem Fett ist sehr gefährlich: Das Fett spritzt dann brennend durch die Küche. Ein Deckel oder eine Löschdecke nimmt dem Feuer die Luft."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Sicher oder gefährlich? Sortiere.",
+        "buckets": [
+          { "id": "sicher", "label": "Sicher", "icon": "✅" },
+          { "id": "gefaehrlich", "label": "Gefährlich", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Verschüttetes sofort aufwischen", "bucket": "sicher" },
+          { "text": "Den Restehalter an der Reibe benutzen", "bucket": "sicher" },
+          { "text": "Verschimmeltes Brot wegwerfen", "bucket": "sicher" },
+          { "text": "Scherben mit den Händen aufsammeln", "bucket": "gefaehrlich" },
+          { "text": "Putzmittel in eine Saftflasche umfüllen", "bucket": "gefaehrlich" },
+          { "text": "Mit nassen Händen den Toaster anfassen", "bucket": "gefaehrlich" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Wer schützt dich wovor? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🧤 Restehalter" }, "right": { "text": "Schützt die Finger an der Maschine" } },
+          { "left": { "text": "👟 Rutschfeste Schuhe" }, "right": { "text": "Schützen vor dem Ausrutschen" } },
+          { "left": { "text": "🧯 Feuerlöscher" }, "right": { "text": "Muss leicht erreichbar sein" } },
+          { "left": { "text": "🩹 Erste-Hilfe-Kasten" }, "right": { "text": "Hier liegt das Verbandszeug" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

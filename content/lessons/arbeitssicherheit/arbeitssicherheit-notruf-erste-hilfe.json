@@ -1,0 +1,135 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-notruf-erste-hilfe",
+  "title": "Notruf und Erste Hilfe",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📞 Ein Kollege ist schwer gestürzt und braucht schnell Hilfe. Welche Nummer wählst du?",
+        "options": [
+          { "text": "112", "correct": true },
+          { "text": "110" },
+          { "text": "12345" }
+        ],
+        "explanation": "Die 112 ist der Notruf für Rettungsdienst und Feuerwehr. Sie gilt bei Unfällen, schweren Verletzungen und Feuer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚓 Und wen erreichst du unter der 110?",
+        "options": [
+          { "text": "Die Polizei.", "correct": true },
+          { "text": "Den Rettungsdienst." },
+          { "text": "Das Krankenhaus." }
+        ],
+        "explanation": "Die 110 ist die Nummer der Polizei. Merke dir: 112 bei Unfall und Feuer, 110 für die Polizei."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🗣️ Beim Notruf gibt es 5 W-Fragen. Bringe sie in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Wo ist der Unfall passiert?" },
+          { "text": "Was ist passiert?" },
+          { "text": "Wie viele Menschen sind verletzt?" },
+          { "text": "Welche Verletzungen haben sie?" },
+          { "text": "Wer ruft an? Sag deinen Namen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📱 Du hast alle W-Fragen beantwortet. Was machst du am Ende des Anrufs?",
+        "options": [
+          { "text": "Ich warte, ob die Leitstelle noch Fragen hat.", "correct": true },
+          { "text": "Ich lege sofort auf." },
+          { "text": "Ich schalte das Handy aus." }
+        ],
+        "explanation": "Die Leitstelle hat oft noch Rückfragen. Darum nie sofort auflegen. Warte, bis die Leitstelle das Gespräch beendet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩸 Deine Nase blutet. Wie hältst du den Kopf?",
+        "options": [
+          { "text": "Nach vorne, und die Nase zusammendrücken.", "correct": true },
+          { "text": "Nach hinten in den Nacken." },
+          { "text": "Ganz normal, das ist egal." }
+        ],
+        "explanation": "Den Kopf immer nach vorne neigen. So läuft das Blut nicht in den Hals. Ein kühler Umschlag im Nacken hilft zusätzlich."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🩹 Was ist die richtige erste Hilfe? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🦵 Prellung nach einem Sturz" }, "right": { "text": "10 bis 15 Minuten kühlen" } },
+          { "left": { "text": "🔥 Verbrennung" }, "right": { "text": "Mit kaltem Wasser kühlen" } },
+          { "left": { "text": "🩸 Stark blutende Wunde" }, "right": { "text": "Druckverband und Notruf 112" } },
+          { "left": { "text": "⚡ Stromunfall" }, "right": { "text": "Zuerst den Stecker ziehen" } }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "⚡ Ein Kollege bekommt einen Stromschlag. Was machst du in welcher Reihenfolge?",
+        "steps": [
+          { "text": "Strom abschalten: Stecker ziehen oder Sicherung aus." },
+          { "text": "Prüfen: Ist der Kollege wach und ansprechbar?" },
+          { "text": "Notruf 112 wählen." },
+          { "text": "Beim Kollegen bleiben und ihn beruhigen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Du kühlst eine Prellung mit einem Kühlpack. Was ist dabei wichtig?",
+        "options": [
+          { "text": "Ein Tuch zwischen Kühlpack und Haut legen.", "correct": true },
+          { "text": "Das Kühlpack direkt auf die Haut drücken." },
+          { "text": "Das Kühlpack vorher warm machen." }
+        ],
+        "explanation": "Ein Kühlpack ist sehr kalt. Direkt auf der Haut kann es die Haut schädigen. Ein Tuch dazwischen schützt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👷 Was macht ein Ersthelfer im Betrieb?",
+        "options": [
+          { "text": "Er hilft sofort und kümmert sich, bis der Rettungsdienst kommt.", "correct": true },
+          { "text": "Er operiert die verletzte Person." },
+          { "text": "Er schaut nur zu und macht nichts." }
+        ],
+        "explanation": "Der Ersthelfer ist ein Kollege mit Erste-Hilfe-Ausbildung. Er leistet die ersten Maßnahmen. Die medizinische Behandlung übernimmt danach der Notarzt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧰 Was gehört in den Verbandskasten? Sortiere.",
+        "buckets": [
+          { "id": "rein", "label": "Gehört hinein", "icon": "🧰" },
+          { "id": "raus", "label": "Gehört nicht hinein", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "🩹 Pflaster", "bucket": "rein" },
+          { "text": "🧻 Mullbinde", "bucket": "rein" },
+          { "text": "🩹 Sterile Wundauflage", "bucket": "rein" },
+          { "text": "🍬 Bonbons", "bucket": "raus" },
+          { "text": "🧴 Spülmittel", "bucket": "raus" },
+          { "text": "✏️ Buntstifte", "bucket": "raus" }
+        ]
+      }
+    }
+  ]
+}

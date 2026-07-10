@@ -1,0 +1,138 @@
+{
+  "topic_slug": "waesche",
+  "slug": "waesche-aufhaengen-und-legen",
+  "title": "Wäsche aufhängen und legen",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Du willst Wäsche aufhängen. Was machst du vorher mit der Wäscheleine?",
+        "options": [
+          { "text": "Mit einem feuchten Tuch abwischen.", "correct": true },
+          { "text": "Nichts. Die Leine ist doch sauber." },
+          { "text": "Mit Seife einschäumen und nass lassen." }
+        ],
+        "explanation": "Auf der Leine sitzen Staub und Schmutz. Wischst du sie feucht ab, bleibt deine saubere Wäsche auch sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☀️ Ein buntes T-Shirt soll draußen trocknen. Wohin hängst du es?",
+        "options": [
+          { "text": "In den Schatten, nicht in die pralle Sonne.", "correct": true },
+          { "text": "Mittags in die volle Sonne." },
+          { "text": "Flach auf den Rasen." }
+        ],
+        "explanation": "Starke Sonne bleicht bunte Stoffe aus. Helle Kunstfaser kann gelb werden. Im Schatten trocknet das Shirt und behält seine Farbe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📌 Wo klammerst du die Teile an die Leine? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "👔 Hemd oder Bluse" }, "right": { "text": "Unten am Saum" } },
+          { "left": { "text": "👖 Hose oder Rock" }, "right": { "text": "Oben am Bund" } },
+          { "left": { "text": "👕 T-Shirt" }, "right": { "text": "Zur Hälfte über die Leine" } },
+          { "left": { "text": "🛏️ Bettbezug" }, "right": { "text": "Öffnung zur Seite" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👖 Warum hängst du Hosen und Röcke am Bund auf?",
+        "options": [
+          { "text": "So verziehen sie sich nicht und bleiben in Form.", "correct": true },
+          { "text": "So trocknen sie doppelt so schnell." },
+          { "text": "So braucht man gar keine Klammern." }
+        ],
+        "explanation": "Nasse Stoffe sind schwer. Hängt die Hose am Bund, zieht das Gewicht die Beine glatt nach unten. Die Hose behält ihre Form."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Schau auf die Wäscheleine: Was ist gut gemacht? Was ist ein Fehler? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gut gemacht", "icon": "✅" },
+          { "id": "fehler", "label": "Fehler", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Das Hemd hängt unten am Saum.", "bucket": "gut" },
+          { "text": "Gleiche Teile hängen nebeneinander.", "bucket": "gut" },
+          { "text": "Das T-Shirt hängt zur Hälfte über der Leine.", "bucket": "gut" },
+          { "text": "Das Bettlaken hängt bis auf den Boden.", "bucket": "fehler" },
+          { "text": "Das bunte Shirt hängt in der prallen Sonne.", "bucket": "fehler" },
+          { "text": "Die Hose hängt unten an den Hosenbeinen.", "bucket": "fehler" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬇️ Ein langes Bettlaken hängt bis auf den Boden. Warum ist das ein Problem?",
+        "options": [
+          { "text": "Es wird am Boden wieder schmutzig.", "correct": true },
+          { "text": "Es trocknet dann viel zu schnell." },
+          { "text": "Das ist gar kein Problem." }
+        ],
+        "explanation": "Der Boden ist staubig oder feucht. Berührt die Wäsche den Boden, ist sie nicht mehr sauber. Hänge lange Teile so auf, dass sie frei hängen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "👔 So legst du ein Hemd oder eine Bluse. Bringe die 6 Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Knöpfe das Hemd zu." },
+          { "text": "Drehe das Hemd um. Die Vorderseite liegt unten." },
+          { "text": "Schlage die linke Seite zur Mitte. Lege den Ärmel längs darauf." },
+          { "text": "Schlage die rechte Seite zur Mitte. Lege den Ärmel längs darauf." },
+          { "text": "Schlage den Saum etwa 10 cm nach oben." },
+          { "text": "Klappe das Hemd noch einmal nach oben. Fertig!" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔘 Womit startest du, wenn du ein Hemd legen willst?",
+        "options": [
+          { "text": "Ich knöpfe das Hemd zu.", "correct": true },
+          { "text": "Ich schlage sofort den Saum nach oben." },
+          { "text": "Ich knülle das Hemd zu einer Kugel." }
+        ],
+        "explanation": "Zugeknöpft behält das Hemd seine Form. Du kannst es glatt hinlegen und sauber falten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥻 So legst du eine Schürze. Bringe die 5 Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Klappe den Latz nach unten auf den Rock-Teil." },
+          { "text": "Falte die Schürze in der Mitte zusammen." },
+          { "text": "Lege die Binde-Bänder auf den Rock-Teil." },
+          { "text": "Falte den Rock-Teil der Länge nach zusammen." },
+          { "text": "Falte ihn noch einmal quer. Fertig!" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Wo klammerst du ein Hemd an die Leine?",
+        "options": [
+          { "text": "Unten am Saum.", "correct": true },
+          { "text": "Mitten auf dem Rücken." },
+          { "text": "Am Kragen." }
+        ],
+        "explanation": "Klammern drücken kleine Stellen in den Stoff. Am Saum sieht man das später nicht. Das Hemd bleibt schön glatt."
+      }
+    }
+  ]
+}

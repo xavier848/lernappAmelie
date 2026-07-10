@@ -1,0 +1,137 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-servieren-buefett",
+  "title": "Servieren und Büfett aufbauen",
+  "sort": 40,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Du servierst am Tisch. Was setzt du von links ein? Was von rechts?",
+        "buckets": [
+          { "id": "links", "label": "Von links", "icon": "⬅️" },
+          { "id": "rechts", "label": "Von rechts", "icon": "➡️" }
+        ],
+        "items": [
+          { "text": "🥖 Brot und Brötchen", "bucket": "links" },
+          { "text": "🥗 Salat als Beilage", "bucket": "links" },
+          { "text": "🍑 Kompott", "bucket": "links" },
+          { "text": "🍲 Suppe", "bucket": "rechts" },
+          { "text": "🍛 Teller mit Essen", "bucket": "rechts" },
+          { "text": "☕ Kaffeetasse", "bucket": "rechts" },
+          { "text": "🥤 Gläser und Getränke", "bucket": "rechts" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Ein festliches Essen. Wer bekommt zuerst sein Essen?",
+        "options": [
+          { "text": "Der Ehrengast oder die älteste Dame.", "correct": true },
+          { "text": "Der Gastgeber." },
+          { "text": "Der Gast, der am nächsten zur Küche sitzt." }
+        ],
+        "explanation": "Der Ehrengast oder die älteste Dame wird zuerst bedient. Bei einer Hochzeit fängst du bei der Braut an. Der Gastgeber bekommt sein Essen zuletzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕐 Wie bedienst du die anderen Gäste am Tisch weiter?",
+        "options": [
+          { "text": "Im Uhrzeigersinn, ein Gast nach dem anderen.", "correct": true },
+          { "text": "Kreuz und quer über den Tisch." },
+          { "text": "Gegen den Uhrzeigersinn." }
+        ],
+        "explanation": "Nach dem ersten Gast gehst du im Uhrzeigersinn weiter. Dabei läufst du immer vorwärts. So siehst du, wohin du gehst, und vergisst niemanden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Du setzt die Teller von rechts ein. Welche Hand trägt die Teller?",
+        "options": [
+          { "text": "Die linke Hand.", "correct": true },
+          { "text": "Die rechte Hand." },
+          { "text": "Beide Hände gleichzeitig." }
+        ],
+        "explanation": "Eine Hand trägt, die andere Hand arbeitet. Setzt du von rechts ein, trägt die linke Hand die Teller. Die rechte Hand stellt den Teller vor den Gast."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥂 Wo fasst du ein Glas an?",
+        "options": [
+          { "text": "Am Stiel oder ganz unten am Glas.", "correct": true },
+          { "text": "Oben am Rand." },
+          { "text": "Mit der ganzen Hand um die Mitte." }
+        ],
+        "explanation": "Oben am Rand trinkt der Gast. Deine Finger dürfen dort nicht hinkommen. Darum fasst du das Glas am Stiel oder im unteren Drittel an – das ist hygienisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫗 Von welcher Seite gießt du Getränke ein?",
+        "options": [
+          { "text": "Von rechts, mit der rechten Hand.", "correct": true },
+          { "text": "Von links, mit der linken Hand." },
+          { "text": "Von der Seite, die gerade frei ist." }
+        ],
+        "explanation": "Die Gläser stehen rechts am Platz. Darum gießt du von rechts mit der rechten Hand ein. Die Flasche berührt dabei nicht den Glasrand."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍷 Du servierst Wein. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Flasche dem Gastgeber von rechts zeigen. Er liest das Etikett." },
+          { "text": "Der Gastgeber probiert einen kleinen Schluck." },
+          { "text": "Der Wein schmeckt: Den anderen Gästen einschenken." },
+          { "text": "Zum Schluss bekommt der Gastgeber seinen Wein." }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍴 So steht alles am Büfett – vom Anfang bis zum Ende. Ordne richtig.",
+        "steps": [
+          { "text": "Saubere Teller – ganz rechts, am Anfang." },
+          { "text": "Suppe." },
+          { "text": "Fleisch." },
+          { "text": "Gemüse und Kartoffeln." },
+          { "text": "Nachspeisen." },
+          { "text": "Besteck – ganz links, am Ende." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Wie warm müssen warme Speisen am Büfett bleiben?",
+        "options": [
+          { "text": "Mindestens 60 °C.", "correct": true },
+          { "text": "Ungefähr 30 °C reichen." },
+          { "text": "Die Temperatur ist egal." }
+        ],
+        "explanation": "Bei mindestens 60 °C können sich Keime nicht vermehren. Das Essen bleibt sicher – und es schmeckt schön warm."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧑‍🍳 Was gehört wohin am Büfett? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🍽️ Saubere Teller" }, "right": { "text": "Ganz rechts, am Anfang" } },
+          { "left": { "text": "🍴 Besteck" }, "right": { "text": "Ganz links, am Ende" } },
+          { "left": { "text": "🍮 Nachspeisen" }, "right": { "text": "Links neben dem Hauptgericht" } },
+          { "left": { "text": "🥣 Gebrauchtes Geschirr" }, "right": { "text": "Auf den Seitentisch" } }
+        ]
+      }
+    }
+  ]
+}

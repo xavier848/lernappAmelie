@@ -1,0 +1,128 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-sicherheitszeichen",
+  "title": "Sicherheitszeichen verstehen",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔴 Du siehst ein rotes Sicherheitszeichen. Was bedeutet die Farbe Rot?",
+        "options": [
+          { "text": "Gefahr oder Verbot. Hier musst du besonders aufpassen.", "correct": true },
+          { "text": "Hier darfst du Pause machen." },
+          { "text": "Die Farbe hat keine Bedeutung." }
+        ],
+        "explanation": "Rot ist die Warnfarbe. Ein rotes Zeichen zeigt eine Gefahr oder ein Verbot. So erkennst du es sofort, auch von Weitem."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎨 Jede Farbe und Form hat eine Bedeutung. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🔴 Rot, rund, durchgestrichen" }, "right": { "text": "Das ist verboten" } },
+          { "left": { "text": "🔵 Blau und rund" }, "right": { "text": "Das musst du tun" } },
+          { "left": { "text": "🟡 Gelbes Dreieck" }, "right": { "text": "Achtung, Gefahr!" } },
+          { "left": { "text": "🟢 Grün und eckig" }, "right": { "text": "Hier gibt es Hilfe und Rettung" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔵 An der Tür zur Küche hängt ein blaues, rundes Zeichen mit Händen unter Wasser. Was heißt das?",
+        "options": [
+          { "text": "Ich muss hier meine Hände waschen.", "correct": true },
+          { "text": "Hände waschen ist hier verboten." },
+          { "text": "Hier ist das Wasser kaputt." }
+        ],
+        "explanation": "Blaue, runde Zeichen sind Gebotszeichen. Sie sagen dir: Das musst du tun. Zum Beispiel: Hände waschen oder Handschuhe anziehen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🚦 Sortiere die Zeichen: Ist es ein Verbot, ein Gebot oder eine Warnung?",
+        "buckets": [
+          { "id": "verbot", "label": "Verboten", "icon": "🚫" },
+          { "id": "gebot", "label": "Das musst du tun", "icon": "🔵" },
+          { "id": "warnung", "label": "Achtung, Gefahr", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "🚭 Rauchen verboten", "bucket": "verbot" },
+          { "text": "🚱 Kein Trinkwasser", "bucket": "verbot" },
+          { "text": "🧤 Handschuhe benutzen", "bucket": "gebot" },
+          { "text": "👟 Arbeitsschuhe tragen", "bucket": "gebot" },
+          { "text": "🔥 Heiße Oberfläche", "bucket": "warnung" },
+          { "text": "🌊 Rutschgefahr am Boden", "bucket": "warnung" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟢 Es brennt und du musst schnell raus. Welchem Zeichen folgst du?",
+        "options": [
+          { "text": "Dem grünen Zeichen mit dem laufenden Menschen und dem Pfeil.", "correct": true },
+          { "text": "Dem gelben Dreieck." },
+          { "text": "Dem blauen runden Zeichen." }
+        ],
+        "explanation": "Grüne, eckige Zeichen sind Rettungszeichen. Der grüne Pfeil zeigt dir den Rettungsweg nach draußen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🆘 Grün zeigt Rettung. Rot und eckig zeigt Brandschutz. Sortiere die Zeichen.",
+        "buckets": [
+          { "id": "rettung", "label": "Rettungszeichen (grün)", "icon": "🟢" },
+          { "id": "brand", "label": "Brandschutzzeichen (rot)", "icon": "🧯" }
+        ],
+        "items": [
+          { "text": "🏃 Rettungsweg", "bucket": "rettung" },
+          { "text": "🚿 Augendusche", "bucket": "rettung" },
+          { "text": "❤️ Defibrillator (Gerät fürs Herz)", "bucket": "rettung" },
+          { "text": "🧯 Feuerlöscher", "bucket": "brand" },
+          { "text": "🔔 Brandmelder", "bucket": "brand" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☠️ Auf einer Flasche mit Reiniger ist ein Totenkopf. Was bedeutet das?",
+        "options": [
+          { "text": "Der Inhalt ist giftig. Sei sehr vorsichtig damit.", "correct": true },
+          { "text": "Der Reiniger ist besonders stark und gut." },
+          { "text": "Die Flasche ist leer." }
+        ],
+        "explanation": "Der Totenkopf ist ein Gefahrzeichen für giftige Stoffe. Solche Mittel nie trinken, nie einatmen und nie in eine Getränkeflasche umfüllen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧪 Auf Putzmitteln gibt es Gefahrzeichen. Welches Bild passt zu welcher Gefahr?",
+        "pairs": [
+          { "left": { "text": "☠️ Totenkopf" }, "right": { "text": "Giftig" } },
+          { "left": { "text": "🖐️ Verletzte Hand" }, "right": { "text": "Ätzend: verletzt die Haut" } },
+          { "left": { "text": "⭐ Stern in der Brust" }, "right": { "text": "Macht auf Dauer krank" } },
+          { "left": { "text": "🐟 Toter Baum und Fisch" }, "right": { "text": "Gefährlich für die Umwelt" } }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss ein Memory: Finde die Farbe und ihre Bedeutung.",
+        "pairs": [
+          { "left": { "text": "🔴 Rot" }, "right": { "text": "Verbot oder Gefahr" } },
+          { "left": { "text": "🔵 Blau" }, "right": { "text": "Das musst du tun" } },
+          { "left": { "text": "🟢 Grün" }, "right": { "text": "Rettung und Hilfe" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

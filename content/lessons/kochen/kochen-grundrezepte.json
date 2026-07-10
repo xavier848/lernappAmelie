@@ -1,0 +1,137 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-grundrezepte",
+  "title": "Grundrezepte in der Küche",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥣 Du kochst eine helle Grundsuppe. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧈 Butter oder Margarine im Topf heiß werden lassen." },
+          { "text": "🌾 Mehl dazugeben und kurz anschwitzen." },
+          { "text": "🥛 Nach und nach die Flüssigkeit einrühren und aufkochen." },
+          { "text": "⏲️ Die Suppe ein paar Minuten leise köcheln lassen." },
+          { "text": "🧂 Mit Salz abschmecken." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Aus dem gleichen Grundrezept wird Suppe oder Soße. Was ist der Unterschied?",
+        "options": [
+          { "text": "Für die Soße nimmst du weniger Flüssigkeit. Dann wird sie dicker.", "correct": true },
+          { "text": "Für die Soße nimmst du mehr Flüssigkeit. Dann wird sie dünner." },
+          { "text": "Es gibt gar keinen Unterschied." }
+        ],
+        "explanation": "Suppe und Soße starten gleich. Für die Soße nimmst du nur die halbe Flüssigkeit. So wird sie schön dick."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Aus der Grundsuppe und der Grundsoße macht man neue Gerichte. Welche Zutaten gehören dazu?",
+        "pairs": [
+          { "left": { "text": "🍛 Currysuppe" }, "right": { "text": "Curry und Ananas" } },
+          { "left": { "text": "🥒 Zucchinisuppe" }, "right": { "text": "Zwiebel und Zucchini" } },
+          { "left": { "text": "🍅 Tomatensoße" }, "right": { "text": "Zwiebel und Tomatenmark" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Welche Flüssigkeit kannst du für die Grundsuppe nehmen?",
+        "options": [
+          { "text": "Milch, Brühe oder auch etwas Wein.", "correct": true },
+          { "text": "Nur ganz normales Leitungswasser." },
+          { "text": "Nur kalte Limonade." }
+        ],
+        "explanation": "Du hast die Wahl. Milch, Brühe, Spargelwasser oder Wein geben der Suppe Geschmack. So schmeckt sie nicht langweilig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Wann machst du das Salat-Dressing fertig?",
+        "options": [
+          { "text": "Zuerst, bevor du den Salat mischst.", "correct": true },
+          { "text": "Immer erst ganz am Schluss, kurz vor dem Essen." },
+          { "text": "Am besten schon einen Tag vorher." }
+        ],
+        "explanation": "Das Dressing wird zuerst gemacht. Dann kann es durchziehen. Nur bei gekochten Salaten ist es umgekehrt: Die kommen noch warm ins Dressing."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Aus der Vinaigrette macht man viele Dressings. Welche Zutat kommt jeweils dazu?",
+        "pairs": [
+          { "left": { "text": "🌿 Kräuter-Dressing" }, "right": { "text": "frische Kräuter" } },
+          { "left": { "text": "🟡 Senf-Dressing" }, "right": { "text": "Senf" } },
+          { "left": { "text": "🧄 Knoblauch-Dressing" }, "right": { "text": "gepresster Knoblauch" } },
+          { "left": { "text": "🥓 Speck-Marinade" }, "right": { "text": "gerösteter Speck" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍔 Du machst einen Hackfleischteig für Frikadellen. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥖 Das trockene Brötchen einweichen und gut ausdrücken." },
+          { "text": "🧅 Die Zwiebel schälen und fein würfeln." },
+          { "text": "🥚 Ei, Hackfleisch und Zwiebel in eine Schüssel geben." },
+          { "text": "🧂 Mit Senf, Salz und Pfeffer würzen." },
+          { "text": "🤲 Alles zu einem glatten Teig verkneten." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Hackfleisch ist heikel. Wie gehst du richtig damit um?",
+        "options": [
+          { "text": "Schnell verarbeiten. Wenn es warten muss: abgedeckt in den Kühlschrank.", "correct": true },
+          { "text": "Es kann stundenlang warm auf der Arbeitsfläche stehen." },
+          { "text": "Man kann es ruhig einen Tag offen liegen lassen." }
+        ],
+        "explanation": "Hackfleisch hat viele kleine Flächen. Dort wachsen schnell Keime. Darum: zügig verarbeiten und sonst kühl und abgedeckt lagern."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Wie viel gehört auf einen Teller? Ordne die Menge der richtigen Speise zu. Tipp: ml sind für flüssige Sachen, g für feste.",
+        "buckets": [
+          { "id": "suppe", "label": "Suppe", "icon": "🥣" },
+          { "id": "fleisch", "label": "Fleisch", "icon": "🍖" },
+          { "id": "salat", "label": "Salat", "icon": "🥗" }
+        ],
+        "items": [
+          { "text": "Vorspeise: 200 bis 250 ml", "bucket": "suppe" },
+          { "text": "Hauptgericht: 400 bis 500 ml", "bucket": "suppe" },
+          { "text": "ohne Knochen: 100 bis 125 g", "bucket": "fleisch" },
+          { "text": "Hackfleisch: 60 bis 80 g", "bucket": "fleisch" },
+          { "text": "Blattsalat: 50 bis 100 g", "bucket": "salat" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍔 Zum Schluss: Wie brätst du Frikadellen in der Pfanne?",
+        "options": [
+          { "text": "Von beiden Seiten braten, bis sie durch sind.", "correct": true },
+          { "text": "Nur ganz kurz von einer Seite." },
+          { "text": "Gar nicht braten, einfach roh essen." }
+        ],
+        "explanation": "Frikadellen brätst du von beiden Seiten. So werden sie überall gar und bekommen eine schöne Kruste. Rohes Hackfleisch solltest du nicht essen."
+      }
+    }
+  ]
+}
