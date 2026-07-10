@@ -1,0 +1,122 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-feuchtwischen",
+  "title": "Richtig feucht wischen",
+  "sort": 12,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧽 So wischst du eine schmale Fläche feucht. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das Wischgerät erst an der Randzone entlangführen." },
+          { "text": "Dann aus der Raummitte schlangenförmig Richtung Tür wischen." },
+          { "text": "Zum Schluss den feinen Schmutz mit dem Wischtuch aufnehmen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Was machst du beim Feuchtwischen als Erstes?",
+        "options": [
+          { "text": "Zuerst am Rand des Raums entlangwischen (Randzone).", "correct": true },
+          { "text": "Zuerst in der Mitte anfangen." },
+          { "text": "Zuerst den feinen Schmutz aufnehmen." }
+        ],
+        "explanation": "Du beginnst außen an der Randzone. Danach arbeitest du dich aus der Mitte schlangenförmig zur Tür vor. So bleibt keine Ecke aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 In welche Richtung wischst du – und warum?",
+        "options": [
+          { "text": "Schlangenförmig zur Tür hin. So läufst du nicht über den frisch gewischten Boden.", "correct": true },
+          { "text": "Von der Tür weg in die Mitte. Der Boden trocknet dann schneller." },
+          { "text": "Kreuz und quer, das geht am schnellsten." }
+        ],
+        "explanation": "Du wischst rückwärts zur Tür. Dann betrittst du die saubere, nasse Fläche nicht mehr. Die Schlangenlinie sorgt dafür, dass du überall einmal wischst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧽 Ein breiter Raum wird in zwei Hälften gewischt. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Rechte Randzone bis zur hinteren Raummitte entlangwischen." },
+          { "text": "Die Mitte der rechten Hälfte schlangenförmig wischen." },
+          { "text": "Linke Randzone entlangführen." },
+          { "text": "Die Mitte der linken Hälfte schlangenförmig wischen." },
+          { "text": "Zum Schluss den feinen Schmutz mit dem Wischtuch aufnehmen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "↔️ Warum teilst du einen breiten Raum beim Wischen in zwei Hälften?",
+        "options": [
+          { "text": "Weil du sonst nicht überall gut hinkommst. In Hälften bleibt der Weg kurz und ordentlich.", "correct": true },
+          { "text": "Weil man dann zwei verschiedene Reiniger braucht." },
+          { "text": "Weil eine Hälfte immer trocken bleiben muss." }
+        ],
+        "explanation": "Ein breiter Raum ist zu groß für eine Bahn. Du machst erst die rechte Hälfte, dann die linke. So wischst du jede Stelle einmal und trittst nicht in die Nässe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌊 Wie sollen deine Bewegungen beim Wischen sein?",
+        "options": [
+          { "text": "Fließend und schlangenförmig, sie gehen ineinander über.", "correct": true },
+          { "text": "Kurz und abgehackt, mit vielen Pausen." },
+          { "text": "Kräftig hin und her, immer wieder absetzen." }
+        ],
+        "explanation": "Fließende, schwungvolle Bewegungen sind leichter als viele einzelne. Eine Schlangenlinie geht ohne Absetzen weiter. Das schont deine Arme und du wischst gleichmäßig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙅 Was solltest du bei den Handbewegungen vermeiden?",
+        "options": [
+          { "text": "Überkreuzbewegungen – die rechte Hand nicht über die linke greifen lassen.", "correct": true },
+          { "text": "Beide Hände gleichmäßig benutzen." },
+          { "text": "Große, schwungvolle Bögen." }
+        ],
+        "explanation": "Wenn eine Hand über die andere kreuzt, verdrehst du den Körper. Das ist anstrengend und ungesund. Benutze beide Hände gleichmäßig und bleib in schwungvollen Bahnen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Was ist beim Wischen gut für den Körper und was nicht? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Ergonomisch richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Besser vermeiden", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Fließende, schwungvolle Bewegungen", "bucket": "richtig" },
+          { "text": "Schlangenförmig ohne Absetzen wischen", "bucket": "richtig" },
+          { "text": "Beide Hände gleichmäßig benutzen", "bucket": "richtig" },
+          { "text": "Möglichst wenige Bewegungen machen", "bucket": "richtig" },
+          { "text": "Die rechte Hand über die linke kreuzen", "bucket": "falsch" },
+          { "text": "Ständig absetzen und neu ansetzen", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Wann nimmst du den feinen Schmutz (Staub) auf?",
+        "options": [
+          { "text": "Ganz zum Schluss, mit dem Wischtuch.", "correct": true },
+          { "text": "Ganz am Anfang, vor dem Wischen." },
+          { "text": "Zwischendurch, immer wieder." }
+        ],
+        "explanation": "Den feinen Schmutz sammelst du am Ende mit dem Wischtuch ein. Vorher wischst du die Fläche schlangenförmig. So bleibt nichts liegen."
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-trennung-kosten",
+  "title": "Müll trennen & Kosten",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🗑️ Jeder Müll hat seine Tonne. Ordne die Farben zu.",
+        "pairs": [
+          { "left": { "text": "Restmüll" }, "right": { "text": "⚫ Graue oder schwarze Tonne" } },
+          { "left": { "text": "Verpackungen" }, "right": { "text": "🟡 Gelbe Tonne" } },
+          { "left": { "text": "Papier" }, "right": { "text": "🔵 Blaue Tonne" } },
+          { "left": { "text": "Bioabfall" }, "right": { "text": "🟤 Braune Tonne" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🟡 Was gehört in den gelben Sack? Sortiere.",
+        "buckets": [
+          { "id": "rein", "label": "Gehört rein", "icon": "✅" },
+          { "id": "raus", "label": "Gehört nicht rein", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Getränkedose aus Metall", "bucket": "rein" },
+          { "text": "Joghurtbecher aus Plastik", "bucket": "rein" },
+          { "text": "Milchkarton", "bucket": "rein" },
+          { "text": "Alte Zeitung", "bucket": "raus" },
+          { "text": "Bananenschale", "bucket": "raus" },
+          { "text": "Essensreste", "bucket": "raus" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Seit wann gibt es das Duale System in Deutschland?",
+        "options": [
+          { "text": "Seit 1990.", "correct": true },
+          { "text": "Seit 1950." },
+          { "text": "Seit 2015." }
+        ],
+        "explanation": "Das Duale System gibt es seit 1990. Es sammelt und verwertet gebrauchte Verpackungen. Es arbeitet neben der Müllabfuhr der Gemeinde."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟢 Auf einer Verpackung ist der Grüne Punkt. Was heißt das?",
+        "options": [
+          { "text": "Die Firma zahlt für das Duale System. Die Verpackung darf in den gelben Sack.", "correct": true },
+          { "text": "Die Verpackung ist aus Glas." },
+          { "text": "Die Verpackung ist giftig." }
+        ],
+        "explanation": "Der Grüne Punkt zeigt: Die Firma hat für die Entsorgung bezahlt. Solche Verpackungen kommen in den gelben Sack oder die gelbe Tonne."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👥 Beim Dualen System machen drei mit. Ordne die Aufgabe zu.",
+        "pairs": [
+          { "left": { "text": "🏭 Hersteller" }, "right": { "text": "Verpackt die Ware und zahlt die Lizenz" } },
+          { "left": { "text": "🛒 Verbraucher" }, "right": { "text": "Kauft das Produkt" } },
+          { "left": { "text": "🚛 Entsorger" }, "right": { "text": "Sammelt und verwertet den Müll" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Wer bezahlt am Ende für die Entsorgung der Verpackungen?",
+        "options": [
+          { "text": "Alle Käufer. Die Kosten stecken schon im Preis der Ware.", "correct": true },
+          { "text": "Nur der Staat." },
+          { "text": "Niemand, es ist gratis." }
+        ],
+        "explanation": "Die Firma legt die Lizenzkosten auf den Preis um. Beim Einkauf an der Kasse zahlst du sie also mit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍲 Speisereste kommen je nach Art in eine andere Tonne. Sortiere.",
+        "buckets": [
+          { "id": "bio", "label": "Biotonne", "icon": "🟤" },
+          { "id": "drang", "label": "Drangtonne", "icon": "🔒" },
+          { "id": "sonder", "label": "Sondermüll", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Kartoffelschalen", "bucket": "bio" },
+          { "text": "Salatreste ohne Fleisch", "bucket": "bio" },
+          { "text": "Reste mit Fleisch", "bucket": "drang" },
+          { "text": "Knochen und Wurst", "bucket": "drang" },
+          { "text": "Altes Fett aus der Fritteuse", "bucket": "sonder" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Wohin gehört altes Fett aus der Fritteuse?",
+        "options": [
+          { "text": "In den Sondermüll. Es wird getrennt gelagert.", "correct": true },
+          { "text": "In den normalen Abfluss." },
+          { "text": "In die Papiertonne." }
+        ],
+        "explanation": "Altfette sind Sondermüll. Man lagert sie getrennt und gibt sie nicht in den Ausguss. Sonst verstopfen die Rohre."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Wovon hängt die Höhe der Abfallgebühren ab?",
+        "options": [
+          { "text": "Von der Größe der Tonne, wie oft geleert wird und von der Abfallart.", "correct": true },
+          { "text": "Vom Wetter." },
+          { "text": "Von der Farbe der Hauswand." }
+        ],
+        "explanation": "Die Gebühren richten sich unter anderem nach der Behältergröße, der Häufigkeit der Leerung und der Art des Abfalls."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔵 Welche Farbe hat die Tonne für Papier?",
+        "options": [
+          { "text": "Blau.", "correct": true },
+          { "text": "Gelb." },
+          { "text": "Braun." }
+        ],
+        "explanation": "Papier kommt in die blaue Tonne. Zum Beispiel Zeitungen, Kartons und Prospekte."
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-material-kunststoff-metall",
+  "title": "Material: Kunststoff & Edelstahl",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Woraus wird Kunststoff meistens gemacht?",
+        "options": [
+          { "text": "Vor allem aus Erdöl.", "correct": true },
+          { "text": "Aus Sand und Kalk." },
+          { "text": "Aus Holz und Wasser." }
+        ],
+        "explanation": "Der wichtigste Rohstoff für Kunststoff ist Erdöl. Manchmal kommen auch Erdgas oder Kohle dazu. Daraus entsteht in der Fabrik der Kunststoff."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Kunststoff teilt man in drei Gruppen ein. Wie heißen sie?",
+        "options": [
+          { "text": "Duroplaste, Thermoplaste und Elastomere.", "correct": true },
+          { "text": "Glas, Keramik und Metall." },
+          { "text": "Hart, weich und flüssig." }
+        ],
+        "explanation": "Es gibt Duroplaste, Thermoplaste und Elastomere. Sie sind innen unterschiedlich aufgebaut. Darum ist Kunststoff mal hart und fest, mal biegsam wie Gummi."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Kunststoff reagiert auf manche Dinge. Was ist die Folge?",
+        "pairs": [
+          { "left": { "text": "☀️ Liegt lange in der Sonne" }, "right": { "text": "Wird blass und vergilbt" } },
+          { "left": { "text": "🍟 Kommt mit heißem Fett zusammen" }, "right": { "text": "Verformt sich" } },
+          { "left": { "text": "🧅 Liegt neben Zwiebeln oder Fisch" }, "right": { "text": "Nimmt den Geruch an" } },
+          { "left": { "text": "🥄 Melamin über 70 °C" }, "right": { "text": "Gibt schädliche Stoffe ab" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Kochendes Wasser verträgt viel Kunststoff. Wie ist es mit heißem Fett?",
+        "options": [
+          { "text": "Heißes Fett verträgt Kunststoff nicht. Es wird viel heißer als Wasser und verformt ihn.", "correct": true },
+          { "text": "Heißes Fett und kochendes Wasser sind für Kunststoff gleich." },
+          { "text": "Heißes Fett macht Kunststoff härter und besser." }
+        ],
+        "explanation": "Wasser wird höchstens 100 °C heiß. Fett wird viel heißer. Der Kunststoff verformt sich dann und die Oberfläche wird rau. In rauen Stellen sammeln sich Keime."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Ein Kochlöffel aus Melamin liegt im heißen Topf. Warum ist das schlecht?",
+        "options": [
+          { "text": "Über 70 °C gibt Melamin schädliche Stoffe ans Essen ab.", "correct": true },
+          { "text": "Der Löffel wird dabei sauberer." },
+          { "text": "Melamin hält jede Hitze problemlos aus." }
+        ],
+        "explanation": "Melamin ist ein Kunststoff. Wird er heißer als 70 °C, gehen schädliche Stoffe ins Essen über. Für heißes Essen nimmst du besser einen Löffel aus Holz oder Edelstahl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔩 Was ist typisch für Metalle wie Edelstahl oder Silber?",
+        "options": [
+          { "text": "Sie leiten Wärme gut und glänzen.", "correct": true },
+          { "text": "Sie sind durchsichtig wie Glas." },
+          { "text": "Sie sind sehr leicht und weich." }
+        ],
+        "explanation": "Metalle leiten Wärme gut. Darum wird ein Topfgriff aus Metall schnell heiß. Außerdem haben Metalle einen typischen Glanz und halten lange."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Was stimmt über Edelstahl?",
+        "options": [
+          { "text": "Edelstahl rostet nicht, bekommt aber leicht Kratzer.", "correct": true },
+          { "text": "Edelstahl rostet schnell und muss geölt werden." },
+          { "text": "Edelstahl ist weich wie Kunststoff." }
+        ],
+        "explanation": "Edelstahl rostet nicht und verträgt sogar Säuren. Die glatte Oberfläche ist aber empfindlich gegen Kratzer. Darum nimmst du zum Putzen keine kratzenden Mittel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚙️ Edelstahl ist eine Legierung. Was heißt das?",
+        "options": [
+          { "text": "Mehrere Metalle sind zusammengeschmolzen – zum Beispiel Stahl mit Chrom und Nickel.", "correct": true },
+          { "text": "Ein dünner Metall-Überzug liegt oben auf." },
+          { "text": "Es ist reines Eisen ohne Zusatz." }
+        ],
+        "explanation": "Bei einer Legierung werden verschiedene Metalle zusammengeschmolzen. Edelstahl ist Stahl mit Chrom und Nickel. Das ganze Stück besteht daraus. Es ist kein Überzug – darum kann nichts in die Speisen abblättern."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welche Eigenschaft passt zu welchem Material? Sortiere.",
+        "buckets": [
+          { "id": "kunststoff", "label": "Kunststoff", "icon": "🧃" },
+          { "id": "edelstahl", "label": "Edelstahl", "icon": "✨" }
+        ],
+        "items": [
+          { "text": "Vergilbt in der Sonne", "bucket": "kunststoff" },
+          { "text": "Nimmt Gerüche an", "bucket": "kunststoff" },
+          { "text": "Ist sehr leicht", "bucket": "kunststoff" },
+          { "text": "Rostet nicht", "bucket": "edelstahl" },
+          { "text": "Leitet Wärme gut", "bucket": "edelstahl" },
+          { "text": "Verträgt Säuren und Laugen", "bucket": "edelstahl" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Rostet Edelstahl?",
+        "options": [
+          { "text": "Nein, Edelstahl rostet nicht. Das steht sogar im Namen: „Edelstahl Rostfrei“.", "correct": true },
+          { "text": "Ja, Edelstahl rostet wie normales Eisen." },
+          { "text": "Nur im Sommer rostet er." }
+        ],
+        "explanation": "Edelstahl rostet nicht. Das Zeichen „Edelstahl Rostfrei“ gibt es schon seit 1958. Es zeigt: Dieses Metall bleibt auch mit Wasser blank."
+      }
+    }
+  ]
+}

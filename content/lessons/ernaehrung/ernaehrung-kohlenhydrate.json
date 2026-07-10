@@ -1,0 +1,128 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-kohlenhydrate",
+  "title": "Kohlenhydrate & Ballaststoffe",
+  "sort": 70,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Kohlenhydrate entstehen in Pflanzen. Wie machen die Pflanzen das?",
+        "options": [
+          { "text": "Mit Sonnenlicht, Wasser und Luft. Das nennt man Fotosynthese.", "correct": true },
+          { "text": "Aus Erde und Steinen." },
+          { "text": "Aus tierischem Fett." }
+        ],
+        "explanation": "Pflanzen fangen Sonnenlicht mit ihrem grünen Blattfarbstoff. Aus Wasser und Kohlenstoffdioxid aus der Luft bauen sie Zucker. Dabei geben sie Sauerstoff ab. Dieser Vorgang heißt Fotosynthese."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍬 Kohlenhydrate teilt man nach ihrer Größe ein. Sortiere die Zucker.",
+        "buckets": [
+          { "id": "einfach", "label": "Einfachzucker", "icon": "🔵" },
+          { "id": "zweifach", "label": "Zweifachzucker", "icon": "🔵🔵" },
+          { "id": "vielfach", "label": "Vielfachzucker", "icon": "⛓️" }
+        ],
+        "items": [
+          { "text": "Traubenzucker", "bucket": "einfach" },
+          { "text": "Fruchtzucker", "bucket": "einfach" },
+          { "text": "Haushaltszucker", "bucket": "zweifach" },
+          { "text": "Milchzucker", "bucket": "zweifach" },
+          { "text": "Stärke", "bucket": "vielfach" },
+          { "text": "Zellulose", "bucket": "vielfach" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Ein Zweifachzucker besteht aus zwei Bausteinen. Ordne jeden Zweifachzucker seinen Bausteinen zu.",
+        "pairs": [
+          { "left": { "text": "Haushaltszucker (Saccharose)" }, "right": { "text": "Traubenzucker + Fruchtzucker" } },
+          { "left": { "text": "Milchzucker (Lactose)" }, "right": { "text": "Traubenzucker + Schleimzucker" } },
+          { "left": { "text": "Malzzucker (Maltose)" }, "right": { "text": "Traubenzucker + Traubenzucker" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍯 In welchem Essen steckt viel von dem Zucker? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Traubenzucker" }, "right": { "text": "🍇 Obst und Honig" } },
+          { "left": { "text": "Milchzucker" }, "right": { "text": "🥛 Milch" } },
+          { "left": { "text": "Malzzucker" }, "right": { "text": "🌾 Keimendes Getreide" } },
+          { "left": { "text": "Stärke" }, "right": { "text": "🥔 Kartoffeln und Getreide" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Stärke reagiert unterschiedlich auf Hitze. Mit Wasser wird sie zum Bindemittel (Verkleisterung). Trocken bräunt sie und wird zu Dextrin. Sortiere.",
+        "buckets": [
+          { "id": "feucht", "label": "Feuchte Hitze: Verkleisterung", "icon": "💧" },
+          { "id": "trocken", "label": "Trockene Hitze: Dextrin", "icon": "🍞" }
+        ],
+        "items": [
+          { "text": "Soße mit Mehl andicken", "bucket": "feucht" },
+          { "text": "Pudding kochen", "bucket": "feucht" },
+          { "text": "Brot backen", "bucket": "trocken" },
+          { "text": "Toast rösten", "bucket": "trocken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Ballaststoffe stecken in pflanzlichem Essen. Kann der Körper sie verdauen?",
+        "options": [
+          { "text": "Nein, aber sie binden Wasser und halten den Darm in Schwung.", "correct": true },
+          { "text": "Ja, sie geben viel Energie." },
+          { "text": "Nein, sie sind schädlich." }
+        ],
+        "explanation": "Ballaststoffe kann der Körper nicht verdauen. Trotzdem sind sie wichtig. Sie binden Wasser und bringen den Darm in Schwung. So bleibt die Verdauung gesund."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫘 Welches Essen hat die meisten Ballaststoffe?",
+        "options": [
+          { "text": "Hülsenfrüchte wie Bohnen und Linsen.", "correct": true },
+          { "text": "Weißbrot." },
+          { "text": "Kopfsalat." }
+        ],
+        "explanation": "Hülsenfrüchte wie Bohnen, Linsen und Erbsen haben den höchsten Gehalt: etwa 18 Gramm in 100 Gramm. Weißbrot und Kopfsalat haben nur wenig davon."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Wie viel Energie liefert 1 Gramm Kohlenhydrate?",
+        "options": [
+          { "text": "17 Kilojoule.", "correct": true },
+          { "text": "37 Kilojoule." },
+          { "text": "100 Kilojoule." }
+        ],
+        "explanation": "1 Gramm Kohlenhydrate liefert 17 Kilojoule. Das ist gleich viel wie bei Eiweiß. Nur Fett hat mehr: 37 Kilojoule pro Gramm."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Zucker, Stärke und Ballaststoffe gehören alle zu welchem Nährstoff?",
+        "options": [
+          { "text": "Zu den Kohlenhydraten.", "correct": true },
+          { "text": "Zu den Fetten." },
+          { "text": "Zu den Vitaminen." }
+        ],
+        "explanation": "Zucker, Stärke und Ballaststoffe sind alle Kohlenhydrate. Zucker und Stärke geben schnell Energie. Ballaststoffe halten die Verdauung in Gang."
+      }
+    }
+  ]
+}

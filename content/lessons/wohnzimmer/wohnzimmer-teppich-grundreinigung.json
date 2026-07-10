@@ -1,0 +1,118 @@
+{
+  "topic_slug": "wohnzimmer",
+  "slug": "wohnzimmer-teppich-grundreinigung",
+  "title": "Teppich grundreinigen",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧶 Du willst einen Teppich grundreinigen. Was prüfst du ganz zuerst?",
+        "options": [
+          { "text": "Ob der Teppich das Reinigungsmittel verträgt.", "correct": true },
+          { "text": "Wie schwer der Teppich ist." },
+          { "text": "Welche Farbe der Teppich hat." }
+        ],
+        "explanation": "Der erste Schritt ist immer die Materialverträglichkeit. Du prüfst an einer kleinen Stelle, ob der Teppich das Mittel verträgt. Erst dann geht es weiter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔬 Warum prüfst du die Materialverträglichkeit zuerst?",
+        "options": [
+          { "text": "Damit der Teppich keinen Schaden nimmt oder Farbe verliert.", "correct": true },
+          { "text": "Damit der Teppich schneller trocknet." },
+          { "text": "Damit du weniger Mittel brauchst." }
+        ],
+        "explanation": "Manche Teppiche vertragen ein Mittel nicht. Sie verfärben sich oder werden hart. Wenn du vorher an einer kleinen Stelle testest, kannst du nichts kaputt machen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧹 Teil 1: Bringe die Vorbereitung der Teppich-Grundreinigung in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Materialverträglichkeit prüfen." },
+          { "text": "Kleinmöbel zur Seite stellen." },
+          { "text": "Den Teppich gründlich staubsaugen." },
+          { "text": "Das Reinigungsmittel nach Vorschrift dosieren." },
+          { "text": "Die Geräte einsatzbereit machen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🤔 Jeder Schritt hat einen Grund. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🔬 Verträglichkeit prüfen" }, "right": { "text": "Damit der Teppich keinen Schaden nimmt" } },
+          { "left": { "text": "🧹 Erst staubsaugen" }, "right": { "text": "Losen Schmutz vorher entfernen" } },
+          { "left": { "text": "💧 Trocknen lassen" }, "right": { "text": "Man läuft nicht über den nassen Teppich" } },
+          { "left": { "text": "🧴 Geräte reinigen" }, "right": { "text": "Beim nächsten Mal sind sie wieder bereit" } }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🫧 Teil 2: Bringe die letzten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Den Teppich shampoonieren." },
+          { "text": "Das Ergebnis kontrollieren." },
+          { "text": "Den Teppich trocknen lassen." },
+          { "text": "Die Geräte reinigen." },
+          { "text": "Die Kleinmöbel zurückstellen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Warum saugst du den Teppich erst, bevor du ihn shampoonierst?",
+        "options": [
+          { "text": "Der lose Schmutz muss weg, sonst wird er nass zu Matsch.", "correct": true },
+          { "text": "Damit der Teppich weicher wird." },
+          { "text": "Das ist egal, man kann auch mit dem Shampoo anfangen." }
+        ],
+        "explanation": "Beim Saugen holst du Krümel, Staub und Haare heraus. Wenn du diesen losen Schmutz nass machst, wird er zu Matsch und verteilt sich. Darum: erst saugen, dann shampoonieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪣 Was ist typisch für die Grundreinigung?",
+        "options": [
+          { "text": "Sie ist selten und sehr gründlich, auch tiefer Schmutz kommt weg.", "correct": true },
+          { "text": "Man macht sie jeden Tag ganz schnell." },
+          { "text": "Man saugt nur kurz drüber." }
+        ],
+        "explanation": "Die Grundreinigung ist die gründlichste Reinigung. Sie holt auch tiefen Schmutz heraus und braucht viel Zeit. Darum macht man sie selten. Das kurze Saugen zwischendurch ist dagegen die Unterhaltsreinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Was machst du direkt nach dem Shampoonieren?",
+        "options": [
+          { "text": "Das Ergebnis kontrollieren.", "correct": true },
+          { "text": "Sofort die Möbel zurückstellen." },
+          { "text": "Den Teppich noch einmal staubsaugen." }
+        ],
+        "explanation": "Nach dem Shampoonieren schaust du dir das Ergebnis genau an. So merkst du, ob noch Flecken da sind. Erst danach lässt du den Teppich trocknen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss ein Memory: Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🧹 Staubsaugen" }, "right": { "text": "Losen Schmutz entfernen" } },
+          { "left": { "text": "🫧 Shampoonieren" }, "right": { "text": "Tiefen Schmutz lösen" } },
+          { "left": { "text": "🪑 Möbel zurück" }, "right": { "text": "Ganz zum Schluss" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

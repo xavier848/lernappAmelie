@@ -1,0 +1,141 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-wasser-pflanzenstoffe",
+  "title": "Wasser, Pflanzenstoffe & Zusatzstoffe",
+  "sort": 80,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Wasser ist ein Baustoff im Körper. Wie viel von deinem Körper besteht ungefähr aus Wasser?",
+        "options": [
+          { "text": "Etwa 70 Prozent.", "correct": true },
+          { "text": "Etwa 20 Prozent." },
+          { "text": "Etwa 5 Prozent." }
+        ],
+        "explanation": "Rund 70 Prozent des Körpers sind Wasser. Bei Babys ist der Anteil noch höher. Ohne Essen hältst du Wochen aus, ohne Trinken nur 3 bis 5 Tage."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wasser hat mehrere Aufgaben im Körper. Ordne jede Aufgabe der Erklärung zu.",
+        "pairs": [
+          { "left": { "text": "Baustoff" }, "right": { "text": "steckt in jeder Zelle" } },
+          { "left": { "text": "Transportmittel" }, "right": { "text": "bringt Nährstoffe zu den Zellen" } },
+          { "left": { "text": "Temperaturregler" }, "right": { "text": "Schweiß kühlt den Körper" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Der Körper nimmt Wasser auf und gibt Wasser ab. Beides soll gleich viel sein. Sortiere die Wege.",
+        "buckets": [
+          { "id": "zufuhr", "label": "Wasser rein (Zufuhr)", "icon": "⬇️" },
+          { "id": "abgabe", "label": "Wasser raus (Abgabe)", "icon": "⬆️" }
+        ],
+        "items": [
+          { "text": "Getränke", "bucket": "zufuhr" },
+          { "text": "Wasser im Essen", "bucket": "zufuhr" },
+          { "text": "Wasser aus dem Nährstoff-Abbau", "bucket": "zufuhr" },
+          { "text": "Urin", "bucket": "abgabe" },
+          { "text": "Schweiß über die Haut", "bucket": "abgabe" },
+          { "text": "Atem über die Lunge", "bucket": "abgabe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Wie viel Wasser nimmt ein Erwachsener am Tag ungefähr auf und gibt es wieder ab?",
+        "options": [
+          { "text": "Etwa 2,5 Liter.", "correct": true },
+          { "text": "Etwa 10 Liter." },
+          { "text": "Etwa 0,2 Liter." }
+        ],
+        "explanation": "Pro Tag kommen etwa 2,5 Liter Wasser rein und 2,5 Liter raus. So ist die Wasserbilanz ausgeglichen. Beim starken Schwitzen, bei Durchfall oder Erbrechen musst du mehr trinken."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌈 Sekundäre Pflanzenstoffe wirken auf deine Sinne. Sie geben Farbe, Geruch oder Geschmack. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "👁️ Farbe (Sehen)" }, "right": { "text": "🥕 Möhre, Tomate" } },
+          { "left": { "text": "👃 Geruch (Riechen)" }, "right": { "text": "🧅 Zwiebel, Knoblauch" } },
+          { "left": { "text": "👅 Geschmack (Schmecken)" }, "right": { "text": "🌶️ Chili, Tee" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚠️ Manche Stoffe im Essen sind unerwünscht. Sie kommen von verschiedenen Orten. Sortiere nach Herkunft.",
+        "buckets": [
+          { "id": "aussen", "label": "Kommt von außen", "icon": "🚜" },
+          { "id": "verarbeitung", "label": "Entsteht beim Verarbeiten", "icon": "🔥" },
+          { "id": "natur", "label": "Ist von Natur aus drin", "icon": "🌿" }
+        ],
+        "items": [
+          { "text": "Pflanzenschutzmittel", "bucket": "aussen" },
+          { "text": "Schadstoffe aus der Luft", "bucket": "aussen" },
+          { "text": "Acrylamid beim Backen", "bucket": "verarbeitung" },
+          { "text": "Verbrannte Stellen beim Grillen", "bucket": "verarbeitung" },
+          { "text": "Solanin", "bucket": "natur" },
+          { "text": "Cumarin", "bucket": "natur" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥔 Einige Lebensmittel enthalten von Natur aus einen unerwünschten Stoff. Ordne den Stoff dem Lebensmittel zu.",
+        "pairs": [
+          { "left": { "text": "Solanin" }, "right": { "text": "🥔 grüne Kartoffel" } },
+          { "left": { "text": "Cumarin" }, "right": { "text": "🍂 Zimt" } },
+          { "left": { "text": "Oxalsäure" }, "right": { "text": "🥬 Spinat" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Zusatzstoffe müssen auf der Verpackung stehen. Wie werden sie gekennzeichnet?",
+        "options": [
+          { "text": "Mit einer E-Nummer oder dem Klassennamen, zum Beispiel Farbstoff.", "correct": true },
+          { "text": "Gar nicht, sie sind geheim." },
+          { "text": "Nur mit einem Bild." }
+        ],
+        "explanation": "Zusatzstoffe stehen mit einer E-Nummer oder ihrem Klassennamen auf der Verpackung. Der Klassenname sagt, was der Stoff macht, zum Beispiel Farbstoff oder Konservierungsstoff."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥜 Manche Zutaten können Allergien auslösen. Wie viele davon müssen auf der Verpackung stehen?",
+        "options": [
+          { "text": "14 Allergene.", "correct": true },
+          { "text": "3 Allergene." },
+          { "text": "100 Allergene." }
+        ],
+        "explanation": "14 Allergene müssen immer gekennzeichnet werden. Dazu gehören zum Beispiel Milch, Eier, Fisch, Erdnüsse, Soja und glutenhaltiges Getreide. So können allergische Menschen sicher einkaufen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Was kühlt deinen Körper, wenn dir heiß ist?",
+        "options": [
+          { "text": "Der Schweiß. Er verdunstet auf der Haut.", "correct": true },
+          { "text": "Das Fett unter der Haut." },
+          { "text": "Die Haare." }
+        ],
+        "explanation": "Wenn dir heiß ist, schwitzt du. Der Schweiß verdunstet auf der Haut und kühlt dich ab. So hält Wasser deine Körpertemperatur gleich."
+      }
+    }
+  ]
+}

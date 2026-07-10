@@ -1,0 +1,113 @@
+{
+  "topic_slug": "wahrnehmung",
+  "slug": "wahrnehmung-fehler",
+  "title": "Fehler beim Beurteilen",
+  "sort": 30,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Wie entsteht ein Wahrnehmungs-Fehler?",
+        "options": [
+          { "text": "Die Wahrnehmung wird mit einem Vorurteil verknüpft.", "correct": true },
+          { "text": "Man hat besonders gute Augen." },
+          { "text": "Man beobachtet ganz sachlich." }
+        ],
+        "explanation": "Bei einem Wahrnehmungs-Fehler mischt sich ein Vorurteil in das Urteil. Das Urteil ist dann subjektiv. Es kann stimmen oder ganz falsch sein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🗣️ Welcher Spruch passt zu welchem Fehler? Verbinde.",
+        "pairs": [
+          { "left": { "text": "Primär-Effekt" }, "right": { "text": "Der erste Eindruck entscheidet." } },
+          { "left": { "text": "Hof-Effekt" }, "right": { "text": "Einmal langsam, immer langsam." } },
+          { "left": { "text": "Logischer Fehler" }, "right": { "text": "Leise Stimme, also nicht durchsetzungsfähig." } },
+          { "left": { "text": "Tendenz zur Mitte" }, "right": { "text": "Ich kreuze lieber die Mitte an." } },
+          { "left": { "text": "Sympathie-Fehler" }, "right": { "text": "Wen ich mag, beurteile ich besser." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👔 Sarah kommt gepflegt zum Vorstellungs-Gespräch. Danach findet die Chefin einfach alles an ihr gut. Welcher Fehler ist das?",
+        "options": [
+          { "text": "Der Primär-Effekt.", "correct": true },
+          { "text": "Die Tendenz zur Mitte." },
+          { "text": "Der logische Fehler." }
+        ],
+        "explanation": "Beim Primär-Effekt wird der erste Eindruck zur Grundlage für alles Weitere. Die Chefin prüft ihr erstes Urteil nicht mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐌 Ein Bewerber spricht aus Nervosität langsam. Die Chefin denkt: 'Der arbeitet bestimmt auch langsam.' Welcher Fehler ist das?",
+        "options": [
+          { "text": "Der Hof-Effekt.", "correct": true },
+          { "text": "Der Sympathie-Fehler." },
+          { "text": "Der Primär-Effekt." }
+        ],
+        "explanation": "Beim Hof-Effekt schließt man von einer Eigenschaft auf andere. Vom langsamen Sprechen wird falsch auf langsames Arbeiten geschlossen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔈 Eine Bewerberin hat eine leise Stimme. Der Chef denkt: 'Die kann sich sicher nicht durchsetzen.' Welcher Fehler ist das?",
+        "options": [
+          { "text": "Der logische Fehler.", "correct": true },
+          { "text": "Der Hof-Effekt." },
+          { "text": "Die Tendenz zur Mitte." }
+        ],
+        "explanation": "Beim logischen Fehler verknüpft man zwei Dinge, die nicht zusammengehören. Eine leise Stimme sagt nichts über die Durchsetzungs-Kraft."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welcher Fehler steckt dahinter? Sortiere.",
+        "buckets": [
+          { "id": "primaer", "label": "Primär-Effekt", "icon": "1️⃣" },
+          { "id": "sympathie", "label": "Sympathie-Fehler", "icon": "😊" },
+          { "id": "mitte", "label": "Tendenz zur Mitte", "icon": "🎯" }
+        ],
+        "items": [
+          { "text": "Der erste Eindruck zählt für die Chefin am meisten.", "bucket": "primaer" },
+          { "text": "Was jemand zuerst zeigt, bleibt das feste Urteil.", "bucket": "primaer" },
+          { "text": "Die nette Kollegin wird milder bewertet.", "bucket": "sympathie" },
+          { "text": "Wen man gern hat, sieht man positiver.", "bucket": "sympathie" },
+          { "text": "Im Fragebogen wird überall die Mitte angekreuzt.", "bucket": "mitte" },
+          { "text": "Aus Unsicherheit wählt man immer den mittleren Wert.", "bucket": "mitte" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Sarah kommt zu spät. Die Ausbilderin ist verständnisvoll. Eine andere bekommt für 10 Minuten eine Standpauke. Welcher Fehler ist das?",
+        "options": [
+          { "text": "Der Sympathie-Fehler.", "correct": true },
+          { "text": "Der Primär-Effekt." },
+          { "text": "Der logische Fehler." }
+        ],
+        "explanation": "Beim Sympathie-Fehler beurteilen wir Menschen, die wir mögen, positiver. Sarah wird nachgesehen, was andere nicht dürfen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Bei einer Skala von 1 bis 5 kreuzt jemand immer die 3 an. Warum?",
+        "options": [
+          { "text": "Aus Unsicherheit, um sich nicht festzulegen.", "correct": true },
+          { "text": "Weil die 3 immer richtig ist." },
+          { "text": "Weil die anderen Zahlen verboten sind." }
+        ],
+        "explanation": "Das ist die Tendenz zur Mitte. Aus Unsicherheit meidet man die Extreme. So zeigt das Ergebnis aber nicht die echten Stärken und Schwächen."
+      }
+    }
+  ]
+}

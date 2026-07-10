@@ -1,0 +1,118 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-fensterreinigung",
+  "title": "Fenster putzen Schritt für Schritt",
+  "sort": 13,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Du willst ein Fenster putzen. Womit fängst du an?",
+        "options": [
+          { "text": "Mit dem Rahmen. Der kommt vor der Scheibe dran.", "correct": true },
+          { "text": "Mit der Scheibe. Die ist am wichtigsten." },
+          { "text": "Mit der Fensterbank ganz unten." }
+        ],
+        "explanation": "Der Rahmen wird zuerst sauber gemacht. Wenn du erst die Scheibe putzt, tropft der Schmutz vom Rahmen wieder auf das saubere Glas. Darum immer: erst der Rahmen, dann die Scheibe."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧼 Teil 1: Bringe die ersten Schritte beim Fensterputzen in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Den Rahmen innen und außen mit Wasser und Neutralreiniger putzen." },
+          { "text": "Den Rahmen mit dem Trockentuch trockenreiben." },
+          { "text": "Den Einwascher in den Eimer mit Wasser und Spiritus tauchen." },
+          { "text": "Die Scheibe innen in Schlangenlinien einwaschen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪣 Was gibst du ins Wasser für den Einwascher?",
+        "options": [
+          { "text": "Spiritus.", "correct": true },
+          { "text": "Speiseöl." },
+          { "text": "Zucker." }
+        ],
+        "explanation": "Ins Wasser für den Einwascher kommt Spiritus. Der Spiritus löst Fett und Schmutz auf der Scheibe. So wird das Glas richtig klar."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "💧 Teil 2: Bringe die letzten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das Wasser mit dem Abzieher von oben nach unten abziehen." },
+          { "text": "Die Gummilippe mit dem Fensterleder abwischen." },
+          { "text": "Reihe für Reihe weiter abziehen." },
+          { "text": "Rand und Ecken mit dem Trockentuch auswischen." },
+          { "text": "Die Fensterbank mit dem Schwammtuch putzen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧰 Welches Hilfsmittel brauchst du für welche Arbeit?",
+        "pairs": [
+          { "left": { "text": "🪟 Rahmen putzen" }, "right": { "text": "Wasser mit Neutralreiniger" } },
+          { "left": { "text": "🧽 Scheibe einwaschen" }, "right": { "text": "Einwascher (Wasser mit Spiritus)" } },
+          { "left": { "text": "💧 Wasser abziehen" }, "right": { "text": "Abzieher" } },
+          { "left": { "text": "🧴 Gummilippe abwischen" }, "right": { "text": "Fensterleder" } },
+          { "left": { "text": "🪟 Fensterbank putzen" }, "right": { "text": "Schwammtuch" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬇️ In welche Richtung ziehst du das Wasser mit dem Abzieher ab?",
+        "options": [
+          { "text": "Von oben nach unten.", "correct": true },
+          { "text": "Von unten nach oben." },
+          { "text": "Kreuz und quer." }
+        ],
+        "explanation": "Du ziehst das Wasser von oben nach unten ab. So läuft das Wasser mit nach unten und tropft nicht auf die schon saubere Stelle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 In welchen Bahnen wäschst du die Scheibe ein?",
+        "options": [
+          { "text": "In Schlangenlinien über die ganze Scheibe.", "correct": true },
+          { "text": "Nur einen Punkt in der Mitte." },
+          { "text": "Nur ganz am Rand." }
+        ],
+        "explanation": "Du fährst in Schlangenlinien über das Glas. So kommst du auf jede Stelle und lässt keinen Fleck aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Womit nimmst du das Wasser von der Gummilippe des Abziehers ab?",
+        "options": [
+          { "text": "Mit dem Fensterleder.", "correct": true },
+          { "text": "Mit der bloßen Hand." },
+          { "text": "Mit dem Schwammtuch für die Fensterbank." }
+        ],
+        "explanation": "Nach jedem Zug wischst du die Gummilippe mit dem Fensterleder ab. Sonst zieht der Abzieher das alte Wasser wieder auf die Scheibe und macht Streifen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss ein Memory: Welches Werkzeug macht welche Arbeit?",
+        "pairs": [
+          { "left": { "text": "🪣 Abzieher" }, "right": { "text": "Wasser abziehen" } },
+          { "left": { "text": "🧴 Fensterleder" }, "right": { "text": "Gummilippe trocken wischen" } },
+          { "left": { "text": "🧽 Schwammtuch" }, "right": { "text": "Fensterbank putzen" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

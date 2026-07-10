@@ -1,0 +1,130 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-reinigungsplan-systeme",
+  "title": "Reinigungsplan & Arbeitssysteme",
+  "sort": 14,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👥 In großen Häusern putzt man nach einem System. Welche Erklärung passt?",
+        "pairs": [
+          { "left": { "text": "🚶 Kolonnensystem" }, "right": { "text": "Eine Person macht im ganzen Haus nur eine Aufgabe" } },
+          { "left": { "text": "🗺️ Reviersystem" }, "right": { "text": "Eine Person putzt ihren Bereich ganz allein" } },
+          { "left": { "text": "🔀 Mischsystem" }, "right": { "text": "Spezial-Arbeiten macht eine Person, den Rest jeder selbst" } }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Welche Aussage passt zu welchem System?",
+        "buckets": [
+          { "id": "kolonne", "label": "Kolonnensystem", "icon": "🚶" },
+          { "id": "revier", "label": "Reviersystem", "icon": "🗺️" },
+          { "id": "misch", "label": "Mischsystem", "icon": "🔀" }
+        ],
+        "items": [
+          { "text": "Immer die gleiche Arbeit im ganzen Haus", "bucket": "kolonne" },
+          { "text": "Durch Übung sehr schnell", "bucket": "kolonne" },
+          { "text": "Einseitig, man wird schneller müde", "bucket": "kolonne" },
+          { "text": "Ein eigener Bereich, alles selbst machen", "bucket": "revier" },
+          { "text": "Viel Abwechslung bei der Arbeit", "bucket": "revier" },
+          { "text": "Braucht viele eigene Geräte", "bucket": "revier" },
+          { "text": "Der Körper wird weniger einseitig belastet", "bucket": "misch" },
+          { "text": "Geht nur, wenn das Team gut zusammenarbeitet", "bucket": "misch" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚠️ Jedes System hat einen Nachteil. Welcher gehört wohin?",
+        "pairs": [
+          { "left": { "text": "🚶 Kolonnensystem" }, "right": { "text": "Einseitig, das macht schnell müde" } },
+          { "left": { "text": "🗺️ Reviersystem" }, "right": { "text": "Braucht viele Geräte und ist schwer zu vertreten" } },
+          { "left": { "text": "🔀 Mischsystem" }, "right": { "text": "Klappt nur mit einem guten Team" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚶 Was ist ein Vorteil vom Kolonnensystem?",
+        "options": [
+          { "text": "Man wird durch die Übung sehr schnell.", "correct": true },
+          { "text": "Man hat jeden Tag ganz andere Aufgaben." },
+          { "text": "Man lernt den ganzen Ablauf im Haus kennen." }
+        ],
+        "explanation": "Beim Kolonnensystem macht eine Person immer die gleiche Arbeit. Durch die viele Übung wird sie darin sehr schnell und braucht auch weniger verschiedene Geräte."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📋 Drei wichtige Begriffe. Wozu ist jeder da?",
+        "pairs": [
+          { "left": { "text": "📝 Reinigungsplan" }, "right": { "text": "Zeigt jeder Person, was sie putzen muss" } },
+          { "left": { "text": "📄 Leistungsbeschreibung" }, "right": { "text": "Grundlage, um Angebote von Firmen einzuholen" } },
+          { "left": { "text": "📚 Reinigungskonzept" }, "right": { "text": "Erfasst alle Räume und wie oft geputzt wird" } }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Wozu schreibt ein Betrieb eine Leistungsbeschreibung?",
+        "options": [
+          { "text": "Damit Reinigungsfirmen ein Angebot machen können.", "correct": true },
+          { "text": "Damit die Gäste wissen, wann sie kommen dürfen." },
+          { "text": "Damit man weiß, welche Farbe die Wände haben." }
+        ],
+        "explanation": "In der Leistungsbeschreibung steht genau, welche Räume und Flächen geputzt werden müssen. Eine Firma kann dann ausrechnen, was die Arbeit kostet, und ein Angebot machen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📅 Wie oft wird ein Patientenzimmer gereinigt? Sortiere die Arbeiten.",
+        "buckets": [
+          { "id": "taeglich", "label": "Fast jeden Tag", "icon": "☀️" },
+          { "id": "woche", "label": "Einmal pro Woche", "icon": "🗓️" },
+          { "id": "jahr", "label": "Einmal pro Jahr", "icon": "📆" }
+        ],
+        "items": [
+          { "text": "🗑️ Papierkorb leeren", "bucket": "taeglich" },
+          { "text": "🧹 Fußboden nass wischen", "bucket": "taeglich" },
+          { "text": "🛏️ Nachtschrank feucht abwischen", "bucket": "taeglich" },
+          { "text": "🔥 Heizkörper ganz abwischen", "bucket": "woche" },
+          { "text": "🚪 Türen ganz abwischen", "bucket": "woche" },
+          { "text": "🪟 Gardinen waschen", "bucket": "jahr" },
+          { "text": "💡 Deckenlampe abwischen", "bucket": "jahr" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Bei der ergebnisorientierten Reinigung: Worauf kommt es an?",
+        "options": [
+          { "text": "Das Ergebnis muss stimmen: Der Raum muss sauber sein.", "correct": true },
+          { "text": "Man putzt nach Plan, auch wenn nichts schmutzig ist." },
+          { "text": "Man putzt nur, wenn Zeit übrig ist." }
+        ],
+        "explanation": "Bei der ergebnisorientierten Reinigung ist ein sauberer Zustand vereinbart. Die Firma muss dafür sorgen, dass der Raum wirklich sauber ist. Bei der klassischen Reinigung wird dagegen streng nach Plan geputzt, egal ob es schmutzig ist oder nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Wobei hilft ein guter Reinigungsplan?",
+        "options": [
+          { "text": "Jede Person weiß, was sie zu tun hat.", "correct": true },
+          { "text": "Man braucht gar keine Reinigungsmittel mehr." },
+          { "text": "Die Gäste putzen dann selbst." }
+        ],
+        "explanation": "Im Reinigungsplan steht, wer welche Aufgabe erledigt. So weiß jede Person genau, was zu tun ist. Auch eine neue Vertretung kann sich schnell zurechtfinden."
+      }
+    }
+  ]
+}

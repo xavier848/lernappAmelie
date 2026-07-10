@@ -1,0 +1,110 @@
+{
+  "topic_slug": "waesche",
+  "slug": "waesche-buegeln",
+  "title": "Bügeln & Wäsche trocknen",
+  "sort": 7,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Es gibt einen Bügelplatz für Rechtshänder und einen für Linkshänder. Wie sind sie aufgebaut?",
+        "options": [
+          { "text": "Spiegelbildlich. Alles steht auf der jeweils anderen Seite.", "correct": true },
+          { "text": "Völlig gleich. Es gibt keinen Unterschied." },
+          { "text": "Der Bügelplatz für Linkshänder braucht kein Bügelbrett." }
+        ],
+        "explanation": "Ein Linkshänder arbeitet mit der linken Hand, ein Rechtshänder mit der rechten. Darum ist der Bügelplatz spiegelbildlich. Der Korb und die Ablage stehen jeweils auf der passenden Seite. So ist alles gut erreichbar."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Am Bügelplatz sind drei Dinge nummeriert. Verbinde jede Nummer mit ihrer Aufgabe.",
+        "pairs": [
+          { "left": { "text": "1️⃣" }, "right": { "text": "Korb mit ungebügelter Wäsche" } },
+          { "left": { "text": "2️⃣" }, "right": { "text": "Ablage für gebügelte Wäsche" } },
+          { "left": { "text": "3️⃣" }, "right": { "text": "Das Bügelbrett" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💦 Trockene Wäsche lässt sich besser bügeln, wenn sie leicht feucht ist. Womit sprengst du sie ein?",
+        "options": [
+          { "text": "Mit lauwarmem Wasser.", "correct": true },
+          { "text": "Mit heißem Öl." },
+          { "text": "Mit kaltem Essig." }
+        ],
+        "explanation": "Ein bisschen Feuchtigkeit macht den Stoff glatt. Du besprühst die trockene Wäsche mit lauwarmem Wasser. Danach lässt sie sich viel leichter bügeln, und die Falten gehen besser heraus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Du hast Wäsche eingesprengt. Wie lange darf sie höchstens liegen bleiben?",
+        "options": [
+          { "text": "Höchstens 24 Stunden.", "correct": true },
+          { "text": "Eine ganze Woche." },
+          { "text": "So lange du willst." }
+        ],
+        "explanation": "Feuchte Wäsche, die zu lange liegt, kann muffig riechen oder stockig werden. Darum sprengst du sie höchstens 24 Stunden vorher ein. So bleibt sie frisch bis zum Bügeln."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Du bereitest das Bügeln vor. Was ist richtig, was ist falsch? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Die Wäsche nach der Bügeltemperatur sortieren.", "bucket": "richtig" },
+          { "text": "Trockene Wäsche mit lauwarmem Wasser einsprengen.", "bucket": "richtig" },
+          { "text": "Teile mit niedriger Temperatur oben in den Korb legen.", "bucket": "richtig" },
+          { "text": "Eingesprengte Wäsche drei Tage liegen lassen.", "bucket": "falsch" },
+          { "text": "Die Wäsche mit heißem Wasser einsprengen.", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📥 Du legst die Wäsche in den Korb, wie du sie bügeln willst. Welche Teile liegen oben?",
+        "options": [
+          { "text": "Die Teile, die eine niedrige Bügeltemperatur brauchen.", "correct": true },
+          { "text": "Die schwersten Teile." },
+          { "text": "Die größten Teile." }
+        ],
+        "explanation": "Du bügelst von kühl zu heiß, damit das Eisen langsam wärmer wird. Deshalb legst du die Teile mit niedriger Temperatur nach oben. Sie kommen zuerst dran. So sparst du dir ständiges Umstellen am Bügeleisen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌬️ Wäsche an der Luft trocknen: Verbinde jede Regel mit ihrer Begründung.",
+        "pairs": [
+          { "left": { "text": "👔 Hemd und Bluse am Saum anklammern" }, "right": { "text": "So gibt es keine Druckstellen von der Klammer" } },
+          { "left": { "text": "👖 Hose und Rock am Bund anklammern" }, "right": { "text": "So verziehen sie sich nicht" } },
+          { "left": { "text": "👕 T-Shirt zur Hälfte über die Leine hängen" }, "right": { "text": "So bleibt seine Form erhalten" } },
+          { "left": { "text": "🌈 Buntes und Kunstfaser nicht in die pralle Sonne" }, "right": { "text": "So verblasst oder vergilbt der Stoff nicht" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Welche Nummer ist am Bügelplatz das Bügelbrett?",
+        "options": [
+          { "text": "Die Nummer 3.", "correct": true },
+          { "text": "Die Nummer 1." },
+          { "text": "Die Nummer 2." }
+        ],
+        "explanation": "Nummer 1 ist der Korb mit der ungebügelten Wäsche. Nummer 2 ist die Ablage für die gebügelte Wäsche. Nummer 3 ist das Bügelbrett, also dein Arbeitsplatz."
+      }
+    }
+  ]
+}

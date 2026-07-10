@@ -1,0 +1,131 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-teller-getraenke-service",
+  "title": "Servieren: Teller & Getränke",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Du stellst am Tisch etwas ab. Von welcher Seite? Sortiere in die zwei Körbe.",
+        "buckets": [
+          { "id": "links", "label": "Von links", "icon": "⬅️" },
+          { "id": "rechts", "label": "Von rechts", "icon": "➡️" }
+        ],
+        "items": [
+          { "text": "🥖 Brot und Brötchen", "bucket": "links" },
+          { "text": "🥗 Salat als Beilage", "bucket": "links" },
+          { "text": "🍑 Kompott", "bucket": "links" },
+          { "text": "🍲 Suppe", "bucket": "rechts" },
+          { "text": "🍛 Voller Teller mit Essen", "bucket": "rechts" },
+          { "text": "☕ Kaffeetasse", "bucket": "rechts" },
+          { "text": "🥤 Ein Glas", "bucket": "rechts" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Du setzt die Teller von rechts ein. Welche Hand hält die Teller?",
+        "options": [
+          { "text": "Die linke Hand hält, die rechte stellt ab.", "correct": true },
+          { "text": "Die rechte Hand hält, die linke stellt ab." },
+          { "text": "Beide Hände halten und stellen gleichzeitig ab." }
+        ],
+        "explanation": "Eine Hand ist die Traghand, die andere ist die Arbeitshand. Setzt du von rechts ein, hältst du die Teller links. Die rechte Hand ist frei und stellt vor dem Gast ab. Dein Daumen bleibt dabei am Tellerrand, nie im Essen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎉 Ein festliches Essen. In welcher Reihenfolge servierst du den Gästen? Ordne.",
+        "steps": [
+          { "text": "Zuerst die älteste Dame oder der Ehrengast." },
+          { "text": "Dann im Uhrzeigersinn der nächste Gast." },
+          { "text": "So weiter, immer vorwärts, ein Gast nach dem anderen." },
+          { "text": "Ganz zum Schluss der Gastgeber." }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥂 Getränke haben drei Gruppen. Sortiere jedes Getränk in seine Gruppe.",
+        "buckets": [
+          { "id": "heiss", "label": "Heißgetränk", "icon": "☕" },
+          { "id": "alkoholfrei", "label": "Ohne Alkohol", "icon": "💧" },
+          { "id": "alkohol", "label": "Mit Alkohol", "icon": "🍷" }
+        ],
+        "items": [
+          { "text": "☕ Kaffee", "bucket": "heiss" },
+          { "text": "🍵 Tee", "bucket": "heiss" },
+          { "text": "💧 Tafelwasser", "bucket": "alkoholfrei" },
+          { "text": "🍊 Orangensaft", "bucket": "alkoholfrei" },
+          { "text": "🍺 Bier", "bucket": "alkohol" },
+          { "text": "🍷 Wein", "bucket": "alkohol" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍷 Du servierst Wein aus der Flasche. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Dem Gastgeber die Flasche von rechts zeigen. Er liest das Etikett." },
+          { "text": "Der Gastgeber probiert einen kleinen Schluck." },
+          { "text": "Der Wein ist gut: den anderen Gästen einschenken." },
+          { "text": "Ganz zum Schluss bekommt der Gastgeber seinen Wein." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫗 Von welcher Seite schenkst du Getränke ein?",
+        "options": [
+          { "text": "Von rechts, mit der rechten Hand.", "correct": true },
+          { "text": "Von links, mit der linken Hand." },
+          { "text": "Von der Seite, die gerade frei ist." }
+        ],
+        "explanation": "Das Glas steht rechts am Platz. Darum schenkst du von rechts mit der rechten Hand ein. Die Flasche berührt dabei nicht den Glasrand. Am Ende drehst du die Flasche leicht, dann tropft nichts auf das Tischtuch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🤲 Was gehört zusammen? Verbinde jede Aufgabe mit der richtigen Hand oder dem richtigen Griff.",
+        "pairs": [
+          { "left": { "text": "➡️ Von rechts einsetzen" }, "right": { "text": "Die linke Hand trägt" } },
+          { "left": { "text": "⬅️ Von links einsetzen" }, "right": { "text": "Die rechte Hand trägt" } },
+          { "left": { "text": "🍽️ Wenig Reste beim Abtragen" }, "right": { "text": "Obergriff" } },
+          { "left": { "text": "🍝 Viele Reste beim Abtragen" }, "right": { "text": "Unter- und Obergriff" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Du räumst benutzte Teller ab. Wie viele darfst du höchstens auf einmal tragen?",
+        "options": [
+          { "text": "Höchstens 5 bis 6 Teller.", "correct": true },
+          { "text": "So viele, wie du greifen kannst." },
+          { "text": "Mindestens 10 Teller." }
+        ],
+        "explanation": "Mehr als 5 bis 6 Teller werden zu schwer und zu wackelig. Dann fällt leicht etwas herunter. Mit 5 bis 6 Tellern behältst du sicheren Halt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Wo fasst du ein Glas an?",
+        "options": [
+          { "text": "Am Stiel oder ganz unten am Glas.", "correct": true },
+          { "text": "Oben am Rand." },
+          { "text": "Mit der ganzen Hand um die Mitte." }
+        ],
+        "explanation": "Oben am Rand trinkt der Gast. Deine Finger dürfen dort nicht hin. Darum fasst du das Glas am Stiel oder im unteren Drittel an. Das ist sauber und hygienisch."
+      }
+    }
+  ]
+}

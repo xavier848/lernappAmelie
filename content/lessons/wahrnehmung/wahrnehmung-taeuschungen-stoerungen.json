@@ -1,0 +1,122 @@
+{
+  "topic_slug": "wahrnehmung",
+  "slug": "wahrnehmung-taeuschungen-stoerungen",
+  "title": "Täuschungen & Störungen",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎭 Was beeinflusst, wie du etwas wahrnimmst? Verbinde den Grund mit dem Beispiel.",
+        "pairs": [
+          { "left": { "text": "😢 Deine Gefühle" }, "right": { "text": "Aus Angst wirkt ein Geräusch bedrohlich." } },
+          { "left": { "text": "🎯 Deine Interessen" }, "right": { "text": "Beim Hunger fällt dir jedes Essens-Plakat auf." } },
+          { "left": { "text": "📚 Deine Erfahrungen" }, "right": { "text": "Einen bekannten Weg erkennst du sofort wieder." } },
+          { "left": { "text": "💪 Dein Körper" }, "right": { "text": "Mit Schnupfen schmeckt das Essen nach wenig." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Was ist eine Wahrnehmungs-Störung?",
+        "options": [
+          { "text": "Das Gehirn macht ein völlig falsches Bild von der Wirklichkeit.", "correct": true },
+          { "text": "Man sieht alles genau richtig." },
+          { "text": "Man hat nur zu wenig geschlafen." }
+        ],
+        "explanation": "Bei einer Wahrnehmungs-Störung passt das Bild im Kopf nicht mehr zur Wirklichkeit. Dazu gehören Halluzination und Illusion."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔊 Eine Person hört Stimmen. Aber niemand spricht. Was ist das?",
+        "options": [
+          { "text": "Eine Halluzination.", "correct": true },
+          { "text": "Eine Illusion." },
+          { "text": "Eine gute Beobachtung." }
+        ],
+        "explanation": "Bei einer Halluzination fehlt der Reiz ganz. Es gibt keine Quelle. Trotzdem hält die Person die Wahrnehmung für echt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚗 Du sitzt im Auto. Das Auto daneben fährt los. Kurz denkst du, dein Auto rollt. Was ist das?",
+        "options": [
+          { "text": "Eine Illusion.", "correct": true },
+          { "text": "Eine Halluzination." },
+          { "text": "Eine Wahrnehmungs-Übung." }
+        ],
+        "explanation": "Bei einer Illusion gibt es einen echten Reiz. Aber das Gehirn deutet ihn falsch. Die optische Täuschung ist die bekannteste Illusion."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧩 Halluzination oder Illusion? Sortiere.",
+        "buckets": [
+          { "id": "hallu", "label": "Halluzination (kein Reiz)", "icon": "👻" },
+          { "id": "illu", "label": "Illusion (Reiz falsch gedeutet)", "icon": "🌀" }
+        ],
+        "items": [
+          { "text": "Jemand hört eine Stimme, obwohl niemand da ist.", "bucket": "hallu" },
+          { "text": "Jemand sieht Tiere, die es nicht gibt.", "bucket": "hallu" },
+          { "text": "Jemand hört Musik, obwohl kein Gerät läuft.", "bucket": "hallu" },
+          { "text": "Zwei gleich lange Linien wirken verschieden lang.", "bucket": "illu" },
+          { "text": "Im Dunkeln hältst du einen Mantel für eine Person.", "bucket": "illu" },
+          { "text": "Ein gemaltes Bild täuscht dein Auge.", "bucket": "illu" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👵 Was zeigt sich oft im Alter? Verbinde.",
+        "pairs": [
+          { "left": { "text": "👂 Altersschwerhörigkeit" }, "right": { "text": "Die Türklingel wird nicht mehr gehört." } },
+          { "left": { "text": "👓 Alterssichtigkeit" }, "right": { "text": "Die Zeitung geht nur noch mit Lesebrille." } },
+          { "left": { "text": "👅 Veränderter Geschmack" }, "right": { "text": "Eine gute Suppe schmeckt plötzlich fade." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔔 Welche Töne hören viele ältere Menschen schlechter?",
+        "options": [
+          { "text": "Hohe Töne.", "correct": true },
+          { "text": "Tiefe Töne." },
+          { "text": "Gar keine Töne." }
+        ],
+        "explanation": "Im Alter lässt das Gehör nach. Zuerst gehen oft die hohen Töne verloren. Ein helles Klingeln wird dann leicht überhört."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🛠️ Welches Hilfsmittel passt? Verbinde.",
+        "pairs": [
+          { "left": { "text": "👀 Schlechtes Sehen" }, "right": { "text": "Brille" } },
+          { "left": { "text": "👂 Schlechtes Hören" }, "right": { "text": "Hörgerät" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Der Satz ist richtig: Wahrnehmung ist ...",
+        "options": [
+          { "text": "... ein persönlicher Vorgang. Jeder nimmt etwas anders wahr.", "correct": true },
+          { "text": "... bei allen Menschen genau gleich." },
+          { "text": "... immer hundertprozentig richtig." }
+        ],
+        "explanation": "Wahrnehmung ist subjektiv. Sie kann bei jedem anders ausfallen. Und manchmal passt sie nicht ganz zur Wirklichkeit."
+      }
+    }
+  ]
+}

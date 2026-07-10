@@ -1,0 +1,114 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-dressings",
+  "title": "Dressings & Salatmarinaden",
+  "sort": 60,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Du machst einen Salat. Wann rührst du das Dressing an?",
+        "options": [
+          { "text": "Ganz am Anfang, als Erstes.", "correct": true },
+          { "text": "Ganz am Ende, wenn der Salat schon fertig ist." },
+          { "text": "Das ist völlig egal." }
+        ],
+        "explanation": "Das Dressing ist die Grundlage für den Geschmack. Du machst es zuerst. So kann es fertig sein, wenn der Salat kommt. Die Aromen können sich in Ruhe verbinden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Es gibt eine Ausnahme: Bei gegarten Salaten wie Kartoffelsalat. Was gilt hier?",
+        "options": [
+          { "text": "Hier ist es umgekehrt: Du mischst das Dressing an den noch warmen Salat.", "correct": true },
+          { "text": "Hier lässt du das Dressing ganz weg." },
+          { "text": "Hier gibt es gar keinen Unterschied." }
+        ],
+        "explanation": "Warme, gegarte Zutaten saugen das Dressing besser auf. Darum marinierst du zum Beispiel Kartoffeln, solange sie noch warm sind. So schmeckt der Salat kräftiger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫙 Was gehört in eine einfache Vinaigrette?",
+        "options": [
+          { "text": "Essig oder Zitrone, Öl, etwas Wasser, Salz, Zucker und Pfeffer.", "correct": true },
+          { "text": "Nur Öl und sonst nichts." },
+          { "text": "Sahne, Zucker und Schokolade." }
+        ],
+        "explanation": "Eine Vinaigrette ist die Grund-Marinade. Sie hat etwas Saures (Essig oder Zitrone), Öl und Wasser. Salz, Zucker und Pfeffer geben den Geschmack. Du verrührst alles und schmeckst ab."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌿 Aus der Vinaigrette macht man Abwandlungen. Welche Zutat kommt dazu? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🌿 Kräuter-Dressing" }, "right": { "text": "Frische Kräuter" } },
+          { "left": { "text": "🟡 Senf-Dressing" }, "right": { "text": "Senf" } },
+          { "left": { "text": "🥓 Speckmarinade" }, "right": { "text": "Gerösteter Speck" } },
+          { "left": { "text": "🧄 Knoblauchdressing" }, "right": { "text": "Knoblauch" } },
+          { "left": { "text": "🍒 Preiselbeerdressing" }, "right": { "text": "Preiselbeeren" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥣 Welches Dressing passt zu welchem Salat? Sortiere in die drei Körbe.",
+        "buckets": [
+          { "id": "speck", "label": "Speckmarinade", "icon": "🥓" },
+          { "id": "knoblauch", "label": "Knoblauchdressing", "icon": "🧄" },
+          { "id": "kraeuter", "label": "Kräuter-Dressing", "icon": "🌿" }
+        ],
+        "items": [
+          { "text": "🥔 Kartoffelsalat", "bucket": "speck" },
+          { "text": "🥬 Weißkohlsalat", "bucket": "speck" },
+          { "text": "🥒 Gurkensalat", "bucket": "knoblauch" },
+          { "text": "🥗 Eisbergsalat", "bucket": "knoblauch" },
+          { "text": "🍅 Tomatensalat", "bucket": "kraeuter" },
+          { "text": "🌱 Blattsalat", "bucket": "kraeuter" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Noch einmal: Welches Dressing passt zu welchem Salat? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🥔 Kartoffelsalat" }, "right": { "text": "Speckmarinade" } },
+          { "left": { "text": "🥒 Gurkensalat" }, "right": { "text": "Knoblauchdressing" } },
+          { "left": { "text": "🫘 Bohnensalat" }, "right": { "text": "Senf-Dressing" } },
+          { "left": { "text": "🌱 Blattsalat" }, "right": { "text": "Preiselbeerdressing" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Es gibt noch eine zweite Familie von Marinaden. Woraus besteht sie?",
+        "options": [
+          { "text": "Aus Joghurt, Sahne oder Sauerrahm, dazu etwas Saures und Gewürze.", "correct": true },
+          { "text": "Nur aus Wasser und Salz." },
+          { "text": "Aus Mehl und Öl." }
+        ],
+        "explanation": "Neben der Vinaigrette gibt es die cremigen Marinaden. Ihre Grundlage ist Joghurt, Sahne oder Sauerrahm. Dazu kommen Essig oder Zitrone, Salz, Zucker und Pfeffer. Du verrührst alles und schmeckst ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Was kommt in ein Kräuter-Dressing?",
+        "options": [
+          { "text": "Frische Kräuter.", "correct": true },
+          { "text": "Ein Stück Schokolade." },
+          { "text": "Gekochte Nudeln." }
+        ],
+        "explanation": "Der Name sagt es schon: In ein Kräuter-Dressing kommen frische Kräuter. Du wäschst sie, tupfst sie trocken und hackst sie fein. So passt das Dressing gut zu Blatt- und Tomatensalat."
+      }
+    }
+  ]
+}

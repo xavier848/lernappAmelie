@@ -1,0 +1,136 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-material-holz-leder",
+  "title": "Material: Metallsorten, Holz & Leder",
+  "sort": 11,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jedes Metall hat eine typische Eigenschaft. Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "🍳 Gusseisen" }, "right": { "text": "Schwer und bruchempfindlich" } },
+          { "left": { "text": "🧁 Weißblech" }, "right": { "text": "Nicht säurefest – meist für Backformen" } },
+          { "left": { "text": "🥧 Schwarzblech" }, "right": { "text": "Säurefest und guter Wärmeleiter" } },
+          { "left": { "text": "🥄 Silber" }, "right": { "text": "Läuft mit der Zeit schwarz an" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍋 Du backst einen Kuchen mit saurem Obst (Zitrone, Rhabarber). Welches Blech ist besser?",
+        "options": [
+          { "text": "Schwarzblech, denn es ist säurefest.", "correct": true },
+          { "text": "Weißblech, denn es ist nicht säurefest." },
+          { "text": "Egal, Säure macht Blech nichts aus." }
+        ],
+        "explanation": "Schwarzblech verträgt Säure und leitet Wärme gut. Darum eignet es sich für Backbleche. Weißblech ist nicht säurefest. Saures Obst würde die Oberfläche angreifen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Warum isst man ein Frühstücksei nicht mit einem echten Silberlöffel?",
+        "options": [
+          { "text": "Im Ei steckt Schwefel. Der lässt Silber schwarz anlaufen.", "correct": true },
+          { "text": "Der Silberlöffel macht das Ei giftig." },
+          { "text": "Silber schmilzt am warmen Ei." }
+        ],
+        "explanation": "Eier enthalten Schwefel. Schwefel und Silber reagieren miteinander. Auf dem Löffel bildet sich eine dunkle Schicht. Für Eier nimmst du besser einen Löffel aus Edelstahl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥈 Echtes Silber-Besteck besteht aus 800 Teilen Silber. Was sind die anderen 200 Teile?",
+        "options": [
+          { "text": "Kupfer. Reines Silber wäre zu weich.", "correct": true },
+          { "text": "Wieder Silber, es sind 1000 Teile Silber." },
+          { "text": "Kunststoff für mehr Glanz." }
+        ],
+        "explanation": "Reines Silber ist sehr weich. Darum mischt man Kupfer dazu: 800 Teile Silber und 200 Teile Kupfer. So wird das Besteck stabil genug."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌲 Welches Holz ist weich, welches ist hart?",
+        "options": [
+          { "text": "Nadelbäume liefern weiches Holz, Laubbäume hartes Holz.", "correct": true },
+          { "text": "Nadelbäume liefern hartes Holz, Laubbäume weiches." },
+          { "text": "Alle Bäume liefern gleich hartes Holz." }
+        ],
+        "explanation": "Holz von Nadelbäumen (zum Beispiel Fichte) ist weich. Holz von Laubbäumen (zum Beispiel Buche) ist hart. Für Schneidbretter nimmt man darum gern hartes Laubholz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Du hast ein neues Brett aus Rohholz. Was machst du vor dem ersten Gebrauch?",
+        "options": [
+          { "text": "Mit kaltem Wasser abspülen. So ziehen Farben und Gerüche nicht ein.", "correct": true },
+          { "text": "In heißem Wasser lange einweichen." },
+          { "text": "Mit Öl vollsaugen lassen." }
+        ],
+        "explanation": "Rohholz hat offene Poren. Kaltes Wasser hält die Poren eher geschlossen. So saugt das Brett später weniger Farbe und Geruch auf. Danach lässt du es an der Luft trocknen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Wie machst du ein Holzbrett hygienisch sauber?",
+        "options": [
+          { "text": "Heiß spülen (mindestens 60 °C) und danach gut abtrocknen.", "correct": true },
+          { "text": "Nur kurz kalt abwischen und feucht liegen lassen." },
+          { "text": "Gar nicht, Holz bleibt von allein keimfrei." }
+        ],
+        "explanation": "Heißes Wasser ab 60 °C und gutes Abtrocknen töten die meisten Keime. Manche Hölzer wirken sogar gegen Keime. Darum ist ein Holzbrett nicht unhygienischer als ein Plastikbrett."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Leder gibt es mit verschiedenen Oberflächen. Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "👜 Glattleder" }, "right": { "text": "Glatte, geschlossene Oberfläche" } },
+          { "left": { "text": "🧤 Rauleder" }, "right": { "text": "Raue, aufgeraute Oberfläche (Wildleder)" } },
+          { "left": { "text": "🧥 Beschichtetes Leder" }, "right": { "text": "Mit Kunststoff überzogen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Holz oder Leder? Sortiere die Eigenschaften und Beispiele.",
+        "buckets": [
+          { "id": "holz", "label": "Holz", "icon": "🪵" },
+          { "id": "leder", "label": "Leder", "icon": "👞" }
+        ],
+        "items": [
+          { "text": "🥄 Kochlöffel und Schneidbrett", "bucket": "holz" },
+          { "text": "🔥 Brennbar", "bucket": "holz" },
+          { "text": "💧 Dehnt sich bei Feuchtigkeit aus", "bucket": "holz" },
+          { "text": "👞 Schuhe, Taschen und Gürtel", "bucket": "leder" },
+          { "text": "🐄 Wird durch Gerben haltbar gemacht", "bucket": "leder" },
+          { "text": "🌬️ Lässt Wasserdampf durch – Füße schwitzen weniger", "bucket": "leder" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory! Welches Metall steckt in welchem Gegenstand? Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "🍳 Gusseisen" }, "right": { "text": "Bratpfanne" } },
+          { "left": { "text": "🧁 Weißblech" }, "right": { "text": "Backform" } },
+          { "left": { "text": "🥧 Schwarzblech" }, "right": { "text": "Backblech" } },
+          { "left": { "text": "🥄 Silber" }, "right": { "text": "Festtags-Löffel" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

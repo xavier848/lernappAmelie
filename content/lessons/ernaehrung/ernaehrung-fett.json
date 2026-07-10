@@ -1,0 +1,141 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-fett",
+  "title": "Fett – der Energielieferant",
+  "sort": 60,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Fett ist ein Nährstoff. Woraus ist ein Fett-Molekül aufgebaut?",
+        "options": [
+          { "text": "Aus Glycerin und 3 Fettsäuren.", "correct": true },
+          { "text": "Aus Wasser und Zucker." },
+          { "text": "Aus 3 Aminosäuren." }
+        ],
+        "explanation": "Ein Fett besteht aus einem Grundteil (Glycerin) und 3 Fettsäuren. Die Fettsäuren können ganz unterschiedlich sein. Deshalb schmeckt und wirkt jedes Fett anders."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Es gibt gesättigte und ungesättigte Fette. Gesättigte sind oft fest und tierisch. Ungesättigte sind oft flüssig und pflanzlich. Sortiere.",
+        "buckets": [
+          { "id": "gesaettigt", "label": "Eher gesättigt", "icon": "🧈" },
+          { "id": "ungesaettigt", "label": "Eher ungesättigt", "icon": "🫒" }
+        ],
+        "items": [
+          { "text": "Butter", "bucket": "gesaettigt" },
+          { "text": "Fett in Wurst", "bucket": "gesaettigt" },
+          { "text": "Sahne", "bucket": "gesaettigt" },
+          { "text": "Olivenöl", "bucket": "ungesaettigt" },
+          { "text": "Rapsöl", "bucket": "ungesaettigt" },
+          { "text": "Walnüsse", "bucket": "ungesaettigt" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Fettsäuren gehören zu verschiedenen Gruppen. Ordne jede Fettsäure ihrer Gruppe zu.",
+        "pairs": [
+          { "left": { "text": "Stearinsäure" }, "right": { "text": "gesättigt" } },
+          { "left": { "text": "Ölsäure" }, "right": { "text": "einfach ungesättigt" } },
+          { "left": { "text": "Linolsäure" }, "right": { "text": "Omega-6" } },
+          { "left": { "text": "Linolensäure" }, "right": { "text": "Omega-3" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Zwei Fettsäuren kann dein Körper nicht selbst bauen. Er muss sie essen. Welche sind das?",
+        "options": [
+          { "text": "Linolsäure und Linolensäure.", "correct": true },
+          { "text": "Stearinsäure und Ölsäure." },
+          { "text": "Butter und Margarine." }
+        ],
+        "explanation": "Linolsäure und Linolensäure sind essenziell. Das heißt: lebensnotwendig, aber der Körper baut sie nicht selbst. Omega-3-Fettsäuren stecken zum Beispiel im Fisch. Sie schützen Herz und Kreislauf."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📏 Fettsäuren sind unterschiedlich lang. Man zählt die C-Atome in der Kette. Ordne die Länge zu.",
+        "pairs": [
+          { "left": { "text": "Kurzkettig" }, "right": { "text": "bis 6 C-Atome" } },
+          { "left": { "text": "Mittelkettig" }, "right": { "text": "bis 12 C-Atome" } },
+          { "left": { "text": "Langkettig" }, "right": { "text": "mehr als 12 C-Atome" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌡️ Fett kann fest, halbfest oder flüssig sein. Sortiere die Beispiele.",
+        "buckets": [
+          { "id": "fest", "label": "Fest", "icon": "🧊" },
+          { "id": "halbfest", "label": "Halbfest", "icon": "🥄" },
+          { "id": "fluessig", "label": "Flüssig", "icon": "💧" }
+        ],
+        "items": [
+          { "text": "Rindertalg", "bucket": "fest" },
+          { "text": "Frittierfett", "bucket": "fest" },
+          { "text": "Schweineschmalz", "bucket": "halbfest" },
+          { "text": "Gänseschmalz", "bucket": "halbfest" },
+          { "text": "Pflanzenöl", "bucket": "fluessig" },
+          { "text": "Rapsöl", "bucket": "fluessig" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥛 Fett und Wasser mischen sich normalerweise nicht. Ein Emulgator bringt sie doch zusammen. Das nennt man Emulsion. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "Wasser in Fett verteilt" }, "right": { "text": "🧈 Butter, Margarine" } },
+          { "left": { "text": "Fett in Wasser verteilt" }, "right": { "text": "🥛 Milch" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍶 Warum verkauft man Speiseöl oft in dunklen Flaschen?",
+        "options": [
+          { "text": "Licht und Sauerstoff machen Fett schnell ranzig.", "correct": true },
+          { "text": "Damit man den Inhalt nicht sieht." },
+          { "text": "Weil dunkles Glas billiger ist." }
+        ],
+        "explanation": "Licht und Sauerstoff verderben den Geschmack von Fett. Es wird ranzig und schmeckt schlecht. Eine dunkle Flasche hält das Licht ab. So bleibt das Öl länger frisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Kann man Fett zum Braten und Frittieren stark erhitzen?",
+        "options": [
+          { "text": "Ja, Fett verträgt etwa 180 Grad.", "correct": true },
+          { "text": "Nein, Fett verbrennt schon bei 40 Grad." },
+          { "text": "Nur im Kühlschrank." }
+        ],
+        "explanation": "Fett lässt sich auf etwa 180 Grad erhitzen. Deshalb kann man damit braten und frittieren. Bei emulgierten Fetten wie Butter geht das nicht so gut, sie spritzen und verbrennen leichter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Welcher Nährstoff liefert die meiste Energie?",
+        "options": [
+          { "text": "Fett.", "correct": true },
+          { "text": "Eiweiß." },
+          { "text": "Wasser." }
+        ],
+        "explanation": "Fett liefert von allen Nährstoffen die meiste Energie: 1 Gramm sind 37 Kilojoule. Eiweiß und Kohlenhydrate haben nur je 17 Kilojoule. Darum machen fette Speisen schnell satt."
+      }
+    }
+  ]
+}

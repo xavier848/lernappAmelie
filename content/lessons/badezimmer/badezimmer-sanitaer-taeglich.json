@@ -1,0 +1,118 @@
+{
+  "topic_slug": "badezimmer",
+  "slug": "badezimmer-sanitaer-taeglich",
+  "title": "Bad täglich reinigen",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛁 Du machst das Bad täglich sauber. Was machst du ganz zuerst?",
+        "options": [
+          { "text": "Die benutzten Handtücher und die Fußmatte zur Wäsche geben.", "correct": true },
+          { "text": "Sofort den Fußboden wischen." },
+          { "text": "Frische Handtücher hinlegen." }
+        ],
+        "explanation": "Zuerst räumst du das benutzte Zeug weg: Handtücher und Fußmatte kommen in die Wäsche. So hast du danach freie Bahn und putzt nichts umsonst, das gleich wieder schmutzig wäre."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧽 Teil 1: Bringe die ersten Schritte der täglichen Bad-Reinigung in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Benutzte Handtücher und die Fußmatte zur Wäsche geben." },
+          { "text": "Den Abfalleimer leeren." },
+          { "text": "Wasch- und Duschbecken reinigen." },
+          { "text": "Kalk von den Duschwänden entfernen." },
+          { "text": "Die Toilette reinigen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧴 Was machst du an welcher Stelle im Bad?",
+        "pairs": [
+          { "left": { "text": "🚿 Duschbecken" }, "right": { "text": "Auswaschen und Kalk entfernen" } },
+          { "left": { "text": "🚽 Toilette" }, "right": { "text": "Innen und außen reinigen" } },
+          { "left": { "text": "🪞 Spiegel" }, "right": { "text": "Streifenfrei putzen" } },
+          { "left": { "text": "🗑️ Abfalleimer" }, "right": { "text": "Leeren" } },
+          { "left": { "text": "🧹 Fußboden" }, "right": { "text": "Nass wischen" } }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "✨ Teil 2: Bringe die letzten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Den Spiegel reinigen." },
+          { "text": "Die Ablage abwischen und nachtrocknen." },
+          { "text": "Den Fußboden nass wischen." },
+          { "text": "Frische Handtücher und Textilien hinlegen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬇️ Warum wischst du den Fußboden erst am Ende?",
+        "options": [
+          { "text": "Weil man von oben nach unten putzt. Der Boden ist zuletzt dran.", "correct": true },
+          { "text": "Weil der Boden am saubersten ist." },
+          { "text": "Weil man den Boden gar nicht wischen muss." }
+        ],
+        "explanation": "Beim Putzen arbeitest du von oben nach unten. Beim Reinigen der oberen Sachen fällt Schmutz und Wasser nach unten auf den Boden. Darum wischst du den Boden zuletzt, sonst wäre er gleich wieder dreckig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚽 Du reinigst Waschbecken und Toilette. Was kommt zuerst dran?",
+        "options": [
+          { "text": "Erst das Waschbecken, dann die Toilette.", "correct": true },
+          { "text": "Erst die Toilette, dann das Waschbecken." },
+          { "text": "Das ist egal." }
+        ],
+        "explanation": "Du putzt von rein nach schmutzig. Das Waschbecken ist sauberer als die Toilette. Darum kommt es zuerst dran. So trägst du keine Keime von der Toilette ins Waschbecken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❌ Was gehört NICHT zur täglichen Reinigung im Bad?",
+        "options": [
+          { "text": "Die Fugen mit einer Bürste gründlich schrubben.", "correct": true },
+          { "text": "Den Abfalleimer leeren." },
+          { "text": "Den Spiegel putzen." }
+        ],
+        "explanation": "Fugen gründlich schrubben gehört zur Grundreinigung. Die macht man nur selten. Jeden Tag machst du die schnellen Dinge: Abfall leeren, Becken, Toilette, Spiegel, Boden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏁 Was ist der allerletzte Schritt bei der täglichen Bad-Reinigung?",
+        "options": [
+          { "text": "Frische Handtücher und Textilien hinlegen.", "correct": true },
+          { "text": "Den Abfalleimer leeren." },
+          { "text": "Die Toilette reinigen." }
+        ],
+        "explanation": "Ganz zum Schluss legst du frische Handtücher und Textilien aus. Das machst du erst, wenn alles sauber und der Boden trocken ist. So bleibt alles frisch für den Gast."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss ein Memory: Was machst du wo?",
+        "pairs": [
+          { "left": { "text": "🚽 Toilette" }, "right": { "text": "Reinigen" } },
+          { "left": { "text": "🪞 Spiegel" }, "right": { "text": "Streifenfrei putzen" } },
+          { "left": { "text": "🗑️ Abfalleimer" }, "right": { "text": "Leeren" } }
+        ],
+        "memory": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-vermeidung-entsorgung",
+  "title": "Abfall vermeiden & entsorgen",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Müll vermeiden kann man in drei Phasen. Sortiere die Maßnahmen.",
+        "buckets": [
+          { "id": "einkauf", "label": "Beim Einkauf", "icon": "🛒" },
+          { "id": "zubereitung", "label": "Bei der Zubereitung", "icon": "🍳" },
+          { "id": "ausgabe", "label": "Bei der Speiseausgabe", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "Getränke in Mehrweg-Flaschen kaufen", "bucket": "einkauf" },
+          { "text": "Obst und Gemüse lose kaufen", "bucket": "einkauf" },
+          { "text": "Nur so viel kochen wie gebraucht wird", "bucket": "zubereitung" },
+          { "text": "Gemüse dünn schälen", "bucket": "zubereitung" },
+          { "text": "Jeder Gast bestimmt seine Portion", "bucket": "ausgabe" },
+          { "text": "Salat am Büfett anbieten", "bucket": "ausgabe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Was bedeutet das Wort Recycling?",
+        "options": [
+          { "text": "Stoffe werden im Kreislauf wieder verwertet.", "correct": true },
+          { "text": "Müll wird einfach verbrannt." },
+          { "text": "Müll wird vergraben." }
+        ],
+        "explanation": "Recycling heißt Wertstoffkreislauf. 're' bedeutet zurück, 'cycle' bedeutet Kreislauf. Aus altem Material wird wieder etwas Neues."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗂️ Was muss passieren, damit Müll recycelt werden kann?",
+        "options": [
+          { "text": "Der Müll muss getrennt und sortiert werden.", "correct": true },
+          { "text": "Der Müll muss gemischt werden." },
+          { "text": "Man muss gar nichts tun." }
+        ],
+        "explanation": "Nur getrennter Müll kann wiederverwertet werden. Deshalb trennst du Papier, Verpackung, Bio und Restmüll."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔁 Für viele Wegwerf-Dinge gibt es eine Mehrweg-Lösung. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "🧻 Backpapier" }, "right": { "text": "Dauerbackfolie" } },
+          { "left": { "text": "🥡 Frischhaltefolie" }, "right": { "text": "Deckel oder Teller" } },
+          { "left": { "text": "🍾 Einweg-Flasche" }, "right": { "text": "Mehrweg-Flasche" } },
+          { "left": { "text": "🧻 Küchenkrepp" }, "right": { "text": "Stofftuch zum Wischen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Wozu dient ein Fettabscheider in der Küche?",
+        "options": [
+          { "text": "Er holt Fett und Öl aus dem Abwasser.", "correct": true },
+          { "text": "Er kühlt die Speisen." },
+          { "text": "Er wärmt das Essen." }
+        ],
+        "explanation": "Der Fettabscheider trennt Fett und Öl vom Abwasser. So verstopfen die Rohre nicht. Jede gewerbliche Küche braucht einen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔧 Zwei Geräte reinigen das Abwasser. Was fängt welches Gerät auf?",
+        "buckets": [
+          { "id": "fett", "label": "Fettabscheider", "icon": "🛢️" },
+          { "id": "staerke", "label": "Stärkeabscheider", "icon": "🥔" }
+        ],
+        "items": [
+          { "text": "Fett-Reste im Spülwasser", "bucket": "fett" },
+          { "text": "Öl im Abwasser", "bucket": "fett" },
+          { "text": "Stärke vom Kartoffelschälen", "bucket": "staerke" },
+          { "text": "Stärke-Wasser aus der Schälküche", "bucket": "staerke" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📋 Ein Abfallentsorgungsplan hat mehrere Spalten. Was steht als Beispiel dort? Ordne zu.",
+        "pairs": [
+          { "left": { "text": "Abfallart" }, "right": { "text": "Altpapier" } },
+          { "left": { "text": "Sammelbehälter" }, "right": { "text": "Blaue Kiste" } },
+          { "left": { "text": "Verantwortlich" }, "right": { "text": "Frau M." } },
+          { "left": { "text": "Entsorger" }, "right": { "text": "Papiercontainer" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Eine Mülltonne der Küche wurde geleert. Was gilt, bevor sie zurück in die Küche darf?",
+        "options": [
+          { "text": "Sie muss zuerst gereinigt werden.", "correct": true },
+          { "text": "Sie darf gleich wieder rein, egal wie schmutzig." },
+          { "text": "Sie bleibt für immer draußen." }
+        ],
+        "explanation": "Aus Hygiene-Gründen dürfen nur gereinigte Behälter zurück in die Küche. Der Verantwortliche reinigt sie nach dem Leeren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛍️ Du kaufst dein Obst lose, ganz ohne Plastik-Verpackung. In welcher Phase vermeidest du hier Müll?",
+        "options": [
+          { "text": "Beim Einkauf.", "correct": true },
+          { "text": "Bei der Speiseausgabe." },
+          { "text": "Beim Abwaschen." }
+        ],
+        "explanation": "Lose einkaufen spart Verpackung. Das ist eine Maßnahme beim Einkauf."
+      }
+    }
+  ]
+}

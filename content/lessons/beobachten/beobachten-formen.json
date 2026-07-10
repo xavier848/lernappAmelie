@@ -1,0 +1,112 @@
+{
+  "topic_slug": "beobachten",
+  "slug": "beobachten-formen",
+  "title": "Beobachten lernen",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Was bedeutet Beobachten?",
+        "options": [
+          { "text": "Aufmerksam und gezielt wahrnehmen, was passiert.", "correct": true },
+          { "text": "Nur ganz kurz hinschauen." },
+          { "text": "Mit geschlossenen Augen raten." }
+        ],
+        "explanation": "Beobachten ist eine aufmerksame Wahrnehmung. Du achtest gezielt auf bestimmte Vorgänge oder Menschen. Und du merkst dir, was du siehst."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎯 SMART hilft beim Ziele-Setzen. Verbinde den Buchstaben mit der Bedeutung.",
+        "pairs": [
+          { "left": { "text": "S" }, "right": { "text": "Spezifisch (genau benannt)" } },
+          { "left": { "text": "M" }, "right": { "text": "Messbar" } },
+          { "left": { "text": "A" }, "right": { "text": "Akzeptiert" } },
+          { "left": { "text": "R" }, "right": { "text": "Realistisch" } },
+          { "left": { "text": "T" }, "right": { "text": "Terminierbar (mit Frist)" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Freie oder systematische Beobachtung? Sortiere.",
+        "buckets": [
+          { "id": "frei", "label": "Freie Beobachtung", "icon": "🍃" },
+          { "id": "system", "label": "Systematische Beobachtung", "icon": "📋" }
+        ],
+        "items": [
+          { "text": "Sie geschieht aus dem persönlichen Blickwinkel.", "bucket": "frei" },
+          { "text": "Mehrere Deutungen sind gleich möglich.", "bucket": "frei" },
+          { "text": "Das Ergebnis bleibt offen.", "bucket": "frei" },
+          { "text": "Sie hat ein klares Ziel.", "bucket": "system" },
+          { "text": "Sie folgt einem festen Plan.", "bucket": "system" },
+          { "text": "Sie wird genau dokumentiert.", "bucket": "system" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📖 Fachwort und einfaches Wort gehören zusammen. Verbinde.",
+        "pairs": [
+          { "left": { "text": "Objektivität" }, "right": { "text": "Sachlichkeit" } },
+          { "left": { "text": "Reliabilität" }, "right": { "text": "Zuverlässigkeit" } },
+          { "left": { "text": "Validität" }, "right": { "text": "Gültigkeit" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Du schaust einem Gast im Café zu, ganz ohne Ziel. Wie ist diese Beobachtung?",
+        "options": [
+          { "text": "Subjektiv und mit mehreren Deutungen.", "correct": true },
+          { "text": "Streng geplant und dokumentiert." },
+          { "text": "Immer richtig und eindeutig." }
+        ],
+        "explanation": "Die freie Beobachtung ist subjektiv, vieldeutig und ergebnisoffen. Sie hat kein festes Ziel. Darum sind mehrere Deutungen möglich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Warum formulierst du bei der systematischen Beobachtung genaue Ziele?",
+        "options": [
+          { "text": "Je genauer das Ziel, desto genauer die Beobachtung.", "correct": true },
+          { "text": "Damit es länger dauert." },
+          { "text": "Ziele sind eigentlich egal." }
+        ],
+        "explanation": "Ein klares Ziel lenkt den Blick. Je genauer du das Ziel benennst, desto genauer kannst du beobachten. Etappen-Ziele helfen zusätzlich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Was bedeutet Sachlichkeit (Objektivität) beim Beobachten?",
+        "options": [
+          { "text": "Nur die Sache beobachten und Gefühle weglassen.", "correct": true },
+          { "text": "Nach dem eigenen Bauchgefühl urteilen." },
+          { "text": "Nur nette Menschen beobachten." }
+        ],
+        "explanation": "Sachlichkeit heißt: Du beobachtest nur den einen Aspekt. Vermutungen und Gefühle bleiben außen vor. So bleibt die Beobachtung fair."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Welche Beobachtung folgt einem klaren Ziel?",
+        "options": [
+          { "text": "Die systematische Beobachtung.", "correct": true },
+          { "text": "Die freie Beobachtung." },
+          { "text": "Gar keine." }
+        ],
+        "explanation": "Die systematische Beobachtung ist zielgerichtet. Sie folgt einem Plan. Die freie Beobachtung läuft dagegen ohne festes Ziel."
+      }
+    }
+  ]
+}

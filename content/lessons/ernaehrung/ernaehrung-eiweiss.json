@@ -1,0 +1,119 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-eiweiss",
+  "title": "Eiweiß – der Baustoff",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Eiweiß ist ein Nährstoff. Woraus ist Eiweiß aufgebaut?",
+        "options": [
+          { "text": "Aus kleinen Bausteinen: den Aminosäuren.", "correct": true },
+          { "text": "Aus Wasser und Salz." },
+          { "text": "Aus Zucker und Fett." }
+        ],
+        "explanation": "Jedes Eiweiß besteht aus vielen Aminosäuren. Sie sind wie Perlen an einer Kette. Ein anderes Wort für Eiweiß ist Protein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧩 In der Natur gibt es 20 verschiedene Aminosäuren. Wie viele davon muss ein Erwachsener mit dem Essen aufnehmen?",
+        "options": [
+          { "text": "9 Stück.", "correct": true },
+          { "text": "Alle 20.", "correct": false },
+          { "text": "Gar keine.", "correct": false }
+        ],
+        "explanation": "9 der 20 Aminosäuren kann der Körper nicht selbst bauen. Sie heißen essenziell. Essenziell bedeutet: lebensnotwendig. Du musst sie essen. Die anderen 11 baut der Körper selbst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⭐ Manche Aminosäuren musst du essen (essenziell). Andere baut der Körper selbst. Sortiere sie.",
+        "buckets": [
+          { "id": "essenziell", "label": "Muss ich essen", "icon": "⭐" },
+          { "id": "selbst", "label": "Baut der Körper selbst", "icon": "🔧" }
+        ],
+        "items": [
+          { "text": "Lysin", "bucket": "essenziell" },
+          { "text": "Valin", "bucket": "essenziell" },
+          { "text": "Alanin", "bucket": "selbst" },
+          { "text": "Glycin", "bucket": "selbst" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧬 Eiweiß baut sich in Stufen auf. Bringe die Stufen in die richtige Reihenfolge – von einfach zu kompakt.",
+        "steps": [
+          { "text": "1. Stufe: Die Aminosäuren hängen in einer Reihe." },
+          { "text": "2. Stufe: Die Kette windet sich zur Schraube oder faltet sich." },
+          { "text": "3. Stufe: Alles knäuelt sich kompakt und stabil zusammen." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jede Aufbau-Stufe von Eiweiß hat ein Merkmal. Finde die Paare.",
+        "pairs": [
+          { "left": { "text": "Primärstruktur" }, "right": { "text": "Aminosäuren in einer Reihe" } },
+          { "left": { "text": "Sekundärstruktur" }, "right": { "text": "Schraube oder Faltblatt" } },
+          { "left": { "text": "Höhere Struktur" }, "right": { "text": "Kompakt und stabil geknäuelt" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Du kochst ein Ei. Das Eiweiß wird fest. Wie nennt man das?",
+        "options": [
+          { "text": "Das Eiweiß gerinnt. Der Fachbegriff ist Denaturierung.", "correct": true },
+          { "text": "Das Eiweiß schmilzt." },
+          { "text": "Das Eiweiß wird flüssig." }
+        ],
+        "explanation": "Durch Hitze ändert sich der Aufbau des Eiweißes. Es wird fest. Das nennt man gerinnen oder Denaturierung. Auch saure Milch und ein gebratenes Schnitzel zeigen das. Meist geht das nicht mehr zurück."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🃏 Memory: Pflanzliches Essen liefert besseres Eiweiß, wenn du es klug kombinierst. Finde die Paare, die gut zusammenpassen.",
+        "pairs": [
+          { "left": { "text": "🍝 Nudeln" }, "right": { "text": "🥚 Ei" } },
+          { "left": { "text": "🍚 Reis" }, "right": { "text": "🐟 Fisch" } },
+          { "left": { "text": "🌾 Getreide" }, "right": { "text": "🥛 Milch" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Welches Eiweiß kann der Körper besser für den eigenen Aufbau nutzen?",
+        "options": [
+          { "text": "Eiweiß aus Fleisch, Fisch, Ei und Milch.", "correct": true },
+          { "text": "Eiweiß aus Brot und Nudeln." },
+          { "text": "Beide gleich schlecht." }
+        ],
+        "explanation": "Tierisches Eiweiß ähnelt dem Eiweiß im Körper mehr. Der Körper kann es besser nutzen. Man sagt: Es hat eine hohe biologische Wertigkeit. Pflanzliches Eiweiß wird besser, wenn du es klug kombinierst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss, ganz leicht: Wofür braucht dein Körper Eiweiß vor allem?",
+        "options": [
+          { "text": "Als Baustoff für Zellen, Muskeln und Organe.", "correct": true },
+          { "text": "Nur zum Sattwerden." },
+          { "text": "Als Farbe für die Haut." }
+        ],
+        "explanation": "Eiweiß ist der wichtigste Baustoff im Körper. Es steckt in Zellen, Muskeln und Organen und hilft beim Wachsen. Übriges Eiweiß liefert auch Energie: 1 Gramm sind 17 Kilojoule."
+      }
+    }
+  ]
+}

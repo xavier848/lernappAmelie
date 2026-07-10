@@ -1,0 +1,128 @@
+{
+  "topic_slug": "beobachten",
+  "slug": "beobachten-guete-fremd",
+  "title": "Fremdbeobachtung & Bewertung",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Was ist eine Fremdbeobachtung?",
+        "options": [
+          { "text": "Eine Person wird von anderen Menschen beobachtet.", "correct": true },
+          { "text": "Du beobachtest dich selbst im Spiegel." },
+          { "text": "Niemand schaut zu." }
+        ],
+        "explanation": "Bei der Fremdbeobachtung schaut eine andere Person zu. Sie beobachtet dich, nicht sich selbst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🙋 Es gibt zwei Wege bei der Fremdbeobachtung. Sortiere die Situationen.",
+        "buckets": [
+          { "id": "dabei", "label": "Beobachter macht mit", "icon": "🙋" },
+          { "id": "daneben", "label": "Beobachter macht nicht mit", "icon": "👀" }
+        ],
+        "items": [
+          { "text": "Die Beobachterin spielt beim Spiel mit.", "bucket": "dabei" },
+          { "text": "Sie stellt im Gespräch selbst Fragen.", "bucket": "dabei" },
+          { "text": "Sie sitzt daneben und schreibt sofort mit.", "bucket": "daneben" },
+          { "text": "Sie greift nicht ein und macht nur Notizen.", "bucket": "daneben" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⭐ Eine gute Beobachtung hat drei Merkmale. Ordne zu.",
+        "pairs": [
+          { "left": { "text": "Sachlichkeit" }, "right": { "text": "Du beobachtest nur den einen Punkt." } },
+          { "left": { "text": "Zuverlässigkeit" }, "right": { "text": "Du gibst eine Rückmeldung zum Leistungsstand." } },
+          { "left": { "text": "Gültigkeit" }, "right": { "text": "Du vergleichst Plan und Durchführung." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Du beobachtest in der Prüfung nur, ob die Zeit eingehalten wird. Du denkst: 'Die ist bestimmt nervös.' Was machst du mit diesem Gedanken?",
+        "options": [
+          { "text": "Ich lasse Vermutungen und Gefühle weg. Ich beobachte nur die Zeit.", "correct": true },
+          { "text": "Ich schreibe die Vermutung als Ergebnis auf." },
+          { "text": "Ich höre auf zu beobachten." }
+        ],
+        "explanation": "Sachlichkeit heißt: Du beobachtest nur den einen Aspekt. Gefühle, Vermutungen und Deutungen gehören nicht dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Warum vergleichst du deinen Plan mit der echten Durchführung?",
+        "options": [
+          { "text": "So erkenne ich, was ich beim nächsten Mal besser machen kann.", "correct": true },
+          { "text": "Damit die Prüfung länger dauert." },
+          { "text": "Das muss man nicht vergleichen." }
+        ],
+        "explanation": "Der Vergleich von Planung und Durchführung macht die Beobachtung gültig. Er zeigt dir, wo du dich verbessern kannst. Dann kannst du es gezielt neu üben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Was passiert bei einem Assessment?",
+        "options": [
+          { "text": "Man übt zum Beispiel ein Bewerbungsgespräch. Ein Trainer schaut zu und gibt Rückmeldung.", "correct": true },
+          { "text": "Man macht eine Pause ohne Aufgabe." },
+          { "text": "Man arbeitet ganz allein ohne Zuschauer." }
+        ],
+        "explanation": "Assessment ist eine moderne Form der Fremdbeobachtung. Geschulte Trainer beobachten dich und sagen dir danach, wie du gewirkt hast."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📋 Die praktische Prüfung hat 30 Punkte. Ordne die Punkte zu.",
+        "pairs": [
+          { "left": { "text": "Arbeitsvorbereitung" }, "right": { "text": "6 Punkte" } },
+          { "left": { "text": "Durchführung" }, "right": { "text": "15 Punkte" } },
+          { "left": { "text": "Eigenbewertung" }, "right": { "text": "3 Punkte" } },
+          { "left": { "text": "Die ganze Prüfung" }, "right": { "text": "30 Punkte" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ In welcher Phase der Prüfung wird das bewertet? Sortiere.",
+        "buckets": [
+          { "id": "vorbereitung", "label": "Arbeitsvorbereitung", "icon": "📝" },
+          { "id": "durchfuehrung", "label": "Durchführung", "icon": "🍳" },
+          { "id": "ergebnis", "label": "Ergebnis", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "Einen Zeitplan schreiben", "bucket": "vorbereitung" },
+          { "text": "Die Kosten ausrechnen", "bucket": "vorbereitung" },
+          { "text": "Sauber und hygienisch arbeiten", "bucket": "durchfuehrung" },
+          { "text": "Unfälle vermeiden", "bucket": "durchfuehrung" },
+          { "text": "Das Essen schön anrichten", "bucket": "ergebnis" },
+          { "text": "Wie das Essen schmeckt", "bucket": "ergebnis" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏆 Welcher Prüfungsteil bringt die meisten Punkte?",
+        "options": [
+          { "text": "Die Durchführung mit 15 Punkten.", "correct": true },
+          { "text": "Die Eigenbewertung mit 3 Punkten." },
+          { "text": "Die Arbeitsvorbereitung mit 6 Punkten." }
+        ],
+        "explanation": "Die Durchführung zählt am meisten: 15 von 30 Punkten. Dort zeigst du dein sauberes und sicheres Arbeiten."
+      }
+    }
+  ]
+}

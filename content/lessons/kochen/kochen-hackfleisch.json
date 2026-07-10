@@ -1,0 +1,107 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-hackfleisch",
+  "title": "Hackfleischteig & Frikadellen",
+  "sort": 70,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥩 Es gibt verschiedene Hackfleisch-Sorten. Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": { "text": "🐷 Mett" }, "right": { "text": "Hackfleisch vom Schwein" } },
+          { "left": { "text": "🐄 Rinderhack" }, "right": { "text": "Hackfleisch vom Rind" } },
+          { "left": { "text": "🥩 Gemischtes Hack" }, "right": { "text": "Halb Schwein, halb Rind" } },
+          { "left": { "text": "🌱 Soja-Schnetzel" }, "right": { "text": "Vegane Alternative ohne Fleisch" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍔 So machst du einen Hackfleischteig. Bringe die 6 Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Ein trockenes Brötchen in lauwarmem Wasser einweichen und dann ausdrücken." },
+          { "text": "Eine Zwiebel schälen und fein würfeln." },
+          { "text": "Ein Ei aufschlagen und dazugeben." },
+          { "text": "Das Hackfleisch dazugeben." },
+          { "text": "Mit Senf, Salz und Pfeffer würzen." },
+          { "text": "Alles zu einem glatten Teig kneten. Fertig!" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Warum musst du Hackfleisch schnell verarbeiten?",
+        "options": [
+          { "text": "Es hat eine große Oberfläche. Darauf vermehren sich Keime schnell.", "correct": true },
+          { "text": "Es wird sonst zu hart zum Kneten." },
+          { "text": "Es verliert sonst seine Farbe." }
+        ],
+        "explanation": "Beim Wolfen wird das Fleisch klein zerteilt. So hat es eine sehr große Oberfläche. Genau dort können sich Keime schnell vermehren. Darum verarbeitest du Hackfleisch möglichst rasch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Du kannst den Teig nicht sofort weiterverarbeiten. Wie lagerst du ihn?",
+        "options": [
+          { "text": "Abgedeckt und im Kühlschrank.", "correct": true },
+          { "text": "Offen auf der Arbeitsplatte." },
+          { "text": "Warm neben dem Herd." }
+        ],
+        "explanation": "Kälte hält die Keime auf. Ein Deckel schützt vor Schmutz. Darum lagerst du Hackfleischteig immer abgedeckt und gekühlt, bis du ihn brauchst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Du brätst Frikadellen in der Pfanne. Wie lange etwa je Seite?",
+        "options": [
+          { "text": "Ungefähr 10 Minuten je Seite.", "correct": true },
+          { "text": "Nur 1 Minute je Seite." },
+          { "text": "Eine ganze Stunde je Seite." }
+        ],
+        "explanation": "Frikadellen sind dick. Sie brauchen Zeit, damit sie innen durchgegart sind. Etwa 10 Minuten je Seite reichen. Bei Hackfleisch ist das wichtig, denn roh darf es nicht bleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Aus dem Teig kannst du auch Hackbällchen machen. Wie werden sie gegart?",
+        "options": [
+          { "text": "Kleine Bällchen von etwa 60 g formen und rund 15 Minuten in Brühe ziehen lassen.", "correct": true },
+          { "text": "In kaltem Wasser roh liegen lassen." },
+          { "text": "Nur kurz in der Mikrowelle erwärmen." }
+        ],
+        "explanation": "Hackbällchen sind kleiner als Frikadellen, etwa 60 g schwer. Du bringst Brühe zum Kochen und lässt die Bällchen darin rund 15 Minuten sanft ziehen. Dann serviert man sie oft in Tomatensoße."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was gehört zusammen? Verbinde jede Speise mit ihrer Zubereitung.",
+        "pairs": [
+          { "left": { "text": "🍔 Frikadellen" }, "right": { "text": "In der Pfanne von beiden Seiten braten" } },
+          { "left": { "text": "🍲 Hackbällchen" }, "right": { "text": "In Brühe ziehen lassen" } },
+          { "left": { "text": "🌿 Kräuterbuletten" }, "right": { "text": "Mit Quark statt Brötchen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage, ganz leicht: Kräuterbuletten sind leichter. Was machst du anders?",
+        "options": [
+          { "text": "Statt Brötchen nimmst du Quark.", "correct": true },
+          { "text": "Du nimmst doppelt so viel Öl." },
+          { "text": "Du lässt das Fleisch ganz weg." }
+        ],
+        "explanation": "Kräuterbuletten haben weniger Kalorien. Der Trick: Du nimmst Quark statt eingeweichtem Brötchen. Dazu kommen frische Kräuter wie Schnittlauch und Petersilie. Sonst machst du sie wie normale Frikadellen."
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-material-glas-keramik",
+  "title": "Material: Glas & Keramik",
+  "sort": 9,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Woraus wird Glas gemacht?",
+        "options": [
+          { "text": "Aus Sand (Quarzsand), Kalk und Soda. Das wird zusammen geschmolzen.", "correct": true },
+          { "text": "Aus flüssigem Kunststoff, der hart wird." },
+          { "text": "Aus fein gemahlenem Stein und Wasser." }
+        ],
+        "explanation": "Glas entsteht aus Quarzsand, Kalk und Soda. Diese Stoffe werden bei großer Hitze geschmolzen. Beim Abkühlen wird die Masse zu festem Glas."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏺 Keramik teilt man in zwei Gruppen. Tonzeug ist dicht und hart. Tongut ist weicher und porös. Sortiere.",
+        "buckets": [
+          { "id": "tonzeug", "label": "Tonzeug (dicht & hart)", "icon": "🍽️" },
+          { "id": "tongut", "label": "Tongut (weich & porös)", "icon": "🏺" }
+        ],
+        "items": [
+          { "text": "Porzellan", "bucket": "tonzeug" },
+          { "text": "Feinsteinzeug", "bucket": "tonzeug" },
+          { "text": "Töpferware (Irdengut)", "bucket": "tongut" },
+          { "text": "Steingut", "bucket": "tongut" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Wie heiß muss es sein, damit Glas geschmolzen wird?",
+        "options": [
+          { "text": "Sehr heiß: etwa 1200 bis 1500 °C.", "correct": true },
+          { "text": "Etwa 100 °C, so heiß wie kochendes Wasser." },
+          { "text": "Etwa 300 °C, so heiß wie ein Backofen." }
+        ],
+        "explanation": "Zum Schmelzen braucht Glas rund 1200 bis 1500 °C. Das ist viel heißer als ein Backofen. Erst bei so großer Hitze werden Sand, Kalk und Soda flüssig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Jede Keramik-Sorte hat eine typische Eigenschaft. Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "🍽️ Porzellan" }, "right": { "text": "Rein weiß und klingt hell" } },
+          { "left": { "text": "🏺 Steingut" }, "right": { "text": "Bekommt schnell feine Haarrisse" } },
+          { "left": { "text": "🪴 Töpferware" }, "right": { "text": "Weich, porös, bricht leicht" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Du stellst eine kalte Glasschüssel in den heißen Ofen. Warum kann sie zerspringen?",
+        "options": [
+          { "text": "Glas leitet Wärme schlecht. Beim schnellen Wechsel von kalt zu heiß entsteht Spannung im Glas.", "correct": true },
+          { "text": "Glas wird im Ofen weich und fällt auseinander." },
+          { "text": "Der Ofen ist zu trocken für Glas." }
+        ],
+        "explanation": "Glas leitet Wärme nur langsam weiter. Eine Seite wird schnell heiß, die andere bleibt kalt. Diese Spannung sprengt das Glas. Nur feuerfestes Glas hält das aus."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎨 Das Muster auf Geschirr kann an verschiedenen Stellen sitzen. Was passt zusammen?",
+        "pairs": [
+          { "left": { "text": "Aufglasur" }, "right": { "text": "Farbe liegt oben auf – reibt sich beim Spülen ab" } },
+          { "left": { "text": "Unterglasur" }, "right": { "text": "Farbe sitzt unter der Glasur – bleibt schön" } },
+          { "left": { "text": "Inglasur" }, "right": { "text": "Farbe ist in die Glasur eingebrannt – spülmaschinenfest" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ In einem großen Betrieb (Hotel, Heim) läuft die Spülmaschine oft. Welches Geschirr ist dort besser?",
+        "options": [
+          { "text": "Geschirr mit Unter- oder Inglasur-Dekor. Das Muster hält in der Spülmaschine.", "correct": true },
+          { "text": "Geschirr mit Aufglasur-Dekor, das man fühlen kann." },
+          { "text": "Egal, jedes Muster hält gleich lange." }
+        ],
+        "explanation": "Bei Aufglasur liegt die Farbe oben auf und reibt sich beim häufigen Spülen ab. Unter- und Inglasur-Muster sitzen geschützt in der Glasur. Darum sind sie für den Großhaushalt besser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Du bringst aus dem Urlaub eine bunte Keramik-Schale mit. Wofür nutzt du sie besser nicht?",
+        "options": [
+          { "text": "Nicht zum Essen. Aus mancher Glasur können giftige Metallsalze ins Essen gehen.", "correct": true },
+          { "text": "Für gar nichts, sie muss sofort weg." },
+          { "text": "Nur für heiße Suppe, kalt ist sie gefährlich." }
+        ],
+        "explanation": "Keramik von ausländischen Märkten hält nicht immer unsere Regeln ein. Aus der Glasur können giftige Metallsalze austreten. Nutze solche Stücke nur zur Deko, nicht für Essen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Welches Geschirr ist rein weiß und klingt hell, wenn du daran tippst?",
+        "options": [
+          { "text": "Porzellan.", "correct": true },
+          { "text": "Töpferware aus Ton." },
+          { "text": "Ein Becher aus Kunststoff." }
+        ],
+        "explanation": "Porzellan ist rein weiß und sehr dicht gebrannt. Darum klingt es hell, wenn du daran tippst. Töpferware klingt eher dumpf."
+      }
+    }
+  ]
+}
