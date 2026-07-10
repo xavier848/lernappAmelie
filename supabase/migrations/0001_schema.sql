@@ -31,3 +31,10 @@ insert into storage.buckets (id, name, public) values ('images','images',true);
 -- Reset-Funktion + Lesezugriff auf Versuchs-Statistik (fehlte in v1).
 create policy "attempts delete" on exercise_attempts for delete using (true);
 create policy "attempts read" on exercise_attempts for select using (true);
+
+-- Nachtraege (2026-07-10, Teil 2): Mama-Pruefmodus + Notizen
+create table feedback (id uuid primary key default gen_random_uuid(), profile text not null default 'mama', lesson_slug text, exercise_index int, exercise_prompt text, note text not null, resolved boolean not null default false, created_at timestamptz not null default now());
+alter table feedback enable row level security;
+create policy "feedback insert" on feedback for insert with check (true);
+create policy "feedback read" on feedback for select using (true);
+create policy "feedback update" on feedback for update using (true) with check (true);

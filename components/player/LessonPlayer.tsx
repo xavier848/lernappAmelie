@@ -32,6 +32,7 @@ import { FeedbackBanner } from "@/components/ui/FeedbackBanner";
 import { Mascot } from "@/components/ui/Mascot";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { TTSButton } from "@/components/ui/TTSButton";
+import { NoteButton } from "@/components/ui/NoteButton";
 import { StepsOrder } from "@/components/exercises/StepsOrder";
 import { MultipleChoice } from "@/components/exercises/MultipleChoice";
 import { MatchPairs } from "@/components/exercises/MatchPairs";
@@ -343,7 +344,7 @@ export function LessonPlayer({
     // Aufgabenbereich scrollt (wenn noetig). So kann die Seite auf dem
     // Handy nicht "verrutschen" (iOS-Gummiband ueber der ganzen Karte).
     <div className="flex h-svh flex-col overflow-hidden">
-      {/* Kopf: X-Button + Fortschritt */}
+      {/* Kopf: X-Button + Fortschritt (+ Notiz-Knopf im Mama-Modus) */}
       <div className="flex items-center gap-3 px-4 pt-4">
         <button
           type="button"
@@ -356,6 +357,11 @@ export function LessonPlayer({
         <div className="flex-1">
           <ProgressBar value={queueState.solvedCount} max={queueState.total} />
         </div>
+        <NoteButton
+          lessonSlug={slug}
+          exerciseIndex={currentIndex}
+          exercisePrompt={current.exercise.data.prompt}
+        />
       </div>
 
       {/* Prompt + Vorlesen */}

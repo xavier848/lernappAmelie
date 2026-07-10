@@ -1,28 +1,40 @@
-// Geraete-ID (client-only, Spec §6). Die App ist fuer GENAU EINE Nutzerin
-// (Amelie) gebaut, ohne Login. Frueher wurde pro Browser eine zufaellige UUID
-// erzeugt und in localStorage gelegt — das Problem: iOS Safari und die zum
-// Home-Bildschirm hinzugefuegte PWA haben GETRENNTE localStorage-Speicher,
-// bekamen also verschiedene IDs und damit verschiedenen (leeren) Fortschritt.
+// Geraete-ID + Profil (client-only, Spec §6). Die App kennt zwei feste
+// Profile OHNE Login: "amelie" (Standard, die Lernende) und "mama" (Pruef-
+// Modus zum Gegenlesen). Jedes Profil hat eine eigene feste Geraete-ID, also
+// getrennten Fortschritt — was Mama tut, aendert bei Amelie nichts.
 //
-// Loesung: eine FESTE, geteilte Identitaet. So sieht Amelie ueberall denselben
-// Fortschritt — Browser, Home-Screen-App und jedes neue Geraet. Kein Login noetig.
-// Die feste ID entspricht Amelies bestehendem Fortschritt (nichts geht verloren).
-// Ueberschreibbar per NEXT_PUBLIC_DEVICE_ID, falls spaeter mehrere Profile noetig sind.
+// Warum feste IDs statt zufaellige pro Browser: iOS Safari und die zum
+// Home-Bildschirm hinzugefuegte PWA haben getrennte localStorage-Speicher.
+// Zufaellige IDs wuerden dort auseinanderlaufen; feste IDs halten den
+// Fortschritt pro Profil ueberall gleich.
 import { supabaseBrowser } from "@/lib/supabase";
 
+const PROFILE_KEY = "lernapp-profil";
 const REGISTERED_KEY = "lernapp-device-registered";
 
-/** Feste Geraete-ID fuer Amelie (bisheriger Fortschritt haengt hier dran). */
-const AMELIE_DEVICE_ID =
-  process.env.NEXT_PUBLIC_DEVICE_ID ?? "8ad172de-2bb9-4f6a-8de6-dc720b45b9c0";
+export type Profile = "amelie" | "mama";
+
+const DEVICE_IDS: Record<Profile, string> = {
+  amelie: process.env.NEXT_PUBLIC_DEVICE_ID ?? "8ad172de-2bb9-4f6a-8de6-dc720b45b9c0",
+  mama: "a4a1e000-0000-4000-a000-000000000002",
+};
+
+/** Aktives Profil (Default "amelie"). Auf dem Server "amelie". */
+export function getProfile(): Profile {
+  if (typeof window === "undefined") return "amelie";
+  return window.localStorage.getItem(PROFILE_KEY) === "mama" ? "mama" : "amelie";
+}
+
+/** Profil umschalten (Mama-Pruefmodus an/aus). Loescht das Registrier-Flag. */
+export function setProfile(profile: Profile): void {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(PROFILE_KEY, profile);
+  window.localStorage.removeItem(REGISTERED_KEY);
+}
 
 let registrationInFlight = false;
 
-/**
- * Stellt sicher, dass die Geraete-Zeile in der devices-Tabelle existiert
- * (progress/exercise_attempts/daily_activity zeigen per Fremdschluessel darauf).
- * Fire-and-forget; bei bereits vorhandener Zeile (23505) ein No-op.
- */
+/** Stellt sicher, dass die Geraete-Zeile existiert (Fremdschluessel-Ziel). */
 function registerDevice(id: string): void {
   if (registrationInFlight) return;
   registrationInFlight = true;
@@ -48,14 +60,12 @@ function registerDevice(id: string): void {
   }
 }
 
-/**
- * Liefert Amelies feste Geraete-ID. Auf dem Server (ohne window) ein leerer
- * String. Registriert die Zeile beim ersten Aufruf pro Browser (fire-and-forget).
- */
+/** Geraete-ID des aktiven Profils. Auf dem Server ein leerer String. */
 export function getDeviceId(): string {
   if (typeof window === "undefined") return "";
+  const id = DEVICE_IDS[getProfile()];
   if (!window.localStorage.getItem(REGISTERED_KEY)) {
-    registerDevice(AMELIE_DEVICE_ID);
+    registerDevice(id);
   }
-  return AMELIE_DEVICE_ID;
+  return id;
 }

@@ -438,3 +438,26 @@ export async function resetDeviceData(deviceId: string): Promise<void> {
     // localStorage nicht verfuegbar - macht nichts
   }
 }
+
+/**
+ * Speichert eine Notiz/Fehlermeldung (v. a. von Mama im Pruef-Modus).
+ * Fire-and-forget mit Fehler-Weitergabe, damit die UI eine Bestaetigung
+ * zeigen kann.
+ */
+export async function submitFeedback(f: {
+  profile: string;
+  lessonSlug?: string;
+  exerciseIndex?: number;
+  exercisePrompt?: string;
+  note: string;
+}): Promise<void> {
+  const supabase = supabaseBrowser();
+  const res = await supabase.from("feedback").insert({
+    profile: f.profile,
+    lesson_slug: f.lessonSlug ?? null,
+    exercise_index: f.exerciseIndex ?? null,
+    exercise_prompt: f.exercisePrompt ?? null,
+    note: f.note,
+  });
+  if (res.error) throw res.error;
+}
