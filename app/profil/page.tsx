@@ -11,6 +11,7 @@ import { Mascot } from "@/components/ui/Mascot";
 import { Button } from "@/components/ui/Button";
 import { StreakCalendar } from "@/components/profile/StreakCalendar";
 import { BadgeGrid } from "@/components/profile/BadgeGrid";
+import { NotificationsButton } from "@/components/ui/NotificationsButton";
 import {
   berlinToday,
   fetchDailyActivity,
@@ -153,6 +154,8 @@ export default function ProfilPage() {
             {currentXp} von {nextLevelXp} Punkten bis Level {level + 1}.
           </p>
         </Card>
+
+        <NotificationsButton />
 
         <section aria-label="Meine Lerntage">
           <h2 className="mb-3 text-lg font-extrabold text-ink">
