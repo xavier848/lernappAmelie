@@ -338,10 +338,19 @@ export async function fetchAttemptStatsWithLessons(deviceId: string): Promise<{
   // Startseite haengt, waeren Startseite, Pruefung, Wiederholen UND Mamas
   // Statistik gleichzeitig im Fehler-Screen gelandet.
   // Der Embed holt beides in einer Abfrage – ganz ohne Riesen-URL.
+  // WICHTIG: Die Supabase-API liefert hoechstens 1000 Zeilen. Amelie hat
+  // bereits mehr Versuche. Ohne Sortierung waeren das WILLKUERLICHE 1000 –
+  // Statistik und faellige Wiederholung haetten also mit einer zufaelligen
+  // Teilmenge gerechnet. Mit der Sortierung sind es die NEUESTEN 1000, und
+  // genau die sind fuer beides massgeblich.
+  // (Sauberer waere langfristig eine Aggregation in der Datenbank, damit
+  // nicht bei jedem App-Start ~190 KB Rohdaten aufs Handy wandern.)
   const res = await supabase
     .from("exercise_attempts")
     .select("exercise_id, correct, created_at, exercises(lesson_id)")
-    .eq("device_id", deviceId);
+    .eq("device_id", deviceId)
+    .order("created_at", { ascending: false })
+    .limit(1000);
   if (res.error) throw res.error;
 
   const rows = (res.data ?? []) as {
