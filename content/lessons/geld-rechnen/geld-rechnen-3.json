@@ -16,13 +16,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧐 Es kostet 8,60 €. Du gibst 10 €. Die Verkäuferin gibt dir 1,20 € zurück. Stimmt das?",
+        "prompt": "🧐 Etwas kostet 8,60 €. Du gibst 10 €. Die Verkäuferin gibt dir 1,20 € zurück. Stimmt dein Rückgeld?",
         "options": [
           { "text": "Nein. Es fehlen 20 Cent.", "correct": true },
-          { "text": "Ja, das stimmt genau." },
+          { "text": "Ja. 10 € minus 8,60 € sind 1,20 €." },
           { "text": "Nein. Sie hat dir 20 Cent zu viel gegeben." }
         ],
-        "explanation": "Rechne: 8,60 € + 1,40 € = 10 €. Richtig wären also 1,40 €. Du hast nur 1,20 € bekommen. 20 Cent fehlen. Sag freundlich Bescheid."
+        "explanation": "Mach die Probe: Preis plus Rückgeld muss dein Geld ergeben. 8,60 € + 1,20 € sind aber erst 9,80 €. Richtig wären 1,40 €. Es fehlen 20 Cent. Sag freundlich Bescheid."
       }
     },
     {
@@ -41,9 +41,9 @@
         "options": [
           { "text": "3,25 €", "correct": true },
           { "text": "3,35 €" },
-          { "text": "4,25 €" }
+          { "text": "3,75 €" }
         ],
-        "explanation": "Zähle hoch: Von 6,75 € bis 7 € sind es 25 Cent. Von 7 € bis 10 € sind es 3 €. Zusammen 3,25 €."
+        "explanation": "Zähle hoch bis zum vollen Euro: Von 6,75 € bis 7 € sind es 25 Cent. Von 7 € bis 10 € sind es 3 €. Zusammen 3,25 €. Wer 3,75 € sagt, hat die Cent nicht umgedreht."
       }
     },
     {
@@ -71,13 +71,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧐 Es kostet 12,50 €. Du gibst 20 €. Du bekommst 7,50 € zurück. Stimmt das?",
+        "prompt": "🧐 Etwas kostet 12,50 €. Du gibst 20 €. Du bekommst 7,50 € zurück. Stimmt das?",
         "options": [
           { "text": "Ja. 12,50 € plus 7,50 € sind genau 20 €.", "correct": true },
-          { "text": "Nein. Es fehlen 50 Cent." },
-          { "text": "Nein. Du hast zu viel zurückbekommen." }
+          { "text": "Nein. Richtig wären 8 €. Es fehlen 50 Cent." },
+          { "text": "Nein. Richtig wären 7 €. Du hast 50 Cent zu viel." }
         ],
-        "explanation": "Die Probe: 12,50 € + 7,50 € = 20 €. Alles korrekt. Kontrolle lohnt sich trotzdem jedes Mal."
+        "explanation": "Mach die Probe: Preis plus Rückgeld muss dein Geld ergeben. 12,50 € + 7,50 € sind genau 20 €. Es stimmt. Die anderen zwei haben sich verrechnet. Kontrolliere trotzdem jedes Mal."
       }
     },
     {

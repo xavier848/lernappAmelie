@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Du wäschst Handtücher. 🌡️ Welche Temperatur stellst du ein?",
+        "prompt": "Handtücher für die Gäste sollen hygienisch sauber werden. 🌡️ Welche Temperatur stellst du ein?",
         "options": [
           { "text": "60 Grad.", "correct": true },
-          { "text": "20 Grad." },
-          { "text": "95 Grad, so heiß wie möglich." }
+          { "text": "40 Grad." },
+          { "text": "90 Grad." }
         ],
-        "explanation": "60 Grad tötet Keime ab. Handtücher müssen hygienisch sauber werden, besonders für Gäste. 🌡️"
+        "explanation": "60 Grad ist die Hygiene-Temperatur: Sie tötet Keime ab. 40 Grad ist zu wenig, da bleiben Keime zurück. 90 Grad brauchst du nicht, das kostet nur unnötig Strom. 🌡️"
       }
     },
     {
@@ -22,10 +22,10 @@
         "prompt": "Kommt Weichspüler zu den Frottee-Handtüchern? 🧴",
         "options": [
           { "text": "Nein. Weichspüler macht Handtücher weniger saugfähig.", "correct": true },
-          { "text": "Ja, immer eine ganze Flasche." },
-          { "text": "Ja, sonst werden sie nicht sauber." }
+          { "text": "Ja, dann werden die Handtücher weicher und flauschiger." },
+          { "text": "Ja, aber nur einen kleinen Schuss." }
         ],
-        "explanation": "Weichspüler legt sich wie ein Film um die Fasern. Das Handtuch saugt dann schlechter Wasser auf. Also: kein Weichspüler. 🧴"
+        "explanation": "Achtung, das ist eine Falle: Weichspüler fühlt sich zwar weich an, legt aber einen Film um die Fasern. Frottee saugt dann schlechter Wasser auf – schon bei einem kleinen Schuss. Saugfähig heißt: Wasser gut aufnehmen. Also: kein Weichspüler. 🧴"
       }
     },
     {
@@ -65,22 +65,22 @@
         "prompt": "Warum darf die Trommel nicht zu voll sein? 🌀",
         "options": [
           { "text": "Zu volle Wäsche wird nicht richtig sauber.", "correct": true },
-          { "text": "Die Maschine wird sonst zu leise." },
-          { "text": "Das Waschmittel riecht sonst zu gut." }
+          { "text": "Zu volle Wäsche verbraucht mehr Strom." },
+          { "text": "Zu volle Wäsche wird sonst zu stark geschleudert." }
         ],
-        "explanation": "Die Wäsche braucht Platz, um sich zu bewegen. Nur so kommt das Wasser überall hin. 🌀"
+        "explanation": "Die Wäsche muss sich in der Trommel bewegen können. Nur so kommt das Wasser mit dem Waschmittel überall hin. Ist die Trommel zu voll, bleiben schmutzige Stellen zurück. 🌀"
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Die Handtücher kommen aus der Waschmaschine. 💨 Was macht sie schön flauschig?",
+        "prompt": "Die Handtücher kommen nass aus der Waschmaschine. 💨 Was machst du, damit sie schön flauschig werden?",
         "options": [
           { "text": "Jedes Handtuch kräftig ausschütteln, dann trocknen.", "correct": true },
-          { "text": "Die Handtücher nass zusammenknüllen." },
-          { "text": "Die Handtücher nass in den Schrank legen." }
+          { "text": "Die Handtücher gleich glatt gefaltet trocknen lassen." },
+          { "text": "Die Handtücher ohne Ausschütteln aufhängen." }
         ],
-        "explanation": "Ausschütteln richtet die Fasern wieder auf. Der Trockner macht sie danach extra weich. 💨"
+        "explanation": "Ausschütteln richtet die zusammengepressten Fasern wieder auf. So kommt Luft dazwischen und der Trockner macht sie extra weich. Ohne Ausschütteln bleiben die Handtücher platt und hart. 💨"
       }
     },
     {
@@ -102,10 +102,10 @@
         "prompt": "Es gibt neue Handtücher für die Ferienwohnung. 🛍️ Was machst du vor dem ersten Benutzen?",
         "options": [
           { "text": "Ich wasche sie einmal.", "correct": true },
-          { "text": "Ich lege sie sofort ins Bad." },
-          { "text": "Ich bügle sie nur kurz." }
+          { "text": "Ich hänge sie einen Tag zum Auslüften auf." },
+          { "text": "Ich lege sie frisch gefaltet direkt ins Bad." }
         ],
-        "explanation": "Neue Handtücher erst waschen. Dann saugen sie besser und mögliche Farb-Reste sind raus. 🛍️"
+        "explanation": "Neue Handtücher haben oft Reste aus der Herstellung in den Fasern. Die machen sie weniger saugfähig. Erst einmal waschen: Dann saugen sie gut und mögliche Farb-Reste sind raus. Auslüften allein reicht dafür nicht. 🛍️"
       }
     },
     {

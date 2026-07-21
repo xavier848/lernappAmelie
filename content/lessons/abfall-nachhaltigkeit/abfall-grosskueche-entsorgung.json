@@ -18,13 +18,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗓️ Du willst wissen, wann in deiner Gemeinde welche Tonne geleert wird. Wo findest du das?",
+        "prompt": "🗓️ Eine neue Kollegin fragt dich, an welchem Tag die Restmülltonne abgeholt wird. Wo schaust du zuerst nach?",
         "options": [
           { "text": "Im Abfallkalender der Gemeinde.", "correct": true },
-          { "text": "In der Zeitung von gestern." },
-          { "text": "Auf der Mülltonne selbst." }
+          { "text": "Im Hygieneplan der Küche." },
+          { "text": "Auf dem Lieferschein vom Großhändler." }
         ],
-        "explanation": "Jede Gemeinde hat einen Abfallkalender. Dort stehen die Termine für die Tonnen. Auskunft gibt auch das Ordnungsamt oder das Abfallwirtschaftsamt."
+        "explanation": "Jede Gemeinde gibt einen Abfallkalender heraus. Das ist der Plan mit allen Abholterminen für die Tonnen. Der Hygieneplan regelt dagegen nur die Reinigung. Auskunft geben auch das Ordnungsamt oder das Abfallwirtschaftsamt."
       }
     },
     {
@@ -49,37 +49,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥬 In der Großküche fallen viele pflanzliche Reste an. Dürfen sie auf den Kompost?",
+        "prompt": "🥬 In der Großküche fallen große Mengen pflanzliche Reste an, zum Beispiel Schalen und Strünke. Dürfen die auf einen Komposthaufen im Hof?",
         "options": [
           { "text": "Nein, sie kommen in die Biotonne oder einen Container.", "correct": true },
-          { "text": "Ja, immer auf den Kompost." },
-          { "text": "Ja, in den normalen Restmüll." }
+          { "text": "Ja, ein eigener Komposthaufen im Hof reicht dafür aus." },
+          { "text": "Nein, sie kommen zusammen mit den Fleischresten in die Drangtonne." }
         ],
-        "explanation": "In der Großküche kommen pflanzliche Reste nicht auf den Kompost. Sie gehören in die Biotonne oder in einen Container einer Firma, die sie abholt."
+        "explanation": "In der Großküche kommen pflanzliche Reste nicht auf den Kompost. Sie gehören in die Biotonne oder in einen Container einer Entsorgungsfirma. Die Biotonne ist die braune Tonne für organische Abfälle. Die Drangtonne ist dagegen nur für Reste mit tierischen Teilen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍖 Wohin kommen Speisereste mit Fleisch oder anderen tierischen Teilen?",
+        "prompt": "🍖 Ein Teller kommt mit Fleischresten und Soße zurück. Wohin kommen diese Speisereste mit tierischen Teilen?",
         "options": [
           { "text": "In die verschließbare Drangtonne.", "correct": true },
-          { "text": "In die Biotonne." },
-          { "text": "Auf den Kompost." }
+          { "text": "In die offene Biotonne, das ist ja auch organisch." },
+          { "text": "Auf den Komposthaufen hinter der Küche." }
         ],
-        "explanation": "Reste mit tierischen Teilen kommen in die Drangtonne. Die lässt sich fest verschließen. So kommen keine Tiere und keine Gerüche heran."
+        "explanation": "Reste mit tierischen Teilen kommen in die Drangtonne. Die Drangtonne ist ein Behälter, den man fest verschließen kann. So kommen keine Tiere und keine Gerüche heran. Eine offene Biotonne reicht dafür nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛢️ Das alte Fett aus der Fritteuse ist verbraucht. Was für ein Abfall ist das?",
+        "prompt": "🛢️ Das alte Fett aus der Fritteuse ist verbraucht. Zu welcher Abfall-Art gehört es?",
         "options": [
           { "text": "Sondermüll, den man getrennt lagert.", "correct": true },
-          { "text": "Ganz normaler Restmüll." },
-          { "text": "Etwas für den Abfluss." }
+          { "text": "Biomüll, weil Fett aus Lebensmitteln kommt." },
+          { "text": "Restmüll, sobald es fest geworden ist." }
         ],
-        "explanation": "Altes Frittierfett ist Sondermüll. Du lagerst es getrennt. In den Abfluss darf es nie, sonst verstopfen die Rohre."
+        "explanation": "Altes Frittierfett ist Sondermüll. Sondermüll ist Abfall, der die Umwelt schädigen kann und deshalb extra gesammelt wird. Du lagerst das Altfett getrennt in einem eigenen Behälter. Es gehört nicht in die Biotonne und nie in den Abfluss."
       }
     },
     {

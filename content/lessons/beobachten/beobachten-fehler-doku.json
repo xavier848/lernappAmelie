@@ -2,6 +2,7 @@
   "topic_slug": "beobachten",
   "slug": "beobachten-fehler-doku",
   "title": "Beobachtungsfehler & Dokumentation",
+  "intro": "🔎 Beim Beobachten können Fehler passieren. Diese Fehler haben drei Ursachen. Manche Fehler kommen vom Beobachter selbst, zum Beispiel durch Müdigkeit oder ein Vorurteil. Dazu gehören auch Sympathie und Antipathie: Wen du magst, bewertest du oft zu positiv. Andere Fehler kommen von der Situation, zum Beispiel durch Lärm oder schlechtes Licht. Wieder andere Fehler kommen von einem Hilfsmittel, also von einem Werkzeug wie einem Stift oder einem Aufnahmegerät. Deine Beobachtung schreibst du danach auf. Je nach Lebensphase gibt es dafür eigene Formen. Für diese Daten gelten Datenschutz und Schweigepflicht. Du bewahrst sie sicher auf, und nur berechtigte Personen dürfen sie sehen.",
   "sort": 30,
   "exercises": [
     {
@@ -9,42 +10,86 @@
       "data": {
         "prompt": "🔎 Beim Beobachten können Fehler passieren. Woher kommt der Fehler? Sortiere.",
         "buckets": [
-          { "id": "beobachter", "label": "Fehler durch den Beobachter", "icon": "🧑" },
-          { "id": "situation", "label": "Fehler durch die Situation", "icon": "🌩️" },
-          { "id": "hilfsmittel", "label": "Fehler durch das Hilfsmittel", "icon": "🔧" }
+          {
+            "id": "beobachter",
+            "label": "Fehler durch den Beobachter",
+            "icon": "🧑"
+          },
+          {
+            "id": "situation",
+            "label": "Fehler durch die Situation",
+            "icon": "🌩️"
+          },
+          {
+            "id": "hilfsmittel",
+            "label": "Fehler durch das Hilfsmittel",
+            "icon": "🔧"
+          }
         ],
         "items": [
-          { "text": "Der Beobachter ist müde.", "bucket": "beobachter" },
-          { "text": "Der Beobachter hat ein Vorurteil.", "bucket": "beobachter" },
-          { "text": "Im Raum ist es sehr laut.", "bucket": "situation" },
-          { "text": "Das Licht ist zu dunkel.", "bucket": "situation" },
-          { "text": "Die Batterie im Gerät ist leer.", "bucket": "hilfsmittel" },
-          { "text": "Der Stift schreibt nicht mehr.", "bucket": "hilfsmittel" }
+          {
+            "text": "Der Beobachter ist müde.",
+            "bucket": "beobachter"
+          },
+          {
+            "text": "Der Beobachter hat ein Vorurteil.",
+            "bucket": "beobachter"
+          },
+          {
+            "text": "Im Raum ist es sehr laut.",
+            "bucket": "situation"
+          },
+          {
+            "text": "Das Licht ist zu dunkel.",
+            "bucket": "situation"
+          },
+          {
+            "text": "Die Batterie im Gerät ist leer.",
+            "bucket": "hilfsmittel"
+          },
+          {
+            "text": "Der Stift schreibt nicht mehr.",
+            "bucket": "hilfsmittel"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😊 Du magst eine Person sehr gern. Warum kann das ein Beobachtungsfehler sein?",
+        "prompt": "😊 Du magst eine Person sehr gern und sollst sie beobachten. Warum kann dein Ergebnis dadurch verfälscht werden?",
         "options": [
-          { "text": "Ich beurteile sie vielleicht besser, als sie wirklich ist.", "correct": true },
-          { "text": "Sympathie hat nie einen Einfluss." },
-          { "text": "Ich sehe dann gar nichts mehr." }
+          {
+            "text": "Ich beurteile sie vielleicht besser, als sie wirklich ist.",
+            "correct": true
+          },
+          {
+            "text": "Sympathie wirkt nur, wenn ich die Person schon lange kenne."
+          },
+          {
+            "text": "Sympathie macht meine Beobachtung sogar genauer."
+          }
         ],
-        "explanation": "Sympathie und Antipathie sind Fehlerquellen beim Beobachter. Wen du magst, den bewertest du oft zu positiv. Wen du nicht magst, oft zu negativ."
+        "explanation": "Sympathie und Antipathie sind Fehlerquellen beim Beobachter. Sympathie heißt: Du magst jemanden. Wen du magst, den bewertest du oft zu positiv. Wen du nicht magst, oft zu negativ. Das passiert schnell und unbewusst."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔧 Dein Aufnahmegerät geht mitten in der Beobachtung aus. Welche Art von Fehler ist das?",
+        "prompt": "🔧 Dein Aufnahmegerät geht mitten in der Beobachtung aus. Welcher der drei Fehler-Arten ordnest du das zu?",
         "options": [
-          { "text": "Ein Fehler durch das Hilfsmittel.", "correct": true },
-          { "text": "Ein Fehler durch den Beobachter." },
-          { "text": "Gar kein Fehler." }
+          {
+            "text": "Ein Fehler durch das Hilfsmittel.",
+            "correct": true
+          },
+          {
+            "text": "Ein Fehler durch die Situation."
+          },
+          {
+            "text": "Ein Fehler durch den Beobachter."
+          }
         ],
-        "explanation": "Ein defektes Gerät oder eine leere Batterie ist ein Fehler durch das Hilfsmittel. Prüfe deine Geräte deshalb vorher."
+        "explanation": "Ein Hilfsmittel ist ein Werkzeug, zum Beispiel das Aufnahmegerät oder der Stift. Ein defektes Gerät oder eine leere Batterie ist also ein Fehler durch das Hilfsmittel. Prüfe deine Geräte deshalb vorher."
       }
     },
     {
@@ -52,11 +97,46 @@
       "data": {
         "prompt": "📑 Jede Lebensphase hat eigene Doku-Formen. Ordne zu.",
         "pairs": [
-          { "left": { "text": "👶 Kindheit" }, "right": { "text": "Gelbes U-Heft" } },
-          { "left": { "text": "🧒 Jugend" }, "right": { "text": "J1-Untersuchung" } },
-          { "left": { "text": "👵 Senioren" }, "right": { "text": "Ess- und Trinkprotokoll" } },
-          { "left": { "text": "🧠 Menschen mit Demenz" }, "right": { "text": "Regelmäßige Testverfahren" } },
-          { "left": { "text": "♿ Menschen mit Einschränkung" }, "right": { "text": "Beobachtungsbögen" } }
+          {
+            "left": {
+              "text": "👶 Kindheit"
+            },
+            "right": {
+              "text": "Gelbes U-Heft"
+            }
+          },
+          {
+            "left": {
+              "text": "🧒 Jugend"
+            },
+            "right": {
+              "text": "J1-Untersuchung"
+            }
+          },
+          {
+            "left": {
+              "text": "👵 Senioren"
+            },
+            "right": {
+              "text": "Ess- und Trinkprotokoll"
+            }
+          },
+          {
+            "left": {
+              "text": "🧠 Menschen mit Demenz"
+            },
+            "right": {
+              "text": "Regelmäßige Testverfahren"
+            }
+          },
+          {
+            "left": {
+              "text": "♿ Menschen mit Einschränkung"
+            },
+            "right": {
+              "text": "Beobachtungsbögen"
+            }
+          }
         ],
         "memory": false
       }
@@ -66,9 +146,16 @@
       "data": {
         "prompt": "👶 Bis zu welchem Alter wird das medizinische Untersuchungsheft (U-Heft) genutzt?",
         "options": [
-          { "text": "Bis zum 13. Lebensjahr.", "correct": true },
-          { "text": "Bis zum 3. Lebensjahr." },
-          { "text": "Ein Leben lang." }
+          {
+            "text": "Bis zum 13. Lebensjahr.",
+            "correct": true
+          },
+          {
+            "text": "Bis zum 6. Lebensjahr."
+          },
+          {
+            "text": "Bis zum 18. Lebensjahr."
+          }
         ],
         "explanation": "Das U-Heft begleitet ein Kind bis zum 13. Lebensjahr. Dort werden die Untersuchungen und die Entwicklung festgehalten."
       }
@@ -78,11 +165,18 @@
       "data": {
         "prompt": "🧒 Wofür ist die J1-Untersuchung da?",
         "options": [
-          { "text": "Sie prüft die körperliche und seelische Gesundheit von Jugendlichen.", "correct": true },
-          { "text": "Sie prüft nur die Zähne." },
-          { "text": "Sie ist nur für Babys." }
+          {
+            "text": "Sie prüft die körperliche und seelische Gesundheit von Jugendlichen.",
+            "correct": true
+          },
+          {
+            "text": "Sie prüft nur die körperliche Fitness und die Leistung im Sport."
+          },
+          {
+            "text": "Sie ist die erste Untersuchung direkt nach der Geburt."
+          }
         ],
-        "explanation": "Die J1-Untersuchung ist für Jugendliche von 12 bis 15 Jahren. Sie schaut auf Körper und Seele."
+        "explanation": "Die J1-Untersuchung ist für Jugendliche von 12 bis 14 Jahren. Sie schaut auf Körper und Seele."
       }
     },
     {
@@ -90,28 +184,58 @@
       "data": {
         "prompt": "🧑‍🤝‍🧑 Für welche Menschen ist die Doku-Form eher gedacht? Sortiere.",
         "buckets": [
-          { "id": "jung", "label": "Eher junge Menschen", "icon": "🧒" },
-          { "id": "alt", "label": "Eher ältere Menschen", "icon": "👴" }
+          {
+            "id": "jung",
+            "label": "Eher junge Menschen",
+            "icon": "🧒"
+          },
+          {
+            "id": "alt",
+            "label": "Eher ältere Menschen",
+            "icon": "👴"
+          }
         ],
         "items": [
-          { "text": "Gelbes U-Heft", "bucket": "jung" },
-          { "text": "J1-Untersuchung", "bucket": "jung" },
-          { "text": "Sprachfeststellung", "bucket": "jung" },
-          { "text": "Ess- und Trinkprotokoll", "bucket": "alt" },
-          { "text": "Testverfahren bei Demenz", "bucket": "alt" }
+          {
+            "text": "Gelbes U-Heft",
+            "bucket": "jung"
+          },
+          {
+            "text": "J1-Untersuchung",
+            "bucket": "jung"
+          },
+          {
+            "text": "Sprachfeststellung",
+            "bucket": "jung"
+          },
+          {
+            "text": "Ess- und Trinkprotokoll",
+            "bucket": "alt"
+          },
+          {
+            "text": "Testverfahren bei Demenz",
+            "bucket": "alt"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔒 Beobachtungen enthalten persönliche Daten. Wie gehst du damit um?",
+        "prompt": "🔒 Deine Beobachtung enthält persönliche Daten einer Person. Was ist der richtige Umgang damit?",
         "options": [
-          { "text": "Ich bewahre sie sicher und geschützt auf. Nur berechtigte Personen sehen sie.", "correct": true },
-          { "text": "Ich hänge sie offen an die Wand." },
-          { "text": "Ich erzähle sie allen." }
+          {
+            "text": "Ich bewahre sie sicher und geschützt auf. Nur berechtigte Personen sehen sie.",
+            "correct": true
+          },
+          {
+            "text": "Ich lege sie offen ins Regal, damit alle Kollegen schnell nachschauen können."
+          },
+          {
+            "text": "Ich erzähle Angehörigen alle Details, auch ohne Erlaubnis."
+          }
         ],
-        "explanation": "Für die Dokumentation gilt der Datenschutz. Persönliche Daten müssen verschlossen und geschützt aufbewahrt werden."
+        "explanation": "Für die Dokumentation gilt der Datenschutz und die Schweigepflicht. Schweigepflicht heißt: Du darfst persönliche Daten nicht einfach weitergeben. Sie müssen verschlossen und geschützt aufbewahrt werden. Nur berechtigte Personen dürfen sie sehen."
       }
     },
     {
@@ -119,9 +243,16 @@
       "data": {
         "prompt": "👵 Womit hält man bei Senioren fest, wie viel sie essen und trinken?",
         "options": [
-          { "text": "Mit einem Ess- und Trinkprotokoll.", "correct": true },
-          { "text": "Mit dem U-Heft." },
-          { "text": "Mit einem Sprachtest." }
+          {
+            "text": "Mit einem Ess- und Trinkprotokoll.",
+            "correct": true
+          },
+          {
+            "text": "Mit einem Bewegungsprotokoll."
+          },
+          {
+            "text": "Mit dem gelben U-Heft."
+          }
         ],
         "explanation": "Bei Senioren nutzt man ein Ess- und Trinkprotokoll. So sieht man, ob jemand genug isst und trinkt."
       }

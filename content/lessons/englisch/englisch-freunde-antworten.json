@@ -1,0 +1,150 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-freunde-antworten",
+  "title": "Freunde: antworten & Small Talk",
+  "sort": 14,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin fragt: How are you doing? 😊 Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I'm doing well, thanks!", "correct": true },
+          { "text": "Turn left at the bakery." },
+          { "text": "The apartment is free." }
+        ],
+        "explanation": "I'm doing well, thanks! heißt: Mir geht es gut, danke! Das ist eine kurze und freundliche Antwort."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Antworten an Freunde: Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "I haven't been up to much." }, "right": { "text": "Ich habe nicht viel gemacht." } },
+          { "left": { "text": "I'm going to Spain next week. ✈️" }, "right": { "text": "Ich fahre nächste Woche nach Spanien." } },
+          { "left": { "text": "I visited my parents over the weekend. 👪" }, "right": { "text": "Ich habe am Wochenende meine Eltern besucht." } },
+          { "left": { "text": "I went for a long bike ride. 🚴" }, "right": { "text": "Ich bin eine lange Radtour gefahren." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin sagt: I really missed hanging out with you. 🥰 Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ich habe es wirklich vermisst, mit dir Zeit zu verbringen.", "correct": true },
+          { "text": "Ich habe dich beim Treffen leider verpasst." },
+          { "text": "Ich will nicht mehr mit dir abhängen." }
+        ],
+        "explanation": "To hang out with you heißt: mit dir Zeit verbringen. To miss heißt: vermissen. Es ist also ein liebes Kompliment."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir sollten uns öfter treffen! 😊",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "should" },
+          { "text": "meet" },
+          { "text": "up" },
+          { "text": "more" },
+          { "text": "often" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Freund fragt: What have you been up to lately? Du hast nicht viel gemacht. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I haven't been up to much.", "correct": true },
+          { "text": "The concert was great." },
+          { "text": "Where can we park?" }
+        ],
+        "explanation": "I haven't been up to much. heißt: Ich habe nicht viel gemacht. Das ist eine ehrliche und lockere Antwort."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich habe meine Eltern besucht. 👪",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "visited" },
+          { "text": "my" },
+          { "text": "parents" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Ist das eine Frage oder eine Antwort? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "frage", "label": "Frage", "icon": "❓" },
+          { "id": "antwort", "label": "Antwort", "icon": "💬" }
+        ],
+        "items": [
+          { "text": "How did you spend your weekend?", "bucket": "frage" },
+          { "text": "I went for a long bike ride.", "bucket": "antwort" },
+          { "text": "What have you been up to lately?", "bucket": "frage" },
+          { "text": "I haven't been up to much.", "bucket": "antwort" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin sagt: I haven't seen you in a long time. Wie antwortest du nett?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I know, we should meet up more often!", "correct": true },
+          { "text": "Goodbye and safe travels!" },
+          { "text": "The heating is broken." }
+        ],
+        "explanation": "We should meet up more often! heißt: Wir sollten uns öfter treffen! Damit zeigst du, dass du sie gern siehst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich bin eine Radtour gefahren. 🚴",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "went" },
+          { "text": "for" },
+          { "text": "a" },
+          { "text": "bike" },
+          { "text": "ride" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welche englische Antwort passt? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Ich habe dich lange nicht gesehen." }, "right": { "text": "I haven't seen you in a long time." } },
+          { "left": { "text": "Wir sollten uns öfter treffen!" }, "right": { "text": "We should meet up more often!" } },
+          { "left": { "text": "Ich habe nicht viel gemacht." }, "right": { "text": "I haven't been up to much." } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

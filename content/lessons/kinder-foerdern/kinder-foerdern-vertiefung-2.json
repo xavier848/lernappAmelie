@@ -2,6 +2,7 @@
   "topic_slug": "kinder-foerdern",
   "slug": "kinder-foerdern-vertiefung-2",
   "title": "Eine bunte Woche planen",
+  "intro": "📅 In dieser Lektion planst du eine Woche mit Kindern. An jedem Tag steht etwas anderes auf dem Plan: mal Bewegung, mal Sprache, mal Kreativität. So werden Körper und Kopf gefördert. Fachleute nennen das ganzheitliche Förderung. Wichtig ist auch der Wechsel zwischen aktiven und ruhigen Zeiten. Feste Abläufe und Rituale geben Kindern Sicherheit. Ein Plan ist aber nur eine Hilfe, kein Gesetz. Er darf sich an die Situation anpassen. Denk auch daran: Kein Kind muss bei einem Angebot mitmachen.",
   "sort": 5,
   "exercises": [
     {
@@ -9,11 +10,18 @@
       "data": {
         "prompt": "📅 Warum ist ein Wochenplan mit verschiedenen Aktivitäten gut?",
         "options": [
-          { "text": "🌈 Jeden Tag wird etwas anderes gefördert: Bewegung, Sprache, Kreativität.", "correct": true },
-          { "text": "😴 Damit jeden Tag das Gleiche passiert." },
-          { "text": "📋 Damit der Zettel an der Wand schön aussieht." }
+          {
+            "text": "🌈 Jeden Tag wird etwas anderes gefördert: Bewegung, Sprache, Kreativität.",
+            "correct": true
+          },
+          {
+            "text": "🔁 Damit jeden Tag dasselbe geübt wird, bis es richtig sitzt."
+          },
+          {
+            "text": "😴 Damit die Kinder abends leichter einschlafen."
+          }
         ],
-        "explanation": "Kinder brauchen Abwechslung. Mal Bewegung, mal Musik, mal Basteln. So wird der ganze Körper und der Kopf gefördert."
+        "explanation": "Abwechslung sorgt für ganzheitliche Förderung. Das heißt: Der ganze Körper und der Kopf werden gefördert. Mal Bewegung, mal Sprache, mal Kreativität. Nur eine Sache zu üben würde zu wenig fördern."
       }
     },
     {
@@ -21,29 +29,62 @@
       "data": {
         "prompt": "🧺 Sortiere die Aktivitäten: Was ist aktiv? Was ist ruhig?",
         "buckets": [
-          { "id": "aktiv", "label": "Aktive Aktivität", "icon": "🏃" },
-          { "id": "ruhig", "label": "Ruhige Aktivität", "icon": "🤫" }
+          {
+            "id": "aktiv",
+            "label": "Aktive Aktivität",
+            "icon": "🏃"
+          },
+          {
+            "id": "ruhig",
+            "label": "Ruhige Aktivität",
+            "icon": "🤫"
+          }
         ],
         "items": [
-          { "text": "🤸 Turnen in der Turnhalle", "bucket": "aktiv" },
-          { "text": "🏃 Fangen spielen im Garten", "bucket": "aktiv" },
-          { "text": "💃 Tanzen zu Musik", "bucket": "aktiv" },
-          { "text": "📖 Bilderbuch anschauen", "bucket": "ruhig" },
-          { "text": "🧩 Puzzeln am Tisch", "bucket": "ruhig" },
-          { "text": "🎨 Ein Bild malen", "bucket": "ruhig" }
+          {
+            "text": "🤸 Turnen in der Turnhalle",
+            "bucket": "aktiv"
+          },
+          {
+            "text": "🏃 Fangen spielen im Garten",
+            "bucket": "aktiv"
+          },
+          {
+            "text": "💃 Tanzen zu Musik",
+            "bucket": "aktiv"
+          },
+          {
+            "text": "📖 Bilderbuch anschauen",
+            "bucket": "ruhig"
+          },
+          {
+            "text": "🧩 Puzzeln am Tisch",
+            "bucket": "ruhig"
+          },
+          {
+            "text": "🎨 Ein Bild malen",
+            "bucket": "ruhig"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚖️ Die Kinder haben wild getobt. Was planst du danach?",
+        "prompt": "⚖️ Die Kinder haben wild getobt. Was planst du als Nächstes?",
         "options": [
-          { "text": "📖 Etwas Ruhiges, zum Beispiel eine Geschichte vorlesen.", "correct": true },
-          { "text": "🏃 Noch mehr Toben, bis alle umfallen." },
-          { "text": "🧗 Sofort ein schwieriges Kletterangebot." }
+          {
+            "text": "📖 Etwas Ruhiges, zum Beispiel eine Geschichte vorlesen.",
+            "correct": true
+          },
+          {
+            "text": "🎈 Gleich das nächste Bewegungsspiel starten."
+          },
+          {
+            "text": "🍬 Schnell einen süßen Snack, dann werden alle von allein ruhig."
+          }
         ],
-        "explanation": "Auf Anspannung folgt Entspannung. Nach dem Toben brauchen Kinder Ruhe. Dieser Wechsel gibt dem Tag einen guten Rhythmus."
+        "explanation": "Fachleute nennen das den Wechsel von Anspannung und Entspannung. Nach dem Toben brauchen Kinder Ruhe. Dieser Wechsel gibt dem Tag einen guten Rhythmus."
       }
     },
     {
@@ -51,25 +92,44 @@
       "data": {
         "prompt": "🌅 Ein Vormittag in der Kita hat eine feste Reihenfolge. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "👋 Die Kinder ankommen lassen und begrüßen." },
-          { "text": "🎶 Morgenkreis: ein Lied singen und den Tag besprechen." },
-          { "text": "🥐 Gemeinsam frühstücken." },
-          { "text": "🎨 Ein Angebot machen, zum Beispiel basteln." },
-          { "text": "🌳 Draußen im Garten spielen." },
-          { "text": "🍽️ Mittagessen." }
+          {
+            "text": "👋 Die Kinder ankommen lassen und begrüßen."
+          },
+          {
+            "text": "🎶 Morgenkreis: ein Lied singen und den Tag besprechen."
+          },
+          {
+            "text": "🥐 Gemeinsam frühstücken."
+          },
+          {
+            "text": "🎨 Ein Angebot machen, zum Beispiel basteln."
+          },
+          {
+            "text": "🌳 Draußen im Garten spielen."
+          },
+          {
+            "text": "🍽️ Mittagessen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔁 Warum sind feste Abläufe und Rituale für Kinder wichtig?",
+        "prompt": "🔁 Warum geben feste Abläufe und Rituale den Kindern etwas Wichtiges?",
         "options": [
-          { "text": "🛟 Die Kinder wissen, was kommt. Das gibt Sicherheit.", "correct": true },
-          { "text": "😴 Damit der Tag langweilig wird." },
-          { "text": "⏰ Damit die Uhr schneller läuft." }
+          {
+            "text": "🛟 Die Kinder wissen, was kommt. Das gibt Sicherheit.",
+            "correct": true
+          },
+          {
+            "text": "📏 Damit jeder Tag ganz genau gleich abläuft und nie etwas Neues passiert."
+          },
+          {
+            "text": "🤫 Damit die Kinder lernen, den ganzen Tag leise zu sein."
+          }
         ],
-        "explanation": "Feste Abläufe sind wie ein Geländer durch den Tag. Die Kinder fühlen sich sicher. Das kennst du auch: Pläne helfen!"
+        "explanation": "Feste Abläufe geben Orientierung. Orientierung heißt: Die Kinder finden sich im Tag zurecht und wissen, was als Nächstes kommt. Das gibt Sicherheit. Neues darf trotzdem passieren."
       }
     },
     {
@@ -77,11 +137,46 @@
       "data": {
         "prompt": "🧩 Welche Aktivität passt zu welchem Förder-Bereich? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🤸 Turnen" }, "right": { "text": "Bewegung" } },
-          { "left": { "text": "📚 Vorlesen" }, "right": { "text": "Sprache" } },
-          { "left": { "text": "🎨 Malen und Basteln" }, "right": { "text": "Kreativität" } },
-          { "left": { "text": "🌳 Waldtag" }, "right": { "text": "Natur entdecken" } },
-          { "left": { "text": "🎶 Musik machen" }, "right": { "text": "Rhythmus und Gehör" } }
+          {
+            "left": {
+              "text": "🤸 Turnen"
+            },
+            "right": {
+              "text": "Bewegung"
+            }
+          },
+          {
+            "left": {
+              "text": "📚 Vorlesen"
+            },
+            "right": {
+              "text": "Sprache"
+            }
+          },
+          {
+            "left": {
+              "text": "🎨 Malen und Basteln"
+            },
+            "right": {
+              "text": "Kreativität"
+            }
+          },
+          {
+            "left": {
+              "text": "🌳 Waldtag"
+            },
+            "right": {
+              "text": "Natur entdecken"
+            }
+          },
+          {
+            "left": {
+              "text": "🎶 Musik machen"
+            },
+            "right": {
+              "text": "Rhythmus und Gehör"
+            }
+          }
         ],
         "memory": false
       }
@@ -91,11 +186,18 @@
       "data": {
         "prompt": "🙅 Ein Kind will beim Bastelangebot nicht mitmachen. Was tust du?",
         "options": [
-          { "text": "💛 Ich lade es freundlich ein. Es darf auch erst nur zuschauen.", "correct": true },
-          { "text": "😠 Ich zwinge das Kind, sich hinzusetzen." },
-          { "text": "🚫 Ich sage: „Dann darfst du nie wieder basteln.“" }
+          {
+            "text": "💛 Ich lade es freundlich ein. Es darf auch erst nur zuschauen.",
+            "correct": true
+          },
+          {
+            "text": "🎁 Ich verspreche ihm eine Belohnung, wenn es mitmacht."
+          },
+          {
+            "text": "🤷 Ich beachte das Kind gar nicht mehr und mache mit den anderen weiter."
+          }
         ],
-        "explanation": "Angebote sind freiwillig. Viele Kinder schauen erst zu. Später machen sie von allein mit. Zwang nimmt die Freude."
+        "explanation": "Angebote sind freiwillig. Freiwillig heißt: Kein Kind muss mitmachen. Viele Kinder schauen erst zu und machen später von allein mit. Zwang oder Belohnung nehmen die echte Freude."
       }
     },
     {
@@ -103,11 +205,18 @@
       "data": {
         "prompt": "☀️ Dein Plan sagt: Basteln. Aber draußen ist plötzlich herrliches Wetter. Was machst du?",
         "options": [
-          { "text": "🌳 Wir gehen raus! Der Plan ist eine Hilfe, kein Gesetz.", "correct": true },
-          { "text": "📋 Wir basteln. Der Plan darf sich nie ändern." },
-          { "text": "🙈 Wir machen gar nichts." }
+          {
+            "text": "🌳 Wir gehen raus! Der Plan ist eine Hilfe, kein Gesetz.",
+            "correct": true
+          },
+          {
+            "text": "⏳ Wir basteln erst fertig. Wenn danach noch Sonne da ist, gehen wir raus."
+          },
+          {
+            "text": "📋 Wir basteln wie geplant. Ein Plan muss immer genau eingehalten werden."
+          }
         ],
-        "explanation": "Ein guter Plan darf flexibel sein. Sonne und frische Luft sind wertvoll. Das Basteln passt auch an einem Regentag."
+        "explanation": "Ein guter Plan darf flexibel sein. Flexibel heißt: Man passt den Plan an die Situation an. Sonne und frische Luft sind wertvoll und schnell wieder weg. Das Basteln passt auch an einem Regentag."
       }
     },
     {
@@ -115,11 +224,18 @@
       "data": {
         "prompt": "🥾 Morgen ist Waldtag. Was gehört auf jeden Fall dazu?",
         "options": [
-          { "text": "🥾 Feste Schuhe und Wechselkleidung", "correct": true },
-          { "text": "🩴 Flip-Flops und Badehose" },
-          { "text": "🎮 Eine Spielkonsole" }
+          {
+            "text": "🥾 Feste Schuhe und Wechselkleidung",
+            "correct": true
+          },
+          {
+            "text": "🩳 Leichte Sandalen und eine kurze Hose, damit es bequem ist"
+          },
+          {
+            "text": "👟 Nur Turnschuhe, Wechselkleidung braucht man nicht"
+          }
         ],
-        "explanation": "Im Wald braucht man feste Schuhe. Und Wechselkleidung, falls etwas nass oder matschig wird. Gut vorbereitet – so wie du!"
+        "explanation": "Im Wald braucht man feste Schuhe, damit man sicher steht und nicht ausrutscht. Und Wechselkleidung, falls etwas nass oder matschig wird. Gut vorbereitet – so wie du!"
       }
     }
   ]

@@ -1,0 +1,148 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-freunde-fragen",
+  "title": "Freunde: Fragen stellen",
+  "sort": 13,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin fragt: How are you doing? 😊 Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wie geht es dir?", "correct": true },
+          { "text": "Wo wohnst du?" },
+          { "text": "Was machst du beruflich?" }
+        ],
+        "explanation": "How are you doing? heißt: Wie geht es dir? Das ist eine ganz normale Frage unter Freunden."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Fragen an Freunde: Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "How are you doing? 😊" }, "right": { "text": "Wie geht es dir?" } },
+          { "left": { "text": "What have you been up to lately?" }, "right": { "text": "Was hast du in letzter Zeit gemacht?" } },
+          { "left": { "text": "How is school going? 🏫" }, "right": { "text": "Wie läuft es in der Schule?" } },
+          { "left": { "text": "How did you spend your weekend?" }, "right": { "text": "Wie hast du dein Wochenende verbracht?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst wissen, was deine Freundin in letzter Zeit so gemacht hat. Was fragst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "What have you been up to lately?", "correct": true },
+          { "text": "Where do you live now?" },
+          { "text": "How much does it cost?" }
+        ],
+        "explanation": "What have you been up to lately? heißt: Was hast du in letzter Zeit gemacht? Das ist eine offene Frage für ein nettes Gespräch."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wie geht es dir? 😊",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "How" },
+          { "text": "are" },
+          { "text": "you" },
+          { "text": "doing?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Freund fragt: Did you watch the movie I recommended to you? 🎬 Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ob du den Film geschaut hast, den er dir empfohlen hat.", "correct": true },
+          { "text": "Ob du mit ihm ins Kino gehen willst." },
+          { "text": "Ob du selbst einen Film gedreht hast." }
+        ],
+        "explanation": "To recommend heißt: empfehlen. Der Freund will wissen, ob du den empfohlenen Film schon gesehen hast."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Fragt die Frage nach jetzt oder nach früher? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "jetzt", "label": "Fragt nach jetzt", "icon": "⏰" },
+          { "id": "frueher", "label": "Fragt nach früher", "icon": "⏪" }
+        ],
+        "items": [
+          { "text": "How are you doing?", "bucket": "jetzt" },
+          { "text": "How is school going?", "bucket": "jetzt" },
+          { "text": "How did you spend your weekend?", "bucket": "frueher" },
+          { "text": "Did you enjoy the concert?", "bucket": "frueher" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wie läuft es in der Schule? 🏫",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "How" },
+          { "text": "is" },
+          { "text": "school" },
+          { "text": "going?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst wissen, wie deine Freundin ihre Ferien verbringt. Was fragst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "How are you going to spend your holidays?", "correct": true },
+          { "text": "How did you spend your weekend?" },
+          { "text": "Did you hear about what happened?" }
+        ],
+        "explanation": "How are you going to spend your holidays? fragt nach der Zukunft: Wie wirst du deine Ferien verbringen?"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wie hast du dein Wochenende verbracht?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "How" },
+          { "text": "did" },
+          { "text": "you" },
+          { "text": "spend" },
+          { "text": "your" },
+          { "text": "weekend?" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welche englische Frage passt? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Hast du gehört, was passiert ist?" }, "right": { "text": "Did you hear about what happened?" } },
+          { "left": { "text": "Hat dir das Konzert gefallen? 🎵" }, "right": { "text": "Did you enjoy the concert?" } },
+          { "left": { "text": "Gestern Abend war lustig, oder?" }, "right": { "text": "Last night was fun, wasn't it?" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

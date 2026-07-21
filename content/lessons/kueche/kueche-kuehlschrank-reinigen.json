@@ -32,35 +32,35 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔌 Was machst du zuerst, bevor du den Kühlschrank putzt?",
+        "prompt": "🔌 Was machst du ganz zuerst, bevor du den Kühlschrank putzt?",
         "options": [
           { "text": "Ausschalten und ausräumen.", "correct": true },
-          { "text": "Sofort mit dem nassen Lappen loswischen." },
-          { "text": "Die Temperatur höher stellen." }
+          { "text": "Nur ausräumen und den Kühlschrank angeschaltet lassen." },
+          { "text": "Nur ausschalten, die Vorräte aber drin lassen." }
         ],
-        "explanation": "Ausgeschaltet und leer kannst du überall gut putzen. Außerdem sparst du Strom, solange die Tür offen steht."
+        "explanation": "Beides gehört zusammen: Nur ausgeschaltet und leer kannst du überall gut putzen. Ausschalten spart auch Strom, solange die Tür offen steht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❄️ Womit löst du das Eis im Eisfach?",
+        "prompt": "❄️ Im Eisfach ist eine dicke Eisschicht. Womit löst du sie ab?",
         "options": [
           { "text": "Mit einem Teigschaber.", "correct": true },
           { "text": "Mit einem spitzen Messer." },
-          { "text": "Mit einer Gabel." }
+          { "text": "Mit einem Pfannenwender aus Metall." }
         ],
-        "explanation": "Der weiche Teigschaber löst das Eis, ohne die Wand zu beschädigen. Mit einem Messer könntest du dich oder den Kühlschrank verletzen."
+        "explanation": "Der Teigschaber ist aus weichem Kunststoff. Er löst das Eis, ohne die Wand zu beschädigen. Metall oder eine spitze Klinge könnten den Kühlschrank zerkratzen oder anstechen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⬇️ In welche Richtung reinigst du die Innenwände?",
+        "prompt": "⬇️ Du putzt die Innenwände. In welche Richtung wischst du?",
         "options": [
           { "text": "Von oben nach unten.", "correct": true },
           { "text": "Von unten nach oben." },
-          { "text": "Kreuz und quer." }
+          { "text": "Von der Mitte aus nach außen." }
         ],
         "explanation": "Von oben nach unten läuft schmutziges Wasser auf die noch ungeputzten Stellen. So musst du nichts doppelt wischen."
       }
@@ -68,13 +68,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Womit wischst du am Ende nach?",
+        "prompt": "🧴 Womit wischst du die Wände ganz am Ende nach?",
         "options": [
           { "text": "Mit Essigwasser.", "correct": true },
-          { "text": "Mit Speiseöl." },
-          { "text": "Mit Zuckerwasser." }
+          { "text": "Mit klarem Wasser ohne Essig." },
+          { "text": "Mit purem Spülmittel." }
         ],
-        "explanation": "Essigwasser reinigt die Wände hygienisch und nimmt Gerüche weg. Danach reibst du alles trocken."
+        "explanation": "Essigwasser reinigt hygienisch. Das heißt: Es wirkt gegen Bakterien und nimmt Gerüche weg. Danach reibst du alles trocken."
       }
     },
     {
@@ -92,11 +92,11 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Was machst du ganz zum Schluss?",
+        "prompt": "✅ Alles ist sauber. Was machst du ganz zum Schluss?",
         "options": [
           { "text": "Den Kühlschrank wieder einschalten.", "correct": true },
-          { "text": "Die Tür offen stehen lassen." },
-          { "text": "Den Stecker gezogen lassen." }
+          { "text": "Erst einschalten und dann die Vorräte einräumen." },
+          { "text": "Die Tür einen Spalt offen lassen, damit er auslüftet." }
         ],
         "explanation": "Erst wenn alles sauber und eingeräumt ist, schaltest du den Kühlschrank wieder ein. So kühlt er die Vorräte weiter."
       }

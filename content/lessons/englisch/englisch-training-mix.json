@@ -1,0 +1,150 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-training-mix",
+  "title": "Training: alles gemischt",
+  "sort": 24,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Neue Gäste kommen nach einer langen Autofahrt an. 🚗 Du begrüßt sie und fragst, wie die Reise war. Welcher Satz passt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Welcome to Lermoos! How was your journey?", "correct": true },
+          { "text": "Welcome to Lermoos! How was your journal?" },
+          { "text": "Goodbye! How was your journey?" }
+        ],
+        "explanation": "How was your journey? heißt: Wie war Ihre Reise? Vorsicht: journal klingt fast gleich, heißt aber Tagebuch. Und Goodbye sagt man zum Abschied, nicht zur Begrüßung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Vorsicht, diese Wörter sehen sich sehr ähnlich! Was gehört zusammen? Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "kitchen" }, "right": { "text": "Küche 🍳" } },
+          { "left": { "text": "chicken" }, "right": { "text": "Hähnchen 🍗" } },
+          { "left": { "text": "to stay" }, "right": { "text": "bleiben" } },
+          { "left": { "text": "to say" }, "right": { "text": "sagen 💬" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast am Telefon spricht sehr schnell. 📞 Baue die Frage: Könnten Sie Ihre Telefonnummer langsamer wiederholen?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Could you" },
+          { "text": "repeat" },
+          { "text": "your phone number" },
+          { "text": "more slowly" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin erzählt: I've been really busy with work lately, so I haven't had much free time. 💬 Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ich hatte in letzter Zeit viel Arbeit, darum hatte ich wenig Freizeit.", "correct": true },
+          { "text": "Ich hatte in letzter Zeit wenig Arbeit, darum hatte ich viel Freizeit." },
+          { "text": "Ich suche gerade eine neue Arbeit, darum habe ich viel Freizeit." }
+        ],
+        "explanation": "busy with work heißt: viel mit der Arbeit beschäftigt. Und not much free time heißt: wenig freie Zeit. Deine Freundin hatte also viel zu tun."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Meldet der Gast ein Problem oder ist er zufrieden? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "problem", "label": "Problem", "icon": "🔧" },
+          { "id": "zufrieden", "label": "Zufrieden", "icon": "🌟" }
+        ],
+        "items": [
+          { "text": "The shower only has cold water.", "bucket": "problem" },
+          { "text": "The view from the balcony is amazing.", "bucket": "zufrieden" },
+          { "text": "The Wi-Fi keeps disconnecting.", "bucket": "problem" },
+          { "text": "The beds are so comfortable.", "bucket": "zufrieden" },
+          { "text": "There is a strange noise in the fridge.", "bucket": "problem" },
+          { "text": "The breakfast was delicious.", "bucket": "zufrieden" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt, ob er selbst kochen darf. 🍳 Du willst sagen: Sie können die Küche jederzeit benutzen. Welcher Satz ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "You are welcome to use the kitchen at any time.", "correct": true },
+          { "text": "You are welcome to use the chicken at any time." },
+          { "text": "You are welcome to clean the kitchen at any time." }
+        ],
+        "explanation": "kitchen heißt Küche. Vorsicht: chicken heißt Hähnchen — nur zwei Buchstaben sind anders! Und to use heißt benutzen, to clean heißt putzen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Den Gästen ist nachts kalt. 🛏️ Baue den Satz: Zusätzliche Decken finden Sie im Schrank.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You will find" },
+          { "text": "extra" },
+          { "text": "blankets" },
+          { "text": "in" },
+          { "text": "the wardrobe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst einem Gast am Telefon den Preis: The total for four nights is three hundred and forty euros. 💶 Wie viel kosten die vier Nächte?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "340 Euro", "correct": true },
+          { "text": "314 Euro" },
+          { "text": "430 Euro" }
+        ],
+        "explanation": "three hundred and forty heißt 340. Vorsicht: forty (40) und fourteen (14) klingen ähnlich. Bei forty liegt die Betonung vorne, bei fourteen hinten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Gäste möchten vielleicht verlängern. 🗓️ Baue die Frage: Wie lange planen Sie zu bleiben?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "How long" },
+          { "text": "are you" },
+          { "text": "planning" },
+          { "text": "to stay" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Abschied von netten Gästen: Was gehört zusammen? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Ich hoffe, wir sehen uns bald wieder. 😊" }, "right": { "text": "I hope we see each other again soon." } },
+          { "left": { "text": "Es war schön, Sie kennenzulernen." }, "right": { "text": "It was lovely to meet you." } },
+          { "left": { "text": "Ich wünsche Ihnen eine gute Heimreise. 🚗" }, "right": { "text": "I wish you a safe journey home." } },
+          { "left": { "text": "Besuchen Sie uns nächsten Winter wieder!" }, "right": { "text": "Come and visit us again next winter!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

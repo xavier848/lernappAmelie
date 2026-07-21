@@ -2,6 +2,7 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-verdauung",
   "title": "Der Weg der Nahrung",
+  "intro": "🍽️ Bei der Verdauung zerlegt dein Körper das Essen in winzige Nährstoffe. Der Weg beginnt schon im Mund. Die Zähne machen das Essen klein, und der Speichel spaltet die erste Stärke. Danach rutscht das Essen durch die Speiseröhre in den Magen und weiter in den Darm. Für das Zerlegen gibt es kleine Helfer, die man Enzyme nennt. Jedes Enzym spaltet einen anderen Nährstoff, zum Beispiel Stärke, Eiweiß oder Fett. Manche Organe sind selbst der Weg für das Essen, andere helfen nur mit. Die Leber liefert zum Beispiel die Galle, und sie teilt großes Fett in viele kleine Tröpfchen. Im Dünndarm gehen die fertigen Nährstoffe durch die Darmwand ins Blut. Am Ende verbrennt jede Zelle die Nährstoffe mit Sauerstoff und gewinnt daraus Energie.",
   "sort": 40,
   "exercises": [
     {
@@ -9,24 +10,41 @@
       "data": {
         "prompt": "🍽️ Das Essen wandert durch deinen Körper. Bringe die Stationen in die richtige Reihenfolge.",
         "steps": [
-          { "text": "👄 Mund: Die Zähne machen das Essen klein." },
-          { "text": "⬇️ Speiseröhre: Das Essen rutscht nach unten." },
-          { "text": "🫃 Magen: Das Essen wird weiter zerlegt." },
-          { "text": "🌀 Dünndarm: Die Nährstoffe gehen ins Blut." },
-          { "text": "🚽 Dickdarm: Der Rest wird eingedickt." }
+          {
+            "text": "👄 Mund: Die Zähne machen das Essen klein."
+          },
+          {
+            "text": "⬇️ Speiseröhre: Das Essen rutscht nach unten."
+          },
+          {
+            "text": "🫃 Magen: Das Essen wird weiter zerlegt."
+          },
+          {
+            "text": "🌀 Dünndarm: Die Nährstoffe gehen ins Blut."
+          },
+          {
+            "text": "🚽 Dickdarm: Der Rest wird eingedickt."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👄 Was passiert im Mund mit dem Essen?",
+        "prompt": "👄 Du kaust ein Stück Brot ganz lange. Nach einer Weile schmeckt es süß. Woran liegt das?",
         "options": [
-          { "text": "Die Zähne machen es klein. Der Speichel spaltet schon die erste Stärke.", "correct": true },
-          { "text": "Das Essen wird nur warm gemacht." },
-          { "text": "Der Magen holt das Essen dort ab." }
+          {
+            "text": "Die Zähne machen es klein. Der Speichel spaltet schon die erste Stärke.",
+            "correct": true
+          },
+          {
+            "text": "Der Speichel macht das Brot nur nass. Süß wird es davon nicht."
+          },
+          {
+            "text": "Der Magen schickt schon etwas Säure hoch in den Mund."
+          }
         ],
-        "explanation": "Im Mund beginnt die Verdauung. Die Zähne zerkleinern das Essen. Der Speichel fängt schon an, die Stärke zu spalten."
+        "explanation": "Im Mund beginnt die Verdauung. Die Zähne zerkleinern das Essen. Der Speichel enthält das Enzym Amylase. Ein Enzym ist ein kleiner Helfer, der Nährstoffe spaltet. Die Amylase spaltet Stärke in Zucker. Darum schmeckt Brot beim langen Kauen süß."
       }
     },
     {
@@ -34,9 +52,30 @@
       "data": {
         "prompt": "🧩 Enzyme sind kleine Helfer. Jedes spaltet einen anderen Nährstoff. Ordne zu.",
         "pairs": [
-          { "left": { "text": "Amylase" }, "right": { "text": "🍞 Stärke" } },
-          { "left": { "text": "Protease" }, "right": { "text": "🥩 Eiweiß" } },
-          { "left": { "text": "Lipase" }, "right": { "text": "🧈 Fett" } }
+          {
+            "left": {
+              "text": "Amylase"
+            },
+            "right": {
+              "text": "🍞 Stärke"
+            }
+          },
+          {
+            "left": {
+              "text": "Protease"
+            },
+            "right": {
+              "text": "🥩 Eiweiß"
+            }
+          },
+          {
+            "left": {
+              "text": "Lipase"
+            },
+            "right": {
+              "text": "🧈 Fett"
+            }
+          }
         ],
         "memory": false
       }
@@ -44,13 +83,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🫧 Fett und Wasser mögen sich nicht. Wer hilft, das Fett im Darm klein zu machen?",
+        "prompt": "🫧 Fett und Wasser mögen sich nicht. Im Darm muss das Fett trotzdem klein werden. Wer macht das?",
         "options": [
-          { "text": "Die Galle. Sie macht aus großem Fett viele kleine Tröpfchen.", "correct": true },
-          { "text": "Der Speichel aus dem Mund." },
-          { "text": "Die Zähne." }
+          {
+            "text": "Die Galle. Sie macht aus großem Fett viele kleine Tröpfchen.",
+            "correct": true
+          },
+          {
+            "text": "Die Magensäure. Sie löst das Fett ganz von allein auf."
+          },
+          {
+            "text": "Die Lipase. Sie macht die Fett-Tröpfchen erst klein und spaltet sie dann."
+          }
         ],
-        "explanation": "Die Galle kommt aus der Leber. Sie teilt das Fett in winzige Tröpfchen. So können die Enzyme das Fett besser spalten."
+        "explanation": "Die Galle kommt aus der Leber. Sie wird in der Gallenblase gespeichert. Sie teilt das große Fett in winzige Tröpfchen. Das nennt man emulgieren. Erst danach kann das Enzym Lipase das Fett spalten. Die Galle macht das Fett also klein, die Lipase zerlegt es."
       }
     },
     {
@@ -58,9 +104,15 @@
       "data": {
         "prompt": "🥩 So wird Eiweiß verdaut. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧪 Die Magensäure macht das Eiweiß weich." },
-          { "text": "✂️ Enzyme schneiden es in kurze Ketten." },
-          { "text": "🔗 Am Ende bleiben einzelne Bausteine übrig." }
+          {
+            "text": "🧪 Die Magensäure macht das Eiweiß weich."
+          },
+          {
+            "text": "✂️ Enzyme schneiden es in kurze Ketten."
+          },
+          {
+            "text": "🔗 Am Ende bleiben einzelne Bausteine übrig."
+          }
         ]
       }
     },
@@ -69,16 +121,42 @@
       "data": {
         "prompt": "🫃 Manche Organe sind der Weg für das Essen. Andere helfen nur mit. Sortiere sie.",
         "buckets": [
-          { "id": "schlauch", "label": "Weg für das Essen", "icon": "🫃" },
-          { "id": "helfer", "label": "Helfer-Organe", "icon": "🔧" }
+          {
+            "id": "schlauch",
+            "label": "Weg für das Essen",
+            "icon": "🫃"
+          },
+          {
+            "id": "helfer",
+            "label": "Helfer-Organe",
+            "icon": "🔧"
+          }
         ],
         "items": [
-          { "text": "Magen", "bucket": "schlauch" },
-          { "text": "Dünndarm", "bucket": "schlauch" },
-          { "text": "Dickdarm", "bucket": "schlauch" },
-          { "text": "Leber", "bucket": "helfer" },
-          { "text": "Gallenblase", "bucket": "helfer" },
-          { "text": "Bauchspeicheldrüse", "bucket": "helfer" }
+          {
+            "text": "Magen",
+            "bucket": "schlauch"
+          },
+          {
+            "text": "Dünndarm",
+            "bucket": "schlauch"
+          },
+          {
+            "text": "Dickdarm",
+            "bucket": "schlauch"
+          },
+          {
+            "text": "Leber",
+            "bucket": "helfer"
+          },
+          {
+            "text": "Gallenblase",
+            "bucket": "helfer"
+          },
+          {
+            "text": "Bauchspeicheldrüse",
+            "bucket": "helfer"
+          }
         ]
       }
     },
@@ -87,10 +165,18 @@
       "data": {
         "prompt": "🍞 So wird Stärke verdaut. Stärke gehört zu den Kohlenhydraten. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🍞 Enzyme spalten die große Stärke." },
-          { "text": "🧩 Es entstehen mittlere Bruchstücke." },
-          { "text": "🍬 Daraus wird Zweifach-Zucker." },
-          { "text": "🍯 Am Ende bleibt Einfach-Zucker übrig." }
+          {
+            "text": "🍞 Enzyme spalten die große Stärke."
+          },
+          {
+            "text": "🧩 Es entstehen mittlere Bruchstücke."
+          },
+          {
+            "text": "🍬 Daraus wird Zweifach-Zucker."
+          },
+          {
+            "text": "🍯 Am Ende bleibt Einfach-Zucker übrig."
+          }
         ]
       }
     },
@@ -99,35 +185,56 @@
       "data": {
         "prompt": "🩸 Die Nährstoffe sind jetzt ganz klein. Was passiert im Dünndarm mit ihnen?",
         "options": [
-          { "text": "Sie gehen durch die Darmwand ins Blut. Das Blut bringt sie zuerst zur Leber.", "correct": true },
-          { "text": "Sie bleiben für immer im Darm liegen." },
-          { "text": "Sie werden wieder zu großem Essen zusammengebaut." }
+          {
+            "text": "Sie gehen durch die Darmwand ins Blut. Das Blut bringt sie zuerst zur Leber.",
+            "correct": true
+          },
+          {
+            "text": "Sie gehen durch die Darmwand ins Blut. Von dort fließen sie sofort ins Herz."
+          },
+          {
+            "text": "Im Dünndarm kommt nur Wasser ins Blut. Die Nährstoffe wandern weiter zum Dickdarm."
+          }
         ],
-        "explanation": "Das nennt man Resorption. Die kleinen Nährstoffe gehen durch die Darmwand ins Blut. Von dort fließen sie zuerst zur Leber."
+        "explanation": "Das nennt man Resorption. Resorption heißt: aufnehmen. Die kleinen Nährstoffe gehen durch die Darmwand ins Blut. Das Blut fließt zuerst zur Leber. Dort wird es geprüft, bevor es zum Herz weitergeht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔋 Jede Zelle ist wie ein kleines Kraftwerk. Was braucht die Zelle, um Energie zu machen?",
+        "prompt": "🔋 Jede Zelle ist wie ein kleines Kraftwerk. Essen allein reicht nicht. Was braucht die Zelle noch, um Energie zu machen?",
         "options": [
-          { "text": "Nährstoffe und Sauerstoff. Dabei entstehen Energie, Wasser und Kohlendioxid.", "correct": true },
-          { "text": "Nur Wasser, sonst nichts." },
-          { "text": "Nur Licht, so wie eine Pflanze." }
+          {
+            "text": "Nährstoffe und Sauerstoff. Dabei entstehen Energie, Wasser und Kohlendioxid.",
+            "correct": true
+          },
+          {
+            "text": "Nur Nährstoffe. Sauerstoff braucht die Zelle dafür nicht."
+          },
+          {
+            "text": "Sauerstoff und Licht. Daraus baut die Zelle selbst Zucker."
+          }
         ],
-        "explanation": "Die Zelle verbrennt Nährstoffe mit Sauerstoff. So bekommt der Körper Energie. Übrig bleiben Wasser und Kohlendioxid. Alle diese Vorgänge zusammen heißen Stoffwechsel."
+        "explanation": "Die Zelle verbrennt Nährstoffe mit Sauerstoff. Das nennt man Zellatmung. So bekommt der Körper Energie. Übrig bleiben Wasser und Kohlendioxid. Das Kohlendioxid atmest du wieder aus. Alle diese Vorgänge zusammen heißen Stoffwechsel."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎉 Zum Schluss: Wo beginnt der Weg der Nahrung in deinem Körper?",
+        "prompt": "🎉 Zum Schluss: An welcher Station startet die Verdauung — schon bevor du schluckst?",
         "options": [
-          { "text": "Im Mund.", "correct": true },
-          { "text": "Im Dickdarm." },
-          { "text": "In der Leber." }
+          {
+            "text": "Im Mund. Dort machen die Zähne das Essen klein.",
+            "correct": true
+          },
+          {
+            "text": "Im Magen. Dort wird das Essen ja zerlegt."
+          },
+          {
+            "text": "In der Speiseröhre, gleich nach dem Schlucken."
+          }
         ],
-        "explanation": "Im Mund geht es los. Dort machen die Zähne das Essen klein. Dann geht die Reise weiter nach unten."
+        "explanation": "Im Mund geht es los. Dort machen die Zähne das Essen klein und der Speichel beginnt zu spalten. Erst danach rutscht das Essen durch die Speiseröhre nach unten in den Magen."
       }
     }
   ]

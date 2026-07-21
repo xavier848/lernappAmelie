@@ -2,18 +2,26 @@
   "topic_slug": "kinder-spielen",
   "slug": "kinder-spielen-vertiefung-1",
   "title": "Das richtige Spiel für jedes Alter",
+  "intro": "🧸 Spielzeug soll zum Alter eines Kindes passen. Auf jeder Spiele-Packung steht dafür eine Altersangabe. Sie zeigt dir: Für dieses Alter ist das Spiel sicher und passend. Bei Kindern unter 3 Jahren musst du auf kleine Teile achten. Kleine Kinder stecken sie in den Mund und können sie verschlucken. Diese Gefahr nennt man Erstickungsgefahr. Ein zu schweres Spiel überfordert das Kind. Ein zu leichtes Spiel langweilt das Kind. Ein gutes Spiel liegt dazwischen und fordert das Kind ein kleines bisschen heraus. Kaputtes Spielzeug mit scharfen Kanten räumst du sofort weg und sagst Bescheid.",
   "sort": 3,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔎 Auf jeder Spiele-Packung steht eine Altersangabe. Wofür ist sie da?",
+        "prompt": "🔎 Auf jeder Spiele-Packung steht eine Altersangabe. Was bedeutet sie?",
         "options": [
-          { "text": "✅ Sie zeigt: Für dieses Alter ist das Spiel passend und sicher.", "correct": true },
-          { "text": "🎨 Sie ist nur Dekoration." },
-          { "text": "💶 Sie zeigt den Preis an." }
+          {
+            "text": "✅ Sie zeigt: Für dieses Alter ist das Spiel passend und sicher.",
+            "correct": true
+          },
+          {
+            "text": "⏱️ Sie sagt, wie lange eine Spielrunde dauert."
+          },
+          {
+            "text": "👥 Sie sagt, wie viele Kinder mitspielen dürfen."
+          }
         ],
-        "explanation": "Die Altersangabe hilft dir bei der Auswahl. Sie zeigt: Für dieses Alter ist das Spiel sicher und nicht zu schwer."
+        "explanation": "Die Altersangabe (auch Altersempfehlung genannt) hilft dir bei der Auswahl. Sie zeigt: Für dieses Alter ist das Spiel sicher und nicht zu schwer."
       }
     },
     {
@@ -21,11 +29,18 @@
       "data": {
         "prompt": "⚠️ Auf einem Spielzeug steht: Nicht für Kinder unter 3 Jahren. Warum?",
         "options": [
-          { "text": "😮 Kleine Teile können verschluckt werden. Das ist gefährlich.", "correct": true },
-          { "text": "😢 Kleine Kinder finden es langweilig." },
-          { "text": "💶 Es ist zu teuer für kleine Kinder." }
+          {
+            "text": "😮 Kleine Teile können verschluckt werden. Das ist gefährlich.",
+            "correct": true
+          },
+          {
+            "text": "🧠 Kleine Kinder verstehen die Spielregeln noch nicht."
+          },
+          {
+            "text": "💪 Kleine Kinder sind noch nicht kräftig genug dafür."
+          }
         ],
-        "explanation": "Kleine Kinder stecken vieles in den Mund. Kleine Teile können verschluckt werden. Darum gilt: Unter 3 Jahren keine kleinen Teile!"
+        "explanation": "Kleine Kinder stecken vieles in den Mund. Kleine Teile können verschluckt werden. Das nennt man Erstickungsgefahr. Darum gilt: Unter 3 Jahren keine kleinen Teile!"
       }
     },
     {
@@ -33,17 +48,47 @@
       "data": {
         "prompt": "🧸 Welches Spielzeug passt zu welchem Alter? Sortiere.",
         "buckets": [
-          { "id": "baby", "label": "Baby (0–1 Jahr)", "icon": "👶" },
-          { "id": "kleinkind", "label": "Kleinkind (1–3 Jahre)", "icon": "🧒" },
-          { "id": "kiga", "label": "Ab 3 Jahren", "icon": "🎒" }
+          {
+            "id": "baby",
+            "label": "Baby (0–1 Jahr)",
+            "icon": "👶"
+          },
+          {
+            "id": "kleinkind",
+            "label": "Kleinkind (1–3 Jahre)",
+            "icon": "🧒"
+          },
+          {
+            "id": "kiga",
+            "label": "Ab 3 Jahren",
+            "icon": "🎒"
+          }
         ],
         "items": [
-          { "text": "🪇 Rassel", "bucket": "baby" },
-          { "text": "🦷 Beißring", "bucket": "baby" },
-          { "text": "🥤 Stapelbecher", "bucket": "kleinkind" },
-          { "text": "🐴 Schaukelpferd", "bucket": "kleinkind" },
-          { "text": "🃏 Memory mit vielen Karten", "bucket": "kiga" },
-          { "text": "🎲 Brettspiel mit Regeln", "bucket": "kiga" }
+          {
+            "text": "🪇 Rassel",
+            "bucket": "baby"
+          },
+          {
+            "text": "🦷 Beißring",
+            "bucket": "baby"
+          },
+          {
+            "text": "🥤 Stapelbecher",
+            "bucket": "kleinkind"
+          },
+          {
+            "text": "🐴 Schaukelpferd",
+            "bucket": "kleinkind"
+          },
+          {
+            "text": "🃏 Memory mit vielen Karten",
+            "bucket": "kiga"
+          },
+          {
+            "text": "🎲 Brettspiel mit Regeln",
+            "bucket": "kiga"
+          }
         ]
       }
     },
@@ -52,11 +97,18 @@
       "data": {
         "prompt": "🧩 Ein 1-jähriges Kind bekommt ein Puzzle mit 100 kleinen Teilen. Passt das?",
         "options": [
-          { "text": "🚫 Nein. Die Teile sind zu klein und das Puzzle ist viel zu schwer.", "correct": true },
-          { "text": "✅ Ja, das passt perfekt." },
-          { "text": "🤷 Das ist egal." }
+          {
+            "text": "🚫 Nein. Die Teile sind zu klein und das Puzzle ist viel zu schwer.",
+            "correct": true
+          },
+          {
+            "text": "✅ Ja, denn viele Teile fördern die Feinmotorik besonders gut."
+          },
+          {
+            "text": "🤏 Ja, wenn ein Erwachsener daneben sitzt und aufpasst."
+          }
         ],
-        "explanation": "Kleine Teile sind für ein 1-jähriges Kind gefährlich. Und 100 Teile sind viel zu schwer. Besser: ein Holzpuzzle mit wenigen großen Teilen."
+        "explanation": "Kleine Teile sind für ein 1-jähriges Kind gefährlich (Erstickungsgefahr). Und 100 Teile überfordern das Kind, das ist viel zu schwer. Besser: ein Holzpuzzle mit wenigen großen Teilen."
       }
     },
     {
@@ -64,10 +116,38 @@
       "data": {
         "prompt": "🎯 Welches Spiel passt zu welchem Alter? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "👶 Baby" }, "right": { "text": "Kuckuck spielen" } },
-          { "left": { "text": "🧒 2 Jahre" }, "right": { "text": "Bauklötze stapeln" } },
-          { "left": { "text": "🎈 4 Jahre" }, "right": { "text": "Einfaches Brettspiel" } },
-          { "left": { "text": "🎒 6 Jahre" }, "right": { "text": "Spiel mit schwierigen Regeln" } }
+          {
+            "left": {
+              "text": "👶 Baby"
+            },
+            "right": {
+              "text": "Kuckuck spielen"
+            }
+          },
+          {
+            "left": {
+              "text": "🧒 2 Jahre"
+            },
+            "right": {
+              "text": "Bauklötze stapeln"
+            }
+          },
+          {
+            "left": {
+              "text": "🎈 4 Jahre"
+            },
+            "right": {
+              "text": "Einfaches Brettspiel"
+            }
+          },
+          {
+            "left": {
+              "text": "🎒 6 Jahre"
+            },
+            "right": {
+              "text": "Spiel mit schwierigen Regeln"
+            }
+          }
         ],
         "memory": false
       }
@@ -77,11 +157,18 @@
       "data": {
         "prompt": "😤 Woran merkst du: Das Spiel ist zu schwer für das Kind?",
         "options": [
-          { "text": "😖 Das Kind schafft nichts und gibt frustriert auf.", "correct": true },
-          { "text": "😄 Das Kind lacht die ganze Zeit." },
-          { "text": "🏆 Das Kind gewinnt jede Runde." }
+          {
+            "text": "😖 Das Kind schafft nichts und gibt frustriert auf.",
+            "correct": true
+          },
+          {
+            "text": "🏆 Das Kind gewinnt jede Runde ganz leicht."
+          },
+          {
+            "text": "🔁 Das Kind will das Spiel immer wieder spielen."
+          }
         ],
-        "explanation": "Wenn nichts klappt, wird das Kind frustriert und hört auf. Dann ist das Spiel zu schwer. Wähle ein leichteres Spiel. Erfolg macht Lust auf mehr."
+        "explanation": "Wenn nichts klappt, wird das Kind frustriert und hört auf. Das nennt man Überforderung. Dann ist das Spiel zu schwer. Wähle ein leichteres Spiel. Erfolg macht Lust auf mehr."
       }
     },
     {
@@ -89,11 +176,18 @@
       "data": {
         "prompt": "🥱 Ein Kind langweilt sich bei einem Spiel sofort. Was kann der Grund sein?",
         "options": [
-          { "text": "😴 Das Spiel ist zu leicht für das Kind.", "correct": true },
-          { "text": "🌧️ Das Wetter ist schlecht." },
-          { "text": "👟 Die Schuhe sind zu klein." }
+          {
+            "text": "😴 Das Spiel ist zu leicht für das Kind.",
+            "correct": true
+          },
+          {
+            "text": "😖 Das Spiel ist viel zu schwer für das Kind."
+          },
+          {
+            "text": "🎨 Dem Kind gefallen die Farben des Spiels nicht."
+          }
         ],
-        "explanation": "Ist ein Spiel zu leicht, wird es schnell langweilig. Das beste Spiel ist nicht zu leicht und nicht zu schwer. Es fordert das Kind ein kleines bisschen heraus."
+        "explanation": "Ist ein Spiel zu leicht, wird es schnell langweilig. Das nennt man Unterforderung. Das beste Spiel ist nicht zu leicht und nicht zu schwer. Es fordert das Kind ein kleines bisschen heraus."
       }
     },
     {
@@ -101,11 +195,21 @@
       "data": {
         "prompt": "🎁 Du probierst ein neues Spiel mit einem Kind aus. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🔎 Auf die Altersangabe schauen." },
-          { "text": "📦 Das Spiel zusammen auspacken und anschauen." },
-          { "text": "🗣️ Die Regeln einfach erklären." },
-          { "text": "🧪 Eine Proberunde spielen." },
-          { "text": "🎉 Richtig losspielen." }
+          {
+            "text": "🔎 Auf die Altersangabe schauen."
+          },
+          {
+            "text": "📦 Das Spiel zusammen auspacken und anschauen."
+          },
+          {
+            "text": "🗣️ Die Regeln einfach erklären."
+          },
+          {
+            "text": "🧪 Eine Proberunde spielen."
+          },
+          {
+            "text": "🎉 Richtig losspielen."
+          }
         ]
       }
     },
@@ -114,9 +218,16 @@
       "data": {
         "prompt": "🚨 Du entdeckst ein kaputtes Spielzeug mit einer scharfen Kante. Was machst du?",
         "options": [
-          { "text": "📤 Ich räume es sofort weg und sage Bescheid.", "correct": true },
-          { "text": "🤷 Ich lasse es liegen." },
-          { "text": "🎁 Ich gebe es einem Kind zum Spielen." }
+          {
+            "text": "📤 Ich räume es sofort weg und sage Bescheid.",
+            "correct": true
+          },
+          {
+            "text": "🩹 Ich klebe die Kante schnell mit Tesafilm ab und spiele weiter."
+          },
+          {
+            "text": "⏳ Ich lasse es liegen und sage es später, wenn ich Zeit habe."
+          }
         ],
         "explanation": "Kaputtes Spielzeug mit scharfen Kanten kann Kinder verletzen. Räume es sofort weg. Und sage deiner Chefin oder den Eltern Bescheid."
       }
@@ -124,13 +235,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Für wen ist eine Babyrassel?",
+        "prompt": "🌟 Letzte Frage: Für welches Kind passt eine Rassel am besten?",
         "options": [
-          { "text": "👶 Für ein Baby.", "correct": true },
-          { "text": "👵 Für die Oma." },
-          { "text": "🐕 Für den Hund." }
+          {
+            "text": "👶 Für ein Baby.",
+            "correct": true
+          },
+          {
+            "text": "🧒 Für ein 5-jähriges Kind."
+          },
+          {
+            "text": "🎒 Für ein Schulkind."
+          }
         ],
-        "explanation": "Die Rassel ist für Babys. Sie können sie gut greifen und sie macht spannende Geräusche."
+        "explanation": "Die Rassel ist für Babys. Sie können sie gut greifen und sie macht spannende Geräusche. Für größere Kinder ist sie langweilig, sie brauchen ein Spiel, das mehr fordert."
       }
     }
   ]

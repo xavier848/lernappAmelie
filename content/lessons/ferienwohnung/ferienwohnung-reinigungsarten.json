@@ -10,10 +10,10 @@
         "prompt": "🧽 Auf dem Tisch ist ein frischer Fleck. Wann entfernst du ihn am besten?",
         "options": [
           { "text": "Sofort. Frischer Schmutz geht am leichtesten weg.", "correct": true },
-          { "text": "Nächste Woche. Dann lohnt es sich mehr." },
-          { "text": "Erst, wenn Gäste kommen." }
+          { "text": "Später, wenn er getrocknet ist. Dann sieht man ihn besser." },
+          { "text": "Am Abend zusammen mit dem Rest. Auf einmal ist es weniger Arbeit." }
         ],
-        "explanation": "Je früher du Schmutz entfernst, desto leichter geht es. Alter Schmutz trocknet ein und haftet fest. Dann brauchst du viel mehr Kraft und Zeit."
+        "explanation": "Frischen Schmutz entfernst du sofort. Alter Schmutz trocknet ein und haftet fest. Dann brauchst du viel mehr Kraft und Zeit. Warten macht die Arbeit also größer, nicht kleiner."
       }
     },
     {
@@ -37,13 +37,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👀 Was ist eine Sichtreinigung?",
+        "prompt": "👀 Der Gast kommt in 5 Minuten. Du machst schnell eine Sichtreinigung. Was heißt das genau?",
         "options": [
           { "text": "Eine schnelle Reinigung: Nur der sichtbare Schmutz kommt weg.", "correct": true },
-          { "text": "Eine sehr gründliche Reinigung mit allen Schränken." },
-          { "text": "Nur aus dem Fenster schauen." }
+          { "text": "Eine gründliche Reinigung, bei der du auch die Schränke innen auswischst." },
+          { "text": "Eine regelmäßige Reinigung, bei der du den Boden saugst und das Bett frisch beziehst." }
         ],
-        "explanation": "Bei der Sichtreinigung machst du nur das weg, was man sieht. Zum Beispiel: lüften, Papierkorb leeren, Krümel wegwischen. Das geht schnell und passiert meist jeden Tag."
+        "explanation": "Bei der Sichtreinigung machst du nur das weg, was man sieht. Zum Beispiel: lüften, Papierkorb leeren, Krümel wegwischen. Das geht schnell. Schränke auswischen gehört zur Grundreinigung, Boden saugen zur Unterhaltsreinigung."
       }
     },
     {
@@ -85,10 +85,10 @@
         "prompt": "🪣 Wie oft macht man zu Hause eine Grundreinigung?",
         "options": [
           { "text": "Selten: etwa 1 bis 2 Mal im Jahr.", "correct": true },
-          { "text": "Jeden Tag." },
-          { "text": "Nie." }
+          { "text": "Jede Woche einmal, beim großen Putztag." },
+          { "text": "Jeden Monat, immer am Monatsanfang." }
         ],
-        "explanation": "Die Grundreinigung ist die gründlichste Reinigung. Sie braucht viel Zeit, darum macht man sie zu Hause nur 1 bis 2 Mal im Jahr. In großen Häusern wie Hotels öfter."
+        "explanation": "Die Grundreinigung ist die gründlichste Reinigung. Sie braucht viel Zeit, darum macht man sie zu Hause nur 1 bis 2 Mal im Jahr. Das wöchentliche Putzen ist die Unterhaltsreinigung. In großen Häusern wie Hotels wird öfter grundgereinigt."
       }
     },
     {
@@ -97,10 +97,10 @@
         "prompt": "🧼 Wozu gibt es die Zwischenreinigung?",
         "options": [
           { "text": "Sie ist extra gründlich, damit die teure Grundreinigung später kommen kann.", "correct": true },
-          { "text": "Sie ist eine Pause zwischen zwei Arbeiten." },
-          { "text": "Man putzt dabei nur die Fenster." }
+          { "text": "Sie ersetzt die Grundreinigung ganz, dann muss man nie mehr grundreinigen." },
+          { "text": "Sie ist ein schnelles Drüberwischen nur über den sichtbaren Schmutz." }
         ],
-        "explanation": "Die Grundreinigung kostet viel Zeit und Geld. Eine gründliche Zwischenreinigung hält alles länger schön. So muss die Grundreinigung nicht so oft sein."
+        "explanation": "Die Grundreinigung kostet viel Zeit und Geld. Eine gründliche Zwischenreinigung hält alles länger schön. So muss die Grundreinigung nicht so oft sein. Sie ersetzt die Grundreinigung aber nicht, sie schiebt sie nur auf. Nur den sichtbaren Schmutz wegwischen wäre eine Sichtreinigung."
       }
     },
     {

@@ -2,6 +2,7 @@
   "topic_slug": "kinder-sinne",
   "slug": "kinder-sinne-training",
   "title": "Training: Sinne",
+  "intro": "👀 Mit den fünf Sinnen nehmen wir unsere Umwelt wahr: Sehen, Hören, Riechen, Schmecken und Tasten. Jeder Sinn hat ein eigenes Organ: Augen, Ohren, Nase, Zunge und Haut. Der Tastsinn sitzt in der Haut und fühlt, ob etwas weich, hart oder kühl ist. Auf der Zunge schmecken wir süß, sauer, salzig und bitter. Dazu kommt der Gleichgewichtssinn. Er sitzt im Innenohr und meldet dem Körper jede Bewegung. Kinder üben ihre Sinne beim Spielen. Manchmal schließen sie dabei die Augen. Ohne Sehen können sie sich besser auf einen Sinn konzentrieren. Dann fühlen und hören sie genauer.",
   "sort": 2,
   "exercises": [
     {
@@ -9,36 +10,60 @@
       "data": {
         "prompt": "🦶 Ihr baut einen Barfuß-Pfad. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧺 Sand, Steine und Moos sammeln." },
-          { "text": "📦 Alles in flache Kisten füllen." },
-          { "text": "➡️ Die Kisten in eine Reihe stellen." },
-          { "text": "🧦 Das Kind zieht Schuhe und Socken aus." },
-          { "text": "🚶 Das Kind geht langsam über den Pfad." }
+          {
+            "text": "🧺 Sand, Steine und Moos sammeln."
+          },
+          {
+            "text": "📦 Alles in flache Kisten füllen."
+          },
+          {
+            "text": "➡️ Die Kisten in eine Reihe stellen."
+          },
+          {
+            "text": "🧦 Das Kind zieht Schuhe und Socken aus."
+          },
+          {
+            "text": "🚶 Das Kind geht langsam über den Pfad."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🦶 Das Kind geht über den Barfuß-Pfad. Welchen Sinn übt es?",
+        "prompt": "🦶 Das Kind geht barfuß über Sand, Steine und Moos. Welchen Sinn übt es dabei vor allem?",
         "options": [
-          { "text": "🖐️ Das Tasten. Die Füße fühlen den Boden.", "correct": true },
-          { "text": "👅 Das Schmecken." },
-          { "text": "👂 Das Hören." }
+          {
+            "text": "🖐️ Das Tasten. Die Füße fühlen den Boden.",
+            "correct": true
+          },
+          {
+            "text": "🤸 Das Gleichgewicht."
+          },
+          {
+            "text": "👀 Das Sehen."
+          }
         ],
-        "explanation": "Die Fußsohlen fühlen den Boden: weich, hart, kühl. Das übt das Tasten."
+        "explanation": "Die Fußsohlen fühlen den Boden: weich, hart, kühl. Das übt den Tastsinn. Der Tastsinn sitzt in der Haut."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛝 Ein Kind schaukelt auf der Schaukel. Was übt es dabei?",
+        "prompt": "🛝 Ein Kind schaukelt hin und her. Welchen Sinn übt es dabei vor allem?",
         "options": [
-          { "text": "🤸 Das Gleichgewicht.", "correct": true },
-          { "text": "👃 Das Riechen." },
-          { "text": "👅 Das Schmecken." }
+          {
+            "text": "🤸 Das Gleichgewicht.",
+            "correct": true
+          },
+          {
+            "text": "🖐️ Das Tasten — die Hände halten sich fest."
+          },
+          {
+            "text": "👀 Das Sehen."
+          }
         ],
-        "explanation": "Beim Schaukeln spürt der Körper die Bewegung. Das übt das Gleichgewicht."
+        "explanation": "Beim Schaukeln spürt der Körper die Bewegung. Das übt den Gleichgewichtssinn. Er sitzt im Innenohr."
       }
     },
     {
@@ -46,17 +71,47 @@
       "data": {
         "prompt": "🧺 Welcher Sinn passt? Sortiere die Spiele.",
         "buckets": [
-          { "id": "sehen", "label": "Sehen", "icon": "👀" },
-          { "id": "riechen", "label": "Riechen", "icon": "👃" },
-          { "id": "hoeren", "label": "Hören", "icon": "👂" }
+          {
+            "id": "sehen",
+            "label": "Sehen",
+            "icon": "👀"
+          },
+          {
+            "id": "riechen",
+            "label": "Riechen",
+            "icon": "👃"
+          },
+          {
+            "id": "hoeren",
+            "label": "Hören",
+            "icon": "👂"
+          }
         ],
         "items": [
-          { "text": "🔍 Ein Wimmelbuch anschauen", "bucket": "sehen" },
-          { "text": "🦋 Einen Schmetterling beobachten", "bucket": "sehen" },
-          { "text": "🌹 An einer Blume riechen", "bucket": "riechen" },
-          { "text": "🍞 Frisches Brot riechen", "bucket": "riechen" },
-          { "text": "🥁 Auf der Trommel spielen", "bucket": "hoeren" },
-          { "text": "🌧️ Dem Regen zuhören", "bucket": "hoeren" }
+          {
+            "text": "🔍 Ein Wimmelbuch anschauen",
+            "bucket": "sehen"
+          },
+          {
+            "text": "🦋 Einen Schmetterling beobachten",
+            "bucket": "sehen"
+          },
+          {
+            "text": "🌹 An einer Blume riechen",
+            "bucket": "riechen"
+          },
+          {
+            "text": "🍞 Frisches Brot riechen",
+            "bucket": "riechen"
+          },
+          {
+            "text": "🥁 Auf der Trommel spielen",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "🌧️ Dem Regen zuhören",
+            "bucket": "hoeren"
+          }
         ]
       }
     },
@@ -65,10 +120,38 @@
       "data": {
         "prompt": "🃏 Memory: Wie schmeckt das? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🍯 Honig" }, "right": { "text": "Süß" } },
-          { "left": { "text": "🥒 Essig-Gurke" }, "right": { "text": "Sauer" } },
-          { "left": { "text": "🍟 Pommes" }, "right": { "text": "Salzig" } },
-          { "left": { "text": "☕ Kaffee" }, "right": { "text": "Bitter" } }
+          {
+            "left": {
+              "text": "🍯 Honig"
+            },
+            "right": {
+              "text": "Süß"
+            }
+          },
+          {
+            "left": {
+              "text": "🥒 Essig-Gurke"
+            },
+            "right": {
+              "text": "Sauer"
+            }
+          },
+          {
+            "left": {
+              "text": "🍟 Pommes"
+            },
+            "right": {
+              "text": "Salzig"
+            }
+          },
+          {
+            "left": {
+              "text": "☕ Kaffee"
+            },
+            "right": {
+              "text": "Bitter"
+            }
+          }
         ],
         "memory": true
       }
@@ -78,23 +161,37 @@
       "data": {
         "prompt": "🤫 Stille-Spiel: Alle Kinder schließen die Augen und lauschen. Welchen Sinn üben sie?",
         "options": [
-          { "text": "👂 Das Hören.", "correct": true },
-          { "text": "👅 Das Schmecken." },
-          { "text": "🖐️ Das Tasten." }
+          {
+            "text": "👂 Das Hören.",
+            "correct": true
+          },
+          {
+            "text": "👃 Das Riechen."
+          },
+          {
+            "text": "🧘 Das Gleichgewicht."
+          }
         ],
-        "explanation": "Beim Lauschen üben die Kinder das Hören. Vielleicht hören sie eine Uhr. Oder Autos draußen."
+        "explanation": "Beim Lauschen üben die Kinder den Hörsinn. Vielleicht hören sie eine Uhr ticken. Oder Autos draußen. Der Hörsinn arbeitet mit den Ohren."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🙈 Beim Fühl-Spiel macht das Kind die Augen zu. Warum?",
+        "prompt": "🙈 Beim Fühl-Spiel macht das Kind die Augen zu und greift in einen Sack. Warum hilft das?",
         "options": [
-          { "text": "🖐️ Ohne Sehen fühlt die Hand viel genauer.", "correct": true },
-          { "text": "😴 Damit das Kind einschlafen kann." },
-          { "text": "🙃 Das hilft gar nicht." }
+          {
+            "text": "🖐️ Ohne Sehen fühlt die Hand viel genauer.",
+            "correct": true
+          },
+          {
+            "text": "😴 Damit die Augen sich ausruhen können."
+          },
+          {
+            "text": "🎲 Nur damit es schwerer wird — mit offenen Augen fühlt man genauso gut."
+          }
         ],
-        "explanation": "Ohne die Augen konzentriert sich das Kind auf das Fühlen. So wird das Tasten stärker."
+        "explanation": "Ohne die Augen richtet das Kind alle Aufmerksamkeit auf das Fühlen. So arbeitet der Tastsinn genauer. Das nennt man Konzentration."
       }
     },
     {
@@ -102,23 +199,37 @@
       "data": {
         "prompt": "🕺 Stopp-Tanz: Die Kinder tanzen. Stoppt die Musik, bleiben alle stehen. Was üben die Kinder besonders?",
         "options": [
-          { "text": "👂 Genau hinhören.", "correct": true },
-          { "text": "👃 Gut riechen." },
-          { "text": "👅 Gut schmecken." }
+          {
+            "text": "👂 Genau hinhören.",
+            "correct": true
+          },
+          {
+            "text": "🤸 Das Gleichgewicht — beim Stopp nicht umfallen."
+          },
+          {
+            "text": "👀 Auf die anderen Kinder schauen."
+          }
         ],
-        "explanation": "Die Kinder hören genau hin: Läuft die Musik noch? Stopp-Tanz übt das Hören. Und er macht Spaß!"
+        "explanation": "Die Kinder hören genau hin: Läuft die Musik noch? Stopp-Tanz übt den Hörsinn. Und er macht Spaß!"
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Du streichelst eine Katze 🐱. Wie fühlt sich das Fell an?",
+        "prompt": "🌟 Zum Schluss: Du streichelst eine Katze 🐱. Wie fühlt sich ihr Fell an?",
         "options": [
-          { "text": "🪶 Weich.", "correct": true },
-          { "text": "🧱 Hart wie Stein." },
-          { "text": "💦 Nass wie Wasser." }
+          {
+            "text": "🪶 Weich.",
+            "correct": true
+          },
+          {
+            "text": "🧽 Rau wie Sandpapier."
+          },
+          {
+            "text": "🥶 Kalt wie Eis."
+          }
         ],
-        "explanation": "Das Fell ist weich. Deine Haut fühlt das beim Streicheln."
+        "explanation": "Das Fell ist weich. Deine Haut fühlt das beim Streicheln. Dafür sorgt der Tastsinn."
       }
     }
   ]

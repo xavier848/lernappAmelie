@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍅 Auf deinem T-Shirt ist ein Tomaten-Fleck. Was machst du?",
+        "prompt": "🍅 Auf deinem T-Shirt ist ein frischer Tomaten-Fleck. Was ist am besten?",
         "options": [
           { "text": "Ich wasche es bald. Alte Flecken gehen schwer raus.", "correct": true },
-          { "text": "Ich lege es mit Fleck in den Schrank." },
-          { "text": "Ich schneide das Stück mit dem Fleck heraus." }
+          { "text": "Ich lasse den Fleck erst gut eintrocknen. Trocken geht er besser raus." },
+          { "text": "Ich reibe fest mit einem trockenen Tuch über den Fleck." }
         ],
-        "explanation": "Frische Flecken gehen leichter raus. Warte nicht zu lange mit dem Waschen."
+        "explanation": "Ein frischer Fleck ist noch nicht eingetrocknet. Darum geht er leichter raus. Reiben verteilt den Fleck oft nur mehr."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Wie viel Waschmittel füllst du ein?",
+        "prompt": "🧴 Wie viel Waschmittel ist richtig?",
         "options": [
           { "text": "So viel, wie auf der Packung steht.", "correct": true },
-          { "text": "Die ganze Flasche auf einmal." },
-          { "text": "Gar keins. Wasser reicht." }
+          { "text": "Lieber etwas mehr. Dann wird die Wäsche sauberer." },
+          { "text": "Immer gleich viel, egal wie voll die Maschine ist." }
         ],
-        "explanation": "Auf der Packung steht die richtige Menge. Zu viel schäumt. Zu wenig wäscht nicht sauber."
+        "explanation": "Die richtige Menge nennt man Dosierung. Sie steht auf der Packung. Mehr macht nicht sauberer. Es bleiben nur Reste in der Wäsche."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌀 Die Trommel ist schon ganz voll gestopft. Passt noch mehr hinein?",
+        "prompt": "🌀 Die Trommel ist schon voll gestopft. Noch ein Handtuch liegt daneben. Passt es noch dazu?",
         "options": [
           { "text": "Nein. In einer zu vollen Maschine wird die Wäsche nicht sauber.", "correct": true },
-          { "text": "Ja, ich drücke einfach fest nach." },
-          { "text": "Ja, ich stopfe mit dem Fuß nach." }
+          { "text": "Ja, ein bisschen mehr geht immer noch rein." },
+          { "text": "Ja, so spare ich Strom und Wasser für einen zweiten Durchgang." }
         ],
-        "explanation": "Die Wäsche braucht Platz in der Trommel. Sonst wird sie nicht richtig sauber."
+        "explanation": "Die Wäsche muss sich in der Trommel bewegen können. Nur so kommt sie überall mit Wasser und Waschmittel in Kontakt. Faustregel: eine Hand soll über der Wäsche noch Platz haben."
       }
     },
     {
@@ -59,22 +59,22 @@
         "prompt": "💨 Warum schüttelst du jedes Teil vor dem Aufhängen aus?",
         "options": [
           { "text": "So gibt es weniger Falten.", "correct": true },
-          { "text": "Damit es wieder nass wird." },
-          { "text": "Nur zum Spaß." }
+          { "text": "Damit sich die Farben in der Wäsche nicht vermischen." },
+          { "text": "Damit die Wäsche nach dem Trocknen weicher wird." }
         ],
-        "explanation": "Ausschütteln glättet die Wäsche. Später musst du weniger bügeln."
+        "explanation": "Ausschütteln glättet die Wäsche. Glatte Wäsche trocknet mit weniger Falten. So musst du später weniger bügeln."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚪 Die Wäsche ist aus der Maschine. Was machst du mit der Maschinen-Tür?",
+        "prompt": "🚪 Die Wäsche ist aus der Maschine. Was ist das Beste für die Maschinen-Tür?",
         "options": [
           { "text": "Ich lasse sie offen stehen.", "correct": true },
-          { "text": "Ich mache sie sofort fest zu." },
-          { "text": "Ich hänge ein Handtuch hinein." }
+          { "text": "Ich mache sie sofort zu, damit kein Staub in die Trommel kommt." },
+          { "text": "Ich schließe sie, sobald die Trommel innen trocken aussieht." }
         ],
-        "explanation": "Offen kann die Maschine innen trocknen. So riecht sie nicht schlecht."
+        "explanation": "Bleibt die Tür offen, kann die Feuchtigkeit aus der Trommel entweichen. Bei geschlossener Tür bleibt es feucht, und die Maschine riecht schnell muffig. Auch die Gummi-Dichtung am Rand soll trocknen."
       }
     },
     {
@@ -122,9 +122,10 @@
         "prompt": "🧦 Zwei gleiche Socken sind trocken. Was machst du?",
         "options": [
           { "text": "Ich lege sie als Paar zusammen.", "correct": true },
-          { "text": "Ich werfe eine davon weg." }
+          { "text": "Ich rolle jede Socke einzeln und lege sie getrennt ab." },
+          { "text": "Ich hänge jede Socke einzeln zurück in den Schrank." }
         ],
-        "explanation": "Gleiche Socken werden ein Paar."
+        "explanation": "Gleiche Socken werden ein Paar. Als Paar findest du beide Socken schnell wieder. Einzelne Socken gehen leicht verloren."
       }
     }
   ]

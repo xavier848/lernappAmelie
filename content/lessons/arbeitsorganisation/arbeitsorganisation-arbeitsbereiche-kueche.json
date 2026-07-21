@@ -10,8 +10,8 @@
         "prompt": "🍳 Eine Küche ist in Arbeitsbereiche eingeteilt. Wie viele Hauptbereiche gibt es?",
         "options": [
           { "text": "Vier Bereiche.", "correct": true },
-          { "text": "Zwei Bereiche." },
-          { "text": "Sechs Bereiche." }
+          { "text": "Drei Bereiche." },
+          { "text": "Fünf Bereiche." }
         ],
         "explanation": "Die Küche hat vier Bereiche: den Vorbereitungsbereich, den Vorratsbereich, den Kochbereich und den Spülbereich. Jeder Bereich hat eine eigene Aufgabe."
       }
@@ -51,25 +51,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❄️ Du hast eine Süßspeise gekocht. Wo stellst du sie kalt?",
+        "prompt": "❄️ Du hast eine Süßspeise gekocht. Sie muss jetzt kalt werden. Wo stellst du sie hin?",
         "options": [
           { "text": "Im Vorratsbereich, in den Kühlschrank.", "correct": true },
-          { "text": "Im Kochbereich, auf den Herd." },
-          { "text": "Im Spülbereich, in die Spüle." }
+          { "text": "Im Vorbereitungsbereich, auf den Arbeitstisch." },
+          { "text": "Im Spülbereich, neben die Spüle." }
         ],
-        "explanation": "Zum Vorratsbereich gehören der Kühlschrank und der Vorratsschrank. Hier lagerst du Lebensmittel und stellst Speisen kalt."
+        "explanation": "Zum Vorratsbereich gehören der Kühlschrank und der Vorratsschrank. Hier lagerst du Lebensmittel und stellst Speisen kalt. Nur im Kühlschrank wird die Speise wirklich kalt. Auf dem Arbeitstisch bleibt sie warm."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚰 In welchem Bereich wäschst du das Gemüse?",
+        "prompt": "🚰 Du willst frisches Gemüse abwaschen. In welchem Bereich machst du das?",
         "options": [
           { "text": "Im Spülbereich.", "correct": true },
-          { "text": "Im Kochbereich." },
-          { "text": "Im Vorratsbereich." }
+          { "text": "Im Vorbereitungsbereich." },
+          { "text": "Im Kochbereich." }
         ],
-        "explanation": "Zum Spülbereich gehören die Spüle und die Flächen daneben. Hier wäschst du Lebensmittel und spülst Geschirr."
+        "explanation": "Zum Spülbereich gehören die Spüle und die Flächen daneben. Hier wäschst du Lebensmittel und spülst Geschirr. Erst danach schneidest du das Gemüse im Vorbereitungsbereich."
       }
     },
     {
@@ -88,7 +88,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪑 In welchem Bereich kannst du auch im Sitzen arbeiten?",
+        "prompt": "🪑 Amelie muss lange Zwiebeln schneiden. Sie möchte sich dabei hinsetzen. In welchem Bereich geht das?",
         "options": [
           { "text": "Im Vorbereitungsbereich.", "correct": true },
           { "text": "Im Kochbereich." },
@@ -100,13 +100,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Der Herd steht in welchem Bereich?",
+        "prompt": "✅ Du willst Wasser für Nudeln zum Kochen bringen. In welchem Bereich arbeitest du?",
         "options": [
           { "text": "Im Kochbereich.", "correct": true },
           { "text": "Im Vorratsbereich." },
           { "text": "Im Spülbereich." }
         ],
-        "explanation": "Zum Kochbereich gehören der Herd und die Abstellflächen daneben. Hier wird gekocht und gebraten."
+        "explanation": "Zum Kochbereich gehören der Herd und die Abstellflächen daneben. Hier wird gekocht und gebraten. Am Herd bringst du das Wasser zum Kochen."
       }
     }
   ]

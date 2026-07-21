@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍝 Auf den Tellern sind noch Essensreste. Was machst du vor dem Einräumen?",
+        "prompt": "🍝 Auf den Tellern kleben noch Nudeln und Soße. Was machst du, bevor du sie einräumst?",
         "options": [
           { "text": "Ich kratze die Reste in den Müll.", "correct": true },
-          { "text": "Ich räume die Teller mit den Resten ein." },
-          { "text": "Ich spüle jeden Teller erst komplett mit der Hand." }
+          { "text": "Ich stelle die Teller mit den Resten direkt hinein – die Maschine löst alles." },
+          { "text": "Ich spüle jeden Teller von Hand komplett sauber vor." }
         ],
-        "explanation": "Grobe Reste kommen in den Müll. Sonst verstopfen sie das Sieb der Maschine. Komplett vorspülen musst du aber nicht."
+        "explanation": "Grobe Reste kommen in den Müll. Sonst verstopfen sie das Sieb – das ist der kleine Filter am Boden der Maschine. Komplett von Hand vorspülen musst du aber nicht."
       }
     },
     {
@@ -38,25 +38,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥂 Warum kommen Gläser und Tassen nach oben?",
+        "prompt": "🥂 Warum stellst du Gläser und Tassen in den Oberkorb und nicht nach unten?",
         "options": [
           { "text": "Oben ist der Platz für empfindliche Sachen. Unten spritzt das Wasser stärker.", "correct": true },
-          { "text": "Weil oben mehr Platz ist." },
-          { "text": "Das ist egal. Gläser können überall stehen." }
+          { "text": "Weil warme Luft nach oben steigt und die Gläser dort schneller trocknen." },
+          { "text": "Weil im Oberkorb der Wasserstrahl am kräftigsten ist." }
         ],
-        "explanation": "Unten ist der Wasserstrahl stark. Empfindliche Gläser stehen darum sicher im Oberkorb."
+        "explanation": "Der starke Wasserstrahl kommt vom Sprüharm unten in der Maschine. Empfindliche Gläser stehen darum sicherer im Oberkorb – da können sie nicht umkippen oder springen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔪 Du stellst Messer in den Besteckkorb. Wie herum?",
+        "prompt": "🔪 Du stellst spitze Messer in den Besteckkorb. Wie herum stellst du sie?",
         "options": [
           { "text": "Mit der Spitze nach unten.", "correct": true },
-          { "text": "Mit der Spitze nach oben." },
-          { "text": "Egal, wie sie gerade fallen." }
+          { "text": "Mit der Spitze nach oben, damit die Klinge nicht stumpf wird." },
+          { "text": "Mit der Spitze nach oben, dann wird der Griff besser sauber." }
         ],
-        "explanation": "Spitze nach unten! So schneidest du dich nicht, wenn du später in den Korb greifst."
+        "explanation": "Spitze immer nach unten! So schneidest oder stichst du dich nicht, wenn du später in den Korb greifst. Sicherheit ist wichtiger als eine scharfe Klinge."
       }
     },
     {
@@ -76,25 +76,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔄 Ein hoher Topf steht im Weg. Der Sprüharm kann sich nicht drehen. Was machst du?",
+        "prompt": "🔄 Du drehst den Sprüharm mit der Hand – er blockiert an einem hohen Topf. Was machst du?",
         "options": [
           { "text": "Ich stelle den Topf um, bis sich der Arm frei drehen kann.", "correct": true },
-          { "text": "Ich starte die Maschine trotzdem." },
-          { "text": "Ich baue den Sprüharm aus." }
+          { "text": "Ich starte trotzdem – der Wasserdruck dreht den Arm schon frei." },
+          { "text": "Ich drücke den Topf einfach fester nach unten in den Korb." }
         ],
-        "explanation": "Der Sprüharm verteilt das Wasser. Kann er sich nicht drehen, wird das Geschirr nicht sauber."
+        "explanation": "Der Sprüharm ist der drehbare Balken, der das Wasser im Kreis verteilt. Blockiert er, bleibt eine Ecke ungespült und das Geschirr wird nicht sauber."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧺 Die Maschine ist fertig. Welchen Korb räumst du zuerst aus?",
+        "prompt": "🧺 Die Maschine ist fertig. Mit welchem Korb fängst du beim Ausräumen an – und warum?",
         "options": [
           { "text": "Den Unterkorb.", "correct": true },
-          { "text": "Den Oberkorb." },
-          { "text": "Beide gleichzeitig mit beiden Händen." }
+          { "text": "Den Oberkorb, der ist bequemer zu erreichen." },
+          { "text": "Den Oberkorb, damit das Geschirr unten noch nachtrocknet." }
         ],
-        "explanation": "Auf dem Geschirr oben steht oft noch Wasser. Räumst du unten zuerst aus, tropft nichts auf das trockene Geschirr."
+        "explanation": "Auf dem Geschirr oben steht oft noch etwas Wasser. Räumst du zuerst den Unterkorb aus, tropft von oben nichts auf das trockene Geschirr."
       }
     },
     {
@@ -113,12 +113,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✨ Die Maschine ist fertig und das Geschirr ist trocken. Was jetzt?",
+        "prompt": "✨ Die Maschine ist fertig und das Geschirr ist trocken. Was ist jetzt der richtige Schritt?",
         "options": [
           { "text": "Ausräumen und alles in den Schrank stellen.", "correct": true },
-          { "text": "Das Geschirr eine Woche in der Maschine lassen." }
+          { "text": "Nur das Besteck rausnehmen, den Rest lasse ich bis morgen drin." },
+          { "text": "Die Tür zulassen und das Geschirr bis zum nächsten Spülen drin lassen." }
         ],
-        "explanation": "Ausräumen, wegräumen – und die Maschine ist bereit für die nächste Runde."
+        "explanation": "Ausräumen, wegräumen – und die Maschine ist wieder frei für die nächste Runde. Lässt du das Geschirr drin, kannst du nichts Neues einräumen."
       }
     }
   ]

@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💶 Du hast 2 €, 1 € und 50 Cent in der Hand. Wie viel Geld hast du?",
+        "prompt": "💶 In deiner Hand liegen eine 2-€-Münze, eine 1-€-Münze und eine 50-Cent-Münze. Wie viel Geld hältst du zusammen?",
         "options": [
           { "text": "3,50 €", "correct": true },
-          { "text": "2,50 €" },
-          { "text": "4,50 €" }
+          { "text": "3,05 €" },
+          { "text": "2,50 €" }
         ],
-        "explanation": "Erst die Euro: 2 € + 1 € = 3 €. Dann die 50 Cent dazu: 3,50 €."
+        "explanation": "Zähle erst die Münzen mit ganzen Euro: 2 € + 1 € = 3 €. Dann kommt die 50-Cent-Münze dazu: 3,50 €. Achtung: 50 Cent sind ein halber Euro, nicht 5 Cent."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👛 In deinem Portemonnaie: ein 10-€-Schein, eine 2-€-Münze und eine 50-Cent-Münze. Wie viel ist das zusammen?",
+        "prompt": "👛 In deinem Portemonnaie liegen ein 10-€-Schein, eine 2-€-Münze und eine 50-Cent-Münze. Wie viel Geld ist das zusammen?",
         "options": [
           { "text": "12,50 €", "correct": true },
-          { "text": "11,50 €" },
-          { "text": "13,00 €" }
+          { "text": "12,05 €" },
+          { "text": "11,50 €" }
         ],
-        "explanation": "10 € + 2 € = 12 €. Dazu die 50 Cent: 12,50 €."
+        "explanation": "Zähle zuerst den Schein, dann die Münzen: 10 € + 2 € = 12 €. Dazu die 50-Cent-Münze: 12,50 €. Ein Schein ist Papiergeld, eine Münze ist aus Metall - beide zählst du zusammen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧮 Welche Kombination ergibt genau 6,80 €?",
+        "prompt": "🧮 Welche Kombination ergibt GENAU 6,80 €? Rechne jede Zeile im Kopf nach.",
         "options": [
           { "text": "5 € + 1 € + 50 Cent + 20 Cent + 10 Cent", "correct": true },
           { "text": "5 € + 1 € + 50 Cent + 20 Cent" },
-          { "text": "5 € + 2 € + 10 Cent" }
+          { "text": "5 € + 1 € + 50 Cent + 20 Cent + 20 Cent" }
         ],
-        "explanation": "5 € + 1 € = 6 €. Dann die Cent: 50 + 20 + 10 = 80 Cent. Zusammen 6,80 €."
+        "explanation": "5 € + 1 € = 6 €. Jetzt die Cent-Münzen: 50 + 20 + 10 = 80 Cent. Zusammen ist der Betrag 6,80 €. Betrag heißt: die ganze Menge Geld. Die anderen Zeilen ergeben nur 6,70 € oder schon 6,90 €."
       }
     },
     {
@@ -51,13 +51,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💵 Du hast einen 20-€-Schein, einen 5-€-Schein und zwei 2-€-Münzen. Wie viel ist das?",
+        "prompt": "💵 Du hast einen 20-€-Schein, einen 5-€-Schein und zwei 2-€-Münzen. Wie viel Geld hast du zusammen?",
         "options": [
           { "text": "29 €", "correct": true },
           { "text": "27 €" },
-          { "text": "30 €" }
+          { "text": "25 €" }
         ],
-        "explanation": "Scheine zuerst: 20 € + 5 € = 25 €. Dann die Münzen: 2 € + 2 € = 4 €. Zusammen 29 €."
+        "explanation": "Zähle erst die Scheine: 20 € + 5 € = 25 €. Dann die beiden Münzen: 2 € + 2 € = 4 €. Zusammen 29 €. Zwei 2-€-Münzen sind 4 €, nicht 2 € - zähle jede Münze einzeln."
       }
     },
     {
@@ -84,13 +84,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧮 Du zählst dein Geld: 5 €, 2 €, 2 €, 50 Cent und 50 Cent. Wie viel hast du?",
+        "prompt": "🧮 Du zählst dein Geld: 5 €, 2 €, 2 €, 50 Cent und 50 Cent. Wie viel hast du zusammen?",
         "options": [
           { "text": "10 €", "correct": true },
           { "text": "9,50 €" },
-          { "text": "10,50 €" }
+          { "text": "9,00 €" }
         ],
-        "explanation": "5 € + 2 € + 2 € = 9 €. Die zwei 50-Cent-Münzen sind zusammen 1 €. Also genau 10 €."
+        "explanation": "Zähle die Euro: 5 € + 2 € + 2 € = 9 €. Die zwei 50-Cent-Münzen ergeben zusammen 1 €, denn 50 Cent + 50 Cent = 100 Cent = 1 €. Also hast du genau 10 €."
       }
     },
     {

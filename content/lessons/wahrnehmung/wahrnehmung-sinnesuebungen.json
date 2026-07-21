@@ -2,6 +2,7 @@
   "topic_slug": "wahrnehmung",
   "slug": "wahrnehmung-sinnesuebungen",
   "title": "Übungen für die fünf Sinne",
+  "intro": "👐 Der Mensch hat fünf Sinne. Das sind Sehen, Hören, Riechen, Schmecken und Fühlen. Jeden Sinn kannst du mit einfachen Übungen trainieren. Der Geruchssinn gilt als der älteste Sinn des Menschen. Ein Geruch weckt oft schnell eine Erinnerung oder ein Gefühl. Beim Schmecken unterscheidest du vier Grund-Richtungen: süß, salzig, sauer und bitter. Scharf gehört nicht dazu, denn scharf ist ein leichter Schmerz auf der Zunge. Der Tastsinn ist das Fühlen mit der Haut. Auch die Füße können fühlen. Beim Hören achtest du auf laute und leise Geräusche und auf die Stille.",
   "sort": 31,
   "exercises": [
     {
@@ -9,11 +10,18 @@
       "data": {
         "prompt": "👃 Welcher Sinn gilt als der ursprünglichste Sinn des Menschen?",
         "options": [
-          { "text": "Der Geruchssinn – also das Riechen.", "correct": true },
-          { "text": "Der Sehsinn – also das Sehen." },
-          { "text": "Der Tastsinn – also das Fühlen." }
+          {
+            "text": "Der Geruchssinn – also das Riechen.",
+            "correct": true
+          },
+          {
+            "text": "Der Sehsinn – also das Sehen."
+          },
+          {
+            "text": "Der Gehörsinn – also das Hören."
+          }
         ],
-        "explanation": "Das Riechen ist der älteste Sinn. Gerüche wecken oft starke Erinnerungen und Gefühle. Ein Duft kann dich sofort an früher denken lassen."
+        "explanation": "Das Riechen ist der älteste Sinn. Ursprünglich heißt: schon ganz früh in der Entwicklung des Menschen da. Sehen und Hören kamen erst später dazu. Ein Geruch geht im Kopf sofort zu den Gefühlen. Darum weckt ein Duft oft schnell Erinnerungen."
       }
     },
     {
@@ -21,10 +29,38 @@
       "data": {
         "prompt": "👅 Es gibt vier Grund-Geschmacksrichtungen. Welches Lebensmittel passt?",
         "pairs": [
-          { "left": { "text": "🍯 Süß" }, "right": { "text": "Honig" } },
-          { "left": { "text": "🧂 Salzig" }, "right": { "text": "Salz-Stange" } },
-          { "left": { "text": "🍋 Sauer" }, "right": { "text": "Zitrone" } },
-          { "left": { "text": "☕ Bitter" }, "right": { "text": "Schwarzer Kaffee" } }
+          {
+            "left": {
+              "text": "🍯 Süß"
+            },
+            "right": {
+              "text": "Honig"
+            }
+          },
+          {
+            "left": {
+              "text": "🧂 Salzig"
+            },
+            "right": {
+              "text": "Salz-Stange"
+            }
+          },
+          {
+            "left": {
+              "text": "🍋 Sauer"
+            },
+            "right": {
+              "text": "Zitrone"
+            }
+          },
+          {
+            "left": {
+              "text": "☕ Bitter"
+            },
+            "right": {
+              "text": "Schwarzer Kaffee"
+            }
+          }
         ],
         "memory": false
       }
@@ -34,11 +70,18 @@
       "data": {
         "prompt": "🍽️ Welche vier Geschmacksrichtungen übst du beim Schmecken?",
         "options": [
-          { "text": "Süß, salzig, sauer und bitter.", "correct": true },
-          { "text": "Warm, kalt, weich und hart." },
-          { "text": "Rot, gelb, grün und blau." }
+          {
+            "text": "Süß, salzig, sauer und bitter.",
+            "correct": true
+          },
+          {
+            "text": "Süß, salzig, sauer und scharf."
+          },
+          {
+            "text": "Süß, salzig, bitter und umami."
+          }
         ],
-        "explanation": "Die Zunge schmeckt vier Grund-Richtungen: süß, salzig, sauer und bitter. Beim Üben probierst du Lebensmittel und ordnest sie diesen Richtungen zu."
+        "explanation": "Die Zunge schmeckt vier Grund-Richtungen: süß, salzig, sauer und bitter. Scharf ist keine Geschmacks-Richtung, sondern ein leichter Schmerz auf der Zunge. Umami (herzhaft) gilt erst als fünfte Richtung. Beim Üben probierst du Lebensmittel und ordnest sie den vier Grund-Richtungen zu."
       }
     },
     {
@@ -46,17 +89,47 @@
       "data": {
         "prompt": "🎯 Welchen Sinn übst du damit? Sortiere.",
         "buckets": [
-          { "id": "riechen", "label": "Riechen", "icon": "👃" },
-          { "id": "fuehlen", "label": "Fühlen", "icon": "✋" },
-          { "id": "schmecken", "label": "Schmecken", "icon": "👅" }
+          {
+            "id": "riechen",
+            "label": "Riechen",
+            "icon": "👃"
+          },
+          {
+            "id": "fuehlen",
+            "label": "Fühlen",
+            "icon": "✋"
+          },
+          {
+            "id": "schmecken",
+            "label": "Schmecken",
+            "icon": "👅"
+          }
         ],
         "items": [
-          { "text": "An einem Zweig Pfefferminze schnuppern", "bucket": "riechen" },
-          { "text": "Vanille-Öl auf Watte erschnuppern", "bucket": "riechen" },
-          { "text": "Im Karton einen Tannenzapfen ertasten", "bucket": "fuehlen" },
-          { "text": "Mit den Füßen über verschiedene Böden gehen", "bucket": "fuehlen" },
-          { "text": "Einen Tropfen Essig probieren", "bucket": "schmecken" },
-          { "text": "Ein Stück Apfel kosten", "bucket": "schmecken" }
+          {
+            "text": "An einem Zweig Pfefferminze schnuppern",
+            "bucket": "riechen"
+          },
+          {
+            "text": "Vanille-Öl auf Watte erschnuppern",
+            "bucket": "riechen"
+          },
+          {
+            "text": "Im Karton einen Tannenzapfen ertasten",
+            "bucket": "fuehlen"
+          },
+          {
+            "text": "Mit den Füßen über verschiedene Böden gehen",
+            "bucket": "fuehlen"
+          },
+          {
+            "text": "Einen Tropfen Essig probieren",
+            "bucket": "schmecken"
+          },
+          {
+            "text": "Ein Stück Apfel kosten",
+            "bucket": "schmecken"
+          }
         ]
       }
     },
@@ -65,11 +138,18 @@
       "data": {
         "prompt": "🤫 Beim Hören übt man auch die Stille. Was ist Stille im engeren Sinn?",
         "options": [
-          { "text": "Wenn gar kein Geräusch da ist – also Lautlosigkeit.", "correct": true },
-          { "text": "Wenn leise Musik läuft." },
-          { "text": "Wenn nur eine Person spricht." }
+          {
+            "text": "Wenn gar kein Geräusch da ist – also Lautlosigkeit.",
+            "correct": true
+          },
+          {
+            "text": "Wenn nur noch ganz leise Geräusche zu hören sind."
+          },
+          {
+            "text": "Wenn niemand spricht, aber Geräusche da sind."
+          }
         ],
-        "explanation": "Stille im engeren Sinn heißt: Es ist gar kein Geräusch zu hören. Im weiteren Sinn meint Stille auch das Zur-Ruhe-Kommen und den Abstand vom Alltag."
+        "explanation": "Stille im engeren Sinn heißt: Es ist gar kein Geräusch zu hören. Auch ganz leise Töne wären dann noch keine echte Stille. Im weiteren Sinn meint Stille auch das Zur-Ruhe-Kommen und den Abstand vom Alltag."
       }
     },
     {
@@ -77,11 +157,18 @@
       "data": {
         "prompt": "🙈 Beim Fühlen verbindest du oft die Augen. Warum?",
         "options": [
-          { "text": "Damit du nur den Tastsinn benutzt und nicht mit den Augen schummelst.", "correct": true },
-          { "text": "Damit die Übung schneller geht." },
-          { "text": "Damit du dich besser ausruhen kannst." }
+          {
+            "text": "Damit du nur den Tastsinn benutzt und nicht mit den Augen schummelst.",
+            "correct": true
+          },
+          {
+            "text": "Damit du dich ganz auf die Geräusche der Gegenstände konzentrierst."
+          },
+          {
+            "text": "Damit du dir vorher die Form der Gegenstände besser einprägst."
+          }
         ],
-        "explanation": "Ohne Augen kannst du nicht sehen, was du in der Hand hast. So trainierst du allein den Tastsinn. Du erkennst den Gegenstand nur durch das Fühlen."
+        "explanation": "Ohne Augen kannst du nicht sehen, was du in der Hand hast. So trainierst du allein den Tastsinn – das Fühlen mit den Händen. Deine Finger erkennen Form, Größe und Oberfläche ganz ohne Sehen."
       }
     },
     {
@@ -89,11 +176,21 @@
       "data": {
         "prompt": "👀 So machst du eine Seh-Übung (das Kim-Spiel). Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Mehrere Gegenstände auf einen Tisch legen." },
-          { "text": "Die Gegenstände in Ruhe genau anschauen." },
-          { "text": "Die Gegenstände mit einem Tuch abdecken." },
-          { "text": "Alle Gegenstände aus dem Gedächtnis aufzählen." },
-          { "text": "Das Tuch abnehmen und die Antworten prüfen." }
+          {
+            "text": "Mehrere Gegenstände auf einen Tisch legen."
+          },
+          {
+            "text": "Die Gegenstände in Ruhe genau anschauen."
+          },
+          {
+            "text": "Die Gegenstände mit einem Tuch abdecken."
+          },
+          {
+            "text": "Alle Gegenstände aus dem Gedächtnis aufzählen."
+          },
+          {
+            "text": "Das Tuch abnehmen und die Antworten prüfen."
+          }
         ]
       }
     },
@@ -102,23 +199,37 @@
       "data": {
         "prompt": "👂 Für eine Hör-Übung füllst du Dosen mit Material. Was passt gut hinein?",
         "options": [
-          { "text": "Reis, Sand oder kleine Steine.", "correct": true },
-          { "text": "Wasserdampf und Rauch." },
-          { "text": "Licht und Schatten." }
+          {
+            "text": "Reis, Sand oder kleine Steine.",
+            "correct": true
+          },
+          {
+            "text": "Watte, Federn oder Schaumstoff."
+          },
+          {
+            "text": "Wasser, Saft oder Milch."
+          }
         ],
-        "explanation": "In verschlossene Dosen kommen zum Beispiel Reis, Sand, Zucker oder Steine. Beim Schütteln klingt jede Dose anders. Am Klang sollst du erraten, was drin ist."
+        "explanation": "In verschlossene Dosen kommen feste Sachen wie Reis, Sand, Zucker oder Steine. Beim Schütteln klingt jede Dose anders. Watte oder Federn wären viel zu leise, Flüssigkeiten würden nur schwappen. Am Klang sollst du erraten, was drin ist."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss ganz leicht: Du gehst barfuß über Gras, Steine und Waldboden. Welchen Sinn übst du?",
+        "prompt": "🌟 Zum Schluss: Du gehst barfuß über Gras, Steine und Waldboden. Welchen Sinn übst du dabei vor allem?",
         "options": [
-          { "text": "Den Tastsinn – also das Fühlen.", "correct": true },
-          { "text": "Den Geschmackssinn." },
-          { "text": "Den Sehsinn." }
+          {
+            "text": "Den Tastsinn – also das Fühlen.",
+            "correct": true
+          },
+          {
+            "text": "Den Geruchssinn – also das Riechen."
+          },
+          {
+            "text": "Den Sehsinn – also das Sehen."
+          }
         ],
-        "explanation": "Auch die Füße können fühlen. Auf einem Barfuß-Parcours spürst du verschiedene Böden. So trainierst du deinen Tastsinn."
+        "explanation": "Auch die Füße können fühlen. Auf einem Barfuß-Parcours spürst du mit den Fußsohlen verschiedene Böden: hart, weich, kalt oder warm. So trainierst du deinen Tastsinn – das Fühlen."
       }
     }
   ]

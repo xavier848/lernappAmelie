@@ -2,18 +2,26 @@
   "topic_slug": "kinder-spielen",
   "slug": "kinder-spielen-training",
   "title": "Training: Spielen",
+  "intro": "🎲 Kinder lernen beim Spielen sehr viel. Es gibt verschiedene Spielformen. Beim Rollenspiel spielt ein Kind eine Rolle, zum Beispiel Arzt oder Koch. Beim Konstruktionsspiel baut es etwas, zum Beispiel mit Bausteinen. Beim Regelspiel gibt es feste Regeln, wie bei einem Brettspiel. Draußen üben Kinder ihre Grobmotorik, also die großen Bewegungen mit Armen und Beinen. Beim Verlieren lernen sie Frustrationstoleranz, also das Aushalten, wenn etwas nicht klappt. Schüchterne Kinder lädst du freundlich zum Mitspielen ein. Weint ein Kind, tröstest du es und nimmst seinen Kummer ernst. Feste Rituale, zum Beispiel beim Aufräumen, geben allen Halt.",
   "sort": 2,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎭 Zwei Kinder verkleiden sich. Eins spielt Arzt. Eins spielt Patient. Wie heißt dieses Spiel?",
+        "prompt": "🎭 Zwei Kinder verkleiden sich. Eins spielt Arzt. Eins spielt Patient. Wie heißt diese Spielform?",
         "options": [
-          { "text": "🎭 Rollenspiel.", "correct": true },
-          { "text": "🎲 Brettspiel." },
-          { "text": "⚽ Fußball." }
+          {
+            "text": "🎭 Rollenspiel.",
+            "correct": true
+          },
+          {
+            "text": "🧩 Konstruktionsspiel."
+          },
+          {
+            "text": "🎲 Regelspiel."
+          }
         ],
-        "explanation": "Das ist ein Rollenspiel. Die Kinder spielen jemand anderen. So üben sie, andere Menschen zu verstehen."
+        "explanation": "Das ist ein Rollenspiel. Beim Rollenspiel schlüpft ein Kind in eine Rolle und spielt jemand anderen, hier Arzt und Patient. So übt es, sich in andere Menschen hineinzuversetzen."
       }
     },
     {
@@ -21,10 +29,38 @@
       "data": {
         "prompt": "🎪 Was brauchen die Kinder für ihr Spiel? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "👩‍🍳 Kochen spielen" }, "right": { "text": "Spielküche und Töpfe" } },
-          { "left": { "text": "🧑‍⚕️ Arzt spielen" }, "right": { "text": "Puppe als Patient" } },
-          { "left": { "text": "🚒 Feuerwehr spielen" }, "right": { "text": "Feuerwehrauto" } },
-          { "left": { "text": "🏗️ Baustelle spielen" }, "right": { "text": "Bagger und Sand" } }
+          {
+            "left": {
+              "text": "👩‍🍳 Kochen spielen"
+            },
+            "right": {
+              "text": "Spielküche und Töpfe"
+            }
+          },
+          {
+            "left": {
+              "text": "🧑‍⚕️ Arzt spielen"
+            },
+            "right": {
+              "text": "Puppe als Patient"
+            }
+          },
+          {
+            "left": {
+              "text": "🚒 Feuerwehr spielen"
+            },
+            "right": {
+              "text": "Feuerwehrauto"
+            }
+          },
+          {
+            "left": {
+              "text": "🏗️ Baustelle spielen"
+            },
+            "right": {
+              "text": "Bagger und Sand"
+            }
+          }
         ],
         "memory": false
       }
@@ -34,12 +70,24 @@
       "data": {
         "prompt": "🎲 Ihr spielt ein Brettspiel. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🎲 Ein Spiel aussuchen." },
-          { "text": "📋 Die Regeln erklären." },
-          { "text": "🙋 Auslosen: Wer fängt an?" },
-          { "text": "🔁 Alle spielen der Reihe nach." },
-          { "text": "🏆 Am Ende gewinnt jemand." },
-          { "text": "📦 Zusammen das Spiel aufräumen." }
+          {
+            "text": "🎲 Ein Spiel aussuchen."
+          },
+          {
+            "text": "📋 Die Regeln erklären."
+          },
+          {
+            "text": "🙋 Auslosen: Wer fängt an?"
+          },
+          {
+            "text": "🔁 Alle spielen der Reihe nach."
+          },
+          {
+            "text": "🏆 Am Ende gewinnt jemand."
+          },
+          {
+            "text": "📦 Zusammen das Spiel aufräumen."
+          }
         ]
       }
     },
@@ -48,77 +96,138 @@
       "data": {
         "prompt": "🏃😌 Welches Spiel ist wild? Welches Spiel ist ruhig? Sortiere.",
         "buckets": [
-          { "id": "bewegung", "label": "Bewegungsspiel", "icon": "🏃" },
-          { "id": "ruhig", "label": "Ruhiges Spiel", "icon": "😌" }
+          {
+            "id": "bewegung",
+            "label": "Bewegungsspiel",
+            "icon": "🏃"
+          },
+          {
+            "id": "ruhig",
+            "label": "Ruhiges Spiel",
+            "icon": "😌"
+          }
         ],
         "items": [
-          { "text": "Fangen spielen", "bucket": "bewegung" },
-          { "text": "Eine Geschichte hören", "bucket": "ruhig" },
-          { "text": "Verstecken spielen", "bucket": "bewegung" },
-          { "text": "Malen am Tisch", "bucket": "ruhig" },
-          { "text": "Toben im Garten", "bucket": "bewegung" },
-          { "text": "Ein Puzzle legen", "bucket": "ruhig" }
+          {
+            "text": "Fangen spielen",
+            "bucket": "bewegung"
+          },
+          {
+            "text": "Eine Geschichte hören",
+            "bucket": "ruhig"
+          },
+          {
+            "text": "Verstecken spielen",
+            "bucket": "bewegung"
+          },
+          {
+            "text": "Malen am Tisch",
+            "bucket": "ruhig"
+          },
+          {
+            "text": "Toben im Garten",
+            "bucket": "bewegung"
+          },
+          {
+            "text": "Ein Puzzle legen",
+            "bucket": "ruhig"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😢 Ein Kind verliert beim Spiel und weint. Was machst du?",
+        "prompt": "😢 Ein Kind verliert beim Spiel und fängt an zu weinen. Was machst du?",
         "options": [
-          { "text": "🤗 Ich tröste es. Verlieren gehört dazu.", "correct": true },
-          { "text": "😆 Ich lache es aus." },
-          { "text": "🏆 Ich lasse es ab jetzt immer gewinnen." }
+          {
+            "text": "🤗 Ich tröste es und sage: Verlieren gehört dazu.",
+            "correct": true
+          },
+          {
+            "text": "🏆 Ich lasse es beim nächsten Spiel extra gewinnen, damit es aufhört."
+          },
+          {
+            "text": "🤫 Ich sage: Nicht weinen, es ist doch nur ein Spiel."
+          }
         ],
-        "explanation": "Tröste das Kind. Sag: Verlieren gehört dazu. Beim nächsten Spiel klappt es vielleicht. So lernt das Kind, mit Verlieren umzugehen."
+        "explanation": "Tröste das Kind und nimm seinen Kummer ernst. Sag: Verlieren gehört dazu, beim nächsten Mal klappt es vielleicht. So lernt es Frustrationstoleranz. Das heißt: aushalten, wenn etwas nicht klappt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌳 Warum ist Spielen draußen gut?",
+        "prompt": "🌳 Warum ist Spielen draußen gut für Kinder?",
         "options": [
-          { "text": "☀️ Frische Luft und viel Platz für Bewegung.", "correct": true },
-          { "text": "📺 Draußen gibt es mehr Fernseher." },
-          { "text": "🛋️ Draußen kann man besser sitzen." }
+          {
+            "text": "☀️ Es gibt frische Luft und viel Platz für Bewegung.",
+            "correct": true
+          },
+          {
+            "text": "🧥 Draußen brauchen Kinder keine Aufsicht mehr."
+          },
+          {
+            "text": "🧼 Draußen bleiben Kinder sauberer als drinnen."
+          }
         ],
-        "explanation": "Draußen gibt es frische Luft und viel Platz. Kinder können rennen, klettern und viel entdecken."
+        "explanation": "Draußen gibt es frische Luft und viel Platz. Beim Rennen, Klettern und Springen üben Kinder ihre Grobmotorik. Das sind die großen Bewegungen mit Armen und Beinen. Aufsicht brauchen sie draußen trotzdem."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧒 Ein Kind steht alleine am Rand. Es traut sich nicht mitzuspielen. Was hilft?",
+        "prompt": "🧒 Ein Kind steht allein am Rand. Es traut sich nicht mitzuspielen. Wie hilfst du ihm am besten?",
         "options": [
-          { "text": "💛 Ich frage: Willst du mitspielen? Und ich helfe beim Anfangen.", "correct": true },
-          { "text": "🙈 Ich schaue weg." },
-          { "text": "😠 Ich sage: Stell dich nicht so an!" }
+          {
+            "text": "💛 Ich frage: Willst du mitspielen? Und ich helfe ihm beim Anfangen.",
+            "correct": true
+          },
+          {
+            "text": "⏳ Ich warte ab. Wenn es wirklich will, kommt es von allein."
+          },
+          {
+            "text": "👉 Ich schiebe es einfach in die Gruppe, dann ist es dabei."
+          }
         ],
-        "explanation": "Lade das Kind freundlich ein. Hilf ihm beim Anfangen. Dann traut es sich."
+        "explanation": "Lade das Kind freundlich ein und hilf ihm beim ersten Schritt. So findet es leichter Anschluss und fühlt sich nicht gedrängt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎵 Wie macht Aufräumen nach dem Spielen mehr Spaß?",
+        "prompt": "🎵 Wie machst du das Aufräumen nach dem Spielen für die Kinder schöner?",
         "options": [
-          { "text": "🎶 Mit einem Aufräum-Lied. Alle helfen mit.", "correct": true },
-          { "text": "🙈 Alles unters Bett schieben." },
-          { "text": "😴 Einer macht alles alleine." }
+          {
+            "text": "🎶 Wir singen ein Aufräum-Lied und alle helfen zusammen.",
+            "correct": true
+          },
+          {
+            "text": "🍬 Ich verspreche für jedes weggeräumte Teil ein Bonbon."
+          },
+          {
+            "text": "⏰ Ich sage streng: Sofort alles wegräumen, sonst gibt es Ärger."
+          }
         ],
-        "explanation": "Ein Aufräum-Lied macht Spaß. Alle helfen zusammen. Dann geht es schnell."
+        "explanation": "Ein Aufräum-Lied macht aus dem Aufräumen ein Spiel, und alle helfen zusammen. So wird es ein festes Ritual, also etwas, das man immer gleich macht, und geht schneller."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Was brauchst du zum Verstecken spielen?",
+        "prompt": "🌟 Was brauchst du unbedingt, wenn du Verstecken spielst?",
         "options": [
-          { "text": "🙈 Ein gutes Versteck.", "correct": true },
-          { "text": "🚗 Ein Auto." },
-          { "text": "☎️ Ein Telefon." }
+          {
+            "text": "🙈 Ein gutes Versteck.",
+            "correct": true
+          },
+          {
+            "text": "🔦 Eine Taschenlampe für jedes Kind."
+          },
+          {
+            "text": "🎲 Einen Würfel zum Auslosen."
+          }
         ],
-        "explanation": "Zum Verstecken brauchst du nur ein gutes Versteck. Viel Spaß beim Spielen!"
+        "explanation": "Zum Verstecken brauchst du vor allem ein gutes Versteck. Eine Taschenlampe oder ein Würfel sind nett, aber nicht nötig. Viel Spaß beim Spielen!"
       }
     }
   ]

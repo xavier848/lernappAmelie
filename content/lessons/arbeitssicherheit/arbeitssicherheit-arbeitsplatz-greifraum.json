@@ -10,10 +10,10 @@
         "prompt": "🍎 Du bist Rechtshänder und machst Obstsalat. Wo liegt das rohe Obst?",
         "options": [
           { "text": "Links.", "correct": true },
-          { "text": "Rechts." },
-          { "text": "Hinter dem Rücken." }
+          { "text": "Rechts, direkt an der Abfallschüssel." },
+          { "text": "In der Mitte auf dem Schneidbrett." }
         ],
-        "explanation": "Als Rechtshänder greifst du das Obst von links und arbeitest nach rechts. So kreuzen sich deine Hände nicht."
+        "explanation": "Als Rechtshänder greifst du das Obst von links und arbeitest nach rechts. So kreuzen sich deine Hände nicht. Das rohe Obst gehört nach links, nicht auf das Schneidbrett in der Mitte."
       }
     },
     {
@@ -22,10 +22,10 @@
         "prompt": "🗑️ Wo steht die Schüssel für den Abfall bei Rechtshändern?",
         "options": [
           { "text": "Rechts.", "correct": true },
-          { "text": "Links." },
-          { "text": "Genau in der Mitte." }
+          { "text": "Links, wo das rohe Obst liegt." },
+          { "text": "In der Mitte neben dem Schneidbrett." }
         ],
-        "explanation": "Der Abfall kommt nach der Arbeitsrichtung ganz nach rechts. So wirfst du Schalen weg, ohne quer zu greifen."
+        "explanation": "Der Abfall kommt nach der Arbeitsrichtung ganz nach rechts. So wirfst du Schalen weg, ohne quer über den Tisch zu greifen."
       }
     },
     {
@@ -76,13 +76,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🫱 Was ist der innere Greifraum?",
+        "prompt": "🫱 Das Messer liegt im inneren Greifraum. Was heißt das für dich?",
         "options": [
-          { "text": "Der Bereich, den du mit gebeugtem Arm erreichst.", "correct": true },
-          { "text": "Der Bereich hinter deinem Rücken." },
-          { "text": "Der Bereich am anderen Ende des Raums." }
+          { "text": "Du erreichst es bequem mit gebeugtem Arm.", "correct": true },
+          { "text": "Du musst den Arm ganz ausstrecken, um es zu greifen." },
+          { "text": "Du musst aufstehen oder dich drehen, um es zu greifen." }
         ],
-        "explanation": "Den inneren Greifraum erreichst du bequem mit gebeugtem Arm. Dort liegen die Dinge, die du oft brauchst, zum Beispiel das Schneidbrett."
+        "explanation": "Der innere Greifraum ist der Bereich, den du mit gebeugtem Arm bequem erreichst. Dort liegen die Dinge, die du oft brauchst, zum Beispiel Messer und Schneidbrett. Den äußeren Greifraum erreichst du nur mit gestrecktem Arm."
       }
     },
     {
@@ -91,10 +91,10 @@
         "prompt": "💪 Wohin legst du Dinge, die du nur selten brauchst?",
         "options": [
           { "text": "In den äußeren Greifraum.", "correct": true },
-          { "text": "Direkt vor die Hand." },
-          { "text": "Auf das Schneidbrett." }
+          { "text": "In den inneren Greifraum, direkt vor die Hand." },
+          { "text": "In die Mitte auf das Schneidbrett." }
         ],
-        "explanation": "Den äußeren Greifraum erreichst du nur mit gestrecktem Arm. Selten gebrauchte Dinge stören dort nicht bei der Arbeit."
+        "explanation": "Den äußeren Greifraum erreichst du nur mit gestrecktem Arm. Selten gebrauchte Dinge stören dort nicht bei der Arbeit. Der innere Greifraum bleibt so frei für Dinge, die du oft brauchst."
       }
     },
     {
@@ -103,10 +103,10 @@
         "prompt": "🍎 Warum liegt das Obst bei Rechtshändern links?",
         "options": [
           { "text": "Damit sich die Hände beim Arbeiten nicht kreuzen.", "correct": true },
-          { "text": "Weil links mehr Licht ist." },
-          { "text": "Das hat keinen Grund." }
+          { "text": "Weil die linke Hand die stärkere Greifhand ist." },
+          { "text": "Damit rechts mehr Platz für das Schneidbrett bleibt." }
         ],
-        "explanation": "Der Weg vom Obst zum Abfall geht von links nach rechts. So arbeiten die Hände ruhig und ohne sich zu kreuzen."
+        "explanation": "Der Weg vom Obst zum Abfall geht von links nach rechts. So arbeiten die Hände ruhig und kreuzen sich nicht. Mit der Greifkraft der Hand oder dem Platz für das Schneidbrett hat die Seite nichts zu tun."
       }
     }
   ]

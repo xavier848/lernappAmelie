@@ -7,39 +7,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Seife, Klopapier und Shampoo nennt man Verbrauchsmaterial. Warum prüfst du es regelmäßig?",
+        "prompt": "🧴 Seife, Klopapier und Shampoo nennt man Verbrauchsmaterial. Warum prüfst du es regelmäßig selbst, statt zu warten?",
         "options": [
           { "text": "Damit nichts ausgeht, wenn man es braucht.", "correct": true },
-          { "text": "Damit das Bad voller aussieht." },
-          { "text": "Das muss man nicht prüfen." }
+          { "text": "Es reicht, wenn ein Gast sagt, dass etwas fehlt." },
+          { "text": "Man muss nur die teuren Sachen wie Shampoo prüfen." }
         ],
-        "explanation": "Verbrauchsmaterial wird jeden Tag weniger. Wer regelmäßig prüft, füllt rechtzeitig nach. So steht kein Gast ohne Seife da."
+        "explanation": "Verbrauchsmaterial sind Dinge, die man aufbraucht, zum Beispiel Seife oder Klopapier. Es wird jeden Tag weniger. Wer selbst regelmäßig prüft, füllt rechtzeitig nach. So steht kein Gast ohne Seife da."
       }
     },
     {
       "type": "steps_order",
       "data": {
-        "prompt": "📋 Die Prüf-Runde im Bad: Bringe die Schritte in die richtige Reihenfolge.",
+        "prompt": "📋 Nachfüllen wie ein Profi: Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
           { "text": "📋 Checkliste nehmen." },
-          { "text": "🧻 Klopapier prüfen: Ist genug da?" },
-          { "text": "🧼 Seife prüfen: Ist der Spender voll?" },
-          { "text": "🧴 Shampoo und Duschgel prüfen." },
-          { "text": "🧺 Handtücher zählen." },
-          { "text": "✏️ Fehlendes auf die Liste schreiben." }
+          { "text": "🔍 Klopapier, Seife, Shampoo und Handtücher prüfen." },
+          { "text": "✏️ Fehlendes aufschreiben." },
+          { "text": "📦 Nachschub aus dem Vorrat holen." },
+          { "text": "🧼 Alles auffüllen und bereitlegen." },
+          { "text": "✅ Auf der Liste abhaken." }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧻 Eine Rolle Klopapier hängt am Halter. Wie viele Ersatzrollen legst du dazu?",
+        "prompt": "🧻 Eine Rolle Klopapier hängt am Halter. Wie legst du den Ersatz für den Gast bereit?",
         "options": [
           { "text": "Mindestens eine Ersatzrolle.", "correct": true },
-          { "text": "Keine. Eine Rolle reicht immer." },
-          { "text": "Zehn Rollen auf den Boden." }
+          { "text": "Keine. Wer nachschauen kommt, bringt neue mit." },
+          { "text": "Ersatz erst hinlegen, wenn die Rolle ganz leer ist." }
         ],
-        "explanation": "Profis legen immer Ersatz bereit. Ist die Rolle leer, liegt die nächste schon da. So geht nie etwas aus."
+        "explanation": "Ersatz heißt: eine zweite Rolle liegt schon bereit. Profis legen sie sofort dazu. Ist die Rolle am Halter leer, liegt die nächste schon da. So geht nie etwas aus."
       }
     },
     {
@@ -64,13 +64,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📦 Du holst die letzte Flasche Seife aus dem Vorrat. Was machst du?",
+        "prompt": "📦 Du holst die letzte Flasche Seife aus dem Vorrat. Der Vorrat ist jetzt leer. Was machst du?",
         "options": [
           { "text": "Ich schreibe Seife auf die Einkaufsliste.", "correct": true },
-          { "text": "Nichts. Irgendwer merkt das schon." },
-          { "text": "Ich fülle die alte Flasche mit Wasser auf." }
+          { "text": "Nichts. Ich merke mir im Kopf, dass Seife knapp wird." },
+          { "text": "Ich fülle die letzte Flasche mit Wasser auf, dann reicht sie länger." }
         ],
-        "explanation": "Wer das Letzte nimmt, schreibt es auf die Liste. So wird rechtzeitig neue Seife gekauft und der Vorrat ist nie leer."
+        "explanation": "Der Vorrat ist das Lager im Schrank. Wer die letzte Flasche nimmt, schreibt Seife sofort auf die Einkaufsliste. So wird rechtzeitig neue gekauft und der Vorrat ist nie leer. Im Kopf merken reicht nicht, das vergisst man schnell."
       }
     },
     {
@@ -85,7 +85,7 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🃏 Memory! Finde das Verbrauchsmaterial.",
+        "prompt": "🃏 Memory! Was legst du dem Gast im Bad bereit?",
         "pairs": [
           { "left": { "text": "🧻" }, "right": { "text": "Klopapier" } },
           { "left": { "text": "🧼" }, "right": { "text": "Seife" } },
@@ -98,25 +98,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏡 In der Ferienwohnung: Wie viele Handtücher bekommt jeder Gast?",
+        "prompt": "🏡 In der Ferienwohnung deckst du das Bad für einen Gast ein. Wie viele Handtücher legst du hin?",
         "options": [
           { "text": "Ein großes und ein kleines Handtuch.", "correct": true },
-          { "text": "Gar keins. Gäste bringen alles selbst mit." },
-          { "text": "Nur einen Waschlappen." }
+          { "text": "Nur ein großes Handtuch, das reicht für alles." },
+          { "text": "Ein großes Handtuch für zwei Gäste zusammen." }
         ],
-        "explanation": "Das große Handtuch ist zum Duschen. Das kleine ist für die Hände. So macht man es für jeden Gast."
+        "explanation": "Jeder Gast bekommt zwei Handtücher. Das große Handtuch ist zum Duschen. Das kleine ist für die Hände. So macht man es für jeden Gast einzeln."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧼 Letzte Frage, ganz leicht: Der Seifenspender ist fast leer. Was machst du?",
+        "prompt": "🧼 Der Seifenspender ist fast leer und gleich kommt ein neuer Gast. Was machst du?",
         "options": [
           { "text": "Ich fülle ihn auf.", "correct": true },
-          { "text": "Ich stelle ihn auf den Kopf." },
-          { "text": "Ich verstecke ihn im Schrank." }
+          { "text": "Ich warte, bis er ganz leer ist, und fülle dann nach." },
+          { "text": "Ich lasse ihn so und lege ein Stück Seife daneben." }
         ],
-        "explanation": "Auffüllen, fertig. Du denkst mit wie ein Profi."
+        "explanation": "Fast leer heißt: gleich ist gar nichts mehr da. Du füllst rechtzeitig nach, bevor der Gast vor einem leeren Spender steht. So denkst du mit wie ein Profi."
       }
     }
   ]

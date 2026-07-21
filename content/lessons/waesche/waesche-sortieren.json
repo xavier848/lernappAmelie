@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧺 Der Wäschekorb ist voll. Was machst du zuerst?",
+        "prompt": "🧺 Der Wäschekorb ist voll mit gemischten Sachen. Was ist der erste Schritt, bevor du wäschst?",
         "options": [
           { "text": "Ich sortiere die Wäsche: hell, dunkel, fein.", "correct": true },
-          { "text": "Ich stopfe alles zusammen in die Maschine." },
-          { "text": "Ich lege alles direkt in den Schrank." }
+          { "text": "Ich sortiere nach Ober-Teilen und Unter-Teilen." },
+          { "text": "Ich lege alles zusammen rein und stelle die Maschine ganz heiß." }
         ],
-        "explanation": "Zuerst wird sortiert. So behalten deine Sachen ihre Farbe und ihre Form."
+        "explanation": "Sortieren heißt: Du machst mehrere Haufen. Wichtig ist die Farbe und der Stoff, nicht die Art vom Kleidungsstück. So bleiben die Farben schön und die Stoffe heil."
       }
     },
     {
@@ -43,10 +43,10 @@
         "prompt": "🏷️ Du weißt nicht, wie warm du ein Kleidungsstück waschen darfst. Was machst du?",
         "options": [
           { "text": "Ich schaue auf das Pflege-Etikett. Das ist der kleine Zettel innen.", "correct": true },
-          { "text": "Ich wasche einfach immer ganz heiß." },
-          { "text": "Ich rate einfach." }
+          { "text": "Ich wasche es bei 60 Grad, das passt fast immer." },
+          { "text": "Ich wasche es so warm wie das letzte ähnliche Stück." }
         ],
-        "explanation": "Auf dem Etikett steht die richtige Temperatur. Zum Beispiel: 30 oder 60 Grad."
+        "explanation": "Das Pflege-Etikett ist der kleine Zettel innen im Kleidungsstück. Der Wasch-Zuber mit einer Zahl zeigt die höchste Temperatur, zum Beispiel 30 oder 60 Grad. Mehr darf es nicht sein."
       }
     },
     {
@@ -55,10 +55,10 @@
         "prompt": "🔴 Ups! Eine rote Socke liegt in der weißen Wäsche. Du wäschst sie mit. Was passiert?",
         "options": [
           { "text": "Die weiße Wäsche wird rosa.", "correct": true },
-          { "text": "Nichts. Das ist egal." },
-          { "text": "Die rote Socke wird weiß." }
+          { "text": "Die weiße Wäsche bekommt nur an einer Stelle rote Flecken." },
+          { "text": "Nur die rote Socke wird heller, die weiße Wäsche bleibt weiß." }
         ],
-        "explanation": "Rote Farbe färbt ab. Darum ist gutes Sortieren so wichtig."
+        "explanation": "Die rote Farbe löst sich im Wasser und verteilt sich überall. Das nennt man abfärben. Darum wird die ganze weiße Wäsche rosa, nicht nur eine Stelle. Deshalb wäschst du rote Sachen extra."
       }
     },
     {
@@ -77,24 +77,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👖 Vor dem Waschen: Was machst du mit den Hosen-Taschen?",
+        "prompt": "👖 Vor dem Waschen: Was machst du mit den Sachen in den Hosen-Taschen?",
         "options": [
           { "text": "Ich mache alle Taschen leer.", "correct": true },
-          { "text": "Ich lasse alles drin." },
-          { "text": "Ich stecke noch ein Taschentuch hinein." }
+          { "text": "Ich lasse Münzen und Schlüssel drin, die stören nicht." },
+          { "text": "Ich nehme nur große Sachen raus, kleine lasse ich drin." }
         ],
-        "explanation": "Ein Taschentuch in der Wäsche macht viele Fussel. Also: Taschen immer leeren."
+        "explanation": "Ein Taschentuch zerfällt und macht überall Fussel. Münzen und Schlüssel können die Maschine beschädigen. Darum leerst du immer alle Taschen ganz."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚪ Ein weißes Handtuch. Zu welchem Haufen gehört es?",
+        "prompt": "⚪ Ein weißes Handtuch aus Baumwolle. Zu welchem Haufen gehört es?",
         "options": [
           { "text": "Zur hellen Wäsche.", "correct": true },
+          { "text": "Zur Feinwäsche, weil es weich ist." },
           { "text": "Zur dunklen Wäsche." }
         ],
-        "explanation": "Weiß gehört zur hellen Wäsche."
+        "explanation": "Baumwolle ist robust, also keine Feinwäsche. Feinwäsche ist nur für empfindliche Stoffe wie Wolle und Seide. Das Handtuch ist weiß, darum kommt es zur hellen Wäsche."
       }
     }
   ]

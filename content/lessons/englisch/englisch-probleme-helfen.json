@@ -1,0 +1,150 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-probleme-helfen",
+  "title": "Probleme & Hilfe",
+  "sort": 19,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast ruft an: There is no hot water in the bathroom. Could you check it, please? 🚿 Was ist das Problem?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Im Bad gibt es kein warmes Wasser.", "correct": true },
+          { "text": "Im Bad gibt es gar kein Wasser." },
+          { "text": "Das Wasser im Bad ist zu heiß." },
+          { "text": "Im Bad steht zu viel Wasser." }
+        ],
+        "explanation": "No hot water heißt: kein warmes Wasser. Das kalte Wasser läuft also noch — nur das warme fehlt. Mit could you check it, please? bittet dich der Gast, das zu prüfen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was melden die Gäste? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "The heating in the living room is not working." }, "right": { "text": "Die Heizung im Wohnzimmer funktioniert nicht." } },
+          { "left": { "text": "The Wi-Fi has not been working since yesterday evening." }, "right": { "text": "Das WLAN funktioniert seit gestern Abend nicht." } },
+          { "left": { "text": "The lamp next to the bed is broken." }, "right": { "text": "Die Lampe neben dem Bett ist kaputt." } },
+          { "left": { "text": "There is no hot water in the shower." }, "right": { "text": "In der Dusche gibt es kein warmes Wasser." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt an der Tür: Could we get some extra towels and another blanket, please? 🧺 Was möchte der Gast?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Zusätzliche Handtücher und noch eine Decke.", "correct": true },
+          { "text": "Frische Handtücher, weil die alten nass geworden sind." },
+          { "text": "Ein zusätzliches Kissen und eine wärmere Decke." }
+        ],
+        "explanation": "Extra towels heißt: zusätzliche Handtücher. Another blanket heißt: noch eine Decke. Der Gast möchte also beides gerne dazubekommen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das Bad hat kein warmes Wasser. 🚿",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The bathroom" },
+          { "text": "has no" },
+          { "text": "hot water" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Heizung im Schlafzimmer der Gäste funktioniert nicht. Du entschuldigst dich und versprichst schnelle Hilfe. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I am so sorry, I will fix it right away.", "correct": true },
+          { "text": "I am so sorry, I will fix it next week." },
+          { "text": "I am afraid I cannot fix it today." },
+          { "text": "I am so sorry, but you have to fix it yourself." }
+        ],
+        "explanation": "Right away heißt: sofort. Mit I am so sorry entschuldigst du dich. Mit I will fix it right away versprichst du: Ich kümmere mich sofort darum."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich bringe Ihnen frische Handtücher. 🧺",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "will bring" },
+          { "text": "you" },
+          { "text": "fresh towels" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Meldet der Gast ein Problem — oder bietest du eine Lösung an? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "problem", "label": "Problem", "icon": "😟" },
+          { "id": "loesung", "label": "Lösung", "icon": "🛠️" }
+        ],
+        "items": [
+          { "text": "The heating is making a strange noise.", "bucket": "problem" },
+          { "text": "I will check the boiler right away.", "bucket": "loesung" },
+          { "text": "The Wi-Fi keeps disconnecting.", "bucket": "problem" },
+          { "text": "I will reset the router for you.", "bucket": "loesung" },
+          { "text": "There is no hot water this morning.", "bucket": "problem" },
+          { "text": "I will bring you a new lamp immediately.", "bucket": "loesung" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast schreibt dir: The Wi-Fi has not been working since yesterday evening, and we need it for work. 📶 Was sagt der Gast?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Das WLAN geht seit gestern Abend nicht — und sie brauchen es für die Arbeit.", "correct": true },
+          { "text": "Das WLAN ist nur langsam, aber es funktioniert noch." },
+          { "text": "Das WLAN geht tagsüber, nur am Abend funktioniert es nicht." },
+          { "text": "Sie brauchen das WLAN nicht mehr, die Arbeit ist fertig." }
+        ],
+        "explanation": "Since yesterday evening heißt: seit gestern Abend. We need it for work heißt: Wir brauchen es für die Arbeit. Das Problem ist für den Gast also dringend."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich repariere die Heizung für Sie. 🛠️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "will fix" },
+          { "text": "the heating for you" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "So hilfst du weiter: Welcher englische Satz passt? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Es tut mir sehr leid, ich kümmere mich sofort darum." }, "right": { "text": "I am so sorry, I will take care of it right away." } },
+          { "left": { "text": "Ich bringe Ihnen sofort frische Handtücher." }, "right": { "text": "I will bring you fresh towels immediately." } },
+          { "left": { "text": "Ich schicke jemanden, der das repariert." }, "right": { "text": "I will send someone to repair it." } },
+          { "left": { "text": "Danke, dass Sie mir Bescheid gesagt haben." }, "right": { "text": "Thank you for letting me know." } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

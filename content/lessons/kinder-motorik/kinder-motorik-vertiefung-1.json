@@ -2,6 +2,7 @@
   "topic_slug": "kinder-motorik",
   "slug": "kinder-motorik-vertiefung-1",
   "title": "Los geht's! Bewegungsspiele anleiten",
+  "intro": "🏃 In dieser Lektion leitest du ein Bewegungsspiel für Kinder an. Ein solches Spiel hat einen klaren Ablauf. Zuerst bereitest du alles vor, zum Beispiel einen freien und sicheren Platz. Dann erklärst du die Regeln kurz und einfach. Denn kleine Kinder merken sich nur wenig auf einmal. Danach machst du das Spiel am besten einmal selbst vor. Vormachen hilft am meisten, weil die Kinder so sehen, wie es geht. Verschiedene Spiele üben verschiedene Fähigkeiten. Der Stopp-Tanz übt zum Beispiel die Impulskontrolle, also das Sich-Beherrschen. Am Ende beruhigt ein ruhiges Spiel die aufgedrehten Kinder wieder.",
   "sort": 4,
   "exercises": [
     {
@@ -9,25 +10,44 @@
       "data": {
         "prompt": "🏃 Du leitest ein Bewegungsspiel an. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧹 Einen freien und sicheren Platz suchen." },
-          { "text": "📣 Die Kinder zusammenrufen." },
-          { "text": "🗣️ Die Regeln kurz und einfach erklären." },
-          { "text": "🎬 Das Spiel einmal vormachen." },
-          { "text": "🎉 Zusammen spielen." },
-          { "text": "😌 Zum Schluss ruhig ausklingen lassen." }
+          {
+            "text": "🧹 Einen freien und sicheren Platz suchen."
+          },
+          {
+            "text": "📣 Die Kinder zusammenrufen."
+          },
+          {
+            "text": "🗣️ Die Regeln kurz und einfach erklären."
+          },
+          {
+            "text": "🎬 Das Spiel einmal vormachen."
+          },
+          {
+            "text": "🎉 Zusammen spielen."
+          },
+          {
+            "text": "😌 Zum Schluss ruhig ausklingen lassen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗣️ Du erklärst kleinen Kindern ein Spiel. Wie machst du das am besten?",
+        "prompt": "🗣️ Du erklärst 4-jährigen Kindern ein neues Spiel. Wie erklärst du es am besten?",
         "options": [
-          { "text": "🎬 Kurz und einfach. Und ich mache es einmal vor.", "correct": true },
-          { "text": "📜 Ich erkläre alle Regeln ganz lange und genau." },
-          { "text": "🤐 Ich erkläre gar nichts. Die Kinder sollen raten." }
+          {
+            "text": "🎬 Kurz und einfach. Und ich mache es einmal vor.",
+            "correct": true
+          },
+          {
+            "text": "📜 Ich erkläre alle Regeln genau und ausführlich, damit nichts unklar bleibt."
+          },
+          {
+            "text": "👂 Ich erkläre es nur mit vielen Worten. Vormachen brauche ich nicht."
+          }
         ],
-        "explanation": "Kleine Kinder verstehen kurze Sätze am besten. Vormachen hilft noch mehr: Die Kinder sehen, wie das Spiel geht."
+        "explanation": "Kleine Kinder können sich nur wenig auf einmal merken. Darum: kurze Sätze statt langer Regeln. Und vormachen. Vormachen heißt: Du zeigst das Spiel einmal selbst vor. So sehen die Kinder, wie es geht."
       }
     },
     {
@@ -35,16 +55,42 @@
       "data": {
         "prompt": "⏰ Was machst du vor dem Spiel? Was machst du nach dem Spiel? Sortiere.",
         "buckets": [
-          { "id": "vorher", "label": "Vor dem Spiel", "icon": "🏁" },
-          { "id": "nachher", "label": "Nach dem Spiel", "icon": "🏆" }
+          {
+            "id": "vorher",
+            "label": "Vor dem Spiel",
+            "icon": "🏁"
+          },
+          {
+            "id": "nachher",
+            "label": "Nach dem Spiel",
+            "icon": "🏆"
+          }
         ],
         "items": [
-          { "text": "Den Platz frei räumen", "bucket": "vorher" },
-          { "text": "Die Regeln erklären", "bucket": "vorher" },
-          { "text": "Wasser trinken", "bucket": "nachher" },
-          { "text": "Das Spiel vormachen", "bucket": "vorher" },
-          { "text": "Ruhig ausklingen lassen", "bucket": "nachher" },
-          { "text": "Die Kinder loben", "bucket": "nachher" }
+          {
+            "text": "Den Platz frei räumen",
+            "bucket": "vorher"
+          },
+          {
+            "text": "Die Regeln erklären",
+            "bucket": "vorher"
+          },
+          {
+            "text": "Wasser trinken",
+            "bucket": "nachher"
+          },
+          {
+            "text": "Das Spiel vormachen",
+            "bucket": "vorher"
+          },
+          {
+            "text": "Ruhig ausklingen lassen",
+            "bucket": "nachher"
+          },
+          {
+            "text": "Die Kinder loben",
+            "bucket": "nachher"
+          }
         ]
       }
     },
@@ -53,10 +99,38 @@
       "data": {
         "prompt": "🎯 Welches Bewegungsspiel übt was? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🏃 Fangen spielen" }, "right": { "text": "Schnell rennen und ausweichen" } },
-          { "left": { "text": "🎵 Stopp-Tanz" }, "right": { "text": "Bewegen und plötzlich still stehen" } },
-          { "left": { "text": "🛍️ Sackhüpfen" }, "right": { "text": "Hüpfen und Gleichgewicht halten" } },
-          { "left": { "text": "🥄 Eierlauf" }, "right": { "text": "Langsam gehen und balancieren" } }
+          {
+            "left": {
+              "text": "🏃 Fangen spielen"
+            },
+            "right": {
+              "text": "Schnell rennen und ausweichen"
+            }
+          },
+          {
+            "left": {
+              "text": "🎵 Stopp-Tanz"
+            },
+            "right": {
+              "text": "Bewegen und plötzlich still stehen"
+            }
+          },
+          {
+            "left": {
+              "text": "🛍️ Sackhüpfen"
+            },
+            "right": {
+              "text": "Hüpfen und Gleichgewicht halten"
+            }
+          },
+          {
+            "left": {
+              "text": "🥄 Eierlauf"
+            },
+            "right": {
+              "text": "Langsam gehen und balancieren"
+            }
+          }
         ],
         "memory": false
       }
@@ -64,13 +138,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎵 Ihr spielt Stopp-Tanz. Die Musik stoppt. Was machen die Kinder?",
+        "prompt": "🎵 Ihr spielt Stopp-Tanz. Die Musik stoppt plötzlich. Was ist jetzt richtig?",
         "options": [
-          { "text": "🗿 Sie bleiben sofort stehen. Wie eine Statue.", "correct": true },
-          { "text": "🏃 Sie rennen ganz schnell weg." },
-          { "text": "😴 Sie legen sich schlafen." }
+          {
+            "text": "🗿 Sie bleiben sofort stehen. Wie eine Statue.",
+            "correct": true
+          },
+          {
+            "text": "🕺 Sie tanzen einfach weiter, bis die Musik wieder angeht."
+          },
+          {
+            "text": "👏 Sie klatschen laut und rufen: Stopp!"
+          }
         ],
-        "explanation": "Beim Stopp-Tanz tanzen alle zur Musik. Stoppt die Musik, bleiben alle wie eine Statue stehen. Das übt: Bewegen und sich beherrschen."
+        "explanation": "Beim Stopp-Tanz tanzen alle zur Musik. Stoppt die Musik, bleiben alle wie eine Statue stehen. Das übt die Impulskontrolle. Impulskontrolle heißt: sich beherrschen und nicht einfach weitermachen."
       }
     },
     {
@@ -78,48 +159,79 @@
       "data": {
         "prompt": "🥄 Du leitest einen Eierlauf an. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🥄 Für jedes Kind einen Löffel und einen Ball holen." },
-          { "text": "🏁 Start und Ziel festlegen." },
-          { "text": "🗣️ Erklären: Der Ball darf nicht herunterfallen." },
-          { "text": "📣 Rufen: Auf die Plätze, fertig, los!" },
-          { "text": "🐢 Alle laufen langsam und vorsichtig zum Ziel." }
+          {
+            "text": "🥄 Für jedes Kind einen Löffel und einen Ball holen."
+          },
+          {
+            "text": "🏁 Start und Ziel festlegen."
+          },
+          {
+            "text": "🗣️ Erklären: Der Ball darf nicht herunterfallen."
+          },
+          {
+            "text": "📣 Rufen: Auf die Plätze, fertig, los!"
+          },
+          {
+            "text": "🐢 Alle laufen langsam und vorsichtig zum Ziel."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🙋 Ein Kind hat das Spiel nicht verstanden. Es steht ratlos da. Was machst du?",
+        "prompt": "🙋 Ein Kind steht ratlos da. Es hat das Spiel nicht verstanden. Was machst du?",
         "options": [
-          { "text": "🎬 Ich erkläre es nochmal in Ruhe und mache es vor.", "correct": true },
-          { "text": "😠 Ich sage: Dann spielst du eben nicht mit." },
-          { "text": "🙈 Ich ignoriere das Kind." }
+          {
+            "text": "🎬 Ich erkläre es nochmal in Ruhe und mache es vor.",
+            "correct": true
+          },
+          {
+            "text": "🏃 Ich mache schnell weiter, damit die anderen nicht warten."
+          },
+          {
+            "text": "🗣️ Ich wiederhole die Erklärung schnell mit denselben schweren Worten."
+          }
         ],
-        "explanation": "Manche Kinder brauchen mehr Zeit. Erkläre es nochmal langsam. Vormachen hilft am meisten. So kann jedes Kind mitspielen."
+        "explanation": "Manche Kinder brauchen mehr Zeit. Erkläre es nochmal langsam und mit einfachen Worten. Vormachen hilft am meisten: Das Kind sieht dann, wie es geht. So kann jedes Kind mitspielen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤪 Nach dem wilden Toben sind die Kinder ganz aufgedreht. Was hilft jetzt?",
+        "prompt": "🤪 Nach dem wilden Toben sind die Kinder ganz aufgedreht. Wie beruhigst du sie am besten?",
         "options": [
-          { "text": "😌 Ein ruhiges Spiel zum Ausklingen. Zum Beispiel: Alle liegen still wie schlafende Katzen.", "correct": true },
-          { "text": "🏃 Noch ein wilderes Spiel." },
-          { "text": "📢 Ich schreie: Ruhe jetzt!" }
+          {
+            "text": "😌 Ein ruhiges Spiel zum Ausklingen. Zum Beispiel: Alle liegen still wie schlafende Katzen.",
+            "correct": true
+          },
+          {
+            "text": "🏃 Noch ein schnelles Laufspiel. Danach sind sie bestimmt müde."
+          },
+          {
+            "text": "📢 Ich rufe laut und bestimmt: Ruhe jetzt, sofort hinsetzen!"
+          }
         ],
-        "explanation": "Nach dem Toben brauchen Kinder Hilfe beim Ruhigwerden. Ein ruhiges Spiel klingt sanft aus. So kommen alle wieder runter."
+        "explanation": "Nach dem Toben brauchen Kinder Hilfe beim Ruhigwerden. Noch ein wildes Spiel oder lautes Rufen macht sie eher noch wilder. Ein ruhiges Spiel klingt sanft aus. So kommen alle wieder runter."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Was rufst du beim Start von einem Wettlauf?",
+        "prompt": "🌟 Letzte Frage: Wie rufst du den Start bei einem Wettlauf – und in welcher Reihenfolge?",
         "options": [
-          { "text": "🏁 Auf die Plätze, fertig, los!", "correct": true },
-          { "text": "😴 Gute Nacht!" },
-          { "text": "🍽️ Guten Appetit!" }
+          {
+            "text": "🏁 Auf die Plätze, fertig, los!",
+            "correct": true
+          },
+          {
+            "text": "🏁 Los, fertig, auf die Plätze!"
+          },
+          {
+            "text": "🏁 Fertig? Dann lauft schon mal los!"
+          }
         ],
-        "explanation": "Auf die Plätze, fertig, los! So starten alle gleichzeitig. Viel Spaß beim Spielen!"
+        "explanation": "Auf die Plätze, fertig, los! Nur in dieser Reihenfolge starten alle fair und gleichzeitig. Viel Spaß beim Spielen!"
       }
     }
   ]

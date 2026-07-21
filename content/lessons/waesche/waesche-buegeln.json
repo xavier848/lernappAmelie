@@ -10,10 +10,10 @@
         "prompt": "🧍 Es gibt einen Bügelplatz für Rechtshänder und einen für Linkshänder. Wie sind sie aufgebaut?",
         "options": [
           { "text": "Spiegelbildlich. Alles steht auf der jeweils anderen Seite.", "correct": true },
-          { "text": "Völlig gleich. Es gibt keinen Unterschied." },
-          { "text": "Der Bügelplatz für Linkshänder braucht kein Bügelbrett." }
+          { "text": "Fast gleich. Nur das Bügeleisen wechselt die Seite, Korb und Ablage bleiben aber am selben Platz." },
+          { "text": "Gleich aufgebaut. Nur das Bügelbrett wird gedreht, der Rest bleibt stehen." }
         ],
-        "explanation": "Ein Linkshänder arbeitet mit der linken Hand, ein Rechtshänder mit der rechten. Darum ist der Bügelplatz spiegelbildlich. Der Korb und die Ablage stehen jeweils auf der passenden Seite. So ist alles gut erreichbar."
+        "explanation": "Spiegelbildlich heißt: Der ganze Platz ist wie im Spiegel gedreht. Ein Linkshänder arbeitet mit der linken Hand, ein Rechtshänder mit der rechten. Darum wechseln alle Teile die Seite, also Korb, Ablage und Bügelbrett. So ist jedes Teil auf der passenden Seite gut erreichbar."
       }
     },
     {
@@ -34,10 +34,10 @@
         "prompt": "💦 Trockene Wäsche lässt sich besser bügeln, wenn sie leicht feucht ist. Womit sprengst du sie ein?",
         "options": [
           { "text": "Mit lauwarmem Wasser.", "correct": true },
-          { "text": "Mit heißem Öl." },
-          { "text": "Mit kaltem Essig." }
+          { "text": "Mit kochend heißem Wasser aus dem Wasserkocher." },
+          { "text": "Mit unverdünntem Weichspüler." }
         ],
-        "explanation": "Ein bisschen Feuchtigkeit macht den Stoff glatt. Du besprühst die trockene Wäsche mit lauwarmem Wasser. Danach lässt sie sich viel leichter bügeln, und die Falten gehen besser heraus."
+        "explanation": "Einsprengen heißt: die trockene Wäsche leicht befeuchten. Dafür nimmst du lauwarmes Wasser. Kochend heißes Wasser brauchst du nicht, es bringt keinen Vorteil. Weichspüler gehört in die Waschmaschine, nicht auf die trockene Wäsche. Ein bisschen Feuchtigkeit macht den Stoff glatt, dann gehen die Falten leichter heraus."
       }
     },
     {
@@ -46,10 +46,10 @@
         "prompt": "⏳ Du hast Wäsche eingesprengt. Wie lange darf sie höchstens liegen bleiben?",
         "options": [
           { "text": "Höchstens 24 Stunden.", "correct": true },
-          { "text": "Eine ganze Woche." },
-          { "text": "So lange du willst." }
+          { "text": "Höchstens 3 Tage, sonst wird sie nicht glatt genug." },
+          { "text": "Höchstens eine Woche, wenn sie kühl liegt." }
         ],
-        "explanation": "Feuchte Wäsche, die zu lange liegt, kann muffig riechen oder stockig werden. Darum sprengst du sie höchstens 24 Stunden vorher ein. So bleibt sie frisch bis zum Bügeln."
+        "explanation": "24 Stunden sind ein Tag. Länger sollte feuchte Wäsche nicht liegen. Sonst kann sie muffig riechen oder stockig werden, also fleckig durch die Feuchtigkeit. Ein paar Tage sind darum schon zu lang. So bleibt die Wäsche frisch bis zum Bügeln."
       }
     },
     {
@@ -72,13 +72,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📥 Du legst die Wäsche in den Korb, wie du sie bügeln willst. Welche Teile liegen oben?",
+        "prompt": "📥 Du legst die Wäsche in den Korb, so wie du sie bügeln willst. Welche Teile liegen ganz oben?",
         "options": [
           { "text": "Die Teile, die eine niedrige Bügeltemperatur brauchen.", "correct": true },
-          { "text": "Die schwersten Teile." },
-          { "text": "Die größten Teile." }
+          { "text": "Die Teile mit der höchsten Bügeltemperatur, damit das heiße Eisen gleich genutzt wird." },
+          { "text": "Die Teile aus dickem Stoff, weil die am längsten dauern." }
         ],
-        "explanation": "Du bügelst von kühl zu heiß, damit das Eisen langsam wärmer wird. Deshalb legst du die Teile mit niedriger Temperatur nach oben. Sie kommen zuerst dran. So sparst du dir ständiges Umstellen am Bügeleisen."
+        "explanation": "Die Bügeltemperatur sagt, wie heiß das Eisen sein darf. Du bügelst von kühl zu heiß, damit das Eisen nur langsam wärmer wird. Deshalb legst du die Teile mit niedriger Temperatur nach oben, sie kommen zuerst dran. So musst du das Bügeleisen nicht ständig umstellen."
       }
     },
     {
@@ -86,7 +86,7 @@
       "data": {
         "prompt": "🌬️ Wäsche an der Luft trocknen: Verbinde jede Regel mit ihrer Begründung.",
         "pairs": [
-          { "left": { "text": "👔 Hemd und Bluse am Saum anklammern" }, "right": { "text": "So gibt es keine Druckstellen von der Klammer" } },
+          { "left": { "text": "👔 Hemd und Bluse am Saum anklammern" }, "right": { "text": "So sieht man später keine Druckstellen von der Klammer" } },
           { "left": { "text": "👖 Hose und Rock am Bund anklammern" }, "right": { "text": "So verziehen sie sich nicht" } },
           { "left": { "text": "👕 T-Shirt zur Hälfte über die Leine hängen" }, "right": { "text": "So bleibt seine Form erhalten" } },
           { "left": { "text": "🌈 Buntes und Kunstfaser nicht in die pralle Sonne" }, "right": { "text": "So verblasst oder vergilbt der Stoff nicht" } }
@@ -97,13 +97,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Welche Nummer ist am Bügelplatz das Bügelbrett?",
+        "prompt": "🌟 Zum Schluss ein kleiner Transfer: Du willst gleich ein Hemd auf die Arbeitsfläche legen und bügeln. Zu welcher Nummer am Bügelplatz gehst du?",
         "options": [
-          { "text": "Die Nummer 3.", "correct": true },
-          { "text": "Die Nummer 1." },
-          { "text": "Die Nummer 2." }
+          { "text": "Zur Nummer 3, dem Bügelbrett.", "correct": true },
+          { "text": "Zur Nummer 1, dem Korb mit der ungebügelten Wäsche." },
+          { "text": "Zur Nummer 2, der Ablage für die gebügelte Wäsche." }
         ],
-        "explanation": "Nummer 1 ist der Korb mit der ungebügelten Wäsche. Nummer 2 ist die Ablage für die gebügelte Wäsche. Nummer 3 ist das Bügelbrett, also dein Arbeitsplatz."
+        "explanation": "Gebügelt wird auf dem Bügelbrett, und das ist die Nummer 3. Nummer 1 ist der Korb mit der ungebügelten Wäsche, da nimmst du das Hemd heraus. Nummer 2 ist die Ablage für die fertig gebügelte Wäsche, da legst du es danach hin."
       }
     }
   ]

@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤐 Eine Jacke mit Reißverschluss kommt in die Wäsche. Was machst du vorher?",
+        "prompt": "🤐 Eine Jacke mit Reißverschluss soll in die Waschmaschine. Was machst du vorher, damit nichts kaputt geht?",
         "options": [
-          { "text": "Ich mache den Reißverschluss zu.", "correct": true },
-          { "text": "Ich lasse ihn offen." },
-          { "text": "Ich schneide ihn ab." }
+          { "text": "Ich mache den Reißverschluss ganz zu.", "correct": true },
+          { "text": "Ich lasse ihn offen. So trocknet er später besser." },
+          { "text": "Ich mache ihn nur bis zur Hälfte zu." }
         ],
-        "explanation": "Ein offener Reißverschluss reibt in der Trommel an anderer Wäsche. Das macht Löcher und zieht Fäden."
+        "explanation": "Ein offener oder halb offener Reißverschluss reibt in der Trommel an anderer Wäsche. Die Trommel ist der große runde Behälter, in dem sich die Wäsche dreht. Die harten Zähne machen Löcher und ziehen Fäden. Darum immer ganz schließen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🫧 Feine Sachen wie BH oder dünne Bluse: Wie wäschst du sie schonend?",
+        "prompt": "🫧 Feine Wäsche wie ein BH oder eine dünne Bluse soll in die Maschine. Wie schützt du sie am besten?",
         "options": [
           { "text": "Ich stecke sie in ein Wäschenetz.", "correct": true },
-          { "text": "Ich werfe sie lose zu den Jeans." },
-          { "text": "Ich wasche sie ganz heiß." }
+          { "text": "Ich wasche sie zusammen mit den Jeans, das spart Wasser." },
+          { "text": "Ich stelle die Schleuder auf die höchste Stufe." }
         ],
-        "explanation": "Das Wäschenetz schützt feine Stoffe. Nichts verhakt sich, nichts verzieht sich."
+        "explanation": "Ein Wäschenetz ist ein Beutel aus feinem Netz. Es schützt zarte Stoffe: Nichts verhakt sich, nichts verzieht sich. Harte Jeans und starkes Schleudern würden feine Wäsche dagegen ausleiern. Schleudern heißt: schnelles Drehen, das Wasser aus der Wäsche presst."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👕 Ein T-Shirt hat einen Aufdruck. Wie wäschst und bügelst du es?",
+        "prompt": "👕 Auf einem T-Shirt ist ein Aufdruck aus Gummi oder Folie. Wie behandelst du es beim Waschen und Bügeln?",
         "options": [
-          { "text": "Auf links gedreht.", "correct": true },
-          { "text": "Ganz normal, mit dem Druck nach außen." },
-          { "text": "Mit dem heißen Eisen direkt auf den Druck." }
+          { "text": "Auf links gedreht – die Innenseite zeigt nach außen.", "correct": true },
+          { "text": "Ganz normal, mit dem Aufdruck nach außen." },
+          { "text": "Auf links waschen, aber mit dem heißen Eisen direkt über den Aufdruck fahren." }
         ],
-        "explanation": "Auf links heißt: Innenseite nach außen. So schützt du den Aufdruck vor Hitze und Reibung."
+        "explanation": "Auf links heißt: Du drehst das Shirt um, die Innenseite kommt nach außen. So schützt du den Aufdruck vor Hitze und Reibung. Direkte Hitze vom Eisen lässt den Druck schmelzen oder rissig werden."
       }
     },
     {
@@ -70,25 +70,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚠️ Du machst beim Bügeln kurz Pause. Wie stellst du das heiße Eisen ab?",
+        "prompt": "⚠️ Beim Bügeln machst du kurz Pause. Wie stellst du das heiße Bügeleisen sicher ab?",
         "options": [
           { "text": "Aufrecht auf den Standfuß.", "correct": true },
           { "text": "Flach auf das Bügelbrett." },
-          { "text": "Auf das frisch gebügelte Hemd." }
+          { "text": "Flach hinlegen – für ein paar Sekunden ist das ok." }
         ],
-        "explanation": "Liegt das heiße Eisen flach, verbrennt es Stoff und Brett. Das ist Brandgefahr! Immer aufrecht abstellen."
+        "explanation": "Liegt das heiße Eisen flach, verbrennt es Stoff und Brett – schon in wenigen Sekunden. Das ist Brandgefahr! Der Standfuß ist die aufrechte Rückseite vom Eisen. Dort steht es, ohne dass die heiße Sohle etwas berührt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧠 Du bügelst einen ganzen Korb. Womit fängst du an?",
+        "prompt": "🧠 Vor dir liegt ein ganzer Korb Wäsche zum Bügeln. Womit fängst du an?",
         "options": [
-          { "text": "Mit den kühlen Sachen. Die heißen kommen danach.", "correct": true },
-          { "text": "Mit den heißen Sachen. Die kühlen kommen danach." },
-          { "text": "Immer bunt durcheinander." }
+          { "text": "Mit den kühlen Sachen (z. B. Synthetik). Die heißen kommen danach.", "correct": true },
+          { "text": "Mit den heißen Sachen (z. B. Baumwolle). Die kühlen kommen danach." },
+          { "text": "Egal – das Eisen ist ja immer gleich heiß." }
         ],
-        "explanation": "Das Eisen wird schnell heißer, aber nur langsam kühler. Darum: erst kühl (Synthetik), dann heiß (Baumwolle)."
+        "explanation": "Das Eisen wird schnell heißer, aber nur langsam wieder kühler. Darum: erst kühl (Synthetik), dann heiß (Baumwolle). Synthetik sind Kunstfasern, die schmelzen bei zu viel Hitze."
       }
     },
     {
@@ -112,12 +112,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✨ Das Hemd ist fertig gebügelt. Was machst du damit?",
+        "prompt": "✨ Das Hemd ist frisch gebügelt und noch warm. Was machst du sofort damit?",
         "options": [
-          { "text": "Sofort auf einen Kleiderbügel hängen.", "correct": true },
-          { "text": "Zusammenknüllen und in den Schrank werfen." }
+          { "text": "Auf einen Kleiderbügel hängen.", "correct": true },
+          { "text": "Zusammenknüllen und in den Schrank werfen." },
+          { "text": "Zum Abkühlen über die Stuhllehne legen." }
         ],
-        "explanation": "Auf dem Bügel bleibt das Hemd glatt – deine Arbeit hat sich gelohnt."
+        "explanation": "Warme Wäsche ist noch weich und knittert leicht. Auf dem Bügel kühlt das Hemd glatt aus – deine Arbeit bleibt erhalten. Über einer Lehne oder zusammengeknüllt bekommt es sofort neue Falten."
       }
     }
   ]

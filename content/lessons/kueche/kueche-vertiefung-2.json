@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📅 Auf dem Joghurt steht: \"Mindestens haltbar bis\". Was bedeutet das?",
+        "prompt": "📅 Auf dem Joghurt steht: „Mindestens haltbar bis“. Was sagt dir dieses Datum?",
         "options": [
           { "text": "Bis zu diesem Datum ist er sicher gut. Danach prüfe ich ihn.", "correct": true },
           { "text": "Nach diesem Datum muss er sofort in den Müll." },
-          { "text": "Das Datum ist nur Dekoration." }
+          { "text": "Das Datum sagt, an welchem Tag der Joghurt gemacht wurde." }
         ],
-        "explanation": "MHD heißt: mindestens haltbar bis. Es ist kein Wegwerf-Datum. Danach gilt: erst prüfen, dann entscheiden."
+        "explanation": "MHD heißt „mindestens haltbar bis“. So lange garantiert der Hersteller die volle Qualität. Es ist kein Wegwerf-Datum. Danach gilt: erst prüfen, dann entscheiden."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Das MHD vom Joghurt war gestern. Er sieht normal aus und riecht normal. Was machst du?",
+        "prompt": "🥣 Das MHD vom Joghurt war gestern. Er sieht normal aus und riecht normal. Was ist jetzt richtig?",
         "options": [
           { "text": "Ich probiere vorsichtig. Ist alles normal, kann ich ihn essen.", "correct": true },
-          { "text": "Ich werfe ihn sofort weg." },
-          { "text": "Ich esse ihn mit geschlossenen Augen, ohne zu prüfen." }
+          { "text": "Ich werfe ihn sofort weg – nach dem MHD ist alles verdorben." },
+          { "text": "Ich koche ihn kurz ab, dann ist er sicher." }
         ],
-        "explanation": "Augen, Nase, kleiner Probier-Test: Ist alles normal, ist der Joghurt meist noch gut. So landet weniger Essen im Müll."
+        "explanation": "Augen, Nase und ein kleiner Probier-Test verraten dir mehr als das Datum. Ist alles normal, ist der Joghurt meist noch gut. So landet weniger Essen im Müll."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥩 Auf dem Hackfleisch steht: \"Zu verbrauchen bis\" – und das war gestern. Was machst du?",
+        "prompt": "🥩 Auf dem Hackfleisch steht „Zu verbrauchen bis“ – nicht „mindestens haltbar bis“. Das Datum war gestern. Was machst du?",
         "options": [
           { "text": "Ab in den Müll. Dieses Datum ist streng.", "correct": true },
-          { "text": "Ich rieche kurz daran und esse es dann." },
-          { "text": "Ich brate es einfach extra lange." }
+          { "text": "Ich prüfe es mit der Nase wie beim Joghurt und esse es dann." },
+          { "text": "Ich brate es einfach extra lange, dann ist es sicher." }
         ],
-        "explanation": "\"Zu verbrauchen bis\" steht auf schnell verderblichen Sachen wie Hackfleisch. Danach kannst du krank werden. Also: weg damit."
+        "explanation": "„Zu verbrauchen bis“ ist ein Verbrauchsdatum. Es steht auf schnell verderblichen Sachen wie Hackfleisch oder Fisch. Nach diesem Tag kannst du krank werden – auch langes Braten hilft dann nicht sicher. Also: weg damit."
       }
     },
     {
@@ -63,13 +63,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛒 Du hast neuen Joghurt gekauft. Im Kühlschrank steht noch alter. Wohin mit dem neuen?",
+        "prompt": "🛒 Du hast neuen Joghurt gekauft. Im Kühlschrank steht noch alter mit früherem Datum. Wohin stellst du den neuen?",
         "options": [
           { "text": "Neu nach hinten, alt nach vorn.", "correct": true },
           { "text": "Neu nach vorn, alt nach hinten." },
-          { "text": "Egal, Hauptsache kalt." }
+          { "text": "Ich stelle den neuen dahin, wo gerade Platz ist." }
         ],
-        "explanation": "Die Regel heißt: Erst rein, erst raus. Das Alte steht vorn und wird zuerst gegessen. So läuft nichts ab."
+        "explanation": "Das nennt man das „Erst rein, erst raus“-Prinzip. Das Alte steht vorn und wird zuerst gegessen. So läuft nichts ab und du wirfst weniger weg."
       }
     },
     {
@@ -88,13 +88,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍓 Auf der Marmelade ist ein Fleck Schimmel. Was machst du?",
+        "prompt": "🍓 Auf der Marmelade im Glas ist ein Fleck Schimmel. Was machst du?",
         "options": [
           { "text": "Das ganze Glas wegwerfen.", "correct": true },
-          { "text": "Nur den Schimmel mit dem Löffel abheben." },
-          { "text": "Den Schimmel unterrühren." }
+          { "text": "Nur den Schimmel und eine dicke Schicht darunter abheben, den Rest essen." },
+          { "text": "Den Schimmel einfach unterrühren." }
         ],
-        "explanation": "Schimmel hat unsichtbare Fäden. Sie stecken schon im ganzen Glas. Darum: komplett wegwerfen."
+        "explanation": "Schimmel bildet feine Fäden. Die ziehen sich unsichtbar durch das ganze Glas – auch dort, wo du nichts siehst. Darum: komplett wegwerfen."
       }
     },
     {
@@ -116,9 +116,10 @@
         "prompt": "🥛 Die Milch riecht sauer und ist klumpig. Was machst du?",
         "options": [
           { "text": "Weg damit. Die trinke ich nicht mehr.", "correct": true },
-          { "text": "Ich trinke sie schnell aus." }
+          { "text": "Ich trinke sie schnell aus, bevor sie noch schlechter wird." },
+          { "text": "Ich gieße sie durch ein Sieb, dann sind die Klumpen weg." }
         ],
-        "explanation": "Sauer und klumpig heißt: verdorben. Deine Nase hat dich gewarnt."
+        "explanation": "Sauer und klumpig heißt: Die Milch ist verdorben. Ein Sieb ändert daran nichts. Deine Nase hat dich schon gewarnt – hör auf sie."
       }
     }
   ]

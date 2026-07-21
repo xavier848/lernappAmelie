@@ -1,0 +1,149 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-zahlen-preise",
+  "title": "Zahlen & Preise",
+  "sort": 18,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: How much is it? 💶 Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Was etwas kostet.", "correct": true },
+          { "text": "Wie spät es ist." },
+          { "text": "Wann der Bus fährt." }
+        ],
+        "explanation": "How much is it? heißt: Wie viel kostet das? Mit dieser Frage fragt der Gast nach dem Preis."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Zahlwort und Zahl: Was gehört zusammen? Links das englische Wort, rechts die Zahl.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "three" }, "right": { "text": "3" } },
+          { "left": { "text": "eight" }, "right": { "text": "8" } },
+          { "left": { "text": "twelve" }, "right": { "text": "12" } },
+          { "left": { "text": "twenty" }, "right": { "text": "20" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das kostet zwanzig Euro. 💶",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "That" },
+          { "text": "costs" },
+          { "text": "twenty" },
+          { "text": "euros" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Manche Zahlen klingen ähnlich. Was heißt thirteen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "13", "correct": true },
+          { "text": "30" },
+          { "text": "3" }
+        ],
+        "explanation": "thirteen heißt 13. thirty heißt 30. Die Endung -teen gehört zu den Zahlen von 13 bis 19."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Frühstück ist um acht Uhr. 🥐",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Breakfast" },
+          { "text": "is" },
+          { "text": "at" },
+          { "text": "eight" },
+          { "text": "o'clock" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt, wann er abreisen muss. Die Abreise ist um 10 Uhr. 🔑 Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Check-out is at ten.", "correct": true },
+          { "text": "Breakfast is at eight o'clock." },
+          { "text": "That costs ten euros." }
+        ],
+        "explanation": "Check-out is at ten. heißt: Die Abreise ist um zehn Uhr. ten heißt zehn."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Geht es um einen Preis oder um eine Uhrzeit? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "preis", "label": "Preis", "icon": "💶" },
+          { "id": "uhrzeit", "label": "Uhrzeit", "icon": "🕗" }
+        ],
+        "items": [
+          { "text": "It costs five euros.", "bucket": "preis" },
+          { "text": "Lunch is at twelve.", "bucket": "uhrzeit" },
+          { "text": "That is fifty euros.", "bucket": "preis" },
+          { "text": "Dinner is at six.", "bucket": "uhrzeit" },
+          { "text": "The ticket costs thirty euros.", "bucket": "preis" },
+          { "text": "The shop opens at nine.", "bucket": "uhrzeit" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Abreise ist um zehn. 🔑",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Check-out" },
+          { "text": "is" },
+          { "text": "at" },
+          { "text": "ten" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Was gehört zusammen? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Wie viel kostet das?" }, "right": { "text": "How much is it?" } },
+          { "left": { "text": "Das kostet dreißig Euro." }, "right": { "text": "That costs thirty euros." } },
+          { "left": { "text": "Das kostet vierzig Euro." }, "right": { "text": "That costs forty euros." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach dem Preis für den Skibus. Er kostet sieben Euro. 🚌 Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "It costs seven euros.", "correct": true },
+          { "text": "It costs eleven euros." },
+          { "text": "It is seven o'clock." }
+        ],
+        "explanation": "seven heißt sieben. It costs seven euros. heißt: Es kostet sieben Euro. eleven wäre die Zahl elf."
+      }
+    }
+  ]
+}

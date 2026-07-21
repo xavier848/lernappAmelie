@@ -7,49 +7,49 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍲 Eine Grundlage aus Mehl und Fett, mit der du Suppen und Soßen bindest. Wie heißt sie?",
+        "prompt": "🍲 Du setzt eine helle Soße an. Du rührst Mehl in heißes Fett und gießt dann Flüssigkeit dazu. Wie heißt diese Grundlage?",
         "options": [
           { "text": "Mehlschwitze.", "correct": true },
-          { "text": "Marinade." },
-          { "text": "Kompott." }
+          { "text": "Legierung." },
+          { "text": "Speisestärke." }
         ],
-        "explanation": "Für die Mehlschwitze rührst du Mehl in heißes Fett. Dann gießt du Flüssigkeit dazu. So wird die Soße oder Suppe schön sämig."
+        "explanation": "Die Mehlschwitze ist Mehl, das in heißem Fett angeschwitzt wird. Dann gießt du Flüssigkeit dazu. So wird die Soße oder Suppe sämig. Eine Legierung bindet mit Eigelb und Sahne, Speisestärke bindet ganz ohne Fett."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍏 Obst, das mit Zucker gegart wurde. Wie heißt diese Speise?",
+        "prompt": "🍏 Du kochst Obststücke mit Zucker weich. Die Stücke bleiben dabei ganz. Wie heißt diese Speise?",
         "options": [
           { "text": "Kompott.", "correct": true },
-          { "text": "Auflauf." },
-          { "text": "Bratlinge." }
+          { "text": "Mus." },
+          { "text": "Gelee." }
         ],
-        "explanation": "Beim Kompott kochst du Obst mit Zucker weich. Man isst es oft als Nachtisch, zum Beispiel Apfelkompott."
+        "explanation": "Beim Kompott garst du Obst mit Zucker weich, zum Beispiel Apfelkompott. Die Stücke bleiben ganz. Mus wird dagegen fein passiert, Gelee macht man aus Saft und lässt es fest werden."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧀 Ein Gericht in einer feuerfesten Form, das im Backofen überbacken wird und aufgeht. Wie heißt es?",
+        "prompt": "🧀 Du füllst eine Masse in eine feuerfeste Form und schiebst sie in den Backofen. Sie geht auf und wird oben goldbraun. Wie heißt dieses Gericht?",
         "options": [
           { "text": "Auflauf.", "correct": true },
-          { "text": "Suppe." },
-          { "text": "Salat." }
+          { "text": "Gratin." },
+          { "text": "Eintopf." }
         ],
-        "explanation": "Der Auflauf gart in einer feuerfesten Form im Backofen. Oben wird er goldbraun. Man macht ihn zum Beispiel mit Nudeln oder Kartoffeln."
+        "explanation": "Der Auflauf gart in einer feuerfesten Form im Backofen. Er geht auf und wird oben goldbraun. Ein Gratin wird nur überbacken und geht nicht auf. Ein Eintopf kocht dagegen im Topf auf dem Herd."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌿 Eine gewürzte Flüssigkeit, die Zutaten Geschmack gibt und sie zarter macht. Wie heißt sie?",
+        "prompt": "🌿 Du legst rohes Fleisch in eine gewürzte Flüssigkeit ein. Es bekommt Geschmack und wird zarter. Wie heißt diese Flüssigkeit?",
         "options": [
           { "text": "Marinade.", "correct": true },
-          { "text": "Mehlschwitze.", "correct": false },
-          { "text": "Creme." }
+          { "text": "Sud." },
+          { "text": "Fond." }
         ],
-        "explanation": "In der Marinade legst du zum Beispiel Fleisch ein. Sie besteht oft aus Öl, Säure und Gewürzen. So bekommt das Essen Geschmack."
+        "explanation": "In der Marinade legst du zum Beispiel Fleisch ein. Sie besteht aus Öl, Säure und Gewürzen. Die Säure macht das Fleisch zarter. Ein Sud oder Fond ist dagegen eine Brühe zum Kochen, nicht zum Einlegen."
       }
     },
     {
@@ -58,9 +58,9 @@
         "prompt": "🔗 Welche Speise passt zur Erklärung? Finde die Paare.",
         "pairs": [
           { "left": { "text": "🥣 Suppe" }, "right": { "text": "flüssiges, gekochtes Gericht" } },
-          { "left": { "text": "🥔 Bratlinge" }, "right": { "text": "Teigmasse in der Pfanne gebraten" } },
+          { "left": { "text": "🥔 Bratlinge" }, "right": { "text": "geformte Masse in der Pfanne gebraten" } },
           { "left": { "text": "🥟 Klöße" }, "right": { "text": "in Flüssigkeit gar gezogen" } },
-          { "left": { "text": "🥞 Plinsen" }, "right": { "text": "andere Wort für Pfannkuchen" } },
+          { "left": { "text": "🥞 Plinsen" }, "right": { "text": "anderes Wort für Pfannkuchen" } },
           { "left": { "text": "🍮 Creme" }, "right": { "text": "feine süße Eierspeise" } },
           { "left": { "text": "🥗 Salat" }, "right": { "text": "kalt, aus marinierten Zutaten" } }
         ],
@@ -70,13 +70,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍮 Eine süße Speise, die in einer verschlossenen Form im Wasserbad gart. Wie heißt sie?",
+        "prompt": "🍮 Eine süße Masse gart in einer geschlossenen Form im heißen Wasserbad. Danach wird sie warm gestürzt. Wie heißt diese Speise?",
         "options": [
           { "text": "Pudding.", "correct": true },
-          { "text": "Kompott." },
-          { "text": "Suppe." }
+          { "text": "Flammeri." },
+          { "text": "Creme." }
         ],
-        "explanation": "Der Pudding gart in einer geschlossenen Form. Die Form steht im heißen Wasserbad. Danach stürzt man den Pudding warm auf einen Teller."
+        "explanation": "Der Pudding gart in einer geschlossenen Form im heißen Wasserbad. Danach stürzt du ihn warm auf den Teller. Ein Flammeri wird mit Stärke gebunden und kalt gestürzt, eine Creme ist eine feine süße Eierspeise."
       }
     },
     {
@@ -102,13 +102,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Ein kaltes Gericht aus rohem Gemüse mit einer Marinade. Wie heißt es?",
+        "prompt": "🥗 Du machst rohes Gemüse kalt mit einer Marinade an und richtest es als Gericht an. Wie heißt dieses Gericht?",
         "options": [
           { "text": "Salat.", "correct": true },
-          { "text": "Auflauf." },
-          { "text": "Pudding." }
+          { "text": "Rohkost." },
+          { "text": "Marinade." }
         ],
-        "explanation": "Der Salat wird kalt gegessen. Die Zutaten sind mit einer Marinade angemacht. So schmeckt er frisch und würzig."
+        "explanation": "Der Salat wird kalt gegessen. Das rohe Gemüse ist mit einer Marinade angemacht. So schmeckt er frisch und würzig. Achtung: Die Marinade ist nur die würzige Flüssigkeit, der fertige Salat ist das ganze Gericht. Rohkost ist rohes Gemüse pur."
       }
     }
   ]

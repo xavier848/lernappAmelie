@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Es gibt Reinigungsmittel und Pflegemittel. Was macht ein Reinigungsmittel?",
+        "prompt": "🧴 Reinigungsmittel und Pflegemittel haben verschiedene Aufgaben. Was ist die Aufgabe von einem Reinigungsmittel?",
         "options": [
           { "text": "Es entfernt Schmutz.", "correct": true },
-          { "text": "Es macht die Wohnung nur gut riechen." },
-          { "text": "Es legt eine Wachs-Schicht auf die Möbel." }
+          { "text": "Es legt eine schützende Wachs-Schicht auf die Fläche." },
+          { "text": "Es überdeckt schlechten Geruch mit Duft." }
         ],
-        "explanation": "Reinigungsmittel lösen und entfernen Schmutz. Pflegemittel kommen danach: Sie schützen die saubere Fläche, zum Beispiel mit Wachs oder Politur."
+        "explanation": "Ein Reinigungsmittel löst und entfernt Schmutz. Ein Pflegemittel kommt erst danach: Es schützt die saubere Fläche, zum Beispiel mit Wachs oder Politur. Schützen und beduften sind also Aufgaben von Pflegemitteln."
       }
     },
     {
@@ -52,13 +52,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔥 Das Dampfbügeleisen ist verkalkt. Welches Hausmittel hilft?",
+        "prompt": "🔥 Das Dampfbügeleisen ist verkalkt. Welches Hausmittel löst den Kalk?",
         "options": [
           { "text": "Essigwasser.", "correct": true },
-          { "text": "Möbelpolitur." },
-          { "text": "Raumduft." }
+          { "text": "Neutralreiniger." },
+          { "text": "Spülmittel." }
         ],
-        "explanation": "Essig ist eine Säure. Säure löst Kalk auf. Darum kannst du das Bügeleisen mit Essigwasser entkalken."
+        "explanation": "Essig ist eine Säure. Nur eine Säure löst Kalk auf. Neutralreiniger und Spülmittel reinigen zwar, aber sie sind keine Säure. Darum entkalken sie nicht."
       }
     },
     {
@@ -67,10 +67,10 @@
         "prompt": "🤔 In manchen Putzmitteln steckt Scheuermittel. Was ist das?",
         "options": [
           { "text": "Winzige harte Körnchen. Sie reiben den Schmutz ab.", "correct": true },
-          { "text": "Ein Duftstoff für frischen Geruch." },
-          { "text": "Ein Schaum, der von allein putzt." }
+          { "text": "Ein starker Reiniger, der Kalk auflöst." },
+          { "text": "Ein Schaum, der Fett anlöst und wegspült." }
         ],
-        "explanation": "Scheuermittel sind kleine harte Körnchen im Putzmittel. Sie schmirgeln festen Schmutz weg. Aber Vorsicht: Sie können empfindliche Flächen zerkratzen."
+        "explanation": "Scheuermittel sind kleine harte Körnchen im Putzmittel. Sie schmirgeln festen Schmutz mechanisch weg, also durch Reiben. Das ist etwas anderes als Kalk lösen oder Fett anlösen. Aber Vorsicht: Die Körnchen können empfindliche Flächen zerkratzen."
       }
     },
     {
@@ -95,13 +95,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍳 Am Herd klebt eingebrannter Schmutz. Was nimmst du?",
+        "prompt": "🍳 Am Herd klebt eingebrannter Schmutz. Womit bekommst du ihn ab?",
         "options": [
           { "text": "Einen Scheuerschwamm.", "correct": true },
-          { "text": "Möbelwachs." },
-          { "text": "Nur ein trockenes Tuch." }
+          { "text": "Einen weichen Schwamm ohne raue Seite." },
+          { "text": "Ein feuchtes Mikrofasertuch." }
         ],
-        "explanation": "Eingebrannter Schmutz sitzt fest. Ein Scheuerschwamm hat eine raue Seite. Damit bekommst du den Schmutz vom Herd."
+        "explanation": "Eingebrannter Schmutz sitzt fest. Ein Scheuerschwamm hat eine raue Seite, die den Schmutz abreibt. Ein weicher Schwamm oder ein Tuch rutscht nur darüber und löst den festen Schmutz nicht."
       }
     },
     {
@@ -110,10 +110,10 @@
         "prompt": "🪟 Darfst du Scheuerpulver auf einem Fenster benutzen?",
         "options": [
           { "text": "Nein. Die harten Körnchen zerkratzen das Glas.", "correct": true },
-          { "text": "Ja, das macht das Glas besonders klar." },
-          { "text": "Ja, aber nur bei Sonne." }
+          { "text": "Ja, wenn du nur wenig nimmst und viel Wasser dazu gibst." },
+          { "text": "Ja, danach glänzt das Glas besonders klar." }
         ],
-        "explanation": "Glas hat eine glatte, empfindliche Oberfläche. Scheuermittel hinterlässt feine Kratzer. Für Fenster nimmst du Glasreiniger."
+        "explanation": "Glas hat eine glatte, empfindliche Oberfläche. Scheuermittel hinterlässt feine Kratzer – auch bei wenig Pulver und viel Wasser. Für Fenster nimmst du darum Glasreiniger."
       }
     },
     {

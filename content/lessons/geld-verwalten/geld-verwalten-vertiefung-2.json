@@ -7,58 +7,58 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧾 An der Kasse bekommst du einen Kassenbon. Was steht darauf?",
+        "prompt": "🧾 Du kaufst ein und bekommst einen Kassenbon. Was steht wirklich darauf?",
         "options": [
           {
             "text": "Jede gekaufte Sache mit Preis. Und die Gesamtsumme.",
             "correct": true
           },
           {
-            "text": "Nur der Name vom Laden."
+            "text": "Nur die Gesamtsumme. Die einzelnen Preise stehen nicht drauf."
           },
           {
-            "text": "Dein Kontostand."
+            "text": "Die Sachen mit Preis und dein aktueller Kontostand."
           }
         ],
-        "explanation": "Der Bon listet alles auf: jede Ware, jeden Preis und die Summe. So kannst du kontrollieren, ob alles stimmt."
+        "explanation": "Der Kassenbon listet jede Ware, jeden Preis und die Summe auf. So prüfst du, ob alles stimmt. Dein Kontostand steht nicht auf dem Bon — den siehst du nur auf dem Kontoauszug."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Warum solltest du den Kassenbon von teuren Sachen aufheben?",
+        "prompt": "🤔 Du kaufst etwas Teures. Warum solltest du den Kassenbon aufheben?",
         "options": [
           {
             "text": "Für Umtausch und Reklamation brauche ich den Bon als Beweis.",
             "correct": true
           },
           {
-            "text": "Weil der Bon schön aussieht."
+            "text": "Damit ich am Monatsende sehe, wie viel Geld noch auf dem Konto ist."
           },
           {
-            "text": "Man muss alle Bons für immer sammeln, das ist Gesetz."
+            "text": "Weil ich alte Bons später gegen Bargeld eintauschen kann."
           }
         ],
-        "explanation": "Geht etwas kaputt oder passt nicht, zeigt der Bon: Hier und dann habe ich es gekauft. Ohne Bon ist Umtauschen oft schwer."
+        "explanation": "Reklamation heißt: Du beschwerst dich, weil etwas kaputt oder falsch ist. Geht die Ware kaputt oder passt nicht, beweist der Bon: Hier und dann habe ich sie gekauft. Ohne Bon ist Umtausch oft schwer."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📄 Was zeigt dir der Kontoauszug von deinem Konto?",
+        "prompt": "📄 Was genau zeigt dir der Kontoauszug von deinem Konto?",
         "options": [
           {
             "text": "Alle Einnahmen und Ausgaben. Und den Kontostand.",
             "correct": true
           },
           {
-            "text": "Nur Werbung von der Bank."
+            "text": "Nur die einzelnen Preise von deinem letzten Einkauf."
           },
           {
-            "text": "Die Preise im Supermarkt."
+            "text": "Nur den Kontostand — die einzelnen Buchungen fehlen."
           }
         ],
-        "explanation": "Der Kontoauszug ist die Liste deines Kontos: Was kam rein? Was ging raus? Du findest ihn in der Bank-App oder am Automaten."
+        "explanation": "Der Kontoauszug ist die Liste deines Kontos: jede Buchung (rein und raus) und der Kontostand. Die Preise vom Einkauf stehen dagegen nur auf dem Kassenbon. Du findest den Auszug in der Bank-App oder am Automaten."
       }
     },
     {
@@ -108,20 +108,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚨 Auf deinem Kontoauszug steht eine Abbuchung, die du nicht kennst. Was machst du?",
+        "prompt": "🚨 Auf deinem Kontoauszug steht eine Abbuchung, die du nicht kennst. Was ist am klügsten?",
         "options": [
           {
             "text": "Ich prüfe sie genau. Wenn sie nicht stimmt, melde ich mich bei der Bank.",
             "correct": true
           },
           {
-            "text": "Ich ignoriere sie einfach."
+            "text": "Ich warte ab, ob die Abbuchung nächsten Monat von selbst verschwindet."
           },
           {
-            "text": "Ich werfe den Kontoauszug weg."
+            "text": "Ich lösche die Bank-App — dann kann nichts mehr abgebucht werden."
           }
         ],
-        "explanation": "Eine unbekannte Abbuchung kann ein Fehler sein — oder Betrug. Prüfen und nachfragen schützt dein Geld."
+        "explanation": "Eine Abbuchung ist Geld, das von deinem Konto weggeht. Eine unbekannte Abbuchung kann ein Fehler sein — oder Betrug. Prüfen und bei der Bank nachfragen schützt dein Geld. Die App zu löschen stoppt die Abbuchung nicht."
       }
     },
     {
@@ -198,29 +198,32 @@
             "correct": true
           },
           {
-            "text": "30 €"
+            "text": "32 €"
           },
           {
-            "text": "42 €"
+            "text": "28 €"
           }
         ],
-        "explanation": "12 + 8 = 20. Und 20 + 20 = 40. Dein Haushaltsbuch zeigt dir genau, wo dein Geld hingeht."
+        "explanation": "12 + 8 = 20. Und 20 + 20 = 40. Wichtig: Du musst alle drei Tage zusammenzählen und keinen vergessen. So zeigt dein Haushaltsbuch genau, wo dein Geld hingeht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage! Du willst wissen, wofür dein Geld weggeht. Was hilft dir?",
+        "prompt": "🌟 Letzte Frage! Du willst wissen, wofür dein Geld weggeht. Was hilft dir wirklich?",
         "options": [
           {
             "text": "Ausgaben notieren und den Kontoauszug anschauen.",
             "correct": true
           },
           {
-            "text": "Einfach raten."
+            "text": "Nur auf den Kontostand schauen — der zeigt ja, wofür das Geld weg ist."
+          },
+          {
+            "text": "Ungefähr schätzen, wie viel diesen Monat weg war."
           }
         ],
-        "explanation": "Wer notiert und den Kontoauszug liest, behält den Überblick. Du hast dein Geld im Griff! 🎉"
+        "explanation": "Wer die Ausgaben notiert und den Kontoauszug liest, sieht genau, wofür das Geld weggeht. Der Kontostand allein zeigt nur, wie viel noch da ist — nicht, wohin es ging. Du hast dein Geld im Griff! 🎉"
       }
     }
   ]

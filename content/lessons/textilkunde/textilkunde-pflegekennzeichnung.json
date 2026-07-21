@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏷️ In jedem Kleidungsstück ist ein kleines Schild eingenäht. Was steht darauf?",
+        "prompt": "🏷️ In jedem Kleidungsstück ist ein Schild mit kleinen Symbolen eingenäht. Diese Symbole nennt man Pflegekennzeichnung. Was sagen dir die Symbole?",
         "options": [
           { "text": "Wie du das Textil pflegen und waschen sollst.", "correct": true },
-          { "text": "Der Preis des Textils." },
-          { "text": "Der Name des Käufers." }
+          { "text": "Welche Größe das Textil hat." },
+          { "text": "Von welcher Marke das Textil ist." }
         ],
-        "explanation": "Das eingenähte Schild ist die Pflegekennzeichnung. Kleine Symbole zeigen dir, wie du waschen, bleichen, bügeln und reinigen darfst."
+        "explanation": "Das eingenähte Schild heißt Pflegekennzeichnung. Die kleinen Symbole zeigen dir, wie du waschen, bleichen, bügeln und reinigen darfst. Größe und Marke stehen meist auf einem anderen Schild."
       }
     },
     {
@@ -47,61 +47,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👕 Ein Unterhemd aus reiner Baumwolle. Bei wie viel Grad darfst du es waschen?",
+        "prompt": "👕 Ein weißes Unterhemd aus reiner Baumwolle ist verschwitzt. Bei wie viel Grad darfst du es höchstens waschen, damit es wieder richtig sauber wird?",
         "options": [
           { "text": "Bis 95 °C.", "correct": true },
-          { "text": "Nur mit der Hand." },
-          { "text": "Gar nicht waschen." }
+          { "text": "Höchstens bei 30 °C." },
+          { "text": "Höchstens bei 40 °C." }
         ],
-        "explanation": "Baumwolle ist robust. Sie verträgt heißes Wasser bis 95 °C. So werden auch weiße Unterhemden wieder richtig sauber."
+        "explanation": "Baumwolle ist eine robuste Faser. Sie verträgt heißes Wasser bis 95 °C. Bei nur 30 oder 40 °C gehen starke Flecken oft nicht ganz raus. Heiß waschen macht weiße Baumwolle wieder richtig sauber."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧶 Eine Strickjacke aus Wolle und Angora. Wie wäschst du sie?",
+        "prompt": "🧶 Du sollst eine Strickjacke aus Wolle und Angora waschen. Was machst du?",
         "options": [
           { "text": "Vorsichtig mit der Hand (Handwäsche).", "correct": true },
-          { "text": "Bei 95 °C in der Maschine." },
-          { "text": "Im Geschirrspüler." }
+          { "text": "Heiß bei 60 °C in der Maschine." },
+          { "text": "Bei 40 °C im normalen Waschgang." }
         ],
-        "explanation": "Wolle und Angora sind empfindlich. Bei zu heißem Wasser laufen sie ein. Deshalb wäschst du sie nur mit der Hand."
+        "explanation": "Wolle und Angora sind empfindliche Fasern. In heißem Wasser und beim Schleudern verfilzen sie und laufen ein. Verfilzen heißt: die Fasern verhaken sich, die Jacke wird klein und hart. Darum nur Handwäsche mit kühlem Wasser."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌡️ Auf dem Schild siehst du einen Waschzuber mit der Zahl 30. Was bedeutet das?",
+        "prompt": "🌡️ Auf dem Schild siehst du einen Waschzuber (Wasser-Bottich) mit der Zahl 30. Was bedeutet die Zahl 30?",
         "options": [
           { "text": "Waschen bei höchstens 30 °C.", "correct": true },
-          { "text": "30 Minuten waschen." },
-          { "text": "30 Kleidungsstücke waschen." }
+          { "text": "Waschen bei genau 30 °C, nicht kälter." },
+          { "text": "Waschen bei mindestens 30 °C, gerne auch heißer." }
         ],
-        "explanation": "Der Waschzuber steht fürs Waschen. Die Zahl darin ist die höchste Temperatur. Bei 30 wäschst du also höchstens bei 30 °C."
+        "explanation": "Der Waschzuber steht fürs Waschen. Die Zahl darin ist die höchste erlaubte Temperatur. Bei 30 darfst du also höchstens 30 °C nehmen. Kälter waschen ist erlaubt, heißer nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔺 Ein durchgestrichenes Dreieck steht auf dem Schild. Was bedeutet es?",
+        "prompt": "🔺 Auf dem Schild ist ein Dreieck. Es ist durchgestrichen. Was bedeutet das?",
         "options": [
           { "text": "Nicht bleichen.", "correct": true },
-          { "text": "Nicht bügeln." },
-          { "text": "Nicht waschen." }
+          { "text": "Bleichen ist erlaubt." },
+          { "text": "Bleichen ist erlaubt, aber nur ohne Chlor." }
         ],
-        "explanation": "Das Dreieck steht fürs Bleichen. Ist es durchgestrichen, darfst du das Textil nicht bleichen."
+        "explanation": "Das Dreieck steht fürs Bleichen. Bleichen heißt: Flecken oder Farbe mit einem Mittel heller machen. Ist das Dreieck durchgestrichen, darfst du nicht bleichen. Ein leeres Dreieck heißt: bleichen erlaubt. Ein Dreieck mit zwei Strichen heißt: nur ohne Chlor bleichen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "♨️ Auf dem Schild ist ein Bügeleisen mit einem Punkt. Was bedeutet das?",
+        "prompt": "♨️ Auf dem Schild ist ein Bügeleisen mit einem Punkt. Was bedeutet der eine Punkt?",
         "options": [
           { "text": "Bei niedriger Temperatur bügeln.", "correct": true },
-          { "text": "Gar nicht bügeln." },
-          { "text": "Bei höchster Stufe bügeln." }
+          { "text": "Bei mittlerer Temperatur bügeln." },
+          { "text": "Bei höchster Temperatur bügeln." }
         ],
-        "explanation": "Das Bügeleisen steht fürs Bügeln. Ein Punkt heißt niedrige Temperatur. Drei Punkte heißen heiß bügeln."
+        "explanation": "Das Bügeleisen steht fürs Bügeln. Die Punkte zeigen die Temperatur. Ein Punkt heißt niedrig, zwei Punkte heißen mittel, drei Punkte heißen heiß. Je mehr Punkte, desto heißer."
       }
     },
     {
@@ -119,13 +119,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Wolle wäschst du am besten wie?",
+        "prompt": "✅ Ein Lieblingspullover aus Wolle riecht nach Schweiß. Wie machst du ihn sauber, ohne dass er einläuft?",
         "options": [
-          { "text": "Vorsichtig mit der Hand.", "correct": true },
-          { "text": "Heiß bei 95 °C." },
-          { "text": "Im Backofen." }
+          { "text": "Vorsichtig mit der Hand waschen.", "correct": true },
+          { "text": "Bei 60 °C in der Waschmaschine waschen." },
+          { "text": "Bei 40 °C im normalen Waschgang waschen." }
         ],
-        "explanation": "Wolle ist empfindlich. Handwäsche mit kühlem Wasser schont die Fasern. So bleibt der Pullover in Form."
+        "explanation": "Wolle ist empfindlich. Heißes Wasser und starkes Schleudern lassen sie einlaufen und verfilzen. Handwäsche mit kühlem Wasser schont die Fasern. So bleibt der Pullover in Form."
       }
     }
   ]

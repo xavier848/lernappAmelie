@@ -1,0 +1,149 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-ontbijt-eten",
+  "title": "Frühstück & Essen",
+  "sort": 6,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste sitzen am Frühstückstisch. ☕ Du fragst, ob sie Kaffee oder Tee möchten. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wilt u koffie of thee?", "correct": true },
+          { "text": "De keuken is gesloten." },
+          { "text": "Tot ziens en fijne reis!" }
+        ],
+        "explanation": "Wilt u koffie of thee? heißt: Möchten Sie Kaffee oder Tee? Das Wort u ist die höfliche Anrede für Gäste."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Frühstücks-Wörter: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "brood 🍞" }, "right": { "text": "Brot" } },
+          { "left": { "text": "kaas 🧀" }, "right": { "text": "Käse" } },
+          { "left": { "text": "ei 🥚" }, "right": { "text": "Ei" } },
+          { "left": { "text": "boter 🧈" }, "right": { "text": "Butter" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Möchten Sie etwas trinken? 🥤",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Wilt" },
+          { "text": "u" },
+          { "text": "iets" },
+          { "text": "drinken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt beim Frühstück: Ik wil graag een broodje met ham en een glas melk. Was möchte er?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ein Brötchen mit Schinken und ein Glas Milch.", "correct": true },
+          { "text": "Ein Brot mit Käse und einen Kaffee." },
+          { "text": "Ein Ei und einen Orangensaft." }
+        ],
+        "explanation": "Een broodje met ham heißt: ein Brötchen mit Schinken. Een glas melk heißt: ein Glas Milch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Getränke: Welches niederländische Wort passt? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Kaffee ☕" }, "right": { "text": "koffie" } },
+          { "left": { "text": "Tee" }, "right": { "text": "thee" } },
+          { "left": { "text": "Milch 🥛" }, "right": { "text": "melk" } },
+          { "left": { "text": "Orangensaft 🍊" }, "right": { "text": "jus d'orange" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das Frühstück ist um acht Uhr. 🕗",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Het ontbijt" },
+          { "text": "is" },
+          { "text": "om" },
+          { "text": "acht" },
+          { "text": "uur" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast möchte wissen, wann es Frühstück gibt. 🕗 Was antwortest du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Het ontbijt is van acht tot tien uur.", "correct": true },
+          { "text": "De bus vertrekt om acht uur." },
+          { "text": "Het balkon is boven." }
+        ],
+        "explanation": "Het ontbijt is van acht tot tien uur heißt: Das Frühstück gibt es von acht bis zehn Uhr. Van ... tot heißt: von ... bis."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Essen oder Getränk? Sortiere die Wörter.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "essen", "label": "Essen", "icon": "🥐" },
+          { "id": "getraenk", "label": "Getränk", "icon": "🥤" }
+        ],
+        "items": [
+          { "text": "broodje", "bucket": "essen" },
+          { "text": "kaas", "bucket": "essen" },
+          { "text": "boter", "bucket": "essen" },
+          { "text": "thee", "bucket": "getraenk" },
+          { "text": "melk", "bucket": "getraenk" },
+          { "text": "jus d'orange", "bucket": "getraenk" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Der Kaffee ist fertig. ☕",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De koffie" },
+          { "text": "is" },
+          { "text": "klaar" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst zu den Gästen: Het ontbijt staat in de eetkamer voor u klaar. Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Das Frühstück steht im Esszimmer für Sie bereit.", "correct": true },
+          { "text": "Das Frühstück müssen Sie selbst kochen." },
+          { "text": "Das Esszimmer ist heute geschlossen." }
+        ],
+        "explanation": "De eetkamer ist das Esszimmer. Klaarstaan heißt: bereitstehen. Mit diesem Satz sagst du den Gästen, wo das Frühstück auf sie wartet."
+      }
+    }
+  ]
+}

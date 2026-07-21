@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-milch",
   "title": "Milchsorten",
+  "intro": "🥛 Milch gibt es in mehreren Sorten. Sie unterscheiden sich vor allem im Fettgehalt. Der Fettgehalt steht in Prozent auf der Packung. Vollmilch hat viel Fett, fettarme Milch weniger und Magermilch fast keins. Milch wird außerdem erhitzt, damit viele Keime sterben und sie länger hält. Pasteurisierte Milch wird nur kurz und schonend erhitzt und muss gekühlt werden. Längerfrische Milch heißt auch ESL und hält im Kühlschrank etwas länger. H-Milch wird sehr stark erhitzt und hält ungekühlt viele Wochen. Homogenisierte Milch presst man durch feine Düsen, so werden die Fetttröpfchen klein. Dann setzt sich oben kein Rahm mehr ab.",
   "sort": 30,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥛 Milch gibt es in verschiedenen Sorten. Woran erkennst du sie zuerst?",
+        "prompt": "🥛 Milchsorten unterscheiden sich vor allem im Fettgehalt. Woran erkennst du den im Laden sicher?",
         "options": [
-          { "text": "Am Fettgehalt in Prozent.", "correct": true },
-          { "text": "An der Farbe des Deckels allein." },
-          { "text": "Am Gewicht der Packung." }
+          {
+            "text": "An der Angabe in Prozent auf der Packung.",
+            "correct": true
+          },
+          {
+            "text": "An der Deckelfarbe. Die ist bei allen Marken gleich."
+          },
+          {
+            "text": "Daran, wie cremig-weiß die Milch aussieht."
+          }
         ],
-        "explanation": "Die Sorten unterscheiden sich vor allem im Fettgehalt. Er steht in Prozent auf der Packung."
+        "explanation": "Der Fettgehalt steht in Prozent auf der Packung. Das ist das sichere Merkmal. Die Deckelfarbe hilft nicht: Jede Marke färbt anders. Nur Ansehen reicht auch nicht."
       }
     },
     {
@@ -21,9 +29,30 @@
       "data": {
         "prompt": "🔢 Welche Milch hat welchen Fettgehalt? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Vollmilch" }, "right": { "text": "3,5 % Fett" } },
-          { "left": { "text": "Fettarme Milch" }, "right": { "text": "1,5 % Fett" } },
-          { "left": { "text": "Entrahmte Milch" }, "right": { "text": "0,3 % Fett" } }
+          {
+            "left": {
+              "text": "Vollmilch"
+            },
+            "right": {
+              "text": "3,5 % Fett"
+            }
+          },
+          {
+            "left": {
+              "text": "Fettarme Milch"
+            },
+            "right": {
+              "text": "1,5 % Fett"
+            }
+          },
+          {
+            "left": {
+              "text": "Entrahmte Milch"
+            },
+            "right": {
+              "text": "0,3 % Fett"
+            }
+          }
         ],
         "memory": false
       }
@@ -33,42 +62,86 @@
       "data": {
         "prompt": "🥛 Sortiere die Milch nach ihrem Fettgehalt.",
         "buckets": [
-          { "id": "viel", "label": "Viel Fett (3,5 %)", "icon": "🟡" },
-          { "id": "wenig", "label": "Wenig Fett (1,5 %)", "icon": "⚪" },
-          { "id": "kaum", "label": "Fast kein Fett (0,3 %)", "icon": "💧" }
+          {
+            "id": "viel",
+            "label": "Viel Fett (3,5 %)",
+            "icon": "🟡"
+          },
+          {
+            "id": "wenig",
+            "label": "Wenig Fett (1,5 %)",
+            "icon": "⚪"
+          },
+          {
+            "id": "kaum",
+            "label": "Fast kein Fett (0,3 %)",
+            "icon": "💧"
+          }
         ],
         "items": [
-          { "text": "Vollmilch", "bucket": "viel" },
-          { "text": "Milch mit 3,5 %", "bucket": "viel" },
-          { "text": "Fettarme Milch", "bucket": "wenig" },
-          { "text": "Milch mit 1,5 %", "bucket": "wenig" },
-          { "text": "Magermilch", "bucket": "kaum" },
-          { "text": "Milch mit 0,3 %", "bucket": "kaum" }
+          {
+            "text": "Vollmilch",
+            "bucket": "viel"
+          },
+          {
+            "text": "Milch mit 3,5 %",
+            "bucket": "viel"
+          },
+          {
+            "text": "Fettarme Milch",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Milch mit 1,5 %",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Magermilch",
+            "bucket": "kaum"
+          },
+          {
+            "text": "Milch mit 0,3 %",
+            "bucket": "kaum"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌀 Was bedeutet homogenisiert?",
+        "prompt": "🌀 Bei Rohmilch schwimmt oben eine Rahmschicht. Bei homogenisierter Milch nicht. Woran liegt das?",
         "options": [
-          { "text": "Die Fetttröpfchen werden fein zerteilt, die Milch rahmt nicht auf.", "correct": true },
-          { "text": "Die Milch wird gefroren." },
-          { "text": "Der Milch wird Zucker zugesetzt." }
+          {
+            "text": "Die Fetttröpfchen sind fein zerteilt. Sie bleiben in der Milch verteilt.",
+            "correct": true
+          },
+          {
+            "text": "Der Milch wurde vorher das ganze Fett entzogen."
+          },
+          {
+            "text": "Die Milch wurde so stark erhitzt, dass sich das Fett auflöst."
+          }
         ],
-        "explanation": "Beim Homogenisieren wird die Milch mit Druck durch feine Düsen gepresst. Die Fetttröpfchen werden klein. So setzt sich oben kein Rahm ab."
+        "explanation": "Homogenisieren heißt: Die Milch wird mit Druck durch feine Düsen gepresst. Die Fetttröpfchen werden ganz klein. So bleiben sie verteilt und setzen sich oben nicht als Rahm ab. Das Fett bleibt aber in der Milch."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔥 Was bedeutet pasteurisiert?",
+        "prompt": "🔥 Was passiert beim Pasteurisieren mit der Milch?",
         "options": [
-          { "text": "Die Milch wird kurz erhitzt. Das tötet viele Keime.", "correct": true },
-          { "text": "Die Milch wird tiefgefroren." },
-          { "text": "Die Milch bleibt roh." }
+          {
+            "text": "Sie wird kurz und schonend erhitzt. Das tötet viele Keime.",
+            "correct": true
+          },
+          {
+            "text": "Sie wird so stark erhitzt, dass sie ungekühlt monatelang hält."
+          },
+          {
+            "text": "Ihre Fetttröpfchen werden zerteilt, erhitzt wird sie nicht."
+          }
         ],
-        "explanation": "Beim Pasteurisieren wird die Milch kurz erhitzt. Viele Keime sterben ab. Diese frische Milch muss gekühlt werden."
+        "explanation": "Beim Pasteurisieren wird die Milch nur kurz erhitzt, etwa 15 bis 30 Sekunden. Viele Keime sterben ab. Diese frische Milch hält aber nur wenige Tage und muss gekühlt werden. Sehr stark erhitzt wird nur H-Milch."
       }
     },
     {
@@ -76,11 +149,18 @@
       "data": {
         "prompt": "♨️ Was bedeutet ultrahocherhitzt (H-Milch)?",
         "options": [
-          { "text": "Die Milch wird sehr stark erhitzt und ist lange haltbar.", "correct": true },
-          { "text": "Die Milch wird nur lauwarm gemacht." },
-          { "text": "Die Milch wird gar nicht erhitzt." }
+          {
+            "text": "Die Milch wird sehr stark erhitzt und ist lange haltbar.",
+            "correct": true
+          },
+          {
+            "text": "Die Milch wird nur kurz und schonend erhitzt und hält wenige Tage."
+          },
+          {
+            "text": "Die Milch wird erhitzt und muss danach im Kühlregal stehen."
+          }
         ],
-        "explanation": "H-Milch wird sehr stark erhitzt. Danach ist sie lange haltbar, auch ohne Kühlung. Erst nach dem Öffnen kommt sie in den Kühlschrank."
+        "explanation": "H-Milch wird ultrahocherhitzt: sehr kurz, aber sehr stark auf über 135 Grad. Danach ist sie ungekühlt viele Wochen haltbar. Erst nach dem Öffnen kommt sie in den Kühlschrank. Pasteurisierte Milch wird nur schonend erhitzt und hält kürzer."
       }
     },
     {
@@ -88,9 +168,30 @@
       "data": {
         "prompt": "♨️ Welche Milch wird wie behandelt? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Frische Vollmilch" }, "right": { "text": "Pasteurisiert" } },
-          { "left": { "text": "Haltbare Milch (H-Milch)" }, "right": { "text": "Ultrahocherhitzt" } },
-          { "left": { "text": "Längerfrische Milch" }, "right": { "text": "Hocherhitzt (ESL)" } }
+          {
+            "left": {
+              "text": "Frische Vollmilch"
+            },
+            "right": {
+              "text": "Pasteurisiert"
+            }
+          },
+          {
+            "left": {
+              "text": "Haltbare Milch (H-Milch)"
+            },
+            "right": {
+              "text": "Ultrahocherhitzt"
+            }
+          },
+          {
+            "left": {
+              "text": "Längerfrische Milch"
+            },
+            "right": {
+              "text": "Hocherhitzt (ESL)"
+            }
+          }
         ],
         "memory": false
       }
@@ -98,13 +199,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏳ Welche Milch ist am längsten haltbar?",
+        "prompt": "⏳ Du willst Milch auf Vorrat kaufen, die auch ohne Kühlschrank lange hält. Welche nimmst du?",
         "options": [
-          { "text": "Die H-Milch (ultrahocherhitzt).", "correct": true },
-          { "text": "Die frische Vollmilch." },
-          { "text": "Rohe Milch vom Bauern." }
+          {
+            "text": "Die H-Milch (ultrahocherhitzt).",
+            "correct": true
+          },
+          {
+            "text": "Die frische, pasteurisierte Milch."
+          },
+          {
+            "text": "Die längerfrische Milch (ESL)."
+          }
         ],
-        "explanation": "H-Milch wird am stärksten erhitzt. Darum hält sie am längsten. Frische Milch muss dagegen immer gekühlt werden."
+        "explanation": "H-Milch ist ultrahocherhitzt. Darum hält sie ungekühlt viele Wochen, ideal für den Vorrat. Frische Milch und ESL-Milch müssen dagegen gekühlt werden und halten kürzer."
       }
     },
     {
@@ -112,9 +220,16 @@
       "data": {
         "prompt": "🌟 Zum Schluss: Wie viel Fett hat Vollmilch?",
         "options": [
-          { "text": "3,5 % Fett.", "correct": true },
-          { "text": "1,5 % Fett." },
-          { "text": "0,3 % Fett." }
+          {
+            "text": "3,5 % Fett.",
+            "correct": true
+          },
+          {
+            "text": "1,5 % Fett."
+          },
+          {
+            "text": "0,3 % Fett."
+          }
         ],
         "explanation": "Vollmilch hat 3,5 % Fett. Das ist die Milch mit dem höchsten Fettgehalt."
       }

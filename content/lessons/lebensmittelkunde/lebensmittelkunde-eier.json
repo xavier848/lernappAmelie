@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-eier",
   "title": "Hühnereier: Code & Aufbau",
+  "intro": "🥚 Auf jedem Ei steht ein gestempelter Code. Die erste Ziffer zeigt die Haltungsform der Hühner. Danach folgen Buchstaben für das Erzeugerland und am Ende die Nummer vom Betrieb. Für die Haltung stehen die Ziffern 0 bis 3, und je kleiner die Ziffer ist, desto mehr Platz und Auslauf haben die Hühner. Ein Ei besteht aus Inhalt und Hülle. Innen liegen der gelbe Dotter, das klare Eiklar und die Hagelschnüre. Außen schützen die harte Eischale und die Schalenhaut das Ei. Eier gehören in den Kühlschrank, denn sie können Salmonellen enthalten. Salmonellen sind Keime, die krank machen können. Kälte tötet sie nicht ab, sondern bremst nur ihre Vermehrung.",
   "sort": 20,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥚 Auf jedem Ei steht ein Code. Was verrät dir die erste Ziffer?",
+        "prompt": "🥚 Auf jedem Ei steht ein gestempelter Code. Was verrät dir die erste Ziffer?",
         "options": [
-          { "text": "Wie die Hühner gehalten wurden.", "correct": true },
-          { "text": "Wie schwer das Ei ist." },
-          { "text": "Den Preis vom Ei." }
+          {
+            "text": "Wie die Hühner gehalten wurden (die Haltungsform).",
+            "correct": true
+          },
+          {
+            "text": "Aus welchem Land das Ei kommt."
+          },
+          {
+            "text": "Die Nummer vom Betrieb."
+          }
         ],
-        "explanation": "Die erste Ziffer im Eiercode zeigt die Haltungsform. So erkennst du, wie die Hühner gelebt haben."
+        "explanation": "Die erste Ziffer zeigt die Haltungsform. Das Wort meint: Wie haben die Hühner gelebt? Das Land steht dahinter als Buchstaben, die Betriebsnummer ganz am Ende."
       }
     },
     {
@@ -21,10 +29,38 @@
       "data": {
         "prompt": "🔢 Welche Ziffer steht für welche Haltung? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "0" }, "right": { "text": "Bio-Haltung" } },
-          { "left": { "text": "1" }, "right": { "text": "Freilandhaltung" } },
-          { "left": { "text": "2" }, "right": { "text": "Bodenhaltung" } },
-          { "left": { "text": "3" }, "right": { "text": "Käfighaltung" } }
+          {
+            "left": {
+              "text": "0"
+            },
+            "right": {
+              "text": "Bio-Haltung"
+            }
+          },
+          {
+            "left": {
+              "text": "1"
+            },
+            "right": {
+              "text": "Freilandhaltung"
+            }
+          },
+          {
+            "left": {
+              "text": "2"
+            },
+            "right": {
+              "text": "Bodenhaltung"
+            }
+          },
+          {
+            "left": {
+              "text": "3"
+            },
+            "right": {
+              "text": "Käfighaltung"
+            }
+          }
         ],
         "memory": false
       }
@@ -34,9 +70,16 @@
       "data": {
         "prompt": "🇩🇪 Ein Ei hat den Code 0-DE-2171023. Was bedeutet die 0 am Anfang?",
         "options": [
-          { "text": "Bio-Haltung.", "correct": true },
-          { "text": "Käfighaltung." },
-          { "text": "Bodenhaltung." }
+          {
+            "text": "Bio-Haltung.",
+            "correct": true
+          },
+          {
+            "text": "Käfighaltung."
+          },
+          {
+            "text": "Bodenhaltung."
+          }
         ],
         "explanation": "Die 0 steht für Bio. DE bedeutet Deutschland. So liest du am Code die Haltung und das Land ab."
       }
@@ -44,13 +87,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🐔 Welche Ziffer steht für die Käfighaltung?",
+        "prompt": "🐔 Du möchtest keine Eier aus enger Käfighaltung. Welche erste Ziffer sollte also nicht auf dem Ei stehen?",
         "options": [
-          { "text": "Die 3.", "correct": true },
-          { "text": "Die 0." },
-          { "text": "Die 1." }
+          {
+            "text": "Die 3.",
+            "correct": true
+          },
+          {
+            "text": "Die 2."
+          },
+          {
+            "text": "Die 1."
+          }
         ],
-        "explanation": "Die 3 bedeutet Käfighaltung. Dort haben die Hühner am wenigsten Platz. Die 0 ist dagegen die Bio-Haltung."
+        "explanation": "Die 3 steht für Käfighaltung. Dort haben die Hühner am wenigsten Platz. Die 2 ist Bodenhaltung im Stall, die 1 ist Freilandhaltung mit Auslauf."
       }
     },
     {
@@ -58,11 +108,46 @@
       "data": {
         "prompt": "🥚 Wo liegt welcher Teil des Eies? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Luftkammer" }, "right": { "text": "Am stumpfen Ende" } },
-          { "left": { "text": "Dotter" }, "right": { "text": "Der gelbe Kern in der Mitte" } },
-          { "left": { "text": "Eiklar" }, "right": { "text": "Das Klare um den Dotter" } },
-          { "left": { "text": "Hagelschnüre" }, "right": { "text": "Halten den Dotter in der Mitte" } },
-          { "left": { "text": "Eischale" }, "right": { "text": "Die harte Hülle außen" } }
+          {
+            "left": {
+              "text": "Luftkammer"
+            },
+            "right": {
+              "text": "Am stumpfen Ende"
+            }
+          },
+          {
+            "left": {
+              "text": "Dotter"
+            },
+            "right": {
+              "text": "Der gelbe Kern in der Mitte"
+            }
+          },
+          {
+            "left": {
+              "text": "Eiklar"
+            },
+            "right": {
+              "text": "Das Klare um den Dotter"
+            }
+          },
+          {
+            "left": {
+              "text": "Hagelschnüre"
+            },
+            "right": {
+              "text": "Halten den Dotter in der Mitte"
+            }
+          },
+          {
+            "left": {
+              "text": "Eischale"
+            },
+            "right": {
+              "text": "Die harte Hülle außen"
+            }
+          }
         ],
         "memory": false
       }
@@ -72,15 +157,38 @@
       "data": {
         "prompt": "🔎 Gehört der Teil zum Inhalt oder zur Hülle des Eies? Sortiere.",
         "buckets": [
-          { "id": "inhalt", "label": "Inhalt des Eies", "icon": "🟡" },
-          { "id": "huelle", "label": "Hülle des Eies", "icon": "🥚" }
+          {
+            "id": "inhalt",
+            "label": "Inhalt des Eies",
+            "icon": "🟡"
+          },
+          {
+            "id": "huelle",
+            "label": "Hülle des Eies",
+            "icon": "🥚"
+          }
         ],
         "items": [
-          { "text": "Dotter", "bucket": "inhalt" },
-          { "text": "Eiklar", "bucket": "inhalt" },
-          { "text": "Hagelschnüre", "bucket": "inhalt" },
-          { "text": "Eischale", "bucket": "huelle" },
-          { "text": "Schalenhaut", "bucket": "huelle" }
+          {
+            "text": "Dotter",
+            "bucket": "inhalt"
+          },
+          {
+            "text": "Eiklar",
+            "bucket": "inhalt"
+          },
+          {
+            "text": "Hagelschnüre",
+            "bucket": "inhalt"
+          },
+          {
+            "text": "Eischale",
+            "bucket": "huelle"
+          },
+          {
+            "text": "Schalenhaut",
+            "bucket": "huelle"
+          }
         ]
       }
     },
@@ -89,11 +197,18 @@
       "data": {
         "prompt": "❄️ Auf der Packung steht: im Kühlschrank aufbewahren. Warum ist das wichtig?",
         "options": [
-          { "text": "In der Kälte vermehren sich Salmonellen kaum.", "correct": true },
-          { "text": "Kalte Eier sind leichter." },
-          { "text": "Der Hinweis ist nur eine Empfehlung ohne Grund." }
+          {
+            "text": "In der Kälte vermehren sich Salmonellen kaum.",
+            "correct": true
+          },
+          {
+            "text": "Die Kälte tötet alle Salmonellen sofort ab."
+          },
+          {
+            "text": "Salmonellen entstehen erst durch Wärme neu."
+          }
         ],
-        "explanation": "Eier können Salmonellen enthalten. Diese Keime können krank machen. Im Kühlschrank vermehren sie sich kaum. Darum gehören Eier in die Kälte."
+        "explanation": "Eier können Salmonellen enthalten. Salmonellen sind Keime, die krank machen können. Die Kälte tötet sie nicht ab. Aber im Kühlschrank vermehren sie sich kaum. Darum bleiben gekühlte Eier länger sicher."
       }
     },
     {
@@ -101,11 +216,18 @@
       "data": {
         "prompt": "🌱 Warum kaufen manche Menschen lieber Bio-Eier?",
         "options": [
-          { "text": "Keine Massentierhaltung und oft weniger Schadstoffe.", "correct": true },
-          { "text": "Bio-Eier sind immer riesig." },
-          { "text": "Bio-Eier muss man nicht kühlen." }
+          {
+            "text": "Keine Massentierhaltung und oft weniger Schadstoffe.",
+            "correct": true
+          },
+          {
+            "text": "Bio-Eier sind garantiert frei von Salmonellen."
+          },
+          {
+            "text": "Bio-Eier halten im Kühlschrank deutlich länger."
+          }
         ],
-        "explanation": "Bei Bio haben die Hühner mehr Platz. Es gibt keine Massentierhaltung. Oft sind auch weniger Schadstoffe im Ei."
+        "explanation": "Bei Bio haben die Hühner mehr Platz. Massentierhaltung meint sehr viele Tiere auf engem Raum – das gibt es bei Bio nicht. Oft sind auch weniger Schadstoffe im Ei. Salmonellen können aber auch in Bio-Eiern sein. Kühlen musst du sie trotzdem."
       }
     },
     {
@@ -113,23 +235,37 @@
       "data": {
         "prompt": "🌍 Im Code 0-DE-2171023 stehen die Buchstaben DE. Wofür stehen sie?",
         "options": [
-          { "text": "Für das Land: Deutschland.", "correct": true },
-          { "text": "Für die Größe des Eies." },
-          { "text": "Für den Namen des Bauern." }
+          {
+            "text": "Für das Erzeugerland: Deutschland.",
+            "correct": true
+          },
+          {
+            "text": "Für das Bundesland, in dem die Hühner leben."
+          },
+          {
+            "text": "Für den Betrieb, der die Eier gelegt hat."
+          }
         ],
-        "explanation": "Die Buchstaben zeigen das Erzeugerland. DE steht für Deutschland. Danach folgt die Nummer des Betriebs."
+        "explanation": "Die Buchstaben zeigen das Erzeugerland. Erzeugerland heißt: das Land, aus dem das Ei kommt. DE steht für Deutschland. Ein Bundesland ist kein eigenes Land – darum können die Buchstaben kein Bundesland meinen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Welche Ziffer bedeutet die beste Haltung für die Hühner?",
+        "prompt": "🌟 Zum Schluss: Du willst Eier von Hühnern mit dem meisten Platz und Auslauf. Welche erste Ziffer suchst du?",
         "options": [
-          { "text": "Die 0 (Bio-Haltung).", "correct": true },
-          { "text": "Die 3 (Käfighaltung)." },
-          { "text": "Die 2 (Bodenhaltung)." }
+          {
+            "text": "Die 0 (Bio-Haltung).",
+            "correct": true
+          },
+          {
+            "text": "Die 1 (Freilandhaltung)."
+          },
+          {
+            "text": "Die 2 (Bodenhaltung)."
+          }
         ],
-        "explanation": "Die 0 steht für Bio. Dort haben die Hühner am meisten Platz und Auslauf. Die 3 ist die enge Käfighaltung."
+        "explanation": "Die 0 steht für Bio-Haltung. Dort haben die Hühner am meisten Platz und Auslauf. Die 1 (Freiland) ist auch gut, aber Bio hat strengere Regeln. Die 2 (Bodenhaltung) ist nur im Stall."
       }
     }
   ]

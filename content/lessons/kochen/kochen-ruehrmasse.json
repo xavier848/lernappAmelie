@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎂 Was ist der Unterschied zwischen einem Teig und einer Masse?",
+        "prompt": "🎂 Im Rezept steht das Wort „Masse“. Woran erkennst du eine Masse im Unterschied zu einem Teig?",
         "options": [
           { "text": "Ein Teig wird geknetet, eine Masse wird gerührt.", "correct": true },
-          { "text": "Teig und Masse sind genau das Gleiche." },
+          { "text": "Ein Teig ist weich und fließend, eine Masse ist fest zum Kneten." },
           { "text": "Eine Masse wird geknetet, ein Teig wird gerührt." }
         ],
-        "explanation": "Merke dir das gut: Einen Teig knetest du, zum Beispiel Mürbeteig. Eine Masse rührst du, zum Beispiel Rührmasse für Kuchen."
+        "explanation": "Merke dir das gut: Einen Teig knetest du mit den Händen, zum Beispiel Mürbeteig. Eine Masse rührst du mit dem Mixer, zum Beispiel die Rührmasse für Kuchen. Eine Masse ist weicher und fällt leicht vom Löffel."
       }
     },
     {
@@ -22,10 +22,10 @@
         "prompt": "🫧 Was macht die Rührmasse locker und luftig?",
         "options": [
           { "text": "Eingerührte Luft, die Eier und vor allem das Backpulver.", "correct": true },
-          { "text": "Nur ein Schluck Wasser." },
-          { "text": "Nur eine Prise Salz." }
+          { "text": "Vor allem der Zucker, der die Masse beim Backen luftig macht." },
+          { "text": "Das lange Ruhen der fertigen Masse vor dem Backen." }
         ],
-        "explanation": "Drei Dinge lockern die Masse: die Luft, die du beim Rühren einarbeitest, die Eier und vor allem das Backpulver. So geht der Kuchen im Ofen schön auf."
+        "explanation": "Drei Dinge lockern die Masse: die Luft, die du beim Rühren einarbeitest, die Eier und vor allem das Backpulver. Das Backpulver nennt man auch Triebmittel, es treibt den Kuchen nach oben. So geht der Kuchen im Ofen schön auf."
       }
     },
     {
@@ -74,8 +74,8 @@
         "prompt": "🌀 Bei der All-in-Methode rührst du die Masse etwa 4 Minuten. Warum so lange?",
         "options": [
           { "text": "Damit sich der Zucker löst und genug Luft in die Masse kommt.", "correct": true },
-          { "text": "Damit die Masse kalt wird." },
-          { "text": "Die Rührzeit ist ganz egal." }
+          { "text": "Damit das Backpulver schon in der Schüssel sein Gas abgibt." },
+          { "text": "Damit die Masse fester und schwerer wird." }
         ],
         "explanation": "Bei der All-in-Methode kommt alles zusammen in die Schüssel. Rühr etwa 4 Minuten. So löst sich der Zucker und es kommt genug Luft in die Masse. Der Kuchen wird dann schön locker."
       }
@@ -86,16 +86,16 @@
         "prompt": "🪵 Wie prüfst du, ob der Kuchen durchgebacken ist?",
         "options": [
           { "text": "Ein Holzstäbchen in die Mitte stechen. Bleibt kein Teig hängen, ist er fertig.", "correct": true },
-          { "text": "Den Kuchen einfach in der Mitte anschneiden." },
-          { "text": "Nur auf die Uhr schauen, das reicht immer." }
+          { "text": "Das Holzstäbchen nur außen am Rand einstechen, dort ist der Kuchen am wichtigsten." },
+          { "text": "Allein auf die Uhr schauen, nach der Zeit im Rezept ist jeder Kuchen sicher durch." }
         ],
-        "explanation": "Mach die Garprobe mit einem Holzstäbchen. Stich es in die Mitte des Kuchens. Kommt es sauber heraus, ist der Kuchen durch. Klebt noch Teig dran, braucht er länger."
+        "explanation": "Mach die Garprobe mit einem Holzstäbchen. Stich es in die Mitte des Kuchens, denn die Mitte wird zuletzt fertig. Kommt es sauber heraus, ist der Kuchen durch. Klebt noch Teig dran, braucht er länger."
       }
     },
     {
       "type": "steps_order",
       "data": {
-        "prompt": "🎂 So läuft das Backen ab, wenn die Masse fertig gerührt ist. Bringe die Schritte in die richtige Reihenfolge.",
+        "prompt": "🎂 So läuft das Kuchenbacken der Reihe nach ab. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
           { "text": "🔥 Den Backofen vorheizen." },
           { "text": "🧈 Die Backform einfetten und vorbereiten." },
@@ -112,10 +112,10 @@
         "prompt": "🥜 Zum Schluss: Wann bereitest du Obst und Nüsse für den Kuchen vor?",
         "options": [
           { "text": "Zuerst, bevor du die Masse rührst.", "correct": true },
-          { "text": "Erst ganz am Ende, wenn der Teig schon fertig ist." },
-          { "text": "Gar nicht, das macht der Ofen." }
+          { "text": "Erst wenn die Masse fertig gerührt ist, dann schnell schneiden." },
+          { "text": "Während der Kuchen schon im Ofen backt, um Zeit zu sparen." }
         ],
-        "explanation": "Bereite Obst und Nüsse zuerst vor. Dann ist alles fertig, wenn du die Masse rührst. So kannst du den Teig danach zügig in den Ofen bringen."
+        "explanation": "Bereite Obst und Nüsse zuerst vor. Dann ist alles fertig, wenn du die Masse rührst. So kannst du den Teig danach zügig in den Ofen bringen. Denk daran: Das Backpulver wirkt schon, sobald die Masse feucht ist."
       }
     }
   ]

@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📊 Bei einer Inventur zählst du das Lager. Was findest du dabei heraus?",
+        "prompt": "📊 Bei einer Inventur zählst du das ganze Lager durch. Welche Information bekommst du dadurch?",
         "options": [
           { "text": "Wie viel von jeder Ware wirklich da ist.", "correct": true },
-          { "text": "Welche Ware am schönsten aussieht." },
-          { "text": "Wer die Ware gekauft hat." }
+          { "text": "Welche Ware sich am besten verkauft." },
+          { "text": "Wie viel Ware du noch nachbestellen musst." }
         ],
-        "explanation": "Bei der Inventur zählst du jede Ware. Danach rechnest du die Gesamtmenge und den Wert aus. So kennst du den genauen Bestand."
+        "explanation": "Bei der Inventur zählst du jede Ware im Lager. So kennst du den echten Bestand: die Menge, die wirklich da ist. Der Bestand ist der Vorrat an Ware. Was sich gut verkauft oder was du nachbestellst, erkennst du erst in einem zweiten Schritt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🟢 Im Regal stehen 7 Beutel Erbsen mit je 800 g. Wie viel sind das zusammen?",
+        "prompt": "🟢 Im Regal stehen 7 Beutel Erbsen mit je 800 g. Wie viel ist das zusammen — und wie viel ist das in Kilogramm?",
         "options": [
           { "text": "5600 g, also 5,600 kg", "correct": true },
-          { "text": "560 g, also 0,560 kg" },
-          { "text": "8000 g, also 8 kg" }
+          { "text": "5600 g, also 56 kg" },
+          { "text": "4800 g, also 4,800 kg" }
         ],
-        "explanation": "Du rechnest 7 mal 800 g. Das sind 5600 g. Geteilt durch 1000 ergibt das 5,600 kg."
+        "explanation": "Du rechnest 7 mal 800 g. Das sind 5600 g. Zum Umrechnen teilst du durch 1000: 5600 g sind 5,600 kg. 1 kg hat immer 1000 g."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Du zählst 8 Pakete Haferflocken mit je 1,5 kg. Wie viel Kilogramm sind das?",
+        "prompt": "🥣 Du zählst 8 Pakete Haferflocken mit je 1,5 kg. Wie viel Kilogramm sind das zusammen?",
         "options": [
           { "text": "12 kg", "correct": true },
           { "text": "9,5 kg" },
-          { "text": "1,2 kg" }
+          { "text": "16 kg" }
         ],
-        "explanation": "8 mal 1,5 kg sind 12 kg. Du zählst also die Einheiten mal das Gewicht pro Einheit."
+        "explanation": "8 mal 1,5 kg sind 12 kg. Wichtig: Du rechnest Anzahl mal Gewicht, nicht Anzahl plus Gewicht. 8 plus 1,5 wäre 9,5 kg und ist falsch. Und 1,5 rundest du beim Rechnen nicht auf 2 auf."
       }
     },
     {
@@ -89,25 +89,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍎 10 kg Äpfel kosten 1,68 € pro Kilo. Was ist der Gesamtwert?",
+        "prompt": "🍎 Im Lager liegen 10 kg Äpfel. 1 kg kostet 1,68 €. Wie groß ist der Gesamtwert?",
         "options": [
           { "text": "16,80 €", "correct": true },
           { "text": "11,68 €" },
-          { "text": "1,68 €" }
+          { "text": "16,08 €" }
         ],
-        "explanation": "Menge mal Preis: 10 mal 1,68 € sind 16,80 €. So bekommst du den Wert dieser Ware."
+        "explanation": "Den Wert rechnest du mit Menge mal Preis: 10 mal 1,68 € sind 16,80 €. Achte genau auf die Stellen nach dem Komma."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Öl ist flüssig. Womit gibst du seine Menge an?",
+        "prompt": "🌟 Zum Schluss: Beim Zählen kommst du zum Speiseöl. Öl ist flüssig. In welcher Einheit gibst du seine Menge an?",
         "options": [
           { "text": "In Litern (l).", "correct": true },
           { "text": "In Kilogramm (kg)." },
           { "text": "In Stück." }
         ],
-        "explanation": "Flüssige Ware misst du in Litern. Feste Ware wie Mehl oder Reis misst du in Kilogramm."
+        "explanation": "Flüssige Ware wie Öl misst du in Litern. Feste Ware wie Mehl oder Reis misst du in Kilogramm. Zählbare Ware wie Eier gibst du in Stück an."
       }
     }
   ]

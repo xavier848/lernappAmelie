@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-naehrstoffe-sortieren",
   "title": "Eiweiß, Fett & Kohlenhydrate",
+  "intro": "🍎 In dieser Lektion geht es um die drei Hauptnährstoffe im Essen. Man nennt sie auch Makronährstoffe. Sie heißen Eiweiß, Fett und Kohlenhydrate. Jeder dieser Nährstoffe hat eine eigene Aufgabe im Körper. Eiweiß ist ein Baustoff für Muskeln und Zellen. Fett liefert dem Körper viel Energie. Kohlenhydrate geben dem Körper schnell Energie. Auch Zucker gehört zu den Kohlenhydraten. Manche Lebensmittel enthalten gleich zwei Nährstoffe in großer Menge, zum Beispiel Eiweiß und Fett. Vitamine, Mineralstoffe und Wasser sind ebenfalls wichtig, zählen aber nicht zu den Hauptnährstoffen.",
   "sort": 50,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍎 Es gibt drei Hauptnährstoffe im Essen. Welche sind das?",
+        "prompt": "🍎 Es gibt drei Hauptnährstoffe im Essen. Man nennt sie auch Makronährstoffe. Welche drei sind das?",
         "options": [
-          { "text": "Eiweiß, Fett und Kohlenhydrate.", "correct": true },
-          { "text": "Wasser, Luft und Salz." },
-          { "text": "Farbe, Form und Geruch." }
+          {
+            "text": "Eiweiß, Fett und Kohlenhydrate.",
+            "correct": true
+          },
+          {
+            "text": "Vitamine, Mineralstoffe und Wasser."
+          },
+          {
+            "text": "Eiweiß, Zucker und Vitamine."
+          }
         ],
-        "explanation": "Die drei Hauptnährstoffe sind Eiweiß, Fett und Kohlenhydrate. Sie liefern deinem Körper Bausteine und Energie."
+        "explanation": "Die drei Hauptnährstoffe heißen auch Makronährstoffe: Eiweiß, Fett und Kohlenhydrate. Sie liefern dem Körper Bausteine und Energie. Vitamine, Mineralstoffe und Wasser sind auch wichtig. Sie zählen aber nicht zu den Hauptnährstoffen."
       }
     },
     {
@@ -21,78 +29,143 @@
       "data": {
         "prompt": "🗂️ Welcher Nährstoff steckt viel in diesem Lebensmittel? Sortiere.",
         "buckets": [
-          { "id": "eiweiss", "label": "Viel Eiweiß", "icon": "💪" },
-          { "id": "fett", "label": "Viel Fett", "icon": "🧈" },
-          { "id": "kh", "label": "Viel Kohlenhydrate", "icon": "🍞" }
+          {
+            "id": "eiweiss",
+            "label": "Viel Eiweiß",
+            "icon": "💪"
+          },
+          {
+            "id": "fett",
+            "label": "Viel Fett",
+            "icon": "🧈"
+          },
+          {
+            "id": "kh",
+            "label": "Viel Kohlenhydrate",
+            "icon": "🍞"
+          }
         ],
         "items": [
-          { "text": "Fisch", "bucket": "eiweiss" },
-          { "text": "Hähnchen", "bucket": "eiweiss" },
-          { "text": "Butter", "bucket": "fett" },
-          { "text": "Speiseöl", "bucket": "fett" },
-          { "text": "Nudeln", "bucket": "kh" },
-          { "text": "Zucker", "bucket": "kh" }
+          {
+            "text": "Fisch",
+            "bucket": "eiweiss"
+          },
+          {
+            "text": "Hähnchen",
+            "bucket": "eiweiss"
+          },
+          {
+            "text": "Butter",
+            "bucket": "fett"
+          },
+          {
+            "text": "Speiseöl",
+            "bucket": "fett"
+          },
+          {
+            "text": "Nudeln",
+            "bucket": "kh"
+          },
+          {
+            "text": "Zucker",
+            "bucket": "kh"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🫒 In Speiseöl steckt vor allem welcher Nährstoff?",
+        "prompt": "🫒 Du willst bei einem Gericht Fett einsparen. Welche Zutat solltest du deshalb sparsamer verwenden?",
         "options": [
-          { "text": "Fett.", "correct": true },
-          { "text": "Eiweiß." },
-          { "text": "Kohlenhydrate." }
+          {
+            "text": "Speiseöl.",
+            "correct": true
+          },
+          {
+            "text": "Magerquark."
+          },
+          {
+            "text": "Salatgurke."
+          }
         ],
-        "explanation": "Öl besteht fast nur aus Fett. Auch Butter und Margarine sind sehr fettreich."
+        "explanation": "Speiseöl besteht fast nur aus Fett. Deshalb sparst du Fett, wenn du weniger Öl nimmst. Magerquark hat viel Eiweiß und wenig Fett. Eine Salatgurke besteht fast nur aus Wasser."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍝 In Nudeln und Brot steckt vor allem welcher Nährstoff?",
+        "prompt": "🍝 Nudeln, Brot und Kartoffeln gehören zur selben Nährstoff-Gruppe. Welcher Nährstoff steckt in allen dreien vor allem?",
         "options": [
-          { "text": "Kohlenhydrate.", "correct": true },
-          { "text": "Fett." },
-          { "text": "Eiweiß." }
+          {
+            "text": "Kohlenhydrate.",
+            "correct": true
+          },
+          {
+            "text": "Eiweiß."
+          },
+          {
+            "text": "Fett."
+          }
         ],
-        "explanation": "Nudeln, Brot und Kartoffeln liefern viele Kohlenhydrate. Sie geben dem Körper Energie."
+        "explanation": "Nudeln, Brot und Kartoffeln liefern vor allem Kohlenhydrate. Kohlenhydrate geben dem Körper schnell Energie. Etwas Eiweiß steckt zwar auch drin, aber deutlich weniger."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🐟 In Fisch und Fleisch steckt vor allem welcher Nährstoff?",
+        "prompt": "🐟 Dein Körper braucht einen Baustoff für Muskeln und Zellen. Welcher Nährstoff in Fisch und Fleisch ist dieser Baustoff?",
         "options": [
-          { "text": "Eiweiß.", "correct": true },
-          { "text": "Kohlenhydrate." },
-          { "text": "Zucker." }
+          {
+            "text": "Eiweiß.",
+            "correct": true
+          },
+          {
+            "text": "Fett."
+          },
+          {
+            "text": "Kohlenhydrate."
+          }
         ],
-        "explanation": "Fisch, Fleisch und Eier sind reich an Eiweiß. Eiweiß ist der wichtigste Baustoff für den Körper."
+        "explanation": "Fisch, Fleisch und Eier sind reich an Eiweiß. Eiweiß ist der wichtigste Baustoff für Muskeln und Zellen. Fett liefert vor allem Energie, es ist kein Baustoff."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥜 Manche Lebensmittel haben viel von zwei Nährstoffen. Was steckt viel in Erdnüssen?",
+        "prompt": "🥜 Manche Lebensmittel liefern gleich zwei Nährstoffe in großer Menge. Was steckt viel in Erdnüssen?",
         "options": [
-          { "text": "Eiweiß und Fett.", "correct": true },
-          { "text": "Nur Kohlenhydrate." },
-          { "text": "Nur Wasser." }
+          {
+            "text": "Eiweiß und Fett.",
+            "correct": true
+          },
+          {
+            "text": "Nur Fett, kaum Eiweiß."
+          },
+          {
+            "text": "Vor allem Kohlenhydrate."
+          }
         ],
-        "explanation": "Erdnüsse liefern viel Eiweiß und gleichzeitig viel Fett. Darum stehen sie in zwei Gruppen."
+        "explanation": "Erdnüsse liefern viel Eiweiß und gleichzeitig viel Fett. Darum stehen sie in zwei Nährstoff-Gruppen. Kohlenhydrate stecken nur wenig darin."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌭 Und was steckt viel in Wurst?",
+        "prompt": "🌭 Und was steckt viel in Wurst? Achte darauf, was gleich doppelt zutrifft.",
         "options": [
-          { "text": "Eiweiß und Fett.", "correct": true },
-          { "text": "Nur Kohlenhydrate." },
-          { "text": "Nur Zucker." }
+          {
+            "text": "Eiweiß und Fett.",
+            "correct": true
+          },
+          {
+            "text": "Nur Eiweiß, fast kein Fett."
+          },
+          {
+            "text": "Vor allem Kohlenhydrate."
+          }
         ],
-        "explanation": "Wurst hat viel Eiweiß und auch viel Fett. Sie gehört darum zu beiden Nährstoffgruppen."
+        "explanation": "Wurst hat viel Eiweiß und auch viel Fett. Sie gehört darum zu beiden Nährstoff-Gruppen. Kohlenhydrate stecken kaum darin."
       }
     },
     {
@@ -100,9 +173,30 @@
       "data": {
         "prompt": "🔗 Welcher Nährstoff steckt vor allem drin? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Butter" }, "right": { "text": "Viel Fett" } },
-          { "left": { "text": "Nudeln" }, "right": { "text": "Viel Kohlenhydrate" } },
-          { "left": { "text": "Fisch" }, "right": { "text": "Viel Eiweiß" } }
+          {
+            "left": {
+              "text": "Butter"
+            },
+            "right": {
+              "text": "Viel Fett"
+            }
+          },
+          {
+            "left": {
+              "text": "Nudeln"
+            },
+            "right": {
+              "text": "Viel Kohlenhydrate"
+            }
+          },
+          {
+            "left": {
+              "text": "Fisch"
+            },
+            "right": {
+              "text": "Viel Eiweiß"
+            }
+          }
         ],
         "memory": false
       }
@@ -110,13 +204,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Zucker gehört zu welchem Nährstoff?",
+        "prompt": "🌟 Zum Schluss: Viele halten Zucker für etwas ganz Eigenes. Zu welcher Nährstoff-Gruppe gehört Zucker wirklich?",
         "options": [
-          { "text": "Zu den Kohlenhydraten.", "correct": true },
-          { "text": "Zum Fett." },
-          { "text": "Zum Eiweiß." }
+          {
+            "text": "Zu den Kohlenhydraten.",
+            "correct": true
+          },
+          {
+            "text": "Zu einer eigenen, vierten Gruppe."
+          },
+          {
+            "text": "Zum Fett."
+          }
         ],
-        "explanation": "Zucker ist ein Kohlenhydrat. Er gibt schnell Energie, sollte aber nur in kleinen Mengen gegessen werden."
+        "explanation": "Zucker ist ein Kohlenhydrat. Er gibt schnell Energie, sollte aber nur in kleinen Mengen gegessen werden. Eine vierte Nährstoff-Gruppe gibt es nicht."
       }
     }
   ]

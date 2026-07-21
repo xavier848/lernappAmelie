@@ -1,0 +1,151 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-omgeving-tips",
+  "title": "Ausflüge & Umgebung",
+  "sort": 13,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach der Zugspitze. 🏔️ Du sagst: Met de kabelbaan bent u in tien minuten boven op de Zugspitze. Was heißt das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Mit der Seilbahn sind Sie in zehn Minuten oben auf der Zugspitze.", "correct": true },
+          { "text": "Mit der Seilbahn kommen Sie nur bis zur Mittelstation der Zugspitze." },
+          { "text": "Die Seilbahn auf die Zugspitze braucht mehr als eine Stunde." },
+          { "text": "Die Seilbahn auf die Zugspitze fährt nur im Winter." }
+        ],
+        "explanation": "De kabelbaan heißt: die Seilbahn. In tien minuten heißt: in zehn Minuten. Boven op de Zugspitze heißt: oben auf der Zugspitze. Die Gäste sind also ganz schnell auf dem Gipfel."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Tipps für die Umgebung: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Er is een mooi wandelpad naar het meer. 🥾" }, "right": { "text": "Es gibt einen schönen Wanderweg zum See." } },
+          { "left": { "text": "U kunt in het dorp fietsen huren. 🚲" }, "right": { "text": "Sie können im Dorf Fahrräder leihen." } },
+          { "left": { "text": "Het zwembad is maar tien minuten lopen. 🏊" }, "right": { "text": "Das Schwimmbad ist nur zehn Minuten zu Fuß entfernt." } },
+          { "left": { "text": "De kabelbaan vertrekt elk kwartier. 🚠" }, "right": { "text": "Die Seilbahn fährt alle fünfzehn Minuten." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Gäste möchten heute Abend essen gehen. 🍽️ Du willst ihnen ein gemütliches Restaurant im Dorf empfehlen. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ik kan u een gezellig restaurant in het dorp aanbevelen.", "correct": true },
+          { "text": "Ik kan u helaas geen restaurant in het dorp aanbevelen." },
+          { "text": "Het restaurant in het dorp is vanavond helemaal volgeboekt." },
+          { "text": "U kunt vanavond beter in het appartement eten." }
+        ],
+        "explanation": "Aanbevelen heißt: empfehlen. Pass gut auf das kleine Wort geen auf — es bedeutet: kein. Damit würdest du sagen, dass du kein Restaurant empfehlen kannst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Es gibt einen schönen Wanderweg zum See. 🥾",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Er is" },
+          { "text": "een mooi" },
+          { "text": "wandelpad" },
+          { "text": "naar het meer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du gibst einer Familie einen Wander-Tipp. 🥾 Du sagst: Het wandelpad rond het dorp is vlak en ook voor beginners goed te doen. Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Der Wanderweg rund um das Dorf ist flach und auch für Anfänger gut machbar.", "correct": true },
+          { "text": "Der Wanderweg rund um das Dorf ist steil und nur für geübte Wanderer." },
+          { "text": "Der Wanderweg rund um das Dorf ist heute leider gesperrt." }
+        ],
+        "explanation": "Vlak heißt: flach. Goed te doen heißt: gut machbar. Voor beginners heißt: für Anfänger. Der Weg ist also leicht — perfekt für die ganze Familie."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie können die Seilbahn nach oben nehmen. 🚠",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "U kunt" },
+          { "text": "de kabelbaan naar boven" },
+          { "text": "nemen" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wandern oder Schwimmen? Sortiere die niederländischen Wörter zur passenden Aktivität.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "wandelen", "label": "Wandern", "icon": "🥾" },
+          { "id": "zwemmen", "label": "Schwimmen", "icon": "🏊" }
+        ],
+        "items": [
+          { "text": "het wandelpad", "bucket": "wandelen" },
+          { "text": "de bergschoenen", "bucket": "wandelen" },
+          { "text": "een wandeling door het bos", "bucket": "wandelen" },
+          { "text": "het zwembad", "bucket": "zwemmen" },
+          { "text": "de zwembroek", "bucket": "zwemmen" },
+          { "text": "het buitenbad", "bucket": "zwemmen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach einer Radtour. 🚲 Du sagst: Beneden in het dal loopt een vlak fietspad, perfect voor een rustige tocht. Was heißt das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Unten im Tal verläuft ein flacher Radweg, perfekt für eine ruhige Tour.", "correct": true },
+          { "text": "Unten im Tal ist der Radweg steil und nur für sportliche Fahrer." },
+          { "text": "Der Radweg unten im Tal ist wegen Bauarbeiten gesperrt." },
+          { "text": "Der Radweg unten im Tal ist nur für Mountainbikes geeignet." }
+        ],
+        "explanation": "Beneden in het dal heißt: unten im Tal. Vlak heißt: flach, also ohne steile Stellen. Een rustige tocht heißt: eine ruhige Tour. Der Tipp passt für gemütliche Radfahrer."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich kann Ihnen ein gemütliches Restaurant empfehlen. 🍽️",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik kan" },
+          { "text": "u" },
+          { "text": "een gezellig restaurant" },
+          { "text": "aanbevelen" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste fragen nach Ausflügen: Was gehört zusammen? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Können Sie uns ein Restaurant empfehlen?" }, "right": { "text": "Kunt u ons een restaurant aanbevelen?" } },
+          { "left": { "text": "Wie lange dauert die Wanderung zum See?" }, "right": { "text": "Hoe lang duurt de wandeling naar het meer?" } },
+          { "left": { "text": "Können wir im Dorf Fahrräder leihen?" }, "right": { "text": "Kunnen wij in het dorp fietsen huren?" } },
+          { "left": { "text": "Ist das Schwimmbad auch bei Regen geöffnet?" }, "right": { "text": "Is het zwembad ook open als het regent?" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

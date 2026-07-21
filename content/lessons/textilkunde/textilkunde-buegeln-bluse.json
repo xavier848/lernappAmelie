@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👚 Du willst eine Bluse bügeln. Wonach stellst du die Temperatur am Bügeleisen ein?",
+        "prompt": "👚 Du willst eine Bluse bügeln. Wonach richtest du die Temperatur am Bügeleisen?",
         "options": [
           { "text": "Nach dem Pflegesymbol, das in der Bluse eingenäht ist.", "correct": true },
-          { "text": "Immer auf die höchste Stufe.", "correct": false },
-          { "text": "Nach der Farbe der Bluse.", "correct": false }
+          { "text": "Du schätzt nach dem Stoff: dünn wenig Hitze, dick viel Hitze.", "correct": false },
+          { "text": "So heiß wie möglich, dann gehen die Falten am schnellsten raus.", "correct": false }
         ],
-        "explanation": "Im Kragen der Bluse ist ein kleines Schild mit Pflegesymbolen. Das Bügel-Symbol zeigt dir, wie heiß das Eisen sein darf. So bügelst du den Stoff nicht kaputt."
+        "explanation": "Das Pflegesymbol ist ein kleines Bild im Kragen. Es zeigt dir, wie heiß das Eisen sein darf. Schätzen ist riskant: Ist das Eisen zu heiß, schmilzt dünner Stoff und wird gelb."
       }
     },
     {
@@ -31,25 +31,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👔 In welche Richtung bügelst du einen Ärmel?",
+        "prompt": "👔 Du bügelst einen Blusen-Ärmel. In welche Richtung streichst du mit dem Eisen?",
         "options": [
           { "text": "Vom Weiten ins Enge, von der Schulter zum Bündchen.", "correct": true },
-          { "text": "Vom Bündchen hoch zur Schulter.", "correct": false },
-          { "text": "Kreuz und quer, wie es gerade passt.", "correct": false }
+          { "text": "Vom engen Bündchen hoch zur breiten Schulter.", "correct": false },
+          { "text": "Quer über den Ärmel, von einer Naht zur anderen.", "correct": false }
         ],
-        "explanation": "Am breiten Teil hat der Stoff mehr Platz. Wenn du von der Schulter zum Bündchen bügelst, schiebst du keine Falten vor dir her."
+        "explanation": "An der breiten Schulter hat der Stoff mehr Platz. Von der Schulter zum Bündchen schiebst du keine Falten vor dir her. Von unten nach oben oder quer drückst du dagegen neue Falten hinein."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧺 Bügelst du zuerst die kleinen Teile oder die großen Teile?",
+        "prompt": "🧺 Womit fängst du an: mit den kleinen oder den großen Teilen?",
         "options": [
           { "text": "Erst die kleinen Teile wie Kragen und Bündchen, dann die großen.", "correct": true },
-          { "text": "Erst Vorderteil und Rücken, dann den Kragen.", "correct": false },
-          { "text": "Das ist ganz egal.", "correct": false }
+          { "text": "Erst die großen Teile, weil die am längsten brauchen.", "correct": false },
+          { "text": "Erst das Vorderteil und den Rücken, dann den Kragen.", "correct": false }
         ],
-        "explanation": "Beim Bügeln der großen Teile knitterst du sonst die schon fertigen kleinen Teile wieder. Darum kommen Kragen und Bündchen zuerst dran."
+        "explanation": "Bügelst du die großen Teile zuletzt, knitterst du die fertigen kleinen Teile nicht wieder. Darum kommen Kragen und Bündchen zuerst dran."
       }
     },
     {
@@ -82,10 +82,10 @@
         "prompt": "🪝 Warum hängst du die Bluse gleich nach dem Bügeln auf einen Kleiderbügel?",
         "options": [
           { "text": "Damit sie nicht wieder knittert.", "correct": true },
-          { "text": "Damit sie schneller kalt wird.", "correct": false },
-          { "text": "Damit sie mehr Platz braucht.", "correct": false }
+          { "text": "Damit die feuchte Restwärme entweicht und sie nicht muffig riecht.", "correct": false },
+          { "text": "Damit du auf dem Bügelbrett gleich wieder Platz hast.", "correct": false }
         ],
-        "explanation": "Legst du die warme Bluse auf einen Stapel, bekommt sie neue Falten. Auf dem Bügel bleibt sie glatt und deine Arbeit war nicht umsonst."
+        "explanation": "Die Bluse ist nach dem Bügeln noch warm und weich. Legst du sie auf einen Stapel, bekommt sie sofort neue Falten. Auf dem Bügel bleibt sie glatt und deine Arbeit war nicht umsonst."
       }
     },
     {
@@ -109,13 +109,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧷 Was brauchst du zum Bügeln einer Bluse?",
+        "prompt": "🧷 Du willst eine Bluse bügeln. Was brauchst du auf jeden Fall?",
         "options": [
           { "text": "Ein Bügeleisen und ein Bügelbrett.", "correct": true },
-          { "text": "Eine Waschmaschine.", "correct": false },
-          { "text": "Nur ein trockenes Tuch.", "correct": false }
+          { "text": "Nur ein Bügeleisen, du legst die Bluse auf den Tisch.", "correct": false },
+          { "text": "Nur einen Wäscheständer, da hängen sich die Falten von allein aus.", "correct": false }
         ],
-        "explanation": "Auf dem Bügelbrett liegt die Bluse glatt. Mit dem heißen Bügeleisen streichst du die Falten heraus."
+        "explanation": "Auf dem Bügelbrett liegt die Bluse glatt und fest. Es ist gepolstert und hält die Hitze aus. Ein normaler Tisch ist zu weich oder verträgt die Hitze nicht."
       }
     }
   ]

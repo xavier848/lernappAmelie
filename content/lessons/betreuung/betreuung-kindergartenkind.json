@@ -2,18 +2,28 @@
   "topic_slug": "betreuung",
   "slug": "betreuung-kindergartenkind",
   "title": "Kindergartenkind 3–6",
+  "intro": "👶 Kinder zwischen drei und sechs Jahren nennt man Kindergartenkinder. In diesem Alter ist ihre Neugier besonders groß. Sie stellen viele Warum-Fragen und begreifen so die Welt. Bleib bei diesen Fragen ruhig und geduldig. Kindergartenkinder wollen auch vieles selbst schaffen. Das nennt man Selbstständigkeit. Du stärkst sie, wenn das Kind mithelfen darf und du es dafür lobst. Die Aufgabe sollte dabei zum Alter des Kindes passen. Auch das Verlieren müssen Kinder erst lernen, diese Fähigkeit heißt Frustrationstoleranz. Klare Regeln geben dem Kind dabei Halt.",
   "sort": 20,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❓ Kindergartenkinder stellen viele \"Warum-Fragen\". Warum tun sie das?",
+        "prompt": "❓ Kindergartenkinder löchern Erwachsene mit \"Warum-Fragen\". Was steckt meistens dahinter?",
         "options": [
-          { "text": "Ihre Neugier ist in diesem Alter besonders groß.", "correct": true },
-          { "text": "Sie wollen die Erwachsenen ärgern.", "correct": false },
-          { "text": "Sie haben nichts anderes zu tun.", "correct": false }
+          {
+            "text": "Ihre Neugier ist in diesem Alter besonders groß.",
+            "correct": true
+          },
+          {
+            "text": "Sie wollen die Erwachsenen möglichst lange beschäftigen.",
+            "correct": false
+          },
+          {
+            "text": "Sie ahmen die Fragen anderer Kinder nur nach.",
+            "correct": false
+          }
         ],
-        "explanation": "Zwischen drei und sechs Jahren wollen Kinder alles verstehen. Mit \"Warum?\" lernen sie die Welt kennen. Am besten bleibst du ruhig und geduldig."
+        "explanation": "Zwischen drei und sechs Jahren ist der Wissensdrang groß. Wissensdrang heißt: Das Kind will alles verstehen. Mit \"Warum?\" begreift es die Welt. Bleib ruhig und geduldig."
       }
     },
     {
@@ -21,10 +31,38 @@
       "data": {
         "prompt": "🔗 Ein Kindergartenkind verhält sich so. Welche Reaktion passt? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🗯️ Andreas sagt ein Schimpfwort" }, "right": { "text": "Ruhig nachfragen, was das Wort bedeutet" } },
-          { "left": { "text": "🍳 Jan will beim Kochen helfen" }, "right": { "text": "Mithelfen lassen und loben" } },
-          { "left": { "text": "🎲 Martin will immer gewinnen" }, "right": { "text": "Zeigen, dass auch ein zweiter Platz in Ordnung ist" } },
-          { "left": { "text": "🍴 Tobias darf noch nicht mit der Gabel essen" }, "right": { "text": "Eine größere Gabel anbieten statt zu verbieten" } }
+          {
+            "left": {
+              "text": "🗯️ Andreas sagt ein Schimpfwort"
+            },
+            "right": {
+              "text": "Ruhig nachfragen, was das Wort bedeutet"
+            }
+          },
+          {
+            "left": {
+              "text": "🍳 Jan will beim Kochen helfen"
+            },
+            "right": {
+              "text": "Mithelfen lassen und loben"
+            }
+          },
+          {
+            "left": {
+              "text": "🎲 Martin will immer gewinnen"
+            },
+            "right": {
+              "text": "Zeigen, dass auch ein zweiter Platz in Ordnung ist"
+            }
+          },
+          {
+            "left": {
+              "text": "🍴 Tobias darf noch nicht mit der Gabel essen"
+            },
+            "right": {
+              "text": "Eine größere Gabel anbieten statt zu verbieten"
+            }
+          }
         ],
         "memory": false
       }
@@ -32,25 +70,43 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍽️ Jan will beim Kochen helfen. Was ist gut?",
+        "prompt": "🍽️ Jan (4) will beim Kochen helfen und kleckert dabei. Was fördert seine Selbstständigkeit am meisten?",
         "options": [
-          { "text": "Ihn mithelfen lassen und dafür loben.", "correct": true },
-          { "text": "Ihn wegschicken, weil er alles schmutzig macht.", "correct": false },
-          { "text": "Ihm sagen, dass er zu dumm dafür ist.", "correct": false }
+          {
+            "text": "Ihn mithelfen lassen und dafür loben.",
+            "correct": true
+          },
+          {
+            "text": "Ihn zusehen lassen, aber alles selbst machen.",
+            "correct": false
+          },
+          {
+            "text": "Ihn nur helfen lassen, wenn er vorher brav war.",
+            "correct": false
+          }
         ],
-        "explanation": "Mithelfen und Lob stärken das Selbstvertrauen. Gib Jan eine passende Aufgabe, zum Beispiel Servietten auf den Tisch legen."
+        "explanation": "Mithelfen und Lob stärken das Selbstvertrauen und die Selbstständigkeit. Selbstständigkeit heißt: etwas allein schaffen. Gib Jan eine passende Aufgabe, zum Beispiel Servietten auf den Tisch legen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗣️ Ein Kind sagt ein Schimpfwort. Warum ist Nachfragen besser als Schimpfen?",
+        "prompt": "🗣️ Ein Kind benutzt ein Schimpfwort. Warum ist ruhiges Nachfragen besser als lautes Schimpfen?",
         "options": [
-          { "text": "So erfährst du, wo das Kind das Wort gehört hat.", "correct": true },
-          { "text": "So lernt das Kind noch mehr Schimpfwörter.", "correct": false },
-          { "text": "So wird das Kind gleich bestraft.", "correct": false }
+          {
+            "text": "So erfährst du, wo das Kind das Wort gehört hat.",
+            "correct": true
+          },
+          {
+            "text": "So merkt sich das Kind das neue Wort schneller.",
+            "correct": false
+          },
+          {
+            "text": "So spürt das Kind sofort, dass du wütend bist.",
+            "correct": false
+          }
         ],
-        "explanation": "Kinder benutzen gern neue Wörter, ohne ihre Bedeutung zu kennen. Fragst du ruhig nach, verstehst du das Kind besser, statt es nur zu tadeln."
+        "explanation": "Kinder benutzen gern neue Wörter, ohne die Bedeutung zu kennen. Fragst du ruhig nach, verstehst du das Kind besser. Lautes Schimpfen gibt dem Wort nur unnötig viel Aufmerksamkeit."
       }
     },
     {
@@ -58,53 +114,106 @@
       "data": {
         "prompt": "🌱 Was tut einem Kindergartenkind gut? Was nicht? Sortiere.",
         "buckets": [
-          { "id": "gut", "label": "Förderlich", "icon": "✅" },
-          { "id": "schlecht", "label": "Nicht förderlich", "icon": "❌" }
+          {
+            "id": "gut",
+            "label": "Förderlich",
+            "icon": "✅"
+          },
+          {
+            "id": "schlecht",
+            "label": "Nicht förderlich",
+            "icon": "❌"
+          }
         ],
         "items": [
-          { "text": "Das Kind mithelfen lassen und loben.", "bucket": "gut" },
-          { "text": "Geduldig auf Warum-Fragen eingehen.", "bucket": "gut" },
-          { "text": "Auch mal Zweiter werden dürfen.", "bucket": "gut" },
-          { "text": "Jede Hilfe des Kindes ablehnen.", "bucket": "schlecht" },
-          { "text": "Das Kind immer gewinnen lassen.", "bucket": "schlecht" },
-          { "text": "Bei jeder Frage schimpfen.", "bucket": "schlecht" }
+          {
+            "text": "Das Kind mithelfen lassen und loben.",
+            "bucket": "gut"
+          },
+          {
+            "text": "Geduldig auf Warum-Fragen eingehen.",
+            "bucket": "gut"
+          },
+          {
+            "text": "Auch mal Zweiter werden dürfen.",
+            "bucket": "gut"
+          },
+          {
+            "text": "Jede Hilfe des Kindes ablehnen.",
+            "bucket": "schlecht"
+          },
+          {
+            "text": "Das Kind immer gewinnen lassen.",
+            "bucket": "schlecht"
+          },
+          {
+            "text": "Bei jeder Frage schimpfen.",
+            "bucket": "schlecht"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎲 Martin bekommt einen Wutanfall, wenn er ein Spiel verliert. Was ist gut?",
+        "prompt": "🎲 Martin bekommt jedes Mal einen Wutanfall, wenn er ein Spiel verliert. Wie hilfst du ihm am besten?",
         "options": [
-          { "text": "Ihm zeigen, dass es auch einen zweiten Platz geben darf.", "correct": true },
-          { "text": "Ihn immer gewinnen lassen.", "correct": false },
-          { "text": "Nie wieder mit ihm spielen.", "correct": false }
+          {
+            "text": "Ihm zeigen, dass es auch einen zweiten Platz geben darf.",
+            "correct": true
+          },
+          {
+            "text": "Ihn immer gewinnen lassen, damit er ruhig bleibt.",
+            "correct": false
+          },
+          {
+            "text": "Das Spiel sofort abbrechen, sobald er wütend wird.",
+            "correct": false
+          }
         ],
-        "explanation": "Das Gewinnen sollte nicht das Wichtigste sein. Ein Kind lernt so, dass auch Verlieren dazugehört und nicht schlimm ist."
+        "explanation": "So übt Martin seine Frustrationstoleranz. Frustrationstoleranz heißt: auch mal einen Ärger aushalten. Verlieren gehört dazu und ist nicht schlimm."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎁 Claudia fragt die Großmutter sofort: \"Hast du mir was mitgebracht?\" Was ist sinnvoll?",
+        "prompt": "🎁 Claudia fragt die Großmutter sofort: \"Hast du mir was mitgebracht?\" Wie reagierst du sinnvoll?",
         "options": [
-          { "text": "Ruhig erklären, dass es Geschenke nur zu besonderen Anlässen gibt.", "correct": true },
-          { "text": "Jedes Mal ein Geschenk mitbringen.", "correct": false },
-          { "text": "Claudia dafür laut ausschimpfen.", "correct": false }
+          {
+            "text": "Ruhig erklären, dass es Geschenke nur zu besonderen Anlässen gibt.",
+            "correct": true
+          },
+          {
+            "text": "Ihr später heimlich doch eine Kleinigkeit zustecken.",
+            "correct": false
+          },
+          {
+            "text": "So tun, als hättest du ihre Frage nicht gehört.",
+            "correct": false
+          }
         ],
-        "explanation": "So lernt Claudia, dass ein Besuch nicht immer ein Geschenk bedeutet. Geschenke gibt es zu besonderen Tagen, zum Beispiel am Geburtstag."
+        "explanation": "So lernt Claudia, dass ein Besuch nicht immer ein Geschenk bedeutet. Geschenke gibt es zu besonderen Tagen, zum Beispiel am Geburtstag. Klare Regeln geben dem Kind Halt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👍 Ein Kind will helfen. Lässt du es mithelfen?",
+        "prompt": "👍 Ein Kind bietet dir ständig seine Hilfe an. Wie reagierst du am besten?",
         "options": [
-          { "text": "Ja, mit einer passenden Aufgabe.", "correct": true },
-          { "text": "Nein, Kinder sollen nie helfen.", "correct": false },
-          { "text": "Nur, wenn es dafür bezahlt.", "correct": false }
+          {
+            "text": "Ja, mit einer passenden Aufgabe.",
+            "correct": true
+          },
+          {
+            "text": "Ja, auch bei Aufgaben, die für sein Alter noch zu schwer sind.",
+            "correct": false
+          },
+          {
+            "text": "Lieber nicht, weil dann alles länger dauert.",
+            "correct": false
+          }
         ],
-        "explanation": "Helfen macht ein Kind stolz und stärkt sein Selbstvertrauen. Such eine Aufgabe aus, die das Kind gut schaffen kann."
+        "explanation": "Helfen macht ein Kind stolz und stärkt sein Selbstvertrauen. Wähle eine altersgerechte Aufgabe. Altersgerecht heißt: passend zum Alter, damit das Kind nicht überfordert wird."
       }
     }
   ]

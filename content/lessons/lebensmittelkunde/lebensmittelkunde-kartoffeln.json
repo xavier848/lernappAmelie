@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-kartoffeln",
   "title": "Kartoffeln & Kochtypen",
+  "intro": "🥔 Kartoffeln haben verschiedene Kochtypen. Der Kochtyp hängt vom Stärkegehalt ab, also von der Menge Stärke. Festkochende Kartoffeln haben wenig Stärke und bleiben nach dem Garen fest. Mehligkochende Kartoffeln haben viel Stärke und zerfallen leicht. Dazwischen liegen die vorwiegend festkochenden Kartoffeln. Darum passt jeder Kochtyp zu anderen Gerichten. Beim Garen kannst du auch die Nährstoffe schützen. Viele Vitamine und Mineralstoffe sitzen dicht unter der Schale. Schäle darum dünn oder gare die Kartoffel mit Schale. Wenig Wasser und ein geschlossener Deckel schonen die Vitamine.",
   "sort": 10,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥔 Es gibt verschiedene Kochtypen bei Kartoffeln. Warum ist der Kochtyp wichtig?",
+        "prompt": "🥔 Kartoffeln haben verschiedene Kochtypen. Warum solltest du den Kochtyp kennen, bevor du kochst?",
         "options": [
-          { "text": "Jeder Kochtyp passt zu anderen Gerichten.", "correct": true },
-          { "text": "Der Kochtyp sagt nur, wie schwer die Kartoffel ist." },
-          { "text": "Der Kochtyp ist egal beim Kochen." }
+          {
+            "text": "Jeder Kochtyp passt zu anderen Gerichten.",
+            "correct": true
+          },
+          {
+            "text": "Der Kochtyp sagt dir, wie lange die Kartoffel haltbar ist."
+          },
+          {
+            "text": "Der Kochtyp sagt dir, wie groß die Kartoffel gewachsen ist."
+          }
         ],
-        "explanation": "Festkochende Kartoffeln bleiben in Form. Mehligkochende zerfallen leicht. Darum passt jeder Typ zu anderen Speisen."
+        "explanation": "Der Kochtyp hängt vom Stärkegehalt ab. Das ist die Menge Stärke in der Kartoffel. Festkochende Kartoffeln bleiben in Form. Mehligkochende zerfallen leicht. Darum passt jeder Typ zu anderen Speisen."
       }
     },
     {
@@ -21,9 +29,30 @@
       "data": {
         "prompt": "🏷️ Welche Sorte hat welchen Kochtyp? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Afra" }, "right": { "text": "Mehligkochend" } },
-          { "left": { "text": "Nicola" }, "right": { "text": "Festkochend" } },
-          { "left": { "text": "Agria" }, "right": { "text": "Vorwiegend festkochend" } }
+          {
+            "left": {
+              "text": "Afra"
+            },
+            "right": {
+              "text": "Mehligkochend"
+            }
+          },
+          {
+            "left": {
+              "text": "Nicola"
+            },
+            "right": {
+              "text": "Festkochend"
+            }
+          },
+          {
+            "left": {
+              "text": "Agria"
+            },
+            "right": {
+              "text": "Vorwiegend festkochend"
+            }
+          }
         ],
         "memory": false
       }
@@ -31,25 +60,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Für welches Gericht nimmst du festkochende Kartoffeln?",
+        "prompt": "🥗 Dein Gericht soll fest bleiben und nicht zerfallen. Für welches Gericht sind festkochende Kartoffeln am besten?",
         "options": [
-          { "text": "Für Kartoffelsalat.", "correct": true },
-          { "text": "Für Kartoffelbrei." },
-          { "text": "Für Kroketten." }
+          {
+            "text": "Für Kartoffelsalat.",
+            "correct": true
+          },
+          {
+            "text": "Für Kartoffelpüree."
+          },
+          {
+            "text": "Für Kartoffelklöße."
+          }
         ],
-        "explanation": "Festkochende Kartoffeln bleiben fest und behalten ihre Form. Darum sind sie ideal für Salat."
+        "explanation": "Festkochende Kartoffeln haben wenig Stärke. Sie bleiben nach dem Garen fest und behalten ihre Form. Darum zerfallen sie im Salat nicht. Püree und Klöße brauchen dagegen weiche, zerfallende Kartoffeln."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Für welches Gericht nimmst du mehligkochende Kartoffeln?",
+        "prompt": "🥣 Dein Gericht soll schön weich und cremig werden. Für welches Gericht sind mehligkochende Kartoffeln am besten?",
         "options": [
-          { "text": "Für Kartoffelbrei.", "correct": true },
-          { "text": "Für Kartoffelsalat." },
-          { "text": "Für Bratkartoffeln." }
+          {
+            "text": "Für Kartoffelbrei.",
+            "correct": true
+          },
+          {
+            "text": "Für Kartoffelsalat."
+          },
+          {
+            "text": "Für Bratkartoffeln."
+          }
         ],
-        "explanation": "Mehligkochende Kartoffeln zerfallen leicht und werden schön weich. Das ist perfekt für Brei oder Püree."
+        "explanation": "Mehligkochende Kartoffeln haben viel Stärke. Beim Garen zerfallen sie leicht und werden weich. Das ist perfekt für Brei. Salat und Bratkartoffeln brauchen dagegen festkochende Kartoffeln, die in Form bleiben."
       }
     },
     {
@@ -57,14 +100,34 @@
       "data": {
         "prompt": "🍽️ Welcher Kochtyp passt zu welchem Gericht? Sortiere.",
         "buckets": [
-          { "id": "fest", "label": "Festkochend", "icon": "🥗" },
-          { "id": "mehlig", "label": "Mehligkochend", "icon": "🥣" }
+          {
+            "id": "fest",
+            "label": "Festkochend",
+            "icon": "🥗"
+          },
+          {
+            "id": "mehlig",
+            "label": "Mehligkochend",
+            "icon": "🥣"
+          }
         ],
         "items": [
-          { "text": "Kartoffelsalat", "bucket": "fest" },
-          { "text": "Bratkartoffeln", "bucket": "fest" },
-          { "text": "Kartoffelpüree", "bucket": "mehlig" },
-          { "text": "Kroketten", "bucket": "mehlig" }
+          {
+            "text": "Kartoffelsalat",
+            "bucket": "fest"
+          },
+          {
+            "text": "Bratkartoffeln",
+            "bucket": "fest"
+          },
+          {
+            "text": "Kartoffelpüree",
+            "bucket": "mehlig"
+          },
+          {
+            "text": "Kroketten",
+            "bucket": "mehlig"
+          }
         ]
       }
     },
@@ -73,24 +136,41 @@
       "data": {
         "prompt": "🔪 Bringe die Verarbeitung der Kartoffeln in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Kartoffeln erst kurz vor dem Garen schälen." },
-          { "text": "Dünn mit dem Sparschäler schälen." },
-          { "text": "Kurz in kaltem Wasser waschen." },
-          { "text": "Mit wenig Wasser in den Topf geben." },
-          { "text": "Den Deckel gut schließen und garen." }
+          {
+            "text": "Kartoffeln erst kurz vor dem Garen dünn mit dem Sparschäler schälen."
+          },
+          {
+            "text": "Die geschälten Kartoffeln kurz in kaltem Wasser abspülen."
+          },
+          {
+            "text": "Mit wenig Wasser in den Topf geben."
+          },
+          {
+            "text": "Den Deckel gut schließen."
+          },
+          {
+            "text": "Bei kleiner Hitze garen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥔 Warum schälst du Kartoffeln möglichst dünn?",
+        "prompt": "🥔 Warum solltest du Kartoffeln möglichst dünn schälen?",
         "options": [
-          { "text": "Direkt unter der Schale sitzen viele Nährstoffe.", "correct": true },
-          { "text": "Dünn schälen geht schneller kaputt." },
-          { "text": "Dick schälen macht sie giftig." }
+          {
+            "text": "Direkt unter der Schale sitzen viele Nährstoffe.",
+            "correct": true
+          },
+          {
+            "text": "Dünn geschälte Kartoffeln kochen viel schneller gar."
+          },
+          {
+            "text": "Dünn geschälte Kartoffeln schmecken süßer."
+          }
         ],
-        "explanation": "Gleich unter der Schale stecken viele Vitamine und Mineralstoffe. Schälst du dünn, bleiben mehr davon erhalten."
+        "explanation": "Nährstoffe sind zum Beispiel Vitamine und Mineralstoffe. Gleich unter der Schale stecken besonders viele davon. Schälst du dünn, bleiben mehr davon erhalten."
       }
     },
     {
@@ -98,35 +178,56 @@
       "data": {
         "prompt": "💧 Warum garst du Kartoffeln mit wenig Wasser und geschlossenem Deckel?",
         "options": [
-          { "text": "So bleiben mehr Nährstoffe erhalten und es spart Energie.", "correct": true },
-          { "text": "So werden die Kartoffeln bunt." },
-          { "text": "Das ist nur eine alte Gewohnheit." }
+          {
+            "text": "So bleiben mehr Nährstoffe erhalten und es spart Energie.",
+            "correct": true
+          },
+          {
+            "text": "Mit Deckel dauert das Garen länger und sie werden weicher."
+          },
+          {
+            "text": "Wenig Wasser macht die Schale von allein knusprig."
+          }
         ],
-        "explanation": "Viel Wasser schwemmt Nährstoffe aus. Wenig Wasser mit Deckel schont die Vitamine und braucht weniger Energie."
+        "explanation": "Viel Wasser schwemmt wasserlösliche Nährstoffe wie Vitamine aus der Kartoffel. Wenig Wasser mit Deckel hält den Dampf im Topf. Das schont die Vitamine und braucht weniger Energie."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥔 Pellkartoffeln werden mit Schale gegart. Warum ist das gut?",
+        "prompt": "🥔 Pellkartoffeln werden mit Schale gegart. Warum ist das gut für die Nährstoffe?",
         "options": [
-          { "text": "Mit Schale bleiben mehr Vitamine und Mineralstoffe drin.", "correct": true },
-          { "text": "Mit Schale schmecken sie nach nichts." },
-          { "text": "Die Schale macht sie giftig." }
+          {
+            "text": "Mit Schale bleiben mehr Vitamine und Mineralstoffe drin.",
+            "correct": true
+          },
+          {
+            "text": "Mit Schale garen sie viel schneller und brauchen weniger Hitze."
+          },
+          {
+            "text": "Ohne Schale zerfällt jede Kartoffel beim Garen."
+          }
         ],
-        "explanation": "Beim Garen mit Schale gehen weniger Nährstoffe ins Wasser über. Darum sind Pellkartoffeln nährstoffreicher als geschälte."
+        "explanation": "Die Schale wirkt beim Garen wie ein Schutz. So gehen weniger Nährstoffe ins Kochwasser über. Darum sind Pellkartoffeln nährstoffreicher als geschälte Kartoffeln."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Du willst Kartoffelbrei machen. Welchen Kochtyp brauchst du?",
+        "prompt": "🌟 Zum Schluss: Du willst cremigen Kartoffelbrei machen. Welchen Kochtyp brauchst du?",
         "options": [
-          { "text": "Mehligkochende Kartoffeln.", "correct": true },
-          { "text": "Festkochende Kartoffeln." },
-          { "text": "Der Kochtyp ist egal." }
+          {
+            "text": "Mehligkochende Kartoffeln.",
+            "correct": true
+          },
+          {
+            "text": "Vorwiegend festkochende Kartoffeln."
+          },
+          {
+            "text": "Festkochende Kartoffeln."
+          }
         ],
-        "explanation": "Für Brei nimmst du mehligkochende Kartoffeln. Sie zerfallen leicht und werden schön cremig."
+        "explanation": "Für cremigen Brei nimmst du mehligkochende Kartoffeln. Sie haben viel Stärke, zerfallen leicht und werden schön weich. Vorwiegend festkochende oder festkochende Kartoffeln bleiben zu stückig."
       }
     }
   ]

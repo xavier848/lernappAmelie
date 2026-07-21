@@ -2,18 +2,26 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-vitamine",
   "title": "Vitamine im Detail",
+  "intro": "🥕 Vitamine sind Stoffe, die dein Körper zum Leben braucht. Die meisten kann der Körper nicht selbst herstellen. Darum nimmst du sie über das Essen auf. Manche Vitamine lösen sich in Fett, andere in Wasser. Fettlösliche Vitamine kann der Körper speichern. Wasserlösliche gehen über den Urin wieder raus. Manchmal steckt im Essen erst eine Vorstufe. Daraus baut der Körper das fertige Vitamin selbst. Jedes Vitamin hat eine eigene Aufgabe, zum Beispiel für die Augen, die Knochen oder das Blut. Fehlt ein Vitamin lange, kann eine Krankheit entstehen.",
   "sort": 260,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥕 In Karotten steckt Beta-Carotin. Was macht der Körper damit?",
+        "prompt": "🥕 Beta-Carotin nennt man eine Vorstufe von Vitamin A. In Karotten steckt viel davon. Was passiert damit im Körper?",
         "options": [
-          { "text": "Er baut daraus Vitamin A.", "correct": true },
-          { "text": "Er baut daraus Vitamin C." },
-          { "text": "Er scheidet es sofort aus." }
+          {
+            "text": "Er baut daraus Vitamin A.",
+            "correct": true
+          },
+          {
+            "text": "Es ist schon fertiges Vitamin A und wirkt ohne Umbau."
+          },
+          {
+            "text": "Er wandelt es in Vitamin C um."
+          }
         ],
-        "explanation": "Beta-Carotin ist eine Vorstufe von Vitamin A. Der Körper macht daraus selbst Vitamin A. Beta-Carotin steckt in Karotten, Spinat und Grünkohl. Es schützt außerdem die Zellen."
+        "explanation": "Beta-Carotin ist eine Vorstufe von Vitamin A. Man sagt auch Provitamin. Der Körper baut daraus selbst Vitamin A. Fertiges Vitamin A ist es also noch nicht. Beta-Carotin steckt in Karotten, Spinat und Grünkohl. Es schützt außerdem die Zellen."
       }
     },
     {
@@ -21,16 +29,42 @@
       "data": {
         "prompt": "🍊 Vitamine teilt man in zwei Gruppen. Manche lösen sich in Fett, manche in Wasser. Sortiere sie.",
         "buckets": [
-          { "id": "fett", "label": "Fettlöslich", "icon": "🧈" },
-          { "id": "wasser", "label": "Wasserlöslich", "icon": "💧" }
+          {
+            "id": "fett",
+            "label": "Fettlöslich",
+            "icon": "🧈"
+          },
+          {
+            "id": "wasser",
+            "label": "Wasserlöslich",
+            "icon": "💧"
+          }
         ],
         "items": [
-          { "text": "Vitamin A", "bucket": "fett" },
-          { "text": "Vitamin D", "bucket": "fett" },
-          { "text": "Vitamin E", "bucket": "fett" },
-          { "text": "Vitamin K", "bucket": "fett" },
-          { "text": "Vitamin C", "bucket": "wasser" },
-          { "text": "Vitamin B12", "bucket": "wasser" }
+          {
+            "text": "Vitamin A",
+            "bucket": "fett"
+          },
+          {
+            "text": "Vitamin D",
+            "bucket": "fett"
+          },
+          {
+            "text": "Vitamin E",
+            "bucket": "fett"
+          },
+          {
+            "text": "Vitamin K",
+            "bucket": "fett"
+          },
+          {
+            "text": "Vitamin C",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Vitamin B12",
+            "bucket": "wasser"
+          }
         ]
       }
     },
@@ -39,10 +73,38 @@
       "data": {
         "prompt": "🔗 Jedes Vitamin hat eine wichtige Aufgabe. Ordne zu.",
         "pairs": [
-          { "left": { "text": "👁️ Vitamin A" }, "right": { "text": "Wichtig für die Augen und das Sehen" } },
-          { "left": { "text": "🦴 Vitamin D" }, "right": { "text": "Bringt Calcium in die Knochen" } },
-          { "left": { "text": "🩹 Vitamin K" }, "right": { "text": "Wichtig für die Blutgerinnung" } },
-          { "left": { "text": "🍊 Vitamin C" }, "right": { "text": "Stärkt das Bindegewebe" } }
+          {
+            "left": {
+              "text": "👁️ Vitamin A"
+            },
+            "right": {
+              "text": "Wichtig für die Augen und das Sehen"
+            }
+          },
+          {
+            "left": {
+              "text": "🦴 Vitamin D"
+            },
+            "right": {
+              "text": "Bringt Calcium in die Knochen"
+            }
+          },
+          {
+            "left": {
+              "text": "🩹 Vitamin K"
+            },
+            "right": {
+              "text": "Wichtig für die Blutgerinnung"
+            }
+          },
+          {
+            "left": {
+              "text": "🍊 Vitamin C"
+            },
+            "right": {
+              "text": "Stärkt das Bindegewebe"
+            }
+          }
         ],
         "memory": false
       }
@@ -52,10 +114,38 @@
       "data": {
         "prompt": "🃏 Memory: Fehlt ein Vitamin lange, wird man krank. Ordne die Krankheit dem fehlenden Vitamin zu.",
         "pairs": [
-          { "left": { "text": "🦴 Rachitis (weiche Knochen)" }, "right": { "text": "Vitamin D fehlt" } },
-          { "left": { "text": "🦷 Skorbut (Zahnfleisch blutet)" }, "right": { "text": "Vitamin C fehlt" } },
-          { "left": { "text": "🦵 Beri-Beri (schwache Nerven)" }, "right": { "text": "Vitamin B1 fehlt" } },
-          { "left": { "text": "🩹 Pellagra (raue Haut)" }, "right": { "text": "Niacin fehlt" } }
+          {
+            "left": {
+              "text": "🦴 Rachitis (weiche Knochen)"
+            },
+            "right": {
+              "text": "Vitamin D fehlt"
+            }
+          },
+          {
+            "left": {
+              "text": "🦷 Skorbut (Zahnfleisch blutet)"
+            },
+            "right": {
+              "text": "Vitamin C fehlt"
+            }
+          },
+          {
+            "left": {
+              "text": "🦵 Beri-Beri (schwache Nerven)"
+            },
+            "right": {
+              "text": "Vitamin B1 fehlt"
+            }
+          },
+          {
+            "left": {
+              "text": "🩹 Pellagra (raue Haut)"
+            },
+            "right": {
+              "text": "Niacin fehlt"
+            }
+          }
         ],
         "memory": true
       }
@@ -65,53 +155,100 @@
       "data": {
         "prompt": "💧 Fettlösliche Vitamine kann der Körper speichern. Wasserlösliche gehen über den Urin wieder raus. Sortiere.",
         "buckets": [
-          { "id": "speichern", "label": "Körper speichert", "icon": "📦" },
-          { "id": "raus", "label": "Wird ausgeschieden", "icon": "🚽" }
+          {
+            "id": "speichern",
+            "label": "Körper speichert",
+            "icon": "📦"
+          },
+          {
+            "id": "raus",
+            "label": "Wird ausgeschieden",
+            "icon": "🚽"
+          }
         ],
         "items": [
-          { "text": "Vitamin A", "bucket": "speichern" },
-          { "text": "Vitamin D", "bucket": "speichern" },
-          { "text": "Vitamin E", "bucket": "speichern" },
-          { "text": "Vitamin C", "bucket": "raus" },
-          { "text": "Vitamin B1", "bucket": "raus" },
-          { "text": "Vitamin B12", "bucket": "raus" }
+          {
+            "text": "Vitamin A",
+            "bucket": "speichern"
+          },
+          {
+            "text": "Vitamin D",
+            "bucket": "speichern"
+          },
+          {
+            "text": "Vitamin E",
+            "bucket": "speichern"
+          },
+          {
+            "text": "Vitamin C",
+            "bucket": "raus"
+          },
+          {
+            "text": "Vitamin B1",
+            "bucket": "raus"
+          },
+          {
+            "text": "Vitamin B12",
+            "bucket": "raus"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥩 Vitamin B12 ist besonders. In welchem Essen steckt es?",
+        "prompt": "🥩 Wer vegan isst, muss Vitamin B12 oft als Tablette nehmen. In welchem natürlichen Essen steckt es fast nur?",
         "options": [
-          { "text": "Nur in tierischem Essen wie Fleisch, Fisch, Eiern und Milch", "correct": true },
-          { "text": "Nur in Obst und Gemüse" },
-          { "text": "Nur im Trinkwasser" }
+          {
+            "text": "Nur in tierischem Essen wie Fleisch, Fisch, Eiern und Milch",
+            "correct": true
+          },
+          {
+            "text": "Vor allem in grünem Gemüse wie Spinat und Brokkoli"
+          },
+          {
+            "text": "Vor allem in Vollkorn, Nüssen und Hülsenfrüchten"
+          }
         ],
-        "explanation": "Vitamin B12 steckt fast nur in tierischem Essen. Zum Beispiel in Fleisch, Fisch, Eiern und Milch. Es ist wichtig für die Blutbildung. Wer vegan isst, muss auf Vitamin B12 besonders achten."
+        "explanation": "Vitamin B12 steckt fast nur in tierischem Essen. Zum Beispiel in Fleisch, Fisch, Eiern und Milch. Pflanzen liefern kaum B12. Vitamin B12 ist wichtig für die Blutbildung. Wer vegan isst, nimmt es darum oft extra als Tablette ein."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍊 Vitamin C kann noch mehr, als vor Erkältung zu schützen. Wobei hilft es?",
+        "prompt": "🍊 Du isst Linsen zum Mittag und trinkst ein Glas Orangensaft dazu. Wobei hilft dir das Vitamin C im Saft?",
         "options": [
-          { "text": "Es stärkt das Bindegewebe und hilft, Eisen aufzunehmen.", "correct": true },
-          { "text": "Es baut die Knochen weich." },
-          { "text": "Es macht die Haare dunkel." }
+          {
+            "text": "Es stärkt das Bindegewebe und hilft, Eisen aufzunehmen.",
+            "correct": true
+          },
+          {
+            "text": "Es bringt Calcium in die Knochen."
+          },
+          {
+            "text": "Es ist wichtig für die Blutgerinnung."
+          }
         ],
-        "explanation": "Vitamin C stärkt das Bindegewebe im Körper. Es hilft auch dabei, Eisen aus dem Essen aufzunehmen. Darum ist ein Glas Orangensaft zum Essen gut. Vitamin C steckt in Obst und Gemüse."
+        "explanation": "Vitamin C stärkt das Bindegewebe. Das ist das Gewebe, das den Körper zusammenhält. Vitamin C hilft auch, Eisen aus dem Essen aufzunehmen. Darum passt Orangensaft gut zu Linsen. Calcium in die Knochen bringt dagegen Vitamin D. Für die Blutgerinnung ist Vitamin K wichtig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss, ganz leicht: In welchem Essen steckt viel Vitamin C?",
+        "prompt": "🌟 Zum Schluss: In welchem Essen steckt am meisten Vitamin C?",
         "options": [
-          { "text": "🍓 In Obst und Gemüse", "correct": true },
-          { "text": "🧈 In Butter" },
-          { "text": "🍬 In Bonbons" }
+          {
+            "text": "🍓 In Obst und Gemüse",
+            "correct": true
+          },
+          {
+            "text": "🥛 In Milch und Käse"
+          },
+          {
+            "text": "🍞 In Brot und Nudeln"
+          }
         ],
-        "explanation": "Vitamin C steckt vor allem in Obst und Gemüse. Zum Beispiel in Orangen, Paprika und Brokkoli. Es ist wasserlöslich. Darum kann der Körper es nicht lange speichern."
+        "explanation": "Vitamin C steckt vor allem in Obst und Gemüse. Zum Beispiel in Orangen, Paprika und Brokkoli. Milch, Käse, Brot und Nudeln haben andere Nährstoffe, aber kaum Vitamin C. Vitamin C ist wasserlöslich. Darum kann der Körper es nicht lange speichern."
       }
     }
   ]

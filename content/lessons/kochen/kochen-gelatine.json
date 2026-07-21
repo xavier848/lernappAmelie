@@ -10,10 +10,10 @@
         "prompt": "🧊 Gelatine ist farblos, geruchlos und schmeckt nach nichts. Wofür kannst du sie darum nehmen?",
         "options": [
           { "text": "Für süße und für pikante Speisen.", "correct": true },
-          { "text": "Nur für süße Speisen." },
-          { "text": "Nur für rote Speisen." }
+          { "text": "Nur für süße Speisen wie Pudding oder Creme." },
+          { "text": "Nur für pikante Speisen wie Sülze." }
         ],
-        "explanation": "Gelatine wird aus tierischem Eiweiß gewonnen. Sie ist farblos und schmeckt nach nichts. Darum passt sie zu süßen Desserts und auch zu pikanten Speisen wie einer Gemüsesülze."
+        "explanation": "Pikant heißt herzhaft, also nicht süß. Gelatine ist farblos und schmeckt nach nichts. Darum ist sie nicht auf eine Seite festgelegt. Sie passt zu süßen Desserts und genauso zu pikanten Speisen wie einer Gemüsesülze."
       }
     },
     {
@@ -22,10 +22,10 @@
         "prompt": "🛒 In welchen Formen kannst du Gelatine kaufen?",
         "options": [
           { "text": "Als Blätter, als Pulver und als Sofort-Gelatine.", "correct": true },
-          { "text": "Nur als Blätter." },
-          { "text": "Nur flüssig in der Flasche." }
+          { "text": "Nur als Blätter und als Pulver." },
+          { "text": "Als Blätter, als Würfel und als Sirup." }
         ],
-        "explanation": "Es gibt Blattgelatine, Pulvergelatine und Sofort-Gelatine. Blattgelatine musst du erst einweichen. Sofort-Gelatine kannst du gleich einrühren."
+        "explanation": "Es gibt drei Formen: Blattgelatine, Pulvergelatine und Sofort-Gelatine. Blätter und Pulver musst du erst einweichen. Sofort-Gelatine kannst du gleich einrühren. Würfel oder Sirup gibt es bei Gelatine nicht."
       }
     },
     {
@@ -44,25 +44,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌱 Amelie kocht für einen Gast, der vegan lebt. Was nimmt sie statt Gelatine?",
+        "prompt": "🌱 Amelie kocht für einen Gast, der vegan lebt. Er isst nichts vom Tier. Was nimmt sie statt Gelatine?",
         "options": [
           { "text": "Agar-Agar. Das ist ein pflanzliches Geliermittel aus Algen.", "correct": true },
-          { "text": "Einfach mehr Zucker." },
-          { "text": "Ganz normale Blattgelatine." }
+          { "text": "Ganz normale Blattgelatine." },
+          { "text": "Speisestärke, die bindet ja auch." }
         ],
-        "explanation": "Agar-Agar wird aus Algen gemacht. Es ist pflanzlich und passt für vegane Ernährung. Ein Beutel Agar-Agar bindet etwa so gut wie 6 Blatt Gelatine."
+        "explanation": "Vegan heißt: nichts vom Tier. Gelatine wird aus tierischem Eiweiß gemacht. Darum passt sie hier nicht. Agar-Agar kommt aus Algen und ist pflanzlich. Ein Beutel bindet etwa so gut wie 6 Blatt Gelatine. Speisestärke bindet zwar, macht aber kein festes, klares Gelee."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥄 Woran erkennst du, dass die Creme fest genug ist, um die Sahne unterzuheben?",
+        "prompt": "🥄 Die Gelatine-Creme steht im Kühlschrank. Woran erkennst du den richtigen Moment, um die Sahne unterzuheben?",
         "options": [
           { "text": "Der Schneebesen zieht sichtbare Bahnen in der Creme.", "correct": true },
-          { "text": "Die Creme fängt an zu kochen." },
-          { "text": "Die Creme ist noch ganz dünn und flüssig." }
+          { "text": "Die Creme ist noch dünnflüssig wie am Anfang." },
+          { "text": "Die Creme ist schon ganz fest und lässt sich schneiden." }
         ],
-        "explanation": "Zieh mit dem Schneebesen durch die Creme. Wenn du danach kurze Bahnen siehst, ist der richtige Moment da. Erst dann die Sahne unterheben. Sonst setzt sich die Sahne unten ab."
+        "explanation": "Unterheben heißt: vorsichtig mischen, damit die Luft in der Sahne bleibt. Zieh mit dem Schneebesen durch die Creme. Siehst du kurze Bahnen, ist der Moment da. Ist die Creme noch dünn, setzt sich die Sahne unten ab. Ist sie schon fest, gibt es Klümpchen."
       }
     },
     {
@@ -93,7 +93,7 @@
           { "text": "🍌 Banane", "bucket": "passt" },
           { "text": "🍍 Frische Ananas", "bucket": "erst" },
           { "text": "🥝 Frische Kiwi", "bucket": "erst" },
-          { "text": "🫐 Frische Papaya", "bucket": "erst" }
+          { "text": "🥭 Frische Papaya", "bucket": "erst" }
         ]
       }
     },
@@ -103,10 +103,10 @@
         "prompt": "🔥 Deine Gelatine-Speise ist zu fest geworden oder hat Klümpchen. Was tust du?",
         "options": [
           { "text": "Die Speise vorsichtig erwärmen. Dann wird sie wieder flüssig.", "correct": true },
-          { "text": "Die Speise wegwerfen und neu anfangen." },
-          { "text": "Noch mehr Gelatine dazugeben." }
+          { "text": "Noch mehr Gelatine dazugeben, dann lösen sich die Klümpchen." },
+          { "text": "Kaltes Wasser einrühren und kräftig schlagen." }
         ],
-        "explanation": "Erwärme die Speise vorsichtig. Die Gelatine wird wieder flüssig. Dann kannst du sie glatt rühren und wie gewohnt weitermachen."
+        "explanation": "Gelatine wird durch Wärme wieder flüssig. Erwärme die Speise darum vorsichtig und rühre sie glatt. Kaltes Wasser hilft dabei nicht. Mehr Gelatine macht die Speise nur noch fester."
       }
     },
     {
@@ -115,10 +115,10 @@
         "prompt": "⏱️ Zum Schluss: Wie lange weichst du Blattgelatine in kaltem Wasser ein?",
         "options": [
           { "text": "Etwa 10 Minuten.", "correct": true },
-          { "text": "Nur eine Sekunde." },
-          { "text": "Einen ganzen Tag." }
+          { "text": "Nur etwa 30 Sekunden." },
+          { "text": "Mindestens eine ganze Stunde." }
         ],
-        "explanation": "Leg die Blätter einzeln in kaltes Wasser. Nach etwa 10 Minuten sind sie weich. Dann kannst du sie abtropfen und auflösen."
+        "explanation": "Leg die Blätter einzeln in kaltes Wasser. Nach etwa 10 Minuten sind sie weich. Nach nur 30 Sekunden sind sie noch hart und lösen sich später schlecht auf. Eine ganze Stunde ist nicht nötig."
       }
     }
   ]

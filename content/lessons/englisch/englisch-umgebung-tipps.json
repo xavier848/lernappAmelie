@@ -1,0 +1,150 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-umgebung-tipps",
+  "title": "Ausflüge & Umgebung",
+  "sort": 22,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt dich: Could you recommend a good place to eat within walking distance? 🍽️ Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Er sucht ein gutes Restaurant, das man zu Fuß erreichen kann.", "correct": true },
+          { "text": "Er sucht ein gutes Restaurant, das man mit dem Auto erreichen kann." },
+          { "text": "Er will wissen, ob man im Restaurant einen Tisch reservieren muss." }
+        ],
+        "explanation": "Within walking distance heißt: zu Fuß erreichbar. To recommend heißt: empfehlen. Der Gast möchte also einen Tipp für ein Lokal in der Nähe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Tipps für die Umgebung: Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "You can take the cable car to the top of the Zugspitze." }, "right": { "text": "Sie können mit der Seilbahn auf die Zugspitze fahren." } },
+          { "left": { "text": "The lake is only ten minutes away by bike. 🚲" }, "right": { "text": "Der See ist mit dem Rad nur zehn Minuten entfernt." } },
+          { "left": { "text": "The indoor swimming pool is great for rainy days." }, "right": { "text": "Das Hallenbad ist super für Regentage." } },
+          { "left": { "text": "The easy hiking trail around the lake takes about two hours." }, "right": { "text": "Der leichte Wanderweg um den See dauert etwa zwei Stunden." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Ich kann Ihnen ein nettes Restaurant im Dorf empfehlen. Es ist nur fünf Minuten zu Fuß. Welcher Satz stimmt genau?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I can recommend a nice restaurant in the village. It is only a five-minute walk.", "correct": true },
+          { "text": "I can recommend a nice restaurant in the village. It is only five minutes by car." },
+          { "text": "I can recommend a nice hotel in the village. It is only a five-minute walk." },
+          { "text": "I can recommend a nice restaurant near the lake. It is a long walk." }
+        ],
+        "explanation": "A five-minute walk heißt: fünf Minuten zu Fuß. By car wäre: mit dem Auto. Achte auch auf restaurant (nicht hotel) und in the village (im Dorf)."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast möchte auf den Berg. Baue den Satz: Sie können mit der Seilbahn nach ganz oben fahren. 🚡",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You can take" },
+          { "text": "the cable car" },
+          { "text": "to the top" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du gibst einen Tipp: If the weather is good tomorrow, you can take the cable car to the top of the Zugspitze and enjoy the view. 🏔️ Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Bei gutem Wetter können Sie morgen mit der Seilbahn auf die Zugspitze fahren und die Aussicht genießen.", "correct": true },
+          { "text": "Bei gutem Wetter können Sie morgen auf die Zugspitze wandern und oben übernachten." },
+          { "text": "Wenn das Wetter morgen schlecht ist, fährt die Seilbahn nicht auf die Zugspitze." }
+        ],
+        "explanation": "To take the cable car heißt: mit der Seilbahn fahren. To enjoy the view heißt: die Aussicht genießen. If the weather is good heißt: wenn das Wetter gut ist."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich kann Ihnen ein nettes Restaurant im Dorf empfehlen. 🍽️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I can" },
+          { "text": "recommend" },
+          { "text": "a nice" },
+          { "text": "restaurant" },
+          { "text": "in the village" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Passt der Tipp zu den Bergen oder zum Wasser? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "berge", "label": "Berge", "icon": "🏔️" },
+          { "id": "wasser", "label": "Wasser", "icon": "💧" }
+        ],
+        "items": [
+          { "text": "You can hike to the summit.", "bucket": "berge" },
+          { "text": "The cable car takes you up the mountain.", "bucket": "berge" },
+          { "text": "The mountain trail offers great views.", "bucket": "berge" },
+          { "text": "The lake has clear water for swimming.", "bucket": "wasser" },
+          { "text": "The swimming pool is open until seven.", "bucket": "wasser" },
+          { "text": "You can rent a boat at the lake.", "bucket": "wasser" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Eine Familie plant ihren Tag. Der Vater fragt: Is the lake warm enough for swimming at this time of year? 🌊 Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ob der See zu dieser Jahreszeit warm genug zum Schwimmen ist.", "correct": true },
+          { "text": "Ob das Schwimmbad zu dieser Jahreszeit schon geöffnet ist." },
+          { "text": "Ob der See im Sommer zu voll zum Schwimmen ist." }
+        ],
+        "explanation": "Warm enough heißt: warm genug. At this time of year heißt: zu dieser Jahreszeit. Er fragt nach dem See (lake), nicht nach dem Schwimmbad (swimming pool)."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Der Wanderweg beginnt direkt hinter dem Haus. 🥾",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The hiking trail" },
+          { "text": "starts" },
+          { "text": "right" },
+          { "text": "behind" },
+          { "text": "the house" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welcher englische Tipp passt? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Die Wanderwege sind gut ausgeschildert." }, "right": { "text": "The hiking trails are well signposted." } },
+          { "left": { "text": "Bei Sonne lohnt sich ein Ausflug zum See. ☀️" }, "right": { "text": "On a sunny day, a trip to the lake is worth it." } },
+          { "left": { "text": "Das Restaurant im Dorf ist montags geschlossen." }, "right": { "text": "The restaurant in the village is closed on Mondays." } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

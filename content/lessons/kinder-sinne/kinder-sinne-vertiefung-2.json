@@ -2,30 +2,45 @@
   "topic_slug": "kinder-sinne",
   "slug": "kinder-sinne-vertiefung-2",
   "title": "Die Ruhe-Insel: Entspannung für Kinder",
+  "intro": "😌 Kinder nehmen den ganzen Tag viele Reize auf. Sie hören Geräusche, sehen Bilder und bewegen sich viel. Wird es zu viel, spricht man von Reizüberflutung. Dann wird ein Kind quengelig, reibt sich die Augen oder wird schnell wütend. Das sind Zeichen für Erschöpfung. Jetzt braucht das Kind eine Pause, um die Reize zu verarbeiten und neue Kraft zu tanken. Darum sind Pausen auch mitten am Tag wichtig, nicht nur nachts. Beim Entspannen hilft eine ruhige Ecke mit wenig Lärm und sanftem Licht. Auch eine Traumreise beruhigt, wenn deine Stimme leise und langsam bleibt. Manchen Kindern hilft ruhiges Sitzen mehr als Liegen.",
   "sort": 4,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔋 Warum brauchen Kinder am Tag auch Ruhepausen?",
+        "prompt": "🔋 Warum brauchen Kinder auch mitten am Tag Ruhepausen, nicht nur nachts?",
         "options": [
-          { "text": "😌 Spielen und Lernen macht müde. In der Pause tankt das Kind neue Kraft.", "correct": true },
-          { "text": "😴 Kinder sollen den ganzen Tag schlafen." },
-          { "text": "🤫 Damit die Erwachsenen ihre Ruhe haben." }
+          {
+            "text": "😌 Spielen und Lernen macht müde. In der Pause tankt das Kind neue Kraft.",
+            "correct": true
+          },
+          {
+            "text": "🌙 Ruhe brauchen Kinder nur nachts. Am Tag halten gesunde Kinder locker durch."
+          },
+          {
+            "text": "🎯 Pausen sollen die Kinder bremsen, damit sie weniger erleben."
+          }
         ],
-        "explanation": "Kinder erleben den ganzen Tag viel. Ohne Pausen werden sie quengelig und unkonzentriert. Ruhezeiten gehören fest in den Tagesablauf."
+        "explanation": "Kinder nehmen den ganzen Tag viele Reize auf: Geräusche, Bilder, Bewegung. Wird es zu viel, spricht man von Reizüberflutung. In der Pause kann das Kind diese Reize verarbeiten und neue Kraft tanken. Ohne Pausen wird es quengelig und unkonzentriert."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👀 Woran erkennst du: Dieses Kind braucht jetzt eine Pause?",
+        "prompt": "👀 Woran erkennst du, dass ein Kind jetzt wirklich eine Pause braucht?",
         "options": [
-          { "text": "😫 Es quengelt, reibt sich die Augen und wird schnell wütend.", "correct": true },
-          { "text": "😄 Es lacht und spielt fröhlich weiter." },
-          { "text": "🍎 Es isst einen Apfel." }
+          {
+            "text": "😫 Es quengelt, reibt sich die Augen und wird schnell wütend.",
+            "correct": true
+          },
+          {
+            "text": "🧩 Es spielt ruhig und vertieft für sich allein."
+          },
+          {
+            "text": "🗣️ Es stellt viele neugierige Fragen und will Neues lernen."
+          }
         ],
-        "explanation": "Quengeln, Augen reiben und schnelle Wut sind Zeichen: Das Kind ist erschöpft. Biete ihm dann eine ruhige Ecke an."
+        "explanation": "Quengeln, Augen reiben und schnelle Wut sind Zeichen für Erschöpfung. Ein Kind, das ruhig und vertieft spielt oder neugierig fragt, ist dagegen zufrieden und wach, nicht müde. Achte auf die Zeichen und biete rechtzeitig eine ruhige Ecke an."
       }
     },
     {
@@ -33,29 +48,62 @@
       "data": {
         "prompt": "🎭 Was ist wildes Spielen? Was ist Ruhezeit? Sortiere.",
         "buckets": [
-          { "id": "wild", "label": "Wildes Spielen", "icon": "🤸" },
-          { "id": "ruhig", "label": "Ruhezeit", "icon": "😌" }
+          {
+            "id": "wild",
+            "label": "Wildes Spielen",
+            "icon": "🤸"
+          },
+          {
+            "id": "ruhig",
+            "label": "Ruhezeit",
+            "icon": "😌"
+          }
         ],
         "items": [
-          { "text": "🏃 Fangen spielen", "bucket": "wild" },
-          { "text": "🥁 Laut trommeln", "bucket": "wild" },
-          { "text": "🛝 Toben auf der Matte", "bucket": "wild" },
-          { "text": "📖 Ein Bilderbuch anschauen", "bucket": "ruhig" },
-          { "text": "🎧 Leiser Musik lauschen", "bucket": "ruhig" },
-          { "text": "🛋️ Mit einer Decke kuscheln", "bucket": "ruhig" }
+          {
+            "text": "🏃 Fangen spielen",
+            "bucket": "wild"
+          },
+          {
+            "text": "🥁 Laut trommeln",
+            "bucket": "wild"
+          },
+          {
+            "text": "🛝 Toben auf der Matte",
+            "bucket": "wild"
+          },
+          {
+            "text": "📖 Ein Bilderbuch anschauen",
+            "bucket": "ruhig"
+          },
+          {
+            "text": "🎧 Leiser Musik lauschen",
+            "bucket": "ruhig"
+          },
+          {
+            "text": "🛋️ Mit einer Decke kuscheln",
+            "bucket": "ruhig"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛋️ Du richtest eine Ruheecke ein. Was gehört hinein?",
+        "prompt": "🛋️ Du richtest eine Ruheecke ein. Was gehört wirklich hinein?",
         "options": [
-          { "text": "🛏️ Kissen, weiche Decken und gedämpftes Licht.", "correct": true },
-          { "text": "📺 Ein lauter Fernseher." },
-          { "text": "🥁 Trommeln und Rasseln." }
+          {
+            "text": "🛏️ Kissen, weiche Decken und gedämpftes Licht.",
+            "correct": true
+          },
+          {
+            "text": "🧸 Viele bunte Spielsachen und ein Korb mit Bausteinen."
+          },
+          {
+            "text": "💡 Helles, kräftiges Licht, damit die Kinder gut sehen."
+          }
         ],
-        "explanation": "Die Ruheecke ist weich, gemütlich und leise. Grelles Licht und Lärm stören. Ein Vorhang oder Regal schützt die Ecke vor Trubel."
+        "explanation": "Die Ruheecke soll die Reize verringern: wenig Lärm, sanftes Licht, weiche Sachen. Bunte Spielsachen oder helles Licht laden dagegen zum Spielen ein, das ist das Gegenteil von Ruhe. Ein Vorhang oder Regal schützt die Ecke vor Trubel."
       }
     },
     {
@@ -63,24 +111,41 @@
       "data": {
         "prompt": "🌙 Du leitest eine Traumreise an. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🪟 Vorhänge zuziehen und Licht dämpfen." },
-          { "text": "🛏️ Jedes Kind sucht sich einen bequemen Platz." },
-          { "text": "🎵 Leise Musik anmachen." },
-          { "text": "📖 Mit ruhiger Stimme die Geschichte vorlesen." },
-          { "text": "🤸 Zum Schluss: alle recken und strecken sich." }
+          {
+            "text": "🪟 Vorhänge zuziehen und Licht dämpfen."
+          },
+          {
+            "text": "🛏️ Jedes Kind sucht sich einen bequemen Platz."
+          },
+          {
+            "text": "🎵 Leise Musik anmachen."
+          },
+          {
+            "text": "📖 Mit ruhiger Stimme die Geschichte vorlesen."
+          },
+          {
+            "text": "🤸 Zum Schluss: alle recken und strecken sich."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗣️ Wie klingt deine Stimme bei einer Traumreise?",
+        "prompt": "🗣️ Wie klingt deine Stimme bei einer Traumreise am besten?",
         "options": [
-          { "text": "😌 Leise, langsam und ruhig.", "correct": true },
-          { "text": "📣 Laut und schnell." },
-          { "text": "🤖 Streng wie ein Befehl." }
+          {
+            "text": "😌 Leise, langsam und ruhig.",
+            "correct": true
+          },
+          {
+            "text": "⏩ Ruhig, aber schnell, damit es nicht langweilig wird."
+          },
+          {
+            "text": "🎶 Fröhlich und munter, mit vielen lauten Betonungen."
+          }
         ],
-        "explanation": "Deine ruhige Stimme macht die Kinder ruhig. Mache kleine Pausen beim Vorlesen. Die Kinder brauchen Zeit für ihre Fantasie-Bilder."
+        "explanation": "Deine ruhige, langsame Stimme überträgt sich auf die Kinder. Mache kleine Pausen beim Vorlesen, die Kinder brauchen Zeit für ihre eigenen Fantasie-Bilder. Zu schnell oder zu laut stört die Ruhe."
       }
     },
     {
@@ -88,10 +153,38 @@
       "data": {
         "prompt": "🧘 Welche Entspannungs-Idee passt? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🌬️ Atem-Übung" }, "right": { "text": "Tief ein- und ausatmen wie ein Ballon" } },
-          { "left": { "text": "🖐️ Massage-Geschichte" }, "right": { "text": "Wetter auf den Rücken malen" } },
-          { "left": { "text": "🎧 Klang-Zeit" }, "right": { "text": "Augen zu und leise Musik hören" } },
-          { "left": { "text": "🌙 Traumreise" }, "right": { "text": "Einer ruhigen Geschichte lauschen" } }
+          {
+            "left": {
+              "text": "🌬️ Atem-Übung"
+            },
+            "right": {
+              "text": "Tief ein- und ausatmen wie ein Ballon"
+            }
+          },
+          {
+            "left": {
+              "text": "🖐️ Massage-Geschichte"
+            },
+            "right": {
+              "text": "Wetter auf den Rücken malen"
+            }
+          },
+          {
+            "left": {
+              "text": "🎧 Klang-Zeit"
+            },
+            "right": {
+              "text": "Augen zu und leise Musik hören"
+            }
+          },
+          {
+            "left": {
+              "text": "🌙 Traumreise"
+            },
+            "right": {
+              "text": "Einer ruhigen Geschichte lauschen"
+            }
+          }
         ],
         "memory": false
       }
@@ -99,25 +192,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🐛 Ein Kind zappelt in der Ruhezeit und kann nicht still liegen. Was machst du?",
+        "prompt": "🐛 Ein Kind zappelt in der Ruhezeit und kann nicht still liegen. Wie reagierst du am besten?",
         "options": [
-          { "text": "🙂 Das ist okay. Es darf auch ruhig sitzen und leise schauen.", "correct": true },
-          { "text": "😠 Ich schimpfe: Lieg endlich still!" },
-          { "text": "🚪 Es muss den Raum verlassen." }
+          {
+            "text": "🙂 Das ist okay. Es darf auch ruhig sitzen und leise schauen.",
+            "correct": true
+          },
+          {
+            "text": "⏱️ Ich verlange, dass es genauso lange still liegt wie die anderen."
+          },
+          {
+            "text": "🎲 Ich gebe ihm ein Spielzeug, damit es beschäftigt ist."
+          }
         ],
-        "explanation": "Nicht jedes Kind entspannt im Liegen. Zwang macht nur Stress. Wichtig ist: Das Kind ist leise und stört die anderen nicht."
+        "explanation": "Nicht jedes Kind entspannt im Liegen. Zwang macht nur Stress, und ein Spielzeug würde die anderen stören. Wichtig ist nur: Das Kind bleibt leise. Ruhig sitzen und schauen ist völlig in Ordnung."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Nach dem Mittagessen sind die Kinder müde. Was passt jetzt gut?",
+        "prompt": "🌟 Letzte Frage: Nach dem Mittagessen sind die Kinder müde. Was passt jetzt am besten?",
         "options": [
-          { "text": "📖 Eine ruhige Vorlesezeit.", "correct": true },
-          { "text": "🏃 Ein wildes Rennspiel." },
-          { "text": "🥁 Ein lautes Trommel-Konzert." }
+          {
+            "text": "📖 Eine ruhige Vorlesezeit.",
+            "correct": true
+          },
+          {
+            "text": "🏃 Ein Rennspiel im Garten, damit sie wieder wach werden."
+          },
+          {
+            "text": "🎉 Ein Bewegungslied mit lautem Klatschen."
+          }
         ],
-        "explanation": "Nach dem Essen tut Ruhe gut. Vorlesen hilft den Kindern beim Ausruhen."
+        "explanation": "Nach dem Essen tut Ruhe gut, der Körper braucht Zeit zum Verdauen und Ausruhen. Ein Rennspiel oder lautes Klatschen würde die müden Kinder erst recht überfordern. Vorlesen hilft ihnen beim Ausruhen."
       }
     }
   ]

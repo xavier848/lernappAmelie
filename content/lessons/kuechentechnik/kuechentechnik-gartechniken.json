@@ -7,61 +7,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥧 Ein Kuchen gart in heißer Luft im Backofen und wird dabei braun. Wie heißt diese Gartechnik?",
+        "prompt": "🥧 Ein Kuchen geht im Backofen auf und wird außen braun. Er gart nur in heißer Luft, ohne Fett und ohne Wasser. Wie heißt diese Gartechnik?",
         "options": [
           { "text": "Backen.", "correct": true },
-          { "text": "Kochen." },
-          { "text": "Dämpfen." }
-        ],
-        "explanation": "Beim Backen gart das Essen in der heißen Luft des Backofens. Die Oberfläche wird dabei braun und knusprig."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "♨️ Gemüse gart nur im heißen Wasserdampf, ohne im Wasser zu liegen. Wie heißt diese Gartechnik?",
-        "options": [
-          { "text": "Dämpfen.", "correct": true },
-          { "text": "Frittieren." },
+          { "text": "Grillen." },
           { "text": "Braten." }
         ],
-        "explanation": "Beim Dämpfen liegt das Essen über dem Wasser. Nur der Dampf gart es. So bleiben Vitamine und Farbe gut erhalten."
+        "explanation": "Beim Backen gart das Essen in der heißen Luft des Backofens. Grillen wäre nur mit Strahlungshitze von oben oder unten. Braten wäre in heißem Fett in der Pfanne."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍲 Nudeln garen in viel sprudelndem Wasser. Wie heißt diese Gartechnik?",
+        "prompt": "♨️ Gemüse soll seine Farbe und die Vitamine behalten. Es liegt nicht im Wasser, sondern nur im heißen Wasserdampf. Wie heißt diese Gartechnik?",
         "options": [
-          { "text": "Kochen.", "correct": true },
-          { "text": "Dünsten." },
-          { "text": "Grillen." }
-        ],
-        "explanation": "Beim Kochen liegt das Essen in viel siedender Flüssigkeit. Das Wasser sprudelt bei 100 Grad. So garen zum Beispiel Nudeln."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🥘 Fleisch wird erst scharf angebraten und dann mit wenig Flüssigkeit weitergegart, zum Beispiel Gulasch. Wie heißt das?",
-        "options": [
-          { "text": "Schmoren.", "correct": true },
-          { "text": "Backen." },
-          { "text": "Dämpfen." }
-        ],
-        "explanation": "Beim Schmoren brätst du das Fleisch zuerst in heißem Fett an. Dann gibst du wenig Flüssigkeit dazu. So gart es langsam weiter und wird zart."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🍟 Pommes frites garen in heißem, reinem Fett. Wie heißt diese Gartechnik?",
-        "options": [
-          { "text": "Frittieren.", "correct": true },
-          { "text": "Garziehen." },
+          { "text": "Dämpfen.", "correct": true },
+          { "text": "Kochen." },
           { "text": "Dünsten." }
         ],
-        "explanation": "Beim Frittieren liegt das Essen ganz im heißen Fettbad. Es wird schnell gar und außen knusprig."
+        "explanation": "Beim Dämpfen liegt das Essen über dem Wasser. Nur der Dampf gart es. Beim Kochen läge es mitten im Wasser. Beim Dünsten gart es im eigenen Saft mit wenig Flüssigkeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Nudeln garen in viel Flüssigkeit. Das Wasser sprudelt stark bei 100 Grad. Wie heißt diese Gartechnik?",
+        "options": [
+          { "text": "Kochen.", "correct": true },
+          { "text": "Garziehen." },
+          { "text": "Dämpfen." }
+        ],
+        "explanation": "Beim Kochen liegt das Essen in viel sprudelnder Flüssigkeit bei 100 Grad. Beim Garziehen sprudelt das Wasser nicht, es bleibt knapp unter dem Siedepunkt. Beim Dämpfen liegt das Essen über dem Wasser im Dampf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥘 Du brätst Fleisch zuerst scharf an. Dann gibst du wenig Flüssigkeit dazu und lässt es langsam weitergaren, zum Beispiel Gulasch. Wie heißt diese Gartechnik?",
+        "options": [
+          { "text": "Schmoren.", "correct": true },
+          { "text": "Braten." },
+          { "text": "Dünsten." }
+        ],
+        "explanation": "Beim Schmoren brätst du das Fleisch zuerst in heißem Fett an. Dann gibst du wenig Flüssigkeit dazu. Beim Braten bleibt es nur im Fett, ohne Flüssigkeit. Beim Dünsten gart es im eigenen Saft, ohne vorher scharf anzubraten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Pommes frites liegen ganz im heißen, reinen Fett. Wie heißt diese Gartechnik?",
+        "options": [
+          { "text": "Frittieren.", "correct": true },
+          { "text": "Braten." },
+          { "text": "Backen." }
+        ],
+        "explanation": "Beim Frittieren liegt das Essen ganz im heißen Fettbad. Beim Braten liegt es nur in wenig Fett in der Pfanne. Beim Backen gart es in heißer Luft im Backofen."
       }
     },
     {
@@ -101,13 +101,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍟 Pommes frites garst du im heißen Fett. Wie heißt diese Gartechnik noch einmal?",
+        "prompt": "🍟 Beim Braten liegt das Essen in wenig Fett in der Pfanne. Bei welcher Technik liegt das Essen dagegen ganz im heißen Fettbad, zum Beispiel Pommes frites?",
         "options": [
           { "text": "Frittieren.", "correct": true },
-          { "text": "Kochen." },
-          { "text": "Backen." }
+          { "text": "Braten." },
+          { "text": "Schmoren." }
         ],
-        "explanation": "Im heißen Fettbad heißt es Frittieren. Kochen wäre in Wasser, Backen wäre in heißer Luft."
+        "explanation": "Ganz im heißen Fettbad heißt es Frittieren. Beim Braten ist nur wenig Fett in der Pfanne. Beim Schmoren brätst du erst an und gibst dann Flüssigkeit dazu."
       }
     }
   ]

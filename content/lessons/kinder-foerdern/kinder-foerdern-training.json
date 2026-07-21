@@ -2,54 +2,83 @@
   "topic_slug": "kinder-foerdern",
   "slug": "kinder-foerdern-training",
   "title": "Training: Spielen und Fördern",
+  "intro": "🧩 Kinder lernen beim Spielen viel. Jedes Spiel fördert andere Fähigkeiten. Große Bewegungen wie Rennen oder Springen üben die Grobmotorik. Feine Bewegungen mit den Fingern üben die Feinmotorik. Manche Spiele fördern vor allem den Körper. Andere Spiele fördern vor allem den Kopf. Beim Verlieren muss ein Kind den Ärger aushalten. Das nennt man Frustrationstoleranz. Wer sich regelmäßig um etwas kümmert, übernimmt Verantwortung. Regeln machen ein Spiel fair und geben allen Sicherheit.",
   "sort": 3,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎲 Kinder spielen ein Brettspiel mit Würfel. Was wird hauptsächlich gefördert?",
+        "prompt": "🎲 Kinder spielen ein Brettspiel mit Würfel. Was wird dabei am meisten gefördert?",
         "options": [
-          { "text": "📏 Regeln verstehen, warten können und verlieren lernen", "correct": true },
-          { "text": "🏋️ Muskelkraft in den Armen" },
-          { "text": "🚗 Auto fahren" }
+          {
+            "text": "📏 Regeln verstehen, warten können und verlieren lernen",
+            "correct": true
+          },
+          {
+            "text": "🎨 Vor allem die Feinmotorik – die feine Bewegung der Finger"
+          },
+          {
+            "text": "🏃 Vor allem die Grobmotorik – große Bewegungen wie Rennen"
+          }
         ],
-        "explanation": "Bei einem Brettspiel gibt es Regeln. Jeder wartet, bis er dran ist. Und manchmal verliert man. Auch das muss man lernen."
+        "explanation": "Beim Brettspiel lernt das Kind Regeln und Warten. Und es lernt: Manchmal verliere ich. Das nennt man Frustrationstoleranz. Das heißt: Ärger aushalten können. Die Finger und Beine sind dabei nicht wichtig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌱 Ein Kind pflanzt Samen ein und gießt jeden Tag die Blume. Was wird hauptsächlich gefördert?",
+        "prompt": "🌱 Ein Kind pflanzt Samen ein und gießt jeden Tag die Blume. Was wird dabei am meisten gefördert?",
         "options": [
-          { "text": "💚 Verantwortung und Wissen über die Natur", "correct": true },
-          { "text": "🎵 Rhythmusgefühl" },
-          { "text": "⚽ Ballgefühl" }
+          {
+            "text": "💚 Verantwortung und Wissen über die Natur",
+            "correct": true
+          },
+          {
+            "text": "🤏 Vor allem die Feinmotorik – die feinen Finger-Bewegungen"
+          },
+          {
+            "text": "💪 Vor allem die Muskelkraft und die Ausdauer"
+          }
         ],
-        "explanation": "Das Kind kümmert sich jeden Tag um die Pflanze. Das ist Verantwortung. Und es sieht: So wächst eine Blume."
+        "explanation": "Das Kind kümmert sich jeden Tag um die Pflanze. Es übernimmt Verantwortung. Das heißt: Es ist für die Blume zuständig. Und es lernt, wie Pflanzen wachsen. Um die Finger oder die Kraft geht es dabei nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🙈 Kinder spielen Verstecken. Was wird hauptsächlich gefördert?",
+        "prompt": "🙈 Kinder spielen Verstecken. Was wird dabei am meisten gefördert?",
         "options": [
-          { "text": "🔢 Zählen, warten und sich im Raum orientieren", "correct": true },
-          { "text": "✏️ Schön schreiben" },
-          { "text": "🍽️ Tisch decken" }
+          {
+            "text": "🔢 Zählen, warten und sich im Raum orientieren",
+            "correct": true
+          },
+          {
+            "text": "🏃 Vor allem die Grobmotorik – große Bewegungen wie Rennen"
+          },
+          {
+            "text": "🤏 Vor allem die Feinmotorik – feine Finger-Bewegungen"
+          }
         ],
-        "explanation": "Ein Kind zählt laut. Die anderen suchen ein gutes Versteck. Dabei üben sie Zählen, Warten und Orientierung."
+        "explanation": "Ein Kind zählt laut. Die anderen suchen ein Versteck. Sie üben Zählen und Warten. Und sie üben die Raumorientierung. Das heißt: Sie merken sich, wo im Raum etwas ist."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🦘 Ein Kind hüpft auf dem Trampolin. Was wird hauptsächlich gefördert?",
+        "prompt": "🦘 Ein Kind hüpft lange auf dem Trampolin und kommt außer Atem. Was wird dabei am meisten gefördert?",
         "options": [
-          { "text": "💪 Sprungkraft und Ausdauer", "correct": true },
-          { "text": "📖 Wortschatz" },
-          { "text": "🤏 Pinzettengriff" }
+          {
+            "text": "💪 Sprungkraft und Ausdauer",
+            "correct": true
+          },
+          {
+            "text": "🤏 Vor allem die Feinmotorik – die feine Bewegung der Finger"
+          },
+          {
+            "text": "🔤 Vor allem der Wortschatz – neue Wörter lernen"
+          }
         ],
-        "explanation": "Hüpfen macht die Beine stark. Das Kind kommt außer Atem. So übt es die Ausdauer."
+        "explanation": "Hüpfen macht die Beine stark. Das ist die Sprungkraft. Das Kind kommt außer Atem und hält trotzdem durch. Das ist die Ausdauer – auch Kondition genannt. Mit den Fingern oder mit Wörtern hat das nichts zu tun."
       }
     },
     {
@@ -57,11 +86,21 @@
       "data": {
         "prompt": "🌻 Du pflanzt mit einem Kind eine Blume. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🪴 Den Topf mit Erde füllen." },
-          { "text": "👉 Ein kleines Loch in die Erde drücken." },
-          { "text": "🌱 Den Samen in das Loch legen." },
-          { "text": "🤲 Das Loch mit Erde zudecken." },
-          { "text": "💧 Vorsichtig gießen." }
+          {
+            "text": "🪴 Den Topf mit Erde füllen."
+          },
+          {
+            "text": "👉 Ein kleines Loch in die Erde drücken."
+          },
+          {
+            "text": "🌱 Den Samen in das Loch legen."
+          },
+          {
+            "text": "🤲 Das Loch mit Erde zudecken."
+          },
+          {
+            "text": "💧 Vorsichtig gießen."
+          }
         ]
       }
     },
@@ -70,16 +109,42 @@
       "data": {
         "prompt": "🧠 Sortiere: Was fördert vor allem den Körper? Was fördert vor allem den Kopf?",
         "buckets": [
-          { "id": "koerper", "label": "Körper", "icon": "💪" },
-          { "id": "kopf", "label": "Kopf", "icon": "🧠" }
+          {
+            "id": "koerper",
+            "label": "Körper",
+            "icon": "💪"
+          },
+          {
+            "id": "kopf",
+            "label": "Kopf",
+            "icon": "🧠"
+          }
         ],
         "items": [
-          { "text": "🪢 Seilspringen", "bucket": "koerper" },
-          { "text": "🦘 Trampolin springen", "bucket": "koerper" },
-          { "text": "🏃 Fangen spielen", "bucket": "koerper" },
-          { "text": "🎲 Brettspiel spielen", "bucket": "kopf" },
-          { "text": "🃏 Memory-Karten spielen", "bucket": "kopf" },
-          { "text": "❓ Rätsel raten", "bucket": "kopf" }
+          {
+            "text": "🪢 Seilspringen",
+            "bucket": "koerper"
+          },
+          {
+            "text": "🦘 Trampolin springen",
+            "bucket": "koerper"
+          },
+          {
+            "text": "🏃 Fangen spielen",
+            "bucket": "koerper"
+          },
+          {
+            "text": "🎲 Brettspiel spielen",
+            "bucket": "kopf"
+          },
+          {
+            "text": "🃏 Memory-Karten spielen",
+            "bucket": "kopf"
+          },
+          {
+            "text": "❓ Rätsel raten",
+            "bucket": "kopf"
+          }
         ]
       }
     },
@@ -88,11 +153,18 @@
       "data": {
         "prompt": "📏 Warum sind Regeln bei Spielen wichtig?",
         "options": [
-          { "text": "🤝 Alle wissen, was gilt. So ist das Spiel fair.", "correct": true },
-          { "text": "😠 Damit Erwachsene schimpfen können." },
-          { "text": "🐌 Damit das Spiel langweilig wird." }
+          {
+            "text": "🤝 Alle wissen, was gilt. So ist das Spiel fair.",
+            "correct": true
+          },
+          {
+            "text": "🏆 Damit immer das gleiche Kind gewinnt."
+          },
+          {
+            "text": "⏱️ Damit das Spiel schnell vorbei ist."
+          }
         ],
-        "explanation": "Regeln machen das Spiel fair. Jedes Kind weiß: So geht es. Das gibt Sicherheit."
+        "explanation": "Regeln machen das Spiel fair. Fair heißt: Für alle gleich. Jedes Kind weiß, wie es geht. Das gibt Sicherheit. Regeln bevorzugen niemanden und machen das Spiel auch nicht kürzer."
       }
     },
     {
@@ -100,10 +172,38 @@
       "data": {
         "prompt": "🃏 Ein Memory für dich! Finde die versteckten Paare.",
         "pairs": [
-          { "left": { "text": "🎲 Brettspiel" }, "right": { "text": "📏 Regeln lernen" } },
-          { "left": { "text": "🌱 Gärtnern" }, "right": { "text": "💚 Verantwortung" } },
-          { "left": { "text": "🙈 Verstecken" }, "right": { "text": "🔢 Zählen" } },
-          { "left": { "text": "🦘 Trampolin" }, "right": { "text": "💪 Ausdauer" } }
+          {
+            "left": {
+              "text": "🎲 Brettspiel"
+            },
+            "right": {
+              "text": "📏 Regeln lernen"
+            }
+          },
+          {
+            "left": {
+              "text": "🌱 Gärtnern"
+            },
+            "right": {
+              "text": "💚 Verantwortung"
+            }
+          },
+          {
+            "left": {
+              "text": "🙈 Verstecken"
+            },
+            "right": {
+              "text": "🔢 Zählen"
+            }
+          },
+          {
+            "left": {
+              "text": "🦘 Trampolin"
+            },
+            "right": {
+              "text": "💪 Ausdauer"
+            }
+          }
         ],
         "memory": true
       }
@@ -111,24 +211,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌳 Ein Kind sammelt draußen Blätter und Kastanien. Was wird hauptsächlich gefördert?",
+        "prompt": "🌳 Ein Kind sammelt draußen Blätter und Kastanien. Was wird dabei am meisten gefördert?",
         "options": [
-          { "text": "🔍 Genau hinschauen und die Natur entdecken", "correct": true },
-          { "text": "📺 Fernsehen" },
-          { "text": "🛌 Schlafen" }
+          {
+            "text": "🔍 Genau hinschauen und die Natur entdecken",
+            "correct": true
+          },
+          {
+            "text": "💪 Vor allem die Muskelkraft in den Armen"
+          },
+          {
+            "text": "🔢 Vor allem das Rechnen mit großen Zahlen"
+          }
         ],
-        "explanation": "Das Kind schaut genau hin: Welches Blatt ist das? Es entdeckt die Natur. Sammeln macht neugierig."
+        "explanation": "Das Kind schaut genau hin: Welches Blatt ist das? Das übt die Wahrnehmung – also das genaue Sehen und Bemerken. Und es entdeckt die Natur. Um Kraft oder Rechnen geht es dabei nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌞 Draußen spielen an der frischen Luft – ist das gut für Kinder?",
+        "prompt": "🌞 Ein Kind will bei bewölktem Wetter draußen spielen. Was ist die beste Antwort?",
         "options": [
-          { "text": "😊 Ja! Bewegung und frische Luft machen fit und froh.", "correct": true },
-          { "text": "🙅 Nein, Kinder sollen immer drinnen bleiben." }
+          {
+            "text": "😊 Ja! Bewegung und frische Luft machen fit und froh.",
+            "correct": true
+          },
+          {
+            "text": "☔ Nur bei perfektem Sonnen-Wetter – sonst besser gar nicht raus."
+          },
+          {
+            "text": "🙅 Nein, Kinder sollen immer drinnen bleiben."
+          }
         ],
-        "explanation": "Draußen können Kinder rennen, klettern und entdecken. Das tut Körper und Kopf gut. Das weißt du!"
+        "explanation": "Draußen können Kinder rennen, klettern und entdecken. Das tut Körper und Kopf gut. Mit passender Kleidung geht das fast bei jedem Wetter – nicht nur bei Sonne."
       }
     }
   ]

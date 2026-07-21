@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔁 Was ist ein Abo?",
+        "prompt": "🔁 Was ist ein Abo? Kreuze die richtige Erklärung an.",
         "options": [
           { "text": "Du zahlst regelmäßig Geld, zum Beispiel jeden Monat. Dafür bekommst du etwas.", "correct": true },
-          { "text": "Du zahlst einmal und bist fertig." },
-          { "text": "Du bekommst jeden Monat Geld geschenkt." }
+          { "text": "Du zahlst nur einmal. Danach gehört dir die Sache für immer." },
+          { "text": "Du zahlst regelmäßig. Aber der Vertrag hört nach dem ersten Monat von allein auf." }
         ],
-        "explanation": "Abo heißt: Es läuft weiter, bis du kündigst. Zum Beispiel Musik-Streaming: Jeden Monat wird Geld abgebucht."
+        "explanation": "Das Wort Abo ist kurz für Abonnement. Ein Abo läuft weiter, bis du kündigst. Zum Beispiel Musik-Streaming: Jeden Monat wird Geld abgebucht. Es hört nicht von allein auf."
       }
     },
     {
@@ -38,11 +38,11 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧮 Ein Streaming-Abo kostet 10 € im Monat. Wie viel kostet es im ganzen Jahr?",
+        "prompt": "🧮 Ein Streaming-Abo kostet 10 € im Monat. Wie viel zahlst du dafür im ganzen Jahr?",
         "options": [
           { "text": "120 €", "correct": true },
           { "text": "100 €" },
-          { "text": "10 €" }
+          { "text": "130 €" }
         ],
         "explanation": "Ein Jahr hat 12 Monate. 12 mal 10 € = 120 €. Ein kleines Abo ist im Jahr eine große Summe."
       }
@@ -62,25 +62,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🆓 Eine App wirbt: 'Der erste Monat ist gratis!' Was musst du dabei wissen?",
+        "prompt": "🆓 Eine App wirbt: 'Der erste Monat ist gratis!' Worauf musst du achten, bevor du zusagst?",
         "options": [
           { "text": "Danach kostet die App Geld, wenn ich nicht rechtzeitig kündige.", "correct": true },
-          { "text": "Die App bleibt für immer gratis." },
-          { "text": "Gratis-Angebote sind immer verboten." }
+          { "text": "Wenn ich nichts mache, bleibt die App für immer gratis." },
+          { "text": "Nach dem Gratis-Monat fragt die App erst nach, ob ich weiterzahlen will." }
         ],
-        "explanation": "Das ist die typische Abo-Falle: Nach der Gratis-Zeit läuft das Abo automatisch weiter — gegen Geld. Tipp: Schreib dir das Ende der Gratis-Zeit in den Kalender. 📅"
+        "explanation": "Das ist die typische Abo-Falle bei einem Probe-Abo: Nach der Gratis-Zeit läuft das Abo automatisch weiter — gegen Geld. Niemand fragt vorher nach. Tipp: Schreib dir das Ende der Gratis-Zeit in den Kalender. 📅"
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📅 In vielen Verträgen steht eine Kündigungsfrist. Was bedeutet das?",
+        "prompt": "📅 In vielen Verträgen steht eine Kündigungsfrist. Was bedeutet dieser Fachbegriff?",
         "options": [
           { "text": "So lange vorher musst du Bescheid geben, wenn du kündigen willst.", "correct": true },
-          { "text": "So lange musst du auf ein Paket warten." },
-          { "text": "So oft darfst du das Abo benutzen." }
+          { "text": "So lange läuft der Vertrag mindestens, bevor du überhaupt kündigen darfst." },
+          { "text": "So lange dauert es, bis dein Geld nach der Kündigung zurückkommt." }
         ],
-        "explanation": "Beispiel: Kündigungsfrist 1 Monat heißt: Du musst 1 Monat vor dem Ende kündigen. Sonst läuft der Vertrag weiter."
+        "explanation": "Die Kündigungsfrist sagt, wie früh du Bescheid geben musst. Beispiel: Kündigungsfrist 1 Monat heißt: Du musst 1 Monat vor dem Ende kündigen. Sonst läuft der Vertrag weiter."
       }
     },
     {
@@ -112,10 +112,11 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage! Du benutzt ein Abo seit Monaten nicht mehr. Was ist schlau?",
+        "prompt": "🌟 Letzte Frage! Du benutzt ein Abo seit Monaten nicht mehr. Was ist die schlauste Entscheidung?",
         "options": [
           { "text": "Kündigen. So spare ich jeden Monat Geld.", "correct": true },
-          { "text": "Weiter bezahlen. Vielleicht brauche ich es irgendwann." }
+          { "text": "Weiter bezahlen. Vielleicht brauche ich es irgendwann." },
+          { "text": "Nichts tun. Das Abo hört nach einer Weile von allein auf." }
         ],
         "explanation": "Ein Abo, das du nicht nutzt, ist Geld für nichts. Kündigen lohnt sich. 🎉"
       }

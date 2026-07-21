@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Die wichtigste Regel bei Flecken: Was ist sie?",
+        "prompt": "⏱️ Du entdeckst gerade einen frischen Fleck. Was ist die wichtigste Regel?",
         "options": [
           { "text": "Schnell handeln. Frische Flecken gehen viel leichter raus.", "correct": true },
-          { "text": "Erst mal ein paar Tage warten." },
-          { "text": "Den Fleck einfach übermalen." }
+          { "text": "Erst warten, bis der Fleck trocken ist. Trocken löst er sich besser." },
+          { "text": "Den Fleck erst kräftig einreiben, damit das Mittel tief eindringt." }
         ],
-        "explanation": "Je länger ein Fleck einzieht, desto fester sitzt er im Stoff. Also: sofort behandeln."
+        "explanation": "Je länger ein Fleck einzieht, desto fester sitzt er im Stoff. Also: sofort behandeln, nicht warten und nicht reiben."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧻 Tupfen oder reiben – wie behandelst du einen frischen Fleck?",
+        "prompt": "🧻 Du hast einen frischen Fleck auf dem Stoff. Wie behandelst du ihn?",
         "options": [
           { "text": "Vorsichtig tupfen.", "correct": true },
-          { "text": "Fest reiben." },
-          { "text": "Mit dem Fingernagel kratzen." }
+          { "text": "Kräftig reiben, damit der Fleck herausgeht." },
+          { "text": "Den Stoff zusammenlegen und den Fleck zwischen den Lagen verrubbeln." }
         ],
-        "explanation": "Reiben drückt den Fleck tiefer in den Stoff und macht ihn größer. Tupfen nimmt den Fleck auf."
+        "explanation": "Reiben und Rubbeln drücken den Fleck tiefer in den Stoff und machen ihn größer. Tupfen nimmt den Fleck auf. Tipp: von außen nach innen tupfen, dann läuft er nicht aus."
       }
     },
     {
@@ -34,22 +34,22 @@
         "prompt": "🩸 Ein Blutfleck, zum Beispiel von einem kleinen Kratzer im Stall. Womit spülst du ihn aus?",
         "options": [
           { "text": "Mit kaltem Wasser.", "correct": true },
-          { "text": "Mit heißem Wasser." },
-          { "text": "Gar nicht. Blut geht von allein raus." }
+          { "text": "Mit heißem Wasser gut ausspülen." },
+          { "text": "Mit warmem Wasser und viel Seife einweichen." }
         ],
-        "explanation": "Wichtig: Blut immer kalt! Warmes Wasser lässt das Blut gerinnen – dann sitzt der Fleck fest."
+        "explanation": "Blut immer kalt! Warmes und heißes Wasser lässt das Eiweiß im Blut gerinnen. Gerinnen heißt: es wird fest. Dann sitzt der Fleck für immer."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍟 Ein Fettfleck von Butter oder Pommes. Was hilft?",
+        "prompt": "🍟 Ein Fettfleck von Butter oder Pommes. Was hilft am besten?",
         "options": [
           { "text": "Etwas Spülmittel auf den Fleck geben.", "correct": true },
-          { "text": "Nur kaltes Wasser." },
-          { "text": "Den Fleck föhnen." }
+          { "text": "Nur mit kaltem Wasser ausspülen." },
+          { "text": "Mit heißem Wasser allein einweichen." }
         ],
-        "explanation": "Spülmittel löst Fett – genau wie beim Abwasch. Kurz einwirken lassen, dann waschen."
+        "explanation": "Wasser allein löst kein Fett. Spülmittel enthält Tenside. Tenside umschließen das Fett und lösen es vom Stoff – genau wie beim Abwasch."
       }
     },
     {
@@ -103,10 +103,10 @@
         "prompt": "🐴 Deine Reithose hat Grasflecken. Was machst du?",
         "options": [
           { "text": "Einweichen und mit Gallseife behandeln. Dann waschen.", "correct": true },
-          { "text": "Nur trocken ausbürsten." },
-          { "text": "Die Hose wegwerfen." }
+          { "text": "Nur trocken ausbürsten und dann in die Wäsche geben." },
+          { "text": "Mit heißem Wasser übergießen und gleich in den Trockner." }
         ],
-        "explanation": "Die grüne Farbe vom Gras sitzt tief im Stoff. Gallseife löst sie. Danach ganz normal waschen."
+        "explanation": "Die grüne Farbe vom Gras sitzt tief im Stoff. Gallseife ist eine Spezialseife gegen solche Flecken. Sie löst die Farbe. Danach ganz normal waschen. Hitze würde den Fleck festbrennen."
       }
     },
     {
@@ -115,21 +115,22 @@
         "prompt": "😬 Nach dem Waschen ist der Fleck noch da. Was machst du?",
         "options": [
           { "text": "Nochmal behandeln und waschen. Auf keinen Fall in den Trockner!", "correct": true },
-          { "text": "Ab in den Trockner, das trocknet den Fleck weg." },
-          { "text": "Das Teil so in den Schrank legen." }
+          { "text": "Ab in den Trockner, die Hitze löst den Rest." },
+          { "text": "Nochmal heißer waschen, ohne den Fleck neu zu behandeln." }
         ],
-        "explanation": "Die Hitze im Trockner brennt den Fleck fest. Dann geht er nie mehr raus. Also: erst nochmal behandeln."
+        "explanation": "Erst wieder behandeln, dann waschen. Hitze im Trockner oder heißes Wasser brennt den Fleck fest. Dann geht er nie mehr raus."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏆 Welcher Fleck geht leichter raus?",
+        "prompt": "🏆 Zwei gleiche Flecken: einer von eben, einer von letzter Woche. Welcher geht leichter raus?",
         "options": [
           { "text": "Der frische Fleck.", "correct": true },
-          { "text": "Der alte, eingetrocknete Fleck." }
+          { "text": "Der alte, eingetrocknete Fleck." },
+          { "text": "Beide gleich schwer. Wie alt der Fleck ist, spielt keine Rolle." }
         ],
-        "explanation": "Frisch behandelt ist halb gewonnen. Du kennst jetzt das Flecken-Einmaleins."
+        "explanation": "Frisch behandelt ist halb gewonnen. Je länger ein Fleck einzieht, desto fester sitzt er. Du kennst jetzt das Flecken-Einmaleins."
       }
     }
   ]

@@ -21,25 +21,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📱 Du putzt und findest ein Handy unter dem Bett. Ein Gast hat es vergessen. Was machst du?",
+        "prompt": "📱 Du putzt und findest ein Handy unter dem Bett. Ein Gast hat es vergessen. Was ist richtig?",
         "options": [
           { "text": "Ich gebe es sofort bei meiner Chefin ab.", "correct": true },
-          { "text": "Ich behalte es für mich." },
-          { "text": "Ich lasse es einfach liegen." }
+          { "text": "Ich rufe selbst den Gast an und behalte das Handy so lange." },
+          { "text": "Ich lege es in eine Schublade und sage niemandem Bescheid." }
         ],
-        "explanation": "Fundsachen gibst du immer ab. So bekommt der Gast sein Handy zurück."
+        "explanation": "Ein vergessenes Handy ist eine Fundsache. Eine Fundsache gehört jemand anderem. Du gibst sie immer bei deiner Chefin ab. Nur so bekommt der Gast sein Handy sicher zurück."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💡 Die Lampe im Schlafzimmer ist kaputt. Was machst du?",
+        "prompt": "💡 Die Lampe im Schlafzimmer ist kaputt. Was ist richtig?",
         "options": [
           { "text": "Ich melde es meiner Chefin.", "correct": true },
-          { "text": "Ich sage einfach nichts." },
-          { "text": "Ich repariere sie selbst am Strom." }
+          { "text": "Ich versuche, die Lampe selbst am Strom zu reparieren." },
+          { "text": "Ich stelle eine andere Lampe hin und melde den Schaden nicht." }
         ],
-        "explanation": "Kaputte Sachen meldest du immer. Strom ist gefährlich. Das repariert ein Profi."
+        "explanation": "Einen Schaden meldest du immer deiner Chefin. An Strom arbeitet nur eine Fachfrau oder ein Fachmann. Sonst kannst du dich verletzen. Eine kaputte Sache zu verstecken hilft niemandem."
       }
     },
     {
@@ -76,13 +76,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧻 Das Toilettenpapier ist fast leer. Bald kommen neue Gäste. Was machst du?",
+        "prompt": "🧻 Das Toilettenpapier ist fast leer. Bald kommen neue Gäste. Was ist richtig?",
         "options": [
           { "text": "Ich stelle neue Rollen ins Bad.", "correct": true },
-          { "text": "Ich lasse es so." },
-          { "text": "Ich nehme die letzte Rolle mit." }
+          { "text": "Die letzte Rolle reicht noch, ich lasse sie einfach hängen." },
+          { "text": "Ich lege neue Rollen in den Putzschrank, tausche die fast leere aber nicht." }
         ],
-        "explanation": "Die neuen Gäste sollen alles haben. Fülle Toilettenpapier immer auf."
+        "explanation": "Neue Gäste sollen alles vorfinden. Fülle Toilettenpapier immer rechtzeitig auf. Lege am besten auch eine Reserve-Rolle sichtbar ins Bad."
       }
     },
     {
@@ -100,24 +100,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📋 Du hast eine Checkliste für die Wohnung. Wofür ist sie gut?",
+        "prompt": "📋 Du hast eine Checkliste für die Wohnung. Wie benutzt du sie richtig?",
         "options": [
           { "text": "Ich hake alles Fertige ab. So vergesse ich nichts.", "correct": true },
-          { "text": "Sie ist nur zur Dekoration." },
-          { "text": "Ich falte daraus ein Flugzeug." }
+          { "text": "Ich schaue am Anfang kurz drauf und arbeite dann aus dem Kopf weiter." },
+          { "text": "Ich hake am Ende alles auf einmal ab, ohne einzeln zu prüfen." }
         ],
-        "explanation": "Eine Checkliste hilft dir. Abhaken macht Spaß und du vergisst nichts."
+        "explanation": "Eine Checkliste ist eine Liste zum Abhaken. Du hakst jede Aufgabe einzeln ab, sobald sie fertig ist. So siehst du sofort, was noch fehlt, und vergisst keinen Schritt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧺 Wohin kommen die benutzten Handtücher?",
+        "prompt": "🧺 Die Gäste sind abgereist. Wohin kommen die benutzten Handtücher — egal ob nass oder trocken?",
         "options": [
           { "text": "In den Wäschesack.", "correct": true },
-          { "text": "Zurück an den Haken." }
+          { "text": "Nur die nassen in den Wäschesack. Die trockenen hänge ich zurück." },
+          { "text": "Zurück an den Haken für die nächsten Gäste." }
         ],
-        "explanation": "Benutzte Handtücher kommen in die Wäsche."
+        "explanation": "Alle benutzten Handtücher kommen in die Wäsche — auch die, die noch trocken aussehen. Neue Gäste bekommen immer frische Handtücher."
       }
     }
   ]

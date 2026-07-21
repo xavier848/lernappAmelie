@@ -1,0 +1,149 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-abschied-checkout",
+  "title": "Abschied & Check-out",
+  "sort": 20,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast kommt morgens aus dem Schlafzimmer. Du fragst: Did you sleep well last night? 😴 Was bedeutet deine Frage?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Haben Sie letzte Nacht gut geschlafen?", "correct": true },
+          { "text": "Möchten Sie noch eine Nacht bleiben?" },
+          { "text": "Haben Sie schon gefrühstückt?" }
+        ],
+        "explanation": "Did you sleep well last night? heißt: Haben Sie letzte Nacht gut geschlafen? To sleep heißt schlafen, last night heißt letzte Nacht. Diese Frage ist am Morgen sehr höflich."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Hat Ihnen Ihr Aufenthalt gefallen? 😊",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Did" },
+          { "text": "you" },
+          { "text": "enjoy" },
+          { "text": "your" },
+          { "text": "stay?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste reisen morgen ab. Sie fragen, bis wann sie die Wohnung verlassen müssen. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Check-out time is ten o'clock. 🕙", "correct": true },
+          { "text": "Breakfast is at nine o'clock." },
+          { "text": "The living room is very cozy." }
+        ],
+        "explanation": "Check-out time is ten o'clock. heißt: Der Check-out ist um zehn Uhr. Bis dahin geben die Gäste die Wohnung und den Schlüssel zurück."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Abschied in der Ferienwohnung: Was gehört zusammen? Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Did you enjoy your stay?" }, "right": { "text": "Hat Ihnen Ihr Aufenthalt gefallen?" } },
+          { "left": { "text": "Here is your invoice. 🧾" }, "right": { "text": "Hier ist Ihre Rechnung." } },
+          { "left": { "text": "Please come back soon!" }, "right": { "text": "Kommen Sie bald wieder!" } },
+          { "left": { "text": "Have a safe journey home! 🚗" }, "right": { "text": "Kommen Sie gut nach Hause!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Eine Familie sagt beim Abschied: Thank you so much for everything! 🙏 Wie antwortest du freundlich?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "You're very welcome! Please come back soon!", "correct": true },
+          { "text": "Sorry, the apartment is occupied." },
+          { "text": "The bus stop is over there." }
+        ],
+        "explanation": "You're very welcome! heißt: Sehr gerne! Und Please come back soon! heißt: Kommen Sie bald wieder! So verabschiedest du Gäste herzlich."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Bitte kommen Sie bald wieder! 😊",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Please" },
+          { "text": "come" },
+          { "text": "back" },
+          { "text": "soon!" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Ist der Satz eine Info zum Check-out oder ein guter Wunsch? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "checkout", "label": "Check-out", "icon": "🔑" },
+          { "id": "wuensche", "label": "Gute Wünsche", "icon": "🌟" }
+        ],
+        "items": [
+          { "text": "Check-out time is ten o'clock.", "bucket": "checkout" },
+          { "text": "Here is your invoice.", "bucket": "checkout" },
+          { "text": "Please put the key in the letter box.", "bucket": "checkout" },
+          { "text": "Have a safe journey home!", "bucket": "wuensche" },
+          { "text": "All the best to you!", "bucket": "wuensche" },
+          { "text": "Please come back soon!", "bucket": "wuensche" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste steigen ins Auto. 🚗 Du sagst: Have a safe journey home! Was wünschst du ihnen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Eine gute und sichere Heimreise.", "correct": true },
+          { "text": "Einen schönen ersten Urlaubstag." },
+          { "text": "Ein leckeres Abendessen." }
+        ],
+        "explanation": "Have a safe journey home! heißt: Kommen Sie gut nach Hause! Journey bedeutet Reise. Das ist ein schöner Wunsch, wenn Gäste abreisen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir hoffen, wir sehen Sie nächstes Jahr wieder! 👋",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We hope" },
+          { "text": "to see" },
+          { "text": "you again" },
+          { "text": "next year!" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Was gehört zusammen? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Haben Sie letzte Nacht gut geschlafen?" }, "right": { "text": "Did you sleep well last night?" } },
+          { "left": { "text": "Vielen Dank für alles!" }, "right": { "text": "Thank you so much for everything!" } },
+          { "left": { "text": "Alles Gute für Sie!" }, "right": { "text": "All the best to you!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

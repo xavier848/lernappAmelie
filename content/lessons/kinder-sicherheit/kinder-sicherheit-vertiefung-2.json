@@ -2,6 +2,7 @@
   "topic_slug": "kinder-sicherheit",
   "slug": "kinder-sicherheit-vertiefung-2",
   "title": "Der Ausflug: gut geplant, sicher unterwegs",
+  "intro": "🎒 In dieser Lektion planst du einen Ausflug mit einer Gruppe von Kindern. Ihr legt im Team das Ziel und den Weg fest. Vorher sagt ihr auch den Eltern Bescheid. In den Rucksack kommt nur, was ihr unterwegs wirklich braucht. Gefährliche oder zerbrechliche Sachen bleiben zu Hause. Am Straßenrand tragen alle eine leuchtende Warnweste, damit Autofahrer die Gruppe früh sehen. Unterwegs ist das Wichtigste: Alle bleiben zusammen. Darum zählst du die Kinder immer wieder durch. Verliert ein Kind trotzdem die Gruppe, bleibt es stehen und wartet. Bei starker Sonne schützen Sonnencreme und eine Mütze Haut und Kopf.",
   "sort": 5,
   "exercises": [
     {
@@ -9,12 +10,24 @@
       "data": {
         "prompt": "🎒 Ihr plant einen Ausflug in den Park. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🗺️ Mit dem Team das Ziel und den Weg planen." },
-          { "text": "📩 Die Eltern über den Ausflug informieren." },
-          { "text": "🌦️ Am Morgen das Wetter prüfen." },
-          { "text": "🎒 Den Rucksack packen." },
-          { "text": "🗣️ Vor dem Start die Regeln mit den Kindern besprechen." },
-          { "text": "🔢 Die Kinder durchzählen und losgehen." }
+          {
+            "text": "🗺️ Mit dem Team das Ziel und den Weg planen."
+          },
+          {
+            "text": "📩 Die Eltern über den Ausflug informieren."
+          },
+          {
+            "text": "🌦️ Am Morgen das Wetter prüfen."
+          },
+          {
+            "text": "🎒 Den Rucksack packen."
+          },
+          {
+            "text": "🗣️ Vor dem Start die Regeln mit den Kindern besprechen."
+          },
+          {
+            "text": "🔢 Die Kinder durchzählen und losgehen."
+          }
         ]
       }
     },
@@ -23,53 +36,100 @@
       "data": {
         "prompt": "🎒 Was kommt in den Ausflugs-Rucksack? Was bleibt zu Hause? Sortiere.",
         "buckets": [
-          { "id": "mitnehmen", "label": "Kommt mit", "icon": "🎒" },
-          { "id": "zuhause", "label": "Bleibt zu Hause", "icon": "🏠" }
+          {
+            "id": "mitnehmen",
+            "label": "Kommt mit",
+            "icon": "🎒"
+          },
+          {
+            "id": "zuhause",
+            "label": "Bleibt zu Hause",
+            "icon": "🏠"
+          }
         ],
         "items": [
-          { "text": "🩹 Erste-Hilfe-Set", "bucket": "mitnehmen" },
-          { "text": "💧 Wasser zum Trinken", "bucket": "mitnehmen" },
-          { "text": "📋 Telefon-Liste der Eltern", "bucket": "mitnehmen" },
-          { "text": "🧴 Sonnencreme", "bucket": "mitnehmen" },
-          { "text": "🍾 Getränke in Glasflaschen", "bucket": "zuhause" },
-          { "text": "🔥 Feuerzeug", "bucket": "zuhause" }
+          {
+            "text": "🩹 Erste-Hilfe-Set",
+            "bucket": "mitnehmen"
+          },
+          {
+            "text": "💧 Wasser zum Trinken",
+            "bucket": "mitnehmen"
+          },
+          {
+            "text": "📋 Telefon-Liste der Eltern",
+            "bucket": "mitnehmen"
+          },
+          {
+            "text": "🧴 Sonnencreme",
+            "bucket": "mitnehmen"
+          },
+          {
+            "text": "🍾 Getränke in Glasflaschen",
+            "bucket": "zuhause"
+          },
+          {
+            "text": "🔥 Feuerzeug",
+            "bucket": "zuhause"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🦺 Warum tragen die Kinder beim Ausflug Warnwesten?",
+        "prompt": "🦺 Warum tragen die Kinder am Straßenrand Warnwesten?",
         "options": [
-          { "text": "👀 Autofahrer sehen die Gruppe schon von weitem.", "correct": true },
-          { "text": "🌧️ Die Westen halten den Regen ab." },
-          { "text": "👗 Die Westen sind gerade modern." }
+          {
+            "text": "👀 Autofahrer sehen die Gruppe schon von weitem – auch bei Regen oder Dämmerung.",
+            "correct": true
+          },
+          {
+            "text": "🌡️ Die Westen halten die Kinder bei kaltem Wind warm."
+          },
+          {
+            "text": "🎽 Mit der gleichen Weste fühlen sich alle als ein Team."
+          }
         ],
-        "explanation": "Die Warnwesten leuchten hell. So sieht jeder Autofahrer die Kindergruppe sofort. Das schützt am Straßenrand."
+        "explanation": "Warnwesten sind aus auffälligem, leuchtendem Stoff. So sehen Autofahrer die Kindergruppe früh – das heißt: die Kinder sind gut sichtbar. Warm halten oder Team-Gefühl sind nette Nebeneffekte. Der Grund ist die Sicherheit im Straßenverkehr."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔢 Wann zählst du die Kinder durch?",
+        "prompt": "🔢 Wie oft zählst du unterwegs die Kinder durch?",
         "options": [
-          { "text": "🔁 Immer wieder: beim Start, unterwegs und am Ziel.", "correct": true },
-          { "text": "1️⃣ Nur einmal ganz am Anfang." },
-          { "text": "🤷 Zählen ist nicht nötig." }
+          {
+            "text": "🔁 Immer wieder: beim Start, unterwegs und am Ziel.",
+            "correct": true
+          },
+          {
+            "text": "▶️ Einmal beim Start reicht, danach bleiben ja alle zusammen."
+          },
+          {
+            "text": "🏁 Es genügt, am Ziel noch einmal zu zählen."
+          }
         ],
-        "explanation": "Du zählst oft: beim Losgehen, nach jeder Pause, nach dem Spielplatz und am Ziel. So merkst du sofort, wenn ein Kind fehlt."
+        "explanation": "Einmal zählen reicht nicht. Ein Kind kann unterwegs zurückbleiben. Darum zählst du oft: beim Losgehen, nach jeder Pause, nach dem Spielplatz und am Ziel. So merkst du sofort, wenn ein Kind fehlt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗣️ Welche Regel besprecht ihr mit den Kindern vor dem Ausflug?",
+        "prompt": "🗣️ Welche Regel besprichst du mit den Kindern vor dem Start?",
         "options": [
-          { "text": "👨‍👩‍👧‍👦 Alle bleiben bei der Gruppe.", "correct": true },
-          { "text": "🏃 Jeder läuft, wohin er will." },
-          { "text": "🤫 Regeln braucht man draußen nicht." }
+          {
+            "text": "👨‍👩‍👧‍👦 Alle bleiben bei der Gruppe.",
+            "correct": true
+          },
+          {
+            "text": "🏃 Wer schneller ist, darf vorlaufen und an der nächsten Ecke warten."
+          },
+          {
+            "text": "🗯️ Regeln bespricht man erst, wenn ein Kind etwas falsch gemacht hat."
+          }
         ],
-        "explanation": "Die wichtigste Regel: bei der Gruppe bleiben. Kinder verstehen Regeln besser, wenn ihr sie vorher in Ruhe besprecht."
+        "explanation": "Die wichtigste Regel: bei der Gruppe bleiben. Vorlaufen ist gefährlich – an der Ecke kann ein Auto kommen. Und Regeln bespricht man vorher in Ruhe, nicht erst, wenn schon etwas passiert ist."
       }
     },
     {
@@ -77,10 +137,38 @@
       "data": {
         "prompt": "🧭 Unterwegs: Was ist richtig? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🚌 Fahrt im Bus" }, "right": { "text": "Sitzen bleiben und festhalten" } },
-          { "left": { "text": "🚻 Ein Kind muss zur Toilette" }, "right": { "text": "Ein Erwachsener geht mit" } },
-          { "left": { "text": "🍄 Ein Kind findet Beeren oder Pilze" }, "right": { "text": "Stopp! Nicht anfassen." } },
-          { "left": { "text": "⏸️ Pause machen" }, "right": { "text": "Trinken und alle durchzählen" } }
+          {
+            "left": {
+              "text": "🚌 Fahrt im Bus"
+            },
+            "right": {
+              "text": "Sitzen bleiben und festhalten"
+            }
+          },
+          {
+            "left": {
+              "text": "🚻 Ein Kind muss zur Toilette"
+            },
+            "right": {
+              "text": "Ein Erwachsener geht mit"
+            }
+          },
+          {
+            "left": {
+              "text": "🍄 Ein Kind findet Beeren oder Pilze"
+            },
+            "right": {
+              "text": "Stopp! Nicht anfassen."
+            }
+          },
+          {
+            "left": {
+              "text": "⏸️ Pause machen"
+            },
+            "right": {
+              "text": "Trinken und alle durchzählen"
+            }
+          }
         ],
         "memory": false
       }
@@ -88,25 +176,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😨 Beim Durchzählen fehlt ein Kind! Was machst du zuerst?",
+        "prompt": "😨 Beim Durchzählen fehlt ein Kind. Was machst du zuerst?",
         "options": [
-          { "text": "🗣️ Ich sage sofort der Gruppen-Leitung Bescheid. Die Gruppe bleibt zusammen.", "correct": true },
-          { "text": "🏃 Ich renne allein los und lasse die Gruppe stehen." },
-          { "text": "🤫 Ich sage erst mal niemandem etwas." }
+          {
+            "text": "🗣️ Sofort der Gruppen-Leitung Bescheid geben. Die Gruppe bleibt zusammen.",
+            "correct": true
+          },
+          {
+            "text": "🔍 Erst schnell allein in der Nähe suchen und noch nichts sagen."
+          },
+          {
+            "text": "📞 Zuerst die Eltern des Kindes anrufen."
+          }
         ],
-        "explanation": "Melde es sofort. Die Gruppe bleibt mit einem Erwachsenen zusammen. Ein anderer Erwachsener sucht das Kind. So geht kein weiteres Kind verloren."
+        "explanation": "Zuerst Bescheid geben und die Gruppe zusammenhalten – so geht kein weiteres Kind verloren. Ein Erwachsener bleibt bei der Gruppe, ein anderer sucht. Allein losrennen oder gleich die Eltern anrufen kommt erst später."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧒 Was übt ihr mit den Kindern für den Notfall: Was macht ein Kind, wenn es die Gruppe verliert?",
+        "prompt": "🧒 Ihr übt den Notfall. Was soll ein Kind tun, wenn es die Gruppe verliert?",
         "options": [
-          { "text": "🧍 Stehen bleiben und warten. Wir finden dich.", "correct": true },
-          { "text": "🏃 Allein nach Hause laufen." },
-          { "text": "🙈 Sich gut verstecken." }
+          {
+            "text": "🧍 Stehen bleiben und warten. Wir finden dich.",
+            "correct": true
+          },
+          {
+            "text": "🏃 Allein zum Treffpunkt zurücklaufen und dort suchen."
+          },
+          {
+            "text": "🙋 Einen fremden Erwachsenen bitten, es nach Hause zu bringen."
+          }
         ],
-        "explanation": "Die Regel heißt: Bleib stehen, wo du bist. Ein Kind, das steht, findet man schnell. Ein Kind, das herumläuft, findet man schwer."
+        "explanation": "Die Regel heißt: Bleib stehen, wo du bist. Ein Kind, das steht, findet man schnell. Wer allein losläuft, entfernt sich immer weiter. Und mit fremden Menschen geht ein Kind nicht mit."
       }
     },
     {
@@ -114,23 +216,37 @@
       "data": {
         "prompt": "📋 Warum nimmst du die Telefon-Liste der Eltern mit?",
         "options": [
-          { "text": "📞 Im Notfall kannst du die Eltern sofort anrufen.", "correct": true },
-          { "text": "📝 Damit der Rucksack voller ist." },
-          { "text": "🎨 Die Kinder können darauf malen." }
+          {
+            "text": "📞 Im Notfall erreichst du die Eltern sofort.",
+            "correct": true
+          },
+          {
+            "text": "🕓 Um den Eltern unterwegs vom Ausflug zu erzählen."
+          },
+          {
+            "text": "🚕 Um für den Rückweg ein Taxi zu bestellen."
+          }
         ],
-        "explanation": "Wenn etwas passiert, brauchst du die Nummern schnell. Zum Beispiel bei einem Unfall oder wenn ein Kind krank wird."
+        "explanation": "Der Grund ist der Notfall: bei einem Unfall oder wenn ein Kind krank wird, erreichst du die Eltern sofort. Zum Erzählen oder für die Rückfahrt brauchst du die Nummern unterwegs nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Die Sonne scheint stark ☀️. Was brauchen die Kinder draußen?",
+        "prompt": "🌞 Die Sonne brennt am Mittag. Womit schützt du die Kinder draußen am besten?",
         "options": [
-          { "text": "🧢 Sonnencreme und eine Mütze.", "correct": true },
-          { "text": "🧤 Dicke Winterhandschuhe." },
-          { "text": "🌂 Einen Regenschirm gegen den Schnee." }
+          {
+            "text": "🧢 Sonnencreme und eine Mütze.",
+            "correct": true
+          },
+          {
+            "text": "🕶️ Eine Sonnenbrille reicht als Schutz."
+          },
+          {
+            "text": "💦 Mit viel Sonnencreme können die Kinder den ganzen Mittag in der prallen Sonne bleiben."
+          }
         ],
-        "explanation": "Sonnencreme und Kopfbedeckung schützen vor Sonnenbrand. Und zwischendurch: ab in den Schatten und Wasser trinken."
+        "explanation": "Sonnencreme und eine Kopfbedeckung schützen Haut und Kopf vor Sonnenbrand durch die UV-Strahlung – das sind die Sonnenstrahlen, die man nicht sieht. Eine Sonnenbrille allein schützt den Körper nicht. Und auch mit Creme gilt: in der Mittagssonne in den Schatten und Wasser trinken."
       }
     }
   ]

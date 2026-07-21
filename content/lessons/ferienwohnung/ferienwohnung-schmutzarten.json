@@ -19,13 +19,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💬 Ein Fachmann sagt über Schmutz: Er ist ...",
+        "prompt": "💬 Ein Fachmann erklärt den Begriff Schmutz. Welche Aussage trifft es genau?",
         "options": [
           { "text": "Materie am falschen Ort. Materie heißt: Stoff oder Material.", "correct": true },
-          { "text": "immer gefährlich für die Gesundheit." },
-          { "text": "nur auf dem Boden zu finden." }
+          { "text": "Materie, die schon von sich aus schädlich ist." },
+          { "text": "Materie, die an jedem Ort stört." }
         ],
-        "explanation": "Schmutz ist Stoff am falschen Ort. Erde im Garten ist normal. Dieselbe Erde auf dem Teppich ist Schmutz. Ob etwas Schmutz ist, hängt also vom Ort ab."
+        "explanation": "Materie heißt: Stoff oder Material. Schmutz ist Materie am falschen Ort. Erde im Garten ist normal. Dieselbe Erde auf dem Teppich ist Schmutz. Ob etwas Schmutz ist, hängt also vom Ort ab, nicht vom Stoff selbst."
       }
     },
     {
@@ -62,25 +62,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🦠 Wann ist das Desinfizieren besonders wichtig?",
+        "prompt": "🦠 Beim Desinfizieren tötest du Keime ab. Wann ist das besonders wichtig?",
         "options": [
           { "text": "In großen Haushalten und bei kranken Menschen.", "correct": true },
-          { "text": "Nur, wenn Besuch kommt." },
-          { "text": "Nur im eigenen Schlafzimmer." }
+          { "text": "In kleinen Haushalten, in denen selten jemand ist." },
+          { "text": "Erst, wenn eine Fläche sichtbar schmutzig ist." }
         ],
-        "explanation": "Desinfizieren tötet winzige Keime ab. Das ist wichtig, wo viele Menschen sind oder wo kranke Menschen leben. Dort verbreiten sich Keime schnell."
+        "explanation": "Keime sind winzig und mit dem Auge nicht zu sehen. Desinfizieren tötet sie ab. Das ist wichtig, wo viele Menschen sind oder wo kranke Menschen leben. Dort verbreiten sich Keime schnell."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪵 Du willst ein Holz-Möbel pflegen. Was machst du zuerst?",
+        "prompt": "🪵 Ein Holz-Möbel ist staubig und du willst es pflegen. In welcher Reihenfolge gehst du vor?",
         "options": [
           { "text": "Erst reinigen, dann die Pflege auftragen.", "correct": true },
-          { "text": "Erst die Pflege auftragen, dann reinigen." },
-          { "text": "Beides gleichzeitig machen." }
+          { "text": "Erst die Pflege auftragen, dann den Staub abwischen." },
+          { "text": "Die Politur direkt auf den Staub geben, das reinigt und pflegt zugleich." }
         ],
-        "explanation": "Pflege gehört immer auf eine saubere Fläche. Sonst schließt du den Schmutz unter der Pflege-Schicht ein. Also: erst reinigen, dann pflegen."
+        "explanation": "Pflege gehört immer auf eine saubere Fläche. Trägst du sie auf Staub auf, schließt du den Schmutz unter der Pflege-Schicht ein. Also: erst reinigen, dann pflegen."
       }
     },
     {
@@ -117,25 +117,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🟤 Auf dem Teppich ist Schlamm. Was ist hier richtig?",
+        "prompt": "🟤 Auf dem Teppich ist nasser Schlamm. Wie gehst du bei diesem Textil richtig vor?",
         "options": [
           { "text": "Den Schlamm erst antrocknen lassen, dann abheben.", "correct": true },
-          { "text": "Sofort kräftig reiben, bis er weg ist." },
-          { "text": "Viel Wasser darauf gießen." }
+          { "text": "Sofort kräftig reiben, solange er noch nass ist." },
+          { "text": "Mit viel warmem Wasser gründlich ausspülen." }
         ],
-        "explanation": "Bei Schlamm oder Wachs auf Textilien gilt eine Ausnahme. Reibst du sofort, drückst du alles tief in die Fasern. Lass es erst trocknen. Dann kannst du es leicht abheben."
+        "explanation": "Textil heißt: Stoff oder Gewebe, wie beim Teppich. Bei nassem Schlamm oder Wachs auf Textilien gilt eine Ausnahme. Reibst oder wässerst du sofort, drückst du alles tief in die Fasern. Lass es erst trocknen. Dann kannst du es leicht abheben."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss ganz leicht: Warum lohnt sich Reinigen?",
+        "prompt": "🌟 Zum Schluss: Warum lohnt sich regelmäßiges Reinigen?",
         "options": [
           { "text": "Es hält Dinge sauber und schützt ihren Wert.", "correct": true },
-          { "text": "Es macht die Dinge schneller kaputt." },
-          { "text": "Es kostet immer sehr viel Geld." }
+          { "text": "Einmal gründlich reinigen reicht dann für immer." },
+          { "text": "Es ersetzt das Pflegen, ein Schutz ist danach nicht mehr nötig." }
         ],
-        "explanation": "Regelmäßiges Reinigen erhält den Wert und die Funktion von Dingen. So halten sie länger. Das spart am Ende sogar Geld."
+        "explanation": "Werterhalt bedeutet: Der Wert einer Sache bleibt erhalten. Regelmäßiges Reinigen erhält den Wert und die Funktion von Dingen. So halten sie länger. Das spart am Ende sogar Geld."
       }
     }
   ]

@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔍 Du willst Preise vergleichen. Was hilft dir am besten?",
+        "prompt": "🔍 Zwei Packungen sind verschieden groß. Worauf schaust du, um den Preis fair zu vergleichen?",
         "options": [
-          { "text": "Der Preis pro 100 Gramm.", "correct": true },
-          { "text": "Nur der Endpreis." },
-          { "text": "Die schönste Packung." }
+          { "text": "Auf den Grundpreis: den Preis pro 100 Gramm.", "correct": true },
+          { "text": "Nur auf den großen Endpreis auf dem Schild." },
+          { "text": "Auf die Packung, in der mehr Gramm drin sind." }
         ],
-        "explanation": "Packungen sind verschieden groß. Der Preis pro 100 g macht sie vergleichbar. Er steht klein auf dem Preisschild."
+        "explanation": "Der Grundpreis ist der Preis pro 100 g. Er steht klein auf dem Preisschild. Nur damit kannst du verschieden große Packungen fair vergleichen. Der Endpreis allein sagt nichts, weil die Mengen unterschiedlich sind."
       }
     },
     {
@@ -31,24 +31,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏷️ Am Regal steht: Shampoo heute 1,50 € statt 2,50 €. Was bedeutet das?",
+        "prompt": "🏷️ Am Regal steht: Shampoo heute 1,50 € statt 2,50 €. Was bedeutet das Wort 'statt'?",
         "options": [
           { "text": "Das Shampoo ist heute 1 € billiger. Das ist ein Angebot.", "correct": true },
-          { "text": "Das Shampoo kostet heute 1 € mehr." },
-          { "text": "Du bekommst das Shampoo geschenkt." }
+          { "text": "Das Shampoo kostet heute 2,50 €. Vorher waren es 1,50 €." },
+          { "text": "Du sparst 2,50 €, wenn du das Shampoo kaufst." }
         ],
-        "explanation": "Das Wort 'statt' zeigt den alten Preis. Früher: 2,50 €. Heute zahlst du nur 1,50 €. Du sparst 1 €."
+        "explanation": "Das Wort 'statt' nennt immer den alten Preis. Alter Preis: 2,50 €. Neuer Preis: 1,50 €. Deine Ersparnis ist der Unterschied: 2,50 € minus 1,50 € = 1 €."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛒 Im Laden sind Chips im Angebot. Ganz billig! Aber du brauchst keine Chips. Was machst du?",
+        "prompt": "🛒 Chips sind im Angebot, richtig billig! Aber du brauchst keine Chips. Was ist die kluge Entscheidung?",
         "options": [
           { "text": "Ich kaufe sie nicht. Billig ist nur gut, wenn ich es brauche.", "correct": true },
-          { "text": "Ich kaufe 5 Tüten. Es ist ja billig!" }
+          { "text": "Ich kaufe 5 Tüten. So ein Angebot kommt nie wieder." },
+          { "text": "Ich kaufe eine Tüte, sonst verpasse ich das Angebot." }
         ],
-        "explanation": "Ein Angebot spart nur Geld, wenn du die Sache wirklich brauchst. Sonst gibst du Geld für nichts aus."
+        "explanation": "Ein Angebot spart nur Geld, wenn du die Sache wirklich brauchst. Kaufst du etwas nur, weil es billig ist, gibst du Geld für nichts aus. Das nennt man einen Spontankauf."
       }
     },
     {
@@ -83,12 +84,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Geschafft! Letzte Frage: Am Ende vom Monat ist Geld übrig. Was kannst du damit machen?",
+        "prompt": "🌟 Geschafft! Letzte Frage: Am Monatsende ist Geld übrig. Was ist damit sinnvoll?",
         "options": [
           { "text": "Ich kann es sparen. Oder mir einen Wunsch erfüllen.", "correct": true },
-          { "text": "Ich muss es wegwerfen." }
+          { "text": "Ich muss es schnell ausgeben, sonst ist es am Monatsende weg." },
+          { "text": "Übriges Geld ist ein Fehler. Ich habe zu wenig gekauft." }
         ],
-        "explanation": "Übriges Geld ist toll. Spare es oder gönn dir etwas. Du hast es dir verdient! 🎉"
+        "explanation": "Übriges Geld ist ein gutes Zeichen. Es bleibt dir erhalten, es verfällt nicht. Du kannst es sparen oder dir davon etwas gönnen. Du hast es dir verdient! 🎉"
       }
     }
   ]

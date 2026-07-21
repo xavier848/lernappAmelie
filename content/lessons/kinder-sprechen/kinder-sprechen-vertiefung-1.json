@@ -2,18 +2,26 @@
   "topic_slug": "kinder-sprechen",
   "slug": "kinder-sprechen-vertiefung-1",
   "title": "Sag es kurz und positiv!",
+  "intro": "💬 In diesem Kapitel lernst du, wie du Kindern gute Anweisungen gibst. Sag einem Kind, was es tun soll, nicht was es lassen soll — das nennt man positive Formulierung. Bei „Renn nicht!“ bleibt vor allem das Wort „rennen“ im Kopf. Gib deine Anweisung kurz und klar. Sag immer nur einen Schritt, denn zu viele Aufträge überfordern ein Kind. Kündige einen Wechsel früh an, zum Beispiel vom Spielen zum Aufräumen — Fachleute nennen ihn Übergang. Sprich ruhig, freundlich und deutlich. Geh dabei auf Augenhöhe und halte Blickkontakt. Sag auch „Bitte“ und „Danke“, denn du bist ein Vorbild. Kinder lernen durch Nachmachen — das nennt man Modelllernen.",
   "sort": 3,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏃 Ein Kind rennt durch den Raum. Was sagst du am besten?",
+        "prompt": "🏃 Ein Kind rennt durch den Gruppenraum. Was sagst du am besten?",
         "options": [
-          { "text": "🙂 „Geh bitte langsam.“", "correct": true },
-          { "text": "🚫 „Renn nicht!“" },
-          { "text": "😤 „Wie oft soll ich das noch sagen?!“" }
+          {
+            "text": "🙂 „Geh bitte langsam.“",
+            "correct": true
+          },
+          {
+            "text": "🚫 „Renn nicht!“"
+          },
+          {
+            "text": "😟 „Pass auf, dass du nicht hinfällst!“"
+          }
         ],
-        "explanation": "Sag dem Kind, was es TUN soll. Nicht, was es lassen soll. Bei „Renn nicht!“ hört das Kind vor allem das Wort „rennen“."
+        "explanation": "Sag dem Kind, was es TUN soll. Das nennt man positive Formulierung. Bei „Renn nicht!“ oder „Fall nicht hin!“ hört das Kind vor allem „rennen“ und „hinfallen“. Das Bild bleibt im Kopf. „Geh bitte langsam“ sagt klar, was zu tun ist."
       }
     },
     {
@@ -21,10 +29,38 @@
       "data": {
         "prompt": "🔄 Mach aus dem Verbot einen positiven Satz. Was gehört zusammen?",
         "pairs": [
-          { "left": { "text": "🚫 „Schrei nicht!“" }, "right": { "text": "„Sprich bitte leise.“" } },
-          { "left": { "text": "🚫 „Mal nicht auf den Tisch!“" }, "right": { "text": "„Mal bitte auf das Papier.“" } },
-          { "left": { "text": "🚫 „Wirf das Essen nicht!“" }, "right": { "text": "„Das Essen bleibt auf dem Teller.“" } },
-          { "left": { "text": "🚫 „Schubs nicht!“" }, "right": { "text": "„Warte bitte, bis du dran bist.“" } }
+          {
+            "left": {
+              "text": "🚫 „Schrei nicht!“"
+            },
+            "right": {
+              "text": "„Sprich bitte leise.“"
+            }
+          },
+          {
+            "left": {
+              "text": "🚫 „Mal nicht auf den Tisch!“"
+            },
+            "right": {
+              "text": "„Mal bitte auf das Papier.“"
+            }
+          },
+          {
+            "left": {
+              "text": "🚫 „Wirf das Essen nicht!“"
+            },
+            "right": {
+              "text": "„Das Essen bleibt auf dem Teller.“"
+            }
+          },
+          {
+            "left": {
+              "text": "🚫 „Schubs nicht!“"
+            },
+            "right": {
+              "text": "„Warte bitte, bis du dran bist.“"
+            }
+          }
         ],
         "memory": false
       }
@@ -34,29 +70,62 @@
       "data": {
         "prompt": "🧺 Sortiere die Sätze: Welche sind positiv formuliert? Welche sind Verbote?",
         "buckets": [
-          { "id": "positiv", "label": "Positiv formuliert", "icon": "💚" },
-          { "id": "verbot", "label": "Verbot", "icon": "🚫" }
+          {
+            "id": "positiv",
+            "label": "Positiv formuliert",
+            "icon": "💚"
+          },
+          {
+            "id": "verbot",
+            "label": "Verbot",
+            "icon": "🚫"
+          }
         ],
         "items": [
-          { "text": "„Geh bitte langsam.“", "bucket": "positiv" },
-          { "text": "„Halte dich am Geländer fest.“", "bucket": "positiv" },
-          { "text": "„Leg die Bücher ins Regal.“", "bucket": "positiv" },
-          { "text": "„Renn nicht!“", "bucket": "verbot" },
-          { "text": "„Fass das nicht an!“", "bucket": "verbot" },
-          { "text": "„Sei nicht so laut!“", "bucket": "verbot" }
+          {
+            "text": "„Geh bitte langsam.“",
+            "bucket": "positiv"
+          },
+          {
+            "text": "„Halte dich am Geländer fest.“",
+            "bucket": "positiv"
+          },
+          {
+            "text": "„Leg die Bücher ins Regal.“",
+            "bucket": "positiv"
+          },
+          {
+            "text": "„Renn nicht!“",
+            "bucket": "verbot"
+          },
+          {
+            "text": "„Fass das nicht an!“",
+            "bucket": "verbot"
+          },
+          {
+            "text": "„Sei nicht so laut!“",
+            "bucket": "verbot"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎯 Welche Anweisung ist am klarsten für ein Kind?",
+        "prompt": "🎯 Welche Anweisung ist für ein Kind am klarsten?",
         "options": [
-          { "text": "🪑 „Setz dich bitte auf deinen Stuhl.“", "correct": true },
-          { "text": "😐 „Sei jetzt endlich mal brav.“" },
-          { "text": "🌀 „Also, es wäre schön, wenn du vielleicht irgendwann mal…“" }
+          {
+            "text": "🪑 „Setz dich bitte auf deinen Stuhl.“",
+            "correct": true
+          },
+          {
+            "text": "🧺 „Räum auf, setz dich hin und hör zu.“"
+          },
+          {
+            "text": "🙄 „Kannst du dich vielleicht mal setzen?“"
+          }
         ],
-        "explanation": "„Sei brav“ ist unklar. Das Kind weiß nicht, was es tun soll. Eine gute Anweisung ist kurz und konkret."
+        "explanation": "Am besten ist eine konkrete Handlungsanweisung: kurz, klar und nur ein Schritt. Drei Aufträge auf einmal überfordern. Eine Frage wie „Kannst du …?“ klingt, als dürfte das Kind auch Nein sagen."
       }
     },
     {
@@ -64,11 +133,21 @@
       "data": {
         "prompt": "🧹 Das Freispiel ist gleich zu Ende. Ihr wollt aufräumen. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "⏰ Früh ankündigen: „In 5 Minuten räumen wir auf.“" },
-          { "text": "🎵 Das Signal geben, zum Beispiel das Aufräum-Lied." },
-          { "text": "🗣️ Eine klare Anweisung sagen: „Leg die Autos in die Kiste.“" },
-          { "text": "🤝 Mithelfen und zeigen, wie es geht." },
-          { "text": "🌟 Loben: „Ihr habt super aufgeräumt!“" }
+          {
+            "text": "⏰ Früh ankündigen: „In 5 Minuten räumen wir auf.“"
+          },
+          {
+            "text": "🎵 Das Signal geben, zum Beispiel das Aufräum-Lied."
+          },
+          {
+            "text": "🗣️ Eine klare Anweisung sagen: „Leg die Autos in die Kiste.“"
+          },
+          {
+            "text": "🤝 Mithelfen und zeigen, wie es geht."
+          },
+          {
+            "text": "🌟 Loben: „Ihr habt super aufgeräumt!“"
+          }
         ]
       }
     },
@@ -77,11 +156,18 @@
       "data": {
         "prompt": "⏰ Warum kündigst du das Aufräumen früher an?",
         "options": [
-          { "text": "🧠 Die Kinder können ihr Spiel zu Ende bringen. Der Wechsel fällt leichter.", "correct": true },
-          { "text": "🙄 Damit die Kinder länger spielen können." },
-          { "text": "📢 Damit du zweimal schimpfen kannst." }
+          {
+            "text": "🧠 Die Kinder können ihr Spiel zu Ende bringen. Der Wechsel fällt leichter.",
+            "correct": true
+          },
+          {
+            "text": "🕒 Vor allem, damit die Kinder lernen, auf die Uhr zu schauen."
+          },
+          {
+            "text": "😬 Damit die Kinder unter Druck schneller fertig werden."
+          }
         ],
-        "explanation": "Ein plötzliches Stopp ist für Kinder schwer. Mit einer Ankündigung können sie sich vorbereiten. Das gibt weniger Streit."
+        "explanation": "Ein plötzliches Stopp mitten im Spiel ist ein schwerer Wechsel. Fachleute sagen dazu Übergang. Mit einer frühen Ankündigung kann sich das Kind darauf einstellen. Es geht nicht um Druck, sondern um Vorbereitung. Das gibt weniger Streit."
       }
     },
     {
@@ -89,11 +175,18 @@
       "data": {
         "prompt": "🧥 Ein Kind trödelt beim Anziehen. Es kommt nicht voran. Was sagst du?",
         "options": [
-          { "text": "👟 „Zieh zuerst deine Schuhe an.“ Ein Schritt nach dem anderen.", "correct": true },
-          { "text": "😤 „Beeil dich endlich! Immer trödelst du.“" },
-          { "text": "🤐 Nichts. Ich ziehe das Kind einfach schnell selbst an." }
+          {
+            "text": "👟 „Zieh zuerst deine Schuhe an.“ Ein Schritt nach dem anderen.",
+            "correct": true
+          },
+          {
+            "text": "🏃 „Los, zieh Jacke, Schuhe und Mütze an – aber ein bisschen schnell!“"
+          },
+          {
+            "text": "🤐 Nichts sagen. Ich ziehe das Kind schnell selbst an, dann geht es fixer."
+          }
         ],
-        "explanation": "Viele Aufgaben auf einmal überfordern. Nenne einen kleinen Schritt. Wenn er fertig ist, kommt der nächste."
+        "explanation": "Viele Aufgaben auf einmal überfordern. Gib die Anweisung kleinschrittig – ein Schritt nach dem anderen. Wenn du dem Kind alles abnimmst, lernt es das Anziehen nicht selbst."
       }
     },
     {
@@ -101,11 +194,18 @@
       "data": {
         "prompt": "🗣️ Wie klingt deine Stimme bei einer Anweisung am besten?",
         "options": [
-          { "text": "🙂 Freundlich, ruhig und deutlich", "correct": true },
-          { "text": "📢 Laut und drohend" },
-          { "text": "🤫 So leise, dass niemand etwas versteht" }
+          {
+            "text": "🙂 Freundlich, ruhig und deutlich",
+            "correct": true
+          },
+          {
+            "text": "😠 Streng und ernst, damit das Kind merkt: Jetzt ist es wichtig."
+          },
+          {
+            "text": "🤷 Ganz beiläufig nebenbei, während du weiter aufräumst."
+          }
         ],
-        "explanation": "Freundlich und deutlich – so hören Kinder gerne zu. Schau das Kind dabei an. Dann weiß es: Du meinst mich."
+        "explanation": "Freundlich und deutlich – so hören Kinder gerne zu. Wichtig sind auch die nonverbalen Signale: Geh auf Augenhöhe und halte Blickkontakt. Dann weiß das Kind: Du meinst mich. Streng oder nur nebenbei wirkt beides schlechter."
       }
     },
     {
@@ -113,10 +213,18 @@
       "data": {
         "prompt": "💛 Gehören „Bitte“ und „Danke“ auch in deine Anweisungen?",
         "options": [
-          { "text": "😊 Ja! Ich bin höflich – so lernen es die Kinder auch.", "correct": true },
-          { "text": "🙅 Nein, das ist bei Kindern nicht nötig." }
+          {
+            "text": "😊 Ja! Ich bin höflich – so lernen es die Kinder auch.",
+            "correct": true
+          },
+          {
+            "text": "💪 Nein, eine Anweisung muss bestimmt sein – „bitte“ macht sie zu weich."
+          },
+          {
+            "text": "🤔 Nur „Danke“ zum Loben – „bitte“ klingt, als wäre die Anweisung freiwillig."
+          }
         ],
-        "explanation": "Du bist das Vorbild. Wenn du „Bitte“ und „Danke“ sagst, sagen es die Kinder bald auch."
+        "explanation": "Du bist das Vorbild. Kinder lernen durch Nachmachen – das nennt man Modelllernen. Wenn du „Bitte“ und „Danke“ sagst, tun es die Kinder bald auch. Höflich sein und klar sein passt gut zusammen."
       }
     }
   ]

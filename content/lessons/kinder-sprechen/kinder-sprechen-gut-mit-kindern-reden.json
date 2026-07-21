@@ -2,6 +2,7 @@
   "topic_slug": "kinder-sprechen",
   "slug": "kinder-sprechen-gut-mit-kindern-reden",
   "title": "Gut mit Kindern reden",
+  "intro": "💬 In dieser Lektion lernst du, wie du gut mit kleinen Kindern sprichst. Sprich ruhig und in kurzen Sätzen. Ein kleines Kind versteht nur wenige Wörter auf einmal. Geh in die Hocke, dann bist du auf Augenhöhe. So habt ihr Blickkontakt und das Kind fühlt sich ernst genommen. Hör geduldig zu und lass das Kind ausreden. Das nennt man aktives Zuhören. Beim Loben sagst du genau, was das Kind gut gemacht hat. Eine Grenze setzt du klar und ruhig, zum Beispiel mit einem kurzen „Stopp\". Schreien, Auslachen oder Unterbrechen helfen nicht.",
   "sort": 1,
   "exercises": [
     {
@@ -9,11 +10,18 @@
       "data": {
         "prompt": "💬 Wie sprichst du am besten mit einem kleinen Kind?",
         "options": [
-          { "text": "🙂 Ruhig und mit einfachen Sätzen", "correct": true },
-          { "text": "🌀 Schnell und mit schwierigen Wörtern" },
-          { "text": "📢 Sehr laut, damit es zuhört" }
+          {
+            "text": "🙂 Ruhig und mit einfachen Sätzen",
+            "correct": true
+          },
+          {
+            "text": "🗣️ In langen Sätzen, damit es viele Wörter hört"
+          },
+          {
+            "text": "📢 Etwas lauter als sonst, damit es gut zuhört"
+          }
         ],
-        "explanation": "Sprich ruhig. Nutze kurze Sätze. So versteht dich das Kind gut."
+        "explanation": "Sprich ruhig und in kurzen Sätzen. Ein kleines Kind versteht nur wenige Wörter auf einmal. Lange Sätze oder lautes Reden helfen nicht."
       }
     },
     {
@@ -21,11 +29,18 @@
       "data": {
         "prompt": "👀 Warum gehst du beim Sprechen auf Augenhöhe? Zum Beispiel in die Hocke.",
         "options": [
-          { "text": "💛 Das Kind fühlt sich ernst genommen. Es kann dich besser sehen und verstehen.", "correct": true },
-          { "text": "🦵 Weil deine Beine dann nicht müde werden." },
-          { "text": "📏 Damit du misst, wie groß das Kind ist." }
+          {
+            "text": "💛 Das Kind fühlt sich ernst genommen. Es kann dich besser sehen und verstehen.",
+            "correct": true
+          },
+          {
+            "text": "🙇 Damit das Kind lernt, immer sofort zu gehorchen."
+          },
+          {
+            "text": "🤫 Damit andere Leute im Raum nichts mitbekommen."
+          }
         ],
-        "explanation": "Auf Augenhöhe hast du Blickkontakt. Das Kind merkt: Du hörst mir wirklich zu."
+        "explanation": "Auf Augenhöhe habt ihr Blickkontakt. Blickkontakt heißt: Ihr schaut euch in die Augen. Das Kind merkt: Du nimmst mich ernst und hörst mir zu. Es geht nicht um Gehorsam."
       }
     },
     {
@@ -33,16 +48,42 @@
       "data": {
         "prompt": "🧺 Sortiere: Was ist gut beim Reden mit Kindern? Was ist nicht gut?",
         "buckets": [
-          { "id": "gut", "label": "Gut", "icon": "💚" },
-          { "id": "nicht-gut", "label": "Nicht gut", "icon": "🚫" }
+          {
+            "id": "gut",
+            "label": "Gut",
+            "icon": "💚"
+          },
+          {
+            "id": "nicht-gut",
+            "label": "Nicht gut",
+            "icon": "🚫"
+          }
         ],
         "items": [
-          { "text": "🧎 Auf Augenhöhe gehen", "bucket": "gut" },
-          { "text": "📢 Schreien", "bucket": "nicht-gut" },
-          { "text": "👂 Ausreden lassen", "bucket": "gut" },
-          { "text": "😝 Auslachen", "bucket": "nicht-gut" },
-          { "text": "🙂 Geduldig zuhören", "bucket": "gut" },
-          { "text": "✋ Ins Wort fallen", "bucket": "nicht-gut" }
+          {
+            "text": "🧎 Auf Augenhöhe gehen",
+            "bucket": "gut"
+          },
+          {
+            "text": "📢 Schreien",
+            "bucket": "nicht-gut"
+          },
+          {
+            "text": "👂 Ausreden lassen",
+            "bucket": "gut"
+          },
+          {
+            "text": "😝 Auslachen",
+            "bucket": "nicht-gut"
+          },
+          {
+            "text": "🙂 Geduldig zuhören",
+            "bucket": "gut"
+          },
+          {
+            "text": "✋ Ins Wort fallen",
+            "bucket": "nicht-gut"
+          }
         ]
       }
     },
@@ -51,11 +92,18 @@
       "data": {
         "prompt": "🌟 Ein Kind hat einen hohen Turm gebaut. Wie lobst du am besten?",
         "options": [
-          { "text": "🗼 „Du hast den Turm ganz alleine gebaut!“", "correct": true },
-          { "text": "😐 „Na endlich hast du mal etwas geschafft.“" },
-          { "text": "🤷 „Nicht schlecht. Aber er ist schief.“" }
+          {
+            "text": "🗼 „Du hast den Turm ganz alleine gebaut!“",
+            "correct": true
+          },
+          {
+            "text": "👍 „Toll gemacht! Super!“"
+          },
+          {
+            "text": "🤷 „Ganz gut. Aber er ist ein bisschen schief.“"
+          }
         ],
-        "explanation": "Lob ist am besten konkret. Sag genau, was das Kind gut gemacht hat. Dann ist das Kind stolz."
+        "explanation": "Am besten ist konkretes Lob. Konkret heißt: Du sagst genau, was das Kind gut gemacht hat. „Toll gemacht“ ist nett, aber das Kind weiß nicht, was gut war. Konkretes Lob macht das Kind stolz."
       }
     },
     {
@@ -63,11 +111,18 @@
       "data": {
         "prompt": "✋ Ein Kind haut ein anderes Kind. Wie setzt du eine Grenze?",
         "options": [
-          { "text": "🙂 Ruhig und klar: „Stopp. Das tut weh.“", "correct": true },
-          { "text": "😡 Laut schreien: „Bist du verrückt?!“" },
-          { "text": "🙈 Nichts sagen und weggehen." }
+          {
+            "text": "🙂 Ruhig und klar: „Stopp. Das tut weh.“",
+            "correct": true
+          },
+          {
+            "text": "🗯️ Laut schimpfen: „Du bist ein böses Kind!“"
+          },
+          {
+            "text": "💬 Lange erklären, warum Hauen nicht schön ist."
+          }
         ],
-        "explanation": "Grenzen setzt du freundlich, aber klar. Ruhig bleiben. Kurz sagen, was nicht geht."
+        "explanation": "Eine Grenze setzt du klar und ruhig. Klar heißt: kurz und deutlich sagen, was nicht geht. Schimpfen macht dem Kind Angst. Eine lange Erklärung versteht es in dem Moment noch nicht."
       }
     },
     {
@@ -75,11 +130,18 @@
       "data": {
         "prompt": "🐢 Ein Kind erzählt dir etwas. Es spricht langsam und sucht die Wörter. Was machst du?",
         "options": [
-          { "text": "👂 Ich warte geduldig. Ich lasse das Kind ausreden.", "correct": true },
-          { "text": "⏩ Ich spreche den Satz schnell für das Kind zu Ende." },
-          { "text": "🚶 Ich gehe weg, das dauert mir zu lange." }
+          {
+            "text": "👂 Ich warte geduldig. Ich lasse das Kind ausreden.",
+            "correct": true
+          },
+          {
+            "text": "🙋 Ich rate das Wort und sage es schnell für das Kind."
+          },
+          {
+            "text": "⏩ Ich sage freundlich: „Nun mach schon, sprich weiter.“"
+          }
         ],
-        "explanation": "Geduld ist wichtig. Das Kind lernt: Meine Worte sind wichtig. Ich darf ausreden."
+        "explanation": "Geduld ist wichtig. Das nennt man aktives Zuhören: Du lässt das Kind selbst die Wörter finden. Wenn du hilfst oder drängelst, lernt das Kind: Meine Worte zählen nicht. Beim Ausredenlassen merkt es: Ich bin wichtig."
       }
     },
     {
@@ -87,10 +149,38 @@
       "data": {
         "prompt": "🧩 Was gehört zusammen? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🧎 In die Hocke gehen" }, "right": { "text": "Auf Augenhöhe sein" } },
-          { "left": { "text": "👂 Ausreden lassen" }, "right": { "text": "Gut zuhören" } },
-          { "left": { "text": "🌟 Genau sagen, was gut war" }, "right": { "text": "Richtig loben" } },
-          { "left": { "text": "✋ Ruhig „Stopp“ sagen" }, "right": { "text": "Grenze freundlich setzen" } }
+          {
+            "left": {
+              "text": "🧎 In die Hocke gehen"
+            },
+            "right": {
+              "text": "Auf Augenhöhe sein"
+            }
+          },
+          {
+            "left": {
+              "text": "👂 Ausreden lassen"
+            },
+            "right": {
+              "text": "Gut zuhören"
+            }
+          },
+          {
+            "left": {
+              "text": "🌟 Genau sagen, was gut war"
+            },
+            "right": {
+              "text": "Richtig loben"
+            }
+          },
+          {
+            "left": {
+              "text": "✋ Ruhig „Stopp“ sagen"
+            },
+            "right": {
+              "text": "Grenze freundlich setzen"
+            }
+          }
         ],
         "memory": false
       }
@@ -100,10 +190,18 @@
       "data": {
         "prompt": "💛 Ein Kind erzählt dir von seinem Tag. Du schaust es freundlich an. Du hörst zu. Ist das gut?",
         "options": [
-          { "text": "😊 Ja! So fühlt sich das Kind ernst genommen.", "correct": true },
-          { "text": "🙅 Nein, das ist unhöflich." }
+          {
+            "text": "😊 Ja! So fühlt sich das Kind ernst genommen.",
+            "correct": true
+          },
+          {
+            "text": "📱 Nein, Zuhören reicht. Ansehen musst du das Kind nicht."
+          },
+          {
+            "text": "🙂 Ja, aber unterbrich ruhig und erzähl schnell von deinem eigenen Tag."
+          }
         ],
-        "explanation": "Zuhören und Blickkontakt zeigen dem Kind: Du bist mir wichtig."
+        "explanation": "Zuhören und Blickkontakt gehören zusammen. Blickkontakt heißt: Du schaust das Kind dabei an. So merkt es: Du bist mir wichtig. Lass das Kind ausreden – unterbrechen und vom eigenen Tag erzählen nimmt es nicht ernst."
       }
     }
   ]

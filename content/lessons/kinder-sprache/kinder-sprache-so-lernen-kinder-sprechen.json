@@ -2,6 +2,7 @@
   "topic_slug": "kinder-sprache",
   "slug": "kinder-sprache-so-lernen-kinder-sprechen",
   "title": "So lernen Kinder sprechen",
+  "intro": "🗣️ Kinder lernen das Sprechen immer in der gleichen Reihenfolge. Ganz am Anfang steht das Lallen. Dabei übt das Baby Laute wie „ba-ba-ba\". Um den ersten Geburtstag kommt meist das erste echte Wort, oft „Mama\". Mit etwa zwei Jahren setzt ein Kind zwei Wörter zusammen. „Mama Ball\" ist so ein Zweiwortsatz: zwei Wörter ohne Verb. Danach folgen kleine Sätze und die ersten Fragen. Mit etwa vier Jahren spricht ein Kind so deutlich, dass auch fremde Menschen es verstehen. Die richtige Aussprache braucht Zeit. Sagt ein Kind ein Wort falsch, sprichst du es am besten ruhig und richtig vor.",
   "sort": 1,
   "exercises": [
     {
@@ -9,25 +10,44 @@
       "data": {
         "prompt": "🗣️ Wie lernt ein Kind sprechen? Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🍼 Lallen: Das Baby macht Laute wie „ba-ba-ba\"." },
-          { "text": "🎂 Erste Wörter: zum Beispiel „Mama\"." },
-          { "text": "🗣️ Zweiwortsätze: zum Beispiel „Mama Ball\"." },
-          { "text": "💬 Kleine Sätze: zum Beispiel „Ich will Saft\"." },
-          { "text": "❓ Fragen stellen: zum Beispiel „Warum?\"" },
-          { "text": "📖 Geschichten erzählen." }
+          {
+            "text": "🍼 Lallen: Das Baby macht Laute wie „ba-ba-ba\"."
+          },
+          {
+            "text": "🎂 Erste Wörter: zum Beispiel „Mama\"."
+          },
+          {
+            "text": "🗣️ Zweiwortsätze: zum Beispiel „Mama Ball\"."
+          },
+          {
+            "text": "💬 Kleine Sätze: zum Beispiel „Ich will Saft\"."
+          },
+          {
+            "text": "❓ Fragen stellen: zum Beispiel „Warum?\""
+          },
+          {
+            "text": "📖 Geschichten erzählen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎂 Wann spricht ein Kind meistens die ersten Wörter?",
+        "prompt": "🎂 Wann spricht ein Kind meistens sein erstes echtes Wort?",
         "options": [
-          { "text": "🎂 Um den 1. Geburtstag", "correct": true },
-          { "text": "👶 Direkt nach der Geburt" },
-          { "text": "🎈 Erst mit 4 Jahren" }
+          {
+            "text": "🎂 Um den 1. Geburtstag",
+            "correct": true
+          },
+          {
+            "text": "🍼 Schon mit etwa 6 Monaten"
+          },
+          {
+            "text": "✌️ Erst mit etwa 2 Jahren"
+          }
         ],
-        "explanation": "Um den 1. Geburtstag sagen viele Kinder ihr erstes Wort. Zum Beispiel „Mama\" oder „Papa\"."
+        "explanation": "Um den 1. Geburtstag sagen viele Kinder ihr erstes Wort, zum Beispiel „Mama\". Mit etwa 6 Monaten macht ein Baby erst Laute (das Lallen). Zwei Wörter zusammen kommen später, mit etwa 2 Jahren."
       }
     },
     {
@@ -35,11 +55,46 @@
       "data": {
         "prompt": "🧩 Welches Alter passt zu welchem Können? Finde die Paare. Die Angaben sind ungefähr.",
         "pairs": [
-          { "left": { "text": "🍼 2 bis 6 Monate" }, "right": { "text": "Lallen" } },
-          { "left": { "text": "🎂 Etwa 1 Jahr" }, "right": { "text": "Erste Wörter" } },
-          { "left": { "text": "✌️ Etwa 2 Jahre" }, "right": { "text": "Zweiwortsätze" } },
-          { "left": { "text": "🎈 Etwa 3 Jahre" }, "right": { "text": "Kleine Sätze" } },
-          { "left": { "text": "📖 Etwa 4 bis 5 Jahre" }, "right": { "text": "Geschichten erzählen" } }
+          {
+            "left": {
+              "text": "🍼 2 bis 6 Monate"
+            },
+            "right": {
+              "text": "Lallen"
+            }
+          },
+          {
+            "left": {
+              "text": "🎂 Etwa 1 Jahr"
+            },
+            "right": {
+              "text": "Erste Wörter"
+            }
+          },
+          {
+            "left": {
+              "text": "✌️ Etwa 2 Jahre"
+            },
+            "right": {
+              "text": "Zweiwortsätze"
+            }
+          },
+          {
+            "left": {
+              "text": "🎈 Etwa 3 Jahre"
+            },
+            "right": {
+              "text": "Kleine Sätze"
+            }
+          },
+          {
+            "left": {
+              "text": "📖 Etwa 4 bis 5 Jahre"
+            },
+            "right": {
+              "text": "Geschichten erzählen"
+            }
+          }
         ],
         "memory": false
       }
@@ -47,49 +102,77 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗣️ Ein Kind sagt: „Mama Ball\". Wie nennt man das?",
+        "prompt": "🗣️ Ein Kind sagt: „Mama Ball\". Wie nennt man das genau?",
         "options": [
-          { "text": "✌️ Einen Zweiwortsatz", "correct": true },
-          { "text": "📖 Eine Geschichte" },
-          { "text": "🍼 Lallen" }
+          {
+            "text": "✌️ Einen Zweiwortsatz",
+            "correct": true
+          },
+          {
+            "text": "☝️ Einen Einwortsatz"
+          },
+          {
+            "text": "💬 Einen ganzen Satz mit Verb"
+          }
         ],
-        "explanation": "Zwei Wörter zusammen sind ein Zweiwortsatz. Das können Kinder mit etwa 2 Jahren."
+        "explanation": "„Mama Ball\" sind zwei Wörter ohne Verb. Das nennt man einen Zweiwortsatz. Ein Wort allein wäre ein Einwortsatz. Ein ganzer Satz mit Verb (zum Beispiel „Ich will den Ball\") kommt erst später. Zweiwortsätze können Kinder mit etwa 2 Jahren."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👥 Ab wann sollten auch fremde Menschen ein Kind gut verstehen?",
+        "prompt": "👥 Ab welchem Alter sollten auch fremde Menschen ein Kind gut verstehen?",
         "options": [
-          { "text": "🎈 Mit etwa 4 Jahren", "correct": true },
-          { "text": "🎂 Mit 1 Jahr" },
-          { "text": "🎓 Erst mit 10 Jahren" }
+          {
+            "text": "🎈 Mit etwa 4 Jahren",
+            "correct": true
+          },
+          {
+            "text": "✌️ Mit etwa 2 Jahren"
+          },
+          {
+            "text": "🧒 Mit etwa 3 Jahren"
+          }
         ],
-        "explanation": "Mit etwa 4 Jahren sollte ein Kind so sprechen, dass auch Fremde es verstehen."
+        "explanation": "Mit etwa 4 Jahren spricht ein Kind so deutlich, dass auch fremde Menschen es gut verstehen. Mit 2 oder 3 Jahren versteht oft nur die eigene Familie alles, weil die Aussprache noch nicht fertig ist."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💛 Ein Kind sagt „Lölle\" statt „Löffel\". Was machst du?",
+        "prompt": "💛 Ein Kind sagt „Lölle\" statt „Löffel\". Was ist die beste Reaktion?",
         "options": [
-          { "text": "🗣️ Ich spreche das Wort richtig vor. Ganz freundlich.", "correct": true },
-          { "text": "😆 Ich lache das Kind aus." },
-          { "text": "😠 Ich schimpfe mit dem Kind." }
+          {
+            "text": "🗣️ Ich spreche das Wort freundlich richtig vor: „Ja, der Löffel.\"",
+            "correct": true
+          },
+          {
+            "text": "😠 Ich lasse das Kind „Löffel\" so lange wiederholen, bis es fehlerfrei klingt."
+          },
+          {
+            "text": "😆 Ich lache das Kind aus."
+          }
         ],
-        "explanation": "Die Aussprache braucht Zeit. Lache nie ein Kind aus. Sprich das Wort einfach richtig vor. So lernt das Kind."
+        "explanation": "Die Aussprache braucht Zeit. Am besten sprichst du das Wort einfach freundlich richtig vor. Das nennt man korrigierendes Vorsprechen: Das Kind hört die richtige Form, ohne Druck. Strenges Wiederholen-Lassen oder Auslachen macht dem Kind nur Angst und hilft nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Womit fängt das Sprechen an?",
+        "prompt": "🌟 Letzte Frage: Was kommt beim Sprechen-Lernen ganz zuerst?",
         "options": [
-          { "text": "🍼 Mit Lallen: „ba-ba-ba\"", "correct": true },
-          { "text": "📖 Mit langen Geschichten" },
-          { "text": "🎤 Mit einem Vortrag" }
+          {
+            "text": "🍼 Das Lallen: Laute wie „ba-ba-ba\"",
+            "correct": true
+          },
+          {
+            "text": "🎂 Die ersten Wörter wie „Mama\""
+          },
+          {
+            "text": "✌️ Die ersten Zweiwortsätze wie „Mama Ball\""
+          }
         ],
-        "explanation": "Alles beginnt mit dem Lallen. Schritt für Schritt kommen die Wörter dazu."
+        "explanation": "Alles beginnt mit dem Lallen, also mit Lauten wie „ba-ba-ba\". Erst danach kommen die ersten Wörter, und noch später die Zweiwortsätze. Die Reihenfolge ist immer gleich."
       }
     }
   ]

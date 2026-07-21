@@ -21,61 +21,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🩹 Du hast eine kleine Wunde an der Hand. Solltest du sie mit Wasser auswaschen?",
+        "prompt": "🩹 Du hast dich bei der Arbeit leicht in den Finger geschnitten. Die Wunde ist klein und blutet kaum. Wie versorgst du sie richtig?",
         "options": [
-          { "text": "Nein, nur grobe Teile entfernen und steril abdecken.", "correct": true },
-          { "text": "Ja, kräftig mit Seife schrubben." },
-          { "text": "Ja, mit Reiniger putzen." }
+          { "text": "Nur grobe Teile entfernen und die Wunde steril abdecken.", "correct": true },
+          { "text": "Die Wunde mit Wunddesinfektionsmittel ausspülen und dann verbinden." },
+          { "text": "Die Wunde unter fließendem Wasser mit Seife sauber schrubben." }
         ],
-        "explanation": "Eine Wunde wäschst du nicht aus. Du entfernst nur grobe Teile wie einen Splitter. Dann deckst du sie mit einer sauberen, sterilen Auflage ab."
+        "explanation": "Eine kleine Wunde wäschst du nicht aus. Du entfernst nur grobe Teile wie einen Splitter. Dann kommt eine sterile Wundauflage darauf. Sterile Wundauflage heißt: ein sauberer, keimfreier Verband. So kommen keine neuen Keime in die Wunde."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧪 Reiniger spritzt auf deine Haut und brennt. Was tust du zuerst?",
+        "prompt": "🧪 Beim Putzen spritzt dir ein scharfer Reiniger auf den Arm. Die Haut brennt. Was tust du als Erstes?",
         "options": [
           { "text": "Sofort mit viel kaltem Wasser spülen.", "correct": true },
-          { "text": "Eine Creme drauf schmieren." },
-          { "text": "Warten und abwischen." }
+          { "text": "Den Reiniger mit einem trockenen Tuch abwischen und dann eine Salbe auftragen." },
+          { "text": "Die Stelle mit Seife einreiben, um den Reiniger zu neutralisieren." }
         ],
-        "explanation": "Bei einer Verätzung spülst du die Stelle sofort lange mit kaltem Wasser. Das verdünnt den Reiniger und stoppt das Brennen."
+        "explanation": "Das ist eine Verätzung. Verätzung heißt: Die Chemie greift die Haut an. Du spülst die Stelle sofort und lange mit viel kaltem Wasser. Das verdünnt den Reiniger und stoppt den Angriff. Abwischen oder Seife würden den Reiniger nur verteilen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "☠️ Jemand hat aus Versehen ein Putzmittel geschluckt. Wen rufst du zuerst?",
+        "prompt": "☠️ Eine Kollegin hat aus Versehen Putzmittel geschluckt. Wie handelst du richtig?",
         "options": [
-          { "text": "Zuerst den Notarzt, danach die Gift-Notrufzentrale.", "correct": true },
-          { "text": "Nur einen Freund." },
-          { "text": "Niemanden, es geht vorbei." }
+          { "text": "Zuerst den Notarzt rufen, danach die Gift-Notrufzentrale anrufen.", "correct": true },
+          { "text": "Zuerst die Gift-Notrufzentrale anrufen und den Notarzt nur rufen, wenn es schlimmer wird." },
+          { "text": "Ihr sofort viel Wasser geben und sie zum Erbrechen bringen." }
         ],
-        "explanation": "Bei einer Vergiftung rufst du zuerst den Notarzt. Danach rufst du die Gift-Notrufzentrale an. Dort sagen die Fachleute dir, was zu tun ist."
+        "explanation": "Bei einer Vergiftung rufst du zuerst den Notarzt. Danach rufst du die Gift-Notrufzentrale an. Das ist eine Beratungsstelle nur für Gifte. Dort sagen dir Fachleute, was zu tun ist. Erbrechen sollst du nicht selbst auslösen, das kann zusätzlich schaden."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥶 Eine Kollegin ist blass, zittert und hat Schweiß auf der Stirn. Das sind Zeichen für einen Schock. Wie hilfst du?",
+        "prompt": "🥶 Eine Kollegin ist blass, zittert und hat kalten Schweiß auf der Stirn. Das sind Zeichen für einen Schock. Wie hilfst du?",
         "options": [
           { "text": "Beine hochlagern und sofort den Notarzt rufen.", "correct": true },
-          { "text": "Sie aufstehen und herumlaufen lassen." },
-          { "text": "Ihr heißen Kaffee geben." }
+          { "text": "Sie mit erhöhtem Oberkörper hinsetzen und ihr etwas zu trinken geben." },
+          { "text": "Sie warm zudecken und ruhig sitzen lassen, bis es von selbst besser wird." }
         ],
-        "explanation": "Bei einem Schock lagerst du die Beine hoch. So kommt mehr Blut zum Herzen und zum Kopf. Ruf sofort den Notarzt."
+        "explanation": "Bei einem Schock bringst du die Person in die Schocklage. Schocklage heißt: flach hinlegen und die Beine hochlagern. So kommt mehr Blut zum Herzen und zum Kopf. Ruf sofort den Notarzt. Nur zudecken oder Hinsetzen reicht nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😵 Dir wird plötzlich schwindelig und schwarz vor Augen. Was hilft?",
+        "prompt": "😵 Dir wird bei der Arbeit plötzlich schwindelig und schwarz vor Augen. Was hilft am besten?",
         "options": [
           { "text": "Hinlegen und für frische Luft sorgen.", "correct": true },
-          { "text": "Schnell weiterarbeiten." },
-          { "text": "In die Sonne stellen." }
+          { "text": "Sich hinsetzen und den Kopf in den Nacken legen." },
+          { "text": "Kurz stehen bleiben, tief durchatmen und dann weiterarbeiten." }
         ],
-        "explanation": "Bei Schwindel legst du dich am besten hin. Frische Luft tut gut. So kommt der Kreislauf wieder in Schwung."
+        "explanation": "Bei Schwindel legst du dich am besten hin. Das bringt deinen Kreislauf wieder in Schwung. Kreislauf heißt: wie das Blut im Körper fließt. Im Liegen kommt wieder genug Blut in den Kopf. Frische Luft tut gut."
       }
     },
     {
@@ -84,9 +84,9 @@
         "prompt": "🩸 Ein Kollege hat sich tief geschnitten und blutet stark. Bringe die Hilfe in die richtige Reihenfolge.",
         "steps": [
           { "text": "Einmalhandschuhe anziehen." },
+          { "text": "Den verletzten Arm oder das Bein hochhalten." },
           { "text": "Sterilen Druckverband auf die Wunde legen." },
           { "text": "Notruf 112 wählen." },
-          { "text": "Den verletzten Arm oder das Bein hochhalten." },
           { "text": "Beim Kollegen bleiben und ihn beruhigen." }
         ]
       }
@@ -112,13 +112,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧊 Zum Schluss eine leichte Frage: Wie hilfst du bei einer Verätzung durch Reiniger?",
+        "prompt": "🧊 Ein Kollege hat sich Reiniger über die Hand geschüttet. Die Haut ist gerötet. Wie hilfst du bei dieser Verätzung am besten?",
         "options": [
           { "text": "Mit viel kaltem Wasser spülen.", "correct": true },
-          { "text": "Mit warmem Öl einreiben." },
-          { "text": "Gar nichts tun." }
+          { "text": "Kurz mit Wasser abspülen, das reicht schon." },
+          { "text": "Mit lauwarmem Wasser abspülen und danach eine fettende Salbe auftragen." }
         ],
-        "explanation": "Viel kaltes Wasser ist die beste erste Hilfe bei einer Verätzung. Es spült den Reiniger weg und kühlt die Haut."
+        "explanation": "Viel kaltes Wasser und langes Spülen sind die beste erste Hilfe bei einer Verätzung. Verätzung heißt: Die Chemie greift die Haut an. Das Wasser spült den Reiniger weg und kühlt die Haut. Kurz abspülen reicht nicht, und eine Salbe schließt den Reiniger nur ein."
       }
     }
   ]

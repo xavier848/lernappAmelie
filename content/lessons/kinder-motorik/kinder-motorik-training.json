@@ -2,18 +2,26 @@
   "topic_slug": "kinder-motorik",
   "slug": "kinder-motorik-training",
   "title": "Training: Bewegung",
+  "intro": "🏃 In dieser Lektion geht es um die Bewegung von Kindern. Fachleute teilen die Bewegung in zwei Gruppen ein. Grobmotorik sind große Bewegungen mit dem ganzen Körper, zum Beispiel rennen, klettern oder Treppen steigen. Feinmotorik sind kleine, genaue Bewegungen mit den Fingern, zum Beispiel kneten, falten oder einen Stift halten. Kinder lernen diese Bewegungen Schritt für Schritt. Meist gelingt zuerst das Grobe und später das Feine. Darum hält ein kleines Kind den Stift zuerst mit der ganzen Faust. Der feine Griff mit den Fingern kommt erst viele Jahre später. Beim Spielen und Toben üben Kinder ihre Motorik und werden stark. Als Betreuerin bleibst du in der Nähe und lässt das Kind selbst probieren.",
   "sort": 3,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏃 Was ist Grobmotorik?",
+        "prompt": "🏃 Was bedeutet Grobmotorik genau?",
         "options": [
-          { "text": "💪 Große Bewegungen mit dem ganzen Körper. Zum Beispiel rennen und klettern.", "correct": true },
-          { "text": "🤏 Ganz kleine Bewegungen mit den Fingern." },
-          { "text": "🍽️ Das Decken von einem Tisch." }
+          {
+            "text": "💪 Große Bewegungen mit dem ganzen Körper. Zum Beispiel rennen und klettern.",
+            "correct": true
+          },
+          {
+            "text": "🤏 Kleine, genaue Bewegungen mit den Fingern. Das heißt Feinmotorik."
+          },
+          {
+            "text": "🧩 Bewegungen, bei denen Auge und Hand genau zusammen arbeiten."
+          }
         ],
-        "explanation": "Grobmotorik heißt: große Bewegungen. Der ganze Körper macht mit. Zum Beispiel rennen, klettern und hüpfen."
+        "explanation": "Grobmotorik heißt: große Bewegungen mit dem ganzen Körper. Zum Beispiel rennen, klettern und hüpfen. Kleine, genaue Bewegungen mit den Fingern heißen dagegen Feinmotorik."
       }
     },
     {
@@ -21,16 +29,42 @@
       "data": {
         "prompt": "🏃🤏 Große Bewegung oder kleine Bewegung? Sortiere.",
         "buckets": [
-          { "id": "grob", "label": "Grobmotorik", "icon": "🏃" },
-          { "id": "fein", "label": "Feinmotorik", "icon": "🤏" }
+          {
+            "id": "grob",
+            "label": "Grobmotorik",
+            "icon": "🏃"
+          },
+          {
+            "id": "fein",
+            "label": "Feinmotorik",
+            "icon": "🤏"
+          }
         ],
         "items": [
-          { "text": "Treppen steigen", "bucket": "grob" },
-          { "text": "Mit Knete kneten", "bucket": "fein" },
-          { "text": "Dreirad fahren", "bucket": "grob" },
-          { "text": "Papier falten", "bucket": "fein" },
-          { "text": "Ball werfen", "bucket": "grob" },
-          { "text": "Sticker aufkleben", "bucket": "fein" }
+          {
+            "text": "Treppen steigen",
+            "bucket": "grob"
+          },
+          {
+            "text": "Mit Knete kneten",
+            "bucket": "fein"
+          },
+          {
+            "text": "Dreirad fahren",
+            "bucket": "grob"
+          },
+          {
+            "text": "Papier falten",
+            "bucket": "fein"
+          },
+          {
+            "text": "Ball werfen",
+            "bucket": "grob"
+          },
+          {
+            "text": "Sticker aufkleben",
+            "bucket": "fein"
+          }
         ]
       }
     },
@@ -39,10 +73,18 @@
       "data": {
         "prompt": "🪜 Wie lernt ein Kind Treppen steigen? Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🐻 Das Kind krabbelt die Treppe hoch." },
-          { "text": "🤚 Das Kind geht mit Festhalten. Beide Füße auf eine Stufe." },
-          { "text": "🚶 Das Kind geht mit Festhalten. Ein Fuß pro Stufe." },
-          { "text": "🧍 Das Kind geht die Treppe frei. Ohne Festhalten." }
+          {
+            "text": "🐻 Das Kind krabbelt die Treppe hoch."
+          },
+          {
+            "text": "🤚 Das Kind geht mit Festhalten. Beide Füße auf eine Stufe."
+          },
+          {
+            "text": "🚶 Das Kind geht mit Festhalten. Ein Fuß pro Stufe."
+          },
+          {
+            "text": "🧍 Das Kind geht die Treppe frei. Ohne Festhalten."
+          }
         ]
       }
     },
@@ -51,10 +93,18 @@
       "data": {
         "prompt": "⚽ Was lernt ein Kind mit dem Ball zuerst? Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🎳 Den Ball rollen." },
-          { "text": "🤾 Den Ball werfen." },
-          { "text": "🦶 Den Ball kicken." },
-          { "text": "🙌 Den Ball fangen." }
+          {
+            "text": "🎳 Den Ball rollen."
+          },
+          {
+            "text": "🤾 Den Ball werfen."
+          },
+          {
+            "text": "🦶 Den Ball kicken."
+          },
+          {
+            "text": "🙌 Den Ball fangen."
+          }
         ]
       }
     },
@@ -63,10 +113,38 @@
       "data": {
         "prompt": "🎯 Was übt das Kind dabei? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🚲 Laufrad fahren" }, "right": { "text": "Das Gleichgewicht halten" } },
-          { "left": { "text": "🧗 Klettergerüst" }, "right": { "text": "Arme und Beine stark machen" } },
-          { "left": { "text": "🤲 Kneten" }, "right": { "text": "Hände und Finger üben" } },
-          { "left": { "text": "🥁 Trommeln" }, "right": { "text": "Beide Hände zusammen benutzen" } }
+          {
+            "left": {
+              "text": "🚲 Laufrad fahren"
+            },
+            "right": {
+              "text": "Das Gleichgewicht halten"
+            }
+          },
+          {
+            "left": {
+              "text": "🧗 Klettergerüst"
+            },
+            "right": {
+              "text": "Arme und Beine stark machen"
+            }
+          },
+          {
+            "left": {
+              "text": "🤲 Kneten"
+            },
+            "right": {
+              "text": "Hände und Finger üben"
+            }
+          },
+          {
+            "left": {
+              "text": "🥁 Trommeln"
+            },
+            "right": {
+              "text": "Beide Hände zusammen benutzen"
+            }
+          }
         ],
         "memory": false
       }
@@ -76,23 +154,37 @@
       "data": {
         "prompt": "🖍️ Ein kleines Kind malt zum ersten Mal. Wie hält es den Stift?",
         "options": [
-          { "text": "✊ Mit der ganzen Faust.", "correct": true },
-          { "text": "✍️ Mit drei Fingern, wie Erwachsene." },
-          { "text": "🦶 Mit den Zehen." }
+          {
+            "text": "✊ Mit der ganzen Faust.",
+            "correct": true
+          },
+          {
+            "text": "✍️ Mit drei Fingern, wie ein Erwachsener beim Schreiben."
+          },
+          {
+            "text": "🤏 Mit Daumen und Zeigefinger, wie eine Pinzette."
+          }
         ],
-        "explanation": "Kleine Kinder halten den Stift zuerst mit der Faust. Der Griff mit drei Fingern kommt erst später."
+        "explanation": "Ganz kleine Kinder halten den Stift zuerst mit der ganzen Faust. Das nennt man Faustgriff. Der feine Griff mit den Fingern kommt erst viele Jahre später."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛝 Ein Kind klettert auf dem Spielplatz. Was machst du?",
+        "prompt": "🛝 Ein Kind klettert auf dem Spielplatz und schafft es fast allein. Was machst du?",
         "options": [
-          { "text": "👀 Ich bleibe in der Nähe und passe auf.", "correct": true },
-          { "text": "📱 Ich schaue nur auf mein Handy." },
-          { "text": "🏠 Ich gehe nach Hause." }
+          {
+            "text": "👀 Ich bleibe in der Nähe und passe auf.",
+            "correct": true
+          },
+          {
+            "text": "🧗 Ich halte das Kind die ganze Zeit fest, damit nichts passiert."
+          },
+          {
+            "text": "📱 Ich setze mich weg und schaue nur auf mein Handy."
+          }
         ],
-        "explanation": "Bleib in der Nähe. So kannst du helfen, wenn das Kind Hilfe braucht. Lass das Kind aber selbst probieren."
+        "explanation": "Bleib in der Nähe und pass auf. So kannst du schnell helfen, wenn das Kind Hilfe braucht. Lass das Kind aber selbst probieren. Immer festhalten nimmt dem Kind das Üben weg."
       }
     },
     {
@@ -100,11 +192,18 @@
       "data": {
         "prompt": "🤸 Warum ist Toben und Bewegen wichtig für Kinder?",
         "options": [
-          { "text": "💪 Bewegung macht den Körper stark und das Kind froh.", "correct": true },
-          { "text": "🛋️ Sitzen ist besser als Bewegen." },
-          { "text": "📺 Bewegung ist nur für Erwachsene." }
+          {
+            "text": "💪 Bewegung macht den Körper stark und das Kind froh.",
+            "correct": true
+          },
+          {
+            "text": "😴 Bewegung ist nur wichtig, damit das Kind abends müde ist."
+          },
+          {
+            "text": "⚽ Bewegung ist nur wichtig, wenn ein Kind später Sportler werden will."
+          }
         ],
-        "explanation": "Bewegung macht stark und froh. Kinder brauchen jeden Tag viel Bewegung."
+        "explanation": "Bewegung macht den Körper stark und das Kind froh. Beim Toben übt das Kind auch seine Grobmotorik. Darum brauchen alle Kinder jeden Tag viel Bewegung, nicht nur später beim Sport."
       }
     },
     {
@@ -112,9 +211,16 @@
       "data": {
         "prompt": "🌟 Letzte Frage, ganz leicht: Womit kickst du einen Ball?",
         "options": [
-          { "text": "🦶 Mit dem Fuß.", "correct": true },
-          { "text": "👂 Mit dem Ohr." },
-          { "text": "👃 Mit der Nase." }
+          {
+            "text": "🦶 Mit dem Fuß.",
+            "correct": true
+          },
+          {
+            "text": "👂 Mit dem Ohr."
+          },
+          {
+            "text": "👃 Mit der Nase."
+          }
         ],
         "explanation": "Den Ball kickst du mit dem Fuß."
       }

@@ -1,0 +1,154 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-problemen-helpen",
+  "title": "Probleme & Hilfe",
+  "sort": 8,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: De verwarming in de slaapkamer doet het al de hele dag niet. 🥶 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Die Heizung im Schlafzimmer funktioniert schon den ganzen Tag nicht.", "correct": true },
+          { "text": "Die Heizung im Schlafzimmer läuft den ganzen Tag auf höchster Stufe." },
+          { "text": "Das Schlafzimmer wird erst am Abend geheizt." },
+          { "text": "Die Heizung im Schlafzimmer war gestern kurz aus." }
+        ],
+        "explanation": "Doet het niet heißt: funktioniert nicht. Al de hele dag heißt: schon den ganzen Tag. Der Gast meldet also ein Heizungs-Problem, das schon lange dauert."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste melden Probleme: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "De verwarming doet het niet." }, "right": { "text": "Die Heizung funktioniert nicht." } },
+          { "left": { "text": "Er komt geen warm water uit de kraan. 🚿" }, "right": { "text": "Aus dem Wasserhahn kommt kein warmes Wasser." } },
+          { "left": { "text": "De lamp in de gang is kapot. 💡" }, "right": { "text": "Die Lampe im Flur ist kaputt." } },
+          { "left": { "text": "De vaatwasser maakt een vreemd geluid." }, "right": { "text": "Die Spülmaschine macht ein seltsames Geräusch." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: Er is geen warm water in de badkamer. 🚿 Du willst dich entschuldigen und das Problem sofort lösen. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Het spijt me, ik regel het meteen voor u.", "correct": true },
+          { "text": "Het spijt me, dat kan ik pas volgende week regelen." },
+          { "text": "Het spijt me, maar warm water is er alleen 's ochtends." }
+        ],
+        "explanation": "Het spijt me heißt: Es tut mir leid. Ik regel het meteen voor u heißt: Ich kümmere mich sofort für Sie darum. So zeigst du: Du nimmst das Problem ernst und handelst schnell."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage der Gäste: Können wir zusätzliche Handtücher bekommen? 🛁",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Kunnen" },
+          { "text": "wij" },
+          { "text": "extra" },
+          { "text": "handdoeken" },
+          { "text": "krijgen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Zou u ons misschien wat extra dekens en handdoeken kunnen brengen? Was möchte der Gast?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Er möchte zusätzliche Decken und Handtücher bekommen.", "correct": true },
+          { "text": "Er möchte die gebrauchten Handtücher zurückgeben." },
+          { "text": "Er fragt, wo die Decken im Schrank liegen." },
+          { "text": "Er möchte wissen, wann die Handtücher gewechselt werden." }
+        ],
+        "explanation": "Zou u ... kunnen brengen? ist eine sehr höfliche Bitte: Könnten Sie ... bringen? Extra dekens en handdoeken heißt: zusätzliche Decken und Handtücher."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich regle das sofort für Sie. 🛠️",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "regel" },
+          { "text": "het" },
+          { "text": "meteen" },
+          { "text": "voor u" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Meldet der Gast ein Problem oder bietest du eine Lösung an? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "problem", "label": "Problem", "icon": "⚠️" },
+          { "id": "loesung", "label": "Lösung", "icon": "🛠️" }
+        ],
+        "items": [
+          { "text": "De verwarming doet het niet.", "bucket": "problem" },
+          { "text": "Het spijt me, ik regel het meteen.", "bucket": "loesung" },
+          { "text": "Er is geen warm water.", "bucket": "problem" },
+          { "text": "Ik breng u direct nieuwe handdoeken.", "bucket": "loesung" },
+          { "text": "De lamp is kapot.", "bucket": "problem" },
+          { "text": "Ik stuur vandaag nog een monteur langs.", "bucket": "loesung" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast meldet: De lamp in de woonkamer is kapot. 💡 Du willst sagen: Kein Problem, ich tausche die kaputte Lampe noch heute aus. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Geen probleem, ik vervang de kapotte lamp vandaag nog.", "correct": true },
+          { "text": "Geen probleem, ik vervang de lamp pas na uw vertrek." },
+          { "text": "Geen probleem, de lamp in de keuken doet het ook niet." }
+        ],
+        "explanation": "Ik vervang heißt: Ich tausche aus. Vandaag nog heißt: noch heute. Damit weiß der Gast: Das Problem wird schnell gelöst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Es tut mir sehr leid.",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Het" },
+          { "text": "spijt" },
+          { "text": "me" },
+          { "text": "heel" },
+          { "text": "erg" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie hilfst du auf Niederländisch? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Es tut mir leid, ich kümmere mich sofort darum." }, "right": { "text": "Het spijt me, ik regel het meteen." } },
+          { "left": { "text": "Ich bringe Ihnen gleich neue Handtücher. 🛁" }, "right": { "text": "Ik breng u direct nieuwe handdoeken." } },
+          { "left": { "text": "Ich schicke heute noch einen Handwerker vorbei." }, "right": { "text": "Ik stuur vandaag nog een monteur langs." } },
+          { "left": { "text": "Ich schaue es mir gleich einmal an." }, "right": { "text": "Ik kom er zo even naar kijken." } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

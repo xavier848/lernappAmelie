@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📋 Eine Kollegin schneidet sich leicht in den Finger. Muss dieser kleine Unfall aufgeschrieben werden?",
+        "prompt": "📋 Eine Kollegin schneidet sich leicht in den Finger und arbeitet danach normal weiter. Muss dieser kleine Unfall trotzdem ins Verbandbuch?",
         "options": [
           { "text": "Ja, jeder Unfall wird aufgeschrieben.", "correct": true },
-          { "text": "Nein, nur schwere Unfälle." },
-          { "text": "Nur wenn sie danach fehlt." }
+          { "text": "Nein, erst wenn sie deswegen zum Arzt muss." },
+          { "text": "Nein, erst wenn sie länger als 3 Tage ausfällt." }
         ],
-        "explanation": "Jede Verletzung im Betrieb wird aufgeschrieben. Auch kleine. Egal, ob die Kollegin danach weiterarbeitet oder nicht."
+        "explanation": "Jede Verletzung im Betrieb kommt ins Verbandbuch – auch kleine. Das Verbandbuch ist das Heft, in dem jeder Unfall festgehalten wird. Es zählt nicht, ob die Kollegin weiterarbeitet oder zum Arzt geht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗄️ Wie lange muss der Betrieb die Papiere zu einem Unfall aufheben?",
+        "prompt": "🗄️ Wie lange muss der Betrieb die Unterlagen zu einem Unfall mindestens aufbewahren?",
         "options": [
           { "text": "5 Jahre", "correct": true },
-          { "text": "5 Wochen" },
-          { "text": "Nur bis zum nächsten Tag" }
+          { "text": "1 Jahr" },
+          { "text": "10 Jahre" }
         ],
-        "explanation": "Die Papiere zu einem Unfall werden 5 Jahre aufbewahrt. So kann man auch später noch nachschauen, was passiert ist."
+        "explanation": "Die Unterlagen zu einem Unfall werden mindestens 5 Jahre aufbewahrt. So kann man auch Jahre später noch nachschauen, was passiert ist."
       }
     },
     {
@@ -43,25 +43,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏢 Beim Melden von Unfällen hilft die DGUV. Was ist die DGUV?",
+        "prompt": "🏢 Du brauchst Vordrucke für die Unfall-Meldung. Diese gibt die DGUV heraus. Wofür steht die Abkürzung DGUV?",
         "options": [
           { "text": "Die Deutsche Gesetzliche Unfallversicherung.", "correct": true },
-          { "text": "Ein Reinigungsmittel." },
-          { "text": "Ein Küchengerät." }
+          { "text": "Die Deutsche Gruppe für Umwelt und Verkehr." },
+          { "text": "Die Dienststelle für Gewerbe und Verwaltung." }
         ],
-        "explanation": "DGUV ist die Abkürzung für Deutsche Gesetzliche Unfallversicherung. Dort gibt es das Verbandbuch und den Meldeblock für Unfälle."
+        "explanation": "DGUV steht für Deutsche Gesetzliche Unfallversicherung. Sie ist der Dachverband der Berufsgenossenschaften und gibt zum Beispiel das Verbandbuch und den Meldeblock heraus."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚑 Ein Kollege ist nach einem Arbeitsunfall länger als 3 Tage krank. Was muss der Betrieb tun?",
+        "prompt": "🚑 Ein Kollege ist nach einem Arbeitsunfall länger als 3 Tage arbeitsunfähig. Der Unfall steht schon im Verbandbuch. Was muss der Betrieb jetzt zusätzlich tun?",
         "options": [
           { "text": "Den Unfall der Berufsgenossenschaft melden.", "correct": true },
-          { "text": "Gar nichts weiter." },
-          { "text": "Der Kollege zahlt den Schaden selbst." }
+          { "text": "Nur den Eintrag im Verbandbuch machen – mehr ist nicht nötig." },
+          { "text": "Nichts – das erledigt die Krankenkasse von allein." }
         ],
-        "explanation": "Ist jemand nach einem Arbeitsunfall mehr als 3 Tage arbeitsunfähig, muss der Betrieb das melden. Diese Meldung heißt Unfallanzeige und geht an die Berufsgenossenschaft."
+        "explanation": "Ist jemand nach einem Arbeitsunfall mehr als 3 Tage arbeitsunfähig, muss der Betrieb das der Berufsgenossenschaft melden. Diese Meldung heißt Unfallanzeige. Der Eintrag im Verbandbuch allein reicht dann nicht."
       }
     },
     {
@@ -85,35 +85,35 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👷 In einem Betrieb arbeiten 15 Menschen. Wie viele Ersthelfer braucht er mindestens?",
+        "prompt": "👷 In einem Betrieb arbeiten 15 Menschen. Wie viele ausgebildete Ersthelfer braucht er mindestens?",
         "options": [
           { "text": "1 Ersthelfer.", "correct": true },
-          { "text": "15 Ersthelfer." },
-          { "text": "Keinen." }
+          { "text": "2 Ersthelfer." },
+          { "text": "5 Ersthelfer." }
         ],
-        "explanation": "Bis 20 Beschäftigte reicht 1 ausgebildeter Ersthelfer. In größeren Betrieben müssen mehr Menschen einen Ersthelfer-Kurs machen."
+        "explanation": "Bis 20 Beschäftigte reicht 1 ausgebildeter Ersthelfer. Ein Ersthelfer ist eine Person mit Erste-Hilfe-Kurs. In größeren Betrieben müssen mehr Menschen so einen Kurs machen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔒 Im Verbandbuch stehen Namen und Verletzungen. Wie wird es aufbewahrt?",
+        "prompt": "🔒 Im Verbandbuch stehen Namen und Verletzungen der Kollegen. Wie muss es deshalb aufbewahrt werden?",
         "options": [
-          { "text": "Verschlossen, nur bestimmte Personen dürfen hinein.", "correct": true },
-          { "text": "Offen für alle auf dem Tisch." },
-          { "text": "Im Müll." }
+          { "text": "Verschlossen – nur bestimmte Personen dürfen hineinschauen.", "correct": true },
+          { "text": "Offen am schwarzen Brett, damit jeder Bescheid weiß." },
+          { "text": "Frei am Empfang, damit Besucher es lesen können." }
         ],
-        "explanation": "Im Verbandbuch stehen persönliche Daten. Die sind geschützt. Darum wird es verschlossen aufbewahrt. Nur bestimmte Personen dürfen es lesen."
+        "explanation": "Im Verbandbuch stehen persönliche Daten. Die schützt der Datenschutz. Darum wird das Verbandbuch verschlossen aufbewahrt. Nur bestimmte Personen dürfen es lesen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Zum Schluss: Wird ein kleiner Schnitt im Finger auch aufgeschrieben?",
+        "prompt": "✅ Zum Schluss: Kommt auch ein kleiner Schnitt im Finger ins Verbandbuch?",
         "options": [
           { "text": "Ja, jeder Unfall kommt ins Verbandbuch.", "correct": true },
-          { "text": "Nein, das lohnt sich nicht." },
-          { "text": "Nur wenn es stark blutet." }
+          { "text": "Nein, kleine Schnitte sagt man nur kurz dem Chef." },
+          { "text": "Nur, wenn ein Pflaster allein nicht mehr reicht." }
         ],
         "explanation": "Auch ein kleiner Schnitt kommt ins Verbandbuch. So ist jeder Unfall festgehalten. Das schützt dich und den Betrieb."
       }

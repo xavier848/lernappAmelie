@@ -38,25 +38,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "♻️ Seit wann gibt es das Duale System in Deutschland?",
+        "prompt": "♻️ Seit welchem Jahr gibt es in Deutschland das Duale System für Verpackungen?",
         "options": [
           { "text": "Seit 1990.", "correct": true },
-          { "text": "Seit 1950." },
-          { "text": "Seit 2015." }
+          { "text": "Seit 1975." },
+          { "text": "Seit 1995." }
         ],
-        "explanation": "Das Duale System gibt es seit 1990. Es sammelt und verwertet gebrauchte Verpackungen. Es arbeitet neben der Müllabfuhr der Gemeinde."
+        "explanation": "Das Duale System gibt es seit 1990. Dual heißt: zwei Systeme arbeiten nebeneinander. Neben der Müllabfuhr der Gemeinde sammelt und verwertet es gebrauchte Verpackungen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🟢 Auf einer Verpackung ist der Grüne Punkt. Was heißt das?",
+        "prompt": "🟢 Du siehst auf einer Verpackung den Grünen Punkt. Was sagt dir dieses Zeichen?",
         "options": [
           { "text": "Die Firma zahlt für das Duale System. Die Verpackung darf in den gelben Sack.", "correct": true },
-          { "text": "Die Verpackung ist aus Glas." },
-          { "text": "Die Verpackung ist giftig." }
+          { "text": "Die Verpackung ist ganz aus Recycling-Material gemacht." },
+          { "text": "Man bekommt die Verpackung im Laden gegen Pfand zurück." }
         ],
-        "explanation": "Der Grüne Punkt zeigt: Die Firma hat für die Entsorgung bezahlt. Solche Verpackungen kommen in den gelben Sack oder die gelbe Tonne."
+        "explanation": "Der Grüne Punkt zeigt nur eins: Die Firma hat eine Lizenz-Gebühr für die Entsorgung bezahlt. Er sagt nichts darüber aus, woraus die Verpackung ist. Solche Verpackungen kommen in den gelben Sack oder die gelbe Tonne."
       }
     },
     {
@@ -74,13 +74,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💶 Wer bezahlt am Ende für die Entsorgung der Verpackungen?",
+        "prompt": "💶 Die Firma zahlt eine Lizenz-Gebühr an das Duale System. Wer trägt am Ende diese Kosten?",
         "options": [
           { "text": "Alle Käufer. Die Kosten stecken schon im Preis der Ware.", "correct": true },
-          { "text": "Nur der Staat." },
-          { "text": "Niemand, es ist gratis." }
+          { "text": "Nur der Hersteller. Die Lizenz-Kosten bleiben bei der Firma." },
+          { "text": "Die Gemeinde über die Abfallgebühren." }
         ],
-        "explanation": "Die Firma legt die Lizenzkosten auf den Preis um. Beim Einkauf an der Kasse zahlst du sie also mit."
+        "explanation": "Die Firma legt die Lizenzkosten auf den Verkaufspreis um. An der Kasse zahlst du sie also mit. Am Ende tragen die Kosten die Käufer."
       }
     },
     {
@@ -89,52 +89,51 @@
         "prompt": "🍲 Speisereste kommen je nach Art in eine andere Tonne. Sortiere.",
         "buckets": [
           { "id": "bio", "label": "Biotonne", "icon": "🟤" },
-          { "id": "drang", "label": "Drangtonne", "icon": "🔒" },
-          { "id": "sonder", "label": "Sondermüll", "icon": "⚠️" }
+          { "id": "restmuell", "label": "Restmülltonne", "icon": "⚫" }
         ],
         "items": [
-          { "text": "Kartoffelschalen", "bucket": "bio" },
-          { "text": "Salatreste ohne Fleisch", "bucket": "bio" },
-          { "text": "Reste mit Fleisch", "bucket": "drang" },
-          { "text": "Knochen und Wurst", "bucket": "drang" },
-          { "text": "Altes Fett aus der Fritteuse", "bucket": "sonder" }
+          { "text": "Rohe Kartoffelschalen", "bucket": "bio" },
+          { "text": "Salatreste ohne Soße", "bucket": "bio" },
+          { "text": "Gekochte Reste mit Fleisch", "bucket": "restmuell" },
+          { "text": "Knochen und Wurst", "bucket": "restmuell" },
+          { "text": "Kleine Menge altes Fett, fest im Becher", "bucket": "restmuell" }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛢️ Wohin gehört altes Fett aus der Fritteuse?",
+        "prompt": "🛢️ Nach dem Frittieren ist eine kleine Menge altes Fett übrig. Wohin gehört es?",
         "options": [
-          { "text": "In den Sondermüll. Es wird getrennt gelagert.", "correct": true },
-          { "text": "In den normalen Abfluss." },
-          { "text": "In die Papiertonne." }
+          { "text": "In den Restmüll, fest geworden und gut verschlossen im Becher.", "correct": true },
+          { "text": "In die Biotonne, weil Fett aus Lebensmitteln stammt." },
+          { "text": "In den Sondermüll, weil es getrennt gelagert werden muss." }
         ],
-        "explanation": "Altfette sind Sondermüll. Man lagert sie getrennt und gibt sie nicht in den Ausguss. Sonst verstopfen die Rohre."
+        "explanation": "Kleine Mengen Altfett kommen fest geworden und gut verschlossen in den Restmüll. In die Biotonne gehören sie nicht, weil Fett sich dort nicht zersetzt. Sondermüll sind Speisefette auch nicht. Große Mengen bringt man zum Wertstoffhof. In den Ausguss darf Fett nie, sonst verstopfen die Rohre."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧾 Wovon hängt die Höhe der Abfallgebühren ab?",
+        "prompt": "🧾 Deine Familie will bei den Abfallgebühren sparen. Wovon hängt die Höhe dieser Gebühren ab?",
         "options": [
           { "text": "Von der Größe der Tonne, wie oft geleert wird und von der Abfallart.", "correct": true },
-          { "text": "Vom Wetter." },
-          { "text": "Von der Farbe der Hauswand." }
+          { "text": "Allein von der Zahl der Personen im Haushalt." },
+          { "text": "Vom Einkommen der Bewohner." }
         ],
-        "explanation": "Die Gebühren richten sich unter anderem nach der Behältergröße, der Häufigkeit der Leerung und der Art des Abfalls."
+        "explanation": "Die Gebühren richten sich unter anderem nach der Behältergröße, der Häufigkeit der Leerung und der Art des Abfalls. Wer weniger und kleiner sammelt, zahlt oft weniger."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔵 Welche Farbe hat die Tonne für Papier?",
+        "prompt": "🗞️ Du willst alte Zeitungen und Kartons wegwerfen. Welche Farbe hat die richtige Tonne?",
         "options": [
           { "text": "Blau.", "correct": true },
           { "text": "Gelb." },
           { "text": "Braun." }
         ],
-        "explanation": "Papier kommt in die blaue Tonne. Zum Beispiel Zeitungen, Kartons und Prospekte."
+        "explanation": "Papier kommt in die blaue Tonne. Zum Beispiel Zeitungen, Kartons und Prospekte. Die gelbe Tonne ist für Verpackungen, die braune für Bioabfall."
       }
     }
   ]

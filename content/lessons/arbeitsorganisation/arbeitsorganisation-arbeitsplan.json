@@ -19,25 +19,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Mit welcher Speise fängst du beim Kochen an?",
+        "prompt": "⏱️ Du kochst mehrere Speisen für ein Menü. Womit fängst du an, damit am Ende alles gleichzeitig fertig ist?",
         "options": [
-          { "text": "Mit der Speise, die am längsten garen muss.", "correct": true },
-          { "text": "Mit der Speise, die am schnellsten fertig ist." },
-          { "text": "Mit der Nachspeise." }
+          { "text": "Mit der Speise, die die längste Garzeit hat.", "correct": true },
+          { "text": "Mit der Speise, die die kürzeste Garzeit hat." },
+          { "text": "Mit der Nachspeise, die kommt ja zuletzt auf den Tisch." }
         ],
-        "explanation": "Du beginnst mit der längsten Garzeit. So werden am Ende alle Speisen zur gleichen Zeit fertig."
+        "explanation": "Die Garzeit ist die Zeit, die eine Speise zum Garen braucht. Du beginnst mit der längsten Garzeit. So werden am Ende alle Speisen zur gleichen Zeit fertig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📖 Was machst du ganz zuerst, bevor du mit dem Kochen loslegst?",
+        "prompt": "📖 Was ist der allererste Schritt, bevor du mit dem Kochen loslegst?",
         "options": [
           { "text": "Die Rezepte genau durchlesen.", "correct": true },
-          { "text": "Sofort das Fleisch anbraten." },
-          { "text": "Den Tisch decken." }
+          { "text": "Die Zutaten bereitstellen und abwiegen." },
+          { "text": "Den Arbeitsplatz einrichten." }
         ],
-        "explanation": "Erst liest du die Rezepte durch. Dann weißt du, welche Zutaten und Schritte du brauchst."
+        "explanation": "Zuerst liest du die Rezepte. Erst dann weißt du, welche Zutaten und welche Schritte du brauchst. Zutaten bereitstellen und Arbeitsplatz einrichten kommen erst danach."
       }
     },
     {
@@ -64,9 +64,9 @@
         "prompt": "🍳 Jetzt geht es ans Kochen. Bringe die Schritte in eine sinnvolle Reihenfolge.",
         "steps": [
           { "text": "⏱️ Mit der Speise mit der längsten Garzeit anfangen." },
-          { "text": "🍗 Das Fleisch in Streifen schneiden und anbraten." },
           { "text": "🥔 Den Kartoffelbrei zubereiten." },
           { "text": "🍽️ Die Wartezeit zum Tischdecken nutzen." },
+          { "text": "🍗 Das Fleisch in Streifen schneiden und anbraten." },
           { "text": "🥗 Den Kopfsalat als Letztes anmachen." }
         ]
       }
@@ -74,61 +74,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Wann machst du den Salat?",
+        "prompt": "🥗 Wann machst du den Salat an?",
         "options": [
-          { "text": "Ganz zum Schluss.", "correct": true },
-          { "text": "Ganz am Anfang." },
-          { "text": "Bevor du die Rezepte liest." }
+          { "text": "Ganz zum Schluss, kurz vor dem Servieren.", "correct": true },
+          { "text": "Ganz am Anfang, damit die Marinade gut durchzieht." },
+          { "text": "Direkt nachdem du das Fleisch angebraten hast." }
         ],
-        "explanation": "Den Salat machst du zuletzt an. Sonst wird die Marinade wässrig und der Salat welk."
+        "explanation": "Den Salat machst du zuletzt an. Machst du ihn zu früh an, zieht die Marinade Wasser aus den Blättern und der Salat wird welk."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "➡️ Wie richtest du als Rechtshänder deinen Arbeitsplatz ein?",
+        "prompt": "➡️ Du bist Rechtshänder. In welche Richtung richtest du deinen Arbeitsplatz ein?",
         "options": [
-          { "text": "Von rechts nach links, so kreuzen sich die Hände nicht.", "correct": true },
-          { "text": "Von links nach rechts, quer über den Körper." },
-          { "text": "Alles auf einen Haufen." }
+          { "text": "Von rechts nach links, damit sich die Arme nicht kreuzen.", "correct": true },
+          { "text": "Von links nach rechts, so wie in Leserichtung." },
+          { "text": "Von links nach rechts, weil die rechte Hand ja rechts arbeitet." }
         ],
-        "explanation": "Als Rechtshänder arbeitest du von rechts nach links. So musst du die Arme nicht kreuzen und arbeitest sicherer."
+        "explanation": "Als Rechtshänder arbeitest du von rechts nach links. So musst du die Arme nicht über dem Körper kreuzen. Das ist sicherer und du arbeitest schneller."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍽️ Was machst du klug, während eine Speise gart?",
+        "prompt": "🍽️ Eine Speise gart auf dem Herd und braucht noch etwas Zeit. Was machst du klug in dieser Wartezeit?",
         "options": [
-          { "text": "Die Wartezeit nutzen, zum Beispiel den Tisch decken.", "correct": true },
-          { "text": "Nur danebenstehen und warten." },
-          { "text": "Schon das Essen austeilen." }
+          { "text": "Die Wartezeit nutzen und schon den Tisch decken.", "correct": true },
+          { "text": "Neben dem Herd warten, bis die Speise fertig ist." },
+          { "text": "Schon den Salat anmachen, dann ist der fertig." }
         ],
-        "explanation": "Die Garzeit nutzt du für andere Arbeiten wie das Tischdecken. So sparst du Zeit."
+        "explanation": "Die Wartezeit nutzt du für andere Arbeiten, zum Beispiel das Tischdecken. So arbeitest du parallel, machst also mehrere Dinge in der gleichen Zeit, und sparst Zeit. Den Salat machst du aber trotzdem erst zum Schluss an."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔄 Bei der Kopfstandmethode stehen die Aussagen zuerst falsch da. Was machst du damit?",
+        "prompt": "🔄 Bei der Kopfstandmethode stehen alle Aussagen absichtlich verkehrt herum da. Wie arbeitest du damit?",
         "options": [
-          { "text": "Ich drehe jede Aussage ins Richtige um.", "correct": true },
-          { "text": "Ich lasse sie einfach falsch stehen." },
-          { "text": "Ich streiche alle durch." }
+          { "text": "Ich drehe jede Aussage ins Gegenteil um, dann stimmt sie.", "correct": true },
+          { "text": "Ich suche die eine Aussage heraus, die zufällig doch schon stimmt." },
+          { "text": "Ich lasse die Aussagen stehen und merke sie mir so, wie sie sind." }
         ],
-        "explanation": "Bei der Kopfstandmethode sind die Sätze absichtlich verkehrt. Du drehst jeden Satz um, dann stimmt er wieder."
+        "explanation": "Die Kopfstandmethode ist ein Trick: Man schreibt alle Sätze zuerst absichtlich falsch auf. Deine Aufgabe ist, jeden Satz ins Gegenteil zu drehen. Dann stimmt er wieder."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗂️ In welcher groben Reihenfolge arbeitest du?",
+        "prompt": "🗂️ In welcher groben Reihenfolge läuft dein Arbeitsablauf ab?",
         "options": [
           { "text": "Erst vorbereiten, dann kochen, dann nacharbeiten.", "correct": true },
-          { "text": "Erst nacharbeiten, dann kochen." },
-          { "text": "Alles gleichzeitig." }
+          { "text": "Erst kochen, dann vorbereiten, dann nacharbeiten." },
+          { "text": "Erst vorbereiten, dann nacharbeiten, dann kochen." }
         ],
-        "explanation": "Der Ablauf ist immer gleich: zuerst vorbereiten, dann die Hauptarbeit (kochen), zum Schluss die Nacharbeiten."
+        "explanation": "Diese feste Reihenfolge nennt man den Arbeitsablauf: zuerst vorbereiten, dann die Hauptarbeit (kochen), zum Schluss die Nacharbeiten wie Abwaschen und Aufräumen."
       }
     }
   ]

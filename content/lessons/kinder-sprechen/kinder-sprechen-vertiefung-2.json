@@ -2,18 +2,26 @@
   "topic_slug": "kinder-sprechen",
   "slug": "kinder-sprechen-vertiefung-2",
   "title": "Offene Ohren, gute Fragen",
+  "intro": "👂 In dieser Lektion lernst du, wie du gut mit Kindern sprichst. Eine offene Frage beginnt oft mit „Was“, „Wie“ oder „Wer“. Darauf kann ein Kind viel erzählen und übt so neue Wörter. Eine geschlossene Frage lässt nur „Ja“ oder „Nein“ zu. Eine Suggestivfrage gibt die Antwort schon vor, zum Beispiel „Das war schön, oder?“. Beim aktiven Zuhören wiederholst du mit eigenen Worten, was das Kind erzählt hat. So merkt das Kind, dass du wirklich zugehört hast. Gib dem Kind auch Zeit zum Antworten. Diese Pause nennt man Wartezeit. Schau das Kind freundlich an und leg das Handy weg.",
   "sort": 4,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❓ Was ist eine offene Frage?",
+        "prompt": "❓ Was ist typisch für eine offene Frage?",
         "options": [
-          { "text": "💬 Eine Frage, auf die das Kind viel erzählen kann. Zum Beispiel: „Was hast du gebaut?“", "correct": true },
-          { "text": "✅ Eine Frage, auf die man nur Ja oder Nein sagen kann." },
-          { "text": "🚪 Eine Frage bei offener Tür." }
+          {
+            "text": "💬 Eine Frage, auf die das Kind viel erzählen kann. Zum Beispiel: „Was hast du gebaut?“",
+            "correct": true
+          },
+          {
+            "text": "🔒 Eine Frage, auf die man nur „Ja“ oder „Nein“ antworten kann."
+          },
+          {
+            "text": "🙋 Eine Frage, die die Antwort schon vorgibt. Zum Beispiel: „Das war schön, oder?“"
+          }
         ],
-        "explanation": "Offene Fragen beginnen oft mit „Was“, „Wie“ oder „Wer“. Das Kind kann frei erzählen. So übt es das Sprechen."
+        "explanation": "Offene Fragen beginnen oft mit „Was“, „Wie“ oder „Wer“. Das Kind kann frei erzählen. Eine geschlossene Frage lässt nur „Ja“ oder „Nein“ zu. Eine Suggestivfrage gibt die Antwort schon vor. Beide bringen das Kind weniger zum Reden."
       }
     },
     {
@@ -21,16 +29,42 @@
       "data": {
         "prompt": "🧺 Sortiere die Fragen: offen oder geschlossen?",
         "buckets": [
-          { "id": "offen", "label": "Offene Frage", "icon": "💬" },
-          { "id": "geschlossen", "label": "Geschlossene Frage", "icon": "✅" }
+          {
+            "id": "offen",
+            "label": "Offene Frage",
+            "icon": "💬"
+          },
+          {
+            "id": "geschlossen",
+            "label": "Geschlossene Frage",
+            "icon": "✅"
+          }
         ],
         "items": [
-          { "text": "„Was hast du heute gespielt?“", "bucket": "offen" },
-          { "text": "„Wie war der Ausflug?“", "bucket": "offen" },
-          { "text": "„Wer war alles dabei?“", "bucket": "offen" },
-          { "text": "„War es schön?“", "bucket": "geschlossen" },
-          { "text": "„Magst du Nudeln?“", "bucket": "geschlossen" },
-          { "text": "„Hast du gemalt?“", "bucket": "geschlossen" }
+          {
+            "text": "„Was hast du heute gespielt?“",
+            "bucket": "offen"
+          },
+          {
+            "text": "„Wie war der Ausflug?“",
+            "bucket": "offen"
+          },
+          {
+            "text": "„Wer war alles dabei?“",
+            "bucket": "offen"
+          },
+          {
+            "text": "„War es schön?“",
+            "bucket": "geschlossen"
+          },
+          {
+            "text": "„Magst du Nudeln?“",
+            "bucket": "geschlossen"
+          },
+          {
+            "text": "„Hast du gemalt?“",
+            "bucket": "geschlossen"
+          }
         ]
       }
     },
@@ -39,11 +73,18 @@
       "data": {
         "prompt": "💡 Warum sind offene Fragen gut für Kinder?",
         "options": [
-          { "text": "🗣️ Das Kind erzählt mehr. Es übt neue Wörter und ganze Sätze.", "correct": true },
-          { "text": "⏱️ Weil das Gespräch dann schneller vorbei ist." },
-          { "text": "🤷 Weil das Kind dann nichts sagen muss." }
+          {
+            "text": "🗣️ Das Kind erzählt mehr. Es übt neue Wörter und ganze Sätze.",
+            "correct": true
+          },
+          {
+            "text": "🎯 Das Kind gibt schnell die eine Antwort, die du hören willst."
+          },
+          {
+            "text": "🙉 Das Kind muss nur zuhören und nicht selbst sprechen."
+          }
         ],
-        "explanation": "Bei „War es schön?“ sagt das Kind nur „Ja“. Bei „Was hast du erlebt?“ erzählt es eine ganze Geschichte."
+        "explanation": "Bei „War es schön?“ sagt das Kind nur „Ja“. Das ist eine geschlossene Frage. Bei „Was hast du erlebt?“ erzählt es eine ganze Geschichte. So übt es Sprache."
       }
     },
     {
@@ -51,11 +92,21 @@
       "data": {
         "prompt": "👂 Ein Kind will dir etwas erzählen. So hörst du richtig zu. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧎 Geh auf Augenhöhe, zum Beispiel in die Hocke." },
-          { "text": "👀 Schau das Kind freundlich an." },
-          { "text": "🤐 Lass das Kind in Ruhe ausreden." },
-          { "text": "🔁 Wiederhole kurz, was du verstanden hast: „Du hast einen Käfer gefunden?“" },
-          { "text": "❓ Stell eine offene Frage: „Was hat der Käfer gemacht?“" }
+          {
+            "text": "🧎 Geh auf Augenhöhe, zum Beispiel in die Hocke."
+          },
+          {
+            "text": "👀 Schau das Kind freundlich an."
+          },
+          {
+            "text": "🤐 Lass das Kind in Ruhe ausreden."
+          },
+          {
+            "text": "🔁 Wiederhole kurz, was du verstanden hast: „Du hast einen Käfer gefunden?“"
+          },
+          {
+            "text": "❓ Stell eine offene Frage: „Was hat der Käfer gemacht?“"
+          }
         ]
       }
     },
@@ -64,11 +115,18 @@
       "data": {
         "prompt": "🔁 Du wiederholst mit eigenen Worten, was das Kind erzählt hat. Warum ist das gut?",
         "options": [
-          { "text": "💛 Das Kind merkt: Du hast wirklich zugehört. Und ihr klärt Missverständnisse.", "correct": true },
-          { "text": "🦜 Damit du wie ein Papagei klingst." },
-          { "text": "⏳ Damit das Gespräch länger dauert." }
+          {
+            "text": "💛 Das Kind merkt: Du hast wirklich zugehört. Und ihr klärt Missverständnisse.",
+            "correct": true
+          },
+          {
+            "text": "📖 So lernt das Kind, den Satz richtig zu sagen, und spricht dich nach."
+          },
+          {
+            "text": "🧐 So zeige ich dem Kind, dass es etwas falsch erzählt hat."
+          }
         ],
-        "explanation": "Das nennt man aktives Zuhören. Du zeigst: Deine Worte sind bei mir angekommen. Das Kind fühlt sich verstanden."
+        "explanation": "Das nennt man aktives Zuhören. Du wiederholst mit eigenen Worten, also paraphrasierst du. Du zeigst: Deine Worte sind bei mir angekommen. Das Kind fühlt sich verstanden. Es geht dabei nicht ums Verbessern."
       }
     },
     {
@@ -76,10 +134,38 @@
       "data": {
         "prompt": "🧩 Welche offene Frage passt zur Situation? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🖼️ Ein Kind zeigt sein Bild" }, "right": { "text": "„Was hast du gemalt?“" } },
-          { "left": { "text": "🏰 Ein Kind baut eine Burg" }, "right": { "text": "„Wie hast du das gebaut?“" } },
-          { "left": { "text": "😢 Ein Kind kommt weinend zu dir" }, "right": { "text": "„Was ist passiert?“" } },
-          { "left": { "text": "🎒 Ein Kind kommt vom Wochenende" }, "right": { "text": "„Was hast du erlebt?“" } }
+          {
+            "left": {
+              "text": "🖼️ Ein Kind zeigt sein Bild"
+            },
+            "right": {
+              "text": "„Was hast du gemalt?“"
+            }
+          },
+          {
+            "left": {
+              "text": "🏰 Ein Kind baut eine Burg"
+            },
+            "right": {
+              "text": "„Wie hast du das gebaut?“"
+            }
+          },
+          {
+            "left": {
+              "text": "😢 Ein Kind kommt weinend zu dir"
+            },
+            "right": {
+              "text": "„Was ist passiert?“"
+            }
+          },
+          {
+            "left": {
+              "text": "🎒 Ein Kind kommt vom Wochenende"
+            },
+            "right": {
+              "text": "„Was hast du erlebt?“"
+            }
+          }
         ],
         "memory": false
       }
@@ -89,11 +175,18 @@
       "data": {
         "prompt": "📱 Ein Kind erzählt dir etwas. Dein Handy liegt daneben. Was machst du?",
         "options": [
-          { "text": "👀 Das Handy bleibt weg. Ich schaue das Kind an.", "correct": true },
-          { "text": "📱 Ich schaue kurz auf das Handy, das merkt das Kind nicht." },
-          { "text": "🎧 Ich höre nebenbei Musik." }
+          {
+            "text": "👀 Das Handy bleibt weg. Ich schaue das Kind an.",
+            "correct": true
+          },
+          {
+            "text": "📱 Ich schaue kurz auf das Handy, das merkt das Kind nicht."
+          },
+          {
+            "text": "💬 Ich höre weiter zu und tippe nebenbei kurz eine Nachricht."
+          }
         ],
-        "explanation": "Kinder merken sofort, ob du wirklich zuhörst. Volle Aufmerksamkeit zeigt: Du bist mir wichtig."
+        "explanation": "Kinder merken sofort, ob du wirklich zuhörst. Volle Aufmerksamkeit zeigt: Du bist mir wichtig. Auch kurzes Tippen unterbricht das Zuhören."
       }
     },
     {
@@ -101,11 +194,18 @@
       "data": {
         "prompt": "🐢 Du stellst eine Frage. Das Kind antwortet nicht sofort. Was machst du?",
         "options": [
-          { "text": "⏳ Ich warte ruhig. Das Kind braucht Zeit zum Nachdenken.", "correct": true },
-          { "text": "❓ Ich stelle sofort drei neue Fragen." },
-          { "text": "🗣️ Ich beantworte die Frage schnell selbst." }
+          {
+            "text": "⏳ Ich warte ruhig. Das Kind braucht Zeit zum Nachdenken.",
+            "correct": true
+          },
+          {
+            "text": "❓ Ich frage schnell nach: „Na, weißt du es nicht?“"
+          },
+          {
+            "text": "🗣️ Ich sage die Antwort selbst, damit es schneller weitergeht."
+          }
         ],
-        "explanation": "Kinder brauchen oft ein paar Sekunden. Wer wartet, bekommt die besten Antworten. Geduld ist deine Stärke."
+        "explanation": "Kinder brauchen oft ein paar Sekunden. Diese Pause nennt man Wartezeit. Wer wartet, bekommt die besten Antworten. Geduld ist deine Stärke."
       }
     },
     {
@@ -113,10 +213,38 @@
       "data": {
         "prompt": "🃏 Zum Schluss ein Memory! Finde die versteckten Paare.",
         "pairs": [
-          { "left": { "text": "👂 Ohren" }, "right": { "text": "Zuhören" } },
-          { "left": { "text": "👀 Augen" }, "right": { "text": "Anschauen" } },
-          { "left": { "text": "❓ Fragezeichen" }, "right": { "text": "Offene Frage stellen" } },
-          { "left": { "text": "⏳ Sanduhr" }, "right": { "text": "Zeit zum Antworten lassen" } }
+          {
+            "left": {
+              "text": "👂 Ohren"
+            },
+            "right": {
+              "text": "Zuhören"
+            }
+          },
+          {
+            "left": {
+              "text": "👀 Augen"
+            },
+            "right": {
+              "text": "Anschauen"
+            }
+          },
+          {
+            "left": {
+              "text": "❓ Fragezeichen"
+            },
+            "right": {
+              "text": "Offene Frage stellen"
+            }
+          },
+          {
+            "left": {
+              "text": "⏳ Sanduhr"
+            },
+            "right": {
+              "text": "Zeit zum Antworten lassen"
+            }
+          }
         ],
         "memory": true
       }

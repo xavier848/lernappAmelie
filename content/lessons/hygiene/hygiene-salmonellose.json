@@ -2,6 +2,7 @@
   "topic_slug": "hygiene",
   "slug": "hygiene-salmonellose",
   "title": "Salmonellose – Infektion und Schutz",
+  "intro": "🦠 Salmonellen sind winzige Keime, die den Menschen krank machen können. Bei einer Salmonellose siedeln sie sich im Darm an und vermehren sich dort. Fachleute nennen das eine Infektion. Mit dem Stuhl verlassen die Salmonellen den Körper. Über ungewaschene Hände gelangen sie ins Essen und in den Mund. Diesen Weg nennt man fäkal-oral. Deshalb wäschst du nach der Toilette immer die Hände. In der Wärme vermehren sich Salmonellen schnell, in der Kälte kaum. Rohes Geflügel und rohe Eier tragen die Keime besonders oft. Das Übertragen von Keimen auf andere Lebensmittel nennt man Kreuzkontamination.",
   "sort": 30,
   "exercises": [
     {
@@ -9,11 +10,18 @@
       "data": {
         "prompt": "🍗 Wo lässt du ein gefrorenes Hähnchen auftauen?",
         "options": [
-          { "text": "Im Kühlschrank, in einem Gefäß.", "correct": true },
-          { "text": "Offen auf der Arbeitsfläche." },
-          { "text": "In warmem Wasser in der Spüle." }
+          {
+            "text": "Im Kühlschrank, in einem Gefäß.",
+            "correct": true
+          },
+          {
+            "text": "Im Kühlschrank, aber offen ohne Gefäß darunter."
+          },
+          {
+            "text": "In warmem Wasser, damit es schneller geht."
+          }
         ],
-        "explanation": "Im kühlen Kühlschrank vermehren sich Salmonellen kaum. Das Gefäß fängt die Auftauflüssigkeit auf, damit sie nichts anderes verschmutzt."
+        "explanation": "Im kühlen Kühlschrank vermehren sich Salmonellen kaum. Das Gefäß fängt die Auftauflüssigkeit auf. So verhinderst du eine Kreuzkontamination – das Übertragen von Keimen auf andere Lebensmittel."
       }
     },
     {
@@ -21,11 +29,18 @@
       "data": {
         "prompt": "🦠 Wo siedeln sich Salmonellen bei einer Salmonellose an?",
         "options": [
-          { "text": "Im Darm.", "correct": true },
-          { "text": "In den Haaren." },
-          { "text": "In den Fingernägeln." }
+          {
+            "text": "Im Darm.",
+            "correct": true
+          },
+          {
+            "text": "Im Magen."
+          },
+          {
+            "text": "In der Lunge."
+          }
         ],
-        "explanation": "Salmonellen setzen sich im Darm fest. Von dort machen sie den Menschen krank."
+        "explanation": "Salmonellen besiedeln den Darm. Fachleute nennen das eine Infektion: Die Keime vermehren sich im Körper. Der Magen ist nur Durchgang, in der Lunge leben sie nicht. Vom Darm aus machen sie den Menschen krank."
       }
     },
     {
@@ -33,11 +48,18 @@
       "data": {
         "prompt": "🚽 Wie kommen Salmonellen aus dem Körper heraus?",
         "options": [
-          { "text": "Mit dem Stuhl auf der Toilette.", "correct": true },
-          { "text": "Über den Schweiß." },
-          { "text": "Über die Tränen." }
+          {
+            "text": "Mit dem Stuhl auf der Toilette.",
+            "correct": true
+          },
+          {
+            "text": "Mit dem Urin."
+          },
+          {
+            "text": "Über den Speichel beim Sprechen."
+          }
         ],
-        "explanation": "Salmonellen werden mit dem Stuhl ausgeschieden. Deshalb ist Händewaschen nach der Toilette so wichtig."
+        "explanation": "Salmonellen verlassen den Körper mit dem Stuhl. Fachleute nennen das den fäkal-oralen Weg: Keime aus dem Stuhl gelangen über die Hände ins Essen und in den Mund. Deshalb ist Händewaschen nach der Toilette so wichtig."
       }
     },
     {
@@ -45,11 +67,18 @@
       "data": {
         "prompt": "🥚 Du machst eine Speise mit rohen Eiern. Wie alt dürfen die Eier höchstens sein?",
         "options": [
-          { "text": "Höchstens fünf Tage nach dem Legedatum.", "correct": true },
-          { "text": "Bis zu vier Wochen alt." },
-          { "text": "Das Alter ist egal." }
+          {
+            "text": "Höchstens fünf Tage nach dem Legedatum.",
+            "correct": true
+          },
+          {
+            "text": "Bis zum Mindesthaltbarkeitsdatum, etwa 28 Tage."
+          },
+          {
+            "text": "Etwa zwei Wochen nach dem Legedatum."
+          }
         ],
-        "explanation": "In älteren Eiern können sich Salmonellen vermehren. Für rohe Speisen nimmst du darum nur ganz frische Eier."
+        "explanation": "In älteren Eiern können sich Salmonellen stark vermehren. Das Mindesthaltbarkeitsdatum (MHD) gilt nur für durchgegarte Eier. Für rohe Speisen nimmst du darum nur ganz frische Eier – höchstens fünf Tage alt."
       }
     },
     {
@@ -57,11 +86,21 @@
       "data": {
         "prompt": "🏫 Fallbeispiel Kantine: So kam es zur Salmonellose. Bringe es in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Im gefrorenen Hähnchen waren Salmonellen." },
-          { "text": "Beim Auftauen tropfte die Flüssigkeit auf die Abtropffläche der Spüle." },
-          { "text": "Dort kühlten gekochte Kartoffeln ab und wurden verschmutzt." },
-          { "text": "Im fertigen Kartoffelsalat vermehrten sich die Salmonellen." },
-          { "text": "Die Gäste aßen den Salat und wurden krank." }
+          {
+            "text": "Im gefrorenen Hähnchen waren Salmonellen."
+          },
+          {
+            "text": "Beim Auftauen tropfte die Flüssigkeit auf die Abtropffläche der Spüle."
+          },
+          {
+            "text": "Dort kühlten gekochte Kartoffeln ab und wurden verschmutzt."
+          },
+          {
+            "text": "Im fertigen Kartoffelsalat vermehrten sich die Salmonellen."
+          },
+          {
+            "text": "Die Gäste aßen den Salat und wurden krank."
+          }
         ]
       }
     },
@@ -70,12 +109,24 @@
       "data": {
         "prompt": "🏨 Fallbeispiel Hotel: So steckte Herr K. die Gäste an. Bringe es in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Herr K. bekam im Urlaub eine Salmonellose." },
-          { "text": "Die Salmonellen siedelten sich in seinem Darm an." },
-          { "text": "Er schied die Salmonellen mit dem Stuhl aus." },
-          { "text": "Nach der Toilette wusch er sich die Hände nicht." },
-          { "text": "Er belegte Schnittchen und verschmutzte sie." },
-          { "text": "Die Gäste aßen die Schnittchen und wurden krank." }
+          {
+            "text": "Herr K. bekam im Urlaub eine Salmonellose."
+          },
+          {
+            "text": "Die Salmonellen siedelten sich in seinem Darm an."
+          },
+          {
+            "text": "Er schied die Salmonellen mit dem Stuhl aus."
+          },
+          {
+            "text": "Nach der Toilette wusch er sich die Hände nicht."
+          },
+          {
+            "text": "Er belegte Schnittchen und verschmutzte sie."
+          },
+          {
+            "text": "Die Gäste aßen die Schnittchen und wurden krank."
+          }
         ]
       }
     },
@@ -84,10 +135,38 @@
       "data": {
         "prompt": "➡️ Welcher Fehler hat welche Folge? Verbinde.",
         "pairs": [
-          { "left": { "text": "🚽 Hände nach der Toilette nicht gewaschen" }, "right": { "text": "Keime kommen ins Essen" } },
-          { "left": { "text": "🥔 Kartoffelsalat lange warm gehalten" }, "right": { "text": "Salmonellen vermehren sich" } },
-          { "left": { "text": "💧 Auftauflüssigkeit läuft über die Arbeitsfläche" }, "right": { "text": "Keime verteilen sich in der Küche" } },
-          { "left": { "text": "🥚 Ein zu altes Ei verwendet" }, "right": { "text": "Gefahr, krank zu werden" } }
+          {
+            "left": {
+              "text": "🚽 Hände nach der Toilette nicht gewaschen"
+            },
+            "right": {
+              "text": "Keime kommen ins Essen"
+            }
+          },
+          {
+            "left": {
+              "text": "🥔 Kartoffelsalat lange warm gehalten"
+            },
+            "right": {
+              "text": "Salmonellen vermehren sich schnell"
+            }
+          },
+          {
+            "left": {
+              "text": "💧 Auftauflüssigkeit läuft über die Arbeitsfläche"
+            },
+            "right": {
+              "text": "Keime verteilen sich in der Küche"
+            }
+          },
+          {
+            "left": {
+              "text": "🥚 Ein zu altes Ei verwendet"
+            },
+            "right": {
+              "text": "Gefahr, krank zu werden"
+            }
+          }
         ]
       }
     },
@@ -96,11 +175,18 @@
       "data": {
         "prompt": "🤔 Jemand hat Salmonellen, fühlt sich aber gesund. Kann er andere anstecken?",
         "options": [
-          { "text": "Ja, auch ohne eigene Beschwerden.", "correct": true },
-          { "text": "Nein, nur kranke Menschen stecken an." },
-          { "text": "Nur wenn er hustet." }
+          {
+            "text": "Ja, auch ohne eigene Beschwerden.",
+            "correct": true
+          },
+          {
+            "text": "Nein, ohne Beschwerden kann niemand anstecken."
+          },
+          {
+            "text": "Nur solange er selbst Durchfall hat."
+          }
         ],
-        "explanation": "Manche Menschen tragen Salmonellen in sich, ohne selbst Beschwerden zu spüren. Trotzdem können sie andere anstecken. Deshalb gilt Händewaschen für alle."
+        "explanation": "Manche Menschen scheiden Salmonellen aus, ohne selbst Beschwerden zu spüren. Fachleute nennen sie Dauerausscheider. Auch sie können andere anstecken. Deshalb gilt Händewaschen für alle."
       }
     },
     {
@@ -108,11 +194,18 @@
       "data": {
         "prompt": "🧼 Was tust du nach jedem Toilettengang?",
         "options": [
-          { "text": "Die Hände waschen.", "correct": true },
-          { "text": "Nichts." },
-          { "text": "Nur die Hände an der Hose abwischen." }
+          {
+            "text": "Die Hände waschen.",
+            "correct": true
+          },
+          {
+            "text": "Die Hände nur kurz mit klarem Wasser abspülen."
+          },
+          {
+            "text": "Die Hände nur an einem Handtuch abtrocknen."
+          }
         ],
-        "explanation": "Beim Waschen entfernst du die Salmonellen von den Händen. So gibst du sie nicht an das Essen weiter."
+        "explanation": "Mit Wasser und Seife entfernst du die Salmonellen gründlich von den Händen. Klares Abspülen allein reicht nicht. So gibst du die Keime nicht an das Essen weiter."
       }
     }
   ]

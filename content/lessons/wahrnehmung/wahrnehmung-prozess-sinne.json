@@ -2,6 +2,7 @@
   "topic_slug": "wahrnehmung",
   "slug": "wahrnehmung-prozess-sinne",
   "title": "Wie wir wahrnehmen",
+  "intro": "🧠 Wahrnehmung heißt: Du nimmst deine Umwelt mit den Sinnen auf. Der Mensch hat fünf Sinne: Sehen, Hören, Riechen, Schmecken und Fühlen. Jeder Sinn hat sein eigenes Organ, zum Beispiel das Auge zum Sehen. Wahrnehmung läuft in mehreren Schritten ab. Zuerst trifft ein Reiz auf ein Sinnesorgan, etwa Licht auf das Auge. Der Reiz erregt einen Nerv, und der Nerv leitet das Signal zum Gehirn weiter. Das Gehirn ist die Schaltzentrale und fügt alle Signale zu einem Bild zusammen. Dafür braucht es nur etwa eine viertel Sekunde. Dabei vergleicht das Gehirn das Bild mit dem, was du schon kennst. Darum nehmen zwei Menschen dieselbe Sache oft etwas anders wahr.",
   "sort": 10,
   "exercises": [
     {
@@ -9,10 +10,18 @@
       "data": {
         "prompt": "🧠 So entsteht Wahrnehmung im Kopf. Bringe die 4 Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Ein Reiz trifft ein. Zum Beispiel fällt Licht ins Auge." },
-          { "text": "Der Nerv wird erregt. Der Sehnerv bekommt einen Impuls." },
-          { "text": "Die Erregung wird weitergeleitet. Sie läuft zum Seh-Zentrum im Gehirn." },
-          { "text": "Das Gehirn erkennt das Bild. Es vergleicht die Info mit Bekanntem." }
+          {
+            "text": "Ein Reiz trifft ein. Zum Beispiel fällt Licht ins Auge."
+          },
+          {
+            "text": "Der Nerv wird erregt. Der Sehnerv bekommt einen Impuls."
+          },
+          {
+            "text": "Die Erregung wird weitergeleitet. Sie läuft zum Seh-Zentrum im Gehirn."
+          },
+          {
+            "text": "Das Gehirn erkennt das Bild. Es vergleicht die Info mit Bekanntem."
+          }
         ]
       }
     },
@@ -21,11 +30,46 @@
       "data": {
         "prompt": "👀 Welcher Sinn gehört zu welchem Organ? Verbinde.",
         "pairs": [
-          { "left": { "text": "👁️ Sehen" }, "right": { "text": "Auge" } },
-          { "left": { "text": "👂 Hören" }, "right": { "text": "Ohr" } },
-          { "left": { "text": "👃 Riechen" }, "right": { "text": "Nase" } },
-          { "left": { "text": "👅 Schmecken" }, "right": { "text": "Zunge" } },
-          { "left": { "text": "✋ Fühlen" }, "right": { "text": "Haut" } }
+          {
+            "left": {
+              "text": "👁️ Sehen"
+            },
+            "right": {
+              "text": "Auge"
+            }
+          },
+          {
+            "left": {
+              "text": "👂 Hören"
+            },
+            "right": {
+              "text": "Ohr"
+            }
+          },
+          {
+            "left": {
+              "text": "👃 Riechen"
+            },
+            "right": {
+              "text": "Nase"
+            }
+          },
+          {
+            "left": {
+              "text": "👅 Schmecken"
+            },
+            "right": {
+              "text": "Zunge"
+            }
+          },
+          {
+            "left": {
+              "text": "✋ Fühlen"
+            },
+            "right": {
+              "text": "Haut"
+            }
+          }
         ],
         "memory": false
       }
@@ -33,25 +77,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Wie schnell macht das Gehirn aus den Infos ein fertiges Bild?",
+        "prompt": "⏱️ Ein Reiz trifft ein. Wie schnell macht das Gehirn daraus ein fertiges Bild?",
         "options": [
-          { "text": "In etwa einer viertel Sekunde.", "correct": true },
-          { "text": "In etwa einer Minute." },
-          { "text": "In etwa einer Stunde." }
+          {
+            "text": "In etwa einer viertel Sekunde.",
+            "correct": true
+          },
+          {
+            "text": "In wenigen Millisekunden."
+          },
+          {
+            "text": "In etwa fünf Sekunden."
+          }
         ],
-        "explanation": "Das Gehirn arbeitet sehr schnell. In rund einer viertel Sekunde setzt es alle wichtigen Infos zu einem Bild zusammen."
+        "explanation": "Das Gehirn arbeitet sehr schnell. In rund einer viertel Sekunde setzt es alle wichtigen Infos zu einem Bild zusammen. Das sind etwa 250 Millisekunden. Wenige Millisekunden wären zu kurz. Fünf Sekunden wären schon viel zu lang."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧠 Welcher Körperteil ist die Schaltzentrale beim Wahrnehmen?",
+        "prompt": "🧠 Alle Sinne schicken Signale los. Welcher Körperteil ist die Schaltzentrale, die alles zusammenführt und deutet?",
         "options": [
-          { "text": "Das Gehirn.", "correct": true },
-          { "text": "Das Herz." },
-          { "text": "Der Magen." }
+          {
+            "text": "Das Gehirn.",
+            "correct": true
+          },
+          {
+            "text": "Die Nerven."
+          },
+          {
+            "text": "Die Sinnesorgane wie Auge und Ohr."
+          }
         ],
-        "explanation": "Alle Sinne schicken ihre Signale ans Gehirn. Dort werden sie mit gespeichertem Wissen verglichen. So entsteht die Wahrnehmung."
+        "explanation": "Schaltzentrale heißt: die Stelle, die alle Signale verarbeitet. Sinnesorgane nehmen den Reiz nur auf. Die Nerven leiten ihn nur weiter. Erst das Gehirn deutet die Signale und vergleicht sie mit gespeichertem Wissen. So entsteht Wahrnehmung."
       }
     },
     {
@@ -59,11 +117,18 @@
       "data": {
         "prompt": "🤔 Zwei Menschen sehen dasselbe Bild. Warum nehmen sie es oft verschieden wahr?",
         "options": [
-          { "text": "Weil jeder das Gesehene mit seinen eigenen Erinnerungen vergleicht.", "correct": true },
-          { "text": "Weil das eine Auge besser ist als das andere." },
-          { "text": "Weil Bilder sich ständig verändern." }
+          {
+            "text": "Weil jeder das Gesehene mit seinen eigenen Erinnerungen vergleicht.",
+            "correct": true
+          },
+          {
+            "text": "Weil die Augen von zwei Menschen nie gleich scharf sehen."
+          },
+          {
+            "text": "Weil das Bild in jedem Auge in einer anderen Größe ankommt."
+          }
         ],
-        "explanation": "Wahrnehmung ist subjektiv. Jeder Mensch vergleicht mit seinen eigenen Mustern und Erfahrungen. Darum sieht nicht jeder das Gleiche."
+        "explanation": "Wahrnehmung ist subjektiv. Das heißt: Sie hängt von der einzelnen Person ab. Der Unterschied entsteht nicht im Auge, sondern im Kopf. Jeder vergleicht das Bild mit seinen eigenen Mustern und Erfahrungen. Darum sieht nicht jeder das Gleiche."
       }
     },
     {
@@ -71,17 +136,47 @@
       "data": {
         "prompt": "🎯 Welchen Sinn trainiert die Übung? Sortiere.",
         "buckets": [
-          { "id": "hoeren", "label": "Hören", "icon": "👂" },
-          { "id": "riechen", "label": "Riechen", "icon": "👃" },
-          { "id": "fuehlen", "label": "Fühlen", "icon": "✋" }
+          {
+            "id": "hoeren",
+            "label": "Hören",
+            "icon": "👂"
+          },
+          {
+            "id": "riechen",
+            "label": "Riechen",
+            "icon": "👃"
+          },
+          {
+            "id": "fuehlen",
+            "label": "Fühlen",
+            "icon": "✋"
+          }
         ],
         "items": [
-          { "text": "Eine Dose mit Reis schütteln", "bucket": "hoeren" },
-          { "text": "Vogelgezwitscher im Wald lauschen", "bucket": "hoeren" },
-          { "text": "An einem Zweig Rosmarin riechen", "bucket": "riechen" },
-          { "text": "Duft-Öl auf Watte erschnuppern", "bucket": "riechen" },
-          { "text": "Mit verbundenen Augen Kastanien ertasten", "bucket": "fuehlen" },
-          { "text": "Barfuß über eine Wiese gehen", "bucket": "fuehlen" }
+          {
+            "text": "Eine Dose mit Reis schütteln",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "Vogelgezwitscher im Wald lauschen",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "An einem Zweig Rosmarin riechen",
+            "bucket": "riechen"
+          },
+          {
+            "text": "Duft-Öl auf Watte erschnuppern",
+            "bucket": "riechen"
+          },
+          {
+            "text": "Mit verbundenen Augen Kastanien ertasten",
+            "bucket": "fuehlen"
+          },
+          {
+            "text": "Barfuß über eine Wiese gehen",
+            "bucket": "fuehlen"
+          }
         ]
       }
     },
@@ -90,17 +185,47 @@
       "data": {
         "prompt": "🗂️ Wann machst du das bei einer Sinnes-Übung? Sortiere.",
         "buckets": [
-          { "id": "vor", "label": "Vorher", "icon": "1️⃣" },
-          { "id": "waehrend", "label": "Währenddessen", "icon": "2️⃣" },
-          { "id": "nach", "label": "Danach", "icon": "3️⃣" }
+          {
+            "id": "vor",
+            "label": "Vorher",
+            "icon": "1️⃣"
+          },
+          {
+            "id": "waehrend",
+            "label": "Währenddessen",
+            "icon": "2️⃣"
+          },
+          {
+            "id": "nach",
+            "label": "Danach",
+            "icon": "3️⃣"
+          }
         ],
         "items": [
-          { "text": "Einen ruhigen Raum ohne Störungen aussuchen", "bucket": "vor" },
-          { "text": "Das Material bereitlegen", "bucket": "vor" },
-          { "text": "Für Stille im Raum sorgen", "bucket": "waehrend" },
-          { "text": "Den Teilnehmern die Augen verbinden", "bucket": "waehrend" },
-          { "text": "Über die Sinnes-Eindrücke sprechen", "bucket": "nach" },
-          { "text": "Die Vermutungen aufschreiben und prüfen", "bucket": "nach" }
+          {
+            "text": "Einen ruhigen Raum ohne Störungen aussuchen",
+            "bucket": "vor"
+          },
+          {
+            "text": "Das Material bereitlegen",
+            "bucket": "vor"
+          },
+          {
+            "text": "Für Stille im Raum sorgen",
+            "bucket": "waehrend"
+          },
+          {
+            "text": "Den Teilnehmern die Augen verbinden",
+            "bucket": "waehrend"
+          },
+          {
+            "text": "Über die Sinnes-Eindrücke sprechen",
+            "bucket": "nach"
+          },
+          {
+            "text": "Die Vermutungen aufschreiben und prüfen",
+            "bucket": "nach"
+          }
         ]
       }
     },
@@ -109,11 +234,18 @@
       "data": {
         "prompt": "🌟 Wozu machst du Wahrnehmungs-Übungen?",
         "options": [
-          { "text": "Um die eigenen Sinne bewusster zu erleben.", "correct": true },
-          { "text": "Um schneller zu putzen." },
-          { "text": "Um weniger schlafen zu müssen." }
+          {
+            "text": "Um die eigenen Sinne bewusster zu erleben.",
+            "correct": true
+          },
+          {
+            "text": "Um zu lernen, welcher Sinn der wichtigste ist."
+          },
+          {
+            "text": "Um die Sinnesorgane vor Reizen zu schützen."
+          }
         ],
-        "explanation": "Die Übungen schärfen deine Sinne. Du erlebst bewusster. Und du verstehst besser, wie es Menschen mit Einschränkungen geht."
+        "explanation": "Die Übungen schärfen deine Sinne. Du nimmst bewusster wahr. Es geht nicht darum, Sinne zu vergleichen oder abzuschirmen. Du verstehst dabei auch besser, wie es Menschen mit Einschränkungen geht."
       }
     }
   ]

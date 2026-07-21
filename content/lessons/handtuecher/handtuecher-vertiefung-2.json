@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Die Gäste sind abgereist. 🚗 Was passiert mit den Handtüchern in der Wohnung?",
+        "prompt": "Die Gäste sind abgereist. 🚗 Manche Handtücher sind noch trocken und sehen sauber aus. Was machst du mit allen Handtüchern?",
         "options": [
           { "text": "Alle kommen in die Wäsche. Auch die, die sauber aussehen.", "correct": true },
-          { "text": "Nur die nassen kommen in die Wäsche." },
-          { "text": "Sie bleiben für die nächsten Gäste hängen." }
+          { "text": "Die trockenen faltest du zusammen und legst sie wieder hin." },
+          { "text": "Nur die feuchten kommen in die Wäsche, die trockenen bleiben liegen." }
         ],
-        "explanation": "Für neue Gäste wird alles frisch gemacht. Jeder Gast bekommt nur unbenutzte Handtücher. 🧺"
+        "explanation": "Auch ein trocken aussehendes Tuch wurde schon benutzt. Für neue Gäste kommt deshalb alles in die Wäsche. Jeder Gast bekommt nur frische, unbenutzte Handtücher. 🧺"
       }
     },
     {
@@ -24,8 +24,7 @@
           { "text": "🛏️ Die alte Bettwäsche abziehen." },
           { "text": "🧺 Alles in den Wäschekorb legen." },
           { "text": "Das frische Spannbettlaken über die Matratze ziehen." },
-          { "text": "Die Decke frisch beziehen." },
-          { "text": "Das Kissen frisch beziehen." },
+          { "text": "🛌 Die Decke und das Kissen frisch beziehen." },
           { "text": "✨ Decke und Kissen glatt auf das Bett legen." }
         ]
       }
@@ -48,10 +47,10 @@
         "prompt": "Wie viele Handtücher legst du pro Gast bereit? 🧺",
         "options": [
           { "text": "Ein großes Duschtuch und ein kleines Handtuch.", "correct": true },
-          { "text": "Nur einen Waschlappen." },
-          { "text": "Zehn Handtücher pro Gast." }
+          { "text": "Nur ein großes Duschtuch, das reicht für alles." },
+          { "text": "Ein Duschtuch, das sich zwei Gäste teilen." }
         ],
-        "explanation": "Pro Gast: ein großes Duschtuch und ein kleines Handtuch. So macht man es auch im Hotel. 🧺"
+        "explanation": "Pro Gast gehört ein großes Duschtuch zum Abtrocknen nach der Dusche und ein kleines Handtuch für die Hände dazu. Jeder Gast bekommt sein eigenes Set. So macht man es auch im Hotel. 🧺"
       }
     },
     {
@@ -79,10 +78,10 @@
         "prompt": "Wie legst du die frischen Handtücher für die Gäste hin? 🎀",
         "options": [
           { "text": "Schön gefaltet ins Bad oder ans Fußende vom Bett.", "correct": true },
-          { "text": "Zusammengeknüllt in eine Ecke." },
-          { "text": "Ich lasse sie im Wäschekorb." }
+          { "text": "Locker aufgerollt auf den Boden vor die Dusche." },
+          { "text": "Einfach lose über den Duschvorhang gehängt." }
         ],
-        "explanation": "Schön gefaltet im Bad oder auf dem Bett. Das sieht einladend aus, wie im Hotel. 🎀"
+        "explanation": "Handtücher werden ordentlich gefaltet ins Bad oder auf das Bett gelegt. Das sieht einladend und gepflegt aus, wie im Hotel. 🎀"
       }
     },
     {
@@ -92,9 +91,9 @@
         "options": [
           { "text": "Zurück in die Wäsche. Ich nehme ein anderes.", "correct": true },
           { "text": "Ich falte es so, dass man den Fleck nicht sieht." },
-          { "text": "Ich lege es trotzdem hin." }
+          { "text": "Ich reibe den Fleck kurz mit Wasser ab und lege es dann hin." }
         ],
-        "explanation": "Gäste bekommen nur einwandfreie Handtücher. Das fleckige Tuch wird noch einmal gewaschen. 👍"
+        "explanation": "Gäste bekommen nur einwandfreie Handtücher. Ein Fleck bleibt ein Fleck, auch versteckt oder feucht abgerieben. Das Tuch kommt zurück in die Wäsche, und du nimmst ein sauberes. 👍"
       }
     },
     {
@@ -113,13 +112,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Letzte Frage, ganz leicht! 😊 Wie soll das Bad für neue Gäste aussehen?",
+        "prompt": "Der letzte Blick ins Bad, bevor die Gäste kommen. ✨ Wie soll es sein?",
         "options": [
           { "text": "Sauber und frisch. ✨", "correct": true },
-          { "text": "Mit benutzten Handtüchern." },
-          { "text": "Das ist egal." }
+          { "text": "Sauber, aber die Handtücher vom letzten Gast dürfen noch hängen." },
+          { "text": "Aufgeräumt reicht, ein paar Wasserflecken am Spiegel sind egal." }
         ],
-        "explanation": "Sauber und frisch. So fühlen sich die Gäste sofort wohl und kommen gerne wieder. ✨"
+        "explanation": "Das Bad muss sauber und frisch sein: keine benutzten Handtücher, ein klarer Spiegel. So fühlen sich die Gäste sofort wohl und kommen gerne wieder. ✨"
       }
     }
   ]

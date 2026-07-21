@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔘 Ein Knopf ist abgefallen. Wie wählst du den neuen Knopf aus?",
+        "prompt": "🔘 Ein Knopf ist abgefallen. Du suchst einen neuen Knopf aus. Worauf kommt es bei der Größe an?",
         "options": [
           { "text": "Er muss zur Größe des Knopflochs passen.", "correct": true },
-          { "text": "Er sollte so groß wie möglich sein.", "correct": false },
-          { "text": "Die Größe ist egal.", "correct": false }
+          { "text": "Er sollte etwas größer als das Knopfloch sein, dann hält er fester.", "correct": false },
+          { "text": "Er sollte etwas kleiner als das Knopfloch sein, dann geht er leichter durch.", "correct": false }
         ],
-        "explanation": "Ist der Knopf zu groß, passt er nicht durchs Loch. Ist er zu klein, rutscht er wieder heraus. Er muss zum Knopfloch passen."
+        "explanation": "Das Knopfloch ist der Schlitz, durch den der Knopf geht. Ist der Knopf zu groß, passt er nicht durch das Loch. Ist er zu klein, rutscht er wieder heraus. Darum muss er genau zum Knopfloch passen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧵 Warum nimmst du den Nähfaden doppelt?",
+        "prompt": "🧵 Du legst den Nähfaden doppelt, bevor du losnähst. Warum machst du das?",
         "options": [
           { "text": "So hält der Knopf viel besser.", "correct": true },
-          { "text": "So sieht der Faden schöner aus.", "correct": false },
-          { "text": "So sparst du Faden.", "correct": false }
+          { "text": "So musst du den Faden nicht so oft neu einfädeln.", "correct": false },
+          { "text": "So wird der Knoten am Ende dicker und rutscht nicht durch.", "correct": false }
         ],
-        "explanation": "Ein doppelter Faden ist stärker als ein einfacher. Der Knopf hält länger, auch wenn du oft an ihm ziehst."
+        "explanation": "Doppelt heißt: zwei Fäden liegen nebeneinander. Zusammen sind sie stärker als ein einzelner Faden. Der Knopf hält länger, auch wenn du oft an ihm ziehst."
       }
     },
     {
@@ -42,13 +42,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧶 Beim Annähen lässt du einen kleinen \"Stiel\" aus Faden zwischen Knopf und Stoff. Wofür ist der gut?",
+        "prompt": "🧶 Beim Annähen lässt du einen kleinen \"Stiel\" aus Faden zwischen Knopf und Stoff. Wofür ist dieser Stiel gut?",
         "options": [
-          { "text": "Damit über dem Knopf Platz für den Stoff bleibt und er sich gut schließen lässt.", "correct": true },
-          { "text": "Damit der Knopf schöner glänzt.", "correct": false },
-          { "text": "Damit man weniger Faden braucht.", "correct": false }
+          { "text": "Damit unter dem Knopf Platz für den Stoff bleibt und er sich gut schließen lässt.", "correct": true },
+          { "text": "Damit der Knopf ganz fest und flach auf dem Stoff aufliegt.", "correct": false },
+          { "text": "Damit der Faden unter dem Knopf versteckt ist und man ihn nicht sieht.", "correct": false }
         ],
-        "explanation": "Der Stiel ist ein kleiner Abstand aus Faden. So kann der Stoff der anderen Seite unter den Knopf gleiten. Ohne Stiel würde der Knopf zu fest sitzen."
+        "explanation": "Der Stiel ist ein kleiner Abstand aus Faden. So kann der Stoff der anderen Seite unter den Knopf gleiten. Ohne Stiel würde der Knopf zu fest sitzen und ließe sich schwer schließen."
       }
     },
     {
@@ -79,13 +79,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✂️ Was machst du ganz am Ende, wenn der Knopf fest sitzt?",
+        "prompt": "✂️ Der Knopf sitzt fest. Was machst du ganz am Ende mit dem Faden?",
         "options": [
           { "text": "Den Faden befestigen und dann abschneiden.", "correct": true },
-          { "text": "Den Faden einfach lang hängen lassen.", "correct": false },
-          { "text": "Noch einen zweiten Knopf danebennähen.", "correct": false }
+          { "text": "Den Faden dicht am Stoff abschneiden, ohne ihn vorher zu befestigen.", "correct": false },
+          { "text": "Den Knopf zum Schluss noch mit dem Bügeleisen festbügeln.", "correct": false }
         ],
-        "explanation": "Erst befestigst du den Faden mit ein paar kleinen Stichen. Dann schneidest du ihn ab. So löst sich die Naht nicht wieder."
+        "explanation": "Befestigen heißt: den Faden mit ein paar kleinen Stichen sichern. Das machst du zuerst. Erst danach schneidest du ihn ab. Sonst löst sich die Naht wieder."
       }
     },
     {
@@ -94,10 +94,10 @@
         "prompt": "🧰 Was brauchst du, um einen Knopf anzunähen?",
         "options": [
           { "text": "Nadel, Faden und den passenden Knopf.", "correct": true },
-          { "text": "Eine Schere und Klebstoff.", "correct": false },
-          { "text": "Nur ein Bügeleisen.", "correct": false }
+          { "text": "Nur eine Nadel und den Knopf, den Faden brauchst du nicht.", "correct": false },
+          { "text": "Knopf, Faden und Klebstoff statt einer Nadel.", "correct": false }
         ],
-        "explanation": "Mit Nadel und Faden nähst du den Knopf fest. Der Knopf muss zum Knopfloch passen. Mehr brauchst du nicht."
+        "explanation": "Mit der Nadel führst du den Faden durch den Stoff. Der Faden hält den Knopf fest. Der Knopf muss zum Knopfloch passen. Klebstoff hält beim Waschen nicht, darum brauchst du eine Nadel."
       }
     }
   ]

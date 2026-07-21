@@ -2,6 +2,7 @@
   "topic_slug": "kinder-sprache",
   "slug": "kinder-sprache-vertiefung-1",
   "title": "Bilderbuch-Zeit: Mehr als Vorlesen",
+  "intro": "📖 In dieser Lektion geht es um das Bilderbuch-Gespräch. Ein Bilderbuch-Gespräch ist mehr als Vorlesen. Ihr schaut die Bilder zusammen an und redet darüber. Das Kind erzählt dabei selbst und übt so das Sprechen. Dabei helfen offene Fragen. Eine offene Frage lädt das Kind zum Erzählen ein. Eine geschlossene Frage lässt nur ja oder nein zu. Das gleiche Buch mehrmals zu lesen, tut der Sprache gut. Eine feste Zeit am Tag wird zu einem Ritual. Im Mittelpunkt stehen die Bilder, nicht das Lesen-Lernen.",
   "sort": 3,
   "exercises": [
     {
@@ -9,11 +10,18 @@
       "data": {
         "prompt": "📖 Was ist ein Bilderbuch-Gespräch?",
         "options": [
-          { "text": "💬 Wir schauen die Bilder zusammen an und reden darüber. Das Kind erzählt auch.", "correct": true },
-          { "text": "🤫 Ich lese vor. Das Kind muss ganz still sein." },
-          { "text": "📺 Wir schauen einen Film über Bücher." }
+          {
+            "text": "💬 Wir schauen die Bilder zusammen an und reden darüber. Das Kind erzählt auch.",
+            "correct": true
+          },
+          {
+            "text": "🤫 Ich lese die Geschichte vor. Das Kind hört nur ruhig zu."
+          },
+          {
+            "text": "👀 Das Kind schaut die Bilder allein an. Ich sage nichts dazu."
+          }
         ],
-        "explanation": "Beim Bilderbuch-Gespräch redet ihr zusammen über die Bilder. Das Kind erzählt selbst. So lernt es viel mehr Wörter, als wenn es nur zuhört."
+        "explanation": "Beim Bilderbuch-Gespräch redet ihr zusammen über die Bilder. Das Kind erzählt selbst. Das ist mehr als reines Vorlesen: Wenn das Kind nur still zuhört, übt es das Sprechen nicht. So lernt es viel mehr Wörter."
       }
     },
     {
@@ -21,25 +29,44 @@
       "data": {
         "prompt": "📚 So führst du ein Bilderbuch-Gespräch. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧒 Das Kind sucht ein Buch aus." },
-          { "text": "🖼️ Ihr schaut ein Bild zusammen an." },
-          { "text": "❓ Du fragst: Was siehst du hier?" },
-          { "text": "👂 Das Kind erzählt. Du hörst zu." },
-          { "text": "🗣️ Du erzählst etwas dazu und nennst neue Wörter." },
-          { "text": "👉 Das Kind blättert um." }
+          {
+            "text": "🧒 Das Kind sucht ein Buch aus."
+          },
+          {
+            "text": "🖼️ Ihr schaut ein Bild zusammen an."
+          },
+          {
+            "text": "❓ Du fragst: Was siehst du hier?"
+          },
+          {
+            "text": "👂 Das Kind erzählt. Du hörst zu."
+          },
+          {
+            "text": "🗣️ Du erzählst etwas dazu und nennst neue Wörter."
+          },
+          {
+            "text": "👉 Das Kind blättert um."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❓ Welche Frage bringt das Kind zum Erzählen?",
+        "prompt": "❓ Alle drei Fragen gehen um den Bären im Bild. Welche bringt das Kind zum Erzählen?",
         "options": [
-          { "text": "💬 Was macht der Bär auf dem Bild?", "correct": true },
-          { "text": "✅ Ist der Bär braun?" },
-          { "text": "✅ Willst du umblättern?" }
+          {
+            "text": "🐻 Was macht der Bär auf dem Bild?",
+            "correct": true
+          },
+          {
+            "text": "🐻 Ist der Bär braun?"
+          },
+          {
+            "text": "🐻 Schläft der Bär gerade?"
+          }
         ],
-        "explanation": "Bei der Frage: Was macht der Bär? muss das Kind selbst erzählen. Bei Ja-Nein-Fragen sagt es nur ja oder nein. Erzähl-Fragen üben die Sprache viel besser."
+        "explanation": "„Was macht der Bär?“ ist eine offene Frage: Das Kind muss selbst erzählen. Die anderen sind geschlossene Fragen. Darauf passt nur ja oder nein. Offene Fragen üben die Sprache viel besser."
       }
     },
     {
@@ -47,16 +74,42 @@
       "data": {
         "prompt": "💬 Erzähl-Frage oder Ja-Nein-Frage? Sortiere.",
         "buckets": [
-          { "id": "erzaehl", "label": "Erzähl-Frage", "icon": "💬" },
-          { "id": "janein", "label": "Ja-Nein-Frage", "icon": "✅" }
+          {
+            "id": "erzaehl",
+            "label": "Erzähl-Frage",
+            "icon": "💬"
+          },
+          {
+            "id": "janein",
+            "label": "Ja-Nein-Frage",
+            "icon": "✅"
+          }
         ],
         "items": [
-          { "text": "Was passiert auf dem Bild?", "bucket": "erzaehl" },
-          { "text": "Ist das ein Hund?", "bucket": "janein" },
-          { "text": "Warum weint das Mädchen?", "bucket": "erzaehl" },
-          { "text": "Magst du das Buch?", "bucket": "janein" },
-          { "text": "Wie geht die Geschichte wohl weiter?", "bucket": "erzaehl" },
-          { "text": "Ist das Auto rot?", "bucket": "janein" }
+          {
+            "text": "Was passiert auf dem Bild?",
+            "bucket": "erzaehl"
+          },
+          {
+            "text": "Ist das ein Hund?",
+            "bucket": "janein"
+          },
+          {
+            "text": "Warum weint das Mädchen?",
+            "bucket": "erzaehl"
+          },
+          {
+            "text": "Magst du das Buch?",
+            "bucket": "janein"
+          },
+          {
+            "text": "Wie geht die Geschichte wohl weiter?",
+            "bucket": "erzaehl"
+          },
+          {
+            "text": "Ist das Auto rot?",
+            "bucket": "janein"
+          }
         ]
       }
     },
@@ -65,10 +118,38 @@
       "data": {
         "prompt": "📚 Welches Buch passt zu welchem Alter? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "👶 Baby" }, "right": { "text": "Stoffbuch zum Anfassen" } },
-          { "left": { "text": "🧒 1 bis 2 Jahre" }, "right": { "text": "Dickes Pappbuch mit klaren Bildern" } },
-          { "left": { "text": "🎈 3 bis 4 Jahre" }, "right": { "text": "Bilderbuch mit kurzer Geschichte" } },
-          { "left": { "text": "🎒 5 bis 6 Jahre" }, "right": { "text": "Buch mit längerer Geschichte" } }
+          {
+            "left": {
+              "text": "👶 Baby"
+            },
+            "right": {
+              "text": "Stoffbuch zum Anfassen"
+            }
+          },
+          {
+            "left": {
+              "text": "🧒 1 bis 2 Jahre"
+            },
+            "right": {
+              "text": "Dickes Pappbuch mit klaren Bildern"
+            }
+          },
+          {
+            "left": {
+              "text": "🎈 3 bis 4 Jahre"
+            },
+            "right": {
+              "text": "Bilderbuch mit kurzer Geschichte"
+            }
+          },
+          {
+            "left": {
+              "text": "🎒 5 bis 6 Jahre"
+            },
+            "right": {
+              "text": "Buch mit längerer Geschichte"
+            }
+          }
         ],
         "memory": false
       }
@@ -78,11 +159,18 @@
       "data": {
         "prompt": "🔁 Das Kind möchte das gleiche Buch zum fünften Mal hören. Was machst du?",
         "options": [
-          { "text": "😊 Ich lese es gerne noch einmal vor.", "correct": true },
-          { "text": "🙄 Ich sage: Das kennst du doch schon!" },
-          { "text": "📕 Ich verstecke das Buch." }
+          {
+            "text": "😊 Ich lese es gerne noch einmal vor.",
+            "correct": true
+          },
+          {
+            "text": "🙄 Ich sage: Das kennst du doch schon. Such dir was Neues aus."
+          },
+          {
+            "text": "😐 Ich lese es schnell und ohne zu reden vor, damit es vorbei ist."
+          }
         ],
-        "explanation": "Wiederholung ist super für die Sprache. Beim fünften Mal kennt das Kind die Wörter schon. Es kann mitsprechen und fühlt sich stark."
+        "explanation": "Wiederholung ist super für die Sprache. Beim fünften Mal kennt das Kind die Wörter schon. Es kann mitsprechen und fühlt sich stark. Ein neues Buch oder schnelles Durchlesen nimmt ihm genau diese Übung weg."
       }
     },
     {
@@ -90,11 +178,18 @@
       "data": {
         "prompt": "🙋 Du liest vor. Das Kind unterbricht dich und erzählt etwas zum Bild. Was machst du?",
         "options": [
-          { "text": "👂 Ich höre zu. Danach lese ich weiter.", "correct": true },
-          { "text": "🤫 Ich sage: Pst! Nicht stören!" },
-          { "text": "📕 Ich klappe das Buch zu." }
+          {
+            "text": "👂 Ich höre zu. Danach lese ich weiter.",
+            "correct": true
+          },
+          {
+            "text": "🤫 Ich sage: Pst! Nicht stören beim Lesen!"
+          },
+          {
+            "text": "☝️ Ich sage: Warte, erst lese ich die Seite zu Ende."
+          }
         ],
-        "explanation": "Unterbrechen ist hier erlaubt! Wenn das Kind erzählt, übt es sprechen. Genau das ist das Ziel beim Bilderbuch-Gespräch."
+        "explanation": "Unterbrechen ist hier erwünscht. Wenn das Kind selbst erzählt, übt es das Sprechen. Genau das ist das Ziel beim Bilderbuch-Gespräch, wichtiger als die Geschichte zu Ende zu lesen."
       }
     },
     {
@@ -102,23 +197,37 @@
       "data": {
         "prompt": "⏰ Wann ist eine gute Zeit für das Bilderbuch?",
         "options": [
-          { "text": "🕐 Jeden Tag zur gleichen Zeit. Zum Beispiel vor dem Mittagsschlaf.", "correct": true },
-          { "text": "🎲 Nur wenn zufällig mal Zeit ist." },
-          { "text": "🌙 Nur einmal im Monat." }
+          {
+            "text": "🕐 Jeden Tag zur gleichen Zeit. Zum Beispiel vor dem Mittagsschlaf.",
+            "correct": true
+          },
+          {
+            "text": "🎲 Immer dann, wenn gerade zufällig Zeit ist."
+          },
+          {
+            "text": "🎉 Nur an besonderen Tagen, zum Beispiel am Wochenende."
+          }
         ],
-        "explanation": "Eine feste Bilderbuch-Zeit ist ein Ritual. Das Kind freut sich darauf. Und jeden Tag ein Buch hilft der Sprache am meisten."
+        "explanation": "Eine feste Bilderbuch-Zeit ist ein Ritual. Ein Ritual läuft jeden Tag gleich ab. Das Kind freut sich darauf und weiß, was kommt. Jeden Tag ein Buch hilft der Sprache mehr als ein seltener, besonderer Termin."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Was schaust du dir mit dem Kind im Bilderbuch an?",
+        "prompt": "🌟 Letzte Frage: Was schaut ihr euch beim Bilderbuch-Gespräch an und redet darüber?",
         "options": [
-          { "text": "🖼️ Die Bilder.", "correct": true },
-          { "text": "📄 Nur die leeren Seiten." },
-          { "text": "🔢 Nur die Seitenzahlen." }
+          {
+            "text": "🖼️ Die Bilder.",
+            "correct": true
+          },
+          {
+            "text": "🔤 Vor allem die Buchstaben. Das Kind soll ja lesen lernen."
+          },
+          {
+            "text": "❓ Vor allem ein Abfragen: Ich prüfe, was das Kind schon kennt."
+          }
         ],
-        "explanation": "Die Bilder sind das Herz vom Bilderbuch. Über Bilder kann man wunderbar reden."
+        "explanation": "Die Bilder sind das Herz vom Bilderbuch-Gespräch. Über Bilder könnt ihr frei erzählen. Es geht nicht ums Lesen-Lernen und nicht ums Abfragen, sondern ums gemeinsame Reden."
       }
     }
   ]

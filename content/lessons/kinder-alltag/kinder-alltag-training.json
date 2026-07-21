@@ -2,6 +2,7 @@
   "topic_slug": "kinder-alltag",
   "slug": "kinder-alltag-training",
   "title": "Training: Der Kita-Alltag",
+  "intro": "🧒 Im Kita-Alltag gibt es feste Abläufe. Feste Abläufe geben den Kindern Sicherheit. Du begleitest die Kinder durch den Tag und bist dabei ihr Vorbild. Beim Zähneputzen hilft die KAI-Regel: K steht für Kauflächen, A für außen, I für innen. Nach dem Essen putzen die Kinder die Zähne. Denn beim Essen bleibt ein weicher Belag auf den Zähnen. Beim Mittagessen essen die Kinder selbst und lernen so Selbstständigkeit. In der Ruhezeit verarbeiten die Kinder die vielen Reize vom Vormittag und tanken neue Kraft. Bei einem Ausflug hast du die Aufsichtspflicht. Das heißt: Du weißt immer, wo jedes Kind ist.",
   "sort": 3,
   "exercises": [
     {
@@ -9,25 +10,44 @@
       "data": {
         "prompt": "🪥 Zähne putzen mit Kindern. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🪥 Die Zahnbürste nass machen." },
-          { "text": "🧴 Wenig Zahnpasta auf die Bürste geben." },
-          { "text": "😬 Erst die Kauflächen putzen." },
-          { "text": "😁 Dann außen putzen." },
-          { "text": "👅 Dann innen putzen." },
-          { "text": "💧 Den Mund ausspülen." }
+          {
+            "text": "🪥 Die Zahnbürste nass machen."
+          },
+          {
+            "text": "🧴 Wenig Zahnpasta auf die Bürste geben."
+          },
+          {
+            "text": "😬 Erst die Kauflächen putzen."
+          },
+          {
+            "text": "😁 Dann außen putzen."
+          },
+          {
+            "text": "👅 Dann innen putzen."
+          },
+          {
+            "text": "💧 Den Mund ausspülen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Wie lange putzen Kinder ihre Zähne?",
+        "prompt": "⏱️ Ein Kind putzt nur ganz kurz und will schon aufhören. Wie lange sollten die Zähne wirklich geputzt werden?",
         "options": [
-          { "text": "🎵 Etwa 2 bis 3 Minuten", "correct": true },
-          { "text": "⚡ 5 Sekunden reichen" },
-          { "text": "🕐 Eine ganze Stunde" }
+          {
+            "text": "🎵 Etwa 2 bis 3 Minuten",
+            "correct": true
+          },
+          {
+            "text": "⚡ Etwa 20 Sekunden, einmal schnell drüber"
+          },
+          {
+            "text": "🕐 Mindestens 10 Minuten am Stück"
+          }
         ],
-        "explanation": "2 bis 3 Minuten putzen. Tipp: Ein Zahnputzlied hilft. Wenn das Lied fertig ist, sind die Zähne sauber."
+        "explanation": "2 bis 3 Minuten sind nötig. So lange dauert es, alle Flächen sauber zu machen: Kauflächen, Außenseite und Innenseite. Das nennt man die KAI-Regel. Tipp: Ein Zahnputzlied hilft. Ist das Lied zu Ende, ist die Zeit um."
       }
     },
     {
@@ -35,24 +55,41 @@
       "data": {
         "prompt": "🧥 Anziehen für den Winter. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "👖 Die Schneehose anziehen." },
-          { "text": "🥾 Die Stiefel anziehen." },
-          { "text": "🧥 Die Jacke anziehen." },
-          { "text": "🧢 Die Mütze aufsetzen." },
-          { "text": "🧤 Zum Schluss die Handschuhe anziehen." }
+          {
+            "text": "👖 Die Schneehose anziehen."
+          },
+          {
+            "text": "🥾 Die Stiefel anziehen."
+          },
+          {
+            "text": "🧥 Die Jacke anziehen."
+          },
+          {
+            "text": "🧢 Die Mütze aufsetzen."
+          },
+          {
+            "text": "🧤 Zum Schluss die Handschuhe anziehen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚸 Ihr wollt über die Straße gehen. Was machst du mit den Kindern?",
+        "prompt": "🚸 Ihr wollt über die Straße gehen. Wie gehst du mit den Kindern sicher hinüber?",
         "options": [
-          { "text": "🛑 Am Bordstein anhalten. Links, rechts, links schauen.", "correct": true },
-          { "text": "🏃 Schnell über die Straße rennen." },
-          { "text": "📱 Beim Gehen auf das Handy schauen." }
+          {
+            "text": "🛑 Am Bordstein anhalten. Links, rechts, links schauen.",
+            "correct": true
+          },
+          {
+            "text": "👈 Nur kurz nach links schauen und dann losgehen."
+          },
+          {
+            "text": "🚗 Zwischen geparkten Autos hindurch schnell rüber."
+          }
         ],
-        "explanation": "Erst anhalten. Dann gut schauen: links, rechts und wieder links. Erst wenn alles frei ist, gehen wir los."
+        "explanation": "Erst am Bordstein anhalten. Der Bordstein ist die Kante zwischen Gehweg und Straße. Dann schauen: links, rechts und noch einmal links. Nicht zwischen parkenden Autos gehen, dort sieht euch niemand. Erst wenn alles frei ist, gehen wir los."
       }
     },
     {
@@ -60,42 +97,86 @@
       "data": {
         "prompt": "🧹 Aufräum-Zeit! Wohin gehören die Sachen? Sortiere.",
         "buckets": [
-          { "id": "regal", "label": "Bücherregal", "icon": "📚" },
-          { "id": "kiste", "label": "Spielzeugkiste", "icon": "🧸" },
-          { "id": "maltisch", "label": "Maltisch", "icon": "🎨" }
+          {
+            "id": "regal",
+            "label": "Bücherregal",
+            "icon": "📚"
+          },
+          {
+            "id": "kiste",
+            "label": "Spielzeugkiste",
+            "icon": "🧸"
+          },
+          {
+            "id": "maltisch",
+            "label": "Maltisch",
+            "icon": "🎨"
+          }
         ],
         "items": [
-          { "text": "📖 Bilderbuch", "bucket": "regal" },
-          { "text": "📕 Vorlesebuch", "bucket": "regal" },
-          { "text": "🧱 Bauklötze", "bucket": "kiste" },
-          { "text": "🪆 Puppe", "bucket": "kiste" },
-          { "text": "🖍️ Buntstifte", "bucket": "maltisch" },
-          { "text": "📄 Malpapier", "bucket": "maltisch" }
+          {
+            "text": "📖 Bilderbuch",
+            "bucket": "regal"
+          },
+          {
+            "text": "📕 Vorlesebuch",
+            "bucket": "regal"
+          },
+          {
+            "text": "🧱 Bauklötze",
+            "bucket": "kiste"
+          },
+          {
+            "text": "🪆 Puppe",
+            "bucket": "kiste"
+          },
+          {
+            "text": "🖍️ Buntstifte",
+            "bucket": "maltisch"
+          },
+          {
+            "text": "📄 Malpapier",
+            "bucket": "maltisch"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😴 Nach dem Mittagessen ist Ruhezeit. Warum ist die Pause wichtig?",
+        "prompt": "😴 Nach dem Mittagessen ist Ruhezeit. Was ist der wichtigste Grund für diese Pause?",
         "options": [
-          { "text": "🔋 Die Kinder tanken neue Kraft. Ausruhen ist gesund.", "correct": true },
-          { "text": "📺 Damit die Kinder fernsehen können." },
-          { "text": "🙄 Die Pause ist gar nicht wichtig." }
+          {
+            "text": "🔋 Die Kinder tanken neue Kraft. Ausruhen ist gesund.",
+            "correct": true
+          },
+          {
+            "text": "🤫 Damit die Kinder mal still sind und keinen Ärger machen."
+          },
+          {
+            "text": "⏳ Nur damit die Zeit bis zum Abholen vergeht."
+          }
         ],
-        "explanation": "Spielen macht müde. In der Ruhezeit erholen sich die Kinder. Danach haben sie wieder Energie."
+        "explanation": "Am Vormittag erleben Kinder sehr viel. Man sagt: Sie bekommen viele Reize. In der Ruhezeit können sie das alles verarbeiten und tanken neue Kraft. Es geht um die Kinder, nicht ums Stillsein."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍽️ Die Kinder essen zu Mittag. Was machst du?",
+        "prompt": "🍽️ Die Kinder essen zu Mittag. Wie verhältst du dich am besten?",
         "options": [
-          { "text": "🪑 Ich sitze mit am Tisch. Wir essen in Ruhe zusammen.", "correct": true },
-          { "text": "🏃 Ich laufe im Raum herum." },
-          { "text": "📱 Ich schaue die ganze Zeit auf mein Handy." }
+          {
+            "text": "🪑 Ich sitze mit am Tisch. Wir essen in Ruhe zusammen.",
+            "correct": true
+          },
+          {
+            "text": "🥄 Ich füttere jedes Kind selbst, damit nichts daneben geht."
+          },
+          {
+            "text": "🧽 Ich räume schon die Küche auf, während die Kinder essen."
+          }
         ],
-        "explanation": "Du bist ein Vorbild. Du sitzt ruhig am Tisch. So lernen die Kinder: Essen ist gemütlich."
+        "explanation": "Du bist ein Vorbild. Du sitzt ruhig mit am Tisch. Die Kinder essen aber selbst, das nennt man Selbstständigkeit. Kleckern gehört dazu. So lernen sie: Essen ist gemütlich."
       }
     },
     {
@@ -103,10 +184,38 @@
       "data": {
         "prompt": "🧩 Was gehört zusammen? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🪥 Zahnbürste" }, "right": { "text": "Zähne putzen" } },
-          { "left": { "text": "🧻 Taschentuch" }, "right": { "text": "Nase putzen" } },
-          { "left": { "text": "🦺 Warnweste" }, "right": { "text": "Gut gesehen werden" } },
-          { "left": { "text": "🧸 Spielzeugkiste" }, "right": { "text": "Aufräumen" } }
+          {
+            "left": {
+              "text": "🪥 Zahnbürste"
+            },
+            "right": {
+              "text": "Zähne putzen"
+            }
+          },
+          {
+            "left": {
+              "text": "🧻 Taschentuch"
+            },
+            "right": {
+              "text": "Nase putzen"
+            }
+          },
+          {
+            "left": {
+              "text": "🦺 Warnweste"
+            },
+            "right": {
+              "text": "Gut gesehen werden"
+            }
+          },
+          {
+            "left": {
+              "text": "🧸 Spielzeugkiste"
+            },
+            "right": {
+              "text": "Aufräumen"
+            }
+          }
         ],
         "memory": false
       }
@@ -114,24 +223,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚶 Ihr macht einen Ausflug mit der Gruppe. Was ist wichtig?",
+        "prompt": "🚶 Ihr macht einen Ausflug mit der Gruppe. Wie sorgst du dafür, dass alle Kinder sicher sind?",
         "options": [
-          { "text": "🤝 Alle bleiben zusammen. Jedes Kind hat einen Partner an der Hand.", "correct": true },
-          { "text": "🏃 Jedes Kind rennt, wohin es will." },
-          { "text": "🙈 Wir zählen die Kinder nicht." }
+          {
+            "text": "🤝 Alle bleiben zusammen. Jedes Kind hat einen Partner an der Hand.",
+            "correct": true
+          },
+          {
+            "text": "🏃 Die schnellen Kinder dürfen vorlaufen, der Rest kommt nach."
+          },
+          {
+            "text": "🔢 Einmal am Anfang zählen reicht für den ganzen Ausflug."
+          }
         ],
-        "explanation": "Beim Ausflug bleiben alle zusammen. Die Kinder gehen paarweise. Und wir zählen oft nach: Sind alle da?"
+        "explanation": "Als Betreuer hast du die Aufsichtspflicht. Das heißt: Du musst immer wissen, wo jedes Kind ist. Darum bleiben alle zusammen, die Kinder gehen paarweise, und du zählst immer wieder nach: Sind alle da?"
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪥 Wann putzen die Kinder ihre Zähne?",
+        "prompt": "🪥 In der Kita putzen die Kinder nach dem Mittagessen die Zähne. Welche Regel steckt dahinter?",
         "options": [
-          { "text": "🍽️ Nach dem Essen", "correct": true },
-          { "text": "🙅 Nie" }
+          {
+            "text": "🍽️ Nach dem Essen",
+            "correct": true
+          },
+          {
+            "text": "🍬 Nur wenn ein Zahn schon wehtut"
+          },
+          {
+            "text": "📅 Einmal in der Woche reicht"
+          }
         ],
-        "explanation": "Nach dem Essen werden die Zähne geputzt. Das machst du prima!"
+        "explanation": "Nach dem Essen werden die Zähne geputzt. Beim Essen bleibt ein weicher Belag auf den Zähnen, der Zahnbelag. Putzen entfernt ihn, bevor er den Zähnen schadet. Warten, bis ein Zahn wehtut, ist zu spät."
       }
     }
   ]

@@ -2,18 +2,26 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-energie-lebensmittel",
   "title": "Energiereich & energiearm",
+  "intro": "🔋 In dieser Lektion geht es um die Energie in Lebensmitteln. Energie wird in Kalorien gemessen. Ein Lebensmittel mit vielen Kalorien ist energiereich. Ein Lebensmittel mit wenigen Kalorien ist energiearm. Vor allem Fett und Zucker liefern viel Energie. Wasser hat keine Kalorien und ist deshalb energiearm. Auch die Zubereitung spielt eine Rolle. Zubereitung mit viel Fett macht ein Gericht energiereicher. Energiereich sagt aber nichts über Vitamine oder das Sattsein aus. Es beschreibt nur, wie viel Energie in einem Lebensmittel steckt.",
   "sort": 220,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔋 Manche Lebensmittel geben viel Energie, andere wenig. Was bedeutet \"energiereich\"?",
+        "prompt": "🔋 Manche Lebensmittel geben viel Energie, andere wenig. Was bedeutet \"energiereich\" genau?",
         "options": [
-          { "text": "Es steckt viel Energie drin, also viele Kalorien.", "correct": true },
-          { "text": "Es ist besonders kalt." },
-          { "text": "Es hat besonders viele Vitamine." }
+          {
+            "text": "Es steckt viel Energie drin, also viele Kalorien.",
+            "correct": true
+          },
+          {
+            "text": "Es hat besonders viele Vitamine."
+          },
+          {
+            "text": "Es macht besonders lange satt."
+          }
         ],
-        "explanation": "Energiereich bedeutet: Das Lebensmittel liefert viele Kalorien. Meist ist viel Fett oder Zucker enthalten."
+        "explanation": "Kalorien sind das Maß für Energie. Energiereich heißt: Das Lebensmittel liefert viele Kalorien. Meist stecken viel Fett oder Zucker darin. Mit Vitaminen oder mit dem Sattsein hat das nichts zu tun."
       }
     },
     {
@@ -21,9 +29,30 @@
       "data": {
         "prompt": "🔗 Beide Lebensmittel sind ähnlich. Links steht das energiearme, rechts das energiereiche. Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🍎 Apfel" }, "right": { "text": "🍇 Weintrauben" } },
-          { "left": { "text": "🥔 Salzkartoffeln" }, "right": { "text": "🍟 Pommes frites" } },
-          { "left": { "text": "💧 Mineralwasser" }, "right": { "text": "🥤 Cola" } }
+          {
+            "left": {
+              "text": "🍎 Apfel"
+            },
+            "right": {
+              "text": "🍇 Weintrauben"
+            }
+          },
+          {
+            "left": {
+              "text": "🥔 Salzkartoffeln"
+            },
+            "right": {
+              "text": "🍟 Pommes frites"
+            }
+          },
+          {
+            "left": {
+              "text": "💧 Mineralwasser"
+            },
+            "right": {
+              "text": "🥤 Cola"
+            }
+          }
         ],
         "memory": false
       }
@@ -33,31 +62,70 @@
       "data": {
         "prompt": "🗂️ Sortiere die Lebensmittel nach ihrem Energiegehalt.",
         "buckets": [
-          { "id": "reich", "label": "Energiereich", "icon": "🔋" },
-          { "id": "arm", "label": "Energiearm", "icon": "🍃" }
+          {
+            "id": "reich",
+            "label": "Energiereich",
+            "icon": "🔋"
+          },
+          {
+            "id": "arm",
+            "label": "Energiearm",
+            "icon": "🍃"
+          }
         ],
         "items": [
-          { "text": "Cola", "bucket": "reich" },
-          { "text": "Pommes frites", "bucket": "reich" },
-          { "text": "Sahnetorte", "bucket": "reich" },
-          { "text": "Erdnüsse", "bucket": "reich" },
-          { "text": "Mineralwasser", "bucket": "arm" },
-          { "text": "Apfel", "bucket": "arm" },
-          { "text": "Salzkartoffeln", "bucket": "arm" },
-          { "text": "Forelle", "bucket": "arm" }
+          {
+            "text": "Cola",
+            "bucket": "reich"
+          },
+          {
+            "text": "Pommes frites",
+            "bucket": "reich"
+          },
+          {
+            "text": "Sahnetorte",
+            "bucket": "reich"
+          },
+          {
+            "text": "Erdnüsse",
+            "bucket": "reich"
+          },
+          {
+            "text": "Mineralwasser",
+            "bucket": "arm"
+          },
+          {
+            "text": "Apfel",
+            "bucket": "arm"
+          },
+          {
+            "text": "Salzkartoffeln",
+            "bucket": "arm"
+          },
+          {
+            "text": "Forelle",
+            "bucket": "arm"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Was ist energieärmer?",
+        "prompt": "💧 Du hast Durst und willst möglichst wenig Energie. Was ist am energieärmsten?",
         "options": [
-          { "text": "Mineralwasser.", "correct": true },
-          { "text": "Cola." },
-          { "text": "Sahnetorte." }
+          {
+            "text": "Mineralwasser.",
+            "correct": true
+          },
+          {
+            "text": "Apfelschorle."
+          },
+          {
+            "text": "Orangensaft."
+          }
         ],
-        "explanation": "Mineralwasser hat keine Kalorien. In Cola steckt viel Zucker, deshalb ist sie energiereich."
+        "explanation": "Mineralwasser hat keine Kalorien, also keine Energie. Apfelschorle und Orangensaft enthalten Zucker aus dem Saft. Dieser Zucker liefert Energie, darum sind sie energiereicher."
       }
     },
     {
@@ -65,11 +133,18 @@
       "data": {
         "prompt": "🍎 Du möchtest etwas Süßes mit wenig Energie. Was passt am besten?",
         "options": [
-          { "text": "Ein Apfel.", "correct": true },
-          { "text": "Weintrauben." },
-          { "text": "Erdnüsse." }
+          {
+            "text": "Ein Apfel.",
+            "correct": true
+          },
+          {
+            "text": "Weintrauben."
+          },
+          {
+            "text": "Getrocknete Datteln."
+          }
         ],
-        "explanation": "Ein Apfel ist energiearm. Weintrauben haben mehr Zucker und Erdnüsse viel Fett. Beide sind energiereicher."
+        "explanation": "Ein Apfel ist süß und trotzdem energiearm. Weintrauben und getrocknete Datteln enthalten viel Zucker. Getrocknetes Obst hat besonders viel Zucker auf wenig Gewicht, darum ist es energiereicher."
       }
     },
     {
@@ -77,9 +152,30 @@
       "data": {
         "prompt": "🔗 Auch hier gehören energiearm und energiereich zusammen. Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Gemüsebrühe" }, "right": { "text": "Ochsenschwanzsuppe" } },
-          { "left": { "text": "Joghurt-Dressing" }, "right": { "text": "Mayonnaise" } },
-          { "left": { "text": "Forelle geräuchert" }, "right": { "text": "Aal geräuchert" } }
+          {
+            "left": {
+              "text": "Gemüsebrühe"
+            },
+            "right": {
+              "text": "Ochsenschwanzsuppe"
+            }
+          },
+          {
+            "left": {
+              "text": "Joghurt-Dressing"
+            },
+            "right": {
+              "text": "Mayonnaise"
+            }
+          },
+          {
+            "left": {
+              "text": "Forelle geräuchert"
+            },
+            "right": {
+              "text": "Aal geräuchert"
+            }
+          }
         ],
         "memory": false
       }
@@ -87,25 +183,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥔 Was ist die energieärmere Beilage?",
+        "prompt": "🥔 Du machst Kartoffeln als Beilage und willst Energie sparen. Welche Zubereitung ist am energieärmsten?",
         "options": [
-          { "text": "Salzkartoffeln.", "correct": true },
-          { "text": "Pommes frites." },
-          { "text": "Kroketten." }
+          {
+            "text": "Salzkartoffeln.",
+            "correct": true
+          },
+          {
+            "text": "Pommes frites."
+          },
+          {
+            "text": "Kroketten."
+          }
         ],
-        "explanation": "Salzkartoffeln werden in Wasser gekocht und brauchen kein Fett. Pommes und Kroketten werden in Fett zubereitet und sind energiereicher."
+        "explanation": "Salzkartoffeln werden nur in Wasser gekocht, sie brauchen kein Fett. Pommes und Kroketten werden in Fett ausgebacken. Fett liefert viel Energie, darum sind sie energiereicher."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Du möchtest wenig Energie zu dir nehmen. Was trinkst du?",
+        "prompt": "✅ Nach dem Sport hast du Durst und willst wenig Energie zu dir nehmen. Was trinkst du?",
         "options": [
-          { "text": "Mineralwasser.", "correct": true },
-          { "text": "Cola." },
-          { "text": "Kakao mit Sahne." }
+          {
+            "text": "Mineralwasser.",
+            "correct": true
+          },
+          {
+            "text": "Gesüßter Eistee."
+          },
+          {
+            "text": "Cola."
+          }
         ],
-        "explanation": "Mineralwasser hat keine Kalorien und löscht den Durst. Cola und Kakao mit Sahne enthalten viel Zucker und Fett."
+        "explanation": "Mineralwasser hat keine Kalorien und löscht den Durst am besten. Gesüßter Eistee und Cola sehen erfrischend aus, enthalten aber viel Zucker und damit viel Energie."
       }
     }
   ]

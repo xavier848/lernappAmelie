@@ -2,6 +2,7 @@
   "topic_slug": "kinder-alltag",
   "slug": "kinder-alltag-vertiefung-1",
   "title": "Gemeinsam essen am Tisch",
+  "intro": "🍽️ Kinder decken den Tisch mit und üben so Selbstständigkeit. Du sitzt mit am Tisch und bist ein Vorbild. Ein Vorbild ist jemand, dem das Kind etwas abschaut. Isst du selbst mit Freude, probieren viele Kinder von allein. Zwinge ein Kind nie zum Essen, sondern ermutige es zu einem kleinen Bissen. Gib zuerst kleine Portionen, denn Nachnehmen ist immer erlaubt. Kippt einmal ein Becher um, bleibst du ruhig und wischst gemeinsam auf. Bei einer Allergie verträgt der Körper einen bestimmten Stoff nicht und wird davon krank. Schau darum immer auf die Allergie-Liste und frage im Zweifel die Fachkraft. Feste Rituale wie „Guten Appetit“ machen die Runde am Tisch gemütlich.",
   "sort": 4,
   "exercises": [
     {
@@ -9,37 +10,63 @@
       "data": {
         "prompt": "🍽️ Du deckst mit den Kindern den Tisch fürs Mittagessen. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧼 Hände waschen." },
-          { "text": "🧽 Den Tisch sauber abwischen." },
-          { "text": "🍽️ Die Teller hinstellen." },
-          { "text": "🍴 Das Besteck neben die Teller legen." },
-          { "text": "🥛 Die Becher hinstellen." },
-          { "text": "💧 Den Wasserkrug auf den Tisch stellen." }
+          {
+            "text": "🧼 Hände waschen."
+          },
+          {
+            "text": "🧽 Den Tisch sauber abwischen."
+          },
+          {
+            "text": "🍽️ Die Teller hinstellen."
+          },
+          {
+            "text": "🍴 Das Besteck neben die Teller legen."
+          },
+          {
+            "text": "🥛 Die Becher hinstellen."
+          },
+          {
+            "text": "💧 Den Wasserkrug auf den Tisch stellen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥦 Ein Kind will das Gemüse nicht probieren. Was machst du?",
+        "prompt": "🥦 Ein Kind schiebt das Gemüse weg und will nichts davon probieren. Wie reagierst du am besten?",
         "options": [
-          { "text": "🙂 Ich ermutige freundlich: „Probier einen kleinen Bissen.“ Aber ich zwinge nie.", "correct": true },
-          { "text": "😠 Ich sage: „Du bleibst sitzen, bis der Teller leer ist.“" },
-          { "text": "🍫 Ich gebe dem Kind stattdessen Schokolade." }
+          {
+            "text": "🙂 Ich ermutige freundlich: „Probier einen kleinen Bissen.“ Aber ich zwinge nie.",
+            "correct": true
+          },
+          {
+            "text": "😐 Ich nehme das Gemüse wortlos vom Teller. Dann gibt es keinen Streit."
+          },
+          {
+            "text": "👀 Ich lobe laut die anderen Kinder, die brav aufessen."
+          }
         ],
-        "explanation": "Zwang macht das Essen zum Streit. Ermutige zum Probieren und sei Vorbild: Iss selbst mit Freude. Oft probieren Kinder später von allein."
+        "explanation": "Zwang macht das Essen zum Streit. Auch das Wegnehmen oder das Vergleichen mit anderen hilft nicht. Ermutige lieber zum Probieren und sei ein Vorbild. Ein Vorbild ist jemand, dem das Kind etwas abschaut: Iss selbst mit Freude. Dann probieren viele Kinder später von allein."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥄 Wie viel Essen kommt am besten auf den Kinderteller?",
+        "prompt": "🥄 Ein Kind ruft: „Ich habe großen Hunger!“ Wie viel gibst du zuerst auf den Teller?",
         "options": [
-          { "text": "🤏 Eine kleine Portion. Nachnehmen ist immer erlaubt.", "correct": true },
-          { "text": "🏔️ Ein riesiger Berg, damit es reicht." },
-          { "text": "🤷 Gar nichts, die Kinder sollen nur zuschauen." }
+          {
+            "text": "🤏 Eine kleine Portion. Nachnehmen ist immer erlaubt.",
+            "correct": true
+          },
+          {
+            "text": "🍽️ So viel, dass der Teller ganz voll ist. Dann muss ich nicht noch einmal geben."
+          },
+          {
+            "text": "⚖️ Genau so viel, wie ein Erwachsener isst."
+          }
         ],
-        "explanation": "Ein voller Teller kann Kinder überfordern. Kleine Portionen machen Mut. Wer noch Hunger hat, nimmt sich einfach nach."
+        "explanation": "Ein voller Teller kann ein Kind überfordern, auch bei großem Hunger. Und ein Kind braucht kleinere Portionen als ein Erwachsener. Eine kleine Portion macht Mut. Wer noch Hunger hat, nimmt sich einfach nach."
       }
     },
     {
@@ -47,41 +74,81 @@
       "data": {
         "prompt": "🧺 Sortiere: Was gehört zu einer guten Essenssituation? Was gehört nicht an den Tisch?",
         "buckets": [
-          { "id": "gut", "label": "Gehört dazu", "icon": "💚" },
-          { "id": "nicht", "label": "Gehört nicht dazu", "icon": "🚫" }
+          {
+            "id": "gut",
+            "label": "Gehört dazu",
+            "icon": "💚"
+          },
+          {
+            "id": "nicht",
+            "label": "Gehört nicht dazu",
+            "icon": "🚫"
+          }
         ],
         "items": [
-          { "text": "🪑 Beim Essen sitzen bleiben", "bucket": "gut" },
-          { "text": "🗣️ In Ruhe miteinander reden", "bucket": "gut" },
-          { "text": "🙏 Aufeinander warten und „Guten Appetit“ wünschen", "bucket": "gut" },
-          { "text": "🏃 Mit dem Essen herumlaufen", "bucket": "nicht" },
-          { "text": "🍝 Mit Essen werfen", "bucket": "nicht" },
-          { "text": "📱 Das Handy am Tisch", "bucket": "nicht" }
+          {
+            "text": "🪑 Beim Essen sitzen bleiben",
+            "bucket": "gut"
+          },
+          {
+            "text": "🗣️ In Ruhe miteinander reden",
+            "bucket": "gut"
+          },
+          {
+            "text": "🙏 Aufeinander warten und „Guten Appetit“ wünschen",
+            "bucket": "gut"
+          },
+          {
+            "text": "🏃 Mit dem Essen herumlaufen",
+            "bucket": "nicht"
+          },
+          {
+            "text": "🍝 Mit Essen werfen",
+            "bucket": "nicht"
+          },
+          {
+            "text": "📱 Das Handy am Tisch",
+            "bucket": "nicht"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💦 Ein Kind stößt seinen Becher um. Wasser läuft über den Tisch. Was machst du?",
+        "prompt": "💦 Ein Kind stößt beim Trinken den Becher um. Wasser läuft über den ganzen Tisch. Wie reagierst du?",
         "options": [
-          { "text": "🧽 Ich bleibe ruhig. Wir wischen es zusammen auf.", "correct": true },
-          { "text": "😡 Ich schimpfe laut vor allen Kindern." },
-          { "text": "🙈 Ich lasse das Wasser einfach auf den Boden tropfen." }
+          {
+            "text": "🧽 Ich bleibe ruhig. Wir wischen es zusammen auf.",
+            "correct": true
+          },
+          {
+            "text": "🤫 Ich wische schnell allein auf und sage lieber nichts dazu."
+          },
+          {
+            "text": "🙄 Ich sage: „So ein Malheur. Pass das nächste Mal besser auf.“"
+          }
         ],
-        "explanation": "Missgeschicke passieren jedem. Ruhig bleiben, Lappen holen, gemeinsam aufwischen. So lernt das Kind ohne Angst."
+        "explanation": "So ein Missgeschick passiert jedem. Ein Missgeschick ist ein kleiner Unfall, der aus Versehen passiert. Ruhig bleiben, Lappen holen und gemeinsam aufwischen. Wenn das Kind mithelfen darf, lernt es ohne Angst und ohne sich zu schämen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚠️ Ein Kind in der Gruppe verträgt keine Milch (Allergie). Es gibt Milchreis. Was tust du?",
+        "prompt": "⚠️ Ein Kind in der Gruppe hat eine Milch-Allergie. Heute gibt es Milchreis. Was tust du?",
         "options": [
-          { "text": "📋 Ich schaue auf die Allergie-Liste und frage die Fachkraft. Das Kind bekommt nur erlaubtes Essen.", "correct": true },
-          { "text": "🤷 Ein bisschen Milchreis schadet sicher nicht." },
-          { "text": "🍚 Ich gebe dem Kind einfach eine kleinere Portion Milchreis." }
+          {
+            "text": "📋 Ich schaue auf die Allergie-Liste und frage die Fachkraft. Das Kind bekommt nur erlaubtes Essen.",
+            "correct": true
+          },
+          {
+            "text": "🤔 Ich erinnere mich: Letzte Woche ging es doch auch. Dann gebe ich ihm etwas."
+          },
+          {
+            "text": "🍚 Ich gebe dem Kind einfach eine kleinere Portion Milchreis."
+          }
         ],
-        "explanation": "Allergien sind ernst. Schon kleine Mengen können krank machen. Immer auf die Liste schauen und im Zweifel die Fachkraft fragen."
+        "explanation": "Eine Allergie heißt: Der Körper verträgt einen bestimmten Stoff nicht und wird davon krank. Schon kleine Mengen können gefährlich sein. Verlass dich nie auf dein Gedächtnis. Schau immer auf die Liste und frage im Zweifel die Fachkraft."
       }
     },
     {
@@ -89,10 +156,38 @@
       "data": {
         "prompt": "🧩 Warum machen wir das beim Essen so? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🍽️ Kinder decken den Tisch mit" }, "right": { "text": "Sie üben Selbstständigkeit" } },
-          { "left": { "text": "🪑 Du sitzt mit am Tisch" }, "right": { "text": "Du bist ein Vorbild" } },
-          { "left": { "text": "🤏 Kleine Portionen" }, "right": { "text": "Nachnehmen ist erlaubt" } },
-          { "left": { "text": "💧 Der Krug steht auf dem Tisch" }, "right": { "text": "Kinder schenken selbst ein" } }
+          {
+            "left": {
+              "text": "🍽️ Kinder decken den Tisch mit"
+            },
+            "right": {
+              "text": "Sie üben Selbstständigkeit"
+            }
+          },
+          {
+            "left": {
+              "text": "🪑 Du sitzt mit am Tisch"
+            },
+            "right": {
+              "text": "Du bist ein Vorbild"
+            }
+          },
+          {
+            "left": {
+              "text": "🤏 Kleine Portionen"
+            },
+            "right": {
+              "text": "Nachnehmen ist erlaubt"
+            }
+          },
+          {
+            "left": {
+              "text": "💧 Der Krug steht auf dem Tisch"
+            },
+            "right": {
+              "text": "Kinder schenken selbst ein"
+            }
+          }
         ],
         "memory": false
       }
@@ -102,23 +197,41 @@
       "data": {
         "prompt": "🧹 Das Essen ist fertig. Jetzt wird abgeräumt. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧻 Den Mund mit der Serviette abwischen." },
-          { "text": "🍽️ Jedes Kind bringt seinen Teller zum Wagen." },
-          { "text": "🧽 Den Tisch abwischen." },
-          { "text": "🧹 Den Boden unter dem Tisch fegen." },
-          { "text": "🧼 Hände waschen." }
+          {
+            "text": "🧻 Den Mund mit der Serviette abwischen."
+          },
+          {
+            "text": "🍽️ Jedes Kind bringt seinen Teller zum Wagen."
+          },
+          {
+            "text": "🧽 Den Tisch abwischen."
+          },
+          {
+            "text": "🧹 Den Boden unter dem Tisch fegen."
+          },
+          {
+            "text": "🧼 Hände waschen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😊 Alle sitzen am Tisch. Das Essen steht bereit. Was wünschen wir uns?",
+        "prompt": "😊 Alle sitzen am Tisch. Das Essen steht bereit. Welchen Satz sagen wir jetzt gemeinsam?",
         "options": [
-          { "text": "🍽️ „Guten Appetit!“", "correct": true },
-          { "text": "🌙 „Gute Nacht!“" }
+          {
+            "text": "🍽️ „Guten Appetit!“",
+            "correct": true
+          },
+          {
+            "text": "🤧 „Gesundheit!“"
+          },
+          {
+            "text": "🎂 „Herzlichen Glückwunsch!“"
+          }
         ],
-        "explanation": "Mit einem gemeinsamen „Guten Appetit“ beginnt das Essen. So ein Ritual macht die Runde gemütlich. Das klappt bei dir bestimmt!"
+        "explanation": "„Guten Appetit“ sagt man zum Start vom Essen. „Gesundheit“ sagt man, wenn jemand niest. „Herzlichen Glückwunsch“ sagt man zum Geburtstag. Der gemeinsame Start ist ein Ritual: eine kleine Handlung, die sich jeden Tag wiederholt. Das macht die Runde am Tisch gemütlich."
       }
     }
   ]

@@ -2,30 +2,45 @@
   "topic_slug": "kinder-gefuehle",
   "slug": "kinder-gefuehle-vertiefung-2",
   "title": "Streit? So hilfst du beiden Kindern",
+  "intro": "🧒 Streit unter Kindern ist normal und sogar wichtig. Im Streit lernen Kinder, ihre Meinung zu sagen und Lösungen zu finden. Das nennt man Konfliktfähigkeit. Solange niemand verletzt wird, hältst du dich zurück und schaust nur genau hin. Fachleute nennen das begleitendes Beobachten. Sobald ein Kind haut, beißt oder wirft, gehst du sofort dazwischen und setzt eine klare Grenze. Kommen die Kinder allein nicht weiter, hörst du beiden zu und benennst ihre Gefühle. Danach sollen sie selbst eine faire Lösung finden, zum Beispiel durch Abwechseln. Hat ein Kind etwas kaputt gemacht, ist eine Wiedergutmachung besser als eine Strafe. Am Ende lobst du die Kinder dafür, dass sie ihren Streit selbst gelöst haben.",
   "sort": 4,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚗 Zwei Kinder streiten laut um ein Spielzeug-Auto. Niemand tut dem anderen weh. Was machst du?",
+        "prompt": "🚗 Zwei Kinder streiten laut um ein Spielzeug-Auto. Sie schreien, aber niemand tut dem anderen weh. Was ist jetzt am besten?",
         "options": [
-          { "text": "👀 Ich beobachte erst. Vielleicht lösen sie es selbst.", "correct": true },
-          { "text": "🏃 Ich renne sofort hin und nehme das Auto weg." },
-          { "text": "📣 Ich rufe von weitem: Ruhe jetzt!" }
+          {
+            "text": "👀 Ich beobachte erst. Vielleicht lösen sie es selbst.",
+            "correct": true
+          },
+          {
+            "text": "🤝 Ich gehe hin und teile das Auto gerecht auf."
+          },
+          {
+            "text": "🙋 Ich frage, wer zuerst da war, und entscheide für sie."
+          }
         ],
-        "explanation": "Kinder dürfen streiten. So lernen sie, Probleme zu lösen. Du bleibst in der Nähe und schaust genau hin. Du hilfst erst, wenn sie es nicht schaffen."
+        "explanation": "Solange niemand verletzt wird, hältst du dich zurück. Fachleute nennen das begleitendes Beobachten: Du bleibst in der Nähe und schaust genau hin, greifst aber noch nicht ein. So lernen Kinder, Probleme selbst zu lösen. Du hilfst erst, wenn sie es allein nicht schaffen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✋ Ein Kind haut ein anderes Kind. Was machst du jetzt?",
+        "prompt": "✋ Ein Kind haut ein anderes Kind. Was machst du als Erstes?",
         "options": [
-          { "text": "🛑 Ich gehe sofort dazwischen und trenne die Kinder ruhig.", "correct": true },
-          { "text": "👀 Ich beobachte weiter aus der Ferne." },
-          { "text": "🤷 Ich warte, bis der Streit vorbei ist." }
+          {
+            "text": "🛑 Ich gehe sofort dazwischen und trenne die Kinder ruhig.",
+            "correct": true
+          },
+          {
+            "text": "🗣️ Ich rufe streng von weitem: Sofort aufhören!"
+          },
+          {
+            "text": "🔍 Ich frage erst, warum das Kind gehauen hat."
+          }
         ],
-        "explanation": "Wenn ein Kind haut, beißt oder wirft, greifst du sofort ein. Du sagst klar: Stopp! Hauen tut weh. Dann kümmerst du dich um beide Kinder."
+        "explanation": "Bei Hauen, Beißen oder Werfen greifst du sofort ein und setzt eine klare Grenze. Eine Grenze setzen heißt: Du stoppst die Gewalt und sagst ruhig, aber bestimmt: Stopp! Hauen tut weh. Nur von weitem rufen reicht nicht. Nach dem Warum fragst du erst danach. Dann kümmerst du dich um beide Kinder."
       }
     },
     {
@@ -33,11 +48,21 @@
       "data": {
         "prompt": "🧩 Zwei Kinder streiten und kommen nicht weiter. Du hilfst. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🚶 Ruhig zu den Kindern gehen." },
-          { "text": "👂 Beide Kinder nacheinander erzählen lassen." },
-          { "text": "💬 Die Gefühle benennen: Ihr seid beide wütend." },
-          { "text": "💡 Fragen: Was ist eure Idee?" },
-          { "text": "🌟 Die Lösung der Kinder loben." }
+          {
+            "text": "🚶 Ruhig zu den Kindern gehen."
+          },
+          {
+            "text": "👂 Beide Kinder nacheinander erzählen lassen."
+          },
+          {
+            "text": "💬 Die Gefühle benennen: Ihr seid beide wütend."
+          },
+          {
+            "text": "💡 Fragen: Was ist eure Idee?"
+          },
+          {
+            "text": "🌟 Die Lösung der Kinder loben."
+          }
         ]
       }
     },
@@ -46,29 +71,62 @@
       "data": {
         "prompt": "⚖️ Was hilft beim Streit? Was macht den Streit schlimmer? Sortiere.",
         "buckets": [
-          { "id": "hilft", "label": "Das hilft", "icon": "💚" },
-          { "id": "schlimmer", "label": "Macht es schlimmer", "icon": "🔥" }
+          {
+            "id": "hilft",
+            "label": "Das hilft",
+            "icon": "💚"
+          },
+          {
+            "id": "schlimmer",
+            "label": "Macht es schlimmer",
+            "icon": "🔥"
+          }
         ],
         "items": [
-          { "text": "👂 Beiden Kindern zuhören.", "bucket": "hilft" },
-          { "text": "🗣️ Ruhig und freundlich sprechen.", "bucket": "hilft" },
-          { "text": "💡 Die Kinder eine Lösung finden lassen.", "bucket": "hilft" },
-          { "text": "👉 Sofort einen Schuldigen suchen.", "bucket": "schlimmer" },
-          { "text": "1️⃣ Nur einem Kind glauben.", "bucket": "schlimmer" },
-          { "text": "📣 Beide Kinder anschreien.", "bucket": "schlimmer" }
+          {
+            "text": "👂 Beiden Kindern zuhören.",
+            "bucket": "hilft"
+          },
+          {
+            "text": "🗣️ Ruhig und freundlich sprechen.",
+            "bucket": "hilft"
+          },
+          {
+            "text": "💡 Die Kinder eine Lösung finden lassen.",
+            "bucket": "hilft"
+          },
+          {
+            "text": "👉 Sofort einen Schuldigen suchen.",
+            "bucket": "schlimmer"
+          },
+          {
+            "text": "1️⃣ Nur einem Kind glauben.",
+            "bucket": "schlimmer"
+          },
+          {
+            "text": "📣 Beide Kinder anschreien.",
+            "bucket": "schlimmer"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚲 Beide Kinder wollen mit demselben Dreirad fahren. Welche Lösung ist fair?",
+        "prompt": "🚲 Beide Kinder wollen sofort mit demselben Dreirad fahren. Welche Lösung ist wirklich fair?",
         "options": [
-          { "text": "⏳ Abwechseln: Eine Sanduhr zeigt, wann getauscht wird.", "correct": true },
-          { "text": "🚫 Keiner darf mehr fahren." },
-          { "text": "💪 Das stärkere Kind gewinnt." }
+          {
+            "text": "⏳ Abwechseln: Eine Sanduhr zeigt, wann getauscht wird.",
+            "correct": true
+          },
+          {
+            "text": "🥇 Wer zuerst am Dreirad war, darf es den ganzen Tag behalten."
+          },
+          {
+            "text": "🤔 Ich entscheide für die Kinder, wer heute fahren darf."
+          }
         ],
-        "explanation": "Abwechseln ist fair. Die Sanduhr hilft dabei: Ist der Sand durch, wird getauscht. Das verstehen schon kleine Kinder."
+        "explanation": "Fair ist, wenn beide Kinder drankommen: Sie fahren abwechselnd. Die Sanduhr macht die Regel sichtbar. Ist der Sand durch, wird getauscht. So muss niemand ganz verzichten, und du musst nicht für die Kinder entscheiden."
       }
     },
     {
@@ -76,10 +134,38 @@
       "data": {
         "prompt": "💬 Welcher Satz passt zu welcher Situation? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "😠 Zwei Kinder schreien sich an" }, "right": { "text": "Ich höre euch beide an." } },
-          { "left": { "text": "👉 Ein Kind ruft: Er hat angefangen!" }, "right": { "text": "Erzähl mir, was passiert ist." } },
-          { "left": { "text": "🧸 Beide wollen das gleiche Spielzeug" }, "right": { "text": "Was ist eure Idee?" } },
-          { "left": { "text": "🤝 Der Streit ist gelöst" }, "right": { "text": "Toll, ihr habt das selbst geschafft!" } }
+          {
+            "left": {
+              "text": "😠 Zwei Kinder schreien sich an"
+            },
+            "right": {
+              "text": "Ich höre euch beide an."
+            }
+          },
+          {
+            "left": {
+              "text": "👉 Ein Kind ruft: Er hat angefangen!"
+            },
+            "right": {
+              "text": "Erzähl mir, was passiert ist."
+            }
+          },
+          {
+            "left": {
+              "text": "🧸 Beide wollen das gleiche Spielzeug"
+            },
+            "right": {
+              "text": "Was ist eure Idee?"
+            }
+          },
+          {
+            "left": {
+              "text": "🤝 Der Streit ist gelöst"
+            },
+            "right": {
+              "text": "Toll, ihr habt das selbst geschafft!"
+            }
+          }
         ],
         "memory": false
       }
@@ -87,37 +173,58 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧱 Ein Kind hat den Turm von einem anderen Kind umgeworfen. Was ist eine gute Wiedergutmachung?",
+        "prompt": "🧱 Ein Kind hat den Turm von einem anderen Kind umgeworfen. Was ist eine echte Wiedergutmachung?",
         "options": [
-          { "text": "🤝 Das Kind hilft beim neuen Aufbauen.", "correct": true },
-          { "text": "🪑 Das Kind muss lange alleine in der Ecke sitzen." },
-          { "text": "🤐 Nichts. Das ist egal." }
+          {
+            "text": "🤝 Das Kind hilft beim neuen Aufbauen.",
+            "correct": true
+          },
+          {
+            "text": "🙏 Das Kind muss mehrmals Entschuldigung sagen."
+          },
+          {
+            "text": "🚪 Das Kind darf heute nicht mehr mitspielen."
+          }
         ],
-        "explanation": "Etwas wieder gut machen ist besser als Strafe. Beim Helfen merkt das Kind: Ich kann den Schaden reparieren. Das versöhnt beide Kinder."
+        "explanation": "Eine Wiedergutmachung heißt: Das Kind macht den Schaden selbst wieder gut. Beim Aufbauen merkt es: Ich kann das reparieren. Das ist besser als eine Strafe oder eine Entschuldigung, die nur so dahingesagt ist. Wiedergutmachen versöhnt beide Kinder."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Warum ist Streit unter Kindern eigentlich normal?",
+        "prompt": "🤔 Warum ist Streit unter Kindern eigentlich normal und sogar wichtig?",
         "options": [
-          { "text": "📚 Kinder lernen im Streit, ihre Meinung zu sagen und Lösungen zu finden.", "correct": true },
-          { "text": "😈 Kinder wollen andere nur ärgern." },
-          { "text": "🍀 Streit bringt Glück." }
+          {
+            "text": "📚 Kinder lernen im Streit, ihre Meinung zu sagen und Lösungen zu finden.",
+            "correct": true
+          },
+          {
+            "text": "🚫 Weil Streit immer bedeutet, dass etwas schiefläuft."
+          },
+          {
+            "text": "😈 Weil Kinder andere nur ärgern wollen."
+          }
         ],
-        "explanation": "Streiten gehört zum Lernen dazu. Kinder üben dabei: Was will ich? Was will der andere? Wie einigen wir uns? Das brauchen sie ihr Leben lang."
+        "explanation": "Streiten gehört zum Lernen dazu. Im Konflikt üben Kinder ihre Konfliktfähigkeit. Konfliktfähigkeit heißt: Was will ich? Was will der andere? Wie einigen wir uns? Das brauchen sie ihr ganzes Leben lang."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Zwei Kinder haben ihren Streit gelöst. Sie spielen wieder zusammen. Was sagst du?",
+        "prompt": "🌟 Zwei Kinder haben ihren Streit selbst gelöst. Sie spielen wieder zusammen. Welches Lob ist am besten?",
         "options": [
-          { "text": "🎉 Toll gemacht, ihr zwei!", "correct": true },
-          { "text": "😠 Streitet bloß nie wieder!" },
-          { "text": "🤐 Gar nichts." }
+          {
+            "text": "🎉 Toll gemacht, ihr zwei!",
+            "correct": true
+          },
+          {
+            "text": "🍭 Super, dafür gibt es gleich ein Bonbon."
+          },
+          {
+            "text": "👍 Na endlich, das hat ja lange gedauert!"
+          }
         ],
-        "explanation": "Lob zeigt den Kindern: Ihr könnt Probleme selbst lösen. Das macht sie stark für das nächste Mal."
+        "explanation": "Lob für die Sache selbst wirkt am besten: Es zeigt den Kindern, dass sie ihr Problem allein lösen können. Das nennt man ihre Selbstständigkeit stärken. Eine Belohnung wie ein Bonbon lenkt nur ab. Und ein genervtes Na endlich nimmt den Kindern den Stolz."
       }
     }
   ]

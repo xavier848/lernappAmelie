@@ -34,49 +34,49 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Warum musst du Hackfleisch schnell verarbeiten?",
+        "prompt": "🕒 Warum solltest du Hackfleisch möglichst schnell verarbeiten und nicht lange offen liegen lassen?",
         "options": [
-          { "text": "Es hat eine große Oberfläche. Darauf vermehren sich Keime schnell.", "correct": true },
-          { "text": "Es wird sonst zu hart zum Kneten." },
-          { "text": "Es verliert sonst seine Farbe." }
+          { "text": "Es hat eine große Oberfläche. Darauf vermehren sich Keime besonders schnell.", "correct": true },
+          { "text": "An der Luft wird es außen fest und lässt sich schwerer kneten." },
+          { "text": "Das Fett tritt sonst aus und der Teig wird trocken." }
         ],
-        "explanation": "Beim Wolfen wird das Fleisch klein zerteilt. So hat es eine sehr große Oberfläche. Genau dort können sich Keime schnell vermehren. Darum verarbeitest du Hackfleisch möglichst rasch."
+        "explanation": "Hackfleisch wird gewolft, also durch eine Maschine zu vielen kleinen Fäden zerteilt. Dadurch hat es eine sehr große Oberfläche. Genau dort können sich Keime schnell vermehren. Fest oder trocken wird es dabei nicht. Darum verarbeitest du Hackfleisch immer möglichst rasch."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧊 Du kannst den Teig nicht sofort weiterverarbeiten. Wie lagerst du ihn?",
+        "prompt": "🧊 Du kannst den Hackfleischteig nicht sofort braten. Wie lagerst du ihn bis dahin richtig?",
         "options": [
           { "text": "Abgedeckt und im Kühlschrank.", "correct": true },
-          { "text": "Offen auf der Arbeitsplatte." },
-          { "text": "Warm neben dem Herd." }
+          { "text": "Offen im Kühlschrank, damit frische Luft an das Fleisch kommt." },
+          { "text": "Abgedeckt bei Zimmertemperatur auf der Arbeitsplatte." }
         ],
-        "explanation": "Kälte hält die Keime auf. Ein Deckel schützt vor Schmutz. Darum lagerst du Hackfleischteig immer abgedeckt und gekühlt, bis du ihn brauchst."
+        "explanation": "Hier musst du an zwei Dinge gleichzeitig denken. Kälte bremst die Keime – das nennt man Kühlkette. Ein Deckel schützt vor Schmutz und Austrocknen. Nur offen im Kühlschrank reicht nicht, nur abgedeckt bei Zimmertemperatur auch nicht. Richtig ist beides zusammen: abgedeckt UND kalt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍳 Du brätst Frikadellen in der Pfanne. Wie lange etwa je Seite?",
+        "prompt": "🍳 Du brätst Frikadellen in der Pfanne. Sie sind ziemlich dick. Wie lange brätst du sie etwa je Seite, damit sie innen durch sind?",
         "options": [
           { "text": "Ungefähr 10 Minuten je Seite.", "correct": true },
-          { "text": "Nur 1 Minute je Seite." },
-          { "text": "Eine ganze Stunde je Seite." }
+          { "text": "Ungefähr 2 Minuten je Seite." },
+          { "text": "Ungefähr 30 Minuten je Seite." }
         ],
-        "explanation": "Frikadellen sind dick. Sie brauchen Zeit, damit sie innen durchgegart sind. Etwa 10 Minuten je Seite reichen. Bei Hackfleisch ist das wichtig, denn roh darf es nicht bleiben."
+        "explanation": "Frikadellen sind dick, deshalb dauert das Durchgaren. Nach 2 Minuten wären sie außen schon braun, innen aber noch roh. Nach 30 Minuten wären sie außen verbrannt. Etwa 10 Minuten je Seite passen gut. Durchgaren heißt: auch in der Mitte richtig heiß und nicht mehr roh – bei Hackfleisch ist das besonders wichtig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍲 Aus dem Teig kannst du auch Hackbällchen machen. Wie werden sie gegart?",
+        "prompt": "🍲 Aus demselben Teig kannst du auch Hackbällchen machen. Wie gart man sie richtig?",
         "options": [
           { "text": "Kleine Bällchen von etwa 60 g formen und rund 15 Minuten in Brühe ziehen lassen.", "correct": true },
-          { "text": "In kaltem Wasser roh liegen lassen." },
-          { "text": "Nur kurz in der Mikrowelle erwärmen." }
+          { "text": "Die Bällchen in stark sprudelndem Wasser 3 Minuten hart kochen." },
+          { "text": "Die Bällchen roh in kalte Brühe legen und im Kühlschrank durchziehen lassen." }
         ],
-        "explanation": "Hackbällchen sind kleiner als Frikadellen, etwa 60 g schwer. Du bringst Brühe zum Kochen und lässt die Bällchen darin rund 15 Minuten sanft ziehen. Dann serviert man sie oft in Tomatensoße."
+        "explanation": "Hackbällchen sind kleiner als Frikadellen, etwa 60 g schwer. Sie sollen in der Brühe ziehen: Das heißt, die Brühe ist heiß, aber sie sprudelt nicht stark. Bei starkem Sprudeln würden die Bällchen zerfallen, und 3 Minuten wären zu kurz. Kalt und roh werden sie natürlich nie gar. Nach rund 15 Minuten sind sie durch – dann serviert man sie oft in Tomatensoße."
       }
     },
     {
@@ -94,13 +94,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Kräuterbuletten sind leichter. Was machst du anders?",
+        "prompt": "🌿 Kräuterbuletten sollen leichter sein, also weniger Fett und Kalorien haben. Was änderst du am Rezept?",
         "options": [
           { "text": "Statt Brötchen nimmst du Quark.", "correct": true },
-          { "text": "Du nimmst doppelt so viel Öl." },
-          { "text": "Du lässt das Fleisch ganz weg." }
+          { "text": "Statt Rinderhack nimmst du fetteres Schweinehack." },
+          { "text": "Du gibst zusätzlich Butter in den Teig." }
         ],
-        "explanation": "Kräuterbuletten haben weniger Kalorien. Der Trick: Du nimmst Quark statt eingeweichtem Brötchen. Dazu kommen frische Kräuter wie Schnittlauch und Petersilie. Sonst machst du sie wie normale Frikadellen."
+        "explanation": "Leichter heißt: weniger Fett. Fetteres Hack oder extra Butter machen die Buletten also schwerer, nicht leichter. Der richtige Trick ist Quark statt eingeweichtem Brötchen – am besten Magerquark, der hat wenig Fett. Dazu kommen frische Kräuter wie Schnittlauch und Petersilie. Sonst machst du sie wie normale Frikadellen."
       }
     }
   ]

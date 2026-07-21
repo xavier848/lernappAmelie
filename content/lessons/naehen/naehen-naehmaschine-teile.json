@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪡 Die Teile der Nähmaschine gehören zu verschiedenen Aufgaben. Welche Aufgabe hat der Transporteur?",
+        "prompt": "🪡 Der Transporteur sitzt als kleine Zahnreihe unten in der Nähplatte. Welche Aufgabe hat er beim Nähen?",
         "options": [
           { "text": "Er schiebt den Stoff beim Nähen weiter.", "correct": true },
-          { "text": "Er hält die Garnrolle fest.", "correct": false },
-          { "text": "Er wählt die Stichart aus.", "correct": false }
+          { "text": "Er drückt den Stoff von oben auf die Nähplatte.", "correct": false },
+          { "text": "Er sticht den Oberfaden durch den Stoff.", "correct": false }
         ],
-        "explanation": "Der Transporteur sind die kleinen Zähnchen unter dem Nähfuß. Sie greifen in den Stoff und schieben ihn Stück für Stück nach vorne."
+        "explanation": "Der Transporteur sind die kleinen Zähnchen unter dem Nähfuß. Sie greifen von unten in den Stoff und schieben ihn Stück für Stück nach vorne. Der Nähfuß hält den Stoff dabei nur von oben fest."
       }
     },
     {
@@ -51,13 +51,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎛️ Womit stellst du ein, welchen Stich die Maschine näht?",
+        "prompt": "🎛️ Du willst von einer geraden Naht auf Zickzack wechseln. Woran stellst du das ein?",
         "options": [
           { "text": "Mit der Stichwahl-Einstellung.", "correct": true },
-          { "text": "Mit dem Spuler.", "correct": false },
-          { "text": "Mit dem Nähfuß.", "correct": false }
+          { "text": "Mit der Stichlängen-Einstellung.", "correct": false },
+          { "text": "Mit der Oberfadenspannung.", "correct": false }
         ],
-        "explanation": "An der Stichwahl drehst oder drückst du, um die Stichart zu wählen. So näht die Maschine zum Beispiel gerade oder im Zickzack."
+        "explanation": "An der Stichwahl wählst du die Stichart, zum Beispiel Geradstich oder Zickzack. Die Stichlänge stellt nur ein, wie lang jeder Stich wird. Die Oberfadenspannung regelt, wie fest der Faden angezogen wird."
       }
     },
     {
@@ -79,37 +79,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧵 Wofür brauchst du den Spuler an der Nähmaschine?",
+        "prompt": "🧵 Deine Spule für den Unterfaden ist leer. Wofür brauchst du jetzt den Spuler?",
         "options": [
           { "text": "Er wickelt Garn auf die Spule für den Unterfaden.", "correct": true },
-          { "text": "Er transportiert den Stoff.", "correct": false },
-          { "text": "Er schneidet den Faden ab.", "correct": false }
+          { "text": "Er hält die Spule beim Nähen im Greifer fest.", "correct": false },
+          { "text": "Er zieht den Unterfaden nach oben durch den Stoff.", "correct": false }
         ],
-        "explanation": "Der Unterfaden kommt von einer kleinen Spule. Mit dem Spuler wickelst du zuerst Garn auf diese Spule."
+        "explanation": "Der Unterfaden kommt von einer kleinen Spule. Mit dem Spuler wickelst du zuerst Garn auf diese leere Spule. Erst danach setzt du sie unten in die Maschine ein."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔴 Welches Teil gehört zum Oberfaden?",
+        "prompt": "🔴 Der Oberfaden läuft von der großen Garnrolle bis zur Nadel. Welches Teil gehört zu seinem Weg?",
         "options": [
           { "text": "Der Garnrollenhalter.", "correct": true },
-          { "text": "Der Transporteur.", "correct": false },
-          { "text": "Das Handrad.", "correct": false }
+          { "text": "Die Spulenkapsel.", "correct": false },
+          { "text": "Der Spuler.", "correct": false }
         ],
-        "explanation": "Auf dem Garnrollenhalter steckt die große Garnrolle. Von dort läuft der Oberfaden nach unten zur Nadel."
+        "explanation": "Auf dem Garnrollenhalter steckt die große Garnrolle. Von dort läuft der Oberfaden nach unten zur Nadel. Spulenkapsel und Spuler gehören dagegen zum Unterfaden."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧷 Welches Teil sticht durch den Stoff und macht so den Stich?",
+        "prompt": "🧷 Für einen Stich muss ein Teil den Oberfaden durch den Stoff bringen. Welches Teil ist das?",
         "options": [
           { "text": "Die Nähnadel.", "correct": true },
           { "text": "Der Nähfuß.", "correct": false },
-          { "text": "Der Spuler.", "correct": false }
+          { "text": "Der Transporteur.", "correct": false }
         ],
-        "explanation": "Die Nähnadel führt den Oberfaden durch den Stoff. Dort trifft er auf den Unterfaden. So entsteht der Stich."
+        "explanation": "Die Nähnadel führt den Oberfaden durch den Stoff. Unten trifft er auf den Unterfaden, und beide verschlingen sich zum Stich. Der Nähfuß hält den Stoff dabei nur fest."
       }
     }
   ]

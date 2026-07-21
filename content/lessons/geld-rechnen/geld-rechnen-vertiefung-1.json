@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏷️ Überall steht 'Sale' und 'Rabatt'. Was bedeutet Rabatt?",
+        "prompt": "🏷️ Im Schaufenster klebt ein Schild: '20 % Rabatt'. Was heißt das für dich an der Kasse?",
         "options": [
-          { "text": "Die Sache kostet weniger als sonst.", "correct": true },
-          { "text": "Die Sache kostet mehr als sonst." },
-          { "text": "Die Sache ist ausverkauft." }
+          { "text": "Du zahlst weniger als den normalen Preis.", "correct": true },
+          { "text": "Du zahlst mehr, weil die Sache jetzt beliebter ist." },
+          { "text": "Der Preis bleibt gleich, du bekommst nur eine Tüte gratis dazu." }
         ],
-        "explanation": "Rabatt heißt: Der Preis ist gesenkt. Du zahlst weniger als den normalen Preis."
+        "explanation": "Rabatt ist ein anderes Wort für Preisnachlass. Der Preis wird gesenkt. Du zahlst weniger als sonst."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👕 Ein Pulli kostet 24 €. Am Schild steht: 'Halber Preis!' Wie viel zahlst du?",
+        "prompt": "👕 Ein Pulli kostet normal 24 €. Am Schild steht: 'Zum halben Preis!' Wie viel zahlst du an der Kasse?",
         "options": [
           { "text": "12 €", "correct": true },
-          { "text": "14 €" },
-          { "text": "24 €" }
+          { "text": "18 €" },
+          { "text": "6 €" }
         ],
-        "explanation": "Halber Preis heißt: Du zahlst nur die Hälfte. Die Hälfte von 24 € ist 12 €."
+        "explanation": "Halber Preis heißt: Du zahlst genau die Hälfte. Die Hälfte von 24 € ist 12 €, denn 24 geteilt durch 2 ist 12. 18 € wären zu viel, 6 € wären zu wenig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧮 Der Trick für 10 % Rabatt: Teile den Preis durch 10. Eine Tasche kostet 30 €. Es gibt 10 % Rabatt. Wie viel sparst du?",
+        "prompt": "🧮 Eine Tasche kostet 30 €. Es gibt 10 % Rabatt. Der Trick: Teile den Preis durch 10. Wie viel Geld sparst du?",
         "options": [
           { "text": "3 €", "correct": true },
-          { "text": "10 €" },
-          { "text": "13 €" }
+          { "text": "27 €" },
+          { "text": "10 €" }
         ],
-        "explanation": "10 % ist ein Zehntel. 30 € geteilt durch 10 = 3 €. Du sparst 3 € und zahlst nur 27 €."
+        "explanation": "Prozent heißt 'von hundert'. 10 % ist ein Zehntel. 30 € geteilt durch 10 = 3 €. Achtung: Du sparst 3 €. Bezahlen musst du dann noch 27 €."
       }
     },
     {
@@ -56,25 +56,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Aktion im Drogeriemarkt: 'Nimm 3, zahl 2!' Ein Duschgel kostet 2 €. Du nimmst 3 Stück mit. Wie viel zahlst du?",
+        "prompt": "🧴 Aktion im Drogeriemarkt: 'Nimm 3, zahl 2!' Ein Duschgel kostet 2 €. Du legst 3 Stück aufs Band. Wie viel zahlst du?",
         "options": [
           { "text": "4 €", "correct": true },
           { "text": "6 €" },
           { "text": "2 €" }
         ],
-        "explanation": "Bei '3 für 2' zahlst du nur 2 Stück. 2 mal 2 € = 4 €. Das dritte Duschgel ist gratis."
+        "explanation": "Bei 'Nimm 3, zahl 2' bezahlst du nur 2 Stück: 2 mal 2 € = 4 €. Das dritte Duschgel ist gratis. Die 2 €, die du sparst, sind nicht der Preis – den verwechselt man leicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏷️ Am Regal steht: 'Jetzt 9,99 € statt 14,99 €'. Wie viel sparst du?",
+        "prompt": "🏷️ Am Regal steht: 'Jetzt 9,99 € statt 14,99 €'. Das Wort 'statt' zeigt den alten Preis. Wie viel sparst du?",
         "options": [
           { "text": "5 €", "correct": true },
           { "text": "9,99 €" },
           { "text": "4 €" }
         ],
-        "explanation": "Rechne: 14,99 € minus 9,99 € = 5 €. Das Wort 'statt' zeigt dir den alten Preis."
+        "explanation": "Ziehe den neuen Preis vom alten ab: 14,99 € minus 9,99 € = 5 €. Die 9,99 € sind der Preis, den du zahlst – nicht das, was du sparst."
       }
     },
     {
@@ -109,10 +109,10 @@
         "prompt": "🌟 Letzte Frage! Ein Buch kostet 10 €. Heute gibt es den halben Preis. Wie viel zahlst du?",
         "options": [
           { "text": "5 €", "correct": true },
-          { "text": "10 €" },
-          { "text": "8 €" }
+          { "text": "15 €" },
+          { "text": "2,50 €" }
         ],
-        "explanation": "Die Hälfte von 10 € ist 5 €."
+        "explanation": "Halber Preis heißt: die Hälfte. Die Hälfte von 10 € ist 5 €. Bei Rabatt zahlst du weniger als vorher, nie mehr."
       }
     }
   ]

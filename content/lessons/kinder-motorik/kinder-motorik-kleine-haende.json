@@ -2,6 +2,7 @@
   "topic_slug": "kinder-motorik",
   "slug": "kinder-motorik-kleine-haende",
   "title": "Kleine Hände lernen viel",
+  "intro": "🖐️ In dieser Lektion geht es darum, wie Kinder das Greifen lernen. Feinmotorik bedeutet: kleine, genaue Bewegungen mit Händen und Fingern. Dazu gehört zum Beispiel Malen oder das Schließen eines Knopfes. Große Bewegungen mit Armen und Beinen nennt man dagegen Grobmotorik. Ein Beispiel dafür ist Rennen. Kinder lernen das Greifen Schritt für Schritt. Zuerst greift ein Baby mit der ganzen Hand. Danach folgt der Scherengriff mit Daumen und mehreren Fingern. Zuletzt gelingt der Pinzettengriff mit Daumen und Zeigefinger. So wird jeder Griff genauer und die Bewegungen mit der Zeit immer feiner.",
   "sort": 2,
   "exercises": [
     {
@@ -9,11 +10,21 @@
       "data": {
         "prompt": "🖐️ Wie lernen kleine Hände greifen? Teil 1. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "✊ Greifen mit der ganzen Hand." },
-          { "text": "🖐️ Scherengriff: Greifen mit Daumen und Fingern." },
-          { "text": "🤏 Pinzettengriff: Greifen mit Daumen und Zeigefinger." },
-          { "text": "🖍️ Malen und Kritzeln." },
-          { "text": "✂️ Eine Schere benutzen." }
+          {
+            "text": "✊ Greifen mit der ganzen Hand."
+          },
+          {
+            "text": "🖐️ Scherengriff: Greifen mit Daumen und Fingern."
+          },
+          {
+            "text": "🤏 Pinzettengriff: Greifen mit Daumen und Zeigefinger."
+          },
+          {
+            "text": "🖍️ Malen und Kritzeln."
+          },
+          {
+            "text": "✂️ Eine Schere benutzen."
+          }
         ]
       }
     },
@@ -22,11 +33,21 @@
       "data": {
         "prompt": "🧵 Teil 2: Die Hände können immer mehr. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🍴 Mit Besteck essen." },
-          { "text": "📿 Perlen auffädeln." },
-          { "text": "🧥 Den Reißverschluss zumachen." },
-          { "text": "👕 Knöpfe schließen." },
-          { "text": "👟 Eine Schleife binden." }
+          {
+            "text": "🍴 Mit Besteck essen."
+          },
+          {
+            "text": "📿 Perlen auffädeln."
+          },
+          {
+            "text": "🧥 Den Reißverschluss zumachen."
+          },
+          {
+            "text": "👕 Knöpfe schließen."
+          },
+          {
+            "text": "👟 Eine Schleife binden."
+          }
         ]
       }
     },
@@ -35,10 +56,38 @@
       "data": {
         "prompt": "🤝 Welcher Griff passt zu welchem Beispiel? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "✊ Greifen mit der ganzen Hand" }, "right": { "text": "🧱 Einen Bauklotz greifen" } },
-          { "left": { "text": "🤏 Pinzettengriff" }, "right": { "text": "📿 Eine kleine Perle aufheben" } },
-          { "left": { "text": "🖍️ Stift halten" }, "right": { "text": "🎨 Malen und Kritzeln" } },
-          { "left": { "text": "✂️ Schere halten" }, "right": { "text": "📄 Papier schneiden" } }
+          {
+            "left": {
+              "text": "✊ Greifen mit der ganzen Hand"
+            },
+            "right": {
+              "text": "🧱 Einen Bauklotz greifen"
+            }
+          },
+          {
+            "left": {
+              "text": "🤏 Pinzettengriff"
+            },
+            "right": {
+              "text": "📿 Eine kleine Perle aufheben"
+            }
+          },
+          {
+            "left": {
+              "text": "🖍️ Stift halten"
+            },
+            "right": {
+              "text": "🎨 Malen und Kritzeln"
+            }
+          },
+          {
+            "left": {
+              "text": "✂️ Schere halten"
+            },
+            "right": {
+              "text": "📄 Papier schneiden"
+            }
+          }
         ],
         "memory": false
       }
@@ -46,25 +95,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤏 Ein Kind will eine kleine Perle aufheben. Welchen Griff braucht es?",
+        "prompt": "🤏 Ein Kind will eine winzige Perle vom Tisch aufheben. Welchen Griff braucht es dafür?",
         "options": [
-          { "text": "🤏 Den Pinzettengriff", "correct": true },
-          { "text": "✊ Die ganze Hand" },
-          { "text": "🦶 Die Füße" }
+          {
+            "text": "🤏 Den Pinzettengriff",
+            "correct": true
+          },
+          {
+            "text": "🖐️ Den Scherengriff mit Daumen und mehreren Fingern"
+          },
+          {
+            "text": "✊ Den Faustgriff mit der ganzen Hand"
+          }
         ],
-        "explanation": "Beim Pinzettengriff greift das Kind mit Daumen und Zeigefinger. So kann es ganz kleine Dinge aufheben."
+        "explanation": "Beim Pinzettengriff greift das Kind nur mit Daumen und Zeigefinger. So kann es ganz kleine Dinge fassen. Scherengriff und Faustgriff sind zu grob für eine winzige Perle."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Was lernt ein Baby zuerst?",
+        "prompt": "🍼 Ein Baby ist erst wenige Monate alt und will einen Bauklotz nehmen. Welchen Griff kann es zuerst?",
         "options": [
-          { "text": "✊ Greifen mit der ganzen Hand", "correct": true },
-          { "text": "🤏 Der Pinzettengriff" },
-          { "text": "👟 Eine Schleife binden" }
+          {
+            "text": "✊ Greifen mit der ganzen Hand",
+            "correct": true
+          },
+          {
+            "text": "🖐️ Den Scherengriff mit Daumen und Fingern"
+          },
+          {
+            "text": "🤏 Den Pinzettengriff mit Daumen und Zeigefinger"
+          }
         ],
-        "explanation": "Am Anfang greift das Baby mit der ganzen Hand. Die feinen Griffe kommen später."
+        "explanation": "Zuerst greift das Baby mit der ganzen Hand. Die feineren Griffe kommen später: erst der Scherengriff, dann der Pinzettengriff mit Daumen und Zeigefinger."
       }
     },
     {
@@ -72,23 +135,37 @@
       "data": {
         "prompt": "🖐️ Was bedeutet Feinmotorik?",
         "options": [
-          { "text": "🤏 Kleine, genaue Bewegungen mit Händen und Fingern", "correct": true },
-          { "text": "🏃 Schnelles Rennen" },
-          { "text": "😴 Ruhig schlafen" }
+          {
+            "text": "🤏 Kleine, genaue Bewegungen mit Händen und Fingern",
+            "correct": true
+          },
+          {
+            "text": "🏃 Große Bewegungen mit Armen und Beinen, zum Beispiel Rennen"
+          },
+          {
+            "text": "💪 Wie viel Kraft die Hand beim festen Zupacken hat"
+          }
         ],
-        "explanation": "Feinmotorik heißt: kleine Bewegungen mit den Händen und Fingern. Zum Beispiel malen, schneiden oder Knöpfe schließen."
+        "explanation": "Feinmotorik heißt: kleine, genaue Bewegungen mit Händen und Fingern, zum Beispiel malen oder Knöpfe schließen. Große Bewegungen mit Armen und Beinen nennt man Grobmotorik."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Was braucht ein Kind zum Malen?",
+        "prompt": "🖍️ Ein Kind möchte malen und dabei die Feinmotorik üben. Was braucht es dafür?",
         "options": [
-          { "text": "🖍️ Stift und Papier", "correct": true },
-          { "text": "🧦 Eine Socke" },
-          { "text": "🥄 Einen Kochlöffel" }
+          {
+            "text": "🖍️ Stift und Papier",
+            "correct": true
+          },
+          {
+            "text": "✂️ Schere und Kleber"
+          },
+          {
+            "text": "📿 Perlen und einen Faden"
+          }
         ],
-        "explanation": "Mit Stift und Papier kann das Kind kritzeln und malen. Das übt die kleinen Hände."
+        "explanation": "Zum Malen braucht das Kind Stift und Papier. Das übt die Feinmotorik, also die kleinen Bewegungen der Finger. Schere und Kleber braucht man zum Basteln, Perlen und Faden zum Auffädeln."
       }
     }
   ]

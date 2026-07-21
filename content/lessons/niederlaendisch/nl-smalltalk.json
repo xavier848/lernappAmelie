@@ -1,0 +1,151 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-smalltalk",
+  "title": "Small Talk mit Gästen",
+  "sort": 12,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast steht auf dem Balkon und sagt: Het is mooi weer vandaag. ☀️ Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Heute ist schönes Wetter.", "correct": true },
+          { "text": "Es regnet heute den ganzen Tag." },
+          { "text": "Morgen wird das Wetter schlecht." }
+        ],
+        "explanation": "Mooi weer heißt: schönes Wetter. Vandaag heißt: heute. Der Gast freut sich also über das schöne Wetter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Small Talk mit Gästen: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Heeft u een goede reis gehad? 🚗" }, "right": { "text": "Hatten Sie eine gute Reise?" } },
+          { "left": { "text": "Het is mooi weer vandaag. ☀️" }, "right": { "text": "Heute ist schönes Wetter." } },
+          { "left": { "text": "Bent u hier voor het eerst?" }, "right": { "text": "Sind Sie zum ersten Mal hier?" } },
+          { "left": { "text": "Wij komen uit Nederland." }, "right": { "text": "Wir kommen aus den Niederlanden." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Neue Gäste sind angekommen. Du möchtest fragen: Sind Sie zum ersten Mal hier? Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Bent u hier voor het eerst?", "correct": true },
+          { "text": "Waar komt u vandaan?" },
+          { "text": "Hoe laat is het?" }
+        ],
+        "explanation": "Voor het eerst heißt: zum ersten Mal. Mit dieser Frage startest du ganz leicht ein Gespräch mit neuen Gästen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Hatten Sie eine gute Reise? 🚗",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Heeft" },
+          { "text": "u" },
+          { "text": "een" },
+          { "text": "goede" },
+          { "text": "reis" },
+          { "text": "gehad?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste erzählen beim Kaffee: Wij komen uit Nederland. 🇳🇱 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wir kommen aus den Niederlanden.", "correct": true },
+          { "text": "Wir fahren morgen in die Niederlande." },
+          { "text": "Wir waren noch nie in den Niederlanden." }
+        ],
+        "explanation": "Wij komen uit ... heißt: Wir kommen aus ... Nederland ist das niederländische Wort für die Niederlande."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wie war Ihr Tag?",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Hoe" },
+          { "text": "was" },
+          { "text": "uw" },
+          { "text": "dag?" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Frage oder Antwort? Sortiere die Sätze.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "frage", "label": "Frage", "icon": "❓" },
+          { "id": "antwort", "label": "Antwort", "icon": "💬" }
+        ],
+        "items": [
+          { "text": "Heeft u een goede reis gehad?", "bucket": "frage" },
+          { "text": "Heel goed, dank u!", "bucket": "antwort" },
+          { "text": "Bent u hier voor het eerst?", "bucket": "frage" },
+          { "text": "Ja, de reis was goed.", "bucket": "antwort" },
+          { "text": "Hoe was uw dag?", "bucket": "frage" },
+          { "text": "Ja, wij komen uit Nederland.", "bucket": "antwort" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt dich am Abend: Hoe was uw dag? 😊 Wie antwortest du kurz und freundlich?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Heel goed, dank u!", "correct": true },
+          { "text": "Om acht uur." },
+          { "text": "In de keuken." }
+        ],
+        "explanation": "Heel goed, dank u! heißt: Sehr gut, danke! Das ist eine kurze und freundliche Antwort auf die Frage nach deinem Tag."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Gäste sagen, woher sie kommen. Baue den Satz: Wir kommen aus den Niederlanden. 🇳🇱",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Wij" },
+          { "text": "komen" },
+          { "text": "uit" },
+          { "text": "Nederland." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welcher niederländische Satz passt? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Wie war Ihr Tag?" }, "right": { "text": "Hoe was uw dag?" } },
+          { "left": { "text": "Sehr gut, danke!" }, "right": { "text": "Heel goed, dank u!" } },
+          { "left": { "text": "Ja, die Reise war gut." }, "right": { "text": "Ja, de reis was goed." } },
+          { "left": { "text": "Wie schön!" }, "right": { "text": "Wat fijn!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

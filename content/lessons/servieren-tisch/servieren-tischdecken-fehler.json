@@ -26,25 +26,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥛 Beim Grundgedeck: Wo soll das Glas stehen?",
+        "prompt": "🥛 Du deckst ein Grundgedeck ein. Wohin kommt das Glas?",
         "options": [
           { "text": "Über dem Messer.", "correct": true },
-          { "text": "Über der Gabel." },
-          { "text": "Unter dem Teller." }
+          { "text": "Über der Gabel, links vom Teller." },
+          { "text": "Rechts neben dem äußeren Löffel." }
         ],
-        "explanation": "Das Glas gehört über die Messerspitze. Steht es woanders, ist das ein Fehler im Gedeck."
+        "explanation": "Das Glas steht über der Messerspitze, also rechts oben. Gläser stehen immer rechts. Steht das Glas woanders, ist das ein Fehler im Gedeck."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔪 Die Schneide des Messers zeigt nach außen. Stimmt das?",
+        "prompt": "🔪 Beim Eindecken zeigt die Messerschneide nach außen. Stimmt das so?",
         "options": [
           { "text": "Nein, die Schneide muss zum Teller zeigen.", "correct": true },
-          { "text": "Ja, so ist es richtig." },
-          { "text": "Das ist egal." }
+          { "text": "Ja, so ist es beim festlichen Menü üblich." },
+          { "text": "Ja, Hauptsache die Schneide berührt die Gabel nicht." }
         ],
-        "explanation": "Die scharfe Seite des Messers zeigt immer zum Teller. Zeigt sie nach außen, ist das falsch."
+        "explanation": "Eindecken heißt: den Tisch richtig herrichten. Die scharfe Seite (die Schneide) zeigt dabei immer zum Teller. So verletzt sich niemand und der Tisch sieht ordentlich aus. Zeigt sie nach außen, ist das falsch."
       }
     },
     {
@@ -63,49 +63,49 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "☕ Beim Frühstück fehlt etwas an der Kaffeetasse. Was?",
+        "prompt": "☕ Der Gast bekommt Kaffee. An der Kaffeetasse fehlt ein Besteckteil. Welches?",
         "options": [
           { "text": "Ein Löffel.", "correct": true },
-          { "text": "Ein Messer." },
-          { "text": "Eine Gabel." }
+          { "text": "Eine Kuchengabel." },
+          { "text": "Ein Buttermesser." }
         ],
-        "explanation": "Zur Kaffeetasse gehört ein kleiner Löffel. Fehlt er, ist das ein Fehler beim Gedeck."
+        "explanation": "Zur Kaffeetasse gehört ein kleiner Löffel, der Kaffeelöffel. Er liegt auf der Untertasse. Fehlt er, ist das ein Fehler beim Gedeck."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥚 Zum weich gekochten Ei am Frühstückstisch – welches Besteck braucht man?",
+        "prompt": "🥚 Der Gast bekommt ein weich gekochtes Ei. Welches Besteck legst du dazu?",
         "options": [
           { "text": "Einen Eierlöffel.", "correct": true },
-          { "text": "Ein Fischmesser." },
-          { "text": "Eine Suppenkelle." }
+          { "text": "Einen normalen Teelöffel." },
+          { "text": "Ein kleines Dessertmesser." }
         ],
-        "explanation": "Für das gekochte Ei brauchst du einen Eierlöffel. Fehlt er im Frühstücksgedeck, ist das ein Fehler."
+        "explanation": "Für ein weich gekochtes Ei brauchst du einen Eierlöffel. Er ist klein und oft aus Kunststoff oder Horn, damit das Ei nicht metallisch schmeckt. Fehlt er im Frühstücksgedeck, ist das ein Fehler."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍰 Beim Frühstück lag eine Kuchengabel dabei. Braucht man die?",
+        "prompt": "🍰 Auf dem Frühstückstisch liegt eine Kuchengabel. Ist das richtig?",
         "options": [
           { "text": "Nein, zum Frühstück braucht man keine Kuchengabel.", "correct": true },
-          { "text": "Ja, sie gehört immer dazu." },
-          { "text": "Ja, statt des Messers." }
+          { "text": "Ja, die Kuchengabel liegt immer rechts außen." },
+          { "text": "Ja, sie ersetzt beim Frühstück das Buttermesser." }
         ],
-        "explanation": "Eine Kuchengabel gehört nicht zum Frühstück. Sie liegt dort zu viel und ist ein Fehler."
+        "explanation": "Eine Kuchengabel gehört nicht zum Frühstücksgedeck. Sie liegt dort zu viel und ist ein Fehler. Man deckt nur ein, was der Gast wirklich braucht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍞 Beim festlichen Menü stand der Brotteller rechts. Wo gehört er hin?",
+        "prompt": "🍞 Beim festlichen Menü steht der Brotteller rechts. Wo gehört er hin?",
         "options": [
           { "text": "Auf die linke Seite.", "correct": true },
-          { "text": "Auf die rechte Seite." },
-          { "text": "In die Mitte des Tellers." }
+          { "text": "Rechts oben, neben die Gläser." },
+          { "text": "Rechts, neben das Messer." }
         ],
-        "explanation": "Der Brotteller steht immer links. Steht er rechts, ist das ein Fehler im Gedeck."
+        "explanation": "Der Brotteller (auch Beilagenteller genannt) steht immer links, oberhalb der Gabeln. Steht er rechts, ist das ein Fehler im Gedeck."
       }
     }
   ]

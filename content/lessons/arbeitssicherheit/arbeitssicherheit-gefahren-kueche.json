@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔪 Du schneidest Gemüse. Wie hältst du die Hand, die das Gemüse festhält?",
+        "prompt": "🔪 Du schneidest Gemüse in Scheiben. Wie hältst du die Hand, die das Gemüse festhält?",
         "options": [
           { "text": "Wie eine Kralle: Die Fingerspitzen sind nach innen eingeknickt.", "correct": true },
-          { "text": "Flach, mit gestreckten Fingern." },
-          { "text": "Weit weg – das Gemüse liegt von allein still." }
+          { "text": "Flach mit gestreckten Fingern, die Kuppen liegen oben auf dem Gemüse." },
+          { "text": "Mit dem Daumen vorn am Rand, die anderen Finger zeigen zur Klinge." }
         ],
-        "explanation": "Das nennt man Krallengriff. Die Fingerspitzen sind eingeknickt und zeigen nach hinten. Das Messer gleitet an den Knöcheln entlang und kann dich nicht schneiden."
+        "explanation": "Das nennt man Krallengriff. Die Fingerspitzen sind eingeknickt und zeigen nach hinten. Das Messer gleitet an den Knöcheln entlang und kann die Kuppen nicht treffen. Liegen die Finger flach oder zeigen sie zur Klinge, sind sie ungeschützt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚡ Ein Messer rutscht vom Tisch und fällt. Was machst du?",
+        "prompt": "⚡ Ein Messer rutscht von der Arbeitsfläche und fällt. Was tust du im ersten Moment?",
         "options": [
-          { "text": "Einen Schritt zurückgehen und das Messer fallen lassen.", "correct": true },
-          { "text": "Das Messer schnell auffangen." },
-          { "text": "Das Messer mit dem Fuß stoppen." }
+          { "text": "Einen Schritt zurücktreten und das Messer fallen lassen.", "correct": true },
+          { "text": "Schnell nach dem Griff greifen, bevor es auf den Boden fällt." },
+          { "text": "Das Messer mit dem Fuß abfangen, damit es nicht laut aufschlägt." }
         ],
-        "explanation": "Beim Auffangen greifst du in die scharfe Klinge. Geh zur Seite und lass das Messer fallen. Danach hebst du es am Griff auf."
+        "explanation": "Beim Zugreifen kannst du nicht steuern, ob du den Griff oder die Klinge erwischst – oft ist es die Klinge. Auch der Fuß ist zu nah dran. Tritt zur Seite, lass das Messer fallen und heb es danach am Griff auf."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧽 Wohin legst du ein benutztes Messer beim Abwasch?",
+        "prompt": "🧽 Beim Abwasch bleibt ein scharfes Messer übrig. Wohin legst du es, damit sich niemand verletzt?",
         "options": [
           { "text": "Sichtbar auf die Ablage neben dem Spülbecken.", "correct": true },
-          { "text": "Ins Spülwasser, zwischen das andere Geschirr." },
-          { "text": "Unten in den Stapel mit dem schmutzigen Geschirr." }
+          { "text": "Mit ins Spülwasser, dann wasche ich alles zusammen ab." },
+          { "text": "Unter das andere Geschirr in die volle Spüle stapeln." }
         ],
-        "explanation": "Im trüben Spülwasser sieht niemand das Messer. Wer hineingreift, kann sich schwer schneiden. Darum liegt das Messer immer sichtbar auf der Ablage."
+        "explanation": "Im trüben Spülwasser oder unter dem Geschirr sieht niemand die Klinge. Wer hineingreift, schneidet sich schwer. Darum liegt das Messer immer sichtbar und einzeln auf der Ablage."
       }
     },
     {
@@ -74,43 +74,43 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔌 Du ziehst den Stecker aus der Steckdose. Wie machst du es richtig?",
+        "prompt": "🔌 Du willst den Stecker aus der Steckdose ziehen. Wie machst du es richtig?",
         "options": [
-          { "text": "Den Stecker anfassen und gerade herausziehen.", "correct": true },
-          { "text": "Am Kabel ziehen." },
-          { "text": "Mit nassen Händen ziehen, das geht schneller." }
+          { "text": "Den Stecker selbst anfassen und gerade herausziehen.", "correct": true },
+          { "text": "Am Kabel ziehen, das geht schneller." },
+          { "text": "Mit feuchten Händen anfassen, dann rutscht er leichter heraus." }
         ],
-        "explanation": "Ziehst du am Kabel, kann es kaputtgehen. Ein kaputtes Kabel kann einen Stromschlag geben. Fasse immer den Stecker selbst an – und nur mit trockenen Händen."
+        "explanation": "Ziehst du am Kabel, kann es an der Verbindung brechen. Ein beschädigtes Kabel kann einen Stromschlag geben – einen gefährlichen Stromstoß durch den Körper. Fasse immer den Stecker selbst an, und nur mit trockenen Händen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Du willst den Mixer sauber machen. Was machst du zuerst?",
+        "prompt": "🥣 Du willst den Standmixer sauber machen. Was machst du als Allererstes?",
         "options": [
           { "text": "Den Stecker ziehen.", "correct": true },
           { "text": "Den Mixer unter fließendes Wasser halten." },
           { "text": "Mit dem nassen Lappen über das eingesteckte Gerät wischen." }
         ],
-        "explanation": "Strom und Wasser sind zusammen gefährlich. Erst wenn der Stecker gezogen ist, kann dir beim Putzen nichts passieren."
+        "explanation": "Strom und Wasser sind zusammen gefährlich. Solange der Stecker steckt, steht das Gerät unter Strom. Erst wenn der Stecker gezogen ist, kann dir beim Putzen nichts passieren – deshalb ist das immer der erste Schritt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔥 In der Pfanne brennt Fett. Was machst du?",
+        "prompt": "🔥 In der Pfanne fängt heißes Fett Feuer. Was tust du?",
         "options": [
           { "text": "Den Deckel auf die Pfanne legen. Das erstickt das Feuer.", "correct": true },
-          { "text": "Wasser in die Pfanne gießen." },
-          { "text": "Kräftig auf die Flammen pusten." }
+          { "text": "Wasser in die Pfanne gießen, das löscht Feuer sonst auch." },
+          { "text": "Die brennende Pfanne schnell nach draußen tragen." }
         ],
-        "explanation": "Wasser in brennendem Fett ist sehr gefährlich: Das Fett spritzt dann brennend durch die Küche. Ein Deckel oder eine Löschdecke nimmt dem Feuer die Luft."
+        "explanation": "Wasser in brennendem Fett ist sehr gefährlich: Es verdampft schlagartig und schleudert das brennende Fett durch die Küche. Auch Umhertragen verteilt das Feuer. Ein Deckel oder eine Löschdecke erstickt das Feuer – es nimmt ihm die Luft."
       }
     },
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "✅ Sicher oder gefährlich? Sortiere.",
+        "prompt": "✅ Ist diese Handlung in der Küche sicher oder gefährlich? Sortiere.",
         "buckets": [
           { "id": "sicher", "label": "Sicher", "icon": "✅" },
           { "id": "gefaehrlich", "label": "Gefährlich", "icon": "⚠️" }

@@ -20,13 +20,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Wie voll füllst du eine Salatschüssel?",
+        "prompt": "🥗 Du richtest Salat zum Vorlegen an. Wie voll füllst du die Schüssel?",
         "options": [
           { "text": "Nur etwa drei Viertel voll.", "correct": true },
-          { "text": "Bis ganz oben, randvoll." },
-          { "text": "Nur ein kleines bisschen." }
+          { "text": "Ganz bis zum Rand, damit die Schüssel richtig voll aussieht." },
+          { "text": "Bis kurz unter den Rand, so voll wie es nur geht." }
         ],
-        "explanation": "Die Schüssel ist nur drei Viertel voll. So kannst du den Salat noch gut mischen und vorlegen, ohne dass etwas überschwappt."
+        "explanation": "Die Schüssel füllst du nur drei Viertel voll. Vorlegen heißt: Du gibst den Gästen das Essen auf den Teller. Bei drei Viertel kannst du den Salat noch mischen, ohne dass etwas über den Rand schwappt."
       }
     },
     {
@@ -35,10 +35,10 @@
         "prompt": "🔥 Warum wärmst du die Platte für den Braten vorher an?",
         "options": [
           { "text": "Damit die warme Speise nicht so schnell kalt wird.", "correct": true },
-          { "text": "Damit die Platte schöner glänzt." },
-          { "text": "Damit der Braten schneller gart." }
+          { "text": "Damit sich Fett und Soße besser auf der Platte verteilen." },
+          { "text": "Damit der Braten auf der Platte noch weitergart." }
         ],
-        "explanation": "Warme Speisen kommen in vorgewärmtes Geschirr. Auf einer kalten Platte würde der Braten sonst schnell auskühlen."
+        "explanation": "Warme Speisen kommen in vorgewärmtes Geschirr. Vorgewärmt heißt: Du machst das Geschirr vorher warm. Auf einer kalten Platte würde der Braten sonst schnell auskühlen. Der Braten gart auf der Platte nicht weiter."
       }
     },
     {
@@ -74,13 +74,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍨 Worin richtest du eine Süßspeise an?",
+        "prompt": "🍨 Du richtest eine kalte Süßspeise an. Welches Geschirr passt?",
         "options": [
-          { "text": "In einem Glasschälchen.", "correct": true },
-          { "text": "Auf einer heißen Platte." },
-          { "text": "In einer Suppenterrine." }
+          { "text": "Ein Glasschälchen.", "correct": true },
+          { "text": "Eine vorgewärmte Schüssel mit Deckel." },
+          { "text": "Eine vorgewärmte Platte." }
         ],
-        "explanation": "Süßspeisen kommen in Glasgeschirr, zum Beispiel in ein Glasschälchen. Darin sehen sie besonders schön aus."
+        "explanation": "Kalte Süßspeisen kommen in Glasgeschirr, zum Beispiel in ein Glasschälchen. Vorgewärmtes Geschirr ist nur für warme Speisen. Im Glas sieht die Süßspeise außerdem schön aus."
       }
     },
     {
@@ -89,10 +89,10 @@
         "prompt": "🍖 Wie richtest du den Braten auf der Platte an?",
         "options": [
           { "text": "Aufgeschnitten, mit einer Fleischgabel dazu.", "correct": true },
-          { "text": "Im Ganzen, ganz ohne Besteck." },
-          { "text": "Zerdrückt in einem Glas." }
+          { "text": "Aufgeschnitten, aber mit einer Suppenkelle dazu." },
+          { "text": "Im Ganzen, dazu ein Messer zum Selberschneiden." }
         ],
-        "explanation": "Der Braten wird aufgeschnitten auf einer vorgewärmten Platte angerichtet. Dazu legst du eine Fleischgabel."
+        "explanation": "Den Braten richtest du aufgeschnitten auf einer vorgewärmten Platte an. Dazu legst du eine Fleischgabel als Vorlegebesteck. Vorlegebesteck heißt: Besteck, mit dem sich die Gäste selbst nehmen. Mit der Gabel greifen sie die Scheiben."
       }
     },
     {
@@ -101,22 +101,22 @@
         "prompt": "🍝 In welchem Geschirr richtest du warme Nudeln an?",
         "options": [
           { "text": "In einer runden, vorgewärmten Schüssel.", "correct": true },
-          { "text": "In einem kalten Glasteller." },
-          { "text": "Auf einer nassen Untertasse." }
+          { "text": "In einem kalten Glasschälchen, wie bei einer Süßspeise." },
+          { "text": "Auf einer flachen, kalten Platte ohne Rand." }
         ],
-        "explanation": "Warme Nudeln kommen in eine runde, vorgewärmte Schüssel. Dazu gehört ein Vorlegebesteck."
+        "explanation": "Warme Nudeln kommen in eine runde, vorgewärmte Schüssel. Vorgewärmt heißt: vorher warm gemacht. In kaltem Glas würden die Nudeln schnell auskühlen. Dazu gehört ein Vorlegebesteck zum Auffüllen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Was legst du zu einer Suppenterrine dazu?",
+        "prompt": "🥣 Du bringst eine Suppenterrine an den Tisch. Welches Vorlegebesteck legst du dazu?",
         "options": [
           { "text": "Eine Suppenkelle.", "correct": true },
-          { "text": "Eine Fleischgabel." },
-          { "text": "Einen Tortenheber." }
+          { "text": "Einen Kartoffellöffel." },
+          { "text": "Eine Fleischgabel." }
         ],
-        "explanation": "Mit der Suppenkelle kannst du die Suppe aus der Terrine schöpfen. Sie gehört immer dazu."
+        "explanation": "Zur Suppenterrine gehört die Suppenkelle. Eine Kelle ist ein tiefer Schöpflöffel. Damit schöpfst du die Suppe aus der Terrine. Ein Kartoffellöffel ist flach – damit kannst du keine Suppe schöpfen."
       }
     }
   ]

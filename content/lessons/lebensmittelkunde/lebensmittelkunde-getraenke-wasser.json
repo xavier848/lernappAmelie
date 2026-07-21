@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-getraenke-wasser",
   "title": "Getränke & Wasser",
+  "intro": "💧 Wasser ist lebenswichtig für deinen Körper. Es steckt in jeder Zelle und hat dort mehrere Aufgaben. Es löst Nährstoffe auf und bringt sie durch den Körper. Beim Schwitzen kühlt es dich ab. Energie und Vitamine liefert Wasser aber nicht. Am Tag braucht dein Körper etwa 2,5 Liter Wasser. Rund 1,5 Liter davon trinkst du. Etwa 1 Liter steckt schon im Essen. Eine Gurke besteht fast nur aus Wasser, in Brot ist viel weniger. Zum Durstlöschen ist Wasser am besten, denn Limonade und Cola liefern vor allem Zucker.",
   "sort": 60,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Wasser ist lebenswichtig für den Körper. Warum?",
+        "prompt": "💧 Warum kann der Körper ohne Wasser nicht arbeiten?",
         "options": [
-          { "text": "Es hat viele Aufgaben im Körper, zum Beispiel als Transportmittel.", "correct": true },
-          { "text": "Es macht nur satt." },
-          { "text": "Es hat gar keine Aufgabe." }
+          {
+            "text": "Es hat viele Aufgaben im Körper, zum Beispiel als Transportmittel.",
+            "correct": true
+          },
+          {
+            "text": "Es liefert dem Körper viel Energie."
+          },
+          {
+            "text": "Es versorgt den Körper mit vielen Vitaminen."
+          }
         ],
-        "explanation": "Wasser steckt in jeder Zelle. Es löst Nährstoffe, transportiert sie und regelt die Wärme. Ohne Wasser geht im Körper nichts."
+        "explanation": "Wasser steckt in jeder Zelle. Es löst Nährstoffe, transportiert sie und regelt die Wärme. Energie und Vitamine liefert Wasser aber nicht. Trotzdem geht ohne Wasser im Körper nichts."
       }
     },
     {
@@ -21,10 +29,38 @@
       "data": {
         "prompt": "🔗 Welche Aufgabe hat das Wasser im Körper? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Baustoff" }, "right": { "text": "Wasser steckt in jeder Zelle" } },
-          { "left": { "text": "Lösungsmittel" }, "right": { "text": "Löst Nährstoffe auf" } },
-          { "left": { "text": "Transportmittel" }, "right": { "text": "Bringt Stoffe durch den Körper" } },
-          { "left": { "text": "Wärmeregulation" }, "right": { "text": "Kühlt beim Schwitzen" } }
+          {
+            "left": {
+              "text": "Baustoff"
+            },
+            "right": {
+              "text": "Wasser steckt in jeder Zelle"
+            }
+          },
+          {
+            "left": {
+              "text": "Lösungsmittel"
+            },
+            "right": {
+              "text": "Löst Nährstoffe auf"
+            }
+          },
+          {
+            "left": {
+              "text": "Transportmittel"
+            },
+            "right": {
+              "text": "Bringt Stoffe durch den Körper"
+            }
+          },
+          {
+            "left": {
+              "text": "Wärmeregulation"
+            },
+            "right": {
+              "text": "Kühlt beim Schwitzen"
+            }
+          }
         ],
         "memory": false
       }
@@ -34,30 +70,67 @@
       "data": {
         "prompt": "🥤 Sortiere die Getränke nach ihrem Nährstoffgehalt.",
         "buckets": [
-          { "id": "wenig", "label": "Wenig Energie", "icon": "💧" },
-          { "id": "zucker", "label": "Viel Zucker", "icon": "🍬" },
-          { "id": "vitamine", "label": "Energie + Vitamine", "icon": "🥕" }
+          {
+            "id": "wenig",
+            "label": "Wenig Energie",
+            "icon": "💧"
+          },
+          {
+            "id": "zucker",
+            "label": "Viel Zucker",
+            "icon": "🍬"
+          },
+          {
+            "id": "vitamine",
+            "label": "Energie + Vitamine",
+            "icon": "🥕"
+          }
         ],
         "items": [
-          { "text": "Mineralwasser", "bucket": "wenig" },
-          { "text": "Kräutertee", "bucket": "wenig" },
-          { "text": "Limonade", "bucket": "zucker" },
-          { "text": "Cola", "bucket": "zucker" },
-          { "text": "Gemüsesaft", "bucket": "vitamine" },
-          { "text": "Buttermilch", "bucket": "vitamine" }
+          {
+            "text": "Mineralwasser",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Kräutertee",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Limonade",
+            "bucket": "zucker"
+          },
+          {
+            "text": "Cola",
+            "bucket": "zucker"
+          },
+          {
+            "text": "Gemüsesaft",
+            "bucket": "vitamine"
+          },
+          {
+            "text": "Buttermilch",
+            "bucket": "vitamine"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚰 Ein Mensch braucht am Tag etwa 2,5 Liter Wasser. Woher kommt das?",
+        "prompt": "🚰 Ein Mensch braucht am Tag etwa 2,5 Liter Wasser. Woher kommt diese Menge?",
         "options": [
-          { "text": "Etwa 1,5 Liter aus Getränken und 1 Liter aus dem Essen.", "correct": true },
-          { "text": "Alles nur aus Getränken." },
-          { "text": "Alles nur aus dem Essen." }
+          {
+            "text": "Etwa 1,5 Liter aus Getränken und 1 Liter aus dem Essen.",
+            "correct": true
+          },
+          {
+            "text": "Die vollen 2,5 Liter musst du trinken. Im Essen ist kein Wasser."
+          },
+          {
+            "text": "Nur etwa 0,5 Liter trinkst du. Der große Rest kommt aus dem Essen."
+          }
         ],
-        "explanation": "Rund 1,5 Liter trinkst du. Etwa 1 Liter steckt schon im Essen, zum Beispiel in Obst und Gemüse. Zusammen sind das ungefähr 2,5 Liter."
+        "explanation": "Rund 1,5 Liter trinkst du. Etwa 1 Liter steckt schon im Essen, zum Beispiel in Obst und Gemüse. Zusammen sind das ungefähr 2,5 Liter. Du musst also nicht alles trinken."
       }
     },
     {
@@ -65,11 +138,46 @@
       "data": {
         "prompt": "🔢 Wie viel Wasser steckt in diesen Lebensmitteln? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Gurke" }, "right": { "text": "96 %" } },
-          { "left": { "text": "Fisch" }, "right": { "text": "87 %" } },
-          { "left": { "text": "Milch" }, "right": { "text": "86 %" } },
-          { "left": { "text": "Ei" }, "right": { "text": "74 %" } },
-          { "left": { "text": "Brot" }, "right": { "text": "40 %" } }
+          {
+            "left": {
+              "text": "Gurke"
+            },
+            "right": {
+              "text": "96 %"
+            }
+          },
+          {
+            "left": {
+              "text": "Fisch"
+            },
+            "right": {
+              "text": "87 %"
+            }
+          },
+          {
+            "left": {
+              "text": "Milch"
+            },
+            "right": {
+              "text": "86 %"
+            }
+          },
+          {
+            "left": {
+              "text": "Ei"
+            },
+            "right": {
+              "text": "74 %"
+            }
+          },
+          {
+            "left": {
+              "text": "Brot"
+            },
+            "right": {
+              "text": "40 %"
+            }
+          }
         ],
         "memory": false
       }
@@ -77,25 +185,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥒 Welches Lebensmittel enthält am meisten Wasser?",
+        "prompt": "🥒 Welches dieser Lebensmittel enthält am meisten Wasser?",
         "options": [
-          { "text": "Die Gurke mit 96 %.", "correct": true },
-          { "text": "Das Brot mit 40 %." },
-          { "text": "Das Ei mit 74 %." }
+          {
+            "text": "Die Gurke mit 96 %.",
+            "correct": true
+          },
+          {
+            "text": "Der Fisch mit 87 %."
+          },
+          {
+            "text": "Die Milch mit 86 %."
+          }
         ],
-        "explanation": "Die Gurke besteht fast nur aus Wasser: 96 Prozent. Brot und Ei haben weniger Wasser."
+        "explanation": "Die Gurke besteht fast nur aus Wasser: 96 Prozent. Fisch (87 %) und Milch (86 %) haben auch viel Wasser, aber etwas weniger als die Gurke."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👍 Welches Getränk ist gut, um den Durst zu löschen?",
+        "prompt": "👍 Du hast großen Durst. Welches Getränk löscht ihn am besten?",
         "options": [
-          { "text": "Mineralwasser, es hat kaum Energie.", "correct": true },
-          { "text": "Cola, weil sie viel Zucker hat." },
-          { "text": "Limonade, weil sie süß ist." }
+          {
+            "text": "Mineralwasser, es hat kaum Energie.",
+            "correct": true
+          },
+          {
+            "text": "Apfelsaft, weil er Vitamine liefert."
+          },
+          {
+            "text": "Cola, weil der Zucker schnell Energie gibt."
+          }
         ],
-        "explanation": "Mineralwasser hat fast keine Energie und keinen Zucker. Es ist das beste Getränk zum Durstlöschen. Auch Kräutertee ist gut."
+        "explanation": "Mineralwasser hat fast keine Energie und keinen Zucker. Es ist das beste Getränk zum Durstlöschen. Saft und Cola haben viel Zucker und damit viel Energie. Auch Kräutertee ist gut."
       }
     },
     {
@@ -103,23 +225,37 @@
       "data": {
         "prompt": "🍬 Warum solltest du Limonade nur selten trinken?",
         "options": [
-          { "text": "Sie hat viel Zucker und viel Energie.", "correct": true },
-          { "text": "Sie hat gar keinen Geschmack." },
-          { "text": "Sie ist immer zu teuer." }
+          {
+            "text": "Sie hat viel Zucker und viel Energie.",
+            "correct": true
+          },
+          {
+            "text": "Sie enthält viel Koffein und hält dich wach."
+          },
+          {
+            "text": "Sie liefert zu viele wichtige Vitamine."
+          }
         ],
-        "explanation": "In Limonade steckt viel Zucker. Das gibt viel Energie, aber keine wichtigen Nährstoffe. Darum ist sie kein gutes Durstlöscher-Getränk."
+        "explanation": "In Limonade steckt viel Zucker. Das gibt viel Energie, aber keine wichtigen Nährstoffe. Man sagt dazu leere Kalorien: viel Energie, aber nichts Gutes für den Körper. Darum ist sie kein gutes Durstlöscher-Getränk."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Was ist das beste Getränk für jeden Tag?",
+        "prompt": "🌟 Zum Schluss: Welches Getränk ist am besten, um es jeden Tag zu trinken?",
         "options": [
-          { "text": "Wasser.", "correct": true },
-          { "text": "Cola." },
-          { "text": "Limonade." }
+          {
+            "text": "Wasser.",
+            "correct": true
+          },
+          {
+            "text": "Apfelsaft, weil er Vitamine hat."
+          },
+          {
+            "text": "Cola light, weil sie keinen Zucker hat."
+          }
         ],
-        "explanation": "Wasser ist das beste Alltagsgetränk. Es löscht den Durst ohne Zucker und ohne unnötige Energie."
+        "explanation": "Wasser ist das beste Alltagsgetränk. Es löscht den Durst ohne Zucker und ohne unnötige Energie. Apfelsaft hat viel Zucker. Cola light hat zwar keinen Zucker, aber trotzdem keine wichtigen Nährstoffe."
       }
     }
   ]

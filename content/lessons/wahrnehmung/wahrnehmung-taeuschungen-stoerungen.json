@@ -2,6 +2,7 @@
   "topic_slug": "wahrnehmung",
   "slug": "wahrnehmung-taeuschungen-stoerungen",
   "title": "Täuschungen & Störungen",
+  "intro": "🧠 Wahrnehmung ist etwas Persönliches. Jeder Mensch nimmt die gleiche Sache etwas anders wahr. Deine Gefühle, deine Erfahrungen und dein Körper wirken dabei mit. Das Gehirn arbeitet also nicht wie eine Kamera. Bei einer Wahrnehmungs-Störung passt das Bild im Kopf nicht mehr zur Wirklichkeit. Eine Halluzination ist eine Wahrnehmung ohne echten Reiz. Bei einer Illusion gibt es einen echten Reiz, aber das Gehirn deutet ihn falsch. Im Alter lassen die Sinne oft nach. Beim Hören fallen zuerst die hohen Töne weg. Eine Brille oder ein Hörgerät hilft dann weiter.",
   "sort": 20,
   "exercises": [
     {
@@ -9,10 +10,38 @@
       "data": {
         "prompt": "🎭 Was beeinflusst, wie du etwas wahrnimmst? Verbinde den Grund mit dem Beispiel.",
         "pairs": [
-          { "left": { "text": "😢 Deine Gefühle" }, "right": { "text": "Aus Angst wirkt ein Geräusch bedrohlich." } },
-          { "left": { "text": "🎯 Deine Interessen" }, "right": { "text": "Beim Hunger fällt dir jedes Essens-Plakat auf." } },
-          { "left": { "text": "📚 Deine Erfahrungen" }, "right": { "text": "Einen bekannten Weg erkennst du sofort wieder." } },
-          { "left": { "text": "💪 Dein Körper" }, "right": { "text": "Mit Schnupfen schmeckt das Essen nach wenig." } }
+          {
+            "left": {
+              "text": "😢 Deine Gefühle"
+            },
+            "right": {
+              "text": "Aus Angst wirkt ein Geräusch bedrohlich."
+            }
+          },
+          {
+            "left": {
+              "text": "🎯 Deine Interessen"
+            },
+            "right": {
+              "text": "Beim Hunger fällt dir jedes Essens-Plakat auf."
+            }
+          },
+          {
+            "left": {
+              "text": "📚 Deine Erfahrungen"
+            },
+            "right": {
+              "text": "Einen bekannten Weg erkennst du sofort wieder."
+            }
+          },
+          {
+            "left": {
+              "text": "💪 Dein Körper"
+            },
+            "right": {
+              "text": "Mit Schnupfen schmeckt das Essen nach wenig."
+            }
+          }
         ],
         "memory": false
       }
@@ -20,37 +49,58 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❓ Was ist eine Wahrnehmungs-Störung?",
+        "prompt": "❓ Wann spricht man von einer Wahrnehmungs-Störung?",
         "options": [
-          { "text": "Das Gehirn macht ein völlig falsches Bild von der Wirklichkeit.", "correct": true },
-          { "text": "Man sieht alles genau richtig." },
-          { "text": "Man hat nur zu wenig geschlafen." }
+          {
+            "text": "Das Gehirn macht ein völlig falsches Bild von der Wirklichkeit.",
+            "correct": true
+          },
+          {
+            "text": "Ein Sinnesorgan wie das Auge ist schwach. Das Bild im Kopf stimmt aber."
+          },
+          {
+            "text": "Man ist nur kurz unaufmerksam und übersieht etwas."
+          }
         ],
-        "explanation": "Bei einer Wahrnehmungs-Störung passt das Bild im Kopf nicht mehr zur Wirklichkeit. Dazu gehören Halluzination und Illusion."
+        "explanation": "Bei einer Wahrnehmungs-Störung passt das Bild im Kopf nicht mehr zur Wirklichkeit. Dazu gehören die Halluzination (eine Wahrnehmung ganz ohne Reiz) und die Illusion (ein echter Reiz wird falsch gedeutet). Ein schwaches Auge macht das Bild nur unscharf, nicht falsch."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔊 Eine Person hört Stimmen. Aber niemand spricht. Was ist das?",
+        "prompt": "🔊 Eine Bewohnerin hört Stimmen. Aber niemand spricht im Raum. Wie nennt man das?",
         "options": [
-          { "text": "Eine Halluzination.", "correct": true },
-          { "text": "Eine Illusion." },
-          { "text": "Eine gute Beobachtung." }
+          {
+            "text": "Eine Halluzination.",
+            "correct": true
+          },
+          {
+            "text": "Eine Illusion."
+          },
+          {
+            "text": "Nur lebhafte Fantasie. Sie weiß, dass es nicht echt ist."
+          }
         ],
-        "explanation": "Bei einer Halluzination fehlt der Reiz ganz. Es gibt keine Quelle. Trotzdem hält die Person die Wahrnehmung für echt."
+        "explanation": "Bei einer Halluzination fehlt der Reiz ganz. Es gibt keine Quelle. Trotzdem hält die Person die Wahrnehmung für echt. Genau das ist der Unterschied zur Fantasie. Bei einer Illusion wäre ein echter Reiz da, nur falsch gedeutet."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚗 Du sitzt im Auto. Das Auto daneben fährt los. Kurz denkst du, dein Auto rollt. Was ist das?",
+        "prompt": "🚗 Du sitzt im Auto. Das Auto daneben fährt los. Kurz denkst du, dein Auto rollt. Wie nennt man das?",
         "options": [
-          { "text": "Eine Illusion.", "correct": true },
-          { "text": "Eine Halluzination." },
-          { "text": "Eine Wahrnehmungs-Übung." }
+          {
+            "text": "Eine Illusion.",
+            "correct": true
+          },
+          {
+            "text": "Eine Halluzination."
+          },
+          {
+            "text": "Nur pure Einbildung. Ganz ohne einen echten Reiz."
+          }
         ],
-        "explanation": "Bei einer Illusion gibt es einen echten Reiz. Aber das Gehirn deutet ihn falsch. Die optische Täuschung ist die bekannteste Illusion."
+        "explanation": "Hier gibt es einen echten Reiz: Das Auto daneben bewegt sich wirklich. Dein Gehirn deutet ihn nur falsch. Das ist eine Illusion. Bei einer Halluzination gäbe es dagegen gar keinen Reiz."
       }
     },
     {
@@ -58,16 +108,42 @@
       "data": {
         "prompt": "🧩 Halluzination oder Illusion? Sortiere.",
         "buckets": [
-          { "id": "hallu", "label": "Halluzination (kein Reiz)", "icon": "👻" },
-          { "id": "illu", "label": "Illusion (Reiz falsch gedeutet)", "icon": "🌀" }
+          {
+            "id": "hallu",
+            "label": "Halluzination (kein Reiz)",
+            "icon": "👻"
+          },
+          {
+            "id": "illu",
+            "label": "Illusion (Reiz falsch gedeutet)",
+            "icon": "🌀"
+          }
         ],
         "items": [
-          { "text": "Jemand hört eine Stimme, obwohl niemand da ist.", "bucket": "hallu" },
-          { "text": "Jemand sieht Tiere, die es nicht gibt.", "bucket": "hallu" },
-          { "text": "Jemand hört Musik, obwohl kein Gerät läuft.", "bucket": "hallu" },
-          { "text": "Zwei gleich lange Linien wirken verschieden lang.", "bucket": "illu" },
-          { "text": "Im Dunkeln hältst du einen Mantel für eine Person.", "bucket": "illu" },
-          { "text": "Ein gemaltes Bild täuscht dein Auge.", "bucket": "illu" }
+          {
+            "text": "Jemand hört eine Stimme, obwohl niemand da ist.",
+            "bucket": "hallu"
+          },
+          {
+            "text": "Jemand sieht Tiere, die es nicht gibt.",
+            "bucket": "hallu"
+          },
+          {
+            "text": "Jemand hört Musik, obwohl kein Gerät läuft.",
+            "bucket": "hallu"
+          },
+          {
+            "text": "Zwei gleich lange Linien wirken verschieden lang.",
+            "bucket": "illu"
+          },
+          {
+            "text": "Im Dunkeln hältst du einen Mantel für eine Person.",
+            "bucket": "illu"
+          },
+          {
+            "text": "Ein gemaltes Bild täuscht dein Auge.",
+            "bucket": "illu"
+          }
         ]
       }
     },
@@ -76,9 +152,30 @@
       "data": {
         "prompt": "👵 Was zeigt sich oft im Alter? Verbinde.",
         "pairs": [
-          { "left": { "text": "👂 Altersschwerhörigkeit" }, "right": { "text": "Die Türklingel wird nicht mehr gehört." } },
-          { "left": { "text": "👓 Alterssichtigkeit" }, "right": { "text": "Die Zeitung geht nur noch mit Lesebrille." } },
-          { "left": { "text": "👅 Veränderter Geschmack" }, "right": { "text": "Eine gute Suppe schmeckt plötzlich fade." } }
+          {
+            "left": {
+              "text": "👂 Altersschwerhörigkeit"
+            },
+            "right": {
+              "text": "Die Türklingel wird nicht mehr gehört."
+            }
+          },
+          {
+            "left": {
+              "text": "👓 Alterssichtigkeit"
+            },
+            "right": {
+              "text": "Die Zeitung geht nur noch mit Lesebrille."
+            }
+          },
+          {
+            "left": {
+              "text": "👅 Veränderter Geschmack"
+            },
+            "right": {
+              "text": "Eine gute Suppe schmeckt plötzlich fade."
+            }
+          }
         ],
         "memory": false
       }
@@ -86,13 +183,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔔 Welche Töne hören viele ältere Menschen schlechter?",
+        "prompt": "🔔 Ein Bewohner hört die helle Türklingel oft nicht mehr. Welche Töne fallen bei Altersschwerhörigkeit zuerst weg?",
         "options": [
-          { "text": "Hohe Töne.", "correct": true },
-          { "text": "Tiefe Töne." },
-          { "text": "Gar keine Töne." }
+          {
+            "text": "Hohe Töne.",
+            "correct": true
+          },
+          {
+            "text": "Tiefe Töne."
+          },
+          {
+            "text": "Alle Töne werden gleichmäßig leiser."
+          }
         ],
-        "explanation": "Im Alter lässt das Gehör nach. Zuerst gehen oft die hohen Töne verloren. Ein helles Klingeln wird dann leicht überhört."
+        "explanation": "Bei der Altersschwerhörigkeit lässt das Gehör nicht überall gleich nach. Zuerst gehen oft die hohen Töne verloren. Ein helles Klingeln oder Piepen wird dann leicht überhört. Tiefe Töne bleiben länger hörbar."
       }
     },
     {
@@ -100,8 +204,22 @@
       "data": {
         "prompt": "🛠️ Welches Hilfsmittel passt? Verbinde.",
         "pairs": [
-          { "left": { "text": "👀 Schlechtes Sehen" }, "right": { "text": "Brille" } },
-          { "left": { "text": "👂 Schlechtes Hören" }, "right": { "text": "Hörgerät" } }
+          {
+            "left": {
+              "text": "👀 Schlechtes Sehen"
+            },
+            "right": {
+              "text": "Brille"
+            }
+          },
+          {
+            "left": {
+              "text": "👂 Schlechtes Hören"
+            },
+            "right": {
+              "text": "Hörgerät"
+            }
+          }
         ],
         "memory": false
       }
@@ -111,11 +229,18 @@
       "data": {
         "prompt": "🌟 Der Satz ist richtig: Wahrnehmung ist ...",
         "options": [
-          { "text": "... ein persönlicher Vorgang. Jeder nimmt etwas anders wahr.", "correct": true },
-          { "text": "... bei allen Menschen genau gleich." },
-          { "text": "... immer hundertprozentig richtig." }
+          {
+            "text": "... ein persönlicher Vorgang. Jeder nimmt etwas anders wahr.",
+            "correct": true
+          },
+          {
+            "text": "... bei allen Menschen genau gleich, wenn die Sinne gesund sind."
+          },
+          {
+            "text": "... objektiv wie bei einer Kamera. Sie bildet die Wirklichkeit genau ab."
+          }
         ],
-        "explanation": "Wahrnehmung ist subjektiv. Sie kann bei jedem anders ausfallen. Und manchmal passt sie nicht ganz zur Wirklichkeit."
+        "explanation": "Wahrnehmung ist subjektiv. Subjektiv heißt: Sie hängt von der Person ab und kann bei jedem anders ausfallen. Anders als eine Kamera fügt das Gehirn Gefühle und Erfahrungen hinzu. Darum passt die Wahrnehmung manchmal nicht ganz zur Wirklichkeit."
       }
     }
   ]

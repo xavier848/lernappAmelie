@@ -26,13 +26,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✋ Du setzt die Teller von rechts ein. Welche Hand hält die Teller?",
+        "prompt": "✋ Du setzt die Teller von rechts ein. Welche Hand ist die Traghand, welche stellt ab?",
         "options": [
           { "text": "Die linke Hand hält, die rechte stellt ab.", "correct": true },
           { "text": "Die rechte Hand hält, die linke stellt ab." },
-          { "text": "Beide Hände halten und stellen gleichzeitig ab." }
+          { "text": "Du hältst mit der Hand, die näher am Gast ist." }
         ],
-        "explanation": "Eine Hand ist die Traghand, die andere ist die Arbeitshand. Setzt du von rechts ein, hältst du die Teller links. Die rechte Hand ist frei und stellt vor dem Gast ab. Dein Daumen bleibt dabei am Tellerrand, nie im Essen."
+        "explanation": "Eine Hand ist die Traghand, die andere ist die Arbeitshand. Traghand heißt: diese Hand trägt und hält nur. Arbeitshand heißt: diese Hand stellt ab. Setzt du von rechts ein, trägt die linke Hand. Die rechte Hand ist frei und stellt vor dem Gast ab. Dein Daumen bleibt dabei am Tellerrand, nie im Essen."
       }
     },
     {
@@ -81,13 +81,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🫗 Von welcher Seite schenkst du Getränke ein?",
+        "prompt": "🫗 Das Glas steht rechts am Gedeck. Wie schenkst du darum ein?",
         "options": [
           { "text": "Von rechts, mit der rechten Hand.", "correct": true },
           { "text": "Von links, mit der linken Hand." },
-          { "text": "Von der Seite, die gerade frei ist." }
+          { "text": "Von rechts, aber mit der linken Hand über den Teller." }
         ],
-        "explanation": "Das Glas steht rechts am Platz. Darum schenkst du von rechts mit der rechten Hand ein. Die Flasche berührt dabei nicht den Glasrand. Am Ende drehst du die Flasche leicht, dann tropft nichts auf das Tischtuch."
+        "explanation": "Das Gedeck ist der ganze Platz vom Gast: Teller, Besteck und Glas. Das Glas steht rechts. Darum schenkst du von rechts mit der rechten Hand ein. So greifst du nicht über den Teller. Die Flasche berührt dabei nicht den Glasrand. Am Ende drehst du die Flasche leicht, dann tropft nichts auf das Tischtuch."
       }
     },
     {
@@ -106,25 +106,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧺 Du räumst benutzte Teller ab. Wie viele darfst du höchstens auf einmal tragen?",
+        "prompt": "🧺 Der Tisch ist voll mit benutzten Tellern. Wie viele nimmst du höchstens auf einmal mit?",
         "options": [
           { "text": "Höchstens 5 bis 6 Teller.", "correct": true },
-          { "text": "So viele, wie du greifen kannst." },
-          { "text": "Mindestens 10 Teller." }
+          { "text": "Höchstens 8 bis 10 Teller." },
+          { "text": "So viele, wie in eine Hand passen." }
         ],
-        "explanation": "Mehr als 5 bis 6 Teller werden zu schwer und zu wackelig. Dann fällt leicht etwas herunter. Mit 5 bis 6 Tellern behältst du sicheren Halt."
+        "explanation": "Mehr als 5 bis 6 Teller werden zu schwer und zu wackelig. Dann fällt leicht etwas herunter. 5 bis 6 Teller sind deine sichere Tragegrenze. Lieber gehst du zweimal, als dass ein Teller zerbricht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Wo fasst du ein Glas an?",
+        "prompt": "🌟 Du bringst dem Gast ein volles Weinglas. Wo fasst du es an?",
         "options": [
           { "text": "Am Stiel oder ganz unten am Glas.", "correct": true },
-          { "text": "Oben am Rand." },
-          { "text": "Mit der ganzen Hand um die Mitte." }
+          { "text": "In der Mitte am Kelch, wo der Wein ist." },
+          { "text": "Oben am Rand, dort greift es sich gut." }
         ],
-        "explanation": "Oben am Rand trinkt der Gast. Deine Finger dürfen dort nicht hin. Darum fasst du das Glas am Stiel oder im unteren Drittel an. Das ist sauber und hygienisch."
+        "explanation": "Oben am Rand trinkt der Gast. Deine Finger dürfen dort nicht hin. Der Kelch ist der bauchige Teil, in dem der Wein steht. Fasst du dort an, gibt es Fingerabdrücke und deine Hand wärmt den Wein. Darum fasst du das Glas am Stiel oder im unteren Drittel an. Das ist sauber und hygienisch."
       }
     }
   ]

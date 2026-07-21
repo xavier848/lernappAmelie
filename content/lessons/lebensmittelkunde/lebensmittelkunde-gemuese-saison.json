@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-gemuese-saison",
   "title": "Gemüse & Saison",
+  "intro": "🥕 Jedes Gemüse hat eine beste Zeit im Jahr. In dieser Zeit reift es bei uns auf dem Feld. Diese Zeit nennt man Saison oder Hauptangebotszeit. Manche Gemüse brauchen viel Wärme und Sonne. Sie reifen im Sommer, zum Beispiel Tomaten und Gurken. Andere Gemüse vertragen Kälte gut. Sie reifen erst spät im Jahr, im Herbst und Winter. In der Saison ist Gemüse frisch und schmeckt gut. Oft ist es dann auch günstiger. Außerhalb der Saison kommt es oft von weit her.",
   "sort": 80,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥕 Jedes Gemüse hat eine Hauptangebotszeit. Was bedeutet das?",
+        "prompt": "🥕 Jedes Gemüse hat eine Hauptangebotszeit. Man sagt dazu auch Saison. Was bedeutet das?",
         "options": [
-          { "text": "Die Zeit im Jahr, in der es reif und frisch bei uns wächst.", "correct": true },
-          { "text": "Die Zeit, in der das Gemüse am teuersten ist." },
-          { "text": "Die Zeit, in der man es nur tiefgekühlt kaufen kann." }
+          {
+            "text": "Die Zeit im Jahr, in der es reif und frisch bei uns wächst.",
+            "correct": true
+          },
+          {
+            "text": "Die Zeit, in der es nur aus fernen Ländern zu uns kommt."
+          },
+          {
+            "text": "Die Zeit, in der es besonders selten und deshalb teuer ist."
+          }
         ],
-        "explanation": "In der Hauptangebotszeit reift das Gemüse bei uns auf dem Feld. Dann gibt es viel davon. Es ist frisch und oft günstiger."
+        "explanation": "Hauptangebotszeit oder Saison heißt: Das Gemüse reift gerade bei uns auf dem Feld. Dann gibt es viel davon. Es ist frisch und oft günstiger."
       }
     },
     {
@@ -21,11 +29,18 @@
       "data": {
         "prompt": "🍅 Wann haben Tomaten bei uns ihre Hauptsaison?",
         "options": [
-          { "text": "Im Sommer, etwa von Juli bis Oktober.", "correct": true },
-          { "text": "Mitten im Winter, im Januar und Februar." },
-          { "text": "Das ganze Jahr gleich." }
+          {
+            "text": "Im Sommer, etwa von Juli bis Oktober.",
+            "correct": true
+          },
+          {
+            "text": "Im Frühling, etwa von März bis Mai."
+          },
+          {
+            "text": "Erst im Spätherbst, etwa von Oktober bis Dezember."
+          }
         ],
-        "explanation": "Tomaten brauchen Wärme und Sonne. Deshalb reifen sie bei uns im Sommer, von Juli bis in den Oktober."
+        "explanation": "Tomaten brauchen Wärme und Sonne. Im Frühling ist es noch zu kalt. Deshalb reifen sie bei uns erst im Sommer, von Juli bis in den Oktober."
       }
     },
     {
@@ -33,18 +48,50 @@
       "data": {
         "prompt": "🗓️ Manches Gemüse reift im Sommer. Anderes gibt es frisch im Winter. Sortiere.",
         "buckets": [
-          { "id": "sommer", "label": "Sommergemüse", "icon": "☀️" },
-          { "id": "winter", "label": "Wintergemüse", "icon": "❄️" }
+          {
+            "id": "sommer",
+            "label": "Sommergemüse",
+            "icon": "☀️"
+          },
+          {
+            "id": "winter",
+            "label": "Wintergemüse",
+            "icon": "❄️"
+          }
         ],
         "items": [
-          { "text": "Bohnen", "bucket": "sommer" },
-          { "text": "Gurken", "bucket": "sommer" },
-          { "text": "Tomaten", "bucket": "sommer" },
-          { "text": "Zucchini", "bucket": "sommer" },
-          { "text": "Kohlrabi", "bucket": "sommer" },
-          { "text": "Paprika", "bucket": "sommer" },
-          { "text": "Rosenkohl", "bucket": "winter" },
-          { "text": "Weißkohl", "bucket": "winter" }
+          {
+            "text": "Bohnen",
+            "bucket": "sommer"
+          },
+          {
+            "text": "Gurken",
+            "bucket": "sommer"
+          },
+          {
+            "text": "Tomaten",
+            "bucket": "sommer"
+          },
+          {
+            "text": "Zucchini",
+            "bucket": "sommer"
+          },
+          {
+            "text": "Kohlrabi",
+            "bucket": "sommer"
+          },
+          {
+            "text": "Paprika",
+            "bucket": "sommer"
+          },
+          {
+            "text": "Rosenkohl",
+            "bucket": "winter"
+          },
+          {
+            "text": "Weißkohl",
+            "bucket": "winter"
+          }
         ]
       }
     },
@@ -53,11 +100,46 @@
       "data": {
         "prompt": "🔗 Welches Gemüse hat welche Hauptsaison? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🫘 Bohnen" }, "right": { "text": "Juni bis September" } },
-          { "left": { "text": "🍅 Tomaten" }, "right": { "text": "Juli bis Oktober" } },
-          { "left": { "text": "🥬 Kohlrabi" }, "right": { "text": "Mai bis August" } },
-          { "left": { "text": "🌱 Spinat" }, "right": { "text": "Frühling und Herbst" } },
-          { "left": { "text": "🥦 Rosenkohl" }, "right": { "text": "im Winter" } }
+          {
+            "left": {
+              "text": "🫘 Bohnen"
+            },
+            "right": {
+              "text": "Juni bis September"
+            }
+          },
+          {
+            "left": {
+              "text": "🍅 Tomaten"
+            },
+            "right": {
+              "text": "Juli bis Oktober"
+            }
+          },
+          {
+            "left": {
+              "text": "🥬 Kohlrabi"
+            },
+            "right": {
+              "text": "Mai bis August"
+            }
+          },
+          {
+            "left": {
+              "text": "🌱 Spinat"
+            },
+            "right": {
+              "text": "Frühling und Herbst"
+            }
+          },
+          {
+            "left": {
+              "text": "🥦 Rosenkohl"
+            },
+            "right": {
+              "text": "im Winter"
+            }
+          }
         ],
         "memory": false
       }
@@ -65,13 +147,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥦 Rosenkohl ist ein Wintergemüse. In welcher Zeit gibt es ihn frisch?",
+        "prompt": "🥦 Rosenkohl ist ein Wintergemüse. Wann kaufst du ihn am besten frisch vom Feld?",
         "options": [
-          { "text": "In der kalten Jahreszeit, von Herbst bis in den Winter.", "correct": true },
-          { "text": "Nur im Hochsommer, im Juli und August." },
-          { "text": "Nur im Frühling, im März." }
+          {
+            "text": "In der kalten Jahreszeit, von Herbst bis in den Winter.",
+            "correct": true
+          },
+          {
+            "text": "Im Spätsommer, im August und September."
+          },
+          {
+            "text": "Im Frühling, von März bis Mai."
+          }
         ],
-        "explanation": "Rosenkohl verträgt Kälte gut. Er reift spät im Jahr. Deshalb gibt es ihn frisch im Herbst und Winter."
+        "explanation": "Rosenkohl verträgt Kälte gut. Er reift spät im Jahr, wenn es schon kühl ist. Deshalb gibt es ihn frisch im Herbst und Winter."
       }
     },
     {
@@ -79,11 +168,18 @@
       "data": {
         "prompt": "💡 Warum lohnt es sich, Gemüse in seiner Hauptsaison zu kaufen?",
         "options": [
-          { "text": "Es ist dann frisch, schmeckt gut und ist oft günstiger.", "correct": true },
-          { "text": "Es hält dann für immer und wird nie schlecht." },
-          { "text": "Es muss dann nicht gewaschen werden." }
+          {
+            "text": "Es ist dann frisch, schmeckt gut und ist oft günstiger.",
+            "correct": true
+          },
+          {
+            "text": "Es kommt dann von weit her und ist deshalb besonders billig."
+          },
+          {
+            "text": "Es lässt sich dann besonders lange im Kühlschrank lagern."
+          }
         ],
-        "explanation": "In der Saison wächst das Gemüse in der Nähe. Es hat kurze Wege und ist reif. So ist es frisch und meist billiger."
+        "explanation": "In der Saison wächst das Gemüse in der Nähe. Es hat kurze Wege und ist reif. So ist es frisch und meist billiger. Von weit her kommt es gerade nicht."
       }
     },
     {
@@ -91,10 +187,38 @@
       "data": {
         "prompt": "☀️❄️ Ordne das Gemüse der groben Jahreszeit zu.",
         "pairs": [
-          { "left": { "text": "🥒 Gurken" }, "right": { "text": "Sommer" } },
-          { "left": { "text": "🍅 Tomaten" }, "right": { "text": "Sommer" } },
-          { "left": { "text": "🥬 Weißkohl" }, "right": { "text": "Herbst und Winter" } },
-          { "left": { "text": "🥦 Rosenkohl" }, "right": { "text": "Winter" } }
+          {
+            "left": {
+              "text": "🥒 Gurken"
+            },
+            "right": {
+              "text": "Sommer"
+            }
+          },
+          {
+            "left": {
+              "text": "🍅 Tomaten"
+            },
+            "right": {
+              "text": "Sommer"
+            }
+          },
+          {
+            "left": {
+              "text": "🥬 Weißkohl"
+            },
+            "right": {
+              "text": "Herbst und Winter"
+            }
+          },
+          {
+            "left": {
+              "text": "🥦 Rosenkohl"
+            },
+            "right": {
+              "text": "Winter"
+            }
+          }
         ],
         "memory": false
       }
@@ -102,13 +226,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Welches Gemüse kommt bei uns im Sommer frisch vom Feld?",
+        "prompt": "🥗 Es ist Juli. Welches Gemüse kaufst du am besten frisch vom Feld aus der Region?",
         "options": [
-          { "text": "Zucchini.", "correct": true },
-          { "text": "Rosenkohl." },
-          { "text": "Weißkohl." }
+          {
+            "text": "Zucchini.",
+            "correct": true
+          },
+          {
+            "text": "Kürbis."
+          },
+          {
+            "text": "Rosenkohl."
+          }
         ],
-        "explanation": "Zucchini brauchen Wärme. Sie reifen von Juni bis Oktober. Rosenkohl und Weißkohl sind dagegen Wintergemüse."
+        "explanation": "Zucchini brauchen Wärme. Sie reifen von Juni bis Oktober und gibt es im Juli frisch vom Feld. Kürbis reift erst im Herbst. Rosenkohl ist ein Wintergemüse."
       }
     }
   ]

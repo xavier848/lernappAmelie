@@ -2,30 +2,45 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-obst",
   "title": "Obst & exotische Früchte",
+  "intro": "🍏 In dieser Lektion geht es um Obst. Die meisten Früchte haben außen eine Schale und innen Fruchtfleisch. Das Fruchtfleisch ist der weiche Teil, den man isst. In der Mitte sitzt oft ein Kern, bei manchen Früchten sind es viele kleine Kerne. Manche Früchte wachsen bei uns, sie heißen heimisch. Andere Früchte wachsen in warmen Ländern weit weg, sie heißen exotisch. Exotische Früchte haben einen langen Transportweg bis zu uns. Du erkennst Früchte an ihrer Farbe, ihrer Form und ihrer Schale. Manchmal hilft der Querschnitt, also die Scheibe, die beim Durchschneiden entsteht. Nicht jedes Obst schmeckt süß, manches enthält viel Fett.",
   "sort": 90,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥝 Diese Frucht hat eine braune, pelzige Schale. Innen ist sie grün mit kleinen schwarzen Kernen. Welche Frucht ist das?",
+        "prompt": "🥝 Diese Frucht hat eine braune, pelzige Schale. Das Fruchtfleisch ist grün. Darin liegen viele kleine schwarze Kerne im Kreis. Welche Frucht ist das?",
         "options": [
-          { "text": "Kiwi.", "correct": true },
-          { "text": "Avocado." },
-          { "text": "Mango." }
+          {
+            "text": "Kiwi.",
+            "correct": true
+          },
+          {
+            "text": "Avocado."
+          },
+          {
+            "text": "Feige."
+          }
         ],
-        "explanation": "Die Kiwi ist außen braun und rau. Innen ist sie leuchtend grün. Sie hat viel Vitamin C."
+        "explanation": "Fruchtfleisch ist der weiche Teil, den man isst. Bei der Kiwi ist es leuchtend grün. Die Avocado ist innen auch grün, hat aber nur einen großen Kern. Die Feige hat innen viele kleine Kerne, ist aber nicht grün. Die Kiwi hat viel Vitamin C."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔴 Diese Frucht hat eine harte Schale. Innen stecken viele kleine, saftige rote Kerne. Welche Frucht ist das?",
+        "prompt": "🔴 Diese Frucht hat eine harte Schale. Innen sitzen viele kleine, saftige rote Kerne dicht an dicht. Welche Frucht ist das?",
         "options": [
-          { "text": "Granatapfel.", "correct": true },
-          { "text": "Feige." },
-          { "text": "Limette." }
+          {
+            "text": "Granatapfel.",
+            "correct": true
+          },
+          {
+            "text": "Feige."
+          },
+          {
+            "text": "Blutorange."
+          }
         ],
-        "explanation": "Der Granatapfel ist innen voller roter Kerne. Man isst die saftigen Kerne. Die harte Schale wirft man weg."
+        "explanation": "Der Granatapfel ist innen voll mit roten Kernen. Man isst die saftigen Kerne. Die harte Schale wirft man weg. Die Blutorange ist innen auch rot, hat aber Saft-Spalten statt einzelner Kerne."
       }
     },
     {
@@ -33,43 +48,89 @@
       "data": {
         "prompt": "🌍 Manche Früchte wachsen bei uns. Andere kommen aus warmen Ländern. Sortiere.",
         "buckets": [
-          { "id": "heimisch", "label": "Heimisch", "icon": "🏡" },
-          { "id": "exotisch", "label": "Exotisch", "icon": "🌴" }
+          {
+            "id": "heimisch",
+            "label": "Heimisch",
+            "icon": "🏡"
+          },
+          {
+            "id": "exotisch",
+            "label": "Exotisch",
+            "icon": "🌴"
+          }
         ],
         "items": [
-          { "text": "Apfel", "bucket": "heimisch" },
-          { "text": "Birne", "bucket": "heimisch" },
-          { "text": "Kirsche", "bucket": "heimisch" },
-          { "text": "Pflaume", "bucket": "heimisch" },
-          { "text": "Mango", "bucket": "exotisch" },
-          { "text": "Litschi", "bucket": "exotisch" },
-          { "text": "Physalis", "bucket": "exotisch" },
-          { "text": "Karambole", "bucket": "exotisch" }
+          {
+            "text": "Apfel",
+            "bucket": "heimisch"
+          },
+          {
+            "text": "Birne",
+            "bucket": "heimisch"
+          },
+          {
+            "text": "Kirsche",
+            "bucket": "heimisch"
+          },
+          {
+            "text": "Pflaume",
+            "bucket": "heimisch"
+          },
+          {
+            "text": "Mango",
+            "bucket": "exotisch"
+          },
+          {
+            "text": "Litschi",
+            "bucket": "exotisch"
+          },
+          {
+            "text": "Physalis",
+            "bucket": "exotisch"
+          },
+          {
+            "text": "Karambole",
+            "bucket": "exotisch"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥑 Diese Frucht ist grün, hat einen großen runden Kern und schmeckt nicht süß. Sie enthält viel Fett. Welche Frucht ist das?",
+        "prompt": "🥑 Du willst eine Frucht statt Butter aufs Brot streichen. Sie ist grün, hat einen großen runden Kern und schmeckt nicht süß. Sie enthält viel Fett. Welche Frucht ist das?",
         "options": [
-          { "text": "Avocado.", "correct": true },
-          { "text": "Kiwi." },
-          { "text": "Granatapfel." }
+          {
+            "text": "Avocado.",
+            "correct": true
+          },
+          {
+            "text": "Mango."
+          },
+          {
+            "text": "Kiwi."
+          }
         ],
-        "explanation": "Die Avocado ist eine besondere Frucht. Sie ist nicht süß und hat viel gesundes Fett. Man isst sie oft aufs Brot."
+        "explanation": "Die Avocado ist eine besondere Frucht. Sie ist nicht süß und hat viel gesundes Fett. Der Kern ist der große Stein in der Mitte. Die Mango hat auch einen großen Kern, schmeckt aber süß. Man streicht Avocado oft aufs Brot."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏮 Diese kleine orange Frucht steckt in einer dünnen Hülle wie in einem Lampion. Welche Frucht ist das?",
+        "prompt": "🏮 Diese kleine orange Frucht steckt in einer dünnen Hülle. Die Hülle sieht aus wie ein Lampion aus Papier. Welche Frucht ist das?",
         "options": [
-          { "text": "Physalis.", "correct": true },
-          { "text": "Mango." },
-          { "text": "Kaki." }
+          {
+            "text": "Physalis.",
+            "correct": true
+          },
+          {
+            "text": "Kaki."
+          },
+          {
+            "text": "Mandarine."
+          }
         ],
-        "explanation": "Die Physalis sitzt in einer dünnen, papierartigen Hülle. Man klappt die Hülle auf. Darunter kommt eine kleine orange Kugel zum Vorschein."
+        "explanation": "Die Physalis sitzt in einer dünnen, papierartigen Hülle. Diese Hülle nennt man Kelch. Man klappt sie auf. Darunter kommt eine kleine orange Kugel zum Vorschein. Kaki und Mandarine sind auch orange, haben aber keine Hülle."
       }
     },
     {
@@ -77,11 +138,46 @@
       "data": {
         "prompt": "🔗 Woran erkennst du diese Früchte? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🍊 Kaki" }, "right": { "text": "orange, sieht aus wie eine Tomate" } },
-          { "left": { "text": "🔴 Litschi" }, "right": { "text": "rote raue Schale, weiß innen" } },
-          { "left": { "text": "⭐ Karambole" }, "right": { "text": "quer geschnitten ein Stern" } },
-          { "left": { "text": "🥭 Mango" }, "right": { "text": "großer flacher Kern, süß" } },
-          { "left": { "text": "🟢 Limette" }, "right": { "text": "kleine grüne saure Zitrusfrucht" } }
+          {
+            "left": {
+              "text": "🍊 Kaki"
+            },
+            "right": {
+              "text": "orange, sieht aus wie eine Tomate"
+            }
+          },
+          {
+            "left": {
+              "text": "🔴 Litschi"
+            },
+            "right": {
+              "text": "rote raue Schale, weiß innen"
+            }
+          },
+          {
+            "left": {
+              "text": "⭐ Karambole"
+            },
+            "right": {
+              "text": "quer geschnitten ein Stern"
+            }
+          },
+          {
+            "left": {
+              "text": "🥭 Mango"
+            },
+            "right": {
+              "text": "großer flacher Kern, süß"
+            }
+          },
+          {
+            "left": {
+              "text": "🟢 Limette"
+            },
+            "right": {
+              "text": "kleine grüne saure Zitrusfrucht"
+            }
+          }
         ],
         "memory": false
       }
@@ -91,23 +187,37 @@
       "data": {
         "prompt": "⭐ Schneidest du diese Frucht quer durch, sieht jede Scheibe aus wie ein Stern. Welche Frucht ist das?",
         "options": [
-          { "text": "Karambole, auch Sternfrucht genannt.", "correct": true },
-          { "text": "Kiwi." },
-          { "text": "Feige." }
+          {
+            "text": "Karambole, auch Sternfrucht genannt.",
+            "correct": true
+          },
+          {
+            "text": "Kaki."
+          },
+          {
+            "text": "Kiwi."
+          }
         ],
-        "explanation": "Die Karambole hat Kanten. Beim Querschneiden entstehen Sterne. Deshalb heißt sie auch Sternfrucht."
+        "explanation": "Die Karambole hat Kanten an der Schale. Der Querschnitt ist die Scheibe, die entsteht, wenn man quer durchschneidet. Bei der Karambole ist dieser Querschnitt ein Stern. Deshalb heißt sie auch Sternfrucht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌴 Welche dieser Früchte ist eine exotische Frucht aus einem warmen Land?",
+        "prompt": "🌍 Im Supermarkt hängt ein Schild: „Exotische Früchte“. Exotische Früchte wachsen in warmen Ländern weit weg. Welche Frucht gehört unter dieses Schild?",
         "options": [
-          { "text": "Mango.", "correct": true },
-          { "text": "Apfel." },
-          { "text": "Kirsche." }
+          {
+            "text": "Mango.",
+            "correct": true
+          },
+          {
+            "text": "Apfel."
+          },
+          {
+            "text": "Kirsche."
+          }
         ],
-        "explanation": "Die Mango wächst in warmen Ländern. Apfel und Kirsche wachsen bei uns. Sie sind heimisch."
+        "explanation": "Die Mango wächst in warmen Ländern und hat einen langen Transportweg. Apfel und Kirsche wachsen bei uns. Sie sind einheimisch, also heimisch."
       }
     }
   ]

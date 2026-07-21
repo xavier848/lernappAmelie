@@ -11,6 +11,7 @@ Dieses Dokument ist die verbindliche Referenz, wie Lektionen für Amelies Lernap
 5. **6–10 Übungen pro Lektion**, mindestens 2 verschiedene Übungstypen, die letzte Übung leicht (Erfolgserlebnis).
 6. **Geldbeträge immer in Cent** (Integer): 3,50 € = `350`.
 7. **Emojis statt Bilder** im Text sind erlaubt und erwünscht (z. B. „🧽 Schwamm"). Das Feld `image` (URL) nur nutzen, wenn ein echtes Bild in Supabase Storage liegt.
+8. **Abschluss-Niveau:** Amelie soll die Prüfung schaffen. Aufgaben anspruchsvoll, nicht kindlich-einfach: Fachbegriffe aktiv verwenden (und einmal in Leichter Sprache erklären), Anwendungs-/Transferfragen statt reiner Wiedergabe, Distraktoren plausibel und nah an der richtigen Antwort. Leichte Sprache heißt einfache SÄTZE – nicht einfacher INHALT.
 
 ## Eine Lektion (JSON)
 
@@ -28,7 +29,7 @@ Dieses Dokument ist die verbindliche Referenz, wie Lektionen für Amelies Lernap
 - `slug`: eindeutig in der ganzen App, kleinbuchstaben-mit-bindestrich.
 - `sort`: Reihenfolge innerhalb des Themas (1, 2, 3 …).
 
-## Die 6 Übungstypen
+## Die 8 Übungstypen
 
 Jede Übung: `data.prompt` (Pflicht, Leichte Sprache), optional `data.image` (URL), optional `data.tts_lang` (Default `de-DE`, für englische Inhalte `en-GB`).
 
@@ -108,6 +109,34 @@ Drei Modi:
 } }
 ```
 Alles in Cent. `fixed` = fester Betrag (nicht änderbar, z. B. Handyvertrag). `savingsGoal` (optional): Kategorie `sparen` muss mindestens diesen Betrag bekommen. Richtig = Gesamtausgaben ≤ Einnahmen (und Sparziel erfüllt, falls gesetzt).
+
+### 7. `number_input` – Kopfrechnen (Antwort eintippen)
+```json
+{ "type": "number_input", "data": {
+  "prompt": "Rechne im Kopf: 34 + 3 + 7 + 8 = ?",
+  "answer": 52,
+  "hint": "Rechne Schritt für Schritt:\n34 + 3 = 37\n37 + 7 = 44\n44 + 8 = ?",
+  "explanation": "34 + 3 + 7 + 8 = 52. Schritt für Schritt geht es am leichtesten."
+} }
+```
+Die Antwort wird über einen großen Ziffernblock eingetippt (kein Raten möglich). `answer` = ganze Zahl ≥ 0. `hint` (optional, mit `\n` für Zeilenumbrüche) erscheint automatisch ab dem zweiten Versuch. Aufgaben am besten mit `scripts/gen-kopfrechnen.mjs` generieren – dann sind alle Antworten rechnerisch garantiert richtig.
+
+### 8. `memory_game` – Gedächtnistraining
+```json
+{ "type": "memory_game", "data": {
+  "prompt": "Merke dir die 3 Zahlen in der richtigen Reihenfolge.",
+  "mode": "reihenfolge",
+  "items": [ { "text": "3" }, { "text": "7" }, { "text": "1" } ],
+  "explanation": "Die richtige Reihenfolge war: 3  7  1."
+} }
+{ "type": "memory_game", "data": {
+  "prompt": "Schau dir die 4 Bilder gut an. Gleich fehlt eines davon!",
+  "mode": "fehlt",
+  "items": [ { "text": "🍎" }, { "text": "🥛" }, { "text": "🔑" }, { "text": "🧦" } ],
+  "distractors": [ { "text": "🍌" }, { "text": "☕" } ]
+} }
+```
+Merkphase ohne Zeitdruck (endet erst mit „Ich hab's mir gemerkt"). `mode: "reihenfolge"`: Items gemischt in gemerkter Reihenfolge antippen; `"reverse": true` = rückwärts (schwerer). `mode: "fehlt"` (Kim-Spiel): ein zufälliges Item verschwindet, aus 3 Optionen wählen — braucht genau 2 `distractors` (nicht in `items`). 3–6 Items, alle eindeutig. Lektionen generiert `scripts/gen-gedaechtnis.mjs`.
 
 ## Wie neue Lektionen in die App kommen
 

@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏷️ Auf jeder Verpackung steht eine Lebensmittelkennzeichnung. Wofür ist sie da?",
+        "prompt": "🏷️ Auf jeder Verpackung steht die Lebensmittelkennzeichnung. Wofür ist sie da?",
         "options": [
           { "text": "Sie sagt dir, was drin ist und wie lange es hält.", "correct": true },
-          { "text": "Sie ist nur zur Dekoration da." },
-          { "text": "Sie zeigt das Lieblingsrezept vom Chef." }
+          { "text": "Sie zeigt vor allem den Preis und wo die Ware im Regal steht." },
+          { "text": "Sie macht mit Bildern nur Werbung für die Marke." }
         ],
-        "explanation": "Die Kennzeichnung gibt dir wichtige Infos: Menge, Zutaten, Haltbarkeit und Lagerung. So weißt du genau, was du kaufst."
+        "explanation": "Die Kennzeichnung gibt dir die Pflichtangaben: Menge, Zutaten, Haltbarkeit und Lagerung. Pflichtangaben sind Infos, die per Gesetz drauf stehen müssen. So weißt du genau, was du kaufst."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📋 Welche Angabe muss auf jeder Verpackung stehen?",
+        "prompt": "📋 Eine Kundin fragt dich: Was muss auf jeder Verpackung stehen? Was ist eine Pflichtangabe?",
         "options": [
           { "text": "Die Zutaten.", "correct": true },
-          { "text": "Die Handynummer vom Käufer." },
-          { "text": "Das Lieblingsessen des Herstellers." }
+          { "text": "Ein Kochrezept mit dem Produkt." },
+          { "text": "Ein Foto vom Betrieb des Herstellers." }
         ],
-        "explanation": "Die Zutaten sind eine Pflichtangabe. Auch Hersteller, Menge, Bezeichnung, Haltbarkeit und Lagerhinweis müssen drauf stehen."
+        "explanation": "Die Zutaten sind eine Pflichtangabe. Pflicht heißt: Es muss per Gesetz drauf stehen. Rezept und Foto sind freiwillig. Auch Hersteller, Menge, Bezeichnung, Haltbarkeit und Lagerhinweis sind Pflicht."
       }
     },
     {
@@ -46,13 +46,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥄 In welcher Reihenfolge stehen die Zutaten auf der Verpackung?",
+        "prompt": "🥄 In welcher Reihenfolge stehen die Zutaten in der Zutatenliste?",
         "options": [
           { "text": "Von der größten Menge zur kleinsten.", "correct": true },
-          { "text": "In alphabetischer Reihenfolge." },
-          { "text": "Zufällig durcheinander." }
+          { "text": "Von der kleinsten Menge zur größten." },
+          { "text": "In alphabetischer Reihenfolge, von A bis Z." }
         ],
-        "explanation": "Die Zutat mit der größten Menge steht vorne. Danach kommen die kleineren Mengen. So siehst du sofort, was am meisten drin ist."
+        "explanation": "Die Zutatenliste beginnt mit der größten Menge. Danach kommen die kleineren Mengen. So siehst du sofort, was am meisten drin ist."
       }
     },
     {
@@ -71,13 +71,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❄️ Auf dem Quark steht: gekühlt bei höchstens 8 °C. Warum dieser Lagerhinweis?",
+        "prompt": "❄️ Auf dem Quark steht: gekühlt bei höchstens 8 °C. Warum steht dieser Lagerhinweis drauf?",
         "options": [
           { "text": "Quark verdirbt sonst schnell. Kälte hält ihn frisch.", "correct": true },
-          { "text": "Der Quark schmeckt nur warm gut." },
-          { "text": "Der Hinweis ist nicht wichtig." }
+          { "text": "Kälte lässt den Quark schneller reifen und besser schmecken." },
+          { "text": "Der Hinweis gilt nur im Sommer, im Winter ist er egal." }
         ],
-        "explanation": "Quark ist ein frisches Milchprodukt. In der Kälte halten sich Keime zurück. Darum gehört er in den Kühlschrank."
+        "explanation": "Quark ist leicht verderbliche Ware – ein frisches Milchprodukt. In der Kälte halten sich Keime zurück. Darum gehört er immer in den Kühlschrank, auch im Winter."
       }
     },
     {
@@ -86,22 +86,22 @@
         "prompt": "📅 Was bedeutet das Mindesthaltbarkeitsdatum (MHD)?",
         "options": [
           { "text": "Bis zu diesem Tag ist die Ware mindestens gut.", "correct": true },
-          { "text": "An diesem Tag muss man die Ware wegwerfen." },
-          { "text": "Das ist der Tag, an dem die Ware gemacht wurde." }
+          { "text": "An diesem Tag muss die Ware sofort weggeworfen werden." },
+          { "text": "Bis zu diesem Tag muss die Ware verbraucht sein, sonst wird man krank." }
         ],
-        "explanation": "Bis zum MHD bleibt die Ware bei guter Lagerung sicher. Danach ist sie nicht sofort schlecht. Prüfe dann mit Augen und Nase."
+        "explanation": "Bis zum MHD bleibt die Ware bei guter Lagerung mindestens gut. Danach ist sie nicht sofort schlecht – prüfe mit Augen und Nase. Das strenge 'verbrauchen bis' heißt Verbrauchsdatum und steht nur auf sehr empfindlicher Ware."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍓 Auf dem Becher steht: Erdbeeranteil 37 %. Wo gehört diese Angabe hin?",
+        "prompt": "🍓 Auf dem Becher steht: Erdbeeranteil 37 %. Zu welcher Pflichtangabe gehört das?",
         "options": [
           { "text": "Zur Bezeichnung, sie beschreibt das Produkt.", "correct": true },
-          { "text": "Zum Preis." },
-          { "text": "Zum Lagerhinweis." }
+          { "text": "Zur Mengenangabe, sie zeigt das Gewicht im Becher." },
+          { "text": "Zum Lagerhinweis, sie zeigt die richtige Temperatur." }
         ],
-        "explanation": "Der Fruchtanteil gehört zur Bezeichnung. Er sagt dir, wie viel Erdbeere wirklich drin ist. Hier sind es 37 Prozent."
+        "explanation": "Der Fruchtanteil gehört zur Bezeichnung. Die Bezeichnung sagt, was das Produkt ist und wie viel Erdbeere drin ist – hier 37 Prozent. Die Menge dagegen zeigt das Gewicht in Gramm."
       }
     },
     {
@@ -110,10 +110,10 @@
         "prompt": "🌟 Zum Schluss: Welche Angaben gehören auf jede Lebensmittelverpackung?",
         "options": [
           { "text": "Hersteller, Menge, Bezeichnung, Zutaten, Haltbarkeit und Lagerhinweis.", "correct": true },
-          { "text": "Nur der Name des Produkts." },
-          { "text": "Nur der Preis." }
+          { "text": "Nur Bezeichnung, Zutaten und der Preis." },
+          { "text": "Nur Menge und Mindesthaltbarkeitsdatum." }
         ],
-        "explanation": "Diese sechs Pflichtangaben stehen immer drauf. Damit hast du alle wichtigen Infos über das Lebensmittel."
+        "explanation": "Diese sechs Pflichtangaben stehen immer drauf. Der Preis gehört nicht dazu – er wird getrennt am Regal ausgezeichnet. Eine kurze Liste mit nur zwei Angaben reicht nicht."
       }
     }
   ]

@@ -7,26 +7,26 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧠 Hier lernst du Tricks für die Kasse. Erster Trick: Ergänzen. Etwas kostet 7,80 €. Du gibst 10 €. Wie viel bekommst du zurück?",
+        "prompt": "🧠 An der Kasse rechnest du im Kopf. Erster Trick: ergänzen. Das heißt: Du zählst vom Preis nach oben bis zum Bargeld. Ein Einkauf kostet 7,80 €. Du gibst 10 €. Wie viel Rückgeld bekommst du?",
         "options": [
           {
             "text": "2,20 €",
             "correct": true
           },
           {
-            "text": "3,20 €"
+            "text": "2,30 €"
           },
           {
-            "text": "2,80 €"
+            "text": "3,20 €"
           }
         ],
-        "explanation": "So geht der Trick: Von 7,80 € bis 8 € sind es 20 Cent. Von 8 € bis 10 € sind es 2 €. Zusammen: 2,20 €."
+        "explanation": "Ergänzen heißt: vom Preis nach oben zählen. Von 7,80 € bis 8 € sind es 20 Cent. Von 8 € bis 10 € sind es 2 €. Zusammen: 2,20 €. 2,30 € wären 10 Cent zu viel. 3,20 € wäre ein ganzer Euro zu viel."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧠 Gleicher Trick, neue Zahlen. Etwas kostet 4,60 €. Wie viel fehlt bis 5 €?",
+        "prompt": "🧠 Der gleiche Trick, neue Zahlen. Du willst mit 5 € zahlen. Der Einkauf kostet 4,60 €. Wie viel fehlt von 4,60 € bis 5 €?",
         "options": [
           {
             "text": "40 Cent",
@@ -36,10 +36,10 @@
             "text": "60 Cent"
           },
           {
-            "text": "1,40 €"
+            "text": "30 Cent"
           }
         ],
-        "explanation": "Von 60 Cent bis 100 Cent fehlen 40 Cent. Also: Von 4,60 € bis 5 € fehlen 40 Cent."
+        "explanation": "Ergänze von 4,60 € nach oben. Von 60 Cent bis 100 Cent fehlen 40 Cent. Also fehlen bis 5 € genau 40 Cent. 60 Cent ist die Zahl aus dem Preis – das ist die Falle. 30 Cent wären 10 Cent zu wenig."
       }
     },
     {
@@ -86,7 +86,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥐 Zweiter Trick: Verdoppeln. Ein Croissant kostet 1,60 €. Du kaufst 2 Stück. Wie viel zahlst du?",
+        "prompt": "🥐 Zweiter Trick: verdoppeln. Das heißt: die Zahl mal 2 nehmen. Ein Croissant kostet 1,60 €. Du kaufst 2 Stück. Wie viel zahlst du?",
         "options": [
           {
             "text": "3,20 €",
@@ -96,16 +96,16 @@
             "text": "2,60 €"
           },
           {
-            "text": "3,60 €"
+            "text": "3,40 €"
           }
         ],
-        "explanation": "Verdopple in zwei Schritten: 2 mal 1 € sind 2 €. 2 mal 60 Cent sind 1,20 €. Zusammen: 3,20 €."
+        "explanation": "Verdoppeln heißt: mal 2 rechnen. Am besten in zwei Schritten: 2 mal 1 € sind 2 €. 2 mal 60 Cent sind 1,20 €. Zusammen: 3,20 €. Bei 2,60 € wurden nur die Euro verdoppelt, nicht die Cent. Bei 3,40 € wurden die Cent falsch addiert."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍕 Dritter Trick: Halbieren. Eine Pizza kostet 9 €. Du teilst sie mit einer Freundin. Jede zahlt die Hälfte. Wie viel zahlst du?",
+        "prompt": "🍕 Dritter Trick: halbieren. Das heißt: durch 2 teilen. Eine Pizza kostet 9 €. Du teilst sie dir mit einer Freundin. Jede zahlt die Hälfte. Wie viel zahlst du?",
         "options": [
           {
             "text": "4,50 €",
@@ -118,13 +118,13 @@
             "text": "5 €"
           }
         ],
-        "explanation": "Die Hälfte von 8 € ist 4 €. Die Hälfte von 1 € ist 50 Cent. Zusammen: 4,50 €."
+        "explanation": "Halbieren heißt: durch 2 teilen. Teile 9 € auf: Die Hälfte von 8 € ist 4 €. Die Hälfte von 1 € ist 50 Cent. Zusammen: 4,50 €. Bei einer ungeraden Zahl wie 9 endet die Hälfte auf 50 Cent – nicht glatt bei 4 € oder 5 €."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥕 Vierter Trick: 3 mal der gleiche Preis. Eine Packung Möhren für dein Pferd kostet 1,50 €. Du kaufst 3 Packungen. Wie viel zahlst du?",
+        "prompt": "🥕 Vierter Trick: den gleichen Preis mehrmals. Eine Packung Möhren für dein Pferd kostet 1,50 €. Du kaufst 3 Packungen. Wie viel zahlst du?",
         "options": [
           {
             "text": "4,50 €",
@@ -134,10 +134,10 @@
             "text": "3 €"
           },
           {
-            "text": "5,50 €"
+            "text": "6 €"
           }
         ],
-        "explanation": "Rechne so: 1,50 € plus 1,50 € sind 3 €. Noch einmal 1,50 € dazu sind 4,50 €."
+        "explanation": "Rechne Schritt für Schritt: 1,50 € plus 1,50 € sind 3 €. Noch einmal 1,50 € dazu sind 4,50 €. 3 € wären nur 2 Packungen. 6 € wäre falsch aufgerundet – 1,50 € ist nicht 2 €."
       }
     },
     {

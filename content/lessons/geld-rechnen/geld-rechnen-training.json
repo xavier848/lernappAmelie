@@ -7,7 +7,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💶 In deiner Hand: 5 €, 2 €, 1 €, 50 Cent und 20 Cent. Wie viel Geld hast du?",
+        "prompt": "💶 Du hältst in der Hand: 5 €, 2 €, 1 €, 50 Cent und 20 Cent. Zähle Scheine und Münzen zusammen. Wie viel Geld hast du?",
         "options": [
           {
             "text": "8,70 €",
@@ -17,10 +17,10 @@
             "text": "8,50 €"
           },
           {
-            "text": "7,70 €"
+            "text": "8,20 €"
           }
         ],
-        "explanation": "5 € + 2 € + 1 € = 8 €. Cent: 50 + 20 = 70. Zusammen 8,70 €."
+        "explanation": "Zähle getrennt: erst die Euro, dann die Cent. Euro: 5 + 2 + 1 = 8 €. Cent: 50 + 20 = 70. Zusammen 8,70 €. Bei 8,50 € hast du die 20 Cent vergessen, bei 8,20 € die 50 Cent. Tipp: Euro und Cent immer getrennt addieren, also zusammenzählen."
       }
     },
     {
@@ -34,7 +34,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍚 Knifflig: Du kaufst 3 Packungen Reis. Jede Packung kostet 2,30 €. Wie viel zahlst du zusammen?",
+        "prompt": "🍚 Du kaufst 3 gleiche Packungen Reis. Jede Packung kostet 2,30 €. Wie viel zahlst du für alle drei zusammen?",
         "options": [
           {
             "text": "6,90 €",
@@ -47,7 +47,7 @@
             "text": "6,30 €"
           }
         ],
-        "explanation": "Rechne in zwei Schritten: 3 mal 2 € = 6 €. 3 mal 30 Cent = 90 Cent. Zusammen 6,90 €."
+        "explanation": "Multiplizieren heißt malnehmen. Rechne in zwei Schritten: 3 × 2 € = 6 €. Dann 3 × 30 Cent = 90 Cent. Zusammen 6,90 €. Wichtig: Auch die 30 Cent musst du mit 3 malnehmen. Nimmst du sie nur einmal, kommst du auf 6,30 € — das ist zu wenig."
       }
     },
     {
@@ -62,7 +62,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧐 Es kostet 9,45 €. Du gibst 10 €. Du bekommst 65 Cent zurück. Stimmt das?",
+        "prompt": "🧐 Eine Ware kostet 9,45 €. Du gibst 10 €. Du bekommst 65 Cent Rückgeld. Prüfe nach: Stimmt das?",
         "options": [
           {
             "text": "Nein. Richtig wären 55 Cent. Das sind 10 Cent zu viel.",
@@ -72,10 +72,10 @@
             "text": "Ja, das passt genau."
           },
           {
-            "text": "Nein. Richtig wären 1,55 €."
+            "text": "Nein. Richtig wären 45 Cent. Das sind 20 Cent zu viel."
           }
         ],
-        "explanation": "Rechne: 9,45 € + 55 Cent = 10 €. Richtig sind also 55 Cent. Auch zu viel Rückgeld solltest du ehrlich zurückgeben."
+        "explanation": "Rückgeld ist das Geld, das du zurückbekommst. Rechne, wie viel bis 10 € fehlt: 9,45 € + 55 Cent = 10 €. Richtig sind also 55 Cent. 65 Cent sind 10 Cent zu viel. Prüfe zur Sicherheit: 9,45 € + 65 Cent = 10,10 € — das ist zu viel. Auch zu viel Rückgeld solltest du ehrlich zurückgeben."
       }
     },
     {
@@ -131,7 +131,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Knifflig: Ein Sixpack Wasser mit 6 Flaschen kostet 3,60 €. Wie viel kostet eine Flasche?",
+        "prompt": "💧 Ein Sixpack Wasser hat 6 Flaschen und kostet zusammen 3,60 €. Alle Flaschen kosten gleich viel. Wie viel kostet eine einzige Flasche?",
         "options": [
           {
             "text": "60 Cent",
@@ -141,10 +141,10 @@
             "text": "50 Cent"
           },
           {
-            "text": "36 Cent"
+            "text": "72 Cent"
           }
         ],
-        "explanation": "3,60 € geteilt durch 6 = 60 Cent. Probe: 6 mal 60 Cent = 3,60 €."
+        "explanation": "Dividieren heißt teilen. Teile den Gesamtpreis durch die Anzahl der Flaschen: 3,60 € geteilt durch 6 = 60 Cent. Probe: 6 × 60 Cent = 3,60 €. Achtung: Teile durch 6 Flaschen, nicht durch 5 — sonst kommst du auf falsche 72 Cent."
       }
     },
     {

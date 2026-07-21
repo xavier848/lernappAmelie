@@ -2,6 +2,7 @@
   "topic_slug": "kinder-sinne",
   "slug": "kinder-sinne-sinne-entdecken",
   "title": "Die Sinne spielend entdecken",
+  "intro": "👐 Der Mensch nimmt die Welt mit den Sinnen wahr. Zu jedem Sinn gehört ein Körperteil. Mit den Augen sehen wir und mit den Ohren hören wir. Mit der Nase riechen wir und mit der Zunge schmecken wir. Mit der Haut fühlen wir, das nennt man Tasten. Es gibt noch mehr als diese fünf Sinne. Der Gleichgewichtssinn sitzt im Innenohr und hält den Körper stabil. So hältst du beim Stehen und Gehen die Balance. Die Körperwahrnehmung sagt dir, wo deine Körperteile gerade sind. Ihre Sinne üben Kinder gut beim Spielen.",
   "sort": 1,
   "exercises": [
     {
@@ -9,10 +10,38 @@
       "data": {
         "prompt": "🎲 Welches Spiel übt welchen Sinn? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "📦 Fühlkiste" }, "right": { "text": "🖐️ Tasten" } },
-          { "left": { "text": "🌶️ Gewürze erraten" }, "right": { "text": "👃 Riechen" } },
-          { "left": { "text": "🔔 Geräusche erraten" }, "right": { "text": "👂 Hören" } },
-          { "left": { "text": "🌈 Farben suchen" }, "right": { "text": "👀 Sehen" } }
+          {
+            "left": {
+              "text": "📦 Fühlkiste"
+            },
+            "right": {
+              "text": "🖐️ Tasten"
+            }
+          },
+          {
+            "left": {
+              "text": "🌶️ Gewürze erraten"
+            },
+            "right": {
+              "text": "👃 Riechen"
+            }
+          },
+          {
+            "left": {
+              "text": "🔔 Geräusche erraten"
+            },
+            "right": {
+              "text": "👂 Hören"
+            }
+          },
+          {
+            "left": {
+              "text": "🌈 Farben suchen"
+            },
+            "right": {
+              "text": "👀 Sehen"
+            }
+          }
         ],
         "memory": false
       }
@@ -22,66 +51,124 @@
       "data": {
         "prompt": "🧺 Sortiere die Spiele zum richtigen Sinn.",
         "buckets": [
-          { "id": "hoeren", "label": "Hören", "icon": "👂" },
-          { "id": "tasten", "label": "Tasten", "icon": "🖐️" },
-          { "id": "schmecken", "label": "Schmecken", "icon": "👅" }
+          {
+            "id": "hoeren",
+            "label": "Hören",
+            "icon": "👂"
+          },
+          {
+            "id": "tasten",
+            "label": "Tasten",
+            "icon": "🖐️"
+          },
+          {
+            "id": "schmecken",
+            "label": "Schmecken",
+            "icon": "👅"
+          }
         ],
         "items": [
-          { "text": "🐦 Vogelstimmen erraten", "bucket": "hoeren" },
-          { "text": "🎵 Eine Klanggeschichte hören", "bucket": "hoeren" },
-          { "text": "🪨 Glatt oder rau fühlen", "bucket": "tasten" },
-          { "text": "🧊 Warm oder kalt fühlen", "bucket": "tasten" },
-          { "text": "🍋 Süß oder sauer probieren", "bucket": "schmecken" },
-          { "text": "🥨 Salzig probieren", "bucket": "schmecken" }
+          {
+            "text": "🐦 Vogelstimmen erraten",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "🎵 Eine Klanggeschichte hören",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "🪨 Glatt oder rau fühlen",
+            "bucket": "tasten"
+          },
+          {
+            "text": "🧊 Warm oder kalt fühlen",
+            "bucket": "tasten"
+          },
+          {
+            "text": "🍋 Süß oder sauer probieren",
+            "bucket": "schmecken"
+          },
+          {
+            "text": "🥨 Salzig probieren",
+            "bucket": "schmecken"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤸 Womit übt ein Kind das Gleichgewicht?",
+        "prompt": "🤸 Du möchtest mit einem Kind den Gleichgewichtssinn üben. Welche Übung passt am besten?",
         "options": [
-          { "text": "🦵 Auf einem Bein stehen.", "correct": true },
-          { "text": "🌶️ Gewürze riechen." },
-          { "text": "📖 Ein Bilderbuch anschauen." }
+          {
+            "text": "🦵 Auf einem Bein stehen.",
+            "correct": true
+          },
+          {
+            "text": "🧵 Eine Perle auf eine Schnur fädeln."
+          },
+          {
+            "text": "🎨 Mit den Fingern malen."
+          }
         ],
-        "explanation": "Auf einem Bein stehen übt das Gleichgewicht. Auch gut: über eine Linie balancieren oder Baum im Wind spielen."
+        "explanation": "Auf einem Bein stehen fordert den Gleichgewichtssinn. Der Gleichgewichtssinn sitzt im Innenohr und hält den Körper stabil. Fädeln und Malen üben dagegen die Finger. Auch gut fürs Gleichgewicht: über eine Linie balancieren oder Baum im Wind spielen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🦵 Du fragst ein Kind: Wo ist dein Knie? Was übt das Kind dabei?",
+        "prompt": "🦵 Du fragst ein Kind: Wo ist dein Knie? Das Kind zeigt darauf. Welche Fähigkeit übt es dabei?",
         "options": [
-          { "text": "🧍 Die Körperwahrnehmung.", "correct": true },
-          { "text": "👃 Das Riechen." },
-          { "text": "👅 Das Schmecken." }
+          {
+            "text": "🧍 Die Körperwahrnehmung.",
+            "correct": true
+          },
+          {
+            "text": "🤸 Das Gleichgewicht."
+          },
+          {
+            "text": "🖐️ Das Tasten."
+          }
         ],
-        "explanation": "Das Kind lernt seinen Körper kennen. Das nennt man Körperwahrnehmung. Auch Bewegungen nachmachen übt das."
+        "explanation": "Das Kind spürt und benennt seinen Körper. Das nennt man Körperwahrnehmung. Sie hilft zu wissen, wo die Körperteile gerade sind. Beim Gleichgewicht geht es ums Balancehalten, beim Tasten ums Fühlen mit der Haut. Auch Bewegungen nachmachen übt die Körperwahrnehmung."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍋 Ein Kind probiert ein Stück Zitrone. Welchen Sinn übt es?",
+        "prompt": "🍋 Ein Kind steckt sich ein Stück Zitrone in den Mund und probiert. Welchen Sinn übt es dabei vor allem?",
         "options": [
-          { "text": "👅 Das Schmecken.", "correct": true },
-          { "text": "👂 Das Hören." },
-          { "text": "🤸 Das Gleichgewicht." }
+          {
+            "text": "👅 Das Schmecken.",
+            "correct": true
+          },
+          {
+            "text": "👃 Das Riechen."
+          },
+          {
+            "text": "🖐️ Das Tasten."
+          }
         ],
-        "explanation": "Die Zunge schmeckt: süß, sauer, salzig und bitter. Die Zitrone ist sauer."
+        "explanation": "Beim Probieren im Mund arbeitet der Geschmackssinn. Die Zunge schmeckt: süß, sauer, salzig und bitter. Die Zitrone schmeckt sauer. Riechen macht die Nase, Tasten macht die Haut."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌳 Die Kinder spielen Baum im Wind. Sie stehen und schwanken hin und her. Was üben sie?",
+        "prompt": "🌳 Die Kinder spielen Baum im Wind. Sie stehen fest und schwanken langsam hin und her, ohne umzufallen. Welchen Sinn üben sie dabei?",
         "options": [
-          { "text": "🤸 Das Gleichgewicht.", "correct": true },
-          { "text": "👃 Das Riechen." },
-          { "text": "👀 Das Sehen." }
+          {
+            "text": "🤸 Das Gleichgewicht.",
+            "correct": true
+          },
+          {
+            "text": "🧍 Die Körperwahrnehmung."
+          },
+          {
+            "text": "🦶 Die Kraft in den Beinen."
+          }
         ],
-        "explanation": "Beim Schwanken muss der Körper die Balance halten. Das übt das Gleichgewicht."
+        "explanation": "Beim Schwanken muss der Körper die Balance halten und darf nicht umfallen. Das übt den Gleichgewichtssinn. Er sitzt im Innenohr. Die Körperwahrnehmung sagt nur, wo die Körperteile gerade sind – das Halten der Balance macht der Gleichgewichtssinn."
       }
     },
     {
@@ -89,11 +176,46 @@
       "data": {
         "prompt": "🃏 Memory: Welches Körperteil gehört zu welchem Sinn? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "👀 Augen" }, "right": { "text": "Sehen" } },
-          { "left": { "text": "👂 Ohren" }, "right": { "text": "Hören" } },
-          { "left": { "text": "👃 Nase" }, "right": { "text": "Riechen" } },
-          { "left": { "text": "👅 Zunge" }, "right": { "text": "Schmecken" } },
-          { "left": { "text": "🖐️ Haut" }, "right": { "text": "Tasten" } }
+          {
+            "left": {
+              "text": "👀 Augen"
+            },
+            "right": {
+              "text": "Sehen"
+            }
+          },
+          {
+            "left": {
+              "text": "👂 Ohren"
+            },
+            "right": {
+              "text": "Hören"
+            }
+          },
+          {
+            "left": {
+              "text": "👃 Nase"
+            },
+            "right": {
+              "text": "Riechen"
+            }
+          },
+          {
+            "left": {
+              "text": "👅 Zunge"
+            },
+            "right": {
+              "text": "Schmecken"
+            }
+          },
+          {
+            "left": {
+              "text": "🖐️ Haut"
+            },
+            "right": {
+              "text": "Tasten"
+            }
+          }
         ],
         "memory": true
       }
@@ -103,9 +225,16 @@
       "data": {
         "prompt": "🌟 Letzte Frage, ganz leicht: Womit hörst du?",
         "options": [
-          { "text": "👂 Mit den Ohren.", "correct": true },
-          { "text": "🦶 Mit den Füßen." },
-          { "text": "👃 Mit der Nase." }
+          {
+            "text": "👂 Mit den Ohren.",
+            "correct": true
+          },
+          {
+            "text": "🦶 Mit den Füßen."
+          },
+          {
+            "text": "👃 Mit der Nase."
+          }
         ],
         "explanation": "Mit den Ohren hörst du. Zum Beispiel Vogelstimmen und Musik."
       }

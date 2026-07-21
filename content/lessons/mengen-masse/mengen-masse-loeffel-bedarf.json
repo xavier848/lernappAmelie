@@ -20,25 +20,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍬 Du brauchst 60 g Zucker. Ein Esslöffel Zucker wiegt 15 g. Wie viele Esslöffel sind das?",
+        "prompt": "🍬 Für einen Kuchen brauchst du 60 g Zucker. Du hast keine Waage, nur einen Esslöffel. Ein gestrichener Esslöffel Zucker wiegt 15 g. Wie viele Esslöffel brauchst du?",
         "options": [
           { "text": "4 Esslöffel", "correct": true },
-          { "text": "3 Esslöffel" },
-          { "text": "6 Esslöffel" }
+          { "text": "5 Esslöffel" },
+          { "text": "3 Esslöffel" }
         ],
-        "explanation": "Du teilst 60 durch 15. Das ergibt 4. Also brauchst du 4 Esslöffel Zucker."
+        "explanation": "Hier hilft dir die Division. Division heißt teilen. Du teilst die ganze Menge durch das Gewicht von einem Löffel: 60 geteilt durch 15 ergibt 4. Also brauchst du 4 Esslöffel Zucker."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎈 Du brauchst 18 g Backpulver. Ein Teelöffel (TL) Backpulver wiegt 3 g. Wie viele Teelöffel sind das?",
+        "prompt": "🎈 Ein Rezept braucht 18 g Backpulver. Ein gestrichener Teelöffel (TL) Backpulver wiegt 3 g. Wie viele Teelöffel brauchst du?",
         "options": [
           { "text": "6 Teelöffel", "correct": true },
-          { "text": "5 Teelöffel" },
-          { "text": "9 Teelöffel" }
+          { "text": "7 Teelöffel" },
+          { "text": "5 Teelöffel" }
         ],
-        "explanation": "Du teilst 18 durch 3. Das ergibt 6. Also nimmst du 6 Teelöffel Backpulver."
+        "explanation": "Du rechnest wieder mit der Division. Division heißt teilen: 18 geteilt durch 3 ergibt 6. Also nimmst du 6 Teelöffel Backpulver."
       }
     },
     {
@@ -62,25 +62,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Wie viele Milliliter sind ein Viertel Liter (1/4 l)?",
+        "prompt": "💧 In einem Rezept steht: 1/4 Liter Milch. Dein Messbecher zeigt aber nur Milliliter (ml) an. Bis zu welcher Zahl füllst du die Milch ein?",
         "options": [
           { "text": "250 ml", "correct": true },
           { "text": "125 ml" },
           { "text": "500 ml" }
         ],
-        "explanation": "Ein ganzer Liter sind 1000 ml. Ein Viertel davon sind 250 ml."
+        "explanation": "Ein ganzer Liter sind 1000 ml. Ein Viertel bedeutet: durch 4 teilen. 1000 geteilt durch 4 ergibt 250 ml. (125 ml wären ein Achtel, 500 ml wären die Hälfte.)"
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Wie viele Liter sind 750 Milliliter (750 ml)?",
+        "prompt": "💧 Auf einer Flasche steht 750 Milliliter (ml). Wie viel Liter sind das? Achte gut auf das Komma.",
         "options": [
           { "text": "0,750 Liter", "correct": true },
-          { "text": "7,50 Liter" },
-          { "text": "0,075 Liter" }
+          { "text": "0,075 Liter" },
+          { "text": "7,50 Liter" }
         ],
-        "explanation": "1000 ml sind 1 Liter. 750 ml sind also drei Viertel davon, das schreibst du 0,750 Liter."
+        "explanation": "1000 ml sind genau 1 Liter. Von ml zu Liter teilst du durch 1000. Das Komma wandert dabei drei Stellen nach links: aus 750 ml wird 0,750 Liter."
       }
     },
     {
@@ -122,13 +122,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥄 Was ist größer: ein Esslöffel oder ein Teelöffel?",
+        "prompt": "🥄 Im Rezept steht '1 EL Öl'. Du hast aber nur einen Teelöffel (TL) zur Hand. Warum brauchst du dann mehr als einen Teelöffel?",
         "options": [
-          { "text": "Der Esslöffel. In ihn passt mehr hinein.", "correct": true },
-          { "text": "Der Teelöffel. In ihn passt mehr hinein." },
-          { "text": "Beide sind genau gleich groß." }
+          { "text": "Weil der Esslöffel größer ist. In ihn passt mehr hinein.", "correct": true },
+          { "text": "Weil der Teelöffel größer ist. In ihn passt mehr hinein." },
+          { "text": "Weil beide Löffel genau gleich groß sind." }
         ],
-        "explanation": "Der Esslöffel ist der große Löffel. In einen Esslöffel passt mehr als in einen kleinen Teelöffel."
+        "explanation": "Der Esslöffel (EL) ist der große Löffel, der Teelöffel (TL) der kleine. In einen Esslöffel passt mehr. Für 1 EL brauchst du darum ungefähr 3 Teelöffel."
       }
     }
   ]

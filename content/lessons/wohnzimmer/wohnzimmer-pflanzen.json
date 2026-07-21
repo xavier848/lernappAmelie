@@ -10,10 +10,10 @@
         "prompt": "🪴 Beim Umtopfen legst du eine Tonscherbe über das Loch im neuen Topf. Wozu?",
         "options": [
           { "text": "Sie hält die Erde im Topf. Wasser kann trotzdem abfließen.", "correct": true },
-          { "text": "Sie macht den Topf schwerer, damit er nicht umfällt." },
-          { "text": "Sie ist Futter für die Pflanze." }
+          { "text": "Sie verschließt das Loch ganz, damit gar kein Wasser mehr austritt." },
+          { "text": "Sie versorgt die Wurzeln mit Kalk und Nährstoffen." }
         ],
-        "explanation": "Ohne Scherbe rieselt die Erde durch das Loch heraus. Die gewölbte Scherbe deckt das Loch ab – aber Gießwasser kann weiter ablaufen. So faulen die Wurzeln nicht."
+        "explanation": "Ohne Scherbe rieselt die Erde durch das Loch heraus. Die gewölbte Scherbe deckt das Loch ab – aber Gießwasser kann weiter ablaufen. So entsteht keine Staunässe und die Wurzeln faulen nicht. Staunässe heißt: Das Wasser steht im Topf und kann nicht weg."
       }
     },
     {
@@ -45,11 +45,11 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Beim Festdrücken der Erde formst du einen Gießrand. Was bringt der?",
+        "prompt": "💧 Beim Festdrücken der Erde formst du einen Gießrand. Was bringt dir das beim nächsten Gießen?",
         "options": [
           { "text": "Das Gießwasser bleibt im Topf und läuft nicht über den Rand.", "correct": true },
-          { "text": "Er sieht nur schöner aus." },
-          { "text": "Er hält Insekten fern." }
+          { "text": "Das Gießwasser läuft schneller unten aus dem Topf ab." },
+          { "text": "Er drückt die Wurzeln fest, damit die Pflanze stabil steht." }
         ],
         "explanation": "Der Gießrand ist ein kleiner Abstand zwischen Erde und Topfrand. Beim Gießen sammelt sich das Wasser dort und versickert langsam – nichts schwappt über."
       }
@@ -61,7 +61,7 @@
         "options": [
           { "text": "Etwa doppelt so hoch wie die Vase.", "correct": true },
           { "text": "Genau so hoch wie die Vase." },
-          { "text": "Zehnmal so hoch wie die Vase." }
+          { "text": "Ungefähr halb so hoch wie die Vase." }
         ],
         "explanation": "Als Faustregel gilt: Die Blumen dürfen ungefähr doppelt so hoch sein wie die Vase. So wirkt der Strauß ausgewogen und kippt nicht um."
       }
@@ -82,13 +82,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍃 Warum entfernst du die unteren Blätter von den Stängeln?",
+        "prompt": "🍃 Bevor die Blumen in die Vase kommen, entfernst du die unteren Blätter. Warum ist das wichtig?",
         "options": [
           { "text": "Blätter im Wasser faulen schnell.", "correct": true },
-          { "text": "Die Vase wird sonst zu schwer." },
-          { "text": "Blumen brauchen gar keine Blätter." }
+          { "text": "Ohne Blätter unten passen mehr Blumen in die Vase." },
+          { "text": "Die Blätter nehmen der Blüte sonst das ganze Wasser weg." }
         ],
-        "explanation": "Alles, was unter Wasser steht, fängt an zu faulen. Das Wasser kippt dann schnell und die Blumen welken früher. Darum: untere Blätter ab, bevor die Blumen in die Vase kommen."
+        "explanation": "Alles, was unter Wasser steht, fängt an zu faulen. Durch die Fäulnis bilden sich Bakterien, das Wasser kippt und die Blumen welken früher. Darum: untere Blätter ab, bevor die Blumen in die Vase kommen."
       }
     },
     {
@@ -97,8 +97,8 @@
         "prompt": "🚿 Wie oft wechselst du das Wasser in der Vase?",
         "options": [
           { "text": "Jeden Tag. Dabei die Stängel etwas nachschneiden.", "correct": true },
-          { "text": "Einmal im Monat." },
-          { "text": "Nie, das Wasser bleibt von allein frisch." }
+          { "text": "Etwa einmal pro Woche reicht völlig." },
+          { "text": "Erst dann, wenn das Wasser schon trüb ist und riecht." }
         ],
         "explanation": "Frisches Wasser jeden Tag hält die Blumen länger schön. Beim Wechseln schneidest du die Stängel ein kleines Stück nach – so nehmen sie wieder gut Wasser auf."
       }
@@ -109,8 +109,8 @@
         "prompt": "🧪 Im Vasenwasser ist Frischhaltemittel. Was machst du jetzt jeden Tag?",
         "options": [
           { "text": "Nur Wasser nachfüllen. Wechseln ist nicht nötig.", "correct": true },
-          { "text": "Das ganze Wasser trotzdem täglich austauschen." },
-          { "text": "Noch mehr Frischhaltemittel dazugeben." }
+          { "text": "Das ganze Wasser trotzdem jeden Tag komplett austauschen." },
+          { "text": "Jeden Tag eine neue Portion Frischhaltemittel ins Wasser geben." }
         ],
         "explanation": "Frischhaltemittel hält das Wasser frisch. Darum musst du es nicht wechseln – du füllst nur jeden Tag etwas Wasser nach."
       }

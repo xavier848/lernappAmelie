@@ -1,0 +1,150 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-getallen-prijzen",
+  "title": "Zahlen & Preise",
+  "sort": 5,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Hoeveel kost het? 💶 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wie viel kostet es?", "correct": true },
+          { "text": "Wie spät ist es?" },
+          { "text": "Wo ist der Ausgang?" }
+        ],
+        "explanation": "Hoeveel heißt: wie viel. Hoeveel kost het? heißt: Wie viel kostet es? Diese Frage hörst du oft von Gästen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Zahlen: Was gehört zusammen? Links das niederländische Wort, rechts die Ziffer.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "twee" }, "right": { "text": "2" } },
+          { "left": { "text": "vijf" }, "right": { "text": "5" } },
+          { "left": { "text": "acht" }, "right": { "text": "8" } },
+          { "left": { "text": "tien" }, "right": { "text": "10" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Was heißt vijftien auf Deutsch?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "fünfzehn (15)", "correct": true },
+          { "text": "fünfzig (50)" },
+          { "text": "fünf (5)" }
+        ],
+        "explanation": "Vijf heißt fünf. Die Endung -tien ist wie -zehn im Deutschen. Vijftien heißt also fünfzehn. Fünfzig wäre vijftig."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das kostet zwanzig Euro. 💶",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Dat" },
+          { "text": "kost" },
+          { "text": "twintig" },
+          { "text": "euro" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Runde Zahlen: Was gehört zusammen? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "zwanzig (20)" }, "right": { "text": "twintig" } },
+          { "left": { "text": "dreißig (30)" }, "right": { "text": "dertig" } },
+          { "left": { "text": "vierzig (40)" }, "right": { "text": "veertig" } },
+          { "left": { "text": "fünfzig (50)" }, "right": { "text": "vijftig" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst zu einem Gast: De kamer kost vijftig euro. Was heißt das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Das Zimmer kostet fünfzig Euro.", "correct": true },
+          { "text": "Das Zimmer kostet fünfzehn Euro." },
+          { "text": "Das Zimmer ist frei." }
+        ],
+        "explanation": "Vijftig heißt fünfzig (50). Pass gut auf: vijftien heißt fünfzehn (15). Die Endung -tig ist wie -zig im Deutschen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wie viel kostet es? 💶",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Hoeveel" },
+          { "text": "kost" },
+          { "text": "het" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Sortiere die Zahlen: Ist die Zahl kleiner als 10? Oder ist sie 10 oder größer?",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "klein", "label": "unter 10", "icon": "1️⃣" },
+          { "id": "gross", "label": "ab 10", "icon": "🔟" }
+        ],
+        "items": [
+          { "text": "drie", "bucket": "klein" },
+          { "text": "twaalf", "bucket": "gross" },
+          { "text": "zeven", "bucket": "klein" },
+          { "text": "twintig", "bucket": "gross" },
+          { "text": "vijf", "bucket": "klein" },
+          { "text": "dertig", "bucket": "gross" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das Frühstück beginnt um acht Uhr. 🥐",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Het" },
+          { "text": "ontbijt" },
+          { "text": "begint" },
+          { "text": "om" },
+          { "text": "acht" },
+          { "text": "uur" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Hoe laat is het ontbijt? 🥐 Er will wissen, wann es Frühstück gibt. Was antwortest du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Het ontbijt is om acht uur.", "correct": true },
+          { "text": "Tot ziens!" },
+          { "text": "Het appartement is mooi." }
+        ],
+        "explanation": "Hoe laat? heißt: Um wie viel Uhr? Het ontbijt is om acht uur heißt: Das Frühstück ist um acht Uhr. Om acht uur heißt: um 8 Uhr."
+      }
+    }
+  ]
+}

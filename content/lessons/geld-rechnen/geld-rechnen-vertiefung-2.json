@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍲 In der Hauswirtschaft rechnet man oft aus: Was kostet eine Portion? Ein Topf Suppe kostet 6 € an Zutaten. Er ergibt 6 Teller. Was kostet ein Teller?",
+        "prompt": "🍲 In der Hauswirtschaft rechnest du den Portionspreis aus. Ein Topf Suppe kostet 6 € an Zutaten. Er ergibt 6 Teller. Was kostet eine Portion?",
         "options": [
           { "text": "1 €", "correct": true },
-          { "text": "6 €" },
-          { "text": "2 €" }
+          { "text": "1,20 €" },
+          { "text": "6 €" }
         ],
-        "explanation": "Teile die Kosten durch die Portionen: 6 € geteilt durch 6 Teller = 1 € pro Teller."
+        "explanation": "Der Portionspreis ist der Preis für eine Portion. Du teilst die Zutaten-Kosten durch die Zahl der Portionen: 6 € geteilt durch 6 Teller = 1 € pro Teller."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥐 Für die Gäste der Ferienwohnung kaufst du 12 Brötchen für 3,60 €. Was kostet ein Brötchen?",
+        "prompt": "🥐 Für die Gäste der Ferienwohnung kaufst du 12 Brötchen für 3,60 €. Wie hoch ist der Stückpreis, also der Preis für ein Brötchen?",
         "options": [
           { "text": "30 Cent", "correct": true },
           { "text": "36 Cent" },
-          { "text": "60 Cent" }
+          { "text": "40 Cent" }
         ],
-        "explanation": "3,60 € sind 360 Cent. 360 geteilt durch 12 = 30 Cent pro Brötchen."
+        "explanation": "Der Stückpreis ist der Preis für ein Stück. 3,60 € sind 360 Cent. 360 Cent geteilt durch 12 Brötchen = 30 Cent pro Brötchen."
       }
     },
     {
@@ -44,13 +44,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "☕ Das Frühstück für einen Gast kostet dich 4,50 € an Zutaten. Heute kommen 4 Gäste. Wie viel kosten die Zutaten zusammen?",
+        "prompt": "☕ Das Frühstück für einen Gast kostet dich 4,50 € an Zutaten. Heute kommen 4 Gäste. Wie hoch sind die Gesamtkosten für die Zutaten?",
         "options": [
           { "text": "18 €", "correct": true },
           { "text": "16 €" },
-          { "text": "20 €" }
+          { "text": "16,50 €" }
         ],
-        "explanation": "Rechne in zwei Schritten: 4 mal 4 € = 16 €. 4 mal 50 Cent = 2 €. Zusammen 18 €."
+        "explanation": "Gesamtkosten heißt: alles zusammen. Rechne in zwei Schritten: 4 mal 4 € = 16 €. 4 mal 50 Cent = 2 €. Zusammen 18 €. Vergiss die 50 Cent nicht."
       }
     },
     {
@@ -59,10 +59,10 @@
         "prompt": "🍝 Dein Rezept ist für 2 Personen und braucht 250 g Nudeln. Heute kochst du für 4 Personen. Wie viele Nudeln brauchst du?",
         "options": [
           { "text": "500 g", "correct": true },
-          { "text": "250 g" },
-          { "text": "300 g" }
+          { "text": "1000 g" },
+          { "text": "250 g" }
         ],
-        "explanation": "Doppelt so viele Personen heißt: doppelte Menge. 250 g mal 2 = 500 g."
+        "explanation": "Von 2 auf 4 Personen ist das Doppelte. Also brauchst du die doppelte Menge: 250 g mal 2 = 500 g. Mal 4 wäre falsch, das wäre für 8 Personen."
       }
     },
     {
@@ -81,13 +81,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍕 Eine Pizza vom Lieferdienst kostet 9 €. Machst du sie selbst, kosten die Zutaten nur 3 €. Wie viel sparst du mit Selbermachen?",
+        "prompt": "🍕 Eine Pizza vom Lieferdienst kostet 9 €. Machst du sie selbst, kosten die Zutaten nur 3 €. Wie hoch ist deine Ersparnis?",
         "options": [
           { "text": "6 €", "correct": true },
           { "text": "3 €" },
-          { "text": "9 €" }
+          { "text": "12 €" }
         ],
-        "explanation": "9 € minus 3 € = 6 €. Selbst kochen ist oft viel günstiger. Das ist Hauswirtschaft!"
+        "explanation": "Die Ersparnis ist das Geld, das du weniger ausgibst. Du rechnest minus: 9 € minus 3 € = 6 €. Selbst kochen ist oft viel günstiger."
       }
     },
     {

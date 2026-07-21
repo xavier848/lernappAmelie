@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧡 Was ist ein Bedürfnis?",
+        "prompt": "🧡 Woran erkennst du ein Bedürfnis?",
         "options": [
           { "text": "Etwas, das du wirklich brauchst.", "correct": true },
-          { "text": "Etwas, das nur schön wäre." },
-          { "text": "Etwas, das teuer ist." }
+          { "text": "Etwas, das du dir gerade sehr wünschst." },
+          { "text": "Etwas, das billig im Angebot ist." }
         ],
-        "explanation": "Ein Bedürfnis brauchst du zum Leben oder für deine Sicherheit. Zum Beispiel Essen, Zahnpasta oder eine warme Jacke."
+        "explanation": "Ein Bedürfnis brauchst du zum Leben oder für deine Sicherheit. Zum Beispiel Essen, Zahnpasta oder eine warme Jacke. Ein starker Wunsch fühlt sich manchmal dringend an. Aber du brauchst ihn nicht wirklich. Und ein günstiger Preis macht aus einem Wunsch kein Bedürfnis."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⭐ Was ist ein Wunsch?",
+        "prompt": "⭐ Woran erkennst du einen Wunsch?",
         "options": [
           { "text": "Etwas, das schön wäre. Aber du brauchst es nicht sofort.", "correct": true },
           { "text": "Etwas, das du zum Leben brauchst." },
-          { "text": "Etwas, das man nie kaufen darf." }
+          { "text": "Etwas, das du unbedingt sofort haben musst." }
         ],
-        "explanation": "Wünsche sind toll und völlig ok! Du musst sie nur nicht sofort kaufen. Erst kommen die Bedürfnisse."
+        "explanation": "Ein Wunsch ist schön, aber nicht nötig. Du kannst damit warten. Erst kommen die Bedürfnisse, dann die Wünsche. Ein Wunsch fühlt sich manchmal eilig an. Trotzdem bleibt er ein Wunsch."
       }
     },
     {
@@ -54,22 +54,22 @@
         "prompt": "🐴 Dein Reithelm ist kaputt. Warum ist ein neuer Helm ein Bedürfnis?",
         "options": [
           { "text": "Der Helm schützt deinen Kopf beim Reiten.", "correct": true },
-          { "text": "Ein neuer Helm sieht einfach schöner aus." },
-          { "text": "Alle anderen haben auch einen neuen Helm." }
+          { "text": "Der neue Helm sieht schicker aus als dein alter." },
+          { "text": "Alle im Stall haben schon das neuere Modell." }
         ],
-        "explanation": "Sicherheit geht vor! Ein kaputter Helm schützt dich nicht mehr. Darum ist ein neuer Helm ein Bedürfnis."
+        "explanation": "Sicherheit geht vor. Ein kaputter Helm schützt deinen Kopf nicht mehr. Darum ist der neue Helm ein Bedürfnis, kein Wunsch. Wie er aussieht oder was die anderen haben, entscheidet das nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Du hast diesen Monat nur noch 10 €. Was kaufst du zuerst?",
+        "prompt": "🤔 Es ist der 28. im Monat. Du hast nur noch 10 €. Was kaufst du zuerst?",
         "options": [
           { "text": "🪥 Neue Zahnpasta. Meine ist leer.", "correct": true },
-          { "text": "🍫 Schokolade." },
-          { "text": "🎬 Eine Kino-Karte." }
+          { "text": "🍫 Schokolade, sie ist heute im Angebot." },
+          { "text": "🎬 Eine Kino-Karte, der Film läuft nur diese Woche." }
         ],
-        "explanation": "Zahnpasta brauchst du jeden Tag. Sie ist ein Bedürfnis. Schokolade und Kino sind Wünsche. Die können warten."
+        "explanation": "Zahnpasta brauchst du jeden Tag. Sie ist ein Bedürfnis und geht vor. Schokolade und Kino sind Wünsche. Ein Angebot oder ein 'nur diese Woche' macht einen Wunsch nicht zum Bedürfnis. Die Wünsche können warten."
       }
     },
     {
@@ -91,20 +91,22 @@
         "prompt": "💛 Sind Wünsche etwas Schlechtes?",
         "options": [
           { "text": "Nein! Wünsche sind ok. Erst die Bedürfnisse, dann die Wünsche.", "correct": true },
-          { "text": "Ja. Wünsche darf man sich nie erfüllen." }
+          { "text": "Nein, aber kümmere dich zuerst um die Wünsche, dann um die Bedürfnisse." },
+          { "text": "Ja, Wünsche sind Geldverschwendung. Kauf dir nie etwas nur zum Spaß." }
         ],
-        "explanation": "Wünsche machen das Leben schön. Plane zuerst deine Bedürfnisse. Mit dem Rest darfst du dir gerne Wünsche erfüllen. 😊"
+        "explanation": "Wünsche machen das Leben schön und sind erlaubt. Wichtig ist die Reihenfolge: Plane zuerst deine Bedürfnisse ein. Mit dem Rest darfst du dir gerne Wünsche erfüllen. 😊"
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage! Zahnpasta: Wunsch oder Bedürfnis?",
+        "prompt": "🌟 Letzte Frage! Deine Zahnpasta ist leer. Ist eine neue Zahnpasta ein Wunsch oder ein Bedürfnis?",
         "options": [
           { "text": "Bedürfnis.", "correct": true },
-          { "text": "Wunsch." }
+          { "text": "Wunsch." },
+          { "text": "Wunsch, wenn du eine teure Marke wählst." }
         ],
-        "explanation": "Zahnpasta brauchst du jeden Tag. 🎉"
+        "explanation": "Zahnpasta brauchst du jeden Tag für deine Gesundheit. Das ist ein Bedürfnis. Ob teure oder günstige Marke: Gebraucht wird sie so oder so. 🎉"
       }
     }
   ]

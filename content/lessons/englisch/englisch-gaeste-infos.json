@@ -1,0 +1,146 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-gaeste-infos",
+  "title": "Gäste: Begrüßung & Tipps",
+  "sort": 15,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du begrüßt die Gäste in der Ferienwohnung. 🏔️ Du sagst: This is your perfect mountain getaway in the heart of Lermoos. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Das ist Ihr perfektes Bergrefugium mitten in Lermoos.", "correct": true },
+          { "text": "Das ist der schnellste Weg nach Lermoos." },
+          { "text": "In Lermoos gibt es viele Berge zum Wandern." }
+        ],
+        "explanation": "A mountain getaway ist ein Rückzugsort in den Bergen. In the heart of heißt: mitten in / im Herzen von."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste begrüßen: Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Welcome to our apartment! 😊" }, "right": { "text": "Willkommen in unserer Wohnung!" } },
+          { "left": { "text": "Here is your key. 🔑" }, "right": { "text": "Hier ist Ihr Schlüssel." } },
+          { "left": { "text": "I am just next door." }, "right": { "text": "Ich wohne gleich nebenan." } },
+          { "left": { "text": "Please let me know. 🙋" }, "right": { "text": "Sagen Sie mir bitte Bescheid." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach dem WLAN. 📶 Du zeigst auf die Infomappe. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The Wi-Fi password and all other important information can be found in this folder.", "correct": true },
+          { "text": "The Wi-Fi is broken, I am so sorry." },
+          { "text": "Please pay for the Wi-Fi at the reception." }
+        ],
+        "explanation": "Can be found in this folder heißt: ist in dieser Mappe zu finden. So weiß der Gast, wo alle wichtigen Infos stehen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich wohne gleich nebenan. 🏡",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "am" },
+          { "text": "just" },
+          { "text": "next" },
+          { "text": "door" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du gibst einen Tipp: The valley station of the Grubigstein ski area is just a short walk from here. ⛷️ Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Talstation vom Skigebiet Grubigstein ist nur einen kurzen Spaziergang entfernt.", "correct": true },
+          { "text": "Das Skigebiet Grubigstein ist leider heute geschlossen." },
+          { "text": "Bis zur Talstation muss man eine Stunde mit dem Auto fahren." }
+        ],
+        "explanation": "A short walk from here heißt: nur einen kurzen Spaziergang von hier. Valley station ist die Talstation der Bahn."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sagen Sie mir bitte Bescheid. 🙋",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Please" },
+          { "text": "let" },
+          { "text": "me" },
+          { "text": "know" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Begrüßung im Haus oder Tipp für draußen? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "haus", "label": "Im Haus", "icon": "🏠" },
+          { "id": "draussen", "label": "Tipp für draußen", "icon": "⛷️" }
+        ],
+        "items": [
+          { "text": "Welcome to your mountain getaway!", "bucket": "haus" },
+          { "text": "The Wi-Fi password is in this folder.", "bucket": "haus" },
+          { "text": "The ski station is a short walk from here.", "bucket": "draussen" },
+          { "text": "The cross-country trails start down in the valley.", "bucket": "draussen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss möchtest du deine Hilfe anbieten. 😊 Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "If you need anything else, please let me know.", "correct": true },
+          { "text": "You have to leave the apartment now." },
+          { "text": "I cannot help you with anything." }
+        ],
+        "explanation": "If you need anything else heißt: Wenn Sie noch etwas brauchen. Damit zeigst du, dass du gern hilfst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du erzählst vom Langlaufen: If you prefer cross-country skiing, the trails start right down in the valley and offer beautiful views. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wenn Sie lieber Langlaufen, beginnen die Loipen direkt unten im Tal und bieten eine schöne Aussicht.", "correct": true },
+          { "text": "Langlaufen ist im Tal leider nicht erlaubt." },
+          { "text": "Zum Langlaufen müssen Sie erst auf den Berg fahren." }
+        ],
+        "explanation": "Cross-country skiing heißt Langlaufen. Trails sind die Loipen, und to offer beautiful views heißt: eine schöne Aussicht bieten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welcher englische Satz passt? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Willkommen in Ihrem Bergrefugium!" }, "right": { "text": "Welcome to your mountain getaway!" } },
+          { "left": { "text": "Ich wohne gleich nebenan." }, "right": { "text": "I am just next door." } },
+          { "left": { "text": "Brauchen Sie noch etwas?" }, "right": { "text": "Do you need anything else?" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💵 Jetzt geht es um große Scheine. Du hast einen 50-€-Schein und zwei 20-€-Scheine. Wie viel Geld ist das?",
+        "prompt": "💵 Du hast einen 50-€-Schein und zwei 20-€-Scheine im Portemonnaie. Wie viel Geld ist das zusammen?",
         "options": [
           {
             "text": "90 €",
@@ -17,10 +17,10 @@
             "text": "70 €"
           },
           {
-            "text": "100 €"
+            "text": "80 €"
           }
         ],
-        "explanation": "50 € plus 20 € sind 70 €. Noch einmal 20 € dazu sind 90 €."
+        "explanation": "Ein Schein ist Papiergeld. Rechne: 50 € plus 20 € sind 70 €. Der zweite 20-€-Schein macht 90 €. Wer nur einen der beiden 20er zählt, landet falsch bei 70 €."
       }
     },
     {
@@ -42,20 +42,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛒 Der Einkauf kostet 78 €. Du gibst 100 €. Wie viel Rückgeld bekommst du?",
+        "prompt": "🛒 Dein Einkauf kostet 78 €. Du bezahlst mit einem 100-€-Schein. Wie viel Rückgeld bekommst du zurück?",
         "options": [
           {
             "text": "22 €",
             "correct": true
           },
           {
-            "text": "32 €"
+            "text": "20 €"
           },
           {
-            "text": "12 €"
+            "text": "32 €"
           }
         ],
-        "explanation": "Ergänze: Von 78 € bis 80 € sind es 2 €. Von 80 € bis 100 € sind es 20 €. Zusammen: 22 €."
+        "explanation": "Rückgeld ist das Geld, das du zurückbekommst. Rechne mit Ergänzen: Von 78 € sind es 2 € bis 80 €. Von 80 € sind es 20 € bis 100 €. Zusammen 22 €. Wer die 2 € vergisst, kommt falsch auf 20 €."
       }
     },
     {
@@ -98,20 +98,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏠 Für die Ferienwohnung: Neue Handtücher kosten 38 €. Neue Bettwäsche kostet 54 €. Reichen 100 €?",
+        "prompt": "🏠 Für die Ferienwohnung kaufst du Handtücher für 38 € und Bettwäsche für 54 €. Du hast 100 €. Überschlage zuerst und rechne dann genau: Reicht dein Geld, und wie viel kostet alles zusammen?",
         "options": [
           {
             "text": "Ja. Zusammen sind es 92 €.",
             "correct": true
           },
           {
-            "text": "Nein, es fehlt Geld."
+            "text": "Ja. Zusammen sind es 82 €."
           },
           {
-            "text": "Ja, es bleiben 18 € übrig."
+            "text": "Nein, 100 € reichen nicht."
           }
         ],
-        "explanation": "Überschlage: 38 € sind fast 40 €. 40 € plus 54 € sind 94 €. Das ist weniger als 100 €. Genau: 92 €, es bleiben 8 € übrig."
+        "explanation": "Überschlagen heißt: Runde die Zahlen und rechne im Kopf ungefähr. 38 € sind fast 40 €. 40 € plus 54 € sind 94 € — also unter 100 €. Genau gerechnet sind 38 € plus 54 € genau 92 €. Es bleiben 8 € übrig. 82 € wäre ein Rechenfehler."
       }
     },
     {

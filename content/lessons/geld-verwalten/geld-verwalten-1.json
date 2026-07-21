@@ -11,9 +11,9 @@
         "options": [
           { "text": "Geld, das du bekommst.", "correct": true },
           { "text": "Geld, das du ausgibst." },
-          { "text": "Geld, das du verlierst." }
+          { "text": "Geld, das schon auf deinem Konto liegt." }
         ],
-        "explanation": "Einnahme heißt: Geld kommt zu dir. Zum Beispiel dein Taschengeld."
+        "explanation": "Einnahme heißt: Geld kommt neu zu dir. Zum Beispiel dein Taschengeld. Geld, das schon auf dem Konto liegt, ist keine neue Einnahme."
       }
     },
     {
@@ -23,9 +23,9 @@
         "options": [
           { "text": "Geld, das du jeden Monat für deine Ausbildung bekommst.", "correct": true },
           { "text": "Geld, das du für die Ausbildung bezahlen musst." },
-          { "text": "Ein Geschenk zum Geburtstag." }
+          { "text": "Geld, das du erst am Ende der Ausbildung bekommst." }
         ],
-        "explanation": "In der Ausbildung arbeitest du. Dafür bekommst du jeden Monat Geld. Das ist deine Ausbildungs-Vergütung. 🎉"
+        "explanation": "In der Ausbildung arbeitest du. Dafür bekommst du jeden Monat Geld. Das ist deine Ausbildungs-Vergütung. Vergütung ist ein anderes Wort für Lohn. Sie kommt jeden Monat – nicht erst am Ende."
       }
     },
     {
@@ -65,13 +65,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📅 Welche Einnahme kommt sicher jeden Monat?",
+        "prompt": "📅 Du willst dir jeden Monat etwas kaufen. Auf welche Einnahme kannst du dich sicher verlassen?",
         "options": [
           { "text": "Die Ausbildungs-Vergütung.", "correct": true },
           { "text": "Das Geburtstags-Geld." },
           { "text": "Das Weihnachts-Geld." }
         ],
-        "explanation": "Geburtstag und Weihnachten sind nur einmal im Jahr. Deine Ausbildungs-Vergütung kommt jeden Monat. Damit kannst du planen."
+        "explanation": "Geburtstag und Weihnachten sind nur einmal im Jahr. Deine Ausbildungs-Vergütung kommt jeden Monat – sie ist eine regelmäßige Einnahme. Nur damit kannst du sicher planen."
       }
     },
     {
@@ -80,9 +80,10 @@
         "prompt": "🤔 Oma schenkt dir 50 € zum Geburtstag. Kannst du jeden Monat mit diesem Geld rechnen?",
         "options": [
           { "text": "Nein. Das Geld kommt nur einmal im Jahr.", "correct": true },
-          { "text": "Ja. Oma schenkt mir jeden Monat 50 €." }
+          { "text": "Ja. 50 € reichen für einen ganzen Monat." },
+          { "text": "Ja. So ein Geschenk kommt jeden Monat wieder." }
         ],
-        "explanation": "Geschenk-Geld ist toll! Aber es kommt nicht regelmäßig. Plane deinen Monat mit dem Geld, das sicher kommt."
+        "explanation": "Geschenk-Geld ist toll! Aber es kommt unregelmäßig – mal ja, mal nein. Plane deinen Monat mit dem Geld, das regelmäßig kommt. Wie viel es ist, spielt dabei keine Rolle."
       }
     },
     {
@@ -91,9 +92,10 @@
         "prompt": "🌟 Letzte Frage! Du bekommst bald deine Ausbildungs-Vergütung. Was ist das?",
         "options": [
           { "text": "Eine Einnahme.", "correct": true },
-          { "text": "Eine Ausgabe." }
+          { "text": "Eine Ausgabe." },
+          { "text": "Ein Geschenk." }
         ],
-        "explanation": "Geld, das du bekommst, ist eine Einnahme. 🎉"
+        "explanation": "Geld, das du bekommst, ist eine Einnahme. Deine Ausbildungs-Vergütung bekommst du für deine Arbeit – das ist kein Geschenk, sondern verdientes Geld."
       }
     }
   ]

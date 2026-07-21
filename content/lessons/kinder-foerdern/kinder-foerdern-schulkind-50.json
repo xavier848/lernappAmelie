@@ -1,0 +1,307 @@
+{
+  "topic_slug": "kinder-foerdern",
+  "slug": "kinder-foerdern-schulkind-50",
+  "title": "Betreuung und Förderung des Grundschul- und Schulkindes",
+  "intro": "🎒 Ein Schulkind sitzt jeden Tag viele Stunden still: in der Schule und bei den Hausaufgaben. Deshalb braucht es einen Ausgleich: Bewegung im Freien. Als Hauswirtschafterin förderst du das Kind in drei Bereichen: Motorik, Sprache und Denken. Motorik ist die Bewegung des Körpers, zum Beispiel beim Ballspielen. Die Sprache übst du, wenn das Kind von seinem Schultag erzählt. So lernt es, seine Erlebnisse in Worte zu fassen. Das Denken förderst du mit Merkaufgaben über längere Zeit. Solche Aufgaben stärken die Konzentration und das Durchhaltevermögen. Bei allem gilt: Du hältst dich an die Erziehungsgrundsätze der Familie, nicht an deine eigenen. Am Abend berichtest du den Erziehungsberechtigten, also meist den Eltern, deine Beobachtungen vom Tag.",
+  "sort": 50,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪑 Ein Schulkind sitzt viele Stunden am Tag: in der Schule und bei den Hausaufgaben. Warum sind Bewegungsspiele im Freien so wichtig?",
+        "options": [
+          {
+            "text": "⚖️ Sie sind ein Ausgleich zum langen Sitzen. Ausgleich heißt: Das Kind bekommt das Gegenteil vom Sitzen, nämlich Bewegung.",
+            "correct": true
+          },
+          {
+            "text": "🛌 Sie sollen das Kind vor allem müde machen. Ein müdes Kind macht am Abend weniger Arbeit."
+          },
+          {
+            "text": "🏅 Sie ersetzen den Sportunterricht. Wer draußen spielt, braucht in der Schule keinen Sport mehr."
+          },
+          {
+            "text": "🎁 Sie sind eine Belohnung. Bewegung bekommt das Kind erst, wenn alle Hausaufgaben fertig sind."
+          }
+        ],
+        "explanation": "In der Schule sitzt das Kind sehr lange still. Bewegungsspiele im Freien sind der Ausgleich dazu. Zum Beispiel: Versteckspiele, Ballspiele oder Springseil springen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📋 Du betreust ein Schulkind als Hauswirtschafterin. Was gehört zu deinen Aufgaben? Sortiere genau.",
+        "buckets": [
+          {
+            "id": "aufgabe",
+            "label": "Deine Aufgabe",
+            "icon": "✅"
+          },
+          {
+            "id": "nicht",
+            "label": "Nicht deine Aufgabe",
+            "icon": "🚫"
+          }
+        ],
+        "items": [
+          {
+            "text": "Bei den Hausaufgaben helfen",
+            "bucket": "aufgabe"
+          },
+          {
+            "text": "Die Hausaufgaben für das Kind lösen",
+            "bucket": "nicht"
+          },
+          {
+            "text": "Auf Körperhygiene und genug Schlaf achten",
+            "bucket": "aufgabe"
+          },
+          {
+            "text": "Zu Ordnung und Pünktlichkeit anleiten",
+            "bucket": "aufgabe"
+          },
+          {
+            "text": "Das Kind nach deinen eigenen Erziehungsregeln erziehen",
+            "bucket": "nicht"
+          },
+          {
+            "text": "Für Bewegung im Freien sorgen",
+            "bucket": "aufgabe"
+          },
+          {
+            "text": "Die Erziehungsgrundsätze der Familie einhalten",
+            "bucket": "aufgabe"
+          },
+          {
+            "text": "Beobachtungen vom Tag für dich behalten",
+            "bucket": "nicht"
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚽ Ein Schulkind ist oft steif und unbeweglich. Es mag aber Bälle und andere Kinder. Was schlägst du den Erziehungsberechtigten vor?",
+        "options": [
+          {
+            "text": "🏅 Einen Sportverein. Dort wird die Beweglichkeit gezielt gefördert. Gezielt heißt: mit Plan und Anleitung, genau für dieses Ziel.",
+            "correct": true
+          },
+          {
+            "text": "🏠 Das Kind soll allein zu Hause üben. Hauptsache, es bewegt sich überhaupt ein bisschen."
+          },
+          {
+            "text": "🎮 Ein Bewegungsspiel auf der Spielkonsole. Da bewegt sich das Kind und hat Spaß dabei."
+          },
+          {
+            "text": "⏳ Erst mal abwarten. Steifheit verwächst sich bei Schulkindern von allein."
+          }
+        ],
+        "explanation": "Im Sportverein üben Kinder regelmäßig und mit Anleitung. So wird die Beweglichkeit gezielt gefördert. Das Kind trifft dort auch andere Kinder."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧩 Motorik, Sprache oder Denken? Welchen Bereich förderst du damit? Sortiere.",
+        "buckets": [
+          {
+            "id": "motorik",
+            "label": "Motorik",
+            "icon": "🏃"
+          },
+          {
+            "id": "sprache",
+            "label": "Sprache",
+            "icon": "🗣️"
+          },
+          {
+            "id": "denken",
+            "label": "Denken",
+            "icon": "🧠"
+          }
+        ],
+        "items": [
+          {
+            "text": "Springseil springen im Hof",
+            "bucket": "motorik"
+          },
+          {
+            "text": "Ballspiel im Garten",
+            "bucket": "motorik"
+          },
+          {
+            "text": "Den Schultag nacherzählen lassen",
+            "bucket": "sprache"
+          },
+          {
+            "text": "Fotos anschauen und dazu erzählen",
+            "bucket": "sprache"
+          },
+          {
+            "text": "Einkauf mit Merkaufgabe: 4 Brötchen und das Wechselgeld",
+            "bucket": "denken"
+          },
+          {
+            "text": "Lange bei einer Aufgabe bleiben, ohne Ablenkung",
+            "bucket": "denken"
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Schulkinder haben ein Bedürfnis: Sie wollen ihre Tageserlebnisse schildern. Bedürfnis heißt: Sie wollen und brauchen das sehr. Warum ist das Nacherzählen so wertvoll?",
+        "options": [
+          {
+            "text": "✍️ Es stärkt die Ausdrucksfähigkeit. Das ist die Grundlage für eigene Texte in der Schule.",
+            "correct": true
+          },
+          {
+            "text": "🤫 Es trainiert vor allem das leise Zuhören."
+          },
+          {
+            "text": "✋ Es trainiert vor allem die Feinmotorik der Hände."
+          },
+          {
+            "text": "🎓 Es ist nur für Kinder wichtig, die noch nicht lesen können."
+          }
+        ],
+        "explanation": "Beim Nacherzählen übt das Kind, Erlebnisse in Worte zu fassen. Das nennt man Ausdrucksfähigkeit. Wer gut erzählen kann, kann später auch gut eigene Texte schreiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📸 Ein Kind will vom Klassen-Ausflug erzählen. Aber es findet die Worte nicht und hört auf. Was machst du?",
+        "options": [
+          {
+            "text": "🖼️ Ich hole Fotos vom Ausflug. Bilder und Fotos erleichtern das Erzählen.",
+            "correct": true
+          },
+          {
+            "text": "🗣️ Ich erzähle selbst weiter. So hört das Kind, wie es richtig geht."
+          },
+          {
+            "text": "⏭️ Ich wechsle schnell das Thema. So ist es dem Kind nicht peinlich."
+          },
+          {
+            "text": "📖 Ich sage: Schreib es lieber auf. Schreiben ist wichtiger als Erzählen."
+          }
+        ],
+        "explanation": "Bilder und Fotos sind eine Stütze. Das Kind sieht das Erlebnis wieder vor sich. So findet es die Worte leichter. Erst kommt das Erzählen, dann das Schreiben."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥐 Du übst mit einem Schulkind Konzentration und Durchhaltevermögen. Dafür bekommt es eine Merkaufgabe über längere Zeit. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "🌅 Am Morgen sagst du: Kaufe heute nach der Schule 4 Brötchen. Du gibst dem Kind das Geld."
+          },
+          {
+            "text": "🧠 Das Kind merkt sich den Auftrag den ganzen Schultag."
+          },
+          {
+            "text": "🥖 Nach der Schule kauft das Kind die Brötchen beim Bäcker."
+          },
+          {
+            "text": "🏠 Das Kind bringt die Brötchen und das Wechselgeld nach Hause."
+          },
+          {
+            "text": "🌟 Du lobst das Kind. Die verantwortungsvolle Aufgabe stärkt sein Selbstbewusstsein."
+          }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Fachbegriffe! Finde zu jedem Begriff die passende Erklärung.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Konzentrationsfähigkeit"
+            },
+            "right": {
+              "text": "Bei einer Sache bleiben, ohne sich ablenken zu lassen"
+            }
+          },
+          {
+            "left": {
+              "text": "Durchhaltevermögen"
+            },
+            "right": {
+              "text": "Eine Aufgabe zu Ende machen, auch wenn sie lange dauert"
+            }
+          },
+          {
+            "left": {
+              "text": "Ausdrucksfähigkeit"
+            },
+            "right": {
+              "text": "Erlebnisse gut in Worte fassen können"
+            }
+          },
+          {
+            "left": {
+              "text": "Selbstbewusstsein"
+            },
+            "right": {
+              "text": "Sich selbst etwas zutrauen"
+            }
+          }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎉 Du organisierst als Hauswirtschafterin ein Kinderfest. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "🗓️ Du sprichst den Termin mit den Erziehungsberechtigten ab."
+          },
+          {
+            "text": "📝 Du planst die Spiele und schreibst eine Einkaufsliste."
+          },
+          {
+            "text": "🛒 Du kaufst ein und bereitest alles vor."
+          },
+          {
+            "text": "🎈 Am Festtag führst du die Spiele durch und beaufsichtigst die Kinder."
+          },
+          {
+            "text": "🧹 Nach dem Fest räumst du auf und erzählst den Erziehungsberechtigten vom Tag."
+          }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌙 Das Kind war heute sehr still und hat kaum gegessen. Am Abend kommen die Erziehungsberechtigten. Das sind die Personen, die für das Kind verantwortlich sind. Meistens die Eltern. Was machst du?",
+        "options": [
+          {
+            "text": "💬 Ich teile ihnen meine Beobachtungen vom Tag mit. Sie müssen wissen, wie es dem Kind geht.",
+            "correct": true
+          },
+          {
+            "text": "🤐 Ich sage nichts. Das Kind war ja nicht krank."
+          },
+          {
+            "text": "⏳ Ich warte erst eine Woche ab. Vielleicht wird es von allein besser."
+          },
+          {
+            "text": "🧒 Ich bespreche es nur mit dem Kind. Die Erwachsenen muss das nicht kümmern."
+          }
+        ],
+        "explanation": "Als Hauswirtschafterin teilst du deine Beobachtungen vom Tag den Erziehungsberechtigten mit. So können sie gut auf das Kind eingehen. Das gehört fest zu deinen Aufgaben."
+      }
+    }
+  ]
+}

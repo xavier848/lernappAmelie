@@ -53,61 +53,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛡️ Welches Zeichen bedeutet „geprüfte Sicherheit“?",
+        "prompt": "🛡️ Ein Produkt bekommt ein Zeichen nur, wenn eine unabhängige Prüfstelle die Sicherheit getestet hat. Welches Zeichen ist das?",
         "options": [
-          { "text": "Das GS-Zeichen.", "correct": true },
-          { "text": "Der Grüne Punkt." },
-          { "text": "Das Wollsiegel." }
-        ],
-        "explanation": "GS steht für Geprüfte Sicherheit. Eine unabhängige Stelle wie der TÜV hat das Produkt getestet."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🌍 Welches Zeichen steht für Umweltschutz?",
-        "options": [
-          { "text": "Der Blaue Engel.", "correct": true },
           { "text": "Das CE-Zeichen." },
-          { "text": "Das VDE-Zeichen." }
+          { "text": "Das GS-Zeichen.", "correct": true },
+          { "text": "Der Grüne Punkt." }
         ],
-        "explanation": "Der Blaue Engel wird an Produkte vergeben, die die Umwelt weniger belasten als andere. Es ist ein Umweltzeichen."
+        "explanation": "GS steht für „Geprüfte Sicherheit“. Eine unabhängige Stelle wie der TÜV testet das Produkt freiwillig. Das CE-Zeichen vergibt dagegen der Hersteller selbst, und der Grüne Punkt sagt nur etwas über die Verpackung."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🐑 Welches Zeichen garantiert reine Schurwolle?",
+        "prompt": "🌍 Welches Zeichen sagt dir, dass ein Produkt selbst die Umwelt weniger belastet als andere?",
         "options": [
-          { "text": "Das Wollsiegel.", "correct": true },
           { "text": "Der Grüne Punkt." },
-          { "text": "Das GS-Zeichen." }
+          { "text": "Das PET-Zeichen." },
+          { "text": "Der Blaue Engel.", "correct": true }
         ],
-        "explanation": "Das Wollsiegel bekommt nur Kleidung aus reiner Schurwolle vom gesunden Schaf. Du findest es zum Beispiel auf Pullovern."
+        "explanation": "Der Blaue Engel ist ein Umweltzeichen: Er kommt auf Produkte, die die Umwelt schonen. Der Grüne Punkt sagt dagegen nur etwas über die Verpackung, nicht über das Produkt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "♻️ Welches Zeichen sagt, dass die Verpackung recycelt wird?",
+        "prompt": "🐑 Du kaufst einen Pullover und möchtest sichergehen, dass reine Schurwolle drin ist. Auf welches Zeichen achtest du?",
         "options": [
-          { "text": "Der Grüne Punkt.", "correct": true },
           { "text": "Der Blaue Engel." },
+          { "text": "Das Wollsiegel.", "correct": true },
+          { "text": "Der Grüne Punkt." }
+        ],
+        "explanation": "Das Wollsiegel bekommt nur Kleidung aus reiner Schurwolle vom gesunden Schaf. Der Blaue Engel steht dagegen für Umweltschutz, nicht für die Wolle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Welches Zeichen zeigt, dass die Verpackung gesammelt und wiederverwertet wird?",
+        "options": [
+          { "text": "Das PET-Zeichen." },
+          { "text": "Der Blaue Engel." },
+          { "text": "Der Grüne Punkt.", "correct": true }
+        ],
+        "explanation": "Der Grüne Punkt zeigt: Die Verpackung kommt ins Recycling-System und wird wiederverwertet. Das PET-Zeichen sagt dagegen nur, aus welchem Kunststoff die Flasche ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Auf Spielzeug findest du oft mehrere Zeichen. Welches sagt dir, dass es besonders gutes, empfehlenswertes Spielzeug ist?",
+        "options": [
+          { "text": "Das GS-Zeichen." },
+          { "text": "Das Zeichen „spiel gut“.", "correct": true },
           { "text": "Das CE-Zeichen." }
         ],
-        "explanation": "Der Grüne Punkt zeigt, dass die Verpackung gesammelt und wiederverwertet wird. Du siehst ihn oft auf Bechern und Kartons."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🧸 Welches Zeichen findest du auf gutem Spielzeug?",
-        "options": [
-          { "text": "Das Zeichen „spiel gut“.", "correct": true },
-          { "text": "Das PET-Zeichen." },
-          { "text": "Das Wollsiegel." }
-        ],
-        "explanation": "„spiel gut“ bekommt nur Spielzeug mit guter Qualität, das auch umweltfreundlich ist. Es hilft dir bei der Auswahl."
+        "explanation": "„spiel gut“ bekommt nur Spielzeug mit guter Qualität, das auch umweltfreundlich ist. GS und CE sagen dagegen nur etwas über die Sicherheit, nicht über die Qualität."
       }
     }
   ]

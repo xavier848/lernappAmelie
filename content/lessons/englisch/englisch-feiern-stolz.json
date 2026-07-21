@@ -1,0 +1,149 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-feiern-stolz",
+  "title": "Feiern & stolz sein",
+  "sort": 16,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Was heißt to celebrate? 🎉",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "feiern", "correct": true },
+          { "text": "aufräumen" },
+          { "text": "sich verspäten" }
+        ],
+        "explanation": "To celebrate heißt feiern, zum Beispiel einen Geburtstag oder eine gute Note."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gefühle & Feiern: Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "to be proud 😊" }, "right": { "text": "stolz sein" } },
+          { "left": { "text": "to congratulate 🎊" }, "right": { "text": "gratulieren" } },
+          { "left": { "text": "to celebrate 🎉" }, "right": { "text": "feiern" } },
+          { "left": { "text": "to spend time" }, "right": { "text": "Zeit verbringen" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Was bedeutet: My parents are very proud of me. 😊",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Meine Eltern sind sehr stolz auf mich.", "correct": true },
+          { "text": "Meine Eltern sind sehr streng mit mir." },
+          { "text": "Meine Eltern warten schon lange auf mich." }
+        ],
+        "explanation": "To be proud of someone heißt: stolz auf jemanden sein. Very proud heißt: sehr stolz."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Meine Eltern sind stolz auf mich. 😊",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "My" },
+          { "text": "parents" },
+          { "text": "are" },
+          { "text": "proud" },
+          { "text": "of" },
+          { "text": "me" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du erzählst von deinen Plänen: We are going to a Greek restaurant tomorrow. 🍽️ Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wir gehen morgen in ein griechisches Restaurant.", "correct": true },
+          { "text": "Wir haben gestern griechisch gekocht." },
+          { "text": "Wir suchen ein Restaurant in Griechenland." }
+        ],
+        "explanation": "We are going to … tomorrow heißt: Wir gehen morgen … A Greek restaurant ist ein griechisches Restaurant."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir haben zusammen gegessen. 🍽️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "ate" },
+          { "text": "together" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Geht es um Stolz & Feiern oder um das, was ihr gemacht habt? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "feiern", "label": "Stolz & Feiern", "icon": "🎉" },
+          { "id": "gemacht", "label": "Was wir gemacht haben", "icon": "🏡" }
+        ],
+        "items": [
+          { "text": "My parents are very proud of me.", "bucket": "feiern" },
+          { "text": "We wanted to celebrate together.", "bucket": "feiern" },
+          { "text": "We spent our day at home.", "bucket": "gemacht" },
+          { "text": "We ate together.", "bucket": "gemacht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Sag es auf Englisch: Wir haben unseren Tag zu Hause verbracht. 🏡",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "We spent our day at home.", "correct": true },
+          { "text": "We stayed at home all week." },
+          { "text": "We spend our days at work." }
+        ],
+        "explanation": "To spend the day heißt: den Tag verbringen. Weil es vorbei ist, sagt man spent (Vergangenheit)."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir haben unseren Tag zu Hause verbracht. 🏡",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "spent" },
+          { "text": "our" },
+          { "text": "day" },
+          { "text": "at" },
+          { "text": "home" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welcher englische Satz passt? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Ich habe Zeit mit meinen Freunden verbracht." }, "right": { "text": "I spent time with my friends." } },
+          { "left": { "text": "Wir haben zusammen gegessen." }, "right": { "text": "We ate together." } },
+          { "left": { "text": "Meine Eltern sind stolz auf mich." }, "right": { "text": "My parents are proud of me." } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

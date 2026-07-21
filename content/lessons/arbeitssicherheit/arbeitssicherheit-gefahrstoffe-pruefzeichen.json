@@ -7,61 +7,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Es ist noch Reiniger übrig. Darfst du ihn in eine leere Cola-Flasche umfüllen?",
+        "prompt": "🧴 Nach dem Putzen ist noch Reiniger übrig. Eine leere Cola-Flasche steht bereit. Darfst du den Reiniger dort umfüllen?",
         "options": [
           { "text": "Nein, niemals in eine Getränkeflasche.", "correct": true },
-          { "text": "Ja, wenn ich einen Zettel draufklebe." },
-          { "text": "Ja, das spart Platz im Schrank." }
+          { "text": "Ja, wenn ich mit Filzstift „Reiniger“ darauf schreibe." },
+          { "text": "Ja, wenn im Betrieb keine Kinder sind." }
         ],
-        "explanation": "Gefahrstoffe bleiben in ihrer eigenen, beschrifteten Flasche. In einer Getränkeflasche verwechselt sie jemand mit einem Getränk und vergiftet sich."
+        "explanation": "Gefahrstoffe bleiben in ihrer eigenen, beschrifteten Flasche. In einer Getränkeflasche hält jemand den Reiniger für ein Getränk und vergiftet sich. Ein Gefahrstoff ist ein Mittel, das der Gesundheit schaden kann. Auch ein Zettel hilft nicht: Umfüllen in Getränkeflaschen ist verboten."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧪 Zwei Reiniger putzen allein nicht gut. Darfst du sie zusammen mischen?",
+        "prompt": "🧪 Ein Reiniger allein bekommt den Kalk nicht weg. Darfst du ihn mit einem zweiten Reiniger mischen, damit es stärker wirkt?",
         "options": [
           { "text": "Nein, beim Mischen können giftige Gase entstehen.", "correct": true },
-          { "text": "Ja, dann putzt es doppelt so gut." },
-          { "text": "Ja, wenn ich schnell arbeite." }
+          { "text": "Ja, aber nur bei weit geöffnetem Fenster." },
+          { "text": "Ja, wenn beide gegen Kalk helfen." }
         ],
-        "explanation": "Werden zwei Reiniger gemischt, kann ein giftiges Gas entstehen. Manche Mischungen sind sogar gefährlich. Nutze jedes Mittel einzeln und richtig dosiert."
+        "explanation": "Werden zwei Reiniger gemischt, kann ein giftiges Gas entstehen, zum Beispiel Chlorgas. Das reizt die Atemwege stark. Ein offenes Fenster reicht dagegen nicht. Nutze jedes Mittel einzeln und richtig dosiert."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍞 Auf einem Lebensmittel ist ein Fleck Schimmel. Reicht es, den Fleck wegzuschneiden?",
+        "prompt": "🍞 Auf einem weichen Lebensmittel siehst du einen Fleck Schimmel. Reicht es, nur den Fleck wegzuschneiden?",
         "options": [
           { "text": "Nein, das ganze Lebensmittel muss weg.", "correct": true },
-          { "text": "Ja, der Rest ist noch gut." },
-          { "text": "Ja, wenn ich großzügig schneide." }
+          { "text": "Ja, wenn ich rundherum großzügig wegschneide." },
+          { "text": "Ja, wenn ich die Stelle danach abkoche." }
         ],
-        "explanation": "Schimmel bildet feine Sporen. Die stecken schon im ganzen Lebensmittel, auch wenn du sie nicht siehst. Darum wirf das ganze Stück weg."
+        "explanation": "Schimmel bildet feine Sporen. Sporen sind winzige Keime, die man nicht sieht. Sie stecken schon im ganzen weichen Lebensmittel. Darum wirf das ganze Stück weg."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥩 Auf dem Hackfleisch steht ein Verfallsdatum. Das Datum ist seit gestern vorbei. Was tust du?",
+        "prompt": "🥩 Auf dem Hackfleisch steht ein Verbrauchsdatum. Es war gestern. Was tust du?",
         "options": [
           { "text": "Ich entsorge es sofort.", "correct": true },
-          { "text": "Ich brate es einfach länger." },
-          { "text": "Ich rieche nur kurz daran." }
+          { "text": "Ich brate es sehr scharf durch, das tötet die Keime." },
+          { "text": "Ich prüfe mit Sehen und Riechen, ob es noch geht." }
         ],
-        "explanation": "Ein Verfallsdatum ist streng. Nach dem Tag kann das Lebensmittel krank machen. Leicht verderbliche Sachen wie Hackfleisch oder Muscheln kommen dann sofort in den Müll."
+        "explanation": "Das Verbrauchsdatum („zu verbrauchen bis“) ist streng. Nach diesem Tag kann das Lebensmittel krank machen, auch wenn es normal aussieht und riecht. Leicht verderbliche Sachen wie Hackfleisch oder Muscheln kommen dann sofort in den Müll."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥚 Du machst eine Creme, die nicht gekocht wird. Welche Eier nimmst du?",
+        "prompt": "🥚 Du machst eine Creme, die nicht erhitzt wird. Welche Eier nimmst du?",
         "options": [
           { "text": "Pasteurisiertes Vollei aus der Packung.", "correct": true },
-          { "text": "Frische rohe Eier." },
-          { "text": "Das ist egal." }
+          { "text": "Frische rohe Eier, solange sie ganz frisch sind." },
+          { "text": "Rohe Eier direkt vom Bauernhof." }
         ],
-        "explanation": "In rohen Eiern können Salmonellen sein. Die machen krank. Für Speisen ohne Kochen nimmst du Vollei aus der Packung. Das ist sicher behandelt."
+        "explanation": "In rohen Eiern können Salmonellen sein. Das sind Keime, die krank machen. Für Speisen ohne Erhitzen nimmst du pasteurisiertes Vollei aus der Packung. Pasteurisiert heißt: Das Ei wurde vorsichtig erhitzt, um Keime abzutöten."
       }
     },
     {
@@ -97,25 +97,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔌 Der Betrieb kauft ein neues Küchengerät. Worauf sollte man achten?",
+        "prompt": "🔌 Der Betrieb kauft ein neues Küchengerät. Worauf solltest du zuerst achten?",
         "options": [
           { "text": "Auf ein Prüfzeichen wie GS, VDE oder TÜV.", "correct": true },
-          { "text": "Auf eine schöne Farbe." },
-          { "text": "Auf eine große Verpackung." }
+          { "text": "Auf eine bekannte Marke, die ist immer sicher." },
+          { "text": "Auf einen möglichst niedrigen Preis." }
         ],
-        "explanation": "Zeichen wie GS, VDE oder TÜV zeigen: Das Gerät wurde auf Sicherheit geprüft. So ist es sicherer im Betrieb. GS heißt geprüfte Sicherheit."
+        "explanation": "Zeichen wie GS, VDE oder TÜV zeigen: Das Gerät wurde auf Sicherheit geprüft. GS heißt „geprüfte Sicherheit“. Eine bekannte Marke oder ein günstiger Preis sagen nichts über die Sicherheit aus."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "☠️ Zum Schluss das Wichtigste: Wohin gehört ein Reiniger?",
+        "prompt": "☠️ Zum Schluss das Wichtigste: In welchem Gefäß bewahrst du einen Reiniger auf?",
         "options": [
-          { "text": "In seine eigene, beschriftete Flasche.", "correct": true },
-          { "text": "In eine Wasserflasche." },
-          { "text": "Offen neben das Essen." }
+          { "text": "In seiner eigenen, beschrifteten Flasche.", "correct": true },
+          { "text": "In einer sauberen Wasserflasche mit Aufkleber." },
+          { "text": "In einem beschrifteten Marmeladenglas." }
         ],
-        "explanation": "Gefahrstoffe bleiben immer in ihrer eigenen Flasche mit Namen darauf. So verwechselt sie niemand. Das schützt alle im Betrieb."
+        "explanation": "Gefahrstoffe bleiben immer in ihrem eigenen Gefäß mit Namen darauf. Niemals in eine Lebensmittelverpackung, auch nicht mit Aufkleber. So verwechselt sie niemand mit Essen oder Trinken. Das schützt alle im Betrieb."
       }
     }
   ]

@@ -2,6 +2,7 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-weniger-fett",
   "title": "Gesund durch weniger Fett",
+  "intro": "🥗 Fett steckt in vielen Lebensmitteln. Fettige und tierische Produkte wie Butter, Sahne oder Speck haben oft viel Fett. Obst, Gemüse und magerer Quark haben meist wenig Fett. Gesund und fettarm ist aber nicht das Gleiche. Nüsse sind gesund und Käse schmeckt vielen, trotzdem haben beide viel Fett. Auch die Zubereitung verändert den Fettgehalt. Im Backofen brauchst du fast kein Fett. Beim Frittieren und beim Braten in der Pfanne saugt das Essen dagegen viel Fett auf. Zu viel Fett führt auf Dauer oft zu Übergewicht. Übergewicht kann krank machen, zum Beispiel durch die Zuckerkrankheit Diabetes oder durch Bluthochdruck.",
   "sort": 210,
   "exercises": [
     {
@@ -9,18 +10,50 @@
       "data": {
         "prompt": "🗂️ Sortiere die Lebensmittel nach ihrem Fettgehalt.",
         "buckets": [
-          { "id": "viel", "label": "Viel Fett", "icon": "🧈" },
-          { "id": "wenig", "label": "Wenig Fett", "icon": "🥗" }
+          {
+            "id": "viel",
+            "label": "Viel Fett",
+            "icon": "🧈"
+          },
+          {
+            "id": "wenig",
+            "label": "Wenig Fett",
+            "icon": "🥗"
+          }
         ],
         "items": [
-          { "text": "Speck", "bucket": "viel" },
-          { "text": "Sahne", "bucket": "viel" },
-          { "text": "Butter", "bucket": "viel" },
-          { "text": "Schokolade", "bucket": "viel" },
-          { "text": "Apfel", "bucket": "wenig" },
-          { "text": "Möhren", "bucket": "wenig" },
-          { "text": "Quark", "bucket": "wenig" },
-          { "text": "Forelle", "bucket": "wenig" }
+          {
+            "text": "Speck",
+            "bucket": "viel"
+          },
+          {
+            "text": "Sahne",
+            "bucket": "viel"
+          },
+          {
+            "text": "Butter",
+            "bucket": "viel"
+          },
+          {
+            "text": "Schokolade",
+            "bucket": "viel"
+          },
+          {
+            "text": "Apfel",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Möhren",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Quark",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Forelle",
+            "bucket": "wenig"
+          }
         ]
       }
     },
@@ -29,53 +62,100 @@
       "data": {
         "prompt": "🥔 Kartoffeln kann man auf viele Arten zubereiten. Sortiere die Beilagen.",
         "buckets": [
-          { "id": "fettarm", "label": "Fettarm", "icon": "✅" },
-          { "id": "fettreich", "label": "Fettreich", "icon": "⚠️" }
+          {
+            "id": "fettarm",
+            "label": "Fettarm",
+            "icon": "✅"
+          },
+          {
+            "id": "fettreich",
+            "label": "Fettreich",
+            "icon": "⚠️"
+          }
         ],
         "items": [
-          { "text": "Salzkartoffeln", "bucket": "fettarm" },
-          { "text": "Pellkartoffeln", "bucket": "fettarm" },
-          { "text": "Kartoffelbrei", "bucket": "fettarm" },
-          { "text": "Pommes frites", "bucket": "fettreich" },
-          { "text": "Kroketten", "bucket": "fettreich" },
-          { "text": "Kartoffelpuffer", "bucket": "fettreich" }
+          {
+            "text": "Salzkartoffeln",
+            "bucket": "fettarm"
+          },
+          {
+            "text": "Pellkartoffeln",
+            "bucket": "fettarm"
+          },
+          {
+            "text": "Kartoffelbrei",
+            "bucket": "fettarm"
+          },
+          {
+            "text": "Pommes frites",
+            "bucket": "fettreich"
+          },
+          {
+            "text": "Kroketten",
+            "bucket": "fettreich"
+          },
+          {
+            "text": "Kartoffelpuffer",
+            "bucket": "fettreich"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍟 Wie machst du Pommes fettärmer?",
+        "prompt": "🍟 Du willst Pommes essen, aber mit weniger Fett. Wie bereitest du sie am besten zu?",
         "options": [
-          { "text": "Im Backofen zubereiten.", "correct": true },
-          { "text": "In viel Öl frittieren." },
-          { "text": "In Butter braten." }
+          {
+            "text": "Im Backofen zubereiten.",
+            "correct": true
+          },
+          {
+            "text": "In der Fritteuse in heißem Öl garen."
+          },
+          {
+            "text": "In der Pfanne mit Öl braten."
+          }
         ],
-        "explanation": "Im Backofen brauchst du fast kein Fett. So werden die Pommes fettärmer als beim Frittieren in heißem Öl."
+        "explanation": "Im Backofen brauchst du fast kein Fett. Beim Frittieren und beim Braten saugen die Pommes viel Fett auf. Darum ist der Backofen die fettärmere Wahl."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚠️ Wer viel Fett isst, wird leicht zu dick. Welche Krankheit kann durch Übergewicht entstehen?",
+        "prompt": "⚠️ Wer oft zu viel Fett isst, bekommt leicht Übergewicht. Welche Krankheit kann eine Folge von Übergewicht sein?",
         "options": [
-          { "text": "Die Zuckerkrankheit (Diabetes).", "correct": true },
-          { "text": "Ein Beinbruch." },
-          { "text": "Eine Erkältung." }
+          {
+            "text": "Die Zuckerkrankheit (Diabetes).",
+            "correct": true
+          },
+          {
+            "text": "Löcher in den Zähnen (Karies)."
+          },
+          {
+            "text": "Eine Erkältung."
+          }
         ],
-        "explanation": "Übergewicht kann zur Zuckerkrankheit führen. Sie heißt auch Diabetes. Auch das Herz und der Kreislauf werden dann stärker belastet."
+        "explanation": "Übergewicht kann zur Zuckerkrankheit führen. Sie heißt auch Diabetes. Der Körper regelt den Zucker im Blut dann nicht mehr gut. Karies kommt vom Zucker an den Zähnen, eine Erkältung von Viren. Beide sind keine Folge von Übergewicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❤️ Übergewicht belastet auch das Herz. Was kann eine Folge sein?",
+        "prompt": "❤️ Bei Übergewicht muss das Herz stärker arbeiten. Was kann dabei entstehen?",
         "options": [
-          { "text": "Bluthochdruck.", "correct": true },
-          { "text": "Bessere Augen." },
-          { "text": "Mehr Muskeln." }
+          {
+            "text": "Bluthochdruck.",
+            "correct": true
+          },
+          {
+            "text": "Ein zu niedriger Blutdruck."
+          },
+          {
+            "text": "Ein langsamer Puls."
+          }
         ],
-        "explanation": "Bei Übergewicht muss das Herz stärker arbeiten. Das kann zu Bluthochdruck und anderen Herz-Kreislauf-Problemen führen."
+        "explanation": "Wenn das Herz stärker arbeiten muss, steigt der Druck in den Adern. Das nennt man Bluthochdruck. Der Puls wird dabei eher schneller, nicht langsamer. Das belastet den ganzen Herz-Kreislauf."
       }
     },
     {
@@ -83,9 +163,30 @@
       "data": {
         "prompt": "🔁 Zu jeder fettreichen Kartoffelbeilage gibt es eine fettärmere. Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🍟 Pommes frites" }, "right": { "text": "Salzkartoffeln" } },
-          { "left": { "text": "Kroketten" }, "right": { "text": "Pellkartoffeln" } },
-          { "left": { "text": "Kartoffelpuffer" }, "right": { "text": "Backkartoffeln" } }
+          {
+            "left": {
+              "text": "🍟 Pommes frites"
+            },
+            "right": {
+              "text": "Salzkartoffeln"
+            }
+          },
+          {
+            "left": {
+              "text": "Kroketten"
+            },
+            "right": {
+              "text": "Pellkartoffeln"
+            }
+          },
+          {
+            "left": {
+              "text": "Kartoffelpuffer"
+            },
+            "right": {
+              "text": "Backkartoffeln"
+            }
+          }
         ],
         "memory": false
       }
@@ -93,25 +194,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Welches Lebensmittel hat wenig Fett?",
+        "prompt": "🥗 Du möchtest einen Snack mit wenig Fett. Wofür entscheidest du dich?",
         "options": [
-          { "text": "Ein Apfel.", "correct": true },
-          { "text": "Speck." },
-          { "text": "Sahne." }
+          {
+            "text": "Ein Apfel.",
+            "correct": true
+          },
+          {
+            "text": "Eine Handvoll Nüsse."
+          },
+          {
+            "text": "Ein Stück Käse."
+          }
         ],
-        "explanation": "Ein Apfel enthält kaum Fett. Speck und Sahne dagegen haben sehr viel Fett."
+        "explanation": "Ein Apfel enthält fast kein Fett. Nüsse und Käse sind zwar gesund oder lecker, haben aber viel Fett. Fettarm heißt: wenig Fett. Nicht alles Gesunde ist auch fettarm."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Was ist die fettärmere Wahl zum Abendessen?",
+        "prompt": "✅ Welches Abendessen hat am wenigsten Fett?",
         "options": [
-          { "text": "Salzkartoffeln mit Quark.", "correct": true },
-          { "text": "Pommes mit Mayonnaise." },
-          { "text": "Sahnetorte." }
+          {
+            "text": "Salzkartoffeln mit Quark.",
+            "correct": true
+          },
+          {
+            "text": "Pellkartoffeln mit Kräuterbutter."
+          },
+          {
+            "text": "Bratkartoffeln mit Speck."
+          }
         ],
-        "explanation": "Salzkartoffeln und Quark haben wenig Fett. Pommes, Mayonnaise und Sahnetorte enthalten dagegen sehr viel Fett."
+        "explanation": "Salzkartoffeln und Quark haben beide wenig Fett. Pellkartoffeln sind zwar fettarm, aber die Kräuterbutter bringt viel Fett dazu. Bratkartoffeln mit Speck sind ebenfalls sehr fettreich. Achte immer auf das ganze Gericht, nicht nur auf die Kartoffel."
       }
     }
   ]

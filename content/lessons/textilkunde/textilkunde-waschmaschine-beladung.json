@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚖️ Deine Waschmaschine fasst im Normalprogramm 4.500 g Wäsche. Was bedeutet das?",
+        "prompt": "⚖️ Auf deiner Waschmaschine steht: Füllmenge 4.500 g. Was heißt das genau?",
         "options": [
           { "text": "Du darfst höchstens 4.500 g Wäsche einfüllen.", "correct": true },
-          { "text": "Die Wäsche wird 4.500 Minuten gewaschen." },
-          { "text": "Du brauchst 4.500 g Waschmittel." }
+          { "text": "Du musst immer genau 4.500 g einfüllen, sonst wäscht die Maschine nicht sauber." },
+          { "text": "4.500 g meint die Wäsche im nassen Zustand nach dem Waschen." }
         ],
-        "explanation": "4.500 g ist die Füllmenge. So viel Wäsche darf höchstens hinein. Ist die Maschine zu voll, wird die Wäsche nicht richtig sauber."
+        "explanation": "4.500 g ist die Füllmenge. Die Füllmenge ist das Höchstgewicht für trockene Wäsche. So viel darf höchstens hinein, nicht genau so viel. Ist die Maschine zu voll, wird die Wäsche nicht richtig sauber."
       }
     },
     {
@@ -43,7 +43,7 @@
           { "text": "Frotteetuch (180 g)", "bucket": "leicht" },
           { "text": "Bettbezug (700 g)", "bucket": "schwer" },
           { "text": "Jeans (600 g)", "bucket": "schwer" },
-          { "text": "Hose (400 g)", "bucket": "schwer" }
+          { "text": "Wintermantel (900 g)", "bucket": "schwer" }
         ]
       }
     },
@@ -53,10 +53,10 @@
         "prompt": "🧮 Ein Frotteetuch wiegt 180 g. Wie viele passen in eine Füllung von 4.500 g? (4.500 : 180)",
         "options": [
           { "text": "25 Frotteetücher.", "correct": true },
-          { "text": "18 Frotteetücher." },
-          { "text": "45 Frotteetücher." }
+          { "text": "22 Frotteetücher." },
+          { "text": "30 Frotteetücher." }
         ],
-        "explanation": "Du teilst 4.500 durch 180. Das Ergebnis ist 25. Es passen also 25 Frotteetücher in eine Füllung."
+        "explanation": "Du teilst 4.500 durch 180. Das Ergebnis ist genau 25. 22 wäre zu wenig, 30 zu viel. Es passen also 25 Frotteetücher in eine Füllung."
       }
     },
     {
@@ -65,10 +65,10 @@
         "prompt": "🚿 Ein Duschtuch wiegt 350 g. Wie viele passen ungefähr in eine Füllung von 4.500 g? (4.500 : 350)",
         "options": [
           { "text": "Rund 13 Duschtücher.", "correct": true },
-          { "text": "Rund 10 Duschtücher." },
-          { "text": "Rund 20 Duschtücher." }
+          { "text": "Rund 11 Duschtücher." },
+          { "text": "Rund 15 Duschtücher." }
         ],
-        "explanation": "Du teilst 4.500 durch 350. Das ergibt rund 13. Es passen also etwa 13 Duschtücher in eine Füllung."
+        "explanation": "Du teilst 4.500 durch 350. Das ergibt rund 13. Tipp: Runde beim Rechnen nicht zu grob, sonst kommst du auf 11 oder 15. Es passen also etwa 13 Duschtücher in eine Füllung."
       }
     },
     {
@@ -77,10 +77,10 @@
         "prompt": "👔 Eine Hose wiegt 400 g, ein T-Shirt 200 g. Zusammen sind das 600 g pro Person. Für wie viele Personen reicht eine Füllung von 4.500 g? (4.500 : 600)",
         "options": [
           { "text": "Für 7 Personen.", "correct": true },
-          { "text": "Für 5 Personen." },
-          { "text": "Für 9 Personen." }
+          { "text": "Für 8 Personen." },
+          { "text": "Für 6 Personen." }
         ],
-        "explanation": "600 g braucht eine Person. Du teilst 4.500 durch 600 und erhältst 7,5. Für 7 Personen passt die Kleidung komplett hinein."
+        "explanation": "600 g braucht eine Person. Du teilst 4.500 durch 600 und erhältst 7,5. Die Wäsche muss aber komplett passen. Darum rundest du ab: Für 7 Personen passt die Kleidung ganz hinein. Für 8 wäre es schon zu viel."
       }
     },
     {
@@ -89,10 +89,10 @@
         "prompt": "🛏️ Ein Bett-Set wiegt: Bettlaken 500 g + Bettbezug 700 g + Kissenbezug 180 g = 1.380 g. Für wie viele Gäste-Betten reicht eine Füllung? (4.500 : 1.380)",
         "options": [
           { "text": "Für 3 Betten.", "correct": true },
-          { "text": "Für 5 Betten." },
-          { "text": "Für 1 Bett." }
+          { "text": "Für 4 Betten." },
+          { "text": "Für 2 Betten." }
         ],
-        "explanation": "Ein Set wiegt 1.380 g. Du teilst 4.500 durch 1.380 und erhältst rund 3,2. Für 3 komplette Betten reicht eine Füllung."
+        "explanation": "Ein Set wiegt 1.380 g. Du teilst 4.500 durch 1.380 und erhältst rund 3,2. Du rundest ab, weil ein Set komplett passen muss. Für 3 komplette Betten reicht eine Füllung. Für 4 wäre die Maschine zu voll."
       }
     },
     {
@@ -102,21 +102,21 @@
         "options": [
           { "text": "3.040 g.", "correct": true },
           { "text": "1.600 g." },
-          { "text": "4.500 g." }
+          { "text": "1.440 g." }
         ],
-        "explanation": "4 Tischdecken sind 4 mal 400 g = 1.600 g. 24 Servietten sind 24 mal 60 g = 1.440 g. Zusammen sind das 3.040 g."
+        "explanation": "Du musst beide Gruppen zusammenzählen. 4 Tischdecken sind 4 mal 400 g = 1.600 g. 24 Servietten sind 24 mal 60 g = 1.440 g. Zusammen sind das 3.040 g. Wer nur eine Gruppe rechnet, landet bei 1.600 g oder 1.440 g."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Eine Serviette wiegt 60 g. Wie schwer ist ein Geschirrtuch?",
+        "prompt": "✅ Ein Geschirrtuch ist etwas schwerer als eine Serviette (60 g), aber leichter als ein Frotteetuch (180 g). Wie schwer ist ein Geschirrtuch?",
         "options": [
           { "text": "100 g.", "correct": true },
-          { "text": "700 g." },
-          { "text": "500 g." }
+          { "text": "50 g." },
+          { "text": "200 g." }
         ],
-        "explanation": "Ein Geschirrtuch wiegt 100 g. Es ist etwas schwerer als eine Serviette, aber immer noch leicht."
+        "explanation": "Ein Geschirrtuch wiegt 100 g. Das passt genau in den Bereich: schwerer als die Serviette mit 60 g und leichter als das Frotteetuch mit 180 g. 50 g wäre leichter als die Serviette, 200 g schwerer als das Frotteetuch."
       }
     }
   ]

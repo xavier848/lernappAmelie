@@ -2,6 +2,7 @@
   "topic_slug": "kinder-motorik",
   "slug": "kinder-motorik-vom-liegen-zum-laufen",
   "title": "Vom Liegen zum Laufen",
+  "intro": "👶 Ein Baby lernt das Bewegen in einer festen Reihenfolge. Am Anfang liegt es auf dem Bauch. Diese Lage heißt Bauchlage. In der Bauchlage hebt das Baby den Kopf. Dabei werden Nacken und Rücken stark. Diese Muskeln braucht das Baby später zum Krabbeln. Beim Robben liegt das Baby noch auf dem Bauch. Beim Krabbeln stützt es sich auf Hände und Knie. Danach lernt das Kind sitzen, stehen und laufen.",
   "sort": 1,
   "exercises": [
     {
@@ -9,12 +10,24 @@
       "data": {
         "prompt": "👶 Wie lernt ein Baby sich zu bewegen? Teil 1: Vom Liegen zum Krabbeln. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🛏️ Bauchlage: Das Baby liegt auf dem Bauch." },
-          { "text": "👶 Das Baby hebt den Kopf." },
-          { "text": "💪 Das Baby stützt sich auf die Arme." },
-          { "text": "🔄 Das Baby rollt sich vom Bauch auf den Rücken." },
-          { "text": "🐛 Das Baby robbt auf dem Bauch nach vorne." },
-          { "text": "🐻 Das Baby krabbelt auf Händen und Knien." }
+          {
+            "text": "🛏️ Bauchlage: Das Baby liegt auf dem Bauch."
+          },
+          {
+            "text": "👶 Das Baby hebt den Kopf."
+          },
+          {
+            "text": "💪 Das Baby stützt sich auf die Arme."
+          },
+          {
+            "text": "🔄 Das Baby rollt sich vom Bauch auf den Rücken."
+          },
+          {
+            "text": "🐛 Das Baby robbt auf dem Bauch nach vorne."
+          },
+          {
+            "text": "🐻 Das Baby krabbelt auf Händen und Knien."
+          }
         ]
       }
     },
@@ -23,24 +36,44 @@
       "data": {
         "prompt": "🚶 Teil 2: Vom Sitzen zum Balancieren. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🪑 Das Kind sitzt alleine." },
-          { "text": "🙌 Das Kind zieht sich an Möbeln hoch." },
-          { "text": "🧍 Das Kind steht alleine." },
-          { "text": "🚶 Das Kind läuft die ersten Schritte." },
-          { "text": "🏃 Das Kind rennt." },
-          { "text": "🤸 Das Kind hüpft und balanciert." }
+          {
+            "text": "🪑 Das Kind sitzt alleine."
+          },
+          {
+            "text": "🙌 Das Kind zieht sich an Möbeln hoch."
+          },
+          {
+            "text": "🧍 Das Kind steht alleine."
+          },
+          {
+            "text": "🚶 Das Kind läuft die ersten Schritte."
+          },
+          {
+            "text": "🏃 Das Kind rennt."
+          },
+          {
+            "text": "🤸 Das Kind hüpft und balanciert."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Was kommt zuerst: Krabbeln oder Laufen?",
+        "prompt": "🐻 Ein Baby bewegt sich auf Händen und Knien nach vorne. Wie nennt man diese Bewegung?",
         "options": [
-          { "text": "🐻 Krabbeln", "correct": true },
-          { "text": "🚶 Laufen" }
+          {
+            "text": "🐻 Krabbeln",
+            "correct": true
+          },
+          {
+            "text": "🐛 Robben"
+          },
+          {
+            "text": "🚶 Laufen"
+          }
         ],
-        "explanation": "Zuerst krabbelt das Baby. Erst später lernt es zu laufen."
+        "explanation": "Krabbeln heißt: sich auf Händen und Knien fortbewegen. Beim Robben liegt das Baby noch auf dem Bauch. Das Robben kommt vor dem Krabbeln. Erst danach lernt das Baby das Laufen."
       }
     },
     {
@@ -48,11 +81,18 @@
       "data": {
         "prompt": "🛏️ Warum ist die Bauchlage für ein Baby wichtig?",
         "options": [
-          { "text": "💪 Das Baby übt den Kopf zu heben. Die Muskeln werden stark.", "correct": true },
-          { "text": "😴 Das Baby schläft dabei besser." },
-          { "text": "🍼 Das Baby trinkt dabei besser." }
+          {
+            "text": "💪 Das Baby übt den Kopf zu heben. Die Muskeln werden stark.",
+            "correct": true
+          },
+          {
+            "text": "🦵 Die Beinmuskeln werden stark, damit das Baby gleich danach stehen kann."
+          },
+          {
+            "text": "🪑 In der Bauchlage lernt das Baby schon, alleine zu sitzen."
+          }
         ],
-        "explanation": "In der Bauchlage übt das Baby den Kopf zu heben. So werden Nacken und Rücken stark. Das braucht es später zum Krabbeln."
+        "explanation": "In der Bauchlage übt das Baby den Kopf zu heben. So werden vor allem Nacken und Rücken stark. Diese Muskeln braucht es später zum Krabbeln. Stehen und Sitzen kommen erst viel später."
       }
     },
     {
@@ -60,41 +100,81 @@
       "data": {
         "prompt": "🧸 Was kann ein Baby am Anfang? Was kommt erst später? Sortiere.",
         "buckets": [
-          { "id": "anfang", "label": "Am Anfang", "icon": "👶" },
-          { "id": "spaeter", "label": "Erst später", "icon": "🧒" }
+          {
+            "id": "anfang",
+            "label": "Am Anfang",
+            "icon": "👶"
+          },
+          {
+            "id": "spaeter",
+            "label": "Erst später",
+            "icon": "🧒"
+          }
         ],
         "items": [
-          { "text": "Auf dem Bauch liegen", "bucket": "anfang" },
-          { "text": "Den Kopf heben", "bucket": "anfang" },
-          { "text": "Sich auf den Rücken rollen", "bucket": "spaeter" },
-          { "text": "Rennen", "bucket": "spaeter" },
-          { "text": "Hüpfen", "bucket": "spaeter" },
-          { "text": "Balancieren", "bucket": "spaeter" }
+          {
+            "text": "Auf dem Bauch liegen",
+            "bucket": "anfang"
+          },
+          {
+            "text": "Den Kopf heben",
+            "bucket": "anfang"
+          },
+          {
+            "text": "Sich auf den Rücken rollen",
+            "bucket": "spaeter"
+          },
+          {
+            "text": "Rennen",
+            "bucket": "spaeter"
+          },
+          {
+            "text": "Hüpfen",
+            "bucket": "spaeter"
+          },
+          {
+            "text": "Balancieren",
+            "bucket": "spaeter"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧍 Was kommt direkt vor dem Laufen?",
+        "prompt": "🧍 Ein Kind zieht sich an Möbeln hoch und steht schon kurz alleine. Was kommt direkt vor dem Laufen?",
         "options": [
-          { "text": "🧍 Stehen", "correct": true },
-          { "text": "🏃 Rennen" },
-          { "text": "🤸 Balancieren" }
+          {
+            "text": "🧍 Stehen",
+            "correct": true
+          },
+          {
+            "text": "🙌 Sich an Möbeln hochziehen"
+          },
+          {
+            "text": "🪑 Alleine sitzen"
+          }
         ],
-        "explanation": "Erst steht das Kind sicher. Dann macht es die ersten Schritte."
+        "explanation": "Die Reihenfolge ist: alleine sitzen, sich hochziehen, stehen, laufen. Sitzen und Hochziehen kommen also früher. Direkt vor dem Laufen steht das Kind erst sicher alleine. Dann macht es die ersten Schritte."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Was lernt ein Baby zuerst?",
+        "prompt": "🌟 Alle drei sind frühe Bewegungen. Welche lernt ein Baby als Allererstes?",
         "options": [
-          { "text": "🛏️ Liegen und den Kopf heben", "correct": true },
-          { "text": "🚴 Fahrrad fahren" },
-          { "text": "🤸 Seil springen" }
+          {
+            "text": "🛏️ Liegen und den Kopf heben",
+            "correct": true
+          },
+          {
+            "text": "🔄 Sich vom Bauch auf den Rücken rollen"
+          },
+          {
+            "text": "🪑 Alleine sitzen"
+          }
         ],
-        "explanation": "Alles beginnt mit dem Liegen. Schritt für Schritt lernt das Baby mehr."
+        "explanation": "Alles beginnt mit dem Liegen. In der Bauchlage hebt das Baby zuerst den Kopf. Das Rollen und das Sitzen lernt es erst danach. Schritt für Schritt lernt das Baby mehr."
       }
     }
   ]

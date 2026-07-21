@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "☀️ Die Sonne scheint direkt auf das Fenster. Putzt du es jetzt?",
+        "prompt": "☀️ Die pralle Sonne scheint direkt auf die Scheibe. Fängst du jetzt mit dem Putzen an?",
         "options": [
           { "text": "Nein. Ich putze zuerst ein Fenster ohne Sonne.", "correct": true },
-          { "text": "Ja. Bei Sonne sieht man besser." },
-          { "text": "Fenster putzt man nur nachts." }
+          { "text": "Ja, sofort. Bei Sonnenlicht sehe ich jeden Fleck viel besser." },
+          { "text": "Ja. Die Sonnenwärme trocknet das Glas schneller und spart Zeit." }
         ],
-        "explanation": "In der prallen Sonne trocknet der Reiniger zu schnell. Dann entstehen Streifen. Ohne direkte Sonne wird das Glas schöner."
+        "explanation": "In der prallen Sonne trocknet der Reiniger zu schnell. Dann entstehen Schlieren – das sind trockene Streifen auf dem Glas. Im Schatten trocknet es langsamer und wird streifenfrei."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🖼️ Was putzt du zuerst: den Rahmen oder die Glasscheibe?",
+        "prompt": "🖼️ Rahmen, Fensterbank und Glasscheibe sind alle schmutzig. Womit fängst du an?",
         "options": [
           { "text": "Zuerst den Rahmen und die Fensterbank.", "correct": true },
-          { "text": "Zuerst die Glasscheibe." },
-          { "text": "Nur die Scheibe. Der Rahmen ist egal." }
+          { "text": "Zuerst die Scheibe – die ist am wichtigsten, der Rahmen kann warten." },
+          { "text": "Egal in welcher Reihenfolge, Hauptsache am Ende ist alles sauber." }
         ],
-        "explanation": "Am Rahmen sitzt der grobe Schmutz. Putzt du erst das Glas, machst du es beim Rahmen-Putzen wieder schmutzig."
+        "explanation": "Am Rahmen und auf der Fensterbank sitzt der grobe Schmutz. Putzt du erst das Glas, wischst du diesen Schmutz danach wieder auf die saubere Scheibe. Deshalb gilt: von grob nach fein."
       }
     },
     {
@@ -44,13 +44,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⬇️ Warum wischst du die Scheibe von oben nach unten?",
+        "prompt": "⬇️ Du sprühst Reiniger auf die Scheibe. Warum wischst du von oben nach unten?",
         "options": [
           { "text": "Der Reiniger läuft nach unten. So wische ich nichts doppelt.", "correct": true },
-          { "text": "Von unten nach oben ist verboten." },
-          { "text": "Die Richtung ist egal." }
+          { "text": "Damit die Tropfen nach oben laufen und dort schneller trocknen." },
+          { "text": "Die Richtung ist egal – oben und unten trocknen gleich schnell." }
         ],
-        "explanation": "Wie beim Staubwischen gilt auch am Fenster: immer von oben nach unten arbeiten."
+        "explanation": "Der Reiniger läuft durch die Schwerkraft nach unten – also von selbst zum Boden. Wischst du von oben nach unten, nimmst du die Tropfen gleich mit und musst nichts doppelt machen. Genau wie beim Staubwischen."
       }
     },
     {
@@ -74,13 +74,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😤 Nach dem Putzen siehst du Streifen auf dem Glas. Was hilft?",
+        "prompt": "😤 Du bist fertig, aber im Gegenlicht siehst du noch Schlieren auf dem Glas. Was hilft?",
         "options": [
           { "text": "Mit einem trockenen Mikrofasertuch nachpolieren.", "correct": true },
-          { "text": "Noch viel mehr Reiniger aufsprühen." },
-          { "text": "Die Streifen bleiben für immer." }
+          { "text": "Noch mehr Reiniger aufsprühen und feucht darüberwischen." },
+          { "text": "Mit einem nassen Tuch kräftig darüberreiben." }
         ],
-        "explanation": "Trocken nachpolieren nimmt die letzten Schlieren weg. Und merke: Weniger Reiniger ist oft mehr!"
+        "explanation": "Schlieren sind trockene Streifen vom Reiniger. Trockenes Nachpolieren nimmt sie weg. Mehr Reiniger oder ein nasses Tuch machen nur neue Schlieren – weniger ist hier oft mehr."
       }
     },
     {
@@ -99,25 +99,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📺 Der Fernseher hat auch eine glatte Fläche. Putzt du ihn mit Glasreiniger?",
+        "prompt": "📺 Der Fernseher hat eine glatte Fläche wie ein Fenster. Nimmst du dafür auch Glasreiniger?",
         "options": [
           { "text": "Nein! Der Bildschirm ist empfindlich. Nur ein trockenes, weiches Tuch.", "correct": true },
-          { "text": "Ja. Glas ist Glas." },
-          { "text": "Ich sprühe den Reiniger direkt auf den Bildschirm." }
+          { "text": "Ja, aber nur wenig Reiniger und dann sofort trocken nachwischen." },
+          { "text": "Ich nehme ein feuchtes Tuch mit etwas Wasser." }
         ],
-        "explanation": "Ein Bildschirm ist kein Fensterglas. Reiniger und Nässe können ihn beschädigen. Trockenes Tuch reicht völlig."
+        "explanation": "Ein Bildschirm ist kein Fensterglas – er hat eine empfindliche Beschichtung. Reiniger und Nässe können sie beschädigen. Ein trockenes, weiches Mikrofasertuch reicht völlig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Womit machst du das Glas am Ende streifenfrei?",
+        "prompt": "🌟 Letzte Frage: Die Scheibe ist noch leicht feucht. Womit machst du sie zum Schluss streifenfrei?",
         "options": [
           { "text": "Mit einem trockenen Mikrofasertuch.", "correct": true },
-          { "text": "Mit einem nassen Schwamm." },
-          { "text": "Mit den Fingern." }
+          { "text": "Mit einem feuchten Tuch noch einmal darüber." },
+          { "text": "Mit einem Papiertaschentuch." }
         ],
-        "explanation": "Trocken nachpolieren, und das Fenster glänzt."
+        "explanation": "Ein trockenes Mikrofasertuch nimmt die letzte Feuchtigkeit auf und poliert das Glas fusselfrei. Ein feuchtes Tuch oder ein Papiertaschentuch hinterlässt neue Streifen oder Fusseln."
       }
     }
   ]

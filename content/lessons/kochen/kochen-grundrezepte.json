@@ -20,13 +20,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Aus dem gleichen Grundrezept wird Suppe oder Soße. Was ist der Unterschied?",
+        "prompt": "🥣 Du hast eine helle Grundsuppe gekocht. Daraus willst du jetzt eine Soße machen. Was änderst du?",
         "options": [
           { "text": "Für die Soße nimmst du weniger Flüssigkeit. Dann wird sie dicker.", "correct": true },
           { "text": "Für die Soße nimmst du mehr Flüssigkeit. Dann wird sie dünner." },
-          { "text": "Es gibt gar keinen Unterschied." }
+          { "text": "Für die Soße rührst du mehr Mehl ein und lässt die Flüssigkeit gleich." }
         ],
-        "explanation": "Suppe und Soße starten gleich. Für die Soße nimmst du nur die halbe Flüssigkeit. So wird sie schön dick."
+        "explanation": "Suppe und Soße starten mit der gleichen Mehlschwitze. Das ist Fett mit kurz angeschwitztem Mehl. Für die Soße nimmst du nur die halbe Flüssigkeit. So wird sie schön dick."
       }
     },
     {
@@ -44,25 +44,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥛 Welche Flüssigkeit kannst du für die Grundsuppe nehmen?",
+        "prompt": "🥛 Deine Grundsuppe soll kräftig schmecken, nicht fad. Womit gießt du sie an?",
         "options": [
           { "text": "Milch, Brühe oder auch etwas Wein.", "correct": true },
-          { "text": "Nur ganz normales Leitungswasser." },
-          { "text": "Nur kalte Limonade." }
+          { "text": "Nur mit klarem Wasser, sonst wird die Suppe zu kräftig." },
+          { "text": "Nur mit purer Sahne, damit sie schön cremig wird." }
         ],
-        "explanation": "Du hast die Wahl. Milch, Brühe, Spargelwasser oder Wein geben der Suppe Geschmack. So schmeckt sie nicht langweilig."
+        "explanation": "Angießen heißt: die Flüssigkeit dazugeben. Du hast die Wahl. Milch, Brühe, Spargelwasser oder Wein geben der Suppe Geschmack. So schmeckt sie nicht langweilig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Wann machst du das Salat-Dressing fertig?",
+        "prompt": "🥗 Du machst einen Blattsalat. Wann rührst du das Dressing an?",
         "options": [
           { "text": "Zuerst, bevor du den Salat mischst.", "correct": true },
-          { "text": "Immer erst ganz am Schluss, kurz vor dem Essen." },
-          { "text": "Am besten schon einen Tag vorher." }
+          { "text": "Erst am Schluss über den fertig angemachten Salat gießen." },
+          { "text": "Bei gekochten Salaten das Dressing erst kalt zum Schluss dazugeben." }
         ],
-        "explanation": "Das Dressing wird zuerst gemacht. Dann kann es durchziehen. Nur bei gekochten Salaten ist es umgekehrt: Die kommen noch warm ins Dressing."
+        "explanation": "Das Dressing wird zuerst gemacht. Dann kann es durchziehen. Durchziehen heißt: Die Zutaten geben Geschmack ans Dressing ab. Nur bei gekochten Salaten ist es umgekehrt: Die kommen noch warm ins Dressing."
       }
     },
     {
@@ -94,13 +94,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥩 Hackfleisch ist heikel. Wie gehst du richtig damit um?",
+        "prompt": "🥩 Hackfleisch ist ein leicht verderbliches Lebensmittel. Wie gehst du richtig damit um?",
         "options": [
           { "text": "Schnell verarbeiten. Wenn es warten muss: abgedeckt in den Kühlschrank.", "correct": true },
-          { "text": "Es kann stundenlang warm auf der Arbeitsfläche stehen." },
-          { "text": "Man kann es ruhig einen Tag offen liegen lassen." }
+          { "text": "Kurz zimmerwarm ruhen lassen, dann lässt es sich besser würzen." },
+          { "text": "Offen in den Kühlschrank stellen, damit Luft rankommt." }
         ],
-        "explanation": "Hackfleisch hat viele kleine Flächen. Dort wachsen schnell Keime. Darum: zügig verarbeiten und sonst kühl und abgedeckt lagern."
+        "explanation": "Leicht verderblich heißt: Es wird schnell schlecht. Hackfleisch hat viele kleine Flächen. Dort wachsen schnell Keime. Darum: zügig verarbeiten und sonst kühl und abgedeckt lagern."
       }
     },
     {
@@ -124,13 +124,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍔 Zum Schluss: Wie brätst du Frikadellen in der Pfanne?",
+        "prompt": "🍔 Zum Schluss brätst du die Frikadellen. Was ist wichtig, damit sie sicher zu essen sind?",
         "options": [
           { "text": "Von beiden Seiten braten, bis sie durch sind.", "correct": true },
-          { "text": "Nur ganz kurz von einer Seite." },
-          { "text": "Gar nicht braten, einfach roh essen." }
+          { "text": "Außen bei starker Hitze schnell dunkel braten, innen darf es rosa bleiben." },
+          { "text": "Nur von einer Seite anbraten und dann zugedeckt fertig ziehen lassen." }
         ],
-        "explanation": "Frikadellen brätst du von beiden Seiten. So werden sie überall gar und bekommen eine schöne Kruste. Rohes Hackfleisch solltest du nicht essen."
+        "explanation": "Frikadellen musst du durchgaren. Durchgaren heißt: innen darf nichts mehr roh und rosa sein. Darum brätst du sie von beiden Seiten. So werden sie überall gar und bekommen eine schöne Kruste. Rohes Hackfleisch solltest du nicht essen."
       }
     }
   ]

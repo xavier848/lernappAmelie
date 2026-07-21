@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📒 In einem Haushaltsbuch schreibst du etwas auf. Was?",
+        "prompt": "📒 Du führst ein Haushaltsbuch. Was schreibst du hinein?",
         "options": [
           { "text": "Alle Einnahmen und Ausgaben.", "correct": true },
-          { "text": "Nur die Telefonnummern." },
-          { "text": "Nur die Geburtstage." }
+          { "text": "Nur die großen Ausgaben ab 100 Euro." },
+          { "text": "Nur die Einnahmen, nicht die Ausgaben." }
         ],
-        "explanation": "Im Haushaltsbuch notierst du, welches Geld hereinkommt und welches Geld du ausgibst. So behältst du den Überblick."
+        "explanation": "Einnahmen ist das Geld, das hereinkommt. Ausgaben ist das Geld, das du bezahlst. Du schreibst beides auf. Auch kleine Beträge. So behältst du den Überblick."
       }
     },
     {
@@ -79,10 +79,10 @@
         "prompt": "💡 Warum ist ein Haushaltsbuch nützlich?",
         "options": [
           { "text": "Du siehst, wofür du dein Geld ausgibst und wo du sparen kannst.", "correct": true },
-          { "text": "Du bekommst automatisch mehr Gehalt." },
-          { "text": "Du musst keine Miete mehr zahlen." }
+          { "text": "Deine Ausgaben werden dadurch von allein weniger." },
+          { "text": "Die Bank überweist dir das ausgegebene Geld zurück." }
         ],
-        "explanation": "Mit dem Haushaltsbuch erkennst du, wofür viel Geld weggeht. So kannst du besser einteilen und machst nicht so leicht Schulden."
+        "explanation": "Ein Haushaltsbuch zeigt dir, wofür viel Geld weggeht. Das Geld wird nicht von allein weniger. Aber du erkennst, wo du sparen kannst. So machst du nicht so leicht Schulden."
       }
     },
     {
@@ -107,13 +107,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Zu welcher Gruppe gehört das Benzin fürs Auto?",
+        "prompt": "✅ Du trägst das Benzin fürs Auto ein. In welche Ausgabengruppe gehört es?",
         "options": [
           { "text": "Verkehr und Post.", "correct": true },
-          { "text": "Lebensmittel." },
-          { "text": "Bekleidung." }
+          { "text": "Sonstiges." },
+          { "text": "Freizeit und Bildung." }
         ],
-        "explanation": "Benzin brauchst du für das Auto. Alles rund ums Fahren gehört zur Gruppe Verkehr und Post."
+        "explanation": "Eine Ausgabengruppe fasst ähnliche Ausgaben zusammen. Benzin brauchst du fürs Fahren. Alles rund ums Auto und Fahren gehört zu Verkehr und Post. Nicht zu Sonstiges."
       }
     }
   ]

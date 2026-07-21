@@ -19,13 +19,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍗 Warum brätst du das Fleisch zuerst an?",
+        "prompt": "🍗 Warum kommt das Fleisch im Zeitplan an die erste Stelle?",
         "options": [
           { "text": "Weil es am längsten braucht.", "correct": true },
-          { "text": "Weil es am schnellsten fertig ist." },
-          { "text": "Weil es kalt bleiben muss." }
+          { "text": "Weil das Fleisch danach nur noch ganz kurz garen muss." },
+          { "text": "Weil die Zwiebeln erst nach dem Garen dazukommen." }
         ],
-        "explanation": "Das Fleisch hat die längste Garzeit. Darum fängst du damit an, damit am Ende alles zusammen fertig ist."
+        "explanation": "Das Fleisch hat die längste Garzeit. Die Garzeit ist die Zeit, die etwas zum Kochen im Topf braucht. Weil sie am längsten ist, fängst du damit an. So ist am Ende alles zusammen fertig."
       }
     },
     {
@@ -34,10 +34,10 @@
         "prompt": "⏲️ Wie lange muss der Eintopf garen?",
         "options": [
           { "text": "Etwa 50 Minuten.", "correct": true },
-          { "text": "Nur 5 Minuten." },
-          { "text": "Etwa 3 Stunden." }
+          { "text": "Etwa 15 Minuten." },
+          { "text": "Etwa 90 Minuten." }
         ],
-        "explanation": "Der Eintopf gart rund 50 Minuten. In dieser Zeit kannst du gut andere Arbeiten erledigen."
+        "explanation": "Der Eintopf hat eine Garzeit von rund 50 Minuten. Diese Zeit kannst du gut für andere Arbeiten nutzen."
       }
     },
     {
@@ -73,13 +73,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏳ Was machst du klug, während der Eintopf 50 Minuten gart?",
+        "prompt": "⏳ Was ist klug, während der Eintopf 50 Minuten gart?",
         "options": [
           { "text": "Andere Arbeiten erledigen, zum Beispiel Möhren schneiden und den Tisch decken.", "correct": true },
-          { "text": "Nur danebenstehen und warten." },
-          { "text": "Den Herd ausschalten und Pause machen." }
+          { "text": "Erst warten, bis der Eintopf fertig ist, und dann die Möhren schneiden und den Tisch decken." },
+          { "text": "Am Herd stehen bleiben und den Eintopf die ganze Zeit umrühren." }
         ],
-        "explanation": "Die Wartezeit nutzt du für andere Arbeiten. So sparst du Zeit und alles wird zusammen fertig."
+        "explanation": "Du arbeitest parallel. Parallel heißt: Du machst mehrere Dinge in der gleichen Zeit. So nutzt du die Garzeit und alles wird zusammen fertig."
       }
     },
     {
@@ -88,10 +88,10 @@
         "prompt": "🍮 Wann rührst du die Quarkspeise (den Nachtisch) an?",
         "options": [
           { "text": "In der Wartezeit, während der Eintopf gart.", "correct": true },
-          { "text": "Ganz zuerst, bevor du das Fleisch schneidest." },
-          { "text": "Erst nach dem Essen." }
+          { "text": "Ganz zuerst, noch bevor du das Fleisch anbrätst." },
+          { "text": "Erst ganz zum Schluss, kurz bevor du servierst." }
         ],
-        "explanation": "Den Nachtisch machst du in der Wartezeit. Der Eintopf gart ja allein im Topf weiter."
+        "explanation": "Den Nachtisch machst du in der Wartezeit. Der Eintopf gart allein im Topf weiter. So gerätst du am Schluss nicht in Stress."
       }
     },
     {
@@ -100,10 +100,10 @@
         "prompt": "🕒 Wie lange dauert die ganze Zubereitung ungefähr?",
         "options": [
           { "text": "Etwa 2 Stunden (rund 130 Minuten).", "correct": true },
-          { "text": "Nur etwa 10 Minuten." },
-          { "text": "Einen ganzen Tag." }
+          { "text": "Etwa 50 Minuten, so lange wie die Garzeit." },
+          { "text": "Etwa 4 Stunden." }
         ],
-        "explanation": "Vom Schneiden bis zum Anrichten brauchst du ungefähr 2 Stunden, also rund 130 Minuten."
+        "explanation": "Die ganze Zubereitung dauert länger als die Garzeit allein. Vom Schneiden bis zum Anrichten sind es ungefähr 2 Stunden, also rund 130 Minuten."
       }
     },
     {
@@ -112,10 +112,10 @@
         "prompt": "🤔 Ist es schlau, in der Garzeit einfach nur zu warten?",
         "options": [
           { "text": "Nein, in der Wartezeit erledigst du andere Arbeiten.", "correct": true },
-          { "text": "Ja, warten ist am besten." },
-          { "text": "Ja, man darf die Küche nicht verlassen." }
+          { "text": "Ja, beim Kochen macht man immer nur eine Sache nach der anderen." },
+          { "text": "Ja, man muss die ganze Zeit am Herd aufpassen." }
         ],
-        "explanation": "Nur warten wäre Zeitverschwendung. Ein guter Zeitplan nutzt die Garzeit für andere Aufgaben."
+        "explanation": "Nur warten wäre Zeitverschwendung. Ein guter Zeitplan nutzt die Garzeit für andere Aufgaben. Du kannst in der Nähe bleiben und trotzdem etwas schaffen."
       }
     }
   ]

@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-haltbarmachen",
   "title": "Einfrieren & Haltbarmachen",
+  "intro": "❄️ Einfrieren ist eine Möglichkeit, Lebensmittel haltbar zu machen. Fachleute sagen dazu konservieren. Durch die Kälte bleibt Essen lange gut. Die Kälte hält aber nur die Qualität, die schon da ist. Altes oder schlechtes Essen wird nicht wieder frisch. Deshalb frierst du nur frische Ware ein. Wichtig ist außerdem eine luftdichte Verpackung. Sonst entzieht die trockene, kalte Luft dem Essen Wasser. Dann bekommt es Gefrierbrand. Eine Beschriftung mit Inhalt und Datum hilft dir, den Überblick zu behalten.",
   "sort": 130,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "❄️ Wozu frierst du Obst und Gemüse ein?",
+        "prompt": "❄️ Wozu frierst du frisches Obst und Gemüse ein?",
         "options": [
-          { "text": "Damit es lange haltbar bleibt und du es das ganze Jahr hast.", "correct": true },
-          { "text": "Damit es süßer wird." },
-          { "text": "Damit es schneller schlecht wird." }
+          {
+            "text": "Damit es lange haltbar bleibt und du es das ganze Jahr hast.",
+            "correct": true
+          },
+          {
+            "text": "Damit altes Obst durch die Kälte wieder frisch wird."
+          },
+          {
+            "text": "Damit das Obst im Gefrierschrank noch nachreift und süßer wird."
+          }
         ],
-        "explanation": "Durch die Kälte bleibt das Essen lange gut. So kannst du zum Beispiel Erdbeeren aus dem Sommer auch im Winter genießen."
+        "explanation": "Einfrieren ist eine Art, Essen haltbar zu machen. Fachleute sagen dazu konservieren. Durch die Kälte bleibt das Essen lange gut. So kannst du Erdbeeren aus dem Sommer auch im Winter essen."
       }
     },
     {
@@ -21,11 +29,21 @@
       "data": {
         "prompt": "🍓 Du frierst Erdbeeren ein. Bringe die Arbeitsschritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Nur frische Erdbeeren aussuchen." },
-          { "text": "Die Erdbeeren ohne Zucker vorbereiten." },
-          { "text": "Die Erdbeeren einzeln auf einem Tablett vorfrieren." },
-          { "text": "Die Erdbeeren luftdicht verpacken." },
-          { "text": "Inhalt und Datum auf die Verpackung schreiben." }
+          {
+            "text": "Nur frische Erdbeeren aussuchen."
+          },
+          {
+            "text": "Die Erdbeeren ohne Zucker vorbereiten."
+          },
+          {
+            "text": "Die Erdbeeren einzeln auf einem Tablett vorfrieren."
+          },
+          {
+            "text": "Die Erdbeeren luftdicht verpacken."
+          },
+          {
+            "text": "Inhalt und Datum auf die Verpackung schreiben."
+          }
         ]
       }
     },
@@ -34,11 +52,46 @@
       "data": {
         "prompt": "🔗 Warum machst du jeden Schritt? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "Frische Ware nehmen" }, "right": { "text": "gute Qualität bleibt erhalten" } },
-          { "left": { "text": "Ohne Zucker einfrieren" }, "right": { "text": "bleibt länger haltbar" } },
-          { "left": { "text": "Einzeln vorfrieren" }, "right": { "text": "bleibt nach dem Auftauen fester" } },
-          { "left": { "text": "Luftdicht verpacken" }, "right": { "text": "trocknet nicht aus" } },
-          { "left": { "text": "Datum aufschreiben" }, "right": { "text": "du behältst den Überblick" } }
+          {
+            "left": {
+              "text": "Frische Ware nehmen"
+            },
+            "right": {
+              "text": "gute Qualität bleibt erhalten"
+            }
+          },
+          {
+            "left": {
+              "text": "Ohne Zucker einfrieren"
+            },
+            "right": {
+              "text": "bleibt länger haltbar"
+            }
+          },
+          {
+            "left": {
+              "text": "Einzeln vorfrieren"
+            },
+            "right": {
+              "text": "bleibt nach dem Auftauen fester"
+            }
+          },
+          {
+            "left": {
+              "text": "Luftdicht verpacken"
+            },
+            "right": {
+              "text": "trocknet nicht aus"
+            }
+          },
+          {
+            "left": {
+              "text": "Datum aufschreiben"
+            },
+            "right": {
+              "text": "du behältst den Überblick"
+            }
+          }
         ],
         "memory": false
       }
@@ -46,13 +99,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍬 Warum frierst du Erdbeeren möglichst ohne Zucker ein?",
+        "prompt": "🍬 Warum frierst du Erdbeeren am besten ohne Zucker ein?",
         "options": [
-          { "text": "Mit Zucker halten sie nicht so lange.", "correct": true },
-          { "text": "Zucker macht sie giftig." },
-          { "text": "Zucker lässt sie schneller frieren." }
+          {
+            "text": "Mit Zucker halten sie nicht so lange.",
+            "correct": true
+          },
+          {
+            "text": "Zucker lässt die Erdbeeren im Gefrierschrank nachreifen und faulen."
+          },
+          {
+            "text": "Ohne Zucker brauchst du keine luftdichte Verpackung mehr."
+          }
         ],
-        "explanation": "Zucker verkürzt die Lagerzeit. Ohne Zucker bleiben die Erdbeeren länger gut im Gefrierschrank."
+        "explanation": "Zucker verkürzt die Lagerzeit. Lagerzeit heißt: die Zeit, die etwas gut bleibt. Ohne Zucker bleiben die Erdbeeren länger gut im Gefrierschrank."
       }
     },
     {
@@ -60,11 +120,18 @@
       "data": {
         "prompt": "🧊 Warum frierst du wasserreiche Früchte erst einzeln auf einem Tablett vor?",
         "options": [
-          { "text": "So kleben sie nicht zusammen und bleiben nach dem Auftauen fester.", "correct": true },
-          { "text": "So werden sie süßer." },
-          { "text": "So frieren sie gar nicht ein." }
+          {
+            "text": "So kleben sie nicht zusammen und bleiben nach dem Auftauen fester.",
+            "correct": true
+          },
+          {
+            "text": "So bilden sich große Eiskristalle, die die Früchte fester machen."
+          },
+          {
+            "text": "So verlieren die Früchte ihr Wasser und werden dadurch süßer."
+          }
         ],
-        "explanation": "Beim einzelnen Vorfrieren bleiben die Früchte lose. Sie kleben nicht zu einem Klumpen. Und sie bleiben nach dem Auftauen fester."
+        "explanation": "Beim einzelnen Vorfrieren bleiben die Früchte lose. Sie kleben nicht zu einem Klumpen zusammen. Und sie bleiben nach dem Auftauen fester statt matschig."
       }
     },
     {
@@ -72,35 +139,56 @@
       "data": {
         "prompt": "📦 Warum verpackst du das Gefriergut luftdicht?",
         "options": [
-          { "text": "Sonst trocknet es im Gefrierschrank aus.", "correct": true },
-          { "text": "Sonst wird es zu kalt." },
-          { "text": "Sonst schmilzt es sofort." }
+          {
+            "text": "Sonst trocknet es im Gefrierschrank aus.",
+            "correct": true
+          },
+          {
+            "text": "Sonst nimmt das Essen im Gefrierschrank Wasser auf und wird matschig."
+          },
+          {
+            "text": "Sonst gefriert das Essen viel zu langsam durch."
+          }
         ],
-        "explanation": "Ohne luftdichte Verpackung entzieht die kalte Luft dem Essen Wasser. Es trocknet aus. Man nennt das auch Gefrierbrand."
+        "explanation": "Ohne luftdichte Verpackung entzieht die kalte, trockene Luft dem Essen Wasser. Es trocknet aus und bekommt trockene, graue Stellen. Das nennt man Gefrierbrand."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏷️ Warum schreibst du Inhalt und Datum auf die Verpackung?",
+        "prompt": "🏷️ Im Gefrierschrank liegen viele Beutel, die gleich aussehen. Warum schreibst du Inhalt und Datum drauf?",
         "options": [
-          { "text": "So weißt du, was drin ist und wie alt es ist.", "correct": true },
-          { "text": "So friert es schneller." },
-          { "text": "So schmeckt es besser." }
+          {
+            "text": "So weißt du, was drin ist und wie alt es ist.",
+            "correct": true
+          },
+          {
+            "text": "Ohne Beschriftung bekommt das Essen schneller Gefrierbrand."
+          },
+          {
+            "text": "Das Datum sorgt dafür, dass das Essen länger haltbar bleibt."
+          }
         ],
-        "explanation": "Mit Inhalt und Datum behältst du den Überblick. Du erkennst, was zuerst aufgebraucht werden soll. Nichts liegt zu lange."
+        "explanation": "Mit Inhalt und Datum behältst du den Überblick. Du erkennst, was zuerst aufgebraucht werden soll. So liegt nichts zu lange im Gefrierschrank."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥦 Welche Lebensmittel solltest du einfrieren?",
+        "prompt": "🥦 Du möchtest Gemüse einfrieren. Welches nimmst du dafür?",
         "options": [
-          { "text": "Nur frische Ware.", "correct": true },
-          { "text": "Ware, die schon schlecht riecht." },
-          { "text": "Ware, die schon braun ist." }
+          {
+            "text": "Nur frische Ware.",
+            "correct": true
+          },
+          {
+            "text": "Gemüse, das bald abläuft, damit es nicht weggeworfen wird."
+          },
+          {
+            "text": "Gemüse mit ersten braunen Stellen, die man später nicht mehr sieht."
+          }
         ],
-        "explanation": "Einfrieren macht altes Essen nicht wieder frisch. Deshalb frierst du nur frische Ware ein. So bleibt die Qualität gut."
+        "explanation": "Einfrieren macht altes Essen nicht wieder frisch. Die Kälte hält nur die Qualität, die schon da ist. Deshalb frierst du nur frische Ware ein."
       }
     }
   ]

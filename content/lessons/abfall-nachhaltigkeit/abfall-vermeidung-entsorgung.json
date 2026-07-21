@@ -26,25 +26,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "♻️ Was bedeutet das Wort Recycling?",
+        "prompt": "♻️ Was bedeutet Recycling genau?",
         "options": [
           { "text": "Stoffe werden im Kreislauf wieder verwertet.", "correct": true },
-          { "text": "Müll wird einfach verbrannt." },
-          { "text": "Müll wird vergraben." }
+          { "text": "Der Müll wird verbrannt, um Wärme zu gewinnen." },
+          { "text": "Der Müll wird auf einer Deponie gelagert." }
         ],
-        "explanation": "Recycling heißt Wertstoffkreislauf. 're' bedeutet zurück, 'cycle' bedeutet Kreislauf. Aus altem Material wird wieder etwas Neues."
+        "explanation": "Recycling heißt Wertstoffkreislauf. 're' bedeutet zurück, 'cycle' bedeutet Kreislauf. Aus altem Material wird wieder etwas Neues. Verbrennen und Deponieren sind kein Recycling: Dabei wird das Material nicht wieder zu neuem Stoff."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗂️ Was muss passieren, damit Müll recycelt werden kann?",
+        "prompt": "🗂️ Du willst, dass dein Müll recycelt wird. Was musst du dafür tun?",
         "options": [
-          { "text": "Der Müll muss getrennt und sortiert werden.", "correct": true },
-          { "text": "Der Müll muss gemischt werden." },
-          { "text": "Man muss gar nichts tun." }
+          { "text": "Den Müll nach Wertstoffen trennen und sortieren.", "correct": true },
+          { "text": "Allen Müll gemischt in eine Tonne werfen." },
+          { "text": "Alles in den Restmüll werfen, die Anlage sortiert später." }
         ],
-        "explanation": "Nur getrennter Müll kann wiederverwertet werden. Deshalb trennst du Papier, Verpackung, Bio und Restmüll."
+        "explanation": "Nur getrennter Müll kann wiederverwertet werden. Ein Wertstoff ist ein Material, das man wieder brauchen kann, zum Beispiel Papier oder Glas. Restmüll wird nicht mehr sortiert, er wird verbrannt. Deshalb trennst du selbst: Papier, Verpackung, Bio und Restmüll."
       }
     },
     {
@@ -63,13 +63,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛢️ Wozu dient ein Fettabscheider in der Küche?",
+        "prompt": "🛢️ In deiner Küche läuft fettiges Spülwasser ab. Wozu dient dabei der Fettabscheider?",
         "options": [
           { "text": "Er holt Fett und Öl aus dem Abwasser.", "correct": true },
-          { "text": "Er kühlt die Speisen." },
-          { "text": "Er wärmt das Essen." }
+          { "text": "Er fängt die Stärke aus dem Kartoffelwasser auf." },
+          { "text": "Er filtert feste Speisereste vor der Spülmaschine." }
         ],
-        "explanation": "Der Fettabscheider trennt Fett und Öl vom Abwasser. So verstopfen die Rohre nicht. Jede gewerbliche Küche braucht einen."
+        "explanation": "Der Fettabscheider trennt Fett und Öl vom Abwasser. So verstopfen die Rohre nicht. Jede gewerbliche Küche braucht einen. Für Stärke gibt es ein eigenes Gerät: den Stärkeabscheider."
       }
     },
     {
@@ -106,23 +106,23 @@
       "data": {
         "prompt": "🧼 Eine Mülltonne der Küche wurde geleert. Was gilt, bevor sie zurück in die Küche darf?",
         "options": [
-          { "text": "Sie muss zuerst gereinigt werden.", "correct": true },
-          { "text": "Sie darf gleich wieder rein, egal wie schmutzig." },
-          { "text": "Sie bleibt für immer draußen." }
+          { "text": "Sie muss zuerst gründlich gereinigt werden.", "correct": true },
+          { "text": "Sie darf zurück, wenn sie nur von außen sauber aussieht." },
+          { "text": "Sie muss erst einige Stunden an der Luft auslüften." }
         ],
-        "explanation": "Aus Hygiene-Gründen dürfen nur gereinigte Behälter zurück in die Küche. Der Verantwortliche reinigt sie nach dem Leeren."
+        "explanation": "Aus Hygiene-Gründen dürfen nur gereinigte Behälter zurück in die Küche. Hygiene heißt: sauber halten, damit keine Keime ins Essen kommen. Auslüften oder ein sauberer Blick von außen reichen nicht. Der Verantwortliche reinigt die Tonne nach dem Leeren."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛍️ Du kaufst dein Obst lose, ganz ohne Plastik-Verpackung. In welcher Phase vermeidest du hier Müll?",
+        "prompt": "🛍️ Du kaufst dein Obst lose, ganz ohne Plastik-Verpackung. In welcher der drei Phasen vermeidest du hier Müll?",
         "options": [
           { "text": "Beim Einkauf.", "correct": true },
-          { "text": "Bei der Speiseausgabe." },
-          { "text": "Beim Abwaschen." }
+          { "text": "Bei der Zubereitung." },
+          { "text": "Bei der Speiseausgabe." }
         ],
-        "explanation": "Lose einkaufen spart Verpackung. Das ist eine Maßnahme beim Einkauf."
+        "explanation": "Müll vermeiden geht in drei Phasen: beim Einkauf, bei der Zubereitung und bei der Speiseausgabe. Lose einkaufen spart die Verpackung schon im Laden. Das gehört also zur Phase Einkauf."
       }
     }
   ]

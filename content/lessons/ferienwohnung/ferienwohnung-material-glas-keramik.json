@@ -10,10 +10,10 @@
         "prompt": "🥛 Woraus wird Glas gemacht?",
         "options": [
           { "text": "Aus Sand (Quarzsand), Kalk und Soda. Das wird zusammen geschmolzen.", "correct": true },
-          { "text": "Aus flüssigem Kunststoff, der hart wird." },
-          { "text": "Aus fein gemahlenem Stein und Wasser." }
+          { "text": "Aus Ton und Wasser. Das wird geformt und dann gebrannt." },
+          { "text": "Aus Quarzsand und Wasser. Das wird zu einer festen Masse gepresst." }
         ],
-        "explanation": "Glas entsteht aus Quarzsand, Kalk und Soda. Diese Stoffe werden bei großer Hitze geschmolzen. Beim Abkühlen wird die Masse zu festem Glas."
+        "explanation": "Glas entsteht aus Quarzsand, Kalk und Soda. Diese Stoffe werden bei großer Hitze geschmolzen. Beim Abkühlen wird die Masse zu festem Glas. Aus Ton und Wasser wird dagegen Keramik – die wird nicht geschmolzen, sondern gebrannt."
       }
     },
     {
@@ -38,10 +38,10 @@
         "prompt": "🔥 Wie heiß muss es sein, damit Glas geschmolzen wird?",
         "options": [
           { "text": "Sehr heiß: etwa 1200 bis 1500 °C.", "correct": true },
-          { "text": "Etwa 100 °C, so heiß wie kochendes Wasser." },
-          { "text": "Etwa 300 °C, so heiß wie ein Backofen." }
+          { "text": "Etwa 500 °C, so heiß wie eine Herdplatte auf höchster Stufe." },
+          { "text": "Etwa 800 °C, dann glüht das Glas schon rot." }
         ],
-        "explanation": "Zum Schmelzen braucht Glas rund 1200 bis 1500 °C. Das ist viel heißer als ein Backofen. Erst bei so großer Hitze werden Sand, Kalk und Soda flüssig."
+        "explanation": "Zum Schmelzen braucht Glas rund 1200 bis 1500 °C. Das ist viel heißer als eine Herdplatte oder ein Backofen. Erst bei so großer Hitze werden Sand, Kalk und Soda flüssig."
       }
     },
     {
@@ -62,10 +62,10 @@
         "prompt": "🌡️ Du stellst eine kalte Glasschüssel in den heißen Ofen. Warum kann sie zerspringen?",
         "options": [
           { "text": "Glas leitet Wärme schlecht. Beim schnellen Wechsel von kalt zu heiß entsteht Spannung im Glas.", "correct": true },
-          { "text": "Glas wird im Ofen weich und fällt auseinander." },
-          { "text": "Der Ofen ist zu trocken für Glas." }
+          { "text": "Glas dehnt sich in der Hitze überall gleich aus und reißt dabei von selbst." },
+          { "text": "Die heiße Luft im Ofen drückt von allen Seiten auf das kalte Glas." }
         ],
-        "explanation": "Glas leitet Wärme nur langsam weiter. Eine Seite wird schnell heiß, die andere bleibt kalt. Diese Spannung sprengt das Glas. Nur feuerfestes Glas hält das aus."
+        "explanation": "Glas leitet Wärme nur langsam weiter. Eine Seite wird schnell heiß, die andere bleibt kalt. Diese Spannung – man nennt sie Temperaturschock – sprengt das Glas. Nur feuerfestes Glas hält das aus."
       }
     },
     {
@@ -86,10 +86,10 @@
         "prompt": "🍽️ In einem großen Betrieb (Hotel, Heim) läuft die Spülmaschine oft. Welches Geschirr ist dort besser?",
         "options": [
           { "text": "Geschirr mit Unter- oder Inglasur-Dekor. Das Muster hält in der Spülmaschine.", "correct": true },
-          { "text": "Geschirr mit Aufglasur-Dekor, das man fühlen kann." },
-          { "text": "Egal, jedes Muster hält gleich lange." }
+          { "text": "Geschirr mit Aufglasur-Dekor, dessen Muster man mit dem Finger fühlen kann." },
+          { "text": "Handbemaltes Geschirr, weil die Farbe dort besonders dick aufgetragen ist." }
         ],
-        "explanation": "Bei Aufglasur liegt die Farbe oben auf und reibt sich beim häufigen Spülen ab. Unter- und Inglasur-Muster sitzen geschützt in der Glasur. Darum sind sie für den Großhaushalt besser."
+        "explanation": "Bei Aufglasur liegt die Farbe oben auf der Glasur und reibt sich beim häufigen Spülen ab. Unter- und Inglasur-Muster sitzen geschützt in der Glasur. Darum sind sie für den Großhaushalt besser."
       }
     },
     {
@@ -98,22 +98,22 @@
         "prompt": "🌍 Du bringst aus dem Urlaub eine bunte Keramik-Schale mit. Wofür nutzt du sie besser nicht?",
         "options": [
           { "text": "Nicht zum Essen. Aus mancher Glasur können giftige Metallsalze ins Essen gehen.", "correct": true },
-          { "text": "Für gar nichts, sie muss sofort weg." },
-          { "text": "Nur für heiße Suppe, kalt ist sie gefährlich." }
+          { "text": "Nur nicht in die Spülmaschine, sonst löst sich mit der Zeit das bunte Muster." },
+          { "text": "Nur nicht für heiße oder saure Speisen – kalt darf alles hinein." }
         ],
-        "explanation": "Keramik von ausländischen Märkten hält nicht immer unsere Regeln ein. Aus der Glasur können giftige Metallsalze austreten. Nutze solche Stücke nur zur Deko, nicht für Essen."
+        "explanation": "Keramik von ausländischen Märkten hält nicht immer unsere Regeln ein. Aus der Glasur können giftige Metallsalze ins Essen übergehen – das nennt man Migration. Nutze solche Stücke darum nur zur Deko, nicht für Essen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✨ Welches Geschirr ist rein weiß und klingt hell, wenn du daran tippst?",
+        "prompt": "🍽️ Du suchst Geschirr, das rein weiß ist und beim Antippen hell klingt. Welche Sorte passt?",
         "options": [
           { "text": "Porzellan.", "correct": true },
-          { "text": "Töpferware aus Ton." },
-          { "text": "Ein Becher aus Kunststoff." }
+          { "text": "Steingut, das ist auch aus Keramik." },
+          { "text": "Töpferware aus gebranntem Ton." }
         ],
-        "explanation": "Porzellan ist rein weiß und sehr dicht gebrannt. Darum klingt es hell, wenn du daran tippst. Töpferware klingt eher dumpf."
+        "explanation": "Porzellan ist rein weiß und sehr dicht gebrannt. Darum klingt es hell, wenn du daran tippst. Steingut und Töpferware sind poröser – sie klingen dumpf und sind nicht rein weiß."
       }
     }
   ]

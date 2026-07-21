@@ -2,6 +2,7 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-lebensmittel-qualitaet",
   "title": "Gute Lebensmittel erkennen",
+  "intro": "🍎 In dieser Lektion lernst du, wie man gute Lebensmittel erkennt. Viele Lebensmittel kommen von einer Pflanze, andere von einem Tier. Man kann sie auch nach dem Haupt-Nährstoff ordnen: nach Eiweiß, Kohlenhydraten oder Fett. Die Qualität hat mehrere Seiten, die man Werte nennt. Dazu gehören der Geschmack, die Gesundheit, der Preis und der Schutz der Umwelt. In der Zutatenliste auf der Verpackung stehen die Zusatzstoffe. Sie machen ein Lebensmittel zum Beispiel haltbarer, bunter oder süßer. Du erkennst sie an einer E-Nummer oder am Klassen-Namen wie Farbstoff. Ein Allergen kann eine Allergie auslösen. 14 davon müssen immer auf der Verpackung stehen.",
   "sort": 30,
   "exercises": [
     {
@@ -9,16 +10,42 @@
       "data": {
         "prompt": "🌱 Lebensmittel kommen von Pflanzen oder von Tieren. Sortiere sie.",
         "buckets": [
-          { "id": "pflanze", "label": "Von der Pflanze", "icon": "🌱" },
-          { "id": "tier", "label": "Vom Tier", "icon": "🐄" }
+          {
+            "id": "pflanze",
+            "label": "Von der Pflanze",
+            "icon": "🌱"
+          },
+          {
+            "id": "tier",
+            "label": "Vom Tier",
+            "icon": "🐄"
+          }
         ],
         "items": [
-          { "text": "🍎 Apfel", "bucket": "pflanze" },
-          { "text": "🥕 Möhre", "bucket": "pflanze" },
-          { "text": "🍝 Nudeln", "bucket": "pflanze" },
-          { "text": "🥚 Ei", "bucket": "tier" },
-          { "text": "🧀 Käse", "bucket": "tier" },
-          { "text": "🥩 Fleisch", "bucket": "tier" }
+          {
+            "text": "🍎 Apfel",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "🥕 Möhre",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "🍝 Nudeln",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "🥚 Ei",
+            "bucket": "tier"
+          },
+          {
+            "text": "🧀 Käse",
+            "bucket": "tier"
+          },
+          {
+            "text": "🥩 Fleisch",
+            "bucket": "tier"
+          }
         ]
       }
     },
@@ -27,17 +54,47 @@
       "data": {
         "prompt": "🍽️ Man kann Lebensmittel auch nach ihrem Haupt-Nährstoff einteilen. Sortiere sie.",
         "buckets": [
-          { "id": "eiweiss", "label": "Viel Eiweiß", "icon": "🥚" },
-          { "id": "kh", "label": "Viel Kohlenhydrate", "icon": "🍞" },
-          { "id": "fett", "label": "Viel Fett", "icon": "🧈" }
+          {
+            "id": "eiweiss",
+            "label": "Viel Eiweiß",
+            "icon": "🥚"
+          },
+          {
+            "id": "kh",
+            "label": "Viel Kohlenhydrate",
+            "icon": "🍞"
+          },
+          {
+            "id": "fett",
+            "label": "Viel Fett",
+            "icon": "🧈"
+          }
         ],
         "items": [
-          { "text": "🐟 Fisch", "bucket": "eiweiss" },
-          { "text": "🥚 Ei", "bucket": "eiweiss" },
-          { "text": "🍞 Brot", "bucket": "kh" },
-          { "text": "🥔 Kartoffeln", "bucket": "kh" },
-          { "text": "🧈 Butter", "bucket": "fett" },
-          { "text": "🫒 Öl", "bucket": "fett" }
+          {
+            "text": "🐟 Fisch",
+            "bucket": "eiweiss"
+          },
+          {
+            "text": "🥚 Ei",
+            "bucket": "eiweiss"
+          },
+          {
+            "text": "🍞 Brot",
+            "bucket": "kh"
+          },
+          {
+            "text": "🥔 Kartoffeln",
+            "bucket": "kh"
+          },
+          {
+            "text": "🧈 Butter",
+            "bucket": "fett"
+          },
+          {
+            "text": "🫒 Öl",
+            "bucket": "fett"
+          }
         ]
       }
     },
@@ -46,10 +103,38 @@
       "data": {
         "prompt": "🌸 Ein Lebensmittel hat mehrere Werte. Ordne jedem Wert zu, worum es geht.",
         "pairs": [
-          { "left": { "text": "😋 Genusswert" }, "right": { "text": "Aussehen, Geruch und Geschmack" } },
-          { "left": { "text": "💪 Gesundheitswert" }, "right": { "text": "Nährstoffe und Vitamine" } },
-          { "left": { "text": "⏱️ Eignungswert" }, "right": { "text": "Preis und Haltbarkeit" } },
-          { "left": { "text": "🌍 Ökologischer Wert" }, "right": { "text": "Gut für die Umwelt" } }
+          {
+            "left": {
+              "text": "😋 Genusswert"
+            },
+            "right": {
+              "text": "Aussehen, Geruch und Geschmack"
+            }
+          },
+          {
+            "left": {
+              "text": "💪 Gesundheitswert"
+            },
+            "right": {
+              "text": "Nährstoffe und Vitamine"
+            }
+          },
+          {
+            "left": {
+              "text": "⏱️ Eignungswert"
+            },
+            "right": {
+              "text": "Preis und Haltbarkeit"
+            }
+          },
+          {
+            "left": {
+              "text": "🌍 Ökologischer Wert"
+            },
+            "right": {
+              "text": "Gut für die Umwelt"
+            }
+          }
         ],
         "memory": false
       }
@@ -57,49 +142,77 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😋 Welcher Wert sagt, wie ein Lebensmittel aussieht, riecht und schmeckt?",
+        "prompt": "😋 Du beißt in eine Erdbeere. Sie duftet, sieht rot aus und schmeckt süß. Welcher Wert ist das?",
         "options": [
-          { "text": "😋 Der Genusswert", "correct": true },
-          { "text": "🌍 Der ökologische Wert" },
-          { "text": "⏱️ Der Eignungswert" }
+          {
+            "text": "😋 Der Genusswert",
+            "correct": true
+          },
+          {
+            "text": "💪 Der Gesundheitswert"
+          },
+          {
+            "text": "⏱️ Der Eignungswert"
+          }
         ],
-        "explanation": "Der Genusswert steht für Aussehen, Geruch, Geschmack und Konsistenz. Also für alles, was du mit den Sinnen wahrnimmst."
+        "explanation": "Der Genusswert steht für Aussehen, Geruch, Geschmack und Konsistenz. Also für alles, was du mit den Sinnen wahrnimmst. Der Gesundheitswert meint dagegen die Nährstoffe, die man nicht schmecken kann."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Du kaufst regionales Obst in einer Mehrweg-Kiste, um die Umwelt zu schonen. Welcher Wert ist dir wichtig?",
+        "prompt": "🌍 Du kaufst Obst aus der Region in einer Mehrweg-Kiste, um die Umwelt zu schonen. Welcher Wert ist dir hier am wichtigsten?",
         "options": [
-          { "text": "🌍 Der ökologische Wert", "correct": true },
-          { "text": "😋 Der Genusswert" },
-          { "text": "💪 Der Gesundheitswert" }
+          {
+            "text": "🌍 Der ökologische Wert",
+            "correct": true
+          },
+          {
+            "text": "⏱️ Der Eignungswert"
+          },
+          {
+            "text": "😋 Der Genusswert"
+          }
         ],
-        "explanation": "Beim ökologischen Wert geht es um die Umwelt: kurze Transportwege, wenig Verpackung, Mehrweg und Ware aus der Region und der Saison."
+        "explanation": "Beim ökologischen Wert geht es um die Umwelt: kurze Transportwege, wenig Verpackung, Mehrweg und Ware aus der Region und der Saison. Beim Eignungswert ginge es dagegen um Preis und Haltbarkeit."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏷️ Zusatzstoffe stehen auf der Verpackung. Wie werden sie gekennzeichnet?",
+        "prompt": "🏷️ Du suchst auf einer Verpackung nach Zusatzstoffen. Woran erkennst du sie in der Zutatenliste?",
         "options": [
-          { "text": "Mit einer E-Nummer oder dem Klassen-Namen", "correct": true },
-          { "text": "Mit einem roten Warndreieck" },
-          { "text": "Gar nicht, das ist geheim" }
+          {
+            "text": "An einer E-Nummer oder dem Klassen-Namen",
+            "correct": true
+          },
+          {
+            "text": "Nur am Klassen-Namen wie Farbstoff, eine Nummer gibt es nicht"
+          },
+          {
+            "text": "Am Bio-Siegel auf der Vorderseite"
+          }
         ],
-        "explanation": "Zusatzstoffe müssen in der Zutatenliste stehen. Dort erkennst du sie an einer E-Nummer (zum Beispiel E 300) oder am Klassen-Namen wie Farbstoff oder Konservierungsstoff."
+        "explanation": "Zusatzstoffe müssen in der Zutatenliste stehen. Dort erkennst du sie an einer E-Nummer (zum Beispiel E 300) oder am Klassen-Namen wie Farbstoff oder Konservierungsstoff. Beide Angaben sind erlaubt. Das Bio-Siegel sagt darüber nichts aus."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚠️ Manche Stoffe lösen Allergien aus. Wie viele davon müssen auf der Verpackung stehen?",
+        "prompt": "⚠️ Bestimmte Allergene müssen immer auf der Verpackung stehen. Wie viele sind es genau?",
         "options": [
-          { "text": "14 Allergene", "correct": true },
-          { "text": "3 Allergene" },
-          { "text": "50 Allergene" }
+          {
+            "text": "14 Allergene",
+            "correct": true
+          },
+          {
+            "text": "12 Allergene"
+          },
+          {
+            "text": "20 Allergene"
+          }
         ],
-        "explanation": "Es gibt 14 Allergene, die immer gekennzeichnet werden müssen. Dazu gehören zum Beispiel Milch, Eier, Erdnüsse und Fisch. So können Allergiker das Essen sicher meiden."
+        "explanation": "Es gibt 14 Allergene, die immer gekennzeichnet werden müssen. Ein Allergen ist ein Stoff, der eine Allergie auslösen kann. Dazu gehören zum Beispiel Milch, Eier, Erdnüsse und Fisch. So können Allergiker das Essen sicher meiden."
       }
     },
     {
@@ -107,16 +220,42 @@
       "data": {
         "prompt": "⚠️ Welche Zutat ist ein kennzeichnungspflichtiges Allergen und welche nicht?",
         "buckets": [
-          { "id": "allergen", "label": "Ist ein Allergen", "icon": "⚠️" },
-          { "id": "kein", "label": "Kein Pflicht-Allergen", "icon": "✅" }
+          {
+            "id": "allergen",
+            "label": "Ist ein Allergen",
+            "icon": "⚠️"
+          },
+          {
+            "id": "kein",
+            "label": "Kein Pflicht-Allergen",
+            "icon": "✅"
+          }
         ],
         "items": [
-          { "text": "🥜 Erdnuss", "bucket": "allergen" },
-          { "text": "🥛 Milch", "bucket": "allergen" },
-          { "text": "🐟 Fisch", "bucket": "allergen" },
-          { "text": "🌰 Sellerie", "bucket": "allergen" },
-          { "text": "🍚 Reis", "bucket": "kein" },
-          { "text": "🥔 Kartoffel", "bucket": "kein" }
+          {
+            "text": "🥜 Erdnuss",
+            "bucket": "allergen"
+          },
+          {
+            "text": "🥛 Milch",
+            "bucket": "allergen"
+          },
+          {
+            "text": "🐟 Fisch",
+            "bucket": "allergen"
+          },
+          {
+            "text": "🌰 Sellerie",
+            "bucket": "allergen"
+          },
+          {
+            "text": "🍚 Reis",
+            "bucket": "kein"
+          },
+          {
+            "text": "🥔 Kartoffel",
+            "bucket": "kein"
+          }
         ]
       }
     },
@@ -125,10 +264,38 @@
       "data": {
         "prompt": "🃏 Memory: Wozu ist der Zusatzstoff da? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🎨 Farbstoff" }, "right": { "text": "Gibt Farbe" } },
-          { "left": { "text": "🧊 Konservierungsstoff" }, "right": { "text": "Hält länger frisch" } },
-          { "left": { "text": "🍬 Süßungsmittel" }, "right": { "text": "Macht süß" } },
-          { "left": { "text": "👅 Geschmacksverstärker" }, "right": { "text": "Verstärkt den Geschmack" } }
+          {
+            "left": {
+              "text": "🎨 Farbstoff"
+            },
+            "right": {
+              "text": "Gibt Farbe"
+            }
+          },
+          {
+            "left": {
+              "text": "🧊 Konservierungsstoff"
+            },
+            "right": {
+              "text": "Hält länger frisch"
+            }
+          },
+          {
+            "left": {
+              "text": "🍬 Süßungsmittel"
+            },
+            "right": {
+              "text": "Macht süß"
+            }
+          },
+          {
+            "left": {
+              "text": "👅 Geschmacksverstärker"
+            },
+            "right": {
+              "text": "Verstärkt den Geschmack"
+            }
+          }
         ],
         "memory": true
       }
@@ -138,9 +305,16 @@
       "data": {
         "prompt": "🌟 Zum Schluss, ganz leicht: Kommt ein Apfel von einer Pflanze oder von einem Tier?",
         "options": [
-          { "text": "🌱 Von einer Pflanze", "correct": true },
-          { "text": "🐄 Von einem Tier" },
-          { "text": "🏭 Aus einer Fabrik" }
+          {
+            "text": "🌱 Von einer Pflanze",
+            "correct": true
+          },
+          {
+            "text": "🐄 Von einem Tier"
+          },
+          {
+            "text": "🏭 Aus einer Fabrik"
+          }
         ],
         "explanation": "Der Apfel wächst am Baum. Er ist ein pflanzliches Lebensmittel. Obst, Gemüse, Getreide und Nudeln kommen alle von Pflanzen."
       }

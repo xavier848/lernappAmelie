@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚚 Eine Lieferung kommt an. Was ist deine Aufgabe bei der Warenannahme?",
+        "prompt": "🚚 Eine Lieferung kommt an. Der Fahrer hat es eilig und will schnell deine Unterschrift. Was ist deine Aufgabe bei der Warenannahme?",
         "options": [
           { "text": "Ich prüfe die Ware genau, bevor ich sie annehme.", "correct": true },
-          { "text": "Ich nehme alles ungeprüft an." },
-          { "text": "Ich schicke jede Lieferung zurück." }
+          { "text": "Ich unterschreibe zuerst und schaue die Ware danach in Ruhe an." },
+          { "text": "Ich zähle nur schnell die Menge. Für den Rest ist keine Zeit." }
         ],
-        "explanation": "Bei der Warenannahme prüfst du die Ware. Nur einwandfreie Ware nimmst du an. So kommt nichts Schlechtes in die Küche."
+        "explanation": "Diese Prüfung heißt Wareneingangskontrolle. Du prüfst die Ware genau, bevor du sie annimmst und unterschreibst. Zeitdruck vom Fahrer ändert daran nichts. Nur einwandfreie Ware kommt in die Küche."
       }
     },
     {
@@ -22,22 +22,22 @@
         "prompt": "🍫 Ein Kakaotrunk ist haltbar bis 31. Juli. Heute ist der 3. August. Was machst du?",
         "options": [
           { "text": "Ich nehme ihn nicht an. Das Datum ist abgelaufen.", "correct": true },
-          { "text": "Ich nehme ihn an, ein paar Tage sind egal." },
-          { "text": "Ich stelle ihn einfach ins Regal." }
+          { "text": "Ich nehme ihn an. Ein paar Tage über dem Datum sind meist unkritisch." },
+          { "text": "Ich nehme ihn an und stelle ihn ganz nach vorne, damit er zuerst weggeht." }
         ],
-        "explanation": "Das Mindesthaltbarkeitsdatum ist vorbei. So eine Ware nimmst du nicht an. Ein abgelaufenes Datum ist ein Mangel."
+        "explanation": "Das Datum auf dem Kakaotrunk ist das Mindesthaltbarkeitsdatum (MHD). Es war der 31. Juli und ist jetzt überschritten. So eine Ware nimmst du nicht an. Ein abgelaufenes Datum ist ein Mangel."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍐 Bei den gelieferten Birnen siehst du braune, weiche Stellen. Was ist das?",
+        "prompt": "🍐 Bei den gelieferten Birnen siehst du braune, weiche Stellen. Wie bewertest du die Ware?",
         "options": [
           { "text": "Faulstellen. Die Birnen haben einen Mangel.", "correct": true },
-          { "text": "Das ist ganz normal und kein Problem." },
-          { "text": "Das macht die Birnen süßer." }
+          { "text": "Nur Druckstellen vom Transport. Die schneidet man weg, die Lieferung ist in Ordnung." },
+          { "text": "Das sind reife Stellen. Reife Birnen sind ein Zeichen für gute Qualität." }
         ],
-        "explanation": "Braune, weiche Stellen sind Faulstellen. Die Ware ist beschädigt. So ein Mangel ist ein Grund, die Ware nicht anzunehmen."
+        "explanation": "Braune, weiche Stellen sind Faulstellen, also schon verdorbene Stellen. Das ist ein Mangel an der Qualität. So eine Ware nimmst du nicht an."
       }
     },
     {
@@ -77,10 +77,10 @@
         "prompt": "🌡️ Bei der Milch prüfst du auch die Lagertemperatur. Warum ist das wichtig?",
         "options": [
           { "text": "Warme Milch verdirbt schnell. Sie muss kühl geliefert werden.", "correct": true },
-          { "text": "Warme Milch schmeckt besser." },
-          { "text": "Die Temperatur ist völlig egal." }
+          { "text": "Nur damit die Milch beim Servieren gleich kalt genug ist." },
+          { "text": "Weil kalte Milch mehr Fett enthält als warme." }
         ],
-        "explanation": "Milch braucht Kälte. War die Lieferung zu warm, können sich Keime bilden. Darum kontrollierst du die Temperatur."
+        "explanation": "Milch ist ein leicht verderbliches Lebensmittel. Sie braucht eine geschlossene Kühlkette, also durchgehende Kälte. War die Lieferung zu warm, können sich schnell Keime bilden. Darum kontrollierst du die Temperatur."
       }
     },
     {
@@ -102,22 +102,22 @@
         "prompt": "✅ Was prüfst du bei fast jeder Lieferung?",
         "options": [
           { "text": "Menge, Qualität, Haltbarkeit und Verpackung.", "correct": true },
-          { "text": "Nur die Farbe der Verpackung." },
-          { "text": "Nur den Namen der Firma." }
+          { "text": "Nur die Menge. Wenn die Zahl stimmt, ist alles in Ordnung." },
+          { "text": "Nur das Haltbarkeitsdatum. Der Rest steht ja auf dem Lieferschein." }
         ],
-        "explanation": "Diese Punkte gehören zu fast jeder Warenannahme: Stimmt die Menge? Ist die Qualität gut? Ist das Datum in Ordnung? Ist die Verpackung heil?"
+        "explanation": "Diese vier Punkte gehören zu fast jeder Wareneingangskontrolle: Stimmt die Menge? Ist die Qualität gut? Ist die Haltbarkeit in Ordnung? Ist die Verpackung heil? Ein einzelner Punkt allein reicht nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Du entdeckst einen Mangel an der Ware. Was tust du?",
+        "prompt": "🌟 Zum Schluss: Du entdeckst bei einer Lieferung einen Mangel. Der Lieferschein ist noch nicht unterschrieben. Was tust du?",
         "options": [
           { "text": "Ich nehme diese Ware nicht an.", "correct": true },
-          { "text": "Ich nehme sie trotzdem und stelle sie ins Regal." },
-          { "text": "Ich koche sofort damit." }
+          { "text": "Ich nehme die Ware trotzdem an und stelle sie ins Lager." },
+          { "text": "Ich nehme die Ware an und trenne nur die schlechten Stücke aus." }
         ],
-        "explanation": "Ware mit Mangel nimmst du nicht an. So schützt du die Gäste und die Küche vor schlechten Lebensmitteln."
+        "explanation": "Ware mit einem Mangel nimmst du nicht an. Den Mangel meldest du weiter und weist die Lieferung zurück. So schützt du die Gäste und die Küche vor schlechten Lebensmitteln."
       }
     }
   ]

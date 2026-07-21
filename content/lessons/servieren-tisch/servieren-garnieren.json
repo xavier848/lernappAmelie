@@ -20,25 +20,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🐟 Was passt gut als Garnitur zu einem Fischgericht?",
+        "prompt": "🐟 Du richtest einen gebratenen Fisch an. Welche Garnitur passt klassisch dazu?",
         "options": [
           { "text": "Ein Zitronenachtel.", "correct": true },
-          { "text": "Ein Sahnetupfen." },
-          { "text": "Schokoladenraspeln." }
+          { "text": "Geröstete Brotwürfel (Croutons)." },
+          { "text": "Gedünstete Apfelringe." }
         ],
-        "explanation": "Zum Fisch passt ein Achtel Zitrone. Man kann auch Tomatenscheiben oder gehackte Kräuter nehmen."
+        "explanation": "Ein Zitronenachtel ist ein Achtel-Stück einer Zitrone. Seine Säure passt gut zu Fisch. Croutons gehören zur Suppe, Apfelringe zum Fleisch."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍨 Womit garnierst du eine Süßspeise?",
+        "prompt": "🍨 Du bringst ein Dessert heraus. Womit garnierst du es passend?",
         "options": [
           { "text": "Mit einem Sahnetupfen und Obst.", "correct": true },
-          { "text": "Mit gerösteten Brotwürfeln." },
-          { "text": "Mit Zwiebelringen." }
+          { "text": "Mit gerösteten Brotwürfeln (Croutons)." },
+          { "text": "Mit gehackter Petersilie." }
         ],
-        "explanation": "Zur Süßspeise passen Sahne, Obst, Schokoladenraspeln oder Nüsse. Das sieht fein aus und schmeckt."
+        "explanation": "Zur Süßspeise passen Sahne, Obst, Schokoladenraspeln oder Nüsse. Croutons und Petersilie sind herzhaft und passen zu Suppe oder Kartoffeln, nicht zum Dessert."
       }
     },
     {
@@ -63,49 +63,49 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Was streust du gern über eine Suppe?",
+        "prompt": "🥣 Du servierst eine Suppe. Was streust du zum Schluss darüber?",
         "options": [
           { "text": "Geröstete Brotwürfel.", "correct": true },
-          { "text": "Schokoladenraspeln." },
-          { "text": "Apfelringe." }
+          { "text": "Ein Zitronenachtel." },
+          { "text": "Gedünstete Apfelringe." }
         ],
-        "explanation": "Kleine geröstete Brotwürfel passen gut zu Suppe. Man nennt sie auch Croutons."
+        "explanation": "Kleine geröstete Brotwürfel passen gut zu Suppe. Man nennt sie auch Croutons. Das Zitronenachtel gehört zum Fisch, die Apfelringe zum Fleisch."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥔 Womit garnierst du Kartoffeln oder Gemüse?",
+        "prompt": "🥔 Du garnierst eine Portion Salzkartoffeln. Was passt am besten?",
         "options": [
           { "text": "Mit gehackten Kräutern oder Petersilie.", "correct": true },
-          { "text": "Mit einem Sahnetupfen." },
-          { "text": "Mit einem Zitronenachtel." }
+          { "text": "Mit einem Zitronenachtel." },
+          { "text": "Mit einem Sahnetupfen." }
         ],
-        "explanation": "Frische, gehackte Kräuter oder Petersilie passen gut zu Kartoffeln und Gemüse."
+        "explanation": "Frische, gehackte Kräuter oder Petersilie passen gut zu Kartoffeln und Gemüse. Das Zitronenachtel gehört zum Fisch, der Sahnetupfen zur Süßspeise."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍖 Was passt als Garnitur zu einem Fleischgericht?",
+        "prompt": "🍖 Du richtest ein Schnitzel an. Welche Garnitur passt dazu?",
         "options": [
           { "text": "Zwiebelringe oder gedünstete Apfelringe.", "correct": true },
-          { "text": "Sahnetupfen und Schokolade." },
-          { "text": "Croutons und Paprikapulver." }
+          { "text": "Ein Zitronenachtel mit Dill." },
+          { "text": "Ein Sahnetupfen mit Obst." }
         ],
-        "explanation": "Zu Fleisch passen zum Beispiel Zwiebelringe, gedünstete Tomaten, Pilze oder Apfelringe."
+        "explanation": "Zu Fleisch passen zum Beispiel Zwiebelringe, gedünstete Tomaten, Pilze oder Apfelringe. 'Gedünstet' heißt: sanft in wenig Flüssigkeit gegart. Zitrone mit Dill passt zum Fisch, Sahne mit Obst zur Süßspeise."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✨ Wozu garnierst du eine Speise überhaupt?",
+        "prompt": "✨ Warum garnierst du eine Speise? Was ist der Hauptgrund?",
         "options": [
           { "text": "Damit sie schön aussieht und Appetit macht.", "correct": true },
-          { "text": "Damit sie länger satt macht." },
-          { "text": "Damit sie kälter wird." }
+          { "text": "Damit sie länger warm bleibt." },
+          { "text": "Damit die Portion größer und sättigender wird." }
         ],
-        "explanation": "Eine Garnitur schmückt die Speise. Sie sieht schöner aus und macht mehr Lust auf das Essen."
+        "explanation": "Eine Garnitur ist ein essbarer Schmuck auf dem Teller. Sie sieht schöner aus und macht mehr Appetit. Warm halten oder satt machen ist nicht ihre Aufgabe."
       }
     },
     {
@@ -114,10 +114,10 @@
         "prompt": "🍦 Was ist ein Sahnetupfen?",
         "options": [
           { "text": "Ein kleiner Klecks Sahne auf der Speise.", "correct": true },
-          { "text": "Ein Stück Fisch." },
-          { "text": "Ein Löffel Suppe." }
+          { "text": "Ein Achtel einer Zitrone." },
+          { "text": "Eine Handvoll gerösteter Brotwürfel." }
         ],
-        "explanation": "Ein Sahnetupfen ist ein kleiner Klecks Schlagsahne. Er schmückt zum Beispiel eine Süßspeise."
+        "explanation": "Ein Sahnetupfen ist ein kleiner Klecks Schlagsahne. 'Tupfen' heißt: ein kleiner runder Klecks. Er schmückt zum Beispiel eine Süßspeise. Das Zitronenachtel und die Croutons sind andere Garnituren."
       }
     }
   ]

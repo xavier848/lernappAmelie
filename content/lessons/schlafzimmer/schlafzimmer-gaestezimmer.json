@@ -10,10 +10,10 @@
         "prompt": "🚪 Ein Gast ist abgereist. Du machst das Zimmer fertig. Was machst du als Erstes?",
         "options": [
           { "text": "Ich öffne das Fenster.", "correct": true },
-          { "text": "Ich wische den Boden." },
-          { "text": "Ich fülle die Handtücher auf." }
+          { "text": "Ich ziehe sofort die Bettwäsche ab." },
+          { "text": "Ich sauge schon den Boden." }
         ],
-        "explanation": "Zuerst kommt frische Luft ins Zimmer. Dabei kannst du in Ruhe weiterarbeiten."
+        "explanation": "Als Erstes lüftest du. Lüften heißt: Fenster auf, frische Luft rein. So wird die Luft im Zimmer sauber, während du in Ruhe weiterarbeitest."
       }
     },
     {
@@ -32,13 +32,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧹 Das Bett ist frisch bezogen. Was kommt als Nächstes?",
+        "prompt": "🧹 Das Bett ist frisch bezogen. Der Staub liegt jetzt auf dem Boden. Was kommt als Nächstes?",
         "options": [
           { "text": "Staubsaugen.", "correct": true },
-          { "text": "Noch mal Staub wischen." },
-          { "text": "Das Fenster putzen." }
+          { "text": "Den Boden gleich nass wischen." },
+          { "text": "Schon die Endkontrolle machen." }
         ],
-        "explanation": "Jetzt liegt aller Staub auf dem Boden. Also: staubsaugen!"
+        "explanation": "Du arbeitest von oben nach unten. Der Staub ist jetzt unten auf dem Boden. Darum saugst du ihn zuerst weg. Nass wischen kommt danach."
       }
     },
     {
@@ -56,13 +56,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👀 Endkontrolle: Was prüfst du am Schluss?",
+        "prompt": "👀 Endkontrolle: Worauf achtest du am Schluss?",
         "options": [
           { "text": "Ist alles sauber? Ist das Bett bezogen? Sind Handtücher da?", "correct": true },
-          { "text": "Ob der Fernseher das richtige Programm zeigt." },
-          { "text": "Nichts. Ich gehe einfach raus." }
+          { "text": "Nur, ob das Fenster wieder zu ist." },
+          { "text": "Nur, ob die Bettdecke gerade liegt." }
         ],
-        "explanation": "Bei der Endkontrolle schaust du dich genau um. Der nächste Gast soll sich sofort wohlfühlen."
+        "explanation": "Bei der Endkontrolle prüfst du alles auf einmal. Ein einzelner Punkt reicht nicht. Der nächste Gast soll ein rundum fertiges Zimmer finden."
       }
     },
     {
@@ -84,10 +84,10 @@
         "prompt": "🎉 Alles fertig! Für wen machst du das Gästezimmer so schön?",
         "options": [
           { "text": "Für den nächsten Gast.", "correct": true },
-          { "text": "Für den Staubsauger." },
-          { "text": "Für niemanden." }
+          { "text": "Nur, damit ich schnell fertig bin." },
+          { "text": "Damit das Zimmer lange leer bleiben kann." }
         ],
-        "explanation": "Der nächste Gast freut sich über ein sauberes Zimmer. Super Arbeit! 🌟"
+        "explanation": "Du machst die Arbeit für den nächsten Gast. Er soll sich in einem sauberen Zimmer sofort wohlfühlen. Super Arbeit! 🌟"
       }
     }
   ]

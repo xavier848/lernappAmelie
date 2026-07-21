@@ -1,0 +1,146 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-vragen-verstaan",
+  "title": "Gäste-Fragen verstehen",
+  "sort": 7,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Heeft u wifi? 📶 Was möchte der Gast wissen?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ob es WLAN in der Wohnung gibt.", "correct": true },
+          { "text": "Wo er parken kann." },
+          { "text": "Wann es Frühstück gibt." }
+        ],
+        "explanation": "Heeft u ...? bedeutet: Haben Sie ...? Wifi heißt WLAN. Der Gast fragt also nach dem Internet."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste-Fragen: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Waar kan ik parkeren? 🚗" }, "right": { "text": "Wo kann ich parken?" } },
+          { "left": { "text": "Hoe werkt de verwarming?" }, "right": { "text": "Wie funktioniert die Heizung?" } },
+          { "left": { "text": "Waar is het zwembad? 🏊" }, "right": { "text": "Wo ist das Schwimmbad?" } },
+          { "left": { "text": "Hoe laat is het ontbijt?" }, "right": { "text": "Um wie viel Uhr gibt es Frühstück?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Gäste-Frage: Wo kann ich parken? 🚗",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Waar" },
+          { "text": "kan" },
+          { "text": "ik" },
+          { "text": "parkeren" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Eine Familie fragt vor der Abreise: Kunnen wij later uitchecken? Was will die Familie?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Sie möchte später auschecken.", "correct": true },
+          { "text": "Sie möchte früher anreisen." },
+          { "text": "Sie sucht das Schwimmbad." }
+        ],
+        "explanation": "Uitchecken heißt auschecken. Later heißt später. Die Familie fragt, ob sie die Wohnung später verlassen darf."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Gäste-Frage: Wie funktioniert die Heizung?",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Hoe" },
+          { "text": "werkt" },
+          { "text": "de" },
+          { "text": "verwarming" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Fragt der Gast nach einem Ort oder nach einer Uhrzeit? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "ort", "label": "Ort", "icon": "📍" },
+          { "id": "zeit", "label": "Uhrzeit", "icon": "⏰" }
+        ],
+        "items": [
+          { "text": "Waar kan ik parkeren?", "bucket": "ort" },
+          { "text": "Hoe laat is het ontbijt?", "bucket": "zeit" },
+          { "text": "Waar is het zwembad?", "bucket": "ort" },
+          { "text": "Hoe laat moeten wij uitchecken?", "bucket": "zeit" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt am Abend: Hoe laat begint het ontbijt? 🥐 Was möchte der Gast wissen?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Um wie viel Uhr das Frühstück beginnt.", "correct": true },
+          { "text": "Wo das Frühstück serviert wird." },
+          { "text": "Ob das Frühstück im Preis enthalten ist." }
+        ],
+        "explanation": "Hoe laat ...? bedeutet: Um wie viel Uhr ...? Begint heißt: beginnt. Der Gast fragt also nach der Uhrzeit vom Frühstück."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welche niederländische Frage passt? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Haben Sie WLAN?" }, "right": { "text": "Heeft u wifi?" } },
+          { "left": { "text": "Können wir später auschecken?" }, "right": { "text": "Kunnen wij later uitchecken?" } },
+          { "left": { "text": "Wo ist das Schwimmbad?" }, "right": { "text": "Waar is het zwembad?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Gäste-Frage: Wo ist das Schwimmbad? 🏊",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Waar" },
+          { "text": "is" },
+          { "text": "het" },
+          { "text": "zwembad" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast steht vor dem Haus und fragt: Waar kan ik mijn auto parkeren? Was will der Gast?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Er sucht einen Parkplatz für sein Auto.", "correct": true },
+          { "text": "Er möchte ein Auto mieten." },
+          { "text": "Er fragt, wie die Heizung funktioniert." }
+        ],
+        "explanation": "Waar kan ik ...? bedeutet: Wo kann ich ...? Parkeren heißt parken. Der Gast sucht also einen Platz für sein Auto."
+      }
+    }
+  ]
+}

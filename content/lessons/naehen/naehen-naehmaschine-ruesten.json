@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪡 \"Rüsten\" heißt: die Nähmaschine zum Nähen fertig machen. Was ist dabei der erste Schritt?",
+        "prompt": "🪡 \"Rüsten\" heißt: die Nähmaschine zum Nähen fertig machen. Was ist dabei der allererste Schritt?",
         "options": [
           { "text": "Das Nähgarn auf die Spule spulen.", "correct": true },
-          { "text": "Den Oberfaden einlegen.", "correct": false },
-          { "text": "Den Stoff unter den Nähfuß legen.", "correct": false }
+          { "text": "Die Spule in die Spulenkapsel einlegen.", "correct": false },
+          { "text": "Den Oberfaden durch die Fadenführung einlegen.", "correct": false }
         ],
-        "explanation": "Für den Unterfaden brauchst du eine volle Spule. Darum spulst du zuerst Garn auf die Spule, bevor du sie einlegst."
+        "explanation": "Die Spulenkapsel hält die Spule für den Unterfaden. Aber sie bringt nur etwas, wenn die Spule schon voll ist. Darum spulst du ganz zuerst Garn auf die Spule."
       }
     },
     {
@@ -46,13 +46,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧶 Was machst du, bevor du die Spule in die Maschine einlegst?",
+        "prompt": "🧶 Du willst die Spule in die Maschine einlegen. Was muss vorher schon erledigt sein?",
         "options": [
           { "text": "Garn auf die Spule spulen.", "correct": true },
-          { "text": "Den Oberfaden abschneiden.", "correct": false },
-          { "text": "Die Nadel wechseln.", "correct": false }
+          { "text": "Die Spulenkapsel einsetzen.", "correct": false },
+          { "text": "Den Unterfaden heraufholen.", "correct": false }
         ],
-        "explanation": "Eine leere Spule bringt nichts. Erst spulst du Garn darauf, dann legst du die volle Spule ein."
+        "explanation": "Eine leere Spule bringt nichts. Erst spulst du Garn darauf, dann legst du die volle Spule ein. Die Spulenkapsel einsetzen und den Unterfaden heraufholen kommen erst danach."
       }
     },
     {
@@ -77,34 +77,34 @@
         "prompt": "⬆️ Warum holst du den Unterfaden herauf, bevor du losnähst?",
         "options": [
           { "text": "Damit Ober- und Unterfaden zusammen unter dem Nähfuß liegen.", "correct": true },
-          { "text": "Damit die Spule leer wird.", "correct": false },
-          { "text": "Damit die Nadel stumpf wird.", "correct": false }
+          { "text": "Damit der Oberfaden straffer gespannt wird.", "correct": false },
+          { "text": "Damit die Spulenkapsel fester sitzt.", "correct": false }
         ],
-        "explanation": "Zum Nähen braucht die Maschine beide Fäden oben. Darum holst du den Unterfaden herauf und legst beide unter den Nähfuß."
+        "explanation": "Der Unterfaden kommt von der Spule unten. Zum Nähen braucht die Maschine beide Fäden oben. Darum holst du den Unterfaden herauf und legst ihn mit dem Oberfaden unter den Nähfuß."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎨 Welche Farbe hat der Oberfaden in der Zeichnung im Buch?",
+        "prompt": "🎨 In der Buch-Zeichnung ist ein Faden rot und ein Faden grün. Welcher Faden ist rot markiert?",
         "options": [
-          { "text": "Rot.", "correct": true },
-          { "text": "Grün.", "correct": false },
-          { "text": "Blau.", "correct": false }
+          { "text": "Der Oberfaden von der Garnrolle oben.", "correct": true },
+          { "text": "Der Unterfaden von der Spule unten.", "correct": false },
+          { "text": "Beide Fäden sind rot markiert.", "correct": false }
         ],
-        "explanation": "Im Buch ist der Oberfaden rot gezeichnet und der Unterfaden grün. So kannst du beide Fäden gut auseinanderhalten."
+        "explanation": "Im Buch ist der Oberfaden rot gezeichnet und der Unterfaden grün. Zwei Farben helfen dir, die beiden Fäden auseinanderzuhalten."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Was ist der letzte Schritt beim Rüsten?",
+        "prompt": "✅ Was ist der allerletzte Schritt beim Rüsten, kurz bevor du losnähen kannst?",
         "options": [
           { "text": "Ober- und Unterfaden unter den Nähfuß legen.", "correct": true },
-          { "text": "Die Spule einlegen.", "correct": false },
-          { "text": "Das Garn spulen.", "correct": false }
+          { "text": "Den Unterfaden heraufholen.", "correct": false },
+          { "text": "Den Oberfaden einlegen.", "correct": false }
         ],
-        "explanation": "Am Ende liegen beide Fäden ordentlich unter dem Nähfuß. Jetzt ist die Maschine fertig zum Nähen."
+        "explanation": "Den Oberfaden einlegen und den Unterfaden heraufholen kommen kurz davor. Ganz am Ende liegen beide Fäden unter dem Nähfuß – jetzt ist die Maschine fertig zum Nähen."
       }
     }
   ]

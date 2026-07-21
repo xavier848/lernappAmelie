@@ -1,0 +1,146 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-wohnung-ausstattung",
+  "title": "Ausstattung erklären",
+  "sort": 12,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du erklärst die Küche: The kitchen is fully equipped with an oven, cookware, and a dishwasher. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Küche ist voll ausgestattet — mit Ofen, Kochgeschirr und Spülmaschine.", "correct": true },
+          { "text": "Die Küche wird gerade renoviert." },
+          { "text": "In der Küche gibt es nur einen Wasserkocher." }
+        ],
+        "explanation": "Fully equipped heißt: voll ausgestattet. Oven = Ofen, cookware = Kochgeschirr, dishwasher = Spülmaschine."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Ausstattung erklären: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "The kitchen is fully equipped. 🍳" }, "right": { "text": "Die Küche ist voll ausgestattet." } },
+          { "left": { "text": "The bedroom has plenty of storage space." }, "right": { "text": "Das Schlafzimmer hat viel Stauraum." } },
+          { "left": { "text": "Fresh towels are provided. 🛁" }, "right": { "text": "Frische Handtücher liegen bereit." } },
+          { "left": { "text": "You can park in front of the house. 🚗" }, "right": { "text": "Sie können vor dem Haus parken." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Genießen Sie Ihren Aufenthalt! 😊",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Enjoy" },
+          { "text": "your" },
+          { "text": "stay" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste sollen sich wohlfühlen. Du möchtest sagen: Fühlen Sie sich wie zu Hause. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Please make yourself at home.", "correct": true },
+          { "text": "Please clean the kitchen before you leave." },
+          { "text": "Please be quiet after ten o'clock." }
+        ],
+        "explanation": "Make yourself at home heißt: Fühlen Sie sich wie zu Hause. Ein freundlicher Satz, der die Gäste willkommen heißt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Erholen Sie sich gut! 🌿",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Have" },
+          { "text": "a" },
+          { "text": "relaxing" },
+          { "text": "time" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast ist unsicher und hat vielleicht noch Fragen. 🤔 Du bietest deine Hilfe an. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "If you have any questions, please feel free to ask.", "correct": true },
+          { "text": "I have no time for questions today." },
+          { "text": "Please do not ask me anything." }
+        ],
+        "explanation": "Feel free to ask heißt: Fragen Sie ruhig. So zeigst du, dass die Gäste sich jederzeit melden dürfen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Ausstattung im Haus oder guter Wunsch? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "ausstattung", "label": "Ausstattung", "icon": "🛋️" },
+          { "id": "wuensche", "label": "Guter Wunsch", "icon": "😊" }
+        ],
+        "items": [
+          { "text": "The kitchen is fully equipped.", "bucket": "ausstattung" },
+          { "text": "The bedroom has plenty of storage space.", "bucket": "ausstattung" },
+          { "text": "Fresh towels and bed linen are provided.", "bucket": "ausstattung" },
+          { "text": "Enjoy your stay!", "bucket": "wuensche" },
+          { "text": "Have a relaxing time!", "bucket": "wuensche" },
+          { "text": "I hope you have a wonderful stay.", "bucket": "wuensche" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Sag es auf Englisch: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Ich hoffe, Sie haben einen schönen Aufenthalt." }, "right": { "text": "I hope you have a wonderful stay." } },
+          { "left": { "text": "Danke, dass Sie bei uns wohnen!" }, "right": { "text": "Thank you for staying with us!" } },
+          { "left": { "text": "Wenn Sie Fragen haben, fragen Sie einfach." }, "right": { "text": "If you have any questions, feel free to ask." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst: You can park your car right in front of the house. 🚗 Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Sie können Ihr Auto direkt vor dem Haus parken.", "correct": true },
+          { "text": "Sie müssen Ihr Auto in der Garage parken." },
+          { "text": "Vor dem Haus dürfen Sie nicht parken." }
+        ],
+        "explanation": "Park your car heißt: das Auto parken. Right in front of the house heißt: direkt vor dem Haus. So finden die Gäste einen Parkplatz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss bedankst du dich bei den Gästen. 😊 Du sagst: Thank you for staying with us! Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Danke, dass Sie bei uns wohnen!", "correct": true },
+          { "text": "Bitte reisen Sie jetzt ab." },
+          { "text": "Wo ist Ihr Gepäck?" }
+        ],
+        "explanation": "Thank you for staying with us heißt: Danke, dass Sie bei uns wohnen. Ein schöner Satz zum Abschied. 😊"
+      }
+    }
+  ]
+}

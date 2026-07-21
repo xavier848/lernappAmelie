@@ -10,10 +10,10 @@
         "prompt": "📌 Was ist eine feste Ausgabe?",
         "options": [
           { "text": "Sie kommt jeden Monat. Der Betrag ist immer gleich.", "correct": true },
-          { "text": "Sie kommt nur manchmal. Der Betrag ändert sich." },
-          { "text": "Geld, das du geschenkt bekommst." }
+          { "text": "Sie kommt jeden Monat, aber der Betrag ist mal höher, mal tiefer." },
+          { "text": "Sie ist immer gleich hoch, kommt aber nur ein paar Mal im Jahr." }
         ],
-        "explanation": "Fest heißt: Du weißt genau, wann und wie viel. Zum Beispiel die Handy-Rechnung: jeden Monat 20 €."
+        "explanation": "Bei einer festen Ausgabe muss beides stimmen: Sie kommt jeden Monat UND der Betrag ist immer gleich. Zum Beispiel die Handy-Rechnung: jeden Monat 20 €."
       }
     },
     {
@@ -22,10 +22,10 @@
         "prompt": "🎈 Was ist eine variable Ausgabe?",
         "options": [
           { "text": "Sie ist mal mehr, mal weniger. Du kannst sie selbst ändern.", "correct": true },
-          { "text": "Sie ist jeden Monat genau gleich." },
-          { "text": "Das ist eine Einnahme." }
+          { "text": "Der Betrag ändert sich, aber du kannst selbst nichts daran ändern." },
+          { "text": "Sie kommt jeden Monat und ist immer genau gleich hoch." }
         ],
-        "explanation": "Variabel heißt: Der Betrag ändert sich. Beim Kino oder bei Kleidung entscheidest du selbst, wie viel du ausgibst."
+        "explanation": "Variabel heißt: Der Betrag ändert sich – und du entscheidest selbst mit. Beim Kino oder bei Kleidung bestimmst du, wie viel du ausgibst."
       }
     },
     {
@@ -54,8 +54,8 @@
         "prompt": "🥇 Warum planst du die festen Ausgaben zuerst ein?",
         "options": [
           { "text": "Sie müssen auf jeden Fall bezahlt werden. Jeden Monat.", "correct": true },
-          { "text": "Sie machen am meisten Spaß." },
-          { "text": "Sie sind immer am billigsten." }
+          { "text": "Weil feste Ausgaben immer kleiner sind als variable Ausgaben." },
+          { "text": "Weil du feste Ausgaben jederzeit einfach abbestellen kannst." }
         ],
         "explanation": "Miete, Handy und Bus musst du immer bezahlen. Plane sie zuerst ein. Der Rest vom Geld ist dann frei für dich."
       }
@@ -78,10 +78,10 @@
         "prompt": "🧮 Rechne: Handy 20 € + Bus 49 € + Fitness-Studio 31 €. Wie viel sind deine festen Ausgaben zusammen?",
         "options": [
           { "text": "100 €", "correct": true },
-          { "text": "90 €" },
-          { "text": "110 €" }
+          { "text": "69 €" },
+          { "text": "90 €" }
         ],
-        "explanation": "20 + 49 = 69. Und 69 + 31 = 100. Deine festen Ausgaben sind 100 €."
+        "explanation": "20 + 49 = 69. Achtung: Das Fitness-Studio nicht vergessen! 69 + 31 = 100. Deine festen Ausgaben sind zusammen 100 €."
       }
     },
     {
@@ -90,21 +90,22 @@
         "prompt": "🧮 Du bekommst 900 €. Deine festen Ausgaben sind 100 €. Wie viel Geld bleibt übrig?",
         "options": [
           { "text": "800 €", "correct": true },
-          { "text": "700 €" },
-          { "text": "900 €" }
+          { "text": "1000 €" },
+          { "text": "700 €" }
         ],
-        "explanation": "900 minus 100 = 800. Du hast noch 800 € für alles andere. Gut gerechnet!"
+        "explanation": "Übrig heißt: minus rechnen, nicht plus. 900 minus 100 = 800. Du hast noch 800 € für alles andere."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage! Die Miete ist jeden Monat gleich. Ist die Miete eine feste Ausgabe?",
+        "prompt": "🌟 Letzte Frage! Deine Miete ist jeden Monat gleich hoch und immer am Ersten fällig. Gehört die Miete zu den festen Ausgaben?",
         "options": [
-          { "text": "Ja.", "correct": true },
-          { "text": "Nein." }
+          { "text": "Ja. Gleicher Betrag, jeden Monat – das ist eine feste Ausgabe.", "correct": true },
+          { "text": "Nein. Miete kannst du jeden Monat selbst höher oder tiefer machen." },
+          { "text": "Nein. Feste Ausgaben zahlst du nur einmal im Jahr, nicht jeden Monat." }
         ],
-        "explanation": "Die Miete ist fest: gleicher Betrag, jeden Monat. 🎉"
+        "explanation": "Die Miete ist eine feste Ausgabe: gleicher Betrag, jeden Monat. 🎉"
       }
     }
   ]

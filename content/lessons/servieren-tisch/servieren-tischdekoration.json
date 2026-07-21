@@ -20,25 +20,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪧 Was zeigt dem Gast, wo er sitzen soll?",
+        "prompt": "🪧 Ein Gast kommt zur festlichen Tafel und sucht seinen Platz. Was gibt ihm die genaue Antwort?",
         "options": [
           { "text": "Die Tischkarte.", "correct": true },
-          { "text": "Die Menükarte." },
-          { "text": "Die Kerze." }
+          { "text": "Die Tischnummer." },
+          { "text": "Die Menükarte." }
         ],
-        "explanation": "Auf der Tischkarte steht der Name. So weiß jeder Gast, welcher Platz für ihn ist."
+        "explanation": "Die Tischkarte ist ein kleines Kärtchen mit dem Namen von einem Gast. Sie zeigt den genauen Platz. Eine Tischnummer zeigt nur den Tisch. Auf der Menükarte stehen die Speisen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📜 Was zeigt dem Gast die Reihenfolge der Speisen?",
+        "prompt": "📜 Ein Gast will wissen, welche Gänge nacheinander serviert werden. Wo schaut er nach?",
         "options": [
           { "text": "Die Menükarte.", "correct": true },
-          { "text": "Die Tischkarte." },
-          { "text": "Das Blumengesteck." }
+          { "text": "Die Weinkarte." },
+          { "text": "Die Tischkarte." }
         ],
-        "explanation": "Auf der Menükarte steht, welche Speisen nacheinander kommen. Das ist bei einem festlichen Menü praktisch."
+        "explanation": "Auf der Menükarte stehen die Speisen in der Reihenfolge der Gänge. Die Weinkarte zeigt nur die Getränke. Die Tischkarte zeigt den Platz."
       }
     },
     {
@@ -61,61 +61,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💐 Wie hoch darf ein Blumengesteck auf dem Tisch sein?",
+        "prompt": "💐 Wie hoch soll ein Blumengesteck in der Tischmitte sein?",
         "options": [
           { "text": "Nicht zu hoch, sonst sieht man die anderen Gäste nicht.", "correct": true },
-          { "text": "So hoch wie möglich." },
-          { "text": "Das ist ganz egal." }
+          { "text": "Lieber hoch, das wirkt festlicher." },
+          { "text": "So hoch, dass es über die Köpfe reicht." }
         ],
-        "explanation": "Ein Blumengesteck soll niedrig sein. Sonst verdeckt es die Sicht zu den anderen am Tisch."
+        "explanation": "Ein Blumengesteck soll niedrig sein. So bleibt der Blickkontakt frei und die Gäste können sich über den Tisch ansehen. Ein hohes Gesteck verdeckt die Sicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎀 Wohin legst du den Tischläufer?",
+        "prompt": "🎀 Wohin legst du den Tischläufer, das lange schmale Deko-Band?",
         "options": [
           { "text": "Über die Mitte der Tafel.", "correct": true },
-          { "text": "An den äußersten Rand." },
-          { "text": "Unter den Tisch." }
+          { "text": "Quer über jeden einzelnen Platz." },
+          { "text": "Längs an den äußeren Tischrand." }
         ],
-        "explanation": "Der Tischläufer und die Tischbänder werden über die Mitte der Tafel gelegt."
+        "explanation": "Der Tischläufer ist ein langes, schmales Band. Er wird über die Mitte der Tafel gelegt. An den einzelnen Plätzen liegt dagegen das Tischset."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎨 Worauf achtest du bei Servietten und Tischdecke?",
+        "prompt": "🎨 Du wählst Servietten und Tischdecke aus. Worauf achtest du bei der Farbe?",
         "options": [
           { "text": "Die Farben passen zum Geschirr.", "correct": true },
-          { "text": "Sie müssen möglichst bunt gemischt sein." },
-          { "text": "Sie müssen immer weiß sein." }
+          { "text": "Sie sollen einen starken Kontrast zum Geschirr bilden." },
+          { "text": "Sie richten sich nach der Kleidung der Gäste." }
         ],
-        "explanation": "Tischdecke, Tischläufer und Servietten stimmst du farblich auf das Geschirr ab. Dann sieht der Tisch stimmig aus."
+        "explanation": "Tischdecke, Tischläufer und Servietten stimmst du farblich auf das Geschirr ab. Abstimmen heißt: die Farben passen zusammen. Dann wirkt der Tisch stimmig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🕯️ Wozu stellst du Kerzen auf den Tisch?",
+        "prompt": "🕯️ Was ist der wichtigste Grund, Kerzen auf den Tisch zu stellen?",
         "options": [
           { "text": "Für eine schöne, gemütliche Stimmung.", "correct": true },
-          { "text": "Damit es wärmer im Raum wird." },
-          { "text": "Damit man den Tisch riecht." }
+          { "text": "Damit die Gäste die Menükarte besser lesen können." },
+          { "text": "Damit der Raum hell genug zum Arbeiten ist." }
         ],
-        "explanation": "Kerzen und Kerzenleuchter geben dem Raum eine stimmungsvolle Atmosphäre."
+        "explanation": "Kerzen und Kerzenleuchter sind für die Atmosphäre da. Atmosphäre heißt: die Stimmung im Raum. Sie sollen nicht als Lampe zum Lesen oder Arbeiten dienen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧻 Was kannst du mit einer Serviette machen?",
+        "prompt": "🧻 Wie bereitest du eine Stoffserviette für die festliche Tafel vor?",
         "options": [
-          { "text": "Man kann sie schön falten.", "correct": true },
-          { "text": "Man kann sie als Teller nehmen." },
-          { "text": "Man kann sie als Kerze nehmen." }
+          { "text": "Man kann sie schön falten, zum Beispiel als Spitz oder Mütze.", "correct": true },
+          { "text": "Man legt sie zerknüllt neben den Teller." },
+          { "text": "Man schneidet sie passend zum Geschirr zurecht." }
         ],
-        "explanation": "Servietten kann man unterschiedlich falten, zum Beispiel als Spitz oder als Mütze. Die Farbe passt zum Geschirr."
+        "explanation": "Servietten kann man kunstvoll falten, zum Beispiel als Spitz oder als Mütze. Die Farbe passt zum Geschirr. Zerknüllt oder zerschnitten gehört sie nicht auf eine festliche Tafel."
       }
     }
   ]

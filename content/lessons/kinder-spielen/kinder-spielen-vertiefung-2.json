@@ -2,18 +2,26 @@
   "topic_slug": "kinder-spielen",
   "slug": "kinder-spielen-vertiefung-2",
   "title": "Aufräumen ohne Tränen",
+  "intro": "🧸 Aufräumen führt bei kleinen Kindern oft zu Tränen. Der Übergang ist der Wechsel vom Spielen zum Aufräumen. Kündige ihn vorher an, zum Beispiel: noch 5 Minuten. So kann sich das Kind darauf einstellen. Gib klare Aufgaben mit einem Ding und einem Platz, zum Beispiel: die Autos in die Auto-Kiste. Kleine Kinder können noch nicht lesen. Ein Bild auf der Kiste zeigt darum ohne Worte, was hineingehört. Druck und Drohungen führen nur zu Streit. Besser motivierst du spielerisch, zum Beispiel mit einem Wettrennen. Lob am Ende nennt man positive Verstärkung: Was gelobt wird, macht das Kind gern wieder.",
   "sort": 4,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏳ Die Spielzeit ist gleich vorbei. Was machst du?",
+        "prompt": "⏳ Die Spielzeit ist gleich vorbei. Wie kündigst du den Übergang zum Aufräumen an?",
         "options": [
-          { "text": "🗣️ Ich sage vorher Bescheid: Noch 5 Minuten, dann räumen wir auf.", "correct": true },
-          { "text": "⚡ Ich nehme dem Kind sofort alles weg." },
-          { "text": "🤫 Ich sage gar nichts und räume heimlich auf." }
+          {
+            "text": "🗣️ Ich sage vorher Bescheid: Noch 5 Minuten, dann räumen wir auf.",
+            "correct": true
+          },
+          {
+            "text": "⏱️ Ich sage erst im letzten Moment: Stopp, die Zeit ist jetzt um."
+          },
+          {
+            "text": "🔔 Ich sage nur: Gleich ist Schluss – aber ohne zu sagen, wann."
+          }
         ],
-        "explanation": "Kinder brauchen Zeit zum Umschalten. Wenn du vorher Bescheid sagst, kann sich das Kind darauf einstellen. Plötzliches Aufhören gibt oft Tränen."
+        "explanation": "Der Wechsel vom Spielen zum Aufräumen heißt Übergang. Kinder brauchen Zeit zum Umschalten. Eine feste Ansage wie 'noch 5 Minuten' hilft besser als ein vages 'gleich' oder ein plötzliches 'Stopp'. Sonst gibt es oft Tränen."
       }
     },
     {
@@ -21,37 +29,63 @@
       "data": {
         "prompt": "🧹 So leitest du das Aufräumen an. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "⏳ Vorher ankündigen: Noch 5 Minuten Spielzeit." },
-          { "text": "🎵 Das Aufräum-Lied starten: Jetzt geht es los." },
-          { "text": "🗣️ Kleine Aufgaben verteilen: Du sammelst die Autos." },
-          { "text": "🤝 Zusammen aufräumen. Du hilfst mit." },
-          { "text": "👀 Kurz schauen: Ist alles am richtigen Platz?" },
-          { "text": "🎉 Zum Schluss loben: Das habt ihr toll gemacht!" }
+          {
+            "text": "⏳ Vorher ankündigen: Noch 5 Minuten Spielzeit."
+          },
+          {
+            "text": "🎵 Das Aufräum-Lied starten: Jetzt geht es los."
+          },
+          {
+            "text": "🗣️ Kleine Aufgaben verteilen: Du sammelst die Autos."
+          },
+          {
+            "text": "🤝 Zusammen aufräumen. Du hilfst mit."
+          },
+          {
+            "text": "👀 Kurz schauen: Ist alles am richtigen Platz?"
+          },
+          {
+            "text": "🎉 Zum Schluss loben: Das habt ihr toll gemacht!"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗣️ Welche Aufgabe versteht ein kleines Kind am besten?",
+        "prompt": "🗣️ Du gibst dem Kind eine Aufräum-Aufgabe. Welche kann ein kleines Kind am besten umsetzen?",
         "options": [
-          { "text": "🧱 Leg die Bauklötze in die rote Kiste.", "correct": true },
-          { "text": "🌪️ Räum jetzt das ganze Zimmer auf!" },
-          { "text": "🤔 Mach mal irgendwas Ordentliches." }
+          {
+            "text": "🧱 Leg die Bauklötze in die rote Kiste.",
+            "correct": true
+          },
+          {
+            "text": "🌪️ Räum bitte dein ganzes Zimmer ordentlich auf."
+          },
+          {
+            "text": "🧸 Räum mal deine Sachen weg."
+          }
         ],
-        "explanation": "Kleine, klare Aufgaben funktionieren am besten. Das ganze Zimmer ist für ein Kind zu viel auf einmal. Eine Kiste und eine Sache – das klappt."
+        "explanation": "Eine konkrete Aufgabe nennt genau ein Ding und einen Platz: die Bauklötze, die rote Kiste. 'Das ganze Zimmer' ist zu viel auf einmal. 'Deine Sachen' ist zu unklar. Konkret heißt: genau und klar."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🖼️ Auf den Spielzeug-Kisten kleben Bilder: Autos, Kuscheltiere, Bauklötze. Warum?",
+        "prompt": "🖼️ Auf den Spielzeug-Kisten kleben Bilder: Autos, Kuscheltiere, Bauklötze. Warum vor allem?",
         "options": [
-          { "text": "👀 Das Kind sieht sofort, was in die Kiste gehört. Auch ohne Lesen.", "correct": true },
-          { "text": "🎨 Die Bilder sind nur zur Dekoration." },
-          { "text": "🙈 Damit die Kinder die Kisten nicht öffnen." }
+          {
+            "text": "👀 Das Kind sieht sofort, was in die Kiste gehört. Auch ohne Lesen.",
+            "correct": true
+          },
+          {
+            "text": "🎨 Damit das Zimmer schön bunt aussieht."
+          },
+          {
+            "text": "🏷️ Damit die Erwachsenen die Kisten schneller finden."
+          }
         ],
-        "explanation": "Kleine Kinder können noch nicht lesen. Ein Bild auf der Kiste zeigt ihnen: Hier kommen die Autos rein. So können sie alleine aufräumen."
+        "explanation": "Kleine Kinder können noch nicht lesen. Ein Bild ist ein Symbol: Es zeigt ohne Worte, was gemeint ist. Auf der Kiste heißt es: Hier kommen die Autos rein. So kann das Kind allein aufräumen."
       }
     },
     {
@@ -59,30 +93,67 @@
       "data": {
         "prompt": "📦 Aufräum-Zeit! Was kommt in welche Kiste? Sortiere.",
         "buckets": [
-          { "id": "autos", "label": "Kiste: Autos", "icon": "🚗" },
-          { "id": "kuscheltiere", "label": "Kiste: Kuscheltiere", "icon": "🧸" },
-          { "id": "baukloetze", "label": "Kiste: Bauklötze", "icon": "🧱" }
+          {
+            "id": "autos",
+            "label": "Kiste: Autos",
+            "icon": "🚗"
+          },
+          {
+            "id": "kuscheltiere",
+            "label": "Kiste: Kuscheltiere",
+            "icon": "🧸"
+          },
+          {
+            "id": "baukloetze",
+            "label": "Kiste: Bauklötze",
+            "icon": "🧱"
+          }
         ],
         "items": [
-          { "text": "🚒 Feuerwehrauto", "bucket": "autos" },
-          { "text": "🧸 Teddy", "bucket": "kuscheltiere" },
-          { "text": "🟥 Roter Bauklotz", "bucket": "baukloetze" },
-          { "text": "🏎️ Rennauto", "bucket": "autos" },
-          { "text": "🐰 Stoffhase", "bucket": "kuscheltiere" },
-          { "text": "🟩 Grüner Bauklotz", "bucket": "baukloetze" }
+          {
+            "text": "🚒 Feuerwehrauto",
+            "bucket": "autos"
+          },
+          {
+            "text": "🧸 Teddy",
+            "bucket": "kuscheltiere"
+          },
+          {
+            "text": "🟥 Roter Bauklotz",
+            "bucket": "baukloetze"
+          },
+          {
+            "text": "🏎️ Rennauto",
+            "bucket": "autos"
+          },
+          {
+            "text": "🐰 Stoffhase",
+            "bucket": "kuscheltiere"
+          },
+          {
+            "text": "🟩 Grüner Bauklotz",
+            "bucket": "baukloetze"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😤 Ein Kind will nicht aufräumen. Was hilft?",
+        "prompt": "😤 Ein Kind will einfach nicht aufräumen. Was hilft am besten?",
         "options": [
-          { "text": "🏁 Ein Spiel daraus machen: Wer sammelt schneller alle Autos ein?", "correct": true },
-          { "text": "😠 Schimpfen und drohen." },
-          { "text": "🙇 Ich räume alles alleine auf." }
+          {
+            "text": "🏁 Ein Spiel daraus machen: Wer sammelt schneller alle Autos ein?",
+            "correct": true
+          },
+          {
+            "text": "😤 Ich drohe: Wenn du nicht aufräumst, gibt es morgen kein Spielen."
+          },
+          {
+            "text": "🍬 Ich verspreche jedes Mal ein Bonbon fürs Aufräumen."
+          }
         ],
-        "explanation": "Schimpfen hilft nicht. Ein Aufräum-Wettrennen macht aus der Pflicht ein Spiel. Und wenn du alles alleine machst, lernt das Kind nichts."
+        "explanation": "Druck und Drohungen machen aus dem Aufräumen einen Streit. Ein Bonbon jedes Mal wirkt nur kurz. Am besten motivierst du spielerisch: Ein Wettrennen macht aus der Pflicht ein Spiel. Spielerisch heißt: über das Spiel statt über Zwang."
       }
     },
     {
@@ -90,10 +161,38 @@
       "data": {
         "prompt": "💡 Welcher Trick hilft wie? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🎵 Aufräum-Lied" }, "right": { "text": "Alle wissen: Jetzt geht es los" } },
-          { "left": { "text": "🖼️ Bild auf der Kiste" }, "right": { "text": "Das Kind weiß, was hineingehört" } },
-          { "left": { "text": "⏳ Vorher ankündigen" }, "right": { "text": "Das Kind kann sich einstellen" } },
-          { "left": { "text": "🏁 Aufräum-Wettrennen" }, "right": { "text": "Aufräumen macht Spaß" } }
+          {
+            "left": {
+              "text": "🎵 Aufräum-Lied"
+            },
+            "right": {
+              "text": "Alle wissen: Jetzt geht es los"
+            }
+          },
+          {
+            "left": {
+              "text": "🖼️ Bild auf der Kiste"
+            },
+            "right": {
+              "text": "Das Kind weiß, was hineingehört"
+            }
+          },
+          {
+            "left": {
+              "text": "⏳ Vorher ankündigen"
+            },
+            "right": {
+              "text": "Das Kind kann sich einstellen"
+            }
+          },
+          {
+            "left": {
+              "text": "🏁 Aufräum-Wettrennen"
+            },
+            "right": {
+              "text": "Aufräumen macht Spaß"
+            }
+          }
         ],
         "memory": false
       }
@@ -101,25 +200,39 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎉 Die Kinder haben fertig aufgeräumt. Was sagst du?",
+        "prompt": "🎉 Die Kinder haben fertig aufgeräumt. Was sagst du am besten?",
         "options": [
-          { "text": "💛 Das habt ihr super gemacht!", "correct": true },
-          { "text": "😒 Das hat aber lange gedauert." },
-          { "text": "🤐 Gar nichts." }
+          {
+            "text": "💛 Das habt ihr super gemacht!",
+            "correct": true
+          },
+          {
+            "text": "😐 Nichts – aufräumen ist doch selbstverständlich."
+          },
+          {
+            "text": "🔧 Beim nächsten Mal geht das aber schneller, oder?"
+          }
         ],
-        "explanation": "Loben ist wichtig! Das Kind merkt: Aufräumen lohnt sich. Beim nächsten Mal macht es gerne wieder mit."
+        "explanation": "Ehrliches Lob ist wichtig. Das nennt man positive Verstärkung: Was gelobt wird, macht das Kind gern wieder. Gar keine Reaktion oder ein Tadel danach nimmt die Freude. Dann macht es beim nächsten Mal weniger gern mit."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Wohin kommt der Teddy nach dem Spielen?",
+        "prompt": "🌟 Letzte Frage: In welche der drei Kisten kommt der Teddy nach dem Spielen?",
         "options": [
-          { "text": "🧸 In die Kuscheltier-Kiste.", "correct": true },
-          { "text": "🗑️ In den Mülleimer." },
-          { "text": "🧊 In den Kühlschrank." }
+          {
+            "text": "🧸 In die Kuscheltier-Kiste.",
+            "correct": true
+          },
+          {
+            "text": "🚗 In die Auto-Kiste."
+          },
+          {
+            "text": "🧱 In die Bauklotz-Kiste."
+          }
         ],
-        "explanation": "Der Teddy kommt in die Kuscheltier-Kiste. Jedes Ding hat seinen festen Platz."
+        "explanation": "Der Teddy ist ein Kuscheltier. Darum kommt er in die Kuscheltier-Kiste – nicht zu den Autos oder Bauklötzen. Jedes Ding hat seinen festen Platz. So findet das Kind es beim nächsten Mal wieder."
       }
     }
   ]

@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👕 Die textile Kette zeigt den ganzen Weg eines Kleidungsstücks. Womit beginnt sie?",
+        "prompt": "👕 Die textile Kette zeigt den ganzen Weg eines Kleidungsstücks. Mit welcher Station beginnt sie?",
         "options": [
           { "text": "Mit der Fasererzeugung.", "correct": true },
-          { "text": "Mit dem Waschen." },
-          { "text": "Mit dem Wegwerfen." }
+          { "text": "Mit der Textilerzeugung." },
+          { "text": "Mit der Konfektion." }
         ],
-        "explanation": "Am Anfang steht die Fasererzeugung. Hier entsteht die Faser, zum Beispiel wächst die Baumwolle. Ohne Faser gibt es keinen Stoff."
+        "explanation": "Am Anfang steht die Fasererzeugung. Hier entsteht die Faser, zum Beispiel wächst die Baumwolle. Textilerzeugung (das Weben von Stoff) und Konfektion (das Nähen von Kleidung) kommen erst später. Ohne Faser gibt es keinen Stoff."
       }
     },
     {
@@ -79,25 +79,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "♻️ Was passiert am Ende der textilen Kette?",
+        "prompt": "♻️ Was passiert in der letzten Station der textilen Kette?",
         "options": [
           { "text": "Die alte Kleidung wird entsorgt oder verwertet.", "correct": true },
-          { "text": "Die Faser wird zum ersten Mal angebaut." },
-          { "text": "Der Stoff wird bedruckt." }
+          { "text": "Das Kleidungsstück wird gekauft und getragen." },
+          { "text": "Der Stoff wird zugeschnitten und genäht." }
         ],
-        "explanation": "Am Ende steht die Entsorgung und Verwertung. Alte Kleidung wird recycelt. Die Fasern können so wieder neu genutzt werden."
+        "explanation": "Am Ende steht die Entsorgung und Verwertung. Alte Kleidung wird recycelt, also die Fasern wieder neu genutzt. Getragen und gewaschen wird in der Station davor (Gebrauch und Pflege). Zugeschnitten und genäht wird in der Konfektion, viel früher."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ In welcher Station wird aus dem Stoff ein fertiges Kleidungsstück?",
+        "prompt": "✅ Aus einem fertigen Stoff soll eine Hose werden. In welcher Station wird der Stoff zugeschnitten und zusammengenäht?",
         "options": [
           { "text": "In der Konfektion.", "correct": true },
-          { "text": "In der Fasererzeugung." },
-          { "text": "Bei der Entsorgung." }
+          { "text": "In der Textilerzeugung." },
+          { "text": "In der Textilveredlung." }
         ],
-        "explanation": "In der Konfektion wird der Stoff zugeschnitten und zu Kleidung genäht. Danach ist das Kleidungsstück fertig."
+        "explanation": "In der Konfektion wird der Stoff zugeschnitten und zu Kleidung genäht. In der Textilerzeugung entsteht erst der Stoff aus den Fasern. In der Textilveredlung wird der Stoff nur gefärbt oder bedruckt. Genäht wird also nur in der Konfektion."
       }
     }
   ]

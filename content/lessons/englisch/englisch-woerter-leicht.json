@@ -1,0 +1,147 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-woerter-leicht",
+  "title": "Wichtige Wörter üben",
+  "sort": 17,
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Wörter aus der Ferienwohnung: Was gehört zusammen? Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "key" }, "right": { "text": "Schlüssel 🔑" } },
+          { "left": { "text": "room" }, "right": { "text": "Zimmer 🚪" } },
+          { "left": { "text": "bed" }, "right": { "text": "Bett 🛏️" } },
+          { "left": { "text": "towel" }, "right": { "text": "Handtuch 🧺" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach dem bathroom. 🛁 Welchen Raum sucht er?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Das Badezimmer", "correct": true },
+          { "text": "Die Küche" },
+          { "text": "Den Garten" }
+        ],
+        "explanation": "Bathroom heißt Badezimmer. Das Wort bath bedeutet Bad — so kannst du es dir gut merken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du zeigst den Gästen die Küche. 🍳 Welches englische Wort passt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "kitchen", "correct": true },
+          { "text": "garden" },
+          { "text": "bathroom" }
+        ],
+        "explanation": "Kitchen heißt Küche. Garden ist der Garten und bathroom ist das Badezimmer."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Willkommen in Ihrem Zimmer. 🚪",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Welcome" },
+          { "text": "to" },
+          { "text": "your" },
+          { "text": "room" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Draußen rund um das Haus: Was gehört zusammen? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Garten 🌳" }, "right": { "text": "garden" } },
+          { "left": { "text": "Berg 🏔️" }, "right": { "text": "mountain" } },
+          { "left": { "text": "Tal" }, "right": { "text": "valley" } },
+          { "left": { "text": "Parkplatz 🚗" }, "right": { "text": "car park" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Drinnen oder draußen? Sortiere die englischen Wörter.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "drinnen", "label": "Drinnen", "icon": "🏠" },
+          { "id": "draussen", "label": "Draußen", "icon": "🌲" }
+        ],
+        "items": [
+          { "text": "kitchen", "bucket": "drinnen" },
+          { "text": "garden", "bucket": "draussen" },
+          { "text": "bed", "bucket": "drinnen" },
+          { "text": "mountain", "bucket": "draussen" },
+          { "text": "bathroom", "bucket": "drinnen" },
+          { "text": "car park", "bucket": "draussen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: Breakfast, please! 🥐 Was möchte er?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Das Frühstück", "correct": true },
+          { "text": "Das Abendessen" },
+          { "text": "Ein Handtuch" }
+        ],
+        "explanation": "Breakfast heißt Frühstück — die erste Mahlzeit am Morgen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Genießen Sie Ihr Frühstück. 🥐",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Enjoy" },
+          { "text": "your" },
+          { "text": "breakfast" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory! 🧠 Finde die Paare: englisches Wort und deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "key" }, "right": { "text": "Schlüssel" } },
+          { "left": { "text": "towel" }, "right": { "text": "Handtuch" } },
+          { "left": { "text": "mountain" }, "right": { "text": "Berg" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste fragen, wo sie ihr Auto abstellen können. 🚗 Welches englische Wort brauchst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "car park", "correct": true },
+          { "text": "valley" },
+          { "text": "kitchen" }
+        ],
+        "explanation": "Car park heißt Parkplatz. Valley ist das Tal und kitchen ist die Küche."
+      }
+    }
+  ]
+}

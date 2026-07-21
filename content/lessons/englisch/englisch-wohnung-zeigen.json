@@ -1,0 +1,149 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-wohnung-zeigen",
+  "title": "Die Wohnung zeigen",
+  "sort": 11,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste stehen an der Tür. 🚪 Du heißt sie in eurer Wohnung willkommen. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Welcome to our cozy apartment!", "correct": true },
+          { "text": "Check-out is at ten o'clock." },
+          { "text": "The car is in front of the house." }
+        ],
+        "explanation": "Welcome to … heißt: Willkommen in … Cozy heißt gemütlich. So begrüßt du die Gäste herzlich."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Rundgang durch die Wohnung: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "This is the kitchen. 🍳" }, "right": { "text": "Das ist die Küche." } },
+          { "left": { "text": "This is the living room. 🛋️" }, "right": { "text": "Das ist das Wohnzimmer." } },
+          { "left": { "text": "This is the bedroom. 🛏️" }, "right": { "text": "Das ist das Schlafzimmer." } },
+          { "left": { "text": "The dining area is right here." }, "right": { "text": "Der Essbereich ist gleich hier." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das ist die Küche. 🍳",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "This" },
+          { "text": "is" },
+          { "text": "the" },
+          { "text": "kitchen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst: Please follow me. Let me show you around the apartment. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Folgen Sie mir. Ich zeige Ihnen die Wohnung.", "correct": true },
+          { "text": "Warten Sie hier. Ich hole den Schlüssel." },
+          { "text": "Gehen Sie schon vor. Ich komme gleich nach." }
+        ],
+        "explanation": "Follow me heißt: Folgen Sie mir. Show you around heißt: herumführen. Du gehst voran und zeigst alle Zimmer."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das ist das Wohnzimmer. 🛋️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "This" },
+          { "text": "is" },
+          { "text": "the" },
+          { "text": "living" },
+          { "text": "room" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du führst die Gäste ins Wohnzimmer. Von dort geht es direkt auf den Balkon. 🌿 Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "From the living room, you have direct access to the balcony.", "correct": true },
+          { "text": "The balcony is closed during your stay." },
+          { "text": "There is no balcony in this apartment." }
+        ],
+        "explanation": "Direct access heißt: direkter Zugang. Balcony heißt Balkon. So wissen die Gäste, wie sie nach draußen kommen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Begrüßung an der Tür oder Rundgang durch die Zimmer? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "begruessung", "label": "An der Tür", "icon": "🚪" },
+          { "id": "rundgang", "label": "Zimmer zeigen", "icon": "🏠" }
+        ],
+        "items": [
+          { "text": "Welcome to our cozy apartment!", "bucket": "begruessung" },
+          { "text": "Please come in.", "bucket": "begruessung" },
+          { "text": "This is the kitchen.", "bucket": "rundgang" },
+          { "text": "This is the living room.", "bucket": "rundgang" },
+          { "text": "This is the bedroom.", "bucket": "rundgang" },
+          { "text": "The dining area is right here.", "bucket": "rundgang" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Sag es auf Englisch: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Kommen Sie herein." }, "right": { "text": "Please come in." } },
+          { "left": { "text": "Folgen Sie mir." }, "right": { "text": "Please follow me." } },
+          { "left": { "text": "Willkommen in unserer gemütlichen Wohnung!" }, "right": { "text": "Welcome to our cozy apartment!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das ist das Schlafzimmer. 🛏️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "This" },
+          { "text": "is" },
+          { "text": "the" },
+          { "text": "bedroom" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du zeigst auf den Raum mit Herd und Spüle. 🍳 Du sagst: This is the kitchen. Welcher Raum ist das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Küche.", "correct": true },
+          { "text": "Das Bad." },
+          { "text": "Der Balkon." }
+        ],
+        "explanation": "Kitchen heißt Küche. Hier wird gekocht. 🍳"
+      }
+    }
+  ]
+}

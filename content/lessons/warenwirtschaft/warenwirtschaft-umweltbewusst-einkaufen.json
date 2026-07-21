@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Du kaufst umweltbewusst ein. Worauf achtest du dabei?",
+        "prompt": "🌍 Du willst umweltbewusst einkaufen. Worauf achtest du im Supermarkt zuerst?",
         "options": [
           { "text": "Kurzer Transportweg, wenig Verpackung und Mehrweg.", "correct": true },
-          { "text": "Nur auf den niedrigsten Preis." },
-          { "text": "Auf die schönste Verpackung." }
+          { "text": "Vor allem auf lange Haltbarkeit. Dafür ist viel Verpackung in Ordnung." },
+          { "text": "Hauptsache ein Bio-Siegel. Der Transportweg ist dann egal." }
         ],
-        "explanation": "Gute Fragen sind: Wie weit war der Weg? Wie viel Verpackung ist dabei? Kann ich die Flasche wieder benutzen? So schützt du die Umwelt."
+        "explanation": "Achte auf drei Dinge: kurzer Transportweg, wenig Verpackung und Mehrweg. Regional heißt: Die Ware kommt aus der Nähe. Ein Bio-Siegel allein reicht nicht – auch der Weg zählt."
       }
     },
     {
@@ -53,25 +53,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍎 Äpfel aus Südafrika oder Äpfel aus der Region – was ist besser für die Umwelt?",
+        "prompt": "🍎 Äpfel aus Südafrika oder Äpfel aus der Region – welche Wahl belastet die Umwelt weniger?",
         "options": [
           { "text": "Äpfel aus der Region, denn der Transportweg ist kurz.", "correct": true },
-          { "text": "Äpfel aus Südafrika, die sind immer frischer." },
-          { "text": "Das ist völlig egal." }
+          { "text": "Äpfel aus Südafrika, denn der Transport per Schiff kostet kaum Energie." },
+          { "text": "Das ist egal, beide legen ungefähr den gleichen Weg zurück." }
         ],
-        "explanation": "Äpfel aus Südafrika reisen mit dem Schiff oder Flugzeug sehr weit. Das kostet viel Energie. Regionale Äpfel haben einen kurzen Weg."
+        "explanation": "Äpfel aus Südafrika reisen mit Schiff oder Flugzeug sehr weit. Das kostet viel Energie. Dabei entsteht viel CO2. CO2 ist ein Gas, das dem Klima schadet. Regionale Äpfel haben einen kurzen Weg."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "♻️ Was ist besser: eine Mehrwegflasche oder eine Einwegflasche?",
+        "prompt": "♻️ Was ist besser für die Umwelt: eine Mehrwegflasche oder eine Einwegflasche?",
         "options": [
           { "text": "Die Mehrwegflasche, sie wird viele Male neu befüllt.", "correct": true },
-          { "text": "Die Einwegflasche, die kann man wegwerfen." },
-          { "text": "Beide sind gleich gut." }
+          { "text": "Die Einwegflasche, denn sie ist leichter und spart so beim Transport." },
+          { "text": "Beide gleich – auch Einwegflaschen gibt man ja im Pfandautomaten ab." }
         ],
-        "explanation": "Eine Mehrwegflasche wird gereinigt und wieder befüllt. Das spart Müll. Eine Einwegflasche nutzt man nur einmal."
+        "explanation": "Eine Mehrwegflasche wird gereinigt und viele Male neu befüllt. Das spart Müll. Eine Einwegflasche nutzt man nur einmal. Auch mit Pfand wird sie danach zerkleinert und nicht neu befüllt."
       }
     },
     {
@@ -90,13 +90,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥒 Eine Gurke steckt in einer Plastikfolie. Was spricht dagegen?",
+        "prompt": "🥒 Eine Gurke ist in Plastikfolie eingepackt. Was spricht aus Umwelt-Sicht dagegen?",
         "options": [
           { "text": "Die Folie ist unnötiger Verpackungsmüll.", "correct": true },
-          { "text": "Die Folie macht die Gurke gesünder." },
-          { "text": "Nichts, das ist super." }
+          { "text": "Nichts – die Folie hält die Gurke länger frisch und ist deshalb gut." },
+          { "text": "Nichts – die dünne Folie ist ja schnell im Müll und stört kaum." }
         ],
-        "explanation": "Eine Gurke hat eine feste Schale. Sie braucht keine Folie. Die Folie wird gleich zu Müll."
+        "explanation": "Eine Gurke hat eine feste Schale. Sie schützt sich schon selbst. Die Folie braucht sie nicht. Sie wird sofort zu Verpackungsmüll."
       }
     },
     {
@@ -105,22 +105,22 @@
         "prompt": "🐔 Was bedeutet artgerechte Tierhaltung, zum Beispiel bei Bioland-Geflügel?",
         "options": [
           { "text": "Die Tiere haben mehr Platz und Auslauf.", "correct": true },
-          { "text": "Die Tiere leben eng zusammengedrängt." },
-          { "text": "Die Tiere bekommen nie Futter." }
+          { "text": "Die Tiere wachsen möglichst schnell, damit das Fleisch billig wird." },
+          { "text": "Die Tiere bleiben im Stall, bekommen aber besonders viel Futter." }
         ],
-        "explanation": "Artgerecht heißt: Die Tiere leben so, wie es für sie gut ist. Sie haben Platz und Auslauf. Bioland achtet darauf."
+        "explanation": "Artgerecht heißt: Die Tiere leben so, wie es für sie gut ist. Sie haben Platz und Auslauf. Bioland ist ein Bio-Verband und achtet darauf."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Welche Wahl ist am besten für die Umwelt?",
+        "prompt": "🌟 Zum Schluss: Welcher Einkauf ist am besten für die Umwelt?",
         "options": [
           { "text": "Regional, wenig Verpackung und Mehrweg.", "correct": true },
-          { "text": "Weit gereist und in viel Plastik." },
-          { "text": "Einwegflasche mit langem Transportweg." }
+          { "text": "Regional, aber in viel Plastik für eine längere Haltbarkeit." },
+          { "text": "Bio-Ware aus Übersee in einer Mehrwegverpackung." }
         ],
-        "explanation": "Aus der Region, wenig Verpackung und Mehrweg – das ist die umweltfreundlichste Wahl. Genau darauf kannst du beim Einkauf achten."
+        "explanation": "Am besten ist alles zusammen: aus der Region, wenig Verpackung und Mehrweg. Ein guter Punkt allein reicht nicht. Bio aus Übersee hat trotzdem einen langen Weg."
       }
     }
   ]

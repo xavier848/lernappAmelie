@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚖️ Wie viele Gramm sind 1 Kilogramm?",
+        "prompt": "⚖️ Auf einer Zucker-Packung steht 1 kg. Wie viele Gramm sind in der Packung?",
         "options": [
           { "text": "1000 Gramm.", "correct": true },
           { "text": "100 Gramm." },
-          { "text": "500 Gramm." }
+          { "text": "1100 Gramm." }
         ],
-        "explanation": "1 Kilogramm sind immer 1000 Gramm. Die Abkürzung kg steht für Kilogramm, g steht für Gramm."
+        "explanation": "1 Kilogramm sind immer genau 1000 Gramm. Die Abkürzung kg heißt Kilogramm, g heißt Gramm. Die Vorsilbe Kilo bedeutet immer 1000."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚖️ Du brauchst ein halbes Kilo Mehl. Wie viele Gramm sind das?",
+        "prompt": "⚖️ Im Rezept steht: ein halbes Kilo Mehl. Wie viel wiegst du auf der Waage ab?",
         "options": [
           { "text": "500 Gramm.", "correct": true },
           { "text": "250 Gramm." },
           { "text": "750 Gramm." }
         ],
-        "explanation": "Ein halbes Kilo ist die Hälfte von 1000 Gramm. Die Hälfte von 1000 ist 500. Also sind ein halbes Kilo 500 Gramm."
+        "explanation": "Ein halbes Kilo ist die Hälfte von 1000 Gramm. Die Hälfte von 1000 ist 500. Also sind ein halbes Kilo 500 Gramm. 250 Gramm wären nur ein Viertel."
       }
     },
     {
@@ -53,7 +53,7 @@
         "items": [
           { "text": "125 g", "bucket": "klein" },
           { "text": "250 g", "bucket": "klein" },
-          { "text": "500 g", "bucket": "gross" },
+          { "text": "400 g", "bucket": "klein" },
           { "text": "750 g", "bucket": "gross" },
           { "text": "1000 g", "bucket": "gross" }
         ]
@@ -62,13 +62,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚖️ Du brauchst ein Viertel Kilo Zucker. Wie viele Gramm sind das?",
+        "prompt": "⚖️ Du brauchst ein Viertel Kilo Zucker. Wie viel muss die Waage zeigen?",
         "options": [
           { "text": "250 Gramm.", "correct": true },
           { "text": "125 Gramm." },
           { "text": "500 Gramm." }
         ],
-        "explanation": "Ein Viertel Kilo ist ein Viertel von 1000 Gramm. 1000 geteilt durch 4 ist 250. Also sind ein Viertel Kilo 250 Gramm."
+        "explanation": "Ein Viertel Kilo ist ein Viertel von 1000 Gramm. 1000 geteilt durch 4 ist 250. Also sind ein Viertel Kilo 250 Gramm. 125 Gramm wären nur ein Achtel."
       }
     },
     {
@@ -88,25 +88,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Bei Wasser gilt eine praktische Regel. Wie viel wiegt 1 Milliliter Wasser?",
+        "prompt": "💧 Für Wasser gibt es eine praktische Faustregel. Wie viel wiegt 1 Milliliter Wasser?",
         "options": [
           { "text": "Genau 1 Gramm.", "correct": true },
-          { "text": "10 Gramm." },
-          { "text": "100 Gramm." }
+          { "text": "Ungefähr ein halbes Gramm." },
+          { "text": "Etwa 10 Gramm." }
         ],
-        "explanation": "Bei Wasser wiegt 1 Milliliter genau 1 Gramm. So sind 1 Liter Wasser auch 1000 Gramm. Bei Mehl oder Öl stimmt das nicht genau."
+        "explanation": "Bei Wasser gilt die Faustregel: 1 Milliliter wiegt genau 1 Gramm. Eine Faustregel ist ein einfacher Merksatz für den Alltag. So sind 1 Liter Wasser genau 1000 Gramm. Bei Mehl oder Öl stimmt das nicht genau."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧁 Im Rezept steht ein Viertel Kilo. Wie viel wiegst du ab?",
+        "prompt": "🧁 Im Rezept steht ein Viertel Kilo Butter. Wie viel wiegst du ab?",
         "options": [
           { "text": "250 Gramm.", "correct": true },
-          { "text": "25 Gramm." },
-          { "text": "2500 Gramm." }
+          { "text": "500 Gramm." },
+          { "text": "125 Gramm." }
         ],
-        "explanation": "Ein Viertel Kilo sind 250 Gramm. Merke dir die kleine Reihe: 125, 250, 500, 750, 1000 Gramm."
+        "explanation": "Ein Viertel Kilo sind 250 Gramm. 500 Gramm wären ein halbes Kilo. Merke dir die kleine Reihe: 125, 250, 500, 750, 1000 Gramm."
       }
     }
   ]

@@ -1,0 +1,145 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-gasten-infos",
+  "title": "Gäste: Begrüßung & Tipps",
+  "sort": 4,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du begrüßt die Gäste. 🏔️ Du sagst: Dit is uw perfecte bergverblijf in het hart van Lermoos. Was heißt das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Das ist Ihr perfektes Bergrefugium mitten in Lermoos.", "correct": true },
+          { "text": "Das ist der schnellste Weg nach Lermoos." },
+          { "text": "In Lermoos gibt es viele Berge zum Wandern." }
+        ],
+        "explanation": "Een bergverblijf ist ein Rückzugsort in den Bergen. In het hart van heißt: mitten in / im Herzen von."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste begrüßen: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Welkom in ons appartement! 😊" }, "right": { "text": "Willkommen in unserer Wohnung!" } },
+          { "left": { "text": "Hier is uw sleutel. 🔑" }, "right": { "text": "Hier ist Ihr Schlüssel." } },
+          { "left": { "text": "Ik woon hier vlak naast." }, "right": { "text": "Ich wohne gleich nebenan." } },
+          { "left": { "text": "Zeg het gerust. 🙋" }, "right": { "text": "Sagen Sie mir bitte Bescheid." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach dem WLAN. 📶 Du zeigst auf die Infomappe. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Het wifi-wachtwoord en alle andere belangrijke informatie vindt u in deze map.", "correct": true },
+          { "text": "De wifi is stuk, het spijt me." },
+          { "text": "U moet voor de wifi betalen bij de receptie." }
+        ],
+        "explanation": "In deze map vindt u … heißt: in dieser Mappe finden Sie … So weiß der Gast, wo alle Infos stehen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich wohne gleich nebenan. 🏡",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "woon" },
+          { "text": "hier" },
+          { "text": "vlak" },
+          { "text": "naast" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du gibst einen Tipp: Het dalstation van skigebied Grubigstein is op korte loopafstand. ⛷️ Was heißt das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Die Talstation vom Skigebiet Grubigstein ist nur einen kurzen Spaziergang entfernt.", "correct": true },
+          { "text": "Das Skigebiet Grubigstein ist leider heute geschlossen." },
+          { "text": "Bis zur Talstation muss man eine Stunde mit dem Auto fahren." }
+        ],
+        "explanation": "Op korte loopafstand heißt: nur einen kurzen Spaziergang entfernt. Dalstation ist die Talstation."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sagen Sie mir bitte Bescheid. 🙋",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Zeg" },
+          { "text": "het" },
+          { "text": "gerust" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Begrüßung im Haus oder Tipp für draußen? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "haus", "label": "Im Haus", "icon": "🏠" },
+          { "id": "draussen", "label": "Tipp für draußen", "icon": "⛷️" }
+        ],
+        "items": [
+          { "text": "Welkom in uw bergverblijf!", "bucket": "haus" },
+          { "text": "Het wifi-wachtwoord staat in deze map.", "bucket": "haus" },
+          { "text": "Het skistation is vlakbij.", "bucket": "draussen" },
+          { "text": "De loipes beginnen beneden in het dal.", "bucket": "draussen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss möchtest du deine Hilfe anbieten. 😊 Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Als u nog iets nodig heeft, laat het me gerust weten.", "correct": true },
+          { "text": "U moet nu het appartement verlaten." },
+          { "text": "Ik kan u nergens mee helpen." }
+        ],
+        "explanation": "Als u nog iets nodig heeft heißt: Wenn Sie noch etwas brauchen. Damit zeigst du, dass du gern hilfst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du erzählst vom Langlaufen: Als u liever langlauft, beginnen de loipes beneden in het dal en bieden ze een prachtig uitzicht. Was heißt das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wenn Sie lieber Langlaufen, beginnen die Loipen unten im Tal und bieten eine schöne Aussicht.", "correct": true },
+          { "text": "Langlaufen ist im Tal leider nicht erlaubt." },
+          { "text": "Zum Langlaufen müssen Sie erst auf den Berg fahren." }
+        ],
+        "explanation": "Langlaufen heißt langlaufen, loipes sind die Loipen, en prachtig uitzicht heißt: schöne Aussicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welcher niederländische Satz passt? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Willkommen in Ihrem Bergrefugium!" }, "right": { "text": "Welkom in uw bergverblijf!" } },
+          { "left": { "text": "Ich wohne gleich nebenan." }, "right": { "text": "Ik woon hier vlak naast." } },
+          { "left": { "text": "Brauchen Sie noch etwas?" }, "right": { "text": "Heeft u nog iets nodig?" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

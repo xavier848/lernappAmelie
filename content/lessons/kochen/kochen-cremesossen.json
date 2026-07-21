@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Wozu passt eine gekochte Cremesosse?",
+        "prompt": "🥣 Du hast eine Cremesosse gekocht. Zu welchem Gericht passt sie?",
         "options": [
           { "text": "Zu Flammeri, Bratäpfeln und süßen Aufläufen.", "correct": true },
-          { "text": "Zu grünem Salat." },
-          { "text": "Zu einer klaren Suppe." }
+          { "text": "Zu gebratenem Fisch mit Gemüse." },
+          { "text": "Zu Nudeln mit Hackfleisch." }
         ],
-        "explanation": "Die Cremesosse ist eine süße Beilage. Sie passt zu Flammeri, zu Bratäpfeln und zu süßen Aufläufen. Du kannst sie kalt oder warm servieren."
+        "explanation": "Diese Cremesosse ist eine süße Sosse. Süße Beilage heißt: Sie gehört zum Nachtisch. Sie passt zu Flammeri, zu Bratäpfeln und zu süßen Aufläufen. Zu Fisch oder Nudeln passt sie nicht."
       }
     },
     {
@@ -32,25 +32,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍯 Für eine Karamellsosse bräunst du Zucker im Topf. Worauf achtest du?",
+        "prompt": "🍯 Du bräunst Zucker für eine Karamellsosse. Wie dunkel lässt du ihn werden?",
         "options": [
           { "text": "Den Zucker nur mittelbraun bräunen. Zu dunkel schmeckt bitter.", "correct": true },
-          { "text": "Den Zucker so dunkel wie möglich bräunen." },
-          { "text": "Den Zucker gar nicht bräunen." }
+          { "text": "Den Zucker ganz dunkel, fast schwarz bräunen." },
+          { "text": "Den Zucker nur kurz erwärmen, damit er hell bleibt." }
         ],
-        "explanation": "Lass den Zucker nur mittelbraun werden. Wird er zu dunkel, schmeckt die Sosse bitter. Bleib also am Topf und schau genau hin."
+        "explanation": "Karamell ist gebräunter Zucker. Lass den Zucker nur mittelbraun werden. Wird er zu dunkel, schmeckt die Sosse bitter. Bleibt er zu hell, schmeckst du kein Karamell. Bleib am Topf und schau genau hin."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔥 Warum löschst du den heißen Karamell vorsichtig ab und legst den Deckel schräg auf?",
+        "prompt": "🔥 Du löschst den heißen Karamell mit Wasser ab und legst den Deckel schräg auf. Warum gehst du dabei so vorsichtig vor?",
         "options": [
           { "text": "Weil es beim Ablöschen stark spritzt und dampft. Das ist eine Unfallgefahr.", "correct": true },
-          { "text": "Weil die Sosse sonst zu süß wird." },
-          { "text": "Weil der Zucker sonst kalt wird." }
+          { "text": "Damit die Sosse keine Klumpen bekommt." },
+          { "text": "Damit weniger Wasser verdampft und die Sosse dick bleibt." }
         ],
-        "explanation": "Heißer Karamell spritzt beim Ablöschen. Gib das heiße Wasser vorsichtig dazu. Leg den Deckel schräg auf. So wird der Dampf nach hinten geleitet und du verbrennst dich nicht."
+        "explanation": "Ablöschen heißt: Wasser an den heißen Zucker geben. Dabei spritzt es stark und heißer Dampf steigt auf. Das ist eine Unfallgefahr. Gib das heiße Wasser darum vorsichtig dazu. Leg den Deckel schräg auf. So wird der Dampf nach hinten geleitet und du verbrennst dich nicht."
       }
     },
     {
@@ -82,13 +82,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥃 Wie machst du aus der Cremesosse eine Eierlikörsosse?",
+        "prompt": "🥃 Du willst aus der Cremesosse eine Eierlikörsosse machen. Wann gibst du den Eierlikör dazu?",
         "options": [
           { "text": "Den Eierlikör in die fertige, gekochte Sosse rühren.", "correct": true },
-          { "text": "Den Eierlikör von Anfang an mitkochen." },
-          { "text": "Nur Eierlikör nehmen, ganz ohne Sosse." }
+          { "text": "Den Eierlikör gleich am Anfang mit der Milch aufkochen." },
+          { "text": "Den Eierlikör mitkochen, bis die Sosse dick wird." }
         ],
-        "explanation": "Koch erst die Cremesosse. Rühr dann den Eierlikör hinein. Diese Sosse passt gut zu einem Obstsalat."
+        "explanation": "Koch die Cremesosse erst fertig. Nimm den Topf von der heißen Platte. Rühr dann den Eierlikör hinein. Kochst du ihn mit, verkocht der Alkohol und der feine Geschmack geht verloren. Diese Sosse passt gut zu einem Obstsalat."
       }
     },
     {
@@ -97,22 +97,22 @@
         "prompt": "🥛 Du willst die Sosse mit Sahne verfeinern. Wann hebst du die steife Sahne unter?",
         "options": [
           { "text": "Erst wenn die Sosse abgekühlt ist.", "correct": true },
-          { "text": "Wenn die Sosse noch kocht." },
-          { "text": "Ganz am Anfang zum heißen Zucker." }
+          { "text": "Solange die Sosse noch heiß und dampfend ist." },
+          { "text": "Wenn die Sosse lauwarm ist und noch leicht dampft." }
         ],
-        "explanation": "Lass die Sosse erst abkühlen. Hebe dann die steife Sahne vorsichtig unter. In heißer Sosse würde die Sahne wieder flüssig werden."
+        "explanation": "Steife Sahne ist fest geschlagene Sahne. Lass die Sosse erst ganz abkühlen. Hebe dann die Sahne vorsichtig unter. Unterheben heißt: locker mischen, nicht kräftig rühren. In heißer Sosse würde die Sahne wieder flüssig werden."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌽 Zum Schluss: Du hast keine Speisestärke da. Womit kannst du die Sosse auch binden?",
+        "prompt": "🌽 Du hast keine Speisestärke da. Womit kannst du die Sosse trotzdem binden?",
         "options": [
           { "text": "Mit passendem Puddingpulver.", "correct": true },
-          { "text": "Mit einer Prise Salz." },
-          { "text": "Mit kaltem Wasser." }
+          { "text": "Mit etwas Zucker." },
+          { "text": "Mit einem Schluck kalter Milch." }
         ],
-        "explanation": "Statt Stärke kannst du Puddingpulver nehmen. Für eine Schokososse passt Schoko-Puddingpulver. Glutenfrei geht es auch mit Mais-, Soja- oder Leinmehl."
+        "explanation": "Binden heißt: die Sosse dick machen. Statt Speisestärke kannst du Puddingpulver nehmen, denn darin ist auch Stärke. Für eine Schokososse passt Schoko-Puddingpulver. Zucker oder Milch binden die Sosse nicht. Glutenfrei geht es auch mit Mais-, Soja- oder Leinmehl."
       }
     }
   ]

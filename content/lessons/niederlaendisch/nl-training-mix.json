@@ -1,0 +1,155 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-training-mix",
+  "title": "Training: alles gemischt",
+  "sort": 14,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast kommt zu dir und sagt: Ik kan de sleutel van de voordeur nergens vinden. 🔑 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ich kann den Schlüssel für die Haustür nirgends finden.", "correct": true },
+          { "text": "Ich kann den Stuhl an der Haustür nicht bewegen." },
+          { "text": "Ich habe den Schlüssel an der Haustür stecken lassen." }
+        ],
+        "explanation": "Sleutel heißt Schlüssel. Achtung: stoel klingt ähnlich, heißt aber Stuhl. Nergens vinden heißt: nirgends finden. Der Gast hat den Schlüssel also verloren."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Achtung, ähnlich klingende Wörter! Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Ik zoek mijn sleutel." }, "right": { "text": "Ich suche meinen Schlüssel." } },
+          { "left": { "text": "Er staat een stoel op het balkon." }, "right": { "text": "Auf dem Balkon steht ein Stuhl." } },
+          { "left": { "text": "De weg naar het dal is steil." }, "right": { "text": "Der Weg ins Tal ist steil." } },
+          { "left": { "text": "Volgende week komen nieuwe gasten." }, "right": { "text": "Nächste Woche kommen neue Gäste." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Möchten Sie noch eine Tasse Kaffee? ☕",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Wilt" },
+          { "text": "u" },
+          { "text": "nog" },
+          { "text": "een" },
+          { "text": "kopje" },
+          { "text": "koffie?" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast erzählt dir: Wij blijven nog een hele week, maar morgen zijn we de hele dag weg. Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wir bleiben noch eine ganze Woche, aber morgen sind wir den ganzen Tag unterwegs.", "correct": true },
+          { "text": "Wir bleiben noch einen ganzen Tag, aber nächste Woche sind wir weg." },
+          { "text": "Wir fahren schon heute weg und kommen nächste Woche wieder." }
+        ],
+        "explanation": "Week heißt Woche. Weg heißt weg oder fort. Die beiden Wörter kann man leicht verwechseln — hier hilft genaues Hinhören: Die Gäste bleiben eine Woche, sind aber morgen tagsüber nicht da."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Meldet der Gast ein Problem? Oder ist es Small Talk? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "problem", "label": "Problem", "icon": "🛠️" },
+          { "id": "smalltalk", "label": "Small Talk", "icon": "💬" }
+        ],
+        "items": [
+          { "text": "De douche is kapot.", "bucket": "problem" },
+          { "text": "Wat een prachtig uitzicht!", "bucket": "smalltalk" },
+          { "text": "Het water in de badkamer blijft koud.", "bucket": "problem" },
+          { "text": "Wij hebben vandaag een mooie wandeling gemaakt.", "bucket": "smalltalk" },
+          { "text": "De lamp in de slaapkamer doet het niet.", "bucket": "problem" },
+          { "text": "Het weer is vandaag heerlijk.", "bucket": "smalltalk" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Der Schlüssel für die Wohnung liegt auf dem kleinen Tisch. 🔑",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De sleutel" },
+          { "text": "van het appartement" },
+          { "text": "ligt" },
+          { "text": "op de kleine" },
+          { "text": "tafel." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Small Talk mit den Gästen: Du willst sagen: Das Wetter wird morgen leider schlechter, aber am Wochenende scheint wieder die Sonne. 🌦️ Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Het weer wordt morgen helaas slechter, maar in het weekend schijnt de zon weer.", "correct": true },
+          { "text": "Het weer wordt morgen veel beter, maar in het weekend gaat het regenen." },
+          { "text": "Het weer was gisteren slecht, maar vandaag schijnt de zon." }
+        ],
+        "explanation": "Slechter heißt schlechter, und de zon schijnt heißt: die Sonne scheint. In het weekend bedeutet: am Wochenende. Die anderen Sätze drehen die Wetter-Aussage um oder sprechen über gestern."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Sag es auf Niederländisch: Was gehört zusammen? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Herzlich willkommen! Kommen Sie herein!" }, "right": { "text": "Van harte welkom! Komt u binnen!" } },
+          { "left": { "text": "Das Abendessen gibt es von sechs bis neun Uhr." }, "right": { "text": "Het avondeten is van zes tot negen uur." } },
+          { "left": { "text": "Brauchen Sie noch frische Handtücher?" }, "right": { "text": "Heeft u nog schone handdoeken nodig?" } },
+          { "left": { "text": "Bis morgen früh beim Frühstück!" }, "right": { "text": "Tot morgenochtend bij het ontbijt!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Gäste reisen ab. Baue den Satz: Ich wünsche Ihnen eine gute Rückreise in die Niederlande. 🚗",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "wens" },
+          { "text": "u" },
+          { "text": "een fijne" },
+          { "text": "terugreis" },
+          { "text": "naar Nederland." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Hoeveel kost het ontbijt voor twee personen? 💶 Es kostet 24 Euro. Was antwortest du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Het ontbijt kost vierentwintig euro voor twee personen.", "correct": true },
+          { "text": "Het ontbijt kost tweeënveertig euro voor twee personen." },
+          { "text": "Het ontbijt kost vierendertig euro voor twee personen." },
+          { "text": "Het ontbijt kost veertien euro voor twee personen." }
+        ],
+        "explanation": "Vierentwintig heißt 24: Im Niederländischen kommt zuerst die Einer-Zahl (vier), dann die Zehner-Zahl (twintig) — wie im Deutschen. Tweeënveertig wäre 42, vierendertig 34 und veertien 14."
+      }
+    }
+  ]
+}

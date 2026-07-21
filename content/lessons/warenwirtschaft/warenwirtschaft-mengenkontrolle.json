@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📋 Du machst eine Mengenkontrolle. Was vergleichst du dabei?",
+        "prompt": "📋 Eine Lieferung kommt an. Du machst die Mengenkontrolle. Was legst du dafür nebeneinander?",
         "options": [
           { "text": "Die gelieferte Ware mit der Bestellung.", "correct": true },
-          { "text": "Die Ware mit dem Wetter." },
-          { "text": "Nur den Preis auf der Rechnung." }
+          { "text": "Den Lieferschein mit der Rechnung." },
+          { "text": "Die neue Lieferung mit der Lieferung von letzter Woche." }
         ],
-        "explanation": "Bei der Mengenkontrolle legst du Bestellung und Lieferung nebeneinander. So siehst du, ob Menge und Qualität stimmen."
+        "explanation": "Mengenkontrolle heißt: Du prüfst, ob die Lieferung zur Bestellung passt. Dafür legst du Bestellung und Lieferung nebeneinander und schaust, ob Menge und Qualität stimmen. Lieferschein und Rechnung vergleichst du erst später bei der Rechnungsprüfung."
       }
     },
     {
@@ -21,7 +21,7 @@
       "data": {
         "prompt": "🔎 Was ist bei diesen Lieferungen passiert? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "5 kg Zucker bestellt – 4 kg da" }, "right": { "text": "Falsche Menge" } },
+          { "left": { "text": "5 kg Zucker bestellt – 4 kg da" }, "right": { "text": "Zu wenig geliefert" } },
           { "left": { "text": "Entrahmte Milch bestellt – Vollmilch da" }, "right": { "text": "Falscher Fettgehalt" } },
           { "left": { "text": "Allzweckreiniger bestellt – Neutralreiniger da" }, "right": { "text": "Falsche Qualität" } },
           { "left": { "text": "1 Flasche Glasreiniger bestellt – 2 da" }, "right": { "text": "Zu viel geliefert" } },
@@ -54,22 +54,22 @@
         "prompt": "🥚 Bestellt: 24 Eier in Größe XL. Geliefert: 36 Eier in Größe M. Was stimmt nicht?",
         "options": [
           { "text": "Die Menge und die Größe stimmen nicht.", "correct": true },
-          { "text": "Nur die Menge ist falsch." },
-          { "text": "Alles ist richtig." }
+          { "text": "Nur die Menge ist falsch. Die Größe M ist ja auch in Ordnung." },
+          { "text": "Nur die Größe ist falsch. Mehr Eier nimmst du gern." }
         ],
-        "explanation": "36 Eier sind mehr als 24 – falsche Menge. Und M ist nicht XL – falsche Größe. Hier stimmen gleich zwei Dinge nicht."
+        "explanation": "36 Eier sind mehr als 24 – falsche Menge. Und M ist nicht XL – falsche Größe. Hier stimmen gleich zwei Dinge nicht. Beide Abweichungen notierst du auf dem Lieferschein."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧺 Bestellt war Wollwaschmittel. Geliefert wurde Vollwaschmittel. Ist das richtig?",
+        "prompt": "🧺 Bestellt war Wollwaschmittel. Geliefert wurde Vollwaschmittel. Wie bewertest du diese Lieferung?",
         "options": [
           { "text": "Nein. Das ist ein anderes Mittel, also falsche Qualität.", "correct": true },
-          { "text": "Ja, das klingt fast gleich." },
-          { "text": "Nein, die Menge ist falsch." }
+          { "text": "Ja. Beide waschen Wäsche, das ist praktisch gleich." },
+          { "text": "Nein. Aber das ist ein Mengenfehler, keine falsche Qualität." }
         ],
-        "explanation": "Woll- und Vollwaschmittel klingen ähnlich, sind aber verschieden. Wollwaschmittel ist mild für Wolle. Hier ist die Qualität falsch."
+        "explanation": "Woll- und Vollwaschmittel klingen ähnlich, sind aber verschieden. Wollwaschmittel ist mild für Wolle. Die Menge stimmt hier, nur die Qualität ist falsch: Du hast eine andere Sorte bekommen als bestellt."
       }
     },
     {
@@ -79,9 +79,9 @@
         "options": [
           { "text": "5000 g", "correct": true },
           { "text": "500 g" },
-          { "text": "5500 g" }
+          { "text": "50000 g" }
         ],
-        "explanation": "1 kg sind 1000 g. Fünf Tüten mal 1000 g sind 5000 g. Das sind genau 5 kg."
+        "explanation": "1 kg sind 1000 g. Fünf Tüten mal 1000 g sind 5000 g. Das sind genau 5 kg. Achte auf die Nullen: Mit 1 kg = 100 g kämst du auf 500 g, mit 1 kg = 10000 g auf 50000 g – beides ist falsch."
       }
     },
     {
@@ -91,9 +91,9 @@
         "options": [
           { "text": "0,750 kg", "correct": true },
           { "text": "7,50 kg" },
-          { "text": "75 kg" }
+          { "text": "0,075 kg" }
         ],
-        "explanation": "1000 g sind 1 kg. Für kg teilst du die Gramm durch 1000. 750 geteilt durch 1000 sind 0,750 kg."
+        "explanation": "1000 g sind 1 kg. Für kg teilst du die Gramm durch 1000. 750 geteilt durch 1000 sind 0,750 kg. Das Komma muss stimmen: 7,50 kg wären 7500 g, 0,075 kg nur 75 g."
       }
     },
     {
@@ -115,10 +115,10 @@
         "prompt": "➕ Alle Waren zusammen wiegen 5000 g + 750 g + 2000 g + 1000 g + 300 g + 300 g. Wie viel ist das?",
         "options": [
           { "text": "9350 g, also 9,350 kg", "correct": true },
-          { "text": "8350 g, also 8,350 kg" },
-          { "text": "9350 kg" }
+          { "text": "9050 g, also 9,050 kg" },
+          { "text": "9350 g, also 93,5 kg" }
         ],
-        "explanation": "Du addierst alle Gramm: 5000 + 750 + 2000 + 1000 + 300 + 300 = 9350 g. Geteilt durch 1000 sind das 9,350 kg."
+        "explanation": "Du addierst alle Gramm: 5000 + 750 + 2000 + 1000 + 300 + 300 = 9350 g. Rechne beide 300er mit, sonst landest du bei 9050 g. Für kg teilst du durch 1000: 9350 g sind 9,350 kg, nicht 93,5 kg."
       }
     },
     {
@@ -127,10 +127,10 @@
         "prompt": "🌟 Zum Schluss: Bestellt war eine Kiste einheimische Äpfel. Geliefert: eine Kiste Äpfel aus dem Alten Land. Passt das?",
         "options": [
           { "text": "Ja. Das Alte Land liegt in Deutschland, das ist einheimisch.", "correct": true },
-          { "text": "Nein, das ist zu weit weg." },
-          { "text": "Nein, die Menge ist falsch." }
+          { "text": "Nein. Das Alte Land liegt im Ausland, das ist Importware." },
+          { "text": "Nein. Es ist zwar Deutschland, aber einheimisch ist nur Obst aus der eigenen Region." }
         ],
-        "explanation": "Das Alte Land ist ein Obstgebiet in Deutschland. Die Äpfel sind also einheimisch. Menge und Qualität stimmen."
+        "explanation": "Einheimisch heißt: aus dem eigenen Land. Das Alte Land ist ein großes Obstgebiet in Deutschland. Die Äpfel sind also einheimisch. Menge und Qualität stimmen."
       }
     }
   ]

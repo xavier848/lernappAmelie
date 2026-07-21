@@ -7,37 +7,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Du sprühst Reiniger ins Waschbecken und ins WC. Der Reiniger muss einwirken. Was machst du?",
+        "prompt": "🧴 Du sprühst Reiniger ins Waschbecken und ins WC. Der Reiniger braucht jetzt seine Einwirkzeit. Wie nutzt du diese Zeit clever?",
         "options": [
           { "text": "Ich putze in der Zeit einen anderen Raum.", "correct": true },
-          { "text": "Ich stehe daneben und warte." },
-          { "text": "Ich wische den Reiniger sofort wieder ab." }
+          { "text": "Ich warte daneben, bis der Reiniger fertig ist." },
+          { "text": "Ich wische den Reiniger schon nach ein paar Sekunden ab." }
         ],
-        "explanation": "Der Reiniger arbeitet für dich. Nutze die Zeit und putze woanders weiter. Das ist clever!"
+        "explanation": "Einwirkzeit heißt: die Zeit, in der das Mittel von allein den Schmutz löst. Der Reiniger arbeitet also für dich. Diese Zeit nutzt du und putzt woanders weiter. Wischst du zu früh ab, war das Einsprühen umsonst."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧹 Warum putzt du die Böden immer ganz zuletzt?",
+        "prompt": "🧹 Du arbeitest von oben nach unten. Warum kommt der Boden dann immer ganz zuletzt?",
         "options": [
           { "text": "Beim Putzen fällt Schmutz nach unten auf den Boden.", "correct": true },
-          { "text": "Weil man Böden gar nicht putzen muss." },
-          { "text": "Weil der Lappen am Anfang zu trocken ist." }
+          { "text": "Weil der Boden die sauberste Fläche im Raum ist." },
+          { "text": "Weil der Boden am schnellsten wieder trocken ist." }
         ],
-        "explanation": "Erst alles oben putzen. Der Schmutz fällt nach unten. Der Boden kommt ganz zum Schluss."
+        "explanation": "Von oben nach unten heißt: erst Regale und Flächen, dann der Boden. Beim Putzen fällt Staub und Schmutz nach unten. Wischst du den Boden zuerst, wird er gleich wieder dreckig und du machst die Arbeit doppelt."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Du wischst den Boden. In welche Richtung arbeitest du?",
+        "prompt": "💧 Du wischst den nassen Boden. In welche Richtung arbeitest du, damit du dich nicht selbst einsperrst?",
         "options": [
           { "text": "Rückwärts zur Tür.", "correct": true },
-          { "text": "Von der Tür weg in die Ecke hinein." },
-          { "text": "Einfach kreuz und quer." }
+          { "text": "Von der Tür bis in die hinterste Ecke.", "correct": false },
+          { "text": "Erst die Mitte, dann zum Schluss die Ränder." }
         ],
-        "explanation": "Wische rückwärts zur Tür. So läufst du nicht über den nassen Boden."
+        "explanation": "Du wischst rückwärts zur Tür hin. So trittst du nie in den frisch gewischten, nassen Bereich und hinterlässt keine Fußspuren. Wischst du in die Ecke, stehst du am Ende auf dem nassen Boden fest."
       }
     },
     {
@@ -85,13 +85,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗑️ Du gehst als Letztes aus der Tür. Was nimmst du mit nach draußen?",
+        "prompt": "🗑️ Du gehst als Letztes aus der Tür. Welche eine Sache nimmst du mit nach draußen?",
         "options": [
           { "text": "Den vollen Müllbeutel.", "correct": true },
-          { "text": "Das Sofa." },
-          { "text": "Den Kühlschrank." }
+          { "text": "Die frischen Handtücher, die du gerade hingelegt hast." },
+          { "text": "Die Kaffeekapseln, die für die Gäste bereitstehen." }
         ],
-        "explanation": "Der Müll geht mit raus in die Mülltonne. Geschafft – super Arbeit! 🎉"
+        "explanation": "Nur der volle Müllbeutel geht mit raus in die Mülltonne. Alles andere gehört in die Wohnung und bleibt für die nächsten Gäste bereit. Geschafft – super Arbeit! 🎉"
       }
     }
   ]

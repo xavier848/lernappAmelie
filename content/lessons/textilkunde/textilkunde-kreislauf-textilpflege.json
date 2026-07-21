@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔄 Die Textilpflege ist ein Kreislauf. Womit beginnt er?",
+        "prompt": "🔄 Die Textilpflege ist ein Kreislauf. Mit welchem Schritt startet der Kreislauf?",
         "options": [
           { "text": "Mit dem Sammeln der Schmutzwäsche.", "correct": true },
-          { "text": "Mit dem Bügeln." },
-          { "text": "Mit der Ausgabe der Wäsche." }
+          { "text": "Mit dem Sortieren nach Waschprogrammen." },
+          { "text": "Mit der Ausgabe der sauberen Wäsche." }
         ],
-        "explanation": "Zuerst wird die schmutzige Wäsche gesammelt. Erst danach folgen Sortieren, Waschen und die weiteren Schritte."
+        "explanation": "Der Kreislauf startet mit dem Sammeln der Schmutzwäsche. Das Sortieren kommt erst danach. Die Ausgabe ist der letzte Schritt. Kreislauf heißt: Am Ende beginnt alles wieder von vorn."
       }
     },
     {
@@ -80,25 +80,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧷 Was passiert beim Schritt \"Ausbessern\"?",
+        "prompt": "🧷 An einem Kissenbezug fehlt ein Knopf. In welchem Schritt wird das behoben?",
         "options": [
-          { "text": "Kaputte Stellen werden repariert.", "correct": true },
-          { "text": "Die Wäsche wird gewaschen." },
-          { "text": "Die Wäsche wird verkauft." }
+          { "text": "Beim Ausbessern: Kaputte Stellen werden repariert.", "correct": true },
+          { "text": "Beim Kennzeichnen: Die Wäsche bekommt ein Wäschezeichen." },
+          { "text": "Beim Sortieren: Die Wäsche wird aussortiert und ersetzt." }
         ],
-        "explanation": "Beim Ausbessern werden zum Beispiel Löcher gestopft oder Knöpfe angenäht. So bleibt die Wäsche länger nutzbar."
+        "explanation": "Der fehlende Knopf gehört zum Schritt Ausbessern. Ausbessern heißt reparieren: Löcher werden gestopft oder Knöpfe angenäht. So bleibt die Wäsche länger nutzbar. Beim Kennzeichnen bekommt Wäsche nur ein Namensschild, sie wird nicht repariert."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Was ist der letzte Schritt im Kreislauf?",
+        "prompt": "✅ Welcher Schritt kommt ganz zum Schluss, direkt vor dem neuen Kreislauf?",
         "options": [
           { "text": "Die Wäsche wird ausgegeben.", "correct": true },
-          { "text": "Die Wäsche wird gesammelt." },
-          { "text": "Die Wäsche wird gewaschen." }
+          { "text": "Die saubere Wäsche wird im Lager aufbewahrt." },
+          { "text": "Die Wäsche wird gemangelt und gebügelt." }
         ],
-        "explanation": "Am Ende wird die saubere Wäsche wieder ausgegeben. Dann kann sie neu benutzt werden und der Kreislauf beginnt von vorn."
+        "explanation": "Die Ausgabe ist der letzte Schritt. Davor wird die Wäsche gelagert, also im Lager aufbewahrt. Mangeln und Bügeln (glatt machen) passiert noch früher. Nach der Ausgabe wird die Wäsche neu benutzt und der Kreislauf beginnt von vorn."
       }
     }
   ]

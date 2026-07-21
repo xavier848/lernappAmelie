@@ -1,0 +1,143 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-begroeting",
+  "title": "Begrüßung: hallo & willkommen",
+  "sort": 1,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast kommt an. 👋 Wie begrüßt du ihn freundlich auf Niederländisch?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Hallo, welkom!", "correct": true },
+          { "text": "Tot ziens!" },
+          { "text": "Dat is te duur." }
+        ],
+        "explanation": "Welkom heißt Willkommen. Hallo, welkom! ist eine freundliche Begrüßung an der Tür."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Begrüßungen: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Goedemorgen! ☀️" }, "right": { "text": "Guten Morgen!" } },
+          { "left": { "text": "Goedendag!" }, "right": { "text": "Guten Tag!" } },
+          { "left": { "text": "Goedenavond! 🌙" }, "right": { "text": "Guten Abend!" } },
+          { "left": { "text": "Tot ziens! 👋" }, "right": { "text": "Auf Wiedersehen!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Was heißt Dank u wel?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Danke schön!", "correct": true },
+          { "text": "Bitte schön!" },
+          { "text": "Guten Tag!" }
+        ],
+        "explanation": "Dank u wel heißt: Danke schön. Mit u ist es höflich – wie die Sie-Form bei Gästen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Willkommen in Lermoos!",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Welkom" },
+          { "text": "in" },
+          { "text": "Lermoos" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Hoe gaat het? 😊 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wie geht es Ihnen?", "correct": true },
+          { "text": "Wo wohnen Sie?" },
+          { "text": "Wie viel kostet das?" }
+        ],
+        "explanation": "Hoe gaat het? heißt: Wie geht es? Eine freundliche Frage zum Anfang."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welches niederländische Wort passt? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Danke schön!" }, "right": { "text": "Dank u wel!" } },
+          { "left": { "text": "Bitte schön!" }, "right": { "text": "Alstublieft!" } },
+          { "left": { "text": "Willkommen!" }, "right": { "text": "Welkom!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Begrüßung oder Verabschiedung? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "hallo", "label": "Begrüßung", "icon": "👋" },
+          { "id": "tschuess", "label": "Verabschiedung", "icon": "🚪" }
+        ],
+        "items": [
+          { "text": "Goedemorgen!", "bucket": "hallo" },
+          { "text": "Welkom!", "bucket": "hallo" },
+          { "text": "Tot ziens!", "bucket": "tschuess" },
+          { "text": "Fijne reis!", "bucket": "tschuess" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast reist ab. 👋 Was sagst du zum Abschied?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Tot ziens en fijne reis!", "correct": true },
+          { "text": "Kom binnen!" },
+          { "text": "Dit is de keuken." }
+        ],
+        "explanation": "Tot ziens heißt: Auf Wiedersehen. Fijne reis heißt: Gute Reise."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Danke schön!",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Dank" },
+          { "text": "u" },
+          { "text": "wel" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Alstublieft. 🙂" }, "right": { "text": "Bitte schön." } },
+          { "left": { "text": "Hoe gaat het?" }, "right": { "text": "Wie geht es?" } },
+          { "left": { "text": "Fijne vakantie! 🏖️" }, "right": { "text": "Schönen Urlaub!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

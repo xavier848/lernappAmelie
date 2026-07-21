@@ -20,13 +20,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🐟 Womit isst du ein Fischgericht?",
+        "prompt": "🐟 Es gibt ein Fischgericht. Womit isst du den Fisch am besten?",
         "options": [
           { "text": "Mit dem Fischmesser. Es hat keine Schneide.", "correct": true },
-          { "text": "Mit der Suppenkelle." },
-          { "text": "Mit der Gebäckzange." }
+          { "text": "Mit dem scharfen Tafelmesser." },
+          { "text": "Mit dem Steakmesser." }
         ],
-        "explanation": "Das Fischmesser hat keine scharfe Schneide. Damit trennst du das weiche Fischfleisch von den Gräten."
+        "explanation": "Das Fischmesser hat keine scharfe Schneide (Klinge). Damit trennst du das weiche Fischfleisch von den Gräten. Ein scharfes Messer würde die Gräten zerdrücken."
       }
     },
     {
@@ -51,13 +51,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥣 Wozu ist die Suppenkelle da?",
+        "prompt": "🥣 Die Suppe steht in einer Terrine auf dem Tisch. Wozu benutzt du die Suppenkelle?",
         "options": [
           { "text": "Zum Ausschöpfen von Suppe aus der Terrine.", "correct": true },
-          { "text": "Zum Essen von Fisch." },
-          { "text": "Zum Vorlegen von Kuchen." }
+          { "text": "Zum Ausschöpfen von Soße aus der Sauciere." },
+          { "text": "Zum Vorlegen von Salat aus der Schüssel." }
         ],
-        "explanation": "Mit der Suppenkelle schöpfst du Suppe oder Eintopf aus der Terrine. Sie ist ein Vorlegebesteck."
+        "explanation": "Die Terrine ist die große Schüssel für Suppe. Mit der Suppenkelle schöpfst du daraus Suppe oder Eintopf. Sie ist ein Vorlegebesteck. Für Soße gibt es den Soßenlöffel."
       }
     },
     {
@@ -76,37 +76,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍰 Was nimmst du zum Vorlegen von Tortenstücken?",
+        "prompt": "🍰 Eine ganze Torte steht auf dem Tisch. Jeder Gast soll ein Stück bekommen. Welches Besteck nimmst du?",
         "options": [
           { "text": "Den Tortenheber.", "correct": true },
-          { "text": "Die Suppenkelle." },
-          { "text": "Den Eierlöffel." }
+          { "text": "Die Gebäckzange." },
+          { "text": "Die Dessertgabel." }
         ],
-        "explanation": "Mit dem Tortenheber hebst du ein Stück Torte vom Boden und legst es auf den Teller."
+        "explanation": "Mit dem Tortenheber hebst du ein Stück Torte vom Boden und legst es auf den Teller. Die Gebäckzange ist nur für kleines Gebäck. Die Dessertgabel nimmst du erst zum Essen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥚 Wozu benutzt du den Eierlöffel?",
+        "prompt": "🥚 Es gibt ein weich gekochtes Ei zum Frühstück. Wozu benutzt du den Eierlöffel?",
         "options": [
           { "text": "Zum Essen eines gekochten Eis.", "correct": true },
-          { "text": "Zum Ausschöpfen von Suppe." },
-          { "text": "Zum Vorlegen von Salat." }
+          { "text": "Zum Umrühren des Zuckers im Tee." },
+          { "text": "Zum Auslöffeln einer Nachspeise." }
         ],
-        "explanation": "Mit dem kleinen Eierlöffel isst du ein weich gekochtes Ei aus der Schale."
+        "explanation": "Mit dem kleinen Eierlöffel isst du ein weich gekochtes Ei aus der Schale. Er gehört zum Essbesteck. Zum Umrühren im Tee nimmst du den Teelöffel."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥄 Was ist ein Vorlegebesteck?",
+        "prompt": "🥄 Was macht ein Vorlegebesteck? Wozu ist es da?",
         "options": [
-          { "text": "Besteck, mit dem du das Essen auftust und verteilst.", "correct": true },
-          { "text": "Besteck, mit dem du selbst isst." },
-          { "text": "Besteck nur für die Küche." }
+          { "text": "Gemeinsames Besteck, mit dem du das Essen auftust und an alle verteilst.", "correct": true },
+          { "text": "Dein persönliches Besteck, mit dem du selbst vom Teller isst." },
+          { "text": "Das Besteck, das schon eingedeckt neben deinem Teller liegt." }
         ],
-        "explanation": "Mit dem Vorlegebesteck legst du jedem das Essen auf den Teller. Das Essbesteck nimmst du dagegen zum eigenen Essen."
+        "explanation": "Mit dem Vorlegebesteck legst du jedem das Essen auf den Teller. Es liegt meist an der großen Servierschüssel. Das Essbesteck nimmst du dagegen zum eigenen Essen."
       }
     },
     {
@@ -115,10 +115,10 @@
         "prompt": "🥄 Womit isst du eine Suppe?",
         "options": [
           { "text": "Mit dem Löffel.", "correct": true },
-          { "text": "Mit der Gabel." },
-          { "text": "Mit dem Messer." }
+          { "text": "Mit der Suppenkelle." },
+          { "text": "Mit dem Teelöffel." }
         ],
-        "explanation": "Suppe isst du mit dem Löffel. Er gehört zum Grundbesteck."
+        "explanation": "Suppe isst du mit dem Löffel. Er gehört zum Essbesteck. Die Suppenkelle ist dagegen ein Vorlegebesteck – damit schöpfst du die Suppe nur aus der Terrine."
       }
     }
   ]

@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛁 Du willst das Bad putzen. Was machst du ganz zuerst?",
+        "prompt": "🛁 Du willst das Bad putzen und hast noch nichts in der Hand. Was machst du ganz zuerst?",
         "options": [
           { "text": "Ich hole das Putzmaterial.", "correct": true },
-          { "text": "Ich wische den Boden." },
-          { "text": "Ich putze den Spiegel." }
+          { "text": "Ich trage den Reiniger in der Toilette auf." },
+          { "text": "Ich fange an, den Spiegel zu putzen." }
         ],
-        "explanation": "Zuerst holst du alles, was du brauchst. Dann kannst du ohne Unterbrechung putzen."
+        "explanation": "Zuerst holst du alles, was du brauchst: Reiniger, Lappen, Bürste. Wenn alles bereitliegt, putzt du ohne Unterbrechung durch und musst nicht ständig etwas suchen."
       }
     },
     {
@@ -32,25 +32,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Warum trägst du den Reiniger zuerst auf?",
+        "prompt": "⏱️ Warum trägst du den Reiniger als Erstes auf und wischst nicht sofort?",
         "options": [
           { "text": "Der Reiniger braucht Zeit. Er muss einwirken.", "correct": true },
-          { "text": "Weil es dann besser riecht." },
-          { "text": "Das ist egal. Die Reihenfolge ist nicht wichtig." }
+          { "text": "Damit ich sehe, welche Stellen ich schon bearbeitet habe." },
+          { "text": "Weil der Reiniger sonst zu schnell eintrocknet." }
         ],
-        "explanation": "Einwirken heißt: Der Reiniger arbeitet für dich. Er löst den Schmutz. Danach putzt es sich viel leichter."
+        "explanation": "Einwirken heißt: Der Reiniger arbeitet für dich. Er braucht ein paar Minuten, um den Schmutz zu lösen. Danach putzt es sich viel leichter."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪞 Der Reiniger wirkt gerade ein. Was machst du in dieser Zeit?",
+        "prompt": "🪞 Der Reiniger wirkt gerade ein. Was machst du in dieser Zeit am besten?",
         "options": [
           { "text": "Ich putze den Spiegel.", "correct": true },
-          { "text": "Ich warte und mache nichts." },
-          { "text": "Ich wische sofort den Reiniger wieder ab." }
+          { "text": "Ich wische den Reiniger schon wieder ab." },
+          { "text": "Ich schrubbe sofort die Toilette sauber." }
         ],
-        "explanation": "Die Wartezeit kannst du nutzen. Putze in der Zeit den Spiegel. So bist du schneller fertig."
+        "explanation": "Nutze die Einwirkzeit sinnvoll: Putze den Spiegel, denn dort ist kein Reiniger. Die Flächen mit Reiniger lässt du in Ruhe, sonst war das Einwirken umsonst."
       }
     },
     {
@@ -68,25 +68,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧹 Was kommt zuerst: saugen oder wischen?",
+        "prompt": "🧹 Der Boden ist dran. Was machst du zuerst: saugen oder wischen?",
         "options": [
           { "text": "Erst saugen, dann wischen.", "correct": true },
           { "text": "Erst wischen, dann saugen." },
-          { "text": "Beides gleichzeitig." }
+          { "text": "Nur wischen reicht. Saugen kann ich weglassen." }
         ],
-        "explanation": "Erst saugst du Staub und Haare weg. Dann wischst du feucht. Sonst verschmierst du den Schmutz."
+        "explanation": "Erst saugst du Staub und Haare trocken weg. Dann wischst du feucht nach. Wischst du zuerst, verschmierst du die Haare zu nassen Schlieren."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏁 Was kommt beim Bad-Putzen ganz zum Schluss?",
+        "prompt": "🏁 Fast fertig! Welcher Schritt kommt beim Bad-Putzen ganz zum Schluss?",
         "options": [
           { "text": "Ich kontrolliere, ob alles sauber ist.", "correct": true },
-          { "text": "Ich trage noch mal Reiniger auf." },
-          { "text": "Ich putze den Spiegel." }
+          { "text": "Ich wische den Boden feucht." },
+          { "text": "Ich reinige die Dusche." }
         ],
-        "explanation": "Am Ende schaust du dich um: Glänzt alles? Fehlt noch etwas? Dann bist du fertig!"
+        "explanation": "Der letzte Schritt ist die Kontrolle: Du schaust noch einmal überall nach. Glänzt alles? Ist etwas übersehen? Erst dann bist du wirklich fertig."
       }
     },
     {

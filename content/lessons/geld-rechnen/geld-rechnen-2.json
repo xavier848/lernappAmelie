@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥖 Das Brot kostet 2,49 €. Die Butter kostet 1,99 €. Trick: 2,49 € ist fast 2,50 €. 1,99 € ist fast 2 €. Wie viel kostet beides ungefähr?",
+        "prompt": "🥖 Das Brot kostet 2,49 €. Die Butter kostet 1,99 €. Trick: Runde jeden Preis auf. 2,49 € wird 2,50 €. 1,99 € wird 2 €. Wie viel kostet beides ungefähr?",
         "options": [
           { "text": "ungefähr 4,50 €", "correct": true },
-          { "text": "ungefähr 3,50 €" },
-          { "text": "ungefähr 5,50 €" }
+          { "text": "ungefähr 4 €" },
+          { "text": "ungefähr 5 €" }
         ],
-        "explanation": "2,50 € + 2 € = 4,50 €. Genau sind es 4,48 €. Der Trick mit dem Runden macht das Kopfrechnen leicht."
+        "explanation": "Aufrunden heißt: einen Preis auf die nächste glatte Zahl hochsetzen. 2,49 € wird 2,50 €. 1,99 € wird 2 €. 2,50 € + 2 € = 4,50 €. Genau sind es 4,48 €."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧃 Der Saft kostet 1,79 €. Der Käse kostet 2,20 €. Wie viel kostet beides genau?",
+        "prompt": "🧃 Der Saft kostet 1,79 €. Der Käse kostet 2,20 €. Rechne genau, nicht gerundet. Wie viel kostet beides zusammen?",
         "options": [
           { "text": "3,99 €", "correct": true },
-          { "text": "3,89 €" },
-          { "text": "4,99 €" }
+          { "text": "4,00 €" },
+          { "text": "3,89 €" }
         ],
-        "explanation": "Euro: 1 € + 2 € = 3 €. Cent: 79 + 20 = 99. Zusammen 3,99 €."
+        "explanation": "Euro: 1 € + 2 € = 3 €. Cent: 79 + 20 = 99. Zusammen 3,99 €. 4,00 € wäre nur gerundet. Hier ist der genaue Preis gefragt."
       }
     },
     {
@@ -39,13 +39,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Du hast 10 € dabei. Shampoo 3,95 €, Duschgel 2,95 €, Zahnpasta 2,45 €. Reicht dein Geld?",
+        "prompt": "🧴 Du hast 10 € dabei. Shampoo 3,95 €, Duschgel 2,95 €, Zahnpasta 2,45 €. Rechne im Kopf: Reicht dein Geld?",
         "options": [
           { "text": "Ja. Zusammen sind es 9,35 €.", "correct": true },
-          { "text": "Nein. Zusammen ist es mehr als 10 €." },
-          { "text": "Es reicht genau. Es bleibt nichts übrig." }
+          { "text": "Es reicht genau. Zusammen sind es 10,00 €." },
+          { "text": "Nein. Zusammen sind es 10,35 €." }
         ],
-        "explanation": "Runde großzügig auf: 4 € + 3 € + 2,50 € = 9,50 €. Das ist weniger als 10 €. Genau sind es 9,35 €."
+        "explanation": "Rechne mit Aufrunden vor: 4 € + 3 € + 2,50 € = 9,50 €. Das ist weniger als 10 €, dein Geld reicht. Genau sind es 9,35 €. 10,00 € kommt nur heraus, wenn du zu stark aufrundest."
       }
     },
     {
@@ -64,13 +64,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍝 Nudeln 1,49 €, Tomatensoße 1,99 €, Parmesan 2,50 €. Wie viel kostet alles zusammen?",
+        "prompt": "🍝 Nudeln 1,49 €, Tomatensoße 1,99 €, Parmesan 2,50 €. Rechne genau. Wie viel kostet alles zusammen?",
         "options": [
           { "text": "5,98 €", "correct": true },
-          { "text": "6,08 €" },
-          { "text": "5,48 €" }
+          { "text": "6,00 €" },
+          { "text": "6,08 €" }
         ],
-        "explanation": "Trick: 1,50 € + 2 € + 2,50 € = 6 €. Dann 2 Cent abziehen: 5,98 €."
+        "explanation": "Trick: 1,50 € + 2 € + 2,50 € = 6 €. Jetzt die Reste beachten: 1,49 € ist 1 Cent weniger, 1,99 € ist 1 Cent weniger. Also 6 € − 2 Cent = 5,98 €. 6,00 € wäre nur gerundet. Vergiss die 2 Cent nicht."
       }
     },
     {
@@ -84,13 +84,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛒 An der Kasse piepen drei Preise: 4,99 €, 3,02 € und 1,95 €. Ungefähr wie viel musst du zahlen?",
+        "prompt": "🛒 An der Kasse piepen drei Preise: 4,99 €, 3,02 € und 1,95 €. Du willst nicht genau rechnen, nur schnell schätzen. Ungefähr wie viel musst du zahlen?",
         "options": [
           { "text": "ungefähr 10 €", "correct": true },
-          { "text": "ungefähr 8 €" },
-          { "text": "ungefähr 12 €" }
+          { "text": "ungefähr 9 €" },
+          { "text": "ungefähr 11 €" }
         ],
-        "explanation": "Runde: 5 € + 3 € + 2 € = 10 €. So weißt du schnell, ob dein Geld reicht."
+        "explanation": "Schätzen heißt: schnell ungefähr rechnen, nicht genau. Runde: 5 € + 3 € + 2 € = 10 €. So weißt du sofort, ob dein Geld reicht. Genau sind es 9,96 €."
       }
     },
     {

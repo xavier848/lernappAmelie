@@ -1,0 +1,147 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-afscheid-vertrek",
+  "title": "Abschied & Abreise",
+  "sort": 9,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste reisen heute ab. Am Morgen fragst du: Heeft u goed geslapen? 😴 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Haben Sie gut geschlafen?", "correct": true },
+          { "text": "Haben Sie schon gefrühstückt?" },
+          { "text": "Sind Sie schon lange wach?" }
+        ],
+        "explanation": "Geslapen heißt: geschlafen. Goed heißt: gut. Die Frage bedeutet also: Haben Sie gut geschlafen? Eine freundliche Frage am Morgen der Abreise."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Abschied nehmen: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Was alles naar wens?" }, "right": { "text": "War alles zu Ihrer Zufriedenheit?" } },
+          { "left": { "text": "Kom gerust terug! 😊" }, "right": { "text": "Kommen Sie gerne wieder!" } },
+          { "left": { "text": "Fijne terugreis! 🚗" }, "right": { "text": "Gute Heimreise!" } },
+          { "left": { "text": "Tot volgend jaar!" }, "right": { "text": "Bis nächstes Jahr!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Haben Sie gut geschlafen? 😴",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Heeft" },
+          { "text": "u" },
+          { "text": "goed" },
+          { "text": "geslapen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Hoe laat moeten we uitchecken? 🕙 Der Check-out ist morgen um zehn Uhr. Was antwortest du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "U moet morgen om tien uur uitchecken.", "correct": true },
+          { "text": "Het ontbijt is om acht uur." },
+          { "text": "De bus vertrekt over vijf minuten." }
+        ],
+        "explanation": "Uitchecken heißt: auschecken. Om tien uur heißt: um zehn Uhr. So wissen die Gäste genau, bis wann sie die Wohnung übergeben."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Kommen Sie gerne wieder! 😊",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Kom" },
+          { "text": "gerust" },
+          { "text": "terug" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Beim Abschied fragst du: Was alles naar wens? 😊 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "War alles zu Ihrer Zufriedenheit?", "correct": true },
+          { "text": "Haben Sie etwas vergessen?" },
+          { "text": "Möchten Sie noch einen Kaffee?" }
+        ],
+        "explanation": "Naar wens heißt wörtlich: nach Wunsch. Mit dieser Frage findest du heraus, ob die Gäste mit allem zufrieden waren."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Frage beim Check-out oder Gruß zum Abschied? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "frage", "label": "Frage", "icon": "❓" },
+          { "id": "gruss", "label": "Abschiedsgruß", "icon": "👋" }
+        ],
+        "items": [
+          { "text": "Heeft u goed geslapen?", "bucket": "frage" },
+          { "text": "Was alles naar wens?", "bucket": "frage" },
+          { "text": "Heeft u alles ingepakt?", "bucket": "frage" },
+          { "text": "Fijne terugreis!", "bucket": "gruss" },
+          { "text": "Tot volgend jaar!", "bucket": "gruss" },
+          { "text": "Kom gerust terug!", "bucket": "gruss" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste steigen ins Auto. 🚗 Du wünschst ihnen eine gute Heimreise. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Fijne terugreis!", "correct": true },
+          { "text": "Eet smakelijk!" },
+          { "text": "Slaap lekker!" }
+        ],
+        "explanation": "Terugreis heißt: Rückreise oder Heimreise. Fijne terugreis! ist der passende Wunsch, wenn Gäste nach Hause fahren."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Gute Reise nach Hause! 🚗",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Fijne" },
+          { "text": "reis" },
+          { "text": "naar" },
+          { "text": "huis" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Danke sagen und gute Wünsche. Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Danke für Ihren Besuch!" }, "right": { "text": "Bedankt voor uw bezoek!" } },
+          { "left": { "text": "Herzlichen Dank für alles!" }, "right": { "text": "Hartelijk dank voor alles!" } },
+          { "left": { "text": "Kommen Sie gut nach Hause!" }, "right": { "text": "Kom goed thuis!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

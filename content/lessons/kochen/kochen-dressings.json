@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥗 Du machst einen Salat. Wann rührst du das Dressing an?",
+        "prompt": "🥗 Du machst einen Blattsalat. Wann rührst du das Dressing an?",
         "options": [
           { "text": "Ganz am Anfang, als Erstes.", "correct": true },
-          { "text": "Ganz am Ende, wenn der Salat schon fertig ist." },
-          { "text": "Das ist völlig egal." }
+          { "text": "Erst am Schluss, wenn alle Zutaten schon in der Schüssel liegen." },
+          { "text": "Mittendrin, sobald der halbe Salat geschnitten ist." }
         ],
-        "explanation": "Das Dressing ist die Grundlage für den Geschmack. Du machst es zuerst. So kann es fertig sein, wenn der Salat kommt. Die Aromen können sich in Ruhe verbinden."
+        "explanation": "Das Dressing ist die Grundlage für den Geschmack. Darum rührst du es zuerst an. So ist es fertig, wenn der Salat kommt, und die Aromen können durchziehen. Durchziehen heißt: Die Zutaten liegen eine Weile zusammen, so verbinden sich die Geschmäcker in Ruhe."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥔 Es gibt eine Ausnahme: Bei gegarten Salaten wie Kartoffelsalat. Was gilt hier?",
+        "prompt": "🥔 Kartoffelsalat ist ein gegarter Salat. Was gilt hier – anders als beim Blattsalat?",
         "options": [
           { "text": "Hier ist es umgekehrt: Du mischst das Dressing an den noch warmen Salat.", "correct": true },
-          { "text": "Hier lässt du das Dressing ganz weg." },
-          { "text": "Hier gibt es gar keinen Unterschied." }
+          { "text": "Genau wie beim Blattsalat: erst kurz vor dem Servieren, wenn die Kartoffeln kalt sind." },
+          { "text": "Du gibst das Dressing an die kalten Kartoffeln und lässt es über Nacht ziehen." }
         ],
-        "explanation": "Warme, gegarte Zutaten saugen das Dressing besser auf. Darum marinierst du zum Beispiel Kartoffeln, solange sie noch warm sind. So schmeckt der Salat kräftiger."
+        "explanation": "Warme, gegarte Zutaten saugen das Dressing besser auf. Darum marinierst du Kartoffeln, solange sie noch warm sind. Marinieren heißt: Du gibst das Dressing dazu, damit die Zutaten den Geschmack aufnehmen. So schmeckt der Salat kräftiger."
       }
     },
     {
@@ -34,10 +34,10 @@
         "prompt": "🫙 Was gehört in eine einfache Vinaigrette?",
         "options": [
           { "text": "Essig oder Zitrone, Öl, etwas Wasser, Salz, Zucker und Pfeffer.", "correct": true },
-          { "text": "Nur Öl und sonst nichts." },
-          { "text": "Sahne, Zucker und Schokolade." }
+          { "text": "Joghurt oder Sauerrahm, dazu Salz, Zucker und Pfeffer." },
+          { "text": "Nur Öl und Essig, sonst nichts." }
         ],
-        "explanation": "Eine Vinaigrette ist die Grund-Marinade. Sie hat etwas Saures (Essig oder Zitrone), Öl und Wasser. Salz, Zucker und Pfeffer geben den Geschmack. Du verrührst alles und schmeckst ab."
+        "explanation": "Eine Vinaigrette ist die saure Grund-Marinade. Sie hat etwas Saures (Essig oder Zitrone), Öl und Wasser. Salz, Zucker und Pfeffer geben den Geschmack. Wichtig: Eine Vinaigrette ist nicht cremig – Joghurt oder Sauerrahm gehören in die andere Familie. Du verrührst alles und schmeckst ab."
       }
     },
     {
@@ -81,7 +81,7 @@
           { "left": { "text": "🥔 Kartoffelsalat" }, "right": { "text": "Speckmarinade" } },
           { "left": { "text": "🥒 Gurkensalat" }, "right": { "text": "Knoblauchdressing" } },
           { "left": { "text": "🫘 Bohnensalat" }, "right": { "text": "Senf-Dressing" } },
-          { "left": { "text": "🌱 Blattsalat" }, "right": { "text": "Preiselbeerdressing" } }
+          { "left": { "text": "🍃 Feldsalat" }, "right": { "text": "Preiselbeerdressing" } }
         ],
         "memory": false
       }
@@ -89,25 +89,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥛 Es gibt noch eine zweite Familie von Marinaden. Woraus besteht sie?",
+        "prompt": "🥛 Es gibt noch eine zweite Familie: die cremigen Marinaden. Woraus besteht sie?",
         "options": [
           { "text": "Aus Joghurt, Sahne oder Sauerrahm, dazu etwas Saures und Gewürze.", "correct": true },
-          { "text": "Nur aus Wasser und Salz." },
-          { "text": "Aus Mehl und Öl." }
+          { "text": "Aus Essig, Öl und Wasser – also genau wie die Vinaigrette." },
+          { "text": "Aus Mehl und Brühe, zu einer dicken Soße gekocht." }
         ],
-        "explanation": "Neben der Vinaigrette gibt es die cremigen Marinaden. Ihre Grundlage ist Joghurt, Sahne oder Sauerrahm. Dazu kommen Essig oder Zitrone, Salz, Zucker und Pfeffer. Du verrührst alles und schmeckst ab."
+        "explanation": "Neben der Vinaigrette gibt es die cremigen Marinaden. Cremig heißt: dickflüssig und sämig. Ihre Grundlage ist Joghurt, Sahne oder Sauerrahm. Dazu kommen Essig oder Zitrone, Salz, Zucker und Pfeffer. Das Cremige unterscheidet sie von der Vinaigrette. Du verrührst alles und schmeckst ab."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Was kommt in ein Kräuter-Dressing?",
+        "prompt": "🌟 Du hast eine fertige Vinaigrette. Welche Zutat rührst du dazu, damit ein Kräuter-Dressing daraus wird?",
         "options": [
           { "text": "Frische Kräuter.", "correct": true },
-          { "text": "Ein Stück Schokolade." },
-          { "text": "Gekochte Nudeln." }
+          { "text": "Einen Löffel Senf." },
+          { "text": "Gerösteten Speck." }
         ],
-        "explanation": "Der Name sagt es schon: In ein Kräuter-Dressing kommen frische Kräuter. Du wäschst sie, tupfst sie trocken und hackst sie fein. So passt das Dressing gut zu Blatt- und Tomatensalat."
+        "explanation": "Aus der Vinaigrette machst du Abwandlungen, indem du eine Zutat dazugibst. Für ein Kräuter-Dressing kommen frische Kräuter hinein: waschen, trocken tupfen, fein hacken. Mit Senf würde ein Senf-Dressing daraus, mit Speck eine Speckmarinade. Das Kräuter-Dressing passt gut zu Blatt- und Tomatensalat."
       }
     }
   ]

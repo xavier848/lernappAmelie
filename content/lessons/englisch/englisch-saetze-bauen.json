@@ -1,0 +1,163 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-saetze-bauen",
+  "title": "Sätze bauen",
+  "sort": 23,
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Unsere Gäste möchten einchecken. 🔑",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Our" },
+          { "text": "guests" },
+          { "text": "want" },
+          { "text": "to" },
+          { "text": "check" },
+          { "text": "in" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: We would rather have breakfast on the balcony, if that is possible. 🥐 Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wir würden lieber auf dem Balkon frühstücken, wenn das möglich ist.", "correct": true },
+          { "text": "Wir müssen auf dem Balkon frühstücken, weil es drinnen nicht geht." },
+          { "text": "Wir haben heute schon früh auf dem Balkon gefrühstückt." },
+          { "text": "Wir würden gern auf dem Balkon frühstücken, aber es ist leider nicht möglich." }
+        ],
+        "explanation": "Would rather heißt: lieber. Die Gäste äußern einen Wunsch und fragen höflich, ob das Frühstück auf dem Balkon möglich ist. Es ist keine Pflicht und keine Absage."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie brauchen noch zwei warme Decken. 🛏️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "They" },
+          { "text": "need" },
+          { "text": "two" },
+          { "text": "more" },
+          { "text": "warm" },
+          { "text": "blankets" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung. Lies genau!",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "You can hang your towels on the balcony." }, "right": { "text": "Sie können Ihre Handtücher auf dem Balkon aufhängen." } },
+          { "left": { "text": "I will turn the heating on for you." }, "right": { "text": "Ich mache die Heizung für Sie an." } },
+          { "left": { "text": "Please do not leave the windows open." }, "right": { "text": "Bitte lassen Sie die Fenster nicht offen." } },
+          { "left": { "text": "The bins are behind the wooden gate." }, "right": { "text": "Die Mülltonnen sind hinter dem Holztor." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich habe vergessen, frisches Brot zu kaufen. 🥖",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "forgot" },
+          { "text": "to" },
+          { "text": "buy" },
+          { "text": "fresh" },
+          { "text": "bread" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Vergangenheit oder Zukunft? Sortiere die Sätze. Achte auf die Verben! 🕐",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "vergangenheit", "label": "Vergangenheit", "icon": "⏪" },
+          { "id": "zukunft", "label": "Zukunft", "icon": "⏩" }
+        ],
+        "items": [
+          { "text": "The guests arrived late last night.", "bucket": "vergangenheit" },
+          { "text": "I will prepare the rooms tomorrow.", "bucket": "zukunft" },
+          { "text": "We cleaned the whole apartment this morning.", "bucket": "vergangenheit" },
+          { "text": "They are going to visit the castle.", "bucket": "zukunft" },
+          { "text": "She booked the flat two weeks ago.", "bucket": "vergangenheit" },
+          { "text": "The new guests will arrive on Friday.", "bucket": "zukunft" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich habe alle Bettlaken gewechselt. 🧺",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "changed" },
+          { "text": "all" },
+          { "text": "the" },
+          { "text": "bed" },
+          { "text": "sheets" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Ich bringe Ihnen gleich noch eine Decke. 🛏️ Welcher englische Satz stimmt genau?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I will bring you another blanket in a moment.", "correct": true },
+          { "text": "I will bring you the other blanket in a moment." },
+          { "text": "I brought you another blanket a moment ago." },
+          { "text": "I will bring you another blanket for a moment." }
+        ],
+        "explanation": "Another blanket heißt: noch eine Decke. The other blanket wäre: die andere Decke. In a moment heißt: gleich — und weil du es erst noch tun wirst, brauchst du will, nicht die Vergangenheit."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie können die Eingangstür nicht finden. 🚪",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "They" },
+          { "text": "cannot" },
+          { "text": "find" },
+          { "text": "the" },
+          { "text": "front" },
+          { "text": "door" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Links Deutsch, rechts der englische Satz. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Sagen Sie mir einfach Bescheid." }, "right": { "text": "Just let me know." } },
+          { "left": { "text": "Lassen Sie sich ruhig Zeit." }, "right": { "text": "Take your time." } },
+          { "left": { "text": "Passen Sie bitte auf die Stufe auf!" }, "right": { "text": "Mind the step, please!" } },
+          { "left": { "text": "Machen Sie es sich bequem." }, "right": { "text": "Make yourself comfortable." } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

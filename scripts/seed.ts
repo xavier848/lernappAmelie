@@ -25,6 +25,8 @@ const EXERCISE_TYPES = [
   "sort_buckets",
   "money_count",
   "budget",
+  "number_input",
+  "memory_game",
 ] as const;
 
 // ---------------------------------------------------------------------------
@@ -299,7 +301,13 @@ async function runSeed(result: LoadResult): Promise<void> {
     const { data: lessonRow, error: lessonError } = await db
       .from("lessons")
       .upsert(
-        { slug: lesson.slug, title: lesson.title, sort: lesson.sort, topic_id: topicId },
+        {
+          slug: lesson.slug,
+          title: lesson.title,
+          sort: lesson.sort,
+          topic_id: topicId,
+          intro: lesson.intro ?? null,
+        },
         { onConflict: "slug" },
       )
       .select("id")

@@ -2,6 +2,7 @@
   "topic_slug": "kinder-sicherheit",
   "slug": "kinder-sicherheit-wickeln-und-kleinteile",
   "title": "Sicher wickeln, kleine Teile im Blick",
+  "intro": "👶 In dieser Lektion geht es um zwei Gefahren für kleine Kinder. Die erste Gefahr ist ein Sturz beim Wickeln. Das Baby liegt oben auf der Wickelkommode und kann herunterfallen. Darum bleibt beim Wickeln eine Hand immer am Baby. Leg alle Sachen vorher bereit, dann musst du nicht weggehen. Die zweite Gefahr sind kleine Teile wie Perlen, Münzen oder Knöpfe. Kinder unter 3 Jahren stecken so etwas in den Mund, in die Nase oder in die Ohren. Ein kleines Teil im Hals ist gefährlich, denn das Kind kann daran ersticken. Am gefährlichsten ist eine Knopf-Batterie, denn sie verätzt den Körper von innen. Darum bleibt der Boden frei von kleinen Teilen.",
   "sort": 6,
   "exercises": [
     {
@@ -9,24 +10,41 @@
       "data": {
         "prompt": "👶 Du wickelst ein Baby. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Alles bereitlegen: Windel, Feuchttücher, frische Kleidung." },
-          { "text": "Das Baby auf die Wickelkommode legen." },
-          { "text": "Wickeln. Eine Hand bleibt dabei immer am Baby." },
-          { "text": "Frische Windel anziehen und Kleidung schließen." },
-          { "text": "Das Baby herunternehmen. Erst danach aufräumen." }
+          {
+            "text": "Alles bereitlegen: Windel, Feuchttücher, frische Kleidung."
+          },
+          {
+            "text": "Das Baby auf die Wickelkommode legen."
+          },
+          {
+            "text": "Wickeln. Eine Hand bleibt dabei immer am Baby."
+          },
+          {
+            "text": "Frische Windel anziehen und Kleidung schließen."
+          },
+          {
+            "text": "Das Baby herunternehmen. Erst danach aufräumen."
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Warum legst du alle Wickel-Sachen bereit, BEVOR du das Baby hinlegst?",
+        "prompt": "🧴 Du legst alle Wickel-Sachen bereit, BEVOR du das Baby hinlegst. Was ist der wichtigste Grund?",
         "options": [
-          { "text": "Damit ich nicht vom Wickeltisch weggehen muss.", "correct": true },
-          { "text": "Damit der Wickeltisch ordentlich aussieht." },
-          { "text": "Damit die Windeln warm werden." }
+          {
+            "text": "Damit ich nicht vom Wickeltisch weggehen muss.",
+            "correct": true
+          },
+          {
+            "text": "Damit das Wickeln schneller geht."
+          },
+          {
+            "text": "Damit ich beim Wickeln beide Hände frei habe."
+          }
         ],
-        "explanation": "Fehlt etwas, müsstest du weggehen. Aber das Baby darf nie allein auf der Kommode liegen. Es kann sich plötzlich drehen und herunterfallen."
+        "explanation": "Fehlt etwas, müsstest du weggehen. Dann liegt das Baby allein auf der Kommode. Es kann sich drehen und herunterfallen. Das nennt man Sturzgefahr. Deshalb legst du alles vorher bereit."
       }
     },
     {
@@ -34,11 +52,18 @@
       "data": {
         "prompt": "📞 Du wickelst gerade. Das Telefon klingelt. Was machst du?",
         "options": [
-          { "text": "Ich lasse es klingeln. Oder ich nehme das Baby mit.", "correct": true },
-          { "text": "Ich gehe schnell ran. Das Baby liegt ja ruhig da." },
-          { "text": "Ich schiebe das Baby an die Wand und gehe ran." }
+          {
+            "text": "Ich lasse es klingeln. Oder ich nehme das Baby mit.",
+            "correct": true
+          },
+          {
+            "text": "Ich gehe ganz schnell ran, das dauert nur ein paar Sekunden."
+          },
+          {
+            "text": "Ich schiebe das Baby in die Mitte der Kommode und gehe ran."
+          }
         ],
-        "explanation": "Babys drehen und rollen sich blitzschnell. Ein Sturz von der Kommode ist sehr gefährlich. Kein Anruf ist wichtiger als das Baby."
+        "explanation": "Babys drehen und rollen sich blitzschnell. Auch in der Mitte der Kommode ist das Baby dann allein. Ein Sturz von der Kommode ist sehr gefährlich. Kein Anruf ist wichtiger als das Baby."
       }
     },
     {
@@ -46,39 +71,79 @@
       "data": {
         "prompt": "🧸 Ein Kind ist 2 Jahre alt. Womit darf es spielen? Sortiere.",
         "buckets": [
-          { "id": "weg", "label": "Gefahr! Wegräumen", "icon": "⚠️" },
-          { "id": "ok", "label": "Darf es haben", "icon": "✅" }
+          {
+            "id": "weg",
+            "label": "Gefahr! Wegräumen",
+            "icon": "⚠️"
+          },
+          {
+            "id": "ok",
+            "label": "Darf es haben",
+            "icon": "✅"
+          }
         ],
         "items": [
-          { "text": "🔴 Kleine Perlen", "bucket": "weg" },
-          { "text": "🪙 Eine Münze", "bucket": "weg" },
-          { "text": "🔋 Eine Knopf-Batterie", "bucket": "weg" },
-          { "text": "🧵 Ein kleiner Knopf", "bucket": "weg" },
-          { "text": "📖 Ein dickes Bilderbuch", "bucket": "ok" },
-          { "text": "🧸 Ein großes Kuscheltier", "bucket": "ok" }
+          {
+            "text": "🔴 Kleine Perlen",
+            "bucket": "weg"
+          },
+          {
+            "text": "🪙 Eine Münze",
+            "bucket": "weg"
+          },
+          {
+            "text": "🔋 Eine Knopf-Batterie",
+            "bucket": "weg"
+          },
+          {
+            "text": "🧵 Ein kleiner Knopf",
+            "bucket": "weg"
+          },
+          {
+            "text": "📖 Ein dickes Bilderbuch",
+            "bucket": "ok"
+          },
+          {
+            "text": "🧸 Ein großes Kuscheltier",
+            "bucket": "ok"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👃 Kleine Kinder stecken kleine Teile in den Mund. Wohin noch?",
+        "prompt": "👃 Kleine Kinder stecken kleine Teile nicht nur in den Mund. Wohin noch?",
         "options": [
-          { "text": "Auch in die Nase und in die Ohren.", "correct": true },
-          { "text": "Nur in die Hosentasche." },
-          { "text": "Nirgendwo sonst hin." }
+          {
+            "text": "Auch in die Nase und in die Ohren.",
+            "correct": true
+          },
+          {
+            "text": "Nur in den Mund, woanders passiert das nicht."
+          },
+          {
+            "text": "Nur in die Hosentasche zum Aufheben."
+          }
         ],
-        "explanation": "Kleine Kinder probieren alles aus. Teile in Nase oder Ohr muss oft ein Arzt herausholen. Darum: Kleinteile immer wegräumen."
+        "explanation": "Kleine Kinder probieren alles aus. Ein kleines Teil in Nase oder Ohr nennt man Fremdkörper. Oft muss ein Arzt ihn wieder herausholen. Darum: Kleinteile immer wegräumen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎂 Bis zu welchem Alter musst du besonders auf kleine Teile achten?",
+        "prompt": "🎂 Bis zu welchem Alter musst du besonders auf kleine Teile am Boden achten?",
         "options": [
-          { "text": "Bis etwa 3 Jahre.", "correct": true },
-          { "text": "Nur im ersten Lebensmonat." },
-          { "text": "Bis 14 Jahre." }
+          {
+            "text": "Bis etwa 3 Jahre.",
+            "correct": true
+          },
+          {
+            "text": "Bis etwa 1 Jahr."
+          },
+          {
+            "text": "Bis etwa 6 Jahre."
+          }
         ],
         "explanation": "Kinder unter 3 Jahren stecken vieles in den Mund. Sie können kleine Teile verschlucken und daran ersticken. Halte Boden und Spielbereich frei."
       }
@@ -88,11 +153,18 @@
       "data": {
         "prompt": "🔋 Ein Kind hat etwas verschluckt. Was davon ist am gefährlichsten?",
         "options": [
-          { "text": "Eine Knopf-Batterie.", "correct": true },
-          { "text": "Ein kleines Stück Banane." },
-          { "text": "Ein Schluck Wasser." }
+          {
+            "text": "Eine Knopf-Batterie.",
+            "correct": true
+          },
+          {
+            "text": "Eine Murmel aus Glas."
+          },
+          {
+            "text": "Ein kleiner Legostein aus Plastik."
+          }
         ],
-        "explanation": "Eine Batterie verletzt den Körper von innen sehr schwer. Das Kind muss sofort ins Krankenhaus. Batterien immer hoch und sicher wegräumen."
+        "explanation": "Eine Knopf-Batterie macht im Körper eine Verätzung. Das heißt: Sie verätzt das Gewebe von innen wie ein scharfes Putzmittel, schon nach kurzer Zeit. Eine Murmel oder ein Legostein ist auch gefährlich, aber die Batterie ist am schlimmsten. Bei einer Batterie sofort ins Krankenhaus."
       }
     },
     {
@@ -100,10 +172,38 @@
       "data": {
         "prompt": "🛡️ Warum gilt diese Regel? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🖐️ Eine Hand bleibt am Baby" }, "right": { "text": "Es kann sich plötzlich drehen" } },
-          { "left": { "text": "🧴 Alles vorher bereitlegen" }, "right": { "text": "Du musst nicht weggehen" } },
-          { "left": { "text": "🧹 Boden frei von Kleinteilen" }, "right": { "text": "Nichts wandert in den Mund" } },
-          { "left": { "text": "👀 Kind immer im Blick" }, "right": { "text": "Du kannst sofort helfen" } }
+          {
+            "left": {
+              "text": "🖐️ Eine Hand bleibt am Baby"
+            },
+            "right": {
+              "text": "Es kann sich plötzlich drehen"
+            }
+          },
+          {
+            "left": {
+              "text": "🧴 Alles vorher bereitlegen"
+            },
+            "right": {
+              "text": "Du musst nicht weggehen"
+            }
+          },
+          {
+            "left": {
+              "text": "🧹 Boden frei von Kleinteilen"
+            },
+            "right": {
+              "text": "Nichts wandert in den Mund"
+            }
+          },
+          {
+            "left": {
+              "text": "👀 Kind immer im Blick"
+            },
+            "right": {
+              "text": "Du kannst sofort helfen"
+            }
+          }
         ],
         "memory": false
       }
@@ -111,13 +211,20 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Das Baby liegt auf der Wickelkommode. Darfst du kurz weggehen?",
+        "prompt": "🌟 Letzte Frage: Das Baby liegt auf der Wickelkommode. Deine Mutter ruft aus der Küche. Darfst du kurz zu ihr gehen?",
         "options": [
-          { "text": "Nein. Niemals, auch nicht ganz kurz.", "correct": true },
-          { "text": "Ja, eine Minute ist okay." },
-          { "text": "Ja, wenn das Baby schläft." }
+          {
+            "text": "Nein. Niemals, auch nicht ganz kurz.",
+            "correct": true
+          },
+          {
+            "text": "Ja, wenn ich die Tür offen lasse und rufe, dass ich gleich komme."
+          },
+          {
+            "text": "Ja, wenn das Baby sich noch nicht drehen kann."
+          }
         ],
-        "explanation": "Ein Baby kann in jeder Sekunde herunterfallen. Darum bleibst du immer bei ihm. Eine Hand bleibt am Baby."
+        "explanation": "Ein Baby kann in jeder Sekunde herunterfallen. Auch ein kleines Baby, das sich noch nicht dreht, kann zappeln und stürzen. Darum bleibst du immer beim Baby. Nimm es lieber mit oder lass deine Mutter zu dir kommen."
       }
     }
   ]

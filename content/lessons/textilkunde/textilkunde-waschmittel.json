@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Waschmittel besteht aus vielen Stoffen. Jeder hat eine Aufgabe. Welcher Stoff löst den Schmutz aus der Faser?",
+        "prompt": "🧴 Waschmittel besteht aus vielen Stoffen. Ein Stoff ist der wichtigste: Er löst den Schmutz aus der Faser. Welcher ist es?",
         "options": [
           { "text": "Die Tenside.", "correct": true },
-          { "text": "Die Duftstoffe." },
-          { "text": "Die Bleichmittel." }
+          { "text": "Die Enzyme." },
+          { "text": "Die Gerüststoffe." }
         ],
-        "explanation": "Tenside verringern die Oberflächenspannung des Wassers. So lösen sie den Schmutz aus der Faser. Sie sind der wichtigste Stoff im Waschmittel."
+        "explanation": "Tenside verringern die Oberflächenspannung des Wassers. Das heißt: Sie machen das Wasser gleitfähiger. So lösen sie den Schmutz aus der Faser. Enzyme entfernen nur bestimmte Flecken, Gerüststoffe unterstützen nur. Der Kern-Reiniger sind die Tenside."
       }
     },
     {
@@ -49,61 +49,61 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌸 Duftstoffe sorgen für einen guten Geruch. Sind sie zum Waschen nötig?",
+        "prompt": "🌸 Du kaufst ein Waschmittel ganz ohne Duftstoffe. Wird die Wäsche trotzdem sauber?",
         "options": [
-          { "text": "Nein, sie sind nicht nötig.", "correct": true },
-          { "text": "Ja, ohne sie wird nichts sauber." },
-          { "text": "Ja, sie lösen den Schmutz." }
+          { "text": "Ja, denn Duftstoffe reinigen nicht — den Schmutz lösen die Tenside.", "correct": true },
+          { "text": "Nein, ohne Duftstoffe lösen sich die Flecken nicht aus der Faser." },
+          { "text": "Nein, Duftstoffe töten die Keime und werden zum Reinigen gebraucht." }
         ],
-        "explanation": "Duftstoffe machen nur einen angenehmen Geruch. Sauber wird die Wäsche auch ohne sie. Deshalb sind sie eigentlich nicht nötig."
+        "explanation": "Duftstoffe machen nur einen angenehmen Geruch. Sie reinigen nicht und töten keine Keime. Den Schmutz lösen die Tenside. Deshalb wird die Wäsche auch ohne Duftstoffe sauber. Sie sind nicht nötig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥚 Welcher Stoff entfernt Flecken von Ei und Soße, also von Eiweiß und Stärke?",
+        "prompt": "🥚 Auf der Bluse ist ein Fleck von Ei. Ei besteht aus Eiweiß. Welcher Stoff im Waschmittel entfernt solche Flecken aus Eiweiß und Stärke?",
         "options": [
           { "text": "Die Enzyme.", "correct": true },
-          { "text": "Die Duftstoffe." },
-          { "text": "Der Enthärter." }
+          { "text": "Die Tenside." },
+          { "text": "Das Bleichmittel." }
         ],
-        "explanation": "Enzyme entfernen Flecken, die aus Eiweiß oder Stärke bestehen. Zum Beispiel Ei, Soße oder Gras."
+        "explanation": "Enzyme sind besondere Stoffe. Sie zerlegen Eiweiß und Stärke in kleine Teile. So gehen Flecken von Ei, Soße oder Gras heraus. Tenside lösen eher Fett, Bleichmittel wirken gegen Verfärbungen. Für Eiweiß und Stärke braucht man die Enzyme."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚰 Manches Wasser ist sehr kalkhaltig, also hart. Welcher Stoff macht es weich?",
+        "prompt": "🚰 Bei euch zu Hause ist das Wasser sehr hart. Es hat viel Kalk. Welcher Stoff im Waschmittel macht das Wasser weich?",
         "options": [
           { "text": "Der Enthärter.", "correct": true },
-          { "text": "Das Bleichmittel." },
-          { "text": "Der Duftstoff." }
+          { "text": "Die Tenside." },
+          { "text": "Das Bleichmittel." }
         ],
-        "explanation": "Der Enthärter macht hartes, kalkhaltiges Wasser weich. So wirkt das Waschmittel besser und es bildet sich weniger Kalk."
+        "explanation": "Der Enthärter bindet den Kalk im Wasser. Hartes, kalkhaltiges Wasser wird so weich. Dann wirkt das Waschmittel besser und es bildet sich weniger Kalk. Tenside und Bleichmittel können das nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚪ Wofür sind Bleichmittel da?",
+        "prompt": "⚪ Deine weißen T-Shirts sind mit der Zeit grau geworden. Welche Aufgabe hat dabei das Bleichmittel?",
         "options": [
           { "text": "Sie machen weiße Wäsche wieder strahlend weiß.", "correct": true },
-          { "text": "Sie machen die Wäsche bunt." },
-          { "text": "Sie lösen den Schmutz aus der Faser." }
+          { "text": "Sie machen bunte Farben wieder kräftig." },
+          { "text": "Sie lösen Fettflecken aus der Faser." }
         ],
-        "explanation": "Bleichmittel verstärken die Weißkraft bei weißer Wäsche. Bei bunter Wäsche braucht man sie nicht. Deshalb sind sie nur manchmal nötig."
+        "explanation": "Bleichmittel verstärken die Weißkraft bei weißer Wäsche. Sie holen den Grauschleier heraus. Bei bunter Wäsche würden sie die Farben angreifen, dort nimmt man sie nicht. Fett lösen dagegen die Tenside. Bleichmittel sind nur manchmal nötig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Welcher Stoff ist zum Reinigen unbedingt nötig?",
+        "prompt": "✅ In jedem Waschmittel muss ein Stoff enthalten sein, sonst reinigt es nicht. Welcher Stoff ist zum Reinigen unbedingt nötig?",
         "options": [
           { "text": "Die Tenside.", "correct": true },
-          { "text": "Die Duftstoffe." },
-          { "text": "Keiner davon." }
+          { "text": "Die Bleichmittel." },
+          { "text": "Die Enzyme." }
         ],
-        "explanation": "Ohne Tenside geht der Schmutz nicht aus der Faser. Deshalb sind Tenside in jedem Waschmittel unbedingt nötig."
+        "explanation": "Tenside sind die Kern-Reiniger. Ohne sie geht der Schmutz nicht aus der Faser. Bleichmittel und Enzyme helfen nur zusätzlich und sind nur manchmal nötig. Tenside sind in jedem Waschmittel unbedingt nötig."
       }
     }
   ]

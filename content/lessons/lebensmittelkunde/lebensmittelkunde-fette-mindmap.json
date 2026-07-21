@@ -2,18 +2,26 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-fette-mindmap",
   "title": "Fette-Mind-Map: fest, flüssig, woher",
+  "intro": "🧴 In dieser Lektion ordnest du Fette nach zwei Merkmalen. Das erste Merkmal ist die Beschaffenheit. Sie sagt, wie fest ein Fett bei Zimmertemperatur ist. Ein Fett kann flüssig, weich-fest oder hart-fest sein. Flüssige Fette nennt man Öle. Das zweite Merkmal ist die Herkunft. Sie sagt, ob ein Fett von einer Pflanze oder von einem Tier kommt. Pflanzliche Fette kommen aus Samen, Nüssen oder Früchten. Tierische Fette kommen zum Beispiel von der Kuh oder vom Fisch. Denk daran: Ein Öl ist flüssig, aber nicht immer pflanzlich.",
   "sort": 131,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Du fragst bei einem Fett: flüssig, weich oder hart? Wonach teilst du es dann ein?",
+        "prompt": "🧴 Ein Fett kann flüssig, weich oder hart sein. Nach welchem Merkmal teilst du es dann ein?",
         "options": [
-          { "text": "Nach der Beschaffenheit.", "correct": true },
-          { "text": "Nach der Farbe." },
-          { "text": "Nach dem Preis." }
+          {
+            "text": "Nach der Beschaffenheit.",
+            "correct": true
+          },
+          {
+            "text": "Nach der Herkunft."
+          },
+          {
+            "text": "Nach dem Geschmack."
+          }
         ],
-        "explanation": "Die Beschaffenheit sagt, ob ein Fett flüssig, weich-fest oder hart-fest ist. Öle sind flüssig. Butter ist weich. Talg ist hart."
+        "explanation": "Die Beschaffenheit sagt, ob ein Fett flüssig, weich-fest oder hart-fest ist. Öle sind flüssig, Butter ist weich, Talg ist hart. Die Herkunft ist etwas anderes: Sie sagt, ob ein Fett pflanzlich oder tierisch ist."
       }
     },
     {
@@ -21,32 +29,75 @@
       "data": {
         "prompt": "🧊 Sortiere die Fette nach ihrer Beschaffenheit.",
         "buckets": [
-          { "id": "fluessig", "label": "Flüssig", "icon": "💧" },
-          { "id": "weich", "label": "Weich-fest", "icon": "🧈" },
-          { "id": "hart", "label": "Hart-fest", "icon": "🧱" }
+          {
+            "id": "fluessig",
+            "label": "Flüssig",
+            "icon": "💧"
+          },
+          {
+            "id": "weich",
+            "label": "Weich-fest",
+            "icon": "🧈"
+          },
+          {
+            "id": "hart",
+            "label": "Hart-fest",
+            "icon": "🧱"
+          }
         ],
         "items": [
-          { "text": "Sojaöl", "bucket": "fluessig" },
-          { "text": "Erdnussöl", "bucket": "fluessig" },
-          { "text": "Lebertran", "bucket": "fluessig" },
-          { "text": "Butter", "bucket": "weich" },
-          { "text": "Halbfettmargarine", "bucket": "weich" },
-          { "text": "Talg", "bucket": "hart" },
-          { "text": "Palmkernfett", "bucket": "hart" },
-          { "text": "Kokosfett", "bucket": "hart" }
+          {
+            "text": "Sojaöl",
+            "bucket": "fluessig"
+          },
+          {
+            "text": "Erdnussöl",
+            "bucket": "fluessig"
+          },
+          {
+            "text": "Lebertran",
+            "bucket": "fluessig"
+          },
+          {
+            "text": "Butter",
+            "bucket": "weich"
+          },
+          {
+            "text": "Halbfettmargarine",
+            "bucket": "weich"
+          },
+          {
+            "text": "Talg",
+            "bucket": "hart"
+          },
+          {
+            "text": "Palmkernfett",
+            "bucket": "hart"
+          },
+          {
+            "text": "Kokosfett",
+            "bucket": "hart"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💧 Woran erkennst du oft ein flüssiges Fett?",
+        "prompt": "💧 Du liest einen Fett-Namen. Woran erkennst du oft ein flüssiges Fett?",
         "options": [
-          { "text": "Es heißt meistens '…öl', zum Beispiel Rapsöl.", "correct": true },
-          { "text": "Es ist immer weiß." },
-          { "text": "Es kommt immer vom Tier." }
+          {
+            "text": "Es heißt meistens '…öl', zum Beispiel Rapsöl.",
+            "correct": true
+          },
+          {
+            "text": "Es heißt meistens '…fett', zum Beispiel Kokosfett."
+          },
+          {
+            "text": "Es kommt immer von Pflanzen."
+          }
         ],
-        "explanation": "Flüssige Fette nennt man Öle. Sie heißen oft '…öl', wie Sonnenblumenöl oder Olivenöl. Man kann sie gießen."
+        "explanation": "Flüssige Fette nennt man Öle. Sie heißen oft '…öl', wie Sonnenblumenöl oder Olivenöl. Man kann sie gießen. Aber Vorsicht: Nicht jedes Öl ist pflanzlich. Lebertran ist flüssig und tierisch."
       }
     },
     {
@@ -54,11 +105,18 @@
       "data": {
         "prompt": "🌱 Rapsöl wird aus Rapssamen gepresst. Zu welcher Herkunft gehört es?",
         "options": [
-          { "text": "Pflanzlich.", "correct": true },
-          { "text": "Tierisch." },
-          { "text": "Weder noch." }
+          {
+            "text": "Pflanzlich.",
+            "correct": true
+          },
+          {
+            "text": "Tierisch."
+          },
+          {
+            "text": "Flüssig."
+          }
         ],
-        "explanation": "Pflanzliche Fette kommen von Pflanzen, zum Beispiel aus Samen, Nüssen oder Früchten. Raps ist eine Pflanze. Also ist Rapsöl pflanzlich."
+        "explanation": "Pflanzliche Fette kommen von Pflanzen, zum Beispiel aus Samen, Nüssen oder Früchten. Raps ist eine Pflanze, also ist Rapsöl pflanzlich. 'Flüssig' ist keine Herkunft, sondern eine Beschaffenheit."
       }
     },
     {
@@ -66,18 +124,50 @@
       "data": {
         "prompt": "🌱🐄 Sortiere die Fette nach ihrer Herkunft.",
         "buckets": [
-          { "id": "pflanzlich", "label": "Pflanzlich", "icon": "🌱" },
-          { "id": "tierisch", "label": "Tierisch", "icon": "🐄" }
+          {
+            "id": "pflanzlich",
+            "label": "Pflanzlich",
+            "icon": "🌱"
+          },
+          {
+            "id": "tierisch",
+            "label": "Tierisch",
+            "icon": "🐄"
+          }
         ],
         "items": [
-          { "text": "Sojaöl", "bucket": "pflanzlich" },
-          { "text": "Erdnussöl", "bucket": "pflanzlich" },
-          { "text": "Palmkernfett", "bucket": "pflanzlich" },
-          { "text": "Halbfettmargarine", "bucket": "pflanzlich" },
-          { "text": "Lebertran", "bucket": "tierisch" },
-          { "text": "Fischöl", "bucket": "tierisch" },
-          { "text": "Schmalz", "bucket": "tierisch" },
-          { "text": "Butter", "bucket": "tierisch" }
+          {
+            "text": "Sojaöl",
+            "bucket": "pflanzlich"
+          },
+          {
+            "text": "Erdnussöl",
+            "bucket": "pflanzlich"
+          },
+          {
+            "text": "Palmkernfett",
+            "bucket": "pflanzlich"
+          },
+          {
+            "text": "Halbfettmargarine",
+            "bucket": "pflanzlich"
+          },
+          {
+            "text": "Lebertran",
+            "bucket": "tierisch"
+          },
+          {
+            "text": "Fischöl",
+            "bucket": "tierisch"
+          },
+          {
+            "text": "Schmalz",
+            "bucket": "tierisch"
+          },
+          {
+            "text": "Butter",
+            "bucket": "tierisch"
+          }
         ]
       }
     },
@@ -86,10 +176,38 @@
       "data": {
         "prompt": "🗺️ In der Mind-Map hat jedes Fett zwei Merkmale: Beschaffenheit und Herkunft. Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🐟 Lebertran" }, "right": { "text": "Flüssig und tierisch" } },
-          { "left": { "text": "🌻 Sonnenblumenöl" }, "right": { "text": "Flüssig und pflanzlich" } },
-          { "left": { "text": "🧈 Butter" }, "right": { "text": "Weich und tierisch" } },
-          { "left": { "text": "🥥 Palmkernfett" }, "right": { "text": "Hart und pflanzlich" } }
+          {
+            "left": {
+              "text": "🐟 Lebertran"
+            },
+            "right": {
+              "text": "Flüssig und tierisch"
+            }
+          },
+          {
+            "left": {
+              "text": "🌻 Sonnenblumenöl"
+            },
+            "right": {
+              "text": "Flüssig und pflanzlich"
+            }
+          },
+          {
+            "left": {
+              "text": "🧈 Butter"
+            },
+            "right": {
+              "text": "Weich und tierisch"
+            }
+          },
+          {
+            "left": {
+              "text": "🥥 Palmkernfett"
+            },
+            "right": {
+              "text": "Hart und pflanzlich"
+            }
+          }
         ],
         "memory": false
       }
@@ -99,23 +217,37 @@
       "data": {
         "prompt": "🐟 Lebertran und Fischöl sind flüssig. Woher kommen sie?",
         "options": [
-          { "text": "Vom Fisch – sie sind tierisch.", "correct": true },
-          { "text": "Von Pflanzen." },
-          { "text": "Aus Milch." }
+          {
+            "text": "Vom Fisch – sie sind tierisch.",
+            "correct": true
+          },
+          {
+            "text": "Von Pflanzen – jedes Öl ist pflanzlich."
+          },
+          {
+            "text": "Aus der Milch – wie Butter."
+          }
         ],
-        "explanation": "Lebertran und Fischöl kommen vom Fisch. Sie sind flüssig, aber tierisch. Nicht jedes Öl ist pflanzlich."
+        "explanation": "Lebertran und Fischöl kommen vom Fisch. Sie sind flüssig, aber tierisch. Nicht jedes Öl ist pflanzlich. Aus Milch kommt zum Beispiel Butter – auch tierisch, aber ein anderes Fett."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧱 Welches Fett ist bei normaler Zimmertemperatur hart?",
+        "prompt": "🧱 Welches Fett fühlt sich bei Zimmertemperatur hart-fest an?",
         "options": [
-          { "text": "Kokosfett.", "correct": true },
-          { "text": "Sonnenblumenöl." },
-          { "text": "Lebertran." }
+          {
+            "text": "Kokosfett.",
+            "correct": true
+          },
+          {
+            "text": "Butter."
+          },
+          {
+            "text": "Halbfettmargarine."
+          }
         ],
-        "explanation": "Kokosfett und Talg sind hart-fest. Öle wie Sonnenblumenöl und Lebertran bleiben dagegen flüssig."
+        "explanation": "Kokosfett und Talg sind hart-fest. Butter und Halbfettmargarine sind auch fest, aber nur weich-fest – man kann sie streichen. Öle wie Sonnenblumenöl bleiben flüssig."
       }
     },
     {
@@ -123,11 +255,18 @@
       "data": {
         "prompt": "🌟 Zum Schluss: Wie ist ein Öl bei Zimmertemperatur?",
         "options": [
-          { "text": "Flüssig.", "correct": true },
-          { "text": "Hart wie Stein." },
-          { "text": "Immer tierisch." }
+          {
+            "text": "Flüssig.",
+            "correct": true
+          },
+          {
+            "text": "Weich-fest wie Butter."
+          },
+          {
+            "text": "Hart-fest wie Talg."
+          }
         ],
-        "explanation": "Öle sind flüssig. Man kann sie gießen. Feste Fette wie Butter oder Talg kann man dagegen nicht gießen."
+        "explanation": "Öle sind flüssig. Man kann sie gießen. Weich-feste Fette wie Butter kann man streichen. Hart-feste Fette wie Talg sind fest. Beide kann man nicht gießen."
       }
     }
   ]

@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Du willst gleich Servietten falten. 🧼 Was machst du vorher?",
+        "prompt": "Du willst gleich Servietten falten. 🧼 Was machst du direkt vorher?",
         "options": [
           { "text": "Ich wasche mir die Hände.", "correct": true },
-          { "text": "Ich esse ein Butterbrot." },
-          { "text": "Ich ziehe Gartenhandschuhe an." }
+          { "text": "Ich wische die Hände kurz an der Hose ab." },
+          { "text": "Ich creme die Hände mit Handcreme ein." }
         ],
-        "explanation": "Erst Hände waschen. So bleiben die Servietten sauber. 🧼"
+        "explanation": "Vor dem Falten die Hände waschen und gut abtrocknen. Feuchte oder eingecremte Hände machen Flecken auf der Serviette. So bleibt sie sauber. 🧼"
       }
     },
     {
@@ -60,13 +60,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Eine Serviette hat einen Fleck. 😮 Was machst du?",
+        "prompt": "Beim Decken siehst du auf einer Serviette einen Fleck. 😮 Was machst du?",
         "options": [
           { "text": "Ich nehme eine saubere Serviette.", "correct": true },
-          { "text": "Ich falte sie trotzdem." },
-          { "text": "Ich lege den Fleck nach unten." }
+          { "text": "Ich falte sie so, dass der Fleck innen liegt." },
+          { "text": "Ich lege die Serviette mit dem Fleck nach unten." }
         ],
-        "explanation": "Auf den Tisch kommen nur saubere Servietten. Die fleckige kommt in die Wäsche. 🧺"
+        "explanation": "Auf den gedeckten Tisch kommen nur saubere Servietten. Ein Fleck bleibt schmutzig, auch wenn er versteckt ist. Die fleckige Serviette kommt in die Wäsche. 🧺"
       }
     },
     {
@@ -85,13 +85,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Heute kommen 4 Gäste. 🍽️ Wie viele Servietten faltest du?",
+        "prompt": "Heute kommen 4 Gäste. 🍽️ Jeder Gast bekommt eine Serviette. Wie viele faltest du?",
         "options": [
           { "text": "4 Servietten.", "correct": true },
-          { "text": "2 Servietten." },
-          { "text": "12 Servietten." }
+          { "text": "5 Servietten." },
+          { "text": "8 Servietten." }
         ],
-        "explanation": "Jeder Gast bekommt eine Serviette. 4 Gäste brauchen 4 Servietten. 😊"
+        "explanation": "Jeder Gast bekommt genau eine Serviette. Bei 4 Gästen sind das 4 Servietten. Nicht 5 und nicht 8. 😊"
       }
     },
     {
@@ -100,22 +100,22 @@
         "prompt": "Die Bischofsmütze ist fertig gefaltet. 👑 Wohin stellst du sie?",
         "options": [
           { "text": "Auf den Teller.", "correct": true },
-          { "text": "Unter den Tisch." },
-          { "text": "In die Spülmaschine." }
+          { "text": "In das Wasserglas." },
+          { "text": "Flach neben den Teller." }
         ],
-        "explanation": "Die Bischofsmütze steht auf dem Teller. Da sieht jeder Gast sie sofort. 👑"
+        "explanation": "Die Bischofsmütze ist eine gefaltete Serviette, die aufrecht steht. Sie kommt mittig auf den Teller. Da sieht jeder Gast sie sofort. 👑"
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Letzte Frage, ganz leicht! 😊 Aus was ist eine Stoffserviette gemacht?",
+        "prompt": "Diese Serviette kannst du waschen und wieder benutzen. 🧵 Aus welchem Material ist sie?",
         "options": [
           { "text": "Aus Stoff. 🧵", "correct": true },
-          { "text": "Aus Holz." },
-          { "text": "Aus Glas." }
+          { "text": "Aus Papier." },
+          { "text": "Aus Zellstoff." }
         ],
-        "explanation": "Eine Stoffserviette ist aus Stoff. Deshalb kann man sie waschen. 🧵"
+        "explanation": "Nur eine Stoffserviette kannst du waschen und wieder benutzen. Papier und Zellstoff sind die Materialien von Wegwerf-Servietten. Zellstoff ist der weiche Stoff, aus dem Papierservietten gemacht sind. 🧵"
       }
     }
   ]

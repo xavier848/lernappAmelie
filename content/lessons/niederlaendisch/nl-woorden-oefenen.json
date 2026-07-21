@@ -1,0 +1,148 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-woorden-oefenen",
+  "title": "Wichtige Wörter üben",
+  "sort": 10,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Aufwärmen: Was heißt sleutel? 🔑",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Schlüssel", "correct": true },
+          { "text": "Handtuch" },
+          { "text": "Garten" }
+        ],
+        "explanation": "Sleutel heißt Schlüssel. Den sleutel gibst du den Gästen bei der Ankunft in Lermoos."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Ein Wort pro Karte: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "kamer" }, "right": { "text": "Zimmer" } },
+          { "left": { "text": "badkamer" }, "right": { "text": "Badezimmer" } },
+          { "left": { "text": "bed" }, "right": { "text": "Bett" } },
+          { "left": { "text": "tuin" }, "right": { "text": "Garten" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach der keuken. 🍳 Welchen Raum meint er?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Die Küche", "correct": true },
+          { "text": "Das Badezimmer" },
+          { "text": "Der Garten" }
+        ],
+        "explanation": "Keuken heißt Küche. Das Wort klingt ähnlich wie das deutsche Wort — das hilft beim Merken."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das ist der Garten. 🌿",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Dit" },
+          { "text": "is" },
+          { "text": "de" },
+          { "text": "tuin" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory: Finde die Paare! 🃏 Ein niederländisches Wort und seine deutsche Bedeutung gehören zusammen.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "sleutel" }, "right": { "text": "Schlüssel" } },
+          { "left": { "text": "keuken" }, "right": { "text": "Küche" } },
+          { "left": { "text": "bed" }, "right": { "text": "Bett" } }
+        ],
+        "memory": true
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast möchte ein frisches Handtuch. 🛁 Welches Wort brauchst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "handdoek", "correct": true },
+          { "text": "fiets" },
+          { "text": "bed" }
+        ],
+        "explanation": "Handdoek heißt Handtuch. Fiets ist das Fahrrad und bed ist das Bett."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wo findest du das? Sortiere die Wörter.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "haus", "label": "Im Haus", "icon": "🏠" },
+          { "id": "draussen", "label": "Draußen", "icon": "🌤️" }
+        ],
+        "items": [
+          { "text": "keuken", "bucket": "haus" },
+          { "text": "bed", "bucket": "haus" },
+          { "text": "badkamer", "bucket": "haus" },
+          { "text": "tuin", "bucket": "draussen" },
+          { "text": "berg", "bucket": "draussen" },
+          { "text": "auto", "bucket": "draussen" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das ist Ihr Schlüssel. 🔑",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Dit" },
+          { "text": "is" },
+          { "text": "uw" },
+          { "text": "sleutel" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Gäste wollen eine Radtour machen. 🚲 Wie heißt Fahrrad auf Niederländisch?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "fiets", "correct": true },
+          { "text": "auto" },
+          { "text": "berg" }
+        ],
+        "explanation": "Fiets heißt Fahrrad. Auto heißt Auto und berg heißt Berg — die beiden sind leicht zu merken."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welches niederländische Wort passt? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Berg" }, "right": { "text": "berg" } },
+          { "left": { "text": "Tal" }, "right": { "text": "dal" } },
+          { "left": { "text": "Auto" }, "right": { "text": "auto" } },
+          { "left": { "text": "Handtuch" }, "right": { "text": "handdoek" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

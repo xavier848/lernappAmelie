@@ -2,6 +2,7 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-naehrstoffe",
   "title": "Was steckt in unserem Essen?",
+  "intro": "🍽️ In unserem Essen stecken verschiedene Nährstoffe. Eiweiß, Fett und Kohlenhydrate geben dem Körper Energie. Fett ist dabei besonders energiereich. Vitamine und Mineralstoffe geben keine Energie. Für den Körper sind sie trotzdem wichtig. Manche Nährstoffe sind essenziell: Der Körper kann sie nicht selbst herstellen. Er muss sie also mit dem Essen aufnehmen. Jeder Nährstoff hat außerdem eine eigene Aufgabe im Körper. Wasser zum Beispiel macht den größten Teil vom Körper aus. Deshalb ist Trinken so wichtig.",
   "sort": 10,
   "exercises": [
     {
@@ -9,28 +10,58 @@
       "data": {
         "prompt": "🍽️ Manche Nährstoffe geben dem Körper Energie. Andere nicht. Sortiere sie.",
         "buckets": [
-          { "id": "energie", "label": "Gibt Energie", "icon": "⚡" },
-          { "id": "keine_energie", "label": "Gibt keine Energie", "icon": "🔋" }
+          {
+            "id": "energie",
+            "label": "Gibt Energie",
+            "icon": "⚡"
+          },
+          {
+            "id": "keine_energie",
+            "label": "Gibt keine Energie",
+            "icon": "🔋"
+          }
         ],
         "items": [
-          { "text": "🥚 Eiweiß", "bucket": "energie" },
-          { "text": "🧈 Fett", "bucket": "energie" },
-          { "text": "🍞 Kohlenhydrate", "bucket": "energie" },
-          { "text": "🍊 Vitamine", "bucket": "keine_energie" },
-          { "text": "🧂 Mineralstoffe", "bucket": "keine_energie" }
+          {
+            "text": "🥚 Eiweiß",
+            "bucket": "energie"
+          },
+          {
+            "text": "🧈 Fett",
+            "bucket": "energie"
+          },
+          {
+            "text": "🍞 Kohlenhydrate",
+            "bucket": "energie"
+          },
+          {
+            "text": "🍊 Vitamine",
+            "bucket": "keine_energie"
+          },
+          {
+            "text": "🧂 Mineralstoffe",
+            "bucket": "keine_energie"
+          }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚡ Welcher Nährstoff gibt dem Körper die meiste Energie?",
+        "prompt": "⚖️ Du isst von jedem Nährstoff genau 1 Gramm. Welches Gramm liefert die meiste Energie?",
         "options": [
-          { "text": "🧈 Fett", "correct": true },
-          { "text": "🥚 Eiweiß" },
-          { "text": "🍞 Kohlenhydrate" }
+          {
+            "text": "🧈 Fett",
+            "correct": true
+          },
+          {
+            "text": "🥚 Eiweiß"
+          },
+          {
+            "text": "🍞 Kohlenhydrate"
+          }
         ],
-        "explanation": "Fett liefert die meiste Energie: 37 Kilojoule pro Gramm. Eiweiß und Kohlenhydrate liefern nur je 17 Kilojoule pro Gramm. Darum machen fette Speisen schnell satt und dick."
+        "explanation": "Fett liefert die meiste Energie: 37 Kilojoule pro Gramm. Eiweiß und Kohlenhydrate liefern nur je 17 Kilojoule pro Gramm. Es kommt also nicht auf die Menge an, sondern auf den Nährstoff. Darum machen fette Speisen schnell satt und dick."
       }
     },
     {
@@ -38,9 +69,16 @@
       "data": {
         "prompt": "🧩 Essenziell heißt: Der Körper kann es nicht selbst herstellen. Er muss es essen. Welcher Nährstoff ist NICHT essenziell?",
         "options": [
-          { "text": "🍞 Kohlenhydrate", "correct": true },
-          { "text": "🍊 Vitamine" },
-          { "text": "🧂 Mineralstoffe" }
+          {
+            "text": "🍞 Kohlenhydrate",
+            "correct": true
+          },
+          {
+            "text": "🍊 Vitamine"
+          },
+          {
+            "text": "🧂 Mineralstoffe"
+          }
         ],
         "explanation": "Kohlenhydrate sind nicht essenziell. Der Körper kann Energie auch aus Fett und Eiweiß holen. Alle Vitamine und Mineralstoffe dagegen sind essenziell: Sie müssen im Essen stecken."
       }
@@ -50,11 +88,46 @@
       "data": {
         "prompt": "🔗 Jeder Nährstoff hat eine Aufgabe im Körper. Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🥚 Eiweiß" }, "right": { "text": "Baustoff für Muskeln und Zellen" } },
-          { "left": { "text": "🧈 Fett" }, "right": { "text": "Liefert die meiste Energie" } },
-          { "left": { "text": "🍞 Kohlenhydrate" }, "right": { "text": "Schneller Energie-Lieferant" } },
-          { "left": { "text": "💧 Wasser" }, "right": { "text": "Transport im Körper" } },
-          { "left": { "text": "🌾 Ballaststoffe" }, "right": { "text": "Halten die Verdauung in Gang" } }
+          {
+            "left": {
+              "text": "🥚 Eiweiß"
+            },
+            "right": {
+              "text": "Baustoff für Muskeln und Zellen"
+            }
+          },
+          {
+            "left": {
+              "text": "🧈 Fett"
+            },
+            "right": {
+              "text": "Liefert die meiste Energie"
+            }
+          },
+          {
+            "left": {
+              "text": "🍞 Kohlenhydrate"
+            },
+            "right": {
+              "text": "Schneller Energie-Lieferant"
+            }
+          },
+          {
+            "left": {
+              "text": "💧 Wasser"
+            },
+            "right": {
+              "text": "Transport im Körper"
+            }
+          },
+          {
+            "left": {
+              "text": "🌾 Ballaststoffe"
+            },
+            "right": {
+              "text": "Halten die Verdauung in Gang"
+            }
+          }
         ],
         "memory": false
       }
@@ -64,16 +137,42 @@
       "data": {
         "prompt": "🌾 Ballaststoffe stecken in pflanzlichem Essen. Welche Lebensmittel haben viele, welche wenige?",
         "buckets": [
-          { "id": "viele", "label": "Viele Ballaststoffe", "icon": "💪" },
-          { "id": "wenige", "label": "Wenige Ballaststoffe", "icon": "🤏" }
+          {
+            "id": "viele",
+            "label": "Viele Ballaststoffe",
+            "icon": "💪"
+          },
+          {
+            "id": "wenige",
+            "label": "Wenige Ballaststoffe",
+            "icon": "🤏"
+          }
         ],
         "items": [
-          { "text": "🫘 Bohnen und Linsen", "bucket": "viele" },
-          { "text": "🥣 Vollkorn-Haferflocken", "bucket": "viele" },
-          { "text": "🍞 Vollkornbrot", "bucket": "viele" },
-          { "text": "🥖 Weißbrot", "bucket": "wenige" },
-          { "text": "🥬 Kopfsalat", "bucket": "wenige" },
-          { "text": "🍚 Weißer Reis", "bucket": "wenige" }
+          {
+            "text": "🫘 Bohnen und Linsen",
+            "bucket": "viele"
+          },
+          {
+            "text": "🥣 Vollkorn-Haferflocken",
+            "bucket": "viele"
+          },
+          {
+            "text": "🍞 Vollkornbrot",
+            "bucket": "viele"
+          },
+          {
+            "text": "🥖 Weißbrot",
+            "bucket": "wenige"
+          },
+          {
+            "text": "🥬 Kopfsalat",
+            "bucket": "wenige"
+          },
+          {
+            "text": "🍚 Weißer Reis",
+            "bucket": "wenige"
+          }
         ]
       }
     },
@@ -82,9 +181,16 @@
       "data": {
         "prompt": "💧 Wie viel von deinem Körper besteht ungefähr aus Wasser?",
         "options": [
-          { "text": "Etwa 70 Prozent", "correct": true },
-          { "text": "Etwa 20 Prozent" },
-          { "text": "Etwa 5 Prozent" }
+          {
+            "text": "Etwa 70 Prozent",
+            "correct": true
+          },
+          {
+            "text": "Etwa 90 Prozent"
+          },
+          {
+            "text": "Etwa 50 Prozent"
+          }
         ],
         "explanation": "Rund 70 Prozent des Körpers sind Wasser. Darum ist Trinken so wichtig. Ohne Essen hält man Wochen aus, ohne Trinken nur 3 bis 5 Tage."
       }
@@ -94,10 +200,38 @@
       "data": {
         "prompt": "🃏 Memory: In welchem Lebensmittel steckt viel von dem Nährstoff? Finde die Paare.",
         "pairs": [
-          { "left": { "text": "🥚 Eiweiß" }, "right": { "text": "🍗 Fleisch und Eier" } },
-          { "left": { "text": "🧈 Fett" }, "right": { "text": "🫒 Butter und Öl" } },
-          { "left": { "text": "🍞 Kohlenhydrate" }, "right": { "text": "🍝 Nudeln und Brot" } },
-          { "left": { "text": "🌾 Ballaststoffe" }, "right": { "text": "🥦 Gemüse und Vollkorn" } }
+          {
+            "left": {
+              "text": "🥚 Eiweiß"
+            },
+            "right": {
+              "text": "🍗 Fleisch und Eier"
+            }
+          },
+          {
+            "left": {
+              "text": "🧈 Fett"
+            },
+            "right": {
+              "text": "🫒 Butter und Öl"
+            }
+          },
+          {
+            "left": {
+              "text": "🍞 Kohlenhydrate"
+            },
+            "right": {
+              "text": "🍝 Nudeln und Brot"
+            }
+          },
+          {
+            "left": {
+              "text": "🌾 Ballaststoffe"
+            },
+            "right": {
+              "text": "🥦 Gemüse und Vollkorn"
+            }
+          }
         ],
         "memory": true
       }
@@ -105,11 +239,18 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌾 Wozu sind Ballaststoffe gut?",
+        "prompt": "🌾 Drei Nährstoffe, drei Aufgaben. Welche Aufgabe haben die Ballaststoffe?",
         "options": [
-          { "text": "Sie halten die Verdauung in Gang.", "correct": true },
-          { "text": "Sie geben dem Körper viel Energie." },
-          { "text": "Sie machen die Knochen stark." }
+          {
+            "text": "Sie halten die Verdauung in Gang.",
+            "correct": true
+          },
+          {
+            "text": "Sie sind der Baustoff für Muskeln und Zellen."
+          },
+          {
+            "text": "Sie liefern dem Körper die meiste Energie."
+          }
         ],
         "explanation": "Ballaststoffe kann der Körper nicht verdauen. Trotzdem sind sie wichtig: Sie bringen den Darm in Schwung und halten die Verdauung in Gang. Energie liefern sie kaum."
       }
@@ -117,11 +258,18 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss, ganz leicht: In welchem Essen stecken viele Kohlenhydrate?",
+        "prompt": "🌟 Zum Schluss: In welchem Essen stecken die meisten Kohlenhydrate?",
         "options": [
-          { "text": "🍝 In Nudeln und Brot", "correct": true },
-          { "text": "🫒 In Öl und Butter" },
-          { "text": "💧 In Wasser" }
+          {
+            "text": "🍝 In Nudeln und Brot",
+            "correct": true
+          },
+          {
+            "text": "🫒 In Öl und Butter"
+          },
+          {
+            "text": "🍗 In Fleisch und Eiern"
+          }
         ],
         "explanation": "Nudeln, Brot und Kartoffeln sind reich an Kohlenhydraten. Sie geben dem Körper schnell Energie zum Arbeiten und Bewegen."
       }

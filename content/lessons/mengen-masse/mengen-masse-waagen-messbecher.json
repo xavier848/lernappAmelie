@@ -7,25 +7,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥛 Auf einem Messbecher stehen oft mehrere Skalen, zum Beispiel für Mehl und für Zucker. Warum ist das so?",
+        "prompt": "🥛 Auf einem Messbecher stehen mehrere Skalen: eine für Mehl, eine für Zucker. Warum braucht man mehrere Skalen und nicht nur eine?",
         "options": [
           { "text": "Weil gleich viel Mehl und Zucker unterschiedlich schwer sind.", "correct": true },
-          { "text": "Weil der Messbecher kaputt ist." },
-          { "text": "Weil man nur eine Skala benutzen darf." }
+          { "text": "Weil Mehl und Zucker nie in denselben Becher dürfen." },
+          { "text": "Weil alle Skalen dasselbe zeigen und nur anders heißen." }
         ],
-        "explanation": "Ein Becher Zucker wiegt mehr als ein Becher Mehl. Gleiche Menge, aber anderes Gewicht. Deshalb hat der Messbecher für jede Zutat eine eigene Skala."
+        "explanation": "Ein Becher Zucker wiegt mehr als ein Becher Mehl. Gleiche Menge, aber anderes Gewicht. Man sagt: Zucker ist dichter. Dichte heißt, wie schwer ein Stoff bei gleichem Platz ist. Deshalb hat der Messbecher für jede Zutat eine eigene Skala."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📏 Auf einer Waage stehen dünne und dicke Teilstriche. Was zeigt ein dünner Teilstrich?",
+        "prompt": "📏 Auf einer Waage siehst du zwischen zwei dicken Teilstrichen mehrere dünne Striche. Was zeigt ein dünner Teilstrich?",
         "options": [
           { "text": "Eine kleinere Menge als ein dicker Teilstrich.", "correct": true },
           { "text": "Eine größere Menge als ein dicker Teilstrich." },
-          { "text": "Immer genau 1 Kilogramm." }
+          { "text": "Immer genau die Hälfte von einem dicken Teilstrich." }
         ],
-        "explanation": "Die dünnen Striche stehen für kleine Schritte. Die dicken Striche für größere Schritte. So kannst du zwischen den dicken Strichen genauer ablesen."
+        "explanation": "Die dünnen Teilstriche stehen für kleine Schritte. Die dicken Teilstriche für größere Schritte. Wie groß ein Schritt ist, hängt von der Waage ab. So kannst du zwischen den dicken Strichen genauer ablesen."
       }
     },
     {
@@ -44,13 +44,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍚 Du füllst Zucker in den Messbecher. Die Zucker-Skala zeigt 250. Wie viel Zucker ist drin?",
+        "prompt": "🍚 Du misst Zucker ab und liest an der Zucker-Skala den Wert 250 ab. Wie viel Zucker ist im Becher?",
         "options": [
           { "text": "250 Gramm.", "correct": true },
-          { "text": "250 Liter." },
+          { "text": "250 Milliliter." },
           { "text": "25 Gramm." }
         ],
-        "explanation": "Die Zahl an der Zucker-Skala ist eine Grammangabe. 250 an der Zucker-Skala bedeutet also 250 Gramm Zucker."
+        "explanation": "Die Zucker-Skala zählt in Gramm, nicht in Milliliter. 250 an der Zucker-Skala bedeutet also 250 Gramm Zucker. Milliliter sind ein Maß für Flüssigkeiten wie Wasser oder Milch."
       }
     },
     {
@@ -84,25 +84,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍚🌾 Warum wiegt ein voller Becher Zucker mehr als ein voller Becher Mehl?",
+        "prompt": "🍚🌾 Ein voller Becher Zucker wiegt mehr als ein gleich voller Becher Mehl. Woran liegt das?",
         "options": [
           { "text": "Zucker ist schwerer als Mehl, obwohl beide gleich voll sind.", "correct": true },
-          { "text": "Der Becher mit Zucker ist größer." },
-          { "text": "Mehl ist nass und deshalb leichter." }
+          { "text": "Weil der Becher mit Zucker größer ist als der mit Mehl." },
+          { "text": "Weil man Zucker fester in den Becher drückt als Mehl." }
         ],
-        "explanation": "Bei gleicher Menge wiegt Zucker mehr als Mehl. Zucker ist dichter. Deshalb braucht der Messbecher für jede Zutat eine eigene Skala."
+        "explanation": "Bei gleicher Menge wiegt Zucker mehr als Mehl. Zucker ist dichter. Dichter heißt: mehr Gewicht auf dem gleichen Platz. Deshalb braucht der Messbecher für jede Zutat eine eigene Skala."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📏 Ein dünner Teilstrich zeigt eine kleinere Menge als ein dicker Teilstrich. Stimmt das?",
+        "prompt": "📏 Du sollst 250 g abwiegen. Die dicken Teilstriche stehen bei 200 g und 300 g. Womit liest du die 250 g genau ab?",
         "options": [
-          { "text": "Ja, das stimmt.", "correct": true },
-          { "text": "Nein, es ist genau umgekehrt." },
-          { "text": "Dünne und dicke Striche sind immer gleich." }
+          { "text": "An den dünnen Teilstrichen zwischen den dicken Strichen.", "correct": true },
+          { "text": "Nur an den dicken Teilstrichen bei 200 g und 300 g." },
+          { "text": "Gar nicht, 250 g kann man nicht ablesen." }
         ],
-        "explanation": "Dünne Striche stehen für kleine Schritte, dicke Striche für große. So kannst du auch krumme Mengen genau ablesen."
+        "explanation": "Die dünnen Teilstriche zeigen kleine Schritte zwischen den dicken Strichen. Damit liest du auch krumme Werte wie 250 g genau ab. Ein dünner Teilstrich steht also für eine kleinere Menge als ein dicker."
       }
     }
   ]

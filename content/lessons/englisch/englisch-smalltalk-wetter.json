@@ -1,0 +1,147 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-smalltalk-wetter",
+  "title": "Small Talk: Wetter & Reise",
+  "sort": 21,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Sonne scheint über Lermoos. ☀️ Du willst mit den Gästen Small Talk anfangen. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The weather is beautiful today, isn't it?", "correct": true },
+          { "text": "The fog was terrible last week." },
+          { "text": "The bus stop is around the corner." }
+        ],
+        "explanation": "The weather is beautiful today, isn't it? heißt: Das Wetter ist heute wunderschön, oder? Mit isn't it? lädst du die Gäste freundlich zum Plaudern ein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Small Talk mit Gästen: Was gehört zusammen? Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Is this your first time in Lermoos?" }, "right": { "text": "Sind Sie zum ersten Mal in Lermoos?" } },
+          { "left": { "text": "Where are you from?" }, "right": { "text": "Woher kommen Sie?" } },
+          { "left": { "text": "Did you have a nice journey?" }, "right": { "text": "Hatten Sie eine gute Anreise?" } },
+          { "left": { "text": "The weather is lovely today. ☀️" }, "right": { "text": "Das Wetter ist heute herrlich." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Woher kommen Sie?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Where are" },
+          { "text": "you" },
+          { "text": "from" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du fragst: Where are you from? Die Gäste antworten: We are from Hamburg. It is our first time in Tyrol. Was heißt das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wir kommen aus Hamburg, wir sind zum ersten Mal in Tirol.", "correct": true },
+          { "text": "Wir fahren morgen zurück nach Hamburg." },
+          { "text": "Wir kommen jedes Jahr nach Tirol." }
+        ],
+        "explanation": "We are from ... heißt: Wir kommen aus ... First time heißt: das erste Mal. Die Gäste sind also neu in Tirol."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Sind Sie zum ersten Mal hier?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Is this" },
+          { "text": "your" },
+          { "text": "first" },
+          { "text": "time" },
+          { "text": "here" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast schaut zum Himmel und sagt: It looks like it will snow tonight. ❄️ Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Es sieht so aus, als würde es heute Nacht schneien.", "correct": true },
+          { "text": "Es hat die ganze Nacht geschneit." },
+          { "text": "Heute Nacht bleibt der Himmel klar." }
+        ],
+        "explanation": "It looks like ... heißt: Es sieht so aus, als ... To snow heißt: schneien. Tonight heißt: heute Nacht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Die Gäste reden über das Wetter. Sortiere: Ist das gutes oder schlechtes Wetter?",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "gut", "label": "Gutes Wetter", "icon": "☀️" },
+          { "id": "schlecht", "label": "Schlechtes Wetter", "icon": "🌧️" }
+        ],
+        "items": [
+          { "text": "The sky is blue and clear.", "bucket": "gut" },
+          { "text": "It has been raining all day.", "bucket": "schlecht" },
+          { "text": "What a beautiful day!", "bucket": "gut" },
+          { "text": "It is grey and foggy.", "bucket": "schlecht" },
+          { "text": "The sun is out again.", "bucket": "gut" },
+          { "text": "It is stormy and very cold.", "bucket": "schlecht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste kommen am Nachmittag mit ihren Skiern zurück. ⛷️ Was fragst du freundlich?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "How was your day on the slopes?", "correct": true },
+          { "text": "The slopes open in December." },
+          { "text": "I lost my ski pass." }
+        ],
+        "explanation": "How was your day on the slopes? heißt: Wie war Ihr Tag auf der Piste? Damit zeigst du Interesse am Skitag der Gäste."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Sonne scheint. ☀️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "sun" },
+          { "text": "is shining" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Freundliche Reaktionen im Gespräch: Was passt zusammen? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Das freut mich!" }, "right": { "text": "I'm glad to hear that!" } },
+          { "left": { "text": "Das klingt toll!" }, "right": { "text": "That sounds great!" } },
+          { "left": { "text": "Schönen Tag noch! 😊" }, "right": { "text": "Have a lovely day!" } }
+        ],
+        "memory": false
+      }
+    }
+  ]
+}

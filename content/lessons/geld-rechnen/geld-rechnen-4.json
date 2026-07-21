@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📝 Deine Einkaufsliste: Nudeln 1,29 €, Tomatensoße 1,79 €, Käse 2,49 €, Salat 0,99 €. Ungefähr wie viel kostet der Einkauf?",
+        "prompt": "📝 Deine Einkaufsliste: Nudeln 1,29 €, Tomatensoße 1,79 €, Käse 2,49 €, Salat 0,99 €. Überschlage im Kopf: Ungefähr wie viel kostet der Einkauf?",
         "options": [
           { "text": "ungefähr 6,50 €", "correct": true },
-          { "text": "ungefähr 4,50 €" },
-          { "text": "ungefähr 8,50 €" }
+          { "text": "ungefähr 5,50 €" },
+          { "text": "ungefähr 7,50 €" }
         ],
-        "explanation": "Runde jeden Preis: 1,30 € + 1,80 € + 2,50 € + 1 € = 6,60 €. Genau sind es 6,56 €."
+        "explanation": "Überschlagen heißt: Du rundest jeden Preis und rechnest schnell im Kopf. 1,30 € + 1,80 € + 2,50 € + 1 € = 6,60 €. Genau sind es 6,56 €. 5,50 € und 7,50 € liegen zu weit daneben."
       }
     },
     {
@@ -23,9 +23,9 @@
         "options": [
           { "text": "6,80 €", "correct": true },
           { "text": "6,70 €" },
-          { "text": "5,80 €" }
+          { "text": "6,90 €" }
         ],
-        "explanation": "Trick: 4,95 € + 2 € = 6,95 €. Dann 15 Cent abziehen: 6,80 €."
+        "explanation": "Trick: Rechne 4,95 € + 2 € = 6,95 €. Dann ziehst du 15 Cent wieder ab, denn das Spülmittel kostet 1,85 € und nicht 2 €. So kommst du auf 6,80 €."
       }
     },
     {
@@ -39,13 +39,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💰 Du hast 20 € für den Einkauf. An der Kasse zahlst du 14,35 €. Wie viel bleibt dir?",
+        "prompt": "💰 Du hast 20 € für den Einkauf. An der Kasse zahlst du 14,35 €. Wie viel Rückgeld bekommst du?",
         "options": [
           { "text": "5,65 €", "correct": true },
-          { "text": "6,65 €" },
-          { "text": "5,75 €" }
+          { "text": "5,75 €" },
+          { "text": "5,55 €" }
         ],
-        "explanation": "Zähle hoch: Von 14,35 € bis 15 € sind es 65 Cent. Von 15 € bis 20 € sind es 5 €. Es bleiben 5,65 €."
+        "explanation": "Rückgeld ist das Geld, das du zurückbekommst. Zähle hoch: Von 14,35 € bis 15 € sind es 65 Cent. Von 15 € bis 20 € sind es 5 €. Zusammen sind das 5,65 €."
       }
     },
     {
@@ -54,7 +54,7 @@
         "prompt": "🧃 Saft im Regal: Die kleine Flasche hat 1 Liter und kostet 1,20 €. Die große Flasche hat 2 Liter und kostet 2 €. Was ist pro Liter günstiger?",
         "options": [
           { "text": "Die große Flasche. Dort kostet 1 Liter nur 1 €.", "correct": true },
-          { "text": "Die kleine Flasche, weil sie weniger kostet." },
+          { "text": "Die kleine Flasche. 1,20 € ist ja weniger als 2 €." },
           { "text": "Beide kosten pro Liter gleich viel." }
         ],
         "explanation": "Große Flasche: 2 € für 2 Liter, also 1 € pro Liter. Kleine Flasche: 1,20 € pro Liter. Vergleiche immer den Grundpreis, nicht nur den Preis am Schild."
@@ -66,10 +66,10 @@
         "prompt": "🍎 Äpfel: 6 Stück für 3 € oder 4 Stück für 2,40 €. Was ist pro Apfel günstiger?",
         "options": [
           { "text": "Die 6er-Packung. Ein Apfel kostet dort 50 Cent.", "correct": true },
-          { "text": "Die 4er-Packung. Ein Apfel kostet dort 50 Cent." },
+          { "text": "Die 4er-Packung, weil 2,40 € weniger sind als 3 €." },
           { "text": "Pro Apfel kostet beides gleich viel." }
         ],
-        "explanation": "6er-Packung: 3 € geteilt durch 6 = 50 Cent pro Apfel. 4er-Packung: 2,40 € geteilt durch 4 = 60 Cent pro Apfel."
+        "explanation": "6er-Packung: 3 € geteilt durch 6 = 50 Cent pro Apfel. 4er-Packung: 2,40 € geteilt durch 4 = 60 Cent pro Apfel. Wichtig: Vergleiche den Preis pro Stück, nicht den Gesamtpreis."
       }
     },
     {

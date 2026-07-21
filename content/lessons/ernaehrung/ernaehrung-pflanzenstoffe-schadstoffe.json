@@ -2,6 +2,7 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-pflanzenstoffe-schadstoffe",
   "title": "Schutzstoffe und Schadstoffe im Essen",
+  "intro": "🌱 In Obst und Gemüse stecken sekundäre Pflanzenstoffe. Die Pflanze bildet diese Stoffe selbst. Manche wehren Schädlinge ab, andere locken Insekten an. Für dich sind die Stoffe gesund, aber sie geben keine Energie. Anders als Vitamine sind sie nicht lebensnotwendig. Viele geben dem Essen Farbe, Geruch oder Geschmack. Nicht alles im Essen ist erwünscht: Manche Stoffe sind Schadstoffe. Acrylamid entsteht zum Beispiel erst beim starken Backen und Braten. Andere Schadstoffe stecken von Natur aus im Essen, zum Beispiel Solanin in grünen Kartoffeln. Solanin bleibt auch beim Kochen erhalten, darum schneidest du grüne Stellen weg.",
   "sort": 270,
   "exercises": [
     {
@@ -9,11 +10,18 @@
       "data": {
         "prompt": "🌱 In Obst und Gemüse stecken sekundäre Pflanzenstoffe. Was sind das?",
         "options": [
-          { "text": "Stoffe, die die Pflanze bildet, um sich zu schützen. Für uns sind sie gesund, geben aber keine Energie.", "correct": true },
-          { "text": "Stoffe, die dem Körper viel Energie geben, so wie Fett." },
-          { "text": "Kleine Tiere, die auf der Pflanze leben." }
+          {
+            "text": "Stoffe, die die Pflanze bildet, um sich zu schützen. Für uns sind sie gesund, geben aber keine Energie.",
+            "correct": true
+          },
+          {
+            "text": "Nährstoffe wie Kohlenhydrate und Fett. Sie geben dem Körper viel Energie."
+          },
+          {
+            "text": "Vitamine, ohne die der Körper nicht überleben kann."
+          }
         ],
-        "explanation": "Die Pflanze bildet diese Stoffe nur in winzigen Mengen. Sie schützen die Pflanze und sind auch für dich gesund. Energie liefern sie aber nicht."
+        "explanation": "Sekundäre Pflanzenstoffe sind Stoffe, die die Pflanze selbst bildet, aber nur in winzigen Mengen. Sie schützen die Pflanze und sind auch für dich gesund. Energie liefern sie nicht – anders als Kohlenhydrate oder Fett. Und anders als Vitamine sind sie nicht lebensnotwendig."
       }
     },
     {
@@ -21,11 +29,18 @@
       "data": {
         "prompt": "🐛 Wozu bildet die Pflanze diese Schutzstoffe?",
         "options": [
-          { "text": "Sie wehren Schädlinge ab und locken Insekten an.", "correct": true },
-          { "text": "Sie machen die Pflanze größer und schwerer." },
-          { "text": "Sie sind nur zufällig da und haben keine Aufgabe." }
+          {
+            "text": "Sie wehren Schädlinge ab und locken Insekten an.",
+            "correct": true
+          },
+          {
+            "text": "Sie speichern Energie für schlechte Zeiten, so wie die Stärke in der Kartoffel."
+          },
+          {
+            "text": "Sie bilden das feste Gerüst, damit die Pflanze aufrecht stehen kann."
+          }
         ],
-        "explanation": "Die Stoffe schützen die Pflanze vor Schädlingen und Krankheiten. Manche locken auch Insekten an, zum Beispiel mit Farbe oder Duft."
+        "explanation": "Die Stoffe schützen die Pflanze vor Schädlingen und Krankheiten. Manche locken auch Insekten an, zum Beispiel mit Farbe oder Duft. Energie speichern oder der Pflanze Halt geben ist nicht ihre Aufgabe – das machen andere Stoffe wie Stärke."
       }
     },
     {
@@ -33,9 +48,30 @@
       "data": {
         "prompt": "🎨 Manche Pflanzenstoffe geben Farbe. Ordne den Farbstoff dem Lebensmittel zu.",
         "pairs": [
-          { "left": { "text": "Carotinoide" }, "right": { "text": "🥕 Möhre & Tomate" } },
-          { "left": { "text": "Chlorophyll" }, "right": { "text": "🥬 Spinat & Grünkohl" } },
-          { "left": { "text": "Anthozyane" }, "right": { "text": "🍇 Weintraube & Rotkohl" } }
+          {
+            "left": {
+              "text": "Carotinoide"
+            },
+            "right": {
+              "text": "🥕 Möhre & Tomate"
+            }
+          },
+          {
+            "left": {
+              "text": "Chlorophyll"
+            },
+            "right": {
+              "text": "🥬 Spinat & Grünkohl"
+            }
+          },
+          {
+            "left": {
+              "text": "Anthozyane"
+            },
+            "right": {
+              "text": "🍇 Weintraube & Rotkohl"
+            }
+          }
         ],
         "memory": false
       }
@@ -45,17 +81,47 @@
       "data": {
         "prompt": "🌈 Die Farbstoffe färben das Gemüse. Sortiere das Gemüse nach seiner Farbe.",
         "buckets": [
-          { "id": "rotgelb", "label": "Rot & Gelb (Carotinoide)", "icon": "🟠" },
-          { "id": "gruen", "label": "Grün (Chlorophyll)", "icon": "🟢" },
-          { "id": "violett", "label": "Violett (Anthozyane)", "icon": "🟣" }
+          {
+            "id": "rotgelb",
+            "label": "Rot & Gelb (Carotinoide)",
+            "icon": "🟠"
+          },
+          {
+            "id": "gruen",
+            "label": "Grün (Chlorophyll)",
+            "icon": "🟢"
+          },
+          {
+            "id": "violett",
+            "label": "Violett (Anthozyane)",
+            "icon": "🟣"
+          }
         ],
         "items": [
-          { "text": "Möhre", "bucket": "rotgelb" },
-          { "text": "Paprika", "bucket": "rotgelb" },
-          { "text": "Spinat", "bucket": "gruen" },
-          { "text": "Grünkohl", "bucket": "gruen" },
-          { "text": "Rotkohl", "bucket": "violett" },
-          { "text": "Aubergine", "bucket": "violett" }
+          {
+            "text": "Möhre",
+            "bucket": "rotgelb"
+          },
+          {
+            "text": "Paprika",
+            "bucket": "rotgelb"
+          },
+          {
+            "text": "Spinat",
+            "bucket": "gruen"
+          },
+          {
+            "text": "Grünkohl",
+            "bucket": "gruen"
+          },
+          {
+            "text": "Rotkohl",
+            "bucket": "violett"
+          },
+          {
+            "text": "Aubergine",
+            "bucket": "violett"
+          }
         ]
       }
     },
@@ -64,9 +130,30 @@
       "data": {
         "prompt": "👃 Andere Pflanzenstoffe wirken auf Geruch und Geschmack. Ordne zu.",
         "pairs": [
-          { "left": { "text": "Schwefel-Verbindungen" }, "right": { "text": "🧅 Zwiebel & Knoblauch" } },
-          { "left": { "text": "Monoterpene" }, "right": { "text": "🍋 Zitrone & Pfefferminze" } },
-          { "left": { "text": "Polyphenole" }, "right": { "text": "🍵 Tee & Rotwein" } }
+          {
+            "left": {
+              "text": "Schwefel-Verbindungen"
+            },
+            "right": {
+              "text": "🧅 Zwiebel & Knoblauch"
+            }
+          },
+          {
+            "left": {
+              "text": "Monoterpene"
+            },
+            "right": {
+              "text": "🍋 Zitrone & Pfefferminze"
+            }
+          },
+          {
+            "left": {
+              "text": "Polyphenole"
+            },
+            "right": {
+              "text": "🍵 Tee & Rotwein"
+            }
+          }
         ],
         "memory": false
       }
@@ -76,11 +163,18 @@
       "data": {
         "prompt": "⚠️ Nicht alles im Essen ist erwünscht. Manche Stoffe nennt man Schadstoffe. Woher kommt Acrylamid?",
         "options": [
-          { "text": "Es entsteht beim starken Backen, Braten und Frittieren.", "correct": true },
-          { "text": "Es wird extra ins Essen gemischt, damit es besser schmeckt." },
-          { "text": "Es steckt von Natur aus in jeder Frucht." }
+          {
+            "text": "Es entsteht beim starken Backen, Braten und Frittieren.",
+            "correct": true
+          },
+          {
+            "text": "Es entsteht schon beim Kochen in Wasser, egal bei welcher Temperatur."
+          },
+          {
+            "text": "Es ist von Natur aus in rohen Kartoffeln und rohem Getreide enthalten."
+          }
         ],
-        "explanation": "Acrylamid entsteht erst beim Verarbeiten, zum Beispiel in dunkel gebackenem Gebäck oder in braunen Pommes. Darum lieber goldgelb backen statt dunkelbraun."
+        "explanation": "Acrylamid ist ein Schadstoff, der erst beim starken Erhitzen entsteht, zum Beispiel in dunkel gebackenem Gebäck oder in braunen Pommes. In rohem Essen steckt es nicht. Beim Kochen in Wasser entsteht es kaum, denn dafür muss es sehr heiß werden – heißer als kochendes Wasser. Darum lieber goldgelb backen statt dunkelbraun."
       }
     },
     {
@@ -88,10 +182,38 @@
       "data": {
         "prompt": "🔎 Schadstoffe kommen aus verschiedenen Quellen. Ordne die Herkunft dem Beispiel zu.",
         "pairs": [
-          { "left": { "text": "Rückstand aus dem Anbau" }, "right": { "text": "🚜 Pflanzenschutzmittel" } },
-          { "left": { "text": "Umwelt: Industrie & Verkehr" }, "right": { "text": "🏭 Schmutz aus der Luft" } },
-          { "left": { "text": "Beim Verarbeiten entstanden" }, "right": { "text": "🔥 Acrylamid im Gebäck" } },
-          { "left": { "text": "Von Natur aus enthalten" }, "right": { "text": "🥔 Solanin in der Kartoffel" } }
+          {
+            "left": {
+              "text": "Rückstand aus dem Anbau"
+            },
+            "right": {
+              "text": "🚜 Pflanzenschutzmittel"
+            }
+          },
+          {
+            "left": {
+              "text": "Umwelt: Industrie & Verkehr"
+            },
+            "right": {
+              "text": "🏭 Schmutz aus der Luft"
+            }
+          },
+          {
+            "left": {
+              "text": "Beim Verarbeiten entstanden"
+            },
+            "right": {
+              "text": "🔥 Acrylamid im Gebäck"
+            }
+          },
+          {
+            "left": {
+              "text": "Von Natur aus enthalten"
+            },
+            "right": {
+              "text": "🥔 Solanin in der Kartoffel"
+            }
+          }
         ],
         "memory": false
       }
@@ -101,9 +223,30 @@
       "data": {
         "prompt": "🌿 Manche Lebensmittel haben von Natur aus einen Schadstoff. Ordne den Stoff zu.",
         "pairs": [
-          { "left": { "text": "Solanin" }, "right": { "text": "🥔 grüne Kartoffel" } },
-          { "left": { "text": "Cumarin" }, "right": { "text": "🍂 Zimt" } },
-          { "left": { "text": "Oxalsäure" }, "right": { "text": "🌱 Rhabarber & Spinat" } }
+          {
+            "left": {
+              "text": "Solanin"
+            },
+            "right": {
+              "text": "🥔 grüne Kartoffel"
+            }
+          },
+          {
+            "left": {
+              "text": "Cumarin"
+            },
+            "right": {
+              "text": "🍂 Zimt"
+            }
+          },
+          {
+            "left": {
+              "text": "Oxalsäure"
+            },
+            "right": {
+              "text": "🌱 Rhabarber & Spinat"
+            }
+          }
         ],
         "memory": false
       }
@@ -113,11 +256,18 @@
       "data": {
         "prompt": "🥔 Eine Kartoffel hat grüne Stellen. Was machst du?",
         "options": [
-          { "text": "Die grünen Stellen großzügig wegschneiden. Kartoffeln immer dunkel lagern.", "correct": true },
-          { "text": "Nichts, grüne Stellen sind besonders gesund." },
-          { "text": "Die Kartoffel ins helle Fenster legen, damit sie nachreift." }
+          {
+            "text": "Die grünen Stellen großzügig wegschneiden. Kartoffeln immer dunkel lagern.",
+            "correct": true
+          },
+          {
+            "text": "Nur die dünne grüne Haut abschaben, der Rest reicht."
+          },
+          {
+            "text": "Die Kartoffel kräftig durchkochen, dann verschwindet das Solanin."
+          }
         ],
-        "explanation": "In grünen Stellen steckt Solanin. Das ist ein natürlicher Schadstoff. Schneide grüne und keimende Stellen weg und lagere Kartoffeln dunkel und kühl."
+        "explanation": "In grünen Stellen steckt Solanin. Das ist ein natürlicher Schadstoff. Solanin ist hitzestabil – Kochen entfernt es also nicht. Es sitzt auch tiefer als die grüne Haut, darum die Stellen lieber großzügig wegschneiden. Licht lässt neues Solanin entstehen, deshalb Kartoffeln dunkel und kühl lagern."
       }
     }
   ]

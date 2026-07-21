@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧽 Du willst Wäsche aufhängen. Was machst du vorher mit der Wäscheleine?",
+        "prompt": "🧽 Du willst frisch gewaschene Wäsche aufhängen. Was machst du vorher mit der Wäscheleine?",
         "options": [
           { "text": "Mit einem feuchten Tuch abwischen.", "correct": true },
-          { "text": "Nichts. Die Leine ist doch sauber." },
-          { "text": "Mit Seife einschäumen und nass lassen." }
+          { "text": "Trocken mit der Hand abwischen." },
+          { "text": "Erst abwischen, wenn die Wäsche schon dran hängt." }
         ],
-        "explanation": "Auf der Leine sitzen Staub und Schmutz. Wischst du sie feucht ab, bleibt deine saubere Wäsche auch sauber."
+        "explanation": "Auf der Leine liegt Staub. Ein feuchtes Tuch bindet den Staub und nimmt ihn mit. Trocken wischst du ihn nur hin und her. So bleibt deine saubere Wäsche auch sauber."
       }
     },
     {
@@ -22,10 +22,10 @@
         "prompt": "☀️ Ein buntes T-Shirt soll draußen trocknen. Wohin hängst du es?",
         "options": [
           { "text": "In den Schatten, nicht in die pralle Sonne.", "correct": true },
-          { "text": "Mittags in die volle Sonne." },
-          { "text": "Flach auf den Rasen." }
+          { "text": "In die pralle Sonne, weil es dort schneller trocknet." },
+          { "text": "Mit der bunten Vorderseite direkt zur Sonne." }
         ],
-        "explanation": "Starke Sonne bleicht bunte Stoffe aus. Helle Kunstfaser kann gelb werden. Im Schatten trocknet das Shirt und behält seine Farbe."
+        "explanation": "Starke Sonne bleicht bunte Stoffe aus. Ausbleichen heißt: die Farben werden blass. Im Schatten trocknet das Shirt etwas langsamer, aber es behält seine Farbe."
       }
     },
     {
@@ -44,13 +44,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👖 Warum hängst du Hosen und Röcke am Bund auf?",
+        "prompt": "👖 Warum hängst du Hosen und Röcke oben am Bund auf?",
         "options": [
           { "text": "So verziehen sie sich nicht und bleiben in Form.", "correct": true },
-          { "text": "So trocknen sie doppelt so schnell." },
-          { "text": "So braucht man gar keine Klammern." }
+          { "text": "So halten die Klammern besser, weil der Bund fest ist." },
+          { "text": "So trocknen die Hosenbeine doppelt so schnell." }
         ],
-        "explanation": "Nasse Stoffe sind schwer. Hängt die Hose am Bund, zieht das Gewicht die Beine glatt nach unten. Die Hose behält ihre Form."
+        "explanation": "Der Bund ist der feste Rand oben an der Hose. Hängt die Hose am Bund, zieht das nasse Gewicht die Beine glatt nach unten. So verzieht sich der Stoff nicht und die Hose behält ihre Form."
       }
     },
     {
@@ -77,10 +77,10 @@
         "prompt": "⬇️ Ein langes Bettlaken hängt bis auf den Boden. Warum ist das ein Problem?",
         "options": [
           { "text": "Es wird am Boden wieder schmutzig.", "correct": true },
-          { "text": "Es trocknet dann viel zu schnell." },
-          { "text": "Das ist gar kein Problem." }
+          { "text": "Es trocknet unten nicht, weil dort keine Luft hinkommt." },
+          { "text": "Die Wäscheklammern lassen dann von allein los." }
         ],
-        "explanation": "Der Boden ist staubig oder feucht. Berührt die Wäsche den Boden, ist sie nicht mehr sauber. Hänge lange Teile so auf, dass sie frei hängen."
+        "explanation": "Der Boden ist staubig oder feucht. Berührt die Wäsche den Boden, nimmt sie den Schmutz wieder auf. Dann war das Waschen umsonst. Hänge lange Teile so auf, dass sie frei hängen und den Boden nicht berühren."
       }
     },
     {
@@ -100,13 +100,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔘 Womit startest du, wenn du ein Hemd legen willst?",
+        "prompt": "🔘 Womit startest du, wenn du ein Hemd zusammenlegen willst?",
         "options": [
           { "text": "Ich knöpfe das Hemd zu.", "correct": true },
-          { "text": "Ich schlage sofort den Saum nach oben." },
-          { "text": "Ich knülle das Hemd zu einer Kugel." }
+          { "text": "Ich drehe das Hemd erst mit der Vorderseite nach unten." },
+          { "text": "Ich schlage zuerst die Ärmel zur Mitte." }
         ],
-        "explanation": "Zugeknöpft behält das Hemd seine Form. Du kannst es glatt hinlegen und sauber falten."
+        "explanation": "Zugeknöpft behält das Hemd seine Form. Du kannst es glatt hinlegen und dann sauber falten. Erst danach drehst du es um und schlägst die Seiten ein."
       }
     },
     {
@@ -125,13 +125,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage, ganz leicht: Wo klammerst du ein Hemd an die Leine?",
+        "prompt": "🌟 Letzte Frage: An welcher Stelle klammerst du ein Hemd an die Leine?",
         "options": [
           { "text": "Unten am Saum.", "correct": true },
-          { "text": "Mitten auf dem Rücken." },
-          { "text": "Am Kragen." }
+          { "text": "Oben am Kragen." },
+          { "text": "An beiden Schultern." }
         ],
-        "explanation": "Klammern drücken kleine Stellen in den Stoff. Am Saum sieht man das später nicht. Das Hemd bleibt schön glatt."
+        "explanation": "Der Saum ist der untere Rand vom Hemd. Klammerst du dort, drücken die Klammern nur unten kleine Falten in den Stoff. Die sieht man später nicht. Am Kragen oder an den Schultern blieben sichtbare Dellen."
       }
     }
   ]

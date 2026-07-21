@@ -21,37 +21,37 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧺 Du gehst zur Ferienwohnung. Was nimmst du mit?",
+        "prompt": "🧺 Deine Schicht in der Ferienwohnung beginnt. Was nimmst du mit?",
         "options": [
           { "text": "Einen Korb mit allen Putzsachen: Lappen, Reiniger, Müllbeutel, Handschuhe.", "correct": true },
-          { "text": "Nur einen trockenen Lappen." },
-          { "text": "Nichts. Ich hole jede Sache einzeln." }
+          { "text": "Reiniger und einen Lappen. Den Rest hole ich, wenn ich ihn brauche." },
+          { "text": "Alle Sachen einzeln in der Hand. Ein Korb ist mir zu viel." }
         ],
-        "explanation": "Packe alles in einen Korb. So hast du alles dabei und sparst viele Wege."
+        "explanation": "Packe alles in einen Korb. So hast du alles griffbereit und sparst dir viele Wege. Griffbereit heißt: du musst nichts extra holen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚪 Du kommst in einen Raum. Was machst du zuerst?",
+        "prompt": "🚪 Du betrittst den nächsten Raum. Was machst du als Erstes?",
         "options": [
           { "text": "🪟 Fenster öffnen und 🗑️ Müll einsammeln.", "correct": true },
-          { "text": "Sofort den Boden wischen." },
-          { "text": "Die Bilder an der Wand gerade rücken." }
+          { "text": "🪣 Zuerst den Staub von den Regalen wischen." },
+          { "text": "🧹 Zuerst den Boden wischen." }
         ],
-        "explanation": "Frische Luft tut gut. Und ohne Müll putzt es sich viel leichter."
+        "explanation": "Erst kommt frische Luft rein, und du sammelst den Müll ein. Staub und Boden kommen später. Man arbeitet von oben nach unten."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛏️ Welche Räume putzt du zuerst?",
+        "prompt": "🛏️ Die Fenster sind offen, der Müll ist weg. Welche Räume putzt du als Erstes?",
         "options": [
           { "text": "Schlafzimmer und Wohnzimmer.", "correct": true },
-          { "text": "Das Bad. Es kommt immer zuerst." },
-          { "text": "Egal. Ich fange irgendwo an." }
+          { "text": "Die Küche. Dort wird es am meisten schmutzig." },
+          { "text": "Das Bad. Das ist der wichtigste Raum." }
         ],
-        "explanation": "Erst die Zimmer, dann die Küche. Das Bad kommt meistens zuletzt."
+        "explanation": "Erst die weniger schmutzigen Räume: Schlafzimmer und Wohnzimmer. Dann die Küche. Das Bad ist am schmutzigsten und kommt zum Schluss."
       }
     },
     {
@@ -88,13 +88,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪟 Du öffnest zuerst das Fenster. Warum ist das gut?",
+        "prompt": "🪟 Du öffnest als Erstes das Fenster. Warum ist das klug?",
         "options": [
           { "text": "Frische Luft kommt in den Raum.", "correct": true },
-          { "text": "Damit es hereinregnet." },
-          { "text": "Damit es drinnen richtig kalt wird." }
+          { "text": "Damit weniger Staub in der Luft aufgewirbelt wird." },
+          { "text": "Damit die Heizung den Raum schneller wärmt." }
         ],
-        "explanation": "Frische Luft macht den Raum angenehm."
+        "explanation": "Frische Luft kommt rein, verbrauchte Luft geht raus. Das nennt man lüften. Es macht den Raum angenehm."
       }
     }
   ]

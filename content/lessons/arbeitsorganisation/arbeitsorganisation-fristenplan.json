@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📅 Du planst ein großes Fest. Ein Fristenplan hilft dir dabei. Was legt ein Fristenplan fest?",
+        "prompt": "📅 Du planst ein großes Fest und legst einen Fristenplan an. Was genau hält ein Fristenplan fest?",
         "options": [
           { "text": "Bis wann jede Aufgabe fertig sein muss.", "correct": true },
-          { "text": "Wie viel jede Aufgabe kostet." },
-          { "text": "Wer zum Fest eingeladen wird." }
+          { "text": "Wie lange jede einzelne Aufgabe dauert." },
+          { "text": "Wer welche Aufgabe übernimmt." }
         ],
-        "explanation": "Ein Fristenplan zeigt, welche Aufgabe bis wann erledigt sein muss. So ist bis zum Fest alles rechtzeitig fertig."
+        "explanation": "Ein Fristenplan legt für jede Aufgabe eine Frist fest. Eine Frist ist der letzte Termin, bis zu dem etwas fertig sein muss. Wie lange eine Aufgabe dauert oder wer sie macht, gehört nicht dazu."
       }
     },
     {
@@ -33,10 +33,10 @@
         "prompt": "📝 Ergänze den Satz: Zuerst werden alle ___ Tätigkeiten aufgelistet.",
         "options": [
           { "text": "durchzuführenden", "correct": true },
-          { "text": "bezahlten" },
-          { "text": "vergessenen" }
+          { "text": "wichtigsten" },
+          { "text": "bereits erledigten" }
         ],
-        "explanation": "Im ersten Schritt sammelst du alle Tätigkeiten, die durchgeführt werden müssen. So vergisst du nichts."
+        "explanation": "Im ersten Schritt sammelst du alle Tätigkeiten, die noch durchgeführt werden müssen. Wichtig: wirklich alle, nicht nur die wichtigsten. So vergisst du nichts."
       }
     },
     {
@@ -58,25 +58,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗓️ In welchen Einheiten kannst du die Fristen angeben?",
+        "prompt": "🗓️ Das Fest ist in einigen Wochen. In welchen Einheiten gibst du die Fristen sinnvoll an?",
         "options": [
           { "text": "In Kalenderwochen oder Tagen.", "correct": true },
-          { "text": "Nur in Minuten." },
-          { "text": "Nur in Sekunden." }
+          { "text": "Nur in Stunden und Minuten." },
+          { "text": "Nur in ganzen Monaten." }
         ],
-        "explanation": "Ein Fristenplan geht meist über einen längeren Zeitraum. Deshalb rechnest du in Kalenderwochen oder in Tagen vor dem Fest."
+        "explanation": "Ein Fristenplan geht meist über einen längeren Zeitraum. Deshalb rechnest du in Kalenderwochen oder in Tagen vor dem Fest. Minuten wären zu genau, ganze Monate zu ungenau."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📦 Ergänze den Satz: Im nächsten Schritt werden die Tätigkeiten zu ___ zusammengefasst.",
+        "prompt": "📦 Ergänze den Satz: Im nächsten Schritt werden ähnliche Tätigkeiten zu ___ zusammengefasst.",
         "options": [
           { "text": "Arbeitspaketen", "correct": true },
           { "text": "Fristen" },
-          { "text": "Rechnungen" }
+          { "text": "Stichtagen" }
         ],
-        "explanation": "Ähnliche Tätigkeiten fasst du zu einem Arbeitspaket zusammen. Das macht den Plan übersichtlicher."
+        "explanation": "Ähnliche Tätigkeiten fasst du zu einem Arbeitspaket zusammen. Ein Arbeitspaket bündelt mehrere kleine Aufgaben zu einer Einheit. Das macht den Plan übersichtlicher. Fristen und Stichtage sind dagegen Termine, keine Aufgaben-Gruppen."
       }
     },
     {
@@ -95,13 +95,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "✅ Wohin trägst du die Tätigkeiten mit ihren Fristen ein?",
+        "prompt": "✅ Wohin trägst du die Arbeitspakete mit ihren Fristen ein, damit du den Überblick behältst?",
         "options": [
           { "text": "In eine Tabelle.", "correct": true },
-          { "text": "Auf den Herd." },
-          { "text": "In den Kühlschrank." }
+          { "text": "Auf die Einkaufsliste." },
+          { "text": "Auf die Gästeliste." }
         ],
-        "explanation": "Im letzten Schritt kommen alle Arbeitspakete mit ihren Fristen in eine Tabelle. So siehst du auf einen Blick, was wann dran ist."
+        "explanation": "Im letzten Schritt kommen alle Arbeitspakete mit ihren Fristen in eine Tabelle. So siehst du auf einen Blick, was wann dran ist. Einkaufs- und Gästeliste haben eine andere Aufgabe und ersetzen die Tabelle nicht."
       }
     }
   ]

@@ -1,0 +1,157 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-zinnen-bouwen",
+  "title": "Sätze bauen",
+  "sort": 11,
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast meldet ein Problem: De verwarming in de slaapkamer doet het sinds gisteravond niet meer. 🥶 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Die Heizung im Schlafzimmer funktioniert seit gestern Abend nicht mehr.", "correct": true },
+          { "text": "Die Heizung im Schlafzimmer war gestern Abend viel zu warm." },
+          { "text": "Die Heizung im Schlafzimmer läuft erst seit gestern Abend wieder." },
+          { "text": "Die Heizung im Wohnzimmer wird morgen Abend repariert." }
+        ],
+        "explanation": "Doet het niet meer heißt: sie funktioniert nicht mehr. Sinds gisteravond heißt: seit gestern Abend. Der Gast meldet also: Die Heizung im Schlafzimmer ist seit gestern Abend kaputt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Der Haustür-Schlüssel hängt neben dem Spiegel. 🔑",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De sleutel van de voordeur" },
+          { "text": "hangt" },
+          { "text": "naast" },
+          { "text": "de spiegel" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "In der Wohnung: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Het ontbijt staat vanaf acht uur voor u klaar. 🥐" }, "right": { "text": "Das Frühstück steht ab acht Uhr für Sie bereit." } },
+          { "left": { "text": "De vaatwasser staat naast de koelkast." }, "right": { "text": "Die Spülmaschine steht neben dem Kühlschrank." } },
+          { "left": { "text": "Er liggen extra dekens in de kast." }, "right": { "text": "Im Schrank liegen zusätzliche Decken." } },
+          { "left": { "text": "De kleine sleutel is voor de achterdeur. 🔑" }, "right": { "text": "Der kleine Schlüssel ist für die Hintertür." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Möchten Sie morgen früh frühstücken? 🥐",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Wilt" },
+          { "text": "u" },
+          { "text": "morgen" },
+          { "text": "vroeg" },
+          { "text": "ontbijten" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste reisen morgen ab. Du möchtest sagen: Sie können morgen vor der Abreise noch in Ruhe frühstücken. 🥐 Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "U kunt morgen voor uw vertrek nog rustig ontbijten.", "correct": true },
+          { "text": "U kunt morgen pas na uw vertrek ontbijten." },
+          { "text": "U moet het ontbijt morgen helaas afzeggen." }
+        ],
+        "explanation": "Voor uw vertrek heißt: vor Ihrer Abreise. Nog rustig ontbijten heißt: noch in Ruhe frühstücken. Pas na heißt dagegen: erst nach — das wäre genau das Gegenteil."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Gäste-Frage: Wo kann ich frische Brötchen für das Frühstück kaufen? 🥖",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Waar" },
+          { "text": "kan" },
+          { "text": "ik" },
+          { "text": "verse broodjes voor het ontbijt" },
+          { "text": "kopen" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Frühstück oder Abschied? Wozu passt der niederländische Satz? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "ontbijt", "label": "Frühstück", "icon": "🥐" },
+          { "id": "afscheid", "label": "Abschied", "icon": "👋" }
+        ],
+        "items": [
+          { "text": "Wilt u nog een vers broodje?", "bucket": "ontbijt" },
+          { "text": "De jam en de boter staan in de koelkast.", "bucket": "ontbijt" },
+          { "text": "De koffie is klaar.", "bucket": "ontbijt" },
+          { "text": "Bedankt voor uw bezoek!", "bucket": "afscheid" },
+          { "text": "Tot ziens en wel thuis!", "bucket": "afscheid" },
+          { "text": "Wij hopen u volgend jaar weer te zien!", "bucket": "afscheid" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir wünschen Ihnen eine gute Rückreise in die Niederlande. 👋",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Wij" },
+          { "text": "wensen" },
+          { "text": "u" },
+          { "text": "een fijne terugreis" },
+          { "text": "naar Nederland" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Abschied von den Gästen: Was gehört zusammen? Links Deutsch, rechts Niederländisch. 👋",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Wir hoffen, Sie hatten einen schönen Aufenthalt." }, "right": { "text": "Wij hopen dat u een fijn verblijf heeft gehad." } },
+          { "left": { "text": "Kommen Sie gut nach Hause!" }, "right": { "text": "Wel thuis!" } },
+          { "left": { "text": "Bis zum nächsten Mal in Lermoos!" }, "right": { "text": "Tot de volgende keer in Lermoos!" } },
+          { "left": { "text": "Danke für Ihren Besuch!" }, "right": { "text": "Bedankt voor uw bezoek!" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Gäste-Frage: Um wie viel Uhr fährt der erste Bus zum Bahnhof? 🚌",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Hoe laat" },
+          { "text": "vertrekt" },
+          { "text": "de" },
+          { "text": "eerste" },
+          { "text": "bus" },
+          { "text": "naar het station" }
+        ]
+      }
+    }
+  ]
+}

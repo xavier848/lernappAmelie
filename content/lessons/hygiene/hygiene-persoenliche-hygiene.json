@@ -2,42 +2,64 @@
   "topic_slug": "hygiene",
   "slug": "hygiene-persoenliche-hygiene",
   "title": "Persönliche Hygiene in der Küche",
+  "intro": "🧼 In der Küche arbeitest du mit Lebensmitteln. Darum ist deine persönliche Hygiene sehr wichtig. An deinen Händen sitzen Keime, winzige Krankheitserreger, die man nicht sieht. Kommen sie ins Essen, können sie krank machen. Deshalb wäschst du deine Hände gründlich mit Seife und warmem Wasser, zum Beispiel nach der Toilette. Lange Haare bindest du zusammen und trägst zusätzlich eine Kopfbedeckung. Deine Fingernägel hältst du kurz und sauber, ohne Nagellack. Schmuck legst du vorher ab, denn darunter sammeln sich Keime. Zum Probieren nimmst du einen sauberen Löffel. Essen, trinken und Kaugummi kauen darfst du nur im Pausenraum.",
   "sort": 10,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚽 Du kommst von der Toilette zurück in die Küche. Was machst du zuerst?",
+        "prompt": "🚽 Du kommst von der Toilette zurück an deinen Arbeitsplatz. Was machst du als Erstes?",
         "options": [
-          { "text": "Die Hände gründlich waschen.", "correct": true },
-          { "text": "Gleich weiterarbeiten." },
-          { "text": "Nur die Finger kurz abtrocknen." }
+          {
+            "text": "Die Hände gründlich waschen.",
+            "correct": true
+          },
+          {
+            "text": "Die Hände kurz mit kaltem Wasser abspülen."
+          },
+          {
+            "text": "Die Hände nur mit einem Tuch trocken abwischen."
+          }
         ],
-        "explanation": "An den Händen sind nach dem Toilettengang viele Keime. Wäschst du sie gründlich, kommen die Keime nicht ins Essen."
+        "explanation": "Am WC gelangen viele Keime an die Hände. Keime sind winzige Krankheitserreger, die man nicht sieht. Kurzes Abspülen oder Abwischen entfernt sie nicht. Nur gründliches Waschen mit Seife und warmem Wasser spült sie weg, bevor sie ins Essen kommen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💇 Du hast lange Haare. Wie trägst du sie beim Kochen?",
+        "prompt": "💇 Du hast lange Haare und fängst mit dem Kochen an. Wie trägst du die Haare?",
         "options": [
-          { "text": "Zusammengebunden und dazu eine Kopfbedeckung.", "correct": true },
-          { "text": "Offen, das sieht schöner aus." },
-          { "text": "Egal, Haare stören nicht." }
+          {
+            "text": "Zusammengebunden und dazu eine Kopfbedeckung.",
+            "correct": true
+          },
+          {
+            "text": "Nur zusammengebunden, ohne Kopfbedeckung."
+          },
+          {
+            "text": "Offen, aber hinter die Ohren gesteckt."
+          }
         ],
-        "explanation": "Offene Haare können ins Essen fallen. Gebunden und unter einer Kopfbedeckung bleibt alles sauber."
+        "explanation": "Offene oder nur gesteckte Haare können ins Essen fallen. Auch aus einem Zopf lösen sich einzelne Haare. Darum bindest du die Haare zusammen und trägst zusätzlich eine Kopfbedeckung, zum Beispiel ein Haarnetz oder eine Mütze. So kommt kein Haar ins Essen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💅 Wie sollen deine Fingernägel bei der Arbeit sein?",
+        "prompt": "💅 Du bereitest gleich Essen zu. Wie sollen deine Fingernägel sein?",
         "options": [
-          { "text": "Kurz und sauber.", "correct": true },
-          { "text": "Lang und lackiert." },
-          { "text": "Das ist nicht wichtig." }
+          {
+            "text": "Kurz und sauber.",
+            "correct": true
+          },
+          {
+            "text": "Kurz, aber mit buntem Nagellack."
+          },
+          {
+            "text": "Lang, aber sauber gefeilt."
+          }
         ],
-        "explanation": "Unter langen Nägeln sammeln sich Schmutz und Keime. Kurze, saubere Nägel lassen sich leicht sauber halten."
+        "explanation": "Unter langen Nägeln und unter abgeplatztem Nagellack sammeln sich Schmutz und Keime, die man nicht sieht. Nagellack kann außerdem abplatzen und ins Essen fallen. Kurze, saubere Nägel ohne Lack kannst du leicht sauber halten."
       }
     },
     {
@@ -45,23 +67,37 @@
       "data": {
         "prompt": "💍 Du trägst Ringe, eine Uhr und Ohrringe. Was tust du vor der Arbeit?",
         "options": [
-          { "text": "Allen Schmuck ablegen.", "correct": true },
-          { "text": "Nur die Uhr abnehmen." },
-          { "text": "Den Schmuck anlassen." }
+          {
+            "text": "Allen Schmuck ablegen.",
+            "correct": true
+          },
+          {
+            "text": "Nur die Ringe abnehmen, Uhr und Ohrringe anlassen."
+          },
+          {
+            "text": "Den Schmuck anlassen, aber Handschuhe darüber tragen."
+          }
         ],
-        "explanation": "Unter Schmuck sammeln sich Keime, und er kann ins Essen fallen. Darum legst du Ketten, Uhr, Armbänder und Ohrringe ab."
+        "explanation": "Unter Ringen, Uhr und Armband sammeln sich Keime, die du beim Händewaschen nicht erreichst. Schmuck kann sich auch lösen und ins Essen fallen. Darum legst du allen Schmuck ab, auch Ohrringe."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👟 Welche Schuhe trägst du in der Küche?",
+        "prompt": "👟 Ein Topf mit heißem Wasser könnte umkippen. Welche Schuhe trägst du deshalb in der Küche?",
         "options": [
-          { "text": "Vorne geschlossene Schuhe mit Fersenriemen.", "correct": true },
-          { "text": "Offene Sandalen." },
-          { "text": "Flip-Flops." }
+          {
+            "text": "Vorne geschlossene Schuhe mit Fersenriemen.",
+            "correct": true
+          },
+          {
+            "text": "Hinten offene Clogs ohne Fersenriemen."
+          },
+          {
+            "text": "Leichte Sandalen mit geschlossener Spitze."
+          }
         ],
-        "explanation": "Fällt ein Messer oder heißes Wasser herunter, schützen dich geschlossene Schuhe. Der Fersenriemen sorgt für festen Halt."
+        "explanation": "Fällt ein Messer herunter oder schwappt heißes Wasser über, schützen dich nur vorne geschlossene Schuhe. Der Fersenriemen gibt festen Halt, damit du nicht aus den Schuhen rutschst. Offene oder hinten lose Schuhe bieten diesen Schutz nicht."
       }
     },
     {
@@ -69,16 +105,42 @@
       "data": {
         "prompt": "✅ Richtig oder falsch in der Küche? Sortiere.",
         "buckets": [
-          { "id": "richtig", "label": "So ist es richtig", "icon": "✅" },
-          { "id": "falsch", "label": "So ist es falsch", "icon": "❌" }
+          {
+            "id": "richtig",
+            "label": "So ist es richtig",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "So ist es falsch",
+            "icon": "❌"
+          }
         ],
         "items": [
-          { "text": "Eine saubere Kopfbedeckung tragen", "bucket": "richtig" },
-          { "text": "Beim Putzen Schutzhandschuhe anziehen", "bucket": "richtig" },
-          { "text": "Die Suppe mit einem sauberen Löffel probieren", "bucket": "richtig" },
-          { "text": "Mit dem Finger ins Essen fassen und ablecken", "bucket": "falsch" },
-          { "text": "Ohrringe und Armband anlassen", "bucket": "falsch" },
-          { "text": "Am Herd Kaugummi kauen", "bucket": "falsch" }
+          {
+            "text": "Eine saubere Kopfbedeckung tragen",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Beim Putzen Schutzhandschuhe anziehen",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Die Suppe mit einem sauberen Löffel probieren",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Mit dem Finger ins Essen fassen und ablecken",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Ohrringe und Armband anlassen",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Am Herd Kaugummi kauen",
+            "bucket": "falsch"
+          }
         ]
       }
     },
@@ -87,10 +149,38 @@
       "data": {
         "prompt": "🤝 Was machst du in dieser Situation? Verbinde.",
         "pairs": [
-          { "left": { "text": "🩹 Du hast dich in den Finger geschnitten" }, "right": { "text": "Die Wunde mit Pflaster abdecken" } },
-          { "left": { "text": "🧽 Du fängst mit Reinigungsarbeiten an" }, "right": { "text": "Schutzhandschuhe anziehen" } },
-          { "left": { "text": "🥄 Du willst das Essen probieren" }, "right": { "text": "Einen sauberen Löffel nehmen" } },
-          { "left": { "text": "🚽 Du warst auf der Toilette" }, "right": { "text": "Die Hände gründlich waschen" } }
+          {
+            "left": {
+              "text": "🩹 Du hast dich in den Finger geschnitten"
+            },
+            "right": {
+              "text": "Die Wunde mit Pflaster abdecken"
+            }
+          },
+          {
+            "left": {
+              "text": "🧽 Du fängst mit Reinigungsarbeiten an"
+            },
+            "right": {
+              "text": "Schutzhandschuhe anziehen"
+            }
+          },
+          {
+            "left": {
+              "text": "🥄 Du willst das Essen probieren"
+            },
+            "right": {
+              "text": "Einen sauberen Löffel nehmen"
+            }
+          },
+          {
+            "left": {
+              "text": "🚽 Du warst auf der Toilette"
+            },
+            "right": {
+              "text": "Die Hände gründlich waschen"
+            }
+          }
         ]
       }
     },
@@ -99,23 +189,37 @@
       "data": {
         "prompt": "🥪 Wo darfst du essen, trinken und Kaugummi kauen?",
         "options": [
-          { "text": "Nur im Pausenraum.", "correct": true },
-          { "text": "Überall in der Küche." },
-          { "text": "Direkt am Herd." }
+          {
+            "text": "Nur im Pausenraum.",
+            "correct": true
+          },
+          {
+            "text": "An deinem Arbeitsplatz, wenn du kurz Pause machst."
+          },
+          {
+            "text": "In einer ruhigen Ecke der Küche."
+          }
         ],
-        "explanation": "Beim Essen und Trinken kommen Keime von deinem Mund in die Küche. Darum machst du das nur im Pausenraum."
+        "explanation": "Beim Essen, Trinken und Kaugummikauen gelangen Keime aus deinem Mund über Hände und Speichel in die Küche und aufs Essen. Darum tust du das nur im Pausenraum, außerhalb des Arbeitsbereichs."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥄 Womit probierst du eine Speise ab?",
+        "prompt": "🥄 Die Suppe köchelt. Du willst wissen, ob genug Salz drin ist. Womit probierst du?",
         "options": [
-          { "text": "Mit einem sauberen Löffel.", "correct": true },
-          { "text": "Mit dem Finger." },
-          { "text": "Mit dem Kochlöffel, den ich schon benutzt habe." }
+          {
+            "text": "Mit einem sauberen Löffel.",
+            "correct": true
+          },
+          {
+            "text": "Mit dem Kochlöffel, mit dem ich gerade umrühre."
+          },
+          {
+            "text": "Mit einem Löffel, den ich nach dem Probieren wieder in den Topf tauche."
+          }
         ],
-        "explanation": "Ein sauberer Löffel bringt keine Keime ins Essen. So bleibt die Speise für alle sicher."
+        "explanation": "Ein sauberer Löffel, den du nur einmal benutzt, bringt keine Keime aus deinem Mund ins Essen. Einen Löffel, den du schon im Mund hattest, tauchst du nie wieder in den Topf. So bleibt die Speise für alle sicher."
       }
     }
   ]

@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👕 Du kaufst dir ein T-Shirt für 12 €. Was ist das?",
+        "prompt": "👕 Du kaufst dir spontan ein T-Shirt für 12 €. Was für ein Geld-Vorgang ist das?",
         "options": [
           { "text": "Eine Ausgabe. Geld geht weg.", "correct": true },
-          { "text": "Eine Einnahme. Geld kommt rein." },
-          { "text": "Ein Sparziel." }
+          { "text": "Eine feste Ausgabe. Die kommt jeden Monat gleich." },
+          { "text": "Eine Einnahme. Geld kommt rein." }
         ],
-        "explanation": "Beim Kaufen gibst du Geld aus. Das ist eine Ausgabe."
+        "explanation": "Beim Kaufen geht Geld weg. Das ist eine Ausgabe. Ein T-Shirt kaufst du nur einmal. Feste Ausgaben wie Handy oder Bus-Karte kommen dagegen jeden Monat."
       }
     },
     {
@@ -37,25 +37,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧮 Rechne: Handy 15 € + Bus-Karte 45 €. Wie viel sind diese festen Ausgaben zusammen?",
+        "prompt": "🧮 Deine festen Ausgaben im Monat: Handy 15 € und Bus-Karte 45 €. Wie viel Geld musst du dafür zuerst einplanen?",
         "options": [
           { "text": "60 €", "correct": true },
-          { "text": "50 €" },
-          { "text": "70 €" }
+          { "text": "55 €" },
+          { "text": "65 €" }
         ],
-        "explanation": "15 + 45 = 60. Diese 60 € planst du zuerst ein."
+        "explanation": "15 + 45 = 60. Feste Ausgaben sind Kosten, die jeden Monat wiederkommen. Die planst du immer zuerst ein."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎯 Ein Tablet kostet 240 €. Du sparst 40 € im Monat. Wie lange sparst du?",
+        "prompt": "🎯 Dein Sparziel ist ein Tablet für 240 €. Du legst jeden Monat 40 € zur Seite. Nach wie vielen Monaten hast du genug gespart?",
         "options": [
           { "text": "6 Monate.", "correct": true },
-          { "text": "4 Monate." },
-          { "text": "8 Monate." }
+          { "text": "5 Monate." },
+          { "text": "7 Monate." }
         ],
-        "explanation": "240 geteilt durch 40 = 6. Nach 6 Monaten gehört das Tablet dir!"
+        "explanation": "240 geteilt durch 40 = 6. Ein Sparziel ist etwas, für das du regelmäßig Geld zur Seite legst. Nach 6 Monaten gehört das Tablet dir!"
       }
     },
     {
@@ -104,24 +104,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📊 Du willst wissen: Wie viel Geld ist auf meinem Konto? Wo schaust du nach?",
+        "prompt": "📊 Du willst wissen: Wie viel Geld ist gerade auf meinem Konto? Wo schaust du am besten nach?",
         "options": [
           { "text": "Ich schaue auf den Kontostand. Zum Beispiel in der Bank-App.", "correct": true },
-          { "text": "Ich schaue in den Kalender." },
-          { "text": "Ich rate einfach." }
+          { "text": "Ich zähle das Bargeld in meinem Geldbeutel." },
+          { "text": "Ich schaue auf meinen letzten Kassenbon." }
         ],
-        "explanation": "Der Kontostand zeigt dir, wie viel Geld da ist. Schau regelmäßig nach. So behältst du den Überblick."
+        "explanation": "Der Kontostand zeigt dir, wie viel Geld auf deinem Konto ist. Am schnellsten siehst du ihn in der Bank-App. Das Bargeld im Geldbeutel und ein Kassenbon zeigen dir das nicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Letzte Frage! Du bekommst 900 € im Monat. Darfst du 1000 € ausgeben?",
+        "prompt": "🌟 Letzte Frage! Du bekommst 900 € im Monat. Ein Pullover für 1000 € gefällt dir. Darfst du ihn dir jetzt kaufen?",
         "options": [
           { "text": "Nein. Ich gebe nur so viel aus, wie ich habe.", "correct": true },
-          { "text": "Ja, das macht nichts." }
+          { "text": "Ja. Die fehlenden 100 € leihe ich mir und zahle sie später zurück." },
+          { "text": "Ja, einmal ist nicht so schlimm." }
         ],
-        "explanation": "Du gibst nie mehr aus, als du hast. So bleibst du sicher bei deinem Geld. 🎉"
+        "explanation": "Du gibst nie mehr aus, als du hast. Wenn du dir Geld leihst, machst du Schulden. Schulden musst du später zurückzahlen. Bleib lieber sicher bei deinem Geld. 🎉"
       }
     }
   ]

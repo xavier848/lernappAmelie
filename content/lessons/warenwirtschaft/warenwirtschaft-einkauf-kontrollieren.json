@@ -10,10 +10,10 @@
         "prompt": "🧾 Die Ware ist geliefert. Was machst du zuerst?",
         "options": [
           { "text": "Ich vergleiche die Ware mit dem Einkaufszettel.", "correct": true },
-          { "text": "Ich räume alles sofort weg." },
-          { "text": "Ich werfe den Einkaufszettel weg." }
+          { "text": "Ich unterschreibe zuerst den Lieferschein." },
+          { "text": "Ich räume die Ware gleich ins Regal." }
         ],
-        "explanation": "Du prüfst jede Ware gegen den Einkaufszettel. So merkst du, ob Menge und Sorte stimmen."
+        "explanation": "Zuerst kommt die Wareneingangskontrolle. Das heißt: Du prüfst jede Ware gegen den Einkaufszettel. So siehst du, ob Menge und Sorte stimmen. Erst danach räumst du ein oder unterschreibst."
       }
     },
     {
@@ -22,10 +22,10 @@
         "prompt": "🥕 Du hast 1,5 kg Möhren bestellt. Geliefert wurde 1 kg. Was stimmt nicht?",
         "options": [
           { "text": "Die Menge ist falsch. Es fehlen 500 g.", "correct": true },
-          { "text": "Die Sorte ist falsch." },
-          { "text": "Alles ist in Ordnung." }
+          { "text": "Die Menge ist falsch. Es fehlen 250 g." },
+          { "text": "Die Menge ist falsch. Es sind 500 g zu viel." }
         ],
-        "explanation": "1,5 kg sind mehr als 1 kg. Es fehlen 500 Gramm. Das ist eine falsche Menge."
+        "explanation": "1,5 kg sind 1500 g. Geliefert wurde 1000 g. 1500 g minus 1000 g sind 500 g. So viel fehlt. Die Menge stimmt nicht."
       }
     },
     {
@@ -34,10 +34,10 @@
         "prompt": "🥚 Du wolltest 6 Bio-Eier. Geliefert wurden 6 Eier aus Freilandhaltung. Ist das richtig?",
         "options": [
           { "text": "Nein. Freiland ist nicht das Gleiche wie Bio.", "correct": true },
-          { "text": "Ja, das ist genau die richtige Sorte." },
-          { "text": "Nein, die Menge stimmt nicht." }
+          { "text": "Ja. Freiland ist auch Bio." },
+          { "text": "Nein. Die Menge stimmt nicht." }
         ],
-        "explanation": "Die Menge stimmt: 6 Eier. Aber Bio und Freiland sind zwei verschiedene Haltungen. Also ist die Sorte falsch."
+        "explanation": "Die Menge stimmt: 6 Eier. Aber Bio und Freiland sind zwei verschiedene Haltungen. Bio hat strengere Regeln, zum Beispiel beim Futter. Also ist die Sorte falsch."
       }
     },
     {
@@ -46,8 +46,8 @@
         "prompt": "🥩 Bestellt: ¾ kg Schweineschnitzel. Geliefert: 750 g. Passt das?",
         "options": [
           { "text": "Ja. ¾ kg sind genau 750 g.", "correct": true },
-          { "text": "Nein, 750 g sind zu wenig." },
-          { "text": "Nein, 750 g sind zu viel." }
+          { "text": "Nein. ¾ kg sind 250 g. Es wurde zu viel geliefert." },
+          { "text": "Nein. ¾ kg sind 800 g. Es fehlen 50 g." }
         ],
         "explanation": "1 kg sind 1000 g. Ein Viertel davon sind 250 g. Drei Viertel sind also 750 g. Die Menge stimmt genau."
       }
@@ -91,10 +91,10 @@
         "prompt": "🧃 Bestellt: 1 Liter Orangensaft. Geliefert: 1 Liter Orangennektar. Was ist das Problem?",
         "options": [
           { "text": "Nektar ist etwas anderes als Saft. Die Sorte ist falsch.", "correct": true },
-          { "text": "Die Menge ist falsch." },
-          { "text": "Es ist kein Problem." }
+          { "text": "Die Menge ist falsch. Es fehlt Saft." },
+          { "text": "Kein Problem. Nektar ist nur ein anderes Wort für Saft." }
         ],
-        "explanation": "Saft ist reine Frucht. Nektar hat Wasser und oft Zucker dabei. Beides ist nicht gleich. Also ist die Sorte falsch."
+        "explanation": "Die Menge stimmt: 1 Liter. Aber Saft ist reine Frucht. Nektar hat Wasser und oft Zucker dabei. Beides ist nicht gleich. Also ist die Sorte falsch."
       }
     },
     {
@@ -103,8 +103,8 @@
         "prompt": "🧀 Bestellt: Edamer mit 30 % Fett. Geliefert: Edamer mit 40 % Fett. Ist das richtig?",
         "options": [
           { "text": "Nein. Der Fettgehalt ist falsch.", "correct": true },
-          { "text": "Ja, Käse ist Käse." },
-          { "text": "Nein, die Menge ist falsch." }
+          { "text": "Ja. Beim Fettgehalt darf man nicht so genau sein." },
+          { "text": "Nein. Die Menge ist falsch." }
         ],
         "explanation": "Es ist der richtige Käse und wohl die richtige Menge. Aber 40 % Fett sind mehr als 30 %. Der Fettgehalt stimmt nicht."
       }
@@ -115,8 +115,8 @@
         "prompt": "🌟 Zum Schluss: Bestellt 500 g Walnüsse, geliefert 500 g Walnüsse. Und nun?",
         "options": [
           { "text": "Alles passt. Ich kann die Ware annehmen.", "correct": true },
-          { "text": "Ich schicke die Ware zurück." },
-          { "text": "Ich bestelle noch mehr." }
+          { "text": "Ich schicke die Ware zurück, weil ich mir nicht sicher bin." },
+          { "text": "Ich beschwere mich über die Lieferung." }
         ],
         "explanation": "Sorte und Menge stimmen beide. Diese Lieferung ist in Ordnung und du kannst sie annehmen."
       }

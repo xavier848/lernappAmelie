@@ -7,13 +7,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📞 Ein Kollege ist schwer gestürzt und braucht schnell Hilfe. Welche Nummer wählst du?",
+        "prompt": "📞 Ein Kollege ist schwer gestürzt und blutet stark. Welche Nummer wählst du?",
         "options": [
           { "text": "112", "correct": true },
           { "text": "110" },
-          { "text": "12345" }
+          { "text": "116117" }
         ],
-        "explanation": "Die 112 ist der Notruf für Rettungsdienst und Feuerwehr. Sie gilt bei Unfällen, schweren Verletzungen und Feuer."
+        "explanation": "Die 112 ist der Notruf für Rettungsdienst und Feuerwehr. Sie gilt bei Unfällen, schweren Verletzungen und Feuer. Die 116117 ist nur der ärztliche Bereitschaftsdienst für leichte Beschwerden. Bei einem Notfall wählst du immer die 112."
       }
     },
     {
@@ -23,7 +23,7 @@
         "options": [
           { "text": "Die Polizei.", "correct": true },
           { "text": "Den Rettungsdienst." },
-          { "text": "Das Krankenhaus." }
+          { "text": "Die Feuerwehr." }
         ],
         "explanation": "Die 110 ist die Nummer der Polizei. Merke dir: 112 bei Unfall und Feuer, 110 für die Polizei."
       }
@@ -48,21 +48,21 @@
         "options": [
           { "text": "Ich warte, ob die Leitstelle noch Fragen hat.", "correct": true },
           { "text": "Ich lege sofort auf." },
-          { "text": "Ich schalte das Handy aus." }
+          { "text": "Ich beende das Gespräch selbst, sobald ich alles gesagt habe." }
         ],
-        "explanation": "Die Leitstelle hat oft noch Rückfragen. Darum nie sofort auflegen. Warte, bis die Leitstelle das Gespräch beendet."
+        "explanation": "Die Rettungsleitstelle nimmt den Notruf an und schickt die Hilfe. Sie hat oft noch Rückfragen. Darum legst du nie selbst auf. Warte, bis die Leitstelle das Gespräch beendet."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🩸 Deine Nase blutet. Wie hältst du den Kopf?",
+        "prompt": "🩸 Deine Nase blutet stark. Wie hältst du den Kopf, und was machst du?",
         "options": [
           { "text": "Nach vorne, und die Nase zusammendrücken.", "correct": true },
-          { "text": "Nach hinten in den Nacken." },
-          { "text": "Ganz normal, das ist egal." }
+          { "text": "Nach hinten in den Nacken legen." },
+          { "text": "Nach vorne, und ein Taschentuch fest in die Nase stopfen." }
         ],
-        "explanation": "Den Kopf immer nach vorne neigen. So läuft das Blut nicht in den Hals. Ein kühler Umschlag im Nacken hilft zusätzlich."
+        "explanation": "Den Kopf immer nach vorne neigen. So läuft das Blut nicht in den Hals. Drücke die Nasenflügel zusammen. Steck nichts in die Nase: Das verletzt sie noch mehr. Ein kühler Umschlag im Nacken hilft zusätzlich."
       }
     },
     {
@@ -96,21 +96,21 @@
         "options": [
           { "text": "Ein Tuch zwischen Kühlpack und Haut legen.", "correct": true },
           { "text": "Das Kühlpack direkt auf die Haut drücken." },
-          { "text": "Das Kühlpack vorher warm machen." }
+          { "text": "Das Kühlpack eine Stunde am Stück auf der Stelle lassen." }
         ],
-        "explanation": "Ein Kühlpack ist sehr kalt. Direkt auf der Haut kann es die Haut schädigen. Ein Tuch dazwischen schützt."
+        "explanation": "Ein Kühlpack ist sehr kalt. Direkt auf der Haut kann es die Haut schädigen. Ein Tuch dazwischen schützt. Kühle nur 10 bis 15 Minuten, nicht länger. Zu langes Kühlen schadet der Haut."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👷 Was macht ein Ersthelfer im Betrieb?",
+        "prompt": "👷 Was ist die Aufgabe von einem Ersthelfer im Betrieb?",
         "options": [
           { "text": "Er hilft sofort und kümmert sich, bis der Rettungsdienst kommt.", "correct": true },
-          { "text": "Er operiert die verletzte Person." },
-          { "text": "Er schaut nur zu und macht nichts." }
+          { "text": "Er wartet auf den Notarzt und macht bis dahin nichts." },
+          { "text": "Er fährt die verletzte Person selbst mit dem Auto ins Krankenhaus." }
         ],
-        "explanation": "Der Ersthelfer ist ein Kollege mit Erste-Hilfe-Ausbildung. Er leistet die ersten Maßnahmen. Die medizinische Behandlung übernimmt danach der Notarzt."
+        "explanation": "Der Ersthelfer ist ein Kollege mit Erste-Hilfe-Ausbildung. Er handelt sofort und leistet die ersten Maßnahmen, bis Hilfe kommt. So verliert man keine Zeit. Die medizinische Behandlung übernimmt danach der Notarzt."
       }
     },
     {
