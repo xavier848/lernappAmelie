@@ -56,11 +56,17 @@ export function Budget({
     if (checkRequested === lastCheckRef.current) return;
     lastCheckRef.current = checkRequested;
     setChecked(true);
+    const correct = canAfford(
+      { income: data.income, savingsGoal: data.savingsGoal },
+      amounts,
+    );
+    const spent = Object.values(amounts).reduce((a, b) => a + b, 0);
     onResult({
-      correct: canAfford(
-        { income: data.income, savingsGoal: data.savingsGoal },
-        amounts,
-      ),
+      correct,
+      // Verplante Summe fuer Mamas Statistik festhalten.
+      given: correct
+        ? undefined
+        : `${formatEuro(spent)} verplant bei ${formatEuro(data.income)} Einnahmen`,
     });
   }, [checkRequested, amounts, data.income, data.savingsGoal, onResult]);
 

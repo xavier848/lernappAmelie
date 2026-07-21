@@ -6,6 +6,7 @@
 // Der Ueben-Modus nutzt denselben Screen ohne Sterne (stars weglassen) und
 // mit eigenem Lob-Text + Button-Beschriftung.
 import { useEffect } from "react";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { motion, useReducedMotion } from "framer-motion";
 import { playFinish } from "@/lib/sound";
 import { Button } from "@/components/ui/Button";
@@ -22,6 +23,12 @@ export type ResultScreenProps = {
   message?: string;
   /** Beschriftung des Weiter-Buttons. */
   buttonLabel?: string;
+  /** Ponyweide ist sauber → Amelie darf das Pony fuettern. */
+  canFeed?: boolean;
+  /** Bereits gewaehltes Futter (zeigt Bestaetigung statt Auswahl). */
+  fedItem?: "karotte" | "heu" | "apfel" | null;
+  /** Wird mit der Futter-Wahl aufgerufen. */
+  onFeed?: (item: "karotte" | "heu" | "apfel") => void;
   onContinue: () => void;
 };
 
@@ -31,6 +38,9 @@ export function ResultScreen({
   stars,
   message = "Super gemacht, Amelie!",
   buttonLabel = "Weiter lernen",
+  canFeed = false,
+  fedItem = null,
+  onFeed,
   onContinue,
 }: ResultScreenProps) {
   // Kleiner Jubel beim Erscheinen des Ergebnis-Screens.
@@ -90,6 +100,76 @@ export function ResultScreen({
           </motion.p>
         )}
       </div>
+
+      {/* Ponyweide sauber → Pony fuettern. Erst Auswahl, dann Bestaetigung. */}
+      {canFeed && (
+        <div className="w-full">
+          {fedItem === null ? (
+            <div className="flex flex-col items-center gap-3">
+              <p className="text-base font-bold text-ink">
+                🥕 Füttere dein Pony!
+              </p>
+              <div className="grid w-full grid-cols-3 gap-2.5">
+                <button
+                  type="button"
+                  onClick={() => onFeed?.("karotte")}
+                  className="flex min-h-24 cursor-pointer flex-col items-center justify-center gap-1 rounded-2xl border-2 border-b-4 border-locked bg-white select-none active:translate-y-0.5 active:border-b-2"
+                >
+                  <SafeImage
+                    src="/karotte.png"
+                    alt=""
+                    width={44}
+                    height={44}
+                    fallback="🥕"
+                    fallbackClassName="text-4xl"
+                  />
+                  <span className="text-sm font-bold text-ink">Karotte</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onFeed?.("heu")}
+                  className="flex min-h-24 cursor-pointer flex-col items-center justify-center gap-1 rounded-2xl border-2 border-b-4 border-locked bg-white select-none active:translate-y-0.5 active:border-b-2"
+                >
+                  <SafeImage
+                    src="/heu.png"
+                    alt=""
+                    width={44}
+                    height={44}
+                    fallback="🌾"
+                    fallbackClassName="text-4xl"
+                  />
+                  <span className="text-sm font-bold text-ink">Heu</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onFeed?.("apfel")}
+                  className="flex min-h-24 cursor-pointer flex-col items-center justify-center gap-1 rounded-2xl border-2 border-b-4 border-locked bg-white select-none active:translate-y-0.5 active:border-b-2"
+                >
+                  <span className="text-4xl" aria-hidden>
+                    🍎
+                  </span>
+                  <span className="text-sm font-bold text-ink">Apfel</span>
+                </button>
+              </div>
+            </div>
+          ) : (
+            <motion.p
+              initial={reducedMotion ? false : { scale: 0.7, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 260, damping: 14 }}
+              className="text-center text-base font-bold text-primary-dark"
+            >
+              Dein Pony freut sich über{" "}
+              {fedItem === "karotte"
+                ? "die Karotte 🥕"
+                : fedItem === "heu"
+                  ? "das Heu 🌾"
+                  : "den Apfel 🍎"}
+              !
+            </motion.p>
+          )}
+        </div>
+      )}
 
       <div className="w-full pt-2">
         <Button size="lg" full onClick={onContinue}>

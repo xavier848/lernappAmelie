@@ -13,9 +13,13 @@ import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { exerciseSchema, type ExerciseInput } from "@/lib/content-schema";
 import {
+  addFeed,
+  berlinToday,
   bumpDailyActivity,
   fetchDailyActivity,
+  fetchFeeds,
   fetchLesson,
+  fetchLessonsToday,
   logAttempt,
   saveLessonResult,
 } from "@/lib/data";
@@ -32,13 +36,11 @@ import { FeedbackBanner } from "@/components/ui/FeedbackBanner";
 import { Mascot } from "@/components/ui/Mascot";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { TTSButton } from "@/components/ui/TTSButton";
+import { PromptText } from "@/components/ui/PromptText";
+import { splitSentences } from "@/lib/prompt-format";
+import { speakableText } from "@/lib/speakable";
 import { NoteButton } from "@/components/ui/NoteButton";
-import { StepsOrder } from "@/components/exercises/StepsOrder";
-import { MultipleChoice } from "@/components/exercises/MultipleChoice";
-import { MatchPairs } from "@/components/exercises/MatchPairs";
-import { SortBuckets } from "@/components/exercises/SortBuckets";
-import { MoneyCount } from "@/components/exercises/MoneyCount";
-import { Budget } from "@/components/exercises/Budget";
+import { ExerciseView } from "@/components/exercises/ExerciseView";
 import {
   advanceQueue,
   createQueue,
@@ -58,35 +60,6 @@ type Feedback = {
   /** Was nach "Weiter" passiert: retry = gleiche Uebung sofort nochmal. */
   outcome: "solved" | "retry" | "defer";
 };
-
-/** Rendert die passende Uebungskomponente nach exercise.type. */
-function ExerciseView({
-  exercise,
-  onResult,
-  checkRequested,
-  onReadyChange,
-}: {
-  exercise: ExerciseInput;
-  onResult: (r: { correct: boolean }) => void;
-  checkRequested: number;
-  onReadyChange: (ready: boolean) => void;
-}) {
-  const common = { onResult, checkRequested, onReadyChange };
-  switch (exercise.type) {
-    case "steps_order":
-      return <StepsOrder data={exercise.data} {...common} />;
-    case "multiple_choice":
-      return <MultipleChoice data={exercise.data} {...common} />;
-    case "match_pairs":
-      return <MatchPairs data={exercise.data} {...common} />;
-    case "sort_buckets":
-      return <SortBuckets data={exercise.data} {...common} />;
-    case "money_count":
-      return <MoneyCount data={exercise.data} {...common} />;
-    case "budget":
-      return <Budget data={exercise.data} {...common} />;
-  }
-}
 
 /** Rohe Uebungs-Zeilen (z. B. aus der DB) fuer exercisesOverride. */
 export type ExerciseRowLike = { id: string; type: string; data: unknown };
@@ -123,6 +96,9 @@ export function LessonPlayer({
 
   const [phase, setPhase] = useState<Phase>("loading");
   const [lessonId, setLessonId] = useState<string | null>(null);
+  // Einführung: optionaler Vorschalt-Screen vor der ersten Übung.
+  const [intro, setIntro] = useState<string | null>(null);
+  const [showIntro, setShowIntro] = useState(false);
   const [exercises, setExercises] = useState<PlayableExercise[]>([]);
   const [queueState, setQueueState] = useState<QueueState>(() =>
     createQueue([])
@@ -136,12 +112,20 @@ export function LessonPlayer({
     stars: 1 | 2 | 3;
     levelUp: number | null;
   }>({ xp: 0, stars: 1, levelUp: null });
+  // Ponyweide: darf Amelie nach dieser Lektion das Pony fuettern (Weide schon
+  // sauber)? Und was hat sie gewaehlt?
+  const [canFeed, setCanFeed] = useState(false);
+  const [fedItem, setFedItem] = useState<"karotte" | "heu" | "apfel" | null>(null);
 
   const load = useCallback(async () => {
     setPhase("loading");
     setFeedback(null);
     setReady(false);
     setCheckRequested(0);
+    setCanFeed(false);
+    setFedItem(null);
+    setIntro(null);
+    setShowIntro(false);
     try {
       // Ueben-Modus: Uebungen kommen fertig geladen von aussen.
       if (exercisesOverride) {
@@ -174,6 +158,12 @@ export function LessonPlayer({
       setLessonId(data.lesson.id);
       setExercises(playable);
       setQueueState(createQueue(playable));
+      // Einführung nur im normalen Lektions-Modus und nur wenn vorhanden.
+      const introText = data.lesson.intro?.trim();
+      if (introText) {
+        setIntro(introText);
+        setShowIntro(true);
+      }
       setPhase("playing");
       // Sicherheitsnetz gegen wiederhergestellte Scroll-Positionen (iOS).
       window.scrollTo(0, 0);
@@ -187,6 +177,29 @@ export function LessonPlayer({
     void load();
   }, [load]);
 
+  // Waehrend einer laufenden Uebung das Dokument-Scrollen komplett sperren.
+  // Sonst kann iOS die ganze Seite per Gummiband nach unten ziehen und die
+  // Kopfzeile (✕ + Fortschrittsbalken) wandert mit. Nur der Aufgabenbereich
+  // (unten, overflow-y-auto) darf scrollen. Beim Verlassen wieder freigeben.
+  useEffect(() => {
+    if (phase !== "playing") return;
+    const html = document.documentElement;
+    const body = document.body;
+    const prev = {
+      htmlOverflow: html.style.overflow,
+      bodyOverflow: body.style.overflow,
+      overscroll: body.style.overscrollBehavior,
+    };
+    html.style.overflow = "hidden";
+    body.style.overflow = "hidden";
+    body.style.overscrollBehavior = "none";
+    return () => {
+      html.style.overflow = prev.htmlOverflow;
+      body.style.overflow = prev.bodyOverflow;
+      body.style.overscrollBehavior = prev.overscroll;
+    };
+  }, [phase]);
+
   const currentIndex = currentExerciseIndex(queueState);
   const current = currentIndex !== null ? exercises[currentIndex] : null;
 
@@ -199,7 +212,15 @@ export function LessonPlayer({
     // advanceQueue ist pure - wir schauen nur, was "Weiter" bewirken wird,
     // damit der Banner-Text ehrlich ankuendigt, wie es weitergeht.
     const { outcome } = advanceQueue(queueState, r.correct);
-    setFeedback({ correct: r.correct, explanation, outcome });
+    // Kopfrechnen & Gedaechtnis: Beim Sofort-Retry die Loesung NICHT
+    // verraten (die explanation enthaelt das Ergebnis) - Kopfrechnen zeigt
+    // stattdessen den Tipp, das Gedaechtnisspiel die Merkphase erneut.
+    const hideOnRetry =
+      current.exercise.type === "number_input" ||
+      current.exercise.type === "memory_game";
+    const bannerExplanation =
+      outcome === "retry" && hideOnRetry ? undefined : explanation;
+    setFeedback({ correct: r.correct, explanation: bannerExplanation, outcome });
     // Statistik fire-and-forget – Fehler schluckt lib/data.
     const deviceId = getDeviceId();
     if (deviceId) {
@@ -264,17 +285,42 @@ export function LessonPlayer({
     setResult({ xp, stars, levelUp: null });
     setPhase("finished");
 
-    // Speichern – bei Netzfehlern uebernimmt die Offline-Queue in lib/data.
+    // Speichern + Ponyweide-Logik. saveLessonResult zuerst (schreibt
+    // completed_at), dann zaehlen wir die heutigen Lektionen fuer die
+    // Fuetter-Freigabe. Bei Netzfehlern uebernimmt die Offline-Queue.
+    const deviceId = getDeviceId();
+    if (deviceId && lessonId) {
+      void (async () => {
+        try {
+          await saveLessonResult({ deviceId, lessonId, stars, xp });
+          const day = berlinToday();
+          const [lessonsToday, feeds] = await Promise.all([
+            fetchLessonsToday(deviceId, day),
+            fetchFeeds(deviceId, day),
+          ]);
+          // Erst wenn die 3 Pferdeaepfel weg sind (>=3 Lektionen), gibt es
+          // pro weiterer Lektion ein Futter - aber nur, wenn noch nicht
+          // eingeloest (kein Farmen durch Wiederholen).
+          const earnedFeeds = Math.max(0, lessonsToday - 3);
+          if (earnedFeeds > feeds.length) setCanFeed(true);
+          await detectLevelUp(deviceId, xp);
+          await bumpDailyActivity(deviceId, xp);
+        } catch {
+          // still – Ergebnis-Screen zeigen wir trotzdem
+        }
+      })();
+    }
+  }
+
+  /** Amelie gibt dem Pony Karotte/Heu (landet auf der Startseiten-Weide). */
+  function handleFeed(item: "karotte" | "heu" | "apfel") {
+    if (fedItem) return;
+    setFedItem(item);
     try {
       const deviceId = getDeviceId();
-      if (deviceId && lessonId) {
-        void saveLessonResult({ deviceId, lessonId, stars, xp });
-        void detectLevelUp(deviceId, xp).then(() =>
-          bumpDailyActivity(deviceId, xp)
-        );
-      }
+      if (deviceId) void addFeed(deviceId, berlinToday(), item);
     } catch {
-      // bewusst still – Ergebnis-Screen zeigen wir trotzdem
+      // still – die Auswahl bleibt trotzdem sichtbar
     }
   }
 
@@ -294,7 +340,7 @@ export function LessonPlayer({
 
   if (phase === "loading") {
     return (
-      <div className="flex min-h-svh items-center justify-center px-4">
+      <div className="flex h-full items-center justify-center px-4">
         <p className="animate-pulse text-lg font-semibold text-ink/60">
           Einen Moment bitte …
         </p>
@@ -304,7 +350,7 @@ export function LessonPlayer({
 
   if (phase === "error") {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center gap-8 px-4">
+      <div className="flex h-full flex-col items-center justify-center gap-8 px-4">
         <Mascot
           mood="neutral"
           message="Gerade klappt es nicht. Versuch es später nochmal."
@@ -333,18 +379,63 @@ export function LessonPlayer({
         xp={result.xp}
         stars={result.stars}
         levelUp={result.levelUp}
+        canFeed={canFeed}
+        fedItem={fedItem}
+        onFeed={handleFeed}
         onContinue={() => router.push("/")}
       />
+    );
+  }
+
+  // Einführungs-Screen: kommt VOR der ersten Übung. Text (ein Satz pro Zeile,
+  // gut lesbar) + Vorlese-Knopf, unten „Los geht’s". Kein Fortschritt/keine XP.
+  if (showIntro && intro) {
+    return (
+      <div className="flex h-full flex-col overflow-hidden">
+        <div className="flex items-center gap-3 px-4 pt-4">
+          <button
+            type="button"
+            aria-label="Zurück"
+            onClick={() => router.push("/")}
+            className="flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl text-2xl font-bold text-ink/50 select-none"
+          >
+            <span aria-hidden>✕</span>
+          </button>
+          <p className="flex-1 text-center text-sm font-bold text-ink/60">
+            Einführung
+          </p>
+          <div className="min-h-12 min-w-12" aria-hidden />
+        </div>
+
+        <div className="flex-1 overflow-y-auto overscroll-contain px-4 pt-4 pb-40">
+          <div className="flex items-start gap-3">
+            <div className="flex flex-1 flex-col gap-2.5 text-lg leading-relaxed font-medium text-ink">
+              {splitSentences(intro).map((sentence, index) => (
+                <p key={index}>{sentence}</p>
+              ))}
+            </div>
+            <TTSButton text={intro} />
+          </div>
+        </div>
+
+        <div className="fixed inset-x-0 bottom-0 z-40">
+          <div className="mx-auto w-full max-w-md bg-white px-4 pt-3 pb-[max(1.5rem,env(safe-area-inset-bottom))]">
+            <Button size="lg" full onClick={() => setShowIntro(false)}>
+              Los geht’s 👍
+            </Button>
+          </div>
+        </div>
+      </div>
     );
   }
 
   if (!current || currentIndex === null) return null;
 
   return (
-    // Exakt bildschirmhoch und selbst NICHT scrollbar: nur der
-    // Aufgabenbereich scrollt (wenn noetig). So kann die Seite auf dem
+    // Exakt shell-hoch (h-full von <main>) und selbst NICHT scrollbar: nur
+    // der Aufgabenbereich scrollt (wenn noetig). So kann die Seite auf dem
     // Handy nicht "verrutschen" (iOS-Gummiband ueber der ganzen Karte).
-    <div className="flex h-svh flex-col overflow-hidden">
+    <div className="flex h-full flex-col overflow-hidden">
       {/* Kopf: X-Button + Fortschritt (+ Notiz-Knopf im Mama-Modus) */}
       <div className="flex items-center gap-3 px-4 pt-4">
         <button
@@ -368,10 +459,10 @@ export function LessonPlayer({
       {/* Prompt + Vorlesen */}
       <div className="flex items-start gap-3 px-4 pt-6">
         <h1 className="flex-1 text-xl font-bold text-ink">
-          {current.exercise.data.prompt}
+          <PromptText text={current.exercise.data.prompt} />
         </h1>
         <TTSButton
-          text={current.exercise.data.prompt}
+          text={speakableText(current.exercise)}
           lang={current.exercise.data.tts_lang}
         />
       </div>
@@ -384,6 +475,7 @@ export function LessonPlayer({
           onResult={handleResult}
           checkRequested={checkRequested}
           onReadyChange={setReady}
+          attempt={queueState.retried[currentIndex] ?? 0}
         />
       </div>
 

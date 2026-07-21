@@ -42,7 +42,31 @@ function makeProps() {
     onResult: vi.fn(),
     onReadyChange: vi.fn(),
     checkRequested: 0,
+    // Fester Seed: Items werden gemischt, aber deterministisch (testbar).
+    seed: "test",
   };
+}
+
+// Die Items werden pro Aufruf gemischt, deshalb dürfen die Tests keine feste
+// Reihenfolge annehmen. Diese Helfer lesen das aktuell gezeigte Item und
+// tippen den passenden (richtigen bzw. falschen) Korb an.
+const CORRECT_LABEL: Record<string, RegExp> = {
+  "T-Shirt": /30 Grad/,
+  Handtuch: /60 Grad/,
+};
+const WRONG_LABEL: Record<string, RegExp> = {
+  "T-Shirt": /60 Grad/,
+  Handtuch: /30 Grad/,
+};
+
+function currentItem(): "T-Shirt" | "Handtuch" {
+  const text = (screen.getByTestId("sort-item").textContent ?? "").trim();
+  return text.includes("T-Shirt") ? "T-Shirt" : "Handtuch";
+}
+
+function sortCurrent(kind: "correct" | "wrong") {
+  const label = (kind === "correct" ? CORRECT_LABEL : WRONG_LABEL)[currentItem()];
+  fireEvent.click(screen.getByRole("button", { name: label }));
 }
 
 describe("SortBuckets", () => {
@@ -51,7 +75,8 @@ describe("SortBuckets", () => {
     render(<SortBuckets {...props} />);
     expect(screen.getByRole("button", { name: /30 Grad/ })).toBeTruthy();
     expect(screen.getByRole("button", { name: /60 Grad/ })).toBeTruthy();
-    expect(screen.getByText("T-Shirt")).toBeTruthy();
+    // Egal welches Item zuerst kommt – eines der beiden ist sichtbar.
+    expect(["T-Shirt", "Handtuch"]).toContain(currentItem());
     expect(screen.getByText("1 von 2")).toBeTruthy();
     expect(props.onReadyChange).toHaveBeenLastCalledWith(false);
   });
@@ -60,11 +85,10 @@ describe("SortBuckets", () => {
     const props = makeProps();
     const { rerender } = render(<SortBuckets {...props} />);
 
-    fireEvent.click(screen.getByRole("button", { name: /30 Grad/ })); // T-Shirt
-    expect(screen.getByText("Handtuch")).toBeTruthy();
+    sortCurrent("correct");
     expect(props.onReadyChange).toHaveBeenLastCalledWith(false);
 
-    fireEvent.click(screen.getByRole("button", { name: /60 Grad/ })); // Handtuch
+    sortCurrent("correct");
     expect(props.onReadyChange).toHaveBeenLastCalledWith(true);
     expect(screen.getByText(/Alles sortiert/)).toBeTruthy();
 
@@ -78,11 +102,13 @@ describe("SortBuckets", () => {
     const props = makeProps();
     const { rerender } = render(<SortBuckets {...props} />);
 
-    // T-Shirt (gehoert in 30 Grad) faelschlich in 60 Grad sortieren.
-    fireEvent.click(screen.getByRole("button", { name: /60 Grad/ }));
+    // Aktuelles Item bewusst in den FALSCHEN Korb sortieren.
+    const wrongItem = currentItem();
+    const correctLabel = CORRECT_LABEL[wrongItem];
+    sortCurrent("wrong");
 
     // Richtiger Korb pulsiert tuerkis, Item-Karte zeigt Warn-Zustand.
-    const correctBucket = screen.getByRole("button", { name: /30 Grad/ });
+    const correctBucket = screen.getByRole("button", { name: correctLabel });
     expect(correctBucket.className).toContain("animate-pulse");
     expect(correctBucket.className).toContain("border-primary");
     expect(screen.getByTestId("sort-item").className).toContain("border-warning");
@@ -96,8 +122,7 @@ describe("SortBuckets", () => {
     });
 
     // Naechstes Item, Korb korrekt antippen.
-    expect(screen.getByText("Handtuch")).toBeTruthy();
-    fireEvent.click(screen.getByRole("button", { name: /60 Grad/ }));
+    sortCurrent("correct");
     expect(props.onReadyChange).toHaveBeenLastCalledWith(true);
 
     rerender(<SortBuckets {...props} checkRequested={1} />);
@@ -108,8 +133,8 @@ describe("SortBuckets", () => {
   it("feuert onResult genau einmal pro Prüf-Vorgang", () => {
     const props = makeProps();
     const { rerender } = render(<SortBuckets {...props} />);
-    fireEvent.click(screen.getByRole("button", { name: /30 Grad/ }));
-    fireEvent.click(screen.getByRole("button", { name: /60 Grad/ }));
+    sortCurrent("correct");
+    sortCurrent("correct");
 
     rerender(<SortBuckets {...props} checkRequested={1} />);
     rerender(<SortBuckets {...props} checkRequested={1} />);

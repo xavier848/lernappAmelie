@@ -101,6 +101,7 @@ describe("groupLessonsByTopic", () => {
     sort,
     published: true,
     created_at: "2026-07-09T00:00:00Z",
+    intro: null,
   });
 
   it("gruppiert Lektionen unter ihr Thema", () => {

@@ -5,6 +5,7 @@ import { supabaseBrowser } from "@/lib/supabase";
 import type {
   ExerciseRow,
   LessonRow,
+  PathLessonRow,
   ProgressRow,
   TopicRow,
   TopicWithLessons,
@@ -92,7 +93,7 @@ export function aggregateAttemptStats(
  */
 export function groupLessonsByTopic(
   topics: TopicRow[],
-  lessons: LessonRow[]
+  lessons: PathLessonRow[]
 ): TopicWithLessons[] {
   const sortedTopics = [...topics].sort((a, b) => a.sort - b.sort);
   const sortedLessons = [...lessons].sort((a, b) => a.sort - b.sort);
@@ -109,16 +110,21 @@ export function groupLessonsByTopic(
 /** Lernpfad: alle publizierten Themen mit ihren publizierten Lektionen, sortiert. */
 export async function fetchPath(): Promise<TopicWithLessons[]> {
   const supabase = supabaseBrowser();
+  // Nur die Spalten holen, die der Lernpfad wirklich anzeigt. Vorher lud
+  // select("*") auch alle Einfuehrungstexte mit (97 Lektionen a ~600
+  // Zeichen) – auf der Startseite, wo sie niemand braucht.
+  // `sort` und `icon` sind Pflicht: ohne sort sortiert groupLessonsByTopic
+  // nach undefined, ohne icon fehlen die Emojis auf den Karten.
   const [topicsRes, lessonsRes] = await Promise.all([
-    supabase.from("topics").select("*"),
-    supabase.from("lessons").select("*"),
+    supabase.from("topics").select("id, slug, title, icon, sort, published"),
+    supabase.from("lessons").select("id, topic_id, slug, title, sort, published"),
   ]);
   if (topicsRes.error) throw topicsRes.error;
   if (lessonsRes.error) throw lessonsRes.error;
   // RLS liefert ohnehin nur published-Zeilen; Sortierung/Gruppierung hier.
   return groupLessonsByTopic(
     (topicsRes.data ?? []) as TopicRow[],
-    (lessonsRes.data ?? []) as LessonRow[]
+    (lessonsRes.data ?? []) as PathLessonRow[]
   );
 }
 
@@ -127,23 +133,25 @@ export async function fetchLesson(
   slug: string
 ): Promise<{ lesson: LessonRow; exercises: ExerciseRow[] } | null> {
   const supabase = supabaseBrowser();
-  const lessonRes = await supabase
+  // Lektion UND Uebungen in einer einzigen Abfrage holen. Vorher waren das
+  // zwei Abfragen nacheinander – auf dem Handy im Mobilfunk kostet jeder
+  // zusaetzliche Roundtrip spuerbar Zeit, bis die erste Aufgabe erscheint.
+  const res = await supabase
     .from("lessons")
-    .select("*")
+    .select("*, exercises(*)")
     .eq("slug", slug)
+    .order("sort", { referencedTable: "exercises", ascending: true })
     .maybeSingle();
-  if (lessonRes.error) throw lessonRes.error;
-  if (!lessonRes.data) return null;
-  const lesson = lessonRes.data as LessonRow;
+  if (res.error) throw res.error;
+  if (!res.data) return null;
 
-  const exercisesRes = await supabase
-    .from("exercises")
-    .select("*")
-    .eq("lesson_id", lesson.id)
-    .order("sort", { ascending: true });
-  if (exercisesRes.error) throw exercisesRes.error;
-
-  return { lesson, exercises: (exercisesRes.data ?? []) as ExerciseRow[] };
+  const { exercises, ...lesson } = res.data as LessonRow & {
+    exercises: ExerciseRow[] | null;
+  };
+  return {
+    lesson: lesson as LessonRow,
+    exercises: (exercises ?? []) as ExerciseRow[],
+  };
 }
 
 /** Aller Fortschritt eines Geraets. */
@@ -185,6 +193,68 @@ export async function fetchDailyActivity(
   return (res.data ?? []) as { day: string; xp: number }[];
 }
 
+/** Datum (YYYY-MM-DD, Europe/Berlin) eines UTC-Zeitstempels. */
+export function berlinDateOf(ts: string): string {
+  return new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Berlin" }).format(
+    new Date(ts)
+  );
+}
+
+/**
+ * Anzahl VERSCHIEDENER Lektionen, die heute (Europe/Berlin) abgeschlossen
+ * wurden. Grundlage fuer die Ponyweide: 3 Pferdeaepfel, jede neue Lektion
+ * macht einen weg. (progress.completed_at wird beim Abschluss aktualisiert.)
+ */
+export async function fetchLessonsToday(
+  deviceId: string,
+  day: string
+): Promise<number> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("progress")
+    .select("lesson_id, completed_at")
+    .eq("device_id", deviceId);
+  if (res.error) throw res.error;
+  const ids = new Set<string>();
+  for (const row of (res.data ?? []) as {
+    lesson_id: string;
+    completed_at: string | null;
+  }[]) {
+    if (row.completed_at && berlinDateOf(row.completed_at) === day) {
+      ids.add(row.lesson_id);
+    }
+  }
+  return ids.size;
+}
+
+/** Futter (Karotte/Heu), das Amelie dem Pony heute gegeben hat. */
+export async function fetchFeeds(
+  deviceId: string,
+  day: string
+): Promise<("karotte" | "heu" | "apfel")[]> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("meadow_feeds")
+    .select("item")
+    .eq("device_id", deviceId)
+    .eq("day", day);
+  if (res.error) throw res.error;
+  return ((res.data ?? []) as { item: "karotte" | "heu" | "apfel" }[]).map((r) => r.item);
+}
+
+/** Ein Stueck Futter aufs Feld legen (nach einer Lektion, wenn Weide sauber). */
+export async function addFeed(
+  deviceId: string,
+  day: string,
+  item: "karotte" | "heu" | "apfel"
+): Promise<void> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("meadow_feeds")
+    .insert({ device_id: deviceId, day, item });
+  if (res.error) throw res.error;
+}
+
 /**
  * Alle (publizierten) Uebungen der angegebenen Lektionen - Basis fuer den
  * Ueben-Modus. RLS liefert ohnehin nur publizierte Inhalte.
@@ -200,6 +270,34 @@ export async function fetchExercisesForLessons(
     .in("lesson_id", lessonIds);
   if (res.error) throw res.error;
   return (res.data ?? []) as ExerciseRow[];
+}
+
+/** Uebungen anhand ihrer IDs laden (fuer die faellige Wiederholung). */
+export async function fetchExercisesByIds(
+  ids: string[]
+): Promise<ExerciseRow[]> {
+  if (ids.length === 0) return [];
+  const supabase = supabaseBrowser();
+  const res = await supabase.from("exercises").select("*").in("id", ids);
+  if (res.error) throw res.error;
+  return (res.data ?? []) as ExerciseRow[];
+}
+
+/** Alle Einzel-Versuche eines Geraets (mit Datum) - Basis fuer Spaced Repetition. */
+export async function fetchAttemptsRaw(
+  deviceId: string
+): Promise<{ exercise_id: string; correct: boolean; created_at: string }[]> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("exercise_attempts")
+    .select("exercise_id, correct, created_at")
+    .eq("device_id", deviceId);
+  if (res.error) throw res.error;
+  return (res.data ?? []) as {
+    exercise_id: string;
+    correct: boolean;
+    created_at: string;
+  }[];
 }
 
 /**
@@ -228,36 +326,51 @@ export async function fetchAttemptStats(
 export async function fetchAttemptStatsWithLessons(deviceId: string): Promise<{
   stats: Map<string, { correct: number; wrong: number }>;
   exerciseToLesson: Map<string, string>;
+  /** Einzel-Versuche mit Datum (Basis fuer die faellige Wiederholung). */
+  attempts: { exercise_id: string; correct: boolean; created_at: string }[];
 }> {
   const supabase = supabaseBrowser();
-  const attemptsRes = await supabase
+  // ACHTUNG, hier lag ein Ausfall in der Zukunft: Frueher wurden erst alle
+  // Versuche geladen und dann die zugehoerigen Uebungen ueber eine Liste
+  // ALLER Uebungs-IDs in der URL nachgeschlagen. Diese URL waechst mit jeder
+  // geuebten Aufgabe (Amelie: 474 IDs ~ 17,6 KB) – ab rund 675 IDs lehnt der
+  // Server sie mit HTTP 400 ab. Weil die Abfrage im Promise.all der
+  // Startseite haengt, waeren Startseite, Pruefung, Wiederholen UND Mamas
+  // Statistik gleichzeitig im Fehler-Screen gelandet.
+  // Der Embed holt beides in einer Abfrage – ganz ohne Riesen-URL.
+  const res = await supabase
     .from("exercise_attempts")
-    .select("exercise_id, correct")
+    .select("exercise_id, correct, created_at, exercises(lesson_id)")
     .eq("device_id", deviceId);
-  if (attemptsRes.error) throw attemptsRes.error;
-  const attempts = (attemptsRes.data ?? []) as {
+  if (res.error) throw res.error;
+
+  const rows = (res.data ?? []) as {
     exercise_id: string;
     correct: boolean;
+    created_at: string;
+    // Je nach Beziehung liefert PostgREST ein Objekt oder ein Array; bei
+    // unveroeffentlichten Lektionen kann der Embed null sein.
+    exercises: { lesson_id: string } | { lesson_id: string }[] | null;
   }[];
+
+  // created_at kommt mit, damit die Startseite die faellige Wiederholung aus
+  // denselben Zeilen berechnen kann und nicht dieselbe Tabelle ein zweites
+  // Mal abfragen muss.
+  const attempts = rows.map((r) => ({
+    exercise_id: r.exercise_id,
+    correct: r.correct,
+    created_at: r.created_at,
+  }));
+
   const stats = aggregateAttemptStats(attempts);
 
   const exerciseToLesson = new Map<string, string>();
-  const exerciseIds = [...stats.keys()];
-  if (exerciseIds.length > 0) {
-    const exercisesRes = await supabase
-      .from("exercises")
-      .select("id, lesson_id")
-      .in("id", exerciseIds);
-    if (exercisesRes.error) throw exercisesRes.error;
-    for (const row of (exercisesRes.data ?? []) as {
-      id: string;
-      lesson_id: string;
-    }[]) {
-      exerciseToLesson.set(row.id, row.lesson_id);
-    }
+  for (const row of rows) {
+    const ex = Array.isArray(row.exercises) ? row.exercises[0] : row.exercises;
+    if (ex?.lesson_id) exerciseToLesson.set(row.exercise_id, ex.lesson_id);
   }
 
-  return { stats, exerciseToLesson };
+  return { stats, exerciseToLesson, attempts };
 }
 
 // ---------------------------------------------------------------------------
@@ -428,9 +541,9 @@ export async function fetchWrongAnswers(
  * Reicht gepufferte Schreibvorgaenge nach (beim App-Start aufrufen).
  * Fehlgeschlagene Eintraege landen wieder in der Queue.
  */
-export async function flushPendingWrites(): Promise<void> {
+export async function flushPendingWrites(): Promise<boolean> {
   const pending = readPending();
-  if (pending.length === 0) return;
+  if (pending.length === 0) return false;
   clearPending();
   for (const write of pending) {
     try {
@@ -447,6 +560,7 @@ export async function flushPendingWrites(): Promise<void> {
       enqueuePending(write);
     }
   }
+  return true;
 }
 
 /**
@@ -461,6 +575,7 @@ export async function resetDeviceData(deviceId: string): Promise<void> {
     supabase.from("exercise_attempts").delete().eq("device_id", deviceId),
     supabase.from("progress").delete().eq("device_id", deviceId),
     supabase.from("daily_activity").delete().eq("device_id", deviceId),
+    supabase.from("meadow_feeds").delete().eq("device_id", deviceId),
   ]);
   const firstError = results.find((r) => r.error)?.error;
   if (firstError) throw firstError;

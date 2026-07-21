@@ -25,6 +25,8 @@ export type LessonRow = {
   sort: number;
   published: boolean;
   created_at: string;
+  /** Optionaler Einführungs-Text (Leichte Sprache), vor der ersten Übung. */
+  intro: string | null;
 };
 
 export type ExerciseRow = {
@@ -44,4 +46,12 @@ export type ProgressRow = {
   completed_at: string;
 };
 
-export type TopicWithLessons = TopicRow & { lessons: LessonRow[] };
+/**
+ * Lektion im Lernpfad. Bewusst OHNE `intro` und `created_at`: Der Lernpfad
+ * laedt alle ~312 Lektionen auf einmal, und die Einfuehrungstexte machen
+ * zusammen ein Vielfaches der uebrigen Daten aus. Gebraucht wird der Text
+ * erst in der Lektion selbst (fetchLesson).
+ */
+export type PathLessonRow = Omit<LessonRow, "intro" | "created_at">;
+
+export type TopicWithLessons = TopicRow & { lessons: PathLessonRow[] };

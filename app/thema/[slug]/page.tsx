@@ -11,8 +11,8 @@ import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import { pathStates, type LessonPathState } from "@/components/path/path-states";
 import { fetchPath, fetchProgress } from "@/lib/data";
-import { getDeviceId } from "@/lib/device";
-import type { LessonRow, ProgressRow, TopicWithLessons } from "@/lib/types";
+import { getDeviceId, getProfile } from "@/lib/device";
+import type { PathLessonRow, ProgressRow, TopicWithLessons } from "@/lib/types";
 
 type LoadState =
   | { status: "loading" }
@@ -45,7 +45,7 @@ function LessonRowCard({
   lesson,
   state,
 }: {
-  lesson: LessonRow;
+  lesson: PathLessonRow;
   state: LessonPathState;
 }) {
   if (state.state === "locked") {
@@ -119,6 +119,13 @@ export default function ThemaPage() {
 
   const [state, setState] = useState<LoadState>({ status: "loading" });
   const [reloadKey, setReloadKey] = useState(0);
+  // Mama-Profil: nichts ist gesperrt (sie prueft die Inhalte und soll frei
+  // springen koennen). Erst nach dem Mount lesen (localStorage, SSR-sicher).
+  const [isMama, setIsMama] = useState(false);
+
+  useEffect(() => {
+    setIsMama(getProfile() === "mama");
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -179,6 +186,14 @@ export default function ThemaPage() {
     state.status === "ready" && topic
       ? pathStates([topic], state.progress)
       : new Map<string, LessonPathState>();
+  // Im Mama-Modus alle gesperrten Lektionen freischalten.
+  if (isMama) {
+    for (const [lessonId, lessonState] of states) {
+      if (lessonState.state === "locked") {
+        states.set(lessonId, { state: "current" });
+      }
+    }
+  }
   const lessons = topic ? [...topic.lessons].sort((a, b) => a.sort - b.sort) : [];
 
   return (

@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/Button";
 import { StreakCalendar } from "@/components/profile/StreakCalendar";
 import { BadgeGrid } from "@/components/profile/BadgeGrid";
 import { NotificationsButton } from "@/components/ui/NotificationsButton";
+import { FontChooser } from "@/components/ui/FontChooser";
 import {
   berlinToday,
   fetchDailyActivity,
@@ -156,6 +157,8 @@ export default function ProfilPage() {
         </Card>
 
         <NotificationsButton />
+
+        <FontChooser />
 
         <section aria-label="Meine Lerntage">
           <h2 className="mb-3 text-lg font-extrabold text-ink">

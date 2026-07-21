@@ -3,7 +3,7 @@
 // eine zum Wiederholen (Lektion mit Fehlern), eine zum Weitermachen
 // (angefangenes Thema) und eine fuer etwas Neues (unberuehrtes Thema,
 // rotiert taeglich ueber todaySeed). Reine Funktion ohne Seiteneffekte.
-import type { LessonRow, ProgressRow, TopicWithLessons } from "@/lib/types";
+import type { PathLessonRow, ProgressRow, TopicWithLessons } from "@/lib/types";
 
 export type SuggestionKind = "wiederholen" | "neues" | "weitermachen";
 
@@ -36,13 +36,13 @@ function hashString(value: string): number {
 }
 
 /** Lektionen eines Themas nach sort (Kopie, veraendert nichts). */
-function sortedLessons(topic: TopicWithLessons): LessonRow[] {
+function sortedLessons(topic: TopicWithLessons): PathLessonRow[] {
   return [...topic.lessons].sort((a, b) => a.sort - b.sort);
 }
 
 function toSuggestion(
   kind: SuggestionKind,
-  lesson: LessonRow,
+  lesson: PathLessonRow,
   topic: TopicWithLessons,
   grund: string
 ): Suggestion {
@@ -72,7 +72,7 @@ function pickWiederholen(
     wrongByLesson.set(lessonId, (wrongByLesson.get(lessonId) ?? 0) + entry.wrong);
   }
 
-  let best: { lesson: LessonRow; topic: TopicWithLessons; wrong: number } | null =
+  let best: { lesson: PathLessonRow; topic: TopicWithLessons; wrong: number } | null =
     null;
   for (const topic of input.topics) {
     for (const lesson of sortedLessons(topic)) {
@@ -121,7 +121,7 @@ function pickNeues(
   input: BuildSuggestionsInput,
   completed: ReadonlySet<string>
 ): Suggestion | null {
-  const candidates: { lesson: LessonRow; topic: TopicWithLessons }[] = [];
+  const candidates: { lesson: PathLessonRow; topic: TopicWithLessons }[] = [];
   for (const topic of input.topics) {
     const lessons = sortedLessons(topic);
     if (lessons.length === 0) continue;

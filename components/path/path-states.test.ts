@@ -11,6 +11,7 @@ function lesson(id: string, topicId: string, sort: number): LessonRow {
     sort,
     published: true,
     created_at: "2026-07-09T00:00:00Z",
+    intro: null,
   };
 }
 

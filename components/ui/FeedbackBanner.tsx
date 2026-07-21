@@ -5,9 +5,80 @@
 // Rutscht von unten herein (Framer), respektiert prefers-reduced-motion.
 import { useEffect } from "react";
 import { motion, useReducedMotion } from "framer-motion";
+import { SafeImage } from "./SafeImage";
 import { Button } from "./Button";
 import { cn } from "@/lib/cn";
 import { playCorrect, playWrong } from "@/lib/sound";
+
+/**
+ * Reaktions-Pony neben der Rueckmeldung. Bei falsch trabt das grummelige
+ * Pony herein und laesst Pferdeaepfel fallen (Amelie findet das lustig,
+ * und Fehler fuehlen sich so nicht wie Strafe an). Bei richtig huepft das
+ * froehliche Pony mit Konfetti herein.
+ */
+function FeedbackPony({
+  state,
+  reducedMotion,
+}: {
+  state: "correct" | "wrong";
+  reducedMotion: boolean | null;
+}) {
+  if (state === "correct") {
+    return (
+      <motion.div
+        className="shrink-0"
+        initial={reducedMotion ? false : { scale: 0.3, opacity: 0, rotate: -8 }}
+        animate={{ scale: 1, opacity: 1, rotate: 0 }}
+        transition={{ type: "spring", stiffness: 260, damping: 13 }}
+      >
+        <SafeImage
+          src="/pony-freut.png"
+          alt=""
+          width={76}
+          height={76}
+          priority
+          fallback="🐴"
+          fallbackClassName="text-6xl"
+        />
+      </motion.div>
+    );
+  }
+  return (
+    <div className="relative h-[76px] w-[76px] shrink-0">
+      <motion.div
+        className="absolute inset-0"
+        initial={reducedMotion ? false : { x: -130, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ type: "spring", stiffness: 300, damping: 26 }}
+      >
+        <SafeImage
+          src="/pony-boese.png"
+          alt=""
+          width={76}
+          height={76}
+          priority
+          fallback="🐴"
+          fallbackClassName="text-6xl"
+        />
+      </motion.div>
+      <motion.div
+        className="absolute -right-1 bottom-0"
+        initial={reducedMotion ? false : { scale: 0, opacity: 0, y: -6 }}
+        animate={{ scale: 1, opacity: 1, y: 0 }}
+        transition={{ delay: 0.45, type: "spring", stiffness: 300, damping: 15 }}
+      >
+        <SafeImage
+          src="/pferdeaepfel.png"
+          alt="Pferdeäpfel"
+          width={40}
+          height={40}
+          fallback="💩"
+          fallbackClassName="text-3xl"
+        />
+      </motion.div>
+    </div>
+  );
+}
 
 export type FeedbackBannerProps = {
   state: "correct" | "wrong";
@@ -67,10 +138,17 @@ export function FeedbackBanner({
           c.wrap
         )}
       >
-        <p className={cn("text-xl font-extrabold", c.text)}>
-          {c.emoji} {shownTitle}
-        </p>
-        {explanation && <p className="mt-2 text-base text-ink">{explanation}</p>}
+        <div className="flex items-start gap-3">
+          <FeedbackPony state={state} reducedMotion={reducedMotion} />
+          <div className="min-w-0 flex-1">
+            <p className={cn("text-xl font-extrabold", c.text)}>
+              {c.emoji} {shownTitle}
+            </p>
+            {explanation && (
+              <p className="mt-2 text-base text-ink">{explanation}</p>
+            )}
+          </div>
+        </div>
         <div className="mt-4">
           <Button variant={c.variant} size="lg" full onClick={onContinue}>
             {continueLabel ?? "Weiter"}

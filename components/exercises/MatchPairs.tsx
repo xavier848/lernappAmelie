@@ -9,7 +9,7 @@
 //   2 offen ohne Match → nach 1,2 s wieder zudecken. Fehlversuche zählen NICHT:
 //   correct = fertig gespielt (alle Paare gefunden).
 // Den Aufgaben-Prompt (+ TTS) zeigt der Lektions-Player an, nicht die Komponente.
-import { useEffect, useMemo, useRef, useState } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import type { MatchPairsData } from "@/lib/content-schema";
 import type { ExerciseComponentProps } from "./types";
@@ -95,6 +95,8 @@ function ColumnsBoard({
   const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
   const [matched, setMatched] = useState<number[]>([]);
   const [failedAttempts, setFailedAttempts] = useState(0);
+  // Falsch kombinierte Paare (fuer Mamas Statistik): "links ↔ rechts".
+  const wrongTries = useRef<string[]>([]);
   const [shaking, setShaking] = useState<{ left: number; right: number } | null>(null);
   const shakeTimeout = useRef<number | null>(null);
 
@@ -109,7 +111,14 @@ function ColumnsBoard({
   useReportReady(allMatched, onReadyChange);
 
   useCheck(checkRequested, () => {
-    onResult({ correct: allMatched && failedAttempts === 0 });
+    onResult({
+      correct: allMatched && failedAttempts === 0,
+      // Falsche Kombinationen fuer Mamas Statistik festhalten.
+      given:
+        failedAttempts > 0
+          ? wrongTries.current.slice(0, 3).join("; ").slice(0, 200)
+          : undefined,
+    });
   });
 
   const tapLeft = (pair: number) => {
@@ -122,6 +131,9 @@ function ColumnsBoard({
     if (selectedLeft === pair) {
       setMatched((prev) => [...prev, pair]);
     } else {
+      wrongTries.current.push(
+        `${sideLabel(data.pairs[selectedLeft].left)} ↔ ${sideLabel(data.pairs[pair].right)}`,
+      );
       setFailedAttempts((count) => count + 1);
       setShaking({ left: selectedLeft, right: pair });
       if (shakeTimeout.current !== null) window.clearTimeout(shakeTimeout.current);
@@ -144,50 +156,62 @@ function ColumnsBoard({
         "cursor-default opacity-30 active:translate-y-0 active:border-b-4",
     );
 
+  // Ein gemeinsames Grid statt zweier getrennter Spalten: mit auto-rows-fr
+  // werden ALLE Zeilen gleich hoch (so hoch wie die hoechste Kachel), und
+  // Grid-Items strecken sich automatisch. So sind alle Kaesten gleich gross
+  // und die Zeilen verrutschen nie, auch wenn ein Text zweizeilig wird.
+  // Reihenfolge pro Zeile: links[i], rechts[i] → zwei saubere Spalten.
   return (
-    <div className="grid grid-cols-2 gap-2.5">
-      <div aria-label="Linke Spalte" className="flex flex-col gap-2.5">
-        {leftItems.map((item) => {
-          const isMatched = matched.includes(item.pair);
-          const isSelected = selectedLeft === item.pair;
-          return (
+    <div className="grid auto-rows-fr grid-cols-2 gap-2.5">
+      {leftItems.map((leftItem, row) => {
+        const rightItem = rightItems[row];
+        const leftMatched = matched.includes(leftItem.pair);
+        const leftSelected = selectedLeft === leftItem.pair;
+        const rightMatched = rightItem
+          ? matched.includes(rightItem.pair)
+          : false;
+        return (
+          <Fragment key={row}>
             <motion.button
-              key={item.pair}
               type="button"
               data-testid="left-item"
-              disabled={isMatched}
-              aria-pressed={isSelected}
-              aria-label={sideLabel(item.side)}
-              onClick={() => tapLeft(item.pair)}
-              animate={shaking?.left === item.pair ? SHAKE_KEYFRAMES : { x: 0 }}
+              disabled={leftMatched}
+              aria-pressed={leftSelected}
+              aria-label={sideLabel(leftItem.side)}
+              onClick={() => tapLeft(leftItem.pair)}
+              animate={
+                shaking?.left === leftItem.pair ? SHAKE_KEYFRAMES : { x: 0 }
+              }
               transition={SHAKE_TRANSITION}
-              className={itemClasses({ isMatched, isSelected })}
+              className={itemClasses({
+                isMatched: leftMatched,
+                isSelected: leftSelected,
+              })}
             >
-              <SideContent side={item.side} />
+              <SideContent side={leftItem.side} />
             </motion.button>
-          );
-        })}
-      </div>
-      <div aria-label="Rechte Spalte" className="flex flex-col gap-2.5">
-        {rightItems.map((item) => {
-          const isMatched = matched.includes(item.pair);
-          return (
-            <motion.button
-              key={item.pair}
-              type="button"
-              data-testid="right-item"
-              disabled={isMatched}
-              aria-label={sideLabel(item.side)}
-              onClick={() => tapRight(item.pair)}
-              animate={shaking?.right === item.pair ? SHAKE_KEYFRAMES : { x: 0 }}
-              transition={SHAKE_TRANSITION}
-              className={itemClasses({ isMatched, isSelected: false })}
-            >
-              <SideContent side={item.side} />
-            </motion.button>
-          );
-        })}
-      </div>
+            {rightItem && (
+              <motion.button
+                type="button"
+                data-testid="right-item"
+                disabled={rightMatched}
+                aria-label={sideLabel(rightItem.side)}
+                onClick={() => tapRight(rightItem.pair)}
+                animate={
+                  shaking?.right === rightItem.pair ? SHAKE_KEYFRAMES : { x: 0 }
+                }
+                transition={SHAKE_TRANSITION}
+                className={itemClasses({
+                  isMatched: rightMatched,
+                  isSelected: false,
+                })}
+              >
+                <SideContent side={rightItem.side} />
+              </motion.button>
+            )}
+          </Fragment>
+        );
+      })}
     </div>
   );
 }

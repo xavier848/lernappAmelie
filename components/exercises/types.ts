@@ -11,4 +11,8 @@ export type ExerciseComponentProps<D> = {
   onResult: (r: ExerciseResult) => void;
   checkRequested: number;
   onReadyChange: (ready: boolean) => void;
+  /** Wievielter Anlauf für DIESE Übung (0 = erster Versuch). Der Player
+   *  zählt hoch, wenn eine falsch gelöste Übung wiederholt wird —
+   *  Übungen können dann z. B. einen Tipp einblenden. */
+  attempt?: number;
 };

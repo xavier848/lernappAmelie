@@ -100,7 +100,12 @@ export async function POST(req: NextRequest) {
     lessonId = (existingRes.data as { id: string }).id;
     const updateRes = await supabase
       .from("lessons")
-      .update({ topic_id: topicId, title: lesson.title, sort: lesson.sort })
+      .update({
+        topic_id: topicId,
+        title: lesson.title,
+        sort: lesson.sort,
+        intro: lesson.intro ?? null,
+      })
       .eq("id", lessonId);
     if (updateRes.error) {
       return NextResponse.json(
@@ -127,6 +132,7 @@ export async function POST(req: NextRequest) {
         slug: lesson.slug,
         title: lesson.title,
         sort: lesson.sort,
+        intro: lesson.intro ?? null,
       })
       .select("id")
       .single();

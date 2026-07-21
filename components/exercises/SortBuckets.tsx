@@ -5,28 +5,44 @@
 // Falsch → Karte wackelt orange, der richtige Korb pulsiert kurz tuerkis,
 // der Fehler wird gezaehlt und das naechste Item kommt. correct = 0 Fehler.
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import type { SortBucketsData } from "@/lib/content-schema";
 import { cn } from "@/lib/cn";
 import type { ExerciseComponentProps } from "./types";
+import { shuffleSeeded } from "./shuffle";
 
 /** Dauer der Falsch-Rueckmeldung (Shake + Korb-Pulsieren), bevor es weitergeht. */
 export const SORT_FEEDBACK_MS = 1400;
+
+type SortBucketsProps = ExerciseComponentProps<SortBucketsData> & {
+  /** Optionaler stabiler Seed (nur für Tests). Default: zufällig pro Aufruf. */
+  seed?: string | number;
+};
 
 export function SortBuckets({
   data,
   onResult,
   checkRequested,
   onReadyChange,
-}: ExerciseComponentProps<SortBucketsData>) {
+  seed,
+}: SortBucketsProps) {
   const [index, setIndex] = useState(0);
   const [errors, setErrors] = useState(0);
+  // Falsch einsortierte Items (fuer Mamas Statistik): "Item → Korb".
+  const wrongTries = useRef<string[]>([]);
   // Waehrend der Falsch-Rueckmeldung: id des richtigen Korbs (pulsiert tuerkis).
   const [wrongFeedbackBucket, setWrongFeedbackBucket] = useState<string | null>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const items = data.items;
+  // Items pro Aufruf mischen, damit die Reihenfolge kein Muster verrät
+  // (im Content stehen sie oft nach Korb gruppiert). Reihenfolge egal fürs
+  // Sortieren, nur die Zuordnung Item→Korb zählt.
+  const [mountSeed] = useState(() => `mount-${Math.random()}`);
+  const items = useMemo(
+    () => shuffleSeeded(data.items, seed ?? mountSeed),
+    [data, seed, mountSeed],
+  );
   const done = index >= items.length;
   const currentItem = done ? null : items[index];
 
@@ -48,7 +64,14 @@ export function SortBuckets({
   useEffect(() => {
     if (checkRequested === lastCheckRef.current) return;
     lastCheckRef.current = checkRequested;
-    onResult({ correct: errors === 0 });
+    onResult({
+      correct: errors === 0,
+      // Falsche Zuordnungen fuer Mamas Statistik festhalten.
+      given:
+        errors > 0
+          ? wrongTries.current.slice(0, 3).join("; ").slice(0, 200)
+          : undefined,
+    });
   }, [checkRequested, errors, onResult]);
 
   function handleBucketTap(bucketId: string) {
@@ -58,6 +81,9 @@ export function SortBuckets({
       return;
     }
     // Falsch: Fehler zaehlen, richtigen Korb kurz zeigen, dann weiter.
+    const tappedLabel =
+      data.buckets.find((b) => b.id === bucketId)?.label ?? bucketId;
+    wrongTries.current.push(`„${currentItem.text}" → Korb „${tappedLabel}"`);
     setErrors((value) => value + 1);
     setWrongFeedbackBucket(currentItem.bucket);
     timeoutRef.current = setTimeout(() => {
@@ -71,7 +97,7 @@ export function SortBuckets({
       {/* Korb-Buttons oben, kompakt nebeneinander */}
       <div
         className={cn(
-          "grid gap-2",
+          "grid auto-rows-fr gap-2",
           data.buckets.length === 3 ? "grid-cols-3" : "grid-cols-2",
         )}
       >

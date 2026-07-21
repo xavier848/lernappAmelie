@@ -53,8 +53,12 @@ function MoneyRecognize({
     if (checkRequested === lastCheckRef.current) return;
     lastCheckRef.current = checkRequested;
     setChecked(true);
+    const correct = selected !== null && data.options[selected]?.correct === true;
     onResult({
-      correct: selected !== null && data.options[selected]?.correct === true,
+      correct,
+      // Falsche Auswahl fuer Mamas Statistik festhalten.
+      given:
+        !correct && selected !== null ? data.options[selected]?.text : undefined,
     });
   }, [checkRequested, selected, data.options, onResult]);
 
@@ -122,7 +126,12 @@ function MoneyAssemble({
     if (checkRequested === lastCheckRef.current) return;
     lastCheckRef.current = checkRequested;
     setChecked(true);
-    onResult({ correct: sum === target });
+    const correct = sum === target;
+    onResult({
+      correct,
+      // Gelegten Betrag fuer Mamas Statistik festhalten.
+      given: correct ? undefined : `${formatEuro(sum)} gelegt`,
+    });
   }, [checkRequested, sum, target, onResult]);
 
   function addMoney(value: number) {

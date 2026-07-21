@@ -20,13 +20,12 @@ export function AppHeader({ streak, xp }: { streak: number; xp: number }) {
   // sichtbares Ruckeln beim Scrollen unter dem Sticky-Header.
   return (
     <header className="sticky top-0 z-40 border-b border-locked bg-white">
+      {/* Nur ein Hinweis, KEIN Wechsel-Knopf: Mama soll nicht versehentlich
+          in Amelies Profil landen (Xavier, 2026-07-10). */}
       {isMama && (
-        <Link
-          href="/amelie"
-          className="flex items-center justify-center gap-2 bg-warning-light py-1.5 text-sm font-bold text-warning-dark"
-        >
-          📝 Prüf-Modus (Mama) · zu Amelie wechseln
-        </Link>
+        <p className="flex items-center justify-center gap-2 bg-warning-light py-1.5 text-sm font-bold text-warning-dark">
+          📝 Prüf-Modus (Mama)
+        </p>
       )}
       <div className="mx-auto flex w-full max-w-md items-center justify-between gap-3 px-4 py-2">
         <span

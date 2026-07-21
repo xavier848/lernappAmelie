@@ -3,7 +3,7 @@
 // Maskottchen (Pony mit Buch, Spec §3): begrüßt, lobt und tröstet.
 // mood steuert eine leichte, rein dekorative Animation.
 // message erscheint als Sprechblase (Card mit Pfeil) in Leichter Sprache.
-import Image from "next/image";
+import { SafeImage } from "./SafeImage";
 import { motion, useReducedMotion, type TargetAndTransition } from "framer-motion";
 import { Card } from "./Card";
 
@@ -26,6 +26,14 @@ export function Mascot({ mood = "neutral", message, size = 140 }: MascotProps) {
   const reducedMotion = useReducedMotion();
   const animate = reducedMotion ? undefined : MOOD_ANIMATION[mood];
 
+  // Beim Jubeln (Ergebnis-Screen) das froehliche Pony mit Konfetti zeigen,
+  // sonst das ruhige Pony mit Buch. Das Konfetti-Pony ist quadratisch.
+  const cheering = mood === "cheer";
+  const src = cheering ? "/pony-freut.png" : "/mascot.png";
+  const alt = cheering ? "Fröhliches Pony" : "Maskottchen: Pony mit Buch";
+  // Original: mascot.png 554x816 (Hochformat), pony-freut.png quadratisch.
+  const height = cheering ? size : Math.round((size * 816) / 554);
+
   return (
     <div className="flex flex-col items-center">
       {message && (
@@ -42,18 +50,19 @@ export function Mascot({ mood = "neutral", message, size = 140 }: MascotProps) {
       <motion.div
         animate={animate}
         transition={{
-          duration: mood === "cheer" ? 0.9 : 3,
+          duration: cheering ? 0.9 : 3,
           repeat: Infinity,
           ease: "easeInOut",
         }}
       >
-        <Image
-          src="/mascot.png"
-          alt="Maskottchen: Pony mit Buch"
-          // Originalbild ist 554x816 – Seitenverhältnis beibehalten.
+        <SafeImage
+          src={src}
+          alt={alt}
           width={size}
-          height={Math.round((size * 816) / 554)}
+          height={height}
           priority
+          fallback="🐴"
+          fallbackClassName="text-7xl"
         />
       </motion.div>
     </div>

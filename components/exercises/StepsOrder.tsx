@@ -69,7 +69,13 @@ export function StepsOrder({
     const correct =
       order.length === total && order.every((id, index) => id === index);
     setChecked(true);
-    onResult({ correct });
+    onResult({
+      correct,
+      // Falsche Reihenfolge fuer Mamas Statistik festhalten.
+      given: correct
+        ? undefined
+        : order.map((id) => data.steps[id].text).join(" → ").slice(0, 200),
+    });
   });
 
   /** Karte antippen: Nummer vergeben ODER Nummer entfernen (Renummerierung). */

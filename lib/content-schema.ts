@@ -31,6 +31,14 @@ const optionsField = z
   .min(2, "Mindestens 2 Antwort-Optionen.")
   .max(4, "Hoechstens 4 Antwort-Optionen.");
 
+// Multiple-Choice braucht min. 3 Optionen: Bei nur 2 Optionen wuerde der
+// „nie identisch mit der Eingabe"-Shuffle die richtige Antwort immer an
+// dieselbe Stelle schieben (vorhersehbar) – und 2 Optionen sind zu leicht.
+const mcOptionsField = z
+  .array(optionSchema)
+  .min(3, "Mindestens 3 Antwort-Optionen (bei Multiple-Choice).")
+  .max(4, "Hoechstens 4 Antwort-Optionen.");
+
 function exactlyOneCorrect(options: { correct?: boolean }[]): boolean {
   return options.filter((option) => option.correct === true).length === 1;
 }
@@ -54,7 +62,7 @@ const stepsOrderData = z.object({
 const multipleChoiceData = z
   .object({
     ...baseFields,
-    options: optionsField,
+    options: mcOptionsField,
     explanation: z.string().min(1).optional(),
   })
   .refine((data) => exactlyOneCorrect(data.options), exactlyOneCorrectRule);
@@ -157,6 +165,58 @@ const moneyCountData = z.discriminatedUnion("mode", [
   moneyChangeData,
 ]);
 
+// 7. number_input – Kopfrechnen: Antwort wird eingetippt (nicht geraten).
+// hint = Schritt-fuer-Schritt-Tipp, erscheint beim zweiten Versuch.
+const numberInputData = z.object({
+  ...baseFields,
+  answer: z
+    .number({ error: "answer muss eine Zahl sein." })
+    .int("answer muss eine ganze Zahl sein.")
+    .nonnegative("answer darf nicht negativ sein."),
+  hint: z.string().min(1).optional(),
+  explanation: z.string().min(1).optional(),
+});
+
+// 8. memory_game – Gedaechtnistraining in 2 Modi (kein Zeitdruck: die
+// Merkphase endet erst, wenn Amelie "Ich hab's mir gemerkt" tippt).
+// - "reihenfolge": Items einmal ansehen, dann gemischt in der gezeigten
+//   Reihenfolge antippen (Zahlenspanne/Corsi/Simon-Prinzip).
+//   reverse: true = rueckwaerts antippen (schwerer, Arbeitsgedaechtnis).
+// - "fehlt": alle Items ansehen, eines verschwindet (Kim-Spiel);
+//   aus 3 Optionen (fehlendes Item + 2 distractors) das fehlende waehlen.
+const memoryGameData = z
+  .object({
+    ...baseFields,
+    mode: z.enum(["reihenfolge", "fehlt"]),
+    items: z
+      .array(z.object({ text: z.string().min(1) }))
+      .min(3, "Mindestens 3 Items.")
+      .max(6, "Hoechstens 6 Items."),
+    reverse: z.boolean().optional(),
+    distractors: z
+      .array(z.object({ text: z.string().min(1) }))
+      .length(2, "Genau 2 distractors.")
+      .optional(),
+    explanation: z.string().min(1).optional(),
+  })
+  .refine(
+    (data) =>
+      new Set(data.items.map((item) => item.text)).size === data.items.length,
+    { message: "items muessen eindeutig sein (sonst ist Antippen mehrdeutig).", path: ["items"] },
+  )
+  .refine((data) => data.mode !== "fehlt" || data.distractors !== undefined, {
+    message: "Modus 'fehlt' braucht distractors (genau 2).",
+    path: ["distractors"],
+  })
+  .refine(
+    (data) =>
+      !data.distractors ||
+      data.distractors.every(
+        (d) => !data.items.some((item) => item.text === d.text),
+      ),
+    { message: "distractors duerfen nicht in items vorkommen.", path: ["distractors"] },
+  );
+
 // 6. budget – Monats-Challenge
 const budgetData = z.object({
   ...baseFields,
@@ -175,7 +235,7 @@ const budgetData = z.object({
   savingsGoal: cents.positive().optional(),
 });
 
-/** Eine Uebung: discriminated union ueber `type` mit den 6 Uebungstypen. */
+/** Eine Uebung: discriminated union ueber `type` mit den 8 Uebungstypen. */
 export const exerciseSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("steps_order"), data: stepsOrderData }),
   z.object({ type: z.literal("multiple_choice"), data: multipleChoiceData }),
@@ -183,6 +243,8 @@ export const exerciseSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("sort_buckets"), data: sortBucketsData }),
   z.object({ type: z.literal("money_count"), data: moneyCountData }),
   z.object({ type: z.literal("budget"), data: budgetData }),
+  z.object({ type: z.literal("number_input"), data: numberInputData }),
+  z.object({ type: z.literal("memory_game"), data: memoryGameData }),
 ]);
 
 /** Eine Lektion = ein JSON (Spec §7). */
@@ -190,6 +252,10 @@ export const lessonSchema = z.object({
   topic_slug: z.string().min(1, "topic_slug fehlt."),
   slug: z.string().min(1, "slug fehlt."),
   title: z.string().min(1, "title fehlt."),
+  // Optionaler Einführungs-Text (Leichte Sprache), der VOR der ersten Übung
+  // als eigener Screen angezeigt wird (mit Vorlese-Button). Nur bei abstrakten
+  // Themen sinnvoll (Mama-Feedback 2026-07-11).
+  intro: z.string().min(1).optional(),
   sort: z
     .number()
     .int("sort muss eine ganze Zahl sein.")
@@ -212,3 +278,5 @@ export type MatchPairsData = z.infer<typeof matchPairsData>;
 export type SortBucketsData = z.infer<typeof sortBucketsData>;
 export type MoneyCountData = z.infer<typeof moneyCountData>;
 export type BudgetData = z.infer<typeof budgetData>;
+export type NumberInputData = z.infer<typeof numberInputData>;
+export type MemoryGameData = z.infer<typeof memoryGameData>;

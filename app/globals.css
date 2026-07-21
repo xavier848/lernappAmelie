@@ -12,6 +12,16 @@
   --color-warning-dark: #ea580c;
   --color-warning-light: #fff7ed;
   --color-locked: #e2e8f0;
+  /* Standard-Schrift: Atkinson Hyperlegible (max. eindeutige Buchstaben,
+     gut bei Dyspraxie/Lesbarkeit). Umschaltbar im Profil via data-font. */
+  --font-sans: var(--font-atkinson), system-ui, sans-serif;
+}
+
+/* Schrift-Umschalter (Profil setzt data-font am <html>). */
+html[data-font="lexend"] {
+  --font-sans: var(--font-lexend), system-ui, sans-serif;
+}
+html[data-font="standard"] {
   --font-sans: var(--font-open-sans), system-ui, sans-serif;
 }
 
@@ -19,6 +29,8 @@ body {
   background: #f8fafc;
   color: var(--color-ink);
   font-family: var(--font-sans);
+  /* Etwas mehr Zeilenabstand = leichter zu lesen (BDA-Empfehlung ~1,5). */
+  line-height: 1.5;
   /* Kein versehentliches Pull-to-Refresh / Ruckeln am Seitenrand:
      mitten in einer Lektion waere ein Reload aergerlich. */
   overscroll-behavior-y: contain;

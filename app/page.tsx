@@ -8,19 +8,21 @@
 // gepufferte Offline-Schreibvorgaenge nach (flushPendingWrites).
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { AppHeader } from "@/components/ui/AppHeader";
 import { Mascot } from "@/components/ui/Mascot";
 import { MamaStatsLink } from "@/components/ui/MamaStatsLink";
 import { Button } from "@/components/ui/Button";
 import {
+  berlinDateOf,
   berlinToday,
   fetchAttemptStatsWithLessons,
   fetchDailyActivity,
+  fetchFeeds,
   fetchPath,
   fetchProgress,
   flushPendingWrites,
 } from "@/lib/data";
+import { buildDueList } from "@/lib/spaced";
 import { getDeviceId } from "@/lib/device";
 import { computeStreak } from "@/lib/streak";
 import {
@@ -29,6 +31,9 @@ import {
   type SuggestionKind,
 } from "@/lib/suggestions";
 import type { ProgressRow, TopicWithLessons } from "@/lib/types";
+import { groupTopicsByCategory } from "@/lib/categories";
+import { CategoryCard } from "@/components/path/CategoryCard";
+import { PonyMeadow } from "@/components/ui/PonyMeadow";
 
 type StartData = {
   topics: TopicWithLessons[];
@@ -36,6 +41,8 @@ type StartData = {
   activity: { day: string; xp: number }[];
   attemptStats: Map<string, { correct: number; wrong: number }>;
   exerciseToLesson: Map<string, string>;
+  feeds: ("karotte" | "heu" | "apfel")[];
+  dueCount: number;
 };
 
 type LoadState =
@@ -45,13 +52,17 @@ type LoadState =
 
 /** Laedt alle Daten fuer die Startseite (und reicht Offline-Writes nach). */
 async function loadStartData(): Promise<StartData> {
-  await flushPendingWrites();
+  // Nachreichen gepufferter Schreibvorgaenge NICHT abwarten: supabase-js
+  // kennt kein Zeitlimit, bei wackligem Funk haengt die Startseite sonst im
+  // Ladezustand, bevor ueberhaupt eine Leseabfrage gestartet wurde. Das
+  // Nachreichen laeuft nebenher (siehe useEffect weiter unten).
   const deviceId = getDeviceId();
-  const [topics, progress, activity, attempts] = await Promise.all([
+  const [topics, progress, activity, attempts, feeds] = await Promise.all([
     fetchPath(),
     fetchProgress(deviceId),
     fetchDailyActivity(deviceId),
     fetchAttemptStatsWithLessons(deviceId),
+    fetchFeeds(deviceId, berlinToday()),
   ]);
   return {
     topics,
@@ -59,6 +70,10 @@ async function loadStartData(): Promise<StartData> {
     activity,
     attemptStats: attempts.stats,
     exerciseToLesson: attempts.exerciseToLesson,
+    feeds,
+    // Aus denselben Zeilen berechnet – frueher war das eine zweite,
+    // inhaltlich identische Abfrage derselben Tabelle.
+    dueCount: buildDueList(attempts.attempts, berlinToday()).length,
   };
 }
 
@@ -81,32 +96,48 @@ function StartSkeleton() {
 }
 
 // Akzent je Vorschlags-Art: freundlich, nie alarmierend (kein Rot).
+// label = KURZE Zeile auf der Karte (der lange Grund machte die Startseite
+// zu voll); der volle Grund bleibt im aria-label fuer Screenreader.
 const KIND_STYLES: Record<
   SuggestionKind,
-  { emoji: string; card: string }
+  { emoji: string; label: string; card: string }
 > = {
-  wiederholen: { emoji: "🔁", card: "border-warning bg-warning-light" },
-  neues: { emoji: "✨", card: "border-primary bg-primary-light" },
-  weitermachen: { emoji: "🎯", card: "border-locked bg-white" },
+  wiederholen: {
+    emoji: "🔁",
+    label: "Nochmal üben",
+    card: "border-warning bg-warning-light",
+  },
+  neues: {
+    emoji: "✨",
+    label: "Etwas Neues",
+    card: "border-primary bg-primary-light",
+  },
+  weitermachen: {
+    emoji: "🎯",
+    label: "Weitermachen",
+    card: "border-locked bg-white",
+  },
 };
 
-/** Eine Vorschlags-Karte: ganze Flaeche tappbar, fuehrt zur Lektion. */
+/** Eine kompakte Vorschlags-Karte: ganze Flaeche tappbar, fuehrt zur Lektion. */
 function SuggestionCard({ suggestion }: { suggestion: Suggestion }) {
   const style = KIND_STYLES[suggestion.kind];
   return (
     <Link
       href={`/lektion/${suggestion.lessonSlug}`}
       aria-label={`${suggestion.lessonTitle} – ${suggestion.grund}`}
-      className={`flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-b-4 p-3 select-none active:translate-y-0.5 active:border-b-2 ${style.card}`}
+      className={`flex min-h-14 w-full items-center gap-3 rounded-2xl border-2 border-b-4 p-2.5 select-none active:translate-y-0.5 active:border-b-2 ${style.card}`}
     >
-      <span className="text-3xl" aria-hidden>
+      <span className="text-2xl" aria-hidden>
         {suggestion.topicIcon}
       </span>
       <span className="flex min-w-0 flex-1 flex-col text-left">
-        <span className="font-bold text-ink">{suggestion.lessonTitle}</span>
+        <span className="truncate font-bold text-ink">
+          {suggestion.lessonTitle}
+        </span>
         <span className="text-sm text-ink/70">
           <span aria-hidden>{style.emoji} </span>
-          {suggestion.grund}
+          {style.label}
         </span>
       </span>
       <span className="text-xl text-primary-dark" aria-hidden>
@@ -137,73 +168,8 @@ function BigPracticeCard() {
   );
 }
 
-/** Themen-Karte im Grid: Icon, Titel, Fortschritt, Mini-Balken, ✓-Badge. */
-function TopicCard({
-  topic,
-  completedCount,
-  perfect = false,
-}: {
-  topic: TopicWithLessons;
-  completedCount: number;
-  /** true = jede Lektion des Themas mit 3 Sternen geschafft (Gold-Glanz). */
-  perfect?: boolean;
-}) {
-  const total = topic.lessons.length;
-  const finished = total > 0 && completedCount >= total;
-  const percent = total > 0 ? (completedCount / total) * 100 : 0;
-
-  return (
-    <Link
-      href={`/thema/${topic.slug}`}
-      aria-label={
-        perfect
-          ? `${topic.title} – alles mit 3 Sternen geschafft!`
-          : `${topic.title} – ${completedCount} von ${total} Lektionen geschafft`
-      }
-      className={
-        perfect
-          ? "relative flex min-h-32 flex-col items-center justify-center gap-1.5 rounded-2xl border-2 border-b-4 border-amber-400 bg-amber-50 p-3 text-center select-none active:translate-y-0.5 active:border-b-2"
-          : "relative flex min-h-32 flex-col items-center justify-center gap-1.5 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 text-center select-none active:translate-y-0.5 active:border-b-2"
-      }
-    >
-      {perfect ? (
-        <span className="absolute top-2 right-2 text-lg" aria-hidden>
-          ⭐
-        </span>
-      ) : (
-        finished && (
-          <span
-            className="absolute top-2 right-2 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
-            aria-hidden
-          >
-            ✓
-          </span>
-        )
-      )}
-      <span className="text-4xl" aria-hidden>
-        {topic.icon}
-      </span>
-      <span className="text-sm leading-tight font-bold text-ink">
-        {topic.title}
-      </span>
-      <span className="text-xs font-semibold text-ink/60">
-        {completedCount}/{total}
-      </span>
-      <span
-        className="h-2 w-full overflow-hidden rounded-full bg-locked"
-        aria-hidden
-      >
-        <span
-          className="block h-full rounded-full bg-primary"
-          style={{ width: `${percent}%` }}
-        />
-      </span>
-    </Link>
-  );
-}
 
 export default function StartPage() {
-  const router = useRouter();
   const [state, setState] = useState<LoadState>({ status: "loading" });
   const [reloadKey, setReloadKey] = useState(0);
 
@@ -222,18 +188,37 @@ export default function StartPage() {
     };
   }, [reloadKey]);
 
+  // Offline gepufferte Ergebnisse nebenher nachreichen – ohne das Anzeigen
+  // der Startseite aufzuhalten. Wurde wirklich etwas nachgereicht, einmal neu
+  // laden, damit XP, Streak und Pferdeaepfel den frischen Stand zeigen.
+  useEffect(() => {
+    let cancelled = false;
+    flushPendingWrites()
+      .then((nachgereicht) => {
+        if (nachgereicht && !cancelled) setReloadKey((k) => k + 1);
+      })
+      .catch(() => {
+        // Bleibt in der Warteschlange, naechster Start versucht es erneut.
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   if (state.status === "loading") {
     return (
-      <div className="flex min-h-svh flex-col">
+      <div className="flex h-full flex-col overflow-hidden">
         <AppHeader streak={0} xp={0} />
-        <StartSkeleton />
+        <div className="flex-1 overflow-y-auto overscroll-contain">
+          <StartSkeleton />
+        </div>
       </div>
     );
   }
 
   if (state.status === "error") {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center gap-6 px-4 py-10">
+      <div className="flex h-full flex-col items-center justify-center gap-6 px-4 py-10">
         <Mascot
           mood="neutral"
           message="Gerade klappt es nicht. Versuch es später nochmal."
@@ -263,12 +248,18 @@ export default function StartPage() {
       ? `Hallo Amelie! Dein ${streak}-Tage-Feuer wartet. 🔥`
       : "Hallo Amelie! Schön, dass du da bist.";
 
+  // Ponyweide: jede Nacht liegen 3 Pferdeäpfel. Jede HEUTE abgeschlossene
+  // (verschiedene) Lektion räumt einen weg → apples = 3 − heutige Lektionen.
+  const today = berlinToday();
+  const lessonsToday = new Set(
+    state.progress
+      .filter((row) => row.completed_at && berlinDateOf(row.completed_at) === today)
+      .map((row) => row.lesson_id)
+  ).size;
+  const meadowApples = Math.max(0, 3 - lessonsToday);
+
   const completedLessonIds = new Set(
     state.progress.map((row) => row.lesson_id)
-  );
-  // Beste Sterne je Lektion - fuer den "alles perfekt"-Glanz der Themen-Karten.
-  const starsByLesson = new Map(
-    state.progress.map((row) => [row.lesson_id, row.stars])
   );
   const suggestions = buildSuggestions({
     topics: state.topics,
@@ -278,81 +269,103 @@ export default function StartPage() {
     todaySeed: berlinToday(),
   });
 
+  // App-Shell: Kopfleiste liegt AUSSERHALB des Scroll-Bereichs und kann
+  // deshalb nie mitscrollen oder vom iOS-Gummiband verschoben werden.
+  // Nur der Bereich darunter scrollt.
   return (
-    <div className="flex min-h-svh flex-col">
+    <div className="flex h-full flex-col overflow-hidden">
       <AppHeader streak={streak} xp={totalXp} />
 
+      <div className="flex flex-1 flex-col overflow-y-auto overscroll-contain">
       <div className="mx-auto w-full max-w-md px-4 pt-6 pb-8">
-        <Mascot mood="happy" size={100} message={greeting} />
+        {/* Ponyweide: Pony schlendert über die Wiese, Pferdeäpfel je nach
+            "wie lange nicht geübt" - sauber machen = eine Lektion machen. */}
+        <PonyMeadow
+          message={greeting}
+          apples={meadowApples}
+          feeds={state.feeds}
+        />
 
         {/* Nur im Mama-Modus: Link zu Amelies Fortschritts-Statistik. */}
         <MamaStatsLink />
 
-        {/* Tages-Vorschlaege: max. 3 Karten. Ohne Vorschlaege (alles fertig,
-            keine Fehler) gibt es stattdessen die grosse Ueben-Karte. */}
+        {/* Fuer dich heute: GENAU EIN Vorschlag (die wichtigste Lektion),
+            darunter eine schlanke Ueben-Zeile. Bewusst einfach gehalten -
+            vier grosse Kaesten uebereinander waren zu voll. */}
         <section aria-label="Für dich heute" className="pt-6">
-          <h2 className="mb-3 text-lg font-extrabold text-ink">
+          <h2 className="mb-2 text-lg font-extrabold text-ink">
             Für dich heute <span aria-hidden>✨</span>
           </h2>
           {suggestions.length > 0 ? (
-            <div className="flex flex-col gap-3">
-              {suggestions.map((suggestion) => (
-                <SuggestionCard
-                  key={suggestion.lessonSlug}
-                  suggestion={suggestion}
-                />
-              ))}
+            <div className="flex flex-col gap-2.5">
+              <SuggestionCard suggestion={suggestions[0]} />
+              {state.progress.length > 0 && (
+                <Link
+                  href="/wiederholen"
+                  className="flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl border-2 border-primary bg-white px-3 text-base font-bold text-primary-dark select-none active:translate-y-0.5"
+                >
+                  <span aria-hidden>🔁</span> Üben &amp; Fehler wiederholen
+                </Link>
+              )}
             </div>
           ) : (
             <BigPracticeCard />
           )}
         </section>
 
-        {/* Ueben-Modus: erst sichtbar, wenn mind. 1 Lektion abgeschlossen ist.
-            Entfaellt, wenn oben schon die grosse Ueben-Karte steht. */}
-        {state.progress.length > 0 && suggestions.length > 0 && (
-          <div className="pt-6">
-            <Button
-              variant="secondary"
-              size="lg"
-              full
-              onClick={() => router.push("/wiederholen")}
-            >
-              <span aria-hidden>🔁</span>
-              <span className="flex flex-col items-start text-left leading-tight">
-                <span>Üben</span>
-                <span className="text-sm font-semibold opacity-70">
-                  Wiederholen &amp; gemischt üben
+        {/* Wiederholen & Pruefen: Spaced Repetition + Probe-Pruefung. Erst
+            sichtbar, wenn Amelie schon mindestens eine Lektion gemacht hat. */}
+        {state.progress.length > 0 && (
+          <section aria-label="Wiederholen und Prüfen" className="pt-8">
+            <h2 className="mb-3 text-lg font-extrabold text-ink">
+              Wiederholen &amp; Prüfen
+            </h2>
+            <div className="grid grid-cols-2 gap-3">
+              <Link
+                href="/faellig"
+                className="flex min-h-24 flex-col items-center justify-center gap-1 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 text-center select-none active:translate-y-0.5 active:border-b-2"
+              >
+                <span className="text-3xl" aria-hidden>
+                  🧠
                 </span>
-              </span>
-            </Button>
-          </div>
+                <span className="text-sm font-bold text-ink">Wiederholen</span>
+                <span className="text-xs font-semibold text-ink/60">
+                  {state.dueCount > 0
+                    ? `${state.dueCount} ${state.dueCount === 1 ? "Übung" : "Übungen"} dran`
+                    : "nichts fällig 👍"}
+                </span>
+              </Link>
+              <Link
+                href="/pruefung"
+                className="flex min-h-24 flex-col items-center justify-center gap-1 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 text-center select-none active:translate-y-0.5 active:border-b-2"
+              >
+                <span className="text-3xl" aria-hidden>
+                  📝
+                </span>
+                <span className="text-sm font-bold text-ink">Probe-Prüfung</span>
+                <span className="text-xs font-semibold text-ink/60">
+                  Teste dich
+                </span>
+              </Link>
+            </div>
+          </section>
         )}
 
-        {/* Alle Themen als Grid - jedes Thema ist frei waehlbar. */}
-        <section aria-label="Alle Themen" className="pt-8">
-          <h2 className="mb-3 text-lg font-extrabold text-ink">Alle Themen</h2>
+        {/* Bereiche ("Uebermappen"): buendeln die vielen Themen in wenige
+            grosse Gruppen. Antippen fuehrt zu /bereich/[slug] mit den Themen. */}
+        <section aria-label="Bereiche" className="pt-8">
+          <h2 className="mb-3 text-lg font-extrabold text-ink">Bereiche</h2>
           {state.topics.length === 0 ? (
             <p className="text-sm text-ink/60">
               Hier kommen bald neue Themen.
             </p>
           ) : (
-            <div className="grid grid-cols-2 gap-3">
-              {state.topics.map((topic) => (
-                <TopicCard
-                  key={topic.id}
-                  topic={topic}
-                  completedCount={
-                    topic.lessons.filter((lesson) =>
-                      completedLessonIds.has(lesson.id)
-                    ).length
-                  }
-                  perfect={
-                    topic.lessons.length > 0 &&
-                    topic.lessons.every(
-                      (lesson) => starsByLesson.get(lesson.id) === 3
-                    )
-                  }
+            <div className="flex flex-col gap-3">
+              {groupTopicsByCategory(state.topics).map((category) => (
+                <CategoryCard
+                  key={category.slug}
+                  category={category}
+                  completedLessonIds={completedLessonIds}
                 />
               ))}
             </div>
@@ -374,6 +387,7 @@ export default function StartPage() {
           Danke &amp; Lizenzen
         </Link>
       </footer>
+      </div>
     </div>
   );
 }
