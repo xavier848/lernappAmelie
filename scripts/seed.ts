@@ -7,7 +7,11 @@
 //   npx tsx scripts/seed.ts --dir <pfad>     anderes Content-Verzeichnis nutzen
 //
 // Idempotent: topics/lessons werden per slug ge-upsertet, exercises je Lektion
-// geloescht und neu eingefuegt (sort = Array-Index). Mehrfach ausfuehrbar.
+// an ihrem sort-Platz aktualisiert (sort = Array-Index). Mehrfach ausfuehrbar.
+//
+// WICHTIG: Uebungen werden NICHT geloescht und neu angelegt. exercise_attempts
+// haengt per ON DELETE CASCADE an exercises - ein delete wuerde Amelies
+// Versuchs-Historie mitreissen (Mama-Statistik + faellige Wiederholung).
 
 import fs from "node:fs";
 import path from "node:path";
@@ -317,23 +321,53 @@ async function runSeed(result: LoadResult): Promise<void> {
       process.exit(1);
     }
 
-    const { error: deleteError } = await db.from("exercises").delete().eq("lesson_id", lessonRow.id);
-    if (deleteError) {
-      console.error(`Fehler beim Loeschen alter Uebungen von "${lesson.slug}": ${deleteError.message}`);
+    // Uebungen IN PLACE aktualisieren statt loeschen + neu anlegen:
+    // exercise_attempts haengt per ON DELETE CASCADE an exercises. Ein
+    // pauschales delete wuerde bei jedem Seed die komplette Versuchs-Historie
+    // mitloeschen - also Mamas Statistik und die faellige Wiederholung.
+    const { data: vorhandene, error: readError } = await db
+      .from("exercises")
+      .select("id, sort")
+      .eq("lesson_id", lessonRow.id);
+    if (readError) {
+      console.error(`Fehler beim Lesen der Uebungen von "${lesson.slug}": ${readError.message}`);
       process.exit(1);
     }
 
-    const { error: insertError } = await db.from("exercises").insert(
-      lesson.exercises.map((exercise, index) => ({
-        lesson_id: lessonRow.id,
-        sort: index,
-        type: exercise.type,
-        data: exercise.data,
-      })),
-    );
-    if (insertError) {
-      console.error(`Fehler beim Einfuegen der Uebungen von "${lesson.slug}": ${insertError.message}`);
-      process.exit(1);
+    const idBySort = new Map<number, string>();
+    for (const row of vorhandene ?? []) {
+      idBySort.set(row.sort, row.id);
+    }
+
+    for (const [index, exercise] of lesson.exercises.entries()) {
+      const vorhandeneId = idBySort.get(index);
+      const { error: writeError } = vorhandeneId
+        ? await db
+            .from("exercises")
+            .update({ type: exercise.type, data: exercise.data })
+            .eq("id", vorhandeneId)
+        : await db.from("exercises").insert({
+            lesson_id: lessonRow.id,
+            sort: index,
+            type: exercise.type,
+            data: exercise.data,
+          });
+      if (writeError) {
+        console.error(`Fehler bei Uebung ${index} von "${lesson.slug}": ${writeError.message}`);
+        process.exit(1);
+      }
+    }
+
+    // Nur wirklich ueberzaehlige Uebungen entfernen (Lektion wurde kuerzer).
+    const ueberzaehlig = (vorhandene ?? [])
+      .filter((row) => row.sort >= lesson.exercises.length)
+      .map((row) => row.id);
+    if (ueberzaehlig.length > 0) {
+      const { error: deleteError } = await db.from("exercises").delete().in("id", ueberzaehlig);
+      if (deleteError) {
+        console.error(`Fehler beim Entfernen ueberzaehliger Uebungen von "${lesson.slug}": ${deleteError.message}`);
+        process.exit(1);
+      }
     }
 
     console.log(`✓ ${lesson.slug} (${lesson.exercises.length} Uebungen)`);

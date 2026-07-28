@@ -49,6 +49,9 @@ const exactlyOneCorrectRule = {
 };
 
 // 1. steps_order – Schritte ordnen (korrekte Reihenfolge = Array-Reihenfolge)
+// explanation: erklaert die REGEL hinter der Reihenfolge (z. B. "von oben nach
+// unten" oder die englische Wortstellung) – nie die Loesung aufzaehlen, denn
+// der Banner erscheint auch beim Sofort-Retry (Amelie-Statistik 2026-07-28).
 const stepsOrderData = z.object({
   ...baseFields,
   steps: z
@@ -56,6 +59,7 @@ const stepsOrderData = z.object({
     .min(2, "Mindestens 2 Schritte.")
     .max(10, "Hoechstens 10 Schritte."),
   mode: z.enum(["steps", "words"]).optional(),
+  explanation: z.string().min(1).optional(),
 });
 
 // 2. multiple_choice – Quiz mit genau einer richtigen Antwort
@@ -81,6 +85,7 @@ const matchPairsData = z
       .min(2, "Mindestens 2 Paare.")
       .max(6, "Hoechstens 6 Paare."),
     memory: z.boolean().optional(),
+    explanation: z.string().min(1).optional(),
   })
   .refine(
     (data) =>
@@ -119,6 +124,7 @@ const sortBucketsData = z
       )
       .min(2, "Mindestens 2 Items.")
       .max(8, "Hoechstens 8 Items."),
+    explanation: z.string().min(1).optional(),
   })
   .refine(
     (data) =>
@@ -132,12 +138,15 @@ const sortBucketsData = z
   );
 
 // 5. money_count – Geld-Uebungen in 3 Modi (Betraege in Cent!)
+// explanation zeigt den Rechenweg – wie bei number_input erst NACH dem
+// Sofort-Retry, damit der Betrag nicht verraten wird (siehe LessonPlayer).
 const moneyRecognizeData = z
   .object({
     ...baseFields,
     mode: z.literal("recognize"),
     moneyImage: z.string().min(1, "moneyImage (SVG-Key) fehlt."),
     options: optionsField,
+    explanation: z.string().min(1).optional(),
   })
   .refine((data) => exactlyOneCorrect(data.options), exactlyOneCorrectRule);
 
@@ -145,6 +154,7 @@ const moneyAssembleData = z.object({
   ...baseFields,
   mode: z.literal("assemble"),
   target: cents.positive("target muss groesser als 0 sein."),
+  explanation: z.string().min(1).optional(),
 });
 
 const moneyChangeData = z
@@ -153,6 +163,7 @@ const moneyChangeData = z
     mode: z.literal("change"),
     price: cents.positive("price muss groesser als 0 sein."),
     given: cents.positive("given muss groesser als 0 sein."),
+    explanation: z.string().min(1).optional(),
   })
   .refine((data) => data.given > data.price, {
     message: "given muss groesser als price sein (sonst gibt es kein Rueckgeld).",

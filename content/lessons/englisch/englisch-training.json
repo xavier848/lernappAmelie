@@ -10,9 +10,16 @@
         "prompt": "Ein Gast ruft an und fragt: Is the apartment free from Monday to Friday? 📞 Was will er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Ob die Wohnung von Montag bis Freitag frei ist.", "correct": true },
-          { "text": "Ob die Wohnung am Wochenende frei ist." },
-          { "text": "Ob das Frühstück am Freitag stattfindet." }
+          {
+            "text": "Ob die Wohnung von Montag bis Freitag frei ist.",
+            "correct": true
+          },
+          {
+            "text": "Ob die Wohnung am Wochenende frei ist."
+          },
+          {
+            "text": "Ob das Frühstück am Freitag stattfindet."
+          }
         ],
         "explanation": "Free heißt hier: frei, nicht belegt. From Monday to Friday heißt: von Montag bis Freitag."
       }
@@ -24,13 +31,26 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "apartment" },
-          { "text": "is" },
-          { "text": "free" },
-          { "text": "next" },
-          { "text": "week" }
-        ]
+          {
+            "text": "The"
+          },
+          {
+            "text": "apartment"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "free"
+          },
+          {
+            "text": "next"
+          },
+          {
+            "text": "week"
+          }
+        ],
+        "explanation": "Die Zeitangabe steht im Englischen ganz am Ende. Erst der fertige Satz: The apartment is free. Dann erst next week. Nicht is next week free."
       }
     },
     {
@@ -39,10 +59,38 @@
         "prompt": "Sätze für den Alltag mit Gästen: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Can I help you?" }, "right": { "text": "Kann ich Ihnen helfen?" } },
-          { "left": { "text": "One moment, please." }, "right": { "text": "Einen Moment, bitte." } },
-          { "left": { "text": "Enjoy your stay! 😊" }, "right": { "text": "Genießen Sie Ihren Aufenthalt!" } },
-          { "left": { "text": "See you tomorrow!" }, "right": { "text": "Bis morgen!" } }
+          {
+            "left": {
+              "text": "Can I help you?"
+            },
+            "right": {
+              "text": "Kann ich Ihnen helfen?"
+            }
+          },
+          {
+            "left": {
+              "text": "One moment, please."
+            },
+            "right": {
+              "text": "Einen Moment, bitte."
+            }
+          },
+          {
+            "left": {
+              "text": "Enjoy your stay! 😊"
+            },
+            "right": {
+              "text": "Genießen Sie Ihren Aufenthalt!"
+            }
+          },
+          {
+            "left": {
+              "text": "See you tomorrow!"
+            },
+            "right": {
+              "text": "Bis morgen!"
+            }
+          }
         ],
         "memory": false
       }
@@ -53,9 +101,16 @@
         "prompt": "Ein Gast sagt: The heating does not work. 🌡️ Was ist das Problem?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Die Heizung funktioniert nicht.", "correct": true },
-          { "text": "Das WLAN funktioniert nicht." },
-          { "text": "Der Gast findet den Schlüssel nicht." }
+          {
+            "text": "Die Heizung funktioniert nicht.",
+            "correct": true
+          },
+          {
+            "text": "Das WLAN funktioniert nicht."
+          },
+          {
+            "text": "Der Gast findet den Schlüssel nicht."
+          }
         ],
         "explanation": "Heating heißt Heizung. Does not work heißt: funktioniert nicht."
       }
@@ -66,9 +121,16 @@
         "prompt": "Die Heizung ist wirklich kaputt. Was sagst du dem Gast?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Sorry, I will check it.", "correct": true },
-          { "text": "You are welcome!" },
-          { "text": "Have a good trip!" }
+          {
+            "text": "Sorry, I will check it.",
+            "correct": true
+          },
+          {
+            "text": "You are welcome!"
+          },
+          {
+            "text": "Have a good trip!"
+          }
         ],
         "explanation": "Sorry, I will check it heißt: Entschuldigung, ich schaue es mir an. So bleibt der Gast ruhig und weiß: Du kümmerst dich."
       }
@@ -79,17 +141,47 @@
         "prompt": "Ankunft, Aufenthalt oder Abreise? Sortiere die Sätze.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "ankunft", "label": "Ankunft", "icon": "🔑" },
-          { "id": "aufenthalt", "label": "Aufenthalt", "icon": "🏠" },
-          { "id": "abreise", "label": "Abreise", "icon": "🚗" }
+          {
+            "id": "ankunft",
+            "label": "Ankunft",
+            "icon": "🔑"
+          },
+          {
+            "id": "aufenthalt",
+            "label": "Aufenthalt",
+            "icon": "🏠"
+          },
+          {
+            "id": "abreise",
+            "label": "Abreise",
+            "icon": "🚗"
+          }
         ],
         "items": [
-          { "text": "Welcome! Did you have a good trip?", "bucket": "ankunft" },
-          { "text": "Here is your key.", "bucket": "ankunft" },
-          { "text": "Can we get more towels?", "bucket": "aufenthalt" },
-          { "text": "How does the heating work?", "bucket": "aufenthalt" },
-          { "text": "Check-out is at ten o'clock.", "bucket": "abreise" },
-          { "text": "Goodbye! Safe travels!", "bucket": "abreise" }
+          {
+            "text": "Welcome! Did you have a good trip?",
+            "bucket": "ankunft"
+          },
+          {
+            "text": "Here is your key.",
+            "bucket": "ankunft"
+          },
+          {
+            "text": "Can we get more towels?",
+            "bucket": "aufenthalt"
+          },
+          {
+            "text": "How does the heating work?",
+            "bucket": "aufenthalt"
+          },
+          {
+            "text": "Check-out is at ten o'clock.",
+            "bucket": "abreise"
+          },
+          {
+            "text": "Goodbye! Safe travels!",
+            "bucket": "abreise"
+          }
         ]
       }
     },
@@ -99,9 +191,16 @@
         "prompt": "Ein Gast fragt: How much is one night? 💶 Was will er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Was eine Nacht kostet.", "correct": true },
-          { "text": "Wie lange die Nacht dauert." },
-          { "text": "Wie viele Nächte er bleiben kann." }
+          {
+            "text": "Was eine Nacht kostet.",
+            "correct": true
+          },
+          {
+            "text": "Wie lange die Nacht dauert."
+          },
+          {
+            "text": "Wie viele Nächte er bleiben kann."
+          }
         ],
         "explanation": "How much heißt: Wie viel kostet das? Deine Antwort: It is ninety euros per night."
       }
@@ -113,11 +212,21 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "Turn" },
-          { "text": "left" },
-          { "text": "at" },
-          { "text": "the" },
-          { "text": "bakery" }
+          {
+            "text": "Turn"
+          },
+          {
+            "text": "left"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "bakery"
+          }
         ]
       }
     },
@@ -128,7 +237,8 @@
         "tts_lang": "en-GB",
         "mode": "change",
         "price": 1250,
-        "given": 2000
+        "given": 2000,
+        "explanation": "twelve euros fifty heißt 12,50 €. Rechne 20,00 € minus 12,50 € = 7,50 €. Lege also 5 €, 2 € und 50 Cent."
       }
     },
     {
@@ -137,9 +247,16 @@
         "prompt": "Die Gäste reisen ab und sagen: Thank you, it was wonderful! 🚗 Was antwortest du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Thank you! See you next time!", "correct": true },
-          { "text": "No, breakfast is extra." },
-          { "text": "Turn right at the church." }
+          {
+            "text": "Thank you! See you next time!",
+            "correct": true
+          },
+          {
+            "text": "No, breakfast is extra."
+          },
+          {
+            "text": "Turn right at the church."
+          }
         ],
         "explanation": "See you next time heißt: Bis zum nächsten Mal! So verabschiedest du Gäste freundlich – vielleicht kommen sie wieder."
       }

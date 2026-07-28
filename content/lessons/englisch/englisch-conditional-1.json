@@ -11,10 +11,22 @@
         "prompt": "Ein Gast fragt: If the guests arrive early, can they wait in the garden? 🌳 Was bedeutet das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Wenn die Gäste früh ankommen, können sie im Garten warten?", "correct": true },
-          { "text": "Die Gäste sind früh angekommen und haben im Garten gewartet.", "correct": false },
-          { "text": "Die Gäste kommen immer früh und warten nie im Garten.", "correct": false },
-          { "text": "Wenn die Gäste früh kämen, hätten sie im Garten gewartet.", "correct": false }
+          {
+            "text": "Wenn die Gäste früh ankommen, können sie im Garten warten?",
+            "correct": true
+          },
+          {
+            "text": "Die Gäste sind früh angekommen und haben im Garten gewartet.",
+            "correct": false
+          },
+          {
+            "text": "Die Gäste kommen immer früh und warten nie im Garten.",
+            "correct": false
+          },
+          {
+            "text": "Wenn die Gäste früh kämen, hätten sie im Garten gewartet.",
+            "correct": false
+          }
         ],
         "explanation": "If … arrive early ist die Bedingung in der Gegenwart. Can they wait ist die Folge. Es geht um eine echte, mögliche Situation heute, nicht um die Vergangenheit."
       }
@@ -25,9 +37,18 @@
         "prompt": "Welcher Satz ist richtig gebaut? Denk an die Regel: nach if kein will. 🧩",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "If it rains tomorrow, we will cancel the trip.", "correct": true },
-          { "text": "If it will rain tomorrow, we will cancel the trip.", "correct": false },
-          { "text": "If it will rain tomorrow, we cancel the trip.", "correct": false }
+          {
+            "text": "If it rains tomorrow, we will cancel the trip.",
+            "correct": true
+          },
+          {
+            "text": "If it will rain tomorrow, we will cancel the trip.",
+            "correct": false
+          },
+          {
+            "text": "If it will rain tomorrow, we cancel the trip.",
+            "correct": false
+          }
         ],
         "explanation": "Der if-Teil steht in der Gegenwart: If it rains. Das will gehört nur in die Folge: we will cancel. If it will rain ist der klassische Fehler."
       }
@@ -38,10 +59,22 @@
         "prompt": "Setze das richtige Wort ein: If the sun ___ tomorrow, we will go to the lake. ☀️",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "shines", "correct": true },
-          { "text": "will shine", "correct": false },
-          { "text": "shined", "correct": false },
-          { "text": "would shine", "correct": false }
+          {
+            "text": "shines",
+            "correct": true
+          },
+          {
+            "text": "will shine",
+            "correct": false
+          },
+          {
+            "text": "shined",
+            "correct": false
+          },
+          {
+            "text": "would shine",
+            "correct": false
+          }
         ],
         "explanation": "Nach if steht die Gegenwart. Bei he, she, it hängst du ein s an: the sun shines. Kein will nach if, und shined wäre Vergangenheit."
       }
@@ -53,15 +86,32 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "will" },
-          { "text": "wait" },
-          { "text": "if" },
-          { "text": "the" },
-          { "text": "bus" },
-          { "text": "is" },
-          { "text": "late" }
-        ]
+          {
+            "text": "We"
+          },
+          {
+            "text": "will"
+          },
+          {
+            "text": "wait"
+          },
+          {
+            "text": "if"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "bus"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "late"
+          }
+        ],
+        "explanation": "Zuerst kommt der Hauptsatz mit will: We will wait. Dann hängst du den if-Teil an. Nach if steht kein will, sondern die Gegenwart: if the bus is late."
       }
     },
     {
@@ -70,16 +120,42 @@
         "prompt": "Jeder If-Satz hat zwei Teile. Sortiere: Ist das die Bedingung oder die Folge? 🧩",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "bedingung", "label": "Bedingung (if …)", "icon": "❓" },
-          { "id": "folge", "label": "Folge (… will …)", "icon": "➡️" }
+          {
+            "id": "bedingung",
+            "label": "Bedingung (if …)",
+            "icon": "❓"
+          },
+          {
+            "id": "folge",
+            "label": "Folge (… will …)",
+            "icon": "➡️"
+          }
         ],
         "items": [
-          { "text": "If it rains", "bucket": "bedingung" },
-          { "text": "we will stay inside", "bucket": "folge" },
-          { "text": "If you feel cold", "bucket": "bedingung" },
-          { "text": "I will turn on the heating", "bucket": "folge" },
-          { "text": "If the guests are hungry", "bucket": "bedingung" },
-          { "text": "I will make breakfast", "bucket": "folge" }
+          {
+            "text": "If it rains",
+            "bucket": "bedingung"
+          },
+          {
+            "text": "we will stay inside",
+            "bucket": "folge"
+          },
+          {
+            "text": "If you feel cold",
+            "bucket": "bedingung"
+          },
+          {
+            "text": "I will turn on the heating",
+            "bucket": "folge"
+          },
+          {
+            "text": "If the guests are hungry",
+            "bucket": "bedingung"
+          },
+          {
+            "text": "I will make breakfast",
+            "bucket": "folge"
+          }
         ]
       }
     },
@@ -89,10 +165,22 @@
         "prompt": "Du willst sagen: Wenn Sie noch Handtücher brauchen, bringe ich Ihnen welche. 🧺 Welcher Satz stimmt genau?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "If you need more towels, I will bring you some.", "correct": true },
-          { "text": "If you will need more towels, I bring you some.", "correct": false },
-          { "text": "If you needed more towels, I would bring you some.", "correct": false },
-          { "text": "If you need more towels, I bring you some.", "correct": false }
+          {
+            "text": "If you need more towels, I will bring you some.",
+            "correct": true
+          },
+          {
+            "text": "If you will need more towels, I bring you some.",
+            "correct": false
+          },
+          {
+            "text": "If you needed more towels, I would bring you some.",
+            "correct": false
+          },
+          {
+            "text": "If you need more towels, I bring you some.",
+            "correct": false
+          }
         ],
         "explanation": "Typ 1: if + Gegenwart (you need), Folge mit will (I will bring). If you needed … I would bring wäre Typ 2, also nur eine Vorstellung. Das passt hier nicht, denn du willst es wirklich tun."
       }
@@ -104,16 +192,35 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "I" },
-          { "text": "will" },
-          { "text": "bring" },
-          { "text": "more" },
-          { "text": "blankets" },
-          { "text": "if" },
-          { "text": "you" },
-          { "text": "need" },
-          { "text": "them" }
-        ]
+          {
+            "text": "I"
+          },
+          {
+            "text": "will"
+          },
+          {
+            "text": "bring"
+          },
+          {
+            "text": "more"
+          },
+          {
+            "text": "blankets"
+          },
+          {
+            "text": "if"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "need"
+          },
+          {
+            "text": "them"
+          }
+        ],
+        "explanation": "Erst der Hauptsatz: I will bring more blankets. Dann der if-Teil: if you need them. Das will gehört in den Hauptsatz, nach if steht die Gegenwart."
       }
     },
     {
@@ -122,10 +229,38 @@
         "prompt": "Was gehört zusammen? Links Englisch (Typ 1), rechts die deutsche Bedeutung.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "If you press this button, the light will turn on." }, "right": { "text": "Wenn Sie diesen Knopf drücken, geht das Licht an." } },
-          { "left": { "text": "If the weather is nice, we will sit in the garden." }, "right": { "text": "Wenn das Wetter schön ist, sitzen wir im Garten." } },
-          { "left": { "text": "If you lose the key, please call me." }, "right": { "text": "Wenn Sie den Schlüssel verlieren, rufen Sie mich bitte an." } },
-          { "left": { "text": "If the shop is open, I will buy fresh bread." }, "right": { "text": "Wenn der Laden offen ist, kaufe ich frisches Brot." } }
+          {
+            "left": {
+              "text": "If you press this button, the light will turn on."
+            },
+            "right": {
+              "text": "Wenn Sie diesen Knopf drücken, geht das Licht an."
+            }
+          },
+          {
+            "left": {
+              "text": "If the weather is nice, we will sit in the garden."
+            },
+            "right": {
+              "text": "Wenn das Wetter schön ist, sitzen wir im Garten."
+            }
+          },
+          {
+            "left": {
+              "text": "If you lose the key, please call me."
+            },
+            "right": {
+              "text": "Wenn Sie den Schlüssel verlieren, rufen Sie mich bitte an."
+            }
+          },
+          {
+            "left": {
+              "text": "If the shop is open, I will buy fresh bread."
+            },
+            "right": {
+              "text": "Wenn der Laden offen ist, kaufe ich frisches Brot."
+            }
+          }
         ],
         "memory": false
       }
@@ -136,9 +271,18 @@
         "prompt": "Wann benutzt du einen If-Satz vom Typ 1? 🤔",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Wenn die Bedingung echt ist und gut passieren kann.", "correct": true },
-          { "text": "Wenn du dir nur etwas ausdenkst, das gerade nicht wirklich so ist.", "correct": false },
-          { "text": "Nur wenn du über gestern sprichst.", "correct": false }
+          {
+            "text": "Wenn die Bedingung echt ist und gut passieren kann.",
+            "correct": true
+          },
+          {
+            "text": "Wenn du dir nur etwas ausdenkst, das gerade nicht wirklich so ist.",
+            "correct": false
+          },
+          {
+            "text": "Nur wenn du über gestern sprichst.",
+            "correct": false
+          }
         ],
         "explanation": "Typ 1 ist für echte, mögliche Situationen: Wenn es regnet, bleiben wir drinnen. Das kann heute wirklich passieren. Ausgedachte Sachen kommen später beim Typ 2."
       }

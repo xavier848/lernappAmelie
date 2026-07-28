@@ -10,9 +10,16 @@
         "prompt": "Du erklärst die Küche: De keuken is volledig uitgerust met een oven, kookgerei en een vaatwasser. Was heißt das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Die Küche ist voll ausgestattet — mit Ofen, Kochgeschirr und Spülmaschine.", "correct": true },
-          { "text": "Die Küche wird gerade renoviert." },
-          { "text": "In der Küche gibt es nur einen Wasserkocher." }
+          {
+            "text": "Die Küche ist voll ausgestattet — mit Ofen, Kochgeschirr und Spülmaschine.",
+            "correct": true
+          },
+          {
+            "text": "Die Küche wird gerade renoviert."
+          },
+          {
+            "text": "In der Küche gibt es nur einen Wasserkocher."
+          }
         ],
         "explanation": "Volledig uitgerust heißt: voll ausgestattet. Oven = Ofen, kookgerei = Kochgeschirr, vaatwasser = Spülmaschine."
       }
@@ -23,12 +30,41 @@
         "prompt": "Ausstattung erklären: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "De keuken is volledig uitgerust. 🍳" }, "right": { "text": "Die Küche ist voll ausgestattet." } },
-          { "left": { "text": "De slaapkamer heeft veel opbergruimte." }, "right": { "text": "Das Schlafzimmer hat viel Stauraum." } },
-          { "left": { "text": "Er liggen schone handdoeken klaar. 🛁" }, "right": { "text": "Frische Handtücher liegen bereit." } },
-          { "left": { "text": "U kunt voor het huis parkeren. 🚗" }, "right": { "text": "Sie können vor dem Haus parken." } }
+          {
+            "left": {
+              "text": "De keuken is volledig uitgerust. 🍳"
+            },
+            "right": {
+              "text": "Die Küche ist voll ausgestattet."
+            }
+          },
+          {
+            "left": {
+              "text": "De slaapkamer heeft veel opbergruimte."
+            },
+            "right": {
+              "text": "Das Schlafzimmer hat viel Stauraum."
+            }
+          },
+          {
+            "left": {
+              "text": "Er liggen schone handdoeken klaar. 🛁"
+            },
+            "right": {
+              "text": "Frische Handtücher liegen bereit."
+            }
+          },
+          {
+            "left": {
+              "text": "U kunt voor het huis parkeren. 🚗"
+            },
+            "right": {
+              "text": "Sie können vor dem Haus parken."
+            }
+          }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Such dir ein Schlüsselwort: keuken ist die Küche, slaapkamer das Schlafzimmer, handdoeken sind Handtücher, parkeren heißt parken. Ein einziges Wort reicht meist für das richtige Paar."
       }
     },
     {
@@ -38,10 +74,18 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Geniet" },
-          { "text": "van" },
-          { "text": "uw" },
-          { "text": "verblijf" }
+          {
+            "text": "Geniet"
+          },
+          {
+            "text": "van"
+          },
+          {
+            "text": "uw"
+          },
+          {
+            "text": "verblijf"
+          }
         ]
       }
     },
@@ -51,9 +95,16 @@
         "prompt": "Die Gäste sollen sich wohlfühlen. Du möchtest sagen: Fühlen Sie sich wie zu Hause. Was sagst du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Voelt u zich thuis.", "correct": true },
-          { "text": "Maak de keuken schoon voordat u vertrekt." },
-          { "text": "Wees stil na tien uur." }
+          {
+            "text": "Voelt u zich thuis.",
+            "correct": true
+          },
+          {
+            "text": "Maak de keuken schoon voordat u vertrekt."
+          },
+          {
+            "text": "Wees stil na tien uur."
+          }
         ],
         "explanation": "Voelt u zich thuis heißt: Fühlen Sie sich wie zu Hause. Ein freundlicher Satz für die Gäste."
       }
@@ -65,11 +116,20 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Voelt" },
-          { "text": "u" },
-          { "text": "zich" },
-          { "text": "thuis" }
-        ]
+          {
+            "text": "Voelt"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "zich"
+          },
+          {
+            "text": "thuis"
+          }
+        ],
+        "explanation": "Bei einer höflichen Aufforderung steht das Verb vorne: Voelt. Dann kommt u. Das zich gehört fest zum Verb zich voelen und steht direkt hinter u. thuis heißt zu Hause und bleibt am Ende."
       }
     },
     {
@@ -78,9 +138,16 @@
         "prompt": "Ein Gast hat vielleicht noch Fragen. 🤔 Du bietest deine Hilfe an. Was sagst du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Als u vragen heeft, stel ze gerust.", "correct": true },
-          { "text": "Ik heb vandaag geen tijd voor vragen." },
-          { "text": "Stel mij alstublieft geen vragen." }
+          {
+            "text": "Als u vragen heeft, stel ze gerust.",
+            "correct": true
+          },
+          {
+            "text": "Ik heb vandaag geen tijd voor vragen."
+          },
+          {
+            "text": "Stel mij alstublieft geen vragen."
+          }
         ],
         "explanation": "Stel ze gerust heißt: Fragen Sie ruhig. So dürfen die Gäste sich jederzeit melden."
       }
@@ -88,19 +155,43 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "Ausstattung im Haus oder guter Wunsch? Sortiere.",
+        "prompt": "Beschreibt der Satz die Wohnung oder wünscht er dem Gast etwas? Sortiere.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "ausstattung", "label": "Ausstattung", "icon": "🛋️" },
-          { "id": "wuensche", "label": "Guter Wunsch", "icon": "😊" }
+          {
+            "id": "ausstattung",
+            "label": "Das hat die Wohnung",
+            "icon": "🏠"
+          },
+          {
+            "id": "wuensche",
+            "label": "Ein Wunsch an den Gast",
+            "icon": "💬"
+          }
         ],
         "items": [
-          { "text": "De keuken is volledig uitgerust.", "bucket": "ausstattung" },
-          { "text": "De slaapkamer heeft veel opbergruimte.", "bucket": "ausstattung" },
-          { "text": "Er liggen schone handdoeken klaar.", "bucket": "ausstattung" },
-          { "text": "Geniet van uw verblijf!", "bucket": "wuensche" },
-          { "text": "Ik hoop dat u een fijn verblijf heeft.", "bucket": "wuensche" }
-        ]
+          {
+            "text": "De keuken is volledig uitgerust.",
+            "bucket": "ausstattung"
+          },
+          {
+            "text": "De slaapkamer heeft veel opbergruimte.",
+            "bucket": "ausstattung"
+          },
+          {
+            "text": "Er liggen schone handdoeken klaar.",
+            "bucket": "ausstattung"
+          },
+          {
+            "text": "Geniet van uw verblijf!",
+            "bucket": "wuensche"
+          },
+          {
+            "text": "Ik hoop dat u een fijn verblijf heeft.",
+            "bucket": "wuensche"
+          }
+        ],
+        "explanation": "Beschreibungen der Wohnung nennen einen Raum oder eine Sache: keuken, slaapkamer, handdoeken. Wünsche erkennst du an geniet (genießen) und ik hoop (ich hoffe). Da geht es um den Gast, nicht um das Haus."
       }
     },
     {
@@ -109,9 +200,30 @@
         "prompt": "Sag es auf Niederländisch: Was gehört zusammen? Links Deutsch, rechts Niederländisch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Ich hoffe, Sie haben einen schönen Aufenthalt." }, "right": { "text": "Ik hoop dat u een fijn verblijf heeft." } },
-          { "left": { "text": "Danke, dass Sie bei uns wohnen!" }, "right": { "text": "Bedankt dat u bij ons verblijft!" } },
-          { "left": { "text": "Wenn Sie Fragen haben, fragen Sie einfach." }, "right": { "text": "Als u vragen heeft, stel ze gerust." } }
+          {
+            "left": {
+              "text": "Ich hoffe, Sie haben einen schönen Aufenthalt."
+            },
+            "right": {
+              "text": "Ik hoop dat u een fijn verblijf heeft."
+            }
+          },
+          {
+            "left": {
+              "text": "Danke, dass Sie bei uns wohnen!"
+            },
+            "right": {
+              "text": "Bedankt dat u bij ons verblijft!"
+            }
+          },
+          {
+            "left": {
+              "text": "Wenn Sie Fragen haben, fragen Sie einfach."
+            },
+            "right": {
+              "text": "Als u vragen heeft, stel ze gerust."
+            }
+          }
         ],
         "memory": false
       }
@@ -122,9 +234,16 @@
         "prompt": "Du sagst: U kunt voor het huis parkeren. 🚗 Was heißt das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Sie können vor dem Haus parken.", "correct": true },
-          { "text": "Sie müssen Ihr Auto in der Garage parken." },
-          { "text": "Vor dem Haus dürfen Sie nicht parken." }
+          {
+            "text": "Sie können vor dem Haus parken.",
+            "correct": true
+          },
+          {
+            "text": "Sie müssen Ihr Auto in der Garage parken."
+          },
+          {
+            "text": "Vor dem Haus dürfen Sie nicht parken."
+          }
         ],
         "explanation": "Voor het huis parkeren heißt: vor dem Haus parken. So finden die Gäste einen Parkplatz."
       }
@@ -135,9 +254,16 @@
         "prompt": "Zum Schluss bedankst du dich bei den Gästen. 😊 Du sagst: Bedankt dat u bij ons verblijft! Was heißt das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Danke, dass Sie bei uns wohnen!", "correct": true },
-          { "text": "Bitte reisen Sie jetzt ab." },
-          { "text": "Wo ist Ihr Gepäck?" }
+          {
+            "text": "Danke, dass Sie bei uns wohnen!",
+            "correct": true
+          },
+          {
+            "text": "Bitte reisen Sie jetzt ab."
+          },
+          {
+            "text": "Wo ist Ihr Gepäck?"
+          }
         ],
         "explanation": "Bedankt dat u bij ons verblijft heißt: Danke, dass Sie bei uns wohnen. Ein schöner Satz zum Abschied. 😊"
       }

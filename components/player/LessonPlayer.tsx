@@ -283,11 +283,14 @@ export function LessonPlayer({
     // advanceQueue ist pure - wir schauen nur, was "Weiter" bewirken wird,
     // damit der Banner-Text ehrlich ankuendigt, wie es weitergeht.
     const { outcome } = advanceQueue(queueState, r.correct);
-    // Kopfrechnen & Gedaechtnis: Beim Sofort-Retry die Loesung NICHT
+    // Kopfrechnen, Geld & Gedaechtnis: Beim Sofort-Retry die Loesung NICHT
     // verraten (die explanation enthaelt das Ergebnis) - Kopfrechnen zeigt
     // stattdessen den Tipp, das Gedaechtnisspiel die Merkphase erneut.
+    // Die anderen Typen erklaeren die REGEL, nicht die Loesung - dort hilft
+    // der Banner beim zweiten Versuch (Amelie-Statistik 2026-07-28).
     const hideOnRetry =
       current.exercise.type === "number_input" ||
+      current.exercise.type === "money_count" ||
       current.exercise.type === "memory_game";
     const bannerExplanation =
       outcome === "retry" && hideOnRetry ? undefined : explanation;

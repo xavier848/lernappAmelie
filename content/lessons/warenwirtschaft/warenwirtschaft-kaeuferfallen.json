@@ -9,9 +9,18 @@
       "data": {
         "prompt": "🥛 Du willst nur schnell Milch und Brot holen. Warum musst du dafür meistens einmal quer durch den ganzen Laden?",
         "options": [
-          { "text": "Weil diese wichtigen Waren weit hinten stehen.", "correct": true },
-          { "text": "Weil sie gleich hinter dem Eingang stehen.", "correct": false },
-          { "text": "Weil sie neben der Kasse stehen.", "correct": false }
+          {
+            "text": "Weil diese wichtigen Waren weit hinten stehen.",
+            "correct": true
+          },
+          {
+            "text": "Weil sie gleich hinter dem Eingang stehen.",
+            "correct": false
+          },
+          {
+            "text": "Weil sie neben der Kasse stehen.",
+            "correct": false
+          }
         ],
         "explanation": "Milch und Brot brauchst du oft. Der Laden stellt sie mit Absicht weit hinten hin. Auf dem langen Weg dorthin siehst du viele andere Waren und kaufst leicht mehr, als du geplant hast."
       }
@@ -21,9 +30,18 @@
       "data": {
         "prompt": "👀 Du suchst das günstigste Produkt im Regal. Was gilt für die Ware genau auf Augenhöhe?",
         "options": [
-          { "text": "Sie ist meistens teurer.", "correct": true },
-          { "text": "Sie ist meistens die günstige Eigenmarke.", "correct": false },
-          { "text": "Sie ist meistens die Ware, die bald abläuft.", "correct": false }
+          {
+            "text": "Sie ist meistens teurer.",
+            "correct": true
+          },
+          {
+            "text": "Sie ist meistens die günstige Eigenmarke.",
+            "correct": false
+          },
+          {
+            "text": "Sie ist meistens die Ware, die bald abläuft.",
+            "correct": false
+          }
         ],
         "explanation": "Augenhöhe heißt: die Ware ist genau in deinem Blick und leicht zu greifen. Genau dort stellt der Laden die teure Ware hin. Günstige Ware liegt oft ganz unten oder ganz oben. Bück dich also ruhig."
       }
@@ -33,9 +51,18 @@
       "data": {
         "prompt": "🍫 Warum liegen an der Kasse Süßigkeiten und kleine Sachen und nicht große Packungen?",
         "options": [
-          { "text": "Weil man beim Warten schnell noch danach greift.", "correct": true },
-          { "text": "Weil die Kassiererin sie so schneller scannen kann.", "correct": false },
-          { "text": "Weil sie dort vor Dieben sicherer liegen.", "correct": false }
+          {
+            "text": "Weil man beim Warten schnell noch danach greift.",
+            "correct": true
+          },
+          {
+            "text": "Weil die Kassiererin sie so schneller scannen kann.",
+            "correct": false
+          },
+          {
+            "text": "Weil sie dort vor Dieben sicherer liegen.",
+            "correct": false
+          }
         ],
         "explanation": "An der Kasse musst du warten. In dieser Zeit sollst du spontan zugreifen, ohne nachzudenken. Solche Ware nennt man Quengelware, weil auch Kinder danach quengeln."
       }
@@ -45,17 +72,44 @@
       "data": {
         "prompt": "🎯 Ist das ein Trick des Ladens oder ein Schutz für dich? Sortiere.",
         "buckets": [
-          { "id": "trick", "label": "Trick des Ladens", "icon": "🎣" },
-          { "id": "schutz", "label": "Schutz für dich", "icon": "🛡️" }
+          {
+            "id": "trick",
+            "label": "Trick des Ladens",
+            "icon": "🎣"
+          },
+          {
+            "id": "schutz",
+            "label": "Schutz für dich",
+            "icon": "🛡️"
+          }
         ],
         "items": [
-          { "text": "Wichtige Lebensmittel liegen weit hinten", "bucket": "trick" },
-          { "text": "Süßigkeiten stehen an der Kasse", "bucket": "trick" },
-          { "text": "Die Verpackung ist größer als der Inhalt", "bucket": "trick" },
-          { "text": "Einen Einkaufszettel schreiben", "bucket": "schutz" },
-          { "text": "Auf den Grundpreis pro Kilo achten", "bucket": "schutz" },
-          { "text": "Satt einkaufen gehen", "bucket": "schutz" }
-        ]
+          {
+            "text": "Wichtige Lebensmittel liegen weit hinten",
+            "bucket": "trick"
+          },
+          {
+            "text": "Süßigkeiten stehen an der Kasse",
+            "bucket": "trick"
+          },
+          {
+            "text": "Die Verpackung ist größer als der Inhalt",
+            "bucket": "trick"
+          },
+          {
+            "text": "Einen Einkaufszettel schreiben",
+            "bucket": "schutz"
+          },
+          {
+            "text": "Auf den Grundpreis pro Kilo achten",
+            "bucket": "schutz"
+          },
+          {
+            "text": "Satt einkaufen gehen",
+            "bucket": "schutz"
+          }
+        ],
+        "explanation": "Frag dich: Wer macht das? Der Laden baut das Regal und die Verpackung, das sind Tricks. Was du selbst tust, schützt dich: einen Zettel schreiben, auf den Grundpreis schauen, satt einkaufen gehen."
       }
     },
     {
@@ -63,10 +117,38 @@
       "data": {
         "prompt": "✏️ Diese Aussagen sind falsch. Verbinde sie mit der richtigen Antwort.",
         "pairs": [
-          { "left": { "text": "„Angebote im Schüttkorb sind immer billig.“" }, "right": { "text": "Oft sind sie gar nicht billiger." } },
-          { "left": { "text": "„Die billigste Ware liegt auf Augenhöhe.“" }, "right": { "text": "Die billigste Ware liegt unten." } },
-          { "left": { "text": "„Mogelpackungen gibt es nicht.“" }, "right": { "text": "Mogelpackungen gibt es trotzdem." } },
-          { "left": { "text": "„Wer hungrig einkauft, kauft weniger.“" }, "right": { "text": "Wer hungrig einkauft, kauft mehr." } }
+          {
+            "left": {
+              "text": "„Angebote im Schüttkorb sind immer billig.“"
+            },
+            "right": {
+              "text": "Oft sind sie gar nicht billiger."
+            }
+          },
+          {
+            "left": {
+              "text": "„Die billigste Ware liegt auf Augenhöhe.“"
+            },
+            "right": {
+              "text": "Die billigste Ware liegt unten."
+            }
+          },
+          {
+            "left": {
+              "text": "„Mogelpackungen gibt es nicht.“"
+            },
+            "right": {
+              "text": "Mogelpackungen gibt es trotzdem."
+            }
+          },
+          {
+            "left": {
+              "text": "„Wer hungrig einkauft, kauft weniger.“"
+            },
+            "right": {
+              "text": "Wer hungrig einkauft, kauft mehr."
+            }
+          }
         ]
       }
     },
@@ -75,9 +157,18 @@
       "data": {
         "prompt": "📦 Woran erkennst du eine Mogelpackung?",
         "options": [
-          { "text": "Eine große Verpackung mit wenig Inhalt.", "correct": true },
-          { "text": "Eine kleine Packung, in der überraschend viel drin ist.", "correct": false },
-          { "text": "Eine Packung, auf der ein zu niedriger Preis steht.", "correct": false }
+          {
+            "text": "Eine große Verpackung mit wenig Inhalt.",
+            "correct": true
+          },
+          {
+            "text": "Eine kleine Packung, in der überraschend viel drin ist.",
+            "correct": false
+          },
+          {
+            "text": "Eine Packung, auf der ein zu niedriger Preis steht.",
+            "correct": false
+          }
         ],
         "explanation": "Eine Mogelpackung sieht groß aus, ist innen aber halb leer. Du glaubst, du bekommst viel, doch der Inhalt ist klein. Ein Blick auf die Menge in Gramm oder Milliliter schützt dich."
       }
@@ -87,9 +178,18 @@
       "data": {
         "prompt": "🔤 Wie nennt man alle diese Verkaufstricks mit einem Wort zusammen?",
         "options": [
-          { "text": "Käuferfalle.", "correct": true },
-          { "text": "Sonderangebot.", "correct": false },
-          { "text": "Rabattaktion.", "correct": false }
+          {
+            "text": "Käuferfalle.",
+            "correct": true
+          },
+          {
+            "text": "Sonderangebot.",
+            "correct": false
+          },
+          {
+            "text": "Rabattaktion.",
+            "correct": false
+          }
         ],
         "explanation": "Alle diese Tricks sollen dich zum Kaufen locken. Der Oberbegriff dafür ist Käuferfalle. Ein Sonderangebot oder eine Rabattaktion ist dagegen nur ein einzelner niedriger Preis."
       }
@@ -99,9 +199,18 @@
       "data": {
         "prompt": "📝 Du willst wirklich nur das kaufen, was du brauchst. Was hilft dir am besten?",
         "options": [
-          { "text": "Ein Einkaufszettel.", "correct": true },
-          { "text": "Ein besonders großer Einkaufswagen.", "correct": false },
-          { "text": "Vor dem Einkauf nichts essen.", "correct": false }
+          {
+            "text": "Ein Einkaufszettel.",
+            "correct": true
+          },
+          {
+            "text": "Ein besonders großer Einkaufswagen.",
+            "correct": false
+          },
+          {
+            "text": "Vor dem Einkauf nichts essen.",
+            "correct": false
+          }
         ],
         "explanation": "Mit einem Einkaufszettel kaufst du gezielt ein und hältst dich an deinen Plan. Ein großer Wagen und ein leerer Magen machen das Gegenteil: Sie verleiten dich zu mehr Spontankäufen."
       }

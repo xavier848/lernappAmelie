@@ -33,6 +33,12 @@ Dieses Dokument ist die verbindliche Referenz, wie Lektionen für Amelies Lernap
 
 Jede Übung: `data.prompt` (Pflicht, Leichte Sprache), optional `data.image` (URL), optional `data.tts_lang` (Default `de-DE`, für englische Inhalte `en-GB`).
 
+**`explanation` gibt es bei allen 8 Typen** und erscheint im Feedback-Banner – auch bei richtiger Antwort. Sie ist das wichtigste Lern-Werkzeug: Ohne sie wiederholt Amelie denselben Fehler beliebig oft (Statistik 2026-07-28: 13 von 13 Versuchen an derselben Sortier-Übung falsch).
+
+- **Erkläre die REGEL, nicht die Lösung.** Bei `steps_order`, `sort_buckets` und `match_pairs` erscheint der Banner auch beim Sofort-Retry. „Die Zeitangabe steht ganz am Ende" hilft; „Die Reihenfolge ist A, B, C" verrät nur.
+- Bei `number_input`, `money_count` und `memory_game` enthält die `explanation` das Ergebnis. Der Player blendet sie deshalb beim Sofort-Retry aus (`hideOnRetry` in `LessonPlayer`), dort gibt stattdessen `hint` den Tipp.
+- Guter Aufbau: erst die Regel als Frage („Frag dich: Was passiert mit dem Lebensmittel?"), dann das Unterscheidungsmerkmal, dann der häufigste Irrtum.
+
 ### 1. `steps_order` – Schritte ordnen
 ```json
 { "type": "steps_order", "data": {
@@ -40,7 +46,7 @@ Jede Übung: `data.prompt` (Pflicht, Leichte Sprache), optional `data.image` (UR
   "steps": [ { "text": "Putzmaterial holen." }, { "text": "Reiniger auftragen." }, { "text": "Spiegel putzen." } ]
 } }
 ```
-Die Reihenfolge im Array **ist** die richtige Lösung (2–10 Schritte, ideal ≤ 6). Die App mischt selbst. Variante Satzbau: `"mode": "words"` mit einzelnen Wörtern als steps (für Englisch-Sätze).
+Die Reihenfolge im Array **ist** die richtige Lösung (2–10 Schritte, ideal ≤ 6). Die App mischt selbst. Variante Satzbau: `"mode": "words"` mit einzelnen Wörtern als steps (für Englisch-Sätze). Optional `explanation` (siehe unten).
 
 ### 2. `multiple_choice` – Quiz
 ```json
@@ -67,7 +73,7 @@ Die Reihenfolge im Array **ist** die richtige Lösung (2–10 Schritte, ideal �
   "memory": false
 } }
 ```
-2–6 Paare. `left`/`right` brauchen je `text` und/oder `image`. `"memory": true` macht daraus ein Memory-Spiel mit verdeckten Karten (max. 6 Paare).
+2–6 Paare. `left`/`right` brauchen je `text` und/oder `image`. `"memory": true` macht daraus ein Memory-Spiel mit verdeckten Karten (max. 6 Paare). Optional `explanation` (siehe unten).
 
 ### 4. `sort_buckets` – Sortieren
 ```json
@@ -83,7 +89,9 @@ Die Reihenfolge im Array **ist** die richtige Lösung (2–10 Schritte, ideal �
   ]
 } }
 ```
-2–3 Körbe, 2–8 Items. Jedes `item.bucket` muss eine Korb-`id` sein.
+2–3 Körbe, 2–8 Items. Jedes `item.bucket` muss eine Korb-`id` sein. Optional `explanation` (siehe unten).
+
+**Körbe müssen sich klar ausschließen.** Zwei Körbe, die inhaltlich überlappen („Feiern" vs. „was wir gemacht haben"), sind nicht lösbar – Amelie rät dann. Prüfe jedes Item: Passt es nur in genau einen Korb?
 
 ### 5. `money_count` – Geld
 Drei Modi:
@@ -145,3 +153,5 @@ Merkphase ohne Zeitdruck (endet erst mit „Ich hab's mir gemerkt"). `mode: "rei
 **Weg B – Admin-Bereich:** `/admin/inhalte` → „Neue Lektion (JSON)" → einfügen → validiert automatisch → gespeichert.
 
 **Seed-Skript:** `npx tsx scripts/seed.ts` liest `content/topics.json` + `content/lessons/**/*.json`, validiert alles und upsertet idempotent in Supabase. `npx tsx scripts/seed.ts --check` validiert nur (CI-tauglich).
+
+⚠️ **Bestehende Übungen NIE löschen und neu einfügen.** `exercise_attempts.exercise_id` hängt per `ON DELETE CASCADE` an `exercises` – ein `delete from exercises …` reißt Amelies komplette Versuchs-Historie mit: Mamas Statistik unter `/amelie-fortschritt` und die fällige Wiederholung (`lib/spaced.ts`) verlieren dann still ihre Grundlage. Beim Nachpflegen einer Lektion also per `update … where lesson_id = … and sort = …` arbeiten (oder `jsonb_set`, wenn nur ein Feld dazukommt). `scripts/seed.ts` macht das seit 2026-07-28 selbst so; Übungen werden nur gelöscht, wenn eine Lektion tatsächlich kürzer geworden ist.

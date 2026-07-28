@@ -10,9 +10,16 @@
         "prompt": "Ein Gast fragt: When is check-out? 🕙 Was will er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Wann er am Abreisetag die Wohnung verlassen muss.", "correct": true },
-          { "text": "Wann das Frühstück beginnt." },
-          { "text": "Wann der Supermarkt öffnet." }
+          {
+            "text": "Wann er am Abreisetag die Wohnung verlassen muss.",
+            "correct": true
+          },
+          {
+            "text": "Wann das Frühstück beginnt."
+          },
+          {
+            "text": "Wann der Supermarkt öffnet."
+          }
         ],
         "explanation": "Check-out heißt Abreise. When heißt wann. Der Gast fragt nach der Uhrzeit für die Abreise."
       }
@@ -23,12 +30,41 @@
         "prompt": "Typische Gäste-Fragen: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Can we get more towels? 🧺" }, "right": { "text": "Können wir mehr Handtücher bekommen?" } },
-          { "left": { "text": "Where can we park? 🚗" }, "right": { "text": "Wo können wir parken?" } },
-          { "left": { "text": "Is breakfast included? 🥐" }, "right": { "text": "Ist das Frühstück im Preis enthalten?" } },
-          { "left": { "text": "How does the heating work? 🌡️" }, "right": { "text": "Wie funktioniert die Heizung?" } }
+          {
+            "left": {
+              "text": "Can we get more towels? 🧺"
+            },
+            "right": {
+              "text": "Können wir mehr Handtücher bekommen?"
+            }
+          },
+          {
+            "left": {
+              "text": "Where can we park? 🚗"
+            },
+            "right": {
+              "text": "Wo können wir parken?"
+            }
+          },
+          {
+            "left": {
+              "text": "Is breakfast included? 🥐"
+            },
+            "right": {
+              "text": "Ist das Frühstück im Preis enthalten?"
+            }
+          },
+          {
+            "left": {
+              "text": "How does the heating work? 🌡️"
+            },
+            "right": {
+              "text": "Wie funktioniert die Heizung?"
+            }
+          }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Achte auf das Fragewort und das Schlüsselwort: towels sind Handtücher, park heißt parken, breakfast ist das Frühstück, heating die Heizung. Ein Wort reicht oft, um das Paar zu finden."
       }
     },
     {
@@ -37,9 +73,16 @@
         "prompt": "Ein Gast fragt: Can we get more towels? 🧺 Was ist eine gute Antwort?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Of course, one moment.", "correct": true },
-          { "text": "This way, please." },
-          { "text": "Goodbye!" }
+          {
+            "text": "Of course, one moment.",
+            "correct": true
+          },
+          {
+            "text": "This way, please."
+          },
+          {
+            "text": "Goodbye!"
+          }
         ],
         "explanation": "Of course, one moment heißt: Natürlich, einen Moment. Dann holst du die Handtücher. This way, please sagst du, wenn du jemandem den Weg zeigst."
       }
@@ -50,9 +93,16 @@
         "prompt": "Ein Gast fragt: Where can we park? 🚗 Der Parkplatz ist hinter dem Haus. Was antwortest du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "You can park behind the house.", "correct": true },
-          { "text": "Breakfast is at eight o'clock." },
-          { "text": "The key is in the door." }
+          {
+            "text": "You can park behind the house.",
+            "correct": true
+          },
+          {
+            "text": "Breakfast is at eight o'clock."
+          },
+          {
+            "text": "The key is in the door."
+          }
         ],
         "explanation": "Behind the house heißt: hinter dem Haus. Die anderen Antworten passen nicht zur Frage nach dem Parken."
       }
@@ -64,13 +114,26 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "You" },
-          { "text": "can" },
-          { "text": "park" },
-          { "text": "behind" },
-          { "text": "the" },
-          { "text": "house" }
-        ]
+          {
+            "text": "You"
+          },
+          {
+            "text": "can"
+          },
+          {
+            "text": "park"
+          },
+          {
+            "text": "behind"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "house"
+          }
+        ],
+        "explanation": "Erst Wer – Verb: You can park. Der Ort kommt danach: behind the house. Das Verb park bleibt vorne und rutscht nie hinter den Ort."
       }
     },
     {
@@ -79,9 +142,16 @@
         "prompt": "Ein Gast fragt: Is breakfast included? Bei euch kostet das Frühstück extra. Was antwortest du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "No, breakfast is extra.", "correct": true },
-          { "text": "Yes, breakfast is free." },
-          { "text": "The heating is in the hall." }
+          {
+            "text": "No, breakfast is extra.",
+            "correct": true
+          },
+          {
+            "text": "Yes, breakfast is free."
+          },
+          {
+            "text": "The heating is in the hall."
+          }
         ],
         "explanation": "Included heißt: im Preis enthalten. Extra heißt: kostet zusätzlich. Free wäre falsch, denn das Frühstück ist nicht gratis."
       }
@@ -92,9 +162,16 @@
         "prompt": "Ein Gast fragt: How does the heating work? 🌡️ Was machst du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Du zeigst ihm, wie die Heizung angeht.", "correct": true },
-          { "text": "Du bringst ihm mehr Handtücher." },
-          { "text": "Du gibst ihm die Rechnung." }
+          {
+            "text": "Du zeigst ihm, wie die Heizung angeht.",
+            "correct": true
+          },
+          {
+            "text": "Du bringst ihm mehr Handtücher."
+          },
+          {
+            "text": "Du gibst ihm die Rechnung."
+          }
         ],
         "explanation": "Heating heißt Heizung. How does it work heißt: Wie funktioniert das? Der Gast braucht deine Hilfe mit der Heizung."
       }
@@ -105,15 +182,36 @@
         "prompt": "Welche Antwort passt zu der Frage? Sortiere.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "holen", "label": "Of course, one moment.", "icon": "🙋" },
-          { "id": "weg", "label": "This way, please.", "icon": "👉" }
+          {
+            "id": "holen",
+            "label": "Of course, one moment.",
+            "icon": "🙋"
+          },
+          {
+            "id": "weg",
+            "label": "This way, please.",
+            "icon": "👉"
+          }
         ],
         "items": [
-          { "text": "Can we get more towels?", "bucket": "holen" },
-          { "text": "Where is the apartment?", "bucket": "weg" },
-          { "text": "Can we have another blanket?", "bucket": "holen" },
-          { "text": "Where can we park?", "bucket": "weg" }
-        ]
+          {
+            "text": "Can we get more towels?",
+            "bucket": "holen"
+          },
+          {
+            "text": "Where is the apartment?",
+            "bucket": "weg"
+          },
+          {
+            "text": "Can we have another blanket?",
+            "bucket": "holen"
+          },
+          {
+            "text": "Where can we park?",
+            "bucket": "weg"
+          }
+        ],
+        "explanation": "Frag dich: Soll ich etwas holen oder den Weg zeigen? Bei Can we get …? und Can we have …? willst du etwas bringen, da passt Of course, one moment. Bei Where …? geht es um den Weg, da passt This way, please."
       }
     },
     {
@@ -123,11 +221,21 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "Check-out" },
-          { "text": "is" },
-          { "text": "at" },
-          { "text": "ten" },
-          { "text": "o'clock" }
+          {
+            "text": "Check-out"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "ten"
+          },
+          {
+            "text": "o'clock"
+          }
         ]
       }
     },
@@ -137,11 +245,33 @@
         "prompt": "Deine drei wichtigsten Antworten: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Of course, one moment." }, "right": { "text": "Natürlich, einen Moment." } },
-          { "left": { "text": "This way, please. 👉" }, "right": { "text": "Hier entlang, bitte." } },
-          { "left": { "text": "No problem." }, "right": { "text": "Kein Problem." } }
+          {
+            "left": {
+              "text": "Of course, one moment."
+            },
+            "right": {
+              "text": "Natürlich, einen Moment."
+            }
+          },
+          {
+            "left": {
+              "text": "This way, please. 👉"
+            },
+            "right": {
+              "text": "Hier entlang, bitte."
+            }
+          },
+          {
+            "left": {
+              "text": "No problem."
+            },
+            "right": {
+              "text": "Kein Problem."
+            }
+          }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Of course heißt natürlich, this way heißt hier entlang, no problem heißt kein Problem. Merke dir: way steckt im Weg, also Hier entlang."
       }
     }
   ]

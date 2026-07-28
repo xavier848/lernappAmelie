@@ -9,11 +9,21 @@
       "data": {
         "prompt": "🥣 Du kochst eine helle Grundsuppe. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🧈 Butter oder Margarine im Topf heiß werden lassen." },
-          { "text": "🌾 Mehl dazugeben und kurz anschwitzen." },
-          { "text": "🥛 Nach und nach die Flüssigkeit einrühren und aufkochen." },
-          { "text": "⏲️ Die Suppe ein paar Minuten leise köcheln lassen." },
-          { "text": "🧂 Mit Salz abschmecken." }
+          {
+            "text": "🧈 Butter oder Margarine im Topf heiß werden lassen."
+          },
+          {
+            "text": "🌾 Mehl dazugeben und kurz anschwitzen."
+          },
+          {
+            "text": "🥛 Nach und nach die Flüssigkeit einrühren und aufkochen."
+          },
+          {
+            "text": "⏲️ Die Suppe ein paar Minuten leise köcheln lassen."
+          },
+          {
+            "text": "🧂 Mit Salz abschmecken."
+          }
         ]
       }
     },
@@ -22,9 +32,16 @@
       "data": {
         "prompt": "🥣 Du hast eine helle Grundsuppe gekocht. Daraus willst du jetzt eine Soße machen. Was änderst du?",
         "options": [
-          { "text": "Für die Soße nimmst du weniger Flüssigkeit. Dann wird sie dicker.", "correct": true },
-          { "text": "Für die Soße nimmst du mehr Flüssigkeit. Dann wird sie dünner." },
-          { "text": "Für die Soße rührst du mehr Mehl ein und lässt die Flüssigkeit gleich." }
+          {
+            "text": "Für die Soße nimmst du weniger Flüssigkeit. Dann wird sie dicker.",
+            "correct": true
+          },
+          {
+            "text": "Für die Soße nimmst du mehr Flüssigkeit. Dann wird sie dünner."
+          },
+          {
+            "text": "Für die Soße rührst du mehr Mehl ein und lässt die Flüssigkeit gleich."
+          }
         ],
         "explanation": "Suppe und Soße starten mit der gleichen Mehlschwitze. Das ist Fett mit kurz angeschwitztem Mehl. Für die Soße nimmst du nur die halbe Flüssigkeit. So wird sie schön dick."
       }
@@ -34,9 +51,30 @@
       "data": {
         "prompt": "🧩 Aus der Grundsuppe und der Grundsoße macht man neue Gerichte. Welche Zutaten gehören dazu?",
         "pairs": [
-          { "left": { "text": "🍛 Currysuppe" }, "right": { "text": "Curry und Ananas" } },
-          { "left": { "text": "🥒 Zucchinisuppe" }, "right": { "text": "Zwiebel und Zucchini" } },
-          { "left": { "text": "🍅 Tomatensoße" }, "right": { "text": "Zwiebel und Tomatenmark" } }
+          {
+            "left": {
+              "text": "🍛 Currysuppe"
+            },
+            "right": {
+              "text": "Curry und Ananas"
+            }
+          },
+          {
+            "left": {
+              "text": "🥒 Zucchinisuppe"
+            },
+            "right": {
+              "text": "Zwiebel und Zucchini"
+            }
+          },
+          {
+            "left": {
+              "text": "🍅 Tomatensoße"
+            },
+            "right": {
+              "text": "Zwiebel und Tomatenmark"
+            }
+          }
         ],
         "memory": false
       }
@@ -46,9 +84,16 @@
       "data": {
         "prompt": "🥛 Deine Grundsuppe soll kräftig schmecken, nicht fad. Womit gießt du sie an?",
         "options": [
-          { "text": "Milch, Brühe oder auch etwas Wein.", "correct": true },
-          { "text": "Nur mit klarem Wasser, sonst wird die Suppe zu kräftig." },
-          { "text": "Nur mit purer Sahne, damit sie schön cremig wird." }
+          {
+            "text": "Milch, Brühe oder auch etwas Wein.",
+            "correct": true
+          },
+          {
+            "text": "Nur mit klarem Wasser, sonst wird die Suppe zu kräftig."
+          },
+          {
+            "text": "Nur mit purer Sahne, damit sie schön cremig wird."
+          }
         ],
         "explanation": "Angießen heißt: die Flüssigkeit dazugeben. Du hast die Wahl. Milch, Brühe, Spargelwasser oder Wein geben der Suppe Geschmack. So schmeckt sie nicht langweilig."
       }
@@ -58,9 +103,16 @@
       "data": {
         "prompt": "🥗 Du machst einen Blattsalat. Wann rührst du das Dressing an?",
         "options": [
-          { "text": "Zuerst, bevor du den Salat mischst.", "correct": true },
-          { "text": "Erst am Schluss über den fertig angemachten Salat gießen." },
-          { "text": "Bei gekochten Salaten das Dressing erst kalt zum Schluss dazugeben." }
+          {
+            "text": "Zuerst, bevor du den Salat mischst.",
+            "correct": true
+          },
+          {
+            "text": "Erst am Schluss über den fertig angemachten Salat gießen."
+          },
+          {
+            "text": "Bei gekochten Salaten das Dressing erst kalt zum Schluss dazugeben."
+          }
         ],
         "explanation": "Das Dressing wird zuerst gemacht. Dann kann es durchziehen. Durchziehen heißt: Die Zutaten geben Geschmack ans Dressing ab. Nur bei gekochten Salaten ist es umgekehrt: Die kommen noch warm ins Dressing."
       }
@@ -70,10 +122,38 @@
       "data": {
         "prompt": "🧩 Aus der Vinaigrette macht man viele Dressings. Welche Zutat kommt jeweils dazu?",
         "pairs": [
-          { "left": { "text": "🌿 Kräuter-Dressing" }, "right": { "text": "frische Kräuter" } },
-          { "left": { "text": "🟡 Senf-Dressing" }, "right": { "text": "Senf" } },
-          { "left": { "text": "🧄 Knoblauch-Dressing" }, "right": { "text": "gepresster Knoblauch" } },
-          { "left": { "text": "🥓 Speck-Marinade" }, "right": { "text": "gerösteter Speck" } }
+          {
+            "left": {
+              "text": "🌿 Kräuter-Dressing"
+            },
+            "right": {
+              "text": "frische Kräuter"
+            }
+          },
+          {
+            "left": {
+              "text": "🟡 Senf-Dressing"
+            },
+            "right": {
+              "text": "Senf"
+            }
+          },
+          {
+            "left": {
+              "text": "🧄 Knoblauch-Dressing"
+            },
+            "right": {
+              "text": "gepresster Knoblauch"
+            }
+          },
+          {
+            "left": {
+              "text": "🥓 Speck-Marinade"
+            },
+            "right": {
+              "text": "gerösteter Speck"
+            }
+          }
         ],
         "memory": false
       }
@@ -83,12 +163,23 @@
       "data": {
         "prompt": "🍔 Du machst einen Hackfleischteig für Frikadellen. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "🥖 Das trockene Brötchen einweichen und gut ausdrücken." },
-          { "text": "🧅 Die Zwiebel schälen und fein würfeln." },
-          { "text": "🥚 Ei, Hackfleisch und Zwiebel in eine Schüssel geben." },
-          { "text": "🧂 Mit Senf, Salz und Pfeffer würzen." },
-          { "text": "🤲 Alles zu einem glatten Teig verkneten." }
-        ]
+          {
+            "text": "🥖 Das trockene Brötchen einweichen und gut ausdrücken."
+          },
+          {
+            "text": "🧅 Die Zwiebel schälen und fein würfeln."
+          },
+          {
+            "text": "🥚 Ei, Hackfleisch und Zwiebel in eine Schüssel geben."
+          },
+          {
+            "text": "🧂 Mit Senf, Salz und Pfeffer würzen."
+          },
+          {
+            "text": "🤲 Alles zu einem glatten Teig verkneten."
+          }
+        ],
+        "explanation": "Erst wird alles einzeln vorbereitet: Brötchen einweichen, Zwiebel würfeln. Dann kommt alles in die Schüssel, dann wird gewürzt, und ganz zuletzt wird verknetet. Würzen vor dem Kneten sorgt dafür, dass sich alles gleichmäßig verteilt."
       }
     },
     {
@@ -96,9 +187,16 @@
       "data": {
         "prompt": "🥩 Hackfleisch ist ein leicht verderbliches Lebensmittel. Wie gehst du richtig damit um?",
         "options": [
-          { "text": "Schnell verarbeiten. Wenn es warten muss: abgedeckt in den Kühlschrank.", "correct": true },
-          { "text": "Kurz zimmerwarm ruhen lassen, dann lässt es sich besser würzen." },
-          { "text": "Offen in den Kühlschrank stellen, damit Luft rankommt." }
+          {
+            "text": "Schnell verarbeiten. Wenn es warten muss: abgedeckt in den Kühlschrank.",
+            "correct": true
+          },
+          {
+            "text": "Kurz zimmerwarm ruhen lassen, dann lässt es sich besser würzen."
+          },
+          {
+            "text": "Offen in den Kühlschrank stellen, damit Luft rankommt."
+          }
         ],
         "explanation": "Leicht verderblich heißt: Es wird schnell schlecht. Hackfleisch hat viele kleine Flächen. Dort wachsen schnell Keime. Darum: zügig verarbeiten und sonst kühl und abgedeckt lagern."
       }
@@ -108,16 +206,43 @@
       "data": {
         "prompt": "🍽️ Wie viel gehört auf einen Teller? Ordne die Menge der richtigen Speise zu. Tipp: ml sind für flüssige Sachen, g für feste.",
         "buckets": [
-          { "id": "suppe", "label": "Suppe", "icon": "🥣" },
-          { "id": "fleisch", "label": "Fleisch", "icon": "🍖" },
-          { "id": "salat", "label": "Salat", "icon": "🥗" }
+          {
+            "id": "suppe",
+            "label": "Suppe",
+            "icon": "🥣"
+          },
+          {
+            "id": "fleisch",
+            "label": "Fleisch",
+            "icon": "🍖"
+          },
+          {
+            "id": "salat",
+            "label": "Salat",
+            "icon": "🥗"
+          }
         ],
         "items": [
-          { "text": "Vorspeise: 200 bis 250 ml", "bucket": "suppe" },
-          { "text": "Hauptgericht: 400 bis 500 ml", "bucket": "suppe" },
-          { "text": "ohne Knochen: 100 bis 125 g", "bucket": "fleisch" },
-          { "text": "Hackfleisch: 60 bis 80 g", "bucket": "fleisch" },
-          { "text": "Blattsalat: 50 bis 100 g", "bucket": "salat" }
+          {
+            "text": "Vorspeise: 200 bis 250 ml",
+            "bucket": "suppe"
+          },
+          {
+            "text": "Hauptgericht: 400 bis 500 ml",
+            "bucket": "suppe"
+          },
+          {
+            "text": "ohne Knochen: 100 bis 125 g",
+            "bucket": "fleisch"
+          },
+          {
+            "text": "Hackfleisch: 60 bis 80 g",
+            "bucket": "fleisch"
+          },
+          {
+            "text": "Blattsalat: 50 bis 100 g",
+            "bucket": "salat"
+          }
         ]
       }
     },
@@ -126,9 +251,16 @@
       "data": {
         "prompt": "🍔 Zum Schluss brätst du die Frikadellen. Was ist wichtig, damit sie sicher zu essen sind?",
         "options": [
-          { "text": "Von beiden Seiten braten, bis sie durch sind.", "correct": true },
-          { "text": "Außen bei starker Hitze schnell dunkel braten, innen darf es rosa bleiben." },
-          { "text": "Nur von einer Seite anbraten und dann zugedeckt fertig ziehen lassen." }
+          {
+            "text": "Von beiden Seiten braten, bis sie durch sind.",
+            "correct": true
+          },
+          {
+            "text": "Außen bei starker Hitze schnell dunkel braten, innen darf es rosa bleiben."
+          },
+          {
+            "text": "Nur von einer Seite anbraten und dann zugedeckt fertig ziehen lassen."
+          }
         ],
         "explanation": "Frikadellen musst du durchgaren. Durchgaren heißt: innen darf nichts mehr roh und rosa sein. Darum brätst du sie von beiden Seiten. So werden sie überall gar und bekommen eine schöne Kruste. Rohes Hackfleisch solltest du nicht essen."
       }

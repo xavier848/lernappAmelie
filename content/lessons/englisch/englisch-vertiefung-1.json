@@ -10,9 +10,16 @@
         "prompt": "Das Telefon klingelt. Ein Gast aus England ruft an. 📞 Wie meldest du dich?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Hello, this is Amelie. How can I help you?", "correct": true },
-          { "text": "Goodbye! Safe travels!" },
-          { "text": "The bakery opens at seven." }
+          {
+            "text": "Hello, this is Amelie. How can I help you?",
+            "correct": true
+          },
+          {
+            "text": "Goodbye! Safe travels!"
+          },
+          {
+            "text": "The bakery opens at seven."
+          }
         ],
         "explanation": "This is Amelie heißt: Hier ist Amelie. How can I help you? heißt: Wie kann ich Ihnen helfen? 📞"
       }
@@ -23,12 +30,41 @@
         "prompt": "Wichtige Wörter für Buchungen: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "booking 📅" }, "right": { "text": "Buchung" } },
-          { "left": { "text": "confirmation ✅" }, "right": { "text": "Bestätigung" } },
-          { "left": { "text": "available" }, "right": { "text": "frei, verfügbar" } },
-          { "left": { "text": "guest 🙋" }, "right": { "text": "Gast" } }
+          {
+            "left": {
+              "text": "booking 📅"
+            },
+            "right": {
+              "text": "Buchung"
+            }
+          },
+          {
+            "left": {
+              "text": "confirmation ✅"
+            },
+            "right": {
+              "text": "Bestätigung"
+            }
+          },
+          {
+            "left": {
+              "text": "available"
+            },
+            "right": {
+              "text": "frei, verfügbar"
+            }
+          },
+          {
+            "left": {
+              "text": "guest 🙋"
+            },
+            "right": {
+              "text": "Gast"
+            }
+          }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Merke dir die vier Wörter am Wortanfang: booking ist die Buchung, confirmation die Bestätigung, available heißt frei, guest ist der Gast. confirmation und available werden leicht verwechselt."
       }
     },
     {
@@ -37,9 +73,16 @@
         "prompt": "Der Gast sagt: I would like to book the apartment. 🏠 Was möchte er?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Er möchte die Wohnung buchen.", "correct": true },
-          { "text": "Er möchte die Wohnung putzen." },
-          { "text": "Er möchte die Buchung absagen." }
+          {
+            "text": "Er möchte die Wohnung buchen.",
+            "correct": true
+          },
+          {
+            "text": "Er möchte die Wohnung putzen."
+          },
+          {
+            "text": "Er möchte die Buchung absagen."
+          }
         ],
         "explanation": "I would like heißt: Ich möchte. To book heißt: buchen. Der Gast will die Wohnung reservieren. 📅"
       }
@@ -51,13 +94,26 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "When" },
-          { "text": "would" },
-          { "text": "you" },
-          { "text": "like" },
-          { "text": "to" },
-          { "text": "come" }
-        ]
+          {
+            "text": "When"
+          },
+          {
+            "text": "would"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "like"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "come"
+          }
+        ],
+        "explanation": "In der Frage kommt zuerst das Fragewort, dann das Hilfsverb, dann das Wer: When – would – you. Erst danach like to come. Das you gehört nach vorne, nicht ans Ende."
       }
     },
     {
@@ -66,9 +122,16 @@
         "prompt": "Der Gast spricht zu schnell. Du hast ihn nicht verstanden. 😅 Was sagst du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Could you repeat that, please?", "correct": true },
-          { "text": "Goodbye!" },
-          { "text": "Enjoy your meal!" }
+          {
+            "text": "Could you repeat that, please?",
+            "correct": true
+          },
+          {
+            "text": "Goodbye!"
+          },
+          {
+            "text": "Enjoy your meal!"
+          }
         ],
         "explanation": "Could you repeat that, please? heißt: Können Sie das bitte wiederholen? Dieser Satz rettet dich am Telefon. 📞"
       }
@@ -79,9 +142,16 @@
         "prompt": "Der Gast buchstabiert seinen Namen: My name is Smith. S-M-I-T-H. ✍️ Was machst du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Ich schreibe den Namen Buchstabe für Buchstabe auf.", "correct": true },
-          { "text": "Ich lege einfach auf." },
-          { "text": "Ich buchstabiere meinen eigenen Namen zurück." }
+          {
+            "text": "Ich schreibe den Namen Buchstabe für Buchstabe auf.",
+            "correct": true
+          },
+          {
+            "text": "Ich lege einfach auf."
+          },
+          {
+            "text": "Ich buchstabiere meinen eigenen Namen zurück."
+          }
         ],
         "explanation": "Bei Buchungen schreibst du den Namen sofort auf. So geht bei der Buchung nichts verloren. ✍️"
       }
@@ -93,11 +163,20 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "confirm" },
-          { "text": "your" },
-          { "text": "booking" }
-        ]
+          {
+            "text": "We"
+          },
+          {
+            "text": "confirm"
+          },
+          {
+            "text": "your"
+          },
+          {
+            "text": "booking"
+          }
+        ],
+        "explanation": "confirm ist das Verb, booking ist das Ding. Die Reihenfolge heißt immer Wer – Verb – Was: We confirm your booking."
       }
     },
     {
@@ -106,14 +185,34 @@
         "prompt": "Anfang oder Ende vom Telefonat? Sortiere die Sätze.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "anfang", "label": "Am Anfang", "icon": "📞" },
-          { "id": "ende", "label": "Am Ende", "icon": "👋" }
+          {
+            "id": "anfang",
+            "label": "Am Anfang",
+            "icon": "📞"
+          },
+          {
+            "id": "ende",
+            "label": "Am Ende",
+            "icon": "👋"
+          }
         ],
         "items": [
-          { "text": "Hello, this is Amelie.", "bucket": "anfang" },
-          { "text": "How can I help you?", "bucket": "anfang" },
-          { "text": "Thank you for calling.", "bucket": "ende" },
-          { "text": "Goodbye!", "bucket": "ende" }
+          {
+            "text": "Hello, this is Amelie.",
+            "bucket": "anfang"
+          },
+          {
+            "text": "How can I help you?",
+            "bucket": "anfang"
+          },
+          {
+            "text": "Thank you for calling.",
+            "bucket": "ende"
+          },
+          {
+            "text": "Goodbye!",
+            "bucket": "ende"
+          }
         ]
       }
     },
@@ -123,9 +222,16 @@
         "prompt": "Du schreibst dem Gast eine Bestätigung per Nachricht. 📧 Welcher Satz gehört hinein?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "We confirm your booking from Monday to Friday.", "correct": true },
-          { "text": "The dishwasher is broken." },
-          { "text": "Turn left at the bakery." }
+          {
+            "text": "We confirm your booking from Monday to Friday.",
+            "correct": true
+          },
+          {
+            "text": "The dishwasher is broken."
+          },
+          {
+            "text": "Turn left at the bakery."
+          }
         ],
         "explanation": "We confirm your booking heißt: Wir bestätigen Ihre Buchung. Genau das gehört in die Nachricht. 📧"
       }
@@ -136,9 +242,30 @@
         "prompt": "Zum Schluss: Bausteine für eine freundliche Nachricht. Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Dear guest 📧" }, "right": { "text": "Lieber Gast" } },
-          { "left": { "text": "Thank you for your booking!" }, "right": { "text": "Danke für Ihre Buchung!" } },
-          { "left": { "text": "Best wishes 😊" }, "right": { "text": "Viele Grüße" } }
+          {
+            "left": {
+              "text": "Dear guest 📧"
+            },
+            "right": {
+              "text": "Lieber Gast"
+            }
+          },
+          {
+            "left": {
+              "text": "Thank you for your booking!"
+            },
+            "right": {
+              "text": "Danke für Ihre Buchung!"
+            }
+          },
+          {
+            "left": {
+              "text": "Best wishes 😊"
+            },
+            "right": {
+              "text": "Viele Grüße"
+            }
+          }
         ],
         "memory": false
       }
