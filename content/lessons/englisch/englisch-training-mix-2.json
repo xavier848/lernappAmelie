@@ -1,0 +1,169 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-training-mix-2",
+  "title": "Training II: alles gemischt",
+  "sort": 46,
+  "intro": "🧩 Englische Sätze halten sich streng an eine Reihenfolge. Erst wer, dann was er tut, dann wo, dann wann.\n\nMERKE: wer – tut was – wo – wann. Der Ort steht vor der Zeit.\n\n> We put fresh towels in the bathroom every Monday. = Wir legen jeden Montag frische Handtücher ins Bad.\n\nBei Fragen rutscht ein kleines Hilfswort nach vorne: do, did, can oder could. Erst danach kommt die Person.\n\n> Did you find the flat easily? = Haben Sie die Wohnung gut gefunden?\n\nAnders als im Deutschen steht das Verb nie vor der Person. Aus \"Morgen kommen die Gäste\" wird \"Tomorrow the guests arrive\" – niemals \"Tomorrow arrive the guests\".",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Gäste kommen erst spät abends an. 🔑 Baue den Satz: Der Schlüssel liegt unter der Fußmatte.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "key" },
+          { "text": "is" },
+          { "text": "under" },
+          { "text": "the" },
+          { "text": "doormat" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Neue Gäste stehen mit ihren Koffern im Flur. 🧳 Du willst sagen: Ich zeige Ihnen jetzt die Wohnung. Welcher Satz ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I will show you the flat now.", "correct": true },
+          { "text": "I will show now you the flat." },
+          { "text": "Now show I you the flat." }
+        ],
+        "explanation": "Die Reihenfolge ist: wer (I) – Verb (will show) – wem (you) – was (the flat) – wann (now). Die Zeitangabe darf nicht zwischen Verb und Person stehen, darum ist \"show now you\" falsch. Und auch wenn Now am Satzanfang steht, bleibt die Person vor dem Verb: \"Now I will show you the flat\", nie \"Now show I\". Die deutsche Umstellung \"Jetzt zeige ich\" gibt es im Englischen nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste melden Schäden in der Wohnung. Was gehört zusammen? Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "The heating does not get warm." }, "right": { "text": "Die Heizung wird nicht warm. 🔥" } },
+          { "left": { "text": "The sink is blocked." }, "right": { "text": "Das Waschbecken ist verstopft. 🚰" } },
+          { "left": { "text": "The blind is stuck." }, "right": { "text": "Die Jalousie klemmt. 🪟" } },
+          { "left": { "text": "The light bulb is broken." }, "right": { "text": "Die Glühbirne ist kaputt. 💡" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "In der Nacht kommen viele Mücken herein. 🪟 Baue den Satz: Bitte lassen Sie die Fenster nachts geschlossen.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Please" },
+          { "text": "leave" },
+          { "text": "the" },
+          { "text": "windows" },
+          { "text": "closed" },
+          { "text": "at" },
+          { "text": "night" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast schreibt: We will arrive at half past seven in the evening. 🕢 Wann kommen die Gäste an?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Um 19:30 Uhr", "correct": true },
+          { "text": "Um 18:30 Uhr" },
+          { "text": "Um 19:15 Uhr" }
+        ],
+        "explanation": "half past seven heißt: eine halbe Stunde nach sieben, also 7:30. Weil der Gast in the evening schreibt, ist es 19:30 Uhr. Vorsicht: Im Englischen wird die Stunde genannt, die schon vorbei ist. Das deutsche \"halb acht\" heißt also half past seven. 18:30 Uhr wäre half past six, und 19:15 Uhr wäre a quarter past seven."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Ein Gast schreibt dir mehrere Nachrichten. Nennt der Ausdruck eine Uhrzeit oder einen Tag?",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "uhrzeit", "label": "Uhrzeit", "icon": "⏰" },
+          { "id": "tag", "label": "Tag oder Datum", "icon": "📅" }
+        ],
+        "items": [
+          { "text": "at half past four", "bucket": "uhrzeit" },
+          { "text": "on the fifth of June", "bucket": "tag" },
+          { "text": "at ten to nine", "bucket": "uhrzeit" },
+          { "text": "on Thursday", "bucket": "tag" },
+          { "text": "at a quarter past six", "bucket": "uhrzeit" },
+          { "text": "on the second of August", "bucket": "tag" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Du willst wissen, wann die Gäste kommen. 📱 Baue die Frage: Könnten Sie mir Ihre Ankunftszeit schicken?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Could" },
+          { "text": "you" },
+          { "text": "send" },
+          { "text": "me" },
+          { "text": "your" },
+          { "text": "arrival" },
+          { "text": "time" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Vor dem Haus ist ein Platz frei geblieben. 🚗 Du willst fragen, wo die Gäste ihr Auto abgestellt haben. Welche Frage ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Where did you park your car?", "correct": true },
+          { "text": "Where you did park your car?" },
+          { "text": "Where did park you your car?" }
+        ],
+        "explanation": "In einer Frage kommt zuerst das Fragewort (Where), dann das Hilfswort (did), dann die Person (you) und zum Schluss das Verb (park). \"Where you did park\" dreht Hilfswort und Person falsch herum. \"Where did park you\" schiebt das Verb vor die Person – das gibt es im Englischen nicht."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Gäste haben zwei Mountainbikes dabei. 🚲 Baue den Satz: Sie können Ihre Fahrräder in der Garage abstellen.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "can" },
+          { "text": "leave" },
+          { "text": "your" },
+          { "text": "bikes" },
+          { "text": "in" },
+          { "text": "the" },
+          { "text": "garage" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Gäste reisen nach einer Woche wieder ab. 🏔️ Baue den Satz: Ich hoffe, Sie hatten eine erholsame Woche in den Bergen.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "hope" },
+          { "text": "you" },
+          { "text": "had" },
+          { "text": "a" },
+          { "text": "relaxing" },
+          { "text": "week" },
+          { "text": "in" },
+          { "text": "the" },
+          { "text": "mountains" }
+        ]
+      }
+    }
+  ]
+}

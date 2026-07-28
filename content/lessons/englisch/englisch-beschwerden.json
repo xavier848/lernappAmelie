@@ -1,0 +1,163 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-beschwerden",
+  "title": "Beschwerden freundlich lösen",
+  "sort": 40,
+  "intro": "😟 Ein Gast beschwert sich? Bleib ruhig. Zuerst zeigst du Verständnis, dann entschuldigst du dich.\n\n> I am very sorry about that. = Das tut mir sehr leid.\n\nDanach sagst du, was du tust. Mit will sagst du, dass du sofort hilfst.\n\n> I will take care of it right away. = Ich kümmere mich sofort darum.\n\nMERKE: Verständnis, Entschuldigung, Lösung. In dieser Reihenfolge.\n\nSätze wie That is not my problem klingen im Englischen sehr hart. Bedanke dich lieber für den Hinweis.\n\n> Thank you for letting me know. = Danke, dass Sie mir Bescheid gesagt haben.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt beim Frühstück: We couldn't sleep at all last night. The people upstairs were very loud until two. 😴 Was ist das Problem?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Leute im Stockwerk darüber waren bis zwei Uhr nachts sehr laut.", "correct": true },
+          { "text": "Die Gäste sind gestern erst um zwei Uhr nachts angekommen.", "correct": false },
+          { "text": "Die Nachbarn haben sich über die Gäste beschwert.", "correct": false },
+          { "text": "Das Bett im Zimmer ist zu unbequem zum Schlafen.", "correct": false }
+        ],
+        "explanation": "upstairs heißt: im Stockwerk darüber. loud heißt laut, until two heißt bis zwei Uhr. Von der Ankunft steht nichts im Satz, until two sagt nur, wie lange der Lärm ging. Beschwert hat sich der Gast selbst, nicht die Nachbarn über ihn. Und das Bett wird gar nicht erwähnt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast meldet: The heating in our bedroom isn't working. 🥶 Du kannst dich sofort darum kümmern. Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I am very sorry about that. I will take care of it right away.", "correct": true },
+          { "text": "I am very sorry about that. I will tell the manager tomorrow morning.", "correct": false },
+          { "text": "Okay. You can take an extra blanket from the cupboard.", "correct": false },
+          { "text": "That is not my problem, the heating is very old.", "correct": false }
+        ],
+        "explanation": "Die richtige Antwort macht beides: Sie entschuldigt sich und sagt, dass du dich sofort kümmerst. Morgen früh ist zu spät, denn der Gast friert heute Nacht — und du könntest es sofort erledigen. Die Decke ist nur ein Ersatz und schiebt die Arbeit auf den Gast ab. That is not my problem klingt im Englischen sehr unfreundlich, auch wenn die Heizung wirklich alt ist."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das tut mir sehr leid. 🙏",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "am" },
+          { "text": "very" },
+          { "text": "sorry" },
+          { "text": "about" },
+          { "text": "that" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Höfliche Sätze für eine Beschwerde. Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "I am very sorry about that." }, "right": { "text": "Das tut mir sehr leid." } },
+          { "left": { "text": "I will take care of it right away." }, "right": { "text": "Ich kümmere mich sofort darum." } },
+          { "left": { "text": "I completely understand." }, "right": { "text": "Ich kann das völlig verstehen." } },
+          { "left": { "text": "Could you give me ten minutes, please?" }, "right": { "text": "Können Sie mir bitte zehn Minuten geben?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt bei der Ankunft: The bathroom wasn't properly cleaned before we arrived. 🧽 Du brauchst noch eine Stunde dafür. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I am so sorry. I will clean it within the hour.", "correct": true },
+          { "text": "I am so sorry. Our cleaner was ill yesterday.", "correct": false },
+          { "text": "I am so sorry. I will clean it tomorrow morning.", "correct": false },
+          { "text": "I am so sorry. You can clean it yourself if you like.", "correct": false }
+        ],
+        "explanation": "within the hour heißt: noch innerhalb dieser Stunde. Das passt genau zu deinem Plan. Die kranke Reinigungskraft ist nur eine Erklärung, der Gast steht danach immer noch im schmutzigen Bad. Morgen früh ist viel zu spät, denn der Gast zieht jetzt ein. Und putzen soll der Gast nicht, dafür hat er bezahlt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Diese Sätze kannst du bei einer Beschwerde sagen — oder besser nicht. Sortiere sie.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "gut", "label": "Kannst du sagen", "icon": "🙂" },
+          { "id": "schlecht", "label": "Besser nicht sagen", "icon": "😬" }
+        ],
+        "items": [
+          { "text": "I am very sorry about that.", "bucket": "gut" },
+          { "text": "That is not my fault.", "bucket": "schlecht" },
+          { "text": "Thank you for letting me know.", "bucket": "gut" },
+          { "text": "You should have told me earlier.", "bucket": "schlecht" },
+          { "text": "I will sort it out today.", "bucket": "gut" },
+          { "text": "Nobody has ever complained about that before.", "bucket": "schlecht" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich schicke sofort jemanden nach oben. 🔧",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "will" },
+          { "text": "send" },
+          { "text": "someone" },
+          { "text": "up" },
+          { "text": "right" },
+          { "text": "away" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Gast ist wegen des Lärms müde und verärgert. 😠 Womit zeigst du zuerst Verständnis?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I completely understand. That must have been a very bad night.", "correct": true },
+          { "text": "Are you sure it was really that loud?", "correct": false },
+          { "text": "That happens here quite often, I am afraid.", "correct": false },
+          { "text": "You are right, but I cannot do anything about it.", "correct": false }
+        ],
+        "explanation": "I completely understand nimmt den Ärger ernst, und der zweite Satz sagt dem Gast: Ich sehe, wie schlimm die Nacht war. Are you sure zweifelt dagegen an seinen Worten. That happens quite often macht das Problem zur Normalität, statt es zu lösen. Und cannot do anything schließt jede Lösung schon aus, bevor du überhaupt gesucht hast."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich kümmere mich sofort darum. 🛠️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "will" },
+          { "text": "take" },
+          { "text": "care" },
+          { "text": "of" },
+          { "text": "it" },
+          { "text": "right" },
+          { "text": "away" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss: Ein Gast meldet, dass das WLAN nicht geht. 📶 Welche Antwort macht alle drei Schritte — Verständnis, Entschuldigung, Lösung?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I completely understand. I am very sorry about that, and I will take care of it right away.", "correct": true },
+          { "text": "I am very sorry about that. Perhaps you can try again later.", "correct": false },
+          { "text": "I completely understand. The internet here in the countryside is always slow.", "correct": false },
+          { "text": "I will take care of it right away.", "correct": false }
+        ],
+        "explanation": "Nur die erste Antwort hat alle drei Teile: Verständnis, Entschuldigung und ein klares Versprechen mit will. Try again later ist keine Lösung, sondern gibt das Problem an den Gast zurück. Der Satz über das langsame Land-Internet erklärt nur, warum es nicht geht, und ändert nichts. Und die letzte Antwort hilft zwar, klingt aber kühl, weil die Entschuldigung fehlt."
+      }
+    }
+  ]
+}

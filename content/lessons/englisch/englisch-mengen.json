@@ -1,0 +1,162 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-mengen",
+  "title": "some, any, much, many",
+  "sort": 35,
+  "intro": "🛒 some und any heißen beide etwas oder welche. Welches Wort du nimmst, hängt von der Satzart ab.\n\n> We have some milk in the fridge. = Wir haben Milch im Kühlschrank.\n\nIn Fragen und in Verneinungen wird daraus any. Nur wenn du etwas anbietest, bleibt some: Would you like some tea?\n\n> Have we got any eggs left? = Haben wir noch Eier?\n\nMERKE: Aussage und Angebot -> some. Frage und Verneinung -> any.\n\nBei viel und wenig kommt es darauf an, ob du das Ding zählen kannst. In normalen Aussagen passt a lot of bei beidem.\n\nMERKE: Nicht zählbar -> much milk, a little milk. Zählbar -> many eggs, a few eggs.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Kühlschrank ist leer. Du willst sagen: Wir haben keine Eier mehr. 🥚 Welcher Satz stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "We haven't got any eggs left.", "correct": true },
+          { "text": "We haven't got some eggs left.", "correct": false },
+          { "text": "We have got any eggs left.", "correct": false },
+          { "text": "We haven't got much eggs left.", "correct": false }
+        ],
+        "explanation": "In einer Verneinung steht any: haven't got any eggs. some gehört dagegen in die Aussage. Der dritte Satz ist gar keine Verneinung, er behauptet das Gegenteil, und dort passt any nicht. much steht nur bei Dingen, die man nicht zählt. Eier zählt man, also wäre many das Wort dafür."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste haben nicht viel Geld für Souvenirs ausgegeben. 💶 Welcher Satz stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The guests didn't spend much money.", "correct": true },
+          { "text": "The guests didn't spend many money.", "correct": false },
+          { "text": "The guests didn't spend a lot money.", "correct": false }
+        ],
+        "explanation": "money zählt man im Englischen nicht, auch wenn es viele Scheine sind. Darum much money. many gehört zu zählbaren Dingen, zum Beispiel many coins. Beim dritten Satz fehlt das of: Vor einem Nomen heißt es immer a lot of, also a lot of money."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Es ist nicht viel Milch im Kühlschrank. 🥛",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "There" },
+          { "text": "isn't" },
+          { "text": "much" },
+          { "text": "milk" },
+          { "text": "in" },
+          { "text": "the" },
+          { "text": "fridge" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Was gehört in die Lücke: some oder any? Sortiere die Sätze. 🧺",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "some", "label": "some", "icon": "📝" },
+          { "id": "any", "label": "any", "icon": "❓" }
+        ],
+        "items": [
+          { "text": "We have ___ fresh towels for the guests.", "bucket": "some" },
+          { "text": "Have we got ___ clean sheets?", "bucket": "any" },
+          { "text": "There isn't ___ coffee left.", "bucket": "any" },
+          { "text": "I need ___ sugar for the cake.", "bucket": "some" },
+          { "text": "The guests didn't leave ___ rubbish.", "bucket": "any" },
+          { "text": "Would you like ___ tea?", "bucket": "some" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Im Sommer braucht ihr viel Milch für das Frühstück. 🥛 Welcher Satz passt in einer normalen Aussage?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "We need a lot of milk in summer.", "correct": true },
+          { "text": "We need many milk in summer.", "correct": false },
+          { "text": "We need much milk in summer.", "correct": false },
+          { "text": "We need a few milk in summer.", "correct": false }
+        ],
+        "explanation": "Milch zählt man nicht, darum fällt many weg. much und many stehen fast nur in Fragen und Verneinungen: Have we got much milk? In einer normalen Aussage nimmt man a lot of, also a lot of milk. a few gehört zu zählbaren Dingen und heißt außerdem ein paar, nicht viel."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Mengen im Haushalt. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "There are only a few eggs left." }, "right": { "text": "Es sind nur noch ein paar Eier da." } },
+          { "left": { "text": "There is only a little milk left." }, "right": { "text": "Es ist nur noch wenig Milch da." } },
+          { "left": { "text": "We need a lot of towels today." }, "right": { "text": "Wir brauchen heute viele Handtücher." } },
+          { "left": { "text": "We haven't got any bread." }, "right": { "text": "Wir haben kein Brot." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Haben wir noch saubere Handtücher? 🧻",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Have" },
+          { "text": "we" },
+          { "text": "got" },
+          { "text": "any" },
+          { "text": "clean" },
+          { "text": "towels" },
+          { "text": "left" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Welches Wort passt vor das Nomen: much oder many? 🔎",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "much", "label": "much (nicht zählbar)", "icon": "🥛" },
+          { "id": "many", "label": "many (zählbar)", "icon": "🥚" }
+        ],
+        "items": [
+          { "text": "money", "bucket": "much" },
+          { "text": "guests", "bucket": "many" },
+          { "text": "sugar", "bucket": "much" },
+          { "text": "plates", "bucket": "many" },
+          { "text": "time", "bucket": "much" },
+          { "text": "people", "bucket": "many" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Es ist nur noch wenig Zucker da. ☕ Wie sagst du das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "There is only a little sugar left.", "correct": true },
+          { "text": "There is only a few sugar left.", "correct": false },
+          { "text": "There are only a few sugars left.", "correct": false }
+        ],
+        "explanation": "Zucker zählt man nicht, darum a little sugar. a few gehört zu zählbaren Dingen wie eggs oder cups, also passt es hier nicht. Und weil sugar nicht zählbar ist, steht auch is und nicht are. Eine Mehrzahl sugars gibt es hier nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss der Überblick. 🤔 Welche Zeile stimmt komplett?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Aussage: some. Frage und Verneinung: any. Zählbar: many und a few. Nicht zählbar: much und a little.", "correct": true },
+          { "text": "Aussage: any. Frage und Verneinung: some. Zählbar: much und a little. Nicht zählbar: many und a few.", "correct": false },
+          { "text": "Aussage: some. Frage und Verneinung: any. Zählbar: much und a few. Nicht zählbar: many und a little.", "correct": false }
+        ],
+        "explanation": "some steht in der Aussage, any in Frage und Verneinung. Die zweite Zeile dreht beides um. Bei der Menge gilt: zählbar sind eggs, guests, towels, dazu passen many und a few. Nicht zählbar sind milk, sugar, money und time, dazu passen much und a little. Die dritte Zeile vertauscht genau das. Zwei Dinge kommen noch dazu: Beim Anbieten bleibt some, also Would you like some tea? Und in normalen Aussagen sagst du statt much lieber a lot of."
+      }
+    }
+  ]
+}

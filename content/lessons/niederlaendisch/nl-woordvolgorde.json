@@ -1,0 +1,160 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-woordvolgorde",
+  "title": "Satzstellung im Niederländischen",
+  "sort": 16,
+  "intro": "🧩 Im Hauptsatz steht das gebeugte Verb an zweiter Stelle. Das ist wie im Deutschen.\n\nStellst du einen anderen Satzteil nach vorne, dann tauschen Verb und Subjekt den Platz.\n\n> Morgen kom ik om negen uur langs. = Morgen komme ich um neun Uhr vorbei.\n\nMERKE: Steht etwas anderes vorne, kommt zuerst das Verb und dann ik, u oder wij.\n\nNach omdat (weil), dat (dass) und als (wenn) rutscht das Verb ans Satzende. Nach want (denn) nicht: want zählt nicht mit, danach geht es weiter wie im Hauptsatz.\n\n> Ik blijf thuis, omdat ik moe ben. = Ich bleibe zu Hause, weil ich müde bin.\n\nMERKE: Bei zwei Verben im Nebensatz kommt das gebeugte Verb meist zuerst: omdat ik moet werken.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du schreibst einem Gast: Morgen komme ich um neun Uhr vorbei. 🕘 Welcher niederländische Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Morgen kom ik om negen uur langs.", "correct": true },
+          { "text": "Morgen ik kom om negen uur langs." },
+          { "text": "Morgen komt ik om negen uur langs." }
+        ],
+        "explanation": "Wenn Morgen vorne steht, muss sofort danach das Verb kommen: kom ik. Bei Morgen ik kom steht das Subjekt vor dem Verb, dann wäre das Verb an dritter Stelle. Und zu ik gehört immer kom, nie komt: komt passt zu hij, zij oder het."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Morgen um neun Uhr bringe ich saubere Handtücher. 🧺",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Morgen" },
+          { "text": "om" },
+          { "text": "negen" },
+          { "text": "uur" },
+          { "text": "breng" },
+          { "text": "ik" },
+          { "text": "schone" },
+          { "text": "handdoeken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt, warum das Frühstück später ist. Du willst sagen: Das Frühstück ist später, weil der Bäcker erst um acht Uhr öffnet. 🥐 Welcher Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Het ontbijt is later, omdat de bakker pas om acht uur opengaat.", "correct": true },
+          { "text": "Het ontbijt is later, omdat de bakker gaat pas om acht uur open." },
+          { "text": "Het ontbijt is later, want de bakker pas om acht uur opengaat." }
+        ],
+        "explanation": "Nach omdat wandert das Verb ans Satzende. Aus gaat ... open wird deshalb opengaat. Im zweiten Satz bleibt das Verb in der Mitte, so baut man einen Hauptsatz. Der dritte Satz nimmt want, schiebt das Verb aber trotzdem ans Ende. Nach want bleibt die normale Reihenfolge: want de bakker gaat pas om acht uur open."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Niederländisch, rechts Deutsch. Achte darauf, wo das Verb steht.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Om drie uur komen de nieuwe gasten aan. 🕒" }, "right": { "text": "Um drei Uhr kommen die neuen Gäste an." } },
+          { "left": { "text": "Ik weet niet of de sleutel in de kast ligt. 🔑" }, "right": { "text": "Ich weiß nicht, ob der Schlüssel im Schrank liegt." } },
+          { "left": { "text": "Als het regent, blijven de gasten binnen. 🌧️" }, "right": { "text": "Wenn es regnet, bleiben die Gäste drinnen." } },
+          { "left": { "text": "Ik ga naar de winkel, want wij hebben geen melk meer. 🥛" }, "right": { "text": "Ich gehe in den Laden, denn wir haben keine Milch mehr." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Wenn die Gäste ankommen, gebe ich ihnen den Schlüssel. 🔑 Welcher Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Als de gasten aankomen, geef ik hun de sleutel.", "correct": true },
+          { "text": "Als de gasten aankomen, ik geef hun de sleutel." },
+          { "text": "Als de gasten komen aan, geef ik hun de sleutel." }
+        ],
+        "explanation": "Der Teil mit als steht vorne und zählt als erste Stelle. Danach kommt sofort das Verb: geef ik. Bei ik geef steht das Subjekt zuerst, dann wäre das Verb an dritter Stelle. Im Teil mit als bleibt aankomen zusammen und steht am Ende. Getrennt heißt es nur im Hauptsatz: De gasten komen om drie uur aan."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich hoffe, dass Sie einen schönen Aufenthalt haben. 🏡",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "hoop" },
+          { "text": "dat" },
+          { "text": "u" },
+          { "text": "een" },
+          { "text": "fijn" },
+          { "text": "verblijf" },
+          { "text": "heeft" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Steht das Verb an zweiter Stelle oder ganz am Ende? Sortiere die niederländischen Sätze und Satzteile.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "zweite", "label": "Verb an zweiter Stelle", "icon": "2️⃣" },
+          { "id": "ende", "label": "Verb ganz am Ende", "icon": "🔚" }
+        ],
+        "items": [
+          { "text": "Morgen komen de gasten uit Utrecht.", "bucket": "zweite" },
+          { "text": "want ik heb vandaag geen tijd", "bucket": "zweite" },
+          { "text": "Om zeven uur begint het ontbijt.", "bucket": "zweite" },
+          { "text": "omdat de wasmachine kapot is", "bucket": "ende" },
+          { "text": "dat wij morgen boodschappen doen", "bucket": "ende" },
+          { "text": "als de gasten later aankomen", "bucket": "ende" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Heute Nachmittag muss ich noch die Küche putzen. 🧽",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Vanmiddag" },
+          { "text": "moet" },
+          { "text": "ik" },
+          { "text": "nog" },
+          { "text": "de" },
+          { "text": "keuken" },
+          { "text": "schoonmaken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Ich bleibe heute zu Hause, weil ich noch lernen muss. 📚 Welcher Satz ist im Niederländischen üblich?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ik blijf vandaag thuis, omdat ik nog moet leren.", "correct": true },
+          { "text": "Ik blijf vandaag thuis, omdat ik moet nog leren." },
+          { "text": "Ik blijf vandaag thuis, omdat moet ik nog leren." }
+        ],
+        "explanation": "Nach omdat stehen beide Verben hinten. Im Niederländischen sagt man dabei meist moet leren, im Deutschen ist es umgekehrt: lernen muss. Bei omdat ik moet nog leren steht nog hinter dem Verb, es gehört aber davor. Bei omdat moet ik nog leren steht das Verb vor dem Subjekt, das passt nur in einen Hauptsatz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss: Welche Regel für den niederländischen Satzbau stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Im Hauptsatz steht das Verb an zweiter Stelle. Nach omdat, dat und als wandert es ans Satzende.", "correct": true },
+          { "text": "Im Hauptsatz steht das Verb an zweiter Stelle. Nach want wandert es ans Satzende." },
+          { "text": "Steht ein Satzteil wie Morgen vorne, kommt danach zuerst das Subjekt und dann das Verb." }
+        ],
+        "explanation": "Nach want bleibt die normale Reihenfolge: Ik blijf thuis, want ik ben moe. Ans Satzende wandert das Verb nur nach Wörtern wie omdat, dat und als. Und wenn Morgen vorne steht, kommt zuerst das Verb: Morgen kom ik langs, nicht Morgen ik kom langs."
+      }
+    }
+  ]
+}

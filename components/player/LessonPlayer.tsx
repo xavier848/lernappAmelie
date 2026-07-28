@@ -37,7 +37,8 @@ import { Mascot } from "@/components/ui/Mascot";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { TTSButton } from "@/components/ui/TTSButton";
 import { PromptText } from "@/components/ui/PromptText";
-import { splitSentences } from "@/lib/prompt-format";
+import { IntroBlocks } from "@/components/ui/IntroBlocks";
+import { introSpeakable } from "@/lib/intro-format";
 import { speakableText } from "@/lib/speakable";
 import { NoteButton } from "@/components/ui/NoteButton";
 import { ExerciseView } from "@/components/exercises/ExerciseView";
@@ -407,15 +408,13 @@ export function LessonPlayer({
           <div className="min-h-12 min-w-12" aria-hidden />
         </div>
 
-        <div className="flex-1 overflow-y-auto overscroll-contain px-4 pt-4 pb-40">
-          <div className="flex items-start gap-3">
-            <div className="flex flex-1 flex-col gap-2.5 text-lg leading-relaxed font-medium text-ink">
-              {splitSentences(intro).map((sentence, index) => (
-                <p key={index}>{sentence}</p>
-              ))}
-            </div>
-            <TTSButton text={intro} />
+        <div className="flex-1 overflow-y-auto overscroll-contain px-4 pt-2 pb-40">
+          {/* Ganze Einfuehrung vorlesen - die einzelnen Beispielsaetze haben
+              zusaetzlich ihren eigenen Knopf. */}
+          <div className="mb-3 flex justify-end">
+            <TTSButton text={introSpeakable(intro)} />
           </div>
+          <IntroBlocks intro={intro} lang={exercises[0]?.exercise.data.tts_lang} />
         </div>
 
         <div className="fixed inset-x-0 bottom-0 z-40">

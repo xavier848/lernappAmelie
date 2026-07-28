@@ -1,0 +1,163 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-vragen-stellen",
+  "title": "Fragen stellen",
+  "sort": 19,
+  "intro": "❓ Mit einem Fragewort steht das Verb direkt hinter dem Fragewort. Erst danach kommt die Person.\n\n> Waar komt u vandaan? = Woher kommen Sie?\n\nOhne Fragewort rutscht das Verb ganz nach vorne. Ein Hilfswort wie im Englischen brauchst du dafür nie.\n\n> Heeft u goed geslapen? = Haben Sie gut geschlafen?\n\nMERKE: Das niederländische wie heißt wer. Das deutsche wie heißt auf Niederländisch hoe.\n\nZu Gästen sagst du u. Mit kunt u oder wilt u klingt die Frage höflich.\n\n> Kunt u mij helpen? = Können Sie mir helfen?",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast steht in der Einfahrt und fragt: Wie heeft de sleutel van de garage? 🔑 Was möchte er wissen?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wer hat den Schlüssel für die Garage?", "correct": true },
+          { "text": "Wie funktioniert der Schlüssel für die Garage?", "correct": false },
+          { "text": "Wo ist der Schlüssel für die Garage?", "correct": false },
+          { "text": "Wann bekomme ich den Schlüssel für die Garage?", "correct": false }
+        ],
+        "explanation": "Das niederländische wie sieht aus wie das deutsche wie, heißt aber wer. Der Gast sucht also eine Person. Für das deutsche wie steht hoe: Hoe werkt de sleutel? Für wo steht waar: Waar is de sleutel? Und für wann steht wanneer: Wanneer krijg ik de sleutel?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Neue Gäste kommen an. Du möchtest wissen, woher sie kommen. 🌍 Welche Frage ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Waar komt u vandaan?", "correct": true },
+          { "text": "Waar gaat u naartoe?", "correct": false },
+          { "text": "Wie komt u vandaan?", "correct": false },
+          { "text": "Waarom komt u vandaan?", "correct": false }
+        ],
+        "explanation": "Woher heißt waar zusammen mit vandaan. Das vandaan steht am Ende. Waar ... naartoe fragt in die andere Richtung, nämlich wohin. Wie heißt wer und passt nicht zu einem Ort. Waarom heißt warum, damit fragst du nach dem Grund."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Um wie viel Uhr möchten Sie morgen frühstücken? 🥐",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Hoe" },
+          { "text": "laat" },
+          { "text": "wilt" },
+          { "text": "u" },
+          { "text": "morgen" },
+          { "text": "ontbijten" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Am Morgen fragst du deine Gäste nach der Nacht. 😴 Welche Frage ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Heeft u goed geslapen?", "correct": true },
+          { "text": "U heeft goed geslapen?", "correct": false },
+          { "text": "Doet u goed geslapen?", "correct": false },
+          { "text": "Heeft goed u geslapen?", "correct": false }
+        ],
+        "explanation": "Ohne Fragewort steht das Verb ganz vorne: Heeft u ...? U heeft goed geslapen ist ein Aussagesatz, an den nur ein Fragezeichen geklebt wurde. Doet u kommt aus dem Englischen; ein do braucht das Niederländische nie. Und zwischen Verb und Person darf nichts stehen, deshalb ist Heeft goed u falsch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Fragewörter im Einsatz: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Wie maakt de kamers schoon?" }, "right": { "text": "Wer putzt die Zimmer?" } },
+          { "left": { "text": "Wat kost het ontbijt?" }, "right": { "text": "Was kostet das Frühstück?" } },
+          { "left": { "text": "Welke sleutel is voor de voordeur? 🔑" }, "right": { "text": "Welcher Schlüssel ist für die Haustür?" } },
+          { "left": { "text": "Wanneer vertrekt u?" }, "right": { "text": "Wann reisen Sie ab?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Steht am Anfang ein Fragewort oder gleich das Verb? Sortiere die Gäste-Fragen. 🧭",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "woord", "label": "Mit Fragewort", "icon": "❓" },
+          { "id": "verb", "label": "Ohne Fragewort: Verb steht vorne", "icon": "🔄" }
+        ],
+        "items": [
+          { "text": "Waarom werkt de wifi niet?", "bucket": "woord" },
+          { "text": "Hoeveel personen komen er?", "bucket": "woord" },
+          { "text": "Waar is de wasmachine?", "bucket": "woord" },
+          { "text": "Heeft u goed geslapen?", "bucket": "verb" },
+          { "text": "Komt u uit Nederland?", "bucket": "verb" },
+          { "text": "Mag ik uw paspoort zien?", "bucket": "verb" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wie viele saubere Handtücher brauchen Sie noch? 🛁",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Hoeveel" },
+          { "text": "schone" },
+          { "text": "handdoeken" },
+          { "text": "heeft" },
+          { "text": "u" },
+          { "text": "nog" },
+          { "text": "nodig" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast steht mit zwei schweren Koffern vor der Tür. 🧳 Du willst höflich fragen: Kann ich Ihnen helfen? Welcher Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Kan ik u helpen?", "correct": true },
+          { "text": "Kunt u mij helpen?", "correct": false },
+          { "text": "Ik kan u helpen?", "correct": false },
+          { "text": "Helpt u mij?", "correct": false }
+        ],
+        "explanation": "Ik heißt ich, u heißt Sie. Du hilfst dem Gast, also: Kan ik u helpen? Bei Kunt u mij helpen? ist es genau umgekehrt, da bittest du den Gast um Hilfe. Ik kan u helpen ist ein Aussagesatz; für die Frage muss kan nach vorne. Helpt u mij? heißt Helfen Sie mir?"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Können Sie mir sagen, wo der Bahnhof ist? 🚉",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Kunt" },
+          { "text": "u" },
+          { "text": "mij" },
+          { "text": "zeggen" },
+          { "text": "waar" },
+          { "text": "het" },
+          { "text": "station" },
+          { "text": "is" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss: Welche Regel für niederländische Fragen stimmt? 🎯",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Mit Fragewort: erst das Fragewort, dann das Verb, dann die Person. Ohne Fragewort: das Verb steht ganz vorne.", "correct": true },
+          { "text": "Mit Fragewort: erst das Fragewort, dann die Person, dann das Verb.", "correct": false },
+          { "text": "Für Fragen brauchst du immer ein Hilfsverb wie doen.", "correct": false },
+          { "text": "Wie und hoe bedeuten beide dasselbe.", "correct": false }
+        ],
+        "explanation": "Richtig ist: Wanneer vertrekt u? und Vertrekt u morgen? Fragewort, Verb, Person - oder Verb ganz vorne. Wanneer u vertrekt ist keine Frage, sondern ein Nebensatz. Ein doen als Hilfsverb gibt es in der Frage nicht, das kommt aus dem Englischen. Und wie heißt wer, das deutsche wie heißt hoe."
+      }
+    }
+  ]
+}

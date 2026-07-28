@@ -1,0 +1,159 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-present-progressive",
+  "title": "Gerade jetzt: -ing-Form",
+  "sort": 27,
+  "intro": "🧹 Englisch hat zwei Formen der Gegenwart. Eine für jetzt gerade, eine für immer wieder.\n\nWas genau in diesem Moment passiert, sagst du mit am, is oder are und der ing-Form.\n\n> I am cleaning the guest room right now. = Ich putze gerade das Gästezimmer.\n\nWas immer wieder passiert, sagst du mit der einfachen Form. Bei he, she und it hängst du ein s an.\n\n> My mother cleans the guest room every Saturday. = Meine Mutter putzt das Gästezimmer jeden Samstag.\n\nMERKE: now, right now und at the moment verlangen die ing-Form. every day, usually und always verlangen die einfache Form.\n\nMERKE: Die ing-Form steht nie allein. Ohne am, is oder are ist der Satz falsch.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Mutter sagt zu einem Gast: I am making breakfast at the moment. 🍳 Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ich mache gerade das Frühstück.", "correct": true },
+          { "text": "Ich mache jeden Morgen das Frühstück.", "correct": false },
+          { "text": "Ich werde gleich das Frühstück machen.", "correct": false },
+          { "text": "Ich habe das Frühstück schon gemacht.", "correct": false }
+        ],
+        "explanation": "am making ist die ing-Form mit am. Sie zeigt: Es läuft genau jetzt. At the moment heißt in diesem Moment, also weder später noch jeden Morgen. Für die Gewohnheit hieße es I make breakfast every morning, für die Vergangenheit I made breakfast."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Setze richtig ein: My mother ___ the holiday flat every Saturday. 🧼",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "cleans", "correct": true },
+          { "text": "is cleaning", "correct": false },
+          { "text": "clean", "correct": false },
+          { "text": "cleaning", "correct": false }
+        ],
+        "explanation": "Every Saturday zeigt eine Gewohnheit, also die einfache Form. My mother ist she, darum kommt ein s dran: cleans. Clean ohne s passt nur zu I, you, we und they. Is cleaning würde bedeuten, dass sie genau jetzt putzt. Cleaning allein ist kein vollständiges Verb."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Setze richtig ein: Look! The guests ___ their suitcases into the car. 🧳",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "are putting", "correct": true },
+          { "text": "is putting", "correct": false },
+          { "text": "put", "correct": false },
+          { "text": "are put", "correct": false }
+        ],
+        "explanation": "Look! heißt: Schau, es passiert gerade. Also die ing-Form. The guests sind mehrere, darum are und nicht is. Put allein wäre eine Gewohnheit, das passt hier nicht. Nach are muss die ing-Form stehen, und bei put wird das t verdoppelt: putting."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich putze gerade das Badezimmer. 🚿",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "am" },
+          { "text": "cleaning" },
+          { "text": "the" },
+          { "text": "bathroom" },
+          { "text": "right" },
+          { "text": "now" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Sortiere die Signalwörter. Welche Form verlangen sie? 🔎",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "jetzt", "label": "jetzt gerade: ing-Form", "icon": "⏱️" },
+          { "id": "immer", "label": "immer wieder: einfache Form", "icon": "🔁" }
+        ],
+        "items": [
+          { "text": "at the moment", "bucket": "jetzt" },
+          { "text": "every morning", "bucket": "immer" },
+          { "text": "right now", "bucket": "jetzt" },
+          { "text": "usually", "bucket": "immer" },
+          { "text": "Look!", "bucket": "jetzt" },
+          { "text": "every Friday", "bucket": "immer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Welcher Satz ist richtig gebaut? 🧩",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "He is washing the dishes at the moment.", "correct": true },
+          { "text": "He washing the dishes at the moment.", "correct": false },
+          { "text": "He is wash the dishes at the moment.", "correct": false },
+          { "text": "He washes the dishes at the moment.", "correct": false }
+        ],
+        "explanation": "Die ing-Form hat immer zwei Teile: is und washing. Ohne is fehlt die Hälfte, darum ist He washing falsch. Nach is muss washing stehen, nicht wash. Washes ist die einfache Form für Gewohnheiten und passt nicht zu at the moment."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir wechseln jeden Samstag die Bettwäsche. 🛏️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "change" },
+          { "text": "the" },
+          { "text": "bed" },
+          { "text": "linen" },
+          { "text": "every" },
+          { "text": "Saturday" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Achte genau auf gerade jetzt und immer wieder.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "She is cooking dinner right now." }, "right": { "text": "Sie kocht gerade das Abendessen." } },
+          { "left": { "text": "She cooks dinner every evening." }, "right": { "text": "Sie kocht jeden Abend das Abendessen." } },
+          { "left": { "text": "They are waiting in the garden." }, "right": { "text": "Sie warten gerade im Garten." } },
+          { "left": { "text": "They wait in the garden every afternoon." }, "right": { "text": "Sie warten jeden Nachmittag im Garten." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Ich helfe jeden Samstag im Haushalt. 🧺 Welcher Satz stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I help around the house every Saturday.", "correct": true },
+          { "text": "I am helping around the house every Saturday.", "correct": false },
+          { "text": "I helping around the house every Saturday.", "correct": false },
+          { "text": "I am help around the house every Saturday.", "correct": false }
+        ],
+        "explanation": "Every Saturday ist eine Gewohnheit, also die einfache Form: I help. I am helping würde heißen, dass du genau in diesem Moment hilfst. Bei I helping fehlt das am. Und nach am muss helping stehen, nicht help."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Woran erkennst du, dass du die ing-Form brauchst? 🤔",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Die Sache passiert genau in diesem Moment.", "correct": true },
+          { "text": "Die Sache passiert immer wieder, zum Beispiel jeden Tag.", "correct": false },
+          { "text": "Der Satz beginnt mit I oder we.", "correct": false }
+        ],
+        "explanation": "Die ing-Form mit am, is oder are zeigt: Es läuft gerade jetzt. Für immer wieder nimmst du die einfache Form, bei he, she und it mit s am Ende. Womit der Satz beginnt, spielt dabei keine Rolle."
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-problemen-helpen-2",
+  "title": "Probleme & Hilfe II",
+  "sort": 26,
+  "intro": "🔧 In der Ferienwohnung geht auch mal etwas kaputt. Dann meldest du das Problem und bietest sofort eine Lösung an.\n\nMERKE: Das Verb steht im Niederländischen an zweiter Stelle. Beginnt der Satz mit einer Zeitangabe, kommt die Person erst nach dem Verb.\n\n> De sleutel past niet in het slot. = Der Schlüssel passt nicht ins Schloss.\n\n> Morgen komt de elektricien om acht uur. = Morgen kommt der Elektriker um acht Uhr.\n\nManche Verben haben eine Vorsilbe. Die rutscht ans Satzende: opbellen wird zu bel ... op.\n\n> Ik bel vanmiddag de elektricien op. = Ich rufe heute Nachmittag den Elektriker an.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: Wij zijn de sleutel van het appartement kwijt. 🔑 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Sie haben den Schlüssel der Wohnung verloren.", "correct": true },
+          { "text": "Sie haben den Schlüssel in der Wohnung vergessen." },
+          { "text": "Sie möchten einen zweiten Schlüssel für die Wohnung." },
+          { "text": "Sie geben den Schlüssel der Wohnung morgen ab." }
+        ],
+        "explanation": "Kwijt zijn heißt: etwas verloren haben, es ist weg. De sleutel = der Schlüssel, het appartement = die Wohnung. Vergessen hieße vergeten, abgeben hieße inleveren, und einen zweiten Schlüssel wollen hieße een tweede sleutel willen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Dusche wird nicht warm. 🚿",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De" },
+          { "text": "douche" },
+          { "text": "wordt" },
+          { "text": "niet" },
+          { "text": "warm" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste melden Störungen. Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "De koelkast koelt niet meer. 🧊" }, "right": { "text": "Der Kühlschrank kühlt nicht mehr." } },
+          { "left": { "text": "Het toilet spoelt niet door. 🚽" }, "right": { "text": "Die Toilette spült nicht." } },
+          { "left": { "text": "De wifi valt steeds weg. 📶" }, "right": { "text": "Das WLAN fällt ständig aus." } },
+          { "left": { "text": "De balkondeur klemt. 🚪" }, "right": { "text": "Die Balkontür klemmt." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich rufe morgen den Klempner an. 📞",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "bel" },
+          { "text": "morgen" },
+          { "text": "de" },
+          { "text": "loodgieter" },
+          { "text": "op" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst dem Gast sagen: Morgen kommt der Klempner um neun Uhr. Welcher Satz ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Morgen komt de loodgieter om negen uur.", "correct": true },
+          { "text": "Morgen de loodgieter komt om negen uur." },
+          { "text": "De loodgieter morgen komt om negen uur." }
+        ],
+        "explanation": "Das Verb komt muss an zweiter Stelle stehen. Der Satz beginnt mit morgen, also folgt sofort das Verb und erst danach die Person: Morgen komt de loodgieter. In den beiden anderen Sätzen steht komt erst an dritter Stelle - das ist im Niederländischen falsch."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Nachbarn waren heute Nacht viel zu laut. 🔊",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De" },
+          { "text": "buren" },
+          { "text": "waren" },
+          { "text": "vannacht" },
+          { "text": "veel" },
+          { "text": "te" },
+          { "text": "luidruchtig" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Zeigst du nur Mitgefühl oder nennst du eine konkrete Lösung? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "sorry", "label": "Mitgefühl / Entschuldigung", "icon": "🙏" },
+          { "id": "oplossing", "label": "Konkrete Lösung", "icon": "🛠️" }
+        ],
+        "items": [
+          { "text": "Mijn excuses voor het ongemak.", "bucket": "sorry" },
+          { "text": "Ik laat de wasmachine vanmiddag repareren.", "bucket": "oplossing" },
+          { "text": "Wat vervelend voor u!", "bucket": "sorry" },
+          { "text": "U krijgt binnen tien minuten een reservesleutel van mij.", "bucket": "oplossing" },
+          { "text": "Wat naar dat u zo slecht geslapen heeft.", "bucket": "sorry" },
+          { "text": "Ik zet de thermostaat een paar graden hoger.", "bucket": "oplossing" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Der Elektriker kommt morgen zwischen zehn und zwölf. ⚡",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De" },
+          { "text": "elektricien" },
+          { "text": "komt" },
+          { "text": "morgen" },
+          { "text": "tussen" },
+          { "text": "tien" },
+          { "text": "en" },
+          { "text": "twaalf" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: De buren maken 's nachts veel lawaai. 😴 Du willst Mitgefühl zeigen und heute Abend mit den Nachbarn reden. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wat vervelend, ik ga vanavond even met hen praten.", "correct": true },
+          { "text": "Wat vervelend, maar daar kan ik niets aan doen." },
+          { "text": "Wat vervelend, ik zeg het volgende maand tegen de buren." },
+          { "text": "Wat vervelend, u kunt zelf het beste even aanbellen." }
+        ],
+        "explanation": "Wat vervelend heißt: Wie ärgerlich. Ik ga vanavond even met hen praten heißt: Ich rede heute Abend kurz mit ihnen. Die anderen Antworten schieben das Problem weg (daar kan ik niets aan doen), sind viel zu spät (volgende maand = nächsten Monat) oder geben es dem Gast zurück (zelf aanbellen = selbst klingeln)."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Waschmaschine leckt und es steht Wasser auf dem Boden. 💧",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De" },
+          { "text": "wasmachine" },
+          { "text": "lekt" },
+          { "text": "en" },
+          { "text": "er" },
+          { "text": "staat" },
+          { "text": "water" },
+          { "text": "op" },
+          { "text": "de" },
+          { "text": "vloer" }
+        ]
+      }
+    }
+  ]
+}

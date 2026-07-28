@@ -1,0 +1,174 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-training-mix-2",
+  "title": "Training II: alles gemischt",
+  "sort": 30,
+  "intro": "🇳🇱 Im Niederländischen steht das Verb fast immer an zweiter Stelle. Zuerst kommt meistens die Person, dann sofort das Verb.\n\n> De gasten komen morgen aan. = Die Gäste kommen morgen an.\n\nMERKE: Steht die Zeit vorne, tauschen Verb und Person den Platz.\n\n> Morgen komen de gasten aan. = Morgen kommen die Gäste an.\n\nDanach gilt die Reihenfolge: wann, wie, wo. Der Ort steht fast immer am Ende.\n\n> Wij eten vanavond rustig in de tuin. = Wir essen heute Abend in Ruhe im Garten.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast meldet sich: De wasmachine stopt steeds midden in het programma. 🧺 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Die Waschmaschine bleibt immer wieder mitten im Programm stehen.", "correct": true },
+          { "text": "Die Waschmaschine fängt erst mitten am Nachmittag an." },
+          { "text": "Die Spülmaschine ist am Ende vom Programm noch voll." }
+        ],
+        "explanation": "De wasmachine ist die Waschmaschine, de vaatwasser wäre die Spülmaschine. Steeds heißt immer wieder, midden in het programma heißt mitten im Programm. Der Gast meldet also einen Defekt, keine Uhrzeit."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das WLAN-Passwort steht auf der Karte. 📶",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Het" },
+          { "text": "wifiwachtwoord" },
+          { "text": "staat" },
+          { "text": "op" },
+          { "text": "de" },
+          { "text": "kaart." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Einkaufen für die Ferienwohnung. Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Ik ga vanmiddag naar de supermarkt." }, "right": { "text": "Ich gehe heute Nachmittag in den Supermarkt." } },
+          { "left": { "text": "Het brood is vers van de bakker." }, "right": { "text": "Das Brot ist frisch vom Bäcker." } },
+          { "left": { "text": "De melk staat achter in de koelkast." }, "right": { "text": "Die Milch steht hinten im Kühlschrank." } },
+          { "left": { "text": "Wilt u ook een zak aardappelen?" }, "right": { "text": "Möchten Sie auch einen Sack Kartoffeln?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Zeitangabe steht vorne, also steht das Verb vor der Person. Baue den Satz: Am Montag holen wir die neuen Gäste ab. 🚐",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Op" },
+          { "text": "maandag" },
+          { "text": "halen" },
+          { "text": "wij" },
+          { "text": "de" },
+          { "text": "nieuwe" },
+          { "text": "gasten" },
+          { "text": "op." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Morgen kommt die Reinigungsfirma um neun Uhr. 🧹 Welcher Satz ist richtig gebaut?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Morgen komt het schoonmaakbedrijf om negen uur.", "correct": true },
+          { "text": "Morgen het schoonmaakbedrijf komt om negen uur." },
+          { "text": "Morgen om negen uur het schoonmaakbedrijf komt." },
+          { "text": "Het schoonmaakbedrijf morgen komt om negen uur." }
+        ],
+        "explanation": "Alle vier Sätze haben dieselben Wörter, nur die Reihenfolge ist anders. Das Verb komt muss an zweiter Stelle stehen. Weil morgen vorne steht, folgt direkt komt und danach het schoonmaakbedrijf. In den anderen Sätzen rutscht das Verb an die dritte oder an die letzte Stelle, und das ist falsch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wo machst du das? Sortiere die Sätze nach Küche oder Bad.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "keuken", "label": "In de keuken", "icon": "🍳" },
+          { "id": "badkamer", "label": "In de badkamer", "icon": "🛁" }
+        ],
+        "items": [
+          { "text": "Ik zet de vaatwasser aan.", "bucket": "keuken" },
+          { "text": "Ik maak de wastafel schoon.", "bucket": "badkamer" },
+          { "text": "Ik ruim de koelkast leeg.", "bucket": "keuken" },
+          { "text": "Ik vervang het toiletpapier.", "bucket": "badkamer" },
+          { "text": "Ik snijd het brood voor het ontbijt.", "bucket": "keuken" },
+          { "text": "Ik leg een droge badmat neer.", "bucket": "badkamer" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Heizung im Schlafzimmer wird leider nicht warm. 🌡️",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "De" },
+          { "text": "verwarming" },
+          { "text": "in" },
+          { "text": "de" },
+          { "text": "slaapkamer" },
+          { "text": "wordt" },
+          { "text": "helaas" },
+          { "text": "niet" },
+          { "text": "warm." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast ruft an: Wij komen vanavond wat later aan, want we staan in de file. 🚗 Was bedeutet das?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wir kommen heute Abend etwas später an, denn wir stehen im Stau.", "correct": true },
+          { "text": "Wir kommen heute Abend etwas früher an, denn die Straße ist frei." },
+          { "text": "Wir sind gestern Abend später angekommen, weil wir eine Datei gesucht haben." }
+        ],
+        "explanation": "De file heißt Stau, nicht Datei. Das ist ein falscher Freund. Vanavond heißt heute Abend, wat later bedeutet etwas später. Die Gäste kommen also heute, aber verspätet."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Sagst du das bei der Ankunft oder bei der Abreise? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "aankomst", "label": "Bij de aankomst", "icon": "🔔" },
+          { "id": "vertrek", "label": "Bij het vertrek", "icon": "👋" }
+        ],
+        "items": [
+          { "text": "Fijn dat u er bent, ik breng uw koffers naar boven.", "bucket": "aankomst" },
+          { "text": "Ik hoop dat u het bij ons naar uw zin heeft gehad.", "bucket": "vertrek" },
+          { "text": "Ik laat u zien hoe de koffiemachine werkt.", "bucket": "aankomst" },
+          { "text": "Heeft u niets in de kasten laten liggen?", "bucket": "vertrek" },
+          { "text": "Uw parkeerplaats is nummer drie naast de garage.", "bucket": "aankomst" },
+          { "text": "Wilt u het afval nog in de container gooien?", "bucket": "vertrek" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Langer Satz. Baue ihn: Nach dem Kochen räume ich die Spülmaschine immer sofort ein. 🍽️",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Na" },
+          { "text": "het" },
+          { "text": "koken" },
+          { "text": "ruim" },
+          { "text": "ik" },
+          { "text": "de" },
+          { "text": "vaatwasser" },
+          { "text": "altijd" },
+          { "text": "meteen" },
+          { "text": "in." }
+        ]
+      }
+    }
+  ]
+}

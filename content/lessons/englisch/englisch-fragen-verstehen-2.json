@@ -1,0 +1,171 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-fragen-verstehen-2",
+  "title": "Gäste-Fragen verstehen II",
+  "sort": 45,
+  "intro": "❓ Gäste fragen den ganzen Tag nach Ort, Zeit oder Erlaubnis. Achte zuerst auf das erste Wort der Frage.\n\nMERKE: Im englischen Antwortsatz gilt: wer – Verb – was – wo/wann. Ort und Zeit stehen hinten.\n\n> You can leave your bags in the bedroom. = Ihre Taschen können Sie im Schlafzimmer abstellen.\n\n> The shop closes at six on Saturday. = Der Laden schließt am Samstag um sechs.\n\nIm Deutschen darfst du umstellen. Im englischen Antwortsatz steht das \"wer\" immer direkt vor dem Verb.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: May I use the barbecue? 🔥 Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ob er den Grill benutzen darf.", "correct": true },
+          { "text": "Wo der Grill steht." },
+          { "text": "Ob der Grill kaputt ist." }
+        ],
+        "explanation": "May I heißt: Darf ich? Der Gast fragt nach der Erlaubnis. Nach dem Ort würde er mit Where fragen, nach einem Schaden mit Is the barbecue broken?"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie dürfen die Waschmaschine benutzen. 🧦",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "may" },
+          { "text": "use" },
+          { "text": "the" },
+          { "text": "washing" },
+          { "text": "machine" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Vier Fragen, die Gäste oft stellen: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "May I bring my dog? 🐕" }, "right": { "text": "Darf ich meinen Hund mitbringen?" } },
+          { "left": { "text": "Is there a lift in the building? 🛗" }, "right": { "text": "Gibt es einen Aufzug im Gebäude?" } },
+          { "left": { "text": "When do you empty the bins? 🗑️" }, "right": { "text": "Wann leeren Sie die Mülltonnen?" } },
+          { "left": { "text": "Where is the bus stop? 🚏" }, "right": { "text": "Wo ist die Bushaltestelle?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Mülltonne steht neben der Garage. 🗑️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "bin" },
+          { "text": "is" },
+          { "text": "next" },
+          { "text": "to" },
+          { "text": "the" },
+          { "text": "garage" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: When is the bread delivered? 🥖 Welcher Satz ist richtig gebaut?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The baker brings the bread at eight.", "correct": true },
+          { "text": "The baker brings at eight the bread." },
+          { "text": "At eight brings the baker the bread." }
+        ],
+        "explanation": "Im Englischen steht die Sache direkt hinter dem Verb, die Zeit ganz am Schluss: brings the bread at eight. Bei brings at eight the bread ist die Zeit zwischen Verb und Sache gerutscht. Bei At eight brings the baker steht das Verb vor dem wer – das geht nur im Deutschen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Der Fahrradraum ist im Erdgeschoss. 🚲",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "bike" },
+          { "text": "room" },
+          { "text": "is" },
+          { "text": "on" },
+          { "text": "the" },
+          { "text": "ground" },
+          { "text": "floor" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Fragt der Gast nach dem Ort oder nach der Zeit? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "ort", "label": "Frage nach dem Ort", "icon": "📍" },
+          { "id": "zeit", "label": "Frage nach der Zeit", "icon": "🕒" }
+        ],
+        "items": [
+          { "text": "Where do we leave the key?", "bucket": "ort" },
+          { "text": "When does the pool close?", "bucket": "zeit" },
+          { "text": "Where is the nearest chemist?", "bucket": "ort" },
+          { "text": "What time do you clean the flat?", "bucket": "zeit" },
+          { "text": "Where can I hang the wet swimsuits?", "bucket": "ort" },
+          { "text": "When does the market start?", "bucket": "zeit" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Das WLAN-Passwort finden Sie am Kühlschrank. 📶",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "can" },
+          { "text": "find" },
+          { "text": "the" },
+          { "text": "Wi-Fi" },
+          { "text": "password" },
+          { "text": "on" },
+          { "text": "the" },
+          { "text": "fridge" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Where is the nearest chemist? 💊 Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "It is in the village, next to the church.", "correct": true },
+          { "text": "It opens at nine in the morning." },
+          { "text": "You may take one from the shelf." }
+        ],
+        "explanation": "Where fragt nach dem Ort, also nennst du den Ort: in the village, next to the church. It opens at nine wäre eine Antwort auf When. Die dritte Antwort gibt eine Erlaubnis und passt zu May I."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ihre nassen Jacken können Sie im kleinen Keller trocknen. 🧥",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "can" },
+          { "text": "dry" },
+          { "text": "your" },
+          { "text": "wet" },
+          { "text": "jackets" },
+          { "text": "in" },
+          { "text": "the" },
+          { "text": "small" },
+          { "text": "cellar" }
+        ]
+      }
+    }
+  ]
+}

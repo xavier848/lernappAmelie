@@ -1,0 +1,162 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-noodgeval-dokter",
+  "title": "Notfall & Arzt",
+  "sort": 21,
+  "intro": "🚑 Wenn einem Gast etwas passiert, musst du schnell reagieren. Diese Sätze solltest du auswendig können.\n\nDie Notrufnummer ist in den Niederlanden dieselbe wie bei uns: 112.\n\n> Blijft u rustig, ik bel 112. = Bleiben Sie ruhig, ich rufe 112 an.\n\nNicht jeder Schmerz ist ein Notfall. Bei Fieber oder Halsschmerzen geht man zum huisarts, also zum Hausarzt.\n\n> Zal ik een afspraak bij de huisarts maken? = Soll ich einen Termin beim Hausarzt machen?\n\nMERKE: 112 nur bei echter Gefahr. Sonst huisarts oder apotheek.\n\nMERKE: Wo es weh tut, sagst du mit pijn aan: Ik heb pijn aan mijn rug.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Beschwerden von Gästen: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Ik heb keelpijn. 🗣️" }, "right": { "text": "Ich habe Halsschmerzen." } },
+          { "left": { "text": "Ik heb hoofdpijn. 🤕" }, "right": { "text": "Ich habe Kopfschmerzen." } },
+          { "left": { "text": "Ik heb koorts. 🌡️" }, "right": { "text": "Ich habe Fieber." } },
+          { "left": { "text": "Ik voel me duizelig. 😵" }, "right": { "text": "Mir ist schwindelig." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Beim Frühstück willst du sagen: Ich bin allergisch gegen Nüsse. 🥜 Welcher Satz ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ik ben allergisch voor noten.", "correct": true },
+          { "text": "Ik ben allergisch tegen noten." },
+          { "text": "Ik ben allergisch met noten." },
+          { "text": "Ik heb allergie van noten." }
+        ],
+        "explanation": "Im Niederländischen heißt es immer allergisch voor. Das deutsche gegen verleitet zu tegen, aber das ist hier falsch. Met und van passen ebenfalls nicht, das sind keine üblichen Verbindungen. Wenn du das Wort Allergie brauchst, sagst du: Ik heb een notenallergie."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Soll ich für Sie einen Arzt anrufen? 📞",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Zal" },
+          { "text": "ik" },
+          { "text": "voor" },
+          { "text": "u" },
+          { "text": "een" },
+          { "text": "dokter" },
+          { "text": "bellen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast steht an der Tür: Mijn vrouw is op de trap gevallen. Ze heeft haar enkel verzwikt. 🩹 Was ist passiert?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Seine Frau ist auf der Treppe gestürzt und hat sich den Knöchel verstaucht.", "correct": true },
+          { "text": "Seine Frau ist auf der Treppe gestürzt und hat ihren Enkel aus den Augen verloren." },
+          { "text": "Seine Frau ist auf der Treppe gestürzt und hat sich das Handgelenk gebrochen." },
+          { "text": "Seine Frau ist die Treppe hinuntergelaufen und hat ihre Tasche verloren." }
+        ],
+        "explanation": "De enkel ist eine klassische Falle: Es heißt der Knöchel, nicht der Enkel. Ein Enkel ist auf Niederländisch een kleinzoon. Verzwikken heißt verstauchen, brechen wäre breken und das Handgelenk wäre de pols. Vallen heißt fallen oder stürzen, also nicht einfach nur hinunterlaufen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Sofort den Notruf oder erst zum Hausarzt? Sortiere die Situationen.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "spoed", "label": "Sofort 112 anrufen", "icon": "🚑" },
+          { "id": "huisarts", "label": "Zum huisarts (Hausarzt)", "icon": "🩺" }
+        ],
+        "items": [
+          { "text": "Een gast krijgt plotseling geen lucht meer.", "bucket": "spoed" },
+          { "text": "Een gast ligt bewusteloos in de badkamer.", "bucket": "spoed" },
+          { "text": "Er is brand in de keuken.", "bucket": "spoed" },
+          { "text": "Een gast heeft al drie dagen keelpijn.", "bucket": "huisarts" },
+          { "text": "Een gast heeft een nieuw recept voor zijn medicijnen nodig.", "bucket": "huisarts" },
+          { "text": "Een kind heeft al drie dagen koorts en oorpijn.", "bucket": "huisarts" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast hat sich verletzt und ist in Panik. Der Krankenwagen ist schon unterwegs. 🚑 Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Blijft u rustig. De ambulance is onderweg. Ik blijf bij u.", "correct": true },
+          { "text": "Blijft u rustig. Ik weet ook niet wat we nu moeten doen." },
+          { "text": "Blijft u rustig. U kunt zelf naar het ziekenhuis rijden." },
+          { "text": "Blijft u rustig. Ik ga even boodschappen doen." }
+        ],
+        "explanation": "Onderweg heißt unterwegs, und ik blijf bij u heißt: Ich bleibe bei Ihnen. Genau das beruhigt. Ik weet ook niet wat we nu moeten doen macht die Panik nur größer. Zelf naar het ziekenhuis rijden ist nach einer Verletzung gefährlich, dafür kommt ja die ambulance. Und boodschappen doen heißt einkaufen gehen, da lässt du den Gast allein."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich bleibe bei Ihnen, bis der Krankenwagen da ist. 🤝",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "blijf" },
+          { "text": "bij" },
+          { "text": "u" },
+          { "text": "tot" },
+          { "text": "de" },
+          { "text": "ambulance" },
+          { "text": "er" },
+          { "text": "is" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der huisarts hat einem Gast ein Rezept ausgestellt. 💊 Wohin schickst du ihn?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Naar de apotheek. Daar krijgt u medicijnen op recept.", "correct": true },
+          { "text": "Naar de drogist. Daar krijgt u alle medicijnen op recept." },
+          { "text": "Naar het ziekenhuis. Daar haalt u uw medicijnen op." },
+          { "text": "Naar de supermarkt. Daar liggen de medicijnen bij de kassa." }
+        ],
+        "explanation": "De apotheek ist die Apotheke, nur dort gibt es Medikamente op recept, also auf Rezept. De drogist ist die Drogerie: Dort bekommst du frei verkäufliche Mittel wie Paracetamol, aber nichts auf Rezept. Het ziekenhuis ist das Krankenhaus, dort löst man kein Rezept ein. Und im Supermarkt gibt es gar keine Medikamente."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Körperteile: Was gehört zusammen? Mit pijn aan sagst du, wo es weh tut. Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "het hoofd 🤕" }, "right": { "text": "der Kopf" } },
+          { "left": { "text": "de rug" }, "right": { "text": "der Rücken" } },
+          { "left": { "text": "de buik" }, "right": { "text": "der Bauch" } },
+          { "left": { "text": "de enkel 🦶" }, "right": { "text": "der Knöchel" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss: Welche Aussage über einen Notfall in den Niederlanden stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Bei Lebensgefahr wählst du 112. Bei Fieber oder Halsschmerzen rufst du den huisarts an.", "correct": true },
+          { "text": "In den Niederlanden wählst du bei Lebensgefahr 110, denn 112 gilt nur in Deutschland." },
+          { "text": "Der huisarts ist für alle Notfälle da, 112 wählst du nur bei einem Feuer." },
+          { "text": "Medikamente auf Rezept holst du in der Drogerie, die apotheek verkauft nur Kosmetik." }
+        ],
+        "explanation": "112 ist in den Niederlanden und in Deutschland dieselbe Notrufnummer, für Krankenwagen, Feuerwehr und Polizei. 110 ist die deutsche Polizeinummer und hilft dir dort nicht weiter. Der huisarts ist für normale Beschwerden zuständig, nicht für Lebensgefahr. Und Medikamente op recept gibt es nur in der apotheek, in der Drogerie gibt es nur frei verkäufliche Mittel."
+      }
+    }
+  ]
+}

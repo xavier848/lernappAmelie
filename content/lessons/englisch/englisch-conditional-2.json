@@ -1,0 +1,148 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-conditional-2",
+  "title": "If-Sätze: Typ 2 (nur ausgedacht)",
+  "sort": 26,
+  "intro": "💭 Ein If-Satz vom Typ 2 spricht über etwas, das nur ausgedacht ist. Gerade ist es nicht so.\n\n> If I had more time, I would visit the castle. = Wenn ich mehr Zeit hätte, würde ich das Schloss besuchen.\n\nIn Wahrheit hast du die Zeit nicht. Der if-Teil steht in der Vergangenheitsform und meint trotzdem das Jetzt.\n\nMERKE: Nach if kommt KEIN would. Nur der zweite Teil bekommt would.\n\nBei to be nimmst du im Typ 2 immer were, für alle Personen.\n\n> If I were you, I would take a jacket. = Wenn ich du wäre, würde ich eine Jacke mitnehmen.\n\nMERKE: Typ 1 ist echt und möglich. Typ 2 ist nur eine Vorstellung.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: If I had a car, I would pick you up from the station. 🚗 Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wenn ich ein Auto hätte, würde ich Sie vom Bahnhof abholen. (Aber ich habe keins.)", "correct": true },
+          { "text": "Ich habe ein Auto und hole Sie gleich vom Bahnhof ab.", "correct": false },
+          { "text": "Ich hatte ein Auto und habe Sie vom Bahnhof abgeholt.", "correct": false },
+          { "text": "Wenn ich ein Auto brauche, hole ich Sie vom Bahnhof ab.", "correct": false }
+        ],
+        "explanation": "Typ 2 ist eine Vorstellung: had a car steht in der Vergangenheitsform, meint aber jetzt. In Wahrheit hat die Person kein Auto. Darum würde sie abholen, wenn sie eins hätte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Setze das richtige Wort ein: If I ___ more money, I would travel the world. 💰",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "had", "correct": true },
+          { "text": "have", "correct": false },
+          { "text": "would have", "correct": false },
+          { "text": "will have", "correct": false }
+        ],
+        "explanation": "Im Typ 2 steht nach if die Vergangenheitsform: If I had. Das would gehört nur in die Folge: I would travel. Kein would nach if."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Setze das richtige Wort ein: If I ___ you, I would take an umbrella. ☔",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "were", "correct": true },
+          { "text": "was", "correct": false },
+          { "text": "am", "correct": false },
+          { "text": "would be", "correct": false }
+        ],
+        "explanation": "Bei to be nimmst du im Typ 2 immer were, auch bei I: If I were you. Das ist ein fester Merksatz für einen guten Rat: An deiner Stelle würde ich …"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich würde ein Taxi rufen, wenn du fragen würdest. 🚕",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "would" },
+          { "text": "call" },
+          { "text": "a" },
+          { "text": "taxi" },
+          { "text": "if" },
+          { "text": "you" },
+          { "text": "asked" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Echt und möglich oder nur ausgedacht? Sortiere Typ 1 und Typ 2. Achte auf will und would! 🧠",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "typ1", "label": "Typ 1 (echt & möglich)", "icon": "✅" },
+          { "id": "typ2", "label": "Typ 2 (nur ausgedacht)", "icon": "💭" }
+        ],
+        "items": [
+          { "text": "If it rains, we will stay inside.", "bucket": "typ1" },
+          { "text": "If I had wings, I would fly to the sea.", "bucket": "typ2" },
+          { "text": "If you need help, I will call you.", "bucket": "typ1" },
+          { "text": "If I were rich, I would buy a big house.", "bucket": "typ2" },
+          { "text": "If the shop is open, I will buy milk.", "bucket": "typ1" },
+          { "text": "If we had more time, we would relax.", "bucket": "typ2" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Wenn ich du wäre, würde ich einen Regenschirm mitnehmen. 🌂 Welcher Satz stimmt genau?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "If I were you, I would take an umbrella.", "correct": true },
+          { "text": "If I were you, I will take an umbrella.", "correct": false },
+          { "text": "If I was you, I would take an umbrella.", "correct": false },
+          { "text": "If I am you, I would take an umbrella.", "correct": false }
+        ],
+        "explanation": "If I were you ist der feste Merksatz. Die Folge braucht would, nicht will. Und im Typ 2 heißt es were, nicht was oder am."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie würden rausgehen, wenn die Sonne schiene. ☀️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "They" },
+          { "text": "would" },
+          { "text": "go" },
+          { "text": "outside" },
+          { "text": "if" },
+          { "text": "the" },
+          { "text": "sun" },
+          { "text": "were" },
+          { "text": "out" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Englisch (Typ 2), rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "If I had a garden, I would grow vegetables." }, "right": { "text": "Wenn ich einen Garten hätte, würde ich Gemüse anbauen." } },
+          { "left": { "text": "If we lived by the sea, we would swim every day." }, "right": { "text": "Wenn wir am Meer wohnten, würden wir jeden Tag schwimmen." } },
+          { "left": { "text": "If she spoke English, it would be easier." }, "right": { "text": "Wenn sie Englisch sprechen würde, wäre es leichter." } },
+          { "left": { "text": "If I were taller, I would reach the top shelf." }, "right": { "text": "Wenn ich größer wäre, würde ich das obere Regal erreichen." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Wann benutzt du einen If-Satz vom Typ 2? 🤔",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Wenn du dir etwas vorstellst, das gerade nicht wirklich so ist.", "correct": true },
+          { "text": "Wenn die Bedingung echt ist und gut passieren kann.", "correct": false },
+          { "text": "Immer nur, wenn du über die Vergangenheit sprichst.", "correct": false }
+        ],
+        "explanation": "Typ 2 ist für ausgedachte Sachen: Wenn ich reich wäre … Du bist nicht reich, du stellst es dir nur vor. Echte, mögliche Bedingungen kommen in den Typ 1."
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-fragen-bilden",
+  "title": "Fragen richtig bilden",
+  "sort": 33,
+  "intro": "❓ In einer englischen Frage steht das Hilfsverb vor der Person. Das ist anders als im Deutschen.\n\nBei den meisten Verben brauchst du do, does oder did als Hilfsverb. Bei er, sie, es nimmst du does, in der Vergangenheit immer did.\n\n> When does the bus leave? = Wann fährt der Bus ab?\n\nNach does und did steht das Verb in der Grundform. Also leave, nicht leaves.\n\nBei am, is, are, was und were brauchst du kein do. Diese Formen rutschen selbst nach vorne.\n\n> Where are you from? = Woher kommen Sie?\n\nMERKE: Fragewort, Hilfsverb, Person, Verb. When - does - the bus - leave.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Neue Gäste kommen an und du möchtest wissen, woher sie kommen. 🌍 Welche Frage ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Where are you from?", "correct": true },
+          { "text": "Where you are from?", "correct": false },
+          { "text": "Where do you are from?", "correct": false },
+          { "text": "From where you come?", "correct": false }
+        ],
+        "explanation": "In der Frage steht die Form von be vor der Person: are you. Where you are from ist die Wortstellung aus dem Aussagesatz und deshalb keine Frage. Where do you are from hat zwei Hilfsverben, denn bei are brauchst du kein do. From where you come ist deutsche Wortstellung mit englischen Wörtern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast will wissen, wann der Bus ins Dorf fährt. 🚌 Welche Frage ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "When does the bus leave?", "correct": true },
+          { "text": "When does the bus leaves?", "correct": false },
+          { "text": "When do the bus leave?", "correct": false },
+          { "text": "When the bus leaves?", "correct": false }
+        ],
+        "explanation": "The bus ist er, sie, es, deshalb heißt das Hilfsverb does. Nach does bleibt das Verb in der Grundform, also leave ohne s. Do gehört zu I, you, we und they, nicht zu the bus. Und ganz ohne Hilfsverb bleibt es ein Aussagesatz mit Fragezeichen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Wie viel kostet das Frühstück pro Person? 🥐",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "How" },
+          { "text": "much" },
+          { "text": "does" },
+          { "text": "breakfast" },
+          { "text": "cost" },
+          { "text": "per" },
+          { "text": "person" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst wissen, ob das Bad im Erdgeschoss liegt. 🚿 Welche Frage ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Is the bathroom on the ground floor?", "correct": true },
+          { "text": "Does the bathroom is on the ground floor?", "correct": false },
+          { "text": "Does the bathroom on the ground floor?", "correct": false },
+          { "text": "The bathroom is on the ground floor?", "correct": false }
+        ],
+        "explanation": "Bei is brauchst du kein do. Das is rutscht selbst nach vorne: Is the bathroom ...? Does the bathroom is hat zwei Hilfsverben auf einmal, das gibt es nie. Does the bathroom on the ground floor hat gar kein richtiges Verb mehr. Der letzte Satz ist nur ein Aussagesatz, an den ein Fragezeichen geklebt wurde."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links die englische Frage, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "How long are you staying?" }, "right": { "text": "Wie lange bleiben Sie?" } },
+          { "left": { "text": "How often do the buses run?" }, "right": { "text": "Wie oft fahren die Busse?" } },
+          { "left": { "text": "How much is the deposit?" }, "right": { "text": "Wie hoch ist die Kaution?" } },
+          { "left": { "text": "Why is the heating off?" }, "right": { "text": "Warum ist die Heizung aus?" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wonach fragt der Gast? Sortiere die Fragen. 🧭",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "zeit", "label": "Fragt nach Zeit oder Dauer", "icon": "⏰" },
+          { "id": "menge", "label": "Fragt nach Menge oder Preis", "icon": "💶" }
+        ],
+        "items": [
+          { "text": "What time does breakfast start?", "bucket": "zeit" },
+          { "text": "How much is the cleaning fee?", "bucket": "menge" },
+          { "text": "How long is the drive to the lake?", "bucket": "zeit" },
+          { "text": "How many towels do you need?", "bucket": "menge" },
+          { "text": "When does the shop close?", "bucket": "zeit" },
+          { "text": "How much does the bread cost?", "bucket": "menge" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Um wie viel Uhr seid ihr gestern angekommen? 🚗",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "What" },
+          { "text": "time" },
+          { "text": "did" },
+          { "text": "you" },
+          { "text": "arrive" },
+          { "text": "yesterday" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Am Morgen fragst du deine Gäste nach der Nacht. 😴 Welche Frage ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Did you sleep well?", "correct": true },
+          { "text": "Did you slept well?", "correct": false },
+          { "text": "Do you slept well?", "correct": false },
+          { "text": "Slept you well?", "correct": false }
+        ],
+        "explanation": "Das did zeigt schon die Vergangenheit. Deshalb bleibt das Verb in der Grundform: sleep, nicht slept. Do you slept mischt Gegenwart und Vergangenheit in einem Satz. Slept you well ist die deutsche Wortstellung; im Englischen braucht die Frage das Hilfsverb did."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Waschmaschine macht ein lautes Geräusch. 🧺 Welche Frage ist richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Why does the washing machine make that noise?", "correct": true },
+          { "text": "Why makes the washing machine that noise?", "correct": false },
+          { "text": "Why the washing machine makes that noise?", "correct": false },
+          { "text": "Why does the washing machine makes that noise?", "correct": false }
+        ],
+        "explanation": "Nach dem Fragewort why kommt das Hilfsverb does, dann die Sache, dann das Verb in der Grundform: make. Why makes the washing machine ist die deutsche Wortstellung, im Englischen darf das Vollverb nicht nach vorne. Ohne Hilfsverb ist es keine Frage. Und das s darf nur einmal vorkommen, nämlich bei does."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss: Welche Regel für englische Fragen stimmt? 🎯",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Erst das Fragewort, dann das Hilfsverb, dann die Person, dann das Verb in der Grundform.", "correct": true },
+          { "text": "Erst das Fragewort, dann die Person, dann das Hilfsverb, dann das Verb.", "correct": false },
+          { "text": "Nach does und did bekommt das Verb noch ein s oder ein ed dazu.", "correct": false },
+          { "text": "Auch bei am, is und are brauchst du zusätzlich do oder does.", "correct": false }
+        ],
+        "explanation": "Richtig ist: When does the bus leave? Also Fragewort, Hilfsverb, Person, Verb in der Grundform. Fragewort und dann sofort die Person ergibt Where you are from, und das ist der häufigste Fehler. Nach does und did bleibt das Verb nackt: leave, sleep, arrive. Und am, is, are, was, were rutschen ohne do selbst nach vorne: Where are you from?"
+      }
+    }
+  ]
+}

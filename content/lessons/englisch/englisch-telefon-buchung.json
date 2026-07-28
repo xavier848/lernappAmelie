@@ -1,0 +1,158 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-telefon-buchung",
+  "title": "Am Telefon & Buchung",
+  "sort": 38,
+  "intro": "📞 Am Telefon siehst du niemanden. Deshalb fragst du lieber einmal zu viel nach.\n\n> Could you repeat that, please? = Können Sie das bitte wiederholen?\n\nNamen versteht man am Telefon leicht falsch. Dann lässt du sie buchstabieren.\n\n> How do you spell your last name? = Wie buchstabieren Sie Ihren Nachnamen?\n\nEin Datum sagst du mit einer Ordnungszahl. The fifth of March heißt: der fünfte März.\n\nMERKE: Am Schluss wiederholst du die ganze Buchung. Datum, Anzahl der Personen, Preis.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Das Telefon klingelt. 📞 Ein englischer Gast ruft wegen der Ferienwohnung an. Wie meldest du dich?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Good morning, Haas Holiday Apartment, Amelie speaking.", "correct": true },
+          { "text": "Good morning, here is Amelie." },
+          { "text": "Good morning, who are you?" },
+          { "text": "Good morning, I am Amelie from the telephone." }
+        ],
+        "explanation": "Am Telefon sagt man Amelie speaking. Here is Amelie ist wörtlich aus dem Deutschen übersetzt und klingt im Englischen falsch. Who are you? heißt Wer bist du? und ist unhöflich; richtig wäre Who's calling, please? Der letzte Satz ergibt keinen Sinn."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Gast nennt seinen Nachnamen. Du hast ihn nicht verstanden. 🔤 Mit welcher Frage bittest du ihn, den Namen zu buchstabieren?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "How do you spell that?", "correct": true },
+          { "text": "How do you say that?" },
+          { "text": "How do you write that?" },
+          { "text": "Could you speak up, please?" }
+        ],
+        "explanation": "To spell heißt buchstabieren. How do you say that? fragt nach der Aussprache oder nach dem passenden Wort. How do you write that? ist die wörtliche Übersetzung von Wie schreibt man das? Nach der Schreibweise eines Namens fragt man damit im Englischen nicht. Could you speak up, please? heißt: Könnten Sie lauter sprechen?"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Könnten Sie Ihren Nachnamen bitte buchstabieren? ✍️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "Could" },
+          { "text": "you" },
+          { "text": "spell" },
+          { "text": "your" },
+          { "text": "last" },
+          { "text": "name," },
+          { "text": "please?" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Rückfragen am Telefon: Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Could you repeat that, please? 🔁" }, "right": { "text": "Können Sie das bitte wiederholen?" } },
+          { "left": { "text": "Could you speak more slowly, please? 🐢" }, "right": { "text": "Können Sie bitte langsamer sprechen?" } },
+          { "left": { "text": "Can I take your name, please? ✍️" }, "right": { "text": "Darf ich bitte Ihren Namen notieren?" } },
+          { "left": { "text": "Just a moment, please. ⏳" }, "right": { "text": "Einen Moment bitte." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Gast sagt: We would like to arrive on the fifth of March. 📅 Wann wollen die Gäste anreisen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Am 5. März.", "correct": true },
+          { "text": "Am 3. Mai." },
+          { "text": "Am 5. Mai." }
+        ],
+        "explanation": "Fifth heißt der fünfte, March heißt März. Der dritte wäre third, nicht fifth. Und Mai heißt May, nicht March. Die beiden M-Monate verwechselt man leicht, deshalb lieber nachfragen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Fragst du gerade nach, oder bestätigst du schon? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "nachfrage", "label": "Nachfragen", "icon": "❓" },
+          { "id": "bestaetigung", "label": "Bestätigen", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "Could you repeat that, please?", "bucket": "nachfrage" },
+          { "text": "How do you spell your last name?", "bucket": "nachfrage" },
+          { "text": "Sorry, could you speak more slowly?", "bucket": "nachfrage" },
+          { "text": "That's all booked for you.", "bucket": "bestaetigung" },
+          { "text": "I'll send you a confirmation by email.", "bucket": "bestaetigung" },
+          { "text": "So that's seven nights in total.", "bucket": "bestaetigung" }
+        ]
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Wohnung kostet neunzig Euro pro Nacht. 💶",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "apartment" },
+          { "text": "costs" },
+          { "text": "ninety" },
+          { "text": "euros" },
+          { "text": "per" },
+          { "text": "night." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Wohnung kostet 90 Euro pro Nacht. Der Gast fragt: How much is it per night? 💶 Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "It's ninety euros per night.", "correct": true },
+          { "text": "It's nineteen euros per night." },
+          { "text": "It's ninety euros per person." }
+        ],
+        "explanation": "Ninety heißt 90. Nineteen heißt 19 und klingt sehr ähnlich, deshalb sprich die Endung deutlich. Per person hieße pro Person, der Preis gilt aber für die ganze Wohnung pro Nacht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Welcher englische Satz passt? Links Deutsch, rechts Englisch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "In der Woche ist die Wohnung frei." }, "right": { "text": "The apartment is available that week." } },
+          { "left": { "text": "Leider ist die Wohnung ausgebucht." }, "right": { "text": "I'm afraid the apartment is fully booked." } },
+          { "left": { "text": "Ich schreibe das auf." }, "right": { "text": "I'll write that down." } },
+          { "left": { "text": "Ich schaue kurz im Kalender nach." }, "right": { "text": "Let me check the calendar." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Alles ist notiert: zwei Erwachsene, vom 5. bis 12. März. 📒 Wie schließt du das Telefonat richtig ab?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Let me repeat that: two adults, from the fifth to the twelfth of March. Is that correct?", "correct": true },
+          { "text": "I repeat you the booking now, is it right?" },
+          { "text": "Thank you for calling. Goodbye." },
+          { "text": "Could you repeat that, please?" }
+        ],
+        "explanation": "Let me repeat that leitet die Zusammenfassung ein, danach nennst du Personen und Datum und fragst mit Is that correct? nach. I repeat you ist wörtlich aus dem Deutschen übersetzt und im Englischen falsch. Nur Goodbye zu sagen ist höflich, bestätigt aber nichts. Und Could you repeat that? bittet den Gast um Wiederholung, obwohl du selbst zusammenfassen willst."
+      }
+    }
+  ]
+}

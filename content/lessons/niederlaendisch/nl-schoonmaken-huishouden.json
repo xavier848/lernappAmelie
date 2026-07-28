@@ -1,0 +1,169 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-schoonmaken-huishouden",
+  "title": "Putzen & Haushalt",
+  "sort": 24,
+  "intro": "🧽 In der Ferienwohnung gehört Putzen zur Arbeit. Putzen heißt auf Niederländisch schoonmaken.\n\nFür jede Arbeit gibt es ein eigenes Verb. Die Wörter klingen ähnlich, meinen aber etwas anderes.\n\n> Ik stofzuig de trap en dweil de hal. = Ich sauge die Treppe und wische den Flur feucht.\n\nMERKE: stofzuigen ist saugen. dweilen ist feucht wischen. vegen ist fegen.\n\nViele dieser Verben sind trennbar. Der kurze Teil rutscht dann ans Satzende.\n\n> Ik ruim de keuken op en zet de vaatwasser aan. = Ich räume die Küche auf und schalte die Spülmaschine an.\n\nMERKE: Bei trennbaren Verben wie opruimen, aanzetten, afwassen und opmaken rutscht der kurze Teil ganz ans Satzende.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Auf dem Putzplan für die Ferienwohnung steht: Eerst stofzuigen, daarna dweilen. 🧹 Was machst du in welcher Reihenfolge?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Zuerst saugen, danach feucht wischen.", "correct": true },
+          { "text": "Zuerst abstauben, danach fegen." },
+          { "text": "Zuerst fegen, danach saugen." },
+          { "text": "Zuerst feucht wischen, danach saugen." }
+        ],
+        "explanation": "Stofzuigen ist saugen: stof heißt Staub, zuigen heißt saugen. Dweilen ist feucht wischen, mit Wasser und Wischmopp. Abstauben wäre afstoffen und fegen wäre vegen — beide Wörter stehen gar nicht im Satz. Die letzte Antwort dreht die Reihenfolge um: eerst heißt zuerst, daarna heißt danach. Erst saugen, dann wischen ist auch praktisch sinnvoll: Von einem nassen Boden bekommst du Krümel und Staub kaum noch weg."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich sauge zuerst das Wohnzimmer und danach das Schlafzimmer. 🧹",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "stofzuig" },
+          { "text": "eerst" },
+          { "text": "de" },
+          { "text": "woonkamer" },
+          { "text": "en" },
+          { "text": "daarna" },
+          { "text": "de" },
+          { "text": "slaapkamer" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast ruft an und fragt: Kunnen wij schone handdoeken krijgen? 🛁 Worum bittet der Gast?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Um frische Handtücher.", "correct": true },
+          { "text": "Um frische Geschirrtücher." },
+          { "text": "Um frische Bettwäsche." },
+          { "text": "Um ein sauber geputztes Badezimmer." }
+        ],
+        "explanation": "Handdoek ist das Handtuch: hand heißt Hand, doek heißt Tuch. Ein Geschirrtuch heißt theedoek — das verwechselt man leicht, weil beides Tücher sind. Bettwäsche ist beddengoed. Ein geputztes Bad wäre een schoongemaakte badkamer. Schoon heißt sauber oder frisch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Haushalt in der Ferienwohnung: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Ik dweil de vloer in de badkamer. 🧴" }, "right": { "text": "Ich wische den Boden im Bad feucht." } },
+          { "left": { "text": "De wasmachine staat in de kelder. 👕" }, "right": { "text": "Die Waschmaschine steht im Keller." } },
+          { "left": { "text": "Ik haal de bedden af. 🛏️" }, "right": { "text": "Ich ziehe die Betten ab." } },
+          { "left": { "text": "Het schoonmaakmiddel staat onder de gootsteen." }, "right": { "text": "Das Putzmittel steht unter der Spüle." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Spülmaschine ist schon voll, den Rest spülst du mit der Hand. 🧽 Welches Mittel brauchst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Afwasmiddel", "correct": true },
+          { "text": "Wasmiddel" },
+          { "text": "Wasverzachter" },
+          { "text": "Vaatwastabletten" }
+        ],
+        "explanation": "Afwassen heißt Geschirr spülen, also ist afwasmiddel das Spülmittel. Wasmiddel ist Waschmittel und gehört in die wasmachine, denn de was ist die Wäsche. Wasverzachter ist Weichspüler, der kommt ebenfalls in die Waschmaschine. Vaatwastabletten sind Tabs für die Spülmaschine — die sind für die Hände viel zu scharf."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich spüle nach dem Frühstück das Geschirr. 🍽️",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "was" },
+          { "text": "na" },
+          { "text": "het" },
+          { "text": "ontbijt" },
+          { "text": "de" },
+          { "text": "vaat" },
+          { "text": "af" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Was kommt in die Waschmaschine, was in die Spülmaschine? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "wasmachine", "label": "In de wasmachine", "icon": "👕" },
+          { "id": "vaatwasser", "label": "In de vaatwasser", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "de handdoeken", "bucket": "wasmachine" },
+          { "text": "de theedoeken", "bucket": "wasmachine" },
+          { "text": "de lakens", "bucket": "wasmachine" },
+          { "text": "de borden", "bucket": "vaatwasser" },
+          { "text": "de glazen", "bucket": "vaatwasser" },
+          { "text": "het bestek", "bucket": "vaatwasser" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die nächsten Gäste kommen heute Abend. Du willst sagen: Ich mache jetzt die Betten. 🛏️ Welcher Satz ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ik maak nu de bedden op.", "correct": true },
+          { "text": "Ik maak op nu de bedden." },
+          { "text": "Ik opmaak nu de bedden." },
+          { "text": "Ik maak nu op de bedden." }
+        ],
+        "explanation": "Opmaken ist trennbar. Im Hauptsatz bleibt maak an zweiter Stelle, und op geht ganz ans Satzende: Ik maak nu de bedden op. Bei maak op nu de bedden und maak nu op de bedden klebt op noch am Verb — das ist der typische Fehler aus dem Deutschen. Ik opmaak gibt es nicht, das Verb wird immer getrennt. Merke dir auch: het bed opmaken ist Bett machen, het bed afhalen ist Bett abziehen, opruimen ist aufräumen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich wasche die Handtücher bei sechzig Grad in der Waschmaschine. 🌡️",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "was" },
+          { "text": "de" },
+          { "text": "handdoeken" },
+          { "text": "op" },
+          { "text": "zestig" },
+          { "text": "graden" },
+          { "text": "in" },
+          { "text": "de" },
+          { "text": "wasmachine" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss: Nach dem Frühstück ist die Küche dran. Der Boden ist klebrig, das Geschirr steht noch in der Spüle. 🧼 Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ik dweil de vloer en was de vaat af.", "correct": true },
+          { "text": "Ik stofzuig de vloer en was de vaat af." },
+          { "text": "Ik dweil de vloer en maak de vaat op." },
+          { "text": "Ik veeg de vloer en was de vaat af." }
+        ],
+        "explanation": "Ein klebriger Boden braucht Wasser, also dweilen. Stofzuigen ist nur für trockenen Schmutz wie Krümel oder Sand, ein Staubsauger hilft bei klebrig nicht. Vegen ist fegen und nimmt auch nur losen Schmutz mit. Und opmaken gehört zum Bett, nicht zum Geschirr — Geschirr wird afgewassen."
+      }
+    }
+  ]
+}

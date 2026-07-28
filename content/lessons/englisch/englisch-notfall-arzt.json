@@ -1,0 +1,162 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-notfall-arzt",
+  "title": "Notfall & Arzt",
+  "sort": 39,
+  "intro": "🚑 Wenn ein Gast stürzt oder krank wird, brauchst du sofort die richtigen Worte. Beschwerden sagst du mit I have a … oder mit My … hurts.\n\n> I have a headache and a fever. = Ich habe Kopfschmerzen und Fieber.\n\n> My ankle hurts. I think it is sprained. = Mein Knöchel tut weh. Ich glaube, er ist verstaucht.\n\nMERKE: Es gibt zwei Muster. Entweder I have a + Beschwerde (I have a headache). Oder My + Körperteil + hurts (My ankle hurts).\n\nDie Notrufnummer 112 gilt in ganz Europa. Sag am Telefon zuerst, wo du bist.\n\n> We need an ambulance at Fischerweg 4. A guest has fallen down the stairs. = Wir brauchen einen Krankenwagen im Fischerweg 4. Ein Gast ist die Treppe hinuntergefallen.\n\nMERKE: Erst die Adresse, dann das Problem. Ohne Adresse findet niemand den Weg.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Eine Urlauberin steht morgens vor der Tür: I've got a splitting headache and I feel dizzy. Have you got any painkillers? 💊 Was ist los?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Sie hat sehr starke Kopfschmerzen, ihr ist schwindelig, und sie fragt nach Schmerztabletten.", "correct": true },
+          { "text": "Sie hat Kopfschmerzen und fragt nach einer Schlaftablette.", "correct": false },
+          { "text": "Ihr ist übel, und sie fragt nach einer Tablette gegen Übelkeit.", "correct": false },
+          { "text": "Sie hat Halsschmerzen und fragt nach Hustensaft.", "correct": false }
+        ],
+        "explanation": "A splitting headache sind sehr starke Kopfschmerzen. Dizzy heißt schwindelig, nicht übel — übel wäre sick. Painkillers sind Schmerztabletten, eine Schlaftablette wäre a sleeping pill. Von Hals oder Husten sagt sie nichts."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Beschwerden verstehen: Was sagt der Gast? Links Englisch, rechts die deutsche Bedeutung.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "I have a fever." }, "right": { "text": "Ich habe Fieber." } },
+          { "left": { "text": "I have sprained my ankle." }, "right": { "text": "Ich habe mir den Knöchel verstaucht." } },
+          { "left": { "text": "I have a sore throat." }, "right": { "text": "Ich habe Halsschmerzen." } },
+          { "left": { "text": "I am allergic to nuts." }, "right": { "text": "Ich bin allergisch gegen Nüsse." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast kommt vom Wanderweg zurück: I slipped on the wet path and now my wrist is swollen. 🤕 Welcher Körperteil tut weh?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Das Handgelenk", "correct": true },
+          { "text": "Der Knöchel", "correct": false },
+          { "text": "Der Ellbogen", "correct": false },
+          { "text": "Die Schulter", "correct": false }
+        ],
+        "explanation": "Wrist ist das Handgelenk. Der Knöchel heißt ankle, der Ellbogen elbow, die Schulter shoulder. Swollen heißt geschwollen. Das Handgelenk ist also schon dick."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Wir brauchen einen Krankenwagen bei der Ferienwohnung. 🚑",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "need" },
+          { "text": "an" },
+          { "text": "ambulance" },
+          { "text": "at" },
+          { "text": "the" },
+          { "text": "holiday" },
+          { "text": "flat" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Sofort die 112 rufen — oder reicht ein Gang in die Apotheke? Sortiere die Fälle.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "notruf", "label": "Sofort 112 rufen", "icon": "🚑" },
+          { "id": "apotheke", "label": "Apotheke reicht", "icon": "💊" }
+        ],
+        "items": [
+          { "text": "A guest is unconscious on the floor.", "bucket": "notruf" },
+          { "text": "A guest cannot breathe properly.", "bucket": "notruf" },
+          { "text": "A guest has fallen down the stairs and cannot move her leg.", "bucket": "notruf" },
+          { "text": "A guest needs a plaster for a small blister.", "bucket": "apotheke" },
+          { "text": "A guest has left her hay fever tablets at home.", "bucket": "apotheke" },
+          { "text": "A guest has a slight headache after the long drive.", "bucket": "apotheke" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Beim Frühstück sagt ein Gast: I'm allergic to nuts. Are there any nuts in the muesli? 🥣 Du weißt es nicht sicher. Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "I am not sure. I will check the packet before you eat it.", "correct": true },
+          { "text": "I think there are no nuts in it. Just try a little bit.", "correct": false },
+          { "text": "Don't worry, everything here is homemade.", "correct": false },
+          { "text": "Yes, of course. Everybody likes nuts.", "correct": false }
+        ],
+        "explanation": "I am not sure heißt: Ich bin mir nicht sicher. I will check the packet heißt: Ich schaue auf der Packung nach. Bei einer Allergie darf man nie raten, deshalb ist just try a little bit gefährlich. Homemade heißt selbst gemacht und sagt nichts über Nüsse aus. Und die letzte Antwort geht an der Frage vorbei: Es geht nicht darum, ob der Gast Nüsse mag. Er verträgt sie nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du erklärst den Weg: Go straight on, then turn left at the church. The surgery is on your right, opposite the bakery. 🏥 Welche Beschreibung stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Geradeaus, an der Kirche links. Die Praxis liegt rechts, gegenüber der Bäckerei.", "correct": true },
+          { "text": "Geradeaus, an der Kirche rechts. Die Praxis liegt links, gegenüber der Bäckerei.", "correct": false },
+          { "text": "Geradeaus, an der Kirche links. Die Praxis liegt rechts, direkt neben der Bäckerei.", "correct": false },
+          { "text": "Geradeaus bis zur Bäckerei, dort rechts. Die Kirche liegt gegenüber der Praxis.", "correct": false }
+        ],
+        "explanation": "Turn left heißt links abbiegen, on your right heißt auf der rechten Seite — beides ist in der zweiten Antwort vertauscht. Opposite heißt gegenüber, neben wäre next to. Und abgebogen wird an der Kirche, nicht an der Bäckerei. Merke dir auch surgery: im britischen Englisch ist das die Arztpraxis, nicht die Operation."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Arztpraxis ist neben der Apotheke. 🏥",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "doctor's" },
+          { "text": "surgery" },
+          { "text": "is" },
+          { "text": "next" },
+          { "text": "to" },
+          { "text": "the" },
+          { "text": "pharmacy" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "So beruhigst du einen Gast, bis Hilfe da ist. Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Stay calm. Help is on the way." }, "right": { "text": "Bleiben Sie ruhig. Hilfe ist unterwegs." } },
+          { "left": { "text": "Sit down. I will get you a glass of water." }, "right": { "text": "Setzen Sie sich. Ich hole Ihnen ein Glas Wasser." } },
+          { "left": { "text": "I will stay with you until the ambulance arrives." }, "right": { "text": "Ich bleibe bei Ihnen, bis der Krankenwagen kommt." } },
+          { "left": { "text": "The doctor will be here in ten minutes." }, "right": { "text": "Der Arzt ist in zehn Minuten hier." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss der Notruf auf den Punkt. 🎯 Welche Aussage stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "112 gilt in ganz Europa. Am Telefon sagst du zuerst, wo du bist, dann was passiert ist.", "correct": true },
+          { "text": "112 gilt nur in Deutschland und Österreich. In England und den Niederlanden wählt man 911.", "correct": false },
+          { "text": "Am Telefon sagst du zuerst deinen Namen. Die Adresse fragt die Leitstelle später ab.", "correct": false },
+          { "text": "Du legst auf, sobald du das Problem gesagt hast, damit die Leitung frei bleibt.", "correct": false }
+        ],
+        "explanation": "112 ist die europaweite Notrufnummer, sie gilt auch in England und den Niederlanden. In Großbritannien funktioniert zusätzlich die 999. 911 ist die Nummer der USA. Die Adresse kommt zuerst, denn ohne Ort fährt niemand los — dein Name hilft dem Krankenwagen nicht weiter. Und du bleibst am Telefon, bis die Leitstelle sagt, dass du auflegen darfst."
+      }
+    }
+  ]
+}

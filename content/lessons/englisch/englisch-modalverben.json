@@ -1,0 +1,159 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-modalverben",
+  "title": "can, must, should",
+  "sort": 31,
+  "intro": "🔑 Mit can, must, should und may sagst du, ob etwas geht, ob es erlaubt ist, ob es sein muss oder ob es eine gute Idee ist.\n\n> He can help you with the luggage. = Er kann Ihnen mit dem Gepäck helfen.\n\nMERKE: Nach dem Modalverb kommt die Grundform. Ohne to und ohne s: he can help, nicht he cans to help.\n\nZwei Formen sehen sich sehr ähnlich, meinen aber das Gegenteil. Hier musst du genau hinschauen.\n\n> You mustn't smoke inside. = Sie dürfen drinnen nicht rauchen.\n\n> You don't have to clean the flat. = Sie müssen die Wohnung nicht putzen.\n\nMERKE: mustn't heißt verboten. don't have to heißt: freiwillig, du musst nicht.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Welcher Satz ist richtig gebaut? Denk an die Grundform nach dem Modalverb. 🧳",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The guest can carry the bags himself.", "correct": true },
+          { "text": "The guest can to carry the bags himself.", "correct": false },
+          { "text": "The guest cans carry the bags himself.", "correct": false },
+          { "text": "The guest can carries the bags himself.", "correct": false }
+        ],
+        "explanation": "Nach can steht die nackte Grundform: can carry. Ein to gehört nicht dazu. Das Modalverb bekommt nie ein s, also nicht cans. Und das Verb dahinter auch nicht, also nicht carries."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst einem Gast: Sie müssen die Bettwäsche nicht waschen. 🛏️ Welcher Satz stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "You don't have to wash the bed linen.", "correct": true },
+          { "text": "You mustn't wash the bed linen.", "correct": false },
+          { "text": "You must not to wash the bed linen.", "correct": false }
+        ],
+        "explanation": "don't have to heißt: Es ist nicht nötig, du darfst es aber. Genau das willst du sagen. mustn't wäre ein Verbot, also: Waschen ist untersagt. must not to ist gleich doppelt falsch: Es wäre wieder ein Verbot, und nach must kommt nie ein to."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie dürfen die Möbel nicht auf den Balkon stellen. 🛋️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "mustn't" },
+          { "text": "put" },
+          { "text": "the" },
+          { "text": "furniture" },
+          { "text": "on" },
+          { "text": "the" },
+          { "text": "balcony" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: What should I do with the rubbish? 🗑️ Was möchte er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Was er mit dem Müll machen soll.", "correct": true },
+          { "text": "Ob er den Müll überhaupt anfassen darf.", "correct": false },
+          { "text": "Was er gestern mit dem Müll machen musste.", "correct": false },
+          { "text": "Ob er den Müll mitnehmen muss.", "correct": false }
+        ],
+        "explanation": "should heißt sollte. Der Gast fragt nach deinem Rat: Wohin kommt der Müll? Nach Erlaubnis würde er mit may oder can fragen. Um die Vergangenheit geht es nicht, denn should spricht über jetzt und später. Und müssen wäre must oder have to."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Nach dem Modalverb steht die Grundform. Sortiere: richtig oder falsch gebaut? 🧩",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig gebaut", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch gebaut", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "She must clean the kitchen.", "bucket": "richtig" },
+          { "text": "She must to clean the kitchen.", "bucket": "falsch" },
+          { "text": "He should call the owner.", "bucket": "richtig" },
+          { "text": "He shoulds call the owner.", "bucket": "falsch" },
+          { "text": "You can use the washing machine.", "bucket": "richtig" },
+          { "text": "You can using the washing machine.", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt höflich: May I use the kitchen? 🍳 Es ist erlaubt. Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Yes, of course. You can use it at any time.", "correct": true },
+          { "text": "Yes, of course. You mustn't use it at all.", "correct": false },
+          { "text": "Yes, of course. You don't have to use it at all.", "correct": false }
+        ],
+        "explanation": "may und can fragen beide nach Erlaubnis, may klingt nur höflicher. Mit can gibst du die Erlaubnis. mustn't wäre ein Verbot und passt nicht zu Yes, of course. don't have to heißt nur: Es ist nicht nötig. Auf die Frage nach der Erlaubnis antwortet das nicht."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Sie sollten den Kühlschrank leeren, bevor Sie abreisen. ❄️",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "You" },
+          { "text": "should" },
+          { "text": "empty" },
+          { "text": "the" },
+          { "text": "fridge" },
+          { "text": "before" },
+          { "text": "you" },
+          { "text": "leave" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Sätze aus der Ferienwohnung. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "You can pay in cash or by card." }, "right": { "text": "Sie können bar oder mit Karte zahlen." } },
+          { "left": { "text": "You must be out of the flat by ten." }, "right": { "text": "Sie müssen die Wohnung bis zehn Uhr verlassen." } },
+          { "left": { "text": "You mustn't leave the door open." }, "right": { "text": "Sie dürfen die Tür nicht offen lassen." } },
+          { "left": { "text": "You don't have to bring towels." }, "right": { "text": "Sie müssen keine Handtücher mitbringen." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Auf dem Infozettel steht: Guests must check out before 10 a.m. Guests should leave the key on the table. 🕙 Was stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Auschecken vor 10 Uhr ist Pflicht. Den Schlüssel hinzulegen ist nur ein Rat.", "correct": true },
+          { "text": "Beides ist Pflicht.", "correct": false },
+          { "text": "Beides ist nur ein Rat.", "correct": false },
+          { "text": "Auschecken vor 10 Uhr ist ein Rat. Der Schlüssel ist Pflicht.", "correct": false }
+        ],
+        "explanation": "must ist die harte Regel: Der Gast muss vor 10 Uhr raus. should ist der freundliche Rat: Der Schlüssel gehört am besten auf den Tisch. Die beiden Wörter sind also verschieden stark, und hier steht must beim Auschecken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Zum Schluss der wichtigste Unterschied. 🤔 You mustn't wash the towels. / You don't have to wash the towels. Was ist der Unterschied?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Satz 1 verbietet es. Satz 2 sagt: Es ist nicht nötig, du darfst aber.", "correct": true },
+          { "text": "Beide Sätze bedeuten das Gleiche: Es ist nicht nötig.", "correct": false },
+          { "text": "Satz 1 sagt: Es ist nicht nötig. Satz 2 verbietet es.", "correct": false }
+        ],
+        "explanation": "mustn't ist ein Verbot: Die Handtücher dürfen nicht gewaschen werden. don't have to nimmt nur die Pflicht weg: Du kannst waschen, musst aber nicht. Gleich klingen sie nur im Deutschen, im Englischen sind es zwei verschiedene Aussagen. Und in beiden Sätzen steht danach die Grundform wash."
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-klachten-oplossen",
+  "title": "Beschwerden freundlich lösen",
+  "sort": 22,
+  "intro": "😟 Wenn ein Gast sich beschwert, hilft immer der gleiche Dreischritt: Verständnis zeigen, entschuldigen, Lösung anbieten.\n\nZeig zuerst, dass du das Problem ernst nimmst. Wat vervelend heißt: Wie ärgerlich.\n\n> Wat vervelend dat de verwarming het niet doet. = Wie ärgerlich, dass die Heizung nicht funktioniert.\n\nMERKE: Het spijt me heißt Es tut mir leid. Sorry voor het ongemak heißt Entschuldigung für die Unannehmlichkeiten.\n\nDanach sagst du konkret, was du tust. Meteen heißt sofort. Zo heißt gleich.\n\n> Ik bel meteen de monteur. = Ich rufe sofort den Handwerker an.\n\nMERKE: Eine Entschuldigung ohne Lösung hilft dem Gast nicht. Sag immer dazu, was du tust und wann.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast schreibt dir am Abend: De wifi valt de hele avond steeds weg. 📶 Was ist das Problem?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Das WLAN fällt den ganzen Abend immer wieder aus.", "correct": true },
+          { "text": "Das WLAN ist heute Abend besonders langsam.", "correct": false },
+          { "text": "Das WLAN war den ganzen Abend komplett abgeschaltet.", "correct": false },
+          { "text": "Der Gast sucht den ganzen Abend das WLAN-Passwort.", "correct": false }
+        ],
+        "explanation": "Wegvallen heißt ausfallen, steeds heißt immer wieder. Die Verbindung geht also weg und kommt zurück. Langsam wäre traag oder langzaam. Komplett abgeschaltet wäre helemaal uit. Nach dem Passwort fragt ein Gast mit dem Wort wachtwoord."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste melden ein Problem: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "De verwarming wordt niet warm. 🥶" }, "right": { "text": "Die Heizung wird nicht warm." } },
+          { "left": { "text": "De wifi valt steeds weg. 📶" }, "right": { "text": "Das WLAN fällt immer wieder aus." } },
+          { "left": { "text": "We hebben de hele nacht lawaai gehoord. 😴" }, "right": { "text": "Wir haben die ganze Nacht Lärm gehört." } },
+          { "left": { "text": "Het water loopt niet weg in de douche. 🚿" }, "right": { "text": "Das Wasser läuft in der Dusche nicht ab." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt am Morgen: We hebben vannacht bijna niet geslapen door het lawaai. 😴 Was sagst du als Erstes?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wat vervelend dat u niet goed heeft kunnen slapen.", "correct": true },
+          { "text": "Dat valt vast wel mee, het is hier meestal rustig.", "correct": false },
+          { "text": "Daar kan ik helaas niets aan doen.", "correct": false },
+          { "text": "Dan moet u vanavond gewoon eerder naar bed gaan.", "correct": false }
+        ],
+        "explanation": "Wat vervelend dat ... heißt: Wie ärgerlich, dass ... Damit zeigst du zuerst Verständnis. Dat valt wel mee heißt: Das ist halb so schlimm. Damit redest du das Problem klein. Daar kan ik niets aan doen schiebt die Verantwortung weg. Und der letzte Satz gibt dem Gast die Schuld."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich rufe sofort den Handwerker für die Heizung an. 🔧",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "bel" },
+          { "text": "meteen" },
+          { "text": "de" },
+          { "text": "monteur" },
+          { "text": "voor" },
+          { "text": "de" },
+          { "text": "verwarming" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Gast meldet: De wifi doet het niet. 📶 Du startest den Router jetzt neu. Danach soll der Gast es noch einmal probieren. Was sagst du?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ik start de router opnieuw op. Probeert u het over vijf minuten nog een keer?", "correct": true },
+          { "text": "Ik start de router opnieuw op. U heeft morgenochtend weer wifi.", "correct": false },
+          { "text": "Dat ligt vast aan uw telefoon. Start uw telefoon maar opnieuw op.", "correct": false },
+          { "text": "Ik start de router opnieuw op. Belt u daarna zelf even de provider.", "correct": false }
+        ],
+        "explanation": "Opnieuw opstarten heißt neu starten. Das op rutscht ans Satzende: Ik start de router opnieuw op. Probeert u het nog een keer? ist eine höfliche Bitte an den Gast. Antwort zwei lässt den Gast bis morgen warten, obwohl du es sofort lösen kannst. Antwort drei gibt dem Gast die Schuld. Antwort vier schiebt ihm deine Arbeit zu."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Zeigst du hier Verständnis oder bietest du eine Lösung an? Sortiere.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "begrip", "label": "Verständnis & Entschuldigung", "icon": "🤝" },
+          { "id": "oplossing", "label": "Konkrete Lösung", "icon": "🛠️" }
+        ],
+        "items": [
+          { "text": "Wat vervelend voor u.", "bucket": "begrip" },
+          { "text": "Het spijt me heel erg.", "bucket": "begrip" },
+          { "text": "Ik begrijp dat u daardoor niet kunt slapen.", "bucket": "begrip" },
+          { "text": "Ik breng u zo een elektrische kachel.", "bucket": "oplossing" },
+          { "text": "Ik start de router meteen opnieuw op.", "bucket": "oplossing" },
+          { "text": "Ik spreek de buren er vanavond op aan.", "bucket": "oplossing" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Heizung ist repariert. Du schreibst dem Gast eine kurze Nachricht. 📱 Wie entschuldigst du dich am Ende richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Nogmaals sorry voor het ongemak.", "correct": true },
+          { "text": "Nogmaals bedankt voor het ongemak.", "correct": false },
+          { "text": "Nogmaals sorry voor het gemak.", "correct": false },
+          { "text": "Nogmaals sorry voor het ongeluk.", "correct": false }
+        ],
+        "explanation": "Het ongemak heißt die Unannehmlichkeit, nogmaals heißt nochmals. Bedankt heißt danke, und für den Ärger des Gastes bedankst du dich nicht. Het gemak ist das Gegenteil, nämlich die Bequemlichkeit. Und het ongeluk heißt der Unfall. Eine kaputte Heizung ist kein Unfall."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagst du das auf Niederländisch? Links Deutsch, rechts Niederländisch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Ich verstehe, dass das ärgerlich ist." }, "right": { "text": "Ik begrijp dat dat vervelend is." } },
+          { "left": { "text": "Entschuldigung für die Unannehmlichkeiten." }, "right": { "text": "Sorry voor het ongemak." } },
+          { "left": { "text": "Ich komme gleich kurz vorbei und schaue es mir an. 👀" }, "right": { "text": "Ik kom er zo even naar kijken." } },
+          { "left": { "text": "Ich regle das sofort für Sie. 🛠️" }, "right": { "text": "Ik regel het meteen voor u." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Ich gehe heute Abend kurz mit den Nachbarn sprechen. 🗣️",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Ik" },
+          { "text": "ga" },
+          { "text": "vanavond" },
+          { "text": "even" },
+          { "text": "met" },
+          { "text": "de" },
+          { "text": "buren" },
+          { "text": "praten" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast steht vor dir: De verwarming is al twee dagen kapot. 🥶 Welche Antwort enthält alle drei Schritte: Verständnis, Entschuldigung und Lösung?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Wat vervelend voor u, het spijt me. Ik bel nu meteen de monteur.", "correct": true },
+          { "text": "Wat vervelend voor u. Dat gebeurt hier vaker in de winter.", "correct": false },
+          { "text": "Het spijt me. De monteur heeft het op dit moment erg druk.", "correct": false },
+          { "text": "Ik bel de monteur.", "correct": false }
+        ],
+        "explanation": "Nur die erste Antwort hat alle drei Teile: wat vervelend voor u zeigt Verständnis, het spijt me ist die Entschuldigung, ik bel nu meteen de monteur ist die Lösung. Antwort zwei bleibt beim Verständnis stehen und macht das Problem sogar normal. Antwort drei entschuldigt sich, nennt aber nur ein Hindernis statt einer Lösung. Antwort vier ist zwar eine Lösung, klingt aber ohne Verständnis und Entschuldigung kühl."
+      }
+    }
+  ]
+}

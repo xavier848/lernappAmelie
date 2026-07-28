@@ -1,0 +1,158 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-werkwoorden-tegenwoordig",
+  "title": "Verben in der Gegenwart",
+  "sort": 15,
+  "intro": "🔧 Ein niederländisches Verb hat in der Gegenwart fast immer nur drei Formen. Den Stamm bekommst du, wenn du -en wegnimmst: aus werken wird werk. Bei koken, wonen und eten wird der Selbstlaut dabei doppelt: kook, woon, eet.\n\nik nimmt nur den Stamm. jij, u, hij und zij für eine Person bekommen ein -t. wij, jullie und zij für mehrere Personen bekommen -en.\n\n> Ik werk vandaag, mijn moeder werkt morgen. = Ich arbeite heute, meine Mutter arbeitet morgen.\n\nMERKE: ik ohne t, jij und hij mit t, wij und jullie mit -en.\n\nSteht jij direkt hinter dem Verb, fällt das -t weg. Das passiert vor allem in Fragen.\n\n> Werk jij morgen in de keuken? = Arbeitest du morgen in der Küche?\n\nMERKE: Das -t fällt nur bei jij weg. Bei u und hij bleibt es stehen: Werkt u morgen?",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du erzählst einem Gast von dir: Ich arbeite jeden Samstag im Appartement. 🧹 Welcher Satz ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Ik werk elke zaterdag in het appartement.", "correct": true },
+          { "text": "Ik werkt elke zaterdag in het appartement." },
+          { "text": "Ik werke elke zaterdag in het appartement." },
+          { "text": "Ik werken elke zaterdag in het appartement." }
+        ],
+        "explanation": "Nach ik steht der reine Stamm: werk. Ik werkt ist der häufigste Fehler, denn das -t gehört zu jij, u, hij und zij. Ik werke kommt aus dem Deutschen, im Niederländischen gibt es diese Endung nicht. Ik werken ist die Form für wij und jullie."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Meine Mutter kocht heute Abend für die Gäste. 🍲",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Mijn" },
+          { "text": "moeder" },
+          { "text": "kookt" },
+          { "text": "vanavond" },
+          { "text": "voor" },
+          { "text": "de" },
+          { "text": "gasten" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du fragst eine Freundin aus der Schule: Arbeitest du am Samstag im Laden? 🛒 Welche Frage ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Werk jij zaterdag in de winkel?", "correct": true },
+          { "text": "Werkt jij zaterdag in de winkel?" },
+          { "text": "Werkst jij zaterdag in de winkel?" },
+          { "text": "Werken jij zaterdag in de winkel?" }
+        ],
+        "explanation": "Steht jij hinter dem Verb, fällt das -t weg: Werk jij? Werkt jij ist genau die Falle, denn im Aussagesatz heißt es ja jij werkt. Werkst kommt vom deutschen du arbeitest, diese Endung gibt es nicht. Werken gehört zu wij und jullie."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Stimmt die Verbform? Sortiere die Sätze. 🔍",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Ik help u graag.", "bucket": "richtig" },
+          { "text": "Ik helpt u graag.", "bucket": "falsch" },
+          { "text": "Hij komt om drie uur.", "bucket": "richtig" },
+          { "text": "Wij komt om drie uur.", "bucket": "falsch" },
+          { "text": "Jij woont in Lermoos.", "bucket": "richtig" },
+          { "text": "Werkt jij vandaag?", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Wer macht was? Links Niederländisch, rechts Deutsch. Achte auf die Endung.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Ik kook vanavond voor de gasten. 🍲" }, "right": { "text": "Ich koche heute Abend für die Gäste." } },
+          { "left": { "text": "Jij poetst de badkamer." }, "right": { "text": "Du putzt das Badezimmer." } },
+          { "left": { "text": "Hij helpt de gasten met de koffers. 🧳" }, "right": { "text": "Er hilft den Gästen mit den Koffern." } },
+          { "left": { "text": "Wij werken in de tuin." }, "right": { "text": "Wir arbeiten im Garten." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Immer das Verb poetsen, immer elke zaterdag. Nur die Person wechselt. Links Deutsch, rechts Niederländisch. 🧽",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          { "left": { "text": "Ich putze jeden Samstag." }, "right": { "text": "Ik poets elke zaterdag." } },
+          { "left": { "text": "Du putzt jeden Samstag." }, "right": { "text": "Jij poetst elke zaterdag." } },
+          { "left": { "text": "Putzt du jeden Samstag?" }, "right": { "text": "Poets jij elke zaterdag?" } },
+          { "left": { "text": "Wir putzen jeden Samstag." }, "right": { "text": "Wij poetsen elke zaterdag." } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue die Frage: Kochst du heute Abend für die Gäste? 👩‍🍳",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          { "text": "Kook" },
+          { "text": "jij" },
+          { "text": "vanavond" },
+          { "text": "voor" },
+          { "text": "de" },
+          { "text": "gasten" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du fragst einen Gast höflich: Bleiben Sie noch eine Nacht? 🛏️ Welche Frage ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Blijft u nog een nacht?", "correct": true },
+          { "text": "Blijf u nog een nacht?" },
+          { "text": "Blijven u nog een nacht?" }
+        ],
+        "explanation": "Bei u bleibt das -t immer stehen, auch wenn das Verb vorne steht: Blijft u? Blijf u wäre die Regel von jij, und die gilt nur für jij. Blijven ist die Form für wij, jullie und zij."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Bei euch wird um sechs gegessen. Du sagst zu deinem Bruder: Du isst um sechs Uhr. 🍽️ Welcher Satz ist richtig?",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Jij eet om zes uur.", "correct": true },
+          { "text": "Jij eett om zes uur." },
+          { "text": "Jij eetst om zes uur." },
+          { "text": "Jij eten om zes uur." }
+        ],
+        "explanation": "Der Stamm von eten ist eet und endet schon auf t. Ein zweites t wird nie geschrieben, deshalb ist eett falsch. Eetst hat die deutsche Endung -st, die es nicht gibt. Eten ist die Grundform und passt zu wij und jullie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der wichtigste Punkt dieser Lektion: Wann fällt das -t am Verb weg? 🧠",
+        "tts_lang": "nl-NL",
+        "options": [
+          { "text": "Nur dann, wenn jij direkt hinter dem Verb steht.", "correct": true },
+          { "text": "In jeder Frage, also auch bei u und bei hij." },
+          { "text": "Immer, wenn jij irgendwo im Satz vorkommt." },
+          { "text": "Bei hij und zij, sobald das Verb am Satzanfang steht." }
+        ],
+        "explanation": "Nur die Reihenfolge Verb plus jij lässt das -t verschwinden: Werk jij? Bei u und hij bleibt es auch in der Frage stehen: Werkt u? Werkt hij? Und im normalen Aussagesatz behält jij sein -t: Jij werkt vandaag."
+      }
+    }
+  ]
+}

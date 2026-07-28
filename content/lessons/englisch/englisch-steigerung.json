@@ -1,0 +1,159 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-steigerung",
+  "title": "Vergleichen: big, bigger, biggest",
+  "sort": 32,
+  "intro": "📏 Wenn du zwei Dinge vergleichst, steigerst du das Adjektiv. Kurze Wörter und Wörter auf -y bekommen -er und -est.\n\n> The double room is bigger than the single room. = Das Doppelzimmer ist größer als das Einzelzimmer.\n\nLange Wörter mit drei oder mehr Silben bekommen kein -er. Sie bekommen more und most.\n\n> This is the most expensive room. = Das ist das teuerste Zimmer.\n\nMERKE: Nach einer Steigerung heißt als immer than, nie as. Sind zwei Dinge gleich, steigerst du nicht, sondern sagst as ... as.\n\n> The kitchen is as clean as the bathroom. = Die Küche ist genauso sauber wie das Bad.\n\nMERKE: good wird better und best, bad wird worse und worst, much wird more und most.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du willst sagen: Das Doppelzimmer ist größer als das Einzelzimmer. 🛏️ Welcher Satz stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The double room is bigger than the single room.", "correct": true },
+          { "text": "The double room is bigger as the single room.", "correct": false },
+          { "text": "The double room is more big than the single room.", "correct": false },
+          { "text": "The double room is more bigger than the single room.", "correct": false }
+        ],
+        "explanation": "Big ist ein kurzes Wort, also bigger. Beim Vergleich steht than, nicht as. Das deutsche als verführt hier zum Fehler. More big geht nicht, weil more nur zu langen Wörtern gehört. Und more bigger ist doppelt gesteigert, das ist immer falsch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt nach dem Preis. Du willst sagen: Diese Wohnung ist teurer. 💶 Wie heißt teurer auf Englisch?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "more expensive", "correct": true },
+          { "text": "expensiver", "correct": false },
+          { "text": "more expensiver", "correct": false }
+        ],
+        "explanation": "Expensive hat drei Silben, also ist es ein langes Wort. Lange Wörter bekommen more. Expensiver gibt es nicht, denn -er hängst du nur an kurze Wörter. More expensiver wäre doppelt gesteigert."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Der Zug ist schneller als der Bus. 🚆",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "train" },
+          { "text": "is" },
+          { "text": "faster" },
+          { "text": "than" },
+          { "text": "the" },
+          { "text": "bus" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Setze richtig ein: Today the weather is ___ than yesterday. ☀️",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "better", "correct": true },
+          { "text": "gooder", "correct": false },
+          { "text": "more good", "correct": false },
+          { "text": "best", "correct": false }
+        ],
+        "explanation": "Good ist unregelmäßig: good, better, best. Gooder und more good gibt es nicht, auch wenn die Regeln das nahelegen. Best wäre die höchste Stufe, aber hier vergleichst du nur zwei Tage, und nach der höchsten Stufe kommt kein than."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Kurze Wörter und Wörter auf -y bekommen -er. Wörter mit mehreren Silben bekommen more. Sortiere. 🧩",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "er", "label": "mit -er (older)", "icon": "✂️" },
+          { "id": "more", "label": "mit more (more modern)", "icon": "➕" }
+        ],
+        "items": [
+          { "text": "cheap", "bucket": "er" },
+          { "text": "small", "bucket": "er" },
+          { "text": "easy", "bucket": "er" },
+          { "text": "expensive", "bucket": "more" },
+          { "text": "comfortable", "bucket": "more" },
+          { "text": "interesting", "bucket": "more" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du zeigst die Wohnung und sagst: Das ist das teuerste Zimmer. 🏠 Welche Übersetzung stimmt?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "This is the most expensive room.", "correct": true },
+          { "text": "This is most expensive room.", "correct": false },
+          { "text": "This is the more expensive room.", "correct": false },
+          { "text": "This is the expensivest room.", "correct": false }
+        ],
+        "explanation": "Die höchste Stufe heißt most expensive, und davor steht immer the. Ohne the klingt der Satz falsch. More expensive wäre nur teurer als etwas anderes, nicht das teuerste von allen. Expensivest gibt es nicht, weil -est nur an kurze Wörter kommt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz: Die Küche ist genauso sauber wie das Bad. 🧽",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "kitchen" },
+          { "text": "is" },
+          { "text": "as" },
+          { "text": "clean" },
+          { "text": "as" },
+          { "text": "the" },
+          { "text": "bathroom" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: This room is not as big as the other one. 🤔 Was bedeutet das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Dieses Zimmer ist kleiner als das andere.", "correct": true },
+          { "text": "Dieses Zimmer ist genauso groß wie das andere.", "correct": false },
+          { "text": "Dieses Zimmer ist größer als das andere.", "correct": false }
+        ],
+        "explanation": "As big as heißt genauso groß wie. Mit not davor wird daraus: nicht so groß wie, also kleiner. Genauso groß wäre der Satz nur ohne not."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Diese Wörter sind unregelmäßig. Ordne die englischen Formen der deutschen Bedeutung zu.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "good – better – best" }, "right": { "text": "gut – besser – am besten" } },
+          { "left": { "text": "bad – worse – worst" }, "right": { "text": "schlecht – schlechter – am schlechtesten" } },
+          { "left": { "text": "much – more – most" }, "right": { "text": "viel – mehr – am meisten" } },
+          { "left": { "text": "far – further – furthest" }, "right": { "text": "weit – weiter – am weitesten" } }
+        ],
+        "memory": false
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Letzte Frage: Welcher Satz ist komplett richtig? 🏆",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Our flat is smaller than yours, but the view is better.", "correct": true },
+          { "text": "Our flat is smaller as yours, but the view is gooder.", "correct": false },
+          { "text": "Our flat is more small than yours, but the view is more good.", "correct": false },
+          { "text": "Our flat is the smaller than yours, but the view is best.", "correct": false }
+        ],
+        "explanation": "Small ist kurz, also smaller. Beim Vergleich steht than, nicht as. Good ist unregelmäßig, also better. Gooder und more good gibt es nicht. Und the gehört nur vor die höchste Stufe, nicht vor smaller."
+      }
+    }
+  ]
+}
