@@ -26,6 +26,15 @@ export type PendingWrite =
   | {
       kind: "dailyActivity";
       payload: { deviceId: string; xp: number; day: string };
+    }
+  | {
+      kind: "lernEreignis";
+      payload: {
+        deviceId: string;
+        art: "lektion" | "wiederholung";
+        lessonId?: string | null;
+        topicSlug?: string | null;
+      };
     };
 
 /** Liest die Offline-Queue. Kaputtes JSON oder fehlender Eintrag -> []. */
@@ -129,29 +138,56 @@ export async function fetchPath(): Promise<TopicWithLessons[]> {
 }
 
 /** Eine Lektion mit ihren Uebungen (sortiert). null wenn nicht gefunden. */
-export async function fetchLesson(
-  slug: string
-): Promise<{ lesson: LessonRow; exercises: ExerciseRow[] } | null> {
+export async function fetchLesson(slug: string): Promise<{
+  lesson: LessonRow;
+  exercises: ExerciseRow[];
+  /** Slug des Themas - der Lernfluss braucht es fuer die Themen-Pause. */
+  topicSlug: string | null;
+} | null> {
   const supabase = supabaseBrowser();
   // Lektion UND Uebungen in einer einzigen Abfrage holen. Vorher waren das
   // zwei Abfragen nacheinander – auf dem Handy im Mobilfunk kostet jeder
   // zusaetzliche Roundtrip spuerbar Zeit, bis die erste Aufgabe erscheint.
+  // topics(slug) kommt mit, weil der Lernfluss (lib/lernfluss.ts) das Thema
+  // braucht: fuer das Ereignis-Protokoll und fuer die Themen-Pause.
   const res = await supabase
     .from("lessons")
-    .select("*, exercises(*)")
+    .select("*, exercises(*), topics(slug)")
     .eq("slug", slug)
     .order("sort", { referencedTable: "exercises", ascending: true })
     .maybeSingle();
   if (res.error) throw res.error;
   if (!res.data) return null;
 
-  const { exercises, ...lesson } = res.data as LessonRow & {
+  const { exercises, topics, ...lesson } = res.data as LessonRow & {
     exercises: ExerciseRow[] | null;
+    topics: { slug: string } | { slug: string }[] | null;
   };
+  const thema = Array.isArray(topics) ? topics[0] : topics;
   return {
     lesson: lesson as LessonRow,
     exercises: (exercises ?? []) as ExerciseRow[],
+    topicSlug: thema?.slug ?? null,
   };
+}
+
+/**
+ * Hat das Geraet diese Lektion schon einmal abgeschlossen? Entscheidet, ob
+ * ein Durchgang als neue Lektion oder als Wiederholung ins Protokoll geht.
+ */
+export async function istLektionSchonGeschafft(
+  deviceId: string,
+  lessonId: string
+): Promise<boolean> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("progress")
+    .select("id")
+    .eq("device_id", deviceId)
+    .eq("lesson_id", lessonId)
+    .maybeSingle();
+  if (res.error) throw res.error;
+  return res.data !== null;
 }
 
 /** Aller Fortschritt eines Geraets. */
@@ -494,6 +530,72 @@ export async function bumpDailyActivity(
   }
 }
 
+// ---------------------------------------------------------------------------
+// Lernfluss: Ereignis-Protokoll (siehe lib/lernfluss.ts)
+// ---------------------------------------------------------------------------
+
+/** Schreibt EIN Lernfluss-Ereignis. Wirft bei Netzfehler. */
+async function writeLernEreignis(p: {
+  deviceId: string;
+  art: "lektion" | "wiederholung";
+  lessonId?: string | null;
+  topicSlug?: string | null;
+}): Promise<void> {
+  const supabase = supabaseBrowser();
+  const res = await supabase.from("lesson_events").insert({
+    device_id: p.deviceId,
+    kind: p.art,
+    lesson_id: p.lessonId ?? null,
+    topic_slug: p.topicSlug ?? null,
+  });
+  if (res.error) throw res.error;
+}
+
+/**
+ * Haelt fest, dass eine Lektion bzw. eine Wiederholung geschafft wurde.
+ * Daraus errechnet die App, was als Naechstes dran ist. Geht das Schreiben
+ * schief, wandert es in die Offline-Queue - sonst wuerde die Steuerung
+ * durcheinanderkommen (sie duerfte eine Lektion zu viel machen).
+ */
+export async function logLernEreignis(p: {
+  deviceId: string;
+  art: "lektion" | "wiederholung";
+  lessonId?: string | null;
+  topicSlug?: string | null;
+}): Promise<void> {
+  try {
+    await writeLernEreignis(p);
+  } catch {
+    enqueuePending({ kind: "lernEreignis", payload: p });
+  }
+}
+
+/**
+ * Das Ereignis-Protokoll eines Geraets, aelteste zuerst - genau so erwartet
+ * es berechneLernstand(). Begrenzt auf die letzten 400 Ereignisse: mehr
+ * braucht keine der beiden Regeln, und es haelt die Startseite schlank.
+ */
+export async function fetchLernEreignisse(
+  deviceId: string
+): Promise<{ kind: "lektion" | "wiederholung"; topic_slug: string | null; created_at: string }[]> {
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("lesson_events")
+    .select("kind, topic_slug, created_at")
+    .eq("device_id", deviceId)
+    .order("created_at", { ascending: false })
+    .limit(400);
+  if (res.error) throw res.error;
+  const rows = (res.data ?? []) as {
+    kind: "lektion" | "wiederholung";
+    topic_slug: string | null;
+    created_at: string;
+  }[];
+  // Neueste zuerst geholt (damit das Limit die juengsten behaelt), fuer die
+  // Auswertung aber chronologisch gedreht.
+  return rows.reverse();
+}
+
 /** Loggt einen Uebungs-Versuch. Fire-and-forget: Fehler werden geschluckt. */
 export async function logAttempt(p: {
   deviceId: string;
@@ -558,6 +660,8 @@ export async function flushPendingWrites(): Promise<boolean> {
     try {
       if (write.kind === "lessonResult") {
         await writeLessonResult(write.payload);
+      } else if (write.kind === "lernEreignis") {
+        await writeLernEreignis(write.payload);
       } else {
         await writeDailyActivity(
           write.payload.deviceId,

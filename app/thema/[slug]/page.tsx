@@ -4,20 +4,37 @@
 // Zeilen-Karten. Innerhalb des Themas sind Lektionen linear freigeschaltet
 // (pathStates wie frueher im Lernpfad): ✓ fertig (nochmal ueben),
 // ▶ aktuelle Lektion, 🔒 gesperrt (nicht tappbar).
+//
+// Darueber liegt der Lernfluss (lib/lernfluss.ts): nach 3 Lektionen im selben
+// Thema macht dieses Thema Pause, und nach 3 Lektionen sind erst 2
+// Wiederholungen faellig. Beides sperrt hier ALLE Lektionen des Themas - aber
+// immer mit Countdown, damit die Pause ein Ziel ist und keine Wand.
+// Das Mama-Profil ist davon ausgenommen (Pruefmodus).
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import { pathStates, type LessonPathState } from "@/components/path/path-states";
-import { fetchPath, fetchProgress } from "@/lib/data";
+import { fetchLernEreignisse, fetchPath, fetchProgress } from "@/lib/data";
 import { getDeviceId, getProfile } from "@/lib/device";
+import {
+  berechneLernstand,
+  naechsterSchrittText,
+  themaGesperrtFuer,
+  type Lernstand,
+} from "@/lib/lernfluss";
 import type { PathLessonRow, ProgressRow, TopicWithLessons } from "@/lib/types";
 
 type LoadState =
   | { status: "loading" }
   | { status: "error" }
-  | { status: "ready"; topics: TopicWithLessons[]; progress: ProgressRow[] };
+  | {
+      status: "ready";
+      topics: TopicWithLessons[];
+      progress: ProgressRow[];
+      stand: Lernstand;
+    };
 
 /** Ladezustand: pulsierende Platzhalter-Zeilen. */
 function TopicSkeleton() {
@@ -44,10 +61,38 @@ function Stars({ stars }: { stars?: number }) {
 function LessonRowCard({
   lesson,
   state,
+  blockiert,
 }: {
   lesson: PathLessonRow;
   state: LessonPathState;
+  /**
+   * Gesetzt = wegen des Lernflusses gerade nicht antippbar. Der Text ist der
+   * Grund fuer die Vorlese-Beschriftung ("gerade in Pause").
+   */
+  blockiert?: string;
 }) {
+  // Lernfluss-Sperre geht vor: dann ist die ganze Liste grau, egal welchen
+  // Pfad-Zustand die einzelne Lektion hat.
+  if (blockiert) {
+    return (
+      <div
+        aria-label={`${lesson.title} – ${blockiert}`}
+        className="flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-locked bg-white p-3 opacity-60"
+      >
+        <span
+          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-locked text-xl"
+          aria-hidden
+        >
+          {state.state === "completed" ? "✓" : "⏸"}
+        </span>
+        <span className="flex min-w-0 flex-1 flex-col">
+          <span className="font-bold text-ink/60">{lesson.title}</span>
+          {state.state === "completed" ? <Stars stars={state.stars} /> : null}
+        </span>
+      </div>
+    );
+  }
+
   if (state.state === "locked") {
     return (
       <div
@@ -132,11 +177,16 @@ export default function ThemaPage() {
     (async () => {
       try {
         const deviceId = getDeviceId();
-        const [topics, progress] = await Promise.all([
+        // Mama prueft die Inhalte und braucht keinen Lernfluss - fuer sie
+        // sparen wir die Abfrage ganz.
+        const mama = getProfile() === "mama";
+        const [topics, progress, ereignisse] = await Promise.all([
           fetchPath(),
           fetchProgress(deviceId),
+          mama ? Promise.resolve([]) : fetchLernEreignisse(deviceId),
         ]);
-        if (!cancelled) setState({ status: "ready", topics, progress });
+        const stand = berechneLernstand(ereignisse);
+        if (!cancelled) setState({ status: "ready", topics, progress, stand });
       } catch {
         if (!cancelled) setState({ status: "error" });
       }
@@ -196,6 +246,24 @@ export default function ThemaPage() {
   }
   const lessons = topic ? [...topic.lessons].sort((a, b) => a.sort - b.sort) : [];
 
+  // Lernfluss: Mama ist ausgenommen, sonst geht die Themen-Pause vor den
+  // faelligen Wiederholungen (eine Meldung reicht, zwei ueberfordern).
+  const stand = state.status === "ready" ? state.stand : null;
+  const pauseRest = !isMama && stand ? themaGesperrtFuer(stand, slug) : 0;
+  const themaPausiert = pauseRest > 0;
+  const wiederholungFaellig =
+    !isMama && !themaPausiert && stand ? stand.wiederholungFaellig : false;
+  const blockiert = themaPausiert
+    ? "gerade in Pause"
+    : wiederholungFaellig
+      ? "erst sind Wiederholungen dran"
+      : undefined;
+  // Dezenter Vorlauf: eine Lektion vor der Pause Bescheid sagen.
+  const letzteVorPause =
+    !isMama && !themaPausiert && !wiederholungFaellig && stand
+      ? stand.themaZaehler.get(slug) === 2
+      : false;
+
   return (
     <div className="flex min-h-svh flex-col">
       <div className="mx-auto w-full max-w-md px-4 pt-4 pb-10">
@@ -220,6 +288,60 @@ export default function ThemaPage() {
                 </h1>
               </div>
 
+              {themaPausiert && (
+                <div className="mb-6 rounded-2xl border-2 border-locked bg-white p-4">
+                  <p className="flex items-center gap-2 text-base font-extrabold text-ink">
+                    <span aria-hidden className="text-xl">
+                      ⏸️
+                    </span>
+                    Dieses Thema macht gerade Pause.
+                  </p>
+                  <p className="pt-2 text-sm font-bold text-ink">
+                    {pauseRest === 1
+                      ? "Wieder frei nach 1 Lektion aus einem anderen Thema."
+                      : `Wieder frei nach ${pauseRest} Lektionen aus anderen Themen.`}
+                  </p>
+                  <p className="pt-1 text-sm text-ink/60">
+                    So kommst du in allen Bereichen weiter.
+                  </p>
+                  <Button
+                    variant="secondary"
+                    full
+                    className="mt-4"
+                    onClick={() => router.push("/")}
+                  >
+                    Anderes Thema wählen
+                  </Button>
+                </div>
+              )}
+
+              {wiederholungFaellig && (
+                <div className="mb-6 rounded-2xl border-2 border-primary bg-primary-light p-4">
+                  <p className="flex items-center gap-2 text-base font-extrabold text-ink">
+                    <span aria-hidden className="text-xl">
+                      🔁
+                    </span>
+                    Jetzt sind Wiederholungen dran.
+                  </p>
+                  <p className="pt-2 text-sm text-ink/60">
+                    {stand ? naechsterSchrittText(stand) : ""}
+                  </p>
+                  <Button
+                    full
+                    className="mt-4"
+                    onClick={() => router.push("/faellig")}
+                  >
+                    Wiederholen
+                  </Button>
+                </div>
+              )}
+
+              {letzteVorPause && (
+                <p className="pb-4 text-sm text-ink/60">
+                  Noch 1 Lektion, dann macht dieses Thema Pause.
+                </p>
+              )}
+
               {lessons.length === 0 ? (
                 <p className="text-sm text-ink/60">
                   Hier kommen bald neue Lektionen.
@@ -233,6 +355,7 @@ export default function ThemaPage() {
                       state={
                         states.get(lesson.id) ?? { state: "locked" as const }
                       }
+                      blockiert={blockiert}
                     />
                   ))}
                 </div>

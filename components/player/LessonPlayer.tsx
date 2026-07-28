@@ -18,12 +18,16 @@ import {
   bumpDailyActivity,
   fetchDailyActivity,
   fetchFeeds,
+  fetchLernEreignisse,
   fetchLesson,
   fetchLessonsToday,
+  istLektionSchonGeschafft,
+  logLernEreignis,
   logAttempt,
   saveLessonResult,
 } from "@/lib/data";
-import { getDeviceId } from "@/lib/device";
+import { getDeviceId, getProfile } from "@/lib/device";
+import { berechneLernstand, themaGesperrtFuer } from "@/lib/lernfluss";
 import {
   LESSON_BONUS_XP,
   PRACTICE_XP_PER_EXERCISE,
@@ -53,7 +57,12 @@ import { ResultScreen } from "./ResultScreen";
 
 type PlayableExercise = { id: string; exercise: ExerciseInput };
 
-type Phase = "loading" | "error" | "playing" | "finished";
+type Phase = "loading" | "error" | "playing" | "finished" | "gesperrt";
+
+/** Warum der Lernfluss diese Lektion gerade nicht zulaesst. */
+type Sperre =
+  | { art: "thema"; rest: number }
+  | { art: "wiederholung"; offen: number };
 
 type Feedback = {
   correct: boolean;
@@ -97,6 +106,10 @@ export function LessonPlayer({
 
   const [phase, setPhase] = useState<Phase>("loading");
   const [lessonId, setLessonId] = useState<string | null>(null);
+  // Thema der Lektion - fuer das Lernfluss-Protokoll (lib/lernfluss.ts).
+  const [topicSlug, setTopicSlug] = useState<string | null>(null);
+  // Gesetzt, wenn der Lernfluss diese Lektion gerade nicht zulaesst.
+  const [sperre, setSperre] = useState<Sperre | null>(null);
   // Einführung: optionaler Vorschalt-Screen vor der ersten Übung.
   const [intro, setIntro] = useState<string | null>(null);
   const [showIntro, setShowIntro] = useState(false);
@@ -127,6 +140,7 @@ export function LessonPlayer({
     setFedItem(null);
     setIntro(null);
     setShowIntro(false);
+    setSperre(null);
     try {
       // Ueben-Modus: Uebungen kommen fertig geladen von aussen.
       if (exercisesOverride) {
@@ -146,17 +160,73 @@ export function LessonPlayer({
         setPhase("error");
         return;
       }
-      const data = await fetchLesson(slug);
+
+      // Lernfluss-Riegel (lib/lernfluss.ts). Muss HIER sitzen, nicht nur in
+      // der Kachel-Anzeige: sonst kaeme man ueber die direkte Adresse
+      // /lektion/... an jeder Sperre vorbei. Das Protokoll wird parallel zur
+      // Lektion geladen, kostet also keine zusaetzliche Wartezeit.
+      const deviceId = getDeviceId();
+      const istMama = getProfile() === "mama";
+      const [data, ereignisse] = await Promise.all([
+        fetchLesson(slug),
+        istMama || !deviceId
+          ? Promise.resolve([] as Awaited<ReturnType<typeof fetchLernEreignisse>>)
+          : fetchLernEreignisse(deviceId),
+      ]);
       if (!data) {
         setPhase("error");
         return;
       }
+
+      if (!istMama && deviceId) {
+        const stand = berechneLernstand(ereignisse);
+
+        // 1. Thema in Pause: gilt fuer ALLES aus diesem Thema, auch fuers
+        //    Wiederholen. Sonst koennte sie die Pause aussitzen, indem sie
+        //    dieselben Lektionen nochmal spielt.
+        const rest = data.topicSlug
+          ? themaGesperrtFuer(stand, data.topicSlug)
+          : 0;
+        if (rest > 0) {
+          setSperre({ art: "thema", rest });
+          setPhase("gesperrt");
+          return;
+        }
+
+        // 2. Wiederholungen faellig: NEUE Lektionen sind dicht. Eine schon
+        //    geschaffte Lektion darf sie aber spielen - die zaehlt selbst als
+        //    Wiederholung, wir wuerden ihr sonst den geforderten Weg
+        //    versperren.
+        if (stand.wiederholungFaellig) {
+          let schonGeschafft = false;
+          try {
+            schonGeschafft = await istLektionSchonGeschafft(
+              deviceId,
+              data.lesson.id
+            );
+          } catch {
+            // Im Zweifel durchlassen - lieber eine Lektion zu viel als eine
+            // Amelie, die vor einer toten App sitzt.
+            schonGeschafft = true;
+          }
+          if (!schonGeschafft) {
+            setSperre({
+              art: "wiederholung",
+              offen: stand.offeneWiederholungen,
+            });
+            setPhase("gesperrt");
+            return;
+          }
+        }
+      }
+
       const playable = parseExerciseRows(data.exercises);
       if (playable.length === 0) {
         setPhase("error");
         return;
       }
       setLessonId(data.lesson.id);
+      setTopicSlug(data.topicSlug);
       setExercises(playable);
       setQueueState(createQueue(playable));
       // Einführung nur im normalen Lektions-Modus und nur wenn vorhanden.
@@ -264,6 +334,9 @@ export function LessonPlayer({
       try {
         const deviceId = getDeviceId();
         if (deviceId) {
+          // Ueben zaehlt als Wiederholung: damit baut sie die nach 3
+          // Lektionen faelligen Wiederholungen ab (lib/lernfluss.ts).
+          void logLernEreignis({ deviceId, art: "wiederholung" });
           void detectLevelUp(deviceId, xp).then(() =>
             bumpDailyActivity(deviceId, xp)
           );
@@ -293,6 +366,24 @@ export function LessonPlayer({
     if (deviceId && lessonId) {
       void (async () => {
         try {
+          // Lernfluss-Protokoll: Eine Lektion, die sie zum ERSTEN Mal
+          // schafft, zaehlt als Lektion. Spielt sie eine schon geschaffte
+          // noch einmal (z. B. um von 2 auf 3 Sterne zu kommen), ist das
+          // eine Wiederholung. Muss VOR saveLessonResult geprueft werden -
+          // danach steht der Fortschritt ja schon drin.
+          let schonGeschafft = false;
+          try {
+            schonGeschafft = await istLektionSchonGeschafft(deviceId, lessonId);
+          } catch {
+            // Im Zweifel als neue Lektion werten.
+          }
+          void logLernEreignis({
+            deviceId,
+            art: schonGeschafft ? "wiederholung" : "lektion",
+            lessonId,
+            topicSlug: schonGeschafft ? null : topicSlug,
+          });
+
           await saveLessonResult({ deviceId, lessonId, stars, xp });
           const day = berlinToday();
           const [lessonsToday, feeds] = await Promise.all([
@@ -359,6 +450,66 @@ export function LessonPlayer({
         <Button size="lg" full onClick={() => void load()}>
           Nochmal versuchen
         </Button>
+      </div>
+    );
+  }
+
+  // Lernfluss-Sperre: freundlich erklaeren, WARUM es gerade nicht geht, und
+  // gleich den Weg zeigen, der jetzt offen ist. Nie eine blosse Absage.
+  if (phase === "gesperrt" && sperre) {
+    const themenPause = sperre.art === "thema";
+    return (
+      <div className="flex h-full flex-col items-center justify-center gap-6 px-4">
+        <Mascot
+          mood="neutral"
+          message={
+            themenPause
+              ? "Dieses Thema macht gerade Pause."
+              : "Erst sind Wiederholungen dran."
+          }
+        />
+        <div className="w-full rounded-2xl border-2 border-locked bg-white p-4 text-center">
+          {themenPause ? (
+            <>
+              <p className="text-lg font-bold text-ink">
+                <span aria-hidden>⏸️ </span>
+                Wieder frei nach {sperre.rest}{" "}
+                {sperre.rest === 1 ? "Lektion" : "Lektionen"} aus anderen
+                Themen.
+              </p>
+              <p className="mt-2 text-base text-ink/70">
+                So kommst du überall weiter und vergisst nichts.
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="text-lg font-bold text-ink">
+                <span aria-hidden>🔁 </span>
+                Noch {sperre.offen}{" "}
+                {sperre.offen === 1 ? "Wiederholung" : "Wiederholungen"}, dann
+                geht es weiter.
+              </p>
+              <p className="mt-2 text-base text-ink/70">
+                Wiederholen hilft dir, dass es wirklich sitzt.
+              </p>
+            </>
+          )}
+        </div>
+        <div className="flex w-full flex-col gap-3">
+          {!themenPause && (
+            <Button size="lg" full onClick={() => router.push("/faellig")}>
+              Jetzt wiederholen
+            </Button>
+          )}
+          <Button
+            size="lg"
+            full
+            variant={themenPause ? "primary" : "secondary"}
+            onClick={() => router.push("/")}
+          >
+            {themenPause ? "Anderes Thema wählen" : "Zurück zur Übersicht"}
+          </Button>
+        </div>
       </div>
     );
   }

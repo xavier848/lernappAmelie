@@ -18,13 +18,21 @@ import {
   fetchAttemptStatsWithLessons,
   fetchDailyActivity,
   fetchFeeds,
+  fetchLernEreignisse,
   fetchPath,
   fetchProgress,
   flushPendingWrites,
 } from "@/lib/data";
 import { buildDueList } from "@/lib/spaced";
-import { getDeviceId } from "@/lib/device";
+import { getDeviceId, getProfile } from "@/lib/device";
 import { computeStreak } from "@/lib/streak";
+import {
+  berechneLernstand,
+  naechsterSchrittText,
+  themaGesperrtFuer,
+  type LernEreignis,
+  type Lernstand,
+} from "@/lib/lernfluss";
 import {
   buildSuggestions,
   type Suggestion,
@@ -43,6 +51,11 @@ type StartData = {
   exerciseToLesson: Map<string, string>;
   feeds: ("karotte" | "heu" | "apfel")[];
   dueCount: number;
+  /**
+   * Lernfluss-Steuerung (lib/lernfluss.ts): was ist als Naechstes dran,
+   * welche Themen machen gerade Pause. null = keine Steuerung (Mama-Modus).
+   */
+  lernstand: Lernstand | null;
 };
 
 type LoadState =
@@ -57,13 +70,21 @@ async function loadStartData(): Promise<StartData> {
   // Ladezustand, bevor ueberhaupt eine Leseabfrage gestartet wurde. Das
   // Nachreichen laeuft nebenher (siehe useEffect weiter unten).
   const deviceId = getDeviceId();
-  const [topics, progress, activity, attempts, feeds] = await Promise.all([
-    fetchPath(),
-    fetchProgress(deviceId),
-    fetchDailyActivity(deviceId),
-    fetchAttemptStatsWithLessons(deviceId),
-    fetchFeeds(deviceId, berlinToday()),
-  ]);
+  // Mama liest nur Inhalte gegen - fuer sie gilt die Lernfluss-Steuerung
+  // nicht, deshalb wird das Ereignis-Protokoll gar nicht erst geladen.
+  const istMama = getProfile() === "mama";
+  const ereignissePromise: Promise<LernEreignis[]> = istMama
+    ? Promise.resolve([])
+    : fetchLernEreignisse(deviceId);
+  const [topics, progress, activity, attempts, feeds, ereignisse] =
+    await Promise.all([
+      fetchPath(),
+      fetchProgress(deviceId),
+      fetchDailyActivity(deviceId),
+      fetchAttemptStatsWithLessons(deviceId),
+      fetchFeeds(deviceId, berlinToday()),
+      ereignissePromise,
+    ]);
   return {
     topics,
     progress,
@@ -74,6 +95,7 @@ async function loadStartData(): Promise<StartData> {
     // Aus denselben Zeilen berechnet – frueher war das eine zweite,
     // inhaltlich identische Abfrage derselben Tabelle.
     dueCount: buildDueList(attempts.attempts, berlinToday()).length,
+    lernstand: istMama ? null : berechneLernstand(ereignisse),
   };
 }
 
@@ -168,6 +190,41 @@ function BigPracticeCard() {
   );
 }
 
+/**
+ * Lernfluss-Anzeige (lib/lernfluss.ts): sagt in einem Satz, was jetzt dran
+ * ist. Sind Wiederholungen faellig, wird daraus eine deutliche Aufforderung
+ * mit grossem Knopf - neue Lektionen sind dann gesperrt.
+ */
+function LernflussKarte({ stand }: { stand: Lernstand }) {
+  if (!stand.wiederholungFaellig) {
+    return (
+      <p className="mt-4 flex min-h-12 items-center gap-2 rounded-2xl border-2 border-locked bg-white px-4 py-2 text-sm font-semibold text-ink/70">
+        <span aria-hidden>🎯</span>
+        {naechsterSchrittText(stand)}
+      </p>
+    );
+  }
+  return (
+    <section
+      aria-label="Jetzt sind Wiederholungen dran"
+      className="mt-4 rounded-2xl border-2 border-b-4 border-primary bg-primary-light p-4"
+    >
+      <h2 className="text-lg font-extrabold text-ink">
+        <span aria-hidden>🔁 </span>Jetzt sind Wiederholungen dran
+      </h2>
+      <p className="mt-1 text-sm text-ink/70">{naechsterSchrittText(stand)}</p>
+      <p className="mt-1 text-sm text-ink/70">
+        Danach gibt es wieder neue Lektionen.
+      </p>
+      <Link
+        href="/faellig"
+        className="mt-3 flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl border-b-4 border-primary-dark bg-primary px-4 text-lg font-bold text-white select-none active:translate-y-1 active:border-b-0"
+      >
+        <span aria-hidden>🔁</span> Wiederholen
+      </Link>
+    </section>
+  );
+}
 
 export default function StartPage() {
   const [state, setState] = useState<LoadState>({ status: "loading" });
@@ -269,6 +326,22 @@ export default function StartPage() {
     todaySeed: berlinToday(),
   });
 
+  // Lernfluss (lib/lernfluss.ts). Im Mama-Modus ist stand === null: dann
+  // wird nichts gesteuert und nichts gesperrt.
+  const stand = state.lernstand;
+  const wiederholungFaellig = stand?.wiederholungFaellig ?? false;
+  /** Rest bis zur Freigabe fuer ein Thema (0 = frei, auch ohne Steuerung). */
+  const pauseFuer = (topicSlug: string) =>
+    stand ? themaGesperrtFuer(stand, topicSlug) : 0;
+  // Vorschlaege aus pausierten Themen ausblenden - sonst wuerde die
+  // Startseite genau in das Thema schicken, das gerade Pause macht.
+  // Suggestion kennt nur den Themen-Titel, deshalb der Umweg ueber die Titel.
+  const slugNachTitel = new Map(state.topics.map((t) => [t.title, t.slug]));
+  const offeneVorschlaege = suggestions.filter((s) => {
+    const slug = slugNachTitel.get(s.topicTitle);
+    return !slug || pauseFuer(slug) === 0;
+  });
+
   // App-Shell: Kopfleiste liegt AUSSERHALB des Scroll-Bereichs und kann
   // deshalb nie mitscrollen oder vom iOS-Gummiband verschoben werden.
   // Nur der Bereich darunter scrollt.
@@ -289,29 +362,36 @@ export default function StartPage() {
         {/* Nur im Mama-Modus: Link zu Amelies Fortschritts-Statistik. */}
         <MamaStatsLink />
 
+        {/* Was jetzt dran ist (Lernfluss). Im Mama-Modus nicht sichtbar. */}
+        {stand && <LernflussKarte stand={stand} />}
+
         {/* Fuer dich heute: GENAU EIN Vorschlag (die wichtigste Lektion),
             darunter eine schlanke Ueben-Zeile. Bewusst einfach gehalten -
-            vier grosse Kaesten uebereinander waren zu voll. */}
-        <section aria-label="Für dich heute" className="pt-6">
-          <h2 className="mb-2 text-lg font-extrabold text-ink">
-            Für dich heute <span aria-hidden>✨</span>
-          </h2>
-          {suggestions.length > 0 ? (
-            <div className="flex flex-col gap-2.5">
-              <SuggestionCard suggestion={suggestions[0]} />
-              {state.progress.length > 0 && (
-                <Link
-                  href="/wiederholen"
-                  className="flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl border-2 border-primary bg-white px-3 text-base font-bold text-primary-dark select-none active:translate-y-0.5"
-                >
-                  <span aria-hidden>🔁</span> Üben &amp; Fehler wiederholen
-                </Link>
-              )}
-            </div>
-          ) : (
-            <BigPracticeCard />
-          )}
-        </section>
+            vier grosse Kaesten uebereinander waren zu voll.
+            Sind Wiederholungen faellig, faellt der Abschnitt weg - die
+            Wiederholungs-Karte oben ist dann der einzige Weg. */}
+        {!wiederholungFaellig && (
+          <section aria-label="Für dich heute" className="pt-6">
+            <h2 className="mb-2 text-lg font-extrabold text-ink">
+              Für dich heute <span aria-hidden>✨</span>
+            </h2>
+            {offeneVorschlaege.length > 0 ? (
+              <div className="flex flex-col gap-2.5">
+                <SuggestionCard suggestion={offeneVorschlaege[0]} />
+                {state.progress.length > 0 && (
+                  <Link
+                    href="/wiederholen"
+                    className="flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl border-2 border-primary bg-white px-3 text-base font-bold text-primary-dark select-none active:translate-y-0.5"
+                  >
+                    <span aria-hidden>🔁</span> Üben &amp; Fehler wiederholen
+                  </Link>
+                )}
+              </div>
+            ) : (
+              <BigPracticeCard />
+            )}
+          </section>
+        )}
 
         {/* Wiederholen & Pruefen: Spaced Repetition + Probe-Pruefung. Erst
             sichtbar, wenn Amelie schon mindestens eine Lektion gemacht hat. */}
@@ -355,19 +435,49 @@ export default function StartPage() {
             grosse Gruppen. Antippen fuehrt zu /bereich/[slug] mit den Themen. */}
         <section aria-label="Bereiche" className="pt-8">
           <h2 className="mb-3 text-lg font-extrabold text-ink">Bereiche</h2>
+          {wiederholungFaellig && (
+            <p className="mb-3 text-sm font-semibold text-ink/60">
+              Neue Lektionen gibt es nach den Wiederholungen.
+            </p>
+          )}
           {state.topics.length === 0 ? (
             <p className="text-sm text-ink/60">
               Hier kommen bald neue Themen.
             </p>
           ) : (
-            <div className="flex flex-col gap-3">
-              {groupTopicsByCategory(state.topics).map((category) => (
-                <CategoryCard
-                  key={category.slug}
-                  category={category}
-                  completedLessonIds={completedLessonIds}
-                />
-              ))}
+            <div
+              className={`flex flex-col gap-3 ${
+                wiederholungFaellig ? "pointer-events-none opacity-50" : ""
+              }`}
+            >
+              {groupTopicsByCategory(state.topics).map((category) => {
+                // Ein Bereich buendelt mehrere Themen: er macht nur dann
+                // Pause, wenn ALLE seine Themen pausiert sind. Angezeigt
+                // wird der kuerzeste Rest - so lange dauert es mindestens.
+                const reste = category.topics.map((t) => pauseFuer(t.slug));
+                const allePausiert =
+                  reste.length > 0 && reste.every((rest) => rest > 0);
+                const rest = allePausiert ? Math.min(...reste) : 0;
+                return (
+                  <div
+                    key={category.slug}
+                    className={
+                      allePausiert ? "pointer-events-none opacity-50" : undefined
+                    }
+                  >
+                    <CategoryCard
+                      category={category}
+                      completedLessonIds={completedLessonIds}
+                    />
+                    {allePausiert && (
+                      <p className="mt-1 px-1 text-xs font-semibold text-ink/60">
+                        Pause – noch {rest}{" "}
+                        {rest === 1 ? "Lektion" : "Lektionen"}
+                      </p>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           )}
         </section>
