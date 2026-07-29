@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-smalltalk-wetter-2",
   "title": "Small Talk II: Wetter & Reise",
-  "sort": 43,
+  "sort": 44,
   "intro": "💬 Gäste erzählen gern von der Anreise und fragen nach dem Wetter. Zwei freundliche Sätze genügen schon.\n\nIm Englischen steht erst der Ort, dann die Zeit. Im Deutschen ist es oft umgekehrt.\n\n> It was very windy on the pass yesterday. = Auf dem Pass war es gestern sehr windig.\n\nMERKE: Ort vor Zeit. Also: on the pass yesterday.\n\nBei Fragen steht das Fragewort ganz vorn. Direkt danach kommt das Verb – bei Tätigkeiten ein Hilfsverb wie did oder will.\n\n> How was the drive over the Fernpass? = Wie war die Fahrt über den Fernpass?",
   "exercises": [
     {
@@ -12,12 +12,24 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "traffic" },
-          { "text": "was" },
-          { "text": "quiet" },
-          { "text": "this" },
-          { "text": "morning" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "traffic"
+          },
+          {
+            "text": "was"
+          },
+          {
+            "text": "quiet"
+          },
+          {
+            "text": "this"
+          },
+          {
+            "text": "morning"
+          }
         ]
       }
     },
@@ -27,9 +39,16 @@
         "prompt": "Ein Gast fragt nach dem Wetter für morgen. Welcher Satz ist richtig gebaut?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "It will probably rain here tomorrow afternoon.", "correct": true },
-          { "text": "It will rain probably tomorrow afternoon here." },
-          { "text": "Tomorrow afternoon will it probably rain here." }
+          {
+            "text": "It will probably rain here tomorrow afternoon.",
+            "correct": true
+          },
+          {
+            "text": "It will rain probably tomorrow afternoon here."
+          },
+          {
+            "text": "Tomorrow afternoon will it probably rain here."
+          }
         ],
         "explanation": "Richtig ist: It will probably rain here tomorrow afternoon. Probably steht vor dem Hauptverb rain, und der Ort here steht vor der Zeit tomorrow afternoon. Satz 2 stellt probably hinter das Verb und den Ort ans Ende. Satz 3 dreht Subjekt und Verb um (will it) – das geht nur bei echten Fragen."
       }
@@ -41,13 +60,27 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "expect" },
-          { "text": "some" },
-          { "text": "rain" },
-          { "text": "in" },
-          { "text": "the" },
-          { "text": "afternoon" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "expect"
+          },
+          {
+            "text": "some"
+          },
+          {
+            "text": "rain"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "afternoon"
+          }
         ]
       }
     },
@@ -57,10 +90,38 @@
         "prompt": "Small Talk bei der Ankunft: Was gehört zusammen? Links Englisch, rechts Deutsch.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Did you find us easily?" }, "right": { "text": "Haben Sie uns gut gefunden?" } },
-          { "left": { "text": "How long did the drive take?" }, "right": { "text": "Wie lange hat die Fahrt gedauert?" } },
-          { "left": { "text": "What are your plans for tomorrow?" }, "right": { "text": "Was haben Sie morgen vor?" } },
-          { "left": { "text": "Enjoy the rest of your evening." }, "right": { "text": "Genießen Sie den restlichen Abend." } }
+          {
+            "left": {
+              "text": "Did you find us easily?"
+            },
+            "right": {
+              "text": "Haben Sie uns gut gefunden?"
+            }
+          },
+          {
+            "left": {
+              "text": "How long did the drive take?"
+            },
+            "right": {
+              "text": "Wie lange hat die Fahrt gedauert?"
+            }
+          },
+          {
+            "left": {
+              "text": "What are your plans for tomorrow?"
+            },
+            "right": {
+              "text": "Was haben Sie morgen vor?"
+            }
+          },
+          {
+            "left": {
+              "text": "Enjoy the rest of your evening."
+            },
+            "right": {
+              "text": "Genießen Sie den restlichen Abend."
+            }
+          }
         ],
         "memory": false
       }
@@ -72,15 +133,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "will" },
-          { "text": "meet" },
-          { "text": "at" },
-          { "text": "the" },
-          { "text": "cable" },
-          { "text": "car" },
-          { "text": "tomorrow" },
-          { "text": "morning" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "will"
+          },
+          {
+            "text": "meet"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "cable"
+          },
+          {
+            "text": "car"
+          },
+          {
+            "text": "tomorrow"
+          },
+          {
+            "text": "morning"
+          }
         ]
       }
     },
@@ -90,9 +169,16 @@
         "prompt": "Die Gäste sagen: We got stuck in a traffic jam near Munich, so we arrived very late. Was bedeutet das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Sie standen bei München im Stau und sind deshalb sehr spät angekommen.", "correct": true },
-          { "text": "Sie haben in München übernachtet und sind erst heute weitergefahren." },
-          { "text": "Sie haben bei München die Ausfahrt verpasst und mussten umdrehen." }
+          {
+            "text": "Sie standen bei München im Stau und sind deshalb sehr spät angekommen.",
+            "correct": true
+          },
+          {
+            "text": "Sie haben in München übernachtet und sind erst heute weitergefahren."
+          },
+          {
+            "text": "Sie haben bei München die Ausfahrt verpasst und mussten umdrehen."
+          }
         ],
         "explanation": "A traffic jam heißt Stau, to get stuck heißt festsitzen. So we arrived very late heißt: deshalb kamen wir sehr spät an. Von einer Übernachtung (to stay the night) oder einer verpassten Ausfahrt (to miss the exit) ist im Satz nichts zu hören."
       }
@@ -103,16 +189,42 @@
         "prompt": "Die Gäste erzählen. Geht es um die Anreise von heute oder um die Pläne für die nächsten Tage?",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "anreise", "label": "Anreise heute", "icon": "🚗" },
-          { "id": "plaene", "label": "Pläne für später", "icon": "🥾" }
+          {
+            "id": "anreise",
+            "label": "Anreise heute",
+            "icon": "🚗"
+          },
+          {
+            "id": "plaene",
+            "label": "Pläne für später",
+            "icon": "🥾"
+          }
         ],
         "items": [
-          { "text": "The motorway was very busy near Innsbruck.", "bucket": "anreise" },
-          { "text": "We want to hike up to the lake tomorrow.", "bucket": "plaene" },
-          { "text": "We left home at six in the morning.", "bucket": "anreise" },
-          { "text": "We plan to rent bikes on Saturday.", "bucket": "plaene" },
-          { "text": "Our train was twenty minutes late.", "bucket": "anreise" },
-          { "text": "We would like to visit the castle on Friday.", "bucket": "plaene" }
+          {
+            "text": "The motorway was very busy near Innsbruck.",
+            "bucket": "anreise"
+          },
+          {
+            "text": "We want to hike up to the lake tomorrow.",
+            "bucket": "plaene"
+          },
+          {
+            "text": "We left home at six in the morning.",
+            "bucket": "anreise"
+          },
+          {
+            "text": "We plan to rent bikes on Saturday.",
+            "bucket": "plaene"
+          },
+          {
+            "text": "Our train was twenty minutes late.",
+            "bucket": "anreise"
+          },
+          {
+            "text": "We would like to visit the castle on Friday.",
+            "bucket": "plaene"
+          }
         ]
       }
     },
@@ -123,15 +235,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "You" },
-          { "text": "can" },
-          { "text": "park" },
-          { "text": "your" },
-          { "text": "car" },
-          { "text": "behind" },
-          { "text": "the" },
-          { "text": "house" },
-          { "text": "tonight" }
+          {
+            "text": "You"
+          },
+          {
+            "text": "can"
+          },
+          {
+            "text": "park"
+          },
+          {
+            "text": "your"
+          },
+          {
+            "text": "car"
+          },
+          {
+            "text": "behind"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "house"
+          },
+          {
+            "text": "tonight"
+          }
         ]
       }
     },
@@ -141,9 +271,16 @@
         "prompt": "Die Gäste sagen: We were on the road for nine hours. 🚗 Was antwortest du höflich?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "You must be tired after such a long drive.", "correct": true },
-          { "text": "Nine hours? That is not so bad." },
-          { "text": "Our car park is behind the house." }
+          {
+            "text": "You must be tired after such a long drive.",
+            "correct": true
+          },
+          {
+            "text": "Nine hours? That is not so bad."
+          },
+          {
+            "text": "Our car park is behind the house."
+          }
         ],
         "explanation": "You must be tired after such a long drive heißt: Sie sind sicher müde nach so einer langen Fahrt. Das zeigt Mitgefühl. Nine hours? That is not so bad klingt abweisend, weil du die Anstrengung kleinredest. Der Satz über den Parkplatz ist zwar richtiges Englisch, geht aber auf das Erzählte gar nicht ein."
       }
@@ -155,16 +292,36 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "will" },
-          { "text": "bring" },
-          { "text": "your" },
-          { "text": "breakfast" },
-          { "text": "to" },
-          { "text": "the" },
-          { "text": "terrace" },
-          { "text": "at" },
-          { "text": "eight" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "will"
+          },
+          {
+            "text": "bring"
+          },
+          {
+            "text": "your"
+          },
+          {
+            "text": "breakfast"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "terrace"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "eight"
+          }
         ]
       }
     }

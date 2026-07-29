@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-freunde-antworten-2",
   "title": "Freunde: antworten II",
-  "sort": 42,
+  "sort": 43,
   "intro": "💬 Freunde fragen dich nach Schule, Hobbys und dem Wochenende. Antworte in kurzen Sätzen.\n\nMERKE: Englische Sätze folgen fast immer dieser Reihenfolge: wer – Verb – Objekt – Ort – Zeit. Das Objekt ist die Sache oder Person, um die es geht. Es steht direkt hinter dem Verb.\n\n> I play volleyball on Wednesdays. = Ich spiele mittwochs Volleyball.\n\nWörter wie usually oder often stehen direkt vor dem Verb. Nur bei am, is und are stehen sie dahinter: I am often tired. Zeitangaben wie on Saturdays kommen ganz ans Ende.\n\n> I usually meet my friends after school. = Nach der Schule treffe ich meistens meine Freunde.\n\n> My brother works in a bakery on Saturdays. = Mein Bruder arbeitet samstags in einer Bäckerei.",
   "exercises": [
     {
@@ -11,9 +11,16 @@
         "prompt": "Welcher Satz ist richtig gebaut? Er soll heißen: Nach der Schule treffe ich meistens meine Freunde.",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "I usually meet my friends after school.", "correct": true },
-          { "text": "I meet usually my friends after school." },
-          { "text": "After school meet I my friends." }
+          {
+            "text": "I usually meet my friends after school.",
+            "correct": true
+          },
+          {
+            "text": "I meet usually my friends after school."
+          },
+          {
+            "text": "After school meet I my friends."
+          }
         ],
         "explanation": "Richtig ist: I usually meet my friends after school. Das Wort usually steht direkt vor dem Verb, danach kommt das Objekt und ganz am Ende die Zeit. Bei I meet usually my friends steht usually falsch, nämlich zwischen Verb und Objekt. Bei After school meet I my friends steht das Verb vor der Person. In einer Aussage kommt im Englischen aber immer erst die Person und dann das Verb. Nur bei Fragen ist es umgekehrt."
       }
@@ -25,11 +32,21 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "I" },
-          { "text": "play" },
-          { "text": "volleyball" },
-          { "text": "on" },
-          { "text": "Wednesdays" }
+          {
+            "text": "I"
+          },
+          {
+            "text": "play"
+          },
+          {
+            "text": "volleyball"
+          },
+          {
+            "text": "on"
+          },
+          {
+            "text": "Wednesdays"
+          }
         ]
       }
     },
@@ -39,10 +56,38 @@
         "prompt": "Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "I'm quite busy this week." }, "right": { "text": "Diese Woche habe ich ziemlich viel zu tun." } },
-          { "left": { "text": "My grandmother is staying with us. 👵" }, "right": { "text": "Meine Oma wohnt gerade bei uns." } },
-          { "left": { "text": "I finish school at half past three. 🕞" }, "right": { "text": "Ich habe um halb vier Schule aus." } },
-          { "left": { "text": "I'm saving up for a new phone. 📱" }, "right": { "text": "Ich spare für ein neues Handy." } }
+          {
+            "left": {
+              "text": "I'm quite busy this week."
+            },
+            "right": {
+              "text": "Diese Woche habe ich ziemlich viel zu tun."
+            }
+          },
+          {
+            "left": {
+              "text": "My grandmother is staying with us. 👵"
+            },
+            "right": {
+              "text": "Meine Oma wohnt gerade bei uns."
+            }
+          },
+          {
+            "left": {
+              "text": "I finish school at half past three. 🕞"
+            },
+            "right": {
+              "text": "Ich habe um halb vier Schule aus."
+            }
+          },
+          {
+            "left": {
+              "text": "I'm saving up for a new phone. 📱"
+            },
+            "right": {
+              "text": "Ich spare für ein neues Handy."
+            }
+          }
         ],
         "memory": false
       }
@@ -54,12 +99,24 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "I" },
-          { "text": "do" },
-          { "text": "my" },
-          { "text": "homework" },
-          { "text": "after" },
-          { "text": "dinner" }
+          {
+            "text": "I"
+          },
+          {
+            "text": "do"
+          },
+          {
+            "text": "my"
+          },
+          {
+            "text": "homework"
+          },
+          {
+            "text": "after"
+          },
+          {
+            "text": "dinner"
+          }
         ]
       }
     },
@@ -69,9 +126,16 @@
         "prompt": "Eine Freundin fragt: How's school going? 📚 Was antwortest du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "It's going okay, but the exams are hard.", "correct": true },
-          { "text": "I'm going to school by bus." },
-          { "text": "School starts again in September." }
+          {
+            "text": "It's going okay, but the exams are hard.",
+            "correct": true
+          },
+          {
+            "text": "I'm going to school by bus."
+          },
+          {
+            "text": "School starts again in September."
+          }
         ],
         "explanation": "How's school going? heißt: Wie läuft es in der Schule? Nur It's going okay, but the exams are hard. sagt, wie es läuft. I'm going to school by bus. sagt nur, womit du fährst. School starts again in September. sagt nur, wann die Schule wieder anfängt."
       }
@@ -82,16 +146,42 @@
         "prompt": "Ist das schon passiert oder erst geplant? Sortiere.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "past", "label": "Schon passiert", "icon": "⏪" },
-          { "id": "plan", "label": "Ist geplant", "icon": "📅" }
+          {
+            "id": "past",
+            "label": "Schon passiert",
+            "icon": "⏪"
+          },
+          {
+            "id": "plan",
+            "label": "Ist geplant",
+            "icon": "📅"
+          }
         ],
         "items": [
-          { "text": "I met Lena at the bus stop yesterday.", "bucket": "past" },
-          { "text": "We are visiting my grandmother on Sunday.", "bucket": "plan" },
-          { "text": "We watched a film last night.", "bucket": "past" },
-          { "text": "I am starting my work placement in September.", "bucket": "plan" },
-          { "text": "I tidied my room this morning.", "bucket": "past" },
-          { "text": "I will call you after my shift.", "bucket": "plan" }
+          {
+            "text": "I met Lena at the bus stop yesterday.",
+            "bucket": "past"
+          },
+          {
+            "text": "We are visiting my grandmother on Sunday.",
+            "bucket": "plan"
+          },
+          {
+            "text": "We watched a film last night.",
+            "bucket": "past"
+          },
+          {
+            "text": "I am starting my work placement in September.",
+            "bucket": "plan"
+          },
+          {
+            "text": "I tidied my room this morning.",
+            "bucket": "past"
+          },
+          {
+            "text": "I will call you after my shift.",
+            "bucket": "plan"
+          }
         ]
       }
     },
@@ -102,14 +192,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "My" },
-          { "text": "brother" },
-          { "text": "works" },
-          { "text": "in" },
-          { "text": "a" },
-          { "text": "bakery" },
-          { "text": "on" },
-          { "text": "Saturdays" }
+          {
+            "text": "My"
+          },
+          {
+            "text": "brother"
+          },
+          {
+            "text": "works"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "bakery"
+          },
+          {
+            "text": "on"
+          },
+          {
+            "text": "Saturdays"
+          }
         ]
       }
     },
@@ -119,9 +225,16 @@
         "prompt": "Ein Freund fragt: What do you do in your free time? 🐴 Welche Antwort ist richtig gebaut?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "I ride my horse twice a week.", "correct": true },
-          { "text": "I ride twice a week my horse." },
-          { "text": "Twice a week ride I my horse." }
+          {
+            "text": "I ride my horse twice a week.",
+            "correct": true
+          },
+          {
+            "text": "I ride twice a week my horse."
+          },
+          {
+            "text": "Twice a week ride I my horse."
+          }
         ],
         "explanation": "Richtig ist: I ride my horse twice a week. Nach dem Verb kommt sofort das Objekt (my horse), die Zeitangabe steht am Ende. I ride twice a week my horse. ist falsch, weil die Zeit zwischen Verb und Objekt steht. Twice a week ride I my horse. ist falsch, weil in einer Aussage erst die Person und dann das Verb kommt - nur bei Fragen ist es umgekehrt."
       }
@@ -133,14 +246,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "are" },
-          { "text": "going" },
-          { "text": "to" },
-          { "text": "the" },
-          { "text": "cinema" },
-          { "text": "on" },
-          { "text": "Friday" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "are"
+          },
+          {
+            "text": "going"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "cinema"
+          },
+          {
+            "text": "on"
+          },
+          {
+            "text": "Friday"
+          }
         ]
       }
     },
@@ -150,9 +279,16 @@
         "prompt": "Ein Freund schreibt: I'll let you know at the weekend. 📱 Was bedeutet das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Ich sage dir am Wochenende Bescheid.", "correct": true },
-          { "text": "Ich lasse dich am Wochenende in Ruhe." },
-          { "text": "Ich weiß es erst nächste Woche." }
+          {
+            "text": "Ich sage dir am Wochenende Bescheid.",
+            "correct": true
+          },
+          {
+            "text": "Ich lasse dich am Wochenende in Ruhe."
+          },
+          {
+            "text": "Ich weiß es erst nächste Woche."
+          }
         ],
         "explanation": "to let someone know heißt: jemandem Bescheid sagen. Das Wort know (wissen) ist der Schlüssel, nicht let. Ich lasse dich in Ruhe wäre I'll leave you alone. Ich weiß es erst nächste Woche wäre I won't know until next week."
       }

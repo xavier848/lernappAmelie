@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-telefon-buchung-2",
   "title": "Am Telefon II: Buchungen",
-  "sort": 44,
+  "sort": 45,
   "intro": "📞 Am Telefon geht es fast immer um drei Dinge: Datum, Personenzahl und Preis.\n\nDie Reihenfolge im englischen Satz ist fest: erst wer, dann das Verb, dann was, dann wann. Die Zeit steht ganz am Ende.\n\n> The apartment is available in early June. = Die Wohnung ist Anfang Juni frei.\n\nMERKE: please steht am Satzende. Im Deutschen steht bitte oft mitten im Satz.\n\n> Could you give me your mobile number, please? = Können Sie mir bitte Ihre Handynummer geben?\n\nBei Fragen mit einem Fragewort brauchst du meistens do: erst das Fragewort, dann do, dann die Person, dann das Verb. Nach can und could brauchst du kein do.",
   "exercises": [
     {
@@ -11,10 +11,19 @@
         "prompt": "Der Gast sagt am Telefon: We're planning to check in on the twenty-third of April. 📅 Wann will er anreisen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Am 23. April.", "correct": true },
-          { "text": "Am 3. April." },
-          { "text": "Am 20. April." },
-          { "text": "Am 13. April." }
+          {
+            "text": "Am 23. April.",
+            "correct": true
+          },
+          {
+            "text": "Am 3. April."
+          },
+          {
+            "text": "Am 20. April."
+          },
+          {
+            "text": "Am 13. April."
+          }
         ],
         "explanation": "twenty-third heißt der 23. Nur third wäre der 3., twentieth wäre der 20. und thirteenth wäre der 13. Die Endung -teen und die Endung -ty klingen am Telefon fast gleich. Deshalb wiederholst du das Datum immer laut."
       }
@@ -26,12 +35,24 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "How" },
-          { "text": "many" },
-          { "text": "nights" },
-          { "text": "do" },
-          { "text": "you" },
-          { "text": "need?" }
+          {
+            "text": "How"
+          },
+          {
+            "text": "many"
+          },
+          {
+            "text": "nights"
+          },
+          {
+            "text": "do"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "need?"
+          }
         ]
       }
     },
@@ -41,10 +62,38 @@
         "prompt": "Sätze aus dem Buchungsgespräch: Was gehört zusammen? Links Englisch, rechts Deutsch.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Which dates did you have in mind? 📅" }, "right": { "text": "An welche Tage haben Sie gedacht?" } },
-          { "left": { "text": "How many people are staying? 🛏️" }, "right": { "text": "Wie viele Personen übernachten?" } },
-          { "left": { "text": "The deposit is fifty euros. 💶" }, "right": { "text": "Die Anzahlung beträgt fünfzig Euro." } },
-          { "left": { "text": "Do you need a parking space? 🚗" }, "right": { "text": "Brauchen Sie einen Parkplatz?" } }
+          {
+            "left": {
+              "text": "Which dates did you have in mind? 📅"
+            },
+            "right": {
+              "text": "An welche Tage haben Sie gedacht?"
+            }
+          },
+          {
+            "left": {
+              "text": "How many people are staying? 🛏️"
+            },
+            "right": {
+              "text": "Wie viele Personen übernachten?"
+            }
+          },
+          {
+            "left": {
+              "text": "The deposit is fifty euros. 💶"
+            },
+            "right": {
+              "text": "Die Anzahlung beträgt fünfzig Euro."
+            }
+          },
+          {
+            "left": {
+              "text": "Do you need a parking space? 🚗"
+            },
+            "right": {
+              "text": "Brauchen Sie einen Parkplatz?"
+            }
+          }
         ],
         "memory": false
       }
@@ -56,13 +105,27 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "apartment" },
-          { "text": "is" },
-          { "text": "available" },
-          { "text": "in" },
-          { "text": "early" },
-          { "text": "June." }
+          {
+            "text": "The"
+          },
+          {
+            "text": "apartment"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "available"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "early"
+          },
+          {
+            "text": "June."
+          }
         ]
       }
     },
@@ -72,10 +135,19 @@
         "prompt": "Du willst wissen, wann die Gäste am Sonntag ankommen. 🕒 Welche Frage ist richtig?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "What time do you arrive on Sunday?", "correct": true },
-          { "text": "What time arrive you on Sunday?" },
-          { "text": "What time you arrive on Sunday?" },
-          { "text": "Do you what time arrive on Sunday?" }
+          {
+            "text": "What time do you arrive on Sunday?",
+            "correct": true
+          },
+          {
+            "text": "What time arrive you on Sunday?"
+          },
+          {
+            "text": "What time you arrive on Sunday?"
+          },
+          {
+            "text": "Do you what time arrive on Sunday?"
+          }
         ],
         "explanation": "Die Reihenfolge ist immer gleich: Fragewort, dann do, dann die Person, dann das Verb. What time arrive you ist die deutsche Reihenfolge und im Englischen falsch. Bei What time you arrive fehlt das do. Und im letzten Satz steht do ganz vorne, das gehört nur zu Ja-Nein-Fragen wie Do you have a car?"
       }
@@ -87,14 +159,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "Could" },
-          { "text": "you" },
-          { "text": "send" },
-          { "text": "me" },
-          { "text": "your" },
-          { "text": "email" },
-          { "text": "address," },
-          { "text": "please?" }
+          {
+            "text": "Could"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "send"
+          },
+          {
+            "text": "me"
+          },
+          {
+            "text": "your"
+          },
+          {
+            "text": "email"
+          },
+          {
+            "text": "address,"
+          },
+          {
+            "text": "please?"
+          }
         ]
       }
     },
@@ -104,16 +192,42 @@
         "prompt": "Geht es in dem Satz um die Zeit oder um das Geld? Sortiere die Sätze.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "zeit", "label": "Datum und Uhrzeit", "icon": "📅" },
-          { "id": "geld", "label": "Preis und Bezahlen", "icon": "💶" }
+          {
+            "id": "zeit",
+            "label": "Datum und Uhrzeit",
+            "icon": "📅"
+          },
+          {
+            "id": "geld",
+            "label": "Preis und Bezahlen",
+            "icon": "💶"
+          }
         ],
         "items": [
-          { "text": "Check-in starts at four in the afternoon.", "bucket": "zeit" },
-          { "text": "You arrive on the eighth of May.", "bucket": "zeit" },
-          { "text": "The last night is Sunday the fifteenth.", "bucket": "zeit" },
-          { "text": "The total is six hundred euros.", "bucket": "geld" },
-          { "text": "We ask for a deposit of fifty euros.", "bucket": "geld" },
-          { "text": "You can pay the rest in cash.", "bucket": "geld" }
+          {
+            "text": "Check-in starts at four in the afternoon.",
+            "bucket": "zeit"
+          },
+          {
+            "text": "You arrive on the eighth of May.",
+            "bucket": "zeit"
+          },
+          {
+            "text": "The last night is Sunday the fifteenth.",
+            "bucket": "zeit"
+          },
+          {
+            "text": "The total is six hundred euros.",
+            "bucket": "geld"
+          },
+          {
+            "text": "We ask for a deposit of fifty euros.",
+            "bucket": "geld"
+          },
+          {
+            "text": "You can pay the rest in cash.",
+            "bucket": "geld"
+          }
         ]
       }
     },
@@ -124,15 +238,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "price" },
-          { "text": "for" },
-          { "text": "four" },
-          { "text": "nights" },
-          { "text": "is" },
-          { "text": "three" },
-          { "text": "hundred" },
-          { "text": "euros." }
+          {
+            "text": "The"
+          },
+          {
+            "text": "price"
+          },
+          {
+            "text": "for"
+          },
+          {
+            "text": "four"
+          },
+          {
+            "text": "nights"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "three"
+          },
+          {
+            "text": "hundred"
+          },
+          {
+            "text": "euros."
+          }
         ]
       }
     },
@@ -142,10 +274,19 @@
         "prompt": "Du fragst den Gast, wie er bezahlen möchte. 💳 Er antwortet: I'd rather pay by card. Was heißt das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Er zahlt lieber mit Karte.", "correct": true },
-          { "text": "Er zahlt lieber bar." },
-          { "text": "Er zahlt erst später mit Karte." },
-          { "text": "Er hat schon mit Karte bezahlt." }
+          {
+            "text": "Er zahlt lieber mit Karte.",
+            "correct": true
+          },
+          {
+            "text": "Er zahlt lieber bar."
+          },
+          {
+            "text": "Er zahlt erst später mit Karte."
+          },
+          {
+            "text": "Er hat schon mit Karte bezahlt."
+          }
         ],
         "explanation": "I'd rather ist die Kurzform von I would rather und heißt: lieber. To pay by card heißt: mit Karte bezahlen. Bar wäre in cash. Er hat noch nicht bezahlt, und er will es auch nicht aufschieben. Er sagt nur, womit er am liebsten bezahlt."
       }
@@ -157,14 +298,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "can" },
-          { "text": "hold" },
-          { "text": "the" },
-          { "text": "apartment" },
-          { "text": "until" },
-          { "text": "Friday" },
-          { "text": "evening." }
+          {
+            "text": "We"
+          },
+          {
+            "text": "can"
+          },
+          {
+            "text": "hold"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "apartment"
+          },
+          {
+            "text": "until"
+          },
+          {
+            "text": "Friday"
+          },
+          {
+            "text": "evening."
+          }
         ]
       }
     }

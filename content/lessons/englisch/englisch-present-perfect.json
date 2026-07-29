@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-present-perfect",
   "title": "Present Perfect oder Simple Past?",
-  "sort": 29,
+  "sort": 30,
   "intro": "⏳ Das Present Perfect baust du mit have oder has und der dritten Form des Verbs. Du nimmst es, wenn der Zeitpunkt egal ist.\n\n> The guests have arrived. = Die Gäste sind angekommen.\n\nDiese Wörter passen zum Present Perfect: ever, never, already, yet, since und for.\n\nNennst du einen Zeitpunkt, der vorbei ist, brauchst du das Simple Past. Zum Beispiel yesterday, last week oder in 2020.\n\n> The guests arrived last night. = Die Gäste sind gestern Abend angekommen.\n\nAchtung: Im Deutschen heißt es beide Male sind angekommen. Im Englischen musst du die Zeit wechseln, sobald ein Zeitpunkt dabei steht.\n\nMERKE: Zeitpunkt genannt und vorbei: Simple Past. Kein Zeitpunkt oder bis jetzt: Present Perfect.",
   "exercises": [
     {
@@ -11,10 +11,22 @@
         "prompt": "Ein Gast schreibt: I have already paid for the room. 💶 Was bedeutet das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Ich habe das Zimmer schon bezahlt.", "correct": true },
-          { "text": "Ich bezahle das Zimmer gleich.", "correct": false },
-          { "text": "Ich bezahle das Zimmer immer im Voraus.", "correct": false },
-          { "text": "Ich hatte das Zimmer schon bezahlt, bevor ich ankam.", "correct": false }
+          {
+            "text": "Ich habe das Zimmer schon bezahlt.",
+            "correct": true
+          },
+          {
+            "text": "Ich bezahle das Zimmer gleich.",
+            "correct": false
+          },
+          {
+            "text": "Ich bezahle das Zimmer immer im Voraus.",
+            "correct": false
+          },
+          {
+            "text": "Ich hatte das Zimmer schon bezahlt, bevor ich ankam.",
+            "correct": false
+          }
         ],
         "explanation": "have already paid ist Present Perfect. Die Sache ist erledigt, der Zeitpunkt spielt keine Rolle. Ich bezahle gleich wäre I will pay in a minute. Ich bezahle immer im Voraus wäre I always pay in advance. Und für Ich hatte schon bezahlt bräuchtest du I had already paid."
       }
@@ -25,10 +37,22 @@
         "prompt": "Setze richtig ein: We ___ the kitchen last Saturday. 🧽",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "cleaned", "correct": true },
-          { "text": "have cleaned", "correct": false },
-          { "text": "has cleaned", "correct": false },
-          { "text": "have clean", "correct": false }
+          {
+            "text": "cleaned",
+            "correct": true
+          },
+          {
+            "text": "have cleaned",
+            "correct": false
+          },
+          {
+            "text": "has cleaned",
+            "correct": false
+          },
+          {
+            "text": "have clean",
+            "correct": false
+          }
         ],
         "explanation": "last Saturday ist ein Zeitpunkt, der vorbei ist. Dann steht das Simple Past: cleaned. have cleaned ist Present Perfect und passt nicht zu einem genannten Zeitpunkt. has gehört außerdem nur zu he, she oder it. Und have clean gibt es nicht, die dritte Form heißt cleaned."
       }
@@ -40,15 +64,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "I" },
-          { "text": "have" },
-          { "text": "already" },
-          { "text": "made" },
-          { "text": "the" },
-          { "text": "beds" },
-          { "text": "for" },
-          { "text": "our" },
-          { "text": "guests" }
+          {
+            "text": "I"
+          },
+          {
+            "text": "have"
+          },
+          {
+            "text": "already"
+          },
+          {
+            "text": "made"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "beds"
+          },
+          {
+            "text": "for"
+          },
+          {
+            "text": "our"
+          },
+          {
+            "text": "guests"
+          }
         ]
       }
     },
@@ -58,16 +100,42 @@
         "prompt": "Welches Wort zeigt dir welche Zeit? Sortiere die Signalwörter. 🕰️",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "perfect", "label": "Present Perfect (have/has + 3. Form)", "icon": "🔁" },
-          { "id": "past", "label": "Simple Past", "icon": "📅" }
+          {
+            "id": "perfect",
+            "label": "Present Perfect (have/has + 3. Form)",
+            "icon": "🔁"
+          },
+          {
+            "id": "past",
+            "label": "Simple Past",
+            "icon": "📅"
+          }
         ],
         "items": [
-          { "text": "never", "bucket": "perfect" },
-          { "text": "yesterday", "bucket": "past" },
-          { "text": "already", "bucket": "perfect" },
-          { "text": "last summer", "bucket": "past" },
-          { "text": "yet", "bucket": "perfect" },
-          { "text": "in 2019", "bucket": "past" }
+          {
+            "text": "never",
+            "bucket": "perfect"
+          },
+          {
+            "text": "yesterday",
+            "bucket": "past"
+          },
+          {
+            "text": "already",
+            "bucket": "perfect"
+          },
+          {
+            "text": "last summer",
+            "bucket": "past"
+          },
+          {
+            "text": "yet",
+            "bucket": "perfect"
+          },
+          {
+            "text": "in 2019",
+            "bucket": "past"
+          }
         ]
       }
     },
@@ -77,10 +145,22 @@
         "prompt": "Du willst sagen: Ich habe die Handtücher noch nicht gewechselt. 🧺 Welcher Satz stimmt?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "I haven't changed the towels yet.", "correct": true },
-          { "text": "I didn't changed the towels yet.", "correct": false },
-          { "text": "I haven't change the towels yet.", "correct": false },
-          { "text": "I don't have changed the towels yet.", "correct": false }
+          {
+            "text": "I haven't changed the towels yet.",
+            "correct": true
+          },
+          {
+            "text": "I didn't changed the towels yet.",
+            "correct": false
+          },
+          {
+            "text": "I haven't change the towels yet.",
+            "correct": false
+          },
+          {
+            "text": "I don't have changed the towels yet.",
+            "correct": false
+          }
         ],
         "explanation": "yet zeigt: Es reicht bis jetzt. Darum Present Perfect mit haven't und der dritten Form changed. Nach didn't steht immer die Grundform, also didn't change. haven't change ist die Grundform statt der dritten Form. Und I don't have changed ist wörtlich aus dem Deutschen übersetzt, das gibt es im Englischen nicht."
       }
@@ -92,13 +172,27 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "painted" },
-          { "text": "the" },
-          { "text": "living" },
-          { "text": "room" },
-          { "text": "last" },
-          { "text": "week" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "painted"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "living"
+          },
+          {
+            "text": "room"
+          },
+          {
+            "text": "last"
+          },
+          {
+            "text": "week"
+          }
         ]
       }
     },
@@ -108,10 +202,22 @@
         "prompt": "Welcher Satz ist richtig gebaut? 🧩",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "I finished the ironing an hour ago.", "correct": true },
-          { "text": "I have finished the ironing an hour ago.", "correct": false },
-          { "text": "I have finish the ironing an hour ago.", "correct": false },
-          { "text": "I have finished the ironing yesterday.", "correct": false }
+          {
+            "text": "I finished the ironing an hour ago.",
+            "correct": true
+          },
+          {
+            "text": "I have finished the ironing an hour ago.",
+            "correct": false
+          },
+          {
+            "text": "I have finish the ironing an hour ago.",
+            "correct": false
+          },
+          {
+            "text": "I have finished the ironing yesterday.",
+            "correct": false
+          }
         ],
         "explanation": "an hour ago nennt einen Zeitpunkt, der vorbei ist. Dann brauchst du das Simple Past: I finished. Mit have finished wäre es Present Perfect, und das passt nie zu ago. Bei have finish fehlt zusätzlich die dritte Form. Und yesterday ist genauso ein abgeschlossener Zeitpunkt, dort müsste es I finished heißen."
       }
@@ -122,10 +228,38 @@
         "prompt": "Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung. Achte auf den Zeitpunkt.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "I have just cleaned the bathroom." }, "right": { "text": "Ich habe das Bad gerade geputzt." } },
-          { "left": { "text": "She has never eaten Swiss cheese." }, "right": { "text": "Sie hat noch nie Schweizer Käse gegessen." } },
-          { "left": { "text": "We booked the flight in March." }, "right": { "text": "Wir haben den Flug im März gebucht." } },
-          { "left": { "text": "They arrived two hours ago." }, "right": { "text": "Sie sind vor zwei Stunden angekommen." } }
+          {
+            "left": {
+              "text": "I have just cleaned the bathroom."
+            },
+            "right": {
+              "text": "Ich habe das Bad gerade geputzt."
+            }
+          },
+          {
+            "left": {
+              "text": "She has never eaten Swiss cheese."
+            },
+            "right": {
+              "text": "Sie hat noch nie Schweizer Käse gegessen."
+            }
+          },
+          {
+            "left": {
+              "text": "We booked the flight in March."
+            },
+            "right": {
+              "text": "Wir haben den Flug im März gebucht."
+            }
+          },
+          {
+            "left": {
+              "text": "They arrived two hours ago."
+            },
+            "right": {
+              "text": "Sie sind vor zwei Stunden angekommen."
+            }
+          }
         ],
         "memory": false
       }
@@ -136,10 +270,22 @@
         "prompt": "Setze richtig ein: My parents have rented out the flat ___ ten years. 🏠",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "for", "correct": true },
-          { "text": "since", "correct": false },
-          { "text": "from", "correct": false },
-          { "text": "during", "correct": false }
+          {
+            "text": "for",
+            "correct": true
+          },
+          {
+            "text": "since",
+            "correct": false
+          },
+          {
+            "text": "from",
+            "correct": false
+          },
+          {
+            "text": "during",
+            "correct": false
+          }
         ],
         "explanation": "for nennt die Dauer: for ten years, also zehn Jahre lang. since nennt dagegen den Startpunkt: since 2016. from braucht ein Ende dazu: from Monday to Friday. Und during gehört zu einem Ereignis: during the holidays."
       }
@@ -150,9 +296,18 @@
         "prompt": "Woran erkennst du, dass du das Simple Past brauchst? 🤔",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Im Satz steht ein Zeitpunkt, der vorbei ist, zum Beispiel last week.", "correct": true },
-          { "text": "Im Satz steht ein Wort wie never, already oder yet.", "correct": false },
-          { "text": "Im Satz steht have oder has vor dem Verb.", "correct": false }
+          {
+            "text": "Im Satz steht ein Zeitpunkt, der vorbei ist, zum Beispiel last week.",
+            "correct": true
+          },
+          {
+            "text": "Im Satz steht ein Wort wie never, already oder yet.",
+            "correct": false
+          },
+          {
+            "text": "Im Satz steht have oder has vor dem Verb.",
+            "correct": false
+          }
         ],
         "explanation": "Ein abgeschlossener Zeitpunkt wie yesterday, last week oder in 2020 verlangt das Simple Past. never, already und yet zeigen dagegen das Present Perfect an. Und have oder has vor der dritten Form ist selbst schon Present Perfect, also gerade kein Hinweis auf das Simple Past."
       }

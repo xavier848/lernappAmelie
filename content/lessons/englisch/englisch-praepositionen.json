@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-praepositionen",
   "title": "in, on, at & Co.",
-  "sort": 34,
+  "sort": 35,
   "intro": "📍 Die kleinen Wörter in, on und at sagen, WO oder WANN etwas ist.\n\nBeim Ort gilt: in heißt drinnen, on heißt auf einer Fläche, at heißt an einem Punkt.\n\n> The key is in the drawer, and the map is on the table. = Der Schlüssel ist in der Schublade, und die Karte liegt auf dem Tisch.\n\nMERKE: Beim Ort: in = drinnen, on = obendrauf, at = an einem Punkt.\n\nBei der Zeit ist es anders: at für Uhrzeiten, on für Tage und Daten, in für Monate, Jahreszeiten und Tageszeiten.\n\n> My exam starts at ten o'clock on Friday. = Meine Prüfung beginnt am Freitag um zehn Uhr.\n\nMERKE: Tageszeiten mit in: in the morning, in the evening. Die Nacht ist die Ausnahme: at night.",
   "exercises": [
     {
@@ -11,10 +11,22 @@
         "prompt": "Ein Gast fragt nach dem Frühstück. Setze beide Wörter ein: Breakfast is ___ eight o'clock ___ Sunday. 🍳",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "at … on", "correct": true },
-          { "text": "on … at", "correct": false },
-          { "text": "in … on", "correct": false },
-          { "text": "at … in", "correct": false }
+          {
+            "text": "at … on",
+            "correct": true
+          },
+          {
+            "text": "on … at",
+            "correct": false
+          },
+          {
+            "text": "in … on",
+            "correct": false
+          },
+          {
+            "text": "at … in",
+            "correct": false
+          }
         ],
         "explanation": "Uhrzeiten stehen immer mit at: at eight o'clock. Tage stehen immer mit on: on Sunday. Deshalb ist on … at genau vertauscht. In passt weder zur Uhrzeit noch zum Tag, sondern nur zu Monaten, Jahreszeiten und Tageszeiten, also in July oder in the morning."
       }
@@ -25,10 +37,22 @@
         "prompt": "Es klingelt. Deine Mutter ruft: There is someone ___ the door. 🚪 Was gehört in die Lücke?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "at", "correct": true },
-          { "text": "on", "correct": false },
-          { "text": "in", "correct": false },
-          { "text": "next", "correct": false }
+          {
+            "text": "at",
+            "correct": true
+          },
+          {
+            "text": "on",
+            "correct": false
+          },
+          {
+            "text": "in",
+            "correct": false
+          },
+          {
+            "text": "next",
+            "correct": false
+          }
         ],
         "explanation": "At zeigt einen Punkt: Die Person steht an der Tür. On the door hieße auf der Tür, dort hängt zum Beispiel ein Schild. In the door hieße in der Tür, so wie ein Schlüssel im Schloss steckt. Next gibt es nie allein, es heißt immer next to."
       }
@@ -39,16 +63,42 @@
         "prompt": "Sortiere die Zeitangaben. Kommt at oder on davor? 🕗",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "at", "label": "at", "icon": "🕗" },
-          { "id": "on", "label": "on", "icon": "📅" }
+          {
+            "id": "at",
+            "label": "at",
+            "icon": "🕗"
+          },
+          {
+            "id": "on",
+            "label": "on",
+            "icon": "📅"
+          }
         ],
         "items": [
-          { "text": "eight o'clock", "bucket": "at" },
-          { "text": "Monday", "bucket": "on" },
-          { "text": "half past six", "bucket": "at" },
-          { "text": "24 December", "bucket": "on" },
-          { "text": "night", "bucket": "at" },
-          { "text": "my birthday", "bucket": "on" }
+          {
+            "text": "eight o'clock",
+            "bucket": "at"
+          },
+          {
+            "text": "Monday",
+            "bucket": "on"
+          },
+          {
+            "text": "half past six",
+            "bucket": "at"
+          },
+          {
+            "text": "24 December",
+            "bucket": "on"
+          },
+          {
+            "text": "night",
+            "bucket": "at"
+          },
+          {
+            "text": "my birthday",
+            "bucket": "on"
+          }
         ]
       }
     },
@@ -59,14 +109,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "towels" },
-          { "text": "are" },
-          { "text": "in" },
-          { "text": "the" },
-          { "text": "cupboard" },
-          { "text": "behind" },
-          { "text": "you" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "towels"
+          },
+          {
+            "text": "are"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "cupboard"
+          },
+          {
+            "text": "behind"
+          },
+          {
+            "text": "you"
+          }
         ]
       }
     },
@@ -76,10 +142,22 @@
         "prompt": "Setze beide Wörter ein: We serve breakfast ___ the morning and we lock the front door ___ night. 🔑",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "in … at", "correct": true },
-          { "text": "at … in", "correct": false },
-          { "text": "in … in", "correct": false },
-          { "text": "at … at", "correct": false }
+          {
+            "text": "in … at",
+            "correct": true
+          },
+          {
+            "text": "at … in",
+            "correct": false
+          },
+          {
+            "text": "in … in",
+            "correct": false
+          },
+          {
+            "text": "at … at",
+            "correct": false
+          }
         ],
         "explanation": "Tageszeiten stehen mit in: in the morning, in the afternoon, in the evening. Die Nacht ist die Ausnahme, sie heißt at night und steht ohne the. Darum sind in night und at the morning falsch."
       }
@@ -90,10 +168,38 @@
         "prompt": "Je zwei Sätze sind fast gleich. Nur das kleine Wort in der Mitte ist anders. Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "The suitcase is under the bed." }, "right": { "text": "Der Koffer ist unter dem Bett." } },
-          { "left": { "text": "The suitcase is behind the bed." }, "right": { "text": "Der Koffer ist hinter dem Bett." } },
-          { "left": { "text": "The bakery is next to the bus stop." }, "right": { "text": "Die Bäckerei ist neben der Bushaltestelle." } },
-          { "left": { "text": "The bakery is opposite the bus stop." }, "right": { "text": "Die Bäckerei ist gegenüber der Bushaltestelle." } }
+          {
+            "left": {
+              "text": "The suitcase is under the bed."
+            },
+            "right": {
+              "text": "Der Koffer ist unter dem Bett."
+            }
+          },
+          {
+            "left": {
+              "text": "The suitcase is behind the bed."
+            },
+            "right": {
+              "text": "Der Koffer ist hinter dem Bett."
+            }
+          },
+          {
+            "left": {
+              "text": "The bakery is next to the bus stop."
+            },
+            "right": {
+              "text": "Die Bäckerei ist neben der Bushaltestelle."
+            }
+          },
+          {
+            "left": {
+              "text": "The bakery is opposite the bus stop."
+            },
+            "right": {
+              "text": "Die Bäckerei ist gegenüber der Bushaltestelle."
+            }
+          }
         ],
         "memory": false
       }
@@ -104,10 +210,22 @@
         "prompt": "Manche Wendungen musst du einfach auswendig lernen. Welcher Satz stimmt? 🏠",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "My parents are at home in the evening.", "correct": true },
-          { "text": "My parents are in home in the evening.", "correct": false },
-          { "text": "My parents are at home at the evening.", "correct": false },
-          { "text": "My parents are in home at the evening.", "correct": false }
+          {
+            "text": "My parents are at home in the evening.",
+            "correct": true
+          },
+          {
+            "text": "My parents are in home in the evening.",
+            "correct": false
+          },
+          {
+            "text": "My parents are at home at the evening.",
+            "correct": false
+          },
+          {
+            "text": "My parents are in home at the evening.",
+            "correct": false
+          }
         ],
         "explanation": "At home ist eine feste Wendung für zu Hause. In home gibt es im Englischen nicht, auch wenn man es vom Deutschen her erwarten würde. Und die Tageszeit heißt in the evening, nicht at the evening. Von den Tageszeiten steht nur die Nacht mit at: at night."
       }
@@ -118,16 +236,42 @@
         "prompt": "Die gleichen kleinen Wörter machen zwei Jobs. Sagt die Wendung, WO oder WANN etwas ist? 🔎",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "ort", "label": "Ort: WO?", "icon": "📍" },
-          { "id": "zeit", "label": "Zeit: WANN?", "icon": "🕗" }
+          {
+            "id": "ort",
+            "label": "Ort: WO?",
+            "icon": "📍"
+          },
+          {
+            "id": "zeit",
+            "label": "Zeit: WANN?",
+            "icon": "🕗"
+          }
         ],
         "items": [
-          { "text": "at the bus stop", "bucket": "ort" },
-          { "text": "at half past six", "bucket": "zeit" },
-          { "text": "in the living room", "bucket": "ort" },
-          { "text": "in July", "bucket": "zeit" },
-          { "text": "on the kitchen table", "bucket": "ort" },
-          { "text": "on Tuesday", "bucket": "zeit" }
+          {
+            "text": "at the bus stop",
+            "bucket": "ort"
+          },
+          {
+            "text": "at half past six",
+            "bucket": "zeit"
+          },
+          {
+            "text": "in the living room",
+            "bucket": "ort"
+          },
+          {
+            "text": "in July",
+            "bucket": "zeit"
+          },
+          {
+            "text": "on the kitchen table",
+            "bucket": "ort"
+          },
+          {
+            "text": "on Tuesday",
+            "bucket": "zeit"
+          }
         ]
       }
     },
@@ -138,14 +282,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "serve" },
-          { "text": "breakfast" },
-          { "text": "on" },
-          { "text": "Sunday" },
-          { "text": "at" },
-          { "text": "nine" },
-          { "text": "o'clock" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "serve"
+          },
+          {
+            "text": "breakfast"
+          },
+          {
+            "text": "on"
+          },
+          {
+            "text": "Sunday"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "nine"
+          },
+          {
+            "text": "o'clock"
+          }
         ]
       }
     },
@@ -155,10 +315,22 @@
         "prompt": "Bei der Zeit: Wann nimmst du at, wann on, wann in? 🤔",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "at bei Uhrzeiten, on bei Tagen und Daten, in bei Monaten, Jahreszeiten und Tageszeiten.", "correct": true },
-          { "text": "at bei Tagen und Daten, on bei Uhrzeiten, in bei Monaten, Jahreszeiten und Tageszeiten.", "correct": false },
-          { "text": "at bei Uhrzeiten, on bei Monaten und Jahreszeiten, in bei Tagen und Daten.", "correct": false },
-          { "text": "in bei Uhrzeiten, at bei Monaten und Jahreszeiten, on bei Tagen und Tageszeiten.", "correct": false }
+          {
+            "text": "at bei Uhrzeiten, on bei Tagen und Daten, in bei Monaten, Jahreszeiten und Tageszeiten.",
+            "correct": true
+          },
+          {
+            "text": "at bei Tagen und Daten, on bei Uhrzeiten, in bei Monaten, Jahreszeiten und Tageszeiten.",
+            "correct": false
+          },
+          {
+            "text": "at bei Uhrzeiten, on bei Monaten und Jahreszeiten, in bei Tagen und Daten.",
+            "correct": false
+          },
+          {
+            "text": "in bei Uhrzeiten, at bei Monaten und Jahreszeiten, on bei Tagen und Tageszeiten.",
+            "correct": false
+          }
         ],
         "explanation": "Richtig ist: at eight o'clock, on Monday, on 24 December, in July, in summer, in the morning. At und on sind nicht vertauschbar: at Monday und on eight o'clock gibt es nicht. Auch on July und in Monday sind falsch, denn Monate stehen mit in und Tage mit on. Denk an die Ausnahme bei den Tageszeiten: at night."
       }

@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-wohnung-zeigen-2",
   "title": "Die Wohnung zeigen II",
-  "sort": 47,
+  "sort": 48,
   "intro": "🏠 Du zeigst den Gästen die Wohnung. Du erklärst, wo etwas ist und wie es funktioniert.\n\nMERKE: Reihenfolge im Englischen: wer – Verb – was – wo – wann.\n\n> We take the rubbish downstairs every evening. = Wir bringen den Müll jeden Abend nach unten.\n\nDer Ort (downstairs) steht vor der Zeit (every evening). Im Deutschen ist es oft umgekehrt.\n\n> Please close the windows at night. = Bitte schließen Sie nachts die Fenster.\n\nBei einer Bitte steht please ganz vorne. Danach kommt sofort das Verb.",
   "exercises": [
     {
@@ -11,10 +11,38 @@
         "prompt": "Hausregeln und Geräte: Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "The tumble dryer is in the cellar. 🧺" }, "right": { "text": "Der Trockner steht im Keller." } },
-          { "left": { "text": "Quiet hours start at half past ten. 🤫" }, "right": { "text": "Die Ruhezeit beginnt um halb elf." } },
-          { "left": { "text": "Please separate paper and plastic. ♻️" }, "right": { "text": "Bitte trennen Sie Papier und Plastik." } },
-          { "left": { "text": "The spare key hangs by the door. 🔑" }, "right": { "text": "Der Ersatzschlüssel hängt neben der Tür." } }
+          {
+            "left": {
+              "text": "The tumble dryer is in the cellar. 🧺"
+            },
+            "right": {
+              "text": "Der Trockner steht im Keller."
+            }
+          },
+          {
+            "left": {
+              "text": "Quiet hours start at half past ten. 🤫"
+            },
+            "right": {
+              "text": "Die Ruhezeit beginnt um halb elf."
+            }
+          },
+          {
+            "left": {
+              "text": "Please separate paper and plastic. ♻️"
+            },
+            "right": {
+              "text": "Bitte trennen Sie Papier und Plastik."
+            }
+          },
+          {
+            "left": {
+              "text": "The spare key hangs by the door. 🔑"
+            },
+            "right": {
+              "text": "Der Ersatzschlüssel hängt neben der Tür."
+            }
+          }
         ],
         "memory": false
       }
@@ -26,12 +54,24 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "bin" },
-          { "text": "is" },
-          { "text": "under" },
-          { "text": "the" },
-          { "text": "sink" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "bin"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "under"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "sink"
+          }
         ]
       }
     },
@@ -41,9 +81,16 @@
         "prompt": "Ein Gast fragt: How does the dishwasher work? Was möchte er wissen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Wie funktioniert die Spülmaschine?", "correct": true },
-          { "text": "Wo steht die Spülmaschine?" },
-          { "text": "Wie lange läuft die Spülmaschine?" }
+          {
+            "text": "Wie funktioniert die Spülmaschine?",
+            "correct": true
+          },
+          {
+            "text": "Wo steht die Spülmaschine?"
+          },
+          {
+            "text": "Wie lange läuft die Spülmaschine?"
+          }
         ],
         "explanation": "How does … work? heißt: Wie funktioniert …? Nach dem Ort fragt man mit Where, nach der Dauer mit How long. Beides steht hier nicht im Satz."
       }
@@ -55,14 +102,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "You" },
-          { "text": "can" },
-          { "text": "adjust" },
-          { "text": "the" },
-          { "text": "heating" },
-          { "text": "with" },
-          { "text": "this" },
-          { "text": "dial" }
+          {
+            "text": "You"
+          },
+          {
+            "text": "can"
+          },
+          {
+            "text": "adjust"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "heating"
+          },
+          {
+            "text": "with"
+          },
+          {
+            "text": "this"
+          },
+          {
+            "text": "dial"
+          }
         ]
       }
     },
@@ -72,16 +135,42 @@
         "prompt": "Geht es um Technik im Haus oder um den Müll? Sortiere die Sätze.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "geraete", "label": "Geräte & Technik", "icon": "🔌" },
-          { "id": "muell", "label": "Müll & Recycling", "icon": "🗑️" }
+          {
+            "id": "geraete",
+            "label": "Geräte & Technik",
+            "icon": "🔌"
+          },
+          {
+            "id": "muell",
+            "label": "Müll & Recycling",
+            "icon": "🗑️"
+          }
         ],
         "items": [
-          { "text": "Press the green button to start the washing machine.", "bucket": "geraete" },
-          { "text": "The oven takes ten minutes to heat up.", "bucket": "geraete" },
-          { "text": "The kettle switches itself off.", "bucket": "geraete" },
-          { "text": "Paper and cardboard go in the blue bin.", "bucket": "muell" },
-          { "text": "Food waste goes in the brown bin.", "bucket": "muell" },
-          { "text": "The yellow bag is for plastic packaging.", "bucket": "muell" }
+          {
+            "text": "Press the green button to start the washing machine.",
+            "bucket": "geraete"
+          },
+          {
+            "text": "The oven takes ten minutes to heat up.",
+            "bucket": "geraete"
+          },
+          {
+            "text": "The kettle switches itself off.",
+            "bucket": "geraete"
+          },
+          {
+            "text": "Paper and cardboard go in the blue bin.",
+            "bucket": "muell"
+          },
+          {
+            "text": "Food waste goes in the brown bin.",
+            "bucket": "muell"
+          },
+          {
+            "text": "The yellow bag is for plastic packaging.",
+            "bucket": "muell"
+          }
         ]
       }
     },
@@ -91,9 +180,16 @@
         "prompt": "Du erklärst, wohin die Glasflaschen kommen – zum Altglascontainer (bottle bank). 🍾 Welcher Satz ist richtig?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "You take the glass bottles to the bottle bank.", "correct": true },
-          { "text": "You take to the bottle bank the glass bottles." },
-          { "text": "You take the glass bottles the bottle bank to." }
+          {
+            "text": "You take the glass bottles to the bottle bank.",
+            "correct": true
+          },
+          {
+            "text": "You take to the bottle bank the glass bottles."
+          },
+          {
+            "text": "You take the glass bottles the bottle bank to."
+          }
         ],
         "explanation": "Erst das Ding (the glass bottles), dann der Ort (to the bottle bank). Satz 2 stellt den Ort vor das Ding. In Satz 3 rutscht das kleine Wort to ans Ende – das gibt es im Englischen nicht."
       }
@@ -105,14 +201,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "wifi" },
-          { "text": "password" },
-          { "text": "is" },
-          { "text": "written" },
-          { "text": "on" },
-          { "text": "the" },
-          { "text": "fridge" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "wifi"
+          },
+          {
+            "text": "password"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "written"
+          },
+          {
+            "text": "on"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "fridge"
+          }
         ]
       }
     },
@@ -122,9 +234,16 @@
         "prompt": "Du sagst, wann ihr die Mülltonnen rausstellt. 🗑️ Welcher Satz ist richtig?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "We put the bins outside on Wednesday morning.", "correct": true },
-          { "text": "We put on Wednesday morning the bins outside." },
-          { "text": "On Wednesday morning put we the bins outside." }
+          {
+            "text": "We put the bins outside on Wednesday morning.",
+            "correct": true
+          },
+          {
+            "text": "We put on Wednesday morning the bins outside."
+          },
+          {
+            "text": "On Wednesday morning put we the bins outside."
+          }
         ],
         "explanation": "Reihenfolge: wer – Verb – was – wo – wann. Die Zeit (on Wednesday morning) steht ganz hinten. In Satz 2 steht die Zeit viel zu früh. In Satz 3 steht das Verb vor dem wer – so macht man es im Deutschen, nicht im Englischen."
       }
@@ -136,15 +255,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "You" },
-          { "text": "can" },
-          { "text": "find" },
-          { "text": "the" },
-          { "text": "extra" },
-          { "text": "blankets" },
-          { "text": "in" },
-          { "text": "the" },
-          { "text": "wardrobe" }
+          {
+            "text": "You"
+          },
+          {
+            "text": "can"
+          },
+          {
+            "text": "find"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "extra"
+          },
+          {
+            "text": "blankets"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "wardrobe"
+          }
         ]
       }
     },
@@ -155,15 +292,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "Please" },
-          { "text": "lock" },
-          { "text": "the" },
-          { "text": "front" },
-          { "text": "door" },
-          { "text": "when" },
-          { "text": "you" },
-          { "text": "go" },
-          { "text": "out" }
+          {
+            "text": "Please"
+          },
+          {
+            "text": "lock"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "front"
+          },
+          {
+            "text": "door"
+          },
+          {
+            "text": "when"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "go"
+          },
+          {
+            "text": "out"
+          }
         ]
       }
     }

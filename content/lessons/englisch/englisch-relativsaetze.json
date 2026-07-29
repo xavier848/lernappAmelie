@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-relativsaetze",
   "title": "who, which, that",
-  "sort": 36,
+  "sort": 37,
   "intro": "🔗 Mit who, which und that machst du aus zwei kurzen Sätzen einen langen.\n\n> The guest who arrived yesterday is from England. = Der Gast, der gestern angekommen ist, kommt aus England.\n\nwho nimmst du für Personen. which nimmst du für Sachen.\n\n> The key which opens the back door is on the hook. = Der Schlüssel, der die Hintertür öffnet, hängt am Haken.\n\nMERKE: Personen bekommen who. Sachen bekommen which. that passt bei beiden.\n\nIm Deutschen steht vor dem Relativsatz immer ein Komma. Im Englischen fehlt es, wenn der Relativsatz sagt, welche Person oder Sache genau gemeint ist.\n\nMERKE: Kein Komma und kein zweites he oder it: The guest who arrived yesterday …",
   "exercises": [
     {
@@ -11,10 +11,22 @@
         "prompt": "Der Gast, der gestern angekommen ist, kommt aus England. 🧳 Welches Wort passt? The guest ___ arrived yesterday is from England.",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "who", "correct": true },
-          { "text": "which", "correct": false },
-          { "text": "what", "correct": false },
-          { "text": "whose", "correct": false }
+          {
+            "text": "who",
+            "correct": true
+          },
+          {
+            "text": "which",
+            "correct": false
+          },
+          {
+            "text": "what",
+            "correct": false
+          },
+          {
+            "text": "whose",
+            "correct": false
+          }
         ],
         "explanation": "Ein guest ist eine Person, deshalb who. which gilt nur für Sachen. what steht nach einem Wort wie guest nie, auch wenn es im Deutschen nach das klingt. whose zeigt Besitz und braucht ein Nomen dahinter, zum Beispiel the guest whose room is ready."
       }
@@ -25,10 +37,22 @@
         "prompt": "Der Schlüssel, der die Hintertür öffnet, hängt am Haken. 🔑 The key ___ opens the back door is on the hook.",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "which", "correct": true },
-          { "text": "who", "correct": false },
-          { "text": "what", "correct": false },
-          { "text": "where", "correct": false }
+          {
+            "text": "which",
+            "correct": true
+          },
+          {
+            "text": "who",
+            "correct": false
+          },
+          {
+            "text": "what",
+            "correct": false
+          },
+          {
+            "text": "where",
+            "correct": false
+          }
         ],
         "explanation": "Ein key ist eine Sache, deshalb which. Statt which könntest du hier auch that sagen. who gehört nur zu Personen. what passt nach key nicht. where zeigt auf einen Ort, hier geht es aber um den Schlüssel selbst."
       }
@@ -40,14 +64,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "guest" },
-          { "text": "who" },
-          { "text": "arrives" },
-          { "text": "late" },
-          { "text": "gets" },
-          { "text": "the" },
-          { "text": "code" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "guest"
+          },
+          {
+            "text": "who"
+          },
+          {
+            "text": "arrives"
+          },
+          {
+            "text": "late"
+          },
+          {
+            "text": "gets"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "code"
+          }
         ]
       }
     },
@@ -57,16 +97,42 @@
         "prompt": "Person oder Sache? Sortiere: Welches Wort leitet den Relativsatz ein? 🧩",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "who", "label": "… who (Personen)", "icon": "🧑" },
-          { "id": "which", "label": "… which (Sachen)", "icon": "📦" }
+          {
+            "id": "who",
+            "label": "… who (Personen)",
+            "icon": "🧑"
+          },
+          {
+            "id": "which",
+            "label": "… which (Sachen)",
+            "icon": "📦"
+          }
         ],
         "items": [
-          { "text": "the guest from London", "bucket": "who" },
-          { "text": "the washing machine", "bucket": "which" },
-          { "text": "the neighbour next door", "bucket": "who" },
-          { "text": "the towels in the cupboard", "bucket": "which" },
-          { "text": "the woman at the door", "bucket": "who" },
-          { "text": "the key to the flat", "bucket": "which" }
+          {
+            "text": "the guest from London",
+            "bucket": "who"
+          },
+          {
+            "text": "the washing machine",
+            "bucket": "which"
+          },
+          {
+            "text": "the neighbour next door",
+            "bucket": "who"
+          },
+          {
+            "text": "the towels in the cupboard",
+            "bucket": "which"
+          },
+          {
+            "text": "the woman at the door",
+            "bucket": "who"
+          },
+          {
+            "text": "the key to the flat",
+            "bucket": "which"
+          }
         ]
       }
     },
@@ -76,10 +142,22 @@
         "prompt": "Zwei kurze Sätze: The man is our neighbour. He repaired the heating. 🔧 Wie verbindest du sie richtig?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "The man who repaired the heating is our neighbour.", "correct": true },
-          { "text": "The man which repaired the heating is our neighbour.", "correct": false },
-          { "text": "The man who he repaired the heating is our neighbour.", "correct": false },
-          { "text": "The man who repaired the heating he is our neighbour.", "correct": false }
+          {
+            "text": "The man who repaired the heating is our neighbour.",
+            "correct": true
+          },
+          {
+            "text": "The man which repaired the heating is our neighbour.",
+            "correct": false
+          },
+          {
+            "text": "The man who he repaired the heating is our neighbour.",
+            "correct": false
+          },
+          {
+            "text": "The man who repaired the heating he is our neighbour.",
+            "correct": false
+          }
         ],
         "explanation": "who steht an der Stelle von he aus dem zweiten Satz. Deshalb darf he nicht noch einmal auftauchen, weder vor noch nach dem Relativsatz. which wäre nur bei Sachen richtig, the man ist aber eine Person."
       }
@@ -90,10 +168,22 @@
         "prompt": "Welcher Satz ist richtig geschrieben? 🚲",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "The bike that is in the garage belongs to my father.", "correct": true },
-          { "text": "The bike, that is in the garage, belongs to my father.", "correct": false },
-          { "text": "The bike what is in the garage belongs to my father.", "correct": false },
-          { "text": "The bike that it is in the garage belongs to my father.", "correct": false }
+          {
+            "text": "The bike that is in the garage belongs to my father.",
+            "correct": true
+          },
+          {
+            "text": "The bike, that is in the garage, belongs to my father.",
+            "correct": false
+          },
+          {
+            "text": "The bike what is in the garage belongs to my father.",
+            "correct": false
+          },
+          {
+            "text": "The bike that it is in the garage belongs to my father.",
+            "correct": false
+          }
         ],
         "explanation": "that passt für Sachen und für Personen. Der Relativsatz sagt hier, welches Fahrrad gemeint ist. Dann steht im Englischen kein Komma, obwohl im Deutschen eines nötig wäre. what gibt es an dieser Stelle nicht. Und it fällt weg, denn that steht schon dafür."
       }
@@ -105,14 +195,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "room" },
-          { "text": "which" },
-          { "text": "has" },
-          { "text": "a" },
-          { "text": "balcony" },
-          { "text": "is" },
-          { "text": "free" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "room"
+          },
+          {
+            "text": "which"
+          },
+          {
+            "text": "has"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "balcony"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "free"
+          }
         ]
       }
     },
@@ -122,10 +228,38 @@
         "prompt": "Sätze aus dem Alltag mit der Ferienwohnung. Was gehört zusammen?",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "The guest who called yesterday arrives on Friday." }, "right": { "text": "Der Gast, der gestern angerufen hat, kommt am Freitag." } },
-          { "left": { "text": "The towels which are in the cupboard are clean." }, "right": { "text": "Die Handtücher, die im Schrank liegen, sind sauber." } },
-          { "left": { "text": "The woman who cleans the flat comes at nine." }, "right": { "text": "Die Frau, die die Wohnung putzt, kommt um neun." } },
-          { "left": { "text": "The shop that sells fresh bread closes at six." }, "right": { "text": "Der Laden, der frisches Brot verkauft, schließt um sechs." } }
+          {
+            "left": {
+              "text": "The guest who called yesterday arrives on Friday."
+            },
+            "right": {
+              "text": "Der Gast, der gestern angerufen hat, kommt am Freitag."
+            }
+          },
+          {
+            "left": {
+              "text": "The towels which are in the cupboard are clean."
+            },
+            "right": {
+              "text": "Die Handtücher, die im Schrank liegen, sind sauber."
+            }
+          },
+          {
+            "left": {
+              "text": "The woman who cleans the flat comes at nine."
+            },
+            "right": {
+              "text": "Die Frau, die die Wohnung putzt, kommt um neun."
+            }
+          },
+          {
+            "left": {
+              "text": "The shop that sells fresh bread closes at six."
+            },
+            "right": {
+              "text": "Der Laden, der frisches Brot verkauft, schließt um sechs."
+            }
+          }
         ],
         "memory": false
       }
@@ -136,9 +270,18 @@
         "prompt": "Ein Gast sagt: I'd like the room that faces the garden. 🌳 Was meint er?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Er möchte das Zimmer, das zum Garten zeigt.", "correct": true },
-          { "text": "Er möchte, dass das Zimmer zum Garten zeigt.", "correct": false },
-          { "text": "Er fragt, ob das Zimmer zum Garten zeigt.", "correct": false }
+          {
+            "text": "Er möchte das Zimmer, das zum Garten zeigt.",
+            "correct": true
+          },
+          {
+            "text": "Er möchte, dass das Zimmer zum Garten zeigt.",
+            "correct": false
+          },
+          {
+            "text": "Er fragt, ob das Zimmer zum Garten zeigt.",
+            "correct": false
+          }
         ],
         "explanation": "that hängt hier direkt am Wort room und sagt, welches Zimmer gemeint ist. Es heißt also das, nicht dass. Eine Frage ist es auch nicht, denn der Satz beginnt mit I'd like und nicht mit Does."
       }
@@ -149,10 +292,22 @@
         "prompt": "Zum Schluss die Regel auf den Punkt. 🎯 Welche Aussage stimmt?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "who für Personen, which für Sachen, that für beides.", "correct": true },
-          { "text": "who für Personen, which für Sachen, that nur für Personen.", "correct": false },
-          { "text": "who für Sachen, which für Personen, that für beides.", "correct": false },
-          { "text": "who, which und that bedeuten dasselbe. Du kannst frei wählen.", "correct": false }
+          {
+            "text": "who für Personen, which für Sachen, that für beides.",
+            "correct": true
+          },
+          {
+            "text": "who für Personen, which für Sachen, that nur für Personen.",
+            "correct": false
+          },
+          {
+            "text": "who für Sachen, which für Personen, that für beides.",
+            "correct": false
+          },
+          {
+            "text": "who, which und that bedeuten dasselbe. Du kannst frei wählen.",
+            "correct": false
+          }
         ],
         "explanation": "Personen bekommen who, Sachen bekommen which. that ist der Joker und passt bei beiden, wie in The key that opens the door. Deshalb ist that nicht auf Personen begrenzt. Und frei wählen darfst du nicht, denn who geht bei Sachen nie."
       }

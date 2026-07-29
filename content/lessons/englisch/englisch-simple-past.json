@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-simple-past",
   "title": "Gestern: Simple Past",
-  "sort": 28,
+  "sort": 29,
   "intro": "⏪ Mit dem Simple Past erzählst du, was gestern oder letzte Woche war. Die Sache ist vorbei.\n\nBei den meisten Verben hängst du einfach -ed an. Aus clean wird cleaned.\n\n> I cleaned the apartment yesterday. = Ich habe gestern die Wohnung geputzt.\n\nMERKE: Diese Verben musst du auswendig können: go/went, have/had, come/came, make/made, take/took. Und be wird was oder were.\n\nEtwas ist nicht passiert? Dann nimmst du didn't. Danach steht immer die Grundform.\n\n> The guests were tired, so they didn't go out. = Die Gäste waren müde, deshalb sind sie nicht ausgegangen.\n\nMERKE: didn't go ist richtig. didn't went ist falsch.",
   "exercises": [
     {
@@ -11,10 +11,22 @@
         "prompt": "Du hast gestern die ganze Wohnung geputzt. Welcher Satz sagt das richtig? 🧽",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "I cleaned the whole apartment yesterday.", "correct": true },
-          { "text": "I have cleaned the whole apartment yesterday.", "correct": false },
-          { "text": "I clean the whole apartment yesterday.", "correct": false },
-          { "text": "I was cleaned the whole apartment yesterday.", "correct": false }
+          {
+            "text": "I cleaned the whole apartment yesterday.",
+            "correct": true
+          },
+          {
+            "text": "I have cleaned the whole apartment yesterday.",
+            "correct": false
+          },
+          {
+            "text": "I clean the whole apartment yesterday.",
+            "correct": false
+          },
+          {
+            "text": "I was cleaned the whole apartment yesterday.",
+            "correct": false
+          }
         ],
         "explanation": "Clean ist regelmäßig, du hängst -ed an: cleaned. I have cleaned passt nicht zu yesterday, denn dieser Zeitpunkt ist klar vorbei. I clean ist Gegenwart. I was cleaned würde heißen: ich wurde geputzt."
       }
@@ -26,13 +38,27 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "went" },
-          { "text": "to" },
-          { "text": "the" },
-          { "text": "market" },
-          { "text": "yesterday" },
-          { "text": "morning" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "went"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "market"
+          },
+          {
+            "text": "yesterday"
+          },
+          {
+            "text": "morning"
+          }
         ]
       }
     },
@@ -42,10 +68,22 @@
         "prompt": "Du willst sagen: Die Gäste sind gestern nicht zum See gefahren. 🏞️ Welcher Satz ist richtig?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "The guests didn't go to the lake yesterday.", "correct": true },
-          { "text": "The guests didn't went to the lake yesterday.", "correct": false },
-          { "text": "The guests didn't gone to the lake yesterday.", "correct": false },
-          { "text": "The guests not went to the lake yesterday.", "correct": false }
+          {
+            "text": "The guests didn't go to the lake yesterday.",
+            "correct": true
+          },
+          {
+            "text": "The guests didn't went to the lake yesterday.",
+            "correct": false
+          },
+          {
+            "text": "The guests didn't gone to the lake yesterday.",
+            "correct": false
+          },
+          {
+            "text": "The guests not went to the lake yesterday.",
+            "correct": false
+          }
         ],
         "explanation": "Didn't zeigt schon, dass es um gestern geht. Deshalb kommt danach die Grundform go. Didn't went ist doppelte Vergangenheit und der häufigste Fehler. Gone gehört zu have gone und passt nie hinter didn't. Und ein einfaches not ohne did geht im Englischen nicht."
       }
@@ -56,16 +94,42 @@
         "prompt": "Wie wird die Vergangenheit gebildet? Sortiere die Grundformen. ⏪",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "ed", "label": "Vergangenheit mit -ed", "icon": "🔁" },
-          { "id": "un", "label": "Unregelmäßig, eigene Form", "icon": "⭐" }
+          {
+            "id": "ed",
+            "label": "Vergangenheit mit -ed",
+            "icon": "🔁"
+          },
+          {
+            "id": "un",
+            "label": "Unregelmäßig, eigene Form",
+            "icon": "⭐"
+          }
         ],
         "items": [
-          { "text": "clean", "bucket": "ed" },
-          { "text": "go", "bucket": "un" },
-          { "text": "wash", "bucket": "ed" },
-          { "text": "have", "bucket": "un" },
-          { "text": "book", "bucket": "ed" },
-          { "text": "take", "bucket": "un" }
+          {
+            "text": "clean",
+            "bucket": "ed"
+          },
+          {
+            "text": "go",
+            "bucket": "un"
+          },
+          {
+            "text": "wash",
+            "bucket": "ed"
+          },
+          {
+            "text": "have",
+            "bucket": "un"
+          },
+          {
+            "text": "book",
+            "bucket": "ed"
+          },
+          {
+            "text": "take",
+            "bucket": "un"
+          }
         ]
       }
     },
@@ -75,10 +139,22 @@
         "prompt": "Setze richtig ein: The rooms ___ ready, but the kitchen ___ still dirty. 🧹",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "were … was", "correct": true },
-          { "text": "was … were", "correct": false },
-          { "text": "were … were", "correct": false },
-          { "text": "was … was", "correct": false }
+          {
+            "text": "were … was",
+            "correct": true
+          },
+          {
+            "text": "was … were",
+            "correct": false
+          },
+          {
+            "text": "were … were",
+            "correct": false
+          },
+          {
+            "text": "was … was",
+            "correct": false
+          }
         ],
         "explanation": "The rooms sind mehrere Zimmer, also were. The kitchen ist nur eine, also was. Merke dir: I, he, she, it und ein einzelnes Ding nehmen was. We, they und alle Mehrzahl-Wörter nehmen were. Achtung: Nach you steht immer were, auch bei einer Person."
       }
@@ -89,10 +165,38 @@
         "prompt": "Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung. Alle Sätze stehen in der Vergangenheit.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "I made breakfast for the guests." }, "right": { "text": "Ich habe für die Gäste Frühstück gemacht." } },
-          { "left": { "text": "She took the bus to school." }, "right": { "text": "Sie ist mit dem Bus zur Schule gefahren." } },
-          { "left": { "text": "They came back very late." }, "right": { "text": "Sie sind sehr spät zurückgekommen." } },
-          { "left": { "text": "We had a lot of work last weekend." }, "right": { "text": "Wir hatten letztes Wochenende viel Arbeit." } }
+          {
+            "left": {
+              "text": "I made breakfast for the guests."
+            },
+            "right": {
+              "text": "Ich habe für die Gäste Frühstück gemacht."
+            }
+          },
+          {
+            "left": {
+              "text": "She took the bus to school."
+            },
+            "right": {
+              "text": "Sie ist mit dem Bus zur Schule gefahren."
+            }
+          },
+          {
+            "left": {
+              "text": "They came back very late."
+            },
+            "right": {
+              "text": "Sie sind sehr spät zurückgekommen."
+            }
+          },
+          {
+            "left": {
+              "text": "We had a lot of work last weekend."
+            },
+            "right": {
+              "text": "Wir hatten letztes Wochenende viel Arbeit."
+            }
+          }
         ],
         "memory": false
       }
@@ -104,13 +208,27 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "I" },
-          { "text": "didn't" },
-          { "text": "buy" },
-          { "text": "any" },
-          { "text": "fresh" },
-          { "text": "bread" },
-          { "text": "yesterday" }
+          {
+            "text": "I"
+          },
+          {
+            "text": "didn't"
+          },
+          {
+            "text": "buy"
+          },
+          {
+            "text": "any"
+          },
+          {
+            "text": "fresh"
+          },
+          {
+            "text": "bread"
+          },
+          {
+            "text": "yesterday"
+          }
         ]
       }
     },
@@ -120,10 +238,22 @@
         "prompt": "Ein Gast fragt: Did you take the towels to the balcony? 🧺 Was bedeutet das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Haben Sie die Handtücher auf den Balkon gebracht?", "correct": true },
-          { "text": "Nehmen Sie die Handtücher mit auf den Balkon?", "correct": false },
-          { "text": "Werden Sie die Handtücher auf den Balkon bringen?", "correct": false },
-          { "text": "Haben Sie die Handtücher vom Balkon geholt?", "correct": false }
+          {
+            "text": "Haben Sie die Handtücher auf den Balkon gebracht?",
+            "correct": true
+          },
+          {
+            "text": "Nehmen Sie die Handtücher mit auf den Balkon?",
+            "correct": false
+          },
+          {
+            "text": "Werden Sie die Handtücher auf den Balkon bringen?",
+            "correct": false
+          },
+          {
+            "text": "Haben Sie die Handtücher vom Balkon geholt?",
+            "correct": false
+          }
         ],
         "explanation": "Did am Anfang zeigt: Die Frage geht um die Vergangenheit. Deshalb steht take auch in der Grundform. Ohne did wäre es Gegenwart, mit will wäre es Zukunft. Und take to heißt hinbringen, nicht holen."
       }
@@ -134,16 +264,42 @@
         "prompt": "Welche Sätze sind richtig gebaut, welche nicht? Achte genau auf das Verb. 🔍",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "richtig", "label": "Richtig", "icon": "✅" },
-          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+          {
+            "id": "richtig",
+            "label": "Richtig",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Falsch",
+            "icon": "❌"
+          }
         ],
         "items": [
-          { "text": "She didn't go to the shop.", "bucket": "richtig" },
-          { "text": "She didn't went to the shop.", "bucket": "falsch" },
-          { "text": "We had a busy weekend.", "bucket": "richtig" },
-          { "text": "They was very friendly.", "bucket": "falsch" },
-          { "text": "I took the keys with me.", "bucket": "richtig" },
-          { "text": "He maked breakfast.", "bucket": "falsch" }
+          {
+            "text": "She didn't go to the shop.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "She didn't went to the shop.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "We had a busy weekend.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "They was very friendly.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "I took the keys with me.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "He maked breakfast.",
+            "bucket": "falsch"
+          }
         ]
       }
     },
@@ -153,10 +309,22 @@
         "prompt": "Der wichtigste Punkt dieser Lektion: Was passiert mit dem Verb direkt nach didn't? 🧠",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Es steht in der Grundform, also ohne -ed und ohne Sonderform.", "correct": true },
-          { "text": "Es bekommt -ed, damit man die Vergangenheit sieht.", "correct": false },
-          { "text": "Es steht in der unregelmäßigen Form, zum Beispiel went oder took.", "correct": false },
-          { "text": "Es bekommt ein s, so wie bei he und she.", "correct": false }
+          {
+            "text": "Es steht in der Grundform, also ohne -ed und ohne Sonderform.",
+            "correct": true
+          },
+          {
+            "text": "Es bekommt -ed, damit man die Vergangenheit sieht.",
+            "correct": false
+          },
+          {
+            "text": "Es steht in der unregelmäßigen Form, zum Beispiel went oder took.",
+            "correct": false
+          },
+          {
+            "text": "Es bekommt ein s, so wie bei he und she.",
+            "correct": false
+          }
         ],
         "explanation": "Didn't trägt die Vergangenheit schon in sich. Deshalb bleibt das Verb dahinter in der Grundform: didn't go, didn't buy, didn't make. Ein -ed ist falsch: didn't cleaned gibt es nicht. Eine Sonderform ist auch falsch: didn't went gibt es nicht. Und ein s passt nur in die Gegenwart: he doesn't go."
       }

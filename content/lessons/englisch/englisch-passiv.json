@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-passiv",
   "title": "Passiv: wer macht es?",
-  "sort": 37,
+  "sort": 38,
   "intro": "🛏️ Oft ist egal, WER etwas macht. Wichtig ist nur, dass es gemacht wird.\n\nDafür gibt es das Passiv: is oder are plus die dritte Form vom Verb. Sie steht in der Verbliste in der dritten Spalte, zum Beispiel clean - cleaned - cleaned.\n\n> The rooms are cleaned every day. = Die Zimmer werden jeden Tag geputzt.\n\nMERKE: Im Deutschen erkennst du das Passiv an wird oder werden.\n\nIst die Sache vorbei, nimmst du statt is und are die Wörter was und were.\n\n> Breakfast was served at eight. = Das Frühstück wurde um acht serviert.\n\nMERKE: Erst die 3. Form dahinter macht daraus ein Passiv. Dann heißen is und are wird oder werden, und was und were heißen wurde oder wurden.",
   "exercises": [
     {
@@ -11,10 +11,22 @@
         "prompt": "Im Prospekt der Ferienwohnung steht: The rooms are cleaned every day. 🧹 Was bedeutet das?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Die Zimmer werden jeden Tag geputzt.", "correct": true },
-          { "text": "Die Zimmer sind jeden Tag sauber.", "correct": false },
-          { "text": "Die Zimmer wurden jeden Tag geputzt.", "correct": false },
-          { "text": "Die Zimmer putzen sich jeden Tag selbst.", "correct": false }
+          {
+            "text": "Die Zimmer werden jeden Tag geputzt.",
+            "correct": true
+          },
+          {
+            "text": "Die Zimmer sind jeden Tag sauber.",
+            "correct": false
+          },
+          {
+            "text": "Die Zimmer wurden jeden Tag geputzt.",
+            "correct": false
+          },
+          {
+            "text": "Die Zimmer putzen sich jeden Tag selbst.",
+            "correct": false
+          }
         ],
         "explanation": "are cleaned ist Passiv: are plus die 3. Form. Es sagt, was mit den Zimmern gemacht wird. Ohne das -ed hieße are clean nur: sie sind sauber, also ein Zustand. Für die Vergangenheit müsste dort were cleaned stehen. Und die Zimmer putzen sich natürlich nicht selbst: Wer putzt, steht gar nicht im Satz. Genau das ist der Sinn des Passivs."
       }
@@ -26,12 +38,24 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "towels" },
-          { "text": "are" },
-          { "text": "changed" },
-          { "text": "every" },
-          { "text": "Friday" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "towels"
+          },
+          {
+            "text": "are"
+          },
+          {
+            "text": "changed"
+          },
+          {
+            "text": "every"
+          },
+          {
+            "text": "Friday"
+          }
         ]
       }
     },
@@ -41,10 +65,22 @@
         "prompt": "Setze richtig ein: Breakfast ___ in the kitchen at eight o'clock. 🍳",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "is served", "correct": true },
-          { "text": "is serve", "correct": false },
-          { "text": "is serving", "correct": false },
-          { "text": "serves", "correct": false }
+          {
+            "text": "is served",
+            "correct": true
+          },
+          {
+            "text": "is serve",
+            "correct": false
+          },
+          {
+            "text": "is serving",
+            "correct": false
+          },
+          {
+            "text": "serves",
+            "correct": false
+          }
         ],
         "explanation": "Nach is muss die 3. Form stehen: served. Is serve gibt es nicht, die Grundform passt hier nie. Is serving würde heißen, dass das Frühstück selbst etwas serviert. Serves ohne is wäre Aktiv und hieße: Das Frühstück serviert. Beides ergibt keinen Sinn."
       }
@@ -55,16 +91,42 @@
         "prompt": "Aktiv oder Passiv? Achte darauf, ob jemand etwas tut oder ob etwas mit einer Sache gemacht wird. 🔍",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "aktiv", "label": "Aktiv: jemand tut es", "icon": "✋" },
-          { "id": "passiv", "label": "Passiv: es wird getan", "icon": "📦" }
+          {
+            "id": "aktiv",
+            "label": "Aktiv: jemand tut es",
+            "icon": "✋"
+          },
+          {
+            "id": "passiv",
+            "label": "Passiv: es wird getan",
+            "icon": "📦"
+          }
         ],
         "items": [
-          { "text": "The keys are kept in the kitchen drawer.", "bucket": "passiv" },
-          { "text": "The guests are waiting outside.", "bucket": "aktiv" },
-          { "text": "The towels are washed at 60 degrees.", "bucket": "passiv" },
-          { "text": "She washes the towels every Friday.", "bucket": "aktiv" },
-          { "text": "The bill was paid in cash.", "bucket": "passiv" },
-          { "text": "The guests paid in cash.", "bucket": "aktiv" }
+          {
+            "text": "The keys are kept in the kitchen drawer.",
+            "bucket": "passiv"
+          },
+          {
+            "text": "The guests are waiting outside.",
+            "bucket": "aktiv"
+          },
+          {
+            "text": "The towels are washed at 60 degrees.",
+            "bucket": "passiv"
+          },
+          {
+            "text": "She washes the towels every Friday.",
+            "bucket": "aktiv"
+          },
+          {
+            "text": "The bill was paid in cash.",
+            "bucket": "passiv"
+          },
+          {
+            "text": "The guests paid in cash.",
+            "bucket": "aktiv"
+          }
         ]
       }
     },
@@ -74,10 +136,22 @@
         "prompt": "Setze richtig ein: The holiday flat ___ last week. 📅",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "was booked", "correct": true },
-          { "text": "were booked", "correct": false },
-          { "text": "is booked", "correct": false },
-          { "text": "was book", "correct": false }
+          {
+            "text": "was booked",
+            "correct": true
+          },
+          {
+            "text": "were booked",
+            "correct": false
+          },
+          {
+            "text": "is booked",
+            "correct": false
+          },
+          {
+            "text": "was book",
+            "correct": false
+          }
         ],
         "explanation": "Last week ist vorbei, darum brauchst du was oder were. The holiday flat ist nur eine Wohnung, also was. Were gehört zur Mehrzahl, zum Beispiel the flats were booked. Is booked wäre Gegenwart und hieße: Sie ist jetzt gebucht. Und nach was steht die 3. Form booked, niemals die Grundform book."
       }
@@ -88,10 +162,38 @@
         "prompt": "Was gehört zusammen? Achte genau auf wird, wurde und ist.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "The kitchen is cleaned every evening." }, "right": { "text": "Die Küche wird jeden Abend geputzt." } },
-          { "left": { "text": "The kitchen was cleaned yesterday." }, "right": { "text": "Die Küche wurde gestern geputzt." } },
-          { "left": { "text": "I clean the kitchen every evening." }, "right": { "text": "Ich putze die Küche jeden Abend." } },
-          { "left": { "text": "The kitchen is clean." }, "right": { "text": "Die Küche ist sauber." } }
+          {
+            "left": {
+              "text": "The kitchen is cleaned every evening."
+            },
+            "right": {
+              "text": "Die Küche wird jeden Abend geputzt."
+            }
+          },
+          {
+            "left": {
+              "text": "The kitchen was cleaned yesterday."
+            },
+            "right": {
+              "text": "Die Küche wurde gestern geputzt."
+            }
+          },
+          {
+            "left": {
+              "text": "I clean the kitchen every evening."
+            },
+            "right": {
+              "text": "Ich putze die Küche jeden Abend."
+            }
+          },
+          {
+            "left": {
+              "text": "The kitchen is clean."
+            },
+            "right": {
+              "text": "Die Küche ist sauber."
+            }
+          }
         ],
         "memory": false
       }
@@ -102,10 +204,22 @@
         "prompt": "Aktiv heißt der Satz: A guest broke the window. 🪟 Wie sagst du dasselbe im Passiv?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "The window was broken by a guest.", "correct": true },
-          { "text": "The window was break by a guest.", "correct": false },
-          { "text": "The window is broken by a guest.", "correct": false },
-          { "text": "The window were broken by a guest.", "correct": false }
+          {
+            "text": "The window was broken by a guest.",
+            "correct": true
+          },
+          {
+            "text": "The window was break by a guest.",
+            "correct": false
+          },
+          {
+            "text": "The window is broken by a guest.",
+            "correct": false
+          },
+          {
+            "text": "The window were broken by a guest.",
+            "correct": false
+          }
         ],
         "explanation": "Im Passiv rückt die Sache nach vorn: the window. Broke ist die 2. Form, im Passiv brauchst du die 3. Form broken. Nach was steht nie die Grundform, darum ist was break falsch. Is broken wäre Gegenwart, der Unfall ist aber vorbei. The window ist Einzahl, also was und nicht were. Mit by sagst du, wer es getan hat."
       }
@@ -117,13 +231,27 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "The" },
-          { "text": "flat" },
-          { "text": "is" },
-          { "text": "cleaned" },
-          { "text": "by" },
-          { "text": "a" },
-          { "text": "company" }
+          {
+            "text": "The"
+          },
+          {
+            "text": "flat"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "cleaned"
+          },
+          {
+            "text": "by"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "company"
+          }
         ]
       }
     },
@@ -133,16 +261,42 @@
         "prompt": "Alle Sätze stehen im Passiv. Geht es um jetzt oder um etwas Vergangenes? ⏳",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "jetzt", "label": "gilt jetzt oder immer wieder", "icon": "🔁" },
-          { "id": "vorbei", "label": "ist schon vorbei", "icon": "⏪" }
+          {
+            "id": "jetzt",
+            "label": "gilt jetzt oder immer wieder",
+            "icon": "🔁"
+          },
+          {
+            "id": "vorbei",
+            "label": "ist schon vorbei",
+            "icon": "⏪"
+          }
         ],
         "items": [
-          { "text": "Breakfast is served at eight.", "bucket": "jetzt" },
-          { "text": "The beds were made this morning.", "bucket": "vorbei" },
-          { "text": "The keys are kept behind the door.", "bucket": "jetzt" },
-          { "text": "The window was broken last night.", "bucket": "vorbei" },
-          { "text": "The bins are emptied on Mondays.", "bucket": "jetzt" },
-          { "text": "The bill was paid at the end.", "bucket": "vorbei" }
+          {
+            "text": "Breakfast is served at eight.",
+            "bucket": "jetzt"
+          },
+          {
+            "text": "The beds were made this morning.",
+            "bucket": "vorbei"
+          },
+          {
+            "text": "The keys are kept behind the door.",
+            "bucket": "jetzt"
+          },
+          {
+            "text": "The window was broken last night.",
+            "bucket": "vorbei"
+          },
+          {
+            "text": "The bins are emptied on Mondays.",
+            "bucket": "jetzt"
+          },
+          {
+            "text": "The bill was paid at the end.",
+            "bucket": "vorbei"
+          }
         ]
       }
     },
@@ -152,10 +306,22 @@
         "prompt": "Der wichtigste Punkt dieser Lektion: Wann nimmst du das Passiv, und wie baust du es? 🧠",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Wenn nicht wichtig ist, wer es tut. Ich nehme is, are, was oder were und die 3. Form.", "correct": true },
-          { "text": "Wenn nicht wichtig ist, wer es tut. Ich nehme is, are, was oder were und die ing-Form.", "correct": false },
-          { "text": "Wenn etwas gerade passiert. Ich hänge einfach -ed an das Verb und lasse is und are weg.", "correct": false },
-          { "text": "Wenn ich höflich sein will. Ich stelle die Person an den Anfang und nehme die Grundform.", "correct": false }
+          {
+            "text": "Wenn nicht wichtig ist, wer es tut. Ich nehme is, are, was oder were und die 3. Form.",
+            "correct": true
+          },
+          {
+            "text": "Wenn nicht wichtig ist, wer es tut. Ich nehme is, are, was oder were und die ing-Form.",
+            "correct": false
+          },
+          {
+            "text": "Wenn etwas gerade passiert. Ich hänge einfach -ed an das Verb und lasse is und are weg.",
+            "correct": false
+          },
+          {
+            "text": "Wenn ich höflich sein will. Ich stelle die Person an den Anfang und nehme die Grundform.",
+            "correct": false
+          }
         ],
         "explanation": "Das Passiv nimmst du, wenn die Sache wichtiger ist als die Person: The rooms are cleaned every day. Gebaut wird es immer aus is, are, was oder were plus der 3. Form. Die ing-Form gehört zum Present Progressive und sagt, was gerade läuft. Ohne is oder are ist ein Passivsatz nicht vollständig. Und mit Höflichkeit hat das Passiv nichts zu tun."
       }

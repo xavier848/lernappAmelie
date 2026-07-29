@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-wortstellung",
   "title": "Wortstellung: Wo steht was im Satz?",
-  "sort": 48,
+  "sort": 26,
   "intro": "🧩 Im Englischen ist die Reihenfolge der Wörter fest. Im Deutschen darfst du schieben, im Englischen nicht.\n\nDie Grundregel heißt: Wer – Verb – Was.\n\n> We confirm your booking. = Wir bestätigen Ihre Buchung.\n\nMERKE: Zwischen Wer und Verb kommt nichts dazwischen.\n\nEine Zeitangabe steht fast immer ganz am Ende.\n\n> The apartment is free next week. = Die Wohnung ist nächste Woche frei.\n\nMERKE: Erst der ganze Satz, dann die Zeit. Nicht is next week free.\n\nKommen Ort und Zeit zusammen vor, steht der Ort zuerst und die Zeit danach.\n\n> The guests arrive at the house at six. = Die Gäste kommen um sechs am Haus an.\n\nEigenschaften stehen vor dem Nomen, nie dahinter. Die Reihenfolge ist: Zahl – Menge – Eigenschaft – Nomen.\n\n> They need two more warm blankets. = Sie brauchen noch zwei warme Decken.\n\nBei Fragen dreht sich nur der Anfang: Fragewort – Hilfsverb – Wer – Verb.\n\n> When would you like to come? = Wann möchten Sie kommen?\n\nMERKE: Das Wer steht in der Frage hinter dem Hilfsverb, nicht am Ende.",
   "exercises": [
     {
@@ -11,9 +11,16 @@
         "prompt": "🧹 Du willst sagen: Wir putzen die Wohnung jeden Freitag. Welcher englische Satz ist richtig gebaut?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "We clean the apartment every Friday.", "correct": true },
-          { "text": "We clean every Friday the apartment." },
-          { "text": "Every Friday we the apartment clean." }
+          {
+            "text": "We clean the apartment every Friday.",
+            "correct": true
+          },
+          {
+            "text": "We clean every Friday the apartment."
+          },
+          {
+            "text": "Every Friday we the apartment clean."
+          }
         ],
         "explanation": "Die Zeitangabe steht ganz am Ende. Zuerst kommt Wer – Verb – Was: We clean the apartment. Erst danach every Friday. Im Deutschen darfst du schieben, im Englischen nicht."
       }
@@ -25,12 +32,24 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "Breakfast" },
-          { "text": "is" },
-          { "text": "ready" },
-          { "text": "at" },
-          { "text": "eight" },
-          { "text": "o'clock" }
+          {
+            "text": "Breakfast"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "ready"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "eight"
+          },
+          {
+            "text": "o'clock"
+          }
         ],
         "explanation": "Erst der fertige Satz, dann die Zeit: Breakfast is ready – und ganz am Ende at eight o'clock. Die Zeitangabe drängelt sich nie zwischen Verb und Eigenschaft."
       }
@@ -41,16 +60,42 @@
         "prompt": "🔎 Ist der Satz richtig gebaut oder falsch? Sortiere.",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "richtig", "label": "Richtig gebaut", "icon": "✅" },
-          { "id": "falsch", "label": "Falsch gebaut", "icon": "❌" }
+          {
+            "id": "richtig",
+            "label": "Richtig gebaut",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Falsch gebaut",
+            "icon": "❌"
+          }
         ],
         "items": [
-          { "text": "I will bring you a towel.", "bucket": "richtig" },
-          { "text": "We have breakfast at eight.", "bucket": "richtig" },
-          { "text": "The taxi comes at nine.", "bucket": "richtig" },
-          { "text": "I will you bring a towel.", "bucket": "falsch" },
-          { "text": "We have at eight breakfast.", "bucket": "falsch" },
-          { "text": "The taxi at nine comes.", "bucket": "falsch" }
+          {
+            "text": "I will bring you a towel.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "We have breakfast at eight.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "The taxi comes at nine.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "I will you bring a towel.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "We have at eight breakfast.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "The taxi at nine comes.",
+            "bucket": "falsch"
+          }
         ],
         "explanation": "Prüfe zwei Dinge: Steht das Verb direkt hinter dem Wer? Und steht die Zeit ganz am Ende? Sätze wie at eight breakfast oder at nine comes sind falsch, weil die Zeit nach vorne gerutscht ist."
       }
@@ -62,14 +107,30 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "You" },
-          { "text": "can" },
-          { "text": "park" },
-          { "text": "your" },
-          { "text": "car" },
-          { "text": "behind" },
-          { "text": "the" },
-          { "text": "house" }
+          {
+            "text": "You"
+          },
+          {
+            "text": "can"
+          },
+          {
+            "text": "park"
+          },
+          {
+            "text": "your"
+          },
+          {
+            "text": "car"
+          },
+          {
+            "text": "behind"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "house"
+          }
         ],
         "explanation": "Erst Wer – Verb – Was: You can park your car. Der Ort kommt danach: behind the house. Das Verb park bleibt vorne und rutscht nie hinter den Ort."
       }
@@ -80,9 +141,16 @@
         "prompt": "🛏️ Du willst sagen: Sie brauchen noch zwei warme Decken. Welcher Satz stimmt genau?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "They need two more warm blankets.", "correct": true },
-          { "text": "They need two warm more blankets." },
-          { "text": "They need more two blankets warm." }
+          {
+            "text": "They need two more warm blankets.",
+            "correct": true
+          },
+          {
+            "text": "They need two warm more blankets."
+          },
+          {
+            "text": "They need more two blankets warm."
+          }
         ],
         "explanation": "Vor dem Nomen gilt die Reihenfolge: Zahl – Menge – Eigenschaft – Nomen. Also two (Zahl), more (Menge), warm (Eigenschaft), blankets (Nomen). Die Eigenschaft steht nie hinter dem Nomen."
       }
@@ -94,12 +162,24 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "Where" },
-          { "text": "would" },
-          { "text": "you" },
-          { "text": "like" },
-          { "text": "to" },
-          { "text": "sit" }
+          {
+            "text": "Where"
+          },
+          {
+            "text": "would"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "like"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "sit"
+          }
         ],
         "explanation": "In der Frage kommt zuerst das Fragewort, dann das Hilfsverb, dann das Wer: Where – would – you. Erst danach like to sit. Das you gehört nach vorne, nicht ans Ende."
       }
@@ -109,10 +189,38 @@
       "data": {
         "prompt": "🧩 Welcher Satzteil gehört wohin? Ordne zu.",
         "pairs": [
-          { "left": { "text": "next week 📅" }, "right": { "text": "Zeit: ganz ans Ende" } },
-          { "left": { "text": "behind the house 🏠" }, "right": { "text": "Ort: nach dem Verb" } },
-          { "left": { "text": "warm 🔥" }, "right": { "text": "Eigenschaft: vor das Nomen" } },
-          { "left": { "text": "we 🙋" }, "right": { "text": "Wer: ganz an den Anfang" } }
+          {
+            "left": {
+              "text": "next week 📅"
+            },
+            "right": {
+              "text": "Zeit: ganz ans Ende"
+            }
+          },
+          {
+            "left": {
+              "text": "behind the house 🏠"
+            },
+            "right": {
+              "text": "Ort: nach dem Verb"
+            }
+          },
+          {
+            "left": {
+              "text": "warm 🔥"
+            },
+            "right": {
+              "text": "Eigenschaft: vor das Nomen"
+            }
+          },
+          {
+            "left": {
+              "text": "we 🙋"
+            },
+            "right": {
+              "text": "Wer: ganz an den Anfang"
+            }
+          }
         ],
         "explanation": "Merke dir die Plätze im Satz: Wer kommt nach vorne, dann das Verb, dann der Ort, und die Zeit ganz zum Schluss. Eigenschaften stehen immer direkt vor ihrem Nomen."
       }
@@ -124,15 +232,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "I" },
-          { "text": "will" },
-          { "text": "call" },
-          { "text": "you" },
-          { "text": "if" },
-          { "text": "there" },
-          { "text": "is" },
-          { "text": "a" },
-          { "text": "problem" }
+          {
+            "text": "I"
+          },
+          {
+            "text": "will"
+          },
+          {
+            "text": "call"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "if"
+          },
+          {
+            "text": "there"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "problem"
+          }
         ],
         "explanation": "Zuerst kommt der Hauptsatz mit will: I will call you. Dann hängst du den if-Teil hinten an. Nach if steht kein will, sondern die Gegenwart: if there is a problem."
       }
@@ -143,9 +269,16 @@
         "prompt": "✅ Du willst sagen: Wir bestätigen Ihre Buchung. Welcher Satz ist richtig?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "We confirm your booking.", "correct": true },
-          { "text": "We booking your confirm." },
-          { "text": "Your booking we confirm." }
+          {
+            "text": "We confirm your booking.",
+            "correct": true
+          },
+          {
+            "text": "We booking your confirm."
+          },
+          {
+            "text": "Your booking we confirm."
+          }
         ],
         "explanation": "confirm ist das Verb, booking ist das Ding. Die Reihenfolge ist Wer – Verb – Was: We confirm your booking. Wenn du Verb und Ding vertauschst, ergibt der Satz keinen Sinn mehr."
       }
@@ -156,9 +289,30 @@
         "prompt": "🎉 Zum Schluss: Welcher englische Satz passt? Links Deutsch, rechts Englisch.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "Die Wohnung ist nächste Woche frei." }, "right": { "text": "The apartment is free next week." } },
-          { "left": { "text": "Wir putzen jeden Freitag." }, "right": { "text": "We clean every Friday." } },
-          { "left": { "text": "Sie können hinter dem Haus parken." }, "right": { "text": "You can park behind the house." } }
+          {
+            "left": {
+              "text": "Die Wohnung ist nächste Woche frei."
+            },
+            "right": {
+              "text": "The apartment is free next week."
+            }
+          },
+          {
+            "left": {
+              "text": "Wir putzen jeden Freitag."
+            },
+            "right": {
+              "text": "We clean every Friday."
+            }
+          },
+          {
+            "left": {
+              "text": "Sie können hinter dem Haus parken."
+            },
+            "right": {
+              "text": "You can park behind the house."
+            }
+          }
         ]
       }
     }

@@ -2,7 +2,7 @@
   "topic_slug": "englisch",
   "slug": "englisch-zukunft-will-going-to",
   "title": "Zukunft: will oder going to",
-  "sort": 30,
+  "sort": 31,
   "intro": "🔮 Im Englischen gibt es zwei Wege, über die Zukunft zu sprechen: will und going to.\n\nwill nimmst du, wenn du dich gerade in diesem Moment entscheidest. Oder wenn du etwas nur vermutest.\n\n> It is cold in here. I will close the window. = Hier ist es kalt. Ich mache das Fenster zu.\n\ngoing to nimmst du für Pläne, die schon vorher feststanden. Und dann, wenn du ein Anzeichen direkt sehen kannst.\n\n> We have booked the tickets. We are going to travel to London in May. = Wir haben die Tickets gebucht. Wir fahren im Mai nach London.\n\nBeim Sprechen kürzt man will fast immer ab. Aus I will wird I'll.\n\nMERKE: Vorher geplant oder deutlich zu sehen führt zu going to. Gerade entschieden oder nur vermutet führt zu will.",
   "exercises": [
     {
@@ -11,10 +11,22 @@
         "prompt": "Ihr sitzt beim Frühstück, das Telefon klingelt. 📞 Du stehst spontan auf. Was sagst du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "I'll answer it.", "correct": true },
-          { "text": "I'm going to answer it.", "correct": false },
-          { "text": "I answer it.", "correct": false },
-          { "text": "I will to answer it.", "correct": false }
+          {
+            "text": "I'll answer it.",
+            "correct": true
+          },
+          {
+            "text": "I'm going to answer it.",
+            "correct": false
+          },
+          {
+            "text": "I answer it.",
+            "correct": false
+          },
+          {
+            "text": "I will to answer it.",
+            "correct": false
+          }
         ],
         "explanation": "Du entscheidest dich gerade in diesem Moment. Dafür nimmst du will, gesprochen kurz I'll. I'm going to answer it würde heißen, dass du das schon vorher geplant hattest. I answer it ist einfache Gegenwart und klingt nach Gewohnheit. Nach will steht nie ein to."
       }
@@ -25,10 +37,22 @@
         "prompt": "Ihr habt schon letzte Woche beschlossen, das Gästezimmer zu streichen. 🎨 Ein Gast fragt nach euren Plänen. Was sagst du?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "We are going to paint the guest room in October.", "correct": true },
-          { "text": "We will paint the guest room in October.", "correct": false },
-          { "text": "We paint the guest room in October.", "correct": false },
-          { "text": "We would paint the guest room in October.", "correct": false }
+          {
+            "text": "We are going to paint the guest room in October.",
+            "correct": true
+          },
+          {
+            "text": "We will paint the guest room in October.",
+            "correct": false
+          },
+          {
+            "text": "We paint the guest room in October.",
+            "correct": false
+          },
+          {
+            "text": "We would paint the guest room in October.",
+            "correct": false
+          }
         ],
         "explanation": "Der Plan stand schon vorher fest, also going to. We will paint klingt, als hättest du dich gerade eben dazu entschieden. We paint ist einfache Gegenwart und passt nur zu Gewohnheiten. We would paint wäre eine Vorstellung, kein echter Plan."
       }
@@ -39,16 +63,42 @@
         "prompt": "Lies die Situation. Welche Zukunftsform passt dazu? 🧭",
         "tts_lang": "en-GB",
         "buckets": [
-          { "id": "will", "label": "will: gerade entschieden oder vermutet", "icon": "💡" },
-          { "id": "goingto", "label": "going to: geplant oder zu sehen", "icon": "📋" }
+          {
+            "id": "will",
+            "label": "will: gerade entschieden oder vermutet",
+            "icon": "💡"
+          },
+          {
+            "id": "goingto",
+            "label": "going to: geplant oder zu sehen",
+            "icon": "📋"
+          }
         ],
         "items": [
-          { "text": "Die gepackten Koffer stehen im Flur. Die Gäste fahren gleich los.", "bucket": "goingto" },
-          { "text": "Ein Gast bittet um Handtücher. Du sagst sofort: Ich hole welche.", "bucket": "will" },
-          { "text": "Der Familienurlaub ist seit März gebucht.", "bucket": "goingto" },
-          { "text": "Du vermutest, dass im August viele Gäste kommen.", "bucket": "will" },
-          { "text": "Das Milchglas steht ganz am Rand vom Tisch und wackelt.", "bucket": "goingto" },
-          { "text": "Beim Einkaufen fällt dir spontan ein: Ich nehme noch Brot mit.", "bucket": "will" }
+          {
+            "text": "Die gepackten Koffer stehen im Flur. Die Gäste fahren gleich los.",
+            "bucket": "goingto"
+          },
+          {
+            "text": "Ein Gast bittet um Handtücher. Du sagst sofort: Ich hole welche.",
+            "bucket": "will"
+          },
+          {
+            "text": "Der Familienurlaub ist seit März gebucht.",
+            "bucket": "goingto"
+          },
+          {
+            "text": "Du vermutest, dass im August viele Gäste kommen.",
+            "bucket": "will"
+          },
+          {
+            "text": "Das Milchglas steht ganz am Rand vom Tisch und wackelt.",
+            "bucket": "goingto"
+          },
+          {
+            "text": "Beim Einkaufen fällt dir spontan ein: Ich nehme noch Brot mit.",
+            "bucket": "will"
+          }
         ]
       }
     },
@@ -59,13 +109,27 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "I" },
-          { "text": "will" },
-          { "text": "bring" },
-          { "text": "you" },
-          { "text": "some" },
-          { "text": "fresh" },
-          { "text": "towels" }
+          {
+            "text": "I"
+          },
+          {
+            "text": "will"
+          },
+          {
+            "text": "bring"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "some"
+          },
+          {
+            "text": "fresh"
+          },
+          {
+            "text": "towels"
+          }
         ]
       }
     },
@@ -75,10 +139,22 @@
         "prompt": "Du schaust aus dem Fenster. Der Himmel ist dunkel, der Wind wird stark. 🌧️ Was sagst du zu den Gästen?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "It is going to rain.", "correct": true },
-          { "text": "It will rain.", "correct": false },
-          { "text": "It is raining.", "correct": false },
-          { "text": "It rains.", "correct": false }
+          {
+            "text": "It is going to rain.",
+            "correct": true
+          },
+          {
+            "text": "It will rain.",
+            "correct": false
+          },
+          {
+            "text": "It is raining.",
+            "correct": false
+          },
+          {
+            "text": "It rains.",
+            "correct": false
+          }
         ],
         "explanation": "Du siehst das Anzeichen direkt vor dir: dunkle Wolken und Wind. Bei einem sichtbaren Anzeichen nimmst du going to. It will rain wäre nur eine Vermutung ohne Beweis. It is raining hieße, es regnet jetzt schon. It rains ist einfache Gegenwart, also etwas, das immer wieder passiert."
       }
@@ -89,10 +165,38 @@
         "prompt": "Was gehört zusammen? Links Englisch, rechts die deutsche Bedeutung.",
         "tts_lang": "en-GB",
         "pairs": [
-          { "left": { "text": "I'll get the key for you." }, "right": { "text": "Ich hole Ihnen schnell den Schlüssel." } },
-          { "left": { "text": "We are going to renovate the bathroom." }, "right": { "text": "Wir haben vor, das Bad zu renovieren." } },
-          { "left": { "text": "I think they will like the garden." }, "right": { "text": "Ich glaube, der Garten wird ihnen gefallen." } },
-          { "left": { "text": "She is going to start her training in September." }, "right": { "text": "Sie fängt im September ihre Ausbildung an." } }
+          {
+            "left": {
+              "text": "I'll get the key for you."
+            },
+            "right": {
+              "text": "Ich hole Ihnen schnell den Schlüssel."
+            }
+          },
+          {
+            "left": {
+              "text": "We are going to renovate the bathroom."
+            },
+            "right": {
+              "text": "Wir haben vor, das Bad zu renovieren."
+            }
+          },
+          {
+            "left": {
+              "text": "I think they will like the garden."
+            },
+            "right": {
+              "text": "Ich glaube, der Garten wird ihnen gefallen."
+            }
+          },
+          {
+            "left": {
+              "text": "She is going to start her training in September."
+            },
+            "right": {
+              "text": "Sie fängt im September ihre Ausbildung an."
+            }
+          }
         ],
         "memory": false
       }
@@ -104,15 +208,33 @@
         "tts_lang": "en-GB",
         "mode": "words",
         "steps": [
-          { "text": "We" },
-          { "text": "are" },
-          { "text": "going" },
-          { "text": "to" },
-          { "text": "rent" },
-          { "text": "out" },
-          { "text": "a" },
-          { "text": "second" },
-          { "text": "flat" }
+          {
+            "text": "We"
+          },
+          {
+            "text": "are"
+          },
+          {
+            "text": "going"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "rent"
+          },
+          {
+            "text": "out"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "second"
+          },
+          {
+            "text": "flat"
+          }
         ]
       }
     },
@@ -122,10 +244,22 @@
         "prompt": "Nur ein Satz ist richtig gebaut. 🧩 Welcher?",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "She is going to clean the kitchen tomorrow.", "correct": true },
-          { "text": "She is going to cleans the kitchen tomorrow.", "correct": false },
-          { "text": "She going to clean the kitchen tomorrow.", "correct": false },
-          { "text": "She is going clean the kitchen tomorrow.", "correct": false }
+          {
+            "text": "She is going to clean the kitchen tomorrow.",
+            "correct": true
+          },
+          {
+            "text": "She is going to cleans the kitchen tomorrow.",
+            "correct": false
+          },
+          {
+            "text": "She going to clean the kitchen tomorrow.",
+            "correct": false
+          },
+          {
+            "text": "She is going clean the kitchen tomorrow.",
+            "correct": false
+          }
         ],
         "explanation": "Nach going to steht immer die Grundform, also clean und nicht cleans. Das is darf nicht fehlen: she is going to. Und das to gehört fest dazu: going to clean."
       }
@@ -136,10 +270,22 @@
         "prompt": "Was bedeutet: I'm going to visit my aunt on Sunday. 👵",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Der Besuch ist schon vorher geplant worden.", "correct": true },
-          { "text": "Ich habe mich gerade eben spontan dazu entschieden.", "correct": false },
-          { "text": "Ich besuche meine Tante jeden Sonntag.", "correct": false },
-          { "text": "Ich habe meine Tante am Sonntag besucht.", "correct": false }
+          {
+            "text": "Der Besuch ist schon vorher geplant worden.",
+            "correct": true
+          },
+          {
+            "text": "Ich habe mich gerade eben spontan dazu entschieden.",
+            "correct": false
+          },
+          {
+            "text": "Ich besuche meine Tante jeden Sonntag.",
+            "correct": false
+          },
+          {
+            "text": "Ich habe meine Tante am Sonntag besucht.",
+            "correct": false
+          }
         ],
         "explanation": "going to zeigt einen Plan, der schon vorher feststand. Bei einer spontanen Entscheidung würdest du I'll visit my aunt sagen. Für eine Gewohnheit hieße es I visit my aunt every Sunday. Und die Vergangenheit wäre I visited my aunt."
       }
@@ -150,10 +296,22 @@
         "prompt": "Zum Schluss: Welche Regel stimmt? 🎯",
         "tts_lang": "en-GB",
         "options": [
-          { "text": "Schon geplant oder klar zu sehen: going to. Gerade entschieden oder nur vermutet: will.", "correct": true },
-          { "text": "Schon geplant oder klar zu sehen: will. Gerade entschieden oder nur vermutet: going to.", "correct": false },
-          { "text": "will und going to bedeuten genau dasselbe, du darfst immer frei wählen.", "correct": false },
-          { "text": "will nimmst du nur für morgen, going to nur für nächstes Jahr.", "correct": false }
+          {
+            "text": "Schon geplant oder klar zu sehen: going to. Gerade entschieden oder nur vermutet: will.",
+            "correct": true
+          },
+          {
+            "text": "Schon geplant oder klar zu sehen: will. Gerade entschieden oder nur vermutet: going to.",
+            "correct": false
+          },
+          {
+            "text": "will und going to bedeuten genau dasselbe, du darfst immer frei wählen.",
+            "correct": false
+          },
+          {
+            "text": "will nimmst du nur für morgen, going to nur für nächstes Jahr.",
+            "correct": false
+          }
         ],
         "explanation": "Fester Plan oder sichtbares Anzeichen bedeutet going to: We are going to paint the room. Entscheidung im Moment oder Vermutung bedeutet will: I'll answer the phone. Beide sind also nicht gleich. Und mit dem Zeitpunkt hat die Wahl nichts zu tun, sondern nur damit, ob etwas schon vorher feststand."
       }
