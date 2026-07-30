@@ -1,0 +1,267 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-anders-gefragt",
+  "title": "Gemischt: Arbeit & Sicherheit",
+  "sort": 270,
+  "intro": "Diese Lektion mischt Fragen aus allen Bereichen: Küche, Erste Hilfe, Arbeitsplanung und Müll. Du kennst den Stoff schon. Aber die Fragen sind diesmal anders gestellt. Mal suchst du den Fehler. Mal suchst du den Grund. Mal rechnest du. Lies jede Frage in Ruhe ganz zu Ende.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Eine neue Kollegin räumt die Küche der Ferienwohnung auf. Du siehst drei Handgriffe. Einer davon ist falsch. Welcher?",
+        "options": [
+          {
+            "text": "Sie zieht den Stecker des Wasserkochers am Kabel aus der Steckdose.",
+            "correct": true
+          },
+          {
+            "text": "Sie legt das scharfe Messer einzeln und sichtbar auf die Ablage."
+          },
+          {
+            "text": "Sie wischt einen Fettspritzer sofort vom Boden auf."
+          }
+        ],
+        "explanation": "Bei einer Fehler-Suche prüfst du jeden Schritt einzeln gegen die Regel. Die Regeln hier lauten: Ein Stecker wird am Stecker angefasst, nie am Kabel gezogen. Sonst bricht das Kabel an der Verbindung. Scharfe Klingen liegen einzeln und sichtbar, nie versteckt. Verschüttetes Fett wird sofort aufgewischt, denn es macht den Boden glatt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📞 Du musst anrufen. Welche Nummer wählst du in dieser Lage? Sortiere jeden Fall in genau eine Nummer.",
+        "buckets": [
+          {
+            "id": "112",
+            "label": "112 – Rettungsdienst und Feuerwehr",
+            "icon": "🚑"
+          },
+          {
+            "id": "110",
+            "label": "110 – Polizei",
+            "icon": "🚓"
+          }
+        ],
+        "items": [
+          {
+            "text": "Ein Gast ist die Treppe hinuntergestürzt und wacht nicht auf",
+            "bucket": "112"
+          },
+          {
+            "text": "Das Feuer aus der Pfanne hat auf die Dunstabzugshaube übergegriffen",
+            "bucket": "112"
+          },
+          {
+            "text": "Eine Kollegin hat aus Versehen Putzmittel geschluckt",
+            "bucket": "112"
+          },
+          {
+            "text": "Du entdeckst am Morgen: Jemand hat nachts die Tür der Ferienwohnung aufgebrochen",
+            "bucket": "110"
+          },
+          {
+            "text": "Ein Fremder stiehlt das Fahrrad eines Gastes vom Hof",
+            "bucket": "110"
+          },
+          {
+            "text": "Auf dem Parkplatz schlägt jemand eine Autoscheibe ein",
+            "bucket": "110"
+          }
+        ],
+        "explanation": "Frag dich bei jedem Fall zuerst: Ist ein Mensch in Gefahr, oder breitet sich ein Feuer aus? Dann gilt die 112. Unter dieser Nummer kommen Rettungsdienst und Feuerwehr. Hat dagegen jemand etwas Verbotenes getan, ist es eine Straftat. Dann gilt die 110, und die Polizei kommt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥃 In der Ferienwohnung ist ein Trinkglas auf dem Fliesenboden zersprungen. Bringe dein Vorgehen in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "🧤 Feste Handschuhe anziehen, bevor du etwas anfasst."
+          },
+          {
+            "text": "🧹 Die großen Scherben mit Handfeger und Kehrblech aufnehmen."
+          },
+          {
+            "text": "🧻 Danach die feinen Splitter mit einem feuchten Küchenkrepp vom Boden holen."
+          },
+          {
+            "text": "🗑️ Zum Schluss alles zusammen in Papier wickeln und in den Restmüll geben."
+          }
+        ],
+        "explanation": "Bei Scherben gilt immer diese Regel: erst dich selbst schützen, dann von grob nach fein arbeiten, ganz am Ende entsorgen. Grob vor fein heißt: Die großen Stücke müssen weg, bevor du die feinen Splitter suchst. Sonst schneidest du dich an einem großen Stück. Scherben nie mit bloßen Händen aufsammeln. Und merke dir: Ein Trinkglas ist kein Altglas. Es gehört nicht in den Glascontainer, sondern in den Restmüll."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Hier steht die Erklärung. Wie heißt der Fachbegriff dazu? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Eine gebückte Haltung, die den Rücken schon nach kurzer Zeit belastet"
+            },
+            "right": {
+              "text": "Zwangshaltung"
+            }
+          },
+          {
+            "left": {
+              "text": "Flach hinlegen und die Beine hochlagern"
+            },
+            "right": {
+              "text": "Schocklage"
+            }
+          },
+          {
+            "left": {
+              "text": "Verschließbarer Behälter für Speisereste mit tierischen Teilen"
+            },
+            "right": {
+              "text": "Drangtonne"
+            }
+          },
+          {
+            "left": {
+              "text": "Gerät, das Fett und Öl aus dem Abwasser holt"
+            },
+            "right": {
+              "text": "Fettabscheider"
+            }
+          },
+          {
+            "left": {
+              "text": "Meldung an die Berufsgenossenschaft nach mehr als 3 Tagen Ausfall"
+            },
+            "right": {
+              "text": "Unfallanzeige"
+            }
+          },
+          {
+            "left": {
+              "text": "Der Bereich, den du mit gebeugtem Arm bequem erreichst"
+            },
+            "right": {
+              "text": "Innerer Greifraum"
+            }
+          }
+        ],
+        "explanation": "Diesmal steht links die Erklärung und rechts das Fachwort. Geh von der Erklärung aus und frag dich zuerst: Wovon ist hier die Rede – von einer Körperhaltung, von einem Behälter, von einem Gerät, von einem Papier oder von einem Bereich am Arbeitsplatz? Damit fallen schon die meisten Wörter weg. Alle sechs Fachbegriffe kennst du aus den Lektionen zu Haltung, Erster Hilfe, Abfall und Unfall-Meldung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 In der Pfanne brennt heißes Fett. Du weißt: Wasser ist hier verboten. Aber warum genau?",
+        "options": [
+          {
+            "text": "Das Wasser wird schlagartig zu Dampf und schleudert das brennende Fett durch die Küche.",
+            "correct": true
+          },
+          {
+            "text": "Das Wasser verdünnt das Fett, dadurch wird die Flamme größer."
+          },
+          {
+            "text": "Das Wasser kühlt den Pfannenboden so schnell ab, dass die Pfanne zerspringt."
+          }
+        ],
+        "explanation": "Wasser ist schwerer als Fett und sinkt sofort nach unten. Unten ist das brennende Fett über 300 Grad heiß. Das Wasser wird dort in einem Augenblick zu Dampf. Der Dampf braucht viel mehr Platz und reißt das brennende Fett mit nach oben. Ein Deckel dagegen nimmt dem Feuer die Luft. Ohne Luft geht jedes Feuer aus."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏲️ Du machst einen Gemüseauflauf für die Gäste. Erst schneidest du 20 Minuten lang das Gemüse. Danach brätst du es 10 Minuten an. Danach backt der Auflauf 45 Minuten im Ofen. Jeder Schritt geht erst, wenn der Schritt davor fertig ist. Wie viele Minuten dauert das zusammen?",
+        "answer": 75,
+        "hint": "Rechne Schritt für Schritt:\n1. Schneiden und Anbraten: 20 + 10 = 30 Minuten.\n2. Dazu kommt die Backzeit: 30 + 45 = ?",
+        "explanation": "20 + 10 + 45 = 75 Minuten. Diese drei Schritte kannst du nicht gleichzeitig machen: Du kannst erst anbraten, wenn das Gemüse geschnitten ist. Solche Zeiten zählst du zusammen. Nur so weißt du, wann du anfangen musst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Eine Kollegin füllt übrigen Reiniger in eine leere Saftflasche. Sie schreibt mit Filzstift „Reiniger“ darauf. Abends trinkt ein Kind aus der Flasche. Was war ihr Denkfehler?",
+        "options": [
+          {
+            "text": "Sie hat sich auf die Beschriftung verlassen. Ein Gefahrstoff darf aber nie in eine Getränkeflasche.",
+            "correct": true
+          },
+          {
+            "text": "Ihre Schrift mit Filzstift war das Problem. Mit einem gedruckten Etikett wäre es erlaubt gewesen."
+          },
+          {
+            "text": "Die Flasche war aus Plastik. In eine Glasflasche hätte sie den Reiniger füllen dürfen."
+          }
+        ],
+        "explanation": "Ein Gefahrstoff ist ein Mittel, das der Gesundheit schaden kann. Er bleibt immer in seinem eigenen Gefäß. Eine Getränkeflasche sagt jedem, der sie sieht: Hier ist etwas zu trinken. Dieses Bild ist stärker als jede Schrift. Deshalb hilft weder ein gedrucktes Etikett noch ein anderes Material."
+      }
+    },
+    {
+      "type": "memory_game",
+      "data": {
+        "prompt": "🧰 Vier Sachen aus dem Verbandkasten. Präge sie dir ein. Danach verschwindet eine davon.",
+        "mode": "fehlt",
+        "items": [
+          {
+            "text": "Dreiecktuch"
+          },
+          {
+            "text": "Augenkompresse"
+          },
+          {
+            "text": "Verbandpäckchen"
+          },
+          {
+            "text": "Einmalhandschuhe"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Mullbinde"
+          },
+          {
+            "text": "Heftpflaster"
+          }
+        ],
+        "reverse": false,
+        "explanation": "Ein Trick fürs Merken: Geh die Sachen einmal von links nach rechts durch und sprich sie leise mit. So hast du sie doppelt im Kopf, als Bild und als Wort. Vorsicht bei der Auswahl: Dort stehen auch Sachen, die gut in einen Verbandkasten passen würden, hier aber gar nicht gezeigt wurden. Du musst dich an das erinnern, was du wirklich gesehen hast."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Ein Gast fragt dich: „Die Kartoffelschalen darf ich in die Biotonne werfen, die Reste vom Braten aber nicht. Warum eigentlich?“ Was antwortest du?",
+        "options": [
+          {
+            "text": "Pflanzenreste wie Schalen verrotten gut. Fleischreste fangen an zu riechen und locken Tiere an. Sie kommen in den Restmüll.",
+            "correct": true
+          },
+          {
+            "text": "Fleisch verrottet viel langsamer als Schalen. Bis zur Abholung wäre die Biotonne dann noch voll."
+          },
+          {
+            "text": "Die Soße vom Braten macht den Abfall nass. Nasser Abfall darf nicht in die Biotonne."
+          }
+        ],
+        "explanation": "Zersetzen heißt: Kleinstlebewesen bauen den Abfall zu Erde um. Bei Schalen, Kaffeesatz und Salat klappt das gut. Reste mit Fleisch, Wurst oder Soße riechen dagegen schnell und ziehen Ratten an. Darum kommen sie in den Restmüll. In der Großküche gibt es für diese Reste die verschließbare Drangtonne."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪜 Ganz leicht zum Schluss: Du kommst an das oberste Regalbrett nicht heran. Was holst du dir?",
+        "options": [
+          {
+            "text": "Eine richtige Leiter oder einen festen Tritt.",
+            "correct": true
+          },
+          {
+            "text": "Einen Bürostuhl mit Rollen."
+          },
+          {
+            "text": "Eine umgedrehte Getränkekiste."
+          }
+        ],
+        "explanation": "Zum Hochsteigen gibt es nur eine sichere Wahl: eine Leiter oder einen festen Tritt. Beide stehen fest und kippen nicht. Ein Stuhl mit Rollen rollt weg, eine Kiste wackelt. Stürze von solchen Hilfsmitteln gehören zu den häufigsten Unfällen bei der Arbeit."
+      }
+    }
+  ]
+}

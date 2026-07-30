@@ -1,0 +1,290 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-anders-gefragt",
+  "title": "Andersherum gefragt: English",
+  "sort": 28,
+  "intro": "🔄 Diese Lektion dreht die Richtung um.\n\nBisher hast du oft einen englischen Satz gehört und ihn verstanden.\n\nJetzt bekommst du die Situation auf Deutsch. Du suchst den englischen Satz dazu.\n\nManchmal fragen wir auch andersherum: Welcher Satz ist FALSCH gebaut? Oder: Was ist hier schiefgegangen?\n\nDu kannst den Stoff schon. Du musst ihn nur von der anderen Seite anpacken.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Vier Fachwörter aus dem Buchungs-Gespräch. Links steht, was gemeint ist. Rechts steht das englische Wort. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "Der Gast hat feste Tage bei euch reserviert. 📅"
+            },
+            "right": {
+              "text": "booking"
+            }
+          },
+          {
+            "left": {
+              "text": "Für diese Tage hat noch niemand reserviert. Die Wohnung ist zu haben."
+            },
+            "right": {
+              "text": "available"
+            }
+          },
+          {
+            "left": {
+              "text": "Du schickst dem Gast die Zusage schriftlich. ✅"
+            },
+            "right": {
+              "text": "confirmation"
+            }
+          },
+          {
+            "left": {
+              "text": "Die Person, die bei euch wohnt und bezahlt. 🙋"
+            },
+            "right": {
+              "text": "guest"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Sortiere zuerst grob. Nur eines der vier Wörter meint einen Menschen. Ein weiteres meint gar keinen Gegenstand, sondern den Zustand der Wohnung: zu haben oder nicht zu haben. Die beiden übrigen Wörter meinen Papierkram — das eine die Reservierung selbst, das andere die schriftliche Zusage dafür."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📞 Ein Gast fragt am Telefon nach der Woche im Mai. In deinem Kalender ist diese Woche schon von einer anderen Familie belegt. Du musst höflich absagen. Welcher Satz sagt das richtig?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "I'm afraid the apartment is fully booked that week.",
+            "correct": true
+          },
+          {
+            "text": "I'm afraid the apartment is still available that week."
+          },
+          {
+            "text": "I'm afraid the apartment is not booked that week."
+          }
+        ],
+        "explanation": "Die drei Sätze unterscheiden sich nur an einer Stelle — und genau diese Stelle entscheidet, ob die Wohnung noch zu haben oder schon vergeben ist. Achte dabei besonders auf kleine Wörter wie not: Sie drehen die ganze Aussage um. Und prüfe zum Schluss, ob der Satz zu deinem I'm afraid passt. Bedauern passt nur zu einer Absage."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Richtig gebaut oder falsch gebaut? Lies jeden Satz genau und sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          {
+            "id": "richtig",
+            "label": "Richtig gebaut",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Falsch gebaut",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "I will bring you the invoice tomorrow.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "The guests arrive at the house at six.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "If the shop is open, I will buy fresh bread.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "I will bring tomorrow you the invoice.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "The guests at six arrive at the house.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "If the shop will be open, I will buy fresh bread.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüfe jeden Satz mit drei Fragen. Erstens: Steht das Verb direkt hinter dem Wer? Zweitens: Steht die Zeitangabe ganz hinten, hinter dem Objekt? Drittens: Steht nach if die Gegenwart und kein will? Ein Satz ist schon falsch, wenn eine einzige dieser Fragen nicht passt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📧 Baue den Satz: Ich schicke Ihnen die Bestätigung per E-Mail.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "I"
+          },
+          {
+            "text": "will send"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "the confirmation"
+          },
+          {
+            "text": "by email"
+          }
+        ],
+        "explanation": "Erst Wer, dann Verb, dann wem, dann was. Womit du etwas schickst, kommt erst danach. Zwischen Verb und Objekt schiebt sich im Englischen nichts."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📞 Ein Gast bucht drei Nächte. Du sagst: The apartment is ninety euros per night. Der Gast fragt: How much is it for three nights? 💶 Wie viele Euro sind das?",
+        "tts_lang": "en-GB",
+        "answer": 270,
+        "hint": "Schritt für Schritt:\n1. ninety heißt 90. Eine Nacht kostet 90 Euro.\n2. Zwei Nächte: 90 + 90 = 180.\n3. Drei Nächte: 180 + 90 = ?",
+        "explanation": "Per night heißt: pro Nacht. Du nimmst den Preis für eine Nacht mal die Anzahl der Nächte: 90 mal 3 sind 270 Euro."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Eine Praktikantin sagt einem Gast: Breakfast is at half past nine. Gemeint war halb neun. Der Gast kommt um 9:30 — da ist das Frühstück längst vorbei. Was ist ihr passiert?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Sie hat halb neun Wort für Wort übersetzt.",
+            "correct": true
+          },
+          {
+            "text": "Sie hat nine und ninety verwechselt."
+          },
+          {
+            "text": "Sie hat past und to verwechselt, also nach und vor."
+          },
+          {
+            "text": "Sie hat quarter und half verwechselt."
+          }
+        ],
+        "explanation": "Die deutschen und die englischen Halb-Zeiten passen nicht zusammen. Das Deutsche schaut auf die Stunde, die kommt. Das Englische schaut auf die Stunde, die schon vorbei ist. Half past eight ist deshalb 8:30, nicht 9:30. Wenn du unsicher bist, sag die Uhrzeit einfach als Zahl: eight thirty."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📞 Ein englischer Gast ruft an und will buchen. Bringe dein Telefonat in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "📞 Dich melden: Hello, Amelie speaking."
+          },
+          {
+            "text": "🙋 Fragen, wobei du helfen kannst: How can I help you?"
+          },
+          {
+            "text": "📅 Nach dem Wunsch-Zeitraum fragen: When would you like to come?"
+          },
+          {
+            "text": "🗓️ Im Kalender nachsehen, ob die Wohnung in diesem Zeitraum frei ist."
+          },
+          {
+            "text": "✍️ Die Buchung eintragen und dafür den Namen buchstabieren lassen."
+          },
+          {
+            "text": "👋 Verabschieden: Thank you for calling. Goodbye!"
+          }
+        ],
+        "explanation": "Am Telefon gilt: erst fragen, dann prüfen, dann eintragen. Im Kalender nachsehen kannst du erst, wenn du den Zeitraum kennst. Und eintragen darfst du erst, wenn die Wohnung wirklich frei ist. Der Gruß steht immer am Anfang, der Dank immer ganz am Schluss."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Links sagt der Gast etwas. Rechts steht deine Reaktion. Was passt zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "There is no hot water in the shower. 🚿"
+            },
+            "right": {
+              "text": "I will check the boiler right away."
+            }
+          },
+          {
+            "left": {
+              "text": "Could we get another blanket? 🛏️"
+            },
+            "right": {
+              "text": "Of course, I will bring you one."
+            }
+          },
+          {
+            "left": {
+              "text": "Could you recommend a place to eat? 🍽️"
+            },
+            "right": {
+              "text": "There is a nice restaurant in the village."
+            }
+          },
+          {
+            "left": {
+              "text": "How much is it for one night? 💶"
+            },
+            "right": {
+              "text": "It is ninety euros per night."
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Sortiere zuerst nach der Art der Frage: Meldet der Gast ein Problem, wünscht er sich etwas, möchte er einen Tipp oder fragt er nach dem Preis? Ein einzelnes gleiches Wort auf beiden Seiten ist noch kein Beweis — die ganze Reaktion muss zur Frage passen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚗 Die Gäste reisen ab und packen gerade ihr Auto. Welchen Satz sagst du in diesem Moment NICHT?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Please make yourself at home.",
+            "correct": true
+          },
+          {
+            "text": "Thank you for staying with us!"
+          },
+          {
+            "text": "Have a safe journey home!"
+          },
+          {
+            "text": "Please come back soon!"
+          }
+        ],
+        "explanation": "Prüfe bei jedem Satz, an welche Stelle des Aufenthalts er gehört. Sätze, die die Gäste zum Ankommen und Bleiben einladen, gehören an den Anfang. Am Abreisetag passen nur Dank und gute Wünsche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Zum Schluss ganz leicht: Ein Gast ist gerade angekommen und fragt nach dem WLAN. Welchen Satz sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Here is the wifi password.",
+            "correct": true
+          },
+          {
+            "text": "Here is your invoice."
+          },
+          {
+            "text": "Check-out time is ten o'clock."
+          }
+        ],
+        "explanation": "Ein Satz passt nur, wenn er genau auf das antwortet, wonach der Gast gefragt hat. Prüfe deshalb zuerst: Wonach hat er gefragt? Und dann: Gehört mein Satz überhaupt in diesen Moment des Aufenthalts?"
+      }
+    }
+  ]
+}

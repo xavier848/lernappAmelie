@@ -1,0 +1,268 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-anders-gefragt",
+  "title": "Gemischt: Geld & Einkaufen",
+  "sort": 210,
+  "intro": "🔁 Diese Lektion ist eine Wiederholung. Alles darin kennst du schon. Es kommt aus den Lektionen über Geld und über Warenwirtschaft. Aber die Fragen sind diesmal anders gestellt. Mal suchst du zu einer Erklärung den passenden Fachbegriff. Mal steckst du mitten in einer Situation und musst entscheiden, was du tust. Mal sollst du sagen, warum eine Regel gilt. Lass dir Zeit. Lies jede Frage ganz zu Ende, bevor du antwortest.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Die Packung Kaffee kostet weiter 5,99 €. Früher waren 500 g drin, jetzt sind es 400 g. Wie heißt dieser Trick?",
+        "options": [
+          {
+            "text": "Schrumpfpackung.",
+            "correct": true
+          },
+          {
+            "text": "Mogelpackung."
+          },
+          {
+            "text": "Aktionsware."
+          }
+        ],
+        "explanation": "Achte auf das Wort selbst. Schrumpfen heißt: kleiner werden. Bei einer Mogelpackung geht es dagegen um die Hülle: außen groß, innen halb leer. Aktionsware liegt nur kurze Zeit im Angebot. Frag dich also: Geht es um den Inhalt, um die Verpackung oder um die Zeit?"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏷️ Sagt dir das Zeichen etwas über die Ware selbst oder nur über die Verpackung? Sortiere.",
+        "buckets": [
+          {
+            "id": "ware",
+            "label": "Über die Ware",
+            "icon": "🧴"
+          },
+          {
+            "id": "verpackung",
+            "label": "Über die Verpackung",
+            "icon": "📦"
+          }
+        ],
+        "items": [
+          {
+            "text": "GS-Zeichen",
+            "bucket": "ware"
+          },
+          {
+            "text": "Blauer Engel",
+            "bucket": "ware"
+          },
+          {
+            "text": "Wollsiegel",
+            "bucket": "ware"
+          },
+          {
+            "text": "spiel gut",
+            "bucket": "ware"
+          },
+          {
+            "text": "Grüner Punkt",
+            "bucket": "verpackung"
+          },
+          {
+            "text": "PET-Zeichen",
+            "bucket": "verpackung"
+          }
+        ],
+        "explanation": "Frag dich bei jedem Zeichen: Wäre es noch wichtig, wenn du die Hülle wegwirfst? Zeichen für Sicherheit, Qualität, den Stoff oder den Umweltschutz gehören zur Ware. Zeichen, die nur sagen, aus was die Hülle ist oder wie sie wiederverwertet wird, gehören zur Verpackung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍚 Eine Kollegin vergleicht zwei Packungen Reis. Sie nimmt die kleine mit 500 g für 1,50 € und sagt: „Die große mit 1 kg für 2,40 € ist zu teuer.“ Wo liegt ihr Denkfehler?",
+        "options": [
+          {
+            "text": "Sie hat nur die Preise an der Kasse verglichen, nicht die Grundpreise.",
+            "correct": true
+          },
+          {
+            "text": "Sie hat vergessen: Die große Packung ist immer die günstigere."
+          },
+          {
+            "text": "Sie hat den Grundpreis pro Liter gelesen statt pro Kilo."
+          }
+        ],
+        "explanation": "Zwei verschieden große Packungen kannst du nur über den Grundpreis vergleichen. Der Grundpreis rechnet beide auf dieselbe Menge um: auf 1 Kilo oder 1 Liter. Der große Preis auf dem Schild sagt dir nur, was du an der Kasse zahlst. Er sagt dir nicht, was die Ware pro Kilo kostet. Und eine feste Regel „groß ist immer günstiger“ gibt es nicht."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔁 Für die Gäste läuft in der Ferienwohnung ein Film-Abo. Im ganzen Jahr hat es 108 Euro gekostet, jeden Monat gleich viel. Wie viel war das im Monat in Euro?",
+        "answer": 9,
+        "hint": "Schritt für Schritt:\n1 Jahr hat 12 Monate.\nDu teilst 108 Euro durch 12.\nTeile zuerst durch 6: 108 geteilt durch 6 = 18.\nTeile dann durch 2: 18 geteilt durch 2 = ?",
+        "explanation": "108 Euro geteilt durch 12 Monate sind 9 Euro. Ein Abo ist eine feste Ausgabe: Es kommt jeden Monat und ist immer gleich hoch. Vom Jahres-Betrag kommst du zum Monats-Betrag, indem du durch 12 teilst. Umgekehrt kommst du vom Monat aufs Jahr, indem du mal 12 rechnest."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie heißt der Fachbegriff für diese Situation? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Jeden Monat gehen automatisch 50 Euro auf dein Sparkonto."
+            },
+            "right": {
+              "text": "Dauerauftrag"
+            }
+          },
+          {
+            "left": {
+              "text": "Das Fitness-Studio holt sich den Beitrag selbst von deinem Konto."
+            },
+            "right": {
+              "text": "Lastschrift"
+            }
+          },
+          {
+            "left": {
+              "text": "Geld liegt bereit, falls die Waschmaschine plötzlich kaputtgeht."
+            },
+            "right": {
+              "text": "Rücklage"
+            }
+          },
+          {
+            "left": {
+              "text": "Der Zettel beweist, wann du den Wasserkocher gekauft hast."
+            },
+            "right": {
+              "text": "Kassenbon"
+            }
+          },
+          {
+            "left": {
+              "text": "Die Liste zeigt jede Buchung und den Kontostand."
+            },
+            "right": {
+              "text": "Kontoauszug"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jedem Fall zwei Sachen. Erstens: Wer bewegt das Geld, du selbst oder eine Firma? Zweitens: Geht es um Geld auf dem Konto oder um einen Beleg aus Papier? Ein Beleg beweist etwas. Er bewegt kein Geld."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🚚 Warenannahme in der Ferienwohnung. Du prüfst die Lieferung Punkt für Punkt. Spricht dieser Punkt fürs Annehmen oder fürs Zurückweisen?",
+        "buckets": [
+          {
+            "id": "annehmen",
+            "label": "Annehmen",
+            "icon": "✅"
+          },
+          {
+            "id": "zurueck",
+            "label": "Zurückweisen",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Bestellt: 2 kg Kartoffeln. Geliefert: 4 Netze mit je 500 g.",
+            "bucket": "annehmen"
+          },
+          {
+            "text": "Auf dem Joghurt steht: mindestens haltbar bis nächsten Monat.",
+            "bucket": "annehmen"
+          },
+          {
+            "text": "Die Milch kommt gut gekühlt aus dem Kühlwagen.",
+            "bucket": "annehmen"
+          },
+          {
+            "text": "Die Birnen haben braune, weiche Stellen.",
+            "bucket": "zurueck"
+          },
+          {
+            "text": "Auf dem Kakaotrunk steht ein Datum von letzter Woche.",
+            "bucket": "zurueck"
+          },
+          {
+            "text": "Die Tüte Mehl ist aufgerissen.",
+            "bucket": "zurueck"
+          }
+        ],
+        "explanation": "Bei der Wareneingangskontrolle prüfst du vier Punkte: Menge, Qualität, Haltbarkeit und Verpackung. Bei der Menge rechnest du erst um: Mehrere kleine Packungen können zusammen genau die bestellte Menge ergeben. Zur Qualität gehört bei kühler Ware auch die Temperatur. Ein einziger Mangel reicht schon zum Zurückweisen. Zeitdruck vom Fahrer ändert daran nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Im Lager stellst du neue Ware immer nach hinten ins Regal. Warum ist das gerade bei Lebensmitteln wichtig?",
+        "options": [
+          {
+            "text": "Sonst bleibt die ältere Ware stehen und verdirbt.",
+            "correct": true
+          },
+          {
+            "text": "Weil die Küche immer die frischeste Ware zuerst bekommen soll."
+          },
+          {
+            "text": "Weil hinten im Regal mehr Platz für große Packungen ist."
+          }
+        ],
+        "explanation": "Die Regel heißt First in – first out: zuerst rein, zuerst raus. Lebensmittel haben ein Haltbarkeitsdatum. Darum muss immer die Ware zuerst weggehen, die am längsten im Lager liegt. Beim Einräumen entscheidest du, wonach später zuerst gegriffen wird."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔴 Im Gang steht ein großer Korb mit Aktionsware: Duschgel. Du willst wissen, ob das wirklich günstig ist. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Zuerst den Grundpreis am Aktions-Korb lesen."
+          },
+          {
+            "text": "Dann dasselbe Duschgel im Regal suchen."
+          },
+          {
+            "text": "Auch dort den Grundpreis lesen."
+          },
+          {
+            "text": "Die beiden Grundpreise vergleichen."
+          },
+          {
+            "text": "Zum Schluss die günstigere Flasche einpacken."
+          }
+        ],
+        "explanation": "Ein rotes Schild am Korb ist Werbung, kein Beweis. Ein Angebot ist erst günstig, wenn es weniger kostet als dieselbe Ware im Regal. Vergleichen kannst du aber erst, wenn du beide Grundpreise kennst. Deshalb kommt das Lesen vor dem Vergleichen und das Vergleichen vor dem Einpacken."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "💶 Ein Gast kauft zwei Gläser Honig aus dem Regal der Ferienwohnung. Zusammen 6,50 €. Er gibt dir einen 10-Euro-Schein. Lege sein Rückgeld hin.",
+        "mode": "change",
+        "price": 650,
+        "given": 1000,
+        "explanation": "10,00 € minus 6,50 € sind 3,50 €. Rechne in Schritten: von 6,50 € bis 7,00 € ist es ein halber Euro, von 7,00 € bis 10,00 € sind es 3 Euro. Zusammen 3,50 €. Für die Ferienwohnung sind die 6,50 € eine Einnahme."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du gehst hungrig und ohne Einkaufszettel in den Supermarkt. Was passiert dann meistens?",
+        "options": [
+          {
+            "text": "Ich kaufe mehr, als ich eigentlich brauche.",
+            "correct": true
+          },
+          {
+            "text": "Ich kaufe weniger, weil ich schnell wieder raus will."
+          },
+          {
+            "text": "An meinem Einkauf ändert sich dadurch nichts."
+          }
+        ],
+        "explanation": "Ein Einkaufszettel ist dein Plan. Ohne Plan entscheidest du erst vor dem Regal, und dann nach Gefühl. Genau darauf sind die Käuferfallen im Laden gebaut. Satt und mit Zettel einkaufen schützt dich davor. 🎉"
+      }
+    }
+  ]
+}

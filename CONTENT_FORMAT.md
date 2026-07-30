@@ -13,6 +13,29 @@ Dieses Dokument ist die verbindliche Referenz, wie Lektionen für Amelies Lernap
 7. **Emojis statt Bilder** im Text sind erlaubt und erwünscht (z. B. „🧽 Schwamm"). Das Feld `image` (URL) nur nutzen, wenn ein echtes Bild in Supabase Storage liegt.
 8. **Abschluss-Niveau:** Amelie soll die Prüfung schaffen. Aufgaben anspruchsvoll, nicht kindlich-einfach: Fachbegriffe aktiv verwenden (und einmal in Leichter Sprache erklären), Anwendungs-/Transferfragen statt reiner Wiedergabe, Distraktoren plausibel und nah an der richtigen Antwort. Leichte Sprache heißt einfache SÄTZE – nicht einfacher INHALT.
 
+## Bestehenden Stoff anders fragen (Wiederholungs-Lektionen)
+
+Amelie sieht dieselben Übungen über `/wiederholen` und `/faellig` mehrfach. Ohne Variation lernt sie irgendwann die Form der richtigen Antwort statt den Inhalt. Eine Wiederholungs-Lektion greift deshalb vorhandenen Stoff auf und verlangt eine **andere Denkleistung** – nicht dieselbe Frage mit anderen Wörtern.
+
+Acht Umformungen, geordnet nach Wirkung:
+
+| Umformung | Aus … wird … |
+|---|---|
+| **Richtung drehen** | „Was heißt *available*?" → „Wie sagt man *frei/verfügbar*?"; Begriff→Definition wird Definition→Begriff |
+| **Fehler suchen** | „Welcher Satz stimmt?" → „Welcher ist falsch?" – sie muss alle prüfen, nicht einen erkennen |
+| **Typ wechseln** | Dieselbe Regel als `multiple_choice`, als `sort_buckets`, als `steps_order` |
+| **Vom Fall her** | Faktenfrage → Situation: „Ein Gast sagt X. Was tust du?" |
+| **Begründen** | „Was kommt zuletzt?" → „Warum kommt der Boden zuletzt?" |
+| **Rückwärts vom Fehler** | „Sie gab 13,50 € statt 7,50 € zurück. Was ist ihr passiert?" |
+| **Transfer** | Dieselbe Regel, anderer Raum, anderer Gast, andere Tageszeit |
+| **Negativ fragen** | „Was gehört **nicht** dazu?" – sparsam, max. einmal pro Lektion, NICHT deutlich markieren |
+
+**Richtung drehen** und **Fehler suchen** wirken am stärksten, weil beide das Auswendiglernen der Antwortform unmöglich machen. „Fehler suchen" funktioniert bei Amelie nachweislich gut (die „Richtig gebaut / Falsch gebaut"-Sortierung in `englisch-wortstellung`).
+
+**Keine Variation** sind: dieselbe Frage umformuliert, oder dieselbe Frage mit vertauschten Antwortoptionen. Das erhöht nur die Übungszahl.
+
+Beim Schreiben einer Wiederholungs-Lektion zuerst die bestehenden Lektionen des Bereichs lesen und die Fakten sammeln. Die neue Lektion darf dem vorhandenen Stoff **nie widersprechen** – Amelie lernt sonst beides.
+
 ## Eine Lektion (JSON)
 
 ```json

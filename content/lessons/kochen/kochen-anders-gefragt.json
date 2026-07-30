@@ -1,0 +1,258 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-anders-gefragt",
+  "title": "Gemischt: Küche & Essen",
+  "sort": 270,
+  "intro": "🍳 Diese Lektion bringt Wissen aus mehreren Themen zusammen: Arbeitstechniken, Gartechniken, Hygiene, Nährstoffe und Servieren.\n\nDer Stoff ist nicht neu. Neu ist die Frage. Manchmal steht der Fachbegriff nicht in der Frage, sondern in der Antwort. Manchmal sollst du nicht sagen, was richtig ist, sondern was falsch ist. Und manchmal beschreibt die Frage eine Situation aus der Ferienwohnung, und du musst selbst entscheiden, welche Regel dazu passt.\n\nLies deshalb jede Frage bis zum Ende, bevor du auf die Antworten schaust. Frag dich: Was will die Frage von mir wissen?",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Du garst Brokkoli für die Gäste. Du nimmst den Dämpfeinsatz und nicht den Topf mit viel sprudelndem Wasser. Warum ist das die bessere Wahl?",
+        "options": [
+          {
+            "text": "Der Brokkoli liegt nicht in der Flüssigkeit. So bleiben mehr Vitamine und die grüne Farbe erhalten.",
+            "correct": true
+          },
+          {
+            "text": "Der Dampf ist heißer als kochendes Wasser. Der Brokkoli wird dadurch schneller weich."
+          },
+          {
+            "text": "Im Dampf nimmt der Brokkoli das Salz aus dem Wasser auf. Du musst ihn danach nicht mehr würzen."
+          }
+        ],
+        "explanation": "Ein Teil der Vitamine ist wasserlöslich. Wasserlöslich heißt: Sie gehen ins Wasser über und werden mit dem Kochwasser weggeschüttet. Frag dich deshalb bei jeder Gartechnik: Liegt das Lebensmittel in der Flüssigkeit, oder berührt es nur den Dampf darüber?"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Das Ergebnis liegt vor dir. Welche Technik hast du benutzt? Finde die Paare.",
+        "pairs": [
+          {
+            "left": {
+              "text": "🥒 Auf dem Brett liegen ganz dünne Gurkenscheiben."
+            },
+            "right": {
+              "text": "Hobeln"
+            }
+          },
+          {
+            "left": {
+              "text": "🧀 In der Schüssel liegen feine Käse-Streifen."
+            },
+            "right": {
+              "text": "Raspeln"
+            }
+          },
+          {
+            "left": {
+              "text": "🌿 Aus der Petersilie sind winzige grüne Stücke geworden."
+            },
+            "right": {
+              "text": "Hacken"
+            }
+          },
+          {
+            "left": {
+              "text": "🍏 Im Sieb bleiben die Kerne liegen, unten kommt feines Mus heraus."
+            },
+            "right": {
+              "text": "Passieren"
+            }
+          },
+          {
+            "left": {
+              "text": "🥛 Aus flüssiger Sahne ist eine feste, lockere Masse geworden."
+            },
+            "right": {
+              "text": "Schlagen"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Hier fragst du rückwärts: vom Ergebnis zur Technik. Achte auf die Form, die entstanden ist. Streifen, Scheiben und winzige Stücke sind drei verschiedene Ergebnisse und brauchen drei verschiedene Techniken. Und wenn nichts kleiner wird, sondern nur Luft dazukommt, ist es gar keine Technik zum Zerkleinern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Deine Kollegin bereitet ein gefrorenes Hähnchen für die Gäste zu. Bei welchem dieser drei Arbeitsschritte macht sie einen FEHLER?",
+        "options": [
+          {
+            "text": "Sie stellt das gefrorene Hähnchen zum Auftauen offen auf die Arbeitsplatte.",
+            "correct": true
+          },
+          {
+            "text": "Sie gart das Hähnchen so lange, bis es auch im Kern 80 Grad heiß ist."
+          },
+          {
+            "text": "Sie füllt die Reste nach dem Essen in eine Schale, deckt sie ab und stellt sie in den Kühlschrank."
+          }
+        ],
+        "explanation": "Hier musst du alle drei Schritte prüfen, nicht nur einen. Stell dir bei jedem dieselbe Frage: Vermehren sich hier Keime, oder werden sie gebremst? Hitze tötet Keime ab. Kälte bremst sie aus. Zimmerwärme und viel Zeit sind dagegen genau das, was Keime zum Wachsen brauchen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌡️ Alles ist zubereitet, die Gäste kommen gleich. Muss es bis dahin heiß bleiben oder kalt bleiben? Sortiere.",
+        "buckets": [
+          {
+            "id": "heiss",
+            "label": "Muss heiß bleiben",
+            "icon": "🔥"
+          },
+          {
+            "id": "kalt",
+            "label": "Muss kalt bleiben",
+            "icon": "🧊"
+          }
+        ],
+        "items": [
+          {
+            "text": "Die Gemüsesuppe am Büfett",
+            "bucket": "heiss"
+          },
+          {
+            "text": "Der fertige Schmorbraten bis zum Servieren",
+            "bucket": "heiss"
+          },
+          {
+            "text": "Der frisch gekochte Kaffee in der Kanne",
+            "bucket": "heiss"
+          },
+          {
+            "text": "Das Hackfleisch bis zum Braten",
+            "bucket": "kalt"
+          },
+          {
+            "text": "Der fertige Kartoffelsalat bis zum Servieren",
+            "bucket": "kalt"
+          },
+          {
+            "text": "Die aufgeschnittene Wurst für das Frühstück",
+            "bucket": "kalt"
+          }
+        ],
+        "explanation": "Keime vermehren sich am schnellsten, wenn es lauwarm ist. Deshalb gilt: Warme Speisen bleiben richtig heiß, mindestens 60 Grad. Kalte Speisen bleiben richtig kalt im Kühlschrank. Lauwarm ist immer falsch. Frag dich bei jeder Karte: Wie soll der Gast das bekommen – dampfend heiß oder gut gekühlt?"
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🕒 Frisch gekochtes Essen darf höchstens 30 Minuten warm stehen. Dein Auflauf war um 11:50 Uhr fertig. Jetzt ist es 12:05 Uhr. Wie viele Minuten darfst du ihn höchstens noch warm stehen lassen?",
+        "answer": 15,
+        "hint": "Schritt für Schritt:\n1. Wie viel Zeit ist schon vergangen? Von 11:50 Uhr bis 12:05 Uhr sind es 15 Minuten.\n2. Erlaubt sind insgesamt 30 Minuten.\n3. Rechne: 30 minus 15.",
+        "explanation": "Die Warmhaltezeit beträgt 30 Minuten. Warmhaltezeit heißt: die Zeit, die fertiges Essen warm stehen darf. Davon sind schon 15 Minuten vorbei. 30 minus 15 sind 15. Du hast also noch 15 Minuten. Danach gehen Vitamine verloren und Keime vermehren sich."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍽️ In der Ferienwohnung gibt es abends ein Menü mit Suppe und Hauptgang. Bringe deine Arbeitsschritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "🍴 Den Tisch eindecken: Gabel links, Messer rechts mit der Schneide zum Teller."
+          },
+          {
+            "text": "🥣 Dem Gast den Suppenteller von rechts einsetzen."
+          },
+          {
+            "text": "🥄 Den leeren Suppenteller von rechts abräumen, sobald das Besteck nebeneinander liegt."
+          },
+          {
+            "text": "🍛 Den angerichteten Hauptgang von rechts einsetzen."
+          },
+          {
+            "text": "☕ Nach dem Essen den Kaffee von rechts einschenken, die Kanne in der linken Hand."
+          }
+        ],
+        "explanation": "Ein Menü läuft in Gängen ab. Ein Gang ist ein Teil vom Essen, zum Beispiel die Suppe. Vor dem Gast steht immer nur ein Gang gleichzeitig: erst essen, dann abräumen, dann der nächste Teller. Und der Tisch muss fertig sein, bevor der erste Gast sitzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Ein Gast hat Messer und Gabel gekreuzt auf den Teller gelegt. Du nimmst den Teller weg. Der Gast schaut dich überrascht an. Was ist dir passiert?",
+        "options": [
+          {
+            "text": "Der Gast wollte noch weiteressen. Gekreuztes Besteck heißt Pause, nicht fertig.",
+            "correct": true
+          },
+          {
+            "text": "Du hast von der falschen Seite abgeräumt. Leere Teller nimmt man von links ab."
+          },
+          {
+            "text": "Du hast mit der falschen Hand abgeräumt. Leere Teller nimmt man mit beiden Händen ab."
+          }
+        ],
+        "explanation": "Das Besteck ist das Zeichen des Gastes an dich. Er sagt dir damit ohne Worte, wie weit er ist. Zwei verschiedene Besteck-Lagen bedeuten zwei verschiedene Dinge. Schau deshalb immer erst auf den Teller, bevor du ihn anfasst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Ein Gast trainiert viel und sagt dir: Er braucht mehr vom Baustoff für Muskeln und Zellen. Auf seinem Frühstücksteller liegen Weißbrot mit Marmelade, dazu steht ein Glas Apfelsaft. Was stellst du ihm dazu?",
+        "options": [
+          {
+            "text": "Einen Becher Magerquark und ein gekochtes Ei.",
+            "correct": true
+          },
+          {
+            "text": "Eine zweite Scheibe Weißbrot mit Marmelade."
+          },
+          {
+            "text": "Etwas mehr Butter für sein Brot."
+          }
+        ],
+        "explanation": "Der Fachbegriff steht hier nicht in der Frage. Baustoff für Muskeln und Zellen ist die Umschreibung für Eiweiß. Übersetze deshalb zuerst, welchen Nährstoff der Gast eigentlich meint. Dann prüfe jeden Vorschlag mit der Frage: Wovon steckt darin am meisten drin? Brot, Marmelade und Saft liefern vor allem Kohlenhydrate."
+      }
+    },
+    {
+      "type": "memory_game",
+      "data": {
+        "prompt": "🍴 Merke dir, wie die Stationen am Büfett hintereinander stehen. Tippe sie danach in dieser Reihenfolge an.",
+        "mode": "reihenfolge",
+        "items": [
+          {
+            "text": "Teller"
+          },
+          {
+            "text": "Suppe"
+          },
+          {
+            "text": "Fleisch"
+          },
+          {
+            "text": "Nachspeise"
+          },
+          {
+            "text": "Besteck"
+          }
+        ],
+        "reverse": false,
+        "explanation": "Am Büfett steht alles in der Reihenfolge, in der der Gast es braucht: zuerst der Teller, dann die Speisen von der Suppe bis zur Nachspeise, und ganz am Ende das Besteck. So hat der Gast beim Auftun immer eine Hand frei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Du hast rohes Hackfleisch zu Frikadellen geformt. Als Nächstes willst du den Salat schneiden. Was tust du davor?",
+        "options": [
+          {
+            "text": "Hände waschen, Brett und Messer wechseln.",
+            "correct": true
+          },
+          {
+            "text": "Einfach weitermachen, der Salat wird ja vorher noch gewaschen."
+          },
+          {
+            "text": "Die Hände kurz am Küchentuch abwischen."
+          }
+        ],
+        "explanation": "Rohes Hackfleisch hinterlässt Keime an Händen, Brett und Messer. Der Salat wird danach nicht mehr erhitzt. Alles, was roh auf den Teller kommt, braucht deshalb saubere Hände und saubere Geräte. Wenn Keime von einem Lebensmittel auf ein anderes wandern, nennt man das Kreuzkontamination."
+      }
+    }
+  ]
+}

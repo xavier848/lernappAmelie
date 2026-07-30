@@ -1,0 +1,259 @@
+{
+  "topic_slug": "gedaechtnis",
+  "slug": "gedaechtnis-alltag",
+  "title": "Merken im Alltag",
+  "sort": 5,
+  "intro": "🧠 Im Alltag musst du dir ständig etwas merken. Gästewünsche. Telefonnummern. Die Reihenfolge deiner Aufträge.\n\nDafür ist dein Arbeitsgedächtnis zuständig. Arbeitsgedächtnis heißt: der Teil vom Kopf, der Sachen kurz festhält. Er hat wenig Platz. Etwa vier Einheiten passen hinein.\n\nVier Tricks machen aus vielen Einheiten wenige:\n\n🍰 HÄPPCHEN BILDEN. Aus 0 8 2 4 4 1 9 6 wird 082 – 44 – 196.\n\n📦 BÜNDELN. Milch, Butter und Käse sind eine Gruppe: alles aus dem Kühlschrank.\n\n🖼️ VERKNÜPFEN. Denk dir zu einem Namen ein Bild. Herr Bäcker – eine Bäckerei.\n\n🗣️ LAUT WIEDERHOLEN. Sag den Wunsch einmal leise nach.\n\nMERKE: Wenn bei der Arbeit mehr als vier Punkte zusammenkommen, schreibst du auf. Aufschreiben ist keine Schwäche. Es ist die sicherste Lösung.",
+  "exercises": [
+    {
+      "type": "memory_game",
+      "data": {
+        "prompt": "📞 Familie Berger gibt dir ihre Telefonnummer. Sie ist schon in Häppchen geteilt. Merke dir die Reihenfolge.",
+        "mode": "reihenfolge",
+        "items": [
+          {
+            "text": "0 8 2"
+          },
+          {
+            "text": "4 4"
+          },
+          {
+            "text": "1 9 6"
+          }
+        ],
+        "explanation": "Die richtige Reihenfolge war: 0 8 2 – 4 4 – 1 9 6. Drei Häppchen merkt sich der Kopf viel leichter als acht einzelne Ziffern."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧠 Sortiere: Was macht das Merken leichter? Was macht es schwerer?",
+        "buckets": [
+          {
+            "id": "leichter",
+            "label": "Macht das Merken leichter",
+            "icon": "🧠"
+          },
+          {
+            "id": "schwerer",
+            "label": "Macht das Merken schwerer",
+            "icon": "🌀"
+          }
+        ],
+        "items": [
+          {
+            "text": "Die lange Telefonnummer in kurze Häppchen teilen",
+            "bucket": "leichter"
+          },
+          {
+            "text": "Milch, Butter und Käse als eine Gruppe merken",
+            "bucket": "leichter"
+          },
+          {
+            "text": "Die Wunschliste einmal leise mitsprechen",
+            "bucket": "leichter"
+          },
+          {
+            "text": "Beim Zuhören schon an die nächste Aufgabe denken",
+            "bucket": "schwerer"
+          },
+          {
+            "text": "Acht einzelne Ziffern auf einmal in den Kopf pressen",
+            "bucket": "schwerer"
+          },
+          {
+            "text": "Den Gast alles am Stück sagen lassen, ohne um eine Pause zu bitten",
+            "bucket": "schwerer"
+          }
+        ],
+        "explanation": "Der Kopf hält wenige Einheiten fest, nicht wenige Wörter. Alles, was aus vielen Teilen wenige Einheiten macht, hilft. Alles, was deine Aufmerksamkeit teilt oder die Menge erhöht, schadet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Amelie merkt sich drei Aufträge: Zimmer 3 braucht Handtücher. Zimmer 5 braucht Kissen. Zimmer 7 braucht einen Föhn. Sie bringt den Föhn nach Zimmer 5. Was ist ihr passiert?",
+        "options": [
+          {
+            "text": "Sie hat sich die drei Sachen gemerkt, aber nicht, welche Sache zu welchem Zimmer gehört.",
+            "correct": true
+          },
+          {
+            "text": "Sie hat eine der drei Sachen komplett vergessen."
+          },
+          {
+            "text": "Sie hat sich eine Sache zu viel gemerkt."
+          },
+          {
+            "text": "Sie hat die drei Aufträge in der falschen Reihenfolge erledigt."
+          }
+        ],
+        "explanation": "Bei solchen Aufträgen gehören immer zwei Dinge zusammen: das Zimmer und die Sache. Merke dir jedes Paar als EINE Einheit, am besten mit einem Bild dazu. Zwei getrennte Listen im Kopf – hier die Zimmer, da die Sachen – geraten fast immer durcheinander."
+      }
+    },
+    {
+      "type": "memory_game",
+      "data": {
+        "prompt": "🥐 Ein Gast bestellt sein Frühstück. Schau dir die Wünsche gut an. Gleich fehlt einer davon!",
+        "mode": "fehlt",
+        "items": [
+          {
+            "text": "☕ Kaffee"
+          },
+          {
+            "text": "🥐 Croissant"
+          },
+          {
+            "text": "🧈 Butter"
+          },
+          {
+            "text": "🍊 Orangensaft"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "🥚 Ei"
+          },
+          {
+            "text": "🫖 Tee"
+          }
+        ],
+        "explanation": "Geh die Bestellung im Kopf noch einmal durch: Was hat der Gast gesagt – und was steht jetzt nicht mehr da?"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "☎️ Ein Gast ruft an und will dir seine Handynummer durchgeben. Bring die Arbeitsschritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Den Gast bitten, kurz zu warten"
+          },
+          {
+            "text": "Zettel und Stift holen"
+          },
+          {
+            "text": "Den Gast bitten, die Nummer jetzt langsam zu sagen"
+          },
+          {
+            "text": "Die Nummer beim Zuhören mitschreiben"
+          },
+          {
+            "text": "Die aufgeschriebene Nummer laut zurücklesen"
+          }
+        ],
+        "explanation": "Sichere dir erst Zeit, bevor du weggehst – sonst redet der Gast in den leeren Raum. Und lies immer zurück, was du aufgeschrieben hast: Einen Hörfehler findest du nur, solange der Gast noch am Telefon ist."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Welche Merk-Hilfe passt zu welcher Situation?",
+        "pairs": [
+          {
+            "left": {
+              "text": "Eine Telefonnummer mit acht Ziffern"
+            },
+            "right": {
+              "text": "🍰 In Häppchen teilen: 082 – 44 – 196"
+            }
+          },
+          {
+            "left": {
+              "text": "Milch, Butter, Käse, Joghurt"
+            },
+            "right": {
+              "text": "📦 Als eine Gruppe merken: alles aus dem Kühlschrank"
+            }
+          },
+          {
+            "left": {
+              "text": "Der Gast heißt Herr Bäcker"
+            },
+            "right": {
+              "text": "🖼️ Ein Bild dazu denken: eine Bäckerei"
+            }
+          },
+          {
+            "left": {
+              "text": "Sechs Wünsche auf einmal"
+            },
+            "right": {
+              "text": "📝 Aufschreiben: mehr als vier Punkte"
+            }
+          }
+        ],
+        "explanation": "Jede Art von Information hat ihre eigene Hilfe. Zahlen zerlegst du in Häppchen. Ähnliche Dinge bündelst du zu einer Gruppe. Namen verknüpfst du mit einem Bild. Und wenn die Menge zu groß wird, hilft kein Trick mehr – dann gehört es auf den Zettel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 082 – 44 – 196 hat genauso viele Ziffern wie 0 8 2 4 4 1 9 6. Warum ist die erste Form trotzdem leichter zu merken?",
+        "options": [
+          {
+            "text": "Der Kopf zählt keine Ziffern, sondern Einheiten. Aus acht Einheiten werden drei.",
+            "correct": true
+          },
+          {
+            "text": "Kurze Zahlen kann man leichter aussprechen als lange."
+          },
+          {
+            "text": "Bei Häppchen muss man sich nur den Anfang von jedem Häppchen merken."
+          }
+        ],
+        "explanation": "Der Platz im Arbeitsgedächtnis wird in Einheiten gemessen, nicht in Ziffern. Ein Häppchen ist eine Einheit – egal, ob zwei oder drei Ziffern darin stecken. Deshalb wirkt der Trick, obwohl sich an der Nummer selbst nichts ändert."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🛏️ Zwei Anmeldungen kommen kurz nacheinander. Familie Berger: 2 Erwachsene und 3 Kinder. Familie Otto: 2 Erwachsene und 1 Kind. Jeder braucht ein eigenes Bett. Wie viele Betten brauchst du insgesamt?",
+        "answer": 8,
+        "hint": "Schritt für Schritt:\n1. Familie Berger: 2 + 3 = 5 Betten.\n2. Familie Otto: 2 + 1 = 3 Betten.\n3. 5 Betten + 3 Betten = ?",
+        "explanation": "Es sind 8 Betten. Rechne jede Familie einzeln aus und merke dir nur das Zwischenergebnis. Eine gemerkte Zahl belastet den Kopf weniger als vier."
+      }
+    },
+    {
+      "type": "memory_game",
+      "data": {
+        "prompt": "📋 Deine Chefin nennt dir vier Aufträge. Denk dir dazu einen kleinen Film, in dem einer nach dem anderen passiert. Merke sie dir in der richtigen Reihenfolge.",
+        "mode": "reihenfolge",
+        "items": [
+          {
+            "text": "🧺 Wäsche holen"
+          },
+          {
+            "text": "☕ Kaffee kochen"
+          },
+          {
+            "text": "🔑 Schlüssel abgeben"
+          },
+          {
+            "text": "🌸 Blumen gießen"
+          }
+        ],
+        "explanation": "Die richtige Reihenfolge war: 🧺 Wäsche holen – ☕ Kaffee kochen – 🔑 Schlüssel abgeben – 🌸 Blumen gießen. Wer die vier Bilder zu einer Geschichte verbindet, merkt sich eine Kette statt vier Einzelheiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Ein Gast steht in der Tür und zählt sechs Sachen auf. Deine Hände sind voll. Was tust du?",
+        "options": [
+          {
+            "text": "Ich sage: Einen Moment bitte. Dann hole ich den Notizblock und schreibe mit.",
+            "correct": true
+          },
+          {
+            "text": "Ich merke mir die ersten zwei Sachen und hoffe, der Rest fällt mir später wieder ein."
+          },
+          {
+            "text": "Ich höre einfach weiter zu. Sechs Punkte schafft man mit genug Konzentration."
+          }
+        ],
+        "explanation": "Ab etwa vier Punkten ist das Arbeitsgedächtnis voll. Dann ist der Zettel kein Notbehelf, sondern das richtige Werkzeug. Ein Gast wartet lieber zehn Sekunden, als dass sein Wunsch verloren geht."
+      }
+    }
+  ]
+}

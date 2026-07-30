@@ -1,0 +1,233 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-anders-gefragt",
+  "title": "Gemischt: Mengen, Maße & Rechnen",
+  "sort": 40,
+  "intro": "🔁 Diese Lektion wiederholt, was du schon kennst. Die Fragen sind aber anders gestellt als beim ersten Mal. Mal suchst du einen Fehler. Mal rechnest du in die andere Richtung. Mal sollst du begründen, warum etwas so gemacht wird. Du arbeitest in der Küche der Ferienwohnung. Zwischendurch stehst du am Tresen und gibst Rückgeld. Drei Zahlen brauchst du immer wieder: 1 Kilogramm sind 1000 Gramm. 1 Liter sind 1000 Milliliter. 1 Milliliter Wasser wiegt 1 Gramm.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📌 An der Küchenwand hängen drei Merkzettel. Auf einem Zettel steht eine falsche Umrechnung. Welcher Zettel ist falsch?",
+        "options": [
+          {
+            "text": "Ein halber Liter Wasser sind 500 Milliliter."
+          },
+          {
+            "text": "Ein Viertel Kilo Mehl sind 400 Gramm.",
+            "correct": true
+          },
+          {
+            "text": "Ein Liter Wasser wiegt 1000 Gramm."
+          }
+        ],
+        "explanation": "Prüfe jeden Zettel einzeln gegen die Grundzahlen: 1 Kilogramm sind 1000 Gramm. 1 Liter sind 1000 Milliliter. 1 Milliliter Wasser wiegt 1 Gramm. Steht auf dem Zettel ein Bruch, rechne ihn selbst aus: ein Viertel heißt durch 4 teilen, ein Halbes heißt durch 2 teilen. Erst dann kannst du vergleichen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Waage und Messbecher zeigen eine Zahl. Im Rezept steht dieselbe Menge als Bruch. Finde die Paare.",
+        "pairs": [
+          {
+            "left": {
+              "text": "⚖️ Die Waage zeigt 750 g"
+            },
+            "right": {
+              "text": "drei Viertel Kilo"
+            }
+          },
+          {
+            "left": {
+              "text": "⚖️ Die Waage zeigt 125 g"
+            },
+            "right": {
+              "text": "ein Achtel Kilo"
+            }
+          },
+          {
+            "left": {
+              "text": "🥛 Der Messbecher zeigt 500 ml"
+            },
+            "right": {
+              "text": "ein halber Liter"
+            }
+          },
+          {
+            "left": {
+              "text": "🥛 Der Messbecher zeigt 250 ml"
+            },
+            "right": {
+              "text": "ein Viertel Liter"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Achte zuerst auf die Einheit: Gramm gehören zum Kilo, Milliliter gehören zum Liter. Die Grundzahl ist beide Male 1000. Ein Viertel heißt: durch 4 teilen. Ein Achtel heißt: durch 8 teilen. Drei Viertel heißt: ein Viertel mal 3."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥄 Du backst Kuchen für die Gäste. Deine Waage ist kaputt, du hast nur einen Esslöffel. Du gibst 6 gestrichene Esslöffel Zucker in den Teig. Ein gestrichener Esslöffel Zucker wiegt 15 Gramm. Wie viel Gramm Zucker sind im Teig?",
+        "answer": 90,
+        "hint": "Zerlege die Zahl:\n6 × 15 = 6 × 10 + 6 × 5\n6 × 10 = 60\n6 × 5 = 30\n60 + 30 = ?",
+        "explanation": "6 × 15 = 90. Im Teig sind also 90 Gramm Zucker. Achte auf die Richtung: Von Löffeln zu Gramm rechnest du mal. Von Gramm zu Löffeln rechnest du geteilt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Du stellst die leere Schüssel auf die Waage und drückst dann die Tara-Taste. Die Anzeige springt auf null. Warum machst du das, bevor du die Zutat einfüllst?",
+        "options": [
+          {
+            "text": "Damit die Waage nur die Zutat anzeigt und nicht auch das Gewicht der Schüssel.",
+            "correct": true
+          },
+          {
+            "text": "Damit die Waage schneller reagiert, wenn du die Zutat einfüllst."
+          },
+          {
+            "text": "Damit die Schüssel beim Einfüllen nicht von der Waage rutscht."
+          }
+        ],
+        "explanation": "Tara ist das Eigengewicht des leeren Gefäßes. Eigengewicht heißt: was die Schüssel allein schon wiegt. Die Tara-Taste rechnet dieses Gewicht heraus. Frag dich darum immer: Wiegt die Waage gerade nur meine Zutat oder noch etwas mit?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Du füllst 250 Milliliter Mehl in den Messbecher. Deine Kollegin sagt: „Dann sind das auch 250 Gramm.“ Hat sie recht?",
+        "options": [
+          {
+            "text": "Nein. Die Faustregel 1 Milliliter = 1 Gramm gilt nur für Wasser.",
+            "correct": true
+          },
+          {
+            "text": "Ja. Milliliter und Gramm bedeuten bei jeder Zutat dasselbe."
+          },
+          {
+            "text": "Ja, wenn du die Waage vorher mit der Tara-Taste auf null stellst."
+          }
+        ],
+        "explanation": "Die Faustregel 1 Milliliter wiegt 1 Gramm ist nur für Wasser gemacht. Jede andere Zutat hat eine andere Dichte. Dichte heißt: wie schwer ein Stoff bei gleichem Platz ist. Darum hat ein Messbecher für Mehl und für Zucker eigene Skalen. Die Tara-Taste ändert daran nichts, sie rechnet nur das Gefäß heraus. Frag dich zuerst: Geht es um Wasser oder um etwas anderes?"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥛 Die Mengen stehen in verschiedenen Einheiten. Rechne im Kopf um und sortiere: mehr oder weniger als 1 Liter?",
+        "buckets": [
+          {
+            "id": "weniger",
+            "label": "Weniger als 1 Liter",
+            "icon": "⬇️"
+          },
+          {
+            "id": "mehr",
+            "label": "Mehr als 1 Liter",
+            "icon": "⬆️"
+          }
+        ],
+        "items": [
+          {
+            "text": "🍮 750 ml Milch für den Pudding",
+            "bucket": "weniger"
+          },
+          {
+            "text": "🍲 1250 ml Brühe für die Suppe",
+            "bucket": "mehr"
+          },
+          {
+            "text": "🥗 125 ml Öl für den Salat",
+            "bucket": "weniger"
+          },
+          {
+            "text": "🍝 2000 ml Wasser für die Nudeln",
+            "bucket": "mehr"
+          },
+          {
+            "text": "🍰 0,4 Liter Sahne für die Torte",
+            "bucket": "weniger"
+          },
+          {
+            "text": "🧃 1,5 Liter Saft für die Kinder",
+            "bucket": "mehr"
+          }
+        ],
+        "explanation": "Vergleichen kannst du erst, wenn beide Angaben dieselbe Einheit haben. Rechne darum zuerst alles in Milliliter um: 1 Liter sind 1000 Milliliter. Danach schaust du nur noch, ob die Zahl über oder unter 1000 liegt."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥘 Dein Rezept für Kartoffelgratin ist für 4 Personen. Du brauchst dafür 600 Milliliter Sahne. Heute kommen aber 6 Gäste. Wie viele Milliliter Sahne brauchst du?",
+        "answer": 900,
+        "hint": "Schritt für Schritt:\nErst für 1 Person: 600 ml geteilt durch 4 = 150 ml.\nDann für 6 Personen: 150 ml mal 6 = ?",
+        "explanation": "Dieser Weg heißt Dreisatz. Dreisatz heißt: erst auf eine Person herunterrechnen, dann auf die neue Zahl hochrechnen. 600 geteilt durch 4 sind 150. 150 mal 6 sind 900. Du brauchst 900 Milliliter Sahne."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧺 Ein Gast bezahlt frische Bettwäsche und Handtücher: 13,60 €. Er gibt dir einen 20-Euro-Schein. So rechnest du das Rückgeld mit dem Ergänzen aus. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Du liest den Preis ab: 13,60 €."
+          },
+          {
+            "text": "Bis zum nächsten vollen Euro fehlen 40 Cent. Jetzt bist du bei 14 €."
+          },
+          {
+            "text": "Von 14 € bis zum 20-Euro-Schein fehlen noch 6 €."
+          },
+          {
+            "text": "Du zählst die beiden Stücke zusammen: 40 Cent und 6 € sind 6,40 €."
+          },
+          {
+            "text": "Zur Probe rechnest du: 13,60 € plus 6,40 € ergibt genau 20 €."
+          }
+        ],
+        "explanation": "Ergänzen läuft immer von unten nach oben: erst die Cent bis zum nächsten vollen Euro, dann die vollen Euro bis zum Schein. Zusammenzählen kannst du erst, wenn beide Stücke feststehen. Die Probe steht immer ganz am Schluss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Ein Gast bezahlt Getränke für 8,40 € und gibt dir einen 10-Euro-Schein. Deine Kollegin legt ihm 18,40 € zurück auf den Tresen. Was ist ihr passiert?",
+        "options": [
+          {
+            "text": "Sie hat den Preis zum Schein dazugezählt, statt ihn abzuziehen.",
+            "correct": true
+          },
+          {
+            "text": "Sie hat vom Schein nur die Cent abgezogen und die Euro vergessen."
+          },
+          {
+            "text": "Sie hat den Preis auf 9 € aufgerundet und danach nicht mehr nachgerechnet."
+          }
+        ],
+        "explanation": "Bei so einer Frage rechnest du rückwärts: Was müsste man tun, damit genau diese Zahl herauskommt? Dabei hilft dir die Probe. Preis plus Rückgeld muss genau den Schein ergeben. Und merke dir den schnellen Blick: Rückgeld ist immer kleiner als der Schein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Aufgabe. Du stellst einen leeren Krug auf die Waage und drückst die Tara-Taste. Dann füllst du einen halben Liter Wasser hinein. Wie viel Gramm zeigt die Waage?",
+        "options": [
+          {
+            "text": "500 Gramm",
+            "correct": true
+          },
+          {
+            "text": "250 Gramm"
+          },
+          {
+            "text": "1000 Gramm"
+          }
+        ],
+        "explanation": "Rechne in zwei Schritten. Erster Schritt: 1 Liter sind 1000 Milliliter, ein halber Liter ist die Hälfte davon. Zweiter Schritt: Für Wasser wiegt 1 Milliliter genau 1 Gramm. Bei Wasser zeigt die Waage darum dieselbe Zahl wie der Messbecher. Bei Mehl oder Öl gilt das nicht."
+      }
+    }
+  ]
+}
