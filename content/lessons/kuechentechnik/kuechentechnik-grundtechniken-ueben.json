@@ -1,0 +1,304 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-grundtechniken-ueben",
+  "title": "Grundtechniken üben",
+  "sort": 15,
+  "intro": "🔪 Bevor etwas in den Topf kommt, bereitest du es vor. Dafür gibt es viele Arbeitstechniken. Alle lassen sich in drei Gruppen ordnen. Stell dir bei jeder Technik dieselbe Frage: Was passiert mit dem Lebensmittel?\n\nGeht etwas weg? Dann ist es Entfernen. Beim Schälen geht die Schale weg. Beim Waschen geht der Schmutz weg. Beim Abtropfen geht das Wasser weg. Beim Entkernen gehen die Kerne weg. Das Lebensmittel selbst bleibt dabei ganz.\n\nWird es kleiner? Dann ist es Zerkleinern. Beim Schneiden, Hacken, Würfeln, Raspeln und Hobeln werden aus einem großen Stück viele kleine Stücke. Ob Streifen, Würfel oder Scheiben: Das ist egal. Wichtig ist nur, dass es kleiner wird.\n\nWerden Sachen verbunden? Dann ist es Mischen. Beim Rühren, Kneten und Unterheben vermengst du Zutaten. Vermengen heißt: Dinge gut miteinander verbinden. Auch das Schlagen gehört dazu. Dabei verbindest du Luft mit Sahne oder mit Eiweiß.\n\nAchtung, hier ist eine Falle: Wofür du eine Technik brauchst, ist für die Gruppe egal. Du schneidest eine Gurke, um sie später unter den Salat zu mischen. Das Schneiden selbst bleibt trotzdem Zerkleinern. Entscheidend ist immer nur der Arbeitsschritt selbst.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Du raspelst ein Stück Käse. Danach streust du die Raspeln über den Nudelauflauf. Zu welcher Gruppe gehört das Raspeln?",
+        "options": [
+          {
+            "text": "Zum Zerkleinern.",
+            "correct": true
+          },
+          {
+            "text": "Zum Mischen."
+          },
+          {
+            "text": "Zum Entfernen."
+          }
+        ],
+        "explanation": "Schau immer nur auf den Arbeitsschritt selbst. Wofür du das Lebensmittel danach brauchst, ändert die Gruppe nicht. Sonst wäre jede Technik vor einem Auflauf plötzlich Mischen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Was passiert mit dem Lebensmittel? Ordne jede Technik ihrer Gruppe zu.",
+        "buckets": [
+          {
+            "id": "entfernen",
+            "label": "Entfernen",
+            "icon": "🧹"
+          },
+          {
+            "id": "zerkleinern",
+            "label": "Zerkleinern",
+            "icon": "🔪"
+          },
+          {
+            "id": "mischen",
+            "label": "Mischen",
+            "icon": "🥄"
+          }
+        ],
+        "items": [
+          {
+            "text": "Schälen",
+            "bucket": "entfernen"
+          },
+          {
+            "text": "Entkernen",
+            "bucket": "entfernen"
+          },
+          {
+            "text": "Raspeln",
+            "bucket": "zerkleinern"
+          },
+          {
+            "text": "Würfeln",
+            "bucket": "zerkleinern"
+          },
+          {
+            "text": "Kneten",
+            "bucket": "mischen"
+          },
+          {
+            "text": "Unterheben",
+            "bucket": "mischen"
+          }
+        ],
+        "explanation": "Geh jede Karte einzeln durch und stell dir die eine Frage: Was passiert mit dem Lebensmittel? Bleibt es ganz und nur ein Teil kommt weg, ist es Entfernen. Werden aus einem Stück viele kleine Stücke, ist es Zerkleinern. Werden mehrere Zutaten zu einer Masse verbunden, ist es Mischen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was passiert bei jeder Technik? Finde die Paare.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Unterheben"
+            },
+            "right": {
+              "text": "vorsichtig mischen, damit die Luft bleibt"
+            }
+          },
+          {
+            "left": {
+              "text": "Entkernen"
+            },
+            "right": {
+              "text": "die Kerne herausholen"
+            }
+          },
+          {
+            "left": {
+              "text": "Häuten"
+            },
+            "right": {
+              "text": "die dünne Haut abziehen"
+            }
+          },
+          {
+            "left": {
+              "text": "Abtropfen"
+            },
+            "right": {
+              "text": "die Flüssigkeit weglaufen lassen"
+            }
+          },
+          {
+            "left": {
+              "text": "Hobeln"
+            },
+            "right": {
+              "text": "in ganz dünne Scheiben zerkleinern"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Viele Fachbegriffe verraten die Gruppe schon im Wort. Wenn ein Wort mit ent- oder ab- beginnt, geht meistens etwas weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍅 Für die Soße legst du Tomaten kurz in kochendes Wasser. Danach legst du sie sofort in kaltes Wasser. Das nennt man Blanchieren. Dann ziehst du die Haut ab. Zu welcher Gruppe gehört das Häuten?",
+        "options": [
+          {
+            "text": "Zum Entfernen.",
+            "correct": true
+          },
+          {
+            "text": "Zum Zerkleinern."
+          },
+          {
+            "text": "Zum Mischen."
+          }
+        ],
+        "explanation": "Blanchieren heißt: etwas ganz kurz in kochendes Wasser geben und dann sofort abkühlen. Danach löst sich die Haut leicht. Achte darauf, wie die Tomate nach dem Häuten aussieht: Sie ist immer noch eine ganze Tomate. Erst wenn du sie danach in Würfel schneidest, ändert sich das."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥕 Du machst Möhrensalat für die Gäste. Bringe die Arbeitsschritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "🚿 Die Möhren unter fließendem Wasser waschen."
+          },
+          {
+            "text": "🥕 Die gewaschenen Möhren mit dem Sparschäler schälen."
+          },
+          {
+            "text": "🧡 Die geschälten Möhren fein raspeln."
+          },
+          {
+            "text": "🥄 Die Marinade aus Öl und Zitronensaft unter die Raspeln mischen."
+          },
+          {
+            "text": "🕒 Den fertigen Salat 10 Minuten ziehen lassen und servieren."
+          }
+        ],
+        "explanation": "Frag dich bei jedem Schritt: Was muss vorher schon passiert sein? Schmutz und Schale dürfen nie im fertigen Essen landen. Und eine Marinade kann sich erst verteilen, wenn die Möhren fertig vorbereitet sind. Marinieren heißt: Essen in eine Würzflüssigkeit legen, damit es Geschmack annimmt. Dafür braucht das Essen noch etwas Zeit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Noch einmal: Was passiert mit dem Lebensmittel? Sortiere die Techniken.",
+        "buckets": [
+          {
+            "id": "entfernen",
+            "label": "Entfernen",
+            "icon": "🧹"
+          },
+          {
+            "id": "zerkleinern",
+            "label": "Zerkleinern",
+            "icon": "🔪"
+          },
+          {
+            "id": "mischen",
+            "label": "Mischen",
+            "icon": "🥄"
+          }
+        ],
+        "items": [
+          {
+            "text": "Waschen",
+            "bucket": "entfernen"
+          },
+          {
+            "text": "Abtropfen",
+            "bucket": "entfernen"
+          },
+          {
+            "text": "Hacken",
+            "bucket": "zerkleinern"
+          },
+          {
+            "text": "Hobeln",
+            "bucket": "zerkleinern"
+          },
+          {
+            "text": "Rühren",
+            "bucket": "mischen"
+          },
+          {
+            "text": "Schlagen",
+            "bucket": "mischen"
+          }
+        ],
+        "explanation": "Prüfe jede Karte für sich allein. Frag dich bei jeder: Geht etwas weg? Wird es kleiner? Oder werden Sachen verbunden? Nur eine Frage passt. Verlass dich dabei nicht auf das Gerät: Mit einem Messer kannst du auch schälen, und das ist kein Zerkleinern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Du hast Eischnee geschlagen. Jetzt kommt er in den Kuchenteig. Warum hebst du ihn vorsichtig unter, statt kräftig zu rühren?",
+        "options": [
+          {
+            "text": "Beim kräftigen Rühren entweicht die Luft aus dem Eischnee. Der Kuchen wird dann nicht locker.",
+            "correct": true
+          },
+          {
+            "text": "Beim kräftigen Rühren verklumpt das Eiweiß und es bilden sich harte Stücke im Teig."
+          },
+          {
+            "text": "Beim kräftigen Rühren bleibt der Eischnee oben liegen und verteilt sich nicht."
+          }
+        ],
+        "explanation": "Unterheben heißt: mit dem Teigschaber langsam von unten nach oben mischen. Es ist also Mischen, nur besonders vorsichtig. Überlege, was den Eischnee für den Teig überhaupt wertvoll macht. Genau das darfst du nicht kaputt machen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Braucht die Technik Hitze? Sortiere die Techniken.",
+        "buckets": [
+          {
+            "id": "vor",
+            "label": "Vorbereiten ohne Hitze",
+            "icon": "🔪"
+          },
+          {
+            "id": "garen",
+            "label": "Garen mit Hitze",
+            "icon": "🔥"
+          }
+        ],
+        "items": [
+          {
+            "text": "Schälen",
+            "bucket": "vor"
+          },
+          {
+            "text": "Raspeln",
+            "bucket": "vor"
+          },
+          {
+            "text": "Unterheben",
+            "bucket": "vor"
+          },
+          {
+            "text": "Dünsten",
+            "bucket": "garen"
+          },
+          {
+            "text": "Braten",
+            "bucket": "garen"
+          },
+          {
+            "text": "Backen",
+            "bucket": "garen"
+          }
+        ],
+        "explanation": "Entfernen, Zerkleinern und Mischen sind alle drei Vorbereitungsarten. Sie passieren am Arbeitstisch, bevor das Essen heiß wird. Gartechniken brauchen dagegen immer Hitze. Dünsten heißt zum Beispiel: im geschlossenen Topf mit ganz wenig Flüssigkeit garen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Du ziehst mit dem Sparschäler die Schale von der Kartoffel ab. Die Schale kommt in den Bio-Eimer. Zu welcher Gruppe gehört das Schälen?",
+        "options": [
+          {
+            "text": "Zum Entfernen.",
+            "correct": true
+          },
+          {
+            "text": "Zum Zerkleinern."
+          },
+          {
+            "text": "Zum Mischen."
+          }
+        ],
+        "explanation": "Frag dich zuerst: Bleibt das Lebensmittel ganz, oder wird es kleiner? Die Kartoffel ist nach dem Schälen immer noch eine ganze Kartoffel, nur ohne Schale. In Stücke teilst du sie erst im nächsten Arbeitsschritt."
+      }
+    }
+  ]
+}

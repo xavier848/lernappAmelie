@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-zinnen-bouwen-2",
   "title": "Sätze bauen II",
-  "sort": 25,
+  "sort": 26,
   "intro": "🧱 Im niederländischen Hauptsatz steht das Verb an zweiter Stelle. Was ganz vorne steht, ist die erste Stelle.\n\nMERKE: Steht eine Zeitangabe vorne, kommt zuerst das Verb und erst danach ik, wij oder u.\n\n> Dinsdag haal ik de sleutels bij de buren op. = Am Dienstag hole ich die Schlüssel bei den Nachbarn ab.\n\nHat ein Satz zwei Verben, bleibt nur das erste an zweiter Stelle. Das zweite Verb steht ganz am Ende.\n\n> U kunt de auto naast het huis parkeren. = Sie können das Auto neben dem Haus parken.\n\nMERKE: Baue in dieser Reihenfolge: wann oder wer – Verb – Rest – zweites Verb zum Schluss.",
   "exercises": [
     {
@@ -11,9 +11,16 @@
         "prompt": "Du schreibst einem Gast: Heute Abend bringe ich Ihnen noch zwei Decken. 🛏️ Welcher niederländische Satz stimmt?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Vanavond breng ik u nog twee dekens.", "correct": true },
-          { "text": "Vanavond ik breng u nog twee dekens." },
-          { "text": "Vanavond breng ik nog u twee dekens." }
+          {
+            "text": "Vanavond breng ik u nog twee dekens.",
+            "correct": true
+          },
+          {
+            "text": "Vanavond ik breng u nog twee dekens."
+          },
+          {
+            "text": "Vanavond breng ik nog u twee dekens."
+          }
         ],
         "explanation": "Vanavond steht an erster Stelle, deshalb kommt sofort danach das Verb: breng ik. Bei Vanavond ik breng steht zuerst ik, dann stünde das Verb erst an dritter Stelle. Das Pronomen u steht direkt hinter ik und vor nog. Deshalb ist nog u twee dekens falsch."
       }
@@ -25,12 +32,24 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Vandaag" },
-          { "text": "maak" },
-          { "text": "ik" },
-          { "text": "de" },
-          { "text": "badkamer" },
-          { "text": "schoon" }
+          {
+            "text": "Vandaag"
+          },
+          {
+            "text": "maak"
+          },
+          {
+            "text": "ik"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "badkamer"
+          },
+          {
+            "text": "schoon"
+          }
         ]
       }
     },
@@ -40,10 +59,38 @@
         "prompt": "Rund um die Wohnung: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Vanmiddag komt de monteur voor de wasmachine. 🔧" }, "right": { "text": "Heute Nachmittag kommt der Monteur wegen der Waschmaschine." } },
-          { "left": { "text": "Het wifiwachtwoord vindt u op de koelkast. 📶" }, "right": { "text": "Das WLAN-Passwort finden Sie am Kühlschrank." } },
-          { "left": { "text": "Op het balkon mag u helaas niet roken. 🚭" }, "right": { "text": "Auf dem Balkon dürfen Sie leider nicht rauchen." } },
-          { "left": { "text": "Na tien uur 's avonds moet het stil zijn. 🤫" }, "right": { "text": "Nach zehn Uhr abends muss es leise sein." } }
+          {
+            "left": {
+              "text": "Vanmiddag komt de monteur voor de wasmachine. 🔧"
+            },
+            "right": {
+              "text": "Heute Nachmittag kommt der Monteur wegen der Waschmaschine."
+            }
+          },
+          {
+            "left": {
+              "text": "Het wifiwachtwoord vindt u op de koelkast. 📶"
+            },
+            "right": {
+              "text": "Das WLAN-Passwort finden Sie am Kühlschrank."
+            }
+          },
+          {
+            "left": {
+              "text": "Op het balkon mag u helaas niet roken. 🚭"
+            },
+            "right": {
+              "text": "Auf dem Balkon dürfen Sie leider nicht rauchen."
+            }
+          },
+          {
+            "left": {
+              "text": "Na tien uur 's avonds moet het stil zijn. 🤫"
+            },
+            "right": {
+              "text": "Nach zehn Uhr abends muss es leise sein."
+            }
+          }
         ],
         "memory": false
       }
@@ -55,13 +102,27 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Vrijdag" },
-          { "text": "breng" },
-          { "text": "ik" },
-          { "text": "schoon" },
-          { "text": "beddengoed" },
-          { "text": "naar" },
-          { "text": "boven" }
+          {
+            "text": "Vrijdag"
+          },
+          {
+            "text": "breng"
+          },
+          {
+            "text": "ik"
+          },
+          {
+            "text": "schoon"
+          },
+          {
+            "text": "beddengoed"
+          },
+          {
+            "text": "naar"
+          },
+          {
+            "text": "boven"
+          }
         ]
       }
     },
@@ -71,10 +132,19 @@
         "prompt": "Ein Gast schreibt: Wij komen zaterdag pas na zeven uur aan, omdat wij onderweg nog boodschappen moeten doen. 🚗 Was bedeutet das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Wir kommen am Samstag erst nach sieben Uhr an, weil wir unterwegs noch einkaufen müssen.", "correct": true },
-          { "text": "Wir fahren am Samstag erst nach sieben Uhr los, weil wir vorher noch einkaufen müssen." },
-          { "text": "Wir kommen am Samstag schon vor sieben Uhr an und kaufen unterwegs nichts mehr ein." },
-          { "text": "Wir kommen am Samstag gegen sieben Uhr an, weil die Geschäfte dann schließen." }
+          {
+            "text": "Wir kommen am Samstag erst nach sieben Uhr an, weil wir unterwegs noch einkaufen müssen.",
+            "correct": true
+          },
+          {
+            "text": "Wir fahren am Samstag erst nach sieben Uhr los, weil wir vorher noch einkaufen müssen."
+          },
+          {
+            "text": "Wir kommen am Samstag schon vor sieben Uhr an und kaufen unterwegs nichts mehr ein."
+          },
+          {
+            "text": "Wir kommen am Samstag gegen sieben Uhr an, weil die Geschäfte dann schließen."
+          }
         ],
         "explanation": "Aankomen heißt ankommen, nicht losfahren. Pas na zeven uur heißt erst nach sieben Uhr, also nicht vorher und nicht gegen sieben. Der Grund nach omdat ist das Einkaufen, nicht die Öffnungszeiten. Im Teil mit omdat stehen beide Verben hinten: moeten doen."
       }
@@ -86,14 +156,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Na" },
-          { "text": "het" },
-          { "text": "ontbijt" },
-          { "text": "zet" },
-          { "text": "ik" },
-          { "text": "de" },
-          { "text": "vuilniszak" },
-          { "text": "buiten" }
+          {
+            "text": "Na"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "ontbijt"
+          },
+          {
+            "text": "zet"
+          },
+          {
+            "text": "ik"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "vuilniszak"
+          },
+          {
+            "text": "buiten"
+          }
         ]
       }
     },
@@ -103,16 +189,42 @@
         "prompt": "Hat der Satz nur ein Verb an zweiter Stelle, oder kommt am Ende noch ein zweites Verb? Sortiere.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "een", "label": "Nur ein Verb", "icon": "1️⃣" },
-          { "id": "twee", "label": "Zweites Verb am Ende", "icon": "2️⃣" }
+          {
+            "id": "een",
+            "label": "Nur ein Verb",
+            "icon": "1️⃣"
+          },
+          {
+            "id": "twee",
+            "label": "Zweites Verb am Ende",
+            "icon": "2️⃣"
+          }
         ],
         "items": [
-          { "text": "Zondag ontbijten wij om negen uur.", "bucket": "een" },
-          { "text": "In de kelder staat de droger.", "bucket": "een" },
-          { "text": "Vandaag heb ik weinig tijd.", "bucket": "een" },
-          { "text": "Vanavond wil ik nog boodschappen doen.", "bucket": "twee" },
-          { "text": "De gasten kunnen hier gratis parkeren.", "bucket": "twee" },
-          { "text": "Zaterdag moeten wij de bedden opmaken.", "bucket": "twee" }
+          {
+            "text": "Zondag ontbijten wij om negen uur.",
+            "bucket": "een"
+          },
+          {
+            "text": "In de kelder staat de droger.",
+            "bucket": "een"
+          },
+          {
+            "text": "Vandaag heb ik weinig tijd.",
+            "bucket": "een"
+          },
+          {
+            "text": "Vanavond wil ik nog boodschappen doen.",
+            "bucket": "twee"
+          },
+          {
+            "text": "De gasten kunnen hier gratis parkeren.",
+            "bucket": "twee"
+          },
+          {
+            "text": "Zaterdag moeten wij de bedden opmaken.",
+            "bucket": "twee"
+          }
         ]
       }
     },
@@ -123,15 +235,33 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "De" },
-          { "text": "gasten" },
-          { "text": "kunnen" },
-          { "text": "hun" },
-          { "text": "fietsen" },
-          { "text": "in" },
-          { "text": "onze" },
-          { "text": "garage" },
-          { "text": "zetten" }
+          {
+            "text": "De"
+          },
+          {
+            "text": "gasten"
+          },
+          {
+            "text": "kunnen"
+          },
+          {
+            "text": "hun"
+          },
+          {
+            "text": "fietsen"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "onze"
+          },
+          {
+            "text": "garage"
+          },
+          {
+            "text": "zetten"
+          }
         ]
       }
     },
@@ -141,9 +271,16 @@
         "prompt": "Die Gäste reisen am Sonntag sehr früh ab. Du willst sagen: Am Sonntag können Sie die Schlüssel einfach in den Briefkasten werfen. 📮 Welcher Satz stimmt?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Zondag kunt u de sleutels gewoon in de brievenbus doen.", "correct": true },
-          { "text": "Zondag u kunt de sleutels gewoon in de brievenbus doen." },
-          { "text": "Zondag kunt u doen de sleutels gewoon in de brievenbus." }
+          {
+            "text": "Zondag kunt u de sleutels gewoon in de brievenbus doen.",
+            "correct": true
+          },
+          {
+            "text": "Zondag u kunt de sleutels gewoon in de brievenbus doen."
+          },
+          {
+            "text": "Zondag kunt u doen de sleutels gewoon in de brievenbus."
+          }
         ],
         "explanation": "Zondag steht an erster Stelle, deshalb kommt danach sofort das Verb: kunt u. Bei Zondag u kunt steht das Verb erst an dritter Stelle. Das zweite Verb doen gehört ganz ans Ende, nicht direkt hinter u."
       }
@@ -155,16 +292,36 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Morgenochtend" },
-          { "text": "willen" },
-          { "text": "onze" },
-          { "text": "gasten" },
-          { "text": "om" },
-          { "text": "zeven" },
-          { "text": "uur" },
-          { "text": "naar" },
-          { "text": "Innsbruck" },
-          { "text": "vertrekken" }
+          {
+            "text": "Morgenochtend"
+          },
+          {
+            "text": "willen"
+          },
+          {
+            "text": "onze"
+          },
+          {
+            "text": "gasten"
+          },
+          {
+            "text": "om"
+          },
+          {
+            "text": "zeven"
+          },
+          {
+            "text": "uur"
+          },
+          {
+            "text": "naar"
+          },
+          {
+            "text": "Innsbruck"
+          },
+          {
+            "text": "vertrekken"
+          }
         ]
       }
     }

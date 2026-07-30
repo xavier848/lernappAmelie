@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-telefoon-boeking",
   "title": "Am Telefon & Buchung",
-  "sort": 20,
+  "sort": 21,
   "intro": "📞 Am Telefon siehst du niemanden. Darum sprichst du ruhig und fragst lieber einmal zu viel nach.\n\n> Met Amelie Haas, goedemiddag. = Hier spricht Amelie Haas, guten Tag.\n\nMERKE: Am Telefon meldest du dich mit Met und deinem Namen.\n\nBeim Datum sagst du im Niederländischen nur die Zahl und dann den Monat. Also drie augustus für den 3. August. Das Wörtchen de steht nicht davor.\n\n> Wij komen van drie tot tien augustus. = Wir kommen vom 3. bis 10. August.\n\nVerstehst du etwas nicht, fragst du sofort nach. Am Ende liest du die ganze Buchung noch einmal vor.\n\nMERKE: Kunt u dat herhalen? heißt: Können Sie das wiederholen?",
   "exercises": [
     {
@@ -11,10 +11,19 @@
         "prompt": "Das Telefon der Ferienwohnung klingelt. 📞 Wie meldest du dich auf Niederländisch?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Met Amelie Haas, goedemiddag.", "correct": true },
-          { "text": "Hier is Amelie Haas, goedemiddag." },
-          { "text": "Ik ben Amelie Haas, goedemiddag." },
-          { "text": "Bij Amelie Haas, goedemiddag." }
+          {
+            "text": "Met Amelie Haas, goedemiddag.",
+            "correct": true
+          },
+          {
+            "text": "Hier is Amelie Haas, goedemiddag."
+          },
+          {
+            "text": "Ik ben Amelie Haas, goedemiddag."
+          },
+          {
+            "text": "Bij Amelie Haas, goedemiddag."
+          }
         ],
         "explanation": "Am Telefon sagt man im Niederländischen Met und dann den Namen. Wörtlich heißt met zwar mit, gemeint ist aber: Hier spricht ... Hier is ... ist Wort für Wort aus dem Deutschen übersetzt und sagt am Telefon niemand. Ik ben ... benutzt du, wenn du dich persönlich vorstellst, nicht am Hörer. Bij heißt bei und passt hier gar nicht."
       }
@@ -25,10 +34,38 @@
         "prompt": "Sätze am Telefon: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Een moment, alstublieft." }, "right": { "text": "Einen Moment, bitte." } },
-          { "left": { "text": "Ik verbind u door met mijn moeder." }, "right": { "text": "Ich verbinde Sie mit meiner Mutter." } },
-          { "left": { "text": "Kunt u wat langzamer praten?" }, "right": { "text": "Können Sie etwas langsamer sprechen?" } },
-          { "left": { "text": "Ik bel u straks terug." }, "right": { "text": "Ich rufe Sie gleich zurück." } }
+          {
+            "left": {
+              "text": "Een moment, alstublieft."
+            },
+            "right": {
+              "text": "Einen Moment, bitte."
+            }
+          },
+          {
+            "left": {
+              "text": "Ik verbind u door met mijn moeder."
+            },
+            "right": {
+              "text": "Ich verbinde Sie mit meiner Mutter."
+            }
+          },
+          {
+            "left": {
+              "text": "Kunt u wat langzamer praten?"
+            },
+            "right": {
+              "text": "Können Sie etwas langsamer sprechen?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ik bel u straks terug."
+            },
+            "right": {
+              "text": "Ich rufe Sie gleich zurück."
+            }
+          }
         ],
         "memory": false
       }
@@ -40,15 +77,33 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Ik" },
-          { "text": "wil" },
-          { "text": "graag" },
-          { "text": "een" },
-          { "text": "appartement" },
-          { "text": "voor" },
-          { "text": "vier" },
-          { "text": "personen" },
-          { "text": "boeken" }
+          {
+            "text": "Ik"
+          },
+          {
+            "text": "wil"
+          },
+          {
+            "text": "graag"
+          },
+          {
+            "text": "een"
+          },
+          {
+            "text": "appartement"
+          },
+          {
+            "text": "voor"
+          },
+          {
+            "text": "vier"
+          },
+          {
+            "text": "personen"
+          },
+          {
+            "text": "boeken"
+          }
         ]
       }
     },
@@ -58,10 +113,19 @@
         "prompt": "Ein Gast will vom 3. bis 10. August kommen. 📅 Wie sagt er das auf Niederländisch?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Wij komen van drie tot tien augustus.", "correct": true },
-          { "text": "Wij komen van de drie tot de tien augustus." },
-          { "text": "Wij komen van drie tot tien van augustus." },
-          { "text": "Wij komen van augustus drie tot tien." }
+          {
+            "text": "Wij komen van drie tot tien augustus.",
+            "correct": true
+          },
+          {
+            "text": "Wij komen van de drie tot de tien augustus."
+          },
+          {
+            "text": "Wij komen van drie tot tien van augustus."
+          },
+          {
+            "text": "Wij komen van augustus drie tot tien."
+          }
         ],
         "explanation": "Beim Datum nimmt das Niederländische die einfache Zahl und stellt den Monat dahinter: drie augustus. Vor der Zahl steht kein de, also nicht van de drie tot de tien. Vor dem Monat steht kein van, also nicht tien van augustus. Und der Monat kommt nie vor die Zahl, deshalb ist augustus drie falsch."
       }
@@ -72,10 +136,19 @@
         "prompt": "Der Gast sagt seine Telefonnummer sehr schnell. 📱 Du hast sie nicht verstanden. Was sagst du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Sorry, kunt u dat herhalen?", "correct": true },
-          { "text": "Sorry, kunt u dat vertalen?" },
-          { "text": "Sorry, kunt u dat betalen?" },
-          { "text": "Sorry, kunt u dat bewaren?" }
+          {
+            "text": "Sorry, kunt u dat herhalen?",
+            "correct": true
+          },
+          {
+            "text": "Sorry, kunt u dat vertalen?"
+          },
+          {
+            "text": "Sorry, kunt u dat betalen?"
+          },
+          {
+            "text": "Sorry, kunt u dat bewaren?"
+          }
         ],
         "explanation": "Herhalen heißt wiederholen. Die anderen Wörter klingen sehr ähnlich, bedeuten aber etwas ganz anderes: vertalen heißt übersetzen, betalen heißt bezahlen, bewaren heißt aufbewahren. Kunt u dat herhalen? ist dein wichtigster Satz am Telefon."
       }
@@ -86,16 +159,42 @@
         "prompt": "Fragst du hier nach, oder bestätigst du etwas? Sortiere die Sätze.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "vragen", "label": "Nachfragen", "icon": "🔁" },
-          { "id": "bevestigen", "label": "Bestätigen", "icon": "✅" }
+          {
+            "id": "vragen",
+            "label": "Nachfragen",
+            "icon": "🔁"
+          },
+          {
+            "id": "bevestigen",
+            "label": "Bestätigen",
+            "icon": "✅"
+          }
         ],
         "items": [
-          { "text": "Kunt u dat nog een keer herhalen?", "bucket": "vragen" },
-          { "text": "Hoe schrijft u uw achternaam?", "bucket": "vragen" },
-          { "text": "Bedoelt u van drie tot tien augustus?", "bucket": "vragen" },
-          { "text": "Ik heb het genoteerd.", "bucket": "bevestigen" },
-          { "text": "Uw boeking is bevestigd.", "bucket": "bevestigen" },
-          { "text": "Dat klopt, twee personen.", "bucket": "bevestigen" }
+          {
+            "text": "Kunt u dat nog een keer herhalen?",
+            "bucket": "vragen"
+          },
+          {
+            "text": "Hoe schrijft u uw achternaam?",
+            "bucket": "vragen"
+          },
+          {
+            "text": "Bedoelt u van drie tot tien augustus?",
+            "bucket": "vragen"
+          },
+          {
+            "text": "Ik heb het genoteerd.",
+            "bucket": "bevestigen"
+          },
+          {
+            "text": "Uw boeking is bevestigd.",
+            "bucket": "bevestigen"
+          },
+          {
+            "text": "Dat klopt, twee personen.",
+            "bucket": "bevestigen"
+          }
         ]
       }
     },
@@ -106,12 +205,24 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Kunt" },
-          { "text": "u" },
-          { "text": "uw" },
-          { "text": "achternaam" },
-          { "text": "alstublieft" },
-          { "text": "spellen" }
+          {
+            "text": "Kunt"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "uw"
+          },
+          {
+            "text": "achternaam"
+          },
+          {
+            "text": "alstublieft"
+          },
+          {
+            "text": "spellen"
+          }
         ]
       }
     },
@@ -121,10 +232,19 @@
         "prompt": "Der Gast fragt nach dem Preis. 💶 Das Appartement kostet 95 Euro pro Nacht, das Frühstück ist im Preis dabei. Was sagst du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Het appartement kost vijfennegentig euro per nacht, inclusief ontbijt.", "correct": true },
-          { "text": "Het appartement kost vijfennegentig euro per nacht, exclusief ontbijt." },
-          { "text": "Het appartement kost negenenvijftig euro per nacht, inclusief ontbijt." },
-          { "text": "Het appartement kost vijfennegentig euro per week, inclusief ontbijt." }
+          {
+            "text": "Het appartement kost vijfennegentig euro per nacht, inclusief ontbijt.",
+            "correct": true
+          },
+          {
+            "text": "Het appartement kost vijfennegentig euro per nacht, exclusief ontbijt."
+          },
+          {
+            "text": "Het appartement kost negenenvijftig euro per nacht, inclusief ontbijt."
+          },
+          {
+            "text": "Het appartement kost vijfennegentig euro per week, inclusief ontbijt."
+          }
         ],
         "explanation": "Im Niederländischen steht die kleine Zahl vorn: vijf-en-negentig ist 5 und 90, also 95. Negen-en-vijftig ist 9 und 50, also 59. Achte auf den Anfang des Wortes. Inclusief heißt inklusive, exclusief heißt ohne. Und per nacht heißt pro Nacht, per week wäre pro Woche."
       }
@@ -136,15 +256,33 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Ik" },
-          { "text": "stuur" },
-          { "text": "u" },
-          { "text": "vandaag" },
-          { "text": "nog" },
-          { "text": "een" },
-          { "text": "bevestiging" },
-          { "text": "per" },
-          { "text": "e-mail" }
+          {
+            "text": "Ik"
+          },
+          {
+            "text": "stuur"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "vandaag"
+          },
+          {
+            "text": "nog"
+          },
+          {
+            "text": "een"
+          },
+          {
+            "text": "bevestiging"
+          },
+          {
+            "text": "per"
+          },
+          {
+            "text": "e-mail"
+          }
         ]
       }
     },
@@ -154,10 +292,19 @@
         "prompt": "Zum Schluss liest du die Buchung noch einmal vor: zwei Personen, vom 3. bis 10. August. 📋 Welchen Satz sagst du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Ik herhaal het even: twee personen, van drie tot tien augustus.", "correct": true },
-          { "text": "Ik herhaal even het: twee personen, van drie tot tien augustus." },
-          { "text": "Ik herhalen het even: twee personen, van drie tot tien augustus." },
-          { "text": "Ik vertaal het even: twee personen, van drie tot tien augustus." }
+          {
+            "text": "Ik herhaal het even: twee personen, van drie tot tien augustus.",
+            "correct": true
+          },
+          {
+            "text": "Ik herhaal even het: twee personen, van drie tot tien augustus."
+          },
+          {
+            "text": "Ik herhalen het even: twee personen, van drie tot tien augustus."
+          },
+          {
+            "text": "Ik vertaal het even: twee personen, van drie tot tien augustus."
+          }
         ],
         "explanation": "Ik herhaal het even heißt: Ich wiederhole es kurz. Das kleine Wort het steht direkt hinter dem Verb, even kommt danach, also nicht herhaal even het. Zu ik gehört die Form herhaal, nicht die Grundform herhalen. Und vertaal heißt übersetzen, das passt hier nicht. Diese Wiederholung am Ende schützt dich vor falschen Buchungen."
       }

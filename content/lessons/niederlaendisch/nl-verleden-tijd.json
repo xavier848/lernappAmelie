@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-verleden-tijd",
   "title": "Über gestern sprechen",
-  "sort": 18,
+  "sort": 19,
   "intro": "🕰️ Wenn du über gestern sprichst, nimmst du im Niederländischen fast immer das perfectum. Du brauchst dafür zwei Teile: hebben oder zijn und dazu das Partizip, meistens die Form mit ge-.\n\n> Ik heb gisteren de hele dag gewerkt. = Ich habe gestern den ganzen Tag gearbeitet.\n\nDie meisten Verben nehmen hebben. Nur Verben der Bewegung mit Ziel und Verben der Veränderung nehmen zijn.\n\n> De gasten zijn om acht uur vertrokken. = Die Gäste sind um acht Uhr abgereist.\n\nMERKE: gaan, komen, vertrekken, blijven, worden und zijn selbst gehen immer mit zijn.\n\nEinige Partizipien musst du auswendig lernen: zijn wird geweest, hebben wird gehad, doen wird gedaan, kopen wird gekocht, zien wird gezien.\n\nMERKE: Verben mit be-, ver- oder ont- bekommen kein ge-. Das Partizip von betalen heißt betaald, nicht gebetaald.",
   "exercises": [
     {
@@ -11,10 +11,22 @@
         "prompt": "Ein Gast schreibt dir: Wij zijn gisteravond laat aangekomen. 🧳 Was bedeutet das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Wir sind gestern Abend spät angekommen.", "correct": true },
-          { "text": "Wir kommen heute Abend spät an.", "correct": false },
-          { "text": "Wir sind gestern Abend spät abgereist.", "correct": false },
-          { "text": "Wir sind gestern Abend lange wach geblieben.", "correct": false }
+          {
+            "text": "Wir sind gestern Abend spät angekommen.",
+            "correct": true
+          },
+          {
+            "text": "Wir kommen heute Abend spät an.",
+            "correct": false
+          },
+          {
+            "text": "Wir sind gestern Abend spät abgereist.",
+            "correct": false
+          },
+          {
+            "text": "Wir sind gestern Abend lange wach geblieben.",
+            "correct": false
+          }
         ],
         "explanation": "zijn ... aangekomen ist perfectum: sind angekommen. gisteravond heißt gestern Abend, laat heißt spät. Heute Abend wäre vanavond, und dann stünde der Satz im Präsens: wij komen. Abgereist wäre vertrokken. Und lange wach geblieben wäre lang wakker gebleven."
       }
@@ -25,10 +37,22 @@
         "prompt": "Setze richtig ein: Ik ___ vanmorgen naar de bakker gegaan. 🥖",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "ben", "correct": true },
-          { "text": "heb", "correct": false },
-          { "text": "heeft", "correct": false },
-          { "text": "bent", "correct": false }
+          {
+            "text": "ben",
+            "correct": true
+          },
+          {
+            "text": "heb",
+            "correct": false
+          },
+          {
+            "text": "heeft",
+            "correct": false
+          },
+          {
+            "text": "bent",
+            "correct": false
+          }
         ],
         "explanation": "gaan ist eine Bewegung mit Ziel. Solche Verben nehmen zijn, und bei ik heißt zijn dann ben. heb gehört zu hebben, und hebben passt nie zu gaan. heeft gehört zur dritten Person Einzahl, also zu hij, zij oder het. Und bent gehört zu jij, nicht zu ik."
       }
@@ -40,13 +64,27 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Ik" },
-          { "text": "heb" },
-          { "text": "gisteren" },
-          { "text": "de" },
-          { "text": "hele" },
-          { "text": "keuken" },
-          { "text": "schoongemaakt" }
+          {
+            "text": "Ik"
+          },
+          {
+            "text": "heb"
+          },
+          {
+            "text": "gisteren"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "hele"
+          },
+          {
+            "text": "keuken"
+          },
+          {
+            "text": "schoongemaakt"
+          }
         ]
       }
     },
@@ -56,10 +94,38 @@
         "prompt": "Was gehört zusammen? Links Niederländisch, rechts Deutsch. Achte auf hebben und zijn.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Ik heb de badkamer schoongemaakt. 🧽" }, "right": { "text": "Ich habe das Bad geputzt." } },
-          { "left": { "text": "Wij zijn naar de markt gegaan. 🛒" }, "right": { "text": "Wir sind auf den Markt gegangen." } },
-          { "left": { "text": "De gasten hebben goed geslapen. 😴" }, "right": { "text": "Die Gäste haben gut geschlafen." } },
-          { "left": { "text": "Ik ben nog nooit in Rotterdam geweest." }, "right": { "text": "Ich bin noch nie in Rotterdam gewesen." } }
+          {
+            "left": {
+              "text": "Ik heb de badkamer schoongemaakt. 🧽"
+            },
+            "right": {
+              "text": "Ich habe das Bad geputzt."
+            }
+          },
+          {
+            "left": {
+              "text": "Wij zijn naar de markt gegaan. 🛒"
+            },
+            "right": {
+              "text": "Wir sind auf den Markt gegangen."
+            }
+          },
+          {
+            "left": {
+              "text": "De gasten hebben goed geslapen. 😴"
+            },
+            "right": {
+              "text": "Die Gäste haben gut geschlafen."
+            }
+          },
+          {
+            "left": {
+              "text": "Ik ben nog nooit in Rotterdam geweest."
+            },
+            "right": {
+              "text": "Ich bin noch nie in Rotterdam gewesen."
+            }
+          }
         ],
         "memory": false
       }
@@ -70,10 +136,22 @@
         "prompt": "Du willst sagen: Ich habe die Rechnung schon bezahlt. 💶 Welcher Satz stimmt?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Ik heb de rekening al betaald.", "correct": true },
-          { "text": "Ik heb de rekening al gebetaald.", "correct": false },
-          { "text": "Ik ben de rekening al betaald.", "correct": false },
-          { "text": "Ik heb de rekening al betalen.", "correct": false }
+          {
+            "text": "Ik heb de rekening al betaald.",
+            "correct": true
+          },
+          {
+            "text": "Ik heb de rekening al gebetaald.",
+            "correct": false
+          },
+          {
+            "text": "Ik ben de rekening al betaald.",
+            "correct": false
+          },
+          {
+            "text": "Ik heb de rekening al betalen.",
+            "correct": false
+          }
         ],
         "explanation": "betalen beginnt mit be-. Solche Verben bekommen kein ge-, das Partizip heißt betaald. gebetaald gibt es deshalb nicht. Bezahlen ist außerdem keine Bewegung und keine Veränderung, darum steht heb und nicht ben. Und betalen ist die Grundform, nach heb brauchst du aber das Partizip betaald."
       }
@@ -84,16 +162,42 @@
         "prompt": "Steht vor diesem Satzteil hebben oder zijn? Sortiere. 🤔",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "hebben", "label": "mit hebben", "icon": "🧺" },
-          { "id": "zijn", "label": "mit zijn", "icon": "🚶" }
+          {
+            "id": "hebben",
+            "label": "mit hebben",
+            "icon": "🧺"
+          },
+          {
+            "id": "zijn",
+            "label": "mit zijn",
+            "icon": "🚶"
+          }
         ],
         "items": [
-          { "text": "de kamer schoongemaakt", "bucket": "hebben" },
-          { "text": "naar de winkel gegaan", "bucket": "zijn" },
-          { "text": "verse broodjes gekocht", "bucket": "hebben" },
-          { "text": "om acht uur vertrokken", "bucket": "zijn" },
-          { "text": "de rekening betaald", "bucket": "hebben" },
-          { "text": "een week in Tirol gebleven", "bucket": "zijn" }
+          {
+            "text": "de kamer schoongemaakt",
+            "bucket": "hebben"
+          },
+          {
+            "text": "naar de winkel gegaan",
+            "bucket": "zijn"
+          },
+          {
+            "text": "verse broodjes gekocht",
+            "bucket": "hebben"
+          },
+          {
+            "text": "om acht uur vertrokken",
+            "bucket": "zijn"
+          },
+          {
+            "text": "de rekening betaald",
+            "bucket": "hebben"
+          },
+          {
+            "text": "een week in Tirol gebleven",
+            "bucket": "zijn"
+          }
         ]
       }
     },
@@ -104,14 +208,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "De" },
-          { "text": "gasten" },
-          { "text": "zijn" },
-          { "text": "vanmorgen" },
-          { "text": "om" },
-          { "text": "acht" },
-          { "text": "uur" },
-          { "text": "vertrokken" }
+          {
+            "text": "De"
+          },
+          {
+            "text": "gasten"
+          },
+          {
+            "text": "zijn"
+          },
+          {
+            "text": "vanmorgen"
+          },
+          {
+            "text": "om"
+          },
+          {
+            "text": "acht"
+          },
+          {
+            "text": "uur"
+          },
+          {
+            "text": "vertrokken"
+          }
         ]
       }
     },
@@ -121,10 +241,22 @@
         "prompt": "Du willst sagen: Ich bin schon einmal in Amsterdam gewesen. 🏙️ Welcher Satz stimmt?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Ik ben al eens in Amsterdam geweest.", "correct": true },
-          { "text": "Ik heb al eens in Amsterdam geweest.", "correct": false },
-          { "text": "Ik ben al eens in Amsterdam gehad.", "correct": false },
-          { "text": "Ik ben al eens in Amsterdam gebleven.", "correct": false }
+          {
+            "text": "Ik ben al eens in Amsterdam geweest.",
+            "correct": true
+          },
+          {
+            "text": "Ik heb al eens in Amsterdam geweest.",
+            "correct": false
+          },
+          {
+            "text": "Ik ben al eens in Amsterdam gehad.",
+            "correct": false
+          },
+          {
+            "text": "Ik ben al eens in Amsterdam gebleven.",
+            "correct": false
+          }
         ],
         "explanation": "zijn braucht als Partner wieder zijn: ik ben geweest. Mit heb wäre es hebben, und das passt hier nicht. gehad gehört zu hebben und heißt gehabt. gebleven kommt von blijven und heißt geblieben, das ist etwas anderes."
       }
@@ -135,10 +267,38 @@
         "prompt": "Andersherum: Wie sagst du das auf Niederländisch? Links Deutsch, rechts Niederländisch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Ich bin gestern zu Hause geblieben. 🏠" }, "right": { "text": "Ik ben gisteren thuis gebleven." } },
-          { "left": { "text": "Wir haben die Handtücher schon gewaschen. 🧺" }, "right": { "text": "Wij hebben de handdoeken al gewassen." } },
-          { "left": { "text": "Ich habe den Schlüssel gefunden. 🔑" }, "right": { "text": "Ik heb de sleutel gevonden." } },
-          { "left": { "text": "Sie hat heute Morgen frische Brötchen gekauft. 🥖" }, "right": { "text": "Zij heeft vanmorgen verse broodjes gekocht." } }
+          {
+            "left": {
+              "text": "Ich bin gestern zu Hause geblieben. 🏠"
+            },
+            "right": {
+              "text": "Ik ben gisteren thuis gebleven."
+            }
+          },
+          {
+            "left": {
+              "text": "Wir haben die Handtücher schon gewaschen. 🧺"
+            },
+            "right": {
+              "text": "Wij hebben de handdoeken al gewassen."
+            }
+          },
+          {
+            "left": {
+              "text": "Ich habe den Schlüssel gefunden. 🔑"
+            },
+            "right": {
+              "text": "Ik heb de sleutel gevonden."
+            }
+          },
+          {
+            "left": {
+              "text": "Sie hat heute Morgen frische Brötchen gekauft. 🥖"
+            },
+            "right": {
+              "text": "Zij heeft vanmorgen verse broodjes gekocht."
+            }
+          }
         ],
         "memory": false
       }
@@ -149,10 +309,22 @@
         "prompt": "Woran erkennst du, dass ein Satz zijn statt hebben braucht? 🤔",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Das Verb beschreibt eine Bewegung mit Ziel oder eine Veränderung, zum Beispiel gaan, komen oder vertrekken.", "correct": true },
-          { "text": "Der Satz spricht über die Vergangenheit. Dann steht immer zijn.", "correct": false },
-          { "text": "Das Verb ist unregelmäßig. Unregelmäßige Verben nehmen zijn.", "correct": false },
-          { "text": "Das Partizip endet auf -en, zum Beispiel geslapen oder gevonden. Diese Endung verlangt zijn.", "correct": false }
+          {
+            "text": "Das Verb beschreibt eine Bewegung mit Ziel oder eine Veränderung, zum Beispiel gaan, komen oder vertrekken.",
+            "correct": true
+          },
+          {
+            "text": "Der Satz spricht über die Vergangenheit. Dann steht immer zijn.",
+            "correct": false
+          },
+          {
+            "text": "Das Verb ist unregelmäßig. Unregelmäßige Verben nehmen zijn.",
+            "correct": false
+          },
+          {
+            "text": "Das Partizip endet auf -en, zum Beispiel geslapen oder gevonden. Diese Endung verlangt zijn.",
+            "correct": false
+          }
         ],
         "explanation": "Bewegung mit Ziel und Veränderung verlangen zijn, dazu kommen blijven und zijn selbst. Die Vergangenheit allein sagt gar nichts: Ik heb gewerkt spricht auch über gestern und nimmt hebben. Ob ein Verb unregelmäßig ist, spielt keine Rolle: kopen ist unregelmäßig, heißt gekocht und nimmt trotzdem hebben. Und die Endung des Partizips entscheidet auch nichts: geslapen und gevonden enden auf -en, trotzdem heißt es hebben geslapen und hebben gevonden."
       }

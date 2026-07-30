@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-afscheid-vertrek-2",
   "title": "Abschied & Abreise II",
-  "sort": 27,
+  "sort": 28,
   "intro": "🧳 Am Abreisetag geht es um drei Dinge: Zeit, Schlüssel und Rechnung. Dafür brauchst du klare Sätze.\n\nMERKE: Das Verb steht an zweiter Stelle. Beginnt der Satz mit einer Zeitangabe, kommt erst das Verb, dann die Person.\n\n> U krijgt de rekening bij het vertrek. = Sie bekommen die Rechnung bei der Abreise.\n\n> Bij het vertrek krijgt u de rekening. = Bei der Abreise bekommen Sie die Rechnung.\n\nDer Inhalt ist gleich. Nur die Zeitangabe steht vorne, deshalb tauschen krijgt und u den Platz.\n\nMERKE: Ein zweites Verb steht ganz am Ende: U kunt hier met de kaart betalen. Bei schoonmaken rutscht schoon ans Ende, genau wie sauber im Deutschen: Wij maken het appartement schoon.",
   "exercises": [
     {
@@ -11,9 +11,16 @@
         "prompt": "Ein Gast fragt am Abreisetag: Tot hoe laat kunnen wij blijven? 🕚 Der Check-out ist um elf Uhr. Was antwortest du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "U kunt tot elf uur blijven.", "correct": true },
-          { "text": "De bakker opent om zeven uur." },
-          { "text": "De winkel sluit om zes uur." }
+          {
+            "text": "U kunt tot elf uur blijven.",
+            "correct": true
+          },
+          {
+            "text": "De bakker opent om zeven uur."
+          },
+          {
+            "text": "De winkel sluit om zes uur."
+          }
         ],
         "explanation": "Tot hoe laat heißt: bis wie viel Uhr. Der Gast will die Uhrzeit für den Check-out wissen, also: tot elf uur. Die beiden anderen Sätze nennen zwar auch eine Uhrzeit, aber sie sagen nichts darüber, wie lange die Gäste bleiben dürfen."
       }
@@ -25,12 +32,24 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "De" },
-          { "text": "rekening" },
-          { "text": "ligt" },
-          { "text": "in" },
-          { "text": "de" },
-          { "text": "keuken" }
+          {
+            "text": "De"
+          },
+          {
+            "text": "rekening"
+          },
+          {
+            "text": "ligt"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "keuken"
+          }
         ]
       }
     },
@@ -40,10 +59,38 @@
         "prompt": "Abreisetag: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Hoe laat vertrekt uw trein?" }, "right": { "text": "Wann fährt Ihr Zug ab?" } },
-          { "left": { "text": "Heeft u niets laten liggen?" }, "right": { "text": "Haben Sie nichts liegen lassen?" } },
-          { "left": { "text": "Ik stuur u de rekening per mail." }, "right": { "text": "Ich schicke Ihnen die Rechnung per Mail." } },
-          { "left": { "text": "Kunt u de ramen sluiten voordat u vertrekt? 🪟" }, "right": { "text": "Können Sie die Fenster schließen, bevor Sie abreisen?" } }
+          {
+            "left": {
+              "text": "Hoe laat vertrekt uw trein?"
+            },
+            "right": {
+              "text": "Wann fährt Ihr Zug ab?"
+            }
+          },
+          {
+            "left": {
+              "text": "Heeft u niets laten liggen?"
+            },
+            "right": {
+              "text": "Haben Sie nichts liegen lassen?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ik stuur u de rekening per mail."
+            },
+            "right": {
+              "text": "Ich schicke Ihnen die Rechnung per Mail."
+            }
+          },
+          {
+            "left": {
+              "text": "Kunt u de ramen sluiten voordat u vertrekt? 🪟"
+            },
+            "right": {
+              "text": "Können Sie die Fenster schließen, bevor Sie abreisen?"
+            }
+          }
         ],
         "memory": false
       }
@@ -55,13 +102,27 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "U" },
-          { "text": "legt" },
-          { "text": "de" },
-          { "text": "sleutel" },
-          { "text": "in" },
-          { "text": "de" },
-          { "text": "brievenbus" }
+          {
+            "text": "U"
+          },
+          {
+            "text": "legt"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "sleutel"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "brievenbus"
+          }
         ]
       }
     },
@@ -71,9 +132,16 @@
         "prompt": "Du bringst dem Gast heute Abend die Rechnung. 💶 Welcher Satz ist richtig?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Vanavond breng ik u de rekening.", "correct": true },
-          { "text": "Vanavond ik breng u de rekening." },
-          { "text": "Ik vanavond breng u de rekening." }
+          {
+            "text": "Vanavond breng ik u de rekening.",
+            "correct": true
+          },
+          {
+            "text": "Vanavond ik breng u de rekening."
+          },
+          {
+            "text": "Ik vanavond breng u de rekening."
+          }
         ],
         "explanation": "Alle drei Sätze haben dieselben Wörter, nur die Reihenfolge ist anders. Das Verb muss an zweiter Stelle stehen. Vanavond ist die erste Stelle, also folgt sofort breng und erst danach ik. Im zweiten Satz steht ik vor dem Verb, im dritten Satz kommt das Verb erst an dritter Stelle. Beides ist falsch."
       }
@@ -84,16 +152,42 @@
         "prompt": "Geht es um Geld oder um den Schlüssel? Sortiere die Sätze.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "geld", "label": "Rechnung & Bezahlen", "icon": "💶" },
-          { "id": "sleutel", "label": "Schlüssel", "icon": "🔑" }
+          {
+            "id": "geld",
+            "label": "Rechnung & Bezahlen",
+            "icon": "💶"
+          },
+          {
+            "id": "sleutel",
+            "label": "Schlüssel",
+            "icon": "🔑"
+          }
         ],
         "items": [
-          { "text": "De rekening is honderd euro.", "bucket": "geld" },
-          { "text": "Kunt u contant betalen?", "bucket": "geld" },
-          { "text": "Wilt u een bonnetje?", "bucket": "geld" },
-          { "text": "De sleutel past op de voordeur.", "bucket": "sleutel" },
-          { "text": "Hangt u de sleutel aan de haak?", "bucket": "sleutel" },
-          { "text": "Wij missen nog één sleutel.", "bucket": "sleutel" }
+          {
+            "text": "De rekening is honderd euro.",
+            "bucket": "geld"
+          },
+          {
+            "text": "Kunt u contant betalen?",
+            "bucket": "geld"
+          },
+          {
+            "text": "Wilt u een bonnetje?",
+            "bucket": "geld"
+          },
+          {
+            "text": "De sleutel past op de voordeur.",
+            "bucket": "sleutel"
+          },
+          {
+            "text": "Hangt u de sleutel aan de haak?",
+            "bucket": "sleutel"
+          },
+          {
+            "text": "Wij missen nog één sleutel.",
+            "bucket": "sleutel"
+          }
         ]
       }
     },
@@ -104,14 +198,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Om" },
-          { "text": "elf" },
-          { "text": "uur" },
-          { "text": "maken" },
-          { "text": "wij" },
-          { "text": "het" },
-          { "text": "appartement" },
-          { "text": "schoon" }
+          {
+            "text": "Om"
+          },
+          {
+            "text": "elf"
+          },
+          {
+            "text": "uur"
+          },
+          {
+            "text": "maken"
+          },
+          {
+            "text": "wij"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "appartement"
+          },
+          {
+            "text": "schoon"
+          }
         ]
       }
     },
@@ -121,9 +231,16 @@
         "prompt": "Ein Gast sagt beim Abschied: Wij hebben het hier prima naar onze zin gehad. 😊 Was bedeutet das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Es hat uns hier sehr gut gefallen.", "correct": true },
-          { "text": "Wir haben hier alles selbst gemacht." },
-          { "text": "Wir haben leider etwas vergessen." }
+          {
+            "text": "Es hat uns hier sehr gut gefallen.",
+            "correct": true
+          },
+          {
+            "text": "Wir haben hier alles selbst gemacht."
+          },
+          {
+            "text": "Wir haben leider etwas vergessen."
+          }
         ],
         "explanation": "Het naar je zin hebben ist eine feste Wendung und heißt: sich wohlfühlen. Prima verstärkt das noch. Mit selbst machen oder vergessen hat der Satz nichts zu tun. Du kannst antworten: Wat fijn om te horen!"
       }
@@ -135,15 +252,33 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Vandaag" },
-          { "text": "kunt" },
-          { "text": "u" },
-          { "text": "de" },
-          { "text": "rekening" },
-          { "text": "met" },
-          { "text": "de" },
-          { "text": "kaart" },
-          { "text": "betalen" }
+          {
+            "text": "Vandaag"
+          },
+          {
+            "text": "kunt"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "rekening"
+          },
+          {
+            "text": "met"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "kaart"
+          },
+          {
+            "text": "betalen"
+          }
         ]
       }
     },
@@ -154,14 +289,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Volgende" },
-          { "text": "zomer" },
-          { "text": "bent" },
-          { "text": "u" },
-          { "text": "weer" },
-          { "text": "van" },
-          { "text": "harte" },
-          { "text": "welkom" }
+          {
+            "text": "Volgende"
+          },
+          {
+            "text": "zomer"
+          },
+          {
+            "text": "bent"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "weer"
+          },
+          {
+            "text": "van"
+          },
+          {
+            "text": "harte"
+          },
+          {
+            "text": "welkom"
+          }
         ]
       }
     }

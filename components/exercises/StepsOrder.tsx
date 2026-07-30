@@ -65,9 +65,17 @@ export function StepsOrder({
   const ready = order.length === total;
   useReportReady(ready, onReadyChange);
 
+  // Bewertet wird nach TEXT, nicht nach Karten-id. Wichtig bei Saetzen mit
+  // gleichen Woertern ("You can find the key in the kitchen" hat zweimal
+  // "the"): Vertauscht Amelie die beiden gleichen Chips, steht der Satz
+  // sichtbar voellig richtig da - eine id-Pruefung wuerde ihn trotzdem als
+  // falsch werten. 13 Lektionen im Repo waren davon betroffen (2026-07-30).
+  const textAt = (slot: number) => data.steps[slot].text;
+  const sitztRichtig = (id: number, slot: number) => textAt(id) === textAt(slot);
+
   useCheck(checkRequested, () => {
     const correct =
-      order.length === total && order.every((id, index) => id === index);
+      order.length === total && order.every((id, slot) => sitztRichtig(id, slot));
     setChecked(true);
     onResult({
       correct,
@@ -98,6 +106,7 @@ export function StepsOrder({
         cards={cards}
         order={order}
         checked={checked}
+        sitztRichtig={sitztRichtig}
         onPick={toggleCard}
         onRemove={removeAt}
       />
@@ -106,9 +115,9 @@ export function StepsOrder({
 
   /** Zustand einer Karte: vor dem Prüfen neutral, danach richtig/falsch. */
   const cardState = (id: number): CardState => {
-    const numbered = order.includes(id);
-    if (!checked) return numbered ? "numbered" : "unnumbered";
-    return order.indexOf(id) === id ? "correct" : "wrong";
+    const slot = order.indexOf(id);
+    if (!checked) return slot >= 0 ? "numbered" : "unnumbered";
+    return slot >= 0 && sitztRichtig(id, slot) ? "correct" : "wrong";
   };
 
   return (
@@ -248,12 +257,14 @@ function WordsMode({
   cards,
   order,
   checked,
+  sitztRichtig,
   onPick,
   onRemove,
 }: {
   cards: WordCard[];
   order: number[];
   checked: boolean;
+  sitztRichtig: (id: number, slot: number) => boolean;
   onPick: (id: number) => void;
   onRemove: (slot: number) => void;
 }) {
@@ -262,7 +273,7 @@ function WordsMode({
 
   const slotState = (slot: number): SlotState => {
     if (!checked) return "neutral";
-    return order[slot] === slot ? "correct" : "wrong";
+    return sitztRichtig(order[slot], slot) ? "correct" : "wrong";
   };
 
   return (

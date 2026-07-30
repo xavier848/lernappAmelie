@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-woning-uitrusting-2",
   "title": "Ausstattung erklären II",
-  "sort": 29,
+  "sort": 30,
   "intro": "🏠 Du zeigst den Gästen die Wohnung. Sag kurz und klar, was wo steht.\n\nMERKE: Im Hauptsatz steht das Verb an zweiter Stelle — genau wie im Deutschen. Erst das Gerät, dann das Verb, dann der Ort.\n\n> De magnetron staat naast de koelkast. = Die Mikrowelle steht neben dem Kühlschrank.\n\nBeginnt der Satz mit dem Ort, rutscht das Subjekt hinter das Verb. Das Verb bleibt trotzdem an zweiter Stelle.\n\n> In de badkamer hangt een föhn aan de muur. = Im Badezimmer hängt ein Föhn an der Wand.\n\nLange Sätze brauchst du nicht. Ein Gerät, ein Platz, fertig.",
   "exercises": [
     {
@@ -11,9 +11,16 @@
         "prompt": "Du erklärst den Keller: De droger staat in de kelder naast de wasmachine. Was heißt das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Der Trockner steht im Keller neben der Waschmaschine.", "correct": true },
-          { "text": "Die Waschmaschine steht neben dem Trockner auf dem Balkon." },
-          { "text": "Der Trockner ist kaputt, die Waschmaschine geht noch." }
+          {
+            "text": "Der Trockner steht im Keller neben der Waschmaschine.",
+            "correct": true
+          },
+          {
+            "text": "Die Waschmaschine steht neben dem Trockner auf dem Balkon."
+          },
+          {
+            "text": "Der Trockner ist kaputt, die Waschmaschine geht noch."
+          }
         ],
         "explanation": "De droger = der Trockner, de wasmachine = die Waschmaschine, de kelder = der Keller. Der Balkon heißt het balkon — der kommt im Satz gar nicht vor. Und von kaputt (kapot) steht dort nichts."
       }
@@ -25,12 +32,24 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "De" },
-          { "text": "magnetron" },
-          { "text": "staat" },
-          { "text": "naast" },
-          { "text": "de" },
-          { "text": "koelkast" }
+          {
+            "text": "De"
+          },
+          {
+            "text": "magnetron"
+          },
+          {
+            "text": "staat"
+          },
+          {
+            "text": "naast"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "koelkast"
+          }
         ]
       }
     },
@@ -40,10 +59,38 @@
         "prompt": "Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "De vriezer zit onder de koelkast. ❄️" }, "right": { "text": "Der Gefrierschrank ist unter dem Kühlschrank." } },
-          { "left": { "text": "Het wifiwachtwoord ligt op tafel. 📶" }, "right": { "text": "Das WLAN-Passwort liegt auf dem Tisch." } },
-          { "left": { "text": "De borden staan in de bovenste kast. 🍲" }, "right": { "text": "Die Teller stehen im obersten Schrank." } },
-          { "left": { "text": "Op het balkon staan twee stoelen. 🌿" }, "right": { "text": "Auf dem Balkon stehen zwei Stühle." } }
+          {
+            "left": {
+              "text": "De vriezer zit onder de koelkast. ❄️"
+            },
+            "right": {
+              "text": "Der Gefrierschrank ist unter dem Kühlschrank."
+            }
+          },
+          {
+            "left": {
+              "text": "Het wifiwachtwoord ligt op tafel. 📶"
+            },
+            "right": {
+              "text": "Das WLAN-Passwort liegt auf dem Tisch."
+            }
+          },
+          {
+            "left": {
+              "text": "De borden staan in de bovenste kast. 🍲"
+            },
+            "right": {
+              "text": "Die Teller stehen im obersten Schrank."
+            }
+          },
+          {
+            "left": {
+              "text": "Op het balkon staan twee stoelen. 🌿"
+            },
+            "right": {
+              "text": "Auf dem Balkon stehen zwei Stühle."
+            }
+          }
         ],
         "memory": false
       }
@@ -55,13 +102,27 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Het" },
-          { "text": "bed" },
-          { "text": "is" },
-          { "text": "al" },
-          { "text": "voor" },
-          { "text": "u" },
-          { "text": "opgemaakt" }
+          {
+            "text": "Het"
+          },
+          {
+            "text": "bed"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "al"
+          },
+          {
+            "text": "voor"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "opgemaakt"
+          }
         ]
       }
     },
@@ -71,9 +132,16 @@
         "prompt": "Du möchtest sagen: Auf dem Balkon steht ein kleiner Tisch. Welcher Satz ist richtig?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Op het balkon staat een kleine tafel.", "correct": true },
-          { "text": "Op het balkon een kleine tafel staat." },
-          { "text": "Een kleine tafel op het balkon staat." }
+          {
+            "text": "Op het balkon staat een kleine tafel.",
+            "correct": true
+          },
+          {
+            "text": "Op het balkon een kleine tafel staat."
+          },
+          {
+            "text": "Een kleine tafel op het balkon staat."
+          }
         ],
         "explanation": "Das Verb steht an zweiter Stelle — im Niederländischen genau wie im Deutschen. Fängt der Satz mit dem Ort an (op het balkon), kommt sofort das Verb staat, danach een kleine tafel. Die beiden anderen Sätze schieben staat ans Satzende. So spricht man weder Niederländisch noch Deutsch."
       }
@@ -85,14 +153,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Het" },
-          { "text": "ontbijt" },
-          { "text": "is" },
-          { "text": "niet" },
-          { "text": "bij" },
-          { "text": "de" },
-          { "text": "prijs" },
-          { "text": "inbegrepen" }
+          {
+            "text": "Het"
+          },
+          {
+            "text": "ontbijt"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "niet"
+          },
+          {
+            "text": "bij"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "prijs"
+          },
+          {
+            "text": "inbegrepen"
+          }
         ]
       }
     },
@@ -102,16 +186,42 @@
         "prompt": "Gehört das in die Küche oder ins Bad? Sortiere.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "keuken", "label": "Küche", "icon": "🍳" },
-          { "id": "badkamer", "label": "Bad", "icon": "🛁" }
+          {
+            "id": "keuken",
+            "label": "Küche",
+            "icon": "🍳"
+          },
+          {
+            "id": "badkamer",
+            "label": "Bad",
+            "icon": "🛁"
+          }
         ],
         "items": [
-          { "text": "de magnetron", "bucket": "keuken" },
-          { "text": "de koelkast", "bucket": "keuken" },
-          { "text": "het koffiezetapparaat", "bucket": "keuken" },
-          { "text": "de douche", "bucket": "badkamer" },
-          { "text": "de föhn", "bucket": "badkamer" },
-          { "text": "de wastafel", "bucket": "badkamer" }
+          {
+            "text": "de magnetron",
+            "bucket": "keuken"
+          },
+          {
+            "text": "de koelkast",
+            "bucket": "keuken"
+          },
+          {
+            "text": "het koffiezetapparaat",
+            "bucket": "keuken"
+          },
+          {
+            "text": "de douche",
+            "bucket": "badkamer"
+          },
+          {
+            "text": "de föhn",
+            "bucket": "badkamer"
+          },
+          {
+            "text": "de wastafel",
+            "bucket": "badkamer"
+          }
         ]
       }
     },
@@ -122,15 +232,33 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "In" },
-          { "text": "de" },
-          { "text": "badkamer" },
-          { "text": "hangt" },
-          { "text": "een" },
-          { "text": "föhn" },
-          { "text": "aan" },
-          { "text": "de" },
-          { "text": "muur" }
+          {
+            "text": "In"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "badkamer"
+          },
+          {
+            "text": "hangt"
+          },
+          {
+            "text": "een"
+          },
+          {
+            "text": "föhn"
+          },
+          {
+            "text": "aan"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "muur"
+          }
         ]
       }
     },
@@ -140,9 +268,16 @@
         "prompt": "Du möchtest sagen: Die Handtücher wechseln wir zweimal pro Woche. Welcher Satz ist richtig?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "De handdoeken wisselen wij twee keer per week.", "correct": true },
-          { "text": "De handdoeken wij wisselen twee keer per week." },
-          { "text": "Wij de handdoeken wisselen twee keer per week." }
+          {
+            "text": "De handdoeken wisselen wij twee keer per week.",
+            "correct": true
+          },
+          {
+            "text": "De handdoeken wij wisselen twee keer per week."
+          },
+          {
+            "text": "Wij de handdoeken wisselen twee keer per week."
+          }
         ],
         "explanation": "Steht de handdoeken vorne, muss direkt danach das Verb wisselen kommen — und erst dann wij. In den beiden anderen Sätzen stehen zwei Satzteile vor dem Verb, so rutscht wisselen auf Platz drei. Das geht im Niederländischen nicht, im Deutschen übrigens auch nicht."
       }
@@ -154,16 +289,36 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "De" },
-          { "text": "stofzuiger" },
-          { "text": "vindt" },
-          { "text": "u" },
-          { "text": "in" },
-          { "text": "de" },
-          { "text": "kast" },
-          { "text": "naast" },
-          { "text": "de" },
-          { "text": "deur" }
+          {
+            "text": "De"
+          },
+          {
+            "text": "stofzuiger"
+          },
+          {
+            "text": "vindt"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "kast"
+          },
+          {
+            "text": "naast"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "deur"
+          }
         ]
       }
     }

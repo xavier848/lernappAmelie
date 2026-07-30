@@ -1,0 +1,344 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-wortstellung-2",
+  "title": "Wortstellung üben",
+  "sort": 27,
+  "intro": "🧩 Du kennst die Regel schon: Im Englischen ist die Reihenfolge der Wörter fest. Heute übst du sie an neuen Sätzen aus der Ferienwohnung.\n\nRegel 1: Die Zeit steht ganz am Ende.\n\n> We check the flat every morning. = Wir kontrollieren die Wohnung jeden Morgen.\n\nMERKE: Erst der ganze Satz, dann die Zeit.\n\nRegel 2: Der Ort kommt nach dem Verb und nach dem Ding. Die Zeit kommt noch danach.\n\n> I take the rubbish to the bin every evening. = Ich bringe den Müll jeden Abend zur Tonne.\n\nMERKE: Erst was, dann wo, dann wann.\n\nRegel 3: Eigenschaften stehen vor dem Nomen, nie dahinter. Die Reihenfolge ist Zahl – Menge – Eigenschaft – Nomen.\n\n> She wants two more small pillows. = Sie möchte noch zwei kleine Kissen.\n\nRegel 4: In der Frage kommt zuerst das Fragewort, dann das Hilfsverb, dann die Person, dann das Verb. Hilfsverben sind Helfer-Wörter wie do, does oder can.\n\n> How long do you want to stay? = Wie lange möchten Sie bleiben?\n\nMERKE: Das Verb rutscht in der Frage nie ans Ende.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Du willst sagen: Wir wechseln die Bettwäsche jeden Samstag. Welcher englische Satz ist richtig gebaut?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "We change the bed linen every Saturday.",
+            "correct": true
+          },
+          {
+            "text": "We change every Saturday the bed linen."
+          },
+          {
+            "text": "Every Saturday change we the bed linen."
+          }
+        ],
+        "explanation": "Die Zeitangabe steht im Englischen ganz am Ende. Zuerst kommt Wer – Verb – Was, erst danach die Zeit. Die Zeit darf sich nie zwischen das Verb und das Ding drängeln."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏠 Baue den Satz: Die Wohnung ist um zwei Uhr fertig.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "The"
+          },
+          {
+            "text": "apartment"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "ready"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "two"
+          },
+          {
+            "text": "o'clock"
+          }
+        ],
+        "explanation": "Zuerst steht der ganze Satz: Wer – Verb – wie es ist. Die Uhrzeit hängst du erst danach an, ganz hinten. Sie darf nie mitten in den Satz rutschen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Steht die Zeit am richtigen Platz? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          {
+            "id": "richtig",
+            "label": "Richtig gebaut",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Falsch gebaut",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "I clean the bathroom every morning.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "We wash the towels on Saturday.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "The guests arrive on Friday.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "I clean every morning the bathroom.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "We wash on Saturday the towels.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "The guests on Friday arrive.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Lies bei jedem Satz nur das Ende: Steht die Zeitangabe dort? Wenn die Zeit vor dem Ding oder vor dem Verb steht, ist der Satz falsch gebaut. Das ist die deutsche Reihenfolge, nicht die englische."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚲 Baue die Antwort: Sie können Ihre Fahrräder in der Garage abstellen.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "You"
+          },
+          {
+            "text": "can"
+          },
+          {
+            "text": "leave"
+          },
+          {
+            "text": "your"
+          },
+          {
+            "text": "bikes"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "garage"
+          }
+        ],
+        "explanation": "Erst die Person, dann das Verb, dann das Ding. Der Ort kommt komplett danach. Das Ding und der Ort werden nie ineinander geschoben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Du willst sagen: Wir bringen Ihnen noch drei saubere Handtücher. Welcher Satz stimmt genau?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "We will bring you three more clean towels.",
+            "correct": true
+          },
+          {
+            "text": "We will bring you three clean more towels."
+          },
+          {
+            "text": "We will bring you more three clean towels."
+          },
+          {
+            "text": "We will bring you three more towels clean."
+          }
+        ],
+        "explanation": "Vor dem Nomen gilt eine feste Reihenfolge: zuerst die Zahl, dann das Mengenwort wie more, dann die Eigenschaft, ganz zum Schluss das Nomen. Die Eigenschaft steht im Englischen nie hinter dem Nomen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔑 Baue den Satz: Wir haben zwei Ersatzschlüssel im Büro.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "We"
+          },
+          {
+            "text": "keep"
+          },
+          {
+            "text": "two"
+          },
+          {
+            "text": "spare"
+          },
+          {
+            "text": "keys"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "office"
+          }
+        ],
+        "explanation": "Zwei Regeln auf einmal: Die Zahl und die Eigenschaft stehen direkt vor ihrem Nomen. Der Ort kommt erst nach dem ganzen Ding-Teil. To keep heißt hier aufbewahren."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚕 Baue den Satz: Ihr Taxi bringt Sie um sechs Uhr zum Flughafen.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "Your"
+          },
+          {
+            "text": "taxi"
+          },
+          {
+            "text": "takes"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "airport"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "six"
+          }
+        ],
+        "explanation": "Wenn Ort und Zeit zusammen vorkommen, steht der Ort zuerst und die Zeit danach. Im Deutschen ist es genau andersherum, deshalb musst du hier aufpassen. Wohin es geht, kommt vor wann es losgeht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "❓ Fragen: richtig gebaut oder falsch gebaut? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          {
+            "id": "richtig",
+            "label": "Richtig gebaut",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Falsch gebaut",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "When does the bus leave?",
+            "bucket": "richtig"
+          },
+          {
+            "text": "What can I cook for the children?",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Where do you keep the vacuum cleaner?",
+            "bucket": "richtig"
+          },
+          {
+            "text": "When leaves the bus?",
+            "bucket": "falsch"
+          },
+          {
+            "text": "What I can cook for the children?",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Where do you the vacuum cleaner keep?",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüfe die ersten drei Wörter: Fragewort, dann das Hilfsverb wie do, does oder can, dann die Person. Fehlt das Hilfsverb oder steht es hinter der Person, ist die Frage falsch. Und das Verb bleibt vorne, es rutscht nie ans Ende."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧳 Baue die Frage: Wann kommen Ihre Gäste an?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "When"
+          },
+          {
+            "text": "do"
+          },
+          {
+            "text": "your"
+          },
+          {
+            "text": "guests"
+          },
+          {
+            "text": "arrive"
+          }
+        ],
+        "explanation": "Frag dich: Wo steht do? In der englischen Frage kommt das Hilfsverb direkt hinter das Fragewort und vor die Person. Erst danach folgt das Verb, das die Handlung nennt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss: Links Deutsch, rechts Englisch. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "Die Wohnung ist um zwei Uhr fertig."
+            },
+            "right": {
+              "text": "The apartment is ready at two o'clock."
+            }
+          },
+          {
+            "left": {
+              "text": "Wir wechseln die Bettwäsche jeden Samstag."
+            },
+            "right": {
+              "text": "We change the bed linen every Saturday."
+            }
+          },
+          {
+            "left": {
+              "text": "Wann kommen Ihre Gäste an?"
+            },
+            "right": {
+              "text": "When do your guests arrive?"
+            }
+          }
+        ],
+        "explanation": "Schau beim Vergleichen auf das Satzende. Im Englischen steht dort die Zeit, im Deutschen oft in der Mitte."
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-de-weg-wijzen",
   "title": "Den Weg erklären",
-  "sort": 23,
+  "sort": 24,
   "intro": "🗺️ Gäste fragen oft nach dem Weg zum Bäcker oder zur Bushaltestelle. Mit ein paar festen Sätzen erklärst du den Weg sicher.\n\nVorsicht bei rechtdoor. Das heißt geradeaus, nicht rechts.\n\n> Ga rechtdoor tot het stoplicht. = Gehen Sie geradeaus bis zur Ampel.\n\nMERKE: rechtdoor = geradeaus, rechtsaf = rechts abbiegen, linksaf = links abbiegen.\n\nNaast heißt neben. Tegenover heißt gegenüber, also auf der anderen Straßenseite.\n\n> De bushalte is tegenover de kerk. = Die Bushaltestelle ist gegenüber der Kirche.\n\nMERKE: Ungefähre Entfernungen sagst du mit ongeveer. Von hier heißt hiervandaan: ongeveer tweehonderd meter hiervandaan.",
   "exercises": [
     {
@@ -11,10 +11,19 @@
         "prompt": "Ein Gast sucht den Bäcker. 🥐 Du sagst: Ga hier rechtdoor tot het stoplicht. Was heißt das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Gehen Sie hier geradeaus bis zur Ampel.", "correct": true },
-          { "text": "Gehen Sie hier nach rechts bis zur Ampel." },
-          { "text": "Gehen Sie hier geradeaus bis zur Kreuzung." },
-          { "text": "Biegen Sie an der Ampel nach rechts ab." }
+          {
+            "text": "Gehen Sie hier geradeaus bis zur Ampel.",
+            "correct": true
+          },
+          {
+            "text": "Gehen Sie hier nach rechts bis zur Ampel."
+          },
+          {
+            "text": "Gehen Sie hier geradeaus bis zur Kreuzung."
+          },
+          {
+            "text": "Biegen Sie an der Ampel nach rechts ab."
+          }
         ],
         "explanation": "Rechtdoor heißt geradeaus, auch wenn recht darin steckt. Nach rechts abbiegen heißt rechtsaf, nicht rechtdoor. Het stoplicht ist die Ampel; die Kreuzung heißt het kruispunt. Und die letzte Antwort dreht den Satz um: Da müsste sla bij het stoplicht rechtsaf stehen."
       }
@@ -25,10 +34,38 @@
         "prompt": "Bausteine für den Weg: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Ga rechtdoor. ⬆️" }, "right": { "text": "Gehen Sie geradeaus." } },
-          { "left": { "text": "Sla linksaf. ⬅️" }, "right": { "text": "Biegen Sie links ab." } },
-          { "left": { "text": "Sla rechtsaf. ➡️" }, "right": { "text": "Biegen Sie rechts ab." } },
-          { "left": { "text": "bij het stoplicht 🚦" }, "right": { "text": "an der Ampel" } }
+          {
+            "left": {
+              "text": "Ga rechtdoor. ⬆️"
+            },
+            "right": {
+              "text": "Gehen Sie geradeaus."
+            }
+          },
+          {
+            "left": {
+              "text": "Sla linksaf. ⬅️"
+            },
+            "right": {
+              "text": "Biegen Sie links ab."
+            }
+          },
+          {
+            "left": {
+              "text": "Sla rechtsaf. ➡️"
+            },
+            "right": {
+              "text": "Biegen Sie rechts ab."
+            }
+          },
+          {
+            "left": {
+              "text": "bij het stoplicht 🚦"
+            },
+            "right": {
+              "text": "an der Ampel"
+            }
+          }
         ],
         "memory": false
       }
@@ -39,10 +76,19 @@
         "prompt": "Die Bushaltestelle liegt auf der anderen Straßenseite, genau gegenüber der Kirche. ⛪ Was sagst du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "De bushalte is tegenover de kerk.", "correct": true },
-          { "text": "De bushalte is naast de kerk." },
-          { "text": "De bushalte is achter de kerk." },
-          { "text": "De bushalte is voor de kerk." }
+          {
+            "text": "De bushalte is tegenover de kerk.",
+            "correct": true
+          },
+          {
+            "text": "De bushalte is naast de kerk."
+          },
+          {
+            "text": "De bushalte is achter de kerk."
+          },
+          {
+            "text": "De bushalte is voor de kerk."
+          }
         ],
         "explanation": "Tegenover heißt gegenüber, also auf der anderen Straßenseite. Naast heißt neben, dann stünde die Haltestelle direkt daneben auf derselben Seite. Achter heißt hinter, voor heißt vor. Die Gäste würden dann auf der falschen Seite suchen."
       }
@@ -54,14 +100,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Ga" },
-          { "text": "rechtdoor" },
-          { "text": "en" },
-          { "text": "sla" },
-          { "text": "bij" },
-          { "text": "het" },
-          { "text": "stoplicht" },
-          { "text": "rechtsaf" }
+          {
+            "text": "Ga"
+          },
+          {
+            "text": "rechtdoor"
+          },
+          {
+            "text": "en"
+          },
+          {
+            "text": "sla"
+          },
+          {
+            "text": "bij"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "stoplicht"
+          },
+          {
+            "text": "rechtsaf"
+          }
         ]
       }
     },
@@ -71,10 +133,19 @@
         "prompt": "Ein Gast steht mit dem Stadtplan vor der Tür und fragt: Hoe kom ik bij het station? 🚉 Was will er wissen?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Wie komme ich zum Bahnhof?", "correct": true },
-          { "text": "Wo kann ich am Bahnhof parken?" },
-          { "text": "Wann fährt der nächste Zug ab?" },
-          { "text": "Wie weit ist es bis zum Bahnhof?" }
+          {
+            "text": "Wie komme ich zum Bahnhof?",
+            "correct": true
+          },
+          {
+            "text": "Wo kann ich am Bahnhof parken?"
+          },
+          {
+            "text": "Wann fährt der nächste Zug ab?"
+          },
+          {
+            "text": "Wie weit ist es bis zum Bahnhof?"
+          }
         ],
         "explanation": "Hoe kom ik bij …? heißt: Wie komme ich zu …? Der Gast will den Weg wissen. Nach dem Parkplatz würde er mit Waar kan ik parkeren? fragen. Nach der Abfahrt mit Wanneer vertrekt de trein? Und nach der Entfernung mit Is het ver?"
       }
@@ -85,16 +156,42 @@
         "prompt": "Sagt der Ausdruck, wohin man gehen soll, oder wo etwas liegt? Sortiere.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "richting", "label": "Wohin? Richtung", "icon": "↗️" },
-          { "id": "plek", "label": "Wo? Lage", "icon": "📍" }
+          {
+            "id": "richting",
+            "label": "Wohin? Richtung",
+            "icon": "↗️"
+          },
+          {
+            "id": "plek",
+            "label": "Wo? Lage",
+            "icon": "📍"
+          }
         ],
         "items": [
-          { "text": "rechtdoor tot het stoplicht", "bucket": "richting" },
-          { "text": "linksaf bij de kerk", "bucket": "richting" },
-          { "text": "rechtsaf bij de supermarkt", "bucket": "richting" },
-          { "text": "naast de supermarkt", "bucket": "plek" },
-          { "text": "tegenover de kerk", "bucket": "plek" },
-          { "text": "aan het einde van de straat", "bucket": "plek" }
+          {
+            "text": "rechtdoor tot het stoplicht",
+            "bucket": "richting"
+          },
+          {
+            "text": "linksaf bij de kerk",
+            "bucket": "richting"
+          },
+          {
+            "text": "rechtsaf bij de supermarkt",
+            "bucket": "richting"
+          },
+          {
+            "text": "naast de supermarkt",
+            "bucket": "plek"
+          },
+          {
+            "text": "tegenover de kerk",
+            "bucket": "plek"
+          },
+          {
+            "text": "aan het einde van de straat",
+            "bucket": "plek"
+          }
         ]
       }
     },
@@ -104,10 +201,19 @@
         "prompt": "Ein Gast fragt: Is het ver? Der Supermarkt ist rund 200 Meter entfernt, also fünf Minuten zu Fuß. 🛒 Was antwortest du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Nee, het is ongeveer tweehonderd meter. Dat is vijf minuten lopen.", "correct": true },
-          { "text": "Ja, het is ver. Het is ongeveer twee kilometer lopen." },
-          { "text": "Nee, het is ongeveer tweehonderd meter. U moet de bus nemen." },
-          { "text": "Ja, het is ongeveer tweehonderd meter. Dat is een uur lopen." }
+          {
+            "text": "Nee, het is ongeveer tweehonderd meter. Dat is vijf minuten lopen.",
+            "correct": true
+          },
+          {
+            "text": "Ja, het is ver. Het is ongeveer twee kilometer lopen."
+          },
+          {
+            "text": "Nee, het is ongeveer tweehonderd meter. U moet de bus nemen."
+          },
+          {
+            "text": "Ja, het is ongeveer tweehonderd meter. Dat is een uur lopen."
+          }
         ],
         "explanation": "Ongeveer heißt ungefähr, lopen heißt zu Fuß gehen. Zweihundert Meter sind kein weiter Weg, deshalb beginnt die Antwort mit nee. Twee kilometer heißt zwei Kilometer, so weit ist es nicht. Für zweihundert Meter braucht niemand den Bus. Und een uur lopen heißt eine Stunde zu Fuß, das passt nicht zu zweihundert Metern."
       }
@@ -119,13 +225,27 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "De" },
-          { "text": "supermarkt" },
-          { "text": "is" },
-          { "text": "ongeveer" },
-          { "text": "tweehonderd" },
-          { "text": "meter" },
-          { "text": "hiervandaan" }
+          {
+            "text": "De"
+          },
+          {
+            "text": "supermarkt"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "ongeveer"
+          },
+          {
+            "text": "tweehonderd"
+          },
+          {
+            "text": "meter"
+          },
+          {
+            "text": "hiervandaan"
+          }
         ]
       }
     },
@@ -135,10 +255,38 @@
         "prompt": "Fragen und Antworten zum Weg: Was gehört zusammen? Links Deutsch, rechts Niederländisch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Wie komme ich zum Supermarkt?" }, "right": { "text": "Hoe kom ik bij de supermarkt?" } },
-          { "left": { "text": "Ist es weit zu Fuß?" }, "right": { "text": "Is het ver lopen?" } },
-          { "left": { "text": "Die Apotheke ist am Ende der Straße." }, "right": { "text": "De apotheek is aan het einde van de straat." } },
-          { "left": { "text": "Der Bäcker ist neben dem Supermarkt." }, "right": { "text": "De bakker is naast de supermarkt." } }
+          {
+            "left": {
+              "text": "Wie komme ich zum Supermarkt?"
+            },
+            "right": {
+              "text": "Hoe kom ik bij de supermarkt?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ist es weit zu Fuß?"
+            },
+            "right": {
+              "text": "Is het ver lopen?"
+            }
+          },
+          {
+            "left": {
+              "text": "Die Apotheke ist am Ende der Straße."
+            },
+            "right": {
+              "text": "De apotheek is aan het einde van de straat."
+            }
+          },
+          {
+            "left": {
+              "text": "Der Bäcker ist neben dem Supermarkt."
+            },
+            "right": {
+              "text": "De bakker is naast de supermarkt."
+            }
+          }
         ],
         "memory": false
       }
@@ -149,10 +297,19 @@
         "prompt": "Zum Schluss: Welche Erklärung der Wegwörter stimmt komplett?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "rechtdoor heißt geradeaus, rechtsaf heißt rechts abbiegen, tegenover heißt gegenüber.", "correct": true },
-          { "text": "rechtdoor heißt geradeaus, rechtsaf heißt rechts abbiegen, tegenover heißt neben." },
-          { "text": "rechtdoor heißt nach rechts, rechtsaf heißt geradeaus, tegenover heißt gegenüber." },
-          { "text": "rechtdoor heißt geradeaus, rechtsaf heißt links abbiegen, tegenover heißt gegenüber." }
+          {
+            "text": "rechtdoor heißt geradeaus, rechtsaf heißt rechts abbiegen, tegenover heißt gegenüber.",
+            "correct": true
+          },
+          {
+            "text": "rechtdoor heißt geradeaus, rechtsaf heißt rechts abbiegen, tegenover heißt neben."
+          },
+          {
+            "text": "rechtdoor heißt nach rechts, rechtsaf heißt geradeaus, tegenover heißt gegenüber."
+          },
+          {
+            "text": "rechtdoor heißt geradeaus, rechtsaf heißt links abbiegen, tegenover heißt gegenüber."
+          }
         ],
         "explanation": "Tegenover heißt gegenüber; neben heißt naast. Rechtdoor heißt immer geradeaus, nie nach rechts. Und rechtsaf heißt rechts abbiegen, links abbiegen heißt linksaf."
       }

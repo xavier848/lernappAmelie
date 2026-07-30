@@ -1,0 +1,246 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-preise-vergleichen",
+  "title": "Preise vergleichen",
+  "sort": 15,
+  "intro": "🛒 Zwei Packungen Nudeln kosten verschieden viel und haben verschieden viel Inhalt. Welche ist wirklich günstiger? Das siehst du am Grundpreis. Der Grundpreis ist der Preis für 1 Kilogramm oder für 1 Liter. Er steht klein auf dem Schild am Regal. Er rechnet jede Packung auf dieselbe Menge um. Nur so kannst du zwei Packungen ehrlich vergleichen. Achte dabei auf die Einheit. Feste Ware bekommt einen Preis pro Kilogramm. Flüssige Ware bekommt einen Preis pro Liter. Der Laden räumt seine Regale mit Absicht ein. Das Fach auf Augenhöhe heißt Griffzone. Dort greifst du am bequemsten zu, ohne dich zu bücken. Genau dorthin stellt der Laden die teure Ware. Die günstige Ware steht weiter oben oder ganz unten. Es gibt noch mehr Tricks. Eine Mogelpackung ist außen groß und innen halb leer. Bei einer Schrumpfpackung bleibt der Preis gleich, aber der Inhalt wird weniger. Aktionsware liegt nur kurze Zeit im Angebot, oft in einem großen Korb im Gang. Quengelware ist kleine Ware direkt an der Kasse. Beim Warten greifst du schnell danach. Gegen alle diese Tricks hilft dasselbe: Lies den Grundpreis, bevor du zugreifst.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Am Regal steht groß: 1,80 € pro Packung. Darunter steht klein: 4,50 € pro Kilogramm. Was sagt dir die kleine Zahl?",
+        "options": [
+          {
+            "text": "Was 1 Kilo dieser Ware kostet.",
+            "correct": true
+          },
+          {
+            "text": "Was du für zwei Packungen zahlst."
+          },
+          {
+            "text": "Was die Packung vor dem Rabatt gekostet hat."
+          }
+        ],
+        "explanation": "Die kleine Zahl ist der Grundpreis. Er rechnet jede Packung auf dieselbe Menge um: auf 1 Kilo oder 1 Liter. Lies immer, welche Einheit dahinter steht. Nur der Grundpreis vergleicht verschieden große Packungen ehrlich."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "☕ Für die Ferienwohnung kaufst du Kaffee. 500 g kosten 6 Euro. Wie viel kostet 1 Kilo in Euro?",
+        "answer": 12,
+        "hint": "Schritt für Schritt:\n1 Kilo sind 1000 g.\n500 g sind ein halbes Kilo.\n1 Kilo sind also 2 mal 500 g.\n6 Euro mal 2 = ?",
+        "explanation": "6 € × 2 = 12 €. Der Grundpreis ist 12 € pro Kilo. Für 1 Kilo verdoppelst du den Preis von 500 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Eine Kollegin sagt: „Die große Packung ist immer günstiger.“ Stimmt das?",
+        "options": [
+          {
+            "text": "Nein. Manchmal ist die große Packung pro Kilo sogar teurer.",
+            "correct": true
+          },
+          {
+            "text": "Ja. Die große Packung hat immer den kleineren Grundpreis."
+          },
+          {
+            "text": "Nein. Die kleine Packung hat immer den kleineren Grundpreis."
+          }
+        ],
+        "explanation": "Große Packungen sind oft günstiger pro Kilo. Aber eben nicht immer. Bei Angeboten und bei großen Familienpackungen ist es manchmal umgekehrt. Sicher weißt du es erst, wenn du beide Grundpreise gelesen hast."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet der Fachbegriff? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Grundpreis"
+            },
+            "right": {
+              "text": "Der Preis für 1 Kilo oder 1 Liter"
+            }
+          },
+          {
+            "left": {
+              "text": "Griffzone"
+            },
+            "right": {
+              "text": "Das Regalfach auf Augenhöhe"
+            }
+          },
+          {
+            "left": {
+              "text": "Mogelpackung"
+            },
+            "right": {
+              "text": "Außen groß, innen halb leer"
+            }
+          },
+          {
+            "left": {
+              "text": "Schrumpfpackung"
+            },
+            "right": {
+              "text": "Weniger Inhalt bei gleichem Preis"
+            }
+          },
+          {
+            "left": {
+              "text": "Quengelware"
+            },
+            "right": {
+              "text": "Kleine Ware direkt an der Kasse"
+            }
+          },
+          {
+            "left": {
+              "text": "Aktionsware"
+            },
+            "right": {
+              "text": "Nur kurze Zeit im Angebot"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Achte auf das Wort im Begriff selbst. „Grund“ zeigt auf eine gleiche Grundmenge. „Griff“ zeigt auf das bequeme Zugreifen. „Schrumpf“ zeigt auf das Kleinerwerden. Bei den zwei Packungs-Begriffen hilft die Frage: Geht es um die Größe der Verpackung oder um weniger Inhalt für gleiches Geld?"
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍚 Ein Beutel Reis mit 250 g kostet 1 Euro. Wie viel kostet 1 Kilo in Euro?",
+        "answer": 4,
+        "hint": "Schritt für Schritt:\n1 Kilo sind 1000 g.\n1000 g geteilt durch 250 g sind 4.\n1 Kilo sind also 4 Beutel.\n1 Euro mal 4 = ?",
+        "explanation": "1 Kilo sind 1000 g. Das sind 4 mal 250 g. 1 € × 4 = 4 €. Der Grundpreis ist 4 € pro Kilo."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥜 Du kaufst Nüsse für das Frühstück der Gäste. Tüte A: 200 g für 2 Euro. Tüte B: 500 g für 4 Euro. Welche ist günstiger?",
+        "options": [
+          {
+            "text": "Tüte B. Sie kostet 8 Euro pro Kilo.",
+            "correct": true
+          },
+          {
+            "text": "Tüte A. An der Kasse zahlst du dafür nur 2 Euro."
+          },
+          {
+            "text": "Beide sind pro Kilo gleich teuer."
+          }
+        ],
+        "explanation": "Vergleiche nie die Preise an der Kasse, sondern die Grundpreise. Rechne beide Tüten erst auf 1 Kilo hoch. Die Packung, die an der Kasse weniger kostet, ist pro Kilo oft die teurere."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ In welcher Einheit steht der Grundpreis auf dem Schild? Sortiere die Waren.",
+        "buckets": [
+          {
+            "id": "kilo",
+            "label": "Grundpreis pro Kilogramm",
+            "icon": "⚖️"
+          },
+          {
+            "id": "liter",
+            "label": "Grundpreis pro Liter",
+            "icon": "💧"
+          }
+        ],
+        "items": [
+          {
+            "text": "🍚 Reis, 500 g",
+            "bucket": "kilo"
+          },
+          {
+            "text": "☕ Kaffee, 250 g",
+            "bucket": "kilo"
+          },
+          {
+            "text": "🧀 Käse am Stück, 200 g",
+            "bucket": "kilo"
+          },
+          {
+            "text": "🥛 Milch, 1 Liter",
+            "bucket": "liter"
+          },
+          {
+            "text": "🧃 Apfelsaft, 1,5 Liter",
+            "bucket": "liter"
+          },
+          {
+            "text": "🫒 Speiseöl, 750 ml",
+            "bucket": "liter"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Ware: Wird sie gewogen oder eingegossen? Was du wiegst, steht in Gramm und Kilogramm auf der Packung. Was du eingießt, steht in Milliliter und Liter. Die Mengenangabe auf der Packung verrät dir also schon die Einheit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Dein Waschmittel kostet weiter 4,99 €. Früher stand 1,5 kg auf der Packung, jetzt steht dort 1,2 kg. Was bedeutet das für dich?",
+        "options": [
+          {
+            "text": "Der Inhalt ist kleiner, der Grundpreis ist gestiegen.",
+            "correct": true
+          },
+          {
+            "text": "Für dich ändert sich nichts, der Preis ist ja gleich."
+          },
+          {
+            "text": "Die Packung ist leichter, der Preis pro Kilo bleibt gleich."
+          }
+        ],
+        "explanation": "Bleibt der Preis gleich und wird der Inhalt kleiner, zahlst du für jedes Kilo mehr. Das ist eine versteckte Preiserhöhung und heißt Schrumpfpackung. Am großen Preisschild siehst du sie nicht, nur am Grundpreis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔴 Im Gang steht ein großer Korb mit Aktionsware: Duschgel, 3 Flaschen für 5 Euro. Wie prüfst du, ob das wirklich günstig ist?",
+        "options": [
+          {
+            "text": "Ich vergleiche den Grundpreis mit dem Duschgel im Regal.",
+            "correct": true
+          },
+          {
+            "text": "Ich rechne 5 Euro durch 3 Flaschen, 1,67 Euro sind günstig."
+          },
+          {
+            "text": "Ich verlasse mich auf das rote Schild am Korb."
+          }
+        ],
+        "explanation": "Ein Angebot ist erst günstig, wenn es weniger kostet als dieselbe Ware im Regal. Ein rotes Schild ist Werbung, kein Beweis. Und ein Preis pro Flasche hilft dir nur, wenn alle Flaschen gleich groß sind. Deshalb vergleichst du pro Liter."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz einfach: Bring deinen Einkauf in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Im Vorratsschrank nachschauen, was fehlt"
+          },
+          {
+            "text": "Alles auf einen Einkaufszettel schreiben"
+          },
+          {
+            "text": "Mit dem Zettel in den Laden gehen"
+          },
+          {
+            "text": "An der Kasse bezahlen"
+          }
+        ],
+        "explanation": "Ein guter Einkauf beginnt zu Hause, nicht im Laden. Erst prüfst du, was fehlt, dann schreibst du es auf. Wer erst vor dem Regal überlegt, kauft nach Gefühl und fällt leichter auf Tricks herein."
+      }
+    }
+  ]
+}

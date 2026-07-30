@@ -1,0 +1,169 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rueckgeld-ueben",
+  "title": "Rückgeld üben",
+  "sort": 10,
+  "intro": "💶 Rückgeld ist das Geld, das der Gast zurückbekommt. Du ziehst den Preis von dem Geld ab, das er dir gibt. Das Rückgeld ist deshalb immer kleiner als der Schein. Ein guter Weg dafür ist das Ergänzen. Ergänzen heißt: Du zählst vom Preis nach oben bis zum Schein. Zuerst zählst du die Cent bis zum nächsten vollen Euro. Dann zählst du die vollen Euro bis zum Schein. Am Schluss machst du die Probe: Preis plus Rückgeld muss genau den Schein ergeben.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Ein Gast bezahlt die Endreinigung der Ferienwohnung: 12,50 €. Er gibt dir einen 20-Euro-Schein. Wie rechnest du das Rückgeld aus?",
+        "options": [
+          {
+            "text": "20,00 € minus 12,50 €",
+            "correct": true
+          },
+          {
+            "text": "12,50 € plus 20,00 €"
+          },
+          {
+            "text": "12,50 € minus 20,00 €"
+          }
+        ],
+        "explanation": "Rückgeld ist das Geld, das vom Schein übrig bleibt. Darum ziehst du den Preis von dem Geld ab, das der Gast gibt. Der größere Betrag steht dabei vorne. Merke: Rückgeld ist immer kleiner als der Schein. Wird deine Antwort größer als der Schein, hast du addiert statt abgezogen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Ein Gast bezahlt 12,50 € mit 20 €. Du legst ihm 13,50 € hin. Woran merkst du sofort, dass das nicht stimmen kann?",
+        "options": [
+          {
+            "text": "Preis und Rückgeld zusammen müssen 20 € ergeben. 12,50 € plus 13,50 € sind aber 26 €.",
+            "correct": true
+          },
+          {
+            "text": "Rückgeld gibt es nur in vollen Euro. 13,50 € kann darum nie ein Rückgeld sein."
+          },
+          {
+            "text": "Rückgeld ist immer die Hälfte vom Schein. Bei 20 € müssten es also 10 € sein."
+          }
+        ],
+        "explanation": "Die Probe geht immer gleich: Preis plus Rückgeld muss genau das Geld ergeben, das der Gast dir gegeben hat. Kommt mehr heraus, hast du zu viel zurückgelegt. Kommt weniger heraus, zu wenig. Mach diese Probe nach jeder Rückgeld-Rechnung."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🥐 Ein Gast kauft frische Brötchen bei dir: 3,50 €. Er gibt dir einen 5-Euro-Schein. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 350,
+        "given": 500,
+        "explanation": "Ergänze von 3,50 € nach oben. Bis 4 € fehlen 50 Cent. Von 4 € bis 5 € fehlt 1 €. Zusammen: 1,50 € Rückgeld. Probe: 3,50 € + 1,50 € = 5,00 €."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥚 Ein Gast kauft Eier aus deinem Vorrat: 2,60 €. Er gibt dir einen 5-Euro-Schein. Wie viel Cent bekommt er zurück? Tippe die Zahl in Cent ein.",
+        "answer": 240,
+        "hint": "Schritt für Schritt:\n2,60 € sind 260 Cent.\n5 € sind 500 Cent.\n500 - 260 = ?",
+        "explanation": "500 Cent minus 260 Cent sind 240 Cent. Das sind 2,40 €. Probe: 2,60 € + 2,40 € = 5,00 €. Rechne in Cent, dann brauchst du kein Komma."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🧹 Ein Gast bezahlt die Endreinigung: 12,50 €. Er gibt dir einen 20-Euro-Schein. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 1250,
+        "given": 2000,
+        "explanation": "Ergänze von 12,50 € nach oben. Bis 13 € fehlen 50 Cent. Von 13 € bis 20 € fehlen 7 €. Zusammen: 7,50 € Rückgeld. Probe: 12,50 € + 7,50 € = 20,00 €. Mach diese Probe immer. Nur wenn Preis und Rückgeld zusammen genau 20,00 € ergeben, stimmt dein Geld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Der Einkauf für einen Gast kostet 6,70 €. Der Gast gibt dir 10 €. Du rechnest im Kopf. Welcher erste Schritt bringt dich sicher zum Ziel?",
+        "options": [
+          {
+            "text": "Von 6,70 € bis 7 € ergänzen. Die 30 Cent gehören schon zum Rückgeld.",
+            "correct": true
+          },
+          {
+            "text": "Den Preis auf 7 € aufrunden. Dann 10 € minus 7 € rechnen und fertig sein."
+          },
+          {
+            "text": "Erst 10 € minus 6 € rechnen. Dann die 70 Cent zum Ergebnis dazuzählen."
+          }
+        ],
+        "explanation": "Ergänzen geht in zwei Schritten: erst die Cent bis zum nächsten vollen Euro, dann die vollen Euro bis zum Schein. Beide Teilstücke zählst du am Ende zusammen. Wichtig: Der Preis selbst darf sich dabei nicht verändern. Rundest du den Preis auf, fehlen dir am Ende Cent. Und wer die Cent am Schluss dazuzählt statt abzuziehen, gibt zu viel Rückgeld."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚲 Ein Gast leiht sich die Fahrräder für eine Woche: 34 €. Er gibt dir einen 50-Euro-Schein. Wie viel Euro bekommt er zurück? Tippe die Zahl in Euro ein.",
+        "answer": 16,
+        "hint": "Schritt für Schritt:\n34 € + 6 € = 40 €\n40 € + 10 € = 50 €\nZähle die beiden Schritte zusammen: 6 + 10 = ?",
+        "explanation": "Ergänze in zwei Schritten: von 34 € bis 40 € sind es 6 €, von 40 € bis 50 € sind es 10 €. 6 + 10 = 16. Der Gast bekommt 16 € zurück. Probe: 34 € + 16 € = 50 €."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🛒 Du hast für einen Gast den Wocheneinkauf erledigt: 23,40 €. Er gibt dir einen 50-Euro-Schein. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 2340,
+        "given": 5000,
+        "explanation": "Ergänze in drei Schritten. Von 23,40 € bis 24 € fehlen 60 Cent. Von 24 € bis 30 € fehlen 6 €. Von 30 € bis 50 € fehlen 20 €. Zusammen: 26,60 € Rückgeld. Probe: 23,40 € + 26,60 € = 50,00 €."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧠 Überschlage im Kopf. Überschlagen heißt: ungefähr rechnen, nicht genau. Bekommt der Gast mehr oder weniger als 5 € zurück?",
+        "buckets": [
+          {
+            "id": "mehr",
+            "label": "Mehr als 5 € zurück",
+            "icon": "⬆️"
+          },
+          {
+            "id": "weniger",
+            "label": "Weniger als 5 € zurück",
+            "icon": "⬇️"
+          }
+        ],
+        "items": [
+          {
+            "text": "☕ Kaffee und Kuchen 6,50 €. Der Gast gibt 10 €.",
+            "bucket": "weniger"
+          },
+          {
+            "text": "🧺 Wäscheservice 12,00 €. Der Gast gibt 20 €.",
+            "bucket": "mehr"
+          },
+          {
+            "text": "🥤 Zwei Limos 4,20 €. Der Gast gibt 5 €.",
+            "bucket": "weniger"
+          },
+          {
+            "text": "🍽️ Frühstückskorb 13,50 €. Der Gast gibt 20 €.",
+            "bucket": "mehr"
+          },
+          {
+            "text": "🧼 Handtuch-Set 8,90 €. Der Gast gibt 10 €.",
+            "bucket": "weniger"
+          },
+          {
+            "text": "🍎 Obst vom Hof 2,30 €. Der Gast gibt 10 €.",
+            "bucket": "mehr"
+          }
+        ],
+        "explanation": "Für ein Überschlagen musst du nicht genau rechnen. Schau nur, wie weit der Preis vom Schein weg ist. Liegt der Preis nah am Schein, gibt es wenig Rückgeld. Liegt er weit darunter, gibt es viel Rückgeld."
+      }
+    },
+    {
+      "type": "money_count",
+      "data": {
+        "prompt": "🌟 Letzte Aufgabe. Ein Gast nimmt zwei Flaschen Wasser und ein Eis aus deinem Vorrat: 7,50 €. Er gibt dir einen 10-Euro-Schein. Lege das Rückgeld hin.",
+        "mode": "change",
+        "price": 750,
+        "given": 1000,
+        "explanation": "Ergänze von 7,50 € nach oben. Bis 8 € fehlen 50 Cent. Von 8 € bis 10 € fehlen 2 €. Zusammen: 2,50 € Rückgeld. Probe: 7,50 € + 2,50 € = 10,00 €."
+      }
+    }
+  ]
+}

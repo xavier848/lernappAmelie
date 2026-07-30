@@ -2,16 +2,23 @@
   "topic_slug": "geld-rechnen",
   "slug": "geld-rechnen-vertiefung-2",
   "title": "Was kostet eine Portion?",
-  "sort": 11,
+  "sort": 12,
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
         "prompt": "🍲 In der Hauswirtschaft rechnest du den Portionspreis aus. Ein Topf Suppe kostet 6 € an Zutaten. Er ergibt 6 Teller. Was kostet eine Portion?",
         "options": [
-          { "text": "1 €", "correct": true },
-          { "text": "1,20 €" },
-          { "text": "6 €" }
+          {
+            "text": "1 €",
+            "correct": true
+          },
+          {
+            "text": "1,20 €"
+          },
+          {
+            "text": "6 €"
+          }
         ],
         "explanation": "Der Portionspreis ist der Preis für eine Portion. Du teilst die Zutaten-Kosten durch die Zahl der Portionen: 6 € geteilt durch 6 Teller = 1 € pro Teller."
       }
@@ -21,9 +28,16 @@
       "data": {
         "prompt": "🥐 Für die Gäste der Ferienwohnung kaufst du 12 Brötchen für 3,60 €. Wie hoch ist der Stückpreis, also der Preis für ein Brötchen?",
         "options": [
-          { "text": "30 Cent", "correct": true },
-          { "text": "36 Cent" },
-          { "text": "40 Cent" }
+          {
+            "text": "30 Cent",
+            "correct": true
+          },
+          {
+            "text": "36 Cent"
+          },
+          {
+            "text": "40 Cent"
+          }
         ],
         "explanation": "Der Stückpreis ist der Preis für ein Stück. 3,60 € sind 360 Cent. 360 Cent geteilt durch 12 Brötchen = 30 Cent pro Brötchen."
       }
@@ -33,11 +47,21 @@
       "data": {
         "prompt": "🧮 So kalkulierst du ein Gericht wie eine Profi-Hauswirtschafterin. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Schreibe alle Zutaten auf." },
-          { "text": "Schreibe zu jeder Zutat den Preis." },
-          { "text": "Zähle alle Preise zusammen." },
-          { "text": "Teile die Summe durch die Zahl der Portionen." },
-          { "text": "Fertig: Du kennst den Preis pro Portion." }
+          {
+            "text": "Schreibe alle Zutaten auf."
+          },
+          {
+            "text": "Schreibe zu jeder Zutat den Preis."
+          },
+          {
+            "text": "Zähle alle Preise zusammen."
+          },
+          {
+            "text": "Teile die Summe durch die Zahl der Portionen."
+          },
+          {
+            "text": "Fertig: Du kennst den Preis pro Portion."
+          }
         ]
       }
     },
@@ -46,9 +70,16 @@
       "data": {
         "prompt": "☕ Das Frühstück für einen Gast kostet dich 4,50 € an Zutaten. Heute kommen 4 Gäste. Wie hoch sind die Gesamtkosten für die Zutaten?",
         "options": [
-          { "text": "18 €", "correct": true },
-          { "text": "16 €" },
-          { "text": "16,50 €" }
+          {
+            "text": "18 €",
+            "correct": true
+          },
+          {
+            "text": "16 €"
+          },
+          {
+            "text": "16,50 €"
+          }
         ],
         "explanation": "Gesamtkosten heißt: alles zusammen. Rechne in zwei Schritten: 4 mal 4 € = 16 €. 4 mal 50 Cent = 2 €. Zusammen 18 €. Vergiss die 50 Cent nicht."
       }
@@ -58,9 +89,16 @@
       "data": {
         "prompt": "🍝 Dein Rezept ist für 2 Personen und braucht 250 g Nudeln. Heute kochst du für 4 Personen. Wie viele Nudeln brauchst du?",
         "options": [
-          { "text": "500 g", "correct": true },
-          { "text": "1000 g" },
-          { "text": "250 g" }
+          {
+            "text": "500 g",
+            "correct": true
+          },
+          {
+            "text": "1000 g"
+          },
+          {
+            "text": "250 g"
+          }
         ],
         "explanation": "Von 2 auf 4 Personen ist das Doppelte. Also brauchst du die doppelte Menge: 250 g mal 2 = 500 g. Mal 4 wäre falsch, das wäre für 8 Personen."
       }
@@ -70,10 +108,38 @@
       "data": {
         "prompt": "🧩 Rezept verdoppeln: Aus 2 Personen werden 4. Finde die passende Menge.",
         "pairs": [
-          { "left": { "text": "Für 2: 300 g Reis" }, "right": { "text": "Für 4: 600 g Reis" } },
-          { "left": { "text": "Für 2: 1 Liter Milch" }, "right": { "text": "Für 4: 2 Liter Milch" } },
-          { "left": { "text": "Für 2: 4 Eier" }, "right": { "text": "Für 4: 8 Eier" } },
-          { "left": { "text": "Für 2: 150 g Käse" }, "right": { "text": "Für 4: 300 g Käse" } }
+          {
+            "left": {
+              "text": "Für 2: 300 g Reis"
+            },
+            "right": {
+              "text": "Für 4: 600 g Reis"
+            }
+          },
+          {
+            "left": {
+              "text": "Für 2: 1 Liter Milch"
+            },
+            "right": {
+              "text": "Für 4: 2 Liter Milch"
+            }
+          },
+          {
+            "left": {
+              "text": "Für 2: 4 Eier"
+            },
+            "right": {
+              "text": "Für 4: 8 Eier"
+            }
+          },
+          {
+            "left": {
+              "text": "Für 2: 150 g Käse"
+            },
+            "right": {
+              "text": "Für 4: 300 g Käse"
+            }
+          }
         ],
         "memory": false
       }
@@ -83,9 +149,16 @@
       "data": {
         "prompt": "🍕 Eine Pizza vom Lieferdienst kostet 9 €. Machst du sie selbst, kosten die Zutaten nur 3 €. Wie hoch ist deine Ersparnis?",
         "options": [
-          { "text": "6 €", "correct": true },
-          { "text": "3 €" },
-          { "text": "12 €" }
+          {
+            "text": "6 €",
+            "correct": true
+          },
+          {
+            "text": "3 €"
+          },
+          {
+            "text": "12 €"
+          }
         ],
         "explanation": "Die Ersparnis ist das Geld, das du weniger ausgibst. Du rechnest minus: 9 € minus 3 € = 6 €. Selbst kochen ist oft viel günstiger."
       }
@@ -95,14 +168,34 @@
       "data": {
         "prompt": "🍽️ Rechne die Portion aus und sortiere: Kostet eine Portion mehr oder weniger als 1 €?",
         "buckets": [
-          { "id": "unter", "label": "Weniger als 1 €", "icon": "⬇️" },
-          { "id": "ueber", "label": "Mehr als 1 €", "icon": "⬆️" }
+          {
+            "id": "unter",
+            "label": "Weniger als 1 €",
+            "icon": "⬇️"
+          },
+          {
+            "id": "ueber",
+            "label": "Mehr als 1 €",
+            "icon": "⬆️"
+          }
         ],
         "items": [
-          { "text": "🍲 Suppe: 4 € Zutaten für 8 Teller", "bucket": "unter" },
-          { "text": "🥘 Auflauf: 6 € Zutaten für 4 Portionen", "bucket": "ueber" },
-          { "text": "🥞 Pfannkuchen: 2,40 € Zutaten für 6 Stück", "bucket": "unter" },
-          { "text": "🍝 Lasagne: 10 € Zutaten für 5 Portionen", "bucket": "ueber" }
+          {
+            "text": "🍲 Suppe: 4 € Zutaten für 8 Teller",
+            "bucket": "unter"
+          },
+          {
+            "text": "🥘 Auflauf: 6 € Zutaten für 4 Portionen",
+            "bucket": "ueber"
+          },
+          {
+            "text": "🥞 Pfannkuchen: 2,40 € Zutaten für 6 Stück",
+            "bucket": "unter"
+          },
+          {
+            "text": "🍝 Lasagne: 10 € Zutaten für 5 Portionen",
+            "bucket": "ueber"
+          }
         ]
       }
     },

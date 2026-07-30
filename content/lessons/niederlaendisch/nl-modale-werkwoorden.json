@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-modale-werkwoorden",
   "title": "kunnen, moeten, mogen, willen",
-  "sort": 17,
+  "sort": 18,
   "intro": "🔑 Mit kunnen, moeten, mogen, willen und zullen sagst du, was geht, was sein muss und was du willst.\n\nDiese Verben stehen vorne im Satz. Das zweite Verb bleibt in der Grundform und rutscht ans Satzende.\n\n> U kunt het ontbijt in de tuin eten. = Sie können das Frühstück im Garten essen.\n\nMERKE: Modalverb nach vorne, zweites Verb ganz nach hinten.\n\nVorsicht bei mogen: Das heißt dürfen, nicht mögen. Und Zal ik ...? heißt: Soll ich ...?\n\n> Zal ik u met de koffers helpen? = Soll ich Ihnen mit den Koffern helfen?\n\nMERKE: Höflich bitten geht mit Kunt u ...?, höflich fragen mit Mag ik ...?",
   "exercises": [
     {
@@ -11,10 +11,19 @@
         "prompt": "Ein Gast fragt an der Tür: Mogen wij de fiets in de garage zetten? 🚲 Was möchte der Gast wissen?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Ob die Gäste das Fahrrad in die Garage stellen dürfen.", "correct": true },
-          { "text": "Ob die Gäste das Fahrrad in der Garage mögen." },
-          { "text": "Ob die Gäste das Fahrrad in die Garage stellen müssen." },
-          { "text": "Ob die Gäste ein Fahrrad in der Garage leihen können." }
+          {
+            "text": "Ob die Gäste das Fahrrad in die Garage stellen dürfen.",
+            "correct": true
+          },
+          {
+            "text": "Ob die Gäste das Fahrrad in der Garage mögen."
+          },
+          {
+            "text": "Ob die Gäste das Fahrrad in die Garage stellen müssen."
+          },
+          {
+            "text": "Ob die Gäste ein Fahrrad in der Garage leihen können."
+          }
         ],
         "explanation": "Mogen heißt dürfen. Das ist eine typische Falle, denn es klingt wie mögen. Mögen heißt auf Niederländisch leuk vinden. Müssen wäre moeten, und leihen wäre lenen oder huren. Davon steht nichts im Satz. Der Gast bittet also um Erlaubnis."
       }
@@ -26,15 +35,33 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "U" },
-          { "text": "kunt" },
-          { "text": "het" },
-          { "text": "ontbijt" },
-          { "text": "ook" },
-          { "text": "in" },
-          { "text": "de" },
-          { "text": "tuin" },
-          { "text": "eten" }
+          {
+            "text": "U"
+          },
+          {
+            "text": "kunt"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "ontbijt"
+          },
+          {
+            "text": "ook"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "tuin"
+          },
+          {
+            "text": "eten"
+          }
         ]
       }
     },
@@ -44,10 +71,19 @@
         "prompt": "Du willst sagen: Ich muss die Küche noch putzen. 🧽 Welcher Satz ist richtig?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Ik moet de keuken nog schoonmaken.", "correct": true },
-          { "text": "Ik moet nog schoonmaken de keuken." },
-          { "text": "Ik moet de keuken nog schoonmaak." },
-          { "text": "Ik moeten de keuken nog schoonmaken." }
+          {
+            "text": "Ik moet de keuken nog schoonmaken.",
+            "correct": true
+          },
+          {
+            "text": "Ik moet nog schoonmaken de keuken."
+          },
+          {
+            "text": "Ik moet de keuken nog schoonmaak."
+          },
+          {
+            "text": "Ik moeten de keuken nog schoonmaken."
+          }
         ],
         "explanation": "Nach moet steht das zweite Verb in der Grundform ganz am Ende: schoonmaken. Bei ik moet nog schoonmaken de keuken steht das Verb zu früh. Das Objekt de keuken gehört davor. Schoonmaak ist keine Grundform. Ohne Modalverb heißt es: ik maak de keuken schoon. Und ik moeten ist die falsche Person: zu ik gehört moet."
       }
@@ -58,10 +94,38 @@
         "prompt": "Modalverben im Gäste-Alltag: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Kunt u de deur op slot doen? 🔑" }, "right": { "text": "Können Sie die Tür abschließen?" } },
-          { "left": { "text": "Mag ik uw naam even noteren?" }, "right": { "text": "Darf ich kurz Ihren Namen aufschreiben?" } },
-          { "left": { "text": "U moet de sleutel bij vertrek inleveren." }, "right": { "text": "Sie müssen den Schlüssel bei der Abreise abgeben." } },
-          { "left": { "text": "Zal ik het bed voor u opmaken?" }, "right": { "text": "Soll ich Ihnen das Bett machen?" } }
+          {
+            "left": {
+              "text": "Kunt u de deur op slot doen? 🔑"
+            },
+            "right": {
+              "text": "Können Sie die Tür abschließen?"
+            }
+          },
+          {
+            "left": {
+              "text": "Mag ik uw naam even noteren?"
+            },
+            "right": {
+              "text": "Darf ich kurz Ihren Namen aufschreiben?"
+            }
+          },
+          {
+            "left": {
+              "text": "U moet de sleutel bij vertrek inleveren."
+            },
+            "right": {
+              "text": "Sie müssen den Schlüssel bei der Abreise abgeben."
+            }
+          },
+          {
+            "left": {
+              "text": "Zal ik het bed voor u opmaken?"
+            },
+            "right": {
+              "text": "Soll ich Ihnen das Bett machen?"
+            }
+          }
         ],
         "memory": false
       }
@@ -72,10 +136,19 @@
         "prompt": "Ein Gast steht mit zwei schweren Koffern im Flur. Du möchtest sagen: Soll ich Ihnen mit den Koffern helfen? 🧳 Was sagst du?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Zal ik u met de koffers helpen?", "correct": true },
-          { "text": "Zal ik u met de koffers help?" },
-          { "text": "Ik zal u met de koffers helpen." },
-          { "text": "Moet ik u met de koffers helpen?" }
+          {
+            "text": "Zal ik u met de koffers helpen?",
+            "correct": true
+          },
+          {
+            "text": "Zal ik u met de koffers help?"
+          },
+          {
+            "text": "Ik zal u met de koffers helpen."
+          },
+          {
+            "text": "Moet ik u met de koffers helpen?"
+          }
         ],
         "explanation": "Zal ik ...? heißt: Soll ich ...? Damit bietest du deine Hilfe an. Am Ende steht die Grundform helpen, nicht help. Ik zal u helpen ist keine Frage, sondern die Ansage: Ich werde Ihnen helfen. Moet ik ...? heißt: Muss ich ...? Das klingt, als hättest du keine Lust."
       }
@@ -87,14 +160,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Mag" },
-          { "text": "ik" },
-          { "text": "uw" },
-          { "text": "paspoort" },
-          { "text": "en" },
-          { "text": "uw" },
-          { "text": "boekingsnummer" },
-          { "text": "zien" }
+          {
+            "text": "Mag"
+          },
+          {
+            "text": "ik"
+          },
+          {
+            "text": "uw"
+          },
+          {
+            "text": "paspoort"
+          },
+          {
+            "text": "en"
+          },
+          {
+            "text": "uw"
+          },
+          {
+            "text": "boekingsnummer"
+          },
+          {
+            "text": "zien"
+          }
         ]
       }
     },
@@ -104,16 +193,42 @@
         "prompt": "Höflich mit u oder locker mit je? Sortiere die Fragen.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "hoeflich", "label": "Höflich zu Gästen (u)", "icon": "🤝" },
-          { "id": "locker", "label": "Locker zu Freunden (je)", "icon": "🙋" }
+          {
+            "id": "hoeflich",
+            "label": "Höflich zu Gästen (u)",
+            "icon": "🤝"
+          },
+          {
+            "id": "locker",
+            "label": "Locker zu Freunden (je)",
+            "icon": "🙋"
+          }
         ],
         "items": [
-          { "text": "Kunt u dat even herhalen?", "bucket": "hoeflich" },
-          { "text": "Mag ik uw achternaam noteren?", "bucket": "hoeflich" },
-          { "text": "Wilt u nog een kopje thee?", "bucket": "hoeflich" },
-          { "text": "Kun je me even helpen?", "bucket": "locker" },
-          { "text": "Mag ik jouw fiets lenen?", "bucket": "locker" },
-          { "text": "Wil je nog wat drinken?", "bucket": "locker" }
+          {
+            "text": "Kunt u dat even herhalen?",
+            "bucket": "hoeflich"
+          },
+          {
+            "text": "Mag ik uw achternaam noteren?",
+            "bucket": "hoeflich"
+          },
+          {
+            "text": "Wilt u nog een kopje thee?",
+            "bucket": "hoeflich"
+          },
+          {
+            "text": "Kun je me even helpen?",
+            "bucket": "locker"
+          },
+          {
+            "text": "Mag ik jouw fiets lenen?",
+            "bucket": "locker"
+          },
+          {
+            "text": "Wil je nog wat drinken?",
+            "bucket": "locker"
+          }
         ]
       }
     },
@@ -123,10 +238,19 @@
         "prompt": "Ein Gast sagt beim Einchecken: Wij willen morgen graag om acht uur ontbijten. ⏰ Was bedeutet das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Die Gäste möchten morgen gern um acht Uhr frühstücken.", "correct": true },
-          { "text": "Die Gäste müssen morgen um acht Uhr frühstücken." },
-          { "text": "Die Gäste fragen, ob sie morgen um acht Uhr frühstücken dürfen." },
-          { "text": "Die Gäste werden morgen wohl um acht Uhr frühstücken." }
+          {
+            "text": "Die Gäste möchten morgen gern um acht Uhr frühstücken.",
+            "correct": true
+          },
+          {
+            "text": "Die Gäste müssen morgen um acht Uhr frühstücken."
+          },
+          {
+            "text": "Die Gäste fragen, ob sie morgen um acht Uhr frühstücken dürfen."
+          },
+          {
+            "text": "Die Gäste werden morgen wohl um acht Uhr frühstücken."
+          }
         ],
         "explanation": "Willen heißt wollen. Mit graag wird daraus ein höfliches möchten gern. Müssen wäre moeten, dürfen wäre mogen, und werden wäre zullen. Die Gäste äußern also einen Wunsch. Es ist keine Pflicht und keine Frage."
       }
@@ -138,13 +262,27 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Onze" },
-          { "text": "gasten" },
-          { "text": "mogen" },
-          { "text": "de" },
-          { "text": "fiets" },
-          { "text": "gratis" },
-          { "text": "gebruiken" }
+          {
+            "text": "Onze"
+          },
+          {
+            "text": "gasten"
+          },
+          {
+            "text": "mogen"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "fiets"
+          },
+          {
+            "text": "gratis"
+          },
+          {
+            "text": "gebruiken"
+          }
         ]
       }
     },
@@ -154,10 +292,19 @@
         "prompt": "Zum Schluss: Du bittest einen Gast höflich: Können Sie das Formular bitte unterschreiben? ✍️ Welcher Satz ist richtig?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Kunt u het formulier alstublieft ondertekenen?", "correct": true },
-          { "text": "Kunt u alstublieft ondertekenen het formulier?" },
-          { "text": "Kunt u het formulier alstublieft ondertekent?" },
-          { "text": "Moet u het formulier alstublieft ondertekenen?" }
+          {
+            "text": "Kunt u het formulier alstublieft ondertekenen?",
+            "correct": true
+          },
+          {
+            "text": "Kunt u alstublieft ondertekenen het formulier?"
+          },
+          {
+            "text": "Kunt u het formulier alstublieft ondertekent?"
+          },
+          {
+            "text": "Moet u het formulier alstublieft ondertekenen?"
+          }
         ],
         "explanation": "Kunt u ...? ist die höfliche Bitte. Die Grundform ondertekenen steht ganz am Ende. Bei alstublieft ondertekenen het formulier steht das Verb mitten im Satz. Das Objekt het formulier gehört davor. Ondertekent ist die Form ohne Modalverb: u ondertekent het formulier. Moet u ...? heißt Müssen Sie ...? und klingt wie ein Befehl, nicht wie eine Bitte."
       }

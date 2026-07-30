@@ -1,0 +1,297 @@
+{
+  "topic_slug": "niederlaendisch",
+  "slug": "nl-woordvolgorde-oefenen",
+  "title": "Satzstellung üben",
+  "sort": 17,
+  "intro": "🔁 Die Regeln kennst du schon. Jetzt übst du sie an echten Sätzen aus der Ferienwohnung.\n\nIm Hauptsatz steht das gebeugte Verb an zweiter Stelle. Steht eine Zeitangabe vorne, tauschen Verb und Subjekt den Platz.\n\n> Vanmiddag bel ik de monteur. = Heute Nachmittag rufe ich den Handwerker an.\n\nKurze Wörter wie het, me und zich kleben direkt hinter dem Verb und dem Subjekt. Erst danach kommt die Zeitangabe. Ganz zum Schluss steht, für wen du etwas tust.\n\n> Ik regel het meteen voor u. = Ich regle das sofort für Sie.\n\nMERKE: erst das kurze het, dann die Zeit, dann voor u. Nie voor u in die Mitte schieben.\n\nzich heißt sich. Es steht immer direkt hinter dem Wort, das sagt, wer gemeint ist.\n\n> Voelt u zich hier thuis? = Fühlen Sie sich hier wie zu Hause?\n\nMERKE: erst u, dann zich. Nie umgekehrt.\n\nheel heißt sehr. Es steht vor dem Wort, das es verstärkt.\n\n> Het spijt me heel erg. = Es tut mir sehr leid.\n\nNach omdat, dat und als rutscht das gebeugte Verb ans Satzende.\n\n> Ik kom straks, omdat ik nu geen tijd heb. = Ich komme später, weil ich jetzt keine Zeit habe.\n\nMERKE: Im Hauptsatz steht das Verb an zweiter Stelle. Nach omdat, dat und als steht es ganz hinten.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast sagt: Mein Schlüssel passt nicht ins Schloss. 🔑 Du willst antworten: Morgen früh regle ich das für Sie. Welcher Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          {
+            "text": "Morgenochtend regel ik het voor u.",
+            "correct": true
+          },
+          {
+            "text": "Morgenochtend ik regel het voor u."
+          },
+          {
+            "text": "Morgenochtend regel ik voor u het."
+          },
+          {
+            "text": "Morgenochtend regel het ik voor u."
+          }
+        ],
+        "explanation": "Steht die Zeitangabe vorne, kommt sofort danach das Verb und erst dann das Subjekt. Kurze Wörter wie het kleben direkt hinter dem Subjekt. Eine Angabe mit voor steht immer ganz hinten, nie in der Mitte."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast sagt: Die Spülmaschine startet nicht. 🔧 Du antwortest: Ich regle das sofort für Sie.",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "Ik"
+          },
+          {
+            "text": "regel"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "meteen"
+          },
+          {
+            "text": "voor"
+          },
+          {
+            "text": "u"
+          }
+        ],
+        "explanation": "Kurze Wörter wie het klammern sich ans Verb. Danach kommt die Zeitangabe. Angaben mit voor, naar oder in stehen ganz am Satzende."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste hatten zwei Tage kein warmes Wasser. 🚿 Du entschuldigst dich: Es tut mir sehr leid. Welcher Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          {
+            "text": "Het spijt me heel erg.",
+            "correct": true
+          },
+          {
+            "text": "Het spijt me erg heel."
+          },
+          {
+            "text": "Het spijt heel erg me."
+          }
+        ],
+        "explanation": "heel heißt sehr. Es verstärkt hier das Wort erg. Ein verstärkendes Wort steht immer direkt VOR dem Wort, das es verstärkt. Und das kurze me bleibt direkt hinter dem Verb."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
+        "tts_lang": "nl-NL",
+        "pairs": [
+          {
+            "left": {
+              "text": "Ik regel het morgen voor u. 🔧"
+            },
+            "right": {
+              "text": "Ich regle das morgen für Sie."
+            }
+          },
+          {
+            "left": {
+              "text": "Het spijt me heel erg. 🙏"
+            },
+            "right": {
+              "text": "Es tut mir sehr leid."
+            }
+          },
+          {
+            "left": {
+              "text": "Voelt u zich hier op uw gemak? 🛋️"
+            },
+            "right": {
+              "text": "Fühlen Sie sich hier wohl?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ik kom zo even bij u langs. 🚪"
+            },
+            "right": {
+              "text": "Ich komme gleich kurz bei Ihnen vorbei."
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Lies jeden niederländischen Satz halblaut vor. Viele Wörter klingen fast wie im Deutschen. Fang beim Verb an: Es sagt dir, was passiert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Gäste sind seit einer Stunde da. 🏡 Du fragst freundlich: Fühlen Sie sich hier wie zu Hause? Welcher Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          {
+            "text": "Voelt u zich hier thuis?",
+            "correct": true
+          },
+          {
+            "text": "Voelt zich u hier thuis?"
+          },
+          {
+            "text": "Voelt u hier zich thuis?"
+          }
+        ],
+        "explanation": "zich gehört immer direkt hinter das Wort, das sagt, wer gemeint ist. In der Frage kommt zuerst das Verb, dann die Person, dann sofort zich. Erst danach folgen Ort und Rest."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast sorgt sich um seine Abfahrt. 🙂 Du beruhigst ihn: Machen Sie sich keine Sorgen.",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "Maakt"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "zich"
+          },
+          {
+            "text": "geen"
+          },
+          {
+            "text": "zorgen"
+          }
+        ],
+        "explanation": "zich steht direkt hinter der Person. Zwischen die Person und zich passt nichts."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Stimmt die Wortstellung? Sortiere die niederländischen Sätze.",
+        "tts_lang": "nl-NL",
+        "buckets": [
+          {
+            "id": "goed",
+            "label": "Richtig gebaut",
+            "icon": "✅"
+          },
+          {
+            "id": "fout",
+            "label": "Da stimmt die Reihenfolge nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Ik regel het straks voor u.",
+            "bucket": "goed"
+          },
+          {
+            "text": "Voelt u zich al wat beter?",
+            "bucket": "goed"
+          },
+          {
+            "text": "Vanmiddag breng ik u nog een deken.",
+            "bucket": "goed"
+          },
+          {
+            "text": "Ik regel voor u het straks.",
+            "bucket": "fout"
+          },
+          {
+            "text": "Voelt zich u al wat beter?",
+            "bucket": "fout"
+          },
+          {
+            "text": "Vanmiddag ik breng u nog een deken.",
+            "bucket": "fout"
+          }
+        ],
+        "explanation": "Prüfe jeden Satz mit drei Fragen. Steht das gebeugte Verb an zweiter Stelle? Kleben die kurzen Wörter wie het und zich direkt hinter Verb und Person? Steht die Angabe mit voor ganz am Ende?"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Du rufst den Handwerker an. 📞 Baue den Satz: Ich rufe Sie an, weil die Waschmaschine kaputt ist.",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "Ik"
+          },
+          {
+            "text": "bel"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "omdat"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "wasmachine"
+          },
+          {
+            "text": "kapot"
+          },
+          {
+            "text": "is"
+          }
+        ],
+        "explanation": "Der erste Teil ist ein Hauptsatz: Das gebeugte Verb steht an zweiter Stelle. Nach omdat rutscht das gebeugte Verb ganz ans Ende. Alles andere im Nebensatz steht davor."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Was mache ich bei einem Problem? 📞 Du willst sagen: Wenn Sie etwas brauchen, können Sie mich immer anrufen. Welcher Satz stimmt?",
+        "tts_lang": "nl-NL",
+        "options": [
+          {
+            "text": "Als u iets nodig heeft, kunt u mij altijd bellen.",
+            "correct": true
+          },
+          {
+            "text": "Als u iets nodig heeft, u kunt mij altijd bellen."
+          },
+          {
+            "text": "Als u iets nodig heeft, kunt u mij bellen altijd."
+          },
+          {
+            "text": "Als u iets heeft nodig, kunt u mij altijd bellen."
+          }
+        ],
+        "explanation": "Der Teil mit als zählt als erste Stelle. Danach kommt sofort das Verb und erst dann die Person. Im Teil mit als steht das Verb ganz hinten. Und ein zweites Verb wie bellen steht am Satzende, Wörter wie altijd davor."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Zum Schluss ganz kurz. Ein Gast wartet auf eine Antwort. 📞 Du sagst: Heute Nachmittag rufe ich Sie an.",
+        "tts_lang": "nl-NL",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "Vanmiddag"
+          },
+          {
+            "text": "bel"
+          },
+          {
+            "text": "ik"
+          },
+          {
+            "text": "u"
+          }
+        ],
+        "explanation": "Vanmiddag steht vorne. Deshalb kommt sofort das Verb und erst danach ik. Achte auf den Großbuchstaben: Nur ein Wort passt an den Satzanfang."
+      }
+    }
+  ]
+}

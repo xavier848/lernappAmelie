@@ -2,7 +2,7 @@
   "topic_slug": "niederlaendisch",
   "slug": "nl-omgeving-tips-2",
   "title": "Ausflüge & Umgebung II",
-  "sort": 28,
+  "sort": 29,
   "intro": "🗺️ Gäste fragen oft nach Ausflügen. Sag zuerst, wann etwas ist, dann wie, und zuletzt wo.\n\n> Wij lopen elke zondag rustig naar het bergmeer. = Wir laufen jeden Sonntag gemütlich zum Bergsee.\n\nMERKE: Die Reihenfolge ist tijd – manier – plaats. Also: Zeit, Art, Ort.\n\nStellst du die Zeit nach vorne, bleibt das Verb trotzdem an zweiter Stelle. Person und Verb tauschen dann den Platz.\n\n> Om negen uur vertrekt de bus naar het bergmeer. = Um neun Uhr fährt der Bus zum Bergsee.\n\nMERKE: Ik raad u ... aan heißt: Ich empfehle Ihnen ... Das kleine aan steht ganz am Satzende.",
   "exercises": [
     {
@@ -12,12 +12,24 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "De" },
-          { "text": "markt" },
-          { "text": "is" },
-          { "text": "op" },
-          { "text": "donderdag" },
-          { "text": "open" }
+          {
+            "text": "De"
+          },
+          {
+            "text": "markt"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "op"
+          },
+          {
+            "text": "donderdag"
+          },
+          {
+            "text": "open"
+          }
         ]
       }
     },
@@ -27,10 +39,19 @@
         "prompt": "Du willst sagen: Am Donnerstag ist der Markt auf dem Dorfplatz. 🧺 Welcher niederländische Satz ist richtig?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Op donderdag is de markt op het dorpsplein.", "correct": true },
-          { "text": "Op donderdag de markt is op het dorpsplein." },
-          { "text": "Is op donderdag de markt op het dorpsplein." },
-          { "text": "Op donderdag op het dorpsplein is de markt." }
+          {
+            "text": "Op donderdag is de markt op het dorpsplein.",
+            "correct": true
+          },
+          {
+            "text": "Op donderdag de markt is op het dorpsplein."
+          },
+          {
+            "text": "Is op donderdag de markt op het dorpsplein."
+          },
+          {
+            "text": "Op donderdag op het dorpsplein is de markt."
+          }
         ],
         "explanation": "Das Verb is muss an zweiter Stelle stehen. Weil op donderdag vorne steht, kommt danach sofort is und erst dann de markt. Bei Op donderdag de markt is ... steht das Verb an dritter Stelle, das ist falsch. Is op donderdag de markt ...? ist eine Frage, keine Aussage. Und Op donderdag op het dorpsplein is de markt hat zwei Angaben vor dem Verb."
       }
@@ -42,13 +63,27 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Het" },
-          { "text": "museum" },
-          { "text": "is" },
-          { "text": "tot" },
-          { "text": "vijf" },
-          { "text": "uur" },
-          { "text": "open" }
+          {
+            "text": "Het"
+          },
+          {
+            "text": "museum"
+          },
+          {
+            "text": "is"
+          },
+          {
+            "text": "tot"
+          },
+          {
+            "text": "vijf"
+          },
+          {
+            "text": "uur"
+          },
+          {
+            "text": "open"
+          }
         ]
       }
     },
@@ -58,10 +93,38 @@
         "prompt": "Tipps für die Umgebung: Was gehört zusammen? Links Niederländisch, rechts Deutsch.",
         "tts_lang": "nl-NL",
         "pairs": [
-          { "left": { "text": "Naar het bergmeer loopt u ongeveer twintig minuten. 🥾" }, "right": { "text": "Zum Bergsee laufen Sie ungefähr zwanzig Minuten." } },
-          { "left": { "text": "De boerderij verkoopt elke ochtend verse eieren. 🥚" }, "right": { "text": "Der Bauernhof verkauft jeden Morgen frische Eier." } },
-          { "left": { "text": "Het restaurant bij de watermolen heeft een mooi terras. ☀️" }, "right": { "text": "Das Restaurant an der Wassermühle hat eine schöne Terrasse." } },
-          { "left": { "text": "De bus naar de stad rijdt elk uur. 🚌" }, "right": { "text": "Der Bus in die Stadt fährt jede Stunde." } }
+          {
+            "left": {
+              "text": "Naar het bergmeer loopt u ongeveer twintig minuten. 🥾"
+            },
+            "right": {
+              "text": "Zum Bergsee laufen Sie ungefähr zwanzig Minuten."
+            }
+          },
+          {
+            "left": {
+              "text": "De boerderij verkoopt elke ochtend verse eieren. 🥚"
+            },
+            "right": {
+              "text": "Der Bauernhof verkauft jeden Morgen frische Eier."
+            }
+          },
+          {
+            "left": {
+              "text": "Het restaurant bij de watermolen heeft een mooi terras. ☀️"
+            },
+            "right": {
+              "text": "Das Restaurant an der Wassermühle hat eine schöne Terrasse."
+            }
+          },
+          {
+            "left": {
+              "text": "De bus naar de stad rijdt elk uur. 🚌"
+            },
+            "right": {
+              "text": "Der Bus in die Stadt fährt jede Stunde."
+            }
+          }
         ],
         "memory": false
       }
@@ -73,14 +136,30 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "In" },
-          { "text": "het" },
-          { "text": "dorp" },
-          { "text": "kunt" },
-          { "text": "u" },
-          { "text": "verse" },
-          { "text": "kaas" },
-          { "text": "kopen" }
+          {
+            "text": "In"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "dorp"
+          },
+          {
+            "text": "kunt"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "verse"
+          },
+          {
+            "text": "kaas"
+          },
+          {
+            "text": "kopen"
+          }
         ]
       }
     },
@@ -90,10 +169,19 @@
         "prompt": "Ein Gast fragt nach dem Museum. 🏛️ Du sagst: Het museum is van dinsdag tot en met zondag open. Op maandag is het gesloten. Was heißt das?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Das Museum ist von Dienstag bis einschließlich Sonntag geöffnet. Am Montag ist es geschlossen.", "correct": true },
-          { "text": "Das Museum ist von Dienstag bis Sonntag geschlossen. Nur am Montag ist es geöffnet." },
-          { "text": "Das Museum ist nur am Dienstag und am Sonntag geöffnet. Sonst ist es zu." },
-          { "text": "Das Museum ist jeden Tag geöffnet, auch am Montag." }
+          {
+            "text": "Das Museum ist von Dienstag bis einschließlich Sonntag geöffnet. Am Montag ist es geschlossen.",
+            "correct": true
+          },
+          {
+            "text": "Das Museum ist von Dienstag bis Sonntag geschlossen. Nur am Montag ist es geöffnet."
+          },
+          {
+            "text": "Das Museum ist nur am Dienstag und am Sonntag geöffnet. Sonst ist es zu."
+          },
+          {
+            "text": "Das Museum ist jeden Tag geöffnet, auch am Montag."
+          }
         ],
         "explanation": "Open heißt geöffnet, gesloten heißt geschlossen. Tot en met heißt bis einschließlich, der Sonntag zählt also noch dazu. Tot ohne en met würde bedeuten: bis, aber ohne diesen Tag."
       }
@@ -104,16 +192,42 @@
         "prompt": "Sagt die Angabe etwas über die Öffnungszeit oder über den Weg? Sortiere die niederländischen Angaben.",
         "tts_lang": "nl-NL",
         "buckets": [
-          { "id": "tijd", "label": "Öffnungszeit", "icon": "🕒" },
-          { "id": "afstand", "label": "Entfernung & Weg", "icon": "📍" }
+          {
+            "id": "tijd",
+            "label": "Öffnungszeit",
+            "icon": "🕒"
+          },
+          {
+            "id": "afstand",
+            "label": "Entfernung & Weg",
+            "icon": "📍"
+          }
         ],
         "items": [
-          { "text": "elke dag open van negen tot zes", "bucket": "tijd" },
-          { "text": "op maandag gesloten", "bucket": "tijd" },
-          { "text": "de markt begint om acht uur", "bucket": "tijd" },
-          { "text": "drie kilometer verderop", "bucket": "afstand" },
-          { "text": "twee straten verder", "bucket": "afstand" },
-          { "text": "vlak achter het dorp", "bucket": "afstand" }
+          {
+            "text": "elke dag open van negen tot zes",
+            "bucket": "tijd"
+          },
+          {
+            "text": "op maandag gesloten",
+            "bucket": "tijd"
+          },
+          {
+            "text": "de markt begint om acht uur",
+            "bucket": "tijd"
+          },
+          {
+            "text": "drie kilometer verderop",
+            "bucket": "afstand"
+          },
+          {
+            "text": "twee straten verder",
+            "bucket": "afstand"
+          },
+          {
+            "text": "vlak achter het dorp",
+            "bucket": "afstand"
+          }
         ]
       }
     },
@@ -124,15 +238,33 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Ik" },
-          { "text": "raad" },
-          { "text": "u" },
-          { "text": "de" },
-          { "text": "bakkerij" },
-          { "text": "op" },
-          { "text": "het" },
-          { "text": "plein" },
-          { "text": "aan" }
+          {
+            "text": "Ik"
+          },
+          {
+            "text": "raad"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "bakkerij"
+          },
+          {
+            "text": "op"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "plein"
+          },
+          {
+            "text": "aan"
+          }
         ]
       }
     },
@@ -142,10 +274,19 @@
         "prompt": "Gäste suchen ein Restaurant mit Aussicht. 🍽️ Du willst das Restaurant an der Wassermühle empfehlen. Welcher Satz ist richtig?",
         "tts_lang": "nl-NL",
         "options": [
-          { "text": "Ik raad u het restaurant bij de watermolen aan.", "correct": true },
-          { "text": "Ik raad aan u het restaurant bij de watermolen." },
-          { "text": "Ik raad u aan het restaurant bij de watermolen." },
-          { "text": "Ik raad u het restaurant bij de watermolen." }
+          {
+            "text": "Ik raad u het restaurant bij de watermolen aan.",
+            "correct": true
+          },
+          {
+            "text": "Ik raad aan u het restaurant bij de watermolen."
+          },
+          {
+            "text": "Ik raad u aan het restaurant bij de watermolen."
+          },
+          {
+            "text": "Ik raad u het restaurant bij de watermolen."
+          }
         ],
         "explanation": "Aanraden ist ein trennbares Verb. Der Teil aan rutscht im Hauptsatz ganz ans Satzende: Ik raad u ... aan. Steht aan direkt hinter raad oder mitten im Satz, ist die Wortstellung falsch. Fehlt aan ganz, fehlt dem Satz das halbe Verb."
       }
@@ -157,16 +298,36 @@
         "tts_lang": "nl-NL",
         "mode": "words",
         "steps": [
-          { "text": "Na" },
-          { "text": "de" },
-          { "text": "wandeling" },
-          { "text": "kunt" },
-          { "text": "u" },
-          { "text": "op" },
-          { "text": "het" },
-          { "text": "terras" },
-          { "text": "iets" },
-          { "text": "drinken" }
+          {
+            "text": "Na"
+          },
+          {
+            "text": "de"
+          },
+          {
+            "text": "wandeling"
+          },
+          {
+            "text": "kunt"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "op"
+          },
+          {
+            "text": "het"
+          },
+          {
+            "text": "terras"
+          },
+          {
+            "text": "iets"
+          },
+          {
+            "text": "drinken"
+          }
         ]
       }
     }

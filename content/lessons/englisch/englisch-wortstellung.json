@@ -185,44 +185,23 @@
       }
     },
     {
-      "type": "match_pairs",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🧩 Welcher Satzteil gehört wohin? Ordne zu.",
-        "pairs": [
+        "prompt": "🧺 Du willst sagen: Ich bringe die frischen Handtücher gleich nach oben. Welcher Satz ist richtig gebaut?",
+        "tts_lang": "en-GB",
+        "options": [
           {
-            "left": {
-              "text": "next week 📅"
-            },
-            "right": {
-              "text": "Zeit: ganz ans Ende"
-            }
+            "text": "I will bring the fresh towels upstairs in a moment.",
+            "correct": true
           },
           {
-            "left": {
-              "text": "behind the house 🏠"
-            },
-            "right": {
-              "text": "Ort: nach dem Verb"
-            }
+            "text": "I will bring upstairs the fresh towels in a moment."
           },
           {
-            "left": {
-              "text": "warm 🔥"
-            },
-            "right": {
-              "text": "Eigenschaft: vor das Nomen"
-            }
-          },
-          {
-            "left": {
-              "text": "we 🙋"
-            },
-            "right": {
-              "text": "Wer: ganz an den Anfang"
-            }
+            "text": "I will bring the fresh towels in a moment upstairs."
           }
         ],
-        "explanation": "Merke dir die Plätze im Satz: Wer kommt nach vorne, dann das Verb, dann der Ort, und die Zeit ganz zum Schluss. Eigenschaften stehen immer direkt vor ihrem Nomen."
+        "explanation": "Erst Wer – Verb – Was: I will bring the fresh towels. Dann kommt der Ort: upstairs. Und ganz zum Schluss die Zeit: in a moment. Merke dir die Reihenfolge: erst wohin, dann wann."
       }
     },
     {
