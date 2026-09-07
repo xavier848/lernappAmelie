@@ -54,7 +54,7 @@ Beim Schreiben einer Wiederholungs-Lektion zuerst die bestehenden Lektionen des 
 
 ## Die 8 Übungstypen
 
-Jede Übung: `data.prompt` (Pflicht, Leichte Sprache), optional `data.image` (URL), optional `data.tts_lang` (Default `de-DE`, für englische Inhalte `en-GB`).
+Jede Übung: `data.prompt` (Pflicht, Leichte Sprache), optional `data.image` (URL), optional `data.tts_lang` (Default `de-DE`, für englische Inhalte `en-GB`, für niederländische `nl-NL`, für österreichischen Dialekt `de-AT`).
 
 **`explanation` gibt es bei allen 8 Typen** und erscheint im Feedback-Banner – auch bei richtiger Antwort. Sie ist das wichtigste Lern-Werkzeug: Ohne sie wiederholt Amelie denselben Fehler beliebig oft (Statistik 2026-07-28: 13 von 13 Versuchen an derselben Sortier-Übung falsch).
 
