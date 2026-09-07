@@ -21,17 +21,17 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "Gäste, Nachbarn und Freundinnen sagen, wie etwas ist. Was gehört zusammen? Links Österreichisch, rechts Deutsch.",
+        "prompt": "Gäste, Nachbarn und Freundinnen sagen, wie etwas ist. Welches deutsche Wort steckt im Satz? Links Österreichisch, rechts Deutsch.",
         "tts_lang": "de-AT",
         "pairs": [
-          { "left": { "text": "Des Zimmer is gmiatlich." }, "right": { "text": "Das Zimmer ist gemütlich." } },
-          { "left": { "text": "Bist du narrisch?" }, "right": { "text": "Bist du verrückt?" } },
-          { "left": { "text": "I bin heit grantig." }, "right": { "text": "Ich bin heute schlecht gelaunt." } },
-          { "left": { "text": "Des wor zach." }, "right": { "text": "Das war mühsam." } },
-          { "left": { "text": "Die Semmel is guat." }, "right": { "text": "Die Semmel ist gut." } }
+          { "left": { "text": "Des Zimmer is gmiatlich." }, "right": { "text": "gemütlich" } },
+          { "left": { "text": "Bist du narrisch?" }, "right": { "text": "verrückt" } },
+          { "left": { "text": "I bin heit grantig." }, "right": { "text": "schlecht gelaunt" } },
+          { "left": { "text": "Des wor zach." }, "right": { "text": "mühsam" } },
+          { "left": { "text": "Die Semmel is guat." }, "right": { "text": "gut" } }
         ],
         "memory": false,
-        "explanation": "Schau auf das letzte Wort im Satz, das ist die Eigenschaft. Zwei Wörter klingen fast wie im Deutschen, sprich sie laut. Bei den anderen hilft ein Merk-Haken: In einem steckt ein Narr, eines kommt von Grant, also schlechte Laune, und eines klingt wie zäh."
+        "explanation": "Schau auf das letzte Wort im Satz, das ist die Eigenschaft. Zwei davon klingen fast wie im Deutschen, sprich sie laut. Bei den anderen hilft ein Merk-Haken: In einem steckt ein Narr, eines klingt wie zäh, und eines sagt jemand, der nur brummt und schimpft."
       }
     },
     {
@@ -82,7 +82,7 @@
           { "text": "grantig", "bucket": "negativ" },
           { "text": "zach", "bucket": "negativ" }
         ],
-        "explanation": "Frag dich: Ist das ein Lob, also etwas Gutes? Dann ist das Wort positiv. Ist es etwas, worüber man sich ärgert? Dann ist es negativ. Tipp: In manchen Wörtern steckt ein deutsches Wort, zum Beispiel Depp oder zäh."
+        "explanation": "Frag dich: Ist das ein Lob, also etwas Gutes? Dann gehört das Wort zu positiv. Ärgert man sich darüber, gehört es zu negativ. Tipp: In manchen Wörtern steckt ein deutsches Wort, zum Beispiel Depp oder zäh."
       }
     },
     {
@@ -92,10 +92,10 @@
         "tts_lang": "de-AT",
         "options": [
           { "text": "Das ist schön und angenehm!", "correct": true },
-          { "text": "Das ist anstrengend!" },
+          { "text": "Das ist gemütlich!" },
           { "text": "Das ist verrückt!" }
         ],
-        "explanation": "Fein heißt hier schön oder angenehm. Die Leute sagen es, wenn etwas gut tut: a feiner Tag, a feine Zeit. Im Deutschen meint fein eher dünn oder zart, hier ist es ein Lob. Anstrengend wäre zach, verrückt wäre narrisch."
+        "explanation": "Fein heißt hier schön oder angenehm. Die Leute sagen es, wenn etwas gut tut: a feiner Tag, a feine Zeit. Im Deutschen meint fein eher dünn oder zart, hier ist es ein Lob. Gemütlich wäre gmiatlich, verrückt wäre narrisch."
       }
     },
     {
@@ -124,7 +124,7 @@
           { "text": "Das ist gemütlich!" },
           { "text": "Das ist mühsam!" }
         ],
-        "explanation": "Arg heißt heftig oder erstaunlich. Die Gäste staunen über den vielen Schnee. Im Deutschen klingt arg nach etwas Schlimmem, hier heißt es einfach: Wow, das ist viel! Vor einem anderen Wort macht arg dieses Wort stärker: arg kalt heißt sehr kalt. Mühsam wäre zach."
+        "explanation": "Arg heißt heftig oder erstaunlich. Im Deutschen klingt arg nach etwas Schlimmem, hier staunen die Gäste nur: Wow, das ist heftig! Vor einem anderen Wort macht arg dieses Wort stärker: arg kalt heißt sehr kalt. Mühsam wäre zach."
       }
     },
     {
