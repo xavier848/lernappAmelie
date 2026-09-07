@@ -1,0 +1,159 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-passt-scho",
+  "title": "Passt scho! Eh, halt, freilich",
+  "sort": 11,
+  "intro": "😊 Kleine Wörter sagen viel: alles gut, egal, natürlich. Du hörst sie in Lermoos in fast jedem Gespräch, beim Bäcker, im Bus, von den Nachbarn und von den Gästen. Drei davon klingen wie deutsche Wörter, heißen im Dialekt aber etwas anderes.\n\n> eh = sowieso, ohnehin\n\n> halt = eben, nun mal (nicht Stopp!)\n\n> freilich = natürlich\n\n> Passt scho = Ist in Ordnung\n\n> Des geht scho = Das klappt schon\n\n> Is ma wurscht = Ist mir egal (wörtlich: Ist mir Wurst)\n\n> Geh! = Ach was!, Komm schon! (nicht geh weg!)\n\n> Jo eh = Ja, schon, ja sowieso\n\nMERKE: Drei falsche Freunde! Halt heißt eben, nicht Stopp. Geh! heißt Ach was, nicht geh weg. Und eh heißt sowieso.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Beim Bäcker bist du aus Versehen vor einer Frau dran und sagst: Entschuldigung! Sie sagt: Passt scho. 🥨 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Ist in Ordnung.", "correct": true },
+          { "text": "Pass besser auf!" },
+          { "text": "Das ist mir egal." }
+        ],
+        "explanation": "Passt scho heißt Ist in Ordnung. Scho kennst du schon, es heißt schon. Die Frau ist nicht böse, alles ist gut. Pass auf wäre eine Warnung, und Is ma wurscht heißt Ist mir egal."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Österreichisch, rechts Deutsch.",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "halt" }, "right": { "text": "eben, nun mal" } },
+          { "left": { "text": "Des geht scho" }, "right": { "text": "Das klappt schon" } },
+          { "left": { "text": "Is ma wurscht" }, "right": { "text": "Ist mir egal" } },
+          { "left": { "text": "freilich" }, "right": { "text": "natürlich" } },
+          { "left": { "text": "Jo eh" }, "right": { "text": "Ja, sowieso" } }
+        ],
+        "memory": false,
+        "explanation": "Ein Satz endet auf scho, das heißt schon. Ma heißt hier mir, und bei wurscht denk an die Wurst. In freilich steckt das Wort frei, und halt heißt nicht Stopp. Und Jo ist ein lockeres Ja."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Bus kommt zu spät. Dein Nachbar wartet mit dir und sagt: Da Bus is halt spät. 🚌 Was heißt halt hier?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "eben, nun mal", "correct": true },
+          { "text": "Stopp, anhalten" },
+          { "text": "sowieso" }
+        ],
+        "explanation": "Halt heißt eben, nun mal. Falscher Freund: Es heißt nicht Stopp und nicht anhalten. Dein Nachbar meint: Der Bus ist eben spät, da kann man nichts machen. Sowieso wäre eh, das ist ein anderes kleines Wort."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast fragt, ob du Hilfe brauchst. Baue den Satz auf Österreichisch: Danke, das klappt schon. 🧳",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Danke" },
+          { "text": "des" },
+          { "text": "geht" },
+          { "text": "scho" }
+        ],
+        "explanation": "Danke steht vorne, wie im Deutschen. Des heißt das, scho heißt schon. Wörtlich sagst du: Das geht schon. Das Tun-Wort geht steht gleich nach des, so wie im Deutschen nach das."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "In der Schulküche sagst du: I konn des nit. Deine Freundin sagt: Geh, des konnst du scho! 💪 Was meint sie mit Geh?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Ach was! Komm schon!", "correct": true },
+          { "text": "Geh weg!" },
+          { "text": "Ja, stimmt!" }
+        ],
+        "explanation": "Geh! heißt hier Ach was! oder Komm schon! Falscher Freund: Es klingt wie gehen, aber niemand soll weggehen. Deine Freundin macht dir Mut: Ach was, das kannst du schon! Sie stimmt dir also nicht zu, sie widerspricht dir freundlich."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Was heißt das kleine Wort im Satz: sowieso, eben oder natürlich? Sortiere die Sätze. 🧺",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "sowieso", "label": "sowieso", "icon": "🔁" },
+          { "id": "eben", "label": "eben, nun mal", "icon": "🤷" },
+          { "id": "natuerlich", "label": "natürlich", "icon": "👍" }
+        ],
+        "items": [
+          { "text": "I hob eh Zeit", "bucket": "sowieso" },
+          { "text": "Mir kemmen eh", "bucket": "sowieso" },
+          { "text": "Jo eh", "bucket": "sowieso" },
+          { "text": "Heit is halt kalt", "bucket": "eben" },
+          { "text": "Des is halt zach", "bucket": "eben" },
+          { "text": "Freilich mog i Kas", "bucket": "natuerlich" },
+          { "text": "Des woaß i freilich", "bucket": "natuerlich" }
+        ],
+        "explanation": "Such in jedem Satz das kleine Wort: eh, halt oder freilich. Eh ist das kürzeste und heißt sowieso, auch in Jo eh. Halt sagt man, wenn man etwas nicht ändern kann: Es ist eben so. In freilich steckt frei, das ist ein klares Ja: natürlich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Morgen gehst du auf die Alm und fragst deine Freundin: Kimmst du a? Sie sagt: Jo eh! ⛰️ Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Ja, sowieso!", "correct": true },
+          { "text": "Ja, vielleicht!" },
+          { "text": "Nein, eher nicht!" }
+        ],
+        "explanation": "Jo eh heißt Ja, sowieso. Jo ist ein lockeres Ja, eh heißt sowieso oder ohnehin, und kimmst heißt kommst. Deine Freundin kommt also ganz sicher, nicht nur vielleicht. Achtung: Eh klingt wie eher, heißt aber sowieso."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "natürlich" }, "right": { "text": "freilich" } },
+          { "left": { "text": "eben, nun mal" }, "right": { "text": "halt" } },
+          { "left": { "text": "sowieso" }, "right": { "text": "eh" } },
+          { "left": { "text": "Ist mir egal" }, "right": { "text": "Is ma wurscht" } },
+          { "left": { "text": "Ach was!" }, "right": { "text": "Geh!" } }
+        ],
+        "memory": false,
+        "explanation": "Drei kleine Wörter, ein kurzer Satz und ein Ausruf. Denk an die falschen Freunde: Ein Wort klingt wie Stopp, meint aber nicht Stopp. Ein Wort klingt wie weggehen, meint aber Ach was. Und bei egal denk an die Wurst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Deine Freundin fragt: Speck oder Kas? Dir ist beides recht. Baue den Satz auf Österreichisch: Das ist mir egal. 🧀",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Des" },
+          { "text": "is" },
+          { "text": "ma" },
+          { "text": "wurscht" }
+        ],
+        "explanation": "Des heißt das, is heißt ist, ma heißt mir. Wurscht ist die Wurst: Es ist mir Wurst, also egal. Achtung: ma heißt mir, denn mir heißt im Dialekt wir. Die Reihenfolge ist wie im Deutschen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Passt scho" }, "right": { "text": "Ist in Ordnung" } },
+          { "left": { "text": "freilich" }, "right": { "text": "natürlich" } },
+          { "left": { "text": "Is ma wurscht" }, "right": { "text": "Ist mir egal" } }
+        ],
+        "memory": true,
+        "explanation": "Passt scho sagt man, wenn alles gut ist. In freilich steckt das Wort frei. Bei wurscht denk an die Wurst."
+      }
+    }
+  ]
+}

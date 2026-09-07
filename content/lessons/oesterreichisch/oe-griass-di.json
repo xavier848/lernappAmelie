@@ -15,7 +15,7 @@
           { "text": "Bis morgen!" },
           { "text": "Wie geht es dir?" }
         ],
-        "explanation": "Griaß di heißt Grüß dich. Das sagt man zur Begrüßung zu einer Person. Bis morgen wäre ein Abschied, und nach dem Befinden fragt der Nachbar hier nicht."
+        "explanation": "Griaß di heißt Grüß dich. Das sagt man zur Begrüßung zu einer Person. Bis morgen wäre ein Abschied. Und wie es dir geht, fragt der Nachbar damit nicht."
       }
     },
     {
@@ -28,10 +28,10 @@
           { "left": { "text": "Pfiat di" }, "right": { "text": "Tschüss" } },
           { "left": { "text": "Bua" }, "right": { "text": "Junge" } },
           { "left": { "text": "Madl" }, "right": { "text": "Mädchen" } },
-          { "left": { "text": "Oida" }, "right": { "text": "Kumpel" } }
+          { "left": { "text": "Oida" }, "right": { "text": "Alter, Kumpel" } }
         ],
         "memory": false,
-        "explanation": "Griaß kommt von grüßen, das ist die Begrüßung. Pfiat kommt von behüten: Gott behüte dich. Das wünscht man beim Abschied. Bua und Madl sind ein Junge und ein Mädchen. Oida sagen junge Leute zu einem Freund."
+        "explanation": "Griaß kommt von grüßen, Pfiat kommt von behüten: Gott behüte dich. Das eine sagt man beim Kommen, das andere beim Gehen. Bei den Wörtern für Menschen hilft der Klang: Sprich das Dialektwort laut, dann hörst du oft das deutsche Wort."
       }
     },
     {
@@ -42,9 +42,9 @@
         "options": [
           { "text": "Pfiat di!", "correct": true },
           { "text": "Griaß di!" },
-          { "text": "Griaß enk!" }
+          { "text": "Pfiat enk!" }
         ],
-        "explanation": "Pfiat di sagst du zum Abschied zu einer Person. Griaß di ist die Begrüßung. Griaß enk ist auch eine Begrüßung, aber für mehrere Personen."
+        "explanation": "Pfiat di sagst du zum Abschied zu einer Person. Griaß di ist die Begrüßung. Pfiat enk wäre auch ein Abschied, aber zu mehreren Personen."
       }
     },
     {
@@ -65,7 +65,7 @@
           { "text": "Pfiat enk", "bucket": "mehrere" },
           { "text": "Leit", "bucket": "mehrere" }
         ],
-        "explanation": "Schau auf das Ende vom Gruß: di ist eine Person, enk sind mehrere. Ein Madl und ein Kloaner sind je eine Person. Leit heißt Leute, das sind immer mehrere."
+        "explanation": "Schau auf das Ende vom Gruß: di ist eine Person, enk sind mehrere. Bei den anderen Wörtern frag dich: Ist das ein Mensch oder sind das viele Menschen? Das deutsche Wort hilft dir dabei."
       }
     },
     {
@@ -108,13 +108,13 @@
           { "left": { "text": "Kleiner" }, "right": { "text": "Kloaner" } }
         ],
         "memory": false,
-        "explanation": "Drei Wörter klingen fast wie im Deutschen: Leit wie Leute, Kloaner wie Kleiner, Madl wie Mädel. Nur Bua musst du dir extra merken. Das ist der Junge."
+        "explanation": "Drei von den vier Wörtern klingen fast wie im Deutschen. Sprich das deutsche Wort laut und hör hin, welches Dialektwort ähnlich klingt. Nur ein Wort klingt ganz anders, das musst du dir extra merken."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Ein Junge aus deiner Klasse sagt zu seinem Freund: Oida, Servus! 😄 Was heißt Oida hier?",
+        "prompt": "Ein Junge aus deiner Klasse sagt zu seinem Freund: Servus, Oida! 😄 Was heißt Oida hier?",
         "tts_lang": "de-AT",
         "options": [
           { "text": "Alter, Kumpel", "correct": true },
@@ -155,7 +155,7 @@
           { "left": { "text": "Leit" }, "right": { "text": "Leute" } }
         ],
         "memory": true,
-        "explanation": "Madl klingt wie Mädel und Leit klingt wie Leute. Bua ist der Junge."
+        "explanation": "Sprich die Dialektwörter leise mit. Zwei davon klingen fast wie das deutsche Wort. Merk dir gut, wo jede Karte liegt."
       }
     }
   ]

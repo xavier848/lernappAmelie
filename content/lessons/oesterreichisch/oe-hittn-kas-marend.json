@@ -1,0 +1,161 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-hittn-kas-marend",
+  "title": "Hittn, Kas, Marend: auf der Alm",
+  "sort": 10,
+  "intro": "🏔️ Über Lermoos liegen die Berge. Im Sommer gehen Familien, Schulklassen und Gäste hinauf auf die Alm. Dort hörst du Wörter für das Essen, die Hütte und den Spaß, so wie die Leute hier reden.\n\n> auf da Alm = auf der Alm (da heißt hier der)\n\n> Berg = Berg (gleich wie im Deutschen)\n\n> Hittn / Hüttn = Hütte\n\n> Kas = Käse\n\n> Marend = Brotzeit, Jause (Brot, Speck und Kas)\n\n> Speck = Speck (gleich wie im Deutschen)\n\n> Gaudi = Spaß\n\n> an Rausch = einen Alkoholrausch (an Rausch hom: zu viel Alkohol getrunken haben)\n\nMERKE: Vor einem Wort wie Alm, Berg oder Bua heißt da der, nicht dort! Auf da Alm ist auf der Alm. Und a Marend ist die Jause: Brot, Speck und Kas.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Nach der Wanderung sagt die Wirtin auf der Hittn: Iaz gibt's a Marend. 🥖 Was stellt sie auf den Tisch?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Brot mit Speck und Käse.", "correct": true },
+          { "text": "Eine warme Suppe." },
+          { "text": "Ein Schnitzel mit Pommes." }
+        ],
+        "explanation": "Marend ist das Tiroler Wort für die Jause, also die Brotzeit. Dazu gehören Brot, Speck und Kas. Eine Marend ist meistens kalt und kommt nach dem Wandern auf den Tisch. Suppe oder Schnitzel sind ein warmes Essen, keine Marend."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Österreichisch, rechts Deutsch.",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Mir essn a Marend." }, "right": { "text": "Wir essen eine Jause." } },
+          { "left": { "text": "Die Hittn is gmiatlich." }, "right": { "text": "Die Hütte ist gemütlich." } },
+          { "left": { "text": "Da Berg is schee." }, "right": { "text": "Der Berg ist schön." } },
+          { "left": { "text": "Des wor a Gaudi." }, "right": { "text": "Das war ein Spaß." } },
+          { "left": { "text": "I mog Kas und Speck." }, "right": { "text": "Ich mag Käse und Speck." } }
+        ],
+        "memory": false,
+        "explanation": "Schau auf das erste Wort von jedem Satz, das kennst du schon: i, mir, des und da. Sprich die Sätze laut. Bei Hittn hörst du das deutsche Wort heraus, manche Leute sagen auch Hüttn. Zwei Wörter musst du dir extra merken: das Essen und den Spaß."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ihr seid mit der Klasse oben. Baue den Satz auf Österreichisch: Wir sind auf der Alm. ⛰️",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Mir" },
+          { "text": "san" },
+          { "text": "auf" },
+          { "text": "da" },
+          { "text": "Alm" }
+        ],
+        "explanation": "Mir heißt wir, san heißt sind, da heißt der. Das Verb steht an zweiter Stelle, wie im Deutschen. Der Ort kommt ganz am Ende."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Nachbarin packt Brot und Kas ein und sagt: Mir essn heit auf da Alm. 🌄 In diesem Satz steckt das kleine Wort da. Was heißt es hier?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "der", "correct": true },
+          { "text": "dort" },
+          { "text": "dann" }
+        ],
+        "explanation": "Da heißt hier der: auf der Alm. Achtung, falscher Freund: Im Deutschen heißt da dort. Im Dialekt ist da meist nur das kleine Wort der, so wie in da Bua oder da Berg. Dann passt hier nicht: Wann sie isst, sagt schon das Wort heit. Das kleine Wort da gehört zum Ort: auf da Alm."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Essen, Ort oder Gefühl? Sortiere die Wörter. 🧺",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "essen", "label": "Essen", "icon": "🧀" },
+          { "id": "ort", "label": "Ort", "icon": "🏔️" },
+          { "id": "gefuehl", "label": "Gefühl", "icon": "😄" }
+        ],
+        "items": [
+          { "text": "Kas", "bucket": "essen" },
+          { "text": "Speck", "bucket": "essen" },
+          { "text": "Marend", "bucket": "essen" },
+          { "text": "Hittn", "bucket": "ort" },
+          { "text": "Berg", "bucket": "ort" },
+          { "text": "auf da Alm", "bucket": "ort" },
+          { "text": "Gaudi", "bucket": "gefuehl" }
+        ],
+        "explanation": "Frag dich bei jedem Wort: Kann ich das essen, oder kann ich dort hingehen? Was du essen kannst, ist Essen. Wo du hingehen kannst, ist ein Ort. Ein Wort passt zu keinem von beiden: Es ist das, was du hast, wenn alle lachen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin kommt vom Rodeln und ruft: So a Gaudi! 😄 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "So ein Spaß!", "correct": true },
+          { "text": "So eine Jause!" },
+          { "text": "So ein Ärger!" }
+        ],
+        "explanation": "Gaudi heißt Spaß. Merk dir: Bei einer Gaudi lachen alle. Ärger ist das Gegenteil. Eine Jause wäre a Marend, das ist Essen und kein Spaß."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast fragt, wo die Hütte ist. Baue den Satz auf Österreichisch: Die Hütte ist am Berg. 🏠",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Die" },
+          { "text": "Hittn" },
+          { "text": "is" },
+          { "text": "am" },
+          { "text": "Berg" }
+        ],
+        "explanation": "Hittn heißt Hütte, is heißt ist. Am Berg sagst du genauso wie im Deutschen. Erst kommt das Ding, dann das Verb an zweiter Stelle, dann der Ort."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Mann sagt am Abend zu seinem Freund: I hob an Rausch. Was meint er?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Er hat zu viel Alkohol getrunken.", "correct": true },
+          { "text": "Er hat großen Hunger." },
+          { "text": "Er hat viel Spaß." }
+        ],
+        "explanation": "An Rausch hom heißt: zu viel Alkohol getrunken haben. Das Wort Rausch gibt es auch im Deutschen, und an heißt einen. Spaß wäre a Gaudi, das ist etwas anderes. Mit Hunger hat das Wort nichts zu tun."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Hütte" }, "right": { "text": "Hittn" } },
+          { "left": { "text": "Käse" }, "right": { "text": "Kas" } },
+          { "left": { "text": "Spaß" }, "right": { "text": "Gaudi" } },
+          { "left": { "text": "Brotzeit" }, "right": { "text": "Marend" } },
+          { "left": { "text": "einen Alkoholrausch" }, "right": { "text": "an Rausch" } }
+        ],
+        "memory": false,
+        "explanation": "Bei zwei Wörtern ändert sich nur der Laut in der Mitte: Aus ü wird i, aus ä wird a. Zwei Wörter musst du dir extra merken, das Essen und den Spaß. An heißt einen, das kennst du von an Kaffee."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Kas" }, "right": { "text": "Käse" } },
+          { "left": { "text": "Hittn" }, "right": { "text": "Hütte" } },
+          { "left": { "text": "Gaudi" }, "right": { "text": "Spaß" } }
+        ],
+        "memory": true,
+        "explanation": "Zwei Wörter klingen fast wie im Deutschen, nur der Laut in der Mitte ist anders. Das dritte Wort ist das Wort für Lachen und Freude."
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-gehn-kemmen-schaun",
+  "title": "Gehn, kemmen, schaun: Tun-Wörter",
+  "sort": 8,
+  "intro": "🚶 Tun-Wörter sagen, was jemand macht: gehen, kommen, essen, schlafen. Du hörst sie jeden Tag in der Schulküche, im Bus und von den Gästen in der Ferienwohnung. Im Dialekt, so wie die Leute hier reden, ist die Endung oft kürzer als im Deutschen.\n\n> gehn / gian = gehen (in Tirol hörst du oft gian)\n\n> kemmen = kommen (aus o wird e, die Endung bleibt)\n\n> schaun = schauen\n\n> redn = reden\n\n> essn = essen\n\n> trinkn = trinken\n\n> schlofn = schlafen (aus a wird o)\n\n> tuan = tun (aus u wird ua, wie bei muaß)\n\n> brauchn = brauchen\n\n> wissn = wissen\n\nMERKE: Aus -en wird -n! Das e vor dem n fällt weg: reden wird redn, essen wird essn, trinken wird trinkn.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "An der Bushaltestelle ruft deine Freundin: Mir gehn glei! 🚌 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Wir gehen gleich!", "correct": true },
+          { "text": "Wir kommen gleich!" },
+          { "text": "Ich gehe gleich!" }
+        ],
+        "explanation": "Gehn heißt gehen: Das e vor dem n fällt weg. In Tirol sagen viele Leute auch gian, das heißt genauso gehen. Mir heißt wir, nicht mir! Kemmen wäre kommen, also die andere Richtung: Deine Freundin will mit dir losgehen, nicht herkommen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Österreichisch, rechts Deutsch.",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Mir redn vui." }, "right": { "text": "Wir reden viel." } },
+          { "left": { "text": "Mir essn vui." }, "right": { "text": "Wir essen viel." } },
+          { "left": { "text": "Mir trinkn vui." }, "right": { "text": "Wir trinken viel." } },
+          { "left": { "text": "Mir schlofn vui." }, "right": { "text": "Wir schlafen viel." } },
+          { "left": { "text": "Mir brauchn vui." }, "right": { "text": "Wir brauchen viel." } }
+        ],
+        "memory": false,
+        "explanation": "Bei allen fünf Tun-Wörtern fällt das e vor dem n weg: Aus -en wird -n. Sprich das Dialekt-Wort laut und denk dir das e dazu, dann hörst du das deutsche Wort. Bei einem Wort wird außerdem aus dem a ein o, wie bei hob und konn. Und denk an den falschen Freund: mir heißt wir."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz auf Österreichisch: Wir gehen in die Schule. 🎒",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Mir" },
+          { "text": "gehn" },
+          { "text": "in" },
+          { "text": "die" },
+          { "text": "Schul" }
+        ],
+        "explanation": "Mir heißt wir, gehn heißt gehen. Das Verb steht an zweiter Stelle, wie im Deutschen. Aus Schule wird im Dialekt Schul: Das e am Ende fällt weg, so wie bei gehn das e vor dem n."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Mutter ruft aus der Küche: Kimm essn, die Gäste kemmen glei! 🍳 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Komm essen, die Gäste kommen gleich!", "correct": true },
+          { "text": "Komm essen, die Gäste gehen gleich!" },
+          { "text": "Schau, die Gäste kommen gleich!" }
+        ],
+        "explanation": "Kemmen heißt kommen: Aus dem o wird ein e, das Wort klingt fast wie kämmen. Kimm heißt komm, so ruft man jemanden her. Gehn wäre das Gegenteil, nämlich weggehen. Schaun heißt schauen, das sagt deine Mutter hier nicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Vergleiche das Dialekt-Wort mit dem deutschen Wort. Fehlt nur das e vor dem n, oder ist die Mitte anders? Sortiere. 🔤",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "endung", "label": "Nur die Endung ist anders", "icon": "✂️" },
+          { "id": "mitte", "label": "Die Mitte ist anders", "icon": "🔀" }
+        ],
+        "items": [
+          { "text": "redn", "bucket": "endung" },
+          { "text": "essn", "bucket": "endung" },
+          { "text": "trinkn", "bucket": "endung" },
+          { "text": "wissn", "bucket": "endung" },
+          { "text": "schaun", "bucket": "endung" },
+          { "text": "kemmen", "bucket": "mitte" },
+          { "text": "schlofn", "bucket": "mitte" },
+          { "text": "tuan", "bucket": "mitte" }
+        ],
+        "explanation": "Die Regel: Im Dialekt fällt das e vor dem n oft weg, aus -en wird -n. Bei manchen Wörtern ändert sich ein Laut in der Mitte: aus a wird o, aus u wird ua oder aus o wird e. Sprich das Dialekt-Wort und das deutsche Wort langsam nacheinander. Hörst du in der Mitte einen Unterschied?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du und deine Freundin habt heute frei. 🤔 Wie fragst du auf Österreichisch: Was tun wir heute?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Wos tuan mir heit?", "correct": true },
+          { "text": "Wos tuast du heit?" },
+          { "text": "Wos trinkn mir heit?" }
+        ],
+        "explanation": "Tuan heißt tun: Aus dem u wird ua, wie bei muaß und guat. Mir heißt wir, darum heißt es tuan mir. Wos tuast du heit heißt: Was tust du heute? Da fragst du nur eine Person, nicht wir."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Die Lehrerin sagt etwas Wichtiges. Baue den Satz auf Österreichisch: Das muss ich wissen. 📝",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Des" },
+          { "text": "muaß" },
+          { "text": "i" },
+          { "text": "wissn" }
+        ],
+        "explanation": "Des heißt das, muaß heißt muss, wissn heißt wissen. Wie im Deutschen: Das Helfer-Wort muss steht an zweiter Stelle, das Tun-Wort wissen ganz am Ende. Woaß kennst du schon, das heißt weiß, wie in i woaß. Wissn ist das ganze Wort wissen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "schauen" }, "right": { "text": "schaun" } },
+          { "left": { "text": "tun" }, "right": { "text": "tuan" } },
+          { "left": { "text": "brauchen" }, "right": { "text": "brauchn" } },
+          { "left": { "text": "kommen" }, "right": { "text": "kemmen" } },
+          { "left": { "text": "gehen" }, "right": { "text": "gehn" } }
+        ],
+        "memory": false,
+        "explanation": "Bei den meisten Wörtern fällt nur das e vor dem n weg. Bei zwei Wörtern ist die Mitte anders: Einmal wird aus u ein ua, wie bei muaß und guat. Einmal wird aus o ein e, die Endung -en bleibt dort sogar. Sprich das deutsche Wort laut und mach die Endung kurz, dann findest du das Dialekt-Wort."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Was machen die Leute: essen, trinken oder schlafen? Sortiere die Sätze. 🍽️",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "essen", "label": "Essen", "icon": "🍽️" },
+          { "id": "trinken", "label": "Trinken", "icon": "🥤" },
+          { "id": "schlafen", "label": "Schlafen", "icon": "😴" }
+        ],
+        "items": [
+          { "text": "Mir essn a Semmel.", "bucket": "essen" },
+          { "text": "Wos isst du heit?", "bucket": "essen" },
+          { "text": "Wos trinkst du?", "bucket": "trinken" },
+          { "text": "Die Gäste trinkn Wasser.", "bucket": "trinken" },
+          { "text": "Da Bua schloft scho.", "bucket": "schlafen" },
+          { "text": "I muaß no schlofn.", "bucket": "schlafen" }
+        ],
+        "explanation": "Such in jedem Satz das Tun-Wort, es steht bei der Person oder ganz am Ende. Häng in Gedanken ein e vor das n, dann hörst du das deutsche Wort. Bei einem Wort musst du außerdem aus dem o ein a machen, wie bei hob und habe. Formen wie isst oder schloft gehören zum selben Tun-Wort, nur für du oder er."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "gehn" }, "right": { "text": "gehen" } },
+          { "left": { "text": "kemmen" }, "right": { "text": "kommen" } },
+          { "left": { "text": "schaun" }, "right": { "text": "schauen" } }
+        ],
+        "memory": true,
+        "explanation": "Das sind die drei Wörter aus dem Titel der Lektion. Bei zwei Wörtern fehlt nur das e vor dem n. Beim dritten wird aus dem o ein e. Sprich sie laut, dann hörst du das deutsche Wort."
+      }
+    }
+  ]
+}

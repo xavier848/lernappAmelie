@@ -1,0 +1,161 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-guat-schee-gmiatlich",
+  "title": "Guat, schee, gmiatlich: Eigenschaften",
+  "sort": 6,
+  "intro": "✨ Wie ist das Wetter, wie ist das Zimmer, wie war der Tag? Dafür haben die Leute in Lermoos eigene Wörter, du hörst sie von Gästen, Nachbarn und in der Schule. Im Dialekt, so wie die Leute hier reden, klingen manche fast wie im Deutschen, andere musst du dir extra merken.\n\n> guat = gut (aus u wird ua, wie bei muaß)\n\n> schee = schön (aus ö wird ee)\n\n> fein = schön, angenehm (a feiner Tag)\n\n> gscheit = ordentlich, vernünftig, klug\n\n> narrisch = verrückt (da steckt der Narr drin)\n\n> deppert = blöd, dumm (da steckt der Depp drin)\n\n> grantig = schlecht gelaunt, mürrisch\n\n> zach = mühsam, anstrengend (klingt wie zäh)\n\n> gmiatlich = gemütlich (aus ü wird ia, wie bei Griaß di)\n\n> sakrisch = sehr, wahnsinnig (macht ein anderes Wort stärker)\n\n> arg = heftig, erstaunlich (macht ein anderes Wort stärker)\n\nMERKE: sakrisch und arg machen ein anderes Wort stärker, so wie sehr im Deutschen: sakrisch gmiatlich heißt sehr gemütlich, arg laut heißt sehr laut. Sie stehen direkt vor dem Wort.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Gäste sitzen beim Frühstück in der Ferienwohnung und sagen: Da Kaffee is sakrisch guat! ☕ Was meinen sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Der Kaffee ist sehr gut!", "correct": true },
+          { "text": "Der Kaffee ist nicht gut!" },
+          { "text": "Der Kaffee ist zu stark!" }
+        ],
+        "explanation": "Sakrisch heißt sehr oder wahnsinnig. Es macht das Wort danach stärker: sakrisch guat heißt sehr gut. Sakrisch klingt hart, fast wie ein Schimpfwort, aber die Gäste loben den Kaffee. Und guat heißt gut: Aus dem u wird im Dialekt ua, wie bei muaß."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste, Nachbarn und Freundinnen sagen, wie etwas ist. Was gehört zusammen? Links Österreichisch, rechts Deutsch.",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Des Zimmer is gmiatlich." }, "right": { "text": "Das Zimmer ist gemütlich." } },
+          { "left": { "text": "Bist du narrisch?" }, "right": { "text": "Bist du verrückt?" } },
+          { "left": { "text": "I bin heit grantig." }, "right": { "text": "Ich bin heute schlecht gelaunt." } },
+          { "left": { "text": "Des wor zach." }, "right": { "text": "Das war mühsam." } },
+          { "left": { "text": "Die Semmel is guat." }, "right": { "text": "Die Semmel ist gut." } }
+        ],
+        "memory": false,
+        "explanation": "Schau auf das letzte Wort im Satz, das ist die Eigenschaft. Zwei Wörter klingen fast wie im Deutschen, sprich sie laut. Bei den anderen hilft ein Merk-Haken: In einem steckt ein Narr, eines kommt von Grant, also schlechte Laune, und eines klingt wie zäh."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Deine Nachbarin schaut zum Himmel. Baue den Satz auf Österreichisch: Das Wetter ist sehr schön. ☀️",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Des" },
+          { "text": "Wetter" },
+          { "text": "is" },
+          { "text": "sakrisch" },
+          { "text": "schee" }
+        ],
+        "explanation": "Des heißt das, is heißt ist, schee heißt schön. Sakrisch heißt sehr und steht direkt vor dem Wort, das es stärker macht. Das Verb steht an zweiter Stelle, wie im Deutschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Dein Cousin will ohne Jacke in den Schnee. Deine Tante sagt: Des is nit gscheit! 🥶 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Das ist nicht vernünftig!", "correct": true },
+          { "text": "Das ist nicht schön!" },
+          { "text": "Das ist nicht gemütlich!" }
+        ],
+        "explanation": "Gscheit heißt vernünftig, ordentlich oder klug. Im Deutschen kennst du gescheit nur als klug. Hier sagt man es auch, wenn etwas vernünftig oder ordentlich ist: a gscheite Jacke ist eine ordentliche, warme Jacke. Schön wäre schee, gemütlich wäre gmiatlich."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Positiv heißt: etwas Gutes. Negativ heißt: etwas Schlechtes. Sortiere die Wörter. 👍",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "positiv", "label": "Positiv (etwas Gutes)", "icon": "👍" },
+          { "id": "negativ", "label": "Negativ (etwas Schlechtes)", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "guat", "bucket": "positiv" },
+          { "text": "schee", "bucket": "positiv" },
+          { "text": "fein", "bucket": "positiv" },
+          { "text": "gscheit", "bucket": "positiv" },
+          { "text": "gmiatlich", "bucket": "positiv" },
+          { "text": "deppert", "bucket": "negativ" },
+          { "text": "grantig", "bucket": "negativ" },
+          { "text": "zach", "bucket": "negativ" }
+        ],
+        "explanation": "Frag dich: Ist das ein Lob, also etwas Gutes? Dann ist das Wort positiv. Ist es etwas, worüber man sich ärgert? Dann ist es negativ. Tipp: In manchen Wörtern steckt ein deutsches Wort, zum Beispiel Depp oder zäh."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Nach der Schule sitzt du mit deiner Freundin in der Sonne. Sie sagt: Des is fein! 😊 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Das ist schön und angenehm!", "correct": true },
+          { "text": "Das ist anstrengend!" },
+          { "text": "Das ist verrückt!" }
+        ],
+        "explanation": "Fein heißt hier schön oder angenehm. Die Leute sagen es, wenn etwas gut tut: a feiner Tag, a feine Zeit. Im Deutschen meint fein eher dünn oder zart, hier ist es ein Lob. Anstrengend wäre zach, verrückt wäre narrisch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "gut" }, "right": { "text": "guat" } },
+          { "left": { "text": "schön" }, "right": { "text": "schee" } },
+          { "left": { "text": "verrückt" }, "right": { "text": "narrisch" } },
+          { "left": { "text": "blöd" }, "right": { "text": "deppert" } },
+          { "left": { "text": "gemütlich" }, "right": { "text": "gmiatlich" } }
+        ],
+        "memory": false,
+        "explanation": "Drei Wörter klingen fast wie im Deutschen: Aus u wird ua, aus ö wird ee und aus ü wird ia, wie bei Griaß di. In den zwei anderen Wörtern steckt ein deutsches Wort: der Narr und der Depp."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Über Nacht hat es einen Meter geschneit. Die Gäste schauen aus dem Fenster und sagen: Des is arg! ❄️ Was meinen sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Das ist heftig!", "correct": true },
+          { "text": "Das ist gemütlich!" },
+          { "text": "Das ist mühsam!" }
+        ],
+        "explanation": "Arg heißt heftig oder erstaunlich. Die Gäste staunen über den vielen Schnee. Im Deutschen klingt arg nach etwas Schlimmem, hier heißt es einfach: Wow, das ist viel! Vor einem anderen Wort macht arg dieses Wort stärker: arg kalt heißt sehr kalt. Mühsam wäre zach."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast war im See baden. Baue den Satz auf Österreichisch: Das Wasser ist sehr kalt. 🏊",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Des" },
+          { "text": "Wasser" },
+          { "text": "is" },
+          { "text": "arg" },
+          { "text": "kalt" }
+        ],
+        "explanation": "Des heißt das, is heißt ist. Arg macht das Wort kalt stärker, so wie sehr im Deutschen, und steht direkt davor. Du könntest auch sakrisch kalt sagen. Das Verb steht an zweiter Stelle."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "guat" }, "right": { "text": "gut" } },
+          { "left": { "text": "schee" }, "right": { "text": "schön" } },
+          { "left": { "text": "gmiatlich" }, "right": { "text": "gemütlich" } }
+        ],
+        "memory": true,
+        "explanation": "Alle drei Wörter klingen fast wie im Deutschen. Nur ein Laut in der Mitte ist anders: ua, ee oder ia."
+      }
+    }
+  ]
+}
