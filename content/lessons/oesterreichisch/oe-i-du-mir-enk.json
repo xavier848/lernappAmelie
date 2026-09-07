@@ -1,0 +1,167 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-i-du-mir-enk",
+  "title": "I, du, mir, enk: die Personen",
+  "sort": 2,
+  "intro": "🙋 In jedem Satz steckt eine Person: ich, du, wir oder euch. Im Dialekt, so wie die Leute hier reden, klingen diese kleinen Wörter anders. Du hörst sie überall in Lermoos: in der Schule, im Bus und bei den Gästen in der Ferienwohnung.\n\n> i = ich\n\n> du = du (gleich wie im Deutschen)\n\n> mir = wir (Achtung, falscher Freund!)\n\n> enk = euch (mehrere Personen)\n\n> dia = dir\n\n> mei = mein\n\n> dei = dein\n\n> a = auch, ein (zwei Bedeutungen)\n\n> an = einen (vor männlichen Wörtern: an Bua, an Kaffee)\n\nMERKE: mir heißt wir, nicht mir! Sagt jemand mir, sind immer mehrere Leute gemeint. Und dir heißt im Dialekt dia.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Lehrerin fragt, wer beim Kochen hilft. Ein Bua ruft: I a! 🙋 Was meint er?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Ich auch!", "correct": true },
+          { "text": "Wir auch!" },
+          { "text": "Ich nicht!" }
+        ],
+        "explanation": "I heißt ich, und a heißt hier auch. Der Bua sagt: Ich auch! Merk dir: i ist einfach der Anfang von ich. Wir auch wäre: Mir a!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Gäste sagen beim Frühstück: Mir a an Kaffee! ☕ Was meinen sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Wir auch einen Kaffee!", "correct": true },
+          { "text": "Mir auch einen Kaffee!" },
+          { "text": "Ich auch einen Kaffee!" }
+        ],
+        "explanation": "Achtung, falscher Freund: mir heißt im Dialekt wir, nicht mir. Die Gäste reden von sich als Gruppe: Wir auch einen Kaffee! Also brauchen alle am Tisch einen Kaffee, nicht nur einer. Und an heißt einen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Zu wem gehört das Wort? Sortiere: ich selbst, du oder mehrere Leute. 👥",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "ich", "label": "Ich selbst", "icon": "🙋" },
+          { "id": "du", "label": "Du", "icon": "👉" },
+          { "id": "mehrere", "label": "Mehrere Leute", "icon": "👥" }
+        ],
+        "items": [
+          { "text": "i", "bucket": "ich" },
+          { "text": "mei", "bucket": "ich" },
+          { "text": "du", "bucket": "du" },
+          { "text": "dia", "bucket": "du" },
+          { "text": "dei", "bucket": "du" },
+          { "text": "mir", "bucket": "mehrere" },
+          { "text": "enk", "bucket": "mehrere" }
+        ],
+        "explanation": "Frag dich: Wer ist gemeint? Ich selbst, die Person vor mir oder mehrere Leute? Wörter mit d am Anfang gehören zur anderen Person: du, dir, dein. Und denk an den falschen Freund: Er meint mehrere."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Gäste kommen an. Baue den Satz auf Österreichisch: Das ist ein Zimmer für euch. 🛏️",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Des" },
+          { "text": "is" },
+          { "text": "a" },
+          { "text": "Zimmer" },
+          { "text": "für" },
+          { "text": "enk" }
+        ],
+        "explanation": "Des heißt das, is heißt ist, a heißt hier ein und enk heißt euch. Die Reihenfolge ist wie im Deutschen: erst das Ding, dann für wen es ist. Das Verb steht an zweiter Stelle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "In der Schulküche sagt eine Freundin: Des is mei Handy! 📱 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Das ist mein Handy!", "correct": true },
+          { "text": "Das ist dein Handy!" },
+          { "text": "Das ist ein Handy!" }
+        ],
+        "explanation": "Mei heißt mein: Es ist das Wort mein ohne das n am Ende. Genauso ist dei das Wort dein ohne n. Ein wäre a: Des is a Handy. Deine Freundin sagt also: Das Handy gehört ihr."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "mein" }, "right": { "text": "mei" } },
+          { "left": { "text": "dein" }, "right": { "text": "dei" } },
+          { "left": { "text": "dir" }, "right": { "text": "dia" } },
+          { "left": { "text": "euch" }, "right": { "text": "enk" } },
+          { "left": { "text": "einen" }, "right": { "text": "an" } }
+        ],
+        "memory": false,
+        "explanation": "Bei mein und dein fällt im Dialekt das n am Ende weg. Bei dir hörst du am Ende ein a statt dem r. Das Wort für einen ist ganz kurz und steht vor männlichen Wörtern wie Bua oder Kaffee. Euch kennst du schon von Griaß enk."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die Bäckerin sagt: Schönes Wochenende! Du antwortest auf Österreichisch. 🥐 Was sagst du?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Dia a!", "correct": true },
+          { "text": "I a!" },
+          { "text": "Enk a!" }
+        ],
+        "explanation": "Dia heißt dir, a heißt hier auch. Du wünschst es ihr zurück: Dir auch! Die Bäckerin ist eine Person, darum dia. Enk a sagst du nur zu mehreren Leuten, und I a hieße ich auch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Das kleine Wort a hat zwei Bedeutungen. Heißt a hier auch oder ein? Sortiere. 🔤",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "auch", "label": "a heißt auch", "icon": "➕" },
+          { "id": "ein", "label": "a heißt ein", "icon": "1️⃣" }
+        ],
+        "items": [
+          { "text": "I a", "bucket": "auch" },
+          { "text": "Du a", "bucket": "auch" },
+          { "text": "Mir a", "bucket": "auch" },
+          { "text": "Enk a", "bucket": "auch" },
+          { "text": "a Bua", "bucket": "ein" },
+          { "text": "a Madl", "bucket": "ein" },
+          { "text": "a Zimmer", "bucket": "ein" }
+        ],
+        "explanation": "Schau, wo das a steht. Kommt zuerst die Person und dann a, heißt es auch: so wie ich auch. Kommt zuerst a und dann ein Ding oder ein Mensch, heißt es ein: so wie ein Junge. Wie im Deutschen steht ein immer vor etwas."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Du bestellst beim Bäcker. Baue den Satz auf Österreichisch: Ein Wasser und einen Kaffee. 🥤",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "A" },
+          { "text": "Wasser" },
+          { "text": "und" },
+          { "text": "an" },
+          { "text": "Kaffee" }
+        ],
+        "explanation": "A heißt ein, an heißt einen. Kaffee ist männlich, der Kaffee: Darum steht an davor. Wasser ist nicht männlich, das Wasser: Darum steht a davor. Die Reihenfolge ist wie im Deutschen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "i" }, "right": { "text": "ich" } },
+          { "left": { "text": "mir" }, "right": { "text": "wir" } },
+          { "left": { "text": "dei" }, "right": { "text": "dein" } }
+        ],
+        "memory": true,
+        "explanation": "I ist der Anfang von ich. Mir ist der falsche Freund: mehrere Leute sind gemeint. Dei ist das Wort dein ohne n."
+      }
+    }
+  ]
+}

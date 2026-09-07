@@ -1,0 +1,159 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-hob-host-hom",
+  "title": "Hob, host, hom: Helfer-Wörter",
+  "sort": 3,
+  "intro": "🧩 Helfer-Wörter sind kleine Wörter wie habe, bin, kann oder muss. Du hörst sie in fast jedem Satz: in der Schule, im Bus und von den Gästen in der Ferienwohnung. Im Dialekt, so wie die Leute hier reden, klingen sie ein bisschen anders als im Deutschen.\n\n> mog = mag\n\n> muaß = muss\n\n> konn = kann\n\n> woaß = weiß\n\n> hob = habe (ich)\n\n> host = hast (du)\n\n> hom = haben (wir)\n\n> bin = bin (ich)\n\n> san = sind (wir)\n\n> war / wor = war\n\nMERKE: Aus a wird o! Aus habe wird hob, aus kann wird konn, aus mag wird mog, aus war wird wor.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Tisch in der Schulküche ist schön gedeckt. Deine Freundin sagt: Des wor i. 🍽️ Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Das war ich.", "correct": true },
+          { "text": "Das weiß ich." },
+          { "text": "Das mag ich." }
+        ],
+        "explanation": "Wor heißt war. Merk dir: Aus dem a in war wird im Dialekt ein o. Manche Leute sagen auch war, genau wie im Deutschen. Woaß klingt ähnlich, heißt aber weiß."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Österreichisch, rechts Deutsch.",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "I hob nix." }, "right": { "text": "Ich habe nichts." } },
+          { "left": { "text": "Host du Zeit?" }, "right": { "text": "Hast du Zeit?" } },
+          { "left": { "text": "Mir hom Schul." }, "right": { "text": "Wir haben Schule." } },
+          { "left": { "text": "I bin im Bus." }, "right": { "text": "Ich bin im Bus." } },
+          { "left": { "text": "Mir san in Lermoos." }, "right": { "text": "Wir sind in Lermoos." } }
+        ],
+        "memory": false,
+        "explanation": "Hob, host und hom kommen alle von haben. Bin und san kommen von sein. Schau auf das kleine Wort davor: i heißt ich, du heißt du, mir heißt wir. So findest du den deutschen Satz."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz auf Österreichisch: Ich muss in die Schule. 🚌",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "muaß" },
+          { "text": "in" },
+          { "text": "die" },
+          { "text": "Schul" }
+        ],
+        "explanation": "Muaß heißt muss. Das Verb steht an zweiter Stelle, wie im Deutschen. Aus Schule wird im Dialekt Schul: Das e am Ende fällt weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast schaut aus dem Fenster der Ferienwohnung und sagt: I mog Schnee! ❄️ Was meint er?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Ich mag Schnee.", "correct": true },
+          { "text": "Ich muss in den Schnee." },
+          { "text": "Ich habe Schnee gesehen." }
+        ],
+        "explanation": "Mog heißt mag. Merk dir: mog klingt wie mögen, und aus dem a in mag wird ein o. Muaß heißt muss, das wäre eine Pflicht. Hob heißt habe."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wer spricht: ich, du oder wir? Sortiere die Helfer-Wörter. 🗣️",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "ich", "label": "ich (i)", "icon": "🙋" },
+          { "id": "du", "label": "du", "icon": "👉" },
+          { "id": "wir", "label": "wir (mir)", "icon": "👥" }
+        ],
+        "items": [
+          { "text": "hob", "bucket": "ich" },
+          { "text": "bin", "bucket": "ich" },
+          { "text": "woaß", "bucket": "ich" },
+          { "text": "host", "bucket": "du" },
+          { "text": "mogst", "bucket": "du" },
+          { "text": "konnst", "bucket": "du" },
+          { "text": "hom", "bucket": "wir" },
+          { "text": "san", "bucket": "wir" }
+        ],
+        "explanation": "Frag dich: Welches kleine Wort passt davor, i, du oder mir? Endet das Wort auf st, spricht du, wie im Deutschen bei du hast. Zwei Wörter stehen in der Einführung mit wir: Die gehören zu mir, denn mir heißt wir. Der Rest gehört zu i, also ich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Nachbarin sagt: Mir hom Gäste. Host du Zeit? 🏠 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Wir haben Gäste. Hast du Zeit?", "correct": true },
+          { "text": "Ich habe Gäste. Hast du Zeit?" },
+          { "text": "Wir haben Gäste. Habt ihr Zeit?" }
+        ],
+        "explanation": "Mir heißt wir, nicht mir! Mir hom heißt also wir haben. Host heißt hast und gehört zu du, wie im Deutschen bei du hast. Ich habe wäre i hob, und für euch würde die Nachbarin enk sagen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz auf Österreichisch: Ich kann das. 💪",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "konn" },
+          { "text": "des" }
+        ],
+        "explanation": "Konn heißt kann. Aus dem a in kann wird ein o. Des heißt das. Das Verb steht an zweiter Stelle, wie im Deutschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Der Bäcker fragt dich etwas, aber du weißt es nicht. 🥨 Wie sagst du auf Österreichisch: Ich weiß das nicht?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "I woaß des nit.", "correct": true },
+          { "text": "I konn des nit." },
+          { "text": "I hob des nit." }
+        ],
+        "explanation": "Woaß heißt weiß. Merk dir: Aus ei im Deutschen wird im Dialekt oft oa, so wie bei Kloaner für Kleiner. Konn heißt kann und hob heißt habe, die passen hier nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch.",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "mag" }, "right": { "text": "mog" } },
+          { "left": { "text": "muss" }, "right": { "text": "muaß" } },
+          { "left": { "text": "kann" }, "right": { "text": "konn" } },
+          { "left": { "text": "weiß" }, "right": { "text": "woaß" } }
+        ],
+        "memory": false,
+        "explanation": "Zwei Wörter tauschen nur das a gegen ein o. Zwei Wörter haben einen Doppel-Laut: ua und oa. Sprich die Wörter laut, dann hörst du das deutsche Wort darin."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "hob" }, "right": { "text": "habe" } },
+          { "left": { "text": "konn" }, "right": { "text": "kann" } },
+          { "left": { "text": "wor" }, "right": { "text": "war" } }
+        ],
+        "memory": true,
+        "explanation": "Alle drei Wörter haben im Dialekt ein o, wo im Deutschen ein a steht. Sprich sie laut, dann hörst du das deutsche Wort."
+      }
+    }
+  ]
+}
