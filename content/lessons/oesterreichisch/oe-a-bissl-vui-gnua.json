@@ -1,0 +1,168 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-a-bissl-vui-gnua",
+  "title": "A bissl, vui, gnua: Mengen und Zahlen",
+  "sort": 7,
+  "intro": "🧺 Ein bisschen Salz, viele Semmeln, kein Geld: Beim Kochen, beim Bäcker und in der Ferienwohnung geht es immer wieder um Mengen und kleine Zahlen. Dafür haben die Leute hier eigene Wörter. Ein paar davon klingen fast wie im Deutschen, andere musst du dir merken.\n\n> a bissl = ein bisschen\n\n> a weng = ein wenig (fast dasselbe wie a bissl)\n\n> vui = viel\n\n> gnua = genug\n\n> koa = kein (Einzahl: koa Kaffee, koa Zimmer)\n\n> koane = keine (Mehrzahl: koane Kinder)\n\n> oana = einer (eine Person oder ein Stück)\n\n> zwoa = zwei\n\n> drei = drei (gleich wie im Deutschen)\n\nMERKE: Bei vielen Wörtern wird aus ei ein oa: Aus zwei wird zwoa, aus kein wird koa, aus einer wird oana. Drei bleibt drei.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "In der Schulküche gießt du Wasser in den Topf. Deine Lehrerin sagt: Des is gnua. 🍲 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Das ist genug.", "correct": true },
+          { "text": "Das ist zu wenig." },
+          { "text": "Das ist zu viel." }
+        ],
+        "explanation": "Gnua heißt genug. Es ist das Wort genug ohne das e am Anfang. Wenn die Lehrerin gnua sagt, hörst du mit dem Gießen auf. Genug heißt: Es reicht so, nicht zu wenig und nicht zu viel."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Österreichisch, rechts Deutsch. 🧂",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "a weng" }, "right": { "text": "ein wenig" } },
+          { "left": { "text": "gnua" }, "right": { "text": "genug" } },
+          { "left": { "text": "koa" }, "right": { "text": "kein" } },
+          { "left": { "text": "zwoa" }, "right": { "text": "zwei" } },
+          { "left": { "text": "lei oana" }, "right": { "text": "nur einer" } }
+        ],
+        "memory": false,
+        "explanation": "Weng steckt in wenig, gnua ist genug ohne das e am Anfang. Bei den anderen gilt der Merksatz: Aus ei wird oa. Lei heißt nur, das kennst du schon."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Beim Kochen: Ist das wenig oder viel? Sortiere die Wörter. 🥄",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "wenig", "label": "Wenig", "icon": "🤏" },
+          { "id": "viel", "label": "Viel", "icon": "🧺" }
+        ],
+        "items": [
+          { "text": "a bissl Salz", "bucket": "wenig" },
+          { "text": "a weng Milch", "bucket": "wenig" },
+          { "text": "lei a bissl", "bucket": "wenig" },
+          { "text": "nit vui", "bucket": "wenig" },
+          { "text": "vui Wasser", "bucket": "viel" },
+          { "text": "sakrisch vui", "bucket": "viel" },
+          { "text": "vui Schnee", "bucket": "viel" }
+        ],
+        "explanation": "Frag dich: Ist es wenig oder viel? Bissl steckt in bisschen, weng steckt in wenig: Das ist beides nur wenig. Vui klingt wie viel, und sakrisch heißt sehr. Achtung bei nit: nit heißt nicht. Nicht viel ist nur wenig."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast hat drei Koffer. Baue den Satz auf Österreichisch: Das ist ein bisschen viel. 🧳",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Des" },
+          { "text": "is" },
+          { "text": "a" },
+          { "text": "bissl" },
+          { "text": "vui" }
+        ],
+        "explanation": "Des heißt das, a bissl heißt ein bisschen und vui heißt viel. Die Reihenfolge ist wie im Deutschen: Das Verb steht an zweiter Stelle. Das kleine a gehört zu bissl, die beiden bleiben zusammen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Du sagst beim Bäcker: Drei Semmeln, bitte. Die Verkäuferin sagt: Heit hom mir koane. 🥖 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Heute haben wir keine.", "correct": true },
+          { "text": "Heute haben wir nur eine." },
+          { "text": "Heute haben wir viele." }
+        ],
+        "explanation": "Koane heißt keine. Die Verkäuferin hat also gar keine Semmeln mehr, nicht einmal eine. Viele wäre vui. Koane steht vor der Mehrzahl wie Semmeln oder Leit, vor der Einzahl sagt man koa: koa Brot."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "einer" }, "right": { "text": "oana" } },
+          { "left": { "text": "zwei" }, "right": { "text": "zwoa" } },
+          { "left": { "text": "drei" }, "right": { "text": "drei" } },
+          { "left": { "text": "genug" }, "right": { "text": "gnua" } },
+          { "left": { "text": "kein" }, "right": { "text": "koa" } }
+        ],
+        "memory": false,
+        "explanation": "Dreimal wird aus ei ein oa, so wie bei Kloaner und woaß. Eine Zahl bleibt gleich wie im Deutschen. Bei genug fällt das e am Anfang weg. Sprich die Wörter laut, dann hörst du das deutsche Wort darin."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin sagt: I hob a bissl Zucker. Deine Nachbarin sagt: I hob a weng Zucker. 🍬 Wer hat mehr Zucker?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Beide haben gleich wenig.", "correct": true },
+          { "text": "Die Freundin hat mehr." },
+          { "text": "Die Nachbarin hat mehr." }
+        ],
+        "explanation": "A bissl und a weng heißen fast dasselbe: ein bisschen und ein wenig. Bissl steckt in bisschen, weng steckt in wenig. Beide haben also nur wenig Zucker. Mehr wäre vui, das heißt viel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wie viele sind es: eins, mehrere oder keins? Sortiere die Wörter. 🔢",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "eins", "label": "Eins", "icon": "1️⃣" },
+          { "id": "mehrere", "label": "Mehrere", "icon": "👥" },
+          { "id": "keins", "label": "Keins", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "oana", "bucket": "eins" },
+          { "text": "a Bua", "bucket": "eins" },
+          { "text": "zwoa Madln", "bucket": "mehrere" },
+          { "text": "drei Semmeln", "bucket": "mehrere" },
+          { "text": "vui Leit", "bucket": "mehrere" },
+          { "text": "koa Bus", "bucket": "keins" },
+          { "text": "koane Gäste", "bucket": "keins" }
+        ],
+        "explanation": "Frag dich: Wie viele sind das? Koa und koane heißen kein und keine: Dann gibt es nichts. Ab zwoa sind es immer mehrere, auch bei vui. Und a vor einem Ding oder einem Menschen heißt ein, das ist genau eins."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Gäste kommen mit zwei Kindern an. Baue den Satz auf Österreichisch: Einer ist ein Junge. 👦",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Oana" },
+          { "text": "is" },
+          { "text": "a" },
+          { "text": "Bua" }
+        ],
+        "explanation": "Oana heißt einer, a heißt hier ein und Bua heißt Junge. Bei oana wird aus ei ein oa, genau wie bei zwoa. Das Verb steht an zweiter Stelle, wie im Deutschen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "zwoa" }, "right": { "text": "zwei" } },
+          { "left": { "text": "koane" }, "right": { "text": "keine" } },
+          { "left": { "text": "vui" }, "right": { "text": "viel" } }
+        ],
+        "memory": true,
+        "explanation": "Bei zwoa und koane wird aus ei ein oa. Vui klingt fast wie viel. Sprich die Wörter laut, dann hörst du das deutsche Wort."
+      }
+    }
+  ]
+}

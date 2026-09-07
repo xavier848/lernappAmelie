@@ -1,0 +1,168 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-heit-morgn-iaz",
+  "title": "Heit, morgn, iaz: die Zeit",
+  "sort": 5,
+  "intro": "⏰ Heute, morgen, jetzt oder gleich: Zeit-Wörter sagen, wann etwas passiert. Du hörst sie in Lermoos den ganzen Tag, in der Schule, im Bus und von den Gästen in der Ferienwohnung. Im Dialekt, so wie die Leute hier reden, klingen sie ein bisschen anders als im Deutschen.\n\n> heit = heute\n\n> morgn = morgen\n\n> geschtern = gestern\n\n> jetz / iaz = jetzt\n\n> glei = gleich (in einem kleinen Moment)\n\n> oft = dann (Achtung, falscher Freund: nicht häufig!)\n\n> imma = immer\n\n> nimmer = nicht mehr\n\n> no = noch\n\n> scho = schon\n\nMERKE: oft heißt dann, nicht häufig! Erst Schul, oft Pause heißt: Erst Schule, dann Pause. Und pass auf beim n am Anfang: imma heißt immer, nimmer heißt nicht mehr.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Nachbarin sagt: Heit hob i Gäste. 🏠 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Heute habe ich Gäste.", "correct": true },
+          { "text": "Morgen habe ich Gäste." },
+          { "text": "Gestern hatte ich Gäste." }
+        ],
+        "explanation": "Heit heißt heute. Merk dir: Aus eu wird im Dialekt ei, so wie aus Leute Leit wird. Morgen wäre morgn und gestern wäre geschtern. Die Nachbarin hat also an diesem Tag Besuch, nicht gestern und nicht morgen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Was gehört zusammen? Links Österreichisch, rechts Deutsch. 📅",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "heit" }, "right": { "text": "heute" } },
+          { "left": { "text": "morgn" }, "right": { "text": "morgen" } },
+          { "left": { "text": "geschtern" }, "right": { "text": "gestern" } },
+          { "left": { "text": "iaz" }, "right": { "text": "jetzt" } },
+          { "left": { "text": "glei" }, "right": { "text": "gleich" } }
+        ],
+        "memory": false,
+        "explanation": "Sprich die Dialekt-Wörter laut, dann hörst du das deutsche Wort darin. Ein Wort hat ein sch in der Mitte, einem fehlt das e, einem fehlt das ch am Ende. Bei heit wird aus eu ein ei, so wie bei Leit. Nur iaz musst du dir extra merken: Es meint diesen Moment."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Gestern, heute oder morgen? Suche das Zeit-Wort im Satz und sortiere. 🗓️",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "gestern", "label": "Gestern", "icon": "⏪" },
+          { "id": "heute", "label": "Heute", "icon": "📍" },
+          { "id": "morgen", "label": "Morgen", "icon": "⏩" }
+        ],
+        "items": [
+          { "text": "Geschtern wor i beim Bäcker", "bucket": "gestern" },
+          { "text": "I wor geschtern im Bus", "bucket": "gestern" },
+          { "text": "Heit hob i Schul", "bucket": "heute" },
+          { "text": "Mir hom heit Gäste", "bucket": "heute" },
+          { "text": "Morgn hob i Zeit", "bucket": "morgen" },
+          { "text": "Die Gäste san morgn in Lermoos", "bucket": "morgen" }
+        ],
+        "explanation": "Das Zeit-Wort steht vorne oder mitten im Satz. Sprich es laut, dann hörst du das deutsche Wort darin. Ein Tipp: Steht wor im Satz, ist die Sache schon vorbei, denn wor heißt war."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Lehrerin sagt: Erst kochen, oft is Pause. ⏰ Was heißt oft hier?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "dann", "correct": true },
+          { "text": "häufig" },
+          { "text": "immer" }
+        ],
+        "explanation": "Oft heißt im Dialekt dann, nicht häufig: Das ist ein falscher Freund. Die Lehrerin sagt: Erst kochen, dann ist Pause. Merk dir: oft sagt, was als Nächstes kommt. Immer wäre imma."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Baue den Satz auf Österreichisch: Jetzt muss ich in die Schule. 🚌",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Iaz" },
+          { "text": "muaß" },
+          { "text": "i" },
+          { "text": "in" },
+          { "text": "die" },
+          { "text": "Schul" }
+        ],
+        "explanation": "Iaz heißt jetzt, manche Leute sagen auch jetz. Muaß heißt muss. Das Zeit-Wort steht vorne. Danach kommt gleich das Verb und erst dann die Person, so wie im Deutschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast fragt: Is des Zimmer scho fertig? 🧹 Was fragt er?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Ist das Zimmer schon fertig?", "correct": true },
+          { "text": "Ist das Zimmer noch nicht fertig?" },
+          { "text": "Ist das Zimmer gleich fertig?" }
+        ],
+        "explanation": "Scho heißt schon: Sprich schon ohne das n am Ende. Noch nicht wäre no nit, gleich wäre glei. Antworten kannst du: No nit, glei! Das heißt: Noch nicht, gleich!"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Immer, noch oder nicht mehr? Sortiere die Sätze. 🔎",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "immer", "label": "immer", "icon": "♾️" },
+          { "id": "noch", "label": "noch", "icon": "⏳" },
+          { "id": "nichtmehr", "label": "nicht mehr", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "I hob imma Zeit für di", "bucket": "immer" },
+          { "text": "Am Montag hom mir imma Schul", "bucket": "immer" },
+          { "text": "I hob no Zeit", "bucket": "noch" },
+          { "text": "Mir san no im Bus", "bucket": "noch" },
+          { "text": "I hob nimmer Zeit", "bucket": "nichtmehr" },
+          { "text": "Die Gäste san nimmer im Zimmer", "bucket": "nichtmehr" }
+        ],
+        "explanation": "Schau auf das kleine Zeit-Wort im Satz. Zwei Wörter klingen fast gleich, nur eines hat ein n am Anfang: Das n dreht die Bedeutung um. Das dritte Wort ist ganz kurz: Es ist das Wort noch ohne das ch am Ende, und es sagt, dass etwas weitergeht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "immer" }, "right": { "text": "imma" } },
+          { "left": { "text": "nicht mehr" }, "right": { "text": "nimmer" } },
+          { "left": { "text": "noch" }, "right": { "text": "no" } },
+          { "left": { "text": "schon" }, "right": { "text": "scho" } },
+          { "left": { "text": "dann" }, "right": { "text": "oft" } }
+        ],
+        "memory": false,
+        "explanation": "Bei immer hörst du im Dialekt am Ende ein a statt dem r, so wie bei dia für dir. Ein n davor dreht die Bedeutung um: nicht mehr. Bei noch und schon fällt das Ende weg, sprich sie laut. Und das Wort für dann ist der falsche Freund aus dieser Lektion."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Gäste warten auf das Zimmer. Baue den Satz auf Österreichisch: Ich bin gleich fertig. 🛏️",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "bin" },
+          { "text": "glei" },
+          { "text": "fertig" }
+        ],
+        "explanation": "Glei heißt gleich, das ist gleich ohne das ch am Ende. Das Verb steht an zweiter Stelle, wie im Deutschen. Das Zeit-Wort kommt gleich nach dem Verb. Diesen Satz kannst du in der Ferienwohnung gut brauchen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "heit" }, "right": { "text": "heute" } },
+          { "left": { "text": "iaz" }, "right": { "text": "jetzt" } },
+          { "left": { "text": "oft" }, "right": { "text": "dann" } }
+        ],
+        "memory": true,
+        "explanation": "Sprich die Dialekt-Wörter leise mit. Bei einem wird aus eu ein ei, eines ist ganz kurz, und eines ist der falsche Freund aus dieser Lektion. Merk dir gut, wo jede Karte liegt."
+      }
+    }
+  ]
+}

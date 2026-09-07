@@ -3,7 +3,7 @@
   "slug": "oe-i-du-mir-enk",
   "title": "I, du, mir, enk: die Personen",
   "sort": 2,
-  "intro": "🙋 In jedem Satz steckt eine Person: ich, du, wir oder euch. Im Dialekt, so wie die Leute hier reden, klingen diese kleinen Wörter anders. Du hörst sie überall in Lermoos: in der Schule, im Bus und bei den Gästen in der Ferienwohnung.\n\n> i = ich\n\n> du = du (gleich wie im Deutschen)\n\n> mir = wir (Achtung, falscher Freund!)\n\n> enk = euch (mehrere Personen)\n\n> dia = dir\n\n> mei = mein\n\n> dei = dein\n\n> a = auch, ein (zwei Bedeutungen)\n\n> an = einen (vor männlichen Wörtern: an Bua, an Kaffee)\n\nMERKE: mir heißt wir, nicht mir! Sagt jemand mir, sind immer mehrere Leute gemeint. Und dir heißt im Dialekt dia.",
+  "intro": "🙋 In jedem Satz steckt eine Person: ich, du, wir oder euch. Im Dialekt, so wie die Leute hier reden, klingen diese kleinen Wörter anders. Du hörst sie überall in Lermoos: in der Schule, im Bus und bei den Gästen in der Ferienwohnung.\n\n> i = ich\n\n> du = du (gleich wie im Deutschen)\n\n> mir = wir (Achtung, falscher Freund!)\n\n> enk = euch (mehrere Personen)\n\n> dia = dir\n\n> mei = mein\n\n> dei = dein\n\n> a = auch, ein (zwei Bedeutungen)\n\n> an = einen (vor männlichen Wörtern: an Bua, an Kaffee)\n\nMERKE: mir heißt wir, nicht mir! Sagt jemand das Wort mir, sind immer mehrere Leute gemeint. Und dir heißt im Dialekt dia.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -21,7 +21,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "Gäste sagen beim Frühstück: Mir a an Kaffee! ☕ Was meinen sie?",
+        "prompt": "Alle Gäste am Tisch sagen beim Frühstück: Mir a an Kaffee! ☕ Was meinen sie?",
         "tts_lang": "de-AT",
         "options": [
           { "text": "Wir auch einen Kaffee!", "correct": true },
@@ -50,7 +50,7 @@
           { "text": "mir", "bucket": "mehrere" },
           { "text": "enk", "bucket": "mehrere" }
         ],
-        "explanation": "Frag dich: Wer ist gemeint? Ich selbst, die Person vor mir oder mehrere Leute? Wörter mit d am Anfang gehören zur anderen Person: du, dir, dein. Und denk an den falschen Freund: Er meint mehrere."
+        "explanation": "Frag dich: Wer ist gemeint? Ich selbst, du oder mehrere Leute? Wörter mit d am Anfang gehören zur anderen Person: du, dir, dein. Und denk an den falschen Freund: mir heißt wir, das sind mehrere Leute."
       }
     },
     {
@@ -126,11 +126,11 @@
           { "text": "Du a", "bucket": "auch" },
           { "text": "Mir a", "bucket": "auch" },
           { "text": "Enk a", "bucket": "auch" },
-          { "text": "a Bua", "bucket": "ein" },
+          { "text": "a Bett", "bucket": "ein" },
           { "text": "a Madl", "bucket": "ein" },
           { "text": "a Zimmer", "bucket": "ein" }
         ],
-        "explanation": "Schau, wo das a steht. Kommt zuerst die Person und dann a, heißt es auch: so wie ich auch. Kommt zuerst a und dann ein Ding oder ein Mensch, heißt es ein: so wie ein Junge. Wie im Deutschen steht ein immer vor etwas."
+        "explanation": "Schau, wo das a steht. Kommt zuerst die Person und dann a, heißt es auch: so wie ich auch. Kommt zuerst a und dann ein Ding oder ein Mensch, heißt es ein: so wie ein Mädchen. Wie im Deutschen steht ein immer vor etwas."
       }
     },
     {
@@ -146,7 +146,7 @@
           { "text": "an" },
           { "text": "Kaffee" }
         ],
-        "explanation": "A heißt ein, an heißt einen. Kaffee ist männlich, der Kaffee: Darum steht an davor. Wasser ist nicht männlich, das Wasser: Darum steht a davor. Die Reihenfolge ist wie im Deutschen."
+        "explanation": "A heißt ein, an heißt einen. Sagst du auf Deutsch einen Kaffee, sagst du im Dialekt an Kaffee. Sagst du auf Deutsch ein Wasser, sagst du im Dialekt a Wasser. Die Reihenfolge ist wie im Deutschen."
       }
     },
     {

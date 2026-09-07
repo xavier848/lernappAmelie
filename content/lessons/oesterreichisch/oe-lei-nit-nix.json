@@ -1,0 +1,167 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-lei-nit-nix",
+  "title": "Lei, nit, nix und die Fragewörter",
+  "sort": 4,
+  "intro": "❓ Drei kleine Wörter hörst du in Lermoos ständig: lei, nit und nix. Dazu kommen die Fragewörter, mit denen dich Gäste, Nachbarn und Freundinnen etwas fragen. Im Dialekt, so wie die Leute hier reden, klingen die meisten fast wie im Deutschen.\n\n> lei = nur, bloß (typisch für Tirol)\n\n> nit = nicht\n\n> nix = nichts\n\n> wia = wie\n\n> wos = was\n\n> wer = wer (gleich wie im Deutschen)\n\n> wo = wo (gleich wie im Deutschen)\n\n> warum / wieso = warum\n\nMERKE: nit heißt nicht, nix heißt nichts. Nix ist die kurze Form von nichts: Sprich das Wort nichts schnell, dann klingt es fast wie nix. Und lei heißt nur, das ist typisch für Tirol.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "In der Schulküche fragt die Lehrerin, wer beim Abwasch hilft. Deine Freundin sagt: Lei i! 🧽 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Nur ich!", "correct": true },
+          { "text": "Ich nicht!" },
+          { "text": "Ich auch!" }
+        ],
+        "explanation": "Lei heißt nur oder bloß, das Wort ist typisch für Tirol. Lei i heißt: nur ich, sonst niemand. Ich nicht wäre: I nit. Und ich auch wäre: I a, das kennst du schon."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Gäste und Nachbarn fragen dich etwas. Was gehört zusammen? Links Österreichisch, rechts Deutsch.",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Wia is des Wetter?" }, "right": { "text": "Wie ist das Wetter?" } },
+          { "left": { "text": "Wos is des?" }, "right": { "text": "Was ist das?" } },
+          { "left": { "text": "Wer is des?" }, "right": { "text": "Wer ist das?" } },
+          { "left": { "text": "Wo is da Bus?" }, "right": { "text": "Wo ist der Bus?" } },
+          { "left": { "text": "Wieso nit?" }, "right": { "text": "Warum nicht?" } }
+        ],
+        "memory": false,
+        "explanation": "Schau auf das erste Wort, das ist das Fragewort. Sprich es laut: Die meisten Fragewörter klingen fast wie im Deutschen, nur ein Laut in der Mitte ändert sich. Das kleine Wort da heißt der."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Ein Gast fragt nach Kaffee, aber du hast keinen. Baue den Satz auf Österreichisch: Ich habe nur Wasser. 💧",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "hob" },
+          { "text": "lei" },
+          { "text": "Wasser" }
+        ],
+        "explanation": "Hob heißt habe, lei heißt nur. Lei steht direkt vor dem Wort, das es meint: nur Wasser, sonst nichts. Das Verb steht an zweiter Stelle, wie im Deutschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Nachbarin fragt die Kinder, wer ein Stück Kuchen will. Der Kloaner sagt: I mog nix. 🍰 Was meint er?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Ich mag nichts.", "correct": true },
+          { "text": "Ich mag das nicht." },
+          { "text": "Ich mag nur eins." }
+        ],
+        "explanation": "Nix heißt nichts: Der Kloaner will gar nichts, kein Stück. Merk dir: nix ist die kurze Form von nichts. Nit heißt nicht und sagt Nein zu einer Sache: I mog des nit heißt ich mag das nicht. Nur wäre lei."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Frage oder keine Frage? Sortiere die Sätze. ❓",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "frage", "label": "Frage", "icon": "❓" },
+          { "id": "keine", "label": "Keine Frage", "icon": "💬" }
+        ],
+        "items": [
+          { "text": "Wia geht's dia", "bucket": "frage" },
+          { "text": "Wos host du", "bucket": "frage" },
+          { "text": "Wo san mir", "bucket": "frage" },
+          { "text": "Wieso host du nix", "bucket": "frage" },
+          { "text": "I woaß nit", "bucket": "keine" },
+          { "text": "I hob nix", "bucket": "keine" },
+          { "text": "Lei du woaßt des", "bucket": "keine" },
+          { "text": "Mir san im Bus", "bucket": "keine" }
+        ],
+        "explanation": "Schau auf das erste Wort. Fängt der Satz mit einem Fragewort an, ist es eine Frage: wia, wos, wer, wo oder wieso. Wieso fragt nach dem Grund, manche Leute sagen auch warum. Fängt der Satz mit einer Person an oder mit lei, ist es keine Frage."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Ein Gast aus Innsbruck kommt in die Ferienwohnung und sagt: Griaß di! Wia geht's dia? 🏠 Was fragt er?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Wie geht es dir?", "correct": true },
+          { "text": "Wo gehst du hin?" },
+          { "text": "Wir gehen zu dir." }
+        ],
+        "explanation": "Wia heißt wie, geht's heißt geht es, dia heißt dir. Achtung: wia klingt fast wie wir, heißt aber wie. Wir heißt im Dialekt mir, das kennst du schon. Wo würde nach einem Ort fragen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "nur" }, "right": { "text": "lei" } },
+          { "left": { "text": "nicht" }, "right": { "text": "nit" } },
+          { "left": { "text": "nichts" }, "right": { "text": "nix" } },
+          { "left": { "text": "wie" }, "right": { "text": "wia" } },
+          { "left": { "text": "was" }, "right": { "text": "wos" } }
+        ],
+        "memory": false,
+        "explanation": "Nit und nix sind kurz: Bei nit fällt das ch in der Mitte weg, bei nix wird aus chts ein x. Bei wie und was ändert sich nur der Laut in der Mitte. Bei nur klingt das Tiroler Wort ganz anders als im Deutschen. Das musst du dir extra merken."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Du suchst im Bus dein Handy. Baue den Satz auf Österreichisch: Wo ist mein Handy? 📱",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "Wo" },
+          { "text": "is" },
+          { "text": "mei" },
+          { "text": "Handy" }
+        ],
+        "explanation": "Das Wort wo bleibt gleich wie im Deutschen, is heißt ist, mei heißt mein. Bei einer Frage steht das Fragewort ganz vorne. Danach kommt das Verb, wie im Deutschen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Wonach fragt der Satz? Sortiere: nach einer Person, nach einem Ding oder nach einem Ort. 🔍",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "person", "label": "Nach einer Person", "icon": "🙋" },
+          { "id": "ding", "label": "Nach einem Ding", "icon": "📦" },
+          { "id": "ort", "label": "Nach einem Ort", "icon": "📍" }
+        ],
+        "items": [
+          { "text": "Wer bist du", "bucket": "person" },
+          { "text": "Wer woaß des", "bucket": "person" },
+          { "text": "Wos is des", "bucket": "ding" },
+          { "text": "Wos mogst du", "bucket": "ding" },
+          { "text": "Wo bist du", "bucket": "ort" },
+          { "text": "Wo is die Schul", "bucket": "ort" }
+        ],
+        "explanation": "Frag dich: Wonach fragt der Satz? Wer fragt nach einem Menschen, wo fragt nach einem Ort, beides wie im Deutschen. Wos heißt was und fragt nach einem Ding. Achtung: wos und wo klingen ähnlich, das s macht den Unterschied."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "lei" }, "right": { "text": "nur" } },
+          { "left": { "text": "nix" }, "right": { "text": "nichts" } },
+          { "left": { "text": "wieso" }, "right": { "text": "warum" } }
+        ],
+        "memory": true,
+        "explanation": "Lei ist das Tiroler Wort, das klingt wie kein deutsches Wort. Nix ist die kurze Form von nichts. Wieso fragt nach dem Grund."
+      }
+    }
+  ]
+}
