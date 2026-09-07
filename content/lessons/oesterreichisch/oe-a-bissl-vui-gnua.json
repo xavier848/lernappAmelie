@@ -3,7 +3,7 @@
   "slug": "oe-a-bissl-vui-gnua",
   "title": "A bissl, vui, gnua: Mengen und Zahlen",
   "sort": 7,
-  "intro": "🧺 Ein bisschen Salz, viele Semmeln, kein Geld: Beim Kochen, beim Bäcker und in der Ferienwohnung geht es oft um Mengen und kleine Zahlen. Dafür haben die Leute hier eigene Wörter. Ein paar davon klingen fast wie im Deutschen, andere musst du dir merken.\n\n> a bissl = ein bisschen\n\n> a weng = ein wenig (fast dasselbe wie a bissl)\n\n> vui = viel\n\n> gnua = genug\n\n> koa = kein (Einzahl: koa Kaffee, koa Zimmer)\n\n> koane = keine (Mehrzahl: koane Kinder)\n\n> oana = einer (eine Person oder ein Stück)\n\n> zwoa = zwei\n\n> drei = drei (gleich wie im Deutschen)\n\nMERKE: Aus ei wird oa! Aus zwei wird zwoa, aus kein wird koa, aus einer wird oana. Nur drei bleibt drei.",
+  "intro": "🧺 Ein bisschen Salz, viele Semmeln, kein Geld: Beim Kochen, beim Bäcker und in der Ferienwohnung geht es oft um Mengen und kleine Zahlen. Dafür haben die Leute hier eigene Wörter. Ein paar davon klingen fast wie im Deutschen, andere musst du dir merken.\n\n> a bissl = ein bisschen\n\n> a weng = ein wenig (fast dasselbe wie a bissl)\n\n> vui = viel\n\n> gnua = genug\n\n> koa = kein (Einzahl: koa Kaffee, koa Zimmer)\n\n> koane = keine (Mehrzahl: koane Kinder)\n\n> oana = einer (eine Person oder ein Stück)\n\n> zwoa = zwei\n\n> drei = drei (gleich wie im Deutschen)\n\nMERKE: Bei vielen Wörtern wird aus ei ein oa: Aus zwei wird zwoa, aus kein wird koa, aus einer wird oana. Drei bleibt drei.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -15,7 +15,7 @@
           { "text": "Das ist zu wenig." },
           { "text": "Das ist zu viel." }
         ],
-        "explanation": "Gnua heißt genug. Es ist das Wort genug ohne das e am Anfang. Wenn die Lehrerin gnua sagt, hörst du mit dem Gießen auf. Achtung: Gnua klingt ein bisschen wie genau, heißt aber genug."
+        "explanation": "Gnua heißt genug. Es ist das Wort genug ohne das e am Anfang. Wenn die Lehrerin gnua sagt, hörst du mit dem Gießen auf. Genug heißt: Es reicht so, nicht zu wenig und nicht zu viel."
       }
     },
     {
@@ -24,14 +24,14 @@
         "prompt": "Was gehört zusammen? Links Österreichisch, rechts Deutsch. 🧂",
         "tts_lang": "de-AT",
         "pairs": [
-          { "left": { "text": "a weng Zucker" }, "right": { "text": "ein wenig Zucker" } },
-          { "left": { "text": "lei oana" }, "right": { "text": "nur einer" } },
-          { "left": { "text": "gnua Zeit" }, "right": { "text": "genug Zeit" } },
-          { "left": { "text": "koa Geld" }, "right": { "text": "kein Geld" } },
-          { "left": { "text": "zwoa Semmeln" }, "right": { "text": "zwei Semmeln" } }
+          { "left": { "text": "a weng" }, "right": { "text": "ein wenig" } },
+          { "left": { "text": "gnua" }, "right": { "text": "genug" } },
+          { "left": { "text": "koa" }, "right": { "text": "kein" } },
+          { "left": { "text": "zwoa" }, "right": { "text": "zwei" } },
+          { "left": { "text": "lei oana" }, "right": { "text": "nur einer" } }
         ],
         "memory": false,
-        "explanation": "Schau auf das erste Wort, es sagt dir die Menge. Weng steckt in wenig, gnua ist genug ohne das e am Anfang. Bei den anderen gilt der Merksatz: Aus ei wird oa. Lei heißt nur, das kennst du schon."
+        "explanation": "Weng steckt in wenig, gnua ist genug ohne das e am Anfang. Bei den anderen gilt der Merksatz: Aus ei wird oa. Lei heißt nur, das kennst du schon."
       }
     },
     {
@@ -127,7 +127,7 @@
           { "text": "oana", "bucket": "eins" },
           { "text": "a Bua", "bucket": "eins" },
           { "text": "zwoa Madln", "bucket": "mehrere" },
-          { "text": "drei Eier", "bucket": "mehrere" },
+          { "text": "drei Semmeln", "bucket": "mehrere" },
           { "text": "vui Leit", "bucket": "mehrere" },
           { "text": "koa Bus", "bucket": "keins" },
           { "text": "koane Gäste", "bucket": "keins" }
