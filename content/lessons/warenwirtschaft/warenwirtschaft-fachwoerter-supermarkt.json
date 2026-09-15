@@ -1,0 +1,118 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-fachwoerter-supermarkt",
+  "title": "Fachwörter im Supermarkt",
+  "sort": 12,
+  "intro": "🛒 Im Supermarkt gibt es Fachwörter. Sechs davon brauchst du für die Prüfung. Hier lernst du jedes Wort einzeln, mit einem Trick zum Merken.\n\n> Grundpreis = der Preis für 1 Kilo oder 1 Liter. Er steht klein auf dem Regalschild.\n\n> Griffzone = das Regalfach auf Augenhöhe. Dort greifst du bequem zu. Dort steht die teure Ware.\n\n> Mogelpackung = außen groß, innen halb leer. Die Packung mogelt.\n\n> Schrumpfpackung = gleicher Preis, aber weniger Inhalt. Der Inhalt schrumpft.\n\n> Quengelware = kleine Ware direkt an der Kasse. Kinder quengeln danach.\n\n> Aktionsware = nur kurze Zeit im Angebot, oft im großen Korb im Gang.\n\nMERKE: Griffzone ist im Regal auf Augenhöhe. Quengelware ist an der Kasse.\n\nOb etwas ein Trick oder ein Schutz ist, erkennst du an einer Frage: Wer macht das? Macht es der Laden, ist es ein Trick. Machst du es selbst, ist es dein Schutz.\n\nMERKE: Was du wiegst, hat einen Grundpreis pro Kilo. Was du gießt, hat einen Grundpreis pro Liter.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Drei Fachwörter. Was bedeutet welches? Verbinde.",
+        "pairs": [
+          { "left": { "text": "Grundpreis" }, "right": { "text": "Der Preis für 1 Kilo oder 1 Liter" } },
+          { "left": { "text": "Griffzone" }, "right": { "text": "Das Regalfach auf Augenhöhe" } },
+          { "left": { "text": "Quengelware" }, "right": { "text": "Kleine Ware direkt an der Kasse" } }
+        ],
+        "memory": false,
+        "explanation": "Griffzone: Da greifst du bequem hin, das ist im Regal auf Augenhöhe. Quengelware: Da quengeln Kinder, das ist an der Kasse beim Warten. Grundpreis: der Preis für eine Grundmenge, also 1 Kilo oder 1 Liter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Du stehst vor dem Regal. Die teure Marke steht genau auf Augenhöhe. Wie heißt dieses Fach?",
+        "options": [
+          { "text": "Griffzone.", "correct": true },
+          { "text": "Quengelzone." },
+          { "text": "Aktionszone." }
+        ],
+        "explanation": "Das Fach auf Augenhöhe heißt Griffzone, weil du dort ohne Bücken zugreifen kannst. Genau dort stellt der Laden die teure Ware hin. Quengelware liegt an der Kasse, Aktionsware im Korb im Gang."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📦 Drei Wörter für Packungen und Angebote. Was bedeutet welches? Verbinde.",
+        "pairs": [
+          { "left": { "text": "Mogelpackung" }, "right": { "text": "Außen groß, innen halb leer" } },
+          { "left": { "text": "Schrumpfpackung" }, "right": { "text": "Weniger Inhalt, gleicher Preis" } },
+          { "left": { "text": "Aktionsware" }, "right": { "text": "Nur kurze Zeit im Angebot" } }
+        ],
+        "memory": false,
+        "explanation": "Mogeln heißt schummeln: Die Packung tut groß und ist innen halb leer. Schrumpfen heißt kleiner werden: Der Inhalt wird weniger, der Preis bleibt. Eine Aktion ist etwas Kurzes: Aktionsware gibt es nur kurze Zeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Eine dieser Aussagen ist falsch. Welche?",
+        "options": [
+          { "text": "Auf Augenhöhe steht meistens die günstige Eigenmarke.", "correct": true },
+          { "text": "Die günstige Ware steht meistens ganz unten oder ganz oben." },
+          { "text": "Der Grundpreis steht klein auf dem Regalschild." }
+        ],
+        "explanation": "Auf Augenhöhe steht die teure Ware, nicht die günstige. Merk dir: bequem greifen heißt teuer bezahlen. Für die günstige Ware musst du dich bücken oder strecken."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎯 Wer macht das: der Laden oder du? Sortiere.",
+        "buckets": [
+          { "id": "laden", "label": "Der Laden macht das: ein Trick", "icon": "🏪" },
+          { "id": "du", "label": "Du machst das: dein Schutz", "icon": "🛡️" }
+        ],
+        "items": [
+          { "text": "Milch und Brot stehen ganz hinten im Laden", "bucket": "laden" },
+          { "text": "Süßes liegt an der Kasse", "bucket": "laden" },
+          { "text": "Die Packung ist innen halb leer", "bucket": "laden" },
+          { "text": "Du schreibst einen Einkaufszettel", "bucket": "du" },
+          { "text": "Du liest den Grundpreis", "bucket": "du" },
+          { "text": "Du gehst satt einkaufen", "bucket": "du" }
+        ],
+        "explanation": "Frag dich nur: Wer macht das? Regale, Kassen und Packungen macht der Laden, das sind Tricks. Zettel schreiben, Grundpreis lesen und satt losgehen machst du selbst, das schützt dich. Auch wenn im Satz ein Laden-Wort wie Grundpreis steht: Das Lesen machst du."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Wiegst du das oder gießt du das? Sortiere die Waren nach ihrem Grundpreis.",
+        "buckets": [
+          { "id": "kilo", "label": "Wiegen: Grundpreis pro Kilogramm", "icon": "⚖️" },
+          { "id": "liter", "label": "Gießen: Grundpreis pro Liter", "icon": "🫗" }
+        ],
+        "items": [
+          { "text": "🍚 Reis, 500 g", "bucket": "kilo" },
+          { "text": "🧀 Käse, 200 g", "bucket": "kilo" },
+          { "text": "🍫 Schokolade, 100 g", "bucket": "kilo" },
+          { "text": "🥛 Milch, 1 Liter", "bucket": "liter" },
+          { "text": "🫒 Öl, 750 ml", "bucket": "liter" },
+          { "text": "🧃 Saft, 1,5 Liter", "bucket": "liter" }
+        ],
+        "explanation": "Schau auf die Mengenangabe. Steht dort g oder kg, wird die Ware gewogen, also Grundpreis pro Kilogramm. Steht dort ml oder Liter, wird sie gegossen, also Grundpreis pro Liter. Öl ist flüssig: 750 ml gehört zu Liter, auch wenn es weniger als ein Liter ist."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍝 Eine Packung Nudeln mit 500 g kostet 2 Euro. Wie viel kostet 1 Kilo in Euro?",
+        "answer": 4,
+        "hint": "1 Kilo sind 1000 g.\nDas sind 2 Packungen mit 500 g.\n2 € + 2 € = ?",
+        "explanation": "2 € mal 2 sind 4 €. Der Grundpreis ist 4 € pro Kilo. Für 1 Kilo verdoppelst du den Preis von 500 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz leicht: Wie heißt die kleine Ware direkt an der Kasse?",
+        "options": [
+          { "text": "Quengelware.", "correct": true },
+          { "text": "Griffzone." },
+          { "text": "Grundpreis." }
+        ],
+        "explanation": "An der Kasse liegt Quengelware: kleine Sachen, nach denen Kinder quengeln. Die Griffzone ist im Regal, der Grundpreis steht auf dem Schild."
+      }
+    }
+  ]
+}

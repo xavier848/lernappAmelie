@@ -1,0 +1,132 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-stolperwoerter",
+  "title": "Wörter, die dich stolpern lassen",
+  "sort": 29,
+  "intro": "🔍 Manche englischen Wörter siehst du oft, aber sie sitzen noch nicht. Dann baust du den Satz zwar richtig, aber mit dem falschen Wort. Hier sind die Wörter, die dich am meisten stolpern lassen.\n\n> to confirm = bestätigen. Das ist ein Tun-Wort.\n\n> the booking = die Buchung. Das ist ein Ding.\n\n> the confirmation = die Bestätigung. Auch ein Ding.\n\n> available = frei, verfügbar\n\n> spare = Ersatz. Spare keys sind Ersatzschlüssel.\n\n> to keep = aufbewahren, behalten\n\n> hungry = hungrig. Wer hungry ist, braucht ein Restaurant.\n\n> the bakery = die Bäckerei. Dort gibt es Brot, auf Englisch bread.\n\n> Did you sleep well? = Haben Sie gut geschlafen? Die Antwort: Yes, very well.\n\nMERKE: Frag dich bei jedem Wort: Ist das ein Tun-Wort oder ein Ding? Confirm ist tun. Booking ist ein Ding.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📅 Vier Wörter aus dem Buchungs-Gespräch. Was gehört zusammen? Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "to confirm" }, "right": { "text": "bestätigen" } },
+          { "left": { "text": "the booking" }, "right": { "text": "die Buchung" } },
+          { "left": { "text": "available" }, "right": { "text": "frei, verfügbar" } },
+          { "left": { "text": "spare keys" }, "right": { "text": "Ersatzschlüssel" } }
+        ],
+        "memory": false,
+        "explanation": "Nur ein Wort ist ein Tun-Wort: confirm heißt bestätigen. Booking ist die Buchung, ein Ding. Available beschreibt, dass etwas frei ist. Spare heißt Ersatz und steht vor dem Ding, so wie Ersatz vor Schlüssel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧩 Tun-Wort oder Ding? Frag dich: Kann ich das tun, oder kann ich das haben? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "tun", "label": "Tun-Wort: das kann ich tun", "icon": "🏃" },
+          { "id": "ding", "label": "Ding: das kann ich haben", "icon": "📦" }
+        ],
+        "items": [
+          { "text": "confirm", "bucket": "tun" },
+          { "text": "keep", "bucket": "tun" },
+          { "text": "bring", "bucket": "tun" },
+          { "text": "booking", "bucket": "ding" },
+          { "text": "confirmation", "bucket": "ding" },
+          { "text": "key", "bucket": "ding" }
+        ],
+        "explanation": "Frag dich: Kann ich das tun? Bestätigen, aufbewahren und bringen kann man tun. Eine Buchung, eine Bestätigung und einen Schlüssel kann man haben. Confirm und confirmation sehen ähnlich aus: Das kurze Wort ist das Tun-Wort, das lange mit -ation ist das Ding."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "✅ Baue den Satz: Wir bestätigen Ihre Buchung.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "confirm" },
+          { "text": "your" },
+          { "text": "booking" }
+        ],
+        "explanation": "Wer, Tun-Wort, Ding. Confirm ist das Tun-Wort, also steht es direkt nach We. Booking ist das Ding, also steht es am Ende. Wer die beiden vertauscht, sagt: Wir buchen Ihre Bestätigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Ein Gast sagt: We are hungry. Was antwortest du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "There is a nice restaurant in the village.", "correct": true },
+          { "text": "The bakery opens at seven." },
+          { "text": "You can park behind the house." }
+        ],
+        "explanation": "Hungry heißt hungrig. Hungrige Gäste wollen jetzt essen, also passt das Restaurant. Die bakery ist die Bäckerei, die passt, wenn jemand Brot braucht. Frag dich immer: Was fehlt dem Gast gerade?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😴 Du fragst einen Gast am Morgen: Did you sleep well? Welche Antwort passt zu dieser Frage?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Yes, very well, thank you.", "correct": true },
+          { "text": "I am fine, thank you." },
+          { "text": "Thank you very much!" }
+        ],
+        "explanation": "Sleep heißt schlafen. Die Frage fragt nach dem Schlaf, darum muss die Antwort auch vom Schlaf reden: Yes, very well. I am fine passt zu How are you. Thank you very much passt zu einem Wunsch wie Enjoy your stay."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔑 Baue den Satz: Wir haben zwei Ersatzschlüssel im Büro.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "keep" },
+          { "text": "two" },
+          { "text": "spare" },
+          { "text": "keys" },
+          { "text": "in" },
+          { "text": "the" },
+          { "text": "office" }
+        ],
+        "explanation": "Keep heißt aufbewahren, das ist das Tun-Wort nach We. Spare keys heißt Ersatzschlüssel: spare steht vor keys, so wie Ersatz vor Schlüssel. Der Ort in the office kommt ganz zum Schluss."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥖 Vier Wörter rund ums Essen und Schlafen. Was gehört zusammen? Links Englisch, rechts Deutsch.",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "hungry" }, "right": { "text": "hungrig" } },
+          { "left": { "text": "the bakery" }, "right": { "text": "die Bäckerei" } },
+          { "left": { "text": "bread" }, "right": { "text": "Brot" } },
+          { "left": { "text": "to sleep" }, "right": { "text": "schlafen" } }
+        ],
+        "memory": false,
+        "explanation": "Hungry klingt wie Hunger. Bakery klingt wie backen, da gibt es bread, das Brot. Sleep heißt schlafen und klingt wie das deutsche Wort schlafen ohne das a."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz leicht: Ein Gast fragt: Is the apartment available in May? Was will er wissen?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Ob die Wohnung im Mai frei ist.", "correct": true },
+          { "text": "Ob die Wohnung im Mai teurer ist." },
+          { "text": "Ob die Wohnung im Mai geputzt wird." }
+        ],
+        "explanation": "Available heißt frei oder verfügbar. Der Gast fragt also, ob er die Wohnung im Mai buchen kann. Du antwortest: Yes, it is available. Oder: Sorry, it is not available."
+      }
+    }
+  ]
+}

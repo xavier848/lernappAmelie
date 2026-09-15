@@ -1,0 +1,139 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-helfer-woerter",
+  "title": "can, will, do: Danach kommt sofort das Tun-Wort",
+  "sort": 28,
+  "intro": "🧩 Kleine Helfer-Wörter wie can, will und would stehen im Englischen nie allein. Direkt danach kommt das Tun-Wort.\n\n> You can park behind the house. = Sie können hinter dem Haus parken.\n\nMERKE: can und dann das Tun-Wort. will und dann das Tun-Wort. Nichts dazwischen.\n\nIm Deutschen wandert das Tun-Wort ans Ende: Sie können hinter dem Haus parken. Im Englischen bleibt es vorne: You can park. Der Rest kommt danach.\n\n> I will bring you a towel. = Ich bringe Ihnen ein Handtuch.\n\nIn der Frage kommt das Helfer-Wort nach vorne. Danach kommt die Person, dann das Tun-Wort.\n\n> When do your guests arrive? = Wann kommen Ihre Gäste an?\n\n> When would you like to come? = Wann möchten Sie kommen?\n\nMERKE: Fragewort, Helfer-Wort, Person, Tun-Wort. Die Person steht in der Mitte, nie am Ende.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚗 Du willst sagen: Sie können Ihr Auto vor dem Haus parken. Welcher Satz ist richtig gebaut?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "You can park your car in front of the house.", "correct": true },
+          { "text": "You can in front of the house park your car." },
+          { "text": "You can your car park in front of the house." }
+        ],
+        "explanation": "Nach can kommt sofort das Tun-Wort park. Im Deutschen steht parken ganz am Ende, im Englischen direkt nach can. Danach kommt das Ding: your car. Ganz zum Schluss der Ort."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛏️ Baue den Satz: Ich bringe Ihnen noch eine Decke.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "I" },
+          { "text": "will" },
+          { "text": "bring" },
+          { "text": "you" },
+          { "text": "another" },
+          { "text": "blanket" }
+        ],
+        "explanation": "Nach will kommt sofort das Tun-Wort bring. Dann kommt, wer es bekommt: you. Dann kommt, was es ist: another blanket. Das Tun-Wort rutscht nie ans Ende."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Steht das Tun-Wort direkt nach can oder will? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig gebaut", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch gebaut", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "You can leave your bikes in the garage.", "bucket": "richtig" },
+          { "text": "I will call you tomorrow.", "bucket": "richtig" },
+          { "text": "We can help you with the luggage.", "bucket": "richtig" },
+          { "text": "You can your bikes in the garage leave.", "bucket": "falsch" },
+          { "text": "I will you tomorrow call.", "bucket": "falsch" },
+          { "text": "We can you with the luggage help.", "bucket": "falsch" }
+        ],
+        "explanation": "Lies die ersten drei Wörter: Person, Helfer-Wort, Tun-Wort. Kommt nach can oder will kein Tun-Wort, ist der Satz falsch. Das Tun-Wort darf nie ans Ende rutschen, das ist die deutsche Reihenfolge."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥐 Baue die Frage: Wann möchten Sie frühstücken?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "When" },
+          { "text": "would" },
+          { "text": "you" },
+          { "text": "like" },
+          { "text": "to" },
+          { "text": "have" },
+          { "text": "breakfast" }
+        ],
+        "explanation": "Fragewort, Helfer-Wort, Person: When would you. Erst dann kommt like to have breakfast. Das you steht in der Mitte der Frage, nie am Ende."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❌ Eine dieser Fragen ist falsch gebaut. Welche?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "When do arrive your guests?", "correct": true },
+          { "text": "When do your guests arrive?" },
+          { "text": "Where do you keep the key?" }
+        ],
+        "explanation": "Nach dem Helfer-Wort do kommt die Person, dann das Tun-Wort. When do your guests arrive ist richtig. Bei When do arrive your guests steht das Tun-Wort vor der Person, das ist die deutsche Reihenfolge."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚌 Baue die Frage: Wann fährt der Bus ab?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "When" },
+          { "text": "does" },
+          { "text": "the" },
+          { "text": "bus" },
+          { "text": "leave" }
+        ],
+        "explanation": "Fragewort, Helfer-Wort, dann die Person oder das Ding: When does the bus. Erst danach das Tun-Wort leave. Das Helfer-Wort does hat das s schon, darum heißt es leave und nicht leaves."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "⏰ Baue den Satz: Wir warten, wenn der Bus zu spät ist.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "will" },
+          { "text": "wait" },
+          { "text": "if" },
+          { "text": "the" },
+          { "text": "bus" },
+          { "text": "is" },
+          { "text": "late" }
+        ],
+        "explanation": "Zuerst der Hauptsatz: We will wait. Nach will kommt sofort wait. Dann hängst du if und den Grund hinten an: if the bus is late. Nach if steht kein will, sondern is."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss: Links Deutsch, rechts Englisch. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Sie können hinter dem Haus parken." }, "right": { "text": "You can park behind the house." } },
+          { "left": { "text": "Ich rufe Sie an." }, "right": { "text": "I will call you." } },
+          { "left": { "text": "Wann kommen Ihre Gäste an?" }, "right": { "text": "When do your guests arrive?" } }
+        ],
+        "memory": false,
+        "explanation": "Schau auf das Wort nach can, will oder do. Im Englischen steht dort das Tun-Wort oder die Person, nie der Ort."
+      }
+    }
+  ]
+}
