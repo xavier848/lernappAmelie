@@ -1,0 +1,134 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-zeit-am-ende",
+  "title": "Die Zeit steht ganz hinten",
+  "sort": 27,
+  "intro": "🕰️ In dieser Lektion geht es um einen einzigen Fehler. Er passiert dir oft: Die Zeit rutscht im englischen Satz in die Mitte. Im Deutschen ist das richtig. Im Englischen ist es falsch.\n\n> The apartment is free next week. = Die Wohnung ist nächste Woche frei.\n\nMERKE: Erst der ganze Satz, dann die Zeit. Die Zeit steht ganz hinten, nie in der Mitte.\n\nPrüfe jeden Satz mit einer Frage: Was steht ganz am Ende? Steht dort die Zeit, zum Beispiel next week, every morning oder at six, ist der Satz richtig gebaut.\n\nWenn Ort und Zeit beide vorkommen, gilt: Erst wo, dann wann.\n\n> Your taxi takes you to the airport at six. = Ihr Taxi bringt Sie um sechs zum Flughafen.\n\nMERKE: Erst wo, dann wann. Im Deutschen ist es genau andersherum, darum musst du hier aufpassen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧭 Wo steht die Zeit im englischen Satz? Zum Beispiel next week oder every morning.",
+        "options": [
+          { "text": "Ganz hinten, nach dem ganzen Satz.", "correct": true },
+          { "text": "Direkt nach dem Verb, wie im Deutschen." },
+          { "text": "Zwischen Wer und Verb." }
+        ],
+        "explanation": "Die Zeit steht im Englischen ganz hinten. Erst kommt der fertige Satz: Wer, Verb, Was. Dann erst die Zeit. Im Deutschen darf die Zeit in die Mitte, im Englischen nicht."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏠 Baue den Satz: Die Wohnung ist nächste Woche frei.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "apartment" },
+          { "text": "is" },
+          { "text": "free" },
+          { "text": "next" },
+          { "text": "week" }
+        ],
+        "explanation": "Frag dich: Was steht ganz am Ende? Die Zeit: next week. Davor ist der Satz schon fertig: The apartment is free. Die Zeit drängelt sich nie zwischen is und free."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Steht die Zeit ganz hinten? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig gebaut", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch gebaut", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "We clean the kitchen every Friday.", "bucket": "richtig" },
+          { "text": "The bus leaves at nine.", "bucket": "richtig" },
+          { "text": "Breakfast is ready at eight.", "bucket": "richtig" },
+          { "text": "We clean every Friday the kitchen.", "bucket": "falsch" },
+          { "text": "The bus at nine leaves.", "bucket": "falsch" },
+          { "text": "Breakfast is at eight ready.", "bucket": "falsch" }
+        ],
+        "explanation": "Lies bei jedem Satz nur das letzte Wort. Ist es eine Zeit wie Friday, nine oder eight, ist der Satz richtig. Steht am Ende ein Ding oder ein Verb, ist die Zeit nach vorne gerutscht. Das ist die deutsche Reihenfolge, nicht die englische."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❌ Einer dieser Sätze ist falsch gebaut. Welcher?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "We wash on Saturday the towels.", "correct": true },
+          { "text": "We wash the towels on Saturday." },
+          { "text": "The guests arrive on Friday." }
+        ],
+        "explanation": "Schau auf das Ende: Bei zwei Sätzen steht dort die Zeit, Saturday und Friday. Beim dritten Satz steht am Ende the towels. Die Zeit on Saturday ist in die Mitte gerutscht, darum ist dieser Satz falsch."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧺 Baue den Satz: Wir wechseln die Handtücher jeden Tag.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "change" },
+          { "text": "the" },
+          { "text": "towels" },
+          { "text": "every" },
+          { "text": "day" }
+        ],
+        "explanation": "Erst Wer, Verb, Was: We change the towels. Dann die Zeit ganz hinten: every day. Zwischen change und the towels kommt nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚌 Du willst sagen: Der Bus bringt Sie um zehn Uhr ins Dorf. Welcher Satz ist richtig gebaut?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "The bus takes you to the village at ten.", "correct": true },
+          { "text": "The bus takes you at ten to the village." },
+          { "text": "The bus at ten takes you to the village." }
+        ],
+        "explanation": "Erst wo, dann wann. Der Ort to the village kommt zuerst, die Zeit at ten kommt ganz hinten. Im Deutschen sagst du um zehn ins Dorf, im Englischen genau andersherum."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥐 Baue den Satz: Wir frühstücken um acht Uhr im Garten.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "We" },
+          { "text": "have" },
+          { "text": "breakfast" },
+          { "text": "in" },
+          { "text": "the" },
+          { "text": "garden" },
+          { "text": "at" },
+          { "text": "eight" }
+        ],
+        "explanation": "Erst der Satz: We have breakfast. Dann der Ort: in the garden. Ganz zum Schluss die Zeit: at eight. Erst wo, dann wann."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss: Links Deutsch, rechts Englisch. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "Die Wohnung ist nächste Woche frei." }, "right": { "text": "The apartment is free next week." } },
+          { "left": { "text": "Der Bus fährt um neun." }, "right": { "text": "The bus leaves at nine." } },
+          { "left": { "text": "Wir putzen jeden Freitag die Küche." }, "right": { "text": "We clean the kitchen every Friday." } }
+        ],
+        "memory": false,
+        "explanation": "Schau beim Vergleichen auf das Satzende. Im Englischen steht dort immer die Zeit, im Deutschen oft in der Mitte."
+      }
+    }
+  ]
+}

@@ -44,6 +44,7 @@
       "type": "sort_buckets",
       "data": {
         "prompt": "⚠️ Welche Gefahr ist das? Sortiere.",
+        "explanation": "Frag dich: Was passiert mit deinem Körper, wenn es schiefgeht? Rutschst du aus oder stolperst du, ist es Sturz-Gefahr. Schneidest du dich an etwas Scharfem, ist es Schnitt-Gefahr. Verbrennst du dich an etwas Heißem, ist es Verbrennungs-Gefahr. Beim Topfstiel im Gang ist das Heiße die Gefahr: Jemand bleibt hängen und der heiße Inhalt schwappt heraus.",
         "buckets": [
           { "id": "sturz", "label": "Sturz-Gefahr", "icon": "🚶" },
           { "id": "schnitt", "label": "Schnitt-Gefahr", "icon": "🔪" },
@@ -55,7 +56,7 @@
           { "text": "Ein Messer liegt mitten auf der Arbeitsfläche", "bucket": "schnitt" },
           { "text": "Ein Glas hat einen Sprung", "bucket": "schnitt" },
           { "text": "Der Topfstiel ragt in den Gang", "bucket": "hitze" },
-          { "text": "Ein Eimer mit heißem Wasser steht mitten im Weg", "bucket": "hitze" }
+          { "text": "Heißes Wasser schwappt beim Tragen über den Eimerrand", "bucket": "hitze" }
         ]
       }
     },
@@ -111,6 +112,7 @@
       "type": "sort_buckets",
       "data": {
         "prompt": "✅ Ist diese Handlung in der Küche sicher oder gefährlich? Sortiere.",
+        "explanation": "Frag dich: Was passiert nach dieser Handlung? Wird die Küche sicherer oder gefährlicher? Verschüttetes aufwischen macht den Boden sicher, auch wenn das Wort verschüttet gefährlich klingt. Putzmittel in eine Saftflasche umfüllen sieht harmlos aus, aber jemand könnte davon trinken.",
         "buckets": [
           { "id": "sicher", "label": "Sicher", "icon": "✅" },
           { "id": "gefaehrlich", "label": "Gefährlich", "icon": "⚠️" }

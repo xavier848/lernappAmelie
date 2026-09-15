@@ -1,0 +1,144 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-anders-gefragt",
+  "title": "Andersherum gefragt: Müll und Mehrweg",
+  "sort": 205,
+  "intro": "🔁 Diese Lektion fragt den Stoff aus den Abfall-Lektionen nochmal, aber andersherum. Drei Dinge fallen dir noch schwer. Hier sind die Merkhilfen.\n\nMERKE: Mehrweg heißt mehrmals benutzen. Suche immer das Ding, das dieselbe Arbeit macht, nur öfter. Flasche wird zu Flasche, Wischpapier zu Wischtuch.\n\n> Einweg-Flasche = wird zu Mehrweg-Flasche\n\n> Küchenkrepp zum Wischen = wird zu Stofftuch zum Wischen\n\n> Backpapier = wird zu Dauerbackfolie\n\n> Frischhaltefolie = wird zu Deckel oder Teller\n\nBeim Dualen System machen drei mit. Frag dich: Was tut jeder mit der Verpackung?\n\n> Hersteller = macht die Verpackung und zahlt die Lizenz\n\n> Verbraucher = kauft das Produkt. Das bist du.\n\n> Entsorger = holt den Müll ab und verwertet ihn\n\nIm Abfallentsorgungsplan steht in jeder Spalte etwas anderes. Der Entsorger ist der Ort oder die Firma, wohin der Müll am Ende geht, zum Beispiel der Papiercontainer. Verantwortlich ist ein Mensch, zum Beispiel Frau M.\n\nMERKE: Entsorger ist, wohin der Müll geht. Verantwortlich ist, wer sich kümmert.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👥 Beim Dualen System machen drei mit. Wer tut das? Sortiere.",
+        "buckets": [
+          { "id": "hersteller", "label": "Hersteller", "icon": "🏭" },
+          { "id": "verbraucher", "label": "Verbraucher", "icon": "🛒" },
+          { "id": "entsorger", "label": "Entsorger", "icon": "🚛" }
+        ],
+        "items": [
+          { "text": "Verpackt die Ware", "bucket": "hersteller" },
+          { "text": "Zahlt die Lizenz-Gebühr", "bucket": "hersteller" },
+          { "text": "Kauft das Produkt im Laden", "bucket": "verbraucher" },
+          { "text": "Zahlt die Kosten über den Preis mit", "bucket": "verbraucher" },
+          { "text": "Sammelt die Verpackungen ein", "bucket": "entsorger" },
+          { "text": "Verwertet den Müll", "bucket": "entsorger" }
+        ],
+        "explanation": "Frag dich: Was tut die Person mit der Verpackung? Der Hersteller macht sie und zahlt dafür die Lizenz. Der Verbraucher kauft das Produkt und zahlt die Kosten im Preis mit. Der Entsorger holt die Verpackung am Ende ab und verwertet sie."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔁 Was ersetzt was? Links die Mehrweg-Lösung, rechts das Wegwerf-Ding. Verbinde.",
+        "pairs": [
+          { "left": { "text": "Mehrweg-Flasche" }, "right": { "text": "ersetzt die Einweg-Flasche" } },
+          { "left": { "text": "Stofftuch" }, "right": { "text": "ersetzt das Küchenkrepp" } },
+          { "left": { "text": "Dauerbackfolie" }, "right": { "text": "ersetzt das Backpapier" } },
+          { "left": { "text": "Deckel oder Teller" }, "right": { "text": "ersetzt die Frischhaltefolie" } }
+        ],
+        "memory": false,
+        "explanation": "Suche das Ding, das dieselbe Arbeit macht. Eine Flasche ersetzt eine Flasche. Ein Tuch ersetzt ein Papier zum Wischen. Eine Folie zum Backen ersetzt ein Papier zum Backen. Ein Deckel ersetzt eine Folie zum Abdecken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 In der Schulküche wischt ihr den Tisch mit Küchenkrepp ab. Was ist die Mehrweg-Lösung dafür?",
+        "options": [
+          { "text": "Ein Stofftuch, das gewaschen wird.", "correct": true },
+          { "text": "Eine Mehrweg-Flasche." },
+          { "text": "Dünneres Küchenkrepp." }
+        ],
+        "explanation": "Küchenkrepp macht die Arbeit Wischen und wird danach weggeworfen. Die Mehrweg-Lösung macht dieselbe Arbeit, nur immer wieder: ein Stofftuch. Dünneres Krepp ist weniger Müll, aber immer noch Einweg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Im Abfallentsorgungsplan steht in einer Spalte: Papiercontainer. Wie heißt diese Spalte?",
+        "options": [
+          { "text": "Entsorger.", "correct": true },
+          { "text": "Verantwortlich." },
+          { "text": "Abfallart." }
+        ],
+        "explanation": "Der Entsorger ist der Ort oder die Firma, wohin der Müll geht. Der Papiercontainer ist so ein Ort. Verantwortlich ist immer ein Mensch. Die Abfallart wäre hier Altpapier."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📋 In welche Spalte vom Abfallentsorgungsplan gehört der Eintrag? Frag dich: Mensch, Ort oder Behälter? Sortiere.",
+        "buckets": [
+          { "id": "verantwortlich", "label": "Verantwortlich: ein Mensch", "icon": "🙋" },
+          { "id": "entsorger", "label": "Entsorger: wohin der Müll geht", "icon": "🚛" },
+          { "id": "behaelter", "label": "Sammelbehälter: worin gesammelt wird", "icon": "🗑️" }
+        ],
+        "items": [
+          { "text": "Frau M.", "bucket": "verantwortlich" },
+          { "text": "Herr K.", "bucket": "verantwortlich" },
+          { "text": "Papiercontainer", "bucket": "entsorger" },
+          { "text": "Wertstoffhof", "bucket": "entsorger" },
+          { "text": "Blaue Kiste", "bucket": "behaelter" },
+          { "text": "Gelber Sack", "bucket": "behaelter" }
+        ],
+        "explanation": "Frag dich: Ist das ein Mensch, ein Ort oder ein Behälter? Ein Mensch ist verantwortlich. Ein Ort oder eine Firma, wohin der Müll am Ende geht, ist der Entsorger. Ein Behälter in der Küche ist der Sammelbehälter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Die Abwasser-Rohre in der Großküche sind verstopft. Welches Gerät fehlt oder ist kaputt?",
+        "options": [
+          { "text": "Der Fettabscheider.", "correct": true },
+          { "text": "Der Stärkeabscheider." },
+          { "text": "Die Biotonne." }
+        ],
+        "explanation": "Fett und Öl aus dem Spülwasser werden in den Rohren fest und verstopfen sie. Der Fettabscheider holt Fett und Öl aus dem Abwasser. Der Stärkeabscheider ist für das Wasser aus der Schälküche, zum Beispiel vom Kartoffelschälen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Müll vermeiden geht in drei Phasen. Frag dich: Wo bin ich gerade, im Laden, am Herd oder am Tisch? Sortiere.",
+        "buckets": [
+          { "id": "einkauf", "label": "Beim Einkauf", "icon": "🛒" },
+          { "id": "zubereitung", "label": "Bei der Zubereitung", "icon": "🍳" },
+          { "id": "ausgabe", "label": "Bei der Speiseausgabe", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "Brot ohne Plastiktüte kaufen", "bucket": "einkauf" },
+          { "text": "Mehrweg-Flaschen statt Dosen kaufen", "bucket": "einkauf" },
+          { "text": "Kartoffeln dünn schälen", "bucket": "zubereitung" },
+          { "text": "Reste vom Vortag weiterverwenden", "bucket": "zubereitung" },
+          { "text": "Kleine Portionen anbieten, Nachschlag erlauben", "bucket": "ausgabe" },
+          { "text": "Jeder Gast nimmt sich selbst am Büfett", "bucket": "ausgabe" }
+        ],
+        "explanation": "Frag dich: Wo bin ich gerade? Im Laden ist es der Einkauf. Am Herd ist es die Zubereitung. Am Tisch oder Büfett ist es die Speiseausgabe. Das Wort kaufen zeigt auf den Laden, schälen und kochen auf den Herd, Portion und Büfett auf den Tisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Die Firma zahlt für den Grünen Punkt eine Lizenz-Gebühr. Warum zahlst am Ende du diese Gebühr?",
+        "options": [
+          { "text": "Weil die Firma die Kosten in den Preis der Ware einrechnet.", "correct": true },
+          { "text": "Weil die Gemeinde sie über die Müllgebühr abrechnet." },
+          { "text": "Weil du an der Kasse extra eine Gebühr bezahlst." }
+        ],
+        "explanation": "Die Firma legt die Lizenz-Gebühr auf den Preis um. Sie steckt also schon im Preis der Ware, du siehst sie nicht extra. Mit jedem Einkauf zahlst du sie mit."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz leicht: Welche Tonne hat welche Farbe? Verbinde.",
+        "pairs": [
+          { "left": { "text": "Papier" }, "right": { "text": "🔵 Blaue Tonne" } },
+          { "left": { "text": "Bioabfall" }, "right": { "text": "🟤 Braune Tonne" } },
+          { "left": { "text": "Verpackungen" }, "right": { "text": "🟡 Gelbe Tonne" } }
+        ],
+        "memory": false,
+        "explanation": "Blau ist für Papier, braun für Bioabfall, gelb für Verpackungen. Restmüll kommt in die graue oder schwarze Tonne."
+      }
+    }
+  ]
+}

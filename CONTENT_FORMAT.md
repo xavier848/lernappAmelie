@@ -36,6 +36,17 @@ Acht Umformungen, geordnet nach Wirkung:
 
 Beim Schreiben einer Wiederholungs-Lektion zuerst die bestehenden Lektionen des Bereichs lesen und die Fakten sammeln. Die neue Lektion darf dem vorhandenen Stoff **nie widersprechen** – Amelie lernt sonst beides.
 
+## Eine Lektion an Amelies aktuelle Stelle setzen (Brücken-Lektionen)
+
+Die App zeigt je Thema die **erste nicht abgeschlossene Lektion** (nach `sort`) als „aktuell". Eine Lektion, die ans Ende des Themas angehängt wird, erreicht Amelie deshalb erst nach allen anderen – oft nie. Wenn die Statistik zeigt, dass sie an einer bestimmten Lektion hängt (angefangen, viele Versuche, nie abgeschlossen), gehört die Hilfe **davor**:
+
+1. In Supabase nachsehen, welche Lektion im Thema die erste offene ist (`progress` fehlt, `exercise_attempts` vorhanden).
+2. Die neue Lektion bekommt genau diese `sort`-Nummer. Alle Lektionen ab dieser Nummer rücken um eins (oder um die Zahl der neuen Lektionen) nach hinten – in den JSON-Dateien **und** per `update lessons set sort = sort + n where topic_id = … and sort >= …`. Bei Themen mit Lücken in der Nummerierung (10, 20, 200 …) reicht eine Zwischenzahl, nichts muss verschoben werden.
+3. Eine Lektion endet erst, wenn jede Übung richtig gelöst ist. Eine Brücken-Lektion muss deshalb die **Regel** liefern, an der sie scheitert – als Kontrollfrage, die sie sich bei jedem Item stellen kann („Wer macht das?", „Lies nur das letzte Wort"). Dieselbe Kontrollfrage gehört in die `explanation` der Übung, an der sie gescheitert ist.
+4. Manchmal gibt es die passende Lektion schon, nur an der falschen Stelle (Beispiel 2026-09-15: „Trösten üben" lag hinter „Trösten wie ein Profi"). Dann nur die `sort`-Werte tauschen.
+
+Auswertung und Beispiele: `docs/analyse-2026-09-15-amelie-lernstand.md`.
+
 ## Eine Lektion (JSON)
 
 ```json

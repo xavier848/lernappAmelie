@@ -1,0 +1,152 @@
+{
+  "topic_slug": "oesterreichisch",
+  "slug": "oe-wiederholung-1",
+  "title": "Griaß di oder Pfiat di? Alles nochmal, anders gefragt",
+  "sort": 4,
+  "intro": "🔁 Diese Lektion fragt den Stoff aus den ersten drei Lektionen nochmal, aber andersherum. Drei Sachen bringst du noch durcheinander. Hier sind die Regeln dazu.\n\nMERKE: Griaß sagst du beim Kommen, Pfiat beim Gehen. Griaß klingt wie grüßen. Pfiat klingt wie behüt dich.\n\n> Griaß di = Grüß dich (beim Kommen)\n\n> Pfiat di = Tschüss (beim Gehen)\n\nDas Ende vom Gruß sagt dir, wie viele Leute gemeint sind: di ist eine Person, enk sind mehrere. Und Leit heißt Leute, das sind immer mehrere.\n\nMERKE: a vor einem Ding heißt ein: a Madl, a Bett. a nach einer Person heißt auch: I a, du a, mir a.\n\nBei den Helfer-Wörtern hilft das Ende: Endet das Wort auf st, gehört es zu du. Host, konnst, mogst.\n\n> I hob, du host, mir hom = ich habe, du hast, wir haben\n\n> I bin, mir san = ich bin, wir sind\n\n> wor = war. woaß = weiß. Sprich beide laut, dann hörst du den Unterschied.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Sagt man das beim Kommen oder beim Gehen? Sortiere die Grüße. 👋",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "kommen", "label": "Beim Kommen", "icon": "🚪" },
+          { "id": "gehen", "label": "Beim Gehen", "icon": "👋" }
+        ],
+        "items": [
+          { "text": "Griaß di", "bucket": "kommen" },
+          { "text": "Griaß enk", "bucket": "kommen" },
+          { "text": "Pfiat di", "bucket": "gehen" },
+          { "text": "Pfiat enk", "bucket": "gehen" }
+        ],
+        "explanation": "Schau nur auf den Anfang vom Gruß. Griaß klingt wie grüßen, das machst du beim Kommen. Pfiat klingt wie behüt dich, das wünschst du beim Gehen. Das Ende di oder enk sagt nur, wie viele Leute da sind, nicht wann."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Die ganze Klasse kommt in die Schulküche. Du bist schon da. Was sagst du zu allen? 🍳",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Griaß enk!", "correct": true },
+          { "text": "Pfiat enk!" },
+          { "text": "Griaß di!" }
+        ],
+        "explanation": "Die Klasse kommt an, also grüßt du: Griaß. Es sind mehrere Leute, also enk. Pfiat enk wäre ein Abschied. Griaß di sagst du nur zu einer Person."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Eine dieser Übersetzungen ist falsch. Welche? 🔍",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Leit heißt eine Person.", "correct": true },
+          { "text": "Leit heißt Leute." },
+          { "text": "Kloaner heißt Kleiner." }
+        ],
+        "explanation": "Leit ist das Wort Leute, nur mit ei statt eu gesprochen. Leute sind immer mehrere Menschen. Kloaner ist der Kleine, das ist eine Person."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Heißt das kleine Wort a hier ein oder auch? Schau, was davor steht. Sortiere. 🔤",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "ein", "label": "ein: a steht vor einem Ding", "icon": "📦" },
+          { "id": "auch", "label": "auch: a steht nach einer Person", "icon": "🙋" }
+        ],
+        "items": [
+          { "text": "a Madl", "bucket": "ein" },
+          { "text": "a Bett", "bucket": "ein" },
+          { "text": "a Kaffee", "bucket": "ein" },
+          { "text": "I a", "bucket": "auch" },
+          { "text": "Du a", "bucket": "auch" },
+          { "text": "Mir a", "bucket": "auch" }
+        ],
+        "explanation": "Schau, was vor dem a steht. Steht davor eine Person wie i, du oder mir, heißt a auch: ich auch, du auch, wir auch. Steht a am Anfang und danach ein Ding oder ein Mensch, heißt es ein: ein Mädchen, ein Bett."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "Du bestellst beim Bäcker. Baue den Satz auf Österreichisch: Ein Wasser und einen Kaffee. 🥤",
+        "tts_lang": "de-AT",
+        "mode": "words",
+        "steps": [
+          { "text": "A" },
+          { "text": "Wasser" },
+          { "text": "und" },
+          { "text": "an" },
+          { "text": "Kaffee" }
+        ],
+        "explanation": "Die Reihenfolge ist genau wie im Deutschen: ein Wasser und einen Kaffee. Was im Deutschen zuerst kommt, kommt auch im Dialekt zuerst. A heißt ein, an heißt einen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "Deine Freundin sagt: Des woaß i. 💡 Was meint sie?",
+        "tts_lang": "de-AT",
+        "options": [
+          { "text": "Das weiß ich.", "correct": true },
+          { "text": "Das war ich." },
+          { "text": "Das mag ich." }
+        ],
+        "explanation": "Woaß heißt weiß: Aus ei wird oa. Wor heißt war: Aus a wird o. Sprich beide laut. Woaß hat zwei Laute in der Mitte, wor nur einen. Mog heißt mag."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "Welches kleine Wort passt davor: i, du oder mir? Sortiere die Helfer-Wörter. 🗣️",
+        "tts_lang": "de-AT",
+        "buckets": [
+          { "id": "ich", "label": "i (ich)", "icon": "🙋" },
+          { "id": "du", "label": "du", "icon": "👉" },
+          { "id": "wir", "label": "mir (wir)", "icon": "👥" }
+        ],
+        "items": [
+          { "text": "hob", "bucket": "ich" },
+          { "text": "bin", "bucket": "ich" },
+          { "text": "host", "bucket": "du" },
+          { "text": "konnst", "bucket": "du" },
+          { "text": "hom", "bucket": "wir" },
+          { "text": "san", "bucket": "wir" }
+        ],
+        "explanation": "Endet das Wort auf st, gehört es zu du, wie im Deutschen du hast, du kannst. Hom und san sind haben und sind für wir: mir hom, mir san. Hob und bin gehören zu i: i hob, i bin."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Andersherum: Wie sagt man das hier? Links Deutsch, rechts Österreichisch. 🔄",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Wir haben" }, "right": { "text": "Mir hom" } },
+          { "left": { "text": "Du hast" }, "right": { "text": "Du host" } },
+          { "left": { "text": "Wir sind" }, "right": { "text": "Mir san" } },
+          { "left": { "text": "Ich bin" }, "right": { "text": "I bin" } }
+        ],
+        "memory": false,
+        "explanation": "Wir heißt mir, das ist der falsche Freund. Zu mir gehören hom und san. Zu du gehört host, mit st am Ende. Ich bin bleibt fast gleich: i bin."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "Memory zum Schluss: Finde die Paare! 🃏",
+        "tts_lang": "de-AT",
+        "pairs": [
+          { "left": { "text": "Griaß di" }, "right": { "text": "Grüß dich" } },
+          { "left": { "text": "Pfiat di" }, "right": { "text": "Tschüss" } },
+          { "left": { "text": "Leit" }, "right": { "text": "Leute" } }
+        ],
+        "memory": true,
+        "explanation": "Griaß ist beim Kommen, Pfiat beim Gehen. Leit sind die Leute, also mehrere. Merk dir gut, wo jede Karte liegt."
+      }
+    }
+  ]
+}

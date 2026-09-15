@@ -1,0 +1,127 @@
+{
+  "topic_slug": "englisch",
+  "slug": "englisch-uhrzeiten",
+  "title": "Uhrzeiten: past und to",
+  "sort": 31,
+  "intro": "🕰️ Gäste fragen oft nach der Uhrzeit: Wann gibt es Frühstück? Wann fährt der Bus? Im Englischen sagst du die Uhrzeit mit zwei kleinen Wörtern: past und to.\n\n> a quarter past seven = Viertel nach sieben = 7:15\n\n> a quarter to eight = Viertel vor acht = 7:45\n\nMERKE: past heißt nach. to heißt vor.\n\nBei halb ist es tückisch. Im Englischen nennst du die Stunde, die schon vorbei ist.\n\n> half past nine = halb zehn = 9:30\n\nMERKE: half past nine ist halb zehn. Die englische Zahl ist immer eins kleiner als die deutsche.\n\nVolle Stunden sind einfach.\n\n> ten o'clock = zehn Uhr = 10:00\n\nFrag dich bei jeder Uhrzeit: Steht past oder to im Satz? Past: Die Stunde ist schon vorbei. To: Die Stunde kommt erst noch.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧭 Was heißt past bei der Uhrzeit? Zum Beispiel: ten past six.",
+        "options": [
+          { "text": "nach", "correct": true },
+          { "text": "vor" },
+          { "text": "halb" }
+        ],
+        "explanation": "Past heißt nach. Ten past six heißt zehn nach sechs, also 6:10. Vor heißt to. Halb heißt half past."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🕰️ Englische Uhrzeiten: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "a quarter past seven" }, "right": { "text": "Viertel nach sieben (7:15)" } },
+          { "left": { "text": "a quarter to eight" }, "right": { "text": "Viertel vor acht (7:45)" } },
+          { "left": { "text": "half past nine" }, "right": { "text": "halb zehn (9:30)" } },
+          { "left": { "text": "ten o'clock" }, "right": { "text": "zehn Uhr (10:00)" } }
+        ],
+        "memory": false,
+        "explanation": "Suche zuerst das kleine Wort. Past heißt nach: past seven ist nach sieben. To heißt vor: to eight ist vor acht. Half past nine ist halb zehn, weil neun schon vorbei ist. O'clock ist die volle Stunde."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Ist die volle Stunde schon vorbei, oder kommt sie erst noch? Sortiere die Uhrzeiten.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          { "id": "past", "label": "past: nach der vollen Stunde", "icon": "➡️" },
+          { "id": "to", "label": "to: vor der vollen Stunde", "icon": "⬅️" }
+        ],
+        "items": [
+          { "text": "ten past six", "bucket": "past" },
+          { "text": "a quarter past nine", "bucket": "past" },
+          { "text": "half past two", "bucket": "past" },
+          { "text": "ten to six", "bucket": "to" },
+          { "text": "a quarter to nine", "bucket": "to" },
+          { "text": "five to two", "bucket": "to" }
+        ],
+        "explanation": "Suche in jeder Uhrzeit das kleine Wort. Steht dort past, ist die volle Stunde schon vorbei, das heißt nach. Steht dort to, kommt die volle Stunde erst noch, das heißt vor. Die Zahlen davor und danach sind egal."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕤 Ein Gast sagt: We will be back at half past nine. Wie spät ist das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "9:30, also halb zehn.", "correct": true },
+          { "text": "8:30, also halb neun." },
+          { "text": "9:45, also Viertel vor zehn." }
+        ],
+        "explanation": "Half past nine heißt: eine halbe Stunde nach neun. Auf Deutsch sagen wir dazu halb zehn. Die englische Zahl ist immer eins kleiner als die deutsche: half past nine ist halb zehn."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Ein Gast fragt: When is breakfast? Frühstück ist um Viertel vor acht. Was sagst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "Breakfast is at a quarter to eight.", "correct": true },
+          { "text": "Breakfast is at a quarter past eight." },
+          { "text": "Breakfast is at half past eight." }
+        ],
+        "explanation": "Viertel vor acht: Die Stunde acht kommt erst noch, darum to. A quarter to eight ist 7:45. A quarter past eight wäre Viertel nach acht, also 8:15."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚌 Baue den Satz: Der Bus fährt um Viertel nach neun.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          { "text": "The" },
+          { "text": "bus" },
+          { "text": "leaves" },
+          { "text": "at" },
+          { "text": "a quarter past" },
+          { "text": "nine" }
+        ],
+        "explanation": "Erst der Satz: The bus leaves. Dann die Zeit ganz hinten: at a quarter past nine. Viertel nach heißt a quarter past, und die Stunde kommt danach."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⏰ Alles um acht Uhr herum. Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          { "left": { "text": "8:00" }, "right": { "text": "eight o'clock" } },
+          { "left": { "text": "8:15" }, "right": { "text": "a quarter past eight" } },
+          { "left": { "text": "8:30" }, "right": { "text": "half past eight" } },
+          { "left": { "text": "8:45" }, "right": { "text": "a quarter to nine" } }
+        ],
+        "memory": false,
+        "explanation": "Bis zur halben Stunde sagst du past eight. Nach der halben Stunde sagst du to nine, weil die nächste Stunde näher ist. 8:45 heißt darum a quarter to nine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss ganz leicht: Check-out is at ten o'clock. Wie spät ist das?",
+        "tts_lang": "en-GB",
+        "options": [
+          { "text": "10:00", "correct": true },
+          { "text": "10:10" },
+          { "text": "9:50" }
+        ],
+        "explanation": "O'clock ist die volle Stunde. Ten o'clock ist genau zehn Uhr, ohne Minuten davor oder danach."
+      }
+    }
+  ]
+}
