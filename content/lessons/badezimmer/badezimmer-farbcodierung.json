@@ -1,0 +1,141 @@
+{
+  "topic_slug": "badezimmer",
+  "slug": "badezimmer-farbcodierung",
+  "title": "Farbcodierung: Welches Tuch wohin?",
+  "sort": 7,
+  "intro": "In vielen Betrieben haben die Putztücher vier Farben: Rot, Gelb, Grün und Blau. Jede Farbe gehört zu einem Bereich. Das nennt man Farbcodierung. Sie sorgt dafür, dass Keime von der Toilette nicht auf den Küchentisch kommen. Hier lernst du, welche Farbe wohin gehört.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎨 Vier Farben, vier Bereiche. Was gehört zusammen?",
+        "pairs": [
+          { "left": { "text": "🔴 Rot" }, "right": { "text": "Die Toilette und das Urinal" } },
+          { "left": { "text": "🟡 Gelb" }, "right": { "text": "Der Rest vom Bad: Waschbecken, Dusche, Fliesen" } },
+          { "left": { "text": "🟢 Grün" }, "right": { "text": "Wo Lebensmittel verarbeitet werden" } },
+          { "left": { "text": "🔵 Blau" }, "right": { "text": "Möbel und Türen in den anderen Räumen" } }
+        ],
+        "explanation": "Die vier Farben stehen für vier Bereiche, geordnet nach der Keimbelastung. Rot ist der schmutzigste Bereich, Blau der sauberste. Merke dir die Reihenfolge so: Rot ist nur die Toilette. Gelb ist der Rest vom Bad. Grün ist alles rund ums Essen. Blau sind die Möbel im ganzen Haus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Warum haben die Putztücher überhaupt verschiedene Farben?",
+        "options": [
+          { "text": "Damit keine Keime von einem Bereich in den anderen kommen.", "correct": true },
+          { "text": "Damit man sieht, welches Tuch schon gewaschen wurde." },
+          { "text": "Damit jede Mitarbeiterin ihre eigene Farbe hat." }
+        ],
+        "explanation": "Die Farben verhindern die Keimverschleppung. Keimverschleppung heißt: Keime kommen von einer schmutzigen Stelle an eine saubere Stelle. Mit dem WC-Tuch über die Arbeitsfläche zu wischen wäre genau das. An der Farbe siehst du sofort, wo ein Tuch hingehört – auch wenn es für dich sauber aussieht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛁 Im Bad gibt es zwei Farben. Welches Tuch nimmst du wofür?",
+        "buckets": [
+          { "id": "rot", "label": "Rotes Tuch", "icon": "🔴" },
+          { "id": "gelb", "label": "Gelbes Tuch", "icon": "🟡" }
+        ],
+        "items": [
+          { "text": "Die Toilettenschüssel innen", "bucket": "rot" },
+          { "text": "Das Urinal", "bucket": "rot" },
+          { "text": "Die Fliesen direkt hinter der Toilette", "bucket": "rot" },
+          { "text": "Der Spülkasten mit der Spültaste", "bucket": "rot" },
+          { "text": "Das Waschbecken", "bucket": "gelb" },
+          { "text": "Der Wasserhahn an der Dusche", "bucket": "gelb" },
+          { "text": "Die Fliesen neben der Dusche", "bucket": "gelb" },
+          { "text": "Die Badewanne", "bucket": "gelb" }
+        ],
+        "explanation": "Frag dich bei jedem Teil: Ist es die Toilette selbst – oder steht es nur im gleichen Raum? Rot ist nur das WC mit allem, was direkt daneben ist. Alles andere im Bad ist gelb, auch wenn es im selben Raum steht. Achtung: Das Wort „Fliesen“ verrät dir gar nichts. Es kommt nur darauf an, WO die Fliesen sind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚽 Du hast mit dem roten Tuch die Toilette geputzt. Jetzt ist das Waschbecken dran. Was machst du?",
+        "options": [
+          { "text": "Ich lege das rote Tuch weg und nehme ein gelbes.", "correct": true },
+          { "text": "Ich wasche das rote Tuch kurz mit Wasser aus und putze damit weiter." },
+          { "text": "Ich drehe das rote Tuch auf die andere, noch saubere Seite." }
+        ],
+        "explanation": "Ein Tuch wechselt nie den Bereich. Auch nicht ausgewaschen und auch nicht umgedreht – die Keime von der Toilette sitzen im ganzen Tuch. Rot bleibt am WC. Für das Waschbecken nimmst du ein gelbes Tuch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Außerhalb vom Bad gibt es zwei Farben. Welches Tuch nimmst du wofür?",
+        "buckets": [
+          { "id": "gruen", "label": "Grünes Tuch", "icon": "🟢" },
+          { "id": "blau", "label": "Blaues Tuch", "icon": "🔵" }
+        ],
+        "items": [
+          { "text": "Die Arbeitsfläche, auf der du Gemüse schneidest", "bucket": "gruen" },
+          { "text": "Das Schneidebrett", "bucket": "gruen" },
+          { "text": "Der Kühlschrank innen", "bucket": "gruen" },
+          { "text": "Die Spüle, in der du den Salat wäschst", "bucket": "gruen" },
+          { "text": "Der Stuhl am Küchentisch", "bucket": "blau" },
+          { "text": "Die Türklinke im Flur", "bucket": "blau" },
+          { "text": "Die Fensterbank im Wohnzimmer", "bucket": "blau" },
+          { "text": "Der Schrank im Schlafzimmer", "bucket": "blau" }
+        ],
+        "explanation": "Frag dich bei jedem Teil: Kommt hier Essen direkt drauf? Grün ist nur da, wo Lebensmittel verarbeitet werden – Arbeitsfläche, Schneidebrett, Spüle, Kühlschrank. Blau ist alles, worauf kein Essen kommt: Möbel, Türen, Fensterbänke. Achtung: Das Wort „Küche“ entscheidet nicht. Ein Stuhl steht zwar in der Küche, aber geschnitten wird darauf nichts – also blau."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Du putzt das ganze Bad. Mit welchem Tuch fängst du an?",
+        "options": [
+          { "text": "Mit dem gelben. Das rote kommt zum Schluss.", "correct": true },
+          { "text": "Mit dem roten, damit das Schlimmste gleich weg ist." },
+          { "text": "Das ist egal, solange ich beide Tücher benutze." }
+        ],
+        "explanation": "Es gilt immer: von rein nach schmutzig. Das Waschbecken und die Dusche sind weniger belastet als die Toilette. Deshalb erst gelb, dann rot. Wer mit Rot anfängt, läuft danach mit den Keimen der Toilette durch das ganze Bad."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🛁 So putzt du ein Bad mit den richtigen Tüchern. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🧺 Benutzte Handtücher wegräumen und das Putzmaterial holen." },
+          { "text": "🧴 Reiniger auf Waschbecken, Dusche und Toilette auftragen." },
+          { "text": "🟡 Während der Reiniger einwirkt: mit dem gelben Tuch den Spiegel putzen." },
+          { "text": "🟡 Mit dem gelben Tuch Waschbecken, Armaturen und Dusche abwischen." },
+          { "text": "🔴 Mit dem roten Tuch die Toilette reinigen." },
+          { "text": "🧹 Ganz zum Schluss den Boden wischen." }
+        ],
+        "explanation": "Zwei Regeln bestimmen die Reihenfolge. Erstens: von rein nach schmutzig, also gelb vor rot. Zweitens: von oben nach unten, darum ist der Boden immer zuletzt dran. Der Reiniger kommt gleich am Anfang drauf, damit er einwirken kann – die Wartezeit nutzt du für den Spiegel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Eine Kollegin putzt. Bei einer Sache geht etwas richtig schief. Bei welcher?",
+        "options": [
+          { "text": "Sie wischt mit dem Tuch vom WC über die Arbeitsfläche in der Küche.", "correct": true },
+          { "text": "Sie nimmt für den Spiegel und für die Dusche dasselbe gelbe Tuch." },
+          { "text": "Sie nimmt für die Fensterbank und für den Schrank dasselbe blaue Tuch." }
+        ],
+        "explanation": "Innerhalb einer Farbe darfst du dasselbe Tuch weiterbenutzen: Spiegel und Dusche sind beide gelb, Fensterbank und Schrank beide blau. Falsch wird es erst, wenn ein Tuch die Farbe wechselt. Vom WC zur Arbeitsfläche ist dabei der schlimmste Weg – von der schmutzigsten Stelle direkt dorthin, wo Essen liegt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss ein Memory: Welche Farbe gehört wohin?",
+        "pairs": [
+          { "left": { "text": "🔴 Rot" }, "right": { "text": "🚽 Toilette" } },
+          { "left": { "text": "🟡 Gelb" }, "right": { "text": "🚿 Dusche" } },
+          { "left": { "text": "🟢 Grün" }, "right": { "text": "🥕 Arbeitsfläche" } },
+          { "left": { "text": "🔵 Blau" }, "right": { "text": "🚪 Türklinke" } }
+        ],
+        "memory": true,
+        "explanation": "Geschafft! Von schmutzig nach sauber: Rot, Gelb, Grün, Blau. Rot ist die Toilette, Gelb der Rest vom Bad, Grün alles rund ums Essen, Blau die Möbel."
+      }
+    }
+  ]
+}
