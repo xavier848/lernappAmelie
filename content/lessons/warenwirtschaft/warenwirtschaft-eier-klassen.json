@@ -36,8 +36,8 @@
         "prompt": "🐔 Warum reicht die Zahl der Eier als Angabe auf der Packung nicht aus?",
         "options": [
           { "text": "Hühner legen unterschiedlich große Eier.", "correct": true },
-          { "text": "Eier darf man im Laden nicht zählen." },
-          { "text": "Jedes Ei ist genau gleich schwer." }
+          { "text": "Eier darf man im Laden gar nicht einzeln zählen." },
+          { "text": "Jedes Ei ist genau gleich schwer und gleich groß." }
         ],
         "explanation": "Ein kleines Ei und ein großes Ei sind sehr verschieden. Für das Kochen und Backen ist das wichtig. Darum zeigt die Gewichtsklasse, wie schwer die Eier ungefähr sind."
       }
@@ -114,9 +114,9 @@
       "data": {
         "prompt": "🔍 Warum brauchen Eier eine Kennzeichnung der Haltungsform?",
         "options": [
-          { "text": "Konventionelle Eier und Bio-Eier sehen gleich aus und schmecken gleich.", "correct": true },
-          { "text": "Bio-Eier haben immer eine grüne Schale und fallen so auf." },
-          { "text": "Konventionelle Eier schmecken immer deutlich bitterer." }
+          { "text": "Konventionelle und Bio-Eier sehen gleich aus und schmecken gleich.", "correct": true },
+          { "text": "Bio-Eier haben immer eine grüne Schale und fallen so jedem sofort auf." },
+          { "text": "Konventionelle Eier schmecken immer deutlich bitterer als Bio-Eier." }
         ],
         "explanation": "Von außen kannst du nicht erkennen, wie die Henne gelebt hat. Nur die Kennzeichnung verrät es dir. Darum steht der Code auf jedem Ei."
       }
@@ -127,7 +127,7 @@
         "prompt": "🖨️ Wie kommt der Code mit der Haltungsform auf das Ei?",
         "options": [
           { "text": "Er wird auf die Schale gedruckt, oft mit einem Laser.", "correct": true },
-          { "text": "Er steht nur auf dem Karton, nie auf dem Ei selbst." },
+          { "text": "Er steht nur auf dem Karton, aber nie auf dem Ei selbst." },
           { "text": "Er steht nur auf einem Zettel am Stall des Bauern." }
         ],
         "explanation": "Der Code steht direkt auf der Eierschale. Die erste Ziffer zeigt die Haltungsform. Die 3 steht für Käfighaltung, auch Kleingruppenhaltung genannt."

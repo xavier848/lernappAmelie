@@ -87,10 +87,10 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "✅ Erlaubt oder verboten bei der Arbeit in der Küche? Sortiere.",
+        "prompt": "✅ Richtig oder nicht erlaubt bei der Arbeit in der Küche? Sortiere.",
         "buckets": [
-          { "id": "ok", "label": "Erlaubt", "icon": "✅" },
-          { "id": "verboten", "label": "Verboten", "icon": "❌" }
+          { "id": "ok", "label": "So ist es richtig", "icon": "✅" },
+          { "id": "verboten", "label": "Nicht erlaubt", "icon": "❌" }
         ],
         "items": [
           { "text": "Saubere Arbeitskleidung", "bucket": "ok" },

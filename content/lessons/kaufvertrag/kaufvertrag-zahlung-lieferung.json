@@ -19,7 +19,7 @@
           { "text": "Vorauszahlung", "bucket": "vor" },
           { "text": "Zug um Zug", "bucket": "bei" },
           { "text": "Ratenzahlung", "bucket": "nach" },
-          { "text": "Zahlung nach Ablauf einer Frist", "bucket": "nach" },
+          { "text": "Zahlung erst zwei Monate nach der Rechnung", "bucket": "nach" },
           { "text": "Zahlung innerhalb von 14 Tagen", "bucket": "nach" }
         ],
         "explanation": "Frag dich: Muss ich zahlen, bevor die Ware da ist? Bei der Vorauszahlung zahlst du alles vorher, bei der Anzahlung einen Teil. Zug um Zug zahlst du genau bei der Übergabe. Bei einer Frist oder bei Raten zahlst du erst später."
@@ -114,16 +114,22 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "sort_buckets",
       "data": {
-        "prompt": "⚖️ Im Vertrag steht nichts zum Gerichtsstand. Der Verkäufer klagt, weil der Käufer nicht bezahlt hat. Wo ist das zuständige Gericht?",
-        "options": [
-          { "text": "Am Firmensitz oder Wohnort des Käufers.", "correct": true },
-          { "text": "Am Geschäftssitz des Verkäufers." },
-          { "text": "Am Ort, an dem die Ware hergestellt wurde." },
-          { "text": "Immer beim Landgericht in der Hauptstadt." }
+        "prompt": "⚖️ Im Vertrag steht nichts zum Gerichtsstand. Welches Gericht ist dann zuständig? Sortiere.",
+        "buckets": [
+          { "id": "verk", "label": "Gericht am Geschäftssitz des Verkäufers", "icon": "🏪" },
+          { "id": "kaeuf", "label": "Gericht am Firmensitz oder Wohnort des Käufers", "icon": "🏠" }
         ],
-        "explanation": "Ohne Vereinbarung gilt das Gesetz. Streit um die Bezahlung: Gericht am Firmensitz oder Wohnort des Käufers. Streit um die Ware: Gericht am Geschäftssitz des Verkäufers. Frag dich also: Wer schuldet hier etwas? Dort ist das Gericht."
+        "items": [
+          { "text": "Streit, weil die Ware kaputt ist", "bucket": "verk" },
+          { "text": "Streit, weil die Ware nicht geliefert wurde", "bucket": "verk" },
+          { "text": "Streit um eine falsche Warenmenge", "bucket": "verk" },
+          { "text": "Streit, weil der Käufer nicht bezahlt hat", "bucket": "kaeuf" },
+          { "text": "Streit, weil der Käufer zu wenig bezahlt hat", "bucket": "kaeuf" },
+          { "text": "Streit, weil die Rechnung zu spät bezahlt wurde", "bucket": "kaeuf" }
+        ],
+        "explanation": "Frag dich: Geht es um die Ware oder um das Geld? Streit um die Ware: Gericht am Geschäftssitz des Verkäufers. Streit um die Bezahlung: Gericht am Firmensitz oder Wohnort des Käufers. So regelt es das Gesetz, wenn im Vertrag nichts steht."
       }
     },
     {
