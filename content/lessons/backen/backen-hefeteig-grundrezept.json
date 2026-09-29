@@ -1,0 +1,139 @@
+{
+  "topic_slug": "backen",
+  "slug": "backen-hefeteig-grundrezept",
+  "title": "Hefeteig: Vorteig und Gehenlassen",
+  "sort": 629,
+  "intro": "🍞 Grundrezept Hefeteig, klassisch süß: 500 g Mehl. 1 Würfel frische Hefe, das sind 42 g. 1 TL Zucker. 2-mal ⅛ l lauwarme Milch oder lauwarmes Wasser. 60 g Zucker. 1 Prise Salz. 80 g Butter oder Margarine.\n\nDie Flüssigkeit erwärmst du in einem kleinen Topf. Oder in der Mikrowelle, bei 600 Watt etwa 1 Minute 30 Sekunden.\n\nSo machst du den Vorteig: Du gibst das Mehl in eine Rührschüssel und drückst eine Mulde in die Mitte. Die Hefe bröckelst du in die Mulde. Den TL Zucker streust du über die Hefe. Dann rührst du ⅛ l lauwarme Milch unter. In der Mulde entsteht ein dickflüssiger Teig. Das ist der Vorteig. Du deckst ihn mit einem sauberen Geschirrtuch ab. Er geht etwa 15 Minuten an einem warmen Ort.\n\nDann streust du 60 g Zucker und 1 Prise Salz auf den Mehlrand. Die Butter verteilst du in kleinen Flöckchen auf dem Mehlrand. Du verknetest alles mit den Knethaken. Dabei gibst du die zweite Portion lauwarme Milch nach und nach dazu. Der Teig ist fertig, wenn er glatt und elastisch ist und sich vom Schüsselrand gelöst hat.\n\nMERKE: Danach deckst du den Teig ab und lässt ihn etwa 15 Minuten an einem warmen Ort gehen. Sein Volumen soll sich verdoppeln. Dann knetest du ihn noch einmal kräftig durch und verarbeitest ihn weiter.\n\nGut zum Gehenlassen sind: der Backofen bei höchstens 30 °C. Oder der Backofen bei 50 °C mit leicht geöffneter Tür. Oder ein Platz in der Nähe der Heizung.\n\nKalte Zubereitung: Du kannst auch kalte Flüssigkeit nehmen. Dann lässt du den Teig über Nacht im Kühlschrank oder im Kühlhaus gehen. Die Schüssel ist dabei gut abgedeckt.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚖️ Grundrezept Hefeteig süß: Wie viel kommt hinein? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🌾 Mehl"}, "right": {"text": "500 g"} },
+          { "left": {"text": "🍞 Frische Hefe"}, "right": {"text": "1 Würfel, das sind 42 g"} },
+          { "left": {"text": "🧈 Butter oder Margarine"}, "right": {"text": "80 g"} },
+          { "left": {"text": "🍬 Zucker für den Mehlrand"}, "right": {"text": "60 g"} },
+          { "left": {"text": "🥛 Lauwarme Milch"}, "right": {"text": "2-mal ⅛ l"} }
+        ],
+        "memory": false,
+        "explanation": "Die Milch kommt in zwei Portionen dazu: ⅛ l für den Vorteig und ⅛ l beim Kneten. 1 Würfel frische Hefe wiegt 42 g. Mehl ist mit 500 g die größte Menge."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Was ist der Vorteig beim Hefeteig?",
+        "options": [
+          { "text": "Hefe, 1 TL Zucker und ⅛ l lauwarme Milch, in der Mulde verrührt.", "correct": true },
+          { "text": "Der ganze fertige Teig, kurz bevor er in den Ofen geschoben wird." },
+          { "text": "Ein Teig ganz ohne Hefe, der vorher eine Nacht lang ruhen muss." }
+        ],
+        "explanation": "Der Vorteig entsteht in der Mulde im Mehl. Die Hefe bekommt Zucker, lauwarme Milch und etwas Mehl. So kann sie schon wachsen, bevor die anderen Zutaten dazukommen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍞 Hefeteig klassisch süß: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🌾 Mehl in die Schüssel geben, eine Mulde drücken." },
+          { "text": "🍞 Hefe in die Mulde bröckeln, 1 TL Zucker darüberstreuen." },
+          { "text": "🥛 ⅛ l lauwarme Milch unterrühren, den Vorteig gehen lassen." },
+          { "text": "🧈 Zucker, Salz und Butterflöckchen auf den Mehlrand geben." },
+          { "text": "🌀 Verkneten, dabei die restliche Milch nach und nach zugeben." },
+          { "text": "⏳ Den Teig abgedeckt gehen lassen, bis er doppelt so groß ist." }
+        ],
+        "explanation": "Zuerst bekommt die Hefe Zeit im Vorteig. Erst danach kommen Zucker, Salz und Fett vom Rand dazu. Beim Kneten gibst du die zweite Portion Milch nach und nach zu. Zum Schluss geht der ganze Teig."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Wie viele Minuten lässt du den Vorteig ungefähr an einem warmen Ort gehen?",
+        "answer": 15,
+        "hint": "Es ist eine Viertelstunde.",
+        "explanation": "Der Vorteig geht etwa 15 Minuten, abgedeckt mit einem sauberen Geschirrtuch, an einem warmen Ort."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Woran erkennst du, dass der Hefeteig fertig geknetet ist?",
+        "options": [
+          { "text": "Er ist glatt und elastisch und löst sich vom Schüsselrand.", "correct": true },
+          { "text": "Er ist noch flüssig und läuft langsam vom Knethaken herunter." },
+          { "text": "Er ist trocken und krümelig und zerfällt in kleine Stücke." }
+        ],
+        "explanation": "Ein fertig gekneteter Hefeteig ist glatt und elastisch. Er klebt nicht mehr an der Schüssel, sondern löst sich vom Schüsselrand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Wie lange lässt du den fertig gekneteten Hefeteig gehen?",
+        "options": [
+          { "text": "Bis sich sein Volumen verdoppelt hat.", "correct": true },
+          { "text": "Bis er ungefähr dreimal so groß geworden ist." },
+          { "text": "Genau 2 Stunden, ganz egal wie groß." }
+        ],
+        "explanation": "Der Teig geht abgedeckt an einem warmen Ort, im Grundrezept etwa 15 Minuten. Entscheidend ist: Sein Volumen soll sich verdoppeln."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌡️ Wo kann Hefeteig gut gehen? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gut zum Gehenlassen", "icon": "✅" },
+          { "id": "schlecht", "label": "Nicht geeignet", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Backofen bei höchstens 30 °C", "bucket": "gut" },
+          { "text": "Backofen bei 50 °C, Tür leicht geöffnet", "bucket": "gut" },
+          { "text": "In der Nähe der Heizung", "bucket": "gut" },
+          { "text": "Backofen bei 100 °C", "bucket": "schlecht" },
+          { "text": "Direkt auf der heißen Herdplatte", "bucket": "schlecht" },
+          { "text": "Im Gefrierfach", "bucket": "schlecht" }
+        ],
+        "explanation": "Hefe mag es warm, aber nicht heiß. Über 50 °C sterben die Hefepilze. Darum lässt du die Ofentür bei 50 °C leicht offen. Im Gefrierfach ist es viel zu kalt, da wächst die Hefe kaum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📡 Du erwärmst die Milch für den Hefeteig in der Mikrowelle. Wie lange?",
+        "options": [
+          { "text": "Bei 600 Watt etwa 1 Minute 30 Sekunden.", "correct": true },
+          { "text": "Bei 600 Watt etwa 10 Minuten lang." },
+          { "text": "Bei höchster Stufe, bis sie sprudelnd kocht." }
+        ],
+        "explanation": "Die Milch soll nur handwarm werden, etwa 30 °C. Bei 600 Watt reichen etwa 1 Minute 30 Sekunden. Kochende Milch würde die Hefe zerstören."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌙 Du willst den Hefeteig abends machen und morgens backen. Wie geht das?",
+        "options": [
+          { "text": "Mit kalter Flüssigkeit, über Nacht gut abgedeckt im Kühlschrank.", "correct": true },
+          { "text": "Mit heißer Flüssigkeit, über Nacht ganz offen in der warmen Küche." },
+          { "text": "Mit lauwarmer Milch, über Nacht gut verpackt im Gefrierfach." }
+        ],
+        "explanation": "Das ist die kalte Zubereitung. Mit kalter Flüssigkeit wächst die Hefe langsam. Darum kann der Teig über Nacht gut abgedeckt im Kühlschrank oder Kühlhaus gehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤲 Der Hefeteig ist gegangen und doppelt so groß. Was machst du jetzt?",
+        "options": [
+          { "text": "Ihn noch einmal kräftig durchkneten.", "correct": true },
+          { "text": "Ihn sofort und ganz ungeknetet backen." },
+          { "text": "Noch einen ganzen Würfel Hefe dazugeben." }
+        ],
+        "explanation": "Nach dem Gehen knetest du den Teig noch einmal kräftig durch. Dann verarbeitest du ihn weiter, zum Beispiel zu Brötchen oder zu einem Zopf."
+      }
+    }
+  ]
+}
