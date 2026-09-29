@@ -11,7 +11,7 @@
         "prompt": "🗂️ Welche Unfälle und Erkrankungen unterscheidet das Fachbuch?",
         "options": [
           { "text": "Arbeits- und Wegeunfälle sowie Berufskrankheiten.", "correct": true },
-          { "text": "Hausunfälle, Freizeitunfälle und Sportunfälle." },
+          { "text": "Hausunfälle, Freizeitunfälle und alle Sportunfälle." },
           { "text": "Kleine Unfälle, große Unfälle und Glücksfälle." }
         ],
         "explanation": "Das Fachbuch unterscheidet Arbeits- und Wegeunfälle auf der einen Seite und Berufskrankheiten auf der anderen Seite."
@@ -75,7 +75,7 @@
         "prompt": "🚲 Was ist ein Wegeunfall?",
         "options": [
           { "text": "Ein Unfall auf dem direkten Weg zur Arbeit oder nach Hause.", "correct": true },
-          { "text": "Ein Unfall auf dem Weg ins Kino nach dem Feierabend." },
+          { "text": "Ein Unfall auf dem Weg ins Kino nach dem Feierabend mit Freunden." },
           { "text": "Ein Unfall bei einer Wanderung im Urlaub am Meer." }
         ],
         "explanation": "Ein Wegeunfall passiert auf dem direkten Weg zur Arbeit oder auf dem Rückweg. Private Wege, zum Beispiel ins Kino oder im Urlaub, sind keine Wegeunfälle."
@@ -105,7 +105,7 @@
       "data": {
         "prompt": "🩺 Was ist eine Berufskrankheit?",
         "options": [
-          { "text": "Eine Krankheit durch die Arbeit, die über längere Zeit entstanden ist.", "correct": true },
+          { "text": "Eine Krankheit, die über lange Zeit durch die Arbeit entsteht.", "correct": true },
           { "text": "Jede Erkältung, die man sich im Winter bei der Arbeit holt." },
           { "text": "Ein einzelner Schnitt mit dem Messer bei der Arbeit in der Küche." }
         ],
@@ -118,7 +118,7 @@
         "prompt": "🥖 Welche Berufskrankheiten sind im Nahrungsmittelgewerbe häufig?",
         "options": [
           { "text": "Bäckerekzem und Mehlstauballergie.", "correct": true },
-          { "text": "Tennisarm und Sonnenbrand." },
+          { "text": "Tennisarm und Sonnenbrand im Sommer." },
           { "text": "Heuschnupfen und Grippe." }
         ],
         "explanation": "Im Nahrungsmittelgewerbe sind das Bäckerekzem, eine entzündete Haut, und die Mehlstauballergie häufige Berufskrankheiten."
@@ -130,8 +130,8 @@
         "prompt": "✅ Wer muss eine Berufskrankheit anerkennen?",
         "options": [
           { "text": "Der gesetzliche Unfallversicherungsträger.", "correct": true },
-          { "text": "Die Küchenleitung im eigenen Betrieb." },
-          { "text": "Die Kollegen im Team." }
+          { "text": "Die Küchenleitung im eigenen Betrieb allein." },
+          { "text": "Die Kolleginnen und Kollegen im Team." }
         ],
         "explanation": "Eine Krankheit ist erst eine Berufskrankheit, wenn der gesetzliche Unfallversicherungsträger sie anerkannt hat. Das ist die Berufsgenossenschaft."
       }
