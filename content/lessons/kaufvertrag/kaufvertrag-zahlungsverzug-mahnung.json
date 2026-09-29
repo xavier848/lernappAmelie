@@ -1,0 +1,151 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-zahlungsverzug-mahnung",
+  "title": "Zahlungsverzug und Mahnung",
+  "sort": 709,
+  "intro": "Kaufen ist ein Geben und Nehmen. Wer eine Ware bekommt, muss dafür etwas hergeben, meistens Geld. Zahlt der Käufer nicht rechtzeitig, ist er im Zahlungsverzug.\n\nDann schickt der Verkäufer zuerst eine Zahlungserinnerung. Sie ist keine Pflicht. Aber es gehört zum guten Ton, nicht gleich eine Mahnung zu schicken.\n\nDie Reihenfolge ist: 1. Der Verkäufer schickt die Rechnung. 2. Etwa 7 Tage nach der Fälligkeit schickt er eine Zahlungserinnerung. Fällig heißt: Bis dahin muss bezahlt sein. 3. Etwa 10 Tage nach der Zahlungserinnerung schickt er die 1. Mahnung. 4. Ist auch die Frist der Mahnung vorbei, folgen gerichtliche Schritte. Das Ziel ist die Pfändung.\n\nEin Bild im Buch zeigt den Weg so: 1. Mahnung, 2. Mahnung, Vollstreckungsbescheid. Ein Vollstreckungsbescheid ist ein Schreiben vom Gericht. Damit kann sich der Verkäufer sein Geld zwangsweise holen lassen. Das nennt man Pfändung. Dabei wird zum Beispiel Geld vom Konto oder vom Lohn des Schuldners genommen, bis die Schulden bezahlt sind. Der Schuldner ist der, der das Geld schuldet.\n\nIn einer Mahnung steht zum Beispiel: Wir haben Ihnen am 2. November eine Zahlungserinnerung geschickt. Bis heute ist kein Geld eingegangen. Bitte überweisen Sie letztmalig bis zum 30. November den Betrag zuzüglich Mahnkosten. Sonst leiten wir gerichtliche Schritte ein.\n\nBei Zahlungsverzug darf der Verkäufer Verzugszinsen verlangen. Man sagt auch Mahnzinsen. Bei privaten Verbrauchern sind es bis zu 5 % über dem Basiszinssatz der Europäischen Zentralbank (EZB). Bei juristischen Personen sind es 8 % über dem Basiszinssatz. Eine weitere Folge kann sein: Der Verkäufer verkauft dem Kunden in Zukunft nur noch gegen Barkasse, also gegen sofortige Barzahlung.\n\nUnternehmen bezahlen hohe Rechnungen meist erst kurz vor dem Ende der Zahlungsfrist. So bleibt das Geld länger auf ihrem Konto und bringt Zinsen. Beim Online-Banking kann man die Überweisung im Voraus auf einen Termin legen.\n\nMERKE: Rechnung → Zahlungserinnerung (etwa 7 Tage nach Fälligkeit) → 1. Mahnung (etwa 10 Tage später) → gerichtliche Schritte → Pfändung. Mahnzinsen: Verbraucher bis 5 %, juristische Personen 8 % über dem Basiszinssatz.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📨 Der Kunde hat die Rechnung nicht bezahlt. Muss der Verkäufer zuerst eine Zahlungserinnerung schicken?",
+        "options": [
+          { "text": "Nein, aber es gehört zum guten Ton.", "correct": true },
+          { "text": "Ja, sonst darf er niemals mahnen." },
+          { "text": "Nein, er muss sofort vor Gericht gehen." },
+          { "text": "Ja, und zwar immer per Einschreiben." }
+        ],
+        "explanation": "Die Zahlungserinnerung ist nicht verpflichtend. Es gehört aber zum guten Ton, nicht gleich eine Mahnung zu schicken. Erst danach wird es mit der Mahnung ernster."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📋 Der Kunde zahlt nicht. Bringe die Schritte des Verkäufers in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Rechnung verschicken" },
+          { "text": "Zahlungserinnerung schicken" },
+          { "text": "1. Mahnung schicken" },
+          { "text": "Gerichtliche Schritte einleiten" },
+          { "text": "Pfändung" }
+        ],
+        "explanation": "Frag dich: Wie freundlich ist der Schritt noch? Es beginnt freundlich mit der Rechnung und der Erinnerung. Mit der Mahnung wird es ernster. Erst ganz am Ende kommen das Gericht und die Pfändung."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ Wie viele Tage nach der Fälligkeit schickt der Verkäufer etwa die Zahlungserinnerung?",
+        "answer": 7,
+        "hint": "Das ist ungefähr eine Woche.\nWie viele Tage hat eine Woche?",
+        "explanation": "Etwa 7 Tage nach der Zahlungsfälligkeit schickt der Verkäufer die Zahlungserinnerung. Fällig heißt: Bis zu diesem Tag muss bezahlt sein."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📬 Wie viele Tage nach der Zahlungserinnerung folgt etwa die 1. Mahnung?",
+        "answer": 10,
+        "hint": "Es ist etwas mehr als eine Woche.\nEs ist eine runde Zahl.",
+        "explanation": "Etwa 10 Tage nach dem Absenden der Zahlungserinnerung schickt der Verkäufer die 1. Mahnung. Zahlt der Kunde dann immer noch nicht, folgen gerichtliche Schritte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Ein Bild im Buch zeigt: 1. Mahnung, dann 2. Mahnung. Was kommt danach?",
+        "options": [
+          { "text": "Der Vollstreckungsbescheid.", "correct": true },
+          { "text": "Eine neue Rechnung." },
+          { "text": "Die Zahlungserinnerung." },
+          { "text": "Ein Rabatt für den Kunden." }
+        ],
+        "explanation": "Nach der 1. und 2. Mahnung folgt der Vollstreckungsbescheid. Das ist ein Schreiben vom Gericht. Damit kann sich der Verkäufer sein Geld zwangsweise holen lassen, durch eine Pfändung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏦 Was ist eine Pfändung?",
+        "options": [
+          { "text": "Dem Schuldner wird mit Hilfe des Gerichts Geld oder Besitz genommen.", "correct": true },
+          { "text": "Eine freundliche Erinnerung, dass die Rechnung noch offen ist." },
+          { "text": "Ein Rabatt, den ein Kunde für besonders schnelles Zahlen bekommt." },
+          { "text": "Die Rückgabe der Ware an den Verkäufer, weil sie noch nicht bezahlt ist." }
+        ],
+        "explanation": "Bei einer Pfändung holt sich der Verkäufer sein Geld mit Hilfe des Gerichts. Zum Beispiel wird ein Teil vom Lohn oder vom Konto des Schuldners abgezogen, bis die Schulden bezahlt sind. Schuldner ist, wer das Geld schuldet."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Zinsen und Kosten beim Zahlungsverzug. Verbinde.",
+        "pairs": [
+          { "left": {"text": "Privater Verbraucher"}, "right": {"text": "Bis 5 % über dem Basiszinssatz"} },
+          { "left": {"text": "Juristische Person"}, "right": {"text": "8 % über dem Basiszinssatz"} },
+          { "left": {"text": "Basiszinssatz"}, "right": {"text": "Zinssatz der Europäischen Zentralbank"} },
+          { "left": {"text": "Verzugszinsen"}, "right": {"text": "Zinsen, weil jemand zu spät zahlt"} },
+          { "left": {"text": "Mahnkosten"}, "right": {"text": "Kosten für das Mahnschreiben"} }
+        ],
+        "memory": false,
+        "explanation": "Zinsen für zu spätes Zahlen heißen Verzugszinsen oder Mahnzinsen. Grundlage ist der Basiszinssatz der EZB. Für private Verbraucher kommen bis zu 5 % dazu, für juristische Personen 8 %. Firmen zahlen also mehr. Die Kosten für das Mahnschreiben selbst heißen Mahnkosten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Der Basiszinssatz beträgt 2 %. Ein privater Verbraucher zahlt zu spät. Wie viel Prozent Mahnzinsen im Jahr darf der Verkäufer höchstens verlangen?",
+        "answer": 7,
+        "hint": "Für Verbraucher gilt: bis zu 5 % über dem Basiszinssatz.\n2 % + 5 % = ?",
+        "explanation": "Bei privaten Verbrauchern sind es bis zu 5 % über dem Basiszinssatz: 2 % + 5 % = 7 % im Jahr. Bei einer juristischen Person wären es 2 % + 8 % = 10 %."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💶 Ein Kaufpreis von 2 000 € ist im Verzug. Die Mahnzinsen betragen 7 % im Jahr. Der Käufer zahlt ein Vierteljahr zu spät, also etwa 90 Tage. Wie viel Euro Mahnzinsen sind das?",
+        "answer": 35,
+        "hint": "Rechne erst für ein ganzes Jahr: 1 % von 2 000 € sind 20 €. 7 % sind 7 × 20 € = 140 €.\nEin Vierteljahr ist ein Viertel davon: 140 € : 4 = ?",
+        "explanation": "7 % von 2 000 € sind 140 € für ein ganzes Jahr. Für ein Vierteljahr ist es ein Viertel davon: 140 € : 4 = 35 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💼 Warum überweisen Unternehmen hohe Rechnungen oft erst kurz vor dem Ende der Zahlungsfrist?",
+        "options": [
+          { "text": "Das Geld bleibt länger auf dem Konto und bringt Zinsen.", "correct": true },
+          { "text": "Weil frühes Bezahlen für Firmen gesetzlich gar nicht erlaubt ist." },
+          { "text": "Weil sie sonst gar keine Rechnung bekommen." },
+          { "text": "Weil sie so die Mahnkosten sparen wollen." }
+        ],
+        "explanation": "Unternehmen zahlen hohe Rechnungen meist unmittelbar vor Ablauf der Zahlungsfrist. So bleibt das Geld länger auf ihrem Konto. Das bringt einen Zinsgewinn. Beim Online-Banking kann man die Überweisung im Voraus auf den richtigen Termin legen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏪 Ein Kunde zahlt immer wieder zu spät. Welche Folge kann das außer Verzugszinsen noch haben?",
+        "options": [
+          { "text": "Er bekommt Ware künftig nur noch gegen Barzahlung.", "correct": true },
+          { "text": "Er bekommt künftig besonders viel Skonto." },
+          { "text": "Er darf künftig alles in kleinen Raten über mehrere Jahre zahlen." },
+          { "text": "Er bekommt künftig einen Mengenrabatt." }
+        ],
+        "explanation": "Bei Zahlungsschwierigkeiten darf der Verkäufer Verzugszinsen berechnen. Außerdem kann er dem Kunden künftig nur noch gegen Barkasse verkaufen. Barkasse heißt: sofort bar bezahlen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was steht in einer Mahnung?",
+        "options": [
+          { "text": "Zahlen Sie bis zu einem Datum, plus Mahnkosten, sonst folgt das Gericht.", "correct": true },
+          { "text": "Vielen Dank für Ihren schönen Einkauf." },
+          { "text": "Hier ist unser neues Angebot mit Rabatt." }
+        ],
+        "explanation": "Eine Mahnung erinnert an die offene Zahlung. Sie nennt eine letzte Frist und die Mahnkosten. Und sie kündigt gerichtliche Schritte an, falls der Kunde wieder nicht zahlt."
+      }
+    }
+  ]
+}
