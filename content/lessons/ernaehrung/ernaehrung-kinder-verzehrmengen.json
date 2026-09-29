@@ -1,0 +1,149 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-kinder-verzehrmengen",
+  "title": "Kinder: Verzehrmengen und Wirklichkeit",
+  "sort": 568,
+  "intro": "📊 Die optimierte Mischkost sagt genau, wie viel Kinder essen sollen. Die Mengen stehen in einer Tabelle nach Alter (Stand 2017). Es gibt vier Altersgruppen: 1 bis 3, 4 bis 6, 7 bis 9 und 10 bis 12 Jahre. Es sind Durchschnittsmengen. Sie gelten im Mittel für die Altersgruppe, nicht genau für jedes einzelne Kind.\n\nEnergie am Tag: 1 bis 3 Jahre 4,8 MJ, 4 bis 6 Jahre 5,6 MJ, 7 bis 9 Jahre 6,7 MJ, 10 bis 12 Jahre 7,5 MJ.\n\nMERKE: Die empfohlenen Lebensmittel haben drei Stufen. Reichlich: Getränke, Brot und Getreideflocken, Kartoffeln, Nudeln und Reis, Gemüse und Rohkost, Obst. Mäßig: Milch und Milchprodukte, Fleisch und Wurst, Eier, Fisch. Sparsam: Öl, Margarine und Butter.\n\nBeispiel für ein Kind von 4 bis 6 Jahren am Tag: 750 ml Getränke, 130 g Brot und Getreideflocken, 120 g Kartoffeln, Nudeln oder Reis, 230 g Gemüse und Rohkost, 210 g Obst, 350 ml Milch und Milchprodukte, 35 g Fleisch und Wurst und 20 g Öl, Margarine oder Butter.\n\nDie Getränke steigen mit dem Alter: von 600 ml (1 bis 3 Jahre) bis 950 ml (10 bis 12 Jahre). Eier und Fisch zählt die Tabelle pro Woche, nicht pro Tag: je nach Alter 1 bis 3 Eier und 60 bis 90 g Fisch.\n\nGeduldete Lebensmittel liefern höchstens 10 % der Energie. Das sind am Tag 480 kJ (1 bis 3 Jahre) bis 750 kJ (10 bis 12 Jahre). Im Buch steht aus Versehen „J/Tag“. Gemeint ist kJ.\n\nDie Studien DONALD und EsKiMo haben untersucht, was Kinder und Jugendliche wirklich essen. Ergebnis: Die Wirklichkeit weicht stark von der Empfehlung ab. Die Verbesserungsvorschläge: mehr pflanzliche Lebensmittel wie Gemüse, Brot, Reis, Nudeln und Kartoffeln. Mehr Vollkorn statt niedrig ausgemahlenem Mehl. Fettarme Milchprodukte statt Vollmilch. Fettarme Wurst und fettarmes Fleisch statt fettreicher Sorten. Und Raps- oder Sojaöl.\n\nMERKE: Viele Kinder essen in Kita und Schule. Diese Gemeinschaftsverpflegung soll nicht nur satt machen. Das FKE hat optimiX auch für Ganztagsschulen angepasst. Für Kitas und Schulen gibt es eigene Projekte, zum Beispiel von der DGE.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Wie viel davon sollen Kinder essen? Sortiere nach den drei Stufen.",
+        "buckets": [
+          { "id": "reich", "label": "Reichlich", "icon": "🟢" },
+          { "id": "maessig", "label": "Mäßig", "icon": "🟡" },
+          { "id": "sparsam", "label": "Sparsam", "icon": "🔴" }
+        ],
+        "items": [
+          { "text": "🥤 Getränke", "bucket": "reich" },
+          { "text": "🥦 Gemüse und Rohkost", "bucket": "reich" },
+          { "text": "🍎 Obst", "bucket": "reich" },
+          { "text": "🥔 Kartoffeln, Nudeln, Reis", "bucket": "reich" },
+          { "text": "🥛 Milch und Milchprodukte", "bucket": "maessig" },
+          { "text": "🍖 Fleisch und Wurst", "bucket": "maessig" },
+          { "text": "🥚 Eier", "bucket": "maessig" },
+          { "text": "🧈 Öl, Margarine, Butter", "bucket": "sparsam" }
+        ],
+        "explanation": "Frag dich: Kommt es von der Pflanze oder ist es ein Getränk? Dann reichlich. Kommt es vom Tier? Dann mäßig. Ist es reines Fett? Dann sparsam."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥤 Wie viel ml Getränke braucht ein Kind von 4 bis 6 Jahren am Tag?",
+        "answer": 750,
+        "hint": "1 bis 3 Jahre: 600 ml. 7 bis 9 Jahre: 850 ml. Die Zahl liegt genau dazwischen.",
+        "explanation": "Ein Kind von 4 bis 6 Jahren braucht 750 ml Getränke am Tag. Mit dem Alter wird es mehr: 600, 750, 850 und 950 ml."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧒 Ein Kind von 4 bis 6 Jahren: Wie viel am Tag? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥦 Gemüse, Rohkost"}, "right": {"text": "230 g"} },
+          { "left": {"text": "🍎 Obst"}, "right": {"text": "210 g"} },
+          { "left": {"text": "🍞 Brot, Getreideflocken"}, "right": {"text": "130 g"} },
+          { "left": {"text": "🥔 Kartoffeln, Nudeln, Reis"}, "right": {"text": "120 g"} },
+          { "left": {"text": "🍖 Fleisch, Wurst"}, "right": {"text": "35 g"} },
+          { "left": {"text": "🧈 Öl, Margarine, Butter"}, "right": {"text": "20 g"} }
+        ],
+        "explanation": "Zwei Merkhilfen: Gemüse ein bisschen mehr als Obst. Brot ein bisschen mehr als Kartoffeln. Fleisch und Fett sind die kleinsten Mengen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Bei zwei Lebensmitteln gibt die Tabelle die Menge pro Woche an, nicht pro Tag. Bei welchen?",
+        "options": [
+          { "text": "Eier und Fisch", "correct": true },
+          { "text": "Fleisch und Wurst" },
+          { "text": "Milch und Käse" },
+          { "text": "Öl und Butter" }
+        ],
+        "explanation": "Eier und Fisch gibt es nicht jeden Tag. Darum zählt die Tabelle sie pro Woche: je nach Alter 1 bis 3 Eier und 60 bis 90 g Fisch. Fleisch, Milch und Fett zählt sie pro Tag."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚡ Wie viel Energie brauchen Kinder am Tag? Verbinde.",
+        "pairs": [
+          { "left": {"text": "1 bis 3 Jahre"}, "right": {"text": "4,8 MJ"} },
+          { "left": {"text": "4 bis 6 Jahre"}, "right": {"text": "5,6 MJ"} },
+          { "left": {"text": "7 bis 9 Jahre"}, "right": {"text": "6,7 MJ"} },
+          { "left": {"text": "10 bis 12 Jahre"}, "right": {"text": "7,5 MJ"} }
+        ],
+        "explanation": "Die Regel ist einfach: Je älter das Kind, desto mehr Energie braucht es. Das jüngste Kind hat also den kleinsten Wert."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍬 Ein Kind braucht am Tag 5 600 kJ. Geduldete Lebensmittel dürfen höchstens 10 % davon liefern. Wie viel kJ sind das?",
+        "answer": 560,
+        "hint": "10 % heißt: ein Zehntel. Rechne 5 600 : 10.",
+        "explanation": "10 % von 5 600 kJ sind 560 kJ. So viel dürfen Süßigkeiten oder Fast Food höchstens liefern. Die übrigen 90 % kommen aus empfohlenen Lebensmitteln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔬 Was haben die Studien DONALD und EsKiMo gezeigt?",
+        "options": [
+          { "text": "Kinder essen in Wirklichkeit deutlich anders als empfohlen.", "correct": true },
+          { "text": "Kinder essen fast genau so, wie optimiX es empfiehlt." },
+          { "text": "Kinder essen zu viel Gemüse und zu wenig Fleisch." },
+          { "text": "Kinder essen heute nur noch in der Schule, nicht mehr zu Hause." }
+        ],
+        "explanation": "DONALD und EsKiMo haben untersucht, was Kinder und Jugendliche wirklich essen. Der Vergleich mit der optimierten Mischkost zeigt: Die Wirklichkeit weicht erheblich vom Soll ab."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔄 Die Verbesserungsvorschläge: Was sollen Kinder mehr essen, was lieber ersetzen? Sortiere.",
+        "buckets": [
+          { "id": "mehr", "label": "Mehr davon essen", "icon": "⬆️" },
+          { "id": "ersetzen", "label": "Lieber ersetzen", "icon": "🔁" }
+        ],
+        "items": [
+          { "text": "🥦 Gemüse", "bucket": "mehr" },
+          { "text": "🌾 Vollkornbrot", "bucket": "mehr" },
+          { "text": "Fettarme Milchprodukte", "bucket": "mehr" },
+          { "text": "Fettarme Wurst", "bucket": "mehr" },
+          { "text": "🫒 Rapsöl oder Sojaöl", "bucket": "mehr" },
+          { "text": "Brot aus niedrig ausgemahlenem Mehl", "bucket": "ersetzen" },
+          { "text": "Vollmilch", "bucket": "ersetzen" },
+          { "text": "Fettreiche Wurst", "bucket": "ersetzen" }
+        ],
+        "explanation": "Frag dich: Ist es pflanzlich, aus vollem Korn oder fettarm? Dann mehr davon. Ist es fettreich oder aus Weißmehl? Dann lieber durch die bessere Sorte ersetzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏫 Viele Kinder essen in der Ganztagsschule. Was stimmt?",
+        "options": [
+          { "text": "Das FKE hat optimiX auch für Ganztagsschulen angepasst.", "correct": true },
+          { "text": "optimiX gilt nur für das Essen zu Hause in der Familie." },
+          { "text": "In der Schule reicht es, wenn alle satt werden." },
+          { "text": "Für Schulen gibt es überhaupt keine Empfehlungen zum Essen." }
+        ],
+        "explanation": "Kinderernährung ist nicht mehr nur Sache der Familie. Kitas und Schulen müssen ihr Essen so planen, dass die Kinder nicht nur satt werden. Dafür gibt es optimiX für Ganztagsschulen und eigene Projekte, zum Beispiel von der DGE."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Die Tabelle nennt Durchschnittsmengen. Was heißt das?",
+        "options": [
+          { "text": "Sie gelten im Mittel für die Altersgruppe.", "correct": true },
+          { "text": "Jedes Kind muss genau diese Menge essen." },
+          { "text": "Das ist die höchste Menge, die erlaubt ist." }
+        ],
+        "explanation": "Kinder sind verschieden: Manche bewegen sich mehr, manche weniger. Die Mengen sind Durchschnittswerte für die ganze Altersgruppe. Sie helfen beim Planen."
+      }
+    }
+  ]
+}
