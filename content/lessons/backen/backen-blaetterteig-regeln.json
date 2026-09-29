@@ -123,15 +123,17 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "match_pairs",
       "data": {
-        "prompt": "🖌️ Womit bestreichst du Blätterteig für Farbe und Glanz?",
-        "options": [
-          { "text": "Mit Eigelb, verquirlt mit Wasser oder Milch. Schnittflächen bleiben frei.", "correct": true },
-          { "text": "Mit reinem Eiklar, rundherum und auch dick auf alle Schnittflächen." },
-          { "text": "Mit flüssiger Butter, dick auf die ganze Oberfläche und alle Ränder." }
+        "prompt": "🔗 Blätterteig: Was nimmst du wofür? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥚 Verquirltes Eiklar"}, "right": {"text": "Teigplatten und Ränder zusammenkleben"} },
+          { "left": {"text": "🖌️ Eigelb mit Wasser oder Milch"}, "right": {"text": "Farbe und Glanz geben"} },
+          { "left": {"text": "💧 Kaltes Wasser auf dem Blech"}, "right": {"text": "Dampf, der beim Aufgehen hilft"} },
+          { "left": {"text": "🔪 Scharfes Teigrädchen"}, "right": {"text": "Schneiden, ohne den Teig zu drücken"} }
         ],
-        "explanation": "Für Farbe und Glanz nimmst du Eigelb, immer verquirlt mit Wasser oder Milch. Die Schnittflächen lässt du frei, damit das Gebäck aufgehen kann. Eiklar nimmst du nur zum Zusammenkleben."
+        "memory": false,
+        "explanation": "Eiklar ist der Kleber: Damit klebst du Teigplatten und Ränder zusammen. Eigelb verquirlst du immer mit Wasser oder Milch. Es gibt Farbe und Glanz, aber die Schnittflächen lässt du frei. Das kalte Wasser auf dem Blech verdampft im Ofen. Ein scharfes Teigrädchen drückt den Teig nicht zusammen."
       }
     },
     {

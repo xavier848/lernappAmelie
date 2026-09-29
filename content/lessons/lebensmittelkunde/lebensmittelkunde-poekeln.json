@@ -1,0 +1,137 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-poekeln",
+  "title": "Pökeln: Salz, Nitrit und Farbe",
+  "sort": 687,
+  "intro": "🥓 Beim Pökeln reibt man Fleisch mit Pökelsalz ein. Auf der Packung steht zum Beispiel „Pökelsalz (E 252)“. Pökelsalz gibt man auch in Wurstwaren.\n\nPökelsalz ist Kochsalz, gemischt mit Kaliumnitrat, Natriumnitrat oder Natriumnitrit. Ist Nitrat im Pökelsalz, wandeln die Bakterien im Fleisch einen Teil davon in Nitrit um.\n\nMERKE: Pökelsalz macht auf zwei Arten haltbar. Das Salz entzieht dem Fleisch außen Feuchtigkeit, die Oberfläche trocknet. Das Nitrit wirkt gegen Bakterien und hemmt ihre Vermehrung.\n\nAus Nitrit und den Aminosäuren im Fleischeiweiß können Nitrosamine entstehen. Nitrosamine sind krebserregend. In der Nahrung können sie zu Magenkrebs führen.\n\nMERKE: Pökelware, zum Beispiel Kasseler, brätst und grillst du nicht. Und du isst sie nur in vernünftigen Mengen.\n\nBeim Pökeln gehen Mineralstoffe und Eiweiße verloren. Dafür entsteht der Pökelgeschmack, den viele Menschen mögen.\n\nGepökeltes Fleisch wird nach dem Schlachten nicht fadgrau. Denn das Nitrit verbindet sich mit dem Muskelfarbstoff Myoglobin. Dabei entsteht rotes Nitrosomyoglobin. Es bleibt auch beim Erhitzen rot.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧂 Woraus besteht Pökelsalz?",
+        "options": [
+          { "text": "Aus Kochsalz mit Nitrat oder Nitrit.", "correct": true },
+          { "text": "Aus Zucker mit etwas Essig." },
+          { "text": "Nur aus grobem Meersalz." }
+        ],
+        "explanation": "Pökelsalz ist eine Mischung: Kochsalz mit Kaliumnitrat, Natriumnitrat oder Natriumnitrit. Erst diese Stoffe machen es zum Pökelsalz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Wie wird Fleisch gepökelt?",
+        "options": [
+          { "text": "Man reibt es mit Pökelsalz ein.", "correct": true },
+          { "text": "Man kocht es lange in Zuckerwasser." },
+          { "text": "Man friert es ganz ohne Salz ein." }
+        ],
+        "explanation": "Beim Pökeln wird das Fleisch mit Pökelsalz eingerieben. Das Salz wirkt dann auf das Fleisch ein und macht es haltbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Was machen die Bakterien im Fleisch mit dem Nitrat aus dem Pökelsalz?",
+        "options": [
+          { "text": "Sie wandeln einen Teil davon in Nitrit um.", "correct": true },
+          { "text": "Sie wandeln das Nitrat in Zucker um." },
+          { "text": "Sie lassen das Nitrat ganz unverändert." }
+        ],
+        "explanation": "Ist das Pökelsalz aus Nitrat gemacht, wandeln Bakterien im Fleisch einen Teil davon in Nitrit um. Das Nitrit wirkt dann gegen die Vermehrung von Bakterien."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Salz im Pökelsalz"}, "right": {"text": "Entzieht außen Feuchtigkeit"} },
+          { "left": {"text": "Nitrit im Pökelsalz"}, "right": {"text": "Hemmt die Vermehrung von Bakterien"} },
+          { "left": {"text": "Kasseler"}, "right": {"text": "Ein Beispiel für gepökeltes Fleisch"} }
+        ],
+        "memory": false,
+        "explanation": "Pökelsalz wirkt doppelt. Das Salz trocknet die Oberfläche, wie beim Wasserentzug. Das Nitrit wirkt gegen Bakterien. Kasseler ist gepökeltes Schweinefleisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Wie entstehen krebserregende Nitrosamine?",
+        "options": [
+          { "text": "Aus Nitrit und Aminosäuren aus dem Fleischeiweiß.", "correct": true },
+          { "text": "Aus Kochsalz und Wasser beim langsamen Kochen." },
+          { "text": "Aus Zucker und Fett beim Einfrieren im Gefrierfach." }
+        ],
+        "explanation": "Nitrit kann mit Bausteinen des Fleischeiweißes reagieren. Diese Bausteine heißen Aminosäuren. So entstehen Nitrosamine. Sie sind krebserregend."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩺 Wozu können Nitrosamine in der Nahrung führen?",
+        "options": [
+          { "text": "Zu Magenkrebs.", "correct": true },
+          { "text": "Zu Karies an den Zähnen." },
+          { "text": "Zu einem Sonnenbrand." }
+        ],
+        "explanation": "Nitrosamine sind krebserregend. In der Nahrung können sie zu Magenkrebs führen. Darum gehst du mit Pökelware vorsichtig um."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Richtiger Umgang mit Pökelware? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Richtig", "icon": "✅" },
+          { "id": "nein", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Pökelware nicht braten", "bucket": "ja" },
+          { "text": "Pökelware nicht grillen", "bucket": "ja" },
+          { "text": "Pökelware nur in Maßen essen", "bucket": "ja" },
+          { "text": "Kasseler scharf in der Pfanne anbraten", "bucket": "nein" },
+          { "text": "Gepökelte Würstchen auf den Grill legen", "bucket": "nein" },
+          { "text": "Jeden Tag viel Pökelware essen", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Wird die Pökelware stark erhitzt, oder isst man sehr viel davon? Beides ist falsch. So vermeidest du Nitrosamine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Warum wird gepökeltes Fleisch nicht fadgrau?",
+        "options": [
+          { "text": "Nitrit bildet mit dem Muskelfarbstoff rotes Nitrosomyoglobin.", "correct": true },
+          { "text": "Man färbt es heimlich mit roter Lebensmittelfarbe." },
+          { "text": "Das Salz bleicht das Fleisch und macht es dadurch rosa." }
+        ],
+        "explanation": "Der Muskelfarbstoff heißt Myoglobin. Mit Nitrit wird daraus Nitrosomyoglobin. Das ist rot und bleibt auch beim Erhitzen rot."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Was geht beim Pökeln verloren, und was gewinnt man?",
+        "options": [
+          { "text": "Mineralstoffe und Eiweiße gehen verloren. Dafür gibt es Pökelgeschmack.", "correct": true },
+          { "text": "Fett und Zucker gehen verloren. Dafür wird das Fleisch deutlich süßer." },
+          { "text": "Es geht gar nichts verloren. Es schmeckt danach genau wie vorher." }
+        ],
+        "explanation": "Pökeln hat Nachteile und Vorteile. Mineralstoffe und Eiweiße gehen verloren. Dafür entsteht der typische Pökelgeschmack, den viele mögen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wo steckt Pökelsalz außer in gepökeltem Fleisch oft noch drin?",
+        "options": [
+          { "text": "In Wurstwaren.", "correct": true },
+          { "text": "In Obstsaft." },
+          { "text": "In Milch." }
+        ],
+        "explanation": "Pökelsalz wird auch Wurstwaren zugesetzt. Darum sind auch viele Würste rosa und nicht grau."
+      }
+    }
+  ]
+}
