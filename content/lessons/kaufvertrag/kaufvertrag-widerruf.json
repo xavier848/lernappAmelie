@@ -1,0 +1,137 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-widerruf",
+  "title": "Widerrufsrecht: Haustür und Fernabsatz",
+  "sort": 703,
+  "intro": "Manchmal kannst du einen Kaufvertrag widerrufen. Widerrufen heißt: Du nimmst deine Zustimmung zurück. Dann gilt der Vertrag nicht mehr. Dieses Recht haben natürliche Personen, also Verbraucher. Es gilt bei Haustürgeschäften und bei Fernabsatzgeschäften.\n\nEin Haustürgeschäft ist ein Kauf an deiner Haustür oder in deiner Wohnung. Ein Verkäufer kommt unangemeldet zu dir. Dabei wird man leicht überrumpelt. Überrumpelt heißt: Man wird überrascht und entscheidet zu schnell.\n\nBeim Fernabsatzgeschäft stehen sich Käufer und Verkäufer nicht von Angesicht zu Angesicht gegenüber. Du bestellst per Brief, Fax, E-Mail oder im Internet. Ein Beispiel ist der Versandhandel.\n\nWie lange du widerrufen kannst, hängt von der Belehrung ab. Belehrung heißt: Der Verkäufer informiert dich über dein Recht zu widerrufen. Das Buch nennt die Frist auch Widerspruchsfrist. Wurdest du vor dem Vertragsabschluss belehrt, hast du 14 Tage Zeit. Wurdest du erst danach belehrt, hast du einen Monat Zeit. Wurdest du gar nicht belehrt, hast du sechs Monate Zeit.\n\nLädst du den Verkäufer selbst zu dir nach Hause ein, verfällt dein Widerrufsrecht. Denn dann konntest du dich vorbereiten und wurdest nicht überrumpelt.\n\nAußerdem entfällt das Widerrufsrecht bei: Ware, die nach deinen Vorgaben gemacht wurde, zum Beispiel ein maßgeschneidertes Abendkleid. Kopierbaren Medien wie Software oder DVDs, deren Siegel geöffnet ist. Bagatellgeschäften, das sind kleine Käufe meist bis 40 €. Versicherungsverträgen, denn der Versicherungsschutz gilt meist sofort. Und Verträgen, die ein Notar beglaubigt hat, zum Beispiel beim Kauf eines Hauses.\n\nMERKE: Haustür- und Fernabsatzgeschäfte kannst du widerrufen. Frist: 14 Tage bei Belehrung vorher, 1 Monat bei Belehrung nachher, 6 Monate ohne Belehrung.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "↩️ Was bedeutet es, einen Kaufvertrag zu widerrufen?",
+        "options": [
+          { "text": "Ich nehme meine Zustimmung zurück, der Vertrag gilt nicht.", "correct": true },
+          { "text": "Ich beschwere mich über einen Mangel an der Ware." },
+          { "text": "Ich bezahle die Rechnung in mehreren kleinen Raten." },
+          { "text": "Ich bitte den Verkäufer nachträglich um einen kleinen Rabatt." }
+        ],
+        "explanation": "Widerrufen heißt: Du nimmst deine Willenserklärung zurück. Dann gilt der Vertrag nicht mehr. Dieses Recht haben natürliche Personen bei Haustür- und Fernabsatzgeschäften. Eine Beschwerde über einen Mangel heißt dagegen Reklamation."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏠 Welches Geschäft ist das? Sortiere.",
+        "buckets": [
+          { "id": "haus", "label": "Haustürgeschäft", "icon": "🚪" },
+          { "id": "fern", "label": "Fernabsatzgeschäft", "icon": "📦" },
+          { "id": "laden", "label": "Kauf im Laden, von Angesicht zu Angesicht", "icon": "🏪" }
+        ],
+        "items": [
+          { "text": "Ein Vertreter klingelt unangemeldet und verkauft dir einen Staubsauger", "bucket": "haus" },
+          { "text": "Ein Verkäufer kommt ohne Termin in deine Wohnung und verkauft dir Töpfe", "bucket": "haus" },
+          { "text": "Du bestellst Schuhe im Internet", "bucket": "fern" },
+          { "text": "Du bestellst per Fax beim Versandhandel", "bucket": "fern" },
+          { "text": "Du schickst eine Bestellung per Brief", "bucket": "fern" },
+          { "text": "Du bestellst Bücher per E-Mail", "bucket": "fern" },
+          { "text": "Du kaufst im Supermarkt an der Kasse", "bucket": "laden" },
+          { "text": "Du kaufst Gemüse am Marktstand", "bucket": "laden" }
+        ],
+        "explanation": "Frag dich: Wo und wie wurde gekauft? Kommt der Verkäufer unangemeldet zu dir nach Hause, ist es ein Haustürgeschäft. Stehst du dem Verkäufer nicht gegenüber, weil du per Brief, Fax, E-Mail oder Internet bestellst, ist es ein Fernabsatzgeschäft. Kaufst du im Laden von Angesicht zu Angesicht, ist es keins von beiden."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Du bestellst im Internet. Schon vor dem Kauf wurdest du über dein Widerrufsrecht belehrt. Wie viele Tage hast du Zeit zum Widerrufen?",
+        "answer": 14,
+        "hint": "Belehrung vorher heißt: die kürzeste Frist.\nEs sind zwei Wochen. Wie viele Tage sind das?",
+        "explanation": "Mit Belehrung vor dem Vertragsabschluss beträgt die Frist 14 Tage, also zwei Wochen. Belehrung heißt: Der Verkäufer informiert dich über dein Recht zu widerrufen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⏳ Wie lange ist die Frist zum Widerrufen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Belehrung vor dem Vertragsabschluss"}, "right": {"text": "14 Tage"} },
+          { "left": {"text": "Belehrung erst nach dem Vertragsabschluss"}, "right": {"text": "1 Monat"} },
+          { "left": {"text": "Gar keine Belehrung"}, "right": {"text": "6 Monate"} }
+        ],
+        "memory": false,
+        "explanation": "Je schlechter der Verkäufer dich informiert hat, desto länger hast du Zeit. Belehrung vorher: die kürzeste Frist. Belehrung erst hinterher: länger. Gar keine Belehrung: am längsten. Das Buch nennt diese Frist auch Widerspruchsfrist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛋️ Du lädst einen Vertreter selbst zu dir nach Hause ein und kaufst bei ihm ein Sofa. Kannst du widerrufen?",
+        "options": [
+          { "text": "Nein, ich habe ihn eingeladen und wurde nicht überrumpelt.", "correct": true },
+          { "text": "Ja, bei jedem Kauf in der eigenen Wohnung gilt das Widerrufsrecht." },
+          { "text": "Ja, aber nur innerhalb von sechs Monaten." },
+          { "text": "Nein, weil Möbel nie widerrufen werden können." }
+        ],
+        "explanation": "Lädt der Käufer den Verkäufer selbst zum Gespräch nach Hause ein, verfällt das Widerrufsrecht. Der Käufer konnte sich vorbereiten und wurde nicht überrumpelt. Genau davor soll das Widerrufsrecht aber schützen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧽 Kleine Käufe heißen Bagatellgeschäfte. Bei ihnen gibt es kein Widerrufsrecht. Bis zu wie viel Euro gilt ein Kauf meist als Bagatellgeschäft?",
+        "answer": 40,
+        "hint": "Es ist ein kleiner Betrag.\nEr liegt zwischen 30 und 50 Euro.",
+        "explanation": "Bagatellgeschäfte sind kleine Käufe, meist bis 40 €. Bei ihnen entfällt das Widerrufsrecht. Bagatelle heißt: Kleinigkeit."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🚫 Hier gibt es kein Widerrufsrecht. Was ist der Grund? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Maßgeschneidertes Abendkleid"}, "right": {"text": "Nach deinen Vorgaben gefertigt"} },
+          { "left": {"text": "DVD mit geöffnetem Siegel"}, "right": {"text": "Kopierbares Medium"} },
+          { "left": {"text": "Putztücher für 12 € an der Haustür"}, "right": {"text": "Bagatellgeschäft"} },
+          { "left": {"text": "Versicherungsvertrag"}, "right": {"text": "Der Schutz gilt meist sofort"} },
+          { "left": {"text": "Hauskauf"}, "right": {"text": "Vom Notar beglaubigter Vertrag"} },
+          { "left": {"text": "Sofa-Kauf nach eigener Einladung"}, "right": {"text": "Nicht überrumpelt worden"} }
+        ],
+        "memory": false,
+        "explanation": "Merke dir die Ausnahmen aus dem Buch: Ware nach deinen Vorgaben, kopierbare Medien mit geöffnetem Siegel, Bagatellgeschäfte meist bis 40 €, Versicherungen mit sofortigem Schutz und Verträge beim Notar. Außerdem verfällt das Recht, wenn du den Verkäufer selbst eingeladen hast."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↩️ Kannst du widerrufen? Sortiere die Käufe.",
+        "buckets": [
+          { "id": "ja", "label": "Widerruf möglich", "icon": "↩️" },
+          { "id": "nein", "label": "Kein Widerrufsrecht", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Staubsauger für 300 € vom Vertreter an der Haustür", "bucket": "ja" },
+          { "text": "Winterjacke für 90 € aus dem Online-Shop", "bucket": "ja" },
+          { "text": "Software für 60 € per E-Mail bestellt, noch versiegelt", "bucket": "ja" },
+          { "text": "Kaffeemaschine für 80 € per Fax aus dem Katalog", "bucket": "ja" },
+          { "text": "Maßgeschneiderter Anzug aus dem Online-Shop", "bucket": "nein" },
+          { "text": "Computerspiel aus dem Versandhandel, Siegel geöffnet", "bucket": "nein" },
+          { "text": "Obst für 8 € vom Händler an der Haustür", "bucket": "nein" },
+          { "text": "Eigentumswohnung, Vertrag beim Notar", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich zuerst: Ist es ein Haustür- oder Fernabsatzgeschäft? Dann frag dich: Passt eine Ausnahme? Nach Maß gemacht, Siegel geöffnet, nur ein kleiner Betrag oder ein Vertrag beim Notar? Dann gibt es kein Widerrufsrecht. Sonst kannst du widerrufen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du bestellst eine Jacke im Internet. Wie heißt so ein Geschäft?",
+        "options": [
+          { "text": "Fernabsatzgeschäft.", "correct": true },
+          { "text": "Haustürgeschäft." },
+          { "text": "Bagatellgeschäft." }
+        ],
+        "explanation": "Beim Fernabsatzgeschäft stehen sich Käufer und Verkäufer nicht gegenüber. Du bestellst per Brief, Fax, E-Mail oder im Internet."
+      }
+    }
+  ]
+}

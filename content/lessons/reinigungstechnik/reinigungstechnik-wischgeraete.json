@@ -1,0 +1,131 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-wischgeraete",
+  "title": "Besen, Bürsten und Wischgeräte",
+  "sort": 654,
+  "intro": "Für Räume und Möbel gibt es viele Geräte, die du von Hand führst. Bei der Auswahl fragst du: Ist das Gerät praktisch? Passt die Anschaffung zur Größe des Haushalts und zum Schmutzaufkommen? Stehen Einsatz und Wartung im richtigen Verhältnis?\n\nMit dem Besen entfernst du groben und feinen Schmutz. Bürsten nimmst du für schwer zugängliche Stellen, zum Beispiel in der Toilette. Auch für hartnäckigen Schmutz und zum Polieren nimmst du Bürsten.\n\nFeuchtwischgeräte haben einen Rahmen aus Kunststoff oder Metall. Oben ist eine Halterung. Sie klemmt Feuchtwischtücher oder Staubtücher fest. Die Tücher kannst du mehrmals waschen, oder es sind Einmaltücher. Als Sprühwischgerät eignet es sich für die Zwischenreinigung im Privathaushalt. Man nimmt es auch in Einrichtungen.\n\nFeuchtwischmopps haben eine Halterung mit einem Rahmen aus Metall oder einer Sohle aus Kunststoff. Die Mopps werden mit Laschen an der Unterseite befestigt. Oder mit Klappverschlüssen an den Seiten.\n\nDas Breitwischgerät sieht ähnlich aus. Es ist breiter und hat eine Klappvorrichtung. Damit wechselst du den Bezug schnell. Eine Breite von 40 cm ist ergonomisch günstiger als 50 oder 60 cm. Größere Geräte haben mehr Reibungswiderstand. Schmale Geräte gleiten besser. Dann wirst du nicht so schnell müde.\n\nEs gibt auch vorgefeuchtete Mopps. Sie werden zentral vorbereitet. Dann liegen sie in geschlossenen Kunststoffboxen auf dem Reinigungswagen. Das heißt Ready-to-Use-System oder Pre-Wash. Ready to use heißt: fertig zum Benutzen.\n\nEine andere Möglichkeit sind trockene Mopps mit eingebautem Reinigungsmittel. Mit Wasser wird das Mittel aktiviert. Nach dem Waschen werden die Mopps getrocknet. Dann kann man sie unbegrenzt keimfrei lagern. Jeden Mopp kannst du bis zu 800-mal benutzen. Zu viel oder zu wenig Mittel ist dabei ausgeschlossen.\n\nMERKE: Ein Breitwischgerät mit 40 cm Breite ist am ergonomischsten. Bürsten nimmst du für schwer zugängliche Stellen und hartnäckigen Schmutz.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Ein Betrieb kauft ein neues Reinigungsgerät. Welche Frage ist bei der Auswahl wichtig? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Wichtige Frage", "icon": "✅" },
+          { "id": "nein", "label": "Nicht entscheidend", "icon": "➖" }
+        ],
+        "items": [
+          { "text": "Ist das Gerät praktisch?", "bucket": "ja" },
+          { "text": "Passt es zur Größe des Haushalts?", "bucket": "ja" },
+          { "text": "Passt es zum Schmutzaufkommen?", "bucket": "ja" },
+          { "text": "Passen Einsatz und Wartung zusammen?", "bucket": "ja" },
+          { "text": "Hat es eine besonders schöne Farbe?", "bucket": "nein" },
+          { "text": "Ist es gerade das neueste Modell?", "bucket": "nein" }
+        ],
+        "explanation": "Ein Gerät muss zur Arbeit passen. Frag dich: Ist es praktisch? Lohnt es sich für diesen Haushalt und diesen Schmutz? Ist der Aufwand für Einsatz und Wartung angemessen? Farbe und Neuheit sagen darüber nichts."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧹 Welches Gerät passt? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🪥 Bürste"}, "right": {"text": "Schwer zugängliche Stellen und hartnäckiger Schmutz"} },
+          { "left": {"text": "🟫 Feuchtwischgerät"}, "right": {"text": "Rahmen aus Kunststoff oder Metall mit Halterung"} },
+          { "left": {"text": "📏 Breitwischgerät"}, "right": {"text": "Klappvorrichtung für schnellen Bezugwechsel"} },
+          { "left": {"text": "💦 Sprühwischgerät"}, "right": {"text": "Zwischenreinigung im Privathaushalt"} }
+        ],
+        "explanation": "Bürsten kommen in Ecken und lösen festen Schmutz. Das Feuchtwischgerät hält Tücher mit einer Halterung fest. Das Breitwischgerät erkennst du an der Klappvorrichtung. Das Sprühwischgerät ist gut für zwischendurch zu Hause."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Wie werden Wischmopps am Gerät befestigt?",
+        "options": [
+          { "text": "Mit Laschen an der Unterseite oder Klappverschlüssen an den Seiten.", "correct": true },
+          { "text": "Mit Klebestreifen, die man nach jedem einzelnen Raum wieder neu aufklebt." },
+          { "text": "Mit kleinen Schrauben, die man mit dem Schraubenzieher festdreht." }
+        ],
+        "explanation": "Mopps haben an der Unterseite Laschen. Oder das Gerät hat an den Seiten Klappverschlüsse. So wechselst du den Mopp schnell und ohne Werkzeug."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Welche Tücher klemmst du in ein Feuchtwischgerät?",
+        "options": [
+          { "text": "Feuchtwisch- oder Staubtücher, waschbar oder zum Einmalgebrauch.", "correct": true },
+          { "text": "Nur Fensterleder, weil sie am besten auf dem Boden gleiten." },
+          { "text": "Nur Scheuertücher aus Stahl, weil sie Kratzer am Boden entfernen." }
+        ],
+        "explanation": "Die Halterung klemmt Feuchtwischtücher oder Staubtücher fest. Je nach Material kannst du sie mehrmals waschen. Oder es sind Einmaltücher."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📏 Welche Breite in Zentimetern ist beim Breitwischgerät ergonomisch am günstigsten?",
+        "answer": 40,
+        "hint": "Es ist die schmalste der drei üblichen Breiten.\nDie üblichen Breiten sind 40, 50 und 60 cm.",
+        "explanation": "40 cm sind ergonomisch günstiger als 50 oder 60 cm. Schmale Geräte gleiten besser. Größere Geräte haben mehr Reibungswiderstand. Dann wirst du schneller müde."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Warum wirst du mit einem schmaleren Breitwischgerät nicht so schnell müde?",
+        "options": [
+          { "text": "Es gleitet besser, weil der Reibungswiderstand kleiner ist.", "correct": true },
+          { "text": "Es nimmt weniger Wasser auf und ist darum viel leichter zu tragen." },
+          { "text": "Es muss seltener ausgewaschen werden als ein breites Gerät." }
+        ],
+        "explanation": "Ein breites Gerät reibt mit mehr Fläche über den Boden. Das heißt Reibungswiderstand. Ein schmales Gerät gleitet leichter. Darum ermüdest du nicht so schnell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Was ist das Ready-to-Use-System, auch Pre-Wash genannt?",
+        "options": [
+          { "text": "Vorgefeuchtete Mopps, zentral vorbereitet, in geschlossenen Boxen auf dem Wagen.", "correct": true },
+          { "text": "Mopps, die du vor Ort nach jedem einzelnen Raum im Waschbecken gründlich auswäschst." },
+          { "text": "Mopps aus Papier, die nach dem Wischen sofort in den Restmüll kommen." }
+        ],
+        "explanation": "Ready to use heißt: fertig zum Benutzen. Die Mopps werden zentral gewaschen und vorgefeuchtet. In geschlossenen Kunststoffboxen fahren sie auf dem Reinigungswagen mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Trockene Mopps mit eingebautem Reinigungsmittel: Welche Vorteile haben sie?",
+        "options": [
+          { "text": "Keine Über- oder Unterdosierung, keimfrei lagerbar, oft wiederverwendbar.", "correct": true },
+          { "text": "Man braucht nie wieder Wasser, denn sie wischen den Boden ganz trocken sauber." },
+          { "text": "Man wirft sie nach jedem Raum weg, darum sind sie besonders hygienisch." }
+        ],
+        "explanation": "Das Mittel steckt schon im Mopp. Mit Wasser wird es aktiviert. Darum kannst du nicht falsch dosieren. Getrocknet bleiben die Mopps unbegrenzt keimfrei lagerbar. Und sie lassen sich sehr oft benutzen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔁 Wie oft kann man einen trockenen Mopp mit eingebautem Reinigungsmittel bis zu benutzen?",
+        "answer": 800,
+        "hint": "Es sind viele Hundert Male.\nDie Zahl liegt zwischen 700 und 900.",
+        "explanation": "Jeder Mopp lässt sich bis zu 800-mal waschen, trocknen und wieder benutzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Womit entfernst du groben und feinen Schmutz vom Boden?",
+        "options": [
+          { "text": "Mit dem Besen.", "correct": true },
+          { "text": "Mit dem Fensterleder." },
+          { "text": "Mit dem Einwascher." }
+        ],
+        "explanation": "Der Besen entfernt groben und feinen Schmutz. Fensterleder und Einwascher sind für Fenster."
+      }
+    }
+  ]
+}
