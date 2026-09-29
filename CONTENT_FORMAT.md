@@ -173,6 +173,16 @@ Alles in Cent. `fixed` = fester Betrag (nicht änderbar, z. B. Handyvertrag). `s
 ```
 Die Antwort wird über einen großen Ziffernblock eingetippt (kein Raten möglich). `answer` = ganze Zahl ≥ 0. `hint` (optional, mit `\n` für Zeilenumbrüche) erscheint automatisch ab dem zweiten Versuch. Aufgaben am besten mit `scripts/gen-kopfrechnen.mjs` generieren – dann sind alle Antworten rechnerisch garantiert richtig.
 
+**Uhrzeit eintippen:** Mit `"format": "uhrzeit"` ist `answer` eine Uhrzeit als Zahl HHMM (8:39 Uhr → `839`, 15:41 Uhr → `1541`). Der Ziffernblock bekommt dann eine Doppelpunkt-Taste statt „leeren", die Anzeige hängt „Uhr" an. Richtig ist „8:39", „08:39" und auch „839" ohne Doppelpunkt. Die Lektionen „Uhrzeit & Zeit rechnen" erzeugt `scripts/gen-zeitrechnen.mjs` (rechnet Antworten, Tipps und Erklärungen selbst aus).
+```json
+{ "type": "number_input", "data": {
+  "prompt": "🚆 Abfahrt: 7:56 Uhr. Fahrzeit: 43 Minuten. Wann kommt der Zug an?",
+  "answer": 839,
+  "format": "uhrzeit",
+  "hint": "Bis zur vollen Stunde: 7:56 Uhr → 8:00 Uhr sind 4 Minuten.\n43 − 4 = 39 Minuten bleiben übrig.\n8:00 Uhr + 39 Minuten = ?"
+} }
+```
+
 ### 8. `memory_game` – Gedächtnistraining
 ```json
 { "type": "memory_game", "data": {

@@ -1,0 +1,171 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-volle-stunde",
+  "title": "Über die volle Stunde rechnen",
+  "sort": 1,
+  "intro": "Uhrzeiten rechnest du fast wie normale Zahlen. Es gibt nur einen Unterschied: Eine Stunde hat 60 Minuten. Nach 59 Minuten beginnt eine neue Stunde.\n\nEin Beispiel: Es ist 7:56 Uhr. In 4 Minuten ist es 8:00 Uhr. Das ist die volle Stunde.\n\nDer beste Trick heißt Brücke. Rechne zuerst bis zur vollen Stunde. Dann rechnest du den Rest dazu.\n\nSo geht es bei 7:56 Uhr + 43 Minuten: Bis 8:00 Uhr sind es 4 Minuten. 43 − 4 = 39 Minuten bleiben übrig. 8:00 Uhr + 39 Minuten = 8:39 Uhr.\n\nMERKE: 1 Stunde = 60 Minuten. Rechne erst bis zur vollen Stunde, dann den Rest.\n\nSo tippst du eine Uhrzeit ein: erst die Stunde, dann die Minuten. Für 8:39 Uhr tippst du 8, 3, 9. Du kannst auch den Doppelpunkt mittippen: 8 : 3 9.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ Wie viele Minuten hat eine Stunde?",
+        "answer": 60,
+        "hint": "Schau auf die Uhr: Der große Zeiger läuft einmal ganz herum. Dabei zählt er alle Minuten.",
+        "explanation": "Eine Stunde hat 60 Minuten. Nach 59 Minuten beginnt die nächste Stunde."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Es ist 7:56 Uhr. Wie viele Minuten sind es noch bis 8:00 Uhr?",
+        "answer": 4,
+        "hint": "Eine Stunde hat 60 Minuten.\n60 − 56 = ?",
+        "explanation": "60 − 56 = 4. Von 7:56 Uhr bis 8:00 Uhr sind es 4 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Es ist 15:48 Uhr. Wie viele Minuten sind es noch bis 16:00 Uhr?",
+        "answer": 12,
+        "hint": "Eine Stunde hat 60 Minuten.\n60 − 48 = ?",
+        "explanation": "60 − 48 = 12. Von 15:48 Uhr bis 16:00 Uhr sind es 12 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧺 Es ist 9:37 Uhr. Wie viele Minuten sind es bis zur vollen Stunde?",
+        "answer": 23,
+        "hint": "Die volle Stunde ist 10:00 Uhr.\n60 − 37 = ?",
+        "explanation": "60 − 37 = 23. Von 9:37 Uhr bis 10:00 Uhr sind es 23 Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Tom rechnet: 7:56 Uhr + 43 Minuten = 7:99 Uhr. Was hat Tom falsch gemacht?",
+        "options": [
+          {
+            "text": "Nach 59 Minuten beginnt eine neue Stunde. 7:99 Uhr gibt es nicht.",
+            "correct": true
+          },
+          {
+            "text": "Er hätte die Minuten abziehen müssen: 56 − 43 = 13, also 7:13 Uhr."
+          },
+          {
+            "text": "Nichts. 7:99 Uhr ist richtig, die Uhr zeigt dann 99 Minuten."
+          }
+        ],
+        "explanation": "Tom hat die Minuten einfach zusammengezählt: 56 + 43 = 99. Aber eine Stunde hat nur 60 Minuten. Mit der Brücke: 4 Minuten bis 8:00 Uhr, dann noch 39 Minuten. Richtig ist 8:39 Uhr."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌉 Bring den Rechenweg für 7:56 Uhr + 43 Minuten in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Bis zur vollen Stunde rechnen: 7:56 Uhr → 8:00 Uhr sind 4 Minuten."
+          },
+          {
+            "text": "Den Rest ausrechnen: 43 − 4 = 39 Minuten."
+          },
+          {
+            "text": "Den Rest zur vollen Stunde dazuzählen: 8:00 Uhr + 39 Minuten."
+          },
+          {
+            "text": "Das Ergebnis aufschreiben: 8:39 Uhr."
+          }
+        ],
+        "explanation": "Die Brücke hat immer diese Reihenfolge: erst bis zur vollen Stunde, dann den Rest ausrechnen, dann den Rest dazuzählen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ Es ist 8:50 Uhr. Wie spät ist es in 20 Minuten?",
+        "answer": 910,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 8:50 Uhr → 9:00 Uhr sind 10 Minuten.\n20 − 10 = 10 Minuten bleiben übrig.\n9:00 Uhr + 10 Minuten = ?",
+        "explanation": "8:50 Uhr + 20 Minuten = 9:10 Uhr. Brücke: erst 10 Minuten bis 9:00 Uhr, dann noch 10 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ Es ist 11:45 Uhr. Wie spät ist es in 30 Minuten?",
+        "answer": 1215,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 11:45 Uhr → 12:00 Uhr sind 15 Minuten.\n30 − 15 = 15 Minuten bleiben übrig.\n12:00 Uhr + 15 Minuten = ?",
+        "explanation": "11:45 Uhr + 30 Minuten = 12:15 Uhr. Brücke: erst 15 Minuten bis 12:00 Uhr, dann noch 15 Minuten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🕐 Was ist gleich lang? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "15 Minuten"
+            },
+            "right": {
+              "text": "eine Viertelstunde"
+            }
+          },
+          {
+            "left": {
+              "text": "30 Minuten"
+            },
+            "right": {
+              "text": "eine halbe Stunde"
+            }
+          },
+          {
+            "left": {
+              "text": "45 Minuten"
+            },
+            "right": {
+              "text": "eine Dreiviertelstunde"
+            }
+          },
+          {
+            "left": {
+              "text": "60 Minuten"
+            },
+            "right": {
+              "text": "1 Stunde"
+            }
+          },
+          {
+            "left": {
+              "text": "90 Minuten"
+            },
+            "right": {
+              "text": "1 Stunde und 30 Minuten"
+            }
+          },
+          {
+            "left": {
+              "text": "120 Minuten"
+            },
+            "right": {
+              "text": "2 Stunden"
+            }
+          }
+        ],
+        "explanation": "Denk immer an 60: Eine Stunde hat 60 Minuten. Die Hälfte davon sind 30 Minuten, ein Viertel sind 15 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ 75 Minuten sind 1 Stunde und wie viele Minuten?",
+        "answer": 15,
+        "hint": "1 Stunde = 60 Minuten.\n75 − 60 = ?",
+        "explanation": "75 − 60 = 15. Also sind 75 Minuten 1 Stunde und 15 Minuten."
+      }
+    }
+  ]
+}

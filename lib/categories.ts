@@ -23,6 +23,7 @@ export const CATEGORIES: Category[] = [
       "wohnzimmer",
       "kueche",
       "ferienwohnung",
+      "reinigungstechnik",
       "waesche",
       "textilkunde",
       "naehen",
@@ -37,6 +38,7 @@ export const CATEGORIES: Category[] = [
     topicSlugs: [
       "ernaehrung",
       "kochen",
+      "backen",
       "lebensmittelkunde",
       "kuechentechnik",
       "servieren-tisch",
@@ -53,7 +55,7 @@ export const CATEGORIES: Category[] = [
     slug: "mathe",
     title: "Mathe",
     icon: "🧮",
-    topicSlugs: ["kopfrechnen", "geld-rechnen", "mengen-masse"],
+    topicSlugs: ["kopfrechnen", "zeit-rechnen", "geld-rechnen", "mengen-masse"],
   },
   {
     slug: "gedaechtnis",
@@ -89,6 +91,7 @@ export const CATEGORIES: Category[] = [
       "arbeitssicherheit",
       "abfall-nachhaltigkeit",
       "arbeitsorganisation",
+      "kommunikation-beruf",
     ],
   },
   {

@@ -178,15 +178,28 @@ const moneyCountData = z.discriminatedUnion("mode", [
 
 // 7. number_input – Kopfrechnen: Antwort wird eingetippt (nicht geraten).
 // hint = Schritt-fuer-Schritt-Tipp, erscheint beim zweiten Versuch.
-const numberInputData = z.object({
-  ...baseFields,
-  answer: z
-    .number({ error: "answer muss eine Zahl sein." })
-    .int("answer muss eine ganze Zahl sein.")
-    .nonnegative("answer darf nicht negativ sein."),
-  hint: z.string().min(1).optional(),
-  explanation: z.string().min(1).optional(),
-});
+// format "uhrzeit": answer ist eine Uhrzeit als HHMM (8:39 → 839), der
+// Ziffernblock bekommt eine Doppelpunkt-Taste (lib/uhrzeit.ts).
+const numberInputData = z
+  .object({
+    ...baseFields,
+    answer: z
+      .number({ error: "answer muss eine Zahl sein." })
+      .int("answer muss eine ganze Zahl sein.")
+      .nonnegative("answer darf nicht negativ sein."),
+    format: z.enum(["zahl", "uhrzeit"]).optional(),
+    hint: z.string().min(1).optional(),
+    explanation: z.string().min(1).optional(),
+  })
+  .refine(
+    (data) =>
+      data.format !== "uhrzeit" ||
+      (data.answer <= 2359 && data.answer % 100 <= 59),
+    {
+      message: "Bei format 'uhrzeit' ist answer eine Uhrzeit als HHMM (0 bis 2359, Minuten bis 59), z. B. 839 fuer 8:39.",
+      path: ["answer"],
+    },
+  );
 
 // 8. memory_game – Gedaechtnistraining in 2 Modi (kein Zeitdruck: die
 // Merkphase endet erst, wenn Amelie "Ich hab's mir gemerkt" tippt).

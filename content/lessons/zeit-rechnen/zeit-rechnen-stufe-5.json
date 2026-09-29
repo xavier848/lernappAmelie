@@ -1,0 +1,129 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-stufe-5",
+  "title": "Stufe 5: Rückwärts rechnen",
+  "sort": 6,
+  "intro": "Manchmal kennst du das Ende und suchst den Anfang. Zum Beispiel: Der Zug kommt um 10:18 Uhr an. Er braucht 47 Minuten. Wann ist er abgefahren?\n\nDann rechnest du rückwärts: Endzeit minus Dauer.\n\nDie Brücke geht auch rückwärts. Geh zuerst zurück bis zur vollen Stunde: 10:18 Uhr → 10:00 Uhr sind 18 Minuten. 47 − 18 = 29 Minuten musst du noch zurück.\n\nEine Stunde zurück ist 9:00 Uhr. 60 − 29 = 31. Der Zug ist um 9:31 Uhr abgefahren.\n\nMERKE: Endzeit − Dauer = Startzeit. So planst du, wann du spätestens losmusst.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Der Zug kommt um 10:18 Uhr an. Er braucht 47 Minuten. Wann ist er abgefahren?",
+        "answer": 931,
+        "format": "uhrzeit",
+        "hint": "Zurück bis zur vollen Stunde: 10:18 Uhr → 10:00 Uhr sind 18 Minuten.\n47 − 18 = 29 Minuten musst du noch zurück.\nEine Stunde zurück ist 9:00 Uhr.\nDie Minuten nach 9 Uhr: 60 − 29 = ?",
+        "explanation": "10:18 Uhr − 47 Minuten = 9:31 Uhr. Brücke rückwärts: erst 18 Minuten zurück bis 10:00 Uhr, dann noch 29 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏢 Du musst um 8:15 Uhr bei der Arbeit sein. Der Weg dauert 38 Minuten. Wann musst du spätestens losgehen?",
+        "answer": 737,
+        "format": "uhrzeit",
+        "hint": "Zurück bis zur vollen Stunde: 8:15 Uhr → 8:00 Uhr sind 15 Minuten.\n38 − 15 = 23 Minuten musst du noch zurück.\nEine Stunde zurück ist 7:00 Uhr.\nDie Minuten nach 7 Uhr: 60 − 23 = ?",
+        "explanation": "8:15 Uhr − 38 Minuten = 7:37 Uhr. Brücke rückwärts: erst 15 Minuten zurück bis 8:00 Uhr, dann noch 23 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍖 Das Essen soll um 12:30 Uhr fertig sein. Der Braten braucht 1 Stunde und 25 Minuten. Wann muss er in den Ofen?",
+        "answer": 1105,
+        "format": "uhrzeit",
+        "hint": "85 Minuten sind 1 Stunde und 25 Minuten.\n12:30 Uhr − 1 Stunde = 11:30 Uhr\nDie Stunde bleibt gleich. Rechne nur die Minuten: 30 − 25 = ?",
+        "explanation": "85 Minuten sind 1 Stunde und 25 Minuten. 12:30 Uhr − 1 Stunde = 11:30 Uhr. Dann noch 25 Minuten zurück: 11:05 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Die Reitstunde beginnt um 16:10 Uhr. Du brauchst 25 Minuten bis zum Stall. Wann musst du losfahren?",
+        "answer": 1545,
+        "format": "uhrzeit",
+        "hint": "Zurück bis zur vollen Stunde: 16:10 Uhr → 16:00 Uhr sind 10 Minuten.\n25 − 10 = 15 Minuten musst du noch zurück.\nEine Stunde zurück ist 15:00 Uhr.\nDie Minuten nach 15 Uhr: 60 − 15 = ?",
+        "explanation": "16:10 Uhr − 25 Minuten = 15:45 Uhr. Brücke rückwärts: erst 10 Minuten zurück bis 16:00 Uhr, dann noch 15 Minuten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🚆 Der Zug kommt um 10:18 Uhr an und braucht 47 Minuten. Bring den Rechenweg rückwärts in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Zurück bis zur vollen Stunde: 10:18 Uhr → 10:00 Uhr sind 18 Minuten."
+          },
+          {
+            "text": "Den Rest ausrechnen: 47 − 18 = 29 Minuten."
+          },
+          {
+            "text": "Noch 29 Minuten zurück: von 10:00 Uhr aus rückwärts rechnen."
+          },
+          {
+            "text": "Das Ergebnis aufschreiben: 9:31 Uhr."
+          }
+        ],
+        "explanation": "Rückwärts geht die Brücke genauso: erst zurück bis zur vollen Stunde, dann den Rest weiter zurück."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧁 Der Kuchen soll um 15:00 Uhr fertig sein. Er backt 55 Minuten. Wann muss er in den Ofen?",
+        "answer": 1405,
+        "format": "uhrzeit",
+        "hint": "Eine Stunde zurück ist 14:00 Uhr.\nDie Minuten nach 14 Uhr: 60 − 55 = ?",
+        "explanation": "15:00 Uhr − 55 Minuten = 14:05 Uhr. Geh eine Stunde zurück auf 14:00 Uhr. Dann 60 − 55 = 5 Minuten nach 14 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🛏️ Um 16:00 Uhr kommen neue Gäste in die Ferienwohnung. Du brauchst 2 Stunden und 15 Minuten zum Putzen. Wann musst du spätestens anfangen?",
+        "answer": 1345,
+        "format": "uhrzeit",
+        "hint": "135 Minuten sind 2 Stunden und 15 Minuten.\n16:00 Uhr − 2 Stunden = 14:00 Uhr\nEine Stunde zurück ist 13:00 Uhr.\nDie Minuten nach 13 Uhr: 60 − 15 = ?",
+        "explanation": "135 Minuten sind 2 Stunden und 15 Minuten. 16:00 Uhr − 2 Stunden = 14:00 Uhr. Dann noch 15 Minuten zurück: 13:45 Uhr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚆 Der Zug kommt um 14:06 Uhr an. Die Fahrt dauert 52 Minuten. Wann ist er abgefahren?",
+        "options": [
+          {
+            "text": "13:14 Uhr",
+            "correct": true
+          },
+          {
+            "text": "13:54 Uhr"
+          },
+          {
+            "text": "13:24 Uhr"
+          }
+        ],
+        "explanation": "14:06 Uhr − 52 Minuten = 13:14 Uhr. Brücke rückwärts: erst 6 Minuten zurück bis 14:00 Uhr, dann noch 46 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧺 Die Wäsche soll um 11:20 Uhr fertig sein. Das Programm dauert 1 Stunde und 35 Minuten. Wann musst du die Maschine starten?",
+        "answer": 945,
+        "format": "uhrzeit",
+        "hint": "95 Minuten sind 1 Stunde und 35 Minuten.\n11:20 Uhr − 1 Stunde = 10:20 Uhr\nZurück bis zur vollen Stunde: 10:20 Uhr → 10:00 Uhr sind 20 Minuten.\n35 − 20 = 15 Minuten musst du noch zurück.\nEine Stunde zurück ist 9:00 Uhr.\nDie Minuten nach 9 Uhr: 60 − 15 = ?",
+        "explanation": "95 Minuten sind 1 Stunde und 35 Minuten. 11:20 Uhr − 1 Stunde = 10:20 Uhr. Dann noch 35 Minuten zurück: 9:45 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍕 Die Pizza ist um 18:41 Uhr fertig. Sie war 27 Minuten im Ofen. Wann kam sie in den Ofen?",
+        "answer": 1814,
+        "format": "uhrzeit",
+        "hint": "Die Stunde bleibt gleich. Rechne nur die Minuten: 41 − 27 = ?",
+        "explanation": "18:41 Uhr − 27 Minuten = 18:14 Uhr. Die Stunde bleibt gleich, du ziehst nur die Minuten ab."
+      }
+    }
+  ]
+}
