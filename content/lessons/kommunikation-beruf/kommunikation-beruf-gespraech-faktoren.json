@@ -1,0 +1,126 @@
+{
+  "topic_slug": "kommunikation-beruf",
+  "slug": "kommunikation-beruf-gespraech-faktoren",
+  "title": "Gespräche: Was hilft, was stört?",
+  "sort": 689,
+  "intro": "🗣️ Ob ein Gespräch gelingt, hängt von vielen Dingen ab. Manche helfen, andere stören.\n\nDas hilft: angenehme Rahmenbedingungen, zum Beispiel ein geeigneter Raum und gute Sitzmöbel. Eine gute Vorbereitung durch die Gesprächsleitung. Ein freundlicher, offener Gesichtsausdruck bei allen. Langsames Reden, das dem Zuhörer zugewandt ist.\n\nDas stört: viele Störungen von außen, zum Beispiel laute Gespräche vor dem Raum. Einzelne Personen reden sehr viel, sie haben einen hohen Redeanteil. Eine abweisende Körperhaltung, zum Beispiel sitzt jemand mit Blick zum Fenster. Schnelles oder leises Sprechen.\n\n„Ich“-Botschaften helfen. Killerphrasen stören. Eine Killerphrase ist ein Satz, der das Gespräch abwürgt. Zum Beispiel: „Immer bin ich schuld!“\n\nAktives Zuhören hilft. Nur von sich reden und nicht zuhören stört.\n\nEin guter Gesprächsleiter beachtet die Gefühlsebene, wie beim Eisberg-Modell. Sonst übersieht man Konflikte, die unter der „Oberfläche“ liegen.\n\nTransparenz hilft. Das heißt: Alle wissen, wie das Gespräch abläuft. Die Leitung schreibt zum Beispiel die Gesprächsphasen auf ein Flipchart. Das ist ein großer Papierblock auf einem Ständer. Fehlt das, erkennt man keinen „roten Faden“. Der rote Faden ist der klare Ablauf des Gesprächs.\n\nEin Stimmungsbarometer zu Beginn und am Ende bezieht die Gefühle der Teilnehmer ein. Das hilft. Es stört dagegen, wenn Störungen nicht angesprochen werden. Zum Beispiel, wenn jemand anderen ständig ins Wort fällt.\n\nMERKE: Vereinbarungen schreibt man auf. Zum Beispiel schreibt man Etappenziele für alle auf und teilt sie aus. Etappenziele sind Zwischenziele. Ohne Ziel ist ein Gespräch wenig wert.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Hilft das dem Gespräch, oder stört es? Sortiere.",
+        "buckets": [
+          { "id": "hilft", "label": "Hilft", "icon": "👍" },
+          { "id": "stoert", "label": "Stört", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Ein geeigneter Raum mit guten Sitzmöbeln", "bucket": "hilft" },
+          { "text": "Gute Vorbereitung durch die Leitung", "bucket": "hilft" },
+          { "text": "Ein freundlicher, offener Gesichtsausdruck", "bucket": "hilft" },
+          { "text": "Laute Gespräche vor dem Raum", "bucket": "stoert" },
+          { "text": "Eine Person redet fast die ganze Zeit", "bucket": "stoert" },
+          { "text": "Jemand sitzt mit Blick zum Fenster", "bucket": "stoert" }
+        ],
+        "explanation": "Frag dich: Fühlen sich alle wohl und kommen alle zu Wort? Dann hilft es. Lärm, eine abweisende Haltung und ein hoher Redeanteil einzelner Personen stören das Gespräch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was hilft, was stört? Verbinde jeweils das Gegenstück.",
+        "pairs": [
+          { "left": {"text": "Ich-Botschaften"}, "right": {"text": "Killerphrasen"} },
+          { "left": {"text": "Aktives Zuhören"}, "right": {"text": "Nur von sich selbst reden"} },
+          { "left": {"text": "Gesprächsphasen auf dem Flipchart"}, "right": {"text": "Kein roter Faden erkennbar"} },
+          { "left": {"text": "Etappenziele aufschreiben und austeilen"}, "right": {"text": "Kein Ziel erkennbar"} }
+        ],
+        "memory": false,
+        "explanation": "Links steht immer, was hilft. Rechts steht, was passiert, wenn es fehlt. Frag dich bei jedem Paar: Was ist das Gegenteil davon?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💥 Eine Kollegin sagt im Teamgespräch: „Immer bin ich schuld!“ Wie nennt man so einen Satz?",
+        "options": [
+          { "text": "Eine Killerphrase.", "correct": true },
+          { "text": "Eine Ich-Botschaft." },
+          { "text": "Ein Stimmungsbarometer." }
+        ],
+        "explanation": "Der Satz beginnt zwar mit „ich“. Aber er ist ein pauschaler Vorwurf. Pauschal heißt: Er gilt angeblich immer. So ein Satz würgt das Gespräch ab. Das ist eine Killerphrase."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Was bedeutet Transparenz über den Gesprächsverlauf?",
+        "options": [
+          { "text": "Alle wissen, in welcher Phase das Gespräch gerade ist.", "correct": true },
+          { "text": "Nur die Leitung kennt den genauen Ablauf." },
+          { "text": "Das Gespräch wird heimlich mit dem Handy aufgenommen." }
+        ],
+        "explanation": "Transparent heißt durchschaubar. Wenn die Gesprächsphasen zum Beispiel auf einem Flipchart stehen, wissen alle, wo sie gerade sind. So bleibt der rote Faden sichtbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Wozu nutzt man zu Beginn und am Ende ein Stimmungsbarometer?",
+        "options": [
+          { "text": "Um die Gefühle der Teilnehmer einzubeziehen.", "correct": true },
+          { "text": "Um die Temperatur im Raum zu messen." },
+          { "text": "Um die Redezeit jeder Person zu messen." }
+        ],
+        "explanation": "Ein Barometer ist eigentlich ein Messgerät. Das Stimmungsbarometer „misst“ aber die Stimmung. Alle zeigen, wie es ihnen geht. So bezieht man die Gefühlsebene ins Gespräch ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗯️ Im Teamgespräch fällt ein Kollege den anderen immer wieder ins Wort. Die Leiterin sagt nichts dazu. Was ist das Problem?",
+        "options": [
+          { "text": "Störungen, die niemand anspricht, belasten das Gespräch.", "correct": true },
+          { "text": "Kein Problem, denn ins Wort fallen spart viel Zeit." },
+          { "text": "Das stört nur dann, wenn auch Gäste dabei sind." }
+        ],
+        "explanation": "Ins Wort fallen ist eine Störung. Wird sie nicht angesprochen, fühlen sich die anderen übergangen. Eine gute Leitung spricht Störungen deshalb sofort freundlich an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Warum achtet ein guter Gesprächsleiter auf die Gefühlsebene, wie beim Eisberg-Modell?",
+        "options": [
+          { "text": "Damit Konflikte unter der Oberfläche nicht übersehen werden.", "correct": true },
+          { "text": "Damit das Gespräch möglichst schnell vorbei ist." },
+          { "text": "Damit über Gefühle im Beruf gar nicht geredet wird." }
+        ],
+        "explanation": "Beim Eisberg sieht man nur die Spitze. Viele Gefühle und Konflikte liegen unter der Oberfläche. Wer die Gefühlsebene beachtet, erkennt sie rechtzeitig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧵 Was bedeutet es, wenn in einem Gespräch „kein roter Faden“ erkennbar ist?",
+        "options": [
+          { "text": "Man erkennt keinen klaren Ablauf im Gespräch.", "correct": true },
+          { "text": "Das Gespräch dauert länger als geplant." },
+          { "text": "Es gibt keine Getränke für die Teilnehmer." }
+        ],
+        "explanation": "Der rote Faden ist der klare Ablauf eines Gesprächs. Fehlt er, springt das Gespräch hin und her. Die Teilnehmer wissen nicht mehr, worum es gerade geht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wie sprichst du im Gespräch am besten?",
+        "options": [
+          { "text": "Langsam und dem Zuhörer zugewandt.", "correct": true },
+          { "text": "Schnell, damit es nicht so lange dauert." },
+          { "text": "Leise, damit sich niemand gestört fühlt." }
+        ],
+        "explanation": "Langsames Reden ist gut zu verstehen. Wenn du dich dem Zuhörer zuwendest, fühlt er sich angesprochen. Schnelles oder leises Sprechen stört ein Gespräch."
+      }
+    }
+  ]
+}
