@@ -121,21 +121,22 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🧩 Welcher Entwicklungsbereich ist hier gefragt? Sortiere.",
+        "prompt": "📋 Nennt das Buch diesen Bereich als einen der sechs Entwicklungsbereiche? Sortiere.",
         "buckets": [
-          { "id": "motorik", "label": "Motorische Entwicklung", "icon": "🏃" },
-          { "id": "sprache", "label": "Sprachentwicklung", "icon": "🗣️" },
-          { "id": "sozial", "label": "Sozialentwicklung", "icon": "🤝" }
+          { "id": "ja", "label": "Entwicklungsbereich im Buch", "icon": "✅" },
+          { "id": "nein", "label": "Steht nicht in der Liste", "icon": "❌" }
         ],
         "items": [
-          { "text": "Ein Kind lernt, Treppen zu steigen.", "bucket": "motorik" },
-          { "text": "Ein Kind fädelt Perlen auf eine Schnur.", "bucket": "motorik" },
-          { "text": "Ein Kind lernt jeden Tag neue Wörter.", "bucket": "sprache" },
-          { "text": "Ein Kind erzählt in ganzen Sätzen vom Tag.", "bucket": "sprache" },
-          { "text": "Zwei Kinder lösen ihren Streit selbst.", "bucket": "sozial" },
-          { "text": "Ein Kind lernt, Rücksicht auf andere zu nehmen.", "bucket": "sozial" }
+          { "text": "Physiologische Entwicklung", "bucket": "ja" },
+          { "text": "Motorische und feinmotorische Entwicklung", "bucket": "ja" },
+          { "text": "Psychologische und kognitive Entwicklung", "bucket": "ja" },
+          { "text": "Sprachentwicklung", "bucket": "ja" },
+          { "text": "Leistungsmotivation und Leistungsentwicklung", "bucket": "ja" },
+          { "text": "Sozialentwicklung und moralische Entwicklung", "bucket": "ja" },
+          { "text": "Berufliche Entwicklung", "bucket": "nein" },
+          { "text": "Technische Entwicklung", "bucket": "nein" }
         ],
-        "explanation": "Frag dich: Bewegt sich der Körper oder die Hand? Dann ist es Motorik. Geht es um Wörter und Sätze? Dann ist es Sprache. Geht es um das Miteinander, zum Beispiel einen Konflikt bewältigen? Dann ist es Sozialentwicklung."
+        "explanation": "Merk dir die sechs Bereiche mit einer Frage: Was entwickelt sich am Menschen selbst? Körper, Bewegung, Denken und Persönlichkeit, Sprache, Leistungswille und das Miteinander. Beruf und Technik stehen nicht in der Liste des Buches."
       }
     },
     {

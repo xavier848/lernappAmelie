@@ -1,0 +1,154 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-pads-mopps",
+  "title": "Pads und Wischmopps",
+  "sort": 653,
+  "intro": "Pads gibt es in verschiedenen Ausführungen. Ein Beispiel ist der Schwamm mit Griffleisten. Er hat zwei Seiten aus Kunststoff: eine weiche Schwammseite für leichten Schmutz und eine harte Padseite für starken Schmutz.\n\nPads haben verschiedene Farben. Es gilt: Je dunkler die Farbe, desto abrasiver ist das Pad. Abrasiv heißt: Es reibt und scheuert stärker. In Großbetrieben gibt es Padscheiben für Maschinen, zum Beispiel für die Scheuersaugmaschine.\n\nWischmopps gehören zu einem System: Mopp, Mopphalter, Presse und Fahreimer. Mopps sind aus Baumwolle, Mikrofasern, Synthetik oder aus Mischungen.\n\nDer Nasswischmopp heißt auch Fransenmopp. Mit ihm schaffst du etwa 40 % weniger Fläche als mit einem Breitwischgerät. Außerdem ist das Arbeiten damit nicht ergonomisch, also nicht gut für den Körper. Darum nimmt man ihn heute seltener.\n\nDen Breitwischmopp nimmst du zum Feucht- und Nasswischen. Ein guter Breitwischmopp bindet viel Wasser. Er ist verschleißfest, er nutzt sich also wenig ab. Er nimmt Schmutz gut auf und gleitet gut über den Boden. Welcher Mopp passt, entscheidet die Bodenfläche, die du reinigen willst.\n\nManche Wischbezüge haben einen Chip mit RFID-Technik. Damit kann man sie elektronisch erfassen. So verwaltet man die Bestände, zum Beispiel wenn gebrauchte Mopps zur Wäscherei gehen. Man sieht auch, wo die Mopps gerade sind. So gehen weniger Mopps verloren. Das heißt: weniger Schwund.\n\nEinen Doppelmopp kannst du auf beiden Seiten benutzen. So wischst du mit einem Mopp nass und trocken.\n\nMERKE: Je dunkler das Pad, desto stärker scheuert es. Der Fransenmopp schafft etwa 40 % weniger Fläche als das Breitwischgerät.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Du hast einen Schwamm mit Griffleisten. Welche Seite nimmst du für starken Schmutz?",
+        "options": [
+          { "text": "Die harte Padseite.", "correct": true },
+          { "text": "Die weiche Schwammseite." },
+          { "text": "Die Seite mit der Griffleiste." }
+        ],
+        "explanation": "Der Schwamm hat zwei Seiten. Die weiche Schwammseite ist für leichten Schmutz. Die harte Padseite ist für starken Schmutz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Du hast ein helles und ein dunkles Pad. Welches scheuert stärker?",
+        "options": [
+          { "text": "Das dunkle Pad.", "correct": true },
+          { "text": "Das helle Pad." },
+          { "text": "Beide gleich, die Farbe ist nur Deko." }
+        ],
+        "explanation": "Die Farbe zeigt, wie stark ein Pad reibt. Es gilt: Je dunkler, desto abrasiver. Auf empfindlichen Flächen nimmst du darum ein helles Pad."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚙️ Wo setzt man Padscheiben ein?",
+        "options": [
+          { "text": "In Reinigungsmaschinen, zum Beispiel in der Scheuersaugmaschine.", "correct": true },
+          { "text": "In der Spülmaschine, als Filter für die Speisereste." },
+          { "text": "Im Staubsauger, als Ersatz für den vollen Staubbeutel." }
+        ],
+        "explanation": "Padscheiben sind große, runde Pads für Maschinen. Man setzt sie in Großbetrieben ein, zum Beispiel in der Scheuersaugmaschine."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🪣 Gehört das zum Moppsystem? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Gehört zum Moppsystem", "icon": "✅" },
+          { "id": "nein", "label": "Gehört nicht dazu", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Mopp", "bucket": "ja" },
+          { "text": "Mopphalter", "bucket": "ja" },
+          { "text": "Presse", "bucket": "ja" },
+          { "text": "Fahreimer", "bucket": "ja" },
+          { "text": "Scheuerspirale", "bucket": "nein" },
+          { "text": "Fensterleder", "bucket": "nein" },
+          { "text": "Staubsaugerbeutel", "bucket": "nein" }
+        ],
+        "explanation": "Zum Wischen mit dem Mopp brauchst du vier Teile: den Mopp, den Mopphalter, die Presse zum Auspressen und den Fahreimer für das Wasser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧶 Warum nimmt man den Fransenmopp heute seltener?",
+        "options": [
+          { "text": "Er schafft weniger Fläche, und das Arbeiten ist nicht ergonomisch.", "correct": true },
+          { "text": "Er ist sehr teuer und kann überhaupt nicht gewaschen werden." },
+          { "text": "Er nimmt kein Wasser auf und rutscht darum über den Boden." }
+        ],
+        "explanation": "Mit dem Fransenmopp schaffst du weniger Fläche als mit dem Breitwischgerät. Und die Arbeit belastet den Körper stärker. Darum nimmt man heute lieber Breitwischgeräte."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📉 Um wie viel Prozent ist die Flächenleistung des Fransenmopps niedriger als beim Breitwischgerät?",
+        "answer": 40,
+        "hint": "Es ist weniger als die Hälfte, also weniger als 50 %.\nEs ist mehr als 30 %.",
+        "explanation": "Der Fransenmopp schafft etwa 40 % weniger Fläche als das Breitwischgerät. Du brauchst für dieselbe Fläche also viel länger."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Woran erkennst du einen guten Breitwischmopp? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Guter Mopp", "icon": "👍" },
+          { "id": "schlecht", "label": "Schlechter Mopp", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Bindet viel Wasser", "bucket": "gut" },
+          { "text": "Ist verschleißfest", "bucket": "gut" },
+          { "text": "Nimmt Schmutz gut auf", "bucket": "gut" },
+          { "text": "Gleitet gut über den Boden", "bucket": "gut" },
+          { "text": "Nutzt sich schnell ab", "bucket": "schlecht" },
+          { "text": "Nimmt kaum Wasser auf", "bucket": "schlecht" },
+          { "text": "Bleibt am Boden hängen", "bucket": "schlecht" }
+        ],
+        "explanation": "Ein guter Breitwischmopp hat vier Stärken: Er bindet viel Wasser, ist verschleißfest, nimmt Schmutz gut auf und gleitet gut. Alles andere macht die Arbeit schwerer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧐 Was entscheidet, welche Moppart du auswählst?",
+        "options": [
+          { "text": "Die Bodenfläche, die du reinigen willst.", "correct": true },
+          { "text": "Die Farbe, die der Mopp gerade hat." },
+          { "text": "Der Preis des Mopps, sonst nichts." }
+        ],
+        "explanation": "Jeder Boden braucht den passenden Mopp. Die zu reinigende Fläche entscheidet über die Auswahl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📡 Manche Wischbezüge haben einen RFID-Chip. Wozu?",
+        "options": [
+          { "text": "Man sieht, wo die Mopps sind, und es gehen weniger verloren.", "correct": true },
+          { "text": "Der Chip misst beim Wischen, wie schmutzig der Boden ist." },
+          { "text": "Der Chip wärmt den Mopp beim Wischen auf, das spart Wasser." }
+        ],
+        "explanation": "Mit dem Chip lassen sich die Mopps elektronisch erfassen. So verwaltet man die Bestände, zum Beispiel auf dem Weg zur Wäscherei. Man weiß, wo jeder Mopp ist. Das bedeutet weniger Schwund."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Was kannst du mit einem Doppelmopp?",
+        "options": [
+          { "text": "Mit einem Mopp nass und trocken wischen.", "correct": true },
+          { "text": "Zwei Räume gleichzeitig wischen." },
+          { "text": "Nur Treppenstufen wischen." }
+        ],
+        "explanation": "Ein Doppelmopp ist doppelseitig. Eine Seite nimmst du zum Nasswischen, die andere zum Trockenwischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧵 Woraus können Wischmopps sein?",
+        "options": [
+          { "text": "Aus Baumwolle, Mikrofaser, Synthetik oder Mischungen.", "correct": true },
+          { "text": "Nur aus reißfestem Papier." },
+          { "text": "Nur aus dünnem Metalldraht." }
+        ],
+        "explanation": "Mopps gibt es aus Baumwolle, Mikrofasern, Synthetik oder aus Mischungen. Welcher passt, hängt vom Boden ab."
+      }
+    }
+  ]
+}
