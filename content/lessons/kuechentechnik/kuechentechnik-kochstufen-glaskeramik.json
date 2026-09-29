@@ -1,0 +1,137 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-kochstufen-glaskeramik",
+  "title": "Kochstufen und Glaskeramik",
+  "sort": 581,
+  "intro": "🎚️ Welche Kochstufe du wählst, hängt davon ab, was du garen willst. Das zeigt die Tabelle der Funktionsstufen. Stufe 0 heißt: aus, die Nachwärme wirkt noch.\n\nBeispiel Skala 1 bis 9: Stufe 1 bis 2 nimmst du zum Quellen, Garziehen, Schmelzen und Fortkochen. Stufe 3 bis 5 nimmst du zum Dämpfen und Dünsten. Stufe 6 bis 8 nimmst du zum Anbraten, Andünsten, Frittieren und Karamellisieren. Die höchste Stufe 9 nimmst du zum Ankochen, Erhitzen, Aufkochen und Blanchieren. Bei der Skala 1 bis 12 ist die höchste Stufe die 12. Bei der Ankochautomatik (A) fällt die Einstellung 9 bzw. 12 weg, denn das Ankochen übernimmt die Automatik.\n\nGlaskeramikkochfelder heißen auch Cerankochfelder. Glaskeramik ist ein Glasmaterial, das bis 700 °C hitzeunempfindlich ist. Die Kochzonen werden von unten beheizt und durch farbige Muster markiert. Anders als Kochplatten sind sie in Größe und Leistung nicht genormt. Über zwei Drittel aller Haushalte nutzen heute eine Kochstelle aus Glaskeramik.\n\nVorteile: Die ebene, glatte Fläche ist leicht zu reinigen. Töpfe und Pfannen lassen sich leicht hin- und herschieben. In Zwei- oder Dreikreiskochzonen kannst du Heizkreise dazuschalten. So passen kleine Butterpfännchen und sehr große Paellapfannen. Verschiedene Beheizungen lassen sich kombinieren, zum Beispiel Strahlungshitze mit Halogen oder Induktion. Halogen und Induktion brauchen keine Aufheizzeit. Das spart Energie und Zeit.\n\nEin Kochfeld gibt es zusammen mit dem Herd oder als autarke Kochstelle. Autark heißt: Schalter und Anzeige sind im Kochfeld selbst. Es ist unabhängig von der Bedienleiste des Backofens.\n\nMERKE: Ankochen auf der höchsten Stufe, dann zum Fortkochen herunterschalten.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎚️ Welche Kochstufe auf der Skala 1 bis 9? Sortiere.",
+        "explanation": "Frag dich: Soll es nur leise weiterköcheln, soll es kräftig braten, oder soll es so schnell wie möglich heiß werden? Danach wählst du niedrig, hoch oder die höchste Stufe.",
+        "buckets": [
+          { "id": "n", "label": "Stufe 1 bis 2", "icon": "🔈" },
+          { "id": "h", "label": "Stufe 6 bis 8", "icon": "🔉" },
+          { "id": "max", "label": "Stufe 9", "icon": "🔊" }
+        ],
+        "items": [
+          { "text": "Fortkochen", "bucket": "n" },
+          { "text": "Garziehen", "bucket": "n" },
+          { "text": "Quellen", "bucket": "n" },
+          { "text": "Anbraten", "bucket": "h" },
+          { "text": "Frittieren", "bucket": "h" },
+          { "text": "Karamellisieren", "bucket": "h" },
+          { "text": "Ankochen", "bucket": "max" },
+          { "text": "Blanchieren", "bucket": "max" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Du willst Gemüse dünsten. Welche Stufe passt auf der Skala 1 bis 9?",
+        "options": [
+          { "text": "Stufe 3 bis 5", "correct": true },
+          { "text": "Stufe 1 bis 2" },
+          { "text": "Stufe 9" },
+          { "text": "Stufe 0" }
+        ],
+        "explanation": "Dämpfen und Dünsten liegen im mittleren Bereich: auf der Skala 1 bis 9 bei Stufe 3 bis 5. Auf der Skala 1 bis 12 wären es Stufe 4 bis 7."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "0️⃣ Was bedeutet Schaltstufe 0?",
+        "options": [
+          { "text": "Aus, aber die Nachwärme wirkt noch.", "correct": true },
+          { "text": "Höchste Stufe zum schnellen Ankochen." },
+          { "text": "Die Kochplatte ist kaputt und defekt." }
+        ],
+        "explanation": "Auf Stufe 0 ist die Kochstelle ausgeschaltet. Sie ist aber noch heiß, die Nachwärme gart weiter. Diese Nachwärme kannst du nutzen und Energie sparen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🅰️ Du nutzt die Ankochautomatik. Welche Einstellung brauchst du dabei nicht mehr?",
+        "options": [
+          { "text": "Die höchste Stufe, also 9 bzw. 12", "correct": true },
+          { "text": "Die Stufe 0 zum Ausschalten am Ende" },
+          { "text": "Die Stufe zum langsamen Fortkochen" }
+        ],
+        "explanation": "Bei der Ankochautomatik entfällt die Einstellung 9 bzw. 12. Die Automatik kocht selbst mit voller Leistung an. Du stellst nur die Fortkochstufe ein."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔥 Bis wie viel °C ist Glaskeramik hitzeunempfindlich?",
+        "answer": 700,
+        "hint": "Es ist mehr als 500 °C und weniger als 800 °C.",
+        "explanation": "Glaskeramik ist bis 700 °C hitzeunempfindlich. Deshalb kann man darunter heiße Heizkörper einbauen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔲 Was ist bei Kochzonen auf Glaskeramik anders als bei Kochplatten?",
+        "options": [
+          { "text": "Sie sind in Größe und Leistung nicht genormt.", "correct": true },
+          { "text": "Sie werden von oben mit heißer Luft beheizt." },
+          { "text": "Sie sind immer rund und genau gleich groß." }
+        ],
+        "explanation": "Kochzonen auf Glaskeramik werden von unten beheizt und mit farbigen Mustern markiert. Anders als Kochplatten sind sie in Größe und Leistung nicht genormt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Wie viele Haushalte nutzen heute eine Kochstelle aus Glaskeramik?",
+        "options": [
+          { "text": "Über zwei Drittel", "correct": true },
+          { "text": "Etwa ein Zehntel" },
+          { "text": "Nur knapp die Hälfte" }
+        ],
+        "explanation": "Über zwei Drittel aller Haushalte kochen heute auf Glaskeramik. Gründe sind unter anderem das edle Design und die leichte Reinigung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✅ Vorteile von Glaskeramik: Was ist der Grund? Verbinde.",
+        "explanation": "Jeder Vorteil hat einen Grund in der Technik. Die glatte Fläche lässt sich gut abwischen. Zwei- und Dreikreiszonen wachsen mit der Topfgröße. Ohne Aufheizzeit geht keine Energie verloren.",
+        "pairs": [
+          { "left": {"text": "🧽 Leicht zu reinigen"}, "right": {"text": "Ebene, glatte Fläche"} },
+          { "left": {"text": "🥘 Auch die große Paellapfanne passt"}, "right": {"text": "Heizkreise zuschaltbar"} },
+          { "left": {"text": "⏱️ Spart Energie und Zeit"}, "right": {"text": "Halogen und Induktion ohne Aufheizzeit"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎛️ Was ist eine autarke Kochstelle?",
+        "options": [
+          { "text": "Schalter und Anzeige sind im Kochfeld, unabhängig vom Backofen.", "correct": true },
+          { "text": "Ein Kochfeld, das ganz ohne Strom und auch ohne Gas funktioniert." },
+          { "text": "Ein Kochfeld, das man nur mit dem Handy steuern kann." }
+        ],
+        "explanation": "Autark heißt unabhängig. Bei der autarken Kochstelle sind Schaltung und Anzeige im Kochfeld eingebaut. Sie braucht die Bedienleiste des Backofens nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wie heißt das Glaskeramikkochfeld noch?",
+        "options": [
+          { "text": "Cerankochfeld", "correct": true },
+          { "text": "Gusskochfeld" },
+          { "text": "Emaillekochfeld" }
+        ],
+        "explanation": "Glaskeramikkochfelder nennt man auch Cerankochfelder. Gusseisen ist das Material der klassischen Kochplatten."
+      }
+    }
+  ]
+}
