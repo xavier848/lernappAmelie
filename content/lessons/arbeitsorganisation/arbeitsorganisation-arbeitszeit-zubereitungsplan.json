@@ -1,0 +1,135 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-arbeitszeit-zubereitungsplan",
+  "title": "Arbeitszeit und Zubereitungsplan",
+  "sort": 641,
+  "intro": "Die Gesamtarbeitszeit ist die Zeit für die ganze Arbeitsaufgabe. Sie besteht aus fünf Teilen: Rüstzeit, Tätigkeitszeit, Wartezeit, Erholungszeit und Verteilzeit.\n\nDie Rüstzeit ist die Zeit für Vor- und Nacharbeiten. Zum Beispiel: den Arbeitsplatz einrichten, aufräumen und reinigen.\n\nDie Tätigkeitszeit ist die Zeit für die eigentliche Arbeitsaufgabe. Zum Beispiel: Frikadellen zubereiten, also den Fleischteig machen, formen und braten. Auch ein einzelner Schritt zählt dazu, zum Beispiel Zwiebeln würfeln.\n\nDie Wartezeit ergibt sich aus dem Ablauf. Zum Beispiel: Die Kippbratpfanne heizt auf. Die Wartezeit nutzt du möglichst für andere Arbeiten. Zum Beispiel formst du schon die Frikadellen.\n\nDie Erholungszeit ist die Zeit zum Erholen, zum Beispiel die Frühstückspause.\n\nDie Verteilzeit ist nicht gut planbar. Sie entsteht durch Störungen. Zum Beispiel: ein Telefonat, der Besuch eines Vertreters, ein Toilettengang, eine Verletzung oder ein kaputtes Gerät.\n\nIn der Großküche gibt es einen Zubereitungsplan. Der Plan im Buch ist für 100 Portionen an einem Montag. Er hat vier Teile. Produktangaben: das Produkt und die Menge in kg, l oder Stück. Bereitstellung: Größe und Anzahl der GN-Behälter. GN-Behälter sind genormte Behälter für die Großküche. Produktion: das Gerät, die Uhrzeit für Beginn und Ende und die verantwortliche Mitarbeiterin. Rückstellung: eine Uhrzeit und Hinweise.\n\nSo sieht der Plan aus. Frikadellen: 100 Stück, im Kipper, von 10:30 bis 12:25 Uhr, Frau Schmitt. Der Kipper ist die Kippbratpfanne. Salzkartoffeln: 20 kg, 4 GN-Behälter der Größe 1/1, im Kombidämpfer, von 12:10 bis 12:25 Uhr, Frau Barati.\n\nZu den Salzkartoffeln steht der Hinweis: Sous-Vide-Kartoffeln nur regenerieren. Regenerieren heißt: schon gegarte Speisen wieder erwärmen. Kopfsalat: 22 Stück, von 11:00 bis 12:10 Uhr, Frau Barati. Dressing: von 10:30 bis 11:00 Uhr, Frau Barati. Schokoladencreme: im Kochkessel, von 9:45 bis 10:30 Uhr, Frau Schmitt.\n\nMERKE: Gesamtarbeitszeit = Rüstzeit + Tätigkeitszeit + Wartezeit + Erholungszeit + Verteilzeit. Die Wartezeit nutzt du für andere Arbeiten.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⏱️ Die fünf Teile der Gesamtarbeitszeit. Verbinde.",
+        "pairs": [
+          { "left": {"text": "🧰 Rüstzeit"}, "right": {"text": "Zeit für Vor- und Nacharbeiten"} },
+          { "left": {"text": "🔪 Tätigkeitszeit"}, "right": {"text": "Zeit für die eigentliche Aufgabe"} },
+          { "left": {"text": "⏳ Wartezeit"}, "right": {"text": "Ergibt sich aus dem Ablauf"} },
+          { "left": {"text": "☕ Erholungszeit"}, "right": {"text": "Zeit zum Erholen"} },
+          { "left": {"text": "📞 Verteilzeit"}, "right": {"text": "Störungen, nicht gut planbar"} }
+        ],
+        "explanation": "Frag dich bei jeder Zeit: Bereite ich vor oder räume ich auf? Das ist Rüstzeit. Arbeite ich an der Aufgabe? Das ist Tätigkeitszeit. Muss ich auf ein Gerät warten? Das ist Wartezeit. Mache ich Pause? Das ist Erholungszeit. Stört mich etwas Unerwartetes? Das ist Verteilzeit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welche Zeit ist das? Sortiere.",
+        "buckets": [
+          { "id": "ruest", "label": "Rüstzeit", "icon": "🧰" },
+          { "id": "taet", "label": "Tätigkeitszeit", "icon": "🔪" },
+          { "id": "erh", "label": "Erholungszeit", "icon": "☕" }
+        ],
+        "items": [
+          { "text": "Den Arbeitsplatz einrichten", "bucket": "ruest" },
+          { "text": "Den Arbeitsplatz aufräumen und reinigen", "bucket": "ruest" },
+          { "text": "Den Fleischteig für Frikadellen herstellen", "bucket": "taet" },
+          { "text": "Die Zwiebeln für die Frikadellen würfeln", "bucket": "taet" },
+          { "text": "Die Frikadellen braten", "bucket": "taet" },
+          { "text": "Die Frühstückspause", "bucket": "erh" },
+          { "text": "Die Mittagspause", "bucket": "erh" }
+        ],
+        "explanation": "Rüstzeit ist alles rund um den Arbeitsplatz, vorher und nachher. Tätigkeitszeit ist die Arbeit an der Speise selbst, auch ein einzelner Schritt wie Zwiebeln würfeln. Pausen zum Erholen sind Erholungszeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Die Kippbratpfanne heizt auf. Was machst du in dieser Zeit?",
+        "options": [
+          { "text": "Ich forme schon die Frikadellen.", "correct": true },
+          { "text": "Ich bleibe neben der Pfanne stehen." },
+          { "text": "Ich schalte die Pfanne noch mal aus." }
+        ],
+        "explanation": "Das Aufheizen ist eine Wartezeit. Sie ergibt sich aus dem Ablauf. Du nutzt sie möglichst für andere Arbeiten, zum Beispiel formst du schon die Frikadellen. So sparst du Zeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📞 Warum ist die Verteilzeit schwer zu planen?",
+        "options": [
+          { "text": "Sie entsteht durch Störungen, zum Beispiel ein Telefonat oder ein defektes Gerät.", "correct": true },
+          { "text": "Sie hängt nur vom Rezept ab und ist darum jeden Tag ganz anders lang." },
+          { "text": "Sie ist die Zeit für die Pausen, und die legt jeder selbst ganz frei fest." }
+        ],
+        "explanation": "Störungen kommen unerwartet: ein Telefonat, ein Vertreter, ein Toilettengang, eine Verletzung oder ein kaputtes Gerät. Darum kann man die Verteilzeit nicht genau planen. Die Pausen gehören zur Erholungszeit."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Rüstzeit 10 Minuten, Tätigkeitszeit 45 Minuten, Wartezeit 5 Minuten, Erholungszeit 15 Minuten, Verteilzeit 5 Minuten. Wie viele Minuten beträgt die Gesamtarbeitszeit?",
+        "answer": 80,
+        "hint": "Zähle alle fünf Zeiten zusammen.\n10 + 45 = 55\n55 + 5 + 15 + 5 = ?",
+        "explanation": "Die Gesamtarbeitszeit besteht aus allen fünf Teilen: 10 + 45 + 5 + 15 + 5 = 80 Minuten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📋 Die vier Teile des Zubereitungsplans. Was steht wo?",
+        "pairs": [
+          { "left": {"text": "🍖 Produktangaben"}, "right": {"text": "Produkt und Menge in kg, l oder Stück"} },
+          { "left": {"text": "🗃️ Bereitstellung"}, "right": {"text": "Größe und Anzahl der GN-Behälter"} },
+          { "left": {"text": "⚙️ Produktion"}, "right": {"text": "Gerät, Uhrzeit und verantwortliche Person"} },
+          { "left": {"text": "🕒 Rückstellung"}, "right": {"text": "Uhrzeit und Hinweise"} }
+        ],
+        "explanation": "Der Plan beantwortet Schritt für Schritt: Was und wie viel? Worin? Womit, wann und von wem? Und zuletzt: Uhrzeit und Hinweise für die Rückstellung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Lies im Zubereitungsplan nach: Wer macht die Salzkartoffeln, und in welchem Gerät?",
+        "options": [
+          { "text": "Frau Barati, im Kombidämpfer.", "correct": true },
+          { "text": "Frau Schmitt, im Kipper." },
+          { "text": "Frau Barati, im Kochkessel." }
+        ],
+        "explanation": "Laut Plan ist Frau Barati für die Salzkartoffeln verantwortlich. Sie kommen in 4 GN-Behältern der Größe 1/1 in den Kombidämpfer. Frau Schmitt macht die Frikadellen im Kipper und die Schokoladencreme im Kochkessel."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍔 Die Frikadellen werden von 10:30 Uhr bis 12:25 Uhr gebraten. Wie viele Minuten sind das?",
+        "answer": 115,
+        "hint": "Von 10:30 Uhr bis 12:30 Uhr sind es 2 Stunden = 120 Minuten.\nDas Ende ist aber schon 12:25 Uhr, also 5 Minuten früher.\n120 − 5 = ?",
+        "explanation": "Von 10:30 Uhr bis 12:30 Uhr sind 120 Minuten. Bis 12:25 Uhr sind es 5 Minuten weniger: 115 Minuten. Das steht im Plan in der Spalte Produktion."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Im Plan steht: Sous-Vide-Kartoffeln nur regenerieren. Was heißt das?",
+        "options": [
+          { "text": "Die schon gegarten Kartoffeln nur wieder erwärmen.", "correct": true },
+          { "text": "Die rohen Kartoffeln schälen und dann weich kochen." },
+          { "text": "Die Kartoffeln kalt als Kartoffelsalat anrichten." }
+        ],
+        "explanation": "Regenerieren heißt: schon gegarte Speisen wieder erwärmen. Die Sous-Vide-Kartoffeln sind bereits gar. Darum brauchen sie im Kombidämpfer nur kurz, von 12:10 bis 12:25 Uhr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Für wie viele Portionen ist der Zubereitungsplan im Buch?",
+        "options": [
+          { "text": "Für 100 Portionen.", "correct": true },
+          { "text": "Für 10 Portionen." },
+          { "text": "Für 1000 Portionen." }
+        ],
+        "explanation": "Der Beispielplan ist für 100 Portionen. Darum stehen dort große Mengen, zum Beispiel 100 Frikadellen und 20 kg Salzkartoffeln."
+      }
+    }
+  ]
+}
