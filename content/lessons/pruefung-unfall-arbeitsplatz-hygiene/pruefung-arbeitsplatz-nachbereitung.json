@@ -1,0 +1,154 @@
+{
+  "topic_slug": "pruefung-unfall-arbeitsplatz-hygiene",
+  "slug": "pruefung-arbeitsplatz-nachbereitung",
+  "title": "Nach dem Kochen: Arbeitsplatznachbereitung",
+  "sort": 10,
+  "intro": "Nach der Nahrungszubereitung kommt die Arbeitsplatznachbereitung.\n\nDu entsorgst den Abfall vorschriftsmäßig. Lebensmittel, die du nicht mehr brauchst, lagerst du richtig: im Gefrierschrank, im Kühlschrank oder im Trockenvorrat.\n\nDann wird gespült. Zuerst bereitest du das Geschirr vor und entfernst den groben Schmutz. Gedruckt steht auf dem Blatt: unter fließendem Wasser vorspülen. Daneben ist notiert: besser Teigschaber benutzen. Das spart Wasser.\n\nDas Geschirr stellst du rechts neben das Spülbecken. Die Reihenfolge beim Spülen: Glas, Porzellan, Besteck, Töpfe, Pfannen. Also von sauber nach schmutzig. Merkhilfe mit den Anfangsbuchstaben: G – P – B – T – P.\n\nDas Spülwasser ist im rechten Becken, das Nachspülwasser im linken Becken. Danach lässt du das Geschirr auf dem Ablauf abtropfen, reibst es trocken und räumst es gesammelt auf. Spitze Gegenstände wie Messer lässt du nie im Spülwasser liegen.\n\nDu reinigst die benutzten Arbeitsgeräte: Küchenmaschine, Handrührgerät, Kochstellen und Backofen. Die Arbeitsflächen reinigst du und desinfizierst sie, wenn nötig.\n\nMERKE: Danach inventarisierst du die Küche. Du kontrollierst Schränke und Schubladen: Sind alle Betriebs- und Arbeitsmittel wieder an Ort und Stelle? Zum Schluss hängst du benutzte Wäsche zum Trocknen auf oder wäschst sie.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "❄️ Wo lagerst du die übrigen Lebensmittel? Sortiere.",
+        "explanation": "Frag dich: Wie bleibt das Lebensmittel gut? Tiefgekühltes muss gefroren bleiben. Frisches wie Milchprodukte muss kühl bleiben. Trockenes wie Mehl und Nudeln kommt in den Trockenvorrat.",
+        "buckets": [
+          { "id": "gefrier", "label": "Gefrierschrank", "icon": "🧊" },
+          { "id": "kuehl", "label": "Kühlschrank", "icon": "❄️" },
+          { "id": "trocken", "label": "Trockenvorrat", "icon": "🥫" }
+        ],
+        "items": [
+          { "text": "Tiefgekühlte Erbsen", "bucket": "gefrier" },
+          { "text": "Speiseeis", "bucket": "gefrier" },
+          { "text": "Angebrochene Milch", "bucket": "kuehl" },
+          { "text": "Restlicher Joghurt", "bucket": "kuehl" },
+          { "text": "Übrige Sahne", "bucket": "kuehl" },
+          { "text": "Mehl", "bucket": "trocken" },
+          { "text": "Zucker", "bucket": "trocken" },
+          { "text": "Nudeln", "bucket": "trocken" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 In der Rührschüssel klebt noch viel Teig. Womit entfernst du den groben Schmutz am besten? Denk an die Notiz auf deinem Blatt.",
+        "options": [
+          { "text": "Mit dem Teigschaber.", "correct": true },
+          { "text": "Mit einem spitzen Messer." },
+          { "text": "Mit den Fingern." }
+        ],
+        "explanation": "Vor dem Spülen entfernst du den groben Schmutz. Gedruckt steht auf dem Blatt: unter fließendem Wasser vorspülen. Daneben ist notiert: besser Teigschaber benutzen. Das spart Wasser, und grober Schmutz kommt gar nicht erst ins Spülwasser."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍽️ In welcher Reihenfolge spülst du? Bringe das Geschirr in die richtige Reihenfolge.",
+        "explanation": "Die Regel: von sauber nach schmutzig. Gläser brauchen klares Wasser, fettige Pfannen kommen ganz zum Schluss. Für die Mitte hilft die Merkhilfe: G – P – B – T – P.",
+        "steps": [
+          { "text": "🥛 Glas" },
+          { "text": "🍽️ Porzellan" },
+          { "text": "🍴 Besteck" },
+          { "text": "🍲 Töpfe" },
+          { "text": "🍳 Pfannen" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Du hast zwei Spülbecken. Wo ist das Spülwasser, wo das Nachspülwasser?",
+        "options": [
+          { "text": "Spülwasser rechts, Nachspülwasser links.", "correct": true },
+          { "text": "Spülwasser links, Nachspülwasser rechts." },
+          { "text": "In beiden Becken Spülwasser mit Spülmittel." }
+        ],
+        "explanation": "Das schmutzige Geschirr steht rechts neben dem Spülbecken. Darum spülst du im rechten Becken und spülst im linken Becken klar nach. Achtung: Beim Spülen geht es von rechts nach links – beim Schneiden am Arbeitsplatz ist es andersherum."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧽 Bringe das Spülen in die richtige Reihenfolge.",
+        "explanation": "Die Regel: Das Geschirr wandert in eine Richtung, von rechts nach links, und wird bei jedem Schritt sauberer. Frag dich: Was muss passiert sein, bevor der nächste Schritt Sinn ergibt?",
+        "steps": [
+          { "text": "Groben Schmutz mit dem Teigschaber entfernen." },
+          { "text": "Das vorbereitete Geschirr rechts neben das Spülbecken stellen." },
+          { "text": "Im rechten Becken im Spülwasser spülen." },
+          { "text": "Im linken Becken im Nachspülwasser nachspülen." },
+          { "text": "Auf dem Ablauf abtropfen lassen." },
+          { "text": "Trockenreiben und gesammelt aufräumen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Beim Spülen hast du ein spitzes Messer. Was ist richtig?",
+        "options": [
+          { "text": "Nie im Spülwasser liegen lassen.", "correct": true },
+          { "text": "Ins Spülwasser legen und zum Schluss herausfischen." },
+          { "text": "Unter die Teller legen, damit es nicht rutscht." }
+        ],
+        "explanation": "Keine spitzen Gegenstände im Spülwasser liegen lassen. Im Schaum sieht man das Messer nicht. Wer hineingreift, schneidet sich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Du hast rohes Hähnchen geschnitten. Die Arbeitsfläche ist schon gereinigt. Was machst du zusätzlich?",
+        "options": [
+          { "text": "Sie desinfizieren.", "correct": true },
+          { "text": "Sie mit Öl einreiben." },
+          { "text": "Nichts, gereinigt reicht immer." }
+        ],
+        "explanation": "Arbeitsflächen werden gereinigt und gegebenenfalls desinfiziert. Gegebenenfalls heißt: wenn nötig. Nach rohem Geflügel ist es nötig, weil daran Salmonellen sein können."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Was heißt: die Küche inventarisieren?",
+        "options": [
+          { "text": "Kontrollieren, ob alle Betriebs- und Arbeitsmittel wieder an Ort und Stelle sind.", "correct": true },
+          { "text": "Aufschreiben, welche Lebensmittel für die nächste Woche eingekauft werden müssen." },
+          { "text": "Alle Schränke und Schubladen ausräumen und gründlich auswischen." }
+        ],
+        "explanation": "Beim Inventarisieren kontrollierst du Schränke und Schubladen: Liegt jedes Gerät und jedes Arbeitsmittel wieder an seinem Platz? So findet es beim nächsten Mal jeder sofort."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔢 Vor, während oder nach dem Kochen? Sortiere.",
+        "explanation": "Frag dich: Wann passiert es – bevor es losgeht, während gekocht wird, oder wenn alles fertig ist? Achtung: Teller vorwärmen passiert während des Kochens, auch wenn das Wort vor darin steckt.",
+        "buckets": [
+          { "id": "vor", "label": "Vorbereitung", "icon": "📋" },
+          { "id": "waehrend", "label": "Durchführung", "icon": "🍳" },
+          { "id": "nach", "label": "Nachbereitung", "icon": "🧽" }
+        ],
+        "items": [
+          { "text": "Das Rezept durchlesen", "bucket": "vor" },
+          { "text": "Die Abfallschüssel bereitstellen", "bucket": "vor" },
+          { "text": "Unfallsicher arbeiten", "bucket": "waehrend" },
+          { "text": "Die Teller vorwärmen", "bucket": "waehrend" },
+          { "text": "Das Handrührgerät reinigen", "bucket": "nach" },
+          { "text": "Den Abfall vorschriftsmäßig entsorgen", "bucket": "nach" },
+          { "text": "Schränke und Schubladen kontrollieren", "bucket": "nach" },
+          { "text": "Benutzte Wäsche aufhängen", "bucket": "nach" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Nach dem Kochen liegen feuchte Geschirrtücher herum. Was machst du damit?",
+        "options": [
+          { "text": "Zum Trocknen aufhängen oder waschen.", "correct": true },
+          { "text": "Zusammengeknüllt in die Schublade legen." },
+          { "text": "Bis zum nächsten Tag liegen lassen." }
+        ],
+        "explanation": "Benutzte Wäsche hängst du zum Trocknen auf oder wäschst sie. In feuchten, zusammengeknüllten Tüchern vermehren sich Keime, und sie riechen muffig."
+      }
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 // (im Code definiert). Themen ohne Zuordnung landen in "Sonstiges", damit
 // nie ein Thema verschwindet, wenn spaeter neue dazukommen.
 import type { TopicWithLessons } from "@/lib/types";
+import { istPruefungsThema } from "@/lib/pruefung";
 
 export type Category = {
   slug: string;
@@ -110,11 +111,13 @@ export type CategoryWithTopics = Category & { topics: TopicWithLessons[] };
 /**
  * Ordnet die geladenen Themen ihren Bereichen zu (Reihenfolge wie in
  * CATEGORIES). Nicht zugeordnete Themen kommen ans Ende in "Weitere Themen".
- * Leere Bereiche werden weggelassen.
+ * Leere Bereiche werden weggelassen. Pruefungs-Themen (lib/pruefung.ts)
+ * gehoeren in keinen Bereich - sie haben ihre eigene Seite /pruefungstraining.
  */
 export function groupTopicsByCategory(
-  topics: TopicWithLessons[]
+  allTopics: TopicWithLessons[]
 ): CategoryWithTopics[] {
+  const topics = allTopics.filter((t) => !istPruefungsThema(t.slug));
   const bySlug = new Map(topics.map((t) => [t.slug, t]));
   const used = new Set<string>();
 

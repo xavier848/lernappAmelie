@@ -40,6 +40,7 @@ import {
 } from "@/lib/suggestions";
 import type { ProgressRow, TopicWithLessons } from "@/lib/types";
 import { groupTopicsByCategory } from "@/lib/categories";
+import { trennePruefungsThemen } from "@/lib/pruefung";
 import { CategoryCard } from "@/components/path/CategoryCard";
 import { PonyMeadow } from "@/components/ui/PonyMeadow";
 
@@ -191,6 +192,47 @@ function BigPracticeCard() {
 }
 
 /**
+ * Pruefungs-Training (lib/pruefung.ts): steht ganz oben und AUSSERHALB von
+ * allem, was der Lernfluss ausblendet oder ausgraut. Amelie kommt immer hin -
+ * auch wenn gerade Wiederholungen dran sind oder ein Thema Pause macht.
+ */
+function PruefungsKarte({
+  themen,
+  erledigt,
+}: {
+  themen: TopicWithLessons[];
+  erledigt: Set<string>;
+}) {
+  const lektionen = themen.flatMap((t) => t.lessons);
+  const geschafft = lektionen.filter((l) => erledigt.has(l.id)).length;
+  const titel =
+    themen.length === 1 ? themen[0].title : `${themen.length} Prüfungen`;
+  return (
+    <Link
+      href="/pruefungstraining"
+      aria-label={`Prüfungs-Training: ${titel}. ${geschafft} von ${lektionen.length} Lektionen geschafft. Immer frei.`}
+      className="mt-4 flex min-h-20 w-full items-center gap-3 rounded-2xl border-2 border-b-4 border-primary bg-primary-light p-3 select-none active:translate-y-0.5 active:border-b-2"
+    >
+      <span className="text-4xl" aria-hidden>
+        🎯
+      </span>
+      <span className="flex min-w-0 flex-1 flex-col text-left">
+        <span className="text-lg font-extrabold text-ink">
+          Prüfungs-Training
+        </span>
+        <span className="text-sm font-semibold text-ink/80">{titel}</span>
+        <span className="text-xs font-semibold text-primary-dark">
+          {geschafft} von {lektionen.length} Lektionen · immer frei
+        </span>
+      </span>
+      <span className="text-xl text-primary-dark" aria-hidden>
+        ▶
+      </span>
+    </Link>
+  );
+}
+
+/**
  * Lernfluss-Anzeige (lib/lernfluss.ts): sagt in einem Satz, was jetzt dran
  * ist. Sind Wiederholungen faellig, wird daraus eine deutliche Aufforderung
  * mit grossem Knopf - neue Lektionen sind dann gesperrt.
@@ -289,6 +331,14 @@ export default function StartPage() {
         >
           Nochmal versuchen
         </Button>
+        {/* Das Pruefungs-Training braucht das Lernfluss-Protokoll nicht -
+            es kann also auch dann noch gehen, wenn die Startseite scheitert. */}
+        <Link
+          href="/pruefungstraining"
+          className="flex min-h-12 items-center gap-2 rounded-2xl px-4 text-base font-bold text-primary-dark"
+        >
+          <span aria-hidden>🎯</span> Zum Prüfungs-Training
+        </Link>
       </div>
     );
   }
@@ -318,8 +368,13 @@ export default function StartPage() {
   const completedLessonIds = new Set(
     state.progress.map((row) => row.lesson_id)
   );
+  // Pruefungs-Themen haben ihre eigene Kachel (und Seite) - in "Für dich
+  // heute" und in den Bereichen tauchen sie nicht auf.
+  const { normal: normaleThemen, pruefung: pruefungsThemen } =
+    trennePruefungsThemen(state.topics);
+  const aktivePruefungen = pruefungsThemen.filter((t) => t.lessons.length > 0);
   const suggestions = buildSuggestions({
-    topics: state.topics,
+    topics: normaleThemen,
     progress: state.progress,
     attemptStats: state.attemptStats,
     exerciseToLesson: state.exerciseToLesson,
@@ -361,6 +416,14 @@ export default function StartPage() {
 
         {/* Nur im Mama-Modus: Link zu Amelies Fortschritts-Statistik. */}
         <MamaStatsLink />
+
+        {/* Pruefungs-Training: immer sichtbar, nie ausgegraut. */}
+        {aktivePruefungen.length > 0 && (
+          <PruefungsKarte
+            themen={aktivePruefungen}
+            erledigt={completedLessonIds}
+          />
+        )}
 
         {/* Was jetzt dran ist (Lernfluss). Im Mama-Modus nicht sichtbar. */}
         {stand && <LernflussKarte stand={stand} />}

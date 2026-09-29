@@ -1,0 +1,138 @@
+{
+  "topic_slug": "pruefung-unfall-arbeitsplatz-hygiene",
+  "slug": "pruefung-arbeitsplatz-vorbereitung",
+  "title": "Vor dem Kochen: Arbeitsplatzvorbereitung",
+  "sort": 8,
+  "intro": "Vor der Nahrungszubereitung kommt die Arbeitsplatzvorbereitung.\n\nZuerst liest du die Arbeitsaufgabe gut durch, zum Beispiel das Rezept. Du planst die Reihenfolge des Arbeitsablaufs. Dann stellst du alle Arbeitsgegenstände bereit, die du brauchst, zum Beispiel Lebensmittel und Wäsche.\n\nDu stellst die Betriebsmittel bereit und bereitest sie so vor, dass sie funktionieren. Dazu gehören eine Abfallschüssel und Deckel, Teller oder Geschirrtücher zum Abdecken.\n\nNeben den Herd stellst du einen Ablageteller oder einen Ordnungstopf. Darauf kommen zum Beispiel der Küchenfreund und die Suppenkelle.\n\nAußerdem stellst du bereit: Küchenpapier bei Bedarf, Flächendesinfektionsmittel und Gewürze. Wenn genug Platz ist, auch das Anrichtegeschirr. So kannst du kontrollieren, ob alles da ist.\n\nGeräte zum Mischen, Schlagen und Zerkleinern stellst du bereit oder setzt sie zusammen. Backformen und Backbleche bereitest du vor: einfetten und panieren, also mit Bröseln ausstreuen, oder Backpapier hineinlegen. Dazu Töpfe und eventuell einen Kurzzeitwecker.\n\nMERKE: Beim Bereitstellen der Lebensmittel beachtest du die Reihenfolge der Verarbeitung. Molkereiprodukte, Fleisch und Fisch bleiben bis zur Verarbeitung im Kühlschrank. Molkereiprodukte sind Milchprodukte.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 Du sollst einen Kuchen backen. Was machst du ganz am Anfang?",
+        "options": [
+          { "text": "Das Rezept gut durchlesen und die Reihenfolge der Arbeit planen.", "correct": true },
+          { "text": "Sofort die Butter schmelzen, dann geht es schneller." },
+          { "text": "Schon mal alle Schüsseln spülen." }
+        ],
+        "explanation": "Die Arbeitsplatzvorbereitung beginnt im Kopf. Du liest die Arbeitsaufgabe gut durch, zum Beispiel das Rezept, und planst die Reihenfolge. Wer ohne Plan anfängt, vergisst Schritte oder sucht später Zutaten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Du stellst die Lebensmittel für einen Eintopf bereit. Was beachtest du dabei?",
+        "options": [
+          { "text": "Die Reihenfolge der Verarbeitung – Kühlware bleibt bis dahin im Kühlschrank.", "correct": true },
+          { "text": "Dass alles auf einmal auf dem Tisch steht, auch Fleisch und Milch." },
+          { "text": "Gar nichts – du holst jedes Lebensmittel erst, wenn du es brauchst." }
+        ],
+        "explanation": "Beim Bereitstellen beachtest du die Reihenfolge der Verarbeitung: Was du zuerst brauchst, stellst du zuerst bereit. Molkereiprodukte, Fleisch und Fisch bleiben aber bis zur Verarbeitung im Kühlschrank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Was stellst du neben den Herd, zum Beispiel für den Küchenfreund und die Suppenkelle?",
+        "options": [
+          { "text": "Einen Ablageteller oder einen Ordnungstopf.", "correct": true },
+          { "text": "Die Abfallschüssel mit den Gemüseresten." },
+          { "text": "Das vorgewärmte Anrichtegeschirr." }
+        ],
+        "explanation": "Auf den Ablageteller oder in den Ordnungstopf kommen Küchenfreund, Kochlöffel und Suppenkelle, wenn du sie gerade nicht brauchst. So liegen sie nicht auf dem Herd oder der Arbeitsfläche, und alles bleibt sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗑️ Du willst Gemüse schälen. Was stellst du vorher bereit, damit du die Schalen nicht dauernd zum Mülleimer trägst?",
+        "options": [
+          { "text": "Eine Abfallschüssel.", "correct": true },
+          { "text": "Einen zweiten Mülleimer im Flur." },
+          { "text": "Nichts, die Schalen bleiben bis zum Schluss auf dem Brett." }
+        ],
+        "explanation": "Die Abfallschüssel steht direkt am Arbeitsplatz, bei Rechtshändern rechts. So sparst du Wege, Zeit und Kraft, und das Brett bleibt frei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Wozu hältst du Deckel, Teller oder Geschirrtücher bereit?",
+        "options": [
+          { "text": "Zum Abdecken der Lebensmittel.", "correct": true },
+          { "text": "Zum Abtrocknen der Hände." },
+          { "text": "Als Unterlage für heiße Töpfe." }
+        ],
+        "explanation": "Vorbereitete Lebensmittel deckst du ab. So kommt kein Staub und kein Keim daran, und sie trocknen nicht aus. Dafür liegen Deckel, Teller oder Geschirrtücher bereit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧊 Bereitstellen oder bis zur Verarbeitung im Kühlschrank lassen? Sortiere.",
+        "explanation": "Frag dich: Verdirbt es schnell in der warmen Küche? Molkereiprodukte, also Milchprodukte, Fleisch und Fisch bleiben bis zur Verarbeitung im Kühlschrank. Alles, was nicht verderben kann, stellst du schon vorher bereit.",
+        "buckets": [
+          { "id": "bereit", "label": "Schon bereitstellen", "icon": "🧺" },
+          { "id": "kuehl", "label": "Bis zur Verarbeitung im Kühlschrank", "icon": "❄️" }
+        ],
+        "items": [
+          { "text": "Die Abfallschüssel", "bucket": "bereit" },
+          { "text": "Das Flächendesinfektionsmittel", "bucket": "bereit" },
+          { "text": "Die Gewürze", "bucket": "bereit" },
+          { "text": "Das Küchenpapier", "bucket": "bereit" },
+          { "text": "Der Kurzzeitwecker", "bucket": "bereit" },
+          { "text": "Die Sahne", "bucket": "kuehl" },
+          { "text": "Das Hackfleisch", "bucket": "kuehl" },
+          { "text": "Der frische Lachs", "bucket": "kuehl" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Du backst einen Rührkuchen. Was bereitest du vor, bevor du den Teig rührst?",
+        "options": [
+          { "text": "Die Form einfetten und panieren oder Backpapier hineinlegen.", "correct": true },
+          { "text": "Die Form erst suchen, wenn der Teig schon fertig ist." },
+          { "text": "Den Teig in die Form füllen und sie danach einfetten." }
+        ],
+        "explanation": "Backformen und Backbleche bereitest du vorher vor: einfetten und panieren, also mit Bröseln ausstreuen, oder Backpapier hineinlegen. Dazu stellst du Töpfe und eventuell einen Kurzzeitwecker bereit. Ist der Teig fertig, muss er gleich in die Form."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Die Küchenmaschine liegt in Einzelteilen im Schrank. Wann setzt du sie zusammen?",
+        "options": [
+          { "text": "Vor dem Kochen, bei der Arbeitsplatzvorbereitung.", "correct": true },
+          { "text": "Erst dann, wenn der Teig schon gerührt werden muss." },
+          { "text": "Nach dem Kochen, bei der Nachbereitung." }
+        ],
+        "explanation": "Betriebsmittel zum Mischen, Schlagen und Zerkleinern stellst du vorher bereit oder setzt sie zusammen. So musst du später nicht unterbrechen und kannst ohne Pause weiterarbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Es ist genug Platz am Arbeitsplatz. Was darfst du dann schon bereitstellen?",
+        "options": [
+          { "text": "Das Anrichtegeschirr, zur Kontrolle.", "correct": true },
+          { "text": "Das Hackfleisch, schon zwei Stunden vorher." },
+          { "text": "Das schmutzige Geschirr vom Vortag." }
+        ],
+        "explanation": "Wenn genügend Platz ist, stellst du das Anrichtegeschirr bereit. So kannst du kontrollieren, ob alles da ist. Hackfleisch bleibt dagegen bis zur Verarbeitung im Kühlschrank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Du machst einen Quarkauflauf. Wo bleiben Quark, Milch und Sahne, bis du sie brauchst?",
+        "options": [
+          { "text": "Im Kühlschrank.", "correct": true },
+          { "text": "Auf der Arbeitsfläche, damit alles bereitsteht." },
+          { "text": "Im Trockenvorrat." }
+        ],
+        "explanation": "Molkereiprodukte, also Milchprodukte, bleiben bis zur Verarbeitung im Kühlschrank. Genau wie Fleisch und Fisch. In der warmen Küche würden sie schnell verderben."
+      }
+    }
+  ]
+}

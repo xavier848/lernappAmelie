@@ -1,0 +1,160 @@
+{
+  "topic_slug": "pruefung-unfall-arbeitsplatz-hygiene",
+  "slug": "pruefung-unfall-alle-gefahren",
+  "title": "Alle 6 Gefahren und der Notfall",
+  "sort": 6,
+  "intro": "Jetzt mischst du alle 6 Unfallgefahren von deinem Blatt. Und du übst die Aufgaben vom Ende des Blattes.\n\nDie 6 Gefahren: 1. Stürze. 2. Schnittwunden an Maschinen. 3. Strom. 4. Heißes Fett und Wasserdampf. 5. Gas. 6. Falsch verarbeitete Lebensmittel.\n\nAuf deinen Blättern steht ein Wort immer wieder in roter Schrift: sofort. Kaputte Böden, Geräte, Stecker und Steckdosen werden sofort repariert oder erneuert.\n\nIm Notfall rufst du die 112. Dann kommen Krankenwagen und Notarzt. Du beantwortest die W-Fragen und legst nicht selbst auf.\n\nMERKE: Schnelle und sichere Hilfe rettet Leben!",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚠️ Welche Folge hat welche Unfallgefahr? Verbinde.",
+        "explanation": "Jede der 6 Gefahren hat ihre typische Folge. Achtung: Gas macht auch Verbrennungen – die Explosionsgefahr gibt es aber nur beim Gas.",
+        "pairs": [
+          { "left": {"text": "🚶 Stürze"}, "right": {"text": "Brüche und Verstauchungen"} },
+          { "left": {"text": "🔪 Elektrische Maschinen"}, "right": {"text": "Schwere Schnittwunden"} },
+          { "left": {"text": "🔌 Defekte Geräte und Anschlüsse"}, "right": {"text": "Verletzungen durch Strom"} },
+          { "left": {"text": "🍳 Heißes Fett und Dampf"}, "right": {"text": "Verbrennungen"} },
+          { "left": {"text": "🔥 Falscher Umgang mit Gas"}, "right": {"text": "Explosionsgefahr"} },
+          { "left": {"text": "🥩 Falsch verarbeitete Lebensmittel"}, "right": {"text": "Lebensmittelvergiftung"} }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Zu welcher Gefahr gehört die Maßnahme? Sortiere.",
+        "explanation": "Frag dich: Womit hat die Maßnahme zu tun – mit Stecker und Steckdose, mit dem Gasherd oder mit dem Essen selbst?",
+        "buckets": [
+          { "id": "strom", "label": "Strom", "icon": "⚡" },
+          { "id": "gas", "label": "Gas", "icon": "🔥" },
+          { "id": "essen", "label": "Lebensmittel", "icon": "🦠" }
+        ],
+        "items": [
+          { "text": "Nach dem Gebrauch den Stecker ziehen", "bucket": "strom" },
+          { "text": "Geräte nur mit feuchtem Tuch reinigen", "bucket": "strom" },
+          { "text": "Kaputte Steckdosen sofort erneuern", "bucket": "strom" },
+          { "text": "Erst den Anzünder bereithalten, dann den Hahn aufdrehen", "bucket": "gas" },
+          { "text": "Bei langen Pausen den Haupthahn zudrehen", "bucket": "gas" },
+          { "text": "Die Lüftung einschalten", "bucket": "gas" },
+          { "text": "Die Kerntemperatur messen", "bucket": "essen" },
+          { "text": "Keine rohen Eierspeisen servieren", "bucket": "essen" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🩹 Welche Erste Hilfe gehört zu welchem Unfall? Verbinde.",
+        "explanation": "Frag dich bei jedem Unfall: Was muss als Erstes passieren, damit es nicht schlimmer wird? Beim Strom ist das immer: erst den Strom weg.",
+        "pairs": [
+          { "left": {"text": "🦴 Verstauchung oder Bruch"}, "right": {"text": "Ruhig stellen, zum Arzt"} },
+          { "left": {"text": "🩹 Einfacher Schnitt"}, "right": {"text": "Keimfreier Verband, hochhalten"} },
+          { "left": {"text": "🩸 Schwerer Schnitt"}, "right": {"text": "Druckverband, Arzt"} },
+          { "left": {"text": "⚡ Stromunfall"}, "right": {"text": "Zuerst Hauptsicherung aus"} },
+          { "left": {"text": "🔥 Schwache Verbrennung"}, "right": {"text": "In kaltes Wasser geben"} },
+          { "left": {"text": "🚽 Durchfall nach schlechtem Essen"}, "right": {"text": "Sofort zum Arzt: Salmonellenverdacht"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Was steht auf deinem Blatt zum Frittieren und zu überhitztem Fett?",
+        "options": [
+          { "text": "Alle Sicherheitsmaßnahmen einhalten – überhitzte Fette können brennen.", "correct": true },
+          { "text": "Das Fett so heiß wie möglich machen – dann wird alles knuspriger." },
+          { "text": "Die Fritteuse kurz allein lassen ist erlaubt – Fett brennt nicht." }
+        ],
+        "explanation": "Überhitzte Fette können brennen. Darum hältst du beim Frittieren alle Sicherheitsmaßnahmen ein. Und ein Fettbrand wird niemals mit Wasser gelöscht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Eine Kollegin hat sich an der Gasflamme leicht verbrannt. Was ist die Erste Hilfe?",
+        "options": [
+          { "text": "Die Stelle in kaltes Wasser geben.", "correct": true },
+          { "text": "Nur das Fenster öffnen." },
+          { "text": "Die Stelle trocken abreiben." }
+        ],
+        "explanation": "Auf deinem Blatt steht bei Gas: Erste Hilfe siehe Verbrennungen oben. Also gibst du die Stelle in kaltes Wasser. Das lindert die Schmerzen. Bei starken Verbrennungen holst du sofort den Arzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Auf deinem Blatt fragt Aufgabe 1: Welche weiteren Unfälle gibt es in der Küche? Welche Antwort passt?",
+        "options": [
+          { "text": "Verätzung durch Reiniger – Schutzhandschuhe tragen und Reiniger nie mischen.", "correct": true },
+          { "text": "Verätzung durch Reiniger – Reiniger in eine Saftflasche umfüllen, dann findet man ihn schneller." },
+          { "text": "Verbrühung – den heißen Topf mit einem nassen Topflappen anfassen." }
+        ],
+        "explanation": "Neben den 6 Gefahren gibt es weitere, zum Beispiel Verätzungen durch Reiniger. Reiniger bleiben in ihrer eigenen Flasche und werden nie gemischt. Und ein nasser Topflappen leitet die Hitze sofort an deine Hand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📞 In der Schule verletzt sich jemand schwer. Welche Nummer rufst du für Krankenwagen und Notarzt?",
+        "options": [
+          { "text": "112", "correct": true },
+          { "text": "110" },
+          { "text": "116117" }
+        ],
+        "explanation": "Die 112 ist der Notruf für Rettungsdienst und Feuerwehr. Dann kommen Krankenwagen und Notarzt. Die 110 ist die Polizei, die 116117 der ärztliche Bereitschaftsdienst für leichte Beschwerden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🚑 Du rufst in der Schule den Krankenwagen. Was hilft dabei? Sortiere.",
+        "explanation": "Frag dich: Kommt die Hilfe dadurch schneller und sicher an? Die Leitstelle braucht Antworten auf die W-Fragen und hat oft Rückfragen. Eine Lehrkraft hilft beim Organisieren. Wer den Rettungswagen am Eingang abholt, spart wertvolle Minuten.",
+        "buckets": [
+          { "id": "hilft", "label": "Hilft", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Die 112 wählen", "bucket": "hilft" },
+          { "text": "Sagen, wo es passiert ist und was passiert ist", "bucket": "hilft" },
+          { "text": "Eine Lehrkraft oder das Sekretariat informieren", "bucket": "hilft" },
+          { "text": "Jemanden zum Eingang schicken, der den Rettungswagen einweist", "bucket": "hilft" },
+          { "text": "Nach dem ersten Satz sofort auflegen", "bucket": "falsch" },
+          { "text": "Erst abwarten, ob es von allein besser wird", "bucket": "falsch" }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧰 Was gehört in den Erste-Hilfe-Kasten? Sortiere.",
+        "explanation": "Frag dich: Brauchst du es, um eine Wunde zu versorgen oder einen Verletzten zu schützen? Dann gehört es hinein. Medikamente gehören nicht hinein – Ersthelfer geben keine Medikamente.",
+        "buckets": [
+          { "id": "rein", "label": "Gehört hinein", "icon": "🧰" },
+          { "id": "raus", "label": "Gehört nicht hinein", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Verbandpäckchen", "bucket": "rein" },
+          { "text": "Einmalhandschuhe", "bucket": "rein" },
+          { "text": "Dreiecktuch", "bucket": "rein" },
+          { "text": "Rettungsdecke", "bucket": "rein" },
+          { "text": "Schere", "bucket": "rein" },
+          { "text": "Schmerztabletten", "bucket": "raus" },
+          { "text": "Hustensaft", "bucket": "raus" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💚 Mit welchem Satz endet dein Blatt zum Unfallschutz?",
+        "options": [
+          { "text": "Schnelle und sichere Hilfe rettet Leben!", "correct": true },
+          { "text": "Hilfe ist allein die Sache vom Arzt und Notarzt!" },
+          { "text": "Erst die Küche aufräumen, dann dem Verletzten helfen!" }
+        ],
+        "explanation": "Schnelle und sichere Hilfe rettet Leben. Darum lernst du die Erste Hilfe für jede Gefahr. Im Ernstfall weißt du dann, was zu tun ist."
+      }
+    }
+  ]
+}
