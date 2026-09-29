@@ -1,0 +1,131 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-beheizung-induktion",
+  "title": "Beheizung: Strahlung, Halogen, Induktion",
+  "sort": 582,
+  "intro": "⚡ Alle drei Beheizungssysteme haben ein Kochfeld aus Glaskeramik. Darunter liegt die Technik, die die Wärme überträgt.\n\nStrahlungsbeheizung: Man sieht rot glühende Heizkörper. Das sind Hilight-Heizkörper. Gewellte Heizbänder erzeugen die Wärme innerhalb von drei Sekunden.\n\nStrahlungsbeheizung mit Rohrheizkörper: Hier liegt ein schlangenförmiger Rohrheizkörper unter der Glaskeramik. Er erreicht 800 bis 900 °C. So kann man die Glaskeramik als Grill- oder Bratfläche nutzen.\n\nHalogenbeheizung gehört auch zur Strahlungsbeheizung. Halogenröhren sind Heizspiralen, die durch ein Gasgemisch erhitzt werden. Sie werden mit normaler Strahlungshitze kombiniert. Die Temperatur lässt sich genau regeln, und die Aufheizzeit ist kurz. Das spart Zeit und Energie.\n\nInduktion nennt man auch „kaltes Kochen“. Magnetspulen unter dem Kochfeld erzeugen ein elektromagnetisches Wechselfeld. Dadurch entstehen Wirbelströme im Topfboden. Die Wärme entsteht direkt im Topfboden und geht sofort ins Essen. Es gibt keine Aufheizzeit. Die Hitze ist sofort da, ähnlich wie beim Gas.\n\nDie Kochstelle bleibt weitgehend kalt. Du spürst nur die Wärme, die vom heißen Topf kommt. Deshalb ist die Verbrennungsgefahr gering. Schmutz brennt kaum ein und lässt sich leicht entfernen. Nimmst du den Topf herunter, schaltet sich die Energiezufuhr sofort ab.\n\nMERKE: Für Induktion brauchst du Kochgeschirr mit ferromagnetischem Boden, also mit einem magnetischen Boden. Töpfe aus Aluminium, Kupfer oder Glas funktionieren nicht. Laut Buch gilt das auch für Edelstahl – es sei denn, der Boden ist magnetisch.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔲 Was haben alle drei Beheizungssysteme gemeinsam?",
+        "options": [
+          { "text": "Ein Kochfeld aus Glaskeramik, darunter die Heiztechnik", "correct": true },
+          { "text": "Eine offene Flamme direkt unter dem Boden des Topfes" },
+          { "text": "Kochplatten aus Gusseisen mit einem roten Punkt darauf" }
+        ],
+        "explanation": "Basis aller drei Systeme ist ein Kochfeld aus Glaskeramik. Unterschiedlich ist nur, welche Technik darunter die Wärme erzeugt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Beheizung ist das? Verbinde.",
+        "explanation": "Alle drei gehören zur Strahlungsbeheizung. Merke dir je ein Kennzeichen: Hilight mit gewellten Heizbändern, Rohrheizkörper schlangenförmig und sehr heiß, Halogen mit Gasgemisch in den Röhren.",
+        "pairs": [
+          { "left": {"text": "🔴 Hilight-Heizkörper"}, "right": {"text": "Gewellte Heizbänder, heiß in 3 Sekunden"} },
+          { "left": {"text": "🐍 Rohrheizkörper"}, "right": {"text": "800 bis 900 °C, als Grillfläche nutzbar"} },
+          { "left": {"text": "💡 Halogen"}, "right": {"text": "Heizspiralen, durch ein Gasgemisch erhitzt"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Warum nennt man Induktion „kaltes Kochen“?",
+        "options": [
+          { "text": "Die Wärme entsteht im Topfboden, nicht im Kochfeld.", "correct": true },
+          { "text": "Man kocht dabei nur mit kaltem Wasser aus der Leitung." },
+          { "text": "Die Speisen werden dabei nur ganz langsam lauwarm." }
+        ],
+        "explanation": "Beim Induktionskochen entsteht die Wärme direkt im Topfboden. Das Kochfeld selbst erzeugt keine Hitze."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧲 So funktioniert Induktion. Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Bei Induktion entsteht die Wärme nicht im Kochfeld, sondern im Topfboden. Darum braucht das Magnetfeld zuerst einen passenden Topf. Erst dann wird es warm.",
+        "steps": [
+          { "text": "Magnetspulen unter dem Kochfeld erzeugen ein Wechselfeld." },
+          { "text": "Im magnetischen Topfboden entstehen Wirbelströme." },
+          { "text": "Der Topfboden selbst wird heiß." },
+          { "text": "Die Wärme geht sofort in das Gargut." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 Du nimmst den Topf vom Induktionsfeld. Was passiert?",
+        "options": [
+          { "text": "Die Energiezufuhr schaltet sich sofort ab.", "correct": true },
+          { "text": "Die Kochzone glüht noch lange rot nach." },
+          { "text": "Das Feld heizt weiter, bis du es ausschaltest." }
+        ],
+        "explanation": "Ohne Topf entsteht keine Wärme. Das Induktionsfeld schaltet die Energiezufuhr sofort ab, wenn das Kochgeschirr heruntergenommen wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧒 Warum ist die Verbrennungsgefahr beim Induktionsfeld gering?",
+        "options": [
+          { "text": "Du spürst nur die Wärme vom heißen Topf, das Feld bleibt fast kalt.", "correct": true },
+          { "text": "Das Kochfeld hat eine besondere Schutzschicht aus weichem Kunststoff." },
+          { "text": "Das Kochfeld wird höchstens 50 °C warm, auch unter dem Topf." }
+        ],
+        "explanation": "Auf Induktion spürst du nur Kontaktwärme, die vom heißen Topfboden auf das Feld übergeht. Das Feld selbst bleibt weitgehend kalt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Welcher Topf funktioniert auf dem Induktionskochfeld?",
+        "options": [
+          { "text": "Ein Topf mit ferromagnetischem Boden", "correct": true },
+          { "text": "Ein schwerer Topf aus Kupfer" },
+          { "text": "Eine Auflaufform aus feuerfestem Glas" },
+          { "text": "Ein leichter Topf aus Aluminium" }
+        ],
+        "explanation": "Nur ein ferromagnetischer, also magnetischer Topfboden funktioniert. In ihm entstehen die Wirbelströme. Kupfer, Glas und Aluminium sind nicht magnetisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Warum ist ein Induktionskochfeld leicht sauber zu halten?",
+        "options": [
+          { "text": "Schmutz brennt kaum ein, weil das Feld kaum heiß wird.", "correct": true },
+          { "text": "Es reinigt sich nach dem Kochen selbst bei 500 °C." },
+          { "text": "Es stößt den Schmutz mit seinem Magnetfeld einfach ab." }
+        ],
+        "explanation": "Weil das Kochfeld weitgehend kalt bleibt, brennen Verschmutzungen kaum ein. Du kannst sie leicht abwischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Welche beiden Beheizungen brauchen keine Aufheizzeit?",
+        "options": [
+          { "text": "Halogen und Induktion", "correct": true },
+          { "text": "Gusseisenplatte und Rohrheizkörper" },
+          { "text": "Normalkochplatte und Blitzkochplatte" }
+        ],
+        "explanation": "Halogen und Induktion stellen die Wärme sofort zur Verfügung. Das spart Energie und Zeit. Kochplatten aus Gusseisen müssen erst heiß werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Bei Induktion ist die Hitze sofort da. Das ist ähnlich wie beim …",
+        "options": [
+          { "text": "Gasherd", "correct": true },
+          { "text": "Holzofen" },
+          { "text": "Kachelofen" }
+        ],
+        "explanation": "Wie beim Gas steht die Hitze bei Induktion sofort zur Verfügung. Es gibt keine Aufheizzeit."
+      }
+    }
+  ]
+}
