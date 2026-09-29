@@ -3,7 +3,7 @@
   "slug": "arbeitssicherheit-unfallursachen",
   "title": "Unfallursachen erkennen",
   "sort": 602,
-  "intro": "⚠️ In der Gemeinschaftsverpflegung und in der Gastronomie gibt es jeden Tag Stress und Zeitdruck. Jeder Handgriff muss sitzen. Besonders zu Stoßzeiten steigt die Belastung sehr stark. Stoßzeit heißt: Zeit, in der besonders viel los ist. Dann wird die Arbeitssicherheit oft vernachlässigt. Viele empfinden die Sicherheitsmaßnahmen dann als hemmend oder störend.\n\nMERKE: Unfälle sind keine zufälligen Ereignisse.\n\nUnfallarten: Allgemein unterscheidet man Sachschaden, Körperschaden und beides zusammen. Im Betrieb spricht man von Schadensfall und Verletzungsfall. Ein Verletzungsfall kann sogar den Tod bedeuten.\n\nDie Folgen eines Unfalls sind groß. Das Unfallopfer und seine Familie haben persönliches Leid. Der Betrieb hat Einbußen, zum Beispiel durch lange Krankschreibungen und Kosten für Ersatzpersonal.\n\nJeder Mitarbeiter sollte die Unfallursachen kennen. Es gibt drei Gruppen.\n\n1. Mangelhaftes persönliches Verhalten. Zum Beispiel: Sicherheitsvorschriften missachten, Schutzeinrichtungen absichtlich entfernen, mangelhafte Schutzkleidung oder Schuhe, gedankenlos oder leichtfertig arbeiten, Unwissenheit, falsche oder ungeeignete Arbeitsgeräte, Übermüdung, Alkohol und Drogen, Arbeitsmittel falsch bedienen, Spielen und Leichtsinn, seelische Probleme.\n\n2. Mangelhafte technische Gegebenheiten. Zum Beispiel: bauliche Mängel wie schmale Flure oder nicht rutschfeste Fußböden, fehlende Schutzeinrichtungen am Arbeitsplatz, technische Störungen, schlechte Beleuchtung, Belüftung oder Lärm, defekte Geräte, schlechte ergonomische Gestaltung und Konstruktionsmängel von Arbeitsmitteln.\n\n3. Mangelhafte Arbeitsorganisation. Zum Beispiel: Hektik oder Zeitdruck durch schlechte Planung, körperliche Überforderung, ungeeignete Personalauswahl, fehlende Aufsicht, häufige Nachtarbeit, Arbeitsanweisungen werden schlecht weitergegeben, fehlende Prüfung, Wartung und Reparatur, fehlende Ordnung mit Hindernissen im Arbeitsbereich.",
+  "intro": "⚠️ In der Gemeinschaftsverpflegung und in der Gastronomie gibt es jeden Tag Stress und Zeitdruck. Jeder Handgriff muss sitzen. Besonders zu Stoßzeiten steigt die Belastung sehr stark. Stoßzeit heißt: Zeit, in der besonders viel los ist. Dann wird die Arbeitssicherheit oft vernachlässigt. Viele empfinden die Sicherheitsmaßnahmen dann als hemmend oder störend.\n\nMERKE: Unfälle sind keine zufälligen Ereignisse.\n\nUnfallarten: Allgemein unterscheidet man Sachschaden, Körperschaden und beides zusammen. Im Betrieb spricht man von Schadensfall und Verletzungsfall. Ein Verletzungsfall kann sogar den Tod bedeuten.\n\nDie Folgen eines Unfalls sind groß. Das Unfallopfer und seine Familie haben persönliches Leid. Der Betrieb hat Einbußen, zum Beispiel durch lange Krankschreibungen und Kosten für Ersatzpersonal.\n\nJeder Mitarbeiter sollte die Unfallursachen kennen. Es gibt drei Gruppen.\n\n1. Mangelhaftes persönliches Verhalten. Zum Beispiel: Sicherheitsvorschriften missachten, Schutzeinrichtungen absichtlich entfernen, mangelhafte Schutzkleidung oder Schuhe, gedankenlos oder leichtfertig arbeiten, Unwissenheit, falsche oder ungeeignete Arbeitsgeräte, Übermüdung, Alkohol und Drogen, Arbeitsmittel falsch bedienen, Spielen und Leichtsinn, seelische Probleme.\n\n2. Mangelhafte technische Gegebenheiten. Zum Beispiel: bauliche Mängel wie schmale Flure oder nicht rutschfeste Fußböden, fehlende oder zu schwache Schutzeinrichtungen am Arbeitsplatz, technische Störungen im Arbeitsablauf, schlechte Beleuchtung, Belüftung oder Lärm, defekte Geräte, schlechte ergonomische Gestaltung und Konstruktionsmängel von Arbeitsmitteln. Konstruktionsmangel heißt: Das Gerät ist schon falsch gebaut.\n\n3. Mangelhafte Arbeitsorganisation. Zum Beispiel: Hektik oder Zeitdruck durch schlechte Planung, körperliche Überforderung, ungeeignete Personalauswahl (für eine Aufgabe wird die falsche Person ausgesucht), fehlende Aufsicht, häufige Nachtarbeit, Arbeitsanweisungen werden schlecht weitergegeben, fehlende Prüfung, Wartung und Reparatur, fehlende Ordnung mit Hindernissen im Arbeitsbereich.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -71,9 +71,9 @@
           { "text": "Eine Schutzeinrichtung absichtlich entfernen", "bucket": "person" },
           { "text": "Übermüdet arbeiten", "bucket": "person" },
           { "text": "Sicherheitsvorschriften missachten", "bucket": "person" },
-          { "text": "Ein rutschiger Fußboden", "bucket": "technik" },
+          { "text": "Ein Fußboden, der nicht rutschfest ist", "bucket": "technik" },
           { "text": "Ein defektes Gerät", "bucket": "technik" },
-          { "text": "Schlechte Beleuchtung", "bucket": "technik" },
+          { "text": "Schlechte Beleuchtung und Belüftung", "bucket": "technik" },
           { "text": "Zeitdruck durch schlechte Planung", "bucket": "orga" },
           { "text": "Fehlende Aufsicht", "bucket": "orga" }
         ],
@@ -103,6 +103,28 @@
       }
     },
     {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Letzte Runde: Zu welcher Gruppe gehört die Unfallursache? Sortiere.",
+        "buckets": [
+          { "id": "person", "label": "Persönliches Verhalten", "icon": "🙋" },
+          { "id": "technik", "label": "Technische Gegebenheiten", "icon": "⚙️" },
+          { "id": "orga", "label": "Arbeitsorganisation", "icon": "📋" }
+        ],
+        "items": [
+          { "text": "Ohne rutschfeste Arbeitsschuhe arbeiten", "bucket": "person" },
+          { "text": "Leichtsinnig mit dem Messer herumspielen", "bucket": "person" },
+          { "text": "Eine Maschine falsch bedienen", "bucket": "person" },
+          { "text": "Mit Sorgen im Kopf gedankenlos arbeiten", "bucket": "person" },
+          { "text": "Ein Gerät mit Konstruktionsmangel", "bucket": "technik" },
+          { "text": "Eine technische Störung im Arbeitsablauf", "bucket": "technik" },
+          { "text": "Eine Schutzeinrichtung, die nicht ausreicht", "bucket": "technik" },
+          { "text": "Ungeeignete Personalauswahl", "bucket": "orga" }
+        ],
+        "explanation": "Achte auf die Feinheiten: Ein Boden, der nicht rutschfest ist, ist Technik. Wer ohne rutschfeste Schuhe arbeitet, verhält sich selbst falsch. Eine Schutzeinrichtung, die nicht ausreicht, ist Technik. Wer sie absichtlich entfernt, verhält sich falsch. Wer für eine Aufgabe ausgesucht wird, regelt die Arbeitsorganisation."
+      }
+    },
+    {
       "type": "multiple_choice",
       "data": {
         "prompt": "📋 Die Küchenleitung gibt eine neue Arbeitsanweisung nicht an das Team weiter. Welche Ursachen-Gruppe ist das?",
@@ -129,13 +151,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌫️ Die Lüftung in der Spülküche funktioniert schlecht. Welche Ursachen-Gruppe ist das?",
+        "prompt": "🧺 Im Arbeitsbereich fehlt Ordnung: Überall stehen Hindernisse herum. Zu welcher Ursachen-Gruppe zählt das Fachbuch das?",
         "options": [
-          { "text": "Mangelhafte technische Gegebenheiten.", "correct": true },
+          { "text": "Mangelhafte Arbeitsorganisation.", "correct": true },
           { "text": "Mangelhaftes persönliches Verhalten." },
-          { "text": "Mangelhafte Arbeitsorganisation." }
+          { "text": "Mangelhafte technische Gegebenheiten." }
         ],
-        "explanation": "Unzureichende Belüftung, Beleuchtung oder Lärm gehören zu den mangelhaften technischen Gegebenheiten."
+        "explanation": "Das Fachbuch zählt fehlende Ordnung mit Hindernissen im Arbeitsbereich zur mangelhaften Arbeitsorganisation. Ordnung muss im Betrieb geplant und geregelt sein: Was steht wo, und wer räumt auf?"
       }
     },
     {
