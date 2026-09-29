@@ -1,0 +1,137 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-arbeitsteilung",
+  "title": "Wirtschaften: Arbeitsteilung",
+  "sort": 680,
+  "intro": "🚜 Du hast Hunger und besorgst dir etwas zu essen. Damit handelst du schon wirtschaftlich. Ob du das Essen selbst anbaust oder mit Geld aus deiner Arbeit bezahlst, ist nur ein Detail.\n\nHeute baut kaum noch jemand seine Lebensmittel selbst an. Kaum jemand hält Schafe, um aus der Wolle Kleidung zu stricken. Das Arbeitsleben hat sich immer mehr spezialisiert. Spezialisiert heißt: Jeder macht eine bestimmte Arbeit.\n\nEin Beispiel: Der Maschinenbau stellt einen Traktor her. Der Landwirt braucht diesen Traktor. Mit ihm erzeugt er genug Nahrungsmittel für alle. Einen Teil davon gibt er im Tausch für den Traktor ab.\n\nWaren werden also getauscht. Heute ist das Tauschmittel Geld. Früher waren es oft Naturalien. Naturalien sind Waren wie Getreide, Eier oder Vieh.\n\nWer alles selbst herstellt, was er zum Leben braucht, betreibt Subsistenzwirtschaft. Ein anderes Wort dafür ist Selbstversorgungswirtschaft. Früher pflügte der Bauer mit dem Pferd. In der arbeitsteiligen Landwirtschaft arbeitet er mit dem Traktor.\n\nMERKE: Die arbeitsteilige Wirtschaft ist produktiver als die Selbstversorgung. Wer sich spezialisiert, erzeugt in der gleichen Arbeitszeit mehr oder hochwertigere Ware. Das gilt auch, wenn man die Kosten für Produktionsmittel wie den Traktor abzieht. Dafür muss man aber Waren tauschen. So kann jeder mehr Bedürfnisse befriedigen.\n\nGüter kann man unterscheiden. Ein Verbrauchsgut ist nach dem Gebrauch weg, zum Beispiel ein Brot. Ein Gebrauchsgut nutzt man lange, zum Beispiel einen Kühlschrank. Eine Dienstleistung ist eine Arbeit für andere, zum Beispiel die Reinigung eines Zimmers.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Du hast Hunger und kaufst dir ein Brötchen. Was tust du damit?",
+        "options": [
+          { "text": "Ich handle schon wirtschaftlich.", "correct": true },
+          { "text": "Das hat mit Wirtschaft gar nichts zu tun." },
+          { "text": "Wirtschaftlich handeln nur große Betriebe." }
+        ],
+        "explanation": "Wer ein Bedürfnis hat, zum Beispiel Hunger, und sich etwas dafür besorgt, handelt wirtschaftlich. Das gilt für jeden Menschen, nicht nur für Betriebe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐑 Warum baut heute kaum noch jemand seine Lebensmittel selbst an?",
+        "options": [
+          { "text": "Die Arbeit hat sich spezialisiert. Jeder macht eine bestimmte Arbeit.", "correct": true },
+          { "text": "Es ist heute verboten, eigenes Gemüse im Garten hinter dem Haus anzubauen." },
+          { "text": "Es gibt heute gar keine Bauern mehr, die noch Lebensmittel anbauen." }
+        ],
+        "explanation": "Heute macht jeder eine bestimmte Arbeit, zum Beispiel als Landwirt, Mechanikerin oder Hauswirtschafterin. Was wir sonst brauchen, bekommen wir im Tausch gegen Geld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐴 Was bedeutet Subsistenzwirtschaft?",
+        "options": [
+          { "text": "Selbstversorgung: Man stellt selbst her, was man braucht.", "correct": true },
+          { "text": "Einkaufen: Man kauft einfach alles fertig im Supermarkt." },
+          { "text": "Großbetrieb: Man arbeitet nur mit großen, teuren Maschinen." }
+        ],
+        "explanation": "Subsistenzwirtschaft heißt auch Selbstversorgungswirtschaft. Eine Familie baut ihr Essen selbst an und macht ihre Kleidung selbst. Getauscht wird dabei kaum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Was ist heute das Tauschmittel, und was war es früher oft?",
+        "options": [
+          { "text": "Heute Geld, früher oft Naturalien.", "correct": true },
+          { "text": "Heute Naturalien, früher oft Geld." },
+          { "text": "Heute und früher immer nur Gold." }
+        ],
+        "explanation": "Naturalien sind Waren wie Getreide, Eier oder Vieh. Früher tauschte man oft Ware gegen Ware. Heute bezahlen wir mit Geld."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔀 Selbstversorgung oder Arbeitsteilung? Sortiere.",
+        "buckets": [
+          { "id": "selbst", "label": "Subsistenzwirtschaft", "icon": "🐴" },
+          { "id": "teilig", "label": "Arbeitsteilige Wirtschaft", "icon": "🚜" }
+        ],
+        "items": [
+          { "text": "Ein Bauer pflügt mit dem Pferd für die eigene Familie", "bucket": "selbst" },
+          { "text": "Eine Familie strickt aus der Wolle ihrer Schafe Kleidung", "bucket": "selbst" },
+          { "text": "Eine Familie baut ihr ganzes Gemüse selbst an", "bucket": "selbst" },
+          { "text": "Eine Fabrik baut Traktoren für viele Bauern", "bucket": "teilig" },
+          { "text": "Ein Bauer verkauft seine Ernte und kauft Kleidung", "bucket": "teilig" },
+          { "text": "Eine Hauswirtschafterin kauft Essen von ihrem Lohn", "bucket": "teilig" }
+        ],
+        "explanation": "Frag dich: Macht jemand alles selbst, nur für sich? Das ist Subsistenzwirtschaft. Macht jemand eine bestimmte Arbeit und tauscht den Rest ein? Das ist Arbeitsteilung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Ein spezialisierter Landwirt und ein Selbstversorger arbeiten gleich lange. Was stimmt?",
+        "options": [
+          { "text": "Der spezialisierte Landwirt erzeugt mehr oder hochwertigere Ware.", "correct": true },
+          { "text": "Der Selbstversorger erzeugt mehr, weil er alles ganz allein selbst macht." },
+          { "text": "Beide erzeugen in dieser Zeit genau gleich viel Ware." }
+        ],
+        "explanation": "Wer sich spezialisiert, wird in seiner Arbeit besser und schneller. Er erzeugt mehr, auch wenn man die Kosten für Maschinen abzieht. Darum ist die arbeitsteilige Wirtschaft produktiver."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Was ist die Bedingung für die Vorteile der Arbeitsteilung?",
+        "options": [
+          { "text": "Man muss Waren miteinander tauschen.", "correct": true },
+          { "text": "Man muss wieder alles selbst herstellen." },
+          { "text": "Man darf dabei kein Geld mehr benutzen." }
+        ],
+        "explanation": "Der Landwirt erzeugt Nahrung, der Maschinenbau baut Traktoren. Beide brauchen die Ware des anderen. Also müssen sie tauschen, heute mit Geld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Was bringt die arbeitsteilige Wirtschaft jedem Einzelnen?",
+        "options": [
+          { "text": "Er kann mehr Bedürfnisse befriedigen.", "correct": true },
+          { "text": "Er muss jeden Tag viel mehr Stunden arbeiten." },
+          { "text": "Er braucht keine anderen Menschen mehr." }
+        ],
+        "explanation": "Weil die arbeitsteilige Wirtschaft produktiver ist, gibt es mehr Waren. Jeder kann sich dadurch mehr von dem leisten, was er braucht und möchte."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Welche Art von Gut ist das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🍞 Ein Brot"}, "right": {"text": "Verbrauchsgut"} },
+          { "left": {"text": "🧊 Ein Kühlschrank"}, "right": {"text": "Gebrauchsgut"} },
+          { "left": {"text": "🧹 Die Reinigung eines Zimmers"}, "right": {"text": "Dienstleistung"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Ist es nach dem Gebrauch weg? Dann ist es ein Verbrauchsgut. Nutzt man es lange? Dann ist es ein Gebrauchsgut. Ist es eine Arbeit für andere? Dann ist es eine Dienstleistung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wer stellt im Beispiel den Traktor für den Landwirt her?",
+        "options": [
+          { "text": "Der Maschinenbau.", "correct": true },
+          { "text": "Der Landwirt selbst." },
+          { "text": "Die Bäckerei im Dorf." }
+        ],
+        "explanation": "Der Maschinenbau ist ein Industriezweig. Er baut den Traktor. Der Landwirt erzeugt damit die Nahrungsmittel. So arbeiten beide Hand in Hand."
+      }
+    }
+  ]
+}

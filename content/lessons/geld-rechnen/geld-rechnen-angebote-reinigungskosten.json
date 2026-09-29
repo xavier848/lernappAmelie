@@ -1,0 +1,129 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-angebote-reinigungskosten",
+  "title": "Fachrechnen: Angebote und Kosten",
+  "sort": 660,
+  "intro": "Für das Bewohnerzimmer soll ein neuer Designboden kommen. Es gibt drei Angebote. Angebot 1: 39,99 € pro m² zuzüglich Umsatzsteuer. Dazu kommt eine Pauschale von 50 € für die Lieferung. Angebot 2: 69,99 € pro m² inklusive Umsatzsteuer. Wer innerhalb von 7 Tagen zahlt, bekommt 2 % Skonto. Angebot 3: 49,99 € pro m². Die Umsatzsteuer kommt noch dazu.\n\nZuzüglich heißt: Die Steuer kommt noch dazu. Inklusive heißt: Die Steuer ist schon im Preis enthalten. Die Umsatzsteuer beträgt in der Regel 19 %. Netto heißt: ohne Umsatzsteuer.\n\nSkonto ist ein Preisnachlass, wenn man schnell bezahlt. 2 % Skonto heißt: Du ziehst 2 % vom Preis ab.\n\nDreisatz: Ein Zimmer mit 21,5 m² bekommt einen Designboden für 1.715,50 €. Was kostet der Boden für 25,5 m² zum gleichen Preis pro m²? Erst rechnest du den Preis für 1 m² aus: 1.715,50 € : 21,5 = 79,79 €. Dann rechnest du mal 25,5.\n\nEin Reinigungskonzentrat kommt in 5-Liter-Kanistern. Ein Kanister kostet netto 35 €. Auf einen Eimer Wasser (7 Liter) kommen 50 ml Konzentrat. 1 m³ Wasser kostet 3,80 €. 1 m³ sind 1000 Liter.\n\nMERKE: Zuzüglich = Steuer kommt dazu. Inklusive = Steuer ist schon drin. Skonto = Abzug bei schneller Zahlung.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Angebot 2 kostet 69,99 € pro m² inklusive Umsatzsteuer. Was heißt inklusive?",
+        "options": [
+          { "text": "Die Steuer ist schon im Preis enthalten.", "correct": true },
+          { "text": "Die Steuer kommt noch zum Preis dazu." },
+          { "text": "Für den Boden gibt es keine Steuer." },
+          { "text": "Die Steuer wird erst nach einem Jahr fällig." }
+        ],
+        "explanation": "Inklusive heißt: schon drin. Bei Angebot 2 ist die Umsatzsteuer also schon im Preis. Bei Angebot 1 und 3 kommt sie noch dazu, das heißt zuzüglich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Angebot 3 kostet 49,99 € pro m². Dazu kommen 19 % Umsatzsteuer. Was kostet 1 m² mit Steuer etwa?",
+        "options": [
+          { "text": "Etwa 59,49 €", "correct": true },
+          { "text": "Etwa 49,99 €" },
+          { "text": "Etwa 68,99 €" },
+          { "text": "Etwa 40,49 €" }
+        ],
+        "explanation": "19 % von 49,99 € sind etwa 9,50 €. 49,99 € + 9,50 € ≈ 59,49 €. 68,99 € wäre falsch: Dort wurden 19 € statt 19 % dazugezählt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Bei Angebot 2 gibt es 2 % Skonto bei Zahlung innerhalb von 7 Tagen. Was heißt das?",
+        "options": [
+          { "text": "Wer innerhalb von 7 Tagen zahlt, darf 2 % vom Preis abziehen.", "correct": true },
+          { "text": "Wer innerhalb von 7 Tagen zahlt, muss 2 % mehr bezahlen." },
+          { "text": "Wer später als nach 7 Tagen zahlt, bekommt 2 % zurück." },
+          { "text": "Man muss den Preis in 7 gleichen Raten zu je 2 % zahlen." }
+        ],
+        "explanation": "Skonto ist ein Preisnachlass für schnelle Zahlung. Wer innerhalb der Frist zahlt, zieht die 2 % vom Preis ab. Wer später zahlt, zahlt den vollen Preis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Mit Steuer kosten die Angebote pro m² etwa: Angebot 1: 47,59 € plus 50 € Lieferung. Angebot 2: 68,59 € mit Skonto. Angebot 3: 59,49 €. Das Zimmer hat 22,05 m². Welches Angebot liegt in der mittleren Preisstufe?",
+        "options": [
+          { "text": "Angebot 3", "correct": true },
+          { "text": "Angebot 1" },
+          { "text": "Angebot 2" }
+        ],
+        "explanation": "Rechne für das ganze Zimmer: Angebot 1 ≈ 1.049 € + 50 € ≈ 1.099 €. Angebot 3 ≈ 1.312 €. Angebot 2 ≈ 1.512 €. Angebot 3 liegt also in der Mitte. Die 50 € Lieferung machen Angebot 1 nicht teurer als Angebot 3."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📐 Ein Designboden für 21,5 m² kostet 1.715,50 €. Was kostet er bei gleichem m²-Preis für 25,5 m²?",
+        "options": [
+          { "text": "2.034,66 €", "correct": true },
+          { "text": "1.446,40 €" },
+          { "text": "1.719,50 €" },
+          { "text": "2.515,50 €" }
+        ],
+        "explanation": "Dreisatz: Erst den Preis für 1 m²: 1.715,50 € : 21,5 ≈ 79,79 €. Dann mal 25,5 ≈ 2.034,66 €. Mehr Fläche heißt mehr Kosten. Darum muss das Ergebnis größer als 1.715,50 € sein."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🛢️ Ihr bestellt 25 Kanister Reinigungskonzentrat. Ein Kanister kostet netto 35 €. Wie viel Euro kosten sie zusammen netto?",
+        "answer": 875,
+        "hint": "Rechne 25 × 35.\n25 × 30 = 750.\n25 × 5 = 125.\n750 + 125 = ?",
+        "explanation": "25 × 35 € = 875 €. Das ist der Nettopreis, also ohne Umsatzsteuer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Die 25 Kanister kosten netto 875 €. Dazu kommen 19 % Umsatzsteuer. Wie hoch ist die Rechnung?",
+        "options": [
+          { "text": "1.041,25 €", "correct": true },
+          { "text": "894,00 €" },
+          { "text": "166,25 €" },
+          { "text": "1.050,00 €" }
+        ],
+        "explanation": "19 % von 875 € sind 166,25 €. 875 € + 166,25 € = 1.041,25 €. 166,25 € ist nur die Steuer. 894 € wären 875 € plus 19 Euro statt 19 Prozent."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🪣 Ein 5-Liter-Kanister kostet netto 35 €. In einen Eimer kommen 50 ml Konzentrat. Wie viel Cent kostet das Konzentrat für einen Eimer (netto)?",
+        "answer": 35,
+        "hint": "35 € = 3500 Cent. 5 Liter = 5000 ml.\n3500 Cent : 5000 ml = 0,7 Cent pro ml.\n0,7 × 50 = ?",
+        "explanation": "Ein Milliliter Konzentrat kostet 0,7 Cent. 50 ml × 0,7 Cent = 35 Cent. Das Konzentrat für einen Eimer kostet also netto 35 Cent."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 1 m³ Wasser kostet 3,80 €. Ein Eimer hat 7 Liter. Was kostet das Wasser für einen Eimer etwa?",
+        "options": [
+          { "text": "Etwa 3 Cent", "correct": true },
+          { "text": "Etwa 27 Cent" },
+          { "text": "Etwa 2,66 €" },
+          { "text": "Etwa 38 Cent" }
+        ],
+        "explanation": "1 m³ sind 1000 Liter. 3,80 € : 1000 = 0,38 Cent pro Liter. 7 Liter × 0,38 Cent ≈ 2,66 Cent, also etwa 3 Cent. Das Wasser ist also viel billiger als das Konzentrat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Der Kanister kostet netto 35 €. Was heißt netto?",
+        "options": [
+          { "text": "Ohne Umsatzsteuer.", "correct": true },
+          { "text": "Mit Umsatzsteuer." },
+          { "text": "Mit Skonto abgezogen." }
+        ],
+        "explanation": "Netto heißt: ohne Umsatzsteuer. Die Steuer kommt noch dazu. Mit Steuer nennt man den Preis brutto."
+      }
+    }
+  ]
+}
