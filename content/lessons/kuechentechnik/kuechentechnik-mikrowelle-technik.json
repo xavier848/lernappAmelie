@@ -1,0 +1,140 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-mikrowelle-technik",
+  "title": "Mikrowelle: So funktioniert sie",
+  "sort": 587,
+  "intro": "📡 Mikrowellen sind elektromagnetische Wellen, ähnlich wie Rundfunk- und Fernsehwellen. In der Mikrowelle erzeugen sie Wärme.\n\nDas Magnetron, auch Mikrowellengenerator oder Sender genannt, erzeugt die Wellen. Es arbeitet nur, wenn das Gerät läuft, und zwar auf einer festen Frequenz. Es sitzt meist seitlich im Gehäuse und ist das wichtigste Bauteil.\n\nDie Wellen bringen die Moleküle im Essen zum Schwingen. Die Moleküle reiben aneinander. Dabei entsteht Reibungswärme. Das passiert direkt im Inneren der Lebensmittel. Deshalb wird das Essen so schnell warm. Eine typische Bräunung gibt es dabei nicht.\n\nMikrowellen wirken nur auf organische Stoffe, also zum Beispiel auf Lebensmittel. Anorganische Stoffe wie Metall nehmen die Wellen nicht auf. Dort entsteht keine Wärme. Achtung: Nimm zum Erwärmen keine Gefäße aus Metall oder mit Metallrand. Auch keine Aluschalen und keine Alufolie. Sonst kann es einen Funkenüberschlag geben.\n\nSo ist die Mikrowelle aufgebaut: Das Magnetron erzeugt die Wellen. Der Hohlleiter leitet sie in den Garraum. Der Garraum ist aus kunststoffbeschichtetem Metall. Die Wellen prallen an den Wänden ab und werden auf das Essen zurückgeworfen. Der Reflektorflügel verteilt die Wellen gleichmäßig. Er heißt auch Wobbler oder Wellenrührer. Ein Drehteller verstärkt diese Wirkung.\n\nDie Tür hat ein Sichtfenster mit feinem Drahtgitter oder Lochblech in mehreren Schichten. Das verhindert, dass Mikrowellen nach außen dringen. Moderne Geräte haben Zusatzfunktionen, zum Beispiel Memory-Funktion, Fuzzy-Logic, Automatik-Programme, Warmhaltefunktion und einen Touchscreen mit Benutzerführung.\n\nMERKE: Kein Metall und keine Alufolie in die Mikrowelle, sonst droht ein Funkenüberschlag!",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📡 Was sind Mikrowellen?",
+        "options": [
+          { "text": "Elektromagnetische Wellen, ähnlich wie Rundfunkwellen", "correct": true },
+          { "text": "Schallwellen, die man mit den Ohren gar nicht hören kann" },
+          { "text": "Kleine Wasserwellen, die im Essen hin und her laufen" }
+        ],
+        "explanation": "Mikrowellen sind elektromagnetische Wellen, ähnlich den Rundfunk- und Fernsehwellen. In der Mikrowelle dienen sie dazu, Wärme zu erzeugen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔥 Wie wird das Essen warm? Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Denk an den Weg der Wellen: Sie entstehen im Magnetron, laufen durch den Hohlleiter in den Garraum und treffen dann auf das Essen. Erst dort entsteht die Wärme.",
+        "steps": [
+          { "text": "Das Magnetron erzeugt die Mikrowellen." },
+          { "text": "Der Hohlleiter leitet sie in den Garraum." },
+          { "text": "Die Wellen bringen die Moleküle im Essen zum Schwingen." },
+          { "text": "Die Moleküle reiben aneinander." },
+          { "text": "Es entsteht Reibungswärme." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Warum wird Essen in der Mikrowelle so schnell warm?",
+        "options": [
+          { "text": "Die Wärme entsteht direkt im Inneren der Lebensmittel.", "correct": true },
+          { "text": "Die Wände des Garraums werden vorher glühend heiß." },
+          { "text": "Ein Gebläse bläst sehr heiße Luft in das Essen hinein." }
+        ],
+        "explanation": "Die Reibungswärme entsteht direkt im Inneren der Lebensmittel. Die Wärme muss also nicht erst von außen nach innen wandern. Darum geht es so schnell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Warum wird ein Hähnchen in der Solo-Mikrowelle nicht knusprig braun?",
+        "options": [
+          { "text": "Mikrowellen bräunen nicht im üblichen Sinn.", "correct": true },
+          { "text": "Das Hähnchen ist für die Mikrowelle zu fettig." },
+          { "text": "Die Mikrowelle ist dafür viel zu heiß." }
+        ],
+        "explanation": "Typisch für Mikrowellen ist: keine Bräunung im herkömmlichen Sinn. Für eine braune Kruste brauchst du ein Gerät mit Grill oder Strahlungshitze."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Warum nimmst du keine Schüssel mit Metallrand?",
+        "options": [
+          { "text": "Es kann zu einem Funkenüberschlag kommen.", "correct": true },
+          { "text": "Das Metall schmilzt sofort und tropft ins Essen." },
+          { "text": "Das Essen schmeckt danach stark nach Metall." }
+        ],
+        "explanation": "Metall nimmt die Mikrowellen nicht auf. An Metallrändern, Aluschalen oder Alufolie kann es deshalb zu einem Funkenüberschlag kommen. Das ist gefährlich."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Darf das zum Erwärmen in die Mikrowelle? Sortiere.",
+        "explanation": "Frag dich: Ist irgendwo Metall dran oder drin? Dann gehört es nicht in die Mikrowelle. Auch ein Goldrand ist ein Metallrand. Glas und Mikrowellengeschirr sind geeignet.",
+        "buckets": [
+          { "id": "ja", "label": "Geeignet", "icon": "✅" },
+          { "id": "nein", "label": "Nicht geeignet", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Glasschale mit Kunststoffdeckel", "bucket": "ja" },
+          { "text": "Mikrowellengeschirr aus Glas", "bucket": "ja" },
+          { "text": "Aluschale vom Imbiss", "bucket": "nein" },
+          { "text": "Alufolie über dem Teller", "bucket": "nein" },
+          { "text": "Topf aus Edelstahl", "bucket": "nein" },
+          { "text": "Porzellanteller mit Goldrand", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧲 Warum wird Metall in der Mikrowelle nicht warm wie das Essen?",
+        "options": [
+          { "text": "Mikrowellen wirken nur auf organische Stoffe, Metall ist anorganisch.", "correct": true },
+          { "text": "Metall ist einfach viel zu schwer für die Mikrowellen im Garraum." },
+          { "text": "Metall ist immer kalt, egal wo man es hinlegt oder wie lange." }
+        ],
+        "explanation": "Mikrowellen wirken nur bei organischen Stoffen wie Lebensmitteln. Anorganische Bestandteile wie Metalle nehmen sie nicht auf. Dort entsteht keine Wärme."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Bauteile der Mikrowelle: Wofür sind sie da? Verbinde.",
+        "explanation": "Jedes Bauteil hat eine Aufgabe. Das Magnetron sendet, der Garraum wirft zurück, Reflektorflügel und Drehteller verteilen, und das Gitter im Fenster schützt dich.",
+        "pairs": [
+          { "left": {"text": "📡 Magnetron"}, "right": {"text": "Sender mit fester Frequenz"} },
+          { "left": {"text": "🌀 Reflektorflügel"}, "right": {"text": "Verteilt die Wellen gleichmäßig"} },
+          { "left": {"text": "🔁 Drehteller"}, "right": {"text": "Verstärkt die gleichmäßige Verteilung"} },
+          { "left": {"text": "🪟 Sichtfenster mit Drahtgitter"}, "right": {"text": "Hält die Wellen im Gerät"} },
+          { "left": {"text": "📦 Garraum aus beschichtetem Metall"}, "right": {"text": "Wirft die Wellen zurück aufs Essen"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Wie nennt man den Reflektorflügel noch?",
+        "options": [
+          { "text": "Wobbler oder Wellenrührer", "correct": true },
+          { "text": "Magnetron oder kleiner Sender" },
+          { "text": "Hohlleiter oder Kanal" }
+        ],
+        "explanation": "Der Reflektorflügel heißt auch Wobbler oder Wellenrührer. Er rührt die Wellen gewissermaßen um, damit sie sich gleichmäßig verteilen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Zusatzfunktionen haben moderne Mikrowellen zum Beispiel?",
+        "options": [
+          { "text": "Memory-Funktion und Warmhaltefunktion", "correct": true },
+          { "text": "Spülprogramm und ein Wäschetrockner" },
+          { "text": "Kühlfach und Eiswürfelbereiter" }
+        ],
+        "explanation": "Moderne Mikrowellen haben zum Beispiel Memory-Funktion, Fuzzy-Logic, Automatik-Programme, Warmhaltefunktion und einen Touchscreen mit Benutzerführung."
+      }
+    }
+  ]
+}
