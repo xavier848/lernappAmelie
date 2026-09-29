@@ -1,0 +1,143 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-auflegen-platten",
+  "title": "Auflegen: Platten richtig belegen",
+  "sort": 562,
+  "intro": "🍖 Auflegen heißt: Speisen auf flaches Anrichtegeschirr legen. Das sind zum Beispiel Kuchenplatten, Platten aus Edelstahl, Porzellan oder Glas und Spiegel.\n\nDas Anrichtegeschirr wählst du passend zum Anlass. Rustikal wirken Platten aus farbiger Keramik und aus Holz. Rustikal heißt: ländlich und gemütlich. Festlich wirken Spiegelplatten, Schiefer und Glasplatten.\n\nRegeln beim Auflegen: Der Rand der Platte bleibt frei. Nur ausnahmsweise kommt dort Garnitur hin. Die Platte ist groß genug. Portionsstücke werden nicht übereinandergestapelt. Achte auf Formen und Farbkontraste. Speisen mit gleicher Farbe liegen nicht nebeneinander.\n\nMERKE: Beim Hauptgang auf der Platte gilt die Aufteilung: Nr. 1 ist der Hauptbestandteil, also Fleisch, Geflügel, Fisch oder Ei. Er bekommt die größte Fläche oder die Mitte. Nr. 2 ist das Gemüse. Nr. 3 ist die Sättigungsbeilage, also Kartoffeln, Reis oder Teigwaren.\n\nEckige Platten nimmst du für quadratische oder rechteckige Stücke. Runde Platten nimmst du für runde Formen. Ovale Platten passen zu allen Formen.\n\nFür gleich große Stücke teilst du Blechkuchen vor dem Schneiden mit einem Backlineal ein. Torten markierst du mit einem Tortenteiler. Ein Blech ergibt zum Beispiel 24 Stücke (6 × 4 Rechtecke), 20 Stücke (4 × 5 Rechtecke) oder 18 Dreiecke (3 × 3 Felder, jedes schräg halbiert).\n\nMERKE: Kleingebäck, Fingerfood und Canapés legst du in Reihen. Canapés sind kleine belegte Brothäppchen. Gleiche Stücke bilden eine Reihe, waagerecht oder schräg. Flache Stücke wie Fleischscheiben, Wurst oder trockene Rührkuchenstücke legst du schuppenförmig. Schuppenförmig heißt: Jedes Stück liegt ein wenig auf dem nächsten, wie Dachziegel.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Du legst Bratenscheiben auf eine Edelstahlplatte. Welche Art des Anrichtens ist das?",
+        "options": [
+          { "text": "Auflegen", "correct": true },
+          { "text": "Einfüllen" },
+          { "text": "Portionieren" },
+          { "text": "Garnieren" }
+        ],
+        "explanation": "Auflegen heißt: Speisen auf flaches Anrichtegeschirr legen, zum Beispiel auf eine Platte. Einfüllen wäre in eine Schüssel oder Terrine. Portionieren wäre auf einzelne Teller für je eine Person."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🪵 Wie wirkt die Platte? Sortiere.",
+        "buckets": [
+          { "id": "rustikal", "label": "Rustikal", "icon": "🪵" },
+          { "id": "festlich", "label": "Festlich", "icon": "✨" }
+        ],
+        "items": [
+          { "text": "Platte aus farbiger Keramik", "bucket": "rustikal" },
+          { "text": "Holzplatte", "bucket": "rustikal" },
+          { "text": "Spiegelplatte", "bucket": "festlich" },
+          { "text": "Schieferplatte", "bucket": "festlich" },
+          { "text": "Glasplatte", "bucket": "festlich" }
+        ],
+        "explanation": "Frag dich: Wirkt das Material ländlich und gemütlich? Dann rustikal, wie bunte Keramik und Holz. Glänzt es edel, wie Spiegel, Glas oder dunkler Schiefer? Dann festlich."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📋 Regeln beim Auflegen: Richtig oder falsch? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Den Plattenrand frei lassen", "bucket": "richtig" },
+          { "text": "Eine ausreichend große Platte wählen", "bucket": "richtig" },
+          { "text": "Verschiedene Farben nebeneinanderlegen", "bucket": "richtig" },
+          { "text": "Schnitzel übereinanderstapeln", "bucket": "falsch" },
+          { "text": "Tomaten direkt neben rote Paprika legen", "bucket": "falsch" },
+          { "text": "Den ganzen Rand mit Speisen belegen", "bucket": "falsch" }
+        ],
+        "explanation": "Frag dich: Hat jedes Stück genug Platz? Bleibt der Rand frei? Gibt es Farbkontraste? Dann ist es richtig. Gestapelte Stücke und gleiche Farben nebeneinander sind Fehler."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Plattenaufteilung beim Hauptgang: Was gehört zu welcher Nummer?",
+        "pairs": [
+          { "left": {"text": "Nr. 1"}, "right": {"text": "Hauptbestandteil: Fleisch, Geflügel, Fisch, Ei"} },
+          { "left": {"text": "Nr. 2"}, "right": {"text": "Gemüse"} },
+          { "left": {"text": "Nr. 3"}, "right": {"text": "Sättigungsbeilage: Kartoffeln, Reis, Teigwaren"} }
+        ],
+        "explanation": "Das Wichtigste bekommt die Nummer 1 und die größte Fläche oder die Mitte: der Hauptbestandteil. Dann folgen Gemüse und Sättigungsbeilage."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⬛ Welche Platte passt zu welcher Form? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Eckige Platte"}, "right": {"text": "Für quadratische und rechteckige Stücke"} },
+          { "left": {"text": "Runde Platte"}, "right": {"text": "Für runde Formen"} },
+          { "left": {"text": "Ovale Platte"}, "right": {"text": "Passt zu allen Formen"} }
+        ],
+        "explanation": "Eckig zu eckig, rund zu rund. Die ovale Platte ist die Allround-Platte: Auf ihr sehen alle Formen gut aus."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📏 Du teilst einen Blechkuchen mit dem Backlineal ein: 3 × 3 Felder. Jedes Feld schneidest du schräg in zwei Dreiecke. Wie viele Stücke bekommst du?",
+        "answer": 18,
+        "hint": "3 × 3 = 9 Felder. Jedes Feld gibt 2 Stücke.",
+        "explanation": "3 × 3 = 9 Felder, jedes schräg halbiert: 9 × 2 = 18 Dreiecke. Andere Schnittmuster ergeben 24 Stücke (6 × 4) oder 20 Stücke (4 × 5)."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥪 Wie legst du Canapés und Fingerfood auf die Platte?",
+        "options": [
+          { "text": "In Reihen: Gleiche Stücke bilden eine Reihe.", "correct": true },
+          { "text": "Bunt gemischt, damit jede Sorte überall liegt." },
+          { "text": "Alle zusammen als Berg in der Mitte der Platte." },
+          { "text": "Schuppenförmig, jedes Stück halb auf dem nächsten." }
+        ],
+        "explanation": "Kleingebäck, Fingerfood und Canapés legst du in Reihen, waagerecht oder schräg. Gleiche Stücke bilden eine Reihe. Diese übersichtliche Ordnung wirkt dekorativ."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥓 Du legst eine Wurstplatte. Wie legst du die Scheiben?",
+        "options": [
+          { "text": "Schuppenförmig, jede Scheibe ein wenig auf der nächsten.", "correct": true },
+          { "text": "Genau übereinander gestapelt, damit viel auf die Platte passt." },
+          { "text": "Einzeln mit viel Abstand, ohne dass sie sich berühren." },
+          { "text": "Aufgerollt in einer großen Schüssel." }
+        ],
+        "explanation": "Flache Stücke legst du schuppenförmig, wie Dachziegel. Das ist etwas anderes als Stapeln: Beim Stapeln liegt ein Stück ganz auf dem anderen. Das ist verboten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Was legst du außer Wurst auch schuppenförmig?",
+        "options": [
+          { "text": "Fleischscheiben und trockene Rührkuchenstücke.", "correct": true },
+          { "text": "Canapés, Fingerfood und kleines Teegebäck." },
+          { "text": "Ganze Torten und hohe Sahneschnitten mit Obst." },
+          { "text": "Blechkuchenstücke mit viel Sahne obendrauf." }
+        ],
+        "explanation": "Schuppenförmig legst du flache Portionsstücke: Fleischscheiben, Wurst und trockene Rührkuchenstücke. Kuchen mit Sahne ist nicht trocken und würde verschmieren. Canapés, Fingerfood und Kleingebäck legst du in Reihen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Du willst eine Torte in gleich große Stücke teilen. Womit markierst du sie?",
+        "options": [
+          { "text": "Mit einem Tortenteiler.", "correct": true },
+          { "text": "Mit einem Backlineal." },
+          { "text": "Mit einem Eisportionierer." }
+        ],
+        "explanation": "Torten markierst du mit dem Tortenteiler. Das Backlineal nimmst du für Blechkuchen. So werden alle Stücke gleich groß."
+      }
+    }
+  ]
+}

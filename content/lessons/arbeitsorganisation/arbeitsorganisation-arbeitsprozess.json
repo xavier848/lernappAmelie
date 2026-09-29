@@ -1,0 +1,140 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-arbeitsprozess",
+  "title": "Von der Ware bis zur Ausgabe",
+  "sort": 601,
+  "intro": "🔄 Die Herstellung von Speisen beginnt mit der Warenbeschaffung. Sie endet bei der Speisenausgabe. Das gilt im Privathaushalt und in der Gemeinschaftsverpflegung.\n\nDer Arbeitsprozess hat sechs Schritte. 1. Warenbeschaffung, zum Beispiel Bestellung, Anlieferung oder Einkauf im Großmarkt. 2. Lagerung, zum Beispiel im Trockenlager, im Kühllager oder im Tiefkühllager. 3. Vorbereitung, zum Beispiel von Gemüse, Salat oder Fleisch.\n\n4. Zubereitung: warme Küche mit Garverfahren oder kalte Küche. 5. Fertigstellung: abschmecken, anrichten und garnieren. 6. Speisenausgabe, zum Beispiel Tischservice, Warmhalten oder Regenerieren. Regenerieren heißt: fertige Speisen wieder erwärmen.\n\nMERKE: Damit alles reibungslos läuft, wird der Prozess geplant und organisiert. Die Küche ist dafür in Funktionsbereiche eingeteilt. Ein anderes Wort dafür ist Arbeitsbereiche.\n\nIm Privathaushalt gibt es zum Beispiel den Warenlagerungsbereich. Das sind der Schrank für Trockenvorräte und die Kühl- und Gefrierschränke. Und es gibt das Vorbereitungszentrum. Das ist meistens die Arbeitsfläche zwischen Spüle und Kochstelle oder ein eigener Arbeitstisch.\n\nIn Küchen der Gemeinschaftsverpflegung gibt es noch mehr Funktionsbereiche. Wie viele, hängt vom Verpflegungssystem ab. Und davon, wie viele Essen jeden Tag ausgegeben werden.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔄 Der Arbeitsprozess in der Küche. Bringe die sechs Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Warenbeschaffung" },
+          { "text": "Lagerung" },
+          { "text": "Vorbereitung" },
+          { "text": "Zubereitung" },
+          { "text": "Fertigstellung" },
+          { "text": "Speisenausgabe" }
+        ],
+        "explanation": "Frag dich: Was muss da sein, bevor der nächste Schritt geht? Ohne Ware gibt es nichts zu lagern. Erst wird vorbereitet, dann gegart. Abschmecken und Anrichten kommen, wenn die Speise gar ist. Ganz am Ende bekommen die Gäste ihr Essen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📦 Zu welchem Schritt gehört das Beispiel? Sortiere.",
+        "buckets": [
+          { "id": "ware", "label": "Warenbeschaffung", "icon": "🚚" },
+          { "id": "lager", "label": "Lagerung", "icon": "🗄️" },
+          { "id": "vor", "label": "Vorbereitung", "icon": "🔪" }
+        ],
+        "items": [
+          { "text": "Bestellung", "bucket": "ware" },
+          { "text": "Anlieferung", "bucket": "ware" },
+          { "text": "Einkauf im Großmarkt", "bucket": "ware" },
+          { "text": "Trockenlager", "bucket": "lager" },
+          { "text": "Kühllager", "bucket": "lager" },
+          { "text": "Tiefkühllager", "bucket": "lager" },
+          { "text": "Salatvorbereitung", "bucket": "vor" },
+          { "text": "Fleischvorbereitung", "bucket": "vor" }
+        ],
+        "explanation": "Frag dich: Kommt die Ware gerade ins Haus, wartet sie auf ihren Einsatz, oder wird sie schon bearbeitet? Bestellen und Anliefern ist Beschaffung. Trocken, kühl oder tiefgekühlt aufbewahren ist Lagerung. Putzen und Schneiden von Salat oder Fleisch ist Vorbereitung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Zu welchem Schritt gehört das Beispiel? Sortiere.",
+        "buckets": [
+          { "id": "zu", "label": "Zubereitung", "icon": "🔥" },
+          { "id": "fertig", "label": "Fertigstellung", "icon": "🌿" },
+          { "id": "ausgabe", "label": "Speisenausgabe", "icon": "🛎️" }
+        ],
+        "items": [
+          { "text": "Warme Küche mit Garverfahren", "bucket": "zu" },
+          { "text": "Kalte Küche", "bucket": "zu" },
+          { "text": "Abschmecken", "bucket": "fertig" },
+          { "text": "Anrichten", "bucket": "fertig" },
+          { "text": "Garnieren", "bucket": "fertig" },
+          { "text": "Tischservice", "bucket": "ausgabe" },
+          { "text": "Warmhalten", "bucket": "ausgabe" },
+          { "text": "Regenerieren", "bucket": "ausgabe" }
+        ],
+        "explanation": "Frag dich: Wird die Speise gerade hergestellt, bekommt sie den letzten Schliff, oder geht sie zum Gast? Garen und kalte Küche ist Zubereitung. Abschmecken, Anrichten und Garnieren ist Fertigstellung. Servieren, Warmhalten und Wiedererwärmen gehören zur Ausgabe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Was heißt Regenerieren bei der Speisenausgabe?",
+        "options": [
+          { "text": "Fertige Speisen wieder erwärmen.", "correct": true },
+          { "text": "Speisen ganz frisch zubereiten." },
+          { "text": "Speisereste sofort in die Tonne entsorgen." }
+        ],
+        "explanation": "Regenerieren heißt: Speisen, die schon fertig waren, wieder auf Temperatur bringen. Das gehört zur Speisenausgabe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗺️ Die Küche ist in Arbeitsbereiche eingeteilt. Wie heißen sie noch?",
+        "options": [
+          { "text": "Funktionsbereiche.", "correct": true },
+          { "text": "Hauptgarbereiche." },
+          { "text": "Nebenbereiche der Küche." }
+        ],
+        "explanation": "Für einen reibungslosen Ablauf ist die Küche in Funktionsbereiche eingeteilt. Ein anderes Wort dafür ist Arbeitsbereiche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Wo liegt im Privathaushalt meistens das Vorbereitungszentrum?",
+        "options": [
+          { "text": "Zwischen Spüle und Kochstelle.", "correct": true },
+          { "text": "Neben dem Kühlschrank im Flur." },
+          { "text": "Am Esstisch im Wohnzimmer." }
+        ],
+        "explanation": "Das Vorbereitungszentrum ist meistens die Arbeitsfläche zwischen Spüle und Kochstelle. Manchmal ist es auch ein eigener Arbeitstisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Was gehört im Privathaushalt zum Warenlagerungsbereich?",
+        "options": [
+          { "text": "Schrank für Trockenvorräte, Kühl- und Gefrierschränke.", "correct": true },
+          { "text": "Die Spüle, der Geschirrspüler und die großen Abfalleimer." },
+          { "text": "Der Herd, der Backofen und die Dunstabzugshaube." }
+        ],
+        "explanation": "Im Warenlagerungsbereich werden Lebensmittel aufbewahrt: trockene Vorräte im Schrank, frische Waren in Kühl- und Gefrierschränken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Wovon hängt ab, wie viele Funktionsbereiche eine Küche der Gemeinschaftsverpflegung hat?",
+        "options": [
+          { "text": "Vom Verpflegungssystem und der Zahl der Essen pro Tag.", "correct": true },
+          { "text": "Von der Zahl der Fenster und Türen in der ganzen Küche." },
+          { "text": "Nur vom Geschmack der Küchenleitung allein." }
+        ],
+        "explanation": "In der Gemeinschaftsverpflegung gibt es mehr Funktionsbereiche als zu Hause. Wie viele, hängt vom Verpflegungssystem und von der Anzahl der täglich ausgegebenen Essen ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Warum wird der Arbeitsprozess geplant und organisiert?",
+        "options": [
+          { "text": "Damit alles reibungslos läuft.", "correct": true },
+          { "text": "Damit mehr Personal nötig ist." },
+          { "text": "Damit die Speisen teurer werden." }
+        ],
+        "explanation": "Planung und Organisation sorgen für einen reibungslosen Arbeitsablauf. Jeder weiß, was wann und wo zu tun ist."
+      }
+    }
+  ]
+}

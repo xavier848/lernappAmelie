@@ -1,0 +1,138 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-seide",
+  "title": "Naturfaser Seide",
+  "sort": 544,
+  "intro": "Seide wird aus den Kokons von Raupen gewonnen. Ein Kokon ist die Hülle, in die sich die Raupe einspinnt. Darin verpuppt sie sich.\n\nEs gibt zwei Arten: Zuchtseide kommt vom Maulbeerspinner. Wildseide kommt vom Tussahspinner. Maulbeerspinner und Tussahspinner sind Schmetterlinge. Ihre Raupen spinnen die Kokons.\n\nEigenschaften: Seide ist reißfest und leicht. Sie ist temperaturausgleichend. Das heißt: Sie kühlt, wenn es warm ist, und hält warm, wenn es kalt ist. Seide hat einen typischen Seidenglanz. Sie nimmt Feuchtigkeit gut auf. Sie liegt glatt und angenehm auf der Haut.\n\nAber Seide ist nur eingeschränkt wasch- und bügelbar. Du musst also vorsichtig mit ihr umgehen.\n\nVerwendung: Oberbekleidung, Heimtextilien wie Tischwäsche und Kissenhüllen, und Wäsche.\n\nPflege: Wasche Seide vorsichtig. Wringe sie nicht aus. Wringen heißt: den Stoff fest verdrehen, damit das Wasser herausläuft.\n\nBügle Seide möglichst von links bei mittlerer Temperatur. Von links heißt: auf der Innenseite. Wasser und Dampf können auf Seide Flecken machen. Gute, empfindliche Stücke gibst du in die Reinigung.\n\nSeide darf nicht in den Trockner. Seide darf auch nicht in der Sonne trocknen.\n\nMERKE: Seide ist leicht, glänzt und gleicht die Temperatur aus. Sie ist empfindlich: nicht wringen, von links bei mittlerer Temperatur bügeln, nicht in den Trockner und nicht in die Sonne.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦋 Zuchtseide und Wildseide kommen von verschiedenen Spinnern. Was stimmt?",
+        "options": [
+          { "text": "Zuchtseide vom Maulbeerspinner, Wildseide vom Tussahspinner.", "correct": true },
+          { "text": "Zuchtseide vom Tussahspinner, Wildseide vom Maulbeerspinner." },
+          { "text": "Beide kommen vom Maulbeerspinner, nur die Farbe ist anders." }
+        ],
+        "explanation": "Zuchtseide kommt aus den Kokons des Maulbeerspinners. Wildseide kommt vom Tussahspinner. Merkhilfe: Maulbeerspinner werden gezüchtet, darum heißt ihre Seide Zuchtseide."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Seide ist temperaturausgleichend. Was bedeutet das?",
+        "options": [
+          { "text": "Sie kühlt bei Wärme und hält warm bei Kälte.", "correct": true },
+          { "text": "Sie wird bei Wärme weich und bei Kälte steif." },
+          { "text": "Sie verträgt heißes und kaltes Waschwasser gleich gut." }
+        ],
+        "explanation": "Temperaturausgleichend heißt: Seide gleicht die Temperatur aus. Ist es warm, kühlt sie. Ist es kalt, hält sie warm. Mit dem Waschwasser hat das nichts zu tun."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✨ Stimmt das für Seide? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Stimmt", "icon": "✅" },
+          { "id": "nein", "label": "Stimmt nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Leicht", "bucket": "ja" },
+          { "text": "Reißfest", "bucket": "ja" },
+          { "text": "Nimmt Feuchtigkeit gut auf", "bucket": "ja" },
+          { "text": "Liegt glatt auf der Haut", "bucket": "ja" },
+          { "text": "Schwer", "bucket": "nein" },
+          { "text": "Kratzt auf der Haut", "bucket": "nein" },
+          { "text": "Nimmt kaum Feuchtigkeit auf", "bucket": "nein" },
+          { "text": "Ohne Einschränkung waschbar", "bucket": "nein" }
+        ],
+        "explanation": "Denk an ein Seidentuch: Es ist leicht, glatt und angenehm auf der Haut. Es ist reißfest und nimmt Feuchtigkeit gut auf. Beim Waschen ist Seide aber empfindlich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Du wäschst eine Seidenbluse. Was darfst du dabei nicht machen?",
+        "options": [
+          { "text": "Die Bluse wringen, also fest verdrehen.", "correct": true },
+          { "text": "Die Bluse vorsichtig waschen." },
+          { "text": "Eine gute Bluse in die Reinigung geben." }
+        ],
+        "explanation": "Seide darf nicht gewrungen werden. Wringen heißt: den Stoff fest verdrehen, damit das Wasser herausläuft. Vorsichtig waschen ist richtig. Gute, empfindliche Stücke dürfen in die Reinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Wie bügelst du Seide?",
+        "options": [
+          { "text": "Von links bei mittlerer Temperatur.", "correct": true },
+          { "text": "Von rechts bei höchster Temperatur." },
+          { "text": "Von links mit viel Dampf auf höchster Stufe." }
+        ],
+        "explanation": "Seide bügelst du möglichst von links, also auf der Innenseite. Die Temperatur ist mittel, nicht hoch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💦 Warum sprühst du beim Bügeln kein Wasser auf Seide?",
+        "options": [
+          { "text": "Wasser und Dampf können Flecken machen.", "correct": true },
+          { "text": "Wasser macht Seide sofort steif und rau." },
+          { "text": "Wasser lässt Seide beim Bügeln stark einlaufen." }
+        ],
+        "explanation": "Auf Seide können Wasser und Dampf Flecken verursachen. Darum lässt du Sprühwasser und viel Dampf weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☀️ Die Seidenbluse ist nass. Was stimmt zum Trocknen?",
+        "options": [
+          { "text": "Nicht in den Trockner und nicht in die Sonne.", "correct": true },
+          { "text": "In den Trockner ja, aber nicht in die Sonne." },
+          { "text": "In die Sonne ja, aber nicht in den Trockner." }
+        ],
+        "explanation": "Seide darf weder in den Trockner noch in die Sonne. Beides schadet der empfindlichen Faser. Merke dir beide Verbote zusammen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👗 Ein teures, empfindliches Seidenkleid ist schmutzig. Was machst du?",
+        "options": [
+          { "text": "Ich gebe es in die Reinigung.", "correct": true },
+          { "text": "Ich wasche es im Normalprogramm bei 40 °C." },
+          { "text": "Ich wasche es mit der Buntwäsche bei 60 °C." }
+        ],
+        "explanation": "Empfindliche, gute Stücke aus Seide sollten gereinigt werden. Das macht die Reinigung. Seide ist nur eingeschränkt waschbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛋️ Wofür wird Seide laut Buch verwendet?",
+        "options": [
+          { "text": "Für Oberbekleidung, Tischwäsche, Kissenhüllen und Wäsche.", "correct": true },
+          { "text": "Für Matratzendrell, Nähzwirn, Küchentücher und Arbeitskleidung." },
+          { "text": "Für Putztücher, Wischmopps, Badetücher und Sportkleidung." }
+        ],
+        "explanation": "Seide nimmt man für Oberbekleidung, für Heimtextilien wie Tischwäsche und Kissenhüllen und für Wäsche. Matratzendrell und Nähzwirn sind aus Leinen. Putztücher und Wischmopps sind oft aus Mikrofaser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Woran erkennst du Seide oft auf den ersten Blick?",
+        "options": [
+          { "text": "Am typischen Seidenglanz.", "correct": true },
+          { "text": "An dicken Stellen im Faden." },
+          { "text": "An vielen kleinen Flusen." }
+        ],
+        "explanation": "Seide hat einen typischen Glanz, den Seidenglanz. Dicke Stellen im Faden sind typisch für Leinen."
+      }
+    }
+  ]
+}

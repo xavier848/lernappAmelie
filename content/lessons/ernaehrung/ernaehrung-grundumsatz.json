@@ -1,0 +1,150 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-grundumsatz",
+  "title": "Energiebedarf: Der Grundumsatz",
+  "sort": 580,
+  "intro": "🍽️ Essen hat mit Gefühlen, Genuss und Erlebnissen zu tun. Ernährung dagegen sind „Botschaften für den Kopf“. So beschreibt es der Ernährungsforscher Pudel. Viele Menschen „snacken“ sich heute durch den Tag. Imbiss und Snacking erlauben Lust ohne Warten. Die Zufriedenheit ist aber schnell vorbei, oft bleibt ein schlechtes Gewissen.\n\nEs kommt auf die Menge und die Kombination der Lebensmittel an. Die Botschaft für den Kopf lautet: Energie und Nährstoffe müssen zu deinem persönlichen Bedarf passen.\n\nDein Energiebedarf besteht aus zwei Teilen: dem Grundumsatz und dem Leistungsumsatz. Der Grundumsatz ist die Energie, die dein Körper pro Tag braucht, wenn du dich gar nicht bewegst. Dafür gelten drei Bedingungen: völlige Ruhe, 12 Stunden nach der letzten Mahlzeit und leicht bekleidet bei angenehmer Raumtemperatur. Mit dem Grundumsatz hält der Körper seine Grundfunktionen aufrecht, zum Beispiel Atmung und Herztätigkeit.\n\nEnergie misst man in Kilojoule (kJ). Oft hört man aber noch die alte Einheit Kilokalorie (kcal).\n\nMERKE: 1 kcal = 4,184 kJ. 1000 kcal = 4,184 MJ. MJ heißt Megajoule, 1 MJ sind 1000 kJ.\n\nDrei Dinge beeinflussen den Grundumsatz. Das Alter: Mit dem Alter wird der Stoffwechsel langsamer, und die fettfreie Körpermasse nimmt ab. Der Grundumsatz sinkt. Das Geschlecht: Männer haben mehr Muskelmasse als Frauen. Ihr Grundumsatz ist höher. Größe und Gewicht, also die Körperoberfläche. Das gilt aber nur bei Normalgewicht. Bei Übergewicht muss man eventuell einzeln anpassen.\n\nDen Grundumsatz genau zu messen, ist sehr aufwendig. Die Messmethode heißt Kalorimetrie. Deshalb nutzt die DGE (Deutsche Gesellschaft für Ernährung) den Ruheenergieverbrauch, kurz REE. Beim REE nimmt man die Messbedingungen nicht ganz so genau. Außerdem steckt darin zum Teil der thermische Effekt der Nahrung. Das ist die Energie für Verdauung, Resorption, Transport und Stoffwechsel der Nährstoffe. Den REE berechnet man mit einer Formel aus Gewicht und Alter. Bei Männern kommt in der Formel noch 1,009 dazu.\n\nMERKE: Näherungsformel für den Grundumsatz: 4,2 kJ × Körpergewicht in kg × 24 Stunden.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍫 Essen und Ernährung: Was gehört zusammen? Verbinde.",
+        "explanation": "Beim Essen geht es um Genuss und Gefühle. Bei der Ernährung geht es darum, was der Körper wirklich braucht. Snacks befriedigen schnell die Lust, machen aber nicht lange zufrieden.",
+        "pairs": [
+          { "left": {"text": "😋 Essen"}, "right": {"text": "Gefühle, Genuss und Erlebnisse"} },
+          { "left": {"text": "🧠 Ernährung"}, "right": {"text": "Botschaften für den Kopf"} },
+          { "left": {"text": "🍟 Snacking"}, "right": {"text": "Lust ohne Warten, Zufriedenheit schnell vorbei"} },
+          { "left": {"text": "🎯 Botschaft für den Kopf"}, "right": {"text": "Energie und Nährstoffe passend zum Bedarf"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Woraus besteht dein Energiebedarf?",
+        "options": [
+          { "text": "Aus Grundumsatz und Leistungsumsatz", "correct": true },
+          { "text": "Aus Grundumsatz und Ruhepuls" },
+          { "text": "Aus Leistungsumsatz und Fettverbrauch" }
+        ],
+        "explanation": "Der Energiebedarf ergibt sich aus Grundumsatz und Leistungsumsatz. Der Grundumsatz ist die Energie in völliger Ruhe. Der Leistungsumsatz kommt für jede Bewegung dazu."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛌 Gehört das zu den Bedingungen für den Grundumsatz? Sortiere.",
+        "explanation": "Frag dich: Muss der Körper gerade verdauen, sich bewegen, frieren oder schwitzen? Dann braucht er zusätzliche Energie. Beim Grundumsatz soll genau das nicht passieren.",
+        "buckets": [
+          { "id": "ja", "label": "Bedingung für den Grundumsatz", "icon": "✅" },
+          { "id": "nein", "label": "Keine Bedingung", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Völlige Ruhe", "bucket": "ja" },
+          { "text": "12 Stunden nach der letzten Mahlzeit", "bucket": "ja" },
+          { "text": "Leicht bekleidet", "bucket": "ja" },
+          { "text": "Angenehme Raumtemperatur", "bucket": "ja" },
+          { "text": "Direkt nach dem Frühstück", "bucket": "nein" },
+          { "text": "Kurz nach dem Sport", "bucket": "nein" },
+          { "text": "Warm eingepackt in eine Decke", "bucket": "nein" },
+          { "text": "In einem kalten Raum", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❤️ Wofür braucht dein Körper den Grundumsatz?",
+        "options": [
+          { "text": "Für die Grundfunktionen, zum Beispiel Atmung und Herztätigkeit.", "correct": true },
+          { "text": "Für Sport, Treppensteigen und schwere Arbeit im ganzen Betrieb." },
+          { "text": "Nur für die Verdauung des Essens nach einer Mahlzeit." }
+        ],
+        "explanation": "Auch wenn du ganz ruhig liegst, arbeitet dein Körper: Du atmest, dein Herz schlägt. Diese Grundfunktionen braucht die Energie des Grundumsatzes. Bewegung gehört zum Leistungsumsatz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Wie viel kJ sind 1 kcal?",
+        "options": [
+          { "text": "4,184 kJ", "correct": true },
+          { "text": "0,239 kJ" },
+          { "text": "41,84 kJ" },
+          { "text": "1000 kJ" }
+        ],
+        "explanation": "1 kcal = 4,184 kJ. Kilojoule ist die richtige Maßeinheit, Kilokalorie die alte. Du rechnest also kcal mal 4,184, um auf kJ zu kommen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Näherungsformel: 4,2 kJ × kg × 24 h. Eine Frau wiegt 60 kg. Wie viele kJ beträgt ihr Grundumsatz ungefähr?",
+        "answer": 6048,
+        "hint": "Rechne zuerst 60 × 24 = 1440.\nDann 1440 × 4,2:\n1440 × 4 = 5760\n1440 × 0,2 = 288\n5760 + 288 = ?",
+        "explanation": "4,2 × 60 × 24 = 6048 kJ. Das sind rund 6 MJ am Tag – nur für die Grundfunktionen in völliger Ruhe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📉 Was beeinflusst den Grundumsatz wie? Verbinde.",
+        "explanation": "Mit dem Alter wird der Stoffwechsel langsamer und die fettfreie Körpermasse nimmt ab. Muskeln verbrauchen viel Energie, darum liegen Männer höher. Größe und Gewicht zählen nur bei Normalgewicht so einfach.",
+        "pairs": [
+          { "left": {"text": "👵 Höheres Alter"}, "right": {"text": "Grundumsatz sinkt"} },
+          { "left": {"text": "👨 Männer"}, "right": {"text": "Mehr Muskelmasse, höherer Grundumsatz"} },
+          { "left": {"text": "📏 Größe und Gewicht"}, "right": {"text": "Die Körperoberfläche zählt"} },
+          { "left": {"text": "⚖️ Starkes Übergewicht"}, "right": {"text": "Wert muss einzeln angepasst werden"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔬 Warum nutzt die DGE den Ruheenergieverbrauch (REE) statt des genau gemessenen Grundumsatzes?",
+        "options": [
+          { "text": "Die Kalorimetrie ist sehr aufwendig, der REE ist einfacher.", "correct": true },
+          { "text": "Der REE ist viel genauer als jede Messung im Labor." },
+          { "text": "Der Grundumsatz ist bei allen Menschen genau gleich hoch." }
+        ],
+        "explanation": "Die Kalorimetrie misst den Energieumsatz, ist aber in der Praxis sehr aufwendig. Der REE ist einfacher zu ermitteln. Dafür nimmt man die Messbedingungen nicht ganz so genau."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Im REE steckt zum Teil der thermische Effekt der Nahrung. Was ist das?",
+        "options": [
+          { "text": "Energie für Verdauung, Resorption, Transport und Stoffwechsel der Nährstoffe", "correct": true },
+          { "text": "Die Wärme, die beim Kochen auf dem heißen Herd im Topf und im Essen entsteht" },
+          { "text": "Die Energie, die in heißen Speisen und Getränken selbst steckt" }
+        ],
+        "explanation": "Auch das Verarbeiten der Nahrung kostet den Körper Energie: verdauen, aufnehmen, transportieren, verstoffwechseln. Das ist der thermische Effekt. Mit der Wärme beim Kochen hat er nichts zu tun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Aus welchen Angaben berechnet man den Ruheenergieverbrauch (REE)?",
+        "options": [
+          { "text": "Aus Gewicht und Alter, bei Männern kommt 1,009 dazu", "correct": true },
+          { "text": "Aus Größe und Alter, bei Frauen kommt noch 1,009 dazu" },
+          { "text": "Aus Gewicht und Größe, für alle Menschen ganz gleich" }
+        ],
+        "explanation": "In die Formel kommen das Gewicht in kg und das Alter in Jahren. Die Formel für Männer hat zusätzlich + 1,009. Darum ist der Wert bei Männern höher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: In welcher Einheit misst man Energie heute richtig?",
+        "options": [
+          { "text": "In Kilojoule (kJ)", "correct": true },
+          { "text": "In Kilogramm (kg)" },
+          { "text": "In Kilometern (km)" }
+        ],
+        "explanation": "Die Maßeinheit für Energie ist Kilojoule. Im Alltag hört man oft noch die alte Einheit Kilokalorie. Kilogramm misst das Gewicht, Kilometer die Strecke."
+      }
+    }
+  ]
+}

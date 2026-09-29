@@ -1,0 +1,124 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-qualitaetsmanagement-audit",
+  "title": "Qualitätsmanagement und Audits",
+  "sort": 668,
+  "intro": "Qualitätsmanagement, kurz QM, ist ein System, das sich selbst überprüft. Es sorgt dafür, dass Produkte oder Dienstleistungen die geforderten Eigenschaften haben.\n\nEin Audit ist ein Untersuchungsverfahren. Damit überprüft man Prozessabläufe. In einem Audit wird zum Beispiel festgelegt, mit welchem Reinigungsmittel ein Bodenbelag gereinigt wird. Bei einem späteren Audit kann man das wieder in Frage stellen und ändern.\n\nInterne Maßnahmen finden im Betrieb statt: Qualitätszirkel einrichten, Qualitätsbeauftragte festlegen, Standards entwickeln und in einem Handbuch festschreiben. Ein Qualitätszirkel ist eine feste Runde im Betrieb, die sich um die Qualität kümmert.\n\nExterne Maßnahmen kommen von außen: Kontrollen der Heimaufsicht, externe Beratung und die Zertifizierung.\n\nEs gibt zwei Arten von Audits. Im statischen Qualitätsmanagement weisen Audits nach, dass vertragliche Vereinbarungen eingehalten werden. Sie haben Prüfungscharakter. Sie finden pro Überprüfungszyklus nur einmal statt.\n\nIm dynamischen Qualitätsmanagement erfassen Audits Entwicklungstrends. Sie geben Rückmeldung, ob die Maßnahmen wirken. Je häufiger sie stattfinden, desto aussagefähiger sind die Erkenntnisse.\n\nVorgaben für Audits macht die Norm DIN EN ISO 19011. Sie ist ein Leitfaden zur Auditierung von Managementsystemen.\n\nMERKE: Statisch = einmal prüfen, wie bei einer Prüfung. Dynamisch = oft prüfen und die Entwicklung sehen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔁 Was ist Qualitätsmanagement (QM)?",
+        "options": [
+          { "text": "Ein System, das sich selbst überprüft, damit Leistungen die geforderten Eigenschaften haben.", "correct": true },
+          { "text": "Eine einmalige große Putzaktion, kurz bevor die Heimaufsicht zu Besuch in das Haus kommen will." },
+          { "text": "Ein Lager für alle Reinigungsmittel, das nur zu festen Öffnungszeiten geöffnet hat." },
+          { "text": "Eine Liste mit allen Beschwerden, die niemand liest und die am Jahresende weggeworfen wird." }
+        ],
+        "explanation": "QM ist ein sich selbst überprüfendes System. Es sorgt dafür, dass Produkte oder Dienstleistungen die jeweils geforderten Eigenschaften haben. Das geschieht nicht einmalig, sondern immer wieder."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Was ist ein Audit?",
+        "options": [
+          { "text": "Ein Untersuchungsverfahren zur Überprüfung von Prozessabläufen.", "correct": true },
+          { "text": "Ein Messgerät, das die Härte des Wassers im Haus prüft." },
+          { "text": "Eine Liste mit den Namen und Telefonnummern aller Mitarbeitenden." },
+          { "text": "Ein Fest, bei dem gute Mitarbeitende einen Preis bekommen." }
+        ],
+        "explanation": "Ein Audit ist ein Untersuchungsverfahren. Damit überprüft man, wie die Abläufe im Betrieb laufen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 In einem Audit wurde festgelegt, mit welchem Mittel der Bodenbelag gereinigt wird. Darf man das später ändern?",
+        "options": [
+          { "text": "Ja, bei einem späteren Audit kann man es in Frage stellen und ändern.", "correct": true },
+          { "text": "Nein, was einmal im Audit festgelegt wurde, gilt für immer und ewig." },
+          { "text": "Nur dann, wenn die Heimaufsicht es schriftlich ausdrücklich verlangt." },
+          { "text": "Nur dann, wenn das alte Mittel komplett aufgebraucht und leer ist." }
+        ],
+        "explanation": "Im QM wird immer wieder geprüft. Ein Audit legt zum Beispiel das Reinigungsmittel fest. Ein späteres Audit kann das in Frage stellen und ändern. So wird die Qualität ständig besser."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏠 Interne oder externe Maßnahme? Sortiere.",
+        "buckets": [
+          { "id": "intern", "label": "Intern (im Betrieb)", "icon": "🏠" },
+          { "id": "extern", "label": "Extern (von außen)", "icon": "🌍" }
+        ],
+        "items": [
+          { "text": "Qualitätszirkel einrichten", "bucket": "intern" },
+          { "text": "Qualitätsbeauftragte festlegen", "bucket": "intern" },
+          { "text": "Standards im Handbuch festschreiben", "bucket": "intern" },
+          { "text": "Kontrolle der Heimaufsicht", "bucket": "extern" },
+          { "text": "Externe Beratung", "bucket": "extern" },
+          { "text": "Zertifizierung", "bucket": "extern" }
+        ],
+        "explanation": "Frag dich: Macht das der Betrieb selbst mit seinen Leuten? Dann ist es intern. Kommt jemand von außen, der prüft, berät oder ein Zertifikat vergibt? Dann ist es extern."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Statisches oder dynamisches Qualitätsmanagement? Sortiere die Merkmale der Audits.",
+        "buckets": [
+          { "id": "statisch", "label": "Statisches QM", "icon": "🧊" },
+          { "id": "dynamisch", "label": "Dynamisches QM", "icon": "📈" }
+        ],
+        "items": [
+          { "text": "Nachweis über vertragliche Vereinbarungen", "bucket": "statisch" },
+          { "text": "Hat Prüfungscharakter", "bucket": "statisch" },
+          { "text": "Einmal pro Überprüfungszyklus", "bucket": "statisch" },
+          { "text": "Erfasst Entwicklungstrends", "bucket": "dynamisch" },
+          { "text": "Zeigt, ob Maßnahmen wirken", "bucket": "dynamisch" },
+          { "text": "Je häufiger, desto aussagefähiger", "bucket": "dynamisch" }
+        ],
+        "explanation": "Statisch heißt: stillstehend. Man prüft einmal, wie bei einer Prüfung, ob der Vertrag eingehalten wird. Dynamisch heißt: in Bewegung. Man prüft oft und sieht, wie sich etwas entwickelt und ob es wirkt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Die Leitung will über viele Monate sehen, ob eine neue Reinigungsmethode wirkt. Welche Art von Audit passt?",
+        "options": [
+          { "text": "Audits im dynamischen Qualitätsmanagement.", "correct": true },
+          { "text": "Audits im statischen Qualitätsmanagement." },
+          { "text": "Gar kein Audit, nur ein einziger Blick am Ende." }
+        ],
+        "explanation": "Dynamische Audits erfassen Entwicklungstrends und zeigen, ob Maßnahmen wirken. Je häufiger sie stattfinden, desto aussagefähiger sind sie. Ein statisches Audit prüft nur einmal pro Zyklus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📘 Eine Norm ist ein Leitfaden zur Auditierung von Managementsystemen. Wie heißt sie?",
+        "options": [
+          { "text": "DIN EN ISO 19011", "correct": true },
+          { "text": "DIN EN ISO 14064" },
+          { "text": "DIN EN 420" },
+          { "text": "DIN 685" }
+        ],
+        "explanation": "Die Vorgaben für Audits macht die DIN EN ISO 19011. Sie ist ein Leitfaden zur Auditierung von Managementsystemen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎉 Zum Schluss: Was bedeuten die Fachbegriffe? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Qualitätsmanagement"}, "right": {"text": "System, das sich selbst überprüft"} },
+          { "left": {"text": "Audit"}, "right": {"text": "Überprüfung von Prozessabläufen"} },
+          { "left": {"text": "Qualitätszirkel"}, "right": {"text": "Interne Maßnahme im Betrieb"} },
+          { "left": {"text": "Heimaufsicht"}, "right": {"text": "Kontrolle von außen"} }
+        ],
+        "explanation": "Frag dich bei jedem Begriff: Ist es ein System, ein Verfahren, eine Maßnahme im Betrieb oder eine Stelle von außen?"
+      }
+    }
+  ]
+}

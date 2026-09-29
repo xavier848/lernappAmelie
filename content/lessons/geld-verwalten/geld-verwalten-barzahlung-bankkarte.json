@@ -1,0 +1,135 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-barzahlung-bankkarte",
+  "title": "Bar zahlen und Bankkarte",
+  "sort": 710,
+  "intro": "💶 Du kannst bar bezahlen. Bar heißt: mit Geldscheinen und Münzen. Immer wichtiger wird aber das elektronische Bezahlen, zum Beispiel mit einer Karte. Das nennt man bargeldlos.\n\nAn der Kasse prüft man Geldscheine oft auf Echtheit. Nimmt ein Geschäft Falschgeld an, trägt das Geschäft den Schaden. Falschgeld ist nachgemachtes Geld.\n\nBei Barzahlung bekommst du einen Beleg. Das ist ein Kassenbon oder eine Quittung. Eine Quittung schreibt der Verkäufer von Hand.\n\nNachnahme ist auch Barzahlung. Du bestellst zum Beispiel im Versandhandel. Bei der Zustellung zahlst du sofort bar.\n\nFür große Barzahlungen gibt es Regeln. Zahlt jemand zwischen 3.000 € und 10.000 € bar, muss der Empfänger die Identität festhalten. Identität heißt: wer die Person genau ist. Über 10.000 € geht nur bargeldlos.\n\nEin Seniorenheim bezahlt seine Rechnungen bargeldlos. Das hat drei Gründe. Erstens: In der Bürokasse liegt kein großer Geldbetrag. Das senkt die Gefahr von Diebstahl. Zweitens: Jede Zahlung steht auf dem Kontoauszug. So ist sie jederzeit nachvollziehbar. Drittens: Niemand bekommt Falschgeld.\n\nMit einem Girokonto bekommst du eine Bankkarte. Damit druckst du Kontoauszüge aus. Fast jede Bankkarte kann noch mehr: Du bezahlst damit statt mit Bargeld. Und du hebst am Bankautomaten Geld ab. Das ist oft gebührenfrei.\n\nMERKE: Beleg bei Barzahlung: Kassenbon oder Quittung. Ab 3.000 € wird die Identität festgehalten. Über 10.000 € nur bargeldlos.\n\nMERKE: Bargeldlos zahlen heißt: weniger Diebstahl, alles nachvollziehbar, kein Falschgeld.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Du kaufst Honig am Stand einer Imkerin. Du zahlst bar. Sie hat keine Kasse. Welchen Beleg bekommst du?",
+        "options": [
+          { "text": "Eine Quittung, die sie von Hand schreibt.", "correct": true },
+          { "text": "Einen Kontoauszug mit der Buchung." },
+          { "text": "Einen Lieferschein mit ihrer Unterschrift." }
+        ],
+        "explanation": "Bei Barzahlung ist der Beleg ein Kassenbon oder eine Quittung. Ohne Kasse gibt es keinen Kassenbon. Dann schreibt die Verkäuferin eine Quittung von Hand. Ein Kontoauszug zeigt nur Buchungen auf einem Konto. Bei Barzahlung wird aber nichts gebucht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💵 Eine Kassiererin nimmt einen falschen 50-Euro-Schein an. Das merkt erst später die Bank. Wer trägt den Schaden?",
+        "options": [
+          { "text": "Das Geschäft, das den Schein angenommen hat.", "correct": true },
+          { "text": "Die Bank, weil sie das Falschgeld entdeckt hat." },
+          { "text": "Die Bundesbank, weil sie das Geld herausgibt." }
+        ],
+        "explanation": "Nimmt ein Geschäft Falschgeld an, trägt das Geschäft den Schaden. Das Geld ist verloren. Darum prüft man an der Kasse Geldscheine oft auf Echtheit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Du bestellst Schuhe im Versandhandel. Als Zahlungsart wählst du Nachnahme. Wann und wie bezahlst du?",
+        "options": [
+          { "text": "Bei der Zustellung, sofort in bar.", "correct": true },
+          { "text": "Vor dem Versand, mit einer Überweisung." },
+          { "text": "Vier Wochen nach der Lieferung, per Rechnung." }
+        ],
+        "explanation": "Nachnahme ist eine Form der Barzahlung. Die Zahlung ist bei der Zustellung fällig. Du zahlst dem Boten sofort bar. Eine Überweisung vorher oder eine Rechnung später ist keine Nachnahme."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚗 Ein Kunde kauft ein Auto für 12.000 €. Er will alles bar bezahlen. Was gilt?",
+        "options": [
+          { "text": "Er muss bargeldlos bezahlen.", "correct": true },
+          { "text": "Er darf bar zahlen, wenn er eine Quittung bekommt." },
+          { "text": "Er darf bar zahlen, der Verkäufer notiert nur seinen Namen." }
+        ],
+        "explanation": "Über 10.000 € geht nur bargeldlos, zum Beispiel mit einer Überweisung. 12.000 € liegen über dieser Grenze. Eine Quittung oder ein notierter Name ändern daran nichts."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🪪 Ein Gast zahlt eine große Rechnung bar. Ab welchem Betrag muss der Empfänger festhalten, wer bezahlt hat? Tippe den Betrag in Euro.",
+        "answer": 3000,
+        "hint": "Die Grenze steht auf dem Lernzettel. Sie liegt deutlich unter 10.000 €.",
+        "explanation": "Ab 3.000 € muss der Empfänger die Identität festhalten, also wer die Person genau ist. Das gilt bis 10.000 €. Darüber geht nur bargeldlos."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Barzahlung oder bargeldlos? Sortiere.",
+        "buckets": [
+          { "id": "bar", "label": "Barzahlung", "icon": "💵" },
+          { "id": "los", "label": "Bargeldlos", "icon": "💳" }
+        ],
+        "items": [
+          { "text": "Nachnahme an der Haustür", "bucket": "bar" },
+          { "text": "Quittung vom Marktstand", "bucket": "bar" },
+          { "text": "Geldscheine auf Echtheit prüfen", "bucket": "bar" },
+          { "text": "Mit der Bankkarte zahlen", "bucket": "los" },
+          { "text": "Überweisung vom Girokonto", "bucket": "los" },
+          { "text": "Mit der Kreditkarte zahlen", "bucket": "los" }
+        ],
+        "explanation": "Frag dich: Wandern Scheine und Münzen von Hand zu Hand? Dann ist es Barzahlung. Geht das Geld von Konto zu Konto? Dann ist es bargeldlos. Achtung: Nachnahme klingt nach Post, ist aber Barzahlung an der Tür."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Die Heimleitung will 8.000 € bar von der Bank holen. Damit will sie nächste Woche den Großhändler bezahlen. Was spricht vor allem dagegen?",
+        "options": [
+          { "text": "So viel Geld im Büro kann gestohlen werden.", "correct": true },
+          { "text": "Über 5.000 € darf man am Schalter nichts abheben." },
+          { "text": "Ein Großhändler darf gar kein Bargeld annehmen." }
+        ],
+        "explanation": "Viel Bargeld in der Bürokasse ist eine Gefahr: Es kann gestohlen werden. Deshalb zahlt das Heim Rechnungen bargeldlos. Bar zu zahlen wäre bei 8.000 € zwar erlaubt. Es ist aber unsicher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Das Heim zahlt alle Rechnungen bargeldlos vom Unternehmenskonto. Welche drei Vorteile hat das?",
+        "options": [
+          { "text": "Weniger Diebstahl, alles nachvollziehbar, kein Falschgeld.", "correct": true },
+          { "text": "Weniger Diebstahl, keine Rechnungen mehr, kein Falschgeld." },
+          { "text": "Alles nachvollziehbar, keine Bankgebühren, kein Falschgeld." },
+          { "text": "Weniger Diebstahl, alles nachvollziehbar, schnellere Lieferung." }
+        ],
+        "explanation": "Prüfe jeden der drei Teile. Weniger Diebstahl: In der Bürokasse liegt kein großer Betrag. Nachvollziehbar: Jede Zahlung steht auf dem Kontoauszug. Kein Falschgeld: Es wandern keine Scheine. Rechnungen gibt es weiter, und die Lieferung wird nicht schneller."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💳 Was machst du wo mit deiner Bankkarte? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🏦 Beim Einrichten vom Girokonto"}, "right": {"text": "Die Bankkarte bekommen"} },
+          { "left": {"text": "🖨️ Am Kontoauszugsdrucker"}, "right": {"text": "Kontoauszüge ausdrucken"} },
+          { "left": {"text": "🛒 An der Supermarktkasse"}, "right": {"text": "Statt mit Bargeld bezahlen"} },
+          { "left": {"text": "🏧 Am Bankautomaten"}, "right": {"text": "Geld abheben, oft ohne Gebühr"} }
+        ],
+        "explanation": "Die Bankkarte gehört zum Girokonto. Mit ihr druckst du Kontoauszüge aus. Fast jede Bankkarte kann noch zwei Dinge mehr: Sie ersetzt Bargeld beim Bezahlen. Und am Automaten hebst du damit Geld ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Was ist eine Barzahlung?",
+        "options": [
+          { "text": "Du zahlst mit Scheinen und Münzen.", "correct": true },
+          { "text": "Du zahlst mit der Bankkarte an der Kasse." },
+          { "text": "Du überweist das Geld vom Girokonto." }
+        ],
+        "explanation": "Bar heißt: mit Geldscheinen und Münzen. Karte und Überweisung sind bargeldlos. 🎉"
+      }
+    }
+  ]
+}

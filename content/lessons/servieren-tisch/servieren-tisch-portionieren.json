@@ -1,0 +1,121 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-portionieren",
+  "title": "Portionieren: Menüteller und Salat",
+  "sort": 561,
+  "intro": "🍽️ Portionieren heißt: fertige Speisen gleichmäßig in Gefäße verteilen, die für eine Person bestimmt sind. Portionieren kannst du alle Speisen, von der Vorspeise bis zum Dessert.\n\nFlüssige Desserts füllst du am besten mit einem Litermaß in Gläser, Glasschälchen, Weingläser oder Dessertbecher. Ein Litermaß ist ein Messbecher mit Ausguss. Stelle dabei einen Teller unter, der die Tropfen auffängt.\n\nPortionierst du mit der Schöpfkelle, wählst du eine Kelle, die genau eine Portion fasst. So arbeitest du rationell. Rationell heißt: ohne unnötige Arbeit und Zeit. Auch hier gilt: Gefäße nur zu drei Vierteln füllen.\n\nMERKE: Auf dem Menüteller liegen die Teile immer gleich: Fleisch, Fisch, Geflügel oder Eierspeisen mit der Soße im unteren Drittel. Die Beilage, also Kartoffeln, Reis oder Teigwaren, oben links. Das Gemüse oben rechts.\n\nDu stellst den Teller so vor den Gast, dass das Fleisch zu ihm zeigt. Dann kann er es leicht schneiden.\n\nBei Salaten unterscheidest du Blattsalate und feste Salate. Feste Salate häufst du mit Salatbesteck oder Schaumlöffel an. Blattsalate portionierst du am besten mit der Hand. So bleibt der Salat locker, und du kannst die Menge gut einschätzen.\n\nMERKE: Beim Portionieren mit der Hand trägst du Einweghandschuhe. Das ist wegen der Hygiene.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Welche Speisen kannst du portionieren?",
+        "options": [
+          { "text": "Alle Speisen, von der Vorspeise bis zum Dessert.", "correct": true },
+          { "text": "Nur Hauptgerichte mit Fleisch, Fisch oder Geflügel." },
+          { "text": "Nur kalte Speisen wie Salat und Dessert." },
+          { "text": "Nur Suppen, weil man sie schöpfen kann." }
+        ],
+        "explanation": "Portionieren heißt: gleichmäßig in Gefäße für eine Person verteilen. Das geht mit jeder Speise, von der Vorspeise bis zum Dessert."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Wohin kommt was auf dem Menüteller? Sortiere.",
+        "buckets": [
+          { "id": "unten", "label": "Unteres Drittel", "icon": "⬇️" },
+          { "id": "links", "label": "Oben links", "icon": "↖️" },
+          { "id": "rechts", "label": "Oben rechts", "icon": "↗️" }
+        ],
+        "items": [
+          { "text": "🥩 Schnitzel", "bucket": "unten" },
+          { "text": "🐟 Lachsfilet", "bucket": "unten" },
+          { "text": "Soße zum Fleisch", "bucket": "unten" },
+          { "text": "🥔 Salzkartoffeln", "bucket": "links" },
+          { "text": "🍚 Reis", "bucket": "links" },
+          { "text": "🍝 Bandnudeln", "bucket": "links" },
+          { "text": "🥕 Karottengemüse", "bucket": "rechts" },
+          { "text": "🥦 Brokkoli", "bucket": "rechts" }
+        ],
+        "explanation": "Frag dich: Ist es Fleisch, Fisch, Geflügel oder Ei? Dann unteres Drittel, die Soße gehört dazu. Ist es eine Sättigungsbeilage wie Kartoffeln, Reis oder Teigwaren? Dann oben links. Gemüse kommt oben rechts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👤 Wie stellst du den fertigen Menüteller vor den Gast?",
+        "options": [
+          { "text": "So, dass das Fleisch zum Gast zeigt.", "correct": true },
+          { "text": "So, dass das Gemüse zum Gast zeigt." },
+          { "text": "So, dass die Beilage zum Gast zeigt." },
+          { "text": "Egal wie, Hauptsache der Rand ist sauber." }
+        ],
+        "explanation": "Das Fleisch liegt im unteren Drittel und zeigt zum Gast. So kann er es leicht schneiden, ohne den Teller zu drehen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥄 Womit portionierst du was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Schöpfkelle"}, "right": {"text": "Fasst genau eine Portion Suppe"} },
+          { "left": {"text": "Litermaß"}, "right": {"text": "Flüssiges Dessert in Gläser füllen"} },
+          { "left": {"text": "Hand mit Einweghandschuh"}, "right": {"text": "Blattsalat portionieren"} },
+          { "left": {"text": "Salatbesteck oder Schaumlöffel"}, "right": {"text": "Festen Salat anhäufen"} }
+        ],
+        "explanation": "Frag dich: Ist die Speise flüssig, locker oder fest? Flüssiges schöpfst oder gießt du. Lockeren Blattsalat nimmst du mit der Hand. Festen Salat häufst du mit Besteck oder Schaumlöffel an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Warum soll die Schöpfkelle genau eine Portion fassen?",
+        "options": [
+          { "text": "So arbeitest du rationell: einmal schöpfen, eine Portion.", "correct": true },
+          { "text": "So bleibt die Suppe in der großen Kelle länger heiß." },
+          { "text": "So braucht man weniger Geschirr zum Spülen." },
+          { "text": "So sieht jede einzelne Portion kleiner und feiner aus." }
+        ],
+        "explanation": "Rationell heißt: ohne unnötige Arbeit und Zeit. Fasst die Kelle genau eine Portion, schöpfst du nur einmal. Alle Portionen werden gleich groß."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍮 Du füllst ein flüssiges Dessert mit dem Litermaß in Gläser. Was stellst du darunter?",
+        "options": [
+          { "text": "Einen Teller, der die Tropfen auffängt.", "correct": true },
+          { "text": "Nichts, ein Litermaß tropft nie." },
+          { "text": "Eine Schüssel mit Eiswasser zum Kühlen." },
+          { "text": "Die Tortenspitze für den Kuchen." }
+        ],
+        "explanation": "Beim Eingießen tropft leicht etwas daneben. Ein untergestellter Teller fängt die Tropfen auf. So bleiben Tisch und Gläser sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥬 Warum portionierst du Blattsalat am besten mit der Hand?",
+        "options": [
+          { "text": "Er bleibt locker, und du kannst die Menge gut einschätzen.", "correct": true },
+          { "text": "Das geht viel schneller als mit Besteck und spart Zeit." },
+          { "text": "So wird der Salat fest angedrückt und fällt nicht herunter." },
+          { "text": "So wird das Dressing mit den Fingern gut verteilt." }
+        ],
+        "explanation": "Mit der Hand drückst du die zarten Blätter nicht zusammen. Der Salat bleibt locker und sieht frisch aus. Außerdem siehst und spürst du gut, wie viel eine Portion ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Warum trägst du beim Portionieren von Blattsalat Einweghandschuhe?",
+        "options": [
+          { "text": "Wegen der Hygiene.", "correct": true },
+          { "text": "Damit die Hände warm bleiben." },
+          { "text": "Damit der Salat nicht welkt." }
+        ],
+        "explanation": "Die Hände berühren das Essen direkt. Einweghandschuhe schützen das Essen vor Keimen von den Händen. Das ist Hygiene."
+      }
+    }
+  ]
+}

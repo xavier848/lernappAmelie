@@ -1,0 +1,144 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-mischtechniken",
+  "title": "Mischtechniken: Schlagen bis Mixen",
+  "sort": 631,
+  "intro": "🥄 Beim Mischen verbindest du mindestens zwei Lebensmittel. Dafür gibt es verschiedene Techniken.\n\nSchlagen: Du schlägst Luft ein. Das Lebensmittel gewinnt an Volumen. Volumen heißt: wie viel Platz etwas einnimmt. Die Konsistenz wird stabiler. Konsistenz heißt: wie fest oder flüssig etwas ist. Du schlägst zum Beispiel Sahne, Eiklar, Eigelb für Biskuitmasse oder Quarkmassen. Du nimmst das Handrührgerät oder die Universal-Küchenmaschine mit dem Rührbesen.\n\nUnterheben: Du hebst meist etwas Geschlagenes unter eine festere Masse. Zum Beispiel geschlagene Sahne unter angerührten Quark. Oder geschlagenes Eiweiß unter die Käsekuchenmasse. Du nimmst den Schneebesen oder den Teigschaber.\n\nMischen: So machst du Salate. Je feiner die Zutaten sind, desto vorsichtiger mischst du. Die Struktur der Zutaten soll erhalten bleiben. Auch wann du mischst, hängt von der Struktur ab. Du nimmst Salatbesteck, einen Schaumlöffel oder deine Hände.\n\nRühren: Es entsteht eine homogene Masse. Homogen heißt: ganz gleichmäßig. Sie ist zähflüssig bis breiig. Zum Beispiel Rührmasse für Kuchen, Quarkspeisen, Joghurtspeisen oder Füllungen. Du nimmst den Rührbesen am Handrührgerät oder an der Küchenmaschine. Oder einen Schneebesen oder einen Kochlöffel.\n\nKneten: Es entsteht eine homogene, feste Masse. Das ist meist ein Teig. Zum Beispiel Hackfleischteig, Mürbeteig oder Hefeteig. Du nimmst die Knethaken am Handrührgerät oder an der Standküchenmaschine. Die Universal-Küchenmaschine hat dafür ein Knetwerk. Manchmal knetest du auch mit der Hand.\n\nMixen: Du vermengst Flüssigkeiten, zum Beispiel für Cocktails. Oder ein scharfes, rotierendes Messer vermengt und zerkleinert zugleich. So machst du Milch-Mix-Getränke, Pesto, Dips, Brotaufstriche, Suppen und Soßen. Du nimmst den Mixer oder den Pürierstab.\n\nMERKE: Schlagen bringt Luft und Volumen. Rühren gibt eine zähflüssige bis breiige Masse. Kneten gibt eine feste Masse.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Beim Schlagen schlägst du Luft ein. Was passiert dabei mit dem Lebensmittel?",
+        "options": [
+          { "text": "Es gewinnt an Volumen und wird stabiler.", "correct": true },
+          { "text": "Es wird flüssiger und verliert an Volumen." },
+          { "text": "Es wird fester, aber das Volumen bleibt gleich." }
+        ],
+        "explanation": "Die eingeschlagene Luft nimmt Platz ein. Darum wird es mehr, man sagt: Es gewinnt an Volumen. Gleichzeitig wird die Konsistenz stabiler. Denk an Schlagsahne: Sie wird mehr und steht fest."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥣 Schlagen, Rühren oder Kneten? Sortiere.",
+        "buckets": [
+          { "id": "schlagen", "label": "Schlagen", "icon": "💨" },
+          { "id": "ruehren", "label": "Rühren", "icon": "🥣" },
+          { "id": "kneten", "label": "Kneten", "icon": "🤲" }
+        ],
+        "items": [
+          { "text": "Sahne", "bucket": "schlagen" },
+          { "text": "Eiklar", "bucket": "schlagen" },
+          { "text": "Eigelb für Biskuitmasse", "bucket": "schlagen" },
+          { "text": "Rührmasse für Kuchen", "bucket": "ruehren" },
+          { "text": "Joghurtspeise", "bucket": "ruehren" },
+          { "text": "Hackfleischteig", "bucket": "kneten" },
+          { "text": "Mürbeteig", "bucket": "kneten" },
+          { "text": "Hefeteig", "bucket": "kneten" }
+        ],
+        "explanation": "Frag dich: Wie soll es am Ende sein? Luftig mit mehr Volumen: Schlagen. Zähflüssig bis breiig: Rühren. Fest wie ein Teig: Kneten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was passiert bei dieser Technik? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Rühren"}, "right": {"text": "Homogene Masse, zähflüssig bis breiig"} },
+          { "left": {"text": "Kneten"}, "right": {"text": "Homogene, feste Masse"} },
+          { "left": {"text": "Unterheben"}, "right": {"text": "Geschlagenes unter eine festere Masse heben"} },
+          { "left": {"text": "Mischen"}, "right": {"text": "Salatzutaten vorsichtig vermengen"} }
+        ],
+        "memory": false,
+        "explanation": "Rühren und Kneten ergeben beide eine gleichmäßige Masse. Der Unterschied ist die Festigkeit. Beim Unterheben soll die Luft im Geschlagenen bleiben. Beim Mischen von Salat soll die Struktur der Zutaten bleiben."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧰 Womit arbeitest du? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥣 Rühren"}, "right": {"text": "Rührbesen oder Kochlöffel"} },
+          { "left": {"text": "🍞 Kneten"}, "right": {"text": "Knethaken oder Knetwerk"} },
+          { "left": {"text": "🍰 Unterheben"}, "right": {"text": "Teigschaber"} },
+          { "left": {"text": "🥗 Salat mischen"}, "right": {"text": "Salatbesteck oder Schaumlöffel"} },
+          { "left": {"text": "🌀 Mixen"}, "right": {"text": "Mixer oder Pürierstab"} }
+        ],
+        "memory": false,
+        "explanation": "Für weiche Massen nimmst du Rührbesen. Für feste Teige brauchst du mehr Kraft: Knethaken oder Knetwerk. Zum vorsichtigen Unterheben passt der Teigschaber. Beim Mixen arbeitet ein rotierendes Messer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Du mischst einen Salat mit sehr feinen, zarten Zutaten. Worauf achtest du?",
+        "options": [
+          { "text": "Besonders vorsichtig mischen, damit die Struktur bleibt.", "correct": true },
+          { "text": "Besonders kräftig mischen, damit sich alles gut verteilt." },
+          { "text": "Mit dem Handrührgerät mischen, damit es schneller geht." }
+        ],
+        "explanation": "Je feiner die Struktur der Zutaten, desto vorsichtiger mischst du. Sonst werden zarte Blätter oder weiche Stücke zerdrückt. Die Struktur der Zutaten soll erhalten bleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Wovon hängt ab, wann du einen Salat mischst?",
+        "options": [
+          { "text": "Von der Struktur der Zutaten.", "correct": true },
+          { "text": "Von der Menge des Dressings." },
+          { "text": "Von der Größe der Salatschüssel." }
+        ],
+        "explanation": "Der Zeitpunkt des Mischens hängt von der Struktur der Zutaten ab. Zarte Zutaten mischst du anders als feste. Frag dich darum immer: Wie empfindlich sind meine Zutaten?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Welches Beispiel ist Unterheben?",
+        "options": [
+          { "text": "Geschlagene Sahne unter angerührten Quark heben.", "correct": true },
+          { "text": "Hackfleisch mit Ei und Zwiebeln fest verkneten." },
+          { "text": "Milch und Banane zu einem Mix-Getränk mixen." }
+        ],
+        "explanation": "Beim Unterheben kommt meist etwas Geschlagenes unter eine festere Masse. Zum Beispiel Sahne unter Quark oder Eischnee unter die Käsekuchenmasse. Das Kneten und das Mixen sind andere Mischtechniken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Mixen kann zwei Dinge. Welche?",
+        "options": [
+          { "text": "Flüssigkeiten vermengen und mit dem Messer zerkleinern.", "correct": true },
+          { "text": "Luft einschlagen und die Masse ganz steif machen." },
+          { "text": "Zutaten fest verkneten und zu einer Kugel formen." }
+        ],
+        "explanation": "Beim Mixen vermengst du Flüssigkeiten, zum Beispiel für Cocktails. Und ein scharfes, rotierendes Messer kann gleichzeitig vermengen und zerkleinern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Was stellst du durch Mixen her?",
+        "options": [
+          { "text": "Pesto, Dips und Milch-Mix-Getränke.", "correct": true },
+          { "text": "Hefeteig, Mürbeteig und Hackfleischteig." },
+          { "text": "Eischnee, Schlagsahne und Biskuitmasse." }
+        ],
+        "explanation": "Mit Mixer oder Pürierstab machst du Milch-Mix-Getränke, Pesto, Dips, Brotaufstriche, Suppen und Soßen. Teige knetest du. Eischnee und Sahne schlägst du."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤲 Womit kannst du einen Salat auch mischen?",
+        "options": [
+          { "text": "Mit den Händen.", "correct": true },
+          { "text": "Mit dem Knethaken." },
+          { "text": "Mit dem Fleischwolf." }
+        ],
+        "explanation": "Salat mischst du mit Salatbesteck, mit einem Schaumlöffel oder mit den Händen. So bleibt die Struktur der Zutaten erhalten."
+      }
+    }
+  ]
+}

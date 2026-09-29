@@ -1,0 +1,154 @@
+{
+  "topic_slug": "kommunikation-beruf",
+  "slug": "kommunikation-beruf-buchstabieren-international",
+  "title": "Buchstabieralphabet: International",
+  "sort": 582,
+  "intro": "🌍 Neben dem deutschen gibt es auch ein internationales Buchstabieralphabet. Darin stehen vor allem Namen von Städten und Ländern. Im deutschen Alphabet stehen dagegen meist Vornamen.\n\nDas internationale Buchstabieralphabet, Teil 1: A wie Amsterdam, B wie Budapest, C wie Casablanca, D wie Dänemark, E wie Ekuador, F wie Fleurop, G wie Gerbera, H wie Hongkong, I wie Interflora, J wie Jerusalem, K wie Kilo, L wie Liverpool, M wie Mexiko.\n\nTeil 2: N wie New York, O wie Oslo, P wie Paris, Q wie Quebec, R wie Roma, S wie Singapore, T wie Thailand, U wie Upsala, V wie Valencia, W wie Washington, X wie Xray, Y wie Yokohama, Z wie Zürich.\n\nVergleiche einige Buchstaben: K wie Kaufmann (deutsch) und K wie Kilo (international). N wie Nordpol und N wie New York. Q wie Quelle und Q wie Quebec. S wie Siegfried und S wie Singapore.\n\nMERKE: So steht es in deinem Buch: Ekuador mit K, Roma statt Rom und Singapore mit e am Ende.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Welche Reihe stimmt im internationalen Alphabet für A, B und C?",
+        "options": [
+          { "text": "Amsterdam – Budapest – Casablanca", "correct": true },
+          { "text": "Amsterdam – Brüssel – Casablanca" },
+          { "text": "Athen – Budapest – Casablanca" },
+          { "text": "Amsterdam – Budapest – Chicago" }
+        ],
+        "explanation": "Richtig ist: A wie Amsterdam, B wie Budapest, C wie Casablanca. Brüssel, Athen und Chicago sind auch Städte, aber sie stehen nicht in der Liste."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Welche Reihe stimmt für D, E und F?",
+        "options": [
+          { "text": "Dänemark – Ekuador – Fleurop", "correct": true },
+          { "text": "Dublin – Ekuador – Fleurop" },
+          { "text": "Dänemark – Estland – Fleurop" },
+          { "text": "Dänemark – Ekuador – Finnland" }
+        ],
+        "explanation": "Richtig ist: D wie Dänemark, E wie Ekuador, F wie Fleurop. Achtung: Fleurop ist kein Land, sondern der Name eines Blumen-Lieferdienstes."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Welche Reihe stimmt für G, H und I?",
+        "options": [
+          { "text": "Gerbera – Hongkong – Interflora", "correct": true },
+          { "text": "Genf – Hongkong – Interflora" },
+          { "text": "Gerbera – Helsinki – Interflora" },
+          { "text": "Gerbera – Hongkong – Irland" }
+        ],
+        "explanation": "Richtig ist: G wie Gerbera, H wie Hongkong, I wie Interflora. Gerbera ist eine Blume, Interflora ist wie Fleurop ein Blumen-Lieferdienst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Welche Reihe stimmt für J, K und L?",
+        "options": [
+          { "text": "Jerusalem – Kilo – Liverpool", "correct": true },
+          { "text": "Japan – Kilo – Liverpool" },
+          { "text": "Jerusalem – Kairo – Liverpool" },
+          { "text": "Jerusalem – Kilo – London" }
+        ],
+        "explanation": "Richtig ist: J wie Jerusalem, K wie Kilo, L wie Liverpool. Das K ist hier ganz kurz: Kilo."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Stimmt das Wort im internationalen Alphabet? Sortiere M bis T.",
+        "explanation": "Frag dich bei jedem Buchstaben: Welche Stadt oder welches Land steht in der Liste? Richtig sind N wie New York, P wie Paris, R wie Roma und T wie Thailand.",
+        "buckets": [
+          { "id": "ja", "label": "Richtig", "icon": "✅" },
+          { "id": "nein", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "M wie Mexiko", "bucket": "ja" },
+          { "text": "N wie Neapel", "bucket": "nein" },
+          { "text": "O wie Oslo", "bucket": "ja" },
+          { "text": "P wie Prag", "bucket": "nein" },
+          { "text": "Q wie Quebec", "bucket": "ja" },
+          { "text": "R wie Riga", "bucket": "nein" },
+          { "text": "S wie Singapore", "bucket": "ja" },
+          { "text": "T wie Tokio", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Welche Reihe stimmt für U, V und W?",
+        "options": [
+          { "text": "Upsala – Valencia – Washington", "correct": true },
+          { "text": "Utrecht – Valencia – Washington" },
+          { "text": "Upsala – Venedig – Washington" },
+          { "text": "Upsala – Valencia – Wien" }
+        ],
+        "explanation": "Richtig ist: U wie Upsala, V wie Valencia, W wie Washington. Utrecht, Venedig und Wien sind zwar Städte, gehören aber nicht dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Welche Reihe stimmt für X, Y und Z?",
+        "options": [
+          { "text": "Xray – Yokohama – Zürich", "correct": true },
+          { "text": "Xenon – Yokohama – Zürich" },
+          { "text": "Xray – York – Zürich" },
+          { "text": "Xray – Yokohama – Zagreb" }
+        ],
+        "explanation": "Richtig ist: X wie Xray, Y wie Yokohama, Z wie Zürich. Im deutschen Alphabet heißt es dagegen X wie Xaver, Y wie Ypsilon und Z wie Zeppelin."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔀 Deutsches oder internationales Buchstabieralphabet? Sortiere.",
+        "explanation": "Frag dich: Ist es ein Vorname oder ein deutsches Wort? Dann ist es meist deutsch. Ist es eine Stadt, ein Land oder ein kurzes Fremdwort? Dann ist es meist international.",
+        "buckets": [
+          { "id": "de", "label": "Deutsch", "icon": "🇩🇪" },
+          { "id": "int", "label": "International", "icon": "🌍" }
+        ],
+        "items": [
+          { "text": "Kaufmann", "bucket": "de" },
+          { "text": "Nordpol", "bucket": "de" },
+          { "text": "Quelle", "bucket": "de" },
+          { "text": "Siegfried", "bucket": "de" },
+          { "text": "Kilo", "bucket": "int" },
+          { "text": "New York", "bucket": "int" },
+          { "text": "Quebec", "bucket": "int" },
+          { "text": "Singapore", "bucket": "int" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👂 Eine Kollegin buchstabiert international: „Paris – Amsterdam – Upsala – Liverpool“. Welcher Name ist das?",
+        "options": [
+          { "text": "Paul", "correct": true },
+          { "text": "Pauli" },
+          { "text": "Pahl" },
+          { "text": "Poul" }
+        ],
+        "explanation": "Du nimmst von jedem Wort den ersten Buchstaben: Paris = P, Amsterdam = A, Upsala = U, Liverpool = L. Zusammen ergibt das PAUL."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welches Wort steht im internationalen Alphabet für das A?",
+        "options": [
+          { "text": "Amsterdam", "correct": true },
+          { "text": "Anton" },
+          { "text": "Athen" }
+        ],
+        "explanation": "Im internationalen Alphabet steht A wie Amsterdam. Anton ist das Wort im deutschen Alphabet. Athen steht in keiner der beiden Listen."
+      }
+    }
+  ]
+}

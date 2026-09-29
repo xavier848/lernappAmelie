@@ -1,0 +1,125 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-ergonomie-planung",
+  "title": "Ergonomie und Arbeitsplanung",
+  "sort": 602,
+  "intro": "🧍 Ein gut gestalteter Arbeitsplatz sorgt dafür, dass die Arbeitsabläufe funktionieren. Und er sichert ein Arbeitsergebnis mit hoher Qualität. Man spricht von Ergonomie am Arbeitsplatz.\n\nMERKE: Das Wort Ergonomie kommt aus dem Griechischen. Ergon heißt Arbeit. Nomos heißt Regel. Ergonomie ist die Wissenschaft von der Lehre der menschlichen Arbeit. Es geht darum, was ein Mensch leisten kann und wo seine Grenzen sind.\n\nVor Arbeitsbeginn denkst du über den Arbeitsablauf nach. Das ist die Arbeitsplanung.\n\nMachst du eine Aufgabe ständig, weißt du, was zu tun ist. Das nennt man Routine. Dann reicht eine Planung im Kopf. Das nennt man schriftlose Planung.\n\nMERKE: Ist eine Aufgabe neu oder schwierig, planst du schriftlich. Du schreibst einen Arbeitsplan. So kannst du Arbeitsabläufe für dich allein oder für ein ganzes Team entwickeln.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏛️ Das Wort Ergonomie. Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Ergon"}, "right": {"text": "Arbeit"} },
+          { "left": {"text": "Nomos"}, "right": {"text": "Regel"} },
+          { "left": {"text": "Ergonomie"}, "right": {"text": "Lehre der menschlichen Arbeit"} }
+        ],
+        "memory": false,
+        "explanation": "Ergonomie ist aus zwei griechischen Wörtern zusammengesetzt: ergon und nomos. Zusammen heißt das ungefähr: Regeln für die Arbeit. Gemeint ist die Wissenschaft von der menschlichen Arbeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Worum geht es bei der Ergonomie?",
+        "options": [
+          { "text": "Um die Leistungsmöglichkeiten und Grenzen des Menschen.", "correct": true },
+          { "text": "Um die schönste und modernste Einrichtung der ganzen Küche." },
+          { "text": "Um möglichst billige Arbeitsgeräte für den Betrieb." }
+        ],
+        "explanation": "Ergonomie fragt: Was kann ein Mensch bei der Arbeit leisten, und wo sind seine Grenzen? Danach wird der Arbeitsplatz gestaltet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was bringt ein gut gestalteter Arbeitsplatz?",
+        "options": [
+          { "text": "Die Abläufe funktionieren, und das Ergebnis hat hohe Qualität.", "correct": true },
+          { "text": "Man braucht danach überhaupt keine eigene Arbeitsplanung mehr." },
+          { "text": "Man darf schneller arbeiten und auf Hygiene verzichten." }
+        ],
+        "explanation": "Gute Arbeitsplatzgestaltung sorgt dafür, dass die Arbeitsabläufe funktionieren. Sie sichert ein Arbeitsergebnis mit hoher Qualität. Planung und Hygiene bleiben trotzdem wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕗 Wann machst du dir Gedanken über den Arbeitsablauf?",
+        "options": [
+          { "text": "Vor Arbeitsbeginn.", "correct": true },
+          { "text": "Erst wenn etwas schiefgeht." },
+          { "text": "Nach der Arbeit beim Aufräumen." }
+        ],
+        "explanation": "Arbeitsplanung passiert vor Arbeitsbeginn. Wer vorher plant, arbeitet ruhiger und vergisst weniger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔁 Was heißt Routine?",
+        "options": [
+          { "text": "Du machst die Aufgabe oft und weißt, was zu tun ist.", "correct": true },
+          { "text": "Du machst die Aufgabe heute zum allerersten Mal." },
+          { "text": "Du machst die Aufgabe nur mit einer schriftlichen Anleitung." }
+        ],
+        "explanation": "Routine heißt: Die Aufgabe kommt immer wieder vor. Du weißt, was zu tun ist. Deshalb reicht dafür eine schriftlose Planung im Kopf."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📝 Wie planst du die Aufgabe? Sortiere.",
+        "buckets": [
+          { "id": "kopf", "label": "Schriftlos, im Kopf", "icon": "🧠" },
+          { "id": "papier", "label": "Schriftlich, mit Plan", "icon": "📝" }
+        ],
+        "items": [
+          { "text": "Wie jeden Morgen den Frühstückstisch decken", "bucket": "kopf" },
+          { "text": "Täglich die Spülmaschine ausräumen", "bucket": "kopf" },
+          { "text": "Wie jeden Tag Kaffee kochen", "bucket": "kopf" },
+          { "text": "Ein neues Menü für 40 Gäste", "bucket": "papier" },
+          { "text": "Ein schwieriges Rezept mit vielen Teilen", "bucket": "papier" },
+          { "text": "Zum ersten Mal ein Sommerfest ausrichten", "bucket": "papier" }
+        ],
+        "explanation": "Frag dich: Mache ich das ständig, oder ist es neu und schwierig? Bei Routine reicht die Planung im Kopf. Neue oder komplexe Aufgaben planst du schriftlich, damit du nichts vergisst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Du sollst zum ersten Mal ein Büfett für 30 Personen vorbereiten. Wie planst du?",
+        "options": [
+          { "text": "Schriftlich, mit einem Arbeitsplan.", "correct": true },
+          { "text": "Im Kopf, das reicht bei jeder Aufgabe." },
+          { "text": "Gar nicht, ich fange einfach an." }
+        ],
+        "explanation": "Das Büfett ist neu und komplex. Solche Aufgaben planst du schriftlich. So behältst du den Überblick über alle Arbeitsschritte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👥 Für wen kannst du einen schriftlichen Arbeitsablauf entwickeln?",
+        "options": [
+          { "text": "Für dich allein oder für ein ganzes Team.", "correct": true },
+          { "text": "Nur für dich allein, niemals für andere Leute." },
+          { "text": "Nur für die Küchenleitung im Büro." }
+        ],
+        "explanation": "Bei der schriftlichen Planung kannst du individuelle Arbeitsabläufe entwickeln, also für dich. Oder du entwickelst Team-Arbeitsabläufe für mehrere Personen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Du deckst wie jeden Tag den Tisch. Brauchst du dafür einen schriftlichen Plan?",
+        "options": [
+          { "text": "Nein, die Planung im Kopf reicht.", "correct": true },
+          { "text": "Ja, jede Aufgabe braucht einen Plan." },
+          { "text": "Ja, und die Chefin muss unterschreiben." }
+        ],
+        "explanation": "Tischdecken ist für dich Routine. Bei ständig wiederkehrenden Aufgaben reicht die schriftlose Planung."
+      }
+    }
+  ]
+}

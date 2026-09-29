@@ -1,0 +1,119 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-garnieren-grundsaetze",
+  "title": "Garnieren: Die Grundsätze",
+  "sort": 563,
+  "intro": "🌿 Garnieren heißt: Speisen mit essbarem Schmuck verzieren. Das Garniturmaterial passt in Farbe und Geschmack zum Hauptbestandteil der Speise.\n\nDie Garnitur soll essbar sein und die Speise schmücken. Sie darf die Speise nicht überladen oder sogar überdecken. Dafür gibt es den Satz: „Weniger ist oft mehr!“\n\nGarnituren brauchen zeitliche Planung. Denn fertig angerichtete Speisen werden ohne Verzögerung serviert. Kalte Speisen, zum Beispiel Desserts, garnierst du in der Regel direkt nach dem Anrichten. Heiße Speisen garnierst du erst nach dem Anrichten. Sonst trocknet die Garnitur aus.\n\nMERKE: Zu heißen Speisen passt möglichst eine heiße Garnitur, zu kalten Speisen eine kalte Garnitur. Ausnahmen stehen in der Tabelle „Anrichten und Garnieren“, zum Beispiel gehackte Kräuter auf einer heißen Suppe.\n\nGarniere möglichst mit Lebensmitteln, die für das Gericht typisch sind. Zum Beispiel Dill an Gurken. Oder mit Lebensmitteln, die im Gericht enthalten sind. Zum Beispiel Erdbeeren an einer Erdbeercreme.\n\nMERKE: Weniger ist oft mehr. Die Garnitur schmückt die Speise, sie versteckt sie nicht.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌿 Grundsätze beim Garnieren: Was gehört zusammen?",
+        "pairs": [
+          { "left": {"text": "Passend"}, "right": {"text": "Farbe und Geschmack passen zum Hauptbestandteil"} },
+          { "left": {"text": "Essbar"}, "right": {"text": "Man kann die Garnitur mitessen"} },
+          { "left": {"text": "Nicht überladen"}, "right": {"text": "Weniger ist oft mehr"} },
+          { "left": {"text": "Zeitlich geplant"}, "right": {"text": "Die Speise wird ohne Verzögerung serviert"} }
+        ],
+        "explanation": "Eine gute Garnitur passt zur Speise, ist essbar und bleibt dezent. Außerdem planst du sie so, dass die fertige Speise sofort zum Gast kann."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Drei Garnituren sind gut, eine ist falsch. Welche ist falsch?",
+        "options": [
+          { "text": "Ein großer Petersilienberg, der das Schnitzel fast verdeckt.", "correct": true },
+          { "text": "Ein Zitronenschnitz neben dem knusprig gebratenen Fischfilet." },
+          { "text": "Ein kleiner Tupfen geschlagene Sahne auf dem Schokoladendessert." },
+          { "text": "Etwas gehackter Schnittlauch auf der heißen Suppe." }
+        ],
+        "explanation": "Die Garnitur soll schmücken, aber die Speise nicht überladen oder überdecken. Ein Petersilienberg auf dem Schnitzel ist zu viel. Denk an den Satz: Weniger ist oft mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Warum garnierst du eine heiße Speise erst nach dem Anrichten?",
+        "options": [
+          { "text": "Sonst trocknet die Garnitur aus.", "correct": true },
+          { "text": "Sonst wird die Garnitur zu kalt." },
+          { "text": "Sonst wird die Garnitur zu nass." },
+          { "text": "Sonst erkennt der Gast die Speise nicht." }
+        ],
+        "explanation": "Auf einer heißen Speise trocknet eine Garnitur schnell aus. Dann sieht sie nicht mehr frisch aus. Darum kommt sie erst nach dem Anrichten darauf, kurz bevor du servierst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌡️ Heiße Speise, heiße Garnitur. Kalte Speise, kalte Garnitur. Sortiere.",
+        "buckets": [
+          { "id": "heiss", "label": "Heiße Garnitur für heiße Speisen", "icon": "🔥" },
+          { "id": "kalt", "label": "Kalte Garnitur für kalte Speisen", "icon": "❄️" }
+        ],
+        "items": [
+          { "text": "Gedünstete Tomate zum Braten", "bucket": "heiss" },
+          { "text": "Geröstete Zwiebelringe zum Schnitzel", "bucket": "heiss" },
+          { "text": "Heiße Soße zum Fleisch angießen", "bucket": "heiss" },
+          { "text": "Geschlagene Sahne auf dem Dessert", "bucket": "kalt" },
+          { "text": "Fruchtspiegel unter der Creme", "bucket": "kalt" },
+          { "text": "Schokoladenraspel auf dem Pudding", "bucket": "kalt" },
+          { "text": "Frische Früchte zum Eis", "bucket": "kalt" }
+        ],
+        "explanation": "Frag dich: Ist die Garnitur gegart und heiß, wie gedünstete Tomate, geröstete Zwiebeln oder Soße? Dann passt sie zu heißen Speisen. Ist sie kalt, wie Sahne, Früchte oder Schokolade? Dann gehört sie zu kalten Speisen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Die Regel „heiße Speise, heiße Garnitur“ hat Ausnahmen. Welche Garnitur ist so eine Ausnahme?",
+        "options": [
+          { "text": "Gehackte Kräuter auf einer heißen Suppe.", "correct": true },
+          { "text": "Gedünstete Tomate zum heißen Braten." },
+          { "text": "Heiße Soße, die zum Fleisch angegossen wird." },
+          { "text": "Geröstete Zwiebelringe zum heißen Schnitzel." }
+        ],
+        "explanation": "Gehackte Kräuter sind kalt, die Suppe ist heiß. Trotzdem ist das eine übliche Garnitur. Solche Ausnahmen zeigt die Tabelle „Anrichten und Garnieren“. Auch Zitronenscheiben zum heißen Fisch gehören dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍓 Du garnierst eine Erdbeercreme. Was passt nach der Regel am besten?",
+        "options": [
+          { "text": "Frische Erdbeeren, denn sie sind im Gericht enthalten.", "correct": true },
+          { "text": "Petersilie, denn sie ist schön grün und macht alles frischer." },
+          { "text": "Zitronenscheiben, denn sie passen zu jeder Creme." },
+          { "text": "Geröstete Zwiebeln, denn sie bringen Farbe." }
+        ],
+        "explanation": "Garniere möglichst mit Lebensmitteln, die im Gericht enthalten sind. In einer Erdbeercreme stecken Erdbeeren. Also passen frische Erdbeeren als Garnitur."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥒 Du garnierst einen Gurkensalat mit Dill. Nach welcher Regel passt das?",
+        "options": [
+          { "text": "Dill ist typisch für ein Gurkengericht.", "correct": true },
+          { "text": "Dill passt zu jeder Speise, auch zu Desserts." },
+          { "text": "Dill ist die billigste Garnitur, die es gibt." },
+          { "text": "Dill hat die gleiche Farbe wie die Gurke." }
+        ],
+        "explanation": "Garniere möglichst mit Lebensmitteln, die für das Gericht typisch sind. Dill gehört typisch zu Gurken. Dill passt nicht zu jeder Speise, zum Beispiel nicht zu einem Dessert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍨 Wann garnierst du ein kaltes Dessert?",
+        "options": [
+          { "text": "In der Regel direkt nach dem Anrichten.", "correct": true },
+          { "text": "Schon am Abend vorher, dann ist alles fertig." },
+          { "text": "Erst, wenn der Gast es gegessen hat." }
+        ],
+        "explanation": "Kalte Speisen wie Desserts garnierst du in der Regel direkt nach dem Anrichten. Dann servierst du sie ohne Verzögerung."
+      }
+    }
+  ]
+}

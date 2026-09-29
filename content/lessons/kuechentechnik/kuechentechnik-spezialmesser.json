@@ -1,0 +1,126 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-spezialmesser",
+  "title": "Spezialmesser in der Profiküche",
+  "sort": 613,
+  "intro": "🔪 Messer sind in der Küche unverzichtbar. Je nach Lebensmittel und Schneidetechnik brauchst du ein anderes Messer. In Gastronomie und Gemeinschaftsverpflegung kommen besondere Schneide- und Arbeitsgeräte dazu. Sie ergänzen das Grundsortiment. Es gibt sie für die Fleischverarbeitung, für die kalte Küche und für die Küchenkonditorei. Konditorei heißt: Kuchen und Torten.\n\nMit dem Plattiereisen klopfst du rohes Fleisch flach. Das nennt man plattieren. Dabei reißt das Bindegewebe. So bleibt das Fleisch beim Garen saftiger.\n\nDas Hackbeil ist für Fleisch und Knochen. Du zerlegst damit Kotelettstränge. Du zerkleinerst Knochen. Und du klopfst flache Fleischstücke.\n\nMERKE: Für besonders starke Knochen nimmst du die Knochensäge. Zum Beispiel für die Wirbelsäule oder den Schlussknochen.\n\nDas Kuhlenmesser hat kleine Vertiefungen in der Klinge. Die heißen Kuhlen. Damit schneidest du zarte, empfindliche Speisen der kalten Küche, zum Beispiel Terrinen, Galantinen und Pasteten. Das sind feine Speisen, die kalt in Scheiben geschnitten werden.\n\nMit dem Tranchiermesser schneidest du Braten, Wurst und Schinken exakt in Scheiben.\n\nMit dem Filetiermesser machst du ganz genaue Schnitte. Du schneidest damit zum Beispiel Fischfilets. Auch für Obst und Gemüse ist es gut.\n\nMit dem Tortenmesser schneidest du Kuchen und Torten in Portionen und richtest sie an.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔪 Welches Gerät nimmst du wofür? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Plattiereisen"}, "right": {"text": "Rohes Fleisch flach klopfen"} },
+          { "left": {"text": "Tranchiermesser"}, "right": {"text": "Braten und Schinken exakt schneiden"} },
+          { "left": {"text": "Filetiermesser"}, "right": {"text": "Ganz präzise Schnitte an Fisch"} },
+          { "left": {"text": "Hackbeil"}, "right": {"text": "Kotelettstränge zerlegen"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Wird geklopft, gehackt oder geschnitten? Das Plattiereisen klopft, das Hackbeil zerlegt mit Kraft. Das Tranchiermesser schneidet exakte Scheiben vom Braten. Das Filetiermesser macht die feinsten Schnitte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Warum plattierst du rohes Fleisch?",
+        "options": [
+          { "text": "Das Bindegewebe reißt, das Fleisch bleibt saftiger.", "correct": true },
+          { "text": "Das Fett tritt aus, dadurch wird das Fleisch viel magerer." },
+          { "text": "Die Knochen lösen sich, das Fleisch wird weicher." }
+        ],
+        "explanation": "Beim Plattieren klopfst du rohes Fleisch flach. Dabei wird das Bindegewebe zerrissen. So bleibt das Fleisch bei der Zubereitung saftiger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦴 Du musst eine sehr starke Wirbelsäule zerteilen. Womit?",
+        "options": [
+          { "text": "Mit der Knochensäge.", "correct": true },
+          { "text": "Mit dem Hackbeil." },
+          { "text": "Mit dem Tranchiermesser." }
+        ],
+        "explanation": "Das Hackbeil zerkleinert Knochen. Für besonders starke Knochenteile wie die Wirbelsäule oder den Schlussknochen nimmst du aber die Knochensäge."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪓 Was machst du außer Kotelettstränge zerlegen noch mit dem Hackbeil?",
+        "options": [
+          { "text": "Knochen zerkleinern und flache Fleischstücke klopfen.", "correct": true },
+          { "text": "Zarte Terrinen und Pasteten in feine Scheiben schneiden." },
+          { "text": "Fischfilets ganz genau von der Haut lösen." }
+        ],
+        "explanation": "Das Hackbeil ist für Fleisch und Knochen. Du zerlegst damit Kotelettstränge, zerkleinerst Knochen und klopfst flache Fleischteile. Für feine Scheiben ist es zu grob."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "〰️ Was ist das Besondere am Kuhlenmesser?",
+        "options": [
+          { "text": "Die Klinge hat kleine Vertiefungen.", "correct": true },
+          { "text": "Die Klinge ist gebogen wie ein Halbmond." },
+          { "text": "Die Klinge hat grobe Zacken wie eine Säge." }
+        ],
+        "explanation": "Kuhlen sind kleine Vertiefungen in der Klinge. Daher hat das Kuhlenmesser seinen Namen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥧 Wofür ist das Kuhlenmesser gedacht?",
+        "options": [
+          { "text": "Für zarte Speisen der kalten Küche, wie Terrinen.", "correct": true },
+          { "text": "Für harte Knochen und für zähe Sehnen vom Rind oder Schwein." },
+          { "text": "Für Brot mit einer sehr harten, dicken Kruste." }
+        ],
+        "explanation": "Mit dem Kuhlenmesser schneidest du sensible und zarte Speisen der kalten Küche. Beispiele sind Terrinen, Galantinen und Pasteten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Für welchen Bereich ist das Gerät? Sortiere.",
+        "buckets": [
+          { "id": "fleisch", "label": "Fleischverarbeitung", "icon": "🥩" },
+          { "id": "kalt", "label": "Kalte Küche", "icon": "🥗" },
+          { "id": "konditorei", "label": "Küchenkonditorei", "icon": "🎂" }
+        ],
+        "items": [
+          { "text": "Plattiereisen", "bucket": "fleisch" },
+          { "text": "Hackbeil", "bucket": "fleisch" },
+          { "text": "Knochensäge", "bucket": "fleisch" },
+          { "text": "Kuhlenmesser", "bucket": "kalt" },
+          { "text": "Tortenmesser", "bucket": "konditorei" }
+        ],
+        "explanation": "Frag dich: Womit arbeitet das Gerät? Rohes Fleisch und Knochen gehören zur Fleischverarbeitung. Zarte Pasteten und Terrinen gehören zur kalten Küche. Kuchen und Torten gehören zur Küchenkonditorei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 In Gastronomie und Gemeinschaftsverpflegung: Womit wird das Grundsortiment an Messern ergänzt?",
+        "options": [
+          { "text": "Mit speziellen Schneide- und Arbeitsgeräten.", "correct": true },
+          { "text": "Mit Einwegmessern aus Holz und Kunststoff." },
+          { "text": "Mit elektrischen Messern für jede einzelne Arbeit." }
+        ],
+        "explanation": "Profiküchen ergänzen das Grundsortiment um spezielle Schneide- und Arbeitsgeräte. Beispiele sind Plattiereisen, Hackbeil, Knochensäge und Kuhlenmesser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Womit schneidest du eine Torte in Portionen und richtest sie an?",
+        "options": [
+          { "text": "Mit dem Tortenmesser.", "correct": true },
+          { "text": "Mit dem Hackbeil." },
+          { "text": "Mit dem Filetiermesser." }
+        ],
+        "explanation": "Das Tortenmesser ist zum portionierten Schneiden und Anrichten von Kuchen und Torten da."
+      }
+    }
+  ]
+}

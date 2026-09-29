@@ -1,0 +1,135 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-kreditkarte",
+  "title": "Kreditkarte: Vor- und Nachteile",
+  "sort": 711,
+  "intro": "💳 Fast überall kannst du mit einer Bankkarte oder einer Kreditkarte bezahlen. Die bekanntesten Kreditkarten sind VISA und MasterCard.\n\nEine Kreditkarte hat Vorteile. Erstens: Dein Konto wird erst am Monatsende belastet. Belastet heißt: Das Geld wird abgebucht. Bis dahin bleibt das Geld auf deinem Konto und bringt Zinsen. Das nennt man Zinsgewinn. Zweitens: Oft sind Versicherungen dabei. Drittens: Wird die Karte gestohlen, zahlst du meist keinen Eigenanteil. Der Eigenanteil ist der Teil vom Schaden, den du selbst zahlst. Dafür musst du den Diebstahl innerhalb von 24 Stunden melden.\n\nEine Kreditkarte hat auch Nachteile. Viele verlieren den Überblick über ihre Ausgaben und den Kontostand. Sie geben mehr aus, als sie einnehmen. Dann ist das Konto im Minus, und es kommen Überziehungszinsen dazu. Das ist eine Schuldenfalle.\n\nDie Versicherungen braucht man oft gar nicht. Oder sie wären günstiger, wenn sie genau zu dir passen. Oder sie gelten nur für Reisen, die du mit der Kreditkarte bezahlt hast.\n\nEinige Geschäfte nehmen keine Kreditkarten. Sie müssten dafür Bearbeitungsgebühren zahlen. Und für die Karte selbst zahlst du meist eine Jahresgebühr.\n\nWird deine Karte gestohlen, lässt du sie sofort sperren. Informiere dich schon vorher, wie das Sperren geht. Dann verlierst du im Notfall keine Zeit.\n\nMERKE: Diebstahl der Kreditkarte innerhalb von 24 Stunden melden. Behalte Ausgaben und Kontostand im Blick, sonst droht die Schuldenfalle.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💳 Welche beiden Kreditkarten sind am gebräuchlichsten?",
+        "options": [
+          { "text": "VISA und MasterCard.", "correct": true },
+          { "text": "PayPal und Klarna." },
+          { "text": "Girokonto und Sparbuch." }
+        ],
+        "explanation": "Die gebräuchlichsten Kreditkarten heißen VISA und MasterCard. PayPal und Klarna sind Bezahldienste im Internet, keine Kreditkarten. Girokonto und Sparbuch sind Konten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Vorteil oder Nachteil einer Kreditkarte? Sortiere.",
+        "buckets": [
+          { "id": "vor", "label": "Vorteil", "icon": "👍" },
+          { "id": "nach", "label": "Nachteil", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Zinsgewinn für dich", "bucket": "vor" },
+          { "text": "Versicherungen sind oft dabei", "bucket": "vor" },
+          { "text": "Kein Eigenanteil bei gemeldetem Diebstahl", "bucket": "vor" },
+          { "text": "Man verliert leicht den Überblick", "bucket": "nach" },
+          { "text": "Manche Geschäfte nehmen sie nicht an", "bucket": "nach" },
+          { "text": "Die Versicherung braucht man oft nicht", "bucket": "nach" },
+          { "text": "Gefahr der Schuldenfalle", "bucket": "nach" }
+        ],
+        "explanation": "Frag dich: Spart es dir Geld oder Ärger? Dann ist es ein Vorteil. Kostet es dich Geld oder bringt es dich in Gefahr? Dann ist es ein Nachteil. Achtung: Versicherungen sind ein Vorteil, aber nur, wenn du sie wirklich brauchst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Du zahlst am 3. Mai mit der Kreditkarte. Wann wird dein Konto meistens belastet?",
+        "options": [
+          { "text": "Am Monatsende. Bis dahin bringt dein Geld noch Zinsen.", "correct": true },
+          { "text": "Am Monatsende. Bis dahin zahlst du der Bank dafür Zinsen." },
+          { "text": "Sofort am 3. Mai. Dafür gibt es am Monatsende Rabatt." }
+        ],
+        "explanation": "Bei der Kreditkarte wird dein Konto erst am Monatsende belastet. Bis dahin bleibt das Geld auf deinem Konto. Es bringt dir Zinsen. Das ist der Zinsgewinn. Zinsen an die Bank zahlst du erst, wenn dein Konto ins Minus rutscht."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚨 Deine Kreditkarte wurde gestohlen. Innerhalb von wie vielen Stunden musst du das melden, damit du meist keinen Eigenanteil zahlst?",
+        "answer": 24,
+        "hint": "Es ist genau ein ganzer Tag. Wie viele Stunden hat ein Tag?",
+        "explanation": "Meldest du den Diebstahl innerhalb von 24 Stunden, entfällt der Eigenanteil meistens. 24 Stunden sind ein Tag. Also: sofort melden, nicht bis morgen warten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Timo zahlt alles mit der Kreditkarte. Am Monatsende ist sein Girokonto tief im Minus. Was ist passiert?",
+        "options": [
+          { "text": "Er hat mehr ausgegeben, als er einnimmt.", "correct": true },
+          { "text": "Die Bank hat ihm die Jahresgebühr doppelt abgebucht." },
+          { "text": "Die Karte hat jeden Einkauf zweimal abgebucht." }
+        ],
+        "explanation": "Mit der Kreditkarte verlieren viele den Überblick. Das Geld geht ja erst am Monatsende weg. Dann ist plötzlich mehr ausgegeben, als hereinkommt. Das Konto rutscht ins Minus. Dafür zahlt Timo Überziehungszinsen. So beginnt die Schuldenfalle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Eine kleine Bäckerei nimmt keine Kreditkarten an. Was ist der Grund?",
+        "options": [
+          { "text": "Sie müsste dafür Bearbeitungsgebühren zahlen.", "correct": true },
+          { "text": "Kreditkarten gelten nur in großen Kaufhäusern." },
+          { "text": "Mit Kreditkarte darf man erst ab 50 € zahlen." }
+        ],
+        "explanation": "Für jede Zahlung mit Kreditkarte muss das Geschäft Bearbeitungsgebühren zahlen. Bei kleinen Beträgen lohnt sich das oft nicht. Darum nehmen einige Geschäfte keine Kreditkarten an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✈️ Deine Kreditkarte hat eine Reiseversicherung. Worauf musst du achten?",
+        "options": [
+          { "text": "Sie gilt oft nur für Reisen, die du mit der Karte bezahlt hast.", "correct": true },
+          { "text": "Sie gilt automatisch für alle Reisen deiner ganzen Familie." },
+          { "text": "Sie ersetzt jede andere Versicherung, die du schon hast." }
+        ],
+        "explanation": "Die Versicherung einer Kreditkarte hat oft einen Haken. Sie gilt nur für Reisen, die mit der Karte bezahlt wurden. Oft braucht man sie gar nicht. Oder eine Versicherung, die genau zu dir passt, wäre günstiger."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeutet der Fachbegriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "📈 Zinsgewinn"}, "right": {"text": "Dein Geld bleibt länger da und bringt Zinsen."} },
+          { "left": {"text": "📉 Überziehungszinsen"}, "right": {"text": "Du zahlst Zinsen, weil dein Konto im Minus ist."} },
+          { "left": {"text": "📆 Jahresgebühr"}, "right": {"text": "Du zahlst jedes Jahr für die Karte selbst."} },
+          { "left": {"text": "🧾 Eigenanteil"}, "right": {"text": "Diesen Teil vom Schaden zahlst du selbst."} }
+        ],
+        "explanation": "Frag dich bei jedem Begriff: Bekommst du Geld oder zahlst du? Beim Zinsgewinn bekommst du etwas. Überziehungszinsen, Jahresgebühr und Eigenanteil kosten dich Geld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👛 Freitagabend: Dein Portemonnaie mit der Bankkarte ist gestohlen. Was ist richtig?",
+        "options": [
+          { "text": "Ich lasse die Karte sofort sperren. Wie das geht, weiß ich schon.", "correct": true },
+          { "text": "Ich warte bis Montag und gehe dann direkt zu meiner Bank." },
+          { "text": "Ich tue nichts, solange der Dieb meine PIN nicht kennt." }
+        ],
+        "explanation": "Von Freitagabend bis Montagmorgen vergehen 56 Stunden. In dieser Zeit kann ein Dieb mit der Karte viel Geld ausgeben. Deshalb sperrst du die Karte sofort. Informiere dich am besten schon heute, wie das Sperren geht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du zahlst oft mit der Kreditkarte. Was schützt dich vor der Schuldenfalle?",
+        "options": [
+          { "text": "Ausgaben und Kontostand regelmäßig prüfen.", "correct": true },
+          { "text": "Die Karte öfter benutzen, dann gibt es Rabatt." },
+          { "text": "Den Kontoauszug nur einmal im Jahr lesen." }
+        ],
+        "explanation": "Wer Ausgaben und Kontostand im Blick behält, gibt nicht mehr aus, als hereinkommt. So bleibst du aus der Schuldenfalle. 🎉"
+      }
+    }
+  ]
+}

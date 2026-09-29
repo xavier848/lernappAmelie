@@ -1,0 +1,133 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-dosiersysteme",
+  "title": "Richtig dosieren: Dosiersysteme",
+  "sort": 651,
+  "intro": "Reinigungsmittel wirken nur in einer bestimmten Konzentration. Das heißt Anwendungskonzentration. Konzentration heißt: wie viel Mittel im Wasser ist.\n\nBeim Dosieren gilt der Grundsatz: So viel wie nötig, so wenig wie möglich.\n\nRichtig dosiert wird das Ergebnis am besten. Zu viel Mittel heißt Überdosierung. Sie kann das Material schädigen und kostet viel Geld. Sie belastet die Umwelt und ist nicht nachhaltig.\n\nZu wenig Mittel heißt Unterdosierung. Dann wird es nicht richtig sauber. Die Hygiene leidet. Das kann die Gesundheit gefährden. Und das Haus bekommt einen schlechten Ruf.\n\nBeim Dosieren hältst du dich an die Angaben des Herstellers, an den Reinigungsplan und an die Arbeitsanweisung.\n\nEs gibt verschiedene Dosiersysteme. Zerstäuber, also Sprühen: ungenau. Man dosiert leicht falsch, und das Mittel kommt leicht auf die Haut. Spritzer, die sogenannte Schussmethode: sehr ungenau. Man verschüttet leicht, und Hautkontakt ist leicht möglich.\n\nMessbecher: Die Menge muss genau berechnet werden, sonst wird es ungenau. Verschütten und Hautkontakt sind möglich. Schraubkappe von Flasche oder Kanister: kann ungenau sein. Verschütten und Hautkontakt sind leicht möglich.\n\nDosierbeutel, Tabs und Sticks: leicht zu dosieren. Sie sind aber auf eine bestimmte Wassermenge festgelegt. Manchmal entsteht Verpackungsmüll. Dosierpumpe oder Dosierhahn: leicht zu handhaben. Hautkontakt lässt sich vermeiden. Falsch dosieren ist aber möglich.\n\nDosierflasche mit Dosierkammer: leicht zu handhaben und genau. Die Menge ist an die Wassermenge gebunden. Hautkontakt lässt sich vermeiden.\n\nDosieranlage oder Dosiercomputer: für den Großhaushalt. Teuer in der Anschaffung, aber sehr genau und einfach. Die Wasserhärte lässt sich genau einstellen. Das ist nachhaltig. Für Ultra-Hochkonzentrate braucht man eine Dosieranlage. Das sind sehr stark konzentrierte Mittel.\n\nSo rechnest du: 3 % heißt: 3 ml Mittel in 100 ml Lösung. Für 1000 ml Lösung brauchst du also 30 ml Mittel. Das Mischungsverhältnis 1 : 20 heißt hier: 1 Teil Konzentrat auf 20 Teile Wasser.\n\nMERKE: So viel wie nötig, so wenig wie möglich. Die Schussmethode ist sehr ungenau. Dosieranlagen sind sehr genau.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Was ist die Anwendungskonzentration?",
+        "options": [
+          { "text": "Die Menge Mittel im Wasser, in der es richtig wirkt.", "correct": true },
+          { "text": "Die Temperatur, bei der das Mittel im Wasser am besten wirkt." },
+          { "text": "Die Zeit, die das Mittel auf der Fläche einwirkt." }
+        ],
+        "explanation": "Reinigungsmittel wirken nur in einer bestimmten Konzentration. Das ist die Anwendungskonzentration. Temperatur und Zeit sind andere Reinigungsfaktoren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Welcher Grundsatz gilt beim Dosieren von Reinigungsmitteln?",
+        "options": [
+          { "text": "So viel wie nötig, so wenig wie möglich.", "correct": true },
+          { "text": "Viel hilft viel, dann wird es sicher sauber." },
+          { "text": "Lieber ein Schuss mehr, das schadet nie." }
+        ],
+        "explanation": "Du nimmst genau so viel, wie nötig ist. Mehr schadet dem Material, kostet Geld und belastet die Umwelt. Viel hilft also nicht viel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📊 Folge von zu viel oder von zu wenig Reinigungsmittel? Sortiere.",
+        "buckets": [
+          { "id": "ueber", "label": "Überdosierung (zu viel)", "icon": "⬆️" },
+          { "id": "unter", "label": "Unterdosierung (zu wenig)", "icon": "⬇️" }
+        ],
+        "items": [
+          { "text": "Schäden am Material", "bucket": "ueber" },
+          { "text": "Hohe Kosten", "bucket": "ueber" },
+          { "text": "Mehr Belastung für die Umwelt", "bucket": "ueber" },
+          { "text": "Schlechtes Reinigungsergebnis", "bucket": "unter" },
+          { "text": "Mangelnde Hygiene", "bucket": "unter" },
+          { "text": "Gefahr für die Gesundheit", "bucket": "unter" },
+          { "text": "Schlechter Ruf des Hauses", "bucket": "unter" }
+        ],
+        "explanation": "Frag dich: Ist zu viel Mittel im Wasser oder zu wenig? Zu viel greift das Material an, kostet Geld und belastet die Umwelt. Zu wenig macht nicht sauber. Dann leidet die Hygiene, die Gesundheit ist in Gefahr und die Gäste sind unzufrieden."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧴 Dosiersysteme: Welche Beurteilung passt? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥛 Messbecher"}, "right": {"text": "Menge muss genau berechnet werden"} },
+          { "left": {"text": "🔩 Schraubkappe"}, "right": {"text": "Kann ungenau sein, Verschütten leicht möglich"} },
+          { "left": {"text": "💊 Tabs und Dosierbeutel"}, "right": {"text": "Auf eine Wassermenge festgelegt, Verpackungsmüll"} },
+          { "left": {"text": "⛽ Dosierpumpe"}, "right": {"text": "Leicht zu handhaben, kein Hautkontakt"} },
+          { "left": {"text": "🍶 Dosierflasche"}, "right": {"text": "Genaue Dosierung mit Dosierkammer"} }
+        ],
+        "explanation": "Frag dich bei jedem System: Muss ich selbst abmessen? Dann wird es schnell ungenau. Ist die Menge schon vorgegeben, wie bei Tabs, Pumpe oder Dosierflasche, wird es genauer und die Haut bleibt geschützt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💦 Eine Kollegin gibt den Reiniger mit einem Spritzer direkt aus der Flasche ins Wasser. Wie beurteilst du diese Schussmethode?",
+        "options": [
+          { "text": "Sehr ungenau, oft verschüttet, leicht Hautkontakt.", "correct": true },
+          { "text": "Sehr genau, weil jeder Spritzer immer gleich groß ist." },
+          { "text": "Genau genug, wenn sie dabei schnell spritzt." }
+        ],
+        "explanation": "Die Schussmethode ist sehr ungenau. Man verschüttet leicht, und das Mittel kommt schnell auf die Haut. Besser ist ein System, das die Menge vorgibt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌫️ Welches Problem hat das Dosieren mit einem Zerstäuber, also einer Sprühflasche?",
+        "options": [
+          { "text": "Ungenau, leicht falsch dosiert, Gefahr von Hautkontakt.", "correct": true },
+          { "text": "Viel zu teuer in der Anschaffung für einen kleinen Betrieb." },
+          { "text": "Nur für Ultra-Hochkonzentrate im Großhaushalt geeignet." }
+        ],
+        "explanation": "Beim Sprühen weißt du nie genau, wie viel Mittel auf der Fläche landet. Fehldosierung ist leicht möglich. Und der Sprühnebel kommt leicht auf die Haut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Was spricht für eine Dosieranlage im Großhaushalt?",
+        "options": [
+          { "text": "Sehr genau, Wasserhärte einstellbar, nötig bei Ultra-Hochkonzentraten.", "correct": true },
+          { "text": "Sehr billig in der Anschaffung, und man kann sie ganz ohne Strom betreiben." },
+          { "text": "Man kann damit nach Gefühl dosieren, ganz wie man es mag." }
+        ],
+        "explanation": "Dosieranlagen sind teuer in der Anschaffung. Dafür dosieren sie sehr genau und einfach. Die Wasserhärte lässt sich genau einstellen. Das ist nachhaltig. Ultra-Hochkonzentrate kann man nur so richtig dosieren."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Du brauchst 1000 ml Desinfektionslösung. Der Hersteller sagt: 3 %. Wie viele ml Konzentrat brauchst du?",
+        "answer": 30,
+        "hint": "3 % heißt: 3 ml in 100 ml Lösung.\n1000 ml sind 10 mal 100 ml.\n10 mal 3 ml = ?",
+        "explanation": "3 % heißt 3 ml Konzentrat in 100 ml Lösung. 1000 ml sind 10 mal so viel. Also 10 × 3 ml = 30 ml Konzentrat. Den Rest füllst du mit Wasser auf."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Du hast 150 ml Konzentrat. Das Verhältnis 1 : 20 heißt hier: 1 Teil Konzentrat auf 20 Teile Wasser. Wie viele ml Wasser gibst du dazu?",
+        "answer": 3000,
+        "hint": "1 Teil Konzentrat sind 150 ml.\nDu brauchst 20 Teile Wasser.\n20 × 150 ml = ?",
+        "explanation": "1 Teil sind 150 ml. Für 20 Teile Wasser rechnest du 20 × 150 ml = 3000 ml. Das sind 3 Liter Wasser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Woran hältst du dich beim Dosieren?",
+        "options": [
+          { "text": "An die Herstellerangaben und die Arbeitsanweisung.", "correct": true },
+          { "text": "An mein Gefühl, das wird schon passen." },
+          { "text": "An die Menge, die die erfahrene Kollegin immer nimmt." }
+        ],
+        "explanation": "Die richtige Menge steht in den Angaben des Herstellers. Auch der Reinigungsplan und die Arbeitsanweisung sagen dir, wie viel du nimmst. Nach Gefühl wird es zu viel oder zu wenig."
+      }
+    }
+  ]
+}

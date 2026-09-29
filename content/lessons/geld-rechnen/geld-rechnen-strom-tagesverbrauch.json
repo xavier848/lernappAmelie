@@ -1,0 +1,132 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-strom-tagesverbrauch",
+  "title": "Strom: Tagesverbrauch berechnen",
+  "sort": 600,
+  "intro": "⚡ Jedes Elektrogerät braucht Strom. Wie viel, hängt von zwei Dingen ab: von der Leistung und von der Betriebszeit. Die Leistung steht in Watt auf dem Gerät, kurz W. Die Betriebszeit ist die Zeit, in der das Gerät läuft.\n\nDen Stromverbrauch misst man in Kilowattstunden, kurz kWh. 1 Kilowatt sind 1000 Watt.\n\nMERKE: So rechnest du: Watt mal Stunden, dann geteilt durch 1000. Das Ergebnis sind kWh.\n\nAchte auf die Minuten. Rechne sie immer zuerst in Stunden um. 30 Minuten sind eine halbe Stunde, also 0,5 Stunden. 15 Minuten sind eine Viertelstunde, also 0,25 Stunden. 10 Minuten sind ein Sechstel einer Stunde.\n\nDie Aufgabe aus dem Fachbuch: Ein Haushalt nutzt an einem Tag diese Geräte. Eine Mikrowelle mit 450 W läuft 10 Minuten. Ein Geschirrspüler braucht 0,87 kWh für einen Spülgang. Ein Staubsauger mit 1600 W läuft 15 Minuten. Ein Backofen mit 2000 W läuft 1,5 Stunden. Ein Waffeleisen mit 1400 W läuft 30 Minuten. Eine Kühl-Gefrierkombination mit 37,5 W läuft 24 Stunden. Ein Handrührgerät mit 350 W läuft 10 Minuten.\n\nMorgens steht der Stromzähler auf 10 973,3 kWh. Eine kWh kostet 0,32 €, also 32 Cent.\n\nMERKE: Zählerstand am Abend = Zählerstand am Morgen + Tagesverbrauch. Stromkosten = verbrauchte kWh mal Preis pro kWh.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Wie rechnest du den Stromverbrauch eines Geräts aus?",
+        "options": [
+          { "text": "Watt mal Stunden, dann geteilt durch 1000.", "correct": true },
+          { "text": "Watt geteilt durch Stunden, dann mal 1000." },
+          { "text": "Watt mal Minuten, dann geteilt durch 100." }
+        ],
+        "explanation": "Du nimmst die Leistung in Watt mal die Betriebszeit in Stunden. Das teilst du durch 1000, denn 1 Kilowatt sind 1000 Watt. So bekommst du Kilowattstunden, kurz kWh."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔥 Der Backofen hat 2000 W und läuft 1,5 Stunden. Wie viele kWh verbraucht er?",
+        "answer": 3,
+        "hint": "2000 mal 1 = 2000.\n2000 mal 0,5 = 1000.\n2000 + 1000 = 3000.\n3000 geteilt durch 1000 = ?",
+        "explanation": "2000 W mal 1,5 Stunden sind 3000. Geteilt durch 1000 sind das 3 kWh. Der Backofen ist an diesem Tag der größte Stromverbraucher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧇 Das Waffeleisen hat 1400 W und läuft 30 Minuten. Wie viele kWh sind das?",
+        "options": [
+          { "text": "0,7 kWh", "correct": true },
+          { "text": "7,0 kWh" },
+          { "text": "42,0 kWh" }
+        ],
+        "explanation": "30 Minuten sind 0,5 Stunden. 1400 mal 0,5 sind 700. 700 geteilt durch 1000 sind 0,7 kWh. Rechnest du mit 30 statt mit 0,5, kommt 42 heraus. Das ist der typische Fehler: Minuten immer zuerst in Stunden umrechnen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Der Staubsauger hat 1600 W und läuft 15 Minuten. Wie viele kWh sind das?",
+        "options": [
+          { "text": "0,4 kWh", "correct": true },
+          { "text": "4,0 kWh" },
+          { "text": "24,0 kWh" }
+        ],
+        "explanation": "15 Minuten sind eine Viertelstunde, also 0,25 Stunden. 1600 mal 0,25 sind 400. 400 geteilt durch 1000 sind 0,4 kWh."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Die Kühl-Gefrierkombination hat 37,5 W und läuft 24 Stunden. Wie viele kWh sind das?",
+        "options": [
+          { "text": "0,9 kWh", "correct": true },
+          { "text": "9 kWh" },
+          { "text": "0,09 kWh" }
+        ],
+        "explanation": "37,5 mal 24 sind 900. 900 geteilt durch 1000 sind 0,9 kWh. Das Gerät hat wenig Leistung, läuft aber den ganzen Tag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📡 Die Mikrowelle hat 450 W und läuft 10 Minuten. Wie viele kWh sind das?",
+        "options": [
+          { "text": "0,075 kWh", "correct": true },
+          { "text": "0,0075 kWh" },
+          { "text": "0,75 kWh" }
+        ],
+        "explanation": "10 Minuten sind ein Sechstel einer Stunde. 450 geteilt durch 6 sind 75. 75 geteilt durch 1000 sind 0,075 kWh. Zähl die Stellen nach dem Komma genau: Durch 1000 teilen heißt, das Komma drei Stellen nach links schieben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Welches Gerät braucht an diesem Tag den wenigsten Strom?",
+        "options": [
+          { "text": "Das Handrührgerät.", "correct": true },
+          { "text": "Die Mikrowelle." },
+          { "text": "Die Kühl-Gefrierkombination." }
+        ],
+        "explanation": "Das Handrührgerät hat 350 W und läuft 10 Minuten. 350 geteilt durch 6 sind etwa 58. Geteilt durch 1000 sind das etwa 0,058 kWh. Die Mikrowelle braucht 0,075 kWh, also etwas mehr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📊 Rechne alle sieben Geräte zusammen. Wie viele kWh verbraucht der Haushalt an diesem Tag ungefähr? Runde auf ganze kWh.",
+        "answer": 6,
+        "hint": "Backofen 3 kWh.\nKühl-Gefrierkombination 0,9 kWh.\nGeschirrspüler 0,87 kWh.\nWaffeleisen 0,7 kWh.\nStaubsauger 0,4 kWh.\nMikrowelle und Handrührgerät zusammen etwa 0,13 kWh.\nZähle alles zusammen und runde.",
+        "explanation": "3 + 0,9 + 0,87 + 0,7 + 0,4 + 0,075 + 0,058 sind etwa 6,0 kWh. Gerundet verbraucht der Haushalt an diesem Tag 6 kWh."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Morgens stand der Zähler auf 10 973,3 kWh. Der Tagesverbrauch ist 6,0 kWh. Was steht abends auf dem Zähler?",
+        "options": [
+          { "text": "10 979,3 kWh", "correct": true },
+          { "text": "10 967,3 kWh" },
+          { "text": "16 973,3 kWh" }
+        ],
+        "explanation": "Der Zähler zählt immer weiter nach oben. Du rechnest plus: 10 973,3 + 6,0 = 10 979,3 kWh. Minus wäre falsch. Und die 6 gehört zu den Einern, nicht zu den Tausendern."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💶 Wie viel Cent kostet der Strom für den ganzen Tag? Rechne mit dem gerundeten Tagesverbrauch und 32 Cent pro kWh.",
+        "answer": 192,
+        "hint": "Der Tagesverbrauch ist rund 6 kWh.\n6 mal 30 Cent = 180 Cent.\n6 mal 2 Cent = 12 Cent.\n180 + 12 = ?",
+        "explanation": "6 kWh mal 32 Cent sind 192 Cent. Das sind 1,92 € für einen Tag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Wofür steht die Abkürzung kWh?",
+        "options": [
+          { "text": "Kilowattstunde.", "correct": true },
+          { "text": "Kilowärmehöhe." },
+          { "text": "Kraftwerksheizung." }
+        ],
+        "explanation": "kWh heißt Kilowattstunde. Das ist die Einheit, in der dein Stromverbrauch gemessen und bezahlt wird."
+      }
+    }
+  ]
+}

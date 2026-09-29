@@ -1,0 +1,165 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-beschwerden-insourcing",
+  "title": "Beschwerden und Insourcing",
+  "sort": 671,
+  "intro": "Kunden oder Bewohner sollen die Möglichkeit haben, sich zu beschweren. Das gilt, wenn eine Leistung nicht den Anforderungen entspricht. Wer sich beschwert, ist kein Nörgler und kein unbequemer Mensch. So kann der Betrieb besser auf die Bedürfnisse eingehen und seine Leistung anpassen.\n\nBeschwerden werden mit einheitlichen Dokumenten erfasst. So lassen sie sich einfach auswerten und gut vergleichen.\n\nEine Beschwerde nimmst du nicht persönlich. Du leitest sie an die zuständige Stelle weiter. Der Betrieb legt fest, wer für welche Beschwerden zuständig ist. Auf Beschwerden muss man unbedingt schnell reagieren.\n\nVersteckte Beschwerden sind schlecht für den Betrieb. Er erfährt nichts davon und kann nichts verbessern.\n\nOffene Beschwerden kommen indirekt oder direkt. Indirekt heißt: über Anwälte, über die Presse oder über Angehörige. Direkt heißt: als Reklamation im Betrieb.\n\nBeschwerden sind nützlich. Sie geben Anregungen für Verbesserungen. Deshalb soll man sie fördern. Das Ziel ist: möglichst wenig Anlass für Beschwerden geben.\n\nOutsourcing heißt: Der Betrieb gibt Arbeiten an eine Fremdfirma ab, zum Beispiel die Fensterreinigung. Insourcing heißt: Der Betrieb holt diese Arbeiten wieder zurück und macht sie selbst.\n\nVorteile von Insourcing: Die Planung wird verlässlicher. Die Qualität ist vielleicht höher. Der Betrieb ist weniger abhängig von Fremdfirmen.\n\nGründe für Insourcing: Die Leistung lässt sich besser an die Wünsche der Kunden anpassen. Die berechneten Einsparungen durch Outsourcing treffen nicht mehr zu. Die Rahmenbedingungen haben sich verändert. Auf kurzfristige Veränderungen kann man schnell reagieren.\n\nAm Anfang gibt es Schwierigkeiten: Das Wissen muss erst wieder aufgebaut werden, und alle müssen angelernt werden.\n\nMERKE: Beschwerden sind nützlich. Nimm sie nicht persönlich und leite sie schnell weiter.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙋 Ein Bewohner beschwert sich. Wie sieht der Betrieb ihn?",
+        "options": [
+          { "text": "Nicht als Nörgler. Seine Beschwerde hilft, besser auf seine Bedürfnisse einzugehen.", "correct": true },
+          { "text": "Als unbequemen Menschen, den man möglichst schnell und freundlich wieder loswerden sollte." },
+          { "text": "Als Gefahr für den guten Ruf, die man vor allen anderen verschweigen muss." },
+          { "text": "Als Störung im Ablauf, um die man sich erst am Ende des Jahres kümmert." }
+        ],
+        "explanation": "Kunden und Bewohner dürfen nicht als Nörgler oder unbequeme Zeitgenossen betrachtet werden. Ihre Beschwerden helfen dem Betrieb, besser auf ihre Bedürfnisse einzugehen und die Leistung anzupassen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛁 Ein Bewohner beschwert sich bei dir über ein schmutziges Bad. Was machst du?",
+        "options": [
+          { "text": "Nicht persönlich nehmen und an die zuständige Stelle weiterleiten.", "correct": true },
+          { "text": "Dich verteidigen und genau erklären, dass es nicht deine Schuld war." },
+          { "text": "Gar nichts sagen und die Beschwerde einfach für dich behalten." },
+          { "text": "Dem Bewohner sagen, dass er sich beim nächsten Mal schriftlich beschweren soll." }
+        ],
+        "explanation": "Beschwerden nimmst du nicht persönlich. Du leitest sie an die entsprechende Stelle weiter. Der Betrieb hat festgelegt, wer für welche Beschwerde zuständig ist. Und dann muss schnell reagiert werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Wie schnell reagiert der Betrieb auf eine Beschwerde?",
+        "options": [
+          { "text": "Schnell. Das ist unbedingt nötig.", "correct": true },
+          { "text": "Erst nach einigen Wochen, in Ruhe." },
+          { "text": "Nur wenn sich jemand zweimal beschwert." },
+          { "text": "Erst bei der nächsten Zertifizierung." }
+        ],
+        "explanation": "Eine schnelle Reaktion auf Beschwerden ist unbedingt nötig. Wer lange warten muss, ärgert sich noch mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Warum erfasst man Beschwerden mit einheitlichen Dokumenten?",
+        "options": [
+          { "text": "So lassen sie sich einfach auswerten und gut vergleichen.", "correct": true },
+          { "text": "So muss sie später niemand mehr genau und vollständig durchlesen." },
+          { "text": "So kann man sie schneller in den Müll werfen." },
+          { "text": "So weiß keiner, wer sich beschwert hat." }
+        ],
+        "explanation": "Einheitliche Dokumente zur Erfassung ermöglichen eine einfache Auswertung und eine gute Vergleichbarkeit der Ergebnisse."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📬 Welche Art von Beschwerde ist das? Sortiere.",
+        "buckets": [
+          { "id": "versteckt", "label": "Versteckte Beschwerde", "icon": "🙊" },
+          { "id": "direkt", "label": "Offen und direkt", "icon": "🗣️" },
+          { "id": "indirekt", "label": "Offen und indirekt", "icon": "📰" }
+        ],
+        "items": [
+          { "text": "Ein Gast ärgert sich, sagt aber nichts", "bucket": "versteckt" },
+          { "text": "Eine Bewohnerin reklamiert an der Rezeption", "bucket": "direkt" },
+          { "text": "Ein Gast beschwert sich bei der Hausleitung", "bucket": "direkt" },
+          { "text": "Ein Anwalt schreibt dem Betrieb", "bucket": "indirekt" },
+          { "text": "Die Zeitung berichtet über Mängel", "bucket": "indirekt" },
+          { "text": "Angehörige beschweren sich für den Bewohner", "bucket": "indirekt" }
+        ],
+        "explanation": "Frag dich: Erfährt der Betrieb überhaupt davon? Wenn nicht, ist die Beschwerde versteckt. Kommt die Person selbst in den Betrieb? Dann ist sie direkt. Kommt sie über andere, also Anwälte, Presse oder Angehörige? Dann ist sie indirekt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙊 Warum sind versteckte Beschwerden schlecht für den Betrieb?",
+        "options": [
+          { "text": "Er erfährt nichts davon und kann nichts verbessern.", "correct": true },
+          { "text": "Sie kosten den Betrieb sofort sehr viel Geld." },
+          { "text": "Sie stehen schon am nächsten Tag in jeder Zeitung der Stadt." },
+          { "text": "Sie müssen von einem Anwalt geprüft werden." }
+        ],
+        "explanation": "Bei einer versteckten Beschwerde erfährt der Betrieb nichts. Er hat keine Möglichkeit, etwas zu verbessern. Deshalb sollen Beschwerden gefördert werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Soll ein Betrieb Beschwerden fördern?",
+        "options": [
+          { "text": "Ja. Sie geben Anregungen, um besser zu werden.", "correct": true },
+          { "text": "Nein. Beschwerden stören nur den ruhigen Ablauf." },
+          { "text": "Nein. Wer sich beschwert, soll das Haus verlassen." },
+          { "text": "Nur, wenn sie über einen Anwalt kommen." }
+        ],
+        "explanation": "Beschwerden sind nützlich. Sie geben Anregungen für Verbesserungen und sind deshalb zu fördern. Das Ziel ist trotzdem, möglichst wenig Anlass für Beschwerden zu geben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Was heißt Insourcing?",
+        "options": [
+          { "text": "Arbeiten, die bei einer Fremdfirma waren, macht der Betrieb wieder selbst.", "correct": true },
+          { "text": "Arbeiten, die der Betrieb selbst gemacht hat, gibt er an eine Fremdfirma ab." },
+          { "text": "Der Betrieb kauft seine Reinigungsmittel ab jetzt nur noch im Ausland ein." },
+          { "text": "Der Betrieb lässt seine Qualität einmal im Jahr von außen zertifizieren." }
+        ],
+        "explanation": "Insourcing ist die Wiedereingliederung von Arbeiten, die vorher ausgelagert waren. Das Auslagern an eine Fremdfirma heißt Outsourcing. Beim Insourcing holt der Betrieb die Arbeit also zurück."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Insourcing: Was spricht dafür, was ist am Anfang schwierig? Sortiere.",
+        "buckets": [
+          { "id": "dafuer", "label": "Spricht für Insourcing", "icon": "👍" },
+          { "id": "schwierig", "label": "Schwierigkeit am Anfang", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Die Planung wird verlässlicher", "bucket": "dafuer" },
+          { "text": "Die Qualität ist vielleicht höher", "bucket": "dafuer" },
+          { "text": "Weniger abhängig von Fremdfirmen", "bucket": "dafuer" },
+          { "text": "Schnell auf kurzfristige Änderungen reagieren", "bucket": "dafuer" },
+          { "text": "Leistung besser an Kundenwünsche anpassen", "bucket": "dafuer" },
+          { "text": "Das Wissen muss erst wieder aufgebaut werden", "bucket": "schwierig" },
+          { "text": "Alle Mitarbeitenden müssen angelernt werden", "bucket": "schwierig" }
+        ],
+        "explanation": "Frag dich: Hilft es dem Betrieb auf Dauer? Dann spricht es für Insourcing. Kostet es am Anfang Zeit und Mühe? Dann ist es eine Anfangsschwierigkeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Ein Betrieb hatte die Fensterreinigung an eine Fremdfirma gegeben. Welcher Grund spricht jetzt für Insourcing?",
+        "options": [
+          { "text": "Die berechneten Einsparungen durch Outsourcing treffen nicht mehr zu.", "correct": true },
+          { "text": "Die Fremdfirma arbeitet pünktlich, gut und günstiger als der Betrieb." },
+          { "text": "Der Betrieb hat gar kein eigenes Personal für die Reinigung mehr." },
+          { "text": "Die Fremdfirma hat gerade alle ihre Preise stark gesenkt." }
+        ],
+        "explanation": "Ein Grund für Insourcing ist: Die Einsparungen, die man für das Outsourcing berechnet hatte, treffen nicht mehr zu. Weitere Gründe: veränderte Rahmenbedingungen, bessere Anpassung an Kundenwünsche, schnelle Reaktion auf Änderungen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Wie heißt es, wenn ein Betrieb Arbeiten an eine Fremdfirma abgibt?",
+        "options": [
+          { "text": "Outsourcing.", "correct": true },
+          { "text": "Insourcing." },
+          { "text": "Qualitätszirkel." }
+        ],
+        "explanation": "Outsourcing heißt: Arbeiten werden an eine Fremdfirma ausgelagert. Holt der Betrieb sie zurück, heißt das Insourcing."
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-lagergemuese",
+  "title": "Lagergemüse: frisch und gelagert",
+  "sort": 703,
+  "intro": "Manches Gemüse kann man gut lagern. So bekommst du es auch lange nach der Ernte noch. Im Saisonkalender ist frisches Gemüse grün und gelagertes Gemüse rot.\n\nKarotten und Kartoffeln gibt es frisch von Juni bis Oktober. Von November bis Mai kommen sie aus dem Lager. So gibt es sie das ganze Jahr. Zwiebeln gibt es frisch von Juni bis Oktober und gelagert von November bis Februar.\n\nWeißkohl und Wirsing gibt es frisch von Juni bis November. Danach kommen sie aus dem Lager: Weißkohl von Dezember bis März, Wirsing von Dezember bis Februar.\n\nRotkohl und Sellerieknolle gibt es frisch von August bis November. Rote Bete gibt es frisch von September bis November. Alle drei gibt es gelagert von Dezember bis März.\n\nLauch heißt auch Porree. Es gibt ihn frisch von Juli bis Oktober und gelagert von November bis März. Kürbis gibt es frisch von September bis November und gelagert nur im Dezember. Rosenkohl gibt es frisch von Oktober bis Dezember und gelagert im Januar und Februar.\n\nDas andere Gemüse im Kalender gibt es nur frisch. Zum Beispiel Tomaten, Salate, Spargel und Grünkohl.\n\nMERKE: Karotten und Kartoffeln gibt es das ganze Jahr: frisch von Juni bis Oktober, danach aus dem Lager. Weißkohl, Rotkohl, Sellerie und Rote Bete kommen von Dezember bis März aus dem Lager.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏚️ Gibt es das Gemüse auch aus dem Lager? Sortiere.",
+        "buckets": [
+          { "id": "beides", "label": "Frisch und gelagert", "icon": "🟥" },
+          { "id": "frisch", "label": "Nur frisch", "icon": "🟩" }
+        ],
+        "items": [
+          { "text": "Karotte", "bucket": "beides" },
+          { "text": "Zwiebel", "bucket": "beides" },
+          { "text": "Rotkohl", "bucket": "beides" },
+          { "text": "Sellerieknolle", "bucket": "beides" },
+          { "text": "Tomate", "bucket": "frisch" },
+          { "text": "Spargel", "bucket": "frisch" },
+          { "text": "Grünkohl", "bucket": "frisch" },
+          { "text": "Kopfsalat", "bucket": "frisch" }
+        ],
+        "explanation": "Im Saisonkalender haben nur elf Gemüse einen roten Balken: Karotte, Kartoffel, Zwiebel, Lauch, Kürbis, Rote Bete, Sellerie, Weißkohl, Rotkohl, Wirsing und Rosenkohl. Alles andere gibt es nur frisch. Achtung: Grünkohl ist zwar ein Kohl, er wird aber nicht gelagert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Warum gibt es Karotten und Kartoffeln aus Deutschland das ganze Jahr?",
+        "options": [
+          { "text": "Frisch von Juni bis Oktober, danach aus dem Lager bis Mai.", "correct": true },
+          { "text": "Sie wachsen das ganze Jahr frisch auf dem Feld." },
+          { "text": "Im Winter kommen sie nur tiefgekühlt in den Handel." },
+          { "text": "Von November bis Mai werden sie im Ausland gekauft." }
+        ],
+        "explanation": "Karotten und Kartoffeln gibt es frisch von Juni bis Oktober. Von November bis Mai kommen sie aus dem Lager. Zusammen ergibt das das ganze Jahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥬 Es ist Juli. Kommen Weißkohl und Wirsing jetzt frisch vom Feld oder aus dem Lager?",
+        "options": [
+          { "text": "Frisch vom Feld, ihre Saison geht von Juni bis November.", "correct": true },
+          { "text": "Aus dem Lager, frisch gibt es sie nur im Winter." },
+          { "text": "Gar nicht, Kohl gibt es nur im Winter." },
+          { "text": "Aus dem Lager, Kohl wird nie frisch verkauft." }
+        ],
+        "explanation": "Weißkohl und Wirsing gibt es frisch von Juni bis November. Erst im Winter kommen sie aus dem Lager. Viele denken bei Kohl nur an den Winter. Dabei gibt es diese Kohlsorten schon im Sommer frisch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Ab wann gibt es dieses Gemüse frisch? Sortiere.",
+        "buckets": [
+          { "id": "jun", "label": "Frisch ab Juni", "icon": "🌱" },
+          { "id": "jul", "label": "Frisch ab Juli oder August", "icon": "☀️" },
+          { "id": "sep", "label": "Frisch ab September oder Oktober", "icon": "🍂" }
+        ],
+        "items": [
+          { "text": "Zwiebel", "bucket": "jun" },
+          { "text": "Karotte", "bucket": "jun" },
+          { "text": "Lauch", "bucket": "jul" },
+          { "text": "Rotkohl", "bucket": "jul" },
+          { "text": "Sellerieknolle", "bucket": "jul" },
+          { "text": "Rote Bete", "bucket": "sep" },
+          { "text": "Kürbis", "bucket": "sep" },
+          { "text": "Rosenkohl", "bucket": "sep" }
+        ],
+        "explanation": "Frag dich: In welchem Monat beginnt der grüne Balken im Saisonkalender? Juni ist früh, Juli und August sind die Mitte, September und Oktober sind spät. Merke dir die Späten: Rote Bete und Kürbis ab September, Rosenkohl ab Oktober."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wann kommt dieses Gemüse aus dem Lager? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🧅 Zwiebel"}, "right": {"text": "November bis Februar"} },
+          { "left": {"text": "Rosenkohl"}, "right": {"text": "Januar und Februar"} },
+          { "left": {"text": "Lauch"}, "right": {"text": "November bis März"} },
+          { "left": {"text": "Wirsing"}, "right": {"text": "Dezember bis Februar"} },
+          { "left": {"text": "🎃 Kürbis"}, "right": {"text": "nur im Dezember"} },
+          { "left": {"text": "Rote Bete"}, "right": {"text": "Dezember bis März"} }
+        ],
+        "memory": false,
+        "explanation": "Die Lagerzeit beginnt, wenn die frische Saison endet. Zwiebeln und Lauch kommen schon ab November aus dem Lager. Kürbis gibt es gelagert nur kurz. Rosenkohl ist frisch bis Dezember und kommt erst danach aus dem Lager."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟥 Rotkohl, Sellerieknolle und Weißkohl: Wann kommen sie aus dem Lager?",
+        "options": [
+          { "text": "Von Dezember bis März.", "correct": true },
+          { "text": "Von Juni bis August." },
+          { "text": "Nur im Dezember." },
+          { "text": "Von November bis Mai." }
+        ],
+        "explanation": "Rotkohl, Sellerieknolle, Rote Bete und Weißkohl gibt es gelagert von Dezember bis März. Davor, bis November, gibt es sie frisch."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 Kartoffeln kommen von November bis Mai aus dem Lager. Wie viele Monate sind das?",
+        "answer": 7,
+        "hint": "Zähle die Monate:\nNovember, Dezember, Januar, Februar, März, April, Mai.",
+        "explanation": "November, Dezember, Januar, Februar, März, April, Mai: Das sind 7 Monate aus dem Lager. Dazu kommen 5 Monate frische Kartoffeln von Juni bis Oktober. Zusammen sind das 12 Monate, also das ganze Jahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du brauchst im Februar Zwiebeln aus Deutschland. Woher kommen sie?",
+        "options": [
+          { "text": "Aus dem Lager.", "correct": true },
+          { "text": "Frisch vom Feld." },
+          { "text": "Es gibt dann keine." }
+        ],
+        "explanation": "Zwiebeln gibt es frisch von Juni bis Oktober. Von November bis Februar kommen sie aus dem Lager."
+      }
+    }
+  ]
+}

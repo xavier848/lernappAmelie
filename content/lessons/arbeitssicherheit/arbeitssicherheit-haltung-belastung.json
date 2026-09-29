@@ -1,0 +1,149 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-haltung-belastung",
+  "title": "Arbeitshaltung: Belastung vermeiden",
+  "sort": 581,
+  "intro": "🧍 Bei der Arbeit nimmst du viele verschiedene Haltungen ein. Besonders anstrengend sind Bücken, Hocken und Über-Kopf-Arbeiten. Damit die Belastung nach einem Arbeitstag nicht zu groß ist, ist die richtige Arbeitshaltung besonders wichtig.\n\nMERKE: Wechsle bei der Arbeit zwischen Stehen und Sitzen ab. Setze geeignete Hilfsmittel ein, die dir die Arbeit erleichtern.\n\nStehen: Du stehst bei Arbeiten, bei denen du viel Druck ausüben musst. Oder wenn du ausladende, also große und weite Bewegungen machst. Dabei belastest du beide Füße gleichmäßig. Der Rücken ist gerade. Die Oberarme sind entspannt und hängen locker herunter. Stehe nicht zu lange. Sonst werden die Wirbelsäule und die gesamte Skelettmuskulatur zu stark belastet. Die Skelettmuskulatur sind alle Muskeln, mit denen du dich bewegst.\n\nBücken: Beim Bücken werden die Bandscheiben stark beansprucht. Richtiges Bücken beugt Haltungsschäden und schneller Ermüdung vor. Falsch ist: mit gestreckten Beinen und rundem Rücken nach vorn beugen. Richtig ist: in die Hocke gehen und den Rücken gerade halten. Ein gut eingerichteter Arbeitsplatz verringert das Bücken.\n\nHeben und Tragen: Lieferungen, Pakete und Tabletts belasten den Oberkörper stark. Trage Kisten und schwere Dinge so nah wie möglich am Körper. So verringerst du die Haltearbeit der Arme. Beim Anheben gehst du immer in die Hocke. Dann kommt die Kraft aus den Oberschenkeln und nicht aus dem Rücken.\n\nSitzen: Arbeite im Sitzen, wann immer es möglich ist. Das spart Energie und entlastet die Wirbelsäule. Passe die Arbeitshöhe und den Arbeitsstuhl der Tätigkeit an. Mit den Oberarmen muss immer ein 90-Grad-Winkel möglich sein. Sonst ist der Rücken nicht gerade und du sitzt nicht entspannt.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😣 Welche Arbeitshaltungen sind besonders anstrengend?",
+        "options": [
+          { "text": "Bücken, Hocken und Über-Kopf-Arbeiten", "correct": true },
+          { "text": "Sitzen, Stehen und langsames Gehen im Raum" },
+          { "text": "Aufrechtes Sitzen mit einer Rückenlehne" }
+        ],
+        "explanation": "Beim Bücken, Hocken und Arbeiten über dem Kopf muss dein Körper viel halten und ausgleichen. Das ist besonders anstrengend. Plane solche Arbeiten bewusst und nutze Hilfsmittel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧍 Gute Haltung beim Stehen? Sortiere.",
+        "explanation": "Frag dich: Ist mein Körper im Gleichgewicht und entspannt? Gerader Rücken, lockere Oberarme und beide Füße gleich belastet sind gut. Zu langes Stehen, hochgezogene Schultern und ein Rundrücken belasten den Körper.",
+        "buckets": [
+          { "id": "gut", "label": "Gute Haltung", "icon": "✅" },
+          { "id": "schlecht", "label": "Schlechte Haltung", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Beide Füße gleichmäßig belasten", "bucket": "gut" },
+          { "text": "Den Rücken gerade halten", "bucket": "gut" },
+          { "text": "Oberarme entspannt und locker hängend", "bucket": "gut" },
+          { "text": "Zwischendurch hinsetzen", "bucket": "gut" },
+          { "text": "Die Schultern hochziehen", "bucket": "schlecht" },
+          { "text": "Stundenlang ohne Pause stehen", "bucket": "schlecht" },
+          { "text": "Das Gewicht auf ein Bein verlagern", "bucket": "schlecht" },
+          { "text": "Mit rundem Rücken über den Tisch beugen", "bucket": "schlecht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Warum solltest du nicht zu lange stehen?",
+        "options": [
+          { "text": "Sonst werden Wirbelsäule und Skelettmuskulatur zu stark belastet.", "correct": true },
+          { "text": "Sonst werden die Hände kalt und du kannst nicht mehr gut greifen." },
+          { "text": "Sonst sinkt der Blutzucker und du bekommst sofort großen Hunger." }
+        ],
+        "explanation": "Langes Stehen belastet die Wirbelsäule und alle Muskeln, mit denen du dich hältst und bewegst. Darum wechselst du zwischen Stehen und Sitzen ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💿 Beim Bücken werden die Bandscheiben stark beansprucht. Was bringt dir richtiges Bücken?",
+        "options": [
+          { "text": "Es beugt Haltungsschäden und schneller Ermüdung vor.", "correct": true },
+          { "text": "Es macht deine Beine besonders schnell und stark müde." },
+          { "text": "Es trainiert vor allem die Muskeln deiner Arme." }
+        ],
+        "explanation": "Wenn du richtig bückst, also in die Hocke gehst und den Rücken gerade hältst, schonst du die Bandscheiben. So beugst du Haltungsschäden vor und ermüdest nicht so schnell."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📦 Eine schwere Kiste steht am Boden. Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Erst nah heran, dann runter in die Hocke. Die Last kommt nah an den Körper, bevor du aufstehst. So hebst du aus den Beinen und trägst die Last körpernah.",
+        "steps": [
+          { "text": "Nah an die Kiste herantreten." },
+          { "text": "In die Hocke gehen, den Rücken gerade halten." },
+          { "text": "Die Kiste fassen und nah an den Körper ziehen." },
+          { "text": "Mit geradem Rücken aufstehen." },
+          { "text": "Die Kiste dicht am Körper tragen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦵 Du hebst eine Kiste aus der Hocke. Woher kommt die Kraft?",
+        "options": [
+          { "text": "Aus den Oberschenkeln", "correct": true },
+          { "text": "Aus dem unteren Rücken" },
+          { "text": "Aus den Armen und Schultern" }
+        ],
+        "explanation": "Gehst du in die Hocke, kommt die Kraft zum Heben aus den kräftigen Oberschenkeln und nicht aus dem Rücken. So schützt du deine Wirbelsäule."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Warum trägst du die Kiste so nah wie möglich am Körper?",
+        "options": [
+          { "text": "Damit die Haltearbeit der Arme kleiner wird.", "correct": true },
+          { "text": "Damit du besser über die Kiste schauen kannst." },
+          { "text": "Damit die Kiste nicht so schnell schmutzig wird." }
+        ],
+        "explanation": "Je näher die Last am Körper ist, desto weniger müssen deine Arme halten. Man sagt: Die Haltearbeit der Arme wird kleiner. Das entlastet auch den Oberkörper."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪑 Warum arbeitest du im Sitzen, wann immer es möglich ist?",
+        "options": [
+          { "text": "Es spart Energie und entlastet die Wirbelsäule.", "correct": true },
+          { "text": "Es geht immer viel schneller als im Stehen." },
+          { "text": "Man kann dabei viel mehr Druck ausüben." }
+        ],
+        "explanation": "Im Sitzen braucht dein Körper weniger Energie, und die Wirbelsäule wird entlastet. Viel Druck und weite Bewegungen gehen dagegen besser im Stehen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📐 Du sitzt am Tisch und schälst Äpfel. Wie viel Grad muss der Winkel mit deinen Oberarmen haben können?",
+        "answer": 90,
+        "hint": "Es ist ein rechter Winkel, so wie die Ecke eines Blattes Papier.",
+        "explanation": "Mit den Oberarmen muss immer ein 90-Grad-Winkel möglich sein. Ist das nicht so, ist der Rücken nicht gerade und du sitzt nicht entspannt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Der Tisch ist für deine Arbeit im Sitzen viel zu hoch. Was tust du?",
+        "options": [
+          { "text": "Arbeitshöhe und Stuhl an die Tätigkeit anpassen.", "correct": true },
+          { "text": "Die Schultern hochziehen und so weiterarbeiten." },
+          { "text": "Im Stehen weiterarbeiten, egal wie lange es dauert." }
+        ],
+        "explanation": "Arbeitshöhe und Arbeitsstuhl müssen zur Tätigkeit passen. Stellst du zum Beispiel den Stuhl höher, sitzt du wieder gerade und entspannt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was rät dir der Merksatz zur Arbeitshaltung?",
+        "options": [
+          { "text": "Zwischen Stehen und Sitzen abwechseln und Hilfsmittel nutzen.", "correct": true },
+          { "text": "Nur stehen, weil Sitzen bei der Arbeit immer sehr müde macht." },
+          { "text": "Nur sitzen und alle schweren Arbeiten ganz weglassen." }
+        ],
+        "explanation": "Der Wechsel zwischen Stehen und Sitzen verteilt die Belastung. Geeignete Hilfsmittel machen die Arbeit zusätzlich leichter."
+      }
+    }
+  ]
+}

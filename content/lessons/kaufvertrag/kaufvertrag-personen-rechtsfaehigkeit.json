@@ -1,0 +1,149 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-personen-rechtsfaehigkeit",
+  "title": "Kaufvertrag: Personen und Rechtsfähigkeit",
+  "sort": 700,
+  "intro": "Im Kaufvertrag verpflichtet sich der Verkäufer, eine Sache oder eine Dienstleistung zu verkaufen. Der Käufer sichert zu, dafür zu bezahlen. Ein Vertrag kann schriftlich oder mündlich sein. Er kommt durch Angebot und Annahme zustande.\n\nSarah kauft manchmal für ihren eigenen Haushalt ein. Dann ist sie Verbraucherin. Rechtlich ist sie dann eine natürliche Person. Jeder Mensch ist eine natürliche Person.\n\nManchmal kauft Sarah für das Unternehmen ein, bei dem sie angestellt ist. Dann vertritt sie ihr Unternehmen. Das Unternehmen ist eine juristische Person. Eine juristische Person ist kein Mensch, sondern eine Organisation. Sie hat aber Rechte und Pflichten wie eine Person.\n\nJuristische Personen erkennst du oft am Namenszusatz. GmbH heißt Gesellschaft mit beschränkter Haftung. AG heißt Aktiengesellschaft. KG heißt Kommanditgesellschaft. eG heißt eingetragene Genossenschaft. Auch ein eingetragener Verein (e. V.) und eine Stiftung sind juristische Personen. Sogar die Stadtverwaltung tritt als juristische Person auf, zum Beispiel wenn sie für einen Empfang ein Büfett bestellt.\n\nRechtsfähig heißt: Man kann Rechte und Pflichten haben. Eine natürliche Person ist ab der Geburt rechtsfähig. Eine private juristische Person wird rechtsfähig, wenn sie in ein Register eingetragen wird. Firmen kommen ins Handelsregister, Genossenschaften ins Genossenschaftsregister und Vereine ins Vereinsregister. Diese Register führt das Amtsgericht. Gemeinden und andere öffentliche Einrichtungen sind per Gesetz rechtsfähig.\n\nDie Rechtsfähigkeit endet beim Menschen mit dem Tod. Bei einer Firma endet sie mit der Liquidation. Das heißt: Die Firma wird aufgelöst und aus dem Register gelöscht.\n\nGeschäftsfähig heißt: Man kann selbst gültige Verträge abschließen. Eine juristische Person ist ab ihrer Gründung geschäftsfähig. Bei natürlichen Personen hat die Geschäftsfähigkeit drei Stufen. Die lernst du in der nächsten Lektion.\n\nMERKE: Natürliche Person = Mensch, rechtsfähig von der Geburt bis zum Tod. Juristische Person = Organisation wie GmbH, AG, eG, e. V. oder Stiftung, rechtsfähig vom Eintrag ins Register bis zur Löschung.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Was sichert der Käufer in einem Kaufvertrag zu?",
+        "options": [
+          { "text": "Dass er für die Ware bezahlt.", "correct": true },
+          { "text": "Dass er die Sache verkauft und übergibt." },
+          { "text": "Dass er die Ware nie zurückgibt." },
+          { "text": "Dass er die Ware selbst herstellt." }
+        ],
+        "explanation": "Im Kaufvertrag verpflichtet sich der Verkäufer, eine Sache oder Dienstleistung zu verkaufen. Der Käufer sichert die Bezahlung zu. Beide gehen also eine Pflicht ein."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👤🏢 Natürliche oder juristische Person? Sortiere.",
+        "buckets": [
+          { "id": "nat", "label": "Natürliche Person", "icon": "👤" },
+          { "id": "jur", "label": "Juristische Person", "icon": "🏢" }
+        ],
+        "items": [
+          { "text": "Sarah kauft Brot für ihren Haushalt", "bucket": "nat" },
+          { "text": "Eine Rentnerin kauft Blumen", "bucket": "nat" },
+          { "text": "Ein Schüler mit 16 Jahren", "bucket": "nat" },
+          { "text": "Die Bäckerei Müller GmbH", "bucket": "jur" },
+          { "text": "Der Sportverein TSV e. V.", "bucket": "jur" },
+          { "text": "Die Stadtverwaltung bestellt ein Büfett", "bucket": "jur" },
+          { "text": "Eine Stiftung für Kinder", "bucket": "jur" },
+          { "text": "Die Molkerei eG", "bucket": "jur" }
+        ],
+        "explanation": "Frag dich: Ist das ein einzelner Mensch? Dann ist es eine natürliche Person, egal wie alt. Ist es eine Firma, ein Verein, eine Stiftung oder eine Verwaltung? Dann ist es eine juristische Person. Der Namenszusatz wie GmbH, eG oder e. V. verrät sie oft."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Wofür stehen die Namenszusätze? Verbinde.",
+        "pairs": [
+          { "left": {"text": "GmbH"}, "right": {"text": "Gesellschaft mit beschränkter Haftung"} },
+          { "left": {"text": "AG"}, "right": {"text": "Aktiengesellschaft"} },
+          { "left": {"text": "KG"}, "right": {"text": "Kommanditgesellschaft"} },
+          { "left": {"text": "eG"}, "right": {"text": "eingetragene Genossenschaft"} },
+          { "left": {"text": "e. V."}, "right": {"text": "eingetragener Verein"} }
+        ],
+        "memory": false,
+        "explanation": "Die Buchstaben sind die Anfänge der Wörter: G-m-b-H steht für Gesellschaft mit beschränkter Haftung. Das kleine e steht für eingetragen: eingetragene Genossenschaft (eG) und eingetragener Verein (e. V.). A-G ist die Aktiengesellschaft, K-G die Kommanditgesellschaft."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Sarah kauft für das Seniorenheim ein, in dem sie arbeitet. Wie ist das rechtlich?",
+        "options": [
+          { "text": "Sie vertritt eine juristische Person, ihr Unternehmen.", "correct": true },
+          { "text": "Sie kauft als Verbraucherin, also privat." },
+          { "text": "Sie wird dabei selbst zu einer juristischen Person." },
+          { "text": "Sie ist in diesem Kaufvertrag die Verkäuferin." }
+        ],
+        "explanation": "Kauft Sarah für ihren Privathaushalt, ist sie Verbraucherin und eine natürliche Person. Kauft sie für ihr Unternehmen, ist sie Repräsentantin, also Vertreterin, einer juristischen Person. Sarah selbst bleibt dabei immer ein Mensch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👶 Ab wann ist ein Mensch rechtsfähig?",
+        "options": [
+          { "text": "Ab der Geburt.", "correct": true },
+          { "text": "Ab 7 Jahren." },
+          { "text": "Ab 18 Jahren." },
+          { "text": "Ab dem ersten Kaufvertrag." }
+        ],
+        "explanation": "Rechtsfähig heißt: Man kann Rechte und Pflichten haben. Ein Mensch ist ab der Geburt rechtsfähig. Die Altersgrenzen 7 und 18 Jahre gehören zur Geschäftsfähigkeit, nicht zur Rechtsfähigkeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏛️ Wer führt das Handelsregister, das Genossenschaftsregister und das Vereinsregister?",
+        "options": [
+          { "text": "Das Amtsgericht.", "correct": true },
+          { "text": "Das Finanzamt." },
+          { "text": "Die Industrie- und Handelskammer." },
+          { "text": "Die Verbraucherzentrale." }
+        ],
+        "explanation": "Die Register führt das Amtsgericht. Mit dem Eintrag in das passende Register wird eine private juristische Person rechtsfähig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📚 Wodurch wird diese juristische Person rechtsfähig? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Tennisclub e. V."}, "right": {"text": "Eintrag ins Vereinsregister"} },
+          { "left": {"text": "Molkerei eG"}, "right": {"text": "Eintrag ins Genossenschaftsregister"} },
+          { "left": {"text": "Möbelhaus AG"}, "right": {"text": "Eintrag ins Handelsregister"} },
+          { "left": {"text": "Die Stadt Köln"}, "right": {"text": "Per Gesetz, ohne Registereintrag"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Was für eine Organisation ist das? Vereine kommen ins Vereinsregister, Genossenschaften ins Genossenschaftsregister, Firmen wie AG oder GmbH ins Handelsregister. Gemeinden und andere öffentliche Einrichtungen sind per Gesetz rechtsfähig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚰️ Wann endet die Rechtsfähigkeit?",
+        "options": [
+          { "text": "Beim Menschen mit dem Tod, bei der Firma mit der Liquidation.", "correct": true },
+          { "text": "Beim Menschen mit 67 Jahren, bei der Firma nach 50 Jahren." },
+          { "text": "Bei beiden erst, wenn alle Rechnungen bezahlt sind." },
+          { "text": "Bei beiden nie, die Rechtsfähigkeit gilt für immer." }
+        ],
+        "explanation": "Die Rechtsfähigkeit eines Menschen endet mit seinem Tod. Bei einer Firma endet sie mit der Liquidation. Liquidation heißt: Die Firma wird aufgelöst und aus dem Register gelöscht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Ab wann ist eine juristische Person geschäftsfähig?",
+        "options": [
+          { "text": "Ab ihrer Gründung.", "correct": true },
+          { "text": "Erst 18 Jahre nach der Gründung." },
+          { "text": "Erst nach dem ersten Geschäftsjahr." },
+          { "text": "Nie, nur Menschen sind geschäftsfähig." }
+        ],
+        "explanation": "Geschäftsfähig heißt: selbst gültige Verträge abschließen können. Eine juristische Person ist ab ihrer Gründung geschäftsfähig. Bei natürlichen Personen ist die Geschäftsfähigkeit dagegen in drei Stufen nach dem Alter gestaffelt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du kaufst privat im Supermarkt ein. Welche Person bist du dabei?",
+        "options": [
+          { "text": "Eine natürliche Person.", "correct": true },
+          { "text": "Eine juristische Person." },
+          { "text": "Eine Aktiengesellschaft." }
+        ],
+        "explanation": "Jeder Mensch ist eine natürliche Person. Kaufst du privat ein, bist du Verbraucherin und damit eine natürliche Person."
+      }
+    }
+  ]
+}

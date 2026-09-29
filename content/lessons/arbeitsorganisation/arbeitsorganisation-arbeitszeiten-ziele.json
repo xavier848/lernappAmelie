@@ -1,0 +1,133 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-arbeitszeiten-ziele",
+  "title": "Arbeitszeiten und Ziele der Planung",
+  "sort": 583,
+  "intro": "⏳ Zur Arbeitsplanung gehören verschiedene Zeiten. Die Gesamtarbeitszeit ist die ganze Zeit für eine Arbeitsaufgabe. Sie entsteht aus der Tätigkeitszeit und der Wartezeit.\n\nDie Tätigkeitszeit ist die geplante Zeit, in der du direkt an der Aufgabe arbeitest. Das ist aktive Arbeit, zum Beispiel Teig ausrollen oder Füllung verrühren.\n\nDie Wartezeit ist eine Unterbrechung, die durch den Ablauf entsteht. Zum Beispiel backt der Kuchen im Backofen, oder der Blätterteig taut auf. In dieser Zeit kannst du abwaschen oder andere Aufgaben vorbereiten oder nachbereiten.\n\nDas Einrichten und das Aufräumen des Arbeitsplatzes heißen Rüstzeit.\n\nDie Arbeitsplanung hat Ziele: Du willst mit möglichst wenig Aufwand an Energie, Zeit und Kosten das bestmögliche Ergebnis erreichen. Du erfüllst die gestellte Arbeitsaufgabe. Du stimmst Inhalt und Zeitrahmen auf die Arbeit ab. Du füllst Wartezeiten aus. Und du entschärfst Arbeitsspitzen. Eine Arbeitsspitze ist eine Zeit mit sehr viel Arbeit auf einmal. Entschärfen heißt: Du verteilst die Arbeit so, dass nicht alles gleichzeitig kommt.\n\nMERKE: Tätigkeitszeit = aktive Arbeit. Wartezeit = Unterbrechung durch den Ablauf. Rüstzeit = Arbeitsplatz einrichten und aufräumen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⏳ Tätigkeitszeit oder Wartezeit? Sortiere.",
+        "explanation": "Frag dich: Arbeite ich gerade selbst mit den Händen an der Aufgabe? Dann ist es Tätigkeitszeit. Läuft etwas von allein ab, und ich muss darauf warten? Dann ist es Wartezeit.",
+        "buckets": [
+          { "id": "t", "label": "Tätigkeitszeit", "icon": "🏃" },
+          { "id": "w", "label": "Wartezeit", "icon": "⏳" }
+        ],
+        "items": [
+          { "text": "Teig ausrollen", "bucket": "t" },
+          { "text": "Kirschen und Quark verrühren", "bucket": "t" },
+          { "text": "Muffinteig herstellen", "bucket": "t" },
+          { "text": "Ränder mit Wasser bestreichen", "bucket": "t" },
+          { "text": "Der Kuchen backt im Ofen", "bucket": "w" },
+          { "text": "Der Blätterteig taut auf", "bucket": "w" },
+          { "text": "Die Muffins backen 20 Minuten", "bucket": "w" },
+          { "text": "Der Backofen heizt vor", "bucket": "w" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏸️ Was ist eine Wartezeit genau?",
+        "options": [
+          { "text": "Eine Unterbrechung, die durch den Ablauf entsteht.", "correct": true },
+          { "text": "Eine Pause, die du dir selbst nimmst, um dich zu erholen." },
+          { "text": "Die Zeit, bis die Gäste zum Essen in den Raum kommen." }
+        ],
+        "explanation": "Die Wartezeit ist ablaufbedingt: Der Ablauf selbst unterbricht deine Arbeit, zum Beispiel weil der Kuchen backt. Eine Erholungspause ist etwas anderes."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Der Kuchen ist 40 Minuten im Backofen. Was machst du in dieser Wartezeit?",
+        "options": [
+          { "text": "Abwaschen oder andere Aufgaben vor- und nachbereiten.", "correct": true },
+          { "text": "Vor dem Backofen stehen und durch die Scheibe schauen." },
+          { "text": "Den Backofen öffnen und immer wieder nachsehen." }
+        ],
+        "explanation": "Wartezeiten nutzt du sinnvoll. Du kannst abwaschen oder Aufgaben vor- oder nachbereiten. Wartezeiten ausfüllen ist ein Ziel der Arbeitsplanung."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "➕ Du arbeitest 35 Minuten aktiv. Dazu backt der Kuchen 25 Minuten, ohne dass du etwas tun musst. Wie lang ist die Gesamtarbeitszeit in Minuten?",
+        "answer": 60,
+        "hint": "Gesamtarbeitszeit = Tätigkeitszeit + Wartezeit.\n35 + 25 = ?",
+        "explanation": "35 Minuten Tätigkeitszeit + 25 Minuten Wartezeit = 60 Minuten Gesamtarbeitszeit. Nutzt du die Wartezeit für andere Aufgaben, schaffst du in der gleichen Zeit mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Du legst vorher Brett, Messer und Schüsseln bereit und räumst am Ende alles weg. Wie heißt diese Zeit?",
+        "options": [
+          { "text": "Rüstzeit", "correct": true },
+          { "text": "Wartezeit" },
+          { "text": "Tätigkeitszeit" },
+          { "text": "Leerlauf" }
+        ],
+        "explanation": "Das Einrichten und das Aufräumen des Arbeitsplatzes heißen Rüstzeit. Du rüstest deinen Arbeitsplatz aus und baust ihn am Ende wieder ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Welches Ziel hat die Arbeitsplanung?",
+        "options": [
+          { "text": "Mit wenig Energie, Zeit und Kosten das beste Ergebnis erreichen.", "correct": true },
+          { "text": "Möglichst viele Arbeiten gleichzeitig beginnen und schnell sein." },
+          { "text": "Möglichst teure Geräte einsetzen, damit alles gut gelingt." }
+        ],
+        "explanation": "Gute Planung spart dreifach: Energie, Zeit und Kosten. Trotzdem soll das Ergebnis so gut wie möglich sein."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Ziel der Arbeitsplanung oder nicht? Sortiere.",
+        "explanation": "Frag dich: Hilft das, die Arbeit gleichmäßig, sparsam und pünktlich zu schaffen? Dann ist es ein Ziel. Verschwendet es Zeit oder Energie oder staut sich die Arbeit? Dann ist es kein Ziel.",
+        "buckets": [
+          { "id": "ziel", "label": "Ziel der Arbeitsplanung", "icon": "🎯" },
+          { "id": "nein", "label": "Kein Ziel", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Wartezeiten ausfüllen", "bucket": "ziel" },
+          { "text": "Arbeitsspitzen entschärfen", "bucket": "ziel" },
+          { "text": "Die gestellte Arbeitsaufgabe erfüllen", "bucket": "ziel" },
+          { "text": "Inhalt und Zeitrahmen abstimmen", "bucket": "ziel" },
+          { "text": "Wartezeiten ungenutzt lassen", "bucket": "nein" },
+          { "text": "Alle Arbeiten auf einmal erledigen", "bucket": "nein" },
+          { "text": "Möglichst viel Energie verbrauchen", "bucket": "nein" },
+          { "text": "Den Zeitrahmen überschreiten", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Um 15:40 Uhr musst du backen, Gemüse dünsten und eine Form vorbereiten, alles auf einmal. Was ist das?",
+        "options": [
+          { "text": "Eine Arbeitsspitze, die du entschärfen solltest.", "correct": true },
+          { "text": "Ein Leerlauf, in dem du einfach abwartest." },
+          { "text": "Eine Rüstzeit, in der du erst aufräumst." }
+        ],
+        "explanation": "Viel Arbeit auf einmal ist eine Arbeitsspitze. Eine gute Planung entschärft sie. Du verteilst Aufgaben zum Beispiel in Wartezeiten davor oder danach."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was ist die Gesamtarbeitszeit?",
+        "options": [
+          { "text": "Die ganze Zeit für eine Arbeitsaufgabe.", "correct": true },
+          { "text": "Nur die Zeit, in der der Backofen läuft." },
+          { "text": "Nur die Zeit zum Aufräumen am Ende." }
+        ],
+        "explanation": "Die Gesamtarbeitszeit ist die ganze Zeit, die eine Arbeitsaufgabe dauert. Sie entsteht aus der Tätigkeitszeit und der Wartezeit."
+      }
+    }
+  ]
+}

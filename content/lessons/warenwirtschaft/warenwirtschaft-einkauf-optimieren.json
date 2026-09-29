@@ -1,0 +1,158 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-einkauf-optimieren",
+  "title": "Einkauf optimieren: Sarahs 4 Eckpunkte",
+  "sort": 704,
+  "intro": "Sarah soll den Einkauf im Seniorenheim verbessern. Sie schreibt vier Eckpunkte auf.\n\nEckpunkt 1: Einkauf nur noch bei Großhändlern. Der Großhändler liefert die Ware. Das spart Zeit. Er lädt schon beim nächsten Kunden ab, während Sarah sonst noch vom Großmarkt zurückfahren würde. Außerdem kann sie auch außerhalb der Arbeitszeit bestellen, zum Beispiel am Sonntag.\n\nEckpunkt 2: Nur 2 bis 3 Lieferanten. Dann gibt es keine zeitraubenden Telefonate mit vielen Lieferanten mehr. Trotzdem belebt die Konkurrenz weiter das Geschäft. Weil das Heim im ganzen Jahr viel bestellt, gibt es am Jahresende einen Sonderrabatt. Und wird ein Lieferant insolvent, stehen kurzfristig andere bereit. Insolvent heißt: Die Firma ist pleite.\n\nEckpunkt 3: Lieferung möglichst montags, mittwochs und freitags. So braucht das Heim nur wenig Lagerhaltung. Nur die Sicherheits- und Notreserve bleibt immer im Lager. Die Ware wird schnell umgeschlagen, also schnell verbraucht und neu geliefert. So verdirbt weniger.\n\nEckpunkt 4: Lebensmittel als vorbereitete Ware, auch als Tiefkühlware. Zum Beispiel geschälte Kartoffeln. Dann fällt die Arbeitszeit an der Kartoffelschälmaschine weg. Die alte Maschine muss nicht durch eine neue ersetzt werden. Man sagt: Es ist keine Ersatzinvestition nötig. Eingeschweißte Ware und Tiefkühlware sind für Schadinsekten und Schadnager wenig anfällig.\n\nTiefkühlgemüse hat heute nur geringe Qualitätseinbußen. Tiefkühlfisch ist frischem Fisch oft sogar überlegen. Standardisierte Ware braucht bei der Anlieferung weniger Kontrolle als Frischware. Standardisiert heißt: immer gleich. Deshalb können auch Hilfskräfte sie in Vertretung annehmen. Tiefkühlerbsen kauft das Heim immer als Bioware. Der Preisunterschied zur konventionellen, also normalen Ware ist gering. Und Bio liegt im Trend.\n\nEine Ausnahme gibt es: Obst kauft das Heim nur frisch. Obstkonserven gibt es nicht mehr.\n\nMERKE: 1. Nur Großhändler. 2. Nur 2 bis 3 Lieferanten. 3. Lieferung montags, mittwochs und freitags. 4. Vorbereitete Ware und Tiefkühlware, aber Obst nur frisch.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 An welchen Tagen soll die Ware nach Sarahs Plan möglichst kommen?",
+        "options": [
+          { "text": "Montags, mittwochs und freitags.", "correct": true },
+          { "text": "Nur einmal pro Woche, am Montag." },
+          { "text": "Jeden Tag von Montag bis Samstag." },
+          { "text": "Dienstags und donnerstags." }
+        ],
+        "explanation": "Sarah plant drei feste Liefertage, gut verteilt über die Woche: Montag, Mittwoch und Freitag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Mit wie vielen Lieferanten will Sarah in Zukunft arbeiten?",
+        "options": [
+          { "text": "Mit 2 bis 3 Lieferanten.", "correct": true },
+          { "text": "Mit einem einzigen Lieferanten." },
+          { "text": "Mit 5 bis 6 Lieferanten." },
+          { "text": "Mit so vielen wie möglich." }
+        ],
+        "explanation": "Sarah will nur 2 bis 3 Lieferanten. Das ist ein Mittelweg: nicht nur ein einziger Lieferant, aber auch nicht sehr viele."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📋 Zu welchem Eckpunkt passt der Vorteil? Sortiere.",
+        "buckets": [
+          { "id": "gross", "label": "Nur Großhändler", "icon": "🚚" },
+          { "id": "wenige", "label": "Wenige Lieferanten", "icon": "🤝" },
+          { "id": "tage", "label": "Feste Liefertage", "icon": "📅" }
+        ],
+        "items": [
+          { "text": "Bestellen geht auch am Sonntag", "bucket": "gross" },
+          { "text": "Die Ware kommt, keine Fahrt zum Großmarkt", "bucket": "gross" },
+          { "text": "Keine langen Telefonate mit vielen Lieferanten", "bucket": "wenige" },
+          { "text": "Sonderrabatt am Jahresende wegen hohem Jahresumsatz", "bucket": "wenige" },
+          { "text": "Bei Insolvenz eines Lieferanten gibt es Alternativen", "bucket": "wenige" },
+          { "text": "Die Konkurrenz belebt weiter das Geschäft", "bucket": "wenige" },
+          { "text": "Wenig Lagerhaltung, nur die Notreserve bleibt", "bucket": "tage" },
+          { "text": "Schneller Umschlag, weniger Verderb", "bucket": "tage" }
+        ],
+        "explanation": "Frag dich bei jedem Vorteil: Geht es um das Bestellen und Liefern? Dann gehört er zum Großhändler. Geht es um die Zahl der Lieferanten, um Konkurrenz oder Rabatt? Dann gehört er zu den wenigen Lieferanten. Geht es um das Lager und den Verderb? Dann gehört er zu den festen Liefertagen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Sarah bestellt geschälte Kartoffeln statt ganzer Kartoffeln. Welcher Vorteil gehört dazu?",
+        "options": [
+          { "text": "Die alte Schälmaschine braucht keinen teuren Ersatz.", "correct": true },
+          { "text": "Geschälte Kartoffeln sind automatisch Bioware." },
+          { "text": "Für geschälte Kartoffeln gibt es beim Großhändler immer Skonto." },
+          { "text": "Geschälte Kartoffeln kann man ungekühlt lagern." }
+        ],
+        "explanation": "Mit vorbereiteter Ware fällt die Arbeitszeit an der Kartoffelschälmaschine weg. Die alte Maschine muss nicht ersetzt werden. Man sagt: Es ist keine Ersatzinvestition nötig. Eine Investition ist eine größere Anschaffung für den Betrieb."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Was stimmt über Tiefkühlware heute?",
+        "options": [
+          { "text": "Tiefkühlfisch ist frischem Fisch oft sogar überlegen.", "correct": true },
+          { "text": "Tiefkühlgemüse verliert beim Einfrieren fast alle Qualität." },
+          { "text": "Tiefkühlobst ersetzt im Heim künftig das frische Obst." },
+          { "text": "Tiefkühlware darf man höchstens eine Woche lagern." }
+        ],
+        "explanation": "Tiefkühlgemüse hat heute nur geringe Qualitätseinbußen. Tiefkühlfisch ist der Frischware oft sogar überlegen. Deshalb setzt Sarah auf Tiefkühlware."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👩‍🍳 Heute nimmt eine Hilfskraft die Lieferung an. Warum geht das bei standardisierter Ware?",
+        "options": [
+          { "text": "Sie braucht weniger Kontrolle als Frischware.", "correct": true },
+          { "text": "Sie muss bei der Anlieferung gar nicht mehr geprüft werden." },
+          { "text": "Hilfskräfte dürfen nur Tiefkühlware annehmen, sonst nichts." },
+          { "text": "Der Fahrer kontrolliert die Ware beim Abladen selbst." }
+        ],
+        "explanation": "Standardisierte Ware ist immer gleich. Bei der Anlieferung braucht sie weniger Kontrolle als Frischware. Deshalb können auch Hilfskräfte sie in Vertretung annehmen. Ganz ohne Kontrolle geht es aber nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫛 Tiefkühlerbsen kauft das Heim nur noch als Bioware. Warum?",
+        "options": [
+          { "text": "Der Preisunterschied ist gering, und Bio liegt im Trend.", "correct": true },
+          { "text": "Normale Tiefkühlerbsen sind in Seniorenheimen gesetzlich verboten." },
+          { "text": "Bio-Erbsen sind deutlich billiger als normale Erbsen." },
+          { "text": "Es gibt Tiefkühlerbsen nur noch in Bio-Qualität." }
+        ],
+        "explanation": "Bei Tiefkühlerbsen ist der Preisunterschied zwischen Bioware und konventioneller Ware gering. Konventionell heißt: normal angebaut, nicht bio. Außerdem geht der Trend zur Bioware. Deshalb sind Tiefkühlerbsen im Heim immer Bioware."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍎 Wie kauft das Heim diese Lebensmittel künftig ein? Sortiere.",
+        "buckets": [
+          { "id": "frisch", "label": "Nur frisch", "icon": "🧺" },
+          { "id": "vorb", "label": "Vorbereitet oder tiefgekühlt", "icon": "🧊" }
+        ],
+        "items": [
+          { "text": "Äpfel", "bucket": "frisch" },
+          { "text": "Erdbeeren", "bucket": "frisch" },
+          { "text": "Pfirsiche (keine aus der Dose)", "bucket": "frisch" },
+          { "text": "Birnen", "bucket": "frisch" },
+          { "text": "Geschälte Kartoffeln", "bucket": "vorb" },
+          { "text": "Tiefkühlfisch", "bucket": "vorb" },
+          { "text": "Tiefkühlerbsen in Bio-Qualität", "bucket": "vorb" },
+          { "text": "Tiefkühlgemüse", "bucket": "vorb" }
+        ],
+        "explanation": "Frag dich: Ist es Obst? Obst kauft das Heim nur frisch. Obstkonserven gibt es nicht mehr. Bei den anderen Lebensmitteln nutzt Sarah vorbereitete Ware und Tiefkühlware."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Fachwörter aus Sarahs Plan. Was bedeutet was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Insolvenz"}, "right": {"text": "Die Firma ist pleite"} },
+          { "left": {"text": "Ersatzinvestition"}, "right": {"text": "Neue Maschine für eine alte"} },
+          { "left": {"text": "Schneller Umschlag"}, "right": {"text": "Ware wird bald verbraucht und neu geliefert"} },
+          { "left": {"text": "Standardisierte Ware"}, "right": {"text": "Ware, die immer gleich ist"} },
+          { "left": {"text": "Konventionelle Ware"}, "right": {"text": "Normal angebaut, nicht bio"} },
+          { "left": {"text": "Eingeschweißte Ware"}, "right": {"text": "Für Schädlinge wenig anfällig"} }
+        ],
+        "memory": false,
+        "explanation": "Schau auf die Wortteile: Eine Ersatz-Investition ist eine Anschaffung als Ersatz für etwas Altes. Beim Umschlag wird Ware schnell umgesetzt. Standard heißt Norm, also immer gleich. Konventionell heißt herkömmlich, also nicht bio. Eingeschweißt heißt: dicht in Folie verpackt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Bei wem kauft Sarah in Zukunft ein?",
+        "options": [
+          { "text": "Bei Großhändlern, die liefern.", "correct": true },
+          { "text": "Am Großmarkt, mit dem eigenen Auto." },
+          { "text": "Im Discounter um die Ecke." }
+        ],
+        "explanation": "Sarah kauft nur noch bei Großhändlern. Die Ware wird geliefert, das spart Zeit. Bestellen kann sie auch außerhalb der Arbeitszeit."
+      }
+    }
+  ]
+}

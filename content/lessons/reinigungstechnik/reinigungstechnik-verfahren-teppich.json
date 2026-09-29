@@ -1,0 +1,120 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-verfahren-teppich",
+  "title": "Teppichboden: Shampoo und Sprühextraktion",
+  "sort": 666,
+  "intro": "Nassshampoonieren ist die Grundreinigung für textile Bodenbeläge, also für Teppichböden. Es passt für Böden, die stärker verschmutzt sind und nicht gleich wieder betreten werden müssen.\n\nDu trägst flüssiges Shampoo mit einem Shampooniergerät auf, zum Beispiel mit einer Bürstenmaschine. Nach der Trocknungszeit saugst du ab. Das ist sehr zeit- und arbeitsaufwendig.\n\nTrockenshampoonieren ist eine Zwischenreinigung. Es passt für Böden, die gleich wieder betreten werden, nicht so stark verschmutzt sind oder wasserempfindlich sind.\n\nDu massierst Trockenshampoopulver mit einer Einscheibenmaschine ein. Sie hat einen Schaumerzeuger und eine Shampoonierbürste. Nach der Einwirkzeit saugst du ab. Der Reinigungserfolg ist nicht so hoch wie beim Nassshampoonieren.\n\nSprühextraktion ist eine Grundreinigung für Teppichböden. Das Sprühextraktionsgerät sprüht die Reinigungslösung unter Druck in den Teppich. Im gleichen Arbeitsgang saugt eine Saugdüse sie wieder ab.\n\nMERKE: Nassshampoonieren und Sprühextraktion sind Grundreinigungen. Trockenshampoonieren ist eine Zwischenreinigung.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Welche Verfahren sind Grundreinigungen für Teppichböden?",
+        "options": [
+          { "text": "Nassshampoonieren und Sprühextraktion.", "correct": true },
+          { "text": "Trockenshampoonieren und danach Staubsaugen." },
+          { "text": "Kehren und Entstauben." },
+          { "text": "Feuchtwischen und Polieren." }
+        ],
+        "explanation": "Nassshampoonieren und Sprühextraktion sind Grundreinigungen für textile Bodenbeläge. Trockenshampoonieren ist nur eine Zwischenreinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏨 Der Teppichboden im Hotelflur muss gleich wieder begangen werden. Er ist nicht stark verschmutzt. Welches Verfahren passt?",
+        "options": [
+          { "text": "Trockenshampoonieren.", "correct": true },
+          { "text": "Nassshampoonieren." },
+          { "text": "Nassscheuern." },
+          { "text": "Sprühreinigung mit viel Wasser." }
+        ],
+        "explanation": "Trockenshampoonieren passt für Böden, die gleich wieder begangen werden, nicht so stark verschmutzt oder wasserempfindlich sind. Beim Nassshampoonieren muss der Boden erst trocknen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Warum passt Nassshampoonieren nicht für einen Flur, der gleich wieder benutzt wird?",
+        "options": [
+          { "text": "Erst nach der Trocknungszeit wird abgesaugt.", "correct": true },
+          { "text": "Das nasse Shampoo färbt jede Schuhsohle." },
+          { "text": "Die Bürstenmaschine ist für Flure zu breit." },
+          { "text": "Nassshampoonieren ist nur für Möbel gedacht." }
+        ],
+        "explanation": "Beim Nassshampoonieren trägst du flüssiges Shampoo auf. Erst nach der Trocknungszeit saugst du ab. So lange darf niemand über den Boden gehen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧴 Nass- oder Trockenshampoonieren? Sortiere.",
+        "buckets": [
+          { "id": "nass", "label": "Nassshampoonieren", "icon": "💧" },
+          { "id": "trocken", "label": "Trockenshampoonieren", "icon": "🌬️" }
+        ],
+        "items": [
+          { "text": "Grundreinigung", "bucket": "nass" },
+          { "text": "Flüssiges Shampoo auftragen", "bucket": "nass" },
+          { "text": "Nach der Trocknungszeit absaugen", "bucket": "nass" },
+          { "text": "Sehr zeit- und arbeitsaufwendig", "bucket": "nass" },
+          { "text": "Zwischenreinigung", "bucket": "trocken" },
+          { "text": "Pulver einmassieren", "bucket": "trocken" },
+          { "text": "Nach der Einwirkzeit absaugen", "bucket": "trocken" },
+          { "text": "Für wasserempfindliche Böden", "bucket": "trocken" }
+        ],
+        "explanation": "Frag dich: Wird der Teppich richtig nass? Dann ist es Nassshampoonieren, die gründliche Grundreinigung. Wird nur Pulver eingearbeitet? Dann ist es Trockenshampoonieren, die schnelle Zwischenreinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚙️ Womit massierst du Trockenshampoopulver ein?",
+        "options": [
+          { "text": "Mit einer Einscheibenmaschine mit Schaumerzeuger und Shampoonierbürste.", "correct": true },
+          { "text": "Mit einem Sprühextraktionsgerät mit Saugdüse und Wassertank." },
+          { "text": "Mit einem Breitwischgerät und Einwegtüchern mit Staubbindemittel." },
+          { "text": "Mit einem Staubsauger, an dem eine Polsterdüse und eine Fugendüse stecken." }
+        ],
+        "explanation": "Trockenshampoopulver massierst du mit einer Einscheibenmaschine ein. Sie hat einen Schaumerzeuger und eine Shampoonierbürste. Nach der Einwirkzeit saugst du ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Wie ist der Reinigungserfolg beim Trockenshampoonieren?",
+        "options": [
+          { "text": "Nicht so hoch wie beim Nassshampoonieren.", "correct": true },
+          { "text": "Höher als bei jeder anderen Methode." },
+          { "text": "Ganz genauso hoch wie beim Nassshampoonieren." },
+          { "text": "So hoch wie bei der Sprühextraktion." }
+        ],
+        "explanation": "Trockenshampoonieren ist eine Zwischenreinigung. Der Reinigungserfolg ist nicht so hoch wie bei der Nassshampoonierung. Dafür kann man den Boden gleich wieder betreten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💦 Wie arbeitet ein Sprühextraktionsgerät?",
+        "options": [
+          { "text": "Es sprüht Lösung unter Druck in den Teppich und saugt sie gleich wieder ab.", "correct": true },
+          { "text": "Es sprüht Shampoo auf, das über Nacht trocknet und erst dann abgesaugt wird." },
+          { "text": "Es bürstet trockenes Pulver ein und saugt es nach der Einwirkzeit ab." },
+          { "text": "Es poliert den Teppich mit einem Pad, bis die Fasern warm werden." }
+        ],
+        "explanation": "Das Sprühextraktionsgerät sprüht die Reinigungslösung unter Druck in den textilen Belag. Im gleichen Arbeitsgang saugt es sie mit einer Saugdüse wieder ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Was machst du vor dem Shampoonieren mit dem losen Schmutz im Teppich?",
+        "options": [
+          { "text": "Ich sauge ihn mit dem Staubsauger ab.", "correct": true },
+          { "text": "Ich kehre ihn mit dem Besen zusammen." },
+          { "text": "Ich wische ihn nass auf." }
+        ],
+        "explanation": "Erst saugst du den losen Schmutz ab, dann shampoonierst du. Nass würde der lose Schmutz zu Matsch und sich im Teppich verteilen."
+      }
+    }
+  ]
+}

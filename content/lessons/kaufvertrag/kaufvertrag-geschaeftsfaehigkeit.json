@@ -1,0 +1,139 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-geschaeftsfaehigkeit",
+  "title": "Geschäftsfähigkeit und Taschengeld",
+  "sort": 701,
+  "intro": "Geschäftsfähig heißt: Man kann selbst gültige Verträge abschließen, zum Beispiel einen Kaufvertrag. Bei Menschen gibt es drei Stufen der Geschäftsfähigkeit. Sie stehen im BGB. BGB heißt Bürgerliches Gesetzbuch.\n\nStufe 1: geschäftsunfähig (§ 104 BGB). Das sind Kinder von der Geburt bis zum 7. Geburtstag. Geschäftsunfähig sind auch Menschen, die dauerhaft geistig krank sind. Für sie handeln die Erziehungsberechtigten oder ein rechtlich bestimmter Betreuer.\n\nStufe 2: beschränkt geschäftsfähig (§ 106 BGB). Das sind Menschen ab dem 7. Geburtstag, die noch nicht volljährig sind. Also Kinder und Jugendliche von 7 bis 17 Jahren. Über kleinere Geldbeträge wie ihr Taschengeld dürfen sie frei bestimmen. Diese Regel nennt man auch Taschengeldparagraf. Für größere Geschäfte brauchen sie die Zustimmung der Erziehungsberechtigten.\n\nBeschränkt geschäftsfähig sind auch Menschen, für die ein Gericht wegen einer Rauschgiftsucht oder Alkoholsucht einen Betreuer bestellt hat.\n\nStufe 3: unbeschränkt geschäftsfähig (§ 2 BGB). Ab 18 Jahren ist man volljährig. Dann kann man alle Entscheidungen über Rechtsgeschäfte selbst treffen. Ein Rechtsgeschäft ist zum Beispiel ein Kauf.\n\nMERKE: Unter 7 Jahren: geschäftsunfähig. 7 bis 17 Jahre: beschränkt geschäftsfähig, Taschengeld frei, sonst mit Zustimmung der Eltern. Ab 18 Jahren: unbeschränkt geschäftsfähig.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Was heißt „geschäftsfähig“?",
+        "options": [
+          { "text": "Man kann selbst gültige Verträge abschließen.", "correct": true },
+          { "text": "Man hat ein eigenes Geschäft oder eine eigene Firma." },
+          { "text": "Man darf in einem Geschäft als Verkäuferin arbeiten." },
+          { "text": "Man hat von Geburt an Rechte und Pflichten." }
+        ],
+        "explanation": "Geschäftsfähig heißt: Man kann selbst gültige Rechtsgeschäfte abschließen, zum Beispiel einen Kaufvertrag. Rechte und Pflichten von Geburt an hat man dagegen durch die Rechtsfähigkeit. Das sind zwei verschiedene Begriffe."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🎂 Mit wie vielen Jahren ist man volljährig und damit unbeschränkt geschäftsfähig?",
+        "answer": 18,
+        "hint": "Es ist das Alter der Volljährigkeit.\nDann bist du erwachsen.",
+        "explanation": "Mit 18 Jahren ist man volljährig (§ 2 BGB). Dann ist man unbeschränkt geschäftsfähig und kann alle Entscheidungen über Rechtsgeschäfte selbst treffen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧒 Ab welchem Geburtstag ist ein Kind beschränkt geschäftsfähig? Gib das Alter in Jahren ein.",
+        "answer": 7,
+        "hint": "Vorher ist das Kind geschäftsunfähig.\nDie erste Altersgrenze ist eine einstellige Zahl.",
+        "explanation": "Bis zum 7. Geburtstag ist ein Kind geschäftsunfähig. Ab dem 7. Geburtstag ist es beschränkt geschäftsfähig, bis es mit 18 Jahren volljährig wird."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📕 Welcher Paragraf gehört zu welcher Stufe? Verbinde.",
+        "pairs": [
+          { "left": {"text": "§ 104 BGB"}, "right": {"text": "Geschäftsunfähig"} },
+          { "left": {"text": "§ 106 BGB"}, "right": {"text": "Beschränkt geschäftsfähig"} },
+          { "left": {"text": "§ 2 BGB"}, "right": {"text": "Volljährig, unbeschränkt geschäftsfähig"} },
+          { "left": {"text": "BGB"}, "right": {"text": "Bürgerliches Gesetzbuch"} }
+        ],
+        "memory": false,
+        "explanation": "Die drei Stufen stehen im Bürgerlichen Gesetzbuch, kurz BGB. Die beiden Paragrafen mit 1 vorne gehören zu den Kindern und Jugendlichen: § 104 zur ersten Stufe, § 106 zur zweiten. Die Volljährigkeit steht ganz vorne im BGB, in § 2."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Lena ist 12 Jahre alt. Sie kauft von ihrem Taschengeld ein Buch für 8 €. Ist der Kauf gültig?",
+        "options": [
+          { "text": "Ja, über ihr Taschengeld darf sie frei bestimmen.", "correct": true },
+          { "text": "Nein, mit 12 Jahren ist sie noch geschäftsunfähig." },
+          { "text": "Nein, sie braucht für jeden Kauf eine Unterschrift der Eltern." },
+          { "text": "Ja, aber nur, wenn ein Erwachsener dabei ist." }
+        ],
+        "explanation": "Lena ist beschränkt geschäftsfähig. Über kleinere Geldbeträge wie ihr Taschengeld darf sie frei bestimmen. Diese Regel heißt auch Taschengeldparagraf. Für größere Käufe bräuchte sie die Zustimmung ihrer Erziehungsberechtigten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📱 Tim ist 15. Er will ohne Wissen seiner Eltern ein Handy für 600 € kaufen. Was gilt?",
+        "options": [
+          { "text": "Er braucht die Zustimmung seiner Erziehungsberechtigten.", "correct": true },
+          { "text": "Das darf er, denn ab 14 Jahren ist man voll geschäftsfähig." },
+          { "text": "Das darf er, wenn der Verkäufer einverstanden ist." },
+          { "text": "Das darf er erst, wenn er 21 Jahre alt ist." }
+        ],
+        "explanation": "Tim ist beschränkt geschäftsfähig. 600 € sind kein kleiner Betrag wie Taschengeld. Für so einen Kauf braucht er die Zustimmung seiner Erziehungsberechtigten. Ab 18 Jahren dürfte er allein entscheiden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚲 Max ist 6 Jahre alt. Wer kann für ihn rechtlich gültig ein Fahrrad kaufen?",
+        "options": [
+          { "text": "Seine Erziehungsberechtigten.", "correct": true },
+          { "text": "Er selbst, mit seinem Sparschwein." },
+          { "text": "Seine große Schwester mit 12 Jahren." },
+          { "text": "Der Verkäufer im Fahrradladen." }
+        ],
+        "explanation": "Max ist unter 7 Jahre alt. Er ist geschäftsunfähig. Für ihn handeln die Erziehungsberechtigten. Seine Schwester mit 12 ist selbst nur beschränkt geschäftsfähig und kann nicht für ihn entscheiden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍺 Für Herrn K. hat ein Gericht wegen seiner Alkoholsucht einen Betreuer bestellt. Wie ist Herr K. geschäftsfähig?",
+        "options": [
+          { "text": "Beschränkt geschäftsfähig.", "correct": true },
+          { "text": "Geschäftsunfähig." },
+          { "text": "Unbeschränkt geschäftsfähig." }
+        ],
+        "explanation": "Die Stufe beschränkt geschäftsfähig gilt nicht nur für Kinder und Jugendliche von 7 bis 17. Sie gilt auch für Menschen, für die ein Gericht wegen Rauschgift- oder Alkoholsucht einen Betreuer bestellt hat. Geschäftsunfähig sind dagegen Menschen, die dauerhaft geistig krank sind."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Wie geschäftsfähig ist die Person? Sortiere.",
+        "buckets": [
+          { "id": "unf", "label": "Geschäftsunfähig", "icon": "🚫" },
+          { "id": "beschr", "label": "Beschränkt geschäftsfähig", "icon": "⚠️" },
+          { "id": "voll", "label": "Unbeschränkt geschäftsfähig", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "Ein Kind mit 5 Jahren", "bucket": "unf" },
+          { "text": "Ein Kind kurz vor dem 7. Geburtstag", "bucket": "unf" },
+          { "text": "Ein Mensch, der dauerhaft geistig krank ist", "bucket": "unf" },
+          { "text": "Eine Schülerin mit 7 Jahren", "bucket": "beschr" },
+          { "text": "Ein Mädchen mit 10 Jahren", "bucket": "beschr" },
+          { "text": "Ein Jugendlicher mit 17 Jahren", "bucket": "beschr" },
+          { "text": "Eine Frau an ihrem 18. Geburtstag", "bucket": "voll" },
+          { "text": "Ein Rentner mit 70 Jahren", "bucket": "voll" }
+        ],
+        "explanation": "Frag dich zuerst: Wie alt ist die Person? Unter 7 Jahren: geschäftsunfähig. Von 7 bis 17 Jahren: beschränkt geschäftsfähig. Ab dem 18. Geburtstag: unbeschränkt geschäftsfähig. Dann frag dich: Ist die Person dauerhaft geistig krank? Dann ist sie geschäftsunfähig, egal wie alt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Mit 18 Jahren bist du volljährig. Was bedeutet das für Kaufverträge?",
+        "options": [
+          { "text": "Ich kann sie ganz allein abschließen.", "correct": true },
+          { "text": "Ich brauche noch die Zustimmung meiner Eltern." },
+          { "text": "Ich darf nur mit Taschengeld bezahlen." }
+        ],
+        "explanation": "Ab 18 Jahren bist du unbeschränkt geschäftsfähig. Du kannst alle Kaufverträge selbst abschließen. Die Zustimmung der Eltern brauchst du nicht mehr."
+      }
+    }
+  ]
+}

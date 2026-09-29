@@ -1,0 +1,138 @@
+{
+  "topic_slug": "betreuung",
+  "slug": "betreuung-gefluechtete-ursachen-wege",
+  "title": "Geflüchtete: Zahlen, Ursachen, Fluchtwege",
+  "sort": 523,
+  "intro": "🌍 Nach Schätzungen der Vereinten Nationen sind weltweit rund 68,5 Millionen Menschen auf der Flucht. Nur ein geringer Teil von ihnen kommt nach Deutschland.\n\nMenschen jeden Alters kommen aus verschiedenen Ländern und beantragen Asyl. Sie haben unterschiedliche Fluchtmotive. Der größte Teil ist männlich, etwa 67 Prozent. Und der größte Teil ist zwischen 0 und 24 Jahre alt.\n\nMERKE: Alle Geflüchteten sollten möglichst schnell Deutsch lernen. So können sie sich verständigen und sich in der fremden Kultur zurechtfinden.\n\nDas Aufgabenfeld der Hauswirtschafterin ist groß und abwechslungsreich. Sie arbeitet in den Einrichtungen und kümmert sich um hauswirtschaftliche Aufgaben. Sie hilft bei Behördengängen, bei der Lebensplanung und bei der Freizeitgestaltung. Sie arbeitet mit Erwachsenen oder mit unbegleiteten Jugendlichen. Als Schnittstelle stellt sie Kontakte zu anderen Einrichtungen und Initiativen her.\n\nNicht zu ihren Aufgaben gehört: über Asyl entscheiden, einen Vormund bestellen oder ein Trauma behandeln. Das machen Behörden, das Jugendamt und Fachleute.\n\nDamit sie diese Aufgaben gut erfüllen kann, muss sie die Fluchtursachen und die Erlebnisse auf der Flucht kennen.\n\nFluchtursachen sind zum Beispiel Kriege, Verfolgung, Folter oder Diskriminierung. Oft fehlen sauberes Wasser, Nahrung oder Schulbildung. In einigen Ländern werden junge Frauen aus religiösen Gründen im Genitalbereich beschnitten. Das kann eine lebenslange Verstümmelung und Schmerzen zur Folge haben. In einigen Ländern dürfen junge Frauen mit 13 oder 14 Jahren verheiratet werden, „damit sie versorgt sind“.\n\nGeflüchtete fliehen in eine ungewisse Zukunft und Kultur. Manche wissen während der Flucht nicht, in welchem Land sie ankommen und ob sie dort aufgenommen werden. Die meisten wünschen sich nichts sehnlicher, als in ihre Heimat zurückzukehren. Das gelingt nur selten, weil viele Kriege und Konflikte lange dauern.\n\nViele wählen den gefährlichen Wasserweg. Er gilt als schnellster Weg nach Europa. Schleuser bringen die Menschen oft in seeuntauglichen oder überladenen Schiffen. Die Versorgung mit Essen und Trinken ist schlecht. Immer wieder kentern Schiffe vor den Küsten. Kentern heißt: Das Schiff kippt um.\n\nMERKE: Es gibt im Wesentlichen vier Hauptrouten übers Wasser nach Europa. Die meisten nutzen die zentrale Mittelmeerroute: von Libyen oder Tunesien nach Italien. Angst, Hunger und Ungewissheit sind ständige Begleiter.\n\nAndere Fluchtwege führen über Land nach Europa. Einige Geflüchtete reisen mit dem Flugzeug in ein europäisches Land ein.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Schätzung der Vereinten Nationen: Wie viele Menschen sind weltweit auf der Flucht? Und wie viele davon kommen nach Deutschland?",
+        "options": [
+          { "text": "Rund 68,5 Millionen. Nur ein geringer Teil kommt nach Deutschland.", "correct": true },
+          { "text": "Rund 68,5 Millionen. Etwa die Hälfte davon kommt nach Deutschland." },
+          { "text": "Rund 6,85 Millionen. Nur ein geringer Teil kommt nach Deutschland." }
+        ],
+        "explanation": "Die Vereinten Nationen schätzen: Rund 68,5 Millionen Menschen sind weltweit auf der Flucht. Nur ein geringer Teil von ihnen kommt nach Deutschland."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "👨 Wie viel Prozent der Geflüchteten, die nach Deutschland kommen, sind laut Buch ungefähr männlich? Tippe die Zahl.",
+        "answer": 67,
+        "hint": "Es sind ungefähr zwei Drittel, also etwas mehr als die Hälfte.",
+        "explanation": "Etwa 67 Prozent der Geflüchteten, die nach Deutschland kommen, sind männlich. Die meisten sind zwischen 0 und 24 Jahre alt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Wie alt ist laut Buch der größte Teil der Geflüchteten, die nach Deutschland kommen?",
+        "options": [
+          { "text": "Zwischen 0 und 24 Jahre.", "correct": true },
+          { "text": "Zwischen 25 und 45 Jahre." },
+          { "text": "Älter als 60 Jahre." }
+        ],
+        "explanation": "Der überwiegende Anteil ist zwischen 0 und 24 Jahre alt. Darum spricht das Buch von der Betreuung junger Geflüchteter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Warum sollten alle Geflüchteten laut Buch möglichst schnell Deutsch lernen?",
+        "options": [
+          { "text": "Um sich zu verständigen und sich in der fremden Kultur zurechtzufinden.", "correct": true },
+          { "text": "Damit sie ihre eigene Muttersprache möglichst schnell vergessen können." },
+          { "text": "Weil sie sonst nach einer Woche wieder in ihre Heimat zurückmüssen." }
+        ],
+        "explanation": "Mit der Sprache können sich Geflüchtete verständigen. Und sie finden sich in der fremden Kultur besser zurecht. Die eigene Sprache sollen sie dabei nicht vergessen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Gehört das laut Buch zum Aufgabenfeld der Hauswirtschafterin bei Geflüchteten? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Ihr Aufgabenfeld", "icon": "✅" },
+          { "id": "nein", "label": "Nicht ihre Aufgabe", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Hauswirtschaftliche Aufgaben in der Einrichtung", "bucket": "ja" },
+          { "text": "Hilfe bei Behördengängen", "bucket": "ja" },
+          { "text": "Hilfe bei der Lebensplanung", "bucket": "ja" },
+          { "text": "Hilfe bei der Freizeitgestaltung", "bucket": "ja" },
+          { "text": "Kontakte zu Initiativen herstellen", "bucket": "ja" },
+          { "text": "Über den Asylantrag entscheiden", "bucket": "nein" },
+          { "text": "Ein Trauma selbst behandeln", "bucket": "nein" },
+          { "text": "Den Vormund für Jugendliche bestellen", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Ist das Hilfe im Alltag? Haushalt, Behördengänge, Lebensplanung, Freizeit und Kontakte gehören dazu. Über Asyl entscheiden Behörden. Den Vormund bestellt das Jugendamt. Und ein Trauma behandeln Fachleute."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Das Buch nennt Gründe, warum vor allem junge Frauen fliehen. Welche?",
+        "options": [
+          { "text": "Beschneidung im Genitalbereich mit lebenslangen Folgen und die Heirat mit 13 oder 14 Jahren.", "correct": true },
+          { "text": "Ein strenges Verbot, Musik zu hören, und die Pflicht, schon mit 10 Jahren einen Beruf zu lernen." },
+          { "text": "Zu wenig Freizeitangebote und keine Möglichkeit, im Sportverein Fußball zu spielen." }
+        ],
+        "explanation": "In einigen Ländern werden junge Frauen aus religiösen Gründen im Genitalbereich beschnitten. Das kann lebenslange Verstümmelung und Schmerzen bedeuten. In einigen Ländern dürfen junge Frauen mit 13 oder 14 Jahren verheiratet werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Was wünschen sich die meisten Geflüchteten laut Buch am sehnlichsten? Und warum klappt es selten?",
+        "options": [
+          { "text": "In ihre Heimat zurückzukehren. Das gelingt selten, weil viele Kriege und Konflikte lange andauern.", "correct": true },
+          { "text": "Für immer in Deutschland zu bleiben. Das gelingt selten, weil die Asylverfahren so lange dauern und so teuer sind." },
+          { "text": "In ein anderes Land weiterzureisen. Das gelingt selten, weil ihnen dafür das nötige Geld fehlt." }
+        ],
+        "explanation": "Die meisten Geflüchteten wünschen sich nichts sehnlicher, als in ihre Heimat zurückzukehren. Das gelingt nur selten, denn viele Kriege und Konflikte dauern sehr lange."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Geflüchtete fliehen in eine ungewisse Zukunft. Was wissen manche laut Buch während der Flucht noch nicht?",
+        "options": [
+          { "text": "In welchem Land sie ankommen und ob sie dort aufgenommen werden.", "correct": true },
+          { "text": "Warum sie ihre Heimat überhaupt verlassen und fliehen mussten." },
+          { "text": "Wer aus ihrer eigenen Familie mit ihnen zusammen losgegangen ist." }
+        ],
+        "explanation": "Die Menschen fliehen in eine ungewisse Zukunft und Kultur. Sie wissen nicht, was sie erwartet. Manche wissen unterwegs nicht einmal, in welchem Land sie ankommen und ob sie aufgenommen werden."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌊 Erlebnisse auf der Flucht: Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Der Wasserweg"}, "right": {"text": "Gilt als schnellster, aber gefährlicher Weg"} },
+          { "left": {"text": "Die zentrale Mittelmeerroute"}, "right": {"text": "Von Libyen oder Tunesien nach Italien"} },
+          { "left": {"text": "Hauptrouten übers Wasser"}, "right": {"text": "Im Wesentlichen vier"} },
+          { "left": {"text": "Überladene Schiffe"}, "right": {"text": "Kentern immer wieder vor den Küsten"} },
+          { "left": {"text": "Versorgung unterwegs"}, "right": {"text": "Schlecht: zu wenig Essen und Trinken"} },
+          { "left": {"text": "Ständige Begleiter"}, "right": {"text": "Angst, Hunger und Ungewissheit"} }
+        ],
+        "explanation": "Stell dir die Fahrt über das Meer vor: Sie soll schnell gehen, ist aber gefährlich. Die meisten fahren von Nordafrika, also Libyen oder Tunesien, nach Italien. Die Schiffe sind oft überladen, es gibt wenig zu essen und zu trinken. Angst, Hunger und Ungewissheit fahren immer mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage: Wie kommen Geflüchtete laut Buch außer über das Wasser noch nach Europa?",
+        "options": [
+          { "text": "Über Land oder mit dem Flugzeug.", "correct": true },
+          { "text": "Nur zu Fuß über die Berge." },
+          { "text": "Gar nicht, es gibt nur den Seeweg." }
+        ],
+        "explanation": "Andere Fluchtwege führen über Land nach Europa. Einige Geflüchtete reisen mit dem Flugzeug in ein europäisches Land ein."
+      }
+    }
+  ]
+}

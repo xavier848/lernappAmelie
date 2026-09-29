@@ -1,0 +1,128 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-betriebskosten",
+  "title": "Betriebskosten ermitteln",
+  "sort": 552,
+  "intro": "Bei jeder Kostenkalkulation für die Wäsche ermittelst du sieben Punkte.\n\nErstens die Wäschemenge einzelner Posten pro Woche. Ein Wäscheposten ist eine Wäschesorte, zum Beispiel Handtücher. Zweitens die Füllmenge pro Waschgang für Waschmaschine und Trockner.\n\nDrittens den Verbrauch an Wasser und Strom pro Wäscheposten. Das gilt für Waschen, Trocknen und Bügeln. Viertens die Preise für Strom, Wasser, Abwasser, Waschmittel oder Waschhilfsmittel.\n\nFünftens die Zeit für das Einfüllen und Herausnehmen der Wäsche und für das Legen. Sechstens die Kosten für Anschaffung und Abschreibung der Geräte und Gebäude und für ihre Instandhaltung. Abschreibung heißt: Der Kaufpreis wird auf die Jahre verteilt, in denen man ein Gerät benutzt. Siebtens die Personalkosten.\n\nEine Grundlage sind die Betriebskosten. Das sind veränderbare Kosten. Sie entstehen, wenn du Maschinen und Geräte benutzt. Sie hängen von der Wäschemenge ab. Betriebskosten entstehen für Wasser, für Energie wie Strom oder Gas und für Waschmittel oder Waschhilfsmittel.\n\nUm die Betriebskosten zu berechnen, brauchst du Verbrauchsdaten und Kostendaten. Verbrauchsdaten sagen, wie viel verbraucht wird. Kostendaten sagen, was es kostet.\n\nKostendaten findest du im Internet, bei den Energieversorgern und durch Marktrecherche. Marktrecherche heißt: Preise suchen und vergleichen.\n\nDie Wäschemenge ermittelst du mit einer Strichliste der Waschgänge. Wenn du einzelne Wäscheposten oder Wäschestücke wiegst, kannst du auf die Zahl der Maschinenladungen schließen.\n\nMERKE: Betriebskosten sind veränderbar. Sie hängen von der Wäschemenge ab und entstehen für Wasser, Energie und Waschmittel.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📋 Was ermittelst du für die Kostenkalkulation? Verbinde den Punkt mit der passenden Frage.",
+        "pairs": [
+          { "left": {"text": "Wäschemenge"}, "right": {"text": "Wie viel Wäsche einer Sorte pro Woche?"} },
+          { "left": {"text": "Füllmenge"}, "right": {"text": "Wie viel Kilo passen in einen Waschgang?"} },
+          { "left": {"text": "Verbrauch"}, "right": {"text": "Wie viel Wasser und Strom pro Posten?"} },
+          { "left": {"text": "Preise"}, "right": {"text": "Was kosten Strom, Wasser und Waschmittel?"} },
+          { "left": {"text": "Zeit"}, "right": {"text": "Wie lange dauern Einfüllen und Legen?"} },
+          { "left": {"text": "Personalkosten"}, "right": {"text": "Was kosten die Mitarbeiterinnen?"} }
+        ],
+        "memory": false,
+        "explanation": "Lies das Schlüsselwort in jeder Frage: Menge pro Woche, Kilo pro Waschgang, Wasser und Strom, Kosten, Dauer, Mitarbeiterinnen. Jede Frage passt zu genau einem Punkt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Welche Kosten ermittelst du für Geräte und Gebäude?",
+        "options": [
+          { "text": "Anschaffung, Abschreibung und Instandhaltung.", "correct": true },
+          { "text": "Waschmittel, Weichspüler und Wäschestärke." },
+          { "text": "Wasser, Abwasser, Strom und Heizgas im Keller." }
+        ],
+        "explanation": "Für Geräte und Gebäude zählen Anschaffung, Abschreibung und Instandhaltung. Abschreibung heißt: Der Kaufpreis wird auf die Jahre der Nutzung verteilt. Wasser, Strom und Waschmittel gehören zu einem anderen Punkt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Was sind Betriebskosten?",
+        "options": [
+          { "text": "Veränderbare Kosten, die von der Wäschemenge abhängen.", "correct": true },
+          { "text": "Feste Kosten, die jeden Monat genau gleich hoch bleiben." },
+          { "text": "Einmalige Kosten, die nur beim Kauf einer Maschine entstehen." }
+        ],
+        "explanation": "Betriebskosten sind veränderbar. Sie hängen von der Wäschemenge ab: Je mehr Wäsche, desto höher sind sie. Sie entstehen, wenn Maschinen und Geräte benutzt werden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧮 Betriebskosten oder Anschaffung? Sortiere.",
+        "buckets": [
+          { "id": "betrieb", "label": "Betriebskosten", "icon": "💧" },
+          { "id": "anschaffung", "label": "Anschaffung", "icon": "🛒" }
+        ],
+        "items": [
+          { "text": "Wasser", "bucket": "betrieb" },
+          { "text": "Strom", "bucket": "betrieb" },
+          { "text": "Gas", "bucket": "betrieb" },
+          { "text": "Waschmittel", "bucket": "betrieb" },
+          { "text": "Kauf einer neuen Waschmaschine", "bucket": "anschaffung" },
+          { "text": "Kauf eines neuen Trockners", "bucket": "anschaffung" }
+        ],
+        "explanation": "Frag dich: Entstehen die Kosten bei jeder Benutzung? Dann sind es Betriebskosten. Einmal kaufen und danach lange benutzen ist eine Anschaffung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔋 Welche Daten brauchst du, um die Betriebskosten zu berechnen?",
+        "options": [
+          { "text": "Verbrauchsdaten und Kostendaten.", "correct": true },
+          { "text": "Dienstplan und Urlaubsplan der Mitarbeiterinnen." },
+          { "text": "Pflegeetikett und Füllmenge der Wäsche." }
+        ],
+        "explanation": "Du brauchst Verbrauchsdaten, also wie viel verbraucht wird. Und du brauchst Kostendaten, also was es kostet. Beides zusammen ergibt die Betriebskosten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Wo findest du Kostendaten, zum Beispiel den Preis für Strom?",
+        "options": [
+          { "text": "Im Internet, beim Energieversorger und durch Marktrecherche.", "correct": true },
+          { "text": "Nur auf dem Typenschild hinten an der Waschmaschine im Keller." },
+          { "text": "Nur in der Bedienungsanleitung der neuen Waschmaschine im Betrieb." }
+        ],
+        "explanation": "Kostendaten gibt es im Internet, bei den Energieversorgern und durch Marktrecherche. Marktrecherche heißt: Preise suchen und vergleichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Wie ermittelst du, wie viel Wäsche anfällt?",
+        "options": [
+          { "text": "Mit einer Strichliste der Waschgänge.", "correct": true },
+          { "text": "Mit einem kurzen Blick in den Wäschekorb." },
+          { "text": "Mit dem Stromzähler im Keller des Hauses." }
+        ],
+        "explanation": "Mit einer Strichliste zählst du jeden Waschgang. So weißt du genau, wie viel Wäsche anfällt. Ein kurzer Blick reicht dafür nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Du wiegst alle Handtücher einer Woche. Was erfährst du dadurch?",
+        "options": [
+          { "text": "Wie viele Maschinenladungen es sind.", "correct": true },
+          { "text": "Bei wie viel Grad du sie waschen musst." },
+          { "text": "Wie viel eine neue Waschmaschine kostet." }
+        ],
+        "explanation": "Wenn du Wäscheposten wiegst, kannst du auf die Zahl der Maschinenladungen schließen. Du teilst das Gewicht durch die Füllmenge der Maschine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Ein Wäscheposten ist eine bestimmte Wäschesorte. Welches Beispiel passt?",
+        "options": [
+          { "text": "Handtücher.", "correct": true },
+          { "text": "Waschmittel." },
+          { "text": "Strom." }
+        ],
+        "explanation": "Ein Wäscheposten ist eine Wäschesorte, zum Beispiel Handtücher. Waschmittel und Strom sind Kosten, keine Wäsche."
+      }
+    }
+  ]
+}

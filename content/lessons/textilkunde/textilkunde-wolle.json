@@ -1,0 +1,153 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-wolle",
+  "title": "Naturfaser Wolle",
+  "sort": 545,
+  "intro": "Wolle wird aus dem Fell von lebenden, gesunden Schafen gewonnen.\n\nFachlich sind die Haare von Kamelen, Kaschmirziegen und Mohairziegen Tierhaare. Sie dürfen aber auch „reine Schurwolle“ heißen.\n\nAnders ist es bei Reißwolle. Reißwolle wird aus alter Kleidung gewonnen. Waren aus Reißwolle heißen „reine Wolle“, aber nicht „reine Schurwolle“.\n\nEigenschaften: Wolle ist je nach Herkunft weich. Sie wärmt und ist knitterarm. Knitterarm heißt: Sie bekommt kaum Falten. Sie ist schwer entflammbar, brennt also nicht so leicht. Sie nimmt viel Feuchtigkeit auf.\n\nWolle lädt sich kaum elektrostatisch auf. Elektrostatische Aufladung kennst du vom Knistern beim Ausziehen. Bei Wolle knistert es also kaum.\n\nNachteile: Wolle ist anfällig für Motten. Sie trocknet langsam. Sie ist nur eingeschränkt waschbar, denn sie kann filzen. Filzen heißt: Die Fasern verhaken sich, der Stoff wird klein und hart. Wolle ist nicht immer bügelfrei.\n\nVerwendung: Kostüme, Anzüge, Mäntel, Kleider, Pullover, Hüte, Schals, Socken, Decken, Dekostoffe und Möbelbezugsstoffe.\n\nPflege: Ist die Wolle filzfrei ausgerüstet, darf sie in den Wollwaschgang der Waschmaschine. Filzfrei ausgerüstet heißt: Sie wurde speziell behandelt, damit sie nicht filzt. Sonst wäschst du Wolle mit der Hand.\n\nBügle Wolle auf mittlerer Stufe. Nimm dabei Dampf, oder leg ein Tuch zwischen Wolle und Bügeleisen. Wolltextilien dürfen in die Reinigung. In den Trockner darf Wolle nur in einem Spezialprogramm.\n\nMERKE: Wolle wärmt, knittert kaum und brennt schwer. Aber sie kann filzen. Darum: Wollwaschgang nur, wenn sie filzfrei ausgerüstet ist. Sonst Handwäsche.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐑 Laut Buch kommt Wolle vom Fell der Schafe. Von welchen Schafen?",
+        "options": [
+          { "text": "Von lebenden, gesunden Schafen.", "correct": true },
+          { "text": "Nur von geschlachteten Schafen." },
+          { "text": "Nur von ganz jungen Lämmern." }
+        ],
+        "explanation": "Wolle wird aus dem Fell von lebenden, gesunden Schafen gewonnen. Die Schafe werden geschoren und behalten ihr Leben. Daher kommt auch das Wort Schurwolle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Ein Pullover ist aus Reißwolle. Reißwolle wird aus alter Kleidung gewonnen. Wie darf er gekennzeichnet werden?",
+        "options": [
+          { "text": "Als „reine Wolle“.", "correct": true },
+          { "text": "Als „reine Schurwolle“." },
+          { "text": "Als „reine Chemiefaser“." }
+        ],
+        "explanation": "Waren aus Reißwolle dürfen „reine Wolle“ heißen. „Reine Schurwolle“ ist für Wolle vom Fell lebender Schafe. Reißwolle ist keine Chemiefaser, denn sie wird aus alter Kleidung gewonnen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐫 Welche Tierhaare dürfen laut Buch auch „reine Schurwolle“ heißen?",
+        "options": [
+          { "text": "Haare von Kamel, Kaschmir- und Mohairziege.", "correct": true },
+          { "text": "Haare von Alpaka, Lama und Angorakaninchen." },
+          { "text": "Haare von Pferd, Rind und Hund." }
+        ],
+        "explanation": "Das Buch nennt Kamel, Kaschmirziege und Mohairziege. Fachlich sind das Tierhaare. Auf dem Etikett dürfen sie aber „reine Schurwolle“ heißen. Alpaka, Lama und Angora nennt das Buch hier nicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧶 Stimmt das für Wolle? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Stimmt", "icon": "✅" },
+          { "id": "nein", "label": "Stimmt nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Je nach Herkunft weich", "bucket": "ja" },
+          { "text": "Knitterarm", "bucket": "ja" },
+          { "text": "Schwer entflammbar", "bucket": "ja" },
+          { "text": "Nimmt viel Feuchtigkeit auf", "bucket": "ja" },
+          { "text": "Trocknet schnell", "bucket": "nein" },
+          { "text": "Lädt sich stark elektrostatisch auf", "bucket": "nein" },
+          { "text": "Ist sicher vor Motten", "bucket": "nein" },
+          { "text": "Immer bügelfrei", "bucket": "nein" }
+        ],
+        "explanation": "Denk an einen Wollpullover: Er ist weich, hat kaum Falten und brennt schwer. Er nimmt viel Feuchtigkeit auf und braucht darum lange zum Trocknen. Wolle ist anfällig für Motten. Beim Ausziehen knistert sie kaum. Bügelfrei ist sie nicht immer."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeutet das Fachwort? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Filzen"}, "right": {"text": "Fasern verhaken sich, der Stoff wird klein und hart"} },
+          { "left": {"text": "Knitterarm"}, "right": {"text": "Bekommt kaum Falten"} },
+          { "left": {"text": "Schwer entflammbar"}, "right": {"text": "Brennt nicht so leicht"} },
+          { "left": {"text": "Filzfrei ausgerüstet"}, "right": {"text": "Speziell behandelt, damit es nicht filzt"} },
+          { "left": {"text": "Elektrostatische Aufladung"}, "right": {"text": "Der Stoff knistert beim Ausziehen"} }
+        ],
+        "memory": false,
+        "explanation": "Lies jedes Fachwort genau. Filzen und filzfrei ausgerüstet gehören zusammen: Das eine ist das Problem, das andere der Schutz davor. Entflammbar hat mit Feuer zu tun, Knitter mit Falten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Wann darf ein Wollpullover in den Wollwaschgang der Waschmaschine?",
+        "options": [
+          { "text": "Wenn er filzfrei ausgerüstet ist.", "correct": true },
+          { "text": "Wenn er nur ein bisschen schmutzig ist." },
+          { "text": "Wenn er vorher auf links gedreht wurde." }
+        ],
+        "explanation": "Filzfrei ausgerüstete Wolle wurde speziell behandelt. Sie darf in den Wollwaschgang. Alle andere Wolle wäschst du mit der Hand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Wie bügelst du einen Rock aus Wolle?",
+        "options": [
+          { "text": "Mittlere Stufe, mit Dampf oder mit einem Tuch dazwischen.", "correct": true },
+          { "text": "Höchste Stufe, direkt und ganz trocken auf den Wollstoff." },
+          { "text": "Niedrigste Stufe, und dabei niemals Dampf oder ein Tuch." }
+        ],
+        "explanation": "Wolle bügelst du auf mittlerer Stufe. Dabei nimmst du Dampf, oder du legst ein Tuch zwischen Bügeleisen und Wolle. So wird die Wolle geschont."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Darf ein Wollpullover in den Wäschetrockner?",
+        "options": [
+          { "text": "Nur in einem Spezialprogramm für Wolle.", "correct": true },
+          { "text": "Ja, in jedem Programm, denn Wolle knittert kaum." },
+          { "text": "Ja, aber nur auf der heißesten Stufe." }
+        ],
+        "explanation": "Wolle darf nur in Spezialprogrammen im Trockner getrocknet werden. Im normalen Trockengang kann sie einlaufen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧥 Ein Wollmantel hat einen Fleck. Was ist laut Buch erlaubt?",
+        "options": [
+          { "text": "Ihn in die Reinigung geben.", "correct": true },
+          { "text": "Ihn in der Kochwäsche waschen." },
+          { "text": "Ihn heiß im Trockner trocknen." }
+        ],
+        "explanation": "Wolltextilien dürfen gereinigt werden. Die Kochwäsche ist viel zu heiß: Wolle würde filzen. Heiß im Trockner geht auch nicht, nur im Spezialprogramm."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎩 Wofür wird Wolle laut Buch verwendet?",
+        "options": [
+          { "text": "Für Mäntel, Pullover, Hüte, Schals, Socken und Decken.", "correct": true },
+          { "text": "Für Futterstoffe, Unterwäsche, Haushaltswäsche und Spültücher." },
+          { "text": "Für Matratzendrell, Nähzwirn, Küchentücher und Handtücher." }
+        ],
+        "explanation": "Laut Buch wird Wolle für Mäntel, Pullover, Hüte, Schals, Socken und Decken verwendet. Auch Kostüme, Anzüge, Kleider, Dekostoffe und Möbelbezugsstoffe gibt es aus Wolle. Futterstoffe nennt das Buch bei den Zellulosefasern, Matratzendrell beim Leinen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Warum trägst du im Winter gern einen Wollpullover?",
+        "options": [
+          { "text": "Wolle wärmt.", "correct": true },
+          { "text": "Wolle kühlt." },
+          { "text": "Wolle ist dünn." }
+        ],
+        "explanation": "Wolle wärmt. Darum ist sie im Winter so beliebt, zum Beispiel für Pullover, Schals und Socken."
+      }
+    }
+  ]
+}

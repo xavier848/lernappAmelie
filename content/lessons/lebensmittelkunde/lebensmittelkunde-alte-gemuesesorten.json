@@ -1,0 +1,130 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-alte-gemuesesorten",
+  "title": "Alte Gemüsesorten und Saison",
+  "sort": 600,
+  "intro": "🥕 In der Hauswirtschaft planst du den Speiseplan am besten mit Obst und Gemüse der Saison. Kaufe es möglichst regional, also aus deiner Gegend. Dann ist der Transportweg kurz.\n\nSo sparst du Energie für den Transport. Und du sparst Energie für das Heizen von Gewächshäusern. Dadurch entsteht weniger CO₂, also weniger Kohlendioxid. Das schont das Klima.\n\nDie Vielfalt auf dem Speiseplan muss darunter nicht leiden. Entdecke „alte“ Gemüsesorten neu. Das sind fast vergessene Sorten. Sie bereichern den Speiseplan.\n\nMERKE: Saisonkalender für alte Gemüsesorten. Pastinake: November bis April. Schwarzwurzel: Oktober bis Februar. Steckrüben: September bis Dezember. Topinambur: Oktober bis März.\n\nDie Verwendungsbeispiele aus dem Saisonkalender: Pastinake für Cremesuppe, Ofengemüse oder als Beilage. Schwarzwurzel für ein Schaumsüppchen oder als Gemüsebeilage. Steckrüben für Eintopf, Püree oder Auflauf. Topinambur für Cremesuppe, Püree oder Auflauf.\n\nEin großer Vorteil der Saison ist der Geschmack. Denk an eine vollreife Tomate oder Erdbeere im Sommer, frisch vom Feld, aus dem Kübel auf der Terrasse oder aus dem Garten. Außerhalb der Saison erreichen diese Produkte diesen Geschmack nicht.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Warum kaufst du Gemüse der Saison aus der Region?",
+        "options": [
+          { "text": "Der Transportweg ist kurz, das spart Energie und CO₂.", "correct": true },
+          { "text": "Es kommt dann immer aus einem beheizten Gewächshaus." },
+          { "text": "Es ist dann viele Wochen länger haltbar als andere Ware." }
+        ],
+        "explanation": "Regional heißt: aus der Nähe. Kurze Wege sparen Energie für den Transport. So entsteht weniger CO₂, also weniger Kohlendioxid."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Wofür wird bei Gemüse außerhalb der Saison oft viel Energie gebraucht?",
+        "options": [
+          { "text": "Für lange Transporte und beheizte Gewächshäuser.", "correct": true },
+          { "text": "Für das Waschen und Putzen im Supermarkt." },
+          { "text": "Für das Kühlen im Kühlschrank zu Hause." }
+        ],
+        "explanation": "Außerhalb der Saison wächst das Gemüse bei uns nur im geheizten Gewächshaus. Oder es kommt von weit her. Beides kostet viel Energie und verursacht CO₂."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📅 Saisonkalender: Wann hat das alte Gemüse Saison? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Pastinake"}, "right": {"text": "November bis April"} },
+          { "left": {"text": "Schwarzwurzel"}, "right": {"text": "Oktober bis Februar"} },
+          { "left": {"text": "Steckrüben"}, "right": {"text": "September bis Dezember"} },
+          { "left": {"text": "Topinambur"}, "right": {"text": "Oktober bis März"} }
+        ],
+        "memory": false,
+        "explanation": "Alle vier sind Gemüse der kalten Jahreszeit. Merkhilfe: Die Steckrübe startet am frühesten, schon im September, und endet im Dezember. Die Pastinake bleibt am längsten, bis in den April."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍲 Welche Verwendungsbeispiele nennt der Saisonkalender? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Pastinake"}, "right": {"text": "Cremesuppe, Ofengemüse, Beilage"} },
+          { "left": {"text": "Schwarzwurzel"}, "right": {"text": "Schaumsüppchen, Gemüsebeilage"} },
+          { "left": {"text": "Steckrüben"}, "right": {"text": "Eintopf, Püree, Auflauf"} },
+          { "left": {"text": "Topinambur"}, "right": {"text": "Cremesuppe, Püree, Auflauf"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf die genaue Liste. Cremesuppe steht bei Pastinake und Topinambur, Püree und Auflauf bei Steckrüben und Topinambur. Nur die Schwarzwurzel hat das Schaumsüppchen. Nur die Pastinake hat das Ofengemüse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Es ist Januar. Welche alten Gemüsesorten haben laut Saisonkalender Saison?",
+        "options": [
+          { "text": "Pastinake, Schwarzwurzel und Topinambur.", "correct": true },
+          { "text": "Nur Steckrüben und Schwarzwurzeln." },
+          { "text": "Nur die Steckrüben, sonst gar keine." }
+        ],
+        "explanation": "Die Steckrübe hat nur von September bis Dezember Saison. Im Januar ist sie vorbei. Pastinake, Schwarzwurzel und Topinambur haben im Januar Saison."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍂 Es ist September. Welche alte Sorte hat schon Saison?",
+        "options": [
+          { "text": "Steckrüben.", "correct": true },
+          { "text": "Pastinake." },
+          { "text": "Topinambur." }
+        ],
+        "explanation": "Die Steckrübe hat als erste Saison, von September bis Dezember. Schwarzwurzel und Topinambur beginnen im Oktober, die Pastinake erst im November."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🗓️ Die Schwarzwurzel hat von Oktober bis Februar Saison. Wie viele Monate sind das? Tippe die Zahl.",
+        "answer": 5,
+        "hint": "Zähle an den Fingern ab. Oktober ist der erste Monat.",
+        "explanation": "Oktober, November, Dezember, Januar und Februar: Das sind 5 Monate."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Was sind „alte“ Gemüsesorten?",
+        "options": [
+          { "text": "Fast vergessene Sorten, die man neu entdeckt.", "correct": true },
+          { "text": "Gemüse vom letzten Jahr, das zu lange gelagert wurde." },
+          { "text": "Gemüse aus dem Vorjahr, das eingefroren wurde." }
+        ],
+        "explanation": "Alte Gemüsesorten sind fast vergessene Sorten. Wenn du sie wiederentdeckst, wird der Speiseplan vielfältiger, auch wenn du nur saisonal kochst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍅 Warum schmeckt eine Tomate im Sommer frisch vom Feld besonders gut?",
+        "options": [
+          { "text": "Sie ist in ihrer Saison vollreif.", "correct": true },
+          { "text": "Im Sommer ist sie viel größer." },
+          { "text": "Im Sommer ist sie stärker gewürzt." }
+        ],
+        "explanation": "In der Saison reift das Gemüse voll aus. Das gibt den besten Geschmack. Außerhalb der Saison erreichen Tomaten oder Erdbeeren diesen Geschmack nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📍 Was heißt regional?",
+        "options": [
+          { "text": "Aus der eigenen Gegend.", "correct": true },
+          { "text": "Aus einem fernen Land." },
+          { "text": "Aus dem Gewächshaus." }
+        ],
+        "explanation": "Regional heißt: Die Ware kommt aus deiner Gegend. Darum ist der Transportweg kurz."
+      }
+    }
+  ]
+}

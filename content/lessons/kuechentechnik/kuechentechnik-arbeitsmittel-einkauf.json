@@ -1,0 +1,134 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-arbeitsmittel-einkauf",
+  "title": "Arbeitsmittel: Gruppen und Einkauf",
+  "sort": 608,
+  "intro": "🧰 Gute Arbeits- und Hilfsmittel sind wichtig für ein gutes Arbeitsergebnis. Dazu kommt dein Fachwissen. Das gilt für Profis in Gastronomie und Gemeinschaftsverpflegung. Und es gilt für private Haushalte.\n\nBeide achten aber auf verschiedene Dinge. Ein Gewerbebetrieb braucht Geräte mit hoher Belastungstoleranz. Das heißt: Sie halten viel aus. Das schafft man meistens nur mit hoher Materialqualität. Gleichzeitig ist das Preis-Leistungs-Verhältnis sehr wichtig. Private Nutzer achten auch auf Qualität. Für sie sind aber Form und Design oft genauso wichtig.\n\nBeide brauchen im Prinzip die gleichen Geräte, nur für andere Mengen. Geräte für den Großhaushalt sind oft größer. Manche sind für besondere Arbeiten gebaut, die es zu Hause nicht gibt.\n\nMERKE: Die Arbeits- und Hilfsmittel teilt man nach ihrer Funktion in 6 Gruppen ein. 1. Koch-, Brat- und Backgeschirr. 2. Messer. 3. Koch- und Rührgeräte. 4. Reibe- und Schneidgeräte. 5. Schüsseln und Siebe. 6. Sonstige Hilfsmittel.\n\nBeispiele: Topf, Stielkasserolle und Pfanne sind Koch-, Brat- und Backgeschirr. Pfannenwender, Schaumlöffel, Fleischgabel und Holzlöffel sind Koch- und Rührgeräte. Vierkantreibe und Gemüsehobel sind Reibe- und Schneidgeräte. Ein Stielsieb gehört zu den Schüsseln und Sieben. Kartoffelstampfer und Knoblauchpresse sind sonstige Hilfsmittel.\n\nKochgeschirr gibt es aus Edelstahl, emailliertem Stahl, Gusseisen, Aluminium und Kupfer. Bratgeschirr gibt es aus denselben Stoffen. Manches hat zusätzlich eine Kunststoffbeschichtung mit Antihafteffekt. Antihaft heißt: Nichts klebt an. Backgeschirr gibt es aus Stahlblech, Aluminium oder Kupfer, manchmal mit Antihaftbeschichtung. Und es gibt Backformen aus Silikon.\n\nBevor du Geschirr kaufst, prüfst du die sechs Einkaufskriterien. Erstens: Es ist lange haltbar und hält viel aus. Zweitens: Das Material ist gut für Umwelt und Gesundheit. Drittens: Es ist leicht zu handhaben. Viertens: Es ist leicht zu reinigen und spülmaschinenfest. Fünftens: Du kannst darin nährstoffschonend garen. Sechstens: Es passt auf möglichst alle Herdarten.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏢 Worauf achtet wer beim Kauf besonders? Sortiere.",
+        "buckets": [
+          { "id": "gewerbe", "label": "Gewerbebetrieb", "icon": "🏢" },
+          { "id": "privat", "label": "Privathaushalt", "icon": "🏠" }
+        ],
+        "items": [
+          { "text": "Hohe Belastungstoleranz", "bucket": "gewerbe" },
+          { "text": "Hohe Materialqualität", "bucket": "gewerbe" },
+          { "text": "Preis-Leistungs-Verhältnis ist sehr wichtig", "bucket": "gewerbe" },
+          { "text": "Oft größere Geräte", "bucket": "gewerbe" },
+          { "text": "Form und Design sind genauso wichtig", "bucket": "privat" },
+          { "text": "Kleinere Mengen", "bucket": "privat" }
+        ],
+        "explanation": "Frag dich: Wer benutzt das Gerät jeden Tag stundenlang und für große Mengen? Der Gewerbebetrieb. Er braucht Geräte, die viel aushalten und ihr Geld wert sind. Im Privathaushalt zählt neben der Qualität auch, wie schön das Gerät aussieht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Was brauchen Gewerbebetrieb und Privathaushalt im Prinzip?",
+        "options": [
+          { "text": "Die gleichen Geräte, nur für andere Mengen.", "correct": true },
+          { "text": "Ganz verschiedene Geräte für ganz andere Aufgaben." },
+          { "text": "Die gleichen Geräte in genau der gleichen Größe." }
+        ],
+        "explanation": "Im Prinzip brauchen beide die gleichen Arbeitsgeräte. Der Unterschied liegt in der Mengenkapazität. Im Großhaushalt sind die Geräte oft größer, manche sind für besondere Arbeiten gebaut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗂️ Nach welchem Merkmal teilt man die Arbeits- und Hilfsmittel in 6 Gruppen ein?",
+        "options": [
+          { "text": "Nach ihrer Funktion.", "correct": true },
+          { "text": "Nach ihrem Preis." },
+          { "text": "Nach ihrem Material." }
+        ],
+        "explanation": "Die Gruppen richten sich danach, was man mit dem Gerät macht. Das ist die Funktion. Ein Topf und eine Pfanne sind zum Garen da, ein Sieb zum Trennen von Festem und Flüssigem."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧰 Zu welcher Gruppe gehört das Gerät? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Stielkasserolle"}, "right": {"text": "Koch-, Brat- und Backgeschirr"} },
+          { "left": {"text": "Schaumlöffel"}, "right": {"text": "Koch- und Rührgeräte"} },
+          { "left": {"text": "Vierkantreibe"}, "right": {"text": "Reibe- und Schneidgeräte"} },
+          { "left": {"text": "Stielsieb"}, "right": {"text": "Schüsseln und Siebe"} },
+          { "left": {"text": "Knoblauchpresse"}, "right": {"text": "Sonstige Hilfsmittel"} },
+          { "left": {"text": "Tortenmesser"}, "right": {"text": "Messer"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jedem Gerät: Was macht es? Darin wird gegart: Geschirr. Damit wird gerührt oder geschöpft: Koch- und Rührgeräte. Damit wird gerieben: Reibe- und Schneidgeräte. Was in keine Gruppe passt, ist ein sonstiges Hilfsmittel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧁 Welches Material gibt es nur beim Backgeschirr?",
+        "options": [
+          { "text": "Silikon.", "correct": true },
+          { "text": "Kupfer." },
+          { "text": "Aluminium." }
+        ],
+        "explanation": "Kupfer und Aluminium gibt es beim Koch-, Brat- und Backgeschirr. Silikonformen gibt es nur beim Backgeschirr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Was hat Bratgeschirr oft zusätzlich?",
+        "options": [
+          { "text": "Eine Kunststoffbeschichtung mit Antihafteffekt.", "correct": true },
+          { "text": "Einen Deckel mit Abgießfunktion aus Glas." },
+          { "text": "Einen Boden aus Silikon gegen das Anbrennen." }
+        ],
+        "explanation": "Bratgeschirr gibt es aus denselben Werkstoffen wie Kochgeschirr. Je nach Art hat es zusätzlich eine Kunststoffbeschichtung mit Antihafteffekt. Dann klebt nichts an."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Ist das ein Einkaufskriterium für Geschirr? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Einkaufskriterium", "icon": "✅" },
+          { "id": "nein", "label": "Kein Kriterium", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Lange haltbar", "bucket": "ja" },
+          { "text": "Material gut für Umwelt und Gesundheit", "bucket": "ja" },
+          { "text": "Leicht zu handhaben", "bucket": "ja" },
+          { "text": "Spülmaschinenfest", "bucket": "ja" },
+          { "text": "Nährstoffschonend garen", "bucket": "ja" },
+          { "text": "Passt auf möglichst alle Herdarten", "bucket": "ja" },
+          { "text": "Passt nur auf eine einzige Herdart", "bucket": "nein" },
+          { "text": "Darf nur von Hand gespült werden", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Macht das Geschirr die Arbeit leichter, gesünder und länger möglich? Dann ist es ein Kriterium. Geschirr, das nur auf einen Herd passt oder nicht in die Spülmaschine darf, macht die Arbeit schwerer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 In einer Küche stehen ein Gasherd und ein Induktionsherd. Du kaufst neue Töpfe. Was ist besonders wichtig?",
+        "options": [
+          { "text": "Sie passen auf möglichst alle Herdarten.", "correct": true },
+          { "text": "Sie haben ein besonders schönes Design." },
+          { "text": "Sie sind möglichst leicht und dünn." }
+        ],
+        "explanation": "Ein Einkaufskriterium ist: Das Geschirr passt zu möglichst allen Beheizungsformen und Herdarten. Dann kannst du jeden Topf auf jedem Herd benutzen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 In wie viele Gruppen teilt man die Arbeits- und Hilfsmittel nach ihrer Funktion ein? Tippe die Zahl.",
+        "answer": 6,
+        "hint": "Es sind mehr als 5 und weniger als 7.",
+        "explanation": "Es sind 6 Gruppen: Koch-, Brat- und Backgeschirr, Messer, Koch- und Rührgeräte, Reibe- und Schneidgeräte, Schüsseln und Siebe sowie sonstige Hilfsmittel."
+      }
+    }
+  ]
+}
