@@ -1,0 +1,127 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-verpackte-lebensmittel",
+  "title": "Verpackte Lebensmittel: Pflichtangaben",
+  "sort": 687,
+  "intro": "📦 Für abgepackte Lebensmittel gibt es Gesetze und Verordnungen. Drei davon sind besonders wichtig.\n\nDas Eichgesetz regelt die Füllmenge einer Verpackung. Die Preisangabenverordnung regelt die Preise. Neben dem Endpreis muss auch der Grundpreis angegeben werden. Im Einzelhandel ist der Endpreis mit Mehrwertsteuer auszuweisen. Die Lebensmittelinformationsverordnung regelt die Angaben zu Waren, die man in ihrer Verpackung nicht sehen kann.\n\nMERKE: Auf abgepackten Lebensmitteln stehen Mindestangaben. Dazu gehören: eine allgemein verständliche Verkehrsbezeichnung, die Zutaten, Name und Anschrift des Herstellers, die Nettomenge, die allergenen Stoffe und das Mindesthaltbarkeitsdatum.\n\nDie Verkehrsbezeichnung ist der allgemein verständliche Name des Lebensmittels. Die Zutaten stehen absteigend nach ihrem Gewichtsanteil. Auch die Zusatzstoffe gehören dazu, zum Beispiel Konservierungsstoffe und Farbstoffe. Die Nettomenge zeigt, wie viel Ware in der Packung ist, ohne Verpackung.\n\nHat ein Getränk 1,2 Volumenprozent Alkohol oder mehr, muss der Alkoholgehalt angegeben werden. Man schreibt das so: 1,2 % vol.\n\nKäse und Fleisch gibt es oft in abgepackten Portionen. Die Packungen sind verschieden groß. Damit du vergleichen kannst, muss neben dem Packungspreis immer der Preis pro Kilogramm, pro 100 Gramm oder pro Liter stehen. Das ist der Grundpreis.\n\nAuf einem abgepackten Rumpsteak findest du zum Beispiel eine Chargen-Nummer. Eine Charge ist eine Menge gleicher Ware, die zusammen hergestellt wurde.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📜 Was regelt das Gesetz oder die Verordnung? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Eichgesetz"}, "right": {"text": "Die Füllmenge einer Verpackung"} },
+          { "left": {"text": "Preisangabenverordnung"}, "right": {"text": "Grundpreis und Endpreis"} },
+          { "left": {"text": "Lebensmittelinformationsverordnung"}, "right": {"text": "Angaben zu Waren, die man nicht sehen kann"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf die Wortteile. Eichen heißt: eine Menge genau prüfen. In der Preisangabenverordnung steckt das Wort Preis. In der Lebensmittelinformationsverordnung steckt das Wort Information."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Was muss der Endpreis im Einzelhandel enthalten?",
+        "options": [
+          { "text": "Die Mehrwertsteuer.", "correct": true },
+          { "text": "Das Trinkgeld für die Kasse." },
+          { "text": "Die Kosten für den Parkplatz." }
+        ],
+        "explanation": "Im Einzelhandel ist der Endpreis mit Mehrwertsteuer auszuweisen. So weißt du genau, was du an der Kasse zahlst. Es kommt nichts mehr dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Abgepackter Käse hat verschieden große Portionen. Was muss neben dem Packungspreis stehen?",
+        "options": [
+          { "text": "Der Preis pro Kilogramm oder pro 100 Gramm.", "correct": true },
+          { "text": "Der Preis aus dem letzten Monat." },
+          { "text": "Der Preis für eine einzige Scheibe." }
+        ],
+        "explanation": "Die Portionen sind verschieden groß. Nur mit dem Preis pro Kilogramm oder pro 100 Gramm kannst du sie vergleichen. Das schreibt die Preisangabenverordnung vor."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏷️ Ist das eine Mindestangabe auf abgepackten Lebensmitteln? Sortiere.",
+        "buckets": [
+          { "id": "pflicht", "label": "Mindestangabe", "icon": "✅" },
+          { "id": "frei", "label": "Freiwillig", "icon": "➖" }
+        ],
+        "items": [
+          { "text": "Eine verständliche Verkehrsbezeichnung", "bucket": "pflicht" },
+          { "text": "Die Zutaten mit den Zusatzstoffen", "bucket": "pflicht" },
+          { "text": "Name und Anschrift des Herstellers", "bucket": "pflicht" },
+          { "text": "Die Nettomenge", "bucket": "pflicht" },
+          { "text": "Die allergenen Stoffe", "bucket": "pflicht" },
+          { "text": "Das Mindesthaltbarkeitsdatum", "bucket": "pflicht" },
+          { "text": "Ein Serviervorschlag", "bucket": "frei" },
+          { "text": "Ein Gewinnspiel", "bucket": "frei" }
+        ],
+        "explanation": "Frag dich: Brauche ich das, um das Produkt zu kennen und sicher zu essen? Name, Inhalt, Hersteller, Menge, Allergene und Haltbarkeit sind Pflicht. Serviervorschlag und Gewinnspiel sind nur Werbung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📛 Was ist die Verkehrsbezeichnung eines Lebensmittels?",
+        "options": [
+          { "text": "Der allgemein verständliche Name des Lebensmittels.", "correct": true },
+          { "text": "Die Nummer des Lieferwagens, der die Ware bringt." },
+          { "text": "Der Werbespruch, mit dem die Marke wirbt." }
+        ],
+        "explanation": "Die Verkehrsbezeichnung sagt klar, was das Lebensmittel ist, zum Beispiel „Speisequarkzubereitung“. Ein Werbespruch oder Fantasiename reicht dafür nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Was gilt für die Zutatenliste?",
+        "options": [
+          { "text": "Absteigend nach Gewicht, auch mit Zusatzstoffen wie Farbstoffen.", "correct": true },
+          { "text": "Alphabetisch sortiert, Zusatzstoffe stehen gar nicht darin." },
+          { "text": "Aufsteigend nach Gewicht, aber nur mit der Hauptzutat." }
+        ],
+        "explanation": "Die Zutat mit dem größten Gewichtsanteil steht vorne. Auch Zusatzstoffe gehören in die Liste, zum Beispiel Konservierungsstoffe und Farbstoffe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍷 Ab wie viel Alkohol muss der Alkoholgehalt angegeben werden?",
+        "options": [
+          { "text": "Ab 1,2 % vol.", "correct": true },
+          { "text": "Ab 5 % vol." },
+          { "text": "Ab 12 % vol." }
+        ],
+        "explanation": "Schon ab 1,2 Volumenprozent muss der Alkoholgehalt auf der Packung stehen. So erkennst du auch schwach alkoholische Getränke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Auf einem abgepackten Rumpsteak steht eine Chargen-Nummer. Was zeigt sie?",
+        "options": [
+          { "text": "Zu welcher Charge, also Menge gleicher Ware, es gehört.", "correct": true },
+          { "text": "Wie viele Rinder der Bauer insgesamt in seinem Stall hat." },
+          { "text": "Wie hoch der Preis ohne die Mehrwertsteuer wäre." }
+        ],
+        "explanation": "Eine Charge ist eine Menge gleicher Ware, die zusammen hergestellt wurde. Mit der Chargen-Nummer kann man die Ware genau zuordnen, zum Beispiel bei einem Rückruf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Angabe zeigt, wie viel Ware ohne Verpackung in der Packung ist?",
+        "options": [
+          { "text": "Die Nettomenge.", "correct": true },
+          { "text": "Die Verkehrsbezeichnung." },
+          { "text": "Das Mindesthaltbarkeitsdatum." }
+        ],
+        "explanation": "Netto heißt: ohne Verpackung. Die Nettomenge zeigt also, wie viel Lebensmittel wirklich in der Packung ist."
+      }
+    }
+  ]
+}
