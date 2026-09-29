@@ -1,0 +1,165 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-kuechenmaschinen",
+  "title": "Küchenmaschinen: Stand und kompakt",
+  "sort": 603,
+  "intro": "🔌 Elektrische Küchenkleingeräte sind in der Küche unverzichtbare Hilfsmittel. Mit ihnen arbeitest du rationell und effizient. Das heißt: Du sparst Zeit und Kraft.\n\nDie meisten Geräte kannst du vielseitig einsetzen. Sie sind leicht zu bedienen und leicht zu reinigen. Das Grundmaterial ist pflegeleicht: Edelstahl oder Kunststoff. Die Zubehörteile sind meistens spülmaschinenfest.\n\nMERKE: Es gibt zwei Arten. Ein Monogerät hat nur eine bestimmte Funktion, zum Beispiel ein Standmixer oder eine Kaffeemaschine. Ein Multifunktionsgerät hat eine oder zwei Antriebsstellen. Mit Zubehörteilen erledigt es viele Aufgaben. Es vereint mehrere Einzelgeräte in sich.\n\nStandgeräte stehen beim Arbeiten von selbst auf der Arbeitsfläche. Stell sie so auf, dass du sie leicht erreichst. Dann nutzt du sie auch.\n\nDie Standküchenmaschine hat einen Motorblock als Grundmodul. Das Gehäuse ist aus Kunststoff, Aludruckguss oder Edelstahl. Sie hat 600, 800 oder 1400 Watt Leistung.\n\nEs gibt zwei Systeme. Beim Bodenantrieb setzt du das Werkzeug unten in die Rührschüssel auf die Antriebsachse. Die Schüssel hat dafür in der Mitte eine Buchse. Beim Funktionsarm sitzt das Werkzeug oben am Arm. Es dreht sich in Form einer Ellipse durch die Schüssel. Der Arm hat bis zu drei Antriebsstellen. Du kannst ihn abnehmen oder schwenken.\n\nZur Standküchenmaschine gehören drei Werkzeuge. Der Rührbesen ist für festere Massen, zum Beispiel Rührmasse, Brandmasse, Kartoffelpüree oder gekochtes Obst und Gemüse. Der Schlagbesen ist für lockere, luftige Massen, zum Beispiel Biskuitmasse, Sahne und Eischnee. Der Knethaken ist für feste und schwere Teige, zum Beispiel Hefeteig, Brotteig, Mürbeteig, Strudelteig und Nudelteig, und für Pastetenmassen.\n\nDie Kompaktküchenmaschine hat eine Universalschüssel mit Deckel. Sie fasst etwa 2 Liter und sitzt auf dem Kraftantrieb. Der Mixaufsatz fasst etwa 0,75 Liter. Er sitzt auf dem Schnellantrieb. Immer dabei ist ein Universalmesser zum Zerkleinern und Schneiden. Die Maschine hat 400 bis 600 Watt. Die Geschwindigkeit stellst du stufenlos ein.\n\nMERKE: Die Kompaktküchenmaschine hat eine Einschaltsicherung. Sie startet nur, wenn der Deckelbehälter richtig am Motorblock eingerastet ist.\n\nSahne und Eischnee werden in der Kompaktküchenmaschine oft nicht so gut. Sie schlägt weniger Luft hinein. Bei Teigen hältst du die Zeiten aus der Gebrauchsanleitung ein. Denn die Maschine knetet und rührt anders.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔌 Monogerät oder Multifunktionsgerät? Sortiere.",
+        "buckets": [
+          { "id": "mono", "label": "Monogerät", "icon": "1️⃣" },
+          { "id": "multi", "label": "Multifunktionsgerät", "icon": "🔀" }
+        ],
+        "items": [
+          { "text": "Standmixer", "bucket": "mono" },
+          { "text": "Hat nur eine bestimmte Funktion", "bucket": "mono" },
+          { "text": "Hat eine oder zwei Antriebsstellen", "bucket": "multi" },
+          { "text": "Wird mit Zubehörteilen vielseitig", "bucket": "multi" },
+          { "text": "Vereint mehrere Einzelgeräte in sich", "bucket": "multi" }
+        ],
+        "explanation": "Frag dich: Kann das Gerät nur eine Sache oder viele? Ein Monogerät hat genau eine Funktion. Ein Multifunktionsgerät bekommt über seine Antriebsstellen verschiedene Zubehörteile. So ersetzt es mehrere Einzelgeräte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Was stimmt für die meisten elektrischen Küchenkleingeräte?",
+        "options": [
+          { "text": "Pflegeleichtes Material, Zubehör meist spülmaschinenfest.", "correct": true },
+          { "text": "Gehäuse meist aus Holz, das Zubehör darf nur in die Handwäsche." },
+          { "text": "Schwer zu reinigen, dafür nur für eine Aufgabe gebaut." }
+        ],
+        "explanation": "Das Grundmaterial ist pflegeleicht, meistens Edelstahl oder Kunststoff. Die Zubehörteile sind vorwiegend spülmaschinenfest. Die Geräte sind leicht zu bedienen und leicht zu reinigen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📍 Ein Standgerät steht beim Arbeiten auf der Arbeitsfläche. Wo stellst du es am besten hin?",
+        "options": [
+          { "text": "So, dass du es leicht erreichst.", "correct": true },
+          { "text": "Ganz hinten in den Hängeschrank." },
+          { "text": "In den Keller, dort stört es nicht." }
+        ],
+        "explanation": "Standgeräte stehen beim Betrieb eigenständig auf der Arbeitsfläche. Steht das Gerät leicht erreichbar, nutzt du es auch. Ein Gerät im hintersten Schrank holst du selten hervor."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚙️ Bodenantrieb oder Funktionsarm? Sortiere.",
+        "buckets": [
+          { "id": "boden", "label": "Bodenantrieb", "icon": "⬇️" },
+          { "id": "arm", "label": "Funktionsarm", "icon": "🦾" }
+        ],
+        "items": [
+          { "text": "Buchse in der Mitte der Rührschüssel", "bucket": "boden" },
+          { "text": "Werkzeug steckt unten auf der Antriebsachse", "bucket": "boden" },
+          { "text": "Werkzeug dreht sich in Form einer Ellipse", "bucket": "arm" },
+          { "text": "Bis zu drei Antriebsstellen am Arm", "bucket": "arm" },
+          { "text": "Der Arm ist abnehmbar oder schwenkbar", "bucket": "arm" }
+        ],
+        "explanation": "Frag dich: Kommt der Antrieb von unten oder von oben? Beim Bodenantrieb treibt der Motor das Werkzeug durch die Buchse in der Schüsselmitte an. Beim Funktionsarm kommt alles von oben: Der Arm trägt die Antriebsstellen, das Werkzeug kreist in einer Ellipse."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥣 Du arbeitest mit der Standküchenmaschine. Welches Werkzeug nimmst du? Sortiere.",
+        "buckets": [
+          { "id": "ruehr", "label": "Rührbesen", "icon": "🥄" },
+          { "id": "schlag", "label": "Schlagbesen", "icon": "🎈" },
+          { "id": "knet", "label": "Knethaken", "icon": "🪝" }
+        ],
+        "items": [
+          { "text": "Rührmasse", "bucket": "ruehr" },
+          { "text": "Brandmasse", "bucket": "ruehr" },
+          { "text": "Kartoffelpüree", "bucket": "ruehr" },
+          { "text": "Biskuitmasse", "bucket": "schlag" },
+          { "text": "Eischnee", "bucket": "schlag" },
+          { "text": "Hefeteig", "bucket": "knet" },
+          { "text": "Strudelteig", "bucket": "knet" },
+          { "text": "Nudelteig", "bucket": "knet" }
+        ],
+        "explanation": "Frag dich: Wie ist die Masse? Fest und zäh wie ein Teig: Knethaken. Locker und luftig: Schlagbesen, er schlägt Luft hinein. Fest, aber noch rührbar wie Püree oder Rührmasse: Rührbesen. Achtung: Beim Handrührgerät ist das anders, es hat keinen eigenen Schlagbesen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Welche Zahl gehört wozu? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Standküchenmaschine"}, "right": {"text": "600, 800 oder 1400 Watt"} },
+          { "left": {"text": "Kompaktküchenmaschine"}, "right": {"text": "400 bis 600 Watt"} },
+          { "left": {"text": "Universalschüssel"}, "right": {"text": "Etwa 2 Liter"} },
+          { "left": {"text": "Mixaufsatz"}, "right": {"text": "Etwa 0,75 Liter"} }
+        ],
+        "memory": false,
+        "explanation": "Die große Standküchenmaschine hat die meiste Leistung, bis 1400 Watt. Die Kompaktküchenmaschine hat 400 bis 600 Watt. Bei der Kompaktküchenmaschine ist die Universalschüssel mit etwa 2 Litern viel größer als der Mixaufsatz mit etwa 0,75 Litern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔀 Die Kompaktküchenmaschine hat zwei Antriebe. Was sitzt worauf?",
+        "options": [
+          { "text": "Schüssel auf dem Kraftantrieb, Mixaufsatz auf dem Schnellantrieb.", "correct": true },
+          { "text": "Schüssel auf dem Schnellantrieb, Mixaufsatz auf dem Kraftantrieb." },
+          { "text": "Schüssel und Mixaufsatz sitzen beide auf dem Kraftantrieb." }
+        ],
+        "explanation": "In der Universalschüssel wird gerührt, geknetet und geschnitten. Dafür braucht es Kraft. Der Mixaufsatz mixt, dafür braucht es Tempo. Deshalb sitzt er auf dem Schnellantrieb."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛑 Du drückst den Schalter der Kompaktküchenmaschine. Sie läuft nicht an. Was prüfst du?",
+        "options": [
+          { "text": "Ob der Deckelbehälter richtig eingerastet ist.", "correct": true },
+          { "text": "Ob der Knethaken richtig im Mixaufsatz steckt." },
+          { "text": "Ob die Schüssel vorher mit Wasser nass gespült wurde." }
+        ],
+        "explanation": "Die Kompaktküchenmaschine hat eine Einschaltsicherung. Sie startet nur, wenn der Deckelbehälter richtig am Motorblock eingerastet ist. So kannst du nicht in das laufende Messer fassen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍦 Du schlägst Sahne in der Kompaktküchenmaschine. Was passiert oft?",
+        "options": [
+          { "text": "Sie wird nicht so luftig, weil weniger Luft hineinkommt.", "correct": true },
+          { "text": "Sie wird besonders luftig, weil das Messer sehr schnell dreht." },
+          { "text": "Sie wird sofort zu Butter, weil die Schüssel zu klein ist." }
+        ],
+        "explanation": "Die Kompaktküchenmaschine arbeitet mit einem Messer, nicht mit einem Schlagbesen. Dabei kommt weniger Luft in Sahne oder Eischnee. Das Ergebnis ist deshalb nicht immer optimal."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Du knetest einen Teig in der Kompaktküchenmaschine. Wie lange?",
+        "options": [
+          { "text": "So lange, wie es die Gebrauchsanleitung vorgibt.", "correct": true },
+          { "text": "Genauso lange, wie du es mit dem Handrührgerät machst." },
+          { "text": "So lange, bis der Motor ganz warm ist." }
+        ],
+        "explanation": "Die Kompaktküchenmaschine knetet und rührt anders als andere Geräte. Halte deshalb die Vorgabezeiten der Gebrauchsanleitung ein. Dann bekommt der Teig die richtige Beschaffenheit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Eine Kaffeemaschine kann nur Kaffee kochen. Was für ein Gerät ist sie?",
+        "options": [
+          { "text": "Ein Monogerät.", "correct": true },
+          { "text": "Ein Multifunktionsgerät." },
+          { "text": "Ein Handgerät." }
+        ],
+        "explanation": "Ein Monogerät hat nur eine bestimmte Funktion. Die Kaffeemaschine kocht Kaffee, sonst nichts."
+      }
+    }
+  ]
+}

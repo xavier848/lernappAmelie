@@ -1,0 +1,138 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-weichen-marinieren",
+  "title": "Weichen und Marinieren",
+  "sort": 623,
+  "intro": "🫘 Weichen heißt: Du legst getrocknete Lebensmittel in kaltes Wasser. Zum Beispiel Hülsenfrüchte, getrocknetes Gemüse oder Trockenobst. Hülsenfrüchte sind zum Beispiel Bohnen, Linsen und Kichererbsen. Beim Weichen nehmen sie wieder Wasser auf. Erst dann kannst du sie garen.\n\nMERKE: Das Weichwasser verwendest du mit. So bleiben die Nährstoffe erhalten. Ausnahme: geschwefelte Früchte.\n\nGeschwefelte Früchte sind mit Schwefel haltbar gemacht. Der Schwefel geht beim Einweichen ins Wasser. Darum verwendest du dieses Weichwasser nicht mit.\n\nAuch Gelatine weichst du in kaltem Wasser ein. Dort quillt sie.\n\nMarinieren heißt: Du legst ein Lebensmittel in eine meist säurehaltige Flüssigkeit mit Gewürzen. Diese Flüssigkeit heißt Marinade. Du nimmst zum Beispiel verdünnten Essig, Wein, Buttermilch oder Öl. Wichtig: Das Lebensmittel muss ganz mit Marinade bedeckt sein.\n\nSäure und Gewürze dringen in das Fleisch ein. Das hat drei Folgen. Erstens: Das Fleisch wird zarter. Man sagt auch: mürbe. Zweitens: Es wird länger haltbar, weil sich die Zellstruktur verändert. Drittens: Es schmeckt anders.\n\nMERKE: Sauerbraten marinierst du 4 bis 7 Tage kühl. Bratheringe legst du nach dem Braten 1 bis 2 Tage in eine gewürzte Essigmarinade. Fleisch, Fisch und Gemüse zum Grillen marinierst du einige Stunden.\n\nBeim Grillgut hat das Marinieren einen Vorteil: Die Gewürze dringen ein. So verbrennen sie auf dem Grill nicht.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫘 Du willst getrocknete Bohnen kochen. Was machst du vorher?",
+        "options": [
+          { "text": "Du weichst sie in kaltem Wasser ein.", "correct": true },
+          { "text": "Du brätst sie kurz in heißem Fett an." },
+          { "text": "Du blanchierst sie in kochendem Wasser." }
+        ],
+        "explanation": "Getrocknete Lebensmittel haben kaum noch Wasser. Beim Weichen in kaltem Wasser nehmen sie wieder Wasser auf. Erst dann kannst du Hülsenfrüchte wie Bohnen garen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Die Kichererbsen haben über Nacht eingeweicht. Was machst du mit dem Weichwasser?",
+        "options": [
+          { "text": "Du verwendest es beim Kochen mit.", "correct": true },
+          { "text": "Du gießt es weg, weil es schmutzig ist." },
+          { "text": "Du spülst damit nur die Schüssel aus." }
+        ],
+        "explanation": "Beim Weichen gehen Nährstoffe ins Wasser über. Verwendest du das Weichwasser mit, bleiben sie im Essen. Das nennt man Nährstofferhaltung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍑 Du weichst getrocknete Aprikosen ein. Sie sind geschwefelt. Was gilt jetzt für das Weichwasser?",
+        "options": [
+          { "text": "Du verwendest es nicht mit.", "correct": true },
+          { "text": "Du verwendest es wie immer mit." },
+          { "text": "Du kochst daraus einen Sirup." }
+        ],
+        "explanation": "Normalerweise verwendest du das Weichwasser mit. Geschwefelte Früchte sind die Ausnahme. Der Schwefel geht beim Einweichen ins Wasser. Darum nimmst du dieses Wasser nicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Weichen oder Marinieren? Sortiere.",
+        "buckets": [
+          { "id": "weichen", "label": "Weichen", "icon": "💧" },
+          { "id": "marinieren", "label": "Marinieren", "icon": "🫙" }
+        ],
+        "items": [
+          { "text": "Getrocknete Kichererbsen", "bucket": "weichen" },
+          { "text": "Getrocknete Apfelringe", "bucket": "weichen" },
+          { "text": "Getrocknete Tomaten", "bucket": "weichen" },
+          { "text": "Rindfleisch für Sauerbraten", "bucket": "marinieren" },
+          { "text": "Gebratene Heringe", "bucket": "marinieren" },
+          { "text": "Hähnchenspieße zum Grillen", "bucket": "marinieren" }
+        ],
+        "explanation": "Frag dich: Ist das Lebensmittel getrocknet und muss wieder Wasser aufnehmen? Dann weichst du es. Soll es Säure und Gewürze aufnehmen? Dann marinierst du es."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫙 Was bedeutet Marinieren genau?",
+        "options": [
+          { "text": "Einlegen in eine meist säurehaltige Flüssigkeit mit Gewürzen.", "correct": true },
+          { "text": "Einlegen in kaltes Wasser, bis das Lebensmittel wieder weich ist." },
+          { "text": "Wenden in Mehl, verquirltem Ei und zuletzt in Paniermehl." }
+        ],
+        "explanation": "Beim Marinieren nimmt das Lebensmittel Säure und Gewürze auf. Typische Marinaden sind verdünnter Essig, Wein, Buttermilch oder Öl. Einlegen in kaltes Wasser ist Weichen. Mehl, Ei und Paniermehl gehören zum Panieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Welche Wirkung hat eine Marinade auf Fleisch nicht?",
+        "options": [
+          { "text": "Das Fleisch wird fettärmer.", "correct": true },
+          { "text": "Das Fleisch wird zarter." },
+          { "text": "Das Fleisch hält länger." },
+          { "text": "Das Fleisch schmeckt anders." }
+        ],
+        "explanation": "Säure und Gewürze dringen in das Fleisch ein. Das hat drei Folgen: Es wird zarter, es wird länger haltbar und der Geschmack verändert sich. Fett nimmt eine Marinade nicht heraus. Eine Marinade mit Öl bringt sogar Fett dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔬 Mariniertes Fleisch hält länger. Woran liegt das?",
+        "options": [
+          { "text": "Die Säure verändert die Zellstruktur.", "correct": true },
+          { "text": "Das Öl tötet alle Keime sofort ab." },
+          { "text": "Die Gewürze ziehen das Fett heraus." }
+        ],
+        "explanation": "Die Säure der Marinade dringt in das Fleisch ein und verändert die Zellstruktur. Dadurch wird es länger haltbar und auch mürbe. Marinieren ersetzt aber nicht das Kühlen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⏳ Wie lange wird mariniert? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥩 Sauerbraten"}, "right": {"text": "4 bis 7 Tage, kühl"} },
+          { "left": {"text": "🐟 Bratheringe"}, "right": {"text": "1 bis 2 Tage, nach dem Braten"} },
+          { "left": {"text": "🍢 Grillgut"}, "right": {"text": "Einige Stunden"} }
+        ],
+        "memory": false,
+        "explanation": "Der Sauerbraten braucht am längsten, denn die Marinade soll das große Stück Fleisch ganz durchziehen. Bratheringe werden erst gebraten und dann eingelegt. Beim Grillgut reichen einige Stunden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍢 Warum marinierst du Grillgut einige Stunden vor dem Grillen?",
+        "options": [
+          { "text": "Die Gewürze dringen ein und verbrennen dann nicht.", "correct": true },
+          { "text": "Das Grillgut wird dann außen schneller braun." },
+          { "text": "Das Fett spritzt dann beim Grillen nicht mehr." }
+        ],
+        "explanation": "Liegen die Gewürze nur außen auf, verbrennen sie in der großen Hitze. In der Marinade dringen sie in das Grillgut ein. Dort sind sie geschützt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫙 Du legst einen Sauerbraten in die Marinade. Was ist dabei wichtig?",
+        "options": [
+          { "text": "Das Fleisch ist ganz mit Marinade bedeckt.", "correct": true },
+          { "text": "Das Fleisch liegt nur halb in der Marinade." },
+          { "text": "Die Schüssel steht offen in der warmen Küche." }
+        ],
+        "explanation": "Die Marinade wirkt nur dort, wo sie das Fleisch berührt. Darum muss das Fleisch ganz bedeckt sein. Einen Sauerbraten marinierst du außerdem kühl."
+      }
+    }
+  ]
+}

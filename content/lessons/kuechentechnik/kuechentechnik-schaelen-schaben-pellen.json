@@ -1,0 +1,150 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-schaelen-schaben-pellen",
+  "title": "Schälen, Schaben, Pellen: die Technik",
+  "sort": 622,
+  "intro": "🔪 Beim Schälen kommt es auf die Form des Lebensmittels an.\n\nRunde Formen wie Äpfel, Kartoffeln und Kohlrabi schälst du spiralförmig. Du drehst das Lebensmittel dabei in der Hand. Du setzt möglichst nicht ab. Das spart Arbeitszeit.\n\nLängliche Formen wie Salatgurken, Spargel und Rettich schälst du in Längsrichtung. Du schälst also von oben nach unten.\n\nUngenießbare Schalen entfernst du mit einem Messer mit gebogener oder gerader Klinge. Ein Schälmesser mit gebogener Klinge heißt Tourniermesser.\n\nSellerie, Steckrüben und Ananas schälst du mit einem großen Küchenmesser auf dem Schneidebrett. Das gilt auch für Orangen und Grapefruits, die du filetieren willst.\n\nSo gehst du vor, zum Beispiel beim Sellerie: Zuerst wäschst du ihn vor. Dann schneidest du die Unterseite und die Oberseite gerade ab. Das sind der Wurzelansatz und der Blattansatz. So liegt der Sellerie sicher auf dem Brett. Jetzt entfernst du die Schale mit mehreren Schnitten von oben nach unten. Dabei drehst du ihn nach rechts weiter, bis du wieder beim ersten Schnitt bist.\n\nSchaben ist die sparsamste Art, eine Schale zu entfernen. Aber es kostet viel Zeit. Du schabst zartes, junges Wurzelgemüse, zum Beispiel Möhren oder Rettich. Die Spitze stützt du auf dem Brett ab. Dann schabst du mit einem Küchenmesser mit gerader Klinge in Längsrichtung von oben nach unten.\n\nMERKE: Schälen heißt: Schale von rohem Obst und Gemüse entfernen. Pellen heißt: Schale oder Haut von gegartem oder blanchiertem Obst und Gemüse entfernen.\n\nBei gegarten Lebensmitteln sagt man Pellen. Zum Beispiel bei Pellkartoffeln, Roter Bete und Schwarzwurzeln. Mit der Pellkartoffelgabel kannst du sie auch heiß pellen.\n\nBei blanchierten Lebensmitteln sagt man Abziehen oder Häuten. Blanchieren heißt: kurz in siedendes Wasser geben. Das machst du zum Beispiel bei Tomaten, Pfirsichen, Aprikosen und Mandeln.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Was ist der Unterschied zwischen Schälen und Pellen?",
+        "options": [
+          { "text": "Schälen: roh. Pellen: gegart oder blanchiert.", "correct": true },
+          { "text": "Schälen: mit dem Messer. Pellen: mit dem Sparschäler." },
+          { "text": "Schälen: bei Gemüse. Pellen: nur bei Obst und Nüssen." }
+        ],
+        "explanation": "Frag dich: Ist das Lebensmittel roh? Dann schälst du es. Wurde es gegart oder blanchiert? Dann pellst du es. Das Werkzeug entscheidet nicht über den Namen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔪 Wie schälst du es? Sortiere.",
+        "buckets": [
+          { "id": "spirale", "label": "Spiralförmig in der Hand", "icon": "🌀" },
+          { "id": "laengs", "label": "Längs, von oben nach unten", "icon": "⬇️" },
+          { "id": "brett", "label": "Großes Messer auf dem Brett", "icon": "🔪" }
+        ],
+        "items": [
+          { "text": "Apfel", "bucket": "spirale" },
+          { "text": "Kartoffel", "bucket": "spirale" },
+          { "text": "Kohlrabi", "bucket": "spirale" },
+          { "text": "Salatgurke", "bucket": "laengs" },
+          { "text": "Spargel", "bucket": "laengs" },
+          { "text": "Rettich", "bucket": "laengs" },
+          { "text": "Sellerie", "bucket": "brett" },
+          { "text": "Ananas", "bucket": "brett" }
+        ],
+        "explanation": "Schau auf die Form. Ist das Lebensmittel rund und passt in die Hand? Dann schälst du spiralförmig. Ist es länglich? Dann schälst du längs. Ist es groß, hart oder hat es eine dicke Schale? Dann nimmst du das große Messer auf dem Brett."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Du schälst einen Apfel spiralförmig. Du drehst ihn in der Hand und setzt möglichst nicht ab. Warum?",
+        "options": [
+          { "text": "Das spart Arbeitszeit.", "correct": true },
+          { "text": "So bleiben mehr Vitamine im Apfel." },
+          { "text": "So wird der Apfel nicht braun." }
+        ],
+        "explanation": "Wer nicht absetzt, schält in einem Zug. Das geht schneller. So schälst du runde Formen wie Äpfel, Kartoffeln und Kohlrabi."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥔 Du schälst einen Sellerie mit dem großen Küchenmesser. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🚿 Den Sellerie vorwaschen." },
+          { "text": "🔪 Unterseite und Oberseite gerade abschneiden." },
+          { "text": "⬇️ Die Schale mit Schnitten von oben nach unten entfernen." },
+          { "text": "🔄 Nach rechts weiterdrehen, bis du beim ersten Schnitt bist." }
+        ],
+        "explanation": "Erst muss der Schmutz weg, sonst kommt er beim Schälen an das Saubere. Dann brauchst du eine gerade, sichere Standfläche. Erst dann schneidest du die Schale rundherum ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Beim Sellerie schneidest du zuerst den Wurzelansatz und den Blattansatz gerade ab. Warum?",
+        "options": [
+          { "text": "Damit er sicher auf dem Brett liegt.", "correct": true },
+          { "text": "Weil dort die meisten Vitamine sitzen." },
+          { "text": "Damit er beim Kochen schneller gar wird." }
+        ],
+        "explanation": "Mit zwei geraden Schnittflächen kippelt der Sellerie nicht mehr. So rutscht er beim Schälen nicht weg. Das schützt auch deine Finger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Du hast junge, zarte Möhren. Mit welcher Technik entfernst du die Schale am sparsamsten?",
+        "options": [
+          { "text": "Mit Schaben.", "correct": true },
+          { "text": "Mit dem Sparschäler." },
+          { "text": "Mit dem großen Küchenmesser." }
+        ],
+        "explanation": "Schaben ist die sparsamste Art, eine Schale zu entfernen. Du nimmst nur die hauchdünne Schale ab. Das geht bei zartem, jungem Wurzelgemüse wie Möhren oder Rettich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Schaben ist sehr sparsam. Warum schabst du trotzdem nicht jedes Gemüse?",
+        "options": [
+          { "text": "Schaben kostet viel Zeit.", "correct": true },
+          { "text": "Schaben geht nur bei gegartem Gemüse." },
+          { "text": "Beim Schaben gehen mehr Vitamine verloren." }
+        ],
+        "explanation": "Schaben ist sparsam, aber zeitintensiv. Darum lohnt es sich nur bei zartem, jungem Wurzelgemüse. Bei großen Mengen schälst du schneller."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Wie schabst du eine junge Möhre richtig?",
+        "options": [
+          { "text": "Spitze aufs Brett stützen, mit gerader Klinge von oben nach unten.", "correct": true },
+          { "text": "In der Hand drehen und rundherum spiralförmig mit dem Messer schaben." },
+          { "text": "Quer aufs Brett legen und mit gebogener Klinge von links nach rechts." }
+        ],
+        "explanation": "Beim Schaben arbeitest du in Längsrichtung. Die Möhre stützt du mit der Spitze auf dem Brett ab. So hat sie festen Halt. Dann schabst du mit einem Küchenmesser mit gerader Klinge von oben nach unten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍅 Wie heißt es hier? Sortiere.",
+        "buckets": [
+          { "id": "schaelen", "label": "Schälen", "icon": "🔪" },
+          { "id": "pellen", "label": "Pellen", "icon": "🥔" },
+          { "id": "haeuten", "label": "Abziehen oder Häuten", "icon": "🍅" }
+        ],
+        "items": [
+          { "text": "Rohe Kartoffeln", "bucket": "schaelen" },
+          { "text": "Roher Kohlrabi", "bucket": "schaelen" },
+          { "text": "Gekochte Pellkartoffeln", "bucket": "pellen" },
+          { "text": "Gegarte Rote Bete", "bucket": "pellen" },
+          { "text": "Gegarte Schwarzwurzeln", "bucket": "pellen" },
+          { "text": "Blanchierte Tomaten", "bucket": "haeuten" },
+          { "text": "Blanchierte Pfirsiche", "bucket": "haeuten" },
+          { "text": "Blanchierte Mandeln", "bucket": "haeuten" }
+        ],
+        "explanation": "Schau auf das Wort vor dem Lebensmittel. Roh bedeutet Schälen. Gegart oder gekocht bedeutet Pellen. Blanchiert bedeutet Abziehen oder Häuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Du willst Pellkartoffeln noch heiß pellen. Was hilft dir dabei?",
+        "options": [
+          { "text": "Die Pellkartoffelgabel.", "correct": true },
+          { "text": "Der Sparschäler." },
+          { "text": "Der Eierschneider." }
+        ],
+        "explanation": "Mit der Pellkartoffelgabel hältst du die heiße Kartoffel fest. So kannst du sie pellen, ohne dir die Finger zu verbrennen."
+      }
+    }
+  ]
+}

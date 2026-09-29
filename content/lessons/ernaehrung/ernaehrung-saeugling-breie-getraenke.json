@@ -1,0 +1,137 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-saeugling-breie-getraenke",
+  "title": "Babybrei: Rezepte und Getränke",
+  "sort": 565,
+  "intro": "🥣 So machst du die drei Breie selbst. Die Mengen gelten immer für eine Portion.\n\nErster Brei: Gemüse-Kartoffel-Fleisch-Brei. Dafür nimmst du 90 bis 100 g Gemüse, 40 bis 60 g Kartoffeln, 30 bis 45 g Obstsaft, 8 bis 10 g Rapsöl und 20 bis 30 g Fleisch.\n\nZweiter Brei: Vollmilch-Getreide-Brei. Dafür nimmst du 200 g Vollmilch, 20 g Getreideflocken und 20 g Obstsaft oder Obstpüree.\n\nDritter Brei: Getreide-Obst-Brei. Dafür nimmst du 20 g Getreideflocken, 90 g Wasser, 100 g Obst und 5 g Butter.\n\nAus dem Handel gibt es zum Beispiel Baby-Menü, Junior-Menü, Milchfertigbrei und Getreide-Obst-Brei.\n\nMERKE: Außer der pasteurisierten Vollmilch im Milchbrei bekommt das Baby weder Joghurt noch Quark. Sonst bekommt es mehr Eiweiß, als die DGE empfiehlt.\n\nDie DGE ist die Deutsche Gesellschaft für Ernährung. Pasteurisiert heißt: Die Milch wurde kurz erhitzt, damit Keime abgetötet werden.\n\nMit dem dritten Brei braucht das Baby zusätzlich Getränke. Denn die Mahlzeiten enthalten jetzt weniger Wasser. Das Getränk gleicht den Wasserhaushalt aus.\n\nMERKE: Gute Getränke sind Wasser, Kräutertee und Früchtetee, immer ohne Zucker.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥕 Erster Brei: Wie viel kommt in eine Portion Gemüse-Kartoffel-Fleisch-Brei? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥦 Gemüse"}, "right": {"text": "90 bis 100 g"} },
+          { "left": {"text": "🥔 Kartoffeln"}, "right": {"text": "40 bis 60 g"} },
+          { "left": {"text": "🧃 Obstsaft"}, "right": {"text": "30 bis 45 g"} },
+          { "left": {"text": "🫒 Rapsöl"}, "right": {"text": "8 bis 10 g"} },
+          { "left": {"text": "🥩 Fleisch"}, "right": {"text": "20 bis 30 g"} }
+        ],
+        "explanation": "Gemüse ist der Hauptteil, darum die größte Menge. Danach kommen Kartoffeln und Obstsaft. Fleisch gibt es nur wenig. Vom Öl reicht ein kleiner Schuss."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥛 Zweiter Brei: Wie viel Gramm Vollmilch kommen in eine Portion Vollmilch-Getreide-Brei?",
+        "answer": 200,
+        "hint": "Die Milch ist die größte Zutat. Die Zahl endet auf zwei Nullen.",
+        "explanation": "In den Vollmilch-Getreide-Brei kommen 200 g Vollmilch, 20 g Getreideflocken und 20 g Obstsaft oder Obstpüree."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Dritter Brei: Was gehört in eine Portion Getreide-Obst-Brei?",
+        "options": [
+          { "text": "20 g Getreideflocken, 90 g Wasser, 100 g Obst, 5 g Butter", "correct": true },
+          { "text": "20 g Getreideflocken, 90 g Vollmilch, 100 g Obst, 5 g Butter" },
+          { "text": "20 g Getreideflocken, 90 g Wasser, 100 g Obst, 5 g Zucker" },
+          { "text": "20 g Getreideflocken, 90 g Wasser, 100 g Banane, 10 g Rapsöl" }
+        ],
+        "explanation": "Der Getreide-Obst-Brei wird mit Wasser gemacht, nicht mit Milch. Dazu kommt ein kleines Stück Butter. Zucker gehört nicht hinein. Bananen gibt es nicht täglich, weil sie viel Zucker haben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Welche Milch nimmst du für den Vollmilch-Getreide-Brei?",
+        "options": [
+          { "text": "Pasteurisierte Vollmilch.", "correct": true },
+          { "text": "Rohmilch direkt vom Bauernhof." },
+          { "text": "Fettarme Milch mit wenig Fett." },
+          { "text": "Kondensmilch aus der Dose." }
+        ],
+        "explanation": "Pasteurisiert heißt: kurz erhitzt, damit Keime abgetötet werden. Rohmilch kann Keime enthalten. Der Name sagt es schon: Für den Brei nimmst du Vollmilch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚫 Warum bekommt das Baby außer der Vollmilch keinen Joghurt und keinen Quark?",
+        "options": [
+          { "text": "Sonst bekommt es mehr Eiweiß, als die DGE empfiehlt.", "correct": true },
+          { "text": "Sonst bekommt es zu wenig Calcium für die neuen Knochen." },
+          { "text": "Joghurt und Quark sind für Babys zu sauer." },
+          { "text": "Joghurt und Quark enthalten zu viel Zucker." }
+        ],
+        "explanation": "Joghurt und Quark sind Milchprodukte mit viel Eiweiß. Zusammen mit der Vollmilch wäre das zu viel. Dann wären die Empfehlungen der DGE für Eiweiß überschritten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Welche Produkte sind industriell hergestellte Babykost, also fertiger Brei?",
+        "options": [
+          { "text": "Baby-Menü, Junior-Menü, Milchfertigbrei", "correct": true },
+          { "text": "Pre-Nahrung, 1-Nahrung, HA-Nahrung" },
+          { "text": "Knäckebrot, Getreideflocken, Gebäck" },
+          { "text": "Kräutertee, Früchtetee, Wasser" }
+        ],
+        "explanation": "Baby-Menü, Junior-Menü, Milchfertigbrei und Getreide-Obst-Brei sind fertige Breie aus dem Handel. Pre-, 1- und HA-Nahrung sind dagegen Milchnahrung für die Flasche."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥤 Ab dem wievielten Brei braucht das Baby zusätzlich Getränke? Tippe die Zahl.",
+        "answer": 3,
+        "hint": "Es ist der letzte der drei Breie, der Getreide-Obst-Brei.",
+        "explanation": "Mit dem dritten Brei, dem Getreide-Obst-Brei, braucht das Baby zusätzlich Getränke. Vorher reicht die Flüssigkeit aus Milch und Brei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Irgendwann braucht das Baby zusätzlich etwas zu trinken. Warum?",
+        "options": [
+          { "text": "Die Mahlzeiten enthalten jetzt weniger Wasser.", "correct": true },
+          { "text": "Das Baby schwitzt mehr, weil es jetzt krabbelt." },
+          { "text": "Die Getränke ersetzen ab jetzt die Breie." },
+          { "text": "Die Getränke sollen das Baby satt machen." }
+        ],
+        "explanation": "Frag dich: Woher bekam das Baby bisher sein Wasser? Vor allem aus der Milch. Die Breie enthalten weniger Wasser. Das Getränk gleicht den Wasserhaushalt wieder aus."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍵 Was darf das Baby trinken? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Geeignet", "icon": "✅" },
+          { "id": "nein", "label": "Nicht geeignet", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Wasser", "bucket": "ja" },
+          { "text": "Kräutertee ohne Zucker", "bucket": "ja" },
+          { "text": "Früchtetee ohne Zucker", "bucket": "ja" },
+          { "text": "Früchtetee mit Zucker", "bucket": "nein" },
+          { "text": "Limonade", "bucket": "nein" },
+          { "text": "Kakao mit Zucker", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich bei jedem Getränk: Ist Zucker drin? Wasser und ungesüßte Tees sind richtig. Alles mit Zucker ist nicht geeignet, auch wenn es Tee ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Für wie viel gelten die Mengen in den Brei-Rezepten?",
+        "options": [
+          { "text": "Für eine Portion.", "correct": true },
+          { "text": "Für einen ganzen Tag." },
+          { "text": "Für eine ganze Woche." }
+        ],
+        "explanation": "Die Mengen sind Vorschläge für eine Portion. Kochst du auf Vorrat, nimmst du die Mengen mal der Zahl der Portionen und frierst den Rest ein."
+      }
+    }
+  ]
+}

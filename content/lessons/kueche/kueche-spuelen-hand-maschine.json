@@ -1,0 +1,135 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-spuelen-hand-maschine",
+  "title": "Hand oder Maschine? Spülen im Vergleich",
+  "sort": 661,
+  "intro": "Du kannst Geschirr von Hand spülen oder in der Geschirrspülmaschine. Was ist günstiger?\n\nBeim Spülen von Hand kommt es auf die Person an. Manche spülen sparsam, manche nicht. Wichtig ist: Wie oft wird das Wasser gewechselt? Wird unter fließendem Wasser gespült? Hier kann man viele Ressourcen sparen. Ressourcen sind zum Beispiel Wasser und Energie.\n\nIn den letzten Jahrzehnten haben viele Stellen die Kosten verglichen: die Stiftung Warentest, das Forum Nachhaltiges Waschen, der REFA-Fachausschuss und die Verbraucherzentralen. Das Ergebnis ist inzwischen eindeutig: Die Geschirrspülmaschine ist günstiger.\n\nDie Maschinen wurden technisch immer besser. In den letzten 20 Jahren sind ihre Kosten für Wasser und Energie um die Hälfte gesunken.\n\nDie Universität Bonn hat mit Daten der Stiftung Warentest gerechnet: Ein Spülgang in der Maschine kostet etwa 35 Cent. Der gleiche Abwasch von Hand kostet etwa 66 Cent. Darin sind Wasser, Spülmittel und Energie enthalten.\n\nEine Tabelle im Buch vergleicht einen Spülgang: Von Hand brauchst du 45 Liter Wasser und 2 kWh Strom. Die Maschine braucht nur 10 Liter Wasser und 0,85 kWh Strom. kWh heißt Kilowattstunde. So misst man den Stromverbrauch. Von Hand arbeitest du 60 Minuten, mit der Maschine nur 15 Minuten.\n\nBei täglichem Spülen kostet das im Jahr: von Hand 383,25 €, mit der Maschine 189,80 €. Das ist ohne Personalkosten gerechnet. Mit Personalkosten ist der Unterschied viel größer: 4.489,50 € im Jahr. Denn Arbeitszeit kostet Lohn, im Beispiel 15,70 € pro Stunde.\n\nMERKE: Die Geschirrspülmaschine spart Wasser, Strom, Zeit und Geld.\n\nTipp: Im Internet gibt es einen Spülvergleichsrechner. Damit rechnest du die Kosten für deinen eigenen Haushalt aus.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Stiftung Warentest, Verbraucherzentralen, das Forum Nachhaltiges Waschen und der REFA-Fachausschuss haben Spülkosten verglichen. Was ist das Ergebnis?",
+        "options": [
+          { "text": "Die Geschirrspülmaschine ist eindeutig günstiger.", "correct": true },
+          { "text": "Das Spülen von Hand ist eindeutig günstiger." },
+          { "text": "Beide kosten auf Dauer genau gleich viel." },
+          { "text": "Die Maschine ist nur für große Familien günstiger." }
+        ],
+        "explanation": "Das Ergebnis ist inzwischen eindeutig: Die Geschirrspülmaschine ist günstiger. Sie braucht weniger Wasser, weniger Strom und weniger Arbeitszeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎓 Die Uni Bonn hat mit Daten der Stiftung Warentest gerechnet. Was kostet ein Spülgang etwa?",
+        "options": [
+          { "text": "Maschine etwa 35 Cent, gleicher Abwasch von Hand etwa 66 Cent.", "correct": true },
+          { "text": "Maschine etwa 66 Cent, gleicher Abwasch von Hand etwa 35 Cent." },
+          { "text": "Maschine etwa 35 Cent, gleicher Abwasch von Hand etwa 45 Cent." },
+          { "text": "Maschine und Hand kosten jeweils etwa 50 Cent pro Abwasch." }
+        ],
+        "explanation": "Ein Spülgang in der Maschine kostet etwa 35 Cent. Der gleiche Abwasch von Hand kostet etwa 66 Cent. Darin sind Wasser, Spülmittel und Energie enthalten. Von Hand ist es also fast doppelt so teuer."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📊 Was braucht ein Spülgang laut Tabelle? Verbinde.",
+        "pairs": [
+          { "left": {"text": "💧 Wasser von Hand"}, "right": {"text": "45 Liter"} },
+          { "left": {"text": "💧 Wasser mit Maschine"}, "right": {"text": "10 Liter"} },
+          { "left": {"text": "⚡ Strom von Hand"}, "right": {"text": "2 kWh"} },
+          { "left": {"text": "⚡ Strom mit Maschine"}, "right": {"text": "0,85 kWh"} },
+          { "left": {"text": "⏱️ Arbeitszeit von Hand"}, "right": {"text": "60 Minuten"} },
+          { "left": {"text": "⏱️ Arbeitszeit mit Maschine"}, "right": {"text": "15 Minuten"} }
+        ],
+        "explanation": "Die Regel: Die Maschine braucht bei allem weniger. Die kleinere Zahl gehört also immer zur Maschine. Beim Wasser ist der Unterschied am größten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚰 Du spülst eine Woche lang jeden Tag einmal von Hand. Wie viele Liter Wasser brauchst du laut Tabelle insgesamt?",
+        "answer": 315,
+        "hint": "Von Hand brauchst du 45 Liter pro Spülgang.\nEine Woche hat 7 Tage.\n45 × 7 = ?",
+        "explanation": "45 Liter × 7 Tage = 315 Liter. Die Maschine bräuchte in derselben Woche nur 10 × 7 = 70 Liter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Wie haben sich die Kosten für Wasser und Energie beim Maschinenspülen in den letzten 20 Jahren verändert?",
+        "options": [
+          { "text": "Sie sind um die Hälfte gesunken.", "correct": true },
+          { "text": "Sie haben sich verdoppelt." },
+          { "text": "Sie sind gleich geblieben." },
+          { "text": "Sie sind um ein Viertel gestiegen." }
+        ],
+        "explanation": "Die Maschinen wurden technisch weiterentwickelt. Deshalb sind ihre Kosten für Wasser und Energie in den letzten 20 Jahren um die Hälfte gesunken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Warum spart die eine Person beim Spülen von Hand viel und die andere wenig?",
+        "options": [
+          { "text": "Es kommt darauf an, wie oft sie das Wasser wechselt oder ob sie unter fließendem Wasser spült.", "correct": true },
+          { "text": "Es kommt nur auf die Marke des Spülmittels an, teures Spülmittel macht das Spülen teurer." },
+          { "text": "Es kommt nur auf die Tageszeit an, denn abends ist das Wasser in der Leitung billiger." },
+          { "text": "Es kommt nur auf die Größe der Spüle an, ein großes Becken braucht mehr Spülmittel." }
+        ],
+        "explanation": "Handspülen läuft je nach Person unterschiedlich sparsam ab. Wer oft das Wasser wechselt oder unter fließendem Wasser spült, verbraucht viel mehr Wasser und Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Du spülst jeden Tag einmal. Was kostet das im Jahr ohne Personalkosten?",
+        "options": [
+          { "text": "Von Hand 383,25 €, mit der Maschine 189,80 €.", "correct": true },
+          { "text": "Von Hand 189,80 €, mit der Maschine 383,25 €." },
+          { "text": "Von Hand und mit der Maschine je etwa 290 €." },
+          { "text": "Von Hand 383,25 €, mit der Maschine 383,25 €." }
+        ],
+        "explanation": "Ohne Personalkosten kostet tägliches Spülen von Hand 383,25 € im Jahr. Mit der Maschine sind es nur 189,80 €. Von Hand ist es also etwa doppelt so teuer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👩‍🍳 Mit Personalkosten ist der Unterschied viel größer: 4.489,50 € im Jahr. Warum?",
+        "options": [
+          { "text": "Von Hand dauert der Abwasch viel länger. Jede Arbeitsstunde kostet Lohn.", "correct": true },
+          { "text": "Die Maschine braucht überhaupt keinen Strom und kein Wasser." },
+          { "text": "Von Hand kauft man sehr viel mehr Spülmittel als für die Maschine." },
+          { "text": "Für die Maschine braucht man jedes Jahr einen neuen Wasseranschluss." }
+        ],
+        "explanation": "Personalkosten sind die Kosten für die Arbeitszeit. Von Hand brauchst du viermal so lange wie mit der Maschine. Im Beispiel kostet jede Stunde 15,70 € Lohn. Darum wächst der Unterschied mit Personalkosten so stark."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Du willst die Spülkosten für deinen eigenen Haushalt ausrechnen. Was hilft dir dabei?",
+        "options": [
+          { "text": "Ein Spülvergleichsrechner im Internet.", "correct": true },
+          { "text": "Ein Blick auf die Packung Spülmittel." },
+          { "text": "Die Anzeige an der Spülmaschine." },
+          { "text": "Das Gewicht des Geschirrs." }
+        ],
+        "explanation": "Im Internet gibt es einen Spülvergleichsrechner. Er rechnet die Kosten für deinen eigenen Haushalt aus. Es gibt dort auch einen Spülmaschinenrechner für die Kosten der Maschine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Was braucht pro Spülgang weniger Wasser und weniger Strom?",
+        "options": [
+          { "text": "Die Geschirrspülmaschine.", "correct": true },
+          { "text": "Das Spülen von Hand." }
+        ],
+        "explanation": "Die Geschirrspülmaschine braucht weniger Wasser, weniger Strom und weniger Arbeitszeit. Deshalb ist sie auch günstiger."
+      }
+    }
+  ]
+}

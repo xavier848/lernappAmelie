@@ -1,0 +1,112 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-speisen-praesentieren",
+  "title": "Speisen präsentieren: Das Auge isst mit",
+  "sort": 640,
+  "intro": "Nach der Zubereitung werden Speisen angerichtet und serviert. Hier gilt der Spruch: „Das Auge isst mit.“ Das heißt: Das Aussehen einer Speise ist wichtig für den Genuss.\n\nEine gut zubereitete Speise richtest du ansprechend an. Nur dann kommen die Speisenkomponenten gut zur Geltung. Speisenkomponenten sind die einzelnen Teile eines Gerichts. Zum Beispiel Fleisch, Beilage, Gemüse und Soße.\n\nDer Gast sieht die Speise zuerst. Über das Aussehen bekommt er einen ersten Eindruck. Zum Beispiel denkt er: „Das sieht aber gut aus!“ Außerdem regt ein schönes Aussehen den Appetit an.\n\nBeim Anrichten arbeitest du sauber. Im Buch wird zum Beispiel mit Handschuh angerichtet. Das Geschirr ist sauber und hat keinen Schaden. Also keinen Sprung und keine abgeschlagene Ecke.\n\nBei der Ausgabe sind warme Speisen mindestens 65 °C warm. Die Menge passt zu der Personengruppe, die isst. Das Servicepersonal ist umsichtig und freundlich. Es geht auf die Wünsche der Gäste ein.\n\nBeispiele aus dem Buch: Tomatensuppe wird in Suppentassen portioniert. Gebäck wird auf einer Gebäckplatte angerichtet.\n\nMERKE: Das Auge isst mit. Das Aussehen gibt dem Gast den ersten Eindruck. Es regt den Appetit an.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👁️ Was bedeutet der Spruch „Das Auge isst mit“?",
+        "options": [
+          { "text": "Das Aussehen einer Speise ist wichtig für den Genuss.", "correct": true },
+          { "text": "Beim Essen soll man immer auf den eigenen Teller schauen." },
+          { "text": "Nur große Portionen sehen gut aus und machen satt." }
+        ],
+        "explanation": "Wir essen nicht nur mit dem Mund. Zuerst sehen wir die Speise. Sieht sie schön aus, freuen wir uns schon vor dem ersten Bissen darauf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was sind Speisenkomponenten?",
+        "options": [
+          { "text": "Die einzelnen Teile eines Gerichts, wie Fleisch, Beilage und Gemüse.", "correct": true },
+          { "text": "Die Gewürze, die man zum Schluss über das fertige Essen streut." },
+          { "text": "Die Geschirrteile, auf denen das Essen zum Gast gebracht wird." }
+        ],
+        "explanation": "Eine Komponente ist ein Bestandteil. Ein Gericht besteht aus mehreren Speisenkomponenten, zum Beispiel Fleisch, Beilage, Gemüse und Soße. Schön angerichtet kommt jede Komponente gut zur Geltung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "➡️ Vom Herd zum Gast: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Speise zubereiten." },
+          { "text": "Die Speise ansprechend anrichten." },
+          { "text": "Die Speise servieren." },
+          { "text": "Der Gast bekommt einen ersten Eindruck vom Aussehen." }
+        ],
+        "explanation": "Erst kochst du, dann richtest du an, dann servierst du. Den ersten Eindruck bekommt der Gast, sobald er die Speise sieht. Darum lohnt sich schönes Anrichten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Du richtest Gebäck auf einer Gebäckplatte an und trägst dabei Handschuhe. Welcher Grund passt?",
+        "options": [
+          { "text": "So bleibt das Anrichten sauber und hygienisch.", "correct": true },
+          { "text": "So bleibt das Gebäck auf der Platte länger warm." },
+          { "text": "So erkennen die Gäste, wer angerichtet hat." }
+        ],
+        "explanation": "Zur Qualität gehört ein sauberes Anrichten. Mit Handschuhen kommen keine Keime von den Händen auf das Gebäck. Das Gebäck wird ja nicht mehr erhitzt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍲 Die Speisen werden ausgegeben. Guter oder schlechter Eindruck? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Guter Eindruck", "icon": "😊" },
+          { "id": "schlecht", "label": "Schlechter Eindruck", "icon": "😕" }
+        ],
+        "items": [
+          { "text": "Sauberes Geschirr ohne Schaden", "bucket": "gut" },
+          { "text": "Sauber angerichtet, der Tellerrand ist frei", "bucket": "gut" },
+          { "text": "Freundliches Personal, das auf Wünsche eingeht", "bucket": "gut" },
+          { "text": "Eine Portion, die zur Personengruppe passt", "bucket": "gut" },
+          { "text": "Ein Teller mit abgeschlagener Ecke", "bucket": "schlecht" },
+          { "text": "Soße über den ganzen Tellerrand verschmiert", "bucket": "schlecht" },
+          { "text": "Das warme Essen ist nur noch lauwarm", "bucket": "schlecht" },
+          { "text": "Personal, das die Gäste nicht beachtet", "bucket": "schlecht" }
+        ],
+        "explanation": "Frag dich: Würde ich mich als Gast darüber freuen? Sauberes Geschirr, sauberes Anrichten, eine passende Menge und freundliches Personal machen einen guten Eindruck. Schäden, Schmutz, kaltes Essen und unfreundliches Personal verderben ihn."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Du gibst warmes Essen aus. Wie viel Grad Celsius muss es mindestens haben?",
+        "answer": 65,
+        "hint": "Es ist mehr als 60 °C.\nEs ist weniger als 70 °C.",
+        "explanation": "Warme Speisen haben bei der Ausgabe mindestens 65 °C. Lauwarmes Essen schmeckt nicht und ist nicht sicher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Wie viel gibst du bei der Ausgabe auf den Teller?",
+        "options": [
+          { "text": "So viel, wie zu der Personengruppe passt.", "correct": true },
+          { "text": "Immer möglichst viel, damit keiner hungrig bleibt." },
+          { "text": "Immer die gleiche Menge für jede Gruppe." }
+        ],
+        "explanation": "Die Menge wird auf die Personengruppe abgestimmt. Kinder, Senioren oder Handwerker brauchen unterschiedlich viel. Ein überladener Teller sieht außerdem nicht schön aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😋 Die Speise ist schön angerichtet. Was regt ihr Aussehen beim Gast an?",
+        "options": [
+          { "text": "Den Appetit.", "correct": true },
+          { "text": "Den Durst." },
+          { "text": "Die Müdigkeit." }
+        ],
+        "explanation": "Ein schönes Aussehen macht Lust auf das Essen. Es regt den Appetit an. Darum sagt man: Das Auge isst mit."
+      }
+    }
+  ]
+}
