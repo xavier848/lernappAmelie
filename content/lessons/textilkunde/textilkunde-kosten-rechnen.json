@@ -20,7 +20,7 @@
     {
       "type": "number_input",
       "data": {
-        "prompt": "💶 Die Maschine kostet 16.000 € ohne Steuer. Dazu kommen 19 % Umsatzsteuer. Wie viel Euro Umsatzsteuer sind das? Tippe nur die Zahl ein.",
+        "prompt": "💶 Die Maschine kostet 16.000 € zuzüglich 19 % Umsatzsteuer. Wie viel Euro Umsatzsteuer sind das? Tippe nur die Zahl ein.",
         "answer": 3040,
         "hint": "1 % von 16.000 € sind 160 €.\n19 % sind also 19 × 160 €.\nRechne: 10 × 160 = 1.600 und 9 × 160 = 1.440.",
         "explanation": "1 % von 16.000 € sind 160 €. 19 × 160 € = 3.040 €. Die Umsatzsteuer beträgt also 3.040 €."
@@ -29,7 +29,7 @@
     {
       "type": "number_input",
       "data": {
-        "prompt": "🏷️ Wie viel Euro kostet die Maschine mit Umsatzsteuer? Preis ohne Steuer: 16.000 €, Steuer: 19 %. Tippe nur die Zahl ein.",
+        "prompt": "🏷️ Die Maschine kostet 16.000 € zuzüglich 19 % Umsatzsteuer. Wie viel Euro kostet sie mit Umsatzsteuer? Tippe nur die Zahl ein.",
         "answer": 19040,
         "hint": "Rechne zuerst die Steuer aus: 19 % von 16.000 €.\nZähle die Steuer dann zu den 16.000 € dazu.",
         "explanation": "Du rechnest 19 % von 16.000 € aus und zählst das Ergebnis zu den 16.000 € dazu. So kommst du auf 19.040 €. Kürzer geht es so: 16.000 € × 1,19 = 19.040 €."
