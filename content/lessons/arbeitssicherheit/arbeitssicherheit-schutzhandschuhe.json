@@ -34,14 +34,14 @@
       "data": {
         "prompt": "🔗 Welches Handschuh-Material hat welche Eigenschaft? Verbinde.",
         "pairs": [
-          { "left": {"text": "🟦 Vinyl oder PVC"}, "right": {"text": "Wasserdicht, bequem für Reinigungsarbeiten"} },
+          { "left": {"text": "🟦 Vinyl oder PVC"}, "right": {"text": "Relativ unelastisch, bequem für Reinigungsarbeiten"} },
           { "left": {"text": "⚪ Naturlatex"}, "right": {"text": "Einweg, sehr dünn und dehnbar"} },
           { "left": {"text": "⚫ Nitril"}, "right": {"text": "Wasserdicht, reißfest und flexibel"} },
-          { "left": {"text": "🟢 Neopren"}, "right": {"text": "Sehr beständig gegen Säuren und Lösemittel"} },
+          { "left": {"text": "🟢 Neopren"}, "right": {"text": "Beständig gegen Säuren, empfindlich bei starker Mechanik"} },
           { "left": {"text": "🧪 Butyl- oder Fluorkautschuk"}, "right": {"text": "Spezialarbeiten mit aggressiven Gefahrstoffen"} },
           { "left": {"text": "🧵 Textil"}, "right": {"text": "Unterziehhandschuh gegen Schweiß"} }
         ],
-        "explanation": "Frag dich: Wofür brauche ich den Handschuh? Für normale Reinigung reichen Vinyl oder Nitril. Gegen Säuren hilft Neopren. Für sehr gefährliche Stoffe gibt es Butyl- oder Fluorkautschuk. Latex ist dünn und für den Einmalgebrauch. Textil kommt darunter."
+        "explanation": "Frag dich: Wofür brauche ich den Handschuh, und was hält er aus? Vinyl und PVC sind bequem für die Reinigung, aber wenig elastisch. Nitril ist reißfest. Neopren hält Säuren und Lösemittel aus, aber keine starke Mechanik. Für sehr gefährliche Stoffe gibt es Butyl- oder Fluorkautschuk. Latex ist dünn und für den Einmalgebrauch. Textil kommt darunter."
       }
     },
     {
@@ -115,7 +115,7 @@
       "data": {
         "prompt": "🏷️ Schutzhandschuhe gehören zur PSA. Was stimmt?",
         "options": [
-          { "text": "PSA heißt Persönliche Schutzausrüstung. Sie muss gekennzeichnet sein, gekauft wird im Fachhandel.", "correct": true },
+          { "text": "PSA heißt Persönliche Schutzausrüstung. Kennzeichnung nach DIN EN 420, Kauf im Fachhandel.", "correct": true },
           { "text": "PSA heißt Produkt-Sicherheits-Abzeichen. Es klebt nur auf besonders teuren Handschuhen aus dem Supermarkt." },
           { "text": "PSA heißt Persönliche Schutzausrüstung. Eine Kennzeichnung braucht sie in der EU überhaupt nicht." }
         ],
