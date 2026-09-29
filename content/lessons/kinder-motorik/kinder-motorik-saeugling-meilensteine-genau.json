@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kinder-motorik",
+  "slug": "kinder-motorik-saeugling-meilensteine-genau",
+  "title": "Säugling: Meilensteine im Detail",
+  "sort": 521,
+  "intro": "👶 Diese Lektion ergänzt die Entwicklungsstufen des Säuglings. Hier lernst du die genauen Einzelheiten.\n\nEnde des ersten Monats folgt das Baby einem interessanten Spielzeug mit den Augen. Es schaut gern ins Gesicht seiner Bezugspersonen. Bezugspersonen sind die Menschen, die sich jeden Tag um das Baby kümmern. Manche Babys lächeln schon.\n\nEnde des zweiten Monats hebt das Baby in Bauchlage den Kopf um etwa 45 Grad. Es hält ihn etwa 10 Sekunden oben. Beim Sitzen hält es den Kopf einige Sekunden aufrecht. Es antwortet auf das Lächeln von Erwachsenen. Die Stimme fängt an, unterschiedliche Laute zu bilden.\n\nDanach bilden sich die Muskeln weiter aus. Das Kind kann jetzt Gegenstände umfassen.\n\nMERKE: Ende des fünften Monats fängt das Baby an zu „schwimmen“. Das heißt: Es schaukelt auf dem Bauch, ohne sich abstützen zu müssen. Den Kopf balanciert es immer besser. Man sieht erste Stehversuche. Nach Spielzeug greift es mit beiden Händen. Es fängt an zu plappern.\n\nEnde des siebten Monats spricht das Baby Silben wie „Dada“ und „lala“. Versteckspiele mit einem Tuch machen ihm Spaß. Es spielt gern mit seinen Füßen und steckt sie sogar in den Mund.\n\nEnde des neunten Monats fremdelt das Baby. Bei fremden Personen weint es oder versteckt sich. Auf dem Arm seiner Bezugsperson gewinnt es Zutrauen zur fremden Person. Es sitzt frei, zieht sich an Gegenständen hoch und robbt. Ein besonderes Spiel beginnt: Das Baby lässt Gegenstände absichtlich fallen. Es freut sich, wenn jemand sie aufhebt.\n\nEnde des zehnten Monats versteht das Kind die Bedeutung von Worten, die Ablehnung oder Anerkennung ausdrücken. Ablehnung heißt: Das ist nicht in Ordnung. Anerkennung heißt: Das hast du gut gemacht.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Ein Baby ist am Ende des ersten Monats. Was macht es laut Buch gern?",
+        "options": [
+          { "text": "Es schaut gern ins Gesicht seiner Bezugspersonen.", "correct": true },
+          { "text": "Es sitzt schon kurz frei auf dem Boden." },
+          { "text": "Es robbt auf dem Bauch zu seinem Spielzeug." }
+        ],
+        "explanation": "Ende des ersten Monats folgt das Baby einem interessanten Spielzeug mit den Augen. Es schaut gern in die Gesichter seiner Bezugspersonen, und manche lächeln schon. Frei sitzen und robben kann es erst mit etwa 9 Monaten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📐 Ende des zweiten Monats hebt das Baby in Bauchlage den Kopf. Um wie viel Grad etwa? Tippe die Zahl.",
+        "answer": 45,
+        "hint": "Es ist die Hälfte von einem rechten Winkel. Ein rechter Winkel hat 90 Grad.",
+        "explanation": "Ende des 2. Monats hebt das Baby den Kopf in Bauchlage um etwa 45 Grad. Es kann ihn etwa 10 Sekunden oben halten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Nach dem zweiten Monat bilden sich die Muskeln des Babys weiter aus. Was kann es dadurch als Nächstes?",
+        "options": [
+          { "text": "Gegenstände umfassen.", "correct": true },
+          { "text": "Sicher durch die Wohnung krabbeln." },
+          { "text": "Sich aus der Bauchlage aufsetzen." }
+        ],
+        "explanation": "Das Buch sagt: Die Muskulatur bildet sich weiter aus, und das Kind kann Gegenstände umfassen. Das kommt nach dem 2. Monat. Aufsetzen aus der Bauchlage kommt erst mit etwa 10 Monaten, sicheres Krabbeln mit etwa 11 Monaten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏊 Ende des fünften Monats fängt das Baby an zu „schwimmen“. Was genau heißt das?",
+        "options": [
+          { "text": "Es schaukelt auf dem Bauch, ohne sich abstützen zu müssen.", "correct": true },
+          { "text": "Es zieht sich auf dem Bauch vorwärts und zieht die Füße nach." },
+          { "text": "Es bewegt sich auf Händen und Knien durch den Raum." }
+        ],
+        "explanation": "„Schwimmen“ steht im Buch in Anführungszeichen. Das Baby ist nicht im Wasser. Es schaukelt auf dem Bauch hin und her und muss sich dabei nicht abstützen. Vorwärts ziehen mit nachgezogenen Füßen heißt Robben. Auf Händen und Knien heißt Krabbeln."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Wann kann das Baby das laut Buch? Sortiere in den richtigen Monat.",
+        "buckets": [
+          { "id": "m2", "label": "Ende 2. Monat", "icon": "🍼" },
+          { "id": "m5", "label": "Ende 5. Monat", "icon": "👶" },
+          { "id": "m7", "label": "Ende 7. Monat", "icon": "🧸" }
+        ],
+        "items": [
+          { "text": "Hält beim Sitzen den Kopf einige Sekunden aufrecht", "bucket": "m2" },
+          { "text": "Antwortet auf das Lächeln von Erwachsenen", "bucket": "m2" },
+          { "text": "Die Stimme bildet unterschiedliche Laute", "bucket": "m2" },
+          { "text": "Balanciert den Kopf immer besser", "bucket": "m5" },
+          { "text": "Macht erste Stehversuche", "bucket": "m5" },
+          { "text": "Steckt die eigenen Füße in den Mund", "bucket": "m7" },
+          { "text": "Spricht Silben wie „Dada“ und „lala“", "bucket": "m7" },
+          { "text": "Hat Spaß an Versteckspielen mit einem Tuch", "bucket": "m7" }
+        ],
+        "explanation": "Denk an die Reihenfolge: Mit 2 Monaten geht es um Kopf halten, Lächeln erwidern und erste Laute. Mit 5 Monaten wird der Körper stabiler: Kopf balancieren, erste Stehversuche. Mit 7 Monaten kommen Silben, Versteckspiele und das Spiel mit den Füßen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Ein Baby ist 9 Monate alt. Es wirft immer wieder den Löffel vom Hochstuhl. Es lacht, wenn du ihn aufhebst. Was steckt laut Buch dahinter?",
+        "options": [
+          { "text": "Ein typisches Spiel: Dinge absichtlich fallen lassen und sich freuen, wenn sie aufgehoben werden.", "correct": true },
+          { "text": "Das Baby will dich ärgern. Es testet mit Absicht, wie viel Geduld du heute noch hast." },
+          { "text": "Das Baby kann den Löffel noch gar nicht richtig festhalten. Seine Hände sind dafür noch zu schwach." }
+        ],
+        "explanation": "Ende des 9. Monats entdeckt das Kind ein besonderes Spiel: Es lässt Gegenstände absichtlich fallen und freut sich, wenn sie aufgehoben werden. Das ist kein Ärgern. Es gehört zur Entwicklung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤱 Ein Baby ist 9 Monate alt und fremdelt. Eine Freundin der Mutter kommt zu Besuch. Wie gewinnt das Baby laut Buch am ehesten Zutrauen zu ihr?",
+        "options": [
+          { "text": "Auf dem Arm seiner Bezugsperson, zum Beispiel der Mutter.", "correct": true },
+          { "text": "Wenn die Freundin es gleich zur Begrüßung auf den Arm nimmt." },
+          { "text": "Wenn es eine Weile allein mit der Freundin im Zimmer bleibt." }
+        ],
+        "explanation": "Beim Fremdeln weint das Baby bei fremden Personen oder versteckt sich. Auf dem Arm der Bezugsperson fühlt es sich sicher. Von dort aus gewinnt es Zutrauen zur fremden Person."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙅 Ein Kind ist 10 Monate alt. Es robbt zur Steckdose. Du sagst ruhig und klar: „Nein!“ Was versteht das Kind laut Buch in diesem Alter schon?",
+        "options": [
+          { "text": "Die Bedeutung von Worten, die Ablehnung oder Anerkennung ausdrücken.", "correct": true },
+          { "text": "Noch gar nichts. Die Bedeutung von Worten versteht es erst mit 2 Jahren." },
+          { "text": "Nur Worte, die es selbst schon sprechen kann, zum Beispiel „Dada“." }
+        ],
+        "explanation": "Ende des 10. Monats versteht das Kind die Bedeutung von Worten, die Ablehnung oder Anerkennung ausdrücken. „Nein“ ist eine Ablehnung. Ein Lob wie „Toll gemacht!“ ist eine Anerkennung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage: Womit greift ein Baby am Ende des fünften Monats nach interessantem Spielzeug?",
+        "options": [
+          { "text": "Mit beiden Händen.", "correct": true },
+          { "text": "Nur mit einem Finger." },
+          { "text": "Nur mit dem Mund." }
+        ],
+        "explanation": "Ende des 5. Monats greift das Baby mit beiden Händen nach interessantem Spielzeug. Die feinen Griffe mit Daumen und Zeigefinger kommen erst später."
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-saeugling-energie-plan",
+  "title": "Säugling: Energie und Ernährungsplan",
+  "sort": 561,
+  "intro": "👶 Vor der Geburt versorgt die Plazenta das Kind mit Energie und Nährstoffen. Die Plazenta heißt auch Mutterkuchen. Nach der Geburt muss das Kind oral ernährt werden. Oral heißt: über den Mund.\n\nDas Säuglingsalter sind die ersten 12 Monate nach der Geburt. In den ersten drei Lebensmonaten wächst ein Säugling mehr als 2 cm pro Monat. Darum braucht er relativ viel Energie. Danach wächst er langsamer.\n\nEin gestillter Säugling bekommt seine Energie im ersten Lebensjahr so: 48 % aus Fett, 45 % aus Kohlenhydraten und 7 % aus Eiweiß. Er trinkt oft, aber immer nur kleine Mengen. Nur mit verhältnismäßig viel Fett bekommt er genug Energie.\n\nDie D-A-CH-Referenzwerte (Stand 2021) sagen, wie viel Energie ein Säugling am Tag braucht. Die Energie misst man hier in MJ (Megajoule). Von 0 bis unter 4 Monaten: Jungen 2,3 MJ, Mädchen 2,0 MJ. Von 4 bis unter 12 Monaten: Jungen 2,8 MJ, Mädchen 2,6 MJ.\n\nMERKE: Der Ernährungsplan im ersten Lebensjahr hat drei Teile: 1. ausschließlich Milch, 2. Einführung der Beikost, 3. Übergang zur Familienkost.\n\nDer Plan richtet sich nach den Bedürfnissen des Kindes. Er beachtet auch: Die Verdauungs- und Ausscheidungsorgane sind noch nicht voll leistungsfähig. Beikost ist Brei, der speziell für Säuglinge gemacht ist. Familienkost ist das Essen der ganzen Familie.\n\nSo sieht der Plan aus: Monat 1 bis 4 bekommt das Baby nur Muttermilch oder industriell hergestellte Säuglingsnahrung. Ab Beginn des 5. Monats kommt der Gemüse-Kartoffel-Fleisch-Brei dazu. Ab etwa dem 6. Monat kommt der Vollmilch-Getreide-Brei dazu. Ab etwa dem 7. Monat kommt der Getreide-Obst-Brei dazu. Ab etwa dem 10. Monat werden daraus Brot-Milch-Mahlzeiten und 2 Zwischenmahlzeiten.\n\nMERKE: Erst nur Milch. Dann kommt jeden Monat ein neuer Brei dazu: Gemüse-Kartoffel-Fleisch, dann Vollmilch-Getreide, dann Getreide-Obst.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👶 Wie wird ein Kind vor und nach der Geburt versorgt?",
+        "options": [
+          { "text": "Vor der Geburt über die Plazenta, danach oral.", "correct": true },
+          { "text": "Vor der Geburt oral, danach über die Plazenta." },
+          { "text": "Vor und nach der Geburt über die Plazenta." },
+          { "text": "Vor der Geburt über die Plazenta, danach über das Blut." }
+        ],
+        "explanation": "Die Plazenta ist der Mutterkuchen. Über sie bekommt das Kind im Bauch Energie und Nährstoffe. Nach der Geburt fällt die Plazenta weg. Dann muss das Kind oral ernährt werden, also über den Mund."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Das Säuglingsalter umfasst die ersten … Monate nach der Geburt. Tippe die Zahl ein.",
+        "answer": 12,
+        "hint": "Das Säuglingsalter ist genau ein Jahr lang.",
+        "explanation": "Das Säuglingsalter sind die ersten 12 Monate nach der Geburt, also das erste Lebensjahr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📏 Am Anfang wächst ein Säugling sehr schnell. Wie viele Zentimeter wächst er in den ersten drei Lebensmonaten mindestens pro Monat?",
+        "answer": 2,
+        "hint": "Es ist eine kleine Zahl. Mehr als 1 cm, weniger als 3 cm.",
+        "explanation": "In den ersten drei Lebensmonaten wächst ein Säugling mehr als 2 cm pro Monat. Darum ist sein Energiebedarf relativ hoch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥧 Woher bekommt ein gestillter Säugling im ersten Jahr seine Energie? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🧈 Fett"}, "right": {"text": "48 %"} },
+          { "left": {"text": "🍞 Kohlenhydrate"}, "right": {"text": "45 %"} },
+          { "left": {"text": "🥚 Eiweiß"}, "right": {"text": "7 %"} }
+        ],
+        "explanation": "Fett liefert fast die Hälfte der Energie. Kohlenhydrate liefern knapp die Hälfte. Eiweiß liefert nur einen kleinen Teil. Zusammen sind es 100 %."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Warum braucht ein Säugling so viel Fett?",
+        "options": [
+          { "text": "Er trinkt oft, aber nur kleine Mengen. Mit viel Fett reicht die Energie.", "correct": true },
+          { "text": "Er kann noch gar keine Kohlenhydrate verdauen. Fett ist der einzige Ersatz." },
+          { "text": "Er braucht das Fett vor allem, damit die ersten Zähne wachsen." },
+          { "text": "Er wächst kaum noch. Darum speichert er die Energie als Fett." }
+        ],
+        "explanation": "Der Säugling braucht viel Energie, denn er wächst schnell. In seinen Magen passt aber nur wenig. Fett liefert viel Energie in einer kleinen Menge. Kohlenhydrate verdaut er übrigens gut: Sie liefern 45 % seiner Energie."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚡ Wie viel Energie braucht ein Säugling am Tag? Verbinde (D-A-CH-Referenzwerte).",
+        "pairs": [
+          { "left": {"text": "👦 Junge, 0 bis unter 4 Monate"}, "right": {"text": "2,3 MJ"} },
+          { "left": {"text": "👧 Mädchen, 0 bis unter 4 Monate"}, "right": {"text": "2,0 MJ"} },
+          { "left": {"text": "👦 Junge, 4 bis unter 12 Monate"}, "right": {"text": "2,8 MJ"} },
+          { "left": {"text": "👧 Mädchen, 4 bis unter 12 Monate"}, "right": {"text": "2,6 MJ"} }
+        ],
+        "explanation": "Zwei Regeln helfen dir: Ältere Säuglinge brauchen mehr Energie als jüngere. Jungen brauchen etwas mehr als Mädchen im gleichen Alter. Der kleinste Wert gehört also zum jüngeren Mädchen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗂️ Woran richtet sich der Ernährungsplan im ersten Lebensjahr?",
+        "options": [
+          { "text": "An den Bedürfnissen des Kindes und seinen unreifen Verdauungsorganen.", "correct": true },
+          { "text": "An den Essenszeiten der Eltern und an den Sonderangeboten im Supermarkt." },
+          { "text": "Am Gewicht der Mutter und an ihrer Milchmenge." },
+          { "text": "An den Mahlzeiten der Erwachsenen am Familientisch." }
+        ],
+        "explanation": "Verdauungs- und Ausscheidungsorgane sind beim Säugling noch nicht voll leistungsfähig. Der Plan führt ihn deshalb Schritt für Schritt an neue Speisen heran. So beginnt eine lebenslange Vorbeugung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍼 Der Ernährungsplan hat drei Teile. Bringe sie in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Ausschließlich Milch" },
+          { "text": "Einführung der Beikost" },
+          { "text": "Übergang zur Familienkost" }
+        ],
+        "explanation": "Frag dich: Was kann der Körper des Babys schon verdauen? Am Anfang nur Milch. Dann Brei, der speziell für Säuglinge gemacht ist. Zum Schluss das Essen der ganzen Familie."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥣 Ab wann kommt welcher Brei dazu? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Gemüse-Kartoffel-Fleisch-Brei"}, "right": {"text": "ab Beginn des 5. Monats"} },
+          { "left": {"text": "Vollmilch-Getreide-Brei"}, "right": {"text": "ab etwa dem 6. Monat"} },
+          { "left": {"text": "Getreide-Obst-Brei"}, "right": {"text": "ab etwa dem 7. Monat"} },
+          { "left": {"text": "Brot-Milch-Mahlzeit"}, "right": {"text": "ab etwa dem 10. Monat"} }
+        ],
+        "explanation": "Nach 4 Monaten nur mit Milch kommt jeden Monat ein neuer Brei dazu. Der herzhafte Brei mit Fleisch ist der erste. Dann folgt der Milchbrei, dann der Obstbrei. Brot kommt erst gegen Ende des ersten Jahres."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Was passiert nach den ersten drei Lebensmonaten mit dem Wachstum?",
+        "options": [
+          { "text": "Der Säugling wächst langsamer.", "correct": true },
+          { "text": "Der Säugling wächst noch schneller." },
+          { "text": "Der Säugling hört ganz auf zu wachsen." }
+        ],
+        "explanation": "In den ersten drei Monaten wächst der Säugling am schnellsten. Danach sinkt die Wachstumsgeschwindigkeit wieder. Aufhören zu wachsen tut er natürlich nicht."
+      }
+    }
+  ]
+}

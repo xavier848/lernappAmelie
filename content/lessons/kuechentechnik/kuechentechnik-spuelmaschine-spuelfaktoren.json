@@ -1,0 +1,147 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-spuelmaschine-spuelfaktoren",
+  "title": "Geschirrspüler: Spülfaktoren & Enthärtung",
+  "sort": 600,
+  "intro": "🍽️ Beim Spülen wirken vier Spülfaktoren zusammen: Temperatur, Zeit, Chemie und Mechanik. In der Spülmaschine wirken alle vier zu gleichen Teilen. Das heißt: Jeder Faktor ist gleich wichtig.\n\nIn der Mitte steht das Wasser. Es überträgt alles. Das Wasser löst Reiniger und Klarspüler und transportiert sie. Es trägt die Wärme. Und mit seinem Druck sorgt es für die Mechanik.\n\nMechanik heißt hier: Das Wasser trifft mit Druck auf das Geschirr. Der Druck kommt aus den Sprüharmen.\n\nTemperatur: Die Maschine spült viel heißer als du von Hand. Sie arbeitet mit 30 °C bis 75 °C. So wird das Geschirr hygienisch sauber.\n\nZeit: Die Maschine kann nicht so kräftig reiben wie deine Hand. Das gleicht sie mit Zeit aus. Sie spült länger. Wie lange, hängt vom Spülprogramm und von der Temperatur ab.\n\nChemie: Spezielle Reiniger und Klarspüler lösen Fett und Speisereste.\n\nMERKE: Temperatur, Zeit, Chemie und Mechanik wirken zu gleichen Teilen. Das Wasser überträgt alles.\n\nHartes Wasser enthält viel Kalk. Kalk macht Ablagerungen im Spülbehälter und auf dem Geschirr. Die Maschine braucht deshalb weiches Wasser. Das Wasser muss enthärtet werden. Enthärten heißt: Die Härtebildner Calcium und Magnesium werden entfernt oder unwirksam gemacht.\n\nDafür hat jede Spülmaschine einen Enthärter. Ein anderes Wort dafür ist Ionenaustauscher. Er ist ein Behälter mit Kunstharz. Das Kunstharz heißt Levatit. Daran hängen Natrium-Ionen. Ionen sind winzige Teilchen.\n\nDas Wasser fließt durch den Enthärter. Dabei tauscht er Calcium und Magnesium gegen Natrium aus. Jetzt ist das Wasser weich.\n\nIrgendwann kann der Enthärter nichts mehr aufnehmen. Dann muss er regeneriert werden. Regenerieren heißt: wieder aufbereiten. Dafür brauchst du Regeneriersalz, also ein Spezialsalz. Nach jedem Spülgang nimmt die Maschine selbst Salz aus dem Vorratsbehälter.\n\nWie viel Salz sie braucht, hängt von der Wasserhärte ab. Darum stellst du den Enthärter auf den Härtegrad deines Ortes ein.\n\nMERKE: Fehlt Salz, zeigt es die Maschine an: im Display oder mit einem Schwimmer im Deckel des Salzbehälters.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Die Spülfaktoren: Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🌡️ Temperatur"}, "right": {"text": "30 °C bis 75 °C"} },
+          { "left": {"text": "⏱️ Zeit"}, "right": {"text": "Gleicht die schwächere Mechanik aus"} },
+          { "left": {"text": "🧪 Chemie"}, "right": {"text": "Reiniger und Klarspüler lösen Fett"} },
+          { "left": {"text": "💦 Mechanik"}, "right": {"text": "Wasserdruck aus den Sprüharmen"} },
+          { "left": {"text": "💧 Wasser"}, "right": {"text": "Steht in der Mitte und überträgt alles"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jedem Faktor: Was tut er für die Sauberkeit? Wärme kommt von der Temperatur, Kraft vom Wasserdruck, das Lösen von Fett von der Chemie. Die Zeit macht wett, dass die Maschine nicht so kräftig reibt wie deine Hand. Das Wasser verbindet alle vier."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ In der Spülmaschine wirken vier Spülfaktoren. Wie teilen sie sich die Arbeit?",
+        "options": [
+          { "text": "Alle vier wirken zu gleichen Teilen.", "correct": true },
+          { "text": "Die Chemie macht den größten Teil." },
+          { "text": "Die Mechanik macht den größten Teil." }
+        ],
+        "explanation": "Beim maschinellen Spülen wirken Temperatur, Zeit, Chemie und Mechanik zu gleichen Teilen. Keiner ist wichtiger als die anderen. Fehlt einer, wird das Geschirr nicht richtig sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Warum steht das Wasser bei den Spülfaktoren in der Mitte?",
+        "options": [
+          { "text": "Es überträgt Reiniger, Wärme und Druck.", "correct": true },
+          { "text": "Es ersetzt den Reiniger, darum reicht Wasser." },
+          { "text": "Es ist wichtiger als alle vier anderen Faktoren." }
+        ],
+        "explanation": "Das Wasser hat viele Aufgaben: Es löst Reiniger und Klarspüler und bringt sie ans Geschirr. Es trägt die Wärme. Mit seinem Druck sorgt es für die Mechanik. Deshalb heißt es: Das Wasser ist das übertragende Medium."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💦 Woher kommt die Mechanik in der Spülmaschine?",
+        "options": [
+          { "text": "Vom Wasserdruck aus den Sprüharmen.", "correct": true },
+          { "text": "Von kleinen Bürsten im Spülbehälter." },
+          { "text": "Vom Rütteln der beiden Geschirrkörbe." }
+        ],
+        "explanation": "In der Maschine reibt keine Bürste. Die Kraft kommt vom Wasser: Es trifft mit Druck aus den Sprüharmen auf das Geschirr. Das ist die Mechanik."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Die Maschine spült viel länger als du von Hand. Warum?",
+        "options": [
+          { "text": "Die Zeit gleicht die schwächere Mechanik aus.", "correct": true },
+          { "text": "Sie spült kälter als du und braucht deshalb länger." },
+          { "text": "Sie nimmt weniger Reiniger und braucht deshalb länger." }
+        ],
+        "explanation": "Deine Hand reibt kräftiger als der Wasserstrahl. Diese schwächere Mechanik gleicht die Maschine mit mehr Zeit aus. Kälter spült sie übrigens nicht: Sie arbeitet mit bis zu 75 °C."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Die Spülmaschine arbeitet mit 30 °C bis … °C. Wie heiß wird es höchstens? Tippe die Zahl.",
+        "answer": 75,
+        "hint": "Es ist mehr als 70 und weniger als 80.",
+        "explanation": "Die Spanne ist 30 °C bis 75 °C. So heiß spülst du nie von Hand. Die hohe Temperatur macht das Geschirr hygienisch sauber."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧂 Rund um den Enthärter: Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Calcium und Magnesium"}, "right": {"text": "Härtebildner im Wasser"} },
+          { "left": {"text": "Levatit"}, "right": {"text": "Kunstharz im Enthärter"} },
+          { "left": {"text": "Natrium-Ionen"}, "right": {"text": "Hängen am Kunstharz"} },
+          { "left": {"text": "Ionenaustauscher"}, "right": {"text": "Anderes Wort für Enthärter"} },
+          { "left": {"text": "Regeneriersalz"}, "right": {"text": "Bereitet den Enthärter wieder auf"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Wer macht das Wasser hart, und wer macht es weich? Calcium und Magnesium machen es hart. Im Enthärter hängen Natrium-Ionen am Kunstharz Levatit. Sie werden gegen die Härtebildner getauscht. Das Salz füllt den Vorrat an Natrium wieder auf."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔄 So wird das Wasser weich. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Hartes Wasser fließt in die Maschine." },
+          { "text": "Das Wasser fließt durch den Enthärter." },
+          { "text": "Calcium und Magnesium werden gegen Natrium getauscht." },
+          { "text": "Weiches Wasser spült das Geschirr." },
+          { "text": "Der Enthärter hat viele Härtebildner aufgenommen." },
+          { "text": "Nach dem Spülgang bereitet Salz den Enthärter wieder auf." }
+        ],
+        "explanation": "Frag dich bei jedem Schritt: Was muss vorher passiert sein? Erst fließt das Wasser durch den Enthärter und wird weich. Erst danach ist der Enthärter beladen. Das Salz kommt deshalb immer nach dem Spülen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏙️ Du ziehst in eine Stadt mit sehr hartem Wasser. Was stellst du an der Spülmaschine ein?",
+        "options": [
+          { "text": "Den Enthärter auf den Härtegrad vor Ort.", "correct": true },
+          { "text": "Das Eco-Programm, damit weniger Kalk kommt." },
+          { "text": "Mehr Klarspüler, dann braucht sie kein Salz." }
+        ],
+        "explanation": "Der Salzverbrauch hängt von der Wasserhärte ab. Deshalb stellst du die Enthärtungsanlage auf den örtlichen Härtegrad ein. Klarspüler ersetzt das Salz nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧂 Wie zeigt dir die Spülmaschine, dass Regeneriersalz fehlt?",
+        "options": [
+          { "text": "Im Display oder mit einem Schwimmer.", "correct": true },
+          { "text": "Mit einem Schwimmer im Besteckkorb." },
+          { "text": "Mit einer Lampe am Netzstecker." }
+        ],
+        "explanation": "Viele Maschinen zeigen es im Display an. Andere haben einen Schwimmer im Deckel des Salzbehälters. Dann füllst du Regeneriersalz nach."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was füllst du in den Salzbehälter der Spülmaschine?",
+        "options": [
+          { "text": "Regeneriersalz.", "correct": true },
+          { "text": "Speisesalz." },
+          { "text": "Spülmaschinen-Tabs." }
+        ],
+        "explanation": "In den Salzbehälter kommt Regeneriersalz, ein Spezialsalz. Es bereitet den Enthärter wieder auf. Die Tabs kommen in die Dosierkammer in der Tür."
+      }
+    }
+  ]
+}

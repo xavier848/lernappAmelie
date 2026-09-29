@@ -1,0 +1,136 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-konfituere-begriffe",
+  "title": "Konfitüre, Marmelade, Gelee & Co.",
+  "sort": 641,
+  "intro": "Konfitüre, Marmelade und Gelee sind süße Brotaufstriche. Du machst sie in der Regel aus Früchten.\n\nKonfitüre machst du aus einer Fruchtart oder aus mehreren Fruchtarten. Zum Beispiel aus Erdbeeren, aus Aprikosen oder aus Erdbeeren und Himbeeren zusammen.\n\nMarmelade machst du nur aus Zitrusfrüchten. Zitrusfrüchte sind zum Beispiel Orangen, Zitronen und Grapefruits.\n\nGelee machst du aus dem Saft von Früchten. Das kann der Saft von einer oder von mehreren Fruchtsorten sein.\n\nChutney und Relish macht man vor allem aus Gemüse. Das sind Soßen. Du reichst sie gern zu Kurzgebratenem oder Gegrilltem. Der Unterschied liegt vor allem in der Konsistenz. Konsistenz heißt: wie fest oder flüssig etwas ist. Ein Chutney ist gleichmäßig und musartig. Ein Relish ist meist stückiger und schmeckt etwas säuerlicher. Die Grenze ist fließend. Es gibt sie von süß bis sehr scharf.\n\nAlle haben etwas gemeinsam: Sie machen Früchte oder Gemüse haltbar. Das heißt Haltbarmachung oder Konservierung. Dazu kochst du Früchte, Gemüse oder Saft mit Zucker und Pektin.\n\nPektin ist ein Geliermittel aus Pflanzen. Es bindet sehr viel Wasser. Es gibt viele Gelierprodukte. Alle enthalten Pektin. Es gibt sie als Pulver, flüssig oder mit Zucker gemischt. Mit Zucker gemischt heißt es Gelierzucker.\n\nDie Zahlen auf der Packung zeigen, wie viele Früchte auf wie viel Zucker kommen. 1:1 heißt: gleich viel. Zum Beispiel 1 kg Gelierzucker auf 1 kg Früchte. 2:1 heißt: doppelt so viel Früchte wie Gelierzucker. Also 500 g Gelierzucker auf 1 kg Früchte. 3:1 heißt: dreimal so viel Früchte wie Zucker.\n\nBeim Gelierpulver steht 1:1 für „klassisch“, 2:1 für „extra“ und 3:1 für „super“. Es gibt auch Gelier-Fruchtzucker 3:1. Und es gibt Gelierzucker extra für Erdbeer-Konfitüre oder für Beeren und Gelee. Du wählst das Produkt, das zu deinem Rezept passt.\n\nMERKE: Konfitüre = eine oder mehrere Fruchtarten. Marmelade = nur Zitrusfrüchte. Gelee = aus Fruchtsaft. Chutney ist musartig, Relish ist stückig und säuerlicher.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍯 Woraus wird es gemacht? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🍓 Konfitüre"}, "right": {"text": "Aus einer oder mehreren Fruchtarten"} },
+          { "left": {"text": "🍊 Marmelade"}, "right": {"text": "Nur aus Zitrusfrüchten"} },
+          { "left": {"text": "🧃 Gelee"}, "right": {"text": "Aus dem Saft von Früchten"} },
+          { "left": {"text": "🥒 Chutney und Relish"}, "right": {"text": "Vor allem aus Gemüse"} }
+        ],
+        "explanation": "Frag dich zuerst: Früchte oder Gemüse? Gemüse heißt Chutney oder Relish. Bei Früchten fragst du weiter: Nur Saft? Dann ist es Gelee. Nur Zitrusfrüchte? Dann ist es Marmelade. Alle anderen Früchte ergeben Konfitüre."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🫙 Ein Aufstrich wird gekocht. Wie heißt er richtig? Sortiere.",
+        "buckets": [
+          { "id": "konf", "label": "Konfitüre", "icon": "🍓" },
+          { "id": "marm", "label": "Marmelade", "icon": "🍊" },
+          { "id": "gelee", "label": "Gelee", "icon": "🧃" }
+        ],
+        "items": [
+          { "text": "Aus Erdbeeren und Himbeeren", "bucket": "konf" },
+          { "text": "Aus Aprikosen", "bucket": "konf" },
+          { "text": "Aus Nektarinen", "bucket": "konf" },
+          { "text": "Aus rosa Grapefruits", "bucket": "marm" },
+          { "text": "Aus Orangen und Zitronen", "bucket": "marm" },
+          { "text": "Aus Apfelsaft", "bucket": "gelee" },
+          { "text": "Aus Multivitaminsaft", "bucket": "gelee" }
+        ],
+        "explanation": "Frag dich bei jedem Glas: Ist nur Saft drin? Dann ist es Gelee. Sind es Zitrusfrüchte wie Orange, Zitrone oder Grapefruit? Dann ist es Marmelade. Bei allen anderen Früchten ist es Konfitüre – auch wenn zwei Fruchtarten gemischt sind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Woran unterscheidest du ein Chutney von einem Relish vor allem?",
+        "options": [
+          { "text": "An der Konsistenz: Chutney ist musartig, Relish stückiger.", "correct": true },
+          { "text": "Am Grundstoff: Chutney aus Obst, Relish aus Gemüse." },
+          { "text": "An der Schärfe: Chutney ist immer mild, Relish immer scharf." }
+        ],
+        "explanation": "Beide macht man vor allem aus Gemüse. Beide gibt es von süß bis sehr scharf. Der Unterschied liegt in der Konsistenz: Ein Chutney ist gleichmäßig wie Mus. Ein Relish ist stückiger und schmeckt meist etwas säuerlicher. Die Grenze ist aber fließend."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Wozu reichst du ein Chutney oder ein Relish gern?",
+        "options": [
+          { "text": "Zu Kurzgebratenem oder Gegrilltem.", "correct": true },
+          { "text": "Als süßen Aufstrich auf das Frühstücksbrot." },
+          { "text": "Als Nachtisch mit Sahne und Früchten." }
+        ],
+        "explanation": "Chutney und Relish sind Soßen, meist aus Gemüse. Sie passen gut zu Kurzgebratenem, zum Beispiel einem Steak, oder zu Gegrilltem. Der süße Aufstrich zum Frühstück ist Konfitüre, Marmelade oder Gelee."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Was haben Konfitüre, Gelee und Chutney gemeinsam?",
+        "options": [
+          { "text": "Sie machen Früchte oder Gemüse haltbar.", "correct": true },
+          { "text": "Sie werden alle nur aus Gemüse gekocht." },
+          { "text": "Sie werden alle kalt gerührt, nicht gekocht." }
+        ],
+        "explanation": "Alle sind eine Haltbarmachung, auch Konservierung genannt. Früchte, Gemüse oder Saft werden mit Zucker und Pektin gekocht. So halten sie lange."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌿 Im Gelierzucker steckt Pektin. Was ist Pektin?",
+        "options": [
+          { "text": "Ein Geliermittel aus Pflanzen, das viel Wasser bindet.", "correct": true },
+          { "text": "Ein Geliermittel aus Tierknochen, genau wie Gelatine." },
+          { "text": "Ein besonderer Zucker, der nur die Süße verstärkt." }
+        ],
+        "explanation": "Pektin kommt aus Pflanzen. Es kann sehr viel Wasser binden. Darum wird die gekochte Masse fest. Gelatine ist dagegen ein Geliermittel vom Tier."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Im Laden gibt es viele Gelierprodukte. Welche Aussage stimmt?",
+        "options": [
+          { "text": "Alle enthalten Pektin, als Pulver, flüssig oder mit Zucker.", "correct": true },
+          { "text": "Nur der Gelierzucker enthält Pektin, das Pulver nicht." },
+          { "text": "Gelierprodukte gibt es nur als Pulver in kleinen Tüten." }
+        ],
+        "explanation": "Egal ob Pulver, flüssig oder mit Zucker gemischt: In allen Gelierprodukten steckt Pektin. Pektin mit Zucker heißt Gelierzucker. Du wählst das Produkt, das zu deinem Rezept passt."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚖️ Du kochst Konfitüre aus 1 kg Früchten. Du nimmst Gelierzucker 2:1. Wie viel Gramm Gelierzucker brauchst du?",
+        "answer": 500,
+        "hint": "2:1 heißt: doppelt so viel Früchte wie Gelierzucker.\n1 kg sind 1000 g Früchte.\nDer Gelierzucker ist die Hälfte davon.",
+        "explanation": "Bei 2:1 nimmst du halb so viel Gelierzucker wie Früchte. 1000 g Früchte geteilt durch 2 sind 500 g Gelierzucker. Bei 1:1 wären es 1000 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Auf dem Gelierpulver steht „super 3:1“. Was bedeutet das für dein Rezept?",
+        "options": [
+          { "text": "Dreimal so viel Früchte wie Zucker.", "correct": true },
+          { "text": "Dreimal so viel Zucker wie Früchte." },
+          { "text": "Drei Päckchen Pulver auf 1 kg Früchte." }
+        ],
+        "explanation": "Die große Zahl steht für die Früchte. Bei 3:1 kommen auf 3 kg Früchte nur 1 kg Zucker. Beim Gelierpulver heißt 1:1 „klassisch“, 2:1 „extra“ und 3:1 „super“. Je größer die erste Zahl, desto weniger Zucker brauchst du."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Was sind Konfitüre, Marmelade und Gelee?",
+        "options": [
+          { "text": "Süße Brotaufstriche.", "correct": true },
+          { "text": "Soßen zu Gegrilltem." },
+          { "text": "Getränke aus Früchten." }
+        ],
+        "explanation": "Konfitüre, Marmelade und Gelee sind süße Brotaufstriche aus Früchten. Die Soßen zu Gegrilltem sind Chutney und Relish."
+      }
+    }
+  ]
+}

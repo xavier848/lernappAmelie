@@ -1,0 +1,156 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-betriebsanweisung",
+  "title": "Betriebsanweisung und Unterweisung",
+  "sort": 662,
+  "intro": "Im Betrieb wird aus dem Sicherheitsdatenblatt eine Betriebsanweisung erstellt. Oder der Hersteller des Mittels stellt sie zur Verfügung. Die Betriebsanweisung gilt nach § 14 der Gefahrstoffverordnung. Die Abkürzung dafür ist GefStoffV.\n\nEine Betriebsanweisung hat feste Abschnitte, von oben nach unten: 1. Gefahrstoffbezeichnung. 2. Gefahren für Mensch und Umwelt. 3. Schutzmaßnahmen und Verhaltensregeln. 4. Verhalten im Gefahrfall. 5. Erste Hilfe. 6. Sachgerechte Entsorgung. 7. Sonstiges.\n\nBeispiel: die Betriebsanweisung für den Reiniger „Li-Ex“. Bei den Gefahren steht ein Ausrufezeichen und das Signalwort „Achtung“. Dazu: „Verursacht Hautreizungen. Verursacht schwere Augenreizung.“ Dort steht auch die Wassergefährdungsklasse: WGK 1 = schwach wassergefährdend.\n\nBei den Schutzmaßnahmen steht: Schutzhandschuhe und Augenschutz tragen. Bei der Arbeit nicht essen, trinken oder rauchen. Nach der Arbeit die Hände waschen. Für ausreichende Belüftung sorgen.\n\nBeim Verhalten im Gefahrfall steht: Ausgelaufenes Mittel mit saugfähigem Material aufwischen, zum Beispiel mit Lappen oder Vlies. Die Spuren danach mit Wasser wegspülen. Verschüttetes Produkt nie zurück in den Originalbehälter geben. Das Mittel darf nicht in Gewässer gelangen.\n\nBei der Ersten Hilfe steht: Nach Einatmen an die frische Luft. Nach Hautkontakt sofort mit viel Wasser abwaschen und beschmutzte Kleidung ausziehen. Nach Augenkontakt gründlich mit viel Wasser ausspülen. Nach Verschlucken viel Wasser trinken und kein Erbrechen herbeiführen.\n\nBei der Entsorgung steht: Produktreste nicht in größeren Mengen in den Ausguss schütten. Gereinigte Behälter an die Firma zurückgeben. Die Betriebsanweisung sagt also auch, wie die Verpackung entsorgt wird.\n\nMERKE: Der Arbeitgeber sorgt dafür, dass alle Mitarbeiterinnen die schriftliche Betriebsanweisung lesen können, in verständlicher Form und Sprache. Es gibt eine Anfangsunterweisung und danach jedes Jahr eine Unterweisung. Beide werden dokumentiert, also schriftlich festgehalten.\n\nGefahrstoffe werden in einem Sicherheitsschrank gelagert. Die Persönliche Schutzausrüstung (PSA) stellt der Betrieb zur Verfügung, zum Beispiel Schutzhandschuhe und Augenschutz.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Woraus wird im Betrieb die Betriebsanweisung erstellt?",
+        "options": [
+          { "text": "Aus dem Sicherheitsdatenblatt.", "correct": true },
+          { "text": "Aus dem Lieferschein." },
+          { "text": "Aus dem Reinigungsplan." },
+          { "text": "Aus der Rechnung des Händlers." }
+        ],
+        "explanation": "Der Hersteller liefert das Sicherheitsdatenblatt. Im Betrieb wird daraus die Betriebsanweisung gemacht. Oder der Hersteller stellt die Betriebsanweisung gleich mit zur Verfügung."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "§ Die Betriebsanweisung gilt nach einem Paragrafen der Gefahrstoffverordnung (GefStoffV). Nach welchem? Tippe die Zahl ein.",
+        "answer": 14,
+        "hint": "Es ist das Doppelte von 7.",
+        "explanation": "Die Betriebsanweisung gilt nach § 14 GefStoffV. GefStoffV ist die Abkürzung für Gefahrstoffverordnung. Auf dem Muster steht: „Betriebsanweisung gem. § 14 GefStoffV“."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📑 Ganz oben steht die Gefahrstoffbezeichnung. Welche Abschnitte folgen darunter? Bringe sie in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Gefahren für Mensch und Umwelt" },
+          { "text": "Schutzmaßnahmen und Verhaltensregeln" },
+          { "text": "Verhalten im Gefahrfall" },
+          { "text": "Erste Hilfe" },
+          { "text": "Sachgerechte Entsorgung" },
+          { "text": "Sonstiges" }
+        ],
+        "explanation": "Die Reihenfolge hat eine Logik. Erst erfährst du, welche Gefahr droht. Dann liest du, wie du dich schützt. Danach kommt, was du tust, wenn doch etwas passiert, und wie du Erste Hilfe leistest. Am Ende stehen die Entsorgung und Sonstiges."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ In welchen Abschnitt der Betriebsanweisung gehört der Satz? Sortiere.",
+        "buckets": [
+          { "id": "schutz", "label": "Schutzmaßnahmen", "icon": "🧤" },
+          { "id": "hilfe", "label": "Erste Hilfe", "icon": "⛑️" },
+          { "id": "entsorgung", "label": "Entsorgung", "icon": "♻️" }
+        ],
+        "items": [
+          { "text": "Schutzhandschuhe und Augenschutz tragen.", "bucket": "schutz" },
+          { "text": "Bei der Arbeit nicht essen, trinken oder rauchen.", "bucket": "schutz" },
+          { "text": "Für ausreichende Belüftung sorgen.", "bucket": "schutz" },
+          { "text": "Nach Einatmen an die frische Luft bringen.", "bucket": "hilfe" },
+          { "text": "Beschmutzte Kleidung und Schuhe sofort ausziehen.", "bucket": "hilfe" },
+          { "text": "Nach Augenkontakt mit viel Wasser ausspülen.", "bucket": "hilfe" },
+          { "text": "Produktreste nicht in größeren Mengen in den Ausguss schütten.", "bucket": "entsorgung" },
+          { "text": "Gereinigte Behälter an die Firma zurückgeben.", "bucket": "entsorgung" }
+        ],
+        "explanation": "Frag dich: Wann gilt der Satz? Vor und bei der Arbeit, damit nichts passiert? Das sind Schutzmaßnahmen. Nachdem schon etwas passiert ist? Das ist Erste Hilfe. Am Ende, wenn Reste und Behälter wegmüssen? Das ist Entsorgung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Eine Kollegin hat aus Versehen etwas Li-Ex verschluckt. Was steht dazu in der Betriebsanweisung?",
+        "options": [
+          { "text": "Viel Wasser trinken. Kein Erbrechen herbeiführen.", "correct": true },
+          { "text": "Sofort erbrechen, damit das Mittel herauskommt." },
+          { "text": "Nichts trinken und abwarten, bis es besser wird." },
+          { "text": "Ein Glas Milch trinken und sich hinlegen." }
+        ],
+        "explanation": "Unter Erste Hilfe steht bei Li-Ex: Nach Verschlucken viel Wasser trinken und kein Erbrechen herbeiführen. Erbrechen auslösen kann zusätzlich schaden. Bei anhaltenden Beschwerden geht die Kollegin zum Arzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💦 Li-Ex ist ausgelaufen und bildet eine Pfütze auf dem Boden. Was machst du laut Betriebsanweisung?",
+        "options": [
+          { "text": "Mit Lappen oder Vlies aufwischen, Spuren mit Wasser wegspülen.", "correct": true },
+          { "text": "Mit einem Schaber zurück in die Originalflasche füllen." },
+          { "text": "Liegen lassen, bis die Pfütze von selbst getrocknet ist." }
+        ],
+        "explanation": "Ausgelaufenes Mittel nimmst du mit saugfähigem Material auf, zum Beispiel mit einem Lappen oder Vlies. Danach spülst du die Spuren mit Wasser weg. Verschüttetes Produkt kommt nie zurück in den Originalbehälter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 In der Betriebsanweisung steht: WGK 1. Was bedeutet das?",
+        "options": [
+          { "text": "Schwach wassergefährdend.", "correct": true },
+          { "text": "Stark wassergefährdend." },
+          { "text": "Nicht wassergefährdend." },
+          { "text": "Nur mit Wasser verdünnt benutzen." }
+        ],
+        "explanation": "WGK heißt Wassergefährdungsklasse. WGK 1 bedeutet: schwach wassergefährdend. Das Mittel kann dem Wasser also schaden. Deshalb gehören größere Mengen nicht in den Ausguss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Eine neue Kollegin spricht noch wenig Deutsch. Was muss der Arbeitgeber bei der Betriebsanweisung beachten?",
+        "options": [
+          { "text": "Sie muss schriftlich vorliegen, in verständlicher Form und Sprache.", "correct": true },
+          { "text": "Es reicht, wenn die Chefin sie einmal kurz mündlich erklärt." },
+          { "text": "Die Kollegin muss sich die Anweisung selbst übersetzen lassen." }
+        ],
+        "explanation": "Der Arbeitgeber muss dafür sorgen, dass die schriftliche Betriebsanweisung allen Mitarbeiterinnen zugänglich ist. Sie muss in verständlicher Form und Sprache sein. Nur so kann jede sie wirklich verstehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Wann findet eine Unterweisung zu Gefahrstoffen statt?",
+        "options": [
+          { "text": "Am Anfang und danach jedes Jahr. Beide werden dokumentiert.", "correct": true },
+          { "text": "Nur am ersten Arbeitstag. Aufschreiben ist nicht nötig." },
+          { "text": "Alle fünf Jahre. Sie wird im Dienstplan eingetragen." },
+          { "text": "Nur nach einem Unfall. Dann wird sie dokumentiert." }
+        ],
+        "explanation": "Es gibt eine Anfangsunterweisung und danach jedes Jahr eine Unterweisung. Beide werden dokumentiert, also schriftlich festgehalten. So kann man später nachweisen, dass jede Mitarbeiterin unterwiesen wurde."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔐 Wo werden Gefahrstoffe gelagert?",
+        "options": [
+          { "text": "Im Sicherheitsschrank.", "correct": true },
+          { "text": "Offen auf dem Reinigungswagen." },
+          { "text": "Im Vorratsraum bei den Lebensmitteln." },
+          { "text": "Unter dem Waschbecken im Bad." }
+        ],
+        "explanation": "Gefahrstoffe müssen in einem Sicherheitsschrank gelagert werden. Dort sind sie sicher verwahrt. Offen oder neben Lebensmitteln können sie verwechselt werden oder in falsche Hände geraten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Zum Schluss: Wer stellt dir die Persönliche Schutzausrüstung (PSA) zur Verfügung?",
+        "options": [
+          { "text": "Der Betrieb.", "correct": true },
+          { "text": "Du kaufst sie dir selbst." },
+          { "text": "Die Berufsschule." }
+        ],
+        "explanation": "Die PSA, zum Beispiel Schutzhandschuhe und Augenschutz, stellt der Betrieb zur Verfügung. Du trägst sie, wenn die Betriebsanweisung es sagt."
+      }
+    }
+  ]
+}

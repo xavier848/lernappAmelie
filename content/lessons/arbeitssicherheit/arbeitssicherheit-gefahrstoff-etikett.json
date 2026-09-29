@@ -1,0 +1,129 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-gefahrstoff-etikett",
+  "title": "Gefahrstoffe: Etikett und Datenblatt",
+  "sort": 661,
+  "intro": "Am Etikett erkennst du, welche Gefahren von einem Produkt ausgehen. Reiniger, die „reizend“ oder „ätzend“ sein können, schaden bei richtiger Anwendung nicht. Befolge deshalb genau die Gefahren- und Sicherheitshinweise. Befolge auch die Gebrauchs- und Entsorgungsanweisungen auf der Verpackung.\n\nEin Reiniger ist oft ein Gemisch, also ein Produkt aus mehreren Stoffen. Sein Etikett nach der CLP-Verordnung hat feste Teile.\n\nDer Produktidentifikator nennt die Stoffe und die EG-Nummer. Beispiel: „enthält: Stoff 1, Stoff 2, EG-Nr. 206-655-7“. Dazu kommen die Gefahrenpiktogramme und das Signalwort, zum Beispiel „GEFAHR“.\n\nDie Nennmenge ist die Menge im Behälter. Beispiel: „Inhalt: 5 Liter“. Sie muss auf das Etikett, wenn jeder das Produkt kaufen kann. Das gilt, wenn die Menge nicht schon an einer anderen Stelle steht.\n\nAußerdem stehen darauf: die Gefahrenhinweise (H-Sätze) und die Sicherheitshinweise (P-Sätze). In der Regel sind es nicht mehr als sechs P-Sätze. Auch der Lieferant steht darauf, mit Name, Anschrift und Telefonnummer.\n\nErgänzende Informationen sind nicht Pflicht. Das sind zum Beispiel ein QR-Code, ein Strichcode oder „Made in Germany“.\n\nFür Reinigungsmittel mit Gefahrstoffen erstellt der Hersteller ein Sicherheitsdatenblatt. Darin müssen stehen: die Stoff- und Gemischbezeichnung, die Zusammensetzung, die möglichen Gefahren, die Erste-Hilfe-Maßnahmen sowie Handhabung und Lagerung.\n\nMERKE: Das Sicherheitsdatenblatt kommt vom Hersteller. Zu Gesundheitsgefahren und Giftigkeit hat es mehr Informationen als die Betriebsanweisung. Giftigkeit heißt in der Fachsprache Toxizität.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Was steht in welchem Teil des Etiketts? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Produktidentifikator"}, "right": {"text": "Stoffnamen und EG-Nummer"} },
+          { "left": {"text": "Nennmenge"}, "right": {"text": "„Inhalt: 5 Liter“"} },
+          { "left": {"text": "Lieferant"}, "right": {"text": "Name, Anschrift und Telefonnummer"} },
+          { "left": {"text": "Signalwort"}, "right": {"text": "„GEFAHR“"} },
+          { "left": {"text": "H-Satz"}, "right": {"text": "„Giftig bei Verschlucken.“"} },
+          { "left": {"text": "P-Satz"}, "right": {"text": "„Schutzhandschuhe tragen.“"} }
+        ],
+        "explanation": "Jeder Teil des Etiketts hat eine feste Aufgabe. Der Produktidentifikator sagt, was drin ist. Die Nennmenge sagt, wie viel drin ist. Der Lieferant sagt, von wem es kommt. Signalwort, H-Sätze und P-Sätze warnen dich und sagen, wie du dich schützt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Muss das auf das Etikett? Sortiere.",
+        "buckets": [
+          { "id": "pflicht", "label": "Pflicht", "icon": "✅" },
+          { "id": "frei", "label": "Nicht Pflicht", "icon": "➖" }
+        ],
+        "items": [
+          { "text": "Produktidentifikator mit EG-Nummer", "bucket": "pflicht" },
+          { "text": "Gefahrenpiktogramme", "bucket": "pflicht" },
+          { "text": "Signalwort", "bucket": "pflicht" },
+          { "text": "H-Sätze und P-Sätze", "bucket": "pflicht" },
+          { "text": "Name und Telefon des Lieferanten", "bucket": "pflicht" },
+          { "text": "QR-Code", "bucket": "frei" },
+          { "text": "Strichcode", "bucket": "frei" },
+          { "text": "„Made in Germany“", "bucket": "frei" }
+        ],
+        "explanation": "Frag dich: Warnt es mich, sagt es, was drin ist, oder sagt es, woher das Produkt kommt? Dann ist es Pflicht. Ergänzende Informationen wie QR-Code, Strichcode oder „Made in Germany“ sind nicht obligatorisch. Obligatorisch heißt: Pflicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Wann muss die Nennmenge, zum Beispiel „Inhalt: 5 Liter“, auf dem Etikett stehen?",
+        "options": [
+          { "text": "Wenn jeder das Produkt kaufen kann und die Menge nicht schon woanders steht.", "correct": true },
+          { "text": "Nur wenn in dem Behälter mehr als fünf Liter von dem Reiniger enthalten sind." },
+          { "text": "Nur wenn auf dem Etikett das Signalwort „Gefahr“ statt „Achtung“ steht." },
+          { "text": "Nur wenn das Produkt in ein Land außerhalb der EU verkauft wird." }
+        ],
+        "explanation": "Die Nennmenge ist Pflicht, wenn das Produkt der breiten Öffentlichkeit zugänglich ist. Das heißt: Jeder kann es kaufen. Steht die Menge schon an einer anderen Stelle, muss sie nicht noch einmal auf das Etikett."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 Wie viele P-Sätze stehen in der Regel höchstens auf einem Etikett? Tippe die Zahl ein.",
+        "answer": 6,
+        "hint": "Denk an einen Würfel.\nDie höchste Zahl auf dem Würfel ist die Antwort.",
+        "explanation": "In der Regel stehen nicht mehr als sechs P-Sätze auf dem Etikett. P-Sätze sind die Sicherheitshinweise."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Ein Reinigungsmittel enthält Gefahrstoffe. Wer erstellt das Sicherheitsdatenblatt?",
+        "options": [
+          { "text": "Der Hersteller des Reinigungsmittels.", "correct": true },
+          { "text": "Der Betrieb, der das Mittel benutzt." },
+          { "text": "Die Reinigungskraft vor dem ersten Einsatz." },
+          { "text": "Der Laden, der das Mittel verkauft." }
+        ],
+        "explanation": "Das Sicherheitsdatenblatt macht der Hersteller. Er kennt die Inhaltsstoffe genau. Der Betrieb, der das Mittel benutzt, bekommt das Datenblatt und arbeitet damit weiter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Was gehört nicht zu den Pflichtangaben im Sicherheitsdatenblatt?",
+        "options": [
+          { "text": "Der Verkaufspreis pro Liter.", "correct": true },
+          { "text": "Die Zusammensetzung." },
+          { "text": "Die Erste-Hilfe-Maßnahmen." },
+          { "text": "Die Handhabung und Lagerung." }
+        ],
+        "explanation": "Pflicht im Sicherheitsdatenblatt sind: Stoff- und Gemischbezeichnung, Zusammensetzung, mögliche Gefahren, Erste-Hilfe-Maßnahmen sowie Handhabung und Lagerung. Der Preis hat mit der Sicherheit nichts zu tun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔬 Du willst genau wissen, wie giftig ein Mittel ist. Wo findest du dazu die meisten Informationen?",
+        "options": [
+          { "text": "Im Sicherheitsdatenblatt.", "correct": true },
+          { "text": "In der Betriebsanweisung." },
+          { "text": "Auf dem Etikett." }
+        ],
+        "explanation": "Das Sicherheitsdatenblatt enthält zu Gesundheitsgefahren und Toxizität mehr Informationen als die Betriebsanweisung. Toxizität heißt Giftigkeit. Das Etikett zeigt nur die wichtigsten Warnungen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Ein Reiniger ist als „ätzend“ gekennzeichnet. Du sollst damit das WC reinigen. Was stimmt?",
+        "options": [
+          { "text": "Bei richtiger Anwendung schadet er nicht. Du befolgst alle Hinweise genau.", "correct": true },
+          { "text": "Er schadet in jedem Fall. Deshalb darf ihn nur die Chefin benutzen." },
+          { "text": "Er schadet nur beim Trinken. Die übrigen Hinweise kannst du überspringen." }
+        ],
+        "explanation": "Reiniger, die reizend oder ätzend sein können, führen bei richtiger Anwendung nicht zu Schäden. Wichtig ist: Du befolgst die Gefahren- und Sicherheitshinweise. Du befolgst auch die Gebrauchs- und Entsorgungsanweisungen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Zum Schluss: Woran erkennst du als Verbraucherin, welche Gefahren von einem Reiniger ausgehen?",
+        "options": [
+          { "text": "Am Etikett auf der Verpackung.", "correct": true },
+          { "text": "Am Geruch, wenn du daran riechst." },
+          { "text": "An der Farbe der Flüssigkeit." }
+        ],
+        "explanation": "Das Etikett zeigt dir die Gefahren: Piktogramme, Signalwort und H-Sätze. An einem Reiniger riechst du besser nicht. Manche Stoffe schaden schon beim Einatmen. Auch das steht dann in einem H-Satz."
+      }
+    }
+  ]
+}
