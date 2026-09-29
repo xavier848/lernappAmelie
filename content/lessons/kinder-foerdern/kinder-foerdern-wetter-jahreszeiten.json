@@ -1,0 +1,114 @@
+{
+  "topic_slug": "kinder-foerdern",
+  "slug": "kinder-foerdern-wetter-jahreszeiten",
+  "title": "Wetter, Jahreszeiten und kleine Experimente",
+  "sort": 6,
+  "intro": "Kinder brauchen Kleidung, die zum Wetter passt. Das heißt wettergerechte Kleidung. Bei Regen gibt es Regenjacke, Matschhose und Gummistiefel. Bei Kälte gibt es Mütze, Schal, Handschuhe und warme Schuhe. Bei Sonne gibt es Sonnenhut, Sonnencreme und luftige Kleidung.\n\nEin guter Trick ist das Zwiebelprinzip. Das Kind trägt mehrere dünne Schichten übereinander. Wird ihm warm, ziehst du eine Schicht aus.\n\nSaisonale Angebote passen zur Jahreszeit. Im Frühling: Kresse säen oder Blumen pflanzen. Im Sommer: mit Wasser spielen. Im Herbst: Kastanien und Blätter sammeln. Im Winter: einen Schneemann bauen.\n\nKleine Experimente machen Kinder neugierig. Zum Beispiel: Schwimmt es oder geht es unter? Was passiert mit Eis in der Sonne? Welche Farbe entsteht aus Gelb und Blau?\n\nDabei lernt das Kind Ursache und Wirkung: Wenn ich etwas tue, passiert etwas. Du nimmst nur ungefährliche Dinge und behältst die Kinder immer im Blick.\n\nMERKE: Kleidung nach dem Wetter, Angebote nach der Jahreszeit, Experimente für Neugier und Ursache und Wirkung.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌦️ Was braucht das Kind bei welchem Wetter? Sortiere.",
+        "buckets": [
+          { "id": "regen", "label": "Regen", "icon": "🌧️" },
+          { "id": "kaelte", "label": "Kälte", "icon": "❄️" },
+          { "id": "sonne", "label": "Sonne", "icon": "☀️" }
+        ],
+        "items": [
+          { "text": "Matschhose", "bucket": "regen" },
+          { "text": "Gummistiefel", "bucket": "regen" },
+          { "text": "Mütze und Schal", "bucket": "kaelte" },
+          { "text": "Warme Handschuhe", "bucket": "kaelte" },
+          { "text": "Sonnenhut", "bucket": "sonne" },
+          { "text": "Sonnencreme", "bucket": "sonne" }
+        ],
+        "explanation": "Frag dich bei jedem Teil: Schützt es vor Nässe, vor Kälte oder vor der Sonne?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧅 Was bedeutet das Zwiebelprinzip bei Kinderkleidung?",
+        "options": [
+          { "text": "Mehrere dünne Schichten übereinander, zum Ausziehen.", "correct": true },
+          { "text": "Eine einzige sehr dicke Jacke direkt über dem T-Shirt." },
+          { "text": "Nur Kleidung aus Wolle, weil sie immer am besten wärmt." }
+        ],
+        "explanation": "Wie bei einer Zwiebel liegen mehrere Schichten übereinander. Wird es wärmer, ziehst du eine Schicht aus. Wird es kälter, ziehst du eine an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎒 Morgens ist es kalt, mittags scheint die Sonne. Wie ziehst du das Kind für den Ausflug an?",
+        "options": [
+          { "text": "Nach dem Zwiebelprinzip, den Sonnenhut im Rucksack.", "correct": true },
+          { "text": "Mit dicker Winterjacke, die den ganzen Tag anbleibt." },
+          { "text": "Nur im T-Shirt, weil es mittags ja warm wird." }
+        ],
+        "explanation": "Das Wetter ändert sich im Laufe des Tages. Mit mehreren Schichten kannst du die Kleidung anpassen. Für die Sonne am Mittag packst du den Sonnenhut ein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍂 Welches Angebot passt zu welcher Jahreszeit? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🌷 Frühling"}, "right": {"text": "Kresse säen"} },
+          { "left": {"text": "☀️ Sommer"}, "right": {"text": "Mit Wasser spielen"} },
+          { "left": {"text": "🍁 Herbst"}, "right": {"text": "Kastanien sammeln"} },
+          { "left": {"text": "⛄ Winter"}, "right": {"text": "Einen Schneemann bauen"} }
+        ],
+        "explanation": "Saisonale Angebote nutzen, was die Jahreszeit gerade bietet. Im Frühling wächst alles, im Sommer ist es warm, im Herbst fallen Kastanien, im Winter liegt Schnee."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Was ist ein saisonales Angebot?",
+        "options": [
+          { "text": "Ein Angebot, das zur Jahreszeit passt.", "correct": true },
+          { "text": "Ein Angebot, das man das ganze Jahr gleich macht." },
+          { "text": "Ein Angebot, das nur drinnen stattfinden darf." }
+        ],
+        "explanation": "Saison heißt Jahreszeit. Ein saisonales Angebot passt zur Jahreszeit, zum Beispiel Blätter sammeln im Herbst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛟 Ihr testet: Schwimmt es oder geht es unter? Was lernt das Kind dabei vor allem?",
+        "options": [
+          { "text": "Ursache und Wirkung: Was passiert, wenn ich etwas tue?", "correct": true },
+          { "text": "Farben: Welche Farbe hat der Gegenstand im Wasser?" },
+          { "text": "Formen: Ist der Gegenstand rund, eckig oder spitz?" }
+        ],
+        "explanation": "Bei einem Experiment probiert das Kind etwas aus und beobachtet die Folge. So lernt es Ursache und Wirkung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Du machst mit Kindern ein kleines Experiment. Was ist dabei wichtig?",
+        "options": [
+          { "text": "Nur ungefährliche Dinge nehmen und die Kinder immer im Blick behalten.", "correct": true },
+          { "text": "Die Kinder allein ausprobieren lassen, damit sie selbstständig werden." },
+          { "text": "Heiße Flüssigkeiten nehmen, weil man damit am meisten sieht." }
+        ],
+        "explanation": "Du hast die Aufsichtspflicht. Darum nimmst du nur ungefährliche Dinge und bist immer dabei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Ein kleines Farb-Experiment: Welche Farbe entsteht, wenn du Gelb und Blau mischst?",
+        "options": [
+          { "text": "Grün.", "correct": true },
+          { "text": "Orange." },
+          { "text": "Lila." }
+        ],
+        "explanation": "Gelb und Blau ergeben Grün. Solche kleinen Experimente machen Kinder neugierig."
+      }
+    }
+  ]
+}

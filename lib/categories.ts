@@ -49,7 +49,7 @@ export const CATEGORIES: Category[] = [
     slug: "geld-einkaufen",
     title: "Geld & Einkaufen",
     icon: "💶",
-    topicSlugs: ["geld-verwalten", "warenwirtschaft"],
+    topicSlugs: ["geld-verwalten", "warenwirtschaft", "kaufvertrag"],
   },
   {
     slug: "mathe",

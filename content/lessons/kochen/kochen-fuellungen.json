@@ -1,0 +1,133 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-fuellungen",
+  "title": "Füllungen für Gebäck",
+  "sort": 640,
+  "intro": "Für Gebäck gibt es viele Füllungen. Es gibt pikante Füllungen. Pikant heißt: herzhaft, nicht süß. Und es gibt süße Füllungen.\n\nDie Füllungen passen in süßen und salzigen Hefeteig, in Quark-Öl-Teig und in Blätterteig. Kleingebäck mit Füllung backst du bei 180 bis 200 °C. Es braucht etwa 20 bis 30 Minuten.\n\nPikant ist die Hackfleisch-Feta-Füllung. Du brätst 300 g Rinderhackfleisch in heißem Öl an. Du würfelst 1 bis 2 Zwiebeln. Du gibst sie dazu und dünstest sie an. Dann würzt du mit Salz, Pfeffer und Paprika.\n\nDanach rührst du 2 bis 3 Esslöffel Tomatenmark unter. Dann gibst du 1 Dose stückige Tomaten dazu. Alles kocht auf und köchelt etwas ein.\n\nZum Schluss kommen 100 g Feta-Käse dazu. Du zerbröselst den Feta. Du gibst ihn erst unter die abgekühlte Füllung.\n\nSüß ist die Füllung für Apfeltaschen. Du mischst 1 Glas Apfelkompott mit 50 g gehackten Mandeln und 40 g Rosinen. Mehr ist nicht zu tun. Das Apfelkompott kannst du auch selbst kochen.\n\nSüß ist auch die Marzipan-Nuss-Füllung. Du verrührst 200 g Marzipan mit 60 g Butter. Dann rührst du 120 g gehackte Haselnüsse, 60 g Zucker und 2 Esslöffel Rum unter. Zum Schluss schlägst du 1 Eiweiß steif. Das hebst du vorsichtig unter. Unterheben heißt: locker unterziehen, nicht rühren. So bleibt die Luft im Eischnee.\n\nMit einer Nussfüllung kannst du Schnecken backen. Dafür rollst du den Teig mit der Füllung auf. Dann schneidest du ihn in Scheiben.\n\nMERKE: Der Feta kommt erst in die abgekühlte Füllung. Steifes Eiweiß hebst du unter, du rührst es nicht unter. Kleingebäck mit Füllung: 180 bis 200 °C, etwa 20 bis 30 Minuten.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥟 Du machst die Hackfleisch-Feta-Füllung. Bringe die ersten Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das Rinderhackfleisch in heißem Öl anbraten." },
+          { "text": "Die Zwiebeln würfeln, dazugeben und andünsten." },
+          { "text": "Mit Salz, Pfeffer und Paprika würzen." },
+          { "text": "Das Tomatenmark unterrühren." },
+          { "text": "Die stückigen Tomaten dazugeben, aufkochen und etwas einköcheln lassen." }
+        ],
+        "explanation": "Frag dich: Was muss am längsten Hitze bekommen? Das Fleisch wird zuerst angebraten. Dann kommen Zwiebeln und Gewürze dazu. Tomatenmark und Tomaten kommen danach, sonst würden sie beim Anbraten anbrennen. Zuletzt köchelt alles etwas ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Die Hackfleisch-Feta-Füllung köchelt noch auf dem Herd. Wann kommt der Feta-Käse dazu?",
+        "options": [
+          { "text": "Zerbröselt, wenn die Füllung abgekühlt ist.", "correct": true },
+          { "text": "Zerbröselt, jetzt gleich mit den Tomaten." },
+          { "text": "Am Stück, gleich am Anfang mit dem Fleisch." }
+        ],
+        "explanation": "Der Feta ist die letzte Zutat. Du zerbröselst ihn und gibst ihn unter die abgekühlte Füllung. So bleiben die Käse-Bröckchen erhalten und zerlaufen nicht in der heißen Masse."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ In welche Füllung gehört die Zutat? Sortiere.",
+        "buckets": [
+          { "id": "hack", "label": "Hackfleisch-Feta (pikant)", "icon": "🥩" },
+          { "id": "apfel", "label": "Apfeltaschen (süß)", "icon": "🍎" },
+          { "id": "marzipan", "label": "Marzipan-Nuss (süß)", "icon": "🌰" }
+        ],
+        "items": [
+          { "text": "Tomatenmark", "bucket": "hack" },
+          { "text": "Feta-Käse", "bucket": "hack" },
+          { "text": "Apfelkompott", "bucket": "apfel" },
+          { "text": "Rosinen", "bucket": "apfel" },
+          { "text": "Gehackte Mandeln", "bucket": "apfel" },
+          { "text": "Gehackte Haselnüsse", "bucket": "marzipan" },
+          { "text": "Rum", "bucket": "marzipan" },
+          { "text": "Ein Eiweiß", "bucket": "marzipan" }
+        ],
+        "explanation": "Frag dich bei jeder Zutat: Ist sie herzhaft oder süß? Herzhaftes gehört zur Hackfleisch-Feta-Füllung. Bei den süßen Füllungen hilft die Nuss-Sorte: Mandeln kommen zu den Äpfeln, Haselnüsse zum Marzipan. Rum und Eiweiß gehören nur zur Marzipan-Nuss-Füllung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Für die Marzipan-Nuss-Füllung brauchst du 1 Eiweiß. Was machst du damit?",
+        "options": [
+          { "text": "Steif schlagen und zum Schluss vorsichtig unterheben.", "correct": true },
+          { "text": "Steif schlagen und zum Schluss kräftig unterrühren." },
+          { "text": "Ungeschlagen gleich am Anfang mit dem Marzipan verrühren." }
+        ],
+        "explanation": "Steifes Eiweiß heißt auch Eischnee. Darin steckt viel Luft. Beim Unterheben ziehst du den Eischnee locker unter. Kräftiges Rühren würde die Luft wieder herausdrücken."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚖️ Wie viel brauchst du? Verbinde die Zutat mit der Menge.",
+        "pairs": [
+          { "left": {"text": "🥩 Rinderhackfleisch"}, "right": {"text": "300 g"} },
+          { "left": {"text": "🧀 Feta-Käse"}, "right": {"text": "100 g"} },
+          { "left": {"text": "🍬 Marzipan"}, "right": {"text": "200 g"} },
+          { "left": {"text": "🌰 Gehackte Haselnüsse"}, "right": {"text": "120 g"} },
+          { "left": {"text": "🥜 Gehackte Mandeln"}, "right": {"text": "50 g"} },
+          { "left": {"text": "🍇 Rosinen"}, "right": {"text": "40 g"} }
+        ],
+        "explanation": "Die Hauptzutat hat meist die größte Menge: 300 g Hackfleisch, 200 g Marzipan. Bei den Nüssen hilft dir: In die Marzipan-Füllung kommen mehr Nüsse (120 g) als in die Apfel-Füllung (50 g Mandeln). Von den Rosinen nimmst du am wenigsten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Du backst kleine Teigtaschen mit Füllung. Was sind die Richtwerte?",
+        "options": [
+          { "text": "180 bis 200 °C, etwa 20 bis 30 Minuten.", "correct": true },
+          { "text": "180 bis 200 °C, etwa 45 bis 60 Minuten." },
+          { "text": "220 bis 240 °C, etwa 20 bis 30 Minuten." },
+          { "text": "140 bis 160 °C, etwa 45 bis 60 Minuten." }
+        ],
+        "explanation": "Kleingebäck ist klein und wird deshalb schnell gar. Der Richtwert ist 180 bis 200 °C für etwa 20 bis 30 Minuten. Eine Stunde wäre viel zu lang. Bei 220 bis 240 °C würde es außen verbrennen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Die Füllungen sind vielseitig. In welche Teige kannst du sie füllen?",
+        "options": [
+          { "text": "In Hefeteig, Quark-Öl-Teig und Blätterteig.", "correct": true },
+          { "text": "Nur in süßen Hefeteig, weil Füllungen immer süß sind." },
+          { "text": "Nur in Blätterteig, weil nur er sich falten lässt." }
+        ],
+        "explanation": "Die Füllungen passen in süßen und salzigen Hefeteig, in Quark-Öl-Teig und in Blätterteig. Es gibt pikante und süße Füllungen. Darum sind so viele Kombinationen möglich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Wie bereitest du die Füllung für Apfeltaschen zu?",
+        "options": [
+          { "text": "Die Zutaten nur miteinander mischen.", "correct": true },
+          { "text": "Die Zutaten aufkochen und einköcheln lassen." },
+          { "text": "Die Zutaten mit steifem Eiweiß unterheben." }
+        ],
+        "explanation": "Für die Apfeltaschen mischst du Apfelkompott, gehackte Mandeln und Rosinen. Kochen musst du nichts. Das Kompott ist ja schon gekocht. Einköcheln gehört zur Hackfleisch-Füllung, Eischnee zur Marzipan-Nuss-Füllung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Du rollst Teig mit Nussfüllung auf und schneidest ihn in Scheiben. Wie heißt dieses Gebäck?",
+        "options": [
+          { "text": "Schnecken.", "correct": true },
+          { "text": "Apfeltaschen." },
+          { "text": "Hörnchen." }
+        ],
+        "explanation": "Aufgerollter Teig mit Füllung, in Scheiben geschnitten: Das sind Schnecken. Beim Schneiden siehst du die Füllung als Spirale – wie das Haus einer Schnecke."
+      }
+    }
+  ]
+}
