@@ -1,0 +1,147 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-schaedlinge-nager",
+  "title": "Schädlinge: Arten und Schadnager",
+  "sort": 710,
+  "intro": "🐭 Schädlinge richten in Küche und Lager großen Schaden an. Man unterscheidet drei Arten.\n\nMaterialschädlinge fressen Verpackungen an, zum Beispiel Papiertüten und Mehlsäcke. Ein Beispiel sind Silberfischchen. Vorratsschädlinge befallen die Lebensmittel selbst. Ein Beispiel sind Lebensmittelmotten. Hygieneschädlinge tragen Mikroorganismen weiter, also Keime. So verbreiten sie oft Krankheiten. Ein Beispiel sind Fliegen.\n\nSchädlinge fressen nicht nur. Sie verschmutzen die Ware auch mit Urin, Kot und Speichel. Das nennt man Kontamination. Der wirtschaftliche Schaden kann sehr groß sein.\n\nMan unterscheidet Schadnager und Schadinsekten. Schadnager sind Mäuse und Ratten.\n\nSo hältst du Mäuse und Ratten fern: Lass Türen und Tore nie unbeaufsichtigt offen. Direkt an Türen, Toren und Fenstern wachsen keine Pflanzen, also kein Efeu, keine Hecken und keine Büsche. Kellerfenster und Lüftungsrohre haben stabile, fest eingebaute, engmaschige Gitter. Engmaschig heißt: mit ganz kleinen Löchern. Die Abfallcontainer bleiben geschlossen.\n\nAm besten macht der Betrieb keinen eigenen Kompost. Ein Kompost bietet Schadnagern Unterschlupf. Kommen aus Versehen Fleischreste hinein, lockt das vor allem Ratten an.\n\nHunde und Katzen fütterst du im Haus. Futternäpfe bleiben nicht draußen stehen. Leere Näpfe machst du sauber. Auch Vogelfutter im Winter lockt Schadnager an, denn Futterreste fallen herunter. Vögel wie Tauben hält man mit spitzen Stiften fern, zum Beispiel auf Kameras.\n\nEin Anzeichen für Mäuse oder Ratten sind Kotreste. Das sind kleine Kotbällchen.\n\nBekämpft werden Schadnager gezielt mit Fallen und Giftködern. Die Köder liegen in besonderen Boxen oder Rohren mit Warnaufdruck. Denn Rattengift ist auch für Menschen tödlich. Haustiere dürfen die Köder nicht fressen. Und die Köderfallen werden regelmäßig kontrolliert.\n\nEin Mittel gegen Nagetiere heißt Rodentizid. Früher standen darauf diese Zeichen: Xn heißt gesundheitsschädlich. T heißt giftig. T+ heißt sehr giftig.\n\nMERKE: Drei Arten von Schädlingen: Materialschädlinge, Vorratsschädlinge und Hygieneschädlinge.\n\nMERKE: Giftköder nur in Köderboxen mit Warnaufdruck. Rattengift ist auch für Menschen tödlich.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🐛 Welche Art von Schädling ist das? Sortiere.",
+        "buckets": [
+          { "id": "material", "label": "Materialschädling", "icon": "📦" },
+          { "id": "vorrat", "label": "Vorratsschädling", "icon": "🌾" },
+          { "id": "hyg", "label": "Hygieneschädling", "icon": "🦠" }
+        ],
+        "items": [
+          { "text": "Silberfischchen", "bucket": "material" },
+          { "text": "Frisst Papiertüten und Mehlsäcke an", "bucket": "material" },
+          { "text": "Lebensmittelmotten", "bucket": "vorrat" },
+          { "text": "Befällt die Lebensmittel selbst", "bucket": "vorrat" },
+          { "text": "Fliegen", "bucket": "hyg" },
+          { "text": "Trägt Keime weiter und verbreitet Krankheiten", "bucket": "hyg" }
+        ],
+        "explanation": "Frag dich: Was geht kaputt? Ist es nur die Verpackung, ist es ein Materialschädling. Ist es das Lebensmittel, ist es ein Vorratsschädling. Werden Keime und Krankheiten übertragen, ist es ein Hygieneschädling."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💩 Schädlinge fressen nicht nur. Womit verschmutzen sie Lebensmittel außerdem?",
+        "options": [
+          { "text": "Mit Urin, Kot und Speichel.", "correct": true },
+          { "text": "Nur mit Staub von draußen." },
+          { "text": "Nur mit Erde an ihren Füßen." }
+        ],
+        "explanation": "Neben dem Fraßschaden verschmutzen Schädlinge die Ware mit Urin, Kot und Speichel. Das nennt man Kontamination. Solche Ware darf nicht mehr gegessen werden. Der wirtschaftliche Schaden kann groß sein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Warum sollte eine Großküche möglichst keinen eigenen Kompost haben?",
+        "options": [
+          { "text": "Er bietet Unterschlupf. Mit Fleischresten lockt er Ratten an.", "correct": true },
+          { "text": "Ein Kompost ist für Großküchen in Deutschland streng verboten." },
+          { "text": "Ein Kompost riecht nur etwas unangenehm, sonst passiert nichts." }
+        ],
+        "explanation": "Ein Kompost ist für Schadnager ein Unterschlupf und Wohnraum. Kommen aus Versehen Fleischreste hinein, lockt das vor allem Ratten an. Darum am besten keine Eigenkompostierung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🐀 Hält das Mäuse und Ratten fern, oder lockt es sie an? Sortiere.",
+        "buckets": [
+          { "id": "fern", "label": "Hält fern", "icon": "🛡️" },
+          { "id": "lockt", "label": "Lockt an", "icon": "🧲" }
+        ],
+        "items": [
+          { "text": "Türen nie unbeaufsichtigt offen lassen", "bucket": "fern" },
+          { "text": "Engmaschige Gitter vor den Kellerfenstern", "bucket": "fern" },
+          { "text": "Abfallcontainer immer geschlossen halten", "bucket": "fern" },
+          { "text": "Hunde und Katzen im Haus füttern", "bucket": "fern" },
+          { "text": "Efeu direkt an der Eingangstür", "bucket": "lockt" },
+          { "text": "Katzennapf mit Futter draußen stehen lassen", "bucket": "lockt" },
+          { "text": "Vogelfutter im Winter, das auf den Boden fällt", "bucket": "lockt" },
+          { "text": "Offene Lüftungsrohre ohne Gitter", "bucket": "lockt" }
+        ],
+        "explanation": "Frag dich zweierlei: Findet das Tier hier Futter? Und findet es einen Weg oder ein Versteck? Futterreste, offene Wege und Pflanzen direkt am Haus helfen den Nagern. Geschlossene Türen, Deckel und Gitter halten sie draußen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Woran erkennst du, dass Mäuse im Lager sind?",
+        "options": [
+          { "text": "An kleinen Kotbällchen.", "correct": true },
+          { "text": "An feinen Spinnweben." },
+          { "text": "An einem süßen Geruch." }
+        ],
+        "explanation": "Ein typisches Anzeichen für Mäuse und Ratten sind Kotreste, also kleine Kotbällchen. Findest du sie, sagst du sofort Bescheid."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Warum legt man Giftköder nur in spezielle Boxen oder Rohre mit Warnaufdruck?",
+        "options": [
+          { "text": "Rattengift ist auch für Menschen tödlich, und Haustiere sollen nicht daran.", "correct": true },
+          { "text": "In einer Box bleibt der Köder länger frisch und riecht für Ratten besser." },
+          { "text": "Die Box macht das Gift für Ratten stärker, darum reicht weniger Köder." }
+        ],
+        "explanation": "Rattengift kann auch einen Menschen töten. Der Warnaufdruck warnt alle. Die Box verhindert, dass Haustiere oder Kinder an den Köder kommen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ Die Köderfallen gegen Ratten sind aufgestellt. Was musst du jetzt noch tun?",
+        "options": [
+          { "text": "Sie regelmäßig kontrollieren.", "correct": true },
+          { "text": "Sie nie wieder anfassen." },
+          { "text": "Sie nach einem Tag wegräumen." }
+        ],
+        "explanation": "Köderfallen müssen regelmäßig kontrolliert werden. So siehst du, ob Köder gefressen wurden, und ob die Falle noch sicher steht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "☠️ Was bedeuten die alten Zeichen auf einem Rodentizid? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🐀 Rodentizid"}, "right": {"text": "Mittel gegen Nagetiere"} },
+          { "left": {"text": "Xn"}, "right": {"text": "Gesundheitsschädlich"} },
+          { "left": {"text": "T"}, "right": {"text": "Giftig"} },
+          { "left": {"text": "T+"}, "right": {"text": "Sehr giftig"} }
+        ],
+        "explanation": "T kommt von toxisch, das heißt giftig. Das Plus bei T+ heißt: noch stärker, also sehr giftig. Xn ist schwächer: gesundheitsschädlich. Alle drei Mittel gehören sicher weggeschlossen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐦 Auf Kameras und Dachrinnen sieht man manchmal spitze Stifte. Wozu sind sie da?",
+        "options": [
+          { "text": "Sie halten Vögel wie Tauben fern.", "correct": true },
+          { "text": "Sie halten Ratten vom Dach fern." },
+          { "text": "Sie leiten bei Gewitter Blitze ab." }
+        ],
+        "explanation": "Die spitzen Stifte dienen zur Abwehr von Vögeln. So können sich Tauben dort nicht niederlassen. Auch Vögel gehören darum zur Schädlingsabwehr dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Welche Tiere nennt man Schadnager?",
+        "options": [
+          { "text": "Mäuse und Ratten.", "correct": true },
+          { "text": "Fliegen und Motten." },
+          { "text": "Tauben und Spatzen." }
+        ],
+        "explanation": "Schadnager sind Mäuse und Ratten. Fliegen und Motten sind Schadinsekten. 🎉"
+      }
+    }
+  ]
+}
