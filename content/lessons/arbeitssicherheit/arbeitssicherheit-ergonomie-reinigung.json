@@ -62,7 +62,7 @@
           { "id": "schlecht", "label": "Belastet den Körper", "icon": "❌" }
         ],
         "items": [
-          { "text": "Fahrbare Geräte benutzen, statt schwer zu tragen", "bucket": "gut" },
+          { "text": "Fahrbare Geräte benutzen", "bucket": "gut" },
           { "text": "Fließend und geordnet arbeiten", "bucket": "gut" },
           { "text": "Beide Hände gleichmäßig benutzen", "bucket": "gut" },
           { "text": "Einen vollen Eimer weit tragen", "bucket": "schlecht" },
@@ -85,27 +85,15 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "match_pairs",
       "data": {
-        "prompt": "🔧 Warum ist ein Teleskopstiel günstig?",
-        "options": [
-          { "text": "Du kannst ihn auf deine Körpergröße einstellen.", "correct": true },
-          { "text": "Er ist leichter zu reinigen als ein normaler Stiel." },
-          { "text": "Er ist im Einkauf billiger als ein normaler Stiel." }
+        "prompt": "🔗 Wie hilft dir das? Verbinde den Tipp mit seinem Nutzen.",
+        "pairs": [
+          { "left": {"text": "🔭 Teleskopstiel"}, "right": {"text": "Lässt sich auf deine Körpergröße einstellen"} },
+          { "left": {"text": "🙌 Beide Hände gleichmäßig nutzen"}, "right": {"text": "Du wirst nicht so schnell müde"} },
+          { "left": {"text": "🛞 Fahrbare Arbeitsgeräte"}, "right": {"text": "Du musst nichts Schweres heben"} }
         ],
-        "explanation": "Einen Teleskopstiel kannst du ausziehen und einschieben. So passt er zu jeder Körpergröße. Dann arbeitest du aufrecht."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🙌 Warum benutzt du beim Reinigen beide Hände gleichmäßig?",
-        "options": [
-          { "text": "So wirst du nicht so schnell müde.", "correct": true },
-          { "text": "So wird die Fläche doppelt so sauber." },
-          { "text": "So brauchst du weniger Reinigungsmittel." }
-        ],
-        "explanation": "Wenn du beide Hände abwechselnd und gleichmäßig benutzt, verteilt sich die Belastung. So beugst du einer schnellen Ermüdung vor."
+        "explanation": "Frag dich bei jedem Tipp: Welche Belastung fällt weg? Ein Stiel in der richtigen Länge erspart dir das Bücken. Wechselst du die Hände ab, verteilt sich die Belastung. Was Rollen hat, schiebst du, statt es zu tragen."
       }
     },
     {

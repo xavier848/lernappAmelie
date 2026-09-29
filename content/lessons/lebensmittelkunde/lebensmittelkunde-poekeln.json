@@ -11,8 +11,8 @@
         "prompt": "🧂 Woraus besteht Pökelsalz?",
         "options": [
           { "text": "Aus Kochsalz mit Nitrat oder Nitrit.", "correct": true },
-          { "text": "Aus Zucker mit etwas Essig." },
-          { "text": "Nur aus grobem Meersalz." }
+          { "text": "Aus Zucker mit etwas Essig und Wasser." },
+          { "text": "Nur aus grobem, ungereinigtem Meersalz." }
         ],
         "explanation": "Pökelsalz ist eine Mischung: Kochsalz mit Kaliumnitrat, Natriumnitrat oder Natriumnitrit. Erst diese Stoffe machen es zum Pökelsalz."
       }
@@ -35,8 +35,8 @@
         "prompt": "🦠 Was machen die Bakterien im Fleisch mit dem Nitrat aus dem Pökelsalz?",
         "options": [
           { "text": "Sie wandeln einen Teil davon in Nitrit um.", "correct": true },
-          { "text": "Sie wandeln das Nitrat in Zucker um." },
-          { "text": "Sie lassen das Nitrat ganz unverändert." }
+          { "text": "Sie wandeln das ganze Nitrat in Zucker um." },
+          { "text": "Sie lassen das Nitrat ganz und gar unverändert." }
         ],
         "explanation": "Ist das Pökelsalz aus Nitrat gemacht, wandeln Bakterien im Fleisch einen Teil davon in Nitrit um. Das Nitrit wirkt dann gegen die Vermehrung von Bakterien."
       }
@@ -51,7 +51,7 @@
           { "left": {"text": "Kasseler"}, "right": {"text": "Ein Beispiel für gepökeltes Fleisch"} }
         ],
         "memory": false,
-        "explanation": "Pökelsalz wirkt doppelt. Das Salz trocknet die Oberfläche, wie beim Wasserentzug. Das Nitrit wirkt gegen Bakterien. Kasseler ist gepökeltes Schweinefleisch."
+        "explanation": "Pökelsalz wirkt doppelt. Das Salz trocknet die Oberfläche, wie beim Wasserentzug. Das Nitrit wirkt gegen Bakterien. Kasseler ist gepökeltes Fleisch."
       }
     },
     {
@@ -102,9 +102,9 @@
       "data": {
         "prompt": "🎨 Warum wird gepökeltes Fleisch nicht fadgrau?",
         "options": [
-          { "text": "Nitrit bildet mit dem Muskelfarbstoff rotes Nitrosomyoglobin.", "correct": true },
-          { "text": "Man färbt es heimlich mit roter Lebensmittelfarbe." },
-          { "text": "Das Salz bleicht das Fleisch und macht es dadurch rosa." }
+          { "text": "Nitrit bildet mit Myoglobin das rote Nitrosomyoglobin.", "correct": true },
+          { "text": "Man färbt es heimlich mit roter Lebensmittelfarbe ein." },
+          { "text": "Das Salz bleicht das Fleisch und macht es dadurch schön rosa." }
         ],
         "explanation": "Der Muskelfarbstoff heißt Myoglobin. Mit Nitrit wird daraus Nitrosomyoglobin. Das ist rot und bleibt auch beim Erhitzen rot."
       }
@@ -115,7 +115,7 @@
         "prompt": "⚖️ Was geht beim Pökeln verloren, und was gewinnt man?",
         "options": [
           { "text": "Mineralstoffe und Eiweiße gehen verloren. Dafür gibt es Pökelgeschmack.", "correct": true },
-          { "text": "Fett und Zucker gehen verloren. Dafür wird das Fleisch deutlich süßer." },
+          { "text": "Fett und Zucker gehen verloren. Dafür wird das Fleisch viel süßer im Geschmack." },
           { "text": "Es geht gar nichts verloren. Es schmeckt danach genau wie vorher." }
         ],
         "explanation": "Pökeln hat Nachteile und Vorteile. Mineralstoffe und Eiweiße gehen verloren. Dafür entsteht der typische Pökelgeschmack, den viele mögen."
