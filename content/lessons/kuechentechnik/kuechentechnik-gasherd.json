@@ -1,0 +1,157 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-gasherd",
+  "title": "Der Gasherd",
+  "sort": 585,
+  "intro": "🔥 Gas zum Heizen von Räumen ist üblich. Beim Kochen mit Gas sind viele noch skeptisch. Dabei hat Gas Vorteile: Die Wärme ist sofort in der eingestellten Stärke da. Du kannst schnell ankochen oder anbraten. Die Hitze lässt sich genau regeln und sofort abschalten. So gelingt Garen „auf den Punkt“. Es gibt keine Nachwärme, das spart Energie. Und du brauchst kein spezielles Kochgeschirr.\n\nGasherde gibt es als Allgasgeräte. Du brauchst nicht unbedingt eine zentrale Gasleitung mit Erdgas oder Stadtgas. Sie laufen auch mit Flüssiggas aus der Flasche: Butan oder Propan.\n\nDie Bauformen sind wie beim Elektroherd. Eine Ausnahme ist das Gas-Kombi-Gerät: Gaskochstellen mit einem Elektrobackofen. Die Kochstellen sind aus Emaille, Edelstahl oder Glaskeramik. Du bedienst sie mit Bedienknebeln.\n\nEine normale Gaskochstelle hat vier Brenner: 1 Starkbrenner mit etwa 3,3 kW, 2 Normalbrenner mit etwa 1,6 bis 2,1 kW und 1 Spar- oder Hilfsbrenner mit etwa 0,9 kW.\n\nTypisch ist die offene Flamme. Sie wird mit der elektrischen Einhandzündung entzündet: Du drückst den Bedienknebel, ein elektrischer Funke entsteht, und die Flamme brennt. Am Knebel regelst du stufenlos. Große Flammensymbole stehen für Ankochen, kleine für Fortkochen. Die thermoelektrische Zündsicherung verhindert, dass Gas ausströmt, ohne zu brennen.\n\nBei Gas-Glaskeramik-Kochfeldern ist die Flamme verdeckt. Ein elektrisch geregelter Gas-Infrarot-Strahler erzeugt die Wärme. Die Vorteile von Gas spürst du hier kaum: Die Hitze ist nicht genau dosierbar, und die Glaskeramik heizt nach.\n\nDer Gasbackofen hat einen ringförmigen Brenner, der taktet. Ein Temperaturfühler regelt das Gas. Zuerst brennt das Gas voll. Nach 5 bis 7 Minuten regelt sich die Flamme auf die eingestellte Temperatur. Ein Ventil öffnet und schließt, wenn die Temperatur sinkt, zum Beispiel wenn du die Backofentür öffnest. Du stellst stufenlos etwa 50 bis 300 °C ein. Weil die Oberhitze fehlt, ist die Wärme im einfachen Gasbackofen ungleichmäßig verteilt. Moderne Geräte haben deshalb zuschaltbare Umluft.\n\nMERKE: Gasgeräte darf nur ein autorisierter Gas-Installateur anschließen, reparieren oder warten.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Vorteil der offenen Gasflamme? Sortiere.",
+        "explanation": "Frag dich: Wie verhält sich eine echte Flamme? Sie ist sofort da, sofort aus, genau regelbar und passt unter jeden Topf. Magnetische Töpfe braucht nur die Induktion.",
+        "buckets": [
+          { "id": "ja", "label": "Vorteil der offenen Gasflamme", "icon": "🔥" },
+          { "id": "nein", "label": "Stimmt nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Die Wärme ist sofort in voller Stärke da", "bucket": "ja" },
+          { "text": "Die Hitze lässt sich genau regeln", "bucket": "ja" },
+          { "text": "Es gibt keine Nachwärme", "bucket": "ja" },
+          { "text": "Kein spezielles Kochgeschirr nötig", "bucket": "ja" },
+          { "text": "Braucht Töpfe mit magnetischem Boden", "bucket": "nein" },
+          { "text": "Heizt nach dem Ausschalten lange nach", "bucket": "nein" },
+          { "text": "Braucht eine lange Aufheizzeit", "bucket": "nein" },
+          { "text": "Die Hitze lässt sich nur grob einstellen", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Du hast keine Gasleitung im Haus. Womit läuft ein Allgasgerät trotzdem?",
+        "options": [
+          { "text": "Mit Flüssiggas aus der Flasche: Butan oder Propan", "correct": true },
+          { "text": "Mit Heizöl aus dem Tank im Keller des Hauses" },
+          { "text": "Mit Biogas aus dem eigenen Komposthaufen" }
+        ],
+        "explanation": "Allgasgeräte brauchen nicht unbedingt eine zentrale Versorgung mit Erd- oder Stadtgas. Sie lassen sich auch mit Flüssiggas betreiben, also mit Butan oder Propan."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Was ist ein Gas-Kombi-Gerät?",
+        "options": [
+          { "text": "Gaskochstellen mit einem Elektrobackofen", "correct": true },
+          { "text": "Ein Gasbackofen mit einem Elektrokochfeld" },
+          { "text": "Ein Gasherd mit eingebauter Mikrowelle" }
+        ],
+        "explanation": "Beim Gas-Kombi-Gerät kochst du oben mit Gas, gebacken wird unten elektrisch. Sonst sind die Bauformen wie beim Elektroherd."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔥 Welche Leistung hat welcher Brenner? Verbinde.",
+        "explanation": "Eine normale Gaskochstelle hat vier Brenner: einen Starkbrenner, zwei Normalbrenner und einen Spar- oder Hilfsbrenner. Je stärker der Brenner, desto höher die Leistung in Kilowatt.",
+        "pairs": [
+          { "left": {"text": "💪 Starkbrenner"}, "right": {"text": "etwa 3,3 kW"} },
+          { "left": {"text": "🔥 Normalbrenner"}, "right": {"text": "etwa 1,6 bis 2,1 kW"} },
+          { "left": {"text": "🕯️ Spar- oder Hilfsbrenner"}, "right": {"text": "etwa 0,9 kW"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Wie zündest du am modernen Gasherd die Flamme?",
+        "options": [
+          { "text": "Knebel drücken, ein elektrischer Funke zündet die Flamme.", "correct": true },
+          { "text": "Mit einem Streichholz, das schreibt das Gesetz so vor." },
+          { "text": "Gar nicht, die Flamme brennt immer, auch im Ruhezustand." }
+        ],
+        "explanation": "Moderne Gasherde haben eine elektrische Einhandzündung. Du drückst den Bedienknebel, ein Funke entsteht, und die Flamme brennt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Wozu dient die thermoelektrische Zündsicherung?",
+        "options": [
+          { "text": "Sie verhindert, dass Gas ausströmt, ohne zu brennen.", "correct": true },
+          { "text": "Sie zündet die Flamme nach dem Kochen immer neu an." },
+          { "text": "Sie macht die Flamme beim Ankochen extra groß." }
+        ],
+        "explanation": "Geht die Flamme aus, darf kein Gas weiter ausströmen. Sonst entsteht Explosionsgefahr. Die thermoelektrische Zündsicherung stoppt das Gas dann."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Was bedeuten die großen und kleinen Flammensymbole am Knebel?",
+        "options": [
+          { "text": "Groß heißt Ankochen, klein heißt Fortkochen.", "correct": true },
+          { "text": "Groß heißt Backofen, klein heißt Kochstelle." },
+          { "text": "Groß heißt Gas an, klein heißt Gas ganz aus." }
+        ],
+        "explanation": "Am Schaltknebel regelst du stufenlos. Die großen Flammensymbole zeigen die hohe Leistung zum Ankochen, die kleinen die niedrige zum Fortkochen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔲 Was ist bei Gas-Glaskeramik-Kochfeldern anders?",
+        "options": [
+          { "text": "Die Flamme ist verdeckt, und die Glaskeramik heizt nach.", "correct": true },
+          { "text": "Die Flamme ist besonders groß und gut zu sehen." },
+          { "text": "Sie brauchen gar keinen Anschluss für das Gas." }
+        ],
+        "explanation": "Unter der Glaskeramik erzeugt ein Gas-Infrarot-Strahler die Wärme. Die Flamme sieht man nicht. Die Vorteile der offenen Flamme fehlen: Es gibt Nachwärme und die Hitze ist nicht genau dosierbar."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍞 Stimmt das für den Gasbackofen? Sortiere.",
+        "explanation": "Frag dich: Regelt der Ofen selbst nach? Ja: Nach der Vollgas-Phase taktet ein Ventil, gesteuert vom Temperaturfühler. Die Temperatur stellst du stufenlos ein.",
+        "buckets": [
+          { "id": "ja", "label": "Stimmt", "icon": "✅" },
+          { "id": "nein", "label": "Stimmt nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Er hat einen ringförmigen Brenner", "bucket": "ja" },
+          { "text": "Ein Temperaturfühler regelt das Gas", "bucket": "ja" },
+          { "text": "Nach 5 bis 7 Minuten regelt sich die Flamme ein", "bucket": "ja" },
+          { "text": "Stufenlos etwa 50 bis 300 °C", "bucket": "ja" },
+          { "text": "Die Flamme bleibt immer auf Vollgas", "bucket": "nein" },
+          { "text": "Die Temperatur geht nur in drei Stufen", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Warum haben moderne Gasbacköfen zuschaltbare Umluft?",
+        "options": [
+          { "text": "Ohne Oberhitze ist die Wärme ungleichmäßig verteilt.", "correct": true },
+          { "text": "Die Umluft macht die Flamme im Backofen größer." },
+          { "text": "Die Umluft kühlt den Backofen nach dem Backen ab." }
+        ],
+        "explanation": "Im einfachen Gasbackofen fehlt die Oberhitze. Deshalb verteilt sich die Wärme ungleichmäßig. Zuschaltbare Umluft verteilt die heiße Luft besser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wer darf einen Gasherd anschließen oder reparieren?",
+        "options": [
+          { "text": "Nur ein autorisierter Gas-Installateur", "correct": true },
+          { "text": "Jeder, der die Anleitung gelesen hat" },
+          { "text": "Der Hausmeister oder ein Nachbar" }
+        ],
+        "explanation": "Für Gasgeräte gelten strenge Vorschriften. Anschließen, reparieren und warten darf nur ein autorisierter Gas-Installateur."
+      }
+    }
+  ]
+}
