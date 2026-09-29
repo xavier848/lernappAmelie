@@ -1,0 +1,116 @@
+{
+  "topic_slug": "backen",
+  "slug": "backen-brandmasse-backen",
+  "title": "Brandmasse backen",
+  "sort": 626,
+  "intro": "🔥 Brandmasse braucht hohe Backtemperaturen: 210 bis 230 °C. Heize den Backofen vor. Backe mit Ober- und Unterhitze. So trocknet das Gebäck nicht aus.\n\nIm Kombidämpfer backst du mit Heißluft und Wasserdampf zusammen. Dabei entsteht mehr Dampf.\n\nDas Gebäck verdoppelt sich beim Backen. Darum setzt du die Teile mit großem Abstand auf das Blech.\n\nMERKE: Öffne den Backofen erst nach dem Ende der Backzeit. Durch Zugluft und den Temperaturabfall fällt sonst der Hohlraum zusammen.\n\nGarprobe: Außen ist das Gebäck goldbraun und fest. Innen ist es gar und nicht mehr teigig.\n\nNach dem Backen lässt du das Gebäck 5 bis 10 Minuten im geöffneten Backofen ruhen.\n\nKleine Teile wie Mini-Windbeutel und Mini-Eclairs schneidest du erst kurz vor dem Füllen auf. Sonst trocknen sie aus.\n\nAus Brandmasse macht man zum Beispiel Windbeutel, Eclairs, Ringe und Kränze. Windbeutel sind rund. Eclairs sind länglich.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Brandmasse braucht hohe Backtemperaturen: 210 bis ___ °C. Welche Zahl fehlt?",
+        "answer": 230,
+        "hint": "Die Zahl ist 20 Grad höher als 210.",
+        "explanation": "Brandmasse backst du bei 210 bis 230 °C. Die hohe Hitze lässt die Flüssigkeit schnell verdampfen. So entsteht der Hohlraum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Mit welcher Beheizung backst du Brandmasse im Backofen, damit sie nicht austrocknet?",
+        "options": [
+          { "text": "Mit Ober- und Unterhitze.", "correct": true },
+          { "text": "Nur mit Oberhitze und Grill." },
+          { "text": "Nur mit Unterhitze von unten." }
+        ],
+        "explanation": "Ober- und Unterhitze verhindert, dass das Gebäck austrocknet. Heize den Backofen vorher vor."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Du backst Brandmasse im Kombidämpfer. Welche Einstellung passt?",
+        "options": [
+          { "text": "Heißluft zusammen mit Wasserdampf.", "correct": true },
+          { "text": "Nur trockene Heißluft ohne Dampf." },
+          { "text": "Nur Dampf ohne jede Heißluft." }
+        ],
+        "explanation": "Im Kombidämpfer kombinierst du Heißluft und Wasserdampf. So entsteht mehr Dampf, und das Brandgebäck geht gut auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Warum setzt du Brandmasse mit großem Abstand auf das Blech?",
+        "options": [
+          { "text": "Das Gebäck verdoppelt sich beim Backen.", "correct": true },
+          { "text": "So kommt die Hitze besser an den Boden." },
+          { "text": "So lassen sich die Teile leichter zählen." }
+        ],
+        "explanation": "Brandgebäck wird beim Backen doppelt so groß. Liegen die Teile zu eng, backen sie aneinander. Darum lässt du viel Platz dazwischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Wann darfst du den Backofen beim Backen von Windbeuteln öffnen?",
+        "options": [
+          { "text": "Erst nach dem Ende der Backzeit.", "correct": true },
+          { "text": "Nach der halben Backzeit, zum Drehen." },
+          { "text": "Jederzeit ganz kurz, um nachzusehen." }
+        ],
+        "explanation": "Öffnest du den Ofen zu früh, kommen Zugluft und ein Temperaturabfall. Dann fällt der Hohlraum zusammen. Darum bleibt die Tür bis zum Ende der Backzeit zu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Woran erkennst du, dass Windbeutel gar sind?",
+        "options": [
+          { "text": "Außen goldbraun und fest, innen gar und nicht mehr teigig.", "correct": true },
+          { "text": "Außen hell und noch weich, innen feucht und etwas klebrig." },
+          { "text": "Außen fast schwarz und hart, innen ganz trocken und bröselig." }
+        ],
+        "explanation": "Bei der Garprobe schaust du außen und innen. Außen soll das Gebäck goldbraun und fest sein. Innen darf es nicht mehr teigig sein."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥐 Deine Mini-Windbeutel sind im Ofen. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "⏳ Die Backzeit abwarten, die Ofentür bleibt zu." },
+          { "text": "🔍 Die Garprobe machen." },
+          { "text": "🚪 5 bis 10 Minuten im geöffneten Ofen ruhen lassen." },
+          { "text": "🔪 Kurz vor dem Füllen aufschneiden." },
+          { "text": "🍓 Die Mini-Windbeutel füllen." }
+        ],
+        "explanation": "Die Tür bleibt zu, bis die Backzeit um ist. Dann prüfst du, ob das Gebäck gar ist. Danach ruht es kurz im geöffneten Ofen. Aufgeschnitten wird erst, wenn du gleich füllst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Warum schneidest du Mini-Windbeutel erst kurz vor dem Füllen auf?",
+        "options": [
+          { "text": "Sonst trocknen sie aus.", "correct": true },
+          { "text": "Sonst fallen sie zusammen." },
+          { "text": "Sonst werden sie zu dunkel." }
+        ],
+        "explanation": "Kleine Teile haben wenig Inhalt. Sind sie offen, trocknen sie schnell aus. Darum schneidest du Mini-Windbeutel und Mini-Eclairs erst kurz vor dem Füllen auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Welche Gebäcke macht man aus Brandmasse?",
+        "options": [
+          { "text": "Windbeutel, Eclairs, Ringe und Kränze.", "correct": true },
+          { "text": "Plätzchen, Quiches und Tortenböden." },
+          { "text": "Pizza, Brötchen und geflochtene Zöpfe." }
+        ],
+        "explanation": "Aus Brandmasse macht man hohle Gebäcke zum Füllen: Windbeutel, Eclairs, Ringe und Kränze. Plätzchen und Quiches sind aus Mürbeteig. Pizza und Zöpfe sind aus Hefeteig."
+      }
+    }
+  ]
+}
