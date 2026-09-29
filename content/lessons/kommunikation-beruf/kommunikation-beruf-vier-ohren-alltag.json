@@ -11,7 +11,7 @@
         "prompt": "❗ Wann entsteht nach dem Vier-Ohren-Modell ein Missverständnis?",
         "options": [
           { "text": "Wenn der Empfänger eine andere Ebene stärker hört, als gemeint war.", "correct": true },
-          { "text": "Wenn Sender und Empfänger dieselbe Sprache und denselben Dialekt sprechen." },
+          { "text": "Wenn der Empfänger alle vier Ebenen genau gleich stark hört." },
           { "text": "Wenn der Sender seine Nachricht zweimal hintereinander sagt." }
         ],
         "explanation": "Der Sender meint vielleicht die Sache. Der Empfänger hört aber auf dem Beziehungsohr. Dann passt die empfangene Nachricht nicht zur gesendeten. So entsteht ein Missverständnis."
@@ -35,8 +35,8 @@
         "prompt": "🌦️ Sarah hört eine Aussage der Ausbilderin vor allem auf einem Ohr. Wovon hängt das ab?",
         "options": [
           { "text": "Von ihrer momentanen Situation.", "correct": true },
-          { "text": "Davon, wie laut die Ausbilderin spricht." },
-          { "text": "Davon, welcher Wochentag gerade ist." }
+          { "text": "Davon, wie viele Wörter die Aussage hat." },
+          { "text": "Davon, wie alt die Ausbilderin ist." }
         ],
         "explanation": "Wie es dir gerade geht, beeinflusst, was du hörst. Bist du zum Beispiel unsicher, hörst du vielleicht stärker auf dem Beziehungsohr. Das muss nicht das sein, was der Sender gemeint hat."
       }
@@ -91,7 +91,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😟 Dieselbe Aussage: „Der Speisesaal ist noch nicht aufgeräumt!“ Was hört Sarah, wenn sie auf dem Beziehungsohr hört?",
+        "prompt": "😟 Die Ausbilderin sagt zu Sarah: „Der Speisesaal ist noch nicht aufgeräumt!“ Sarah hört vor allem mit dem Beziehungsohr. Was hört sie?",
         "options": [
           { "text": "„Die Ausbilderin ist unzufrieden mit mir.“", "correct": true },
           { "text": "„Im Speisesaal ist es noch unordentlich.“" },

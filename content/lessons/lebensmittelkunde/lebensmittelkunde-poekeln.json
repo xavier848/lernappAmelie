@@ -3,7 +3,7 @@
   "slug": "lebensmittelkunde-poekeln",
   "title": "Pökeln: Salz, Nitrit und Farbe",
   "sort": 687,
-  "intro": "🥓 Beim Pökeln reibt man Fleisch mit Pökelsalz ein. Auf der Packung steht zum Beispiel „Pökelsalz (E 252)“. Pökelsalz gibt man auch in Wurstwaren.\n\nPökelsalz ist Kochsalz, gemischt mit Kaliumnitrat, Natriumnitrat oder Natriumnitrit. Ist Nitrat im Pökelsalz, wandeln die Bakterien im Fleisch einen Teil davon in Nitrit um.\n\nMERKE: Pökelsalz macht auf zwei Arten haltbar. Das Salz entzieht dem Fleisch außen Feuchtigkeit, die Oberfläche trocknet. Das Nitrit wirkt gegen Bakterien und hemmt ihre Vermehrung.\n\nAus Nitrit und den Aminosäuren im Fleischeiweiß können Nitrosamine entstehen. Nitrosamine sind krebserregend. In der Nahrung können sie zu Magenkrebs führen.\n\nMERKE: Pökelware, zum Beispiel Kasseler, brätst und grillst du nicht. Und du isst sie nur in vernünftigen Mengen.\n\nBeim Pökeln gehen Mineralstoffe und Eiweiße verloren. Dafür entsteht der Pökelgeschmack, den viele Menschen mögen.\n\nGepökeltes Fleisch wird nach dem Schlachten nicht fadgrau. Denn das Nitrit verbindet sich mit dem Muskelfarbstoff Myoglobin. Dabei entsteht rotes Nitrosomyoglobin. Es bleibt auch beim Erhitzen rot.",
+  "intro": "🥓 Beim Pökeln reibt man Fleisch mit Pökelsalz ein. Pökelsalz gibt man auch in Wurstwaren. Das Buch nennt beim Pökelsalz die Nummer E 252. Das ist genau genommen die Nummer für Kaliumnitrat, einen der Pökelstoffe.\n\nPökelsalz ist Kochsalz, gemischt mit Kaliumnitrat, Natriumnitrat oder Natriumnitrit. Ist Nitrat im Pökelsalz, wandeln die Bakterien im Fleisch einen Teil davon in Nitrit um.\n\nMERKE: Pökelsalz macht auf zwei Arten haltbar. Das Salz entzieht dem Fleisch außen Feuchtigkeit, die Oberfläche trocknet. Das Nitrit wirkt gegen Bakterien und hemmt ihre Vermehrung.\n\nAus Nitrit und den Aminosäuren im Fleischeiweiß können Nitrosamine entstehen. Nitrosamine sind krebserregend. In der Nahrung können sie zu Magenkrebs führen.\n\nMERKE: Pökelware, zum Beispiel Kasseler, brätst und grillst du nicht. Und du isst sie nur in vernünftigen Mengen.\n\nBeim Pökeln gehen Mineralstoffe und Eiweiße verloren. Dafür entsteht der Pökelgeschmack, den viele Menschen mögen.\n\nGepökeltes Fleisch wird nach dem Schlachten nicht fadgrau. Denn das Nitrit verbindet sich mit dem Muskelfarbstoff Myoglobin. Dabei entsteht rotes Nitrosomyoglobin. Es ist hitzebeständig, das heißt: Es bleibt auch beim Erhitzen rot.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -48,10 +48,11 @@
         "pairs": [
           { "left": {"text": "Salz im Pökelsalz"}, "right": {"text": "Entzieht außen Feuchtigkeit"} },
           { "left": {"text": "Nitrit im Pökelsalz"}, "right": {"text": "Hemmt die Vermehrung von Bakterien"} },
+          { "left": {"text": "Myoglobin"}, "right": {"text": "Der Farbstoff im Muskel"} },
           { "left": {"text": "Kasseler"}, "right": {"text": "Ein Beispiel für gepökeltes Fleisch"} }
         ],
         "memory": false,
-        "explanation": "Pökelsalz wirkt doppelt. Das Salz trocknet die Oberfläche, wie beim Wasserentzug. Das Nitrit wirkt gegen Bakterien. Kasseler ist gepökeltes Fleisch."
+        "explanation": "Pökelsalz wirkt doppelt. Das Salz trocknet die Oberfläche, wie beim Wasserentzug. Das Nitrit wirkt gegen Bakterien. Myoglobin gibt dem Muskelfleisch seine Farbe. Kasseler ist gepökeltes Fleisch."
       }
     },
     {
@@ -72,8 +73,8 @@
         "prompt": "🩺 Wozu können Nitrosamine in der Nahrung führen?",
         "options": [
           { "text": "Zu Magenkrebs.", "correct": true },
-          { "text": "Zu Karies an den Zähnen." },
-          { "text": "Zu einem Sonnenbrand." }
+          { "text": "Zu Hautkrebs." },
+          { "text": "Zu Karies an den Zähnen." }
         ],
         "explanation": "Nitrosamine sind krebserregend. In der Nahrung können sie zu Magenkrebs führen. Darum gehst du mit Pökelware vorsichtig um."
       }
@@ -81,20 +82,20 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🔥 Richtiger Umgang mit Pökelware? Sortiere.",
+        "prompt": "🔥 Nitrosamine vermeiden: Was ist in Ordnung, was vermeidest du? Sortiere.",
         "buckets": [
-          { "id": "ja", "label": "Richtig", "icon": "✅" },
-          { "id": "nein", "label": "Falsch", "icon": "❌" }
+          { "id": "ok", "label": "In Ordnung", "icon": "✅" },
+          { "id": "nein", "label": "Vermeiden", "icon": "❌" }
         ],
         "items": [
-          { "text": "Pökelware nicht braten", "bucket": "ja" },
-          { "text": "Pökelware nicht grillen", "bucket": "ja" },
-          { "text": "Pökelware nur in Maßen essen", "bucket": "ja" },
-          { "text": "Kasseler scharf in der Pfanne anbraten", "bucket": "nein" },
-          { "text": "Gepökelte Würstchen auf den Grill legen", "bucket": "nein" },
+          { "text": "Pökelware nur ab und zu essen", "bucket": "ok" },
+          { "text": "Frische Hähnchenbrust grillen", "bucket": "ok" },
+          { "text": "Kasseler im Sauerkraut erwärmen", "bucket": "ok" },
+          { "text": "Kasseler in der Pfanne braten", "bucket": "nein" },
+          { "text": "Gepökelte Würstchen grillen", "bucket": "nein" },
           { "text": "Jeden Tag viel Pökelware essen", "bucket": "nein" }
         ],
-        "explanation": "Frag dich: Wird die Pökelware stark erhitzt, oder isst man sehr viel davon? Beides ist falsch. So vermeidest du Nitrosamine."
+        "explanation": "Frag dich: Ist es Pökelware, und wird sie gebraten oder gegrillt? Dann vermeidest du es. Auch jeden Tag viel davon ist nicht gut. Frisches Fleisch ist nicht gepökelt. So vermeidest du Nitrosamine."
       }
     },
     {

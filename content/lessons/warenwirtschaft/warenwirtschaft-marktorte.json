@@ -3,7 +3,7 @@
   "slug": "warenwirtschaft-marktorte",
   "title": "Marktorte: Wo kauft der Betrieb ein?",
   "sort": 684,
-  "intro": "🏪 Ein Seniorenheim muss regelmäßig Lebensmittel einkaufen. Dafür gibt es verschiedene Bezugsquellen, auch Marktorte genannt. Jeder Marktort hat Vorteile und Nachteile.\n\nGroßmarkt: Er hat ein breites Warenangebot. Du kannst die Ware vor Ort ansehen und auswählen. Die Ware gibt es morgens schon vor 6 Uhr. Aber er verkauft meist nur an Selbstabholer. Beim Transport ins Heim musst du auf die Kühlkette achten.\n\nGroßhändler: Du bestellst meist per E-Mail, Fax oder Anruf. Die Ware wird angeliefert. Der Lieferant sorgt für die Kühlkette. Das Angebot ist breit, und die Ware kommt oft schon vor 6 Uhr. Aber: Sind die Abläufe erst einmal eingespielt, vergleicht man oft keine Preise mehr. Dann zahlt man später manchmal zu viel.\n\nSupermarkt: Er verkauft einzelne Waren, zum Beispiel Zucker, zum Einkaufspreis und gibt Mengenrabatte. Damit lockt er Kunden an. Du kannst die Ware vor Ort ansehen. Aber er verkauft meist nur an Selbstabholer, und du musst auf die Kühlkette achten. Sonderangebote gibt es oft nur in haushaltsüblichen Mengen.\n\nErzeuger: Das ist zum Beispiel ein Bauernhof. Er ist preisgünstig, weil keine Zwischenhändler mitverdienen. Zwischenhändler kaufen Ware und verkaufen sie weiter. Die Ware kommt aus der Region. Je nach Absprache wird sie geliefert. Aber das Angebot ist sehr klein, meist nur Frischware. Du brauchst mehr Zeit für die Bestellungen. Außerdem schwankt der Erntezeitpunkt. Das erschwert die Planung der Küche.\n\nApfelsaft-Mosterei: Du bestellst per E-Mail, Fax oder Anruf. Sie ist preisgünstig, weil keine Zwischenhändler mitverdienen. Je nach Absprache wird geliefert. Aber es gibt nur Getränke, und du brauchst viel Zeit für die Bestellungen.\n\nInternet- und Versandhandel: Du bestellst ohne viel Aufwand online. Er ist preisgünstig, und du kannst die Preise schnell vergleichen. Aber du kannst die Ware vorher nicht ansehen.\n\nMERKE: Sarah will die Ware nur geliefert bekommen. Selbstabholung und viele Lieferanten mit kleinem Angebot kosten zu viel Zeit und damit Geld. Darum wählt sie den Großhändler. Die Preise vergleicht sie im Internet, denn bei den meisten Großhändlern kann man online bestellen.",
+  "intro": "🏪 Ein Seniorenheim muss regelmäßig Lebensmittel einkaufen. Dafür gibt es verschiedene Bezugsquellen, auch Marktorte genannt. Jeder Marktort hat Vorteile und Nachteile.\n\nGroßmarkt: Er hat ein breites Warenangebot. Du kannst die Ware vor Ort ansehen und auswählen. Die Ware gibt es morgens schon vor 6 Uhr. Aber er verkauft meist nur an Selbstabholer. Selbstabholer holen die Ware selbst ab. Beim Transport ins Heim musst du auf die Kühlkette achten. Kühlkette heißt: Gekühlte Ware bleibt auf dem ganzen Weg kalt.\n\nGroßhändler: Du bestellst meist per E-Mail, Fax oder Anruf. Die Ware wird angeliefert. Der Lieferant sorgt für die Kühlkette. Das Angebot ist breit, und die Ware kommt oft schon vor 6 Uhr. Aber: Sind die Abläufe erst einmal eingespielt, vergleicht man oft keine Preise mehr. Dann zahlt man später manchmal zu viel.\n\nSupermarkt: Er verkauft einzelne Waren, zum Beispiel Zucker, sehr billig. Er verlangt dafür nur seinen eigenen Einkaufspreis. Den Rabatt, den er selbst für große Mengen bekommt, gibt er dabei weiter. Damit lockt er Kunden an. Du kannst die Ware vor Ort ansehen. Aber er verkauft meist nur an Selbstabholer, und du musst auf die Kühlkette achten. Sonderangebote gibt es oft nur in haushaltsüblichen Mengen, also in Mengen für einen Haushalt.\n\nErzeuger: Das ist zum Beispiel ein Bauernhof. Er ist preisgünstig, weil keine Zwischenhändler mitverdienen. Zwischenhändler kaufen Ware und verkaufen sie weiter. Die Ware kommt aus der Region. Je nach Absprache wird sie geliefert. Aber das Angebot ist sehr klein, meist nur Frischware. Du brauchst mehr Zeit für die Bestellungen. Außerdem schwankt der Erntezeitpunkt. Das erschwert die Planung der Küche.\n\nApfelsaft-Mosterei: Du bestellst per E-Mail, Fax oder Anruf. Sie ist preisgünstig, weil keine Zwischenhändler mitverdienen. Je nach Absprache wird geliefert. Aber es gibt nur Getränke, und du brauchst viel Zeit für die Bestellungen.\n\nInternet- und Versandhandel: Du bestellst ohne viel Aufwand online. Er ist preisgünstig, und du kannst die Preise schnell vergleichen. Aber du kannst die Ware vorher nicht ansehen.\n\nMERKE: Sarah will die Ware nur geliefert bekommen. Selbstabholung und viele Lieferanten mit kleinem Angebot kosten zu viel Zeit und damit Geld. Darum wählt sie den Großhändler. Die Preise vergleicht sie im Internet, denn bei den meisten Großhändlern kann man online bestellen.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -42,13 +42,32 @@
       }
     },
     {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🚜 Der Betrieb kauft direkt beim Erzeuger. Was ist ein Vorteil, was ein Nachteil? Sortiere.",
+        "buckets": [
+          { "id": "vor", "label": "Vorteil", "icon": "👍" },
+          { "id": "nach", "label": "Nachteil", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Günstige Preise", "bucket": "vor" },
+          { "text": "Produkte aus der Region", "bucket": "vor" },
+          { "text": "Lieferung je nach Absprache möglich", "bucket": "vor" },
+          { "text": "Nur wenige verschiedene Waren", "bucket": "nach" },
+          { "text": "Mehr Arbeitszeit für die Bestellungen", "bucket": "nach" },
+          { "text": "Die Küche kann schlechter planen", "bucket": "nach" }
+        ],
+        "explanation": "Frag dich: Hilft das dem Heim, oder macht es mehr Arbeit? Der Erzeuger ist günstig, liefert nach Absprache und hat Ware aus der Region. Aber sein Angebot ist klein. Die Bestellungen kosten mehr Zeit, und die Planung der Küche wird schwerer."
+      }
+    },
+    {
       "type": "multiple_choice",
       "data": {
         "prompt": "💸 Was ist ein Nachteil beim Großhändler?",
         "options": [
           { "text": "Bei eingespielten Abläufen vergleicht man oft keine Preise mehr.", "correct": true },
           { "text": "Die Ware muss man jeden Morgen ganz früh selbst beim Händler abholen." },
-          { "text": "Er hat nur ein sehr kleines Angebot, meist nur an Frischware." }
+          { "text": "Er hat nur ein sehr kleines Angebot, meist nur Frischware." }
         ],
         "explanation": "Wer lange beim selben Großhändler bestellt, prüft die Preise oft nicht mehr. So zahlt man später manchmal zu hohe Preise. Darum solltest du regelmäßig vergleichen."
       }
@@ -62,7 +81,7 @@
           { "text": "Weil er damit am meisten Geld verdient." },
           { "text": "Weil Zucker sehr schnell verdirbt." }
         ],
-        "explanation": "Einzelne sehr günstige Waren und Mengenrabatte locken Kunden in den Laden. Für den Großeinkauf eines Heims hat der Supermarkt aber auch Nachteile."
+        "explanation": "Der Supermarkt gibt einzelne Waren zu seinem eigenen Einkaufspreis ab. Er verdient daran fast nichts. Das lockt Kunden in den Laden. Für den Großeinkauf eines Heims hat der Supermarkt aber auch Nachteile."
       }
     },
     {
@@ -71,8 +90,8 @@
         "prompt": "🏷️ Was ist beim Supermarkt oft ein Problem für ein Seniorenheim?",
         "options": [
           { "text": "Sonderangebote gibt es oft nur in haushaltsüblichen Mengen.", "correct": true },
-          { "text": "Es gibt dort überhaupt nie irgendwelche Sonderangebote." },
-          { "text": "Die Ware ist dort grundsätzlich viel teurer als beim Erzeuger." }
+          { "text": "Die Ware kann man dort vorher nicht ansehen und prüfen." },
+          { "text": "Er hat meist nur Getränke und kaum andere Waren im Angebot." }
         ],
         "explanation": "Ein Seniorenheim braucht große Mengen. Sonderangebote sind im Supermarkt aber oft auf Mengen für einen Haushalt begrenzt. Für den Großeinkauf lohnt sich das dann kaum."
       }

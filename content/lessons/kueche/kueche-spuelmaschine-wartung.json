@@ -23,11 +23,11 @@
         "prompt": "🗓️ Was machst du wie? Verbinde.",
         "pairs": [
           { "left": {"text": "💧 Klarspülanzeige"}, "right": {"text": "Einmal im Monat kontrollieren"} },
-          { "left": {"text": "🧂 Salzanzeige"}, "right": {"text": "Regelmäßig kontrollieren"} },
+          { "left": {"text": "🧂 Salzanzeige"}, "right": {"text": "Regelmäßig prüfen, ob Salz fehlt"} },
           { "left": {"text": "🚪 Gummi der Türdichtung"}, "right": {"text": "Feucht abwischen und gut nachtrocknen"} },
           { "left": {"text": "🔩 Scharniere"}, "right": {"text": "Ölen"} }
         ],
-        "explanation": "Jedes Teil braucht seine eigene Pflege. Die Anzeigen kontrollierst du, damit Klarspüler und Salz nie ausgehen. Die Dichtung wischst du ab und trocknest sie. Bewegliche Metallteile wie Scharniere bekommen Öl."
+        "explanation": "Jedes Teil braucht seine eigene Pflege. Die Klarspülanzeige kontrollierst du einmal im Monat. Die Salzanzeige prüfst du regelmäßig, damit das Salz nie ausgeht. Die Dichtung wischst du ab und trocknest sie. Bewegliche Metallteile wie Scharniere bekommen Öl."
       }
     },
     {
@@ -35,21 +35,20 @@
       "data": {
         "prompt": "🛢️ Alle wie viele Jahre ölst du Scharniere und bewegliche Metallteile der Spülmaschine?",
         "answer": 2,
-        "hint": "Es ist mehr als ein Jahr.\nEs ist weniger als drei Jahre.",
+        "hint": "Es sind nur wenige Jahre.\nDie Scharniere bewegen sich nur beim Öffnen und Schließen der Tür. Darum brauchen sie selten Öl.",
         "explanation": "Scharniere und bewegliche Metallteile ölst du alle zwei Jahre. So bewegen sie sich leicht und gehen nicht kaputt."
       }
     },
     {
-      "type": "steps_order",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🌀 Du reinigst die Sprüharme. Bringe die Schritte in die richtige Reihenfolge.",
-        "steps": [
-          { "text": "Den Sprüharm von der Achse nehmen." },
-          { "text": "Ihn unter fließendem Wasser reinigen." },
-          { "text": "Verstopfte Düsen vorsichtig mit einer dünnen Nadel frei machen." },
-          { "text": "Den Sprüharm wieder aufsetzen." }
+        "prompt": "🌀 Eine Düse am Sprüharm ist verstopft. Was machst du?",
+        "options": [
+          { "text": "Den Arm abnehmen und die Düse mit einer dünnen Nadel frei machen.", "correct": true },
+          { "text": "Den Arm abnehmen und die Düse mit einem spitzen Küchenmesser aufbohren." },
+          { "text": "Den Arm dranlassen und beim nächsten Spülgang doppelt so viel Reiniger nehmen." }
         ],
-        "explanation": "Erst nimmst du den Sprüharm ab, dann kommst du überall gut hin. Nach dem Abspülen siehst du, welche Düsen noch verstopft sind. Die machst du mit der Nadel frei. Zum Schluss kommt der Arm wieder auf die Achse."
+        "explanation": "Du nimmst den Sprüharm von der Achse und reinigst ihn unter fließendem Wasser. Eine verstopfte Düse machst du vorsichtig mit einer dünnen Nadel frei. Ein Messer kann die Düse beschädigen. Mehr Reiniger löst keine Verstopfung."
       }
     },
     {
@@ -100,9 +99,9 @@
       "data": {
         "prompt": "🏭 Was gehört im Großhaushalt zusätzlich zur Wartung der Spülmaschine?",
         "options": [
-          { "text": "Innenraum mit Maschinenreiniger entkeimen, Schläuche und Dichtungen prüfen.", "correct": true },
-          { "text": "Nur einmal im ganzen Jahr das Grobsieb reinigen, denn mehr braucht es nicht." },
-          { "text": "Nur außen polieren, denn innen reinigt sich die Maschine von selbst." }
+          { "text": "Den Innenraum mit Maschinenreiniger entkeimen und die Schläuche prüfen.", "correct": true },
+          { "text": "Den Innenraum mit Scheuerpulver schrubben und die Siebe nie ausbauen." },
+          { "text": "Den Innenraum nur mit klarem Wasser ausspülen und die Gummidichtungen ölen." }
         ],
         "explanation": "Im Großhaushalt läuft die Maschine sehr oft. Darum machst du eine Grundreinigung und Entkeimung des Innenraums mit speziellem Maschinenreiniger. Du reinigst alle Siebe, prüfst oft die Dichtungen und siehst dir die Schläuche an."
       }

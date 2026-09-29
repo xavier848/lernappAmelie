@@ -3,7 +3,7 @@
   "slug": "warenwirtschaft-pruefzeichen-sicherheit",
   "title": "Prüfzeichen und Produktsicherheit",
   "sort": 690,
-  "intro": "⚠️ Reinigungsmittel sind oft gesundheitsschädlich, ätzend oder haben andere Gefahren. Die Gefahrstoffverordnung schreibt vor: Solche Produkte bekommen Gefahrensymbole.\n\nDas Symbol für „gesundheitsschädlich“ ist eine rote Raute mit einem Ausrufezeichen. Das Symbol für „ätzend“ zeigt eine Flüssigkeit, die auf eine Hand und auf eine Oberfläche tropft.\n\nOft gibt es eine gleichwertige Reinigungsmöglichkeit mit weniger Gefahren für die Umwelt und das Personal. Prüfe das vor dem Kauf.\n\nMERKE: Das GS-Zeichen heißt „geprüfte Sicherheit“. Es schützt vor Unfallgefahren wie einem Stromschlag. Grundlage ist das Gerätesicherheitsgesetz. Das Zeichen gibt es für Elektrogeräte, aber auch für Bastelmaterial, Spielzeug, Haushaltsgeräte und Sportgeräte.\n\nDas CE-Zeichen ist das Gegenstück auf EU-Ebene. Es wird aber nicht ganz so streng vergeben.\n\nFreiwillig können Hersteller nach einer Prüfung weitere Zeichen auf die Verpackung drucken. Zum Beispiel das VDE-Zeichen für Elektrogeräte. Oder das RAL-Gütezeichen, zum Beispiel für Matratzen und Möbel. Das RAL-Gütezeichen vergibt das Deutsche Institut für Gütesicherung und Kennzeichnung.\n\nOft steht auch darauf, nach welcher Norm etwas hergestellt ist. DIN heißt Deutsche Industrienorm. EN heißt Europäische Norm. ISO heißt Internationale Standardisierungsnorm.\n\nBei teuren Investitionsgütern zählt beim Kauf noch mehr: ein guter und zuverlässiger Wartungsservice, eine schnelle Reparatur, die Anlieferung und die Installation. Investitionsgüter sind teure Geräte, die ein Betrieb lange nutzt. Dafür wählt man vielleicht eine etwas teurere Bezugsquelle, zum Beispiel ein Fachgeschäft in der Region.",
+  "intro": "⚠️ Reinigungsmittel sind oft gesundheitsschädlich, ätzend oder haben andere Gefahren. Die Gefahrstoffverordnung schreibt vor: Solche Produkte bekommen Gefahrensymbole. Wie die Zeichen genau aussehen, legt die EU-CLP-Verordnung fest, also das GHS.\n\nDie Gefahrensymbole sind rot umrandete Rauten. Das Ausrufezeichen warnt: Der Stoff ist gesundheitsschädlich oder reizt. Das Symbol für „ätzend“ zeigt eine Flüssigkeit, die auf eine Hand und auf eine Oberfläche tropft. Der Totenkopf warnt: Der Stoff ist giftig.\n\nOft gibt es eine gleichwertige Reinigungsmöglichkeit mit weniger Gefahren für die Umwelt und das Personal. Prüfe das vor dem Kauf.\n\nMERKE: Das GS-Zeichen heißt „geprüfte Sicherheit“. Eine unabhängige Stelle hat das Produkt geprüft. Das Zeichen schützt vor Unfallgefahren wie einem Stromschlag. Es gibt das Zeichen für Elektrogeräte, aber auch für Bastelmaterial, Spielzeug, Haushaltsgeräte und Sportgeräte.\n\nDein Buch sagt: Die Hersteller müssen ihre Geräte nach dem Gerätesicherheitsgesetz prüfen lassen. Heute gilt: Das Gesetz heißt jetzt Produktsicherheitsgesetz. Und das GS-Zeichen ist freiwillig.\n\nDas CE-Zeichen ist das Gegenstück auf EU-Ebene. Es ist aber nicht ganz so streng. Meist prüft der Hersteller selbst und bringt das Zeichen dann an. Auf Elektrogeräten ist das CE-Zeichen Pflicht.\n\nFreiwillig können Hersteller nach einer Prüfung weitere Zeichen auf die Verpackung drucken. Zum Beispiel das VDE-Zeichen für Elektrogeräte. VDE ist der Verband der Elektrotechnik. Dein Buch schreibt „Verband Deutscher Elektriker“, das stimmt so nicht.\n\nEin weiteres freiwilliges Zeichen ist das RAL-Gütezeichen, zum Beispiel für Matratzen und Möbel. Das RAL-Gütezeichen vergibt das Deutsche Institut für Gütesicherung und Kennzeichnung.\n\nOft steht auch darauf, nach welcher Norm etwas hergestellt ist. DIN steht für das Deutsche Institut für Normung. Früher hieß DIN „Deutsche Industrie-Norm“, so steht es auch in deinem Buch. EN heißt Europäische Norm. ISO steht für eine internationale Norm, die weltweit gilt.\n\nBei teuren Investitionsgütern zählt beim Kauf noch mehr: ein guter und zuverlässiger Wartungsservice, eine schnelle Reparatur, die Anlieferung und die Installation. Investitionsgüter sind teure Geräte, die ein Betrieb lange nutzt. Dafür wählt man vielleicht eine etwas teurere Bezugsquelle, zum Beispiel ein Fachgeschäft in der Region.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -14,7 +14,7 @@
           { "text": "Die Preisangabenverordnung." },
           { "text": "Die Lebensmittelinformationsverordnung." }
         ],
-        "explanation": "Reinigungsmittel können gefährlich sein. Die Gefahrstoffverordnung regelt, dass sie mit Gefahrensymbolen gekennzeichnet werden. So erkennst du die Gefahr sofort."
+        "explanation": "Reinigungsmittel können gefährlich sein. Die Gefahrstoffverordnung regelt, dass sie mit Gefahrensymbolen gekennzeichnet werden. Wie die Zeichen aussehen, legt die EU-CLP-Verordnung fest. So erkennst du die Gefahr sofort."
       }
     },
     {
@@ -22,12 +22,12 @@
       "data": {
         "prompt": "🔶 Welches Gefahrensymbol bedeutet was? Verbinde.",
         "pairs": [
-          { "left": {"text": "Rote Raute mit Ausrufezeichen"}, "right": {"text": "Gesundheitsschädlich"} },
+          { "left": {"text": "Raute mit Ausrufezeichen"}, "right": {"text": "Gesundheitsschädlich oder reizend"} },
           { "left": {"text": "Flüssigkeit tropft auf Hand und Oberfläche"}, "right": {"text": "Ätzend"} },
-          { "left": {"text": "Rote Raute mit Totenkopf"}, "right": {"text": "Giftig"} }
+          { "left": {"text": "Raute mit Totenkopf"}, "right": {"text": "Giftig"} }
         ],
         "memory": false,
-        "explanation": "Schau genau auf das Bild in der Raute. Die tropfende Flüssigkeit zerfrisst Haut und Oberfläche: ätzend. Das Ausrufezeichen warnt: Das kann der Gesundheit schaden."
+        "explanation": "Schau genau auf das Bild in der Raute. Die tropfende Flüssigkeit zerfrisst Haut und Oberfläche: ätzend. Das Ausrufezeichen warnt: Das kann der Gesundheit schaden oder reizen. Der Totenkopf warnt vor Gift."
       }
     },
     {
@@ -51,19 +51,19 @@
           { "text": "Nur auf frischen Lebensmitteln und auf Getränken." },
           { "text": "Nur auf Kleidung, Schuhen, Mützen und Taschen." }
         ],
-        "explanation": "Das GS-Zeichen steht für geprüfte Sicherheit. Es schützt vor Unfallgefahren, zum Beispiel vor einem Stromschlag. Darum gibt es es auch auf Spielzeug, Bastelmaterial und Geräten für Haushalt und Sport."
+        "explanation": "Das GS-Zeichen steht für geprüfte Sicherheit. Es schützt vor Unfallgefahren, zum Beispiel vor einem Stromschlag. Darum findest du es auch auf Spielzeug, Bastelmaterial und Geräten für Haushalt und Sport."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📜 Auf welchem Gesetz beruht das GS-Zeichen?",
+        "prompt": "📜 Auf welchem Gesetz beruht das GS-Zeichen heute?",
         "options": [
-          { "text": "Auf dem Gerätesicherheitsgesetz.", "correct": true },
-          { "text": "Auf dem Eichgesetz für Füllmengen." },
+          { "text": "Auf dem Produktsicherheitsgesetz.", "correct": true },
+          { "text": "Auf der Lebensmittelinformationsverordnung." },
           { "text": "Auf dem Jugendschutzgesetz." }
         ],
-        "explanation": "Das GS-Zeichen hat mit der Sicherheit von Geräten zu tun. Grundlage ist deshalb das Gerätesicherheitsgesetz. Das Eichgesetz regelt Füllmengen."
+        "explanation": "Das GS-Zeichen hat mit der Sicherheit von Produkten zu tun. Heute steht das im Produktsicherheitsgesetz. Dein Buch nennt noch das alte Gerätesicherheitsgesetz. Das GS-Zeichen ist heute freiwillig."
       }
     },
     {
@@ -71,11 +71,11 @@
       "data": {
         "prompt": "🇪🇺 Was stimmt über das CE-Zeichen im Vergleich zum GS-Zeichen?",
         "options": [
-          { "text": "Es ist das Gegenstück in der EU, aber nicht ganz so streng vergeben.", "correct": true },
+          { "text": "Es gilt in der EU. Meist bringt es der Hersteller selbst an.", "correct": true },
           { "text": "Es ist viel strenger als das GS-Zeichen und gilt nur für Spielzeug." },
           { "text": "Es ist ein Umweltzeichen für Papier, das aus Altpapier gemacht ist." }
         ],
-        "explanation": "CE gilt in der ganzen EU. Es wird aber nicht so streng vergeben wie das GS-Zeichen. Achte deshalb bei Geräten auch auf das GS-Zeichen."
+        "explanation": "CE gilt in der ganzen EU. Meist prüft der Hersteller selbst und bringt das Zeichen an. Beim GS-Zeichen prüft eine unabhängige Stelle. Darum ist CE nicht so streng. Auf Elektrogeräten ist CE Pflicht, das GS-Zeichen ist freiwillig."
       }
     },
     {
@@ -85,9 +85,9 @@
         "pairs": [
           { "left": {"text": "RAL-Gütezeichen"}, "right": {"text": "Zum Beispiel für Matratzen und Möbel"} },
           { "left": {"text": "VDE-Zeichen"}, "right": {"text": "Freiwillig nach Prüfung von Elektrogeräten"} },
-          { "left": {"text": "DIN"}, "right": {"text": "Deutsche Industrienorm"} },
+          { "left": {"text": "DIN"}, "right": {"text": "Deutsches Institut für Normung"} },
           { "left": {"text": "EN"}, "right": {"text": "Europäische Norm"} },
-          { "left": {"text": "ISO"}, "right": {"text": "Internationale Standardisierungsnorm"} }
+          { "left": {"text": "ISO"}, "right": {"text": "Internationale Norm, gilt weltweit"} }
         ],
         "memory": false,
         "explanation": "Die Buchstaben helfen dir: D wie Deutsch, E wie Europa, I wie International. RAL und VDE sind freiwillige Zeichen nach einer Prüfung."
@@ -99,7 +99,7 @@
         "prompt": "🏢 Wer vergibt das RAL-Gütezeichen?",
         "options": [
           { "text": "Das Deutsche Institut für Gütesicherung und Kennzeichnung.", "correct": true },
-          { "text": "Der Verein TransFair, der für fairen Handel sorgt." },
+          { "text": "Der Verein Fairtrade Deutschland, der für fairen Handel sorgt." },
           { "text": "Das Umweltbundesamt mit seinen Fachleuten." }
         ],
         "explanation": "Das RAL-Gütezeichen vergibt das Deutsche Institut für Gütesicherung und Kennzeichnung. Hersteller können es freiwillig beantragen, zum Beispiel für Matratzen und Möbel."

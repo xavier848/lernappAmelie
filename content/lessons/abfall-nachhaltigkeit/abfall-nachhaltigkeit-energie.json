@@ -3,7 +3,7 @@
   "slug": "abfall-nachhaltigkeit-energie",
   "title": "Energie sparen und erneuerbar heizen",
   "sort": 682,
-  "intro": "⚡ Nachhaltig wirtschaften heißt zuerst: den eigenen Energieverbrauch senken.\n\nBeim Strom wird die Smart-Meter-Technik den Haushalt noch stark verändern. Ein Smart Meter ist ein digitaler Stromzähler. Bis dahin gilt: Nutze stromsparende Gebrauchsgüter, zum Beispiel sparsame Kühlgeräte, Gefriergeräte und andere Elektrogeräte.\n\nMERKE: Heizpumpen gehören zu den größten Stromfressern im Haus. Prüfe ihren Verbrauch. Tausche sie wenn nötig gegen eine effizientere Pumpe.\n\nBeziehe Strom von einem Ökostromanbieter. Ökostrom kommt aus erneuerbaren Quellen wie der Sonne. Die Preise liegen oft deutlich unter denen der alten, konventionellen Stromanbieter in der Region. Mit Vergleichsportalen im Internet vergleichst du die Preise.\n\nEine Fotovoltaikanlage auf dem Dach macht aus Sonnenlicht Strom. Für den Eigenverbrauch ist dieser Strom inzwischen günstiger als Strom aus dem öffentlichen Netz.\n\nBeim Heizen und beim Warmwasser gilt: Bei einem Neubau denkst du an Erdwärme. Bei einem Altbau wird oft die Heizung saniert. Dann liefert eine Solarthermieanlage warmes Wasser und Wärme für die Heizung. Sie macht aus Sonnenlicht Wärme. Eventuell ergänzt eine Pelletheizung die Anlage. Sie heizt mit kleinen Holzstücken, den Pellets. Auch eine Kraft-Wärme-Kopplungsanlage kommt infrage. Sie erzeugt Strom und Wärme zugleich.\n\nMERKE: Welche Lösung für ein Haus passt, kann nur eine Fachfirma beantworten.",
+  "intro": "⚡ Nachhaltig wirtschaften heißt zuerst: den eigenen Energieverbrauch senken.\n\nBeim Strom wird die Smart-Meter-Technik den Haushalt noch stark verändern. Ein Smart Meter ist ein intelligenter, digitaler Stromzähler. Bis dahin gilt: Nutze stromsparende Gebrauchsgüter, zum Beispiel sparsame Kühlgeräte, Gefriergeräte und andere Elektrogeräte.\n\nMERKE: Heizpumpen gehören zu den größten Stromfressern im Haus. Die Heizpumpe pumpt das warme Wasser durch die Heizung. Prüfe ihren Verbrauch. Tausche sie wenn nötig gegen eine effizientere Pumpe.\n\nBeziehe Strom von einem Ökostromanbieter. Ökostrom kommt aus erneuerbaren Quellen wie Sonne und Wind. Die Preise liegen oft deutlich unter denen der alten, konventionellen Stromanbieter in der Region. Mit Vergleichsportalen im Internet vergleichst du die Preise.\n\nEine Fotovoltaikanlage auf dem Dach macht aus Sonnenlicht Strom. Für den Eigenverbrauch ist dieser Strom inzwischen günstiger als Strom aus dem öffentlichen Netz.\n\nBeim Heizen und beim Warmwasser gilt: Bei einem Neubau denkst du an Erdwärme. Bei einem Altbau wird oft die Heizung saniert. Dann kann eine Solarthermieanlage warmes Wasser und Wärme für die Heizung liefern. Sie macht aus Sonnenlicht Wärme. Sie kann mit einer Pelletheizung zusammenarbeiten. Eine Pelletheizung heizt mit Pellets. Das sind kleine Stäbchen aus gepresstem Holz. Auch eine Kraft-Wärme-Kopplungsanlage kommt infrage. Sie erzeugt Strom und Wärme zugleich.\n\nMERKE: Welche Lösung für ein Haus passt, kann nur eine Fachfirma beantworten.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -12,9 +12,9 @@
         "options": [
           { "text": "Den eigenen Energieverbrauch senken.", "correct": true },
           { "text": "Sofort eine ganz neue Heizung kaufen." },
-          { "text": "Mehr Strom auf Vorrat einkaufen." }
+          { "text": "Nur noch Ökostrom beziehen." }
         ],
-        "explanation": "Die beste Energie ist die, die man gar nicht erst verbraucht. Darum senkst du zuerst deinen Verbrauch. Danach überlegst du, woher der Rest der Energie kommt."
+        "explanation": "Die beste Energie ist die, die man gar nicht erst verbraucht. Darum senkst du zuerst den Verbrauch. Danach überlegst du, woher der Rest kommt, zum Beispiel vom Ökostromanbieter."
       }
     },
     {
@@ -23,16 +23,16 @@
         "prompt": "🔥 Welches Gerät gehört zu den größten Stromfressern im Haus?",
         "options": [
           { "text": "Die Heizpumpe.", "correct": true },
-          { "text": "Die Leselampe am Bett." },
+          { "text": "Der WLAN-Router." },
           { "text": "Das Ladegerät fürs Handy." }
         ],
-        "explanation": "Die Heizpumpe läuft oft viele Stunden am Tag. Deshalb verbraucht sie sehr viel Strom. Eine effizientere Pumpe spart deshalb viel."
+        "explanation": "Die Heizpumpe pumpt das warme Wasser durch die Heizung. Eine alte Pumpe läuft oft viele Stunden am Tag und braucht dabei viel Strom. Router und Ladegerät brauchen dagegen nur wenig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔧 Die alte Heizpumpe braucht sehr viel Strom. Was tust du?",
+        "prompt": "🔧 Du vermutest: Die alte Heizpumpe braucht zu viel Strom. Was tust du?",
         "options": [
           { "text": "Den Verbrauch prüfen und sie wenn nötig tauschen.", "correct": true },
           { "text": "Sie einfach den ganzen Winter lang ausschalten." },
@@ -44,7 +44,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌬️ Was stimmt oft über die Preise von Ökostromanbietern?",
+        "prompt": "🌬️ Was stimmt über die Preise von Ökostromanbietern?",
         "options": [
           { "text": "Sie liegen oft deutlich unter denen alter Anbieter.", "correct": true },
           { "text": "Ökostrom ist immer doppelt so teuer wie anderer Strom." },
@@ -72,41 +72,56 @@
         "pairs": [
           { "left": {"text": "Fotovoltaikanlage"}, "right": {"text": "Macht aus Sonnenlicht Strom"} },
           { "left": {"text": "Solarthermieanlage"}, "right": {"text": "Macht aus Sonnenlicht Wärme"} },
-          { "left": {"text": "Smart Meter"}, "right": {"text": "Ein digitaler Stromzähler"} },
-          { "left": {"text": "Pelletheizung"}, "right": {"text": "Heizt mit kleinen Holzstücken"} }
+          { "left": {"text": "Smart Meter"}, "right": {"text": "Intelligenter digitaler Stromzähler"} },
+          { "left": {"text": "Pelletheizung"}, "right": {"text": "Heizt mit Stäbchen aus gepresstem Holz"} },
+          { "left": {"text": "Kraft-Wärme-Kopplung"}, "right": {"text": "Erzeugt Strom und Wärme zugleich"} }
         ],
         "memory": false,
-        "explanation": "Achte auf die Wortteile. „Thermie“ hat mit Wärme zu tun, wie beim Thermometer. „Foto“ hat mit Licht zu tun. Aus Licht wird bei der Fotovoltaik elektrischer Strom."
+        "explanation": "Achte auf die Wortteile. „Thermie“ hat mit Wärme zu tun, wie beim Thermometer. „Foto“ hat mit Licht zu tun: Aus Licht wird Strom. Bei der Kraft-Wärme-Kopplung sind zwei Dinge gekoppelt, also verbunden: Strom und Wärme."
       }
     },
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🏠 Neubau oder Altbau: Was passt für Heizung und Warmwasser? Sortiere.",
+        "prompt": "⚡ Geht es um Strom oder um Heizen und Warmwasser? Sortiere.",
         "buckets": [
-          { "id": "neu", "label": "Neubau", "icon": "🏗️" },
-          { "id": "alt", "label": "Altbau mit Heizungssanierung", "icon": "🏚️" }
+          { "id": "strom", "label": "Strom", "icon": "⚡" },
+          { "id": "waerme", "label": "Heizen und Warmwasser", "icon": "🔥" }
         ],
         "items": [
-          { "text": "An Erdwärme denken", "bucket": "neu" },
-          { "text": "Die Heizung sanieren", "bucket": "alt" },
-          { "text": "Eine Solarthermieanlage für Warmwasser und Heizung", "bucket": "alt" },
-          { "text": "Ergänzend eine Pelletheizung", "bucket": "alt" },
-          { "text": "Eine Kraft-Wärme-Kopplungsanlage prüfen", "bucket": "alt" }
+          { "text": "Stromsparende Kühl- und Gefriergeräte", "bucket": "strom" },
+          { "text": "Ökostrom vom Anbieter", "bucket": "strom" },
+          { "text": "Fotovoltaikanlage auf dem Dach", "bucket": "strom" },
+          { "text": "Smart-Meter-Technik", "bucket": "strom" },
+          { "text": "Erdwärme", "bucket": "waerme" },
+          { "text": "Solarthermieanlage auf dem Dach", "bucket": "waerme" },
+          { "text": "Pelletheizung", "bucket": "waerme" }
         ],
-        "explanation": "Frag dich: Wird neu gebaut, oder gibt es schon eine alte Heizung? Beim Neubau plant man Erdwärme gleich mit ein. Beim Altbau saniert man die Heizung, zum Beispiel mit Solarthermie."
+        "explanation": "Frag dich: Geht es um Strom oder um Wärme? Auf dem Dach kann beides sein: Fotovoltaik macht Strom, Solarthermie macht Wärme. Erdwärme und Pellets liefern Wärme zum Heizen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👷 Wer kann sagen, welche Heizlösung für ein bestimmtes Haus passt?",
+        "prompt": "🏗️ Ein Haus wird ganz neu gebaut. An welche Wärmequelle solltest du dabei denken?",
+        "options": [
+          { "text": "An Erdwärme.", "correct": true },
+          { "text": "An eine neue Ölheizung." },
+          { "text": "An Nachtspeicheröfen." }
+        ],
+        "explanation": "Bei einem Neubau kann man Erdwärme gleich mit einplanen. Bei einem Altbau steht dagegen oft eine Heizungssanierung an. Dann kommen zum Beispiel Solarthermie, eine Pelletheizung oder eine Kraft-Wärme-Kopplungsanlage infrage. Öl und Nachtspeicheröfen sind nicht erneuerbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏚️ In einem Altbau steht eine Heizungssanierung an. Wer kann sagen, welche Lösung für dieses Haus passt?",
         "options": [
           { "text": "Eine Fachfirma.", "correct": true },
-          { "text": "Die Nachbarn nebenan." },
+          { "text": "Die Nachbarn, die schon saniert haben." },
           { "text": "Der Stromanbieter am Telefon." }
         ],
-        "explanation": "Heizung und Warmwasser sind eine komplizierte Technik. Welche Lösung in ein Haus passt, kann nur eine Fachfirma beantworten."
+        "explanation": "Heizung und Warmwasser sind komplizierte Technik. Jedes Haus ist anders. Ob Solarthermie, Pelletheizung oder Kraft-Wärme-Kopplung passt, kann nur eine Fachfirma beantworten."
       }
     },
     {
@@ -116,9 +131,9 @@
         "options": [
           { "text": "Mit einem Vergleichsportal im Internet.", "correct": true },
           { "text": "Indem ich den Stromzähler öfter ablese." },
-          { "text": "Indem ich an der Supermarktkasse nachfrage." }
+          { "text": "Indem ich nur meinen alten Vertrag lese." }
         ],
-        "explanation": "Vergleichsportale zeigen die Preise vieler Anbieter nebeneinander. Du vergleichst sie mit deinem jetzigen Vertrag. Prüfe dabei auch die Ökostrom-Angebote."
+        "explanation": "Vergleichsportale zeigen die Preise vieler Anbieter nebeneinander. Du vergleichst sie mit deinem jetzigen Vertrag. Prüfe dabei auch die Ökostrom-Angebote. Der Zähler zeigt nur, wie viel du verbrauchst."
       }
     },
     {

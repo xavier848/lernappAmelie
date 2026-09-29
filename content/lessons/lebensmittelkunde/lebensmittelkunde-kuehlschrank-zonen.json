@@ -3,15 +3,15 @@
   "slug": "lebensmittelkunde-kuehlschrank-zonen",
   "title": "Kühlschrank: Wo ist es am kältesten?",
   "sort": 681,
-  "intro": "🧊 Im Kühlschrank wird im einstelligen Temperaturbereich gekühlt. Einstellig heißt: Die Temperatur hat nur eine Ziffer, sie liegt also unter 10 °C. Diese Kälte verlangsamt biologische Vorgänge deutlich. Auch Mikroorganismen vermehren sich langsamer.\n\nWie lange sich etwas im Kühlschrank hält, ist verschieden. Hackfleisch hält sich nur einige Stunden. Milch hält sich einige Tage.\n\nMERKE: Kalte Luft sinkt nach unten. Darum ist es im Kühlschrank nicht überall gleich kalt.\n\nAm kältesten ist es an zwei Stellen: an den Flächen direkt am Kühlaggregat und auf der Glasplatte über dem Gemüsefach. Das Kühlaggregat ist das Teil, das die Kälte erzeugt. Auf der Glasplatte sammelt sich die kalte Luft, die nach unten fällt.\n\nMERKE: Besonders schnell verderbliche Lebensmittel legst du an die kältesten Plätze.\n\nDie Gemüsefächer liegen ganz unten. Die Glasplatte deckt sie ab. Deshalb kommt die Kälte dort nur eingeschränkt hinein, und es gibt wenig Luftaustausch. Im Gemüsefach ist es nicht so kalt, und die Luft ist feuchter. So welkt Gemüse nicht so schnell und bleibt frisch.",
+  "intro": "🧊 Im Kühlschrank wird im einstelligen Temperaturbereich gekühlt. Einstellig heißt: Die Temperatur hat nur eine Ziffer. Sie liegt also über 0 °C und unter 10 °C. Diese Kälte verlangsamt biologische Vorgänge deutlich. Auch Mikroorganismen vermehren sich langsamer.\n\nWie lange sich etwas im Kühlschrank hält, ist verschieden. Hackfleisch hält sich nur einige Stunden. Darum verarbeitest du frisches Hackfleisch am Tag des Einkaufs. Milch hält sich einige Tage.\n\nMERKE: Kalte Luft sinkt nach unten. Darum ist es im Kühlschrank nicht überall gleich kalt.\n\nAm kältesten ist es an zwei Stellen: an den Flächen direkt am Kühlaggregat und auf der Glasplatte über dem Gemüsefach. Das Kühlaggregat ist das Teil, das die Kälte erzeugt. Auf der Glasplatte sammelt sich die kalte Luft, die nach unten fällt.\n\nMERKE: Besonders schnell verderbliche Lebensmittel legst du an die kältesten Plätze.\n\nDie Gemüsefächer liegen ganz unten. Die Glasplatte deckt sie ab. Deshalb kommt die Kälte dort nur eingeschränkt hinein, und es gibt wenig Luftaustausch. Im Gemüsefach ist es nicht so kalt, und die Luft ist feuchter. So welkt Gemüse nicht so schnell und bleibt frisch.",
   "exercises": [
     {
       "type": "number_input",
       "data": {
-        "prompt": "🌡️ Einstellig heißt: nur eine Ziffer. Wie viel Grad ist die höchste einstellige Temperatur über null?",
-        "answer": 9,
-        "hint": "10 hat schon zwei Ziffern.\nDie Zahl davor hat nur eine Ziffer.\n10 − 1 = ?",
-        "explanation": "Die höchste einstellige Zahl ist 9. Im Kühlschrank liegt die Temperatur also unter 10 °C, im einstelligen Bereich über null."
+        "prompt": "🌡️ Der Kühlschrank kühlt im einstelligen Temperaturbereich. Die Temperatur liegt also unter … °C. Welche Zahl fehlt?",
+        "answer": 10,
+        "hint": "Einstellig heißt: Die Zahl hat nur eine Ziffer.\nWelche Zahl hat als erste zwei Ziffern?",
+        "explanation": "Einstellig heißt: nur eine Ziffer. Die höchste einstellige Zahl ist 9. Die Temperatur liegt also unter 10 °C. Je kälter es ist, desto langsamer vermehren sich die Keime."
       }
     },
     {
@@ -35,7 +35,7 @@
           { "text": "Hackfleisch einige Tage, Milch einige Stunden." },
           { "text": "Beide halten sich mehrere Wochen lang." }
         ],
-        "explanation": "Hackfleisch ist sehr leicht verderblich. Es hält sich auch gekühlt nur einige Stunden. Frische Milch hält sich gekühlt einige Tage."
+        "explanation": "Hackfleisch ist sehr leicht verderblich. Es hält sich auch gekühlt nur einige Stunden. Darum verarbeitest du es am Tag des Einkaufs. Frische Milch hält sich gekühlt einige Tage."
       }
     },
     {
@@ -57,7 +57,7 @@
         "options": [
           { "text": "Am Kühlaggregat und auf der Glasplatte über dem Gemüsefach.", "correct": true },
           { "text": "Im Gemüsefach und in den Fächern in der Tür des Kühlschranks." },
-          { "text": "Überall ist es genau gleich kalt, das spielt keine Rolle." }
+          { "text": "In der Mitte des Kühlschranks, weit weg von allen Wänden." }
         ],
         "explanation": "Direkt am Kühlaggregat entsteht die Kälte. Auf der Glasplatte sammelt sich die kalte Luft, die nach unten sinkt. Das Gemüsefach darunter ist dagegen weniger kalt."
       }
@@ -99,7 +99,7 @@
         "prompt": "🪟 Warum kommt die Kälte ins Gemüsefach nur eingeschränkt hinein?",
         "options": [
           { "text": "Die Glasplatte deckt es ab. Es gibt wenig Luftaustausch.", "correct": true },
-          { "text": "Das Gemüsefach hat unten eine eigene kleine Heizung eingebaut." },
+          { "text": "Beim Öffnen der Tür strömt dort warme Luft hinein." },
           { "text": "Die Kälte steigt dort sofort wieder nach oben." }
         ],
         "explanation": "Die Glasplatte liegt wie ein Deckel über dem Gemüsefach. Kalte Luft kommt nur wenig hinein. Darum ist es dort nicht so kalt."

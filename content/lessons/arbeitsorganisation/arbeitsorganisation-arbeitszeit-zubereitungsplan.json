@@ -35,7 +35,7 @@
           { "text": "Die Zwiebeln für die Frikadellen würfeln", "bucket": "taet" },
           { "text": "Die Frikadellen braten", "bucket": "taet" },
           { "text": "Die Frühstückspause", "bucket": "erh" },
-          { "text": "Die Mittagspause", "bucket": "erh" }
+          { "text": "Eine Pause, um wieder Kraft zu tanken", "bucket": "erh" }
         ],
         "explanation": "Rüstzeit ist alles rund um den Arbeitsplatz, vorher und nachher. Tätigkeitszeit ist die Arbeit an der Speise selbst, auch ein einzelner Schritt wie Zwiebeln würfeln. Pausen zum Erholen sind Erholungszeit."
       }
@@ -43,13 +43,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏳ Die Kippbratpfanne heizt auf. Was machst du in dieser Zeit?",
+        "prompt": "⏳ Das Bratgerät für die Frikadellen heizt gerade auf. Was machst du in dieser Zeit?",
         "options": [
           { "text": "Ich forme schon die Frikadellen.", "correct": true },
           { "text": "Ich bleibe neben der Pfanne stehen." },
           { "text": "Ich schalte die Pfanne noch mal aus." }
         ],
-        "explanation": "Das Aufheizen ist eine Wartezeit. Sie ergibt sich aus dem Ablauf. Du nutzt sie möglichst für andere Arbeiten, zum Beispiel formst du schon die Frikadellen. So sparst du Zeit."
+        "explanation": "Das Aufheizen der Kippbratpfanne ist eine Wartezeit. Sie ergibt sich aus dem Ablauf. Du nutzt sie möglichst für andere Arbeiten, zum Beispiel formst du schon die Frikadellen. So sparst du Zeit."
       }
     },
     {
@@ -57,9 +57,9 @@
       "data": {
         "prompt": "📞 Warum ist die Verteilzeit schwer zu planen?",
         "options": [
-          { "text": "Sie entsteht durch Störungen, zum Beispiel ein Telefonat oder ein defektes Gerät.", "correct": true },
-          { "text": "Sie hängt nur vom Rezept ab und ist darum jeden Tag ganz anders lang." },
-          { "text": "Sie ist die Zeit für die Pausen, und die legt jede Mitarbeiterin selbst ganz frei fest." }
+          { "text": "Sie entsteht durch Störungen wie ein Telefonat.", "correct": true },
+          { "text": "Sie hängt vom Rezept ab und ändert sich täglich." },
+          { "text": "Sie ist die Pausenzeit, die jede selbst festlegt." }
         ],
         "explanation": "Störungen kommen unerwartet: ein Telefonat, ein Vertreter, ein Toilettengang, eine Verletzung oder ein kaputtes Gerät. Darum kann man die Verteilzeit nicht genau planen. Die Pausen gehören zur Erholungszeit."
       }
@@ -101,7 +101,7 @@
     {
       "type": "number_input",
       "data": {
-        "prompt": "🍔 Die Frikadellen werden von 10:30 Uhr bis 12:25 Uhr gebraten. Wie viele Minuten sind das?",
+        "prompt": "🍔 Laut Plan laufen die Frikadellen von 10:30 Uhr bis 12:25 Uhr. Wie viele Minuten sind das?",
         "answer": 115,
         "hint": "Von 10:30 Uhr bis 12:30 Uhr sind es 2 Stunden = 120 Minuten.\nDas Ende ist aber schon 12:25 Uhr, also 5 Minuten früher.\n120 − 5 = ?",
         "explanation": "Von 10:30 Uhr bis 12:30 Uhr sind 120 Minuten. Bis 12:25 Uhr sind es 5 Minuten weniger: 115 Minuten. Das steht im Plan in der Spalte Produktion."
@@ -122,13 +122,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍽️ Für wie viele Portionen ist der Zubereitungsplan im Buch?",
+        "prompt": "🍔 Im Zubereitungsplan steht bei den Frikadellen das Gerät „Kipper“. Was ist damit gemeint?",
         "options": [
-          { "text": "Für 100 Portionen.", "correct": true },
-          { "text": "Für 10 Portionen." },
-          { "text": "Für 1000 Portionen." }
+          { "text": "Die Kippbratpfanne.", "correct": true },
+          { "text": "Der Kochkessel." },
+          { "text": "Der Kombidämpfer." }
         ],
-        "explanation": "Der Beispielplan ist für 100 Portionen. Darum stehen dort große Mengen, zum Beispiel 100 Frikadellen und 20 kg Salzkartoffeln."
+        "explanation": "Kipper ist das kurze Wort für die Kippbratpfanne. Darin brätst du große Mengen, zum Beispiel 100 Frikadellen. Der Kochkessel ist ein großer Kessel zum Kochen, im Plan für die Schokoladencreme."
       }
     }
   ]

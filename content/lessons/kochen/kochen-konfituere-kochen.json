@@ -11,7 +11,7 @@
         "prompt": "🫙 Du willst Konfitüre abfüllen. Welche Gläser nimmst du am besten?",
         "options": [
           { "text": "Möglichst kleine Gläser mit Twist-off-Deckel.", "correct": true },
-          { "text": "Möglichst große Gläser mit einem Deckel aus Glas." },
+          { "text": "Möglichst große Gläser mit Twist-off-Deckel." },
           { "text": "Möglichst große Gläser, dann passt mehr hinein." }
         ],
         "explanation": "Kleine Gläser helfen beim Gelieren und machen die Konfitüre haltbarer. Twist-off-Deckel sind Schraubdeckel. Mit ihnen entsteht später ein Vakuum im Glas."
@@ -52,10 +52,9 @@
           { "text": "Das Obst mit dem Gelierzucker mischen." },
           { "text": "Im hohen Topf unter Rühren zum Kochen bringen." },
           { "text": "Die Masse sprudelnd kochen lassen." },
-          { "text": "Die Gelierprobe machen." },
-          { "text": "Den Schaum abnehmen." }
+          { "text": "Die Gelierprobe machen." }
         ],
-        "explanation": "Erst bereitest du die Zutaten vor und mischst sie mit dem Gelierzucker. Dann wird gekocht. Erst nach dem Kochen prüfst du mit der Gelierprobe, ob die Masse fest wird. Den Schaum nimmst du ab, bevor du abfüllst."
+        "explanation": "Erst bereitest du die Zutaten vor und mischst sie mit dem Gelierzucker. Dann bringst du alles zum Kochen und lässt es sprudelnd kochen. Erst danach prüfst du mit der Gelierprobe, ob die Masse fest wird."
       }
     },
     {
@@ -85,16 +84,16 @@
     {
       "type": "steps_order",
       "data": {
-        "prompt": "🫙 Teil 2: Die Masse ist fertig. Bringe die Schritte in die richtige Reihenfolge.",
+        "prompt": "🫙 Teil 2: Die Gelierprobe ist gelungen. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
+          { "text": "Den Schaum mit dem Schaumlöffel abnehmen." },
           { "text": "Die heiße Masse in die Gläser füllen." },
           { "text": "Die Glasränder mit einem feuchten Tuch säubern." },
           { "text": "Die Gläser sofort mit dem Deckel verschließen." },
           { "text": "Die Gläser auf den Deckel stellen." },
-          { "text": "Die Gläser wieder richtig herum stellen und abkühlen lassen." },
-          { "text": "Die Gläser prüfen und ein Etikett aufkleben." }
+          { "text": "Die Gläser wieder richtig herum stellen und abkühlen lassen." }
         ],
-        "explanation": "Frag dich: Was muss passieren, solange die Masse heiß ist? Einfüllen, Rand säubern und verschließen geht sofort. Auf dem Deckel entsteht das Vakuum. Beschriftet wird erst, wenn die Gläser abgekühlt und sauber sind."
+        "explanation": "Frag dich: Was muss passieren, solange die Masse heiß ist? Der Schaum kommt weg, bevor du abfüllst. Einfüllen, Rand säubern und verschließen geht sofort. Auf dem Deckel entsteht das Vakuum. Erst danach stellst du die Gläser wieder hin und lässt sie abkühlen."
       }
     },
     {
@@ -113,7 +112,7 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🏷️ Was schreibst du üblicherweise auf das Etikett? Sortiere.",
+        "prompt": "🏷️ Die Gläser sind abgekühlt und sauber. Was schreibst du üblicherweise auf das Etikett? Sortiere.",
         "buckets": [
           { "id": "ja", "label": "Kommt aufs Etikett", "icon": "🏷️" },
           { "id": "nein", "label": "Kommt nicht darauf", "icon": "➖" }
@@ -123,7 +122,7 @@
           { "text": "Der Inhalt mit Gewicht", "bucket": "ja" },
           { "text": "Die Produktart, z. B. Konfitüre", "bucket": "ja" },
           { "text": "Das verwendete Geliermittel", "bucket": "ja" },
-          { "text": "Die Farbe des Kochtopfs", "bucket": "nein" },
+          { "text": "Die Kochzeit in Minuten", "bucket": "nein" },
           { "text": "Die Temperatur beim Einfüllen", "bucket": "nein" },
           { "text": "Die Uhrzeit der Gelierprobe", "bucket": "nein" }
         ],

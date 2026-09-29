@@ -3,7 +3,7 @@
   "slug": "warenwirtschaft-homogene-gueter-lose-ware",
   "title": "Homogene Güter und lose Ware",
   "sort": 685,
-  "intro": "🏷️ Viele Produkte stecken in einer undurchsichtigen Verpackung. Dann brauchst du Produktinformationen. Nur so erkennst du das Produkt und kannst es beurteilen. Ein mündiger Käufer unterscheidet genau zwischen Werbung und Produktinformation. Mündig heißt: Er entscheidet selbst und kritisch.\n\nBei manchen Waren zählt beim Kauf nur der Preis. Zum Beispiel bei raffiniertem Würfelzucker oder bei Heizöl für das Seniorenheim. Zwischen den Angeboten gibt es keine weiteren Unterschiede. So eine Ware heißt homogenes Gut. Homogen heißt gleichartig.\n\nMERKE: Bei homogenen Gütern ist der Preiswettbewerb sehr groß. Denn für die Käufer zählt nur der Preis.\n\nFür den Preisvergleich brauchst du eine genormte Menge. Das ist ein Raummaß wie der Liter oder ein Gewicht wie das Kilogramm.\n\nDie Warenkennzeichnung hat drei Aufgaben. Produkte lassen sich klarer voneinander abgrenzen. Gleich sortierte Produkte kann man als einheitliche Charge besser handeln. Eine Charge ist eine Menge gleicher Ware. Und der Käufer erfährt klar, wie das Produkt beschaffen ist. So ist er vor Täuschung und Irreführung geschützt.\n\nLose Ware gibt es zum Beispiel auf dem Markt oder im Hofladen. Auf das Verkaufsschild gehören: der Preis, zum Beispiel pro Stück oder pro Kilogramm. Das Herkunftsland. Die Art und die Sorte, zum Beispiel „Äpfel, Golden Delicious“. Und die Handelsklasse.\n\nMERKE: Handelsklassen legt eine EU-Verordnung fest. Damit teilt man leicht verderbliche und empfindliche Ware ein. Die Handelsklasse bestimmt den Preis mit.\n\nObst und Gemüse gibt es in den Handelsklassen Extra, I, II und III. Je höher die Zahl, desto schlechter ist die Ware eingestuft.",
+  "intro": "🏷️ Viele Produkte stecken in einer undurchsichtigen Verpackung. Dann brauchst du Produktinformationen. Nur so erkennst du das Produkt und kannst es beurteilen. Ein mündiger Käufer unterscheidet genau zwischen Werbung und Produktinformation. Mündig heißt: Er entscheidet selbst und kritisch.\n\nBei manchen Waren zählt beim Kauf nur der Preis. Zum Beispiel bei raffiniertem Würfelzucker oder bei Heizöl für das Seniorenheim. Zwischen den Angeboten gibt es keine weiteren Unterschiede. So eine Ware heißt homogenes Gut. Homogen heißt gleichartig.\n\nMERKE: Bei homogenen Gütern ist der Preiswettbewerb sehr groß. Denn für die Käufer zählt nur der Preis. Jeder Anbieter will deshalb billiger sein als die anderen.\n\nFür den Preisvergleich brauchst du eine genormte Menge. Das ist ein Raummaß wie der Liter oder ein Gewicht wie das Kilogramm.\n\nDie Warenkennzeichnung hat drei Aufgaben. Produkte lassen sich klarer voneinander abgrenzen. Gleich sortierte Produkte kann man als einheitliche Charge besser handeln. Eine Charge ist eine Menge gleicher Ware. Und der Käufer erfährt klar, wie das Produkt beschaffen ist. So ist er vor Täuschung und Irreführung geschützt.\n\nLose Ware gibt es zum Beispiel auf dem Markt oder im Hofladen. Auf das Verkaufsschild gehören: der Preis, zum Beispiel pro Stück oder pro Kilogramm. Das Herkunftsland. Die Art und die Sorte, zum Beispiel „Äpfel, Golden Delicious“. Und die Handelsklasse.\n\nMERKE: Handelsklassen legt eine EU-Verordnung fest. Damit teilt man leicht verderbliche und empfindliche Ware ein. Die Handelsklasse bestimmt den Preis mit.\n\nObst und Gemüse gibt es heute in den Handelsklassen Extra, I und II. Je höher die Zahl, desto schlechter ist die Ware eingestuft. Dein Buch nennt noch die Klasse III. Heute gilt: Die Klasse III gibt es nicht mehr.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -44,7 +44,7 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🔎 Zählt bei dieser Ware nur der Preis? Sortiere.",
+        "prompt": "🔎 Homogenes Gut oder nicht? Sortiere.",
         "buckets": [
           { "id": "homogen", "label": "Homogenes Gut", "icon": "🧊" },
           { "id": "nicht", "label": "Kein homogenes Gut", "icon": "🔀" }
@@ -78,7 +78,7 @@
         "prompt": "⚖️ Du vergleichst die Preise von Heizöl. Worauf beziehst du jeden Preis?",
         "options": [
           { "text": "Auf eine genormte Menge, zum Beispiel 1 Liter.", "correct": true },
-          { "text": "Auf die Größe des Lieferwagens vor der Tür." },
+          { "text": "Auf die Größe des Lieferwagens, der das Öl bringt." },
           { "text": "Auf die Zahl der Lieferungen im ganzen Jahr." }
         ],
         "explanation": "Nur mit derselben Menge kannst du Preise ehrlich vergleichen. Dafür nimmst du ein Raummaß wie den Liter oder ein Gewicht wie das Kilogramm."
@@ -99,7 +99,7 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🍎 Was muss auf das Verkaufsschild bei loser Ware? Sortiere.",
+        "prompt": "🍎 Du verkaufst lose Äpfel im Hofladen. Was muss auf das Verkaufsschild? Sortiere.",
         "buckets": [
           { "id": "pflicht", "label": "Muss aufs Schild", "icon": "✅" },
           { "id": "nein", "label": "Muss nicht aufs Schild", "icon": "➖" }
@@ -109,7 +109,7 @@
           { "text": "Das Herkunftsland", "bucket": "pflicht" },
           { "text": "Die Art und die Sorte", "bucket": "pflicht" },
           { "text": "Die Handelsklasse", "bucket": "pflicht" },
-          { "text": "Ein Rezept mit dieser Ware", "bucket": "nein" },
+          { "text": "Ein Rezept für Apfelkuchen", "bucket": "nein" },
           { "text": "Der Name der Verkäuferin", "bucket": "nein" },
           { "text": "Ein Foto vom Apfelbaum", "bucket": "nein" }
         ],
@@ -123,10 +123,9 @@
         "steps": [
           { "text": "Extra" },
           { "text": "Klasse I" },
-          { "text": "Klasse II" },
-          { "text": "Klasse III" }
+          { "text": "Klasse II" }
         ],
-        "explanation": "Die beste Ware hat keine Zahl, sondern heißt „Extra“. Danach gilt: Je höher die Zahl, desto schlechter ist die Ware eingestuft."
+        "explanation": "Die beste Ware hat keine Zahl, sondern heißt „Extra“. Danach gilt: Je höher die Zahl, desto schlechter ist die Ware eingestuft. Die Klasse III aus deinem Buch gibt es heute nicht mehr."
       }
     },
     {
@@ -135,8 +134,8 @@
         "prompt": "🇪🇺 Wer legt die Handelsklassen fest, und warum sind sie wichtig?",
         "options": [
           { "text": "Eine EU-Verordnung. Die Handelsklasse bestimmt den Preis mit.", "correct": true },
-          { "text": "Jeder Händler selbst. Sie ist nur eine hübsche Dekoration." },
-          { "text": "Die Kundin. Sie sagt an der Kasse, wie viel sie zahlen will." }
+          { "text": "Jeder Händler selbst. Sie sagt nichts über den Preis der Ware." },
+          { "text": "Der Bauernverband. Sie zeigt nur, aus welcher Region die Ware kommt." }
         ],
         "explanation": "Die Merkmale der Handelsklassen stehen in einer EU-Verordnung. Mit ihnen wird leicht verderbliche und empfindliche Ware eingeteilt. Bessere Klasse heißt meist höherer Preis."
       }
@@ -147,8 +146,8 @@
         "prompt": "🌟 Zum Schluss: Was heißt „homogen“?",
         "options": [
           { "text": "Gleichartig.", "correct": true },
-          { "text": "Teuer." },
-          { "text": "Selten." }
+          { "text": "Sehr teuer." },
+          { "text": "Besonders selten." }
         ],
         "explanation": "Homogen heißt gleichartig. Ein homogenes Gut ist bei allen Anbietern gleich. Darum zählt nur der Preis."
       }

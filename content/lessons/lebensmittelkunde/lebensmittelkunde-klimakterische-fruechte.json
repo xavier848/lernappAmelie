@@ -48,7 +48,7 @@
           { "text": "Orange", "bucket": "wenig" },
           { "text": "Zitrone", "bucket": "wenig" }
         ],
-        "explanation": "Eine Merkhilfe: Viel Ethylen bilden die Kernobst-Klassiker Apfel und Birne, dazu Pfirsich und Avocado. Wenig bilden die sauren Früchte Orange und Zitrone sowie die kleinen roten Früchte Erdbeere und Kirsche."
+        "explanation": "Merkhilfe: Viel Ethylen bilden die Kernobst-Klassiker Apfel und Birne, dazu zum Beispiel Pfirsich und Avocado. Wenig bilden zum Beispiel Orange und Zitrone sowie Erdbeere und Kirsche. Lern die Beispiele am besten in diesen Paaren."
       }
     },
     {
@@ -60,7 +60,29 @@
           { "text": "Der Apfel." },
           { "text": "Die Zitrone." }
         ],
-        "explanation": "Die Banane bildet mittel viel Ethylen, genau wie Clementine, Feige, Mango, Pflaume und Quitte. Der Apfel bildet viel, die Zitrone wenig."
+        "explanation": "Die Banane bildet mittel viel Ethylen. Der Apfel bildet viel, die Zitrone wenig."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📊 Wie viel Ethylen bilden diese Früchte? Sortiere.",
+        "buckets": [
+          { "id": "hoch", "label": "Viel", "icon": "💨" },
+          { "id": "mittel", "label": "Mittel", "icon": "〰️" },
+          { "id": "niedrig", "label": "Wenig", "icon": "🍃" }
+        ],
+        "items": [
+          { "text": "Aprikose", "bucket": "hoch" },
+          { "text": "Passionsfrucht", "bucket": "hoch" },
+          { "text": "Clementine", "bucket": "mittel" },
+          { "text": "Mango", "bucket": "mittel" },
+          { "text": "Pflaume", "bucket": "mittel" },
+          { "text": "Quitte", "bucket": "mittel" },
+          { "text": "Ananas", "bucket": "niedrig" },
+          { "text": "Kiwi", "bucket": "niedrig" }
+        ],
+        "explanation": "Merkhilfe: Aprikose und Passionsfrucht nennt das Buch zusammen mit der Avocado als Beispiele für klimakterische Früchte. Sie bilden viel Ethylen. Ananas und Kiwi bilden wenig. Die übrigen liegen in der Mitte, genau wie die Banane."
       }
     },
     {
@@ -82,7 +104,7 @@
         "options": [
           { "text": "Man reichert die Luft mit etwas CO₂ an.", "correct": true },
           { "text": "Man gibt extra viel Ethylen in die Luft." },
-          { "text": "Man heizt den Lagerraum stark auf." }
+          { "text": "Man pumpt reinen Sauerstoff in den Raum." }
         ],
         "explanation": "Auf Bananenfrachtern und in Lagerhäusern am Hafen verändert man die Luft gezielt. Etwas mehr CO₂ bremst das Reifen. Ethylen würde das Reifen dagegen beschleunigen."
       }

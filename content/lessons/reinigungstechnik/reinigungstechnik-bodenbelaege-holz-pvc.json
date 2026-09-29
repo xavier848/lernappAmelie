@@ -20,13 +20,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏭 Welcher Holzboden ist die Ausnahme und verträgt Feuchtigkeit und Kratzer?",
+        "prompt": "🏭 Die meisten Holzböden sind empfindlich gegen Feuchtigkeit und Kratzer. Welcher Holzboden ist die Ausnahme?",
         "options": [
-          { "text": "Das Hirnholzpflaster, auch Industrieparkett genannt.", "correct": true },
-          { "text": "Das Laminat mit einem Holzmuster auf Papier." },
-          { "text": "Das geölte Parkett aus vielen einzelnen Stücken Hartholz." }
+          { "text": "Das Hirnholzpflaster.", "correct": true },
+          { "text": "Das Laminat mit Holzmuster." },
+          { "text": "Das geölte Parkett." }
         ],
-        "explanation": "Fast alle Holzböden sind empfindlich gegen Feuchtigkeit und Kratzer. Nur das Hirnholzpflaster ist robust. Man nennt es darum auch Industrieparkett."
+        "explanation": "Fast alle Holzböden sind empfindlich gegen Feuchtigkeit und Kratzer. Nur das Hirnholzpflaster ist robust. Laminat und geöltes Parkett vertragen Nässe und Kratzer schlecht."
       }
     },
     {
@@ -58,11 +58,11 @@
       "data": {
         "prompt": "🏨 Ein Hotel will Parkett in die Gästezimmer legen. Welche Oberfläche passt am besten?",
         "options": [
-          { "text": "Versiegelt: relativ unempfindlich und pflegeleicht.", "correct": true },
-          { "text": "Geölt: wirkt warm und natürlich, braucht viel Pflege." },
-          { "text": "Gewachst: wirkt natürlich, muss oft neu gewachst werden." }
+          { "text": "Versiegeltes Parkett.", "correct": true },
+          { "text": "Geöltes Parkett." },
+          { "text": "Gewachstes Parkett." }
         ],
-        "explanation": "Versiegelt heißt: Eine feste Schutzschicht liegt auf dem Holz. Das ist pflegeleicht und passt in Gaststuben und Hotelzimmer. Geöltes oder gewachstes Parkett braucht mehr Pflege. Es passt eher in den Privathaushalt."
+        "explanation": "Versiegeltes Parkett ist relativ unempfindlich und pflegeleicht. Darum passt es in Gaststuben und Hotelzimmer. Geöltes oder gewachstes Parkett wirkt natürlicher, braucht aber mehr Pflege. Es passt eher in den Privathaushalt."
       }
     },
     {
@@ -78,12 +78,12 @@
           { "text": "Aus der Rinde der Korkeiche", "bucket": "kork" },
           { "text": "Atmungsaktiv und trittschalldämmend", "bucket": "kork" },
           { "text": "Oft mit Holzmuster auf einer Papierschicht", "bucket": "lam" },
-          { "text": "Sehr pflegeleicht und fleckunempfindlich", "bucket": "lam" },
+          { "text": "Fleckunempfindlich", "bucket": "lam" },
           { "text": "Ein Kunststoffbelag", "bucket": "pvc" },
           { "text": "Oft in Schulen und Krankenhäusern", "bucket": "pvc" },
           { "text": "Wird oft durch Elastomerbeläge ersetzt", "bucket": "pvc" }
         ],
-        "explanation": "Frag dich: Woraus besteht der Belag? Kork kommt von einem Baum. Laminat hat eine Papierschicht mit Muster. PVC ist Kunststoff und liegt oft in öffentlichen Gebäuden."
+        "explanation": "Frag dich: Woraus besteht der Belag? Kork kommt von einem Baum. Laminat hat eine Papierschicht mit Muster und ist fleckunempfindlich. PVC ist Kunststoff, liegt oft in öffentlichen Gebäuden und verträgt ölhaltige Flecken schlecht."
       }
     },
     {

@@ -12,9 +12,9 @@
         "options": [
           { "text": "In der vorgegebenen Zeit rationell arbeiten, mit gutem Ergebnis.", "correct": true },
           { "text": "Später nachweisen können, wer an einem Fehler schuld war." },
-          { "text": "Alle Mitarbeiterinnen möglichst lange beschäftigt halten, ganz egal wie." }
+          { "text": "Genau festhalten, wie lange jede Mitarbeiterin Pause gemacht hat." }
         ],
-        "explanation": "Rationell heißt: zweckmäßig arbeiten, ohne Zeit und Kraft zu verschwenden. Der schriftliche Ablauf hilft, in der vorgegebenen Zeit ein möglichst gutes Ergebnis zu schaffen. Es geht nicht um Schuld."
+        "explanation": "Rationell heißt: zweckmäßig arbeiten, ohne Zeit und Kraft zu verschwenden. Der schriftliche Ablauf hilft, in der vorgegebenen Zeit ein möglichst gutes Ergebnis zu schaffen. Es geht nicht darum, Schuldige zu finden oder Pausen zu überwachen."
       }
     },
     {
@@ -44,16 +44,16 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🏭 Funktionsbereiche einer Großküche. Was passiert wo?",
+        "prompt": "🏭 Funktionsbereiche einer Großküche. Wo passiert das? Verbinde.",
         "pairs": [
-          { "left": {"text": "🛒 Wareneinkauf"}, "right": {"text": "Lebensmittel einkaufen"} },
-          { "left": {"text": "🔥 Warme Küche"}, "right": {"text": "Warme Speisen zubereiten"} },
-          { "left": {"text": "🥗 Kalte Küche"}, "right": {"text": "Kalte Speisen zubereiten"} },
-          { "left": {"text": "🍰 Patisserie"}, "right": {"text": "Süßspeisen und Gebäck"} },
+          { "left": {"text": "🛒 Wareneinkauf"}, "right": {"text": "Waren bestellen und annehmen"} },
+          { "left": {"text": "🔥 Warme Küche"}, "right": {"text": "Frikadellen braten"} },
+          { "left": {"text": "🥗 Kalte Küche"}, "right": {"text": "Salat und Dressing zubereiten"} },
+          { "left": {"text": "🍰 Patisserie"}, "right": {"text": "Kuchen und Desserts herstellen"} },
           { "left": {"text": "🍽️ Speisenausgabe"}, "right": {"text": "Essen an die Gäste geben"} },
-          { "left": {"text": "🧽 Spülküche"}, "right": {"text": "Geschirr und Geräte spülen"} }
+          { "left": {"text": "🧽 Spülküche"}, "right": {"text": "Geschirr und Töpfe reinigen"} }
         ],
-        "explanation": "Die meisten Namen verraten die Aufgabe. Nur die Patisserie ist ein Fremdwort. Sie ist der Bereich für Süßspeisen und Gebäck."
+        "explanation": "Frag dich bei jeder Arbeit: Geht es um Waren, um warme oder kalte Speisen, um Süßes, um die Gäste oder um schmutziges Geschirr? Die Patisserie ist der Bereich für Süßspeisen und Gebäck."
       }
     },
     {

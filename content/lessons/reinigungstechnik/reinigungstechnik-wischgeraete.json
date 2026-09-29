@@ -29,12 +29,12 @@
       "data": {
         "prompt": "🧹 Welches Gerät passt? Verbinde.",
         "pairs": [
+          { "left": {"text": "🧹 Besen"}, "right": {"text": "Grober und feiner Schmutz"} },
           { "left": {"text": "🪥 Bürste"}, "right": {"text": "Schwer zugängliche Stellen und hartnäckiger Schmutz"} },
-          { "left": {"text": "🟫 Feuchtwischgerät"}, "right": {"text": "Rahmen aus Kunststoff oder Metall mit Halterung"} },
           { "left": {"text": "📏 Breitwischgerät"}, "right": {"text": "Klappvorrichtung für schnellen Bezugwechsel"} },
           { "left": {"text": "💦 Sprühwischgerät"}, "right": {"text": "Zwischenreinigung im Privathaushalt"} }
         ],
-        "explanation": "Bürsten kommen in Ecken und lösen festen Schmutz. Das Feuchtwischgerät hält Tücher mit einer Halterung fest. Das Breitwischgerät erkennst du an der Klappvorrichtung. Das Sprühwischgerät ist gut für zwischendurch zu Hause."
+        "explanation": "Der Besen nimmt groben und feinen Schmutz auf. Bürsten kommen in schwer zugängliche Ecken und lösen festen Schmutz. Das Breitwischgerät erkennst du an der Klappvorrichtung. Das Sprühwischgerät ist gut für zwischendurch zu Hause."
       }
     },
     {
@@ -118,13 +118,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧹 Womit entfernst du groben und feinen Schmutz vom Boden?",
+        "prompt": "🟫 Ein Feuchtwischgerät hat einen Rahmen. Woraus ist er?",
         "options": [
-          { "text": "Mit dem Besen.", "correct": true },
-          { "text": "Mit dem Fensterleder." },
-          { "text": "Mit dem Einwascher." }
+          { "text": "Aus Kunststoff oder Metall.", "correct": true },
+          { "text": "Aus Holz oder Kork." },
+          { "text": "Aus Gummi oder Schaumstoff." }
         ],
-        "explanation": "Der Besen entfernt groben und feinen Schmutz. Fensterleder und Einwascher sind für Fenster."
+        "explanation": "Feuchtwischgeräte haben einen Rahmen aus Kunststoff oder Metall. Oben klemmt eine Halterung die Tücher fest."
       }
     }
   ]

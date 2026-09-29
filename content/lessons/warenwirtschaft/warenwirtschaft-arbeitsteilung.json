@@ -8,7 +8,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍞 Du hast Hunger und kaufst dir ein Brötchen. Was tust du damit?",
+        "prompt": "🍞 Du hast Hunger und kaufst dir ein Brötchen. Was stimmt?",
         "options": [
           { "text": "Ich handle schon wirtschaftlich.", "correct": true },
           { "text": "Das hat mit Wirtschaft gar nichts zu tun." },
@@ -23,8 +23,8 @@
         "prompt": "🐑 Warum baut heute kaum noch jemand seine Lebensmittel selbst an?",
         "options": [
           { "text": "Die Arbeit hat sich spezialisiert. Jeder macht eine bestimmte Arbeit.", "correct": true },
-          { "text": "Es ist heute verboten, eigenes Gemüse im Garten hinter dem Haus anzubauen." },
-          { "text": "Es gibt heute gar keine Bauern mehr, die noch Lebensmittel anbauen." }
+          { "text": "Selbst angebaute Lebensmittel sind weniger gesund als gekaufte Ware." },
+          { "text": "Die Böden in Deutschland sind für den Anbau zu schlecht geworden." }
         ],
         "explanation": "Heute macht jeder eine bestimmte Arbeit, zum Beispiel als Landwirt, Mechanikerin oder Hauswirtschafterin. Was wir sonst brauchen, bekommen wir im Tausch gegen Geld."
       }
@@ -113,9 +113,9 @@
       "data": {
         "prompt": "🏷️ Welche Art von Gut ist das? Verbinde.",
         "pairs": [
-          { "left": {"text": "🍞 Ein Brot"}, "right": {"text": "Verbrauchsgut"} },
-          { "left": {"text": "🧊 Ein Kühlschrank"}, "right": {"text": "Gebrauchsgut"} },
-          { "left": {"text": "🧹 Die Reinigung eines Zimmers"}, "right": {"text": "Dienstleistung"} }
+          { "left": {"text": "🧴 Spülmittel"}, "right": {"text": "Verbrauchsgut"} },
+          { "left": {"text": "🧹 Ein Staubsauger"}, "right": {"text": "Gebrauchsgut"} },
+          { "left": {"text": "🧺 Ein Wäscheservice für Gäste"}, "right": {"text": "Dienstleistung"} }
         ],
         "memory": false,
         "explanation": "Frag dich: Ist es nach dem Gebrauch weg? Dann ist es ein Verbrauchsgut. Nutzt man es lange? Dann ist es ein Gebrauchsgut. Ist es eine Arbeit für andere? Dann ist es eine Dienstleistung."
