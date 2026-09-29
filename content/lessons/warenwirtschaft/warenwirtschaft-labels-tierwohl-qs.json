@@ -1,0 +1,125 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-labels-tierwohl-qs",
+  "title": "Labels: Bio, Tierwohl und QS",
+  "sort": 691,
+  "intro": "🏷️ Labels helfen dir beim Einkaufen. Sie zeigen Dinge, die du an der Ware selbst nicht sehen kannst.\n\nMERKE: Das Biosiegel ist staatlich geschützt. Seine Verwendung ist aber nicht Pflicht, sondern freiwillig. Trotzdem steht es auf fast allen Bioprodukten.\n\nToilettenpapier kann man aus frisch gefällten Bäumen machen oder aus Altpapier. Toilettenpapier aus Altpapier schont die Umwelt. Du erkennst es am Blauen Engel. Bei gleichem Komfort ist es meist preiswerter.\n\nBeim Fleisch achten immer mehr Menschen auf die Haltungsform der Tiere. Die Initiative Tierwohl zeigt sie auf immer mehr Produkten. Das System hat vier Stufen. Stufe 1 ist der gesetzliche Mindeststandard. Stufe 4 ist die Biohaltung. Vorsicht: Bei Eiern ist es anders. Dort steht die 0 für Bio.\n\nDas QS-Prüfzeichen zeigt: Man kann die Ware über alle Verarbeitungsstufen bis zum Erzeuger zurückverfolgen. Rückverfolgen heißt: nachprüfen, woher etwas kommt. Auf einer Currywurst findest du zum Beispiel die Haltungsform, den Nutri-Score und das QS-Prüfzeichen.\n\nManche Kennzeichen sind Pflicht, andere freiwillig. Pflicht sind zum Beispiel das Energielabel auf Elektrogeräten, das Mindesthaltbarkeitsdatum auf verpackter Ware und die Allergene in der Zutatenliste. Freiwillig sind zum Beispiel das Biosiegel, das VDE-Zeichen und das RAL-Gütezeichen.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Welches Label zeigt was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Biosiegel"}, "right": {"text": "Staatlich geschütztes Zeichen für Bio-Ware"} },
+          { "left": {"text": "Blauer Engel"}, "right": {"text": "Toilettenpapier aus Altpapier"} },
+          { "left": {"text": "Initiative Tierwohl"}, "right": {"text": "Zeigt die Haltungsform bei Fleisch"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Geht es um Bio, um die Umwelt oder um die Tiere? Der Blaue Engel ist ein Umweltzeichen. Die Initiative Tierwohl kümmert sich um die Haltung der Tiere."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Muss jedes Bioprodukt das staatliche Biosiegel tragen?",
+        "options": [
+          { "text": "Nein, es ist freiwillig. Trotzdem steht es auf fast allen Bioprodukten.", "correct": true },
+          { "text": "Ja, jedes Lebensmittel im Laden muss das Biosiegel tragen." },
+          { "text": "Ja, aber nur Fleisch und Eier müssen das Biosiegel tragen." }
+        ],
+        "explanation": "Das Biosiegel ist staatlich geschützt. Nicht jeder darf es benutzen. Die Verwendung ist aber freiwillig. Fast alle Bio-Hersteller nutzen es trotzdem."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Toilettenpapier mit dem Blauen Engel ist aus Altpapier. Was stimmt im Vergleich zu Papier aus frisch gefällten Bäumen?",
+        "options": [
+          { "text": "Bei gleichem Komfort ist es meist preiswerter.", "correct": true },
+          { "text": "Es ist immer viel rauer und deutlich teurer." },
+          { "text": "Es ist nicht hygienisch genug für Gäste." }
+        ],
+        "explanation": "Altpapier-Toilettenpapier schont Bäume und Ressourcen. Es ist genauso bequem und meist sogar günstiger. Ein guter Grund für den Betrieb, darauf umzusteigen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Du siehst auf Fleisch die Haltungsform 1. Was bedeutet das?",
+        "options": [
+          { "text": "Der gesetzliche Mindeststandard.", "correct": true },
+          { "text": "Die Biohaltung, also die beste Stufe." },
+          { "text": "Eine Stufe noch über der Biohaltung." }
+        ],
+        "explanation": "Stufe 1 bedeutet: Die Tiere werden nach dem gesetzlichen Mindeststandard gehalten, also nur so, wie es das Gesetz mindestens verlangt. Je höher die Stufe, desto mehr achtet man auf das Tierwohl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌿 Du möchtest Fleisch aus Biohaltung. Welche Stufe der Haltungsform suchst du?",
+        "options": [
+          { "text": "Stufe 4.", "correct": true },
+          { "text": "Stufe 1." },
+          { "text": "Stufe 0." }
+        ],
+        "explanation": "Beim Fleisch hat das System vier Stufen. Stufe 4 ist die Biohaltung. Nicht verwechseln: Beim Eier-Code steht die 0 für Bio."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐖 Wer zeigt die Haltungsform auf immer mehr Fleischprodukten?",
+        "options": [
+          { "text": "Die Initiative Tierwohl.", "correct": true },
+          { "text": "Der Verein TransFair." },
+          { "text": "Das Umweltbundesamt." }
+        ],
+        "explanation": "Die Initiative Tierwohl hat das Kennzeichen für die Haltungsform eingeführt. TransFair vergibt das Fairtrade-Zeichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔗 Auf einer Currywurst siehst du das QS-Prüfzeichen. Was bedeutet es?",
+        "options": [
+          { "text": "Man kann die Ware bis zum Erzeuger zurückverfolgen.", "correct": true },
+          { "text": "Die Wurst stammt garantiert aus Biohaltung." },
+          { "text": "Die Wurst ist besonders fettarm und leicht." }
+        ],
+        "explanation": "QS-Ware kann man über alle Verarbeitungsstufen zurückverfolgen: vom Laden über den Schlachthof bis zum Bauernhof. Über Bio oder Fett sagt das QS-Zeichen nichts."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Ist das Kennzeichen Pflicht oder freiwillig? Sortiere.",
+        "buckets": [
+          { "id": "pflicht", "label": "Pflicht", "icon": "📜" },
+          { "id": "frei", "label": "Freiwillig", "icon": "🙋" }
+        ],
+        "items": [
+          { "text": "Energielabel auf Elektrogeräten", "bucket": "pflicht" },
+          { "text": "Mindesthaltbarkeitsdatum auf verpackter Ware", "bucket": "pflicht" },
+          { "text": "Allergene in der Zutatenliste", "bucket": "pflicht" },
+          { "text": "Staatliches Biosiegel", "bucket": "frei" },
+          { "text": "VDE-Zeichen", "bucket": "frei" },
+          { "text": "RAL-Gütezeichen", "bucket": "frei" }
+        ],
+        "explanation": "Frag dich: Brauchen alle Käufer diese Angabe für Sicherheit, Gesundheit oder Vergleich? Dann ist sie meist Pflicht. Zusätzliche Siegel und Gütezeichen drucken Hersteller freiwillig auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was heißt „zurückverfolgen“?",
+        "options": [
+          { "text": "Nachprüfen, woher die Ware kommt.", "correct": true },
+          { "text": "Die Ware in den Laden zurückbringen." },
+          { "text": "Die Ware noch einmal nachbestellen." }
+        ],
+        "explanation": "Zurückverfolgen heißt: Man geht den Weg der Ware rückwärts. So findet man heraus, woher sie stammt, zum Beispiel vom welchem Erzeuger."
+      }
+    }
+  ]
+}
