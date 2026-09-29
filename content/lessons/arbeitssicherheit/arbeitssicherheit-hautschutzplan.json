@@ -1,0 +1,156 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-hautschutzplan",
+  "title": "Hautschutzplan: schützen, waschen, pflegen",
+  "sort": 641,
+  "intro": "Im Betrieb hängt ein Hautschutzplan aus. Das ist Pflicht. Er zeigt, mit welchen Produkten du deine Hände schützt, reinigst und pflegst. Der Plan im Buch kommt von der Berufsgenossenschaft für Gesundheitsdienst und Wohlfahrtspflege, kurz BGW.\n\nHautschutz: Vor Arbeitsbeginn, vor Arbeiten, die die Haut belasten, und nach dem Händewaschen cremst du die Hände mit Hautschutzcreme ein. Du nimmst etwa eine haselnussgroße Menge auf den Handrücken. Dann massierst du sie sorgfältig ein. Auch die Fingerzwischenräume, die Seiten der Finger, die Nagelfalze, die Fingerkuppen, die Daumen und die Handgelenke. Nagelfalz heißt: die Hautfalte am Rand vom Fingernagel.\n\nSo cremst du ein: Erst gibst du die Creme auf den Handrücken. Dann verteilst du sie. Dann cremst du die Fingerzwischenräume ein. Zum Schluss kommt das Nagelbett.\n\nHandschuhe: Bei Feuchtreinigung und Desinfektion trägst du chemikalienbeständige Schutzhandschuhe. Zum Beispiel beim Abwasch, bei der Bettenreinigung und beim Wischen. Bei Schmutzwäsche und bei Dingen mit Keimen trägst du Einmalhandschuhe. Zum Beispiel bei Abfällen oder bei benutzten medizinischen Gegenständen.\n\nDu ziehst Handschuhe nur auf trockene, saubere Hände. Trägst du sie länger als zehn Minuten, ziehst du möglichst Baumwollhandschuhe darunter. Bei trockenen, sauberen Arbeiten ziehst du die Handschuhe aus.\n\nHände desinfizieren: beim Wechsel von unreinen zu reinen Arbeiten, vor der Arbeit mit Lebensmitteln und nach der Arbeit mit Dingen mit Keimen, zum Beispiel nach der Müllentsorgung. Das gilt auch, wenn du Handschuhe getragen hast. Wenn nötig auch nach dem Naseputzen und nach dem Toilettenbesuch.\n\nDu nimmst etwa 3 ml Händedesinfektionsmittel. Du reibst es in die trockenen Hände ein, so lange, wie der Hersteller sagt. Denk an die Problemzonen: Fingerkuppen, Daumen, Fingerzwischenräume, Fingerseiten, Nagelfalze und Handgelenke.\n\nHände waschen: bei Arbeitsbeginn, wenn die Hände sichtbar schmutzig sind, und nach dem Toilettenbesuch. Du schäumst das Handwaschpräparat mit lauwarmem Wasser auf. Du spülst Hände und Fingerzwischenräume gründlich ab. Dann trocknest du sie mit Einmalhandtüchern sorgfältig ab.\n\nHände pflegen: am Arbeitsende mit Pflegecreme. Wieder nimmst du etwa eine haselnussgroße Menge auf den Handrücken und massierst sie sorgfältig ein.\n\nMERKE: Vor der Arbeit schützen, beim Wechsel von unrein zu rein desinfizieren, am Arbeitsende pflegen. Desinfektionsmittel kommt in die trockenen Hände.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Der Hautschutzplan ist aushangpflichtig. Was heißt das, und was zeigt er?",
+        "options": [
+          { "text": "Er muss aushängen. Er zeigt, womit du die Hände schützt, reinigst und pflegst.", "correct": true },
+          { "text": "Er liegt im Büro. Er zeigt, wer im Team welche Reinigungsmittel einkauft." },
+          { "text": "Er muss aushängen. Er zeigt, in welcher Reihenfolge du die Räume putzt." }
+        ],
+        "explanation": "Aushangpflichtig heißt: Der Plan muss im Betrieb gut sichtbar hängen. Er zeigt in vier Spalten: Was, wann, womit und wie. So weißt du, wie du deine Hände schützt, reinigst und pflegst."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧴 Womit? Verbinde die Aufgabe mit dem Produkt.",
+        "pairs": [
+          { "left": {"text": "🛡️ Hautschutz"}, "right": {"text": "Hautschutzcreme"} },
+          { "left": {"text": "💧 Hände desinfizieren"}, "right": {"text": "Händedesinfektionsmittel"} },
+          { "left": {"text": "🧼 Hände waschen"}, "right": {"text": "Handwaschpräparat und Einmalhandtücher"} },
+          { "left": {"text": "🌙 Hände pflegen"}, "right": {"text": "Pflegecreme"} },
+          { "left": {"text": "🪣 Feuchtreinigung und Desinfektion"}, "right": {"text": "Chemikalienbeständige Schutzhandschuhe"} },
+          { "left": {"text": "🧺 Schmutzwäsche und Abfälle"}, "right": {"text": "Einmalhandschuhe"} }
+        ],
+        "explanation": "Jede Aufgabe hat ihr eigenes Produkt. Achte bei den Handschuhen auf die Arbeit: Mit Chemie beim Wischen und Abwaschen brauchst du chemikalienbeständige Handschuhe. Bei Dingen mit Keimen wie Schmutzwäsche nimmst du Einmalhandschuhe."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⏰ Wann cremst du mit Hautschutzcreme ein, und wann desinfizierst du? Sortiere.",
+        "buckets": [
+          { "id": "schutz", "label": "Hautschutzcreme", "icon": "🛡️" },
+          { "id": "desinf", "label": "Hände desinfizieren", "icon": "💧" }
+        ],
+        "items": [
+          { "text": "Vor Arbeitsbeginn", "bucket": "schutz" },
+          { "text": "Vor Arbeiten, die die Haut belasten", "bucket": "schutz" },
+          { "text": "Nach dem Händewaschen", "bucket": "schutz" },
+          { "text": "Beim Wechsel von unreinen zu reinen Arbeiten", "bucket": "desinf" },
+          { "text": "Vor der Arbeit mit Lebensmitteln", "bucket": "desinf" },
+          { "text": "Nach der Müllentsorgung", "bucket": "desinf" }
+        ],
+        "explanation": "Hautschutzcreme schützt die Haut vor der Belastung. Darum kommt sie vor der Arbeit und nach dem Waschen. Desinfizieren schützt vor Keimen. Darum desinfizierst du, wenn Keime an die Hände gekommen sein können und bevor du mit Lebensmitteln arbeitest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗑️ Du hast beim Müllentsorgen Handschuhe getragen. Musst du danach trotzdem die Hände desinfizieren?",
+        "options": [
+          { "text": "Ja, auch wenn du Handschuhe getragen hast.", "correct": true },
+          { "text": "Nein, die Handschuhe haben die Hände ja geschützt." },
+          { "text": "Nur, wenn die Handschuhe sichtbar kaputt sind." }
+        ],
+        "explanation": "Beim Ausziehen der Handschuhe können Keime an die Hände kommen. Darum desinfizierst du die Hände nach dem Umgang mit Keimen immer. Auch wenn du Handschuhe getragen hast."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌰 Wie viel Hautschutzcreme nimmst du, und wohin gibst du sie zuerst?",
+        "options": [
+          { "text": "Etwa haselnussgroß, auf den Handrücken.", "correct": true },
+          { "text": "Etwa walnussgroß, in die Handfläche." },
+          { "text": "So viel wie möglich, auf die Fingerspitzen." }
+        ],
+        "explanation": "Eine haselnussgroße Menge reicht. Du gibst sie auf den Handrücken. Dann verteilst du sie und massierst sie überall gut ein."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧴 So cremst du die Hände ein. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Creme auf den Handrücken geben." },
+          { "text": "Die Creme verteilen." },
+          { "text": "Die Fingerzwischenräume eincremen." },
+          { "text": "Das Nagelbett eincremen." }
+        ],
+        "explanation": "Du beginnst mit dem Handrücken. Dann verteilst du die Creme über die Hände. Danach kommen die Stellen, die man leicht vergisst: erst die Fingerzwischenräume, dann das Nagelbett."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💧 Wie viele Milliliter Händedesinfektionsmittel nimmst du etwa?",
+        "answer": 3,
+        "hint": "Es ist eine kleine Menge.\nEs sind mehr als 2 ml und weniger als 4 ml.",
+        "explanation": "Du nimmst etwa 3 ml Händedesinfektionsmittel. Wie lange du einreibst, steht in den Angaben des Herstellers."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙌 Wie reibst du das Händedesinfektionsmittel ein?",
+        "options": [
+          { "text": "In die trockenen Hände, auch Fingerkuppen, Daumen und Nagelfalze.", "correct": true },
+          { "text": "In die nassen Hände direkt nach dem Waschen, nur die Handflächen." },
+          { "text": "Mit etwas Wasser verdünnt, und dann nur auf die beiden Handrücken." }
+        ],
+        "explanation": "Desinfektionsmittel kommt in die trockenen Hände. Nasse Hände verdünnen es. Denk an die Problemzonen: Fingerkuppen, Daumen, Fingerzwischenräume, Fingerseiten, Nagelfalze und Handgelenke."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧤 Richtig oder falsch mit Schutzhandschuhen? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Richtig", "icon": "✅" },
+          { "id": "nein", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Nur auf trockene, saubere Hände ziehen", "bucket": "ja" },
+          { "text": "Über zehn Minuten Baumwollhandschuhe unterziehen", "bucket": "ja" },
+          { "text": "Bei trockenen, sauberen Arbeiten ausziehen", "bucket": "ja" },
+          { "text": "Auf nasse Hände ziehen", "bucket": "nein" },
+          { "text": "Den ganzen Tag ohne Pause tragen", "bucket": "nein" },
+          { "text": "Kaputte Handschuhe weiter tragen", "bucket": "nein" }
+        ],
+        "explanation": "Unter dem Handschuh schwitzt die Hand. Darum ziehst du ihn nur auf trockene, saubere Hände. Bei langen Tragezeiten helfen Baumwollhandschuhe darunter. Bei sauberen, trockenen Arbeiten ziehst du die Handschuhe aus. Kaputte Handschuhe schützen nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Deine Hände sind sichtbar schmutzig. Was tust du?",
+        "options": [
+          { "text": "Mit Handwaschpräparat und lauwarmem Wasser waschen, dann gut abtrocknen.", "correct": true },
+          { "text": "Nur desinfizieren, denn Desinfektionsmittel entfernt auch den Schmutz gut." },
+          { "text": "Hautschutzcreme darüber auftragen, dann ist die Haut vor Schmutz geschützt." }
+        ],
+        "explanation": "Sichtbarer Schmutz muss abgewaschen werden. Du schäumst das Handwaschpräparat mit lauwarmem Wasser auf. Dann spülst du gründlich ab und trocknest die Hände mit Einmalhandtüchern sorgfältig ab. Desinfektion ersetzt das Waschen nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌙 Wann pflegst du deine Hände mit Pflegecreme?",
+        "options": [
+          { "text": "Am Arbeitsende.", "correct": true },
+          { "text": "Vor der Arbeit mit Lebensmitteln." },
+          { "text": "Zwischen zwei Toiletten." }
+        ],
+        "explanation": "Die Pflegecreme kommt am Arbeitsende. Dann kann sich die Haut in Ruhe erholen. Vor der Arbeit kommt die Hautschutzcreme."
+      }
+    }
+  ]
+}
