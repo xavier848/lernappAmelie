@@ -1,0 +1,128 @@
+{
+  "topic_slug": "betreuung",
+  "slug": "betreuung-saeugling-urvertrauen",
+  "title": "Säugling und Kleinkind: Urvertrauen",
+  "sort": 665,
+  "intro": "Die gesunde Entwicklung eines Kindes hängt stark ab von seinem körperlichen Wohl, von seinem Denken und Fühlen und von seinem sozialen Verhalten.\n\nVon der Geburt bis etwa 3 Jahre macht ein Kind grundlegende Erfahrungen mit seinem Körper und mit anderen Menschen. Diese Erfahrungen prägen sein ganzes späteres Leben. Deshalb braucht das Kind in dieser Zeit behutsame pädagogische Hilfe und Betreuung.\n\nJedes Kind hat körperliche Bedürfnisse: Nahrung, Wärme, Sauberkeit und Schlaf. Dazu hat es ein Grundbedürfnis nach verlässlicher, ständig verfügbarer und liebevoller Zuwendung. So baut es Vertrauen in seine Umwelt auf.\n\nDieses Urvertrauen ist die Grundlage für eine positive Lebenseinstellung. Das Kind lernt, andere zu lieben, weil es selbst geliebt wird.\n\nWichtig ist Kontinuität. Das heißt: Die Bezugspersonen bleiben möglichst dieselben. Je häufiger die Bezugspersonen wechseln, desto schwerer kann das Kind feste Beziehungen aufbauen und Vertrauen fassen.\n\nKinder brauchen ein behütendes Umfeld. Dort können sie geborgen ausprobieren und erforschen. So werden sie selbstständig und selbstbewusst.\n\nKleinkinder nehmen alles in die Hand, was sie erreichen. Meist riechen oder lecken sie daran. Greifen, Fühlen und Lecken führen zum „Begreifen“. Das Kind erkennt und versteht die Dinge dabei auch im Kopf.\n\nMERKE: Achte darauf, dass alles gesundheitlich unbedenklich ist. Kinder können ersticken oder sich vergiften. Kleinkinder brauchen deshalb immer eine Aufsichtsperson. Sie sorgt dafür, dass das Kind gefahrlos erkunden kann.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Wovon hängt die gesunde Entwicklung eines Kindes stark ab?",
+        "options": [
+          { "text": "Vom körperlichen Wohl, vom Denken und Fühlen und vom sozialen Verhalten.", "correct": true },
+          { "text": "Nur von der Menge an Spielzeug, das im Kinderzimmer für das Kind bereitliegt." },
+          { "text": "Nur vom Geld der Eltern und davon, wie groß die Wohnung der Familie ist." },
+          { "text": "Nur vom Wetter, denn im Sommer entwickeln sich alle Kinder viel schneller." }
+        ],
+        "explanation": "Die gesunde Entwicklung hängt vom körperlichen Wohl, vom Denken, vom Fühlen und vom sozialen Verhalten ab. Alle Bereiche zusammen sind wichtig."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏳ Bis etwa zu welchem Alter macht ein Kind grundlegende Erfahrungen, die sein ganzes Leben prägen? Tippe die Zahl der Jahre ein.",
+        "answer": 3,
+        "hint": "Es ist das Ende des Kleinkindalters.",
+        "explanation": "Von der Geburt bis etwa 3 Jahre macht ein Kind grundlegende Erfahrungen mit seinem Körper und mit anderen Menschen. Sie prägen sein gesamtes späteres Leben."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍼 Körperliches Bedürfnis oder Bedürfnis nach Zuwendung? Sortiere.",
+        "buckets": [
+          { "id": "koerper", "label": "Körperliches Bedürfnis", "icon": "🍼" },
+          { "id": "zuwendung", "label": "Zuwendung", "icon": "🤗" }
+        ],
+        "items": [
+          { "text": "Nahrung", "bucket": "koerper" },
+          { "text": "Wärme", "bucket": "koerper" },
+          { "text": "Sauberkeit", "bucket": "koerper" },
+          { "text": "Schlaf", "bucket": "koerper" },
+          { "text": "Eine verlässliche Bezugsperson", "bucket": "zuwendung" },
+          { "text": "Liebevolle Zuwendung", "bucket": "zuwendung" },
+          { "text": "Jemand ist ständig für das Kind da", "bucket": "zuwendung" }
+        ],
+        "explanation": "Frag dich: Braucht der Körper das, um zu wachsen und gesund zu bleiben? Dann ist es ein körperliches Bedürfnis. Braucht das Kind einen Menschen, der verlässlich und liebevoll da ist? Dann ist es Zuwendung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤱 Was ist das Urvertrauen?",
+        "options": [
+          { "text": "Das Vertrauen in die Umwelt, das durch verlässliche, liebevolle Zuwendung wächst.", "correct": true },
+          { "text": "Die Angst vor fremden Menschen, die jedes Kind im ersten Jahr ganz von selbst hat." },
+          { "text": "Ein weiches Kuscheltier, das dem Säugling beim Einschlafen im Bett Sicherheit gibt." },
+          { "text": "Die Fähigkeit, ganz allein zu spielen, ohne dass ein Erwachsener in der Nähe ist." }
+        ],
+        "explanation": "Wenn ein Kind verlässliche, ständig verfügbare und liebevolle Zuwendung bekommt, baut es Vertrauen in seine Umwelt auf. Dieses Urvertrauen ist die Grundlage für eine positive Lebenseinstellung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❤️ Wie lernt ein Kind, andere Menschen zu lieben?",
+        "options": [
+          { "text": "Indem es selbst geliebt wird.", "correct": true },
+          { "text": "Indem man es sehr streng erzieht." },
+          { "text": "Indem es oft allein gelassen wird." },
+          { "text": "Indem es viele Geschenke bekommt." }
+        ],
+        "explanation": "Das Buch sagt: Das Kind lernt andere zu lieben, weil es selbst geliebt wird. Liebevolle Zuwendung ist darum ein Grundbedürfnis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 In einer Krippe wechseln die Betreuerinnen fast jede Woche. Was ist das Problem für das Kind?",
+        "options": [
+          { "text": "Es kann schwerer feste Beziehungen aufbauen und Vertrauen fassen.", "correct": true },
+          { "text": "Es lernt viele Menschen kennen, das ist für ein Kind immer nur gut." },
+          { "text": "Es wird dadurch besonders schnell selbstständig und selbstbewusst." },
+          { "text": "Es gibt kein Problem, denn kleine Kinder bemerken den Wechsel nicht." }
+        ],
+        "explanation": "Wichtig ist Kontinuität, also möglichst gleichbleibende Bezugspersonen. Je häufiger sie wechseln, desto schwieriger kann das Kind feste zwischenmenschliche Beziehungen aufbauen und Vertrauen fassen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Ein Kleinkind nimmt einen Holzlöffel, fühlt ihn und leckt daran. Was passiert dabei laut Buch?",
+        "options": [
+          { "text": "Es „begreift“ den Löffel: Es erkennt und versteht ihn auch im Kopf.", "correct": true },
+          { "text": "Es hat großen Hunger und will den Holzlöffel eigentlich nur aufessen." },
+          { "text": "Es will den Löffel absichtlich schmutzig machen und damit ärgern." },
+          { "text": "Es macht gar nichts Wichtiges, das ist nur ein zufälliges Spiel." }
+        ],
+        "explanation": "Ergreifen, Fühlen und Lecken führen zum sprichwörtlichen „Begreifen“. Das ist nicht nur eine Erfahrung mit dem Körper. Das Kind erkennt und versteht die Dinge dabei auch geistig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏡 Was brauchen Kinder, um selbstständig und selbstbewusst zu werden?",
+        "options": [
+          { "text": "Ein behütendes Umfeld, in dem sie geborgen ausprobieren und forschen können.", "correct": true },
+          { "text": "Möglichst viele Verbote, damit sie nie etwas falsch machen und nie hinfallen." },
+          { "text": "Einen vollen Terminplan mit Kursen, damit sie keine freie Zeit zum Spielen haben." },
+          { "text": "Möglichst wenig Kontakt zu Erwachsenen, damit sie alles ganz allein lernen." }
+        ],
+        "explanation": "Ein behütendes Umfeld ist nötig. Darin können Kinder geborgen ausprobieren und erforschen. So werden sie selbstständig und selbstbewusst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Zum Schluss etwas Leichtes: Ein Kleinkind erkundet die Küche und steckt alles in den Mund. Was ist wichtig?",
+        "options": [
+          { "text": "Eine Aufsichtsperson passt auf, damit es nicht erstickt oder sich vergiftet.", "correct": true },
+          { "text": "Das Kind ganz allein lassen, damit es viel schneller selbstständig wird und lernt." },
+          { "text": "Das Kind ins Bett legen, damit es nichts mehr anfassen und erkunden kann." }
+        ],
+        "explanation": "Kleinkinder nehmen alles in die Hand und in den Mund. Dabei können Erstickungen oder Vergiftungen passieren. Darum sind sie immer auf eine Aufsichtsperson angewiesen, die für eine gefahrlose Erkundung sorgt."
+      }
+    }
+  ]
+}
