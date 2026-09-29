@@ -1,0 +1,154 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-unfallursachen",
+  "title": "Unfallursachen erkennen",
+  "sort": 602,
+  "intro": "⚠️ In der Gemeinschaftsverpflegung und in der Gastronomie gibt es jeden Tag Stress und Zeitdruck. Jeder Handgriff muss sitzen. Besonders zu Stoßzeiten steigt die Belastung sehr stark. Stoßzeit heißt: Zeit, in der besonders viel los ist. Dann wird die Arbeitssicherheit oft vernachlässigt. Viele empfinden die Sicherheitsmaßnahmen dann als hemmend oder störend.\n\nMERKE: Unfälle sind keine zufälligen Ereignisse.\n\nUnfallarten: Allgemein unterscheidet man Sachschaden, Körperschaden und beides zusammen. Im Betrieb spricht man von Schadensfall und Verletzungsfall. Ein Verletzungsfall kann sogar den Tod bedeuten.\n\nDie Folgen eines Unfalls sind groß. Das Unfallopfer und seine Familie haben persönliches Leid. Der Betrieb hat Einbußen, zum Beispiel durch lange Krankschreibungen und Kosten für Ersatzpersonal.\n\nJeder Mitarbeiter sollte die Unfallursachen kennen. Es gibt drei Gruppen.\n\n1. Mangelhaftes persönliches Verhalten. Zum Beispiel: Sicherheitsvorschriften missachten, Schutzeinrichtungen absichtlich entfernen, mangelhafte Schutzkleidung oder Schuhe, gedankenlos oder leichtfertig arbeiten, Unwissenheit, falsche oder ungeeignete Arbeitsgeräte, Übermüdung, Alkohol und Drogen, Arbeitsmittel falsch bedienen, Spielen und Leichtsinn, seelische Probleme.\n\n2. Mangelhafte technische Gegebenheiten. Zum Beispiel: bauliche Mängel wie schmale Flure oder nicht rutschfeste Fußböden, fehlende Schutzeinrichtungen am Arbeitsplatz, technische Störungen, schlechte Beleuchtung, Belüftung oder Lärm, defekte Geräte, schlechte ergonomische Gestaltung und Konstruktionsmängel von Arbeitsmitteln.\n\n3. Mangelhafte Arbeitsorganisation. Zum Beispiel: Hektik oder Zeitdruck durch schlechte Planung, körperliche Überforderung, ungeeignete Personalauswahl, fehlende Aufsicht, häufige Nachtarbeit, Arbeitsanweisungen werden schlecht weitergegeben, fehlende Prüfung, Wartung und Reparatur, fehlende Ordnung mit Hindernissen im Arbeitsbereich.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Warum wird die Arbeitssicherheit zu Stoßzeiten oft vernachlässigt?",
+        "options": [
+          { "text": "Stress und Zeitdruck: Sicherheit wirkt dann störend.", "correct": true },
+          { "text": "Zu Stoßzeiten passieren grundsätzlich keine Unfälle." },
+          { "text": "Zu Stoßzeiten gelten die Sicherheitsregeln nicht." }
+        ],
+        "explanation": "Zu Stoßzeiten steigt die Belastung extrem. Dann empfinden viele die Sicherheitsmaßnahmen als hemmend oder störend und lassen sie weg. Genau dann passieren Unfälle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Was sagt das Fachbuch über Unfälle?",
+        "options": [
+          { "text": "Unfälle sind keine zufälligen Ereignisse.", "correct": true },
+          { "text": "Unfälle sind immer reines Pech." },
+          { "text": "Unfälle passieren nur Anfängern." }
+        ],
+        "explanation": "Unfälle haben Ursachen. Wer die Ursachen kennt, kann Unfälle verhindern. Deshalb gilt: Unfälle sind keine zufälligen Ereignisse."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏷️ Welche Unfallart ist das? Sortiere.",
+        "buckets": [
+          { "id": "allg", "label": "Allgemein", "icon": "🌐" },
+          { "id": "betrieb", "label": "Im Betrieb", "icon": "🏢" }
+        ],
+        "items": [
+          { "text": "Sachschaden", "bucket": "allg" },
+          { "text": "Körperschaden", "bucket": "allg" },
+          { "text": "Schadensfall", "bucket": "betrieb" },
+          { "text": "Verletzungsfall", "bucket": "betrieb" }
+        ],
+        "explanation": "Allgemein spricht man von Sachschaden und Körperschaden oder von beidem zusammen. Im Betrieb heißen die Unfallarten Schadensfall und Verletzungsfall. Ein Verletzungsfall kann sogar tödlich sein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Welche Folgen hat ein Unfall für den Betrieb?",
+        "options": [
+          { "text": "Lange Krankschreibungen und Kosten für Ersatzpersonal.", "correct": true },
+          { "text": "Mehr Umsatz, weil weniger gearbeitet werden muss." },
+          { "text": "Gar keine, denn die Versicherung regelt alles." }
+        ],
+        "explanation": "Neben dem persönlichen Leid für das Unfallopfer und die Familie hat der Betrieb Einbußen: lange Krankschreibungen und Kosten für Ersatzpersonal."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Zu welcher Gruppe gehört die Unfallursache? Sortiere.",
+        "buckets": [
+          { "id": "person", "label": "Persönliches Verhalten", "icon": "🙋" },
+          { "id": "technik", "label": "Technische Gegebenheiten", "icon": "⚙️" },
+          { "id": "orga", "label": "Arbeitsorganisation", "icon": "📋" }
+        ],
+        "items": [
+          { "text": "Eine Schutzeinrichtung absichtlich entfernen", "bucket": "person" },
+          { "text": "Übermüdet arbeiten", "bucket": "person" },
+          { "text": "Sicherheitsvorschriften missachten", "bucket": "person" },
+          { "text": "Ein rutschiger Fußboden", "bucket": "technik" },
+          { "text": "Ein defektes Gerät", "bucket": "technik" },
+          { "text": "Schlechte Beleuchtung", "bucket": "technik" },
+          { "text": "Zeitdruck durch schlechte Planung", "bucket": "orga" },
+          { "text": "Fehlende Aufsicht", "bucket": "orga" }
+        ],
+        "explanation": "Frag dich: Wer oder was ist schuld? Liegt es am Menschen selbst und seinem Verhalten? Liegt es am Gebäude oder am Gerät? Oder liegt es daran, wie die Arbeit geplant und geleitet wird?"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Noch einmal: Zu welcher Gruppe gehört die Unfallursache? Sortiere.",
+        "buckets": [
+          { "id": "person", "label": "Persönliches Verhalten", "icon": "🙋" },
+          { "id": "technik", "label": "Technische Gegebenheiten", "icon": "⚙️" },
+          { "id": "orga", "label": "Arbeitsorganisation", "icon": "📋" }
+        ],
+        "items": [
+          { "text": "Unwissenheit", "bucket": "person" },
+          { "text": "Ein ungeeignetes Arbeitsgerät nehmen", "bucket": "person" },
+          { "text": "Ein schmaler Flur", "bucket": "technik" },
+          { "text": "Starker Lärm", "bucket": "technik" },
+          { "text": "Ein schlecht ergonomisch gestaltetes Gerät", "bucket": "technik" },
+          { "text": "Häufige Nachtarbeit", "bucket": "orga" },
+          { "text": "Geräte werden nicht gewartet", "bucket": "orga" },
+          { "text": "Körperliche Überforderung", "bucket": "orga" }
+        ],
+        "explanation": "Achte auf den Unterschied: Ein defektes oder schlecht gebautes Gerät ist Technik. Werden Geräte aber nicht geprüft und gewartet, liegt es an der Organisation. Wer ein ungeeignetes Gerät nimmt, handelt selbst falsch: Das ist persönliches Verhalten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Die Küchenleitung gibt eine neue Arbeitsanweisung nicht an das Team weiter. Welche Ursachen-Gruppe ist das?",
+        "options": [
+          { "text": "Mangelhafte Arbeitsorganisation.", "correct": true },
+          { "text": "Mangelhaftes persönliches Verhalten." },
+          { "text": "Mangelhafte technische Gegebenheiten." }
+        ],
+        "explanation": "Mangelnde Übermittlung von Arbeitsanweisungen gehört zur mangelhaften Arbeitsorganisation. Die Arbeit ist schlecht geregelt, nicht das Gerät oder der Einzelne."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍺 Ein Mitarbeiter kommt nach einer Feier noch angetrunken zur Arbeit. Welche Ursachen-Gruppe ist das?",
+        "options": [
+          { "text": "Mangelhaftes persönliches Verhalten.", "correct": true },
+          { "text": "Mangelhafte Arbeitsorganisation." },
+          { "text": "Mangelhafte technische Gegebenheiten." }
+        ],
+        "explanation": "Alkohol- und Drogenkonsum gehören zum mangelhaften persönlichen Verhalten. Der Mensch selbst bringt sich und andere in Gefahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌫️ Die Lüftung in der Spülküche funktioniert schlecht. Welche Ursachen-Gruppe ist das?",
+        "options": [
+          { "text": "Mangelhafte technische Gegebenheiten.", "correct": true },
+          { "text": "Mangelhaftes persönliches Verhalten." },
+          { "text": "Mangelhafte Arbeitsorganisation." }
+        ],
+        "explanation": "Unzureichende Belüftung, Beleuchtung oder Lärm gehören zu den mangelhaften technischen Gegebenheiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👥 Wer sollte die Unfallursachen kennen?",
+        "options": [
+          { "text": "Jeder Mitarbeiter.", "correct": true },
+          { "text": "Nur die Küchenleitung." },
+          { "text": "Nur der Ersthelfer." }
+        ],
+        "explanation": "Jeder Mitarbeiter sollte die Unfallursachen kennen. Nur so kann jeder Unfälle vermeiden."
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-kompetent-einkaufen",
+  "title": "Nachhaltig und regional einkaufen",
+  "sort": 682,
+  "intro": "🛒 Wer Waren aus der Region kauft, handelt nachhaltig. Das hat drei Gründe: Es schützt die Umwelt. Es stärkt die lokale Wertschöpfung. Und es sichert Arbeitsplätze vor Ort. Lokale Wertschöpfung heißt: Das Geld wird in der Region verdient.\n\nAnbieter und Lobbyisten nutzen das als Verkaufsargument. Lobbyisten vertreten die Interessen einer Gruppe. Wenn der Deutsche Bauernverband für „Produkte aus der Region“ wirbt, meint er Produkte aus deutschen Landen, also aus Deutschland.\n\nDas ist aber nicht immer der kürzeste Weg. Im Raum Köln und Aachen haben Eier aus den Benelux-Ländern meist einen kürzeren Transportweg als Eier aus Norddeutschland. Die Benelux-Länder sind Belgien, die Niederlande und Luxemburg.\n\nAuch ein Biosiegel hilft nicht immer. Ein Bio-Milchprodukt aus dem Berchtesgadener Land wird bis ins Main-Rhein-Gebiet und weiter transportiert. Dann verpufft der Vorteil der nachhaltigen Erzeugung.\n\nOft ist es schwer zu beurteilen, was wirklich nachhaltig ist. Ein Beispiel ist Sprudelwasser. Das Umweltbundesamt stellt infrage, ob Glas-Pfandflaschen besser sind als Kunststoffflaschen. Der Grund: Die Glasflaschen sind groß und schwer. Beim Rücktransport entsteht viel CO₂. Frag dich deshalb: Wie weit reist mein Wasser? Gibt es gutes Wasser aus der Nähe?\n\nAus Kunststoffflaschen können Weichmacher ins Wasser übergehen. Sie heißen Phthalate. Sie sind hormonell wirksam, das heißt: Sie können im Körper wie Hormone wirken.\n\nDie PET-Flaschen haben die Getränkewirtschaft verändert. Die Abfüller brauchten neue, teure Abfüllanlagen. Viele mittelständische Betriebe konnten sich die nicht leisten. So hat sich die Getränkewirtschaft auf weniger, größere Firmen konzentriert.\n\nMERKE: Nachhaltig einkaufen braucht viel mehr Hintergrundwissen und Sachverstand als ein Einkauf, der nur auf den Preis schaut.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌍 Ist das ein Grund, warum Einkaufen aus der Region nachhaltig ist? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Nachhaltiger Grund", "icon": "🌱" },
+          { "id": "nein", "label": "Kein Nachhaltigkeitsgrund", "icon": "✖️" }
+        ],
+        "items": [
+          { "text": "Schutz der Umwelt", "bucket": "ja" },
+          { "text": "Lokale Wertschöpfung", "bucket": "ja" },
+          { "text": "Arbeitsplätze vor Ort", "bucket": "ja" },
+          { "text": "Eine bunte Verpackung", "bucket": "nein" },
+          { "text": "Viel Werbung im Fernsehen", "bucket": "nein" },
+          { "text": "Ein günstiges Sonderangebot", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Hilft das der Umwelt oder den Menschen in der Region? Das sind die drei Säulen: Umweltschutz, Wertschöpfung und Arbeitsplätze vor Ort. Verpackung, Werbung und Preis haben damit nichts zu tun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚜 Der Deutsche Bauernverband wirbt für „Produkte aus der Region“. Was meint er damit?",
+        "options": [
+          { "text": "Produkte aus deutschen Landen.", "correct": true },
+          { "text": "Nur Produkte aus dem eigenen Dorf." },
+          { "text": "Produkte aus ganz Europa." }
+        ],
+        "explanation": "Der Bauernverband vertritt die deutschen Landwirte. Mit „Region“ meint er deshalb Produkte aus Deutschland. „Regional“ ist hier auch ein Verkaufsargument."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du arbeitest in Aachen. Welche Eier haben meist den kürzeren Transportweg zu dir?",
+        "options": [
+          { "text": "Eier aus den Benelux-Ländern.", "correct": true },
+          { "text": "Eier aus Norddeutschland." },
+          { "text": "Eier aus Süddeutschland." }
+        ],
+        "explanation": "Aachen liegt direkt an der Grenze zu Belgien und den Niederlanden. Eier von dort haben einen kürzeren Weg als Eier aus Norddeutschland. „Aus Deutschland“ heißt also nicht immer „aus der Nähe“."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Ein Bio-Käse aus dem Berchtesgadener Land wird bis ins Main-Rhein-Gebiet gefahren. Was passiert mit dem Vorteil der Bio-Erzeugung?",
+        "options": [
+          { "text": "Er verpufft durch den langen Transport.", "correct": true },
+          { "text": "Er wird durch den Transport noch größer." },
+          { "text": "Bio gleicht jeden noch so langen Transport aus." }
+        ],
+        "explanation": "Nachhaltig erzeugt heißt nicht automatisch nachhaltig eingekauft. Ein langer Transport kostet Energie und macht den Vorteil zunichte. Achte deshalb auf Erzeugung und Weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍾 Das Umweltbundesamt zweifelt, ob Glas-Pfandflaschen besser sind als Kunststoffflaschen. Warum?",
+        "options": [
+          { "text": "Beim Rücktransport der schweren Glasflaschen entsteht viel CO₂.", "correct": true },
+          { "text": "Glasflaschen gehen beim Spülen immer sofort kaputt." },
+          { "text": "In Glasflaschen wird das Wasser schneller schlecht." }
+        ],
+        "explanation": "Glasflaschen sind groß und schwer. Sie werden zurück zum Abfüller gefahren. Dabei entsteht viel CO₂. Wichtig ist deshalb auch, wie weit das Wasser reist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Welche Stoffe können aus Kunststoffflaschen ins Sprudelwasser übergehen?",
+        "options": [
+          { "text": "Weichmacher, die Phthalate heißen.", "correct": true },
+          { "text": "Vitamine, die das Wasser gesünder machen." },
+          { "text": "Mineralstoffe aus dem Kunststoff." }
+        ],
+        "explanation": "Weichmacher machen Kunststoff biegsam. Sie heißen Phthalate. Sie sind hormonell wirksam, das heißt: Sie können im Körper wie Hormone wirken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Was hat die Einführung der PET-Flaschen in der Getränkewirtschaft bewirkt?",
+        "options": [
+          { "text": "Viele mittelständische Abfüller konnten die neuen Anlagen nicht bezahlen.", "correct": true },
+          { "text": "Es gibt heute viel mehr kleine Getränkefirmen als früher." },
+          { "text": "Getränke werden seitdem nur noch in Glasflaschen abgefüllt." }
+        ],
+        "explanation": "Für PET-Flaschen brauchte man neue, teure Abfüllanlagen. Viele mittelgroße Betriebe konnten sie sich nicht leisten. So blieben weniger, aber größere Getränkefirmen übrig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet der Begriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Lobbyist"}, "right": {"text": "Vertritt die Interessen einer Gruppe"} },
+          { "left": {"text": "Lokale Wertschöpfung"}, "right": {"text": "Das Geld wird in der Region verdient"} },
+          { "left": {"text": "Benelux"}, "right": {"text": "Belgien, Niederlande und Luxemburg"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf die Wortteile. Bei „Benelux“ stecken die Anfänge der drei Ländernamen drin: Be, Ne, Lux. „Lokal“ heißt: am Ort, in der Region."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Was braucht ein nachhaltiger Einkauf im Vergleich zu einem reinen Preis-Einkauf?",
+        "options": [
+          { "text": "Viel mehr Hintergrundwissen und Sachverstand.", "correct": true },
+          { "text": "Nur einen schnellen Blick auf das billigste Angebot." },
+          { "text": "Gar nichts, denn nachhaltig ist immer das Teuerste." }
+        ],
+        "explanation": "Wer nur auf den Preis schaut, entscheidet schnell. Wer nachhaltig einkaufen will, muss mehr wissen: Woher kommt die Ware? Wie wurde sie transportiert? Woraus ist die Verpackung?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Frage stellst du dir beim Sprudelwasser, bevor du es kaufst?",
+        "options": [
+          { "text": "Wie weit ist mein Wasser gereist?", "correct": true },
+          { "text": "Welche Farbe hat das Etikett?" },
+          { "text": "Wie lustig ist die Werbung?" }
+        ],
+        "explanation": "Ein langer Transport verursacht viel CO₂. Gutes Wasser aus der Nähe ist oft die bessere Wahl."
+      }
+    }
+  ]
+}

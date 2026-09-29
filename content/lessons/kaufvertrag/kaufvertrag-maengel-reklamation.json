@@ -1,0 +1,182 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-maengel-reklamation",
+  "title": "Mängel, Gewährleistung und Reklamation",
+  "sort": 708,
+  "intro": "Eine Lieferung kann Mängel haben. Beispiel Büfett: Es gibt vier Arten von Mängeln. Quantität, also die Menge: Statt vier Salaten kommen nur zwei. Qualität: Statt kleiner aromatischer Kirschtomaten sind dicke wässrige Fleischtomaten im Salat. Beschaffenheit, also der Zustand: Die Salatblätter sind welk und überlagert. Art des Produktes: Für den Empfang türkischer Gäste kommt Schweinebraten statt Rinderbraten.\n\nSolche offenen Mängel siehst du sofort. Du musst sie sofort reklamieren. Reklamieren heißt: den Mangel beim Verkäufer melden.\n\nEin versteckter Mangel zeigt sich erst später. Beispiel: Ein neuer DVD-Recorder bricht nach drei Monaten immer wieder Aufnahmen ab. Solche Mängel kannst du innerhalb von zwei Jahren reklamieren. Das ist die Gewährleistungsfrist. Der Verkäufer gewährleistet zwei Jahre ab Verkauf, dass die Ware voll funktioniert. Ausgenommen ist normaler Verschleiß, also übliche Abnutzung durch Gebrauch.\n\nIn den ersten sechs Monaten geht man davon aus, dass der Schaden schon bei der Auslieferung da war. Nach sechs Monaten kehrt sich die Beweislast um. Dann muss der Käufer beweisen, dass der Mangel von Anfang an bestand. Das nennt man Beweislastumkehr.\n\nHat der Verkäufer einen Mangel arglistig, also mit Absicht, verschwiegen, gilt mehr. Beispiel: Ein Gebrauchtwagen mit neuer HU- und AU-Plakette wird als unfallfrei verkauft. HU und AU heißen Hauptuntersuchung und Abgasuntersuchung. Nach zwei Jahren findet ein Kfz-Meister einen verschwiegenen Unfallschaden. Diesen Mangel kannst du auch noch im dritten Jahr reklamieren.\n\nAuch eine falsche deutsche Anleitung ist ein Mangel. Beispiel mit einem Kommafehler: Richtig ist „Vorglühen, nicht direkt starten!“. In der Anleitung steht aber „Vorglühen nicht, direkt starten!“. Für Schäden durch diese falsche Bedienung haftet der Verkäufer.\n\nBeispiel Champagner: Auf einer privaten Silvesterparty explodiert eine fehlerhafte Flasche aus dem Supermarkt. Der Händler muss die Flasche ersetzen. Das ist seine Gewährleistungspflicht. Weil der Schaden im privaten Bereich passiert ist, haftet er zusätzlich nach dem Produkthaftungsgesetz für Folgeschäden. Zum Beispiel für ein Designerkleid, dessen Flecken nicht mehr rausgehen. 500 € davon trägt die Geschädigte selbst. Den Rest zahlt der deutsche Händler. Er holt sich das Geld beim Lieferanten in Frankreich zurück. Passiert so etwas in einem Restaurant, zahlt die Betriebshaftpflichtversicherung den Schaden am Gast vollständig.\n\nBei einem reklamierten Mangel hast du einen Anspruch auf Nacherfüllung. Du wählst: Nachbesserung, also Reparatur, oder Ersatzlieferung, also neue Ware. Die Transport-, Arbeits- und Materialkosten trägt der Verkäufer.\n\nMusst du zum dritten Mal Nachbesserung verlangen, kannst du wählen. Rückabwicklung: Der Kauf wird rückgängig gemacht und du bekommst dein Geld zurück. Das gilt nicht bei unerheblichen, also kleinen Mängeln. Oder Minderung: Der Kaufpreis wird gesenkt. Das klärt man möglichst gemeinsam, sonst vor Gericht.\n\nEntstehen durch den Mangel weitere Kosten, muss der Verkäufer Schadenersatz zahlen. Beispiel: Die Geschirrspülmaschine wird repariert. Deshalb muss eine Küchenhilfe auf Stundenbasis per Hand spülen. Ihren Lohn zahlt der Verkäufer.\n\nMERKE: Offene Mängel sofort reklamieren. Versteckte Mängel: Gewährleistung 2 Jahre, nach 6 Monaten Beweislastumkehr. Erst Nacherfüllung (Nachbesserung oder Ersatzlieferung), beim dritten Mal Rückabwicklung oder Minderung.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Offener oder versteckter Mangel? Sortiere.",
+        "buckets": [
+          { "id": "offen", "label": "Offener Mangel: sofort reklamieren", "icon": "👀" },
+          { "id": "versteckt", "label": "Versteckter Mangel: zeigt sich erst später", "icon": "🕵️" }
+        ],
+        "items": [
+          { "text": "Statt 4 Salaten kommen nur 2", "bucket": "offen" },
+          { "text": "Fleischtomaten statt Kirschtomaten im Salat", "bucket": "offen" },
+          { "text": "Die Salatblätter sind welk", "bucket": "offen" },
+          { "text": "Schweinebraten statt Rinderbraten", "bucket": "offen" },
+          { "text": "Der DVD-Recorder bricht nach 3 Monaten Aufnahmen ab", "bucket": "versteckt" },
+          { "text": "Ein verschwiegener Unfallschaden am Gebrauchtwagen", "bucket": "versteckt" }
+        ],
+        "explanation": "Frag dich: Kann ich den Mangel schon bei der Lieferung sehen oder zählen? Dann ist er offen und du reklamierst ihn sofort. Zeigt er sich erst beim Benutzen oder nach Wochen? Dann ist er versteckt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Quantität"}, "right": {"text": "Nur 2 statt 4 Salate"} },
+          { "left": {"text": "Qualität"}, "right": {"text": "Fleischtomaten statt Kirschtomaten"} },
+          { "left": {"text": "Beschaffenheit"}, "right": {"text": "Welke, überlagerte Salatblätter"} },
+          { "left": {"text": "Art des Produktes"}, "right": {"text": "Schweinebraten statt Rinderbraten"} },
+          { "left": {"text": "Verschleiß"}, "right": {"text": "Übliche Abnutzung durch Gebrauch"} },
+          { "left": {"text": "HU und AU"}, "right": {"text": "Haupt- und Abgasuntersuchung"} }
+        ],
+        "memory": false,
+        "explanation": "Quantität heißt Menge. Qualität heißt Güte, also wie gut die Ware ist. Beschaffenheit heißt Zustand, zum Beispiel frisch oder welk. Art des Produktes heißt: Es ist ein ganz anderes Produkt. Verschleiß ist normale Abnutzung. HU und AU sind Prüfungen beim Auto."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📺 Dein neuer DVD-Recorder hat einen versteckten Mangel. Wie viele Jahre ab dem Kauf hast du Zeit, ihn zu reklamieren?",
+        "answer": 2,
+        "hint": "Das ist die Gewährleistungsfrist.\nEs ist mehr als ein Jahr und weniger als drei.",
+        "explanation": "Die Gewährleistungsfrist beträgt zwei Jahre ab Verkauf. So lange gewährleistet der Verkäufer, dass die Ware voll funktioniert. Normaler Verschleiß ist davon ausgenommen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Nach anderthalb Jahren sind die Borsten der Staubsaugerbürste vom vielen Saugen abgenutzt. Ist das ein Fall für die Gewährleistung?",
+        "options": [
+          { "text": "Nein, übliche Verschleißerscheinungen sind ausgenommen.", "correct": true },
+          { "text": "Ja, innerhalb von 2 Jahren muss der Verkäufer alles ersetzen." },
+          { "text": "Ja, aber nur, wenn ich die Bürste selten benutzt habe." },
+          { "text": "Nein, die Gewährleistung endet schon nach einem Jahr." }
+        ],
+        "explanation": "Der Verkäufer gewährleistet zwei Jahre, dass die Ware funktioniert. Übliche Verschleißerscheinungen sind aber ausgenommen. Abgenutzte Borsten nach viel Gebrauch sind normaler Verschleiß und kein Mangel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Wer muss beweisen, dass der Mangel schon beim Kauf da war? Sortiere.",
+        "buckets": [
+          { "id": "vorher", "label": "Vermutung: Der Mangel war schon bei der Lieferung da", "icon": "🏪" },
+          { "id": "nachher", "label": "Beweislastumkehr: Der Käufer muss es beweisen", "icon": "🧾" }
+        ],
+        "items": [
+          { "text": "Mangel 1 Woche nach dem Kauf entdeckt", "bucket": "vorher" },
+          { "text": "Mangel 2 Monate nach dem Kauf entdeckt", "bucket": "vorher" },
+          { "text": "Mangel 5 Monate nach dem Kauf entdeckt", "bucket": "vorher" },
+          { "text": "Mangel 7 Monate nach dem Kauf entdeckt", "bucket": "nachher" },
+          { "text": "Mangel 1 Jahr nach dem Kauf entdeckt", "bucket": "nachher" },
+          { "text": "Mangel 20 Monate nach dem Kauf entdeckt", "bucket": "nachher" }
+        ],
+        "explanation": "Frag dich: Sind seit dem Kauf mehr als sechs Monate vergangen? In den ersten sechs Monaten geht man davon aus, dass der Schaden schon bei der Auslieferung bestand. Danach kehrt sich die Beweislast um: Der Käufer muss beweisen, dass der Mangel von Anfang an da war."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚗 Ein Händler verkauft einen Gebrauchtwagen mit neuer HU- und AU-Plakette als unfallfrei. Nach über zwei Jahren findet ein Kfz-Meister einen Unfallschaden, den der Händler verschwiegen hat. Was gilt?",
+        "options": [
+          { "text": "Arglistig verschwiegen: Ich kann auch im 3. Jahr noch reklamieren.", "correct": true },
+          { "text": "Nach 2 Jahren ist die Gewährleistung vorbei, ich habe einfach Pech gehabt." },
+          { "text": "Die neue Plakette beweist, dass der Händler nichts falsch gemacht hat." },
+          { "text": "Ich hätte den Schaden gleich bei der Übergabe finden müssen." }
+        ],
+        "explanation": "Der Händler kannte den Unfallschaden und hat ihn mit Absicht verschwiegen. Das ist ein arglistig verschwiegener Mangel. Ihn kannst du auch noch im dritten Jahr reklamieren. Die HU- und AU-Plakette ändert daran nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 In der deutschen Anleitung steht: „Vorglühen nicht, direkt starten!“ Richtig wäre: „Vorglühen, nicht direkt starten!“ Der Dieselmotor geht kaputt. Wer haftet?",
+        "options": [
+          { "text": "Der Verkäufer, denn die falsche Anleitung ist ein Mangel.", "correct": true },
+          { "text": "Der Käufer, denn er hätte die Anleitung genauer prüfen müssen." },
+          { "text": "Niemand, ein Komma ist nur ein kleiner Schreibfehler." },
+          { "text": "Nur der Übersetzer, der Verkäufer hat damit nichts zu tun." }
+        ],
+        "explanation": "Mängel können auch durch falsche deutschsprachige Bedienungs- oder Montageanleitungen entstehen. Schon ein falsches Komma kann die Bedeutung umdrehen. Für Schäden durch die falsche Bedienung haftet der Verkäufer."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍾 Wer muss zahlen? Sortiere die Schäden.",
+        "buckets": [
+          { "id": "gew", "label": "Händler: Gewährleistung für die Ware", "icon": "🔧" },
+          { "id": "prod", "label": "Händler: Produkthaftungsgesetz, privater Folgeschaden", "icon": "👗" },
+          { "id": "betr", "label": "Betriebshaftpflichtversicherung im Restaurant", "icon": "🍽️" }
+        ],
+        "items": [
+          { "text": "Die explodierte Champagnerflasche wird ersetzt", "bucket": "gew" },
+          { "text": "Der DVD-Recorder mit Mangel wird repariert", "bucket": "gew" },
+          { "text": "Das ruinierte Designerkleid eines Gastes auf der privaten Party", "bucket": "prod" },
+          { "text": "Die Schnittverletzungen von Gästen auf der privaten Party", "bucket": "prod" },
+          { "text": "Im Restaurant verletzt die Flasche einen Gast", "bucket": "betr" },
+          { "text": "Im Restaurant wird das Kleid einer Besucherin ruiniert", "bucket": "betr" }
+        ],
+        "explanation": "Frag dich zuerst: Geht es um die kaputte Ware selbst? Dann ersetzt oder repariert sie der Händler, das ist Gewährleistung. Geht es um einen Folgeschaden, zum Beispiel an Kleidung? Dann frag dich: privat oder im Restaurant? Privat haftet der Händler nach dem Produkthaftungsgesetz. Im Restaurant zahlt die Betriebshaftpflichtversicherung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👗 Auf der privaten Party ruiniert der explodierte Champagner ein Designerkleid für 1 500 €. Die Flecken gehen nicht raus. Wer zahlt was?",
+        "options": [
+          { "text": "500 € die Geschädigte selbst, 1 000 € der deutsche Händler.", "correct": true },
+          { "text": "1 500 € zahlt direkt der Hersteller in Frankreich." },
+          { "text": "1 500 € zahlt die Geschädigte, das ist ihr Pech." },
+          { "text": "500 € der deutsche Händler, 1 000 € die Geschädigte." }
+        ],
+        "explanation": "Nach dem Produkthaftungsgesetz trägt die Geschädigte 500 € selbst. Den Betrag darüber zahlt der deutsche Händler. Er fordert das Geld dann seinerseits beim Lieferanten in Frankreich ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Der neue Mixer ist kaputt. Du reklamierst ihn. Was kannst du zuerst verlangen?",
+        "options": [
+          { "text": "Nacherfüllung: Reparatur oder neue Ware, auf Kosten des Verkäufers.", "correct": true },
+          { "text": "Sofort das ganze Geld zurück, ohne jeden Reparaturversuch." },
+          { "text": "Eine Reparatur, deren Kosten ich zur Hälfte selbst trage." },
+          { "text": "Einen zweiten Mixer gratis als Entschuldigung." }
+        ],
+        "explanation": "Bei einem reklamierten Mangel hast du einen Nacherfüllungsanspruch. Du wählst: Nachbesserung, also Reparatur, oder Ersatzlieferung, also neue Ware. Die Transport-, Arbeits- und Materialkosten trägt der Verkäufer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "3️⃣ Die Spülmaschine wurde schon zweimal nachgebessert und ist wieder kaputt. Du musst zum dritten Mal Nachbesserung verlangen. Was kannst du jetzt wählen?",
+        "options": [
+          { "text": "Rückabwicklung mit Geld zurück oder Minderung des Preises.", "correct": true },
+          { "text": "Nur eine weitere Reparatur, etwas anderes gibt es nicht." },
+          { "text": "Eine Geldstrafe, die der Verkäufer an das Heim zahlt." },
+          { "text": "Die Maschine behalten und gar nichts mehr bezahlen." }
+        ],
+        "explanation": "Beim dritten Mal kannst du wählen. Rückabwicklung: Der Kauf wird rückgängig gemacht, du bekommst den Kaufpreis zurück. Das gilt nicht bei unerheblichen Mängeln. Minderung: Der Kaufpreis wird gesenkt, möglichst im gegenseitigen Einvernehmen, sonst entscheidet ein Gericht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wegen der Reparatur der Spülmaschine muss eine Küchenhilfe per Hand spülen. Wer zahlt ihren Lohn?",
+        "options": [
+          { "text": "Der Verkäufer, als Schadenersatz.", "correct": true },
+          { "text": "Die Küchenhilfe selbst." },
+          { "text": "Das Heim, das ist sein Pech." }
+        ],
+        "explanation": "Kann die Spülmaschine wegen der Nachbesserung nicht genutzt werden, entstehen Kosten, zum Beispiel für eine Spülhilfe. Diese Lohnkosten muss der Verkäufer im Rahmen des Schadenersatzes tragen. Das gilt genauso für Überstunden des Küchenpersonals."
+      }
+    }
+  ]
+}
