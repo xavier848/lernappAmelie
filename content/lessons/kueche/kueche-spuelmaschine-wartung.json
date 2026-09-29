@@ -1,0 +1,135 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-spuelmaschine-wartung",
+  "title": "Spülmaschine reinigen und warten",
+  "sort": 642,
+  "intro": "Du reinigst und wartest die Spülmaschine regelmäßig. So hält das Gerät lange, und es spült ohne Fehler.\n\nNach jedem Spülgang reinigst du das Grobsieb. Die Anzeige für den Klarspüler kontrollierst du einmal im Monat. Die Anzeige für das Salz kontrollierst du regelmäßig.\n\nDie Sprüharme nimmst du regelmäßig von der Achse ab. Du reinigst sie unter fließendem Wasser. Sind sie stärker verschmutzt, nimmst du warmes Wasser und einen milden Reiniger, zum Beispiel Spülmittel oder Neutralreiniger. Verstopfte Düsen machst du vorsichtig mit einer dünnen Nadel frei. Dann setzt du die Sprüharme wieder auf.\n\nDas Gummi der Türdichtung wischst du regelmäßig mit einem feuchten Tuch ab. Dann trocknest du es gut nach. So wird es nicht spröde. Spröde heißt: hart und rissig. Lebensmittelreste an der Dichtung wischst du sofort weg.\n\nRahmen und Front der Tür und die Außenseiten wischst du regelmäßig ab. Du nimmst einen Schwamm oder ein Vliestuch mit Spülmittellösung. Oder ein Mikrofasertuch. Scharniere und bewegliche Teile aus Metall ölst du alle zwei Jahre.\n\nIm Großhaushalt gibt es noch mehr zu tun. Den Innenraum reinigst und entkeimst du gründlich mit einem speziellen Maschinenreiniger. Du reinigst alle Siebe. Du prüfst die Dichtungen oft. Du schaust dir die Schläuche für Zulauf und Ablauf an. Und du prüfst den Härtegrad des Wassers. So ist die Maschine richtig eingestellt.\n\nMERKE: Das Grobsieb reinigst du nach jedem Spülgang. Die Klarspülanzeige prüfst du einmal im Monat. Die Scharniere ölst du alle zwei Jahre.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Wozu reinigst und wartest du die Spülmaschine regelmäßig?",
+        "options": [
+          { "text": "Damit sie lange hält und ohne Fehler spült.", "correct": true },
+          { "text": "Damit sie viel schneller spült als vorher." },
+          { "text": "Damit sie leiser ist, wenn die Gäste da sind." }
+        ],
+        "explanation": "Pflege und Wartung erhalten das Gerät. Außerdem wird das Geschirr nur dann richtig sauber. Schneller oder leiser wird die Maschine dadurch nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🗓️ Was machst du wie? Verbinde.",
+        "pairs": [
+          { "left": {"text": "💧 Klarspülanzeige"}, "right": {"text": "Einmal im Monat kontrollieren"} },
+          { "left": {"text": "🧂 Salzanzeige"}, "right": {"text": "Regelmäßig kontrollieren"} },
+          { "left": {"text": "🚪 Gummi der Türdichtung"}, "right": {"text": "Feucht abwischen und gut nachtrocknen"} },
+          { "left": {"text": "🔩 Scharniere"}, "right": {"text": "Ölen"} }
+        ],
+        "explanation": "Jedes Teil braucht seine eigene Pflege. Die Anzeigen kontrollierst du, damit Klarspüler und Salz nie ausgehen. Die Dichtung wischst du ab und trocknest sie. Bewegliche Metallteile wie Scharniere bekommen Öl."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🛢️ Alle wie viele Jahre ölst du Scharniere und bewegliche Metallteile der Spülmaschine?",
+        "answer": 2,
+        "hint": "Es ist mehr als ein Jahr.\nEs ist weniger als drei Jahre.",
+        "explanation": "Scharniere und bewegliche Metallteile ölst du alle zwei Jahre. So bewegen sie sich leicht und gehen nicht kaputt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌀 Du reinigst die Sprüharme. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Den Sprüharm von der Achse nehmen." },
+          { "text": "Ihn unter fließendem Wasser reinigen." },
+          { "text": "Verstopfte Düsen vorsichtig mit einer dünnen Nadel frei machen." },
+          { "text": "Den Sprüharm wieder aufsetzen." }
+        ],
+        "explanation": "Erst nimmst du den Sprüharm ab, dann kommst du überall gut hin. Nach dem Abspülen siehst du, welche Düsen noch verstopft sind. Die machst du mit der Nadel frei. Zum Schluss kommt der Arm wieder auf die Achse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Der Sprüharm ist stark verschmutzt. Womit reinigst du ihn?",
+        "options": [
+          { "text": "Mit warmem Wasser und einem milden Reiniger.", "correct": true },
+          { "text": "Mit Scheuerpulver und einer Stahlwolle." },
+          { "text": "Mit einem starken, sauren WC-Reiniger." }
+        ],
+        "explanation": "Für den Sprüharm reicht ein milder Reiniger wie Spülmittel oder Neutralreiniger in warmem Wasser. Scheuerpulver und Stahlwolle zerkratzen ihn. WC-Reiniger gehört nicht an Teile für Geschirr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Warum trocknest du das Gummi der Türdichtung nach dem Abwischen gut nach?",
+        "options": [
+          { "text": "Damit das Gummi nicht spröde wird.", "correct": true },
+          { "text": "Damit das Gummi schöner glänzt." },
+          { "text": "Damit die Tür leichter aufgeht." }
+        ],
+        "explanation": "Spröde heißt: hart und rissig. Eine spröde Dichtung hält nicht mehr dicht. Darum wischst du sie feucht ab und trocknest sie gut nach."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Richtig oder falsch bei der Pflege außen? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Richtig", "icon": "✅" },
+          { "id": "nein", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Türfront mit Spülmittellösung abwischen", "bucket": "ja" },
+          { "text": "Außenseiten mit einem Mikrofasertuch reinigen", "bucket": "ja" },
+          { "text": "Reste an der Türdichtung sofort wegwischen", "bucket": "ja" },
+          { "text": "Türfront mit Scheuerpulver schrubben", "bucket": "nein" },
+          { "text": "Reste an der Dichtung antrocknen lassen", "bucket": "nein" },
+          { "text": "Die Dichtung nach dem Abwischen nass lassen", "bucket": "nein" }
+        ],
+        "explanation": "Außen reicht eine milde Reinigung mit Schwamm, Vliestuch und Spülmittellösung oder mit Mikrofaser. Reste an der Dichtung wischst du sofort weg und trocknest nach. Scheuerpulver zerkratzt die Front."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Was gehört im Großhaushalt zusätzlich zur Wartung der Spülmaschine?",
+        "options": [
+          { "text": "Innenraum mit Maschinenreiniger entkeimen, Schläuche und Dichtungen prüfen.", "correct": true },
+          { "text": "Nur einmal im Jahr das Grobsieb reinigen, mehr braucht es nicht." },
+          { "text": "Nur außen polieren, denn innen reinigt sich die Maschine von selbst." }
+        ],
+        "explanation": "Im Großhaushalt läuft die Maschine sehr oft. Darum machst du eine Grundreinigung und Entkeimung des Innenraums mit speziellem Maschinenreiniger. Du reinigst alle Siebe, prüfst oft die Dichtungen und siehst dir die Schläuche an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Warum prüft man im Großhaushalt den Härtegrad des Wassers?",
+        "options": [
+          { "text": "Damit die Maschine richtig eingestellt ist.", "correct": true },
+          { "text": "Damit das Spülwasser heißer wird." },
+          { "text": "Damit mehr Geschirr in die Körbe passt." }
+        ],
+        "explanation": "Die Maschine muss zur Wasserhärte passen. Nur dann enthärtet sie richtig, und die Mittel sind richtig dosiert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕸️ Wann reinigst du das Grobsieb der Spülmaschine?",
+        "options": [
+          { "text": "Nach jedem Spülgang.", "correct": true },
+          { "text": "Einmal im Jahr." },
+          { "text": "Nur wenn es stinkt." }
+        ],
+        "explanation": "Im Grobsieb sammeln sich Speisereste. Darum reinigst du es nach jedem Spülgang."
+      }
+    }
+  ]
+}
