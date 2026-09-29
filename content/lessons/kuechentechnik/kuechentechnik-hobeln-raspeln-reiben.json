@@ -1,0 +1,129 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-hobeln-raspeln-reiben",
+  "title": "Hobeln, Raspeln, Reiben, Mahlen",
+  "sort": 629,
+  "intro": "⚙️ Du kannst von Hand zerkleinern. Man sagt: manuell. Dafür nimmst du Messer, Hobel oder Reiben. Oder du zerkleinerst mit elektrischen Geräten. Man sagt: maschinell. Zum Beispiel mit der Küchenmaschine und ihren Aufsätzen zum Raspeln oder Hobeln. Oder mit einer elektrischen Getreidemühle.\n\nHobeln: Es entstehen Scheiben. Der Abstand der Messer bestimmt, ob die Scheiben fein oder grob werden. Du hobelst mit dem Handhobel, mit der Schneidescheibe der Küchenmaschine oder mit der Messerscheibe der Universal-Küchenmaschine. Das passt zum Beispiel für Kartoffeln, Salatgurken und Kohl. Für Käse gibt es den Käsehobel.\n\nRaspeln: Die Raspelfläche ist grob gelocht. Es entstehen streifenartige, längliche Stücke. Zum Beispiel aus Möhren, Kohlrabi, Kartoffeln, Käse oder Schokolade. Eine feine Handraspel ist feiner gelocht. Dann werden die Stücke schmaler.\n\nReiben: Die Reibfläche ist fein aufgeraut. Es entstehen kleinste Stücke. Die Masse ist breiartig. Du reibst Äpfel für Säuglingskost oder Krankenkost. Du reibst rohe Kartoffeln für Reibekuchen. Aus getrockneten Brötchen reibst du Paniermehl. Auch Käse, Schokolade und Nüsse kannst du reiben. Es gibt Spezialreiben, zum Beispiel die Muskatreibe und die Parmesanreibe.\n\nPürieren: Es entsteht eine homogene Masse. Homogen heißt: ganz gleichmäßig, ohne Stücke. Flüssige Gerichte wie Suppen pürierst du mit dem Pürierstab oder Mixstab. Sie werden fein und musartig. Gegarte, weiche Speisen aus Obst, Gemüse oder Kartoffeln pürierst du mit der Kartoffelpresse oder dem Kartoffelstampfer. Das brauchst du zum Beispiel für Babybrei oder für Menschen mit Kau- und Schluckstörungen.\n\nMahlen: Es entstehen feinste Teile. Sie sind pulverartig. So zerkleinerst du Kaffee, Getreide, Nüsse und Pfeffer. Du nimmst die Getreidemühle, die Kaffeemühle, die Pfeffermühle oder die Salzmühle.\n\nMERKE: Hobeln gibt Scheiben. Raspeln gibt Streifen. Reiben gibt Brei. Mahlen gibt Pulver. Pürieren gibt eine homogene Masse.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚙️ Zerkleinerst du damit manuell oder maschinell? Sortiere.",
+        "buckets": [
+          { "id": "manuell", "label": "Manuell, von Hand", "icon": "✋" },
+          { "id": "maschinell", "label": "Maschinell, elektrisch", "icon": "🔌" }
+        ],
+        "items": [
+          { "text": "Handhobel", "bucket": "manuell" },
+          { "text": "Handreibe", "bucket": "manuell" },
+          { "text": "Küchenmesser", "bucket": "manuell" },
+          { "text": "Küchenmaschine mit Raspelscheibe", "bucket": "maschinell" },
+          { "text": "Elektrische Getreidemühle", "bucket": "maschinell" },
+          { "text": "Universal-Küchenmaschine mit Messerscheibe", "bucket": "maschinell" }
+        ],
+        "explanation": "Frag dich: Brauchst du dafür Strom? Dann ist es maschinell. Arbeitet nur deine Hand, ist es manuell. Das Wort Hand im Gerätenamen ist ein guter Hinweis."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was entsteht bei dieser Technik? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Hobeln"}, "right": {"text": "Scheiben"} },
+          { "left": {"text": "Raspeln"}, "right": {"text": "Längliche, streifenartige Stücke"} },
+          { "left": {"text": "Reiben"}, "right": {"text": "Kleinste Stücke, breiartig"} },
+          { "left": {"text": "Mahlen"}, "right": {"text": "Feinste Teile, pulverartig"} },
+          { "left": {"text": "Pürieren"}, "right": {"text": "Eine homogene Masse"} }
+        ],
+        "memory": false,
+        "explanation": "Die Techniken werden immer feiner: Hobeln macht Scheiben, Raspeln Streifen, Reiben Brei, Mahlen Pulver. Beim Pürieren ist das Ziel eine ganz gleichmäßige Masse ohne Stücke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥒 Du hobelst Salatgurke. Wovon hängt ab, ob die Scheiben fein oder grob werden?",
+        "options": [
+          { "text": "Vom Abstand der Messer am Hobel.", "correct": true },
+          { "text": "Vom Druck, mit dem du die Gurke drückst." },
+          { "text": "Davon, wie kalt die Gurke vorher war." }
+        ],
+        "explanation": "Beim Hobeln bestimmt der Messerabstand die Dicke der Scheiben. Ein kleiner Abstand ergibt feine Scheiben, ein großer Abstand grobe Scheiben. Mehr Druck macht die Scheiben nicht dicker, nur die Arbeit gefährlicher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Woran erkennst du eine Raspelfläche?",
+        "options": [
+          { "text": "Sie ist grob gelocht.", "correct": true },
+          { "text": "Sie ist fein aufgeraut." },
+          { "text": "Sie ist ganz glatt." }
+        ],
+        "explanation": "Die Raspelfläche ist grob gelocht. Durch die Löcher entstehen längliche Streifen. Die Reibfläche ist dagegen fein aufgeraut. Sie macht kleinste, breiartige Stücke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Du raspelst Möhren mit einer feinen Handraspel statt mit einer groben. Was ändert sich?",
+        "options": [
+          { "text": "Die Stücke werden schmaler.", "correct": true },
+          { "text": "Die Stücke werden zu Brei." },
+          { "text": "Die Stücke werden zu Scheiben." }
+        ],
+        "explanation": "Die feine Handraspel ist feiner gelocht. Es entstehen immer noch längliche Stücke, aber schmalere. Brei entsteht erst beim Reiben."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍏 Wofür reibst du das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🍏 Geriebener Apfel"}, "right": {"text": "Säuglings- oder Krankenkost"} },
+          { "left": {"text": "🥔 Geriebene rohe Kartoffeln"}, "right": {"text": "Reibekuchen"} },
+          { "left": {"text": "🥖 Geriebene trockene Brötchen"}, "right": {"text": "Paniermehl"} },
+          { "left": {"text": "🌰 Muskatnuss"}, "right": {"text": "Muskatreibe"} }
+        ],
+        "memory": false,
+        "explanation": "Beim Reiben entstehen kleinste, breiartige Stücke. Das ist gut für Babys und Kranke, denn sie müssen kaum kauen. Aus trockenen Brötchen wird so Paniermehl. Für die harte Muskatnuss gibt es eine eigene Spezialreibe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👵 Eine Bewohnerin im Seniorenheim hat Kau- und Schluckstörungen. Wie bereitest du gegartes Gemüse für sie zu?",
+        "options": [
+          { "text": "Mit der Kartoffelpresse oder dem Stampfer pürieren.", "correct": true },
+          { "text": "In grobe Stücke schneiden und Soße dazu reichen." },
+          { "text": "Roh fein raspeln, damit es schön knackig bleibt." }
+        ],
+        "explanation": "Menschen mit Kau- und Schluckstörungen brauchen weiche, gleichmäßige Kost. Gegarte, weiche Speisen pürierst du dafür mit der Kartoffelpresse oder dem Kartoffelstampfer. Genauso machst du Babybrei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Welche Geräte gehören zum Mahlen?",
+        "options": [
+          { "text": "Getreidemühle, Kaffeemühle und Pfeffermühle.", "correct": true },
+          { "text": "Handhobel, Käsehobel und feine Handraspel." },
+          { "text": "Kartoffelpresse, Stampfer und Pürierstab." }
+        ],
+        "explanation": "Mahlen macht aus Kaffee, Getreide, Nüssen oder Pfeffer feinste, pulverartige Teile. Dafür gibt es Mühlen: die Getreidemühle, die Kaffeemühle, die Pfeffermühle und die Salzmühle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Du willst dünne Scheiben vom Käse. Welcher Spezialhobel hilft dir?",
+        "options": [
+          { "text": "Der Käsehobel.", "correct": true },
+          { "text": "Die Parmesanreibe." },
+          { "text": "Die Pfeffermühle." }
+        ],
+        "explanation": "Hobeln gibt Scheiben. Für Käse gibt es einen eigenen Spezialhobel: den Käsehobel. Mit der Parmesanreibe reibst du Käse klein."
+      }
+    }
+  ]
+}

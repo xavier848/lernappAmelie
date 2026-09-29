@@ -1,0 +1,128 @@
+{
+  "topic_slug": "kinder-spielen",
+  "slug": "kinder-spielen-spielzeug-pruefzeichen",
+  "title": "Gutes Spielzeug: Kriterien und Prüfzeichen",
+  "sort": 522,
+  "intro": "🧸 Gutes Spielzeug erfüllt vier Kriterien. Ein Kriterium ist ein Merkmal, nach dem du auswählst.\n\nErstens: Es ist altersgemäß und passt zur Entwicklung des Kindes. So vermeidest du Überforderung und Unterforderung.\n\nZweitens: Es verfolgt ein pädagogisches Ziel. Du wählst es passend zur Entwicklungsstufe und zu dem Bereich aus, den du unterstützen willst. Pädagogisch heißt: Es geht um Erziehung und Förderung.\n\nDrittens: Es macht Spaß und wirkt anregend. Es lässt Freiraum für Fantasie und Kreativität. Und es lässt viele Spielmöglichkeiten zu.\n\nViertens: Es ist ungefährlich und nachhaltig. Nachhaltig heißt: Es schont die Umwelt und hält lange. Bei der Auswahl helfen dir Prüfzeichen.\n\nMERKE: Siegel und Prüfzeichen wurden eingeführt, um Verbrauchern zu helfen. Mit ihnen findest du geeignetes und ungefährliches Spielzeug.\n\n„spiel gut“: Die Verbraucherberatung hat das Spielzeug untersucht. Geprüft werden Spielwert, Materialien, Verarbeitung, Sicherheit und Umweltverträglichkeit.\n\nGS heißt „geprüfte Sicherheit“. Eine unabhängige Prüfstelle hat das Spielzeug auf Sicherheit und Gesundheitsanforderungen getestet.\n\nOEKO-TEX® Standard 100: Stofftiere und Stoffspielsachen wurden auf Schadstoffe untersucht. Schadstoffe sind Stoffe, die der Gesundheit schaden können.\n\nVDE ist der Verband der Elektrotechnik. Er prüft die Sicherheit von Elektrik, Mechanik, Thermik, Chemie und mehr. Thermik heißt: alles, was mit Wärme zu tun hat.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧸 Ist das ein Merkmal von gutem Spielzeug? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gutes Spielzeug", "icon": "✅" },
+          { "id": "schlecht", "label": "Kein gutes Spielzeug", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Passt zum Alter des Kindes", "bucket": "gut" },
+          { "text": "Verfolgt ein pädagogisches Ziel", "bucket": "gut" },
+          { "text": "Lässt viele Spielmöglichkeiten zu", "bucket": "gut" },
+          { "text": "Ist ungefährlich und nachhaltig", "bucket": "gut" },
+          { "text": "Ist viel zu schwer für das Alter", "bucket": "schlecht" },
+          { "text": "Kann nur eine einzige Sache", "bucket": "schlecht" },
+          { "text": "Hat scharfe Kanten", "bucket": "schlecht" },
+          { "text": "Geht schnell kaputt und wird Müll", "bucket": "schlecht" }
+        ],
+        "explanation": "Prüfe jedes Spielzeug mit den vier Kriterien: altersgemäß? Pädagogisches Ziel? Spaß mit vielen Spielmöglichkeiten? Ungefährlich und nachhaltig? Fällt ein Punkt durch, ist es kein gutes Spielzeug."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Du willst die Feinmotorik eines Kindes fördern. Darum wählst du ein Fädelspiel aus. Welches Kriterium erfüllst du damit vor allem?",
+        "options": [
+          { "text": "Das Spielzeug verfolgt ein pädagogisches Ziel.", "correct": true },
+          { "text": "Das Spielzeug ist ungefährlich und nachhaltig." },
+          { "text": "Das Spielzeug ist im Laden besonders günstig." }
+        ],
+        "explanation": "Ein pädagogisches Ziel heißt: Du wählst das Spielzeug passend zur Entwicklungsstufe und zu dem Bereich aus, den du unterstützen willst. Hier ist der Bereich die Feinmotorik."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📋 Die vier Kriterien für die Spielzeugauswahl: Was bedeutet welches? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Altersgemäß"}, "right": {"text": "Keine Über- oder Unterforderung"} },
+          { "left": {"text": "Pädagogisches Ziel"}, "right": {"text": "Passend zu Entwicklungsstufe und Förderbereich"} },
+          { "left": {"text": "Spaß und Anregung"}, "right": {"text": "Freiraum für Fantasie, viele Spielmöglichkeiten"} },
+          { "left": {"text": "Ungefährlich und nachhaltig"}, "right": {"text": "Prüfzeichen helfen bei der Auswahl"} }
+        ],
+        "explanation": "Die vier Kriterien fragen: Passt es zum Alter? Fördert es etwas Bestimmtes? Macht es Spaß und regt die Fantasie an? Ist es sicher und gut für die Umwelt?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Warum wurden Siegel und Prüfzeichen für Spielzeug eingeführt?",
+        "options": [
+          { "text": "Sie helfen Verbrauchern, geeignetes und ungefährliches Spielzeug zu finden.", "correct": true },
+          { "text": "Sie zeigen den Kunden, welches Spielzeug gerade am günstigsten zu kaufen ist." },
+          { "text": "Sie zeigen, in welchem Land das Spielzeug hergestellt und verpackt wurde." }
+        ],
+        "explanation": "Siegel und Prüfzeichen sind eine Hilfe für Verbraucher. Sie zeigen: Dieses Spielzeug wurde geprüft. Über den Preis oder das Herkunftsland sagen sie nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Du kaufst einen Teddy aus Stoff. Welches Prüfzeichen zeigt, dass er auf Schadstoffe untersucht wurde?",
+        "options": [
+          { "text": "OEKO-TEX® Standard 100.", "correct": true },
+          { "text": "VDE." },
+          { "text": "Der Grüne Punkt." }
+        ],
+        "explanation": "OEKO-TEX® Standard 100 steht für Stofftiere und Stoffspielsachen, die auf Schadstoffe untersucht wurden. VDE prüft Elektrik. Der Grüne Punkt sagt nur etwas über die Verpackung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Ein Spielzeugauto hat einen Motor, einen Akku und ein Ladekabel. Welches Zeichen steht für den Verband der Elektrotechnik?",
+        "options": [
+          { "text": "VDE.", "correct": true },
+          { "text": "OEKO-TEX®." },
+          { "text": "spiel gut." }
+        ],
+        "explanation": "VDE ist der Verband der Elektrotechnik. Er prüft die Sicherheit von Elektrik, Mechanik, Thermik, Chemie und mehr. Bei Spielzeug mit Strom ist dieses Zeichen wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Welches Zeichen prüft laut Buch auch den Spielwert und die Umweltverträglichkeit?",
+        "options": [
+          { "text": "spiel gut.", "correct": true },
+          { "text": "GS." },
+          { "text": "VDE." }
+        ],
+        "explanation": "Beim Zeichen „spiel gut“ untersucht die Verbraucherberatung Spielwert, Materialien, Verarbeitung, Sicherheit und Umweltverträglichkeit. GS prüft Sicherheit und Gesundheit. VDE prüft Elektrik, Mechanik, Thermik und Chemie."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Prüfzeichen bedeutet was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "spiel gut"}, "right": {"text": "Verbraucherberatung: Spielwert, Material, Verarbeitung, Sicherheit, Umwelt"} },
+          { "left": {"text": "GS"}, "right": {"text": "Unabhängige Prüfstelle: Sicherheit und Gesundheitsanforderungen"} },
+          { "left": {"text": "OEKO-TEX® Standard 100"}, "right": {"text": "Stofftiere und Stoffspielsachen: auf Schadstoffe untersucht"} },
+          { "left": {"text": "VDE"}, "right": {"text": "Verband der Elektrotechnik: Elektrik, Mechanik, Thermik, Chemie"} }
+        ],
+        "explanation": "Merk dir pro Zeichen ein Stichwort: spiel gut = Spielwert. GS = geprüfte Sicherheit. OEKO-TEX = Stoff und Schadstoffe. VDE = Elektrotechnik."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage: Wofür steht die Abkürzung GS?",
+        "options": [
+          { "text": "Geprüfte Sicherheit.", "correct": true },
+          { "text": "Gutes Spielzeug." },
+          { "text": "Gesunde Stoffe." }
+        ],
+        "explanation": "GS heißt „geprüfte Sicherheit“. Eine unabhängige Prüfstelle hat getestet, ob das Spielzeug sicher ist und die Gesundheitsanforderungen erfüllt."
+      }
+    }
+  ]
+}

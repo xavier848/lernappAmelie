@@ -1,0 +1,128 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-allesschneider-getreidemuehle",
+  "title": "Allesschneider und Getreidemühle",
+  "sort": 605,
+  "intro": "🔪 Der Allesschneider hat ein verzahntes Universalmesser aus Edelstahl. Ein Motor treibt es an. Das Gehäuse und das Zubehör sind aus Kunststoff oder Edelstahl. Du startest ihn mit einem Moment- oder Dauerschalter. Die Schnittstärke stellst du stufenlos ein, von 0 bis etwa 22 mm. So passt sie zu Wurst, Käse, Brot oder Gemüse.\n\nMit dem Allesschneider schneidest du fast alle Lebensmittel: Fleisch, Wurst, Käse, Salate, Brot, Gemüse und Obst.\n\nSchneidest du vor allem Fleisch und Wurst, nimmst du ein glattes Rundmesser. Das gibt es als Sonderzubehör. Es schneidet schöner als das verzahnte Messer. Bei Käse hilft eine seitliche Abdeckung am Rundmesser. Dann klebt der Käse nicht am Messer.\n\n🌾 Die Getreidemühle hat einen Motorblock mit Mühlenaufsatz. Sie mahlt mit Druck und Reibung. Dazu kommt ein Schneideeffekt.\n\nEs gibt zwei Bauarten. Das Scheibenmahlwerk hat zwei Scheiben nebeneinander: Eine dreht sich, die andere steht fest. Das Kegelmahlwerk hat einen Mahlkegel. Er dreht sich in einem festen Kegelring.\n\nMahlwerke gibt es aus Stahl oder aus Stein. Die Feinheit stellst du meistens stufenlos ein. Das geht sogar während des Mahlens. In die Mühle passen je nach Modell 460 g, 600 g oder bis zu 1200 g.\n\nMERKE: Ein Stahlkegelmahlwerk eignet sich für ölhaltige Körner wie Leinsamen und Sesam. Es verklebt nicht. Ein Steinmahlwerk macht besonders feines Mehl. Es wird aber bei langem Mahlen warm.\n\nDu mahlst zum Beispiel Weizen, Roggen, Dinkel, Gerste, Hafer, Buchweizen und Grünkern. Mais mahlst du nur, wenn die Gebrauchsanleitung es erlaubt.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Welches Messer hat der Allesschneider normalerweise?",
+        "options": [
+          { "text": "Ein verzahntes Universalmesser aus Edelstahl.", "correct": true },
+          { "text": "Ein glattes Rundmesser aus hartem Kunststoff." },
+          { "text": "Zwei gerade Klingen aus gehärtetem Stahl." }
+        ],
+        "explanation": "Der Allesschneider hat ein verzahntes Universalmesser aus Edelstahl. Ein Motor treibt es an. Das glatte Rundmesser gibt es nur als Sonderzubehör."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📏 Die Schnittstärke am Allesschneider stellst du stufenlos ein: von 0 bis etwa … mm. Tippe die Zahl.",
+        "answer": 22,
+        "hint": "Es ist mehr als 20 und weniger als 25.",
+        "explanation": "Die Schnittstärke geht von 0 bis etwa 22 mm. So schneidest du hauchdünne Wurst genauso wie dicke Brotscheiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥓 Du schneidest mit dem Allesschneider vor allem Wurst und Schinken. Was ist besser?",
+        "options": [
+          { "text": "Ein glattes Rundmesser als Sonderzubehör.", "correct": true },
+          { "text": "Das verzahnte Messer, weil es feiner schneidet." },
+          { "text": "Ein Messer mit groben Zacken wie bei der Säge." }
+        ],
+        "explanation": "Für Fleisch- und Wurstwaren empfiehlt das Fachbuch ein glattes Rundmesser. Damit ist das Schneideergebnis besser als mit dem gezahnten Messer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Beim Schneiden klebt der Käse am Messer. Was hilft?",
+        "options": [
+          { "text": "Eine seitliche Abdeckung am Rundmesser.", "correct": true },
+          { "text": "Den Käse vorher eine Stunde warm werden lassen." },
+          { "text": "Eine Schnittstärke über 22 mm wählen." }
+        ],
+        "explanation": "Eine seitliche Abdeckung am Rundmesser verhindert, dass der Käse anklebt. So wird das Schneideergebnis besser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Was schneidest du mit dem Allesschneider?",
+        "options": [
+          { "text": "Fleisch, Wurst, Käse, Brot, Gemüse und Obst.", "correct": true },
+          { "text": "Nur Brot, denn für Wurst und Käse ist er zu grob." },
+          { "text": "Nur Wurst und Käse, denn Brot zerreißt er." }
+        ],
+        "explanation": "Der Name sagt es: Mit dem Allesschneider verarbeitest du alle möglichen Lebensmittel. Dazu gehören Fleisch, Wurst, Käse, Salate, Brot, Gemüse und Obst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Wie mahlt eine Getreidemühle?",
+        "options": [
+          { "text": "Mit Druck und Reibung und einem Schneideeffekt.", "correct": true },
+          { "text": "Nur mit großer Hitze und etwas Druck." },
+          { "text": "Nur mit einem schnell drehenden Messer wie beim Mixer." }
+        ],
+        "explanation": "Beide Bauarten der Getreidemühle arbeiten mit Druck und Reibung. Dazu kommt ein Schneideeffekt. So wird aus dem Korn Mehl."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚙️ Welches Mahlwerk ist das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Scheibenmahlwerk"}, "right": {"text": "Eine Scheibe dreht sich, eine steht fest"} },
+          { "left": {"text": "Kegelmahlwerk"}, "right": {"text": "Ein Kegel dreht sich in einem festen Ring"} },
+          { "left": {"text": "Stahlkegelmahlwerk"}, "right": {"text": "Gut für Leinsamen und Sesam"} },
+          { "left": {"text": "Steinmahlwerk"}, "right": {"text": "Besonders feines Mehl, wird warm"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich zuerst: Welche Form hat das Mahlwerk, Scheiben oder Kegel? Dann: Aus welchem Material ist es? Stahl verklebt bei öligen Körnern nicht. Stein mahlt besonders fein, erwärmt sich aber bei langer Arbeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎚️ Du willst das Mehl feiner haben. Wann stellst du das bei den meisten Mühlen ein?",
+        "options": [
+          { "text": "Stufenlos, auch während des Mahlens.", "correct": true },
+          { "text": "Nur vor dem Einfüllen, in drei Stufen." },
+          { "text": "Gar nicht, die Feinheit ist immer fest." }
+        ],
+        "explanation": "Die meisten Getreidemühlen haben eine stufenlose Feineinstellung. Du kannst sie sogar während des Mahlens verstellen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Wie viel Getreide passt in eine Getreidemühle?",
+        "options": [
+          { "text": "Je nach Modell 460 g, 600 g oder bis zu 1200 g.", "correct": true },
+          { "text": "Je nach Modell 50 g, 100 g oder bis zu 200 g." },
+          { "text": "Je nach Modell 5 kg, 8 kg oder bis zu 10 kg Getreide." }
+        ],
+        "explanation": "Das Fassungsvermögen ist verschieden. Es geht von 460 g über 600 g bis zu 1200 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌽 Welches Getreide mahlst du nur, wenn die Gebrauchsanleitung es erlaubt?",
+        "options": [
+          { "text": "Mais.", "correct": true },
+          { "text": "Dinkel." },
+          { "text": "Roggen." }
+        ],
+        "explanation": "Weizen, Roggen, Dinkel, Gerste, Hafer, Buchweizen und Grünkern kannst du mahlen. Mais nur als Ausnahme. Schau dafür in die Gebrauchsanleitung."
+      }
+    }
+  ]
+}

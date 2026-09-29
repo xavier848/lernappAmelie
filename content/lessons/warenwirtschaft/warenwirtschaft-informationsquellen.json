@@ -1,0 +1,150 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-informationsquellen",
+  "title": "Informationsquellen beim Einkauf",
+  "sort": 700,
+  "intro": "Vor einem Kauf brauchst du gute Informationen. Informationen können objektiv oder subjektiv sein. Objektiv heißt: sachlich und unabhängig geprüft. Subjektiv heißt: Es ist eine persönliche Meinung.\n\nObjektive Informationen bekommst du bei der Stiftung Warentest. Sie prüft Produkte unabhängig. Kein Hersteller redet ihr hinein. Sie bewertet mit Schulnoten. Jedes Produkt bekommt Einzelnoten für verschiedene Qualitäts-Punkte und für den Preis. Daraus wird am Ende eine Endnote. Mit ihr kannst du die Produkte vergleichen.\n\nVergleichende Werbung ist in Deutschland üblicherweise nicht erlaubt. Ein Hersteller darf also meist nicht werben: „Wir sind besser als Firma X.“ Aber er darf das Prüfsiegel der Stiftung Warentest mit dem Ergebnis auf sein Produkt drucken. Dieses Siegel kennen sehr viele Menschen.\n\nDie Stiftung Warentest wurde durch einen Beschluss des Bundestages gegründet. Sie verkauft ihre Zeitschriften „Test“ und „Finanztest“. Diese Hefte sind anzeigenfrei, also ohne Werbung. Dazu bekommt sie einen Zuschuss vom Verbraucherschutzministerium. Die Testergebnisse findest du auch im Internet auf www.test.de. Dort gibt es zum Beispiel Prüfberichte für Kühlschränke.\n\nVor Ort helfen Verbraucherberatungsstellen. Sie haben sich zum Verbraucherzentrale Bundesverband e. V. zusammengeschlossen. Die Abkürzung ist vzbv. Er sitzt in Berlin und ist gemeinnützig. Gemeinnützig heißt: Er arbeitet nicht für Gewinn, sondern für alle Menschen. Auch kirchliche und soziale Vereinigungen arbeiten dort mit.\n\nDas Magazin „Öko-Test“ testet ähnlich wie das Heft „Test“. Es wird aber von einem privaten Verlag herausgegeben. In Werbeprospekten stehen neben den Preisen manchmal auch Prüf- und Qualitätszeichen der Angebote.\n\nSubjektive Informationen bekommst du im Gespräch mit anderen Menschen. Deine Freundin erzählt von ihrem Staubsauger. Das ist nur ein Einzelfall und ihre persönliche Meinung. Trotzdem beeinflussen solche Gespräche unsere Käufe sehr stark. Auch Werbung im Radio, im Fernsehen und in Zeitungen ist subjektiv.\n\nMERKE: Objektiv sind unabhängige Tests und Beratung, zum Beispiel Stiftung Warentest, Öko-Test und Verbraucherzentralen. Subjektiv sind Gespräche und Werbung. Weißt du genau, welche Art und Qualität du willst? Dann gibt der Preis den Ausschlag.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Objektiv oder subjektiv? Sortiere die Informationen.",
+        "buckets": [
+          { "id": "obj", "label": "Objektiv: unabhängig geprüft", "icon": "🔬" },
+          { "id": "subj", "label": "Subjektiv: Meinung oder Werbung", "icon": "💬" }
+        ],
+        "items": [
+          { "text": "Testbericht der Stiftung Warentest", "bucket": "obj" },
+          { "text": "Beratung in der Verbraucherzentrale", "bucket": "obj" },
+          { "text": "Testergebnis im Magazin „Öko-Test“", "bucket": "obj" },
+          { "text": "Vergleich im Heft „Finanztest“", "bucket": "obj" },
+          { "text": "Tipp von deiner Freundin", "bucket": "subj" },
+          { "text": "Werbespot im Radio", "bucket": "subj" },
+          { "text": "Werbeanzeige in der Zeitung", "bucket": "subj" },
+          { "text": "Gespräch mit einer Kollegin in der Pause", "bucket": "subj" }
+        ],
+        "explanation": "Frag dich: Hat jemand die Produkte unabhängig geprüft und verglichen? Dann ist die Information objektiv. Erzählt jemand von seinem Einzelfall oder will dir etwas verkaufen? Dann ist sie subjektiv. Achtung: Werbung bleibt subjektiv, auch wenn sie in der Zeitung gedruckt ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏅 Wie bewertet die Stiftung Warentest ein Produkt?",
+        "options": [
+          { "text": "Mit Schulnoten: erst Einzelnoten, dann eine Endnote.", "correct": true },
+          { "text": "Mit Sternen, die Käufer im Internet vergeben." },
+          { "text": "Mit Punkten, die der Hersteller selbst verteilt." },
+          { "text": "Nur mit einem Preisvergleich, ganz ohne Noten." }
+        ],
+        "explanation": "Die Stiftung Warentest nutzt die Skala der Schulnoten. Es gibt Einzelnoten für verschiedene Qualitäts-Punkte und für den Preis. Daraus wird am Ende eine Endnote. Sterne von Käufern sind dagegen Einzelmeinungen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Woher bekommt die Stiftung Warentest ihr Geld?",
+        "options": [
+          { "text": "Verkauf ihrer Hefte und Zuschuss vom Ministerium.", "correct": true },
+          { "text": "Aus Werbeanzeigen in ihren Heften „Test“ und „Finanztest“." },
+          { "text": "Aus Gebühren, die Hersteller für jeden Test zahlen." },
+          { "text": "Aus Beiträgen ihrer Mitglieder, wie ein Sportverein." }
+        ],
+        "explanation": "Die Hefte „Test“ und „Finanztest“ sind anzeigenfrei, darin gibt es keine Werbung. Die Stiftung verkauft die Hefte. Dazu kommt ein Zuschuss vom Verbraucherschutzministerium. So finanziert sie ihre unabhängigen Tests."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📺 Ein Hersteller will im Fernsehen sagen: „Unser Staubsauger ist besser als der von Firma X.“ Was gilt in Deutschland?",
+        "options": [
+          { "text": "Vergleichende Werbung ist üblicherweise nicht erlaubt.", "correct": true },
+          { "text": "Das ist erlaubt, wenn Firma X vorher Bescheid bekommt." },
+          { "text": "Das ist erlaubt, wenn der Spot nach 22 Uhr läuft." },
+          { "text": "Das ist immer erlaubt, Werbung darf alles sagen." }
+        ],
+        "explanation": "Werbung, die das eigene Produkt mit dem Produkt einer anderen Firma vergleicht, heißt vergleichende Werbung. Sie ist in Deutschland üblicherweise nicht erlaubt. Darum sind unabhängige Tests so wichtig: Die Stiftung Warentest vergleicht die Produkte für dich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Auf einer Kaffeepackung klebt das Siegel der Stiftung Warentest mit dem Urteil „gut“. Was bedeutet das?",
+        "options": [
+          { "text": "Die Stiftung hat geprüft, der Hersteller druckt das Ergebnis auf.", "correct": true },
+          { "text": "Der Hersteller hat seinen Kaffee selbst getestet und benotet." },
+          { "text": "Der Hersteller hat der Stiftung Geld für das gute Urteil gezahlt." },
+          { "text": "Käufer im Internet haben den Kaffee mit „gut“ bewertet." }
+        ],
+        "explanation": "Die Stiftung Warentest prüft unabhängig. Danach dürfen Hersteller das Prüfsiegel mit dem Ergebnis auf ihr Produkt drucken. Das lohnt sich für sie, denn das Siegel kennen sehr viele Menschen. Kaufen kann man ein gutes Urteil nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wer oder was ist das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Stiftung Warentest"}, "right": {"text": "Durch Beschluss des Bundestages gegründet"} },
+          { "left": {"text": "„Test“ und „Finanztest“"}, "right": {"text": "Anzeigenfreie Hefte der Stiftung"} },
+          { "left": {"text": "www.test.de"}, "right": {"text": "Testergebnisse im Internet"} },
+          { "left": {"text": "vzbv"}, "right": {"text": "Bundesverband der Verbraucherzentralen in Berlin"} },
+          { "left": {"text": "Öko-Test"}, "right": {"text": "Test-Magazin eines privaten Verlags"} },
+          { "left": {"text": "Verbraucherberatungsstelle"}, "right": {"text": "Beratung direkt vor Ort"} }
+        ],
+        "memory": false,
+        "explanation": "Unterscheide gut: Die Stiftung Warentest wurde vom Bundestag gegründet und bringt die Hefte „Test“ und „Finanztest“ heraus, im Internet auf www.test.de. Öko-Test testet ähnlich, gehört aber einem privaten Verlag. Die Beratungsstellen vor Ort sind im vzbv zusammengeschlossen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Deine Kollegin schwärmt: „Mein neuer Mixer ist super!“ Wie ordnest du das ein?",
+        "options": [
+          { "text": "Subjektiv. Ein Einzelfall, der mich aber stark beeinflussen kann.", "correct": true },
+          { "text": "Objektiv. Sie hat den Mixer ja selbst lange ausprobiert." },
+          { "text": "Objektiv. So ein Tipp zählt genauso wie ein Testbericht." },
+          { "text": "Unwichtig. Gespräche beeinflussen unsere Käufe fast nie." }
+        ],
+        "explanation": "Gespräche mit anderen Menschen geben nur eine Einschätzung im Einzelfall wieder. Das ist ein subjektives Urteil. Trotzdem haben solche Gespräche oft einen starken Einfluss auf unsere Käufe. Für einen fairen Vergleich brauchst du objektive Tests."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤝 Was stimmt über den Verbraucherzentrale Bundesverband (vzbv)?",
+        "options": [
+          { "text": "Er ist gemeinnützig. Auch kirchliche Vereinigungen arbeiten mit.", "correct": true },
+          { "text": "Er ist eine Firma, die mit Testheften viel Gewinn macht." },
+          { "text": "Er gehört den Herstellern und berät vor allem Händler." },
+          { "text": "Er ist ein Amt, das die Preise für Lebensmittel festlegt." }
+        ],
+        "explanation": "Die Verbraucherberatungsstellen vor Ort haben sich auf Bundesebene zum vzbv zusammengeschlossen. Er ist gemeinnützig: Er arbeitet nicht für Gewinn, sondern für alle Verbraucher. Auch kirchlich-karitative und soziale Vereinigungen wirken dort mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📰 Du blätterst im Werbeprospekt eines Großhändlers. Was ist dort neben den Preisen manchmal auch abgebildet?",
+        "options": [
+          { "text": "Prüf- und Qualitätszeichen der Angebote.", "correct": true },
+          { "text": "Die Endnoten der Konkurrenzprodukte." },
+          { "text": "Die Beschwerden anderer Kunden." },
+          { "text": "Die Einkaufspreise des Großhändlers." }
+        ],
+        "explanation": "In Werbeprospekten stehen neben den Preisen gelegentlich auch die Prüf- und Qualitätszeichen der Angebote. Noten von Konkurrenzprodukten findest du dort nicht, denn vergleichende Werbung ist üblicherweise nicht erlaubt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Art und Qualität der Ware sind dir klar. Was gibt jetzt den Ausschlag für den Kauf?",
+        "options": [
+          { "text": "Der Preis.", "correct": true },
+          { "text": "Die Meinung der Nachbarin." },
+          { "text": "Ein Werbespot im Fernsehen." },
+          { "text": "Eine besonders schöne Verpackung." }
+        ],
+        "explanation": "Wenn Art und Qualität der Ware klar sind, gibt der Preis den Ausschlag. Du vergleichst dann nur noch, wo du genau diese Ware am günstigsten bekommst."
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "topic_slug": "kinder-spielen",
+  "slug": "kinder-spielen-spielzeug-bis-3",
+  "title": "Spielzeug für Kinder bis 3 Jahre",
+  "sort": 521,
+  "intro": "🧸 Gutes Spielzeug fördert die Entwicklung. Im Säuglingsalter bis ein Jahr förderst du vor allem die Motorik. Dafür eignen sich eine Kugelkette zum Anfassen, ein Greifring, Rasselspielzeug, weiche Stoffspielwaren und erste Steckspielzeuge.\n\nEin einfacher, stabiler Schiebewagen unterstützt die Beweglichkeit. Krabbelt oder läuft das Kind, ist ein Ball gut. Oder ein Wagen zum Hinterherziehen.\n\nFür das Kleinkindalter eignen sich Bausteine, Knetmaterial, eine Sandkiste und Naturmaterialien wie Zweige und Steine. Die Kinder beginnen jetzt zu sammeln und zu sortieren.\n\nMalen und Basteln fördern nicht nur die Feinmotorik. Sie regen auch Fantasie und Kreativität an. So helfen sie der Denkentwicklung.\n\nWichtig ist ein abgesicherter Platz zum Hüpfen und Laufenlernen. Am Klettergerüst oder auf der Schaukel stärkt das Kind seine Beweglichkeit und seinen Gleichgewichtssinn.\n\nSinnvoll sind außerdem: Spielzeug zum Nachziehen oder Schieben, einfache grobe Bauklötze, Steckspiele, ein Ball, erste reißfeste Bücher und eine Spieluhr zum Einschlafen. Reißfest heißt: Die Seiten reißen nicht leicht ein.\n\nMERKE: Schlag- und Klangspielzeug darf für Kinder und Erwachsene nicht zu laut sein. Denn die Sinnesorgane der Kinder sind noch sehr empfindlich.\n\nBauklötze oder ein Hohlraumwürfel unterstützen die Entwicklung des Denkens und das räumliche Wahrnehmen. Ein Hohlraumwürfel ist ein hohler Würfel zum Spielen. Räumliches Wahrnehmen heißt: erkennen, wo etwas ist und wie groß es ist.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍼 Welches Spielzeug nennt das Buch für welches Alter? Sortiere.",
+        "buckets": [
+          { "id": "saeugling", "label": "Säugling bis 1 Jahr", "icon": "🍼" },
+          { "id": "klein", "label": "Kleinkind", "icon": "🧒" }
+        ],
+        "items": [
+          { "text": "Kugelkette zum Anfassen", "bucket": "saeugling" },
+          { "text": "Greifring", "bucket": "saeugling" },
+          { "text": "Rasselspielzeug", "bucket": "saeugling" },
+          { "text": "Weiche Stoffspielwaren", "bucket": "saeugling" },
+          { "text": "Bausteine", "bucket": "klein" },
+          { "text": "Knetmaterial", "bucket": "klein" },
+          { "text": "Sandkiste", "bucket": "klein" },
+          { "text": "Zweige und Steine", "bucket": "klein" }
+        ],
+        "explanation": "Frag dich: Kann das Kind nur greifen und anfassen? Dann passt Spielzeug für den Säugling: Kugelkette, Greifring, Rassel, weiche Stoffsachen. Kann es schon bauen, kneten und sammeln? Dann ist es ein Kleinkind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Welches Spielzeug unterstützt laut Buch die Beweglichkeit im Säuglingsalter bis ein Jahr?",
+        "options": [
+          { "text": "Ein einfacher, stabiler Schiebewagen.", "correct": true },
+          { "text": "Ein erstes Fahrrad mit Stützrädern." },
+          { "text": "Ein Paar Stelzen aus Holz zum Laufen." }
+        ],
+        "explanation": "Ein einfacher, stabiler Schiebewagen gibt dem Baby Halt und unterstützt die Beweglichkeit. Fahrrad und Stelzen sind erst viel später dran, im Vorschulalter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐻 Ein Kind krabbelt schon oder läuft seine ersten Schritte. Was ist laut Buch jetzt geeignet?",
+        "options": [
+          { "text": "Ein Ball oder ein Wagen zum Hinterherziehen.", "correct": true },
+          { "text": "Ein Puzzle mit 100 kleinen Teilen." },
+          { "text": "Ein Brettspiel mit vielen Regeln." }
+        ],
+        "explanation": "Einem Ball oder einem Nachziehwagen krabbelt oder läuft das Kind hinterher. So bleibt es in Bewegung. Ein Puzzle mit 100 kleinen Teilen oder ein Regelspiel überfordert ein so kleines Kind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪨 Kleinkinder spielen gern mit Zweigen und Steinen. Was beginnen sie laut Buch damit?",
+        "options": [
+          { "text": "Zu sammeln und zu sortieren.", "correct": true },
+          { "text": "Zu zählen und zu rechnen." },
+          { "text": "Zu lesen und zu schreiben." }
+        ],
+        "explanation": "Im Kleinkindalter beginnen Kinder zu sammeln und zu sortieren. Naturmaterialien wie Zweige und Steine eignen sich dafür gut. Rechnen, Lesen und Schreiben kommen viel später."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Malen und Basteln fördern die Feinmotorik. Was fördern sie laut Buch noch?",
+        "options": [
+          { "text": "Fantasie und Kreativität. Das hilft der Denkentwicklung.", "correct": true },
+          { "text": "Vor allem Kraft und Ausdauer in den Beinen beim Laufen." },
+          { "text": "Vor allem den Gleichgewichtssinn beim Schaukeln." }
+        ],
+        "explanation": "Beim Malen und Basteln denkt sich das Kind etwas aus. Das regt Fantasie und Kreativität an. So helfen Malen und Basteln auch der Denkentwicklung, nicht nur den Händen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥁 Du suchst eine Kindertrommel für ein Kleinkind aus. Worauf achtest du laut Buch?",
+        "options": [
+          { "text": "Sie darf nicht zu laut sein. Die Sinnesorgane der Kinder sind noch sehr empfindlich.", "correct": true },
+          { "text": "Sie soll möglichst laut sein. Dann hört das Kind genau, was es mit den Händen tut." },
+          { "text": "Die Lautstärke ist egal. Kinderohren halten viel mehr aus als die von Erwachsenen." }
+        ],
+        "explanation": "Schlag- und Klangspielzeug darf nicht zu laut sein, für Kinder und für Erwachsene. Der Grund: Die Sinnesorgane der Kinder sind noch sehr empfindlich. Laute Geräusche können ihnen schaden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Welche Liste nennt das Buch als sinnvolles Spielzeug für Kleinkinder?",
+        "options": [
+          { "text": "Nachzieh- oder Schiebespielzeug, grobe Bauklötze, Steckspiele, Ball, reißfeste Bücher, Spieluhr.", "correct": true },
+          { "text": "Kleine Glasperlen, ein Puzzle mit 100 Teilen, ein Brettspiel mit vielen Regeln und bunte Murmeln." },
+          { "text": "Stelzen, Rollschuhe, ein erstes Fahrrad, ein Springseil und Kartenspiele mit einfachen Regeln." }
+        ],
+        "explanation": "Für Kleinkinder ist Spielzeug gut, das groß, stabil und einfach ist. Kleine Teile sind gefährlich, weil Kleinkinder sie in den Mund stecken. Stelzen, Rollschuhe und Fahrrad kommen erst im Vorschulalter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was unterstützt was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🧗 Klettergerüst und Schaukel"}, "right": {"text": "Beweglichkeit und Gleichgewichtssinn"} },
+          { "left": {"text": "🧱 Bauklötze und Hohlraumwürfel"}, "right": {"text": "Denken und räumliches Wahrnehmen"} },
+          { "left": {"text": "🛡️ Abgesicherter Platz"}, "right": {"text": "Hüpfen und Laufenlernen"} },
+          { "left": {"text": "📘 Reißfestes Buch"}, "right": {"text": "Die Seiten reißen nicht leicht ein"} }
+        ],
+        "explanation": "Frag dich: Bewegt sich der ganze Körper? Dann geht es um Beweglichkeit und Gleichgewicht. Baut und steckt das Kind? Dann geht es um Denken und Raum. Ein abgesicherter Platz schützt beim Hüpfen und Laufenlernen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage: Was hilft einem Kleinkind laut Buch beim Einschlafen?",
+        "options": [
+          { "text": "Eine Spieluhr.", "correct": true },
+          { "text": "Eine laute Trommel." },
+          { "text": "Ein Klettergerüst." }
+        ],
+        "explanation": "Die Spieluhr spielt eine leise Melodie. Das Buch nennt sie als sinnvolles Spielzeug zum Einschlafen."
+      }
+    }
+  ]
+}

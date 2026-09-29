@@ -1,0 +1,148 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-handgeraete",
+  "title": "Elektrische Handgeräte",
+  "sort": 606,
+  "intro": "✋ Handgeräte führst du beim Arbeiten mit der Hand. Sie sind leicht zu bedienen und vielseitig. Darum gehören sie in fast jedem Haushalt zur Grundausstattung. Sie eignen sich für kleine bis mittlere Mengen. Außerdem kosten sie weniger als Standgeräte.\n\n🔪 Das Elektromesser hat einen kleinen Motorblock mit Kunststoffgehäuse, einen Griff und eine Halterung für die Messerklingen. Du schiebst die Klingen ein, bis sie hörbar einrasten. Erst wenn das Gerät bereit ist, steckst du den Netzstecker ein.\n\nSo schneidest du mit dem Elektromesser: Du legst die Klingen auf das Schneidgut. Du drückst gleichmäßig. Du schneidest von oben bis unten durch. Für Knochen ist das Elektromesser nicht geeignet. Es ist gut für alles, was eine saubere Form oder Schnittfläche braucht: Bratenscheiben, Rouladen und gefüllte Rollen, zum Beispiel als Fingerfood.\n\n🥣 Der Stabmixer hat zwei Teile: den Motorblock und den Pürierstab. Er hat 400 bis 600 Watt. Er hat 1 bis 2 Stufen oder eine stufenlose Einstellung. Du nimmst ihn für dieselben Arbeiten wie den Standmixer, zum Beispiel für Suppen, Babykost oder Mayonnaise.\n\nMERKE: Beim Stabmixer besteht Spritzgefahr. Tauche ihn erst in ein hohes Gefäß, dann schalte ihn ein. Schalte ihn erst aus, dann nimm ihn heraus. Bewege ihn leicht hin und her, dann wird alles gleichmäßig zerkleinert.\n\n🎂 Das Handrührgerät hat einen Motorblock mit Kunststoffgehäuse und einen Griff. Die Bedienknöpfe sind im Griffbereich. Es hat zwei bis drei Antriebsöffnungen. Dazu gehören Rührbesen und Knethaken. Es hat 150 bis 350 Watt. Es schafft eine Teigmenge von etwa 1 bis 1,5 kg.\n\nMit den Rührbesen machst du zum Beispiel Biskuitmasse, Rührmasse, Pfannkuchenteig oder Quarkspeisen. Mit den Knethaken machst du Hefeteig, Mürbeteig, Zwillingsteig oder Hackfleischmasse.\n\nMERKE: Bevor du Sahne schlägst, stellst du Rührbecher und Rührbesen in den Kühlschrank.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Was ist ein Handgerät?",
+        "options": [
+          { "text": "Ein Gerät, das du beim Arbeiten mit der Hand führst.", "correct": true },
+          { "text": "Ein Gerät ohne Strom, das nur mit Muskelkraft läuft." },
+          { "text": "Ein Gerät, das allein auf der Arbeitsfläche steht." }
+        ],
+        "explanation": "Handgeräte werden während der Arbeit von Hand geführt. Die Handgeräte hier laufen trotzdem mit Strom. Ein Gerät, das allein auf der Arbeitsfläche steht, ist ein Standgerät."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Warum gehören Handgeräte in fast jedem Haushalt zur Grundausstattung?",
+        "options": [
+          { "text": "Sie sind leicht zu bedienen, vielseitig und günstiger.", "correct": true },
+          { "text": "Sie schaffen größere Mengen als jede Standküchenmaschine." },
+          { "text": "Sie brauchen keinen Strom und müssen nie gereinigt werden." }
+        ],
+        "explanation": "Handgeräte sind leicht zu handhaben und flexibel einsetzbar. Sie kosten weniger als Standgeräte. Sie sind aber für kleine bis mittlere Mengen gedacht, nicht für große."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔪 Du schneidest einen Braten mit dem Elektromesser. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Klingen in die Halterung schieben." },
+          { "text": "Warten, bis die Klingen hörbar einrasten." },
+          { "text": "Den Netzstecker einstecken." },
+          { "text": "Die Klingen auf den Braten legen." },
+          { "text": "Gleichmäßig drücken und von oben bis unten durchschneiden." }
+        ],
+        "explanation": "Die Regel: Erst ist das Gerät komplett fertig, dann kommt Strom. Frag dich: Könnte ich mich verletzen, wenn der Stecker schon drin ist? Beim Einsetzen der Klingen darf das Messer noch nicht laufen können."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍖 Elektromesser: geeignet oder nicht? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Gut geeignet", "icon": "✅" },
+          { "id": "nein", "label": "Nicht geeignet", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Bratenscheiben", "bucket": "ja" },
+          { "text": "Rouladen", "bucket": "ja" },
+          { "text": "Gefüllte Rollen als Fingerfood", "bucket": "ja" },
+          { "text": "Knochen zerteilen", "bucket": "nein" },
+          { "text": "Suppenknochen zerkleinern", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Braucht die Speise eine saubere Form und Schnittfläche? Dann ist das Elektromesser ideal. Knochen darfst du damit aber nicht zerschneiden. Dafür ist es nicht gebaut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Wie startest du den Stabmixer richtig?",
+        "options": [
+          { "text": "Erst ins hohe Gefäß eintauchen, dann einschalten.", "correct": true },
+          { "text": "Erst einschalten, dann langsam in die Suppe eintauchen." },
+          { "text": "Im flachen Teller einschalten und kräftig rühren." }
+        ],
+        "explanation": "Beim Stabmixer besteht Spritzgefahr. Läuft das Messer schon, bevor es in der Flüssigkeit ist, spritzt es heraus. Ein hohes Gefäß fängt Spritzer zusätzlich ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Die Suppe ist püriert. Was machst du jetzt zuerst?",
+        "options": [
+          { "text": "Den Stabmixer ausschalten, dann herausnehmen.", "correct": true },
+          { "text": "Den Stabmixer herausnehmen, dann ausschalten." },
+          { "text": "Den laufenden Stabmixer im Topf abstellen." }
+        ],
+        "explanation": "Beim Herausnehmen gilt dieselbe Regel wie beim Eintauchen: Das Messer läuft nur in der Flüssigkeit. Erst ausschalten, dann herausnehmen. Sonst spritzt heiße Suppe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Welche Zahl gehört wozu? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Stabmixer"}, "right": {"text": "400 bis 600 Watt"} },
+          { "left": {"text": "Handrührgerät"}, "right": {"text": "150 bis 350 Watt"} },
+          { "left": {"text": "Teigmenge im Handrührgerät"}, "right": {"text": "Etwa 1 bis 1,5 kg"} },
+          { "left": {"text": "Antriebsöffnungen am Handrührgerät"}, "right": {"text": "Zwei bis drei"} }
+        ],
+        "memory": false,
+        "explanation": "Der Stabmixer hat mehr Leistung als das Handrührgerät: 400 bis 600 Watt. Das Handrührgerät hat 150 bis 350 Watt und schafft etwa 1 bis 1,5 kg Teig. Für mehr Teig nimmst du eine Küchenmaschine."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎂 Handrührgerät: Rührbesen oder Knethaken? Sortiere.",
+        "buckets": [
+          { "id": "ruehr", "label": "Rührbesen", "icon": "🥄" },
+          { "id": "knet", "label": "Knethaken", "icon": "🪝" }
+        ],
+        "items": [
+          { "text": "Biskuitmasse", "bucket": "ruehr" },
+          { "text": "Rührmasse", "bucket": "ruehr" },
+          { "text": "Pfannkuchenteig", "bucket": "ruehr" },
+          { "text": "Quarkspeise", "bucket": "ruehr" },
+          { "text": "Hefeteig", "bucket": "knet" },
+          { "text": "Mürbeteig", "bucket": "knet" },
+          { "text": "Zwillingsteig", "bucket": "knet" },
+          { "text": "Hackfleischmasse", "bucket": "knet" }
+        ],
+        "explanation": "Frag dich: Ist die Masse flüssig bis cremig oder fest und schwer? Cremiges rührst du mit den Rührbesen. Festes knetest du mit den Knethaken. Achtung: Das Handrührgerät hat keinen eigenen Schlagbesen. Seine Rührbesen schlagen auch Biskuitmasse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍦 Du willst mit dem Handrührgerät Sahne schlagen. Was machst du vorher?",
+        "options": [
+          { "text": "Rührbecher und Rührbesen im Kühlschrank kühlen.", "correct": true },
+          { "text": "Rührbecher und Rührbesen mit heißem Wasser anwärmen." },
+          { "text": "Die Sahne ins Gefrierfach legen, bis sie fest ist." }
+        ],
+        "explanation": "Kalte Sahne wird besser steif. Darum kühlst du vor dem Schlagen auch den Rührbecher und die Rührbesen im Kühlschrank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Wofür nimmst du den Stabmixer?",
+        "options": [
+          { "text": "Für Arbeiten wie mit dem Standmixer.", "correct": true },
+          { "text": "Zum Kneten von schwerem Hefeteig und Brotteig." },
+          { "text": "Zum Schneiden von Bratenscheiben." }
+        ],
+        "explanation": "Der Stabmixer macht dieselben Arbeiten wie der Standmixer: Suppen und Gemüse pürieren, Babykost machen, Mayonnaise rühren."
+      }
+    }
+  ]
+}
