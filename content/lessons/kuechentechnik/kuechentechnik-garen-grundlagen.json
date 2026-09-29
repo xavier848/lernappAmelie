@@ -34,7 +34,7 @@
       "data": {
         "prompt": "💧 Was unterscheidet feuchte und trockene Garverfahren?",
         "options": [
-          { "text": "Feucht: mit Flüssigkeit. Trocken: ohne Wasser, etwa mit Fett oder heißer Luft.", "correct": true },
+          { "text": "Feucht: mit Flüssigkeit. Trocken: ohne Wasser, mit Fett oder heißer Luft.", "correct": true },
           { "text": "Feucht: mit viel Fett. Trocken: mit viel Wasser im fest geschlossenen Topf." },
           { "text": "Feucht: nur im Topf auf dem Herd. Trocken: nur in der Pfanne, immer mit Öl." }
         ],
@@ -72,7 +72,7 @@
           { "text": "Nach der Zeit, die das Essen zum Garwerden braucht." },
           { "text": "Nach dem Gerät, in dem das Essen gegart wird." }
         ],
-        "explanation": "Viele Verfahren haben feuchte und trockene Anteile. Entscheidend ist, welche Art der Wärmeübertragung überwiegt. Darum zählt das Foliengaren zu den trockenen Verfahren."
+        "explanation": "Viele Verfahren haben feuchte und trockene Anteile. Entscheidend ist, welche Art der Wärmeübertragung überwiegt. Das Fachbuch nennt das Foliengaren ein trockenes Verfahren. Weil es meist im eigenen Saft gart, könnte es aber auch zu den feuchten zählen."
       }
     },
     {
@@ -126,14 +126,14 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🍽️ Welches Garverfahren wählst du? Verbinde.",
+        "prompt": "🍽️ Das Fachbuch nennt Beispiele für die Wahl des Garverfahrens. Was gehört zusammen? Verbinde.",
         "pairs": [
           { "left": {"text": "🥟 Kartoffelklöße, die leicht zerfallen"}, "right": {"text": "Garziehen"} },
           { "left": {"text": "🍚 Reis, Hirse oder Grieß"}, "right": {"text": "Quellen lassen oder dünsten"} },
           { "left": {"text": "🥘 Ungarischer Gulasch"}, "right": {"text": "Länger schmoren"} }
         ],
         "memory": false,
-        "explanation": "Das Lebensmittel entscheidet mit. Empfindliches, das leicht zerfällt, gart sanft ohne sprudelndes Wasser. Stärkehaltiges wie Reis nimmt Flüssigkeit auf. Gulasch bekommt durch langes Schmoren sein Aroma."
+        "explanation": "Das Lebensmittel entscheidet mit. Kartoffelklöße zerfallen leicht. Darum lässt du sie in viel Flüssigkeit gar ziehen, die nicht sprudelt. Reis, Hirse und Grieß nehmen Flüssigkeit auf. Du lässt sie quellen oder dünstest sie. Gulasch bekommt durch langes Schmoren sein Aroma."
       }
     },
     {

@@ -3,12 +3,12 @@
   "slug": "kommunikation-beruf-buchstabieren-deutsch",
   "title": "Buchstabieralphabet: Deutsch",
   "sort": 581,
-  "intro": "🔤 Am Telefon versteht man einzelne Buchstaben oft schlecht. Damit es keine Missverständnisse gibt, gibt es ein Buchstabieralphabet. Es ist allgemein gültig. Das heißt: Alle benutzen dieselben Wörter.\n\nFür Telefonprofis ist das Buchstabieralphabet ein Werkzeug für jeden Tag. Du musst es auswendig lernen. Beim Buchstabieren sagst du zum Beispiel: „B wie Berta“.\n\nDas deutsche Buchstabieralphabet, Teil 1: A wie Anton, B wie Berta, C wie Cesar, D wie Dora, E wie Emil, F wie Friedrich, G wie Gustav, H wie Heinrich, I wie Ida, J wie Julius, K wie Kaufmann, L wie Ludwig, M wie Martha.\n\nTeil 2: N wie Nordpol, O wie Otto, P wie Paula, Q wie Quelle, R wie Richard, S wie Siegfried, T wie Theodor, U wie Ulrich, V wie Viktor, W wie Walter, X wie Xaver, Y wie Ypsilon, Z wie Zeppelin.\n\nMERKE: Du buchstabierst langsam, Wort für Wort: „K wie Kaufmann, R wie Richard …“ Achtung: In deinem Buch heißt es „Cesar“, nicht „Cäsar“.",
+  "intro": "🔤 Am Telefon versteht man einzelne Buchstaben oft schlecht. Damit es keine Missverständnisse gibt, gibt es ein Buchstabieralphabet. Es ist allgemein gültig. Das heißt: Alle sollen dieselben Wörter benutzen.\n\nFür Telefonprofis ist das Buchstabieralphabet ein Werkzeug für jeden Tag. Du musst es auswendig lernen. Beim Buchstabieren sagst du zum Beispiel: „B wie Berta“.\n\nDas deutsche Buchstabieralphabet aus deinem Buch, Teil 1: A wie Anton, B wie Berta, C wie Cesar, D wie Dora, E wie Emil, F wie Friedrich, G wie Gustav, H wie Heinrich, I wie Ida, J wie Julius, K wie Kaufmann, L wie Ludwig, M wie Martha.\n\nTeil 2: N wie Nordpol, O wie Otto, P wie Paula, Q wie Quelle, R wie Richard, S wie Siegfried, T wie Theodor, U wie Ulrich, V wie Viktor, W wie Walter, X wie Xaver, Y wie Ypsilon, Z wie Zeppelin.\n\nIm Buch steht „Cesar“. Oft schreibt man auch „Cäsar“. Gesprochen klingt beides gleich.\n\nGut zu wissen: Seit 2022 gibt es für das Buchstabieren eine neue Norm. Sie heißt DIN 5009. Eine Norm ist eine einheitliche Regel. Man kann sie freiwillig nutzen. In der neuen Norm stehen Städtenamen, zum Beispiel A wie Aachen, B wie Berlin, C wie Chemnitz. Viele buchstabieren aber weiter mit Namen wie Anton und Berta. In dieser Lektion übst du die Liste aus deinem Buch.\n\nMERKE: Du buchstabierst langsam, Wort für Wort: „K wie Kaufmann, R wie Richard …“",
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Welche Reihe stimmt für A, B und C?",
+        "prompt": "🔤 Buchstabieralphabet aus deinem Buch: Welche Reihe stimmt für A, B und C?",
         "options": [
           { "text": "Anton – Berta – Cesar", "correct": true },
           { "text": "Anton – Bruno – Cesar" },
@@ -21,7 +21,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Welche Reihe stimmt für D, E und F?",
+        "prompt": "🔤 Welche Reihe stimmt laut Buch für D, E und F?",
         "options": [
           { "text": "Dora – Emil – Friedrich", "correct": true },
           { "text": "Dieter – Emil – Friedrich" },
@@ -34,7 +34,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Welche Reihe stimmt für G, H und I?",
+        "prompt": "🔤 Welche Reihe stimmt laut Buch für G, H und I?",
         "options": [
           { "text": "Gustav – Heinrich – Ida", "correct": true },
           { "text": "Günter – Heinrich – Ida" },
@@ -47,7 +47,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Welche Reihe stimmt für J, K und L?",
+        "prompt": "🔤 Welche Reihe stimmt laut Buch für J, K und L?",
         "options": [
           { "text": "Julius – Kaufmann – Ludwig", "correct": true },
           { "text": "Jonas – Kaufmann – Ludwig" },
@@ -60,11 +60,11 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "✅ Stimmt das Wort? Sortiere die Buchstaben M bis T.",
-        "explanation": "Frag dich bei jedem Buchstaben: Welches Wort steht in der Liste? Richtig sind N wie Nordpol, P wie Paula, R wie Richard und T wie Theodor. Norbert, Paul, Robert und Thomas klingen ähnlich, sind aber falsch.",
+        "prompt": "✅ Stimmt das Wort laut Buch? Sortiere die Buchstaben M bis T.",
+        "explanation": "Frag dich bei jedem Buchstaben: Welches Wort steht in der Liste? Nur genau dieses Wort gilt. Ein Vorname, der ähnlich klingt, ist trotzdem falsch.",
         "buckets": [
-          { "id": "ja", "label": "Richtig buchstabiert", "icon": "✅" },
-          { "id": "nein", "label": "Falsch buchstabiert", "icon": "❌" }
+          { "id": "ja", "label": "Wort aus der Liste", "icon": "✅" },
+          { "id": "nein", "label": "Falsches Wort", "icon": "❌" }
         ],
         "items": [
           { "text": "M wie Martha", "bucket": "ja" },
@@ -81,7 +81,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Welche Reihe stimmt für U, V und W?",
+        "prompt": "🔤 Welche Reihe stimmt laut Buch für U, V und W?",
         "options": [
           { "text": "Ulrich – Viktor – Walter", "correct": true },
           { "text": "Uwe – Viktor – Walter" },
@@ -94,7 +94,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Welche Reihe stimmt für X, Y und Z?",
+        "prompt": "🔤 Welche Reihe stimmt laut Buch für X, Y und Z?",
         "options": [
           { "text": "Xaver – Ypsilon – Zeppelin", "correct": true },
           { "text": "Xylophon – Ypsilon – Zeppelin" },
@@ -107,8 +107,8 @@
     {
       "type": "steps_order",
       "data": {
-        "prompt": "📞 Ein Gast heißt Brandt. Buchstabiere seinen Namen. Bringe die Wörter in die richtige Reihenfolge.",
-        "explanation": "Beim Buchstabieren nimmst du jeden Buchstaben einzeln, von vorne nach hinten. Zu jedem Buchstaben sagst du sein Wort: B wie Berta, R wie Richard und so weiter.",
+        "prompt": "📞 Ein Gast heißt Brandt. Buchstabiere seinen Namen mit der Liste aus deinem Buch. Bringe die Wörter in die richtige Reihenfolge.",
+        "explanation": "Beim Buchstabieren nimmst du jeden Buchstaben einzeln, von vorne nach hinten. Sprich den Namen leise mit: B – R – A – N – D – T. Zu jedem Buchstaben sagst du dann sein Wort aus der Liste.",
         "steps": [
           { "text": "Berta" },
           { "text": "Richard" },

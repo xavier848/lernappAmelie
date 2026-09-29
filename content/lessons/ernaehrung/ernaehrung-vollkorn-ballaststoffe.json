@@ -45,7 +45,7 @@
       "type": "sort_buckets",
       "data": {
         "prompt": "💧 Was machen die Ballaststoffe im Dickdarm? Sortiere.",
-        "explanation": "Merke dir: Die wasserlöslichen Ballaststoffe werden von Bakterien abgebaut. Dabei entstehen Gase und kurzkettige Fettsäuren. Die nicht wasserlöslichen behalten ihr Wasser. So bleibt der Speisebrei weich und wird zügig weiterbewegt.",
+        "explanation": "Frag dich: Löst sich der Ballaststoff in Wasser? Dann können Bakterien ihn abbauen, und dabei entsteht etwas Neues. Löst er sich nicht, bleibt er erhalten. Er hält sein Wasser fest und schiebt den Speisebrei weiter. Solche Ballaststoffe kommen besonders aus Getreide.",
         "buckets": [
           { "id": "los", "label": "Wasserlösliche Ballaststoffe", "icon": "💧" },
           { "id": "unlos", "label": "Nicht wasserlösliche Ballaststoffe", "icon": "🌾" }
@@ -63,7 +63,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛡️ Beim Abbau der Ballaststoffe im Dickdarm entstehen kurzkettige Fettsäuren. Wozu sind sie gut?",
+        "prompt": "🛡️ Im Dickdarm entstehen kurzkettige Fettsäuren. Wozu sind sie gut?",
         "options": [
           { "text": "Sie schützen die Darmschleimhaut.", "correct": true },
           { "text": "Sie machen den Stuhl ganz hart." },
@@ -100,13 +100,25 @@
     {
       "type": "multiple_choice",
       "data": {
+        "prompt": "🩸 Was machen Ballaststoffe mit dem Cholesterinspiegel im Blut?",
+        "options": [
+          { "text": "Sie senken ihn.", "correct": true },
+          { "text": "Sie erhöhen ihn." },
+          { "text": "Sie ändern ihn nicht." }
+        ],
+        "explanation": "Ballaststoffe senken den Cholesterinspiegel im Blut. Das ist ein weiterer Vorteil einer ballaststoffreichen Ernährung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
         "prompt": "⚖️ Ballaststoffe haben auch einen Nachteil. Welchen?",
         "options": [
           { "text": "Sie binden Mineralstoffe wie Calcium, der Körper nimmt sie schlechter auf.", "correct": true },
-          { "text": "Sie erhöhen den Cholesterinspiegel im Blut sehr stark und auf lange Zeit." },
+          { "text": "Sie liefern sehr viel Energie und machen deshalb schnell dick." },
           { "text": "Sie lassen den Blutzucker nach dem Essen sehr schnell ansteigen." }
         ],
-        "explanation": "Ballaststoffe binden bestimmte Stoffe, zum Beispiel Calcium. Dann wird weniger davon aufgenommen. Den Cholesterinspiegel senken Ballaststoffe dagegen, und der Blutzucker steigt langsamer."
+        "explanation": "Ballaststoffe binden bestimmte Stoffe, zum Beispiel Calcium. Dann wird weniger davon aufgenommen. Dick machen Ballaststoffe nicht: Sie machen satt und helfen gegen Übergewicht. Und der Blutzucker steigt langsamer."
       }
     },
     {

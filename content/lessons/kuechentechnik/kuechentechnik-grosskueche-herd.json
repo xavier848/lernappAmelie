@@ -54,9 +54,21 @@
       }
     },
     {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧩 Wie wird der Herd in der Großküche meistens aufgebaut?",
+        "options": [
+          { "text": "Mit anderen Gargeräten in kompakten Modulen.", "correct": true },
+          { "text": "Immer allein, mit viel Abstand zu anderen Geräten." },
+          { "text": "Immer als kleiner Herd auf Rollen." }
+        ],
+        "explanation": "Der Herd wird meist mit anderen Gargeräten zusammengebaut, zum Beispiel mit Kochkessel, Kippbratpfanne oder Fritteuse. So entstehen kompakte Module."
+      }
+    },
+    {
       "type": "match_pairs",
       "data": {
-        "prompt": "🍳 Welche Kochstelle ist das? Verbinde.",
+        "prompt": "🍳 Kochstellen und Zusatzherd in der Großküche: Was gehört zusammen? Verbinde.",
         "pairs": [
           { "left": {"text": "Gusskochplatte"}, "right": {"text": "30 × 30 cm oder 40 × 50 cm"} },
           { "left": {"text": "Glaskeramikkochfeld"}, "right": {"text": "Strahlung, Halogen, Induktion oder Gas"} },
@@ -82,7 +94,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚡ Wie viel Leistung hat ein Brenner an der Gaskochstelle?",
+        "prompt": "⚡ Wie viel Leistung hat ein Brenner an der Gaskochstelle in der Großküche?",
         "options": [
           { "text": "3,5 kW bis 8,5 kW.", "correct": true },
           { "text": "0,35 kW bis 0,85 kW." },
@@ -109,7 +121,7 @@
           { "text": "Nach der Größe normaler Kuchenbleche." },
           { "text": "Nach der Höhe der Küchendecke." }
         ],
-        "explanation": "Der Backofen in der Großküche ist auf die Maße der Gastro-Norm-Behälter ausgerichtet. So passen die genormten Behälter genau hinein."
+        "explanation": "Der Backofen in der Großküche ist auf die Maße der GN-Behälter ausgerichtet. Diese Behälter haben genormte Maße. So passen sie genau hinein."
       }
     },
     {

@@ -3,7 +3,7 @@
   "slug": "kaufvertrag-zahlung-lieferung",
   "title": "Zahlung, Lieferung und Gerichtsstand",
   "sort": 705,
-  "intro": "Bei größeren Käufen gibt es weitere Zahlungsbedingungen. Anzahlung: Du überweist schon mit der Bestellung einen Teil, zum Beispiel 25 % des Kaufbetrags. Den Zahlungsnachweis legst du der Bestellung bei.\n\nVorauszahlung: Du bezahlst zuerst den ganzen Betrag. Erst dann wird die Ware bereitgestellt oder geliefert. Das verlangen Verkäufer vor allem von Kunden, die früher schon Zahlungsschwierigkeiten hatten. Diese Kunden haben also nicht oder stark verspätet gezahlt.\n\nRatenzahlung: Du zahlst den Gesamtbetrag in festen Monatsbeträgen ab. Das dauert ein Jahr bis meist vier Jahre. Achtung: Ratenzahlung ist eine klassische Überschuldungsfalle. Überschuldet heißt: Man hat mehr Schulden, als man bezahlen kann.\n\nZahlung nach Ablauf einer Frist: Du zahlst erst später, zum Beispiel zwei Monate nach Erhalt der Rechnung.\n\nAuch die Lieferung wird im Vertrag geregelt. Ab Werk oder unfrei heißt: Der Verkäufer liefert nicht. Lieferung frei heißt: Du musst die Ware noch am nächsten Bahnhof abholen. Lieferung frei Haus heißt: Die Ware kommt wirklich bis an deine Haustür. Oft braucht die Ware eine bruchsichere Verpackung. Die Verpackungskosten zahlt der Käufer, wenn im Vertrag nichts anderes steht.\n\nWelches Angebot ist wirklich günstiger? Das siehst du nur, wenn du alles vergleichst: den Preis für gleich gute Ware, die Verpackungskosten, die Transportkosten, den Mengenrabatt, das Skonto und weitere geldwerte Leistungen. Das sind zum Beispiel kostenlose Wartung, Garantie oder Zusatzware. Lies dafür auch das Kleingedruckte im Vertrag.\n\nMit dem Erfüllungsort legt man im Vertrag meist auch den Gerichtsstand fest. Steht nichts im Vertrag, gilt das Gesetz: Bei Streit um die Ware ist das Gericht am Geschäftssitz des Verkäufers zuständig. Bei Streit um die Bezahlung ist es das Gericht am Firmensitz oder Wohnort des Käufers. Außerdem gilt: Bei einem Streitwert bis 5 000 € entscheidet das Amtsgericht, bei höheren Beträgen das Landgericht.\n\nMERKE: Frei Haus = bis an die Tür. Frei = bis zum nächsten Bahnhof. Die Verpackung zahlt der Käufer. Streitwert bis 5 000 € = Amtsgericht, darüber = Landgericht.",
+  "intro": "Bei größeren Käufen gibt es weitere Zahlungsbedingungen. Anzahlung: Du überweist schon mit der Bestellung einen Teil, zum Beispiel 25 % des Kaufbetrags. Den Zahlungsnachweis legst du der Bestellung bei.\n\nVorauszahlung: Du bezahlst zuerst den ganzen Betrag. Erst dann wird die Ware bereitgestellt oder geliefert. Das verlangen Verkäufer vor allem von Kunden, die früher schon Zahlungsschwierigkeiten hatten. Diese Kunden haben also nicht oder stark verspätet gezahlt.\n\nRatenzahlung: Du zahlst den Gesamtbetrag in festen Monatsbeträgen ab. Das dauert ein Jahr bis meist vier Jahre. Achtung: Ratenzahlung ist eine klassische Überschuldungsfalle. Überschuldet heißt: Man hat mehr Schulden, als man bezahlen kann.\n\nZahlung nach Ablauf einer Frist: Du zahlst erst später, zum Beispiel zwei Monate nach Erhalt der Rechnung.\n\nAuch die Lieferung wird im Vertrag geregelt. Ab Werk oder unfrei heißt: Der Verkäufer liefert nicht. Lieferung frei heißt: Du musst die Ware noch am nächsten Bahnhof abholen. Lieferung frei Haus heißt: Die Ware kommt wirklich bis an deine Haustür. Oft braucht die Ware eine bruchsichere Verpackung. Die Verpackungskosten zahlt der Käufer, wenn im Vertrag nichts anderes steht.\n\nWelches Angebot ist wirklich günstiger? Das siehst du nur, wenn du alles vergleichst: den Preis für gleich gute Ware, die Verpackungskosten, die Transportkosten, den Mengenrabatt, das Skonto und weitere geldwerte Leistungen. Das sind zum Beispiel kostenlose Wartung, Garantie oder Zusatzware. Lies dafür auch das Kleingedruckte im Vertrag.\n\nMit dem Erfüllungsort legt man im Vertrag meist auch den Gerichtsstand fest. Steht nichts im Vertrag, gilt das Gesetz: Bei Streit um die Ware ist das Gericht am Geschäftssitz des Verkäufers zuständig. Bei Streit um die Bezahlung ist es das Gericht am Firmensitz oder Wohnort des Käufers. Außerdem gilt: Der Betrag, um den gestritten wird, heißt Streitwert. Bei kleineren Streitwerten entscheidet das Amtsgericht. Bei hohen Streitwerten entscheidet das Landgericht. Die genaue Grenze legt ein Gesetz fest.\n\nMERKE: Frei Haus = bis an die Tür. Frei = bis zum nächsten Bahnhof. Die Verpackung zahlt der Käufer. Kleiner Streitwert = Amtsgericht, hoher Streitwert = Landgericht.",
   "exercises": [
     {
       "type": "sort_buckets",
@@ -133,12 +133,15 @@
       }
     },
     {
-      "type": "number_input",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🏛️ Bis zu welchem Streitwert in Euro entscheidet das Amtsgericht?",
-        "answer": 5000,
-        "hint": "Es ist eine runde Zahl mit drei Nullen.\nSie liegt zwischen 4 000 und 6 000.",
-        "explanation": "Bei Streitwerten bis 5 000 € ist laut Buch das Amtsgericht zuständig. Bei höheren Beträgen ist es das Landgericht."
+        "prompt": "🏛️ Das Heim streitet mit einem Händler um eine Rechnung über 400 €. Welches Gericht ist zuständig?",
+        "options": [
+          { "text": "Das Amtsgericht.", "correct": true },
+          { "text": "Das Landgericht." },
+          { "text": "Das Arbeitsgericht." }
+        ],
+        "explanation": "Der Betrag, um den gestritten wird, heißt Streitwert. Bei kleineren Streitwerten wie 400 € entscheidet das Amtsgericht. Bei hohen Streitwerten ist das Landgericht zuständig. Das Arbeitsgericht entscheidet Streit im Job, zum Beispiel um den Lohn."
       }
     },
     {

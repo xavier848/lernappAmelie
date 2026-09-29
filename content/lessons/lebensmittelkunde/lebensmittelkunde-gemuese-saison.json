@@ -2,7 +2,7 @@
   "topic_slug": "lebensmittelkunde",
   "slug": "lebensmittelkunde-gemuese-saison",
   "title": "Gemüse & Saison",
-  "intro": "🥕 Jedes Gemüse hat eine beste Zeit im Jahr. In dieser Zeit reift es bei uns auf dem Feld. Diese Zeit nennt man Saison oder Hauptangebotszeit. Manche Gemüse brauchen viel Wärme und Sonne. Sie reifen im Sommer, zum Beispiel Tomaten und Gurken. Andere Gemüse vertragen Kälte gut. Sie reifen erst spät im Jahr, im Herbst und Winter. In der Saison ist Gemüse frisch und schmeckt gut. Oft ist es dann auch günstiger. Außerhalb der Saison kommt es oft von weit her.",
+  "intro": "🥕 Jedes Gemüse hat eine beste Zeit im Jahr. In dieser Zeit reift es bei uns auf dem Feld. Diese Zeit nennt man Saison oder Hauptangebotszeit. Manche Gemüse brauchen viel Wärme und Sonne. Sie reifen im Sommer, zum Beispiel Tomaten und Gurken. Andere Gemüse vertragen Kälte gut. Sie reifen erst spät im Jahr, im Herbst und Winter. In der Saison ist Gemüse frisch und schmeckt gut. Oft ist es dann auch günstiger. Außerhalb der Saison kommt es oft von weit her.\n\nSo steht es im Saisonkalender: Kohlrabi gibt es frisch von Mai bis Oktober. Bohnen und Zucchini gibt es von Juni bis Oktober. Gurken gibt es von Juni bis September. Tomaten gibt es von Juli bis Oktober, Paprika von Juli bis September. Spinat hat zweimal Saison: im Frühling und im Herbst.\n\nKohl verträgt Kälte. Weißkohl gibt es frisch von Juni bis November, danach kommt er aus dem Lager. Rosenkohl gibt es frisch von Oktober bis Dezember. Grünkohl gibt es von November bis Februar.\n\nMERKE: Sommergemüse braucht Wärme, zum Beispiel Tomaten, Gurken und Bohnen. Wintergemüse verträgt Kälte, zum Beispiel Rosenkohl und Grünkohl.",
   "sort": 80,
   "exercises": [
     {
@@ -92,7 +92,8 @@
             "text": "Grünkohl",
             "bucket": "winter"
           }
-        ]
+        ],
+        "explanation": "Frag dich: Braucht das Gemüse viel Wärme und Sonne? Dann ist es ein Sommergemüse. Verträgt es Kälte gut? Dann bekommst du es frisch im Winter. Achtung: Kohlrabi heißt zwar Kohl, er ist aber ein Sommergemüse. Es gibt ihn von Mai bis Oktober."
       }
     },
     {
@@ -141,7 +142,8 @@
             }
           }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Achte auf den Anfang der Saison: Kohlrabi gibt es schon ab Mai, Bohnen ab Juni, Tomaten erst ab Juli. Alle drei gibt es bis Oktober. Spinat hat zweimal Saison: im Frühling und im Herbst. Rosenkohl verträgt Kälte, ihn gibt es im Winter."
       }
     },
     {
@@ -150,7 +152,7 @@
         "prompt": "🥦 Rosenkohl ist ein Wintergemüse. Wann kaufst du ihn am besten frisch vom Feld?",
         "options": [
           {
-            "text": "In der kalten Jahreszeit, von Herbst bis in den Winter.",
+            "text": "Von Herbst bis in den Winter.",
             "correct": true
           },
           {
@@ -185,14 +187,14 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "☀️❄️ Ordne das Gemüse der groben Jahreszeit zu.",
+        "prompt": "☀️❄️ Wann gibt es das Gemüse frisch vom Feld? Ordne Jahreszeit und Monate zu.",
         "pairs": [
           {
             "left": {
               "text": "🥒 Gurken"
             },
             "right": {
-              "text": "Sommer"
+              "text": "Sommer: Juni bis September"
             }
           },
           {
@@ -200,7 +202,7 @@
               "text": "🍅 Tomaten"
             },
             "right": {
-              "text": "Sommer"
+              "text": "Sommer und Herbst: Juli bis Oktober"
             }
           },
           {
@@ -208,7 +210,7 @@
               "text": "🥬 Weißkohl"
             },
             "right": {
-              "text": "Herbst und Winter"
+              "text": "Sommer und Herbst: Juni bis November"
             }
           },
           {
@@ -216,11 +218,12 @@
               "text": "🥦 Rosenkohl"
             },
             "right": {
-              "text": "Winter"
+              "text": "Herbst und Winter: Oktober bis Dezember"
             }
           }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Achte auf den ersten und den letzten Monat. Gurken und Tomaten brauchen Wärme, ihre Saison beginnt im Sommer. Kohl verträgt Kälte, seine Saison reicht weit in den Herbst. Achtung: Weißkohl ist kein reines Wintergemüse. Frisch gibt es ihn schon ab Juni. Im Winter kommt er aus dem Lager."
       }
     },
     {

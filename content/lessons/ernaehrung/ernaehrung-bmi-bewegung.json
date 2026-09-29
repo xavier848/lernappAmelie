@@ -3,7 +3,7 @@
   "slug": "ernaehrung-bmi-bewegung",
   "title": "Bewegung und Körpergewicht (BMI)",
   "sort": 592,
-  "intro": "🏃 Ausgewogene Ernährung, viel Bewegung und Sport gehören zusammen. Bewege dich 30 bis 60 Minuten am Tag. Mach Sport, idealerweise 2-mal pro Woche. Mit dem richtigen Körpergewicht fühlst du dich wohl und bleibst gesund.\n\nÜbergewicht bereitet vielen Krankheiten den Weg: Bluthochdruck, Diabetes Typ 2, Fettstoffwechselstörungen, koronare Herzkrankheit und Gicht. Koronare Herzkrankheit heißt: Die Herzkranzgefäße sind verengt.\n\nAuch Untergewicht birgt Risiken für die Gesundheit. Es kann gewollt sein, um einem Schönheitsideal zu entsprechen. Oder es entsteht durch eine schwere Krankheit. Bei alten Menschen kann es auch durch Einsamkeit entstehen.\n\nBewegung verbraucht weniger Energie, als viele denken. Regelmäßig bringt sie aber nur Vorteile: Die Muskeln werden beansprucht und verbrauchen Energie. Du bleibst beweglich. Und du fühlst dich seelisch wohler.\n\nDas Körpergewicht von Erwachsenen beurteilt man meist mit dem Body-Mass-Index, kurz BMI. So rechnest du: BMI = Körpergewicht in kg : (Körpergröße in m × Körpergröße in m). Beispiel aus dem Buch: 63 kg : (1,65 m × 1,65 m) = 63 : 2,7 = 23,3.\n\nDie Grenzwerte der WHO: Unter 18,5 ist Untergewicht. 18,5 bis 24,9 ist Normalgewicht. 25,0 bis 29,9 ist leichtes Übergewicht. 30,0 bis 39,9 ist deutliches Übergewicht. Über 40 ist schwerstes Übergewicht.\n\nMERKE: Normalgewicht heißt BMI 18,5 bis 24,9.",
+  "intro": "🏃 Ausgewogene Ernährung, viel Bewegung und Sport gehören zusammen. Bewege dich 30 bis 60 Minuten am Tag. Mach Sport, idealerweise 2-mal pro Woche. Mit dem richtigen Körpergewicht fühlst du dich wohl und bleibst gesund.\n\nÜbergewicht bereitet vielen Krankheiten den Weg: Bluthochdruck, Diabetes Typ 2, Fettstoffwechselstörungen, koronare Herzkrankheit und Gicht. Koronare Herzkrankheit heißt: Die Herzkranzgefäße sind verengt.\n\nAuch Untergewicht birgt Risiken für die Gesundheit. Es kann gewollt sein, um einem Schönheitsideal zu entsprechen. Oder es entsteht durch eine schwere Krankheit. Bei alten Menschen kann es auch durch Einsamkeit entstehen.\n\nBewegung verbraucht weniger Energie, als viele denken. Regelmäßig bringt sie aber nur Vorteile: Die Muskeln werden beansprucht und verbrauchen Energie. Du bleibst beweglich. Und du fühlst dich seelisch wohler.\n\nDas Körpergewicht von Erwachsenen beurteilt man meist mit dem Body-Mass-Index, kurz BMI. So rechnest du: BMI = Körpergewicht in kg : (Körpergröße in m × Körpergröße in m). Beispiel aus dem Buch: 63 kg : (1,65 m × 1,65 m). Genau ist 1,65 × 1,65 = 2,7225. Das Buch rundet auf 2,7. Dann ist 63 : 2,7 = 23,3. Rechnest du ohne Runden, kommt rund 23,1 heraus. Beides ist Normalgewicht.\n\nDie Grenzwerte der WHO: Unter 18,5 ist Untergewicht. 18,5 bis 24,9 ist Normalgewicht. 25,0 bis 29,9 ist leichtes Übergewicht. 30,0 bis 39,9 ist deutliches Übergewicht. Über 40 ist schwerstes Übergewicht.\n\nMERKE: Normalgewicht heißt BMI 18,5 bis 24,9.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -87,14 +87,14 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📏 Beispiel aus dem Buch: 63 kg und 1,65 m groß. Wie hoch ist der BMI?",
+        "prompt": "📏 Beispiel aus dem Buch: 63 kg, 1,65 m groß. Das Buch rundet 1,65 × 1,65 auf 2,7. Wie hoch ist dann der BMI?",
         "options": [
           { "text": "23,3", "correct": true },
           { "text": "38,2" },
-          { "text": "17,6" },
+          { "text": "170,1" },
           { "text": "26,1" }
         ],
-        "explanation": "1,65 × 1,65 sind rund 2,7. Dann rechnest du 63 : 2,7 = 23,3. Das liegt im Normalgewicht."
+        "explanation": "Mit dem gerundeten Wert rechnest du 63 : 2,7 = 23,3. Ohne Runden (63 : 2,7225) sind es rund 23,1. 38,2 kommt heraus, wenn man nur einmal durch 1,65 teilt. 170,1 kommt heraus, wenn man malnimmt statt teilt."
       }
     },
     {

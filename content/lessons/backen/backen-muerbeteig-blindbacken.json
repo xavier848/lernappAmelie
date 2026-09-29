@@ -67,12 +67,15 @@
       }
     },
     {
-      "type": "number_input",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Wie viele Minuten backst du einen Mürbeteigboden beim Blindbacken ungefähr vor?",
-        "answer": 15,
-        "hint": "Es ist eine Viertelstunde.",
-        "explanation": "Beim Blindbacken backst du den Boden etwa 15 Minuten bei 200 °C vor."
+        "prompt": "⏱️ Wie lange und wie heiß backst du einen Mürbeteigboden beim Blindbacken vor?",
+        "options": [
+          { "text": "Etwa 15 Minuten bei 200 °C.", "correct": true },
+          { "text": "Etwa 30 Minuten bei 160 °C." },
+          { "text": "Etwa 5 Minuten bei 250 °C." }
+        ],
+        "explanation": "Beim Blindbacken backst du den Boden etwa 15 Minuten bei 200 °C vor. Danach kommt die feuchte Füllung darauf."
       }
     },
     {

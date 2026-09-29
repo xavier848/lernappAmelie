@@ -1,9 +1,9 @@
 {
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-alkohol",
-  "title": "Alkohol: Wie viel ist zu viel?",
+  "title": "Alkohol: Energie und Gift",
   "sort": 589,
-  "intro": "🍷 Alkohol liefert Energie: 1 g Alkohol hat 29 kJ, das sind 7 kcal. Gleichzeitig ist Alkohol ein Gift. Deshalb gibt die DGE keine Empfehlung, Alkohol zu trinken.\n\nDie DGE nennt eine Menge, die gerade noch tolerierbar ist: 20 g Alkohol pro Tag für einen gesunden Mann und 10 g für eine gesunde Frau. Diese Mengen solltest du auf keinen Fall täglich trinken.\n\nWie viel Alkohol steckt in einem Getränk? Auf dem Etikett steht der Alkoholgehalt in Volumenprozent (Vol.-%). Alkohol hat eine Dichte von etwa 0,8 g pro ml. Das heißt: 1 ml Alkohol wiegt 0,8 g. 1 Vol.-% sind also 0,8 g Alkohol in 100 ml.\n\n20 g Alkohol sind schnell getrunken. So viel steckt jeweils in 0,5 l Bier, in 0,25 l Wein, in 0,25 l Sekt oder in 0,06 l Schnaps.\n\nAlkoholische Getränke sind weder für jeden Tag geeignet noch dafür, den Flüssigkeitsbedarf zu decken.\n\nMERKE: Tolerierbar sind höchstens 20 g Alkohol für Männer und 10 g für Frauen – und das nicht jeden Tag.",
+  "intro": "🍷 Alkohol liefert Energie: 1 g Alkohol hat 29 kJ, das sind 7 kcal. Gleichzeitig ist Alkohol ein Gift. Deshalb gibt es keine Empfehlung, Alkohol zu trinken.\n\nDas Buch nennt einen älteren Richtwert der DGE. Gerade noch tolerierbar sind danach 20 g Alkohol pro Tag für einen gesunden Mann und 10 g für eine gesunde Frau. Das ist keine Empfehlung, sondern eine Obergrenze. Diese Mengen solltest du auf keinen Fall täglich trinken.\n\n2024 hat die DGE diesen Richtwert ersetzt. Heute sagt sie: Es gibt keine Menge Alkohol ohne Risiko für die Gesundheit. Am besten trinkst du gar keinen Alkohol. Kinder, Jugendliche, Schwangere und Stillende sollen ganz darauf verzichten.\n\nWie viel Alkohol steckt in einem Getränk? Auf dem Etikett steht der Alkoholgehalt in Volumenprozent (Vol.-%). Alkohol hat eine Dichte von etwa 0,8 g pro ml. Das heißt: 1 ml Alkohol wiegt 0,8 g. 1 Vol.-% sind also 0,8 g Alkohol in 100 ml.\n\n20 g Alkohol sind schnell getrunken. So viel steckt jeweils in 0,5 l Bier, in 0,25 l Wein, in 0,25 l Sekt oder in 0,06 l Schnaps.\n\nAlkoholische Getränke sind weder für jeden Tag geeignet noch dafür, den Flüssigkeitsbedarf zu decken.\n\nMERKE: Alkohol ist ein Gift. Keine Menge ist ohne Risiko. Der alte Richtwert im Buch: höchstens 20 g für Männer und 10 g für Frauen – und das nicht jeden Tag.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -21,13 +21,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👨‍👩 Welche Alkoholmenge ist laut DGE gerade noch tolerierbar?",
+        "prompt": "📖 Welche Obergrenze nennt das Buch als gerade noch tolerierbar?",
         "options": [
           { "text": "Mann 20 g, Frau 10 g pro Tag", "correct": true },
           { "text": "Mann 10 g, Frau 20 g pro Tag" },
           { "text": "Mann und Frau je 50 g pro Tag" }
         ],
-        "explanation": "Für einen gesunden Mann gelten 20 g Alkohol pro Tag als tolerierbar, für eine gesunde Frau nur 10 g. Das ist keine Empfehlung, sondern eine Obergrenze."
+        "explanation": "Das Buch nennt für einen gesunden Mann 20 g und für eine gesunde Frau 10 g Alkohol pro Tag. Das ist keine Empfehlung, sondern eine Obergrenze. 2024 hat die DGE diesen Wert ersetzt. Heute sagt sie: Keine Menge Alkohol ist ohne Risiko."
       }
     },
     {
@@ -40,6 +40,18 @@
           { "text": "Ja, am Wochenende sogar doppelt." }
         ],
         "explanation": "Die genannten Mengen sollen auf keinen Fall täglich getrunken werden. Alkohol ist ein Gift, darum gibt es keine Empfehlung für den Konsum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚫 Was sagt die DGE heute zu Alkohol?",
+        "options": [
+          { "text": "Keine Menge ist ohne Risiko. Am besten verzichtest du.", "correct": true },
+          { "text": "Ein Glas Wein jeden Tag schützt das Herz und ist gesund." },
+          { "text": "Bis zur Obergrenze ist Alkohol für jeden ohne Risiko." }
+        ],
+        "explanation": "Alkohol ist ein Gift. Schon kleine Mengen können der Gesundheit schaden. Darum rät die DGE heute, am besten ganz auf Alkohol zu verzichten. Die Grenzwerte aus dem Buch sind keine Erlaubnis."
       }
     },
     {
@@ -61,7 +73,7 @@
         "prompt": "🥂 Ein Weißwein hat 10 Vol.-%. Du trinkst 0,2 l, also 200 ml. Wie viele Gramm Alkohol sind das?",
         "answer": 16,
         "hint": "Schritt 1: 10 % von 200 ml sind 20 ml reiner Alkohol.\nSchritt 2: 1 ml Alkohol wiegt 0,8 g.\n20 × 0,8 = ?",
-        "explanation": "10 % von 200 ml = 20 ml Alkohol. 20 ml × 0,8 g = 16 g Alkohol. Für eine Frau ist das schon mehr als die tolerierbare Tagesmenge."
+        "explanation": "10 % von 200 ml = 20 ml Alkohol. 20 ml × 0,8 g = 16 g Alkohol. Für eine Frau ist das schon mehr als die Obergrenze aus dem Buch."
       }
     },
     {
@@ -93,7 +105,7 @@
           { "text": "Das sind etwa 20 g Alkohol, genau die tolerierbare Menge." },
           { "text": "Das sind etwa 10 g Alkohol, also völlig unbedenklich." }
         ],
-        "explanation": "0,5 l Bier enthalten etwa 20 g Alkohol. 1 Liter ist doppelt so viel, also etwa 40 g. Das ist das Doppelte der tolerierbaren Menge für einen Mann."
+        "explanation": "0,5 l Bier enthalten etwa 20 g Alkohol. 1 Liter ist doppelt so viel, also etwa 40 g. Das ist das Doppelte der Obergrenze für einen Mann. Und auch weniger Alkohol ist nicht ohne Risiko."
       }
     },
     {
@@ -115,9 +127,9 @@
         "options": [
           { "text": "Alkohol liefert Energie und ist zugleich ein Gift.", "correct": true },
           { "text": "Alkohol ist gesund, wenn man ihn täglich trinkt." },
-          { "text": "Alkohol hat überhaupt keine Kalorien und ist harmlos." }
+          { "text": "Alkohol liefert überhaupt keine Energie und ist harmlos." }
         ],
-        "explanation": "Alkohol ist ein Energielieferant und gleichzeitig ein Gift. Deshalb empfiehlt die DGE keinen Alkohol. Die tolerierbare Menge ist nur eine Obergrenze."
+        "explanation": "Alkohol ist ein Energielieferant und gleichzeitig ein Gift. Deshalb empfiehlt die DGE keinen Alkohol. Am besten verzichtest du ganz darauf."
       }
     }
   ]

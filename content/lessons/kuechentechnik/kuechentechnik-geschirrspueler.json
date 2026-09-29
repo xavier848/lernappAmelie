@@ -95,8 +95,8 @@
         "prompt": "🔢 Für wie viele Maßgedecke gibt es Geschirrspüler?",
         "options": [
           { "text": "4 bis 14 Maßgedecke", "correct": true },
-          { "text": "1 bis 3 Maßgedecke" },
-          { "text": "20 bis 40 Maßgedecke" }
+          { "text": "6 bis 16 Maßgedecke" },
+          { "text": "2 bis 10 Maßgedecke" }
         ],
         "explanation": "Je nach Gerätetyp und Größe gibt es Geschirrspüler für 4 bis 14 Maßgedecke."
       }
@@ -105,9 +105,9 @@
       "type": "match_pairs",
       "data": {
         "prompt": "🏗️ Bauformen von Geschirrspülern. Verbinde.",
-        "explanation": "Frag dich: Sieht man vom Gerät noch etwas? Beim integrierbaren Gerät sieht man die Blende. Beim voll integrierbaren sieht man gar nichts. Das hoch integrierbare sitzt weiter oben im Hochschrank.",
+        "explanation": "Frag dich: Wo sitzt das Gerät, und sieht man noch etwas davon? Unter der Arbeitsplatte mit sichtbarer Blende: integrierbar. Ganz verdeckt, Blende innen an der Tür: voll integrierbar. Im Hochschrank: hoch integrierbar. Frei stehend: Standgerät.",
         "pairs": [
-          { "left": {"text": "🔲 Integrierbar"}, "right": {"text": "Möbeltür davor, Bedienblende sichtbar"} },
+          { "left": {"text": "🔲 Integrierbar"}, "right": {"text": "Unter der Arbeitsplatte, Bedienblende sichtbar"} },
           { "left": {"text": "🙈 Voll integrierbar"}, "right": {"text": "Ganz verdeckt, Schalterblende innen an der Tür"} },
           { "left": {"text": "⬆️ Hoch integrierbar"}, "right": {"text": "In einen Hochschrank eingebaut"} },
           { "left": {"text": "🧍 Standgerät"}, "right": {"text": "Steht als eigenes Gerät frei"} }
@@ -120,8 +120,8 @@
         "prompt": "🌟 Zum Schluss: Was bestimmt, wie gut das Geschirr beim Spülen sauber wird?",
         "options": [
           { "text": "Die Spülfaktoren", "correct": true },
-          { "text": "Die Farbe des Geschirrs" },
-          { "text": "Die Größe der Küche" }
+          { "text": "Die Zahl der Maßgedecke" },
+          { "text": "Die Bauform des Geräts" }
         ],
         "explanation": "Die Reinigungswirkung und das Ergebnis bestimmen die Spülfaktoren. Das gilt beim Spülen von Hand und in der Maschine."
       }

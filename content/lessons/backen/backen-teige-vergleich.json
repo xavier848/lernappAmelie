@@ -3,25 +3,27 @@
   "slug": "backen-teige-vergleich",
   "title": "Teige und Massen im Vergleich",
   "sort": 635,
-  "intro": "🔁 Diese Lektion wiederholt alle Teige und Massen. Du vergleichst sie miteinander.\n\nEine Masse wird gerührt oder geschlagen: Rührmasse, Biskuitmasse und Brandmasse. Die Brandmasse wird vorher im Topf abgebrannt. Ein Teig wird geknetet: Mürbeteig, Hefeteig und Quark-Öl-Teig. Blätterteig ist ein Nudelteig mit Ziehbutter oder Ziehmargarine.\n\nSo werden sie locker: Hefeteig durch Hefe. Quark-Öl-Teig durch Backpulver. Rührmasse vor allem durch Backpulver. Blätterteig durch Wasserdampf aus dem geschmolzenen Fett. Biskuit ist besonders schaumig gerührt und dehnt sich beim Backen aus. Bei der Brandmasse sorgen viele Eier und viel Flüssigkeit für den Hohlraum. Mürbeteig braucht kein Backtriebmittel.\n\nJeder Teig hat ein Verbot: Mürbeteig rührst du nie. Blätterteig knetest du nie zusammen. Biskuit rührst du nach dem Unterheben nicht mehr. Bei der Brandmasse rührst du die weiteren Eier nie in den heißen Teig.\n\nMERKE: Bei Biskuit, Brandmasse und Blätterteig bleibt die Ofentür während der Backzeit zu. Sonst fällt das Gebäck zusammen.\n\nBacktemperaturen: Mürbeteig 180 bis 200 °C. Blätterteig 200 bis 225 °C. Brandmasse 210 bis 230 °C.\n\nFür ein Gastro-Norm-Backblech brauchst du das 1,5-fache Rezept: bei Rührmasse, bei Biskuit, bei Quark-Öl-Teig und bei süßem Hefeteig. Nur für Pizza aus salzigem Hefeteig reicht 1 Rezept.\n\nBeim Blätterteig klebst du Ränder mit verquirltem Eiklar zusammen. Für Farbe und Glanz bestreichst du ihn mit verquirltem Eigelb.\n\nQuark-Öl-Teig kann Hefeteig oder Mürbeteig ersetzen. Er wird mit Backpulver gelockert und muss darum nicht gehen.",
+  "intro": "🔁 Diese Lektion wiederholt alle Teige und Massen. Du vergleichst sie miteinander.\n\nEine Masse wird gerührt oder geschlagen: Rührmasse, Biskuitmasse und Brandmasse. Die Brandmasse wird vorher im Topf abgebrannt. Ein Teig wird geknetet: Mürbeteig, Hefeteig und Quark-Öl-Teig. Blätterteig ist ein Nudelteig mit Ziehbutter oder Ziehmargarine.\n\nSo werden sie locker: Hefeteig durch Hefe. Quark-Öl-Teig durch Backpulver. Rührmasse vor allem durch Backpulver. Blätterteig durch Wasserdampf aus dem geschmolzenen Fett. Biskuit ist besonders schaumig gerührt und dehnt sich beim Backen aus. Bei der Brandmasse sorgen viele Eier und viel Flüssigkeit für den Hohlraum. Mürbeteig braucht kein Backtriebmittel.\n\nDiese Teige haben ein Verbot: Mürbeteig rührst du nie. Blätterteig knetest du nie zusammen. Biskuit rührst du nach dem Unterheben nicht mehr. Bei der Brandmasse rührst du die weiteren Eier nie in den heißen Teig.\n\nMERKE: Bei Biskuit, Brandmasse und Blätterteig bleibt die Ofentür während der Backzeit zu. Sonst fällt das Gebäck zusammen.\n\nBacktemperaturen: Mürbeteig 180 bis 200 °C. Blätterteig 200 bis 225 °C. Brandmasse 210 bis 230 °C.\n\nFür ein Gastro-Norm-Backblech brauchst du das 1,5-fache Rezept: bei Rührmasse, bei Biskuit, bei Quark-Öl-Teig und bei süßem Hefeteig. Nur für Pizza aus salzigem Hefeteig reicht 1 Rezept.\n\nBeim Blätterteig klebst du Ränder mit verquirltem Eiklar zusammen. Für Farbe und Glanz bestreichst du ihn mit verquirltem Eigelb.\n\nQuark-Öl-Teig kann Hefeteig oder Mürbeteig ersetzen. Er wird mit Backpulver gelockert und muss darum nicht gehen.",
   "exercises": [
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🥣 Masse oder Teig? Sortiere.",
+        "prompt": "🥣 Aus einer Masse oder aus einem Knetteig? Sortiere das Gebäck.",
         "buckets": [
-          { "id": "masse", "label": "Masse", "icon": "🥣" },
-          { "id": "teig", "label": "Knetteig", "icon": "🤲" }
+          { "id": "masse", "label": "Aus einer Masse", "icon": "🥣" },
+          { "id": "teig", "label": "Aus einem Knetteig", "icon": "🤲" }
         ],
         "items": [
-          { "text": "Rührmasse", "bucket": "masse" },
-          { "text": "Biskuitmasse", "bucket": "masse" },
-          { "text": "Brandmasse", "bucket": "masse" },
-          { "text": "Mürbeteig", "bucket": "teig" },
-          { "text": "Hefeteig", "bucket": "teig" },
-          { "text": "Quark-Öl-Teig", "bucket": "teig" }
+          { "text": "Windbeutel", "bucket": "masse" },
+          { "text": "Biskuitrolle", "bucket": "masse" },
+          { "text": "Limokuchen", "bucket": "masse" },
+          { "text": "Nuss-Muffins", "bucket": "masse" },
+          { "text": "Quiche", "bucket": "teig" },
+          { "text": "Pizza", "bucket": "teig" },
+          { "text": "Schokobrötchen", "bucket": "teig" },
+          { "text": "Hefezopf", "bucket": "teig" }
         ],
-        "explanation": "Der Name verrät es schon: Rührmasse, Biskuitmasse und Brandmasse sind Massen. Mürbeteig, Hefeteig und Quark-Öl-Teig sind Knetteige. Auch wenn du bei der Brandmasse die Eier mit den Knethaken unterarbeitest: Sie bleibt eine Masse."
+        "explanation": "Frag dich zuerst: Aus welchem Grundteig ist das Gebäck? Rührmasse, Biskuitmasse und Brandmasse sind Massen. Mürbeteig, Hefeteig und Quark-Öl-Teig sind Knetteige."
       }
     },
     {
@@ -31,11 +33,10 @@
         "pairs": [
           { "left": {"text": "🍞 Hefeteig"}, "right": {"text": "Hefe, also Pilzkulturen"} },
           { "left": {"text": "🥯 Quark-Öl-Teig"}, "right": {"text": "Backpulver"} },
-          { "left": {"text": "🥐 Blätterteig"}, "right": {"text": "Wasserdampf aus dem geschmolzenen Fett"} },
-          { "left": {"text": "🥧 Mürbeteig"}, "right": {"text": "Kein Backtriebmittel nötig"} }
+          { "left": {"text": "🥐 Blätterteig"}, "right": {"text": "Wasserdampf aus dem geschmolzenen Fett"} }
         ],
         "memory": false,
-        "explanation": "Jeder Teig hat seine eigene Lockerung. Hefe arbeitet durch Gärung. Backpulver bildet Gas. Beim Blätterteig treibt der Dampf aus dem Fett die Schichten hoch. Mürbeteig wird durch sein vieles Fett mürbe, ganz ohne Triebmittel."
+        "explanation": "Jeder Teig hat seine eigene Lockerung. Hefe arbeitet durch Gärung. Backpulver bildet Gas. Beim Blätterteig treibt der Dampf aus dem geschmolzenen Fett die Schichten hoch."
       }
     },
     {
@@ -46,7 +47,7 @@
           { "left": {"text": "🥧 Mürbeteig"}, "right": {"text": "Nie rühren, nur hacken oder kneten"} },
           { "left": {"text": "🥐 Blätterteig"}, "right": {"text": "Nie zusammenkneten"} },
           { "left": {"text": "🍰 Biskuit"}, "right": {"text": "Nach dem Unterheben nie mehr rühren"} },
-          { "left": {"text": "🥯 Brandmasse"}, "right": {"text": "Die weiteren Eier nie in den heißen Teig"} }
+          { "left": {"text": "🍮 Brandmasse"}, "right": {"text": "Die weiteren Eier nie in den heißen Teig"} }
         ],
         "memory": false,
         "explanation": "Mürbeteig wird geknetet, nie gerührt. Beim Blätterteig würde Kneten die Schichten zerstören. Beim Biskuit ginge die Luft verloren. Und bei der Brandmasse darf der Teig nicht mehr heiß sein, wenn die weiteren Eier dazukommen."
@@ -89,7 +90,7 @@
         "pairs": [
           { "left": {"text": "🥧 Mürbeteig"}, "right": {"text": "180 bis 200 °C, goldgelb"} },
           { "left": {"text": "🥐 Blätterteig"}, "right": {"text": "200 bis 225 °C, starke Hitze"} },
-          { "left": {"text": "🥯 Brandmasse"}, "right": {"text": "210 bis 230 °C, hohe Hitze"} }
+          { "left": {"text": "🍮 Brandmasse"}, "right": {"text": "210 bis 230 °C, hohe Hitze"} }
         ],
         "memory": false,
         "explanation": "Brandmasse braucht die höchste Hitze, damit die Flüssigkeit schnell verdampft. Blätterteig braucht starke Hitze, weil er ohne Zucker langsam bräunt. Mürbeteig backst du etwas kühler goldgelb, sonst schmeckt er bitter."

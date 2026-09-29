@@ -32,15 +32,15 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🔦 Plan B: Welche Lösung passt zu welchem Notfall? Verbinde.",
+        "prompt": "🔦 Notfall in der Küche: Welche Lösung passt zu welchem Notfall? Verbinde.",
         "pairs": [
           { "left": {"text": "⚡ Strom aus, kein Notstromaggregat"}, "right": {"text": "Auf dem Gasherd kochen"} },
           { "left": {"text": "🔥 Auch die Gasleitung fällt aus"}, "right": {"text": "Mit Gasflaschen aus dem Vorrat kochen"} },
           { "left": {"text": "🚰 Trinkwasser ist verunreinigt"}, "right": {"text": "Getränke in Flaschen aus dem Vorrat"} },
           { "left": {"text": "🏚️ Die eigene Küche ist abgebrannt"}, "right": {"text": "Notabsprache mit einer Nachbarküche"} },
-          { "left": {"text": "❄️ Langer Stromausfall im Winter"}, "right": {"text": "Zumindest warme Getränke für alle"} }
+          { "left": {"text": "🥶 Im Winter fällt die Heizung aus, alle frieren"}, "right": {"text": "Zumindest warme Getränke für alle"} }
         ],
-        "explanation": "Frag dich bei jedem Notfall: Was fällt genau aus, und was geht noch? Fehlt Strom, hilft Gas. Fehlt auch Gas aus der Leitung, helfen Gasflaschen. Fehlt die ganze Küche, hilft eine andere Küche."
+        "explanation": "Frag dich bei jedem Notfall: Was fällt genau aus, und was geht noch? Fehlt Strom, hilft Gas. Fehlt auch Gas aus der Leitung, helfen Gasflaschen. Frieren alle, helfen zumindest warme Getränke. Fehlt die ganze Küche, hilft eine andere Küche."
       }
     },
     {

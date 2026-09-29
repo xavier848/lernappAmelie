@@ -3,7 +3,7 @@
   "slug": "reinigungstechnik-verfahren-hartboden",
   "title": "Scheuern, Sprühen, Cleanern, Polieren",
   "sort": 665,
-  "intro": "Nassscheuern: Damit reinigst du Fußböden und sehr stark verschmutzte Oberflächen, zum Beispiel Backöfen. Auch schwer zugängliche Stellen unter Schränken gehören dazu. Die Flächen müssen wasserbeständig sein.\n\nVon Hand scheuerst du mit Schrubber, Bürsten und Pads. Mit Maschine nimmst du eine Scheuermaschine, eine Scheuersaugmaschine oder einen Reinigungsautomaten. Nassscheuern ist sehr kraftaufwendig. Bei großen Flächen setzt man deshalb eine Maschine zur Grundreinigung ein.\n\nSprühreinigung: für Oberflächen, die feuchtigkeitsempfindlich sind, nicht stark verschmutzt sind und in kurzen Abständen gereinigt werden. Du sprühst die Reinigungsflotte mit einer Sprühflasche oder einem Sprühgerät auf die schmutzige Stelle oder auf das Reinigungstextil. Dann nimmst du den gelösten Schmutz mit dem Textil auf. Du arbeitest mit wenig Wasser und einem hohen Anteil an Tensiden. Tenside sind die Stoffe im Reiniger, die den Schmutz lösen.\n\nCleanern, auch Sprayreinigung genannt: gegen starke Absatzstriche, Gehspuren oder hartnäckigen Schmutz. Reinigung und Pflege passieren in einem Arbeitsgang. Du nimmst eine Einscheibenmaschine oder eine Walzenmaschine mit weichen Bürstenwalzen oder Padwalzen.\n\nSo gehst du beim Cleanern vor: 1. Den Boden feucht oder nass wischen. 2. Trocknen lassen. 3. Die Pflegelösung in den Tank füllen. 4. Die Lösung auf den Boden sprühen. 5. Mit dem Gerät darüberfahren. Als laufende Unterhaltsreinigung cleanert man etwa alle zwei Wochen.\n\nPolieren: Im Großhaushalt poliert man, damit man das Cleanern hinausschieben kann. Leichte Gehspuren gehen dabei weg. Du schiebst die Einscheibenmaschine mit einem Polierpad über den Boden. Durch die Reibung erwärmt sich die obere Schicht. So entsteht Glanz.\n\nMERKE: Beim Cleanern reinigst und pflegst du in einem Arbeitsgang. Beim Polieren entsteht Glanz durch Reibung.",
+  "intro": "Nassscheuern: Damit reinigst du Fußböden und sehr stark verschmutzte Oberflächen, zum Beispiel Backöfen. Auch schwer zugängliche Stellen unter Schränken gehören dazu. Die Flächen müssen wasserbeständig sein.\n\nVon Hand scheuerst du mit Schrubber, Bürsten und Pads. Mit Maschine nimmst du eine Scheuermaschine, eine Scheuersaugmaschine oder einen Reinigungsautomaten. Nassscheuern ist sehr kraftaufwendig. Bei großen Flächen setzt man deshalb eine Maschine zur Grundreinigung ein.\n\nSprühreinigung: für Oberflächen, die feuchtigkeitsempfindlich sind, nicht stark verschmutzt sind und in kurzen Abständen gereinigt werden. Du sprühst die Reinigungsflotte mit einer Sprühflasche oder einem Sprühgerät auf die schmutzige Stelle oder auf das Reinigungstextil. Dann nimmst du den gelösten Schmutz mit dem Textil auf. Du arbeitest mit wenig Wasser und einem hohen Anteil an Tensiden. Tenside sind die Stoffe im Reiniger, die den Schmutz lösen.\n\nCleanern, auch Sprayreinigung genannt: gegen starke Absatzstriche, Gehspuren oder hartnäckigen Schmutz. Reinigung und Pflege passieren in einem Arbeitsgang. Du nimmst eine Einscheibenmaschine oder eine Walzenmaschine mit weichen Bürstenwalzen oder Padwalzen. Achtung: Sprayreinigung und Sprühreinigung klingen fast gleich. Die Sprühreinigung machst du mit Sprühflasche und Mopp. Die Sprayreinigung ist das Cleanern mit der Maschine.\n\nSo gehst du beim Cleanern vor: 1. Den Boden feucht oder nass wischen. 2. Trocknen lassen. 3. Die Pflegelösung in den Tank füllen. 4. Die Lösung auf den Boden sprühen. 5. Mit dem Gerät darüberfahren. Als laufende Unterhaltsreinigung cleanert man etwa alle zwei Wochen.\n\nPolieren: Im Großhaushalt poliert man, damit man das Cleanern hinausschieben kann. Leichte Gehspuren gehen dabei weg. Du schiebst die Einscheibenmaschine mit einem Polierpad über den Boden. Durch die Reibung erwärmt sich die obere Schicht. So entsteht Glanz.\n\nMERKE: Beim Cleanern reinigst und pflegst du in einem Arbeitsgang. Beim Polieren entsteht Glanz durch Reibung.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -28,8 +28,8 @@
         ],
         "items": [
           { "text": "Schrubber", "bucket": "hand" },
-          { "text": "Bürste", "bucket": "hand" },
-          { "text": "Pad", "bucket": "hand" },
+          { "text": "Handbürste", "bucket": "hand" },
+          { "text": "Handpad", "bucket": "hand" },
           { "text": "Scheuermaschine", "bucket": "maschine" },
           { "text": "Scheuersaugmaschine", "bucket": "maschine" },
           { "text": "Reinigungsautomat", "bucket": "maschine" }
@@ -123,6 +123,25 @@
           { "text": "Durch Scheuerpulver, das den Boden abschleift." }
         ],
         "explanation": "Beim Polieren schiebst du die Einscheibenmaschine mit einem Polierpad über den Boden. Durch die Reibung erwärmt sich die obere Schicht. So entsteht Glanz."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔀 Sprühreinigung oder Sprayreinigung (Cleanern)? Die Namen klingen fast gleich. Sortiere.",
+        "buckets": [
+          { "id": "spruehen", "label": "Sprühreinigung", "icon": "💨" },
+          { "id": "spray", "label": "Sprayreinigung (Cleanern)", "icon": "⚙️" }
+        ],
+        "items": [
+          { "text": "Sprühflasche und Mopp", "bucket": "spruehen" },
+          { "text": "Für feuchtigkeitsempfindliche Flächen", "bucket": "spruehen" },
+          { "text": "Wenig Wasser, viel Tenside", "bucket": "spruehen" },
+          { "text": "Einscheibenmaschine oder Walzenmaschine", "bucket": "spray" },
+          { "text": "Pflegelösung in den Tank füllen", "bucket": "spray" },
+          { "text": "Gegen starke Absatzstriche", "bucket": "spray" }
+        ],
+        "explanation": "Frag dich: Arbeitest du mit Sprühflasche und Mopp? Dann ist es die Sprühreinigung. Fährst du mit einer Maschine und einer Pflegelösung im Tank über den Boden? Dann ist es die Sprayreinigung, also das Cleanern."
       }
     },
     {

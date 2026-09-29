@@ -77,7 +77,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎂 Welches Gerät braucht an diesem Tag den wenigsten Strom?",
+        "prompt": "🎂 Welches Gerät braucht an diesem Tag am wenigsten Strom?",
         "options": [
           { "text": "Das Handrührgerät.", "correct": true },
           { "text": "Die Mikrowelle." },
@@ -122,10 +122,10 @@
         "prompt": "⚡ Wofür steht die Abkürzung kWh?",
         "options": [
           { "text": "Kilowattstunde.", "correct": true },
-          { "text": "Kilowärmehöhe." },
-          { "text": "Kraftwerksheizung." }
+          { "text": "Kilowatt pro Stunde." },
+          { "text": "Kilowatt-Höchstwert." }
         ],
-        "explanation": "kWh heißt Kilowattstunde. Das ist die Einheit, in der dein Stromverbrauch gemessen und bezahlt wird."
+        "explanation": "kWh heißt Kilowattstunde. Das ist die Einheit, in der dein Stromverbrauch gemessen und bezahlt wird. Achtung: nicht „pro Stunde“. Du rechnest Kilowatt mal Stunden."
       }
     }
   ]

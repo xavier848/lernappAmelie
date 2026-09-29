@@ -3,7 +3,7 @@
   "slug": "betreuung-altersstufen",
   "title": "Altersstufen: vom Säugling zum Senior",
   "sort": 660,
-  "intro": "Das Leben teilt man in Altersstufen ein. Die Zahlen in der Tabelle im Buch sind Durchschnittsangaben.\n\nSäuglingsalter: bis zum 1. Lebensjahr.\n\nKindheit: 1 bis 12 Jahre. Dazu gehören: Kleinkind (1 bis 3 Jahre), Vorschulkind (4 bis 5 Jahre), Grundschulkind (6 bis 8 Jahre) und späte Kindheit oder Schulkind (9 bis 12 Jahre).\n\nJugendalter: 13 bis 18 Jahre. Das Jugendalter heißt auch Adoleszenz. Man unterscheidet: frühe Adoleszenz (11 bis 14 Jahre), mittlere Adoleszenz (15 bis 17 Jahre) und späte Adoleszenz (18 bis 21 Jahre).\n\nJunger Erwachsener: 22 bis 25 Jahre. Erwachsener: 25 bis 65 Jahre.\n\nSenioren: ab 66 Jahren. Dazu gehören: junge, aktive Alte (66 bis 74 Jahre), Hochbetagte (75 bis 90 Jahre), Höchstbetagte (90 bis 100 Jahre) und Langlebige (über 100 Jahre).\n\nMERKE: Die Altersstufen sind fließend. Manche Menschen übernehmen schon mit 16 Jahren als Erwachsene Verantwortung für ein eigenes Kind. Andere gehen vor der Rente in den Ruhestand. Sie gehören dann vielleicht schon mit 55 Jahren zu den Senioren.",
+  "intro": "Das Leben teilt man in Altersstufen ein. Die Zahlen in der Tabelle im Buch sind Durchschnittsangaben.\n\nSäuglingsalter: bis zum 1. Lebensjahr.\n\nKindheit: 1 bis 12 Jahre. Dazu gehören: Kleinkind (1 bis 3 Jahre), Vorschulkind (4 bis 5 Jahre), Grundschulkind (6 bis 8 Jahre) und späte Kindheit oder Schulkind (9 bis 12 Jahre). Im Alltag nennt man Kinder von etwa 3 bis 6 Jahren auch Kindergartenkinder.\n\nJugendalter: 13 bis 18 Jahre. Das Jugendalter heißt auch Adoleszenz. Man unterscheidet: frühe Adoleszenz (11 bis 14 Jahre), mittlere Adoleszenz (15 bis 17 Jahre) und späte Adoleszenz (18 bis 21 Jahre). Die drei Stufen der Adoleszenz reichen also von 11 bis 21 Jahren.\n\nJunger Erwachsener: 22 bis 25 Jahre. Erwachsener: 25 bis 65 Jahre.\n\nSenioren: ab 66 Jahren. Dazu gehören: junge, aktive Alte (66 bis 74 Jahre), Hochbetagte (75 bis 90 Jahre), Höchstbetagte (90 bis 100 Jahre) und Langlebige (über 100 Jahre).\n\nAchtung: Im Kapitel „Ernährung im Alter“ steht eine andere Einteilung. Dort teilt die Gerontologie, die Alternsforschung, so ein: junge Alte 60 bis 70 Jahre, mittlere Alte 70 bis 80 Jahre, Hochbetagte über 80 Jahre. Die Altersgrenzen sind also nicht überall gleich. Die Reihenfolge bleibt aber: erst die jungen Alten, später die Hochbetagten.\n\nMERKE: Die Altersstufen sind fließend. Manche Menschen übernehmen schon mit 16 Jahren als Erwachsene Verantwortung für ein eigenes Kind. Andere gehen vor der Rente in den Ruhestand. Sie gehören dann vielleicht schon mit 55 Jahren zu den Senioren.",
   "exercises": [
     {
       "type": "steps_order",
@@ -38,21 +38,21 @@
       "data": {
         "prompt": "🎂 Ab welchem Alter zählt man laut Tabelle zu den Senioren? Tippe die Zahl ein.",
         "answer": 66,
-        "hint": "Die Zahl liegt zwischen 60 und 70.\nBeide Ziffern sind gleich.",
+        "hint": "Das Erwachsenenalter geht bis 65 Jahre.\nDie Senioren beginnen direkt danach.",
         "explanation": "Laut Tabelle zählt man ab 66 Jahren zu den Senioren. Das Erwachsenenalter geht von 25 bis 65 Jahre."
       }
     },
     {
-      "type": "match_pairs",
+      "type": "steps_order",
       "data": {
-        "prompt": "👵 Auch die Senioren teilt man ein. Verbinde jede Gruppe mit dem Alter.",
-        "pairs": [
-          { "left": {"text": "Junge, aktive Alte"}, "right": {"text": "66 bis 74 Jahre"} },
-          { "left": {"text": "Hochbetagte"}, "right": {"text": "75 bis 90 Jahre"} },
-          { "left": {"text": "Höchstbetagte"}, "right": {"text": "90 bis 100 Jahre"} },
-          { "left": {"text": "Langlebige"}, "right": {"text": "über 100 Jahre"} }
+        "prompt": "👵 Auch die Senioren teilt die Tabelle in Gruppen ein. Bringe die Gruppen in die richtige Reihenfolge, von jung nach alt.",
+        "steps": [
+          { "text": "Junge, aktive Alte" },
+          { "text": "Hochbetagte" },
+          { "text": "Höchstbetagte" },
+          { "text": "Langlebige" }
         ],
-        "explanation": "Die Gruppen werden immer älter: junge, aktive Alte, dann Hochbetagte, dann Höchstbetagte und zuletzt die Langlebigen über 100 Jahre. Höchst- ist mehr als Hoch-."
+        "explanation": "Die Regel: Höchst- ist mehr als Hoch-. Darum kommen die Höchstbetagten (90 bis 100 Jahre) nach den Hochbetagten. Am Anfang stehen die jungen, aktiven Alten. Ganz am Ende stehen die Langlebigen über 100 Jahre."
       }
     },
     {
@@ -65,7 +65,7 @@
           { "text": "Früh 9 bis 12, mittel 13 bis 15, spät 16 bis 18 Jahre." },
           { "text": "Früh 15 bis 18, mittel 19 bis 22, spät 23 bis 25 Jahre." }
         ],
-        "explanation": "Die frühe Adoleszenz dauert von 11 bis 14, die mittlere von 15 bis 17 und die späte von 18 bis 21 Jahren. Die Adoleszenz reicht also über das Jugendalter von 13 bis 18 hinaus."
+        "explanation": "Die frühe Adoleszenz dauert von 11 bis 14, die mittlere von 15 bis 17 und die späte von 18 bis 21 Jahren. Die drei Stufen reichen also von 11 bis 21 Jahren. Sie beginnen früher und enden später als die Zeile Jugendalter (13 bis 18 Jahre)."
       }
     },
     {

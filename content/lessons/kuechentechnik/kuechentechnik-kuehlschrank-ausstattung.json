@@ -86,7 +86,7 @@
       "type": "match_pairs",
       "data": {
         "prompt": "🌡️ Wie kalt ist es wo? Beispiel für statische Kühlung. Verbinde.",
-        "explanation": "Oben im Kühlschrank ist es wärmer, unten über dem Gemüsefach am kältesten. Das Gemüsefach selbst ist wieder etwas wärmer. In der Tür ist es oben am wärmsten.",
+        "explanation": "Denk an die Luft: Warme Luft steigt nach oben, kalte sinkt nach unten. Darum ist es oben wärmer als unten über dem Gemüsefach. Das Gemüsefach selbst ist wieder etwas wärmer.",
         "pairs": [
           { "left": {"text": "⬆️ Oberes Fach"}, "right": {"text": "etwa +7 bis +9 °C"} },
           { "left": {"text": "⏺️ Mittleres Fach"}, "right": {"text": "etwa +5 °C"} },
@@ -114,8 +114,8 @@
         "prompt": "🔄 Was ist eine dynamische Kühlung?",
         "options": [
           { "text": "Ein Ventilator verteilt die kalte Luft gleichmäßig.", "correct": true },
-          { "text": "Das Gerät kühlt nur nachts, wenn es draußen kalt ist." },
-          { "text": "Die Tür bewegt sich von selbst zum Lüften." }
+          { "text": "Ein Kocher mit Ammoniak erzeugt die Kälte." },
+          { "text": "Die Temperatur wechselt ständig zwischen kalt und warm." }
         ],
         "explanation": "Dynamische Kühlung heißt auch Umluftkühlung. Ein eingebauter Ventilator verteilt die Kaltluft gleichmäßig im Innenraum. Moderne und gehobene Geräte haben sie."
       }
@@ -126,7 +126,7 @@
         "prompt": "🌟 Zum Schluss: Aus welchem Material sind die Innenwände eines Kühlschranks meistens?",
         "options": [
           { "text": "Aus Kunststoff", "correct": true },
-          { "text": "Aus Holz" },
+          { "text": "Aus Edelstahl" },
           { "text": "Aus dickem Glas" }
         ],
         "explanation": "Die Innenwände sind meist aus Kunststoff. Manchmal auch aus speziell lackiertem Stahlblech oder Leichtmetall."

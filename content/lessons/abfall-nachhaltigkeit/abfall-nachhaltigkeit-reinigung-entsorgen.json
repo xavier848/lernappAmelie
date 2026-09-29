@@ -10,11 +10,11 @@
       "data": {
         "prompt": "📦 Wer nimmt welche Verpackung zurück? Verbinde.",
         "pairs": [
-          { "left": {"text": "Transportverpackung"}, "right": {"text": "Hersteller oder Lieferant"} },
-          { "left": {"text": "Umverpackung"}, "right": {"text": "Die Verkaufsstelle muss sie zurücknehmen"} },
-          { "left": {"text": "Verkaufsverpackung"}, "right": {"text": "Handel kostenlos oder Duales System"} }
+          { "left": {"text": "Transportverpackung"}, "right": {"text": "Zurück an Hersteller oder Lieferant"} },
+          { "left": {"text": "Umverpackung"}, "right": {"text": "Rücknahmepflicht der Verkaufsstelle"} },
+          { "left": {"text": "Verkaufsverpackung"}, "right": {"text": "Kostenlose Abholung über das Duale System"} }
         ],
-        "explanation": "Frag dich: Wofür war die Verpackung da? Für den Transport, um mehrere Produkte zusammenzuhalten, oder für den Verkauf an dich? Danach richtet sich, wer sie zurücknimmt."
+        "explanation": "Frag dich: Wofür war die Verpackung da? Für den Transport, als Hülle um einzeln verpackte Produkte oder für den Verkauf an dich? Transportverpackungen gehen zurück an Hersteller oder Lieferant. Umverpackungen muss die Verkaufsstelle zurücknehmen. Verkaufsverpackungen nimmt der Handel kostenlos zurück, oder das Duale System holt sie ab."
       }
     },
     {
@@ -104,14 +104,14 @@
           { "id": "fehler", "label": "Da steckt ein Fehler drin", "icon": "❌" }
         ],
         "items": [
-          { "text": "Eine leere Reinigungsmittelflasche entsorgen", "bucket": "richtig" },
+          { "text": "Reinigungsmittelflasche vor dem Entsorgen ganz leeren", "bucket": "richtig" },
           { "text": "Kleine Menge Sondermüll zur mobilen Sammelstation", "bucket": "richtig" },
           { "text": "Müllsäcke aus Recycling-Folie nehmen", "bucket": "richtig" },
           { "text": "Eine halbvolle Reinigungsmittelflasche in den Restmüll", "bucket": "fehler" },
           { "text": "Papierhandtücher ins WC werfen", "bucket": "fehler" },
           { "text": "Eine große Menge Sondermüll in den Restmüll", "bucket": "fehler" }
         ],
-        "explanation": "Frag dich: Gelangen dabei Schadstoffe in den Müll oder Abfälle ins Abwasser? Dann ist es ein Fehler. Leere Behälter, getrennter Sondermüll und Recycling-Säcke sind richtig."
+        "explanation": "Frag dich: Gelangen dabei Schadstoffe in den Müll oder Abfälle ins Abwasser? Dann ist es ein Fehler. Behälter ganz leeren, Sondermüll getrennt abgeben und Recycling-Säcke nehmen ist richtig."
       }
     },
     {

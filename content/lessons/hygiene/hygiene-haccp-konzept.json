@@ -8,7 +8,7 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🔤 Die englischen Wörter hinter HACCP. Was heißen sie? Verbinde.",
+        "prompt": "🔤 Die Wörter hinter HACCP. Was heißen sie auf Deutsch? Verbinde.",
         "pairs": [
           { "left": {"text": "Hazard"}, "right": {"text": "Gefahr, Risiko"} },
           { "left": {"text": "Analysis"}, "right": {"text": "Analyse, Untersuchung"} },
@@ -17,7 +17,7 @@
           { "left": {"text": "Points"}, "right": {"text": "Punkte"} }
         ],
         "memory": false,
-        "explanation": "Viele englische Wörter ähneln den deutschen: Analysis wie Analyse, Critical wie kritisch, Control wie Kontrolle, Points wie Punkte. Nur Hazard musst du dir extra merken: Es heißt Gefahr."
+        "explanation": "Viele der Wörter ähneln deutschen Wörtern: Analysis wie Analyse, Critical wie kritisch, Control wie Kontrolle, Points wie Punkte. Nur Hazard musst du dir extra merken: Es heißt Gefahr."
       }
     },
     {
@@ -75,8 +75,8 @@
         "prompt": "🧺 Wo wird HACCP außer in der Küche noch angewendet?",
         "options": [
           { "text": "In der Wäschepflege und in der Hauspflege.", "correct": true },
-          { "text": "Nur in der Metzgerei und in der Bäckerei." },
-          { "text": "Nur im Operationssaal eines Krankenhauses." }
+          { "text": "In der Gartenpflege und im Winterdienst." },
+          { "text": "In der Buchhaltung und in der Verwaltung." }
         ],
         "explanation": "HACCP dient nicht nur in der Küche der Qualitätssicherung. Auch in der Wäsche- und Hauspflege findet man die kritischen Punkte und kontrolliert sie."
       }

@@ -3,12 +3,12 @@
   "slug": "kommunikation-beruf-buchstabieren-international",
   "title": "Buchstabieralphabet: International",
   "sort": 582,
-  "intro": "🌍 Neben dem deutschen gibt es auch ein internationales Buchstabieralphabet. Darin stehen vor allem Namen von Städten und Ländern. Im deutschen Alphabet stehen dagegen meist Vornamen.\n\nDas internationale Buchstabieralphabet, Teil 1: A wie Amsterdam, B wie Budapest, C wie Casablanca, D wie Dänemark, E wie Ekuador, F wie Fleurop, G wie Gerbera, H wie Hongkong, I wie Interflora, J wie Jerusalem, K wie Kilo, L wie Liverpool, M wie Mexiko.\n\nTeil 2: N wie New York, O wie Oslo, P wie Paris, Q wie Quebec, R wie Roma, S wie Singapore, T wie Thailand, U wie Upsala, V wie Valencia, W wie Washington, X wie Xray, Y wie Yokohama, Z wie Zürich.\n\nVergleiche einige Buchstaben: K wie Kaufmann (deutsch) und K wie Kilo (international). N wie Nordpol und N wie New York. Q wie Quelle und Q wie Quebec. S wie Siegfried und S wie Singapore.\n\nMERKE: So steht es in deinem Buch: Ekuador mit K, Roma statt Rom und Singapore mit e am Ende.",
+  "intro": "🌍 Neben dem deutschen gibt es auch ein internationales Buchstabieralphabet. In der Liste aus deinem Buch stehen vor allem Namen von Städten und Ländern. Im deutschen Alphabet stehen dagegen meist Vornamen.\n\nDas internationale Buchstabieralphabet aus deinem Buch, Teil 1: A wie Amsterdam, B wie Budapest, C wie Casablanca, D wie Dänemark, E wie Ekuador, F wie Fleurop, G wie Gerbera, H wie Hongkong, I wie Interflora, J wie Jerusalem, K wie Kilo, L wie Liverpool, M wie Mexiko.\n\nTeil 2: N wie New York, O wie Oslo, P wie Paris, Q wie Quebec, R wie Roma, S wie Singapore, T wie Thailand, U wie Upsala, V wie Valencia, W wie Washington, X wie Xray, Y wie Yokohama, Z wie Zürich.\n\nEin paar Wörter sind keine Orte. Fleurop und Interflora sind Blumen-Lieferdienste. Gerbera ist eine Blume. Kilo und Xray sind kurze Wörter.\n\nVergleiche einige Buchstaben: K wie Kaufmann (deutsch) und K wie Kilo (international). N wie Nordpol und N wie New York. Q wie Quelle und Q wie Quebec. S wie Siegfried und S wie Singapore.\n\nAchte auf die Schreibweise im Buch: Ekuador mit K, Roma statt Rom und Singapore mit e am Ende.\n\nGut zu wissen: Heute benutzt man international meist ein anderes Alphabet. Es kommt aus der Luftfahrt und heißt auch NATO-Alphabet: A wie Alfa, B wie Bravo, C wie Charlie und so weiter. In dieser Lektion übst du die Liste aus deinem Buch.\n\nMERKE: In der internationalen Liste aus deinem Buch stehen vor allem Städte und Länder. In der deutschen Liste stehen vor allem Vornamen.",
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Welche Reihe stimmt im internationalen Alphabet für A, B und C?",
+        "prompt": "🌍 Internationales Alphabet aus deinem Buch: Welche Reihe stimmt für A, B und C?",
         "options": [
           { "text": "Amsterdam – Budapest – Casablanca", "correct": true },
           { "text": "Amsterdam – Brüssel – Casablanca" },
@@ -21,7 +21,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Welche Reihe stimmt für D, E und F?",
+        "prompt": "🌍 Welche Reihe stimmt laut Buch für D, E und F?",
         "options": [
           { "text": "Dänemark – Ekuador – Fleurop", "correct": true },
           { "text": "Dublin – Ekuador – Fleurop" },
@@ -34,7 +34,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Welche Reihe stimmt für G, H und I?",
+        "prompt": "🌍 Welche Reihe stimmt laut Buch für G, H und I?",
         "options": [
           { "text": "Gerbera – Hongkong – Interflora", "correct": true },
           { "text": "Genf – Hongkong – Interflora" },
@@ -47,7 +47,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Welche Reihe stimmt für J, K und L?",
+        "prompt": "🌍 Welche Reihe stimmt laut Buch für J, K und L?",
         "options": [
           { "text": "Jerusalem – Kilo – Liverpool", "correct": true },
           { "text": "Japan – Kilo – Liverpool" },
@@ -60,28 +60,28 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "✅ Stimmt das Wort im internationalen Alphabet? Sortiere M bis T.",
-        "explanation": "Frag dich bei jedem Buchstaben: Welche Stadt oder welches Land steht in der Liste? Richtig sind N wie New York, P wie Paris, R wie Roma und T wie Thailand.",
+        "prompt": "✅ Stimmt das Wort im internationalen Alphabet aus deinem Buch? Sortiere M bis T.",
+        "explanation": "Frag dich bei jedem Buchstaben: Welche Stadt oder welches Land steht in der Liste? Nur genau dieses Wort gilt. Eine andere Stadt mit demselben Anfangsbuchstaben ist falsch.",
         "buckets": [
-          { "id": "ja", "label": "Richtig", "icon": "✅" },
-          { "id": "nein", "label": "Falsch", "icon": "❌" }
+          { "id": "ja", "label": "Wort aus der Liste", "icon": "✅" },
+          { "id": "nein", "label": "Falsches Wort", "icon": "❌" }
         ],
         "items": [
           { "text": "M wie Mexiko", "bucket": "ja" },
           { "text": "N wie Neapel", "bucket": "nein" },
           { "text": "O wie Oslo", "bucket": "ja" },
           { "text": "P wie Prag", "bucket": "nein" },
-          { "text": "Q wie Quebec", "bucket": "ja" },
-          { "text": "R wie Riga", "bucket": "nein" },
-          { "text": "S wie Singapore", "bucket": "ja" },
-          { "text": "T wie Tokio", "bucket": "nein" }
+          { "text": "Q wie Quito", "bucket": "nein" },
+          { "text": "R wie Roma", "bucket": "ja" },
+          { "text": "S wie Stockholm", "bucket": "nein" },
+          { "text": "T wie Thailand", "bucket": "ja" }
         ]
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Welche Reihe stimmt für U, V und W?",
+        "prompt": "🌍 Welche Reihe stimmt laut Buch für U, V und W?",
         "options": [
           { "text": "Upsala – Valencia – Washington", "correct": true },
           { "text": "Utrecht – Valencia – Washington" },
@@ -94,7 +94,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Welche Reihe stimmt für X, Y und Z?",
+        "prompt": "🌍 Welche Reihe stimmt laut Buch für X, Y und Z?",
         "options": [
           { "text": "Xray – Yokohama – Zürich", "correct": true },
           { "text": "Xenon – Yokohama – Zürich" },
@@ -107,8 +107,8 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🔀 Deutsches oder internationales Buchstabieralphabet? Sortiere.",
-        "explanation": "Frag dich: Ist es ein Vorname oder ein deutsches Wort? Dann ist es meist deutsch. Ist es eine Stadt, ein Land oder ein kurzes Fremdwort? Dann ist es meist international.",
+        "prompt": "🔀 Aus welcher Liste in deinem Buch kommt das Wort? Sortiere.",
+        "explanation": "Frag dich: Ist es ein Vorname oder ein deutsches Wort wie Zeppelin? Dann kommt es aus der deutschen Liste. Ist es eine Stadt oder ein Land? Dann kommt es aus der internationalen Liste. Achtung: Der Nordpol ist zwar ein Ort, steht aber in der deutschen Liste. Das kurze Wort Kilo steht in der internationalen Liste.",
         "buckets": [
           { "id": "de", "label": "Deutsch", "icon": "🇩🇪" },
           { "id": "int", "label": "International", "icon": "🌍" }
@@ -128,7 +128,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👂 Eine Kollegin buchstabiert international: „Paris – Amsterdam – Upsala – Liverpool“. Welcher Name ist das?",
+        "prompt": "👂 Eine Kollegin buchstabiert mit der internationalen Liste aus deinem Buch: „Paris – Amsterdam – Upsala – Liverpool“. Welcher Name ist das?",
         "options": [
           { "text": "Paul", "correct": true },
           { "text": "Pauli" },
@@ -141,8 +141,8 @@
     {
       "type": "steps_order",
       "data": {
-        "prompt": "📞 Buchstabiere den Namen „Wolf“ mit dem internationalen Alphabet. Bringe die Wörter in die richtige Reihenfolge.",
-        "explanation": "Du buchstabierst Buchstabe für Buchstabe von vorne nach hinten: W wie Washington, O wie Oslo, L wie Liverpool, F wie Fleurop.",
+        "prompt": "📞 Buchstabiere den Namen „Wolf“ mit der internationalen Liste aus deinem Buch. Bringe die Wörter in die richtige Reihenfolge.",
+        "explanation": "Du buchstabierst Buchstabe für Buchstabe, von vorne nach hinten. Sprich den Namen leise mit: W – O – L – F. Dann suchst du zu jedem Buchstaben das Wort aus der internationalen Liste.",
         "steps": [
           { "text": "Washington" },
           { "text": "Oslo" },
@@ -154,13 +154,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Zum Schluss: Welches Wort steht im internationalen Alphabet für das A?",
+        "prompt": "🌟 Zum Schluss: Welches Wort steht in deinem Buch im internationalen Alphabet für das A?",
         "options": [
           { "text": "Amsterdam", "correct": true },
           { "text": "Anton" },
           { "text": "Athen" }
         ],
-        "explanation": "Im internationalen Alphabet steht A wie Amsterdam. Anton ist das Wort im deutschen Alphabet. Athen steht in keiner der beiden Listen."
+        "explanation": "In deinem Buch steht im internationalen Alphabet A wie Amsterdam. Anton ist das Wort im deutschen Alphabet. Athen steht in keiner der beiden Listen."
       }
     }
   ]

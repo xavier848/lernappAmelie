@@ -10,11 +10,11 @@
       "data": {
         "prompt": "🥪 Wie ist ein Sandwichboden aufgebaut?",
         "options": [
-          { "text": "Aluminium oder Kupfer zwischen zwei Schichten Edelstahl.", "correct": true },
-          { "text": "Edelstahl zwischen zwei dicken Schichten Kupfer oder Silber." },
-          { "text": "Eine dicke Schicht Gusseisen mit einer Emailleschicht darüber." }
+          { "text": "Aluminium oder Kupfer zwischen Edelstahl, mit Silberlot verbunden.", "correct": true },
+          { "text": "Edelstahl zwischen zwei dicken Schichten Kupfer, mit Zinn verbunden." },
+          { "text": "Gusseisen mit einer Emailleschicht darüber, fest eingebrannt." }
         ],
-        "explanation": "Beim Sandwichboden oder Kompensboden liegt ein gut leitendes Metall wie Aluminium oder Kupfer in der Mitte. Oben und unten ist Edelstahl. Die Schichten hält Silberlot zusammen."
+        "explanation": "Beim Sandwichboden oder Kompensboden liegt ein gut leitendes Metall in der Mitte: Aluminium oder Kupfer. Oben und unten ist Edelstahl. Silberlot hält die Schichten zusammen."
       }
     },
     {
@@ -83,13 +83,25 @@
     {
       "type": "multiple_choice",
       "data": {
+        "prompt": "🫕 Welche Topfgriffe empfiehlt das Fachbuch besonders?",
+        "options": [
+          { "text": "Griffe aus Kaltmetall.", "correct": true },
+          { "text": "Griffe aus Kupfer." },
+          { "text": "Griffe aus Aluminium." }
+        ],
+        "explanation": "Griffe aus Kaltmetall sind besonders empfehlenswert. Kaltmetall wird kaum heiß. Gute Griffe liegen außerdem gut in der Hand und sitzen mit sicherem Abstand zum Topfrand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
         "prompt": "📏 Welche Topfgrößen sind üblich?",
         "options": [
           { "text": "16, 18, 20 und 24 cm.", "correct": true },
           { "text": "10, 12, 14 und 16 cm." },
           { "text": "26, 30, 35 und 40 cm." }
         ],
-        "explanation": "Die Topfgrößen sind nach den Durchmessern der Kochstellen genormt. Üblich sind 16, 18, 20 und 24 cm. So passt der Topf genau auf die Platte."
+        "explanation": "Die Topfgrößen sind nach den Durchmessern der Kochstellen genormt. Üblich sind 16, 18, 20 und 24 cm. So passt der Topf zur Kochstelle."
       }
     },
     {
@@ -110,7 +122,7 @@
           { "text": "Helle Soße", "bucket": "stiel" },
           { "text": "Speise, die man lange rühren muss", "bucket": "stiel" }
         ],
-        "explanation": "Frag dich: Was passiert im Topf? Fleisch braten und schmoren geht am besten im flachen, breiten Bratentopf. Viel Flüssigkeit braucht das große Volumen vom Kochtopf. Wird lange gerührt, hilft der lange Stiel der Stielkasserolle."
+        "explanation": "Frag dich: Was passiert im Topf? Fleisch braten und schmoren geht am besten im Bratentopf. Viel Flüssigkeit braucht das große Volumen vom Kochtopf. Wird lange gerührt, hilft der lange Stiel der Stielkasserolle."
       }
     },
     {

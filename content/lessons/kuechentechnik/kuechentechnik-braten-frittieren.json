@@ -3,7 +3,7 @@
   "slug": "kuechentechnik-braten-frittieren",
   "title": "Braten in der Pfanne und Frittieren",
   "sort": 636,
-  "intro": "🔥 Trockene Garverfahren garen ohne Flüssigkeit bei über 100 °C. Die Wärme kommt zum Beispiel über Fett oder über Konvektion. Konvektion ist bewegte heiße Luft.\n\nBraten in der Pfanne heißt auch Kurzzeitbraten. Du bräunst und garst das Gargut im eigenen Fett, also ohne Fett dazuzugeben. Oder du nimmst möglichst wenig heißes Fett. Du brätst ohne Deckel. Die Temperatur liegt je nach Gargut bei 100 bis 200 °C. Zu Hause nimmst du eine Pfanne, eine beschichtete Pfanne oder einen Wok. In der Großküche nimmst du die Kippbratpfanne, den Kombidämpfer oder einen Wok.\n\nMERKE: Niedrige Temperatur für Eierspeisen. Mittlere Temperatur für panierte Stücke. Hohe Temperatur für unpanierte Stücke.\n\nDie Temperatur hängt auch vom Fett ab. Butter und Margarine sind wasserhaltige Fette. Sie nimmst du nur für niedrige Temperaturen. Öl, Schmalz und gehärtete Pflanzenfette sind wasserfrei. Sie nimmst du für mittlere und hohe Temperaturen.\n\nUnpaniertes Fleisch und Geflügel salzt du erst nach dem Braten. Sonst entzieht das Salz Wasser.\n\nFrittieren heißt auch Ausbacken. Du garst und bräunst in viel schwimmendem Fett. Es ist ähnlich wie Braten, aber mit viel mehr Fett. Du nimmst nur Fette mit hohem Rauchpunkt.\n\nMERKE: Unpaniertes frittierst du bei etwa 180 °C. Paniertes frittierst du bei etwa 160 °C. Über 175 °C kann sich der gesundheitsschädliche Stoff Acrylamid bilden.\n\nGib nicht zu viel auf einmal in die Fritteuse. Sonst kann das Fett überschäumen. Und das Fett kühlt zu schnell ab. Dann saugt sich das Gargut mit Fett voll.\n\nFrittierfett nimmt Geschmack an. Nach frittiertem Fisch frittierst du darin also keine Kroketten.\n\nGebrauchtes Fett filterst du, lässt es abkühlen und lagerst es kühl. Du benutzt es höchstens drei- bis viermal.\n\nÜberhitztes Fett kann sich entzünden. Dann erstickst du die Flammen mit einem Deckel oder mit einer Löschdecke. Lösche nie mit Wasser!",
+  "intro": "🔥 Trockene Garverfahren garen ohne Flüssigkeit bei über 100 °C. Die Wärme kommt zum Beispiel über Fett oder über Konvektion. Konvektion ist bewegte heiße Luft.\n\nBraten in der Pfanne heißt auch Kurzzeitbraten. Du bräunst und garst das Gargut im eigenen Fett, also ohne Fett dazuzugeben. Oder du nimmst möglichst wenig heißes Fett. Du brätst ohne Deckel. Die Tabelle im Fachbuch nennt dafür 100 – 130 – 200 °C. Die Temperatur hängt also vom Gargut ab. Zu Hause nimmst du eine Pfanne, eine beschichtete Pfanne oder einen Wok. In der Großküche nimmst du die Kippbratpfanne, den Kombidämpfer oder einen Wok.\n\nMERKE: Niedrige Temperatur für Eierspeisen. Mittlere Temperatur für panierte Stücke. Hohe Temperatur für unpanierte Stücke.\n\nDie Temperatur hängt auch vom Fett ab. Butter und Margarine sind wasserhaltige Fette. Sie nimmst du nur für niedrige Temperaturen. Öl, Schmalz und gehärtete Pflanzenfette sind wasserfrei. Sie nimmst du für mittlere und hohe Temperaturen.\n\nUnpaniertes Fleisch und Geflügel salzt du erst nach dem Braten. Sonst entzieht das Salz Wasser.\n\nFrittieren heißt auch Ausbacken. Du garst und bräunst in viel schwimmendem Fett. Es ist ähnlich wie Braten, aber mit viel mehr Fett. Du nimmst nur Fette mit hohem Rauchpunkt.\n\nMERKE: Unpaniertes frittierst du bei etwa 180 °C. Paniertes frittierst du bei etwa 160 °C. Über 175 °C kann sich der gesundheitsschädliche Stoff Acrylamid bilden.\n\nGib nicht zu viel auf einmal in die Fritteuse. Sonst kann das Fett überschäumen. Und das Fett kühlt zu schnell ab. Dann saugt sich das Gargut mit Fett voll.\n\nFrittierfett nimmt Geschmack an. Nach frittiertem Fisch frittierst du darin also keine Kroketten.\n\nGebrauchtes Fett filterst du, lässt es abkühlen und lagerst es kühl. Du benutzt es höchstens drei- bis viermal.\n\nÜberhitztes Fett kann sich entzünden. Dann erstickst du die Flammen mit einem Deckel oder mit einer Löschdecke. Lösche nie mit Wasser!",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -48,6 +48,15 @@
           { "text": "Unpaniertes Hähnchenfilet", "bucket": "hoch" }
         ],
         "explanation": "Frag dich zuerst: Ist es eine Eierspeise? Dann niedrig. Ist es paniert? Dann mittel, sonst verbrennt die Panierung. Ist es unpaniert? Dann hoch, damit es schnell eine Kruste bekommt."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍳 Braten in der Pfanne: Die Tabelle im Fachbuch nennt 100 – 130 – ___ °C. Welche Zahl fehlt?",
+        "answer": 200,
+        "hint": "Es ist die höchste der drei Temperaturen.\nEs ist eine runde Hunderterzahl.",
+        "explanation": "Beim Braten in der Pfanne nennt das Fachbuch 100 – 130 – 200 °C. Welche Temperatur du nimmst, hängt vom Gargut ab: niedrig für Eierspeisen, mittel für Paniertes, hoch für Unpaniertes."
       }
     },
     {

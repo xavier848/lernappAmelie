@@ -28,7 +28,6 @@
         ],
         "items": [
           { "text": "Heizkörper oben im Garraum", "bucket": "strahl" },
-          { "text": "Bis 300 °C heiß", "bucket": "strahl" },
           { "text": "Grillgut muss gewendet werden", "bucket": "strahl" },
           { "text": "Kein direkter Kontakt zum Heizkörper", "bucket": "strahl" },
           { "text": "Grillgut liegt zwischen zwei Platten", "bucket": "kontakt" },
@@ -65,7 +64,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍟 Wie wird in der Fritteuse die Wärme übertragen?",
+        "prompt": "🍟 Du frittierst in einer normalen Fritteuse mit viel Fett. Wie wird die Wärme übertragen?",
         "options": [
           { "text": "Durch das heiße Fett auf das Frittiergut", "correct": true },
           { "text": "Durch heiße Luft wie im normalen Backofen" },
@@ -77,10 +76,10 @@
     {
       "type": "number_input",
       "data": {
-        "prompt": "🌡️ In der Fritteuse ist das Fett mindestens 160 °C heiß. Wie viel °C darf es höchstens haben?",
+        "prompt": "🌡️ Eine Fritteuse erreicht Temperaturen von 160 °C bis höchstens ___ °C. Welche Zahl fehlt?",
         "answer": 190,
-        "hint": "Es ist weniger als 200 °C.",
-        "explanation": "Die Temperatur in der Fritteuse liegt bei 160 bis maximal 190 °C. Heißer darf das Fett nicht werden."
+        "hint": "Die Zahl liegt zwischen 180 und 200.",
+        "explanation": "Fritteusen erreichen Temperaturen von 160 bis höchstens 190 °C. Das heiße Fett überträgt die Wärme auf das Frittiergut."
       }
     },
     {
@@ -89,8 +88,8 @@
         "prompt": "⚙️ Was ist der Vorteil von Heizkörpern, die offen im Fett liegen?",
         "options": [
           { "text": "Die Fritteuse heizt schneller vor und lässt sich gut regeln.", "correct": true },
-          { "text": "Das Fett bleibt dabei immer nur lauwarm und spritzt nie." },
-          { "text": "Man braucht dann gar kein Fett mehr zum Frittieren der Pommes." }
+          { "text": "Das Fett spritzt beim Frittieren dadurch viel weniger heraus." },
+          { "text": "Die Heizkörper müssen dann nie mehr extra gereinigt werden." }
         ],
         "explanation": "Offen im Frittierfett liegende Heizkörper, meist aus Edelstahl, sorgen für schnelleres Vorheizen und eine gute Temperaturregulierung."
       }
@@ -113,7 +112,7 @@
         "prompt": "🍟 Fritteusen für den Haushalt sind Tischgeräte. Welche Form haben sie?",
         "options": [
           { "text": "Rund oder rechteckig", "correct": true },
-          { "text": "Immer dreieckig" },
+          { "text": "Nur rund, wie ein Kochtopf" },
           { "text": "Nur oval und sehr hoch" }
         ],
         "explanation": "Fritteusen gibt es als Tischgeräte in runder oder rechteckiger Form. Die Wärme erzeugen untergebaute oder offen im Fett liegende Heizkörper."

@@ -3,18 +3,18 @@
   "slug": "hygiene-eier-hack-ausgabe",
   "title": "Produkthygiene: Eier, Hack, Ausgabe",
   "sort": 607,
-  "intro": "🥚 Eier verarbeitest du getrennt von anderen Tätigkeiten. Nach dem Aufschlagen reinigst und desinfizierst du gründlich die Hände. Danach reinigst und desinfizierst du den Arbeitsplatz.\n\nMERKE: In der Gemeinschaftsverpflegung ist es verboten, rohe Bestandteile von Hühnereiern zu verarbeiten, die nicht erhitzt wurden. Erhitzt heißt hier: pasteurisiert. Pasteurisieren heißt: kurz erhitzen, damit Keime abgetötet werden.\n\nBeachte die Durchführungsverordnung, kurz DVO, vom August 2007: Eier werden auf mindestens 70 °C erhitzt, zum Beispiel bei Spiegeleiern oder gekochten Eiern.\n\nAuch für Hackfleisch gilt die DVO: Rohe Erzeugnisse dürfen nur am Tag ihrer Herstellung in den Verkehr gebracht werden. Danach verarbeitest du sie weiter, zum Beispiel durcherhitzen.\n\nBei der Speisenausgabe kontrollierst du vor allem die Temperaturen. Salate und andere kalte Speisen haben höchstens 7 °C. Desserts haben höchstens 10 °C. Warme Speisen haben mindestens 60 °C.\n\nWeitere Regeln: Du verarbeitest Lebensmittel nur, wenn du geprüft hast, dass sie einwandfrei sind. Speisen, die du garst oder erwärmst, erhitzt du in allen Teilen auf 80 °C. Gegarte Speisen und gereinigte Lebensmittel lagerst du nicht zusammen mit rohen oder ungeputzten Lebensmitteln.\n\nZubereitung und Verzehr liegen möglichst kurz auseinander. Die Standzeit dazwischen ist höchstens 3 bis 4 Stunden. Das ist die äußerste Grenze aus Sicht der Hygiene. Warm hältst du Speisen trotzdem so kurz wie möglich, damit Geschmack und Vitamine bleiben. Die Standzeit ist wichtig bei Restanten. Restanten sind übrig gebliebene Speisen.\n\nMERKE: Speisen und Speisereste kühlst du möglichst schnell und in kleinen Portionen herunter. Du deckst sie ab, schreibst das Herstellungsdatum darauf und lagerst sie kühl. Tiefgefrorene Speisen taust du im Kühlschrank oder im Kühlhaus auf.",
+  "intro": "🥚 Eier verarbeitest du getrennt von anderen Tätigkeiten. Nach dem Aufschlagen reinigst und desinfizierst du gründlich die Hände. Danach reinigst und desinfizierst du den Arbeitsplatz.\n\nMERKE: Speisen mit rohen Eiern servierst du nie. In Einrichtungen für Kinder, alte oder kranke Menschen ist das auch gesetzlich verboten. Dort dürfen rohe Eibestandteile nur verwendet werden, wenn sie vorher erhitzt wurden, zum Beispiel pasteurisiert. Pasteurisieren heißt: kurz erhitzen, damit Keime abgetötet werden.\n\nIn der Gemeinschaftsverpflegung erhitzt du Spiegeleier oder gekochte Eier so lange, bis Eiweiß und Eigelb fest sind. Das Fachbuch nennt dafür mindestens 70 °C.\n\nFür Hackfleisch gilt die Durchführungsverordnung, kurz DVO, vom August 2007: Rohe Erzeugnisse dürfen nur am Tag ihrer Herstellung in den Verkehr gebracht werden. Danach werden sie weiterverarbeitet, zum Beispiel durcherhitzt. Für dich in der Küche heißt das: Frisches Hackfleisch verarbeitest du am Tag des Einkaufs.\n\nBei der Speisenausgabe kontrollierst du vor allem die Temperaturen. Salate und andere kalte Speisen haben höchstens 7 °C. Desserts haben höchstens 10 °C. Warme Speisen haben mindestens 60 °C.\n\nWeitere Regeln: Du verarbeitest Lebensmittel nur, wenn du geprüft hast, dass sie einwandfrei sind. Speisen, die du garst oder erwärmst, erhitzt du in allen Teilen auf 80 °C. Gegarte Speisen und gereinigte Lebensmittel lagerst du nicht zusammen mit rohen oder ungeputzten Lebensmitteln.\n\nZubereitung und Verzehr liegen möglichst kurz auseinander. Die Standzeit dazwischen darf 3 bis 4 Stunden nicht überschreiten. Das ist die äußerste Grenze aus Sicht der Hygiene. Sie ist kein Ziel. Für Geschmack und Vitamine gilt eine viel kürzere Zeit: Frisch gekochtes Essen hältst du höchstens 30 Minuten warm. Lange Warmhaltezeiten vermeidest du.\n\nDie Standzeit ist wichtig bei Restanten. Restanten sind übrig gebliebene Speisen.\n\nMERKE: Speisen und Speisereste kühlst du möglichst schnell und in kleinen Portionen herunter. Du deckst sie ab, schreibst das Herstellungsdatum darauf und lagerst sie kühl. Tiefgefrorene Speisen taust du im Kühlschrank oder im Kühlhaus auf.",
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥚 Darf eine Großküche Tiramisu mit rohem, nicht erhitztem Eigelb machen?",
+        "prompt": "🥚 Du arbeitest in der Küche eines Seniorenheims. Darfst du Tiramisu mit rohem, nicht erhitztem Eigelb machen?",
         "options": [
           { "text": "Nein, das ist dort verboten.", "correct": true },
           { "text": "Ja, wenn die Eier ganz frisch sind." },
           { "text": "Ja, wenn das Tiramisu gut gekühlt ist." }
         ],
-        "explanation": "In der Gemeinschaftsverpflegung ist die Verarbeitung roher, nicht pasteurisierter Eibestandteile verboten. Frische und Kühlung töten Salmonellen nicht ab."
+        "explanation": "Rohe Eierspeisen servierst du nie. In Einrichtungen für Kinder, alte oder kranke Menschen ist das auch gesetzlich verboten. Frische und Kühlung töten Salmonellen nicht ab. Nimm stattdessen pasteurisierte Eiprodukte."
       }
     },
     {
@@ -30,12 +30,15 @@
       }
     },
     {
-      "type": "number_input",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🍳 Auf wie viel Grad erhitzt du Eier laut DVO mindestens? Tippe die Zahl in °C.",
-        "answer": 70,
-        "hint": "Es ist mehr als 60 und weniger als 80.",
-        "explanation": "Die Durchführungsverordnung vom August 2007 verlangt: Eier mindestens auf 70 °C erhitzen, zum Beispiel beim Spiegelei oder beim gekochten Ei."
+        "prompt": "🍳 Du brätst in der Kita-Küche Spiegeleier. Wann sind sie sicher?",
+        "options": [
+          { "text": "Wenn Eiweiß und Eigelb ganz fest sind.", "correct": true },
+          { "text": "Wenn das Eiweiß fest und das Eigelb noch flüssig ist." },
+          { "text": "Wenn der Rand schön braun und knusprig ist." }
+        ],
+        "explanation": "Eier erhitzt du so lange, bis Eiweiß und Eigelb fest sind. Ein flüssiges Eigelb ist innen nicht heiß genug. Dann können Salmonellen überleben. Kinder, alte und kranke Menschen werden davon besonders schnell krank."
       }
     },
     {
@@ -47,7 +50,7 @@
           { "text": "Die Hände gründlich reinigen und desinfizieren." },
           { "text": "Den Arbeitsplatz reinigen und desinfizieren." }
         ],
-        "explanation": "Die Regel: Erst die Hände, dann der Platz. Frag dich: Womit fasst du den Lappen und das Desinfektionsmittel an? Mit den Händen. Deshalb müssen sie zuerst sauber sein."
+        "explanation": "Die Regel: Erst die Hände, dann der Platz. Frag dich: Womit fasst du Lappen, Flaschen und Griffe an? Mit den Händen. Sind noch Keime vom Ei daran, verteilst du sie überall."
       }
     },
     {
@@ -59,7 +62,7 @@
           { "text": "Bis zu drei Tage lang, wenn es gekühlt ist." },
           { "text": "Eine Woche lang, wenn es eingefroren war." }
         ],
-        "explanation": "Die DVO sagt: Rohe Hackfleisch-Erzeugnisse dürfen nur am Tag ihrer Herstellung in den Verkehr gebracht werden. Danach werden sie weiterverarbeitet, zum Beispiel durcherhitzt."
+        "explanation": "Die DVO sagt: Rohe Hackfleisch-Erzeugnisse dürfen nur am Tag ihrer Herstellung in den Verkehr gebracht werden. Danach werden sie weiterverarbeitet, zum Beispiel durcherhitzt. Für dich in der Küche heißt das: Frisches Hackfleisch verarbeitest du am Tag des Einkaufs."
       }
     },
     {
@@ -79,13 +82,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⏳ Wie lange darf die Standzeit zwischen Zubereitung und Verzehr höchstens sein?",
+        "prompt": "⏳ Was ist aus Sicht der Hygiene die äußerste Grenze für die Standzeit zwischen Zubereitung und Verzehr?",
         "options": [
           { "text": "3 bis 4 Stunden.", "correct": true },
           { "text": "8 bis 10 Stunden." },
           { "text": "Einen ganzen Tag lang." }
         ],
-        "explanation": "Die Standzeit ist höchstens 3 bis 4 Stunden. Das ist die äußerste Grenze aus Hygiene-Sicht. Warm hältst du Speisen trotzdem so kurz wie möglich."
+        "explanation": "Die Standzeit darf 3 bis 4 Stunden nicht überschreiten. Das ist die äußerste Grenze aus Hygiene-Sicht. Sie ist kein Ziel: Lange Warmhaltezeiten vermeidest du trotzdem."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Ein Auflauf ist um 11 Uhr fertig. Gegessen wird erst um 13 Uhr. Was stimmt?",
+        "options": [
+          { "text": "Zu lange warm gehalten: Warmhalten höchstens 30 Minuten.", "correct": true },
+          { "text": "Kein Problem: 3 bis 4 Stunden Warmhalten sind immer in Ordnung." },
+          { "text": "Kein Problem: Warm gehaltenes Essen ist immer sicher." }
+        ],
+        "explanation": "Die 3 bis 4 Stunden sind nur die äußerste Grenze aus Sicht der Hygiene. Für Geschmack und Vitamine hältst du Essen höchstens 30 Minuten warm. Lange Warmhaltezeiten vermeidest du. Darum stimmst du Garzeit und Essenszeit ab."
       }
     },
     {

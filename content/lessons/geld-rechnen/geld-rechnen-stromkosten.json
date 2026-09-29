@@ -106,6 +106,15 @@
       }
     },
     {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Dieselbe Induktionsplatte (800 W, 45 Minuten am Tag) läuft ein ganzes Jahr mit 365 Tagen. Wie viele kWh verbraucht sie?",
+        "answer": 219,
+        "hint": "Pro Tag: 800 W × 0,75 h = 600 Wh = 0,6 kWh.\n0,6 × 365 = ?\nRechne erst 6 × 365 = 2190. Dann teilst du durch 10.",
+        "explanation": "Pro Tag braucht die Platte 0,6 kWh. Im Jahr: 0,6 × 365 = 219 kWh."
+      }
+    },
+    {
       "type": "multiple_choice",
       "data": {
         "prompt": "📅 Dieselbe Induktionsplatte (800 W, 45 Minuten am Tag, 0,32 € pro kWh) läuft ein ganzes Jahr lang. Was kostet das ungefähr?",

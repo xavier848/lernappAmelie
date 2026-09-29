@@ -75,14 +75,14 @@
           { "id": "spitz", "label": "Spitzsieb", "icon": "🔻" }
         ],
         "items": [
-          { "text": "Nudeln abseihen", "bucket": "durchschlag" },
-          { "text": "Gemüse absieben", "bucket": "durchschlag" },
+          { "text": "Gekochte Nudeln", "bucket": "durchschlag" },
+          { "text": "Gewaschener Salat", "bucket": "durchschlag" },
           { "text": "Mehl sieben", "bucket": "rund" },
           { "text": "Kuchen mit Puderzucker bestäuben", "bucket": "rund" },
           { "text": "Feste Teile aus der Brühe auffangen", "bucket": "spitz" },
           { "text": "Einen Fond von festen Teilen trennen", "bucket": "spitz" }
         ],
-        "explanation": "Frag dich: Wie fein muss es sein, und was fließt durch? Große Mengen Nudeln oder Gemüse gießt du im Durchschlag ab. Für Feines wie Mehl und Puderzucker brauchst du die feinen Maschen des Rundsiebs. Brühen und Fonds laufen durch das Spitzsieb, die festen Teile bleiben darin."
+        "explanation": "Frag dich: Wie fein muss es sein? Nudeln, Gemüse und Salat gießt du im großen Durchschlag ab. Für Feines wie Mehl und Puderzucker brauchst du die feinen Maschen des Rundsiebs. Brühen und Fonds laufen durch das Spitzsieb, die festen Teile bleiben darin."
       }
     },
     {
@@ -100,13 +100,25 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚪ Womit kannst du auch fein passieren und blanchieren?",
+        "prompt": "⚪ Womit kannst du fein passieren und blanchieren?",
         "options": [
           { "text": "Mit dem Rundsieb.", "correct": true },
           { "text": "Mit der Wasserbadschüssel." },
           { "text": "Mit der konischen Schüssel." }
         ],
         "explanation": "Das Rundsieb hat feines Maschengewebe. Je nach Zweck gießt du damit ab, passierst fein oder blanchierst. Fett und Flüssigkeit fließen schnell ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Eine Schüssel ist konisch. Was heißt das?",
+        "options": [
+          { "text": "Sie wird nach unten schmaler.", "correct": true },
+          { "text": "Sie ist oben und unten gleich breit." },
+          { "text": "Sie wird nach unten breiter." }
+        ],
+        "explanation": "Konisch heißt: Die Schüssel wird nach unten schmaler. Außerdem gibt es halbrunde Schüsseln. Beide Arten kannst du oft stapeln."
       }
     },
     {

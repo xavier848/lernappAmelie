@@ -60,10 +60,10 @@
         "steps": [
           { "text": "🥣 Quark, Milch, Öl, Zucker und Salz in eine Rührschüssel geben." },
           { "text": "🌀 Alles mit dem Schneebesen glatt rühren." },
-          { "text": "🌾 Mehl und Backpulver mischen." },
-          { "text": "🤲 Die Mehlmischung mit den Knethaken unterkneten." }
+          { "text": "🌾 Mehl und Backpulver mischen und mit den Knethaken unterkneten." },
+          { "text": "🥯 Den Teig weiterverarbeiten, zum Beispiel zu Brötchen." }
         ],
-        "explanation": "Zuerst verbindest du die feuchten Zutaten mit Zucker und Salz. Das geht mit dem Schneebesen. Mehl und Backpulver mischst du vorher, damit sich das Backpulver gut verteilt. Zum Schluss knetest du mit den Knethaken."
+        "explanation": "Zuerst verbindest du die feuchten Zutaten mit Zucker und Salz. Das geht mit dem Schneebesen. Mehl und Backpulver mischst du, damit sich das Backpulver gut verteilt. Die Mehlmischung knetest du mit den Knethaken unter. Erst der fertige Teig wird geformt."
       }
     },
     {
@@ -114,12 +114,15 @@
       }
     },
     {
-      "type": "number_input",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "⏱️ Die Quark-Öl-Brötchen backst du bei 175 bis 200 °C. Wie viele Minuten ungefähr?",
-        "answer": 20,
-        "hint": "Es ist eine runde Zehnerzahl zwischen 10 und 30.",
-        "explanation": "Schokobrötchen und Käse-Schinken-Brötchen aus Quark-Öl-Teig backst du bei 175 bis 200 °C etwa 20 Minuten."
+        "prompt": "🌡️ Wie backst du Schokobrötchen und Käse-Schinken-Brötchen aus Quark-Öl-Teig?",
+        "options": [
+          { "text": "Bei 175 bis 200 °C, etwa 20 Minuten.", "correct": true },
+          { "text": "Bei 220 bis 230 °C, etwa 30 Minuten." },
+          { "text": "Bei 150 °C, etwa 45 bis 50 Minuten." }
+        ],
+        "explanation": "Beide Brötchen aus Quark-Öl-Teig backst du bei 175 bis 200 °C etwa 20 Minuten. Achte auf die Farbe: hellbraun ist richtig."
       }
     },
     {
@@ -129,6 +132,18 @@
         "answer": 225,
         "hint": "Im Grundrezept sind 150 g Quark.\nDie Hälfte davon sind 75 g.\n150 g + 75 g = ?",
         "explanation": "1,5-fach heißt: das Ganze plus die Hälfte. 150 g plus 75 g sind 225 g Magerquark."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥯 Du formst Schokobrötchen aus 1 Grundrezept Quark-Öl-Teig. In wie viele Portionen teilst du die Teigrolle?",
+        "options": [
+          { "text": "In 15 bis 16 Portionen.", "correct": true },
+          { "text": "In 8 bis 10 Portionen." },
+          { "text": "In 24 bis 26 Portionen." }
+        ],
+        "explanation": "Du formst den Teig zu einer Rolle und teilst ihn in 15 bis 16 Portionen. Daraus drehst du Brötchen. Das gilt für Schokobrötchen und für Käse-Schinken-Brötchen."
       }
     },
     {

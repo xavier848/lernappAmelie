@@ -71,12 +71,12 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤔 Warum spart die eine Person beim Spülen von Hand viel und die andere wenig?",
+        "prompt": "🤔 Beim Spülen von Hand spart die eine Person viel, die andere wenig. Wovon hängt das ab?",
         "options": [
-          { "text": "Es kommt darauf an, wie oft sie das Wasser wechselt oder ob sie unter fließendem Wasser spült.", "correct": true },
-          { "text": "Es kommt nur auf die Marke des Spülmittels an, denn teures Spülmittel macht das Spülen teurer." },
-          { "text": "Es kommt nur auf die Tageszeit an, denn abends ist das Wasser in der Leitung billiger." },
-          { "text": "Es kommt nur auf die Größe der Spüle an, ein großes Becken braucht mehr Spülmittel." }
+          { "text": "Wie oft sie das Wasser wechselt und ob sie unter fließendem Wasser spült.", "correct": true },
+          { "text": "Welche Marke das Spülmittel hat und wie viel die Flasche im Laden gekostet hat." },
+          { "text": "Wie groß die Spüle ist und wie viele Becken sie zum Spülen hat." },
+          { "text": "Welches Geschirr sie hat und ob es aus Porzellan oder aus Glas ist." }
         ],
         "explanation": "Handspülen läuft je nach Person unterschiedlich sparsam ab. Wer oft das Wasser wechselt oder unter fließendem Wasser spült, verbraucht viel mehr Wasser und Energie."
       }
@@ -89,9 +89,9 @@
           { "text": "Von Hand 383,25 €, mit der Maschine 189,80 €.", "correct": true },
           { "text": "Von Hand 189,80 €, mit der Maschine 383,25 €." },
           { "text": "Von Hand und mit der Maschine je etwa 290 €." },
-          { "text": "Von Hand 383,25 €, mit der Maschine 383,25 €." }
+          { "text": "Von Hand 270,10 €, mit der Maschine 113,15 €." }
         ],
-        "explanation": "Ohne Personalkosten kostet tägliches Spülen von Hand 383,25 € im Jahr. Mit der Maschine sind es nur 189,80 €. Von Hand ist es also etwa doppelt so teuer."
+        "explanation": "Ohne Personalkosten kostet tägliches Spülen von Hand 383,25 € im Jahr. Mit der Maschine sind es nur 189,80 €. Von Hand ist es also etwa doppelt so teuer. Die Beträge 270,10 € und 113,15 € sind nur die Kosten für den Strom."
       }
     },
     {
@@ -99,10 +99,10 @@
       "data": {
         "prompt": "👩‍🍳 Mit Personalkosten ist der Unterschied viel größer: 4.489,50 € im Jahr. Warum?",
         "options": [
-          { "text": "Von Hand dauert der Abwasch viel länger. Jede Arbeitsstunde kostet Lohn.", "correct": true },
-          { "text": "Die Maschine braucht beim Spülen überhaupt keinen Strom und kein Wasser." },
-          { "text": "Von Hand kauft man sehr viel mehr Spülmittel als für die Maschine." },
-          { "text": "Für die Maschine muss man jedes Jahr einen neuen Wasseranschluss legen." }
+          { "text": "Von Hand dauert es viel länger. Jede Arbeitsstunde kostet Lohn.", "correct": true },
+          { "text": "Von Hand wird das Wasser öfter gewechselt. Wasser ist sehr teuer." },
+          { "text": "Das Handspülmittel ist viel teurer als die Tabs für die Maschine." },
+          { "text": "Die Maschine braucht beim Spülen gar keinen Strom und kein Wasser." }
         ],
         "explanation": "Personalkosten sind die Kosten für die Arbeitszeit. Von Hand brauchst du viermal so lange wie mit der Maschine. Im Beispiel kostet jede Stunde 15,70 € Lohn. Darum wächst der Unterschied mit Personalkosten so stark."
       }
@@ -123,14 +123,14 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔎 Wer hat laut Buch die Kosten von Handspülen und Maschine verglichen?",
+        "prompt": "🔎 Wer hat die Kosten von Handspülen und Maschine verglichen?",
         "options": [
-          { "text": "Stiftung Warentest, Verbraucherzentralen, Forum Nachhaltiges Waschen und REFA-Fachausschuss.", "correct": true },
-          { "text": "Nur die großen Firmen, die selbst Spülmaschinen herstellen und sie gern verkaufen möchten." },
-          { "text": "Nur die Wasserwerke und die Stromanbieter, weil sie am Verbrauch Geld verdienen." },
-          { "text": "Nur die Hersteller von Spülmitteln, weil sie gern wissen wollen, wie viel davon verkauft wird." }
+          { "text": "Die Stiftung Warentest und die Verbraucherzentralen.", "correct": true },
+          { "text": "Die Hersteller von Spülmaschinen und von Spülmitteln." },
+          { "text": "Die Wasserwerke und die Stromanbieter in der Stadt." },
+          { "text": "Das Gesundheitsamt und die Berufsgenossenschaft." }
         ],
-        "explanation": "Die Kostenvergleiche kamen von der Stiftung Warentest, dem Forum Nachhaltiges Waschen, dem REFA-Fachausschuss und den Verbraucherzentralen. Das sind Stellen, die nicht selbst Spülmaschinen verkaufen."
+        "explanation": "Die Kostenvergleiche kamen von der Stiftung Warentest, den Verbraucherzentralen, dem Forum Nachhaltiges Waschen und dem REFA-Fachausschuss. Hersteller, Wasserwerke oder Ämter nennt das Buch dabei nicht."
       }
     },
     {

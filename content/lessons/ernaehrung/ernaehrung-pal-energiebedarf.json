@@ -90,14 +90,14 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚲 Die Auszubildende (17 Jahre, 64 kg) hat einen REE von 5994 kJ und einen PAL-Wert von 1,4. Wie hoch ist ihr Gesamtenergieverbrauch?",
+        "prompt": "🚲 Die Auszubildende (17 Jahre, 64 kg) hat einen REE von 5994 kJ. Sie fährt Rad zur Arbeit, macht aber keinen Sport. Rechne mit dem PAL-Wert, den die DGE meistens für ausreichend hält. Wie hoch ist ihr Gesamtenergieverbrauch?",
         "options": [
           { "text": "Rund 8,4 MJ (8392 kJ)", "correct": true },
           { "text": "Rund 6,0 MJ (5994 kJ)" },
-          { "text": "Rund 12,0 MJ (11 988 kJ)" },
+          { "text": "Rund 9,6 MJ (9590 kJ)" },
           { "text": "Rund 7,4 MJ (7394 kJ)" }
         ],
-        "explanation": "5994 kJ × 1,4 = 8392 kJ. Das sind rund 8,4 MJ. 6,0 MJ wäre nur der Ruheenergieverbrauch ohne Aktivität. Mal 2 oder plus 1400 wären falsch gerechnet."
+        "explanation": "Die DGE hält meistens PAL 1,4 für ausreichend. 5994 kJ × 1,4 = 8392 kJ, also rund 8,4 MJ. 6,0 MJ wäre nur der Ruheenergieverbrauch. 9,6 MJ käme mit PAL 1,6 heraus. 7,4 MJ kommt heraus, wenn man 1,4 MJ dazuzählt, statt mit 1,4 malzunehmen."
       }
     },
     {

@@ -11,7 +11,7 @@
         "prompt": "⭕ Was zeigt der DGE-Ernährungskreis?",
         "options": [
           { "text": "Wie eine gesunde und ökologisch nachhaltige Ernährung aussieht.", "correct": true },
-          { "text": "Wie viele Kalorien jedes einzelne Lebensmittel ganz genau hat." },
+          { "text": "Wie viel Energie jedes einzelne Lebensmittel ganz genau liefert." },
           { "text": "In welcher Reihenfolge man die Speisen am Tisch serviert." }
         ],
         "explanation": "Der DGE-Kreis ist ein Wegweiser. Er zeigt, welche Lebensmittel du wie oft wählst, damit du gesund isst und die Umwelt schonst."
@@ -59,8 +59,8 @@
         "prompt": "🥕 Pflanzlich oder tierisch? Sortiere nach dem DGE-Kreis.",
         "explanation": "Frag dich: Kommt das Lebensmittel von einer Pflanze oder von einem Tier? Pflanzliche Lebensmittel bilden den größten Teil des Kreises. Tierische Lebensmittel ergänzen die Auswahl nur.",
         "buckets": [
-          { "id": "pfl", "label": "Pflanzlich (großer Teil)", "icon": "🌱" },
-          { "id": "tier", "label": "Tierisch (ergänzt)", "icon": "🐄" }
+          { "id": "pfl", "label": "Pflanzlich", "icon": "🌱" },
+          { "id": "tier", "label": "Tierisch", "icon": "🐄" }
         ],
         "items": [
           { "text": "Hülsenfrüchte", "bucket": "pfl" },
@@ -101,7 +101,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍞 Wie viel Brot passt laut DGE am Tag?",
+        "prompt": "🍞 Wie viele Scheiben Brot kannst du täglich essen?",
         "options": [
           { "text": "4 bis 6 Scheiben", "correct": true },
           { "text": "1 bis 2 Scheiben" },

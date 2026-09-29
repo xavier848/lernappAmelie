@@ -8,20 +8,20 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🏢 Worauf achtet wer beim Kauf besonders? Sortiere.",
+        "prompt": "🏢 Gewerbebetrieb oder Privathaushalt? Was passt? Sortiere.",
         "buckets": [
           { "id": "gewerbe", "label": "Gewerbebetrieb", "icon": "🏢" },
           { "id": "privat", "label": "Privathaushalt", "icon": "🏠" }
         ],
         "items": [
-          { "text": "Hohe Belastungstoleranz", "bucket": "gewerbe" },
-          { "text": "Hohe Materialqualität", "bucket": "gewerbe" },
+          { "text": "Braucht hohe Belastungstoleranz", "bucket": "gewerbe" },
           { "text": "Preis-Leistungs-Verhältnis ist sehr wichtig", "bucket": "gewerbe" },
           { "text": "Oft größere Geräte", "bucket": "gewerbe" },
+          { "text": "Manche Geräte für besondere Arbeiten", "bucket": "gewerbe" },
           { "text": "Form und Design sind genauso wichtig", "bucket": "privat" },
           { "text": "Kleinere Mengen", "bucket": "privat" }
         ],
-        "explanation": "Frag dich: Wer benutzt das Gerät jeden Tag stundenlang und für große Mengen? Der Gewerbebetrieb. Er braucht Geräte, die viel aushalten und ihr Geld wert sind. Im Privathaushalt zählt neben der Qualität auch, wie schön das Gerät aussieht."
+        "explanation": "Frag dich: Wer benutzt die Geräte jeden Tag stundenlang und für große Mengen? Der Gewerbebetrieb. Er braucht Geräte, die viel aushalten und ihr Geld wert sind. Manche sind für besondere Arbeiten gebaut. Im Privathaushalt zählt neben der Qualität auch, wie schön das Gerät aussieht."
       }
     },
     {
@@ -39,7 +39,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🗂️ Nach welchem Merkmal teilt man die Arbeits- und Hilfsmittel in 6 Gruppen ein?",
+        "prompt": "🗂️ Nach welchem Merkmal teilt man die Arbeits- und Hilfsmittel in Gruppen ein?",
         "options": [
           { "text": "Nach ihrer Funktion.", "correct": true },
           { "text": "Nach ihrem Preis." },
@@ -67,7 +67,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧁 Welches Material gibt es nur beim Backgeschirr?",
+        "prompt": "🧁 Koch-, Brat- und Backgeschirr: Welches Material gibt es nur beim Backgeschirr?",
         "options": [
           { "text": "Silikon.", "correct": true },
           { "text": "Kupfer." },
@@ -115,7 +115,7 @@
         "prompt": "🔥 In einer Küche stehen ein Gasherd und ein Induktionsherd. Du kaufst neue Töpfe. Was ist besonders wichtig?",
         "options": [
           { "text": "Sie passen auf möglichst alle Herdarten.", "correct": true },
-          { "text": "Sie haben ein besonders schönes Design." },
+          { "text": "Sie haben ein besonders schönes, modernes Design." },
           { "text": "Sie sind möglichst leicht und dünn." }
         ],
         "explanation": "Ein Einkaufskriterium ist: Das Geschirr passt zu möglichst allen Beheizungsformen und Herdarten. Dann kannst du jeden Topf auf jedem Herd benutzen."

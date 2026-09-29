@@ -20,14 +20,25 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🔗 Welcher Nährstoff steckt besonders worin? Verbinde.",
-        "explanation": "Tierische Lebensmittel liefern wichtige Nährstoffe: Calcium steckt in der Milch, Jod im Seefisch, Omega-3-Fettsäuren im fetten Seefisch. Fleisch liefert Vitamin B12 und andere B-Vitamine.",
+        "prompt": "🔗 Welcher wichtige Nährstoff steckt besonders worin? Verbinde.",
+        "explanation": "Frag dich: Wofür ist das Lebensmittel bekannt? Milch liefert Calcium. Fleisch liefert gut verwertbares Eisen und Vitamin B12. Fetter Seefisch liefert Omega-3-Fettsäuren.",
         "pairs": [
-          { "left": {"text": "🦴 Calcium"}, "right": {"text": "Milch"} },
-          { "left": {"text": "🦋 Jod"}, "right": {"text": "Seefisch"} },
-          { "left": {"text": "🐟 Omega-3-Fettsäuren"}, "right": {"text": "Fetter Seefisch"} },
-          { "left": {"text": "🩸 Vitamin B12"}, "right": {"text": "Fleisch"} }
+          { "left": {"text": "🥛 Milch"}, "right": {"text": "Calcium"} },
+          { "left": {"text": "🥩 Fleisch"}, "right": {"text": "Eisen und Vitamin B12"} },
+          { "left": {"text": "🐟 Fetter Seefisch"}, "right": {"text": "Omega-3-Fettsäuren"} }
         ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧂 Welches Lebensmittel liefert viel Jod?",
+        "options": [
+          { "text": "Seefisch, zum Beispiel Seelachs", "correct": true },
+          { "text": "Rindfleisch, zum Beispiel Gulasch" },
+          { "text": "Hülsenfrüchte, zum Beispiel Linsen" }
+        ],
+        "explanation": "Seefisch liefert Jod, egal ob mager oder fett. Fetter Seefisch liefert zusätzlich Omega-3-Fettsäuren. Fleisch und Hülsenfrüchte sind keine guten Jod-Lieferanten."
       }
     },
     {
@@ -73,7 +84,7 @@
         "options": [
           { "text": "Milch verstecken, z. B. in Pfannkuchen, Soßen oder Aufläufen.", "correct": true },
           { "text": "Milch ganz weglassen, weil Calcium gar nicht so wichtig ist." },
-          { "text": "Das Kind zwingen, jeden Tag ein großes Glas zu trinken." }
+          { "text": "Das Kind dazu zwingen, jeden Tag ein großes Glas Milch zu trinken." }
         ],
         "explanation": "„Milchmuffel“ lassen sich mit Fantasie überlisten. Milch steckt dann in Desserts, Suppen, Soßen, Aufläufen oder Pfannkuchen."
       }

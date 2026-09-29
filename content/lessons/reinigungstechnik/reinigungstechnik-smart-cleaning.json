@@ -59,7 +59,8 @@
           { "text": "Tablet mit Raumbuch am Reinigungswagen", "bucket": "smart" },
           { "text": "Sonderaufgabe über den Infotainer", "bucket": "smart" },
           { "text": "Foto vom Schaden per Smartphone an den Hausmeister", "bucket": "smart" },
-          { "text": "Bewegungssensor am Wischmopp", "bucket": "smart" }
+          { "text": "Bewegungssensor am Wischmopp", "bucket": "smart" },
+          { "text": "Lagerbestand digital überwachen", "bucket": "smart" }
         ],
         "explanation": "Frag dich: Muss hier später jemand etwas abschreiben oder übertragen? Dann ist es der alte Weg. Gehen die Daten direkt digital dorthin, wo sie gebraucht werden? Dann ist es Smart Cleaning."
       }
@@ -87,7 +88,7 @@
           { "text": "Die Preise aller Reinigungsmittel in den Läden der Umgebung." },
           { "text": "Die Lieblingsfarben der Reinigungskräfte für die Arbeitskleidung." }
         ],
-        "explanation": "Auf dem digitalen Reinigungsplan sind für jeden Raum Reihenfolge und Ablauf festgelegt. Dazu können die Tuchfarbe, das Reinigungsmittel mit Dosierung und der Turnus kommen. Turnus heißt: wie oft gereinigt wird, zum Beispiel wöchentlich oder nur bei Bedarf."
+        "explanation": "Auf dem digitalen Reinigungsplan sind für jeden Raum Reihenfolge und Ablauf festgelegt. Dazu können die Tuchfarbe, das Reinigungsmittel mit Dosierung und der Turnus kommen. Turnus heißt: wie oft gereinigt wird, zum Beispiel wöchentlich oder nur bei Bedarf. Die Tuchfarbe kennst du von der Farbcodierung der Putztücher."
       }
     },
     {
@@ -130,6 +131,19 @@
       }
     },
     {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📲 Wofür nutzt man Smart Cleaning außerdem?",
+        "options": [
+          { "text": "Für die Dokumentation, für Schulungen und um Urlaub einzureichen.", "correct": true },
+          { "text": "Damit die Reinigungskräfte ihren Lohn und ihre Pausen selbst festlegen können." },
+          { "text": "Damit man ganz ohne Reinigungsplan arbeiten kann." },
+          { "text": "Damit die Leitung die Checklisten nicht mehr auswerten muss." }
+        ],
+        "explanation": "Smart Cleaning dient auch der Dokumentation für das Qualitätsmanagement. Es hilft bei Schulungen des Personals. Und die Reinigungskräfte können ihren Dienstplan einsehen oder Urlaub einreichen."
+      }
+    },
+    {
       "type": "match_pairs",
       "data": {
         "prompt": "🎉 Zum Schluss: Was bedeuten die Begriffe? Verbinde.",
@@ -138,7 +152,7 @@
           { "left": {"text": "Digitaler Reinigungsplan"}, "right": {"text": "Raumbuch und Leistungsverzeichnis auf dem Tablet"} },
           { "left": {"text": "Infotainer"}, "right": {"text": "Schickt Sonderaufgaben an die Reinigungskraft"} },
           { "left": {"text": "Dosierrechner"}, "right": {"text": "Hilft bei der richtigen Menge Reiniger"} },
-          { "left": {"text": "WLAN oder GPS"}, "right": {"text": "Steuert die Gebäudereinigungssoftware"} }
+          { "left": {"text": "WLAN oder GPS"}, "right": {"text": "Darüber wird die Software gesteuert"} }
         ],
         "explanation": "Frag dich bei jedem Begriff: Ist es der ganze Weg, ein Plan, ein Nachrichtendienst, eine Rechenhilfe oder die Technik dahinter? Alle Begriffe gehören zum Smart Cleaning."
       }

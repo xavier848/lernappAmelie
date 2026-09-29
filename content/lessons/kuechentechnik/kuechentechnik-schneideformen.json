@@ -16,7 +16,7 @@
           { "text": "📐 In dünne Streifen schneiden, nur bis kurz vor den Wurzelansatz." },
           { "text": "🎲 Quer in dünne Scheiben schneiden: Es entstehen Würfel." }
         ],
-        "explanation": "Die Zwiebel braucht zuerst eine flache Seite, damit sie nicht rollt. Der Wurzelansatz hält sie beim Schneiden zusammen. Darum schneidest du ihn nie durch. Die Würfel fallen erst beim letzten, queren Schnitt ab."
+        "explanation": "Die Zwiebel braucht zuerst eine flache Seite, damit sie nicht rollt. Dann gilt: Aus Scheiben werden Streifen, aus Streifen werden Würfel. Der Wurzelansatz hält die Zwiebel beim Schneiden zusammen. Darum schneidest du ihn nie durch. Die Würfel fallen erst beim letzten, queren Schnitt ab."
       }
     },
     {
@@ -97,18 +97,6 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥩 Du parierst ein Stück Fleisch. Was tust du dabei?",
-        "options": [
-          { "text": "Knochen auslösen und Knorpel, Haut und Sehnen entfernen.", "correct": true },
-          { "text": "Das Fleisch in Mehl, verquirltes Ei und Paniermehl wenden." },
-          { "text": "Das Fleisch in eine säurehaltige Würzflüssigkeit legen." }
-        ],
-        "explanation": "Parieren heißt: wertlose Teile vom Fleisch entfernen. Das sind Knochen, Knorpel, Haut und Sehnen. In Mehl, Ei und Paniermehl wenden heißt Panieren. In eine säurehaltige Würzflüssigkeit legen heißt Marinieren."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
         "prompt": "🔤 Bei Obst und Gemüse heißt es Putzen. Wie heißt dieselbe Arbeit beim Fleisch?",
         "options": [
           { "text": "Parieren.", "correct": true },
@@ -116,6 +104,18 @@
           { "text": "Pochieren." }
         ],
         "explanation": "Achtung, die Wörter klingen ähnlich! Parieren heißt: wertlose Teile vom Fleisch entfernen, wie beim Putzen. Panieren heißt: in Mehl, Ei und Paniermehl wenden. Pochieren ist eine Gartechnik."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Du parierst ein Stück Fleisch. Was tust du dabei?",
+        "options": [
+          { "text": "Knochen auslösen und Knorpel, Haut und Sehnen entfernen.", "correct": true },
+          { "text": "Das Fleisch kalt abspülen und danach trocken tupfen." },
+          { "text": "Das Fleisch mit dem Plattiereisen flach klopfen, bis es dünn ist." }
+        ],
+        "explanation": "Parieren heißt: wertlose Teile vom Fleisch entfernen. Das sind Knochen, Knorpel, Haut und Sehnen. Kalt abspülen und trocken tupfen gehört zum Waschen. Flach klopfen heißt Plattieren."
       }
     },
     {

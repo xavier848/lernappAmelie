@@ -29,7 +29,7 @@
           { "text": "Erdbeeren mit Druckstellen aussortieren", "bucket": "cp" },
           { "text": "Sorgfältiges Arbeiten genügt", "bucket": "cp" },
           { "text": "Keine schriftliche Dokumentation nötig", "bucket": "cp" },
-          { "text": "Regenerierte Speisen auf 80 °C Kerntemperatur prüfen", "bucket": "ccp" },
+          { "text": "Bei regenerierten Speisen die Kerntemperatur messen und aufschreiben", "bucket": "ccp" },
           { "text": "Auftauflüssigkeit von Geflügel getrennt auffangen", "bucket": "ccp" },
           { "text": "Erkennen, beobachten und dokumentieren", "bucket": "ccp" }
         ],
@@ -66,10 +66,10 @@
         "prompt": "🚚 Wie prüfst du das Lieferfahrzeug bei der Warenannahme?",
         "options": [
           { "text": "Mit einer Sichtkontrolle an der Rampe auf Mängel.", "correct": true },
-          { "text": "Mit einer kurzen Probefahrt einmal um den ganzen Block." },
-          { "text": "Mit einem Blick in den Führerschein des Fahrers." }
+          { "text": "Gar nicht, du prüfst nur die Ware selbst." },
+          { "text": "Nur anhand der Lieferpapiere, die der Fahrer dabeihat." }
         ],
-        "explanation": "Kontrollpunkt Lieferfahrzeug, Kontrollfaktor hygienische Mängel: Du machst eine Sichtkontrolle an der Rampe. Ist das Fahrzeug schmutzig, ist das ein Mangel."
+        "explanation": "Kontrollpunkt Lieferfahrzeug, Kontrollfaktor hygienische Mängel: Du machst eine Sichtkontrolle an der Rampe. Ist das Fahrzeug schmutzig, ist das ein Mangel. Denn im schmutzigen Fahrzeug kann auch die Ware verschmutzt werden."
       }
     },
     {
@@ -90,10 +90,10 @@
         "prompt": "🙋 Woher kommen Lebensmittelvergiftungen häufig?",
         "options": [
           { "text": "Von menschlichem Fehlverhalten.", "correct": true },
-          { "text": "Fast nur von schlechtem Wetter." },
-          { "text": "Fast nur von kaputten Maschinen." }
+          { "text": "Meist von fehlerhafter Rohware." },
+          { "text": "Meist von Fehlern beim Transport." }
         ],
-        "explanation": "Ursachen sind oft Hygienemängel oder Speisen, die nicht genug erhitzt wurden. Das sind Fehler von Menschen. Wer die Fehlerquellen kennt, kann sie ausschalten."
+        "explanation": "Ursachen sind oft Hygienemängel oder Speisen, die nicht genug erhitzt wurden. Das sind Fehler von Menschen. Fehlerhafte Rohware und Transportfehler sind in der Statistik selten. Wer die Fehlerquellen kennt, kann sie ausschalten."
       }
     },
     {

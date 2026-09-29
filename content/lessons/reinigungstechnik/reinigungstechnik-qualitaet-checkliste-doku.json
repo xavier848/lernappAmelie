@@ -11,9 +11,9 @@
         "prompt": "📝 Wer führt die Qualitätschecklisten?",
         "options": [
           { "text": "Die Reinigungskräfte selbst.", "correct": true },
-          { "text": "Nur die Gäste des Hauses." },
-          { "text": "Nur die Heimaufsicht von außen." },
-          { "text": "Nur die Lieferanten der Mittel." }
+          { "text": "Die Gäste des Hauses." },
+          { "text": "Die Heimaufsicht von außen." },
+          { "text": "Die Lieferanten der Reinigungsmittel." }
         ],
         "explanation": "Qualitätschecklisten werden von den Reinigungskräften geführt. Die Leitung wertet sie danach aus."
       }
@@ -75,7 +75,7 @@
       "data": {
         "prompt": "😊 Warum verbessern eine Schulung oder ein anderer Turnus auch die Zufriedenheit der Reinigungskräfte?",
         "options": [
-          { "text": "Oft sind sie mit ihrer Arbeit selbst nicht zufrieden.", "correct": true },
+          { "text": "Weil sie oft selbst mit ihrer Arbeit nicht zufrieden sind.", "correct": true },
           { "text": "Weil sie danach weniger arbeiten müssen." },
           { "text": "Weil sie danach ganz automatisch jeden Monat mehr Lohn bekommen." },
           { "text": "Weil sie danach keine Checklisten mehr führen." }
@@ -90,10 +90,10 @@
         "pairs": [
           { "left": {"text": "Die Methode passt nicht zum Boden"}, "right": {"text": "Schulung oder Unterweisung"} },
           { "left": {"text": "Es wird zu selten gereinigt"}, "right": {"text": "Den Reinigungsturnus ändern"} },
-          { "left": {"text": "Ein Mangel fällt auf"}, "right": {"text": "Gespräch und Gegenmaßnahme"} },
+          { "left": {"text": "Ein Mangel fällt auf, der Grund ist unklar"}, "right": {"text": "Erst die Ursache herausfinden"} },
           { "left": {"text": "Die Ergebnisse sind sehr gut"}, "right": {"text": "Hervorheben, das motiviert"} }
         ],
-        "explanation": "Frag dich: Was ist hier die Ursache? Eine falsche Methode lernt man in einer Schulung neu. Ein zu seltener Turnus wird geändert. Mängel klärt man im Gespräch. Und gute Arbeit lobt man, das steigert die Motivation."
+        "explanation": "Frag dich: Ist die Ursache schon klar? Eine falsche Methode lernt man in einer Schulung neu. Ein zu seltener Turnus wird geändert. Ist der Grund noch unklar, suchst du zuerst die Ursache. Und gute Arbeit hebt man hervor, das steigert die Motivation."
       }
     },
     {
@@ -101,10 +101,10 @@
       "data": {
         "prompt": "🗃️ Was gehört zur Dokumentation?",
         "options": [
-          { "text": "Kontrollbücher zur Entnahme von Reinigungsmitteln und Listen zur Toilettenreinigung.", "correct": true },
-          { "text": "Nur die Rechnungen der Lieferanten, weil nur sie für das Finanzamt wichtig sind." },
-          { "text": "Private Notizen der Reinigungskräfte, die sie nach Feierabend mit nach Hause nehmen." },
-          { "text": "Die Werbeprospekte der Hersteller, damit man immer die neuesten Mittel kennt." }
+          { "text": "Kontrollbücher und Listen, zum Beispiel zur Toilettenreinigung.", "correct": true },
+          { "text": "Private Notizen, die du nach Feierabend mit nach Hause nimmst." },
+          { "text": "Werbeprospekte, in denen neue Reinigungsmittel stehen." },
+          { "text": "Zeitschriften, die für die Gäste im Wartebereich liegen." }
         ],
         "explanation": "Zur Dokumentation gehören alle Listen und Verzeichnisse, zum Beispiel Kontrollbücher zur Entnahme von Reinigungsmitteln oder Listen über die Reinigung der Toiletten. Auch Aus- und Weiterbildungen werden dokumentiert."
       }
@@ -114,12 +114,25 @@
       "data": {
         "prompt": "⏱️ Wozu dient die Dokumentation?",
         "options": [
-          { "text": "Man arbeitet richtig und kann später nachvollziehen, wann etwas gemacht wurde.", "correct": true },
-          { "text": "Man kann damit die Reinigungsmittel bei Bedarf viel billiger im Laden einkaufen." },
-          { "text": "Man braucht dann keine Besprechungen mehr, weil alles schon aufgeschrieben ist." },
-          { "text": "Man kann damit am Ende des Jahres alle Beschwerden ganz einfach wegsortieren." }
+          { "text": "Man arbeitet richtig und kann später sehen, wann etwas gemacht wurde.", "correct": true },
+          { "text": "Man kann damit Reinigungsmittel billiger im Laden einkaufen." },
+          { "text": "Man braucht dann keine Dienstbesprechungen mehr, weil alles aufgeschrieben ist." },
+          { "text": "Man kann damit alle Beschwerden schnell aussortieren und wegwerfen." }
         ],
         "explanation": "Die Dokumentation hilft, Tätigkeiten richtig durchzuführen. Und man kann später nachvollziehen, wann sie durchgeführt wurden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Das Team spricht regelmäßig über die Qualität der Arbeit. Wie heißt das, und wo passiert es?",
+        "options": [
+          { "text": "Interne Kommunikation, in einer Sitzung oder Dienstbesprechung.", "correct": true },
+          { "text": "Externe Beratung, mit einer Beraterin von einer Firma von außen." },
+          { "text": "Beschwerdemanagement, bei einer Reklamation an der Rezeption." },
+          { "text": "Zertifizierung, bei einer Prüfstelle nach den DIN-ISO-Normen." }
+        ],
+        "explanation": "Im Betrieb muss man miteinander sprechen. Nur so bleibt die Qualität auf dem gleichen Stand oder wird besser. Das heißt interne Kommunikation. Intern heißt: im Betrieb. Sie findet in einer Sitzung oder Dienstbesprechung statt."
       }
     },
     {

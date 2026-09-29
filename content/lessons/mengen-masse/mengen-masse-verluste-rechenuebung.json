@@ -1,0 +1,140 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-verluste-rechenuebung",
+  "title": "Verluste und Mengen: Rechenübung",
+  "sort": 624,
+  "intro": "🧮 Hier rechnest du weitere Aufgaben aus dem Buch. Du brauchst dieselben Regeln wie in der Lektion „Schälverlust und Garverlust berechnen“.\n\nMERKE: Die Rohware ist immer 100 %. Ziehst du den Verlust ab, bleibt der Rest. Bei 17 % Schälverlust bleiben 83 %.\n\nSo rechnest du: Erst rechnest du 1 % aus. Dafür teilst du die Menge durch 100. Dann nimmst du das mal die Prozentzahl, die übrig bleibt.\n\nHast du mehrere Gemüse mit verschiedenem Verlust? Dann rechnest du jedes Gemüse einzeln. Danach zählst du zusammen.\n\nKennst du nur die geputzte Menge? Dann rechnest du rückwärts. Die geputzte Menge ist nicht 100 %, sondern weniger. Bei 6 % Abfall ist sie 94 %. Du teilst durch 94 und nimmst mal 100. Den Abfall bekommst du so: Rohware minus geputzte Menge.\n\nWareneinsatzkosten sind die Kosten für die Lebensmittel. Zuerst rechnest du aus, was die ganze Ware kostet: Menge in kg mal Preis pro kg. Dann teilst du durch die Zahl der Portionen.\n\nMERKE: Beim fünffachen Rezept nimmst du jede Zutat mal 5.\n\nGrundrezept Hefeteig süß: 500 g Mehl. 1 Würfel Hefe, das sind 42 g. 1 TL Zucker. 2-mal ⅛ l lauwarme Milch, das sind zusammen 250 ml. 60 g Zucker. 1 Prise Salz. 80 g Butter oder Margarine.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥕 Für einen Möhreneintopf schälst du 3 kg Möhren. Der Schälverlust ist 17 %. Wie viel Gramm geschälte Möhren bleiben?",
+        "answer": 2490,
+        "hint": "3 kg = 3000 g.\n1 % von 3000 g = 30 g.\nEs bleiben 83 %: 83 × 30 g = ?",
+        "explanation": "Es bleiben 100 % minus 17 % = 83 %. 1 % von 3000 g sind 30 g. 83 × 30 g = 2490 g geschälte Möhren."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥔 In den Eintopf kommen auch 2,5 kg Kartoffeln. Der Schälverlust ist 12 %. Wie viel Gramm geschälte Kartoffeln bleiben?",
+        "answer": 2200,
+        "hint": "2,5 kg = 2500 g.\n1 % von 2500 g = 25 g.\nEs bleiben 88 %: 88 × 25 g = ?",
+        "explanation": "Es bleiben 100 % minus 12 % = 88 %. 1 % von 2500 g sind 25 g. 88 × 25 g = 2200 g geschälte Kartoffeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Deine Kollegin rechnet so: 17 % + 12 % = 29 %. Dann zieht sie 29 % von allen 5,5 kg ab. Was ist falsch?",
+        "options": [
+          { "text": "Jedes Gemüse hat einen eigenen Verlust. Sie muss einzeln rechnen.", "correct": true },
+          { "text": "Nichts. So geht es sogar schneller, und das Ergebnis stimmt genauso." },
+          { "text": "Sie muss die beiden Prozentzahlen malnehmen, nicht addieren." }
+        ],
+        "explanation": "Die 17 % gelten nur für die Möhren. Die 12 % gelten nur für die Kartoffeln. Du rechnest jedes Gemüse einzeln und zählst dann zusammen: 2490 g + 2200 g = 4690 g. So viel kommt in den Eintopf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫘 Für einen Bohnensalat brauchst du 8500 g geputzte grüne Bohnen. Der Abfall ist 6 %. Wie viel Rohware brauchst du ungefähr?",
+        "options": [
+          { "text": "Etwa 9043 g.", "correct": true },
+          { "text": "Etwa 9010 g." },
+          { "text": "Etwa 7990 g." }
+        ],
+        "explanation": "Die 6 % Abfall beziehen sich auf die Rohware. Die geputzten 8500 g sind also 94 %. 8500 g geteilt durch 94 und mal 100 sind etwa 9043 g. 9010 g wären falsch: Da hast du 6 % von 8500 g dazugerechnet."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🫘 Du nimmst 9043 g Bohnen als Rohware. Geputzt bleiben 8500 g. Wie viel Gramm Abfall sind das?",
+        "answer": 543,
+        "hint": "Abfall = Rohware minus geputzte Menge.\n9043 g − 8500 g = ?",
+        "explanation": "9043 g − 8500 g = 543 g Abfall. Das sind etwa 6 % der Rohware."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Für ein Mittagessen brauchst du 12 kg geputzten Blumenkohl. Der Abfall ist 13 %. Wie viel frischen Blumenkohl bestellst du ungefähr?",
+        "options": [
+          { "text": "Etwa 13,8 kg.", "correct": true },
+          { "text": "Etwa 13,6 kg." },
+          { "text": "Etwa 10,4 kg." }
+        ],
+        "explanation": "Die geputzten 12 kg sind 87 % der Rohware, denn 100 % minus 13 % sind 87 %. 12 kg geteilt durch 87 und mal 100 sind etwa 13,8 kg. Davon sind etwa 1,8 kg Abfall."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "❄️ 10 tiefgekühlte Suppenhühner wiegen zusammen 12 kg. Beim Auftauen verlieren sie 3 % Auftauflüssigkeit. Wie viel Gramm wiegen sie danach?",
+        "answer": 11640,
+        "hint": "12 kg = 12000 g.\n1 % von 12000 g = 120 g.\nEs bleiben 97 %: 97 × 120 g = ?",
+        "explanation": "Es bleiben 100 % minus 3 % = 97 %. 1 % von 12000 g sind 120 g. 97 × 120 g = 11640 g. Beim Kochen und beim Parieren verlieren die Hühner danach noch mehr Gewicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Du kaufst 8,5 kg Rindfleisch zum Kochen. 1 kg kostet 6,90 €. Was kostet das Fleisch zusammen?",
+        "options": [
+          { "text": "58,65 €", "correct": true },
+          { "text": "55,20 €" },
+          { "text": "62,10 €" }
+        ],
+        "explanation": "Du rechnest Menge mal Preis: 8,5 × 6,90 € = 58,65 €. Tipp: 8 kg kosten 55,20 €. Ein halbes kg kostet 3,45 €. Zusammen sind das 58,65 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Das Fleisch hat 58,65 € gekostet. Gekocht ergibt es 58 Portionen zu 120 g. Wie hoch sind die Wareneinsatzkosten je Portion ungefähr?",
+        "options": [
+          { "text": "Etwa 1,01 €.", "correct": true },
+          { "text": "Etwa 0,83 €." },
+          { "text": "Etwa 1,09 €." }
+        ],
+        "explanation": "Wareneinsatzkosten sind die Kosten für die Lebensmittel. 58,65 € geteilt durch 58 Portionen sind etwa 1,01 €. 0,83 € wären nur 120 g rohes Fleisch. Du musst aber einrechnen, dass das Fleisch beim Kochen leichter wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Bratenfleisch kostet 9,90 € pro kg und verliert beim Braten 23 %. Kochfleisch kostet 6,90 € pro kg und verliert 17 %. Warum sind beim Bratenfleisch die Wareneinsatzkosten je Portion höher?",
+        "options": [
+          { "text": "Es kostet mehr pro kg und verliert mehr Gewicht.", "correct": true },
+          { "text": "Beim Braten bekommst du sogar mehr Portionen heraus." },
+          { "text": "Braten braucht mehr Strom als Kochen." }
+        ],
+        "explanation": "Bratenfleisch ist teurer pro Kilogramm. Und es verliert mehr Gewicht. Darum gibt es weniger Portionen: 54 statt 58. Eine Portion kostet etwa 1,56 € statt 1,01 €. Strom zählt nicht zum Wareneinsatz, nur die Lebensmittel."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍞 Du machst das fünffache Grundrezept Hefeteig süß. Wie viel brauchst du? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🍞 Frische Hefe"}, "right": {"text": "5 Würfel, das sind 210 g"} },
+          { "left": {"text": "🍬 Zucker für den Mehlrand"}, "right": {"text": "300 g"} },
+          { "left": {"text": "🧈 Butter oder Margarine"}, "right": {"text": "400 g"} },
+          { "left": {"text": "🥛 Lauwarme Milch"}, "right": {"text": "1250 ml"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jeder Zutat: Wie viel steht im Grundrezept? Das nimmst du mal 5. Bei der Milch sind es im Grundrezept 2-mal ⅛ l, also 250 ml."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌾 Das Grundrezept Hefeteig hat 500 g Mehl. Du machst das fünffache Rezept. Wie viel Gramm Mehl brauchst du?",
+        "answer": 2500,
+        "hint": "5 × 500 g = ?",
+        "explanation": "5 × 500 g = 2500 g Mehl. Das sind 2,5 kg."
+      }
+    }
+  ]
+}

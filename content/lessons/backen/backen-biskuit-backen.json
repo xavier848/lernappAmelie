@@ -118,16 +118,27 @@
       }
     },
     {
-      "type": "match_pairs",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🔄 Abwandlungen von Biskuit: Was kommt dazu? Verbinde.",
-        "pairs": [
-          { "left": {"text": "🍫 Schokoladenbiskuit"}, "right": {"text": "50 g Kakao und 2 EL Wasser"} },
-          { "left": {"text": "🌰 Haselnussbiskuit"}, "right": {"text": "80 g gemahlene Haselnüsse, 80 g weniger Mehl"} },
-          { "left": {"text": "🥥 Kokosbiskuit"}, "right": {"text": "80 g Kokosraspel, 80 g weniger Mehl"} }
+        "prompt": "🍫 Du backst Schokoladenbiskuit. Was gibst du zum Grundrezept dazu?",
+        "options": [
+          { "text": "50 g Kakao und 2 EL Wasser.", "correct": true },
+          { "text": "80 g Kakao, dafür 80 g weniger Mehl." },
+          { "text": "50 g Kakao und 1 Ei mehr." }
         ],
-        "memory": false,
-        "explanation": "Nüsse und Kokos ersetzen einen Teil des Mehls: So viel dazukommt, so viel Mehl lässt du weg. Beim Schokoladenbiskuit kommen Kakao und etwas Wasser dazu."
+        "explanation": "Für Schokoladenbiskuit gibst du 50 g Kakao und 2 EL Wasser zum Grundrezept dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥥 Du backst Kokosbiskuit. Was änderst du am Grundrezept?",
+        "options": [
+          { "text": "80 g Kokosraspel dazu, dafür 80 g weniger Mehl.", "correct": true },
+          { "text": "80 g Kokosraspel dazu, dafür 2 EL mehr Wasser." },
+          { "text": "50 g Kokosraspel dazu, das Mehl bleibt gleich." }
+        ],
+        "explanation": "Bei Kokosbiskuit gibst du 80 g Kokosraspel dazu. Bei Haselnuss- oder Mandelbiskuit sind es 80 g gemahlene Haselnüsse oder Mandeln. Dafür reduzierst du jedes Mal die Mehlmenge um 80 g."
       }
     },
     {

@@ -3,7 +3,7 @@
   "slug": "hygiene-haende-desinfektion",
   "title": "Hände waschen und desinfizieren",
   "sort": 611,
-  "intro": "🧴 Welches Desinfektionsmittel du gegen Viren nimmst, hängt von der Bauweise der Viren ab. Es gibt behüllte und unbehüllte Viren. Behüllt heißt: Das Virus hat eine Hülle um sich.\n\nFür Hände und Flächen gibt es Desinfektionsmittel mit verschiedenen Wirkstufen. Viruzid heißt: gegen Viren wirksam. Ein Mittel mit der Wirkstufe „begrenzt viruzid PLUS“ macht bestimmte unbehüllte Viren unschädlich, zum Beispiel Noroviren.\n\nFür behüllte Viren gibt es Mittel mit einer anderen Wirkstufe. Behüllte Viren sind zum Beispiel Grippe-Viren, also Influenza-Viren, und Hepatitis-, Herpes-, HI- und Corona-Viren.\n\nGeeignete Desinfektionsmittel findest du in Listen. Es gibt sie vom Robert-Koch-Institut, kurz RKI. Und von der Desinfektionsmittel-Kommission im Verbund für Angewandte Hygiene, kurz VAH.\n\nMERKE: Bevor du deine Hände desinfizierst, wäschst du sie richtig. Das geht in vier Schritten. 1. Hände gründlich nass machen. 2. Hände mindestens 30 Sekunden einseifen. 3. Die Seife gründlich abspülen. 4. Hände gründlich abtrocknen.\n\nDie 30 Sekunden nennt das Fachbuch für die Arbeit in der Küche.",
+  "intro": "🧴 Welches Desinfektionsmittel du gegen Viren nimmst, hängt von der Bauweise der Viren ab. Es gibt behüllte und unbehüllte Viren. Behüllt heißt: Das Virus hat eine Hülle um sich.\n\nFür Hände und Flächen gibt es Desinfektionsmittel mit verschiedenen Wirkstufen. Viruzid heißt: gegen Viren wirksam. Ein Mittel mit der Wirkstufe „begrenzt viruzid PLUS“ macht bestimmte unbehüllte Viren unschädlich, zum Beispiel Noroviren.\n\nFür behüllte Viren gibt es Mittel mit einer anderen Wirkstufe. Behüllte Viren sind zum Beispiel Grippe-Viren, also Influenza-Viren, und Hepatitis-B-, Herpes-, HI- und Corona-Viren.\n\nGeeignete Desinfektionsmittel findest du in Listen. Es gibt sie vom Robert-Koch-Institut, kurz RKI. Und von der Desinfektionsmittel-Kommission im Verbund für Angewandte Hygiene, kurz VAH.\n\nMERKE: Bevor du deine Hände desinfizierst, wäschst du sie richtig. Das geht in vier Schritten. 1. Hände gründlich nass machen. 2. Hände mindestens 30 Sekunden einseifen. 3. Die Seife gründlich abspülen. 4. Hände gründlich abtrocknen.\n\nDie 30 Sekunden nennt das Fachbuch für die Arbeit in der Küche.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -14,7 +14,7 @@
           { "text": "Von der Farbe und dem Duft des ganzen Mittels." },
           { "text": "Vom Preis und von der Größe der Flasche." }
         ],
-        "explanation": "Die Bauweise der Viren bestimmt die Auswahl des richtigen Desinfektionsmittels. Gegen unbehüllte Viren wie Noroviren brauchst du ein Mittel mit der Wirkstufe begrenzt viruzid PLUS."
+        "explanation": "Die Bauweise der Viren bestimmt die Auswahl des richtigen Desinfektionsmittels. Unbehüllte Viren wie Noroviren brauchen ein Mittel mit einer höheren Wirkstufe als behüllte Viren."
       }
     },
     {
@@ -27,13 +27,13 @@
         ],
         "items": [
           { "text": "Grippe-Virus (Influenza)", "bucket": "beh" },
-          { "text": "Hepatitis-Virus", "bucket": "beh" },
+          { "text": "Hepatitis-B-Virus", "bucket": "beh" },
           { "text": "Herpes-Virus", "bucket": "beh" },
           { "text": "HI-Virus", "bucket": "beh" },
           { "text": "Corona-Virus", "bucket": "beh" },
           { "text": "Norovirus", "bucket": "unbeh" }
         ],
-        "explanation": "Merk dir die Ausnahme: Das Norovirus ist hier das einzige unbehüllte Virus. Grippe-, Hepatitis-, Herpes-, HI- und Corona-Viren sind behüllt."
+        "explanation": "Merk dir die Ausnahme: Von diesen Viren ist nur das Norovirus unbehüllt. Grippe-, Hepatitis-B-, Herpes-, HI- und Corona-Viren sind behüllt."
       }
     },
     {
@@ -54,7 +54,7 @@
         "prompt": "🧼 Richtig Hände waschen vor der Desinfektion. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
           { "text": "Hände gründlich nass machen." },
-          { "text": "Hände mindestens 30 Sekunden einseifen." },
+          { "text": "Hände gründlich einseifen." },
           { "text": "Die Seife gründlich abspülen." },
           { "text": "Hände gründlich abtrocknen." }
         ],
@@ -88,8 +88,8 @@
         "prompt": "📑 Wo findest du geeignete Desinfektionsmittel?",
         "options": [
           { "text": "In den Listen von RKI und VAH.", "correct": true },
-          { "text": "In jedem normalen Kochbuch." },
-          { "text": "Auf dem Speiseplan der ganzen Woche." }
+          { "text": "Im Verbandbuch der Küche." },
+          { "text": "In der Gefahrstoffverordnung." }
         ],
         "explanation": "Geeignete Desinfektionsmittel stehen in den Desinfektionslisten des Robert-Koch-Instituts, kurz RKI, und des Verbunds für Angewandte Hygiene, kurz VAH."
       }

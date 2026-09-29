@@ -3,7 +3,7 @@
   "slug": "geld-verwalten-ueberweisung-scheck",
   "title": "Überweisung und Scheck",
   "sort": 712,
-  "intro": "🏦 Bei einer Überweisung geht Geld von einem Girokonto auf ein anderes Girokonto. Zum Beispiel vom Konto des Seniorenheims auf das Konto des Großhändlers. Der Großhändler bekommt das Geld. Er ist der Zahlungsempfänger.\n\nDas Formular für die Überweisung ist bei allen Banken und Sparkassen gleich. Du trägst ein: den Namen des Zahlungsempfängers, seine IBAN, wenn nötig seine BIC, den Verwendungszweck und den Betrag. Dazu kommen die Angaben zum Kontoinhaber: Name und Vorname oder Firma, und der Ort. Der Kontoinhaber ist der, von dessen Konto das Geld abgeht.\n\nDie IBAN ist die Nummer des Kontos. Sie beginnt mit dem Land, zum Beispiel DE für Deutschland oder AT für Österreich. Die BIC ist die Nummer der Bank. Sie hat 8 oder 11 Stellen. Die BIC brauchst du nur bei Überweisungen in Euro ins Ausland.\n\nIm Verwendungszweck steht, wofür du zahlst. Zum Beispiel: Rechnung 97/126. Dafür hast du höchstens 2 Zeilen mit je 27 Stellen.\n\nScheck und Zahlschein sind klassische, alte Zahlungsarten. Schecks werden immer seltener benutzt. Es gibt zwei Arten von Schecks.\n\nDen Verrechnungsscheck reicht der Empfänger bei seiner eigenen Bank ein. Die Bank schreibt ihm das Geld auf seinem Girokonto gut. Das dauert einige Tage. Beim Aussteller wird das Geld abgebucht. Der Aussteller hat den Scheck geschrieben.\n\nDen Barscheck kann man nur bei der Bank einlösen, die das Konto des Ausstellers führt. Dort bekommt man Bargeld. Ein unterschriebener Barscheck gilt wie Bargeld. Geht er verloren, ist das wie verlorenes Bargeld. Ist er eingelöst, kann man ihn nicht mehr stornieren. Stornieren heißt: rückgängig machen.\n\nEin Betrieb nutzt Barschecks, wenn ein Mitarbeiter Geld für die Barkasse holen soll. Der Mitarbeiter hat keine Kontovollmacht. Das heißt: Er darf nicht selbst über das Konto bestimmen.\n\nMERKE: IBAN = Nummer des Kontos. BIC = Nummer der Bank. Die BIC brauchst du nur bei Euro-Überweisungen ins Ausland.\n\nMERKE: Verrechnungsscheck: Geld kommt aufs Konto. Barscheck: Geld gibt es bar, er ist so viel wert wie Bargeld.",
+  "intro": "🏦 Bei einer Überweisung geht Geld von einem Girokonto auf ein anderes Girokonto. Zum Beispiel vom Konto des Seniorenheims auf das Konto des Großhändlers. Der Großhändler bekommt das Geld. Er ist der Zahlungsempfänger.\n\nDas Formular für die Überweisung ist bei allen Banken und Sparkassen gleich. Du trägst ein: den Namen des Zahlungsempfängers, seine IBAN, wenn nötig seine BIC, den Verwendungszweck und den Betrag. Dazu kommen die Angaben zum Kontoinhaber: Name und Vorname oder Firma, und der Ort. Der Kontoinhaber ist der, von dessen Konto das Geld abgeht.\n\nDie IBAN ist die Nummer des Kontos. Sie beginnt mit dem Land, zum Beispiel DE für Deutschland oder AT für Österreich. Die BIC ist die Nummer der Bank. Sie hat 8 oder 11 Stellen. In deinem Fachbuch steht: Die BIC brauchst du bei Euro-Überweisungen ins Ausland. Heute gilt: Seit 2016 reicht für Euro-Überweisungen innerhalb der EU die IBAN. Das gilt auch für Österreich oder Italien. Die BIC brauchst du nur noch für manche Länder außerhalb der EU, zum Beispiel die Schweiz.\n\nIm Verwendungszweck steht, wofür du zahlst. Zum Beispiel: Rechnung 97/126. Auf dem Formular aus Papier hast du dafür höchstens 2 Zeilen mit je 27 Stellen. Beim Online-Banking ist mehr Platz.\n\nScheck und Zahlschein sind klassische, alte Zahlungsarten. Schecks werden immer seltener benutzt. Es gibt zwei Arten von Schecks.\n\nDen Verrechnungsscheck reicht der Empfänger bei seiner eigenen Bank ein. Die Bank schreibt ihm das Geld auf seinem Girokonto gut. Das dauert einige Tage. Beim Aussteller wird das Geld abgebucht. Der Aussteller hat den Scheck geschrieben.\n\nDen Barscheck legt man bei der Bank vor, die das Konto des Ausstellers führt. Dort bekommt man Bargeld. Ein unterschriebener Barscheck gilt wie Bargeld. Geht er verloren, ist das wie verlorenes Bargeld. Ist er eingelöst, kann man ihn nicht mehr stornieren. Stornieren heißt: rückgängig machen.\n\nEin Betrieb nutzt Barschecks, wenn ein Mitarbeiter Geld für die Barkasse holen soll. Der Mitarbeiter hat keine Kontovollmacht. Das heißt: Er darf nicht selbst über das Konto bestimmen.\n\nMERKE: IBAN = Nummer des Kontos. BIC = Nummer der Bank. Heute gilt: Für Euro-Überweisungen in der EU reicht die IBAN.\n\nMERKE: Verrechnungsscheck: Geld kommt aufs Konto. Barscheck: Geld gibt es bar, er ist so viel wert wie Bargeld.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -44,31 +44,24 @@
       }
     },
     {
-      "type": "sort_buckets",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🌍 Du überweist Euro. Brauchst du dafür die BIC? Sortiere.",
-        "buckets": [
-          { "id": "ja", "label": "BIC nötig", "icon": "🌍" },
-          { "id": "nein", "label": "Ohne BIC", "icon": "🏠" }
+        "prompt": "🌍 Du überweist 20 € an das Österreichische Rote Kreuz. Die IBAN beginnt mit AT. Was brauchst du heute für die Bankverbindung?",
+        "options": [
+          { "text": "Nur die IBAN. Das reicht in der EU.", "correct": true },
+          { "text": "IBAN und BIC, weil das Geld ins Ausland geht." },
+          { "text": "Nur die BIC, weil die Bank in Österreich ist." }
         ],
-        "items": [
-          { "text": "Spende an das Österreichische Rote Kreuz (IBAN AT…)", "bucket": "ja" },
-          { "text": "Hotelrechnung aus Wien", "bucket": "ja" },
-          { "text": "Ferienhaus in Italien", "bucket": "ja" },
-          { "text": "Spende an amnesty international (IBAN DE…)", "bucket": "nein" },
-          { "text": "Rechnung vom Großhändler in Köln", "bucket": "nein" },
-          { "text": "Miete an die Vermieterin in Bonn", "bucket": "nein" }
-        ],
-        "explanation": "Frag dich: Geht das Geld in ein anderes Land? Nur dann brauchst du bei einer Euro-Überweisung die BIC. Das Land erkennst du an den ersten Buchstaben der IBAN: DE heißt Deutschland, AT heißt Österreich."
+        "explanation": "Heute gilt: Seit 2016 reicht für Euro-Überweisungen innerhalb der EU die IBAN. Österreich gehört zur EU. In deinem Fachbuch steht noch: BIC bei Überweisungen ins Ausland. Das ist veraltet. Die BIC brauchst du nur noch für manche Länder außerhalb der EU, zum Beispiel die Schweiz."
       }
     },
     {
       "type": "number_input",
       "data": {
-        "prompt": "✍️ Im Feld Verwendungszweck hast du 2 Zeilen. Wie viele Stellen hat jede Zeile höchstens?",
+        "prompt": "✍️ Auf dem Überweisungsformular aus Papier hat der Verwendungszweck 2 Zeilen. Wie viele Stellen hat jede Zeile höchstens?",
         "answer": 27,
         "hint": "Die Zahl liegt zwischen 25 und 30.",
-        "explanation": "Jede Zeile hat höchstens 27 Stellen. Bei 2 Zeilen sind das zusammen 54 Stellen. Schreib also kurz und klar, zum Beispiel: Rechnung 97/126."
+        "explanation": "Jede Zeile hat höchstens 27 Stellen. Bei 2 Zeilen sind das zusammen 54 Stellen. Schreib also kurz und klar, zum Beispiel: Rechnung 97/126. Beim Online-Banking hast du mehr Platz."
       }
     },
     {
@@ -80,7 +73,7 @@
           { "text": "Jede Bank fragt ganz andere Angaben ab." },
           { "text": "Bei jeder neuen Bank ist die BIC immer Pflicht." }
         ],
-        "explanation": "Die Angaben im Überweisungsformular sind bei allen Banken und Sparkassen gleich. Die BIC brauchst du nur bei Euro-Überweisungen ins Ausland, egal bei welcher Bank."
+        "explanation": "Die Angaben im Überweisungsformular sind bei allen Banken und Sparkassen gleich. Für Euro-Überweisungen in der EU brauchst du heute nur die IBAN, egal bei welcher Bank."
       }
     },
     {
@@ -95,7 +88,7 @@
           { "text": "Geld kommt aufs Girokonto des Empfängers", "bucket": "verr" },
           { "text": "Empfänger reicht ihn bei seiner eigenen Bank ein", "bucket": "verr" },
           { "text": "Die Gutschrift dauert einige Tage", "bucket": "verr" },
-          { "text": "Nur bei der Bank des Ausstellers einlösbar", "bucket": "bar" },
+          { "text": "Vorlegen bei der Bank des Ausstellers", "bucket": "bar" },
           { "text": "Man bekommt das Geld bar ausgezahlt", "bucket": "bar" },
           { "text": "Unterschrieben gilt er wie Bargeld", "bucket": "bar" },
           { "text": "Verlust ist wie verlorenes Bargeld", "bucket": "bar" }
@@ -109,7 +102,7 @@
         "prompt": "↩️ Ein Barscheck wurde schon eingelöst. Jetzt merkt der Aussteller einen Fehler. Kann er die Zahlung stornieren?",
         "options": [
           { "text": "Nein, ein eingelöster Barscheck ist nicht stornierbar.", "correct": true },
-          { "text": "Ja, innerhalb von sechs Wochen geht das kostenlos." },
+          { "text": "Ja, mit einem Anruf bei der Bank, die ihn ausgezahlt hat." },
           { "text": "Ja, wenn er seinen Kontoauszug bei der Bank vorlegt." }
         ],
         "explanation": "Stornieren heißt: rückgängig machen. Beim Barscheck wird das Geld bar ausgezahlt. Ist es einmal ausgezahlt, geht nichts mehr zurück. Darum prüfst du einen Barscheck genau, bevor du ihn unterschreibst."

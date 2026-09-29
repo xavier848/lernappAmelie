@@ -118,7 +118,7 @@
           { "text": "Es verringert die Datenmenge mit einer Reihe von „Tricks“.", "correct": true },
           { "text": "Es speichert jede einzelne Information für immer und ewig." },
           { "text": "Es schaltet alle Sinne ab, sobald zu viel auf einmal kommt." },
-          { "text": "Es gibt jede Information sofort unverändert an die Haut weiter." }
+          { "text": "Es verarbeitet jede einzelne Information ganz genau gleich." }
         ],
         "explanation": "Bei der Flut von Informationen hat das Gehirn eine zentrale Rolle. Es reduziert die Datenmenge mit einer Reihe von „Tricks“. Sonst wäre es überlastet."
       }
@@ -126,13 +126,26 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🎉 Zum Schluss etwas Leichtes: Mit welchem Sinnesorgan spürst du Wärme und Kälte?",
+        "prompt": "🌡️ Mit welchem Sinnesorgan spürst du Wärme und Kälte?",
         "options": [
           { "text": "Mit der Haut.", "correct": true },
           { "text": "Mit der Nase." },
           { "text": "Mit der Zunge." }
         ],
         "explanation": "Die Haut nimmt Berührung, Wärme, Kälte und Schmerz wahr. Die Nase riecht, die Zunge schmeckt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎉 Zum Schluss: Vom Reiz zur Reaktion. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Rezeptoren nehmen eine Information auf." },
+          { "text": "Die Rezeptoren leiten die Information weiter." },
+          { "text": "Das Gehirn verringert die Flut von Informationen." },
+          { "text": "Der Mensch orientiert sich und reagiert angemessen." }
+        ],
+        "explanation": "Die Regel: erst aufnehmen, dann weiterleiten, dann verarbeiten, dann handeln. Rezeptoren gehören zu den Sinnen. Das Gehirn sortiert die vielen Informationen. Erst dann kann der Mensch sinnvoll reagieren."
       }
     }
   ]

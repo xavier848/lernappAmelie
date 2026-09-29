@@ -3,7 +3,7 @@
   "slug": "mengen-masse-reinigungsloesung-mischen",
   "title": "Fachrechnen: Reinigungslösung mischen",
   "sort": 661,
-  "intro": "Reinigungs- und Desinfektionsmittel gibt es oft in konzentrierter Form. Konzentriert heißt: sehr stark, noch nicht verdünnt. Vor dem Gebrauch mischst du das Konzentrat in einem bestimmten Verhältnis mit Wasser. Die Dosierangaben stehen in Prozent oder als Verhältnis.\n\nSo rechnest du eine Prozent-Lösung: Rechne die Menge zuerst in Milliliter um. 1 Liter sind 1000 ml. Dann rechnest du aus, wie viel 1 % ist: die Menge geteilt durch 100. Dann nimmst du das mal die Prozentzahl. Das ist die Menge Konzentrat.\n\nDen Rest füllst du mit Wasser auf. Wasser = gesamte Menge minus Konzentrat.\n\nBeispiel aus dem Buch: Du brauchst 5 Liter fertigen Reiniger als 2,5-prozentige Verdünnung. 0,5 Liter Lösung reichen für drei Reinigungen.\n\nEin weiteres Beispiel: Ein Reinigungskonzentrat kommt in 5-Liter-Kanistern. Auf einen Eimer Wasser (7 Liter) kommen 50 ml Konzentrat.\n\nMERKE: Erst in Milliliter umrechnen. Dann 1 % ausrechnen. Dann mal die Prozentzahl.",
+  "intro": "Reinigungs- und Desinfektionsmittel gibt es oft in konzentrierter Form. Konzentriert heißt: sehr stark, noch nicht verdünnt. Vor dem Gebrauch mischst du das Konzentrat in einem bestimmten Verhältnis mit Wasser. Die Dosierangaben stehen in Prozent oder als Verhältnis.\n\nSo rechnest du eine Prozent-Lösung: Rechne die Menge zuerst in Milliliter um. 1 Liter sind 1000 ml. Dann rechnest du aus, wie viel 1 % ist: die Menge geteilt durch 100. Dann nimmst du das mal die Prozentzahl. Das ist die Menge Konzentrat.\n\nDer Rest ist Wasser. Wasser = gesamte Menge minus Konzentrat.\n\nBeispiel aus dem Buch: Du brauchst 5 Liter fertigen Reiniger als 2,5-prozentige Verdünnung. 0,5 Liter Lösung reichen für drei Reinigungen.\n\nEin weiteres Beispiel: Ein Reinigungskonzentrat kommt in 5-Liter-Kanistern. Auf einen Eimer Wasser (7 Liter) kommen 50 ml Konzentrat.\n\nMERKE: Erst in Milliliter umrechnen. Dann 1 % ausrechnen. Dann mal die Prozentzahl. Zuletzt das Wasser ausrechnen.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -34,14 +34,14 @@
     {
       "type": "steps_order",
       "data": {
-        "prompt": "🧮 So rechnest du die Menge Konzentrat für eine Prozent-Lösung aus. Bringe die Schritte in die richtige Reihenfolge.",
+        "prompt": "🧮 So rechnest du eine Prozent-Lösung aus. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
           { "text": "Die gesamte Menge in Milliliter umrechnen." },
-          { "text": "Ausrechnen, wie viel 1 % davon ist." },
-          { "text": "Das Ergebnis mal die Prozentzahl nehmen." },
-          { "text": "Den Rest mit Wasser auffüllen." }
+          { "text": "Die Milliliter durch 100 teilen. Das ist 1 %." },
+          { "text": "1 % mal die Prozentzahl nehmen. Das ist das Konzentrat." },
+          { "text": "Das Wasser ausrechnen: gesamte Menge minus Konzentrat." }
         ],
-        "explanation": "Die Regel: Erst die Einheit, dann 1 %, dann die Prozentzahl. Zuerst brauchst du Milliliter, sonst rechnest du mit zu kleinen Zahlen. Das Wasser kommt zum Schluss dazu."
+        "explanation": "Die Regel: Jeder Schritt braucht das Ergebnis vom Schritt davor. Zuerst brauchst du Milliliter, sonst rechnest du mit Kommazahlen. Das Wasser rechnest du zuletzt aus. Dafür musst du das Konzentrat schon kennen."
       }
     },
     {
@@ -56,10 +56,10 @@
     {
       "type": "number_input",
       "data": {
-        "prompt": "💧 Du hast 125 ml Konzentrat für 5 Liter Lösung. Wie viele Milliliter Wasser füllst du dazu?",
+        "prompt": "💧 Du brauchst 5 Liter fertige Lösung mit 2,5 % Konzentrat. Wie viele Milliliter Wasser brauchst du?",
         "answer": 4875,
-        "hint": "5 Liter = 5000 ml.\nZiehe das Konzentrat ab: 5000 − 125 = ?",
-        "explanation": "Wasser = gesamte Menge minus Konzentrat: 5000 ml − 125 ml = 4875 ml. Zusammen ergibt das genau 5 Liter."
+        "hint": "5 Liter = 5000 ml.\nErst das Konzentrat: 1 % sind 50 ml. 2,5 % sind 2,5 × 50 ml.\nDann: 5000 ml minus Konzentrat = ?",
+        "explanation": "5 Liter sind 5000 ml. Das Konzentrat sind 2,5 % davon, also 125 ml. Wasser = gesamte Menge minus Konzentrat: 5000 ml − 125 ml = 4875 ml. Zusammen ergibt das genau 5 Liter."
       }
     },
     {
