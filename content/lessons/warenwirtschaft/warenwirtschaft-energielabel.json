@@ -1,0 +1,141 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-energielabel",
+  "title": "Elektrogeräte und Energielabel",
+  "sort": 689,
+  "intro": "🔌 Der Betrieb kauft ein neues Elektrogerät, zum Beispiel eine Waschmaschine, eine Geschirrspülmaschine oder einen Kühl- und Gefrierschrank. Dann zählen drei Dinge: die Betriebskosten, die Langlebigkeit und die Reparaturanfälligkeit. Alle drei hängen zusammen. Das ist auch für die Umwelt wichtig.\n\nBei den Betriebskosten ist oft der Stromverbrauch entscheidend. Die Hersteller müssen deshalb ein Energielabel nach EU-Normen zeigen.\n\nMERKE: Das neue Energielabel gilt seit 2021. Es reicht von Klasse A bis Klasse G. A heißt: niedriger Stromverbrauch. G heißt: „gieriger Stromfresser“.\n\nDas alte Label galt bis Ende 2020. Du findest es noch auf älteren Geräten. Es reichte von A+++ bis D. Die neue Skala ist strenger. Im Beispiel hat ein Kühlgerät auf dem alten Label A++. Auf dem neuen Label hat dasselbe Gerät nur B. Eine Ausnahme sind Wäschetrockner: Für sie gilt weiterhin das alte Label.\n\nDas steht auf dem neuen Label: ein QR-Code für mehr Infos in der EU-Datenbank. Der Hersteller und die Modellbezeichnung. Die Energieeffizienzklasse. Der Stromverbrauch in Kilowattstunden pro Jahr, kurz kWh pro Jahr. Dazu die Nummer der EU-Verordnung.\n\nJe nach Gerät gibt es noch mehr Angaben. Beim Kühlgerät steht das Fassungsvolumen von Kühlteil und Gefrierteil in Litern. Die Lautstärke steht in Dezibel, auf dem neuen Label mit einer Bewertung von A bis D. Bei Geschirrspülmaschinen zählt auch der Wasserverbrauch. Bei Waschmaschinen zählt die Schleuderzahl pro Minute.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Der Betrieb kauft eine neue Geschirrspülmaschine. Worauf achtest du?",
+        "options": [
+          { "text": "Auf Betriebskosten, Langlebigkeit und Reparaturanfälligkeit.", "correct": true },
+          { "text": "Nur auf die Farbe, die Marke und die Werbung im Prospekt." },
+          { "text": "Nur auf den niedrigsten Kaufpreis im ganzen Prospekt." }
+        ],
+        "explanation": "Ein billiges Gerät kann teuer werden, wenn es viel Strom braucht oder oft kaputtgeht. Betriebskosten, Langlebigkeit und Reparaturanfälligkeit hängen zusammen. Achte deshalb auf alle drei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Was ist bei den Betriebskosten eines Elektrogeräts oft entscheidend?",
+        "options": [
+          { "text": "Der Stromverbrauch.", "correct": true },
+          { "text": "Das Gewicht des Geräts." },
+          { "text": "Die Länge des Stromkabels." }
+        ],
+        "explanation": "Ein Gerät läuft viele Jahre lang. Jede Kilowattstunde Strom kostet Geld. Darum machen sparsame Geräte bei den Betriebskosten einen großen Unterschied."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📜 Müssen Hersteller ein Energielabel zeigen?",
+        "options": [
+          { "text": "Ja, sie sind dazu nach EU-Normen verpflichtet.", "correct": true },
+          { "text": "Nein, das Energielabel ist ganz freiwillig." },
+          { "text": "Nur dann, wenn das Gerät besonders teuer ist." }
+        ],
+        "explanation": "Die Hersteller sind verpflichtet, das Energielabel nach einheitlichen EU-Normen auszuweisen. So kannst du Geräte verschiedener Marken vergleichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟢 Was bedeuten auf dem neuen Energielabel die Klassen A und G?",
+        "options": [
+          { "text": "A: niedriger Stromverbrauch. G: „gieriger Stromfresser“.", "correct": true },
+          { "text": "A: „gieriger Stromfresser“. G: niedriger Stromverbrauch." },
+          { "text": "A: sehr leises Gerät. G: sehr lautes Gerät." }
+        ],
+        "explanation": "Merke dir: G wie gierig. Klasse G braucht am meisten Strom. Klasse A braucht am wenigsten. Dazwischen liegen B bis F."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Seit welchem Jahr gibt es das neue Energielabel?",
+        "answer": 2021,
+        "hint": "Das alte Label galt bis Ende 2020.\nDas neue kam im Jahr danach.\n2020 + 1 = ?",
+        "explanation": "Das neue Energielabel gilt seit 2021. Das alte galt bis Ende 2020 und steht noch auf älteren Geräten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Für welches Gerät gilt weiterhin das alte Energielabel?",
+        "options": [
+          { "text": "Für den Wäschetrockner.", "correct": true },
+          { "text": "Für den Kühlschrank." },
+          { "text": "Für die Waschmaschine." }
+        ],
+        "explanation": "Der Wäschetrockner ist die Ausnahme. Für ihn gilt weiterhin das alte Label. Bei Kühlgeräten, Waschmaschinen und Geschirrspülern gilt das neue."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Ein Kühlgerät hat auf dem alten Label die Klasse A++. Welche Klasse hat dasselbe Gerät im Beispiel auf dem neuen Label?",
+        "options": [
+          { "text": "Klasse B.", "correct": true },
+          { "text": "Klasse A+++." },
+          { "text": "Klasse A++." }
+        ],
+        "explanation": "Die neue Skala ist strenger. Plus-Klassen gibt es auf dem neuen Label nicht mehr. Ein Gerät mit altem A++ hat im Beispiel auf dem neuen Label nur noch B."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Von welcher bis zu welcher Klasse reichte das alte Energielabel?",
+        "options": [
+          { "text": "Von A+++ bis D.", "correct": true },
+          { "text": "Von A bis G." },
+          { "text": "Von 1 bis 10." }
+        ],
+        "explanation": "Das alte Label hatte die Klassen A+++, A++, A+, A, B, C und D. Das neue Label hat die Klassen A bis G ohne Plus."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Was zeigt die Angabe auf dem neuen Label? Verbinde.",
+        "pairs": [
+          { "left": {"text": "QR-Code"}, "right": {"text": "Mehr Infos in der EU-Datenbank"} },
+          { "left": {"text": "kWh pro Jahr"}, "right": {"text": "Stromverbrauch in einem Jahr"} },
+          { "left": {"text": "Dezibel"}, "right": {"text": "Wie laut das Gerät ist"} },
+          { "left": {"text": "A bis G"}, "right": {"text": "Die Energieeffizienzklasse"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jeder Angabe: Was misst sie? Kilowattstunden messen Strom. Dezibel messen Lautstärke. Den QR-Code scannst du mit dem Handy."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧺 Welche zusätzliche Angabe ist bei welchem Gerät wichtig? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Geschirrspülmaschine"}, "right": {"text": "Wasserverbrauch"} },
+          { "left": {"text": "Waschmaschine"}, "right": {"text": "Schleuderzahl pro Minute"} },
+          { "left": {"text": "Kühl- und Gefrierschrank"}, "right": {"text": "Fassungsvolumen in Litern"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Was ist das Besondere an diesem Gerät? Die Spülmaschine braucht Wasser. Die Waschmaschine schleudert. In den Kühlschrank passt eine bestimmte Menge."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du willst wissen, wie viel Strom eine neue Waschmaschine braucht. Wo schaust du nach?",
+        "options": [
+          { "text": "Auf dem Energielabel.", "correct": true },
+          { "text": "Auf dem Kassenbon." },
+          { "text": "Auf dem Stecker." }
+        ],
+        "explanation": "Das Energielabel zeigt den Stromverbrauch in Kilowattstunden pro Jahr und die Effizienzklasse. So kannst du Geräte leicht vergleichen."
+      }
+    }
+  ]
+}
