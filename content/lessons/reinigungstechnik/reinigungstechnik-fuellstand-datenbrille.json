@@ -1,0 +1,131 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-fuellstand-datenbrille",
+  "title": "Füllstand-Sensoren und Datenbrillen",
+  "sort": 674,
+  "intro": "Sensoren ermöglichen die digitale Füllstandserfassung. Sie überwachen, wie stark Räume genutzt werden. Das nennt man Frequentierung. Sie melden den Bedarf direkt an die Reinigungskräfte. Man setzt sie zum Beispiel in Eingangsbereichen, in Sanitärräumen und im Abfallmanagement ein.\n\nIn den Deckeln von Abfallbehältern stecken kabellose Sensoren. Sie senden Daten in eine Cloud, also auf einen Speicher im Internet. Maschinelles Lernen und KI berechnen daraus, wann ein Abfallbehälter voll ist. Das heißt Smart Waste Solutions.\n\nSensoren gibt es auch in Seifen- und Desinfektionsspendern und bei Händetüchern.\n\nVorteile: Ein schneller Service ist leichter möglich. Das nennt man Ad-hoc-Reinigung, also Reinigung sofort bei Bedarf. Das Personal spart Wege. Mit externen Dienstleistern kann man besser abrechnen. Und man kann bedarfsgerecht planen.\n\nDatenbrillen: Augmented Reality fügt mit der Datenbrille Realität und Virtualität zusammen. Man sieht also die echte Welt und dazu digitale Informationen.\n\nIn der Reinigung bekommen Geräte oder der Handschuhgummi Sensoren. Die Sensoren senden an die Datenbrille. So erkennt man: Mit welchem Anpressdruck und wie schnell wird gearbeitet? Wurden Flächen oder die Toilette gründlich gereinigt?\n\nDas System erkennt noch nicht, wie viel Reinigung zum Beispiel eine umgefallene Tasse Kaffee braucht. Das muss die Reinigungskraft selbst bestimmen.\n\nMERKE: Datenbrillen brauchen viel Technik. Deshalb setzt man sie in der Gebäudereinigung noch nicht ein. Für Schulungen eignen sie sich aber, zum Beispiel als VR-Brille.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📶 Was machen Sensoren bei der digitalen Füllstandserfassung?",
+        "options": [
+          { "text": "Sie überwachen die Nutzung der Räume und melden den Bedarf an die Reinigungskräfte.", "correct": true },
+          { "text": "Sie reinigen die Räume selbst, sobald dort keine Menschen mehr unterwegs sind." },
+          { "text": "Sie zählen am Abend das Geld in der Kasse und melden es an die Buchhaltung." },
+          { "text": "Sie schalten in allen Räumen automatisch das Licht und die Heizung aus." }
+        ],
+        "explanation": "Sensoren überwachen die Frequentierung der Räume, also wie stark sie genutzt werden. Sie melden den Bedarf direkt an die Reinigungskräfte. So wird gereinigt, wenn es nötig ist."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📍 Wo sitzt der Sensor, und was meldet er? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Deckel des Abfallbehälters"}, "right": {"text": "Der Behälter ist bald voll."} },
+          { "left": {"text": "Seifenspender"}, "right": {"text": "Die Seife muss nachgefüllt werden."} },
+          { "left": {"text": "Spender für Händetücher"}, "right": {"text": "Die Tücher gehen zu Ende."} },
+          { "left": {"text": "Sanitärraum"}, "right": {"text": "Der Raum wurde oft genutzt."} }
+        ],
+        "explanation": "Frag dich: Was wird hier verbraucht oder genutzt? Der Sensor meldet genau das, bevor es zum Problem wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☁️ Sensoren in Abfallbehältern senden Daten in eine Cloud. Was berechnen KI und maschinelles Lernen daraus?",
+        "options": [
+          { "text": "Wann ein Abfallbehälter seinen maximalen Füllstand erreicht.", "correct": true },
+          { "text": "Welche Farbe der nächste Müllbeutel im Behälter haben soll." },
+          { "text": "Wer genau welchen Abfall in den Behälter geworfen hat." },
+          { "text": "Wie viel die Abfallentsorgung im nächsten Jahr kosten darf." }
+        ],
+        "explanation": "Die Daten gehen in eine Cloud. Maschinelles Lernen und KI-gestützte Analytik erstellen Kennzahlen. Sie berechnen, wann ein Abfallsammler seinen maximalen Füllstand erreicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗑️ Wie heißen solche digitalen Lösungen für den Abfall?",
+        "options": [
+          { "text": "Smart Waste Solutions.", "correct": true },
+          { "text": "Smart Waste Bag." },
+          { "text": "Cradle to Cradle." },
+          { "text": "Second Life." }
+        ],
+        "explanation": "Sensoren in den Deckeln, Cloud und KI zusammen heißen Smart Waste Solutions. Der Smart Waste Bag ist dagegen ein waschbarer Müllbeutel aus Stoff."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👍 Ist das ein Vorteil der digitalen Füllstandserfassung? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Ja, ein Vorteil", "icon": "✅" },
+          { "id": "nein", "label": "Nein, das stimmt nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Schneller Service durch Ad-hoc-Reinigung", "bucket": "ja" },
+          { "text": "Das Personal spart Wege", "bucket": "ja" },
+          { "text": "Bessere Abrechnung mit externen Dienstleistern", "bucket": "ja" },
+          { "text": "Bedarfsgerechte Planung", "bucket": "ja" },
+          { "text": "Die Räume reinigen sich von selbst", "bucket": "nein" },
+          { "text": "Man braucht kein Personal mehr", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Hilft die Technik den Menschen bei der Arbeit, oder ersetzt sie die Arbeit ganz? Die Sensoren melden nur den Bedarf. Reinigen müssen die Reinigungskräfte weiterhin selbst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥽 Was macht Augmented Reality mit einer Datenbrille?",
+        "options": [
+          { "text": "Sie fügt die echte Welt und digitale Informationen zusammen.", "correct": true },
+          { "text": "Sie macht alles, was man durch die Brille sieht, schärfer." },
+          { "text": "Sie zeigt nur Filme, die echte Welt sieht man nicht mehr." },
+          { "text": "Sie schützt die Augen beim Arbeiten mit starken Reinigern." }
+        ],
+        "explanation": "Augmented Reality fügt mit der Datenbrille Realität und Virtualität zusammen. Man sieht die echte Welt und dazu digitale Informationen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Sensoren am Handschuhgummi senden Daten an die Datenbrille. Was ist dann erkennbar?",
+        "options": [
+          { "text": "Anpressdruck, Tempo und ob gründlich gereinigt wurde.", "correct": true },
+          { "text": "Die Körpertemperatur und der Puls der Reinigungskraft." },
+          { "text": "Der Name des Gastes, der zuletzt im Zimmer war." },
+          { "text": "Wie viel Reinigungsmittel noch im Lager steht." }
+        ],
+        "explanation": "Die Sensoren an Geräten oder am Handschuhgummi kommunizieren mit der Datenbrille. So erkennt man den Anpressdruck, die Geschwindigkeit und ob Flächen oder die Toilette gründlich gereinigt wurden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Eine Tasse Kaffee ist umgefallen. Wer bestimmt, wie viel Reinigung nötig ist?",
+        "options": [
+          { "text": "Die Reinigungskraft selbst.", "correct": true },
+          { "text": "Die Datenbrille." },
+          { "text": "Der Sensor im Handschuh." },
+          { "text": "Die Cloud im Internet." }
+        ],
+        "explanation": "Das System erkennt noch nicht, wie viel Reinigungsleistung zum Beispiel für eine umgefallene Tasse Kaffee nötig ist. Das muss die Reinigungskraft selbst bestimmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Wo setzt man Datenbrillen heute schon sinnvoll ein?",
+        "options": [
+          { "text": "Bei Schulungen, zum Beispiel als VR-Brille.", "correct": true },
+          { "text": "Bei jeder Reinigung in jedem Hotel." },
+          { "text": "Nur beim Autofahren zur Arbeit." }
+        ],
+        "explanation": "Wegen der hohen technischen Ausstattung werden Datenbrillen in der Gebäudereinigung noch nicht eingesetzt. Für Schulungen eignen sie sich aber gut."
+      }
+    }
+  ]
+}
