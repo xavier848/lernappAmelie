@@ -48,6 +48,13 @@ export function ExamPlayer({
   const [ready, setReady] = useState(false);
   const [feedback, setFeedback] = useState<{ correct: boolean; explanation?: string } | null>(null);
   const [results, setResults] = useState<ExamResult[]>([]);
+  // ✕ fragt erst nach - ein versehentlicher Tipp soll den Test nicht kosten.
+  const [showQuitDialog, setShowQuitDialog] = useState(false);
+
+  // Nichts Spielbares: sofort (aber nicht waehrend des Renderns) beenden.
+  useEffect(() => {
+    if (playable.length === 0) onDone([]);
+  }, [playable.length, onDone]);
 
   // Dokument-Scrollen sperren, damit die Kopfzeile fest bleibt (wie im Player).
   useEffect(() => {
@@ -68,10 +75,7 @@ export function ExamPlayer({
     };
   }, []);
 
-  if (playable.length === 0) {
-    onDone([]);
-    return null;
-  }
+  if (playable.length === 0) return null;
 
   const current = playable[index];
 
@@ -110,7 +114,7 @@ export function ExamPlayer({
         <button
           type="button"
           aria-label="Prüfung abbrechen"
-          onClick={onQuit}
+          onClick={() => setShowQuitDialog(true)}
           className="flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl text-2xl font-bold text-ink/50 select-none"
         >
           <span aria-hidden>✕</span>
@@ -167,6 +171,33 @@ export function ExamPlayer({
           }
           onContinue={handleContinue}
         />
+      )}
+
+      {showQuitDialog && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Test beenden?"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-ink/40 px-6"
+        >
+          <div className="w-full max-w-sm rounded-3xl bg-white p-6 shadow-lg">
+            <p className="text-xl font-bold text-ink">
+              Willst du wirklich aufhören?
+            </p>
+            <p className="mt-2 text-base text-ink">
+              Deine Antworten bis hierher sind gespeichert. Ein Ergebnis gibt es
+              aber nur, wenn du bis zum Ende machst.
+            </p>
+            <div className="mt-5 flex flex-col gap-3">
+              <Button size="lg" full onClick={() => setShowQuitDialog(false)}>
+                Weiter machen
+              </Button>
+              <Button size="lg" full variant="secondary" onClick={onQuit}>
+                Beenden
+              </Button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

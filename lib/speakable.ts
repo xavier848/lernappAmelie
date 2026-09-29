@@ -7,7 +7,9 @@ import type { ExerciseInput } from "@/lib/content-schema";
 
 export function speakableText(exercise: ExerciseInput): string {
   const data = exercise.data;
-  const prompt = data.prompt;
+  // Lueckentexte ("im ___ lagern"): Unterstriche wuerde die Sprachausgabe
+  // buchstabieren oder verschlucken - eine hoerbare Pause ist besser.
+  const prompt = data.prompt.replace(/_{2,}/g, "…");
   const lang = "tts_lang" in data ? data.tts_lang : undefined;
   const german = !lang || lang.toLowerCase().startsWith("de");
 

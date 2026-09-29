@@ -1,0 +1,128 @@
+{
+  "topic_slug": "pruefung-unfall-arbeitsplatz-hygiene",
+  "slug": "pruefung-unfall-6-lebensmittel",
+  "title": "Unfall 6: Lebensmittelvergiftung",
+  "sort": 5,
+  "intro": "Gefahr 6: Falsch verarbeitete Lebensmittel können zu Lebensmittelvergiftungen führen. Oft sind Salmonellen schuld. Salmonellen sind Bakterien.\n\nSo vermeidest du eine Lebensmittelvergiftung: Frisches Hackfleisch verarbeitest du am Tag des Einkaufs. Die Auftauflüssigkeit von Fleisch, Fisch und Geflügel entsorgst du fachgerecht.\n\nFleischerzeugnisse garst du richtig durch. Dazu misst du die Kerntemperatur. Das ist die Temperatur ganz innen im Fleisch.\n\nRohe Eierspeisen servierst du niemals. Lange Warmhaltezeiten von Speisen vermeidest du.\n\nMERKE: Erste Hilfe: Bekommt jemand Durchfall, weil er schlechtes Essen gegessen hat, muss er sofort zum Arzt. Es besteht Salmonellenverdacht.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Du kaufst am Montag frisches Hackfleisch. Wann verarbeitest du es?",
+        "options": [
+          { "text": "Noch am selben Tag, also am Montag.", "correct": true },
+          { "text": "Am Dienstag, wenn es gut gekühlt war." },
+          { "text": "Irgendwann in den nächsten drei Tagen." }
+        ],
+        "explanation": "Frisches Hackfleisch verarbeitest du am Tag des Einkaufs. Beim Zerkleinern kommen Keime ins ganze Fleisch. Darin vermehren sich Salmonellen besonders schnell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐔 Ein Hähnchen taut in einer Schüssel auf. Unten sammelt sich Flüssigkeit. Was machst du damit?",
+        "options": [
+          { "text": "Fachgerecht entsorgen.", "correct": true },
+          { "text": "Für die Soße verwenden, das gibt Geschmack." },
+          { "text": "In der Schüssel lassen und darin Gemüse waschen." }
+        ],
+        "explanation": "In der Auftauflüssigkeit von Fleisch, Fisch und Geflügel können Salmonellen sein. Darum entsorgst du sie fachgerecht. Sie darf nie an andere Lebensmittel kommen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Woran erkennst du sicher, dass eine Frikadelle innen durchgegart ist?",
+        "options": [
+          { "text": "Du misst die Kerntemperatur mit einem Thermometer.", "correct": true },
+          { "text": "Die Frikadelle ist außen schön knusprig und braun." },
+          { "text": "Sie war genau 5 Minuten bei großer Hitze in der Pfanne." }
+        ],
+        "explanation": "Die Kerntemperatur ist die Temperatur ganz innen im Fleisch. Außen kann das Fleisch schon braun sein, innen aber noch roh. Nur das Thermometer zeigt sicher: Das Fleisch ist durchgegart."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Darfst du eine Mousse au Chocolat mit rohen Eiern servieren?",
+        "options": [
+          { "text": "Nein, niemals – Salmonellengefahr.", "correct": true },
+          { "text": "Ja, wenn die Eier ganz frisch sind." },
+          { "text": "Ja, wenn die Mousse gut gekühlt ist." }
+        ],
+        "explanation": "Rohe Eierspeisen servierst du niemals. In rohen Eiern können Salmonellen stecken. Frische Eier und Kühlung töten sie nicht ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏲️ Das Mittagessen ist um 11 Uhr fertig. Gegessen wird erst um 13 Uhr. Was ist das Problem?",
+        "options": [
+          { "text": "Die lange Warmhaltezeit – die sollst du vermeiden.", "correct": true },
+          { "text": "Es gibt kein Problem, warm gehaltenes Essen ist immer sicher." },
+          { "text": "Nur der Geschmack, für die Gesundheit ist es egal." }
+        ],
+        "explanation": "Lange Warmhaltezeiten sollst du vermeiden. Kühlt das Essen dabei unter 60 °C ab, können sich Keime vermehren. Außerdem gehen Geschmack und Vitamine verloren. Darum stimmst du Garzeit und Essenszeit ab."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🦠 Schützt das vor einer Lebensmittelvergiftung? Sortiere.",
+        "explanation": "Frag dich: Bekommen Keime wie Salmonellen hier Zeit und lauwarme Temperaturen? Das hilft den Keimen. Frische Ware, Hitze beim Durchgaren und sauberes Entsorgen helfen dir.",
+        "buckets": [
+          { "id": "schutz", "label": "Schützt", "icon": "✅" },
+          { "id": "gefahr", "label": "Gefährlich", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Hackfleisch am Einkaufstag verarbeiten", "bucket": "schutz" },
+          { "text": "Die Kerntemperatur messen", "bucket": "schutz" },
+          { "text": "Auftauflüssigkeit fachgerecht entsorgen", "bucket": "schutz" },
+          { "text": "Garzeit und Essenszeit abstimmen", "bucket": "schutz" },
+          { "text": "Tiramisu mit rohen Eiern servieren", "bucket": "gefahr" },
+          { "text": "Hackfleisch vom Vortag verwenden", "bucket": "gefahr" },
+          { "text": "Essen stundenlang warm halten", "bucket": "gefahr" },
+          { "text": "Mit der Auftauflüssigkeit eine Soße kochen", "bucket": "gefahr" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚽 Ein Gast hat nach dem Essen starken Durchfall. Was ist richtig?",
+        "options": [
+          { "text": "Sofort zum Arzt: Salmonellenverdacht.", "correct": true },
+          { "text": "Ein paar Tage abwarten, Durchfall ist harmlos." },
+          { "text": "Eine Tablette nehmen und weiterarbeiten." }
+        ],
+        "explanation": "Bei Durchfallerkrankungen, die von schlechtem Essen kommen, muss man sofort zum Arzt. Es könnte eine Vergiftung durch Salmonellen sein. Das nennt man Salmonellenverdacht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Was sind Salmonellen?",
+        "options": [
+          { "text": "Bakterien.", "correct": true },
+          { "text": "Viren." },
+          { "text": "Pilze." }
+        ],
+        "explanation": "Salmonellen sind Bakterien. Sie können Magen-Darm-Erkrankungen mit Durchfall und Erbrechen auslösen. Merksatz: Salmonellen = Bakterien = Gefahr."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Maßnahme passt? Verbinde.",
+        "explanation": "Alle fünf Maßnahmen haben dasselbe Ziel: Keime wie Salmonellen sollen keine Chance bekommen.",
+        "pairs": [
+          { "left": {"text": "🥩 Frisches Hackfleisch"}, "right": {"text": "Am Tag des Einkaufs verarbeiten"} },
+          { "left": {"text": "🍗 Auftauflüssigkeit"}, "right": {"text": "Fachgerecht entsorgen"} },
+          { "left": {"text": "🌡️ Fleischerzeugnisse"}, "right": {"text": "Durchgaren, Kerntemperatur messen"} },
+          { "left": {"text": "🥚 Rohe Eierspeisen"}, "right": {"text": "Niemals servieren"} },
+          { "left": {"text": "⏲️ Warmhalten"}, "right": {"text": "Lange Warmhaltezeiten vermeiden"} }
+        ]
+      }
+    }
+  ]
+}

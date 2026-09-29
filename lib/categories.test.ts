@@ -19,6 +19,14 @@ describe("groupTopicsByCategory", () => {
     expect(rest?.topics.map((t) => t.slug)).toEqual(["neues-thema"]);
   });
 
+  it("Pruefungs-Themen landen in keinem Bereich, auch nicht in 'Weitere Themen'", () => {
+    const groups = groupTopicsByCategory([
+      topic("badezimmer"),
+      topic("pruefung-unfall-arbeitsplatz-hygiene"),
+    ]);
+    expect(groups.map((g) => g.slug)).toEqual(["putzen-wohnen"]);
+  });
+
   it("jedes echte Thema ist genau einem Bereich zugeordnet (keine Dopplung)", () => {
     const seen = new Set<string>();
     for (const cat of CATEGORIES) {

@@ -9,6 +9,9 @@
 // Mechanik inkl. Wiederholungs-Queue und logAttempt, aber 5 XP pro Uebung,
 // kein Lektions-Bonus, keine Sterne, kein saveLessonResult - nur
 // bumpDailyActivity (Streak zaehlt).
+// Pruefungs-Lektionen (Thema "pruefung-...", lib/pruefung.ts) sind vom
+// Lernfluss ausgenommen: nie gesperrt, kein Eintrag im Lernfluss-Protokoll,
+// und "Weiter"/"Beenden" fuehren zurueck ins Pruefungs-Training.
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { exerciseSchema, type ExerciseInput } from "@/lib/content-schema";
@@ -27,7 +30,12 @@ import {
   saveLessonResult,
 } from "@/lib/data";
 import { getDeviceId, getProfile } from "@/lib/device";
-import { berechneLernstand, themaGesperrtFuer } from "@/lib/lernfluss";
+import {
+  berechneLernstand,
+  themaGesperrtFuer,
+  type LernEreignis,
+} from "@/lib/lernfluss";
+import { istPruefungsThema } from "@/lib/pruefung";
 import {
   LESSON_BONUS_XP,
   PRACTICE_XP_PER_EXERCISE,
@@ -81,6 +89,16 @@ export type LessonPlayerProps = {
   mode?: "lesson" | "practice";
   /** Uebungen direkt uebergeben statt per slug zu laden (Ueben-Modus). */
   exercisesOverride?: ExerciseRowLike[];
+  /**
+   * Ueben-Modus innerhalb einer anderen Seite (Pruefungs-Training): wird bei
+   * "Fertig" und "Beenden" aufgerufen statt zur Startseite zu springen.
+   */
+  onExit?: () => void;
+  /**
+   * Ueben-Modus: false = die Runde zaehlt NICHT als Wiederholung im
+   * Lernfluss (Pruefungs-Training steht ausserhalb des Lernflusses).
+   */
+  zaehltFuerLernfluss?: boolean;
 };
 
 /** Validiert rohe Uebungs-Zeilen; ungueltige werden uebersprungen. */
@@ -101,6 +119,8 @@ export function LessonPlayer({
   slug,
   mode = "lesson",
   exercisesOverride,
+  onExit,
+  zaehltFuerLernfluss = true,
 }: LessonPlayerProps) {
   const router = useRouter();
 
@@ -108,6 +128,8 @@ export function LessonPlayer({
   const [lessonId, setLessonId] = useState<string | null>(null);
   // Thema der Lektion - fuer das Lernfluss-Protokoll (lib/lernfluss.ts).
   const [topicSlug, setTopicSlug] = useState<string | null>(null);
+  // Pruefungs-Lektion (lib/pruefung.ts): ausserhalb des Lernflusses.
+  const pruefung = istPruefungsThema(topicSlug);
   // Gesetzt, wenn der Lernfluss diese Lektion gerade nicht zulaesst.
   const [sperre, setSperre] = useState<Sperre | null>(null);
   // Einführung: optionaler Vorschalt-Screen vor der ersten Übung.
@@ -167,18 +189,26 @@ export function LessonPlayer({
       // Lektion geladen, kostet also keine zusaetzliche Wartezeit.
       const deviceId = getDeviceId();
       const istMama = getProfile() === "mama";
+      // Das Protokoll darf hier scheitern (null): Pruefungs-Lektionen brauchen
+      // es nicht und sollen auch dann starten. Fuer normale Lektionen bleibt
+      // es wie bisher - ohne Protokoll keine Lektion (siehe unten).
       const [data, ereignisse] = await Promise.all([
         fetchLesson(slug),
         istMama || !deviceId
-          ? Promise.resolve([] as Awaited<ReturnType<typeof fetchLernEreignisse>>)
-          : fetchLernEreignisse(deviceId),
+          ? Promise.resolve([] as LernEreignis[])
+          : fetchLernEreignisse(deviceId).catch(() => null),
       ]);
       if (!data) {
         setPhase("error");
         return;
       }
 
-      if (!istMama && deviceId) {
+      // Pruefungs-Lektionen (lib/pruefung.ts): kein Riegel, nie.
+      if (!istMama && deviceId && !istPruefungsThema(data.topicSlug)) {
+        if (ereignisse === null) {
+          setPhase("error");
+          return;
+        }
         const stand = berechneLernstand(ereignisse);
 
         // 1. Thema in Pause: gilt fuer ALLES aus diesem Thema, auch fuers
@@ -339,7 +369,10 @@ export function LessonPlayer({
         if (deviceId) {
           // Ueben zaehlt als Wiederholung: damit baut sie die nach 3
           // Lektionen faelligen Wiederholungen ab (lib/lernfluss.ts).
-          void logLernEreignis({ deviceId, art: "wiederholung" });
+          // Ausnahme: Fehler-Ueben im Pruefungs-Training (ausserhalb).
+          if (zaehltFuerLernfluss) {
+            void logLernEreignis({ deviceId, art: "wiederholung" });
+          }
           void detectLevelUp(deviceId, xp).then(() =>
             bumpDailyActivity(deviceId, xp)
           );
@@ -374,18 +407,22 @@ export function LessonPlayer({
           // noch einmal (z. B. um von 2 auf 3 Sterne zu kommen), ist das
           // eine Wiederholung. Muss VOR saveLessonResult geprueft werden -
           // danach steht der Fortschritt ja schon drin.
-          let schonGeschafft = false;
-          try {
-            schonGeschafft = await istLektionSchonGeschafft(deviceId, lessonId);
-          } catch {
-            // Im Zweifel als neue Lektion werten.
+          // Pruefungs-Lektionen stehen ausserhalb des Lernflusses: Sie
+          // tauchen im Protokoll gar nicht auf.
+          if (!pruefung) {
+            let schonGeschafft = false;
+            try {
+              schonGeschafft = await istLektionSchonGeschafft(deviceId, lessonId);
+            } catch {
+              // Im Zweifel als neue Lektion werten.
+            }
+            void logLernEreignis({
+              deviceId,
+              art: schonGeschafft ? "wiederholung" : "lektion",
+              lessonId,
+              topicSlug: schonGeschafft ? null : topicSlug,
+            });
           }
-          void logLernEreignis({
-            deviceId,
-            art: schonGeschafft ? "wiederholung" : "lektion",
-            lessonId,
-            topicSlug: schonGeschafft ? null : topicSlug,
-          });
 
           await saveLessonResult({ deviceId, lessonId, stars, xp });
           const day = berlinToday();
@@ -405,6 +442,29 @@ export function LessonPlayer({
         }
       })();
     }
+  }
+
+  /**
+   * Wohin geht es nach der Lektion? Pruefungs-Lektionen zurueck ins
+   * Pruefungs-Training. Normale Lektionen nach dem Abschluss zurueck ins
+   * Thema, damit man dort gleich die naechste Lektion antippen kann (Mamas
+   * Wunsch, Sprachnachricht vom 2026-07-12). Abbrechen fuehrt wie bisher zur
+   * Startseite. Eingebettet (onExit) entscheidet die aufrufende Seite.
+   */
+  function verlassen(nachAbschluss: boolean) {
+    if (onExit) {
+      onExit();
+      return;
+    }
+    if (pruefung) {
+      router.push("/pruefungstraining");
+      return;
+    }
+    if (nachAbschluss && mode === "lesson" && topicSlug) {
+      router.push(`/thema/${topicSlug}`);
+      return;
+    }
+    router.push("/");
   }
 
   /** Amelie gibt dem Pony Karotte/Heu (landet auf der Startseiten-Weide). */
@@ -525,7 +585,7 @@ export function LessonPlayer({
           levelUp={result.levelUp}
           message="Fleißig geübt, Amelie!"
           buttonLabel="Fertig"
-          onContinue={() => router.push("/")}
+          onContinue={() => verlassen(true)}
         />
       );
     }
@@ -537,7 +597,7 @@ export function LessonPlayer({
         canFeed={canFeed}
         fedItem={fedItem}
         onFeed={handleFeed}
-        onContinue={() => router.push("/")}
+        onContinue={() => verlassen(true)}
       />
     );
   }
@@ -551,7 +611,7 @@ export function LessonPlayer({
           <button
             type="button"
             aria-label="Zurück"
-            onClick={() => router.push("/")}
+            onClick={() => verlassen(false)}
             className="flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl text-2xl font-bold text-ink/50 select-none"
           >
             <span aria-hidden>✕</span>
@@ -691,7 +751,7 @@ export function LessonPlayer({
                 size="lg"
                 full
                 variant="secondary"
-                onClick={() => router.push("/")}
+                onClick={() => verlassen(false)}
               >
                 Beenden
               </Button>

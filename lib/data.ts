@@ -337,6 +337,33 @@ export async function fetchAttemptsRaw(
 }
 
 /**
+ * Versuche eines Geraets NUR fuer bestimmte Uebungen, neueste zuerst -
+ * Basis fuer das Pruefungs-Training (lib/pruefung.ts). Die IDs landen in der
+ * URL: fuer ein Pruefungs-Thema (gut 100 Uebungen) unkritisch, aber nicht
+ * fuer ALLE Uebungen der App verwenden (ab ~675 IDs lehnt der Server ab).
+ */
+export async function fetchAttemptsForExercises(
+  deviceId: string,
+  exerciseIds: string[]
+): Promise<{ exercise_id: string; correct: boolean; created_at: string }[]> {
+  if (exerciseIds.length === 0) return [];
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("exercise_attempts")
+    .select("exercise_id, correct, created_at")
+    .eq("device_id", deviceId)
+    .in("exercise_id", exerciseIds)
+    .order("created_at", { ascending: false })
+    .limit(1000);
+  if (res.error) throw res.error;
+  return (res.data ?? []) as {
+    exercise_id: string;
+    correct: boolean;
+    created_at: string;
+  }[];
+}
+
+/**
  * Versuchs-Statistik eines Geraets, aggregiert zu
  * Map exerciseId -> {correct, wrong} (fuer die Ueben-Auswahl).
  */

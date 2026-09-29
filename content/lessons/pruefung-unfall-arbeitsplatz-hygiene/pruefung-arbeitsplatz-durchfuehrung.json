@@ -1,0 +1,139 @@
+{
+  "topic_slug": "pruefung-unfall-arbeitsplatz-hygiene",
+  "slug": "pruefung-arbeitsplatz-durchfuehrung",
+  "title": "Während des Kochens: Durchführung",
+  "sort": 9,
+  "intro": "Während der Nahrungszubereitung ist die Durchführung dran.\n\nDu hältst die Hygieneregeln ein. Es gibt drei: PH heißt persönliche Hygiene. AH heißt Arbeitsplatzhygiene. LH heißt Lebensmittelhygiene. Außerdem arbeitest du unfallsicher.\n\nDu arbeitest rationell. Rationell heißt: klug und sparsam, ohne unnötige Wege. Zum Beispiel bereitest du Obst und Gemüse in Serienarbeit vor: putzen, waschen, abdecken. Später läuft die Arbeit dann reibungslos.\n\nMehrere Gegenstände transportierst du mit einem Tablett oder einem Wagen.\n\nSo sparst du Energie: Der Topf ist so groß wie die Herdplatte. Bei Kochstellen und Backöfen drehst du die Energie rechtzeitig herunter. So nutzt du die Nachwärme.\n\nKochlöffel und Bratenwender lässt du nicht in den Speisen mitkochen. Dein Arbeitsplatz bleibt übersichtlich und sauber.\n\nEier prüfst du einzeln: Jedes Ei schlägst du in einer kleinen Schüssel auf und prüfst es. Speisen, die gekühlt werden, stellst du abgedeckt in den Kühlschrank.\n\nMERKE: Das Anrichtegeschirr wärmst du rechtzeitig bei ca. 50–60 °C im Backofen oder Wärmeschrank vor. Lange Warmhaltezeiten vermeidest du: Garzeit und Essenszeit stimmst du ab.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Die 3 Hygieneregeln. Was bedeuten die Abkürzungen? Verbinde.",
+        "explanation": "Das H steht immer für Hygiene. Der erste Buchstabe sagt, worum es geht: P für persönlich, also du selbst. A für den Arbeitsplatz. L für die Lebensmittel.",
+        "pairs": [
+          { "left": {"text": "PH"}, "right": {"text": "Persönliche Hygiene"} },
+          { "left": {"text": "AH"}, "right": {"text": "Arbeitsplatzhygiene"} },
+          { "left": {"text": "LH"}, "right": {"text": "Lebensmittelhygiene"} }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧼 Welche Hygiene ist das? Sortiere.",
+        "explanation": "Frag dich: Worum geht es – um dich selbst, um den Arbeitsplatz oder um das Lebensmittel? Danach richtet sich P, A oder L.",
+        "buckets": [
+          { "id": "ph", "label": "PH – persönliche Hygiene", "icon": "🙋" },
+          { "id": "ah", "label": "AH – Arbeitsplatzhygiene", "icon": "🧽" },
+          { "id": "lh", "label": "LH – Lebensmittelhygiene", "icon": "🥕" }
+        ],
+        "items": [
+          { "text": "Hände gründlich waschen", "bucket": "ph" },
+          { "text": "Schmuck ablegen", "bucket": "ph" },
+          { "text": "Eine Kopfhaube tragen", "bucket": "ph" },
+          { "text": "Die Arbeitsfläche desinfizieren", "bucket": "ah" },
+          { "text": "Den Arbeitsplatz sauber halten", "bucket": "ah" },
+          { "text": "Hackfleisch am Einkaufstag verarbeiten", "bucket": "lh" },
+          { "text": "Gekochte Speisen abgedeckt kühlen", "bucket": "lh" },
+          { "text": "Milchprodukte bis zur Verarbeitung kühlen", "bucket": "lh" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Du musst 10 Karotten, 5 Paprika und 3 Zucchini vorbereiten. Wie arbeitest du rationell?",
+        "options": [
+          { "text": "In Serienarbeit: erst alles putzen, dann alles waschen, dann abdecken.", "correct": true },
+          { "text": "Einzeln: jedes Stück putzen, waschen und abdecken, dann das nächste." },
+          { "text": "Erst alles abdecken, dann alles putzen, dann alles waschen." }
+        ],
+        "explanation": "Serienarbeit heißt: Du machst denselben Arbeitsschritt für alle Stücke hintereinander. Du wechselst seltener das Werkzeug und sparst Wege. Später läuft die Arbeit reibungslos."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Du musst Teller, Gläser und Besteck in den Speiseraum bringen. Wie machst du das?",
+        "options": [
+          { "text": "Mit einem Tablett oder einem Wagen.", "correct": true },
+          { "text": "Alles einzeln, dafür läufst du öfter." },
+          { "text": "Alles gestapelt auf den Armen balancieren." }
+        ],
+        "explanation": "Zum Transport mehrerer Gegenstände benutzt du ein Tablett oder einen Wagen. Das spart Wege und Kraft, und nichts fällt herunter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Welcher Topf passt auf eine Herdplatte mit 18 cm Durchmesser?",
+        "options": [
+          { "text": "Ein Topf mit 18 cm Durchmesser.", "correct": true },
+          { "text": "Ein kleiner Topf mit 14 cm, der wird schneller heiß." },
+          { "text": "Ein großer Topf mit 24 cm, da passt mehr hinein." }
+        ],
+        "explanation": "Der Topfdurchmesser muss dem Durchmesser der Herdplatte entsprechen. Ist der Topf kleiner, geht Wärme an der Seite verloren. Das richtige Maß spart Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Die Kartoffeln sind gleich gar. Was machst du mit dem Elektroherd?",
+        "options": [
+          { "text": "Die Energie rechtzeitig herunterdrehen und die Nachwärme nutzen.", "correct": true },
+          { "text": "Bis zum Schluss auf höchster Stufe lassen, damit sie sicher gar werden." },
+          { "text": "Noch höher stellen und den Deckel abnehmen, damit es schneller geht." }
+        ],
+        "explanation": "Eine Kochstelle bleibt nach dem Herunterdrehen noch eine Weile heiß. Diese Nachwärme gart weiter. Wer die Energie rechtzeitig reduziert, spart Strom und Geld. Das gilt auch für den Backofen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Die Soße köchelt. Wo lässt du den Kochlöffel?",
+        "options": [
+          { "text": "Auf dem Ablageteller neben dem Herd.", "correct": true },
+          { "text": "Im Topf, dann ist er gleich griffbereit." },
+          { "text": "Auf der heißen Herdplatte daneben." }
+        ],
+        "explanation": "Kochlöffel und Bratenwender lässt du nicht in den Speisen mitkochen. Sie werden heiß, und Kunststoff kann schmelzen. Dafür steht der Ablageteller neben dem Herd."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du brauchst 6 Eier für einen Teig. Wie prüfst du, ob sie frisch sind?",
+        "options": [
+          { "text": "Jedes Ei einzeln in einer kleinen Schüssel aufschlagen und prüfen.", "correct": true },
+          { "text": "Alle 6 Eier nacheinander direkt in den Teig schlagen und dann umrühren." },
+          { "text": "Die Eier nur von außen anschauen und an der Schale riechen." }
+        ],
+        "explanation": "Du schlägst jedes Ei einzeln in einer kleinen Schüssel auf. Ist ein Ei schlecht, wirfst du nur dieses eine weg – und nicht den ganzen Teig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Bei welcher Temperatur wärmst du die Teller im Backofen vor?",
+        "options": [
+          { "text": "Bei ca. 50–60 °C.", "correct": true },
+          { "text": "Bei ca. 180–200 °C." },
+          { "text": "Bei ca. 20–30 °C." }
+        ],
+        "explanation": "Anrichtegeschirr wärmst du rechtzeitig bei ca. 50–60 °C vor, im Backofen oder im Wärmeschrank. So bleibt das Essen auf dem Teller warm, und niemand verbrennt sich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Um 12:30 Uhr wird gegessen. Die Nudeln kochen 10 Minuten. Wann gibst du sie ins kochende Wasser?",
+        "options": [
+          { "text": "Um 12:20 Uhr.", "correct": true },
+          { "text": "Um 11:00 Uhr, dann sind sie sicher fertig." },
+          { "text": "Um 12:30 Uhr, wenn alle am Tisch sitzen." }
+        ],
+        "explanation": "Lange Warmhaltezeiten vermeidest du. Darum stimmst du Garzeit und Essenszeit ab: 12:30 Uhr minus 10 Minuten ist 12:20 Uhr. Dann sind die Nudeln genau zum Essen fertig."
+      }
+    }
+  ]
+}

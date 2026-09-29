@@ -1,0 +1,137 @@
+{
+  "topic_slug": "pruefung-unfall-arbeitsplatz-hygiene",
+  "slug": "pruefung-unfall-4-5-fett-gas",
+  "title": "Unfall 4 und 5: Fett, Dampf und Gas",
+  "sort": 4,
+  "intro": "Gefahr 4: Durch heißes Fett oder durch Wasserdampf kann es zu Verbrennungen kommen.\n\nSo vermeidest du Unfälle: Töpfe mit heißen Flüssigkeiten lässt du vor dem Transport abkühlen. Beim Öffnen von Töpfen und Großküchengeräten kann heißer Dampf entweichen. Darum hältst du beim Öffnen grundsätzlich Abstand.\n\nBeim Frittieren hältst du alle Sicherheitsmaßnahmen ein. Überhitzte Fette können brennen. Fettbrände löschst du niemals mit Wasser!\n\nDamit löschst du einen Fettbrand: mit einem großen Topfdeckel, einer Speziallöschdecke oder einem Spezialfeuerlöscher. Beachte: Nicht alle Feuerlöscher sind für Fettbrände geeignet. Frag einen Fachmann.\n\nMERKE: Erste Hilfe bei schwachen Verbrennungen: den Körperteil in kaltes Wasser geben. Das lindert die Schmerzen. Eventuell Brandsalbe auftragen oder ein Brandwundtuch auflegen. Bei starken Verbrennungen sofort den Arzt holen.\n\nGefahr 5: Durch falsche Handhabung mit Gas drohen Verbrennungen und Explosionsgefahr.\n\nSo vermeidest du Unfälle: Erst hältst du den Gasanzünder bereit. Dann drehst du den Gashahn auf und zündest das Gas an. Bei größeren Benutzungspausen drehst du den Haupthahn zu.\n\nGasgeruch beseitigst du sofort: Du kontrollierst, wo Gas austritt, und öffnest das Fenster. Arbeitet ein Großbetrieb mit Gasherden, muss die Lüftung eingeschaltet sein.\n\nMERKE: Die Erste Hilfe bei Gas ist dieselbe wie bei Verbrennungen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Ein großer Topf mit heißer Brühe soll in einen anderen Raum. Was ist richtig?",
+        "options": [
+          { "text": "Die Brühe vor dem Transport abkühlen lassen.", "correct": true },
+          { "text": "Den Topf schnell tragen, damit die Brühe heiß bleibt." },
+          { "text": "Den Topf bis zum Rand füllen, dann muss man nur einmal gehen." }
+        ],
+        "explanation": "Töpfe mit heißen Flüssigkeiten lässt du vor dem Transport abkühlen. Schwappt heiße Brühe über, verbrühst du dich. Abgekühlt ist das Tragen viel sicherer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Du öffnest den Dampfgarer. Was machst du?",
+        "options": [
+          { "text": "Abstand halten, weil heißer Dampf herauskommt.", "correct": true },
+          { "text": "Das Gesicht nah an die Tür halten, um das Essen zu sehen." },
+          { "text": "Die Tür mit Schwung ganz aufreißen." }
+        ],
+        "explanation": "Beim Öffnen von Töpfen und Großküchengeräten kann heißer Dampf entweichen. Dampf verbrennt Haut und Augen. Darum hältst du beim Öffnen grundsätzlich Abstand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Das Fett in der Fritteuse brennt. Was darfst du auf keinen Fall tun?",
+        "options": [
+          { "text": "Mit Wasser löschen.", "correct": true },
+          { "text": "Einen großen Topfdeckel auflegen." },
+          { "text": "Die Speziallöschdecke benutzen." }
+        ],
+        "explanation": "Wasser im brennenden Fett verdampft schlagartig. Das brennende Fett spritzt dann durch die ganze Küche. Darum: Fettbrände niemals mit Wasser löschen. Deckel und Löschdecke ersticken das Feuer."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧯 Kannst du damit einen Fettbrand löschen? Sortiere.",
+        "explanation": "Frag dich: Nimmt es dem Feuer die Luft, ohne Wasser ins Fett zu bringen? Topfdeckel und Löschdecke ersticken das Feuer. Wasser macht einen Fettbrand viel schlimmer – egal, ob aus dem Glas, dem Eimer oder dem Löscher.",
+        "buckets": [
+          { "id": "ja", "label": "Geeignet", "icon": "✅" },
+          { "id": "nein", "label": "Nicht geeignet", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Großer Topfdeckel", "bucket": "ja" },
+          { "text": "Speziallöschdecke", "bucket": "ja" },
+          { "text": "Spezialfeuerlöscher für Fettbrände", "bucket": "ja" },
+          { "text": "Ein Glas Wasser", "bucket": "nein" },
+          { "text": "Ein Eimer Wasser", "bucket": "nein" },
+          { "text": "Ein normaler Wasser-Feuerlöscher", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧯 Stimmt das: Jeder Feuerlöscher ist für Fettbrände geeignet?",
+        "options": [
+          { "text": "Nein. Nicht alle sind geeignet – einen Fachmann fragen.", "correct": true },
+          { "text": "Ja, jeder Feuerlöscher löscht jedes Feuer, auch brennendes Fett." },
+          { "text": "Ja, solange der Feuerlöscher groß genug ist." }
+        ],
+        "explanation": "Auf deinem Blatt steht: Nicht alle Feuerlöscher sind für Fettbrände geeignet. Für brennendes Fett gibt es Spezialfeuerlöscher. Welcher passt, weiß ein Fachmann."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Du hast dich leicht an heißem Fett verbrannt. Was ist die richtige Erste Hilfe?",
+        "options": [
+          { "text": "In kaltes Wasser geben, eventuell Brandsalbe.", "correct": true },
+          { "text": "Butter auf die Stelle streichen." },
+          { "text": "Gar nichts tun, das vergeht von allein." }
+        ],
+        "explanation": "Bei schwachen Verbrennungen gibst du den Körperteil in kaltes Wasser. Das lindert die Schmerzen. Eventuell trägst du danach Brandsalbe auf oder legst ein Brandwundtuch auf. Butter hält die Hitze in der Haut fest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚑 Eine Kollegin hat sich großflächig und stark verbrannt. Was tust du?",
+        "options": [
+          { "text": "Sofort den Arzt holen.", "correct": true },
+          { "text": "Brandsalbe auftragen und abwarten." },
+          { "text": "Ein großes Pflaster darüberkleben." }
+        ],
+        "explanation": "Bei starken Verbrennungen reicht deine eigene Erste Hilfe nicht. Dann holst du sofort den Arzt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔥 Du arbeitest am Gasherd. Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Die Regel: Die Flamme muss bereit sein, bevor Gas ausströmt. Strömt Gas aus und brennt nicht sofort, sammelt es sich in der Luft. Dann droht eine Explosion. Nach der Arbeit, bei einer längeren Pause, wird der Haupthahn zugedreht.",
+        "steps": [
+          { "text": "Den Gasanzünder bereithalten." },
+          { "text": "Den Gashahn aufdrehen." },
+          { "text": "Das Gas entzünden." },
+          { "text": "Bei einer längeren Pause den Haupthahn zudrehen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Es riecht in der Küche nach Gas. Was machst du?",
+        "options": [
+          { "text": "Gasaustritt kontrollieren und Fenster öffnen.", "correct": true },
+          { "text": "Schnell den Herd anzünden, damit das Gas verbrennt." },
+          { "text": "Abwarten, der Geruch verfliegt von allein." }
+        ],
+        "explanation": "Gasgeruch beseitigst du sofort: Du kontrollierst, wo Gas austritt, und öffnest das Fenster. So kommt das Gas nach draußen. Eine Flamme kann das Gas zur Explosion bringen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌬️ In einer Großküche wird mit Gasherden gekocht. Was muss dabei eingeschaltet sein?",
+        "options": [
+          { "text": "Die Lüftung.", "correct": true },
+          { "text": "Der Wärmeschrank." },
+          { "text": "Die Kühlzelle." }
+        ],
+        "explanation": "Wird im Großbetrieb mit Gasherden gearbeitet, muss die Lüftung eingeschaltet sein. Sie bringt Abgase und austretendes Gas nach draußen."
+      }
+    }
+  ]
+}
