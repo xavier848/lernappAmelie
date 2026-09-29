@@ -18,15 +18,16 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "match_pairs",
       "data": {
-        "prompt": "🐟 Welcher Fisch liefert Omega-3-Fettsäuren?",
-        "options": [
-          { "text": "Fetter Seefisch", "correct": true },
-          { "text": "Magerer Süßwasserfisch" },
-          { "text": "Jeder Fisch gleich viel" }
-        ],
-        "explanation": "Omega-3-Fettsäuren stecken vor allem in fettem Seefisch. Seefisch liefert außerdem Jod."
+        "prompt": "🔗 Welcher Nährstoff steckt besonders worin? Verbinde.",
+        "explanation": "Tierische Lebensmittel liefern wichtige Nährstoffe: Calcium steckt in der Milch, Jod im Seefisch, Omega-3-Fettsäuren im fetten Seefisch. Fleisch liefert Vitamin B12 und andere B-Vitamine.",
+        "pairs": [
+          { "left": {"text": "🦴 Calcium"}, "right": {"text": "Milch"} },
+          { "left": {"text": "🦋 Jod"}, "right": {"text": "Seefisch"} },
+          { "left": {"text": "🐟 Omega-3-Fettsäuren"}, "right": {"text": "Fetter Seefisch"} },
+          { "left": {"text": "🩸 Vitamin B12"}, "right": {"text": "Fleisch"} }
+        ]
       }
     },
     {

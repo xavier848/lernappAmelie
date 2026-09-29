@@ -75,14 +75,11 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "number_input",
       "data": {
-        "prompt": "🌡️ Wie heiß wird das Fett in der Fritteuse?",
-        "options": [
-          { "text": "160 bis höchstens 190 °C", "correct": true },
-          { "text": "80 bis höchstens 100 °C" },
-          { "text": "250 bis höchstens 300 °C" }
-        ],
+        "prompt": "🌡️ In der Fritteuse ist das Fett mindestens 160 °C heiß. Wie viel °C darf es höchstens haben?",
+        "answer": 190,
+        "hint": "Es ist weniger als 200 °C.",
         "explanation": "Die Temperatur in der Fritteuse liegt bei 160 bis maximal 190 °C. Heißer darf das Fett nicht werden."
       }
     },

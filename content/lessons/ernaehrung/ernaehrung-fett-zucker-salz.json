@@ -66,16 +66,12 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "number_input",
       "data": {
-        "prompt": "🥄 Wie viel Öl ist ungefähr 1 Esslöffel?",
-        "options": [
-          { "text": "10 bis 15 g", "correct": true },
-          { "text": "1 bis 2 g" },
-          { "text": "50 bis 60 g" },
-          { "text": "100 g" }
-        ],
-        "explanation": "1 Esslöffel Öl sind 10 bis 15 g. So kannst du die Fettmenge beim Kochen gut abschätzen."
+        "prompt": "🥄 1 Esslöffel Öl sind 10 bis 15 g. Du nimmst 2 gestrichene Esslöffel und rechnest mit der kleineren Zahl. Wie viele Gramm Öl sind das mindestens?",
+        "answer": 20,
+        "hint": "1 Esslöffel = mindestens 10 g.\n2 × 10 = ?",
+        "explanation": "1 Esslöffel Öl sind 10 bis 15 g. 2 Esslöffel sind also mindestens 20 g, höchstens 30 g. Mit dem Esslöffel dosierst du Fett genau."
       }
     },
     {
