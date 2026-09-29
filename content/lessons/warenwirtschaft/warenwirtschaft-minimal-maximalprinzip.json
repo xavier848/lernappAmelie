@@ -1,0 +1,115 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-minimal-maximalprinzip",
+  "title": "Minimal- und Maximalprinzip",
+  "sort": 681,
+  "intro": "⚖️ Um nicht zu verhungern, reichen im Notfall Brot und Wasser. Das ist spartanisch, also sehr einfach und bescheiden. Wer wirtschaftlich handelt, nutzt eines von zwei Prinzipien.\n\nMERKE: Minimalprinzip: Das Ziel ist fest vorgegeben. Du erreichst es mit möglichst wenig Mitteln. Maximalprinzip: Die Mittel sind fest vorgegeben. Du erreichst damit möglichst viel.\n\nBeispiel Minimalprinzip: Eine bestimmte Zahl von Familienmitgliedern soll satt werden. Dafür nimmst du möglichst wenige Brotlaibe.\n\nBeispiel Maximalprinzip: Du hast eine bestimmte Menge Brot. Damit sollen möglichst viele Familienmitglieder satt werden.\n\nMERKE: Ein Betrieb verbraucht Rohstoffe grundsätzlich nach dem Minimalprinzip. Karitative Einrichtungen verteilen ihre Mittel nach dem Maximalprinzip.\n\nKaritativ heißt: Die Einrichtung hilft Menschen in Not, zum Beispiel mit Spenden. Sie will mit ihren Mitteln möglichst vielen Menschen helfen.\n\nAuch beim Urlaub nutzt man beide Prinzipien. Minimalprinzip: Du willst eine bestimmte Reise machen und zahlst dafür möglichst wenig. Maximalprinzip: Du hast ein festes Budget und willst dafür möglichst viele Urlaubstage.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet der Begriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Minimalprinzip"}, "right": {"text": "Festes Ziel, möglichst wenig Mittel"} },
+          { "left": {"text": "Maximalprinzip"}, "right": {"text": "Feste Mittel, möglichst viel erreichen"} },
+          { "left": {"text": "Karitativ"}, "right": {"text": "Hilft Menschen in Not"} }
+        ],
+        "memory": false,
+        "explanation": "Minimal heißt: so wenig wie möglich. Maximal heißt: so viel wie möglich. Frag dich also: Soll ich wenig verbrauchen oder viel erreichen?"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔀 Minimalprinzip oder Maximalprinzip? Sortiere.",
+        "buckets": [
+          { "id": "min", "label": "Minimalprinzip", "icon": "🔽" },
+          { "id": "max", "label": "Maximalprinzip", "icon": "🔼" }
+        ],
+        "items": [
+          { "text": "4 Personen sollen satt werden, mit möglichst wenig Brot", "bucket": "min" },
+          { "text": "Die Küche kocht 50 Portionen mit möglichst wenig Zutaten", "bucket": "min" },
+          { "text": "Einen festen Speiseplan möglichst günstig einkaufen", "bucket": "min" },
+          { "text": "Ein Zimmer mit möglichst wenig Putzmittel sauber machen", "bucket": "min" },
+          { "text": "Mit 5 Broten möglichst viele Menschen satt machen", "bucket": "max" },
+          { "text": "Mit den Spenden möglichst vielen Menschen helfen", "bucket": "max" },
+          { "text": "Mit 100 € möglichst viel Obst für die Gäste kaufen", "bucket": "max" },
+          { "text": "Mit einem Liter Farbe möglichst viel Wand streichen", "bucket": "max" }
+        ],
+        "explanation": "Frag dich: Was steht fest? Steht das Ziel fest, zum Beispiel 50 Portionen, ist es das Minimalprinzip. Stehen die Mittel fest, zum Beispiel 100 €, ist es das Maximalprinzip."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Nach welchem Prinzip verbraucht ein Betrieb grundsätzlich seine Rohstoffe?",
+        "options": [
+          { "text": "Nach dem Minimalprinzip.", "correct": true },
+          { "text": "Nach dem Maximalprinzip." },
+          { "text": "Nach gar keinem festen Prinzip." }
+        ],
+        "explanation": "Ein Betrieb hat ein festes Ziel, zum Beispiel eine bestimmte Zahl an Mahlzeiten. Dafür will er möglichst wenig Rohstoffe verbrauchen. Das spart Geld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧥 Eine karitative Einrichtung hat Spenden bekommen. Wie verteilt sie ihre Mittel?",
+        "options": [
+          { "text": "Nach dem Maximalprinzip: Sie will damit möglichst vielen helfen.", "correct": true },
+          { "text": "Nach dem Minimalprinzip: Sie will möglichst wenig davon ausgeben." },
+          { "text": "Ganz ohne Plan: Wer zuerst kommt, bekommt alles auf einmal." }
+        ],
+        "explanation": "Die Spenden sind die festen Mittel. Mit ihnen möchte die Einrichtung möglichst vielen Menschen in Not helfen. Das ist das Maximalprinzip."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏖️ Lisa will eine Woche an die Ostsee. Sie sucht dafür das günstigste Angebot. Welches Prinzip ist das?",
+        "options": [
+          { "text": "Das Minimalprinzip.", "correct": true },
+          { "text": "Das Maximalprinzip." },
+          { "text": "Das Tauschprinzip." }
+        ],
+        "explanation": "Das Ziel steht fest: eine Woche Ostsee. Lisa will dafür möglichst wenig Geld ausgeben. Festes Ziel, wenig Mittel: Das ist das Minimalprinzip."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✈️ Tom hat 600 € für den Urlaub. Er möchte dafür so viele Urlaubstage wie möglich. Welches Prinzip ist das?",
+        "options": [
+          { "text": "Das Maximalprinzip.", "correct": true },
+          { "text": "Das Minimalprinzip." },
+          { "text": "Das Sparprinzip." }
+        ],
+        "explanation": "Die Mittel stehen fest: 600 €. Tom will damit möglichst viel erreichen, also möglichst viele Tage. Feste Mittel, viel Ergebnis: Das ist das Maximalprinzip."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥖 Was heißt es, sich „spartanisch“ mit Brot und Wasser zu ernähren?",
+        "options": [
+          { "text": "Sehr einfach und bescheiden.", "correct": true },
+          { "text": "Besonders gesund und abwechslungsreich." },
+          { "text": "Sehr teuer und besonders fein." }
+        ],
+        "explanation": "Spartanisch heißt: sehr einfach und bescheiden. Brot und Wasser stillen den Hunger, mehr nicht. Für ein gesundes Leben braucht man aber mehr Abwechslung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Die Wäschemenge steht fest. Du willst sie mit möglichst wenig Strom waschen. Welches Prinzip ist das?",
+        "options": [
+          { "text": "Das Minimalprinzip.", "correct": true },
+          { "text": "Das Maximalprinzip." },
+          { "text": "Gar kein Prinzip." }
+        ],
+        "explanation": "Das Ziel steht fest: die Wäsche waschen. Du willst dafür möglichst wenig Strom verbrauchen. Das ist das Minimalprinzip."
+      }
+    }
+  ]
+}
