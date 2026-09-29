@@ -1,0 +1,125 @@
+{
+  "topic_slug": "servietten",
+  "slug": "servietten-namen-anlaesse-neu",
+  "title": "Neue Faltungen: Namen und Anlässe",
+  "sort": 564,
+  "intro": "🎉 Du kennst jetzt viele Serviettenfaltungen aus dem Buch: Tafelspitz, doppelter Tafelspitz, Fächer, Schiff (auch Frauenschuh oder Orchidee), Bischofshut (auch Bischofsmütze), festlicher Stern, Häschen, Fisch und Tannenbaum (auch Weihnachtsbaum).\n\nDas Buch nennt keine Anlässe. Aber der Name verrät oft, wozu eine Faltung passt. Das Häschen passt gut zu Ostern. Der Tannenbaum passt zu Weihnachten. Der Fisch passt zu einem Fischgericht. Der festliche Stern passt zu einem festlichen Essen.\n\nFast alle Faltungen beginnen mit dem Rechteck: Die aufgeschlagene Serviette wird einmal gefaltet, der Bruch zeigt nach oben. Nur das Schiff beginnt mit einem Quadrat. Beim Fisch knickst du zuerst etwa 2 cm nach hinten, dann faltest du das Rechteck.\n\nMERKE: Wichtige Maße: Fächer mit etwa 1 cm breiten Falten. Stern mit etwa 4 cm breiten Falten. Häschen: je ein Drittel nach oben und nach unten. Tannenbaum: etwa zwei Drittel nach unten schlagen.\n\nTypische Schritte: Beim Schiff ziehst du am Ende die Blätter heraus. Der Fächer bekommt eine Serviettenstütze. Beim Stern machst du die unteren Falten mit Band oder Büroklammer fest. Beim Bischofshut steckst du das rechte Dreieck in das linke. Beim Häschen schiebst du die unteren Ecken hinten ineinander.\n\nMERKE: Tafelspitz und doppelter Tafelspitz stellst du an der Spitze auf. Fisch und Tannenbaum wendest du ganz zum Schluss.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🗓️ Welche Faltung passt vom Namen her zu welchem Anlass? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🐣 Osterfrühstück"}, "right": {"text": "Häschen"} },
+          { "left": {"text": "🎄 Weihnachtsessen"}, "right": {"text": "Tannenbaum"} },
+          { "left": {"text": "🐟 Menü mit Fischgericht"}, "right": {"text": "Fisch"} }
+        ],
+        "explanation": "Das Buch nennt keine Anlässe. Aber der Name hilft: Der Osterhase gehört zu Ostern, der Tannenbaum zu Weihnachten, der Fisch zum Fischgericht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥂 Du deckst für ein festliches Jubiläumsessen. Welche neue Faltung passt vom Namen her?",
+        "options": [
+          { "text": "Der festliche Stern, das sagt schon der Name.", "correct": true },
+          { "text": "Das Häschen, denn Hasen mögen alle Gäste gern." },
+          { "text": "Der Fisch, denn er passt zu wirklich jedem Essen." },
+          { "text": "Der Tannenbaum, denn er ist das ganze Jahr grün." }
+        ],
+        "explanation": "Der festliche Stern trägt das Wort festlich schon im Namen. Häschen und Tannenbaum passen eher zu Ostern und Weihnachten, der Fisch zu einem Fischgericht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔍 Welcher typische Schritt gehört zu welcher Faltung? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Schiff"}, "right": {"text": "Am Ende die Blätter vorsichtig herausziehen"} },
+          { "left": {"text": "Fächer"}, "right": {"text": "Bekommt eine Serviettenstütze"} },
+          { "left": {"text": "Festlicher Stern"}, "right": {"text": "Unten mit Band oder Büroklammer festmachen"} },
+          { "left": {"text": "Bischofshut"}, "right": {"text": "Das rechte Dreieck in das linke stecken"} },
+          { "left": {"text": "Häschen"}, "right": {"text": "Die unteren Ecken hinten ineinanderschieben"} }
+        ],
+        "explanation": "Jede Faltung hat einen typischen Schritt, oft am Ende. Er gibt der Faltung ihre Form oder hält sie zusammen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📐 Womit beginnt die Faltung? Sortiere.",
+        "buckets": [
+          { "id": "rechteck", "label": "Mit dem Rechteck, Bruch oben", "icon": "▭" },
+          { "id": "quadrat", "label": "Mit einem Quadrat", "icon": "◻️" },
+          { "id": "knick", "label": "Erst ein Stück nach hinten knicken", "icon": "↩️" }
+        ],
+        "items": [
+          { "text": "Tafelspitz", "bucket": "rechteck" },
+          { "text": "Fächer", "bucket": "rechteck" },
+          { "text": "Bischofshut", "bucket": "rechteck" },
+          { "text": "Festlicher Stern", "bucket": "rechteck" },
+          { "text": "Häschen", "bucket": "rechteck" },
+          { "text": "Tannenbaum", "bucket": "rechteck" },
+          { "text": "Schiff", "bucket": "quadrat" },
+          { "text": "Fisch", "bucket": "knick" }
+        ],
+        "explanation": "Merke dir die zwei Ausnahmen: Das Schiff beginnt mit einem Quadrat. Beim Fisch knickst du zuerst etwa 2 cm nach hinten. Alle anderen beginnen mit dem Rechteck, der Bruch zeigt nach oben."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📏 Welches Maß gehört zu welcher Faltung? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Falten etwa 1 cm breit"}, "right": {"text": "Fächer"} },
+          { "left": {"text": "Falten etwa 4 cm breit"}, "right": {"text": "Festlicher Stern"} },
+          { "left": {"text": "Je ein Drittel nach oben und nach unten"}, "right": {"text": "Häschen"} },
+          { "left": {"text": "Etwa zwei Drittel nach unten schlagen"}, "right": {"text": "Tannenbaum"} }
+        ],
+        "explanation": "Fächer und Stern werden beide zieharmonikaartig gefaltet. Der Fächer hat schmale Falten, der Stern breite. Häschen und Tannenbaum arbeiten mit Dritteln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Bei welchen beiden Faltungen wendest du die Serviette ganz zum Schluss?",
+        "options": [
+          { "text": "Fisch und Tannenbaum", "correct": true },
+          { "text": "Fächer und Tafelspitz" },
+          { "text": "Schiff und Stern" },
+          { "text": "Häschen und Fächer" }
+        ],
+        "explanation": "Beim Fisch und beim Tannenbaum ist Wenden der letzte Schritt. Beim Tafelspitz stellst du am Ende auf, beim Schiff ziehst du die Blätter heraus, beim Stern machst du die Falten fest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔺 Welche Faltungen stellst du am Ende auf, indem du sie an der Spitze anfasst?",
+        "options": [
+          { "text": "Die beiden Tafelspitze", "correct": true },
+          { "text": "Fisch und Tannenbaum" },
+          { "text": "Schiff und Häschen" },
+          { "text": "Der Fächer und der Stern" }
+        ],
+        "explanation": "Den Tafelspitz fasst du an der Spitze an und stellst ihn auf. Den doppelten Tafelspitz stellst du genauso auf."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧠 Memory: Finde die Paare aus Bild und Name.",
+        "pairs": [
+          { "left": {"text": "🐰"}, "right": {"text": "Häschen"} },
+          { "left": {"text": "🐟"}, "right": {"text": "Fisch"} },
+          { "left": {"text": "🎄"}, "right": {"text": "Tannenbaum"} },
+          { "left": {"text": "⭐"}, "right": {"text": "Festlicher Stern"} },
+          { "left": {"text": "⛵"}, "right": {"text": "Schiff"} },
+          { "left": {"text": "🔺"}, "right": {"text": "Tafelspitz"} }
+        ],
+        "memory": true,
+        "explanation": "Die Namen beschreiben, wie die Serviette am Ende aussieht: wie ein Hase, ein Fisch, ein Baum, ein Stern, ein Schiff oder eine Spitze."
+      }
+    }
+  ]
+}
