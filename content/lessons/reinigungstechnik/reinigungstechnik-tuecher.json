@@ -1,0 +1,156 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-tuecher",
+  "title": "Reinigungstücher und Falttechnik",
+  "sort": 652,
+  "intro": "Flächen reinigst du von Hand mit Reinigungstextilien. Zu dieser Gruppe zählen verschiedene Tücher. Auch Wischmopps, Pads, Schwämme und Stahlwolle gehören dazu. Du nimmst die Textilien vor allem zum Feucht- oder Nassreinigen und zum Nachtrocknen.\n\nDas Staubtuch ist aus aufgerauter Baumwolle. Es ist weich und kann viel Staub binden, ohne zu kratzen.\n\nDas Mikrofasertuch besteht aus sehr feinen Kunstfasern: Polyester und Polyamid. Es nimmt Schmutz auch ohne Reinigungsmittel gut auf, sogar Fett. Auf Dauer kann es glänzende, glatte Flächen, Edelmetalle und Easy-Clean-Beschichtungen aufrauen. Edelmetalle sind zum Beispiel Silber und Gold.\n\nFür Betriebe gibt es Mikrofasertücher mit Zusatznutzen. Mit Silberteilchen reinigen sie antibakteriell. Mit einer PVA-Beschichtung geht der Schmutz beim Ausspülen leichter heraus. Die Tücher gleiten dann gut und trocknen gut nach. Mit einer Latex-Beschichtung kann man sie bis 95 °C kochen. So werden sie durch Hitze desinfiziert. Das heißt: thermisch desinfizierbar.\n\nLeder nimmst du zum Reinigen und Polieren von Glas, Fenstern und Spiegeln. Der Drahtschwamm oder die Scheuerspirale ist kein richtiges Textil. Er ist aus rostfreiem Edelstahl und für hartnäckigen Schmutz in Töpfen. Er ist stark abrasiv. Das heißt: Er scheuert sehr stark. Für empfindliche Flächen nimmst du ihn nicht.\n\nDas Schwammtuch ist aus Viskosevlies. Es hat oft eine Struktur wie eine Waffel. Du nimmst es für die Nassreinigung. Der Einwascher ist aus Baumwolle, Mikrofaser oder Mischfasern. Mit ihm wäschst du Fensterscheiben ein. Danach ziehst du das Wasser mit dem Abzieher ab.\n\nDas Scheuertuch ist aus Vlies oder Baumwolle. Du nimmst es für den Boden oder um Flüssigkeiten aufzunehmen. Es hält sehr lange. Das Vliestuch ist aus Baumwolle, Viskose, Kunstfaser oder Mischgewebe. Du nimmst es für Oberflächen, Glasrahmen und Möbel.\n\nIn vielen Betrieben haben die Tücher Farben und Piktogramme. So werden sie getrennt, und Keime werden nicht verschleppt. Die Hersteller bieten dazu passende Reinigungs- und Desinfektionslösungen an. Im Toilettenbereich gilt die Wechseltuchmethode: Für jeden Raum oder jede Toilette nimmst du ein frisches Tuch.\n\nMit einer Falttechnik musst du das Tuch nicht ständig auswaschen. So arbeitest du zügig und wirtschaftlich. Das Tuch liegt auch besser in der Hand. So geht es: Du faltest das Tuch einmal zur Hälfte und dann noch einmal zur Hälfte. Du wischst mit Seite 1, dann mit Seite 2. Dann stülpst du das Tuch um. Jetzt hast du die Seiten 3 und 4. Du führst das Tuch mit der ganzen Handfläche, nicht nur mit den Fingerspitzen.\n\nMERKE: Im Toilettenbereich nimmst du für jeden Raum ein frisches Tuch. Das Tuch faltest du und führst es mit der ganzen Handfläche.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Gehört es zur Gruppe der Reinigungstextilien? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Reinigungstextilien", "icon": "🧽" },
+          { "id": "nein", "label": "Geräte und Maschinen", "icon": "⚙️" }
+        ],
+        "items": [
+          { "text": "Staubtuch", "bucket": "ja" },
+          { "text": "Wischmopp", "bucket": "ja" },
+          { "text": "Pad", "bucket": "ja" },
+          { "text": "Schwamm", "bucket": "ja" },
+          { "text": "Stahlwolle", "bucket": "ja" },
+          { "text": "Staubsauger", "bucket": "nein" },
+          { "text": "Fahreimer mit Presse", "bucket": "nein" },
+          { "text": "Scheibenmaschine", "bucket": "nein" }
+        ],
+        "explanation": "Zu den Reinigungstextilien zählen alle Tücher. Auch Wischmopps, Pads, Schwämme und Stahlwolle gehören dazu, obwohl sie nicht alle aus Stoff sind. Staubsauger, Fahreimer und Scheibenmaschine sind Geräte oder Maschinen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Woraus ist das Tuch, oder wofür ist es? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🧹 Staubtuch"}, "right": {"text": "Aufgeraute Baumwolle"} },
+          { "left": {"text": "🧵 Mikrofasertuch"}, "right": {"text": "Polyester und Polyamid"} },
+          { "left": {"text": "🧇 Schwammtuch"}, "right": {"text": "Viskosevlies mit Waffelstruktur"} },
+          { "left": {"text": "🌀 Scheuerspirale"}, "right": {"text": "Rostfreier Edelstahl"} },
+          { "left": {"text": "🟫 Scheuertuch"}, "right": {"text": "Vlies oder Baumwolle, für den Boden"} },
+          { "left": {"text": "🟦 Vliestuch"}, "right": {"text": "Für Oberflächen, Glasrahmen und Möbel"} }
+        ],
+        "explanation": "Mikrofaser ist Kunstfaser: Polyester und Polyamid. Das Staubtuch ist weiche Baumwolle. Die Scheuerspirale ist aus Metall. Das Schwammtuch erkennst du an der Waffelstruktur. Das Scheuertuch ist für den Boden, das Vliestuch für Oberflächen und Möbel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Im Topf klebt hartnäckig Eingebranntes. Du nimmst eine Scheuerspirale. Was stimmt?",
+        "options": [
+          { "text": "Sie scheuert stark: gut für Töpfe, nicht für empfindliche Flächen.", "correct": true },
+          { "text": "Sie ist ganz weich: gut für alle Flächen, auch für Glas und Lack." },
+          { "text": "Sie ist aus Baumwolle: gut gegen Staub, aber nicht für Töpfe." }
+        ],
+        "explanation": "Die Scheuerspirale ist aus rostfreiem Edelstahl. Sie ist stark abrasiv, also stark scheuernd. Darum ist sie gut für hartnäckigen Schmutz in Töpfen. Empfindliche Flächen würde sie zerkratzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Auf dem Boden ist Saft verschüttet. Welches Textil nimmst du, um die Flüssigkeit aufzunehmen?",
+        "options": [
+          { "text": "Das Scheuertuch.", "correct": true },
+          { "text": "Das Staubtuch." },
+          { "text": "Das Fensterleder." }
+        ],
+        "explanation": "Das Scheuertuch ist für die Bodenreinigung und zum Aufnehmen von Flüssigkeiten. Es ist sehr langlebig. Das Staubtuch ist für Staub, das Leder für Glas."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪶 Warum ist ein Staubtuch aus aufgerauter Baumwolle gut geeignet?",
+        "options": [
+          { "text": "Es ist weich und bindet viel Staub, ohne zu kratzen.", "correct": true },
+          { "text": "Es ist hart und reibt festen Schmutz gut von der Fläche." },
+          { "text": "Es ist glatt und verteilt den Staub gleichmäßig auf der Fläche." }
+        ],
+        "explanation": "Aufgeraut heißt: Die Oberfläche ist flauschig. Darin bleibt der Staub hängen. Weil das Tuch weich ist, zerkratzt es nichts."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏥 Mikrofasertücher für Betriebe haben Zusatznutzen. Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥈 Mit Silberteilchen"}, "right": {"text": "Reinigt antibakteriell"} },
+          { "left": {"text": "🫧 Mit PVA-Beschichtung"}, "right": {"text": "Schmutz geht beim Ausspülen leichter raus"} },
+          { "left": {"text": "🔥 Mit Latex-Beschichtung"}, "right": {"text": "Kochfest bis 95 °C"} }
+        ],
+        "explanation": "Silber wirkt gegen Bakterien. PVA hilft beim Ausspülen und macht das Tuch gleitfähig. Latex macht das Tuch kochfest bis 95 °C. So kann man es durch Hitze desinfizieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥈 Welche Fläche kann ein Mikrofasertuch auf Dauer aufrauen?",
+        "options": [
+          { "text": "Edelmetalle wie Silber.", "correct": true },
+          { "text": "Fliesen im Badezimmer." },
+          { "text": "Die Arbeitsfläche in der Küche." }
+        ],
+        "explanation": "Mikrofaser reinigt stark mechanisch. Auf Dauer kann sie glänzende, glatte Flächen, Edelmetalle und Easy-Clean-Beschichtungen aufrauen. Fliesen und Arbeitsflächen sind robust. Dort passt Mikrofaser gut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚽 Im Toilettenbereich arbeitest du mit der Wechseltuchmethode. Was heißt das?",
+        "options": [
+          { "text": "Für jeden Raum oder jede Toilette ein frisches Tuch.", "correct": true },
+          { "text": "Das Tuch nach jeder Toilette kurz gut auswaschen." },
+          { "text": "Das Tuch nach jeder Toilette auf die andere Seite drehen." }
+        ],
+        "explanation": "Mit der Wechseltuchmethode verhinderst du, dass Keime von einer Toilette zur nächsten kommen. Auswaschen oder Umdrehen reicht dafür nicht. Du nimmst für jeden Raum ein frisches Tuch."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧻 Falttechnik: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das Tuch einmal zur Hälfte falten." },
+          { "text": "Das Tuch noch einmal zur Hälfte falten." },
+          { "text": "Mit Seite 1 wischen." },
+          { "text": "Mit Seite 2 wischen." },
+          { "text": "Das Tuch umstülpen." },
+          { "text": "Mit den Seiten 3 und 4 weiterwischen." }
+        ],
+        "explanation": "Erst wird zweimal gefaltet. Dann benutzt du die äußeren Seiten 1 und 2. Durch das Umstülpen kommen die sauberen Seiten 3 und 4 nach außen. So hast du viele saubere Wischflächen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Warum faltest du das Reinigungstuch?",
+        "options": [
+          { "text": "Du musst es nicht ständig auswaschen und arbeitest zügig.", "correct": true },
+          { "text": "So wird das Tuch dicker und saugt mehr Wasser auf." },
+          { "text": "So kannst du die schmutzigen Seiten vor den Gästen verstecken." }
+        ],
+        "explanation": "Durch das Falten hast du mehrere saubere Seiten. Du musst das Tuch nicht nach jeder Fläche auswaschen. So arbeitest du zügig und wirtschaftlich. Und das Tuch liegt besser in der Hand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Wie führst du das gefaltete Reinigungstuch?",
+        "options": [
+          { "text": "Mit der ganzen Handfläche.", "correct": true },
+          { "text": "Nur mit den Fingerspitzen." },
+          { "text": "Mit der geballten Faust." }
+        ],
+        "explanation": "Mit der ganzen Handfläche drückst du gleichmäßig und wischt eine große Fläche. Mit den Fingerspitzen wischst du nur schmale Streifen."
+      }
+    }
+  ]
+}

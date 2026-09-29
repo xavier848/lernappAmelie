@@ -1,0 +1,121 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-dauerauftrag-lastschrift",
+  "title": "Dauerauftrag oder Lastschrift?",
+  "sort": 713,
+  "intro": "🔁 Manche Zahlungen kommen jeden Monat. Dafür gibt es den Dauerauftrag und die Lastschrift.\n\nEin Dauerauftrag passt für Zahlungen, die jeden Monat gleich hoch sind. Beispiel: Das Büro hat einen Fotokopierer gemietet. Die Miete ist jeden Monat gleich. Du richtest den Dauerauftrag einmal bei deinem Girokonto ein. Das geht auch per Online-Banking.\n\nEin Dauerauftrag hat zwei Vorteile gegenüber der Überweisung. Du musst nicht an jedem Monatsanfang an die Überweisung denken. Und du sparst Arbeitszeit. Der Dauerauftrag zahlt immer genau den Betrag, den du eingestellt hast.\n\nBeim Diensttelefon geht kein Dauerauftrag. Die Rechnung ist jeden Monat anders hoch. Dafür nimmt man das Lastschriftverfahren. Dann holt sich der Telefonanbieter das Geld selbst vom Girokonto.\n\nEs gibt zwei Arten von Lastschrift. Die übliche Art ist die Einzugsermächtigung. Damit erlaubst du dem Anbieter, das Geld bei deiner Bank einzuziehen.\n\nViele Anbieter geben dafür einen Rechnungsnachlass. Das ist ein Preisnachlass. Ohne Einzugsermächtigung verlangen sie oft Zusatzgebühren.\n\nWurde falsch abgebucht? Dann kannst du die Abbuchung widerrufen. Das geht kostenlos, innerhalb von sechs Wochen nach der Buchung.\n\nDie Einzugsermächtigung gibst du auf einem Formular. Sie geht aber auch formlos: von Hand auf einem Blatt Papier. Sie muss drei Fragen beantworten. Wer erhält sie? Wer erteilt sie? Für welches Konto gilt sie? Zum Konto gehören die IBAN, der Name der Bank und die BIC.\n\nDie zweite Art ist der Abbuchungsauftrag. Ihn kannst du bei der Bank nicht widerrufen. Er ist deshalb riskanter. In der Praxis nutzt man ihn kaum.\n\nMERKE: Gleicher Betrag jeden Monat: Dauerauftrag. Betrag wechselt: Lastschrift.\n\nMERKE: Einzugsermächtigung: falsche Abbuchung innerhalb von sechs Wochen kostenlos widerrufen. Abbuchungsauftrag: kein Widerruf.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Dauerauftrag oder Lastschrift? Sortiere die Zahlungen.",
+        "buckets": [
+          { "id": "dauer", "label": "Dauerauftrag", "icon": "🔁" },
+          { "id": "last", "label": "Lastschrift", "icon": "📥" }
+        ],
+        "items": [
+          { "text": "Kopierer-Miete: jeden Monat 80 €", "bucket": "dauer" },
+          { "text": "Sparrate aufs Sparkonto: jeden Monat 50 €", "bucket": "dauer" },
+          { "text": "Wohnungsmiete: jeden Monat 450 €", "bucket": "dauer" },
+          { "text": "Diensttelefon: jeden Monat ein anderer Betrag", "bucket": "last" },
+          { "text": "Handyrechnung: mal 12 €, mal 19 €", "bucket": "last" },
+          { "text": "Getränkelieferung: jedes Mal eine andere Summe", "bucket": "last" }
+        ],
+        "explanation": "Frag dich: Ist der Betrag jeden Monat gleich? Dann passt der Dauerauftrag. Ändert sich der Betrag, geht kein Dauerauftrag. Dann holt sich der Anbieter per Lastschrift genau den Betrag, der fällig ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Die Kopierer-Miete läuft per Dauerauftrag. Welche zwei Vorteile hat das gegenüber einer Überweisung?",
+        "options": [
+          { "text": "Niemand muss jeden Monat daran denken, und es spart Arbeitszeit.", "correct": true },
+          { "text": "Die Miete wird dadurch billiger, und die Bank zahlt dafür noch Zinsen." },
+          { "text": "Der Betrag passt sich an, und es gibt einen Rechnungsnachlass." }
+        ],
+        "explanation": "Der Dauerauftrag wird einmal eingerichtet und läuft dann von selbst. Niemand muss an jedem Monatsanfang eine Überweisung schreiben. Das spart Arbeitszeit. Billiger wird die Miete dadurch nicht, und der Betrag bleibt immer gleich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Der Telefonanbieter bittet dich um eine Einzugsermächtigung. Was hast du davon?",
+        "options": [
+          { "text": "Du bekommst meist einen Rechnungsnachlass.", "correct": true },
+          { "text": "Du kannst Abbuchungen nie mehr widerrufen." },
+          { "text": "Die Bank zahlt dir dafür auf dem Konto höhere Zinsen." }
+        ],
+        "explanation": "Viele Anbieter geben für die Einzugsermächtigung einen Rechnungsnachlass, also einen Preisnachlass. Ohne sie verlangen sie oft Zusatzgebühren. Widerrufen kannst du eine falsche Abbuchung trotzdem."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "↩️ Der Telefonanbieter hat zu viel abgebucht. Du hattest ihm eine Einzugsermächtigung gegeben. Innerhalb von wie vielen Wochen kannst du kostenlos widerrufen?",
+        "answer": 6,
+        "hint": "Es ist mehr als ein Monat, aber weniger als zwei Monate.",
+        "explanation": "Eine falsche Abbuchung kannst du innerhalb von sechs Wochen nach der Buchung widerrufen. Das kostet nichts. Prüfe deshalb regelmäßig deinen Kontoauszug."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Ein Anbieter will statt einer Einzugsermächtigung einen Abbuchungsauftrag. Was ist daran riskant?",
+        "options": [
+          { "text": "Eine falsche Abbuchung kannst du nicht widerrufen.", "correct": true },
+          { "text": "Der Anbieter bekommt sein Geld erst nach Monaten." },
+          { "text": "Du musst jede einzelne Abbuchung vorher selbst freigeben." }
+        ],
+        "explanation": "Einen Abbuchungsauftrag kannst du bei der Bank nicht widerrufen. Bucht der Anbieter falsch ab, holst du das Geld so nicht einfach zurück. Deshalb ist er riskanter und wird in der Praxis kaum genutzt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✍️ Du erteilst deinem Telefonanbieter eine Einzugsermächtigung. Welche Antwort gehört zu welcher Frage?",
+        "pairs": [
+          { "left": {"text": "❓ Wer erhält die Einzugsermächtigung?"}, "right": {"text": "Der Telefonanbieter"} },
+          { "left": {"text": "❓ Wer erteilt sie?"}, "right": {"text": "Du als Kontoinhaberin"} },
+          { "left": {"text": "❓ Für welches Konto gilt sie?"}, "right": {"text": "IBAN, Name der Bank und BIC"} }
+        ],
+        "explanation": "Jede Einzugsermächtigung beantwortet drei Fragen. Wer erhält sie? Das ist der, der das Geld einziehen darf. Wer erteilt sie? Das ist der, dem das Konto gehört. Für welches Konto gilt sie? Das beschreiben IBAN, Name der Bank und BIC."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Du willst eine Einzugsermächtigung geben. Ein Formular hast du nicht. Was ist möglich?",
+        "options": [
+          { "text": "Du schreibst sie formlos von Hand auf ein Blatt.", "correct": true },
+          { "text": "Ohne das Formular der Bank geht es leider gar nicht." },
+          { "text": "Du musst dafür persönlich zur Bank gehen." }
+        ],
+        "explanation": "Eine Einzugsermächtigung geht auf einem Formular. Sie geht aber auch formlos, von Hand auf einem Blatt Papier. Wichtig ist nur, dass die drei Fragen beantwortet sind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Die Miete für den Kopierer steigt ab Januar von 80 € auf 90 €. Was tust du beim Dauerauftrag?",
+        "options": [
+          { "text": "Den Betrag im Dauerauftrag auf 90 € ändern.", "correct": true },
+          { "text": "Nichts. Der Dauerauftrag passt sich selbst an." },
+          { "text": "Für die 10 € extra jeden Monat einen Scheck schicken." }
+        ],
+        "explanation": "Ein Dauerauftrag zahlt immer genau den Betrag, den du eingestellt hast. Er passt sich nicht von selbst an. Ändert sich die Miete, änderst du den Dauerauftrag. Für Beträge, die sich jeden Monat ändern, passt die Lastschrift."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Die Miete ist jeden Monat gleich hoch. Was richtest du ein?",
+        "options": [
+          { "text": "Einen Dauerauftrag.", "correct": true },
+          { "text": "Einen Barscheck." },
+          { "text": "Eine Nachnahme." }
+        ],
+        "explanation": "Gleicher Betrag jeden Monat: Dafür ist der Dauerauftrag da. Er läuft von selbst. 🎉"
+      }
+    }
+  ]
+}
