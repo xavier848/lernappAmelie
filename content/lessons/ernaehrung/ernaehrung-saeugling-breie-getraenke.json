@@ -20,12 +20,16 @@
       }
     },
     {
-      "type": "number_input",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🥛 Zweiter Brei: Wie viel Gramm Vollmilch kommen in eine Portion Vollmilch-Getreide-Brei?",
-        "answer": 200,
-        "hint": "Die Milch ist die größte Zutat. Die Zahl endet auf zwei Nullen.",
-        "explanation": "In den Vollmilch-Getreide-Brei kommen 200 g Vollmilch, 20 g Getreideflocken und 20 g Obstsaft oder Obstpüree."
+        "prompt": "🥛 Zweiter Brei: Was gehört in eine Portion Vollmilch-Getreide-Brei?",
+        "options": [
+          { "text": "200 g Vollmilch, 20 g Getreideflocken, 20 g Obstsaft oder -püree", "correct": true },
+          { "text": "100 g Vollmilch, 20 g Getreideflocken, 20 g Obstsaft oder -püree" },
+          { "text": "200 g Vollmilch, 50 g Getreideflocken, 20 g Obstsaft oder -püree" },
+          { "text": "200 g Vollmilch, 20 g Getreideflocken, 20 g Joghurt mit Früchten" }
+        ],
+        "explanation": "Die Vollmilch ist die größte Zutat: 200 g. Dazu kommen nur je 20 g Getreideflocken und Obstsaft oder Obstpüree. Joghurt gehört nicht hinein, sonst bekommt das Baby zu viel Eiweiß."
       }
     },
     {

@@ -20,18 +20,6 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍅 Auf der Kunststoffschüssel klebt Ketchup. Warum nimmst du ihn vor dem Spülen ab?",
-        "options": [
-          { "text": "Kunststoffe nehmen die Farbe an.", "correct": true },
-          { "text": "Ketchup verstopft sofort die Pumpe." },
-          { "text": "Ketchup macht Kalkflecken auf Gläsern." }
-        ],
-        "explanation": "Färbende Reste wie Ketchup können Kunststoff dauerhaft verfärben. Darum nimmst du sie vorher ab."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
         "prompt": "🚰 Spülst du das Geschirr vor dem Einräumen mit Wasser ab?",
         "options": [
           { "text": "Nein, das ist aus Umweltschutzgründen nicht sinnvoll.", "correct": true },
@@ -59,18 +47,6 @@
           { "text": "Auflaufform mit festen Resten", "bucket": "unten" }
         ],
         "explanation": "Frag dich: Ist das Teil leicht und empfindlich oder nur leicht schmutzig? Dann kommt es nach oben. Auch lange Besteckteile liegen oben. Ist es schwer oder stark verschmutzt? Dann kommt es nach unten, denn dort ist der Wasserdruck stärker."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🥂 Warum sollen sich Gläser in der Maschine nicht berühren?",
-        "options": [
-          { "text": "Sie können kaputtgehen und bekommen Wasserflecken.", "correct": true },
-          { "text": "Sie werden sonst beim Spülen viel zu heiß und springen." },
-          { "text": "Sie klirren sonst zu laut in der Küche." }
-        ],
-        "explanation": "Stoßen Gläser beim Spülen aneinander, können sie beschädigt werden. An den Berührungsstellen bleiben außerdem Wasserflecken."
       }
     },
     {
@@ -122,15 +98,15 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "match_pairs",
       "data": {
-        "prompt": "🔥 Die Maschine ist fertig, das Geschirr ist noch heiß. Was tust du?",
-        "options": [
-          { "text": "Erst abkühlen lassen, heiß ist es stoßempfindlicher.", "correct": true },
-          { "text": "Sofort ausräumen, dann trocknet es schneller ab." },
-          { "text": "Kaltes Wasser darüber laufen lassen, dann geht es schneller." }
+        "prompt": "🤔 Warum machst du das? Verbinde die Regel mit dem Grund.",
+        "pairs": [
+          { "left": {"text": "🍅 Ketchup vor dem Spülen abnehmen"}, "right": {"text": "Kunststoffe nehmen sonst die Farbe an"} },
+          { "left": {"text": "🥂 Gläser dürfen sich nicht berühren"}, "right": {"text": "Sonst Bruch und Wasserflecken"} },
+          { "left": {"text": "🔥 Heißes Geschirr erst abkühlen lassen"}, "right": {"text": "Heiß ist es stoßempfindlicher"} }
         ],
-        "explanation": "Heißes Geschirr ist stoßempfindlicher. Es kann schneller zerbrechen. Darum lässt du es erst abkühlen. Dann räumst du den unteren Korb zuerst aus."
+        "explanation": "Hinter jeder Regel steckt ein Grund. Färbende Reste verfärben Kunststoff. Gläser, die aneinanderstoßen, gehen kaputt und bekommen Flecken. Heißes Geschirr zerbricht schneller. Nach dem Abkühlen räumst du den unteren Korb zuerst aus."
       }
     },
     {

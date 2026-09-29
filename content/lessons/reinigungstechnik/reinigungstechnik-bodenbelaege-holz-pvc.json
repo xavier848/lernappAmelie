@@ -123,15 +123,16 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "match_pairs",
       "data": {
-        "prompt": "🏠 Welcher Boden fühlt sich fußwarm an?",
-        "options": [
-          { "text": "Ein Holzboden.", "correct": true },
-          { "text": "Ein Marmorboden." },
-          { "text": "Ein Granitboden." }
+        "prompt": "🔤 Fachwörter zu Holz und PVC. Verbinde.",
+        "pairs": [
+          { "left": {"text": "🔇 Schalldämmend"}, "right": {"text": "Schluckt Geräusche"} },
+          { "left": {"text": "🛡️ Versiegelt"}, "right": {"text": "Mit einer festen Schutzschicht überzogen"} },
+          { "left": {"text": "🏭 Industrieparkett"}, "right": {"text": "Anderes Wort für Hirnholzpflaster"} },
+          { "left": {"text": "🧪 PVC"}, "right": {"text": "Polyvinylchlorid, ein Kunststoff"} }
         ],
-        "explanation": "Holz ist fußwarm. Steinböden wie Marmor und Granit sind dagegen fußkalt."
+        "explanation": "Diese Fachwörter brauchst du bei Böden oft. Schalldämmend heißt: Der Boden ist leise. Versiegeltes Parkett hat eine feste Schutzschicht und ist darum pflegeleicht. Das robuste Hirnholzpflaster heißt auch Industrieparkett. PVC ist die Abkürzung für einen Kunststoff."
       }
     }
   ]

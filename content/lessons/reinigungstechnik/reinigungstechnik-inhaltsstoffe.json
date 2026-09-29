@@ -32,18 +32,6 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚠️ Was kann ein mechanisch wirkendes Mittel bei falscher Anwendung anrichten?",
-        "options": [
-          { "text": "Es kann die Oberfläche schädigen.", "correct": true },
-          { "text": "Es kann das Wasser sehr hart machen." },
-          { "text": "Es kann die Fläche bunt färben." }
-        ],
-        "explanation": "Mechanisch wirkende Mittel enthalten scheuernde und schleifende Mineralien. Auf der falschen Fläche hinterlassen sie Kratzer."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
         "prompt": "🛒 Im Handel gibt es sehr viele verschiedene Reiniger. Was steckt dahinter?",
         "options": [
           { "text": "Wenige Grundstoffe, verschieden kombiniert, dazu Zusätze.", "correct": true },
@@ -83,13 +71,13 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🪨 Du benutzt ein Mittel mit Schleifkörpern. Worauf achtest du?",
+        "prompt": "🪨 Du benutzt ein Mittel mit Schleifkörpern. Was stimmt?",
         "options": [
-          { "text": "Die Größe der Schleifkörper muss zur Oberfläche passen.", "correct": true },
-          { "text": "Je gröber die Schleifkörper, desto besser für jede Fläche." },
+          { "text": "Passen die Schleifkörper nicht zur Fläche, wird sie beschädigt.", "correct": true },
+          { "text": "Je gröber die Schleifkörper sind, desto besser für jede Fläche." },
           { "text": "Schleifkörper nimmt man nur auf Glas und Spiegeln." }
         ],
-        "explanation": "Abrasiv heißt: scheuernd. Die Schleifkörper müssen zur Oberfläche passen. Zu grobe Körner zerkratzen empfindliche Flächen."
+        "explanation": "Abrasiv heißt: scheuernd. Mechanisch wirkende Mittel können die Oberfläche schädigen, wenn du sie falsch benutzt. Darum muss die Größe der Schleifkörper zur Oberfläche passen. Zu grobe Körner zerkratzen empfindliche Flächen."
       }
     },
     {
@@ -126,6 +114,27 @@
           { "text": "Damit es angenehmer riecht und eine schöne Farbe hat." }
         ],
         "explanation": "Hilfsstoffe sind Konservierungsmittel, Füllstoffe und Stellmittel. Sie reinigen nicht selbst. Sie sorgen dafür, dass du das Mittel gut dosieren und lagern kannst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧴 Was macht der Inhaltsstoff im Reinigungsmittel? Sortiere.",
+        "buckets": [
+          { "id": "schmutz", "label": "Löst oder entfernt Schmutz", "icon": "🧽" },
+          { "id": "anders", "label": "Hat eine andere Aufgabe", "icon": "📦" }
+        ],
+        "items": [
+          { "text": "Tenside", "bucket": "schmutz" },
+          { "text": "Säuren", "bucket": "schmutz" },
+          { "text": "Laugen", "bucket": "schmutz" },
+          { "text": "Abrasivstoffe", "bucket": "schmutz" },
+          { "text": "Duftstoffe", "bucket": "anders" },
+          { "text": "Farbstoffe", "bucket": "anders" },
+          { "text": "Konservierungsmittel", "bucket": "anders" },
+          { "text": "Füllstoffe", "bucket": "anders" }
+        ],
+        "explanation": "Frag dich: Geht der Stoff direkt gegen den Schmutz vor? Tenside, Säuren, Laugen und Schleifkörper tun das. Farb- und Duftstoffe reinigen nicht, sie überdecken nur Gerüche. Konservierungsmittel und Füllstoffe sind Hilfsstoffe. Sie machen das Mittel haltbar und gut dosierbar."
       }
     },
     {

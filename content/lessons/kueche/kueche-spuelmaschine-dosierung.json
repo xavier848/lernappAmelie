@@ -42,27 +42,20 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "sort_buckets",
       "data": {
-        "prompt": "📦 Wie bewahrst du Spülmittel-Pulver für die Maschine auf?",
-        "options": [
-          { "text": "Trocken und gut verschlossen, sonst verklumpt es.", "correct": true },
-          { "text": "Offen im Regal stehen lassen, damit es nicht muffig riecht." },
-          { "text": "Im feuchten Keller, dort bleibt es frisch." }
+        "prompt": "🧂 Pulver oder Tabs und Gel? Sortiere die Aussagen.",
+        "buckets": [
+          { "id": "pulver", "label": "Pulver", "icon": "🧂" },
+          { "id": "tabs", "label": "Tabs und Gel", "icon": "💊" }
         ],
-        "explanation": "Pulver zieht Feuchtigkeit an und verklumpt dann. Darum lagerst du es trocken und gut verschlossen."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🌱 Du spülst im Sparprogramm mit halb voller Maschine. Was ist der Nachteil von Tabs und Gel?",
-        "options": [
-          { "text": "Du kannst die Menge nicht verringern.", "correct": true },
-          { "text": "Sie sind im Sparprogramm vom Hersteller verboten." },
-          { "text": "Sie lösen dann Kalk an den Gläsern." }
+        "items": [
+          { "text": "Verklumpt leicht", "bucket": "pulver" },
+          { "text": "Trocken und gut verschlossen aufbewahren", "bucket": "pulver" },
+          { "text": "Sehr einfach zu dosieren", "bucket": "tabs" },
+          { "text": "Im Sparprogramm nicht weniger nehmen können", "bucket": "tabs" }
         ],
-        "explanation": "Tabs und Gel sind einfach zu dosieren, weil die Menge vorgegeben ist. Aber bei weniger Geschirr kannst du nicht weniger nehmen. Mit Pulver könntest du die Menge anpassen."
+        "explanation": "Pulver verklumpt leicht, wenn es feucht wird. Darum lagerst du es trocken und gut verschlossen. Tabs und Gel sind einfach zu dosieren. Aber ihre Menge ist fest: Auch bei wenig Geschirr im Sparprogramm kannst du nicht weniger nehmen."
       }
     },
     {

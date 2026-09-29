@@ -10,7 +10,7 @@
       "data": {
         "prompt": "🐰 So faltest du das Häschen. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Zum Rechteck falten. Dann oben und unten je einen Teil einschlagen." },
+          { "text": "Zum Rechteck falten. Dann einen Teil nach oben und einen Teil nach unten falten." },
           { "text": "Die linke und die rechte obere Ecke bis zur Mitte legen." },
           { "text": "Die rechte und die linke untere Ecke zur Mitte knicken." },
           { "text": "Die unteren Ecken noch einmal zur Mitte knicken." },
@@ -100,13 +100,14 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🐟 Welche Serviettenfaltung sieht aus wie ein Tier, das im Wasser lebt?",
+        "prompt": "🐾 Zwei Faltungen aus dieser Lektion tragen den Namen eines Tieres. Welche?",
         "options": [
-          { "text": "Der Fisch.", "correct": true },
-          { "text": "Das Häschen." },
-          { "text": "Der Stern." }
+          { "text": "Häschen und Fisch", "correct": true },
+          { "text": "Fisch und Tannenbaum" },
+          { "text": "Häschen und Tannenbaum" },
+          { "text": "Tannenbaum und Stern" }
         ],
-        "explanation": "Der Fisch lebt im Wasser. Das Häschen ist ein Tier an Land, und der Stern ist gar kein Tier."
+        "explanation": "Häschen und Fisch sind Tiere. Der Tannenbaum, auch Weihnachtsbaum genannt, ist eine Pflanze. Der Stern kommt aus einer anderen Lektion."
       }
     }
   ]
