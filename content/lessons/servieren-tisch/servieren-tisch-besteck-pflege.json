@@ -1,0 +1,146 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-besteck-pflege",
+  "title": "Besteck: Namen, Material, Pflege",
+  "sort": 571,
+  "intro": "🍴 Im Buch siehst du wichtiges Besteck und Vorlegebesteck. Essbesteck: Menülöffel, Menügabel, Menümesser, Dessertlöffel, Dessertgabel, Dessertmesser, Kaffeelöffel, Mokkalöffel, Kuchengabel, Fischbesteck (Fischmesser und Fischgabel) und Buttermesser. Vorlegebesteck: Fischvorlegebesteck, Fleischgabel, Tortenheber, Saucenlöffel, Suppenschöpfer (auch Suppenkelle), Gemüselöffel, Kartoffellöffel und Salatbesteck.\n\nMit Essbesteck isst der Gast selbst. Mit Vorlegebesteck legt man das Essen aus der Schüssel oder von der Platte auf den Teller.\n\nBesteck gibt es aus verschiedenen Materialien. Am häufigsten ist Edelstahl. Edelstahl ist stabil, rostfrei und spülmaschinengeeignet. Versilbertes Besteck ist teurer. Man findet es eher im Privathaushalt oder in der gehobenen Gastronomie.\n\nVor dem Eindecken kontrollierst du das Besteck auf Sauberkeit. Wenn nötig, reinigst du es. Dann polierst du alle Teile mit einem flusenfreien Tuch. Gut sind Geschirrtücher aus Leinen, Halbleinen oder Microfaser. Flusenfrei heißt: Das Tuch lässt keine Fussel zurück.\n\nMERKE: Trage beim Polieren Baumwollhandschuhe. Dann kommen keine Fingerabdrücke auf das Besteck.\n\nMERKE: Kalkflecken entfernst du so: Das Besteck kurz in heißes Wasser mit einem Schuss Essig oder Zitronensäure tauchen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍴 Essbesteck oder Vorlegebesteck? Sortiere.",
+        "buckets": [
+          { "id": "ess", "label": "Essbesteck", "icon": "🍴" },
+          { "id": "vorlege", "label": "Vorlegebesteck", "icon": "🥄" }
+        ],
+        "items": [
+          { "text": "Menülöffel", "bucket": "ess" },
+          { "text": "Menümesser", "bucket": "ess" },
+          { "text": "Dessertmesser", "bucket": "ess" },
+          { "text": "Kaffeelöffel", "bucket": "ess" },
+          { "text": "Saucenlöffel", "bucket": "vorlege" },
+          { "text": "Kartoffellöffel", "bucket": "vorlege" },
+          { "text": "Tortenheber", "bucket": "vorlege" },
+          { "text": "Salatbesteck", "bucket": "vorlege" }
+        ],
+        "explanation": "Frag dich: Nimmt der Gast das Teil zum Essen in den Mund oder an seinen Teller? Dann ist es Essbesteck. Nimmt man damit etwas aus der Schüssel oder von der Platte? Dann ist es Vorlegebesteck."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wozu gehört welches Besteck? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Kuchengabel"}, "right": {"text": "Zum Kuchen am Kaffeetisch"} },
+          { "left": {"text": "Buttermesser"}, "right": {"text": "Liegt auf dem Brotteller"} },
+          { "left": {"text": "Gemüselöffel"}, "right": {"text": "Zum Vorlegen von Gemüse"} },
+          { "left": {"text": "Suppenschöpfer"}, "right": {"text": "Zum Schöpfen aus der Terrine"} }
+        ],
+        "explanation": "Der Name verrät oft die Aufgabe. Kuchengabel und Buttermesser benutzt der Gast selbst. Gemüselöffel und Suppenschöpfer sind Vorlegebesteck. Der Suppenschöpfer heißt auch Suppenkelle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Was ist der Unterschied zwischen Fischbesteck und Fischvorlegebesteck?",
+        "options": [
+          { "text": "Mit Fischbesteck isst der Gast, mit dem anderen legt man vor.", "correct": true },
+          { "text": "Fischbesteck ist aus Silber, Fischvorlegebesteck ist aus Edelstahl." },
+          { "text": "Mit Fischbesteck legt man vor, mit Fischvorlegebesteck isst der Gast." },
+          { "text": "Es gibt keinen Unterschied, beide Namen meinen dasselbe Besteck." }
+        ],
+        "explanation": "Zum Fischbesteck gehören Fischmesser und Fischgabel. Damit isst der Gast. Mit dem Fischvorlegebesteck nimmt man den Fisch von der Platte und legt ihn auf den Teller."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Warum ist Besteck meistens aus Edelstahl?",
+        "options": [
+          { "text": "Es ist stabil, rostfrei und spülmaschinengeeignet.", "correct": true },
+          { "text": "Es ist besonders leicht und lässt sich gut biegen." },
+          { "text": "Es läuft mit der Zeit an und glänzt dann golden." },
+          { "text": "Es ist das teuerste Material und wirkt darum edel." }
+        ],
+        "explanation": "Edelstahl hat drei gute Eigenschaften: Es ist stabil, es rostet nicht, und es darf in die Spülmaschine. Darum ist es das häufigste Material für Besteck."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥈 Wo findest du eher versilbertes Besteck?",
+        "options": [
+          { "text": "Im Privathaushalt oder in der gehobenen Gastronomie.", "correct": true },
+          { "text": "In der Kantine, weil es besonders billig ist und viel aushält." },
+          { "text": "Beim Picknick, weil es besonders leicht ist." },
+          { "text": "Im Krankenhaus, weil es besonders hygienisch ist." }
+        ],
+        "explanation": "Versilbertes Besteck ist teurer als Edelstahl. Darum findet man es eher im Privathaushalt oder in feinen Restaurants, also in der gehobenen Gastronomie."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧤 Besteck vor dem Eindecken vorbereiten. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das Besteck auf Sauberkeit kontrollieren." },
+          { "text": "Wenn nötig, das Besteck reinigen." },
+          { "text": "Alle Teile mit einem flusenfreien Tuch polieren." },
+          { "text": "Das Besteck eindecken." }
+        ],
+        "explanation": "Frag dich: Was macht nur auf sauberem Besteck Sinn? Erst prüfen, dann reinigen, dann polieren. Poliertes Besteck kommt zum Schluss auf den Tisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Womit polierst du das Besteck?",
+        "options": [
+          { "text": "Mit einem flusenfreien Tuch, zum Beispiel aus Leinen.", "correct": true },
+          { "text": "Mit einem flauschigen Frottierhandtuch aus dem Bad." },
+          { "text": "Mit Küchenpapier und etwas Spülmittel aus der Flasche." },
+          { "text": "Mit einem feuchten Schwamm aus der Spüle." }
+        ],
+        "explanation": "Du brauchst ein Tuch, das keine Fussel zurücklässt. Gut sind Geschirrtücher aus Leinen, Halbleinen oder Microfaser. Ein Frottiertuch fusselt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Warum trägst du beim Polieren Baumwollhandschuhe?",
+        "options": [
+          { "text": "Damit keine Fingerabdrücke auf das Besteck kommen.", "correct": true },
+          { "text": "Damit die Hände hinterher nicht nach Metall riechen." },
+          { "text": "Damit das frisch gespülte Besteck schneller trocken wird." },
+          { "text": "Damit das Besteck nicht zu kalt wird." }
+        ],
+        "explanation": "Auf glänzendem Besteck sieht man jeden Fingerabdruck. Mit Baumwollhandschuhen bleibt das polierte Besteck sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Auf den Messern sind weiße Kalkflecken. Was hilft?",
+        "options": [
+          { "text": "Kurz in heißes Wasser mit einem Schuss Essig oder Zitronensäure tauchen.", "correct": true },
+          { "text": "Mit Scheuermilch und einem harten Schwamm lange und kräftig schrubben." },
+          { "text": "Über Nacht in kaltes Salzwasser legen und dann abtrocknen." },
+          { "text": "Mit etwas Speiseöl einreiben, bis die weißen Flecken ganz verschwinden." }
+        ],
+        "explanation": "Kalk löst sich in Säure. Essig und Zitronensäure sind Säuren. Ein kurzes Bad in heißem Wasser mit einem Schuss davon reicht. Scheuermilch würde das Besteck zerkratzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Welcher Löffel gehört zur kleinen Mokkatasse?",
+        "options": [
+          { "text": "Der Mokkalöffel.", "correct": true },
+          { "text": "Der Menülöffel." },
+          { "text": "Der Saucenlöffel." }
+        ],
+        "explanation": "Zur Mokkatasse gehört der Mokkalöffel. Der Menülöffel ist für Suppe gedacht, der Saucenlöffel ist Vorlegebesteck für Soße."
+      }
+    }
+  ]
+}

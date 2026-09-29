@@ -1,0 +1,133 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-fluessigkeitsbedarf",
+  "title": "Wie viel musst du trinken?",
+  "sort": 583,
+  "intro": "💧 Ohne Wasser kein Leben. Ein Erwachsener braucht am Tag 30 bis 35 ml Flüssigkeit pro Kilogramm Körpergewicht. Darin ist auch das Wasser aus festen Lebensmitteln enthalten. Und das Wasser, das beim Abbau der Nährstoffe im Körper entsteht. Trinken solltest du deshalb 1,2 bis 1,5 Liter am Tag.\n\nIsst du weniger feste Nahrung, musst du mehr trinken. Denn dann fehlt das Wasser aus dem Nährstoffabbau. Trotzdem entstehen Stoffwechselprodukte und harnpflichtige Substanzen. Das sind Stoffe, die der Körper mit dem Urin ausscheiden muss.\n\nDurst darf nur ausnahmsweise das Signal zum Trinken sein. Normalerweise trinkst du vorher. Bei alten Menschen lässt das Durstempfinden oft nach. Oder der Weg zur Toilette ist ihnen zu beschwerlich. Deshalb trinken sie oft zu wenig.\n\nSchon lange bevor es gefährlich wird, merkst du, dass du zu wenig getrunken hast. Verliert der Körper 2 % seines Körpergewichts an Wasser, wirst du müde und kannst dich schlechter konzentrieren. Sogar Schwindel ist möglich.\n\nIdeal zum Trinken sind Wasser aus der Flasche oder aus der Leitung, Früchte- oder Kräutertees ohne Zucker und Fruchtschorlen mit mehr Wasser als Saft. Getränke sollten jederzeit, an jedem Ort und für jeden bereitstehen. Alkoholische Getränke eignen sich nicht, um den Flüssigkeitsbedarf zu decken.\n\nMERKE: Trink, bevor du Durst hast.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Wie viel Flüssigkeit braucht ein Erwachsener am Tag pro Kilogramm Körpergewicht?",
+        "options": [
+          { "text": "30 bis 35 ml", "correct": true },
+          { "text": "3 bis 5 ml" },
+          { "text": "100 bis 150 ml" },
+          { "text": "300 bis 350 ml" }
+        ],
+        "explanation": "Der Richtwert ist 30 bis 35 ml pro Kilogramm Körpergewicht. Je schwerer ein Mensch ist, desto mehr Flüssigkeit braucht er."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Du wiegst 60 kg. Rechne mit dem unteren Richtwert pro Kilogramm. Wie viele Milliliter Flüssigkeit braucht dein Körper am Tag?",
+        "answer": 1800,
+        "hint": "Der untere Richtwert ist 30 ml pro kg.\n60 × 30 = ?",
+        "explanation": "60 kg × 30 ml = 1800 ml, also 1,8 Liter Flüssigkeit am Tag. Nicht alles davon musst du trinken."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Wie viel solltest du am Tag trinken?",
+        "options": [
+          { "text": "1,2 bis 1,5 Liter", "correct": true },
+          { "text": "0,5 bis 0,8 Liter" },
+          { "text": "3 bis 4 Liter" }
+        ],
+        "explanation": "Die Trinkmenge beträgt 1,2 bis 1,5 Liter am Tag. Den Rest des Flüssigkeitsbedarfs bekommst du aus festen Lebensmitteln und aus dem Nährstoffabbau."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Warum ist die Trinkmenge kleiner als der ganze Flüssigkeitsbedarf?",
+        "options": [
+          { "text": "Ein Teil kommt aus festen Lebensmitteln und aus dem Nährstoffabbau.", "correct": true },
+          { "text": "Der Körper braucht abends und nachts fast gar kein Wasser." },
+          { "text": "Ein Teil kommt aus der Luft, die du den ganzen Tag einatmest." }
+        ],
+        "explanation": "Auch feste Lebensmittel enthalten Wasser. Und beim Abbau der Nährstoffe im Körper entsteht Wasser. Beides zählt zum Flüssigkeitsbedarf dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤒 Oma isst wegen einer Krankheit kaum etwas. Was gilt für ihr Trinken?",
+        "options": [
+          { "text": "Sie muss mehr trinken, weil das Wasser aus der Nahrung fehlt.", "correct": true },
+          { "text": "Sie muss weniger trinken, weil sie ja auch weniger isst." },
+          { "text": "Sie trinkt nur dann, wenn sie selbst Durst verspürt." }
+        ],
+        "explanation": "Wer wenig feste Nahrung isst, muss mehr trinken. Das Wasser aus dem Nährstoffabbau fehlt. Trotzdem entstehen Stoffwechselprodukte und harnpflichtige Substanzen, die mit dem Urin hinausmüssen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Wann trinkst du am besten?",
+        "options": [
+          { "text": "Regelmäßig, bevor Durst kommt", "correct": true },
+          { "text": "Erst, wenn du großen Durst hast" },
+          { "text": "Nur zu den drei Hauptmahlzeiten" }
+        ],
+        "explanation": "Durst darf nur ausnahmsweise das Signal zum Trinken sein. Normalerweise trinkst du vorher, regelmäßig über den Tag verteilt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👵 Warum trinken alte Menschen oft zu wenig?",
+        "options": [
+          { "text": "Das Durstempfinden lässt nach, oder der Toilettengang ist beschwerlich.", "correct": true },
+          { "text": "Alte Menschen brauchen gar kein Wasser mehr, weil sie wenig tun." },
+          { "text": "Alte Menschen schwitzen nie und verlieren deshalb kein Wasser." }
+        ],
+        "explanation": "Im Alter spürt man den Durst oft weniger. Manche trinken auch wenig, weil ihnen der Weg zur Toilette zu beschwerlich ist. Darum brauchen sie oft eine Erinnerung zum Trinken."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📉 Ab wie viel Prozent Wasserverlust (vom Körpergewicht) wirst du müde und unkonzentriert?",
+        "answer": 2,
+        "hint": "Es ist ein sehr kleiner Wert, kleiner als 5.",
+        "explanation": "Schon bei 2 % Wasserverlust reagiert der Körper mit Müdigkeit und nachlassender Konzentration. Sogar Schwindel ist möglich."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥤 Ideal für den Flüssigkeitsbedarf? Sortiere.",
+        "explanation": "Frag dich: Ist es Wasser oder fast nur Wasser, ohne Zucker und ohne Alkohol? Dann ist es ideal. Alkoholische Getränke sind nicht geeignet, und gesüßte Getränke sind keine gute Wahl.",
+        "buckets": [
+          { "id": "ideal", "label": "Ideal", "icon": "✅" },
+          { "id": "nicht", "label": "Nicht ideal", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Leitungswasser", "bucket": "ideal" },
+          { "text": "Mineralwasser", "bucket": "ideal" },
+          { "text": "Kräutertee ohne Zucker", "bucket": "ideal" },
+          { "text": "Schorle mit mehr Wasser als Saft", "bucket": "ideal" },
+          { "text": "Bier", "bucket": "nicht" },
+          { "text": "Wein", "bucket": "nicht" },
+          { "text": "Früchtetee mit viel Zucker", "bucket": "nicht" },
+          { "text": "Schorle mit mehr Saft als Wasser", "bucket": "nicht" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wo sollten Getränke bereitstehen?",
+        "options": [
+          { "text": "Jederzeit, an jedem Ort und für jeden", "correct": true },
+          { "text": "Nur mittags auf dem Esstisch" },
+          { "text": "Nur für Gäste im Speiseraum" }
+        ],
+        "explanation": "Getränke sollten immer und überall für jeden erreichbar sein. So kann jeder regelmäßig trinken, bevor Durst kommt."
+      }
+    }
+  ]
+}
