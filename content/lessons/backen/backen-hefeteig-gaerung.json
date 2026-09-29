@@ -1,0 +1,153 @@
+{
+  "topic_slug": "backen",
+  "slug": "backen-hefeteig-gaerung",
+  "title": "Hefeteig: Hefe und Gärung",
+  "sort": 628,
+  "intro": "🍞 Hefeteig ist ein Knetteig. Sein Backtriebmittel ist Hefe. Hefe besteht aus Pilzkulturen, also aus winzigen Hefepilzen.\n\nDie Hefepilze brauchen Nahrung: Zucker und Mehl. Dazu brauchen sie Flüssigkeit und Wärme. Dann wachsen sie und lockern den Teig.\n\nDieser Vorgang heißt alkoholische Gärung. Die Hefepilze spalten den Zucker in Alkohol und Kohlendioxid. Das gibt den typischen Geschmack. Beim Backen dehnen sich Kohlendioxid und Alkohol aus. So wird der Teig locker.\n\nAus süßem Hefeteig backst du Blechkuchen, Brot, Brötchen, Kleingebäck und geformtes Gebäck wie Zöpfe. Aus salzigem Hefeteig backst du Zwiebelkuchen, Pizza, Brot und Kleingebäck.\n\nFrische Backhefe und Trockenhefe nimmst du nur mit gültigem Mindesthaltbarkeitsdatum.\n\nMERKE: Die Flüssigkeit, also Milch oder Wasser, ist etwa 30 °C warm. Das ist handwarm. Über 50 °C werden die Hefepilze zerstört. Kalte Flüssigkeit bremst ihr Wachstum.\n\nVollkornmehl quillt stärker. Darum brauchst du dafür mehr Flüssigkeit. Beim salzigen Hefeteig kannst du bis zu 50 % des Mehls durch Weizenvollkornmehl ersetzen, zum Beispiel Type 1050 oder 1700. Das Backergebnis wird dadurch nicht schlechter.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Womit wird Hefeteig gelockert?",
+        "options": [
+          { "text": "Mit Hefe, das sind Pilzkulturen.", "correct": true },
+          { "text": "Mit Backpulver und etwas Natron." },
+          { "text": "Mit Eischnee und viel Luft." }
+        ],
+        "explanation": "Das Backtriebmittel im Hefeteig ist Hefe. Hefe besteht aus winzigen Hefepilzen, man sagt: Pilzkulturen. Backpulver lockert dagegen Rührmasse und Quark-Öl-Teig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Was brauchen die Hefepilze, damit sie wachsen?",
+        "options": [
+          { "text": "Zucker und Mehl als Nahrung, dazu Flüssigkeit und Wärme.", "correct": true },
+          { "text": "Salz und Fett als Nahrung, dazu Kälte und viel Ruhe." },
+          { "text": "Nur kaltes Wasser, alle anderen Zutaten stören sie." }
+        ],
+        "explanation": "Zucker und Mehl sind die Nahrung der Hefepilze. Mit Flüssigkeit und Wärme wachsen sie. Dabei lockern sie den Teig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫧 Wie heißt der Vorgang, bei dem die Hefepilze den Zucker spalten?",
+        "options": [
+          { "text": "Alkoholische Gärung.", "correct": true },
+          { "text": "Enzymatische Bräunung." },
+          { "text": "Verkleistern der Stärke." }
+        ],
+        "explanation": "Die Hefepilze spalten den Zucker. Dabei entsteht unter anderem Alkohol. Darum heißt der Vorgang alkoholische Gärung. Verkleistern passiert bei der Brandmasse, Bräunung bei geschälten Äpfeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 In was spalten die Hefepilze den Zucker?",
+        "options": [
+          { "text": "In Alkohol und Kohlendioxid.", "correct": true },
+          { "text": "In Wasser und Sauerstoff." },
+          { "text": "In Salz und Stärke." }
+        ],
+        "explanation": "Bei der alkoholischen Gärung entstehen Alkohol und Kohlendioxid. Kohlendioxid ist ein Gas. Beides gibt dem Hefeteig seinen typischen Geschmack und macht ihn locker."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Warum wird Hefeteig beim Backen noch lockerer?",
+        "options": [
+          { "text": "Kohlendioxid und Alkohol dehnen sich in der Hitze aus.", "correct": true },
+          { "text": "Das Mehl quillt in der Hitze stark auf und wird luftig." },
+          { "text": "Die Hefe wächst im heißen Backofen am allerschnellsten." }
+        ],
+        "explanation": "Im Teig stecken Kohlendioxid und Alkohol aus der Gärung. In der Hitze des Backofens dehnen sie sich aus. So wird der Teig locker. Die Hefe selbst wächst im heißen Ofen nicht, denn über 50 °C stirbt sie."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍕 Süßer oder salziger Hefeteig? Sortiere.",
+        "buckets": [
+          { "id": "suess", "label": "Süßer Hefeteig", "icon": "🥐" },
+          { "id": "salzig", "label": "Salziger Hefeteig", "icon": "🍕" }
+        ],
+        "items": [
+          { "text": "Streuselkuchen vom Blech", "bucket": "suess" },
+          { "text": "Geflochtener Hefezopf", "bucket": "suess" },
+          { "text": "Obstblechkuchen", "bucket": "suess" },
+          { "text": "Zwiebelkuchen", "bucket": "salzig" },
+          { "text": "Pizza", "bucket": "salzig" }
+        ],
+        "explanation": "Frag dich: Ist es ein süßer Kuchen oder ein Gebäck zum Kaffee? Dann süß. Kommen Zwiebeln, Tomaten oder Käse darauf? Dann salzig."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Wie warm soll die Milch oder das Wasser für Hefeteig etwa sein? Gib die Grad Celsius ein.",
+        "answer": 30,
+        "hint": "Handwarm heißt: so warm wie deine Hand. Das ist etwas weniger als die Körpertemperatur.",
+        "explanation": "Die Flüssigkeit ist etwa 30 °C warm, also handwarm. So wachsen die Hefepilze gut."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚠️ Ab wie viel Grad Celsius werden die Hefepilze zerstört?",
+        "answer": 50,
+        "hint": "Es ist eine runde Zehnerzahl zwischen 40 und 60.",
+        "explanation": "Über 50 °C werden die Hefepilze zerstört. Dann geht der Teig nicht mehr auf. Darum ist die Flüssigkeit nur handwarm, etwa 30 °C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Du nimmst kalte Milch für den Hefeteig. Was passiert?",
+        "options": [
+          { "text": "Die Hefe wächst langsamer.", "correct": true },
+          { "text": "Die Hefe stirbt sofort ab." },
+          { "text": "Die Hefe wächst viel schneller." }
+        ],
+        "explanation": "Kälte bremst das Wachstum der Hefepilze. Sie sterben aber nicht ab. Der Teig braucht dann nur mehr Zeit. Zerstört werden die Hefepilze erst über 50 °C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Du backst Hefeteig mit Vollkornmehl. Warum brauchst du mehr Flüssigkeit?",
+        "options": [
+          { "text": "Vollkornmehl quillt stärker.", "correct": true },
+          { "text": "Vollkornmehl ist feiner gemahlen." },
+          { "text": "Vollkornmehl enthält keine Stärke." }
+        ],
+        "explanation": "Vollkornmehl nimmt beim Quellen mehr Flüssigkeit auf. Darum gibst du mehr Milch oder Wasser dazu. Sonst wird der Teig zu fest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍕 Salziger Hefeteig: Wie viel vom Mehl kannst du durch Weizenvollkornmehl ersetzen?",
+        "options": [
+          { "text": "Bis zu 50 %, zum Beispiel mit Type 1050 oder 1700.", "correct": true },
+          { "text": "Höchstens 10 %, sonst geht der Teig gar nicht mehr auf." },
+          { "text": "Immer 100 %, weißes Mehl ist für Hefeteig verboten." }
+        ],
+        "explanation": "Beim salzigen Hefeteig kannst du bis zu 50 % des Mehls durch Weizenvollkornmehl ersetzen. Geeignet sind Type 1050 oder Type 1700. Das Backergebnis wird dadurch nicht schlechter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Was prüfst du bei Hefe, bevor du sie verwendest?",
+        "options": [
+          { "text": "Das Mindesthaltbarkeitsdatum.", "correct": true },
+          { "text": "Die Farbe der Verpackung." },
+          { "text": "Das Gewicht der Verpackung." }
+        ],
+        "explanation": "Frische Backhefe und Trockenhefe nimmst du nur mit gültigem Mindesthaltbarkeitsdatum. Alte Hefe lockert den Teig nicht mehr zuverlässig."
+      }
+    }
+  ]
+}

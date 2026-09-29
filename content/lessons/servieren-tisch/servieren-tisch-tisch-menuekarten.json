@@ -103,6 +103,19 @@
       }
     },
     {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📜 Auf der Menükarte können Zusatzinfos stehen. Was ist was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Gastgeber"}, "right": {"text": "Familie Schneider"} },
+          { "left": {"text": "Anlass"}, "right": {"text": "Goldene Hochzeit"} },
+          { "left": {"text": "Datum"}, "right": {"text": "12. Mai"} },
+          { "left": {"text": "Ort"}, "right": {"text": "Gasthaus zur Linde"} }
+        ],
+        "explanation": "Neben Speisen und Getränken kann die Menükarte weitere Infos tragen: den Namen des Gastgebers, den Anlass, das Datum und den Ort des Festes. So wird sie auch zur schönen Erinnerung."
+      }
+    },
+    {
       "type": "multiple_choice",
       "data": {
         "prompt": "▭ Welche Form haben Menü- und Tischkarten am häufigsten?",

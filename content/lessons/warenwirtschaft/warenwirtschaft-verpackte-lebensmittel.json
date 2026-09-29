@@ -36,8 +36,8 @@
         "prompt": "🧀 Abgepackter Käse hat verschieden große Portionen. Was muss neben dem Packungspreis stehen?",
         "options": [
           { "text": "Der Preis pro Kilogramm oder pro 100 Gramm.", "correct": true },
-          { "text": "Der Preis aus dem letzten Monat." },
-          { "text": "Der Preis für eine einzige Scheibe." }
+          { "text": "Der Preis aus dem letzten Monat zum Vergleich." },
+          { "text": "Der Preis für eine einzige Scheibe Käse." }
         ],
         "explanation": "Die Portionen sind verschieden groß. Nur mit dem Preis pro Kilogramm oder pro 100 Gramm kannst du sie vergleichen. Das schreibt die Preisangabenverordnung vor."
       }
@@ -69,7 +69,7 @@
         "prompt": "📛 Was ist die Verkehrsbezeichnung eines Lebensmittels?",
         "options": [
           { "text": "Der allgemein verständliche Name des Lebensmittels.", "correct": true },
-          { "text": "Die Nummer des Lieferwagens, der die Ware bringt." },
+          { "text": "Die Nummer des Lieferwagens, der die Ware anliefert." },
           { "text": "Der Werbespruch, mit dem die Marke wirbt." }
         ],
         "explanation": "Die Verkehrsbezeichnung sagt klar, was das Lebensmittel ist, zum Beispiel „Speisequarkzubereitung“. Ein Werbespruch oder Fantasiename reicht dafür nicht."
@@ -81,8 +81,8 @@
         "prompt": "🥣 Was gilt für die Zutatenliste?",
         "options": [
           { "text": "Absteigend nach Gewicht, auch mit Zusatzstoffen wie Farbstoffen.", "correct": true },
-          { "text": "Alphabetisch sortiert, Zusatzstoffe stehen gar nicht darin." },
-          { "text": "Aufsteigend nach Gewicht, aber nur mit der Hauptzutat." }
+          { "text": "Alphabetisch sortiert, und Zusatzstoffe stehen gar nicht darin." },
+          { "text": "Aufsteigend nach Gewicht, aber nur mit der wichtigsten Hauptzutat." }
         ],
         "explanation": "Die Zutat mit dem größten Gewichtsanteil steht vorne. Auch Zusatzstoffe gehören in die Liste, zum Beispiel Konservierungsstoffe und Farbstoffe."
       }
@@ -93,8 +93,8 @@
         "prompt": "🍷 Ab wie viel Alkohol muss der Alkoholgehalt angegeben werden?",
         "options": [
           { "text": "Ab 1,2 % vol.", "correct": true },
-          { "text": "Ab 5 % vol." },
-          { "text": "Ab 12 % vol." }
+          { "text": "Ab 5,5 % vol." },
+          { "text": "Ab 12,5 % vol." }
         ],
         "explanation": "Schon ab 1,2 Volumenprozent muss der Alkoholgehalt auf der Packung stehen. So erkennst du auch schwach alkoholische Getränke."
       }
@@ -108,7 +108,7 @@
           { "text": "Wie viele Rinder der Bauer insgesamt in seinem Stall hat." },
           { "text": "Wie hoch der Preis ohne die Mehrwertsteuer wäre." }
         ],
-        "explanation": "Eine Charge ist eine Menge gleicher Ware, die zusammen hergestellt wurde. Mit der Chargen-Nummer kann man die Ware genau zuordnen, zum Beispiel bei einem Rückruf."
+        "explanation": "Eine Charge ist eine Menge gleicher Ware, die zusammen hergestellt wurde. Mit der Chargen-Nummer kann man die Ware genau zuordnen."
       }
     },
     {
