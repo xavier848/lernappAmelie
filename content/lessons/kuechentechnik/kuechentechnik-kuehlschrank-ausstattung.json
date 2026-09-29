@@ -1,0 +1,136 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-kuehlschrank-ausstattung",
+  "title": "Kühlschrank: Umluft, Zonen, Ausstattung",
+  "sort": 591,
+  "intro": "🌀 Umluftkühlung: Ein zusätzlicher Ventilator verteilt die Kälte schneller und kühlt schneller ab. Die Verdampferflächen liegen außerhalb des Kühlraums. Ein Gebläse bringt die kalte Luft hinein. Vorteil: Im Kühlraum bildet sich kein Reif. Du musst nicht abtauen, weil der Verdampfer automatisch abtaut. Dafür ist der Stromverbrauch höher.\n\nEin Verdampfungsfach mit 4 Sternen hat eine eigene Außentür und ein eigenes Kühlaggregat. Die Rohre liegen enger. Das schafft viel mehr Kälte. So kannst du darin Lebensmittel einfrieren. Es taut automatisch oder teilautomatisch ab. Teilautomatisch heißt: Du schaltest das Abtauen selbst ein, das Ende kommt von allein.\n\nDie Größe eines Geräts gibt man mit zwei Werten an. Der Nutzraum (Bruttoinhalt) ist das ganze Innenvolumen in Litern, mit Böden, Gittern und Schubladen. Der Nutzinhalt (Nettoinhalt) ist nur der Platz zum Lagern.\n\nTür und Gehäuse sind aus speziell lackiertem Stahlblech oder aus Edelstahl. Ein Gehäuse ganz aus Edelstahl gibt es bei Standgeräten. Zur Wärmedämmung sind die Hohlräume zwischen Außen- und Innenwand mit Hartschaum ausgeschäumt. Die Innenwände sind meist aus Kunststoff, lackiertem Stahlblech oder Leichtmetall. Die Kälte regelt ein Temperaturregler: ein Fühler, der mit einem Temperaturwähler gekoppelt ist. Du stellst ihn mit einem Drehregler oder per Tastendruck ein.\n\nBei der statischen Kühlung bewegt sich die Luft von selbst: Die kalte Luft vom Verdampfer oben sinkt nach unten. Die warme Luft steigt nach oben. So entstehen Temperaturzonen. Deshalb musst du bewusst einräumen. Moderne Geräte haben eine dynamische Kühlung, also eine Umluftkühlung. Ein Ventilator verteilt die kalte Luft gleichmäßig.\n\nBeispiel aus dem Buch für die Zonen bei statischer Kühlung: oberes Fach etwa +7 bis +9 °C. Mitte etwa +5 °C. Unteres Fach über dem Gemüsefach etwa +4 °C. Gemüsefach etwa +6 bis +8 °C. Tür oben etwa +11 °C. Tür unten etwa +4 °C.\n\nMERKE: Statische Kühlung = Temperaturzonen, bewusst einräumen. Dynamische Kühlung = Ventilator, gleichmäßig kalt.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌀 Umluftkühlung: Vorteil oder Nachteil? Sortiere.",
+        "explanation": "Der Ventilator bringt die Kälte schnell überall hin, und der Verdampfer taut von selbst ab. Dafür braucht das Gerät mehr Strom. Das musst du einkalkulieren.",
+        "buckets": [
+          { "id": "plus", "label": "Vorteil", "icon": "👍" },
+          { "id": "minus", "label": "Nachteil", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Kälte verteilt sich schneller", "bucket": "plus" },
+          { "text": "Kein Reif im Kühlraum", "bucket": "plus" },
+          { "text": "Kein Abtauen nötig", "bucket": "plus" },
+          { "text": "Höherer Stromverbrauch", "bucket": "minus" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⭐ Was kann ein Verdampfungsfach mit 4 Sternen?",
+        "options": [
+          { "text": "Lebensmittel einfrieren, dank eigener Tür und eigenem Kühlaggregat", "correct": true },
+          { "text": "Nur fertige Eiswürfel kühl halten, einfrieren kann es nicht" },
+          { "text": "Getränke genau auf 0 °C halten, damit sie nicht gefrieren" }
+        ],
+        "explanation": "Das 4-Sterne-Fach hat eine eigene Außentür, ein separates Kühlaggregat und enger verlegte Rohre. Das ergibt viel mehr Kälteleistung. So kannst du darin Lebensmittel einfrieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Was ist der Unterschied zwischen Nutzraum und Nutzinhalt?",
+        "options": [
+          { "text": "Nutzraum ist das ganze Volumen, Nutzinhalt nur der Lagerplatz.", "correct": true },
+          { "text": "Nutzraum ist nur der Lagerplatz, Nutzinhalt das ganze Volumen." },
+          { "text": "Beide Wörter meinen genau dasselbe, nur in anderer Sprache." }
+        ],
+        "explanation": "Der Nutzraum (Bruttoinhalt) ist das ganze Innenvolumen mit Böden, Gittern und Schubladen. Der Nutzinhalt (Nettoinhalt) ist die reine Lagerkapazität. Er ist deshalb immer etwas kleiner."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧱 Womit sind die Wände eines Kühlschranks gedämmt?",
+        "options": [
+          { "text": "Mit Hartschaum", "correct": true },
+          { "text": "Mit Korkplatten" },
+          { "text": "Mit Holzspänen" }
+        ],
+        "explanation": "Zur Wärmedämmung sind die Hohlräume zwischen Außen- und Innenwand mit Hartschaum ausgeschäumt. So bleibt die Wärme draußen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Woraus besteht der Temperaturregler im Kühlschrank?",
+        "options": [
+          { "text": "Aus einem Fühler, gekoppelt mit einem Temperaturwähler", "correct": true },
+          { "text": "Aus einem Ventilator und einer kleinen Innenlampe" },
+          { "text": "Aus einem Kompressor und einem Kocher mit Ammoniak" }
+        ],
+        "explanation": "Kontrollorgan für die Kälte ist der Temperaturregler. Er besteht aus einem Fühler, der mit einem Temperaturwähler gekoppelt ist. Du stellst ihn mit Drehregler oder Taste ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⬇️ Was passiert bei der statischen Kühlung mit der Luft?",
+        "options": [
+          { "text": "Kalte Luft sinkt nach unten, warme Luft steigt nach oben.", "correct": true },
+          { "text": "Warme Luft sinkt nach unten, kalte Luft steigt nach oben." },
+          { "text": "Die Luft bleibt überall im Kühlschrank genau gleich kalt." }
+        ],
+        "explanation": "Bei der statischen Kühlung zirkuliert die Luft natürlich. Die kalte Luft vom Verdampfer oben sinkt, die warme steigt. So entstehen Temperaturzonen. Deshalb räumst du bewusst ein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌡️ Wie kalt ist es wo? Beispiel für statische Kühlung. Verbinde.",
+        "explanation": "Oben im Kühlschrank ist es wärmer, unten über dem Gemüsefach am kältesten. Das Gemüsefach selbst ist wieder etwas wärmer. In der Tür ist es oben am wärmsten.",
+        "pairs": [
+          { "left": {"text": "⬆️ Oberes Fach"}, "right": {"text": "etwa +7 bis +9 °C"} },
+          { "left": {"text": "⏺️ Mittleres Fach"}, "right": {"text": "etwa +5 °C"} },
+          { "left": {"text": "⬇️ Unteres Fach über dem Gemüsefach"}, "right": {"text": "etwa +4 °C"} },
+          { "left": {"text": "🥬 Gemüsefach"}, "right": {"text": "etwa +6 bis +8 °C"} },
+          { "left": {"text": "🚪 Tür oben"}, "right": {"text": "etwa +11 °C"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Wo ist es in der Kühlschranktür am kältesten?",
+        "options": [
+          { "text": "Unten in der Tür", "correct": true },
+          { "text": "Oben in der Tür" },
+          { "text": "In der Mitte der Tür" }
+        ],
+        "explanation": "Auch in der Tür sinkt die kalte Luft nach unten. Unten in der Tür ist es etwa +4 °C kalt, oben etwa +11 °C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Was ist eine dynamische Kühlung?",
+        "options": [
+          { "text": "Ein Ventilator verteilt die kalte Luft gleichmäßig.", "correct": true },
+          { "text": "Das Gerät kühlt nur nachts, wenn es kalt ist." },
+          { "text": "Die Tür bewegt sich von selbst zum Lüften." }
+        ],
+        "explanation": "Dynamische Kühlung heißt auch Umluftkühlung. Ein eingebauter Ventilator verteilt die Kaltluft gleichmäßig im Innenraum. Moderne und gehobene Geräte haben sie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Aus welchem Material sind die Innenwände eines Kühlschranks meistens?",
+        "options": [
+          { "text": "Aus Kunststoff", "correct": true },
+          { "text": "Aus Holz" },
+          { "text": "Aus Glas" }
+        ],
+        "explanation": "Die Innenwände sind meist aus Kunststoff. Manchmal auch aus speziell lackiertem Stahlblech oder Leichtmetall."
+      }
+    }
+  ]
+}
