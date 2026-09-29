@@ -1,0 +1,148 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-loeffelmasse-richtwerte",
+  "title": "Löffelmaße: Richtwerte je Lebensmittel",
+  "sort": 621,
+  "intro": "🥄 Löffelmaße nimmst du nur für kleinere Zutatenmengen. TL heißt Teelöffel. EL heißt Esslöffel.\n\nMERKE: Du gehst immer von einem gestrichenen Löffel aus. Außer das Rezept sagt etwas anderes. Gestrichen heißt: Du streichst den Löffel glatt ab.\n\nLöffel sind unterschiedlich groß. Darum sind die Gewichte nur Richtwerte. Man sagt auch: Mittelwerte. Und jedes Lebensmittel wiegt anders viel.\n\nRichtwerte für 1 gestrichenen Teelöffel: Backpulver 3 g. Speisestärke 3 g. Grieß 4 g. Zucker 5 g. Mehl 5 g. Salz 5 g. Flüssigkeiten wie Essig, Sahne oder Milch 5 g. Butter oder Margarine 7 g.\n\nRichtwerte für 1 gestrichenen Esslöffel: Backpulver 10 g. Speisestärke 10 g. Mehl 10 g. Grieß 12 g. Zucker 15 g. Salz 15 g. Flüssigkeiten 15 g, das sind 15 ml. Butter oder Margarine 20 g.\n\nMERKE: 7 Esslöffel Flüssigkeit sind 100 ml.\n\nAuf deinem Blatt stehen grobe Messhilfen: 1 gestrichener Teelöffel entspricht 5 bis 7 g. 1 gehäufter Esslöffel entspricht 15 bis 20 g. Die Regel für den Teelöffel passt zu Zucker, Mehl, Salz, Flüssigkeiten und Butter. Leichte Pulver wie Backpulver und Speisestärke wiegen weniger, nur etwa 3 g. Grieß wiegt etwa 4 g.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Im Rezept steht: 1 EL Zucker. Wie voll machst du den Löffel?",
+        "options": [
+          { "text": "Gestrichen, wenn das Rezept nichts anderes sagt.", "correct": true },
+          { "text": "Gehäuft, damit sicher genug im Teig landet." },
+          { "text": "Halb voll, weil Esslöffel ja so groß sind." }
+        ],
+        "explanation": "Du gehst immer von einem gestrichenen Löffel aus. Nur wenn im Rezept gehäuft steht, machst du einen kleinen Berg auf den Löffel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Warum sind die Gewichte von Löffelmaßen nur Richtwerte?",
+        "options": [
+          { "text": "Löffel sind unterschiedlich groß.", "correct": true },
+          { "text": "Zucker wird mit der Zeit leichter." },
+          { "text": "Waagen wiegen Löffel nie richtig." }
+        ],
+        "explanation": "Nicht jeder Esslöffel ist gleich groß. Darum wiegt 1 EL Zucker mal etwas mehr, mal etwas weniger. Die Werte in der Tabelle sind Mittelwerte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Für welche Mengen nimmst du Löffelmaße?",
+        "options": [
+          { "text": "Nur für kleinere Zutatenmengen.", "correct": true },
+          { "text": "Vor allem für große Mengen in der Großküche." },
+          { "text": "Nur für Flüssigkeiten, nie für Pulver." }
+        ],
+        "explanation": "Löffelmaße sind für kleine Mengen gedacht, zum Beispiel für Backpulver oder Salz. Große Mengen wiegst du ab, das ist genauer."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥄 Richtwerte: Wie viel wiegt 1 gestrichener Teelöffel (TL)? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🎈 Backpulver"}, "right": {"text": "3 g"} },
+          { "left": {"text": "🥣 Grieß"}, "right": {"text": "4 g"} },
+          { "left": {"text": "🍬 Zucker"}, "right": {"text": "5 g"} },
+          { "left": {"text": "🧈 Butter"}, "right": {"text": "7 g"} }
+        ],
+        "memory": false,
+        "explanation": "Leichte Pulver wie Backpulver wiegen am wenigsten. Butter ist schwer und dicht, sie wiegt am meisten. Zucker liegt dazwischen, genau wie Mehl, Salz und Flüssigkeiten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥄 Richtwerte: Wie viel wiegt 1 gestrichener Esslöffel (EL)? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🌾 Mehl"}, "right": {"text": "10 g"} },
+          { "left": {"text": "🥣 Grieß"}, "right": {"text": "12 g"} },
+          { "left": {"text": "🍬 Zucker"}, "right": {"text": "15 g"} },
+          { "left": {"text": "🧈 Butter"}, "right": {"text": "20 g"} }
+        ],
+        "memory": false,
+        "explanation": "Die Reihenfolge ist wie beim Teelöffel: Mehl ist leicht, Butter ist schwer. Grieß und Zucker liegen dazwischen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧂 Wie viel Gramm wiegt 1 gestrichener Esslöffel Salz ungefähr?",
+        "answer": 15,
+        "hint": "Salz wiegt pro Löffel genauso viel wie Zucker.",
+        "explanation": "1 gestrichener EL Salz wiegt etwa 15 g, genau wie Zucker. Das ist ein Richtwert, denn Löffel sind unterschiedlich groß."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌽 Wie viel Gramm wiegt 1 gestrichener Esslöffel Speisestärke ungefähr?",
+        "answer": 10,
+        "hint": "Speisestärke wiegt pro Löffel genauso viel wie Backpulver und Mehl.",
+        "explanation": "1 gestrichener EL Speisestärke wiegt etwa 10 g. Genauso viel wiegen Backpulver und Mehl."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💧 Wie viele Esslöffel Flüssigkeit sind 100 ml?",
+        "answer": 7,
+        "hint": "1 EL sind 15 ml.\n6 EL sind 90 ml.\nWie viele EL brauchst du ungefähr für 100 ml?",
+        "explanation": "7 EL Flüssigkeit sind 100 ml. Genau gerechnet wären 7 × 15 ml = 105 ml. Das ist ein Richtwert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Du gibst 1 gestrichenen Esslöffel Milch in den Teig. Wie viel ist das?",
+        "options": [
+          { "text": "15 g, das sind 15 ml.", "correct": true },
+          { "text": "10 g, das sind 10 ml." },
+          { "text": "20 g, das sind 20 ml." }
+        ],
+        "explanation": "1 EL Flüssigkeit wie Milch, Sahne oder Essig wiegt 15 g. Das sind 15 ml. 1 TL Flüssigkeit sind 5 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Auf deinem Blatt steht: 1 gestrichener TL entspricht 5 bis 7 g. Für welche Zutat passt diese Faustregel nicht?",
+        "options": [
+          { "text": "Für Backpulver, 1 TL wiegt nur etwa 3 g.", "correct": true },
+          { "text": "Für Zucker, 1 TL wiegt etwa 5 g." },
+          { "text": "Für Butter, 1 TL wiegt etwa 7 g." }
+        ],
+        "explanation": "Die Faustregel vom Blatt passt für Zucker, Mehl, Salz, Flüssigkeiten und Butter. Leichte Pulver wie Backpulver und Speisestärke wiegen weniger, nur etwa 3 g. Darum gibt es Richtwerte je Lebensmittel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Du brauchst 40 g Butter. Du hast nur einen Esslöffel. Wie viele gestrichene EL nimmst du?",
+        "options": [
+          { "text": "2 EL", "correct": true },
+          { "text": "4 EL" },
+          { "text": "3 EL" }
+        ],
+        "explanation": "1 gestrichener EL Butter wiegt etwa 20 g. 40 geteilt durch 20 ergibt 2. Also nimmst du 2 EL Butter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Wofür steht die Abkürzung TL?",
+        "options": [
+          { "text": "Teelöffel.", "correct": true },
+          { "text": "Tassenlöffel." },
+          { "text": "Teigliter." }
+        ],
+        "explanation": "TL heißt Teelöffel, EL heißt Esslöffel. Der Teelöffel ist der kleine Löffel."
+      }
+    }
+  ]
+}

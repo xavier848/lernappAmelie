@@ -1,0 +1,103 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-saettigung",
+  "title": "Sattwerden braucht Zeit",
+  "sort": 591,
+  "intro": "🕰️ Wer bewusst isst, spürt besser, wann er satt ist. Dieses Sättigungsempfinden regelt kurzfristig, wie viel du isst. Gesteuert wird das durch Hunger und Sättigung.\n\nHunger ist ein inneres Signal. Es regt dich an zu essen. Hast du genug gegessen, tritt Sättigung ein. Dieses Gefühl kommt aber erst 15 bis 20 Minuten nach dem Beginn der Mahlzeit. Wer langsam isst, merkt es rechtzeitig. Das wirkt gegen Schnellessen und Vielessen.\n\nDie wichtigsten Sättigungssignale sind: die Füllung des Magens, der sich dabei dehnt, und die Zusammensetzung des Speisebreis. Auch Signale aus der Umwelt spielen eine Rolle, zum Beispiel der Geruch.\n\nDie Nahrungsaufnahme steuert ein Teil des Zwischenhirns: der Hypothalamus. Er regelt, wie viel du kurzfristig isst. Dort laufen noch zwei Informationen zusammen: Wie groß ist der Glycogenvorrat? Das ist der kurzfristige Energiespeicher. Und wie groß sind die Fettdepots? Das sind die langfristigen Energiereserven. Beides vergleicht der Körper ständig mit dem Energieverbrauch. So regelt er, wie viel du langfristig isst.\n\nMERKE: Sattwerden braucht Zeit. Iss langsam und bewusst.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was ist Hunger?",
+        "options": [
+          { "text": "Ein inneres Signal, das dich zum Essen anregt.", "correct": true },
+          { "text": "Ein Gefühl, das erst nach dem Essen kommt." },
+          { "text": "Ein Signal, das nur morgens im Magen entsteht." }
+        ],
+        "explanation": "Hunger ist ein inneres Signal. Er sagt dir: Iss etwas. Nach dem Essen kommt dagegen die Sättigung."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Nach wie vielen Minuten setzt das Sättigungsgefühl frühestens ein, gerechnet ab dem Beginn der Mahlzeit?",
+        "answer": 15,
+        "hint": "Das Sättigungsgefühl kommt 15 bis 20 Minuten nach Beginn der Mahlzeit. Gefragt ist die kleinere Zahl.",
+        "explanation": "Die Sättigung setzt erst 15 bis 20 Minuten nach Beginn der Mahlzeit ein. Frühestens also nach 15 Minuten. Deshalb braucht Sattwerden Zeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 Du isst in 5 Minuten einen großen Teller leer und hast noch Hunger. Warum?",
+        "options": [
+          { "text": "Das Sättigungsgefühl ist noch gar nicht da.", "correct": true },
+          { "text": "Dein Magen ist für so eine Portion zu klein." },
+          { "text": "Du hast zu wenig Fett im Essen gehabt." }
+        ],
+        "explanation": "Wer schnell isst, isst oft zu viel. Das Sättigungsgefühl kommt verzögert. Langsames, bewusstes Essen wirkt gegen Schnellessen und Vielessen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📡 Welches sind die wichtigsten Sättigungssignale?",
+        "options": [
+          { "text": "Die Magenfüllung und die Zusammensetzung des Speisebreis", "correct": true },
+          { "text": "Die Uhrzeit und die Größe des Tellers auf dem Esstisch" },
+          { "text": "Die Farbe und die Temperatur des Essens auf dem Teller" }
+        ],
+        "explanation": "Ist der Magen gefüllt, dehnt er sich. Das ist ein wichtiges Signal. Auch die Zusammensetzung des Speisebreis meldet dem Körper, ob er satt ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Auch Signale aus der Umwelt beeinflussen die Sättigung. Was ist ein Beispiel?",
+        "options": [
+          { "text": "Der Geruch", "correct": true },
+          { "text": "Die Blutgruppe" },
+          { "text": "Die Körpergröße" }
+        ],
+        "explanation": "Neben den Signalen aus dem Körper wirken auch Signale aus der Umwelt, zum Beispiel der Geruch des Essens. Blutgruppe und Körpergröße sind keine Umweltsignale."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧠 Welcher Teil des Gehirns steuert die Nahrungsaufnahme?",
+        "options": [
+          { "text": "Der Hypothalamus im Zwischenhirn", "correct": true },
+          { "text": "Das Kleinhirn hinten am Hinterkopf" },
+          { "text": "Die Nerven in der Zunge" }
+        ],
+        "explanation": "Die Nahrungsaufnahme wird vom Hypothalamus gesteuert. Er ist ein Bereich des Zwischenhirns. Er regelt die kurzfristige und die langfristige Nahrungsaufnahme."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔋 Energiespeicher und Regulation: Was gehört zusammen? Verbinde.",
+        "explanation": "Kurzfristig sagen dir Hunger und Sättigung, wann du aufhörst. Langfristig vergleicht der Körper seine Speicher, also Glycogen und Fettdepots, mit dem Energieverbrauch.",
+        "pairs": [
+          { "left": {"text": "⚡ Glycogenvorrat"}, "right": {"text": "Kurzfristiger Energiespeicher"} },
+          { "left": {"text": "🧈 Fettdepots"}, "right": {"text": "Langfristige Energiereserven"} },
+          { "left": {"text": "🍽️ Hunger und Sättigung"}, "right": {"text": "Regeln, wie viel du jetzt isst"} },
+          { "left": {"text": "⚖️ Speicher mit dem Verbrauch vergleichen"}, "right": {"text": "Regelt, wie viel du auf Dauer isst"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was bedeutet „Sattwerden braucht Zeit“?",
+        "options": [
+          { "text": "Das Sattgefühl kommt verzögert, darum isst du langsam.", "correct": true },
+          { "text": "Man muss mindestens eine ganze Stunde lang am Tisch sitzen." },
+          { "text": "Man wird nur satt, wenn man das Essen lange kocht." }
+        ],
+        "explanation": "Weil das Sättigungsgefühl erst nach einiger Zeit kommt, lohnt es sich, langsam und bewusst zu essen. So isst du nicht mehr, als du brauchst."
+      }
+    }
+  ]
+}

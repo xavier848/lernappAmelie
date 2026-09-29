@@ -1,0 +1,147 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-menuegedeck-1-3-gaenge",
+  "title": "Menügedecke: 1 bis 3 Gänge",
+  "sort": 575,
+  "intro": "🍽️ Für Mittagessen oder Abendessen deckst du je nach Speisefolge, Umfang und Anlass ein. Die Basis ist immer das Grundgedeck. Ein Gang ist ein Teil des Menüs, zum Beispiel die Suppe.\n\nMERKE: Die Stufen heißen: Grundgedeck (1 Gang), erweitertes Grundgedeck (2 Gänge), Grundmenü (3 Gänge), Menügedeck (4 oder 5 Gänge) und Festmenü (6 oder mehr Gänge).\n\nGrundgedeck für einen Gang, zum Beispiel den Hauptgang am Mittag oder ein Abendessen: Die Mundserviette oder der Platzteller ist der Mittelpunkt des Gedecks. Der Platzteller schließt mit der Tischkante ab. Ohne Platzteller steht der Teller daumenbreit vom Tischrand, also 1 bis 2 cm. Das Besteck liegt auch daumenbreit von der Tischkante. Das Tafelmesser, also das große Messer, liegt rechts, die Schneide zeigt zum Teller. Die Tafelgabel, also die große Gabel, liegt links.\n\nErweitertes Grundgedeck für zwei Gänge, Suppe und Hauptgang: Dazu kommt der Suppenlöffel rechts neben dem Tafelmesser. Er hat den gleichen Abstand zur Tischkante wie das Tafelmesser. Das Glas für das Getränk zum Hauptgang heißt Richtglas. Es steht 1 bis 2 cm oberhalb des Tafelmessers.\n\nGrundmenü für drei Gänge, Suppe, Hauptgang und Dessert: Dazu kommt ein Glas für die Vorspeise. Es steht vor dem Richtglas, also näher zum Gast. Das Dessertbesteck liegt oberhalb des Platztellers oder Tellers. Die Dessertgabel liegt mit dem Griff nach links, der Dessertlöffel mit dem Griff nach rechts. Statt Dessertgabel geht auch eine Kuchengabel, statt Dessertlöffel ein Kaffeelöffel.\n\nMERKE: Besteck und Geschirr an gegenüberliegenden Plätzen bilden eine Linie.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Wie heißt das Gedeck für wie viele Gänge? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Grundgedeck"}, "right": {"text": "1 Gang"} },
+          { "left": {"text": "Erweitertes Grundgedeck"}, "right": {"text": "2 Gänge"} },
+          { "left": {"text": "Grundmenü"}, "right": {"text": "3 Gänge"} },
+          { "left": {"text": "Menügedeck"}, "right": {"text": "4 oder 5 Gänge"} },
+          { "left": {"text": "Festmenü"}, "right": {"text": "6 oder mehr Gänge"} }
+        ],
+        "explanation": "Die Namen bauen aufeinander auf: Das Grundgedeck ist die Basis. Erweitert kommt die Suppe dazu. Beim Grundmenü kommt das Dessert dazu. Ab 4 Gängen spricht man vom Menügedeck, ab 6 Gängen vom Festmenü."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Was kommt auf welcher Stufe dazu? Sortiere.",
+        "buckets": [
+          { "id": "grund", "label": "Grundgedeck", "icon": "1️⃣" },
+          { "id": "erweitert", "label": "Erweitertes Grundgedeck", "icon": "2️⃣" },
+          { "id": "menue", "label": "Grundmenü", "icon": "3️⃣" }
+        ],
+        "items": [
+          { "text": "Tafelmesser", "bucket": "grund" },
+          { "text": "Tafelgabel", "bucket": "grund" },
+          { "text": "Platzteller", "bucket": "grund" },
+          { "text": "Suppenlöffel", "bucket": "erweitert" },
+          { "text": "Richtglas", "bucket": "erweitert" },
+          { "text": "Glas für die Vorspeise", "bucket": "menue" },
+          { "text": "Dessertgabel", "bucket": "menue" },
+          { "text": "Dessertlöffel", "bucket": "menue" }
+        ],
+        "explanation": "Frag dich: Für welchen Gang ist das Teil? Messer, Gabel und Platzteller sind für den Hauptgang, also die Basis. Der Suppenlöffel kommt mit der Suppe. Das Dessertbesteck kommt mit dem Dessert, dazu ein weiteres Glas."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Was ist beim Grundgedeck der Mittelpunkt?",
+        "options": [
+          { "text": "Die Mundserviette oder der Platzteller.", "correct": true },
+          { "text": "Das Richtglas über dem Tafelmesser." },
+          { "text": "Die Tafelgabel links neben dem Teller." },
+          { "text": "Das Dessertbesteck oberhalb des Tellers." }
+        ],
+        "explanation": "Mittelpunkt des Gedecks sind die Mundserviette oder der Platzteller. Von dort aus legst du rechts und links das Besteck und stellst das Glas ein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📏 Wie weit ist was entfernt? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Platzteller"}, "right": {"text": "Schließt mit der Tischkante ab"} },
+          { "left": {"text": "Teller ohne Platzteller"}, "right": {"text": "1 bis 2 cm vom Tischrand"} },
+          { "left": {"text": "Richtglas"}, "right": {"text": "1 bis 2 cm oberhalb des Tafelmessers"} }
+        ],
+        "explanation": "Nur der Platzteller geht bis an die Tischkante. Ein normaler Teller und das Besteck stehen daumenbreit davon entfernt. Das Richtglas steht knapp über der Messerspitze."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "↔️ Du deckst zwei Plätze, die sich gegenüberliegen. Was gilt?",
+        "options": [
+          { "text": "Besteck und Geschirr bilden eine Linie.", "correct": true },
+          { "text": "Jeder Platz darf etwas anders aussehen." },
+          { "text": "Gegenüber liegt das Messer immer links." },
+          { "text": "Die Teller stehen versetzt, nicht gegenüber." }
+        ],
+        "explanation": "An gegenüberliegenden Plätzen bilden Besteck und Geschirr eine Linie. Das sieht ordentlich aus. Für jeden Gast liegt das Messer von ihm aus rechts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Wie weit liegt der Suppenlöffel von der Tischkante?",
+        "options": [
+          { "text": "Genauso weit wie das Tafelmesser.", "correct": true },
+          { "text": "Etwas höher als das Messer, also versetzt." },
+          { "text": "Ganz vorne, direkt an der Tischkante." },
+          { "text": "Oberhalb des Tellers, wie das Dessertbesteck." }
+        ],
+        "explanation": "Der Suppenlöffel liegt rechts außen neben dem Tafelmesser. Er hat den gleichen Abstand zur Tischkante wie das Messer, also daumenbreit. So bilden die Enden eine gerade Linie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍷 Was ist das Richtglas?",
+        "options": [
+          { "text": "Das Glas für das Getränk zum Hauptgang.", "correct": true },
+          { "text": "Das Glas für das Getränk zur Vorspeise." },
+          { "text": "Das Glas für das Getränk zum Dessert." },
+          { "text": "Das Glas für das Wasser zur Suppe." }
+        ],
+        "explanation": "Das Richtglas gehört zum Hauptgang. Nach ihm richten sich die anderen Gläser. Darum heißt es Richtglas. Es steht 1 bis 2 cm oberhalb des Tafelmessers."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥂 Beim Grundmenü kommt ein Glas für die Vorspeise dazu. Wo steht es?",
+        "options": [
+          { "text": "Vor dem Richtglas, also näher zum Gast.", "correct": true },
+          { "text": "Hinter dem Richtglas, also weiter weg vom Gast." },
+          { "text": "Links oberhalb der Tafelgabel." },
+          { "text": "Oberhalb des Tellers beim Dessertbesteck." }
+        ],
+        "explanation": "Die Vorspeise kommt zuerst. Darum steht ihr Glas vor dem Richtglas, also näher zum Gast. Alle Gläser stehen rechts oben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍮 Wie liegt das Dessertbesteck?",
+        "options": [
+          { "text": "Oberhalb des Tellers: Gabelgriff nach links, Löffelgriff nach rechts.", "correct": true },
+          { "text": "Oberhalb des Tellers: Gabelgriff nach rechts, Löffelgriff nach links." },
+          { "text": "Oberhalb des Tellers: beide Griffe zeigen nach rechts." },
+          { "text": "Rechts neben dem Suppenlöffel, ganz außen." }
+        ],
+        "explanation": "Das Dessertbesteck liegt quer oberhalb des Platztellers oder Tellers. Die Dessertgabel zeigt mit dem Griff nach links, der Dessertlöffel mit dem Griff nach rechts. So greift der Gast die Gabel mit links und den Löffel mit rechts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Du hast keine Dessertgabeln und keine Dessertlöffel mehr. Was nimmst du stattdessen?",
+        "options": [
+          { "text": "Kuchengabel und Kaffeelöffel.", "correct": true },
+          { "text": "Tafelgabel und Suppenlöffel." },
+          { "text": "Fischgabel und Mokkalöffel." }
+        ],
+        "explanation": "Die Alternative zur Dessertgabel ist die Kuchengabel. Die Alternative zum Dessertlöffel ist der Kaffeelöffel. Beide sind ähnlich klein."
+      }
+    }
+  ]
+}

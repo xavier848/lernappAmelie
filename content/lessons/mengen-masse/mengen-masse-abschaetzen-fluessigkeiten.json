@@ -1,0 +1,121 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-abschaetzen-fluessigkeiten",
+  "title": "Abschätzen und Flüssigkeitsmaße",
+  "sort": 622,
+  "intro": "🧈 Abschätzen heißt: Du teilst eine Menge mit dem Auge ein, ohne Waage. Das geht gut bei Packungen, die noch nicht angebrochen sind. Zum Beispiel bei Butter, Margarine oder Frischkäse. Es geht auch bei anderen festen Stücken, die sich gut schneiden lassen. Zum Beispiel bei Marzipan-Rohmasse, Schokolade oder Käse.\n\nMERKE: Abschätzen ist ungenau. Du schätzt nur bei Rezepten, die leichte Abweichungen vertragen. Zum Beispiel bei einer Käsesoße oder bei einer Marzipanfüllung.\n\nSo hilfst du dir bei einer 250-g-Packung Butter oder Margarine: Die Hälfte sind 125 g. Ein Viertel sind 62,5 g. Ein Achtel sind ungefähr 30 g.\n\nEine Tafel Schokolade wiegt 100 g. Die Hälfte sind 50 g. Ein Fünftel sind 20 g.\n\nFlüssigkeiten misst du in Litern (l), Millilitern (ml) oder Zentilitern (cl). Statt ml steht manchmal ccm. Das ist dasselbe. 1 cl sind 10 ml. 1 Liter sind 100 cl oder 1000 ml.\n\nDie wichtigsten Werte: 2 cl = 20 ml. Das ist 1 Schnapsglas. 10 cl = 100 ml = 1/10 l. 12,5 cl = 125 ml = ⅛ l. 25 cl = 250 ml = ¼ l. 37,5 cl = 375 ml = ⅜ l. 50 cl = 500 ml = ½ l. 75 cl = 750 ml = ¾ l. 100 cl = 1000 ml = 1 l.\n\nMERKE: Von Zentiliter zu Milliliter rechnest du mal 10.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Wofür eignet sich das Abschätzen ohne Waage?",
+        "options": [
+          { "text": "Für ungeöffnete Butterpackungen und feste Stücke wie Schokolade.", "correct": true },
+          { "text": "Für Mehl und Zucker aus einer schon offenen und halb leeren Tüte." },
+          { "text": "Für Milch und Sahne, die du aus einem großen Karton gießt." }
+        ],
+        "explanation": "Abschätzen klappt, wenn die Menge eine feste, bekannte Form hat. Eine ungeöffnete 250-g-Butter kannst du gut einteilen. Bei losem Mehl oder bei Flüssigkeiten geht das nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Abschätzen ist ungenau. Bei welchem Rezept darfst du trotzdem schätzen?",
+        "options": [
+          { "text": "Bei einer Marzipanfüllung.", "correct": true },
+          { "text": "Beim Backpulver für einen Rührkuchen." },
+          { "text": "Bei der Milch für einen Hefeteig." }
+        ],
+        "explanation": "Du schätzt nur bei Rezepten, die leichte Abweichungen vertragen. Das sind zum Beispiel Käsesoße und Marzipanfüllungen. Backpulver und Milch sind außerdem keine festen Stücke. Die misst du ab."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧈 Du teilst eine ungeöffnete 250-g-Packung Butter. Wie viel Gramm sind das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "½ Packung"}, "right": {"text": "125 g"} },
+          { "left": {"text": "¼ Packung"}, "right": {"text": "62,5 g"} },
+          { "left": {"text": "⅛ Packung"}, "right": {"text": "ungefähr 30 g"} }
+        ],
+        "memory": false,
+        "explanation": "Du halbierst immer weiter: 250 g, dann 125 g, dann 62,5 g. Die Hälfte davon sind gut 31 g, also ungefähr 30 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍫 Eine Tafel Schokolade wiegt 100 g. Du brichst sie in der Mitte durch. Wie viel Gramm hat eine Hälfte?",
+        "answer": 50,
+        "hint": "100 geteilt durch 2 = ?",
+        "explanation": "100 g geteilt durch 2 sind 50 g. Die Tafel lässt sich gut abschätzen, weil sie eine feste Form hat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍫 Du brauchst 20 g von einer 100-g-Tafel Schokolade. Welcher Teil der Tafel ist das?",
+        "options": [
+          { "text": "Ein Fünftel.", "correct": true },
+          { "text": "Ein Viertel." },
+          { "text": "Ein Zehntel." }
+        ],
+        "explanation": "100 g geteilt durch 5 sind 20 g. Also sind 20 g ein Fünftel der Tafel. Ein Viertel wären 25 g, ein Zehntel 10 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥃 Wie rechnest du Zentiliter (cl) in Milliliter (ml) um?",
+        "options": [
+          { "text": "Mal 10.", "correct": true },
+          { "text": "Mal 100." },
+          { "text": "Geteilt durch 10." }
+        ],
+        "explanation": "1 cl sind 10 ml. Darum rechnest du von cl zu ml mal 10. Zum Beispiel: 2 cl sind 20 ml."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥛 Wie viel Liter sind das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "10 cl"}, "right": {"text": "1/10 l"} },
+          { "left": {"text": "12,5 cl"}, "right": {"text": "⅛ l"} },
+          { "left": {"text": "25 cl"}, "right": {"text": "¼ l"} },
+          { "left": {"text": "37,5 cl"}, "right": {"text": "⅜ l"} },
+          { "left": {"text": "75 cl"}, "right": {"text": "¾ l"} }
+        ],
+        "memory": false,
+        "explanation": "1 Liter sind 100 cl. Ein Viertel davon sind 25 cl. Die Hälfte von 25 cl sind 12,5 cl, das ist ein Achtel. Drei Achtel sind 3 × 12,5 cl = 37,5 cl."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍶 Wie viele Milliliter sind 37,5 cl?",
+        "answer": 375,
+        "hint": "1 cl = 10 ml.\n37,5 × 10 = ?",
+        "explanation": "37,5 cl mal 10 sind 375 ml. Das ist ⅜ Liter."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍾 Wie viele Zentiliter sind 1 Liter?",
+        "answer": 100,
+        "hint": "Zenti bedeutet: der hundertste Teil.",
+        "explanation": "1 Liter sind 100 cl. Das sind 1000 ml."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥃 Ein Schnapsglas fasst 2 cl. Wie viele Milliliter sind das?",
+        "answer": 20,
+        "hint": "1 cl = 10 ml.\n2 × 10 = ?",
+        "explanation": "2 cl sind 20 ml. Das ist genau ein Schnapsglas."
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-vollkorn-ballaststoffe",
+  "title": "Vollkorn: So wirken Ballaststoffe",
+  "sort": 585,
+  "intro": "🌾 Vollkornerzeugnisse enthalten mehr Ballaststoffe. Die wirken auf dem ganzen Weg durch den Körper günstig. Der Richtwert: mindestens 30 g Ballaststoffe am Tag.\n\nIm Mund: Vollkornbrot kaust du länger und kräftiger. Das regt die Speichelsekretion an, also die Bildung von Speichel. Das hilft, die Zähne gesund zu erhalten.\n\nIm Magen: Wasserunlösliche Ballaststoffe binden Wasser und füllen den Magen. Der Speisebrei geht langsamer in den Dünndarm. Du bist länger satt. Das hilft gegen Übergewicht.\n\nIm Dünndarm: Es dauert länger, bis die Nährstoffe frei werden. Die Kohlenhydrate werden langsamer ins Blut aufgenommen, man sagt: Die Resorption wird verzögert. Der Blutzucker steigt weniger stark und bleibt gleichmäßiger. Das hilft besonders Menschen mit Diabetes.\n\nIm Dickdarm: Bakterien bauen die wasserlöslichen Ballaststoffe ab. Dabei entstehen Gase, die eher unangenehm sind. Und es entstehen kurzkettige Fettsäuren, die die Darmschleimhaut schützen. Die nicht wasserlöslichen Ballaststoffe, vor allem aus Getreide, halten das Wasser fest. So wird der Speisebrei zügig weitertransportiert. Sie regen die Peristaltik an. Peristaltik sind die wellenförmigen Bewegungen des Darms, die die Stuhlentleerung ermöglichen. So beugen Ballaststoffe einer Verstopfung vor. Das Fachwort für Verstopfung ist Obstipation.\n\nAußerdem senken Ballaststoffe den Cholesterinspiegel im Blut. Ein Nachteil: Sie binden manche Mineralstoffe, zum Beispiel Calcium. Dann kann der Körper diese schlechter aufnehmen. Insgesamt überwiegen die Vorteile aber bei Weitem.\n\nMERKE: Ballaststoffe machen satt, halten den Blutzucker gleichmäßig und bringen den Darm in Schwung.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👄 Du isst Vollkornbrot. Was passiert schon im Mund?",
+        "options": [
+          { "text": "Du kaust länger, das regt den Speichel an und hilft den Zähnen.", "correct": true },
+          { "text": "Der Speichel verdaut die Ballaststoffe sofort ganz und gar im Mund." },
+          { "text": "Das Brot wird im Mund zu Zucker und schadet so den Zähnen." }
+        ],
+        "explanation": "Vollkornbrot muss man intensiver kauen. Dabei bildet sich mehr Speichel. Das hilft, die Zähne gesund zu erhalten. Ballaststoffe selbst kann der Körper nicht verdauen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫃 Warum macht Vollkorn im Magen länger satt?",
+        "options": [
+          { "text": "Ballaststoffe binden Wasser, füllen den Magen, der Brei geht langsamer weiter.", "correct": true },
+          { "text": "Vollkornbrot enthält viel mehr Fett als Weißbrot und liegt deshalb schwer im Magen." },
+          { "text": "Vollkorn bleibt einen ganzen Tag lang im Magen liegen und wird dort gar nicht verdaut." }
+        ],
+        "explanation": "Wasserunlösliche Ballaststoffe binden Wasser und füllen den Magen. Der Speisebrei geht langsamer in den Dünndarm. Das Sättigungsgefühl hält länger an. Das wirkt gegen Übergewicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩸 Warum ist Vollkorn für Menschen mit Diabetes gut?",
+        "options": [
+          { "text": "Die Kohlenhydrate gehen langsamer ins Blut, der Blutzucker bleibt gleichmäßiger.", "correct": true },
+          { "text": "Vollkorn enthält überhaupt keine Kohlenhydrate und damit auch keinen Zucker." },
+          { "text": "Vollkorn senkt den Blutzucker sofort auf null, darum braucht man keine Medikamente." }
+        ],
+        "explanation": "Im Dünndarm dauert es länger, bis die Nährstoffe frei werden. Die Kohlenhydrate werden verzögert resorbiert. Der Blutzucker steigt weniger stark an. Davon profitieren besonders Diabetiker."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💧 Was machen die Ballaststoffe im Dickdarm? Sortiere.",
+        "explanation": "Merke dir: Die wasserlöslichen Ballaststoffe werden von Bakterien abgebaut. Dabei entstehen Gase und kurzkettige Fettsäuren. Die nicht wasserlöslichen behalten ihr Wasser. So bleibt der Speisebrei weich und wird zügig weiterbewegt.",
+        "buckets": [
+          { "id": "los", "label": "Wasserlösliche Ballaststoffe", "icon": "💧" },
+          { "id": "unlos", "label": "Nicht wasserlösliche Ballaststoffe", "icon": "🌾" }
+        ],
+        "items": [
+          { "text": "Werden von Bakterien abgebaut", "bucket": "los" },
+          { "text": "Dabei entstehen Gase", "bucket": "los" },
+          { "text": "Dabei entstehen kurzkettige Fettsäuren", "bucket": "los" },
+          { "text": "Halten das aufgenommene Wasser fest", "bucket": "unlos" },
+          { "text": "Stammen besonders aus Getreide", "bucket": "unlos" },
+          { "text": "Sorgen für zügigen Transport des Speisebreis", "bucket": "unlos" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Beim Abbau der Ballaststoffe im Dickdarm entstehen kurzkettige Fettsäuren. Wozu sind sie gut?",
+        "options": [
+          { "text": "Sie schützen die Darmschleimhaut.", "correct": true },
+          { "text": "Sie machen den Stuhl ganz hart." },
+          { "text": "Sie liefern Calcium für die Knochen." }
+        ],
+        "explanation": "Die kurzkettigen Fettsäuren schützen die Darmschleimhaut. Die Gase, die dabei auch entstehen, sind dagegen eher unangenehm."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Fachwörter rund um die Verdauung. Verbinde.",
+        "explanation": "Diese Fachwörter brauchst du, um die Wirkung der Ballaststoffe zu erklären. Die Peristaltik ermöglicht die Stuhlentleerung. Ballaststoffe regen sie an und wirken so gegen Obstipation.",
+        "pairs": [
+          { "left": {"text": "〰️ Peristaltik"}, "right": {"text": "Wellenförmige Bewegungen des Darms"} },
+          { "left": {"text": "🚽 Obstipation"}, "right": {"text": "Verstopfung"} },
+          { "left": {"text": "💦 Speichelsekretion"}, "right": {"text": "Bildung von Speichel"} },
+          { "left": {"text": "🩸 Resorption"}, "right": {"text": "Aufnahme der Nährstoffe ins Blut"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙁 Ein Kollege hat oft Verstopfung. Was hilft laut Buch?",
+        "options": [
+          { "text": "Ballaststoffreich essen, zum Beispiel Vollkornbrot.", "correct": true },
+          { "text": "Weniger trinken, damit der Stuhl endlich fester wird." },
+          { "text": "Mehr Weißbrot essen, weil es leichter verdaulich ist." }
+        ],
+        "explanation": "Die nicht wasserlöslichen Ballaststoffe halten Wasser fest und regen die Darmbewegung an. So wirkt eine ballaststoffreiche Ernährung einer Verstopfung entgegen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Ballaststoffe haben auch einen Nachteil. Welchen?",
+        "options": [
+          { "text": "Sie binden Mineralstoffe wie Calcium, der Körper nimmt sie schlechter auf.", "correct": true },
+          { "text": "Sie erhöhen den Cholesterinspiegel im Blut sehr stark und auf lange Zeit." },
+          { "text": "Sie lassen den Blutzucker nach dem Essen sehr schnell ansteigen." }
+        ],
+        "explanation": "Ballaststoffe binden bestimmte Stoffe, zum Beispiel Calcium. Dann wird weniger davon aufgenommen. Den Cholesterinspiegel senken Ballaststoffe dagegen, und der Blutzucker steigt langsamer."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌾 Wie viele Gramm Ballaststoffe solltest du am Tag mindestens essen?",
+        "answer": 30,
+        "hint": "Es ist eine runde Zahl zwischen 20 und 40.",
+        "explanation": "Der Richtwert für Ballaststoffe lautet: mindestens 30 g pro Tag. Vollkornprodukte, Gemüse, Obst und Hülsenfrüchte helfen dir, das zu schaffen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Überwiegen bei Ballaststoffen die Vorteile oder die Nachteile?",
+        "options": [
+          { "text": "Die Vorteile, und zwar bei Weitem.", "correct": true },
+          { "text": "Die Nachteile, weil im Darm Gase entstehen." },
+          { "text": "Beides ist genau gleich groß." }
+        ],
+        "explanation": "Ballaststoffe machen satt, halten den Blutzucker gleichmäßig, schützen den Darm und senken den Cholesterinspiegel. Bei unserer Ernährung im Überfluss überwiegen die Vorteile bei Weitem."
+      }
+    }
+  ]
+}

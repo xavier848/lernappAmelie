@@ -1,0 +1,145 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-annuitaet-tilgung",
+  "title": "Annuität oder Tilgung?",
+  "sort": 717,
+  "intro": "📊 Ein Darlehen zahlst du in Raten zurück. Jede Rate hat zwei Teile: Zinsen und Tilgung. Tilgung heißt: Du zahlst einen Teil vom geliehenen Geld zurück. Dadurch werden deine Schulden kleiner.\n\nEs gibt zwei Arten der Rückzahlung. Beim Annuitätendarlehen zahlst du jedes Jahr gleich viel. Mit der Zeit wird der Zinsanteil kleiner und der Tilgungsanteil größer. Diese Art wird empfohlen.\n\nBeim Tilgungsdarlehen tilgst du jedes Jahr den gleichen Betrag. Die Zinsen werden jedes Jahr weniger. Deshalb ist die Rate am Anfang besonders hoch. Danach sinkt sie Jahr für Jahr. Das passt meist nicht zum Einkommen. Denn das Einkommen steigt meist mit den Jahren. Später könnte man also eher mehr zahlen.\n\nEin Beispiel: 12.000 € Darlehen, 5 % effektiver Jahreszins, 7 Jahre. Im ersten Jahr kosten die Zinsen bei beiden Arten 600 €. Denn 5 % von 12.000 € sind 600 €.\n\nAnnuitätendarlehen: Du zahlst jedes Jahr 2.050 €. Im ersten Jahr sind das 600 € Zinsen und 1.450 € Tilgung. Danach schuldest du noch 10.550 €. In 7 Jahren zahlst du 2.544,09 € Zinsen. Am Ende bleibt eine Restschuld von 194,09 €.\n\nTilgungsdarlehen: Du tilgst jedes Jahr 1.714,29 €. Im ersten Jahr zahlst du zusammen 2.314,29 €. Im siebten Jahr sind es nur noch 1.800 €. In 7 Jahren zahlst du 2.400 € Zinsen. Am Ende ist alles bezahlt.\n\nDas Annuitätendarlehen kostet also 144,09 € mehr Zinsen. Dazu kommt die Restschuld von 194,09 €. Zusammen sind das rund 340 € Mehrkosten. Die Restschuld sinkt bei beiden Arten ungefähr gleichmäßig. Der große Unterschied ist, wie viel Geld dem Haushalt jedes Jahr bleibt.\n\nVor- und Nachteile beim Annuitätendarlehen: Die Belastung bleibt gleich. Du musst dich heute nicht stark einschränken. Aber du zahlst etwas mehr Zinsen. Die Einschränkung bleibt über die ganze Laufzeit, außer dein Einkommen steigt. Und wirst du arbeitslos, ist das Risiko größer, dass du nicht mehr zahlen kannst.\n\nVor- und Nachteile beim Tilgungsdarlehen: Du tilgst schnell, dadurch sinken die Zinsen. Später kannst du mehr ausgeben. Die kleineren Raten später senken das Risiko bei Arbeitslosigkeit. Aber in den ersten Jahren ist die Belastung hoch. Dann musst du dich einschränken, zum Beispiel keine Reisen machen.\n\nWelche Art du wählst, hängt von deinen Wünschen für dein Leben ab. Und davon, wie groß das Risiko ist, arbeitslos zu werden.\n\nMERKE: Annuitätendarlehen: jedes Jahr die gleiche Rate. Tilgungsdarlehen: jedes Jahr die gleiche Tilgung, die Rate ist am Anfang hoch und sinkt dann.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Jede Rate für ein Darlehen hat einen Teil Tilgung. Was ist Tilgung?",
+        "options": [
+          { "text": "Du zahlst einen Teil vom geliehenen Geld zurück.", "correct": true },
+          { "text": "Du zahlst der Bank eine Gebühr für die Bearbeitung." },
+          { "text": "Du zahlst nur Zinsen, die Schulden bleiben gleich." }
+        ],
+        "explanation": "Tilgung heißt: Du zahlst geliehenes Geld zurück. Jede Tilgung macht deine Schulden kleiner. Die Zinsen sind dagegen der Preis fürs Leihen. Sie machen die Schulden nicht kleiner."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Annuitätendarlehen oder Tilgungsdarlehen? Sortiere.",
+        "buckets": [
+          { "id": "ann", "label": "Annuitätendarlehen", "icon": "➖" },
+          { "id": "til", "label": "Tilgungsdarlehen", "icon": "📉" }
+        ],
+        "items": [
+          { "text": "Jedes Jahr die gleiche Rate", "bucket": "ann" },
+          { "text": "Zinsanteil sinkt, Tilgungsanteil steigt", "bucket": "ann" },
+          { "text": "Heute keine starken Einschränkungen", "bucket": "ann" },
+          { "text": "Insgesamt etwas mehr Zinsen", "bucket": "ann" },
+          { "text": "Jedes Jahr die gleiche Tilgung", "bucket": "til" },
+          { "text": "Am Anfang die höchste Rate", "bucket": "til" },
+          { "text": "Später mehr Geld für anderes", "bucket": "til" },
+          { "text": "Schnelle Tilgung", "bucket": "til" }
+        ],
+        "explanation": "Frag dich: Was bleibt jedes Jahr gleich? Beim Annuitätendarlehen ist es die ganze Rate. Beim Tilgungsdarlehen ist es nur die Tilgung. Dazu kommen die sinkenden Zinsen, darum ist dort die Rate am Anfang am höchsten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Das Darlehen ist 12.000 € groß. Der effektive Jahreszins ist 5 %. Wie viel Euro Zinsen fallen im ersten Jahr an?",
+        "answer": 600,
+        "hint": "10 % von 12.000 € sind 1.200 €. 5 % sind die Hälfte davon.",
+        "explanation": "5 % von 12.000 € sind 600 €. Rechenweg: 10 % sind 1.200 €, die Hälfte davon sind 600 €. Im ersten Jahr ist das bei beiden Darlehensarten gleich."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💶 Beim Annuitätendarlehen zahlst du jedes Jahr 2.050 €. Im ersten Jahr sind davon 600 € Zinsen. Wie viel Euro sind Tilgung?",
+        "answer": 1450,
+        "hint": "Die Rate besteht aus Zinsen und Tilgung. Rechne 2.050 minus 600.",
+        "explanation": "2.050 € minus 600 € Zinsen sind 1.450 € Tilgung. Nur die Tilgung macht die Schulden kleiner. Jahr für Jahr wird der Zinsanteil kleiner und der Tilgungsanteil größer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏦 Nach dem ersten Jahr: Wie viel schuldest du beim Annuitätendarlehen noch?",
+        "options": [
+          { "text": "10.550 €", "correct": true },
+          { "text": "9.950 €" },
+          { "text": "11.400 €" },
+          { "text": "10.000 €" }
+        ],
+        "explanation": "Die Schulden sinken nur um die Tilgung, nicht um die ganze Rate. 12.000 € minus 1.450 € Tilgung sind 10.550 €. Wer die ganze Rate von 2.050 € abzieht, kommt falsch auf 9.950 €. Die Zinsen tilgen nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Tilgungsdarlehen im Beispiel: Wie entwickelt sich die Zahlung pro Jahr?",
+        "options": [
+          { "text": "Sie sinkt von 2.314,29 € im ersten auf 1.800 € im siebten Jahr.", "correct": true },
+          { "text": "Sie bleibt in allen sieben Jahren gleich bei genau 2.050 €." },
+          { "text": "Sie steigt von 1.800 € im ersten auf 2.314,29 € im siebten Jahr." }
+        ],
+        "explanation": "Beim Tilgungsdarlehen ist die Tilgung jedes Jahr gleich: 1.714,29 €. Die Zinsen werden aber jedes Jahr weniger. Deshalb sinkt die Zahlung: von 2.314,29 € auf 1.800 €. 2.050 € jedes Jahr wäre das Annuitätendarlehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💰 Wie viel Zinsen zahlst du im Beispiel insgesamt, in 7 Jahren?",
+        "options": [
+          { "text": "Annuität 2.544,09 €, Tilgungsdarlehen 2.400 €.", "correct": true },
+          { "text": "Annuität 2.400 €, Tilgungsdarlehen 2.544,09 €." },
+          { "text": "Bei beiden Arten genau gleich viel: 2.400 €." }
+        ],
+        "explanation": "Beim Tilgungsdarlehen tilgst du am Anfang schneller. Darum sinken die Zinsen schneller, und du zahlst insgesamt weniger: 2.400 €. Beim Annuitätendarlehen sind es 2.544,09 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Das Annuitätendarlehen kostet 144,09 € mehr Zinsen. Dazu kommt eine Restschuld von 194,09 €. Wie hoch sind die Mehrkosten ungefähr?",
+        "options": [
+          { "text": "Rund 340 €.", "correct": true },
+          { "text": "Rund 50 €." },
+          { "text": "Rund 144 €." }
+        ],
+        "explanation": "Beide Beträge kommen zusammen: 144,09 € plus 194,09 € sind 338,18 €. Das sind rund 340 € Mehrkosten. Wer 194 minus 144 rechnet, kommt falsch auf 50 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💼 Eine Familie hat Angst, dass bald jemand arbeitslos wird. Welche Rückzahlung senkt dieses Risiko eher?",
+        "options": [
+          { "text": "Das Tilgungsdarlehen, weil die Raten später kleiner werden.", "correct": true },
+          { "text": "Das Annuitätendarlehen, weil die Raten immer gleich bleiben." },
+          { "text": "Beide gleich, denn die Raten spielen dabei keine Rolle." }
+        ],
+        "explanation": "Beim Tilgungsdarlehen werden die Raten jedes Jahr kleiner. Kommt später die Arbeitslosigkeit, sind sie leichter zu zahlen. Beim Annuitätendarlehen bleibt die Rate hoch. Dann ist das Risiko größer, nicht mehr zahlen zu können."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Warum passt das Tilgungsdarlehen oft nicht zum Einkommen?",
+        "options": [
+          { "text": "Das Einkommen steigt meist, aber die Raten sind am Anfang am höchsten.", "correct": true },
+          { "text": "Das Einkommen sinkt meist, aber die Raten steigen jedes Jahr an." },
+          { "text": "Das Einkommen bleibt gleich, aber die Zinsen steigen jedes Jahr." }
+        ],
+        "explanation": "Am Anfang sind die Raten beim Tilgungsdarlehen am höchsten. Das Einkommen ist aber am Anfang meist am niedrigsten und steigt mit den Jahren. Später könnte man also eher mehr zahlen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Welche Art der Rückzahlung wird empfohlen?",
+        "options": [
+          { "text": "Das Annuitätendarlehen.", "correct": true },
+          { "text": "Das Tilgungsdarlehen." },
+          { "text": "Der Ratenkauf im Kaufhaus." }
+        ],
+        "explanation": "Empfohlen wird das Annuitätendarlehen. Die Rate bleibt jedes Jahr gleich. So kannst du gut planen. 🎉"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-lieferungsverzug-annahmeverzug",
+  "title": "Lieferungsverzug und Annahmeverzug",
+  "sort": 707,
+  "intro": "Manchmal läuft ein Kaufvertrag nicht richtig. Beispiel: Ein dringend bestelltes Elektrogerät kommt nicht pünktlich. Und dann funktioniert es auch noch nicht richtig. Welche Rechte haben Käufer und Verkäufer? Hier geht es um die Verspätung. Um Mängel geht es in der nächsten Lektion.\n\nLieferungsverzug heißt: Der Verkäufer liefert nicht pünktlich. Er hält sich nicht an den Vertrag. Das ist ein Vertragsverstoß. Eindeutig ist das, wenn ein fester Liefertermin vereinbart war. Angaben wie „in etwa zwei Wochen“ oder „baldmöglichst“ sind unpräzise.\n\nLiefert der Verkäufer nicht pünktlich, mahnst du ihn schriftlich ab. Am besten per Einschreiben mit Rückschein. Mit dem Rückschein kannst du beweisen, dass er den Brief bekommen hat. Du setzt ihm eine Nachfrist von mindestens 14 Tagen.\n\nLiefert er auch dann nicht, hast du drei Möglichkeiten. Erstens: Du trittst vom Kaufvertrag zurück. Zweitens: Du kaufst bei einem anderen Anbieter. Die Mehrkosten muss der säumige Verkäufer ersetzen. Säumig heißt: zu spät dran. Liefert er danach doch noch, darfst du die Ware ablehnen und trotzdem die Mehrkosten verlangen. Drittens: Du bestehst auf der Lieferung. Mehrkosten, zum Beispiel für den Waschsalon, stellst du ihm in Rechnung.\n\nLiefert der Verkäufer wegen höherer Gewalt nicht, zum Beispiel wegen eines Streiks, trifft ihn keine Schuld. Dann kannst du nur zurücktreten oder auf der Lieferung bestehen. Schadenersatz bekommst du nicht.\n\nAnnahmeverzug heißt: Der Verkäufer liefert pünktlich. Aber der Käufer ist nicht da oder verweigert die Annahme. Jetzt hält sich der Käufer nicht an den Vertrag. Der Vertrag bleibt trotzdem bestehen.\n\nDer Verkäufer hat dann zwei Möglichkeiten. Erstens: Er tritt vom Vertrag zurück und verkauft die Ware an einen anderen Kunden. Das lohnt sich, wenn andere Kunden Interesse haben und noch keine Transportkosten entstanden sind. Zweitens: Er beharrt auf der Erfüllung des Vertrags. Dann geht er in einer festen Reihenfolge vor.\n\nZuerst teilt er dem Käufer per Einschreiben mit Rückschein mit: Die Ware wird auf Kosten des Käufers zwischengelagert und eventuell öffentlich versteigert. Dann erhebt er Klage gegen den Käufer. Zuletzt wird die Ware öffentlich versteigert. Ort und Termin teilt er dem Käufer vorher mit. Bringt die Versteigerung weniger Geld, trägt der Käufer den Verlust.\n\nLeicht verderbliche Ware ist eine Ausnahme. Fällt zum Beispiel ein Fest aus und der Kunde hat das Büfett nicht rechtzeitig storniert, darf der Verkäufer es ohne weitere Ankündigung im Notverkauf verkaufen. Stornieren heißt: eine Bestellung rückgängig machen.\n\nMERKE: Lieferungsverzug = Der Verkäufer liefert zu spät. Du mahnst per Einschreiben ab und setzt eine Nachfrist von mindestens 14 Tagen. Annahmeverzug = Der Käufer nimmt die Ware nicht an. Der Vertrag bleibt bestehen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Wann liegt ein Lieferungsverzug eindeutig vor?",
+        "options": [
+          { "text": "Ein fester Liefertermin war vereinbart und wird nicht eingehalten.", "correct": true },
+          { "text": "Der Verkäufer hat „baldmöglichst“ gesagt und liefert nach einer Woche." },
+          { "text": "Der Verkäufer hat „in etwa zwei Wochen“ gesagt und braucht drei." },
+          { "text": "Die Ware ist pünktlich da, aber der Käufer ist nicht zu Hause." }
+        ],
+        "explanation": "Lieferungsverzug heißt: Der Verkäufer hält sich nicht an den Vertrag und liefert nicht pünktlich. Das ist ein Vertragsverstoß. Eindeutig ist das, wenn ein fester Liefertermin vereinbart war. Angaben wie „in etwa zwei Wochen“ oder „baldmöglichst“ sind unpräzise."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Der Lieferant hat den festen Termin verpasst. Du setzt ihm eine Nachfrist. Wie viele Tage muss sie mindestens dauern?",
+        "answer": 14,
+        "hint": "Es sind zwei Wochen.\nWie viele Tage haben zwei Wochen?",
+        "explanation": "Die Nachfrist beträgt mindestens 14 Tage, also zwei Wochen. So bekommt der Verkäufer eine letzte Chance zu liefern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✉️ Wie mahnst du den säumigen Lieferanten am besten ab?",
+        "options": [
+          { "text": "Schriftlich, am besten per Einschreiben mit Rückschein.", "correct": true },
+          { "text": "Mündlich am Telefon, denn das geht am schnellsten und kostet nichts." },
+          { "text": "Mit einer schlechten Bewertung im Internet." },
+          { "text": "Gar nicht, du wartest einfach weiter ab." }
+        ],
+        "explanation": "Die Abmahnung machst du schriftlich, möglichst per Einschreiben mit Rückschein. Mit dem Rückschein kannst du beweisen, dass der Verkäufer den Brief bekommen hat. Säumig heißt: zu spät dran."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚖️ Die Nachfrist ist vorbei, die Waschmaschine ist immer noch nicht da. Was ist dein Recht? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Du willst die Maschine gar nicht mehr."}, "right": {"text": "Vom Kaufvertrag zurücktreten"} },
+          { "left": {"text": "Du kaufst sie woanders teurer."}, "right": {"text": "Der säumige Verkäufer zahlt die Mehrkosten"} },
+          { "left": {"text": "Du willst genau diese Maschine haben."}, "right": {"text": "Auf der Lieferung bestehen"} },
+          { "left": {"text": "Bis zur Lieferung wäschst du im Waschsalon."}, "right": {"text": "Die Waschsalon-Kosten in Rechnung stellen"} }
+        ],
+        "memory": false,
+        "explanation": "Nach der Nachfrist hast du drei Möglichkeiten: zurücktreten, bei einem anderen Anbieter kaufen oder auf der Lieferung bestehen. Mehrkosten, die durch die Verspätung entstehen, muss der säumige Verkäufer tragen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Du hast nach der Nachfrist woanders gekauft. Jetzt liefert der erste Verkäufer doch noch. Was darfst du?",
+        "options": [
+          { "text": "Die Lieferung ablehnen und die Mehrkosten verlangen.", "correct": true },
+          { "text": "Nichts, du musst die Ware jetzt trotzdem annehmen und bezahlen." },
+          { "text": "Beide Maschinen behalten und keine davon bezahlen." },
+          { "text": "Die Ware annehmen und nur die Hälfte bezahlen." }
+        ],
+        "explanation": "Liefert der säumige Verkäufer nach Ablauf der Nachfrist doch noch, kannst du die Lieferung ablehnen. Die Mehrkosten beim anderen Anbieter muss er dir trotzdem ersetzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪧 Der Lieferant kann wegen eines Streiks nicht liefern. Was gilt?",
+        "options": [
+          { "text": "Ich kann zurücktreten oder warten, bekomme aber keinen Schadenersatz.", "correct": true },
+          { "text": "Ich bekomme vollen Schadenersatz für alle meine Kosten." },
+          { "text": "Ich muss eine neue Nachfrist von einem Jahr setzen." },
+          { "text": "Der Vertrag ist automatisch nichtig." }
+        ],
+        "explanation": "Ein Streik ist höhere Gewalt. Den Verkäufer trifft kein Verschulden. Du kannst vom Vertrag zurücktreten oder auf der Erfüllung bestehen. Schadenersatz bekommst du aber nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Der Lieferant steht pünktlich vor der Tür. Der Käufer ist nicht da. Was gilt?",
+        "options": [
+          { "text": "Das ist Annahmeverzug, der Vertrag bleibt bestehen.", "correct": true },
+          { "text": "Das ist Lieferungsverzug, der Verkäufer ist schuld." },
+          { "text": "Der Vertrag ist damit automatisch aufgelöst." },
+          { "text": "Der Verkäufer darf die Ware und das Geld behalten." }
+        ],
+        "explanation": "Stellt der Verkäufer die Lieferung pünktlich bereit, aber der Käufer ist nicht da oder verweigert die Annahme, heißt das Annahmeverzug. Jetzt hält sich der Käufer nicht an den Vertrag. Der Vertrag bleibt trotzdem bestehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Der Käufer nimmt die Ware nicht an. Wann lohnt es sich für den Verkäufer, zurückzutreten und an einen anderen Kunden zu verkaufen?",
+        "options": [
+          { "text": "Wenn andere Kunden Interesse haben und keine Transportkosten entstanden sind.", "correct": true },
+          { "text": "Nur dann, wenn die Ware schon verdorben ist." },
+          { "text": "Nie, denn der Verkäufer muss in jedem Fall auf der Erfüllung des Vertrags beharren." },
+          { "text": "Nur dann, wenn der Käufer schon bezahlt hat." }
+        ],
+        "explanation": "Bei Annahmeverzug hat der Verkäufer zwei Möglichkeiten. Er kann vom Kaufvertrag zurücktreten und die Ware an einen anderen Kunden verkaufen. Das lohnt sich, wenn andere Kunden Interesse haben und noch keine Transportkosten entstanden sind. Oder er beharrt auf der Erfüllung des Vertrags."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📋 Der Verkäufer beharrt auf Erfüllung des Vertrags. Bringe seine Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Per Einschreiben mitteilen: Die Ware wird auf Kosten des Käufers eingelagert und eventuell versteigert." },
+          { "text": "Klage gegen den Käufer erheben." },
+          { "text": "Dem Käufer Ort und Termin der Versteigerung mitteilen." },
+          { "text": "Die Ware öffentlich versteigern. Fehlt Geld, trägt der Käufer den Verlust." }
+        ],
+        "explanation": "Frag dich: Was muss der Käufer zuerst erfahren? Zuerst bekommt er schriftlich Bescheid, dass die Ware auf seine Kosten gelagert und notfalls versteigert wird. Dann folgt die Klage. Erst danach wird öffentlich versteigert. Ort und Termin erfährt der Käufer vorher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Ein Fest fällt aus. Der Kunde hat das bestellte Büfett nicht rechtzeitig storniert und nimmt es nicht an. Was darf der Caterer?",
+        "options": [
+          { "text": "Das Essen ohne Ankündigung im Notverkauf verkaufen.", "correct": true },
+          { "text": "Das Büfett erst nach einer Klage versteigern lassen." },
+          { "text": "Das Büfett für ein halbes Jahr einlagern." },
+          { "text": "Nichts, er muss das ganze Essen wegwerfen." }
+        ],
+        "explanation": "Leicht verderbliche Ware wie ein Büfett darf der Verkäufer ohne weitere Vorankündigung im Notverkauf verkaufen. Der lange Weg über Einlagerung, Klage und Versteigerung würde zu lange dauern. Stornieren heißt: eine Bestellung rückgängig machen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Das Mittagessen war fest für 12 Uhr bestellt. Der Caterer kommt eine Stunde zu spät. Wie heißt das?",
+        "options": [
+          { "text": "Lieferungsverzug.", "correct": true },
+          { "text": "Annahmeverzug." },
+          { "text": "Notverkauf." }
+        ],
+        "explanation": "Der Verkäufer, hier der Caterer, liefert nicht zum festen Termin. Das ist Lieferungsverzug. Annahmeverzug wäre es, wenn der Käufer die pünktliche Lieferung nicht annimmt."
+      }
+    }
+  ]
+}

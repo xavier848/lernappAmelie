@@ -1,0 +1,119 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-rueckstellproben",
+  "title": "Rückstellproben",
+  "sort": 609,
+  "intro": "🧫 Rückstellproben sind eine weitere Kontrollmaßnahme. Das sind Proben von zubereiteten Speisen. Sie werden aufbewahrt, vor allem bei leicht verderblichen Speisen.\n\nSo machst du eine Rückstellprobe: Du kennzeichnest sie mit dem Datum, dem Produktnamen und der Uhrzeit der Herstellung. Empfohlen sind 150 g je Speisenkomponente. Eine Speisenkomponente ist ein Teil des Gerichts, zum Beispiel das Fleisch, die Soße oder die Beilage.\n\nDu lagerst die Proben bei höchstens +4 °C oder gefroren bei mindestens −18 °C. Du bewahrst sie 7 bis 14 Tage auf.\n\nMERKE: Wird jemand nach dem Essen krank, klären Rückstellproben die Ursache. Sie können beweisen, dass die Erkrankung nicht vom Essen der Gemeinschaftsverpflegung kam. Und die Küchenleitung erfüllt damit ihre Sorgfaltspflicht.\n\nAlle Hygienemaßnahmen zusammen verhindern, dass Schmutz, Keime, Bakterien, andere Krankheitserreger und ungenießbare Stoffe an die Lebensmittel kommen. So verhinderst du Lebensmittelverderb, Lebensmittelinfektionen und Lebensmittelvergiftungen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧫 Was sind Rückstellproben?",
+        "options": [
+          { "text": "Proben von zubereiteten Speisen, die aufbewahrt werden.", "correct": true },
+          { "text": "Proben von neuen Rezepten, die das Team probiert." },
+          { "text": "Reste vom Mittagessen, die das Personal später essen darf." }
+        ],
+        "explanation": "Rückstellproben sind Proben der zubereiteten Speisen. Sie werden für eine bestimmte Zeit aufbewahrt, damit man sie im Notfall untersuchen kann."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Von welchen Speisen stellst du vor allem Rückstellproben zurück?",
+        "options": [
+          { "text": "Von leicht verderblichen Speisen.", "correct": true },
+          { "text": "Von trockenem Gebäck aus der Dose." },
+          { "text": "Von Getränken in geschlossenen Flaschen." }
+        ],
+        "explanation": "Leicht verderbliche Speisen können am ehesten krank machen. Deshalb nimmt man vor allem von ihnen Rückstellproben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Womit kennzeichnest du eine Rückstellprobe?",
+        "options": [
+          { "text": "Datum, Produktname und Uhrzeit der Herstellung.", "correct": true },
+          { "text": "Nur mit dem Namen der Köchin, die heute gekocht hat." },
+          { "text": "Nur mit dem Preis der Speise auf der Karte." }
+        ],
+        "explanation": "Auf die Rückstellprobe gehören das Datum, der Produktname und die Uhrzeit der Herstellung. So weiß man später genau, welche Speise es war."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚖️ Wie viel Gramm sind je Speisenkomponente als Rückstellprobe empfohlen? Tippe die Zahl.",
+        "answer": 150,
+        "hint": "Es ist mehr als 100 und weniger als 200.",
+        "explanation": "Empfohlen sind 150 g je Speisenkomponente. Also zum Beispiel 150 g Fleisch, 150 g Soße und 150 g Beilage."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Wie lagerst du Rückstellproben?",
+        "options": [
+          { "text": "Bei höchstens +4 °C oder gefroren bei mindestens −18 °C.", "correct": true },
+          { "text": "Bei Zimmertemperatur in einem sauberen Regal im Trockenlager." },
+          { "text": "Bei höchstens +10 °C in einer Kiste im kühlen Keller." }
+        ],
+        "explanation": "Rückstellproben lagerst du bei höchstens +4 °C im Kühlschrank oder gefroren bei mindestens −18 °C. So verändern sie sich nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Wie lange bewahrst du Rückstellproben auf?",
+        "options": [
+          { "text": "7 bis 14 Tage.", "correct": true },
+          { "text": "1 bis 2 Tage." },
+          { "text": "3 bis 6 Monate." }
+        ],
+        "explanation": "Die empfohlene Aufbewahrungszeit ist 7 bis 14 Tage. Viele Erkrankungen zeigen sich erst ein paar Tage nach dem Essen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤒 Mehrere Heimbewohner haben nach dem Mittagessen Durchfall. Wie hilft die Rückstellprobe?",
+        "options": [
+          { "text": "Sie wird untersucht und klärt die Ursache.", "correct": true },
+          { "text": "Sie wird den Bewohnern noch einmal serviert." },
+          { "text": "Sie wird sofort weggeworfen, damit niemand sie isst." }
+        ],
+        "explanation": "Rückstellproben geben Klarheit über die Ursache einer Erkrankung. Man untersucht die Probe der Speise, die gegessen wurde."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Wozu sind Rückstellproben da? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Dafür sind sie da", "icon": "✅" },
+          { "id": "nein", "label": "Dafür nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Beweisen, dass das Essen nicht die Ursache war", "bucket": "ja" },
+          { "text": "Die Sorgfaltspflicht der Küchenleitung erfüllen", "bucket": "ja" },
+          { "text": "Reste für das Personalessen aufheben", "bucket": "nein" },
+          { "text": "Neue Rezepte in Ruhe ausprobieren", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Geht es um Kontrolle und Sicherheit, oder um Essen? Rückstellproben sind nur zur Kontrolle da. Sie können die Küche entlasten und zeigen, dass die Küchenleitung sorgfältig gearbeitet hat. Gegessen werden sie nie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Was verhindern alle Hygienemaßnahmen zusammen?",
+        "options": [
+          { "text": "Verderb, Infektionen und Vergiftungen durch Lebensmittel.", "correct": true },
+          { "text": "Nur einen schlechten Geschmack der fertigen Speisen am Tisch." },
+          { "text": "Nur zu hohe Kosten beim Einkauf der Waren im Großmarkt." }
+        ],
+        "explanation": "Hygiene verhindert, dass Schmutz, Keime und ungenießbare Stoffe an die Lebensmittel kommen. So gibt es keinen Lebensmittelverderb, keine Lebensmittelinfektionen und keine Lebensmittelvergiftungen."
+      }
+    }
+  ]
+}

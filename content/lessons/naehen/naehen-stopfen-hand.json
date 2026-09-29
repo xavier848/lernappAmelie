@@ -1,0 +1,137 @@
+{
+  "topic_slug": "naehen",
+  "slug": "naehen-stopfen-hand",
+  "title": "Stopfen von Hand",
+  "sort": 548,
+  "intro": "Stopfen von Hand nutzt man bei kleinen Schäden an Oberbekleidung, vor allem an Strickwaren. Gestopft werden dünn geschlissene Stellen, kleine Löcher und kleine Risse. Dünn geschlissen heißt: durch Reiben ganz dünn geworden.\n\nDas richtige Garn: Haushaltswäsche, Unterwäsche oder Wirkwaren aus Baumwolle stopfst du mit Stopftwist aus Baumwolle. Stopfgarn aus Wolle oder Synthetics nimmst du für Strickwaren und Strümpfe aus Wolle, Chemiefasern oder Mischgeweben.\n\nSo stopfst du von Hand: Stülp das Stopfstück über ein Stopfei oder einen Stopfpilz. Zieh das Teil dabei nicht zu sehr auseinander, sonst entsteht eine Beule. Mach keinen Knoten in den Stopffaden.\n\nStich im heilen Gewebe immer wieder von oben nach unten durch. Über der kaputten Stelle spannst du Kettfäden. Kettfäden sind die Längsfäden, wie beim Weben.\n\nStopf etwa 1 cm in das heile Gewebe hinein. Stich abwechselnd in der einen Reihe unten und in der anderen Reihe oben durch. Stopf die Enden ungleichmäßig lang, damit die Stelle nicht ausreißt.\n\nDann stopfst du die gespannten Fäden in Querrichtung durch. Du gehst abwechselnd über und unter einen Kettfaden. Jede Reihe arbeitest du versetzt.\n\nMERKE: Stopffaden nie knoten. Etwa 1 cm ins heile Gewebe stopfen. Enden ungleichmäßig lang, damit nichts ausreißt.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧦 Wann stopfst du von Hand?",
+        "options": [
+          { "text": "Bei kleinen Schäden, vor allem an Strickwaren.", "correct": true },
+          { "text": "Bei großen Rissen in festen, dicken Arbeitshosen." },
+          { "text": "Bei offenen Nähten an einer blauen Jeanshose." }
+        ],
+        "explanation": "Von Hand stopfst du kleine Schäden an Oberbekleidung, vor allem an Strickwaren. Eine offene Naht wird dagegen neu genäht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧶 Welches Garn nimmst du zum Stopfen? Sortiere.",
+        "buckets": [
+          { "id": "twist", "label": "Stopftwist aus Baumwolle", "icon": "⚪" },
+          { "id": "garn", "label": "Stopfgarn aus Wolle oder Synthetics", "icon": "🧶" }
+        ],
+        "items": [
+          { "text": "Unterhemd aus Baumwolle", "bucket": "twist" },
+          { "text": "Geschirrtuch aus Baumwolle", "bucket": "twist" },
+          { "text": "T-Shirt aus Baumwoll-Wirkware", "bucket": "twist" },
+          { "text": "Socken aus Wolle", "bucket": "garn" },
+          { "text": "Strickjacke aus Wolle", "bucket": "garn" },
+          { "text": "Pullover aus Chemiefasern", "bucket": "garn" },
+          { "text": "Strümpfe aus Mischgewebe", "bucket": "garn" }
+        ],
+        "explanation": "Frag dich: Ist das Stück aus Baumwolle? Dann nimmst du Stopftwist aus Baumwolle. Ist es eine Strickware oder ein Strumpf aus Wolle, Chemiefaser oder Mischgewebe? Dann nimmst du Stopfgarn."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Worüber stülpst du das Stopfstück?",
+        "options": [
+          { "text": "Über ein Stopfei oder einen Stopfpilz.", "correct": true },
+          { "text": "Über eine leere, große Garnrolle aus Holz." },
+          { "text": "Über den Nähfuß der eigenen Nähmaschine." }
+        ],
+        "explanation": "Du stülpst das Stopfstück über ein Stopfei oder einen Stopfpilz. So liegt die kaputte Stelle glatt und fest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Warum ziehst du das Stopfstück über dem Stopfei nicht zu sehr auseinander?",
+        "options": [
+          { "text": "Sonst entsteht eine Beule.", "correct": true },
+          { "text": "Sonst bricht die Nadel ab." },
+          { "text": "Sonst verfilzt die Wolle." }
+        ],
+        "explanation": "Ziehst du den Stoff zu sehr auseinander, stopfst du ihn gedehnt. Danach entsteht an der Stelle eine Beule."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪢 Was gilt für den Stopffaden?",
+        "options": [
+          { "text": "Er wird nicht geknotet.", "correct": true },
+          { "text": "Er wird am Ende doppelt geknotet." },
+          { "text": "Er wird am Anfang fest verknotet." }
+        ],
+        "explanation": "Den Stopffaden knotest du nicht. Ein Knoten würde als harter Punkt stören. Das ist anders als beim Heften, wo das Fadenende verknotet wird."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧵 Stopfen von Hand: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das Stopfstück aufspannen, ohne es zu dehnen." },
+          { "text": "Kettfäden über die kaputte Stelle spannen." },
+          { "text": "Die Kettfäden in Querrichtung durchstopfen." }
+        ],
+        "explanation": "Stopfen ist wie Weben: Erst spannst du die Längsfäden. Dann webst du quer durch sie hindurch. Vorher muss das Stück glatt aufgespannt sein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Wie weit stopfst du in das heile Gewebe hinein?",
+        "options": [
+          { "text": "Etwa 1 cm.", "correct": true },
+          { "text": "Etwa 5 cm." },
+          { "text": "Gar nicht, nur übers Loch." }
+        ],
+        "explanation": "Du stopfst etwa 1 cm in das heile Gewebe hinein. So hält die Stopfstelle im festen Stoff."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧵 Warum stopfst du die Enden ungleichmäßig lang?",
+        "options": [
+          { "text": "Damit die Stelle nicht ausreißt.", "correct": true },
+          { "text": "Damit man die Stelle besser sieht." },
+          { "text": "Damit du weniger Garn brauchst." }
+        ],
+        "explanation": "Gleich lange Enden enden alle auf einer Linie. Dort kann der Stoff leicht ausreißen. Ungleichmäßig lange Enden verteilen die Kraft."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔀 Wie stopfst du die gespannten Kettfäden quer durch?",
+        "options": [
+          { "text": "Abwechselnd über und unter einem Faden, jede Reihe versetzt.", "correct": true },
+          { "text": "Immer über alle Kettfäden hinweg, und jede Reihe genau gleich." },
+          { "text": "Immer unter allen Kettfäden hindurch, ganz ohne Versatz." }
+        ],
+        "explanation": "Du gehst abwechselnd über und unter einen Kettfaden. Jede Reihe arbeitest du versetzt. So entsteht ein festes Gewebe, wie beim Weben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was wird von Hand gestopft?",
+        "options": [
+          { "text": "Dünne Stellen, kleine Löcher und kleine Risse.", "correct": true },
+          { "text": "Nur große Löcher in Handtüchern und Laken." },
+          { "text": "Nur abgerissene Knöpfe und Haken an Jacken." }
+        ],
+        "explanation": "Von Hand stopfst du dünn geschlissene Stellen, kleine Löcher und kleine Risse."
+      }
+    }
+  ]
+}

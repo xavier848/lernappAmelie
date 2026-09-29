@@ -1,0 +1,147 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-dispokredit",
+  "title": "Sparen, Kredit und Dispo",
+  "sort": 715,
+  "intro": "🏦 Dinge für den täglichen Bedarf bezahlst du sofort aus deinen laufenden Einnahmen. Zum Beispiel Lebensmittel.\n\nFür eine größere Anschaffung gibt es zwei Wege. Weg 1: Du sparst das Geld vorher an. Dann kaufst du mit deinem eigenen Geld. Eigenes Geld heißt Eigenkapital oder Eigenmittel. Weg 2: Du kaufst sofort mit fremdem Geld, zum Beispiel von der Bank. Fremdes Geld heißt Fremdkapital. Danach musst du sparen, um die Schulden und die Zinsen abzuzahlen. Das nennt man Fremdfinanzierung.\n\nGeld leihen nicht nur Banken und Sparkassen. Auch Versicherungen leihen Geld, vor allem für ein Haus. Ihre Zinsen sind oft günstig. Aber dafür musst du einen Versicherungsvertrag abschließen. Dann kann der Kostenvorteil wieder weg sein.\n\nKredit und Darlehen sagt man oft für dasselbe. In deinem Fachbuch steht dieser Unterschied: Bei einem Kredit sichert sich die Bank ein Recht, zum Beispiel am Haus. Bis alles zurückgezahlt ist, bleibt die Bank der eigentliche Eigentümer. Der Kreditnehmer darf trotzdem im Haus wohnen. Er hat ein Nutzungsrecht. Bei einem Darlehen hat die Bank keine Sicherheit. Sie leiht das Geld im Vertrauen. Zahlt der Kunde nicht zurück, droht eine Pfändung. Pfändung heißt: Auf Anordnung vom Gericht wird dem Schuldner Geld oder Besitz weggenommen. Damit werden die Schulden bezahlt.\n\nDein Girokonto sollte im Plus sein. Du kannst es aber überziehen. Dann ist es im Minus. Die Bank leiht dir dann automatisch Geld. Das ist der Dispositionskredit, kurz Dispo. Der Dispo geht meist bis zum Dreifachen von deinem monatlichen Nettoeinkommen. Netto ist das Geld, das nach allen Abzügen von deinem Lohn übrig bleibt.\n\nDer Dispo hat einen großen Nachteil: hohe Zinsen. Er hat aber auch Vorteile. Du kannst ihn kurzfristig in beliebig kleinen Beträgen zurückzahlen. Und die Zinsen werden taggenau berechnet. Das heißt: Du zahlst nur für die Tage, an denen du im Minus bist.\n\nBei einer kleineren Anschaffung ist das Minus oft nach wenigen Wochen wieder weg. Dann lohnt sich kein anderer Kredit. Denn ein anderer Kredit läuft mindestens ein halbes Jahr.\n\nMERKE: Eigenkapital: erst sparen, dann kaufen. Fremdkapital: erst kaufen, dann Schulden und Zinsen abzahlen.\n\nMERKE: Dispo = die Bank leiht dir Geld, wenn dein Konto im Minus ist. Nachteil: hohe Zinsen. Vorteil: taggenaue Zinsen und Rückzahlung in kleinen Beträgen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Welche Ausgabe bezahlst du sofort aus deinen laufenden Einnahmen?",
+        "options": [
+          { "text": "Lebensmittel für die Woche.", "correct": true },
+          { "text": "Eine neue Küche für 8.000 €." },
+          { "text": "Ein Auto, das du über Jahre abzahlst." }
+        ],
+        "explanation": "Dinge des täglichen Bedarfs bezahlst du sofort aus dem Geld, das jeden Monat hereinkommt. Für eine größere Anschaffung wie eine Küche oder ein Auto brauchst du Erspartes oder fremdes Geld."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Eigenkapital oder Fremdkapital? Sortiere.",
+        "buckets": [
+          { "id": "eigen", "label": "Eigenkapital", "icon": "🐷" },
+          { "id": "fremd", "label": "Fremdkapital", "icon": "🏦" }
+        ],
+        "items": [
+          { "text": "Erst sparen, dann kaufen", "bucket": "eigen" },
+          { "text": "Mit eigenem Geld bezahlen", "bucket": "eigen" },
+          { "text": "Das Geld vorher ansparen", "bucket": "eigen" },
+          { "text": "Erst kaufen, dann abzahlen", "bucket": "fremd" },
+          { "text": "Geld von der Bank leihen", "bucket": "fremd" },
+          { "text": "Schulden und Zinsen zurückzahlen", "bucket": "fremd" },
+          { "text": "Geld von einer Versicherung leihen", "bucket": "fremd" }
+        ],
+        "explanation": "Frag dich: Wem gehört das Geld beim Kauf? Gehört es dir schon, ist es Eigenkapital. Dann heißt es: erst sparen, dann kaufen. Gehört es einer Bank oder Versicherung, ist es Fremdkapital. Dann heißt es: erst kaufen, dann Schulden und Zinsen abzahlen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛋️ Lena will ein Sofa für 900 €. Gespart hat sie nichts. Sie kauft es sofort mit Geld von der Bank. Was folgt daraus?",
+        "options": [
+          { "text": "Sie muss danach sparen, um Schulden und Zinsen abzuzahlen.", "correct": true },
+          { "text": "Sie zahlt nur die 900 € zurück, Zinsen fallen dabei nicht an." },
+          { "text": "Sie hat mit Eigenkapital gekauft und hat darum keine Schulden." }
+        ],
+        "explanation": "Lena kauft mit Fremdkapital. Erst kaufen, dann abzahlen: Nach dem Kauf muss sie lange sparen. Sie zahlt die Schulden zurück und dazu die Zinsen. Das Sofa wird so teurer als 900 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Eine Versicherung leiht dir Geld für ein Haus. Die Zinsen sind sehr günstig. Worauf musst du achten?",
+        "options": [
+          { "text": "Dazu gehört ein Versicherungsvertrag. Das kann den Vorteil aufheben.", "correct": true },
+          { "text": "Versicherungen dürfen gar kein Geld verleihen. Das Angebot ist falsch." },
+          { "text": "Bei einer Versicherung zahlst du nie Zinsen. Es gibt keinen Haken." }
+        ],
+        "explanation": "Auch Versicherungen leihen Geld, vor allem für ein Haus. Ihre günstigen Zinsen sind aber an einen Versicherungsvertrag gebunden. Rechne die Kosten dafür mit. Dann kann der Kostenvorteil weg sein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeutet der Begriff laut deinem Fachbuch? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🏠 Kredit"}, "right": {"text": "Die Bank sichert sich ein Recht, zum Beispiel am Haus."} },
+          { "left": {"text": "🤝 Darlehen"}, "right": {"text": "Die Bank leiht ohne Sicherheit, im Vertrauen."} },
+          { "left": {"text": "🔑 Nutzungsrecht"}, "right": {"text": "Der Kreditnehmer darf im Haus wohnen."} },
+          { "left": {"text": "⚖️ Pfändung"}, "right": {"text": "Das Gericht lässt Besitz für die Schulden wegnehmen."} }
+        ],
+        "explanation": "Frag dich: Hat die Bank eine Sicherheit? Beim Kredit ja, zum Beispiel das Haus. Beim Darlehen nein. Zahlt jemand ein Darlehen nicht zurück, droht die Pfändung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏡 Familie Kaya kauft ein Haus mit einem Kredit. Sie wohnt schon darin. Wer ist laut deinem Fachbuch der eigentliche Eigentümer, bis alles zurückgezahlt ist?",
+        "options": [
+          { "text": "Die Bank.", "correct": true },
+          { "text": "Familie Kaya." },
+          { "text": "Der frühere Besitzer." }
+        ],
+        "explanation": "Beim Kredit sichert sich die Bank ein Recht am Haus. Bis alles zurückgezahlt ist, bleibt sie der eigentliche Eigentümer. Familie Kaya darf im Haus wohnen. Sie hat ein Nutzungsrecht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Dein Girokonto rutscht ins Minus. Was passiert dann?",
+        "options": [
+          { "text": "Die Bank leiht dir automatisch Geld.", "correct": true },
+          { "text": "Die Bank sperrt sofort dein Konto und deine Karte." },
+          { "text": "Alle deine Daueraufträge werden sofort gelöscht." }
+        ],
+        "explanation": "Du kannst dein Girokonto überziehen. Dann leiht dir die Bank automatisch Geld. Das ist der Dispositionskredit, kurz Dispo. Besser ist es aber, das Konto im Plus zu halten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💳 Jana verdient netto 1.200 € im Monat. Bis zu welchem Betrag geht ihr Dispo meistens? Tippe den Betrag in Euro.",
+        "answer": 3600,
+        "hint": "Der Dispo geht meist bis zum Dreifachen vom Nettoeinkommen. Rechne 1.200 mal 3.",
+        "explanation": "Der Dispo geht meist bis zum Dreifachen des monatlichen Nettoeinkommens. 1.200 € mal 3 sind 3.600 €. Das ist die Grenze. Es ist kein Geld, das du ausgeben solltest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Deine Waschmaschine ist kaputt. Die neue kostet 450 €. Dein Konto rutscht ins Minus. In drei Wochen ist es wieder im Plus. Was ist sinnvoll?",
+        "options": [
+          { "text": "Den Dispo nutzen, ein anderer Kredit lohnt sich nicht.", "correct": true },
+          { "text": "Einen Kredit für ein halbes Jahr nehmen, der ist besser." },
+          { "text": "Die Bank bitten, das Minus einfach zu streichen." }
+        ],
+        "explanation": "Das Minus ist nach wenigen Wochen wieder weg. Ein anderer Kredit läuft aber mindestens ein halbes Jahr. Für so kurze Zeit lohnt er sich nicht. Dann ist der Dispo die richtige Wahl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📆 Warum passt der Dispo für ein kurzes Minus?",
+        "options": [
+          { "text": "Die Zinsen gelten taggenau, und du zahlst in kleinen Beträgen zurück.", "correct": true },
+          { "text": "Unter 1.000 € Minus kostet er keine Zinsen, egal wie lange." },
+          { "text": "Die Bank bucht das Minus nach einem Monat von selbst aus." }
+        ],
+        "explanation": "Taggenau heißt: Du zahlst Zinsen nur für die Tage im Minus. Und du kannst jederzeit in beliebig kleinen Beträgen zurückzahlen. Darum passt der Dispo für kurze Zeit. Für lange Zeit ist er zu teuer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Was ist der größte Nachteil vom Dispo?",
+        "options": [
+          { "text": "Die hohen Zinsen.", "correct": true },
+          { "text": "Man kann ihn nur einmal im Jahr nutzen." },
+          { "text": "Er ist nur für Firmen erlaubt." }
+        ],
+        "explanation": "Der Dispo ist bequem, aber teuer. Seine Zinsen sind hoch. Nutze ihn darum nur kurz. 🎉"
+      }
+    }
+  ]
+}

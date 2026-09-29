@@ -1,0 +1,118 @@
+{
+  "topic_slug": "naehen",
+  "slug": "naehen-kleidung-aendern",
+  "title": "Kleidung kürzen, verlängern, ändern",
+  "sort": 552,
+  "intro": "Kleidung passt nicht mehr? Oft kannst du sie ändern. Das Buch nennt vier Möglichkeiten: erweitern, kürzen, verlängern und verengen.\n\nErweitern heißt: weiter machen. Dazu trennst du Nähte und Abnäher auf. Die vorhandenen Nahtzugaben lässt du nach Bedarf aus. Das heißt: Du nähst weiter außen. Eventuell setzt du Stoffteile oder Borten ein, oder du versetzt Knöpfe nach außen.\n\nDas geht aber nur in begrenztem Rahmen. Sonst verliert das Kleidungsstück seine Form.\n\nEin Abnäher ist eine eingenähte Falte, die den Stoff an den Körper anpasst. Eine Borte ist ein schmales Zierband.\n\nKürzen heißt: kürzer machen. Du trennst den Saum auf. Du schneidest auf die gewünschte Länge ab. Du versäuberst die Kanten. Dann säumst du neu.\n\nVerlängern heißt: länger machen. Du lässt Säume und Aufschläge aus. Ein Aufschlag ist der umgeschlagene Rand unten an einer Hose. Oder du setzt einen falschen Saum, Stoffstreifen, Borten oder Volants an.\n\nEin falscher Saum ist ein extra Stoffstreifen, der als Saum angenäht wird. Ein Volant ist ein angesetzter Stoffstreifen mit Rüschen.\n\nEine Idee aus dem Buch: Schneide die Hosenbeine unterhalb des Knies ab. Setz auf beiden Seiten ein Ösenband ein und verschnüre es mit einem Lederband. So werden aus einer Hose zwei.\n\nVerengen heißt: enger machen. Das ist recht einfach. Du trennst die Nähte auf und nähst sie mit einer breiteren Nahtzugabe wieder zusammen. Außerdem kannst du Abnäher vergrößern und Knöpfe versetzen.\n\nMERKE: Kürzen: Saum auftrennen, abschneiden, versäubern, neu säumen. Erweitern geht nur in begrenztem Rahmen.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "✂️ Eine Hose kürzen: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Den Saum auftrennen." },
+          { "text": "Auf die gewünschte Länge abschneiden." },
+          { "text": "Die Kanten versäubern." },
+          { "text": "Neu säumen." }
+        ],
+        "explanation": "Frag dich: Was muss weg, bevor du schneiden kannst? Erst kommt der alte Saum ab. Nach dem Schneiden sicherst du die frische Kante. Der neue Saum ist der letzte Schritt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Erweitern, verengen oder verlängern? Sortiere.",
+        "buckets": [
+          { "id": "weiter", "label": "Erweitern", "icon": "↔️" },
+          { "id": "enger", "label": "Verengen", "icon": "🤏" },
+          { "id": "laenger", "label": "Verlängern", "icon": "↕️" }
+        ],
+        "items": [
+          { "text": "Nahtzugaben auslassen", "bucket": "weiter" },
+          { "text": "Stoffteile einsetzen", "bucket": "weiter" },
+          { "text": "Mit breiterer Nahtzugabe nähen", "bucket": "enger" },
+          { "text": "Abnäher vergrößern", "bucket": "enger" },
+          { "text": "Aufschläge auslassen", "bucket": "laenger" },
+          { "text": "Falschen Saum ansetzen", "bucket": "laenger" },
+          { "text": "Volant ansetzen", "bucket": "laenger" }
+        ],
+        "explanation": "Frag dich: Wird das Stück breiter, schmaler oder länger? Mehr Stoff an der Seite macht es weiter. Mehr Stoff in der Naht oder im Abnäher macht es enger. Stoff unten am Saum macht es länger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Warum kannst du Kleidung nur in begrenztem Rahmen erweitern?",
+        "options": [
+          { "text": "Sonst verliert das Kleidungsstück seine Form.", "correct": true },
+          { "text": "Sonst reißt die Naht beim nächsten Waschen auf." },
+          { "text": "Sonst passt die Farbe des Garns nicht mehr dazu." }
+        ],
+        "explanation": "Alle Maßnahmen zum Erweitern gehen nur in begrenztem Rahmen. Sonst verliert das Kleidungsstück seine Form."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👖 Das Buch hat eine Idee: Aus einer Hose werden zwei. Wie geht das?",
+        "options": [
+          { "text": "Beine unter dem Knie ab, Ösenband einsetzen, mit Lederband verschnüren.", "correct": true },
+          { "text": "Die Hose längs in der Mitte teilen und daraus zwei kleine Röcke nähen." },
+          { "text": "Die Beine oben abschneiden und daraus zwei lange Schals für den Winter nähen." }
+        ],
+        "explanation": "Du schneidest die Hosenbeine unterhalb des Knies ab. Beidseitig setzt du ein Ösenband ein und verschnürst es mit einem Lederband. So werden aus einer Hose zwei."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was ist das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Abnäher"}, "right": {"text": "Eingenähte Falte, die den Stoff an den Körper anpasst"} },
+          { "left": {"text": "Borte"}, "right": {"text": "Schmales Zierband"} },
+          { "left": {"text": "Volant"}, "right": {"text": "Angesetzter Stoffstreifen mit Rüschen"} },
+          { "left": {"text": "Aufschlag"}, "right": {"text": "Umgeschlagener Rand unten an der Hose"} },
+          { "left": {"text": "Falscher Saum"}, "right": {"text": "Extra Stoffstreifen, der als Saum angenäht wird"} }
+        ],
+        "memory": false,
+        "explanation": "Diese Wörter brauchst du beim Ändern von Kleidung. Merkhilfe: Ein Volant hat Rüschen. Ein Aufschlag ist umgeschlagen. Ein falscher Saum ist nicht aus dem Stoff selbst, sondern extra angenäht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤏 Welche Änderung ist laut Buch recht einfach?",
+        "options": [
+          { "text": "Das Verengen von Kleidung.", "correct": true },
+          { "text": "Das Erweitern von Kleidung." },
+          { "text": "Das Verlängern ohne Saumstoff." }
+        ],
+        "explanation": "Laut Buch ist das Verengen recht einfach. Erweitern geht dagegen nur in begrenztem Rahmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔘 Eine Jacke ist etwas zu eng. Wohin versetzt du die Knöpfe?",
+        "options": [
+          { "text": "Nach außen.", "correct": true },
+          { "text": "Nach innen." },
+          { "text": "Nach oben." }
+        ],
+        "explanation": "Zum Erweitern versetzt du die Knöpfe nach außen. Dann ist mehr Platz in der Jacke. Nach innen versetzt, wird sie enger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Was heißt Verlängern?",
+        "options": [
+          { "text": "Kleidung länger machen.", "correct": true },
+          { "text": "Kleidung weiter machen." },
+          { "text": "Kleidung enger machen." }
+        ],
+        "explanation": "Verlängern heißt: Kleidung länger machen. Weiter machen heißt erweitern, enger machen heißt verengen."
+      }
+    }
+  ]
+}

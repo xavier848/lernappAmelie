@@ -1,0 +1,154 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-menuegedeck-4-gaenge-plus",
+  "title": "Menügedecke: 4 und mehr Gänge",
+  "sort": 576,
+  "intro": "🍷 Menügedeck für vier Gänge: kalte Vorspeise, Suppe, Hauptgang und Dessert. Du deckst das Gedeck für drei Gänge ein. Dann kommt dazu: Das Glas für das Getränk zum Dessert steht hinter dem Richtglas. Die Gläser stehen schräg in einer Reihe, also diagonal, oder in Blockform.\n\nFür die kalte Vorspeise legst du rechts ein Mittelmesser oder Menümesser. Ist die kalte Vorspeise ein Fischgericht, nimmst du ein Fischmesser. Es liegt auf gleicher Höhe wie der Suppenlöffel, die Schneide zeigt zum Teller. Links legst du die Mittelgabel oder Menügabel, bei Fisch die Fischgabel. Diese zweite Gabel liegt etwas versetzt nach oben.\n\nZum Schluss kommt links neben die Mittelgabel oder Fischgabel der Brotteller. Das Buttermesser liegt gerade auf dem Brotteller, die Schneide zeigt nach links.\n\nMenügedeck für fünf Gänge: kalte Vorspeise, Suppe, Fisch, Hauptgang und Dessert. Du deckst das Gedeck für vier Gänge ein. Dazu kommt rechts das Fischmesser, auf gleicher Höhe wie der Suppenlöffel, die Schneide zeigt zum Teller. Links kommt die Fischgabel dazu. Sie liegt auf gleicher Höhe wie die erste Gabel.\n\nMERKE: Die Ausnahme gilt nur für die 2. Gabel. Sie liegt etwas versetzt nach oben. Alle anderen Messer, Löffel und Gabeln neben dem Teller liegen auf einer Höhe.\n\nGibt es zum Hauptgang Salat, kommt er links neben die Gabel. Das ist eigentlich der Platz für den Brotteller. Der Brotteller rückt dann in die linke obere Ecke, zwischen Dessertbesteck und Gabeln. Portionierte Salatteller stellst du erst beim Servieren des Hauptgangs ein.\n\nBeim Festmenü mit sechs oder mehr Gängen deckst du fehlendes Besteck vor dem Servieren an der richtigen Stelle nach.\n\nMERKE: Kalte Vorspeisen werden immer vor der Suppe gereicht. Andere Menüfolgen sind zum Beispiel: kalte Vorspeise, warme Vorspeise, Hauptgang, Dessert. Oder: Suppe, warme Vorspeise, Fisch, Hauptgang, Dessert.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍽️ Ein Menü mit fünf Gängen. Bringe die Gänge in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Kalte Vorspeise" },
+          { "text": "Suppe" },
+          { "text": "Fisch" },
+          { "text": "Hauptgang" },
+          { "text": "Dessert" }
+        ],
+        "explanation": "Merkhilfe: Kalte Vorspeisen kommen immer vor der Suppe. Der Fisch kommt vor dem Hauptgang. Das Dessert ist immer der Schluss."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍴 Welches Besteck gehört zu welchem Gang? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥗 Kalte Vorspeise ohne Fisch"}, "right": {"text": "Mittelmesser und Mittelgabel"} },
+          { "left": {"text": "🥣 Suppe"}, "right": {"text": "Suppenlöffel"} },
+          { "left": {"text": "🐟 Fischgang"}, "right": {"text": "Fischmesser und Fischgabel"} },
+          { "left": {"text": "🥩 Hauptgang"}, "right": {"text": "Tafelmesser und Tafelgabel"} },
+          { "left": {"text": "🍮 Dessert"}, "right": {"text": "Dessertgabel und Dessertlöffel"} }
+        ],
+        "explanation": "Jeder Gang hat sein Besteck. Ist die kalte Vorspeise ein Fischgericht, nimmst du dafür Fischbesteck statt Mittelbesteck. Statt Mittelbesteck geht auch Menübesteck."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥂 Welche Menüfolge mit vier Gängen ist richtig?",
+        "options": [
+          { "text": "Kalte Vorspeise, warme Vorspeise, Hauptgang, Dessert", "correct": true },
+          { "text": "Warme Vorspeise, kalte Vorspeise, Hauptgang, Dessert" },
+          { "text": "Suppe, kalte Vorspeise, Hauptgang, Dessert" },
+          { "text": "Kalte Vorspeise, Hauptgang, Fisch, Dessert" }
+        ],
+        "explanation": "Kalte Vorspeisen kommen immer zuerst, auch vor der Suppe. Fisch kommt vor dem Hauptgang, nie danach. Das Dessert bildet immer den Schluss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍷 Wo steht beim Menügedeck das Glas für das Getränk zum Dessert?",
+        "options": [
+          { "text": "Hinter dem Richtglas.", "correct": true },
+          { "text": "Vor dem Richtglas." },
+          { "text": "Links oben beim Brotteller." },
+          { "text": "Quer über dem Dessertbesteck." }
+        ],
+        "explanation": "Das Dessert kommt zuletzt, darum steht sein Glas hinten. Das Glas für die Vorspeise steht vor dem Richtglas, das Glas für das Dessert dahinter. Alle Gläser stehen rechts oben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥂 Wie kannst du mehrere Gläser aufstellen?",
+        "options": [
+          { "text": "Schräg in einer Reihe, also diagonal, oder in Blockform.", "correct": true },
+          { "text": "Immer gerade nebeneinander, genau parallel zur Tischkante." },
+          { "text": "Verteilt über den Tisch, jedes Glas bei seinem Besteck." },
+          { "text": "Links oben neben dem Brotteller, der Größe nach." }
+        ],
+        "explanation": "Beim Menügedeck stehen die Gläser rechts oben. Du kannst sie diagonal in eine Reihe stellen oder in Blockform. Das Richtglas bleibt dabei über dem Tafelmesser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Welche Gabel deckst du etwas versetzt nach oben ein?",
+        "options": [
+          { "text": "Die 2. Gabel.", "correct": true },
+          { "text": "Die 1. Gabel direkt am Teller." },
+          { "text": "Jede Gabel ein Stück höher als die davor." },
+          { "text": "Keine, alle Gabeln liegen genau auf einer Höhe." }
+        ],
+        "explanation": "Das ist eine Ausnahmeregel: Nur die 2. Gabel liegt versetzt nach oben. Eine dritte Gabel, zum Beispiel die Fischgabel beim 5-Gänge-Menü, liegt wieder auf gleicher Höhe wie die erste Gabel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Es gibt keinen Salat. Wo steht beim Menügedeck der Brotteller?",
+        "options": [
+          { "text": "Links neben der Mittelgabel oder Fischgabel.", "correct": true },
+          { "text": "Rechts neben dem Suppenlöffel." },
+          { "text": "Oberhalb des Tellers, direkt beim Dessertbesteck." },
+          { "text": "Rechts oben neben den Gläsern." }
+        ],
+        "explanation": "Der Brotteller kommt zum Schluss links neben die Mittel- oder Fischgabel. Nur wenn es Salat gibt, rückt er in die linke obere Ecke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Wie liegt das Buttermesser?",
+        "options": [
+          { "text": "Gerade auf dem Brotteller, Schneide nach links.", "correct": true },
+          { "text": "Gerade auf dem Brotteller, Schneide nach rechts." },
+          { "text": "Quer über dem Brotteller, Schneide nach unten." },
+          { "text": "Rechts neben dem Brotteller, Schneide nach innen." }
+        ],
+        "explanation": "Das Buttermesser liegt gerade auf dem Brotteller. Seine Schneide zeigt nach links. So kann der Gast es leicht greifen und die Butter aufs Brot streichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Zum Hauptgang gibt es Salat. Was ändert sich beim Eindecken?",
+        "options": [
+          { "text": "Der Salat kommt links neben die Gabel, der Brotteller nach links oben.", "correct": true },
+          { "text": "Der Salat kommt rechts oben zu den Gläsern, der Brotteller bleibt." },
+          { "text": "Der Salat kommt oberhalb des Tellers, der Brotteller fällt ganz weg." },
+          { "text": "Der Salat kommt auf den Brotteller, beides steht links neben der Gabel." }
+        ],
+        "explanation": "Der Salat bekommt den Platz links neben der Gabel. Dort stand sonst der Brotteller. Der Brotteller rückt in die linke obere Ecke, zwischen Dessertbesteck und Gabeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Wann stellst du die portionierten Salatteller ein?",
+        "options": [
+          { "text": "Erst beim Servieren des Hauptgangs.", "correct": true },
+          { "text": "Schon beim Eindecken des Tisches." },
+          { "text": "Direkt nach der kalten Vorspeise." },
+          { "text": "Erst nach dem Dessert, zum Abschluss." }
+        ],
+        "explanation": "Salat gehört zum Hauptgang. Würde er vorher auf dem Tisch stehen, würde er welk und warm. Darum kommen portionierte Salatteller erst beim Servieren des Hauptgangs."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Ein Festmenü hat sieben Gänge. Nicht alles Besteck passt auf den Tisch. Was tust du?",
+        "options": [
+          { "text": "Fehlendes Besteck vor dem Servieren nachdecken.", "correct": true },
+          { "text": "Das zusätzliche Besteck quer über dem Teller stapeln." },
+          { "text": "Die Gäste ihr Besteck behalten lassen." },
+          { "text": "Einige Gänge ohne Besteck servieren." }
+        ],
+        "explanation": "Beim Festmenü mit sechs oder mehr Gängen deckst du fehlendes Besteck vor dem Servieren an der richtigen Stelle nach. So bleibt der Tisch übersichtlich."
+      }
+    }
+  ]
+}

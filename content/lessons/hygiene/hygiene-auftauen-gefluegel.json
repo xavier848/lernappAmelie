@@ -1,0 +1,138 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-auftauen-gefluegel",
+  "title": "Produkthygiene: Auftauen und Geflügel",
+  "sort": 606,
+  "intro": "🍗 Lebensmittelhygiene heißt: sauberer Umgang mit Lebensmitteln, von der Rohware über die Zubereitung bis zum Verzehr.\n\nTiefgekühltes Fleisch und Geflügel sind kritische Produkte. So taust du sie auf: ohne Umverpackung und abgedeckt, in Auftauschalen. Im Kühlschrank oder im Kühlhaus bei höchstens +7 °C.\n\nMERKE: Das Auftauwasser fängst du getrennt vom Fleisch in einem Gefäß auf. Dafür gibt es Schalen mit Siebeinsatz. Dann entsorgst du es. In der Auftauflüssigkeit sind viele Keime, zum Beispiel Salmonellen. Das Lebensmittel darf nicht mit ihr in Berührung kommen. Das ist ein CCP, also ein kritischer Kontrollpunkt.\n\nAuffangschalen und Arbeitsgeräte, die mit dem Produkt oder der Auftauflüssigkeit in Berührung kommen, reinigst du gründlich. So werden Salmonellen nicht auf andere Lebensmittel übertragen. Das nennt man Kreuzkontamination.\n\nWarum ist das so wichtig? Zwischen 7 °C und 50 °C vermehren sich Keime sehr schnell. Innerhalb von 20 Minuten verdoppeln sie sich. Das geht mit und ohne Sauerstoff.\n\nTiefgefrorenes Geflügel oder Fleisch taust du vor der Zubereitung vollständig auf.\n\nGeflügel verarbeitest du getrennt von anderen Tätigkeiten. Das ist ein CCP. Danach reinigst und desinfizierst du den Arbeitsplatz. Auch deine Hände reinigst und desinfizierst du gründlich, bevor du etwas anderes machst.\n\nDas Bundesinstitut für Risikobewertung, kurz BfR, sagt: Beim Braten oder Grillen von Geflügel soll die Kerntemperatur 2 Minuten lang 72 °C betragen.\n\nMERKE: Frisches Geflügel wird in der Gemeinschaftsverpflegung bei höchstens +4 °C angeliefert. Du kontrollierst die Temperatur und schreibst sie auf. Ist sie zu hoch, nimmst du die Ware nicht an. Du prüfst Produkt und Transportfahrzeug mit den Augen auf hygienische Mängel. Dann lagerst du das Geflügel sofort, abgedeckt und getrennt vom Fleisch bei höchstens +4 °C.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was heißt Lebensmittelhygiene?",
+        "options": [
+          { "text": "Sauberer Umgang mit Lebensmitteln bis zum Verzehr.", "correct": true },
+          { "text": "Nur das gründliche Putzen der ganzen Küche am Abend." },
+          { "text": "Nur die Kontrolle der Waren beim Einkaufen." }
+        ],
+        "explanation": "Lebensmittelhygiene betrifft den ganzen Weg: von der Rohware über die Zubereitung bis zum Verzehr."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧊 Du taust tiefgekühltes Geflügel auf. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Umverpackung entfernen." },
+          { "text": "Das Geflügel in eine Auftauschale mit Siebeinsatz legen." },
+          { "text": "Das Geflügel abdecken." },
+          { "text": "Im Kühlschrank vollständig auftauen lassen." },
+          { "text": "Die Auftauflüssigkeit entsorgen." },
+          { "text": "Schale und Arbeitsgeräte gründlich reinigen." }
+        ],
+        "explanation": "Frag dich: Was muss vorher passiert sein? Ohne Umverpackung kommt das Geflügel in die Schale. Abgedeckt geht es in die Kälte. Erst wenn es aufgetaut ist, gibt es Flüssigkeit zum Entsorgen. Zum Schluss wird alles gereinigt, was mit der Flüssigkeit in Berührung kam."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Bei höchstens wie viel Grad taust du tiefgekühltes Fleisch und Geflügel auf? Tippe die Zahl in °C.",
+        "answer": 7,
+        "hint": "Es ist eine Kühlschrank-Temperatur zwischen 5 und 10 Grad.",
+        "explanation": "Du taust im Kühlschrank oder im Kühlhaus bei höchstens +7 °C auf. Darüber vermehren sich die Keime schnell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Warum fängst du die Auftauflüssigkeit getrennt auf und entsorgst sie?",
+        "options": [
+          { "text": "In ihr sind viele Keime, zum Beispiel Salmonellen.", "correct": true },
+          { "text": "Sie macht das Fleisch beim späteren Braten zu trocken." },
+          { "text": "Sie wird später noch für die Soße gebraucht." }
+        ],
+        "explanation": "Die Auftauflüssigkeit hat einen hohen Keimgehalt. Das Lebensmittel darf nicht mit ihr in Berührung kommen. Deshalb fängst du sie in einer Schale mit Siebeinsatz getrennt auf. Das ist ein CCP."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ In welchem Temperaturbereich vermehren sich Keime besonders schnell?",
+        "options": [
+          { "text": "Zwischen 7 °C und 50 °C.", "correct": true },
+          { "text": "Zwischen −18 °C und 0 °C." },
+          { "text": "Zwischen 80 °C und 100 °C." }
+        ],
+        "explanation": "Zwischen 7 °C und 50 °C fühlen sich Keime wohl. Dort vermehren sie sich schnell, mit und ohne Sauerstoff. Kälte bremst sie, große Hitze tötet sie ab."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Im gefährlichen Temperaturbereich verdoppeln sich die Keime sehr schnell. Nach wie vielen Minuten? Tippe die Zahl.",
+        "answer": 20,
+        "hint": "Es ist ein Drittel einer Stunde.",
+        "explanation": "Innerhalb von 20 Minuten verdoppeln sich die Keime. Aus 100 Keimen werden in 20 Minuten 200. Deshalb gehören rohes Fleisch und Geflügel nie lange in die Wärme."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐔 Du hast Hähnchen zerteilt. Was machst du, bevor du den Salat putzt?",
+        "options": [
+          { "text": "Hände und Arbeitsplatz reinigen und desinfizieren.", "correct": true },
+          { "text": "Nur die Hände kurz mit Wasser abspülen." },
+          { "text": "Gleich weitermachen und nur das Messer kurz abwischen." }
+        ],
+        "explanation": "Geflügel verarbeitest du getrennt von anderen Tätigkeiten. Danach reinigst und desinfizierst du den Arbeitsplatz und deine Hände. Sonst bringst du Salmonellen auf den Salat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Welche Kerntemperatur nennt das BfR für Geflügel beim Braten oder Grillen?",
+        "options": [
+          { "text": "72 °C, und zwar 2 Minuten lang.", "correct": true },
+          { "text": "40 °C, und zwar 10 Minuten lang." },
+          { "text": "72 °C, aber nur für 2 Sekunden." }
+        ],
+        "explanation": "Das Bundesinstitut für Risikobewertung, kurz BfR, sagt: Beim Braten oder Grillen von Geflügel soll im Kern 2 Minuten lang eine Temperatur von 72 °C herrschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Frisches Geflügel wird geliefert. Das Thermometer zeigt 9 °C. Was tust du?",
+        "options": [
+          { "text": "Die Ware nicht annehmen und das aufschreiben.", "correct": true },
+          { "text": "Die Ware annehmen und danach schnell selbst kühlen." },
+          { "text": "Die Ware annehmen, 9 °C sind ja noch kühl." }
+        ],
+        "explanation": "Frisches Geflügel darf bei der Anlieferung höchstens +4 °C haben. Du kontrollierst die Temperatur und dokumentierst sie. Ist sie zu hoch, nimmst du die Ware nicht an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Wie lagerst du frisches Geflügel nach der Anlieferung?",
+        "options": [
+          { "text": "Sofort, abgedeckt und getrennt vom Fleisch.", "correct": true },
+          { "text": "Zusammen mit dem Fleisch, das spart viel Platz." },
+          { "text": "Erst am Abend, wenn wieder Zeit dafür ist." }
+        ],
+        "explanation": "Frisches Geflügel lagerst du sofort, abgedeckt und getrennt vom Fleisch. Die Temperatur ist dabei höchstens +4 °C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Wie taust du tiefgefrorenes Geflügel vor der Zubereitung auf?",
+        "options": [
+          { "text": "Vollständig.", "correct": true },
+          { "text": "Nur zur Hälfte." },
+          { "text": "Gar nicht." }
+        ],
+        "explanation": "Tiefgefrorenes Geflügel oder Fleisch taust du vor der Zubereitung vollständig auf. Sonst bleibt es innen kalt, und die Keime werden beim Garen nicht sicher abgetötet."
+      }
+    }
+  ]
+}

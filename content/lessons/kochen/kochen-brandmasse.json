@@ -11,7 +11,7 @@
         "steps": [
           { "text": "🧰 Arbeitsgeräte und Zutaten bereitstellen." },
           { "text": "♨️ Wasser, Salz und Margarine zum Sieden bringen." },
-          { "text": "🌾 Das Mehl unter ständigem Rühren dazugeben." },
+          { "text": "🌾 Das Mehl auf einmal dazugeben und sofort rühren." },
           { "text": "🥔 Weiterrühren, bis ein Kloß entsteht." }
         ]
       }
@@ -33,11 +33,11 @@
       "data": {
         "prompt": "🌾 Wie gibst du das Mehl in den Topf?",
         "options": [
-          { "text": "Unter ständigem Rühren.", "correct": true },
+          { "text": "Auf einmal hineingeben und dann ständig rühren.", "correct": true },
           { "text": "Auf einmal hineinschütten und danach nur kurz umrühren." },
           { "text": "Langsam einstreuen, ohne dabei zu rühren." }
         ],
-        "explanation": "Nur ständiges Rühren verteilt das Mehl gleichmäßig. Rührst du zu wenig, bilden sich Klumpen."
+        "explanation": "Das Mehl kommt auf einmal in die kochende Flüssigkeit. Danach rührst du ständig weiter, bis die Masse abgebrannt ist. Rührst du nur kurz, bilden sich Klumpen."
       }
     },
     {
@@ -75,7 +75,7 @@
         "prompt": "🥚 Die Masse ist abgebrannt. Bringe die letzten Schritte in die richtige Reihenfolge.",
         "steps": [
           { "text": "🥚 Ein Ei unter die heiße Masse rühren." },
-          { "text": "🥚 Drei weitere Eier einzeln unterrühren und die Masse abkühlen lassen." },
+          { "text": "🥚 Wenn der Teig nicht mehr heiß ist: die weiteren Eier einzeln unterrühren." },
           { "text": "🎈 Einen Teelöffel Backpulver unterrühren." },
           { "text": "🧽 Den Arbeitsplatz aufräumen." }
         ]
@@ -86,11 +86,11 @@
       "data": {
         "prompt": "🥚 Wie viele Eier kommen insgesamt in die Brandmasse?",
         "options": [
-          { "text": "4 Eier", "correct": true },
-          { "text": "3 Eier" },
-          { "text": "5 Eier" }
+          { "text": "3 bis 4 Eier, je nach Teigprobe.", "correct": true },
+          { "text": "Immer genau 4 Eier." },
+          { "text": "5 bis 6 Eier, je nach Teigprobe." }
         ],
-        "explanation": "Zuerst rührst du 1 Ei unter. Danach kommen noch 3 Eier einzeln dazu. Das sind zusammen 4 Eier."
+        "explanation": "Zuerst rührst du 1 Ei unter. Danach kommen 2 bis 3 Eier einzeln dazu. Vor dem letzten Ei prüfst du den Teig: Ist er glänzend und glatt und hängt in langen Spitzen am Knethaken? Dann brauchst du kein weiteres Ei."
       }
     },
     {

@@ -1,0 +1,137 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-eier-hack-ausgabe",
+  "title": "Produkthygiene: Eier, Hack, Ausgabe",
+  "sort": 607,
+  "intro": "🥚 Eier verarbeitest du getrennt von anderen Tätigkeiten. Nach dem Aufschlagen reinigst und desinfizierst du gründlich die Hände. Danach reinigst und desinfizierst du den Arbeitsplatz.\n\nMERKE: In der Gemeinschaftsverpflegung ist es verboten, rohe Bestandteile von Hühnereiern zu verarbeiten, die nicht erhitzt wurden. Erhitzt heißt hier: pasteurisiert. Pasteurisieren heißt: kurz erhitzen, damit Keime abgetötet werden.\n\nBeachte die Durchführungsverordnung, kurz DVO, vom August 2007: Eier werden auf mindestens 70 °C erhitzt, zum Beispiel bei Spiegeleiern oder gekochten Eiern.\n\nAuch für Hackfleisch gilt die DVO: Rohe Erzeugnisse dürfen nur am Tag ihrer Herstellung in den Verkehr gebracht werden. Danach verarbeitest du sie weiter, zum Beispiel durcherhitzen.\n\nBei der Speisenausgabe kontrollierst du vor allem die Temperaturen. Salate und andere kalte Speisen haben höchstens 7 °C. Desserts haben höchstens 10 °C. Warme Speisen haben mindestens 60 °C.\n\nWeitere Regeln: Du verarbeitest Lebensmittel nur, wenn du geprüft hast, dass sie einwandfrei sind. Speisen, die du garst oder erwärmst, erhitzt du in allen Teilen auf 80 °C. Gegarte Speisen und gereinigte Lebensmittel lagerst du nicht zusammen mit rohen oder ungeputzten Lebensmitteln.\n\nZubereitung und Verzehr liegen möglichst kurz auseinander. Die Standzeit dazwischen ist höchstens 3 bis 4 Stunden. Das ist die äußerste Grenze aus Sicht der Hygiene. Warm hältst du Speisen trotzdem so kurz wie möglich, damit Geschmack und Vitamine bleiben. Die Standzeit ist wichtig bei Restanten. Restanten sind übrig gebliebene Speisen.\n\nMERKE: Speisen und Speisereste kühlst du möglichst schnell und in kleinen Portionen herunter. Du deckst sie ab, schreibst das Herstellungsdatum darauf und lagerst sie kühl. Tiefgefrorene Speisen taust du im Kühlschrank oder im Kühlhaus auf.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Darf eine Großküche Tiramisu mit rohem, nicht erhitztem Eigelb machen?",
+        "options": [
+          { "text": "Nein, das ist dort verboten.", "correct": true },
+          { "text": "Ja, wenn die Eier ganz frisch sind." },
+          { "text": "Ja, wenn das Tiramisu gut gekühlt ist." }
+        ],
+        "explanation": "In der Gemeinschaftsverpflegung ist die Verarbeitung roher, nicht pasteurisierter Eibestandteile verboten. Frische und Kühlung töten Salmonellen nicht ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Was heißt pasteurisiert?",
+        "options": [
+          { "text": "Kurz erhitzt, damit Keime abgetötet werden.", "correct": true },
+          { "text": "Tiefgefroren bei minus 18 Grad gelagert." },
+          { "text": "Mit viel Salz und Zucker lange haltbar gemacht." }
+        ],
+        "explanation": "Pasteurisieren heißt: ein Lebensmittel kurz erhitzen. Dabei werden Keime abgetötet. Pasteurisierte Eiprodukte darf die Großküche verwenden."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍳 Auf wie viel Grad erhitzt du Eier laut DVO mindestens? Tippe die Zahl in °C.",
+        "answer": 70,
+        "hint": "Es ist mehr als 60 und weniger als 80.",
+        "explanation": "Die Durchführungsverordnung vom August 2007 verlangt: Eier mindestens auf 70 °C erhitzen, zum Beispiel beim Spiegelei oder beim gekochten Ei."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥚 Du hast Eier aufgeschlagen. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Eier getrennt von anderen Arbeiten aufschlagen." },
+          { "text": "Die Hände gründlich reinigen und desinfizieren." },
+          { "text": "Den Arbeitsplatz reinigen und desinfizieren." }
+        ],
+        "explanation": "Die Regel: Erst die Hände, dann der Platz. Frag dich: Womit fasst du den Lappen und das Desinfektionsmittel an? Mit den Händen. Deshalb müssen sie zuerst sauber sein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Rohes Hackfleisch wurde heute hergestellt. Wie lange darf es laut DVO roh verkauft oder ausgegeben werden?",
+        "options": [
+          { "text": "Nur am Tag der Herstellung.", "correct": true },
+          { "text": "Bis zu drei Tage lang, wenn es gekühlt ist." },
+          { "text": "Eine Woche lang, wenn es eingefroren war." }
+        ],
+        "explanation": "Die DVO sagt: Rohe Hackfleisch-Erzeugnisse dürfen nur am Tag ihrer Herstellung in den Verkehr gebracht werden. Danach werden sie weiterverarbeitet, zum Beispiel durcherhitzt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌡️ Welche Temperatur gilt? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥗 Salate und kalte Speisen bei der Ausgabe"}, "right": {"text": "Höchstens 7 °C"} },
+          { "left": {"text": "🍮 Desserts bei der Ausgabe"}, "right": {"text": "Höchstens 10 °C"} },
+          { "left": {"text": "🍲 Warme Speisen bei der Ausgabe"}, "right": {"text": "Mindestens 60 °C"} },
+          { "left": {"text": "🔥 Speisen garen oder erwärmen"}, "right": {"text": "In allen Teilen 80 °C"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Soll die Speise kalt bleiben oder heiß sein? Kalte Speisen bleiben unter 7 °C, Desserts unter 10 °C. Warme Speisen bleiben über 60 °C. Beim Garen und Erwärmen muss jede Stelle 80 °C erreichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Wie lange darf die Standzeit zwischen Zubereitung und Verzehr höchstens sein?",
+        "options": [
+          { "text": "3 bis 4 Stunden.", "correct": true },
+          { "text": "8 bis 10 Stunden." },
+          { "text": "Einen ganzen Tag lang." }
+        ],
+        "explanation": "Die Standzeit ist höchstens 3 bis 4 Stunden. Das ist die äußerste Grenze aus Hygiene-Sicht. Warm hältst du Speisen trotzdem so kurz wie möglich."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧊 Richtig oder falsch? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Reste schnell in kleinen Portionen herunterkühlen", "bucket": "richtig" },
+          { "text": "Reste abdecken und mit dem Herstellungsdatum beschriften", "bucket": "richtig" },
+          { "text": "Tiefgefrorene Speisen im Kühlschrank auftauen", "bucket": "richtig" },
+          { "text": "Gegartes getrennt von Rohem lagern", "bucket": "richtig" },
+          { "text": "Einen großen Topf Suppe stundenlang lauwarm stehen lassen", "bucket": "falsch" },
+          { "text": "Gekochten Schinken direkt neben rohes Hähnchen legen", "bucket": "falsch" },
+          { "text": "Reste ohne Datum offen in den Kühlschrank stellen", "bucket": "falsch" },
+          { "text": "Tiefgefrorenes auf der warmen Arbeitsfläche auftauen", "bucket": "falsch" }
+        ],
+        "explanation": "Frag dich: Haben Keime hier Wärme und Zeit, oder springen sie von Rohem auf Gegartes? Schnell kühlen, abdecken, beschriften und getrennt lagern schützt. Lauwarm, offen und gemischt lagern hilft den Keimen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Wann darfst du ein Lebensmittel weiterverarbeiten?",
+        "options": [
+          { "text": "Wenn geprüft ist, dass es einwandfrei ist.", "correct": true },
+          { "text": "Wenn es noch nicht ganz abgelaufen ist." },
+          { "text": "Wenn es von einem bekannten Hersteller kommt." }
+        ],
+        "explanation": "Du verarbeitest Lebensmittel nur weiter, wenn ihre einwandfreie Beschaffenheit geprüft wurde. Aussehen, Geruch und Verpackung gehören dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Was sind Restanten?",
+        "options": [
+          { "text": "Übrig gebliebene Speisen.", "correct": true },
+          { "text": "Rohe Zutaten aus dem Lager." },
+          { "text": "Reste von Putzmitteln." }
+        ],
+        "explanation": "Restanten sind übrig gebliebene Speisen. Für sie ist die Standzeit besonders wichtig. Du kühlst sie schnell, deckst sie ab und beschriftest sie mit dem Herstellungsdatum."
+      }
+    }
+  ]
+}

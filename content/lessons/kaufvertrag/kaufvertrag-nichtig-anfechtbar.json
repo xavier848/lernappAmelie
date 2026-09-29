@@ -1,0 +1,135 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-nichtig-anfechtbar",
+  "title": "Nichtige und anfechtbare Geschäfte",
+  "sort": 706,
+  "intro": "Ein Kaufgeschäft ist grundsätzlich rechtsgültig. Probleme gibt es bei Geschäften mit geschäftsunfähigen Menschen oder mit beschränkt geschäftsfähigen Menschen ohne die nötige Zustimmung. Dazu kommen nichtige und anfechtbare Geschäfte.\n\nNichtig heißt: Das Geschäft ist von Anfang an ungültig. Es gilt so, als wäre es nie geschlossen worden. Nichtig sind gesetzeswidrige Geschäfte, zum Beispiel der Verkauf von illegalen Drogen. Nichtig sind auch Immobiliengeschäfte ohne die vorgeschriebene Form, also ohne Vertrag beim Notar. Eine Immobilie ist ein Haus, eine Wohnung oder ein Grundstück. Und nichtig sind Geschäfte mit Menschen, die unter Schock stehen oder offensichtlich volltrunken sind.\n\nNichtig sind außerdem Geschäfte gegen die guten Sitten. Ein Beispiel sind Wucherzinsen, also viel zu hohe Zinsen, wenn jemand zu spät zahlt. Und Scheingeschäfte: Sie werden nur zum Schein geschlossen. In Wahrheit ist das Geschäft gar nicht oder anders zustande gekommen, zum Beispiel zu einem anderen Preis.\n\nAnfechtbar heißt: Das Geschäft ist erst einmal gültig. Man kann es aber anfechten, also nachträglich für ungültig erklären lassen. Anfechtbar sind Geschäfte, die durch Drohung zustande kamen, zum Beispiel durch Erpressung. Oder durch arglistige Täuschung: Der Verkäufer macht mit Absicht falsche Angaben. Beispiel: Er verkauft einen Gebrauchtwagen als unfallfrei, obwohl der Wagen einen Unfall hatte.\n\nAnfechtbar sind auch Geschäfte aus Irrtum, zum Beispiel bei einer falschen Preisauszeichnung. Dabei zählt nur der Erklärungsirrtum: Der Verkäufer hat sich versprochen oder verschrieben. Hat er sich dagegen beim Preis verrechnet, ist das ein Kalkulationsirrtum. Dafür haftet der Verkäufer in der Regel selbst.\n\nMERKE: Nichtig = von Anfang an ungültig: gesetzeswidrig, Immobilie ohne Notar, Schock oder Vollrausch, gegen die guten Sitten, Scheingeschäft. Anfechtbar = gültig, bis es angefochten wird: Drohung, arglistige Täuschung, Erklärungsirrtum.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Zwei Erwachsene schließen einen ganz normalen Kaufvertrag. Keiner droht, täuscht oder irrt sich. Ist der Vertrag gültig?",
+        "options": [
+          { "text": "Ja, er ist grundsätzlich rechtsgültig.", "correct": true },
+          { "text": "Nein, erst ein Notar macht ihn gültig." },
+          { "text": "Nur, wenn er schriftlich abgeschlossen wurde." },
+          { "text": "Nur, wenn ein Zeuge dabei war." }
+        ],
+        "explanation": "Ein Kaufgeschäft ist grundsätzlich rechtsgültig. Ein normaler Kauf wie dieser braucht keinen Notar, keine Schriftform und keinen Zeugen. Probleme gibt es nur in bestimmten Fällen: bei fehlender Geschäftsfähigkeit sowie bei nichtigen und anfechtbaren Geschäften."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❌ Was heißt „nichtig“?",
+        "options": [
+          { "text": "Das Geschäft ist von Anfang an ungültig.", "correct": true },
+          { "text": "Das Geschäft ist gültig, bis es jemand anficht." },
+          { "text": "Das Geschäft gilt nur für den Käufer." },
+          { "text": "Das Geschäft ist gültig, aber noch unbezahlt." }
+        ],
+        "explanation": "Nichtig heißt: Das Geschäft ist von Anfang an ungültig. Es gilt so, als wäre es nie geschlossen worden. Anfechtbare Geschäfte sind dagegen erst einmal gültig."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Nichtig oder anfechtbar? Sortiere.",
+        "buckets": [
+          { "id": "nichtig", "label": "Nichtig: von Anfang an ungültig", "icon": "❌" },
+          { "id": "anf", "label": "Anfechtbar: erst gültig", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Verkauf von illegalen Drogen", "bucket": "nichtig" },
+          { "text": "Verkauf an jemanden, der unter Schock steht", "bucket": "nichtig" },
+          { "text": "Kauf mit jemandem, der offensichtlich volltrunken ist", "bucket": "nichtig" },
+          { "text": "Wucherzinsen bei Zahlungsverzug", "bucket": "nichtig" },
+          { "text": "Kauf unter Drohung, zum Beispiel durch Erpressung", "bucket": "anf" },
+          { "text": "Gebrauchtwagen als unfallfrei verkauft, obwohl er einen Unfall hatte", "bucket": "anf" },
+          { "text": "Der Verkäufer hat sich beim Preis auf dem Schild verschrieben", "bucket": "anf" }
+        ],
+        "explanation": "Frag dich: Ist das Geschäft verboten oder gegen die guten Sitten? Oder konnte ein Partner gar nicht klar denken? Dann ist es nichtig. Kam es durch Drohung, arglistige Täuschung oder einen Erklärungsirrtum zustande? Dann ist es anfechtbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Zwei Nachbarn verkaufen ein Grundstück per Handschlag, ohne Notar. Was gilt?",
+        "options": [
+          { "text": "Der Vertrag ist nichtig, weil die Form fehlt.", "correct": true },
+          { "text": "Der Vertrag ist gültig, ein Handschlag reicht." },
+          { "text": "Der Vertrag ist anfechtbar wegen Irrtum." },
+          { "text": "Der Vertrag gilt, wenn ein Nachbar zuschaut." }
+        ],
+        "explanation": "Für Immobiliengeschäfte gibt es feste Formvorschriften. Der Vertrag muss beim Notar beglaubigt werden. Ohne Notar ist das Geschäft nichtig. Eine Immobilie ist ein Haus, eine Wohnung oder ein Grundstück."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Ein Händler hat sich beim Kalkulieren des Preises verrechnet. Der Preis ist zu niedrig. Kann er den Kauf anfechten?",
+        "options": [
+          { "text": "Nein, für einen Kalkulationsirrtum haftet er in der Regel selbst.", "correct": true },
+          { "text": "Ja, jeder Irrtum beim Preis macht den Kauf anfechtbar." },
+          { "text": "Ja, der Kauf ist sogar von Anfang an nichtig." },
+          { "text": "Nein, aber der Käufer muss den Unterschied nachzahlen." }
+        ],
+        "explanation": "Beim Irrtum zählt nur der Erklärungsirrtum, also sich versprechen oder verschreiben. Hat sich der Verkäufer beim Kalkulieren verrechnet, ist das ein Kalkulationsirrtum. Dafür haftet er in der Regel selbst. Der Kauf bleibt gültig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✍️ Die Verkäuferin wollte 19,90 € auf das Schild schreiben. Aus Versehen schreibt sie 1,99 €. Welcher Irrtum ist das?",
+        "options": [
+          { "text": "Ein Erklärungsirrtum, denn sie hat sich verschrieben.", "correct": true },
+          { "text": "Ein Kalkulationsirrtum, denn sie hat sich verrechnet." },
+          { "text": "Eine arglistige Täuschung, denn der Preis ist falsch." },
+          { "text": "Ein Scheingeschäft, denn der Preis ist nur zum Schein." }
+        ],
+        "explanation": "Die Verkäuferin wollte etwas anderes schreiben, als auf dem Schild steht. Sie hat sich verschrieben. Das ist ein Erklärungsirrtum. Dann ist der Kauf anfechtbar. Eine falsche Preisauszeichnung ist das typische Beispiel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Zwei Leute schreiben in den Vertrag 5 000 € für ein Auto. In Wahrheit zahlt der Käufer aber 8 000 €. Wie heißt so ein Geschäft?",
+        "options": [
+          { "text": "Scheingeschäft.", "correct": true },
+          { "text": "Erklärungsirrtum." },
+          { "text": "Bagatellgeschäft." },
+          { "text": "Fernabsatzgeschäft." }
+        ],
+        "explanation": "Ein Scheingeschäft wird nur zum Schein geschlossen. In Wahrheit ist es gar nicht oder anders zustande gekommen, zum Beispiel zu einem anderen Preis. Scheingeschäfte sind nichtig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeuten die Fachbegriffe? Verbinde.",
+        "pairs": [
+          { "left": {"text": "nichtig"}, "right": {"text": "von Anfang an ungültig"} },
+          { "left": {"text": "anfechtbar"}, "right": {"text": "erst gültig, kann aber angefochten werden"} },
+          { "left": {"text": "arglistige Täuschung"}, "right": {"text": "mit Absicht falsche Angaben"} },
+          { "left": {"text": "Erklärungsirrtum"}, "right": {"text": "versprochen oder verschrieben"} },
+          { "left": {"text": "Kalkulationsirrtum"}, "right": {"text": "beim Preis verrechnet"} },
+          { "left": {"text": "gegen die guten Sitten"}, "right": {"text": "zum Beispiel Wucherzinsen"} }
+        ],
+        "memory": false,
+        "explanation": "Nichtig und anfechtbar unterscheiden sich im Zeitpunkt: Nichtig gilt von Anfang an nicht. Anfechtbar gilt, bis jemand es anficht. Beim Irrtum achte auf das Wort: Erklären hat mit Sprechen und Schreiben zu tun, Kalkulieren mit Rechnen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Jemand verkauft illegale Drogen. Ist dieser Kaufvertrag gültig?",
+        "options": [
+          { "text": "Nein, er ist nichtig.", "correct": true },
+          { "text": "Ja, wenn beide einverstanden sind." },
+          { "text": "Ja, wenn bar bezahlt wird." }
+        ],
+        "explanation": "Gesetzeswidrige Geschäfte sind nichtig, also von Anfang an ungültig. Daran ändert auch das Einverständnis beider Seiten nichts."
+      }
+    }
+  ]
+}

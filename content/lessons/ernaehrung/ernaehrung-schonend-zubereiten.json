@@ -1,0 +1,115 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-schonend-zubereiten",
+  "title": "Schonend zubereiten: Vitamine schützen",
+  "sort": 590,
+  "intro": "🍳 Bereite Lebensmittel so zu, dass vor allem die Mikronährstoffe geschützt bleiben. Mikronährstoffe sind zum Beispiel Vitamine und Mineralstoffe. Wähle dafür die passende Garmethode, das passende Gargeschirr und die richtige Gardauer.\n\nAuch die sensorische Qualität soll erhalten bleiben. Das sind der typische Geruch, der Geschmack und die Farbe. Das Ziel: möglichst wenig Salz und Fett und mäßige Temperaturen.\n\nEin Beispiel für einen Schadstoff ist Acrylamid. Es entsteht bei trockenen Garverfahren aus Kohlenhydrat- und Eiweißbausteinen. Acrylamid wirkt möglicherweise krebserzeugend. Das Fachwort dafür ist kanzerogen.\n\nGare Gemüse in möglichst wenig Flüssigkeit. Sorge dafür, dass die Gartemperatur schnell erreicht ist. Danach drosselst du die Energiezufuhr, du schaltest also herunter.\n\nWie viele Vitamine zerstört werden, hängt nicht nur von der Gardauer ab. Besonders viele gehen verloren, wenn das Ankochen zu lange dauert. Daran sind die Enzyme im Lebensmittel beteiligt. Enzyme sind Eiweißverbindungen. Bei 60 °C werden sie unwirksam.\n\nGemüse für Rohkost beträufelst du nach dem Zerkleinern sofort mit Zitronensaft. Die Säure macht die Enzyme unwirksam. Das schont die Vitamine und verhindert, dass das Gemüse braun wird.\n\nMERKE: Beim Backen, Braten und Frittieren ist die Temperatur nur so hoch wie nötig. „Vergolden statt verkohlen!“",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Welche Stoffe willst du beim Garen vor allem schützen?",
+        "options": [
+          { "text": "Die Mikronährstoffe, z. B. Vitamine", "correct": true },
+          { "text": "Die Ballaststoffe, z. B. die Schale" },
+          { "text": "Das Fett, z. B. im Fleisch" }
+        ],
+        "explanation": "Beim Garen sollen vor allem die Mikronährstoffe erhalten bleiben, also zum Beispiel Vitamine und Mineralstoffe. Dafür wählst du Garmethode, Gargeschirr und Gardauer passend aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Was gehört zur sensorischen Qualität einer Speise?",
+        "options": [
+          { "text": "Geruch, Geschmack und Farbe", "correct": true },
+          { "text": "Preis, Menge und Gewicht" },
+          { "text": "Vitamine, Fett und Salz" }
+        ],
+        "explanation": "Sensorisch heißt: mit den Sinnen wahrnehmbar. Typischer Geruch, Geschmack und Farbe sollen beim Garen erhalten bleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Acrylamid entsteht bei trockenen Garverfahren. Woraus entsteht es?",
+        "options": [
+          { "text": "Aus Kohlenhydrat- und Eiweißbausteinen", "correct": true },
+          { "text": "Aus Wasser und Kochsalz" },
+          { "text": "Aus Vitaminen und Mineralstoffen" }
+        ],
+        "explanation": "Acrylamid bildet sich beim starken, trockenen Erhitzen aus Bausteinen von Kohlenhydraten und Eiweiß. Deshalb backst und brätst du nicht zu dunkel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Acrylamid wirkt möglicherweise kanzerogen. Was bedeutet das?",
+        "options": [
+          { "text": "Krebserzeugend", "correct": true },
+          { "text": "Krankheitserregend durch Bakterien" },
+          { "text": "Den Kreislauf stärkend" }
+        ],
+        "explanation": "Kanzerogen heißt krebserzeugend. Acrylamid kann möglicherweise Krebs auslösen. Darum vermeidest du stark gebräunte, verkohlte Speisen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥦 So garst du Gemüse schonend. Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Wenig Flüssigkeit laugt weniger Vitamine aus. Das Ankochen soll kurz sein, darum erst viel Energie. Sobald es gart, schaltest du herunter und sparst Energie.",
+        "steps": [
+          { "text": "Das Gemüse mit möglichst wenig Flüssigkeit in den Topf geben." },
+          { "text": "Auf hoher Stufe schnell die Gartemperatur erreichen." },
+          { "text": "Dann die Energiezufuhr drosseln, also herunterschalten." },
+          { "text": "Das Gemüse schonend fertig garen." }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Wann gehen beim Garen besonders viele Vitamine verloren?",
+        "options": [
+          { "text": "Wenn das Ankochen zu lange dauert", "correct": true },
+          { "text": "Wenn das Gemüse sehr schnell heiß wird" },
+          { "text": "Wenn nur wenig Wasser im Topf ist" }
+        ],
+        "explanation": "Die Vitaminzerstörung hängt nicht nur von der Gardauer ab. Besonders stark ist sie, wenn der Ankochprozess zu lange dauert. Dann können die Enzyme im Gemüse lange arbeiten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Enzyme im Gemüse sind Eiweißverbindungen. Ab wie viel °C werden sie unwirksam?",
+        "answer": 60,
+        "hint": "Es ist dieselbe Zahl wie bei der Waschtemperatur für Küchenkleidung.",
+        "explanation": "Bei 60 °C werden die Enzyme inaktiviert, also unwirksam. Darum soll das Gemüse schnell heiß werden. So haben die Enzyme wenig Zeit, Vitamine zu zerstören."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍋 Warum beträufelst du geschnittene Rohkost sofort mit Zitronensaft?",
+        "options": [
+          { "text": "Die Säure stoppt die Enzyme: Das schont Vitamine und verhindert Bräunung.", "correct": true },
+          { "text": "Der Zitronensaft ersetzt das Salz, darum kann man Salz ganz weglassen." },
+          { "text": "Der Saft macht das harte Gemüse weicher, sodass man es besser kauen kann." }
+        ],
+        "explanation": "Die Säure im Zitronensaft setzt die Enzyme außer Gefecht. So bleiben mehr Vitamine erhalten, und das Gemüse wird nicht braun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was bedeutet „vergolden statt verkohlen“?",
+        "options": [
+          { "text": "Nur so heiß backen und braten wie nötig, goldgelb statt dunkel.", "correct": true },
+          { "text": "Speisen vor dem Backen immer dick mit Eigelb bestreichen." },
+          { "text": "Lieber länger und heißer backen, damit alles schön knusprig wird." }
+        ],
+        "explanation": "Beim Backen, Braten und Frittieren wählst du die Temperatur nur so hoch wie nötig. Goldgelb ist gut, dunkelbraun oder schwarz nicht. So entsteht weniger Acrylamid."
+      }
+    }
+  ]
+}

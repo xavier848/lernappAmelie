@@ -1,0 +1,135 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-staubsauger-pflege",
+  "title": "Staubsauger: Kauf, Pflege, Saugtechnik",
+  "sort": 657,
+  "intro": "Beim Kauf eines Staubsaugers achtest du auf diese Punkte: Er passt zur Größe und Art der Fläche. Er lässt sich leicht für verschiedene Arbeiten umrüsten. Der Filter lässt sich leicht wechseln, und das Gerät lässt sich leicht tragen. Es arbeitet leise. Die Saugleistung lässt sich in Stufen einstellen. Die Räder laufen leicht. Das Kabel ist lang. Die Bedienelemente sitzen am Griff. So musst du dich nicht oft bücken.\n\nEs gab ein EU-Energie-Label für Staubsauger. Es kam mit der EU-Öko-Design-Richtlinie von 2013. Im Januar 2019 hat der EuGH es für nichtig erklärt. Der EuGH ist der Europäische Gerichtshof. Seitdem darf das Label nicht mehr benutzt werden. Es zeigte aber übersichtlich wichtige Punkte: Lautstärke, Stromverbrauch, Reinigungswirkung auf Hartböden und Teppichen und Staub in der Abluft.\n\nFür eine gute Saugleistung ist nicht die Wattzahl entscheidend. Wichtig ist: Gerät und Düse passen gut zusammen. Dazu kommen ein gutes Luftströmungssystem, eine gute Bürste und ein dichtes Gerät. Die Dichtigkeit erkennst du an der Staubemissionsklasse. Motoren müssen in Zukunft mindestens 500 Arbeitsstunden halten.\n\nDen Staubsauger reinigst du regelmäßig. Die Füllmengenanzeige zeigt, wann der Staubbeutel voll ist. Dann leerst du ihn sofort. Sonst lässt die Reinigungsleistung nach. Auch die anderen Filter tauschst du regelmäßig aus: Mikrofilter, Abluftfilter und Motorfilter. Meist machst du das, wenn du einen neuen Staubbeutel einlegst.\n\nDüsen und Gehäuse wischst du mit einem feuchten Tuch ab. Ins Wasser kommt Allzweck- oder Neutralreiniger. Danach trocknest du nach. Den Bürstenkranz der Düse befreist du mit dem Saugschlauch von Haaren, Fusseln und Fäden.\n\nSo saugst du richtig: Auf freien Flächen wie Fluren saugst du in Zick-Zack-Bewegungen. In Räumen mit Möbeln machst du das Inselsaugen. Das heißt: Du saugst von deinem Standort aus fächerförmig. Dabei arbeitest du dich zur Tür hin. Arbeite langsam. Je länger die Düse auf der Fläche bleibt, desto mehr Staub nimmt sie auf.\n\nMERKE: Freie Fläche = Zick-Zack. Raum mit Möbeln = Inselsaugen, fächerförmig zur Tür hin. Langsam saugen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Du kaufst einen Staubsauger. Worauf achtest du? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Darauf achte ich", "icon": "✅" },
+          { "id": "nein", "label": "Eher ein Nachteil", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Leicht umzurüsten für verschiedene Arbeiten", "bucket": "ja" },
+          { "text": "Leichter Filterwechsel", "bucket": "ja" },
+          { "text": "Leises Betriebsgeräusch", "bucket": "ja" },
+          { "text": "Saugleistung in Stufen einstellbar", "bucket": "ja" },
+          { "text": "Bedienelemente am Griff", "bucket": "ja" },
+          { "text": "Langes Kabel", "bucket": "ja" },
+          { "text": "Ein möglichst kurzes Kabel", "bucket": "nein" },
+          { "text": "Schwergängige Räder", "bucket": "nein" }
+        ],
+        "explanation": "Ein guter Staubsauger macht dir die Arbeit leicht. Er ist leise, vielseitig und gut zu bedienen. Ein langes Kabel spart Umstecken. Bedienelemente am Griff sparen das Bücken. Schwergängige Räder und ein kurzes Kabel machen die Arbeit schwerer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💨 Woran liegt eine gute Saugleistung vor allem?",
+        "options": [
+          { "text": "Gerät und Düse passen zusammen, und das Gerät ist dicht.", "correct": true },
+          { "text": "An einer möglichst hohen Wattzahl des Motors, sonst an nichts." },
+          { "text": "An einer möglichst großen Staubbox, egal welche Düse dran ist." }
+        ],
+        "explanation": "Die Wattzahl ist nicht entscheidend. Wichtig ist, dass Gerät und Düse gut aufeinander abgestimmt sind. Dazu kommen ein gutes Luftströmungssystem, eine gute Bürste und ein dichtes Gerät. Die Dichtigkeit zeigt die Staubemissionsklasse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Was ist mit dem EU-Energie-Label für Staubsauger passiert?",
+        "options": [
+          { "text": "Der EuGH hat es im Januar 2019 für nichtig erklärt.", "correct": true },
+          { "text": "Es ist seit Januar 2019 für alle Staubsauger in der EU Pflicht." },
+          { "text": "Es gilt seit 2013 nur noch für Saugroboter." }
+        ],
+        "explanation": "Das Label kam 2013 mit der Öko-Design-Richtlinie. Im Januar 2019 hat der Europäische Gerichtshof, kurz EuGH, es für nichtig erklärt. Seitdem darf es nicht mehr benutzt werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Das alte Energie-Label zeigte wichtige Kaufpunkte. Welche?",
+        "options": [
+          { "text": "Lautstärke, Stromverbrauch, Reinigungswirkung und Staub in der Abluft.", "correct": true },
+          { "text": "Farbe, Gewicht, Preis und die Dauer der Garantie des Herstellers." },
+          { "text": "Die Länge von Kabel und Schlauch und die Zahl der mitgelieferten Düsen." }
+        ],
+        "explanation": "Auch wenn das Label nicht mehr gilt: Seine Punkte helfen beim Kauf. Lautstärke, Stromverbrauch, Reinigungswirkung auf Hartboden und Teppich und Staub in der Abluft."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Wie viele Arbeitsstunden müssen Staubsauger-Motoren in Zukunft mindestens halten?",
+        "answer": 500,
+        "hint": "Es sind einige Hundert Stunden.\nDie Zahl liegt zwischen 400 und 600.",
+        "explanation": "Motoren müssen in Zukunft mindestens 500 Arbeitsstunden halten. So hält ein Staubsauger länger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟥 Die Füllmengenanzeige zeigt: Der Staubbeutel ist voll. Was tust du?",
+        "options": [
+          { "text": "Den Beutel sofort wechseln, sonst saugt das Gerät schwächer.", "correct": true },
+          { "text": "Weitersaugen, bis der Staubsauger von allein ausgeht." },
+          { "text": "Den vollen Beutel draußen kurz ausschütteln und dann wieder einsetzen." }
+        ],
+        "explanation": "Ein voller Beutel bremst die Luft. Dann lässt die Reinigungsleistung nach. Darum leerst oder wechselst du ihn sofort. Mikro-, Abluft- und Motorfilter tauschst du meist gleich mit aus."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧰 Staubsauger pflegen: Was machst du womit? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🔲 Mikro-, Abluft- und Motorfilter"}, "right": {"text": "Meist beim neuen Staubbeutel tauschen"} },
+          { "left": {"text": "🧽 Düsen und Gehäuse"}, "right": {"text": "Feucht mit Allzweckreiniger abwischen, nachtrocknen"} },
+          { "left": {"text": "🪮 Bürstenkranz der Düse"}, "right": {"text": "Haare und Fäden mit dem Saugschlauch entfernen"} }
+        ],
+        "explanation": "Filter werden regelmäßig getauscht, am einfachsten zusammen mit dem Beutel. Das Äußere wischst du feucht mit Allzweck- oder Neutralreiniger ab. Haare in der Bürste saugst du mit dem Schlauch ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛋️ Im Wohnzimmer stehen viele Möbel. Wie saugst du?",
+        "options": [
+          { "text": "Inselsaugen: vom Standort aus fächerförmig, zur Tür hin.", "correct": true },
+          { "text": "In großen Zick-Zack-Bahnen quer durch den ganzen Raum." },
+          { "text": "Von der Tür aus gerade bis zur hinteren Wand des Raums." }
+        ],
+        "explanation": "In möblierten Räumen ist kein Platz für große Bahnen. Beim Inselsaugen saugst du von einem Standort aus fächerförmig. Dann gehst du zum nächsten Standort, immer Richtung Tür."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐢 Warum saugst du langsam?",
+        "options": [
+          { "text": "Je länger die Düse auf der Stelle ist, desto mehr Staub nimmt sie auf.", "correct": true },
+          { "text": "Damit der Motor nicht zu heiß wird und dadurch viele Jahre länger hält." },
+          { "text": "Damit sich das Kabel nicht um die Beine der Möbel im Raum wickelt." }
+        ],
+        "explanation": "Die Düse braucht Zeit, um den Staub aufzunehmen. Je länger sie auf der Fläche verweilt, desto mehr Staub holt sie heraus. Schnelles Hin und Her bringt weniger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚶 Du saugst einen langen, freien Flur. Wie führst du die Düse?",
+        "options": [
+          { "text": "In Zick-Zack-Bewegungen.", "correct": true },
+          { "text": "Fächerförmig im Kreis." },
+          { "text": "Nur einmal in der Mitte." }
+        ],
+        "explanation": "Auf freien Flächen wie Fluren saugst du in Zick-Zack-Bewegungen. So bleibt keine Stelle aus."
+      }
+    }
+  ]
+}

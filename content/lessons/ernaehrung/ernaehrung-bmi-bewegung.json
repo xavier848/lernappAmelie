@@ -1,0 +1,136 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-bmi-bewegung",
+  "title": "Bewegung und Körpergewicht (BMI)",
+  "sort": 592,
+  "intro": "🏃 Ausgewogene Ernährung, viel Bewegung und Sport gehören zusammen. Bewege dich 30 bis 60 Minuten am Tag. Mach Sport, idealerweise 2-mal pro Woche. Mit dem richtigen Körpergewicht fühlst du dich wohl und bleibst gesund.\n\nÜbergewicht bereitet vielen Krankheiten den Weg: Bluthochdruck, Diabetes Typ 2, Fettstoffwechselstörungen, koronare Herzkrankheit und Gicht. Koronare Herzkrankheit heißt: Die Herzkranzgefäße sind verengt.\n\nAuch Untergewicht birgt Risiken für die Gesundheit. Es kann gewollt sein, um einem Schönheitsideal zu entsprechen. Oder es entsteht durch eine schwere Krankheit. Bei alten Menschen kann es auch durch Einsamkeit entstehen.\n\nBewegung verbraucht weniger Energie, als viele denken. Regelmäßig bringt sie aber nur Vorteile: Die Muskeln werden beansprucht und verbrauchen Energie. Du bleibst beweglich. Und du fühlst dich seelisch wohler.\n\nDas Körpergewicht von Erwachsenen beurteilt man meist mit dem Body-Mass-Index, kurz BMI. So rechnest du: BMI = Körpergewicht in kg : (Körpergröße in m × Körpergröße in m). Beispiel aus dem Buch: 63 kg : (1,65 m × 1,65 m) = 63 : 2,7 = 23,3.\n\nDie Grenzwerte der WHO: Unter 18,5 ist Untergewicht. 18,5 bis 24,9 ist Normalgewicht. 25,0 bis 29,9 ist leichtes Übergewicht. 30,0 bis 39,9 ist deutliches Übergewicht. Über 40 ist schwerstes Übergewicht.\n\nMERKE: Normalgewicht heißt BMI 18,5 bis 24,9.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Wie viel Bewegung am Tag empfiehlt das Buch?",
+        "options": [
+          { "text": "30 bis 60 Minuten", "correct": true },
+          { "text": "Nur 5 bis 10 Minuten" },
+          { "text": "3 bis 4 Stunden" }
+        ],
+        "explanation": "30 bis 60 Minuten Bewegung am Tag halten dich gesund. Dazu gehört auch Alltagsbewegung wie Treppensteigen oder Radfahren."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏋️ Wie oft pro Woche solltest du idealerweise Sport machen?",
+        "answer": 2,
+        "hint": "Es ist weniger als 3-mal pro Woche, aber mehr als einmal.",
+        "explanation": "Idealerweise machst du 2-mal pro Woche Sport. Zusammen mit täglicher Bewegung und ausgewogener Ernährung fördert das Wohlbefinden und Gesundheit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚠️ Kann das eine Folge von Übergewicht sein? Sortiere.",
+        "explanation": "Frag dich: Entsteht die Krankheit langsam durch zu viel Körpergewicht und Stoffwechsel? Dann ist sie eine Folge von Übergewicht. Erkältung, Sonnenbrand oder Knochenbruch haben andere Ursachen.",
+        "buckets": [
+          { "id": "ja", "label": "Folge von Übergewicht", "icon": "⚠️" },
+          { "id": "nein", "label": "Keine Folge von Übergewicht", "icon": "➖" }
+        ],
+        "items": [
+          { "text": "Bluthochdruck", "bucket": "ja" },
+          { "text": "Diabetes Typ 2", "bucket": "ja" },
+          { "text": "Gicht", "bucket": "ja" },
+          { "text": "Koronare Herzkrankheit", "bucket": "ja" },
+          { "text": "Fettstoffwechselstörungen", "bucket": "ja" },
+          { "text": "Eine Erkältung", "bucket": "nein" },
+          { "text": "Ein Sonnenbrand", "bucket": "nein" },
+          { "text": "Ein gebrochener Arm nach einem Sturz", "bucket": "nein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥀 Wodurch kann Untergewicht entstehen?",
+        "options": [
+          { "text": "Durch ein Ideal, eine schwere Krankheit oder Einsamkeit", "correct": true },
+          { "text": "Durch zu viel Schlaf und zu viel frisches Obst am Abend" },
+          { "text": "Durch große Portionen und sehr wenig Bewegung im Alltag" }
+        ],
+        "explanation": "Untergewicht kann gewollt sein, um einem Ideal zu entsprechen. Es kann durch eine schwere Krankheit entstehen. Bei alten Menschen auch durch Einsamkeit. Untergewicht ist nicht harmlos."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Bewegung verbraucht weniger Energie als gedacht. Warum lohnt sie sich trotzdem?",
+        "options": [
+          { "text": "Die Muskeln arbeiten, du bleibst beweglich und fühlst dich seelisch wohler.", "correct": true },
+          { "text": "Nach dem Sport darfst du so viel Süßes essen, wie du nur möchtest, ohne Folgen." },
+          { "text": "Nach dem Sport brauchst du in der Nacht gar keinen Schlaf mehr." }
+        ],
+        "explanation": "Regelmäßige Bewegung bringt nur Vorteile: Die Muskulatur wird beansprucht und verbraucht Energie, die Beweglichkeit bleibt erhalten und das seelische Wohlbefinden steigt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Wie rechnest du den BMI aus?",
+        "options": [
+          { "text": "Gewicht in kg : (Größe in m × Größe in m)", "correct": true },
+          { "text": "Gewicht in kg × (Größe in m × Größe in m)" },
+          { "text": "Größe in cm minus 100 als Kilogramm" },
+          { "text": "Gewicht in kg : Alter in Jahren" }
+        ],
+        "explanation": "Beim BMI teilst du das Körpergewicht in Kilogramm durch die Körpergröße in Metern mal die Körpergröße in Metern. Die Größe nimmst du also zweimal."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Beispiel aus dem Buch: 63 kg und 1,65 m groß. Wie hoch ist der BMI?",
+        "options": [
+          { "text": "23,3", "correct": true },
+          { "text": "38,2" },
+          { "text": "17,6" },
+          { "text": "26,1" }
+        ],
+        "explanation": "1,65 × 1,65 sind rund 2,7. Dann rechnest du 63 : 2,7 = 23,3. Das liegt im Normalgewicht."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Eine Frau ist 1,60 m groß und wiegt 64 kg. Wie hoch ist ihr BMI?",
+        "answer": 25,
+        "hint": "Rechne zuerst 1,60 × 1,60 = 2,56.\nDann 64 : 2,56 = ?\nTipp: 2,56 × 25 = 64",
+        "explanation": "1,60 × 1,60 = 2,56. 64 : 2,56 = 25. Der BMI dieser Frau ist also 25."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📊 BMI und Einteilung der WHO. Verbinde.",
+        "explanation": "Die WHO teilt den BMI in fünf Bereiche. Merke dir vor allem das Normalgewicht: 18,5 bis 24,9. Darunter beginnt das Untergewicht, darüber das Übergewicht.",
+        "pairs": [
+          { "left": {"text": "unter 18,5"}, "right": {"text": "Untergewicht"} },
+          { "left": {"text": "18,5 bis 24,9"}, "right": {"text": "Normalgewicht"} },
+          { "left": {"text": "25,0 bis 29,9"}, "right": {"text": "Leichtes Übergewicht"} },
+          { "left": {"text": "30,0 bis 39,9"}, "right": {"text": "Deutliches Übergewicht"} },
+          { "left": {"text": "über 40"}, "right": {"text": "Schwerstes Übergewicht"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Lisa hat einen BMI von 21. Was bedeutet das?",
+        "options": [
+          { "text": "Normalgewicht", "correct": true },
+          { "text": "Untergewicht" },
+          { "text": "Leichtes Übergewicht" }
+        ],
+        "explanation": "21 liegt zwischen 18,5 und 24,9. Das ist nach der WHO Normalgewicht."
+      }
+    }
+  ]
+}

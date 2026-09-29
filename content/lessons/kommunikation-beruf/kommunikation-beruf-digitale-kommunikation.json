@@ -1,0 +1,151 @@
+{
+  "topic_slug": "kommunikation-beruf",
+  "slug": "kommunikation-beruf-digitale-kommunikation",
+  "title": "Digitale Kommunikation",
+  "sort": 694,
+  "intro": "💻 Ob Kommunikation gelingt, hängt von vielem ab. Zum Beispiel von den Bedürfnissen und Wünschen der Gesprächspartner. Und davon, wie gut man ihre Signale mit und ohne Worte beobachtet und einordnet. Wer darauf achtet, sorgt für ein gutes Miteinander.\n\nKaum eine Technik hat unser Leben so verändert wie der Computer. Statt über das Festnetz telefonieren wir per Smartphone, auch mit Video. Statt eines Geschäftsbriefs per Post schreiben wir eine E-Mail. Das geht viel schneller. Ein digitaler Kalender erinnert uns an Termine.\n\nAuch die Hauswirtschaft ist digital. Die Waschmaschine hat zum Beispiel einen Touch-Screen. Die Arbeitspläne für alle Mitarbeiter stehen in einer Software.\n\nMERKE: Digitale Kommunikation ist Kommunikation mit Hilfe digitaler Medien. Sie hat Vorteile und Nachteile.\n\nBei Textnachrichten, E-Mails und Sprachnachrichten fehlt die Körpersprache. Du siehst nicht, wie der andere reagiert. So entstehen leicht Missverständnisse. Bei allem Geschriebenen fehlt außerdem die Stimmlage. Auch das führt zu falschen Deutungen.\n\nIm Netz kann die virtuelle Identität anders sein als die echte. Das kann schützen, zum Beispiel Jugendliche. Es kann aber auch zur Täuschung missbraucht werden. Das ist dann Cyberkriminalität, also Straftaten im Internet.\n\nSocial Media verändert das Gefühl für Zeit. Viele unterschätzen, wie lange sie am Smartphone oder Laptop sind. Durch E-Mail und Messenger meinen viele, sie müssten immer erreichbar sein. Dann verschwimmen Arbeit und Freizeit.\n\nIm Internet hinterlässt du Spuren, zum Beispiel durch Cookies. Daraus kann man deine Vorlieben und Interessen ablesen. Der Mensch wird „gläsern“. Außerdem gibt es Fake News. Das sind Falschmeldungen, die man oft nicht als falsch erkennt.\n\nMERKE: Im Internet gelten die gleichen Regeln wie im echten Leben. Dazu kommt der Schutz der Persönlichkeitsrechte, also der Datenschutz.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💻 Was ist digitale Kommunikation?",
+        "options": [
+          { "text": "Kommunikation mit Hilfe digitaler Medien.", "correct": true },
+          { "text": "Jedes Gespräch, bei dem man sich gegenübersitzt." },
+          { "text": "Nur Briefe, die man mit der Post verschickt." }
+        ],
+        "explanation": "Digitale Medien sind zum Beispiel Smartphone, Computer, E-Mail und Messenger. Wer darüber Nachrichten austauscht, kommuniziert digital."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📅 Was war früher oft üblich, was ist heute oft üblich? Sortiere.",
+        "buckets": [
+          { "id": "frueher", "label": "Früher oft", "icon": "📜" },
+          { "id": "heute", "label": "Heute oft", "icon": "📲" }
+        ],
+        "items": [
+          { "text": "Anruf über das Festnetz", "bucket": "frueher" },
+          { "text": "Geschäftsbrief mit der Post", "bucket": "frueher" },
+          { "text": "Video-Anruf mit dem Smartphone", "bucket": "heute" },
+          { "text": "E-Mail an einen Geschäftspartner", "bucket": "heute" },
+          { "text": "Digitaler Kalender mit Erinnerung", "bucket": "heute" },
+          { "text": "Touch-Screen an der Waschmaschine", "bucket": "heute" },
+          { "text": "Arbeitspläne in einer Software", "bucket": "heute" }
+        ],
+        "explanation": "Frag dich: Braucht man dafür einen Computer oder ein Smartphone? Dann ist es die heutige, digitale Lösung. Festnetz und Post waren früher der übliche Weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📱 Du schreibst einer Kollegin eine kurze Textnachricht. Sie versteht sie falsch. Warum passiert das leicht?",
+        "options": [
+          { "text": "Ihr fehlt die Körpersprache, also die Signale ohne Worte.", "correct": true },
+          { "text": "Textnachrichten kommen oft nur zur Hälfte beim anderen an." },
+          { "text": "Kurze Nachrichten sind grundsätzlich immer unfreundlich." }
+        ],
+        "explanation": "Im Gespräch siehst du Gesicht und Haltung. In einer Textnachricht fehlt das. Du siehst auch nicht, wie die Kollegin reagiert. So deutet man Worte leicht falsch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✉️ Was fehlt bei einer E-Mail, anders als bei einem Telefonat?",
+        "options": [
+          { "text": "Die Stimmlage, also akustische Hinweise.", "correct": true },
+          { "text": "Der Name der Person, die die E-Mail schreibt." },
+          { "text": "Die Uhrzeit, zu der sie geschrieben wurde." }
+        ],
+        "explanation": "Am Telefon hörst du, ob jemand freundlich, müde oder ärgerlich klingt. Beim Geschriebenen fehlt die Stimme. Darum können Worte anders ankommen, als sie gemeint waren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎭 Im Internet kann die virtuelle Identität anders sein als die echte. Was stimmt?",
+        "options": [
+          { "text": "Das kann Jugendliche schützen, aber auch zur Täuschung dienen.", "correct": true },
+          { "text": "Das ist im Internet grundsätzlich verboten und immer strafbar." },
+          { "text": "Das ist nie ein Problem, weil im Netz alle ehrlich sind." }
+        ],
+        "explanation": "Ein Spitzname schützt zum Beispiel Jugendliche. Betrüger nutzen falsche Identitäten aber auch, um andere zu täuschen. Das ist Cyberkriminalität."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet der Begriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Cookies"}, "right": {"text": "Spuren, die du beim Surfen hinterlässt"} },
+          { "left": {"text": "Gläserner Mensch"}, "right": {"text": "Man kann viel über seine Vorlieben ablesen"} },
+          { "left": {"text": "Cyberkriminalität"}, "right": {"text": "Straftaten im Internet"} },
+          { "left": {"text": "Virtuelle Identität"}, "right": {"text": "Wie jemand im Netz auftritt"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf die Wortbilder. Durch Glas kann man hindurchsehen, so wie andere in deine Daten sehen. „Cyber“ steht für die Welt des Internets. Virtuell heißt: nicht echt, nur im Computer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Was passiert durch Social Media bei vielen Menschen mit dem Gefühl für Zeit?",
+        "options": [
+          { "text": "Sie unterschätzen, wie lange sie am Handy sind.", "correct": true },
+          { "text": "Sie überschätzen ihre Zeit am Handy sehr stark." },
+          { "text": "Sie merken jede einzelne Minute am Handy genau." }
+        ],
+        "explanation": "Beim Scrollen vergeht die Zeit schnell. Viele merken nicht, wie lange sie schon am Smartphone oder Laptop sitzen. Sie schätzen die Zeit also zu kurz ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📲 Die Chefin schickt abends noch Nachrichten über den Messenger. Welches Problem der digitalen Kommunikation zeigt das?",
+        "options": [
+          { "text": "Arbeit und Freizeit verschwimmen.", "correct": true },
+          { "text": "Nachrichten kommen abends viel langsamer an." },
+          { "text": "Im Messenger fehlt immer der Absender." }
+        ],
+        "explanation": "Durch E-Mail und Messenger meinen viele, sie müssten immer erreichbar sein. Dann ist die Grenze zwischen Arbeit und Freizeit nicht mehr klar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤝 Wovon hängt gelungene Kommunikation zum Beispiel ab?",
+        "options": [
+          { "text": "Von den Wünschen der Partner und dem Deuten ihrer Signale.", "correct": true },
+          { "text": "Nur davon, wie viele Wörter im Gespräch insgesamt fallen." },
+          { "text": "Nur davon, welches Handy die beiden Partner benutzen." }
+        ],
+        "explanation": "Gute Kommunikation achtet auf die Bedürfnisse und Wünsche der anderen. Dazu beobachtest du ihre Signale mit und ohne Worte und ordnest sie richtig ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Welche Regeln gelten für die Kommunikation im Internet?",
+        "options": [
+          { "text": "Die gleichen wie im echten Leben, dazu der Datenschutz.", "correct": true },
+          { "text": "Keine, denn im Internet ist einfach alles erlaubt." },
+          { "text": "Nur die Regeln, die sich die jeweilige App selbst ausdenkt." }
+        ],
+        "explanation": "Im Netz gilt dasselbe wie im echten Leben: Höflichkeit und Respekt. Zusätzlich schützt du die Persönlichkeitsrechte, also die Daten und Bilder von Menschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was sind Fake News?",
+        "options": [
+          { "text": "Falschmeldungen.", "correct": true },
+          { "text": "Neue Nachrichten." },
+          { "text": "Wetterberichte." }
+        ],
+        "explanation": "Fake heißt auf Englisch falsch, News heißt Nachrichten. Fake News sind also Falschmeldungen. Prüfe darum, woher eine Nachricht kommt."
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-lieferschein-rechnung",
+  "title": "Lieferschein und Rechnung",
+  "sort": 710,
+  "intro": "📦 Im Lager liegen zwei Arten von Waren. Lebensmittel heißen Food-Produkte. Alles andere heißt Non-Food, zum Beispiel Wäsche oder Reinigungsmittel. Beide brauchen unterschiedliche Lagerbedingungen.\n\nDu musst den Lagerbestand immer im Überblick haben. Dabei denkst du auch an den Mindestbestand und an die Notverpflegung. Der Bestand muss mit dem Ergebnis der Inventur übereinstimmen.\n\nBei der Warenannahme prüfst du die Ware genau, bevor du den Lieferschein abzeichnest. Abzeichnen heißt: unterschreiben. Du achtest auf zwei Dinge: 1. die Qualität, also die Güte und den Zustand. 2. die Quantität. Quantität heißt Menge.\n\nAuf dem Lieferschein steht meist kein Preis. Der Preis steht auf der Rechnung. Die Rechnung kommt erst danach. Den Preis vereinbarst du aber schon vorher, bei der Bestellung.\n\nDer Rechnung liegt meist eine Durchschrift vom Lieferschein bei. Eine Durchschrift ist eine Kopie. Darauf steht deine Unterschrift.\n\nDas steht auf einem Lieferschein: Oben stehen Absender und Empfänger. Dazu kommen Auftragsnummer, Kundennummer, Lieferscheinnummer, ein Ansprechpartner und das Datum. In der Tabelle stehen Position, Artikelbezeichnung und Menge. Zum Beispiel: Leberwurst grob, 3 kg, à 500 g. „à 500 g“ heißt: in Stücken zu je 500 g.\n\nUnten steht oft: Es gelten unsere Allgemeinen Geschäftsbedingungen, kurz AGB. Das sind die festen Vertragsregeln der Firma. Und: Die gelieferte Ware bleibt bis zur vollständigen Bezahlung in unserem Besitz. Das heißt: Sie gehört dem Lieferanten, bis alles bezahlt ist. Das nennt man Eigentumsvorbehalt.\n\nAuf dem Wochenmarkt machst du es genauso: Du schaust dir die Ware zuerst genau an. Dann lässt du sie vor deinen Augen wiegen.\n\nMERKE: Erst Qualität und Menge prüfen, dann den Lieferschein abzeichnen.\n\nMERKE: Lieferschein = was und wie viel geliefert wurde, ohne Preis. Rechnung = der Preis, dazu eine Durchschrift vom Lieferschein.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Food oder Non-Food? Sortiere die Waren im Lager.",
+        "buckets": [
+          { "id": "food", "label": "Food", "icon": "🍎" },
+          { "id": "non", "label": "Non-Food", "icon": "🧻" }
+        ],
+        "items": [
+          { "text": "Mehl", "bucket": "food" },
+          { "text": "Tiefkühlerbsen", "bucket": "food" },
+          { "text": "Milch", "bucket": "food" },
+          { "text": "Weißwürste", "bucket": "food" },
+          { "text": "Bettwäsche", "bucket": "non" },
+          { "text": "Spülmittel", "bucket": "non" },
+          { "text": "Tischdecken", "bucket": "non" },
+          { "text": "Toilettenpapier", "bucket": "non" }
+        ],
+        "explanation": "Frag dich: Kann man das essen oder trinken? Dann ist es Food, also ein Lebensmittel. Alles andere ist Non-Food, zum Beispiel Wäsche und Reinigungsmittel. Beide Gruppen lagert man unterschiedlich."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Fachwörter bei der Warenannahme. Was bedeutet was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "📏 Quantität"}, "right": {"text": "Die Menge der Ware"} },
+          { "left": {"text": "⭐ Qualität"}, "right": {"text": "Die Güte und der Zustand der Ware"} },
+          { "left": {"text": "✍️ Abzeichnen"}, "right": {"text": "Den Lieferschein unterschreiben"} },
+          { "left": {"text": "📄 Durchschrift"}, "right": {"text": "Eine Kopie mit deiner Unterschrift"} },
+          { "left": {"text": "📜 AGB"}, "right": {"text": "Die festen Vertragsregeln der Firma"} }
+        ],
+        "explanation": "Quantität und Qualität klingen ähnlich. Merk dir: Quantität zählt, wie viel da ist. Qualität sagt, wie gut es ist. Beides prüfst du, bevor du abzeichnest."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Du suchst den Preis für die gelieferten Weißwürste. Wo findest du ihn?",
+        "options": [
+          { "text": "Auf der Rechnung, die danach kommt.", "correct": true },
+          { "text": "Auf dem Lieferschein, in der Spalte Menge." },
+          { "text": "Nur auf dem Etikett der Lieferkiste." }
+        ],
+        "explanation": "Auf dem Lieferschein steht meist kein Preis. Er zeigt nur, was und wie viel geliefert wurde. Der Preis steht auf der Rechnung, die nach der Lieferung kommt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📞 Ein neuer Lieferant sagt: „Den Preis sehen Sie dann auf der Rechnung.“ Was ist richtig?",
+        "options": [
+          { "text": "Den Preis vereinbarst du schon bei der Bestellung.", "correct": true },
+          { "text": "Den Preis erfährst du wirklich erst mit der Rechnung." },
+          { "text": "Den Preis sagt dir der Fahrer bei der Lieferung." }
+        ],
+        "explanation": "Der Preis steht zwar erst auf der Rechnung. Vereinbart wird er aber vorher, schon bei der Bestellung. Sonst weißt du nicht, was die Ware kostet, und kannst die Rechnung nicht prüfen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📎 Die Rechnung für die Lieferung kommt mit der Post. Was liegt ihr meistens bei?",
+        "options": [
+          { "text": "Eine Durchschrift vom Lieferschein, den du unterschrieben hast.", "correct": true },
+          { "text": "Eine Kopie der Inventurliste vom letzten Jahresende." },
+          { "text": "Ein neuer Lieferschein, den du dann noch einmal unterschreiben musst." }
+        ],
+        "explanation": "Der Rechnung liegt meist eine Durchschrift vom unterschriebenen Lieferschein bei. So kannst du vergleichen: Wurde nur berechnet, was du auch angenommen hast?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Welche Angaben stehen oben auf einem Lieferschein?",
+        "options": [
+          { "text": "Auftragsnummer, Kundennummer, Lieferscheinnummer, Datum.", "correct": true },
+          { "text": "Einzelpreise, Rabatt, Mehrwertsteuer und darunter die Endsumme." },
+          { "text": "Kontostand, IBAN, BIC und die Zahlungsfrist." }
+        ],
+        "explanation": "Oben auf dem Lieferschein stehen Nummern, die die Lieferung eindeutig machen: Auftrags-, Kunden- und Lieferscheinnummer. Dazu kommen Ansprechpartner und Datum. Preise, Steuer und Endsumme stehen erst auf der Rechnung."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Auf dem Lieferschein steht: Leberwurst grob, 3 kg, à 500 g. Wie viele Stücke Leberwurst müssen geliefert sein?",
+        "answer": 6,
+        "hint": "3 kg sind 3.000 g. Wie oft passen 500 g in 3.000 g?",
+        "explanation": "„à 500 g“ heißt: Jedes Stück wiegt 500 g. 3 kg sind 3.000 g. 3.000 g geteilt durch 500 g sind 6 Stücke. Zähl bei der Annahme nach, ob es wirklich 6 sind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔒 Unten auf dem Lieferschein steht: „Die gelieferte Ware bleibt bis zur vollständigen Bezahlung in unserem Besitz.“ Was bedeutet das?",
+        "options": [
+          { "text": "Die Ware gehört dem Lieferanten, bis sie ganz bezahlt ist.", "correct": true },
+          { "text": "Die Ware darf erst nach der Bezahlung ausgepackt werden." },
+          { "text": "Der Lieferant holt die Ware nach der Bezahlung sofort wieder ab." }
+        ],
+        "explanation": "Das ist der Eigentumsvorbehalt. Die Ware gehört dem Lieferanten, bis die Rechnung vollständig bezahlt ist. Benutzen darfst du sie trotzdem schon."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📊 Du führst den Lagerbestand. Womit muss er übereinstimmen?",
+        "options": [
+          { "text": "Mit dem Ergebnis der Inventur.", "correct": true },
+          { "text": "Mit dem Preis auf der letzten Rechnung." },
+          { "text": "Mit der Menge der letzten Bestellung." }
+        ],
+        "explanation": "Bei der Inventur wird gezählt, was wirklich im Lager ist. Dein Lagerbestand auf dem Papier oder im Programm muss mit diesem Ergebnis übereinstimmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du kaufst auf dem Wochenmarkt Äpfel. Wie machst du es richtig?",
+        "options": [
+          { "text": "Erst die Äpfel ansehen, dann vor meinen Augen wiegen lassen.", "correct": true },
+          { "text": "Erst bezahlen, dann die Äpfel hinten im Wagen abwiegen lassen." },
+          { "text": "Die Äpfel ungesehen einpacken lassen, das geht schneller." }
+        ],
+        "explanation": "Am Marktstand prüfst du wie bei der Warenannahme: erst die Ware genau ansehen, dann vor deinen Augen wiegen lassen. 🎉"
+      }
+    }
+  ]
+}
