@@ -1,0 +1,153 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-tiefkuehlen-regeln",
+  "title": "Tiefkühlen: Die Regeln",
+  "sort": 683,
+  "intro": "♨️ Gemüse wird vor dem Schockgefrieren oft blanchiert. Das heißt: Du tauchst es höchstens 4 Minuten in kochendes Wasser. So bleibt die Farbe des Gemüses erhalten. Und du beugst Off-Flavours vor. Off-Flavours sind unerwünschte Veränderungen im Geschmack.\n\nNimm nur Gefrierbeutel und Behälter, die für das Gefrieren geeignet sind. Andere splittern oder reißen. Dann bekommt die Ware oft Gefrierbrand. Sie wird leicht grau. Vor allem Fleisch wird faserig und schmeckt nicht mehr zart. Am besten eignen sich die Beutel und Behälter auch zum direkten Auftauen in der Mikrowelle.\n\nBesonders wasserreiches Gemüse wie Gurken und Tomaten eignet sich nicht zum Einfrieren. Auch rohe Eier friert man nicht ein, denn ihre Schale platzt.\n\nMERKE: Friere nur Portionen ein, die auf einmal gegessen werden. Ware, die einmal aufgetaut ist, frierst du nicht wieder ein.\n\nLege nicht viele große Portionen auf einmal in die Gefriertruhe. Sonst kann sie die tiefe Temperatur für das Schockgefrieren nicht halten.\n\nGefrorenes Brot und Brötchen lässt du beim Auftauen im Gefrierbeutel. Sonst schlägt sich die Feuchtigkeit aus der Luft als Kondenswasser darauf nieder. Dann wird es außen weich und ist nicht mehr knusprig. Danach backst du es am besten kurz im Backofen auf.\n\nDie Auftauflüssigkeit, vor allem von Geflügel, kann besonders viele Salmonellen enthalten. Gieße sie in den Abfluss. Sie darf nicht an Lebensmittel oder Arbeitsflächen kommen.\n\nTiefkühlkost kannst du direkt nach dem Herausnehmen zubereiten, auch kleinere Fleischstücke. Fleisch muss dann aber innen unbedingt ausreichend durchgegart sein.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Gemüse wird vor dem Einfrieren kurz in kochendes Wasser getaucht. Wie viele Minuten höchstens?",
+        "answer": 4,
+        "hint": "Es geht ganz kurz.\nEs sind weniger als 5 Minuten.\nDie Zahl steht direkt vor der 5.",
+        "explanation": "Höchstens 4 Minuten. Das kurze Eintauchen in kochendes Wasser heißt Blanchieren. Danach wird das Gemüse schockgefroren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Warum tauchst du Gemüse vor dem Einfrieren kurz in kochendes Wasser?",
+        "options": [
+          { "text": "Die Farbe bleibt, und es gibt keine Off-Flavours.", "correct": true },
+          { "text": "Das Gemüse wird dadurch schon ganz weich und fertig gegart." },
+          { "text": "Das Gemüse wird dadurch schwerer und saftiger." }
+        ],
+        "explanation": "Das kurze Blanchieren erhält die Farbe des Gemüses. Außerdem beugt es Off-Flavours vor, also unerwünschten Veränderungen im Geschmack. Gar wird das Gemüse dabei nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛍️ Welche Beutel oder Behälter nimmst du zum Einfrieren?",
+        "options": [
+          { "text": "Gefriergeeignete, am besten auch für die Mikrowelle.", "correct": true },
+          { "text": "Jede dünne Plastiktüte, die man vom Einkauf noch hat." },
+          { "text": "Offene Schüsseln, dann friert es schneller durch." }
+        ],
+        "explanation": "Nicht geeignete Beutel und Behälter splittern oder reißen in der Kälte. Dann droht Gefrierbrand. Sind sie auch für die Mikrowelle geeignet, kannst du darin direkt auftauen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Der Gefrierbeutel ist gerissen. Das Fleisch hat Gefrierbrand. Woran erkennst du das?",
+        "options": [
+          { "text": "Es ist leicht grau und wird faserig.", "correct": true },
+          { "text": "Es ist knallrot und besonders saftig." },
+          { "text": "Es riecht süß wie Karamell." }
+        ],
+        "explanation": "Gefrierbrand macht die Ware leicht grau. Fleisch wird faserig und schmeckt nicht mehr zart. Darum verpackst du Gefriergut immer gut in geeigneten Beuteln."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧊 Kannst du das gut einfrieren? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Gut einfrieren", "icon": "✅" },
+          { "id": "nein", "label": "Nicht einfrieren", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Blanchierter Brokkoli", "bucket": "ja" },
+          { "text": "Suppe in Portionen, die man auf einmal isst", "bucket": "ja" },
+          { "text": "Fleisch in einem gefriergeeigneten Beutel", "bucket": "ja" },
+          { "text": "Frische Gurken", "bucket": "nein" },
+          { "text": "Frische Tomaten", "bucket": "nein" },
+          { "text": "Rohe Eier in der Schale", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Ist es sehr wasserreich oder hat es eine harte Schale? Dann eignet es sich nicht. Gut vorbereitete Portionen in passender Verpackung kannst du gut einfrieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥒 Warum frierst du Gurken, Tomaten und rohe Eier nicht ein?",
+        "options": [
+          { "text": "Gurken und Tomaten sind sehr wasserreich, bei Eiern platzt die Schale.", "correct": true },
+          { "text": "Gurken und Tomaten werden im Gefrierschrank bitter, und Eier werden grün." },
+          { "text": "Alle drei brauchen im Gefrierschrank viel zu viel Strom und Platz." }
+        ],
+        "explanation": "Viel Wasser bildet beim Gefrieren Eis. Gurken und Tomaten werden danach matschig. Bei Eiern dehnt sich der Inhalt aus, und die Schale platzt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Warum legst du nicht viele große Portionen auf einmal in die Gefriertruhe?",
+        "options": [
+          { "text": "Sonst wird es für das Schockgefrieren nicht kalt genug.", "correct": true },
+          { "text": "Sonst geht der schwere Deckel der Truhe nicht mehr richtig zu." },
+          { "text": "Sonst bekommt die Ware in der Truhe zu viel Licht." }
+        ],
+        "explanation": "Viel warme Ware auf einmal erwärmt die Truhe. Dann wird es nicht mehr kalt genug für das Schockgefrieren. Friere lieber nach und nach ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥖 Warum lässt du gefrorene Brötchen beim Auftauen im Gefrierbeutel?",
+        "options": [
+          { "text": "Sonst setzt sich Kondenswasser ab, und sie werden weich.", "correct": true },
+          { "text": "Sonst tauen sie viel zu langsam und ganz ungleichmäßig auf." },
+          { "text": "Sonst verlieren sie beim Auftauen ihre helle Farbe." }
+        ],
+        "explanation": "Kondenswasser ist Feuchtigkeit aus der Luft, die sich auf kaltem Gefriergut niederschlägt. Im Beutel passiert das nicht. Danach backst du die Brötchen kurz auf, dann sind sie wieder knusprig."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Auftauen und Zubereiten: Richtig oder falsch? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Auftauflüssigkeit in den Abfluss gießen", "bucket": "richtig" },
+          { "text": "Kleine Fleischstücke direkt gefroren zubereiten", "bucket": "richtig" },
+          { "text": "Fleisch innen ausreichend durchgaren", "bucket": "richtig" },
+          { "text": "Aufgetaute Brötchen kurz im Backofen aufbacken", "bucket": "richtig" },
+          { "text": "Auftauflüssigkeit für die Soße verwenden", "bucket": "falsch" },
+          { "text": "Aufgetautes Hähnchen wieder einfrieren", "bucket": "falsch" },
+          { "text": "Fleisch innen noch gefroren servieren", "bucket": "falsch" }
+        ],
+        "explanation": "Frag dich: Kommen Keime an andere Lebensmittel oder ins Essen? Dann ist es falsch. Die Auftauflüssigkeit gehört in den Abfluss. Fleisch muss innen gar sein. Einmal Aufgetautes wird nicht wieder eingefroren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Warum ist die Auftauflüssigkeit von Geflügel gefährlich?",
+        "options": [
+          { "text": "Sie kann besonders viele Salmonellen enthalten.", "correct": true },
+          { "text": "Sie enthält besonders viel Fett, Salz und Zucker." },
+          { "text": "Sie färbt die Arbeitsfläche dauerhaft rot." }
+        ],
+        "explanation": "Salmonellen sind Keime, die krank machen. In der Auftauflüssigkeit von Geflügel sind oft besonders viele. Darum darf sie nicht an Lebensmittel oder Arbeitsflächen kommen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wie heißt es, wenn man Gemüse kurz in kochendes Wasser taucht?",
+        "options": [
+          { "text": "Blanchieren.", "correct": true },
+          { "text": "Frittieren." },
+          { "text": "Marinieren." }
+        ],
+        "explanation": "Blanchieren heißt: kurz in kochendes Wasser tauchen. Vor dem Einfrieren machst du das höchstens 4 Minuten lang."
+      }
+    }
+  ]
+}

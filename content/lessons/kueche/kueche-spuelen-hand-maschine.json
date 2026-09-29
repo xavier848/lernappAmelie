@@ -8,7 +8,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "⚖️ Stiftung Warentest, Verbraucherzentralen, das Forum Nachhaltiges Waschen und der REFA-Fachausschuss haben Spülkosten verglichen. Was ist das Ergebnis?",
+        "prompt": "⚖️ In den letzten Jahrzehnten wurden die Kosten von Handspülen und Maschine oft verglichen. Was ist das Ergebnis?",
         "options": [
           { "text": "Die Geschirrspülmaschine ist eindeutig günstiger.", "correct": true },
           { "text": "Das Spülen von Hand ist eindeutig günstiger." },
@@ -118,6 +118,19 @@
           { "text": "Das Gewicht des Geschirrs." }
         ],
         "explanation": "Im Internet gibt es einen Spülvergleichsrechner. Er rechnet die Kosten für deinen eigenen Haushalt aus. Es gibt dort auch einen Spülmaschinenrechner für die Kosten der Maschine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Wer hat laut Buch die Kosten von Handspülen und Maschine verglichen?",
+        "options": [
+          { "text": "Stiftung Warentest, Verbraucherzentralen, Forum Nachhaltiges Waschen und REFA-Fachausschuss.", "correct": true },
+          { "text": "Nur die großen Firmen, die selbst Spülmaschinen herstellen und sie gern verkaufen möchten." },
+          { "text": "Nur die Wasserwerke und die Stromanbieter, weil sie am Verbrauch Geld verdienen." },
+          { "text": "Nur die Hersteller von Spülmitteln, weil sie gern wissen wollen, wie viel davon verkauft wird." }
+        ],
+        "explanation": "Die Kostenvergleiche kamen von der Stiftung Warentest, dem Forum Nachhaltiges Waschen, dem REFA-Fachausschuss und den Verbraucherzentralen. Das sind Stellen, die nicht selbst Spülmaschinen verkaufen."
       }
     },
     {

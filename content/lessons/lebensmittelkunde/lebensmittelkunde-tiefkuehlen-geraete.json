@@ -1,0 +1,149 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-tiefkuehlen-geraete",
+  "title": "Tiefkühlen: Geräte und Sterne",
+  "sort": 682,
+  "intro": "🧊 Zum Tiefkühlen gibt es zwei Geräte: die Gefriertruhe und den Gefrierschrank. Beide haben Vorteile und Nachteile.\n\nGefriertruhe: Große Stücke, zum Beispiel eine Rehkeule, passen gut hinein. Sie braucht wenig Energie. Denn beim Öffnen bleibt die Kälte am Truhenboden „gefangen“. Aber sie braucht viel Platz und steht deshalb oft im Keller. Dann hast du die Ware nicht sofort zur Hand. Das Suchen und Herausnehmen ist schlecht für den Rücken. Für einen Single-Haushalt ist sie oft zu groß. Dann ist sie nie ganz voll, und die Betriebskosten sind zu hoch.\n\nGefrierschrank: Er braucht wenig Platz und steht oft direkt in der Küche. Die Ware ist schnell griffbereit. Für den Rücken ist er besser. Für Singles gibt es ihn als Kombination mit dem Kühlschrank. Aber große Stücke wie eine Rehkeule passen manchmal nicht in die Schubladen. Und er braucht viel Energie. Denn beim Öffnen fließt ein Teil der Kälte in den Raum.\n\nDie Gefrierleistung erkennst du an der Anzahl der Sterne, meist an der Tür. 1 Stern: bis −6 °C. 2 Sterne: bis −12 °C. Für eine Lagerung über Wochen oder Monate ist das oft ungeeignet. 3 Sterne: bis −18 °C. Damit lagerst du gekaufte Tiefkühlkost länger. Frische Ware darin einzufrieren, ist aber nicht zu empfehlen.\n\nMERKE: 4 Sterne heißt −25 °C und kälter. Nur dieses Gerät eignet sich gut zum Einfrieren von frischer Ware. Das Zeichen dafür ist ein großer Stern mit drei kleinen Sternen.\n\nErst bei so tiefen Temperaturen wird frische Ware schockgefroren. Beim schnellen Schockgefrieren bildet das Wasser nur winzige Eiskristalle. Sie sprengen die Zellen nicht. Es gelangt weniger Zellwasser in die Zwischenräume. Geschmack, Nährstoffe und Vitamine bleiben erhalten. Auch beim Auftauen bleibt die Struktur ganz erhalten.\n\nSchockgefrorene Ware ist fast so gut wie frische Ware. Weit weg vom Meer ist schockgefrorener Seefisch deshalb oft besser als Frischfisch, auch wegen der Hygiene.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧊 Gefriertruhe oder Gefrierschrank? Sortiere.",
+        "buckets": [
+          { "id": "truhe", "label": "Gefriertruhe", "icon": "📦" },
+          { "id": "schrank", "label": "Gefrierschrank", "icon": "🚪" }
+        ],
+        "items": [
+          { "text": "Große Stücke wie eine Rehkeule passen gut hinein", "bucket": "truhe" },
+          { "text": "Braucht wenig Energie", "bucket": "truhe" },
+          { "text": "Steht oft im Keller, weil sie viel Platz braucht", "bucket": "truhe" },
+          { "text": "Das Suchen darin ist schlecht für den Rücken", "bucket": "truhe" },
+          { "text": "Steht oft in der Küche, die Ware ist schnell griffbereit", "bucket": "schrank" },
+          { "text": "Aus Sicht der Rückenschule empfehlenswert", "bucket": "schrank" },
+          { "text": "Große Stücke passen manchmal nicht in die Schubladen", "bucket": "schrank" },
+          { "text": "Beim Öffnen fließt viel Kälte in den Raum", "bucket": "schrank" }
+        ],
+        "explanation": "Stell dir beide Geräte vor. Die Truhe öffnet man von oben, sie ist groß und tief. Den Schrank öffnet man wie eine Tür, er hat Schubladen. Frag dich bei jedem Punkt: Passt das zu einem Deckel oben oder zu einer Tür vorne?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Warum braucht die Gefriertruhe weniger Energie als der Gefrierschrank?",
+        "options": [
+          { "text": "Beim Öffnen bleibt die Kälte am Boden der Truhe.", "correct": true },
+          { "text": "Die Truhe hat eine besonders dicke und schwere Tür." },
+          { "text": "Die Truhe schaltet sich jede Nacht von selbst aus." }
+        ],
+        "explanation": "Kalte Luft ist schwer und sinkt nach unten. Öffnest du die Truhe oben, bleibt die Kälte unten gefangen. Beim Schrank mit der Tür vorne fließt sie heraus in den Raum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Welches Gerät passt oft besser für einen Single-Haushalt?",
+        "options": [
+          { "text": "Ein Gefrierschrank als Kombi mit dem Kühlschrank.", "correct": true },
+          { "text": "Eine große, tiefe Gefriertruhe unten im kalten Keller." },
+          { "text": "Zwei große Gefriertruhen direkt nebeneinander." }
+        ],
+        "explanation": "Eine Truhe ist für einen Single oft zu groß. Sie ist nie richtig voll, kostet aber trotzdem viel im Betrieb. Eine Kühl-Gefrier-Kombination passt besser."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⭐ Wie kalt wird es bei wie vielen Sternen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "1 Stern"}, "right": {"text": "bis −6 °C"} },
+          { "left": {"text": "2 Sterne"}, "right": {"text": "bis −12 °C"} },
+          { "left": {"text": "3 Sterne"}, "right": {"text": "bis −18 °C"} },
+          { "left": {"text": "4 Sterne"}, "right": {"text": "−25 °C und kälter"} }
+        ],
+        "memory": false,
+        "explanation": "Je mehr Sterne, desto kälter. Von 1 bis 3 Sternen kommen jeweils 6 Grad Kälte dazu: −6, −12, −18. Mit 4 Sternen geht es bis −25 °C und kälter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Dein Gefriergerät hat 3 Sterne. Wofür eignet es sich gut?",
+        "options": [
+          { "text": "Um gekaufte Tiefkühlkost länger zu lagern.", "correct": true },
+          { "text": "Um frische Ware selbst schnell einzufrieren." },
+          { "text": "Nur um Eiswürfel für einen Tag zu machen." }
+        ],
+        "explanation": "3 Sterne schaffen −18 °C. Das reicht, um gekaufte Tiefkühlkost länger aufzubewahren. Für frische Ware ist es nicht kalt genug, um sie schockzufrieren."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥦 Du willst frisches Gemüse selbst einfrieren. Wie viele Sterne sollte dein Gerät haben?",
+        "answer": 4,
+        "hint": "Frische Ware braucht −25 °C und kälter.\nDas schafft nur das Gerät mit den meisten Sternen.",
+        "explanation": "Du brauchst ein Gerät mit 4 Sternen. Es schafft −25 °C und kälter. Nur so wird frische Ware schockgefroren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Ein Gefrierfach hat nur 1 oder 2 Sterne. Was gilt?",
+        "options": [
+          { "text": "Für Wochen oder Monate ist es oft ungeeignet.", "correct": true },
+          { "text": "Es ist ideal zum Einfrieren von frischem Fleisch." },
+          { "text": "Es ist kälter als ein Gerät mit 4 Sternen." }
+        ],
+        "explanation": "1 Stern schafft nur −6 °C, 2 Sterne schaffen −12 °C. Das reicht nicht für eine lange Lagerung. Dafür brauchst du mindestens 3 Sterne."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Was passiert beim Schockgefrieren mit dem Wasser in den Zellen?",
+        "options": [
+          { "text": "Es bildet winzige Eiskristalle. Die Zellen bleiben heil.", "correct": true },
+          { "text": "Es bildet große Eiskristalle, die die Zellen dann sprengen." },
+          { "text": "Es verdunstet ganz, und die Ware wird dabei ganz trocken." }
+        ],
+        "explanation": "Beim schnellen Gefrieren haben die Eiskristalle keine Zeit zu wachsen. Sie bleiben winzig und lassen die Zellen ganz. Beim langsamen Gefrieren werden die Kristalle groß."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Was bleibt beim Schockgefrieren erhalten?",
+        "options": [
+          { "text": "Geschmack, Nährstoffe, Vitamine und die Struktur.", "correct": true },
+          { "text": "Nur die Farbe, der Geschmack geht dabei verloren." },
+          { "text": "Gar nichts, die Ware wird beim Auftauen matschig." }
+        ],
+        "explanation": "Weil die Zellen heil bleiben, bleibt fast alles erhalten: Geschmack, Nährstoffe und Vitamine. Auch beim Auftauen behält die Ware ihre Struktur."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Der Betrieb liegt weit weg vom Meer. Welcher Seefisch ist oft die bessere Wahl?",
+        "options": [
+          { "text": "Schockgefrorener Seefisch.", "correct": true },
+          { "text": "Frischfisch nach langem Transport." },
+          { "text": "Seefisch aus einer offenen Dose." }
+        ],
+        "explanation": "Schockgefrorener Fisch ist fast so gut wie frischer. Im Binnenland ist er oft sogar besser, auch aus hygienischen Gründen. Frischfisch ist dort schon lange unterwegs."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Woran erkennst du die Gefrierleistung eines Geräts?",
+        "options": [
+          { "text": "An der Anzahl der Sterne.", "correct": true },
+          { "text": "An der Farbe des Geräts." },
+          { "text": "An der Größe des Griffs." }
+        ],
+        "explanation": "Die Sterne stehen meist an der Tür oder am Deckel. Je mehr Sterne, desto kälter wird es im Gerät."
+      }
+    }
+  ]
+}

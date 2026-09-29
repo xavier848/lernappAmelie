@@ -10,7 +10,7 @@
       "data": {
         "prompt": "🧵 Warum werden Fasern für Textilien oft gemischt?",
         "options": [
-          { "text": "Damit das Garn veränderte und bessere Eigenschaften bekommt.", "correct": true },
+          { "text": "Damit das Garn veränderte, bessere Eigenschaften bekommt.", "correct": true },
           { "text": "Damit man die einzelnen Fasern leichter erkennen kann." },
           { "text": "Damit man für die Wäsche kein Pflegeetikett mehr braucht." }
         ],
@@ -20,7 +20,7 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🔗 Welche Eigenschaft wird besser? Verbinde mit den Beispielen aus dem Buch.",
+        "prompt": "🔗 Welche Eigenschaft wird besser? Verbinde den Begriff mit der Erklärung.",
         "pairs": [
           { "left": {"text": "Gebrauchseigenschaften"}, "right": {"text": "Der Stoff hält im Alltag mehr aus"} },
           { "left": {"text": "Bekleidungsphysiologische Eigenschaften"}, "right": {"text": "Hautfreundlichkeit, Wärmeisolation"} },
@@ -61,7 +61,7 @@
       "data": {
         "prompt": "➕ Warum haben Mischungen aus Natur- und Chemiefasern besonders viele Vorteile?",
         "options": [
-          { "text": "Die guten Eigenschaften ergänzen sich, die schlechten fallen dabei weg.", "correct": true },
+          { "text": "Die guten Eigenschaften ergänzen sich, die schlechten fallen weg.", "correct": true },
           { "text": "Die Chemiefaser macht die Naturfaser immer kochfest und hitzefest." },
           { "text": "Die Naturfaser macht die Chemiefaser immer billiger und leichter." }
         ],
@@ -86,7 +86,7 @@
         "prompt": "💪 Eine bewährte Mischung hat laut Buch drei Vorteile. Welche?",
         "options": [
           { "text": "Hohe Scheuerfestigkeit, gute Elastizität, günstige Pflege.", "correct": true },
-          { "text": "Hohe Saugkraft, starker Glanz und volle Kochfestigkeit." },
+          { "text": "Hohe Saugkraft, ein starker Glanz und volle Kochfestigkeit." },
           { "text": "Geringes Gewicht, Schutz vor Motten und hohe Wärme." }
         ],
         "explanation": "Die bewährte Mischung hat eine hohe Scheuerfestigkeit, eine gute Elastizität und ein günstiges Pflegeverhalten. Scheuerfest heißt: Der Stoff hält viel Reibung aus. Elastisch heißt: Er dehnt sich und geht wieder in Form."
@@ -110,7 +110,7 @@
         "prompt": "🔥 Eine Tischdecke hat einen hohen Anteil an Chemiefasern. Was stimmt?",
         "options": [
           { "text": "Sie ist strapazierfähiger, aber leider nicht kochfest.", "correct": true },
-          { "text": "Sie ist kochfest und verträgt heißes Mangeln." },
+          { "text": "Sie ist kochfest und verträgt auch heißes Bügeln und Mangeln." },
           { "text": "Sie ist weniger strapazierfähig, aber kochfest." }
         ],
         "explanation": "Mit dem Chemiefaseranteil steigt die Strapazierfähigkeit. Aber das Gewebe ist nicht kochfest. Beim Bügeln und Mangeln verträgt es meist keine hohen Temperaturen."

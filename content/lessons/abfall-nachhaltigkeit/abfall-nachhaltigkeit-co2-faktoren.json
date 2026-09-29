@@ -1,0 +1,138 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-nachhaltigkeit-co2-faktoren",
+  "title": "CO₂-Fußabdruck: Die Einflussfaktoren",
+  "sort": 683,
+  "intro": "🌍 Die Erde erwärmt sich weltweit. Darum achtet man immer mehr auf die CO₂-Bilanz von Lebensmitteln. CO₂ ist Kohlendioxid, ein Treibhausgas. Der CO₂-Fußabdruck zeigt, wie viel Treibhausgas bei einem Lebensmittel entsteht. Das Thema braucht viel Hintergrundwissen.\n\nNeben CO₂ gibt es weitere Treibhausgase. Zum Beispiel Methan und Distickstoffmonoxid. Man rechnet sie in CO₂-Äquivalente um. Äquivalent heißt: gleichwertig. So kann man alles in einer Zahl vergleichen.\n\nMERKE: Beim CO₂-Fußabdruck betrachtet man die ganze Kette, von der Erzeugung bis zum Verzehr. Es gibt sieben Einflussfaktoren.\n\n1) Änderung der Landnutzung: Regenwald wird für eine Palmölplantage abgeholzt. Das verschlechtert die CO₂-Bilanz drastisch.\n\n2) Landwirtschaftliche Erzeugung: Rinder und Schafe sind Wiederkäuer. Sie stoßen viel Methan aus. Ihr Fleisch hat deshalb einen deutlich größeren CO₂-Fußabdruck als Schweine- und Geflügelfleisch. Auch industriell hergestellter Stickstoffdünger braucht sehr viel Energie.\n\n3) Tierfutter: Der Bauer verfüttert eigenes Futter vom Hof oder kauft es zu. Bei der Mast von Geflügel und Schweinen ist es oft Sojaschrot aus Südamerika.\n\n4) Aufbereitung: Getreide wird in der Mühle zu Mehl gemahlen.\n\n5) Transport: Äpfel aus Neuseeland kommen per Schiff nach Hamburg. Pro Apfel entsteht dabei weniger CO₂ als beim Lkw-Transport vom Bodensee oder aus Südtirol nach Hamburg. Es zählt also nicht nur die Entfernung, sondern auch das Verkehrsmittel.\n\n6) Einzelhandel: Die Ware wird im Laden gekühlt.\n\n7) Verpackung: Fertiggerichte liegen zum Beispiel in einer Aluschale für den Backofen, die noch einmal in Plastik oder Pappe verpackt ist.\n\nIn einer Grafik fasst man Aufbereitung, Transport, Einzelhandel und Verpackung oft als „Sonstiges“ zusammen. Eigene Teile haben dort die veränderte Landnutzung, die Landwirtschaft und das Tierfutter.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Warum achtet man heute auf die CO₂-Bilanz von Lebensmitteln?",
+        "options": [
+          { "text": "Wegen der weltweiten Erwärmung.", "correct": true },
+          { "text": "Wegen der steigenden Lebensmittelpreise." },
+          { "text": "Wegen neuer Regeln für die Werbung." }
+        ],
+        "explanation": "Treibhausgase wie CO₂ erwärmen die Erde. Auch bei der Herstellung von Lebensmitteln entstehen sie. Darum achtet man immer mehr auf die CO₂-Bilanz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💨 Welche Treibhausgase zählen neben CO₂ zum Fußabdruck dazu?",
+        "options": [
+          { "text": "Methan und Distickstoffmonoxid.", "correct": true },
+          { "text": "Sauerstoff und Helium." },
+          { "text": "Stickstoff und reiner Sauerstoff." }
+        ],
+        "explanation": "Methan entsteht zum Beispiel bei Wiederkäuern und beim Reisanbau. Distickstoffmonoxid hat die Formel N₂O. Beide sind Treibhausgase. Sauerstoff und Helium sind es nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Wie zählt man andere Treibhausgase im CO₂-Fußabdruck mit?",
+        "options": [
+          { "text": "Man rechnet sie in CO₂-Äquivalente um.", "correct": true },
+          { "text": "Man lässt sie bei der Rechnung einfach weg." },
+          { "text": "Man zählt sie immer doppelt." }
+        ],
+        "explanation": "Äquivalent heißt gleichwertig. Man rechnet aus, wie viel CO₂ die gleiche Wirkung hätte. So kann man alle Treibhausgase in einer Zahl vergleichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was betrachtet man für den CO₂-Fußabdruck eines Lebensmittels?",
+        "options": [
+          { "text": "Die ganze Kette, von der Erzeugung bis zum Verzehr.", "correct": true },
+          { "text": "Nur den Weg vom Laden bis zu dir nach Hause." },
+          { "text": "Nur die Verpackung und das Etikett im Regal." }
+        ],
+        "explanation": "Treibhausgase entstehen an vielen Stellen: auf dem Feld, im Stall, in der Mühle, beim Transport, im Laden und bei der Verpackung. Darum zählt die ganze Kette."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 Wie viele Einflussfaktoren gibt es auf dem Weg von der Erzeugung bis zum Verzehr?",
+        "answer": 7,
+        "hint": "Zähle: Landnutzung, Erzeugung, Tierfutter, Aufbereitung,\nTransport, Einzelhandel, Verpackung.\nWie viele sind das?",
+        "explanation": "Es sind 7 Einflussfaktoren: Änderung der Landnutzung, landwirtschaftliche Erzeugung, Tierfutter, Aufbereitung, Transport, Einzelhandel und Verpackung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Beispiel passt zu welchem Einflussfaktor? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Änderung der Landnutzung"}, "right": {"text": "Regenwald wird für Palmöl abgeholzt"} },
+          { "left": {"text": "Landwirtschaftliche Erzeugung"}, "right": {"text": "Stickstoffdünger braucht viel Energie"} },
+          { "left": {"text": "Tierfutter"}, "right": {"text": "Sojaschrot aus Südamerika"} },
+          { "left": {"text": "Aufbereitung"}, "right": {"text": "Getreide wird in der Mühle zu Mehl"} },
+          { "left": {"text": "Einzelhandel"}, "right": {"text": "Die Ware wird im Laden gekühlt"} },
+          { "left": {"text": "Verpackung"}, "right": {"text": "Aluschale in Pappe oder Plastik"} }
+        ],
+        "memory": false,
+        "explanation": "Geh die Kette in Gedanken entlang: Erst wird Land genutzt, dann wird angebaut und gefüttert. Danach wird die Ware verarbeitet, verkauft und verpackt. Jeder Schritt verursacht Treibhausgase."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Äpfel aus Neuseeland kommen per Schiff nach Hamburg. Äpfel vom Bodensee kommen per Lkw nach Hamburg. Was stimmt?",
+        "options": [
+          { "text": "Der Apfel aus Neuseeland verursacht dabei weniger CO₂ pro Apfel.", "correct": true },
+          { "text": "Der Apfel vom Bodensee verursacht immer weniger CO₂, der Weg ist kürzer." },
+          { "text": "Beide Äpfel verursachen beim Transport genau gleich viel CO₂." }
+        ],
+        "explanation": "Nicht nur die Entfernung zählt, sondern auch das Verkehrsmittel. Ein Schiff transportiert riesige Mengen auf einmal. Pro Apfel entsteht deshalb weniger CO₂ als mit dem Lkw."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐄 Warum hat Rindfleisch einen deutlich größeren CO₂-Fußabdruck als Geflügelfleisch?",
+        "options": [
+          { "text": "Rinder sind Wiederkäuer und stoßen viel Methan aus.", "correct": true },
+          { "text": "Rindfleisch muss im Laden viel stärker gekühlt werden." },
+          { "text": "Rindfleisch wird immer mit dem Flugzeug gebracht." }
+        ],
+        "explanation": "Wiederkäuer wie Rinder und Schafe bilden bei der Verdauung Methan. Methan ist ein starkes Treibhausgas. Schweine und Geflügel sind keine Wiederkäuer."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📊 In der Grafik: Gehört der Faktor zu „Sonstiges“, oder hat er einen eigenen Teil? Sortiere.",
+        "buckets": [
+          { "id": "sonst", "label": "Sonstiges", "icon": "📦" },
+          { "id": "eigen", "label": "Eigener Teil", "icon": "🟩" }
+        ],
+        "items": [
+          { "text": "Aufbereitung", "bucket": "sonst" },
+          { "text": "Transport", "bucket": "sonst" },
+          { "text": "Einzelhandel", "bucket": "sonst" },
+          { "text": "Verpackung", "bucket": "sonst" },
+          { "text": "Veränderte Landnutzung", "bucket": "eigen" },
+          { "text": "Landwirtschaft", "bucket": "eigen" },
+          { "text": "Tierfutter", "bucket": "eigen" }
+        ],
+        "explanation": "Frag dich: Passiert das auf dem Acker und im Stall, oder erst danach? Landnutzung, Landwirtschaft und Tierfutter haben eigene Teile. Alles, was danach kommt, fasst die Grafik als „Sonstiges“ zusammen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was ist CO₂?",
+        "options": [
+          { "text": "Kohlendioxid, ein Treibhausgas.", "correct": true },
+          { "text": "Ein Zeichen für Bio-Ware." },
+          { "text": "Die Abkürzung für Kalorien." }
+        ],
+        "explanation": "CO₂ heißt Kohlendioxid. Es ist ein Treibhausgas. Zu viel davon erwärmt die Erde."
+      }
+    }
+  ]
+}
