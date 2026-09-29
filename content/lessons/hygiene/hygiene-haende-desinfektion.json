@@ -1,0 +1,110 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-haende-desinfektion",
+  "title": "Hände waschen und desinfizieren",
+  "sort": 611,
+  "intro": "🧴 Welches Desinfektionsmittel du gegen Viren nimmst, hängt von der Bauweise der Viren ab. Es gibt behüllte und unbehüllte Viren. Behüllt heißt: Das Virus hat eine Hülle um sich.\n\nFür Hände und Flächen gibt es Desinfektionsmittel mit verschiedenen Wirkstufen. Viruzid heißt: gegen Viren wirksam. Ein Mittel mit der Wirkstufe „begrenzt viruzid PLUS“ macht bestimmte unbehüllte Viren unschädlich, zum Beispiel Noroviren.\n\nFür behüllte Viren gibt es Mittel mit einer anderen Wirkstufe. Behüllte Viren sind zum Beispiel Grippe-Viren, also Influenza-Viren, und Hepatitis-, Herpes-, HI- und Corona-Viren.\n\nGeeignete Desinfektionsmittel findest du in Listen. Es gibt sie vom Robert-Koch-Institut, kurz RKI. Und von der Desinfektionsmittel-Kommission im Verbund für Angewandte Hygiene, kurz VAH.\n\nMERKE: Bevor du deine Hände desinfizierst, wäschst du sie richtig. Das geht in vier Schritten. 1. Hände gründlich nass machen. 2. Hände mindestens 30 Sekunden einseifen. 3. Die Seife gründlich abspülen. 4. Hände gründlich abtrocknen.\n\nDie 30 Sekunden nennt das Fachbuch für die Arbeit in der Küche.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧬 Wovon hängt ab, welches Desinfektionsmittel du gegen Viren nimmst?",
+        "options": [
+          { "text": "Von der Bauweise: behüllt oder unbehüllt.", "correct": true },
+          { "text": "Von der Farbe und dem Duft des Mittels." },
+          { "text": "Vom Preis und von der Größe der Flasche." }
+        ],
+        "explanation": "Die Bauweise der Viren bestimmt die Auswahl des richtigen Desinfektionsmittels. Unbehüllte Viren wie Noroviren brauchen ein Mittel mit einer höheren Wirkstufe."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🦠 Behülltes oder unbehülltes Virus? Sortiere.",
+        "buckets": [
+          { "id": "beh", "label": "Behüllt", "icon": "🟢" },
+          { "id": "unbeh", "label": "Unbehüllt", "icon": "🔴" }
+        ],
+        "items": [
+          { "text": "Grippe-Virus (Influenza)", "bucket": "beh" },
+          { "text": "Hepatitis-Virus", "bucket": "beh" },
+          { "text": "Herpes-Virus", "bucket": "beh" },
+          { "text": "HI-Virus", "bucket": "beh" },
+          { "text": "Corona-Virus", "bucket": "beh" },
+          { "text": "Norovirus", "bucket": "unbeh" }
+        ],
+        "explanation": "Merk dir die Ausnahme: Das Norovirus ist hier das einzige unbehüllte Virus. Grippe-, Hepatitis-, Herpes-, HI- und Corona-Viren sind behüllt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤢 Welche Wirkstufe brauchst du gegen Noroviren?",
+        "options": [
+          { "text": "Begrenzt viruzid PLUS.", "correct": true },
+          { "text": "Normale Handseife reicht." },
+          { "text": "Gar keine, sie sterben an der Luft." }
+        ],
+        "explanation": "Noroviren sind unbehüllt. Mittel mit der Wirkstufe „begrenzt viruzid PLUS“ machen bestimmte unbehüllte Viren wie Noroviren unschädlich."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧼 Richtig Hände waschen vor der Desinfektion. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Hände gründlich nass machen." },
+          { "text": "Hände mindestens 30 Sekunden einseifen." },
+          { "text": "Die Seife gründlich abspülen." },
+          { "text": "Hände gründlich abtrocknen." }
+        ],
+        "explanation": "Die Regel: nass, Seife, abspülen, trocken. Frag dich: Was braucht die Seife, damit sie schäumt? Wasser. Und was muss weg, bevor du abtrocknest? Die Seife."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Wie viele Sekunden seifst du deine Hände in der Küche mindestens ein? Tippe die Zahl.",
+        "answer": 30,
+        "hint": "Es ist eine halbe Minute.",
+        "explanation": "Das Fachbuch sagt für die Arbeit in der Küche: mindestens 30 Sekunden einseifen. So erreichst du alle Stellen gründlich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Was machst du, bevor du deine Hände desinfizierst?",
+        "options": [
+          { "text": "Die Hände richtig waschen.", "correct": true },
+          { "text": "Die Hände mit Creme einreiben." },
+          { "text": "Die Hände nass lassen." }
+        ],
+        "explanation": "Vor der Händedesinfektion wäschst du die Hände korrekt in vier Schritten. Das Desinfektionsmittel kommt auf saubere, trockene Hände."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📑 Wo findest du geeignete Desinfektionsmittel?",
+        "options": [
+          { "text": "In den Listen von RKI und VAH.", "correct": true },
+          { "text": "In jedem normalen Kochbuch." },
+          { "text": "Auf dem Speiseplan der Woche." }
+        ],
+        "explanation": "Geeignete Desinfektionsmittel stehen in den Desinfektionslisten des Robert-Koch-Instituts, kurz RKI, und des Verbunds für Angewandte Hygiene, kurz VAH."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟢 Was heißt behüllt bei einem Virus?",
+        "options": [
+          { "text": "Das Virus hat eine Hülle um sich.", "correct": true },
+          { "text": "Das Virus ist besonders groß." },
+          { "text": "Das Virus lebt nur im Wasser." }
+        ],
+        "explanation": "Behüllt heißt: Das Virus hat eine Hülle. Unbehüllte Viren haben keine Hülle."
+      }
+    }
+  ]
+}

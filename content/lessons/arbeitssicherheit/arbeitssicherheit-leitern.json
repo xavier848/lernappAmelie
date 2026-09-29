@@ -1,0 +1,125 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-leitern",
+  "title": "Leitern sicher benutzen",
+  "sort": 640,
+  "intro": "Für Arbeiten weiter oben brauchst du eine Leiter. Zum Beispiel beim Fensterputzen oder wenn du Gardinen abnimmst. Viele steigen stattdessen auf Stühle oder Tische. Das ist eine der häufigsten Unfallursachen.\n\nDu wählst die Leiter nach der Art der Aufgabe und nach der Arbeitshöhe aus. Es gibt zum Beispiel Stehleitern, Podestleitern, Plattformleitern und Zweitrittleitern. Plattform- und Podestleitern geben den meisten Halt. Darum nimmst du sie am liebsten.\n\nVor jeder Benutzung prüfst du die Leiter. Hat sie sichtbare Mängel? Funktioniert alles richtig? Eine kaputte Leiter benutzt du nicht.\n\nDu stellst die Leiter standsicher auf. Sie darf nicht einsinken und nicht umfallen. Du stellst sie nicht in einem zu spitzen Winkel an. Flüssigkeit auf dem Boden oder auf den Tritten macht die Leiter rutschig.\n\nDu steigst nur mit festen Schuhen auf die Leiter. Du steigst nicht seitlich über. Beide Füße müssen auf den Tritt passen. Die obersten drei Stufen betrittst du nicht. Die Leiter muss hoch genug sein, damit du dich nicht hinauslehnen musst.\n\nSteht die Leiter im Laufweg, sicherst du sie mit einer Absperrung. Bei einer Stehleiter muss die Spreizsicherung wirken. Sie verhindert, dass die Leiter auseinanderrutscht.\n\nEine Stufenstehleiter mit Sicherheitsbrücke hat einen Sicherheitsbügel ganz oben. Sie hat eine Trittplatte, die die Spreizsicherung ersetzt. Dazu kommen breite Stufen und Füße aus Kunststoff für einen festen Stand.\n\nMERKE: Nie auf Stühle oder Tische steigen. Die obersten drei Stufen nicht betreten. Plattform- und Podestleitern geben den meisten Halt.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪜 Wonach wählst du die passende Leiter aus?",
+        "options": [
+          { "text": "Nach der Art der Aufgabe und der Arbeitshöhe.", "correct": true },
+          { "text": "Nach dem Gewicht und der Farbe der Leiter." },
+          { "text": "Nach der Leiter, die gerade am nächsten steht." }
+        ],
+        "explanation": "Jede Aufgabe braucht die passende Leiter. Frag dich: Was mache ich dort oben, und wie hoch muss ich hinauf? Die Leiter, die gerade herumsteht, ist oft zu niedrig oder ungeeignet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧗 Welche Leitern geben dir den meisten Halt?",
+        "options": [
+          { "text": "Plattform- oder Podestleitern.", "correct": true },
+          { "text": "Einfache Anlegeleitern." },
+          { "text": "Kleine Zweitrittleitern mit zwei Stufen." }
+        ],
+        "explanation": "Plattform- und Podestleitern haben oben eine große Standfläche. Darauf stehst du sicher. Darum nimmst du sie bevorzugt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦶 Wie stellst du eine Leiter standsicher auf?",
+        "options": [
+          { "text": "Sie sinkt nicht ein, fällt nicht um und steht nicht zu spitz angestellt.", "correct": true },
+          { "text": "Auf eine stabile Kiste gestellt, damit sie noch etwas höher hinaufreicht." },
+          { "text": "Auf weichen Rasen gestellt, dann federt sie beim Steigen etwas ab." }
+        ],
+        "explanation": "Die Leiter braucht einen festen, ebenen Untergrund. Auf weichem Boden sinkt sie ein. Auf einer Kiste kann sie kippen. Und in einem zu spitzen Winkel kann sie wegrutschen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Richtig oder falsch auf der Leiter? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Richtig", "icon": "✅" },
+          { "id": "nein", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Vor der Benutzung auf Mängel prüfen", "bucket": "ja" },
+          { "text": "Mit festen Schuhen hinaufsteigen", "bucket": "ja" },
+          { "text": "Beide Füße auf den Tritt stellen", "bucket": "ja" },
+          { "text": "Nasse Tritte vorher abtrocknen", "bucket": "ja" },
+          { "text": "Seitlich auf die Leiter übersteigen", "bucket": "nein" },
+          { "text": "Eine Leiter mit kaputter Stufe benutzen", "bucket": "nein" },
+          { "text": "In Hausschuhen hinaufsteigen", "bucket": "nein" },
+          { "text": "Die Leiter auf weichen Boden stellen", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich bei jedem Punkt: Stehe ich danach sicherer oder wackeliger? Prüfen, feste Schuhe, beide Füße auf dem Tritt und trockene Tritte machen dich sicher. Seitliches Übersteigen, kaputte Leitern, Hausschuhe und weicher Boden führen zu Stürzen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔝 Wie viele der obersten Stufen einer Leiter darfst du nicht betreten?",
+        "answer": 3,
+        "hint": "Es sind mehr als 2.\nEs sind weniger als 4.",
+        "explanation": "Die obersten drei Stufen betrittst du nicht. Dort hast du keinen sicheren Halt mehr. Ist die Leiter zu niedrig, holst du eine höhere."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚧 Du stellst die Leiter im Flur auf. Dort gehen viele Leute vorbei. Was tust du?",
+        "options": [
+          { "text": "Den Bereich mit einer Absperrung sichern.", "correct": true },
+          { "text": "Schnell arbeiten, dann passiert schon nichts." },
+          { "text": "Die Leiter gegen die Tür vom Flur lehnen." }
+        ],
+        "explanation": "Im Verkehrsbereich kann jemand gegen die Leiter laufen. Darum sicherst du den Bereich mit einer Absperrung. Schnell arbeiten schützt niemanden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Die Leiter ist zu niedrig. Du kommst nur mit Hinauslehnen an die Gardine. Was tust du?",
+        "options": [
+          { "text": "Eine höhere Leiter holen.", "correct": true },
+          { "text": "Mich kurz weit hinauslehnen." },
+          { "text": "Auf die oberste Stufe steigen." }
+        ],
+        "explanation": "Die Leiter muss hoch genug sein. Beim Hinauslehnen verlierst du leicht das Gleichgewicht. Auf die obersten drei Stufen steigst du nie."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Die Stufenstehleiter mit Sicherheitsbrücke. Was gehört zusammen?",
+        "pairs": [
+          { "left": {"text": "🔝 Sicherheitsbügel"}, "right": {"text": "Bügel ganz oben an der Leiter"} },
+          { "left": {"text": "🟫 Trittplatte"}, "right": {"text": "Ersetzt die Spreizsicherung"} },
+          { "left": {"text": "🦶 Breite Stufen"}, "right": {"text": "Platz für beide Füße"} },
+          { "left": {"text": "⚫ Füße aus Kunststoff"}, "right": {"text": "Für einen festen Stand"} },
+          { "left": {"text": "↔️ Spreizsicherung"}, "right": {"text": "Leiter rutscht nicht auseinander"} }
+        ],
+        "explanation": "Jedes Teil macht die Leiter sicherer. Die Spreizsicherung hält die beiden Seiten einer Stehleiter zusammen. Bei der Stufenstehleiter übernimmt die Trittplatte diese Aufgabe. Kunststofffüße geben festen Stand, breite Stufen sicheren Tritt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Was ist eine der häufigsten Unfallursachen bei Arbeiten in der Höhe?",
+        "options": [
+          { "text": "Auf Stühle oder Tische zu steigen.", "correct": true },
+          { "text": "Eine Podestleiter mit breiter Standfläche zu benutzen." },
+          { "text": "Feste Schuhe zu tragen." }
+        ],
+        "explanation": "Stühle und Tische sind keine Leitern. Sie kippen oder rutschen weg. Nimm immer eine geeignete Leiter."
+      }
+    }
+  ]
+}

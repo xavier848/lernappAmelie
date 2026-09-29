@@ -1,0 +1,150 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-viren-bakterien",
+  "title": "Viren, Bakterien und MRGN",
+  "sort": 612,
+  "intro": "🔬 Ein kleiner Ausflug in die Mikrobiologie. Mikrobiologie ist die Lehre von den winzigen Lebewesen und Krankheitserregern.\n\nViren bestehen aus einem oder mehreren Molekülen. Manchmal sind sie von einer Eiweißhülle umgeben. Sie haben keine eigene Zelle, anders als Bakterien. Sie haben auch keinen eigenen Stoffwechsel. Deshalb können sie selbst keine Energie gewinnen. Um sich zu vermehren, brauchen sie eine Wirtszelle. Mit bloßem Auge sieht man sie nicht. Sie sind rund und 20 bis 300 Nanometer groß. Ein Nanometer ist ein Millionstel Millimeter.\n\nViren werden über Aerosole übertragen. Das nennt man Tröpfcheninfektion. Beim Atmen und besonders beim Niesen kommen sie in die Luft. Menschen in der Nähe atmen sie ein. Ob Viren lange auf Flächen und Gegenständen aktiv bleiben, ist noch nicht ausreichend erforscht.\n\nMERKE: Am häufigsten werden Viren über die Hände übertragen. Fasst du dir an Augen, Mund oder Nase, kommen sie auf die Schleimhäute. Impfungen schützen vor Virusinfektionen.\n\nBakterien sind um ein Vielfaches größer als Viren: etwa 0,1 bis 700 Mikrometer. Ein Mikrometer ist ein Tausendstel Millimeter. Unter dem Mikroskop sehen Bakterien aus wie Stäbchen, Spiralen, Kugeln oder Ketten.\n\nBakterien sind einzellige Lebewesen. Sie versorgen sich selbst. Sie haben ein eigenes Erbgut und einen eigenen Stoffwechsel. Durch ihre Stoffwechselprodukte können sie Krankheiten auslösen, zum Beispiel Lungenentzündung, Harnwegsentzündung oder Salmonellose. Auch gegen bakterielle Erkrankungen gibt es Impfungen, zum Beispiel gegen Tetanus.\n\nMERKE: MRGN heißt: multiresistente gramnegative Bakterien. Sie lösen oft Infektionen im Krankenhaus aus. Das nennt man nosokomiale Infektionen. Betroffen sind meist der Magen-Darm-Trakt oder die Haut. Fast kein Antibiotikum wirkt gegen sie.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔬 Viren oder Bakterien? Sortiere.",
+        "buckets": [
+          { "id": "viren", "label": "Viren", "icon": "🧬" },
+          { "id": "bakt", "label": "Bakterien", "icon": "🦠" }
+        ],
+        "items": [
+          { "text": "Keine eigene Zelle", "bucket": "viren" },
+          { "text": "Kein eigener Stoffwechsel", "bucket": "viren" },
+          { "text": "Brauchen eine Wirtszelle", "bucket": "viren" },
+          { "text": "20 bis 300 Nanometer groß", "bucket": "viren" },
+          { "text": "Einzellige Lebewesen", "bucket": "bakt" },
+          { "text": "Eigenes Erbgut und eigener Stoffwechsel", "bucket": "bakt" },
+          { "text": "0,1 bis 700 Mikrometer groß", "bucket": "bakt" },
+          { "text": "Stäbchen, Spiralen, Kugeln oder Ketten", "bucket": "bakt" }
+        ],
+        "explanation": "Frag dich: Kann der Erreger allein leben? Bakterien sind einzellige Lebewesen mit eigenem Stoffwechsel. Viren haben keine eigene Zelle und brauchen eine Wirtszelle. Viren sind viel kleiner: Nanometer statt Mikrometer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔋 Warum brauchen Viren eine Wirtszelle?",
+        "options": [
+          { "text": "Sie haben keinen eigenen Stoffwechsel.", "correct": true },
+          { "text": "Sie brauchen dort nur Wärme zum Schlafen." },
+          { "text": "Sie sammeln dort Wasser für ihre Hülle." }
+        ],
+        "explanation": "Viren haben keine eigene Zelle und keinen eigenen Stoffwechsel. Sie können selbst keine Energie gewinnen. Um sich zu vermehren, brauchen sie deshalb eine Wirtszelle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤧 Wie kommen Viren durch die Luft zu anderen Menschen?",
+        "options": [
+          { "text": "Über Aerosole, also Tröpfchen beim Atmen und Niesen.", "correct": true },
+          { "text": "Nur über verdorbene Lebensmittel im Kühlschrank." },
+          { "text": "Nur über Stiche von Mücken und anderen Insekten." }
+        ],
+        "explanation": "Beim Atmen und besonders beim Niesen gelangen Viren in winzigen Tröpfchen in die Luft. Andere Menschen atmen sie ein. Das nennt man Tröpfcheninfektion."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖐️ Wie werden Viren am häufigsten übertragen?",
+        "options": [
+          { "text": "Über die Hände an Augen, Mund oder Nase.", "correct": true },
+          { "text": "Über das Trinkwasser aus der Leitung." },
+          { "text": "Über Kleidung, die bei 60 °C gewaschen ist." }
+        ],
+        "explanation": "Die häufigste Übertragung ist über die Hände. Fasst du dir an Augen, Mund oder Nase, kommen die Viren auf die Schleimhäute. Deshalb ist Händewaschen so wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💉 Was schützt vor Virusinfektionen?",
+        "options": [
+          { "text": "Impfungen.", "correct": true },
+          { "text": "Antibiotika." },
+          { "text": "Vitamintabletten." }
+        ],
+        "explanation": "Das Fachbuch sagt: Impfungen schützen vor Virusinfektionen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚙️ Wie lösen Bakterien Krankheiten aus?",
+        "options": [
+          { "text": "Durch ihre Stoffwechselprodukte.", "correct": true },
+          { "text": "Durch ihre besondere Eiweißhülle." },
+          { "text": "Nur durch ihre große Menge an Zellen." }
+        ],
+        "explanation": "Bakterien haben einen eigenen Stoffwechsel. Seine Produkte können Krankheiten auslösen, zum Beispiel Lungenentzündung, Harnwegsentzündung oder Salmonellose."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💉 Gegen welche bakterielle Erkrankung nennt das Fachbuch eine Impfung?",
+        "options": [
+          { "text": "Tetanus.", "correct": true },
+          { "text": "Salmonellose." },
+          { "text": "Harnwegsentzündung." }
+        ],
+        "explanation": "Auch gegen manche bakterielle Erkrankungen gibt es Impfungen. Das Fachbuch nennt als Beispiel Tetanus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏥 Was sind nosokomiale Infektionen?",
+        "options": [
+          { "text": "Infektionen, die man im Krankenhaus bekommt.", "correct": true },
+          { "text": "Infektionen, die man sich im Urlaub holt." },
+          { "text": "Infektionen durch verdorbenes Essen zu Hause." }
+        ],
+        "explanation": "Nosokomial heißt: im Krankenhaus erworben. Multiresistente Keime, kurz MRGN, sind häufig die Auslöser. Betroffen sind meist der Magen-Darm-Trakt oder die Haut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Was ist das Gefährliche an MRGN?",
+        "options": [
+          { "text": "Fast kein Antibiotikum wirkt gegen sie.", "correct": true },
+          { "text": "Man kann sie mit bloßem Auge sehen." },
+          { "text": "Sie vermehren sich nur im Kühlschrank." }
+        ],
+        "explanation": "MRGN sind multiresistent. Das heißt: Sie reagieren fast gar nicht auf Antibiotika. Deshalb sind Infektionen mit ihnen schwer zu behandeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Weiß man genau, wie lange Viren auf Flächen aktiv bleiben?",
+        "options": [
+          { "text": "Nein, das ist noch nicht genug erforscht.", "correct": true },
+          { "text": "Ja, es sind immer genau 24 Stunden." },
+          { "text": "Ja, sie sterben auf Flächen sofort ab." }
+        ],
+        "explanation": "Ob Viren lange auf Flächen und Gegenständen aktiv bleiben, ist laut Fachbuch noch nicht ausreichend erforscht. Deshalb reinigst und desinfizierst du Flächen trotzdem sorgfältig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Wofür steht MRGN?",
+        "options": [
+          { "text": "Multiresistente gramnegative Bakterien.", "correct": true },
+          { "text": "Magen-Rücken-Gelenk-Nerven." },
+          { "text": "Mehrfach reinigen, gut nachspülen." }
+        ],
+        "explanation": "MRGN steht für multiresistente gramnegative Bakterien. Multiresistent heißt: Viele Medikamente wirken nicht mehr."
+      }
+    }
+  ]
+}
