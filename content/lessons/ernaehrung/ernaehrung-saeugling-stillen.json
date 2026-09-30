@@ -1,0 +1,135 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-saeugling-stillen",
+  "title": "Säugling: Stillen und Muttermilch",
+  "sort": 562,
+  "intro": "🤱 Muttermilch ist die optimale Anfangsnahrung. Sie ist die einzige Nahrung, die nur für die Ernährung von Menschen da ist. Ihre Zusammensetzung ist genau auf die Bedürfnisse des Säuglings abgestimmt. Sie verändert sich im Laufe der Stillzeit.\n\nDirekt nach der Geburt bildet die Brust zuerst die Kolostralmilch. Sie ist besonders reich an Abwehrstoffen. Abwehrstoffe schützen vor Krankheiten. Nach etwa 14 Tagen bildet die Mutter die reife Muttermilch.\n\nMERKE: Die Milchbildung richtet sich nach dem Bedarf. Darum stillt die Mutter ihr Baby, sobald es Hunger hat.\n\nStillen hat Vorteile für das Kind: Es bekommt weniger Infektionskrankheiten. Sein Allergierisiko sinkt. Es hat später wahrscheinlich weniger Übergewicht. Auch sein Risiko für Bluthochdruck und Herz-Kreislauf-Erkrankungen ist geringer.\n\nStillen hat auch Vorteile für die Mutter: Ihre Gebärmutter bildet sich schneller zurück. Ihr Risiko für Brustkrebs und Eierstockkrebs ist geringer.\n\nIn Deutschland werden 90 % der Kinder nach der Geburt gestillt. Aber viele Mütter stillen nicht so lange wie empfohlen. Empfohlen sind 4 bis 6 Monate.\n\nOft gibt es Probleme mit der Brust oder zu wenig Milch. Viele Probleme lassen sich mit geschultem Personal lösen. Wichtige Ansprechpartnerinnen sind Hebammen. Ein Experte der Stiftung Kindergesundheit sagt außerdem: Lehnt der Partner das Stillen ab, ist das ein Risiko für frühes Abstillen. Abstillen heißt: mit dem Stillen aufhören.\n\nMERKE: Stillen schützt das Kind und die Mutter. Empfohlen sind 4 bis 6 Monate.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍼 Was ist das Besondere an Muttermilch?",
+        "options": [
+          { "text": "Sie ist optimal auf das Baby abgestimmt und verändert sich in der Stillzeit.", "correct": true },
+          { "text": "Sie ist optimal auf das Baby abgestimmt und bleibt immer genau gleich." },
+          { "text": "Sie ist genauso zusammengesetzt wie Kuhmilch und nur ein kleines bisschen wärmer." }
+        ],
+        "explanation": "Muttermilch ist die einzige Nahrung, die nur für die Ernährung von Menschen da ist. Sie passt genau zum Säugling. Und sie passt sich an: Im Laufe der Stillzeit verändert sich ihre Zusammensetzung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Direkt nach der Geburt bildet die Brust ein besonderes Sekret. Es ist besonders reich an Abwehrstoffen. Wie heißt es?",
+        "options": [
+          { "text": "Kolostralmilch", "correct": true },
+          { "text": "Reife Muttermilch" },
+          { "text": "Pre-Nahrung" },
+          { "text": "Folgenahrung" }
+        ],
+        "explanation": "Das erste Sekret nach der Geburt heißt Kolostralmilch. Die vielen Abwehrstoffe schützen das Neugeborene vor Krankheiten. Pre-Nahrung und Folgenahrung sind Flaschennahrung aus der Fabrik."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Nach etwa wie vielen Tagen bildet die Mutter die reife Muttermilch?",
+        "answer": 14,
+        "hint": "Es sind etwa zwei Wochen.",
+        "explanation": "Nach etwa 14 Tagen, also nach etwa zwei Wochen, bildet die Mutter die reife Muttermilch. Vorher gibt es die Kolostralmilch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👩‍🍼 Stillen hat Vorteile. Für wen? Sortiere.",
+        "buckets": [
+          { "id": "kind", "label": "Vorteil für das Kind", "icon": "👶" },
+          { "id": "mutter", "label": "Vorteil für die Mutter", "icon": "👩" }
+        ],
+        "items": [
+          { "text": "Weniger Infektionskrankheiten", "bucket": "kind" },
+          { "text": "Das Allergierisiko sinkt", "bucket": "kind" },
+          { "text": "Später wahrscheinlich weniger Übergewicht", "bucket": "kind" },
+          { "text": "Die Gebärmutter bildet sich schneller zurück", "bucket": "mutter" },
+          { "text": "Geringeres Risiko für Brustkrebs", "bucket": "mutter" },
+          { "text": "Geringeres Risiko für Eierstockkrebs", "bucket": "mutter" }
+        ],
+        "explanation": "Frag dich: Wessen Körper ist gemeint? Gebärmutter, Brust und Eierstöcke gehören zur Mutter. Abwehr gegen Infektionen, Allergien und Übergewicht betreffen das Kind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❤️ Stillen senkt beim Kind das Risiko für bestimmte Krankheiten. Für welche?",
+        "options": [
+          { "text": "Bluthochdruck und Herz-Kreislauf-Erkrankungen", "correct": true },
+          { "text": "Karies und schiefe Zähne" },
+          { "text": "Kurzsichtigkeit und später Schwerhörigkeit im Alter" },
+          { "text": "Rückenschmerzen und Haltungsschäden in der Schule" }
+        ],
+        "explanation": "Gestillte Kinder haben ein geringeres Risiko für Bluthochdruck und Herz-Kreislauf-Erkrankungen. Dazu kommen weniger Infektionen, weniger Allergien und wahrscheinlich weniger Übergewicht."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🇩🇪 Wie viel Prozent der Kinder in Deutschland werden nach der Geburt gestillt?",
+        "answer": 90,
+        "hint": "Es sind fast alle Kinder. Die Zahl liegt zwischen 80 und 100.",
+        "explanation": "90 % der Kinder werden nach der Geburt gestillt. Das ist viel. Aber viele Mütter stillen kürzer als empfohlen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Wie lange sollen Mütter laut Empfehlung stillen?",
+        "options": [
+          { "text": "4 bis 6 Monate", "correct": true },
+          { "text": "2 bis 3 Wochen" },
+          { "text": "1 bis 2 Monate" },
+          { "text": "10 bis 12 Wochen" }
+        ],
+        "explanation": "Empfohlen sind 4 bis 6 Monate. In Deutschland stillen viele Mütter kürzer. Oft liegt das an Problemen mit der Brust oder an zu wenig Milch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Eine Mutter hat Probleme mit der Brust. Sie meint, sie hat zu wenig Milch. Was ist richtig?",
+        "options": [
+          { "text": "Eine Hebamme kann ihr helfen, viele Probleme sind lösbar.", "correct": true },
+          { "text": "Sie muss sofort abstillen, denn dagegen kann man nichts tun." },
+          { "text": "Sie gibt dem Baby zusätzlich verdünnte Kuhmilch." },
+          { "text": "Sie stillt nur noch nach einem festen Stundenplan." }
+        ],
+        "explanation": "Viele Stillprobleme lassen sich lösen. Wichtig ist enger Kontakt zu geschultem Personal. Hebammen sind dafür wichtige Ansprechpartnerinnen. Verdünnte Kuhmilch ist für Säuglinge nicht geeignet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👨 Was kann laut Stiftung Kindergesundheit ein Risiko für frühes Abstillen sein?",
+        "options": [
+          { "text": "Der Partner lehnt das Stillen ab.", "correct": true },
+          { "text": "Das Baby wächst zu schnell." },
+          { "text": "Die Mutter trinkt viel Wasser." },
+          { "text": "Das Baby bekommt die ersten Zähne." }
+        ],
+        "explanation": "Abstillen heißt: mit dem Stillen aufhören. Nicht nur die Mutter entscheidet mit. Lehnt der Partner das Stillen ab, hört die Mutter oft früher auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Wann stillt eine Mutter ihr Baby?",
+        "options": [
+          { "text": "Sobald das Baby Hunger hat.", "correct": true },
+          { "text": "Genau alle vier Stunden nach Plan." },
+          { "text": "Nur morgens und abends." }
+        ],
+        "explanation": "Die Milchbildung richtet sich nach dem Bedarf. Trinkt das Baby oft, bildet die Brust mehr Milch. Darum stillt die Mutter, sobald das Baby Hunger hat."
+      }
+    }
+  ]
+}

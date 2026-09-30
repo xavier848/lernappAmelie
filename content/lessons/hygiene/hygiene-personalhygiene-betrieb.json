@@ -1,0 +1,143 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-personalhygiene-betrieb",
+  "title": "Personalhygiene im Betrieb",
+  "sort": 603,
+  "intro": "🧑‍🍳 Die persönliche Hygiene betrifft die Arbeitskleidung und die Körperhygiene des Personals. Die Anforderungen daran sind Kontrollpunkte, also CPs.\n\nDu trägst saubere Arbeitskleidung, zum Beispiel Kittel, Hose, Kopfbedeckung und Arbeitsschuhe. Deine Haare bedeckst du mit einer Kopfbedeckung. Lange Haare bindest du vorher zusammen.\n\nMERKE: Du reinigst deine Hände gründlich bis zum Unterarm. Und zwar vor Arbeitsbeginn, nach jedem Toilettenbesuch, nach jeder Pause und wenn du den Arbeitsplatz wechselst. In vielen Betrieben desinfizierst du sie danach auch.\n\nOffene Wunden oder Verletzungen an Händen oder Armen versorgst du sorgfältig mit wasserundurchlässigem Verbandsmaterial. Wasserundurchlässig heißt: Es lässt kein Wasser durch. Eventuell trägst du Fingerlinge oder Einweghandschuhe. Ein Fingerling ist eine Schutzhülle für einen einzelnen Finger.\n\nPrivatkleidung und Arbeitskleidung bewahrst du getrennt auf.\n\nDu pflegst deine Hände regelmäßig. Die Fingernägel sind sauber, kurz und ohne Nagellack. Handschmuck, Armbänder und Armbanduhren legst du ab. Auch anderen Schmuck wie Ohrringe legst du in der Küche ab.\n\nMERKE: Rauchen am Arbeitsplatz ist verboten.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧑‍🍳 Worauf bezieht sich die persönliche Hygiene?",
+        "options": [
+          { "text": "Auf die Arbeitskleidung und die Körperhygiene.", "correct": true },
+          { "text": "Auf die Küchenräume und alle Arbeitsgeräte." },
+          { "text": "Auf die Lagerung und die Zubereitung der Speisen." }
+        ],
+        "explanation": "Persönliche Hygiene oder Personalhygiene betrifft dich selbst: deine Arbeitskleidung und deine Körperhygiene. Räume und Geräte gehören zur Küchenhygiene, die Speisen zur Lebensmittelhygiene."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙌 Wie weit reinigst du deine Hände in der Küche?",
+        "options": [
+          { "text": "Bis zum Unterarm.", "correct": true },
+          { "text": "Nur die Fingerspitzen." },
+          { "text": "Nur die Handflächen." }
+        ],
+        "explanation": "Du reinigst die Hände gründlich bis zum Unterarm. Denn auch an den Handgelenken und Unterarmen sitzen Keime, die beim Arbeiten ins Essen kommen können."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⏰ Wann reinigst du deine Hände gründlich? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Pflicht-Zeitpunkt", "icon": "✅" },
+          { "id": "nein", "label": "Reicht nicht aus", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Vor Arbeitsbeginn", "bucket": "ja" },
+          { "text": "Nach jedem Toilettenbesuch", "bucket": "ja" },
+          { "text": "Nach jeder Pause", "bucket": "ja" },
+          { "text": "Beim Wechsel des Arbeitsplatzes", "bucket": "ja" },
+          { "text": "Nur einmal nach Feierabend", "bucket": "nein" },
+          { "text": "Nur wenn die Hände sichtbar schmutzig sind", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Könnten jetzt neue Keime an meinen Händen sein? Vor der Arbeit, nach der Toilette, nach der Pause und beim Wechsel zu einer anderen Arbeit ist das immer so. Keime sieht man nicht, deshalb reicht es nicht, nur bei sichtbarem Schmutz zu waschen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩹 Du hast einen kleinen offenen Schnitt am Finger. Wie versorgst du ihn in der Küche?",
+        "options": [
+          { "text": "Wasserdicht verbinden, eventuell mit Fingerling.", "correct": true },
+          { "text": "Gar nicht verbinden, damit Luft an die Wunde kommt." },
+          { "text": "Mit einem Stoffpflaster, das Wasser durchlässt." }
+        ],
+        "explanation": "Offene Wunden versorgst du mit wasserundurchlässigem Verbandsmaterial. Eventuell trägst du darüber einen Fingerling oder Einweghandschuhe. So kommen keine Keime aus der Wunde ins Essen. Bei der Ersten Hilfe deckst du die Wunde keimfrei ab. Für die Arbeit in der Küche muss der Verband zusätzlich wasserdicht sein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☝️ Was ist ein Fingerling?",
+        "options": [
+          { "text": "Eine Schutzhülle für einen einzelnen Finger.", "correct": true },
+          { "text": "Ein kleines Messer zum Garnieren von Obst und Gemüse." },
+          { "text": "Ein schmaler Ring für den kleinen Finger." }
+        ],
+        "explanation": "Ein Fingerling ist wie der Finger eines Handschuhs. Er schützt einen einzelnen verletzten Finger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Wie bewahrst du Privatkleidung und Arbeitskleidung auf?",
+        "options": [
+          { "text": "Getrennt voneinander.", "correct": true },
+          { "text": "Zusammen in einem Spind." },
+          { "text": "Übereinander am Haken." }
+        ],
+        "explanation": "Privat- und Arbeitskleidung bewahrst du getrennt auf. So kommen keine Keime von draußen an die saubere Arbeitskleidung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Richtig oder nicht erlaubt bei der Arbeit in der Küche? Sortiere.",
+        "buckets": [
+          { "id": "ok", "label": "So ist es richtig", "icon": "✅" },
+          { "id": "verboten", "label": "Nicht erlaubt", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Saubere Arbeitskleidung", "bucket": "ok" },
+          { "text": "Kurze, saubere Fingernägel", "bucket": "ok" },
+          { "text": "Kopfbedeckung über zusammengebundenen Haaren", "bucket": "ok" },
+          { "text": "Armbanduhr", "bucket": "verboten" },
+          { "text": "Nagellack", "bucket": "verboten" },
+          { "text": "Armband", "bucket": "verboten" }
+        ],
+        "explanation": "Frag dich: Können sich hier Keime sammeln oder etwas ins Essen fallen? Unter Uhr und Armband sammeln sich Keime. Nagellack kann abplatzen. Saubere Kleidung, kurze Nägel und eine Kopfbedeckung schützen das Essen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👔 Was gehört laut Fachbuch zur Arbeitskleidung?",
+        "options": [
+          { "text": "Kittel, Hose, Kopfbedeckung und Arbeitsschuhe.", "correct": true },
+          { "text": "Schürze, Jeans, eine Baseballkappe und Sandalen." },
+          { "text": "Kittel, Shorts, Haarband und Turnschuhe." }
+        ],
+        "explanation": "Saubere Arbeitskleidung ist zum Beispiel: Kittel, Hose, Kopfbedeckung und Arbeitsschuhe. Die Kopfbedeckung hält die Haare zurück."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 In vielen Betrieben machst du nach dem Händewaschen noch etwas. Was?",
+        "options": [
+          { "text": "Die Hände desinfizieren.", "correct": true },
+          { "text": "Die Hände noch einmal kalt abspülen." },
+          { "text": "Die Hände an der Schürze abwischen." }
+        ],
+        "explanation": "In vielen Betrieben werden die Hände nach dem Reinigen auch desinfiziert. Desinfizieren heißt: Keime abtöten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚭 Darfst du am Arbeitsplatz in der Küche rauchen?",
+        "options": [
+          { "text": "Nein, das ist verboten.", "correct": true },
+          { "text": "Ja, in kurzen Pausen." },
+          { "text": "Ja, bei offenem Fenster." }
+        ],
+        "explanation": "Rauchen am Arbeitsplatz ist verboten. Das steht in den Anforderungen an die Personalhygiene."
+      }
+    }
+  ]
+}

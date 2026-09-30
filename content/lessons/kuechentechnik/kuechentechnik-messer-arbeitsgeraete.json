@@ -13,7 +13,7 @@
           { "text": "Den Kugelaushöhler." },
           { "text": "Das Tourniermesser." }
         ],
-        "explanation": "Der Apfelentkerner ist ein schmales Rohr mit scharfem Rand. Du drückst ihn gerade durch den Apfel. So kommt das ganze Kerngehäuse in einem Stück heraus. Der Kugelaushöhler formt nur runde Kugeln, das Tourniermesser formt Gemüse."
+        "explanation": "Der Apfelentkerner ist ein schmales Rohr mit scharfem Rand. Du drehst ihn gerade in den Apfel hinein. So kommt das ganze Kerngehäuse in einem Stück heraus. Der Kugelaushöhler formt nur runde Kugeln, das Tourniermesser formt Gemüse."
       }
     },
     {
@@ -24,10 +24,11 @@
           { "left": { "text": "🌿 Wiegemesser" }, "right": { "text": "Kräuter fein zerhacken" } },
           { "left": { "text": "🍅 Tomatenmesser" }, "right": { "text": "Tomaten leicht schneiden" } },
           { "left": { "text": "🎂 Tortenmesser" }, "right": { "text": "Kuchenstücke schneiden" } },
-          { "left": { "text": "🍖 Küchengabel" }, "right": { "text": "Braten anstechen" } },
+          { "left": { "text": "🍖 Küchengabel" }, "right": { "text": "Braten festhalten" } },
           { "left": { "text": "🎀 Buntschneidemesser" }, "right": { "text": "Wellenmuster schneiden" } }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Frag dich bei jedem Gerät: Wie ist es gebaut, und was kann es deshalb? Eine gebogene Klinge wiegst du hin und her. Ein feiner Wellenschliff greift in glatte Haut. Eine stark gewellte Klinge hinterlässt ein Muster. Eine breite Klinge hebt Kuchenstücke. Die Gabel hält den Braten beim Aufschneiden nur fest. Stich nicht tief hinein, sonst verliert der Braten Saft."
       }
     },
     {
@@ -58,7 +59,8 @@
           { "text": "Buntschneidemesser", "bucket": "verzieren" },
           { "text": "Tourniermesser", "bucket": "verzieren" },
           { "text": "Kugelaushöhler", "bucket": "verzieren" }
-        ]
+        ],
+        "explanation": "Frag dich: Soll das Lebensmittel nur geschnitten oder geputzt werden? Oder soll es eine schöne Form oder ein Muster bekommen? Zum Verzieren und Formen gehören die Geräte, die Kugeln, gleichmäßige Formen oder Muster machen."
       }
     },
     {
@@ -76,7 +78,7 @@
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🔗 Wofür brauchst du welches Gerät? Finde die Paare.",
+        "prompt": "🔗 Noch einmal: Wofür brauchst du welches Gerät? Finde die Paare.",
         "pairs": [
           { "left": { "text": "🥬 Gemüsemesser" }, "right": { "text": "Gemüse und Salat putzen" } },
           { "left": { "text": "🔪 Küchenmesser" }, "right": { "text": "großes Allzweckmesser" } },
@@ -84,7 +86,8 @@
           { "left": { "text": "🍈 Kugelaushöhler" }, "right": { "text": "Melonenkugeln formen" } },
           { "left": { "text": "🥕 Tourniermesser" }, "right": { "text": "Gemüse gleichmäßig formen" } }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Frag dich: Was sagt der Name? Apfelentkerner und Kugelaushöhler verraten ihre Aufgabe schon im Namen. Tournieren heißt: gleichmäßig in Form schneiden. Ein Allzweckmesser ist groß und passt für fast alles."
       }
     },
     {

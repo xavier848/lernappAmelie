@@ -1,0 +1,113 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-mhd-abtropfgewicht-allergene",
+  "title": "MHD, Abtropfgewicht und Allergene",
+  "sort": 688,
+  "intro": "📅 Das Mindesthaltbarkeitsdatum heißt kurz MHD. Bei richtiger Lagerung ist die Ware mindestens bis zu diesem Datum haltbar. Verdirbt sie trotzdem vorher, muss der Verkäufer sie zurücknehmen.\n\nMERKE: Verpackte Ware kann man weder visuell noch olfaktorisch prüfen. Visuell heißt: mit den Augen. Olfaktorisch heißt: mit der Nase. Darum muss das MHD auf der Verpackung stehen.\n\nBei Obstkonserven muss das Abtropfgewicht angegeben sein. Die Füllmenge ist alles im Glas, also Früchte und Saft. Das Abtropfgewicht ist nur das Gewicht der Früchte ohne Saft.\n\nEin Beispiel: Auf einem Glas Sauerkirschen steht „Füllmenge: 680 g“ und „Abtropfgewicht: 350 g“. Die Kirschen allein wiegen also 350 g.\n\nViele Menschen haben ein erhöhtes Allergierisiko. Darum müssen bestimmte Zutaten als Allergene gekennzeichnet werden. Das sind: glutenhaltiges Getreide, Eier, Milch, Erdnüsse, Soja und Lupine.\n\nAußerdem: Schalenfrüchte, vor allem Nüsse. Sellerie, Senf und Sesam. Schwefeldioxid und Sulfite. Krebstiere, Weichtiere und Fisch.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Du lagerst eine Ware richtig. Trotzdem verdirbt sie schon vor dem Mindesthaltbarkeitsdatum. Was gilt?",
+        "options": [
+          { "text": "Der Verkäufer muss die Ware zurücknehmen.", "correct": true },
+          { "text": "Der Käufer hat einfach Pech gehabt." },
+          { "text": "Der Käufer muss sie auf eigene Kosten entsorgen." }
+        ],
+        "explanation": "Das MHD verspricht: Bei richtiger Lagerung ist die Ware bis zu diesem Tag mindestens gut. Hält sie das nicht, ist der Verkäufer zur Rücknahme verpflichtet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👃 Warum muss auf verpackter Ware ein Mindesthaltbarkeitsdatum stehen?",
+        "options": [
+          { "text": "Man kann sie weder ansehen noch an ihr riechen.", "correct": true },
+          { "text": "Sonst darf sie später nicht in den Kühlschrank." },
+          { "text": "Sonst bekommt sie im Laden gar keinen Preis." }
+        ],
+        "explanation": "Bei loser Ware siehst und riechst du, ob sie frisch ist. Bei verpackter Ware geht das nicht. Darum muss das MHD angegeben werden."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet der Begriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Visuell prüfen"}, "right": {"text": "Mit den Augen prüfen"} },
+          { "left": {"text": "Olfaktorisch prüfen"}, "right": {"text": "Mit der Nase prüfen"} },
+          { "left": {"text": "Füllmenge"}, "right": {"text": "Alles im Glas: Früchte und Saft"} },
+          { "left": {"text": "Abtropfgewicht"}, "right": {"text": "Nur die Früchte ohne Saft"} }
+        ],
+        "memory": false,
+        "explanation": "Denk an ein Sieb. Gießt du den Saft ab, bleiben die Früchte übrig. Ihr Gewicht ist das Abtropfgewicht. Die Füllmenge zählt den Saft mit."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍒 Ein Glas Sauerkirschen: Füllmenge 680 g, Abtropfgewicht 350 g. Wie viel Gramm wiegt ungefähr der Saft?",
+        "answer": 330,
+        "hint": "Füllmenge = Kirschen und Saft zusammen.\nAbtropfgewicht = nur die Kirschen.\n680 − 350 = ?",
+        "explanation": "680 g − 350 g = 330 g. Der Saft wiegt also ungefähr 330 g. Wer Kirschen für einen Kuchen braucht, rechnet mit dem Abtropfgewicht: 350 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥫 Bei welcher Ware muss das Abtropfgewicht angegeben sein?",
+        "options": [
+          { "text": "Bei Obstkonserven, zum Beispiel Pfirsichen in Dosen.", "correct": true },
+          { "text": "Bei Mehl, Zucker und Grieß in einer großen Papiertüte." },
+          { "text": "Bei Milch und Saft in einem großen Tetrapack." }
+        ],
+        "explanation": "Das Abtropfgewicht zählt bei Ware, die in Flüssigkeit liegt. Bei Obstkonserven zeigt es dir, wie viel Frucht du wirklich bekommst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Warum müssen bestimmte Zutaten als Allergene gekennzeichnet werden?",
+        "options": [
+          { "text": "Weil viele Menschen ein erhöhtes Allergierisiko haben.", "correct": true },
+          { "text": "Weil diese Zutaten besonders teuer im Einkauf sind." },
+          { "text": "Weil diese Zutaten ganz besonders schnell verderben." }
+        ],
+        "explanation": "Das Risiko für Allergien ist in der Bevölkerung überdurchschnittlich hoch. Wer allergisch ist, muss sofort sehen können, was in einem Lebensmittel steckt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Muss die Zutat als Allergen gekennzeichnet werden? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Allergen: muss drauf", "icon": "⚠️" },
+          { "id": "nein", "label": "Kein Pflicht-Allergen", "icon": "➖" }
+        ],
+        "items": [
+          { "text": "Soja", "bucket": "ja" },
+          { "text": "Lupine", "bucket": "ja" },
+          { "text": "Sesam", "bucket": "ja" },
+          { "text": "Sulfite", "bucket": "ja" },
+          { "text": "Senf", "bucket": "ja" },
+          { "text": "Sellerie", "bucket": "ja" },
+          { "text": "Reis", "bucket": "nein" },
+          { "text": "Kartoffeln", "bucket": "nein" }
+        ],
+        "explanation": "Präge dir die Gruppen ein: Getreide mit Gluten, Eier, Milch, Erdnüsse, Soja, Lupine, Nüsse, Sellerie, Senf, Sesam, Sulfite, Krebstiere, Weichtiere und Fisch. Reis und Kartoffeln gehören nicht dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wofür steht die Abkürzung MHD?",
+        "options": [
+          { "text": "Mindesthaltbarkeitsdatum.", "correct": true },
+          { "text": "Mehrwertsteuer-Hinweis." },
+          { "text": "Menge, Hersteller, Datum." }
+        ],
+        "explanation": "MHD heißt Mindesthaltbarkeitsdatum. Bis zu diesem Tag ist die Ware mindestens haltbar."
+      }
+    }
+  ]
+}

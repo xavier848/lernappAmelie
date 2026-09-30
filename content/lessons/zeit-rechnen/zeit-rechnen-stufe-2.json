@@ -1,0 +1,128 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-stufe-2",
+  "title": "Stufe 2: Zwei Zeitabschnitte",
+  "sort": 3,
+  "intro": "Jetzt gibt es zwei Zeitabschnitte hintereinander. Zum Beispiel: Die Nudeln kochen 11 Minuten. Danach stehen sie noch 5 Minuten.\n\nZähle zuerst beide Zeiten zusammen: 11 + 5 = 16 Minuten. Dann rechnest du von der Startzeit aus weiter.\n\nDu beginnst um 12:46 Uhr. Bis 13:00 Uhr sind es 14 Minuten. 16 − 14 = 2 Minuten bleiben übrig. Du kannst um 13:02 Uhr essen.\n\nMERKE: Erst alle Minuten zusammenzählen, dann zur Startzeit dazurechnen.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍝 Die Nudeln kochen 11 Minuten. Danach stehen sie noch 5 Minuten. Wie viele Minuten sind das zusammen?",
+        "answer": 16,
+        "hint": "Zähle beide Zeiten zusammen:\n11 + 5 = ?",
+        "explanation": "11 + 5 = 16 Minuten. Auch das Stehenlassen gehört zur Zeit dazu."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍝 Die Nudeln kochen 11 Minuten. Danach stehen sie noch 5 Minuten. Du beginnst um 12:46 Uhr. Wann kannst du essen?",
+        "answer": 1302,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 11 + 5 = 16 Minuten.\nBis zur vollen Stunde: 12:46 Uhr → 13:00 Uhr sind 14 Minuten.\n16 − 14 = 2 Minuten bleiben übrig.\n13:00 Uhr + 2 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 11 + 5 = 16 Minuten. 12:46 Uhr + 16 Minuten = 13:02 Uhr. Brücke: erst 14 Minuten bis 13:00 Uhr, dann noch 2 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧁 Der Teig ruht 25 Minuten. Danach backt der Kuchen 35 Minuten. Du beginnst um 13:47 Uhr. Wann ist der Kuchen fertig?",
+        "answer": 1447,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 25 + 35 = 60 Minuten.\n60 Minuten sind 1 Stunde.\n13:47 Uhr + 1 Stunde = ?",
+        "explanation": "Alle Minuten zusammen: 25 + 35 = 60 Minuten. 60 Minuten sind genau 1 Stunde. 13:47 Uhr + 1 Stunde = 14:47 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧺 Die Wäsche wird 58 Minuten gewaschen. Danach trocknet sie 47 Minuten im Trockner. Du startest um 8:36 Uhr. Wann ist die Wäsche trocken?",
+        "answer": 1021,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 58 + 47 = 105 Minuten.\n105 Minuten sind 1 Stunde und 45 Minuten.\n8:36 Uhr + 1 Stunde = 9:36 Uhr\nBis zur vollen Stunde: 9:36 Uhr → 10:00 Uhr sind 24 Minuten.\n45 − 24 = 21 Minuten bleiben übrig.\n10:00 Uhr + 21 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 58 + 47 = 105 Minuten. 105 Minuten sind 1 Stunde und 45 Minuten. 8:36 Uhr + 1 Stunde = 9:36 Uhr. Dann noch 45 Minuten dazu: 10:21 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Du fährst um 7:44 Uhr mit dem Zug los. Die Zugfahrt dauert 23 Minuten. Danach gehst du noch 12 Minuten zu Fuß. Wann bist du da?",
+        "answer": 819,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 23 + 12 = 35 Minuten.\nBis zur vollen Stunde: 7:44 Uhr → 8:00 Uhr sind 16 Minuten.\n35 − 16 = 19 Minuten bleiben übrig.\n8:00 Uhr + 19 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 23 + 12 = 35 Minuten. 7:44 Uhr + 35 Minuten = 8:19 Uhr. Brücke: erst 16 Minuten bis 8:00 Uhr, dann noch 19 Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Das Hähnchen brät 35 Minuten. Danach ruht es 10 Minuten. Du beginnst um 11:52 Uhr. Wann kannst du essen?",
+        "options": [
+          {
+            "text": "12:37 Uhr",
+            "correct": true
+          },
+          {
+            "text": "12:27 Uhr"
+          },
+          {
+            "text": "12:47 Uhr"
+          }
+        ],
+        "explanation": "Alle Minuten zusammen: 35 + 10 = 45 Minuten. 11:52 Uhr + 45 Minuten = 12:37 Uhr. Brücke: erst 8 Minuten bis 12:00 Uhr, dann noch 37 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🛁 Du putzt zuerst 19 Minuten das Bad. Danach putzt du 26 Minuten die Küche. Du beginnst um 9:18 Uhr. Wann bist du fertig?",
+        "answer": 1003,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 19 + 26 = 45 Minuten.\nBis zur vollen Stunde: 9:18 Uhr → 10:00 Uhr sind 42 Minuten.\n45 − 42 = 3 Minuten bleiben übrig.\n10:00 Uhr + 3 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 19 + 26 = 45 Minuten. 9:18 Uhr + 45 Minuten = 10:03 Uhr. Brücke: erst 42 Minuten bis 10:00 Uhr, dann noch 3 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Du sattelst dein Pferd 14 Minuten lang. Dann reitest du 38 Minuten. Du beginnst um 15:25 Uhr. Wann bist du fertig?",
+        "answer": 1617,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 14 + 38 = 52 Minuten.\nBis zur vollen Stunde: 15:25 Uhr → 16:00 Uhr sind 35 Minuten.\n52 − 35 = 17 Minuten bleiben übrig.\n16:00 Uhr + 17 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 14 + 38 = 52 Minuten. 15:25 Uhr + 52 Minuten = 16:17 Uhr. Brücke: erst 35 Minuten bis 16:00 Uhr, dann noch 17 Minuten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍝 Nudeln: Beginn 12:46 Uhr, 11 Minuten kochen, 5 Minuten stehen. Bring den Rechenweg in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Beide Zeiten zusammenzählen: 11 + 5 = 16 Minuten."
+          },
+          {
+            "text": "Bis zur vollen Stunde rechnen: 12:46 Uhr → 13:00 Uhr sind 14 Minuten."
+          },
+          {
+            "text": "Den Rest ausrechnen: 16 − 14 = 2 Minuten."
+          },
+          {
+            "text": "Den Rest dazuzählen: 13:00 Uhr + 2 Minuten = 13:02 Uhr."
+          }
+        ],
+        "explanation": "Bei zwei Abschnitten zählst du zuerst alle Minuten zusammen. Danach kommt die Brücke über die volle Stunde."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍳 Das Rührei brät 6 Minuten. Danach toastest du noch 3 Minuten Brot. Du beginnst um 7:30 Uhr. Wann ist das Frühstück fertig?",
+        "answer": 739,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 6 + 3 = 9 Minuten.\nDie Stunde bleibt gleich. Rechne nur die Minuten: 30 + 9 = ?",
+        "explanation": "Alle Minuten zusammen: 6 + 3 = 9 Minuten. 7:30 Uhr + 9 Minuten = 7:39 Uhr. Die Stunde bleibt gleich, du rechnest nur die Minuten dazu."
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-tischdeko-kerzen",
+  "title": "Tischdeko: Ambiente und Kerzen",
+  "sort": 570,
+  "intro": "🕯️ Das Ambiente eines Tisches wirkt auf den Gast. Ambiente heißt: die Wirkung und Stimmung. Es stimmt den Gast auf die kommenden Speisen ein.\n\nDie Tischdekoration ordnest du vor dem eigentlichen Eindecken an. Du wählst sie passend zum Anlass, zum Raum und zum Geschirr. Überlade den Tisch nicht. Es muss genug Platz für die Speisen bleiben. Die Deko darf auch nicht den Blick zum Tischpartner gegenüber versperren. Das ist besonders bei Blumen wichtig.\n\nMERKE: Die Deko beginnt in der Tischmitte und läuft nach außen aus. Stehen mehrere Tische im Raum, bekommt jeder Tisch die gleiche Dekoration.\n\nMit Dekoschals und Bändern veränderst du das Ambiente einfach und kostengünstig. Ein Dekoschal ist ein langes Stoffband zum Dekorieren. Die Farben stimmst du harmonisch ab.\n\nKerzen machen eine gemütliche Atmosphäre. Es gibt sie in vielen Formen und Farben. Aber Achtung, Brandgefahr! Kerzen müssen standfest stehen oder gut befestigt sein. Stelle sie nicht direkt an leicht brennbare Dinge wie Blumendekorationen oder Gardinen.\n\nMERKE: Eine praktische Alternative sind LED-Kerzen. Sie leuchten ohne offene Flamme.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✨ Begriffe zur Tischdeko: Was gehört zusammen?",
+        "pairs": [
+          { "left": {"text": "Ambiente"}, "right": {"text": "Stimmt den Gast auf die Speisen ein"} },
+          { "left": {"text": "Dekoschal"}, "right": {"text": "Verändert die Stimmung einfach und günstig"} },
+          { "left": {"text": "LED-Kerze"}, "right": {"text": "Leuchtet ohne offene Flamme"} }
+        ],
+        "explanation": "Das Ambiente ist die Wirkung des ganzen Tisches. Dekoschals und Bänder sind ein günstiger Weg, es zu verändern. LED-Kerzen sind die sichere Alternative zu echten Kerzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Wann ordnest du die Tischdekoration an?",
+        "options": [
+          { "text": "Vor dem eigentlichen Eindecken.", "correct": true },
+          { "text": "Nach dem Eindecken, wenn alles steht." },
+          { "text": "Erst, wenn die Gäste schon sitzen." },
+          { "text": "Zwischen Vorspeise und Hauptgang." }
+        ],
+        "explanation": "Die Deko kommt vor Geschirr, Besteck und Gläsern auf den Tisch. So stößt du beim Dekorieren nichts um. Und du siehst gleich, wie viel Platz für das Gedeck bleibt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Wonach wählst du die Tischdekoration aus?",
+        "options": [
+          { "text": "Nach dem Anlass, dem Raum und dem Geschirr.", "correct": true },
+          { "text": "Nach dem, was gerade im Supermarkt im Angebot ist." },
+          { "text": "Nach den Lieblingsblumen des Servicepersonals." },
+          { "text": "Nach der Uhrzeit, zu der das Essen beginnt." }
+        ],
+        "explanation": "Eine Taufe braucht eine andere Deko als ein Geschäftsessen. Außerdem soll die Deko zum Raum und zum Geschirr passen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "↔️ Wie ordnest du die Deko auf dem Tisch an?",
+        "options": [
+          { "text": "Von der Tischmitte aus nach außen auslaufend.", "correct": true },
+          { "text": "Nur an den vier Ecken des Tisches." },
+          { "text": "Vom Rand aus zur Tischmitte hin immer mehr werdend." },
+          { "text": "Direkt vor jedem Teller ein großes Teil." }
+        ],
+        "explanation": "Die Tischdekoration beginnt in der Mitte und wird nach außen hin weniger. So bleibt an den Plätzen genug Raum für das Gedeck."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Warum darfst du den Tisch nicht mit Deko überladen?",
+        "options": [
+          { "text": "Es muss genug Platz für die Speisen bleiben.", "correct": true },
+          { "text": "Sonst kostet die Deko zu viel Geld." },
+          { "text": "Sonst kann man die Kerzen nicht mehr sicher anzünden." },
+          { "text": "Sonst passt die Tischdecke nicht mehr." }
+        ],
+        "explanation": "Deko ist schön, aber das Essen ist die Hauptsache. Platten, Schüsseln und Gedecke brauchen Platz. Außerdem soll die Deko den Blick zum Gegenüber nicht versperren."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Kerzen auf dem Tisch: Sicher oder gefährlich? Sortiere.",
+        "buckets": [
+          { "id": "sicher", "label": "Sicher", "icon": "✅" },
+          { "id": "gefahr", "label": "Brandgefahr", "icon": "🔥" }
+        ],
+        "items": [
+          { "text": "Kerze standfest aufstellen", "bucket": "sicher" },
+          { "text": "Kerze im Halter gut befestigen", "bucket": "sicher" },
+          { "text": "Kerze direkt neben das Blumengesteck stellen", "bucket": "gefahr" },
+          { "text": "Kerze nah an die Gardine stellen", "bucket": "gefahr" },
+          { "text": "Kerze wackelig ohne Halter aufstellen", "bucket": "gefahr" }
+        ],
+        "explanation": "Frag dich: Kann die Kerze umfallen? Steht sie neben etwas, das leicht brennt? Dann besteht Brandgefahr. Sicher ist eine Kerze, die fest steht und Abstand zu Blumen und Gardinen hat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💐 Warum stellst du eine Kerze nicht direkt neben ein Blumengesteck?",
+        "options": [
+          { "text": "Blumendeko brennt leicht, es droht ein Brand.", "correct": true },
+          { "text": "Die Blumen welken durch das helle Kerzenlicht sehr schnell." },
+          { "text": "Das Wachs färbt die Blüten dunkel." },
+          { "text": "Der Duft der Blumen löscht die Kerze aus." }
+        ],
+        "explanation": "Blumendekorationen und Gardinen sind leicht brennbar. Durch Unachtsamkeit kann die Flamme schnell einen Brand auslösen. Darum wählst du den Platz für Kerzen besonnen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪑 Im Saal stehen fünf Tische. Wie dekorierst du sie?",
+        "options": [
+          { "text": "Jeder Tisch bekommt die gleiche Deko.", "correct": true },
+          { "text": "Jeder Tisch bekommt eine andere Deko." },
+          { "text": "Nur der Tisch des Gastgebers bekommt Deko." }
+        ],
+        "explanation": "Bei mehreren Tischen bekommt jeder Tisch die gleiche Dekoration. So wirkt der ganze Raum einheitlich und kein Gast fühlt sich zurückgesetzt."
+      }
+    }
+  ]
+}

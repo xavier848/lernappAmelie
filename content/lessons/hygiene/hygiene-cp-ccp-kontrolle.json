@@ -1,0 +1,133 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-cp-ccp-kontrolle",
+  "title": "Kontrollpunkte: CP und CCP",
+  "sort": 602,
+  "intro": "🔍 In der Praxis unterscheidet man zwei Arten von Kontrollpunkten: CP und CCP.\n\nCP heißt Kontrollpunkt. Das ist ein Gefahrenpunkt, bei dem sorgfältiges Arbeiten genügt. Eine weitere Kontrolle oder ein schriftlicher Nachweis ist nicht nötig. Beispiel: Du wäschst und putzt Erdbeeren für einen Erdbeerboden. Erdbeeren haben oft Druckstellen, oder es hat sich Schimmel gebildet. Du sortierst sie sorgfältig aus. So verhinderst du eine Gefahr für die Gesundheit.\n\nCCP heißt kritischer Kontrollpunkt. Das sind Schwachstellen im Ablauf, die eine Gefahr sind. Du musst sie erkennen, beobachten und dokumentieren. Beispiel: Speisen, die wieder erwärmt werden, müssen eine Kerntemperatur von 80 °C erreichen. Wieder erwärmen heißt auch regenerieren. Auch das getrennte Auffangen der Auftauflüssigkeit von Geflügel ist ein CCP.\n\nMERKE: CP heißt: sorgfältig arbeiten, nichts aufschreiben. CCP heißt: erkennen, beobachten und dokumentieren.\n\nBei der Warenannahme hilft ein Hygieneplan. Oben stehen der Lieferant und das Liefer- und Kontrolldatum. Unten unterschreibst du. Du prüfst zum Beispiel das Lieferfahrzeug mit einer Sichtkontrolle an der Rampe: Gibt es hygienische Mängel? Und du prüfst die Verpackung: Ist sie sauber? Ist sie beschädigt, nimmst du die Ware nicht an. Das ist eine Reklamation.\n\nLebensmittelvergiftungen kommen oft von menschlichem Fehlverhalten, zum Beispiel von Hygienemängeln oder von Speisen, die nicht genug erhitzt wurden. Sind die Fehlerquellen und die CCPs bekannt, kann man sie ausschalten.\n\nEine Statistik zeigt die Ursachen von Lebensmittelvergiftungen durch Salmonellen. Ganz oben stehen mit je 23,5 %: Lagerung falsch oder zu lange und Herstellungsfehler. Dann kommen mit je 19,7 %: Hygienemangel und Übertragung durch Menschen. Seltener sind Erhitzungsfehler mit 6,2 %, fehlerhafte Rohware mit 4,9 % und Verpackungs- oder Transportfehler mit 2,5 %.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 CP und CCP: Was stimmt?",
+        "options": [
+          { "text": "CP heißt Kontrollpunkt, CCP heißt kritischer Kontrollpunkt.", "correct": true },
+          { "text": "CP heißt kritischer Punkt, CCP heißt chemischer Kontrollpunkt." },
+          { "text": "CP heißt Chemiepunkt, CCP heißt einfacher Kontrollpunkt." }
+        ],
+        "explanation": "Das zusätzliche C in CCP steht für kritisch. Ein CCP ist also ein kritischer Kontrollpunkt. Dort ist die Gefahr größer als beim einfachen Kontrollpunkt CP."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 CP oder CCP? Sortiere.",
+        "buckets": [
+          { "id": "cp", "label": "CP – Kontrollpunkt", "icon": "✅" },
+          { "id": "ccp", "label": "CCP – kritischer Kontrollpunkt", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Erdbeeren mit Druckstellen aussortieren", "bucket": "cp" },
+          { "text": "Sorgfältiges Arbeiten genügt", "bucket": "cp" },
+          { "text": "Keine schriftliche Dokumentation nötig", "bucket": "cp" },
+          { "text": "Bei regenerierten Speisen die Kerntemperatur messen und aufschreiben", "bucket": "ccp" },
+          { "text": "Auftauflüssigkeit von Geflügel getrennt auffangen", "bucket": "ccp" },
+          { "text": "Erkennen, beobachten und dokumentieren", "bucket": "ccp" }
+        ],
+        "explanation": "Frag dich: Reicht sorgfältiges Arbeiten, oder ist es eine echte Schwachstelle mit Gefahr? Beim CP genügt Sorgfalt. Beim CCP musst du erkennen, beobachten und alles aufschreiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✍️ Warum musst du beim CP nichts aufschreiben?",
+        "options": [
+          { "text": "Dort genügt sorgfältiges Arbeiten.", "correct": true },
+          { "text": "Dort gibt es gar keine Gefahr." },
+          { "text": "Das macht die Lebensmittelüberwachung." }
+        ],
+        "explanation": "Auch ein CP ist ein Gefahrenpunkt. Die Gefahr lässt sich aber durch sorgfältiges Arbeiten verhindern, zum Beispiel durch Aussortieren schimmliger Erdbeeren. Eine schriftliche Dokumentation ist nicht nötig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Die Verpackung einer Lieferung ist beschädigt. Was tust du?",
+        "options": [
+          { "text": "Die Ware nicht annehmen und reklamieren.", "correct": true },
+          { "text": "Die Ware annehmen und sofort verbrauchen." },
+          { "text": "Die Ware annehmen und später prüfen." }
+        ],
+        "explanation": "Im Warenannahme-Hygieneplan steht: Verpackung beschädigt heißt Ware nicht angenommen. Das ist eine Reklamation. So kommen keine verschmutzten Lebensmittel in die Küche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Wie prüfst du das Lieferfahrzeug bei der Warenannahme?",
+        "options": [
+          { "text": "Mit einer Sichtkontrolle an der Rampe auf Mängel.", "correct": true },
+          { "text": "Gar nicht, du prüfst nur die Ware selbst." },
+          { "text": "Nur anhand der Lieferpapiere, die der Fahrer dabeihat." }
+        ],
+        "explanation": "Kontrollpunkt Lieferfahrzeug, Kontrollfaktor hygienische Mängel: Du machst eine Sichtkontrolle an der Rampe. Ist das Fahrzeug schmutzig, ist das ein Mangel. Denn im schmutzigen Fahrzeug kann auch die Ware verschmutzt werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗒️ Was steht oben und unten auf dem Warenannahme-Hygieneplan?",
+        "options": [
+          { "text": "Lieferant, Liefer- und Kontrolldatum und eine Unterschrift.", "correct": true },
+          { "text": "Der Name der Köchin, das heutige Tagesmenü und die Uhrzeit." },
+          { "text": "Preis der Ware, der Rabatt und die Kundennummer." }
+        ],
+        "explanation": "Oben stehen der Lieferant und das Liefer- und Kontrolldatum. Unten unterschreibt, wer kontrolliert hat. So ist nachvollziehbar, wer wann was geprüft hat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙋 Woher kommen Lebensmittelvergiftungen häufig?",
+        "options": [
+          { "text": "Von menschlichem Fehlverhalten.", "correct": true },
+          { "text": "Meist von fehlerhafter Rohware." },
+          { "text": "Meist von Fehlern beim Transport." }
+        ],
+        "explanation": "Ursachen sind oft Hygienemängel oder Speisen, die nicht genug erhitzt wurden. Das sind Fehler von Menschen. Fehlerhafte Rohware und Transportfehler sind in der Statistik selten. Wer die Fehlerquellen kennt, kann sie ausschalten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📊 Welche Ursachen stehen in der Salmonellen-Statistik ganz oben?",
+        "options": [
+          { "text": "Falsche oder zu lange Lagerung und Herstellungsfehler.", "correct": true },
+          { "text": "Verpackungsfehler und Fehler beim Transport der Ware." },
+          { "text": "Fehlerhafte Rohware und Fehler beim Erhitzen der Speisen." }
+        ],
+        "explanation": "Ganz oben stehen mit je 23,5 %: falsche oder zu lange Lagerung und Herstellungsfehler. Verpackungs- und Transportfehler sind mit 2,5 % am seltensten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Hygienemangel und Übertragung durch Menschen: Wie viel Prozent der Fälle sind es je?",
+        "options": [
+          { "text": "19,7 %", "correct": true },
+          { "text": "23,5 %" },
+          { "text": "2,5 %" }
+        ],
+        "explanation": "Hygienemangel und Übertragung durch Menschen verursachen je 19,7 % der Salmonellen-Fälle. Zusammen sind das fast 40 %. Saubere Hände und sauberes Arbeiten helfen also sehr viel."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Speisen werden wieder erwärmt, also regeneriert. Welche Kerntemperatur müssen sie mindestens erreichen? Tippe die Zahl in °C.",
+        "answer": 80,
+        "hint": "Es ist mehr als 70 und weniger als 90.",
+        "explanation": "Regenerierte Speisen müssen eine Kerntemperatur von 80 °C erreichen. Das ist ein CCP: Du misst die Temperatur und schreibst sie auf."
+      }
+    }
+  ]
+}

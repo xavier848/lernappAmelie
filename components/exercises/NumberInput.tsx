@@ -7,12 +7,19 @@
 // Choice: Amelie muss wirklich rechnen.
 // Ab dem zweiten Anlauf (attempt >= 1) erscheint der Schritt-für-Schritt-
 // Tipp aus data.hint („💡 Rechne Schritt für Schritt: …").
+// format "uhrzeit" (Zeit rechnen): Die Taste links unten ist ein Doppelpunkt
+// statt „leeren", die Anzeige hängt „Uhr" an (Prüfung: lib/uhrzeit.ts).
 // Den Aufgaben-Prompt (+ TTS) zeigt der Lektions-Player an, nicht die Komponente.
 import { useState } from "react";
 import type { NumberInputData } from "@/lib/content-schema";
 import type { ExerciseComponentProps } from "./types";
 import { useCheck, useReportReady } from "./useCheck";
 import { cn } from "@/lib/cn";
+import {
+  parseUhrzeit,
+  uhrzeitTasteErlaubt,
+  uhrzeitVollstaendig,
+} from "@/lib/uhrzeit";
 
 /** Mehr Stellen braucht keine Kopfrechen-Aufgabe. */
 const MAX_DIGITS = 5;
@@ -29,10 +36,13 @@ export function NumberInput({
   const [value, setValue] = useState("");
   const [checked, setChecked] = useState(false);
 
-  const ready = value.length > 0;
+  const istUhrzeit = data.format === "uhrzeit";
+  const ready = istUhrzeit ? uhrzeitVollstaendig(value) : value.length > 0;
   useReportReady(ready, onReadyChange);
 
-  const isCorrect = Number(value) === data.answer;
+  const isCorrect = istUhrzeit
+    ? parseUhrzeit(value) === data.answer
+    : Number(value) === data.answer;
 
   useCheck(checkRequested, () => {
     setChecked(true);
@@ -46,6 +56,9 @@ export function NumberInput({
   const tapDigit = (digit: string) => {
     if (checked) return;
     setValue((prev) => {
+      if (istUhrzeit) {
+        return uhrzeitTasteErlaubt(prev, digit) ? prev + digit : prev;
+      }
       if (prev.length >= MAX_DIGITS) return prev;
       // Keine fuehrenden Nullen wie "007".
       if (prev === "0") return digit;
@@ -57,6 +70,10 @@ export function NumberInput({
     if (checked) return;
     setValue((prev) => prev.slice(0, -1));
   };
+
+  const anzeige = istUhrzeit
+    ? `${value || "–:––"} Uhr`
+    : value || "?";
 
   const keyClasses =
     "flex min-h-14 cursor-pointer items-center justify-center rounded-2xl border-2 border-b-4 border-locked bg-white text-2xl font-bold text-ink select-none active:translate-y-1 active:border-b-2 disabled:cursor-default";
@@ -77,7 +94,9 @@ export function NumberInput({
 
       {/* Anzeige der eingetippten Antwort */}
       <div
-        aria-label={value ? `Deine Antwort: ${value}` : "Noch keine Antwort eingegeben"}
+        aria-label={
+          value ? `Deine Antwort: ${anzeige}` : "Noch keine Antwort eingegeben"
+        }
         className={cn(
           "flex min-h-16 items-center justify-center rounded-2xl border-2 text-3xl font-extrabold tracking-wider",
           checked
@@ -89,10 +108,10 @@ export function NumberInput({
               : "border-locked bg-white text-ink/30",
         )}
       >
-        {value || "?"}
+        {anzeige}
       </div>
 
-      {/* Grosser Ziffernblock: 1-9, unten leeren / 0 / loeschen */}
+      {/* Grosser Ziffernblock: 1-9, unten leeren (bei Uhrzeit: Doppelpunkt) / 0 / loeschen */}
       <div aria-label="Ziffernblock" className="grid grid-cols-3 gap-2">
         {KEYS.map((key) => (
           <button
@@ -105,15 +124,27 @@ export function NumberInput({
             {key}
           </button>
         ))}
-        <button
-          type="button"
-          aria-label="Alles löschen"
-          disabled={checked || value.length === 0}
-          onClick={() => setValue("")}
-          className={cn(keyClasses, "text-base text-ink/60 disabled:opacity-40")}
-        >
-          leeren
-        </button>
+        {istUhrzeit ? (
+          <button
+            type="button"
+            aria-label="Doppelpunkt"
+            disabled={checked}
+            onClick={() => tapDigit(":")}
+            className={keyClasses}
+          >
+            :
+          </button>
+        ) : (
+          <button
+            type="button"
+            aria-label="Alles löschen"
+            disabled={checked || value.length === 0}
+            onClick={() => setValue("")}
+            className={cn(keyClasses, "text-base text-ink/60 disabled:opacity-40")}
+          >
+            leeren
+          </button>
+        )}
         <button
           type="button"
           disabled={checked}

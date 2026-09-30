@@ -1,0 +1,157 @@
+{
+  "topic_slug": "backen",
+  "slug": "backen-biskuit-methoden",
+  "title": "Biskuit: Zwei Methoden",
+  "sort": 623,
+  "intro": "🍰 Biskuitmasse ist eine besonders schaumig gerührte Masse. Sie dehnt sich beim Backen aus. Sie enthält viele Eier. Durch den hohen Eieranteil wird das Gebäck feinporig und elastisch. Feinporig heißt: mit ganz kleinen Luftlöchern.\n\nAus Biskuit machst du zum Beispiel Biskuitrollen, Tortenböden und süße Aufläufe.\n\nGrundrezept Biskuit: 4 Eier. 4 EL Wasser. 160 g Zucker. 80 g Mehl. 80 g Speisestärke. 1 TL Backpulver. Es gibt zwei Methoden.\n\nMethode 1 heißt Eigelbansatz oder Ei-Trenn-Aufschlag-Verfahren. Du trennst die Eier. Die 4 Eigelb schlägst du mit 4 EL Wasser und 160 g Zucker etwa 4 Minuten schaumig. Du nimmst dafür die Küchenmaschine mit dem Schneebesen. Die Masse wird hellgelb und dicklich. Sie hat jetzt das doppelte Volumen. Die 4 Eiweiß schlägst du mit 1 Prise Salz zu festem Eischnee. Den Eischnee gibst du auf die Eigelbmasse. Mehl, Speisestärke und Backpulver mischst du und siebst sie darüber. Dann hebst du alles mit dem Schneebesen vorsichtig unter.\n\nMethode 2 heißt Eischaummasse. Du schlägst die 4 ganzen Eier mit 160 g Zucker und 4 EL Wasser etwa 5 Minuten schaumig. Die Masse wird weiß und schaumig. Sie hat jetzt das 5-fache Volumen. Dann siebst du Speisestärke, Mehl und Backpulver darüber und hebst sie vorsichtig unter.\n\nMERKE: Biskuit hebst du vorsichtig unter. Nicht schlagen und nicht rühren! Sonst entweicht die Luft, und die Masse fällt zusammen.\n\nMit Vollkornmehl geht nur Methode 1. Das Mehl muss etwa 20 Minuten quellen, bevor du den Eischnee unterhebst.\n\nFür ein Gastro-Norm-Backblech brauchst du das 1,5-fache Rezept.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Was ist Biskuitmasse?",
+        "options": [
+          { "text": "Eine besonders schaumig gerührte Masse mit vielen Eiern.", "correct": true },
+          { "text": "Ein fester, fettreicher Knetteig ganz ohne Eier und Zucker." },
+          { "text": "Ein Teig mit Hefe, der an einem warmen Ort lange gehen muss." }
+        ],
+        "explanation": "Biskuitmasse wird besonders schaumig gerührt. Sie hat einen hohen Eieranteil und dehnt sich beim Backen aus. Ein fettreicher Knetteig wäre Mürbeteig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫧 Warum wird Biskuitgebäck feinporig und elastisch?",
+        "options": [
+          { "text": "Durch den hohen Eieranteil.", "correct": true },
+          { "text": "Durch den hohen Fettanteil." },
+          { "text": "Durch eine große Menge Hefe." }
+        ],
+        "explanation": "Biskuit enthält viele Eier. Die geschlagenen Eier halten viele kleine Luftbläschen. Darum wird das Gebäck feinporig und elastisch. Ein hoher Fettanteil macht dagegen Mürbeteig mürbe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Methode 1 für Biskuit heißt Eigelbansatz. Wie heißt sie noch?",
+        "options": [
+          { "text": "Ei-Trenn-Aufschlag-Verfahren.", "correct": true },
+          { "text": "All-in-Methode mit ganzen Eiern." },
+          { "text": "Eischaummasse mit viel Eigelb." }
+        ],
+        "explanation": "Bei Methode 1 trennst du die Eier und schlägst Eigelb und Eiweiß getrennt auf. Darum heißt sie Ei-Trenn-Aufschlag-Verfahren. Die Eischaummasse ist Methode 2, dort schlägst du die ganzen Eier."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥚 Methode 1 oder Methode 2? Sortiere.",
+        "buckets": [
+          { "id": "m1", "label": "Methode 1: Eigelbansatz", "icon": "1️⃣" },
+          { "id": "m2", "label": "Methode 2: Eischaummasse", "icon": "2️⃣" }
+        ],
+        "items": [
+          { "text": "Die Eier werden getrennt", "bucket": "m1" },
+          { "text": "Eigelb, Wasser und Zucker etwa 4 Minuten schlagen", "bucket": "m1" },
+          { "text": "Die Masse wird hellgelb und dicklich", "bucket": "m1" },
+          { "text": "Eiweiß mit 1 Prise Salz zu festem Eischnee schlagen", "bucket": "m1" },
+          { "text": "Ganze Eier etwa 5 Minuten schaumig schlagen", "bucket": "m2" },
+          { "text": "Die Masse wird weiß und schaumig", "bucket": "m2" },
+          { "text": "Kein extra Eischnee nötig", "bucket": "m2" }
+        ],
+        "explanation": "Frag dich: Werden die Eier getrennt? Dann ist es Methode 1, mit Eigelbmasse und Eischnee. Werden die ganzen Eier zusammen aufgeschlagen? Dann ist es Methode 2, die Eischaummasse."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥚 Methode 1: Du schlägst Eigelb, Wasser und Zucker schaumig. Das Wievielfache ihres Volumens hat die Masse danach?",
+        "answer": 2,
+        "hint": "Die Masse ist hellgelb und dicklich. Sie hat sich verdoppelt.",
+        "explanation": "Die Eigelbmasse hat danach das 2-fache Volumen, also das doppelte. Sie ist hellgelb und dicklich."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥚 Methode 2: Du schlägst die ganzen Eier mit Zucker und Wasser schaumig. Das Wievielfache ihres Volumens hat die Eischaummasse danach?",
+        "answer": 5,
+        "hint": "Es ist viel mehr als bei Methode 1. Die Zahl liegt zwischen 4 und 6.",
+        "explanation": "Die Eischaummasse hat danach das 5-fache Volumen. Sie ist weiß und schaumig. Bei Methode 1 ist es nur das 2-fache."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍰 Biskuit nach Methode 1: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥚 Die Eier trennen." },
+          { "text": "🌀 Eigelb schaumig schlagen, Eiweiß zu Eischnee schlagen." },
+          { "text": "🥄 Den Eischnee auf die Eigelbmasse geben." },
+          { "text": "🌾 Mehl, Speisestärke und Backpulver mischen und darübersieben." },
+          { "text": "🤲 Alles vorsichtig mit dem Schneebesen unterheben." }
+        ],
+        "explanation": "Bei Methode 1 trennst du zuerst die Eier. Eigelb und Eiweiß schlägst du getrennt auf. Dann legst du alles übereinander: Eigelbmasse, Eischnee, Mehlmischung. Erst ganz zum Schluss hebst du alles unter. So bleibt möglichst viel Luft in der Masse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Warum hebst du die Mehlmischung vorsichtig unter, statt kräftig zu rühren?",
+        "options": [
+          { "text": "Sonst entweicht die Luft, und die Masse fällt zusammen.", "correct": true },
+          { "text": "Sonst wird die Masse viel zu hell und schmeckt nach nichts." },
+          { "text": "Sonst klumpt das Mehl, und der Zucker löst sich nicht." }
+        ],
+        "explanation": "In der aufgeschlagenen Masse steckt viel Luft. Die Luft macht Biskuit feinporig und locker. Schlagen oder Rühren drückt die Luft heraus. Darum hebst du nur vorsichtig unter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚖️ Grundrezept Biskuit: Wie viel kommt hinein? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥚 Eier"}, "right": {"text": "4 Stück"} },
+          { "left": {"text": "💧 Wasser"}, "right": {"text": "4 EL"} },
+          { "left": {"text": "🍬 Zucker"}, "right": {"text": "160 g"} },
+          { "left": {"text": "🌾 Mehl und Speisestärke"}, "right": {"text": "je 80 g"} },
+          { "left": {"text": "🎈 Backpulver"}, "right": {"text": "1 TL"} }
+        ],
+        "memory": false,
+        "explanation": "Merkhilfe: 4 Eier und 4 EL Wasser. Zucker 160 g, das sind 40 g pro Ei. Mehl und Speisestärke zusammen sind auch 160 g, je zur Hälfte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Du willst Biskuit mit Vollkornmehl backen. Was gilt?",
+        "options": [
+          { "text": "Nur Methode 1, und das Mehl muss etwa 20 Minuten quellen.", "correct": true },
+          { "text": "Nur Methode 2, weil ganze Eier das Vollkornmehl besser binden." },
+          { "text": "Beide Methoden gehen, und du brauchst keine Wartezeit." }
+        ],
+        "explanation": "Vollkornmehl muss quellen. Das geht nur bei Methode 1: Das Mehl quillt etwa 20 Minuten, bevor du den Eischnee unterhebst."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏭 Für ein Gastro-Norm-Backblech brauchst du das 1,5-fache Rezept Biskuit. Wie viel Gramm Zucker sind das?",
+        "answer": 240,
+        "hint": "Im Grundrezept sind 160 g Zucker.\nDie Hälfte von 160 g sind 80 g.\n160 g + 80 g = ?",
+        "explanation": "1,5-fach heißt: das Ganze plus die Hälfte. 160 g plus 80 g sind 240 g Zucker."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Wofür nimmst du Biskuitmasse?",
+        "options": [
+          { "text": "Für Biskuitrolle, Tortenböden und süße Aufläufe.", "correct": true },
+          { "text": "Für Plätzchen, herzhafte Quiches und Käsegebäck." },
+          { "text": "Für Pizza, Brötchen und einen Zwiebelkuchen." }
+        ],
+        "explanation": "Biskuit ist locker und elastisch. Darum eignet er sich für Biskuitrollen, Tortenböden und süße Aufläufe. Plätzchen und Quiches macht man aus Mürbeteig, Pizza aus Hefeteig."
+      }
+    }
+  ]
+}

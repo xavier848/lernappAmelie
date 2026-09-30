@@ -1,0 +1,160 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-zahlung-lieferung",
+  "title": "Zahlung, Lieferung und Gerichtsstand",
+  "sort": 705,
+  "intro": "Bei größeren Käufen gibt es weitere Zahlungsbedingungen. Anzahlung: Du überweist schon mit der Bestellung einen Teil, zum Beispiel 25 % des Kaufbetrags. Den Zahlungsnachweis legst du der Bestellung bei.\n\nVorauszahlung: Du bezahlst zuerst den ganzen Betrag. Erst dann wird die Ware bereitgestellt oder geliefert. Das verlangen Verkäufer vor allem von Kunden, die früher schon Zahlungsschwierigkeiten hatten. Diese Kunden haben also nicht oder stark verspätet gezahlt.\n\nRatenzahlung: Du zahlst den Gesamtbetrag in festen Monatsbeträgen ab. Das dauert ein Jahr bis meist vier Jahre. Achtung: Ratenzahlung ist eine klassische Überschuldungsfalle. Überschuldet heißt: Man hat mehr Schulden, als man bezahlen kann.\n\nZahlung nach Ablauf einer Frist: Du zahlst erst später, zum Beispiel zwei Monate nach Erhalt der Rechnung.\n\nAuch die Lieferung wird im Vertrag geregelt. Ab Werk oder unfrei heißt: Der Verkäufer liefert nicht. Lieferung frei heißt: Du musst die Ware noch am nächsten Bahnhof abholen. Lieferung frei Haus heißt: Die Ware kommt wirklich bis an deine Haustür. Oft braucht die Ware eine bruchsichere Verpackung. Die Verpackungskosten zahlt der Käufer, wenn im Vertrag nichts anderes steht.\n\nWelches Angebot ist wirklich günstiger? Das siehst du nur, wenn du alles vergleichst: den Preis für gleich gute Ware, die Verpackungskosten, die Transportkosten, den Mengenrabatt, das Skonto und weitere geldwerte Leistungen. Das sind zum Beispiel kostenlose Wartung, Garantie oder Zusatzware. Lies dafür auch das Kleingedruckte im Vertrag.\n\nMit dem Erfüllungsort legt man im Vertrag meist auch den Gerichtsstand fest. Steht nichts im Vertrag, gilt das Gesetz: Bei Streit um die Ware ist das Gericht am Geschäftssitz des Verkäufers zuständig. Bei Streit um die Bezahlung ist es das Gericht am Firmensitz oder Wohnort des Käufers. Außerdem gilt: Der Betrag, um den gestritten wird, heißt Streitwert. Bei kleineren Streitwerten entscheidet das Amtsgericht. Bei hohen Streitwerten entscheidet das Landgericht. Die genaue Grenze legt ein Gesetz fest.\n\nMERKE: Frei Haus = bis an die Tür. Frei = bis zum nächsten Bahnhof. Die Verpackung zahlt der Käufer. Kleiner Streitwert = Amtsgericht, hoher Streitwert = Landgericht.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "💳 Wann fließt das Geld? Sortiere die Zahlungsbedingungen.",
+        "buckets": [
+          { "id": "vor", "label": "Schon vor der Lieferung", "icon": "⏪" },
+          { "id": "bei", "label": "Genau bei der Übergabe", "icon": "🤝" },
+          { "id": "nach", "label": "Erst nach der Lieferung", "icon": "⏩" }
+        ],
+        "items": [
+          { "text": "Anzahlung", "bucket": "vor" },
+          { "text": "Vorauszahlung", "bucket": "vor" },
+          { "text": "Zug um Zug", "bucket": "bei" },
+          { "text": "Ratenzahlung", "bucket": "nach" },
+          { "text": "Zahlung erst zwei Monate nach der Rechnung", "bucket": "nach" },
+          { "text": "Zahlung innerhalb von 14 Tagen", "bucket": "nach" }
+        ],
+        "explanation": "Frag dich: Muss ich zahlen, bevor die Ware da ist? Bei der Vorauszahlung zahlst du alles vorher, bei der Anzahlung einen Teil. Zug um Zug zahlst du genau bei der Übergabe. Bei einer Frist oder bei Raten zahlst du erst später."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💶 Ein Kühlschrank für das Heim kostet 800 €. Der Händler verlangt 25 % Anzahlung. Wie viel Euro überweist das Heim mit der Bestellung?",
+        "answer": 200,
+        "hint": "25 % ist ein Viertel.\n800 € geteilt durch 4 = ?",
+        "explanation": "25 % sind ein Viertel. 800 € : 4 = 200 €. Diesen Betrag überweist das Heim mit der Bestellung. Den Zahlungsnachweis legt es der Bestellung bei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Wann verlangt ein Verkäufer besonders oft Vorauszahlung?",
+        "options": [
+          { "text": "Bei Kunden, die früher nicht oder sehr spät gezahlt haben.", "correct": true },
+          { "text": "Bei Kunden, die schon seit vielen Jahren Stammkunden sind." },
+          { "text": "Bei Waren, die besonders billig sind." },
+          { "text": "Bei Lieferungen, die frei Haus kommen." }
+        ],
+        "explanation": "Bei der Vorauszahlung zahlt der Käufer zuerst den vollen Betrag. Erst dann wird die Ware bereitgestellt oder geliefert. Das verlangen Verkäufer vor allem von Kunden mit früheren Zahlungsschwierigkeiten. So gehen sie kein Risiko ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📆 Was stimmt über die Ratenzahlung?",
+        "options": [
+          { "text": "Sie läuft 1 bis meist 4 Jahre und ist eine Überschuldungsfalle.", "correct": true },
+          { "text": "Sie läuft höchstens drei Monate und ist deshalb ganz ohne Risiko." },
+          { "text": "Man zahlt den ganzen Betrag schon vor der Lieferung." },
+          { "text": "Man zahlt jeden Monat einen anderen, frei gewählten Betrag." }
+        ],
+        "explanation": "Bei der Ratenzahlung zahlst du den Gesamtbetrag in monatlich festgelegten Beträgen. Das dauert ein Jahr bis meist vier Jahre. Viele verlieren dabei den Überblick. Deshalb ist Ratenzahlung eine klassische Überschuldungsfalle."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🚚 Wie weit bringt der Verkäufer die Ware? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Ab Werk"}, "right": {"text": "Käufer holt die Ware am Werk ab"} },
+          { "left": {"text": "Unfrei"}, "right": {"text": "Übergabe am Verkaufsstand"} },
+          { "left": {"text": "Frei"}, "right": {"text": "Käufer holt die Ware am nächsten Bahnhof ab"} },
+          { "left": {"text": "Frei Haus"}, "right": {"text": "Lieferung bis an die Haustür"} }
+        ],
+        "memory": false,
+        "explanation": "Bei ab Werk und unfrei liefert der Verkäufer gar nicht. Bei frei bringt er die Ware bis zum nächsten Bahnhof, den Rest holst du. Nur bei frei Haus kommt die Ware wirklich bis an deine Tür."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Die Waschmaschine braucht für den Versand eine bruchsichere Verpackung. Wer zahlt die Verpackungskosten?",
+        "options": [
+          { "text": "Der Käufer, wenn im Vertrag nichts anderes steht.", "correct": true },
+          { "text": "Immer der Verkäufer, das schreibt das Gesetz vor." },
+          { "text": "Hersteller und Käufer zahlen je die Hälfte." },
+          { "text": "Die Spedition, die die Ware transportiert." }
+        ],
+        "explanation": "Oft ist ein Versand nur mit bruchsicherer Verpackung möglich. Die Verpackungskosten zahlt der Käufer, sofern im Kaufvertrag nichts anderes geregelt ist. Darum gehören sie in jeden Angebotsvergleich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Zwei Angebote für einen Trockner: A kostet 540 €, B kostet 550 €. Was prüfst du, bevor du entscheidest?",
+        "options": [
+          { "text": "Verpackung, Transport, Rabatt, Skonto und Extras wie Wartung.", "correct": true },
+          { "text": "Nichts weiter, denn der niedrigere Preis ist immer das bessere Angebot." },
+          { "text": "Nur die Lieferzeit, der Preis ist dann egal." },
+          { "text": "Nur, welcher Verkäufer am Telefon netter ist." }
+        ],
+        "explanation": "Ob ein Angebot wirklich günstiger ist, siehst du erst im Vergleich aller Positionen: Preis für gleich gute Ware, Verpackungskosten, Transportkosten, Mengenrabatt, Skonto und weitere geldwerte Leistungen wie kostenlose Wartung, Garantie oder Zusatzware. Ein teureres Angebot frei Haus kann am Ende günstiger sein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📍 Womit wird im Kaufvertrag meist zugleich der Gerichtsstand festgelegt?",
+        "options": [
+          { "text": "Mit dem Erfüllungsort.", "correct": true },
+          { "text": "Mit dem Skonto." },
+          { "text": "Mit der Verpackung." },
+          { "text": "Mit der Anzahlung." }
+        ],
+        "explanation": "Mit dem Erfüllungsort, also dem Ort, an dem der Vertrag erfüllt wird, legt man im Vertrag üblicherweise auch den Gerichtsstand fest. Steht dazu nichts im Vertrag, gilt die gesetzliche Regelung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Im Vertrag steht nichts zum Gerichtsstand. Welches Gericht ist dann zuständig? Sortiere.",
+        "buckets": [
+          { "id": "verk", "label": "Gericht am Geschäftssitz des Verkäufers", "icon": "🏪" },
+          { "id": "kaeuf", "label": "Gericht am Firmensitz oder Wohnort des Käufers", "icon": "🏠" }
+        ],
+        "items": [
+          { "text": "Streit, weil die Ware kaputt ist", "bucket": "verk" },
+          { "text": "Streit, weil die Ware nicht geliefert wurde", "bucket": "verk" },
+          { "text": "Streit um eine falsche Warenmenge", "bucket": "verk" },
+          { "text": "Streit, weil der Käufer nicht bezahlt hat", "bucket": "kaeuf" },
+          { "text": "Streit, weil der Käufer zu wenig bezahlt hat", "bucket": "kaeuf" },
+          { "text": "Streit, weil die Rechnung zu spät bezahlt wurde", "bucket": "kaeuf" }
+        ],
+        "explanation": "Frag dich: Geht es um die Ware oder um das Geld? Streit um die Ware: Gericht am Geschäftssitz des Verkäufers. Streit um die Bezahlung: Gericht am Firmensitz oder Wohnort des Käufers. So regelt es das Gesetz, wenn im Vertrag nichts steht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏛️ Das Heim streitet mit einem Händler um eine Rechnung über 400 €. Welches Gericht ist zuständig?",
+        "options": [
+          { "text": "Das Amtsgericht.", "correct": true },
+          { "text": "Das Landgericht." },
+          { "text": "Das Arbeitsgericht." }
+        ],
+        "explanation": "Der Betrag, um den gestritten wird, heißt Streitwert. Bei kleineren Streitwerten wie 400 € entscheidet das Amtsgericht. Bei hohen Streitwerten ist das Landgericht zuständig. Das Arbeitsgericht entscheidet Streit im Job, zum Beispiel um den Lohn."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du schließt einen Handyvertrag ab. Was liest du vor der Unterschrift genau?",
+        "options": [
+          { "text": "Das Kleingedruckte im Vertrag.", "correct": true },
+          { "text": "Nur die große Überschrift." },
+          { "text": "Nur das Werbeplakat im Laden." }
+        ],
+        "explanation": "Im Kleingedruckten stehen wichtige Regeln, zum Beispiel zu Kosten und Kündigung. Lies es vor dem Unterschreiben. So erlebst du später keine teure Überraschung."
+      }
+    }
+  ]
+}

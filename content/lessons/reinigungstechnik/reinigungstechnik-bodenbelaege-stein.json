@@ -1,0 +1,150 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-bodenbelaege-stein",
+  "title": "Bodenbeläge: Stein und Fliesen",
+  "sort": 640,
+  "intro": "Fußböden haben verschiedene Beläge. Man unterscheidet sie nach dem Material. Textile Beläge wie Teppich unterscheidet man nach der Art, wie sie hergestellt werden.\n\nDu musst die Materialien kennen. Nur dann machst du beim Reinigen nichts kaputt. Schon bei der Auswahl eines Bodens kannst du viel Reinigungsarbeit sparen. Zum Beispiel durch die passende Farbe und die passende Oberfläche.\n\nEs gibt harte und elastische Bodenbeläge. Harte Beläge sind Steinböden. Dazu gehören Naturstein, gebrannter Kunststein und gebundener Kunststein.\n\nNaturstein: Marmor, Travertin, Solnhofener Platten, Schiefer und Granit. Gebrannter Kunststein: Steingut, Steinzeug, Feinsteinzeug und Ziegel-Tonplatten. Gebundener Kunststein heißt auch Estrich: Zementestrich, Magnesiaestrich und Terrazzo.\n\nElastische Beläge sind Holz, nicht textile und textile Beläge. Holz: Parkett, Dielen, Holzpflaster, Kork und Laminat. Nicht textil: Linoleum, PVC, Elastomerbelag aus Gummi und Designboden. Textil sind Teppichböden, zum Beispiel Nadelvlies oder Tufting.\n\nSteinböden sind meist fußkalt. Deshalb passen sie nicht überall hin. Eine Fußbodenheizung kann das ausgleichen. Im Wohnungsbau nimmt man Stein auch für Fensterbänke.\n\nViele Reiniger enthalten Säure. Säure löst Kalk. Darum musst du wissen: Welcher Stein verträgt Säure? Säureempfindlich sind Steine mit Kalk: Marmor, Muschelkalk, Kalksandstein, Travertin und Solnhofener Plattenkalk. Säureunempfindlich sind zum Beispiel Schiefer, Granit, Basalt, Porphyr und Buntsandstein.\n\nKeramische Fliesen gibt es auch als Sicherheitsfliesen. Sie sind rutschhemmend. Das heißt: Man rutscht nicht so leicht aus. In Betrieben mit Lebensmitteln, in Nassbereichen und in Industriebereichen sind sie notwendig. Das dient der Trittsicherheit.\n\nAuf Sicherheitsfliesen kommt keine Einpflege. Einpflege heißt: eine Schutzschicht aus Pflegemittel auftragen. Sie würde die Rutschhemmung verschlechtern.\n\nMERKE: Säure greift Steine mit Kalk an. Marmor, Travertin und Muschelkalk also nie mit saurem Reiniger putzen. Sicherheitsfliesen bekommen keine Einpflege.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧱 Wonach unterscheidet man Fußbodenbeläge?",
+        "options": [
+          { "text": "Nach dem Material, Teppiche nach der Art der Herstellung.", "correct": true },
+          { "text": "Nach der Farbe, Teppiche nach der Länge ihrer Fasern." },
+          { "text": "Nach dem Raum, in dem der Belag liegt, zum Beispiel Küche oder Bad." }
+        ],
+        "explanation": "Beläge werden nach dem Material eingeteilt: Stein, Holz, Kunststoff oder Textil. Nur bei textilen Belägen zählt die Art der Herstellung, zum Beispiel Nadelvlies oder Tufting."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Harter oder elastischer Bodenbelag? Sortiere.",
+        "buckets": [
+          { "id": "hart", "label": "Harter Belag (Stein)", "icon": "🪨" },
+          { "id": "elast", "label": "Elastischer Belag", "icon": "🪵" }
+        ],
+        "items": [
+          { "text": "Marmor", "bucket": "hart" },
+          { "text": "Granit", "bucket": "hart" },
+          { "text": "Terrazzo", "bucket": "hart" },
+          { "text": "Feinsteinzeug", "bucket": "hart" },
+          { "text": "Parkett", "bucket": "elast" },
+          { "text": "Kork", "bucket": "elast" },
+          { "text": "Linoleum", "bucket": "elast" },
+          { "text": "Nadelvlies", "bucket": "elast" }
+        ],
+        "explanation": "Harte Beläge sind immer Steinböden: Naturstein wie Marmor und Granit, gebrannter Kunststein wie Feinsteinzeug und gebundener Kunststein wie Terrazzo. Holz, Linoleum und Teppich geben etwas nach. Sie sind elastisch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Beispiele gehören zu welcher Gruppe? Verbinde.",
+        "pairs": [
+          { "left": {"text": "⛰️ Naturstein"}, "right": {"text": "Schiefer und Travertin"} },
+          { "left": {"text": "🔥 Kunststein, gebrannt"}, "right": {"text": "Steinzeug und Ziegel-Tonplatten"} },
+          { "left": {"text": "🧱 Kunststein, gebunden"}, "right": {"text": "Zementestrich und Magnesiaestrich"} },
+          { "left": {"text": "🪵 Holz"}, "right": {"text": "Dielen und Laminat"} },
+          { "left": {"text": "🟦 Nicht textil"}, "right": {"text": "PVC und Designboden"} },
+          { "left": {"text": "🧶 Textil"}, "right": {"text": "Tufting und Knüpfverfahren"} }
+        ],
+        "explanation": "Frag dich: Kommt der Stein aus der Natur, wird er gebrannt wie Ton, oder wird er gebunden wie Beton? Gebundener Kunststein heißt Estrich. Holz, Kunststoffbeläge und Teppiche sind die elastischen Gruppen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Ein Betrieb sucht einen neuen Boden. Wie spart die Auswahl später viel Reinigungsarbeit?",
+        "options": [
+          { "text": "Durch die passende Farbe und Oberfläche.", "correct": true },
+          { "text": "Durch einen möglichst dicken Belag." },
+          { "text": "Durch einen Belag, der schnell verlegt ist." }
+        ],
+        "explanation": "Schon bei der Auswahl entscheidest du über die spätere Arbeit. Farbe und Oberflächenbeschaffenheit bestimmen, wie schnell man Schmutz sieht und wie leicht er weggeht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦶 Steinböden sind meist fußkalt. Wie kann man das ausgleichen?",
+        "options": [
+          { "text": "Mit einer Fußbodenheizung.", "correct": true },
+          { "text": "Mit heißem Wischwasser." },
+          { "text": "Mit einer Schicht Pflegewachs." }
+        ],
+        "explanation": "Stein fühlt sich kalt an. Darum passt ein Steinboden nicht in jeden Raum. Eine Fußbodenheizung wärmt den Boden von unten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍋 Verträgt der Stein Säure? Sortiere.",
+        "buckets": [
+          { "id": "empf", "label": "Säureempfindlich", "icon": "⚠️" },
+          { "id": "unempf", "label": "Säureunempfindlich", "icon": "💪" }
+        ],
+        "items": [
+          { "text": "Marmor", "bucket": "empf" },
+          { "text": "Travertin", "bucket": "empf" },
+          { "text": "Muschelkalk", "bucket": "empf" },
+          { "text": "Solnhofener Plattenkalk", "bucket": "empf" },
+          { "text": "Granit", "bucket": "unempf" },
+          { "text": "Schiefer", "bucket": "unempf" },
+          { "text": "Basalt", "bucket": "unempf" },
+          { "text": "Buntsandstein", "bucket": "unempf" }
+        ],
+        "explanation": "Säure löst Kalk. Steine mit Kalk sind darum säureempfindlich: Marmor, Travertin, Muschelkalk und Solnhofener Plattenkalk. Granit, Schiefer, Basalt und Buntsandstein vertragen Säure."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Im Eingang liegt Marmor. Eine Kollegin will Kalkflecken mit einem sauren Reiniger entfernen. Was sagst du?",
+        "options": [
+          { "text": "Nicht machen: Marmor ist säureempfindlich.", "correct": true },
+          { "text": "Gute Idee: Säure löst die Kalkflecken." },
+          { "text": "Nur mit heißem Wasser, dann wirkt es." }
+        ],
+        "explanation": "Säure löst zwar Kalkflecken. Aber Marmor enthält selbst Kalk. Darum greift die Säure auch den Stein an und hinterlässt Schäden. Auch heißes Wasser ändert daran nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪨 Welcher dieser Steine verträgt Säure gut?",
+        "options": [
+          { "text": "Porphyr.", "correct": true },
+          { "text": "Kalksandstein." },
+          { "text": "Travertin." }
+        ],
+        "explanation": "Porphyr gehört zu den säureunempfindlichen Steinen, wie Granit und Schiefer. Kalksandstein und Travertin enthalten Kalk. Sie sind säureempfindlich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 In der Großküche liegen Sicherheitsfliesen. Warum trägst du dort keine Einpflege auf?",
+        "options": [
+          { "text": "Sie würde die Rutschhemmung verschlechtern.", "correct": true },
+          { "text": "Sie würde die Fliesen säureempfindlich machen." },
+          { "text": "Sie würde die Fugen zu schnell austrocknen." }
+        ],
+        "explanation": "Sicherheitsfliesen sind rutschhemmend. So rutscht man auf nassem oder fettigem Boden nicht so leicht aus. Eine Schutzschicht aus Pflegemittel würde die raue Oberfläche glätten. Dann ist die Trittsicherheit weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦺 Wo sind rutschhemmende Sicherheitsfliesen notwendig?",
+        "options": [
+          { "text": "In Lebensmittelbetrieben und Nassbereichen.", "correct": true },
+          { "text": "In Wohnzimmern und Schlafzimmern zu Hause." },
+          { "text": "In Büros und in Konferenzräumen von Firmen." }
+        ],
+        "explanation": "Überall, wo der Boden nass oder fettig werden kann, braucht man Trittsicherheit. Darum sind Sicherheitsfliesen in Betrieben mit Lebensmitteln, in Nassbereichen und in Industriebereichen notwendig."
+      }
+    }
+  ]
+}

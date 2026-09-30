@@ -1,0 +1,134 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-bio-produkte",
+  "title": "Bio-Produkte in der Küche",
+  "sort": 600,
+  "intro": "🌱 Die Ressourcen der Erde sind nicht unendlich. Ressourcen sind zum Beispiel Wasser, Energie und Rohstoffe. Wir tragen Verantwortung für die kommenden Generationen. Darum gehen wir schonend mit ihnen um. Auch bei der Zubereitung von Speisen kannst du etwas beitragen.\n\nMERKE: Kleine Schritte der Veränderung sind besser als keine.\n\nBio-Produkte sind ökologisch erzeugte Lebensmittel. Das Budget für den Wareneinsatz ist begrenzt, im Privathaushalt und in der Gemeinschaftsverpflegung. Darum kaufen viele wenig oder gar keine Bio-Produkte.\n\nDurch den „Bio-Boom“ hat sich viel verändert. Früher gab es Bio vor allem auf Wochenmärkten, in Hofläden und in Naturkostläden. Heute haben auch Supermärkte und Discounter Bio-Lebensmittel, von der Kartoffel bis zum Convenience-Produkt. Das Angebot ist größer, und die Preise sind gesunken.\n\nDie Initiative „Bio-Bitte“ kommt vom Bundesministerium für Ernährung und Landwirtschaft. Ihr Ziel: 20 Prozent Bio und mehr in öffentlichen Küchen.\n\nDu musst nicht alles auf einmal umstellen. Du kannst Bio punktuell einsetzen. Das heißt: Du ersetzt einzelne Teile einer Speise durch Bio-Produkte. Zum Beispiel Bio-Kartoffeln für Pellkartoffeln, Ofenkartoffeln oder Folienkartoffeln. Bio-Eier für Eierspeisen und Gebäck. Bio-Hackfleisch für Frikadellen.\n\nMERKE: Bio erkennst du am Bio-Siegel. Das deutsche Bio-Siegel ist sechseckig. Darauf steht „Bio nach EG-Öko-Verordnung“. Das EU-Bio-Siegel ist ein grünes Feld mit einem Blatt aus Sternen. Dazu kommen die Zeichen von Anbauverbänden, zum Beispiel Bioland und Naturland.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Warum gehen wir schonend mit Wasser, Energie und Rohstoffen um?",
+        "options": [
+          { "text": "Sie sind nicht unendlich, und wir tragen Verantwortung für später.", "correct": true },
+          { "text": "Sie werden jedes Jahr billiger, darum lohnt sich das Sparen besonders." },
+          { "text": "Ein Gesetz verbietet jedem Haushalt, mehr davon zu nutzen." }
+        ],
+        "explanation": "Die Ressourcen der Erde sind endlich. Aus Verantwortung für die kommenden Generationen gehen wir schonend damit um. Auch in der Küche zählt jeder kleine Schritt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Was sind Bio-Produkte?",
+        "options": [
+          { "text": "Ökologisch erzeugte Lebensmittel.", "correct": true },
+          { "text": "Besonders billige Lebensmittel vom Discounter." },
+          { "text": "Lebensmittel aus dem fernen Ausland." }
+        ],
+        "explanation": "Bio-Produkte sind ökologisch erzeugte Lebensmittel. Das erkennst du am Bio-Siegel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Warum kaufen viele Küchen wenig oder keine Bio-Produkte?",
+        "options": [
+          { "text": "Das Budget für den Wareneinsatz ist begrenzt.", "correct": true },
+          { "text": "Bio-Produkte gibt es nur im eigenen Hofladen." },
+          { "text": "Bio-Produkte darf man nicht in Kantinen kochen." }
+        ],
+        "explanation": "Im Privathaushalt und in der Gemeinschaftsverpflegung ist das Wareneinsatzbudget begrenzt. Deshalb kaufen die Verantwortlichen oft wenig Bio. Punktueller Einsatz ist ein guter Anfang."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Wo gab es Bio schon immer, wo gibt es Bio durch den Bio-Boom? Sortiere.",
+        "buckets": [
+          { "id": "klassisch", "label": "Klassische Anbieter", "icon": "🧺" },
+          { "id": "neu", "label": "Neu durch den Bio-Boom", "icon": "🏬" }
+        ],
+        "items": [
+          { "text": "Wochenmarkt", "bucket": "klassisch" },
+          { "text": "Hofladen", "bucket": "klassisch" },
+          { "text": "Naturkostladen", "bucket": "klassisch" },
+          { "text": "Supermarkt", "bucket": "neu" },
+          { "text": "Discounter", "bucket": "neu" }
+        ],
+        "explanation": "Frag dich: Ist das ein kleiner Anbieter mit Bio-Schwerpunkt oder ein großer Laden für alle? Wochenmärkte, Hofläden und Naturkostläden sind die klassischen Anbieter. Durch den Bio-Boom führen auch Supermärkte und Discounter Bio-Waren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Was hat der Bio-Boom verändert?",
+        "options": [
+          { "text": "Das Angebot ist größer, die Preise sind gesunken.", "correct": true },
+          { "text": "Das Angebot ist kleiner, die Preise sind gestiegen." },
+          { "text": "Bio gibt es jetzt nur noch im Internet zu kaufen." }
+        ],
+        "explanation": "Durch den Bio-Boom gibt es Bio von der Kartoffel bis zum Convenience-Produkt, auch im Supermarkt und beim Discounter. Das Angebot ist größer geworden, die Preise sind gesunken."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏛️ Die Initiative „Bio-Bitte“ hat ein Ziel für öffentliche Küchen. Wie viel Prozent Bio sollen es mindestens sein? Tippe die Zahl.",
+        "answer": 20,
+        "hint": "Es ist ein Fünftel, also mehr als 10 und weniger als 30.",
+        "explanation": "Das Bundesministerium für Ernährung und Landwirtschaft will mit „Bio-Bitte“ den Bio-Anteil in öffentlichen Küchen auf 20 Prozent und mehr bringen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧩 Was heißt: Bio punktuell einsetzen?",
+        "options": [
+          { "text": "Einzelne Teile einer Speise durch Bio ersetzen.", "correct": true },
+          { "text": "Einmal im Jahr die ganze Küche auf Bio umstellen." },
+          { "text": "Nur Bio-Gemüse kaufen und niemals Bio-Fleisch." }
+        ],
+        "explanation": "Punktuell heißt: an einzelnen Punkten. Du ersetzt einzelne Speisekomponenten durch Bio. So bleibt es bezahlbar, und du leistest trotzdem einen Beitrag."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥔 Bio punktuell einsetzen: Welches Bio-Produkt passt wofür? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Bio-Kartoffeln"}, "right": {"text": "Pellkartoffeln oder Folienkartoffeln"} },
+          { "left": {"text": "Bio-Eier"}, "right": {"text": "Eierspeisen und Gebäck"} },
+          { "left": {"text": "Bio-Hackfleisch"}, "right": {"text": "Frikadellen"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: In welcher Speise ist dieses Lebensmittel die Hauptzutat? Dort lohnt sich der Austausch gegen Bio besonders."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Welches Zeichen ist das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Deutsches Bio-Siegel"}, "right": {"text": "Sechseckig, „Bio nach EG-Öko-Verordnung“"} },
+          { "left": {"text": "EU-Bio-Siegel"}, "right": {"text": "Grünes Feld mit einem Blatt aus Sternen"} },
+          { "left": {"text": "Bioland und Naturland"}, "right": {"text": "Zeichen von Anbauverbänden"} }
+        ],
+        "memory": false,
+        "explanation": "Das deutsche Bio-Siegel erkennst du an der Sechseck-Form und der Schrift. Das EU-Bio-Siegel ist grün mit einem Blatt aus Sternen. Bioland und Naturland sind Verbände von Bio-Bauern mit eigenen Zeichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👣 Was sagt das Fachbuch zu kleinen Schritten beim Schonen der Ressourcen?",
+        "options": [
+          { "text": "Kleine Schritte sind besser als keine.", "correct": true },
+          { "text": "Nur große Schritte lohnen sich wirklich." },
+          { "text": "Kleine Schritte bringen gar nichts." }
+        ],
+        "explanation": "Auch kleine Veränderungen helfen. Zum Beispiel ein Bio-Produkt pro Gericht. Kleine Schritte sind besser als keine."
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-lagerraeume",
+  "title": "Lagerräume sicher und hygienisch",
+  "sort": 713,
+  "intro": "🏬 Beim Lagern von Lebensmitteln gibt es eine feste Reihenfolge der Prioritäten. Priorität heißt: Was ist am wichtigsten? 1. die Sicherheit der Menschen, die im Lager arbeiten. 2. die Hygiene. 3. die Arbeitswirtschaft. Arbeitswirtschaft heißt: Die Arbeit soll leicht und schnell gehen.\n\nZur Arbeitssicherheit: Alle Kühl- und Gefrierräume müssen sich von innen öffnen lassen. So wird niemand aus Versehen eingeschlossen und erfriert. Das Licht muss man von innen einschalten können. Dazu kommt eine Notbeleuchtung. Und die Lichtschalter leuchten selbst. Das schreibt die Arbeitsstättenverordnung vor.\n\nZur Hygiene hat ein Kühlraum diese Ausstattung: Ein Thermostat misst die Temperatur. Es läuft mit Akkus. So arbeitet es auch ohne Strom. Es zeigt den Verlauf der Temperatur über die Zeit. Eine Lüftung hält mit Filtern Pollen und Insekten ab. Die Regale sind leicht zu reinigen. Die Wände haben weiße oder helle Fliesen bis an die Decke.\n\nAm Übergang von der Wand zum Boden gibt es Hohlkehlen. Eine Hohlkehle ist ein runder Übergang statt einer scharfen Ecke. So kann man besser reinigen, und es ist hygienischer.\n\nMehl, Reis, Salz, Zucker und Teigwaren gehören nicht in die Kühlräume für Milch, Gemüse und Fleisch. Nicht die Kälte schadet ihnen, sondern die hohe Luftfeuchtigkeit. Trockenwaren lagerst du zusammen mit Konserven in einem trockenen, weitgehend dunklen Raum.\n\nMERKE: Erst Sicherheit, dann Hygiene, dann Arbeitswirtschaft.\n\nMERKE: Trockenwaren nie in den Kühlraum. Die feuchte Luft schadet ihnen.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🏬 Was ist beim Lagern am wichtigsten? Ordne die Prioritäten: das Wichtigste zuerst.",
+        "steps": [
+          { "text": "Sicherheit der Menschen, die im Lager arbeiten" },
+          { "text": "Hygiene" },
+          { "text": "Arbeitswirtschaft: Die Arbeit soll leicht und schnell gehen" }
+        ],
+        "explanation": "Frag dich: Wer oder was ist in Gefahr? Zuerst kommt immer der Mensch. Danach kommen die Lebensmittel, also die Hygiene. Erst zum Schluss geht es darum, dass die Arbeit bequem und schnell ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Warum muss sich jede Kühlraumtür auch von innen öffnen lassen?",
+        "options": [
+          { "text": "Damit niemand eingeschlossen wird und erfriert.", "correct": true },
+          { "text": "Damit die Kälte schneller aus dem Raum entweicht." },
+          { "text": "Damit Lieferanten auch nachts hineinkommen können." }
+        ],
+        "explanation": "Fällt die Tür hinter dir zu, musst du trotzdem hinauskommen. Sonst kannst du im Kühlraum erfrieren. Darum lassen sich alle Kühl- und Gefrierräume von innen öffnen. Das gehört zur Arbeitssicherheit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Ausstattung eines Kühlraums: Dient sie der Arbeitssicherheit oder der Hygiene? Sortiere.",
+        "buckets": [
+          { "id": "sicher", "label": "Arbeitssicherheit", "icon": "🦺" },
+          { "id": "hyg", "label": "Hygiene", "icon": "🧼" }
+        ],
+        "items": [
+          { "text": "Tür lässt sich von innen öffnen", "bucket": "sicher" },
+          { "text": "Licht von innen einschaltbar", "bucket": "sicher" },
+          { "text": "Notbeleuchtung", "bucket": "sicher" },
+          { "text": "Selbstleuchtende Lichtschalter", "bucket": "sicher" },
+          { "text": "Lüftung mit Filter gegen Pollen und Insekten", "bucket": "hyg" },
+          { "text": "Leicht zu reinigende Regale", "bucket": "hyg" },
+          { "text": "Hohlkehlen am Übergang zum Boden", "bucket": "hyg" },
+          { "text": "Helle Fliesen bis an die Decke", "bucket": "hyg" }
+        ],
+        "explanation": "Frag dich: Schützt es den Menschen im Raum? Dann ist es Arbeitssicherheit, zum Beispiel alles, damit du hinausfindest. Schützt es die Lebensmittel vor Schmutz, Keimen und Insekten? Dann ist es Hygiene."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔋 Das Thermostat im Kühlraum läuft mit Akkus. Was ist der Vorteil?",
+        "options": [
+          { "text": "Es misst auch ohne Strom und zeigt den Temperaturverlauf.", "correct": true },
+          { "text": "Es kühlt den Raum mit seinen Akkus noch zusätzlich weiter herunter." },
+          { "text": "Mit Akkus muss niemand mehr die Temperatur im Kühlraum ansehen." }
+        ],
+        "explanation": "Mit Akkus ist das Thermostat vom Stromnetz unabhängig. Es misst also auch bei einem Stromausfall. Es zeigt, wie sich die Temperatur mit der Zeit verändert hat. So erkennst du, ob die Ware zu warm geworden ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧱 Im Kühlraum gibt es am Boden Hohlkehlen. Was ist eine Hohlkehle?",
+        "options": [
+          { "text": "Ein runder Übergang von der Wand zum Boden, statt einer Ecke.", "correct": true },
+          { "text": "Eine Rinne im Boden, in der das Putzwasser absichtlich stehen bleibt." },
+          { "text": "Eine hohle Kante, an der man die Regale festschraubt." }
+        ],
+        "explanation": "Die Hohlkehle ersetzt die scharfe Ecke zwischen Wand und Boden durch eine runde Form. In einer runden Ecke bleibt kein Schmutz hängen. So kannst du besser reinigen, und es ist hygienischer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📜 Welche Vorschrift verlangt selbstleuchtende Lichtschalter im Kühlraum?",
+        "options": [
+          { "text": "Die Arbeitsstättenverordnung.", "correct": true },
+          { "text": "Die Lebensmittelinformationsverordnung." },
+          { "text": "Die Preisangabenverordnung." }
+        ],
+        "explanation": "Selbstleuchtende Lichtschalter schützen die Menschen im Raum. Sie gehören zur Arbeitssicherheit. Darum stehen sie in der Arbeitsstättenverordnung. Die anderen Verordnungen regeln Lebensmittel und Preise."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 Im Kühlraum für Gemüse ist noch viel Platz. Darf deine Kollegin dort Nudeln, Reis und Zucker lagern?",
+        "options": [
+          { "text": "Nein, die hohe Luftfeuchtigkeit schadet den Trockenprodukten.", "correct": true },
+          { "text": "Nein, denn die Kälte macht Nudeln und Reis mit der Zeit hart und brüchig." },
+          { "text": "Ja, denn im Kühlraum bleibt jede Ware länger frisch." }
+        ],
+        "explanation": "Nicht die Kälte ist das Problem, sondern die Feuchtigkeit. Im Gemüseraum ist die Luft sehr feucht. Trockenprodukte ziehen die Feuchtigkeit an und verderben. Darum gehören sie nicht in den Kühlraum, auch wenn Platz ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Wo lagerst du Mehl, Salz und Teigwaren richtig?",
+        "options": [
+          { "text": "Mit den Konserven in einem trockenen, weitgehend dunklen Raum.", "correct": true },
+          { "text": "Mit Milch und Käse in einem kühlen, feuchten Raum." },
+          { "text": "Mit dem Gemüse zusammen in einem hellen Raum mit großen Fenstern." }
+        ],
+        "explanation": "Trockenwaren brauchen einen trockenen, weitgehend dunklen Raum. Dort lagern auch die Konserven. In Räumen mit feuchter Luft verderben Trockenwaren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Wohin gehört ein Sack Zucker?",
+        "options": [
+          { "text": "Ins trockene Lager.", "correct": true },
+          { "text": "In den Kühlraum für Gemüse." },
+          { "text": "In den Tiefkühlraum." }
+        ],
+        "explanation": "Zucker ist eine Trockenware. Er gehört ins trockene Lager, nicht in feuchte Kühlräume. 🎉"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-notverpflegung",
+  "title": "Notverpflegung: Plan B für die Küche",
+  "sort": 716,
+  "intro": "🔦 Eine Großküche braucht eine Notverpflegung. Das ist ein Vorrat für unvorhergesehene Fälle. Man braucht sie bei Stromausfall, bei verdorbener Ware im Lager und in Katastrophen. Verdorbene Ware fällt oft erst auf, wenn man sie zum Kochen aus dem Lager holt.\n\nFür einen Stromausfall hat die Küche einen Plan B. Ein kurzer Stromausfall in der Gegend ist meist nur ärgerlich. Ein langer Ausfall von Strom und Heizung im Winter ist bedrohlich. Dann bekommen die Bewohner zumindest warme Getränke.\n\nDafür braucht die Küche die richtigen Geräte. Ein Notstromaggregat ist ein Gerät, das selbst Strom erzeugt. Gibt es keins, kocht man das Nötigste auf dem Gasherd. Fällt auch das Gas aus der Leitung aus, arbeitet man mit Gasflaschen aus dem Vorrat weiter.\n\nIm Notvorrat liegen Lebensmittel ohne Kühlbedarf, und zwar genug davon. Zum Kochen: Gemüsebrühe, Gemüse- und Tomatenkonserven, Reis, Nudeln, Milchreis, Brühwürstchen, Kaffee und Tee.\n\nWenn gar nicht gekocht werden kann: Knäckebrot, Zwieback, Kekse, Salzstangen, Fischkonserven, Dosenmais, Corned Beef in Dosen, Nüsse, Trockenobst, Gurken und Rote Bete im Glas, Obstkonserven, Haferflocken, Milchpulver, Zucker und Zitronensaftkonzentrat.\n\nIm Notfall kann auch das Trinkwasser verunreinigt sein oder ganz ausfallen. Darum liegen genug Getränke in Flaschen im Vorrat.\n\nBeginnt ein langer Stromausfall, zum Beispiel bei einem Schneesturm? Dann verbrauchst du zuerst die Lebensmittel aus dem Kühlschrank, zum Beispiel Eier, Butter und Käse.\n\nFür Ausfälle in der Gegend und für Unfälle, zum Beispiel eine abgebrannte Küche, trifft man Notabsprachen mit benachbarten Großküchen. Die Nachbarküche hilft dann aus.\n\nMERKE: Notvorrat = Lebensmittel ohne Kühlbedarf und Getränke in Flaschen.\n\nMERKE: Bei langem Stromausfall zuerst die Lebensmittel aus dem Kühlschrank verbrauchen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🆘 In welchen drei Fällen braucht eine Großküche ihre Notverpflegung?",
+        "options": [
+          { "text": "Stromausfall, verdorbene Ware im Lager, Katastrophen.", "correct": true },
+          { "text": "Urlaub der Köchin, gesetzliche Feiertage und die jährliche Inventur." },
+          { "text": "Preiserhöhung beim Lieferanten, neuer Lieferant und Stromausfall." }
+        ],
+        "explanation": "Notverpflegung ist für unvorhergesehene Fälle da: Stromausfall, verdorbene Ware im Lager und Katastrophen. Urlaub, Feiertage oder die Inventur kann man planen. Dafür braucht man keinen Notvorrat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤢 Wann fällt verdorbene Ware im Lager oft erst auf?",
+        "options": [
+          { "text": "Wenn man sie zum Kochen aus dem Lager holt.", "correct": true },
+          { "text": "Schon wenn man sie beim Lieferanten bestellt." },
+          { "text": "Erst wenn der Gast sie auf dem Teller hat." }
+        ],
+        "explanation": "Oft merkt man erst bei der Entnahme, dass eine Ware verdorben ist. Dann fehlt sie plötzlich für das Essen. Genau dafür gibt es die Notverpflegung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔦 Notfall in der Küche: Welche Lösung passt zu welchem Notfall? Verbinde.",
+        "pairs": [
+          { "left": {"text": "⚡ Strom aus, kein Notstromaggregat"}, "right": {"text": "Auf dem Gasherd kochen"} },
+          { "left": {"text": "🔥 Auch die Gasleitung fällt aus"}, "right": {"text": "Mit Gasflaschen aus dem Vorrat kochen"} },
+          { "left": {"text": "🚰 Trinkwasser ist verunreinigt"}, "right": {"text": "Getränke in Flaschen aus dem Vorrat"} },
+          { "left": {"text": "🏚️ Die eigene Küche ist abgebrannt"}, "right": {"text": "Notabsprache mit einer Nachbarküche"} },
+          { "left": {"text": "🥶 Im Winter fällt die Heizung aus, alle frieren"}, "right": {"text": "Zumindest warme Getränke für alle"} }
+        ],
+        "explanation": "Frag dich bei jedem Notfall: Was fällt genau aus, und was geht noch? Fehlt Strom, hilft Gas. Fehlt auch Gas aus der Leitung, helfen Gasflaschen. Frieren alle, helfen zumindest warme Getränke. Fehlt die ganze Küche, hilft eine andere Küche."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍚 Notvorrat: Was brauchst du zum Kochen, was isst du auch ungekocht? Sortiere.",
+        "buckets": [
+          { "id": "kochen", "label": "Zum Kochen", "icon": "🔥" },
+          { "id": "ohne", "label": "Ohne Kochen essbar", "icon": "🥨" }
+        ],
+        "items": [
+          { "text": "Reis", "bucket": "kochen" },
+          { "text": "Nudeln", "bucket": "kochen" },
+          { "text": "Milchreis", "bucket": "kochen" },
+          { "text": "Gemüsebrühe", "bucket": "kochen" },
+          { "text": "Knäckebrot", "bucket": "ohne" },
+          { "text": "Zwieback", "bucket": "ohne" },
+          { "text": "Nüsse", "bucket": "ohne" },
+          { "text": "Trockenobst", "bucket": "ohne" }
+        ],
+        "explanation": "Frag dich: Kann man das so aus der Packung essen? Knäckebrot, Zwieback, Nüsse und Trockenobst ja. Reis, Nudeln, Milchreis und Brühe brauchen einen Herd, zum Beispiel den Gasherd."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥫 Gehört das in den Notvorrat? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Gehört in den Notvorrat", "icon": "✅" },
+          { "id": "nein", "label": "Gehört nicht hinein", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Dosenmais", "bucket": "ja" },
+          { "text": "Corned Beef in Dosen", "bucket": "ja" },
+          { "text": "Fischkonserven", "bucket": "ja" },
+          { "text": "Milchpulver", "bucket": "ja" },
+          { "text": "Zitronensaftkonzentrat", "bucket": "ja" },
+          { "text": "Gurken im Glas", "bucket": "ja" },
+          { "text": "Frischmilch", "bucket": "nein" },
+          { "text": "Tiefkühlgemüse", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Hält es auch ohne Strom und ohne Kühlung? Dann gehört es in den Notvorrat. Frischmilch braucht den Kühlschrank. Tiefkühlgemüse taut ohne Strom auf. Beides ist im Notfall schnell verdorben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Ein Schneesturm zieht auf, ein langer Stromausfall beginnt. Was verbrauchst du zuerst?",
+        "options": [
+          { "text": "Die Lebensmittel aus dem Kühlschrank, wie Eier, Butter und Käse.", "correct": true },
+          { "text": "Die Konserven, damit im Lager schnell wieder mehr Platz entsteht." },
+          { "text": "Den Zwieback und die Kekse, weil sie ohne Strom am schnellsten verderben." }
+        ],
+        "explanation": "Ohne Strom wird der Kühlschrank warm. Eier, Butter und Käse verderben dann bald. Darum isst du sie zuerst. Konserven und Zwieback halten lange. Sie bleiben für später."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ In der Straße fällt für eine halbe Stunde der Strom aus. Wie ernst ist das?",
+        "options": [
+          { "text": "Meist nur ärgerlich. Bedrohlich wird ein langer Ausfall im Winter.", "correct": true },
+          { "text": "Sehr gefährlich. Alle Bewohner müssen sofort und ohne Pause das Haus verlassen." },
+          { "text": "Völlig egal. Auch ein langer Ausfall im Winter ist kein Problem." }
+        ],
+        "explanation": "Ein kurzer Ausfall in der Gegend ist meist nur ärgerlich. Fallen Strom und Heizung im Winter länger aus, wird es bedrohlich. Dann brauchen die Bewohner zumindest warme Getränke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍝 Der Strom ist weg, aber der Gasherd läuft. Welches Gericht kochst du nur aus dem Notvorrat?",
+        "options": [
+          { "text": "Nudeln mit Tomatensoße aus der Konserve.", "correct": true },
+          { "text": "Frischer grüner Salat mit einer Joghurtsoße." },
+          { "text": "Tiefkühlpizza aus dem elektrischen Backofen." }
+        ],
+        "explanation": "Nudeln und Tomatenkonserven liegen im Notvorrat. Sie brauchen keine Kühlung. Auf dem Gasherd kochst du daraus ein warmes Essen. Frischer Salat und Joghurt brauchen Kühlung, der Backofen braucht Strom."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Wie nennt man den Notfallplan der Küche für einen Stromausfall?",
+        "options": [
+          { "text": "Plan B", "correct": true },
+          { "text": "Speiseplan" },
+          { "text": "Dienstplan" }
+        ],
+        "explanation": "Plan B heißt: Es gibt einen zweiten Plan, wenn der erste nicht klappt. So bleibt niemand ohne Essen und Trinken. 🎉"
+      }
+    }
+  ]
+}

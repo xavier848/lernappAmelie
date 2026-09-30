@@ -1,0 +1,127 @@
+{
+  "topic_slug": "naehen",
+  "slug": "naehen-upcycling",
+  "title": "Upcycling: Aus Alt mach Neu",
+  "sort": 553,
+  "intro": "Nachhaltige Mode heißt nicht nur: weniger neue Kleidung kaufen. Es heißt auch: Aus vorhandener, alter Kleidung oder Wäsche etwas Neues nähen oder anfertigen.\n\nUpcycling ist die Idee der Wiederverwertung, bei der etwas Neues geschaffen wird. Wiederverwertung heißt: Etwas Altes wird noch einmal benutzt.\n\nSo kannst du Kleidung umgestalten und modernisieren: Du applizierst Schriftzüge oder Fotos. Applizieren heißt: aufnähen. Oder du befestigst Spitzen, Borten oder Ösen.\n\nEs können auch ganz neue Teile entstehen: neue Kleidung, Deko-Artikel und Nützliches wie Taschen oder Spielzeug für Kinder.\n\nBeispiele aus dem Buch: Aus alten Jeans werden Kissenhüllen, Rucksäcke, Topflappen, Taschen, Röcke, Schürzen, Mäppchen, Schlüsselanhänger und Handysitzsäcke.\n\nAus alten T-Shirts und Herrenhemden werden Taschen, Kinderkleidung, Haarbänder, Kissenhüllen und Carmen-Blusen. Haarbänder aus Stoff heißen auch Scrunchies. Ein Scrunchie ist ein Haargummi mit Stoff drumherum. Eine Carmen-Bluse hat einen weiten Ausschnitt, der die Schultern frei lässt.\n\nAus alter Bettwäsche werden Abschminkpads, Bienenwachstücher, Kuscheltiere und Wetbags. Ein Bienenwachstuch ist ein Tuch mit Wachs zum Einpacken von Essen. Ein Wetbag ist ein Beutel für nasse Sachen.\n\nAus alten Gardinen werden Obstbeutel und Wäschenetze.\n\nMERKE: Upcycling heißt: Aus etwas Altem wird etwas Neues geschaffen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Was bedeutet nachhaltige Mode laut Buch?",
+        "options": [
+          { "text": "Weniger Neues kaufen und aus Altem Neues nähen.", "correct": true },
+          { "text": "Nur noch teure Markenkleidung im Geschäft kaufen." },
+          { "text": "Alte Kleidung gleich nach dem Tragen wegwerfen." }
+        ],
+        "explanation": "Nachhaltige Mode heißt: weniger neue Kleidung kaufen. Und aus vorhandener, alter Kleidung oder Wäsche etwas Neues nähen oder anfertigen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Aus etwas Altem wird etwas Neues geschaffen. Wie heißt diese Idee der Wiederverwertung?",
+        "options": [
+          { "text": "Upcycling.", "correct": true },
+          { "text": "Outsourcing." },
+          { "text": "Instandhaltung." }
+        ],
+        "explanation": "Upcycling ist die Idee der Wiederverwertung, bei der etwas Neues geschaffen wird. Bei der Instandhaltung reparierst du ein Stück nur. Outsourcing heißt, eine fremde Firma übernimmt eine Arbeit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧵 Alte Kleidung umgestalten oder ein ganz neues Teil machen? Sortiere.",
+        "buckets": [
+          { "id": "um", "label": "Kleidung umgestalten", "icon": "✨" },
+          { "id": "neu", "label": "Ganz neues Teil", "icon": "🎁" }
+        ],
+        "items": [
+          { "text": "Ein Foto auf ein Shirt applizieren", "bucket": "um" },
+          { "text": "Spitze an einen Rock nähen", "bucket": "um" },
+          { "text": "Eine Borte an die Bluse nähen", "bucket": "um" },
+          { "text": "Ösen an eine Jacke setzen", "bucket": "um" },
+          { "text": "Eine Tasche nähen", "bucket": "neu" },
+          { "text": "Spielzeug für Kinder nähen", "bucket": "neu" },
+          { "text": "Einen Deko-Artikel nähen", "bucket": "neu" }
+        ],
+        "explanation": "Frag dich: Bleibt das Kleidungsstück, was es ist, und bekommt nur etwas dazu? Dann gestaltest du es um. Entsteht aus dem Stoff etwas ganz anderes? Dann ist es ein neues Teil."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was wird woraus? Verbinde die Beispiele aus dem Buch.",
+        "pairs": [
+          { "left": {"text": "Alte Gardinen"}, "right": {"text": "Obstbeutel und Wäschenetze"} },
+          { "left": {"text": "Alte Bettwäsche"}, "right": {"text": "Abschminkpads und Bienenwachstücher"} },
+          { "left": {"text": "Alte Jeans"}, "right": {"text": "Rucksäcke und Handysitzsäcke"} },
+          { "left": {"text": "Alte Herrenhemden"}, "right": {"text": "Carmen-Blusen"} }
+        ],
+        "memory": false,
+        "explanation": "Denk an den Stoff: Gardinen sind dünn und durchlässig, gut für Netze. Bettwäsche ist weich und glatt. Jeansstoff ist sehr fest. Aus Hemden werden wieder Blusen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Was entsteht laut Buch außerdem aus alter Bettwäsche?",
+        "options": [
+          { "text": "Kuscheltiere und Wetbags.", "correct": true },
+          { "text": "Rucksäcke und Topflappen." },
+          { "text": "Schürzen und Mäppchen." }
+        ],
+        "explanation": "Aus alter Bettwäsche werden Abschminkpads, Bienenwachstücher, Kuscheltiere und Wetbags. Ein Wetbag ist ein Beutel für nasse Sachen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👖 Was wird laut Buch aus alten Jeans?",
+        "options": [
+          { "text": "Topflappen, Röcke, Schürzen, Mäppchen, Schlüsselanhänger.", "correct": true },
+          { "text": "Scrunchies, Carmen-Blusen und Bienenwachstücher." },
+          { "text": "Obstbeutel, Wäschenetze und dünne Vorhänge für die Küche." }
+        ],
+        "explanation": "Jeansstoff ist fest. Daraus nähst du zum Beispiel Kissenhüllen, Rucksäcke, Topflappen, Taschen, Röcke, Schürzen, Mäppchen, Schlüsselanhänger und Handysitzsäcke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💇 Was sind Scrunchies?",
+        "options": [
+          { "text": "Haarbänder aus Stoff.", "correct": true },
+          { "text": "Kleine Stofftäschchen." },
+          { "text": "Runde Abschminkpads aus Frottee." }
+        ],
+        "explanation": "Scrunchies sind Haarbänder aus Stoff. Man trägt sie im Haar, zum Beispiel um einen Zopf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Was entsteht laut Buch aus alten T-Shirts?",
+        "options": [
+          { "text": "Taschen, Kinderkleidung, Haarbänder und Kissenhüllen.", "correct": true },
+          { "text": "Obstbeutel, Wäschenetze und feine, dünne Gardinen." },
+          { "text": "Bienenwachstücher, Obstbeutel und feste Rucksäcke." }
+        ],
+        "explanation": "Aus alten T-Shirts und Herrenhemden werden Taschen, Kinderkleidung, Haarbänder, Kissenhüllen und Carmen-Blusen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Wie kannst du ein altes T-Shirt modernisieren?",
+        "options": [
+          { "text": "Einen Schriftzug applizieren.", "correct": true },
+          { "text": "Es bei 95 °C heiß waschen." },
+          { "text": "Es lange in die pralle Sonne legen." }
+        ],
+        "explanation": "Du kannst Kleidung modernisieren, indem du Schriftzüge oder Fotos applizierst. Applizieren heißt aufnähen."
+      }
+    }
+  ]
+}

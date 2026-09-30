@@ -1,0 +1,117 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-training",
+  "title": "Training: Zeit rechnen gemischt",
+  "sort": 8,
+  "intro": "Jetzt kommt alles gemischt. Lies jede Aufgabe genau. Frag dich zuerst: Suche ich das Ende, den Anfang oder die Dauer?\n\nSuchst du das Ende, rechnest du plus. Suchst du den Anfang, rechnest du minus. Suchst du die Dauer, rechnest du vom Start bis zum Ende.\n\nMERKE: Pausen und Wartezeiten zählen immer mit. Über die volle Stunde hilft die Brücke.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Abfahrt: 13:47 Uhr. Fahrzeit: 36 Minuten. Wann kommt der Zug an?",
+        "answer": 1423,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 13:47 Uhr → 14:00 Uhr sind 13 Minuten.\n36 − 13 = 23 Minuten bleiben übrig.\n14:00 Uhr + 23 Minuten = ?",
+        "explanation": "13:47 Uhr + 36 Minuten = 14:23 Uhr. Brücke: erst 13 Minuten bis 14:00 Uhr, dann noch 23 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍲 Die Suppe kocht 24 Minuten. Danach zieht sie noch 8 Minuten. Du beginnst um 17:39 Uhr. Wann kannst du essen?",
+        "answer": 1811,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 24 + 8 = 32 Minuten.\nBis zur vollen Stunde: 17:39 Uhr → 18:00 Uhr sind 21 Minuten.\n32 − 21 = 11 Minuten bleiben übrig.\n18:00 Uhr + 11 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 24 + 8 = 32 Minuten. 17:39 Uhr + 32 Minuten = 18:11 Uhr. Brücke: erst 21 Minuten bis 18:00 Uhr, dann noch 11 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧹 Du beginnst um 8:52 Uhr. Küche: 23 Minuten. Pause: 6 Minuten. Bad: 17 Minuten. Wann bist du fertig?",
+        "answer": 938,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 23 + 6 + 17 = 46 Minuten.\nBis zur vollen Stunde: 8:52 Uhr → 9:00 Uhr sind 8 Minuten.\n46 − 8 = 38 Minuten bleiben übrig.\n9:00 Uhr + 38 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 23 + 6 + 17 = 46 Minuten. 8:52 Uhr + 46 Minuten = 9:38 Uhr. Brücke: erst 8 Minuten bis 9:00 Uhr, dann noch 38 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Der Zug kommt um 19:12 Uhr an. Er hatte 18 Minuten Verspätung. Wann wäre er pünktlich gewesen?",
+        "answer": 1854,
+        "format": "uhrzeit",
+        "hint": "Zurück bis zur vollen Stunde: 19:12 Uhr → 19:00 Uhr sind 12 Minuten.\n18 − 12 = 6 Minuten musst du noch zurück.\nEine Stunde zurück ist 18:00 Uhr.\nDie Minuten nach 18 Uhr: 60 − 6 = ?",
+        "explanation": "Pünktlich wäre er 18 Minuten früher gewesen. 19:12 Uhr − 18 Minuten = 18:54 Uhr. Brücke rückwärts: erst 12 Minuten zurück bis 19:00 Uhr, dann noch 6 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏊 Der Schwimmkurs beginnt um 10:05 Uhr. Der Weg dauert 28 Minuten. Wann musst du spätestens los?",
+        "answer": 937,
+        "format": "uhrzeit",
+        "hint": "Zurück bis zur vollen Stunde: 10:05 Uhr → 10:00 Uhr sind 5 Minuten.\n28 − 5 = 23 Minuten musst du noch zurück.\nEine Stunde zurück ist 9:00 Uhr.\nDie Minuten nach 9 Uhr: 60 − 23 = ?",
+        "explanation": "10:05 Uhr − 28 Minuten = 9:37 Uhr. Brücke rückwärts: erst 5 Minuten zurück bis 10:00 Uhr, dann noch 23 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ Wie viele Minuten sind es von 11:48 Uhr bis 12:21 Uhr?",
+        "answer": 33,
+        "hint": "Vom Start bis zur vollen Stunde: 11:48 Uhr → 12:00 Uhr sind 12 Minuten.\n12:00 Uhr → 12:21 Uhr sind 21 Minuten.\nZähle zusammen: 12 + 21 = ?",
+        "explanation": "Von 11:48 Uhr bis 12:21 Uhr sind es 33 Minuten. Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (12 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚌 Der Bus fährt um 7:34 Uhr ab. Er wartet unterwegs 6 Minuten. Die Fahrzeit ist 29 Minuten. Wann kommt er an?",
+        "options": [
+          {
+            "text": "8:09 Uhr",
+            "correct": true
+          },
+          {
+            "text": "8:19 Uhr"
+          },
+          {
+            "text": "7:59 Uhr"
+          }
+        ],
+        "explanation": "Fahrzeit und Wartezeit zusammen: 29 + 6 = 35 Minuten. 7:34 Uhr + 35 Minuten = 8:09 Uhr. Brücke: erst 26 Minuten bis 8:00 Uhr, dann noch 9 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Du startest um 13:26 Uhr. Reiten: 1 Stunde und 5 Minuten. Pause: 14 Minuten. Reiten: 32 Minuten. Wann bist du zurück?",
+        "answer": 1517,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 65 + 14 + 32 = 111 Minuten.\n111 Minuten sind 1 Stunde und 51 Minuten.\n13:26 Uhr + 1 Stunde = 14:26 Uhr\nBis zur vollen Stunde: 14:26 Uhr → 15:00 Uhr sind 34 Minuten.\n51 − 34 = 17 Minuten bleiben übrig.\n15:00 Uhr + 17 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 65 + 14 + 32 = 111 Minuten. 111 Minuten sind 1 Stunde und 51 Minuten. 13:26 Uhr + 1 Stunde = 14:26 Uhr. Dann noch 51 Minuten dazu: 15:17 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🎉 Das Fest beginnt um 19:00 Uhr. Für das Buffet brauchst du 1 Stunde und 40 Minuten. Wann musst du anfangen?",
+        "answer": 1720,
+        "format": "uhrzeit",
+        "hint": "100 Minuten sind 1 Stunde und 40 Minuten.\n19:00 Uhr − 1 Stunde = 18:00 Uhr\nEine Stunde zurück ist 17:00 Uhr.\nDie Minuten nach 17 Uhr: 60 − 40 = ?",
+        "explanation": "100 Minuten sind 1 Stunde und 40 Minuten. 19:00 Uhr − 1 Stunde = 18:00 Uhr. Dann noch 40 Minuten zurück: 17:20 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ Es ist 9:55 Uhr. Wie spät ist es in 10 Minuten?",
+        "answer": 1005,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 9:55 Uhr → 10:00 Uhr sind 5 Minuten.\n10 − 5 = 5 Minuten bleiben übrig.\n10:00 Uhr + 5 Minuten = ?",
+        "explanation": "9:55 Uhr + 10 Minuten = 10:05 Uhr. Brücke: erst 5 Minuten bis 10:00 Uhr, dann noch 5 Minuten."
+      }
+    }
+  ]
+}

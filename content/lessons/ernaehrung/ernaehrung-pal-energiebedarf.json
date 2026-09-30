@@ -1,0 +1,166 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-pal-energiebedarf",
+  "title": "Energiebedarf: PAL-Wert und Gesamtbedarf",
+  "sort": 581,
+  "intro": "🚴 Der Leistungsumsatz ist die Energie für körperliche Aktivität. Um den täglichen Energiebedarf festzustellen, nutzen die WHO und die DGE den PAL-Wert. WHO heißt Weltgesundheitsorganisation. PAL steht für „physical activity level“, das heißt: Maß der körperlichen Aktivität.\n\nDer PAL-Wert ist ein Mehrfaches des Ruheenergieverbrauchs (REE). Unter normalen Lebensbedingungen liegt er zwischen 1,2 und 2,4.\n\nMERKE: Gesamtenergieverbrauch = Ruheenergieverbrauch × PAL-Wert.\n\nPAL-Werte von Erwachsenen nach Arbeit und Freizeit: 1,2 bis 1,3 heißt: nur sitzend oder liegend, zum Beispiel gebrechliche, bettlägerige Menschen. 1,4 bis 1,5 heißt: nur sitzende Tätigkeit, kaum anstrengende Freizeit, zum Beispiel Büroangestellte und Feinmechaniker. 1,6 bis 1,7 heißt: sitzend, zeitweise auch gehend und stehend, zum Beispiel Laboranten, Kraftfahrer, Studierende und Fließbandarbeiter.\n\n1,8 bis 1,9 heißt: überwiegend gehende und stehende Arbeit, zum Beispiel Verkäufer, Kellner, Mechaniker und Handwerker. 2,0 bis 2,4 heißt: körperlich anstrengende Arbeit, zum Beispiel Bauarbeiter, Landwirte, Waldarbeiter, Bergarbeiter und Leistungssportler.\n\nViele Menschen bewegen sich wenig und sind oft übergewichtig. Darum hält die DGE meistens einen niedrigeren PAL-Wert von etwa 1,4 für ausreichend.\n\nRechenbeispiel: Eine Auszubildende ist 17 Jahre alt und wiegt 64 kg. Ihr Ruheenergieverbrauch ist 5994 kJ, also rund 6 MJ. Sie fährt täglich 2 km mit dem Rad zur Arbeit, macht aber keinen regelmäßigen Sport. Ihr PAL-Wert ist 1,4. 5994 kJ × 1,4 = 8392 kJ, also rund 8,4 MJ.\n\nDie Tabellen der D-A-CH-Referenzwerte zeigen: Männer brauchen mehr Energie als Frauen. Mit dem Alter sinkt der Bedarf. Je höher der PAL-Wert, desto höher der Bedarf. Die Werte berechnet man mit Referenzmaßen. Das sind festgelegte Werte für Körpergröße und Gewicht je nach Alter und Geschlecht, zum Beispiel für Frauen von 19 bis unter 25 Jahren 165,8 cm und 60,5 kg. Diese Frauen haben einen Ruheenergieverbrauch von 5,8 MJ, Männer im gleichen Alter 7,3 MJ. Der Richtwert für die Energiezufuhr von Frauen dieses Alters ist 8,0 MJ bei PAL 1,4, 9,2 MJ bei PAL 1,6 und 10,5 MJ bei PAL 1,8.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏃 Wofür braucht der Körper den Leistungsumsatz?",
+        "options": [
+          { "text": "Für die körperliche Aktivität", "correct": true },
+          { "text": "Für Atmung und Herzschlag in Ruhe" },
+          { "text": "Für die Verdauung im Schlaf" }
+        ],
+        "explanation": "Der Leistungsumsatz ist die Energie für Bewegung und Arbeit. Atmung und Herzschlag in Ruhe gehören zum Grundumsatz bzw. Ruheenergieverbrauch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📊 Was ist der PAL-Wert?",
+        "options": [
+          { "text": "Ein Mehrfaches des Ruheenergieverbrauchs, meist zwischen 1,2 und 2,4", "correct": true },
+          { "text": "Die Zahl der Mahlzeiten pro Tag, meistens zwischen 3 und 5 Stück" },
+          { "text": "Das Körpergewicht geteilt durch die Körpergröße mal die Körpergröße" }
+        ],
+        "explanation": "Der PAL-Wert sagt, wie viel Mal so viel Energie du brauchst wie in Ruhe. Bei normalen Lebensbedingungen liegt er zwischen 1,2 und 2,4. WHO und DGE nutzen ihn."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👷 Welcher PAL-Wert passt? Verbinde.",
+        "explanation": "Frag dich: Wie viel bewegt sich die Person bei der Arbeit? Liegen, Sitzen, zeitweise Gehen, überwiegend Gehen und Stehen, schwere körperliche Arbeit – der PAL-Wert steigt Stufe für Stufe.",
+        "pairs": [
+          { "left": {"text": "🛏️ Bettlägerige Menschen"}, "right": {"text": "1,2 bis 1,3"} },
+          { "left": {"text": "💻 Büroangestellte"}, "right": {"text": "1,4 bis 1,5"} },
+          { "left": {"text": "🚚 Kraftfahrer, Studierende"}, "right": {"text": "1,6 bis 1,7"} },
+          { "left": {"text": "🔧 Mechaniker, Handwerker"}, "right": {"text": "1,8 bis 1,9"} },
+          { "left": {"text": "🌲 Waldarbeiter, Bauarbeiter"}, "right": {"text": "2,0 bis 2,4"} }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📋 Welcher PAL-Bereich passt? Sortiere die Berufe.",
+        "explanation": "Frag dich: Sitzt die Person nur? Dann 1,4 bis 1,5. Sitzt sie meistens, geht und steht aber zeitweise? Dann 1,6 bis 1,7. Arbeitet sie körperlich schwer? Dann 2,0 bis 2,4.",
+        "buckets": [
+          { "id": "a", "label": "1,4 bis 1,5", "icon": "🪑" },
+          { "id": "b", "label": "1,6 bis 1,7", "icon": "🚶" },
+          { "id": "c", "label": "2,0 bis 2,4", "icon": "🏋️" }
+        ],
+        "items": [
+          { "text": "Feinmechaniker", "bucket": "a" },
+          { "text": "Laborant", "bucket": "b" },
+          { "text": "Fließbandarbeiter", "bucket": "b" },
+          { "text": "Landwirt", "bucket": "c" },
+          { "text": "Bergarbeiter", "bucket": "c" },
+          { "text": "Leistungssportler", "bucket": "c" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Welchen PAL-Wert hält die DGE für die meisten Menschen für ausreichend?",
+        "options": [
+          { "text": "Etwa 1,4, weil viele sich wenig bewegen und oft übergewichtig sind.", "correct": true },
+          { "text": "Etwa 2,0, weil die meisten Menschen jeden Tag körperlich hart arbeiten." },
+          { "text": "Etwa 1,0, weil Bewegung fast gar keine Energie verbraucht." }
+        ],
+        "explanation": "Die meisten Menschen bewegen sich wenig, und viele sind übergewichtig. Darum rechnet die DGE meistens mit einem niedrigeren PAL-Wert von etwa 1,4."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✖️ Wie berechnest du den Gesamtenergieverbrauch?",
+        "options": [
+          { "text": "Ruheenergieverbrauch mal PAL-Wert", "correct": true },
+          { "text": "Ruheenergieverbrauch plus PAL-Wert" },
+          { "text": "PAL-Wert geteilt durch das Gewicht" }
+        ],
+        "explanation": "Der PAL-Wert ist ein Mehrfaches. Deshalb multiplizierst du: Ruheenergieverbrauch × PAL-Wert = Gesamtenergieverbrauch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚲 Die Auszubildende (17 Jahre, 64 kg) hat einen REE von 5994 kJ. Sie fährt Rad zur Arbeit, macht aber keinen Sport. Rechne mit dem PAL-Wert, den die DGE meistens für ausreichend hält. Wie hoch ist ihr Gesamtenergieverbrauch?",
+        "options": [
+          { "text": "Rund 8,4 MJ (8392 kJ)", "correct": true },
+          { "text": "Rund 6,0 MJ (5994 kJ)" },
+          { "text": "Rund 9,6 MJ (9590 kJ)" },
+          { "text": "Rund 7,4 MJ (7394 kJ)" }
+        ],
+        "explanation": "Die DGE hält meistens PAL 1,4 für ausreichend. 5994 kJ × 1,4 = 8392 kJ, also rund 8,4 MJ. 6,0 MJ wäre nur der Ruheenergieverbrauch. 9,6 MJ käme mit PAL 1,6 heraus. 7,4 MJ kommt heraus, wenn man 1,4 MJ dazuzählt, statt mit 1,4 malzunehmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Was zeigen die D-A-CH-Tabellen für die Energie?",
+        "options": [
+          { "text": "Männer brauchen mehr als Frauen, im Alter sinkt der Bedarf.", "correct": true },
+          { "text": "Frauen brauchen mehr als Männer, im Alter steigt der Bedarf." },
+          { "text": "Alle brauchen gleich viel, egal wie alt oder aktiv sie sind." }
+        ],
+        "explanation": "In allen Altersgruppen liegen die Werte der Männer höher. Mit steigendem Alter sinken die Werte. Und je höher der PAL-Wert, desto mehr Energie braucht man."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👩 Eine Frau von 19 bis unter 25 Jahren hat PAL 1,4. Welcher Richtwert für die Energiezufuhr steht in der Tabelle?",
+        "options": [
+          { "text": "8,0 MJ", "correct": true },
+          { "text": "9,2 MJ" },
+          { "text": "10,1 MJ" },
+          { "text": "10,5 MJ" }
+        ],
+        "explanation": "Für Frauen von 19 bis unter 25 Jahren gilt bei PAL 1,4 der Richtwert 8,0 MJ. 9,2 MJ gilt bei PAL 1,6 und 10,5 MJ bei PAL 1,8. 10,1 MJ ist der Wert für Männer im gleichen Alter bei PAL 1,4."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Was sind Referenzmaße in den D-A-CH-Tabellen?",
+        "options": [
+          { "text": "Festgelegte Werte für Größe und Gewicht je nach Alter und Geschlecht", "correct": true },
+          { "text": "Die Maße für Kleidergrößen, die in ganz Europa für alle gleich gelten" },
+          { "text": "Die Größe der Portionen auf dem Teller für jede einzelne Mahlzeit" }
+        ],
+        "explanation": "Mit den Referenzmaßen für Körpergröße und Gewicht wird der Ruheenergieverbrauch berechnet. Für Frauen von 19 bis unter 25 Jahren sind das zum Beispiel 165,8 cm und 60,5 kg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛌 Welcher Ruheenergieverbrauch steht in der Tabelle für Frauen von 19 bis unter 25 Jahren?",
+        "options": [
+          { "text": "5,8 MJ pro Tag", "correct": true },
+          { "text": "7,3 MJ pro Tag" },
+          { "text": "6,4 MJ pro Tag" },
+          { "text": "4,2 MJ pro Tag" }
+        ],
+        "explanation": "Frauen von 19 bis unter 25 Jahren haben einen Ruheenergieverbrauch von 5,8 MJ. Männer im gleichen Alter liegen bei 7,3 MJ. Für die Aktivität kommt beim Gesamtbedarf noch Energie dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wer nutzt den PAL-Wert, um den Energiebedarf festzustellen?",
+        "options": [
+          { "text": "Die WHO und die DGE", "correct": true },
+          { "text": "Nur Sportvereine" },
+          { "text": "Nur Krankenhäuser" }
+        ],
+        "explanation": "Die Weltgesundheitsorganisation (WHO) und die Deutsche Gesellschaft für Ernährung (DGE) verwenden den PAL-Wert, um den täglichen Energiebedarf festzustellen."
+      }
+    }
+  ]
+}

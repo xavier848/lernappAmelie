@@ -1,0 +1,156 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-braten-frittieren",
+  "title": "Braten in der Pfanne und Frittieren",
+  "sort": 636,
+  "intro": "🔥 Trockene Garverfahren garen ohne Flüssigkeit bei über 100 °C. Die Wärme kommt zum Beispiel über Fett oder über Konvektion. Konvektion ist bewegte heiße Luft.\n\nBraten in der Pfanne heißt auch Kurzzeitbraten. Du bräunst und garst das Gargut im eigenen Fett, also ohne Fett dazuzugeben. Oder du nimmst möglichst wenig heißes Fett. Du brätst ohne Deckel. Die Tabelle im Fachbuch nennt dafür 100 – 130 – 200 °C. Die Temperatur hängt also vom Gargut ab. Zu Hause nimmst du eine Pfanne, eine beschichtete Pfanne oder einen Wok. In der Großküche nimmst du die Kippbratpfanne, den Kombidämpfer oder einen Wok.\n\nMERKE: Niedrige Temperatur für Eierspeisen. Mittlere Temperatur für panierte Stücke. Hohe Temperatur für unpanierte Stücke.\n\nDie Temperatur hängt auch vom Fett ab. Butter und Margarine sind wasserhaltige Fette. Sie nimmst du nur für niedrige Temperaturen. Öl, Schmalz und gehärtete Pflanzenfette sind wasserfrei. Sie nimmst du für mittlere und hohe Temperaturen.\n\nUnpaniertes Fleisch und Geflügel salzt du erst nach dem Braten. Sonst entzieht das Salz Wasser.\n\nFrittieren heißt auch Ausbacken. Du garst und bräunst in viel schwimmendem Fett. Es ist ähnlich wie Braten, aber mit viel mehr Fett. Du nimmst nur Fette mit hohem Rauchpunkt.\n\nMERKE: Unpaniertes frittierst du bei etwa 180 °C. Paniertes frittierst du bei etwa 160 °C. Über 175 °C kann sich der gesundheitsschädliche Stoff Acrylamid bilden.\n\nGib nicht zu viel auf einmal in die Fritteuse. Sonst kann das Fett überschäumen. Und das Fett kühlt zu schnell ab. Dann saugt sich das Gargut mit Fett voll.\n\nFrittierfett nimmt Geschmack an. Nach frittiertem Fisch frittierst du darin also keine Kroketten.\n\nGebrauchtes Fett filterst du, lässt es abkühlen und lagerst es kühl. Du benutzt es höchstens drei- bis viermal.\n\nÜberhitztes Fett kann sich entzünden. Dann erstickst du die Flammen mit einem Deckel oder mit einer Löschdecke. Lösche nie mit Wasser!",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Was gilt für trockene Garverfahren?",
+        "options": [
+          { "text": "Sie garen ohne Flüssigkeit bei über 100 °C.", "correct": true },
+          { "text": "Sie garen mit viel Wasser bei unter 100 °C im Topf." },
+          { "text": "Sie garen im Wasserdampf bei genau 100 °C mit Deckel." }
+        ],
+        "explanation": "Trockene Garverfahren brauchen keine Flüssigkeit. Die Wärme kommt über Fett oder über heiße Luft. Darum werden sie heißer als 100 °C. Mit Wasser ginge das im offenen Topf nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Was ist Braten in der Pfanne?",
+        "options": [
+          { "text": "Bräunen und garen im eigenen Fett oder in wenig heißem Fett, ohne Deckel.", "correct": true },
+          { "text": "Garen und bräunen in viel schwimmendem Fett, bis alles goldbraun geworden ist." },
+          { "text": "Garen in wenig Fett und etwas Wasser mit Deckel, ganz ohne jede Bräunung." }
+        ],
+        "explanation": "Beim Braten in der Pfanne brauchst du wenig oder gar kein zusätzliches Fett. Der Deckel bleibt weg, damit das Gargut braun wird. Viel schwimmendes Fett wäre Frittieren. Mit Deckel und ohne Bräunung wäre es Dünsten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌡️ Bei welcher Temperatur brätst du das in der Pfanne? Sortiere.",
+        "buckets": [
+          { "id": "niedrig", "label": "Niedrig", "icon": "🟢" },
+          { "id": "mittel", "label": "Mittel", "icon": "🟡" },
+          { "id": "hoch", "label": "Hoch", "icon": "🔴" }
+        ],
+        "items": [
+          { "text": "Rührei", "bucket": "niedrig" },
+          { "text": "Spiegelei", "bucket": "niedrig" },
+          { "text": "Omelett", "bucket": "niedrig" },
+          { "text": "Paniertes Schnitzel", "bucket": "mittel" },
+          { "text": "Panierter Fisch", "bucket": "mittel" },
+          { "text": "Unpaniertes Steak", "bucket": "hoch" },
+          { "text": "Unpaniertes Hähnchenfilet", "bucket": "hoch" }
+        ],
+        "explanation": "Frag dich zuerst: Ist es eine Eierspeise? Dann niedrig. Ist es paniert? Dann mittel, sonst verbrennt die Panierung. Ist es unpaniert? Dann hoch, damit es schnell eine Kruste bekommt."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍳 Braten in der Pfanne: Die Tabelle im Fachbuch nennt 100 – 130 – ___ °C. Welche Zahl fehlt?",
+        "answer": 200,
+        "hint": "Es ist die höchste der drei Temperaturen.\nEs ist eine runde Hunderterzahl.",
+        "explanation": "Beim Braten in der Pfanne nennt das Fachbuch 100 – 130 – 200 °C. Welche Temperatur du nimmst, hängt vom Gargut ab: niedrig für Eierspeisen, mittel für Paniertes, hoch für Unpaniertes."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Butter und Margarine nimmst du nur für niedrige Temperaturen. Warum?",
+        "options": [
+          { "text": "Sie sind wasserhaltige Fette.", "correct": true },
+          { "text": "Sie sind wasserfreie Fette." },
+          { "text": "Sie haben einen sehr hohen Rauchpunkt." }
+        ],
+        "explanation": "Butter und Margarine enthalten Wasser. Bei großer Hitze spritzen sie und verbrennen. Wasserfreie Fette wie Öl, Schmalz und gehärtete Pflanzenfette vertragen mittlere und hohe Temperaturen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Du brätst ein unpaniertes Steak. Wann salzt du es?",
+        "options": [
+          { "text": "Erst nach dem Braten.", "correct": true },
+          { "text": "Schon eine Stunde vor dem Braten." },
+          { "text": "Direkt vor dem Braten, von beiden Seiten." }
+        ],
+        "explanation": "Salz entzieht dem Fleisch Wasser. Darum salzt du unpaniertes Fleisch und Geflügel erst nach dem Braten. So bleibt das Wasser im Fleisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Welche Frittiertemperaturen sind richtig?",
+        "options": [
+          { "text": "Paniert um 160 °C, unpaniert um 180 °C.", "correct": true },
+          { "text": "Paniert um 180 °C, unpaniert um 160 °C." },
+          { "text": "Paniert und unpaniert immer um 200 °C." }
+        ],
+        "explanation": "Die Panierung bräunt schnell. Darum frittierst du Paniertes etwas kühler, bei etwa 160 °C. Unpaniertes frittierst du bei etwa 180 °C."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚠️ Ab wie viel Grad Celsius kann sich beim Frittieren Acrylamid bilden?",
+        "answer": 175,
+        "hint": "Die Zahl liegt zwischen den beiden Frittiertemperaturen 160 °C und 180 °C.",
+        "explanation": "Über 175 °C kann sich Acrylamid bilden. Das ist ein gesundheitsschädlicher Stoff. Darum achtest du genau auf die Temperatur und lässt das Fett nicht heißer werden als nötig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Du gibst sehr viele Pommes auf einmal in die Fritteuse. Was kann passieren?",
+        "options": [
+          { "text": "Das Fett schäumt über und kühlt zu schnell ab.", "correct": true },
+          { "text": "Die Pommes werden viel schneller knusprig und braun." },
+          { "text": "Das Fett wird dadurch heißer und braucht weniger Strom." }
+        ],
+        "explanation": "Viel kaltes Gargut auf einmal kühlt das Fett stark ab. Außerdem kann das Fett überschäumen. Im zu kühlen Fett saugen sich die Pommes mit Fett voll. Darum frittierst du in kleinen Mengen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Du hast Fisch frittiert. Jetzt willst du Kroketten frittieren. Was beachtest du?",
+        "options": [
+          { "text": "Nicht im selben Fett, es hat Fischgeschmack angenommen.", "correct": true },
+          { "text": "Das Fett nur kurz abkühlen lassen, dann geht es wieder." },
+          { "text": "Das Fett noch heißer machen, dann verfliegt der Geschmack." }
+        ],
+        "explanation": "Frittierfett nimmt den Geschmack des Garguts an. Kroketten aus dem Fischfett würden nach Fisch schmecken. Darum trennst du das Fett nach Geschmack."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫙 Wie gehst du mit gebrauchtem Frittierfett um?",
+        "options": [
+          { "text": "Filtern, abkühlen, kühl lagern und höchstens drei- bis viermal nutzen.", "correct": true },
+          { "text": "Heiß in der Fritteuse stehen lassen und beliebig oft weiter nutzen." },
+          { "text": "Nach jedem Frittieren noch warm in den Ausguss der Spüle gießen." }
+        ],
+        "explanation": "Gebrauchtes Fett filterst du, lässt es abkühlen und lagerst es kühl. Nach drei- bis viermal Benutzen ist es verbraucht. Altes Fett gehört nie in den Ausguss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Frittieren hat noch einen zweiten Namen. Welchen?",
+        "options": [
+          { "text": "Ausbacken.", "correct": true },
+          { "text": "Ausbraten." },
+          { "text": "Ausquellen." }
+        ],
+        "explanation": "Frittieren heißt auch Ausbacken. Du garst und bräunst dabei in viel schwimmendem Fett."
+      }
+    }
+  ]
+}

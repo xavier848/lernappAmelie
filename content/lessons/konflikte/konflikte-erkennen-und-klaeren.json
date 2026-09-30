@@ -1,0 +1,124 @@
+{
+  "topic_slug": "konflikte",
+  "slug": "konflikte-erkennen-und-klaeren",
+  "title": "Konflikte erkennen und klären",
+  "sort": 681,
+  "intro": "👀 Bevor ein Konflikt ausbricht, gibt es oft Signale. Manche hört man. Sie sind verbal. Manche sieht man. Sie sind nonverbal.\n\nVerbale Signale sind: eine veränderte Stimmlage. Knappe, meist gereizte Antworten. „Spitze“, meist verletzende Aussagen.\n\nNonverbale Signale sind: fehlender Blickkontakt und eine abweisende Körperhaltung. Auch ein angespannter Gesichtsausdruck kann Ärger oder Wut zeigen.\n\nMERKE: Diese Signale wahrzunehmen, ist der erste Schritt. So erkennst du einen Konflikt als Konflikt und nimmst ihn ernst.\n\nDanach helfen fünf Fragen weiter: Wer sind die Konfliktparteien? Worum geht es inhaltlich? Wie zeigt sich der Konflikt? Wie verläuft der Konflikt? Welche Möglichkeiten zur Lösung gibt es? Konfliktparteien sind die Menschen, die den Konflikt miteinander haben.\n\nManchmal finden die Beteiligten allein keine Lösung. Dann hilft eine unbeteiligte dritte Person. Das kann ein Mediator sein. Mediator heißt Streitschlichter.\n\nMERKE: Ein Mediator vermittelt zwischen den Beteiligten. Er versucht, die Lage zu entschärfen, den Konflikt zu erkennen und bei der Lösung zu helfen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Signale für einen Konflikt: Hört man sie oder sieht man sie? Sortiere.",
+        "buckets": [
+          { "id": "verbal", "label": "Verbal", "icon": "🗣️" },
+          { "id": "nonverbal", "label": "Nonverbal", "icon": "👀" }
+        ],
+        "items": [
+          { "text": "Eine veränderte Stimmlage", "bucket": "verbal" },
+          { "text": "Knappe, gereizte Antworten", "bucket": "verbal" },
+          { "text": "Spitze, verletzende Aussagen", "bucket": "verbal" },
+          { "text": "Fehlender Blickkontakt", "bucket": "nonverbal" },
+          { "text": "Eine abweisende Körperhaltung", "bucket": "nonverbal" },
+          { "text": "Ein angespannter Gesichtsausdruck", "bucket": "nonverbal" }
+        ],
+        "explanation": "Frag dich: Kommt das Signal aus dem Mund oder vom Körper? Alles, was mit Sprechen und Stimme zu tun hat, ist verbal. Augen, Gesicht und Haltung sind nonverbal."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗨️ Du fragst eine Kollegin: „Wie war dein Wochenende?“ Sie antwortet nur knapp: „Gut.“ Dabei klingt sie gereizt. Was kann das sein?",
+        "options": [
+          { "text": "Ein Signal für einen nahenden Konflikt.", "correct": true },
+          { "text": "Ein Zeichen für besonders gute Laune." },
+          { "text": "Eine ganz normale, freundliche Antwort." }
+        ],
+        "explanation": "Knappe, gereizte Antworten sind ein verbales Signal für einen Konflikt. Nimm das ernst. Frag zum Beispiel später in Ruhe nach, ob etwas los ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "1️⃣ Warum ist es wichtig, die Signale für einen Konflikt wahrzunehmen?",
+        "options": [
+          { "text": "Es ist der erste Schritt, um den Konflikt zu erkennen und ernst zu nehmen.", "correct": true },
+          { "text": "So kann man dem Konflikt ausweichen und ihn danach ganz schnell vergessen." },
+          { "text": "So weiß man sofort und ganz sicher, wer an dem Konflikt schuld ist." }
+        ],
+        "explanation": "Nur wer einen Konflikt bemerkt, kann ihn auch klären. Die Signale wahrzunehmen, ist deshalb der erste Schritt. Danach kann man den Konflikt genauer untersuchen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👥 Was sind Konfliktparteien?",
+        "options": [
+          { "text": "Die Menschen, die den Konflikt miteinander haben.", "correct": true },
+          { "text": "Die Zuschauer, die den Streit nur von außen mitbekommen." },
+          { "text": "Die Regeln, nach denen man einen Streit führt." }
+        ],
+        "explanation": "Partei heißt hier: eine Seite im Streit. Die Konfliktparteien sind also die Menschen, die gegeneinander stehen. Oft sind es zwei, manchmal auch mehr."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧩 Lena und Tom streiten seit Wochen über den Dienstplan. Sie reden kaum noch miteinander. Es wird immer schlimmer. Welche Antwort passt zu welcher Frage?",
+        "pairs": [
+          { "left": {"text": "Wer sind die Konfliktparteien?"}, "right": {"text": "Lena und Tom"} },
+          { "left": {"text": "Worum geht es inhaltlich?"}, "right": {"text": "Um den Dienstplan"} },
+          { "left": {"text": "Wie zeigt sich der Konflikt?"}, "right": {"text": "Sie reden kaum noch miteinander."} },
+          { "left": {"text": "Wie verläuft der Konflikt?"}, "right": {"text": "Er wird seit Wochen immer schlimmer."} },
+          { "left": {"text": "Welche Lösungen gibt es?"}, "right": {"text": "Ein gemeinsames Gespräch mit der Leitung"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf das Fragewort. „Wer“ fragt nach Personen. „Worum“ fragt nach dem Thema. „Wie zeigt sich“ fragt nach dem, was man sieht. „Wie verläuft“ fragt nach der Entwicklung. Die letzte Frage sucht einen Ausweg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕊️ Was ist ein Mediator?",
+        "options": [
+          { "text": "Ein unbeteiligter Streitschlichter.", "correct": true },
+          { "text": "Ein Anwalt, der nur einer Seite hilft." },
+          { "text": "Ein Richter, der eine Strafe festlegt." }
+        ],
+        "explanation": "Ein Mediator gehört zu keiner Seite. Er ist eine unbeteiligte dritte Person. Er hilft beiden Seiten, selbst eine Lösung zu finden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤷 Wann holt man einen Mediator dazu?",
+        "options": [
+          { "text": "Wenn die Beteiligten allein keine Lösung finden.", "correct": true },
+          { "text": "Bei jedem noch so kleinen Streit gleich ganz am Anfang." },
+          { "text": "Erst dann, wenn der Konflikt schon gelöst ist." }
+        ],
+        "explanation": "Zuerst versuchen die Beteiligten selbst, den Konflikt zu klären. Klappt das nicht, hilft ein Vermittler von außen weiter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧯 Was macht ein Mediator?",
+        "options": [
+          { "text": "Er entschärft die Lage, erkennt den Konflikt und hilft bei der Lösung.", "correct": true },
+          { "text": "Er entscheidet ganz allein, wer recht hat, und bestraft dann den anderen." },
+          { "text": "Er erzählt allen Kollegen genau, worum es in dem Streit geht." }
+        ],
+        "explanation": "Ein Mediator vermittelt. Er beruhigt die Lage, hilft zu verstehen, worum es wirklich geht, und unterstützt bei der Lösung. Er ist kein Richter."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wie viele Fragen helfen dir, einen Konflikt zu klären?",
+        "answer": 5,
+        "hint": "Zähl die Fragen:\nWer? Worum? Wie zeigt er sich?\nWie verläuft er? Welche Lösungen?",
+        "explanation": "Es sind 5 Fragen: Wer sind die Konfliktparteien? Worum geht es? Wie zeigt sich der Konflikt? Wie verläuft er? Welche Lösungen gibt es?"
+      }
+    }
+  ]
+}

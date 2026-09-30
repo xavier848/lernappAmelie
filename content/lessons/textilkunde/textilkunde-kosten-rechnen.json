@@ -1,0 +1,141 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-kosten-rechnen",
+  "title": "Rechnen: Kosten einer Profi-Waschmaschine",
+  "sort": 553,
+  "intro": "Im Buch gibt es eine Rechenaufgabe. Ein Betrieb kauft eine neue Profi-Waschmaschine für 27 kg Wäsche.\n\nDie Maschine kostet 16.000 € zuzüglich 19 % Umsatzsteuer. Zuzüglich heißt: Die Steuer kommt noch dazu. Für Reparaturrücklagen werden 4 % angesetzt. Eine Rücklage ist Geld, das man für spätere Reparaturen zur Seite legt.\n\nDie Maschine wird drei Mal täglich beschickt. Beschicken heißt: mit Wäsche füllen und laufen lassen. Eine Beschickung ist also ein Waschgang.\n\nDie Verbrauchswerte pro Waschgang: Wasser und Abwasser 209 Liter. Strom 3,85 kWh. Waschmittel 35 g pro kg Trockenwäsche. Die Einheit kWh heißt Kilowattstunde. Damit misst man Strom.\n\nDie Preise: Ein Kubikmeter (1 m³) Wasser und Abwasser kostet 2,95 €. Ein Kubikmeter sind 1.000 Liter. Eine kWh Strom kostet 0,32 €. Eine Packung mit 20 kg Waschmittel kostet 46,50 €.\n\nSo rechnest du: Verbrauch mal Preis pro Einheit ergibt die Kosten pro Waschgang. Achte auf gleiche Einheiten. Liter rechnest du vorher in m³ um, Gramm in Kilogramm. Am Ende zählst du die Kosten für Wasser, Strom und Waschmittel zusammen. Das sind die Kosten pro Waschgang.\n\nMERKE: Kosten = Verbrauch × Preis pro Einheit. Vorher die Einheiten angleichen: 1.000 Liter = 1 m³.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Die Maschine kostet „16.000 € zuzüglich 19 % Umsatzsteuer“. Was heißt das?",
+        "options": [
+          { "text": "Zu den 16.000 € kommt die Steuer noch dazu.", "correct": true },
+          { "text": "Die Steuer ist in den 16.000 € schon enthalten." },
+          { "text": "Von den 16.000 € werden 19 % Rabatt abgezogen." }
+        ],
+        "explanation": "Zuzüglich heißt: kommt noch dazu. Die 16.000 € sind der Preis ohne Steuer. Die 19 % Umsatzsteuer rechnest du extra aus und zählst sie dazu."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💶 Die Maschine kostet 16.000 € zuzüglich 19 % Umsatzsteuer. Wie viel Euro Umsatzsteuer sind das? Tippe nur die Zahl ein.",
+        "answer": 3040,
+        "hint": "1 % von 16.000 € sind 160 €.\n19 % sind also 19 × 160 €.\nRechne: 10 × 160 = 1.600 und 9 × 160 = 1.440.",
+        "explanation": "1 % von 16.000 € sind 160 €. 19 × 160 € = 3.040 €. Die Umsatzsteuer beträgt also 3.040 €."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏷️ Die Maschine kostet 16.000 € zuzüglich 19 % Umsatzsteuer. Wie viel Euro kostet sie mit Umsatzsteuer? Tippe nur die Zahl ein.",
+        "answer": 19040,
+        "hint": "Rechne zuerst die Steuer aus: 19 % von 16.000 €.\nZähle die Steuer dann zu den 16.000 € dazu.",
+        "explanation": "Du rechnest 19 % von 16.000 € aus und zählst das Ergebnis zu den 16.000 € dazu. So kommst du auf 19.040 €. Kürzer geht es so: 16.000 € × 1,19 = 19.040 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Für Reparaturrücklagen werden 4 % angesetzt. Was ist eine Reparaturrücklage?",
+        "options": [
+          { "text": "Geld, das für spätere Reparaturen zur Seite gelegt wird.", "correct": true },
+          { "text": "Ein Rabatt, den der Händler beim Kauf vom Preis abzieht." },
+          { "text": "Die Steuer, die man beim Kauf der Maschine bezahlen muss." }
+        ],
+        "explanation": "Eine Rücklage ist gespartes Geld für später. Mit der Reparaturrücklage ist Geld da, wenn die Maschine einmal repariert werden muss."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💧 Wie viele Liter sind 1 m³ Wasser?",
+        "answer": 1000,
+        "hint": "Ein Kubikmeter ist ein Würfel: 1 m lang, 1 m breit, 1 m hoch.\nDa passen 10 × 10 × 10 Liter-Würfel hinein.",
+        "explanation": "1 m³ sind 1.000 Liter. Darum sind 209 Liter nur 0,209 m³."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Pro Waschgang braucht die Maschine 209 Liter Wasser und Abwasser. 1 m³ kostet 2,95 €. Wie viel kostet das Wasser pro Waschgang ungefähr?",
+        "options": [
+          { "text": "Rund 0,62 €.", "correct": true },
+          { "text": "Rund 6,17 €." },
+          { "text": "Rund 616,55 €." }
+        ],
+        "explanation": "Erst umrechnen: 209 Liter sind 0,209 m³. Dann 0,209 × 2,95 € = 0,62 €. Wer Liter und m³ nicht umrechnet, kommt auf über 600 €. Das kann für einen Waschgang nicht stimmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚡ Pro Waschgang braucht die Maschine 3,85 kWh Strom. 1 kWh kostet 0,32 €. Wie viel kostet der Strom pro Waschgang ungefähr?",
+        "options": [
+          { "text": "Rund 1,23 €.", "correct": true },
+          { "text": "Rund 12,32 €." },
+          { "text": "Rund 0,12 €." }
+        ],
+        "explanation": "Verbrauch mal Preis: 3,85 × 0,32 € = 1,232 €. Gerundet sind das 1,23 € pro Waschgang. Prüfe dein Ergebnis grob: knapp 4 kWh zu gut 30 Cent sind etwas mehr als 1 €."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧴 Pro kg Trockenwäsche brauchst du 35 g Waschmittel. Die Maschine wird mit 27 kg gefüllt. Wie viel Gramm Waschmittel brauchst du für einen Waschgang?",
+        "answer": 945,
+        "hint": "Rechne 35 × 27.\n35 × 20 = 700\n35 × 7 = 245\n700 + 245 = ?",
+        "explanation": "35 g × 27 = 945 g. Für eine volle Maschine brauchst du 945 g Waschmittel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💰 Eine 20-kg-Packung Waschmittel kostet 46,50 €. Das sind rund 2,33 € pro kg. Du brauchst 35 g je kg Wäsche, und die Maschine hat 27 kg. Wie viel kostet das Waschmittel pro Waschgang ungefähr?",
+        "options": [
+          { "text": "Rund 2,20 €.", "correct": true },
+          { "text": "Rund 0,08 €." },
+          { "text": "Rund 22,00 €." }
+        ],
+        "explanation": "Erst rechnest du die Menge für 27 kg Wäsche in Gramm aus und machst daraus Kilogramm. Das Ergebnis nimmst du mal 2,33 €. So kommst du auf rund 2,20 €. Wer die 27 kg vergisst, landet bei 0,08 €."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Eine andere Maschine braucht pro Waschgang Wasser für 0,45 €, Strom für 0,96 € und Waschmittel für 1,20 €. Wie viel kostet ein Waschgang zusammen? Tippe das Ergebnis in Cent ein.",
+        "answer": 261,
+        "hint": "Rechne alles in Cent: 45 + 96 + 120.\n45 + 96 = 141\n141 + 120 = ?",
+        "explanation": "45 + 96 + 120 = 261 Cent, also 2,61 €. Die Kosten pro Waschgang sind Wasser, Strom und Waschmittel zusammen. Für die Profi-Maschine aus dem Buch rechnest du genauso."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welche Kosten fallen bei jedem Waschgang an, welche nur einmal beim Kauf? Sortiere.",
+        "buckets": [
+          { "id": "waschgang", "label": "Bei jedem Waschgang", "icon": "🔁" },
+          { "id": "kauf", "label": "Einmal beim Kauf", "icon": "🛒" }
+        ],
+        "items": [
+          { "text": "Wasser und Abwasser", "bucket": "waschgang" },
+          { "text": "Strom", "bucket": "waschgang" },
+          { "text": "Waschmittel", "bucket": "waschgang" },
+          { "text": "Kaufpreis 16.000 €", "bucket": "kauf" },
+          { "text": "19 % Umsatzsteuer auf den Kaufpreis", "bucket": "kauf" }
+        ],
+        "explanation": "Frag dich: Wird das bei jeder Beschickung neu verbraucht? Dann fällt es bei jedem Waschgang an. Den Preis und die Steuer zahlst du nur einmal beim Kauf."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "✅ Die Maschine wird drei Mal täglich beschickt. Wie viele Waschgänge sind das in einer Woche mit 7 Tagen?",
+        "answer": 21,
+        "hint": "3 Waschgänge pro Tag.\n7 Tage.\n3 × 7 = ?",
+        "explanation": "3 × 7 = 21. In einer Woche mit 7 Tagen sind das 21 Waschgänge."
+      }
+    }
+  ]
+}

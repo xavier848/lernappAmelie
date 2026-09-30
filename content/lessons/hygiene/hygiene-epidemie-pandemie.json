@@ -1,0 +1,155 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-epidemie-pandemie",
+  "title": "Hygiene bei Epidemie und Pandemie",
+  "sort": 610,
+  "intro": "😷 Die Regeln der Lebensmittelhygiene und des Infektionsschutzgesetzes lernst du in der Ausbildung. Du setzt sie jeden Tag um. Auch Arbeitsschutz, Arbeitskleidung und Hygiene in Wäschepflege und Reinigung sind in den Betrieben meist gut organisiert.\n\nEs gibt aber besondere Situationen. Viren und Bakterien können Epidemien oder Pandemien auslösen. Beispiele sind Grippeviren, EHEC, Legionellen, Noroviren, das Coronavirus und multiresistente gramnegative Erreger, kurz MRGN. Dann braucht auch die Hauswirtschaft besondere Maßnahmen.\n\nMERKE: Eine Epidemie ist ein zeitlich und örtlich begrenztes, gehäuftes Auftreten einer ansteckenden Krankheit. Sie trifft viele Menschen, oft mit schweren Verläufen. Eine Pandemie geht noch weiter. Sie ist nicht auf eine Region begrenzt. Sie erstreckt sich über mehrere Länder und Kontinente. Und sie kann sehr lange dauern, auch mehrere Jahre.\n\nBei einer Epidemie oder Pandemie erhöhst du die normalen Hygienemaßnahmen deutlich. Denn es ist schwer zu erkennen, wer infiziert ist. Das liegt an den verschiedenen Inkubationszeiten. Die Inkubationszeit ist die Zeit zwischen der Ansteckung und dem Ausbruch der Krankheit. Bei Covid-19 sind es bis zu 14 Tage.\n\nDie Schutzkleidung passt du an die Arbeit an. Masken mit speziellem Filter, also FFP2 oder FFP3, sind nur bei intensiver Betreuung und Versorgung von Personen nötig.\n\nDu erstellst Kontaktlisten: wer, wo, wann, mit wem. So lässt sich eine Ansteckung nachverfolgen. Bewohner, Besucher und Mitarbeiter werden schriftlich und mündlich informiert, wie sie sich bei einer Infektion verhalten sollen.\n\nIn der Corona-Pandemie galt außerdem die AHA+L+A-Regel. A: Abstand halten, mindestens 1,50 m. H: Hygieneregeln beachten, besonders beim Niesen, Husten und Händewaschen. A: Alltagsmasken in den vorgeschriebenen Bereichen tragen. L: regelmäßig lüften. A: die Corona-Warn-App nutzen. Diese App ist seit 2023 abgeschaltet.\n\nMERKE: Je höher die Infektionsgefahr, desto intensiver die Schutzmaßnahmen.\n\nFür Notfälle hältst du einen Vorrat an Schutzkleidung bereit. Du prüfst regelmäßig, ob alles funktioniert. Alle Hygienekonzepte werden regelmäßig überprüft und dokumentiert. Auch für Extremsituationen, zum Beispiel eine Norovirus-Infektion oder die Covid-19-Pandemie, liegen aktuelle Unterlagen bereit. Und Hygieneschulungen sind ein Muss. Sie finden regelmäßig statt.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌍 Epidemie oder Pandemie? Sortiere.",
+        "buckets": [
+          { "id": "epi", "label": "Epidemie", "icon": "📍" },
+          { "id": "pan", "label": "Pandemie", "icon": "🌍" }
+        ],
+        "items": [
+          { "text": "Zeitlich und örtlich begrenzt", "bucket": "epi" },
+          { "text": "Gehäuft in einer bestimmten Gegend", "bucket": "epi" },
+          { "text": "Über mehrere Länder und Kontinente", "bucket": "pan" },
+          { "text": "Nicht auf eine Region begrenzt", "bucket": "pan" },
+          { "text": "Kann mehrere Jahre dauern", "bucket": "pan" }
+        ],
+        "explanation": "Frag dich: Bleibt die Krankheit an einem Ort und in einer bestimmten Zeit? Dann ist es eine Epidemie. Breitet sie sich über Länder und Kontinente aus und dauert sehr lange? Dann ist es eine Pandemie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Welche Erreger nennt das Fachbuch als Auslöser von Epidemien oder Pandemien?",
+        "options": [
+          { "text": "Grippeviren, EHEC, Legionellen und Noroviren.", "correct": true },
+          { "text": "Backhefe, Edelschimmel und Milchsäurebakterien." },
+          { "text": "Blütenpollen, Hausstaub und Tierhaare." }
+        ],
+        "explanation": "Das Fachbuch nennt Grippeviren, EHEC, Legionellen, Noroviren, das Coronavirus und multiresistente gramnegative Erreger, kurz MRGN. Backhefe und Edelschimmel sind dagegen nützliche Mikroorganismen. Pollen, Staub und Tierhaare lösen Allergien aus, aber keine Ansteckung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Was ist die Inkubationszeit?",
+        "options": [
+          { "text": "Die Zeit zwischen Ansteckung und Ausbruch der Krankheit.", "correct": true },
+          { "text": "Die Zeit, in der eine Impfung im ganzen Körper noch wirkt." },
+          { "text": "Die Zeit, die ein Kranker zu Hause bleiben muss." }
+        ],
+        "explanation": "In der Inkubationszeit ist jemand schon angesteckt, merkt aber noch nichts. Deshalb ist es so schwer zu erkennen, wer infiziert ist."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📆 Bis zu wie viele Tage kann die Inkubationszeit bei Covid-19 dauern? Tippe die Zahl.",
+        "answer": 14,
+        "hint": "Es sind genau zwei Wochen.",
+        "explanation": "Bei Covid-19 kann die Inkubationszeit bis zu 14 Tage dauern. So lange kann eine Ansteckung unbemerkt bleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😷 Wann sind Masken mit Spezialfilter, also FFP2 oder FFP3, nötig?",
+        "options": [
+          { "text": "Bei intensiver Betreuung und Versorgung von Personen.", "correct": true },
+          { "text": "Bei jeder Arbeit in der Küche, auch beim Abwaschen." },
+          { "text": "Nur beim Putzen der Fenster und Türen im ganzen Haus." }
+        ],
+        "explanation": "Die Schutzkleidung passt du an die Arbeitssituation an. FFP2- oder FFP3-Masken sind nur bei intensiver Betreuung und Versorgung von Personen notwendig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Wozu erstellst du bei einer Pandemie Kontaktlisten?",
+        "options": [
+          { "text": "Damit sich eine Ansteckung nachverfolgen lässt.", "correct": true },
+          { "text": "Damit alle Gäste Werbung vom Betrieb bekommen." },
+          { "text": "Damit die Zahl der Essen richtig berechnet wird." }
+        ],
+        "explanation": "Kontaktlisten zeigen: wer, wo, wann, mit wem. Wird jemand krank, kann man nachverfolgen, wen er angesteckt haben könnte."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔤 Die AHA+L+A-Regel aus der Corona-Pandemie. Bringe die Teile in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Abstand halten" },
+          { "text": "Hygieneregeln beachten" },
+          { "text": "Alltagsmaske tragen" },
+          { "text": "Lüften" },
+          { "text": "App nutzen" }
+        ],
+        "explanation": "Die Buchstaben verraten die Reihenfolge: A, H, A, dann L, dann noch einmal A. Sprich die Regel laut: A-H-A plus L plus A."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📏 Wie viel Abstand hieß es in der AHA-Regel mindestens? Tippe die Zahl in Zentimetern.",
+        "answer": 150,
+        "hint": "1 Meter sind 100 Zentimeter.\n1,50 Meter sind 100 + 50 Zentimeter.",
+        "explanation": "In der AHA-Regel hieß es: mindestens 1,50 m Abstand. Das sind 150 Zentimeter. Abstand hilft gegen Tröpfchen beim Niesen und Husten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📣 Wie informierst du Bewohner, Besucher und Mitarbeiter über das Verhalten bei einer Infektion?",
+        "options": [
+          { "text": "Schriftlich und mündlich.", "correct": true },
+          { "text": "Nur kurz im Vorbeigehen." },
+          { "text": "Gar nicht, das ist nicht nötig." }
+        ],
+        "explanation": "Alle werden schriftlich und mündlich informiert. So weiß jeder, wie er sich im Infektionsfall verhalten soll."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Was gilt für Schutzkleidung und Hygiene-Unterlagen?",
+        "options": [
+          { "text": "Vorrat immer wieder prüfen, Unterlagen aktuell halten.", "correct": true },
+          { "text": "Erst im Notfall besorgen und dann in Ruhe ausprobieren." },
+          { "text": "Einmal anlegen und danach nie wieder ansehen." }
+        ],
+        "explanation": "Für Notfälle gibt es einen Vorrat an Schutzkleidung. Er wird regelmäßig auf Funktionsfähigkeit geprüft. Konzepte und Unterlagen, auch für Extremsituationen wie Noroviren oder Covid-19, sind immer auf dem neuesten Stand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Was gilt für die Schutzmaßnahmen?",
+        "options": [
+          { "text": "Je höher die Infektionsgefahr, desto intensiver.", "correct": true },
+          { "text": "Sie sind immer genau gleich, egal was passiert." },
+          { "text": "Je mehr Personal, desto weniger Schutz ist nötig." }
+        ],
+        "explanation": "Das Fachbuch sagt: Je höher die Infektionsgefahr, desto intensiver die Schutzmaßnahmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎓 Wie oft finden Hygieneschulungen statt?",
+        "options": [
+          { "text": "Regelmäßig.", "correct": true },
+          { "text": "Nur einmal." },
+          { "text": "Gar nicht." }
+        ],
+        "explanation": "Hygieneschulungen sind ein Muss. Sie sollten regelmäßig durchgeführt werden."
+      }
+    }
+  ]
+}

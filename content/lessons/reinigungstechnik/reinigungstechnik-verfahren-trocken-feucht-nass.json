@@ -1,0 +1,149 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-verfahren-trocken-feucht-nass",
+  "title": "Reinigungsverfahren: trocken, feucht, nass",
+  "sort": 664,
+  "intro": "Reinigungsmethoden werden oft nach den Geräten und Maschinen benannt, die man dafür einsetzt. Welches Verfahren du nimmst, hängt von den baulichen Gegebenheiten und von den Vorgaben des Betriebs ab.\n\nTrockenreinigung durch Entstauben: Du entfernst lose aufliegenden, feinen Staub. Zum Beispiel von Möbeln, Polstermöbeln, Bildern, Wänden und Decken. Geräte: Staubtuch, Staubwedel (auch Wandbesen genannt), Staubpinsel oder Staubsauger. Dabei wird unterschiedlich viel Staub aufgewirbelt. Deshalb kann man Entstauben nicht überall einsetzen. Man macht es vorwiegend im Privathaushalt.\n\nTrockenreinigung durch Kehren: Du entfernst lose aufliegenden Schmutz wie Staub, Zigarettenkippen, Papierschnipsel oder Blätter. Das machst du auf Böden ohne Textil, im Keller, auf der Straße, im Lager, im Eingang und auf dem Hof. Geräte: Besen, Handfeger, Kehrschaufel, Kehrmaschine oder Kehrsaugmaschine.\n\nTrockenreinigung durch Staubsaugen: Du entfernst lose aufliegenden Schmutz wie Staub und Flusen. Zum Beispiel von Teppichen, Teppichböden, glatten Böden, Möbeln, Matratzen, Polstermöbeln und Gardinen. Der Staubsauger hat Zubehör wie die Fugendüse und die Polsterdüse.\n\nFeuchtwischen: für alle glatten Fußböden, zum Beispiel Stein, Holz, Kork, Linoleum, PVC, Fliesen, Laminat und Parkett. Geräte: Feucht- oder Breitwischgerät, Mopphalter, Wischbezüge, Einwegtücher mit Staubbindemittel oder Mikrofasertücher. Feuchtwischen ist die umweltverträglichste Methode für lose aufliegenden Schmutz. Du wischst nebelfeucht und ohne Chemie. Die körperliche Belastung ist gering. Aber: Bei viel Schmutz oder fest haftendem Schmutz reicht Feuchtwischen nicht. Achtung: Auf geöltem oder gewachstem Holz nimmst du keine Mikrofaser.\n\nNasswischen, einstufig: Es reinigt besser als Feuchtwischen und löst auch starken, fest haftenden Schmutz. Du löst den Schmutz und nimmst die Schmutzflotte in einem einzigen Arbeitsgang auf. Deshalb ist es nicht für stark verschmutzte Flächen geeignet. Es passt für glatte Böden und für Möbel, die Feuchtigkeit vertragen.\n\nNasswischen, zweistufig: für glatte Böden, die Feuchtigkeit vertragen. Du arbeitest in zwei Arbeitsgängen nach dem Zwei-Bezugs-Verfahren: 1. Du bringst die Reinigungslösung aus. 2. Du holst das Schmutzwasser, also die Flotte, wieder ein.\n\nMERKE: Trocken und feucht reinigst du losen Schmutz. Nass reinigst du fest haftenden Schmutz.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Verfahren heißen zum Beispiel „Staubsaugen“ oder „Kehren“. Wonach werden Reinigungsmethoden oft benannt?",
+        "options": [
+          { "text": "Nach den Geräten und Maschinen, die man einsetzt.", "correct": true },
+          { "text": "Nach der Tageszeit, zu der man sie durchführt." },
+          { "text": "Nach der Person, die die Methode erfunden hat." },
+          { "text": "Nach dem Raum, in dem man sie am meisten braucht." }
+        ],
+        "explanation": "Reinigungsmethoden werden häufig nach dem Einsatz der Geräte und Maschinen bezeichnet. Wer den Namen kennt, weiß oft schon, womit gearbeitet wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Wovon hängt es ab, welches Reinigungsverfahren ein Betrieb einsetzt?",
+        "options": [
+          { "text": "Von den baulichen Gegebenheiten und den Vorgaben des Betriebs.", "correct": true },
+          { "text": "Nur davon, welches Gerät gerade am neuesten ist." },
+          { "text": "Nur davon, was die Reinigungskraft am liebsten und am schnellsten macht." },
+          { "text": "Nur davon, wie viele Gäste gerade im Haus sind." }
+        ],
+        "explanation": "Die Verfahren hängen von den baulichen Gegebenheiten ab, zum Beispiel vom Bodenbelag und der Größe der Flächen. Und sie hängen von den Vorgaben des Betriebs ab."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧰 Welches Gerät gehört zu welchem Verfahren? Sortiere.",
+        "buckets": [
+          { "id": "staub", "label": "Entstauben", "icon": "🪶" },
+          { "id": "kehren", "label": "Kehren", "icon": "🧹" },
+          { "id": "feucht", "label": "Feuchtwischen", "icon": "🧽" }
+        ],
+        "items": [
+          { "text": "Staubwedel (Wandbesen)", "bucket": "staub" },
+          { "text": "Staubpinsel", "bucket": "staub" },
+          { "text": "Staubtuch", "bucket": "staub" },
+          { "text": "Kehrmaschine", "bucket": "kehren" },
+          { "text": "Kehrsaugmaschine", "bucket": "kehren" },
+          { "text": "Handfeger und Kehrschaufel", "bucket": "kehren" },
+          { "text": "Breitwischgerät", "bucket": "feucht" },
+          { "text": "Einwegtücher mit Staubbindemittel", "bucket": "feucht" }
+        ],
+        "explanation": "Frag dich: Wo liegt der Schmutz, und wie kommt er weg? Staub auf Möbeln, Bildern oder Wänden nimmt man beim Entstauben auf. Loser Schmutz auf dem Boden wird gekehrt. Auf glatten Böden wischst du feucht mit dem Wischgerät. Achtung: Die Einwegtücher mit Staubbindemittel kommen auf das Wischgerät. Sie gehören zum Feuchtwischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍂 Auf dem Hof liegen Blätter, Papierschnipsel und Zigarettenkippen. Welches Verfahren passt?",
+        "options": [
+          { "text": "Kehren.", "correct": true },
+          { "text": "Entstauben." },
+          { "text": "Feuchtwischen." },
+          { "text": "Nasswischen." }
+        ],
+        "explanation": "Kehren entfernt lose aufliegenden Schmutz wie Staub, Kippen, Papierschnipsel oder Blätter. Es passt für Hof, Straße, Keller, Lager und Eingang."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌿 Was stimmt über das Feuchtwischen?",
+        "options": [
+          { "text": "Es ist umweltverträglich, braucht keine Chemie und belastet wenig.", "correct": true },
+          { "text": "Es löst fest haftenden Schmutz besser als jedes Nasswischen." },
+          { "text": "Es braucht viel Reinigungsmittel und einen ganz vollen Eimer Wasser." },
+          { "text": "Es eignet sich nur für Teppichböden und textile Beläge." }
+        ],
+        "explanation": "Feuchtwischen ist die umweltverträglichste Methode für lose aufliegenden Schmutz. Du wischst nebelfeucht, ohne Chemie, und die körperliche Belastung ist gering."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧃 Auf den Fliesen klebt eingetrockneter Saft. Er haftet fest. Reicht Feuchtwischen? Und was tust du?",
+        "options": [
+          { "text": "Nein. Dann wischst du nass.", "correct": true },
+          { "text": "Ja, Feuchtwischen löst jeden Schmutz." },
+          { "text": "Ja, wenn du nur fester aufdrückst." },
+          { "text": "Nein. Dann saugst du ihn mit dem Staubsauger." }
+        ],
+        "explanation": "Für viel Schmutz oder fest haftenden Schmutz reicht Feuchtwischen nicht. Nasswischen löst auch starken, fest haftenden Schmutz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "1️⃣ Warum ist einstufiges Nasswischen nicht für stark verschmutzte Flächen geeignet?",
+        "options": [
+          { "text": "Schmutz lösen und Flotte aufnehmen passiert in einem Arbeitsgang.", "correct": true },
+          { "text": "Es braucht viel mehr Wasser, als der Boden verträgt." },
+          { "text": "Es reinigt viel schwächer als das Feuchtwischen mit Einwegtüchern." },
+          { "text": "Es funktioniert nur mit einer großen Scheuersaugmaschine." }
+        ],
+        "explanation": "Beim einstufigen Nasswischen löst du den Schmutz und nimmst die Schmutzflotte im selben Arbeitsgang auf. Bei starker Verschmutzung bleibt dafür zu wenig Zeit zum Lösen. Dann wischst du zweistufig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "2️⃣ Wie arbeitest du beim zweistufigen Nasswischen, dem Zwei-Bezugs-Verfahren?",
+        "options": [
+          { "text": "Erst die Reinigungslösung ausbringen, dann das Schmutzwasser einholen.", "correct": true },
+          { "text": "Erst das Schmutzwasser einholen, dann die Reinigungslösung ausbringen." },
+          { "text": "Lösung ausbringen und einholen in einem Arbeitsgang mit einem Bezug." },
+          { "text": "Zwei Reinigungskräfte wischen gleichzeitig mit zwei Mopps nebeneinander." }
+        ],
+        "explanation": "Zweistufig heißt: zwei Arbeitsgänge. Mit dem ersten Bezug bringst du die Reinigungslösung aus. Mit dem zweiten Bezug holst du das Schmutzwasser, die Flotte, wieder ein."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Verfahren hat welche Besonderheit? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Entstauben"}, "right": {"text": "Wirbelt Staub auf, vor allem im Privathaushalt"} },
+          { "left": {"text": "Kehren"}, "right": {"text": "Für Böden ohne Textil, auch Hof und Straße"} },
+          { "left": {"text": "Staubsaugen"}, "right": {"text": "Mit Fugendüse und Polsterdüse"} },
+          { "left": {"text": "Feuchtwischen"}, "right": {"text": "Nebelfeucht und ohne Chemie"} },
+          { "left": {"text": "Nasswischen, einstufig"}, "right": {"text": "Lösen und Aufnehmen in einem Gang"} },
+          { "left": {"text": "Nasswischen, zweistufig"}, "right": {"text": "Zwei-Bezugs-Verfahren"} }
+        ],
+        "explanation": "Frag dich bei jedem Verfahren: Ist es trocken, feucht oder nass? Und wie viele Arbeitsgänge hat es? Die trockenen Verfahren nehmen losen Schmutz auf. Die nassen lösen auch fest haftenden Schmutz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Zum Schluss etwas Leichtes: Die Matratze ist staubig. Womit reinigst du sie?",
+        "options": [
+          { "text": "Mit dem Staubsauger und der Polsterdüse.", "correct": true },
+          { "text": "Mit dem Nasswischgerät und sehr viel Wasser." },
+          { "text": "Mit dem Besen und der Kehrschaufel." }
+        ],
+        "explanation": "Staubsaugen entfernt Staub und Flusen, auch von Matratzen, Polstermöbeln und Gardinen. Für Polster gibt es die Polsterdüse."
+      }
+    }
+  ]
+}

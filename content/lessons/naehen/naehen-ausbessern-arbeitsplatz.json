@@ -1,0 +1,147 @@
+{
+  "topic_slug": "naehen",
+  "slug": "naehen-ausbessern-arbeitsplatz",
+  "title": "Ausbessern: Regeln und Arbeitsplatz",
+  "sort": 540,
+  "intro": "Wäsche und Kleidung muss man manchmal instand halten. Instand halten heißt: ausbessern und reparieren, damit etwas lange hält.\n\nDas ist nötig bei Beschädigungen, zum Beispiel bei Rissen, Löchern oder offenen Nähten. Es ist nötig bei Verschleiß. Verschleiß heißt: Der Stoff ist abgenutzt und hat dünne Stellen.\n\nEs ist auch nötig, wenn die Passform nicht mehr stimmt, also wenn etwas zu eng, zu klein oder zu weit ist. Und wenn sich die Mode ändert, das Stück aber zu schade zum Wegwerfen ist.\n\nAufwand und Kosten müssen in einem angemessenen Verhältnis stehen. Ob sich die Arbeit lohnt, hängt ab von: Preis und Wert des Stückes, Stoffqualität, Größe und Art des Schadens und Gesamtzustand des Stückes.\n\nWichtig ist auch: Kannst du die Arbeit selbst machen, oder muss eine Vergabe stattfinden? Vergabe heißt: Eine andere Firma macht die Arbeit, zum Beispiel eine Schneiderei.\n\nEs gibt drei Regeln zur Instandhaltung. Erstens: Je früher du einen Schaden reparierst, desto kleiner ist er und desto einfacher geht es. Zweitens: Mach die Reparatur nicht zu klein. Sonst reißt die Stelle wieder auf oder aus.\n\nDrittens: Trennst du eine Naht auf, darf der Stoff nicht beschädigt werden, weder vom Trenner noch von der Schere. Das gilt zum Beispiel, wenn du einen Aufhänger einsetzt. Ein Trenner ist ein kleines Werkzeug zum Auftrennen von Nähten.\n\nSo sieht ein guter Näharbeitsplatz aus: Bügelbrett und Bügeleisen stehen in der Nähe. Das Licht kommt von vorne oder von links.\n\nGegen frühe Müdigkeit und Rückenschmerzen brauchst du einen Bürostuhl. Die Sitzhöhe ist verstellbar, die Rückenlehne auch. Der Tisch hat eine Arbeitshöhe von etwa 75 cm.\n\nRechts neben der Nähmaschine liegt in Reichweite alles, was du oft brauchst: zum Beispiel Schere, Trenner und Stecknadeln. Faden- und Stoffreste sammelst du in einem Abfallschälchen oder Mülleimer.\n\nMERKE: Früh reparieren, nicht zu klein reparieren, beim Auftrennen den Stoff schonen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧵 Warum muss das Stück ausgebessert werden? Sortiere.",
+        "buckets": [
+          { "id": "schaden", "label": "Beschädigung", "icon": "💥" },
+          { "id": "verschleiss", "label": "Verschleiß", "icon": "🕳️" },
+          { "id": "passform", "label": "Passform", "icon": "📏" }
+        ],
+        "items": [
+          { "text": "Riss im Ärmel", "bucket": "schaden" },
+          { "text": "Offene Naht", "bucket": "schaden" },
+          { "text": "Loch nach einem Sturz", "bucket": "schaden" },
+          { "text": "Dünne Stelle am Knie", "bucket": "verschleiss" },
+          { "text": "Dünne Stelle am Ellenbogen", "bucket": "verschleiss" },
+          { "text": "Hose ist zu eng", "bucket": "passform" },
+          { "text": "Rock ist zu weit", "bucket": "passform" },
+          { "text": "Bluse ist zu klein", "bucket": "passform" }
+        ],
+        "explanation": "Frag dich: Ist plötzlich etwas kaputtgegangen? Das ist eine Beschädigung. Ist der Stoff mit der Zeit dünn geworden? Das ist Verschleiß. Passt das Stück nicht mehr zum Körper? Dann stimmt die Passform nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👗 Ein Kleid ist noch heil, aber nicht mehr modern. Es ist zu schade zum Wegwerfen. Ist das ein Anlass zum Ändern?",
+        "options": [
+          { "text": "Ja, eine geänderte Mode ist laut Buch auch ein Anlass.", "correct": true },
+          { "text": "Nein, instand halten darf man nur kaputte Stücke." },
+          { "text": "Nein, unmoderne Kleidung kommt immer in den Altkleidersack." }
+        ],
+        "explanation": "Laut Buch ist auch das ein Anlass: Die Mode ändert sich, und das Stück ist zu schade zum Wegwerfen. Dann lohnt es sich oft, es umzuarbeiten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💶 Lohnt sich die Reparatur? Welcher Punkt ist hier wichtig? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Ein teures, wertvolles Kleid"}, "right": {"text": "Preis und Wert des Stückes"} },
+          { "left": {"text": "Der Stoff ist brüchig und schlecht"}, "right": {"text": "Stoffqualität"} },
+          { "left": {"text": "Ein riesiges Loch, alles ist abgenutzt"}, "right": {"text": "Größe des Schadens und Gesamtzustand"} },
+          { "left": {"text": "Du kannst das nicht selbst nähen"}, "right": {"text": "Selbst machen oder Vergabe"} }
+        ],
+        "memory": false,
+        "explanation": "Aufwand und Kosten müssen zum Stück passen. Frag dich: Was ist es wert? Wie gut ist der Stoff? Wie groß ist der Schaden? Und kannst du es selbst, oder muss eine andere Firma ran?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ An der Hose ist ein kleiner Riss. Wann reparierst du ihn?",
+        "options": [
+          { "text": "Möglichst früh, dann ist der Schaden klein und leicht zu beheben.", "correct": true },
+          { "text": "Erst wenn der Riss größer ist, denn dann lohnt sich die Arbeit mehr." },
+          { "text": "Erst nach der nächsten Wäsche, dann ist der Stoff weicher." }
+        ],
+        "explanation": "Regel: Je früher du einen Schaden reparierst, desto kleiner ist er. Und desto einfacher lässt er sich beseitigen. Warten macht den Schaden nur größer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Warum machst du eine Reparatur nicht zu klein?",
+        "options": [
+          { "text": "Sonst reißt die Stelle wieder auf oder aus.", "correct": true },
+          { "text": "Sonst sieht man die Reparatur viel zu deutlich." },
+          { "text": "Sonst brauchst du am Ende viel zu viel Garn." }
+        ],
+        "explanation": "Ist die Reparatur zu klein, hält sie nicht. Die Stelle reißt wieder auf oder aus. Darum reparierst du lieber etwas großzügiger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✂️ Du trennst eine Naht auf, um einen Aufhänger einzusetzen. Worauf achtest du?",
+        "options": [
+          { "text": "Trenner und Schere dürfen den Stoff nicht beschädigen.", "correct": true },
+          { "text": "Die Naht muss so schnell wie möglich offen sein." },
+          { "text": "Du trennst immer die ganze Naht bis zum Ende auf." }
+        ],
+        "explanation": "Beim Auftrennen einer Naht darf der Stoff nicht beschädigt werden. Weder der Trenner noch die Schere dürfen in den Stoff schneiden. Sonst hast du ein neues Loch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🪑 Ist der Näharbeitsplatz gut eingerichtet? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gut eingerichtet", "icon": "✅" },
+          { "id": "schlecht", "label": "Besser ändern", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Licht kommt von vorne", "bucket": "gut" },
+          { "text": "Bügeleisen steht in der Nähe", "bucket": "gut" },
+          { "text": "Stuhl mit verstellbarer Rückenlehne", "bucket": "gut" },
+          { "text": "Schere liegt rechts neben der Maschine", "bucket": "gut" },
+          { "text": "Licht kommt von rechts", "bucket": "schlecht" },
+          { "text": "Hocker ohne Lehne", "bucket": "schlecht" },
+          { "text": "Schere liegt im Nebenraum", "bucket": "schlecht" },
+          { "text": "Fadenreste liegen auf dem Boden", "bucket": "schlecht" }
+        ],
+        "explanation": "Die Regeln: Licht von vorne oder von links. Bügelbrett und Bügeleisen in der Nähe. Ein verstellbarer Bürostuhl. Nähsachen rechts in Reichweite. Und Reste liegen nicht herum."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📐 Wie hoch ist ein guter Nähtisch ungefähr? Tippe die Zahl in Zentimetern ein.",
+        "answer": 75,
+        "hint": "Denk an einen normalen Esstisch.\nDie Zahl liegt zwischen 70 und 80.",
+        "explanation": "Ein Nähtisch hat eine Arbeitshöhe von etwa 75 cm. Zusammen mit einem verstellbaren Stuhl schützt das vor Rückenschmerzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪑 Warum brauchst du beim Nähen einen Bürostuhl mit verstellbarer Sitzhöhe und Rückenlehne?",
+        "options": [
+          { "text": "Gegen frühe Müdigkeit und Rückenschmerzen.", "correct": true },
+          { "text": "Damit du schneller nähen kannst als im Stehen." },
+          { "text": "Damit der Stoff nicht vom Tisch rutschen kann." }
+        ],
+        "explanation": "Ein gut eingestellter Stuhl beugt vorzeitiger Ermüdung und Rückenschmerzen vor. Du sitzt gerade und kannst länger konzentriert arbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Wohin kommen Faden- und Stoffreste beim Nähen?",
+        "options": [
+          { "text": "In ein kleines Abfallschälchen oder einen Mülleimer.", "correct": true },
+          { "text": "In die Schublade zu den Stecknadeln und Nähnadeln." },
+          { "text": "Einfach neben die Nähmaschine auf den Nähtisch legen." }
+        ],
+        "explanation": "Faden- und Stoffreste sammelst du in einem Abfallschälchen oder Mülleimer. So bleibt der Arbeitsplatz sauber und übersichtlich."
+      }
+    }
+  ]
+}

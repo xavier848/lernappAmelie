@@ -1,0 +1,138 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-kuehlgeraete-technik",
+  "title": "Kühlgeräte: Bauformen und Kühltechnik",
+  "sort": 590,
+  "intro": "❄️ Lebensmittel verderben nach einer bestimmten Zeit. Tiefe Temperaturen, also Kühlen, verlangsamen den Verderb. Deshalb ist Kühlen ein wirksames Verfahren zum Haltbarmachen. Für kurze oder längere Lagerung gibt es Kühlgeräte, Gefrierschränke und Kühl-Gefrier-Kombinationen.\n\nBauformen: Standgeräte stellst du frei auf. Der Türanschlag ist die Seite, an der die Tür befestigt ist. Bei den meisten Geräten kann man ihn rechts oder links montieren. Oder man kann ihn später wechseln. Bei manchen Standgeräten kann man die Arbeitsplatte abnehmen. Dann sind sie unterbaufähig. Mit Dekorplatten oder Dekorrahmen passt man sie an die Küchenmöbel an. Unterbaugeräte schiebst du unter die Arbeitsfläche einer Küchenzeile. Ihnen fehlt deshalb die Arbeitsplatte. Einbaugeräte werden in die Küchenschränke eingebaut.\n\nMERKE: Kälte erzeugen heißt Wärme entziehen.\n\nKompressionskühlung: Ein flüssiges Kältemittel verdampft im Verdampfer. Dabei entzieht es dem Innenraum und den Lebensmitteln Wärme. Der Kältemitteldampf wird im Kompressor zusammengepresst. Der Kompressor heißt auch Verdichter. Im Kondensator wird der Dampf wieder flüssig. Der Kondensator heißt auch Verflüssiger. Die Wärme, die dabei entsteht, gibt er über Kühlrippen an die Umgebung ab. Das flüssige Kältemittel fließt über das Drosselorgan zurück in den Verdampfer. Dann beginnt alles von vorne. Der Verdampfer ist also der Kälteerzeuger.\n\nAbsorberkühlung: Sie wird für bestimmte Geräte genutzt, zum Beispiel für die Minibar im Hotel oder für Weinklimaschränke. Sie ist sehr leise und vibrationslos. Sie braucht aber drei- bis viermal so viel Strom wie die Kompressionskühlung. Sie arbeitet mit einem Kocher und einem Heizwiderstand. Das Kältemittel ist Ammoniak. Der Kocher macht aus einer Ammoniak-Wasser-Lösung gasförmiges Ammoniak.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Warum kühlt man Lebensmittel?",
+        "options": [
+          { "text": "Kühlen verlangsamt den Verderb.", "correct": true },
+          { "text": "Kühlen tötet alle Keime sicher ab." },
+          { "text": "Kühlen macht Lebensmittel für immer haltbar." }
+        ],
+        "explanation": "Tiefe Temperaturen verlangsamen die Verderbprozesse. Keime sterben dabei aber nicht ab, und ewig haltbar wird nichts."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏗️ Bauformen von Kühlgeräten. Verbinde.",
+        "explanation": "Frag dich: Steht das Gerät allein, steht es unter einer Arbeitsfläche, oder steckt es im Schrank? Danach richtet sich die Bauform.",
+        "pairs": [
+          { "left": {"text": "🧍 Standgerät"}, "right": {"text": "Frei aufstellbar, oft mit Arbeitsplatte"} },
+          { "left": {"text": "⬇️ Unterbaugerät"}, "right": {"text": "Ohne Arbeitsplatte, unter der Arbeitsfläche"} },
+          { "left": {"text": "🗄️ Einbaugerät"}, "right": {"text": "In die Küchenschränke eingebaut"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Was gilt bei den meisten Standgeräten für den Türanschlag?",
+        "options": [
+          { "text": "Er lässt sich rechts oder links montieren oder wechseln.", "correct": true },
+          { "text": "Er ist immer rechts und lässt sich nicht ändern." },
+          { "text": "Er ist immer oben, die Tür klappt nach oben auf." }
+        ],
+        "explanation": "Bei den meisten Geräten kann man den Türanschlag rechts oder links montieren oder später wechseln. So passt das Gerät in jede Küche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔧 Wann wird ein Standgerät unterbaufähig?",
+        "options": [
+          { "text": "Wenn man seine Arbeitsplatte abnehmen kann", "correct": true },
+          { "text": "Wenn man die Tür ganz vom Gerät abschrauben kann" },
+          { "text": "Wenn man Dekorplatten an der Tür anbringt" }
+        ],
+        "explanation": "Bei manchen Herstellern lässt sich die Arbeitsplatte abnehmen. Dann passt das Standgerät unter eine Arbeitsfläche, es ist unterbaufähig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Was bedeutet: Kälte erzeugen?",
+        "options": [
+          { "text": "Wärme entziehen", "correct": true },
+          { "text": "Kälte hineinblasen" },
+          { "text": "Eiswürfel herstellen" }
+        ],
+        "explanation": "Ein Kühlgerät bläst keine Kälte hinein. Es entzieht dem Innenraum und den Lebensmitteln Wärme. Das macht das Kältemittel, wenn es im Verdampfer verdampft."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔄 Kompressionskühlung: Der Kreislauf beginnt im Verdampfer. Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Frag dich bei jedem Schritt: Ist das Kältemittel gerade flüssig oder gasförmig? Im Verdampfer wird aus der Flüssigkeit Dampf. Nur Dampf lässt sich zusammenpressen. Der gepresste Dampf wird im Kondensator wieder flüssig und kann zurückfließen.",
+        "steps": [
+          { "text": "Im Verdampfer verdampft das flüssige Kältemittel und entzieht Wärme." },
+          { "text": "Der Kompressor presst den Kältemitteldampf zusammen." },
+          { "text": "Im Kondensator wird es flüssig und gibt Wärme über die Kühlrippen ab." },
+          { "text": "Über das Drosselorgan fließt es zurück in den Verdampfer." }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Zwei Namen für ein Bauteil. Verbinde.",
+        "explanation": "Die Namen verraten die Aufgabe: Der Verdichter presst zusammen. Der Verflüssiger macht den Dampf wieder flüssig. Im Verdampfer entsteht die Kälte.",
+        "pairs": [
+          { "left": {"text": "Kompressor"}, "right": {"text": "Verdichter"} },
+          { "left": {"text": "Kondensator"}, "right": {"text": "Verflüssiger"} },
+          { "left": {"text": "Verdampfer"}, "right": {"text": "Kälteerzeuger"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏨 Wo wird die Absorberkühlung eingesetzt?",
+        "options": [
+          { "text": "In der Minibar im Hotel und in Weinklimaschränken", "correct": true },
+          { "text": "In großen Gefriertruhen unten im Keller des Hauses" },
+          { "text": "In jedem ganz normalen Kühlschrank zu Hause" }
+        ],
+        "explanation": "Die Absorberkühlung wird gezielt für bestimmte Geräte eingesetzt, zum Beispiel für die Minibar im Hotel oder für Weinklimaschränke. Dort zählt, dass sie leise ist."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Absorberkühlung oder Kompressionskühlung? Sortiere.",
+        "explanation": "Frag dich: Leise, mit Kocher und Ammoniak, aber viel Strom? Das ist die Absorberkühlung. Mit Kompressor, Kondensator und Kühlrippen und sparsamer? Das ist die Kompressionskühlung.",
+        "buckets": [
+          { "id": "abs", "label": "Absorberkühlung", "icon": "🔇" },
+          { "id": "kom", "label": "Kompressionskühlung", "icon": "🔄" }
+        ],
+        "items": [
+          { "text": "Sehr leise und vibrationslos", "bucket": "abs" },
+          { "text": "Drei- bis viermal so viel Strom", "bucket": "abs" },
+          { "text": "Kältemittel ist Ammoniak", "bucket": "abs" },
+          { "text": "Arbeitet mit einem Kocher", "bucket": "abs" },
+          { "text": "Hat einen Kompressor", "bucket": "kom" },
+          { "text": "Gibt Wärme über Kühlrippen ab", "bucket": "kom" },
+          { "text": "Braucht weniger Strom", "bucket": "kom" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Geräte gibt es zum Kühlen und Gefrieren?",
+        "options": [
+          { "text": "Kühlgeräte, Gefrierschränke und Kühl-Gefrier-Kombinationen", "correct": true },
+          { "text": "Kühlgeräte, Backöfen und Dampfgarer mit eigener Kühlfunktion" },
+          { "text": "Gefrierschränke, Mikrowellen und Fritteusen mit Kühlfach" }
+        ],
+        "explanation": "Für die kurz- oder längerfristige Lagerung gibt es Kühlgeräte, Gefrierschränke und Kühl-Gefrier-Kombinationen."
+      }
+    }
+  ]
+}

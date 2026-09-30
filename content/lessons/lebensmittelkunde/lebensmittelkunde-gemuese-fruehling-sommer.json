@@ -1,0 +1,135 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-gemuese-fruehling-sommer",
+  "title": "Gemüse-Saison: Frühling und Sommer",
+  "sort": 701,
+  "intro": "Auch für Gemüse gibt es einen Saisonkalender. Er zeigt, wann Gemüse bei uns frisch vom Feld kommt. In dieser Lektion geht es um Gemüse, Salate und Kräuter aus Frühling und Sommer.\n\nFrüh im Jahr beginnen die Kräuter. Schnittlauch gibt es von März bis November. Petersilie gibt es von April bis November. Dill gibt es von Mai bis September. Frühlingszwiebeln gibt es von April bis August.\n\nSpargel hat nur eine kurze Saison: im Mai und Juni. Radieschen gibt es von Mai bis Oktober. Spinat hat zweimal im Jahr Saison: von März bis Juni und noch einmal von September bis November.\n\nKopfsalat und Eisbergsalat gibt es von Mai bis Oktober. Bataviasalat und Eichblattsalat gibt es von Mai bis September. Endiviensalat beginnt erst im Juni und geht bis Oktober.\n\nIm Sommer kommen die Erbsen, von Juni bis August. Blumenkohl und Brokkoli gibt es von Juni bis Oktober. Erst im August beginnen Fenchel und Mais. Sie gibt es von August bis Oktober.\n\nMERKE: Spargel gibt es nur im Mai und Juni. Die Sommersalate beginnen im Mai, nur der Endiviensalat im Juni. Fenchel und Mais kommen erst ab August.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥢 Spargel hat nur eine kurze Saison. Wann gibt es ihn frisch aus Deutschland?",
+        "options": [
+          { "text": "Im Mai und Juni.", "correct": true },
+          { "text": "Von März bis Mai." },
+          { "text": "Von Juni bis August." },
+          { "text": "Von Juli bis September." }
+        ],
+        "explanation": "Spargel hat laut Saisonkalender nur im Mai und Juni Saison. Das ist die kürzeste Gemüse-Saison im ganzen Kalender."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Wann beginnt die Saison? Sortiere Salat und Gemüse.",
+        "buckets": [
+          { "id": "frueh", "label": "Beginnt im Frühling (im Mai)", "icon": "🌷" },
+          { "id": "sommer", "label": "Beginnt im Sommer (Juni bis August)", "icon": "☀️" }
+        ],
+        "items": [
+          { "text": "Kopfsalat", "bucket": "frueh" },
+          { "text": "Eisbergsalat", "bucket": "frueh" },
+          { "text": "Bataviasalat", "bucket": "frueh" },
+          { "text": "Eichblattsalat", "bucket": "frueh" },
+          { "text": "Endiviensalat", "bucket": "sommer" },
+          { "text": "Brokkoli", "bucket": "sommer" },
+          { "text": "Fenchel", "bucket": "sommer" },
+          { "text": "Mais", "bucket": "sommer" }
+        ],
+        "explanation": "Frag dich: In welchem Monat beginnt die Saison? Mai zählt hier zum Frühling. Juni, Juli und August zählen zum Sommer. Achtung: Nicht alle Salate beginnen gleichzeitig."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌿 Kräuter und frühes Gemüse: Wann gibt es sie frisch? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Schnittlauch"}, "right": {"text": "März bis November"} },
+          { "left": {"text": "Petersilie"}, "right": {"text": "April bis November"} },
+          { "left": {"text": "Dill"}, "right": {"text": "Mai bis September"} },
+          { "left": {"text": "Frühlingszwiebeln"}, "right": {"text": "April bis August"} },
+          { "left": {"text": "Erbsen"}, "right": {"text": "Juni bis August"} },
+          { "left": {"text": "Radieschen"}, "right": {"text": "Mai bis Oktober"} }
+        ],
+        "memory": false,
+        "explanation": "Achte zuerst auf den Anfang: Schnittlauch ist schon im März da. Petersilie und Frühlingszwiebeln kommen im April, Dill und Radieschen im Mai, Erbsen erst im Juni. Dann auf das Ende: Schnittlauch und Petersilie halten bis November durch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Spinat hat zweimal im Jahr Saison. In welchen Monaten gibt es dazwischen keinen frischen Spinat?",
+        "options": [
+          { "text": "Im Juli und August.", "correct": true },
+          { "text": "Im April und Mai." },
+          { "text": "Im September und Oktober." },
+          { "text": "Im März und Juni." }
+        ],
+        "explanation": "Spinat gibt es frisch von März bis Juni und dann wieder von September bis November. Im Hochsommer, im Juli und August, macht er Pause. Im Winter gibt es auch keinen frischen Spinat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Wann haben Blumenkohl und Brokkoli bei uns Saison?",
+        "options": [
+          { "text": "Von Juni bis Oktober.", "correct": true },
+          { "text": "Von März bis Mai." },
+          { "text": "Von November bis Februar." },
+          { "text": "Nur im August." }
+        ],
+        "explanation": "Blumenkohl und Brokkoli gibt es frisch von Juni bis Oktober. Im Winter und im Frühling kommen sie nicht frisch vom Feld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌽 Mais und Fenchel kommen spät im Sommer. Ab welchem Monat gibt es sie frisch?",
+        "options": [
+          { "text": "Ab August.", "correct": true },
+          { "text": "Ab Mai." },
+          { "text": "Ab Juni." },
+          { "text": "Ab Oktober." }
+        ],
+        "explanation": "Mais und Fenchel gibt es frisch von August bis Oktober. Sie beginnen also erst im Spätsommer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥬 Kopfsalat oder Bataviasalat: Welcher Salat reicht länger, bis in den Oktober?",
+        "options": [
+          { "text": "Der Kopfsalat.", "correct": true },
+          { "text": "Der Bataviasalat." },
+          { "text": "Keiner, beide enden im August." }
+        ],
+        "explanation": "Beide beginnen im Mai. Kopfsalat und Eisbergsalat gibt es bis Oktober. Bataviasalat und Eichblattsalat gibt es nur bis September. Sie enden also einen Monat früher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Es ist April. Du willst Zutaten frisch aus der Region. Was bekommst du schon?",
+        "options": [
+          { "text": "Schnittlauch und Frühlingszwiebeln.", "correct": true },
+          { "text": "Kopfsalat und Radieschen." },
+          { "text": "Erbsen und Brokkoli." },
+          { "text": "Fenchel und Mais." }
+        ],
+        "explanation": "Schnittlauch gibt es ab März, Frühlingszwiebeln ab April. Kopfsalat und Radieschen beginnen erst im Mai. Erbsen und Brokkoli kommen ab Juni, Fenchel und Mais erst ab August."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welches Gemüse passt im Mai frisch auf den Teller?",
+        "options": [
+          { "text": "Spargel.", "correct": true },
+          { "text": "Grünkohl." },
+          { "text": "Kürbis." }
+        ],
+        "explanation": "Im Mai hat Spargel Saison. Grünkohl ist ein Wintergemüse. Kürbis kommt erst im Herbst."
+      }
+    }
+  ]
+}

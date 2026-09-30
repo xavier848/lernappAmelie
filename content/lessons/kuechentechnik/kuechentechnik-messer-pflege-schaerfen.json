@@ -1,0 +1,107 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-messer-pflege-schaerfen",
+  "title": "Messer: Griff, Pflege und Schärfen",
+  "sort": 626,
+  "intro": "🔪 Ein gutes Messer liegt gut in der Hand. Am Griff gibt es wichtige Teile.\n\nDie raue Oberfläche des Griffs sorgt für einen sicheren Griff. Der Fingerschutz verhindert, dass deine Hand nach vorne auf die Schneide rutscht. Der Knauf ist das Ende des Griffs. Er sorgt für eine sichere Handhabung.\n\nMesser bewahrst du im Messerblock oder an einer Magnetleiste auf. So stoßen die Klingen nicht aneinander. Sonst werden die Schneiden beschädigt.\n\nBenutzte Messer spülst du einzeln von Hand im Spülwasser. Lass sie nie im Spülwasser liegen. Arbeitsmesser kommen nicht in die Spülmaschine. Arbeitsmesser sind die Messer, mit denen du in der Küche schneidest, zum Beispiel das Kochmesser. Die scharfen Reiniger der Spülmaschine greifen die Klingen an.\n\nMesser mit glattem Schliff werden durch den Gebrauch stumpf. Du schärfst sie regelmäßig mit dem Wetzstahl. Oder du bringst sie zum Messerschleifer.\n\nMERKE: Das Schärfen am Wetzstahl heißt Abziehen.\n\nSo ziehst du ab: Du setzt das Klingenende am Anfang des Wetzstahls an. Dabei ist der Winkel wichtig für ein gutes Schärfeergebnis. Dann führst du die Klinge mit leichtem Druck zum Ende des Wetzstahls. Dabei ziehst du bis zur Messerspitze durch. Danach kommt die andere Seite der Klinge dran. Du wechselst immer ab: rechts, links, rechts und so weiter.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔪 Wozu ist dieses Teil am Messergriff da? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🖐️ Raue Oberfläche"}, "right": {"text": "Der Griff ist griffig und liegt sicher in der Hand."} },
+          { "left": {"text": "🛡️ Fingerschutz"}, "right": {"text": "Die Hand rutscht nicht nach vorn auf die Schneide."} },
+          { "left": {"text": "🔘 Knauf"}, "right": {"text": "Das Griffende sorgt für sichere Handhabung."} }
+        ],
+        "memory": false,
+        "explanation": "Alle drei Teile machen das Messer sicherer. Die raue Oberfläche verhindert Rutschen in der Hand. Der Fingerschutz sitzt zwischen Griff und Klinge. Der Knauf schließt den Griff hinten ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗄️ Messer kommen in den Messerblock oder an die Magnetleiste. Warum nicht lose in die Schublade?",
+        "options": [
+          { "text": "Die Klingen stoßen aneinander und werden beschädigt.", "correct": true },
+          { "text": "Die Messer rosten in einer Schublade viel schneller." },
+          { "text": "In der Schublade werden die Griffe schnell fettig." }
+        ],
+        "explanation": "Lose Messer klappern gegeneinander. Dabei bekommen die Schneiden Kerben und werden stumpf. Im Messerblock oder an der Magnetleiste hat jedes Messer seinen eigenen Platz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Wie reinigst du ein benutztes Kochmesser?",
+        "options": [
+          { "text": "Einzeln von Hand spülen, nicht im Wasser liegen lassen.", "correct": true },
+          { "text": "Zusammen mit dem Geschirr ins Spülwasser legen." },
+          { "text": "In die Spülmaschine geben, mit starkem Reiniger." }
+        ],
+        "explanation": "Du spülst Messer einzeln im Spülwasser. Liegen sie im trüben Wasser, sieht niemand die Klinge. Wer hineingreift, schneidet sich. Und in die Spülmaschine kommen Arbeitsmesser nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Warum kommen Arbeitsmesser nicht in die Spülmaschine?",
+        "options": [
+          { "text": "Die scharfen Reiniger greifen die Klingen an.", "correct": true },
+          { "text": "Die Messer werden dort nicht richtig sauber." },
+          { "text": "Die Griffe werden in der Maschine zu heiß." }
+        ],
+        "explanation": "Spülmaschinenreiniger sind sehr scharf. Sie greifen die Klingen an. Dann halten die Messer nicht so lange. Arbeitsmesser sind zum Beispiel das Kochmesser und das Officemesser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Dein Messer mit glattem Schliff ist mit der Zeit stumpf geworden. Was tust du?",
+        "options": [
+          { "text": "Am Wetzstahl schärfen oder zum Messerschleifer bringen.", "correct": true },
+          { "text": "Einfach mit mehr Druck weiterschneiden, bis es nicht mehr geht." },
+          { "text": "Gegen ein Messer mit Wellenschliff tauschen, das nie stumpf wird." }
+        ],
+        "explanation": "Messer mit glattem Schliff werden durch den Gebrauch stumpf. Das ist normal. Du schärfst sie regelmäßig am Wetzstahl oder lässt sie beim Messerschleifer schärfen. Mit einem stumpfen Messer brauchst du viel Druck, und es rutscht leicht ab."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔪 Du schärfst ein Messer am Wetzstahl. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "📐 Das Klingenende am Anfang des Wetzstahls ansetzen." },
+          { "text": "➡️ Die Klinge mit leichtem Druck bis zur Messerspitze zum Stahlende ziehen." },
+          { "text": "🔁 Die andere Seite der Klinge genauso abziehen." },
+          { "text": "🔄 Immer abwechselnd weiter, Seite für Seite." }
+        ],
+        "explanation": "Ein Zug beginnt hinten an der Klinge und am Anfang des Wetzstahls. Er endet an der Messerspitze. Nach jedem Zug ist die andere Seite der Klinge dran. So wechselst du immer ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📐 Beim Schärfen am Wetzstahl ist eine Sache besonders wichtig für ein gutes Ergebnis. Welche?",
+        "options": [
+          { "text": "Der richtige Winkel der Klinge am Stahl.", "correct": true },
+          { "text": "Ein möglichst kräftiger Druck auf die Klinge." },
+          { "text": "Eine möglichst schnelle Bewegung der Hand." }
+        ],
+        "explanation": "Der Winkel zwischen Klinge und Wetzstahl entscheidet über das Schärfeergebnis. Den Druck hältst du dagegen leicht. Schnelligkeit ist nicht wichtig, Genauigkeit schon."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Wie heißt das Schärfen eines Messers am Wetzstahl?",
+        "options": [
+          { "text": "Abziehen.", "correct": true },
+          { "text": "Abschrecken." },
+          { "text": "Abschaben." }
+        ],
+        "explanation": "Das Schärfen am Wetzstahl heißt Abziehen. Abschrecken heißt: etwas Heißes schnell in kaltem Wasser abkühlen. Schaben ist eine Art, Schale zu entfernen."
+      }
+    }
+  ]
+}

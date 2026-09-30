@@ -1,0 +1,121 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-dauerauftrag-lastschrift",
+  "title": "Dauerauftrag oder Lastschrift?",
+  "sort": 713,
+  "intro": "🔁 Manche Zahlungen kommen jeden Monat. Dafür gibt es den Dauerauftrag und die Lastschrift.\n\nEin Dauerauftrag passt für Zahlungen, die jeden Monat gleich hoch sind. Beispiel: Das Büro hat einen Fotokopierer gemietet. Die Miete ist jeden Monat gleich. Du richtest den Dauerauftrag einmal bei deinem Girokonto ein. Das geht auch per Online-Banking.\n\nEin Dauerauftrag hat zwei Vorteile gegenüber der Überweisung. Du musst nicht an jedem Monatsanfang an die Überweisung denken. Und du sparst Arbeitszeit. Der Dauerauftrag zahlt immer genau den Betrag, den du eingestellt hast.\n\nBeim Diensttelefon geht kein Dauerauftrag. Die Rechnung ist jeden Monat anders hoch. Dafür nimmt man das Lastschriftverfahren. Dann holt sich der Telefonanbieter das Geld selbst vom Girokonto.\n\nEs gibt zwei Arten von Lastschrift. Bei der üblichen Art erlaubst du dem Anbieter, das Geld einzuziehen. In deinem Fachbuch heißt diese Erlaubnis Einzugsermächtigung. Heute heißt sie SEPA-Lastschriftmandat, kurz Mandat. Viele sagen aber noch Einzugsermächtigung.\n\nManche Anbieter geben dafür einen Rechnungsnachlass. Das ist ein Preisnachlass.\n\nDas Mandat beantwortet drei Fragen. Wer erhält es? Das ist der Anbieter, der das Geld einziehen darf. Wer erteilt es? Das bist du als Kontoinhaberin. Für welches Konto gilt es? Das zeigt deine IBAN. Meist füllst du dafür ein Formular vom Anbieter aus und unterschreibst es. In deinem Fachbuch stehen dazu noch der Name der Bank und die BIC. Heute gilt: In der EU reicht die IBAN.\n\nWurde falsch abgebucht? Dann lässt du das Geld von deiner Bank zurückbuchen. Dein Fachbuch nennt das widerrufen und sagt: innerhalb von sechs Wochen. Heute gilt: Du hast 8 Wochen Zeit ab der Abbuchung. Einen Grund musst du nicht nennen. Hattest du gar kein Mandat erteilt, hast du sogar bis zu 13 Monate Zeit.\n\nDie zweite Art hieß früher Abbuchungsauftrag. Heute heißt sie SEPA-Firmenlastschrift. Es gibt sie nur zwischen Firmen. Eine Abbuchung kann man danach nicht einfach über die Bank zurückholen. Deshalb ist sie riskanter.\n\nMERKE: Gleicher Betrag jeden Monat: Dauerauftrag. Betrag wechselt: Lastschrift.\n\nMERKE: Heute gilt: Eine Lastschrift kannst du innerhalb von 8 Wochen zurückbuchen lassen, ohne Grund. Ohne Mandat hast du bis zu 13 Monate Zeit.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "↔️ Dauerauftrag oder Lastschrift? Sortiere die Zahlungen.",
+        "buckets": [
+          { "id": "dauer", "label": "Dauerauftrag", "icon": "🔁" },
+          { "id": "last", "label": "Lastschrift", "icon": "📥" }
+        ],
+        "items": [
+          { "text": "Kopierer-Miete: jeden Monat 80 €", "bucket": "dauer" },
+          { "text": "Sparrate aufs Sparkonto: jeden Monat 50 €", "bucket": "dauer" },
+          { "text": "Wohnungsmiete: jeden Monat 450 €", "bucket": "dauer" },
+          { "text": "Diensttelefon: jeden Monat ein anderer Betrag", "bucket": "last" },
+          { "text": "Handyrechnung: mal 12 €, mal 19 €", "bucket": "last" },
+          { "text": "Getränkelieferung: jedes Mal eine andere Summe", "bucket": "last" }
+        ],
+        "explanation": "Frag dich: Ist der Betrag jeden Monat gleich? Dann passt der Dauerauftrag. Ändert sich der Betrag, geht kein Dauerauftrag. Dann holt sich der Anbieter per Lastschrift genau den Betrag, der fällig ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Die Kopierer-Miete läuft per Dauerauftrag. Welche zwei Vorteile hat das gegenüber einer Überweisung?",
+        "options": [
+          { "text": "Niemand muss jeden Monat daran denken, und es spart Arbeitszeit.", "correct": true },
+          { "text": "Die Miete wird dadurch billiger, und die Bank zahlt dafür noch Zinsen." },
+          { "text": "Der Betrag passt sich an, und es gibt einen Rechnungsnachlass." }
+        ],
+        "explanation": "Der Dauerauftrag wird einmal eingerichtet und läuft dann von selbst. Niemand muss an jedem Monatsanfang eine Überweisung schreiben. Das spart Arbeitszeit. Billiger wird die Miete dadurch nicht, und der Betrag bleibt immer gleich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Der Telefonanbieter bittet dich um ein Lastschriftmandat. Was kann dir das bringen?",
+        "options": [
+          { "text": "Manche Anbieter geben dafür einen Rechnungsnachlass.", "correct": true },
+          { "text": "Du kannst Abbuchungen danach nie mehr zurückholen." },
+          { "text": "Die Bank zahlt dir dafür auf dem Konto höhere Zinsen." }
+        ],
+        "explanation": "Manche Anbieter geben für das Mandat einen Rechnungsnachlass, also einen Preisnachlass. Eine falsche Abbuchung kannst du trotzdem zurückbuchen lassen. Das Mandat heißt in deinem Fachbuch Einzugsermächtigung."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "↩️ Der Telefonanbieter hat zu viel abgebucht. Du hattest ihm ein Lastschriftmandat erteilt. Wie viele Wochen hast du heute Zeit, das Geld zurückbuchen zu lassen?",
+        "answer": 8,
+        "hint": "Es sind ungefähr zwei Monate.\nEin Monat hat ungefähr 4 Wochen.",
+        "explanation": "Heute gilt: Du hast 8 Wochen ab der Abbuchung. Einen Grund musst du nicht nennen. In deinem Fachbuch stehen noch sechs Wochen. Das ist veraltet. Prüfe deshalb regelmäßig deinen Kontoauszug."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Das Heim soll einem Großhändler eine SEPA-Firmenlastschrift erlauben. Früher hieß das Abbuchungsauftrag. Was ist daran riskant?",
+        "options": [
+          { "text": "Eine Abbuchung kann das Heim nicht einfach zurückholen.", "correct": true },
+          { "text": "Der Großhändler bekommt sein Geld erst nach Monaten." },
+          { "text": "Das Heim muss jede einzelne Abbuchung vorher freigeben." }
+        ],
+        "explanation": "Bei der SEPA-Firmenlastschrift gibt es kein Zurückbuchen ohne Grund. Bucht der Großhändler falsch ab, holt das Heim das Geld nicht einfach über die Bank zurück. Darum ist sie riskanter. Es gibt sie nur zwischen Firmen, nicht für Privatleute."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✍️ Du erteilst deinem Telefonanbieter ein Lastschriftmandat. Welche Antwort gehört zu welcher Frage?",
+        "pairs": [
+          { "left": {"text": "❓ Wer erhält das Mandat?"}, "right": {"text": "Der Telefonanbieter"} },
+          { "left": {"text": "❓ Wer erteilt es?"}, "right": {"text": "Du als Kontoinhaberin"} },
+          { "left": {"text": "❓ Für welches Konto gilt es?"}, "right": {"text": "Das Konto mit deiner IBAN"} }
+        ],
+        "explanation": "Jedes Mandat beantwortet drei Fragen. Wer erhält es? Der, der das Geld einziehen darf. Wer erteilt es? Die Person, der das Konto gehört. Für welches Konto gilt es? Das zeigt die IBAN. Heute gilt: Die BIC brauchst du dafür in der EU nicht mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕵️ Auf deinem Kontoauszug steht eine Lastschrift von einer Firma, die du nicht kennst. Du hast ihr nie ein Mandat erteilt. Wie lange kannst du das Geld zurückholen?",
+        "options": [
+          { "text": "Bis zu 13 Monate nach der Abbuchung.", "correct": true },
+          { "text": "Nur 14 Tage, wie beim Widerruf eines Vertrags." },
+          { "text": "Gar nicht, das Geld ist dann verloren." }
+        ],
+        "explanation": "Heute gilt: Ohne Mandat darf niemand von deinem Konto abbuchen. Dann hast du bis zu 13 Monate Zeit, das Geld zurückzuholen. Melde es trotzdem sofort deiner Bank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Die Miete für den Kopierer steigt ab Januar von 80 € auf 90 €. Was tust du beim Dauerauftrag?",
+        "options": [
+          { "text": "Den Betrag im Dauerauftrag auf 90 € ändern.", "correct": true },
+          { "text": "Nichts. Der Dauerauftrag passt sich selbst an." },
+          { "text": "Für die 10 € extra jeden Monat einen Scheck schicken." }
+        ],
+        "explanation": "Ein Dauerauftrag zahlt immer genau den Betrag, den du eingestellt hast. Er passt sich nicht von selbst an. Ändert sich die Miete, änderst du den Dauerauftrag. Für Beträge, die sich jeden Monat ändern, passt die Lastschrift."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Die Miete ist jeden Monat gleich hoch. Was richtest du ein?",
+        "options": [
+          { "text": "Einen Dauerauftrag.", "correct": true },
+          { "text": "Einen Barscheck." },
+          { "text": "Eine Nachnahme." }
+        ],
+        "explanation": "Gleicher Betrag jeden Monat: Dafür ist der Dauerauftrag da. Er läuft von selbst. 🎉"
+      }
+    }
+  ]
+}

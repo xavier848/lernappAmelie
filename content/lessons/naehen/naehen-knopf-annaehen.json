@@ -36,7 +36,8 @@
           { "text": "Einen Knopf in der passenden Größe auswählen." },
           { "text": "Eine Nadel wählen, die durch die Löcher passt." },
           { "text": "Den Faden doppelt nehmen und am Ende verknoten." }
-        ]
+        ],
+        "explanation": "Frag dich: Was musst du kennen, um das Nächste auszuwählen? Die Nadel muss durch die Löcher des Knopfes passen. Darum brauchst du zuerst den Knopf. Einfädeln und verknoten kannst du erst, wenn du die Nadel hast."
       }
     },
     {
@@ -56,11 +57,12 @@
       "data": {
         "prompt": "📌 Jetzt nähst du den Knopf fest. Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
-          { "text": "Die Nadel von vorne durch das obere Loch stechen." },
-          { "text": "Von hinten durch das untere Loch zurückstechen." },
+          { "text": "Die Nadel von hinten nach vorne durch das untere Loch stechen." },
+          { "text": "Von vorne nach hinten durch das obere Loch zurückstechen." },
           { "text": "Den Faden zwischen Knopf und Stoff umwickeln und einen Stiel bilden." },
           { "text": "Den Faden befestigen und abschneiden." }
-        ]
+        ],
+        "explanation": "Du beginnst hinten. So bleibt der Knoten auf der Rückseite. Das Durchstechen durch die Löcher wiederholst du drei- bis viermal. Den Stiel wickelst du erst, wenn der Knopf festgenäht ist. Gesichert und abgeschnitten wird ganz am Ende."
       }
     },
     {
@@ -73,7 +75,8 @@
           { "left": { "text": "🧶 Stiel aus Faden" }, "right": { "text": "Platz zum Schließen des Knopfs" } },
           { "left": { "text": "🪡 Passende Nadel" }, "right": { "text": "Passt durch die Löcher" } }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Frag dich bei jedem Teil: Welches Problem verhindert es? Zwei Fäden sind stärker als einer. Ein Knoten stoppt den Faden. Der Stiel schafft Abstand zwischen Knopf und Stoff. Eine zu dicke Nadel passt nicht durch die Knopflöcher."
       }
     },
     {

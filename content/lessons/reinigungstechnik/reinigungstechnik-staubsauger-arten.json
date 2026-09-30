@@ -1,0 +1,137 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-staubsauger-arten",
+  "title": "Staubsauger: die Bauarten",
+  "sort": 656,
+  "intro": "Den Staubsauger nimmst du für die Trockenreinigung. Er saugt Schmutz, der lose aufliegt. Mit Zubehör entstaubst du auch Möbel, Wände, Decken, Heizkörper und Gardinen. Staubsauger werden nach ihrer Bauform oder Technik benannt.\n\nDen Handstaubsauger führst du am Griff oder Stiel. Du musst ihn mit Kraft schieben. Er ist für kleine Flächen. Seine Saugleistung reicht für etwa 60 m². Sein Aktionsradius ist 6 bis 7,5 m. Das heißt: So weit kommst du mit ihm. Düsen und Filtertüten sind kleiner. Er braucht wenig Platz und ist schnell bereit.\n\nDer Bodenstaubsauger ist am weitesten verbreitet. Er rollt auf Rollen über den Boden. Ein flexibler Schlauch verbindet ihn mit der Düse. Es gibt ihn in Kesselform oder in Schlittenform. Mit der Teppich- oder Bodendüse saugst du glatte Böden. Nach dem Umschalten saugst du auch Teppichböden, Polstermöbel und Gardinen.\n\nDer Bürstensauger bürstet und saugt gleichzeitig. Manche haben eine Klopfvorrichtung. Sie hebt den Belag etwas an. So saugt das Gerät stärker. Das geht aber nur bei lose verlegten Böden, nicht bei verklebten.\n\nKesselsauger, Allessauger und Nass-Trocken-Sauger nimmt man vor allem im Großhaushalt. Sie fassen viel und passen für große Flächen. Sie saugen Trockenschmutz, groben Schmutz und auch Flüssigkeiten. Nach dem Einsatz reinigst und trocknest du sie gut. So bilden sich weniger Keime.\n\nSaugroboter werden in Wohnräumen immer beliebter. Sie ersetzen einen Staubsauger aber nicht. Sie ergänzen ihn nur. Wichtig sind eine gute Steuerungs-Software, ein starker Akku, ein gutes Fahrwerk und eine leichte Handhabung. Probleme machen eng gestellte Möbel, Teppiche mit hohem Flor, Kabel, Kordeln und Fransen. Flor heißt: die Fasern, die aus dem Teppich stehen.\n\nDen Rucksack-Staubsauger trägst du auf dem Rücken. Man nimmt ihn im Gewerbe für Arbeiten über Kopf und für Treppenhäuser.\n\nDer Zyklon-Staubsauger hat keinen Beutel. Er saugt stark und bläst saubere Luft aus. Man nimmt ihn im Profibereich. Beim Leeren der Staubbox können Staubwolken entstehen. Staubbehälter und Zentralfilter wäschst du aus. Den Zentralfilter erneuerst du einmal im Jahr. Sonst lässt die Saugleistung nach.\n\nDie Zentral-Staubsauganlage ist fest im Haus eingebaut. Man sagt auch Einbau-Staubsauger. Das Grundgerät steht im Keller oder im Abstellraum. In der Wohnung gibt es Luftsteckdosen. Dort steckst du einen etwa 15 m langen Schlauch an. Die gefilterte Luft geht nach draußen. Darum bleibt die Raumluft sauberer. Das Saugen ist leiser. Den Staubbeutel leerst du mehrmals im Jahr.\n\nMERKE: Saugroboter ergänzen den Staubsauger, sie ersetzen ihn nicht. Bürstensauger mit Klopfvorrichtung nur auf lose verlegten Böden.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧹 Kannst du das mit dem Staubsauger und seinem Zubehör reinigen? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Ja, absaugen", "icon": "✅" },
+          { "id": "nein", "label": "Nein, anders reinigen", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Staub auf Möbeln", "bucket": "ja" },
+          { "text": "Spinnweben an der Decke", "bucket": "ja" },
+          { "text": "Staub auf dem Heizkörper", "bucket": "ja" },
+          { "text": "Staub in den Gardinen", "bucket": "ja" },
+          { "text": "Krümel auf dem Teppich", "bucket": "ja" },
+          { "text": "Kalkflecken am Wasserhahn", "bucket": "nein" },
+          { "text": "Eingetrockneter Saftfleck auf dem Tisch", "bucket": "nein" }
+        ],
+        "explanation": "Der Staubsauger ist für die Trockenreinigung. Er nimmt Schmutz auf, der lose aufliegt. Mit Zubehör geht das auch an Möbeln, Wänden, Decken, Heizkörpern und Gardinen. Kalk und eingetrocknete Flecken haften fest. Dafür brauchst du Wasser und Reiniger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Wann ist ein Handstaubsauger mit Stiel die richtige Wahl?",
+        "options": [
+          { "text": "Für kleine Flächen: Er braucht wenig Platz und ist schnell bereit.", "correct": true },
+          { "text": "Für große Flure: Er hat den größten Beutel und die höchste Leistung." },
+          { "text": "Für Treppenhäuser: Du trägst ihn beim Saugen auf dem Rücken." }
+        ],
+        "explanation": "Der Handstaubsauger ist für kleine Flächen gemacht. Seine Saugleistung und sein Aktionsradius sind kleiner. Dafür braucht er wenig Platz und ist schnell betriebsbereit. Auf dem Rücken trägst du den Rucksack-Staubsauger."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📐 Für etwa wie viele Quadratmeter reicht die Saugleistung eines Handstaubsaugers?",
+        "answer": 60,
+        "hint": "Es ist eine kleine Wohnung.\nDie Zahl liegt zwischen 50 und 70.",
+        "explanation": "Die Saugleistung eines Handstaubsaugers reicht für etwa 60 m². Sein Aktionsradius ist 6 bis 7,5 m. Darum passt er für kleine Flächen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Was kann eine Teppich- oder Bodendüse?",
+        "options": [
+          { "text": "Glatte Böden saugen, nach dem Umschalten auch Teppich und Polster.", "correct": true },
+          { "text": "Nur glatte Böden saugen, für Teppich brauchst du ein zweites Gerät." },
+          { "text": "Böden nass wischen und gleichzeitig das Wasser wieder aufsaugen." }
+        ],
+        "explanation": "Die Teppich- oder Bodendüse hat einen Umschalter. So saugst du glatte Böden. Umgeschaltet saugst du Teppichböden, Polstermöbel und Gardinen. Mit Zubehör ist der Bodenstaubsauger vielseitig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥁 Ein Bürstensauger mit Klopfvorrichtung hebt den Teppich etwas an. Wo darfst du ihn nur benutzen?",
+        "options": [
+          { "text": "Auf lose verlegten Teppichböden.", "correct": true },
+          { "text": "Auf fest verklebten Teppichböden." },
+          { "text": "Auf Fliesen und auf glatten Steinböden." }
+        ],
+        "explanation": "Die Klopfvorrichtung hebt den Belag etwas an. So saugt das Gerät stärker. Ein verklebter Boden lässt sich aber nicht anheben. Darum geht das nur bei lose verlegten Böden."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welcher Sauger passt zur Beschreibung? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🛞 Bodenstaubsauger"}, "right": {"text": "Am weitesten verbreitet, Kessel- oder Schlittenform"} },
+          { "left": {"text": "🎒 Rucksack-Staubsauger"}, "right": {"text": "Über-Kopf-Arbeiten und Treppenhäuser"} },
+          { "left": {"text": "💧 Nass-Trocken-Sauger"}, "right": {"text": "Große Flächen, Grobschmutz und Flüssigkeiten"} },
+          { "left": {"text": "🌀 Zyklon-Staubsauger"}, "right": {"text": "Ohne Beutel, im Profibereich"} },
+          { "left": {"text": "🏠 Zentral-Staubsauganlage"}, "right": {"text": "Fest eingebaut, mit Luftsteckdosen"} },
+          { "left": {"text": "🤖 Saugroboter"}, "right": {"text": "Ergänzt den Staubsauger, ersetzt ihn nicht"} }
+        ],
+        "explanation": "Der Name verrät oft die Bauart: Rucksack auf dem Rücken, Zyklon ohne Beutel, Zentral im ganzen Haus. Den Bodenstaubsauger gibt es fast überall. Der Nass-Trocken-Sauger schafft auch Flüssigkeiten. Der Saugroboter hilft nur mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤖 Womit hat ein Saugroboter Probleme?",
+        "options": [
+          { "text": "Mit eng gestellten Möbeln, hohem Teppichflor und Kabeln.", "correct": true },
+          { "text": "Mit glatten Böden und großen, leeren Räumen ohne Möbel." },
+          { "text": "Mit kurzem Teppich ohne Fransen und freien Laufwegen." }
+        ],
+        "explanation": "Der Roboter braucht Platz zum Fahren. Eng gestellte Möbel, hoher Flor, Kabel, Kordeln und Fransen bringen ihn zum Stehen. Auf freien, glatten Flächen arbeitet er gut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Du pflegst einen Zyklon-Staubsauger. Was stimmt?",
+        "options": [
+          { "text": "Staubbehälter und Zentralfilter auswaschen, den Filter jährlich erneuern.", "correct": true },
+          { "text": "Den Staubbeutel jede Woche wechseln, denn der Zentralfilter hält für immer." },
+          { "text": "Nie auswaschen, sonst wird der Motor nass und geht kaputt." }
+        ],
+        "explanation": "Der Zyklon-Sauger hat keinen Beutel. Staubbehälter und Zentralfilter wäschst du aus. Den Zentralfilter erneuerst du einmal im Jahr, sonst leidet die Saugleistung. Vorsicht beim Leeren: Es können Staubwolken entstehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Zentral-Staubsauganlage: Was stimmt?",
+        "options": [
+          { "text": "Etwa 15 m Schlauch, die gefilterte Luft geht ins Freie.", "correct": true },
+          { "text": "Etwa 2 m Schlauch, die Luft bleibt im Zimmer." },
+          { "text": "Das Grundgerät steht im Wohnzimmer und ist darum sehr laut." }
+        ],
+        "explanation": "Das Grundgerät steht im Keller oder im Abstellraum. Den etwa 15 m langen Schlauch steckst du an eine Luftsteckdose. Die gefilterte Luft geht nach draußen. So bleibt die Raumluft sauberer, und das Saugen ist leiser. Den Beutel leerst du mehrmals im Jahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Was tust du nach dem Einsatz des Nass-Trocken-Saugers?",
+        "options": [
+          { "text": "Ihn gut reinigen und trocknen.", "correct": true },
+          { "text": "Das Wasser bis morgen drin lassen." },
+          { "text": "Ihn nur außen kurz abwischen." }
+        ],
+        "explanation": "Im feuchten Behälter würden sich schnell Keime bilden. Darum reinigst und trocknest du den Sauger nach jedem Einsatz gut."
+      }
+    }
+  ]
+}

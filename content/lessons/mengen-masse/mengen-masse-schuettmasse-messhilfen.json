@@ -1,0 +1,119 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-schuettmasse-messhilfen",
+  "title": "Schüttmaße, Klopfmaße und Messhilfen",
+  "sort": 50,
+  "intro": "Abgemessene Mengen aus Messbecher und Litermaß heißen Schüttmaße. Du schüttest die Zutat hinein und liest die Menge ab.\n\nAchtung: Klopfst du den Messbecher mehrmals auf, wird das Lebensmittel zusammengestaucht. Das verfälscht das Messergebnis. Es können Wiegeunterschiede von 50 g entstehen. Vermeide beim Abmessen deshalb Klopfmaße.\n\nFür kleinere Mengen gibt es in der Praxis nützliche Messhilfen: 1 gehäufter Esslöffel entspricht 15 bis 20 g. 1 gestrichener Teelöffel entspricht 5 bis 7 g. 1 Kaffeetasse entspricht ca. 125 g.\n\nGehäuft heißt: Die Zutat liegt als kleiner Berg auf dem Löffel. Gestrichen heißt: Du streichst den Löffel glatt ab.\n\nIn gewerblichen Küchenbetrieben benutzt man Kellen mit unterschiedlichem Fassungsvermögen. Sie dienen als Wiegehilfe oder als Maßeinheit.\n\nLitermaße: 1 l = 1000 ml. ¾ l = 0,75 l = 750 ml. ½ l = 0,5 l = 500 ml. ¼ l = 0,25 l = 250 ml. ⅛ l = 0,125 l = 125 ml.\n\nGewicht: 1 kg = 1000 g. ¾ kg = 750 g. ½ kg = 500 g. ¼ kg = 250 g. ⅛ kg = 125 g.\n\nMERKE: Schüttmaße nicht aufklopfen. Klopfmaße verfälschen das Ergebnis um bis zu 50 g.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Du misst Mehl im Messbecher ab. Wie heißt so eine abgemessene Menge?",
+        "options": [
+          { "text": "Schüttmaß.", "correct": true },
+          { "text": "Klopfmaß." },
+          { "text": "Stückmaß." }
+        ],
+        "explanation": "Mengen aus Messbecher und Litermaß heißen Schüttmaße. Du schüttest die Zutat hinein und liest ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👊 Du klopfst den Messbecher mit Mehl mehrmals auf den Tisch. Was passiert?",
+        "options": [
+          { "text": "Das Mehl wird zusammengestaucht, das Ergebnis stimmt nicht mehr.", "correct": true },
+          { "text": "Das Mehl verteilt sich gleichmäßig, so misst du genauer." },
+          { "text": "Nichts, denn Klopfen verändert die Menge im Becher nicht." }
+        ],
+        "explanation": "Durch das Aufklopfen wird das Mehl zusammengedrückt. Dann passt mehr hinein, als du denkst. Das verfälscht das Messergebnis."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚖️ Klopfmaße verfälschen das Messergebnis. Wie viel Gramm Unterschied können dabei entstehen?",
+        "answer": 50,
+        "hint": "Die Zahl steht auf deinem Blatt: Es können Wiegeunterschiede von … g entstehen. Es ist eine runde Zahl zwischen 40 und 60.",
+        "explanation": "Es können Wiegeunterschiede von 50 g entstehen. Darum vermeidest du beim Abmessen Klopfmaße."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥄 Welche Messhilfe entspricht wie viel Gramm? Verbinde.",
+        "pairs": [
+          { "left": {"text": "1 gehäufter Esslöffel"}, "right": {"text": "15–20 g"} },
+          { "left": {"text": "1 gestrichener Teelöffel"}, "right": {"text": "5–7 g"} },
+          { "left": {"text": "1 Kaffeetasse"}, "right": {"text": "ca. 125 g"} }
+        ],
+        "explanation": "Der Teelöffel ist der kleine Löffel, der Esslöffel der große. In die Kaffeetasse passt noch viel mehr. So kannst du die Werte der Größe nach ordnen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Was ist der Unterschied zwischen gehäuft und gestrichen?",
+        "options": [
+          { "text": "Gehäuft: ein kleiner Berg auf dem Löffel. Gestrichen: glatt abgestrichen.", "correct": true },
+          { "text": "Gehäuft: glatt abgestrichen. Gestrichen: ein kleiner Berg auf dem Löffel." },
+          { "text": "Gehäuft: mit Flüssigkeit. Gestrichen: mit Pulver oder Mehl." }
+        ],
+        "explanation": "Bei gehäuft liegt mehr auf dem Löffel: ein kleiner Berg. Bei gestrichen streichst du den Löffel glatt ab. Darum wiegt ein gehäufter Löffel mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Womit misst man in gewerblichen Küchenbetrieben oft ab?",
+        "options": [
+          { "text": "Mit Kellen mit unterschiedlichem Fassungsvermögen.", "correct": true },
+          { "text": "Mit Kaffeetassen in verschiedenen Farben und Größen." },
+          { "text": "Mit gehäuften Esslöffeln, auch für große Mengen." }
+        ],
+        "explanation": "In gewerblichen Küchen gibt es Kellen in verschiedenen Größen. Sie dienen als Wiegehilfe oder als Maßeinheit."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💧 Litermaße: Was ist gleich viel? Verbinde.",
+        "pairs": [
+          { "left": {"text": "1 l"}, "right": {"text": "1000 ml"} },
+          { "left": {"text": "¾ l"}, "right": {"text": "750 ml"} },
+          { "left": {"text": "½ l"}, "right": {"text": "500 ml"} },
+          { "left": {"text": "¼ l"}, "right": {"text": "250 ml"} },
+          { "left": {"text": "⅛ l"}, "right": {"text": "125 ml"} }
+        ],
+        "explanation": "Rechne immer von 1000 ml aus. Die Hälfte davon sind 500 ml. Die Hälfte von 500 ml sind 250 ml. Die Hälfte von 250 ml sind 125 ml."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚖️ Wie viel Gramm sind ⅛ kg?",
+        "answer": 125,
+        "hint": "1 kg = 1000 g.\n½ kg = 500 g, ¼ kg = 250 g.\nDie Hälfte von 250 g = ?",
+        "explanation": "⅛ kg sind 125 g. Du halbierst immer weiter: 1000 g, 500 g, 250 g, 125 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💧 Wie viele Milliliter sind 0,75 l?",
+        "answer": 750,
+        "hint": "1 l = 1000 ml.\n0,75 l ist dasselbe wie ¾ l.\nDrei Viertel von 1000 ml = ?",
+        "explanation": "0,75 l sind ¾ l, also 750 ml."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "☕ 1 Kaffeetasse Zucker entspricht ca. 125 g. Du nimmst 2 Tassen. Wie viel Gramm sind das ungefähr?",
+        "answer": 250,
+        "hint": "125 g + 125 g = ?",
+        "explanation": "2 Tassen sind ungefähr 2 × 125 g = 250 g."
+      }
+    }
+  ]
+}

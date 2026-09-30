@@ -1,0 +1,96 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-reinigungsloesung-mischen",
+  "title": "Fachrechnen: Reinigungslösung mischen",
+  "sort": 661,
+  "intro": "Reinigungs- und Desinfektionsmittel gibt es oft in konzentrierter Form. Konzentriert heißt: sehr stark, noch nicht verdünnt. Vor dem Gebrauch mischst du das Konzentrat in einem bestimmten Verhältnis mit Wasser. Die Dosierangaben stehen in Prozent oder als Verhältnis.\n\nSo rechnest du eine Prozent-Lösung: Rechne die Menge zuerst in Milliliter um. 1 Liter sind 1000 ml. Dann rechnest du aus, wie viel 1 % ist: die Menge geteilt durch 100. Dann nimmst du das mal die Prozentzahl. Das ist die Menge Konzentrat.\n\nDer Rest ist Wasser. Wasser = gesamte Menge minus Konzentrat.\n\nBeispiel aus dem Buch: Du brauchst 5 Liter fertigen Reiniger als 2,5-prozentige Verdünnung. 0,5 Liter Lösung reichen für drei Reinigungen.\n\nEin weiteres Beispiel: Ein Reinigungskonzentrat kommt in 5-Liter-Kanistern. Auf einen Eimer Wasser (7 Liter) kommen 50 ml Konzentrat.\n\nMERKE: Erst in Milliliter umrechnen. Dann 1 % ausrechnen. Dann mal die Prozentzahl. Zuletzt das Wasser ausrechnen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Du hast ein Reinigungskonzentrat. Was machst du vor dem Gebrauch?",
+        "options": [
+          { "text": "Es in einem bestimmten Verhältnis mit Wasser mischen.", "correct": true },
+          { "text": "Es unverdünnt direkt auf die Fläche gießen." },
+          { "text": "Es mit einem zweiten, anderen Reiniger zusammenmischen." },
+          { "text": "Es vorher im Topf kurz aufkochen lassen." }
+        ],
+        "explanation": "Konzentrate sind sehr stark. Vor dem Gebrauch mischst du sie in einem bestimmten Verhältnis mit Wasser. Zwei Reiniger mischst du nie, dabei können giftige Gase entstehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Wie werden die Dosierangaben für Konzentrate gemacht?",
+        "options": [
+          { "text": "In Prozent oder als Verhältnis.", "correct": true },
+          { "text": "Nur als Anzahl der Spritzer in den Eimer." },
+          { "text": "Nur nach Gefühl und Geruch." },
+          { "text": "Nur in Gramm pro Person." }
+        ],
+        "explanation": "Die Dosierangaben stehen in Prozent oder als Verhältnis. So weißt du genau, wie viel Konzentrat und wie viel Wasser du brauchst."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧮 So rechnest du eine Prozent-Lösung aus. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die gesamte Menge in Milliliter umrechnen." },
+          { "text": "Die Milliliter durch 100 teilen. Das ist 1 %." },
+          { "text": "1 % mal die Prozentzahl nehmen. Das ist das Konzentrat." },
+          { "text": "Das Wasser ausrechnen: gesamte Menge minus Konzentrat." }
+        ],
+        "explanation": "Die Regel: Jeder Schritt braucht das Ergebnis vom Schritt davor. Zuerst brauchst du Milliliter, sonst rechnest du mit Kommazahlen. Das Wasser rechnest du zuletzt aus. Dafür musst du das Konzentrat schon kennen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧪 Du brauchst 5 Liter fertigen Reiniger als 2,5-prozentige Lösung. Wie viele Milliliter Konzentrat brauchst du?",
+        "answer": 125,
+        "hint": "5 Liter = 5000 ml.\n1 % davon sind 5000 : 100 = 50 ml.\n2,5 % sind 2,5 × 50 ml = ?",
+        "explanation": "5 Liter sind 5000 ml. 1 % davon sind 50 ml. 2,5 % sind 2,5 × 50 ml = 125 ml Konzentrat."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💧 Du brauchst 5 Liter fertige Lösung mit 2,5 % Konzentrat. Wie viele Milliliter Wasser brauchst du?",
+        "answer": 4875,
+        "hint": "5 Liter = 5000 ml.\nErst das Konzentrat: 1 % sind 50 ml. 2,5 % sind 2,5 × 50 ml.\nDann: 5000 ml minus Konzentrat = ?",
+        "explanation": "5 Liter sind 5000 ml. Das Konzentrat sind 2,5 % davon, also 125 ml. Wasser = gesamte Menge minus Konzentrat: 5000 ml − 125 ml = 4875 ml. Zusammen ergibt das genau 5 Liter."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧽 0,5 Liter Lösung reichen für 3 Reinigungen. Wie viele Reinigungen schaffst du mit 5 Litern?",
+        "answer": 30,
+        "hint": "Wie oft passt 0,5 Liter in 5 Liter?\n5 : 0,5 = 10.\n10 × 3 = ?",
+        "explanation": "5 Liter sind 10 Portionen zu 0,5 Liter. Jede Portion reicht für 3 Reinigungen: 10 × 3 = 30 Reinigungen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🪣 Auf einen Eimer kommen 50 ml Konzentrat. Wie viele Eimer kannst du mit einem 5-Liter-Kanister ansetzen?",
+        "answer": 100,
+        "hint": "5 Liter = 5000 ml.\nWie oft passen 50 ml in 5000 ml?\n5000 : 50 = ?",
+        "explanation": "5 Liter sind 5000 ml. 5000 ml : 50 ml = 100. Ein Kanister reicht also für 100 Eimer Reinigungslösung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Wie viele Milliliter sind 1 Liter?",
+        "options": [
+          { "text": "1000 ml", "correct": true },
+          { "text": "100 ml" },
+          { "text": "10.000 ml" }
+        ],
+        "explanation": "1 Liter sind 1000 Milliliter. Beim Mischungsrechnen rechnest du immer zuerst in Milliliter um."
+      }
+    }
+  ]
+}

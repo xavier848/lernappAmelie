@@ -1,0 +1,140 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-arbeitsunfall-wegeunfall",
+  "title": "Arbeits-, Wegeunfall, Berufskrankheit",
+  "sort": 601,
+  "intro": "🚑 Man unterscheidet Arbeitsunfälle und Wegeunfälle auf der einen Seite und Berufskrankheiten auf der anderen Seite.\n\nArbeitsunfälle passieren während der Arbeit oder auf Dienstwegen. Ein Dienstweg ist ein Weg, den du für die Arbeit machst, zum Beispiel zur Bank für den Betrieb. Auch Unfälle beim Benutzen, Tragen oder Reparieren von Arbeitsgeräten sind Arbeitsunfälle. Unfälle beim Betriebssport zählen, wenn es nicht um einen Wettkampf geht. Und Unfälle bei Betriebsfeiern oder Ausflügen, die der Betrieb veranstaltet.\n\nKein Arbeitsunfall sind Unfälle ohne direkten Bezug zur Arbeit, zum Beispiel ein privater Verkehrsunfall oder ein Unfall im eigenen Haushalt.\n\nMERKE: Der Montag ist der gefährlichste Arbeitstag. Auf ihn fallen etwa 20 % der meldepflichtigen Arbeitsunfälle. Bis zum Wochenende nimmt die Zahl ab.\n\nWegeunfälle passieren auf dem direkten Weg zur Arbeit oder zurück nach Hause. Auch bestimmte notwendige Umwege sind versichert. Zum Beispiel, wenn du Kinder während der Arbeitszeit unterbringst. Oder bei Fahrgemeinschaften, bei Umleitungen oder auf einer längeren Strecke, auf der du den Arbeitsplatz schneller erreichst.\n\nMERKE: Eine Berufskrankheit ist eine Krankheit, die über längere Zeit durch die berufliche Arbeit entstanden ist. Der gesetzliche Unfallversicherungsträger muss sie anerkennen. Im Nahrungsmittelgewerbe sind das Bäckerekzem und die Mehlstauballergie häufig. Ein Ekzem ist eine entzündete, juckende Haut.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗂️ Welche Unfälle und Erkrankungen unterscheidet das Fachbuch?",
+        "options": [
+          { "text": "Arbeits- und Wegeunfälle sowie Berufskrankheiten.", "correct": true },
+          { "text": "Hausunfälle, Freizeitunfälle und alle Sportunfälle." },
+          { "text": "Kleine Unfälle, große Unfälle und Glücksfälle." }
+        ],
+        "explanation": "Das Fachbuch unterscheidet Arbeits- und Wegeunfälle auf der einen Seite und Berufskrankheiten auf der anderen Seite."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🚑 Arbeitsunfall oder nicht? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Arbeitsunfall", "icon": "🏢" },
+          { "id": "nein", "label": "Kein Arbeitsunfall", "icon": "🏠" }
+        ],
+        "items": [
+          { "text": "Verletzung beim Reparieren eines Arbeitsgeräts", "bucket": "ja" },
+          { "text": "Sturz beim Tragen einer Kiste im Lager", "bucket": "ja" },
+          { "text": "Unfall bei der Betriebsfeier des eigenen Betriebs", "bucket": "ja" },
+          { "text": "Unfall auf dem Dienstweg zur Bank für den Betrieb", "bucket": "ja" },
+          { "text": "Privater Verkehrsunfall am Wochenende", "bucket": "nein" },
+          { "text": "Sturz beim Putzen der eigenen Wohnung", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Hat der Unfall einen direkten Bezug zur Arbeit? Arbeitsgeräte benutzen, tragen oder reparieren, Dienstwege und Feiern des Betriebs gehören zur Arbeit. Private Wege und der eigene Haushalt nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚽ Wann zählt ein Unfall beim Betriebssport als Arbeitsunfall?",
+        "options": [
+          { "text": "Wenn kein Wettkampf im Vordergrund steht.", "correct": true },
+          { "text": "Nur wenn das eigene Team das Spiel gewinnt." },
+          { "text": "Immer, auch bei jedem großen Turnier." }
+        ],
+        "explanation": "Betriebssport ist versichert, wenn kein Wettkampfcharakter im Vordergrund steht. Beim Wettkampf gegen andere Mannschaften ist das nicht so."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Welcher Wochentag ist der gefährlichste Arbeitstag?",
+        "options": [
+          { "text": "Der Montag.", "correct": true },
+          { "text": "Der Mittwoch." },
+          { "text": "Der Freitag." }
+        ],
+        "explanation": "Am Montag passieren die meisten meldepflichtigen Arbeitsunfälle. Bis zum Wochenende nimmt die Zahl ab."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📊 Wie viel Prozent der meldepflichtigen Arbeitsunfälle passieren etwa am Montag? Tippe die Zahl.",
+        "answer": 20,
+        "hint": "Es ist ein Fünftel, also mehr als 10 und weniger als 30.",
+        "explanation": "Etwa 20 % der meldepflichtigen Arbeitsunfälle passieren am Montag. Das ist mehr als an jedem anderen Arbeitstag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚲 Was ist ein Wegeunfall?",
+        "options": [
+          { "text": "Ein Unfall auf dem direkten Weg zur Arbeit oder nach Hause.", "correct": true },
+          { "text": "Ein Unfall auf dem Weg ins Kino nach dem Feierabend mit Freunden." },
+          { "text": "Ein Unfall bei einer Wanderung im Urlaub am Meer." }
+        ],
+        "explanation": "Ein Wegeunfall passiert auf dem direkten Weg zur Arbeit oder auf dem Rückweg. Private Wege, zum Beispiel ins Kino oder im Urlaub, sind keine Wegeunfälle."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛣️ Ist der Umweg auf dem Arbeitsweg versichert? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Versichert", "icon": "✅" },
+          { "id": "nein", "label": "Nicht versichert", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Das Kind während der Arbeitszeit in die Kita bringen", "bucket": "ja" },
+          { "text": "Die Mitfahrer der Fahrgemeinschaft abholen", "bucket": "ja" },
+          { "text": "Eine Umleitung wegen einer Baustelle fahren", "bucket": "ja" },
+          { "text": "Eine längere Strecke, auf der du schneller ankommst", "bucket": "ja" },
+          { "text": "Ein Umweg zum Friseur", "bucket": "nein" },
+          { "text": "Ein Umweg zum Einkaufen für das Wochenende", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Ist der Umweg für den Arbeitsweg notwendig? Kinderbetreuung während der Arbeitszeit, Fahrgemeinschaften, Umleitungen und schnellere Strecken sind notwendig. Private Erledigungen wie Friseur oder Einkaufen sind es nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩺 Was ist eine Berufskrankheit?",
+        "options": [
+          { "text": "Eine Krankheit, die über lange Zeit durch die Arbeit entsteht.", "correct": true },
+          { "text": "Jede Erkältung, die man sich im Winter bei der Arbeit holt." },
+          { "text": "Ein einzelner Schnitt mit dem Messer bei der Arbeit in der Küche." }
+        ],
+        "explanation": "Eine Berufskrankheit entsteht über längere Zeit durch die berufliche Tätigkeit. Sie kommt nicht plötzlich wie ein Unfall. Ein einzelner Schnitt ist ein Arbeitsunfall. Eine Erkältung kann man überall bekommen, nicht nur durch die Arbeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥖 Welche Berufskrankheiten sind im Nahrungsmittelgewerbe häufig?",
+        "options": [
+          { "text": "Bäckerekzem und Mehlstauballergie.", "correct": true },
+          { "text": "Tennisarm und Sonnenbrand im Sommer." },
+          { "text": "Heuschnupfen und Grippe." }
+        ],
+        "explanation": "Im Nahrungsmittelgewerbe sind das Bäckerekzem, eine entzündete Haut, und die Mehlstauballergie häufige Berufskrankheiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Wer muss eine Berufskrankheit anerkennen?",
+        "options": [
+          { "text": "Der gesetzliche Unfallversicherungsträger.", "correct": true },
+          { "text": "Die Küchenleitung im eigenen Betrieb allein." },
+          { "text": "Die Kolleginnen und Kollegen im Team." }
+        ],
+        "explanation": "Eine Krankheit ist erst eine Berufskrankheit, wenn der gesetzliche Unfallversicherungsträger sie anerkannt hat. Das ist die Berufsgenossenschaft."
+      }
+    }
+  ]
+}

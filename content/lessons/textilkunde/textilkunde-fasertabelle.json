@@ -1,0 +1,127 @@
+{
+  "topic_slug": "textilkunde",
+  "slug": "textilkunde-fasertabelle",
+  "title": "Fasern einteilen: die Tabelle",
+  "sort": 541,
+  "intro": "Im Buch gibt es eine große Tabelle. Sie teilt die wichtigsten Fasern in Gruppen ein. Die Hauptgruppen sind Naturfasern und Chemiefasern. Jede Hauptgruppe hat drei Untergruppen.\n\nTierische Naturfasern: Seide und Schurwolle. Dazu kommen Haare, zum Beispiel von Angora, Kamel und Ziege. Außerdem Kaschmir, Alpaka und Lama.\n\nPflanzliche Naturfasern: Baumwolle und Leinen. Außerdem Kapok, Hanf, Jute, Sisal, Ramie und Kokos.\n\nMineralische Naturfasern: Asbest und Basalt. Mineralisch heißt: aus Gestein.\n\nChemiefasern aus abgewandelten Naturstoffen heißen Zellulosefasern. Das sind Acetat, Viskose, Modal, Cupro und Lyocell.\n\nSynthetische Chemiefasern werden zum Beispiel aus Erdöl hergestellt. Das sind Polyamid, Polyester, Polyacryl, Polyacrylnitril und Elastan. Merkhilfe: Fast alle beginnen mit „Poly“.\n\nChemiefasern aus anorganischen Rohstoffen: Glasfasern, Kohlenstofffasern, Metallfasern und Keramikfasern. Kohlenstofffasern heißen auch Karbonfasern.\n\nViele Chemiefasern haben im Handel einen eigenen Namen. Das nennt man Handelsname. Polyamid heißt auch Nylon oder Perlon. Polyester heißt auch Trevira oder Diolen. Polyacryl heißt auch Dralon oder Orlon. Elastan heißt auch Lycra oder Dorlastan.\n\nMERKE: Naturfasern sind tierisch, pflanzlich oder mineralisch. Chemiefasern sind Zellulosefasern, synthetische Fasern oder Fasern aus anorganischen Rohstoffen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🐑 Tierisch, pflanzlich oder mineralisch? Sortiere die Naturfasern.",
+        "buckets": [
+          { "id": "tier", "label": "Tierisch", "icon": "🐑" },
+          { "id": "pflanze", "label": "Pflanzlich", "icon": "🌱" },
+          { "id": "mineral", "label": "Mineralisch", "icon": "🪨" }
+        ],
+        "items": [
+          { "text": "Kaschmir", "bucket": "tier" },
+          { "text": "Alpaka", "bucket": "tier" },
+          { "text": "Lama", "bucket": "tier" },
+          { "text": "Kapok", "bucket": "pflanze" },
+          { "text": "Sisal", "bucket": "pflanze" },
+          { "text": "Ramie", "bucket": "pflanze" },
+          { "text": "Asbest", "bucket": "mineral" },
+          { "text": "Basalt", "bucket": "mineral" }
+        ],
+        "explanation": "Frag dich: Tier, Pflanze oder Gestein? Merkhilfe: Lama und Alpaka sind Tiere aus Südamerika, Kaschmir kommt von der Kaschmirziege. Aus Gestein gibt es in der Tabelle nur zwei Fasern: Asbest und Basalt. Die restlichen Namen hier sind Pflanzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐫 Bei den tierischen Fasern steht in der Tabelle das Wort „Haare“. Welche Namen stehen dort in der Klammer?",
+        "options": [
+          { "text": "Angora, Kamel und Ziege.", "correct": true },
+          { "text": "Schaf, Kamel und Ziege." },
+          { "text": "Angora, Seidenraupe und Schaf." }
+        ],
+        "explanation": "Unter „Haare“ stehen Angora, Kamel und Ziege. Das Schaf liefert die Schurwolle, die Seidenraupe die Seide. Die beiden haben in der Tabelle einen eigenen Platz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌴 Kokos, Jute und Hanf: Zu welcher Gruppe gehören diese Fasern?",
+        "options": [
+          { "text": "Zu den pflanzlichen Naturfasern.", "correct": true },
+          { "text": "Zu den Zellulosefasern, also zu den Chemiefasern." },
+          { "text": "Zu den tierischen Naturfasern aus Haaren." }
+        ],
+        "explanation": "Kokos, Jute und Hanf wachsen als Pflanzen. Ihre Fasern werden direkt genutzt. Darum sind sie pflanzliche Naturfasern. Zellulosefasern kommen zwar auch aus Pflanzen, werden aber in der Fabrik abgewandelt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧪 Welche Untergruppe der Chemiefasern? Sortiere.",
+        "buckets": [
+          { "id": "zell", "label": "Zellulosefasern", "icon": "🌳" },
+          { "id": "synth", "label": "Synthetische Fasern", "icon": "🛢️" },
+          { "id": "anorg", "label": "Anorganische Rohstoffe", "icon": "🔩" }
+        ],
+        "items": [
+          { "text": "Acetat", "bucket": "zell" },
+          { "text": "Modal", "bucket": "zell" },
+          { "text": "Cupro", "bucket": "zell" },
+          { "text": "Polyacrylnitril", "bucket": "synth" },
+          { "text": "Elastan", "bucket": "synth" },
+          { "text": "Glasfasern", "bucket": "anorg" },
+          { "text": "Metallfasern", "bucket": "anorg" },
+          { "text": "Keramikfasern", "bucket": "anorg" }
+        ],
+        "explanation": "Merkhilfe: Namen mit „Poly“ am Anfang und Elastan sind synthetisch. Glas, Metall und Keramik sind anorganische Rohstoffe. Die übrigen Namen gehören zu den Zellulosefasern."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Handelsnamen: Welche Namen gehören zu welcher Faser? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Nylon, Perlon"}, "right": {"text": "Polyamid"} },
+          { "left": {"text": "Trevira, Diolen"}, "right": {"text": "Polyester"} },
+          { "left": {"text": "Dralon, Orlon"}, "right": {"text": "Polyacryl"} },
+          { "left": {"text": "Lycra, Dorlastan"}, "right": {"text": "Elastan"} }
+        ],
+        "memory": false,
+        "explanation": "Ein Handelsname ist der Verkaufsname einer Faser. Merkhilfen: Nylon kennst du von Strumpfhosen, das ist Polyamid. Lycra macht Stoff dehnbar wie Elastan. Die beiden anderen Paare lernst du am besten mit dem Lernzettel am Anfang auswendig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚫ Karbonfasern heißen auch Kohlenstofffasern. Zu welcher Gruppe gehören sie?",
+        "options": [
+          { "text": "Chemiefasern aus anorganischen Rohstoffen.", "correct": true },
+          { "text": "Synthetische Chemiefasern aus Erdöl und Erdgas." },
+          { "text": "Mineralische Naturfasern aus dem Gestein." }
+        ],
+        "explanation": "Kohlenstofffasern stehen in der Tabelle bei den anorganischen Rohstoffen, zusammen mit Glas-, Metall- und Keramikfasern. Sie werden in der Fabrik hergestellt. Darum sind sie keine Naturfasern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌲 Lyocell und Viskose: In welche Gruppe gehören sie?",
+        "options": [
+          { "text": "Chemiefasern aus abgewandelten Naturstoffen.", "correct": true },
+          { "text": "Pflanzliche Naturfasern, genau wie Baumwolle." },
+          { "text": "Synthetische Chemiefasern, genau wie Polyester." }
+        ],
+        "explanation": "Lyocell und Viskose sind Zellulosefasern. Die Zellulose kommt aus Holz, wird aber in der Fabrik abgewandelt. Darum sind sie Chemiefasern und keine Naturfasern. Aus Erdöl sind sie nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Seide und Schurwolle stehen bei den Naturfasern. In welcher Untergruppe?",
+        "options": [
+          { "text": "Tierisch.", "correct": true },
+          { "text": "Pflanzlich." },
+          { "text": "Mineralisch." }
+        ],
+        "explanation": "Seide kommt von der Seidenraupe, Schurwolle vom Schaf. Beide stammen also von Tieren."
+      }
+    }
+  ]
+}

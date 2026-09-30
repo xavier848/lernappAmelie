@@ -1,0 +1,164 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-garen-grundlagen",
+  "title": "Garen: Grundlagen und Auswahl",
+  "sort": 632,
+  "intro": "🔥 Garen heißt: Du bereitest Lebensmittel mit Wärme zu. Das können rohe oder vorgefertigte Lebensmittel sein. Vorgefertigt heißt: schon küchenfertig oder garfertig vorbereitet.\n\nStatt Garverfahren sagt man auch Gartechnik oder Garmethode. Alle drei Wörter bedeuten dasselbe.\n\nEs gibt feuchte und trockene Garverfahren. Feuchte Verfahren garen mit Flüssigkeit, meist mit Wasser. Trockene Verfahren garen ohne Wasser. Zum Beispiel mit Fett oder mit Konvektion. Konvektion heißt Wärmeströmung, also bewegte heiße Luft.\n\nFeucht sind zum Beispiel Kochen, Dünsten, Dämpfen und Garziehen. Trocken sind zum Beispiel Backen, Grillen und Überbacken.\n\nManche Verfahren sind schwer einzuordnen. Schmoren verbindet ein trockenes und ein feuchtes Verfahren. Beim Foliengaren gart das Essen im trockenen Backofen, aber meist im eigenen Saft. Darum gilt: Man ordnet nach der Art der Wärmeübertragung, die überwiegt.\n\nWarum garen wir? Manche Lebensmittel sind roh nicht genießbar, zum Beispiel grüne Bohnen. Beim Garen lockern sich die Fasern. So kann der Körper die Nährstoffe besser aufnehmen. Gegartes ist besser verdaulich. Aroma, Duft und Farbe verändern sich, zum Beispiel bei Spinat und Brokkoli. Und Garen schützt vor Krankheitskeimen, zum Beispiel vor Salmonellose.\n\nAber: Jedes Garverfahren baut hitzeempfindliche Nährstoffe ab. Das sind Vitamine, wasserlösliche Mineralstoffe, Aromastoffe und sekundäre Pflanzenstoffe. Wie viel verloren geht, hängt vor allem von der Temperatur und von der Garzeit ab.\n\nMERKE: Die wenigsten Verluste gibt es bei möglichst kurzer Garzeit und 80 bis 90 °C.\n\nDas passende Gargerät und das passende Kochgeschirr sind wichtig. Sie beeinflussen die Garzeit, die Arbeitszeit und den Energieverbrauch.\n\nWelches Verfahren du wählst, hängt vom Lebensmittel ab. Und von den Menschen, für die du kochst. Kartoffelklöße zerfallen leicht. Sie lässt du gar ziehen. Hirse, Reis und Grieß lässt du quellen oder du dünstest sie. Für spezielle Kostformen wählst du Verfahren mit weniger Fett, weniger Röststoffen und weniger Kruste. Ungarischen Gulasch schmorst du länger. Dann bekommt er ein besonderes Aroma.\n\nViele Speisen gart man heute al dente. Das heißt: mit Biss. Ältere Menschen mögen Gemüse und Fleisch aber oft weicher gegart. Neben gesundem Essen achtest du auch auf den Genusswert. Das Essen soll schmecken.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Was bedeutet Garen?",
+        "options": [
+          { "text": "Rohe oder vorgefertigte Lebensmittel mit Wärme zubereiten.", "correct": true },
+          { "text": "Rohe Lebensmittel ganz ohne Wärme zubereiten und würzen." },
+          { "text": "Nur frische, rohe Lebensmittel mit Wärme zubereiten, nie Fertiges." }
+        ],
+        "explanation": "Beim Garen ist immer Wärme im Spiel. Du kannst rohe Lebensmittel garen. Du kannst aber auch vorgefertigte garen, also küchenfertige oder garfertige Lebensmittel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Welche Wörter bedeuten dasselbe wie Garverfahren?",
+        "options": [
+          { "text": "Gartechnik und Garmethode.", "correct": true },
+          { "text": "Garprobe und Garzeit." },
+          { "text": "Gargut und Gargerät." }
+        ],
+        "explanation": "Garverfahren, Gartechnik und Garmethode meinen dasselbe. Die Garprobe prüft dagegen, ob etwas gar ist. Das Gargut ist das Lebensmittel, das gegart wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Was unterscheidet feuchte und trockene Garverfahren?",
+        "options": [
+          { "text": "Feucht: mit Flüssigkeit. Trocken: ohne Wasser, mit Fett oder heißer Luft.", "correct": true },
+          { "text": "Feucht: mit viel Fett. Trocken: mit viel Wasser im fest geschlossenen Topf." },
+          { "text": "Feucht: nur im Topf auf dem Herd. Trocken: nur in der Pfanne, immer mit Öl." }
+        ],
+        "explanation": "Feuchte Verfahren garen mit Flüssigkeit, meist mit Wasser. Trockene Verfahren garen ohne Wasser, zum Beispiel mit Fett oder mit Konvektion. Konvektion ist bewegte heiße Luft."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Feucht, trocken oder beides? Sortiere die Garverfahren.",
+        "buckets": [
+          { "id": "feucht", "label": "Feucht", "icon": "💧" },
+          { "id": "trocken", "label": "Trocken", "icon": "🔥" },
+          { "id": "beides", "label": "Kombiniert", "icon": "🔀" }
+        ],
+        "items": [
+          { "text": "Kochen", "bucket": "feucht" },
+          { "text": "Dünsten", "bucket": "feucht" },
+          { "text": "Dämpfen", "bucket": "feucht" },
+          { "text": "Garziehen", "bucket": "feucht" },
+          { "text": "Backen", "bucket": "trocken" },
+          { "text": "Grillen", "bucket": "trocken" },
+          { "text": "Überbacken", "bucket": "trocken" },
+          { "text": "Schmoren", "bucket": "beides" }
+        ],
+        "explanation": "Frag dich: Gart das Lebensmittel in Flüssigkeit oder Dampf? Dann ist es feucht. Gart es in heißer Luft oder unter Strahlungshitze? Dann ist es trocken. Schmoren fängt trocken an und endet mit Flüssigkeit. Darum ist es kombiniert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎁 Beim Foliengaren gart das Essen im Backofen, aber meist im eigenen Saft. Wonach ordnet man ein Garverfahren als feucht oder trocken ein?",
+        "options": [
+          { "text": "Nach der Art der Wärmeübertragung, die überwiegt.", "correct": true },
+          { "text": "Nach der Zeit, die das Essen zum Garwerden braucht." },
+          { "text": "Nach dem Gerät, in dem das Essen gegart wird." }
+        ],
+        "explanation": "Viele Verfahren haben feuchte und trockene Anteile. Entscheidend ist, welche Art der Wärmeübertragung überwiegt. Das Fachbuch nennt das Foliengaren ein trockenes Verfahren. Weil es meist im eigenen Saft gart, könnte es aber auch zu den feuchten zählen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍳 Warum wird das gegart? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🫛 Grüne Bohnen"}, "right": {"text": "Roh sind sie nicht genießbar."} },
+          { "left": {"text": "🥦 Brokkoli"}, "right": {"text": "Farbe und Aroma verändern sich."} },
+          { "left": {"text": "🍗 Rohes Geflügel"}, "right": {"text": "Garen schützt vor Salmonellose."} },
+          { "left": {"text": "🥕 Feste Gemüsefasern"}, "right": {"text": "Sie lockern sich, der Körper nimmt Nährstoffe besser auf."} }
+        ],
+        "memory": false,
+        "explanation": "Garen hat viele Gründe. Manches ist roh nicht essbar. Manches schmeckt und sieht gegart anders aus. Rohes kann Krankheitskeime tragen. Und gelockerte Fasern machen Nährstoffe für den Körper besser verfügbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Was ist kein Grund, Lebensmittel zu garen?",
+        "options": [
+          { "text": "Garen vermehrt die Vitamine.", "correct": true },
+          { "text": "Garen verbessert die Verdaulichkeit." },
+          { "text": "Garen verändert Duft und Farbe." },
+          { "text": "Garen schützt vor Krankheitskeimen." }
+        ],
+        "explanation": "Garen vermehrt keine Vitamine. Im Gegenteil: Jedes Garverfahren baut hitzeempfindliche Nährstoffe ab, zum Beispiel Vitamine. Die anderen drei Sätze sind echte Gründe für das Garen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Jedes Garverfahren baut hitzeempfindliche Nährstoffe ab. Wovon hängt der Verlust vor allem ab?",
+        "options": [
+          { "text": "Von der Temperatur und der Garzeit.", "correct": true },
+          { "text": "Von der Farbe und der Größe des Topfes." },
+          { "text": "Von der Menge Salz im Kochwasser." }
+        ],
+        "explanation": "Je heißer und je länger du garst, desto mehr Nährstoffe gehen verloren. Darum achtest du auf die Temperatur und auf die Garzeit."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Die wenigsten Verluste gibt es bei möglichst kurzer Garzeit und 80 bis ___ °C. Welche Zahl fehlt?",
+        "answer": 90,
+        "hint": "Die obere Grenze liegt 10 Grad über 80 °C.",
+        "explanation": "Die wenigsten Verluste gibt es bei möglichst kurzer Garzeit und 80 bis 90 °C. Das ist knapp unter dem Siedepunkt von Wasser."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍽️ Das Fachbuch nennt Beispiele für die Wahl des Garverfahrens. Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥟 Kartoffelklöße, die leicht zerfallen"}, "right": {"text": "Garziehen"} },
+          { "left": {"text": "🍚 Reis, Hirse oder Grieß"}, "right": {"text": "Quellen lassen oder dünsten"} },
+          { "left": {"text": "🥘 Ungarischer Gulasch"}, "right": {"text": "Länger schmoren"} }
+        ],
+        "memory": false,
+        "explanation": "Das Lebensmittel entscheidet mit. Kartoffelklöße zerfallen leicht. Darum lässt du sie in viel Flüssigkeit gar ziehen, die nicht sprudelt. Reis, Hirse und Grieß nehmen Flüssigkeit auf. Du lässt sie quellen oder dünstest sie. Gulasch bekommt durch langes Schmoren sein Aroma."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Welche Aussage zur Wahl des Garverfahrens stimmt?",
+        "options": [
+          { "text": "Das passende Gargerät spart Garzeit, Arbeitszeit und Energie.", "correct": true },
+          { "text": "Für eine fettarme Kostform wählst du Verfahren mit viel Röststoffen." },
+          { "text": "Der Genusswert ist egal, wenn das Essen nur gesund ist." }
+        ],
+        "explanation": "Gargerät und Kochgeschirr beeinflussen Garzeit, Arbeitszeit und Energieverbrauch. Für spezielle Kostformen verringerst du Fett, Röststoffe und Kruste. Und neben gesundem Essen zählt auch der Genusswert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👵 Du kochst im Seniorenheim. Wie garst du das Gemüse für viele ältere Menschen?",
+        "options": [
+          { "text": "Etwas weicher gegart.", "correct": true },
+          { "text": "Al dente, also mit Biss." },
+          { "text": "Nur ganz kurz blanchiert." }
+        ],
+        "explanation": "Viele Speisen gart man heute al dente, also mit Biss. Ältere Menschen mögen Gemüse und Fleisch aber oft weicher. Die Personengruppe entscheidet mit, wie du garst."
+      }
+    }
+  ]
+}

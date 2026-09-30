@@ -1,0 +1,111 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-energiesparend-garen",
+  "title": "Energiesparend kochen und garen",
+  "sort": 601,
+  "intro": "⚡ Mit einem bewussten Einkauf trägst du dazu bei, dass weniger CO₂ entsteht. Aber auch bei der Zubereitung kannst du Energie sparen.\n\nSo sparst du Energie. Du garst im Topf mit geschlossenem Deckel. Du nutzt die Nachwärme der Geräte, zum Beispiel vom Backofen, von der Kochstelle und von der Fritteuse. Nachwärme ist die Wärme, die nach dem Ausschalten noch im Gerät steckt.\n\nDu lastest die Geräte gut aus. Das heißt: Du nutzt den Platz voll aus, zum Beispiel im Backofen, im Kombidämpfer oder in der Kippbratpfanne.\n\nDu stellst keine heißen oder warmen Speisen in den Kühlschrank oder in den Gefrierschrank. Du lässt sie vorher abkühlen, aber schnell: in kleinen Portionen und nicht stundenlang. Sonst vermehren sich Keime. Und du taust Gefriergut möglichst im Kühlschrank oder im Kühlhaus auf.\n\nMERKE: Kochendes Wasser, zum Beispiel für Tee, machst du am besten im Wasserkocher. Das ist die energiesparsamste Methode.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚡ Spart das Energie oder verschwendet es Energie? Sortiere.",
+        "buckets": [
+          { "id": "spart", "label": "Spart Energie", "icon": "✅" },
+          { "id": "weg", "label": "Verschwendet Energie", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Die Nachwärme der Kochstelle nutzen", "bucket": "spart" },
+          { "text": "Den Backofen voll auslasten", "bucket": "spart" },
+          { "text": "Heiße Suppe direkt in den Kühlschrank stellen", "bucket": "weg" },
+          { "text": "Warmes Gulasch sofort in den Gefrierschrank stellen", "bucket": "weg" },
+          { "text": "Den Backofen für ein halbes Blech anheizen", "bucket": "weg" }
+        ],
+        "explanation": "Frag dich: Geht Wärme oder Kälte verloren, oder wird sie genutzt? Nachwärme und ein voller Backofen nutzen die Energie aus. Heiße oder warme Speisen im Kühl- oder Gefrierschrank zwingen das Gerät zu mehr Arbeit. Lass sie vorher schnell in kleinen Portionen abkühlen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫖 Wie machst du Wasser für Tee am energiesparsamsten heiß?",
+        "options": [
+          { "text": "Im Wasserkocher.", "correct": true },
+          { "text": "Im Topf ohne Deckel." },
+          { "text": "Im Kochkessel." }
+        ],
+        "explanation": "Das Fachbuch sagt: Kochendes Wasser, zum Beispiel für Tee, ist im Wasserkocher am energiesparsamsten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Was heißt: ein Gerät auslasten?",
+        "options": [
+          { "text": "Den Platz im Gerät voll nutzen.", "correct": true },
+          { "text": "Das Gerät auf die höchste Stufe stellen." },
+          { "text": "Das Gerät nur zur Hälfte füllen." }
+        ],
+        "explanation": "Auslasten heißt: Du nutzt die ganze Kapazität. Ein voller Backofen braucht kaum mehr Energie als ein halb leerer, gart aber viel mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Bei welchen Geräten lohnt sich das Auslasten laut Fachbuch besonders?",
+        "options": [
+          { "text": "Backofen, Kombidämpfer und Kippbratpfanne.", "correct": true },
+          { "text": "Wasserkocher, Toaster und der kleine Standmixer." },
+          { "text": "Kühlschrank, Spüle und Abfalleimer." }
+        ],
+        "explanation": "Das Fachbuch nennt Backofen, Kombidämpfer und Kippbratpfanne. Diese Geräte heizen einen großen Raum oder eine große Fläche auf. Deshalb solltest du sie gut füllen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♨️ Welche Geräte geben Nachwärme ab, die du nutzen kannst?",
+        "options": [
+          { "text": "Backofen, Kochstelle und Fritteuse.", "correct": true },
+          { "text": "Kühlschrank, Gefrierschrank und Spüle." },
+          { "text": "Wasserhahn, Waage und Stabmixer." }
+        ],
+        "explanation": "Nach dem Ausschalten bleiben Backofen, Kochstelle und Fritteuse noch eine Weile heiß. Diese Nachwärme kannst du zum Weitergaren nutzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Wo taust du Gefriergut am besten auf?",
+        "options": [
+          { "text": "Im Kühlschrank oder im Kühlhaus.", "correct": true },
+          { "text": "Auf der warmen Heizung im Flur." },
+          { "text": "Im warmen Backofen bei 50 °C." }
+        ],
+        "explanation": "Gefriergut taust du möglichst in Kühleinrichtungen auf. Das nennt das Fachbuch als Energiesparmaßnahme. Das gefrorene Lebensmittel gibt dabei Kälte an den Kühlschrank ab. Und im Kühlschrank vermehren sich Keime kaum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Womit trägst du außer beim Kochen noch zur CO₂-Minderung bei?",
+        "options": [
+          { "text": "Mit einem bewussten Einkauf.", "correct": true },
+          { "text": "Mit längeren Garzeiten bei offenem Topf." },
+          { "text": "Mit mehr Einwegverpackung." }
+        ],
+        "explanation": "Ein bewusster Wareneinsatz, zum Beispiel saisonal, regional und mit weniger Fleisch, senkt den CO₂-Ausstoß. Dazu kommt das Energiesparen beim Garen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Wie garst du im Topf energiesparend?",
+        "options": [
+          { "text": "Mit geschlossenem Deckel.", "correct": true },
+          { "text": "Ganz ohne Deckel, damit du alles siehst." },
+          { "text": "Mit halb offenem Deckel." }
+        ],
+        "explanation": "Mit geschlossenem Deckel bleibt die Wärme im Topf. So brauchst du weniger Energie."
+      }
+    }
+  ]
+}

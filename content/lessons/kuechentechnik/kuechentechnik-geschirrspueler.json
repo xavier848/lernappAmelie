@@ -1,0 +1,130 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-geschirrspueler",
+  "title": "Geschirrspüler: Maßgedeck und Bauformen",
+  "sort": 593,
+  "intro": "🍽️ Spülen von Hand ist eine unbeliebte Arbeit. Es kostet wertvolle Zeit, Kraft, Geld und Ressourcen. Je nach Haushalt entsteht unterschiedlich viel Geschirr, manchmal mehrmals am Tag. Maschinelles Spülen ist bequemer und hygienischer. Es ist außerdem umweltverträglicher und wirtschaftlicher.\n\nGeschirrspüler sind immer sparsamer geworden. Pro Spülgang und Maßgedeck brauchten sie 1994 noch 0,11 kWh Energie und 1,58 Liter Wasser. 2009 waren es nur noch 0,07 kWh und 0,71 Liter. Das sind bis zu 35 % weniger Energie und bis zu 55 % weniger Wasser.\n\nWie viel in einen Geschirrspüler passt, gibt man in Maßgedecken an. Es gibt Geräte für 4 bis 14 Maßgedecke. Je nach Anzahl gehört noch ein Satz Serviergeschirr dazu: 1 ovale Platte, 1 große runde Schüssel und 1 kleine runde Schüssel. Dazu Servierbesteck: 2 Servierlöffel, 1 Serviergabel und 1 Soßenlöffel.\n\nMERKE: Ein Maßgedeck umfasst 1 Suppenteller, 1 flachen Teller, 1 Dessertteller, 1 Tasse mit Untertasse, 1 Trinkglas und 1 komplettes Besteck: Messer, Gabel, Suppenlöffel, Teelöffel und Dessertlöffel.\n\nBauformen: Es gibt Standgeräte und Unterbaugeräte. Bei den Einbaugeräten unterscheidet man integrierbare und voll integrierbare Geräte. Ein integrierbares Gerät wird unter eine Arbeitsplatte gebaut. Eine Tür passend zur Küchenfront verkleidet es, die Bedienblende bleibt sichtbar. Ein voll integrierbares Gerät ist ganz hinter der Möbelfront versteckt. Man sieht den Geschirrspüler nicht. Die Schalterblende liegt innen, oben am Rand der Tür. Hoch integrierbare Geräte werden in einen Hochschrank eingebaut.\n\nBeim Spülen wird das Geschirr gereinigt und getrocknet. Wie gut das gelingt, bestimmen die Spülfaktoren. Das gilt beim Spülen von Hand und in der Maschine.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Welche Vorteile hat maschinelles Spülen?",
+        "options": [
+          { "text": "Bequemer, hygienischer, umweltverträglicher, wirtschaftlicher", "correct": true },
+          { "text": "Schneller, aber unhygienischer und viel teurer als von Hand" },
+          { "text": "Nur bequemer, sonst hat es gar keine weiteren Vorteile mehr" }
+        ],
+        "explanation": "Der Geschirrspüler ist nicht nur bequemer und hygienischer. Er ist auch umweltverträglicher und wirtschaftlicher als das Spülen von Hand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Wie viel Wasser brauchte ein Geschirrspüler 2009 pro Maßgedeck und Spülgang?",
+        "options": [
+          { "text": "0,71 Liter", "correct": true },
+          { "text": "1,58 Liter" },
+          { "text": "7,1 Liter" },
+          { "text": "0,07 Liter" }
+        ],
+        "explanation": "2009 waren es nur noch 0,71 Liter pro Maßgedeck und Spülgang. Früher war es mehr als doppelt so viel."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📊 Verbrauch pro Maßgedeck und Spülgang. Verbinde.",
+        "explanation": "Moderne Geschirrspüler sind viel sparsamer. Beim Wasser ist die Ersparnis größer als bei der Energie.",
+        "pairs": [
+          { "left": {"text": "⚡ Energie 1994"}, "right": {"text": "0,11 kWh"} },
+          { "left": {"text": "⚡ Energie 2009"}, "right": {"text": "0,07 kWh"} },
+          { "left": {"text": "💧 Wasser 1994"}, "right": {"text": "1,58 Liter"} },
+          { "left": {"text": "📉 Ersparnis bei der Energie"}, "right": {"text": "bis zu 35 %"} },
+          { "left": {"text": "📉 Ersparnis beim Wasser"}, "right": {"text": "bis zu 55 %"} }
+        ]
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Gehört das zum Maßgedeck oder zum Servier-Satz? Sortiere.",
+        "explanation": "Frag dich: Braucht das eine einzelne Person an ihrem Platz? Dann gehört es zum Maßgedeck. Braucht man es zum Auftragen für alle? Dann gehört es zum Servier-Satz.",
+        "buckets": [
+          { "id": "mg", "label": "Maßgedeck", "icon": "🍽️" },
+          { "id": "serv", "label": "Servier-Satz", "icon": "🍲" }
+        ],
+        "items": [
+          { "text": "Suppenteller", "bucket": "mg" },
+          { "text": "Flacher Teller", "bucket": "mg" },
+          { "text": "Dessertteller", "bucket": "mg" },
+          { "text": "Tasse mit Untertasse", "bucket": "mg" },
+          { "text": "Trinkglas", "bucket": "mg" },
+          { "text": "Ovale Platte", "bucket": "serv" },
+          { "text": "Große runde Schüssel", "bucket": "serv" },
+          { "text": "Kleine runde Schüssel", "bucket": "serv" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Was gehört zum kompletten Besteck eines Maßgedecks?",
+        "options": [
+          { "text": "Messer, Gabel, Suppen-, Tee- und Dessertlöffel", "correct": true },
+          { "text": "Messer, Gabel und nur ein einziger Teelöffel" },
+          { "text": "Messer, Gabel, Kuchengabel und ein Kaffeelöffel" }
+        ],
+        "explanation": "Das komplette Besteck im Maßgedeck hat fünf Teile: Messer, Gabel, Suppenlöffel, Teelöffel und Dessertlöffel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Welches Servierbesteck gehört zum Satz dazu?",
+        "options": [
+          { "text": "2 Servierlöffel, 1 Serviergabel, 1 Soßenlöffel", "correct": true },
+          { "text": "1 Servierlöffel, 2 Serviergabeln, 1 Tortenheber" },
+          { "text": "3 Suppenkellen und 1 Salatbesteck aus Holz" }
+        ],
+        "explanation": "Je nach Anzahl der Maßgedecke gehört ein Satz Servierbesteck zum Fassungsvermögen: 2 Servierlöffel, 1 Serviergabel und 1 Soßenlöffel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Für wie viele Maßgedecke gibt es Geschirrspüler?",
+        "options": [
+          { "text": "4 bis 14 Maßgedecke", "correct": true },
+          { "text": "6 bis 16 Maßgedecke" },
+          { "text": "2 bis 10 Maßgedecke" }
+        ],
+        "explanation": "Je nach Gerätetyp und Größe gibt es Geschirrspüler für 4 bis 14 Maßgedecke."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏗️ Bauformen von Geschirrspülern. Verbinde.",
+        "explanation": "Frag dich: Wo sitzt das Gerät, und sieht man noch etwas davon? Unter der Arbeitsplatte mit sichtbarer Blende: integrierbar. Ganz verdeckt, Blende innen an der Tür: voll integrierbar. Im Hochschrank: hoch integrierbar. Frei stehend: Standgerät.",
+        "pairs": [
+          { "left": {"text": "🔲 Integrierbar"}, "right": {"text": "Unter der Arbeitsplatte, Bedienblende sichtbar"} },
+          { "left": {"text": "🙈 Voll integrierbar"}, "right": {"text": "Ganz verdeckt, Schalterblende innen an der Tür"} },
+          { "left": {"text": "⬆️ Hoch integrierbar"}, "right": {"text": "In einen Hochschrank eingebaut"} },
+          { "left": {"text": "🧍 Standgerät"}, "right": {"text": "Steht als eigenes Gerät frei"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was bestimmt, wie gut das Geschirr beim Spülen sauber wird?",
+        "options": [
+          { "text": "Die Spülfaktoren", "correct": true },
+          { "text": "Die Zahl der Maßgedecke" },
+          { "text": "Die Bauform des Geräts" }
+        ],
+        "explanation": "Die Reinigungswirkung und das Ergebnis bestimmen die Spülfaktoren. Das gilt beim Spülen von Hand und in der Maschine."
+      }
+    }
+  ]
+}

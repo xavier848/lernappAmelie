@@ -1,0 +1,135 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-backofen-beheizung",
+  "title": "Backofen: Ober-/Unterhitze, Umluft, Grill",
+  "sort": 583,
+  "intro": "🔥 Backöfen können heute viel mehr als früher. Ein Trend ist: Geräte wie die Solo-Mikrowelle oder der Dampfgarer werden in den Backofen eingebaut.\n\nEs gibt drei Grundbeheizungsarten: Ober- und Unterhitze, Umluft und Grillen.\n\nOber- und Unterhitze: Rohrheizkörper oben und unten geben Strahlungshitze ab. Der obere liegt meist offen und dient bei Bedarf als Grill. Die Temperatur reicht meist von 50 bis 275 °C. Die Luft bewegt sich nur von selbst. Das nennt man natürliche Konvektion. Deshalb kannst du nur auf einer Ebene backen. Ober- und Unterhitze lassen sich auch einzeln einschalten. Gut ist diese Beheizung für Brandteig und Biskuit, denn sie trocknen nicht so schnell aus. Backöfen nur mit dieser Beheizung sind günstig in der Anschaffung.\n\nUmluft oder Heißluft: Ein Ventilator verteilt die heiße Luft gleichmäßig im Backofen. Das nennt man gelenkte Konvektion. Die Wärme verteilt sich schnell. Deshalb stellst du die Temperatur etwa 20 °C niedriger ein. Das spart Energie. Mit Umluft kannst du auf mehreren Ebenen gleichzeitig backen. Varianten heißen zum Beispiel Heißluft plus, Multi-Heißluft oder 3D-Heißluft.\n\nGrillen: Ein Rohrheizkörper gibt von oben starke Strahlungshitze ab, bis 300 °C. Der Grill ist fest eingebaut, oder du rüstest ihn als Einsteckgrill an einer Spezialsteckdose nach. Achte auf die Angabe des Herstellers: Grillen bei offener oder bei geschlossener Tür. Beim Klein- oder Großflächengrill wählst du die Grillfläche passend zur Menge. Das spart Energie. Beim Umluftgrillen arbeiten Grill und Ventilator abwechselnd. So wird das Grillgut gleichmäßig gar, ohne dass du es wendest.\n\nMERKE: Umluft: etwa 20 °C weniger einstellen und auf mehreren Ebenen backen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Welchen Trend gibt es bei Backöfen?",
+        "options": [
+          { "text": "Mikrowelle oder Dampfgarer werden in den Backofen eingebaut.", "correct": true },
+          { "text": "Backöfen werden wieder als Standgeräte frei aufgestellt." },
+          { "text": "Backöfen haben nur noch eine einzige Beheizungsart." }
+        ],
+        "explanation": "Bekannte Einzelgeräte wie die Solo-Mikrowelle oder der Dampfgarer werden in den Backofen integriert. So kann man flexibler und bedarfsgerechter garen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Ober- und Unterhitze oder Umluft? Sortiere.",
+        "explanation": "Frag dich: Bewegt ein Ventilator die heiße Luft? Dann ist es Umluft, und du kannst auf mehreren Ebenen backen. Bewegt sich die Luft nur von selbst, ist es Ober- und Unterhitze mit nur einer Ebene.",
+        "buckets": [
+          { "id": "ou", "label": "Ober- und Unterhitze", "icon": "🔥" },
+          { "id": "um", "label": "Umluft", "icon": "🌀" }
+        ],
+        "items": [
+          { "text": "Nur eine Ebene zum Backen", "bucket": "ou" },
+          { "text": "Natürliche Konvektion", "bucket": "ou" },
+          { "text": "Oben und unten einzeln schaltbar", "bucket": "ou" },
+          { "text": "Günstig in der Anschaffung", "bucket": "ou" },
+          { "text": "Ein Ventilator verteilt die Luft", "bucket": "um" },
+          { "text": "Mehrere Ebenen gleichzeitig", "bucket": "um" },
+          { "text": "Gelenkte Konvektion", "bucket": "um" },
+          { "text": "3D-Heißluft oder Heißluft plus", "bucket": "um" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Welche Temperaturen schafft Ober- und Unterhitze meistens?",
+        "options": [
+          { "text": "50 bis 275 °C", "correct": true },
+          { "text": "50 bis 150 °C" },
+          { "text": "100 bis 500 °C" }
+        ],
+        "explanation": "Das gängige Temperaturspektrum bei Ober- und Unterhitze reicht von 50 bis 275 °C."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍪 Im Rezept steht: 200 °C Ober- und Unterhitze. Du backst mit Umluft. Wie viel °C stellst du ein?",
+        "answer": 180,
+        "hint": "Mit Umluft stellst du etwa 20 °C weniger ein.\n200 − 20 = ?",
+        "explanation": "Umluft verteilt die Wärme schneller. Deshalb stellst du etwa 20 °C weniger ein: 200 °C − 20 °C = 180 °C. Das spart Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Du backst einen Biskuit. Warum ist Ober- und Unterhitze hier gut?",
+        "options": [
+          { "text": "Er trocknet nicht so schnell aus.", "correct": true },
+          { "text": "Er wird schneller schön braun." },
+          { "text": "Er geht höher auf, weil ein Ventilator bläst." }
+        ],
+        "explanation": "Bei Ober- und Unterhitze trocknen Gebäck aus Brandteig oder Biskuitmasse nicht so schnell aus. Darum ist sie dafür besonders vorteilhaft."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Wie heiß wird der Grill im Backofen?",
+        "options": [
+          { "text": "Bis zu 300 °C", "correct": true },
+          { "text": "Bis zu 150 °C" },
+          { "text": "Bis zu 700 °C" }
+        ],
+        "explanation": "Beim Grillen gibt ein Rohrheizkörper von oben hohe Strahlungshitze ab. Das Temperaturspektrum reicht bis zu 300 °C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Grillst du bei offener oder bei geschlossener Backofentür?",
+        "options": [
+          { "text": "So, wie es der Hersteller angibt", "correct": true },
+          { "text": "Immer bei ganz weit offener Tür" },
+          { "text": "Immer bei fest geschlossener Tür" }
+        ],
+        "explanation": "Das hängt vom Gerät ab. Darum achtest du auf die Herstellerangabe, bevor du grillst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Du grillst nur zwei kleine Steaks. Was spart Energie?",
+        "options": [
+          { "text": "Den Kleinflächengrill wählen", "correct": true },
+          { "text": "Den Großflächengrill wählen" },
+          { "text": "Zusätzlich die Unterhitze einschalten" }
+        ],
+        "explanation": "Die Grillfläche ist variabel schaltbar. Du stellst sie nach der Menge des Grillguts ein. Für wenig Grillgut reicht die kleine Fläche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Was ist der Vorteil beim Umluftgrillen?",
+        "options": [
+          { "text": "Grill und Ventilator wechseln sich ab, du musst nicht wenden.", "correct": true },
+          { "text": "Grill und Unterhitze heizen gleichzeitig, so wird es schneller gar." },
+          { "text": "Du kannst dabei immer bei ganz offener Tür grillen, ohne Rauch." }
+        ],
+        "explanation": "Beim Umluftgrillen arbeiten Grill und Ventilator im Wechsel. So wird das Grillgut gleichmäßig gegrillt, ohne dass du es wenden musst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was ist ein Einsteckgrill?",
+        "options": [
+          { "text": "Ein Grill zum Nachrüsten für eine Spezialsteckdose", "correct": true },
+          { "text": "Ein Holzkohlegrill für den Garten oder den Balkon" },
+          { "text": "Ein Grillrost, den man in die Schienen steckt" }
+        ],
+        "explanation": "Der Grill im Backofen ist fest eingebaut oder als Einsteckgrill nachrüstbar. Er wird an einer Spezialsteckdose angeschlossen."
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-glaeser",
+  "title": "Gläser: Formen und Vorbereitung",
+  "sort": 573,
+  "intro": "🍷 Gläser unterscheiden sich in der Herstellung und in der Form. Bechergläser haben keinen Stiel. Sie sind für Wasser, Whisky, Limonade oder Bier. Stielgläser haben einen Stiel. Sie sind für Wein, Sekt oder Cocktails.\n\nWichtige Glasformen im Buch: Bordeauxglas, Rotweinglas, Burgunderglas, Weißweinglas, Sektglas, Cocktailschale, Sherryglas, Biertulpe, Whiskeybecher und Longdrinkglas. Das Sektglas ist eine schmale, hohe Flöte mit Stiel. Die Cocktailschale hat eine V-Form. Whiskeybecher und Longdrinkglas haben keinen Stiel. Der Whiskeybecher ist niedrig und breit, das Longdrinkglas hoch und schmal.\n\nGläser gibt es, wie Geschirr, auch aus Arcopal. Arcopal ist gehärtetes Glas. Es ist stapelbar und hitzebeständig. Arcopal-Gläser nimmt man gern für draußen, zum Beispiel beim Camping, Picknick oder Segeln. Auch die Gemeinschaftsverpflegung kauft sie gern.\n\nMERKE: Vor dem Eindecken hältst du jedes Glas gegen das Licht. So siehst du, ob es sauber ist. Wenn nötig, reinigst du es.\n\nDann polierst du die Gläser mit einem fusselfreien Gläser- oder Geschirrtuch aus Halbleinen oder Leinen. Beschädigte Gläser sortierst du aus. Günstig sind Baumwollhandschuhe. Dann gibt es keine Fingerabdrücke.\n\nMERKE: Stielgläser für Wein, Sekt und Cocktails. Bechergläser für Wasser, Whisky, Limonade und Bier.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥂 Welches Getränk kommt in welches Glas? Sortiere.",
+        "buckets": [
+          { "id": "stiel", "label": "Stielglas", "icon": "🍷" },
+          { "id": "becher", "label": "Becherglas", "icon": "🥃" }
+        ],
+        "items": [
+          { "text": "Wein", "bucket": "stiel" },
+          { "text": "Sekt", "bucket": "stiel" },
+          { "text": "Cocktail", "bucket": "stiel" },
+          { "text": "Wasser", "bucket": "becher" },
+          { "text": "Whisky", "bucket": "becher" },
+          { "text": "Limonade", "bucket": "becher" },
+          { "text": "Bier", "bucket": "becher" }
+        ],
+        "explanation": "Merke dir die drei Stielglas-Getränke: Wein, Sekt und Cocktails. Alles andere aus der Liste, also Wasser, Whisky, Limonade und Bier, kommt ins Becherglas."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔍 Woran erkennst du das Glas? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Sektglas"}, "right": {"text": "Schmale, hohe Flöte mit Stiel"} },
+          { "left": {"text": "Cocktailschale"}, "right": {"text": "Schale in V-Form mit Stiel"} },
+          { "left": {"text": "Whiskeybecher"}, "right": {"text": "Niedriger, breiter Becher ohne Stiel"} },
+          { "left": {"text": "Longdrinkglas"}, "right": {"text": "Hoher, schmaler Becher ohne Stiel"} }
+        ],
+        "explanation": "Achte zuerst auf den Stiel, dann auf die Form. Mit Stiel: Das Sektglas ist eine schmale, hohe Flöte, die Cocktailschale sieht aus wie ein V. Ohne Stiel: Der Whiskeybecher ist niedrig und breit, das Longdrinkglas hoch und schmal."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍷 Welche vier Gläser sind Weingläser?",
+        "options": [
+          { "text": "Bordeauxglas, Rotweinglas, Burgunderglas, Weißweinglas", "correct": true },
+          { "text": "Biertulpe, Longdrinkglas, Whiskeybecher, Sherryglas" },
+          { "text": "Burgunderglas, Longdrinkglas, Whiskeybecher, Biertulpe" },
+          { "text": "Sektglas, Cocktailschale, Whiskeybecher, Biertulpe" }
+        ],
+        "explanation": "Die Weingläser im Buch sind: Bordeauxglas, Rotweinglas, Burgunderglas und Weißweinglas. Bordeaux und Burgund sind berühmte Weingegenden in Frankreich. Sekt, Cocktail, Sherry, Bier, Whiskey und Longdrinks haben eigene Gläser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Was ist Arcopal?",
+        "options": [
+          { "text": "Gehärtetes Glas, stapelbar und hitzebeständig.", "correct": true },
+          { "text": "Sehr dünnes Kristallglas, nur für Feste." },
+          { "text": "Durchsichtiger Kunststoff, der wie Glas aussieht." },
+          { "text": "Porzellan mit einer Glasur aus Glas." }
+        ],
+        "explanation": "Arcopal ist gehärtetes Glas. Es ist stapelbar und hitzebeständig. Das gilt für Arcopal-Gläser und für Arcopal-Geschirr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⛺ Wofür kauft man gern Arcopal-Gläser?",
+        "options": [
+          { "text": "Für draußen wie Camping und für die Gemeinschaftsverpflegung.", "correct": true },
+          { "text": "Nur für festliche Anlässe wie Hochzeiten und Taufen im Restaurant." },
+          { "text": "Nur als Vorratsgläser für Marmelade im Kühlschrank oder Keller." },
+          { "text": "Nur für heiße Getränke wie Kaffee und Tee am Frühstückstisch." }
+        ],
+        "explanation": "Arcopal-Gläser sind robust und stapelbar. Darum nimmt man sie gern als Outdoor-Ausrüstung, zum Beispiel beim Camping, Picknick oder Segeln. Auch die Gemeinschaftsverpflegung schafft sie gern an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Wie prüfst du am besten, ob ein Glas sauber ist?",
+        "options": [
+          { "text": "Ich halte es gegen das Licht.", "correct": true },
+          { "text": "Ich streiche mit dem Finger über den Rand." },
+          { "text": "Ich rieche kurz an dem Glas." },
+          { "text": "Ich puste einmal kräftig hinein." }
+        ],
+        "explanation": "Gegen das Licht siehst du Flecken, Fussel und Wasserränder sofort. Mit dem Finger würdest du nur neue Abdrücke machen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧤 Gläser vor dem Eindecken: Richtig oder falsch? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Mit einem Tuch aus Halbleinen polieren", "bucket": "richtig" },
+          { "text": "Dabei Baumwollhandschuhe tragen", "bucket": "richtig" },
+          { "text": "Beschädigte Gläser aussortieren", "bucket": "richtig" },
+          { "text": "Mit einem flauschigen Frottiertuch polieren", "bucket": "falsch" },
+          { "text": "Ein Glas mit feinem Sprung eindecken", "bucket": "falsch" },
+          { "text": "Das polierte Glas mit bloßen Fingern am Kelch anfassen", "bucket": "falsch" }
+        ],
+        "explanation": "Frag dich: Bleibt das Glas sauber, heil und ohne Fussel? Tücher aus Halbleinen oder Leinen fusseln nicht. Handschuhe verhindern Fingerabdrücke. Kaputte Gläser kommen nie auf den Tisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍺 Wofür ist die Biertulpe?",
+        "options": [
+          { "text": "Für Bier.", "correct": true },
+          { "text": "Für Sekt." },
+          { "text": "Für Sherry." }
+        ],
+        "explanation": "Die Biertulpe ist ein Bierglas. Für Sekt nimmst du das Sektglas, für Sherry das Sherryglas."
+      }
+    }
+  ]
+}

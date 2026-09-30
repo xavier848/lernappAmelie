@@ -1,0 +1,147 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-dge-ernaehrungskreis",
+  "title": "Der DGE-Ernährungskreis",
+  "sort": 584,
+  "intro": "⭕ Der DGE-Ernährungskreis zeigt auf einen Blick, wie eine gesunde und ökologisch nachhaltige Ernährung aussieht. Ökologisch nachhaltig heißt: gut für die Umwelt. Der Kreis ist eine Art Wegweiser mit Beispielen für eine gute Lebensmittelauswahl.\n\nDie Größe einer Lebensmittelgruppe zeigt ihren Anteil an der Ernährung. Je größer die Gruppe, desto mehr kannst du daraus essen. Innerhalb der Gruppen isst du abwechslungsreich und nutzt die Vielfalt.\n\nEine gesunde und umweltschonende Ernährung ist zu mehr als drei Vierteln pflanzlich und zu knapp einem Viertel tierisch.\n\nDie größte Gruppe sind die Getränke. Sie stehen in der Mitte des Kreises. Danach bilden pflanzliche Lebensmittel den größten Teil: Obst, Gemüse, Hülsenfrüchte, Nüsse, Samen, Getreide, Kartoffeln und Öle. Tierische Lebensmittel ergänzen die Auswahl: Milch und Milchprodukte, Fisch, Fleisch und Ei.\n\nSchaffst du die Auswahl an einem Tag nicht, ist das nicht schlimm. Wichtig ist die Wochenbilanz. Auch genug Bewegung gehört zu einer gesunden Lebensweise.\n\nGetreideerzeugnisse und Kartoffeln: Brot, Nudeln, Reis und Getreideflocken, am besten aus Vollkorn, sowie Kartoffeln haben kaum Fett. Sie enthalten vor allem Kohlenhydrate in Form von Stärke. Dazu viele Vitamine, Mineralstoffe und Ballaststoffe.\n\nMERKE: Am Tag passen 4 bis 6 Scheiben Brot. 2 Scheiben Brot kannst du durch 50 bis 60 g Getreideflocken ersetzen. Dazu kommt eine Portion Kartoffeln oder Reis oder Nudeln.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⭕ Was zeigt der DGE-Ernährungskreis?",
+        "options": [
+          { "text": "Wie eine gesunde und ökologisch nachhaltige Ernährung aussieht.", "correct": true },
+          { "text": "Wie viel Energie jedes einzelne Lebensmittel ganz genau liefert." },
+          { "text": "In welcher Reihenfolge man die Speisen am Tisch serviert." }
+        ],
+        "explanation": "Der DGE-Kreis ist ein Wegweiser. Er zeigt, welche Lebensmittel du wie oft wählst, damit du gesund isst und die Umwelt schonst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Welche Gruppe ist im DGE-Ernährungskreis die größte, und wo steht sie?",
+        "options": [
+          { "text": "Die Getränke, in der Mitte", "correct": true },
+          { "text": "Das Gemüse, ganz außen am Rand" },
+          { "text": "Das Getreide, ganz oben" }
+        ],
+        "explanation": "Die Getränke sind die größte Gruppe. Sie stehen in der Mitte des Kreises. Danach folgen die pflanzlichen Lebensmittel mit dem größten Teil des Rings."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📐 Was zeigt die Größe einer Gruppe im Kreis?",
+        "options": [
+          { "text": "Ihren Anteil: Je größer, desto mehr kannst du daraus essen.", "correct": true },
+          { "text": "Wie teuer die Lebensmittel in dieser Gruppe im Laden meistens sind." },
+          { "text": "Wie lange die Lebensmittel dieser Gruppe haltbar sind." }
+        ],
+        "explanation": "Die Fläche einer Gruppe zeigt ihren Anteil an der Ernährung. Große Gruppen wie Gemüse darfst du reichlich essen. Kleine Gruppen ergänzen nur."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Wie viel der Ernährung ist pflanzlich, wie viel tierisch?",
+        "options": [
+          { "text": "Mehr als ¾ pflanzlich, knapp ¼ tierisch", "correct": true },
+          { "text": "Genau die Hälfte pflanzlich, die Hälfte tierisch" },
+          { "text": "Knapp ¼ pflanzlich, mehr als ¾ tierisch" }
+        ],
+        "explanation": "Eine gesunde und umweltschonende Ernährung ist zu mehr als drei Vierteln pflanzlich. Tierische Lebensmittel machen nur knapp ein Viertel aus."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥕 Pflanzlich oder tierisch? Sortiere nach dem DGE-Kreis.",
+        "explanation": "Frag dich: Kommt das Lebensmittel von einer Pflanze oder von einem Tier? Pflanzliche Lebensmittel bilden den größten Teil des Kreises. Tierische Lebensmittel ergänzen die Auswahl nur.",
+        "buckets": [
+          { "id": "pfl", "label": "Pflanzlich", "icon": "🌱" },
+          { "id": "tier", "label": "Tierisch", "icon": "🐄" }
+        ],
+        "items": [
+          { "text": "Hülsenfrüchte", "bucket": "pfl" },
+          { "text": "Nüsse und Samen", "bucket": "pfl" },
+          { "text": "Öle", "bucket": "pfl" },
+          { "text": "Kartoffeln", "bucket": "pfl" },
+          { "text": "Milchprodukte", "bucket": "tier" },
+          { "text": "Fisch", "bucket": "tier" },
+          { "text": "Fleisch", "bucket": "tier" },
+          { "text": "Ei", "bucket": "tier" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ Du hast heute kaum Gemüse gegessen. Was sagt die DGE dazu?",
+        "options": [
+          { "text": "Nicht schlimm, wichtig ist die Wochenbilanz.", "correct": true },
+          { "text": "Du musst morgen genau doppelt so viel essen." },
+          { "text": "Das ist ein schwerer Fehler für die Gesundheit." }
+        ],
+        "explanation": "Nicht jeder Tag muss perfekt sein. Es zählt, was du im Lauf der Woche isst. Das nennt man Wochenbilanz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Was enthalten Brot, Nudeln, Reis und Kartoffeln vor allem?",
+        "options": [
+          { "text": "Kohlenhydrate in Form von Stärke, aber kaum Fett", "correct": true },
+          { "text": "Vor allem Fett und dazu noch viel Eiweiß und Salz" },
+          { "text": "Vor allem Wasser und Zucker, kaum Stärke" }
+        ],
+        "explanation": "Getreideerzeugnisse und Kartoffeln liefern vor allem Stärke, also Kohlenhydrate. Sie haben kaum Fett. Dazu kommen Vitamine, Mineralstoffe und Ballaststoffe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Wie viele Scheiben Brot kannst du täglich essen?",
+        "options": [
+          { "text": "4 bis 6 Scheiben", "correct": true },
+          { "text": "1 bis 2 Scheiben" },
+          { "text": "8 bis 10 Scheiben" }
+        ],
+        "explanation": "Täglich passen 4 bis 6 Scheiben Brot. Einen Teil kannst du auch durch Getreideflocken ersetzen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥣 Du ersetzt 2 Scheiben Brot durch Getreideflocken. Wie viele Gramm Flocken sind das mindestens?",
+        "answer": 50,
+        "hint": "2 Scheiben Brot entsprechen 50 bis 60 g Getreideflocken. Gefragt ist die kleinere Zahl.",
+        "explanation": "2 Scheiben Brot kannst du durch 50 bis 60 g Getreideflocken ersetzen. Mindestens sind es also 50 g, zum Beispiel als Müsli."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Was kommt am Tag zum Brot noch dazu?",
+        "options": [
+          { "text": "Eine Portion Kartoffeln oder Reis oder Nudeln", "correct": true },
+          { "text": "Drei große Portionen Kartoffeln und dazu noch Reis" },
+          { "text": "Nichts mehr, Brot reicht als Getreide völlig" }
+        ],
+        "explanation": "Zum Brot kommt am Tag eine Portion Kartoffeln oder Reis oder Nudeln. Zum Beispiel als Pellkartoffeln oder Salzkartoffeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Getreideflocken, Brot und Nudeln wählst du am besten aus …",
+        "options": [
+          { "text": "Vollkorn", "correct": true },
+          { "text": "Weißmehl" },
+          { "text": "Maisstärke" }
+        ],
+        "explanation": "Vollkorn enthält mehr Vitamine, Mineralstoffe und Ballaststoffe als Weißmehl. Darum ist es die beste Wahl."
+      }
+    }
+  ]
+}

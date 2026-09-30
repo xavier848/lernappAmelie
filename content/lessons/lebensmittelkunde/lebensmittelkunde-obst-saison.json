@@ -1,0 +1,166 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-obst-saison",
+  "title": "Obst-Saison: frisch und gelagert",
+  "sort": 700,
+  "intro": "Der Saisonkalender zeigt, wann heimisches Obst bei uns Saison hat. Heimisch heißt: Es wächst bei uns. Im Kalender gibt es zwei Farben. Grün heißt: frisches Obst. Rot heißt: gelagertes Obst. Gelagertes Obst wurde geerntet und im Lager aufbewahrt. So kann man es auch nach der Erntezeit noch kaufen.\n\nIm Frühling kommt als erstes Obst der Rhabarber, von April bis Juni. Erdbeeren gibt es von Mai bis Juli.\n\nIm Sommer gibt es Süßkirschen im Juni und Juli. Himbeeren, Johannisbeeren und Stachelbeeren gibt es von Juni bis August. Heidelbeeren und Mirabellen gibt es im Juli und August. Brombeeren und Sauerkirschen gibt es von Juli bis September. Pflaumen gibt es von Juli bis Oktober. Pfirsiche und Nektarinen gibt es im August und September.\n\nÄpfel und Birnen gibt es frisch von August bis Oktober. Im September und Oktober reifen Esskastanien, Haselnüsse, Walnüsse, Holunderbeeren und Tafeltrauben. Die Quitte gibt es von September bis November. Sie ist das letzte frische Obst im Jahr.\n\nNur vier Sorten gibt es auch gelagert. Äpfel kommen von November bis Juli aus dem Lager. So gibt es Äpfel das ganze Jahr. Birnen, Haselnüsse und Walnüsse gibt es gelagert von November bis Februar. Alle anderen Sorten gibt es nur frisch in ihrer Saison.\n\nMERKE: Grün = frisch, Rot = gelagert. Der Rhabarber ist das erste frische Obst im Jahr, die Quitte das letzte. Äpfel gibt es frisch und aus dem Lager das ganze Jahr.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🟥 Im Saisonkalender ist der Balken für ein Obst in manchen Monaten rot. Was bedeutet das?",
+        "options": [
+          { "text": "In diesen Monaten kommt das Obst aus dem Lager.", "correct": true },
+          { "text": "In diesen Monaten ist das Obst reif und frisch vom Baum." },
+          { "text": "In diesen Monaten gibt es das Obst gar nicht." },
+          { "text": "In diesen Monaten kommt das Obst aus fernen Ländern." }
+        ],
+        "explanation": "Im Saisonkalender heißt Grün: frisches Obst. Rot heißt: gelagertes Obst. Es wurde nach der Ernte im Lager aufbewahrt und wird später verkauft."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Wann beginnt die frische Saison? Sortiere das Obst.",
+        "buckets": [
+          { "id": "frueh", "label": "Beginnt im Frühling (April oder Mai)", "icon": "🌷" },
+          { "id": "sommer", "label": "Beginnt im Sommer (Juni oder Juli)", "icon": "☀️" },
+          { "id": "herbst", "label": "Beginnt im Herbst (September)", "icon": "🍂" }
+        ],
+        "items": [
+          { "text": "Rhabarber", "bucket": "frueh" },
+          { "text": "Erdbeere", "bucket": "frueh" },
+          { "text": "Süßkirsche", "bucket": "sommer" },
+          { "text": "Johannisbeere", "bucket": "sommer" },
+          { "text": "Heidelbeere", "bucket": "sommer" },
+          { "text": "Quitte", "bucket": "herbst" },
+          { "text": "Walnuss", "bucket": "herbst" },
+          { "text": "Holunderbeere", "bucket": "herbst" }
+        ],
+        "explanation": "Frag dich: In welchem Monat beginnt die frische Saison? April und Mai zählen hier zum Frühling, Juni und Juli zum Sommer, September zum Herbst. Die Erdbeere beginnt im Mai, also im Frühling, auch wenn sie bis Juli reicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Noch mehr Obst: Wann beginnt die frische Saison? Sortiere.",
+        "buckets": [
+          { "id": "sommer", "label": "Beginnt im Sommer (Juni oder Juli)", "icon": "☀️" },
+          { "id": "herbst", "label": "Beginnt im Herbst (September)", "icon": "🍂" }
+        ],
+        "items": [
+          { "text": "Stachelbeere", "bucket": "sommer" },
+          { "text": "Himbeere", "bucket": "sommer" },
+          { "text": "Mirabelle", "bucket": "sommer" },
+          { "text": "Brombeere", "bucket": "sommer" },
+          { "text": "Sauerkirsche", "bucket": "sommer" },
+          { "text": "Esskastanie", "bucket": "herbst" },
+          { "text": "Haselnuss", "bucket": "herbst" },
+          { "text": "Tafeltraube", "bucket": "herbst" }
+        ],
+        "explanation": "Die meisten Beeren, die Kirschen und die Mirabellen beginnen im Sommer. Nüsse, Esskastanien und Tafeltrauben reifen erst im Herbst, ab September. Achtung: Die Holunderbeere ist eine Ausnahme. Sie ist zwar eine Beere, reift aber erst im Herbst."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wann gibt es dieses Obst frisch? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🍎 Apfel"}, "right": {"text": "August bis Oktober"} },
+          { "left": {"text": "🍑 Pfirsich und Nektarine"}, "right": {"text": "August und September"} },
+          { "left": {"text": "Pflaume"}, "right": {"text": "Juli bis Oktober"} },
+          { "left": {"text": "Brombeere"}, "right": {"text": "Juli bis September"} },
+          { "left": {"text": "🍒 Süßkirsche"}, "right": {"text": "Juni und Juli"} },
+          { "left": {"text": "🫐 Heidelbeere"}, "right": {"text": "Juli und August"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf den Anfang und das Ende. Die Süßkirsche kommt als Erste, schon im Juni. Heidelbeeren gibt es nur im Juli und August. Pfirsiche kommen erst im August. Pflaumen und Äpfel reichen bis in den Oktober, die Pflaume beginnt aber schon im Juli."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Welches heimische Obst gibt es im Jahr als erstes frisch?",
+        "options": [
+          { "text": "Rhabarber, ab April.", "correct": true },
+          { "text": "Erdbeeren, ab Mai." },
+          { "text": "Süßkirschen, ab Juni." },
+          { "text": "Stachelbeeren, ab Juni." }
+        ],
+        "explanation": "Laut Saisonkalender beginnt das Obstjahr mit dem Rhabarber im April. Er hat Saison von April bis Juni. Erdbeeren folgen im Mai, Süßkirschen und Stachelbeeren im Juni."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍂 Es ist November. Welches Obst bekommst du jetzt noch frisch?",
+        "options": [
+          { "text": "Die Quitte.", "correct": true },
+          { "text": "Die Tafeltraube." },
+          { "text": "Die Holunderbeere." },
+          { "text": "Die Pflaume." }
+        ],
+        "explanation": "Die Quitte hat frisch Saison von September bis November. Sie ist das letzte frische Obst im Jahr. Tafeltrauben und Holunderbeeren gibt es nur im September und Oktober. Pflaumen gibt es bis Oktober."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏚️ Gibt es das Obst auch aus dem Lager? Sortiere.",
+        "buckets": [
+          { "id": "beides", "label": "Frisch und gelagert", "icon": "🟥" },
+          { "id": "frisch", "label": "Nur frisch", "icon": "🟩" }
+        ],
+        "items": [
+          { "text": "Apfel", "bucket": "beides" },
+          { "text": "Birne", "bucket": "beides" },
+          { "text": "Walnuss", "bucket": "beides" },
+          { "text": "Haselnuss", "bucket": "beides" },
+          { "text": "Erdbeere", "bucket": "frisch" },
+          { "text": "Himbeere", "bucket": "frisch" },
+          { "text": "Quitte", "bucket": "frisch" },
+          { "text": "Pflaume", "bucket": "frisch" }
+        ],
+        "explanation": "Im Saisonkalender haben nur vier Sorten einen roten Balken für gelagertes Obst: Äpfel, Birnen, Haselnüsse und Walnüsse. Alle anderen Sorten gibt es nur frisch in ihrer Saison. Achtung: Die Quitte ist zwar hart, im Kalender steht sie aber nur als frisches Obst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Es ist Februar. Welches heimische Obst bekommst du jetzt?",
+        "options": [
+          { "text": "Birnen aus dem Lager.", "correct": true },
+          { "text": "Frische Birnen vom Baum." },
+          { "text": "Frische Himbeeren." },
+          { "text": "Gelagerte Quitten." }
+        ],
+        "explanation": "Birnen gibt es frisch von August bis Oktober. Danach kommen sie aus dem Lager, von November bis Februar. Himbeeren gibt es nur frisch im Sommer. Quitten werden laut Saisonkalender nicht gelagert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍒 Süßkirsche oder Sauerkirsche: Welche gibt es länger im Jahr frisch?",
+        "options": [
+          { "text": "Die Sauerkirsche, von Juli bis September.", "correct": true },
+          { "text": "Die Süßkirsche, von Juni bis September." },
+          { "text": "Beide gleich lang, von Mai bis Juli." },
+          { "text": "Die Süßkirsche, von Juli bis Oktober." }
+        ],
+        "explanation": "Die Süßkirsche hat nur im Juni und Juli Saison. Die Sauerkirsche kommt später, von Juli bis September. Sie gibt es also länger frisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍓 Zum Schluss: Wann gibt es frische Erdbeeren aus Deutschland?",
+        "options": [
+          { "text": "Von Mai bis Juli.", "correct": true },
+          { "text": "Von Oktober bis Dezember." },
+          { "text": "Von Januar bis März." }
+        ],
+        "explanation": "Erdbeeren haben bei uns von Mai bis Juli Saison. Im Herbst und Winter gibt es keine frischen Erdbeeren aus Deutschland."
+      }
+    }
+  ]
+}

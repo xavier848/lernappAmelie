@@ -1,0 +1,130 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-garverfahren-geraete-temperaturen",
+  "title": "Garverfahren: Geräte und Temperaturen",
+  "sort": 640,
+  "intro": "🌡️ Zu jedem Garverfahren nennt das Fachbuch eine Temperatur und passende Gargeräte. Die Geräte stehen in zwei Spalten: Privathaushalt und Großhaushalt. Großhaushalt heißt: Großküche, zum Beispiel in einem Heim oder in einer Kantine.\n\nBis 100 °C garst du in Wasser oder Dampf ohne Druck. Garziehen: 75 bis 90 °C. Stocken im Wasserbad: etwa 80 °C. Dünsten: 95 bis 100 °C. Kochen, Dämpfen und Blanchieren: 98 bis 100 °C.\n\nÜber 100 °C wird es beim Druckgaren und bei den trockenen Garverfahren. Backen: 150 bis 250 °C. Überbacken: 180 bis 220 °C. Grillen: 180 bis 300 °C. Frittieren: um 160 °C für Paniertes, um 180 °C für Unpaniertes.\n\nSchmoren hat zwei Temperaturbereiche. Zuerst brätst du bei 160 bis 200 °C an. Dann gart es mit Flüssigkeit bei 98 bis 100 °C weiter.\n\nMERKE: Der Kombidämpfer steht in der Großküche bei fast allen Garverfahren. Du kannst damit zum Beispiel dünsten, dämpfen, gar ziehen, schmoren, braten, überbacken und backen.\n\nWeitere Geräte der Großküche: Im Kochkessel kannst du kochen, dünsten, blanchieren und gar ziehen lassen. In der Kippbratpfanne kannst du dünsten, schmoren und braten. Auch das Wasserbad zum Stocken geht darin. In der Dampfdruckpfanne garst du unter Druck. Der Salamander hat starke Oberhitze. Mit ihm überbäckst und grillst du. Auch auf der Grillplatte grillst du.\n\nIm Privathaushalt nennt das Fachbuch zum Beispiel diese Geräte: den Bratentopf zum Schmoren, den Topf mit Siebeinsatz zum Dämpfen, das Raclettegerät zum Überbacken, den Sandwichtoaster zum Grillen und die Mikrowelle mit Zusatzausstattung zum Backen.\n\nMERKE: In der Mikrowelle garst du in Mikrowellenfolie oder in Bratfolie mit Spezialclip oder Faden. Metall kommt nicht in die Mikrowelle. Alufolie nimmst du im Backofen, im Wasserbad oder auf dem Holzkohlegrill.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌡️ Bis 100 °C oder über 100 °C? Sortiere die Garverfahren.",
+        "buckets": [
+          { "id": "bis", "label": "Bis 100 °C", "icon": "💧" },
+          { "id": "ueber", "label": "Über 100 °C", "icon": "🔥" }
+        ],
+        "items": [
+          { "text": "Kochen", "bucket": "bis" },
+          { "text": "Dünsten", "bucket": "bis" },
+          { "text": "Garziehen", "bucket": "bis" },
+          { "text": "Stocken im Wasserbad", "bucket": "bis" },
+          { "text": "Druckgaren", "bucket": "ueber" },
+          { "text": "Backen", "bucket": "ueber" },
+          { "text": "Grillen", "bucket": "ueber" },
+          { "text": "Frittieren", "bucket": "ueber" }
+        ],
+        "explanation": "Frag dich: Gart das Lebensmittel in Wasser oder Dampf, ohne Druck? Dann bleibt es bei höchstens 100 °C. Mit Druck, mit Fett oder mit heißer Luft wird es heißer als 100 °C."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌡️ Welche Temperatur nennt das Fachbuch? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥟 Garziehen"}, "right": {"text": "75 bis 90 °C"} },
+          { "left": {"text": "🥕 Dünsten"}, "right": {"text": "95 bis 100 °C"} },
+          { "left": {"text": "🥧 Backen"}, "right": {"text": "150 bis 250 °C"} },
+          { "left": {"text": "🧀 Überbacken"}, "right": {"text": "180 bis 220 °C"} },
+          { "left": {"text": "🍗 Grillen"}, "right": {"text": "180 bis 300 °C"} },
+          { "left": {"text": "🥘 Schmoren"}, "right": {"text": "160 bis 200 °C, dann 98 bis 100 °C"} }
+        ],
+        "memory": false,
+        "explanation": "Ordne zuerst die feuchten Verfahren. Sie bleiben bis 100 °C. Beim Garziehen sprudelt das Wasser nicht, darum ist es am kühlsten. Bei den trockenen Verfahren ist Grillen am heißesten. Schmoren hat als einziges zwei Temperaturbereiche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Welches Gerät nennt das Fachbuch in der Großküche bei fast allen Garverfahren?",
+        "options": [
+          { "text": "Den Kombidämpfer.", "correct": true },
+          { "text": "Die Kippbratpfanne." },
+          { "text": "Den Salamander." }
+        ],
+        "explanation": "Der Kombidämpfer steht in der Großküche bei fast allen Garverfahren. Er kann zum Beispiel dünsten, dämpfen, schmoren, überbacken und backen. Kippbratpfanne und Salamander nennt das Fachbuch nur bei einigen Verfahren."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏭 Welches Großküchengerät passt zu diesem Garverfahren? Sortiere.",
+        "buckets": [
+          { "id": "kessel", "label": "Kochkessel", "icon": "🍲" },
+          { "id": "kipp", "label": "Kippbratpfanne", "icon": "🍳" },
+          { "id": "sala", "label": "Salamander", "icon": "🔥" }
+        ],
+        "items": [
+          { "text": "Kochen", "bucket": "kessel" },
+          { "text": "Garziehen", "bucket": "kessel" },
+          { "text": "Schmoren", "bucket": "kipp" },
+          { "text": "Braten in der Pfanne", "bucket": "kipp" },
+          { "text": "Stocken im Wasserbad", "bucket": "kipp" },
+          { "text": "Überbacken", "bucket": "sala" },
+          { "text": "Grillen", "bucket": "sala" }
+        ],
+        "explanation": "Frag dich: Gart das Essen in viel Wasser? Dann passt der Kochkessel. Wird angebraten, oder steht eine Form im Wasserbad? Dann passt die Kippbratpfanne. Kommt starke Hitze von oben? Dann passt der Salamander."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏠 Gargeräte im Privathaushalt: Wofür nennt das Fachbuch sie? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Raclettegerät"}, "right": {"text": "Überbacken"} },
+          { "left": {"text": "Sandwichtoaster"}, "right": {"text": "Grillen"} },
+          { "left": {"text": "Topf mit Siebeinsatz"}, "right": {"text": "Dämpfen"} },
+          { "left": {"text": "Bratentopf"}, "right": {"text": "Schmoren"} },
+          { "left": {"text": "Mikrowelle mit Zusatzausstattung"}, "right": {"text": "Backen"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jedem Gerät: Kommt die Hitze von oben? Liegt das Essen zwischen zwei heißen Flächen? Gart es über dem Wasser? Oder wird es erst angebraten und dann mit Flüssigkeit gegart? Die Mikrowelle braucht zum Backen eine Zusatzausstattung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Du blanchierst in der Großküche Brokkoli. Was passt?",
+        "options": [
+          { "text": "98 bis 100 °C im Kochkessel.", "correct": true },
+          { "text": "75 bis 90 °C im Kombidämpfer." },
+          { "text": "160 bis 200 °C in der Kippbratpfanne." }
+        ],
+        "explanation": "Blanchieren heißt: kurz in reichlich siedendem Wasser garen. Siedendes Wasser hat 98 bis 100 °C. In der Großküche nimmst du dafür den Kochkessel. 75 bis 90 °C passen zum Garziehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📡 Du garst Gemüse in Folie in der Mikrowelle. Was nimmst du?",
+        "options": [
+          { "text": "Mikrowellenfolie oder Bratfolie mit Faden.", "correct": true },
+          { "text": "Alufolie, die du oben gut verschließt." },
+          { "text": "Bratfolie, verschlossen mit einem Metallclip." }
+        ],
+        "explanation": "In die Mikrowelle kommt kein Metall. Darum nimmst du Mikrowellenfolie oder Bratfolie mit Spezialclip oder Faden. Alufolie nimmst du im Backofen, im Wasserbad oder auf dem Holzkohlegrill."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Womit grillst du in der Großküche außer mit dem Salamander?",
+        "options": [
+          { "text": "Mit der Grillplatte.", "correct": true },
+          { "text": "Mit dem Kochkessel." },
+          { "text": "Mit der Dampfdruckpfanne." }
+        ],
+        "explanation": "In der Großküche grillst du mit dem Salamander oder auf der Grillplatte. Im Kochkessel kochst du. In der Dampfdruckpfanne garst du unter Druck."
+      }
+    }
+  ]
+}

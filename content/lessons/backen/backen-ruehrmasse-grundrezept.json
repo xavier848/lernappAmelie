@@ -1,0 +1,141 @@
+{
+  "topic_slug": "backen",
+  "slug": "backen-ruehrmasse-grundrezept",
+  "title": "Rührmasse: Grundrezept und Abwandlungen",
+  "sort": 620,
+  "intro": "🎂 Hier lernst du das Grundrezept für Rührmasse nach der All-in-Methode. All-in heißt: Alle Zutaten kommen auf einmal in die Schüssel.\n\nGrundrezept Rührmasse: 4 Eier. 250 g Butter oder Margarine. 200 g Zucker. 1 Päckchen Vanillezucker. 500 g Mehl. 1 Päckchen Backpulver. ⅛ l Milch.\n\nSo gehst du vor: Zuerst schlägst du jedes Ei einzeln in einer kleinen Schüssel oder Tasse auf. So prüfst du, ob es frisch ist. Dann gibst du alle Zutaten in eine Rührschüssel. Du verarbeitest sie mit dem Rührbesen des Handrührgeräts oder mit dem Rührwerk der Küchenmaschine. Nach 4 Minuten ist der Teig glatt.\n\nMERKE: Für ein Gastro-Norm-Backblech brauchst du das 1,5-fache Rezept.\n\nAbwandlung 1, versunkener Apfel- oder Pflaumenkuchen: Du nimmst das halbe Rezept und 600 bis 700 g Äpfel oder Pflaumen. Den Teig füllst du in eine Springform. Die Pflaumen putzt, wäschst, halbierst und entkernst du. Dann steckst du sie von außen nach innen in den Teig. Die Innenfläche zeigt nach oben. Du backst bei 180 °C 30 bis 40 Minuten.\n\nAbwandlung 2, Nuss-Muffins: Du gibst 250 g gemahlene Haselnüsse dazu. Das Mehl reduzierst du auf 250 g. Du füllst den Teig in Muffinförmchen. Du backst bei 175 °C 20 bis 25 Minuten.\n\nAbwandlung 3, Limokuchen: Statt der Milch nimmst du ⅛ l Orangenlimonade. Du füllst den Teig in eine Kastenform. Du backst bei 180 °C 40 bis 50 Minuten.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎂 Grundrezept Rührmasse: Wie viel kommt hinein? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥚 Eier"}, "right": {"text": "4 Stück"} },
+          { "left": {"text": "🧈 Butter oder Margarine"}, "right": {"text": "250 g"} },
+          { "left": {"text": "🍬 Zucker"}, "right": {"text": "200 g"} },
+          { "left": {"text": "🌾 Mehl"}, "right": {"text": "500 g"} },
+          { "left": {"text": "🥛 Milch"}, "right": {"text": "⅛ l"} }
+        ],
+        "memory": false,
+        "explanation": "Merkhilfe: Mehl ist die größte Menge, 500 g. Fett ist die Hälfte davon, 250 g. Zucker ist etwas weniger als Fett, 200 g. Dazu kommen 4 Eier und ⅛ l Milch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du schlägst jedes Ei zuerst einzeln in einer Tasse auf. Warum?",
+        "options": [
+          { "text": "So prüfst du jedes Ei auf Frische.", "correct": true },
+          { "text": "So wird das Ei besonders schaumig." },
+          { "text": "So bleibt das Eigelb ganz rund." }
+        ],
+        "explanation": "Ist ein Ei verdorben, landet es nur in der Tasse. Der ganze Teig ist dann nicht verloren. Darum prüfst du jedes Ei einzeln auf Frische."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎂 Rührmasse nach der All-in-Methode: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥚 Die Eier einzeln aufschlagen und auf Frische prüfen." },
+          { "text": "🥣 Alle Zutaten in die Rührschüssel geben." },
+          { "text": "🌀 Mit dem Rührbesen 4 Minuten rühren." },
+          { "text": "🍰 Den glatten Teig in die vorbereitete Form füllen." }
+        ],
+        "explanation": "Die Eier prüfst du, bevor sie zu den anderen Zutaten kommen. Bei der All-in-Methode kommt dann alles auf einmal in die Schüssel. Erst wenn der Teig glatt ist, füllst du ihn ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Du backst Rührkuchen auf einem Gastro-Norm-Backblech. Wie viel Rezept brauchst du?",
+        "options": [
+          { "text": "Das 1,5-fache Rezept.", "correct": true },
+          { "text": "Das doppelte Rezept." },
+          { "text": "Das dreifache Rezept." }
+        ],
+        "explanation": "Für ein Gastro-Norm-Backblech brauchst du das 1,5-fache Rezept Rührmasse. Du nimmst also jede Zutat mal 1,5."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥚 Du machst das 1,5-fache Rezept Rührmasse. Wie viele Eier brauchst du?",
+        "answer": 6,
+        "hint": "Im Grundrezept sind 4 Eier.\nDie Hälfte von 4 ist 2.\n4 + 2 = ?",
+        "explanation": "1,5-fach heißt: das Ganze plus die Hälfte. 4 Eier plus 2 Eier sind 6 Eier."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔄 Was änderst du am Grundrezept? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🍎 Versunkener Apfelkuchen"}, "right": {"text": "Halbes Rezept und viel Obst"} },
+          { "left": {"text": "🌰 Nuss-Muffins"}, "right": {"text": "Gemahlene Haselnüsse statt eines Teils Mehl"} },
+          { "left": {"text": "🍊 Limokuchen"}, "right": {"text": "Orangenlimonade statt Milch"} }
+        ],
+        "memory": false,
+        "explanation": "Jede Abwandlung ändert nur eine Kleinigkeit am Grundrezept. Der Name hilft dir. Beim Limokuchen kommt Limonade hinein. Bei den Nuss-Muffins kommen Nüsse hinein. Beim versunkenen Kuchen versinkt das Obst im Teig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Für einen versunkenen Apfelkuchen nimmst du das halbe Rezept. Wie viel Obst kommt dazu?",
+        "options": [
+          { "text": "600 bis 700 g.", "correct": true },
+          { "text": "200 bis 300 g." },
+          { "text": "1 bis 1,5 kg." }
+        ],
+        "explanation": "Zum halben Rezept Rührmasse kommen 600 bis 700 g Äpfel oder Pflaumen. Das Obst versinkt beim Backen im Teig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍑 Beim versunkenen Pflaumenkuchen steckst du die Pflaumenhälften in den Teig. Wie?",
+        "options": [
+          { "text": "Von außen nach innen, die Innenfläche nach oben.", "correct": true },
+          { "text": "Von innen nach außen, die Haut zeigt nach oben." },
+          { "text": "Kreuz und quer, ganz tief im Teig versteckt, ohne Ordnung." }
+        ],
+        "explanation": "Du beginnst am Rand der Springform und arbeitest dich zur Mitte vor. Die Innenfläche der Pflaumen zeigt nach oben. Vorher putzt, wäschst, halbierst und entkernst du die Pflaumen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌰 Das Grundrezept hat 500 g Mehl. Auf wie viel Gramm reduzierst du das Mehl bei Nuss-Muffins?",
+        "answer": 250,
+        "hint": "Das Mehl wird halbiert.",
+        "explanation": "Bei Nuss-Muffins reduzierst du das Mehl auf 250 g. Dafür kommen 250 g gemahlene Haselnüsse dazu."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌡️ Form und Backzeit: Was gehört zusammen?",
+        "pairs": [
+          { "left": {"text": "🍎 Versunkener Apfelkuchen"}, "right": {"text": "Springform, 180 °C, 30 bis 40 Minuten"} },
+          { "left": {"text": "🌰 Nuss-Muffins"}, "right": {"text": "Muffinförmchen, 175 °C, 20 bis 25 Minuten"} },
+          { "left": {"text": "🍊 Limokuchen"}, "right": {"text": "Kastenform, 180 °C, 40 bis 50 Minuten"} }
+        ],
+        "memory": false,
+        "explanation": "Kleine Muffins sind am schnellsten fertig. Der hohe Kuchen in der Kastenform braucht am längsten. Der flache versunkene Kuchen in der Springform liegt dazwischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎈 Welche zwei Zutaten kommen als je 1 Päckchen in die Rührmasse?",
+        "options": [
+          { "text": "Vanillezucker und Backpulver.", "correct": true },
+          { "text": "Feiner Zucker und Weizenmehl." },
+          { "text": "Butter und frische Vollmilch." }
+        ],
+        "explanation": "Vanillezucker und Backpulver kommen als je 1 Päckchen hinein. Zucker, Mehl und Butter wiegst du ab, die Milch misst du ab."
+      }
+    }
+  ]
+}

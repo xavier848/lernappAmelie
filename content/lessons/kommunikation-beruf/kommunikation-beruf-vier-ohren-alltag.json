@@ -1,0 +1,128 @@
+{
+  "topic_slug": "kommunikation-beruf",
+  "slug": "kommunikation-beruf-vier-ohren-alltag",
+  "title": "Vier Ohren im Berufsalltag",
+  "sort": 693,
+  "intro": "👂 Jede Nachricht hat vier Seiten: Sache, Selbstoffenbarung, Beziehung und Appell. Der Empfänger hört sie mit vier „Ohren“.\n\nMERKE: Ein Missverständnis entsteht, wenn der Empfänger eine andere Ebene stärker hört, als der Sender gemeint hat.\n\nEin Beispiel: Eine Hauswirtschafterin fragt bei einer Kollegin nach. Sie meint die Frage ganz sachlich. Bei der Kollegin kommt aber vor allem die Beziehungsebene an. Sie fühlt sich angegriffen.\n\nWelche Ebene du stärker hörst, hängt von deiner momentanen Situation ab. Das muss nicht die Ebene sein, die der Sender gemeint hat.\n\nBeispiel: Die Ausbilderin sagt: „Sarah, Sie sind 10 Minuten zu spät zur Arbeit erschienen!“ Darin stecken vier Botschaften.\n\nSachlich: „Sarah, Sie sind nicht pünktlich gewesen!“ Selbstoffenbarend: „Ich als Ihre Ausbilderin schätze zuverlässige Mitarbeiter!“\n\nZur Beziehung: „Ich als Ihre Ausbilderin bin über Ihr unpünktliches Verhalten verärgert!“ Appellierend: „Ich als Ihre Ausbilderin erwarte keine weiteren Verspätungen!“\n\nSo nimmst du Nachrichten richtig wahr: Konzentriere dich auf das Gespräch. Lass den anderen ausreden. Vergewissere dich regelmäßig, ob du die Nachricht richtig verstanden hast. Bewerte Aussagen nicht zu schnell.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❗ Wann entsteht nach dem Vier-Ohren-Modell ein Missverständnis?",
+        "options": [
+          { "text": "Wenn der Empfänger eine andere Ebene stärker hört, als gemeint war.", "correct": true },
+          { "text": "Wenn der Empfänger alle vier Ebenen genau gleich stark hört." },
+          { "text": "Wenn der Sender seine Nachricht zweimal hintereinander sagt." }
+        ],
+        "explanation": "Der Sender meint vielleicht die Sache. Der Empfänger hört aber auf dem Beziehungsohr. Dann passt die empfangene Nachricht nicht zur gesendeten. So entsteht ein Missverständnis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Eine Hauswirtschafterin fragt eine Kollegin ganz sachlich etwas. Die Kollegin fühlt sich angegriffen. Auf welcher Ebene kam die Frage bei ihr an?",
+        "options": [
+          { "text": "Auf der Beziehungsebene.", "correct": true },
+          { "text": "Auf der reinen Sachebene." },
+          { "text": "Auf der Appellebene." }
+        ],
+        "explanation": "Wer sich angegriffen fühlt, hört auf dem Beziehungsohr. Er fragt sich: Was hält die andere von mir? Gemeint war aber nur die Sache."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌦️ Sarah hört eine Aussage der Ausbilderin vor allem auf einem Ohr. Wovon hängt das ab?",
+        "options": [
+          { "text": "Von ihrer momentanen Situation.", "correct": true },
+          { "text": "Davon, wie viele Wörter die Aussage hat." },
+          { "text": "Davon, wie alt die Ausbilderin ist." }
+        ],
+        "explanation": "Wie es dir gerade geht, beeinflusst, was du hörst. Bist du zum Beispiel unsicher, hörst du vielleicht stärker auf dem Beziehungsohr. Das muss nicht das sein, was der Sender gemeint hat."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⏰ Die Ausbilderin sagt: „Sarah, Sie sind 10 Minuten zu spät zur Arbeit erschienen!“ Welche Botschaft gehört zu welcher Ebene? Verbinde.",
+        "pairs": [
+          { "left": {"text": "„Sarah, Sie sind nicht pünktlich gewesen!“"}, "right": {"text": "Sachebene"} },
+          { "left": {"text": "„Ich schätze zuverlässige Mitarbeiter!“"}, "right": {"text": "Selbstoffenbarung"} },
+          { "left": {"text": "„Ich bin über Ihr unpünktliches Verhalten verärgert!“"}, "right": {"text": "Beziehungsebene"} },
+          { "left": {"text": "„Ich erwarte keine weiteren Verspätungen!“"}, "right": {"text": "Appellebene"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Wird nur ein Fakt genannt? Das ist die Sache. Zeigt die Ausbilderin, was ihr wichtig ist? Das ist Selbstoffenbarung. Zeigt sie, wie sie zu Sarah steht? Das ist Beziehung. Soll Sarah etwas tun? Das ist der Appell."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎧 Was hilft dir, eine Nachricht richtig wahrzunehmen? Sortiere.",
+        "buckets": [
+          { "id": "hilft", "label": "Hilft", "icon": "👍" },
+          { "id": "nicht", "label": "Hilft nicht", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Sich auf das Gespräch konzentrieren", "bucket": "hilft" },
+          { "text": "Den anderen ausreden lassen", "bucket": "hilft" },
+          { "text": "Regelmäßig nachfragen, ob man richtig verstanden hat", "bucket": "hilft" },
+          { "text": "Aussagen nicht zu schnell bewerten", "bucket": "hilft" },
+          { "text": "Nebenbei Nachrichten auf dem Handy lesen", "bucket": "nicht" },
+          { "text": "Dem anderen ins Wort fallen", "bucket": "nicht" },
+          { "text": "Sofort beleidigt reagieren", "bucket": "nicht" },
+          { "text": "Nur an die eigene Antwort denken", "bucket": "nicht" }
+        ],
+        "explanation": "Frag dich: Bin ich ganz beim anderen, und prüfe ich mein Verständnis? Dann nehme ich die Nachricht richtig wahr. Wer abgelenkt ist, unterbricht oder schnell urteilt, versteht leicht etwas falsch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Die Ausbilderin sagt: „Der Speisesaal ist noch nicht aufgeräumt!“ Welche Botschaft steckt auf der Appellebene?",
+        "options": [
+          { "text": "„Ich erwarte, dass Sie den Speisesaal aufräumen!“", "correct": true },
+          { "text": "„Ich als Ausbilderin lege großen Wert auf Ordnung!“" },
+          { "text": "„Sarah, der Speisesaal ist noch unordentlich!“" }
+        ],
+        "explanation": "Der Appell sagt, was der Empfänger tun soll. Hier: aufräumen. Dass der Ausbilderin Ordnung wichtig ist, ist eine Selbstoffenbarung. Der Zustand des Saals ist die Sache."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😟 Die Ausbilderin sagt zu Sarah: „Der Speisesaal ist noch nicht aufgeräumt!“ Sarah hört vor allem mit dem Beziehungsohr. Was hört sie?",
+        "options": [
+          { "text": "„Die Ausbilderin ist unzufrieden mit mir.“", "correct": true },
+          { "text": "„Im Speisesaal ist es noch unordentlich.“" },
+          { "text": "„Ich soll den Speisesaal jetzt aufräumen.“" }
+        ],
+        "explanation": "Auf dem Beziehungsohr fragt sich Sarah: Was hält die Ausbilderin von mir? Dann hört sie Unzufriedenheit. Die Unordnung ist die Sache, das Aufräumen der Appell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Ein Gast sagt an der Rezeption: „Die Nachttischlampe an meinem Bett funktioniert nicht!“ Welche Botschaft steckt auf der Appellebene?",
+        "options": [
+          { "text": "„Bitte reparieren oder tauschen Sie die Lampe!“", "correct": true },
+          { "text": "„In meinem Zimmer ist die Lampe am Bett kaputt.“" },
+          { "text": "„Ich lese abends gern noch im Bett.“" }
+        ],
+        "explanation": "Der Gast will, dass du etwas tust: Die Lampe soll wieder funktionieren. Das ist der Appell. Die kaputte Lampe selbst ist die Sachinformation."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Die Ausbilderin sagt: „Ich erwarte keine weiteren Verspätungen!“ Was soll Sarah tun?",
+        "options": [
+          { "text": "Ab jetzt pünktlich kommen.", "correct": true },
+          { "text": "Morgen noch später kommen." },
+          { "text": "Gar nichts ändern." }
+        ],
+        "explanation": "Das ist ein direkter Appell. Die Ausbilderin fordert Sarah auf, pünktlich zu sein. Sarah weiß genau, was sie tun soll."
+      }
+    }
+  ]
+}

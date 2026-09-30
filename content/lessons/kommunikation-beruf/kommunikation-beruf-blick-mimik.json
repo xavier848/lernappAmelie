@@ -1,0 +1,127 @@
+{
+  "topic_slug": "kommunikation-beruf",
+  "slug": "kommunikation-beruf-blick-mimik",
+  "title": "Blick und Mimik deuten",
+  "sort": 686,
+  "intro": "👀 Körpersignale können Verschiedenes bedeuten. Oft gibt es eine negative und eine positive Deutung. Achte deshalb immer auf die ganze Situation.\n\nBlickkontakt halten: Dein Gegenüber sieht dich an. Ihr haltet Blickkontakt. Negativ kann das abschätzend oder drohend wirken. Positiv zeigt es Interesse und Zuneigung.\n\nWegschauen: Dein Gegenüber schaut weg. Es gibt keinen Blickkontakt. Negativ zeigt das Ablehnung oder Desinteresse. Positiv heißt es: Er wägt gerade neue Gedanken und Ideen ab.\n\nVorbeischauen: Es kommt gar kein Blickkontakt zustande. Dein Gegenüber schaut an dir „vorbei“. Negativ zeigt das Unentschlossenheit oder Unsicherheit. Positiv heißt es: Er überdenkt Probleme und sucht nach Lösungen.\n\nMERKE: Ist der Blick nicht eindeutig, schaust du dir die Mimik an. Die Mimik liest du am ganzen Gesichtsausdruck ab.\n\nEin strahlender, entspannter Gesichtsausdruck zeigt Interesse, Zuneigung, Wertschätzung und eine positive Stimmung.\n\nEin angespannter Gesichtsausdruck zeigt Ablehnung, Unlust, Ärger, Wut, Anspannung oder Skepsis. Skepsis heißt: Man zweifelt.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Du willst ein Körpersignal deuten. Worauf achtest du deshalb immer?",
+        "options": [
+          { "text": "Auf die Situation, denn ein Signal kann negativ oder positiv sein.", "correct": true },
+          { "text": "Nur auf das eine Signal, denn jedes Signal hat genau eine Bedeutung." },
+          { "text": "Nur auf die Worte, denn Körpersignale bedeuten im Beruf gar nichts." }
+        ],
+        "explanation": "Dasselbe Signal kann ganz Verschiedenes heißen. Wegschauen kann zum Beispiel Desinteresse zeigen oder Nachdenken. Erst die Situation verrät dir, was gemeint ist."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche zwei Deutungen gehören zu welchem Blick? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Blickkontakt halten"}, "right": {"text": "Drohend – oder interessiert"} },
+          { "left": {"text": "Wegschauen"}, "right": {"text": "Desinteresse – oder Ideen abwägen"} },
+          { "left": {"text": "An dir vorbeischauen"}, "right": {"text": "Unsicherheit – oder nach Lösungen suchen"} }
+        ],
+        "memory": false,
+        "explanation": "Zu jedem Blick gibt es eine negative und eine positive Deutung. Frag dich: Ist der Blick auf mich gerichtet, geht er weg von mir, oder geht er an mir vorbei?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Du erklärst einer neuen Kollegin eine Aufgabe. Sie schaut kurz weg. Dann sagt sie: „Ah, ich habe eine Idee!“ Was bedeutete ihr Wegschauen hier?",
+        "options": [
+          { "text": "Sie hat neue Gedanken und Ideen abgewogen.", "correct": true },
+          { "text": "Sie hatte kein Interesse an deiner Erklärung." },
+          { "text": "Sie wollte dir damit ihre Ablehnung zeigen." }
+        ],
+        "explanation": "Wegschauen kann Ablehnung oder Desinteresse zeigen. Es kann aber auch heißen: Jemand denkt nach und wägt Ideen ab. Hier verrät der Satz danach die positive Deutung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Ein Gast schaut an dir vorbei. Leise sagt er: „Ich weiß nicht, welches Zimmer ich nehmen soll.“ Was zeigt sein Blick hier?",
+        "options": [
+          { "text": "Unentschlossenheit und Unsicherheit.", "correct": true },
+          { "text": "Zuneigung und großes Interesse an dir." },
+          { "text": "Eine Drohung und abschätzende Blicke." }
+        ],
+        "explanation": "Wer an dir vorbeischaut, kann Probleme überdenken. Er kann aber auch unsicher und unentschlossen sein. Seine Worte zeigen: Er kann sich nicht entscheiden. Hier passt die negative Deutung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😠 Ein verärgerter Gast steht vor dir. Er sieht dich lange an und sagt kein Wort. Was kann sein Blick hier bedeuten?",
+        "options": [
+          { "text": "Er wirkt drohend oder abschätzend.", "correct": true },
+          { "text": "Er überdenkt gerade in Ruhe ein Problem." },
+          { "text": "Er zeigt dir damit seine Zuneigung." }
+        ],
+        "explanation": "Blickkontakt halten zeigt positiv Interesse und Zuneigung. Negativ kann er drohend oder abschätzend wirken. Der Gast ist verärgert. Deshalb passt hier die negative Deutung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Du kannst den Blick deines Gegenübers nicht eindeutig deuten. Worauf schaust du als Nächstes?",
+        "options": [
+          { "text": "Auf die Mimik.", "correct": true },
+          { "text": "Auf die Kleidung." },
+          { "text": "Auf die Körperhaltung." }
+        ],
+        "explanation": "Gibt der Blick keine klare Antwort, schaust du als Nächstes auf die Mimik. Die Mimik ist der Ausdruck im ganzen Gesicht. Er verrät viel über die Stimmung. Erst danach prüfst du deine Deutung an der Gestik."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎭 Was zeigt der Gesichtsausdruck? Sortiere.",
+        "buckets": [
+          { "id": "entspannt", "label": "Strahlend und entspannt", "icon": "😊" },
+          { "id": "angespannt", "label": "Angespannt", "icon": "😣" }
+        ],
+        "items": [
+          { "text": "Interesse", "bucket": "entspannt" },
+          { "text": "Zuneigung", "bucket": "entspannt" },
+          { "text": "Wertschätzung", "bucket": "entspannt" },
+          { "text": "Positive Stimmung", "bucket": "entspannt" },
+          { "text": "Ärger", "bucket": "angespannt" },
+          { "text": "Wut", "bucket": "angespannt" },
+          { "text": "Unlust", "bucket": "angespannt" },
+          { "text": "Skepsis", "bucket": "angespannt" }
+        ],
+        "explanation": "Frag dich: Ist das ein gutes oder ein schlechtes Gefühl? Gute Gefühle machen das Gesicht strahlend und entspannt. Ärger, Wut, Unlust und Zweifel spannen das Gesicht an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤨 Du erklärst einem Gast den Weg. Er hört mit angespanntem Gesicht zu. Er glaubt dir offenbar nicht ganz. Wie heißt dieses Gefühl?",
+        "options": [
+          { "text": "Skepsis, also Zweifel.", "correct": true },
+          { "text": "Unlust, also keine Lust." },
+          { "text": "Wut, also großer Ärger." }
+        ],
+        "explanation": "Skepsis heißt: Man zweifelt an etwas. Der Gast glaubt dir nicht ganz. Er zweifelt also. Unlust und Wut zeigen sich auch in einem angespannten Gesicht. Mit Zweifel haben sie aber nichts zu tun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Woran liest du die Mimik ab?",
+        "options": [
+          { "text": "Am ganzen Gesichtsausdruck.", "correct": true },
+          { "text": "An den Bewegungen der Beine." },
+          { "text": "An der Farbe der Kleidung." }
+        ],
+        "explanation": "Mimik ist der Ausdruck im Gesicht. Augen, Mund und Stirn wirken dabei zusammen. Darum schaust du auf das ganze Gesicht."
+      }
+    }
+  ]
+}

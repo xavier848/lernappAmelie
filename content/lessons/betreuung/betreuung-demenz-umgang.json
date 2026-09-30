@@ -1,0 +1,167 @@
+{
+  "topic_slug": "betreuung",
+  "slug": "betreuung-demenz-umgang",
+  "title": "Demenz: Veränderungen und Umgang",
+  "sort": 672,
+  "intro": "Bei Demenz können Eigenschaften verloren gehen oder sich verändern: Die Eigeninitiative geht verloren. Gewohnte Arbeiten und Hobbys werden vernachlässigt. Die eigene Person wird vernachlässigt, zum Beispiel die Körperpflege und die Wohnung. Die Motorik, die Merkfähigkeit und der Tag-Nacht-Rhythmus gehen verloren.\n\nEs kann zu Hypoaktivität oder Hyperaktivität kommen. Hypo heißt zu wenig: Der Mensch bewegt sich kaum. Hyper heißt zu viel: Der Mensch ist sehr unruhig. Das Kontrastsehen geht verloren. Kontrastsehen heißt: Unterschiede zwischen hell und dunkel erkennen. Das Hunger- und Durstgefühl geht verloren. Die Menschen vergessen, die Nahrung zu kauen und hinunterzuschlucken. Und der Geschmackssinn geht verloren.\n\nFür den Umgang gibt es besondere Regeln, vor allem beim Trinken und Essen. Halte einen immer gleichen Tages- und auch Nachtrhythmus ein.\n\nGib Bitten und Aufträge nur einzeln, in einem kurzen Satz und in einfacher Sprache. Zum Beispiel: „Bitte ziehen Sie Ihre Schuhe an!“ Erst wenn die Schuhe an sind, kommt die nächste Bitte: den Mantel anziehen. Bewahre immer Geduld.\n\nVerändere die Lebensräume nicht. Bei einem Umzug, zum Beispiel ins Betreute Wohnen, nimmt der Mensch einige „alte“ Möbel mit. Das Zimmer wird ähnlich wie „zu Hause“ gestaltet.\n\nBeziehe den Menschen bei bestimmten Hausarbeiten ein, zum Beispiel beim Abwaschen. Aber auf die gewohnte Weise: nicht mit der Spülmaschine, sondern im Spülbecken, vielleicht in einer Spülschüssel. An Dinge „aus alter Zeit“ erinnern sich Menschen mit Demenz eher als an neue technische Geräte.\n\nSprich die Person immer von vorne an. Halte Blickkontakt. Vielleicht hilft auch Körperkontakt, zum Beispiel die Hand halten. Kenne die Biografie des Menschen. Das hilft dir, Gespräche zu führen.\n\nMERKE: Mach im Gespräch Pausen. So kann die Person verarbeiten, was du erzählt hast.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧩 Was kann bei Demenz verloren gehen, was wird vernachlässigt? Sortiere.",
+        "buckets": [
+          { "id": "verloren", "label": "Geht verloren", "icon": "📉" },
+          { "id": "vernachlaessigt", "label": "Wird vernachlässigt", "icon": "🧺" }
+        ],
+        "items": [
+          { "text": "Eigeninitiative", "bucket": "verloren" },
+          { "text": "Merkfähigkeit", "bucket": "verloren" },
+          { "text": "Tag-Nacht-Rhythmus", "bucket": "verloren" },
+          { "text": "Kontrastsehen", "bucket": "verloren" },
+          { "text": "Geschmackssinn", "bucket": "verloren" },
+          { "text": "Motorik", "bucket": "verloren" },
+          { "text": "Gewohnte Arbeiten und Hobbys", "bucket": "vernachlaessigt" },
+          { "text": "Körperpflege und Wohnung", "bucket": "vernachlaessigt" }
+        ],
+        "explanation": "Frag dich: Ist es eine Fähigkeit oder ein Sinn des Menschen selbst? Dann kann sie verloren gehen. Ist es eine Aufgabe oder Tätigkeit im Alltag, um die sich der Mensch nicht mehr kümmert? Dann wird sie vernachlässigt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Frau Berg hat Demenz. Sie hat Essen im Mund, kaut aber nicht weiter. Was kann dahinterstecken?",
+        "options": [
+          { "text": "Sie hat vergessen, die Nahrung zu kauen und hinunterzuschlucken.", "correct": true },
+          { "text": "Sie will dich mit Absicht ärgern und macht das nur zum Spaß." },
+          { "text": "Sie hat gerade keine Lust auf eine Unterhaltung mit dir am Tisch." },
+          { "text": "Sie hat zu viel Hunger und wartet deshalb auf die nächste Portion." }
+        ],
+        "explanation": "Bei Demenz kann es passieren, dass Menschen vergessen, die Nahrung zu kauen und hinunterzuschlucken. Deshalb brauchen sie beim Essen besondere Aufmerksamkeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍚 Herr Nowak hat Demenz. Er erkennt den weißen Reis auf dem weißen Teller schlecht. Was kann der Grund sein?",
+        "options": [
+          { "text": "Das Kontrastsehen kann bei Demenz verloren gehen.", "correct": true },
+          { "text": "Der Reis ist zu heiß, deshalb schaut er nicht genau hin." },
+          { "text": "Er mag keinen Reis und tut nur so, als sähe er ihn nicht." },
+          { "text": "Weiße Teller sind für alle Menschen schwer zu erkennen." }
+        ],
+        "explanation": "Bei Demenz kann das Kontrastsehen verloren gehen. Kontrast heißt: der Unterschied zwischen hell und dunkel. Weißer Reis auf weißem Teller hat kaum Kontrast."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Warum musst du Menschen mit Demenz oft an das Trinken erinnern?",
+        "options": [
+          { "text": "Das Hunger- und Durstgefühl kann verloren gehen.", "correct": true },
+          { "text": "Sie trinken lieber heimlich, wenn niemand hinschaut." },
+          { "text": "Trinken ist für Menschen mit Demenz nicht erlaubt." },
+          { "text": "Sie haben im Alter immer viel zu viel Durst." }
+        ],
+        "explanation": "Bei Demenz kann das Hunger- und Durstgefühl verloren gehen. Die Menschen merken nicht mehr, dass sie trinken sollten. Deshalb erinnerst du sie daran."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏃 Herr Maier ist sehr unruhig und läuft ständig herum. Frau Ott bewegt sich kaum noch. Welche Begriffe passen?",
+        "options": [
+          { "text": "Herr Maier: Hyperaktivität. Frau Ott: Hypoaktivität.", "correct": true },
+          { "text": "Herr Maier: Hypoaktivität. Frau Ott: Hyperaktivität." },
+          { "text": "Beide haben eine Hyperaktivität, nur verschieden stark." },
+          { "text": "Beide haben ein verändertes Kontrastsehen beim Laufen." }
+        ],
+        "explanation": "Hyper heißt zu viel, hypo heißt zu wenig. Wer sehr unruhig ist und sich viel bewegt, ist hyperaktiv. Wer sich kaum bewegt, ist hypoaktiv. Beides kann bei Demenz vorkommen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👟 Du willst mit Herrn Weber spazieren gehen. Er hat Demenz. Wie bittest du ihn?",
+        "options": [
+          { "text": "„Bitte ziehen Sie Ihre Schuhe an!“ Erst danach kommt die nächste Bitte.", "correct": true },
+          { "text": "„Ziehen Sie Schuhe, Mantel und Mütze an und nehmen Sie den Schlüssel mit!“" },
+          { "text": "Du sagst gar nichts und ziehst ihm einfach schnell Schuhe und Mantel an." },
+          { "text": "Du erklärst ihm lange, warum Spazierengehen für die Gesundheit gut ist." }
+        ],
+        "explanation": "Bitten und Aufträge gibst du nur einzeln, in einem kurzen Satz und in einfacher Sprache. Erst wenn die Schuhe an sind, folgt die nächste Bitte. Mehrere Aufträge auf einmal überfordern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛋️ Frau Klein hat Demenz und zieht ins Betreute Wohnen. Was hilft ihr?",
+        "options": [
+          { "text": "Einige alte Möbel mitnehmen und das Zimmer ähnlich wie zu Hause einrichten.", "correct": true },
+          { "text": "Alles neu und modern kaufen, damit sie sich an nichts Altes mehr erinnern muss." },
+          { "text": "Das Zimmer jede Woche anders einrichten, damit es nie langweilig für sie wird." },
+          { "text": "Nur ein Bett ins Zimmer stellen, damit sie nicht über Möbel stolpern kann." }
+        ],
+        "explanation": "Lebensräume sollen nicht verändert werden. Bei einem Umzug nimmt man einige „alte“ Möbel mit und gestaltet das Zimmer ähnlich wie „zu Hause“. Das gibt Sicherheit und Orientierung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Frau Sommer hat Demenz und möchte gern helfen. Wie beziehst du sie beim Abwasch ein?",
+        "options": [
+          { "text": "Sie spült wie früher im Spülbecken oder in einer Spülschüssel.", "correct": true },
+          { "text": "Sie räumt die Spülmaschine ein und stellt das richtige Programm ein." },
+          { "text": "Gar nicht, denn Hausarbeit ist für Menschen mit Demenz verboten." },
+          { "text": "Sie schaut nur zu, wie du alles schnell mit der Maschine erledigst." }
+        ],
+        "explanation": "Beziehe Menschen mit Demenz bei Hausarbeiten ein, aber in der gewohnten Weise. An Dinge aus alter Zeit, wie das Spülbecken, erinnern sie sich eher als an neue technische Geräte wie die Spülmaschine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Wie sprichst du einen Menschen mit Demenz an?",
+        "options": [
+          { "text": "Von vorne, mit Blickkontakt, vielleicht hältst du seine Hand.", "correct": true },
+          { "text": "Von hinten, damit er dich nicht sofort sieht und nicht erschrickt." },
+          { "text": "Aus dem Nebenraum mit lauter Stimme, damit er dich sicher hört." },
+          { "text": "Nebenbei beim Putzen, ohne ihn dabei anzuschauen oder anzufassen." }
+        ],
+        "explanation": "Personen mit Demenz sprichst du immer von vorne an. Du hältst Blickkontakt. Eventuell hilft auch Körperkontakt, zum Beispiel die Hand halten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💬 Was hilft dir, gute Gespräche mit einem Menschen mit Demenz zu führen?",
+        "options": [
+          { "text": "Seine Biografie kennen und im Gespräch Pausen machen.", "correct": true },
+          { "text": "Schnell sprechen, damit er nicht zu lange zuhören muss." },
+          { "text": "Immer über neue Technik sprechen, das hält fit." },
+          { "text": "Viele Fragen auf einmal stellen, damit es lebendig wird." }
+        ],
+        "explanation": "Die Biografie des Erkrankten zu kennen, hilft Gespräche zu führen. Und bei Unterhaltungen machst du Gesprächspausen. So kann die Person das Erzählte verarbeiten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎉 Zum Schluss: Richtiger Umgang bei Demenz oder nicht? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Immer gleicher Tages- und Nachtrhythmus", "bucket": "richtig" },
+          { "text": "Geduld bewahren", "bucket": "richtig" },
+          { "text": "Eine Bitte in einem kurzen Satz", "bucket": "richtig" },
+          { "text": "Von vorne ansprechen", "bucket": "richtig" },
+          { "text": "Die Möbel ständig umstellen", "bucket": "falsch" },
+          { "text": "Mehrere Aufträge auf einmal geben", "bucket": "falsch" },
+          { "text": "Von hinten ansprechen", "bucket": "falsch" }
+        ],
+        "explanation": "Frag dich: Gibt es dem Menschen Sicherheit, Ruhe und Orientierung? Dann ist es richtig. Veränderungen, viele Aufträge auf einmal und Überraschungen von hinten verunsichern ihn."
+      }
+    }
+  ]
+}

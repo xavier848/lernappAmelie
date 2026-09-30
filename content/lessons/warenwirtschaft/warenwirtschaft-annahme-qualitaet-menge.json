@@ -1,0 +1,149 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-annahme-qualitaet-menge",
+  "title": "Annahme: Qualität und Menge prüfen",
+  "sort": 711,
+  "intro": "🔍 Bei der Warenannahme prüfst du zuerst die Qualität. Im Hochsommer prüfst du besonders die Kühltemperatur. Das gilt für Milchprodukte und für Tiefkühlware.\n\nTiefkühlware, zum Beispiel Fleisch, darf keinen Gefrierbrand haben. Gefrierbrand sind helle, trockene Stellen.\n\nObst und Gemüse haben keine Druckstellen, keinen Krankheitsbefall und keine Schädlinge.\n\nDie Ware passt zur Bestellung: gleiche Handelsklasse, gleiche Sorte. Handelsklassen sind Güteklassen für Obst und Gemüse.\n\nDas Mindesthaltbarkeitsdatum, kurz MHD, darf nicht überschritten sein. Die Ware darf aber auch nicht kurz vor dem Ablauf stehen.\n\nDie Ware ist so verpackt, dass man sie ohne Probleme weitergeben kann.\n\nAuch bei der Warenannahme gilt das HACCP-Konzept. Dazu gehört das Monitoring. Monitoring heißt: regelmäßig messen und aufschreiben, zum Beispiel die Temperatur.\n\nDann prüfst du die Quantität, also die Menge. Auf dem Lieferschein steht wirklich die bestellte Menge. Der Fahrer hat nicht zu wenig abgeladen. Die Gebinde sind gleichmäßig gefüllt. Gebinde sind Behälter wie Kartons oder Kanister. Sie haben das richtige Nettogewicht. Das Nettogewicht ist das Gewicht der Ware ohne Verpackung.\n\nSäcke prüfst du mit einer Stichprobe. Stichprobe heißt: Du prüfst nur einen Teil. Zum Beispiel wiegst du jeden 15. Sack.\n\nJede Position auf dem Lieferschein hakst du ab. Stimmt etwas nicht, schreibst du den Beanstandungsgrund dazu. Zum Beispiel: Tomaten entsprechen nicht der Handelsklasse 1. Erst nach der Kontrolle unterschreibst du.\n\nSarah hat bei der Warenannahme immer ihr Smartphone dabei. Mit Fotos sichert sie Beweise für einen Mangel. Das nennt man Beweissicherung.\n\nMERKE: MHD überschritten oder kurz vor dem Ablauf: nicht annehmen.\n\nMERKE: Jede Position abhaken oder beanstanden. Erst dann unterschreiben.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Qualitätskontrolle: Nimmst du die Ware an oder beanstandest du sie? Sortiere.",
+        "buckets": [
+          { "id": "ok", "label": "Annehmen", "icon": "✅" },
+          { "id": "nein", "label": "Beanstanden", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "TK-Hähnchen, hart gefroren, ohne Gefrierbrand", "bucket": "ok" },
+          { "text": "Joghurt, MHD erst in drei Wochen", "bucket": "ok" },
+          { "text": "Äpfel Handelsklasse I, wie bestellt", "bucket": "ok" },
+          { "text": "TK-Fleisch mit hellen, trockenen Stellen", "bucket": "nein" },
+          { "text": "Kopfsalat mit Blattläusen", "bucket": "nein" },
+          { "text": "Paprika mit Druckstellen", "bucket": "nein" },
+          { "text": "Kartoffeln mit Krankheitsbefall", "bucket": "nein" },
+          { "text": "Sorte Elstar bestellt, Boskop geliefert", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich bei jeder Ware: Ist sie einwandfrei und genau so, wie bestellt? Helle, trockene Stellen an TK-Ware sind Gefrierbrand. Druckstellen, Krankheitsbefall und Schädlinge sind Mängel. Eine andere Sorte ist auch ein Mangel, selbst wenn sie gut aussieht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☀️ Es ist Hochsommer. Bei welchen Waren prüfst du bei der Annahme ganz besonders die Kühltemperatur?",
+        "options": [
+          { "text": "Bei Milchprodukten und Tiefkühlware.", "correct": true },
+          { "text": "Bei Konserven und trockenen Nudeln." },
+          { "text": "Bei Reinigungsmitteln und frischer Wäsche." }
+        ],
+        "explanation": "Milchprodukte und Tiefkühlware brauchen Kälte. Im Hochsommer wird es im Lieferwagen schnell zu warm. Darum misst du gerade dann die Temperatur. Konserven und Nudeln brauchen keine Kühlung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Heute ist der 10. Mai. Die gelieferte Sahne hat ein MHD vom 11. Mai. Was machst du?",
+        "options": [
+          { "text": "Ich nehme sie nicht an, weil das MHD gleich abläuft.", "correct": true },
+          { "text": "Ich nehme sie an, weil das MHD noch nicht überschritten ist." },
+          { "text": "Ich nehme sie an und stelle sie im Kühlraum ganz nach hinten." }
+        ],
+        "explanation": "Das MHD darf nicht überschritten sein. Die Ware darf aber auch nicht kurz vor dem Ablauf stehen. Einen Tag vor dem MHD ist zu knapp. Du nimmst die Sahne nicht an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Ein Karton ist so weich und eingerissen, dass er beim Tragen auseinanderfällt. Warum beanstandest du ihn?",
+        "options": [
+          { "text": "Die Ware lässt sich so nicht ohne Probleme weitergeben.", "correct": true },
+          { "text": "Kartons müssen bei der Lieferung immer ganz neu aussehen." },
+          { "text": "Die Ware im Karton ist dadurch sicher schon verdorben." }
+        ],
+        "explanation": "Die Ware muss so verpackt sein, dass man sie ohne Probleme weitergeben kann. Ein Karton, der auseinanderfällt, schafft das nicht. Ob die Ware selbst verdorben ist, prüfst du extra."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Bei der Annahme misst du die Temperatur der Milch und schreibst den Wert auf. Wozu gehört das?",
+        "options": [
+          { "text": "Zum Monitoring im HACCP-Konzept.", "correct": true },
+          { "text": "Zur Inventur am Ende vom Jahr." },
+          { "text": "Zum Eigentumsvorbehalt des Lieferanten." }
+        ],
+        "explanation": "Monitoring heißt: regelmäßig messen und aufschreiben. Es gehört zum HACCP-Konzept. Das gilt schon bei der Warenannahme, nicht erst in der Küche."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Mengenkontrolle: Was bedeutet der Fachbegriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "📦 Gebinde"}, "right": {"text": "Ein Behälter wie Karton oder Kanister"} },
+          { "left": {"text": "⚖️ Nettogewicht"}, "right": {"text": "Das Gewicht der Ware ohne Verpackung"} },
+          { "left": {"text": "🎯 Stichprobe"}, "right": {"text": "Du prüfst nur einen Teil der Ware"} },
+          { "left": {"text": "✏️ Beanstandungsgrund"}, "right": {"text": "Warum eine Position nicht stimmt"} },
+          { "left": {"text": "📱 Beweissicherung"}, "right": {"text": "Fotos vom Mangel mit dem Smartphone"} }
+        ],
+        "explanation": "Diese Wörter brauchst du bei der Mengenkontrolle. Netto heißt: ohne Verpackung. Eine Stichprobe spart Zeit, wenn viele gleiche Säcke kommen. Fotos beweisen später, dass der Mangel schon bei der Lieferung da war."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Du nimmst 10 Kanister Spülmittel an. Worauf achtest du bei der Menge?",
+        "options": [
+          { "text": "Dass sie gleich voll sind und das Nettogewicht stimmt.", "correct": true },
+          { "text": "Dass sie alle von außen sauber und trocken sind." },
+          { "text": "Dass auf jedem Kanister das gleiche Datum steht." }
+        ],
+        "explanation": "Bei der Menge prüfst du, ob die Gebinde gleichmäßig gefüllt sind und das richtige Nettogewicht haben. Sauberkeit gehört zur Qualität, nicht zur Menge."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚖️ Es kommen 60 Säcke Kartoffeln. Als Stichprobe wiegst du jeden 15. Sack. Wie viele Säcke wiegst du?",
+        "answer": 4,
+        "hint": "Rechne 60 geteilt durch 15. Tipp: 15, 30, 45, 60.",
+        "explanation": "Jeder 15. Sack: der 15., der 30., der 45. und der 60. Sack. Das sind 4 Säcke. 60 geteilt durch 15 ergibt auch 4. So prüfst du viele Säcke mit wenig Aufwand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍅 Die gelieferten Tomaten entsprechen nicht der Handelsklasse 1. Was schreibst du auf den Lieferschein?",
+        "options": [
+          { "text": "Den Beanstandungsgrund: nicht Handelsklasse 1.", "correct": true },
+          { "text": "Nichts, ich hake die Tomaten auf dem Lieferschein trotzdem ab." },
+          { "text": "Nur meine Unterschrift, der Rest ist egal." }
+        ],
+        "explanation": "Jede Position hakst du ab oder versiehst sie mit einem Beanstandungsgrund. So steht der Mangel schwarz auf weiß auf dem Lieferschein. Ohne Vermerk kannst du den Mangel später kaum beweisen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Bestellt sind 20 Kisten Wasser. Auf dem Lieferschein stehen 20 Kisten. Abgeladen hat der Fahrer nur 18. Was tust du?",
+        "options": [
+          { "text": "Ich beanstande die 2 fehlenden Kisten auf dem Lieferschein.", "correct": true },
+          { "text": "Ich unterschreibe, denn auf dem Lieferschein stehen ja 20 Kisten." },
+          { "text": "Ich hake alles ab, die 2 Kisten kommen sicher später." }
+        ],
+        "explanation": "Du prüfst zwei Dinge: Steht die bestellte Menge auf dem Lieferschein? Und wurde wirklich so viel abgeladen? Hier fehlen 2 Kisten. Das schreibst du als Beanstandung auf, bevor du unterschreibst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Wann unterschreibst du den Lieferschein?",
+        "options": [
+          { "text": "Erst nach der Kontrolle.", "correct": true },
+          { "text": "Sofort, wenn der Fahrer kommt." },
+          { "text": "Bevor ich die Kisten öffne." }
+        ],
+        "explanation": "Erst prüfen, dann unterschreiben. Mit der Unterschrift bestätigst du, dass alles stimmt. 🎉"
+      }
+    }
+  ]
+}

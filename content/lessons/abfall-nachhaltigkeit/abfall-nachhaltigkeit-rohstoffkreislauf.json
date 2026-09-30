@@ -1,0 +1,126 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-nachhaltigkeit-rohstoffkreislauf",
+  "title": "Rohstoffkreisläufe schließen",
+  "sort": 681,
+  "intro": "♻️ Nachhaltiges Wirtschaften lohnt sich auch beim Geld. Das zeigt die Abfallsortierung. Der Restmüll ist in der Entsorgung teuer. Wer seinen Abfall sortiert, hat deutlich weniger Restmüll. Gleichzeitig hilft er beim Recycling.\n\nMERKE: Drei Abfallbehälter helfen, Geld zu sparen und Rohstoffkreisläufe zu schließen: der Behälter für Kunststoff, für Bioabfall und für Papier.\n\nEin Rohstoffkreislauf ist geschlossen, wenn aus Abfall wieder ein neues Produkt wird. Dieses Produkt kauft und nutzt man, und danach wird es wieder gesammelt.\n\nNachhaltig ist es deshalb auch, Produkte aus recyceltem Material zu verwenden. Zum Beispiel Recyclingpapier im Kopierer oder Toilettenpapier aus Altpapier. Beides gibt es heute ohne Einschränkungen bei der Qualität.\n\nSolche Produkte haben Kostenvorteile. Toilettenpapier aus Altpapier ist meist sogar preiswerter. Und die Produkte bewahren viele Bäume davor, unnötig abgeholzt zu werden. Der Blaue Engel ist ein Wegweiser: An ihm erkennst du diese Produkte.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Warum spart Mülltrennung im Betrieb Geld?",
+        "options": [
+          { "text": "Der teure Restmüll wird deutlich weniger.", "correct": true },
+          { "text": "Getrennter Müll kostet gar keine Gebühren mehr." },
+          { "text": "Der Betrieb bekommt für jede Tonne eine Prämie." }
+        ],
+        "explanation": "Restmüll ist in der Entsorgung teuer. Was du sortierst, landet nicht im Restmüll. So wird der teure Restmüll weniger, und der Betrieb spart."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Was bewirkt die Abfallsortierung außer dem Sparen noch?",
+        "options": [
+          { "text": "Sie ist ein Beitrag zum Recycling.", "correct": true },
+          { "text": "Sie verhindert, dass überhaupt Abfall entsteht." },
+          { "text": "Sie sorgt dafür, dass Restmüll kompostiert wird." }
+        ],
+        "explanation": "Sortierter Abfall kann wiederverwertet werden. Aus Papier wird neues Papier, aus Kunststoff neuer Kunststoff. Das ist Recycling. Abfall vermeiden ist etwas anderes: Dann entsteht er gar nicht erst."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗑️ Hilft das beim Rohstoffkreislauf, oder ist es teurer Restmüll? Sortiere.",
+        "buckets": [
+          { "id": "kreis", "label": "Kreislauf: Kunststoff, Bio, Papier", "icon": "♻️" },
+          { "id": "rest", "label": "Restmüll", "icon": "⚫" }
+        ],
+        "items": [
+          { "text": "Joghurtbecher aus Kunststoff", "bucket": "kreis" },
+          { "text": "Rohe Kartoffelschalen", "bucket": "kreis" },
+          { "text": "Alte Zeitungen", "bucket": "kreis" },
+          { "text": "Leere Pappkartons", "bucket": "kreis" },
+          { "text": "Volle Staubsaugerbeutel", "bucket": "rest" },
+          { "text": "Benutzte Windeln", "bucket": "rest" }
+        ],
+        "explanation": "Frag dich: Kann daraus wieder etwas Neues werden? Kunststoff, Bioabfall und Papier kommen in den Kreislauf zurück. Was nicht verwertet werden kann, ist Restmüll, und der ist teuer."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔁 So schließt sich der Kreislauf beim Papier. Beginne bei der Papiertonne. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Altes Papier kommt in die Papiertonne." },
+          { "text": "Das Altpapier wird abgeholt und sortiert." },
+          { "text": "Aus dem Altpapier wird neues Papier gemacht." },
+          { "text": "Der Betrieb kauft das Recyclingpapier." },
+          { "text": "Das Recyclingpapier wird im Kopierer benutzt." }
+        ],
+        "explanation": "Frag dich bei jedem Schritt: Was muss vorher passiert sein? Der Abfall wird zum Rohstoff, der Rohstoff zum Produkt. Erst wenn jemand das Recyclingprodukt kauft und benutzt, schließt sich der Kreis. Danach landet das Papier wieder in der Papiertonne."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖨️ Recyclingpapier für den Kopierer: Was stimmt heute?",
+        "options": [
+          { "text": "Es hat keine Einschränkungen bei der Qualität.", "correct": true },
+          { "text": "Es macht den Kopierer nach kurzer Zeit kaputt." },
+          { "text": "Man kann darauf gar nicht richtig drucken." }
+        ],
+        "explanation": "Früher hatte Recyclingpapier manchmal Nachteile. Heute gibt es Recyclingpapier und Toilettenpapier aus Altpapier ohne Einschränkungen bei der Qualität."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌲 Welche Vorteile haben Produkte aus Altpapier für den Betrieb?",
+        "options": [
+          { "text": "Sie sparen Kosten und bewahren Bäume vor dem Abholzen.", "correct": true },
+          { "text": "Sie sind teurer, halten dafür aber doppelt so lange." },
+          { "text": "Sie sind weißer und reißfester als anderes Papier." }
+        ],
+        "explanation": "Produkte aus Altpapier haben Kostenvorteile. Für sie müssen keine Bäume gefällt werden. So hilft der Betrieb der Umwelt und seiner Kasse."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔵 Woran erkennst du Produkte aus recyceltem Papier leicht?",
+        "options": [
+          { "text": "Am Blauen Engel.", "correct": true },
+          { "text": "Am Grünen Punkt." },
+          { "text": "Am GS-Zeichen." }
+        ],
+        "explanation": "Der Blaue Engel ist ein Wegweiser zu umweltschonenden Produkten, zum Beispiel aus Altpapier. Der Grüne Punkt betrifft nur die Verpackung. Das GS-Zeichen steht für geprüfte Sicherheit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Der Betrieb kauft Toilettenpapier für die Gästezimmer. Was ist nachhaltig und spart meist Geld?",
+        "options": [
+          { "text": "Toilettenpapier aus Altpapier.", "correct": true },
+          { "text": "Besonders weiches Papier aus frisch gefällten Bäumen." },
+          { "text": "Einzeln in Plastik verpackte Rollen." }
+        ],
+        "explanation": "Toilettenpapier aus Altpapier hat heute keine Nachteile bei der Qualität. Es schont Bäume und ist meist preiswerter. Einzeln verpackte Rollen machen dagegen unnötigen Müll."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was heißt Recycling?",
+        "options": [
+          { "text": "Aus Abfall werden wieder Rohstoffe.", "correct": true },
+          { "text": "Abfall wird in einer Anlage verbrannt." },
+          { "text": "Abfall wird auf einer Deponie gelagert." }
+        ],
+        "explanation": "Beim Recycling wird Abfall wiederverwertet. Aus ihm entstehen neue Rohstoffe und neue Produkte. So schließt sich der Rohstoffkreislauf. Verbrennen oder Lagern auf einer Deponie ist kein Recycling."
+      }
+    }
+  ]
+}

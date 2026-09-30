@@ -1,0 +1,119 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-anrichten-grundregeln",
+  "title": "Anrichten: Grundregeln und Einfüllen",
+  "sort": 560,
+  "intro": "🍽️ Anrichten heißt: fertige Speisen in Anrichtegeschirr einfüllen oder auflegen. Anrichtegeschirr sind zum Beispiel Schüsseln, Terrinen und Platten.\n\nMERKE: Es gibt drei Arten: Einfüllen, Portionieren und Auflegen. Einfüllen heißt: in größeres Serviergeschirr füllen. Portionieren heißt: gleichmäßig in Gefäße für eine Person verteilen. Auflegen heißt: auf flaches Anrichtegeschirr wie Platten legen.\n\nGrundregeln beim Anrichten: Das Anrichtegeschirr ist unbeschädigt und sauber. Warme und heiße Speisen kommen in vorgewärmtes Geschirr. In Glasschüsseln kommen keine heißen Speisen. Die Ausnahme ist feuerfestes Geschirr.\n\n„Der Tellerrand gehört dem Gast!“ Das gilt nicht nur beim Servieren, sondern auch beim Anrichten. Der Rand bleibt also frei und sauber. Nach dem Anrichten kontrollierst du das Geschirr noch einmal auf Sauberkeit. Wenn nötig, säuberst du es. Das Vorlegebesteck legst du neben oder an das Anrichtegeschirr. Kuchen kannst du auf einer Tortenspitze anrichten.\n\nBeim Einfüllen kommen die Speisen in größeres Serviergeschirr. Suppen kommen in die Suppenterrine, Beilagen in eine Porzellanschüssel. Fülle nie über Töpfen oder Schüsseln ein. Denn Geschirr kann zerbrechen oder zerspringen. Dann fallen Scherben ins Essen.\n\nMERKE: Fülle das Geschirr nur zu drei Vierteln. So lässt es sich leichter an den Tisch tragen, und nichts läuft über.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📖 Vier Fachbegriffe zum Anrichten. Was gehört zusammen?",
+        "pairs": [
+          { "left": {"text": "Anrichten"}, "right": {"text": "Fertige Speisen in Anrichtegeschirr geben"} },
+          { "left": {"text": "Einfüllen"}, "right": {"text": "In größeres Serviergeschirr füllen"} },
+          { "left": {"text": "Portionieren"}, "right": {"text": "Gleichmäßig in Gefäße für eine Person verteilen"} },
+          { "left": {"text": "Auflegen"}, "right": {"text": "Auf flaches Anrichtegeschirr wie Platten legen"} }
+        ],
+        "explanation": "Anrichten ist der Oberbegriff. Die anderen drei sind Arten des Anrichtens. Frag dich: Für viele Personen in ein großes Gefäß? Einfüllen. Für eine Person? Portionieren. Flach auf eine Platte? Auflegen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Du willst heiße Suppe in eine Glasschüssel füllen. Was gilt?",
+        "options": [
+          { "text": "Nur, wenn die Glasschüssel feuerfest ist.", "correct": true },
+          { "text": "Das geht immer, Glas hält jede Hitze aus." },
+          { "text": "Nur, wenn die Suppe nicht mehr dampft." },
+          { "text": "Nur, wenn die Schüssel vorher kalt war." }
+        ],
+        "explanation": "In Glasschüsseln kommen keine heißen Speisen. Normales Glas kann durch die Hitze zerspringen. Die Ausnahme ist feuerfestes Geschirr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👤 „Der Tellerrand gehört dem Gast!“ Was heißt das beim Anrichten?",
+        "options": [
+          { "text": "Der Rand bleibt frei und sauber.", "correct": true },
+          { "text": "Die Garnitur kommt immer auf den Rand." },
+          { "text": "Der Gast garniert den Rand selbst." },
+          { "text": "Die Soße wird auf dem Rand verteilt." }
+        ],
+        "explanation": "Der Tellerrand bleibt frei und sauber. Dort gehören keine Speise, keine Soße und keine Garnitur hin. Diese Regel gilt beim Servieren und genauso beim Anrichten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Grundregeln beim Anrichten: Richtig oder falsch? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "Richtig", "icon": "✅" },
+          { "id": "falsch", "label": "Falsch", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Unbeschädigtes, sauberes Anrichtegeschirr nehmen", "bucket": "richtig" },
+          { "text": "Nach dem Anrichten das Geschirr auf Sauberkeit prüfen", "bucket": "richtig" },
+          { "text": "Vorlegebesteck neben oder an das Geschirr legen", "bucket": "richtig" },
+          { "text": "Warme Speisen in vorgewärmtes Geschirr füllen", "bucket": "richtig" },
+          { "text": "Eine Schüssel mit kleiner Macke nehmen", "bucket": "falsch" },
+          { "text": "Warme Speisen in kaltes Geschirr füllen", "bucket": "falsch" },
+          { "text": "Vorlegebesteck erst bringen, wenn Gäste fragen", "bucket": "falsch" }
+        ],
+        "explanation": "Frag dich: Ist das Geschirr heil, sauber und passend warm? Hat der Gast alles, was er zum Nehmen braucht? Dann ist es richtig. Geschirr mit Macke und fehlendes Vorlegebesteck sind Fehler."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Warum füllst du Speisen nie über dem Topf oder über einer Schüssel ein?",
+        "options": [
+          { "text": "Das Geschirr kann zerspringen, dann fallen Scherben ins Essen.", "correct": true },
+          { "text": "Sonst tropft Soße auf den heißen Herd und brennt dort fest ein." },
+          { "text": "Sonst wird das Geschirr zu heiß, um es noch zu tragen." },
+          { "text": "Sonst sieht der Gast, dass das Essen aus einem Topf kommt." }
+        ],
+        "explanation": "Geschirr kann zerbrechen oder zerspringen. Hältst du es dabei über den Topf, landen die Scherben im Essen. Darum füllst du nie über Töpfen oder Schüsseln ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫗 Warum füllst du das Serviergeschirr nur zu drei Vierteln?",
+        "options": [
+          { "text": "So lässt es sich leichter tragen, und nichts läuft über.", "correct": true },
+          { "text": "So sieht die Portion für den Gast größer aus." },
+          { "text": "So kühlt die Speise schneller auf die richtige Esstemperatur ab." },
+          { "text": "So spart man Essen für den nächsten Tag." }
+        ],
+        "explanation": "Drei Viertel voll heißt: Oben bleibt ein Viertel frei. So kannst du das Geschirr sicher an den Tisch tragen. Nichts schwappt über den Rand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Die Suppe für sechs Gäste soll eingefüllt werden. Worin richtest du sie an?",
+        "options": [
+          { "text": "In einer Suppenterrine.", "correct": true },
+          { "text": "In sechs einzelnen Suppentassen." },
+          { "text": "Auf einer flachen Porzellanplatte." },
+          { "text": "In der Glasschüssel für den Salat." }
+        ],
+        "explanation": "Einfüllen heißt: in größeres Serviergeschirr. Für Suppe ist das die Suppenterrine. In sechs Tassen verteilen wäre Portionieren. Beilagen füllst du in eine Porzellanschüssel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Worauf kannst du einen Kuchen schön anrichten?",
+        "options": [
+          { "text": "Auf einer Tortenspitze.", "correct": true },
+          { "text": "Auf einem Geschirrtuch." },
+          { "text": "Auf dem Backpapier vom Blech." }
+        ],
+        "explanation": "Eine Tortenspitze ist eine Unterlage aus Spitzenpapier. Darauf sieht der Kuchen festlich aus. Geschirrtuch und Backpapier gehören nicht auf die Kuchenplatte."
+      }
+    }
+  ]
+}

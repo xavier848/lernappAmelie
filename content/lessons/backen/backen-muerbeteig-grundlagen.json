@@ -1,0 +1,148 @@
+{
+  "topic_slug": "backen",
+  "slug": "backen-muerbeteig-grundlagen",
+  "title": "Mürbeteig: Regeln und Grundrezept",
+  "sort": 621,
+  "intro": "🥧 Mürbeteig ist ein fettreicher Teig. Du hackst oder knetest ihn. Du rührst ihn nie. Mürbeteig braucht kein Backtriebmittel.\n\nDurch den hohen Fettanteil wird das Gebäck mürbe bis knusprig. Als Fett nimmst du Butter oder Margarine.\n\nSüßer Mürbeteig passt für Plätzchen, Obsttortenböden und Tortenböden. Salziger Mürbeteig passt für Käsegebäck und Quiches.\n\nFür Mürbeteig gilt das Mengenverhältnis 3 : 2 : 1. Das heißt: 3 Teile Mehl, 2 Teile Fett, 1 Teil Zucker. Zum Beispiel 300 g Mehl, 200 g Fett und 100 g Zucker.\n\nAchtung: Das Grundrezept weiter unten hat andere Mengen. Lerne beides getrennt: das Mengenverhältnis und das Grundrezept.\n\nMERKE: Verknete Mürbeteig kalt und zügig. Knetest du zu lange, vor allem mit den Händen, wird das Fett weich. Dann verliert der Teig seine Bindung. Das Gebäck wird nicht mürbe, sondern hart.\n\nDanach kühlst du den Teig gut zugedeckt, zum Beispiel in Frischhaltefolie. Je nach Rezept ½ bis 1 Stunde.\n\nGrundrezept Mürbeteig süß: 250 g Mehl. 125 g Butter oder Margarine. 60 g Zucker. 1 Ei.\n\nSo geht es: Du gibst das Mehl in eine Rührschüssel und drückst eine Mulde in die Mitte. Das kalte Fett verteilst du in Flöckchen oder Würfeln auf dem Mehlrand. Den Zucker streust du auch auf den Mehlrand. Das Ei gibst du in die Mulde. Dann vermengst du alles mit den Knethaken, von der Mitte aus. Zum Schluss knetest du den Teig mit den Händen schnell zu einer Kugel. Dann stellst du ihn gut zugedeckt kalt.\n\nDie Teigprobe: Du schneidest die Teigkugel einmal durch. Ist der Teig innen homogen, also überall gleich, ist er gut verknetet.\n\nGrundrezept Mürbeteig salzig: 250 g Mehl. 125 g Butter oder Margarine. 1 TL Salz. 1 Prise Zucker. 1 Ei. Du machst ihn wie den süßen Mürbeteig.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥧 Was ist typisch für Mürbeteig?",
+        "options": [
+          { "text": "Fettreich, geknetet oder gehackt, nie gerührt, ohne Triebmittel.", "correct": true },
+          { "text": "Fettarm, lange schaumig gerührt und immer mit Backpulver gelockert." },
+          { "text": "Mit Hefe gelockert, lange an einem warmen Ort gehen lassen, dann kneten." }
+        ],
+        "explanation": "Mürbeteig hat viel Fett. Du knetest oder hackst ihn, aber du rührst ihn nie. Er braucht kein Backtriebmittel, weder Backpulver noch Hefe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍪 Warum wird Mürbegebäck mürbe bis knusprig?",
+        "options": [
+          { "text": "Durch den hohen Fettanteil.", "correct": true },
+          { "text": "Durch sehr viel Backpulver." },
+          { "text": "Durch den untergehobenen Eischnee." }
+        ],
+        "explanation": "Mürbeteig enthält viel Butter oder Margarine. Dieser hohe Fettanteil macht das Gebäck mürbe bis knusprig. Ein Triebmittel braucht er nicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Süßer oder salziger Mürbeteig? Sortiere.",
+        "buckets": [
+          { "id": "suess", "label": "Süßer Mürbeteig", "icon": "🍪" },
+          { "id": "salzig", "label": "Salziger Mürbeteig", "icon": "🧀" }
+        ],
+        "items": [
+          { "text": "Plätzchen", "bucket": "suess" },
+          { "text": "Obsttortenboden", "bucket": "suess" },
+          { "text": "Tortenboden", "bucket": "suess" },
+          { "text": "Käsegebäck", "bucket": "salzig" },
+          { "text": "Quiche", "bucket": "salzig" }
+        ],
+        "explanation": "Frag dich: Wird es ein Kuchen, eine Torte oder ein Plätzchen? Dann süß. Gehören Käse oder Gemüse dazu, wie bei Käsegebäck oder einer Quiche? Dann salzig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Welches Mengenverhältnis gilt für Mürbeteig?",
+        "options": [
+          { "text": "3 Teile Mehl, 2 Teile Fett, 1 Teil Zucker.", "correct": true },
+          { "text": "3 Teile Mehl, 1 Teil Fett, 2 Teile Zucker." },
+          { "text": "3 Teile Fett, 2 Teile Mehl, 1 Teil Zucker." }
+        ],
+        "explanation": "Beim Mengenverhältnis ist Mehl die größte Menge, dann kommt Fett, dann Zucker. Zum Beispiel 300 g Mehl, 200 g Fett und 100 g Zucker."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 Du rechnest Mürbeteig nach dem Mengenverhältnis 3 : 2 : 1. Du nimmst 450 g Mehl. Wie viel Gramm Zucker brauchst du?",
+        "answer": 150,
+        "hint": "3 Teile Mehl sind 450 g.\n1 Teil ist 450 g geteilt durch 3.\nZucker ist 1 Teil.",
+        "explanation": "450 g Mehl sind 3 Teile. 1 Teil sind 150 g. Zucker ist 1 Teil, also 150 g. Fett wären 2 Teile, also 300 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Du knetest Mürbeteig sehr lange mit warmen Händen. Was passiert?",
+        "options": [
+          { "text": "Das Fett wird weich, der Teig verliert Bindung, das Gebäck wird hart.", "correct": true },
+          { "text": "Der Teig wird dadurch besonders mürbe, locker und schön knusprig beim Backen." },
+          { "text": "Der Teig geht wie ein Hefeteig auf und wird doppelt so groß." }
+        ],
+        "explanation": "Mürbeteig verarbeitest du kalt und zügig. Warme Hände machen das Fett weich. Dann hält der Teig nicht mehr zusammen, und das Gebäck wird hart statt mürbe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Der Mürbeteig ist fertig geknetet. Wie lange kühlst du ihn gut zugedeckt?",
+        "options": [
+          { "text": "Je nach Rezept ½ bis 1 Stunde.", "correct": true },
+          { "text": "Nur 5 bis 10 Minuten lang." },
+          { "text": "Mindestens 12 Stunden, über Nacht." }
+        ],
+        "explanation": "Mürbeteig ruht je nach Rezept ½ bis 1 Stunde im Kühlen. Er ist gut zugedeckt, zum Beispiel mit Frischhaltefolie. So wird das Fett wieder fest."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥧 Grundrezept Mürbeteig süß: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🌾 Mehl in die Schüssel geben, eine Mulde in die Mitte drücken." },
+          { "text": "🧈 Kaltes Fett und Zucker auf den Mehlrand, das Ei in die Mulde geben." },
+          { "text": "🌀 Mit den Knethaken von der Mitte aus vermengen." },
+          { "text": "🤲 Mit den Händen schnell zu einer Kugel kneten." },
+          { "text": "❄️ Gut zugedeckt kalt stellen." }
+        ],
+        "explanation": "Erst baust du alles auf: Mehl mit Mulde, außen Fett und Zucker, innen das Ei. Dann vermengst du von der Mitte aus. Die Hände kommen nur ganz kurz zum Schluss dran. Danach muss der Teig kalt werden."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚖️ Grundrezept Mürbeteig süß: Wie viel kommt hinein? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🌾 Mehl"}, "right": {"text": "250 g"} },
+          { "left": {"text": "🧈 Butter oder Margarine"}, "right": {"text": "125 g"} },
+          { "left": {"text": "🍬 Zucker"}, "right": {"text": "60 g"} },
+          { "left": {"text": "🥚 Ei"}, "right": {"text": "1 Stück"} }
+        ],
+        "memory": false,
+        "explanation": "Merkhilfe für das Grundrezept süß: 250 g Mehl und die Hälfte davon als Fett, also 125 g. Dazu 60 g Zucker und 1 Ei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Wie prüfst du, ob der Mürbeteig gut verknetet ist?",
+        "options": [
+          { "text": "Die Teigkugel einmal durchschneiden: Ist sie innen homogen?", "correct": true },
+          { "text": "Ein Holzstäbchen hineinstechen: Bleibt kein Teig daran hängen?" },
+          { "text": "Die Teigkugel auf den Tisch fallen lassen: Springt sie zurück?" }
+        ],
+        "explanation": "Bei der Teigprobe schneidest du die Kugel einmal durch. Homogen heißt: überall gleich, ohne Fettstückchen oder Mehlnester. Die Holzstäbchenprobe machst du erst beim fertig gebackenen Kuchen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Was ist beim salzigen Mürbeteig anders als beim süßen?",
+        "options": [
+          { "text": "1 TL Salz und nur 1 Prise Zucker.", "correct": true },
+          { "text": "Doppelt so viel Fett und kein Ei." },
+          { "text": "Hefe statt Zucker und viel Milch." }
+        ],
+        "explanation": "Der salzige Mürbeteig hat dieselbe Menge Mehl, Fett und Ei wie der süße. Statt 60 g Zucker kommen 1 TL Salz und 1 Prise Zucker hinein. Die Zubereitung ist gleich."
+      }
+    }
+  ]
+}

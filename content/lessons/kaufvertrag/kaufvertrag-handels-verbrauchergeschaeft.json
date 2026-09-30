@@ -1,0 +1,140 @@
+{
+  "topic_slug": "kaufvertrag",
+  "slug": "kaufvertrag-handels-verbrauchergeschaeft",
+  "title": "Handelsgeschäft und Verbrauchergeschäft",
+  "sort": 704,
+  "intro": "Ein Kaufvertrag hat mehrere Positionen. Das sind die Punkte, die im Vertrag geregelt werden. Das Buch vergleicht zwei Käufe. Beim Handelsgeschäft kauft das Seniorenheim eine Waschmaschine. Beim Verbrauchergeschäft kauft eine Privatperson Gemüse auf dem Markt.\n\nBeim Handelsgeschäft ist der Kaufvertrag schriftlich. Käufer ist eine juristische Person, das Seniorenheim. Die Beschaffenheit der Ware steht genau im Vertrag: Modellname und technische Daten wie Drehzahl, Fassungsvolumen und Stromverbrauch. Die Menge ist eine Maschine. Im Vertrag steht ein Nettopreis. Netto heißt: ohne Mehrwertsteuer.\n\nBeim Verbrauchergeschäft ist der Kaufvertrag mündlich. Käufer ist eine natürliche Person. Die Beschaffenheit steht auf dem Schild, zum Beispiel Handelsklasse I oder II. Die Menge wird in Kilogramm angegeben. Der Preis ist ein Bruttopreis. Brutto heißt: mit Mehrwertsteuer.\n\nLieferbedingung beim Handelsgeschäft: ab Werk. Das heißt: Die Ware muss tatsächlich am Werk abgeholt werden. Lieferbedingung beim Verbrauchergeschäft: unfrei. Das heißt: Der Verkäufer hat seine Pflicht mit der Übergabe am Verkaufsstand erfüllt. Er muss nichts anliefern.\n\nZahlungsbedingung beim Handelsgeschäft: Zahlung innerhalb einer Frist, meist 14 Tage. Wer schon innerhalb von 7 Tagen zahlt, bekommt meist 2 % Skonto. Beim Verbrauchergeschäft zahlt man Zug um Zug. Das heißt: sofort bei der Übergabe. Nimmt man eine größere Menge, zum Beispiel mindestens 1 kg, gibt es manchmal Rabatt.\n\nDer Erfüllungsort ist der Ort, an dem der Vertrag erfüllt wird. Beim Handelsgeschäft ist das formal meist der Sitz der Firma. Beim Verbrauchergeschäft ist es an Ort und Stelle, also am Marktstand. Der Gerichtsstand ist das Gericht, das bei Streit zuständig ist. Beim Handelsgeschäft ist es das Gericht für den Firmensitz des Herstellers. Beim Verbrauchergeschäft gelten die gesetzlichen Regeln.\n\nMERKE: Handelsgeschäft = schriftlich, juristische Person, Nettopreis, ab Werk, Zahlung in 14 Tagen oder mit 2 % Skonto in 7 Tagen. Verbrauchergeschäft = mündlich, natürliche Person, Bruttopreis, unfrei, Zug um Zug.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏢🥕 Handelsgeschäft oder Verbrauchergeschäft? Sortiere.",
+        "buckets": [
+          { "id": "h", "label": "Handelsgeschäft: Waschmaschine für das Heim", "icon": "🏢" },
+          { "id": "v", "label": "Verbrauchergeschäft: Gemüse privat", "icon": "🥕" }
+        ],
+        "items": [
+          { "text": "Kaufvertrag schriftlich", "bucket": "h" },
+          { "text": "Käufer ist eine juristische Person", "bucket": "h" },
+          { "text": "Nettopreis", "bucket": "h" },
+          { "text": "Modellname mit technischen Daten", "bucket": "h" },
+          { "text": "Kaufvertrag mündlich", "bucket": "v" },
+          { "text": "Käufer ist eine natürliche Person", "bucket": "v" },
+          { "text": "Bruttopreis", "bucket": "v" },
+          { "text": "Handelsklasse I oder II", "bucket": "v" }
+        ],
+        "explanation": "Frag dich: Kauft hier ein Betrieb oder eine Privatperson? Der Betrieb kauft schriftlich, als juristische Person, mit genauen technischen Daten und mit Preisen ohne Steuer. Die Privatperson kauft mündlich, als natürliche Person, nach dem Schild mit der Handelsklasse und zahlt den Preis mit Steuer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Beim Handelsgeschäft steht im Vertrag ein Nettopreis. Was heißt das?",
+        "options": [
+          { "text": "Die Mehrwertsteuer ist noch nicht enthalten.", "correct": true },
+          { "text": "Die Mehrwertsteuer ist schon im Preis enthalten." },
+          { "text": "Der Skonto ist vom Preis schon abgezogen." },
+          { "text": "Die Lieferung ist im Preis schon enthalten." }
+        ],
+        "explanation": "Netto heißt: ohne Mehrwertsteuer. Die Steuer kommt noch dazu. Brutto heißt: mit Mehrwertsteuer. Im Buch-Beispiel steht beim Handelsgeschäft ein Nettopreis, beim Gemüsekauf ein Bruttopreis."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📋 Noch mehr Positionen: Handelsgeschäft oder Verbrauchergeschäft? Sortiere.",
+        "buckets": [
+          { "id": "h", "label": "Handelsgeschäft: Waschmaschine für das Heim", "icon": "🏢" },
+          { "id": "v", "label": "Verbrauchergeschäft: Gemüse privat", "icon": "🥕" }
+        ],
+        "items": [
+          { "text": "Menge: eine Maschine", "bucket": "h" },
+          { "text": "Lieferung: ab Werk", "bucket": "h" },
+          { "text": "Zahlung innerhalb einer Frist", "bucket": "h" },
+          { "text": "Erfüllungsort: Sitz der Firma", "bucket": "h" },
+          { "text": "Menge: in Kilogramm", "bucket": "v" },
+          { "text": "Lieferung: unfrei", "bucket": "v" },
+          { "text": "Zahlung Zug um Zug", "bucket": "v" },
+          { "text": "Erfüllungsort: an Ort und Stelle", "bucket": "v" }
+        ],
+        "explanation": "Frag dich: Passt das zu einem großen Gerät für einen Betrieb oder zu einem schnellen Einkauf am Marktstand? Am Marktstand wird gewogen, sofort bezahlt und alles an Ort und Stelle erledigt. Die Waschmaschine wird am Werk abgeholt und später innerhalb einer Frist bezahlt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeuten die Positionen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Bruttopreis"}, "right": {"text": "Preis mit Mehrwertsteuer"} },
+          { "left": {"text": "Ab Werk"}, "right": {"text": "Ware wird am Werk abgeholt"} },
+          { "left": {"text": "Unfrei"}, "right": {"text": "Übergabe am Stand, keine Lieferung"} },
+          { "left": {"text": "Zug um Zug"}, "right": {"text": "Sofort bei der Übergabe zahlen"} },
+          { "left": {"text": "Erfüllungsort"}, "right": {"text": "Ort, an dem der Vertrag erfüllt wird"} },
+          { "left": {"text": "Gerichtsstand"}, "right": {"text": "Gericht, das bei Streit zuständig ist"} }
+        ],
+        "memory": false,
+        "explanation": "Brutto ist der volle Preis mit Steuer. Ab Werk und unfrei heißen beide: Der Verkäufer liefert nicht. Zug um Zug heißt: Ware gegen Geld, im selben Moment. Erfüllungsort und Gerichtsstand sind Orte: wo der Vertrag erfüllt wird und welches Gericht bei Streit entscheidet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Das Heim kauft die Waschmaschine. Welche Zahlungsbedingung ist beim Handelsgeschäft üblich?",
+        "options": [
+          { "text": "Zahlung in 14 Tagen, 2 % Skonto bei Zahlung in 7 Tagen.", "correct": true },
+          { "text": "Zahlung sofort bei der Übergabe, also Zug um Zug." },
+          { "text": "Zahlung in 7 Tagen, 2 % Skonto bei Zahlung in 14 Tagen." },
+          { "text": "Zahlung in 30 Tagen, 5 % Skonto bei Zahlung in 10 Tagen." }
+        ],
+        "explanation": "Beim Handelsgeschäft zahlt man innerhalb einer Frist, meist 14 Tage. Wer schneller zahlt, innerhalb von 7 Tagen, bekommt meist 2 % Skonto. Skonto belohnt also das schnelle Zahlen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Die Rechnung für die Waschmaschine beträgt 600 €. Es gibt 2 % Skonto bei Zahlung innerhalb von 7 Tagen. Das Heim zahlt nach 5 Tagen. Wie viel Euro Skonto darf es abziehen?",
+        "answer": 12,
+        "hint": "1 % von 600 € sind 6 €.\n2 % sind doppelt so viel.\n6 € mal 2 = ?",
+        "explanation": "1 % von 600 € sind 6 €. 2 % sind 12 €. Das Heim zahlt innerhalb von 7 Tagen, also darf es 2 % Skonto abziehen. Es überweist 600 € − 12 € = 588 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Auf dem Markt: Wofür gibt es beim Verbrauchergeschäft manchmal Rabatt?",
+        "options": [
+          { "text": "Für eine größere Menge, zum Beispiel ab 1 kg.", "correct": true },
+          { "text": "Für eine Zahlung innerhalb von 7 Tagen." },
+          { "text": "Für das Abholen der Ware ab Werk." },
+          { "text": "Für einen schriftlichen Kaufvertrag." }
+        ],
+        "explanation": "Beim Gemüsekauf auf dem Markt gibt es manchmal Rabatt, wenn du eine größere Einzelmenge nimmst, zum Beispiel mindestens 1 kg. Für schnelles Zahlen gibt es dagegen Skonto. Das ist beim Handelsgeschäft üblich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Handelsgeschäft: Das Heim und der Hersteller streiten über die Waschmaschine. Welches Gericht ist laut Vertrag zuständig?",
+        "options": [
+          { "text": "Das Gericht am Firmensitz des Herstellers.", "correct": true },
+          { "text": "Das Gericht am Wohnort der Küchenleitung." },
+          { "text": "Das Gericht, das der Käufer frei aussucht." },
+          { "text": "Keins, Firmen dürfen einander nicht verklagen." }
+        ],
+        "explanation": "Gerichtsstand heißt: Welches Gericht ist bei Streit zuständig? Im Handelsgeschäft des Buches ist es das Gericht für den Firmensitz des Herstellers. Beim privaten Gemüsekauf gelten dagegen die gesetzlichen Regeln."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du kaufst auf dem Markt Gemüse für dich. Wie ist der Kaufvertrag meistens?",
+        "options": [
+          { "text": "Mündlich.", "correct": true },
+          { "text": "Schriftlich beim Notar." },
+          { "text": "Per Fax." }
+        ],
+        "explanation": "Beim privaten Gemüseeinkauf ist der Kaufvertrag mündlich. Er gilt trotzdem genauso wie ein schriftlicher Vertrag."
+      }
+    }
+  ]
+}

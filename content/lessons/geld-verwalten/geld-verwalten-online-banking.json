@@ -1,0 +1,153 @@
+{
+  "topic_slug": "geld-verwalten",
+  "slug": "geld-verwalten-online-banking",
+  "title": "Online-Banking mit PIN und TAN",
+  "sort": 714,
+  "intro": "💻 Beim Online-Banking erledigst du Bankgeschäfte im Internet. Im Betrieb laufen heute vor allem Überweisungen und Daueraufträge per Online-Banking.\n\nOnline-Banking hat drei Vorteile. Erstens: Es ist die preiswerteste bargeldlose Zahlungsart. Es kostet keine oder nur sehr geringe Bankgebühren. Zweitens: Es spart Zeit. Du musst nicht zur Bank gehen, um einen Zahlungsträger abzugeben. Ein Zahlungsträger ist zum Beispiel eine Überweisung auf Papier. Drittens: Du kannst Zahlungsempfänger mit ihren Bankdaten speichern. So geht die nächste Überweisung schneller.\n\nDu kannst eine Überweisung terminieren. Das heißt: Du legst heute fest, an welchem Tag sie ausgeführt wird. Zum Beispiel in vier Wochen. Das hat Vorteile. Das Geld bleibt bis dahin für dich verfügbar. Das nennt man Liquidität. Bei sehr großen Rechnungen gibt es einen Zinsgewinn. Und du zahlst nicht zu spät. So vermeidest du Mahngebühren.\n\nSo meldest du dich an: Du öffnest die Internetseite deiner Bank oder Sparkasse. Du gibst deinen Zugangscode ein. Er heißt auch Netkey oder Alias. Dazu kommt deine PIN. Die PIN ist deine geheime Nummer.\n\nIm geschützten Bereich kannst du den Kontoumsatz abfragen. Du kannst Geld ins Inland und ins Ausland überweisen, auch terminiert. Und du kannst Daueraufträge einrichten.\n\nIm Online-Formular trägst du ein: den Begünstigten, also Name oder Firma, die IBAN, den Betrag und den Verwendungszweck. Ins Feld Ausführung kommt nur dann ein Datum, wenn die Überweisung später laufen soll. Dazu wählst du dein Auftraggeberkonto.\n\nDann klickst du auf „weiter“. Jetzt brauchst du eine TAN. TAN heißt Transaktionsnummer. In deinem Fachbuch steht: Die TAN kommt per SMS von der Bank. Oder du erzeugst sie mit einem TAN-Generator. Dafür brauchst du deine Bankkarte. Den TAN-Generator nutzt man vor allem im Betrieb.\n\nHeute gilt: Viele Banken nutzen dafür eine App auf dem Handy, zum Beispiel pushTAN oder photoTAN. Die SMS gibt es nur noch bei manchen Banken. Du tippst die TAN ein oder gibst den Auftrag in der App frei. Erst dann ist der Auftrag ausgelöst.\n\nBeim Einkaufen im Internet gibt es eigene Zahlungssysteme, zum Beispiel bei Auktionshäusern. Im Grunde sind das auch nur Online-Überweisungen oder einmalige Lastschriften.\n\nMERKE: Anmelden mit Zugangscode und PIN. Jeden Auftrag bestätigst du mit einer TAN.\n\nMERKE: Online-Banking ist die günstigste bargeldlose Zahlungsart.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "💻 Du überweist online eine Rechnung. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Internetseite deiner Bank öffnen." },
+          { "text": "Mit Zugangscode und PIN anmelden." },
+          { "text": "Begünstigten, IBAN, Betrag und Verwendungszweck eintragen." },
+          { "text": "Auf „weiter“ klicken." },
+          { "text": "Eine TAN holen." },
+          { "text": "Den Auftrag mit der TAN bestätigen. Jetzt ist er ausgelöst." }
+        ],
+        "explanation": "Erst meldest du dich an, dann füllst du das Formular aus. Die TAN kommt immer ganz zum Schluss. Sie bestätigt einen fertig ausgefüllten Auftrag. Ohne TAN wird nichts überwiesen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeutet der Fachbegriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🔑 Netkey oder Alias"}, "right": {"text": "Zugangscode für die Anmeldung"} },
+          { "left": {"text": "🔢 PIN"}, "right": {"text": "Geheime Nummer, auch für die Anmeldung"} },
+          { "left": {"text": "📲 TAN"}, "right": {"text": "Nummer, die einen Auftrag bestätigt"} },
+          { "left": {"text": "📄 Zahlungsträger"}, "right": {"text": "Überweisung auf Papier für die Bank"} }
+        ],
+        "explanation": "Zur Anmeldung brauchst du zwei Dinge: den Zugangscode, also Netkey oder Alias, und deine PIN. Die TAN gilt nur für einen einzigen Auftrag. Einen Zahlungsträger aus Papier musst du beim Online-Banking nicht mehr zur Bank bringen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Die Buchhaltung erzeugt ihre TAN mit einem TAN-Generator. Was braucht sie dafür?",
+        "options": [
+          { "text": "Die Bankkarte.", "correct": true },
+          { "text": "Ein Handy mit SMS-Empfang." },
+          { "text": "Den letzten Kontoauszug." }
+        ],
+        "explanation": "Für den TAN-Generator brauchst du die Bankkarte. Er wird vor allem im Betrieb genutzt. Andere Wege sind eine App oder eine SMS auf dem Handy. Dafür brauchst du keinen TAN-Generator."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📱 Deine Bank schickt keine TAN mehr per SMS. Wie bekommst du heute bei vielen Banken die TAN?",
+        "options": [
+          { "text": "Über eine App auf dem Handy, zum Beispiel pushTAN.", "correct": true },
+          { "text": "Mit einem Brief, in dem jeden Monat neue TANs stehen." },
+          { "text": "Am Bankschalter, jeden Morgen eine neue TAN für alles." }
+        ],
+        "explanation": "Heute gilt: Viele Banken nutzen eine TAN-App, zum Beispiel pushTAN oder photoTAN. In deinem Fachbuch stehen nur SMS und TAN-Generator. Beides gibt es auch noch. Wichtig bleibt: Jede TAN gilt nur für einen einzigen Auftrag."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Was kannst du im geschützten Bereich vom Online-Banking erledigen? Sortiere.",
+        "buckets": [
+          { "id": "online", "label": "Geht online", "icon": "💻" },
+          { "id": "nicht", "label": "Geht nicht online", "icon": "🚫" }
+        ],
+        "items": [
+          { "text": "Den Kontoumsatz abfragen", "bucket": "online" },
+          { "text": "Geld ins Ausland überweisen", "bucket": "online" },
+          { "text": "Eine Überweisung terminieren", "bucket": "online" },
+          { "text": "Einen Dauerauftrag einrichten", "bucket": "online" },
+          { "text": "Bargeld abheben", "bucket": "nicht" },
+          { "text": "Einen Barscheck einlösen", "bucket": "nicht" },
+          { "text": "Münzen einzahlen", "bucket": "nicht" }
+        ],
+        "explanation": "Frag dich: Geht es nur um Daten und Aufträge? Das geht online. Geht es um Bargeld, also Scheine und Münzen? Dafür musst du zur Bank oder an den Automaten. Über das Internet kommt kein Bargeld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Du vergleichst die Gebühren deiner Bank: Überweisung auf Papier oder online. Was stimmt meistens?",
+        "options": [
+          { "text": "Online ist günstiger, oft ganz ohne Gebühr.", "correct": true },
+          { "text": "Papier ist günstiger, weil die Bank weniger Arbeit hat." },
+          { "text": "Beides kostet bei jeder Bank immer genau gleich viel." }
+        ],
+        "explanation": "Online-Banking ist die preiswerteste bargeldlose Zahlungsart. Es gibt keine oder nur sehr geringe Bankgebühren. Frag bei deiner Bank nach, was eine Überweisung auf Papier kostet. Dann siehst du den Unterschied."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⭐ Du überweist jeden Monat an denselben Großhändler. Was macht das online schneller?",
+        "options": [
+          { "text": "Du speicherst ihn mit seinen Bankdaten als Empfänger.", "correct": true },
+          { "text": "Du lässt beim nächsten Mal das Feld für die IBAN einfach frei." },
+          { "text": "Du schreibst dir eine TAN für alle Monate auf." }
+        ],
+        "explanation": "Beim Online-Banking kannst du Zahlungsempfänger mit ihren Bankdaten speichern. Beim nächsten Mal rufst du sie einfach auf. Eine TAN gilt dagegen immer nur für einen Auftrag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Eine große Rechnung ist erst in vier Wochen fällig. Du terminierst die Überweisung auf diesen Tag. Was hast du davon?",
+        "options": [
+          { "text": "Das Geld bleibt länger verfügbar, und du zahlst nicht zu spät.", "correct": true },
+          { "text": "Du bekommst trotzdem Skonto, obwohl du erst in vier Wochen zahlst." },
+          { "text": "Die Bank erlässt dir dafür alle Gebühren für das Konto." }
+        ],
+        "explanation": "Terminiert heißt: Die Überweisung läuft erst an dem Tag, den du festlegst. Bis dahin bleibt das Geld verfügbar. Das nennt man Liquidität. Bei großen Beträgen bringt das Zinsen. Und du zahlst pünktlich, also ohne Mahngebühren. Skonto gibt es nur für schnelles Zahlen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ Im Online-Formular gibt es das Feld Ausführung. Wann trägst du dort ein Datum ein?",
+        "options": [
+          { "text": "Nur wenn die Überweisung später laufen soll.", "correct": true },
+          { "text": "Immer, sonst wird die Überweisung gar nicht ausgeführt." },
+          { "text": "Nur bei Überweisungen ins Ausland." }
+        ],
+        "explanation": "Das Datum bei Ausführung brauchst du nur für eine terminierte Überweisung. Lässt du das Feld leer, wird die Überweisung gleich ausgeführt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Du ersteigerst etwas bei einem Auktionshaus im Internet. Du zahlst über dessen Zahlungssystem. Was steckt im Grunde dahinter?",
+        "options": [
+          { "text": "Eine Online-Überweisung oder eine einmalige Lastschrift.", "correct": true },
+          { "text": "Eine Barzahlung, die später per Nachnahme an der Haustür läuft." },
+          { "text": "Ein Kredit, den du danach in Raten abzahlen musst." }
+        ],
+        "explanation": "Die Zahlungssysteme im Internethandel wirken neu. Im Grunde sind es aber auch nur Online-Überweisungen oder einmalige Lastschriften im Online-Verfahren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Warum spart dir Online-Banking Zeit?",
+        "options": [
+          { "text": "Du musst nicht zur Bank gehen.", "correct": true },
+          { "text": "Du musst nie wieder eine IBAN eintragen." },
+          { "text": "Die Bank hat online länger geöffnet." }
+        ],
+        "explanation": "Beim Online-Banking erledigst du alles am Computer oder Handy. Der Weg zur Bank fällt weg. 🎉"
+      }
+    }
+  ]
+}

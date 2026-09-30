@@ -1,0 +1,137 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-mindestbestand",
+  "title": "Warenbestand und Mindestbestand",
+  "sort": 715,
+  "intro": "📦 Wie viel Ware soll im Lager sein? Dabei hilft das Lagerkarteiprogramm. Oft ist die Zahl der Portionen schon eine Woche vorher bekannt. Zum Beispiel beim Essen auf Rädern: Die Kunden bestellen ihre Mahlzeiten vorher. Dann erkennt das Programm schnell, ob du kurzfristig nachbestellen musst. So kann man mit einem sehr kleinen Lager arbeiten.\n\nDas Programm warnt auch rechtzeitig vor festen Festtagen. Das heißt Bestellwarnung. Beispiele: Gänsekeulen zum Martinstag, Weckmänner, Hafermastgänse zum Weihnachtsessen und Sekt zu Silvester. Nach dem Fest bestellst du diese Waren nicht gleich wieder nach. Man braucht sie erst zum nächsten Fest.\n\nEin zu kleines Lager hat Gefahren. Der Bestand reicht nicht für alles, was die Küche braucht. Du musst schnell teure Ware nachkaufen, vielleicht mit extra Personal. Dabei liefert der Lieferant sonst frei Haus. Und in einer Notlage, zum Beispiel bei einem Wintereinbruch, fehlt die Notreserve.\n\nEin zu großes Lager hat Nachteile. Im Lager steckt viel Geld. Man sagt: Das Kapital ist gebunden. Auf einem Konto würde das Geld Zinsen bringen. So entsteht ein Zinsverlust. Die Betriebskosten steigen, zum Beispiel für einen Kühlraum, der nur halb gebraucht wird. Und Ware kann überlagern. Dann läuft das MHD ab.\n\nDeshalb gibt es den Mindestbestand. So viel Ware muss mindestens im Lager sein. Bei Ware, die nur kurz haltbar ist, richtet er sich nach dem erwarteten Verbrauch pro Tag. Für länger haltbare Lebensmittel gilt die Faustregel: der Bedarf für zwei Wochen. Wird nicht jeden Tag geliefert, kommt noch die Menge dazu, die während der Lieferzeit verbraucht wird.\n\nSo rechnest du den Verbrauch pro Tag: Anzahl mal Menge pro Stück. Beispiel: 100 Tassen Tee mit je 2 g Tee sind 200 g pro Tag.\n\nSo rechnest du das gebundene Kapital: Essen pro Tag mal Warenkosten pro Essen mal Lagertage. Beispiel: 100 Essen mal 2 € mal 10 Tage sind 2.000 €. Und die Zinsen: Kapital mal Zinssatz. Beispiel: 1 % von 2.000 € sind 20 €.\n\nMERKE: Ein zu kleines Lager ist riskant. Ein zu großes Lager kostet Geld. Der Mindestbestand ist die Untergrenze.\n\nMERKE: Faustregel für länger haltbare Lebensmittel: Mindestbestand = Bedarf für zwei Wochen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚐 Beim Essen auf Rädern steht die Zahl der Portionen eine Woche vorher fest. Was bringt das fürs Lager?",
+        "options": [
+          { "text": "Das Programm sieht früh, was fehlt. Das Lager kann klein bleiben.", "correct": true },
+          { "text": "Man braucht dann überhaupt kein Programm mehr für das Lager und die Küche." },
+          { "text": "Das Lager muss dann besonders groß und immer ganz voll sein." }
+        ],
+        "explanation": "Sind die Portionen früh bekannt, erkennt das Lagerkarteiprogramm schnell, was kurzfristig nachbestellt werden muss. Dann kann man mit einem sehr kleinen Lager arbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦢 Wofür gibt das Lagerprogramm rechtzeitig eine Bestellwarnung?",
+        "options": [
+          { "text": "Für feste Festtage, zum Beispiel Gänse zum Martinstag.", "correct": true },
+          { "text": "Für jeden Tag, an dem Nudeln auf dem Speiseplan stehen." },
+          { "text": "Für den Tag, an dem im Lager die Inventur stattfindet." }
+        ],
+        "explanation": "Feste Festtage stehen lange vorher im Kalender: Martinstag, Weihnachten, Silvester. Für die besonderen Waren warnt das Programm rechtzeitig. So bestellst du Gänsekeulen, Hafermastgänse, Weckmänner oder Sekt früh genug."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥂 Silvester ist vorbei. Das Programm zeigt: Der Sekt ist fast leer. Was tust du?",
+        "options": [
+          { "text": "Nicht gleich nachbestellen, Sekt braucht man erst zum nächsten Fest.", "correct": true },
+          { "text": "Sofort viel Sekt nachbestellen, damit das Lager schnell wieder voll ist." },
+          { "text": "Den Mindestbestand für Sekt verdoppeln, damit er nie ausgeht." }
+        ],
+        "explanation": "Waren für Festtage braucht man nur zu diesem Fest. Bestellst du sie gleich nach, liegen sie ein Jahr im Lager. Das bindet Geld, und die Ware kann überlagern."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Folge von einem zu kleinen oder von einem zu großen Lager? Sortiere.",
+        "buckets": [
+          { "id": "klein", "label": "Zu kleines Lager", "icon": "🔻" },
+          { "id": "gross", "label": "Zu großes Lager", "icon": "🔺" }
+        ],
+        "items": [
+          { "text": "Die Küche bekommt nicht alles, was sie braucht", "bucket": "klein" },
+          { "text": "Teure Ware muss schnell nachgekauft werden", "bucket": "klein" },
+          { "text": "Beim Wintereinbruch fehlt die Notreserve", "bucket": "klein" },
+          { "text": "Extra Personal muss Ware besorgen", "bucket": "klein" },
+          { "text": "Viel Geld steckt in der Ware fest", "bucket": "gross" },
+          { "text": "Zinsverlust", "bucket": "gross" },
+          { "text": "Ein halb leerer Kühlraum muss gekühlt werden", "bucket": "gross" },
+          { "text": "Ware überlagert, das MHD läuft ab", "bucket": "gross" }
+        ],
+        "explanation": "Frag dich: Fehlt etwas oder ist zu viel da? Fehlt Ware, wird es hektisch und teuer, und in der Not reicht es nicht. Ist zu viel da, kostet das Lager Geld: gebundenes Kapital, Kühlung und verdorbene Ware."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💰 Die Küchenleitung sagt: „In unserem Lager ist zu viel Kapital gebunden.“ Was meint sie?",
+        "options": [
+          { "text": "Im Lager steckt Geld, das auf dem Konto Zinsen bringen könnte.", "correct": true },
+          { "text": "Die Ware im Lager ist schon verkauft, aber noch nicht abgeholt." },
+          { "text": "Die Bank hat das ganze Lager als Sicherheit für einen Kredit." }
+        ],
+        "explanation": "Gebundenes Kapital ist Geld, das in der Ware im Lager steckt. Solange die Ware dort liegt, kann das Geld keine Zinsen bringen. Das ist der Zinsverlust eines zu großen Lagers."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📏 Wonach richtet sich der Mindestbestand? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥬 Ware, die nur kurz haltbar ist"}, "right": {"text": "Erwarteter Verbrauch pro Tag"} },
+          { "left": {"text": "🥫 Länger haltbare Lebensmittel"}, "right": {"text": "Bedarf für zwei Wochen"} },
+          { "left": {"text": "🚚 Lieferung nicht jeden Tag"}, "right": {"text": "Plus Verbrauch während der Lieferzeit"} }
+        ],
+        "explanation": "Frag dich: Wie lange hält die Ware? Kurz haltbare Ware darfst du nicht auf Vorrat legen, also rechnest du pro Tag. Lange haltbare Ware darf für zwei Wochen reichen. Kommt der Lieferant nicht täglich, muss es bis zur nächsten Lieferung reichen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "☕ Eine Werkskantine verkauft jeden Tag 500 Tassen Kaffee. Für eine Tasse braucht sie 7 g Kaffeepulver. Wie viel Gramm Kaffeepulver braucht sie pro Tag?",
+        "answer": 3500,
+        "hint": "Rechne 500 mal 7. Tipp: 5 mal 7 sind 35. Dann zwei Nullen anhängen.",
+        "explanation": "500 Tassen mal 7 g sind 3.500 g. Das sind 3,5 kg Kaffeepulver pro Tag. Mit diesem Tagesverbrauch planst du den Mindestbestand. Kommt der Lieferant nicht jeden Tag, rechnest du den Verbrauch bis zur nächsten Lieferung dazu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏫 Eine Mensa gibt jeden Tag 5.000 Essen aus. Die Waren für ein Essen kosten 1,35 €. Das Lager reicht für 20 Essenstage. Wie viel Euro Kapital sind im Lager gebunden?",
+        "options": [
+          { "text": "135.000 €", "correct": true },
+          { "text": "6.750 €" },
+          { "text": "13.500 €" },
+          { "text": "1.350.000 €" }
+        ],
+        "explanation": "Erst pro Tag: 5.000 Essen mal 1,35 € sind 6.750 €. Dann für 20 Tage: 6.750 € mal 20 sind 135.000 €. So viel Geld steckt in der Ware im Lager. 6.750 € wären nur ein einziger Tag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Die Mensa lässt sich jetzt täglich beliefern. Das Lager reicht nur noch für 10 Essenstage. So sind 67.500 € weniger gebunden. Der Zinssatz ist 4,7 %. Wie hoch ist die Zinsersparnis pro Jahr?",
+        "options": [
+          { "text": "3.172,50 €", "correct": true },
+          { "text": "6.345,00 €" },
+          { "text": "317,25 €" },
+          { "text": "675,00 €" }
+        ],
+        "explanation": "Zinsen = Kapital mal Zinssatz. 4,7 % von 67.500 € sind 3.172,50 €. Überschlag: 1 % sind 675 €. 4,7 % sind knapp fünfmal so viel, also etwas unter 3.375 €. Nur 3.172,50 € passt. 6.345 € wären die Zinsen auf 135.000 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Was ist der Mindestbestand?",
+        "options": [
+          { "text": "So viel Ware muss mindestens im Lager sein.", "correct": true },
+          { "text": "So viel Ware darf höchstens im ganzen Lager sein." },
+          { "text": "So viel Ware wird jeden Tag geliefert." }
+        ],
+        "explanation": "Der Mindestbestand ist die Untergrenze. Weniger darf nicht im Lager sein, sonst drohen die Gefahren eines zu kleinen Lagers. 🎉"
+      }
+    }
+  ]
+}

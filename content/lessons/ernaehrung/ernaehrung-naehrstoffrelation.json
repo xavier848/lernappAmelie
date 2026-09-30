@@ -1,0 +1,140 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-naehrstoffrelation",
+  "title": "Nährstoffe: Wie viel von was?",
+  "sort": 582,
+  "intro": "🥧 Die DGE empfiehlt, wie sich die Energie eines Tages auf die Hauptnährstoffe verteilt. Das nennt man Nährstoffrelation.\n\nMERKE: Nährstoffrelation: 15 % Eiweiß, 30 % Fett und 55 % Kohlenhydrate. Zusammen sind das 100 % der Gesamtenergie.\n\nRechenbeispiel aus dem Buch: Eine Auszubildende braucht 8500 kJ am Tag. 15 % Eiweiß sind 75 g. 55 % Kohlenhydrate sind 275 g. Für 30 % Fett nennt das Buch rund 65 g. Das ist ein gerundeter Buchwert. Rechnest du selbst mit 37 kJ pro Gramm Fett, kommst du auf etwa 69 g. Beides ist ungefähr richtig. Wichtig ist: Fett hat den doppelten Anteil von Eiweiß, aber weniger Gramm. Denn 1 g Fett liefert viel mehr Energie als 1 g Eiweiß.\n\nEiweiß: Die essenziellen Aminosäuren braucht der Körper, um Körpersubstanz aufzubauen und zu erneuern. Die DGE empfiehlt genauer 0,8 g Eiweiß pro kg Körpergewicht. Das reicht für junge und ältere Menschen, auch bei leichtem bis mittlerem Sport. Mehr Eiweiß bringt keine Vorteile. Tierische Lebensmittel bringen sogar mehr Fett und Cholesterin mit. Trotzdem passt eine Eiweißmenge von 10 bis 15 % der Energie besser zu den Essgewohnheiten. Sie liegt noch unter der oberen Grenze der DGE von 2 g pro kg Körpergewicht.\n\nFett: Die 30 % beruhen auf Untersuchungen. Viel Fett, besonders gesättigte Fettsäuren, hängt mit Fettstoffwechselstörungen und Arteriosklerose zusammen. Arteriosklerose heißt: Die Blutgefäße verkalken. Ungesättigte Fettsäuren wirken meist positiv. Sie senken zum Beispiel den Cholesterinspiegel oder beeinflussen Entzündungen. Mehrfach ungesättigte Fettsäuren musst du mit dem Essen aufnehmen. Die DGE empfiehlt 2,5 % der Energie als Linolsäure und 0,5 % als α-Linolensäure (Alpha-Linolensäure).\n\nKohlenhydrate: Davon darfst du reichlich essen, wenn es stärke- und ballaststoffreiche Lebensmittel sind. Sie liefern auch Vitamine, Mineralstoffe und sekundäre Pflanzenstoffe. Mit Zucker gehst du eher sparsam um. Eine genaue Menge nennt die DGE nicht. Zu viele leicht resorbierbare Kohlenhydrate wandelt der Körper in Fett um. Leicht resorbierbar heißt: Sie gehen sehr schnell ins Blut, zum Beispiel Zucker.\n\nMERKE: Eiweiß 0,8 g pro kg Körpergewicht. Ballaststoffe mindestens 30 g pro Tag.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥧 Wie verteilt sich die Energie eines Tages laut DGE auf die Hauptnährstoffe?",
+        "options": [
+          { "text": "15 % Eiweiß, 30 % Fett, 55 % Kohlenhydrate", "correct": true },
+          { "text": "30 % Eiweiß, 15 % Fett, 55 % Kohlenhydrate" },
+          { "text": "15 % Eiweiß, 55 % Fett, 30 % Kohlenhydrate" },
+          { "text": "33 % Eiweiß, 33 % Fett, 33 % Kohlenhydrate" }
+        ],
+        "explanation": "Die Nährstoffrelation der DGE lautet: 15 % Eiweiß, 30 % Fett, 55 % Kohlenhydrate. Den größten Anteil haben also die Kohlenhydrate, den kleinsten das Eiweiß."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔢 Rechenbeispiel mit 8500 kJ am Tag: Wie viele Gramm sind das? Verbinde.",
+        "explanation": "Kohlenhydrate haben den größten Anteil, darum die meisten Gramm. Fett hat den doppelten Anteil von Eiweiß, aber weniger Gramm. Denn 1 g Fett liefert viel mehr Energie. Beim Fett ist die Grammzahl ein gerundeter Wert aus dem Buch.",
+        "pairs": [
+          { "left": {"text": "🥚 Eiweiß"}, "right": {"text": "75 g"} },
+          { "left": {"text": "🧈 Fett"}, "right": {"text": "Rund 65 g (Buchwert)"} },
+          { "left": {"text": "🍞 Kohlenhydrate"}, "right": {"text": "275 g"} }
+        ]
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚖️ Du wiegst 60 kg. Wie viele Gramm Eiweiß brauchst du am Tag nach der Empfehlung der DGE?",
+        "answer": 48,
+        "hint": "Die DGE empfiehlt 0,8 g Eiweiß pro kg Körpergewicht.\n60 × 0,8 = 60 × 8 : 10 = ?",
+        "explanation": "0,8 g × 60 kg = 48 g Eiweiß am Tag. Diese Menge reicht auch bei leichtem bis mittlerem Sport."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Jemand isst doppelt so viel Eiweiß wie nötig. Was bringt das?",
+        "options": [
+          { "text": "Keine Vorteile, tierische Lebensmittel bringen mehr Fett und Cholesterin mit.", "correct": true },
+          { "text": "Doppelt so viele Muskeln, weil Eiweiß immer in die Muskeln wandert." },
+          { "text": "Einen Vorrat, weil der Körper Eiweiß für schlechte Zeiten speichert." }
+        ],
+        "explanation": "Eine höhere Eiweißzufuhr bringt keinerlei Vorteile. Tierische Lebensmittel erhöhen gleichzeitig die Fett- und Cholesterinzufuhr. Das ist eher ungünstig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔝 Welche obere Grenze für Eiweiß nennt die DGE?",
+        "options": [
+          { "text": "2 g pro kg Körpergewicht", "correct": true },
+          { "text": "5 g pro kg Körpergewicht" },
+          { "text": "10 g pro kg Körpergewicht" }
+        ],
+        "explanation": "Die obere Grenze liegt bei 2 g Eiweiß pro kg Körpergewicht. Die Empfehlung von 0,8 g pro kg liegt weit darunter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Welche Eiweißmenge passt laut Buch besser zu den Essgewohnheiten?",
+        "options": [
+          { "text": "10 bis 15 % der Gesamtenergie", "correct": true },
+          { "text": "25 bis 30 % der Gesamtenergie" },
+          { "text": "1 bis 5 % der Gesamtenergie" }
+        ],
+        "explanation": "Eine Eiweißmenge von 10 bis 15 % der Energie entspricht eher den üblichen Essgewohnheiten. So lässt sie sich im Alltag leichter umsetzen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫀 Warum begrenzt die DGE den Anteil der Energie aus Fett?",
+        "options": [
+          { "text": "Viel Fett hängt mit Fettstoffwechselstörungen und Arteriosklerose zusammen.", "correct": true },
+          { "text": "Fett ist der wichtigste Baustoff für die Muskeln und muss viel gegessen werden." },
+          { "text": "Fett liefert kaum Energie und darf deshalb einen großen Teil ausmachen." }
+        ],
+        "explanation": "Untersuchungen zeigen: Viel Fett, besonders gesättigte Fettsäuren, hängt mit Fettstoffwechselstörungen und Arteriosklerose zusammen. Darum soll nur ein Teil der Energie aus Fett kommen, nämlich 30 %."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫒 Wie wirken ungesättigte Fettsäuren meistens?",
+        "options": [
+          { "text": "Positiv: Sie senken zum Beispiel den Cholesterinspiegel.", "correct": true },
+          { "text": "Negativ: Sie erhöhen vor allem den Cholesterinspiegel." },
+          { "text": "Gar nicht: Der Körper scheidet sie sofort wieder aus." }
+        ],
+        "explanation": "Ungesättigte Fettsäuren wirken überwiegend positiv auf den Körper. Sie senken zum Beispiel den Cholesterinspiegel oder beeinflussen Entzündungsreaktionen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was empfiehlt die DGE? Verbinde.",
+        "explanation": "Linolsäure und α-Linolensäure sind mehrfach ungesättigte Fettsäuren, die du essen musst. Ballaststoffe sollen es viele sein. Beim Zucker nennt die DGE keine Zahl, rät aber zu Zurückhaltung.",
+        "pairs": [
+          { "left": {"text": "🌻 Linolsäure"}, "right": {"text": "2,5 % der Energie"} },
+          { "left": {"text": "🌿 α-Linolensäure"}, "right": {"text": "0,5 % der Energie"} },
+          { "left": {"text": "🌾 Ballaststoffe"}, "right": {"text": "Mindestens 30 g pro Tag"} },
+          { "left": {"text": "🍬 Zucker"}, "right": {"text": "Eher sparsam, keine genaue Menge"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Von welchen Kohlenhydraten darfst du reichlich essen?",
+        "options": [
+          { "text": "Von stärke- und ballaststoffreichen, z. B. Vollkornbrot.", "correct": true },
+          { "text": "Von Süßigkeiten, weil sie schnell Energie liefern." },
+          { "text": "Von Weißbrot und Kuchen, weil sie leicht verdaulich sind." }
+        ],
+        "explanation": "Stärke- und ballaststoffreiche Lebensmittel liefern zusätzlich Vitamine, Mineralstoffe und sekundäre Pflanzenstoffe. Davon darfst du reichlich essen. Mit Zucker gehst du sparsam um."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was macht der Körper mit zu vielen leicht resorbierbaren Kohlenhydraten?",
+        "options": [
+          { "text": "Er wandelt sie in Fett um.", "correct": true },
+          { "text": "Er scheidet sie sofort aus." },
+          { "text": "Er baut daraus Muskeln." }
+        ],
+        "explanation": "Ein Übermaß leicht resorbierbarer Kohlenhydrate, zum Beispiel Zucker, wandelt der Körper in Fett um. Darum ist Zucker in großen Mengen ungünstig."
+      }
+    }
+  ]
+}

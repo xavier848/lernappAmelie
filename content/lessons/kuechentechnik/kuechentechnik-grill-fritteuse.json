@@ -1,0 +1,134 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-grill-fritteuse",
+  "title": "Grillgeräte und Fritteuse",
+  "sort": 589,
+  "intro": "🍢 Es gibt zwei Grillsysteme: den Strahlungsgrill und den Kontaktgrill.\n\nBeim Strahlungsgrill sitzt der Grillheizkörper oben im Garraum. Er wird bis 300 °C heiß. Das Grillgut berührt den Heizkörper nicht. Deshalb musst du es beim Grillen wenden.\n\nAuch der Elektrogrill ist ein Strahlungsgrill. Er ist eine Alternative zum Grillen mit Holzkohle. Er hat eine kompakte Form mit einem Thermogehäuse und einem Heizelement, das man herausnehmen kann. Es gibt ihn als Tischgerät oder als Standgerät mit Untergestell. Zur Sicherheit läuft er nur, wenn das Heizelement richtig eingesetzt ist.\n\nBeim Kontaktgrill berührt das Grillgut die heißen Flächen direkt. Die Flächen sind beschichtet oder aus Gusseisen oder Aluminium. Du legst das Grillgut auf die heißen Flächen oder zwischen zwei Platten.\n\nIn der Fritteuse wird eine größere Menge Fett erhitzt. Das Fett überträgt die Wärme auf das Frittiergut. Die Temperatur liegt bei 160 bis höchstens 190 °C. Fritteusen sind Tischgeräte, rund oder rechteckig. Die Heizkörper liegen unter dem Fettbehälter oder offen im Fett. Offen liegende Heizkörper sind meist aus Edelstahl. Mit ihnen heizt die Fritteuse schneller vor, und die Temperatur lässt sich gut regeln.\n\nDie meisten Fritteusen haben unter dem Heizkörper eine Kaltzone. Dort verbrennen herabfallende Teilchen vom Frittiergut nicht. So bleibt das Fett länger frisch und behält seine Qualität.\n\nMERKE: Mit einer Umluft-Fritteuse frittierst du mit weniger Fett.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍢 Welche zwei Grillsysteme gibt es?",
+        "options": [
+          { "text": "Strahlungsgrill und Kontaktgrill", "correct": true },
+          { "text": "Holzkohlegrill und Gasgrill" },
+          { "text": "Umluftgrill und Dampfgrill im Ofen" }
+        ],
+        "explanation": "Grundsätzlich unterscheidet man zwei Grillsysteme: den Strahlungsgrill mit Hitze von oben und den Kontaktgrill mit heißen Flächen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Strahlungsgrill oder Kontaktgrill? Sortiere.",
+        "explanation": "Frag dich: Berührt das Grillgut die heiße Fläche? Dann ist es ein Kontaktgrill. Kommt die Hitze nur als Strahlung von oben? Dann ist es ein Strahlungsgrill, und du musst das Grillgut wenden.",
+        "buckets": [
+          { "id": "strahl", "label": "Strahlungsgrill", "icon": "☀️" },
+          { "id": "kontakt", "label": "Kontaktgrill", "icon": "🥪" }
+        ],
+        "items": [
+          { "text": "Heizkörper oben im Garraum", "bucket": "strahl" },
+          { "text": "Grillgut muss gewendet werden", "bucket": "strahl" },
+          { "text": "Kein direkter Kontakt zum Heizkörper", "bucket": "strahl" },
+          { "text": "Grillgut liegt zwischen zwei Platten", "bucket": "kontakt" },
+          { "text": "Direkter Kontakt zum Grillgut", "bucket": "kontakt" },
+          { "text": "Platten aus Gusseisen oder Aluminium", "bucket": "kontakt" },
+          { "text": "Beschichtete Grillflächen", "bucket": "kontakt" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Der Elektrogrill ist eine Alternative zur Holzkohle. Wie ist er gebaut?",
+        "options": [
+          { "text": "Mit Thermogehäuse und herausnehmbarem Heizelement", "correct": true },
+          { "text": "Mit zwei schweren Gusseisenplatten zum Zusammenklappen" },
+          { "text": "Mit einem Gasbrenner und einer offenen Flamme" }
+        ],
+        "explanation": "Der Elektrogrill ist ein Strahlungsgrill in kompakter Form. Er hat ein Thermogehäuse und ein herausnehmbares Heizelement. Es gibt ihn als Tisch- oder Standgerät mit Untergestell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Welche Sicherheit hat der Elektrogrill?",
+        "options": [
+          { "text": "Er läuft nur, wenn das Heizelement richtig sitzt.", "correct": true },
+          { "text": "Er schaltet sich bei Regen draußen von selbst aus." },
+          { "text": "Er hat eine Kindersicherung am Deckel." }
+        ],
+        "explanation": "Das Sicherheitssystem erlaubt den Betrieb nur, wenn das Heizelement korrekt eingesetzt ist. So vermeidest du Unfälle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Du frittierst in einer normalen Fritteuse mit viel Fett. Wie wird die Wärme übertragen?",
+        "options": [
+          { "text": "Durch das heiße Fett auf das Frittiergut", "correct": true },
+          { "text": "Durch heiße Luft wie im normalen Backofen" },
+          { "text": "Durch Mikrowellen direkt im Frittiergut" }
+        ],
+        "explanation": "In der Fritteuse wird eine größere Menge Fett erhitzt. Das Fett überträgt die Wärme auf das Frittiergut."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Eine Fritteuse erreicht Temperaturen von 160 °C bis höchstens ___ °C. Welche Zahl fehlt?",
+        "answer": 190,
+        "hint": "Die Zahl liegt zwischen 180 und 200.",
+        "explanation": "Fritteusen erreichen Temperaturen von 160 bis höchstens 190 °C. Das heiße Fett überträgt die Wärme auf das Frittiergut."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚙️ Was ist der Vorteil von Heizkörpern, die offen im Fett liegen?",
+        "options": [
+          { "text": "Die Fritteuse heizt schneller vor und lässt sich gut regeln.", "correct": true },
+          { "text": "Das Fett spritzt beim Frittieren dadurch viel weniger heraus." },
+          { "text": "Die Heizkörper müssen dann nie mehr extra gereinigt werden." }
+        ],
+        "explanation": "Offen im Frittierfett liegende Heizkörper, meist aus Edelstahl, sorgen für schnelleres Vorheizen und eine gute Temperaturregulierung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Wozu dient die Kaltzone unter dem Heizkörper?",
+        "options": [
+          { "text": "Teilchen vom Frittiergut verbrennen nicht, das Fett bleibt länger frisch.", "correct": true },
+          { "text": "Dort wird das fertige Frittiergut vor dem Servieren langsam abgekühlt." },
+          { "text": "Dort lagert man das Fett über Nacht, damit es nicht schnell verdirbt." }
+        ],
+        "explanation": "Unter dem Heizkörper ist es kühler. Herabfallende Teilchen verbrennen dort nicht. So bleibt das Fett länger frisch, und seine Qualität bleibt erhalten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍟 Fritteusen für den Haushalt sind Tischgeräte. Welche Form haben sie?",
+        "options": [
+          { "text": "Rund oder rechteckig", "correct": true },
+          { "text": "Nur rund, wie ein Kochtopf" },
+          { "text": "Nur oval und sehr hoch" }
+        ],
+        "explanation": "Fritteusen gibt es als Tischgeräte in runder oder rechteckiger Form. Die Wärme erzeugen untergebaute oder offen im Fett liegende Heizkörper."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Fritteuse nimmst du, wenn du mit weniger Fett frittieren willst?",
+        "options": [
+          { "text": "Eine Umluft-Fritteuse", "correct": true },
+          { "text": "Eine Fritteuse ohne Kaltzone" },
+          { "text": "Eine besonders große Fritteuse" }
+        ],
+        "explanation": "Die Umluft-Fritteuse ist eine Alternative zum Frittieren mit viel Fett. Sie kommt mit einer reduzierten Fettmenge aus."
+      }
+    }
+  ]
+}

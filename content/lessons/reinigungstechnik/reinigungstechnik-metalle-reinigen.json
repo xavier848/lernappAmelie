@@ -1,0 +1,133 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-metalle-reinigen",
+  "title": "Metalle reinigen: Gusseisen und Silber",
+  "sort": 662,
+  "intro": "Gusseisen reinigst du feucht. Dann trocknest du es gut nach. Danach lässt du es noch an der Luft nachtrocknen. Pfannen und Bräter aus Gusseisen kannst du auch heiß mit Salz und Papier ausreiben.\n\nGusseisen gehört nicht in die Spülmaschine. Ein hauchdünnes Einfetten verhindert Rost.\n\nFür alle Metalle gilt: heiß spülen und klar nachspülen. Keine abrasiven Mittel oder Gegenstände nehmen. Abrasiv heißt: scheuernd oder kratzend. Bei Stahlemail, Weißblech und Schwarzblech rosten die Kratzer. Edelstahl rostet nicht. Aber auch Edelstahl bekommt leicht Kratzer.\n\nSilber reinigt man häufig in einem Tauchbad aus Wasser, Alufolie und Kochsalz. Du legst das Besteck nur kurze Zeit hinein. Danach spülst du es klar nach, trocknest es gut nach und polierst es.\n\nSilber mit Oxidverzierungen darf nicht ins Tauchbad. Oxidverzierungen sind schwarze Verzierungen. Das Tauchbad würde die schwarze Zierschicht entfernen.\n\nSilberreinigungstücher und Silberreinigungspasten reinigen mechanisch, also durch Reiben. Sie enthalten einen Anlaufschutz. Der verzögert, dass das Silber wieder anläuft.\n\nIm Großbetrieb oder im Hotel reinigt man Silber mit Silberreinigungsmaschinen.\n\nMERKE: Metall spülst du heiß. Scheuernde Mittel wie Scheuerpulver oder Stahlwolle nimmst du nicht. Gusseisen kommt nie in die Spülmaschine.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍳 Gusseisen-Pfanne: richtig oder Fehler? Sortiere.",
+        "buckets": [
+          { "id": "richtig", "label": "So ist es richtig", "icon": "✅" },
+          { "id": "fehler", "label": "Da steckt ein Fehler drin", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Feucht reinigen", "bucket": "richtig" },
+          { "text": "Gut nachtrocknen und an der Luft nachtrocknen lassen", "bucket": "richtig" },
+          { "text": "Heiß mit Salz und Papier ausreiben", "bucket": "richtig" },
+          { "text": "Hauchdünn einfetten", "bucket": "richtig" },
+          { "text": "In die Spülmaschine geben", "bucket": "fehler" },
+          { "text": "Mit Stahlwolle scheuern", "bucket": "fehler" },
+          { "text": "Nass in den Schrank stellen", "bucket": "fehler" }
+        ],
+        "explanation": "Frag dich bei jedem Schritt: Bleibt das Gusseisen dabei trocken und ohne Kratzer? Gusseisen verträgt keine Spülmaschine und keine Nässe, die stehen bleibt. Scheuernde Mittel wie Stahlwolle machen Kratzer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Warum fettest du Gusseisen hauchdünn ein?",
+        "options": [
+          { "text": "Das verhindert Rost.", "correct": true },
+          { "text": "Dann wird die Pfanne spülmaschinenfest." },
+          { "text": "Dann glänzt die Pfanne wie neu." },
+          { "text": "Dann wird das Gusseisen leichter." }
+        ],
+        "explanation": "Ein hauchdünnes Einfetten verhindert Rost. Wichtig ist: hauchdünn, also nur ganz wenig Fett. In die Spülmaschine darf Gusseisen trotzdem nie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Wie reinigst du einen Topf aus Stahlemail?",
+        "options": [
+          { "text": "Heiß spülen, klar nachspülen, nicht scheuern.", "correct": true },
+          { "text": "Kalt spülen, dann mit Stahlwolle trockenreiben." },
+          { "text": "Mit Scheuerpulver reinigen, tropfnass wegstellen." },
+          { "text": "Nur trocken abwischen, nie mit Wasser spülen." }
+        ],
+        "explanation": "Für alle Metalle gilt: heiß spülen und klar nachspülen. Abrasive, also scheuernde Mittel und Gegenstände nimmst du nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥧 Ein Backblech aus Schwarzblech wurde mit Scheuerpulver geschrubbt. Jetzt hat es Kratzer. Was kann passieren?",
+        "options": [
+          { "text": "Die Kratzer rosten.", "correct": true },
+          { "text": "Das Blech wird davon glatter." },
+          { "text": "Das Blech leitet die Wärme besser." },
+          { "text": "Nichts, Kratzer schaden Metall nicht." }
+        ],
+        "explanation": "Bei Stahlemail, Weißblech und Schwarzblech rosten die Kratzer. Deshalb nimmst du keine abrasiven Mittel oder Gegenstände."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Woraus besteht ein Silbertauchbad?",
+        "options": [
+          { "text": "Aus Wasser, Alufolie und Kochsalz.", "correct": true },
+          { "text": "Aus Wasser, Frischhaltefolie und Zucker." },
+          { "text": "Aus Essig, Alufolie und Spülmittel." },
+          { "text": "Aus Spiritus, Backpapier und Kochsalz." }
+        ],
+        "explanation": "Das Silbertauchbad besteht aus Wasser, Alufolie und Kochsalz. Damit wird Silber häufig gereinigt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "✨ Silberbesteck im Tauchbad reinigen: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Das Tauchbad vorbereiten." },
+          { "text": "Das Besteck kurze Zeit hineinlegen." },
+          { "text": "Das Besteck klar nachspülen." },
+          { "text": "Das Besteck gut nachtrocknen." },
+          { "text": "Das Besteck polieren." }
+        ],
+        "explanation": "Die Regel: erst reinigen, dann nachspülen, dann trocknen, zum Schluss polieren. Poliert wird erst, wenn das Besteck sauber und trocken ist. Wichtig: nur kurze Zeit im Tauchbad lassen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫖 Eine Silberkanne hat schwarze Oxidverzierungen. Darf sie ins Tauchbad?",
+        "options": [
+          { "text": "Nein, das Tauchbad entfernt die schwarze Zierschicht.", "correct": true },
+          { "text": "Ja, das Tauchbad macht die Verzierung noch schwärzer." },
+          { "text": "Ja, wenn sie nur ganz kurz im Tauchbad liegt." },
+          { "text": "Ja, denn Oxidverzierungen sind besonders robust." }
+        ],
+        "explanation": "Die Tauchbad-Methode ist nicht für Silber mit Oxidverzierungen geeignet. Die schwarze Zierschicht würde entfernt. Auch kurze Zeit ist zu lang."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Silberreinigungstücher und -pasten: Was stimmt?",
+        "options": [
+          { "text": "Sie reinigen durch Reiben und enthalten einen Anlaufschutz.", "correct": true },
+          { "text": "Sie reinigen ohne jedes Reiben, nur durch Chemie wie im Tauchbad." },
+          { "text": "Sie reinigen durch Reiben und machen das Silber härter." },
+          { "text": "Sie reinigen gar nicht, sie färben das Silber nur hell." }
+        ],
+        "explanation": "Silberreinigungstücher und -pasten reinigen mechanisch, also durch Reiben. Sie enthalten einen Anlaufschutz. Er verzögert, dass das Silber wieder anläuft."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏨 Zum Schluss etwas Leichtes: Womit reinigt ein Hotel sein vieles Silberbesteck?",
+        "options": [
+          { "text": "Mit Silberreinigungsmaschinen.", "correct": true },
+          { "text": "Nur mit einem Silbertuch von Hand." },
+          { "text": "Mit Scheuerpulver in der Spüle." }
+        ],
+        "explanation": "Im Großbetrieb oder im Hotel gibt es Silberreinigungsmaschinen. Von Hand würde das bei so viel Besteck zu lange dauern."
+      }
+    }
+  ]
+}

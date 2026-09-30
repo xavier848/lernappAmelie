@@ -1,0 +1,127 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-verpackte-lebensmittel",
+  "title": "Verpackte Lebensmittel: Pflichtangaben",
+  "sort": 687,
+  "intro": "📦 Für abgepackte Lebensmittel gibt es Gesetze und Verordnungen. Drei davon sind besonders wichtig.\n\nDas Mess- und Eichgesetz regelt die Füllmenge einer Verpackung. Dein Buch nennt es noch Eichgesetz. So hieß es bis 2014.\n\nDie Preisangabenverordnung regelt die Preise. Neben dem Gesamtpreis muss auch der Grundpreis stehen. Der Gesamtpreis ist der Preis, den du an der Kasse zahlst. Im Einzelhandel enthält er die Mehrwertsteuer. Das ist eine Steuer, die im Preis steckt. Dein Buch nennt den Gesamtpreis noch Endpreis.\n\nDie Lebensmittelinformationsverordnung regelt die Angaben zu Waren, die man in ihrer Verpackung nicht sehen kann.\n\nMERKE: Auf abgepackten Lebensmitteln stehen Mindestangaben. Dazu gehören: die Bezeichnung des Lebensmittels, die Zutaten, Name und Anschrift des Herstellers, die Nettomenge, die allergenen Stoffe und das Mindesthaltbarkeitsdatum.\n\nDie Bezeichnung des Lebensmittels ist sein allgemein verständlicher Name. Dein Buch nennt sie noch Verkehrsbezeichnung. Die Zutaten stehen absteigend nach ihrem Gewichtsanteil. Auch die Zusatzstoffe gehören dazu, zum Beispiel Konservierungsstoffe und Farbstoffe. Die Nettomenge zeigt, wie viel Ware in der Packung ist, ohne Verpackung.\n\nHat ein Getränk mehr als 1,2 Volumenprozent Alkohol, muss der Alkoholgehalt draufstehen. Volumenprozent heißt: So viel Prozent vom Getränk sind Alkohol. Man schreibt das so: 1,2 % vol.\n\nKäse und Fleisch gibt es oft in abgepackten Portionen. Die Packungen sind verschieden groß. Damit du vergleichen kannst, muss neben dem Packungspreis immer der Grundpreis stehen. Heute gilt: Der Grundpreis ist der Preis für 1 Kilogramm oder 1 Liter. Dein Buch nennt auch 100 Gramm. Das ist seit 2022 nur noch bei loser Ware erlaubt, zum Beispiel an der Käsetheke.\n\nAuf einem abgepackten Rumpsteak findest du zum Beispiel eine Chargen-Nummer. Eine Charge ist eine Menge gleicher Ware, die zusammen hergestellt wurde.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📜 Was regelt das Gesetz oder die Verordnung? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Mess- und Eichgesetz"}, "right": {"text": "Die Füllmenge einer Verpackung"} },
+          { "left": {"text": "Preisangabenverordnung"}, "right": {"text": "Grundpreis und Gesamtpreis"} },
+          { "left": {"text": "Lebensmittelinformationsverordnung"}, "right": {"text": "Angaben zu Waren, die man nicht sehen kann"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf die Wortteile. Eichen heißt: eine Menge genau prüfen. In der Preisangabenverordnung steckt das Wort Preis. In der Lebensmittelinformationsverordnung steckt das Wort Information."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Was muss der Gesamtpreis im Einzelhandel enthalten?",
+        "options": [
+          { "text": "Die Mehrwertsteuer.", "correct": true },
+          { "text": "Nichts extra, die Steuer kommt erst an der Kasse dazu." },
+          { "text": "Das Pfand für die Einkaufstüte." }
+        ],
+        "explanation": "Im Einzelhandel enthält der Gesamtpreis die Mehrwertsteuer. So weißt du genau, was du an der Kasse zahlst. Es kommt nichts mehr dazu. Dein Buch nennt diesen Preis noch Endpreis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Abgepackter Käse hat verschieden große Portionen. Was muss neben dem Packungspreis stehen?",
+        "options": [
+          { "text": "Der Grundpreis, also der Preis pro Kilogramm.", "correct": true },
+          { "text": "Der Preis aus dem letzten Monat zum Vergleich." },
+          { "text": "Der Preis für eine einzige Scheibe Käse." }
+        ],
+        "explanation": "Die Portionen sind verschieden groß. Nur mit dem Preis pro Kilogramm kannst du sie vergleichen. Das ist der Grundpreis. Heute gilt: Bei abgepackter Ware steht er pro Kilogramm oder pro Liter. Die 100 Gramm aus deinem Buch sind nur noch bei loser Ware erlaubt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏷️ Ist das eine Mindestangabe auf abgepackten Lebensmitteln? Sortiere.",
+        "buckets": [
+          { "id": "pflicht", "label": "Mindestangabe", "icon": "✅" },
+          { "id": "frei", "label": "Freiwillig", "icon": "➖" }
+        ],
+        "items": [
+          { "text": "Die Bezeichnung des Lebensmittels", "bucket": "pflicht" },
+          { "text": "Die Zutaten mit den Zusatzstoffen", "bucket": "pflicht" },
+          { "text": "Name und Anschrift des Herstellers", "bucket": "pflicht" },
+          { "text": "Die Nettomenge", "bucket": "pflicht" },
+          { "text": "Die allergenen Stoffe", "bucket": "pflicht" },
+          { "text": "Das Mindesthaltbarkeitsdatum", "bucket": "pflicht" },
+          { "text": "Ein Serviervorschlag", "bucket": "frei" },
+          { "text": "Ein Gewinnspiel", "bucket": "frei" }
+        ],
+        "explanation": "Frag dich: Brauche ich das, um das Produkt zu kennen und sicher zu essen? Name, Inhalt, Hersteller, Menge, Allergene und Haltbarkeit sind Pflicht. Serviervorschlag und Gewinnspiel sind nur Werbung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📛 Was ist die Bezeichnung des Lebensmittels, früher Verkehrsbezeichnung genannt?",
+        "options": [
+          { "text": "Der allgemein verständliche Name des Lebensmittels.", "correct": true },
+          { "text": "Die Nummer des Lieferwagens, der die Ware anliefert." },
+          { "text": "Der Werbespruch, mit dem die Marke wirbt." }
+        ],
+        "explanation": "Die Bezeichnung sagt klar, was das Lebensmittel ist, zum Beispiel „Speisequarkzubereitung“. Ein Werbespruch oder Fantasiename reicht dafür nicht. Dein Buch nennt sie noch Verkehrsbezeichnung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Was gilt für die Zutatenliste?",
+        "options": [
+          { "text": "Absteigend nach Gewicht, auch mit Zusatzstoffen wie Farbstoffen.", "correct": true },
+          { "text": "Alphabetisch sortiert, und Zusatzstoffe stehen gar nicht darin." },
+          { "text": "Aufsteigend nach Gewicht, aber nur mit der wichtigsten Hauptzutat." }
+        ],
+        "explanation": "Die Zutat mit dem größten Gewichtsanteil steht vorne. Auch Zusatzstoffe gehören in die Liste, zum Beispiel Konservierungsstoffe und Farbstoffe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍷 Ab welcher Menge Alkohol muss der Alkoholgehalt auf dem Getränk stehen?",
+        "options": [
+          { "text": "Bei mehr als 1,2 % vol.", "correct": true },
+          { "text": "Bei mehr als 5,5 % vol." },
+          { "text": "Bei mehr als 12,5 % vol." }
+        ],
+        "explanation": "Hat ein Getränk mehr als 1,2 Volumenprozent Alkohol, muss der Alkoholgehalt draufstehen. So erkennst du auch schwach alkoholische Getränke."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Auf einem abgepackten Rumpsteak steht eine Chargen-Nummer. Was zeigt sie?",
+        "options": [
+          { "text": "Zu welcher Charge, also Menge gleicher Ware, es gehört.", "correct": true },
+          { "text": "Wie viele Rinder der Bauer insgesamt in seinem Stall hat." },
+          { "text": "Wie hoch der Preis ohne die Mehrwertsteuer wäre." }
+        ],
+        "explanation": "Eine Charge ist eine Menge gleicher Ware, die zusammen hergestellt wurde. Mit der Chargen-Nummer kann man die Ware genau zuordnen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welche Angabe zeigt, wie viel Ware ohne Verpackung in der Packung ist?",
+        "options": [
+          { "text": "Die Nettomenge.", "correct": true },
+          { "text": "Die Bezeichnung des Lebensmittels." },
+          { "text": "Das Mindesthaltbarkeitsdatum." }
+        ],
+        "explanation": "Netto heißt: ohne Verpackung. Die Nettomenge zeigt also, wie viel Lebensmittel wirklich in der Packung ist."
+      }
+    }
+  ]
+}
