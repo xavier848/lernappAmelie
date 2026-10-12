@@ -14,6 +14,7 @@ import { PromptText } from "@/components/ui/PromptText";
 import { speakableText } from "@/lib/speakable";
 import { FeedbackBanner } from "@/components/ui/FeedbackBanner";
 import { ExerciseView } from "@/components/exercises/ExerciseView";
+import { kiStatus } from "@/lib/ki/client";
 
 export type ExamResult = { exerciseId: string; correct: boolean };
 
@@ -46,10 +47,21 @@ export function ExamPlayer({
   const [index, setIndex] = useState(0);
   const [checkRequested, setCheckRequested] = useState(0);
   const [ready, setReady] = useState(false);
-  const [feedback, setFeedback] = useState<{ correct: boolean; explanation?: string } | null>(null);
+  const [feedback, setFeedback] = useState<{
+    correct: boolean;
+    explanation?: string;
+    exerciseId: string;
+    given?: string;
+    kiHilfe: boolean;
+  } | null>(null);
   const [results, setResults] = useState<ExamResult[]>([]);
   // ✕ fragt erst nach - ein versehentlicher Tipp soll den Test nicht kosten.
   const [showQuitDialog, setShowQuitDialog] = useState(false);
+
+  // KI-Hilfe vorab abfragen (siehe LessonPlayer).
+  useEffect(() => {
+    void kiStatus();
+  }, []);
 
   // Nichts Spielbares: sofort (aber nicht waehrend des Renderns) beenden.
   useEffect(() => {
@@ -85,7 +97,13 @@ export function ExamPlayer({
       "explanation" in current.exercise.data
         ? current.exercise.data.explanation
         : undefined;
-    setFeedback({ correct: r.correct, explanation });
+    setFeedback({
+      correct: r.correct,
+      explanation,
+      exerciseId: current.id,
+      given: r.given,
+      kiHilfe: current.exercise.type !== "memory_game",
+    });
     setResults((prev) => [...prev, { exerciseId: current.id, correct: r.correct }]);
     const deviceId = getDeviceId();
     if (deviceId) {
@@ -166,6 +184,12 @@ export function ExamPlayer({
         <FeedbackBanner
           state={feedback.correct ? "correct" : "wrong"}
           explanation={feedback.explanation}
+          // Die Antwort zaehlt schon - das Pony darf die Loesung erklaeren.
+          kiErklaerung={
+            feedback.kiHilfe
+              ? { exerciseId: feedback.exerciseId, given: feedback.given, nochmal: false }
+              : undefined
+          }
           continueLabel={
             index + 1 >= playable.length ? "Ergebnis ansehen" : "Weiter"
           }
