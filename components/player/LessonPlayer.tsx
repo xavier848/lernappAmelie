@@ -54,6 +54,8 @@ import { introSpeakable } from "@/lib/intro-format";
 import { speakableText } from "@/lib/speakable";
 import { NoteButton } from "@/components/ui/NoteButton";
 import { ExerciseView } from "@/components/exercises/ExerciseView";
+import { PonyChatKnopf } from "@/components/ki/PonyChat";
+import { kiStatus } from "@/lib/ki/client";
 import {
   advanceQueue,
   createQueue,
@@ -77,6 +79,11 @@ type Feedback = {
   explanation?: string;
   /** Was nach "Weiter" passiert: retry = gleiche Uebung sofort nochmal. */
   outcome: "solved" | "retry" | "defer";
+  /** Fuer "Pony, erklär's mir": welche Uebung, was Amelie geantwortet hat. */
+  exerciseId: string;
+  given?: string;
+  /** Gedaechtnisspiel: keine KI-Erklaerung (da gibt es nichts zu erklaeren). */
+  kiHilfe: boolean;
 };
 
 /** Rohe Uebungs-Zeilen (z. B. aus der DB) fuer exercisesOverride. */
@@ -126,6 +133,8 @@ export function LessonPlayer({
 
   const [phase, setPhase] = useState<Phase>("loading");
   const [lessonId, setLessonId] = useState<string | null>(null);
+  // Titel der Lektion - fuer den Kopf im "Frag das Pony"-Chat.
+  const [lessonTitle, setLessonTitle] = useState<string | null>(null);
   // Thema der Lektion - fuer das Lernfluss-Protokoll (lib/lernfluss.ts).
   const [topicSlug, setTopicSlug] = useState<string | null>(null);
   // Pruefungs-Lektion (lib/pruefung.ts): ausserhalb des Lernflusses.
@@ -256,6 +265,7 @@ export function LessonPlayer({
         return;
       }
       setLessonId(data.lesson.id);
+      setLessonTitle(data.lesson.title);
       setTopicSlug(data.topicSlug);
       setExercises(playable);
       setQueueState(createQueue(playable));
@@ -277,6 +287,12 @@ export function LessonPlayer({
   useEffect(() => {
     void load();
   }, [load]);
+
+  // KI-Hilfe schon beim Start abfragen, damit "Pony, erklär's mir" beim
+  // ersten Fehler sofort da ist (einmal pro Seitenaufruf, siehe lib/ki/client).
+  useEffect(() => {
+    void kiStatus();
+  }, []);
 
   // Waehrend einer laufenden Uebung das Dokument-Scrollen komplett sperren.
   // Sonst kann iOS die ganze Seite per Gummiband nach unten ziehen und die
@@ -324,7 +340,14 @@ export function LessonPlayer({
       current.exercise.type === "memory_game";
     const bannerExplanation =
       outcome === "retry" && hideOnRetry ? undefined : explanation;
-    setFeedback({ correct: r.correct, explanation: bannerExplanation, outcome });
+    setFeedback({
+      correct: r.correct,
+      explanation: bannerExplanation,
+      outcome,
+      exerciseId: current.id,
+      given: r.given,
+      kiHilfe: current.exercise.type !== "memory_game",
+    });
     // Statistik fire-and-forget – Fehler schluckt lib/data.
     const deviceId = getDeviceId();
     if (deviceId) {
@@ -597,6 +620,11 @@ export function LessonPlayer({
         canFeed={canFeed}
         fedItem={fedItem}
         onFeed={handleFeed}
+        extra={
+          slug ? (
+            <PonyChatKnopf lessonSlug={slug} lessonTitle={lessonTitle ?? undefined} />
+          ) : undefined
+        }
         onContinue={() => verlassen(true)}
       />
     );
@@ -629,6 +657,12 @@ export function LessonPlayer({
             <TTSButton text={introSpeakable(intro)} />
           </div>
           <IntroBlocks intro={intro} lang={exercises[0]?.exercise.data.tts_lang} />
+          {/* Etwas nicht verstanden? Das Pony erklaert die Einfuehrung. */}
+          {slug && (
+            <div className="mt-6 empty:hidden">
+              <PonyChatKnopf lessonSlug={slug} lessonTitle={lessonTitle ?? undefined} />
+            </div>
+          )}
         </div>
 
         <div className="fixed inset-x-0 bottom-0 z-40">
@@ -722,6 +756,15 @@ export function LessonPlayer({
             feedback.outcome === "retry" ? "Nochmal versuchen" : "Weiter"
           }
           explanation={feedback.explanation}
+          kiErklaerung={
+            feedback.kiHilfe
+              ? {
+                  exerciseId: feedback.exerciseId,
+                  given: feedback.given,
+                  nochmal: feedback.outcome === "retry",
+                }
+              : undefined
+          }
           onContinue={handleContinue}
         />
       )}

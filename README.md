@@ -39,6 +39,18 @@ npm test                     # Vitest
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | ebenda („anon public") |
 | `SUPABASE_SERVICE_ROLE_KEY` | ebenda („service_role" – geheim!). Nur nötig für Admin-Import/Upload/Publish und Seed-Skript |
 | `ADMIN_PASSWORD` | frei wählen – Login für `/admin` |
+| `ANTHROPIC_API_KEY` | optional: Claude Console → API Keys. Schaltet die KI-Hilfe „Pony“ ein (siehe unten) |
+| `KI_TAGESLIMIT` | optional: höchstens so viele KI-Anfragen pro Tag (Standard 150) |
+| `KI_MODELL` | optional: anderes Claude-Modell (Standard `claude-opus-5-5`) |
+
+### KI-Hilfe „Pony“
+
+Zwei Hilfen mit Claude, beide in Leichter Sprache und nur mit dem Wissen der jeweiligen Lektion:
+
+- **„Pony, erklär’s mir“** – Knopf im orangen Banner nach einer falschen Antwort (Lektion, Üben, Prüfung). Beim Sofort-Nochmal gibt das Pony nur einen Hinweis und verrät die Lösung nicht.
+- **„Frag das Pony“** – Chat zur Lektion, erreichbar auf dem Einführungs- und dem Ergebnis-Screen. Mit Vorschlags-Knöpfen („Frag mich ab!“), Vorlesen 🔊 und Spracheingabe 🎤, wo der Browser das kann.
+
+Der Server lädt die Lektion selbst aus Supabase und spricht mit Claude (`app/api/ki/*`, `lib/ki/`). Der Schlüssel bleibt auf dem Server. Kostenbremsen: Tageslimit (`KI_TAGESLIMIT`, gezählt in der Tabelle `ki_nutzung`, braucht `SUPABASE_SERVICE_ROLE_KEY`), höchstens 12 Anfragen pro Minute, kurze Antworten, Prompt-Caching. In `ki_nutzung` stehen nur Zeitpunkt, Lektion und Token-Zahlen, keine Fragen oder Antworten. Ohne `ANTHROPIC_API_KEY` sind die Pony-Knöpfe unsichtbar.
 
 ## Neue Inhalte
 
@@ -51,7 +63,7 @@ npm test                     # Vitest
 ## Deployment (Vercel)
 
 1. Repo importieren: `vercel` CLI oder vercel.com → Projekt aus `xavier848/lernappAmelie`
-2. Die 4 Umgebungsvariablen setzen (Production)
+2. Die 4 Umgebungsvariablen setzen (Production), für die KI-Hilfe zusätzlich `ANTHROPIC_API_KEY`
 3. Deploy – fertig. Danach Domain zuweisen: Subdomain von alpflow.net (z. B. `lernen.alpflow.net`) als CNAME auf `cname.vercel-dns.com` + Domain im Vercel-Projekt eintragen
 4. Amelie: Seite öffnen → „Zum Home-Bildschirm hinzufügen" → fühlt sich wie eine App an (PWA)
 

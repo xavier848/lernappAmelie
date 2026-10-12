@@ -1,0 +1,313 @@
+"use client";
+
+// "Frag das Pony": Chat zur aktuellen Lektion. Amelie tippt (oder spricht)
+// eine Frage, Claude antwortet in Leichter Sprache - nur mit dem Wissen aus
+// dieser Lektion. Die Lektion laedt der Server selbst aus der Datenbank.
+import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
+import { Button } from "@/components/ui/Button";
+import { TTSButton } from "@/components/ui/TTSButton";
+import { kiAnfrage, ohneMarkdown, useKiAktiv } from "@/lib/ki/client";
+import { MAX_FRAGE_ZEICHEN } from "@/lib/ki/schemas";
+import {
+  chatMerken,
+  gemerkterChat,
+  verlaufFuerServer,
+  type ChatNachricht,
+} from "@/lib/ki/verlauf";
+import { ttsAvailable } from "@/lib/tts";
+
+const VORSCHLAEGE = [
+  "Erklär mir das Thema ganz einfach.",
+  "Gib mir ein Beispiel.",
+  "Was ist das Wichtigste?",
+  "Frag mich ab!",
+];
+
+// --- Spracheingabe (Web Speech API, nicht in jedem Browser vorhanden) ------
+type Erkennung = {
+  lang: string;
+  interimResults: boolean;
+  maxAlternatives: number;
+  onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null;
+  onerror: ((e: { error?: string }) => void) | null;
+  onend: (() => void) | null;
+  start(): void;
+  abort(): void;
+};
+type ErkennungKlasse = new () => Erkennung;
+
+function erkennungKlasse(): ErkennungKlasse | null {
+  if (typeof window === "undefined") return null;
+  const w = window as unknown as {
+    SpeechRecognition?: ErkennungKlasse;
+    webkitSpeechRecognition?: ErkennungKlasse;
+  };
+  return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
+}
+
+export function PonyChat({
+  lessonSlug,
+  lessonTitle,
+  onClose,
+}: {
+  lessonSlug: string;
+  lessonTitle?: string;
+  onClose: () => void;
+}) {
+  const [nachrichten, setNachrichten] = useState<ChatNachricht[]>(() =>
+    gemerkterChat(lessonSlug)
+  );
+  const [eingabe, setEingabe] = useState("");
+  const [laedt, setLaedt] = useState(false);
+  // Der Chat erscheint erst nach einem Tipp, nie im Server-HTML - die
+  // Browser-Pruefung darf also direkt beim ersten Rendern passieren.
+  const [mikroDa, setMikroDa] = useState(() => erkennungKlasse() !== null);
+  const [hoert, setHoert] = useState(false);
+  const abbruch = useRef<AbortController | null>(null);
+  const erkennung = useRef<Erkennung | null>(null);
+  const liste = useRef<HTMLDivElement | null>(null);
+
+  // Chat zu: Anfrage, Zuhoeren und Vorlesen stoppen.
+  useEffect(
+    () => () => {
+      abbruch.current?.abort();
+      erkennung.current?.abort();
+      if (ttsAvailable()) window.speechSynthesis.cancel();
+    },
+    []
+  );
+
+  // Neue Nachricht oder neuer Text -> nach unten scrollen.
+  useEffect(() => {
+    const el = liste.current;
+    if (el) el.scrollTop = el.scrollHeight;
+  }, [nachrichten]);
+
+  async function senden(roh: string) {
+    const frage = roh.trim().slice(0, MAX_FRAGE_ZEICHEN);
+    if (!frage || laedt) return;
+    erkennung.current?.abort();
+    const mitFrage: ChatNachricht[] = [...nachrichten, { role: "user", content: frage }];
+    setNachrichten([...mitFrage, { role: "assistant", content: "" }]);
+    setEingabe("");
+    setLaedt(true);
+
+    const ctrl = new AbortController();
+    abbruch.current = ctrl;
+    try {
+      const { text, ok } = await kiAnfrage(
+        "/api/ki/pony",
+        { lessonSlug, messages: verlaufFuerServer(mitFrage) },
+        (bisher) => setNachrichten([...mitFrage, { role: "assistant", content: bisher }]),
+        ctrl.signal
+      );
+      const fertig: ChatNachricht[] = [
+        ...mitFrage,
+        { role: "assistant", content: text, fehler: !ok },
+      ];
+      setNachrichten(fertig);
+      chatMerken(lessonSlug, fertig);
+      setLaedt(false);
+    } catch {
+      // abgebrochen - der Chat ist schon zu
+    }
+  }
+
+  function absenden(e: FormEvent) {
+    e.preventDefault();
+    void senden(eingabe);
+  }
+
+  // Enter schickt ab, Umschalt+Enter macht eine neue Zeile.
+  function tasteGedrueckt(e: KeyboardEvent<HTMLTextAreaElement>) {
+    if (e.key === "Enter" && !e.shiftKey && !e.nativeEvent.isComposing) {
+      e.preventDefault();
+      void senden(eingabe);
+    }
+  }
+
+  function zuhoeren() {
+    const Klasse = erkennungKlasse();
+    if (!Klasse) return;
+    if (hoert) {
+      erkennung.current?.abort();
+      return;
+    }
+    const r = new Klasse();
+    r.lang = "de-DE";
+    r.interimResults = false;
+    r.maxAlternatives = 1;
+    r.onresult = (e) => {
+      const gesagt = e.results[0]?.[0]?.transcript?.trim();
+      if (gesagt) {
+        setEingabe((alt) => `${alt ? `${alt} ` : ""}${gesagt}`.slice(0, MAX_FRAGE_ZEICHEN));
+      }
+    };
+    r.onerror = (e) => {
+      // Keine Erlaubnis (z. B. als Home-Bildschirm-App auf dem iPhone):
+      // Mikro-Knopf ausblenden, Tippen geht ja weiterhin.
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") setMikroDa(false);
+    };
+    r.onend = () => {
+      setHoert(false);
+      erkennung.current = null;
+    };
+    erkennung.current = r;
+    try {
+      r.start();
+      setHoert(true);
+    } catch {
+      erkennung.current = null;
+      setMikroDa(false);
+    }
+  }
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="Frag das Pony"
+      className="fixed inset-0 z-[60] bg-ink/40"
+    >
+      <div className="mx-auto flex h-full w-full max-w-md flex-col bg-white">
+        <div className="flex items-center gap-3 border-b-2 border-locked px-4 pt-4 pb-3">
+          <span className="text-4xl" aria-hidden>
+            🐴
+          </span>
+          <div className="min-w-0 flex-1">
+            <p className="text-xl font-extrabold text-ink">Frag das Pony</p>
+            {lessonTitle && (
+              <p className="truncate text-sm font-semibold text-ink/60">{lessonTitle}</p>
+            )}
+          </div>
+          <button
+            type="button"
+            aria-label="Chat schließen"
+            onClick={onClose}
+            className="flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl text-2xl font-bold text-ink/50 select-none"
+          >
+            <span aria-hidden>✕</span>
+          </button>
+        </div>
+
+        <div
+          ref={liste}
+          className="flex flex-1 flex-col gap-3 overflow-y-auto overscroll-contain px-4 py-4"
+        >
+          {nachrichten.length === 0 ? (
+            <>
+              <p className="rounded-2xl bg-primary-light px-4 py-3 text-base text-ink">
+                Hallo Amelie! Ich kenne diese Lektion. Frag mich alles dazu. Du kannst
+                auch einen Knopf antippen.
+              </p>
+              <div className="flex flex-col gap-2">
+                {VORSCHLAEGE.map((v) => (
+                  <Button key={v} variant="secondary" full onClick={() => void senden(v)}>
+                    {v}
+                  </Button>
+                ))}
+              </div>
+            </>
+          ) : (
+            nachrichten.map((m, i) =>
+              m.role === "user" ? (
+                <p
+                  key={i}
+                  className="max-w-[85%] self-end rounded-2xl rounded-br-md bg-primary px-4 py-2 text-base whitespace-pre-line text-white"
+                >
+                  {m.content}
+                </p>
+              ) : (
+                <div key={i} className="flex max-w-[92%] items-start gap-2 self-start">
+                  <div className="min-w-0 rounded-2xl rounded-bl-md bg-primary-light px-4 py-2 text-base whitespace-pre-line text-ink">
+                    {m.content ? (
+                      ohneMarkdown(m.content)
+                    ) : (
+                      <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
+                    )}
+                  </div>
+                  {m.content && !(laedt && i === nachrichten.length - 1) && (
+                    <TTSButton text={ohneMarkdown(m.content)} />
+                  )}
+                </div>
+              )
+            )
+          )}
+        </div>
+
+        <form
+          onSubmit={absenden}
+          className="border-t-2 border-locked px-3 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]"
+        >
+          <div className="flex items-end gap-2">
+            <label htmlFor="pony-frage" className="sr-only">
+              Deine Frage an das Pony
+            </label>
+            <textarea
+              id="pony-frage"
+              value={eingabe}
+              onChange={(e) => setEingabe(e.target.value)}
+              onKeyDown={tasteGedrueckt}
+              maxLength={MAX_FRAGE_ZEICHEN}
+              rows={2}
+              placeholder={hoert ? "Ich höre zu …" : "Deine Frage …"}
+              className="min-h-12 min-w-0 flex-1 resize-none rounded-2xl border-2 border-locked px-3 py-2 text-base text-ink focus:border-primary focus:outline-none"
+            />
+            {mikroDa && (
+              <button
+                type="button"
+                aria-label={hoert ? "Zuhören beenden" : "Frage sprechen"}
+                aria-pressed={hoert}
+                onClick={zuhoeren}
+                className={
+                  hoert
+                    ? "flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl border-b-4 border-warning-dark bg-warning text-2xl select-none"
+                    : "flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl border-2 border-b-4 border-locked bg-white text-2xl select-none active:translate-y-1 active:border-b-0"
+                }
+              >
+                <span aria-hidden>🎤</span>
+              </button>
+            )}
+            <Button
+              type="submit"
+              aria-label="Frage abschicken"
+              disabled={laedt || !eingabe.trim()}
+              className="min-w-12 px-3 text-2xl"
+            >
+              <span aria-hidden>➤</span>
+            </Button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}
+
+/** Knopf "Frag das Pony" + Chat. Nur sichtbar, wenn die KI-Hilfe eingerichtet ist. */
+export function PonyChatKnopf({
+  lessonSlug,
+  lessonTitle,
+  className,
+}: {
+  lessonSlug: string;
+  lessonTitle?: string;
+  className?: string;
+}) {
+  const aktiv = useKiAktiv();
+  const [offen, setOffen] = useState(false);
+  if (!aktiv) return null;
+  return (
+    <>
+      <Button variant="secondary" size="lg" full className={className} onClick={() => setOffen(true)}>
+        <span aria-hidden>🐴</span> Frag das Pony
+      </Button>
+      {offen && (
+        <PonyChat
+          lessonSlug={lessonSlug}
+          lessonTitle={lessonTitle}
+          onClose={() => setOffen(false)}
+        />
+      )}
+    </>
+  );
+}
