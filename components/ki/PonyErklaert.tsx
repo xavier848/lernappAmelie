@@ -6,7 +6,6 @@
 // KI-Hilfe eingerichtet ist (ANTHROPIC_API_KEY auf dem Server).
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
-import { TTSButton } from "@/components/ui/TTSButton";
 import { kiAnfrage, ohneMarkdown, useKiAktiv } from "@/lib/ki/client";
 
 export type KiErklaerung = {
@@ -19,7 +18,7 @@ export type KiErklaerung = {
 
 export function PonyErklaert({ exerciseId, given, nochmal }: KiErklaerung) {
   const aktiv = useKiAktiv();
-  const [status, setStatus] = useState<"bereit" | "laedt" | "fertig">("bereit");
+  const [gefragt, setGefragt] = useState(false);
   const [text, setText] = useState("");
   const abbruch = useRef<AbortController | null>(null);
 
@@ -31,7 +30,7 @@ export function PonyErklaert({ exerciseId, given, nochmal }: KiErklaerung) {
   async function fragen() {
     const ctrl = new AbortController();
     abbruch.current = ctrl;
-    setStatus("laedt");
+    setGefragt(true);
     try {
       await kiAnfrage(
         "/api/ki/erklaeren",
@@ -39,13 +38,12 @@ export function PonyErklaert({ exerciseId, given, nochmal }: KiErklaerung) {
         setText,
         ctrl.signal,
       );
-      setStatus("fertig");
     } catch {
       // abgebrochen - der Banner ist schon weg
     }
   }
 
-  if (status === "bereit") {
+  if (!gefragt) {
     return (
       <Button variant="secondary" full onClick={fragen}>
         <span aria-hidden>🐴</span> Pony, erklär’s mir
@@ -55,16 +53,11 @@ export function PonyErklaert({ exerciseId, given, nochmal }: KiErklaerung) {
 
   const sauber = ohneMarkdown(text);
   return (
-    <div className="flex items-start gap-2 rounded-2xl border-2 border-primary bg-white p-3">
-      <div
-        aria-live="polite"
-        className="max-h-[30vh] min-w-0 flex-1 overflow-y-auto overscroll-contain text-base whitespace-pre-line text-ink"
-      >
-        {sauber || (
-          <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
-        )}
-      </div>
-      {status === "fertig" && sauber && <TTSButton text={sauber} />}
+    <div
+      aria-live="polite"
+      className="max-h-[30vh] overflow-y-auto overscroll-contain rounded-2xl border-2 border-primary bg-white p-3 text-base whitespace-pre-line text-ink"
+    >
+      {sauber || <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>}
     </div>
   );
 }

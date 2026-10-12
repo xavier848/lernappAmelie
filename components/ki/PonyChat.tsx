@@ -1,11 +1,10 @@
 "use client";
 
-// "Frag das Pony": Chat zur aktuellen Lektion. Amelie tippt (oder spricht)
-// eine Frage, Claude antwortet in Leichter Sprache - nur mit dem Wissen aus
-// dieser Lektion. Die Lektion laedt der Server selbst aus der Datenbank.
+// "Frag das Pony": Text-Chat zur aktuellen Lektion. Amelie tippt eine Frage,
+// Claude antwortet in Leichter Sprache - nur mit dem Wissen aus dieser
+// Lektion. Die Lektion laedt der Server selbst aus der Datenbank.
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import { Button } from "@/components/ui/Button";
-import { TTSButton } from "@/components/ui/TTSButton";
 import { kiAnfrage, ohneMarkdown, useKiAktiv } from "@/lib/ki/client";
 import { MAX_FRAGE_ZEICHEN } from "@/lib/ki/schemas";
 import {
@@ -14,7 +13,6 @@ import {
   verlaufFuerServer,
   type ChatNachricht,
 } from "@/lib/ki/verlauf";
-import { ttsAvailable } from "@/lib/tts";
 
 const VORSCHLAEGE = [
   "Erklär mir das Thema ganz einfach.",
@@ -22,28 +20,6 @@ const VORSCHLAEGE = [
   "Was ist das Wichtigste?",
   "Frag mich ab!",
 ];
-
-// --- Spracheingabe (Web Speech API, nicht in jedem Browser vorhanden) ------
-type Erkennung = {
-  lang: string;
-  interimResults: boolean;
-  maxAlternatives: number;
-  onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null;
-  onerror: ((e: { error?: string }) => void) | null;
-  onend: (() => void) | null;
-  start(): void;
-  abort(): void;
-};
-type ErkennungKlasse = new () => Erkennung;
-
-function erkennungKlasse(): ErkennungKlasse | null {
-  if (typeof window === "undefined") return null;
-  const w = window as unknown as {
-    SpeechRecognition?: ErkennungKlasse;
-    webkitSpeechRecognition?: ErkennungKlasse;
-  };
-  return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
-}
 
 export function PonyChat({
   lessonSlug,
@@ -59,23 +35,11 @@ export function PonyChat({
   );
   const [eingabe, setEingabe] = useState("");
   const [laedt, setLaedt] = useState(false);
-  // Der Chat erscheint erst nach einem Tipp, nie im Server-HTML - die
-  // Browser-Pruefung darf also direkt beim ersten Rendern passieren.
-  const [mikroDa, setMikroDa] = useState(() => erkennungKlasse() !== null);
-  const [hoert, setHoert] = useState(false);
   const abbruch = useRef<AbortController | null>(null);
-  const erkennung = useRef<Erkennung | null>(null);
   const liste = useRef<HTMLDivElement | null>(null);
 
-  // Chat zu: Anfrage, Zuhoeren und Vorlesen stoppen.
-  useEffect(
-    () => () => {
-      abbruch.current?.abort();
-      erkennung.current?.abort();
-      if (ttsAvailable()) window.speechSynthesis.cancel();
-    },
-    []
-  );
+  // Chat zu: laufende Anfrage abbrechen, das spart Tokens.
+  useEffect(() => () => abbruch.current?.abort(), []);
 
   // Neue Nachricht oder neuer Text -> nach unten scrollen.
   useEffect(() => {
@@ -86,7 +50,6 @@ export function PonyChat({
   async function senden(roh: string) {
     const frage = roh.trim().slice(0, MAX_FRAGE_ZEICHEN);
     if (!frage || laedt) return;
-    erkennung.current?.abort();
     const mitFrage: ChatNachricht[] = [...nachrichten, { role: "user", content: frage }];
     setNachrichten([...mitFrage, { role: "assistant", content: "" }]);
     setEingabe("");
@@ -126,41 +89,6 @@ export function PonyChat({
     }
   }
 
-  function zuhoeren() {
-    const Klasse = erkennungKlasse();
-    if (!Klasse) return;
-    if (hoert) {
-      erkennung.current?.abort();
-      return;
-    }
-    const r = new Klasse();
-    r.lang = "de-DE";
-    r.interimResults = false;
-    r.maxAlternatives = 1;
-    r.onresult = (e) => {
-      const gesagt = e.results[0]?.[0]?.transcript?.trim();
-      if (gesagt) {
-        setEingabe((alt) => `${alt ? `${alt} ` : ""}${gesagt}`.slice(0, MAX_FRAGE_ZEICHEN));
-      }
-    };
-    r.onerror = (e) => {
-      // Keine Erlaubnis (z. B. als Home-Bildschirm-App auf dem iPhone):
-      // Mikro-Knopf ausblenden, Tippen geht ja weiterhin.
-      if (e.error === "not-allowed" || e.error === "service-not-allowed") setMikroDa(false);
-    };
-    r.onend = () => {
-      setHoert(false);
-      erkennung.current = null;
-    };
-    erkennung.current = r;
-    try {
-      r.start();
-      setHoert(true);
-    } catch {
-      erkennung.current = null;
-      setMikroDa(false);
-    }
-  }
 
   return (
     <div
@@ -218,18 +146,16 @@ export function PonyChat({
                   {m.content}
                 </p>
               ) : (
-                <div key={i} className="flex max-w-[92%] items-start gap-2 self-start">
-                  <div className="min-w-0 rounded-2xl rounded-bl-md bg-primary-light px-4 py-2 text-base whitespace-pre-line text-ink">
-                    {m.content ? (
-                      ohneMarkdown(m.content)
-                    ) : (
-                      <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
-                    )}
-                  </div>
-                  {m.content && !(laedt && i === nachrichten.length - 1) && (
-                    <TTSButton text={ohneMarkdown(m.content)} />
+                <p
+                  key={i}
+                  className="max-w-[92%] self-start rounded-2xl rounded-bl-md bg-primary-light px-4 py-2 text-base whitespace-pre-line text-ink"
+                >
+                  {m.content ? (
+                    ohneMarkdown(m.content)
+                  ) : (
+                    <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
                   )}
-                </div>
+                </p>
               )
             )
           )}
@@ -250,24 +176,9 @@ export function PonyChat({
               onKeyDown={tasteGedrueckt}
               maxLength={MAX_FRAGE_ZEICHEN}
               rows={2}
-              placeholder={hoert ? "Ich höre zu …" : "Deine Frage …"}
+              placeholder="Deine Frage …"
               className="min-h-12 min-w-0 flex-1 resize-none rounded-2xl border-2 border-locked px-3 py-2 text-base text-ink focus:border-primary focus:outline-none"
             />
-            {mikroDa && (
-              <button
-                type="button"
-                aria-label={hoert ? "Zuhören beenden" : "Frage sprechen"}
-                aria-pressed={hoert}
-                onClick={zuhoeren}
-                className={
-                  hoert
-                    ? "flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl border-b-4 border-warning-dark bg-warning text-2xl select-none"
-                    : "flex min-h-12 min-w-12 cursor-pointer items-center justify-center rounded-2xl border-2 border-b-4 border-locked bg-white text-2xl select-none active:translate-y-1 active:border-b-0"
-                }
-              >
-                <span aria-hidden>🎤</span>
-              </button>
-            )}
             <Button
               type="submit"
               aria-label="Frage abschicken"

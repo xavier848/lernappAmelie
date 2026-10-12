@@ -44,6 +44,7 @@ describe("PonyErklaert", () => {
     expect(fetchMock.mock.calls[0][0]).toBe("/api/ki/erklaeren");
     expect(body(0)).toEqual({ exerciseId, given: "10", nochmal: true });
     expect(screen.queryByRole("button", { name: /erklär’s mir/ })).toBeNull();
+    expect(screen.queryByRole("button", { name: "Vorlesen" })).toBeNull();
   });
 
   it("kuerzt sehr lange Antworten, damit die Anfrage gueltig bleibt", async () => {
@@ -100,6 +101,8 @@ describe("Frag das Pony", () => {
       { role: "assistant", content: "Wie lange wäschst du deine Hände?" },
       { role: "user", content: "30 Sekunden" },
     ]);
+    // Reiner Text-Chat: kein Vorlesen, kein Mikrofon.
+    expect(screen.queryByRole("button", { name: /Vorlesen|sprechen|Zuhören/ })).toBeNull();
   });
 
   it("schickt Fehler-Antworten nicht als Verlauf zurueck", async () => {

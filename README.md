@@ -48,7 +48,7 @@ npm test                     # Vitest
 Zwei Hilfen mit Claude, beide in Leichter Sprache und nur mit dem Wissen der jeweiligen Lektion:
 
 - **„Pony, erklär’s mir“** – Knopf im orangen Banner nach einer falschen Antwort (Lektion, Üben, Prüfung). Beim Sofort-Nochmal gibt das Pony nur einen Hinweis und verrät die Lösung nicht.
-- **„Frag das Pony“** – Chat zur Lektion, erreichbar auf dem Einführungs- und dem Ergebnis-Screen. Mit Vorschlags-Knöpfen („Frag mich ab!“), Vorlesen 🔊 und Spracheingabe 🎤, wo der Browser das kann.
+- **„Frag das Pony“** – Chat zur Lektion, erreichbar auf dem Einführungs- und dem Ergebnis-Screen. Reiner Text-Chat mit Vorschlags-Knöpfen („Frag mich ab!“).
 
 Der Server lädt die Lektion selbst aus Supabase und spricht mit Claude (`app/api/ki/*`, `lib/ki/`). Der Schlüssel bleibt auf dem Server. Kostenbremsen: Tageslimit (`KI_TAGESLIMIT`, gezählt in der Tabelle `ki_nutzung`, braucht `SUPABASE_SERVICE_ROLE_KEY`), höchstens 12 Anfragen pro Minute, kurze Antworten, Prompt-Caching. In `ki_nutzung` stehen nur Zeitpunkt, Lektion und Token-Zahlen, keine Fragen oder Antworten. Ohne `ANTHROPIC_API_KEY` sind die Pony-Knöpfe unsichtbar.
 
