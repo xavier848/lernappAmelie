@@ -5,7 +5,7 @@
 // zurueck zum Lernpfad. Animationen rein dekorativ (prefers-reduced-motion).
 // Der Ueben-Modus nutzt denselben Screen ohne Sterne (stars weglassen) und
 // mit eigenem Lob-Text + Button-Beschriftung.
-import { useEffect } from "react";
+import { useEffect, type ReactNode } from "react";
 import { SafeImage } from "@/components/ui/SafeImage";
 import { motion, useReducedMotion } from "framer-motion";
 import { playFinish } from "@/lib/sound";
@@ -29,6 +29,8 @@ export type ResultScreenProps = {
   fedItem?: "karotte" | "heu" | "apfel" | null;
   /** Wird mit der Futter-Wahl aufgerufen. */
   onFeed?: (item: "karotte" | "heu" | "apfel") => void;
+  /** Zusaetzlicher Knopf ueber "Weiter lernen" (z. B. "Frag das Pony"). */
+  extra?: ReactNode;
   onContinue: () => void;
 };
 
@@ -41,6 +43,7 @@ export function ResultScreen({
   canFeed = false,
   fedItem = null,
   onFeed,
+  extra,
   onContinue,
 }: ResultScreenProps) {
   // Kleiner Jubel beim Erscheinen des Ergebnis-Screens.
@@ -170,6 +173,8 @@ export function ResultScreen({
           )}
         </div>
       )}
+
+      {extra}
 
       <div className="w-full pt-2">
         <Button size="lg" full onClick={onContinue}>

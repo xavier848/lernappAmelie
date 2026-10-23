@@ -9,6 +9,7 @@ import { SafeImage } from "./SafeImage";
 import { Button } from "./Button";
 import { cn } from "@/lib/cn";
 import { playCorrect, playWrong } from "@/lib/sound";
+import { PonyErklaert, type KiErklaerung } from "@/components/ki/PonyErklaert";
 
 /**
  * Reaktions-Pony neben der Rueckmeldung. Bei falsch trabt das grummelige
@@ -88,6 +89,8 @@ export type FeedbackBannerProps = {
   title?: string;
   /** Beschriftung des Weiter-Buttons (Default "Weiter"). */
   continueLabel?: string;
+  /** Bei falscher Antwort: Knopf "Pony, erklär's mir" (KI-Hilfe) anbieten. */
+  kiErklaerung?: KiErklaerung;
 };
 
 const STATES = {
@@ -113,6 +116,7 @@ export function FeedbackBanner({
   onContinue,
   title,
   continueLabel,
+  kiErklaerung,
 }: FeedbackBannerProps) {
   const reducedMotion = useReducedMotion();
   const c = STATES[state];
@@ -149,6 +153,11 @@ export function FeedbackBanner({
             )}
           </div>
         </div>
+        {state === "wrong" && kiErklaerung && (
+          <div className="mt-3 empty:hidden">
+            <PonyErklaert key={kiErklaerung.exerciseId} {...kiErklaerung} />
+          </div>
+        )}
         <div className="mt-4">
           <Button variant={c.variant} size="lg" full onClick={onContinue}>
             {continueLabel ?? "Weiter"}
