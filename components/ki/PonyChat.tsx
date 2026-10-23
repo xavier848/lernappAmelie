@@ -9,6 +9,7 @@ import { SafeImage } from "@/components/ui/SafeImage";
 import { kiAnfrage, useKiAktiv } from "@/lib/ki/client";
 import { cn } from "@/lib/cn";
 import { KiText } from "./KiText";
+import { PonyDenkt } from "./PonyDenkt";
 import { MAX_FRAGE_ZEICHEN } from "@/lib/ki/schemas";
 import {
   chatMerken,
@@ -170,11 +171,7 @@ export function PonyChat({
                       m.fehler ? "bg-warning-light" : "bg-primary-light"
                     )}
                   >
-                    {m.content ? (
-                      <KiText text={m.content} />
-                    ) : (
-                      <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
-                    )}
+                    {m.content ? <KiText text={m.content} /> : <PonyDenkt />}
                   </div>
                 </div>
               )
