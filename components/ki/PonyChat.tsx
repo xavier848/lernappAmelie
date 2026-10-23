@@ -24,6 +24,10 @@ const VORSCHLAEGE = [
   "Frag mich ab!",
 ];
 
+// Nach jeder Antwort: Nachfragen mit einem Tipp statt Tippen
+// (Tippen ist mit Dyspraxie muehsam).
+const NACHFRAGEN = ["Erklär es noch einfacher.", "Gib mir ein Beispiel.", "Frag mich ab!"];
+
 export function PonyChat({
   lessonSlug,
   lessonTitle,
@@ -176,6 +180,23 @@ export function PonyChat({
               )
             )
           )}
+          {nachrichten.length > 0 &&
+            !laedt &&
+            nachrichten[nachrichten.length - 1].role === "assistant" &&
+            !nachrichten[nachrichten.length - 1].fehler && (
+              <div className="flex flex-wrap gap-2 pl-11">
+                {NACHFRAGEN.map((v) => (
+                  <button
+                    key={v}
+                    type="button"
+                    onClick={() => void senden(v)}
+                    className="min-h-12 cursor-pointer rounded-full border-2 border-b-4 border-primary bg-white px-4 text-base font-bold text-primary-dark select-none active:translate-y-0.5 active:border-b-2"
+                  >
+                    {v}
+                  </button>
+                ))}
+              </div>
+            )}
         </div>
 
         <form
