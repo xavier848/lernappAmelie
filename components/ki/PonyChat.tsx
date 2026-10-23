@@ -5,7 +5,10 @@
 // Lektion. Die Lektion laedt der Server selbst aus der Datenbank.
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import { Button } from "@/components/ui/Button";
-import { kiAnfrage, ohneMarkdown, useKiAktiv } from "@/lib/ki/client";
+import { SafeImage } from "@/components/ui/SafeImage";
+import { kiAnfrage, useKiAktiv } from "@/lib/ki/client";
+import { cn } from "@/lib/cn";
+import { KiText } from "./KiText";
 import { MAX_FRAGE_ZEICHEN } from "@/lib/ki/schemas";
 import {
   chatMerken,
@@ -146,16 +149,30 @@ export function PonyChat({
                   {m.content}
                 </p>
               ) : (
-                <p
-                  key={i}
-                  className="max-w-[92%] self-start rounded-2xl rounded-bl-md bg-primary-light px-4 py-2 text-base whitespace-pre-line text-ink"
-                >
-                  {m.content ? (
-                    ohneMarkdown(m.content)
-                  ) : (
-                    <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
-                  )}
-                </p>
+                <div key={i} className="flex max-w-[94%] items-end gap-2 self-start">
+                  <SafeImage
+                    src="/pony-gluecklich.png"
+                    alt=""
+                    width={36}
+                    height={36}
+                    fallback="🐴"
+                    fallbackClassName="text-2xl"
+                    className="mb-0.5 shrink-0"
+                  />
+                  <div
+                    className={cn(
+                      "min-w-0 rounded-2xl rounded-bl-md px-4 py-3 text-ink",
+                      // Fehler-Antworten (offline, Limit) sanft orange statt tuerkis
+                      m.fehler ? "bg-warning-light" : "bg-primary-light"
+                    )}
+                  >
+                    {m.content ? (
+                      <KiText text={m.content} />
+                    ) : (
+                      <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
+                    )}
+                  </div>
+                </div>
               )
             )
           )}

@@ -6,7 +6,9 @@
 // KI-Hilfe eingerichtet ist (ANTHROPIC_API_KEY auf dem Server).
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
-import { kiAnfrage, ohneMarkdown, useKiAktiv } from "@/lib/ki/client";
+import { SafeImage } from "@/components/ui/SafeImage";
+import { kiAnfrage, useKiAktiv } from "@/lib/ki/client";
+import { KiText } from "./KiText";
 
 export type KiErklaerung = {
   exerciseId: string;
@@ -51,13 +53,28 @@ export function PonyErklaert({ exerciseId, given, nochmal }: KiErklaerung) {
     );
   }
 
-  const sauber = ohneMarkdown(text);
+  // Wie eine Sprechblase vom Pony: kleiner Kopf mit Pony, darunter die
+  // Antwort mit echten Absaetzen und Aufzaehlungspunkten.
   return (
-    <div
-      aria-live="polite"
-      className="max-h-[30vh] overflow-y-auto overscroll-contain rounded-2xl border-2 border-primary bg-white p-3 text-base whitespace-pre-line text-ink"
-    >
-      {sauber || <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>}
+    <div className="rounded-2xl border-2 border-primary/40 bg-white p-3 shadow-sm">
+      <div className="mb-1.5 flex items-center gap-2">
+        <SafeImage
+          src="/pony-gluecklich.png"
+          alt=""
+          width={28}
+          height={28}
+          fallback="🐴"
+          fallbackClassName="text-xl"
+        />
+        <p className="text-sm font-extrabold text-primary-dark">Das Pony erklärt</p>
+      </div>
+      <div aria-live="polite" className="max-h-[30vh] overflow-y-auto overscroll-contain text-ink">
+        {text.trim() ? (
+          <KiText text={text} />
+        ) : (
+          <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
+        )}
+      </div>
     </div>
   );
 }
