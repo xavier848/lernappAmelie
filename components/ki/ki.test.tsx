@@ -74,6 +74,26 @@ describe("FeedbackBanner mit KI-Hilfe", () => {
   });
 });
 
+describe("FeedbackBanner: Pony erklaert", () => {
+  it("ersetzt die App-Erklaerung durch die Sprechblase vom Pony", async () => {
+    fetchMock.mockResolvedValue(antwort("Schau auf den Rand der Form."));
+    render(
+      <FeedbackBanner
+        state="wrong"
+        explanation="Erklaerung aus der App."
+        onContinue={() => {}}
+        kiErklaerung={{ exerciseId, nochmal: true }}
+      />,
+    );
+    expect(screen.getByText("Erklaerung aus der App.")).toBeTruthy();
+    fireEvent.click(screen.getByRole("button", { name: /erklär’s mir/ }));
+    expect(await screen.findByText("Schau auf den Rand der Form.")).toBeTruthy();
+    expect(screen.queryByText("Erklaerung aus der App.")).toBeNull();
+    expect(screen.queryByRole("button", { name: /erklär’s mir/ })).toBeNull();
+    expect(body(0)).toEqual({ exerciseId, nochmal: true });
+  });
+});
+
 describe("Frag das Pony", () => {
   it("oeffnet den Chat, schickt Vorschlaege und den Verlauf", async () => {
     fetchMock

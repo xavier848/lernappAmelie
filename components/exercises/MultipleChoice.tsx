@@ -3,8 +3,9 @@
 // Übungstyp 2: multiple_choice – Quiz mit genau einer richtigen Antwort (Spec §5.2).
 // Große Antwortkarten (Text und/oder Bild), volle Breite, min. 56 px hoch
 // (kompakt, damit 4 Optionen ohne Scrollen auf einen iPhone-Screen passen).
-// Auswahl = türkiser Rand. Nach dem Prüfen: richtige Karte grün,
-// gewählte falsche Karte orange (nie rot).
+// Vorne ein Auswahl-Kreis wie bei einem Formular: leer = noch nicht gewählt,
+// gefüllt = gewählt. Nach dem Prüfen: richtige Karte grün mit Haken,
+// gewählte falsche Karte orange mit Kreuz (nie rot) - nicht nur über Farbe.
 // Die Antworten werden pro Aufruf neu gemischt, damit die richtige Antwort
 // nicht immer an derselben Stelle steht (Wiederholungen bleiben spannend).
 // Den Aufgaben-Prompt (+ TTS) zeigt der Lektions-Player an, nicht die Komponente.
@@ -83,6 +84,11 @@ export function MultipleChoice({
               showWrong && "border-warning bg-warning-light",
             )}
           >
+            <Auswahlkreis
+              zustand={
+                showCorrect ? "richtig" : showWrong ? "falsch" : isSelected ? "gewaehlt" : "leer"
+              }
+            />
             {option.image && (
               <img
                 src={option.image}
@@ -95,5 +101,33 @@ export function MultipleChoice({
         );
       })}
     </div>
+  );
+}
+
+/** Kreis vor jeder Antwort: zeigt Auswahl und Ergebnis auch ohne Farbe. */
+function Auswahlkreis({ zustand }: { zustand: "leer" | "gewaehlt" | "richtig" | "falsch" }) {
+  return (
+    <span
+      aria-hidden
+      className={cn(
+        "flex size-7 shrink-0 items-center justify-center rounded-full border-2",
+        zustand === "leer" && "border-locked bg-white",
+        zustand === "gewaehlt" && "border-primary bg-primary",
+        zustand === "richtig" && "border-success bg-success",
+        zustand === "falsch" && "border-warning bg-warning",
+      )}
+    >
+      {zustand === "gewaehlt" && <span className="size-2.5 rounded-full bg-white" />}
+      {zustand === "richtig" && (
+        <svg viewBox="0 0 16 16" className="size-4" fill="none" stroke="white" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M3.5 8.5l3 3 6-7" />
+        </svg>
+      )}
+      {zustand === "falsch" && (
+        <svg viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="white" strokeWidth="2.6" strokeLinecap="round">
+          <path d="M4 4l8 8M12 4l-8 8" />
+        </svg>
+      )}
+    </span>
   );
 }

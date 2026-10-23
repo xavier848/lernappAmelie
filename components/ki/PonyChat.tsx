@@ -5,7 +5,11 @@
 // Lektion. Die Lektion laedt der Server selbst aus der Datenbank.
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import { Button } from "@/components/ui/Button";
-import { kiAnfrage, ohneMarkdown, useKiAktiv } from "@/lib/ki/client";
+import { SafeImage } from "@/components/ui/SafeImage";
+import { kiAnfrage, useKiAktiv } from "@/lib/ki/client";
+import { cn } from "@/lib/cn";
+import { KiText } from "./KiText";
+import { PonyDenkt } from "./PonyDenkt";
 import { MAX_FRAGE_ZEICHEN } from "@/lib/ki/schemas";
 import {
   chatMerken,
@@ -20,6 +24,10 @@ const VORSCHLAEGE = [
   "Was ist das Wichtigste?",
   "Frag mich ab!",
 ];
+
+// Nach jeder Antwort: Nachfragen mit einem Tipp statt Tippen
+// (Tippen ist mit Dyspraxie muehsam).
+const NACHFRAGEN = ["Erklär es noch einfacher.", "Gib mir ein Beispiel.", "Frag mich ab!"];
 
 export function PonyChat({
   lessonSlug,
@@ -146,19 +154,46 @@ export function PonyChat({
                   {m.content}
                 </p>
               ) : (
-                <p
-                  key={i}
-                  className="max-w-[92%] self-start rounded-2xl rounded-bl-md bg-primary-light px-4 py-2 text-base whitespace-pre-line text-ink"
-                >
-                  {m.content ? (
-                    ohneMarkdown(m.content)
-                  ) : (
-                    <span className="animate-pulse text-ink/60">Das Pony denkt nach …</span>
-                  )}
-                </p>
+                <div key={i} className="flex max-w-[94%] items-end gap-2 self-start">
+                  <SafeImage
+                    src="/pony-gluecklich.png"
+                    alt=""
+                    width={36}
+                    height={36}
+                    fallback="🐴"
+                    fallbackClassName="text-2xl"
+                    className="mb-0.5 shrink-0"
+                  />
+                  <div
+                    className={cn(
+                      "min-w-0 rounded-2xl rounded-bl-md px-4 py-3 text-ink",
+                      // Fehler-Antworten (offline, Limit) sanft orange statt tuerkis
+                      m.fehler ? "bg-warning-light" : "bg-primary-light"
+                    )}
+                  >
+                    {m.content ? <KiText text={m.content} /> : <PonyDenkt />}
+                  </div>
+                </div>
               )
             )
           )}
+          {nachrichten.length > 0 &&
+            !laedt &&
+            nachrichten[nachrichten.length - 1].role === "assistant" &&
+            !nachrichten[nachrichten.length - 1].fehler && (
+              <div className="flex flex-wrap gap-2 pl-11">
+                {NACHFRAGEN.map((v) => (
+                  <button
+                    key={v}
+                    type="button"
+                    onClick={() => void senden(v)}
+                    className="min-h-12 cursor-pointer rounded-full border-2 border-b-4 border-primary bg-white px-4 text-base font-bold text-primary-dark select-none active:translate-y-0.5 active:border-b-2"
+                  >
+                    {v}
+                  </button>
+                ))}
+              </div>
+            )}
         </div>
 
         <form

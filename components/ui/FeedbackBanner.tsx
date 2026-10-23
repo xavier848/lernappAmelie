@@ -3,13 +3,17 @@
 // Feedback-Banner unten im Lektions-Player (Spec §4.2):
 // Grün „Richtig! 🎉" / sanftes Orange „Fast! Schau nochmal." – NIE rot.
 // Rutscht von unten herein (Framer), respektiert prefers-reduced-motion.
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { SafeImage } from "./SafeImage";
 import { Button } from "./Button";
 import { cn } from "@/lib/cn";
 import { playCorrect, playWrong } from "@/lib/sound";
-import { PonyErklaert, type KiErklaerung } from "@/components/ki/PonyErklaert";
+import {
+  PonyErklaerKnopf,
+  PonySprechblase,
+  type KiErklaerung,
+} from "@/components/ki/PonyErklaert";
 
 /**
  * Reaktions-Pony neben der Rueckmeldung. Bei falsch trabt das grummelige
@@ -121,6 +125,10 @@ export function FeedbackBanner({
   const reducedMotion = useReducedMotion();
   const c = STATES[state];
   const shownTitle = title ?? c.title;
+  // "Pony, erklär's mir" angetippt: das freundliche Pony spricht in einer
+  // Sprechblase - statt (nicht zusaetzlich zu) der Erklaerung der App.
+  const [ponyFragt, setPonyFragt] = useState(false);
+  const ponyModus = state === "wrong" && kiErklaerung !== undefined && ponyFragt;
 
   // Kurzer Feedback-Sound beim Erscheinen des Banners.
   useEffect(() => {
@@ -138,27 +146,48 @@ export function FeedbackBanner({
     >
       <div
         className={cn(
-          "mx-auto w-full max-w-md rounded-t-3xl border-t-4 px-4 pt-4 pb-[max(1.5rem,env(safe-area-inset-bottom))]",
+          "mx-auto flex max-h-[85svh] w-full max-w-md flex-col rounded-t-3xl border-t-4 px-4 pt-4 pb-[max(1.5rem,env(safe-area-inset-bottom))]",
           c.wrap
         )}
       >
-        <div className="flex items-start gap-3">
-          <FeedbackPony state={state} reducedMotion={reducedMotion} />
-          <div className="min-w-0 flex-1">
-            <p className={cn("text-xl font-extrabold", c.text)}>
+        {/* Lange Erklaerungen scrollen hier drin - der Weiter-Knopf bleibt
+            immer sichtbar und der Banner waechst nie ueber den Bildschirm. */}
+        <div className="min-h-0 overflow-y-auto overscroll-contain">
+          <div className="flex items-center gap-3">
+            {ponyModus ? (
+              <SafeImage
+                src="/pony-gluecklich.png"
+                alt=""
+                width={76}
+                height={76}
+                fallback="🐴"
+                fallbackClassName="text-6xl"
+                className="shrink-0"
+              />
+            ) : (
+              <FeedbackPony state={state} reducedMotion={reducedMotion} />
+            )}
+            <p className={cn("min-w-0 flex-1 text-xl leading-snug font-extrabold", c.text)}>
               {c.emoji} {shownTitle}
             </p>
-            {explanation && (
-              <p className="mt-2 text-base text-ink">{explanation}</p>
-            )}
           </div>
+          {/* Erklaerung ueber die ganze Breite: kuerzere Zeilen-Stapel,
+              leichter zu lesen als die schmale Spalte neben dem Pony. */}
+          {explanation && !ponyModus && (
+            <p className="mt-3 text-base leading-relaxed text-ink">{explanation}</p>
+          )}
+          {ponyModus && kiErklaerung && (
+            <div className="mt-4">
+              <PonySprechblase key={kiErklaerung.exerciseId} {...kiErklaerung} />
+            </div>
+          )}
+          {state === "wrong" && kiErklaerung && !ponyFragt && (
+            <div className="mt-3 empty:hidden">
+              <PonyErklaerKnopf onClick={() => setPonyFragt(true)} />
+            </div>
+          )}
         </div>
-        {state === "wrong" && kiErklaerung && (
-          <div className="mt-3 empty:hidden">
-            <PonyErklaert key={kiErklaerung.exerciseId} {...kiErklaerung} />
-          </div>
-        )}
-        <div className="mt-4">
+        <div className="mt-4 shrink-0">
           <Button variant={c.variant} size="lg" full onClick={onContinue}>
             {continueLabel ?? "Weiter"}
           </Button>
