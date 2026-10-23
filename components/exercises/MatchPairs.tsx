@@ -51,8 +51,12 @@ function SideContent({ side }: { side: PairSide }) {
 /** Nur-Emoji-Texte (z. B. 🐶) duerfen auf Memory-Karten groesser erscheinen. */
 const EMOJI_ONLY = /^[\p{Extended_Pictographic}\p{Emoji_Component}\s]+$/u;
 
+// Aufgedeckte Karten: Emoji gross (gut zu erkennen), Woerter mind. 16 px
+// und fett (Spec: nie unter 16 px), lange Woerter werden getrennt.
 function memoryFaceTextClass(side: PairSide): string {
-  return side.text && EMOJI_ONLY.test(side.text) ? "text-2xl" : "text-sm";
+  return side.text && EMOJI_ONLY.test(side.text)
+    ? "text-5xl"
+    : "text-base leading-tight font-bold hyphens-auto break-words";
 }
 
 export function MatchPairs(props: MatchPairsProps) {
@@ -282,7 +286,8 @@ function MemoryBoard({
   };
 
   return (
-    <div aria-label="Memory-Karten" className="grid grid-cols-3 gap-2">
+    // 3 Karten pro Reihe; eine unvollstaendige letzte Reihe steht mittig.
+    <div aria-label="Memory-Karten" className="flex flex-wrap justify-center gap-2">
       {cards.map((card, index) => {
         const isMatched = matched.includes(card.pair);
         const isFaceUp = isMatched || open.includes(card.key);
@@ -298,7 +303,7 @@ function MemoryBoard({
             onClick={() => tapCard(card)}
             animate={{ rotateY: isFaceUp ? 180 : 0 }}
             transition={{ duration: 0.3 }}
-            className="relative aspect-square min-h-14 cursor-pointer rounded-2xl select-none [transform-style:preserve-3d]"
+            className="relative aspect-square min-h-14 w-[calc((100%-1rem)/3)] cursor-pointer rounded-2xl select-none [transform-style:preserve-3d]"
           >
             {/* Rückseite (verdeckt): ? */}
             <span

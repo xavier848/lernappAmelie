@@ -172,11 +172,13 @@ describe("MatchPairs (memory: true)", () => {
   it("startet als 3er-Raster komplett verdeckter Karten", () => {
     setup(memoryData, SEED);
 
+    // 3 Karten pro Reihe, letzte Reihe mittig (flex-wrap statt grid).
     expect(screen.getByLabelText("Memory-Karten").className).toContain(
-      "grid-cols-3",
+      "justify-center",
     );
     const cards = screen.getAllByTestId("memory-card");
     expect(cards).toHaveLength(4);
+    expect(cards[0].className).toContain("w-[calc((100%-1rem)/3)]");
     for (const card of cards) {
       expect(card.getAttribute("aria-label")).toContain("verdeckt");
     }
