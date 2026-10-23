@@ -1,0 +1,125 @@
+{
+  "topic_slug": "kueche",
+  "slug": "kueche-spuelmaschine-einraeumen",
+  "title": "Spülmaschine: Profi-Regeln zum Einräumen",
+  "sort": 641,
+  "intro": "Bevor Geschirr in die Maschine kommt, räumst du es sorgfältig von Hand vorab. Du entfernst Speisereste, Servietten, Knochen, Kerne, Zahnstocher und Ähnliches. Das geht gut mit einem Gummiteigschaber. Färbende Reste wie Ketchup nimmst du vor dem Spülen ab. Denn Kunststoffe nehmen die Farbe an. Mit Wasser vorspülen musst du nicht. Das ist aus Umweltschutzgründen nicht sinnvoll.\n\nSo räumst du ein: Leichte und empfindliche Teile wie Kunststoffe und Gläser kommen in den oberen Korb. Gläser dürfen sich nicht berühren. Sonst gehen sie kaputt oder bekommen Wasserflecken. Leicht verschmutztes Geschirr kommt nach oben. Töpfe und stark verschmutztes Geschirr kommen in den unteren Korb. Dort ist der Wasserdruck stärker.\n\nStell nichts ineinander. Sonst entsteht ein Wasserschatten. Das ist eine Stelle, an die kein Wasser kommt. Dann wird nicht alles sauber. Bei klappbaren Tassenhaltern stellst du die oberen Tassen versetzt zu den unteren.\n\nAlles steht sicher, aber schräg, damit das Wasser ablaufen kann. Die Öffnung zeigt nach unten.\n\nLöffel und Gabeln stellst du ungeordnet mit den Griffen nach unten in den Besteckkorb. So liegen sie nicht ineinander, und das Wasser kommt überall hin. Spitze Messer sind die Ausnahme: Sie stehen mit der Spitze nach unten, damit sich niemand schneidet. Lange Besteckteile wie Schöpfkellen legst du in den oberen Korb. Prüfe, dass sie nicht verrutschen und den Sprüharm nicht behindern.\n\nNach dem Spülen lässt du heißes Geschirr erst abkühlen. Heiß ist es stoßempfindlicher. Du räumst den unteren Korb zuerst aus. Dann tropft kein Wasser von oben auf das Geschirr. Mit einem sauberen Geschirrtuch wischst du Wasser von Besteck, Kunststoffteilen und den Rundungen am Tassenboden.\n\nMERKE: Nichts ineinanderstellen, sonst gibt es Wasserschatten. Heißes Geschirr erst abkühlen lassen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Was entfernst du vor dem Einräumen vom Geschirr?",
+        "options": [
+          { "text": "Speisereste, Servietten, Knochen, Kerne und Zahnstocher.", "correct": true },
+          { "text": "Nur die großen Knochen, den Rest schafft die Maschine locker." },
+          { "text": "Gar nichts, dafür hat die Maschine ja unten ihr Sieb." }
+        ],
+        "explanation": "Du räumst das Geschirr sorgfältig von Hand vorab. Alles, was nicht ins Spülwasser gehört, kommt weg: Reste, Servietten, Knochen, Kerne und Zahnstocher. Gut geht das mit einem Gummiteigschaber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Spülst du das Geschirr vor dem Einräumen mit Wasser ab?",
+        "options": [
+          { "text": "Nein, das ist aus Umweltschutzgründen nicht sinnvoll.", "correct": true },
+          { "text": "Ja, jedes einzelne Teil gründlich unter fließendem Wasser." },
+          { "text": "Ja, aber immer nur mit sehr heißem Wasser." }
+        ],
+        "explanation": "Vorspülen mit Wasser verschwendet Wasser und Energie. Es reicht, die Reste von Hand abzuräumen. Den Rest macht die Maschine."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Oberer oder unterer Korb? Sortiere.",
+        "buckets": [
+          { "id": "oben", "label": "Oberer Korb", "icon": "🔼" },
+          { "id": "unten", "label": "Unterer Korb", "icon": "🔽" }
+        ],
+        "items": [
+          { "text": "Weingläser", "bucket": "oben" },
+          { "text": "Leichte Schüssel aus Kunststoff", "bucket": "oben" },
+          { "text": "Leicht verschmutzte Tassen", "bucket": "oben" },
+          { "text": "Lange Schöpfkelle", "bucket": "oben" },
+          { "text": "Großer Kochtopf", "bucket": "unten" },
+          { "text": "Stark verschmutzte Teller", "bucket": "unten" },
+          { "text": "Auflaufform mit festen Resten", "bucket": "unten" }
+        ],
+        "explanation": "Frag dich: Ist das Teil leicht und empfindlich oder nur leicht schmutzig? Dann kommt es nach oben. Auch lange Besteckteile liegen oben. Ist es schwer oder stark verschmutzt? Dann kommt es nach unten, denn dort ist der Wasserdruck stärker."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌓 Was ist ein Wasserschatten in der Spülmaschine?",
+        "options": [
+          { "text": "Eine Stelle ohne Wasser, weil Geschirr ineinandersteht.", "correct": true },
+          { "text": "Ein grauer Fleck, der nach dem Trocknen am Glas bleibt." },
+          { "text": "Ein dunkler Streifen unten am Boden der Maschine." }
+        ],
+        "explanation": "Stellst du Teile ineinander, verdecken sie sich. Dorthin kommt kein Wasser. Das nennt man Wasserschatten. Dann wird nicht alles sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Die Tassenhalterung ist klappbar. Wie stellst du die oberen Tassen?",
+        "options": [
+          { "text": "Versetzt zu den unteren Tassen.", "correct": true },
+          { "text": "Genau über die unteren Tassen darunter." },
+          { "text": "In die unteren Tassen hinein." }
+        ],
+        "explanation": "Stehen die Tassen versetzt, verdecken sie sich nicht. So entsteht kein Wasserschatten, und jede Tasse wird sauber."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Wie stellst du Schüsseln und Becher in den Korb?",
+        "options": [
+          { "text": "Sicher, aber schräg, die Öffnung nach unten.", "correct": true },
+          { "text": "Ganz gerade, die Öffnung nach oben." },
+          { "text": "Liegend, die Öffnung zur Seite gedreht, damit alles hält." }
+        ],
+        "explanation": "Schräg und mit der Öffnung nach unten kann das Wasser ablaufen. Zeigt die Öffnung nach oben, bleibt Wasser darin stehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Wie kommen Löffel und Gabeln in den Besteckkorb?",
+        "options": [
+          { "text": "Ungeordnet, mit den Griffen nach unten.", "correct": true },
+          { "text": "Sortiert und eng ineinander, Griffe nach oben." },
+          { "text": "Alle flach hingelegt, damit sie nicht umfallen." }
+        ],
+        "explanation": "Ungeordnet liegen Löffel und Gabeln nicht ineinander. So kommt das Spülwasser überall hin. Die Griffe zeigen nach unten. Nur spitze Messer stehen zur Sicherheit mit der Spitze nach unten."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🤔 Warum machst du das? Verbinde die Regel mit dem Grund.",
+        "pairs": [
+          { "left": {"text": "🍅 Ketchup vor dem Spülen abnehmen"}, "right": {"text": "Kunststoffe nehmen sonst die Farbe an"} },
+          { "left": {"text": "🥂 Gläser dürfen sich nicht berühren"}, "right": {"text": "Sonst Bruch und Wasserflecken"} },
+          { "left": {"text": "🔥 Heißes Geschirr erst abkühlen lassen"}, "right": {"text": "Heiß ist es stoßempfindlicher"} }
+        ],
+        "explanation": "Hinter jeder Regel steckt ein Grund. Färbende Reste verfärben Kunststoff. Gläser, die aneinanderstoßen, gehen kaputt und bekommen Flecken. Heißes Geschirr zerbricht schneller. Nach dem Abkühlen räumst du den unteren Korb zuerst aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Beim Ausräumen hängen noch Wassertropfen am Besteck und am Tassenboden. Womit wischst du sie ab?",
+        "options": [
+          { "text": "Mit einem sauberen Geschirrtuch.", "correct": true },
+          { "text": "Mit dem Wischtuch vom Boden." },
+          { "text": "Mit dem benutzten Spüllappen aus der Spüle." }
+        ],
+        "explanation": "Für sauberes Geschirr nimmst du ein sauberes Geschirrtuch. Damit wischst du Wasser von Besteck, Kunststoffteilen und den Rundungen am Tassenboden."
+      }
+    }
+  ]
+}

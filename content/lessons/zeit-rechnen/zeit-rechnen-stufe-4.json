@@ -1,0 +1,126 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-stufe-4",
+  "title": "Stufe 4: Verspätung und Wartezeit",
+  "sort": 5,
+  "intro": "Züge und Busse sind nicht immer pünktlich. Verspätung heißt: Der Zug kommt später als geplant.\n\nHat der Zug Verspätung, rechnest du plus. Planmäßig 7:52 Uhr + 14 Minuten Verspätung = 8:06 Uhr.\n\nEine Wartezeit unterwegs zählt wie eine Pause. Du rechnest sie zur Fahrzeit dazu.\n\nAchtung bei dieser Frage: Wann wäre der Zug pünktlich gewesen? Dann nimmst du die Verspätung wieder weg. Du rechnest also minus.\n\nMERKE: Verspätung oder Wartezeit: plus. Pünktliche Zeit gesucht: minus.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚌 Der Bus soll um 7:52 Uhr kommen. Er hat 14 Minuten Verspätung. Wann kommt er wirklich?",
+        "answer": 806,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 7:52 Uhr → 8:00 Uhr sind 8 Minuten.\n14 − 8 = 6 Minuten bleiben übrig.\n8:00 Uhr + 6 Minuten = ?",
+        "explanation": "7:52 Uhr + 14 Minuten = 8:06 Uhr. Brücke: erst 8 Minuten bis 8:00 Uhr, dann noch 6 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Der Zug fährt um 14:52 Uhr. Er wartet unterwegs 12 Minuten. Die eigentliche Fahrzeit beträgt 39 Minuten. Wann kommt er an?",
+        "answer": 1543,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 12 + 39 = 51 Minuten.\nBis zur vollen Stunde: 14:52 Uhr → 15:00 Uhr sind 8 Minuten.\n51 − 8 = 43 Minuten bleiben übrig.\n15:00 Uhr + 43 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 12 + 39 = 51 Minuten. 14:52 Uhr + 51 Minuten = 15:43 Uhr. Brücke: erst 8 Minuten bis 15:00 Uhr, dann noch 43 Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚆 Der Zug kommt um 9:17 Uhr an. Er hatte 21 Minuten Verspätung. Wie rechnest du aus, wann er pünktlich gewesen wäre?",
+        "options": [
+          {
+            "text": "9:17 Uhr − 21 Minuten",
+            "correct": true
+          },
+          {
+            "text": "9:17 Uhr + 21 Minuten"
+          },
+          {
+            "text": "21 Minuten − 17 Minuten"
+          }
+        ],
+        "explanation": "Mit Verspätung kommt der Zug später an. Pünktlich wäre er also früher gewesen. Darum nimmst du die 21 Minuten weg: 9:17 Uhr − 21 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Der Zug kommt um 9:17 Uhr an. Er hatte 21 Minuten Verspätung. Wann wäre er pünktlich angekommen?",
+        "answer": 856,
+        "format": "uhrzeit",
+        "hint": "Zurück bis zur vollen Stunde: 9:17 Uhr → 9:00 Uhr sind 17 Minuten.\n21 − 17 = 4 Minuten musst du noch zurück.\nEine Stunde zurück ist 8:00 Uhr.\nDie Minuten nach 8 Uhr: 60 − 4 = ?",
+        "explanation": "Pünktlich wäre er 21 Minuten früher gewesen. 9:17 Uhr − 21 Minuten = 8:56 Uhr. Brücke rückwärts: erst 17 Minuten zurück bis 9:00 Uhr, dann noch 4 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Dein Zug soll um 16:38 Uhr ankommen. Er hat 27 Minuten Verspätung. Wann kommt er an?",
+        "answer": 1705,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 16:38 Uhr → 17:00 Uhr sind 22 Minuten.\n27 − 22 = 5 Minuten bleiben übrig.\n17:00 Uhr + 5 Minuten = ?",
+        "explanation": "16:38 Uhr + 27 Minuten = 17:05 Uhr. Brücke: erst 22 Minuten bis 17:00 Uhr, dann noch 5 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Der Zug fährt um 11:46 Uhr ab. Unterwegs wartet er 8 Minuten. Die eigentliche Fahrzeit ist 45 Minuten. Wann kommt er an?",
+        "answer": 1239,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 8 + 45 = 53 Minuten.\nBis zur vollen Stunde: 11:46 Uhr → 12:00 Uhr sind 14 Minuten.\n53 − 14 = 39 Minuten bleiben übrig.\n12:00 Uhr + 39 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 8 + 45 = 53 Minuten. 11:46 Uhr + 53 Minuten = 12:39 Uhr. Brücke: erst 14 Minuten bis 12:00 Uhr, dann noch 39 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚌 Der Bus hätte um 13:05 Uhr kommen sollen. Er kommt um 13:22 Uhr. Wie viele Minuten Verspätung hat er?",
+        "answer": 17,
+        "hint": "Die Stunde bleibt gleich. Rechne nur die Minuten: 22 − 5 = ?",
+        "explanation": "Von 13:05 Uhr bis 13:22 Uhr sind es 17 Minuten. Die Stunde bleibt gleich, du ziehst nur die Minuten ab."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Der Zug kommt um 18:04 Uhr an. Er hatte 16 Minuten Verspätung. Wann wäre er pünktlich angekommen?",
+        "answer": 1748,
+        "format": "uhrzeit",
+        "hint": "Zurück bis zur vollen Stunde: 18:04 Uhr → 18:00 Uhr sind 4 Minuten.\n16 − 4 = 12 Minuten musst du noch zurück.\nEine Stunde zurück ist 17:00 Uhr.\nDie Minuten nach 17 Uhr: 60 − 12 = ?",
+        "explanation": "Pünktlich wäre er 16 Minuten früher gewesen. 18:04 Uhr − 16 Minuten = 17:48 Uhr. Brücke rückwärts: erst 4 Minuten zurück bis 18:00 Uhr, dann noch 12 Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚆 Der Zug fährt um 6:49 Uhr ab. Er wartet unterwegs 15 Minuten. Die Fahrzeit ist 37 Minuten. Wann kommt er an?",
+        "options": [
+          {
+            "text": "7:41 Uhr",
+            "correct": true
+          },
+          {
+            "text": "7:26 Uhr"
+          },
+          {
+            "text": "7:51 Uhr"
+          }
+        ],
+        "explanation": "Fahrzeit und Wartezeit zusammen: 37 + 15 = 52 Minuten. 6:49 Uhr + 52 Minuten = 7:41 Uhr. Brücke: erst 11 Minuten bis 7:00 Uhr, dann noch 41 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚌 Der Bus soll um 8:10 Uhr kommen. Er hat 5 Minuten Verspätung. Wann kommt er?",
+        "answer": 815,
+        "format": "uhrzeit",
+        "hint": "Die Stunde bleibt gleich. Rechne nur die Minuten: 10 + 5 = ?",
+        "explanation": "8:10 Uhr + 5 Minuten = 8:15 Uhr. Die Stunde bleibt gleich, du rechnest nur die Minuten dazu."
+      }
+    }
+  ]
+}

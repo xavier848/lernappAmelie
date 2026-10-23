@@ -1,0 +1,137 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-stufe-3",
+  "title": "Stufe 3: Mit Pause",
+  "sort": 4,
+  "intro": "Eine Pause zählt auch zur Zeit! Auch wenn du nichts tust, läuft die Uhr weiter.\n\nZum Beispiel beim Ausreiten: Du reitest um 15:48 Uhr los. Nach 27 Minuten macht ihr 8 Minuten Pause. Danach reitet ihr noch 34 Minuten.\n\nZähle alles zusammen: 27 + 8 + 34 = 69 Minuten. 69 Minuten sind 1 Stunde und 9 Minuten.\n\n15:48 Uhr + 1 Stunde = 16:48 Uhr. Dann noch 9 Minuten: Ihr seid um 16:57 Uhr wieder am Stall.\n\nMERKE: Pausen immer mitzählen: Arbeit + Pause + Arbeit.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Du reitest 27 Minuten. Dann macht ihr 8 Minuten Pause. Danach reitet ihr noch 34 Minuten. Wie viele Minuten seid ihr insgesamt unterwegs?",
+        "answer": 69,
+        "hint": "Zähle alle drei Zeiten zusammen:\n27 + 8 = 35\n35 + 34 = ?",
+        "explanation": "27 + 8 + 34 = 69 Minuten. Die Pause gehört dazu, denn die Uhr läuft weiter."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Du reitest um 15:48 Uhr los. Nach 27 Minuten macht ihr 8 Minuten Pause. Danach reitet ihr noch 34 Minuten. Wann seid ihr wieder am Stall?",
+        "answer": 1657,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 27 + 8 + 34 = 69 Minuten.\n69 Minuten sind 1 Stunde und 9 Minuten.\n15:48 Uhr + 1 Stunde = 16:48 Uhr\nDie Stunde bleibt gleich. Rechne nur die Minuten: 48 + 9 = ?",
+        "explanation": "Alle Minuten zusammen: 27 + 8 + 34 = 69 Minuten. 69 Minuten sind 1 Stunde und 9 Minuten. 15:48 Uhr + 1 Stunde = 16:48 Uhr. Dann noch 9 Minuten dazu: 16:57 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Start: 9:37 Uhr. Reiten: 41 Minuten. Pause: 11 Minuten. Reiten: 26 Minuten. Wann seid ihr zurück?",
+        "answer": 1055,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 41 + 11 + 26 = 78 Minuten.\n78 Minuten sind 1 Stunde und 18 Minuten.\n9:37 Uhr + 1 Stunde = 10:37 Uhr\nDie Stunde bleibt gleich. Rechne nur die Minuten: 37 + 18 = ?",
+        "explanation": "Alle Minuten zusammen: 41 + 11 + 26 = 78 Minuten. 78 Minuten sind 1 Stunde und 18 Minuten. 9:37 Uhr + 1 Stunde = 10:37 Uhr. Dann noch 18 Minuten dazu: 10:55 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧺 Du startest um 10:38 Uhr mit Putzen. Bad: 19 Minuten. Pause: 7 Minuten. Wohnzimmer: 26 Minuten. Wann bist du fertig?",
+        "answer": 1130,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 19 + 7 + 26 = 52 Minuten.\nBis zur vollen Stunde: 10:38 Uhr → 11:00 Uhr sind 22 Minuten.\n52 − 22 = 30 Minuten bleiben übrig.\n11:00 Uhr + 30 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 19 + 7 + 26 = 52 Minuten. 10:38 Uhr + 52 Minuten = 11:30 Uhr. Brücke: erst 22 Minuten bis 11:00 Uhr, dann noch 30 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚶 Start: 16:27 Uhr. Laufen: 18 Minuten. Pause: 9 Minuten. Laufen: 24 Minuten. Wann bist du wieder zu Hause?",
+        "answer": 1718,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 18 + 9 + 24 = 51 Minuten.\nBis zur vollen Stunde: 16:27 Uhr → 17:00 Uhr sind 33 Minuten.\n51 − 33 = 18 Minuten bleiben übrig.\n17:00 Uhr + 18 Minuten = ?",
+        "explanation": "Alle Minuten zusammen: 18 + 9 + 24 = 51 Minuten. 16:27 Uhr + 51 Minuten = 17:18 Uhr. Brücke: erst 33 Minuten bis 17:00 Uhr, dann noch 18 Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Lena rechnet beim Ausreiten nur die Reitzeit: 27 + 34 Minuten. Die 8 Minuten Pause lässt sie weg. Was passiert?",
+        "options": [
+          {
+            "text": "Sie denkt, sie ist um 16:49 Uhr am Stall. Wirklich ist sie erst um 16:57 Uhr da.",
+            "correct": true
+          },
+          {
+            "text": "Sie ist wirklich schon um 16:49 Uhr am Stall, denn in der Pause reitet sie nicht."
+          },
+          {
+            "text": "Sie denkt, sie ist um 16:57 Uhr am Stall. Wirklich ist sie schon um 16:49 Uhr da."
+          }
+        ],
+        "explanation": "In der Pause läuft die Uhr weiter. Wer die Pause vergisst, rechnet eine zu frühe Uhrzeit aus. 15:48 Uhr + 69 Minuten = 16:57 Uhr. Ohne Pause wären es nur 61 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏠 Du beginnst um 10:05 Uhr in der Ferienwohnung. Du putzt 48 Minuten. Dann machst du 15 Minuten Pause. Danach beziehst du 22 Minuten lang die Betten. Wann bist du fertig?",
+        "answer": 1130,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 48 + 15 + 22 = 85 Minuten.\n85 Minuten sind 1 Stunde und 25 Minuten.\n10:05 Uhr + 1 Stunde = 11:05 Uhr\nDie Stunde bleibt gleich. Rechne nur die Minuten: 5 + 25 = ?",
+        "explanation": "Alle Minuten zusammen: 48 + 15 + 22 = 85 Minuten. 85 Minuten sind 1 Stunde und 25 Minuten. 10:05 Uhr + 1 Stunde = 11:05 Uhr. Dann noch 25 Minuten dazu: 11:30 Uhr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚶 Start: 14:44 Uhr. Laufen: 26 Minuten. Pause: 12 Minuten. Laufen: 19 Minuten. Wann bist du zurück?",
+        "options": [
+          {
+            "text": "15:41 Uhr",
+            "correct": true
+          },
+          {
+            "text": "15:29 Uhr"
+          },
+          {
+            "text": "15:51 Uhr"
+          }
+        ],
+        "explanation": "Alle Minuten zusammen: 26 + 12 + 19 = 57 Minuten. 14:44 Uhr + 57 Minuten = 15:41 Uhr. Brücke: erst 16 Minuten bis 15:00 Uhr, dann noch 41 Minuten."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🐴 Ausreiten: Start 15:48 Uhr, 27 Minuten reiten, 8 Minuten Pause, 34 Minuten reiten. Bring den Rechenweg in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Alle Zeiten zusammenzählen, auch die Pause: 27 + 8 + 34 = 69 Minuten."
+          },
+          {
+            "text": "Umrechnen: 69 Minuten sind 1 Stunde und 9 Minuten."
+          },
+          {
+            "text": "Die volle Stunde dazuzählen: 15:48 Uhr + 1 Stunde = 16:48 Uhr."
+          },
+          {
+            "text": "Die Minuten dazuzählen: 16:48 Uhr + 9 Minuten = 16:57 Uhr."
+          }
+        ],
+        "explanation": "Sind es mehr als 60 Minuten, rechne zuerst in Stunden und Minuten um. Dann zählst du erst die Stunde und danach die Minuten dazu."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "☕ Du arbeitest ab 9:00 Uhr 50 Minuten lang. Dann machst du 10 Minuten Pause. Wie spät ist es nach der Pause?",
+        "answer": 1000,
+        "format": "uhrzeit",
+        "hint": "Zähle erst alle Minuten zusammen: 50 + 10 = 60 Minuten.\n60 Minuten sind 1 Stunde.\n9:00 Uhr + 1 Stunde = ?",
+        "explanation": "Alle Minuten zusammen: 50 + 10 = 60 Minuten. 60 Minuten sind genau 1 Stunde. 9:00 Uhr + 1 Stunde = 10:00 Uhr."
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-gefriergeraete",
+  "title": "Gefriergeräte",
+  "sort": 592,
+  "intro": "🧊 Als Gefriergeräte gelten Geräte mit einer Temperatur von −18 °C oder kälter. Darin lagerst du Lebensmittel lange in guter Qualität. Frische Lebensmittel frierst du am besten in einem Gerät mit 4 Sternen ein. Ein solches Gerät wird noch deutlich kälter als −18 °C.\n\nMERKE: Das Gefriervermögen ist die Menge frischer Lebensmittel in Kilogramm, die das Gerät in 24 Stunden komplett einfrieren kann.\n\nDas Gefriervermögen steht auf dem Typenschild. Es muss mindestens 4,5 kg pro 100 Liter Nutzinhalt betragen.\n\nBedien- und Kontrollelemente sind von außen einstellbar und sichtbar: Temperaturwähler, Temperaturanzeige und ein Schalter für Dauerbetrieb. Beim Dauerbetrieb ist der Thermostat aus, und das Kühlaggregat läuft ohne Pause. Es werden bis −30 °C möglich. Moderne Geräte schalten nach höchstens 52 Stunden selbst auf Normalbetrieb zurück. Weitere Sonderbetriebsarten sind der Energiesparmodus bei halber Beladung und die Superfrost-Funktion zum Schnellgefrieren.\n\nNo-Frost-Technik: Gefriergeräte mit Umluftkühlung haben eine ständige Luftströmung durch einen Ventilator. Das verhindert Reif und Eis im Gerät und an den Lebensmitteln. Die feuchte Luft wird zum Verdampfer außerhalb des Lagerraums geleitet. Eine Heizung bindet die Feuchtigkeit. Trockene, kalte Luft strömt zurück.\n\nGefrierschränke arbeiten wie Kühlgeräte mit Kompressionskühlung, aber mit einem engeren Rohrsystem. So werden sie kälter. Schubladen in verschiedenen Höhen machen sie praktisch. Ihr Nutzinhalt ist etwa 85 % des Bruttoinhalts. Das ist durch die Bauform etwas weniger als bei der Gefriertruhe.\n\nGefriertruhen sind rechteckig. Ihr Nutzinhalt ist etwa 95 % des Bruttoinhalts. Auch sie arbeiten mit Kompressionskühlung. Der Verdampfer liegt in den Seitenwänden und im Boden. Ein Problem ist die kaum vermeidbare Eisbildung, außer bei Umluftkühlung. Anti-Frost-Systeme helfen: Über einen speziellen Behälter oder eine Trockenpatrone wird die Luft ausgetauscht. So kommt keine feuchte Luft hinein, aus der Eis entsteht.\n\nBei einer Störung, zum Beispiel einem Stromausfall, halten Gefriergeräte eine Zeit lang gute Lagerbedingungen. Die Temperatur darf dabei nicht über −9 °C steigen. Es darf also nicht wärmer als −9 °C werden. −8 °C wäre schon zu warm. In der Gebrauchsanweisung heißt diese Zeit „Lagerzeit bei Störung“. Geräte mit Umluftkühlung sind oft multifunktional: Du kannst sie als Gefrier-, Kühl- oder Klimagerät nutzen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Ab welcher Temperatur gilt ein Gerät als Gefriergerät?",
+        "options": [
+          { "text": "−18 °C und kälter", "correct": true },
+          { "text": "etwa 0 °C und kälter" },
+          { "text": "−9 °C und kälter" },
+          { "text": "+4 °C und kälter" }
+        ],
+        "explanation": "Als Gefriergerät gilt ein Gerät mit −18 °C oder kälter. So bleiben Lebensmittel lange in guter Qualität. +4 °C passt zum Kühlschrank, nicht zum Gefriergerät."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Was ist das Gefriervermögen, und wo steht es?",
+        "options": [
+          { "text": "kg, die in 24 Stunden gefrieren – steht auf dem Typenschild", "correct": true },
+          { "text": "Liter im Innenraum – steht innen auf der Tür des ganzen Geräts" },
+          { "text": "Monate Lagerzeit – steht auf der Verpackung der Ware" }
+        ],
+        "explanation": "Das Gefriervermögen ist die Kilogramm-Menge frischer Vorräte, die das Gerät innerhalb von 24 Stunden komplett einfrieren kann. Du findest es auf dem Typenschild."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Ein Gefrierschrank hat 200 Liter Nutzinhalt. Wie viele Kilogramm muss er in 24 Stunden mindestens einfrieren können?",
+        "answer": 9,
+        "hint": "Pro 100 Liter Nutzinhalt mindestens 4,5 kg.\n200 Liter sind 2 × 100 Liter.\n2 × 4,5 = ?",
+        "explanation": "Mindestens 4,5 kg pro 100 Liter Nutzinhalt. Bei 200 Litern sind das 2 × 4,5 kg = 9 kg in 24 Stunden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Was passiert beim Dauerbetrieb?",
+        "options": [
+          { "text": "Der Thermostat ist aus, das Aggregat läuft ohne Pause, bis −30 °C.", "correct": true },
+          { "text": "Das Gerät taut dauerhaft ab, damit sich innen niemals Eis bilden kann." },
+          { "text": "Das Gerät spart dauerhaft Strom, weil es nur halb kühlt." }
+        ],
+        "explanation": "Beim Dauerbetrieb ist der Thermostat außer Betrieb. Das Kühlaggregat läuft ohne Unterbrechung. So sind Temperaturen bis −30 °C möglich."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏲️ Nach höchstens wie vielen Stunden schalten moderne Geräte vom Dauerbetrieb selbst auf Normalbetrieb zurück?",
+        "answer": 52,
+        "hint": "Es sind etwas mehr als zwei Tage. Zwei Tage haben 48 Stunden.",
+        "explanation": "Moderne Geräte schalten nach einem bestimmten Zeitraum, maximal 52 Stunden, automatisch wieder auf Normalbetrieb."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🎛️ Sonderfunktionen: Was gehört zusammen? Verbinde.",
+        "explanation": "Superfrost friert schnell ein. Der Energiesparmodus passt zur halben Beladung. No-Frost und Anti-Frost kämpfen beide gegen Eis: No-Frost mit einem Ventilator und ständiger Luftströmung, Anti-Frost mit Luftaustausch über eine Trockenpatrone oder einen speziellen Behälter.",
+        "pairs": [
+          { "left": {"text": "⚡ Superfrost"}, "right": {"text": "Schnellgefrieren"} },
+          { "left": {"text": "🌱 Energiesparmodus"}, "right": {"text": "Bei halber Beladung"} },
+          { "left": {"text": "🌬️ No-Frost-Technik"}, "right": {"text": "Ventilator mit ständiger Luftströmung"} },
+          { "left": {"text": "🧂 Anti-Frost-System"}, "right": {"text": "Trockenpatrone oder spezieller Behälter"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💨 Wie verhindert die No-Frost-Technik Eis im Gefrierschrank?",
+        "options": [
+          { "text": "Feuchte Luft geht zum Verdampfer außerhalb, trockene kalte Luft kommt zurück.", "correct": true },
+          { "text": "Das Gerät heizt jede Nacht den ganzen Innenraum auf und taut dabei alles ganz ab." },
+          { "text": "Das Gerät schaltet sich regelmäßig ab, damit das Eis schmilzt." }
+        ],
+        "explanation": "Ein Ventilator sorgt für eine ständige Luftströmung. Die feuchte Luft wird zum Verdampfer außerhalb des Lagerraums geleitet. Eine Heizung bindet die Feuchtigkeit. Zurück kommt trockene, kalte Luft."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧊 Gefrierschrank oder Gefriertruhe? Sortiere.",
+        "explanation": "Frag dich: Hat es Schubladen übereinander? Dann ist es ein Gefrierschrank, mit etwa 85 % Nutzinhalt. Ist es eine rechteckige Kiste mit Verdampfer in Wänden und Boden? Dann ist es eine Truhe, mit etwa 95 % Nutzinhalt.",
+        "buckets": [
+          { "id": "schrank", "label": "Gefrierschrank", "icon": "🗄️" },
+          { "id": "truhe", "label": "Gefriertruhe", "icon": "📦" }
+        ],
+        "items": [
+          { "text": "Nutzinhalt etwa 85 %", "bucket": "schrank" },
+          { "text": "Schubladen in verschiedenen Höhen", "bucket": "schrank" },
+          { "text": "Nutzinhalt etwa 95 %", "bucket": "truhe" },
+          { "text": "Rechteckige Form mit Deckel oben", "bucket": "truhe" },
+          { "text": "Verdampfer in Seitenwänden und Boden", "bucket": "truhe" },
+          { "text": "Eisbildung kaum vermeidbar", "bucket": "truhe" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔌 Stromausfall! Wie warm darf es im Gefriergerät höchstens werden?",
+        "options": [
+          { "text": "−9 °C", "correct": true },
+          { "text": "−18 °C" },
+          { "text": "0 °C" },
+          { "text": "+4 °C" }
+        ],
+        "explanation": "Bei einer Störung darf es im Gefriergerät nicht wärmer als −9 °C werden. −8 °C wäre also schon zu warm. Bis −9 °C sind die Lagerbedingungen noch in Ordnung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📖 Wie heißt in der Gebrauchsanweisung die Zeit, die das Gerät bei Stromausfall sicher kalt bleibt?",
+        "options": [
+          { "text": "Lagerzeit bei Störung", "correct": true },
+          { "text": "Gefriervermögen" },
+          { "text": "Abtauzeit bei Stromausfall" }
+        ],
+        "explanation": "Diese Angabe heißt „Lagerzeit bei Störung“. Sie sagt dir, wie lange die Lebensmittel bei einem Stromausfall sicher bleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Warum wird ein Gefrierschrank kälter als ein Kühlschrank?",
+        "options": [
+          { "text": "Er hat ein engeres Rohrsystem.", "correct": true },
+          { "text": "Er arbeitet mit einem Kocher und Ammoniak." },
+          { "text": "Er hat eine dickere Tür aus Edelstahl." }
+        ],
+        "explanation": "Gefrierschränke arbeiten wie Kühlgeräte mit Kompressionskühlung. Ihr Rohrsystem ist aber enger. Das erzeugt tiefere Temperaturen. Kocher und Ammoniak gehören zur Absorberkühlung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Geräte mit Umluftkühlung sind oft multifunktional. Was heißt das?",
+        "options": [
+          { "text": "Man kann sie als Gefrier-, Kühl- oder Klimagerät nutzen.", "correct": true },
+          { "text": "Man kann in ihnen auch warme Speisen kochen und backen." },
+          { "text": "Sie laufen auch bei Stromausfall ganz ohne Strom einfach weiter." }
+        ],
+        "explanation": "Multifunktional heißt: Ein Gerät hat mehrere Aufgaben. Umluftgeräte kannst du oft als Gefrier-, Kühl- oder Klimagerät einsetzen."
+      }
+    }
+  ]
+}

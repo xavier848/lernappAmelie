@@ -1,0 +1,151 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-ph-wert",
+  "title": "Der pH-Wert von Reinigern",
+  "sort": 646,
+  "intro": "Der pH-Wert zeigt, wie sauer, neutral oder alkalisch eine Lösung ist. Alkalisch heißt auch basisch. Man misst den pH-Wert auf einer Skala von 0 bis 14.\n\nJe niedriger der Wert, desto saurer ist die Lösung. Die 0 ist extrem sauer. Die 7 ist neutral. Je höher der Wert, desto alkalischer ist die Lösung. Die 14 ist extrem basisch.\n\nDer pH-Wert zeigt dir, wofür ein Reinigungsmittel gut ist. Denn manche Verschmutzungen lassen sich nur bei einem bestimmten pH-Wert entfernen. Säuren lösen zum Beispiel Kalk. Alkalische Mittel heißen auch Laugen. Sie lösen zum Beispiel Fett.\n\nBeispiele von sauer bis neutral, ungefähr: Konzentrierte Salzsäure liegt bei 0 bis 1. Sanitärreiniger und Entkalkungsmittel liegen bei 1 bis 2. Rostentferner liegt bei 2 bis 3. Speiseessig liegt bei 3. Mineralwasser liegt bei 5. Reines, destilliertes Wasser und Neutralreiniger liegen bei 7.\n\nLeitungswasser liegt knapp über 7, bei 7,5 bis 8. Allzweckreiniger liegt bei 8,5. Grundreiniger für Linoleum-, Kautschuk- und Gummiböden liegen bei 9 bis 10. Grundreiniger für PVC liegt bei 10,5.\n\nStarke Grundreiniger und Seifenreiniger liegen bei 11 bis 12. Schmierseife und Industriereiniger liegen bei 12,5. Grillreiniger, Schmierseife und Rohrreiniger liegen bei 13 bis 14.\n\nMERKE: Unter 7 = sauer. 7 = neutral. Über 7 = alkalisch. Je höher der pH-Wert, desto alkalischer die Lösung.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Was gibt der pH-Wert an, und wie weit geht die Skala?",
+        "options": [
+          { "text": "Wie sauer, neutral oder alkalisch eine Lösung ist. Skala 0 bis 14.", "correct": true },
+          { "text": "Wie heiß eine Reinigungslösung gerade ist. Skala von 0 bis 100 Grad." },
+          { "text": "Wie viel Kalk im Leitungswasser steckt. Skala von 1 bis 10." }
+        ],
+        "explanation": "Der pH-Wert ist eine Kenngröße für sauer, neutral und alkalisch. Er wird auf einer Skala von 0 bis 14 angegeben. Für Temperatur nimmst du ein Thermometer, für Kalk die Wasserhärte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Was gilt auf der pH-Skala?",
+        "options": [
+          { "text": "Je höher der Wert, desto alkalischer.", "correct": true },
+          { "text": "Je höher der Wert, desto saurer." },
+          { "text": "Je höher der Wert, desto neutraler." }
+        ],
+        "explanation": "Die Skala beginnt bei 0 mit extrem sauer. Bei 7 ist die Lösung neutral. Bis 14 wird sie immer alkalischer, also basischer."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💧 Welchen pH-Wert hat eine neutrale Lösung, zum Beispiel reines, destilliertes Wasser?",
+        "answer": 7,
+        "hint": "Neutral liegt genau in der Mitte der Skala.\nDie Skala geht von 0 bis 14.",
+        "explanation": "Neutral ist der pH-Wert 7, genau in der Mitte von 0 und 14. Auch Neutralreiniger liegt bei 7."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧴 Sauer, neutral oder alkalisch? Sortiere.",
+        "buckets": [
+          { "id": "sauer", "label": "Sauer (unter 7)", "icon": "🍋" },
+          { "id": "neutral", "label": "Neutral (7)", "icon": "⚖️" },
+          { "id": "alk", "label": "Alkalisch (über 7)", "icon": "🧼" }
+        ],
+        "items": [
+          { "text": "Rostentferner", "bucket": "sauer" },
+          { "text": "Speiseessig", "bucket": "sauer" },
+          { "text": "Sanitärreiniger", "bucket": "sauer" },
+          { "text": "Destilliertes Wasser", "bucket": "neutral" },
+          { "text": "Neutralreiniger", "bucket": "neutral" },
+          { "text": "Schmierseife", "bucket": "alk" },
+          { "text": "Seifenreiniger", "bucket": "alk" },
+          { "text": "Starker Grundreiniger", "bucket": "alk" }
+        ],
+        "explanation": "Mittel gegen Kalk und Rost sind sauer. Das Wort neutral steckt schon im Neutralreiniger. Seifen und Grundreiniger sind alkalisch."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📊 Ordne von extrem sauer bis extrem alkalisch.",
+        "steps": [
+          { "text": "Konzentrierte Salzsäure" },
+          { "text": "Entkalkungsmittel" },
+          { "text": "Mineralwasser" },
+          { "text": "Neutralreiniger" },
+          { "text": "Grundreiniger für PVC" },
+          { "text": "Rohrreiniger" }
+        ],
+        "explanation": "Salzsäure ist fast bei 0, Entkalkungsmittel bei 1 bis 2, Mineralwasser bei 5. Neutralreiniger liegt genau bei 7. Grundreiniger für PVC liegt bei 10,5 und Rohrreiniger ganz oben bei 13 bis 14."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Wo liegt der Allzweckreiniger auf der pH-Skala?",
+        "options": [
+          { "text": "Leicht alkalisch, bei etwa 8,5.", "correct": true },
+          { "text": "Stark sauer, bei etwa 1 bis 2, wie ein Entkalker." },
+          { "text": "Genau neutral, bei 7." }
+        ],
+        "explanation": "Der Allzweckreiniger liegt knapp über der Mitte, bei etwa 8,5. Er ist also leicht alkalisch. Genau bei 7 liegt der Neutralreiniger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Wo liegt normales Leitungswasser ungefähr?",
+        "options": [
+          { "text": "Knapp über 7, bei etwa 7,5 bis 8.", "correct": true },
+          { "text": "Genau bei 7, wie destilliertes Wasser." },
+          { "text": "Bei etwa 3, genauso wie Speiseessig." }
+        ],
+        "explanation": "Leitungswasser liegt knapp über dem neutralen Punkt, bei etwa 7,5 bis 8. Es ist also ganz leicht alkalisch. Nur reines, destilliertes Wasser liegt genau bei 7."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Warum ist der pH-Wert wichtig, wenn du ein Reinigungsmittel auswählst?",
+        "options": [
+          { "text": "Manche Verschmutzungen gehen nur bei einem bestimmten pH-Wert weg.", "correct": true },
+          { "text": "Der pH-Wert zeigt, wie teuer ein Reinigungsmittel im Einkauf wirklich ist." },
+          { "text": "Der pH-Wert zeigt, wie angenehm ein Reinigungsmittel duftet." }
+        ],
+        "explanation": "Der pH-Wert sagt etwas über den Einsatzbereich eines Mittels. Kalk geht zum Beispiel mit sauren Mitteln weg, Fett mit alkalischen Mitteln. Preis und Duft haben damit nichts zu tun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Die Armatur im Bad hat Kalkflecken. Welche Art Reiniger hilft?",
+        "options": [
+          { "text": "Ein saurer Reiniger.", "correct": true },
+          { "text": "Ein alkalischer Reiniger." },
+          { "text": "Ein neutraler Reiniger." }
+        ],
+        "explanation": "Säuren lösen Kalk. Darum sind Sanitärreiniger und Entkalkungsmittel sauer. Ein alkalisches oder neutrales Mittel löst den Kalk nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Der Grillrost ist voller eingebranntem Fett. Welche Art Reiniger hilft?",
+        "options": [
+          { "text": "Ein stark alkalischer Reiniger.", "correct": true },
+          { "text": "Ein stark saurer Reiniger." },
+          { "text": "Destilliertes, neutrales Wasser." }
+        ],
+        "explanation": "Alkalische Mittel, auch Laugen genannt, lösen Fett. Darum liegt Grillreiniger bei pH 13 bis 14. Säure hilft gegen Kalk, nicht gegen Fett."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍋 Welcher Wert auf der pH-Skala ist extrem sauer?",
+        "options": [
+          { "text": "Die 0.", "correct": true },
+          { "text": "Die 7." },
+          { "text": "Die 14." }
+        ],
+        "explanation": "Die 0 ist extrem sauer, die 7 neutral und die 14 extrem basisch."
+      }
+    }
+  ]
+}

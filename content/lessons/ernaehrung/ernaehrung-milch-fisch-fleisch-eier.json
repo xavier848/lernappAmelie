@@ -1,0 +1,146 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-milch-fisch-fleisch-eier",
+  "title": "Milch, Fisch, Fleisch und Eier",
+  "sort": 587,
+  "intro": "🥛 Milch, Milchprodukte, Fisch, Fleisch, Wurst und Eier haben mehr Eiweiß als pflanzliche Lebensmittel. Sie haben auch mehr lebensnotwendige Aminosäuren. Dazu liefern sie weitere wichtige Nährstoffe: Calcium in der Milch, Jod im Seefisch und Omega-3-Fettsäuren in fettem Seefisch. Fleisch liefert Eisen. Dieses Eisen nimmt der Körper besser auf als Eisen aus Gemüse. Fleisch liefert außerdem Vitamin B12 und andere B-Vitamine.\n\nMilch und Milchprodukte isst du am besten mehrmals am Tag. Das ist besser für die Aufnahme von Calcium als eine große Portion auf einmal. Achte dabei auf den Fettgehalt.\n\nManche mögen keine Milch, man nennt sie „Milchmuffel“. Andere vertragen den Milchzucker nicht. Dann kannst du Milch verstecken, zum Beispiel in Desserts, Suppen, Soßen, Aufläufen oder Pfannkuchen. In lactosefreier Milch ist der Milchzucker (Lactose) schon in Einfachzucker aufgespalten. Alle Käsesorten, die gereift sind, sind praktisch lactosefrei.\n\nPro Woche isst du mindestens eine Portion Seefisch. Von Fleisch und von Wurst reichen jeweils 2 bis 3 Portionen pro Woche. Achte auf den Fettgehalt. Die kohlenhydrathaltige Beilage ist immer der größere Teil auf dem Teller.\n\nAuch pflanzliche Lebensmittel ergeben zusammen vollständige Mahlzeiten. Zum Beispiel Gemüse mit Kartoffeln oder Getreide. Oder Hülsenfrüchte mit Getreide.\n\nEier sind vielseitig. Iss aber nur 2 bis 3 Eier pro Woche. Dazu zählen auch die Eier, die in Kuchen, Nudeln oder anderen Speisen verarbeitet sind.\n\nMERKE: Pro Woche mindestens 1 Portion Seefisch, 2 bis 3 Portionen Fleisch, 2 bis 3 Portionen Wurst und 2 bis 3 Eier.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Was ist das Besondere am Eisen aus Fleisch?",
+        "options": [
+          { "text": "Der Körper nimmt es besser auf als Eisen aus Gemüse.", "correct": true },
+          { "text": "Es ist viel giftiger als das Eisen aus Gemüse und Obst." },
+          { "text": "Es geht beim Kochen und Braten komplett verloren." }
+        ],
+        "explanation": "Fleisch liefert Eisen, das der Körper besser resorbiert als Eisen aus Gemüse. Außerdem liefert Fleisch Vitamin B12 und andere B-Vitamine."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welcher wichtige Nährstoff steckt besonders worin? Verbinde.",
+        "explanation": "Frag dich: Wofür ist das Lebensmittel bekannt? Milch liefert Calcium. Fleisch liefert gut verwertbares Eisen und Vitamin B12. Fetter Seefisch liefert Omega-3-Fettsäuren.",
+        "pairs": [
+          { "left": {"text": "🥛 Milch"}, "right": {"text": "Calcium"} },
+          { "left": {"text": "🥩 Fleisch"}, "right": {"text": "Eisen und Vitamin B12"} },
+          { "left": {"text": "🐟 Fetter Seefisch"}, "right": {"text": "Omega-3-Fettsäuren"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧂 Welches Lebensmittel liefert viel Jod?",
+        "options": [
+          { "text": "Seefisch, zum Beispiel Seelachs", "correct": true },
+          { "text": "Rindfleisch, zum Beispiel Gulasch" },
+          { "text": "Hülsenfrüchte, zum Beispiel Linsen" }
+        ],
+        "explanation": "Seefisch liefert Jod, egal ob mager oder fett. Fetter Seefisch liefert zusätzlich Omega-3-Fettsäuren. Fleisch und Hülsenfrüchte sind keine guten Jod-Lieferanten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Wie isst du Milchprodukte, damit der Körper viel Calcium aufnimmt?",
+        "options": [
+          { "text": "Mehrmals am Tag kleinere Mengen", "correct": true },
+          { "text": "Einmal am Tag eine große Portion" },
+          { "text": "Nur abends vor dem Schlafengehen" }
+        ],
+        "explanation": "Milch und Milchprodukte mehrmals am Tag wirken günstiger auf die Calciumresorption als eine große Portion auf einmal."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Deine Freundin verträgt keinen Milchzucker. Welcher Käse ist praktisch lactosefrei?",
+        "options": [
+          { "text": "Käse, der eine Reifung durchlaufen hat", "correct": true },
+          { "text": "Frischkäse aus dem Kühlregal im Laden" },
+          { "text": "Quark mit frischen Kräutern und Salz" }
+        ],
+        "explanation": "Alle Käsesorten, die gereift sind, sind praktisch lactosefrei. Frischkäse und Quark sind nicht gereift. Sie enthalten noch Milchzucker."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Was ist in lactosefreier Milch anders?",
+        "options": [
+          { "text": "Der Milchzucker ist schon in Einfachzucker gespalten.", "correct": true },
+          { "text": "Die Milch enthält jetzt überhaupt keinen Zucker mehr." },
+          { "text": "Der Milchzucker wurde ganz durch Salz ersetzt." }
+        ],
+        "explanation": "Lactose ist der Milchzucker, ein Zweifachzucker. In lactosefreier Milch liegt er schon als Einfachzucker vor. Darum vertragen Menschen mit Milchzuckerunverträglichkeit sie besser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙅 Ein Kind mag keine Milch. Was kannst du tun?",
+        "options": [
+          { "text": "Milch verstecken, z. B. in Pfannkuchen, Soßen oder Aufläufen.", "correct": true },
+          { "text": "Milch ganz weglassen, weil Calcium gar nicht so wichtig ist." },
+          { "text": "Das Kind dazu zwingen, jeden Tag ein großes Glas Milch zu trinken." }
+        ],
+        "explanation": "„Milchmuffel“ lassen sich mit Fantasie überlisten. Milch steckt dann in Desserts, Suppen, Soßen, Aufläufen oder Pfannkuchen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Wie oft pro Woche? Sortiere.",
+        "explanation": "Von Seefisch brauchst du mindestens eine Portion pro Woche. Fleisch, Wurst und Eier begrenzt du dagegen auf 2 bis 3 pro Woche.",
+        "buckets": [
+          { "id": "eins", "label": "Mindestens 1 Portion", "icon": "1️⃣" },
+          { "id": "zwei", "label": "2 bis 3 Portionen", "icon": "2️⃣" }
+        ],
+        "items": [
+          { "text": "Seefisch", "bucket": "eins" },
+          { "text": "Fleisch", "bucket": "zwei" },
+          { "text": "Wurst", "bucket": "zwei" },
+          { "text": "Eier", "bucket": "zwei" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Du isst diese Woche Nudeln mit Ei und ein Stück Rührkuchen. Zählen diese Eier bei der Wochenmenge mit?",
+        "options": [
+          { "text": "Ja, verarbeitete Eier zählen mit.", "correct": true },
+          { "text": "Nein, nur die Frühstückseier zählen." },
+          { "text": "Nein, gebackene Eier zählen nie." }
+        ],
+        "explanation": "Zu den 2 bis 3 Eiern pro Woche gehören auch die Eier, die in Speisen verarbeitet sind, zum Beispiel in Nudeln oder Kuchen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌱 Wie bekommst du auch ohne Fleisch eine vollständige Mahlzeit?",
+        "options": [
+          { "text": "Pflanzliches kombinieren, z. B. Hülsenfrüchte mit Getreide.", "correct": true },
+          { "text": "Nur Obst essen, das liefert doch alle Nährstoffe." },
+          { "text": "Doppelt so viel Weißbrot essen wie an anderen Tagen." }
+        ],
+        "explanation": "Kombinierst du pflanzliche Lebensmittel klug, wird die Mahlzeit vollständig. Beispiele: Gemüse mit Kartoffeln oder Getreide, Hülsenfrüchte mit Getreide."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Auf dem Teller liegen Fleisch und Kartoffeln. Was soll der größere Teil sein?",
+        "options": [
+          { "text": "Die Kartoffeln", "correct": true },
+          { "text": "Das Fleisch" },
+          { "text": "Beides gleich viel" }
+        ],
+        "explanation": "Die kohlenhydrathaltige Beilage, hier die Kartoffeln, ist immer die größere Komponente. Fleisch ergänzt nur."
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-geldwerte-vorteile",
+  "title": "Geldwerte Vorteile beim Einkauf",
+  "sort": 702,
+  "intro": "Ein Preisnachlass kann monetär sein. Monetär heißt: geldlich. Du zahlst weniger Geld, zum Beispiel durch Mengenrabatt oder Skonto. Es gibt aber auch geldwerte Vorteile. Dann zahlst du gleich viel. Aber du bekommst etwas dazu, das Geld wert ist.\n\nGeldwerter Vorteil 1: Die Ware wird kostenlos angeliefert. Das kostet den Verkäufer wenig, wenn er sowieso Kunden in deiner Gegend beliefert.\n\nGeldwerter Vorteil 2: Du bekommst Zusatzware, die nicht berechnet wird. Solche Ware nennt man Naturalien. Zum Beispiel zwei Säcke Kartoffeln zu je 25 kg.\n\nDas kann auch Ware sein, deren Mindesthaltbarkeitsdatum bald abläuft. Der Verkäufer muss sie schnell loswerden. Sonst muss er für die Entsorgung extra bezahlen. Darum lohnt es sich, in der Preisverhandlung gezielt danach zu fragen. Du musst diese Ware dann aber schnell verbrauchen.\n\nOder es ist nicht marktfähige Ware. Sie muss nicht schlecht sein. Sie lässt sich nur schlecht verkaufen. Beispiel: Äpfel mit Apfelschorf. Schorf sind dunkle, raue Flecken auf der Schale. Als Tafelobst sind diese Äpfel ungeeignet. Tafelobst isst man roh und ganz. Der Schorf ist aber nur ein Schönheitsfehler. Geschält sind die Äpfel im Obstsalat hervorragend.\n\nDas Gleiche gilt für Ware, die nicht zu den üblichen Handelsklassen passt. Handelsklassen sind Güteklassen für Obst und Gemüse. Erzeuger liefern solche Ware oft kostenlos mit.\n\nBeim Verhandeln gibt es eine feste Reihenfolge. Zuerst einigt ihr euch über die Qualität, zum Beispiel über die Handelsklasse. Die Ware muss einwandfrei sein. Danach verhandelt ihr den Preis. Am Ende der Preisverhandlung versuchst du, Skonto zu bekommen. Ganz zum Schluss fragst du nach einem geldwerten Vorteil. Klappt das Skonto nicht, bekommst du so oft wenigstens noch einen geldwerten Vorteil.\n\nMERKE: Erst Qualität, dann Preis, dann Skonto, zuletzt geldwerte Vorteile. Geldwerte Vorteile sind kostenlose Anlieferung und Zusatzware (Naturalien), zum Beispiel Ware kurz vor dem MHD oder nicht marktfähige Ware.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Was ist ein geldwerter Vorteil beim Einkauf?",
+        "options": [
+          { "text": "Du zahlst gleich viel, bekommst aber etwas Wertvolles dazu.", "correct": true },
+          { "text": "Du bekommst Geld zurück, weil du schnell bezahlt hast." },
+          { "text": "Du zahlst weniger, weil du eine sehr große Menge kaufst." },
+          { "text": "Du zahlst einen festen Preis, über den niemand verhandelt." }
+        ],
+        "explanation": "Mengenrabatt und Skonto sind monetäre, also geldliche Preisnachlässe. Du zahlst weniger Geld. Ein geldwerter Vorteil ist anders: Du zahlst gleich viel, bekommst aber eine Leistung oder Ware dazu, die Geld wert ist."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Monetärer Preisnachlass oder geldwerter Vorteil? Sortiere.",
+        "buckets": [
+          { "id": "mon", "label": "Monetär: Du zahlst weniger Geld", "icon": "💶" },
+          { "id": "wert", "label": "Geldwert: Du bekommst etwas dazu", "icon": "🎁" }
+        ],
+        "items": [
+          { "text": "2 % Skonto für sofortige Überweisung", "bucket": "mon" },
+          { "text": "Mengenrabatt für 500 kg Kartoffeln", "bucket": "mon" },
+          { "text": "Niedrigerer Preis pro Flasche bei doppelter Menge", "bucket": "mon" },
+          { "text": "Kostenlose Anlieferung der Ware", "bucket": "wert" },
+          { "text": "Zwei Säcke Kartoffeln gratis dazu", "bucket": "wert" },
+          { "text": "Gratis-Joghurt kurz vor dem MHD", "bucket": "wert" },
+          { "text": "Äpfel mit Schorf kostenlos dazu", "bucket": "wert" },
+          { "text": "Möhren außerhalb der Handelsklasse gratis", "bucket": "wert" }
+        ],
+        "explanation": "Frag dich: Zahle ich am Ende weniger Geld? Dann ist es ein monetärer, also geldlicher Preisnachlass. Zahle ich gleich viel, bekomme aber eine Leistung oder Ware dazu? Dann ist es ein geldwerter Vorteil."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚚 Warum gibt ein Lieferant die Anlieferung manchmal kostenlos dazu?",
+        "options": [
+          { "text": "Er fährt sowieso zu Kunden in der Nähe, das kostet ihn wenig.", "correct": true },
+          { "text": "Das Gesetz schreibt eine kostenlose Anlieferung bei Lebensmitteln immer vor." },
+          { "text": "Er spart dadurch die Kosten für die Verpackung der Ware." },
+          { "text": "Er darf die Anlieferung bei Großküchen nicht berechnen." }
+        ],
+        "explanation": "Kostenlose Anlieferung ist ein geldwerter Vorteil. Sie kostet den Verkäufer wenig, wenn er ohnehin Kunden in der Umgebung beliefert. Für dich ist sie aber Geld wert, denn du musst die Ware nicht selbst holen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Der Kartoffelbauer legt dir zwei Säcke Kartoffeln zu je 25 kg dazu. Er berechnet sie nicht. Wie nennt man solche Zusatzware?",
+        "options": [
+          { "text": "Naturalien.", "correct": true },
+          { "text": "Skonto." },
+          { "text": "Mengenrabatt." },
+          { "text": "Festpreis." }
+        ],
+        "explanation": "Nicht berechnete Zusatzware bekommst du in Form von Naturalien, also als Ware statt als Geld. Das ist ein geldwerter Vorteil. Skonto und Mengenrabatt senken dagegen den Preis in Geld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ In der Preisverhandlung fragst du gezielt nach Ware, deren MHD bald abläuft. Warum lohnt sich das?",
+        "options": [
+          { "text": "Der Verkäufer spart Entsorgungskosten und gibt sie gern gratis ab.", "correct": true },
+          { "text": "Solche Ware ist schon verdorben und darf nicht mehr verkauft werden." },
+          { "text": "Solche Ware darf der Verkäufer nur noch an Großküchen abgeben." },
+          { "text": "Solche Ware ist länger gelagert und deshalb besonders aromatisch." }
+        ],
+        "explanation": "Ware kurz vor Ablauf des Haltbarkeitsdatums muss schnell verkauft oder aufgebraucht werden. Für die Entsorgung überlagerter Ware hat der Verkäufer Zusatzkosten. Darum gibt er sie lieber kostenlos zu bezahlter Ware dazu. Du musst sie dann aber schnell verbrauchen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Was bedeutet „nicht marktfähige Ware“?",
+        "options": [
+          { "text": "Sie ist nicht schlecht, lässt sich aber kaum verkaufen.", "correct": true },
+          { "text": "Sie ist verdorben und muss sofort entsorgt werden." },
+          { "text": "Sie darf laut Gesetz nur auf dem Wochenmarkt verkauft werden." },
+          { "text": "Sie hat die beste Handelsklasse und ist sehr teuer." }
+        ],
+        "explanation": "Nicht marktfähige Ware muss nicht schlecht sein. Sie lässt sich nur schlecht verkaufen, zum Beispiel wegen Flecken auf der Schale. Das gilt auch für Ware, die nicht zu den üblichen Handelsklassen passt. Erzeuger liefern sie oft kostenlos mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍏 Der Obstbauer gibt dir Äpfel mit Apfelschorf kostenlos dazu. Wie verwendest du sie am besten?",
+        "options": [
+          { "text": "Geschält im Obstsalat.", "correct": true },
+          { "text": "Ungeschält als Tafelobst im Obstkorb." },
+          { "text": "Gar nicht, Schorf macht Äpfel ungenießbar." },
+          { "text": "Nur als Dekoration auf dem Büfett." }
+        ],
+        "explanation": "Apfelschorf ist nur ein optischer Schaden, also ein Schönheitsfehler. Als Tafelobst, das man roh und ganz isst, sind die Äpfel deshalb ungeeignet. Geschält sind sie im Obstsalat aber hervorragend."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🤝 Die Küchenleitung verhandelt mit einem Lieferanten. Bringe die Punkte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Über die Qualität einig werden (z. B. Handelsklasse)" },
+          { "text": "Den Preis verhandeln" },
+          { "text": "Skonto vereinbaren" },
+          { "text": "Nach einem geldwerten Vorteil fragen" }
+        ],
+        "explanation": "Frag dich: Was ist die Grundlage für alles? Die Ware muss einwandfrei sein, sonst lohnt kein Preis. Deshalb kommt die Qualität zuerst. Danach geht es ums Geld: erst der Preis, dann das Skonto. Die Extras kommen ganz zum Schluss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎁 Der Lieferant sagt: „Skonto gebe ich Ihnen nicht.“ Was kannst du jetzt oft noch erreichen?",
+        "options": [
+          { "text": "Einen geldwerten Vorteil, z. B. Gratis-Anlieferung.", "correct": true },
+          { "text": "Nichts mehr, denn die Verhandlung ist dann für immer beendet." },
+          { "text": "Doppeltes Skonto bei der nächsten Rechnung." },
+          { "text": "Einen Festpreis, wie ihn der Discounter hat." }
+        ],
+        "explanation": "Scheitert das Skonto, lässt sich oft zumindest noch ein geldwerter Vorteil erreichen. Zum Beispiel kostenlose Anlieferung oder Zusatzware. Darum sprichst du die geldwerten Vorteile erst ganz am Ende der Verhandlung an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Worüber einigst du dich mit dem Lieferanten zuerst?",
+        "options": [
+          { "text": "Über die Qualität der Ware.", "correct": true },
+          { "text": "Über das Skonto." },
+          { "text": "Über die kostenlose Anlieferung." }
+        ],
+        "explanation": "Zuerst muss die Qualität stimmen, zum Beispiel die Handelsklasse. Erst danach verhandelst du den Preis, das Skonto und die geldwerten Vorteile."
+      }
+    }
+  ]
+}

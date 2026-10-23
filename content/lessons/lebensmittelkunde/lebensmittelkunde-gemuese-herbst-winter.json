@@ -1,0 +1,119 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-gemuese-herbst-winter",
+  "title": "Gemüse-Saison: Herbst und Winter",
+  "sort": 702,
+  "intro": "Manches Gemüse gibt es frisch im Herbst und sogar im Winter. Im Saisonkalender reicht sein grüner Balken bis weit in die kalte Jahreszeit.\n\nGrünkohl gibt es frisch von November bis Februar. Er beginnt also erst im November. Chicorée gibt es von Oktober bis März. Feldsalat gibt es von September bis März. Auch Schwarzwurzeln und Steckrüben gibt es frisch im Herbst und im Winter.\n\nRosenkohl gibt es frisch von Oktober bis Dezember. Kürbis gibt es frisch von September bis November. Chinakohl gibt es von August bis November. Er heißt zwar Kohl, ist aber kein Wintergemüse.\n\nFeldsalat und Chicorée sind die Salate für den Winter. Kopfsalat, Eisbergsalat und die anderen Sommersalate gibt es im Winter nicht frisch aus der Region.\n\nMERKE: Frisch auch noch im Dezember gibt es Grünkohl, Feldsalat, Chicorée, Rosenkohl, Schwarzwurzeln und Steckrüben. Grünkohl beginnt erst im November.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Es ist Januar. Welches Gemüse gibt es jetzt frisch vom Feld?",
+        "options": [
+          { "text": "Grünkohl.", "correct": true },
+          { "text": "Zucchini." },
+          { "text": "Spargel." },
+          { "text": "Fenchel." }
+        ],
+        "explanation": "Grünkohl hat frisch Saison von November bis Februar. Zucchini und Fenchel enden im Oktober. Spargel gibt es nur im Mai und Juni."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍂 Es ist Oktober. Du kochst eine Suppe mit frischem Gemüse der Saison. Was passt?",
+        "options": [
+          { "text": "Kürbis.", "correct": true },
+          { "text": "Spargel." },
+          { "text": "Erbsen." },
+          { "text": "Grünkohl." }
+        ],
+        "explanation": "Kürbis gibt es frisch von September bis November. Grünkohl passt noch nicht, er beginnt erst im November. Spargel und Erbsen sind im Oktober längst vorbei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Es ist Dezember. Welchen Salat bekommst du jetzt frisch aus der Region?",
+        "options": [
+          { "text": "Chicorée.", "correct": true },
+          { "text": "Kopfsalat." },
+          { "text": "Eisbergsalat." },
+          { "text": "Bataviasalat." }
+        ],
+        "explanation": "Chicorée gibt es frisch von Oktober bis März. Er ist ein Salat für den Winter, genau wie Feldsalat. Kopfsalat, Eisbergsalat und Bataviasalat sind Sommersalate. Sie enden im September oder Oktober."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Wann gibt es Schwarzwurzeln und Steckrüben frisch?",
+        "options": [
+          { "text": "Im Herbst und im Winter.", "correct": true },
+          { "text": "Im Frühling, von März bis Mai." },
+          { "text": "Im Hochsommer, im Juli und August." },
+          { "text": "Das ganze Jahr, frisch und gelagert." }
+        ],
+        "explanation": "Schwarzwurzeln und Steckrüben sind Wintergemüse. Frisch gibt es sie im Herbst und im Winter. Im Frühling und im Sommer haben sie keine Saison."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Reicht die frische Saison bis in den Dezember? Sortiere.",
+        "buckets": [
+          { "id": "winter", "label": "Frisch auch noch im Dezember", "icon": "❄️" },
+          { "id": "herbst", "label": "Frisch nur bis Oktober oder November", "icon": "🍂" }
+        ],
+        "items": [
+          { "text": "Grünkohl", "bucket": "winter" },
+          { "text": "Feldsalat", "bucket": "winter" },
+          { "text": "Chicorée", "bucket": "winter" },
+          { "text": "Steckrübe", "bucket": "winter" },
+          { "text": "Chinakohl", "bucket": "herbst" },
+          { "text": "Fenchel", "bucket": "herbst" },
+          { "text": "Mais", "bucket": "herbst" },
+          { "text": "Endiviensalat", "bucket": "herbst" }
+        ],
+        "explanation": "Frag dich: Reicht der grüne Balken im Saisonkalender bis in den Dezember? Das schaffen nur die echten Wintergemüse. Achtung: Chinakohl heißt zwar Kohl, seine Saison endet aber schon im November. Und nicht jeder Salat ist ein Wintersalat."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wann gibt es dieses Gemüse frisch? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Grünkohl"}, "right": {"text": "November bis Februar"} },
+          { "left": {"text": "Chicorée"}, "right": {"text": "Oktober bis März"} },
+          { "left": {"text": "Feldsalat"}, "right": {"text": "September bis März"} },
+          { "left": {"text": "Chinakohl"}, "right": {"text": "August bis November"} },
+          { "left": {"text": "🎃 Kürbis"}, "right": {"text": "September bis November"} },
+          { "left": {"text": "Rosenkohl"}, "right": {"text": "Oktober bis Dezember"} }
+        ],
+        "memory": false,
+        "explanation": "Achte auf den Anfang und das Ende. Chinakohl beginnt schon im August. Feldsalat und Kürbis beginnen im September, aber nur der Feldsalat hält bis März durch. Chicorée und Rosenkohl beginnen im Oktober. Grünkohl kommt als Letzter, erst im November."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 Feldsalat gibt es frisch von September bis März. Wie viele Monate sind das?",
+        "answer": 7,
+        "hint": "Zähle die Monate an den Fingern:\nSeptember, Oktober, November, Dezember, Januar, Februar, März.",
+        "explanation": "September, Oktober, November, Dezember, Januar, Februar, März: Das sind 7 Monate. Feldsalat hat damit eine lange Saison über den ganzen Winter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welches Gemüse ist ein typisches Wintergemüse?",
+        "options": [
+          { "text": "Grünkohl.", "correct": true },
+          { "text": "Spargel." },
+          { "text": "Zucchini." }
+        ],
+        "explanation": "Grünkohl gibt es frisch von November bis Februar. Spargel gibt es im Mai und Juni. Zucchini gibt es von Juni bis Oktober."
+      }
+    }
+  ]
+}

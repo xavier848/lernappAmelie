@@ -1,0 +1,143 @@
+{
+  "topic_slug": "geld-rechnen",
+  "slug": "geld-rechnen-stromkosten",
+  "title": "Stromkosten berechnen",
+  "sort": 580,
+  "intro": "💡 Elektrogeräte brauchen Strom. Wie viel ein Gerät braucht, zeigt seine Leistung in Watt (W). 1000 Watt sind 1 Kilowatt (kW).\n\nDen Stromverbrauch misst man in Kilowattstunden (kWh). 1 kWh verbraucht ein Gerät mit 1000 Watt in einer Stunde.\n\nSo rechnest du: Leistung in Watt × Stunden = Wattstunden (Wh). Wattstunden : 1000 = Kilowattstunden (kWh). Kilowattstunden × Preis pro kWh = Stromkosten.\n\nBeispiel: Ein Bügeleisen hat 1000 W. Es läuft 2 Stunden. 1000 × 2 = 2000 Wh. 2000 : 1000 = 2 kWh. Kostet 1 kWh 30 Cent, zahlst du 2 × 30 Cent = 60 Cent.\n\nMinuten rechnest du in Stunden um: 30 Minuten sind 0,5 Stunden. 45 Minuten sind 0,75 Stunden.\n\nMERKE: Rechne Geld in Cent, dann bleiben die Zahlen ganz: 0,31 € sind 31 Cent.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚡ Wie viele Watt sind 1 Kilowatt?",
+        "answer": 1000,
+        "hint": "Kilo heißt tausend, so wie bei Kilogramm und Gramm.",
+        "explanation": "1 Kilowatt sind 1000 Watt. Kilo bedeutet tausend, genau wie 1 Kilogramm 1000 Gramm sind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔋 Was ist eine Kilowattstunde (kWh)?",
+        "options": [
+          { "text": "Die Energie, die ein Gerät mit 1000 Watt in 1 Stunde braucht", "correct": true },
+          { "text": "Die Leistung, die ein Gerät in einer einzigen Minute hat" },
+          { "text": "Der Preis, den man für 1000 Watt an der Kasse bezahlt" }
+        ],
+        "explanation": "Die Kilowattstunde ist die Einheit für den Stromverbrauch. Ein Gerät mit 1000 Watt verbraucht in einer Stunde genau 1 kWh. Danach richtet sich die Stromrechnung."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧮 So rechnest du die Stromkosten aus. Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Erst brauchst du die Leistung, dann die Laufzeit. Daraus werden Wattstunden. Geteilt durch 1000 sind es Kilowattstunden. Erst ganz am Ende rechnest du mit dem Preis.",
+        "steps": [
+          { "text": "Die Leistung des Geräts in Watt ablesen." },
+          { "text": "Watt mal Stunden rechnen." },
+          { "text": "Das Ergebnis durch 1000 teilen: Das sind kWh." },
+          { "text": "Die kWh mal den Preis pro kWh rechnen." }
+        ]
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍞 Ein Backofen hat 2000 W. Er läuft 1 Stunde. Wie viele kWh verbraucht er?",
+        "answer": 2,
+        "hint": "2000 W × 1 Stunde = 2000 Wh.\n2000 : 1000 = ?",
+        "explanation": "2000 W × 1 h = 2000 Wh. Geteilt durch 1000 sind das 2 kWh."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍞 Der Backofen (2000 W) läuft 3 Stunden. 1 kWh kostet 31 Cent. Wie viel Cent kostet das?",
+        "answer": 186,
+        "hint": "2000 × 3 = 6000 Wh = 6 kWh.\n6 × 31 Cent = ?",
+        "explanation": "2000 W × 3 h = 6000 Wh = 6 kWh. 6 × 31 Cent = 186 Cent, also 1,86 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Ein Staubsauger hat 1400 W und läuft 1 Stunde. Wie viele kWh sind das?",
+        "options": [
+          { "text": "1,4 kWh", "correct": true },
+          { "text": "14 kWh" },
+          { "text": "0,14 kWh" },
+          { "text": "1400 kWh" }
+        ],
+        "explanation": "1400 W × 1 h = 1400 Wh. Geteilt durch 1000 sind das 1,4 kWh. Achte auf das Komma: Beim Teilen durch 1000 rückt es drei Stellen nach links."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧹 Der Staubsauger (1400 W) läuft 3 Stunden. 1 kWh kostet 0,31 €. Was kostet das ungefähr?",
+        "options": [
+          { "text": "Etwa 1,30 €", "correct": true },
+          { "text": "Etwa 13,02 €" },
+          { "text": "Etwa 0,43 €" },
+          { "text": "Etwa 4,20 €" }
+        ],
+        "explanation": "1400 W × 3 h = 4200 Wh = 4,2 kWh. 4,2 × 0,31 € = 1,302 €, also etwa 1,30 €. 0,43 € wären nur eine Stunde. 4,20 € wäre die Zahl der kWh, nicht der Preis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Eine Induktionsplatte hat 750 W und läuft 3 Stunden. Wie viele kWh sind das?",
+        "options": [
+          { "text": "2,25 kWh", "correct": true },
+          { "text": "22,5 kWh" },
+          { "text": "0,225 kWh" },
+          { "text": "2250 kWh" }
+        ],
+        "explanation": "750 W × 3 h = 2250 Wh. Geteilt durch 1000 sind das 2,25 kWh. Das Komma rückt beim Teilen durch 1000 drei Stellen nach links."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍳 Eine Induktionsplatte hat 800 W. Sie läuft jeden Tag 45 Minuten. 1 kWh kostet 32 Cent. Wie viel Cent kostet der Strom in einem Monat mit 30 Tagen?",
+        "answer": 576,
+        "hint": "45 Minuten = 0,75 Stunden.\n800 × 0,75 = 600 Wh = 0,6 kWh pro Tag.\n0,6 × 30 = 18 kWh im Monat.\n18 × 32 Cent = ?",
+        "explanation": "Pro Tag: 800 W × 0,75 h = 600 Wh = 0,6 kWh. Im Monat: 0,6 × 30 = 18 kWh. Kosten: 18 × 32 Cent = 576 Cent, also 5,76 €."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Dieselbe Induktionsplatte (800 W, 45 Minuten am Tag) läuft ein ganzes Jahr mit 365 Tagen. Wie viele kWh verbraucht sie?",
+        "answer": 219,
+        "hint": "Pro Tag: 800 W × 0,75 h = 600 Wh = 0,6 kWh.\n0,6 × 365 = ?\nRechne erst 6 × 365 = 2190. Dann teilst du durch 10.",
+        "explanation": "Pro Tag braucht die Platte 0,6 kWh. Im Jahr: 0,6 × 365 = 219 kWh."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Dieselbe Induktionsplatte (800 W, 45 Minuten am Tag, 0,32 € pro kWh) läuft ein ganzes Jahr lang. Was kostet das ungefähr?",
+        "options": [
+          { "text": "Etwa 70 €", "correct": true },
+          { "text": "Etwa 7 €" },
+          { "text": "Etwa 17 €" },
+          { "text": "Etwa 700 €" }
+        ],
+        "explanation": "Pro Tag braucht die Platte 0,6 kWh. Im Jahr sind das 0,6 × 365 = 219 kWh. 219 × 0,32 € = 70,08 €. Rechnest du 12 Monate × 5,76 €, kommst du auf 69,12 €. Beides sind etwa 70 €."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Welches Gerät verbraucht in 1 Stunde am meisten Strom?",
+        "options": [
+          { "text": "Der Backofen mit 2000 W", "correct": true },
+          { "text": "Der Staubsauger mit 1400 W" },
+          { "text": "Die Induktionsplatte mit 750 W" }
+        ],
+        "explanation": "Je mehr Watt ein Gerät hat, desto mehr Strom braucht es in der gleichen Zeit. 2000 W ist hier die größte Leistung."
+      }
+    }
+  ]
+}

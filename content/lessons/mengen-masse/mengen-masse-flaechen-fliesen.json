@@ -1,0 +1,134 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-flaechen-fliesen",
+  "title": "Fachrechnen: Flächen und Fliesen",
+  "sort": 660,
+  "intro": "Im Buch berechnen die Auszubildenden Ayse und Sarah ein neues Bewohnerzimmer mit Bad. Das Zimmer ist 4,90 m lang und 4,50 m breit. Das Bad ist 2,55 m lang, 2,15 m breit und 2,30 m hoch. Die Tür ist 2,10 m × 1,20 m groß. Die Dusche misst 100 cm × 100 cm.\n\nEine Fläche berechnest du so: Länge mal Breite. Die Einheit ist der Quadratmeter, kurz m². Beispiel Bad: 2,55 m × 2,15 m = 5,4825 m². Gerundet sind das 5,48 m².\n\nDie Gesamtfläche einer Wohneinheit ist die Summe aller Flächen. Du zählst also die Fläche vom Zimmer und die Fläche vom Bad zusammen.\n\nMaße in Zentimetern rechnest du vorher in Meter um. 100 cm sind 1 m.\n\nFür die Wände brauchst du zuerst den Umfang. Umfang heißt: einmal ganz um den Raum herum. Umfang = 2 × (Länge + Breite). Dann gilt: Wandfläche = Umfang × Raumhöhe. Die Tür wird nicht gefliest. Ihre Fläche (Höhe × Breite) ziehst du am Ende ab.\n\nFür die Fliesenkosten zählst du Wandfläche und Bodenfläche zusammen. Dann rechnest du: Fläche in m² × Preis pro m². Die Fliesen im Buch kosten 32,90 € pro m².\n\nMERKE: Fläche = Länge × Breite. Wandfläche = Umfang × Höhe, minus Tür.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Das Zimmer ist 4,90 m lang und 4,50 m breit. Wie groß ist seine Fläche?",
+        "options": [
+          { "text": "22,05 m²", "correct": true },
+          { "text": "18,80 m²" },
+          { "text": "220,50 m²" },
+          { "text": "20,25 m²" }
+        ],
+        "explanation": "Fläche = Länge × Breite: 4,90 × 4,50 = 22,05 m². 18,80 wäre der Umfang, also einmal ganz herum. Das ist keine Fläche. Bei 220,50 steht das Komma falsch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Das Zimmer ist 4,90 m lang und 4,50 m breit. Das Bad hat 5,48 m². Wie groß ist die Gesamtfläche der Wohneinheit?",
+        "options": [
+          { "text": "27,53 m²", "correct": true },
+          { "text": "16,57 m²" },
+          { "text": "14,88 m²" },
+          { "text": "120,83 m²" }
+        ],
+        "explanation": "Rechne zuerst die Fläche vom Zimmer: 4,90 × 4,50 = 22,05 m². Die Gesamtfläche ist die Summe aller Flächen: 22,05 + 5,48 = 27,53 m². 14,88 kommt heraus, wenn du beim Zimmer Länge und Breite nur addierst. Abziehen oder malnehmen ist hier falsch."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧱 So berechnest du die Wandfläche, die im Bad gefliest wird. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Länge, Breite und Höhe vom Bad messen." },
+          { "text": "Den Umfang berechnen: 2 × (Länge + Breite)." },
+          { "text": "Den Umfang mit der Raumhöhe malnehmen." },
+          { "text": "Von diesem Ergebnis die Fläche der Tür abziehen." }
+        ],
+        "explanation": "Die Regel: Jeder Schritt braucht das Ergebnis vom Schritt davor. Ohne Maße kein Umfang. Ohne Umfang keine Wandfläche. Die Tür ist ein Loch in der Wand. Darum ziehst du ihre Fläche von der ganzen Wandfläche ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Das Bad ist 2,55 m lang und 2,15 m breit. Wie lang ist der Umfang?",
+        "options": [
+          { "text": "9,40 m", "correct": true },
+          { "text": "4,70 m" },
+          { "text": "5,48 m" },
+          { "text": "10,20 m" }
+        ],
+        "explanation": "Umfang = 2 × (Länge + Breite) = 2 × (2,55 + 2,15) = 2 × 4,70 = 9,40 m. 4,70 m ist nur die halbe Runde. 5,48 ist die Bodenfläche in m², kein Umfang."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Das Bad ist 2,55 m lang, 2,15 m breit und 2,30 m hoch. Wie groß ist die Wandfläche, noch ohne die Tür abzuziehen?",
+        "options": [
+          { "text": "21,62 m²", "correct": true },
+          { "text": "10,81 m²" },
+          { "text": "12,61 m²" },
+          { "text": "11,70 m²" }
+        ],
+        "explanation": "Erst der Umfang: 2 × (2,55 + 2,15) = 9,40 m. Dann Umfang × Höhe: 9,40 × 2,30 = 21,62 m². 10,81 wäre nur die halbe Runde mal Höhe. 12,61 wäre die Bodenfläche mal Höhe. 11,70 wäre Umfang plus Höhe. Das ist alles keine Wandfläche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Die Tür misst 2,10 m × 1,20 m. Wie groß ist ihre Fläche?",
+        "options": [
+          { "text": "2,52 m²", "correct": true },
+          { "text": "3,30 m²" },
+          { "text": "6,60 m²" },
+          { "text": "1,75 m²" }
+        ],
+        "explanation": "Auch die Tür ist eine Fläche: 2,10 × 1,20 = 2,52 m². 3,30 wäre nur plus gerechnet, 6,60 wäre der Umfang der Tür."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧱 Das Bad ist 2,55 m lang, 2,15 m breit und 2,30 m hoch. Die Tür misst 2,10 m × 1,20 m. Wie viel Wandfläche wird gefliest?",
+        "options": [
+          { "text": "19,10 m²", "correct": true },
+          { "text": "24,14 m²" },
+          { "text": "8,29 m²" },
+          { "text": "10,09 m²" }
+        ],
+        "explanation": "Erst die ganze Wand: Umfang 9,40 m × Höhe 2,30 m = 21,62 m². Dann die Tür: 2,10 × 1,20 = 2,52 m². Die Tür wird nicht gefliest. Darum ziehst du sie ab: 21,62 − 2,52 = 19,10 m². Wer die Tür dazuzählt, kommt auf 24,14 m². Wer nur die halbe Runde nimmt, kommt auf 8,29 m²."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚿 Die Dusche misst 100 cm × 100 cm. Wie viele m² sind das? Tippe die Zahl ein.",
+        "answer": 1,
+        "hint": "Rechne erst in Meter um: 100 cm = 1 m.\nDann: 1 m × 1 m = ?",
+        "explanation": "100 cm sind 1 m. 1 m × 1 m = 1 m². Erst in Meter umrechnen, dann malnehmen. Sonst bekommst du 10.000 cm²."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Im Bad werden Wand und Boden gefliest, zusammen 24,58 m². 1 m² Fliesen kostet 32,90 €. Was kosten die Fliesen etwa?",
+        "options": [
+          { "text": "Etwa 809 €", "correct": true },
+          { "text": "Etwa 57 €" },
+          { "text": "Etwa 81 €" },
+          { "text": "Etwa 8.087 €" }
+        ],
+        "explanation": "Kosten = Fläche × Preis pro m²: 24,58 × 32,90 € ≈ 808,68 €, also etwa 809 €. Die 24,58 m² sind Wand und Boden zusammen. 57 € kämen heraus, wenn du plus rechnest. Bei 81 € oder 8.087 € steht das Komma falsch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Wie berechnest du eine rechteckige Fläche?",
+        "options": [
+          { "text": "Länge × Breite", "correct": true },
+          { "text": "Länge + Breite" },
+          { "text": "Länge − Breite" }
+        ],
+        "explanation": "Eine Fläche ist immer Länge mal Breite. Das Ergebnis hat die Einheit Quadratmeter, kurz m². Länge plus Breite gibt keine Fläche."
+      }
+    }
+  ]
+}

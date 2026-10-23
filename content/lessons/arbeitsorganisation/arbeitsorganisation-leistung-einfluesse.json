@@ -1,0 +1,137 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-leistung-einfluesse",
+  "title": "Was die Leistung beeinflusst",
+  "sort": 581,
+  "intro": "⚖️ Ob deine Leistung steigt oder sinkt, hängt von vielen Faktoren ab. Manche wirken positiv, andere negativ.\n\nPositive Faktoren sind: ausreichender Schlaf und Ruhepausen. Genug Erholung zwischen dem Ende der Arbeit und dem neuen Arbeitsbeginn. Eine Ernährung mit vielen Vitaminen und Mineralstoffen. Fünf Mahlzeiten pro Tag. Gut abgestimmte Zwischenmahlzeiten, die einem Leistungstief vorbeugen. Ausgleichssport, Hobbys und die persönliche Verfassung. Außerdem Tageslicht und Umwelteinflüsse.\n\nNegative Faktoren haben verschiedene Ursachen. Schlechter Schlaf durch Lärm kommt aus der Umwelt. Schlechte Luft liegt am Raumklima. Zu wenig Schlaf liegt an der Lebensführung, also daran, wie du lebst. Unregelmäßiges Essen heißt: Die Mahlzeiten sind schlecht verteilt oder Zwischenmahlzeiten fehlen. Keine Motivation, Antriebslosigkeit oder Willensschwäche sind geistig-seelische Einflüsse.\n\nIn besonderen Fällen kann man die Leistung kurzfristig mit künstlichen Mitteln steigern. Beispiele sind Kaffee, Tee oder Energiegetränke.\n\nAuch Medikamente können die Leistung beeinflussen. Das nennt man Doping. Nimmt man sie dauerhaft, kann man abhängig werden. Oder der Körper gewöhnt sich daran. Das nennt man Gewöhnungsprozess.\n\nMERKE: Genug Schlaf, Pausen und gut verteilte Mahlzeiten halten deine Leistungskurve im Gleichgewicht.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👍 Positiv oder negativ für deine Leistung? Sortiere.",
+        "explanation": "Frag dich: Gibt mir das Kraft und Erholung? Dann ist es positiv. Stört es meinen Schlaf, mein Essen oder meine Lust zu arbeiten? Dann ist es negativ.",
+        "buckets": [
+          { "id": "plus", "label": "Positiv", "icon": "👍" },
+          { "id": "minus", "label": "Negativ", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Ausreichender Schlaf", "bucket": "plus" },
+          { "text": "Ruhepausen", "bucket": "plus" },
+          { "text": "Ausgleichssport", "bucket": "plus" },
+          { "text": "Hobbys", "bucket": "plus" },
+          { "text": "Lärm in der Nacht", "bucket": "minus" },
+          { "text": "Schlechte Luft", "bucket": "minus" },
+          { "text": "Unregelmäßiges Essen", "bucket": "minus" },
+          { "text": "Keine Motivation", "bucket": "minus" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Negativer Faktor und seine Ursache. Verbinde.",
+        "explanation": "Frag dich jeweils: Woher kommt das Problem? Lärm kommt von außen, aus der Umwelt. Luft gehört zum Raumklima. Wie viel du schläfst, hängt von deiner Lebensführung ab. Fehlender Antrieb kommt aus dem Kopf und der Seele.",
+        "pairs": [
+          { "left": {"text": "🔊 Schlechter Schlaf durch Lärm"}, "right": {"text": "Umwelt"} },
+          { "left": {"text": "💨 Schlechte Luft"}, "right": {"text": "Raumklima"} },
+          { "left": {"text": "🛌 Zu wenig Schlaf"}, "right": {"text": "Lebensführung"} },
+          { "left": {"text": "😔 Antriebslosigkeit"}, "right": {"text": "Geistig-seelische Einflüsse"} },
+          { "left": {"text": "🍽️ Unregelmäßiges Essen"}, "right": {"text": "Mahlzeiten schlecht verteilt"} }
+        ]
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍎 Wie viele Mahlzeiten pro Tag nennt das Buch als positiven Faktor für die Leistung?",
+        "answer": 5,
+        "hint": "Denk an Frühstück, Mittagessen und Abendessen. Dazu kommen noch Zwischenmahlzeiten.",
+        "explanation": "Richtig sind 5 Mahlzeiten pro Tag. Gut verteilte Mahlzeiten mit passenden Zwischenmahlzeiten beugen einem Leistungstief vor."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥪 Wozu dienen gut abgestimmte Zwischenmahlzeiten?",
+        "options": [
+          { "text": "Sie beugen einem Leistungstief vor.", "correct": true },
+          { "text": "Sie ersetzen das Mittagessen ganz und gar." },
+          { "text": "Sie machen abends besser müde." }
+        ],
+        "explanation": "Zwischenmahlzeiten liefern zwischendurch neue Energie. So fällt deine Leistung nicht so stark ab. Das Mittagessen ersetzen sie aber nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Welche Ernährung wirkt positiv auf deine Leistung?",
+        "options": [
+          { "text": "Eine vitamin- und mineralstoffreiche Ernährung", "correct": true },
+          { "text": "Eine fett- und zuckerreiche Ernährung mit viel Fleisch" },
+          { "text": "Eine einzige große, warme Mahlzeit am späten Abend" }
+        ],
+        "explanation": "Vitamine und Mineralstoffe halten den Körper leistungsfähig. Viel Fett und Zucker oder nur eine große Mahlzeit führen eher zu einem Leistungstief."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Nach deiner Spätschicht beginnt deine Frühschicht schon um 6 Uhr. Welcher positive Faktor fehlt dir?",
+        "options": [
+          { "text": "Genug Erholung zwischen Arbeitsende und Neubeginn", "correct": true },
+          { "text": "Ausgleichssport und Hobbys in deiner freien Zeit am Abend" },
+          { "text": "Gut abgestimmte Zwischenmahlzeiten während der Schicht" }
+        ],
+        "explanation": "Zwischen dem Ende der Arbeit und dem neuen Beginn brauchst du ausreichend Erholung. Bei Spätschicht und direkt folgender Frühschicht ist diese Zeit viel zu kurz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Du bist nach dem Mittag müde und trinkst einen Kaffee. Was stimmt?",
+        "options": [
+          { "text": "Kaffee ist ein künstliches Mittel und steigert die Leistung nur kurzfristig.", "correct": true },
+          { "text": "Kaffee hebt die Leistung dauerhaft an und ersetzt so den fehlenden Nachtschlaf." },
+          { "text": "Kaffee senkt die Leistung sofort und macht dich noch viel müder als vorher." }
+        ],
+        "explanation": "Kaffee, Tee und Energiegetränke sind künstliche Mittel. Sie steigern die Leistung nur kurzfristig und nur in besonderen Fällen. Schlaf und Pausen ersetzen sie nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Wie nennt man es, wenn jemand seine Leistung mit Medikamenten beeinflusst?",
+        "options": [
+          { "text": "Doping", "correct": true },
+          { "text": "Training" },
+          { "text": "Diät" }
+        ],
+        "explanation": "Werden Medikamente genommen, um die Leistung zu beeinflussen, nennt man das Doping. Das ist nicht harmlos."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💊 Was kann passieren, wenn jemand dauerhaft solche Medikamente nimmt?",
+        "options": [
+          { "text": "Er kann abhängig werden, oder der Körper gewöhnt sich daran.", "correct": true },
+          { "text": "Er wird davon auf Dauer immer leistungsfähiger und bleibt fit." },
+          { "text": "Nichts passiert, weil Medikamente vom Arzt immer harmlos sind." }
+        ],
+        "explanation": "Bei dauerhafter Einnahme kann es zur Abhängigkeit kommen. Oder es tritt ein Gewöhnungsprozess ein: Der Körper braucht immer mehr für die gleiche Wirkung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Du arbeitest den ganzen Tag in einem Keller ohne Fenster. Welcher positive Faktor fehlt dir?",
+        "options": [
+          { "text": "Tageslicht", "correct": true },
+          { "text": "Ruhepausen" },
+          { "text": "Hobbys" }
+        ],
+        "explanation": "Tageslicht gehört zu den positiven Faktoren für die Leistung. Im Keller ohne Fenster fehlt es. Pausen und Hobbys kannst du trotzdem haben."
+      }
+    }
+  ]
+}

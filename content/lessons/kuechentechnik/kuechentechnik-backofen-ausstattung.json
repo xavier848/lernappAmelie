@@ -1,0 +1,124 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-backofen-ausstattung",
+  "title": "Backofen: Steuerung, Ausstattung, Reinigung",
+  "sort": 584,
+  "intro": "🎛️ Backöfen steuert man mechanisch oder elektronisch.\n\nMechanische Steuerung: Du stellst mit einem oder zwei Drehknöpfen ein. Man nennt sie Schaltknebel. Einer ist der Temperaturwähler. Der andere ist der Funktionswähler für die Beheizungsart.\n\nElektronische Steuerung: Sie ist anspruchsvoller in der Bedienung, dafür aber bequemer. Du stellst mit Tasten ein. Das gewählte Programm leuchtet in der LED-Anzeige auf. Im Display siehst du zum Beispiel die Uhrzeit und die Temperatur. Noch moderner ist die Sensorbedienung, auch „Touch-Control“ genannt. Du tippst mit dem Finger auf Berührungsfelder.\n\nWeitere Ausstattung: Teleskop-Einzelauszüge sind Schienen an den Seitenwänden auf 2 bis 3 Ebenen. Darauf legst du Bleche und Roste und schiebst sie heraus. Beim Backwagen hängt das Zubehör an der Tür oder am Türrahmen, meist auf 7 Ebenen. Du ziehst die Tür heraus, und alles kommt mit. Beim Backmobil stecken Blech und Rost in einem Gestell, das man ganz oder teilweise herausfahren kann. Mit dem Kerntemperaturfühler misst du die Temperatur im Inneren. Du steckst das Speisenthermometer ins Fleisch und gibst die gewünschte Kerntemperatur am Display ein.\n\nReinigungssysteme: Bei der katalytischen Reinigung sind im Backofen Spezialemailleplatten mit katalytischer Beschichtung eingebaut. Bei der pyrolytischen Reinigung werden die Verschmutzungen bei sehr hoher Temperatur zersetzt, bei etwa 500 °C. Zur Leichtreinigung gehören Backofentüren zum Aushängen und glatte Emaillierungen im Innenraum.\n\nMERKE: Pyrolyse = Schmutz wird bei etwa 500 °C zersetzt. Katalyse = Spezialemaille im Backofen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎛️ Mechanische oder elektronische Steuerung? Sortiere.",
+        "explanation": "Frag dich: Drehe ich an einem Knopf? Dann ist es mechanisch. Drücke oder tippe ich, und etwas leuchtet? Dann ist es elektronisch.",
+        "buckets": [
+          { "id": "mech", "label": "Mechanisch", "icon": "🔘" },
+          { "id": "el", "label": "Elektronisch", "icon": "💡" }
+        ],
+        "items": [
+          { "text": "Schaltknebel zum Drehen", "bucket": "mech" },
+          { "text": "Temperaturwähler mit Drehknopf", "bucket": "mech" },
+          { "text": "Funktionswähler mit Drehknopf", "bucket": "mech" },
+          { "text": "Einstellen mit Tasten", "bucket": "el" },
+          { "text": "Programm leuchtet in der LED-Anzeige", "bucket": "el" },
+          { "text": "Uhrzeit und Temperatur im Display", "bucket": "el" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Was stimmt über die elektronische Steuerung?",
+        "options": [
+          { "text": "Anspruchsvoller zu bedienen, aber bequemer", "correct": true },
+          { "text": "Einfacher zu bedienen, aber viel unbequemer" },
+          { "text": "Einfacher zu bedienen und dazu noch bequemer" }
+        ],
+        "explanation": "Die elektronische Steuerung ist anspruchsvoller in der Handhabung. Dafür bietet sie mehr Bedienkomfort, zum Beispiel mit Programmen und LED-Anzeige."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧰 Welche Ausstattung ist das? Verbinde.",
+        "explanation": "Frag dich: Hängt das Zubehör an der Tür? Dann ist es der Backwagen. Steckt es fest in einem eigenen Gestell? Dann ist es das Backmobil. Schienen an den Seitenwänden sind Teleskopauszüge. Der Kerntemperaturfühler misst innen im Fleisch.",
+        "pairs": [
+          { "left": {"text": "🛤️ Teleskop-Einzelauszug"}, "right": {"text": "Schienen an den Seitenwänden, 2 bis 3 Ebenen"} },
+          { "left": {"text": "🚪 Backwagen"}, "right": {"text": "Halterungen an der Tür oder am Türrahmen"} },
+          { "left": {"text": "🛒 Backmobil"}, "right": {"text": "Blech und Rost fest in ein Gestell eingebaut"} },
+          { "left": {"text": "🌡️ Kerntemperaturfühler"}, "right": {"text": "Speisenthermometer für das Innere"} }
+        ]
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 Auf wie vielen Ebenen hängt das Zubehör beim Backwagen meistens?",
+        "answer": 7,
+        "hint": "Es sind mehr als beim Teleskopauszug mit 2 bis 3 Ebenen, aber weniger als 10.",
+        "explanation": "Beim Backwagen wird das Zubehör meist auf 7 Ebenen eingehängt. Zieht man die Tür heraus, kommt alles mit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Wie benutzt du den Kerntemperaturfühler?",
+        "options": [
+          { "text": "Ins Fleisch stecken und die Kerntemperatur am Display eingeben", "correct": true },
+          { "text": "Auf das Backblech legen und die ganze Backzeit am Display eingeben" },
+          { "text": "Ins Fleisch stecken und die Garzeit am Display eingeben" }
+        ],
+        "explanation": "Du stichst das Speisenthermometer ins Fleisch. Am Display gibst du die gewünschte Kerntemperatur ein. So weißt du, wann das Fleisch innen gar ist."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧽 Katalytische oder pyrolytische Reinigung? Sortiere.",
+        "explanation": "Merke: Katalytisch heißt, eine besondere Emaille-Beschichtung ist eingebaut. Pyrolytisch heißt, der Schmutz wird durch sehr große Hitze zersetzt.",
+        "buckets": [
+          { "id": "kat", "label": "Katalytische Reinigung", "icon": "🧪" },
+          { "id": "pyro", "label": "Pyrolytische Reinigung", "icon": "🔥" }
+        ],
+        "items": [
+          { "text": "Spezialemailleplatten im Innenraum", "bucket": "kat" },
+          { "text": "Eingebaute Platten mit Spezialbeschichtung", "bucket": "kat" },
+          { "text": "Sehr hohe Temperatur", "bucket": "pyro" },
+          { "text": "Verschmutzungen werden zersetzt", "bucket": "pyro" }
+        ]
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Bei etwa wie viel °C zersetzt die pyrolytische Reinigung den Schmutz?",
+        "answer": 500,
+        "hint": "Es ist viel heißer als beim Backen. Der Backofen backt meist bis 275 °C. Die Pyrolyse ist fast doppelt so heiß.",
+        "explanation": "Bei der Pyrolyse werden die Verschmutzungen bei etwa 500 °C zersetzt. Das ist viel heißer als jede Backtemperatur."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👆 Wie funktioniert Touch-Control am Backofen?",
+        "options": [
+          { "text": "Du tippst mit dem Finger auf Berührungsfelder.", "correct": true },
+          { "text": "Du drehst an zwei großen, runden Schaltknebeln." },
+          { "text": "Du steuerst den Backofen mit deiner Stimme." }
+        ],
+        "explanation": "Touch-Control heißt Sensorbedienung. Du wählst das Programm mit einem Fingerdruck auf ein Berührungsfeld. Das ist eine Steigerung der elektronischen Steuerung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was gehört zur Leichtreinigungs-Ausstattung?",
+        "options": [
+          { "text": "Aushängbare Backofentür und glatte Emaille innen", "correct": true },
+          { "text": "Ein Innenraum aus rauem Gusseisen" },
+          { "text": "Eine fest eingeschraubte Backofentür" }
+        ],
+        "explanation": "Zur Leichtreinigung gehören Backofentüren, die man aushängen kann, und Innenräume mit glatter Emaillierung. So kommst du überall gut hin."
+      }
+    }
+  ]
+}

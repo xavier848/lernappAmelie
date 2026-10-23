@@ -1,0 +1,148 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-mikrowelle-geraete",
+  "title": "Mikrowelle: Geräte, Vor- und Nachteile",
+  "sort": 586,
+  "intro": "📡 Zwei von drei Haushalten haben heute eine Mikrowelle. Gründe sind: Es gibt immer mehr Single- und Kleinhaushalte. Und man nutzt mehr Convenience-Produkte, also Fertigprodukte. Die Mikrowelle kann nicht nur auftauen und erwärmen. Moderne Kombinationsgeräte können auch grillen und backen.\n\nVorteile: Kleine Portionen erwärmst du schnell. Das spart Energie und Zeit. Speisen garen im eigenen Saft oder mit wenig Flüssigkeit. So bleiben sie aromatisch, und der natürliche Geschmack bleibt weitgehend erhalten. Das Garen ist kurz und schont die Nährstoffe. Mit zugeschalteter Strahlungshitze entstehen auch Röststoffe.\n\nNachteile: Bei hoher Leistung musst du regelmäßig umrühren. Sonst entstehen Hot Spots. Hot Spots sind sehr heiße Stellen im Essen oder in Flüssigkeiten, weil die Speise ungleichmäßig warm wird. Es besteht Verbrennungsgefahr! Werden Gerichte falsch gelagert, zum Beispiel ohne Kühlung, können sich Mikroorganismen vermehren. Weil die Mikrowelle ungleichmäßig erwärmt, ist das nötige Durcherhitzen schwer zu kontrollieren.\n\nDie Mikrowelle ist eine gute Ergänzung zum Elektroherd. Sie kann ihn aber nicht ersetzen.\n\nDie Solo-Mikrowelle gart nur mit Mikrowellen. Sie hat je nach Preis einen Garraum von 9 bis 34 Litern und eine Leistung von 500 bis 1200 Watt. Moderne Geräte haben einen Zeit- und Programmcomputer, auch mit Speicherfunktion. Mikrowellen mit Grill können zusätzlich bräunen. Kombinationsgeräte haben zusätzlich Ober- und Unterhitze, Heißluft oder Grill. Im kombinierten Betrieb sparst du Zeit und Energie.\n\nBauformen: Es gibt Einzel- oder Tischgeräte sowie Unterbau- und Einbaugeräte. Eine Lifttür kann das Gerät hinter der Möbelfront verstecken. Es gibt auch Einbaubacköfen mit Mikrowelle. Immer beliebter ist der „rahmenlose Einbau“: Die Gerätefront füllt die ganze Nische ohne zusätzlichen Rahmen aus.\n\nMERKE: Bei hoher Leistung umrühren gegen Hot Spots – und Speisen immer gut durcherhitzen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Wie viele Haushalte haben heute eine Mikrowelle?",
+        "options": [
+          { "text": "Zwei von drei", "correct": true },
+          { "text": "Einer von zehn" },
+          { "text": "Einer von drei" }
+        ],
+        "explanation": "In zwei von drei Haushalten steht heute eine Mikrowelle als Gargerät."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Warum haben heute so viele eine Mikrowelle?",
+        "options": [
+          { "text": "Mehr Single- und Kleinhaushalte und mehr Fertigprodukte", "correct": true },
+          { "text": "Mehr Großfamilien und mehr frisch gekochte Speisen zu Hause" },
+          { "text": "Weil sie große Mengen viel schneller gart als der Herd" }
+        ],
+        "explanation": "Es gibt immer mehr Single- und Kleinhaushalte. Außerdem werden mehr Convenience-Produkte genutzt. Für kleine Portionen und Fertigprodukte ist die Mikrowelle praktisch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Vorteil oder Nachteil der Mikrowelle? Sortiere.",
+        "explanation": "Frag dich: Hilft es beim schnellen, schonenden Garen? Dann ist es ein Vorteil. Führt es zu ungleichmäßiger Wärme oder zu Gefahr? Dann ist es ein Nachteil.",
+        "buckets": [
+          { "id": "plus", "label": "Vorteil", "icon": "👍" },
+          { "id": "minus", "label": "Nachteil", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Kleine Portionen schnell erwärmen", "bucket": "plus" },
+          { "text": "Garen im eigenen Saft", "bucket": "plus" },
+          { "text": "Kurzes, nährstoffschonendes Garen", "bucket": "plus" },
+          { "text": "Röststoffe mit zugeschalteter Strahlungshitze", "bucket": "plus" },
+          { "text": "Verbrennungsgefahr", "bucket": "minus" },
+          { "text": "Ungleichmäßige Erwärmung", "bucket": "minus" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Was sind Hot Spots?",
+        "options": [
+          { "text": "Sehr heiße Stellen im Essen durch ungleichmäßiges Erwärmen", "correct": true },
+          { "text": "Kalte Stellen im Essen, die gar nicht richtig auftauen" },
+          { "text": "Leuchtende Punkte an der Tür, wenn das Gerät gerade läuft" }
+        ],
+        "explanation": "Hot Spots sind sehr heiße Stellen im Gargut oder in Flüssigkeiten. Sie entstehen, weil die Mikrowelle ungleichmäßig erwärmt. Du kannst dich daran verbrennen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥄 Du erhitzt Suppe bei hoher Leistung. Was tust du gegen Hot Spots?",
+        "options": [
+          { "text": "Regelmäßig umrühren", "correct": true },
+          { "text": "Die Tür beim Erhitzen öffnen" },
+          { "text": "Die Suppe mit Alufolie abdecken" }
+        ],
+        "explanation": "Bei hoher Leistung musst du regelmäßig umrühren. So verteilt sich die Wärme, und es entstehen keine gefährlich heißen Stellen. Alufolie gehört nie in die Mikrowelle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Du wärmst Reste auf, die nicht gekühlt waren. Welches Risiko besteht?",
+        "options": [
+          { "text": "Keime können sich vermehrt haben, und das Durcherhitzen ist schwer zu prüfen.", "correct": true },
+          { "text": "Die Reste verlieren in der Mikrowelle sofort alle ihre Vitamine und Kalorien." },
+          { "text": "Die Reste werden durch die Strahlen der Mikrowelle radioaktiv." }
+        ],
+        "explanation": "Falsch gelagerte Speisen, zum Beispiel ohne Kühlung, können Mikroorganismen enthalten. Weil die Mikrowelle ungleichmäßig erwärmt, ist schwer zu kontrollieren, ob alles durcherhitzt ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Kann die Mikrowelle den Elektroherd ersetzen?",
+        "options": [
+          { "text": "Nein, sie ist eine gute Ergänzung, aber kein Ersatz.", "correct": true },
+          { "text": "Ja, sie kann wirklich alles, was ein Herd auch kann." },
+          { "text": "Ja, aber nur, wenn sie einen eingebauten Grill hat." }
+        ],
+        "explanation": "Die Mikrowelle ist eine vorteilhafte Ergänzung zum Elektroherd. Ersetzen kann sie ihn nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "📡 Welches Gerät kann was? Verbinde.",
+        "explanation": "Frag dich: Was kommt zu den Mikrowellen dazu? Nichts: Solo-Mikrowelle. Nur ein Grill: Mikrowelle mit Grillbeheizung, sie kann bräunen. Ober-/Unterhitze oder Heißluft: Kombinationsgerät. Im kombinierten Betrieb spart es Zeit und Energie.",
+        "pairs": [
+          { "left": {"text": "📦 Solo-Mikrowelle"}, "right": {"text": "Nur Mikrowellen, 9 bis 34 Liter, 500 bis 1200 Watt"} },
+          { "left": {"text": "🍗 Mikrowelle mit Grillbeheizung"}, "right": {"text": "Nur Mikrowellen und Grill zum Bräunen"} },
+          { "left": {"text": "🔥 Kombinationsgerät"}, "right": {"text": "Auch Ober-/Unterhitze oder Heißluft"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚪 Was ist eine Lifttür bei der Mikrowelle?",
+        "options": [
+          { "text": "Eine Tür, die das Gerät hinter der Möbelfront verdeckt", "correct": true },
+          { "text": "Eine Tür, die sich beim Garen automatisch verriegelt" },
+          { "text": "Eine Glastür mit feinem Drahtgitter als Sichtfenster" }
+        ],
+        "explanation": "Eine Lifttür passt zur Möbelfront und verdeckt das Mikrowellengerät. So fügt es sich in die Küche ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖼️ Was bedeutet „rahmenloser Einbau“?",
+        "options": [
+          { "text": "Die Gerätefront füllt die ganze Nische ohne Rahmen aus.", "correct": true },
+          { "text": "Das Gerät steht frei auf der Arbeitsfläche ohne Schrank." },
+          { "text": "Das Gerät wird ohne Schrank direkt an die Wand gehängt." }
+        ],
+        "explanation": "Beim rahmenlosen Einbau deckt die Gerätefront die volle Höhe und Breite der Nische ab. Ein zusätzlicher Rahmen fehlt. Diese Einbauart wird immer beliebter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wofür nutzt man die Mikrowelle vor allem?",
+        "options": [
+          { "text": "Zum schnellen Auftauen und Erwärmen", "correct": true },
+          { "text": "Zum Frittieren in heißem Fett" },
+          { "text": "Zum Einfrieren von Resten" }
+        ],
+        "explanation": "Die Mikrowelle taut schnell auf und erwärmt kleine Portionen. Moderne Kombigeräte können zusätzlich grillen und backen."
+      }
+    }
+  ]
+}

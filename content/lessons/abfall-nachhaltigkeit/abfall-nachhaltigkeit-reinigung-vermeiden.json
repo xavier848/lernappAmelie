@@ -1,0 +1,140 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-nachhaltigkeit-reinigung-vermeiden",
+  "title": "Abfall beim Reinigen vermeiden",
+  "sort": 660,
+  "intro": "Abfall belastet die Umwelt, und seine Entsorgung kostet Geld. Deshalb triffst du besondere Maßnahmen, um Abfall zu vermeiden. Schon ein umweltbewusster Einkauf mindert die Müllmenge.\n\nFür Abfall gilt der Grundsatz: Vermeiden – Verwerten – Entsorgen. Das heißt: 1. Möglichst wenig Müll entstehen lassen. 2. Stoffe verwenden, die man wiederverwerten kann. 3. Was übrig bleibt, umweltschonend beseitigen.\n\nBeispiele für weniger Abfall beim Reinigen: Leere Reinigungsmittelbehälter gibst du zurück, damit sie wieder befüllt werden. Du nimmst Handtücher aus Stoff statt Papiertücher. Dosierspender in den Bädern füllst du aus Großgebinden nach. Großgebinde sind große Kanister. Und du nimmst Ultra-Hochkonzentrate. Das sind sehr stark konzentrierte Reiniger.\n\nDas Kreislaufwirtschaftsgesetz setzt EU-Recht um. Es soll Ressourcen schonen und Klima und Umwelt schützen. 2020 wurde es novelliert, also neu gefasst. Das Gesetz fordert: Abfälle stärker vermeiden. Geht das nicht, werden sie verwertet oder beseitigt.\n\nDurch die Gesetze haben die Verbraucher ihr Verhalten geändert. Dadurch hat auch die Industrie ihre Verpackungen geändert.\n\nMERKE: Vermeiden kommt vor Verwerten. Verwerten kommt vor Entsorgen.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "♻️ Der Grundsatz für Abfall: Bringe die drei Stufen in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Vermeiden" },
+          { "text": "Verwerten" },
+          { "text": "Entsorgen" }
+        ],
+        "explanation": "Das Beste ist Müll, der gar nicht erst entsteht. Was trotzdem entsteht, wird möglichst wiederverwertet. Erst der Rest wird entsorgt, und zwar umweltschonend."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeuten die drei Stufen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Vermeiden"}, "right": {"text": "Möglichst wenig Müll entstehen lassen"} },
+          { "left": {"text": "Verwerten"}, "right": {"text": "Stoffe nehmen, die man wieder nutzen kann"} },
+          { "left": {"text": "Entsorgen"}, "right": {"text": "Den Rest umweltschonend beseitigen"} }
+        ],
+        "explanation": "Frag dich bei jeder Stufe: Entsteht der Müll gar nicht erst? Wird er wieder genutzt? Oder wird er beseitigt?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Warum vermeidet man Abfall bei der Reinigung?",
+        "options": [
+          { "text": "Abfall belastet die Umwelt, und seine Entsorgung kostet Geld.", "correct": true },
+          { "text": "Abfall macht die Reinigungsmittel im Putzeimer deutlich schwächer." },
+          { "text": "Abfall darf in Deutschland gar nicht entstehen." },
+          { "text": "Abfall zieht in jedem Haus sofort Schädlinge an." }
+        ],
+        "explanation": "Wegen der Umweltbelastung und der Kosten für die Abfallentsorgung trifft man besondere Maßnahmen zur Vermeidung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 Spart das Abfall oder macht es mehr Abfall? Sortiere.",
+        "buckets": [
+          { "id": "spart", "label": "Spart Abfall", "icon": "✅" },
+          { "id": "mehr", "label": "Macht mehr Abfall", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Leere Reinigungsmittelbehälter zurückgeben", "bucket": "spart" },
+          { "text": "Handtücher aus Stoff benutzen", "bucket": "spart" },
+          { "text": "Dosierspender aus Großgebinden nachfüllen", "bucket": "spart" },
+          { "text": "Ultra-Hochkonzentrate verwenden", "bucket": "spart" },
+          { "text": "Papierhandtücher aus dem Spender nehmen", "bucket": "mehr" },
+          { "text": "Viele kleine Flaschen Reiniger kaufen", "bucket": "mehr" },
+          { "text": "Leere Kanister einfach wegwerfen", "bucket": "mehr" },
+          { "text": "Jeden leeren Spender durch einen neuen ersetzen", "bucket": "mehr" }
+        ],
+        "explanation": "Frag dich: Wird etwas wieder benutzt oder nachgefüllt? Dann spart es Abfall. Wird etwas nach einmal Benutzen weggeworfen? Dann entsteht mehr Abfall."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Ultra-Hochkonzentrate sparen Abfall. Warum?",
+        "options": [
+          { "text": "Sie sind so stark, dass man weniger Verpackung braucht.", "correct": true },
+          { "text": "Sie reinigen ganz ohne Wasser und ganz ohne Tuch." },
+          { "text": "Ihre Flasche löst sich nach dem Gebrauch von selbst auf." },
+          { "text": "Man muss sie nur einmal im Jahr benutzen." }
+        ],
+        "explanation": "Ultra-Hochkonzentrate sind sehr stark konzentrierte Reiniger. Für dieselbe Menge Reinigungslösung braucht man viel weniger Konzentrat und damit weniger Verpackung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Welche Ziele hat das Kreislaufwirtschaftsgesetz?",
+        "options": [
+          { "text": "Ressourcen schonen und Klima und Umwelt schützen.", "correct": true },
+          { "text": "Möglichst viel Müll verbrennen, um Strom zu gewinnen." },
+          { "text": "Die Müllgebühren für alle Haushalte abschaffen." },
+          { "text": "Reinigungsmittel nur noch im Ausland herstellen." }
+        ],
+        "explanation": "Das Kreislaufwirtschaftsgesetz setzt EU-Recht um. Es ist auf Ressourcenschonung, Klimaschutz und Umweltschutz ausgerichtet."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 In welchem Jahr wurde das Kreislaufwirtschaftsgesetz novelliert, also neu gefasst? Tippe das Jahr ein.",
+        "answer": 2020,
+        "hint": "Das Jahr ist eine runde Zahl.\nEs ist noch nicht lange her.",
+        "explanation": "Das Kreislaufwirtschaftsgesetz wurde 2020 novelliert. Novelliert heißt: neu gefasst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥇 Was fordert das Kreislaufwirtschaftsgesetz an erster Stelle?",
+        "options": [
+          { "text": "Abfälle stärker vermeiden.", "correct": true },
+          { "text": "Abfälle möglichst schnell verbrennen." },
+          { "text": "Abfälle in andere Länder bringen." },
+          { "text": "Abfälle auf Deponien sammeln." }
+        ],
+        "explanation": "Das Gesetz fordert zuerst eine stärkere Vermeidung von Abfällen. Nur wenn das nicht möglich ist, werden Abfälle verwertet oder beseitigt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Was hat sich durch die Gesetze zum Abfall verändert?",
+        "options": [
+          { "text": "Das Verhalten der Verbraucher und dadurch die Verpackungen der Industrie.", "correct": true },
+          { "text": "Nur die Farben der Mülltonnen in allen Gemeinden haben sich dadurch geändert." },
+          { "text": "Nur die Preise für Reinigungsmittel sind im Laden gestiegen." },
+          { "text": "Gar nichts, denn die Gesetze gelten nur für Krankenhäuser." }
+        ],
+        "explanation": "Durch die Gesetzgebung haben die Verbraucher ihr Verhalten geändert. Damit hat sich auch das Verpackungsverhalten der Industrie geändert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Zum Schluss etwas Leichtes: Wo kannst du schon die Müllmenge mindern, bevor du putzt?",
+        "options": [
+          { "text": "Beim Einkauf, indem du umweltbewusst einkaufst.", "correct": true },
+          { "text": "Erst beim Wegwerfen, indem du den Müll fester drückst." },
+          { "text": "Gar nicht, Müll entsteht immer von selbst." }
+        ],
+        "explanation": "Ein umweltbewusster Einkauf mindert die Müllmenge. Zum Beispiel kaufst du Großgebinde und Konzentrate statt vieler kleiner Flaschen."
+      }
+    }
+  ]
+}

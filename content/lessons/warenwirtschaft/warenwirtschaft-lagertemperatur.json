@@ -1,0 +1,138 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-lagertemperatur",
+  "title": "Lagern: Temperatur und Luftfeuchtigkeit",
+  "sort": 712,
+  "intro": "❄️ Nach der Annahme räumst du die Ware ein. Tiefkühlware kommt zuerst dran. Du lagerst sie sofort ein. Sie darf nicht antauen. Denn die Kühlkette muss erhalten bleiben. Kühlkette heißt: Die Ware bleibt ohne Unterbrechung kalt. Zu Hause kommt Tiefkühlware in die Gefriertruhe oder den Gefrierschrank. Eine Großküche hat einen eigenen Tiefkühlraum.\n\nMilchprodukte, Gemüse, Frischfleisch und Frischfisch lagerst du gekühlt. Jede Warengruppe braucht eine bestimmte Temperatur und Luftfeuchtigkeit. Laut deinem Fachbuch stammen die Werte aus der Norm DIN 10501.\n\nTemperatur: Milchprodukte 2 °C bis 4 °C. Gemüse 6 °C bis 8 °C. Frischfleisch und Frischfisch 2 °C. Tiefkühlung −18 °C oder kälter, also mindestens 18 Grad unter null. Trockenware und Konserven höchstens 20 °C.\n\nFür Getränke nennt die Tabelle im Fachbuch 8 °C bis 10 °C. An einer anderen Stelle sagt das Buch: Getränke lagern mit der Trockenware in einem trockenen, dunklen Raum. Frag im Zweifel deine Lehrerin.\n\nLuftfeuchtigkeit: Milchprodukte 75 % bis 80 %. Gemüse 88 % bis 90 %. Frischfleisch und Frischfisch 85 % bis 90 %.\n\nGemüse braucht die feuchteste Luft. Ist die Luft zu trocken, verliert Gemüse Wasser und wird welk. Die Luftfeuchtigkeit stellt man über das Belüftungssystem ein.\n\nAuf einer Packung Quark steht oft: gekühlt bei höchstens 8 °C. Das ist die obere Grenze. Im Kühlraum für Milchprodukte lagerst du kälter, bei 2 °C bis 4 °C.\n\nEine Großküche hat für jede Warengruppe einen eigenen Lagerraum. Ein Kühlschrank zu Hause schafft das nur zum Teil. Im Gemüsefach ist die Luft feuchter. Besonders kalt ist es direkt am Gefrierfach und ganz unten über der Glasplatte zum Gemüsefach. Denn kalte Luft ist schwerer und sinkt nach unten.\n\nEin Kartoffellager gibt es in Großküchen heute kaum noch. Sie bekommen meist geschälte Kartoffeln, genau so viel, wie sie brauchen.\n\nMERKE: Tiefkühlware zuerst einlagern. Sie darf nicht antauen.\n\nMERKE: Milchprodukte 2–4 °C. Gemüse 6–8 °C. Frischfleisch und -fisch 2 °C. Tiefkühlung −18 °C oder kälter. Trockenware höchstens 20 °C.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Eine Lieferung kommt: Milch, Gemüse, Nudeln und Tiefkühlware. Was räumst du zuerst ein?",
+        "options": [
+          { "text": "Die Tiefkühlware, sofort ins Tiefkühllager.", "correct": true },
+          { "text": "Die Milch, weil sie am leichtesten verdirbt." },
+          { "text": "Die Nudeln, weil sie am meisten Platz brauchen." }
+        ],
+        "explanation": "Tiefkühlware kommt immer zuerst und ohne Pause ins Tiefkühllager. Schon kurzes Antauen schadet ihr. Danach folgt die gekühlte Ware. Trockenware wie Nudeln kann warten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Warum darf Tiefkühlware beim Einlagern nicht antauen?",
+        "options": [
+          { "text": "Die Kühlkette darf nicht unterbrochen werden.", "correct": true },
+          { "text": "Angetaute Ware passt nicht mehr gut ins Regal." },
+          { "text": "Angetaute Ware wird beim Einfrieren haltbarer." }
+        ],
+        "explanation": "Kühlkette heißt: Die Ware bleibt vom Hersteller bis zur Küche ohne Unterbrechung kalt. Taut sie an, ist die Kühlkette unterbrochen. Dann können sich Keime vermehren."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌡️ Welche Temperatur braucht welche Warengruppe? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥛 Milchprodukte"}, "right": {"text": "2 °C bis 4 °C"} },
+          { "left": {"text": "🥕 Gemüse"}, "right": {"text": "6 °C bis 8 °C"} },
+          { "left": {"text": "🥩 Frischfleisch und -fisch"}, "right": {"text": "2 °C"} }
+        ],
+        "explanation": "Frag dich: Wie schnell verdirbt die Ware? Frischfleisch und Frischfisch verderben am schnellsten, sie brauchen 2 °C. Milchprodukte liegen knapp darüber. Gemüse verträgt es etwas wärmer."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧊 Tiefkühlung: Wie viel Grad unter null muss es im Tiefkühllager mindestens sein?",
+        "answer": 18,
+        "hint": "Die Temperatur ist −__ °C. Es ist eine Zahl zwischen 15 und 20.",
+        "explanation": "Die Tiefkühlung braucht −18 °C oder kälter, also mindestens 18 Grad unter null. Das steht so in der Tabelle in deinem Fachbuch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💧 Welche Luftfeuchtigkeit braucht welche Warengruppe? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥛 Milchprodukte"}, "right": {"text": "75 % bis 80 %"} },
+          { "left": {"text": "🥕 Gemüse"}, "right": {"text": "88 % bis 90 %"} },
+          { "left": {"text": "🥩 Frischfleisch und -fisch"}, "right": {"text": "85 % bis 90 %"} }
+        ],
+        "explanation": "Gemüse braucht die feuchteste Luft, sonst wird es welk. Milchprodukte brauchen die trockenste Luft der drei. Fleisch und Fisch liegen dazwischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥬 Im Kühlraum für Gemüse ist die Luft viel zu trocken. Was passiert mit dem Gemüse?",
+        "options": [
+          { "text": "Es verliert Wasser und wird welk.", "correct": true },
+          { "text": "Es bleibt dadurch länger knackig." },
+          { "text": "Es fängt an, langsam zu gefrieren." }
+        ],
+        "explanation": "Gemüse braucht eine hohe Luftfeuchtigkeit: 88 % bis 90 %. In trockener Luft verdunstet Wasser aus dem Gemüse. Dann wird es welk und verliert an Qualität."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌬️ Womit stellt man im Kühlraum die Luftfeuchtigkeit ein?",
+        "options": [
+          { "text": "Über das Belüftungssystem.", "correct": true },
+          { "text": "Über das Thermostat an der Tür." },
+          { "text": "Mit einem Eimer Wasser in der Ecke." }
+        ],
+        "explanation": "Die Luftfeuchtigkeit wird über das Belüftungssystem eingestellt. Das Thermostat regelt dagegen die Temperatur."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Im Kühlschrank zu Hause: Warum ist es direkt über der Glasplatte zum Gemüsefach besonders kalt?",
+        "options": [
+          { "text": "Kalte Luft ist schwerer und sinkt nach unten.", "correct": true },
+          { "text": "Warme Luft ist schwerer und bleibt ganz unten." },
+          { "text": "Die Glasplatte selbst erzeugt zusätzliche Kälte." }
+        ],
+        "explanation": "Kalte Luft ist schwerer als warme Luft. Sie sackt nach unten. Darum ist es unten über der Glasplatte und direkt am Gefrierfach besonders kalt. Dort passen leicht verderbliche Sachen hin."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏢 Ein Kühlschrank zu Hause kann nicht alle Werte gleichzeitig einhalten. Wie löst eine Großküche das?",
+        "options": [
+          { "text": "Mit einem eigenen Lagerraum für jede Warengruppe.", "correct": true },
+          { "text": "Mit einem großen Kühlraum für alle Waren zusammen." },
+          { "text": "Mit vielen Kühlschränken direkt an jedem Herd." }
+        ],
+        "explanation": "Jede Warengruppe braucht ihre eigene Temperatur und Luftfeuchtigkeit. Deshalb hat eine Großküche für jede Warengruppe einen eigenen Lagerraum. In einem gemeinsamen Raum ginge das nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥔 Warum gibt es in Großküchen heute kaum noch ein Kartoffellager?",
+        "options": [
+          { "text": "Sie bekommen meist geschälte Kartoffeln, passend zum Bedarf.", "correct": true },
+          { "text": "Kartoffeln dürfen in einer Großküche nicht gelagert werden." },
+          { "text": "Kartoffeln werden heute nur noch tiefgekühlt eingekauft." }
+        ],
+        "explanation": "Großküchen lassen sich die Kartoffeln meist schon geschält liefern. Sie bestellen genau so viel, wie sie brauchen. Ein großes Kartoffellager ist deshalb die Ausnahme."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Nudeln und Konserven: Wie warm darf es im Lager höchstens sein?",
+        "options": [
+          { "text": "20 °C", "correct": true },
+          { "text": "2 °C" },
+          { "text": "−18 °C" }
+        ],
+        "explanation": "Trockenware und Konserven brauchen keine Kühlung. Es darf aber höchstens 20 °C warm sein. 🎉"
+      }
+    }
+  ]
+}

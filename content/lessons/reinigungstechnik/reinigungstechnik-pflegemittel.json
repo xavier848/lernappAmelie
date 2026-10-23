@@ -1,0 +1,138 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-pflegemittel",
+  "title": "Pflegemittel: Wachs, Öl und Polymere",
+  "sort": 649,
+  "intro": "Pflegemittel kommen erst nach dem Reinigen zum Einsatz. Sie legen eine Schutzschicht auf die Oberfläche. So sieht sie schöner aus und wird strapazierfähiger.\n\nPflegemittel enthalten zum Beispiel Wachse, Öle und Fette, Lösungsmittel, Silikone, Kunststoffe und Tenside.\n\nWachse gibt es fest oder flüssig. Es gibt natürliche Wachse und künstliche, also synthetische Wachse, zum Beispiel Silikon. Wachse stecken in Bohnerwachs oder Möbelpolitur. Du kannst sie mit wenig Druck polieren. Sie bilden einen Film. Der Film schützt und gibt Glanz. Aber: Bei einer Grundreinigung musst du das Wachs mit viel Aufwand wieder entfernen.\n\nÖle und Fette stecken in Polituren.\n\nKunststoffe heißen auch Polymere. Sie bilden einen Schutzfilm. Der Film hält Wasser und Schmutz ab. Er lässt sich aber nur schwer durch eine Grundreinigung entfernen. Darum trägt man Polymere eher selten auf.\n\nSo setzt du Pflegemittel ein: Möbelpolitur für Holzmöbel. Öle und Wachse für Fußböden und Möbel aus Holz. Selbstglanzemulsion für Fußböden. Eine Emulsion ist eine milchige Mischung. Sie glänzt nach dem Trocknen von selbst. Lederpflege für Lederschuhe und Ledermöbel. Metallpolish-Reiniger für Edelstahlflächen.\n\nMERKE: Erst reinigen, dann pflegen. Pflegemittel legen eine Schutzschicht auf. Wachse und Polymere lassen sich bei der Grundreinigung nur schwer entfernen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Was macht ein Pflegemittel mit der Oberfläche?",
+        "options": [
+          { "text": "Es legt eine Schutzschicht auf und macht sie strapazierfähiger.", "correct": true },
+          { "text": "Es löst den tiefen Schmutz aus den Poren der Oberfläche heraus." },
+          { "text": "Es tötet alle Keime auf der Oberfläche vollständig ab." }
+        ],
+        "explanation": "Ein Pflegemittel schützt. Es legt eine Schicht auf die saubere Fläche. Die Fläche sieht dann schöner aus und hält mehr aus. Schmutz lösen ist die Aufgabe der Reinigungsmittel, Keime abtöten die der Desinfektionsmittel."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧪 Typisch für Pflegemittel oder typisch für Reinigungsmittel? Sortiere.",
+        "buckets": [
+          { "id": "pflege", "label": "Typisch für Pflegemittel", "icon": "✨" },
+          { "id": "rein", "label": "Typisch für Reinigungsmittel", "icon": "🧽" }
+        ],
+        "items": [
+          { "text": "Wachse", "bucket": "pflege" },
+          { "text": "Öle und Fette", "bucket": "pflege" },
+          { "text": "Silikone", "bucket": "pflege" },
+          { "text": "Polymere", "bucket": "pflege" },
+          { "text": "Säuren gegen Kalk", "bucket": "rein" },
+          { "text": "Bleichmittel", "bucket": "rein" },
+          { "text": "Komplexbildner", "bucket": "rein" }
+        ],
+        "explanation": "Pflegemittel bilden eine Schutzschicht. Dafür brauchen sie Stoffe, die einen Film bilden: Wachse, Öle und Fette, Silikone und Polymere. Säuren, Bleichmittel und Komplexbildner lösen Schmutz oder enthärten Wasser. Das ist Reinigungsarbeit."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Pflegemittel passt wohin? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🪑 Möbelpolitur"}, "right": {"text": "Holzmöbel"} },
+          { "left": {"text": "💧 Selbstglanzemulsion"}, "right": {"text": "Fußböden"} },
+          { "left": {"text": "👞 Lederpflege"}, "right": {"text": "Lederschuhe und Ledermöbel"} },
+          { "left": {"text": "🔩 Metallpolish-Reiniger"}, "right": {"text": "Edelstahlflächen"} }
+        ],
+        "explanation": "Jedes Material braucht seine eigene Pflege. Politur für Holzmöbel, Selbstglanzemulsion für Böden, Lederpflege für Leder und Metallpolish für Edelstahl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕯️ Was bewirken Wachse, zum Beispiel im Bohnerwachs?",
+        "options": [
+          { "text": "Sie bilden einen Film, der schützt und glänzt.", "correct": true },
+          { "text": "Sie lösen Kalk und Rost ganz von der Oberfläche." },
+          { "text": "Sie töten Keime auf der Oberfläche ab." }
+        ],
+        "explanation": "Wachse bilden einen Film auf der Oberfläche. Er schützt und gibt Glanz. Mit wenig Druck kannst du Wachs polieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪣 Welchen Nachteil haben Wachse?",
+        "options": [
+          { "text": "Bei der Grundreinigung sind sie nur mühsam zu entfernen.", "correct": true },
+          { "text": "Man kann sie gar nicht polieren, auch nicht mit starkem Druck." },
+          { "text": "Sie machen glänzende Flächen stumpf und ganz matt." }
+        ],
+        "explanation": "Wachs schützt gut. Aber bei jeder Grundreinigung muss die alte Wachsschicht mit viel Aufwand wieder herunter. Polieren lässt sich Wachs dagegen leicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐝 Welche Arten von Wachs gibt es?",
+        "options": [
+          { "text": "Feste und flüssige, natürliche und synthetische wie Silikon.", "correct": true },
+          { "text": "Nur feste Wachse, und die kommen immer von Bienen aus dem Stock." },
+          { "text": "Nur flüssige Wachse, und die bestehen immer aus Öl." }
+        ],
+        "explanation": "Wachse können fest oder flüssig sein. Sie können natürlich sein oder künstlich hergestellt. Künstlich heißt synthetisch, zum Beispiel Silikon."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Warum trägt man Kunststoffe, also Polymere, eher selten auf?",
+        "options": [
+          { "text": "Sie lassen sich bei der Grundreinigung nur schwer entfernen.", "correct": true },
+          { "text": "Sie ziehen Wasser und Schmutz besonders stark an." },
+          { "text": "Sie machen die Oberfläche schon nach sehr kurzer Zeit ganz rau." }
+        ],
+        "explanation": "Polymere bilden einen Schutzfilm, der Wasser und Schmutz abhält. Das ist gut. Aber der Film geht bei der Grundreinigung nur schwer ab. Darum nimmt man sie eher selten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Wo stecken Öle und Fette als Pflegemittel drin?",
+        "options": [
+          { "text": "In Polituren.", "correct": true },
+          { "text": "In Sanitärreinigern." },
+          { "text": "In Glasreinigern." }
+        ],
+        "explanation": "Öle und Fette sind in Polituren enthalten, zum Beispiel für Möbel. Sanitärreiniger und Glasreiniger sind Reinigungsmittel, keine Pflegemittel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Ein sauberer Holzfußboden soll gepflegt werden. Welche Mittel passen?",
+        "options": [
+          { "text": "Öle und Wachse.", "correct": true },
+          { "text": "Säuren und Laugen." },
+          { "text": "Bleichmittel." }
+        ],
+        "explanation": "Für Fußböden und Möbel aus Holz nimmt man Öle und Wachse. Säuren, Laugen und Bleichmittel würden das Holz angreifen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔁 Kommt das Pflegemittel vor oder nach dem Reinigen?",
+        "options": [
+          { "text": "Nach dem Reinigen.", "correct": true },
+          { "text": "Vor dem Reinigen." },
+          { "text": "Statt dem Reinigen." }
+        ],
+        "explanation": "Pflegemittel kommen erst nach der Reinigung auf die saubere Fläche. Sonst würdest du den Schmutz unter der Schutzschicht einschließen."
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "topic_slug": "arbeitssicherheit",
+  "slug": "arbeitssicherheit-arbeitsplatz-fehler",
+  "title": "Arbeitsplatz: Fehler vermeiden",
+  "sort": 580,
+  "intro": "🛠️ Ein gut gestalteter Arbeitsplatz macht die tägliche Arbeit leichter. Dazu gehören auch Geräte, die die Arbeit erleichtern. So verhinderst du Überbeanspruchung, Verspannungen und Folgeschäden. Überbeanspruchung heißt: Der Körper wird zu stark belastet. Folgeschäden sind Schäden, die später daraus entstehen.\n\nHäufige Fehler bei der Arbeit sind: falsche Handgriffe. Überkreuztes Arbeiten mit den Händen. Arbeitsgeräte, die zu weit weg oder zu eng stehen oder auf viele Schränke und Schubladen verteilt sind. Ein zu niedriger Arbeitstisch. Ein ungeeigneter Arbeitsstuhl. Kaputte, ungeeignete oder unhandliche Geräte, zum Beispiel ungeschliffene Messer oder zu kurze Stiele. Und ungeeignete Reinigungstücher, mit denen die Arbeit unnötig lange dauert.\n\nAchte beim Einrichten auf die Greifräume. Im inneren Greifraum liegt, was du direkt brauchst. Im äußeren Greifraum liegt, was du später oder nicht sofort brauchst. Wähle die Arbeitsfläche passend zur Tätigkeit. Je nachdem, wie groß die Arbeit ist, können sich die Greifräume verändern. Du passt sie der Aufgabe an.\n\nMERKE: Vermeide Kreuzgriffe, denn sie führen zu unnötig weiten Bewegungen. Was du mit der linken Hand greifst, steht links. Achte auf einen fließenden Bewegungsablauf.\n\nMERKE: Trenne die Vorbereitung von der Zerkleinerung. Gemüse putzen ist der unreine Bereich. Gemüse schneiden ist der reine Bereich.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Warum gestaltest du den Arbeitsplatz gut und nutzt Geräte, die die Arbeit erleichtern?",
+        "options": [
+          { "text": "So verhinderst du Überbeanspruchung, Verspannungen und Folgeschäden.", "correct": true },
+          { "text": "So kannst du während der ganzen Arbeit auf Pausen verzichten." },
+          { "text": "So brauchst du bei der Arbeit keine Arbeitskleidung mehr zu tragen." }
+        ],
+        "explanation": "Ein guter Arbeitsplatz und arbeitserleichternde Geräte schonen deinen Körper. So wird er nicht zu stark belastet, verspannt sich nicht und bekommt keine Schäden, die später auftreten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Guter Arbeitsplatz oder typischer Fehler? Sortiere.",
+        "explanation": "Frag dich: Muss sich mein Körper verbiegen, strecken oder unnötig anstrengen? Dann ist es ein Fehler. Passt alles zu mir und zur Arbeit, ist der Arbeitsplatz gut eingerichtet.",
+        "buckets": [
+          { "id": "gut", "label": "Gut eingerichtet", "icon": "✅" },
+          { "id": "fehler", "label": "Typischer Fehler", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Ein Tisch in passender Höhe", "bucket": "gut" },
+          { "text": "Ein Stuhl, der zur Arbeit passt", "bucket": "gut" },
+          { "text": "Handliche Geräte, die heil sind", "bucket": "gut" },
+          { "text": "Alles griffbereit in der Nähe", "bucket": "gut" },
+          { "text": "Ein zu niedriger Arbeitstisch", "bucket": "fehler" },
+          { "text": "Ein ungeeigneter Arbeitsstuhl", "bucket": "fehler" },
+          { "text": "Falsche Handgriffe", "bucket": "fehler" },
+          { "text": "Geräte stehen viel zu weit weg", "bucket": "fehler" }
+        ]
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Welcher Fehler, welche Lösung? Verbinde.",
+        "explanation": "Jeder dieser Fehler kostet Kraft oder Zeit. Die Lösung beseitigt genau die Ursache: schärfen, passend wählen, zusammenstellen.",
+        "pairs": [
+          { "left": {"text": "🔪 Ungeschliffenes Messer"}, "right": {"text": "Messer schleifen lassen"} },
+          { "left": {"text": "🧹 Zu kurzer Stiel"}, "right": {"text": "Gerät mit passender Stiellänge nehmen"} },
+          { "left": {"text": "🗄️ Geräte in vielen Schubladen verteilt"}, "right": {"text": "Geräte griffbereit zusammenstellen"} },
+          { "left": {"text": "🧽 Ungeeignetes Reinigungstuch"}, "right": {"text": "Ein passendes Tuch für die Fläche nehmen"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Du putzt mit einem ungeeigneten Tuch. Welches Problem nennt dein Buch dafür?",
+        "options": [
+          { "text": "Die Arbeit dauert unnötig lange.", "correct": true },
+          { "text": "Das Tuch muss man öfter kaufen." },
+          { "text": "Das Tuch färbt auf die Hände ab." }
+        ],
+        "explanation": "Ungeeignete Reinigungstücher verlängern die Arbeitszeit unnötig. Mit dem passenden Tuch bist du schneller fertig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❌ Deine rechte Hand greift über die linke hinweg nach der Schüssel. Wie nennt man das, und warum ist es schlecht?",
+        "options": [
+          { "text": "Ein Kreuzgriff. Er führt zu unnötig weiten Bewegungen.", "correct": true },
+          { "text": "Ein Doppelgriff. Er ist besonders schnell und sicher." },
+          { "text": "Ein Kreuzgriff. Er spart Zeit, weil die Hand schon oben ist." }
+        ],
+        "explanation": "Greifen sich die Arme über Kreuz, heißt das Kreuzgriff oder überkreuztes Arbeiten. Das macht unnötig weite Bewegungen und strengt Arme und Schultern an. Darum vermeidest du Kreuzgriffe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤚 Du greifst die Karotten immer mit der linken Hand. Wo stehen sie deshalb?",
+        "options": [
+          { "text": "Links", "correct": true },
+          { "text": "Rechts" },
+          { "text": "Direkt vor dir auf dem Brett" }
+        ],
+        "explanation": "Was mit der linken Hand gegriffen wird, steht links. So muss die Hand nicht über die andere greifen. Das passt zu deinem Arbeitsblatt: Bei Rechtshändern steht die Rohware links."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥕 Unreiner oder reiner Bereich? Sortiere.",
+        "explanation": "Frag dich: Mache ich das Gemüse erst sauber, oder zerkleinere ich es schon? Putzen und Waschen sind Vorbereitung, also der unreine Bereich. Schneiden und Hacken sind Zerkleinerung, also der reine Bereich. Beide Bereiche trennst du am Arbeitsplatz.",
+        "buckets": [
+          { "id": "unrein", "label": "Unreiner Bereich (Vorbereitung)", "icon": "🟤" },
+          { "id": "rein", "label": "Reiner Bereich (Zerkleinerung)", "icon": "⚪" }
+        ],
+        "items": [
+          { "text": "Möhren putzen", "bucket": "unrein" },
+          { "text": "Erdige Kartoffeln waschen", "bucket": "unrein" },
+          { "text": "Welke Blätter vom Salat entfernen", "bucket": "unrein" },
+          { "text": "Möhren in Scheiben schneiden", "bucket": "rein" },
+          { "text": "Zwiebeln hacken", "bucket": "rein" },
+          { "text": "Paprika in Würfel schneiden", "bucket": "rein" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌊 Worauf achtest du bei deinen Bewegungen am Arbeitsplatz?",
+        "options": [
+          { "text": "Auf einen fließenden Bewegungsablauf.", "correct": true },
+          { "text": "Auf viele schnelle, einzelne Bewegungen." },
+          { "text": "Auf große Bewegungen mit gestreckten Armen." }
+        ],
+        "explanation": "Ein fließender Bewegungsablauf heißt: Eine Bewegung geht ruhig in die nächste über. Das spart Kraft. Hektische oder weite Bewegungen strengen unnötig an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Heute schneidest du Gemüse für 100 Personen statt für 4. Was passiert mit den Greifräumen?",
+        "options": [
+          { "text": "Sie können sich verändern und werden der Aufgabe angepasst.", "correct": true },
+          { "text": "Sie bleiben immer genau gleich groß, egal wie viel Arbeit ist." },
+          { "text": "Es gibt bei großen Mengen gar keinen äußeren Greifraum mehr." }
+        ],
+        "explanation": "Je nach Umfang der Arbeit verändern sich innerer und äußerer Greifraum. Du wählst die Arbeitsfläche passend zur Tätigkeit und passt die Greifräume an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Die große Salatschüssel brauchst du erst am Ende. Wohin stellst du sie?",
+        "options": [
+          { "text": "In den äußeren Greifraum", "correct": true },
+          { "text": "In den inneren Greifraum" },
+          { "text": "Direkt auf das Schneidebrett" }
+        ],
+        "explanation": "Im äußeren Greifraum steht, was du später oder nicht sofort brauchst. Der innere Greifraum bleibt frei für das, was du direkt brauchst."
+      }
+    }
+  ]
+}

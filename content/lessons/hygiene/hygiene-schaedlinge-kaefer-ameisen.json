@@ -1,0 +1,145 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-schaedlinge-kaefer-ameisen",
+  "title": "Schadinsekten: Käfer und Ameisen",
+  "sort": 712,
+  "intro": "🪲 Käfer: Viele Käfer können auch fliegen, zum Beispiel der Reiskäfer und der Reismehlkäfer. Wichtige Vorratsschädlinge sind auch der Getreidekapuzinerkäfer, der Kornkäfer und der Mehlkäfer. Der Kornkäfer gehört zu den Rüsselkäfern. Die Larven vom Mehlkäfer heißen Mehlwürmer.\n\nAmeisen: Ameisen sind wichtig für die Natur. Manche stehen sogar unter Naturschutz, zum Beispiel die Rote Waldameise. Sie ist eine heimische Ameise. Kommen Ameisen aber ins Haus, muss man sie bekämpfen. Heimische Ameisen suchen im Haus vor allem Zucker.\n\nSo bekämpfst du Ameisen, in dieser Reihenfolge: 1. Vorbeugen: Du packst Lebensmittel in dichte Gläser. Dann finden die Ameisen nichts und verlieren das Interesse. Ihre Späher suchen nicht weiter. Späher sind Ameisen, die nach Futter suchen. 2. Kommen trotzdem Ameisen, verschließt du ihre Schlupflöcher. Dazu folgst du der Ameisenstraße. 3. Hilft das nicht, streust du Ameisengift. Die Ameisen tragen es zur Königin. Stirbt die Königin, bricht der Ameisenstaat meist zusammen. Das dauert einige Tage.\n\nDie Pharaoameise ist in den letzten Jahren ein wachsendes Problem in Deutschland. Sie kommt aus wärmeren Gebieten. In beheizten Gebäuden übersteht sie den Winter. Sie frisst gern Fleisch. Sie ist nur 2 mm groß. Darum übersieht man sie oft. Gegen sie gibt es besondere Ameisenköderdosen.\n\nMERKE: Ameisen bekämpfen: 1. dichte Gläser, 2. Schlupflöcher verschließen, 3. erst dann Gift.\n\nMERKE: Die Larven vom Mehlkäfer sind die Mehlwürmer.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪲 Im Vorratsschrank krabbeln Reiskäfer. Was solltest du über diese Käfer wissen?",
+        "options": [
+          { "text": "Sie können auch fliegen.", "correct": true },
+          { "text": "Sie können nur krabbeln." },
+          { "text": "Sie fressen nur Holz." }
+        ],
+        "explanation": "Viele Käfer können fliegen, zum Beispiel Reiskäfer und Reismehlkäfer. So kommen sie auch in andere Schränke. Prüfe deshalb alle Vorräte in der Nähe."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔎 Käfer oder Motte? Sortiere die Vorratsschädlinge.",
+        "buckets": [
+          { "id": "kaefer", "label": "Käfer", "icon": "🪲" },
+          { "id": "motte", "label": "Motte", "icon": "🦋" }
+        ],
+        "items": [
+          { "text": "Kornkäfer", "bucket": "kaefer" },
+          { "text": "Mehlkäfer", "bucket": "kaefer" },
+          { "text": "Getreidekapuzinerkäfer", "bucket": "kaefer" },
+          { "text": "Reismehlkäfer", "bucket": "kaefer" },
+          { "text": "Mehlmotte", "bucket": "motte" },
+          { "text": "Dörrobstmotte", "bucket": "motte" },
+          { "text": "Kleidermotte", "bucket": "motte" }
+        ],
+        "explanation": "Lies nur das Ende vom Namen: Endet er auf -käfer, ist es ein Käfer. Endet er auf -motte, ist es eine Motte. Achtung: Mehlkäfer und Mehlmotte klingen ähnlich, sind aber verschiedene Tiere."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐽 Welcher dieser Käfer gehört zu den Rüsselkäfern?",
+        "options": [
+          { "text": "Der Kornkäfer.", "correct": true },
+          { "text": "Der Mehlkäfer." },
+          { "text": "Der Getreidekapuzinerkäfer." }
+        ],
+        "explanation": "Der Kornkäfer ist ein Vertreter der Rüsselkäfer. Mehlkäfer und Getreidekapuzinerkäfer sind auch Vorratsschädlinge, aber keine Rüsselkäfer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐛 Im Mehl findest du Mehlwürmer. Was sind Mehlwürmer?",
+        "options": [
+          { "text": "Die Larven vom Mehlkäfer.", "correct": true },
+          { "text": "Die Larven von der Mehlmotte." },
+          { "text": "Kleine Regenwürmer aus der Erde." }
+        ],
+        "explanation": "Mehlwürmer sind keine Würmer. Es sind die Larven vom Mehlkäfer. Und Larven sind die eigentlichen Schädlinge. Befallenes Mehl kommt weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌲 Warum bekämpft man Ameisen nicht überall, zum Beispiel nicht im Wald?",
+        "options": [
+          { "text": "Sie sind wichtig für die Natur, manche stehen unter Naturschutz.", "correct": true },
+          { "text": "Ameisen sind überall völlig harmlos, auch in einer Küche." },
+          { "text": "Ameisen sterben im Winter sowieso alle von allein." }
+        ],
+        "explanation": "Ameisen haben einen hohen Stellenwert im Ökosystem, also in der Natur. Die Rote Waldameise steht zum Beispiel unter Naturschutz. Nur wenn Ameisen in Gebäude kommen, bekämpft man sie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍬 Heimische Ameisen kommen ins Haus. Worauf haben sie es besonders abgesehen?",
+        "options": [
+          { "text": "Auf Zuckervorräte.", "correct": true },
+          { "text": "Auf Wolle und Pelz." },
+          { "text": "Auf Papier und Pappe." }
+        ],
+        "explanation": "Heimische Ameisen interessieren sich besonders für Zucker. Wolle frisst die Kleidermotte, Papier fressen Materialschädlinge wie Silberfischchen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🐜 Ameisen im Haus: Bringe die Bekämpfung in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Lebensmittel in dichte Gläser packen." },
+          { "text": "Der Ameisenstraße folgen und die Schlupflöcher verschließen." },
+          { "text": "Erst wenn das nicht hilft: Ameisengift streuen." }
+        ],
+        "explanation": "Die Regel heißt: vom Sanften zum Starken. Zuerst nimmst du den Ameisen das Futter. Dann versperrst du ihnen den Weg. Gift kommt nur, wenn beides nicht reicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👑 Du hast Ameisengift gestreut. Warum wirkt es, obwohl die meisten Ameisen im Nest sind?",
+        "options": [
+          { "text": "Sie tragen es zur Königin. Stirbt sie, bricht der Staat nach einigen Tagen meist zusammen.", "correct": true },
+          { "text": "Das Gift riecht so stark, dass alle Ameisen das Haus in wenigen Minuten für immer verlassen." },
+          { "text": "Das Gift tötet sofort jede Ameise, die im Umkreis von vielen Metern um das Haus lebt." }
+        ],
+        "explanation": "Die Ameisen bringen das Gift ins Nest zur Königin. Ohne Königin bricht der Ameisenstaat meist zusammen. Das dauert einige Tage, nicht nur Minuten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔬 Pharaoameise oder heimische Ameise? Sortiere.",
+        "buckets": [
+          { "id": "pharao", "label": "Pharaoameise", "icon": "🔬" },
+          { "id": "heim", "label": "Heimische Ameise", "icon": "🐜" }
+        ],
+        "items": [
+          { "text": "Nur 2 mm groß, wird oft übersehen", "bucket": "pharao" },
+          { "text": "Frisst gern Fleisch", "bucket": "pharao" },
+          { "text": "Kommt aus wärmeren Gebieten", "bucket": "pharao" },
+          { "text": "Überwintert in beheizten Gebäuden", "bucket": "pharao" },
+          { "text": "Wird mit besonderen Köderdosen bekämpft", "bucket": "pharao" },
+          { "text": "Sucht im Haus vor allem Zucker", "bucket": "heim" },
+          { "text": "Die Rote Waldameise steht unter Naturschutz", "bucket": "heim" }
+        ],
+        "explanation": "Die Pharaoameise ist ein Gast aus warmen Ländern. Sie braucht beheizte Gebäude, frisst gern Fleisch und ist winzig. Heimische Ameisen suchen im Haus vor allem Zucker. Zu ihnen gehört auch die Rote Waldameise."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Wie schützt du Zucker vorbeugend vor Ameisen?",
+        "options": [
+          { "text": "In einem dichten Glas.", "correct": true },
+          { "text": "In einer offenen Schale." },
+          { "text": "In einer Papiertüte." }
+        ],
+        "explanation": "Im dichten Glas finden Ameisen keinen Zucker. Dann verlieren sie das Interesse. 🎉"
+      }
+    }
+  ]
+}

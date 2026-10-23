@@ -1,0 +1,149 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-fenster-vorbereiten",
+  "title": "Fenster putzen: Plan und Vorbereitung",
+  "sort": 660,
+  "intro": "Zur Fensterreinigung gehören die Glasscheiben und die Fensterrahmen. Ein Arbeitsablaufplan zeigt dir alle Schritte der Reihe nach.\n\nDas brauchst du: eine standfeste Trittleiter, Staubtuch, Handfeger und Kehrschaufel, Zeitung oder Folie zum Abdecken, Einwascher, Abzieher, Glasschaber, Fensterleder, Mikrofasertuch oder Schwamm und einen Eimer mit Wasser und Reinigungsmittel. Als Reinigungsmittel nimmst du Geschirrspülmittel, Spiritus oder Essig. Oder du nimmst Glasreiniger.\n\nDer Arbeitsablauf: 1. Arbeitsplatz einrichten. 2. Fenster vorbereiten. 3. Rahmen reinigen. 4. Scheibe innen reinigen. 5. Scheibe trocknen. 6. Rahmen und Scheibe außen reinigen. 7. Nacharbeiten. 8. Arbeitsplatz aufräumen.\n\nArbeitsplatz einrichten: Du stellst alle Arbeitsmittel bereit, zum Beispiel auf einem Reinigungswagen. Du füllst den Eimer mit lauwarmem Wasser und Spülmittel. Das Spülmittel dosierst du nach Anweisung. Empfindliche Böden wie Parkett oder Teppichboden deckst du am Fenster mit Zeitung oder Folie ab. Dann werden sie nicht schmutzig und nicht durch Wassertropfen beschädigt.\n\nFenster vorbereiten: Du schiebst die Gardinen zur Seite oder nimmst sie ab. Vielleicht gibst du sie gleich zum Waschen. Topfblumen und Dekogegenstände stellst du zur Seite, zum Beispiel auf einen Arbeitswagen.\n\nRahmen reinigen: Zuerst fegst du den Rahmen mit dem Handfeger ab. Dann wischst du ihn mit Schwamm oder Mikrofasertuch feucht ab. Zum Schluss trocknest du ihn nach, mit einem Tuch oder mit dem ausgewrungenen Mikrofasertuch.\n\nMERKE: Erst reinigst du innen: zuerst den Rahmen, dann die Scheibe. Danach reinigst du außen in der gleichen Reihenfolge.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🪟 Der Arbeitsablaufplan für ein Fenster: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Arbeitsplatz einrichten" },
+          { "text": "Fenster vorbereiten" },
+          { "text": "Rahmen innen reinigen" },
+          { "text": "Scheibe innen reinigen und trocknen" },
+          { "text": "Rahmen und Scheibe außen reinigen" },
+          { "text": "Nacharbeiten und Arbeitsplatz aufräumen" }
+        ],
+        "explanation": "Frag dich bei jedem Schritt: Was muss vorher fertig sein? Erst richtest du alles her. Dann machst du das Fenster frei. Innen kommt vor außen, und der Rahmen kommt vor der Scheibe. Aufgeräumt wird ganz am Ende."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧰 Gehört das auf den Wagen für die Fensterreinigung? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Brauche ich", "icon": "✅" },
+          { "id": "nein", "label": "Brauche ich nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Standfeste Trittleiter", "bucket": "ja" },
+          { "text": "Einwascher", "bucket": "ja" },
+          { "text": "Abzieher", "bucket": "ja" },
+          { "text": "Fensterleder", "bucket": "ja" },
+          { "text": "Glasschaber", "bucket": "ja" },
+          { "text": "Zeitung oder Folie", "bucket": "ja" },
+          { "text": "Scheuerpulver", "bucket": "nein" },
+          { "text": "Drehstuhl zum Hochsteigen", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Hilft es beim Fenster, ohne Schaden und ohne Unfall? Scheuerpulver zerkratzt das Glas. Auf einen Drehstuhl steigst du nie, er kann wegrollen. Zum Hochsteigen nimmst du eine standfeste Trittleiter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Welche Reinigungsmittel nennt das Buch für die Fensterreinigung?",
+        "options": [
+          { "text": "Geschirrspülmittel, Spiritus oder Essig, alternativ Glasreiniger.", "correct": true },
+          { "text": "Scheuermilch, Spiritus oder Essig, alternativ Möbelpolitur." },
+          { "text": "Weichspüler, Spiritus oder Backofenreiniger, alternativ Seife." },
+          { "text": "Grundreiniger, Chlorreiniger oder Scheuerpulver, alternativ Essig." }
+        ],
+        "explanation": "Für Fenster nimmst du Geschirrspülmittel, Spiritus oder Essig. Du kannst auch Glasreiniger nehmen. Scheuernde Mittel zerkratzen das Glas. Möbelpolitur und Weichspüler hinterlassen einen Film."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪣 Du richtest den Arbeitsplatz ein. Womit füllst du den Eimer?",
+        "options": [
+          { "text": "Mit lauwarmem Wasser und Spülmittel, dosiert nach Anweisung.", "correct": true },
+          { "text": "Mit heißem Wasser und viel Spülmittel, damit es gut schäumt." },
+          { "text": "Mit kaltem Wasser ganz ohne Mittel, denn das reicht immer." },
+          { "text": "Mit lauwarmem Wasser und Scheuermilch, damit es gut greift." }
+        ],
+        "explanation": "In den Eimer kommt lauwarmes Wasser mit Spülmittel. Das Spülmittel dosierst du nach Anweisung, also nicht nach Gefühl. Zu viel Mittel macht Schlieren. Statt Spülmittel kannst du auch Spiritus oder Essig nehmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Unter dem Fenster liegt Parkett. Was machst du, bevor du anfängst?",
+        "options": [
+          { "text": "Ich decke den Boden mit Zeitung oder Folie ab.", "correct": true },
+          { "text": "Ich wische den Boden nass, dann fallen Tropfen nicht auf." },
+          { "text": "Nichts, Parkett verträgt ein paar Wassertropfen gut." },
+          { "text": "Ich lege ein nasses Handtuch direkt auf das Parkett." }
+        ],
+        "explanation": "Empfindliche Böden wie Parkett oder Teppichboden deckst du am Fenster ab. Dann werden sie nicht schmutzig und Wassertropfen beschädigen sie nicht. Dafür nimmst du Zeitung oder Folie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪴 Jetzt bereitest du das Fenster vor. Was machst du mit Gardinen, Topfblumen und Deko?",
+        "options": [
+          { "text": "Gardinen zur Seite schieben oder abnehmen, Blumen und Deko zur Seite stellen.", "correct": true },
+          { "text": "Gardinen hängen lassen, Blumen und Deko auf der Fensterbank stehen lassen." },
+          { "text": "Gardinen nass machen, damit sie beim Fensterputzen keinen Staub aufwirbeln können." },
+          { "text": "Gardinen fest zuziehen, damit kein Wasser auf die Topfblumen tropft." }
+        ],
+        "explanation": "Das Fenster muss frei sein. Die Gardinen schiebst du zur Seite oder nimmst sie ab, vielleicht gibst du sie gleich in die Wäsche. Topfblumen und Deko stellst du zur Seite, zum Beispiel auf einen Arbeitswagen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧹 So reinigst du den Fensterrahmen. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Den Rahmen mit dem Handfeger abfegen." },
+          { "text": "Den Rahmen mit Schwamm oder Mikrofasertuch feucht abwischen." },
+          { "text": "Den Rahmen mit einem Tuch nachtrocknen." }
+        ],
+        "explanation": "Die Regel lautet: erst trocken, dann feucht, dann wieder trocken. Loser Staub und Krümel kommen zuerst mit dem Handfeger weg. Sonst verschmierst du sie beim feuchten Wischen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Innen ist das Fenster fertig. Wie reinigst du Rahmen und Scheibe außen?",
+        "options": [
+          { "text": "In der gleichen Reihenfolge wie innen: erst den Rahmen, dann die Scheibe.", "correct": true },
+          { "text": "Andersherum als innen: erst die Scheibe, dann den Rahmen, dann die Fensterbank." },
+          { "text": "Außen reichen Rahmen und Scheibe gleichzeitig, mit dem Einwascher in einem Zug." },
+          { "text": "Außen putzt du nur die Scheibe, weil der Rahmen draußen nie sauber bleibt." }
+        ],
+        "explanation": "Nach der Innenreinigung arbeitest du außen in der gleichen Reihenfolge. Also wieder erst den Rahmen, dann die Scheibe. So tropft kein Schmutz vom Rahmen auf das saubere Glas."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Arbeitsmittel hat welche Aufgabe? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Einwascher"}, "right": {"text": "Scheibe anfeuchten und Schmutz lösen"} },
+          { "left": {"text": "Abzieher"}, "right": {"text": "Scheibe trocknen"} },
+          { "left": {"text": "Fensterleder"}, "right": {"text": "Falz rundherum nachtrocknen"} },
+          { "left": {"text": "Glasschaber"}, "right": {"text": "Farbflecken vorsichtig ablösen"} },
+          { "left": {"text": "Zeitung oder Folie"}, "right": {"text": "Empfindlichen Boden abdecken"} },
+          { "left": {"text": "Handfeger"}, "right": {"text": "Rahmen abfegen"} }
+        ],
+        "explanation": "Jedes Arbeitsmittel hat eine feste Aufgabe. Frag dich: Wird hier nass gemacht, getrocknet, abgelöst oder geschützt? Dann findest du das passende Werkzeug."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Zum Schluss etwas Leichtes: Was gehört alles zur Fensterreinigung?",
+        "options": [
+          { "text": "Die Glasscheiben und die Fensterrahmen.", "correct": true },
+          { "text": "Nur die Glasscheiben, der Rahmen gehört nicht dazu." },
+          { "text": "Nur die Rahmen, die Scheiben putzt man extra." }
+        ],
+        "explanation": "Zur Fensterreinigung gehören die Glasscheiben und die Fensterrahmen. Ein sauberes Glas in einem schmutzigen Rahmen sieht nicht gepflegt aus."
+      }
+    }
+  ]
+}

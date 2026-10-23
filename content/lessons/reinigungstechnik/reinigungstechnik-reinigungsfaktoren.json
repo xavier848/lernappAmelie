@@ -1,0 +1,142 @@
+{
+  "topic_slug": "reinigungstechnik",
+  "slug": "reinigungstechnik-reinigungsfaktoren",
+  "title": "Sinnerscher Kreis: 4 Reinigungsfaktoren",
+  "sort": 644,
+  "intro": "Beim Reinigen entfernst du Schmutz, hältst die Hygieneregeln ein und pflegst die Einrichtung. Dafür brauchst du verschiedene Mittel. Damit sie gut wirken, musst du einige Faktoren beachten.\n\nNach Sinner gibt es vier Reinigungsfaktoren: Chemie, Temperatur, Mechanik und Zeit. Man zeichnet sie als Kreis mit vier Teilen. Das Bild heißt Sinnerscher Kreis.\n\nChemie: Reinigungsmittel kommen ins Wasser. Dort wirken sie. Wichtig sind die richtige Auswahl und die richtige Anwendungskonzentration. Das ist die Menge Mittel im Wasser.\n\nTemperatur: Die Wärme beeinflusst, wie gut sich Schmutz entfernen lässt. Beim Reinigen von Räumen und Flächen ist das Wasser kalt bis lauwarm, also etwa 20 bis 22 °C. In heißem Wasser verdunsten die Reinigungsmittel. Dann verlieren sie einen Teil ihrer Wirkung. Und die Reinigungskraft atmet die Dämpfe ein.\n\nHeißes Wasser verstärkt zwar die Wirkung. Aber es kann das Material schädigen. Und es lässt Flächen zu schnell trocknen. Beim Fensterputzen gibt das Streifen. Beim Spülen von Geschirr gilt etwas anderes. Dort nimmst du heißes Wasser.\n\nMechanik: Das ist die Kraft beim Reiben, Wischen oder Schrubben. Du arbeitest von Hand oder mit Maschinen. Die Mechanik trägt den Schmutz ab. Maschinen erleichtern die Arbeit und sparen Zeit.\n\nZeit: Der Schmutz braucht Zeit, um sich zu lösen und aufzuquellen. Die Einwirkzeit beeinflusst den Erfolg. Wie lange etwas einwirken darf, hängt auch vom Material ab.\n\nDie vier Faktoren hängen zusammen. Wird einer verändert, ändern sich auch die anderen. Die Summe bleibt aber gleich. Beispiel: Die Spülmaschine im Haushalt spült lange, dafür mit wenig Chemie. Die gewerbliche Spülmaschine spült sehr kurz, dafür mit mehr Chemie.\n\nMERKE: Sinnerscher Kreis = Chemie, Temperatur, Mechanik und Zeit. Wird ein Faktor kleiner, muss ein anderer größer werden. Putzwasser ist kalt bis lauwarm: etwa 20 bis 22 °C.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⭕ Welche vier Reinigungsfaktoren gibt es nach Sinner?",
+        "options": [
+          { "text": "Chemie, Temperatur, Mechanik und Zeit.", "correct": true },
+          { "text": "Wasser, Seife, Tuch und Eimer." },
+          { "text": "Chemie, Wasser, Druck und das Tageslicht." }
+        ],
+        "explanation": "Die vier Faktoren sind Chemie, Temperatur, Mechanik und Zeit. Zusammen ergeben sie den Sinnerschen Kreis. Wasser, Tuch und Eimer sind Hilfsmittel, keine Faktoren."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was gehört zu welchem Faktor? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🧪 Chemie"}, "right": {"text": "Richtiges Mittel in richtiger Konzentration"} },
+          { "left": {"text": "🌡️ Temperatur"}, "right": {"text": "Wie warm das Wasser ist"} },
+          { "left": {"text": "✋ Mechanik"}, "right": {"text": "Reiben von Hand oder mit Maschine"} },
+          { "left": {"text": "⏱️ Zeit"}, "right": {"text": "Die Einwirkzeit"} }
+        ],
+        "explanation": "Chemie ist das Reinigungsmittel im Wasser. Temperatur ist die Wärme des Wassers. Mechanik ist die Kraft beim Reiben oder Schrubben. Zeit ist die Einwirkzeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Du reinigst Flächen in einem Raum. Wie warm ist das Putzwasser richtig?",
+        "options": [
+          { "text": "Kalt bis lauwarm, etwa 20 bis 22 °C.", "correct": true },
+          { "text": "Heiß, etwa 60 bis 70 °C, damit Fett schmilzt." },
+          { "text": "Warm, etwa 40 bis 45 °C." }
+        ],
+        "explanation": "Beim Reinigen von Räumen und Flächen reicht kaltes bis lauwarmes Wasser, etwa 20 bis 22 °C. In heißem Wasser verdunsten die Mittel. Dann wirken sie schwächer und du atmest die Dämpfe ein."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔥 Warum nimmst du kein heißes Putzwasser? Stimmt der Grund? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Stimmt", "icon": "✅" },
+          { "id": "nein", "label": "Stimmt nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Die Reinigungsmittel verdunsten und wirken schwächer", "bucket": "ja" },
+          { "text": "Die Reinigungskraft atmet die Dämpfe ein", "bucket": "ja" },
+          { "text": "Das Material kann Schaden nehmen", "bucket": "ja" },
+          { "text": "Die Fläche bleibt dann viel länger nass", "bucket": "nein" },
+          { "text": "Das Material wird durch Hitze geschont", "bucket": "nein" },
+          { "text": "Die Dämpfe schaden der Gesundheit nicht", "bucket": "nein" }
+        ],
+        "explanation": "Hitze lässt die Mittel verdunsten. Dann wirken sie schwächer, und du atmest die Dämpfe ein. Hitze kann außerdem das Material schädigen. Nasse Flächen trocknen in Hitze sogar schneller, nicht langsamer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪟 Eine Kollegin putzt die Fenster mit heißem Wasser. Was passiert?",
+        "options": [
+          { "text": "Die Scheibe trocknet zu schnell, es gibt Streifen.", "correct": true },
+          { "text": "Die Scheibe bleibt lange nass und beschlägt." },
+          { "text": "Das Glas glänzt danach viel stärker als mit kaltem Wasser." }
+        ],
+        "explanation": "Heißes Wasser lässt Flächen zu schnell trocknen. Beim Fensterputzen bleiben dann Streifen zurück. Darum ist das Wasser kalt bis lauwarm."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Der Faktor Zeit: Was stimmt?",
+        "options": [
+          { "text": "Der Schmutz braucht Zeit, um sich zu lösen und aufzuquellen.", "correct": true },
+          { "text": "Je kürzer das Mittel einwirkt, desto sauberer wird am Ende alles." },
+          { "text": "Die Zeit spielt keine Rolle, nur die Chemie ist wichtig." }
+        ],
+        "explanation": "Während der Einwirkzeit löst sich der Schmutz und quillt auf. Das beeinflusst den Reinigungserfolg. Wie lange du einwirken lässt, hängt aber auch vom Material ab."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Du verkleinerst einen Faktor im Sinnerschen Kreis. Was folgt daraus?",
+        "options": [
+          { "text": "Ein anderer Faktor muss größer werden.", "correct": true },
+          { "text": "Alle anderen Faktoren werden auch kleiner." },
+          { "text": "Nichts, die Faktoren hängen nicht zusammen." }
+        ],
+        "explanation": "Die vier Faktoren hängen zusammen. Wird einer verändert, ändern sich auch die anderen. Die Summe bleibt gleich. Weniger Zeit braucht also zum Beispiel mehr Chemie."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Haushalts-Spülmaschine oder gewerbliche Spülmaschine? Sortiere.",
+        "buckets": [
+          { "id": "haus", "label": "Haushalts-Spülmaschine", "icon": "🏠" },
+          { "id": "gewerb", "label": "Gewerbliche Spülmaschine", "icon": "🏭" }
+        ],
+        "items": [
+          { "text": "Spült sehr lange", "bucket": "haus" },
+          { "text": "Arbeitet mit wenig Chemie", "bucket": "haus" },
+          { "text": "Spült sehr kurz", "bucket": "gewerb" },
+          { "text": "Arbeitet mit viel Chemie", "bucket": "gewerb" }
+        ],
+        "explanation": "Beide Maschinen erreichen ein sauberes Ergebnis. Die Haushaltsmaschine nimmt sich viel Zeit und braucht dafür wenig Chemie. Die gewerbliche Maschine hat wenig Zeit und gleicht das mit mehr Chemie aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Für eine Fläche hast du nur wenig Zeit. Wie gleichst du das nach Sinner aus?",
+        "options": [
+          { "text": "Mit mehr Mechanik oder mehr Chemie.", "correct": true },
+          { "text": "Mit weniger Mechanik und weniger Mittel." },
+          { "text": "Gar nicht, es geht dann nur schlechter." }
+        ],
+        "explanation": "Wenn ein Faktor kleiner wird, muss ein anderer größer werden. Weniger Zeit gleichst du zum Beispiel mit kräftigerem Reiben oder mit einem stärkeren Mittel aus. So macht es auch die gewerbliche Spülmaschine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Wie heißt das Bild mit den vier Reinigungsfaktoren?",
+        "options": [
+          { "text": "Sinnerscher Kreis.", "correct": true },
+          { "text": "Reinigungsdreieck." },
+          { "text": "Hygienepyramide." }
+        ],
+        "explanation": "Die vier Faktoren Chemie, Temperatur, Mechanik und Zeit bilden zusammen einen Kreis. Er heißt nach Sinner: Sinnerscher Kreis."
+      }
+    }
+  ]
+}

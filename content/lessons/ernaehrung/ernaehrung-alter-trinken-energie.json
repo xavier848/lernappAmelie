@@ -1,0 +1,141 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-alter-trinken-energie",
+  "title": "Alter: Trinken und Energiebedarf",
+  "sort": 570,
+  "intro": "💧 Im Alter lässt das Durstempfinden nach. Gleichzeitig lässt die Nierenfunktion ganz natürlich nach. Die Niere gleicht Schwankungen im Salz-Wasser-Haushalt aus. Trinkt ein älterer Mensch zu wenig, trocknet der Körper aus. Das Fachwort dafür ist Dehydrierung.\n\nMERKE: Zeichen einer Dehydrierung sind: trockene Haut und Schleimhäute, Schwächegefühl, Schwindel, Verwirrtheit und Bewusstseinsstörungen.\n\nBeim Energiebedarf gibt es große Unterschiede. Das liegt an der Lebensweise und an der Bewegung. Junge Alte sind oft noch so aktiv wie Jüngere. Bei den mittleren Alten und den Hochbetagten können sich viele nur noch eingeschränkt bewegen.\n\nDie D-A-CH-Referenzwerte für Menschen über 65 Jahre: Frauen brauchen 7,1 MJ am Tag, das sind 1 700 kcal. Männer brauchen 8,8 MJ am Tag, das sind 2 100 kcal. Dabei gilt ein PAL-Wert von 1,4. PAL ist ein Maß dafür, wie viel sich ein Mensch bewegt.\n\nRegelmäßiges Wiegen zeigt, ob die Energie zum Bedarf passt. Auch im Alter soll man das Normalgewicht halten oder anstreben.\n\nMERKE: Der Energiebedarf sinkt. Das beachtet man schon ab dem 30. Lebensjahr. Der Nährstoffbedarf bleibt aber im Wesentlichen gleich.\n\nDarum braucht es im Alter eine höhere Nährstoffdichte. Das heißt: die gleichen Nährstoffe in weniger Energie. Ein Bild im Buch zeigt das mit drei Quadraten: 9 200 kJ, 8 400 kJ und 7 500 kJ. Die Quadrate werden kleiner, aber die Nährstoffe darin bleiben gleich viele.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫘 Im Alter lässt das Durstempfinden nach. Was verändert sich gleichzeitig an der Niere?",
+        "options": [
+          { "text": "Ihre Funktion lässt ganz natürlich nach.", "correct": true },
+          { "text": "Sie arbeitet stärker, weil weniger getrunken wird." },
+          { "text": "Sie bildet mehr Urin, um Salz zu sparen." },
+          { "text": "Sie wächst, weil sie mehr zu tun hat." }
+        ],
+        "explanation": "Im Alter kommen zwei Dinge zusammen: Man hat weniger Durst, und die Niere arbeitet schwächer. Die Niere gleicht aber den Salz-Wasser-Haushalt aus. Fehlt Flüssigkeit, schafft sie das nicht mehr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏜️ Trinkt ein älterer Mensch zu wenig, trocknet der Körper aus. Wie heißt das Fachwort?",
+        "options": [
+          { "text": "Dehydrierung", "correct": true },
+          { "text": "Obstipation" },
+          { "text": "Gastritis" },
+          { "text": "Resorption" }
+        ],
+        "explanation": "Dehydrierung heißt Austrocknung. Obstipation ist Verstopfung, Gastritis eine Entzündung am Mageneingang. Resorption heißt: Der Darm nimmt Nährstoffe auf."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Ist das ein Zeichen für Austrocknung? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Zeichen für Austrocknung", "icon": "⚠️" },
+          { "id": "nein", "label": "Kein Zeichen dafür", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "Trockene Haut", "bucket": "ja" },
+          { "text": "Trockene Schleimhäute im Mund", "bucket": "ja" },
+          { "text": "Schwächegefühl", "bucket": "ja" },
+          { "text": "Schwindel", "bucket": "ja" },
+          { "text": "Verwirrtheit", "bucket": "ja" },
+          { "text": "Feuchte, pralle Haut", "bucket": "nein" },
+          { "text": "Klare, wache Gedanken", "bucket": "nein" },
+          { "text": "Viel heller Urin", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Fehlt dem Körper Wasser? Dann werden Haut und Schleimhäute trocken, man fühlt sich schwach, schwindelig oder verwirrt. Feuchte Haut und klare Gedanken sprechen gegen Austrocknung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👵 Frau Müller ist 84. Heute ist sie plötzlich verwirrt, und ihr ist schwindelig. Sie hat kaum getrunken. Woran denkst du zuerst?",
+        "options": [
+          { "text": "Ihr Körper trocknet aus, weil sie zu wenig getrunken hat.", "correct": true },
+          { "text": "Ihr Magen ist überlastet, weil sie zu viel gegessen hat." },
+          { "text": "Ihr Vitamin D ist zu hoch, weil sie zu viel in der Sonne war." },
+          { "text": "Ihre Zähne tun weh, weil die Prothese drückt." }
+        ],
+        "explanation": "Verwirrtheit und Schwindel sind typische Zeichen einer Dehydrierung. Bei älteren Menschen kommt das schnell vor, weil der Durst nachlässt. Biete ihr etwas zu trinken an und gib Bescheid."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "⚡ D-A-CH-Referenzwerte für Menschen über 65: Was gehört zusammen?",
+        "pairs": [
+          { "left": {"text": "👩 Frau über 65"}, "right": {"text": "7,1 MJ = 1 700 kcal am Tag"} },
+          { "left": {"text": "👨 Mann über 65"}, "right": {"text": "8,8 MJ = 2 100 kcal am Tag"} },
+          { "left": {"text": "🚶 PAL-Wert dabei"}, "right": {"text": "1,4"} }
+        ],
+        "explanation": "Männer brauchen mehr Energie als Frauen. Der PAL-Wert sagt, wie viel sich ein Mensch bewegt. Die Werte gelten für einen PAL-Wert von 1,4."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📉 Was passiert im Alter mit dem Bedarf?",
+        "options": [
+          { "text": "Der Energiebedarf sinkt, der Nährstoffbedarf bleibt fast gleich.", "correct": true },
+          { "text": "Der Energiebedarf bleibt gleich, der Nährstoffbedarf sinkt." },
+          { "text": "Energiebedarf und Nährstoffbedarf sinken beide ungefähr gleich stark." },
+          { "text": "Energiebedarf und Nährstoffbedarf steigen beide an." }
+        ],
+        "explanation": "Das ist die wichtigste Regel für das Essen im Alter: weniger Energie, aber genauso viele Nährstoffe. Darum soll das Essen viele Nährstoffe und wenig Energie haben."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🎂 Ab welchem Lebensjahr sollte man den sinkenden Energiebedarf schon beachten? Tippe die Zahl.",
+        "answer": 30,
+        "hint": "Es ist viel früher, als man denkt. Die Zahl ist ein runder Geburtstag vor 40.",
+        "explanation": "Schon ab dem 30. Lebensjahr sinkt der Energiebedarf. Wer weiter so viel isst wie mit 20, nimmt leicht zu."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚴 Warum ist der Energiebedarf älterer Menschen so unterschiedlich?",
+        "options": [
+          { "text": "Lebensweise und Bewegung sind sehr verschieden.", "correct": true },
+          { "text": "Männer und Frauen haben im Alter genau den gleichen Bedarf." },
+          { "text": "Hochbetagte bewegen sich meist mehr als junge Alte." },
+          { "text": "Ältere Menschen brauchen alle gleich wenig Energie." }
+        ],
+        "explanation": "Junge Alte sind oft noch so aktiv wie Jüngere. Bei mittleren Alten und Hochbetagten können sich viele nur noch eingeschränkt bewegen. Wer sich wenig bewegt, braucht weniger Energie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔲 Das Buch zeigt drei Quadrate: 9 200 kJ, 8 400 kJ und 7 500 kJ. Die Nährstoffe darin bleiben gleich viele. Was bedeutet das?",
+        "options": [
+          { "text": "Im Alter braucht es eine höhere Nährstoffdichte.", "correct": true },
+          { "text": "Im Alter braucht man weniger Nährstoffe als früher." },
+          { "text": "Im Alter braucht man mehr Energie als früher." },
+          { "text": "Im Alter braucht es eine höhere Energiedichte." }
+        ],
+        "explanation": "Nährstoffdichte heißt: viele Nährstoffe in wenig Energie. Die Energie wird kleiner, die Nährstoffe bleiben gleich. Also muss das Essen dichter mit Nährstoffen gepackt sein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Wie merkst du, ob ein älterer Mensch die passende Menge Energie bekommt?",
+        "options": [
+          { "text": "Durch regelmäßige Gewichtskontrollen.", "correct": true },
+          { "text": "Durch einen Blick auf die Uhr." },
+          { "text": "Durch Zählen der leeren Teller im Schrank." }
+        ],
+        "explanation": "Bleibt das Gewicht gleich, passt die Energie zum Bedarf. Nimmt jemand zu oder ab, stimmt etwas nicht. Auch im Alter ist das Ziel das Normalgewicht."
+      }
+    }
+  ]
+}

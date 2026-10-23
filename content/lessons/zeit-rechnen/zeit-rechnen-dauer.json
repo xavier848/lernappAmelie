@@ -1,0 +1,109 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-dauer",
+  "title": "Andersherum: Wie lange dauert es?",
+  "sort": 7,
+  "intro": "Jetzt kennst du den Start und das Ende. Du suchst die Dauer.\n\nAchtung, eine Falle: Du darfst die Uhrzeiten nicht einfach wie Zahlen abziehen. Von 9:45 Uhr bis 10:10 Uhr sind es nicht 65 Minuten!\n\nNimm wieder die Brücke. Vom Start bis zur vollen Stunde: 9:45 Uhr → 10:00 Uhr sind 15 Minuten. Von der vollen Stunde bis zum Ende: 10:00 Uhr → 10:10 Uhr sind 10 Minuten.\n\nZähle beides zusammen: 15 + 10 = 25 Minuten.\n\nMERKE: Dauer = Minuten bis zur vollen Stunde + Minuten danach.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Der Zug fährt um 7:56 Uhr ab und kommt um 8:39 Uhr an. Wie viele Minuten dauert die Fahrt?",
+        "answer": 43,
+        "hint": "Vom Start bis zur vollen Stunde: 7:56 Uhr → 8:00 Uhr sind 4 Minuten.\n8:00 Uhr → 8:39 Uhr sind 39 Minuten.\nZähle zusammen: 4 + 39 = ?",
+        "explanation": "Von 7:56 Uhr bis 8:39 Uhr sind es 43 Minuten. Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (4 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍕 Die Pizza kommt um 18:14 Uhr in den Ofen. Um 18:41 Uhr ist sie fertig. Wie viele Minuten backt sie?",
+        "answer": 27,
+        "hint": "Die Stunde bleibt gleich. Rechne nur die Minuten: 41 − 14 = ?",
+        "explanation": "Von 18:14 Uhr bis 18:41 Uhr sind es 27 Minuten. Die Stunde bleibt gleich, du ziehst nur die Minuten ab."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Du reitest um 15:48 Uhr los. Um 16:57 Uhr bist du wieder am Stall. Wie viele Minuten warst du unterwegs?",
+        "answer": 69,
+        "hint": "Vom Start bis zur vollen Stunde: 15:48 Uhr → 16:00 Uhr sind 12 Minuten.\n16:00 Uhr → 16:57 Uhr sind 57 Minuten.\nZähle zusammen: 12 + 57 = ?",
+        "explanation": "Von 15:48 Uhr bis 16:57 Uhr sind es 69 Minuten (1 Stunde und 9 Minuten). Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (12 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧺 Du putzt von 10:38 Uhr bis 11:30 Uhr. Wie viele Minuten sind das?",
+        "answer": 52,
+        "hint": "Vom Start bis zur vollen Stunde: 10:38 Uhr → 11:00 Uhr sind 22 Minuten.\n11:00 Uhr → 11:30 Uhr sind 30 Minuten.\nZähle zusammen: 22 + 30 = ?",
+        "explanation": "Von 10:38 Uhr bis 11:30 Uhr sind es 52 Minuten. Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (22 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Wie viele Minuten sind es von 9:45 Uhr bis 10:10 Uhr?",
+        "options": [
+          {
+            "text": "25 Minuten",
+            "correct": true
+          },
+          {
+            "text": "65 Minuten"
+          },
+          {
+            "text": "35 Minuten"
+          }
+        ],
+        "explanation": "Nicht einfach die Zahlen abziehen (1010 − 945 = 65 stimmt nicht)! Von 9:45 Uhr bis 10:00 Uhr sind es 15 Minuten. Dann noch 10 Minuten bis 10:10 Uhr. 15 + 10 = 25 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚌 Die Busfahrt beginnt um 12:38 Uhr. Sie endet um 13:07 Uhr. Wie viele Minuten dauert sie?",
+        "answer": 29,
+        "hint": "Vom Start bis zur vollen Stunde: 12:38 Uhr → 13:00 Uhr sind 22 Minuten.\n13:00 Uhr → 13:07 Uhr sind 7 Minuten.\nZähle zusammen: 22 + 7 = ?",
+        "explanation": "Von 12:38 Uhr bis 13:07 Uhr sind es 29 Minuten. Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (22 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍝 Du fängst um 12:46 Uhr an zu kochen. Um 13:02 Uhr isst du. Wie viele Minuten hat es gedauert?",
+        "answer": 16,
+        "hint": "Vom Start bis zur vollen Stunde: 12:46 Uhr → 13:00 Uhr sind 14 Minuten.\n13:00 Uhr → 13:02 Uhr sind 2 Minuten.\nZähle zusammen: 14 + 2 = ?",
+        "explanation": "Von 12:46 Uhr bis 13:02 Uhr sind es 16 Minuten. Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (14 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚶 Du gehst um 16:27 Uhr los. Um 17:18 Uhr bist du wieder zu Hause. Wie viele Minuten warst du weg?",
+        "answer": 51,
+        "hint": "Vom Start bis zur vollen Stunde: 16:27 Uhr → 17:00 Uhr sind 33 Minuten.\n17:00 Uhr → 17:18 Uhr sind 18 Minuten.\nZähle zusammen: 33 + 18 = ?",
+        "explanation": "Von 16:27 Uhr bis 17:18 Uhr sind es 51 Minuten. Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (33 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧁 Der Kuchen kommt um 14:35 Uhr in den Ofen. Um 15:20 Uhr ist er fertig. Wie viele Minuten backt er?",
+        "answer": 45,
+        "hint": "Vom Start bis zur vollen Stunde: 14:35 Uhr → 15:00 Uhr sind 25 Minuten.\n15:00 Uhr → 15:20 Uhr sind 20 Minuten.\nZähle zusammen: 25 + 20 = ?",
+        "explanation": "Von 14:35 Uhr bis 15:20 Uhr sind es 45 Minuten. Nicht einfach die Zahlen abziehen! Rechne erst bis zur vollen Stunde (25 Minuten), dann weiter bis zum Ende."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏰ Wie viele Minuten sind es von 8:00 Uhr bis 8:30 Uhr?",
+        "answer": 30,
+        "hint": "Die Stunde bleibt gleich. Rechne nur die Minuten: 30 − 0 = ?",
+        "explanation": "Von 8:00 Uhr bis 8:30 Uhr sind es 30 Minuten. Die Stunde bleibt gleich, du ziehst nur die Minuten ab."
+      }
+    }
+  ]
+}

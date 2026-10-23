@@ -1,0 +1,114 @@
+{
+  "topic_slug": "servietten",
+  "slug": "servietten-material-groesse",
+  "title": "Servietten: Aufgaben, Material, Größe",
+  "sort": 560,
+  "intro": "🧻 Servietten schmücken den Tisch. Sie zeigen auch, wo der Gast sitzt. Man sagt: Sie kennzeichnen den Sitzplatz. Für den Gast schützt die Serviette die Kleidung. Und er säubert damit Lippen und Finger.\n\nEs gibt Servietten aus verschiedenen Materialien. Stoffservietten sind aus Baumwolle, Baumwollleinen oder synthetischen Stoffen. Synthetisch heißt: künstlich hergestellt. Dann gibt es Papierservietten aus recycelten Materialien. Sie sind gut für die Nachhaltigkeit. Außerdem gibt es Vliesservietten sowie Zelltuch- oder Papierservietten. Diese gibt es in vielen Farben und mit vielen Druckmotiven.\n\nMERKE: Für Menüs nimmt man meist quadratische Servietten in 40 × 40 cm, 50 × 50 cm oder 60 × 60 cm. Für den Kaffeetisch nimmt man kleinere Servietten in 24 × 24 cm.\n\nViele Faltanleitungen beginnen gleich: Du faltest die aufgeschlagene Serviette zu einem Rechteck. Der Bruch zeigt nach oben. Der Bruch ist die gefaltete Kante.\n\nMERKE: Aufwendige Falttechniken machst du wegen der Hygiene möglichst mit Handschuhen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Welche Aufgaben hat die gefaltete Serviette auf dem gedeckten Tisch?",
+        "options": [
+          { "text": "Sie schmückt den Tisch und kennzeichnet den Sitzplatz.", "correct": true },
+          { "text": "Sie ersetzt die Tischkarte, denn auf ihr steht der Name." },
+          { "text": "Sie hält den Teller warm, bis das Essen kommt." },
+          { "text": "Sie zeigt an, welcher Gang als Nächstes kommt." }
+        ],
+        "explanation": "Die Serviette hat einen dekorativen Einsatz. Außerdem zeigt sie, dass an diesem Platz ein Gast sitzt. Den Namen trägt aber die Tischkarte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Ein Gast isst Hähnchenschenkel mit den Fingern. Wofür nutzt er die Serviette?",
+        "options": [
+          { "text": "Um Lippen und Finger zu säubern und die Kleidung zu schützen.", "correct": true },
+          { "text": "Um die abgenagten Knochen darin einzuwickeln und mitzunehmen." },
+          { "text": "Um den Teller nach dem Essen sauber zu wischen." },
+          { "text": "Um den Tisch vor dem nächsten Gang abzuwischen." }
+        ],
+        "explanation": "Für den Gast hat die Serviette zwei Aufgaben: Sie schützt die Kleidung. Und er säubert damit Lippen und Finger. Teller und Tisch wischt man damit nicht ab."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧵 Stoffserviette oder nicht? Sortiere nach dem Material.",
+        "buckets": [
+          { "id": "stoff", "label": "Stoffserviette", "icon": "🧵" },
+          { "id": "einweg", "label": "Papier, Vlies oder Zelltuch", "icon": "🧻" }
+        ],
+        "items": [
+          { "text": "Baumwolle", "bucket": "stoff" },
+          { "text": "Baumwollleinen", "bucket": "stoff" },
+          { "text": "Synthetischer Stoff", "bucket": "stoff" },
+          { "text": "Vlies", "bucket": "einweg" },
+          { "text": "Zelltuch", "bucket": "einweg" },
+          { "text": "Recyceltes Papier", "bucket": "einweg" }
+        ],
+        "explanation": "Frag dich: Ist es ein gewebter Stoff, den man waschen kann? Dann ist es eine Stoffserviette, aus Baumwolle, Baumwollleinen oder synthetischem Stoff. Vlies, Zelltuch und Papier sind keine Stoffservietten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "♻️ Du brauchst Einwegservietten und willst nachhaltig einkaufen. Welche nimmst du?",
+        "options": [
+          { "text": "Papierservietten aus recycelten Materialien.", "correct": true },
+          { "text": "Zelltuchservietten mit bunten Druckmotiven." },
+          { "text": "Vliesservietten, doppelt so dick wie normal." },
+          { "text": "Die günstigsten Servietten aus dem Angebot." }
+        ],
+        "explanation": "Recycelt heißt: aus Altpapier wiederverwertet. Papierservietten aus recycelten Materialien sind darum gut für die Nachhaltigkeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📐 Welche Größen haben Servietten für ein Menü meistens?",
+        "options": [
+          { "text": "40 × 40 cm, 50 × 50 cm oder 60 × 60 cm", "correct": true },
+          { "text": "20 × 20 cm, 25 × 25 cm oder 30 × 30 cm" },
+          { "text": "80 × 80 cm, 90 × 90 cm oder 100 × 100 cm" },
+          { "text": "30 × 50 cm, 40 × 60 cm oder 50 × 70 cm" }
+        ],
+        "explanation": "Menüservietten sind meist quadratisch: 40 × 40, 50 × 50 oder 60 × 60 cm. Quadratisch heißt: alle Seiten sind gleich lang. Für den Kaffeetisch nimmt man kleinere Servietten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "☕ Servietten für den Kaffeetisch sind kleiner. Wie viele Zentimeter ist eine Seite lang?",
+        "answer": 24,
+        "hint": "Die Zahl liegt zwischen 20 und 25.",
+        "explanation": "Servietten für den Kaffeetisch sind 24 × 24 cm groß. Menüservietten sind mit 40 bis 60 cm viel größer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Womit beginnen viele Faltanleitungen?",
+        "options": [
+          { "text": "Die aufgeschlagene Serviette zum Rechteck falten, der Bruch zeigt nach oben.", "correct": true },
+          { "text": "Die Serviette zu einem kleinen Dreieck falten, die Spitze zeigt nach unten zu dir." },
+          { "text": "Die Serviette eng aufrollen und dann in der Mitte fest zusammendrücken." },
+          { "text": "Die Serviette zweimal zum kleinen Quadrat falten und dann umdrehen." }
+        ],
+        "explanation": "Viele Faltungen starten mit dem Rechteck: die offene Serviette einmal in der Mitte falten. Der Bruch, also die gefaltete Kante, zeigt nach oben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Du faltest eine aufwendige Figur aus Stoffservietten. Was ist hygienisch am besten?",
+        "options": [
+          { "text": "Mit Handschuhen falten.", "correct": true },
+          { "text": "Mit feuchten Händen falten." },
+          { "text": "Die Serviette vorher anhauchen." }
+        ],
+        "explanation": "Bei aufwendigen Falttechniken fasst du die Serviette lange und oft an. Darum faltest du sie möglichst mit Handschuhen. Vorher wäschst du dir die Hände."
+      }
+    }
+  ]
+}

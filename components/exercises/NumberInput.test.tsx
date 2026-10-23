@@ -82,3 +82,57 @@ describe("NumberInput (Kopfrechnen mit Eingabe)", () => {
     expect(screen.getByText(/34 \+ 3 = 37/)).not.toBeNull();
   });
 });
+
+const zugAufgabe: NumberInputData = {
+  prompt: "🚆 Der Zug fährt um 7:56 Uhr ab. Die Fahrt dauert 43 Minuten. Wann kommt er an?",
+  answer: 839,
+  format: "uhrzeit",
+};
+
+describe("NumberInput mit format uhrzeit (Zeit rechnen)", () => {
+  it("hat eine Doppelpunkt-Taste statt „leeren“", () => {
+    setup(zugAufgabe);
+    expect(screen.getByRole("button", { name: "Doppelpunkt" })).not.toBeNull();
+    expect(screen.queryByRole("button", { name: "Alles löschen" })).toBeNull();
+  });
+
+  it("8 : 3 9 → richtig", () => {
+    const { onResult, check } = setup(zugAufgabe);
+    tap("8");
+    tap("Doppelpunkt");
+    tap("3");
+    tap("9");
+    expect(screen.getByLabelText("Deine Antwort: 8:39 Uhr")).not.toBeNull();
+    check();
+    expect(onResult).toHaveBeenCalledWith({ correct: true, given: undefined });
+  });
+
+  it("auch ohne Doppelpunkt getippt (839) → richtig", () => {
+    const { onResult, check } = setup(zugAufgabe);
+    tap("8");
+    tap("3");
+    tap("9");
+    check();
+    expect(onResult).toHaveBeenCalledWith({ correct: true, given: undefined });
+  });
+
+  it("falsche Uhrzeit → correct: false mit given", () => {
+    const { onResult, check } = setup(zugAufgabe);
+    tap("8");
+    tap("Doppelpunkt");
+    tap("4");
+    tap("9");
+    check();
+    expect(onResult).toHaveBeenCalledWith({ correct: false, given: "8:49" });
+  });
+
+  it("meldet ready erst, wenn die Minuten fertig getippt sind", () => {
+    const { onReadyChange } = setup(zugAufgabe);
+    tap("8");
+    tap("Doppelpunkt");
+    tap("3");
+    expect(onReadyChange).toHaveBeenLastCalledWith(false);
+    tap("9");
+    expect(onReadyChange).toHaveBeenLastCalledWith(true);
+  });
+});

@@ -1,0 +1,114 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-haltbar-wege",
+  "title": "Haltbar machen: Wege und Ziel",
+  "sort": 680,
+  "intro": "🦠 Nicht alle Lebensmittel isst man gleich nach der Ernte oder dem Schlachten. Damit sie nicht durch Bakterien oder Pilze verderben, hält man sie frisch oder macht sie haltbar.\n\nKurzfristig hält man Lebensmittel vor allem durch Kühlen frisch. Kühlen ist ein physikalischer Vorgang.\n\nMittel- bis langfristig macht man Lebensmittel auf drei Wegen haltbar. Physikalisch, zum Beispiel durch Tiefkühlen oder Schockgefrieren. Chemisch, zum Beispiel durch Essigsäure beim Einlegen von Gurken. Biologisch-chemisch, zum Beispiel durch Milchsäuregärung bei der Herstellung von Sauerkraut. Bei der Milchsäuregärung arbeiten Mikroorganismen.\n\nMERKE: Alle drei Wege haben dasselbe Ziel: Der Stoffwechsel der Bakterien und Pilze wird weitgehend stillgelegt. Ohne Stoffwechsel der Mikroorganismen wächst kein Schimmel. Die Bakterien vermehren sich nicht und bilden keine giftigen Stoffe.\n\nMikroorganismen sind winzige Lebewesen, die man mit bloßem Auge nicht sieht. Dazu gehören Bakterien, Hefen und Schimmelpilze.\n\nDie Lebensmittelbranche nutzt noch weitere Verfahren zum Haltbarmachen: eine gezielte Verschiebung des pH-Werts, Alkohol, Räuchern, Bestrahlung und Begasung sowie besondere Lebensmittelzusatzstoffe. Der pH-Wert zeigt, wie sauer etwas ist.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌾 Warum macht man viele Lebensmittel haltbar?",
+        "options": [
+          { "text": "Man isst sie nicht gleich nach Ernte oder Schlachtung.", "correct": true },
+          { "text": "Frisch schmecken die meisten Lebensmittel gar nicht gut." },
+          { "text": "Frische Lebensmittel sind im Laden viel zu teuer." }
+        ],
+        "explanation": "Zwischen Ernte und Essen vergeht oft Zeit. In dieser Zeit könnten Bakterien und Pilze das Lebensmittel verderben. Darum hält man es frisch oder macht es haltbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Wie hält man Lebensmittel kurzfristig frisch?",
+        "options": [
+          { "text": "Vor allem durch Kühlen.", "correct": true },
+          { "text": "Vor allem durch Einkochen." },
+          { "text": "Vor allem durch Räuchern." }
+        ],
+        "explanation": "Für kurze Zeit reicht die Kälte im Kühlschrank. Kühlen ist ein physikalischer Vorgang. Einkochen und Räuchern machen Lebensmittel dagegen länger haltbar."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Beispiel passt zu welchem Weg des Haltbarmachens? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Physikalisch"}, "right": {"text": "Tiefkühlen und Schockgefrieren"} },
+          { "left": {"text": "Chemisch"}, "right": {"text": "Gurken mit Essigsäure einlegen"} },
+          { "left": {"text": "Biologisch-chemisch"}, "right": {"text": "Sauerkraut durch Milchsäuregärung"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Wirkt hier Kälte, ein Stoff wie eine Säure, oder arbeiten Mikroorganismen mit? Kälte ist physikalisch. Essigsäure ist chemisch. Bei der Gärung helfen Mikroorganismen, das ist biologisch-chemisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Physikalisch, chemisch, biologisch-chemisch: Welches Ziel haben diese drei Wege?",
+        "options": [
+          { "text": "Den Stoffwechsel von Bakterien und Pilzen stilllegen.", "correct": true },
+          { "text": "Den Lebensmitteln alles Wasser entziehen." },
+          { "text": "Die Nährstoffe in den Lebensmitteln vermehren." }
+        ],
+        "explanation": "Bakterien und Pilze brauchen ihren Stoffwechsel, um zu leben und sich zu vermehren. Wird er stillgelegt, können sie das Lebensmittel nicht mehr verderben. Wasser entziehen ist nur einer von vielen Wegen dorthin."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Die Mikroorganismen im Lebensmittel haben keinen Stoffwechsel mehr. Was bedeutet das?",
+        "options": [
+          { "text": "Kein Schimmel, keine Vermehrung, keine giftigen Stoffe.", "correct": true },
+          { "text": "Mehr Schimmel, aber dafür gar keine giftigen Stoffe mehr." },
+          { "text": "Die Bakterien vermehren sich jetzt noch schneller." }
+        ],
+        "explanation": "Ohne Stoffwechsel wächst kein Schimmel. Bakterien vermehren sich nicht und bilden keine giftigen Stoffe. Genau das macht ein Lebensmittel haltbar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔬 Was sind Mikroorganismen?",
+        "options": [
+          { "text": "Winzige Lebewesen wie Bakterien, Hefen und Schimmelpilze.", "correct": true },
+          { "text": "Kleine Insekten, die man manchmal im Vorratsschrank sieht." },
+          { "text": "Stoffe, die man zum Haltbarmachen zugibt." }
+        ],
+        "explanation": "Mikro heißt winzig klein. Mikroorganismen sieht man mit bloßem Auge nicht. Dazu gehören Bakterien, Hefen und Schimmelpilze."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏭 Ist das ein Verfahren zum Haltbarmachen? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Macht haltbar", "icon": "✅" },
+          { "id": "nein", "label": "Macht nicht haltbar", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Den pH-Wert gezielt verschieben", "bucket": "ja" },
+          { "text": "Alkohol nutzen", "bucket": "ja" },
+          { "text": "Räuchern", "bucket": "ja" },
+          { "text": "Bestrahlen und Begasen", "bucket": "ja" },
+          { "text": "Spezielle Lebensmittelzusatzstoffe einsetzen", "bucket": "ja" },
+          { "text": "Hackfleisch bei Zimmerwärme lagern", "bucket": "nein" },
+          { "text": "Brot warm und feucht in Plastik lagern", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Wird den Bakterien und Pilzen das Leben schwer gemacht? Säure, Alkohol, Rauch, Strahlen, Gase und bestimmte Zusatzstoffe tun das. Wärme und Feuchtigkeit helfen ihnen dagegen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wodurch verderben Lebensmittel?",
+        "options": [
+          { "text": "Durch Bakterien und Pilze.", "correct": true },
+          { "text": "Durch Salz und Zucker." },
+          { "text": "Durch Kälte und Frost." }
+        ],
+        "explanation": "Bakterien und Pilze lassen Lebensmittel verderben. Kälte, Salz und viele andere Mittel bremsen sie dagegen. Darum macht man Lebensmittel haltbar."
+      }
+    }
+  ]
+}

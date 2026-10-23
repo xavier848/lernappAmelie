@@ -1,0 +1,154 @@
+{
+  "topic_slug": "kinder-foerdern",
+  "slug": "kinder-foerdern-wetter-jahreszeiten",
+  "title": "Wetter, Jahreszeiten und kleine Experimente",
+  "sort": 6,
+  "intro": "Kinder brauchen Kleidung, die zum Wetter passt. Das nennt man wettergerechte Kleidung.\n\nBei Regen: Regenjacke, Matschhose und Gummistiefel. Bei Kälte: Mütze, Schlauchschal, Handschuhe und warme Schuhe. Bei Sonne: Sonnenhut, Sonnencreme und luftige Kleidung.\n\nMERKE: Zwiebelprinzip heißt: mehrere dünne Schichten übereinander. Wird dem Kind warm, ziehst du eine Schicht aus. Wird ihm kalt, ziehst du eine an.\n\nIst einem kleinen Kind zu warm? Das fühlst du im Nacken. Ist der Nacken verschwitzt, ist ihm zu warm. Ist er kühl, braucht es eine Schicht mehr. Kalte Hände allein sind kein sicheres Zeichen.\n\nBeim Klettern und Rutschen sind lange Schals und Kordeln gefährlich. Kordeln sind Bänder zum Zuziehen, zum Beispiel an der Kapuze. Sie können hängen bleiben und das Kind am Hals würgen. Das nennt man Strangulationsgefahr. Nimm lieber einen Schlauchschal. Er hat keine losen Enden.\n\nNach dem Spielen im Regen hängt das Kind seine nasse Jacke selbst zum Trocknen auf. So lernt es Selbstständigkeit. Das heißt: Dinge selbst machen. Du hilfst nur, wenn es nötig ist.\n\nSaison heißt Jahreszeit. Ein Angebot ist eine Beschäftigung, die du für die Kinder planst. Saisonale Angebote passen zur Jahreszeit. Sie nutzen, was es draußen gerade gibt.\n\nIm Frühling: Samen säen. Im Sommer: mit Wasser planschen. Im Herbst: Kastanien und Blätter sammeln oder Laternen basteln. Im Winter: einen Schneemann bauen oder Plätzchen backen.\n\nKleine Experimente machen Kinder neugierig. Zum Beispiel: Schwimmt es oder geht es unter? Was passiert mit Eis in der Sonne? Welche Farbe entsteht aus Gelb und Blau?\n\nDas Eis schmilzt in der Sonne zu Wasser. Aus Gelb und Blau wird Grün. Dabei lernt das Kind Ursache und Wirkung. Das heißt: Ich tue etwas, und dann passiert etwas.\n\nSo läuft ein kleines Experiment ab. Zuerst stellst du eine Frage. Dann vermuten die Kinder, was passiert. Vermuten heißt: sagen, was man glaubt. Danach probiert ihr es aus und schaut genau hin. Zum Schluss sprecht ihr darüber: Stimmt die Vermutung?\n\nMERKE: Nimm für Experimente nur ungefährliche Dinge. Kinder unter 3 Jahren bekommen keine kleinen Teile, denn sie können sie verschlucken. Glas kann zerbrechen. Du behältst die Kinder immer im Blick, beim Spielen mit Wasser ganz besonders.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌧️ Herbst: Es regnet, und es ist kühl. Ihr geht auf den Spielplatz. Was ist wettergerechte Kleidung? Sortiere.",
+        "buckets": [
+          { "id": "passt", "label": "Wettergerecht", "icon": "✅" },
+          { "id": "passt-nicht", "label": "Nicht wettergerecht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Matschhose", "bucket": "passt" },
+          { "text": "Gummistiefel", "bucket": "passt" },
+          { "text": "Regenjacke", "bucket": "passt" },
+          { "text": "Pulli unter der Regenjacke", "bucket": "passt" },
+          { "text": "Sandalen", "bucket": "passt-nicht" },
+          { "text": "Sonnenhut", "bucket": "passt-nicht" },
+          { "text": "Dünne Stoffschuhe", "bucket": "passt-nicht" },
+          { "text": "Nur ein T-Shirt, ohne Jacke", "bucket": "passt-nicht" }
+        ],
+        "explanation": "Frag dich bei jedem Teil: Schützt es vor Nässe und vor Kälte? Dann ist es wettergerecht. Bei Regen und Kühle braucht das Kind wasserdichte Sachen und darunter eine warme Schicht. Offene oder dünne Schuhe werden sofort nass."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧅 Was bedeutet das Zwiebelprinzip bei Kinderkleidung?",
+        "options": [
+          { "text": "Mehrere dünne Schichten, die man einzeln ausziehen kann.", "correct": true },
+          { "text": "Eine einzige dicke Jacke direkt über dem T-Shirt." },
+          { "text": "Nur Kleidung aus Wolle, weil Wolle am allerbesten wärmt." }
+        ],
+        "explanation": "Wie bei einer Zwiebel liegen mehrere Schichten übereinander. Wird es wärmer, ziehst du eine Schicht aus. Wird es kälter, ziehst du eine an. Mit nur einer dicken Jacke geht das nicht: Das Kind schwitzt oder friert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤚 Ihr spielt draußen. Wie merkst du am besten, ob einem kleinen Kind zu warm ist?",
+        "options": [
+          { "text": "Im Nacken fühlen. Ist er verschwitzt, ist dem Kind zu warm.", "correct": true },
+          { "text": "An den Händen fühlen. Sind sie kalt, braucht es mehr Kleidung." },
+          { "text": "Abwarten, bis das Kind von allein sagt, dass ihm warm ist." }
+        ],
+        "explanation": "Im Nacken spürst du am besten, wie warm es dem Kind ist. Warm und trocken ist gut. Verschwitzt heißt: Zieh eine Schicht aus. Kühl heißt: Zieh eine Schicht an. Kalte Hände allein sind kein sicheres Zeichen. Und kleine Kinder merken oder sagen es oft nicht selbst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧣 Es ist Winter. Ihr geht auf den Spielplatz, und das Kind will klettern. Was ist am Hals am sichersten?",
+        "options": [
+          { "text": "Ein Schlauchschal ohne lose Enden.", "correct": true },
+          { "text": "Ein langer Schal, fest um den Hals gewickelt." },
+          { "text": "Eine Kapuze mit langer Kordel zum Zuziehen." }
+        ],
+        "explanation": "Lose Schal-Enden und Kordeln können am Klettergerüst oder an der Rutsche hängen bleiben. Dann würgen sie das Kind am Hals. Das nennt man Strangulationsgefahr. Es ist wie beim Fahrradhelm: Am Klettergerüst darf nichts hängen bleiben. Ein Schlauchschal hat keine losen Enden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧥 Ihr kommt vom Spielplatz zurück. Es hat geregnet, und die Jacke des Kindes ist nass. Was ist richtig?",
+        "options": [
+          { "text": "Das Kind hängt sie selbst zum Trocknen auf.", "correct": true },
+          { "text": "Du hängst sie schnell selbst auf, das geht schneller." },
+          { "text": "Sie kommt zusammengeknüllt in den Rucksack." }
+        ],
+        "explanation": "Die Jacke selbst aufhängen ist eine Aufgabe aus dem Alltag. Dabei lernt das Kind Selbstständigkeit. Machst du es schnell selbst, lernt das Kind nichts. Du hilfst nur, wenn es nötig ist. Zusammengeknüllt im Rucksack trocknet die Jacke nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏮 Im Herbst bastelt ihr Laternen. Im Winter backt ihr Plätzchen. Wie nennt man solche Angebote?",
+        "options": [
+          { "text": "Saisonale Angebote.", "correct": true },
+          { "text": "Ganzjährige Angebote." },
+          { "text": "Freispiel." }
+        ],
+        "explanation": "Saison heißt Jahreszeit. Saisonale Angebote passen zur Jahreszeit. Ganzjährige Angebote macht man das ganze Jahr gleich. Beim Freispiel suchen sich die Kinder selbst aus, was sie spielen. Ein Angebot planst dagegen du."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍂 Welches Angebot passt zu welcher Jahreszeit? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🌷 Frühling"}, "right": {"text": "Samen säen"} },
+          { "left": {"text": "☀️ Sommer"}, "right": {"text": "Mit Wasser planschen"} },
+          { "left": {"text": "🍁 Herbst"}, "right": {"text": "Kastanien sammeln"} },
+          { "left": {"text": "⛄ Winter"}, "right": {"text": "Einen Schneemann bauen"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Was gibt es in dieser Jahreszeit draußen? Im Frühling fängt alles an zu wachsen. Im Sommer ist es warm. Im Herbst fallen Blätter und Kastanien. Im Winter liegt Schnee."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Ihr legt einen Eiswürfel in die Sonne. Nach einer Weile ist nur noch Wasser da. Die Sonne wärmt, und darum schmilzt das Eis. Wie nennt man diesen Zusammenhang?",
+        "options": [
+          { "text": "Ursache und Wirkung.", "correct": true },
+          { "text": "Frustrationstoleranz." },
+          { "text": "Auge-Hand-Koordination." }
+        ],
+        "explanation": "Die Wärme der Sonne ist die Ursache. Das Schmelzen ist die Wirkung. Kleine Experimente zeigen Kindern: Wenn ich etwas tue, passiert etwas. Frustrationstoleranz heißt: Ärger aushalten. Auge-Hand-Koordination heißt: Augen und Hände arbeiten zusammen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔬 Du machst mit den Kindern ein kleines Experiment. Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "❓ Du fragst: Schwimmt der Apfel oder geht er unter?" },
+          { "text": "🤔 Die Kinder vermuten: Was glaubst du?" },
+          { "text": "🍎 Ein Kind legt den Apfel ins Wasser." },
+          { "text": "👀 Alle schauen genau hin: Was passiert?" },
+          { "text": "💬 Ihr sprecht darüber: Stimmt die Vermutung?" }
+        ],
+        "explanation": "Frag dich bei jedem Schritt: Was muss vorher schon passiert sein? Ohne Frage gibt es keine Vermutung. Die Vermutung kommt vor dem Ausprobieren, sonst kennen die Kinder die Antwort schon. Hinschauen geht erst, wenn ihr etwas ausprobiert. Reden könnt ihr erst über das, was ihr gesehen habt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Ihr macht das Experiment „Schwimmt es oder geht es unter?“. In der Gruppe sind auch Kinder unter 3 Jahren. Welche Dinge legst du bereit?",
+        "options": [
+          { "text": "Große Dinge, zum Beispiel Ball und Holzlöffel.", "correct": true },
+          { "text": "Kleine Dinge, zum Beispiel Murmeln und Perlen." },
+          { "text": "Dinge aus Glas, zum Beispiel ein Trinkglas." }
+        ],
+        "explanation": "Kinder unter 3 Jahren stecken vieles in den Mund. Kleine Teile wie Murmeln oder Perlen können sie verschlucken und daran ersticken. Glas kann zerbrechen und schneiden. Darum nimmst du große, ungefährliche Dinge. Und beim Spielen mit Wasser bleibst du immer dabei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Zum Schluss ein Farb-Experiment: Welche Farbe entsteht, wenn du Gelb und Blau mischst?",
+        "options": [
+          { "text": "Grün.", "correct": true },
+          { "text": "Orange." },
+          { "text": "Lila." }
+        ],
+        "explanation": "Gelb und Blau ergeben Grün. Solche kleinen Experimente machen Kinder neugierig. Orange entsteht aus Gelb und Rot, Lila aus Blau und Rot."
+      }
+    }
+  ]
+}

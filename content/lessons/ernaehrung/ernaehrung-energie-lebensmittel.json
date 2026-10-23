@@ -2,7 +2,7 @@
   "topic_slug": "ernaehrung",
   "slug": "ernaehrung-energie-lebensmittel",
   "title": "Energiereich & energiearm",
-  "intro": "🔋 In dieser Lektion geht es um die Energie in Lebensmitteln. Energie wird in Kalorien gemessen. Ein Lebensmittel mit vielen Kalorien ist energiereich. Ein Lebensmittel mit wenigen Kalorien ist energiearm. Vor allem Fett und Zucker liefern viel Energie. Wasser hat keine Kalorien und ist deshalb energiearm. Auch die Zubereitung spielt eine Rolle. Zubereitung mit viel Fett macht ein Gericht energiereicher. Energiereich sagt aber nichts über Vitamine oder das Sattsein aus. Es beschreibt nur, wie viel Energie in einem Lebensmittel steckt.",
+  "intro": "🔋 In dieser Lektion geht es um die Energie in Lebensmitteln. Energie misst man in Kilojoule (kJ). Oft hört man noch die alte Einheit Kilokalorie (kcal). Ein Lebensmittel mit viel Energie ist energiereich. Ein Lebensmittel mit wenig Energie ist energiearm. Vor allem Fett und Zucker liefern viel Energie. Wasser liefert keine Energie und ist deshalb energiearm. Auch die Zubereitung spielt eine Rolle. Zubereitung mit viel Fett macht ein Gericht energiereicher. Energiereich sagt aber nichts über Vitamine oder das Sattsein aus. Es beschreibt nur, wie viel Energie in einem Lebensmittel steckt.",
   "sort": 220,
   "exercises": [
     {
@@ -11,7 +11,7 @@
         "prompt": "🔋 Manche Lebensmittel geben viel Energie, andere wenig. Was bedeutet \"energiereich\" genau?",
         "options": [
           {
-            "text": "Es steckt viel Energie drin, also viele Kalorien.",
+            "text": "Es liefert viel Energie, also viele kJ.",
             "correct": true
           },
           {
@@ -21,7 +21,7 @@
             "text": "Es macht besonders lange satt."
           }
         ],
-        "explanation": "Kalorien sind das Maß für Energie. Energiereich heißt: Das Lebensmittel liefert viele Kalorien. Meist stecken viel Fett oder Zucker darin. Mit Vitaminen oder mit dem Sattsein hat das nichts zu tun."
+        "explanation": "Energie misst man in Kilojoule (kJ), die alte Einheit heißt Kilokalorie (kcal). Energiereich heißt: Das Lebensmittel liefert viel Energie. Meist stecken viel Fett oder Zucker darin. Mit Vitaminen oder mit dem Sattsein hat das nichts zu tun."
       }
     },
     {
@@ -54,7 +54,8 @@
             }
           }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Frag dich: Welche zwei Lebensmittel sind sich ähnlich? Obst passt zu Obst, Kartoffeln zu Kartoffeln, ein Getränk zu einem Getränk. Rechts steht jeweils die Variante mit mehr Zucker oder Fett. Sie liefert mehr Energie."
       }
     },
     {
@@ -106,7 +107,8 @@
             "text": "Forelle",
             "bucket": "arm"
           }
-        ]
+        ],
+        "explanation": "Frag dich: Steckt viel Fett oder Zucker drin? Dann ist das Lebensmittel energiereich. Viel Wasser und wenig Fett machen ein Lebensmittel energiearm. Denk auch an versteckte Fette, zum Beispiel in Nüssen oder Sahne."
       }
     },
     {
@@ -125,7 +127,7 @@
             "text": "Orangensaft."
           }
         ],
-        "explanation": "Mineralwasser hat keine Kalorien, also keine Energie. Apfelschorle und Orangensaft enthalten Zucker aus dem Saft. Dieser Zucker liefert Energie, darum sind sie energiereicher."
+        "explanation": "Mineralwasser liefert keine Energie. Apfelschorle und Orangensaft enthalten Zucker aus dem Saft. Dieser Zucker liefert Energie, darum sind sie energiereicher."
       }
     },
     {
@@ -177,7 +179,8 @@
             }
           }
         ],
-        "memory": false
+        "memory": false,
+        "explanation": "Frag dich: Welche zwei Speisen sind sich ähnlich? Suppe passt zu Suppe, Dressing zu Dressing, Fisch zu Fisch. Rechts steht jeweils die Variante mit mehr Fett. Fett liefert von allen Nährstoffen die meiste Energie."
       }
     },
     {
@@ -215,7 +218,7 @@
             "text": "Cola."
           }
         ],
-        "explanation": "Mineralwasser hat keine Kalorien und löscht den Durst am besten. Gesüßter Eistee und Cola sehen erfrischend aus, enthalten aber viel Zucker und damit viel Energie."
+        "explanation": "Mineralwasser liefert keine Energie und löscht den Durst am besten. Gesüßter Eistee und Cola sehen erfrischend aus, enthalten aber viel Zucker und damit viel Energie."
       }
     }
   ]
