@@ -37,7 +37,7 @@ Der Prüfungsstoff ist in PR #6, alles andere in PR #7.
 | 27.07. | Amelie | Conditional 1 und 2 | ✅ erledigt | `englisch-conditional-1`, `englisch-conditional-2` |
 | 07.09. | Amelie | 100 österreichische Wörter | ✅ erledigt | Thema „Österreichisch für den Alltag“ (12 Lektionen) |
 | 20.09. | Amelie | Farbcodierung der Putztücher (rot/gelb/grün/blau) | ✅ erledigt (PR #5) | `badezimmer-farbcodierung`, Transfer in der Küche |
-| 24.09. | Mama | Hygiene-Quiz (Foto 720) | ✅ erledigt (PR #6) | Prüfungs-Training, Lektion „Hygiene-Quiz vom 24.09.“ |
+| 24.09. | Mama | Hygiene-Quiz (Foto 720) | ✅ erledigt (PR #6) | Thema „Hygiene in der Küche“, Lektion „Hygiene-Quiz vom 24.09.“ (am 23.10. aus dem Prüfungs-Training verschoben) |
 | 25.09. | Mama | Mikrofasertücher: wo ja, wo nein | ✅ PR #7, schon live | `ferienwohnung-mikrofasertuecher` |
 | 25.09. | Mama | Feuchtwischen große/kleine Flächen (Fotos 725–726) | ✅ PR #7, schon live | `ferienwohnung-wischen-grosse-kleine-flaechen` |
 | 26.09. | Mama | Fragequiz Mikroorganismen: Nutzen oder Gefahr? | ✅ PR #7, schon live | `hygiene-mikroorganismen-nutzen-gefahr` |
