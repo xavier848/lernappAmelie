@@ -42,7 +42,7 @@ Der Prüfungsstoff ist in PR #6, alles andere in PR #7.
 | 25.09. | Mama | Feuchtwischen große/kleine Flächen (Fotos 725–726) | ✅ PR #7, schon live | `ferienwohnung-wischen-grosse-kleine-flaechen` |
 | 26.09. | Mama | Fragequiz Mikroorganismen: Nutzen oder Gefahr? | ✅ PR #7, schon live | `hygiene-mikroorganismen-nutzen-gefahr` |
 | 27.09. | Amelie/Mama | Schütt- und Klopfmaße, Messhilfen, Kuchenrezept umrechnen (Fotos 728–729) | ✅ PR #7, schon live | `mengen-masse-schuettmasse-messhilfen`, `mengen-masse-kuchenrezept-4-12`, `mengen-masse-kuchenrezept-20` |
-| 29.09. | Mama | Test nächste Woche: 5 Blätter (Fotos 730–734) und Sprachnachricht | ✅ erledigt (PR #6) | Kachel „🎯 Prüfungs-Training“ auf der Startseite, nie gesperrt |
+| 29.09. | Mama | Test nächste Woche: 5 Blätter (Fotos 730–734) und Sprachnachricht | ✅ erledigt (PR #6), am 23.10. nach der Prüfung ausgeblendet | Kachel „🎯 Prüfungs-Training“ auf der Startseite, nie gesperrt. Seit 23.10. ist das Thema `pruefung-unfall-arbeitsplatz-hygiene` mit seinen 12 Lektionen in der Datenbank unveröffentlicht (nicht gelöscht), dadurch ist die Kachel weg. Für die nächste Prüfung: neues Thema `pruefung-…` anlegen oder dieses wieder veröffentlichen. |
 
 „Schon live“ heißt: Die Lektion steht bereits in der Datenbank. Amelie sieht sie also schon, obwohl der PR noch offen ist.
 
