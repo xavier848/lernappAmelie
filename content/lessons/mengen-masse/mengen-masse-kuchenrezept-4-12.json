@@ -1,0 +1,105 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-kuchenrezept-4-12",
+  "title": "Kuchenrezept umrechnen: 4 und 12 Stücke",
+  "sort": 60,
+  "intro": "Ein Rezept ist immer für eine bestimmte Menge geschrieben. Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier.\n\nWillst du mehr oder weniger Stücke backen, rechnest du die Mengen um. Teile die Menge durch 8. Dann weißt du, wie viel du für 1 Stück brauchst. Nimm das dann mal die neue Stückzahl.\n\nBeispiel Butter für 4 Stücke: 250 g : 8 × 4 = 125 g.\n\nOft geht es auch leichter. 4 Stücke sind die Hälfte von 8. Dann halbierst du einfach alle Mengen. 12 Stücke sind 8 + 4, also 1 Rezept und noch ein halbes. 20 Stücke sind 8 + 8 + 4, also 2 Rezepte und noch ein halbes.\n\nMERKE: Menge : alte Stückzahl × neue Stückzahl = neue Menge.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Du willst nur 4 Stücke backen. Wie rechnest du?",
+        "options": [
+          { "text": "Alle Mengen halbieren, denn 4 ist die Hälfte von 8.", "correct": true },
+          { "text": "Alle Mengen verdoppeln, denn 4 + 4 ergibt zusammen 8." },
+          { "text": "Von jeder Menge 4 abziehen, denn 8 − 4 ergibt 4." }
+        ],
+        "explanation": "4 Stücke sind die Hälfte von 8 Stücken. Darum brauchst du von jeder Zutat die Hälfte."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Butter brauchst du für 4 Stücke?",
+        "answer": 125,
+        "hint": "4 Stücke sind die Hälfte von 8.\nDie Hälfte von 250 = ?",
+        "explanation": "4 Stücke sind die Hälfte von 8. Die Hälfte von 250 g sind 125 g. Oder mit der Formel: 250 : 8 × 4 = 125 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Zucker brauchst du für 4 Stücke?",
+        "answer": 100,
+        "hint": "4 Stücke sind die Hälfte von 8.\nDie Hälfte von 200 = ?",
+        "explanation": "4 Stücke sind die Hälfte von 8. Die Hälfte von 200 g sind 100 g. Oder mit der Formel: 200 : 8 × 4 = 100 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Mehl brauchst du für 4 Stücke?",
+        "answer": 150,
+        "hint": "4 Stücke sind die Hälfte von 8.\nDie Hälfte von 300 = ?",
+        "explanation": "4 Stücke sind die Hälfte von 8. Die Hälfte von 300 g sind 150 g. Oder mit der Formel: 300 : 8 × 4 = 150 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viele Eier brauchst du für 4 Stücke?",
+        "answer": 2,
+        "hint": "4 Stücke sind die Hälfte von 8.\nDie Hälfte von 4 = ?",
+        "explanation": "4 Stücke sind die Hälfte von 8. Die Hälfte von 4 Eier sind 2 Eier. Oder mit der Formel: 4 : 8 × 4 = 2 Eier."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Für 12 Stücke: Wie oft brauchst du das Rezept für 8 Stücke?",
+        "options": [
+          { "text": "1-mal ganz und noch einmal zur Hälfte.", "correct": true },
+          { "text": "Genau 2-mal." },
+          { "text": "1-mal ganz und noch einmal ein Viertel." }
+        ],
+        "explanation": "12 Stücke sind 8 + 4 Stücke. Die 8 Stücke sind das ganze Rezept. Die 4 Stücke sind das halbe Rezept."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Butter brauchst du für 12 Stücke?",
+        "answer": 375,
+        "hint": "12 Stücke = 8 Stücke + 4 Stücke.\nFür 8 Stücke: 250\nFür 4 Stücke: 125\n250 + 125 = ?",
+        "explanation": "12 Stücke sind 8 + 4 Stücke: 250 + 125 = 375 g. Oder mit der Formel: 250 : 8 × 12 = 375 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Zucker brauchst du für 12 Stücke?",
+        "answer": 300,
+        "hint": "12 Stücke = 8 Stücke + 4 Stücke.\nFür 8 Stücke: 200\nFür 4 Stücke: 100\n200 + 100 = ?",
+        "explanation": "12 Stücke sind 8 + 4 Stücke: 200 + 100 = 300 g. Oder mit der Formel: 200 : 8 × 12 = 300 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Mehl brauchst du für 12 Stücke?",
+        "answer": 450,
+        "hint": "12 Stücke = 8 Stücke + 4 Stücke.\nFür 8 Stücke: 300\nFür 4 Stücke: 150\n300 + 150 = ?",
+        "explanation": "12 Stücke sind 8 + 4 Stücke: 300 + 150 = 450 g. Oder mit der Formel: 300 : 8 × 12 = 450 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viele Eier brauchst du für 12 Stücke?",
+        "answer": 6,
+        "hint": "12 Stücke = 8 Stücke + 4 Stücke.\nFür 8 Stücke: 4\nFür 4 Stücke: 2\n4 + 2 = ?",
+        "explanation": "12 Stücke sind 8 + 4 Stücke: 4 + 2 = 6 Eier. Oder mit der Formel: 4 : 8 × 12 = 6 Eier."
+      }
+    }
+  ]
+}

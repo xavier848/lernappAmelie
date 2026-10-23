@@ -1,0 +1,149 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-eier-klassen",
+  "title": "Eier: Güte- und Gewichtsklassen",
+  "sort": 686,
+  "intro": "🥚 Eier gibt es in Güteklassen. Güte heißt Qualität. Diese Klassen haben keine Zahlen, sondern Buchstaben.\n\nHeute gibt es zwei Güteklassen. Güteklasse A: frische, einwandfreie Eier. Sie kommen in den Handel. Auf dem Eierkarton steht dann die Güteklasse A.\n\nGüteklasse B: Diese Eier sind nicht gut genug für den Laden. Zum Beispiel sind sie stark verschmutzt. Sie gehen nur an die Industrie. Das ist die Industrie, die Lebensmittel verarbeitet. Oder die Non-Food-Industrie, zum Beispiel für Kosmetik. Non-Food heißt: nicht als Lebensmittel.\n\nDein Buch nennt noch eine Güteklasse C für beschädigte Eier. Heute gilt: Die Güteklasse C gibt es seit 2004 nicht mehr. Sie wurde mit der Klasse B zusammengelegt.\n\nHühner legen verschieden große Eier. Die Zahl der Eier allein reicht deshalb als Angabe nicht. Von außen muss man sehen, mit welchem Gewicht pro Ei man rechnen kann. Dafür gibt es Gewichtsklassen.\n\nMERKE: Die Gewichtsklassen heißen S, M, L und XL. Ein Ei der Klasse S wiegt weniger als 53 g. Von Klasse zu Klasse kommen 10 g dazu.\n\nAuf dem Eierkarton steht die Erzeugungskennzeichnung, also der Code für Haltung und Herkunft. Dazu kommen die Gewichtsklasse, die Güteklasse und die Nummer der Packstelle. Die Packstelle ist der Betrieb, der die Eier verpackt. Außerdem stehen dort das Mindesthaltbarkeitsdatum und oft ein Biosiegel.\n\nDazu kommen Hinweise: Die Eier bei +5 °C bis +8 °C kühlen. Bei Kühlschranktemperatur aufbewahren. Nach Ablauf des Mindesthaltbarkeitsdatums durcherhitzen.\n\nEier aus konventioneller Haltung und Bio-Eier sehen gleich aus und schmecken gleich. Konventionell heißt: herkömmlich, also nicht bio. Darum braucht man eine Kennzeichnung. Der Code steht direkt auf der Eierschale. Dein Buch nennt das Laseraufdruck.\n\nDie erste Ziffer zeigt die Haltungsform: 0 = Bio, 1 = Freiland, 2 = Boden, 3 = Käfig. In Deutschland hieß die Käfighaltung zuletzt Kleingruppenhaltung. Seit 2026 ist sie hier verboten, bis auf wenige Ausnahmen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Ein Ei ist stark verschmutzt. In welche Güteklasse kommt es?",
+        "options": [
+          { "text": "Güteklasse B.", "correct": true },
+          { "text": "Güteklasse A." },
+          { "text": "Güteklasse C." }
+        ],
+        "explanation": "Frag dich: Ist das Ei gut genug für den Laden? Ein stark verschmutztes Ei ist es nicht. Es kommt in die Güteklasse B und geht nur an die Industrie. Eine Güteklasse C gibt es heute nicht mehr."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🥚 Was gilt heute für diese Güteklasse? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Güteklasse A"}, "right": {"text": "Frische Eier für den Handel"} },
+          { "left": {"text": "Güteklasse B"}, "right": {"text": "Nur für die Industrie"} },
+          { "left": {"text": "Güteklasse C"}, "right": {"text": "Gibt es seit 2004 nicht mehr"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Wie gut ist das Ei? Einwandfreie Eier kaufst du im Laden. Eier, die nicht gut genug sind, gehen an die Industrie. Die Klasse C aus deinem Buch wurde 2004 mit der Klasse B zusammengelegt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐔 Warum reicht die Zahl der Eier als Angabe auf der Packung nicht aus?",
+        "options": [
+          { "text": "Hühner legen unterschiedlich große Eier.", "correct": true },
+          { "text": "Eier darf man im Laden gar nicht einzeln zählen." },
+          { "text": "Jedes Ei ist genau gleich schwer und gleich groß." }
+        ],
+        "explanation": "Ein kleines Ei und ein großes Ei sind sehr verschieden. Für das Kochen und Backen ist das wichtig. Darum zeigt die Gewichtsklasse, wie schwer die Eier ungefähr sind."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⚖️ Ein Ei der Gewichtsklasse S ist klein. Unter wie viel Gramm liegt sein Gewicht? Tippe die Zahl ein.",
+        "answer": 53,
+        "hint": "Die Zahl liegt zwischen 50 und 55.\nSie ist ungerade.",
+        "explanation": "Ein Ei der Klasse S wiegt weniger als 53 g. Dann kommt Klasse M, danach L und XL. Von Klasse zu Klasse kommen 10 g dazu."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "📏 Ordne die Gewichtsklassen: vom leichtesten zum schwersten Ei.",
+        "steps": [
+          { "text": "S" },
+          { "text": "M" },
+          { "text": "L" },
+          { "text": "XL" }
+        ],
+        "explanation": "Die Buchstaben kennst du von Kleidergrößen. S steht für small, also klein. XL steht für extra large, also besonders groß."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "➕ Wie viel Gramm kommen von einer Gewichtsklasse zur nächsten ungefähr dazu?",
+        "options": [
+          { "text": "10 g.", "correct": true },
+          { "text": "1 g." },
+          { "text": "50 g." }
+        ],
+        "explanation": "Die Klassen liegen jeweils 10 g auseinander. Ein Ei der Klasse S wiegt unter 53 g, die Klassen darüber sind jeweils um 10 g schwerer."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📦 Steht das auf dem Eierkarton? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Steht auf dem Karton", "icon": "✅" },
+          { "id": "nein", "label": "Steht nicht darauf", "icon": "➖" }
+        ],
+        "items": [
+          { "text": "Die Gewichtsklasse, zum Beispiel M", "bucket": "ja" },
+          { "text": "Die Güteklasse, zum Beispiel A", "bucket": "ja" },
+          { "text": "Die Nummer der Packstelle", "bucket": "ja" },
+          { "text": "Das Mindesthaltbarkeitsdatum", "bucket": "ja" },
+          { "text": "Der Hinweis: bei +5 °C bis +8 °C kühlen", "bucket": "ja" },
+          { "text": "Das Alter der Henne", "bucket": "nein" },
+          { "text": "Das Gewicht der Henne", "bucket": "nein" },
+          { "text": "Die Farbe des Hühnerfutters", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Brauche ich das, um die Eier zu beurteilen und richtig zu lagern? Klassen, Packstelle, Datum und Kühlhinweis stehen darauf. Das Alter oder das Gewicht der Henne nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Das Mindesthaltbarkeitsdatum der Eier ist abgelaufen. Welcher Hinweis steht dazu auf dem Karton?",
+        "options": [
+          { "text": "Nach Ablauf des Datums die Eier durcherhitzen.", "correct": true },
+          { "text": "Nach Ablauf des Datums die Eier sofort wegwerfen." },
+          { "text": "Nach Ablauf des Datums die Eier nur noch roh essen." }
+        ],
+        "explanation": "Nach dem Mindesthaltbarkeitsdatum sollen Eier durcherhitzt werden, zum Beispiel hart gekocht. So werden Keime wie Salmonellen abgetötet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Warum brauchen Eier eine Kennzeichnung der Haltungsform?",
+        "options": [
+          { "text": "Konventionelle und Bio-Eier sehen gleich aus und schmecken gleich.", "correct": true },
+          { "text": "Bio-Eier haben immer eine grüne Schale und fallen so jedem sofort auf." },
+          { "text": "Konventionelle Eier schmecken immer deutlich bitterer als Bio-Eier." }
+        ],
+        "explanation": "Von außen kannst du nicht erkennen, wie die Henne gelebt hat. Nur die Kennzeichnung verrät es dir. Darum steht der Code auf jedem Ei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖨️ Wie kommt der Code mit der Haltungsform auf das Ei?",
+        "options": [
+          { "text": "Er wird direkt auf die Eierschale gedruckt.", "correct": true },
+          { "text": "Er steht nur auf dem Karton, aber nie auf dem Ei selbst." },
+          { "text": "Er steht nur auf einem Zettel am Stall des Bauern." }
+        ],
+        "explanation": "Der Code steht direkt auf der Schale. Dein Buch nennt das Laseraufdruck. Die erste Ziffer zeigt die Haltungsform. Die 3 steht für Käfighaltung, in Deutschland zuletzt Kleingruppenhaltung genannt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wo bewahrst du Eier auf?",
+        "options": [
+          { "text": "Im Kühlschrank.", "correct": true },
+          { "text": "Im warmen Küchenschrank." },
+          { "text": "Auf der sonnigen Fensterbank." }
+        ],
+        "explanation": "Auf dem Karton steht: bei Kühlschranktemperatur aufbewahren. In der Kälte vermehren sich Keime kaum."
+      }
+    }
+  ]
+}

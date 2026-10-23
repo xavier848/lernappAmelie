@@ -1,0 +1,140 @@
+{
+  "topic_slug": "ferienwohnung",
+  "slug": "ferienwohnung-mikrofasertuecher",
+  "title": "Mikrofasertücher: Wo ja, wo nein?",
+  "sort": 16,
+  "intro": "Mikrofasertücher bestehen aus ganz feinen Fasern. Sie reinigen sehr stark mechanisch. Das heißt: Die Fasern reiben den Schmutz ab. Dabei wirken sie auch entfettend.\n\nDeshalb ist ein Mikrofasertuch nicht automatisch für jede Oberfläche geeignet.\n\nGut geeignet ist es für glatte, unempfindliche Oberflächen. Zum Beispiel: Arbeitsflächen in der Küche, Tische mit Kunststoffoberfläche, Fliesen, Waschbecken und robuste Schrank- und Möbelflächen. Auch viele glatte, versiegelte Oberflächen gehören dazu.\n\nDabei reicht häufig Wasser. Das Tuch soll nur nebelfeucht sein, also leicht feucht. Ist es zu nass, nimmt es den Schmutz schlechter auf.\n\nNicht geeignet ist es für empfindliche oder offenporige Oberflächen. Offenporig heißt: Die Oberfläche hat winzige offene Poren, zum Beispiel geöltes Holz. Dort entfernen die Mikrofasern Fett und schützende Pflegeschichten. Oder sie rauen die Oberfläche auf Dauer auf.\n\nNicht verwenden bei: geöltem Holztisch, gewachsten Holzmöbeln, geöltem oder gewachstem Holzboden oder Parkett. Empfindliche Hochglanzflächen können auf Dauer stumpf oder zerkratzt werden.\n\nBildschirme mit spezieller Beschichtung, zum Beispiel Fernseher, Laptop oder Monitor, reinigst du nicht einfach mit einem normalen Mikrofasertuch. Auch spezielle Easy-Clean-Beschichtungen können beschädigt werden.\n\nMERKE: Mikrofaser reinigt stark und entfettet. Gut für glatte, robuste Flächen. Nicht für geölte, gewachste oder empfindliche Flächen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧵 Warum ist ein Mikrofasertuch nicht für jede Oberfläche geeignet?",
+        "options": [
+          { "text": "Es reinigt sehr stark mechanisch und wirkt dabei entfettend.", "correct": true },
+          { "text": "Es nimmt kaum Schmutz auf und verteilt ihn nur auf der Fläche." },
+          { "text": "Es ist so weich, dass es festen Schmutz gar nicht lösen kann." }
+        ],
+        "explanation": "Die feinen Fasern reiben den Schmutz sehr kräftig ab. Dabei lösen sie auch Fett. Auf empfindlichen Flächen nehmen sie so die schützende Pflegeschicht mit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧽 Mikrofasertuch: geeignet oder nicht? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Geeignet", "icon": "✅" },
+          { "id": "nein", "label": "Nicht verwenden", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Arbeitsfläche in der Küche", "bucket": "ja" },
+          { "text": "Tisch mit Kunststoffoberfläche", "bucket": "ja" },
+          { "text": "Fliesen", "bucket": "ja" },
+          { "text": "Waschbecken", "bucket": "ja" },
+          { "text": "Geölter Holztisch", "bucket": "nein" },
+          { "text": "Gewachste Holzmöbel", "bucket": "nein" },
+          { "text": "Geölter Parkettboden", "bucket": "nein" },
+          { "text": "Gewachster Holzboden", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Ist die Fläche glatt und robust? Dann passt Mikrofaser. Ist sie geölt oder gewachst? Dann nimmt die Mikrofaser das Öl oder Wachs mit. Nicht verwenden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Wie feucht soll das Mikrofasertuch sein?",
+        "options": [
+          { "text": "Nur nebelfeucht, also leicht feucht.", "correct": true },
+          { "text": "Tropfnass, damit sich der Schmutz besser löst." },
+          { "text": "So nass, dass Wasser auf der Fläche stehen bleibt." }
+        ],
+        "explanation": "Nebelfeucht heißt: nur leicht feucht. Ist das Tuch zu nass, nimmt es den Schmutz schlechter auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚰 Du putzt die Fliesen mit dem Mikrofasertuch. Was brauchst du dazu häufig nur?",
+        "options": [
+          { "text": "Wasser.", "correct": true },
+          { "text": "Scheuermilch." },
+          { "text": "Möbelpolitur." }
+        ],
+        "explanation": "Mikrofasertücher reinigen schon durch ihre feinen Fasern. Auf glatten Flächen wie Fliesen reicht deshalb häufig Wasser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Warum nimmst du für einen geölten Holztisch kein Mikrofasertuch?",
+        "options": [
+          { "text": "Die Mikrofasern entfernen das Öl, also die schützende Pflegeschicht.", "correct": true },
+          { "text": "Das Holz wird vom Mikrofasertuch sofort nass und quillt auf." },
+          { "text": "Die feinen Fasern bleiben im Holz hängen und machen Flecken." }
+        ],
+        "explanation": "Mikrofaser wirkt entfettend. Auf geöltem oder gewachstem Holz nimmt sie das Öl oder das Wachs mit. Dann fehlt dem Holz der Schutz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✨ Was kann mit einer empfindlichen Hochglanzfläche passieren, wenn du sie immer mit Mikrofaser putzt?",
+        "options": [
+          { "text": "Sie kann auf Dauer stumpf oder zerkratzt werden.", "correct": true },
+          { "text": "Sie bekommt auf Dauer einen besonders starken Glanz." },
+          { "text": "Sie wird auf Dauer fettig und klebrig." }
+        ],
+        "explanation": "Die Fasern reinigen sehr kräftig. Auf einer empfindlichen Hochglanzfläche raut das die Oberfläche auf Dauer auf. Dann wird sie stumpf oder bekommt Kratzer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💻 Der Laptop-Bildschirm ist staubig. Was stimmt?",
+        "options": [
+          { "text": "Kein normales Mikrofasertuch nehmen, wegen der Beschichtung.", "correct": true },
+          { "text": "Ein normales Mikrofasertuch nehmen und dann kräftig reiben." },
+          { "text": "Ein nasses Mikrofasertuch nehmen, denn Wasser reicht immer." }
+        ],
+        "explanation": "Bildschirme von Fernseher, Laptop oder Monitor haben oft eine spezielle Beschichtung. Ein normales Mikrofasertuch kann sie beschädigen. Nimm ein trockenes, weiches Tuch, das für Bildschirme gedacht ist."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was passiert, wenn du dort mit Mikrofaser putzt? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🪵 Geöltes Holz"}, "right": {"text": "Das schützende Öl wird entfernt."} },
+          { "left": {"text": "✨ Hochglanzfläche"}, "right": {"text": "Wird auf Dauer stumpf oder zerkratzt."} },
+          { "left": {"text": "🧪 Easy-Clean-Beschichtung"}, "right": {"text": "Die Beschichtung kann kaputtgehen."} },
+          { "left": {"text": "🟦 Fliesen"}, "right": {"text": "Gut geeignet, oft reicht Wasser."} }
+        ],
+        "explanation": "Mikrofaser reinigt stark und entfettet. Das ist gut für robuste Flächen wie Fliesen. Auf geölten, beschichteten oder empfindlichen Flächen richtet es Schaden an."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Welche Aussage über Mikrofasertücher ist falsch?",
+        "options": [
+          { "text": "Sie passen auf jede Oberfläche, weil sie so weich sind.", "correct": true },
+          { "text": "Sie reinigen sehr stark mechanisch." },
+          { "text": "Auf glatten, versiegelten Flächen reicht oft Wasser." },
+          { "text": "Ist das Tuch zu nass, nimmt es den Schmutz schlechter auf." }
+        ],
+        "explanation": "Mikrofasertücher sind nicht für jede Oberfläche geeignet. Auf geölten, gewachsten oder empfindlichen Flächen richten sie Schaden an. Die anderen drei Aussagen stimmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Wofür ist ein Mikrofasertuch gut geeignet?",
+        "options": [
+          { "text": "Für die Arbeitsfläche in der Küche.", "correct": true },
+          { "text": "Für einen gewachsten Holzschrank." },
+          { "text": "Für einen geölten Parkettboden." }
+        ],
+        "explanation": "Die Arbeitsfläche ist glatt und unempfindlich. Dafür ist Mikrofaser ideal. Gewachstes und geöltes Holz verträgt Mikrofaser nicht."
+      }
+    }
+  ]
+}

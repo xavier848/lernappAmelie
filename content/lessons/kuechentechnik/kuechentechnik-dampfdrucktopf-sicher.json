@@ -1,0 +1,139 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-dampfdrucktopf-sicher",
+  "title": "Dampfdrucktopf sicher benutzen",
+  "sort": 611,
+  "intro": "♨️ So benutzt du den Dampfdrucktopf sicher. Es gibt fünf Schritte.\n\n1. Öffnen und prüfen: Du bewegst den Öffnungsschieber und drehst den Deckel. Dann prüfst du drei Dinge. Das Kochventil lässt sich leicht hochdrücken. Das Ankochventil liegt locker und beweglich im Deckel. Der Dichtungsring sitzt richtig im Deckel.\n\n2. Vorbereiten: Du füllst Gargut und Flüssigkeit ein. Dabei hältst du dich an die Markierung für Minimum und Maximum. Speisen, die stark schäumen, füllst du nur bis zur Hälfte ein.\n\n3. Schließen: Die Markierungen auf Deckel und Griff liegen übereinander. Der Öffnungsschieber steht auf „offen“. Du drehst den Deckel am Handgriff im Uhrzeigersinn, in Pfeilrichtung. Geschlossen ist er, wenn Deckelbügel und Seitengriffe eine Linie bilden.\n\n4. Garstufe einstellen und garen: Am Drehknopf des Kochventils wählst du die Garstufe. Die Garzeit beginnt, wenn die Garstufe erreicht ist.\n\n5. Sicher öffnen: Nach der Garzeit machst du den Topf drucklos. Dafür gibt es drei Möglichkeiten.\n\na) Abkühlen lassen: Der Druck sinkt mit der Temperatur von selbst. Vor dem Öffnen rüttelst du den Topf leicht. Dann stellst du den Öffnungsschieber auf „öffnen“.\n\nb) Mit kaltem Wasser abkühlen: Du lässt kaltes Wasser über den Deckel laufen. Der Kochanzeiger sinkt.\n\nc) Abdampfen: Du stellst den Öffnungsschieber in kurzen Abständen auf „öffnen“. Der Dampf entweicht nach und nach.\n\nMERKE: Öffne den Dampfdrucktopf nie mit Gewalt. Öffne ihn nur, wenn kein Druck mehr im Topf ist. Das ist so, wenn sich der Kochanzeiger ganz gesenkt hat.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "♨️ Die fünf Schritte beim Dampfdrucktopf. Bringe sie in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Öffnen und prüfen" },
+          { "text": "Gargut und Flüssigkeit einfüllen" },
+          { "text": "Deckel schließen" },
+          { "text": "Garstufe einstellen und garen" },
+          { "text": "Drucklos machen und sicher öffnen" }
+        ],
+        "explanation": "Frag dich: Was brauchst du, bevor der nächste Schritt möglich ist? Erst prüfst du, ob alles funktioniert. Dann füllst du ein und schließt. Gegart wird nur im geschlossenen Topf. Geöffnet wird erst ohne Druck."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔍 Du prüfst den geöffneten DDT. Alles in Ordnung oder ein Problem? Sortiere.",
+        "buckets": [
+          { "id": "ok", "label": "In Ordnung", "icon": "✅" },
+          { "id": "problem", "label": "Problem", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Das Kochventil lässt sich leicht hochdrücken", "bucket": "ok" },
+          { "text": "Das Ankochventil liegt locker und beweglich", "bucket": "ok" },
+          { "text": "Der Dichtungsring sitzt richtig im Deckel", "bucket": "ok" },
+          { "text": "Das Kochventil klemmt fest", "bucket": "problem" },
+          { "text": "Das Ankochventil sitzt fest und bewegt sich nicht", "bucket": "problem" },
+          { "text": "Der Dichtungsring hängt schief heraus", "bucket": "problem" }
+        ],
+        "explanation": "Frag dich bei jedem Teil: Kann es seine Aufgabe erfüllen? Die Ventile müssen sich bewegen können, sonst schützen sie nicht. Der Dichtungsring muss richtig sitzen, sonst ist der Topf nicht dicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫧 Eine Speise schäumt beim Kochen stark. Wie voll machst du den DDT?",
+        "options": [
+          { "text": "Nur bis zur Hälfte.", "correct": true },
+          { "text": "Bis zur Maximum-Markierung." },
+          { "text": "Randvoll, dann schäumt es weniger." }
+        ],
+        "explanation": "Stark schäumende Speisen füllst du nur bis zur Hälfte ein. Der Schaum braucht viel Platz im Topf. Für alle anderen Speisen gilt die Markierung Minimum und Maximum."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Wonach richtest du die Menge von Gargut und Flüssigkeit?",
+        "options": [
+          { "text": "Nach der Markierung Minimum und Maximum.", "correct": true },
+          { "text": "Nach Gefühl, Hauptsache der Deckel passt noch." },
+          { "text": "Nach dem Rezept, die Markierung ist nur Deko." }
+        ],
+        "explanation": "Im Topf gibt es eine Markierung für Minimum und Maximum. Mindestens so viel Flüssigkeit muss hinein, damit Dampf entsteht. Höchstens so viel, damit genug Platz für den Dampf bleibt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Bevor du den Deckel zum Schließen drehst: Was muss stimmen?",
+        "options": [
+          { "text": "Die Markierungen liegen übereinander, der Schieber steht auf „offen“.", "correct": true },
+          { "text": "Der Kochanzeiger steht schon ganz oben, und der Schieber steht auf „zu“." },
+          { "text": "Der Dichtungsring ist abgenommen, der Schieber steht auf „zu“." }
+        ],
+        "explanation": "Zum Schließen legst du die Markierungen auf Deckel und Griff übereinander. Der Öffnungsschieber steht dabei auf „offen“. Erst dann drehst du den Deckel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "↩️ In welche Richtung drehst du den Deckel zum Schließen?",
+        "options": [
+          { "text": "Im Uhrzeigersinn, in Pfeilrichtung.", "correct": true },
+          { "text": "Gegen den Uhrzeigersinn." },
+          { "text": "Gar nicht, du drückst ihn nur fest auf." }
+        ],
+        "explanation": "Du drehst den Deckel am Handgriff im Uhrzeigersinn in Pfeilrichtung. So greifen Deckel und Topfrand ineinander."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Woran erkennst du, dass der Deckel richtig geschlossen ist?",
+        "options": [
+          { "text": "Deckelbügel und Seitengriffe bilden eine Linie.", "correct": true },
+          { "text": "Der Kochanzeiger steht schon ganz oben." },
+          { "text": "Der Öffnungsschieber lässt sich gar nicht mehr bewegen." }
+        ],
+        "explanation": "In der Schließposition bilden Deckelbügel und Seitengriffe eine Linie. Der Kochanzeiger steigt erst später, wenn sich Druck gebildet hat."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "💨 Drei Wege zum drucklosen Topf. Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Abkühlen lassen"}, "right": {"text": "Druck sinkt von selbst, dann leicht rütteln"} },
+          { "left": {"text": "Kaltes Wasser"}, "right": {"text": "Wasser über den Deckel laufen lassen"} },
+          { "left": {"text": "Abdampfen"}, "right": {"text": "Schieber in kurzen Abständen auf „öffnen“"} }
+        ],
+        "memory": false,
+        "explanation": "Alle drei Wege haben dasselbe Ziel: Der Druck muss raus, bevor du öffnest. Beim Abkühlen wartest du, mit kaltem Wasser geht es schneller. Beim Abdampfen lässt du den Dampf stufenweise entweichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛑 Der Kochanzeiger ist noch oben. Der Deckel lässt sich schwer drehen. Was tust du?",
+        "options": [
+          { "text": "Erst drucklos machen, nie mit Gewalt öffnen.", "correct": true },
+          { "text": "Mit viel Kraft am Griff drehen, bis er aufgeht." },
+          { "text": "Mit einem Messer den Deckel vorsichtig aufhebeln." }
+        ],
+        "explanation": "Ein DDT darf nie mit Gewalt geöffnet werden. Steht der Kochanzeiger noch oben, ist Druck im Topf. Heißer Dampf und heiße Speisen könnten herausschießen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎛️ Wo stellst du beim DDT die Garstufe ein?",
+        "options": [
+          { "text": "Am Drehknopf des Kochventils.", "correct": true },
+          { "text": "Mit dem Öffnungsschieber, in zwei Stufen." },
+          { "text": "Am Seitengriff." }
+        ],
+        "explanation": "Die Garstufe stellst du am Drehknopf des Kochventils ein. Mit dem Öffnungsschieber öffnest du den Topf."
+      }
+    }
+  ]
+}

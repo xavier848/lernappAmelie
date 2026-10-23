@@ -1,0 +1,129 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-lagerkartei-entnahme",
+  "title": "Lagerkartei und Entnahme",
+  "sort": 714,
+  "intro": "🗃️ Jede Ware im Lager wird aufgeschrieben. Kommt neue Ware, trägst du sie anhand des Lieferscheins in die Lagerkarteikarte ein. Früher war das ein Karteikasten. Heute macht man das meist elektronisch am Computer, zum Beispiel mit dem Programm MBS5. Dabei hilft ein Barcodescanner. Er liest den Strichcode auf der Ware.\n\nManchmal hängt am Regal noch eine Lagerfachkarte. Darauf steht jeder Eingang und jeder Ausgang. Zu jedem Eintrag gehören das Datum, die Menge und der Bestand, der noch übrig ist.\n\nAuch jede Entnahme wird aufgeschrieben. Ohne Eintrag darf nichts aus dem Lager genommen werden. Mit einem Computerprogramm, kurz EDV, geht das so: 1. Im Programm sind die Zutatenmengen für die Standardmenüs hinterlegt. 2. Nach der Zahl der bestellten Menüs druckst du eine Liste aus. Sie zählt alle Zutaten zusammen. Das heißt kumulierter Ausdruck. 3. Mit dieser Liste nimmst du die Ware für die Küche aus dem Lager. Auf der Lagerfachkarte vermerkst du die Entnahme von Hand. 4. Mit einem Tastendruck bestätigst du. Dann bucht das Programm die Vorräte nach der Zahl der Portionen aus.\n\nStandardmenüs gibt es in Varianten: für Menschen mit einer Stoffwechselerkrankung, zum Beispiel Diabetes. Für Menschen mit erhöhtem Kalorienbedarf, zum Beispiel wer körperlich schwer arbeitet. Für Menschen mit vermindertem Grundumsatz, zum Beispiel bettlägerige Patienten. Der Grundumsatz ist die Energie, die der Körper in Ruhe braucht. Und für Menschen mit Allergien, zum Beispiel gegen Milcheiweiß.\n\nGewürze braucht die Küche mal mehr, mal weniger. Sie bucht man einzeln im Programm aus. Das ist eine Einzelentnahme. In der Küche liegt ein Vorrat für eine Woche oder einen Monat.\n\nDas Programm rechnet auch den Preis pro Portion aus. Er hängt von der Portionsgröße, der Zahl der Portionen und den Einkaufspreisen ab. Beispiel: Die Zutaten für 100 Portionen Putenpfanne kosten rund 114 €. Dann kostet eine Portion rund 1,14 €.\n\nOnline-Programme können verbrauchte Ware automatisch nachbestellen. Lieferanten tragen dort ihre Preise ein. Das Programm vergleicht sie mit dem Standardlieferanten. Ist ein anderer günstiger, zeigt es das an.\n\nMERKE: Eingang und Entnahme werden immer aufgeschrieben: in der Lagerkarteikarte und auf der Lagerfachkarte am Regal.\n\nMERKE: Im Einkauf liegt ein wichtiger Teil vom wirtschaftlichen Erfolg.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Neue Ware kommt ins Lager. Womit trägst du sie in die Lagerkarteikarte ein?",
+        "options": [
+          { "text": "Anhand des Lieferscheins.", "correct": true },
+          { "text": "Anhand der Inventurliste vom Vorjahr." },
+          { "text": "Anhand der Speisekarte für die Woche." }
+        ],
+        "explanation": "Auf dem Lieferschein steht genau, was und wie viel angekommen ist. Diese Angaben trägst du in die Lagerkarteikarte ein. Heute meist elektronisch, zum Beispiel mit MBS5."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Am Regal hängt eine Lagerfachkarte. Was steht bei jedem Eintrag?",
+        "options": [
+          { "text": "Datum, Menge und der Bestand, der übrig ist.", "correct": true },
+          { "text": "Preis, Lieferant und die Nummer der Rechnung." },
+          { "text": "Name der Köchin und das Menü des Tages." }
+        ],
+        "explanation": "Auf der Lagerfachkarte steht jeder Eingang und jeder Ausgang. Dazu gehören Datum, Menge und der Bestand, der noch da ist. Preise stehen dort nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was ist was bei der Lagerdokumentation? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🗃️ Lagerkarteikarte"}, "right": {"text": "Bestandsliste, heute meist im Computer"} },
+          { "left": {"text": "🏷️ Lagerfachkarte"}, "right": {"text": "Karte direkt am Regal"} },
+          { "left": {"text": "📟 Barcodescanner"}, "right": {"text": "Liest den Strichcode auf der Ware"} },
+          { "left": {"text": "🖨️ Kumulierter Ausdruck"}, "right": {"text": "Liste mit allen Zutaten zusammengezählt"} }
+        ],
+        "explanation": "Die Lagerkarteikarte ist die große Übersicht, heute meist im Programm. Die Lagerfachkarte hängt am Regal. Kumuliert heißt: zusammengezählt."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🖥️ Entnahme mit dem EDV-Programm: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Zutatenmengen der Standardmenüs im Programm hinterlegen." },
+          { "text": "Nach der Zahl der bestellten Menüs einen kumulierten Ausdruck machen." },
+          { "text": "Mit dem Ausdruck die Ware entnehmen und auf der Lagerfachkarte vermerken." },
+          { "text": "Per Tastendruck bestätigen, dann bucht das Programm die Vorräte aus." }
+        ],
+        "explanation": "Das Programm braucht zuerst die Rezepte, dann die Zahl der Menüs. Erst dann kann es die Liste drucken. Ausgebucht wird ganz zum Schluss, wenn die Ware wirklich aus dem Lager genommen ist."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍽️ Welches Standardmenü bekommt wer? Verbinde.",
+        "pairs": [
+          { "left": {"text": "👷 Bauarbeiter, arbeitet körperlich schwer"}, "right": {"text": "Menü bei erhöhtem Kalorienbedarf"} },
+          { "left": {"text": "🛏️ Bettlägerige Patientin"}, "right": {"text": "Menü bei vermindertem Grundumsatz"} },
+          { "left": {"text": "💉 Bewohner mit Diabetes"}, "right": {"text": "Menü bei Stoffwechselerkrankung"} },
+          { "left": {"text": "🥛 Bewohnerin mit Milcheiweißallergie"}, "right": {"text": "Menü für Allergiker"} }
+        ],
+        "explanation": "Frag dich: Braucht der Mensch mehr oder weniger Energie, oder muss er etwas meiden? Wer schwer arbeitet, braucht mehr. Wer im Bett liegt, braucht weniger. Diabetes ist eine Stoffwechselerkrankung. Eine Allergie heißt: Dieser Stoff muss ganz weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧂 Die Küche braucht Gewürze mal mehr, mal weniger. Wie werden sie aus dem Lager gebucht?",
+        "options": [
+          { "text": "Als Einzelentnahme im Programm.", "correct": true },
+          { "text": "Über die Standardmenüs, wie alle Zutaten." },
+          { "text": "Gar nicht, Gewürze zählen nicht zum Lager." }
+        ],
+        "explanation": "Die Menge der Gewürze wechselt. Darum stehen sie nicht fest in den Standardmenüs. Man bucht sie einzeln aus: als Einzelentnahme. In der Küche liegt ein Vorrat für eine Woche oder einen Monat."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "💶 Die Zutaten für 100 Portionen Putenpfanne kosten rund 114 €. Wie viel Cent kostet eine Portion?",
+        "answer": 114,
+        "hint": "Teile 114 € durch 100 Portionen. 1 € sind 100 Cent.",
+        "explanation": "114 € geteilt durch 100 Portionen sind 1,14 € pro Portion. Das sind 114 Cent. So rechnet das Programm den Preis pro Portion aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💻 Was können Online-Programme für das Lager zusätzlich?",
+        "options": [
+          { "text": "Ware nachbestellen und Preise von Lieferanten vergleichen.", "correct": true },
+          { "text": "Die gelieferte Ware selbstständig und ordentlich ins Regal einräumen." },
+          { "text": "Die Inventur ganz ohne Zählen im Lager erledigen." }
+        ],
+        "explanation": "Online-Programme bestellen verbrauchte Ware automatisch nach. Lieferanten tragen ihre Preise ein. Ist einer günstiger als der Standardlieferant, zeigt das Programm es an. Einräumen und Zählen musst du weiter selbst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📈 Das Programm zeigt: Ein anderer Lieferant ist günstiger als der Standardlieferant. Was lernt die Küchenleitung daraus?",
+        "options": [
+          { "text": "Im Einkauf liegt ein wichtiger Teil vom wirtschaftlichen Erfolg.", "correct": true },
+          { "text": "Der Standardlieferant ist wirklich immer und überall am günstigsten." },
+          { "text": "Für eine Großküche spielen Einkaufspreise keine Rolle." }
+        ],
+        "explanation": "Wer gut einkauft, spart bei jeder Portion Geld. Darum gilt: Im Einkauf liegt ein wesentlicher Teil vom betriebswirtschaftlichen Erfolg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Du nimmst 2 kg Reis aus dem Lager. Was musst du tun?",
+        "options": [
+          { "text": "Die Entnahme aufschreiben.", "correct": true },
+          { "text": "Nichts, es ist ja genug Reis da." },
+          { "text": "Sofort neuen Reis bestellen." }
+        ],
+        "explanation": "Jede Entnahme wird aufgeschrieben. Nur so stimmt der Bestand im Lager. 🎉"
+      }
+    }
+  ]
+}

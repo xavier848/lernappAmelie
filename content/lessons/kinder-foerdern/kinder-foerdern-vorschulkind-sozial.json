@@ -1,0 +1,113 @@
+{
+  "topic_slug": "kinder-foerdern",
+  "slug": "kinder-foerdern-vorschulkind-sozial",
+  "title": "Vorschulkind: Soziale Entwicklung",
+  "sort": 521,
+  "intro": "🎭 Vorschulkinder spielen gern Situationen nach. Zum Beispiel den Besuch beim Doktor. Oder Erlebnisse aus der Familie oder aus dem Umfeld. Oder den Einsatz der Feuerwehr oder der Polizei.\n\nMERKE: Beim Nachspielen fördern Kinder ihre Kreativität. Und sie üben, Rollen einzunehmen und nachzuahmen, in einem sozialen Umfeld. Das Spiel mit Puppen kann die gleiche Aufgabe übernehmen.\n\nEine Rolle einnehmen heißt: Das Kind tut so, als wäre es jemand anderes, zum Beispiel die Ärztin.\n\nVorschulkinder können auch schon Gesellschaftsspiele mit einfachen Regeln spielen. Ein Gesellschaftsspiel spielen mehrere zusammen. Das Buch nennt zum Beispiel Konstruktions- oder Geschicklichkeitsspiele und Kartenspiele.\n\nJedes Jahr werden die besten Kinderspiele prämiert. Prämiert heißt: Sie bekommen einen Preis und werden ausgezeichnet.\n\nMERKE: Wähle Spiele aus, bei denen man als Gruppe gemeinsam spielt. So förderst du die Sozialkompetenzen. Sozialkompetenz heißt: gut mit anderen umgehen können.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚒 Kinder spielen einen Einsatz der Feuerwehr nach. Was wird dadurch laut Buch gefördert?",
+        "options": [
+          { "text": "Die Kreativität und das Einnehmen und Nachahmen von Rollen.", "correct": true },
+          { "text": "Vor allem die Feinmotorik beim Anziehen von Helm, Jacke und Verkleidung." },
+          { "text": "Vor allem das Rechnen mit großen Zahlen und Mengen." }
+        ],
+        "explanation": "Beim Nachspielen von Situationen denken sich Kinder aus, was passiert. Das ist Kreativität. Sie schlüpfen in Rollen wie Feuerwehrfrau oder Polizist und ahmen sie nach. So üben sie das Miteinander in einem sozialen Umfeld."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪆 Ein Kind spielt mit seinen Puppen „Familie“. Was stimmt laut Buch?",
+        "options": [
+          { "text": "Das Puppenspiel kann die gleiche Aufgabe haben wie das Nachspielen von Situationen.", "correct": true },
+          { "text": "Das Puppenspiel ist für ein Vorschulkind schon zu kindisch und fördert nichts mehr." },
+          { "text": "Das Puppenspiel fördert nur das ordentliche Aufräumen, sonst gar nichts." }
+        ],
+        "explanation": "Mit Puppen spielen Kinder Situationen nach, zum Beispiel aus der Familie. Das Buch sagt: Das Spiel mit Puppen kann die gleiche Funktion übernehmen wie das Nachspielen. Es fördert Kreativität und das Einnehmen von Rollen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🃏 Welche Gesellschaftsspiele können Vorschulkinder laut Buch schon spielen?",
+        "options": [
+          { "text": "Spiele mit einfachen Regeln, zum Beispiel Karten- oder Geschicklichkeitsspiele.", "correct": true },
+          { "text": "Spiele mit sehr vielen und schwierigen Regeln, genauso wie Erwachsene sie spielen." },
+          { "text": "Noch gar keine. Regeln verstehen Kinder erst, wenn sie in die Schule gehen." }
+        ],
+        "explanation": "Vorschulkinder können Gesellschaftsspiele mit einfachen Regeln spielen. Das Buch nennt zum Beispiel Konstruktions- oder Geschicklichkeitsspiele und Kartenspiele. Viele schwierige Regeln überfordern sie noch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎭🃏 Rollen nachspielen oder Gesellschaftsspiel mit Regeln? Sortiere.",
+        "buckets": [
+          { "id": "rolle", "label": "Rollen nachspielen", "icon": "🎭" },
+          { "id": "regel", "label": "Gesellschaftsspiel mit einfachen Regeln", "icon": "🃏" }
+        ],
+        "items": [
+          { "text": "Den Besuch beim Doktor nachspielen", "bucket": "rolle" },
+          { "text": "Einen Polizeieinsatz nachspielen", "bucket": "rolle" },
+          { "text": "Erlebnisse aus der Familie nachspielen", "bucket": "rolle" },
+          { "text": "Mit Puppen Familie spielen", "bucket": "rolle" },
+          { "text": "Ein einfaches Kartenspiel", "bucket": "regel" },
+          { "text": "Ein Geschicklichkeitsspiel mit einfachen Regeln", "bucket": "regel" }
+        ],
+        "explanation": "Frag dich: Schlüpft das Kind in eine Rolle und spielt jemand anderen? Dann ist es Nachspielen. Gibt es feste, einfache Regeln, an die sich alle halten? Dann ist es ein Gesellschaftsspiel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏆 Was passiert laut Buch jedes Jahr mit den besten Kinderspielen?",
+        "options": [
+          { "text": "Sie werden prämiert, also ausgezeichnet.", "correct": true },
+          { "text": "Sie werden verboten, weil zu viele sie kaufen." },
+          { "text": "Sie werden umsonst an alle Kitas verteilt." }
+        ],
+        "explanation": "Jedes Jahr werden die besten Kinderspiele prämiert. Das heißt: Sie bekommen einen Preis. Das hilft dir bei der Auswahl."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👥 Du suchst ein neues Spiel für eine Kindergruppe aus. Welches Spiel fördert laut Buch die Sozialkompetenzen?",
+        "options": [
+          { "text": "Ein Spiel, bei dem alle als Gruppe gemeinsam spielen.", "correct": true },
+          { "text": "Ein Spiel, bei dem jedes Kind allein gegen alle kämpft." },
+          { "text": "Ein Spiel, das jedes Kind für sich allein am Tablet spielt." }
+        ],
+        "explanation": "Beim gemeinsamen Spiel als Gruppe müssen Kinder sich absprechen, warten und einander helfen. So fördert es die Sozialkompetenzen, also den guten Umgang mit anderen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Soziale Entwicklung beim Vorschulkind: Was gehört zusammen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Situationen nachspielen"}, "right": {"text": "Kreativität, Rollen einnehmen und nachahmen"} },
+          { "left": {"text": "Gesellschaftsspiele"}, "right": {"text": "Mit einfachen Regeln, zum Beispiel Kartenspiele"} },
+          { "left": {"text": "prämiert"}, "right": {"text": "Mit einem Preis ausgezeichnet"} },
+          { "left": {"text": "Gemeinsam als Gruppe spielen"}, "right": {"text": "Fördert Sozialkompetenzen"} }
+        ],
+        "explanation": "Nachspielen fördert Fantasie und Rollen. Gesellschaftsspiele üben Regeln. Spiele in der Gruppe üben das Miteinander. Prämierte Spiele haben einen Preis bekommen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage: Wie heißen Spiele, die mehrere Kinder zusammen nach Regeln spielen?",
+        "options": [
+          { "text": "Gesellschaftsspiele.", "correct": true },
+          { "text": "Einzelspiele." },
+          { "text": "Fingerspiele." }
+        ],
+        "explanation": "Gesellschaftsspiele spielen mehrere zusammen, nach Regeln. Für Vorschulkinder sind einfache Regeln richtig."
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-panieren",
+  "title": "Panieren wie ein Profi",
+  "sort": 624,
+  "intro": "🍗 Panieren heißt: Du wendest ein Lebensmittel in Mehl oder in Paniermehl. So bekommt es eine Hülle. Paniermehl heißt auch Semmelbrösel.\n\nMERKE: Wiener Panierung: zuerst Mehl, dann verquirltes Ei, zum Schluss Paniermehl.\n\nZum Panieren eignen sich eiweißreiche Lebensmittel. Zum Beispiel Schnitzel, Leber, Kotelett, Putenschnitzel, Hähnchenfilet, Fischfilets und Forelle. Auch kohlenhydratreiche Lebensmittel eignen sich. Zum Beispiel Kroketten, Apfelringe, Banane, Kohlrabi und Brokkoli.\n\nDie Hülle hält das Zellwasser im Bratgut. Darum bleibt es saftiger. Aber es hat einen höheren Energiegehalt.\n\nStatt Semmelbröseln kannst du auch zerdrückte Cornflakes, Mandelblätter, Sesam, gemahlene Haselnüsse oder Kokosraspeln nehmen.\n\nPaniertes Essen brätst oder frittierst du.\n\nSo arbeitest du: Du stellst drei Schalen nebeneinander. In die erste kommt Mehl. In die zweite kommt verquirltes Ei mit Gewürzen. In die dritte kommt Paniermehl. Dann ziehst du das Lebensmittel nacheinander durch die drei Schalen. Die Panierung drückst du fest.\n\nMERKE: Paniere möglichst direkt vor dem Braten oder Frittieren. Sonst weicht die Hülle durch und bröselt ab.\n\nNach dem Braten oder Frittieren legst du das Essen kurz auf Küchenkrepp. Es nimmt überflüssiges Fett auf.\n\nIn Großküchen kommen die Gewürze meist ins Paniermehl. Dort paniert man in Serienarbeit mit drei Arbeitskräften. Die erste wendet in Mehl, die zweite in Ei, die dritte in Paniermehl.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Was bedeutet Wiener Panierung?",
+        "options": [
+          { "text": "Erst Mehl, dann verquirltes Ei, zum Schluss Paniermehl.", "correct": true },
+          { "text": "Erst verquirltes Ei, dann Mehl, zum Schluss Paniermehl." },
+          { "text": "Erst Paniermehl, dann verquirltes Ei, zum Schluss Mehl." }
+        ],
+        "explanation": "Das Mehl kommt zuerst. Es macht die Oberfläche trocken, damit das Ei gut haftet. Am Ei bleibt dann das Paniermehl kleben. Paniermehl ist immer die äußerste Schicht."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🍳 Du panierst Putenschnitzel. Bringe die Arbeitsschritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "🥣 Drei Schalen nebeneinander stellen und füllen." },
+          { "text": "🔁 Das Schnitzel nacheinander durch alle drei Schalen ziehen." },
+          { "text": "✋ Die Panierung festdrücken." },
+          { "text": "🍳 Das Schnitzel sofort braten." },
+          { "text": "🧻 Das Schnitzel kurz auf Küchenkrepp legen." }
+        ],
+        "explanation": "Zuerst richtest du den Arbeitsplatz ein. Die Panierung drückst du fest, bevor das Schnitzel in die Pfanne kommt. Zwischen Panieren und Braten soll kaum Zeit vergehen. Das Küchenkrepp kommt erst nach dem Braten dran."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Diese Lebensmittel kannst du panieren. Zu welcher Gruppe gehören sie? Sortiere.",
+        "buckets": [
+          { "id": "eiweiss", "label": "Eiweißreich", "icon": "🥩" },
+          { "id": "kh", "label": "Kohlenhydratreich", "icon": "🥔" }
+        ],
+        "items": [
+          { "text": "Schweineschnitzel", "bucket": "eiweiss" },
+          { "text": "Leber", "bucket": "eiweiss" },
+          { "text": "Hähnchenfilet", "bucket": "eiweiss" },
+          { "text": "Forelle", "bucket": "eiweiss" },
+          { "text": "Kroketten", "bucket": "kh" },
+          { "text": "Apfelringe", "bucket": "kh" },
+          { "text": "Banane", "bucket": "kh" },
+          { "text": "Kohlrabi", "bucket": "kh" }
+        ],
+        "explanation": "Frag dich: Kommt das Lebensmittel von einem Tier? Fleisch, Geflügel und Fisch sind eiweißreich. Kartoffelgerichte, Obst und Gemüse gehören beim Panieren zur kohlenhydratreichen Gruppe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍗 Paniertes Fleisch hat einen Vorteil und einen Nachteil. Was stimmt?",
+        "options": [
+          { "text": "Es bleibt saftiger, hat aber mehr Energie.", "correct": true },
+          { "text": "Es wird trockener, hat aber weniger Energie." },
+          { "text": "Es bleibt saftiger und hat weniger Energie." }
+        ],
+        "explanation": "Die Hülle hält das Zellwasser im Fleisch. Darum bleibt es saftig. Die Hülle bringt aber zusätzlich Mehl, Ei und Brösel mit. Darum ist der Energiegehalt höher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥣 Du hast keine Semmelbrösel. Was kannst du stattdessen nehmen?",
+        "options": [
+          { "text": "Zerdrückte Cornflakes, Sesam oder Kokosraspeln.", "correct": true },
+          { "text": "Speisestärke, Puderzucker oder Backpulver." },
+          { "text": "Geriebenen Käse, Milch oder etwas Sahne." }
+        ],
+        "explanation": "Die äußere Schicht muss knusprig werden. Das schaffen trockene, bröselige Zutaten wie Cornflakes, Mandelblätter, Sesam, gemahlene Haselnüsse oder Kokosraspeln. Feine Pulver und Flüssigkeiten ergeben keine knusprige Hülle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Warum panierst du erst kurz vor dem Braten?",
+        "options": [
+          { "text": "Sonst weicht die Hülle durch und bröselt ab.", "correct": true },
+          { "text": "Sonst wird das Fleisch innen nicht richtig gar." },
+          { "text": "Sonst zieht das Ei nicht in das Fleisch ein." }
+        ],
+        "explanation": "Die Hülle zieht mit der Zeit Feuchtigkeit aus dem Lebensmittel. Dann wird sie weich und fällt beim Braten ab. Darum panierst du möglichst direkt vor dem Braten oder Frittieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧻 Die Schnitzel sind fertig gebraten. Warum legst du sie kurz auf Küchenkrepp?",
+        "options": [
+          { "text": "Es nimmt überflüssiges Fett auf.", "correct": true },
+          { "text": "Es hält die Schnitzel länger warm." },
+          { "text": "Es kühlt die Schnitzel schnell ab." }
+        ],
+        "explanation": "An der Panierung hängt nach dem Braten oder Frittieren viel Fett. Das Küchenkrepp saugt das überflüssige Fett auf. Lass die Schnitzel darum kurz darauf ruhen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Du panierst in der Großküche. Wohin kommen die Gewürze dort meistens?",
+        "options": [
+          { "text": "Ins Paniermehl.", "correct": true },
+          { "text": "Ins verquirlte Ei." },
+          { "text": "Ins heiße Bratfett." }
+        ],
+        "explanation": "In kleinen Mengen würzt du oft das verquirlte Ei. In Großküchen kommen die Gewürze meist ins Paniermehl. So sind sie gleichmäßig verteilt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 In der Großküche werden 200 Schnitzel paniert. Wie arbeitet man dort?",
+        "options": [
+          { "text": "In Serienarbeit: Drei Arbeitskräfte, jede an einer Schale.", "correct": true },
+          { "text": "Eine Arbeitskraft paniert alle Schnitzel allein nacheinander." },
+          { "text": "Alle Schnitzel werden schon am Vortag paniert und gekühlt." }
+        ],
+        "explanation": "Bei großen Mengen teilt man die Arbeit auf. Die erste Arbeitskraft wendet in Mehl, die zweite in Ei, die dritte in Paniermehl. Am Vortag panieren geht nicht: Die Hülle würde durchweichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Wie garst du paniertes Essen?",
+        "options": [
+          { "text": "Du brätst oder frittierst es.", "correct": true },
+          { "text": "Du kochst oder dünstest es." },
+          { "text": "Du dämpfst es im Wasserdampf." }
+        ],
+        "explanation": "Paniertes Essen brätst oder frittierst du. Im heißen Fett wird die Hülle knusprig. In Wasser oder Dampf würde sie aufweichen."
+      }
+    }
+  ]
+}

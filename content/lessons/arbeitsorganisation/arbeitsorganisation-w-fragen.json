@@ -1,0 +1,114 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-w-fragen",
+  "title": "Speisen planen: Die W-Fragen",
+  "sort": 600,
+  "intro": "🍽️ Speisen zubereiten ist mehr als „ein bisschen kochen“. Gemeinsames Essen mit Familie und Freunden macht Freude. Es bringt Erholung und Entspannung. Und es versorgt den Körper mit lebensnotwendigen Nährstoffen und Flüssigkeit.\n\nBevor du Speisen zubereitest, stellst du dir die W-Fragen.\n\nWer bereitet zu? Arbeitest du allein oder im Team? Wo wird gekocht? Zum Beispiel im Privathaushalt, in einem Tagungshaus oder in einer Klinik.\n\nWie werden die Lebensmittel verarbeitet? Dazu gehören die Techniken zum Vorbereiten und Zubereiten, die Gesetze und Verordnungen und der Unfallschutz.\n\nWelche Speisen passen für welche Personengruppe? Womit arbeitest du, also mit welchen Geräten und Werkzeugen?\n\nWas musst du bei Auswahl, Zubereitung und Präsentation beachten? Zum Beispiel die Nährstoffe der Lebensmittel und das Anrichten. Wann oder bis wann? Das ist das Zeitfenster für die Zubereitung bis zur Ausgabe.\n\nMERKE: Das Ziel jedes Haushalts: Die Speisen und Getränke sind ansprechend, schmackhaft und abwechslungsreich. Sie passen zur Personengruppe. Und du kannst sie im Kostenrahmen und mit den vorhandenen Mitarbeitern herstellen.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "❓ Welche W-Frage fragt wonach? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Wer?"}, "right": {"text": "Einzelarbeit oder Teamarbeit"} },
+          { "left": {"text": "Wo?"}, "right": {"text": "Privathaushalt, Tagungshaus oder Klinik"} },
+          { "left": {"text": "Wie?"}, "right": {"text": "Techniken, Gesetze und Unfallschutz"} },
+          { "left": {"text": "Womit?"}, "right": {"text": "Geräte und Werkzeuge"} },
+          { "left": {"text": "Was?"}, "right": {"text": "Nährstoffe und Anrichten"} }
+        ],
+        "memory": false,
+        "explanation": "Das Fragewort verrät die Richtung. Wer fragt nach Personen, Wo nach dem Ort, Womit nach dem Werkzeug. Wie fragt nach der Art zu arbeiten, also nach Techniken und Regeln. Was fragt, worauf du achten musst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Die Köchin fragt: Schaffen wir alles, bis das Essen um 12 Uhr ausgegeben wird? Welche W-Frage ist das?",
+        "options": [
+          { "text": "Wann oder bis wann?", "correct": true },
+          { "text": "Womit wird gearbeitet?" },
+          { "text": "Wer bereitet zu?" }
+        ],
+        "explanation": "Die Frage Wann oder bis wann? klärt das Zeitfenster: Wie viel Zeit bleibt für die Zubereitung bis zur Ausgabe?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👵 In der Gruppe sind viele Senioren. Du wählst weiche, leicht kaubare Speisen. Welche W-Frage beantwortest du?",
+        "options": [
+          { "text": "Welche Speisen für welche Personengruppe?", "correct": true },
+          { "text": "Wo wird produziert, in welcher Einrichtung?" },
+          { "text": "Womit wird gearbeitet, mit welchen Geräten?" }
+        ],
+        "explanation": "Die Frage Welche? klärt, welche Speisen zur Personengruppe passen. Kinder, Sportler oder Senioren brauchen oft ganz unterschiedliche Speisen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎯 Gehört das zum Ziel jedes Haushalts? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Gehört zum Ziel", "icon": "🎯" },
+          { "id": "nein", "label": "Gehört nicht dazu", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Ansprechend", "bucket": "ja" },
+          { "text": "Schmackhaft", "bucket": "ja" },
+          { "text": "Abwechslungsreich", "bucket": "ja" },
+          { "text": "Passend zur Personengruppe", "bucket": "ja" },
+          { "text": "Im Kostenrahmen", "bucket": "ja" },
+          { "text": "Mit den vorhandenen Mitarbeitern machbar", "bucket": "ja" },
+          { "text": "So teuer wie möglich", "bucket": "nein" },
+          { "text": "Jeden Tag das gleiche Essen", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Hilft das den Gästen und dem Betrieb? Das Essen soll gut aussehen, gut schmecken, Abwechslung bieten und zu den Menschen passen. Gleichzeitig muss es bezahlbar sein und vom Team geschafft werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Was bringt gemeinsames Essen laut Fachbuch?",
+        "options": [
+          { "text": "Freude, Erholung, Entspannung und wichtige Nährstoffe.", "correct": true },
+          { "text": "Vor allem viel Arbeit und Stress für alle Beteiligten." },
+          { "text": "Nur die Nährstoffe, alles andere ist nicht wichtig." }
+        ],
+        "explanation": "Gemeinsames Essen mit Freunden und Familie bringt Freude, Erholung und Entspannung. Außerdem bekommt der Körper lebensnotwendige Nährstoffe und Flüssigkeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💶 Die Speisen sollen im Kostenrahmen herstellbar sein. Was heißt das?",
+        "options": [
+          { "text": "Sie kosten nicht mehr Geld, als eingeplant ist.", "correct": true },
+          { "text": "Es sind immer die billigsten Speisen im Laden." },
+          { "text": "Sie kosten genauso viel wie im teuren Restaurant." }
+        ],
+        "explanation": "Jeder Haushalt hat nur ein bestimmtes Budget. Kostenrahmen heißt: Die Speisen dürfen nicht mehr kosten, als dafür geplant ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👩‍🍳 Die Speisen sollen mit den vorhandenen Mitarbeitern herstellbar sein. Was heißt das?",
+        "options": [
+          { "text": "Das Team schafft sie ohne zusätzliche Leute.", "correct": true },
+          { "text": "Für jede Speise kommt eine eigene Köchin dazu." },
+          { "text": "Die Gäste helfen beim Kochen selbst mit." }
+        ],
+        "explanation": "Ein Speiseplan nützt nichts, wenn das Personal ihn nicht schafft. Deshalb plant man nur Speisen, die das vorhandene Team herstellen kann."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔢 Wie viele W-Fragen stellst du dir vor der Zubereitung? Zähle: Wer, Wo, Wie, Welche, Womit, Was, Wann. Tippe die Zahl.",
+        "answer": 7,
+        "hint": "Zähle die Fragewörter im Text an deinen Fingern ab.",
+        "explanation": "Es sind 7 W-Fragen: Wer, Wo, Wie, Welche, Womit, Was und Wann oder bis wann."
+      }
+    }
+  ]
+}

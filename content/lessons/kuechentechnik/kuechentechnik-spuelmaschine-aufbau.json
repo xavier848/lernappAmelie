@@ -1,0 +1,116 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-spuelmaschine-aufbau",
+  "title": "Geschirrspüler: Aufbau",
+  "sort": 601,
+  "intro": "🍽️ Eine Spülmaschine für den Haushalt belädst du meistens von vorne. Nur den Kompaktspüler belädst du von oben.\n\nSo ist eine normale Spülmaschine gebaut: Das Gehäuse ist aus lackiertem oder emailliertem Stahlblech. Die Arbeitsplatte oben ist aus Kunststoff. Der Innenraum heißt Spülbehälter. Er ist aus Edelstahl, denn Edelstahl rostet nicht.\n\nEs gibt zwei Geschirrkörbe. Sie sind aus Stahldraht mit einer Hülle aus Kunststoff. Der Besteckkorb ist aus Kunststoff. Er steht im Unterkorb.\n\nZwei Sprüharme verteilen das Wasser. Sie sind unter den Geschirrkörben befestigt und drehen sich. Sie sind aus Edelstahl, aus Kunststoff oder aus beidem.\n\nMERKE: Die Mechanik kommt in der Spülmaschine vor allem vom Wasserdruck. Darum sind die Sprühdüsen an den Sprüharmen genau geplant angeordnet.\n\nAm Boden sitzt ein Sieb, auch Filter genannt. Es hat mehrere Teile. Du reinigst es regelmäßig, sonst wirkt es nicht mehr.\n\nIn der Tür ist die Dosiervorrichtung. Sie hat eine oder zwei Kammern für den Reiniger. Wie viele es sind, hängt vom Programm und vom Reinigersystem ab. Dazu kommt ein Fach für den Klarspüler.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Woraus ist welches Teil der Spülmaschine? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🧱 Gehäuse"}, "right": {"text": "Lackiertes oder emailliertes Stahlblech"} },
+          { "left": {"text": "🛁 Spülbehälter"}, "right": {"text": "Edelstahl"} },
+          { "left": {"text": "🧺 Geschirrkörbe"}, "right": {"text": "Stahldraht mit Kunststoff darüber"} },
+          { "left": {"text": "⬜ Arbeitsplatte"}, "right": {"text": "Kunststoff, oben auf dem Gerät"} },
+          { "left": {"text": "🍴 Besteckkorb"}, "right": {"text": "Kunststoff, für das Besteck"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Was muss das Teil aushalten? Der Spülbehälter ist immer nass und heiß. Er braucht rostfreien Edelstahl. Die Körbe tragen schweres Geschirr: Stahldraht gibt Halt, der Kunststoff darüber schützt das Geschirr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Wie belädst du einen Kompaktspüler?",
+        "options": [
+          { "text": "Von oben.", "correct": true },
+          { "text": "Von vorne, wie jede Maschine." },
+          { "text": "Von der Seite." }
+        ],
+        "explanation": "Haushaltsübliche Spülmaschinen belädst du wegen ihrer Bauweise von vorne. Der Kompaktspüler ist die Ausnahme: Ihn belädst du von oben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Wo sind die zwei Sprüharme befestigt?",
+        "options": [
+          { "text": "Unter den Geschirrkörben, sie drehen sich.", "correct": true },
+          { "text": "Oben an der Decke des Spülbehälters, sie stehen fest." },
+          { "text": "In der Tür, direkt neben den beiden Dosierkammern." }
+        ],
+        "explanation": "Die zwei Sprüharme sind unter den Geschirrkörben befestigt und drehen sich. So verteilen sie das Wasser im ganzen Spülbehälter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💦 Warum sind die Sprühdüsen an den Sprüharmen genau geplant angeordnet?",
+        "options": [
+          { "text": "Weil die Mechanik vor allem vom Wasserdruck kommt.", "correct": true },
+          { "text": "Weil sonst das Regeneriersalz nicht richtig wirkt." },
+          { "text": "Weil die Maschine so ganz ohne Reiniger auskommt." }
+        ],
+        "explanation": "In der Spülmaschine reibt keine Bürste. Die Kraft kommt vom Wasserdruck. Nur wenn die Düsen gezielt angeordnet sind, trifft der Druck überall auf das Geschirr."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗺️ Wo sitzt das Teil in der Spülmaschine? Sortiere.",
+        "buckets": [
+          { "id": "boden", "label": "Am Boden", "icon": "⬇️" },
+          { "id": "tuer", "label": "In der Tür", "icon": "🚪" },
+          { "id": "koerbe", "label": "Unter den Körben", "icon": "🧺" }
+        ],
+        "items": [
+          { "text": "Sieb", "bucket": "boden" },
+          { "text": "Filter aus mehreren Teilen", "bucket": "boden" },
+          { "text": "Kammer für den Reiniger", "bucket": "tuer" },
+          { "text": "Fach für den Klarspüler", "bucket": "tuer" },
+          { "text": "Oberer Sprüharm", "bucket": "koerbe" },
+          { "text": "Unterer Sprüharm", "bucket": "koerbe" }
+        ],
+        "explanation": "Frag dich: Wo wird das Teil gebraucht? Das Sieb fängt Reste auf, die nach unten fallen. Deshalb sitzt es am Boden. Reiniger und Klarspüler füllst du bei offener Tür ein. Die Sprüharme spritzen von unten gegen das Geschirr in den Körben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Die Dosiervorrichtung in der Tür: Was stimmt?",
+        "options": [
+          { "text": "Sie hat eine oder zwei Reinigerkammern und ein Klarspülerfach.", "correct": true },
+          { "text": "Sie hat genau drei Kammern: Reiniger, Salz und Klarspüler." },
+          { "text": "Sie hat nur ein Fach, in das Reiniger und Salz zusammen kommen." }
+        ],
+        "explanation": "In der Tür sind eine oder zwei Dosierkammern für den Reiniger. Wie viele, hängt vom Programm und vom Reinigersystem ab. Dazu kommt der Bereich für den Klarspüler. Das Salz kommt nicht in die Tür, sondern in den Salzbehälter."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕸️ Warum reinigst du das Sieb am Boden regelmäßig?",
+        "options": [
+          { "text": "Damit es weiter gut wirkt.", "correct": true },
+          { "text": "Damit das Salz besser wirkt." },
+          { "text": "Damit die Tür dicht schließt." }
+        ],
+        "explanation": "Das Sieb ist eine Filtervorrichtung aus mehreren Teilen. Es fängt Speisereste auf. Ist es verstopft, wirkt es nicht mehr richtig. Darum reinigst du es regelmäßig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Wo steht der Besteckkorb?",
+        "options": [
+          { "text": "Im Unterkorb.", "correct": true },
+          { "text": "Im Oberkorb." },
+          { "text": "In der Tür." }
+        ],
+        "explanation": "Der Besteckkorb ist aus Kunststoff. Du stellst ihn in den Unterkorb."
+      }
+    }
+  ]
+}

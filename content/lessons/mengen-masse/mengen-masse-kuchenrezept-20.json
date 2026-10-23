@@ -1,0 +1,109 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-kuchenrezept-20",
+  "title": "Kuchenrezept umrechnen: 20 Stücke",
+  "sort": 61,
+  "intro": "Ein Rezept ist immer für eine bestimmte Menge geschrieben. Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier.\n\nWillst du mehr oder weniger Stücke backen, rechnest du die Mengen um. Teile die Menge durch 8. Dann weißt du, wie viel du für 1 Stück brauchst. Nimm das dann mal die neue Stückzahl.\n\nBeispiel Butter für 4 Stücke: 250 g : 8 × 4 = 125 g.\n\nOft geht es auch leichter. 4 Stücke sind die Hälfte von 8. Dann halbierst du einfach alle Mengen. 12 Stücke sind 8 + 4, also 1 Rezept und noch ein halbes. 20 Stücke sind 8 + 8 + 4, also 2 Rezepte und noch ein halbes.\n\nMERKE: Menge : alte Stückzahl × neue Stückzahl = neue Menge.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧮 Butter für 20 Stücke: Bring den Rechenweg mit der Formel in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Die Menge für 8 Stücke nehmen: 250 g Butter." },
+          { "text": "Durch 8 teilen: So viel braucht 1 Stück." },
+          { "text": "Mal 20 nehmen: So viel brauchen 20 Stücke." },
+          { "text": "Das Ergebnis mit Einheit aufschreiben: 625 g." }
+        ],
+        "explanation": "Die Formel lautet: Menge : alte Stückzahl × neue Stückzahl. Erst teilst du, dann nimmst du mal."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Butter brauchst du für 20 Stücke?",
+        "answer": 625,
+        "hint": "20 Stücke = 8 + 8 + 4 Stücke.\nFür 8 Stücke: 250\nFür 4 Stücke: 125\n250 + 250 + 125 = ?",
+        "explanation": "20 Stücke sind 8 + 8 + 4 Stücke: 250 + 250 + 125 = 625 g. Oder mit der Formel: 250 : 8 × 20 = 625 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Zucker brauchst du für 20 Stücke?",
+        "answer": 500,
+        "hint": "20 Stücke = 8 + 8 + 4 Stücke.\nFür 8 Stücke: 200\nFür 4 Stücke: 100\n200 + 200 + 100 = ?",
+        "explanation": "20 Stücke sind 8 + 8 + 4 Stücke: 200 + 200 + 100 = 500 g. Oder mit der Formel: 200 : 8 × 20 = 500 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viel Gramm Mehl brauchst du für 20 Stücke?",
+        "answer": 750,
+        "hint": "20 Stücke = 8 + 8 + 4 Stücke.\nFür 8 Stücke: 300\nFür 4 Stücke: 150\n300 + 300 + 150 = ?",
+        "explanation": "20 Stücke sind 8 + 8 + 4 Stücke: 300 + 300 + 150 = 750 g. Oder mit der Formel: 300 : 8 × 20 = 750 g."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Ein Kuchen für 8 Stücke braucht: 250 g Butter, 200 g Zucker, 300 g Mehl und 4 Eier. Wie viele Eier brauchst du für 20 Stücke?",
+        "answer": 10,
+        "hint": "20 Stücke = 8 + 8 + 4 Stücke.\nFür 8 Stücke: 4\nFür 4 Stücke: 2\n4 + 4 + 2 = ?",
+        "explanation": "20 Stücke sind 8 + 8 + 4 Stücke: 4 + 4 + 2 = 10 Eier. Oder mit der Formel: 4 : 8 × 20 = 10 Eier."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Im Rechenweg steht: 300 : 8 × 12 = 750 g Mehl für 20 Stücke. Was stimmt hier nicht?",
+        "options": [
+          { "text": "Es muss × 20 heißen. Das Ergebnis 750 g stimmt aber.", "correct": true },
+          { "text": "Es muss × 8 heißen. Das Ergebnis ist dann 300 g." },
+          { "text": "Alles stimmt, denn 300 : 8 × 12 ergibt genau 750." }
+        ],
+        "explanation": "300 : 8 × 12 ergibt 450 g, das wäre die Menge für 12 Stücke. Für 20 Stücke rechnest du 300 : 8 × 20 = 750 g. Schreib im Rechenweg immer die neue Stückzahl hin."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Wie viel Gramm Zucker brauchst du für 16 Stücke? Tipp: 16 ist das Doppelte von 8.",
+        "answer": 400,
+        "hint": "16 Stücke = 8 Stücke + 8 Stücke.\n200 + 200 = ?",
+        "explanation": "16 Stücke sind das doppelte Rezept: 200 g × 2 = 400 g Zucker."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Wie viel Gramm Butter brauchst du für 2 Stücke? Tipp: 2 ist ein Viertel von 8.",
+        "answer": 62,
+        "hint": "Für 4 Stücke brauchst du 125 g Butter.\n2 Stücke sind die Hälfte von 4.\nDie Hälfte von 125 = ? (Runde auf ganze Gramm ab.)",
+        "explanation": "250 : 8 × 2 = 62,5 g. Das sind ungefähr 62 g, ganz genau 62,5 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥚 Für wie viele Stücke reicht 1 Ei?",
+        "options": [
+          { "text": "Für 2 Stücke.", "correct": true },
+          { "text": "Für 4 Stücke." },
+          { "text": "Für 1 Stück." }
+        ],
+        "explanation": "8 Stücke brauchen 4 Eier. 8 : 4 = 2. Also reicht 1 Ei für 2 Stücke."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍰 Wie viele Eier brauchst du für 20 Stücke? Denk an: 1 Ei reicht für 2 Stücke.",
+        "answer": 10,
+        "hint": "1 Ei für 2 Stücke.\n20 : 2 = ?",
+        "explanation": "20 Stücke : 2 = 10 Eier. Das passt zu 4 : 8 × 20 = 10."
+      }
+    }
+  ]
+}

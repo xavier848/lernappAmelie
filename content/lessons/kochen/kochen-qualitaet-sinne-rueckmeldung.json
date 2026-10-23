@@ -1,0 +1,170 @@
+{
+  "topic_slug": "kochen",
+  "slug": "kochen-qualitaet-sinne-rueckmeldung",
+  "title": "Speisen prüfen: Sinne und Rückmeldung",
+  "sort": 645,
+  "intro": "Die Ergebnisqualität ist die Qualität des fertigen Essens. Sie beschreibt den Wert und die Güte eines Produktes. Du beurteilst das Essen auf zwei Wegen: mit den Sinnen und nach den wertbestimmenden Bestandteilen.\n\nDie Prüfung mit den Sinnen heißt sensorische Prüfung. Sensorik heißt: Wahrnehmung mit den Sinnen. Jeder Sinn prüft etwas anderes. Mit den Augen prüfst du Aussehen, Farbe und Form. Mit der Nase prüfst du den Geruch. Mit der Zunge prüfst du den Geschmack. Mit Tasten und Augen prüfst du die Konsistenz. Konsistenz heißt: wie fest oder weich etwas ist. Ein anderes Wort dafür ist Textur.\n\nBeim Geschmack nennt das Buch vier Geschmacksqualitäten: salzig, süß, bitter und sauer. Heute zählt man oft umami als fünfte dazu. Umami heißt: herzhaft. Dazu kommen Aromaklassen: würzig, blumig, fruchtig, harzig, faulig und brenzlig. Brenzlig heißt: angebrannt.\n\nFür jedes Merkmal gibt es Wörter von sehr gut bis schlecht. Eine gute Farbe ist ansprechend, natürlich und arttypisch. Arttypisch heißt: so, wie es für dieses Lebensmittel typisch ist. Eine gute Form ist ideal. Ein guter Geruch ist aromatisch. Eine gute Konsistenz ist einheitlich.\n\nSchlecht ist eine Farbe, die stark oder völlig verfärbt ist. Eine schlechte Form ist zusammengefallen, auseinandergelaufen oder geschrumpft. Ein schlechter Geruch ist fremd, muffig oder unangenehm. Eine schlechte Konsistenz ist breiig, hat Schlieren oder ist zu weich, zu fest oder zu trocken.\n\nEs gibt vier wertbestimmende Bestandteile. Erstens der Zeitpunkt: Das Essen ist zur festgelegten Tageszeit für die richtige Zahl an Gästen fertig. Zweitens der kulinarische Wert: Portionsgröße, passendes Angebot für die Person, abwechslungsreicher Speiseplan, Verzehrtemperatur, Individualität, Konsistenz, Geschmack, Geruch, Form und Aussehen. Die Verzehrtemperatur ist die Temperatur beim Essen.\n\nDrittens die Hygiene: sauberes Geschirr ohne Schaden, sauberes Anrichten und ein Essen, das nicht krank macht. Das heißt gesundheitlich unbedenklich. Viertens die Speisenbezeichnung: Der Name der Speise ist richtig, verständlich und richtig geschrieben. Zusatzstoffe und Allergene stehen dabei. Zusatzstoffe sind zum Beispiel Farbstoff oder Geschmacksverstärker. Allergene sind zum Beispiel glutenhaltiges Getreide, Erdnüsse oder Soja.\n\nDie Küche will das Essen möglichst objektiv beurteilen. Objektiv heißt: nicht nur nach der eigenen Meinung. Darum fragt sie die Gäste von Zeit zu Zeit nach einer Rückmeldung. Wege dafür sind: ein Kummerkasten, eine Küchensprechstunde oder ein Küchentelefon und ein Fragebogen, auch online. Die Küchenleitung trifft sich regelmäßig mit dem Betriebsrat oder dem Elternbeirat. Das Servicepersonal fragt die Gäste nach der Ausgabe.\n\nDas Servicepersonal beobachtet auch die Gäste und ihre Mimik. Mimik ist der Gesichtsausdruck. Er zeigt oft, ob die Gäste zufrieden sind.\n\nMERKE: Augen = Aussehen, Farbe und Form. Nase = Geruch. Zunge = Geschmack. Tasten und Augen = Konsistenz.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Wie beurteilst du die Ergebnisqualität eines Essens?",
+        "options": [
+          { "text": "Mit den Sinnen und nach den wertbestimmenden Bestandteilen.", "correct": true },
+          { "text": "Nur nach dem Preis und nach der Größe der Portion." },
+          { "text": "Nur nach der Meinung der Köchin, die gekocht hat." }
+        ],
+        "explanation": "Die Ergebnisqualität beschreibt Wert und Güte des fertigen Essens. Du prüfst es mit den Sinnen, das heißt Sensorik. Und du prüfst die wertbestimmenden Bestandteile: Zeitpunkt, kulinarischer Wert, Hygiene und Speisenbezeichnung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "👀 Sensorische Prüfung: Welcher Sinn prüft was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "👀 Augen"}, "right": {"text": "Aussehen, Farbe und Form"} },
+          { "left": {"text": "👃 Nase"}, "right": {"text": "Geruch"} },
+          { "left": {"text": "👅 Zunge"}, "right": {"text": "Geschmack"} },
+          { "left": {"text": "✋ Tasten und Augen"}, "right": {"text": "Konsistenz, auch Textur genannt"} }
+        ],
+        "explanation": "Jeder Sinn prüft ein anderes Merkmal. Die Konsistenz spürst du beim Tasten und siehst sie auch. Sie sagt, wie fest oder weich etwas ist. Ein anderes Wort dafür ist Textur."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👅 Geschmacksqualität oder Aromaklasse? Sortiere.",
+        "buckets": [
+          { "id": "g", "label": "Geschmacksqualität", "icon": "👅" },
+          { "id": "a", "label": "Aromaklasse", "icon": "🌸" }
+        ],
+        "items": [
+          { "text": "salzig", "bucket": "g" },
+          { "text": "süß", "bucket": "g" },
+          { "text": "bitter", "bucket": "g" },
+          { "text": "sauer", "bucket": "g" },
+          { "text": "würzig", "bucket": "a" },
+          { "text": "blumig", "bucket": "a" },
+          { "text": "fruchtig", "bucket": "a" },
+          { "text": "brenzlig", "bucket": "a" }
+        ],
+        "explanation": "Frag dich: Heißt das Wort salzig, süß, bitter oder sauer? Das sind die vier Geschmacksqualitäten aus dem Buch. Die anderen Wörter hier beschreiben das Aroma. Sie gehören zu den Aromaklassen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌲 Welche zwei Wörter gehören auch zu den Aromaklassen?",
+        "options": [
+          { "text": "Harzig und faulig.", "correct": true },
+          { "text": "Salzig und sauer." },
+          { "text": "Breiig und trocken." }
+        ],
+        "explanation": "Harzig und faulig sind Aromaklassen, genau wie würzig, blumig, fruchtig und brenzlig. Salzig und sauer sind Geschmacksqualitäten. Breiig und trocken beschreiben die Konsistenz."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Gutes oder schlechtes Merkmal? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Gutes Merkmal", "icon": "👍" },
+          { "id": "schlecht", "label": "Schlechtes Merkmal", "icon": "👎" }
+        ],
+        "items": [
+          { "text": "Farbe: ansprechend und arttypisch", "bucket": "gut" },
+          { "text": "Form: ideal", "bucket": "gut" },
+          { "text": "Geruch: aromatisch", "bucket": "gut" },
+          { "text": "Konsistenz: einheitlich", "bucket": "gut" },
+          { "text": "Farbe: stark verfärbt", "bucket": "schlecht" },
+          { "text": "Form: auseinandergelaufen", "bucket": "schlecht" },
+          { "text": "Geruch: muffig", "bucket": "schlecht" },
+          { "text": "Konsistenz: breiig mit Schlieren", "bucket": "schlecht" }
+        ],
+        "explanation": "Frag dich bei jedem Wort: Würde ich das gern essen? Arttypisch, ideal, aromatisch und einheitlich klingt gut. Arttypisch heißt: so, wie es für dieses Lebensmittel typisch ist. Verfärbt, auseinandergelaufen, muffig und breiig zeigen einen Fehler."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Du prüfst einen Kuchen. Er ist in der Mitte zusammengefallen. Was ist beeinträchtigt, und womit prüfst du es?",
+        "options": [
+          { "text": "Die Form, mit den Augen.", "correct": true },
+          { "text": "Der Geruch, mit der Nase." },
+          { "text": "Der Geschmack, mit der Zunge." }
+        ],
+        "explanation": "Zusammengefallen ist ein Merkmal der Form. Die Form prüfst du mit den Augen. Auch geschrumpft oder auseinandergelaufen beschreiben eine schlechte Form."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Die vier wertbestimmenden Bestandteile. Was gehört dazu?",
+        "pairs": [
+          { "left": {"text": "⏰ Zeitpunkt"}, "right": {"text": "Zur festen Zeit für alle Gäste fertig"} },
+          { "left": {"text": "🍲 Kulinarischer Wert"}, "right": {"text": "Portionsgröße, Verzehrtemperatur, Geschmack"} },
+          { "left": {"text": "🧼 Hygiene"}, "right": {"text": "Sauberes Geschirr, gesundheitlich unbedenklich"} },
+          { "left": {"text": "📝 Speisenbezeichnung"}, "right": {"text": "Richtiger Name mit Zusatzstoffen und Allergenen"} }
+        ],
+        "explanation": "Frag dich: Geht es um die Uhrzeit, um das Essen selbst, um Sauberkeit und Gesundheit oder um den Namen auf dem Speiseplan? So findest du den passenden Bestandteil. Gesundheitlich unbedenklich heißt: Das Essen macht nicht krank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Ein Teller hat einen Sprung. Welcher wertbestimmende Bestandteil ist betroffen?",
+        "options": [
+          { "text": "Die Hygiene.", "correct": true },
+          { "text": "Die Speisenbezeichnung." },
+          { "text": "Der Zeitpunkt." }
+        ],
+        "explanation": "Zur Hygiene gehört sauberes Geschirr ohne Schaden. In einem Sprung sammeln sich Keime. Ein Essen soll gesundheitlich unbedenklich sein, also nicht krank machen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥜 Auf dem Speiseplan sollen Allergene stehen. Welche Beispiele sind Allergene?",
+        "options": [
+          { "text": "Glutenhaltiges Getreide, Erdnüsse und Soja.", "correct": true },
+          { "text": "Farbstoff und Geschmacksverstärker." },
+          { "text": "Salz, Pfeffer und etwas Zucker." }
+        ],
+        "explanation": "Allergene sind Stoffe, auf die manche Menschen allergisch reagieren. Beispiele sind glutenhaltiges Getreide, Erdnüsse und Soja. Farbstoff und Geschmacksverstärker sind Zusatzstoffe. Beides muss bei der Speisenbezeichnung ausgewiesen sein."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📮 Die Küche will wissen, wie das Essen ankommt. Hilft das bei der Rückmeldung der Gäste? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Hilft bei der Rückmeldung", "icon": "✅" },
+          { "id": "nein", "label": "Hilft nicht", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Ein Kummerkasten für die Küche", "bucket": "ja" },
+          { "text": "Ein Fragebogen, auch online", "bucket": "ja" },
+          { "text": "Eine Küchensprechstunde", "bucket": "ja" },
+          { "text": "Ein Küchentelefon", "bucket": "ja" },
+          { "text": "Regelmäßige Treffen mit dem Elternbeirat", "bucket": "ja" },
+          { "text": "Gäste nach der Ausgabe fragen", "bucket": "ja" },
+          { "text": "Nur die eigene Meinung der Köchin zählen", "bucket": "nein" },
+          { "text": "Reste wegwerfen, ohne hinzuschauen", "bucket": "nein" }
+        ],
+        "explanation": "Eine gute Rückmeldung kommt von den Gästen selbst. Dafür gibt es viele Wege: Kummerkasten, Sprechstunde, Telefon, Fragebogen, Treffen und Fragen nach der Ausgabe. Nur die eigene Meinung ist nicht objektiv. Auch Reste zeigen, was nicht geschmeckt hat."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😕 Beim Essen verziehen die Gäste das Gesicht. Was beobachtet das Servicepersonal da?",
+        "options": [
+          { "text": "Die Mimik der Gäste.", "correct": true },
+          { "text": "Die Speisenbezeichnung." },
+          { "text": "Den Dienstplan." }
+        ],
+        "explanation": "Mimik ist der Gesichtsausdruck. Das Servicepersonal beobachtet ihn. So sieht es oft, ob die Gäste zufrieden sind."
+      }
+    }
+  ]
+}

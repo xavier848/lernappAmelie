@@ -1,0 +1,139 @@
+{
+  "topic_slug": "arbeitsorganisation",
+  "slug": "arbeitsorganisation-arbeitsplan-ablaufplan",
+  "title": "Arbeitsplan oder Arbeitsablaufplan?",
+  "sort": 582,
+  "intro": "🗓️ Zeit ist in der Arbeitswelt ein wichtiger Faktor. Eine Arbeit planen heißt: eine Arbeit gestalten. Dafür nutzt man Ergebnisse aus Studien der Wissenschaft und der Arbeitswelt.\n\nFür eine durchdachte Planung brauchst du maschinelle Hilfen, eine richtige Arbeitshaltung und kraftsparende Arbeitsabläufe. Außerdem beachtest du die Tagesleistungskurve.\n\nBei der Arbeitsplanung unterscheidet man zwei Pläne. Der Arbeitsablaufplan beschreibt eine Arbeit, die schon abgelaufen ist. Er steht in der Vergangenheitsform, zum Beispiel: „Blätterteig aufgetaut“. Mit ihm beurteilst du den Ablauf. Du erkennst den Nutzen, Arbeitsspitzen und Leerlauf. Eine Arbeitsspitze ist eine Zeit mit sehr viel Arbeit auf einmal. Leerlauf ist eine Zeit, in der nichts getan wird.\n\nDer Arbeitsplan beschreibt die Arbeit, die du noch machen musst. Er steht in der Grundform, zum Beispiel: „Blätterteig auftauen lassen“. Er hat einen festen Zeitrahmen. So verteilst du die anfallenden Aufgaben. Ein Arbeitsschritt dauert höchstens 10 Minuten. Das nennt man 10-Minuten-Takt. So sind die Schritte deutlich sichtbar und überschaubar. Und du kannst Wartezeiten sinnvoll nutzen.\n\nBeispiel Arbeitsplan von 15:00 bis 16:10 Uhr: Zuerst Handhygiene, Arbeitsplatz einrichten und Arbeitsmittel zusammenholen. Dann Blätterteig auftauen und Kirschen abtropfen lassen. Dann Blätterteig ausrollen, Füllung aus Sauerkirschen, Quark, Stärkemehl und Vanillezucker verrühren und daraufgeben. Dann Ränder mit Wasser bestreichen, zuklappen, andrücken, aufs Blech legen und den Backofen vorheizen. Dann die Taschen 20 bis 30 Minuten backen. In dieser Zeit die Muffin-Form mit Papier auslegen und Pfannengemüse dünsten. Dann Muffinteig herstellen und 20 Minuten backen. Zum Schluss aufräumen, die Taschen herausholen, abkühlen lassen und mit Puderzucker bestäuben.\n\nAchtung: Manchmal nennt man auch eine Liste mit Schritten, die noch kommen, „Arbeitsablaufplan“. Zum Beispiel beim Fensterputzen. Geht es um den Unterschied zum Arbeitsplan, gilt aber: Der Arbeitsablaufplan beschreibt die Arbeit, die schon abgelaufen ist.\n\nMERKE: Arbeitsablaufplan = abgelaufene Arbeit, zum Beurteilen. Arbeitsplan = Arbeit, die noch kommt, zum Planen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ Dein Buch unterscheidet Arbeitsplan und Arbeitsablaufplan. Du schreibst auf, was du morgen beim Kochen tun wirst. Welcher Plan ist das?",
+        "options": [
+          { "text": "Ein Arbeitsplan", "correct": true },
+          { "text": "Ein Arbeitsablaufplan" },
+          { "text": "Ein Fristenplan" }
+        ],
+        "explanation": "Der Arbeitsplan beschreibt Arbeit, die noch kommt. Der Arbeitsablaufplan beschreibt Arbeit, die schon vorbei ist. Ein Fristenplan zeigt, bis wann jede Aufgabe fertig sein muss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Wozu dient ein Arbeitsablaufplan?",
+        "options": [
+          { "text": "Eine abgelaufene Arbeit beurteilen: Nutzen, Arbeitsspitzen und Leerlauf erkennen.", "correct": true },
+          { "text": "Die Arbeit für morgen in einen festen Zeitrahmen mit kurzen Schritten fest einteilen." },
+          { "text": "Die Einkaufsliste mit allen Zutaten und Mengen für das Rezept aufstellen." }
+        ],
+        "explanation": "Mit dem Arbeitsablaufplan schaust du zurück. Du siehst, wo zu viel auf einmal war und wo Leerlauf war. So kannst du den nächsten Arbeitsplan verbessern."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📝 Arbeitsplan oder Arbeitsablaufplan? Sortiere die Zeilen.",
+        "explanation": "Achte auf die Wortform. Grundform wie „vorheizen“ heißt: Das kommt noch. Das gehört in den Arbeitsplan. Vergangenheitsform wie „vorgeheizt“ heißt: Das ist schon passiert. Das gehört in den Arbeitsablaufplan.",
+        "buckets": [
+          { "id": "plan", "label": "Arbeitsplan (kommt noch)", "icon": "🗓️" },
+          { "id": "ablauf", "label": "Arbeitsablaufplan (vorbei)", "icon": "🔍" }
+        ],
+        "items": [
+          { "text": "Blätterteig auftauen lassen", "bucket": "plan" },
+          { "text": "Backofen vorheizen", "bucket": "plan" },
+          { "text": "Pfannengemüse dünsten", "bucket": "plan" },
+          { "text": "Muffinteig herstellen", "bucket": "plan" },
+          { "text": "Blätterteig aufgetaut", "bucket": "ablauf" },
+          { "text": "Backofen vorgeheizt", "bucket": "ablauf" },
+          { "text": "Pfannengemüse gedünstet", "bucket": "ablauf" },
+          { "text": "Muffinteig hergestellt", "bucket": "ablauf" }
+        ]
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Wie viele Minuten darf ein einzelner Arbeitsschritt im Arbeitsplan höchstens dauern?",
+        "answer": 10,
+        "hint": "Der Takt hat eine runde Zahl. Im Beispiel geht es von 15:00 zu 15:10 Uhr, dann zu 15:20 Uhr.",
+        "explanation": "Ein Schritt dauert höchstens 10 Minuten. Das nennt man den 10-Minuten-Takt. So bleibt jeder Schritt sichtbar und überschaubar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Warum teilst du den Arbeitsplan in so kurze Schritte?",
+        "options": [
+          { "text": "Die Schritte sind sichtbar und überschaubar, und du nutzt Wartezeiten.", "correct": true },
+          { "text": "So musst du weniger aufschreiben und kannst dir die Arbeit besser merken." },
+          { "text": "So brauchst du im Plan gar keine Wartezeiten mehr einzuplanen." }
+        ],
+        "explanation": "Kurze Schritte machen die Arbeit überschaubar. Du siehst genau, was als Nächstes kommt. Und du erkennst Wartezeiten, in denen du etwas anderes erledigen kannst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧼 Womit beginnt der Arbeitsplan im Beispiel um 15:00 Uhr?",
+        "options": [
+          { "text": "Mit Handhygiene, Arbeitsplatz einrichten und Arbeitsmittel holen.", "correct": true },
+          { "text": "Mit dem Vorheizen des Backofens für die leckeren Kirschtaschen." },
+          { "text": "Mit dem Ausrollen des aufgetauten Blätterteigs auf dem Brett." }
+        ],
+        "explanation": "Bevor du mit Lebensmitteln arbeitest, kommt immer die Handhygiene. Danach richtest du den Arbeitsplatz ein und holst alle Arbeitsmittel. Erst dann startest du mit dem Rezept."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥧 Arbeitsplan für die Kirschtaschen. Bringe die Schritte in die richtige Reihenfolge.",
+        "explanation": "Frag dich bei jedem Schritt: Was muss vorher fertig sein? Gefrorenen Teig kannst du nicht ausrollen. Offene Taschen kannst du nicht backen. Die Backzeit der Taschen ist Wartezeit, in der du die Muffins machst. Aufräumen und Bestäuben kommen am Ende.",
+        "steps": [
+          { "text": "Blätterteig auftauen und Kirschen abtropfen lassen" },
+          { "text": "Blätterteig ausrollen, Füllung verrühren und daraufgeben" },
+          { "text": "Ränder bestreichen, zuklappen, andrücken, Ofen vorheizen" },
+          { "text": "Taschen in den Backofen geben, 20 bis 30 Minuten backen" },
+          { "text": "Muffinteig herstellen und 20 Minuten backen" },
+          { "text": "Aufräumen, Taschen abkühlen lassen, mit Puderzucker bestäuben" }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Die Kirschtaschen backen 20 bis 30 Minuten. Was steht für diese Zeit im Arbeitsplan?",
+        "options": [
+          { "text": "Muffin-Form mit Papier auslegen und Pfannengemüse dünsten.", "correct": true },
+          { "text": "Vor dem Backofen stehen bleiben und auf die Taschen warten." },
+          { "text": "Die Kirschtaschen schon mit Puderzucker bestäuben." }
+        ],
+        "explanation": "Während etwas im Ofen backt, ist Wartezeit. Die nutzt der Plan für andere Aufgaben, hier für die Muffins und das Gemüse. Bestäuben kannst du die Taschen erst, wenn sie aus dem Ofen sind."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeuten die Begriffe? Verbinde.",
+        "explanation": "Diese Begriffe brauchst du, um Pläne zu lesen und zu beurteilen. Arbeitsspitzen und Leerlauf erkennst du im Arbeitsablaufplan. Den Zeitrahmen legst du im Arbeitsplan fest.",
+        "pairs": [
+          { "left": {"text": "📈 Arbeitsspitze"}, "right": {"text": "Sehr viel Arbeit auf einmal"} },
+          { "left": {"text": "💤 Leerlauf"}, "right": {"text": "Zeit, in der nichts getan wird"} },
+          { "left": {"text": "🕒 Zeitrahmen"}, "right": {"text": "Feste Zeit, in die die Aufgaben verteilt werden"} },
+          { "left": {"text": "🛠️ Eine Arbeit planen"}, "right": {"text": "Eine Arbeit gestalten"} }
+        ]
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Was brauchst du für eine durchdachte Arbeitsplanung?",
+        "options": [
+          { "text": "Maschinelle Hilfen, gute Arbeitshaltung, kraftsparende Abläufe", "correct": true },
+          { "text": "Viel Personal, lange Pausen und möglichst große, teure Töpfe" },
+          { "text": "Schnelles Arbeiten, viele Überstunden und nur wenige Pausen" }
+        ],
+        "explanation": "Gute Planung braucht Maschinen, die helfen, eine richtige Arbeitshaltung und kraftsparende Arbeitsabläufe. Dazu beachtest du die Tagesleistungskurve. Hetze und Überstunden sind keine gute Planung."
+      }
+    }
+  ]
+}

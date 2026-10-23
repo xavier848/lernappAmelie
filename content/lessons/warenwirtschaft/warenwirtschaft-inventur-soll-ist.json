@@ -1,0 +1,147 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-inventur-soll-ist",
+  "title": "Inventur: Stichtag und Soll-Ist",
+  "sort": 717,
+  "intro": "📋 Bei der Inventur stellst du alle Waren im Lager zu einem bestimmten Zeitpunkt fest. Dieser Tag heißt Stichtag. Du zählst die Ware und schreibst die Anzahl in die Inventurliste. Am Ende unterschreibst du die Liste. Am besten arbeitet ihr zu zweit: Eine zählt, die andere trägt ein. Ein wichtiges Gerät dabei ist der Barcodeleser.\n\nAuch die Ausstattung wird erfasst: alle Drucker, Computer, Waschmaschinen, Trockner und so weiter. Das ist die Anlageninventur. Lagerinventur und Anlageninventur sind körperliche Inventuren. Körperlich heißt: Man zählt die Dinge wirklich.\n\nAm selben Stichtag erfasst die Buchhaltung alle Kontostände. Dazu kommen die Rechnungen, die Kunden noch bezahlen müssen. Und die Rechnungen, die der Betrieb selbst noch nicht bezahlt hat. Das ist die Buchinventur.\n\nDie Inventur ist einmal im Jahr Pflicht. Sie findet am Ende vom Geschäftsjahr statt. Die Werte kommen dann in die Bilanz. Die Bilanz ist die Übersicht über das Vermögen und die Schulden eines Betriebs.\n\nViele Geschäfte verkaufen nach Weihnachten bis Silvester Ware sehr günstig, solange der Vorrat reicht. Dann ist das Lager zur Inventur am 31. Dezember fast leer. Das Zählen geht schneller. Oft heißt das dann Inventurrabatt.\n\nDas Geschäftsjahr muss nicht gleich dem Kalenderjahr sein. Ein Wintersporthotel macht die Inventur nicht in der Hochsaison im Winter. Es macht sie am Ende der Saison. Dann hat es gleich einen Überblick, wie die Saison gelaufen ist.\n\nIm Idealfall stimmt alles überein: die Lagerkarteikarte, die Lagerfachkarte und der Bestand im Regal. Dann gilt die Formel: Anfangsbestand + Einkäufe − Abgänge = Lagerbestand.\n\nIn der Praxis gibt es oft eine Soll-Ist-Abweichung. Soll ist die Menge laut Kartei. Ist ist die Menge, die du wirklich zählst. Gründe für die Abweichung: vergessene Einträge, Diebstahl, oft durch das eigene Personal, und Bruch. Bruch heißt zum Beispiel: Gläser sind schon an der Anlieferungsrampe zerbrochen und kamen nie ins Lager.\n\nDie fehlende Menge heißt Schwund. Du vermerkst den Schwund in der Lagerkartei und auf den Lagerfachkarten. So beginnt das neue Jahr wieder mit gleichen Soll- und Ist-Werten.\n\nMERKE: Anfangsbestand + Einkäufe − Abgänge = Lagerbestand.\n\nMERKE: Körperliche Inventur = Lager und Anlagen zählen. Buchinventur = Konten und Rechnungen erfassen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Was gehört zur Inventur im Lager?",
+        "options": [
+          { "text": "Am Stichtag alles zählen, in die Liste eintragen und unterschreiben.", "correct": true },
+          { "text": "Nur die teuren Waren zählen und den Rest am Jahresende grob schätzen." },
+          { "text": "Die Waren das ganze Jahr über nach und nach zählen, ohne feste Liste." }
+        ],
+        "explanation": "Die Inventur erfasst alle Waren zu einem bestimmten Zeitpunkt, dem Stichtag. Jede Anzahl kommt in die Inventurliste. Zum Schluss wird die Liste unterschrieben. Schätzen reicht nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👥 Du machst mit einer Kollegin die Inventur. Wie teilt ihr die Arbeit am besten auf?",
+        "options": [
+          { "text": "Eine zählt, die andere trägt die Ergebnisse ein.", "correct": true },
+          { "text": "Beide zählen gleichzeitig dasselbe Regal durch." },
+          { "text": "Eine zählt, die andere räumt neue Ware ins Regal." }
+        ],
+        "explanation": "Zu zweit geht es schneller und genauer: Eine zählt, die andere schreibt. Neue Ware räumt man während der Inventur nicht ein. Sonst stimmt die Zählung nicht mehr."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Körperliche Inventur oder Buchinventur? Sortiere.",
+        "buckets": [
+          { "id": "koerper", "label": "Körperliche Inventur", "icon": "📦" },
+          { "id": "buch", "label": "Buchinventur", "icon": "📒" }
+        ],
+        "items": [
+          { "text": "Mehlsäcke im Lager zählen", "bucket": "koerper" },
+          { "text": "Konserven im Regal zählen", "bucket": "koerper" },
+          { "text": "Waschmaschinen und Trockner erfassen", "bucket": "koerper" },
+          { "text": "Computer und Drucker erfassen", "bucket": "koerper" },
+          { "text": "Alle Kontostände feststellen", "bucket": "buch" },
+          { "text": "Rechnungen, die Kunden noch zahlen müssen", "bucket": "buch" },
+          { "text": "Eigene Rechnungen, die noch offen sind", "bucket": "buch" }
+        ],
+        "explanation": "Frag dich: Kann man es anfassen und zählen? Dann gehört es zur körperlichen Inventur, egal ob Ware oder Gerät. Steht es nur auf dem Konto oder auf Rechnungen? Dann gehört es zur Buchinventur."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🖨️ Bei der Inventur erfasst du auch Drucker, Computer und Waschmaschinen. Wie heißt dieser Teil?",
+        "options": [
+          { "text": "Anlageninventur", "correct": true },
+          { "text": "Buchinventur" },
+          { "text": "Warenlagerinventur" }
+        ],
+        "explanation": "Drucker, Computer, Waschmaschinen und Trockner gehören zur Ausstattung. Man nennt sie Anlagen. Ihre Erfassung ist die Anlageninventur. Sie ist wie die Lagerinventur eine körperliche Inventur."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Wie oft ist die Inventur Pflicht, und wann findet sie statt?",
+        "options": [
+          { "text": "Einmal im Jahr, am Ende des Geschäftsjahres.", "correct": true },
+          { "text": "Jeden Monat, immer am ersten Werktag im Monat." },
+          { "text": "Nur dann, wenn im Lager Ware gestohlen wurde." }
+        ],
+        "explanation": "Die Inventur ist einmal im Jahr Pflicht. Sie fällt mit dem Ende des Geschäftsjahres zusammen. So kommen die Werte in die Bilanz, die Übersicht über Vermögen und Schulden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Nach Weihnachten verkaufen viele Geschäfte bis Silvester Ware sehr günstig. Warum gerade bis dahin?",
+        "options": [
+          { "text": "Zur Inventur am 31.12. ist das Lager dann fast leer.", "correct": true },
+          { "text": "Ab dem 1. Januar darf diese Ware gesetzlich nicht mehr verkauft werden." },
+          { "text": "An Silvester müssen alle Geschäfte ihre Preise gesetzlich senken." }
+        ],
+        "explanation": "Ist das Lager am Stichtag fast leer, gibt es wenig zu zählen. Das spart Zeit bei der Inventur. Darum verkaufen viele Geschäfte vorher günstig, solange der Vorrat reicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⛷️ Ein Wintersporthotel hat im Winter Hochsaison. Wann macht es seine Inventur?",
+        "options": [
+          { "text": "Am Ende der Saison. Dort endet auch sein Geschäftsjahr.", "correct": true },
+          { "text": "Am 31. Dezember wie alle anderen, mitten in der Hochsaison." },
+          { "text": "Gar nicht, denn Hotels brauchen keine Inventur." }
+        ],
+        "explanation": "Das Geschäftsjahr muss nicht gleich dem Kalenderjahr sein. In der Hochsaison hat das Hotel keine Zeit zum Zählen. Am Ende der Saison passt es besser. Dann sieht es auch gleich, wie die Saison gelaufen ist."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Anfangsbestand: 40 kg Reis. Eingekauft: 60 kg. In die Küche abgegeben: 75 kg. Wie viel kg Reis sollten jetzt im Lager sein?",
+        "answer": 25,
+        "hint": "Anfangsbestand + Einkäufe − Abgänge.\n40 + 60 = 100.\n100 − 75 = ?",
+        "explanation": "Die Formel heißt: Anfangsbestand + Einkäufe − Abgänge = Lagerbestand. 40 kg + 60 kg = 100 kg. 100 kg − 75 kg = 25 kg. Das ist der Soll-Bestand. Bei der Inventur prüfst du, ob wirklich 25 kg da sind."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔎 Bei der Inventur stimmt etwas nicht. Wie heißt das? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🍯 Laut Kartei 30 Gläser, gezählt 27"}, "right": {"text": "Soll-Ist-Abweichung"} },
+          { "left": {"text": "🔨 Gläser gingen schon an der Rampe kaputt"}, "right": {"text": "Bruch"} },
+          { "left": {"text": "✏️ Eine Entnahme wurde nicht aufgeschrieben"}, "right": {"text": "Unterlassener Eintrag"} },
+          { "left": {"text": "🕵️ Ein Mitarbeiter hat Ware mitgenommen"}, "right": {"text": "Diebstahl"} }
+        ],
+        "explanation": "Soll ist die Menge laut Kartei. Ist ist die Menge, die du zählst. Weichen beide voneinander ab, suchst du den Grund: ein vergessener Eintrag, Diebstahl oder Bruch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Nach der Inventur fehlen 3 Gläser Honig. Was machst du mit diesem Schwund?",
+        "options": [
+          { "text": "Ihn in der Lagerkartei und auf der Lagerfachkarte vermerken.", "correct": true },
+          { "text": "Nichts tun, im nächsten Jahr gleicht sich das von selbst aus." },
+          { "text": "Die 3 Gläser einfach als ganz normal verkauft eintragen." }
+        ],
+        "explanation": "Den Schwund vermerkst du in der Lagerkartei und auf den Lagerfachkarten. So stimmen Soll und Ist wieder überein. Das neue Jahr beginnt mit einem richtigen Anfangsbestand."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage! Welches Gerät hilft dir beim Zählen in der Inventur?",
+        "options": [
+          { "text": "Der Barcodeleser.", "correct": true },
+          { "text": "Der Stabmixer." },
+          { "text": "Das Fieberthermometer." }
+        ],
+        "explanation": "Der Barcodeleser liest den Strichcode auf der Ware. Das macht das Zählen schneller und genauer. 🎉"
+      }
+    }
+  ]
+}

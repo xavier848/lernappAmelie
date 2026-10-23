@@ -1,0 +1,114 @@
+{
+  "topic_slug": "naehen",
+  "slug": "naehen-saeume",
+  "title": "Maschinensaum und Handsaum",
+  "sort": 547,
+  "intro": "Ein Saum ist der umgenähte Rand an einem Stoffstück, zum Beispiel unten an einer Hose.\n\nDer Maschinensaum geht schnell und ist sehr haltbar. Aber die Nählinie ist auf der Oberseite zu sehen. Darum nimmt man ihn für Haushaltswäsche, Kinderkleidung, Berufskleidung und Jeans.\n\nDer Maschinensaum hat einen Einschlag und einen Umschlag. Der Einschlag ist der kleine Rand, der innen liegt. Wie groß er ist, hängt von der Stoffart und vom Zweck ab. Meistens sind es 0,5 bis 1,5 cm.\n\nSo nähst du den Maschinensaum: Zeichne auf der linken Stoffseite das doppelte Einschlagmaß an. Die linke Stoffseite ist die Unterseite. Leg die Stoffkante bis zur Linie und bügle.\n\nZeichne dann von der Kante aus das doppelte Saummaß an, also das Umschlagmaß. Schlag bis zur Linie um, bügle und stecke. Zum Schluss nähst du an der offenen Kante knappkantig mit Geradstich ab. Man sagt auch: steppen.\n\nDer Handsaum ist auf der Stoffoberseite nicht zu sehen. Man nutzt ihn bei Röcken und Hosen, vor allem wenn Kleidung gekürzt werden muss. Er ist nicht so haltbar wie der Maschinensaum und braucht viel Zeit. Eventuell versäuberst du die Kante vorher mit Zickzackstich.\n\nSo nähst du den Handsaum: Anzeichnen, bügeln, umschlagen, bügeln und stecken geht wie beim Maschinensaum. Dann befestigst du die offene Kante mit dem Staffierstich: Stich die Nadel durch die Bruchkante. Fass dann zwei Fäden vom Oberstoff. Die Bruchkante ist die gefaltete Kante.\n\nOder du nähst einen hohl angenähten Saum: Fass vom Oberstoff und von der umgeschlagenen Bruchkante je zwei Gewebefäden.\n\nMERKE: Maschinensaum: schnell, haltbar, Naht sichtbar. Handsaum: unsichtbar, aber weniger haltbar und zeitaufwendig.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Maschinensaum oder Handsaum? Sortiere.",
+        "buckets": [
+          { "id": "maschine", "label": "Maschinensaum", "icon": "⚙️" },
+          { "id": "hand", "label": "Handsaum", "icon": "✋" }
+        ],
+        "items": [
+          { "text": "Nählinie oben sichtbar", "bucket": "maschine" },
+          { "text": "Sehr haltbar", "bucket": "maschine" },
+          { "text": "Für Kinderkleidung", "bucket": "maschine" },
+          { "text": "Für Haushaltswäsche", "bucket": "maschine" },
+          { "text": "Oben nicht zu sehen", "bucket": "hand" },
+          { "text": "Sehr zeitaufwendig", "bucket": "hand" },
+          { "text": "Für gekürzte Röcke und Hosen", "bucket": "hand" },
+          { "text": "Mit Staffierstich befestigt", "bucket": "hand" }
+        ],
+        "explanation": "Frag dich: Muss es schnell gehen und viel aushalten? Dann ist es der Maschinensaum, auch wenn man die Naht sieht. Soll die Naht unsichtbar sein? Dann ist es der Handsaum. Er braucht aber viel Zeit und hält nicht so lange."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Wie groß ist der Einschlag beim Maschinensaum meistens?",
+        "options": [
+          { "text": "0,5 bis 1,5 cm.", "correct": true },
+          { "text": "Etwa 3 bis 5 cm." },
+          { "text": "Etwa 10 bis 15 cm." }
+        ],
+        "explanation": "Der Einschlag ist meistens 0,5 bis 1,5 cm groß. Genau hängt er von der Stoffart und vom Zweck ab."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧵 Maschinensaum: Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          { "text": "Doppeltes Einschlagmaß anzeichnen, Kante bis zur Linie legen, bügeln." },
+          { "text": "Doppeltes Umschlagmaß anzeichnen, umschlagen, bügeln, stecken." },
+          { "text": "An der offenen Kante knappkantig mit Geradstich steppen." }
+        ],
+        "explanation": "Du arbeitest von innen nach außen: Zuerst kommt der kleine Einschlag. Dann folgt der größere Umschlag. Genäht wird erst ganz am Schluss, wenn alles gebügelt und gesteckt ist."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Auf welcher Stoffseite zeichnest du das Maß für den Saum an?",
+        "options": [
+          { "text": "Auf der linken Stoffseite.", "correct": true },
+          { "text": "Auf der rechten Stoffseite." },
+          { "text": "Auf beiden Seiten gleich." }
+        ],
+        "explanation": "Du zeichnest auf der linken Stoffseite an, also auf der Unterseite. Von außen soll man später keine Linien sehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪡 Wie nähst du beim Handsaum den Staffierstich?",
+        "options": [
+          { "text": "Durch die Bruchkante stechen, dann genau zwei Fäden vom Oberstoff fassen.", "correct": true },
+          { "text": "Durch alle Lagen stechen und danach alles mit der Maschine steppen." },
+          { "text": "Nur durch den Oberstoff stechen und die Bruchkante ganz auslassen." }
+        ],
+        "explanation": "Beim Staffierstich stichst du die Nadel durch die Bruchkante. Dann fasst du zwei Fäden vom Oberstoff. Weil nur zwei Fäden gefasst werden, sieht man den Stich von außen nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧵 Was machst du beim hohl angenähten Saum?",
+        "options": [
+          { "text": "Von Oberstoff und Bruchkante je zwei Gewebefäden fassen.", "correct": true },
+          { "text": "Nur vom Oberstoff zehn Gewebefäden auf einmal fassen." },
+          { "text": "Mit dem Zickzackstich der Maschine durch alle Lagen nähen." }
+        ],
+        "explanation": "Beim hohl angenähten Saum fasst du vom Oberstoff und von der umgeschlagenen Bruchkante je zwei Gewebefäden. Er ist eine zweite Möglichkeit neben dem Staffierstich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✂️ Du kürzt eine Hose und nähst einen Handsaum. Was machst du eventuell vorher mit der Kante?",
+        "options": [
+          { "text": "Sie mit Zickzackstich versäubern.", "correct": true },
+          { "text": "Sie mit Heftgarn fest verknoten." },
+          { "text": "Sie mit der Schere schräg abrunden." }
+        ],
+        "explanation": "Vor dem Handsaum versäuberst du die Kante eventuell mit Zickzackstich. Dann franst sie unter dem Saum nicht aus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Welche Kleidung bekommt laut Buch oft einen Maschinensaum?",
+        "options": [
+          { "text": "Jeans.", "correct": true },
+          { "text": "Ein Abendkleid aus Seide." },
+          { "text": "Eine elegante Anzughose." }
+        ],
+        "explanation": "Jeans bekommen oft einen Maschinensaum. Er ist schnell genäht und sehr haltbar. Dass man die Naht sieht, stört bei Jeans nicht."
+      }
+    }
+  ]
+}

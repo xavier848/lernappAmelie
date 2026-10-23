@@ -1,0 +1,146 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-hitze",
+  "title": "Haltbar durch Hitze",
+  "sort": 684,
+  "intro": "🔥 Beim Kühlen und Tiefkühlen werden die Mikroorganismen nur gebremst. Ihr Stoffwechsel und ihre Vermehrung werden gehemmt. Beim Erhitzen versucht man dagegen, sie ganz abzutöten.\n\nMERKE: Pasteurisieren heißt: 15 bis 40 Sekunden auf 72 bis 75 °C erhitzen. Milch wird vor dem Verkauf fast immer erhitzt. Nur Rohmilch und Vorzugsmilch kommen ohne Erhitzen in den Handel.\n\nDer Franzose Louis Pasteur hat im 19. Jahrhundert entdeckt: Dabei sterben die meisten Bakterien, die Lebensmittel verderben, zum Beispiel Salmonellen. Auch Hefen sterben ab. Die Milch behält ihre wertgebenden Eigenschaften: Nährstoffe, Vitamine und Geschmack. Aber sie hält länger.\n\nMan pasteurisiert auch Obstsäfte und Halbkonserven, zum Beispiel Würstchen. Halbkonserven halten kürzer als Vollkonserven.\n\nUltrahocherhitzte Milch, also H-Milch, wird 2 bis 4 Sekunden auf 135 bis 150 °C erhitzt. Danach kühlt man sie sofort auf 4 bis 5 °C ab. Ohne Kühlung hält sie dann mindestens drei Monate. Aber sie verliert etwas an Vitaminen und Geschmack.\n\nSterilisieren ist vergleichbar mit dem früheren Einkochen. So stellt die Industrie Konserven her. Die Lebensmittel werden 15 bis 30 Minuten auf bis zu 135 °C erhitzt und in Dosen oder Gläser gefüllt. Diese Konserven sind praktisch keimfrei. Sie halten meist über Jahre. Man nennt sie Vollkonserven.\n\nDie Industrie sterilisiert automatisch und in großen Mengen. Das senkt die Kosten. Ein Nachteil bleibt aber: Es gehen Vitamine verloren.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Was ist der Unterschied zwischen Kühlen und Erhitzen?",
+        "options": [
+          { "text": "Kühlen hemmt Mikroorganismen, Erhitzen tötet sie ab.", "correct": true },
+          { "text": "Kühlen tötet sie ab, Erhitzen hemmt sie dagegen nur." },
+          { "text": "Beides tötet alle Mikroorganismen sofort und ganz ab." }
+        ],
+        "explanation": "Kälte bremst Stoffwechsel und Vermehrung der Mikroorganismen nur. Beim Erhitzen sollen sie ganz sterben. Darum hält erhitzte Ware oft länger."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌡️ Wie heiß und wie lange? Verbinde das Verfahren mit den Werten.",
+        "pairs": [
+          { "left": {"text": "Pasteurisieren"}, "right": {"text": "72 bis 75 °C, 15 bis 40 Sekunden"} },
+          { "left": {"text": "Ultrahocherhitzen"}, "right": {"text": "135 bis 150 °C, 2 bis 4 Sekunden, dann auf 4 bis 5 °C kühlen"} },
+          { "left": {"text": "Sterilisieren"}, "right": {"text": "bis 135 °C, 15 bis 30 Minuten"} }
+        ],
+        "memory": false,
+        "explanation": "Merke dir die Stufen: Pasteurisieren ist am schonendsten, unter 100 °C. Ultrahocherhitzen ist sehr heiß, aber nur Sekunden lang. Sterilisieren dauert Minuten und macht die Ware praktisch keimfrei."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🇫🇷 Nach wem ist das Pasteurisieren benannt, und wann lebte er?",
+        "options": [
+          { "text": "Nach Louis Pasteur, im 19. Jahrhundert.", "correct": true },
+          { "text": "Nach Louis Pasteur, im 16. Jahrhundert." },
+          { "text": "Nach einer Pariser Molkerei, im 20. Jahrhundert." }
+        ],
+        "explanation": "Louis Pasteur war ein französischer Forscher. Er entdeckte im 19. Jahrhundert, dass kurzes Erhitzen die meisten verderbenden Bakterien und Hefen abtötet. Nach ihm heißt das Verfahren Pasteurisieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Was tötet das Pasteurisieren ab?",
+        "options": [
+          { "text": "Die meisten verderbenden Bakterien wie Salmonellen, auch Hefen.", "correct": true },
+          { "text": "Alle Keime vollständig, die Milch ist danach steril." },
+          { "text": "Nur Schimmelpilze, aber keine Bakterien und keine Hefen." }
+        ],
+        "explanation": "Beim Pasteurisieren sterben die meisten Bakterien, die Lebensmittel verderben, zum Beispiel Salmonellen. Auch Hefen sterben ab. Keimfrei ist die Milch aber nicht, darum muss sie gekühlt werden. Nährstoffe, Vitamine und Geschmack bleiben erhalten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐄 Welche Milch kommt ohne Erhitzen in den Handel?",
+        "options": [
+          { "text": "Rohmilch und Vorzugsmilch.", "correct": true },
+          { "text": "H-Milch und ESL-Milch." },
+          { "text": "Fettarme Milch mit 1,5 % Fett." }
+        ],
+        "explanation": "Fast alle Milch wird vor dem Verkauf erhitzt. Ausnahmen sind Rohmilch und Vorzugsmilch. Frische und fettarme Milch sind meist pasteurisiert, H-Milch ist ultrahocherhitzt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥫 Wird das pasteurisiert oder sterilisiert? Sortiere.",
+        "buckets": [
+          { "id": "past", "label": "Pasteurisiert", "icon": "🥛" },
+          { "id": "steril", "label": "Sterilisiert", "icon": "🥫" }
+        ],
+        "items": [
+          { "text": "Frische Milch", "bucket": "past" },
+          { "text": "Obstsaft", "bucket": "past" },
+          { "text": "Würstchen als Halbkonserve", "bucket": "past" },
+          { "text": "Erbsen in der Konservendose", "bucket": "steril" },
+          { "text": "Rotkohl im Glas, über Jahre haltbar", "bucket": "steril" },
+          { "text": "Bohnen in der Dose für Jahre", "bucket": "steril" }
+        ],
+        "explanation": "Frag dich: Soll es nur etwas länger halten oder über Jahre? Milch, Säfte und Halbkonserven werden schonend pasteurisiert. Was in Dose oder Glas über Jahre hält, wird sterilisiert."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥫 Was ist eine Vollkonserve?",
+        "options": [
+          { "text": "Eine sterilisierte, praktisch keimfreie Konserve.", "correct": true },
+          { "text": "Eine pasteurisierte Konserve, die nur wenige Tage hält." },
+          { "text": "Eine Konserve, die bis ganz oben voll ist." }
+        ],
+        "explanation": "Vollkonserven werden sterilisiert. Sie sind praktisch keimfrei und halten meist über Jahre. Das Wort sagt also nichts über die Füllhöhe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Was ist beim Sterilisieren ein Vorteil und was ein Nachteil?",
+        "options": [
+          { "text": "Vorteil: geringe Kosten durch große Mengen. Nachteil: Vitaminverlust.", "correct": true },
+          { "text": "Vorteil: besonders viele Vitamine. Nachteil: sehr hohe Kosten pro Dose." },
+          { "text": "Vorteil: ein frischer Geschmack. Nachteil: Die Ware hält nur ganz kurz." }
+        ],
+        "explanation": "Die Industrie sterilisiert automatisch in riesigen Mengen. Das macht jede Dose günstig. Durch die lange, starke Hitze gehen aber Vitamine verloren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 H-Milch hält viel länger als pasteurisierte Milch. Was ist ihr Nachteil?",
+        "options": [
+          { "text": "Sie verliert etwas an Vitaminen und Geschmack.", "correct": true },
+          { "text": "Sie muss auch ungeöffnet immer im Kühlschrank stehen." },
+          { "text": "Sie hält auch ungeöffnet nur wenige Tage." }
+        ],
+        "explanation": "Die starke Hitze macht die H-Milch lange haltbar, auch ohne Kühlung. Dafür gehen etwas Vitamine und Geschmack verloren. Pasteurisierte Milch behält Nährstoffe, Vitamine und Geschmack besser."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📆 H-Milch hält ungekühlt mindestens wie viele Monate?",
+        "answer": 3,
+        "hint": "Es ist ein Vierteljahr.\nEin Jahr hat 12 Monate. 12 : 4 = ?",
+        "explanation": "Ultrahocherhitzte Milch hält ungekühlt mindestens 3 Monate. Nach dem Öffnen kommt sie in den Kühlschrank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wie hieß das Haltbarmachen durch Hitze in Gläsern früher im Haushalt?",
+        "options": [
+          { "text": "Einkochen.", "correct": true },
+          { "text": "Einfrieren." },
+          { "text": "Einlegen." }
+        ],
+        "explanation": "Früher hat man im Haushalt eingekocht. Das Sterilisieren in der Industrie ist damit vergleichbar."
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "topic_slug": "kommunikation-beruf",
+  "slug": "kommunikation-beruf-vier-seiten",
+  "title": "Die vier Seiten einer Nachricht",
+  "sort": 692,
+  "intro": "📨 Missverständnisse entstehen oft, weil das Gesagte nicht das ist, was der andere hört. Für die Kommunikation gibt es Wörter aus der Technik. Eine Mitteilung heißt Nachricht. Der Sender sagt etwas. Der Empfänger hört es. Oft passt die empfangene Nachricht nicht zur gesendeten.\n\nEine Nachricht enthält mehrere Botschaften. Je nach Situation oder nach den Körpersignalen hört der Empfänger eine davon stärker als die anderen.\n\nMERKE: Das Vier-Ohren-Modell stammt von Friedemann Schulz von Thun. Jede Nachricht enthält gleichzeitig vier Botschaften: eine sachliche, eine selbstoffenbarende, eine zur Beziehung und eine appellierende.\n\nSachebene: Hier geht es um Sachinformationen, Daten und Fakten. Im Beruf sind das zum Beispiel Infos zur Zubereitung von Essen oder zur Zimmerreinigung.\n\nSelbstoffenbarungsebene: Der Sender zeigt etwas von sich. Er zeigt seine Gefühle, Wünsche und Motive. Motive sind Beweggründe. Er zeigt auch seine Fähigkeiten und Einschätzungen. Das passiert unbewusst oder ganz bewusst als Selbstdarstellung. Eine Hauswirtschafterin zeigt so zum Beispiel ihr Engagement für den Betrieb.\n\nBeziehungsebene: Sie zeigt, wie Sender und Empfänger zueinander stehen. Der Sender kann Wertschätzung zeigen, im schlimmsten Fall Geringschätzung. Gibt die Ausbilderin eine Anweisung, zeigt das: Sie hat die Weisungsbefugnis. Sie darf also Anweisungen geben.\n\nAppellebene: Sie enthält eine Aufforderung oder einen Wunsch. Der Empfänger soll so handeln, wie der Sender es möchte. Ein Appell kann direkt sein, zum Beispiel: „Reinigen Sie das Gästezimmer!“ Er kann auch verdeckt sein, zum Beispiel: „Überprüfen Sie, ob alle Gästezimmer bezugsfertig sind!“ Dann steckt die eigentliche Aufgabe dahinter.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📨 Wer ist in einem Gespräch der Sender?",
+        "options": [
+          { "text": "Die Person, die etwas sagt.", "correct": true },
+          { "text": "Die Person, die zuhört." },
+          { "text": "Das Telefon, über das man spricht." }
+        ],
+        "explanation": "Die Wörter kommen aus der Technik. Der Sender schickt die Nachricht los, er spricht also. Die Person, die zuhört, empfängt die Nachricht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧑‍🏫 Wer hat das Vier-Ohren-Modell entwickelt?",
+        "options": [
+          { "text": "Friedemann Schulz von Thun.", "correct": true },
+          { "text": "Der Psychotherapeut Carl Rogers." },
+          { "text": "Der Forscher Paul Watzlawick." }
+        ],
+        "explanation": "Das Vier-Ohren-Modell heißt auch „Die vier Seiten einer Nachricht“. Es stammt von Friedemann Schulz von Thun. Carl Rogers steht für das aktive Zuhören."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👂 Was sagt das Vier-Ohren-Modell über eine Nachricht?",
+        "options": [
+          { "text": "Sie enthält gleichzeitig vier Botschaften.", "correct": true },
+          { "text": "Sie hat immer genau eine klare Bedeutung." },
+          { "text": "Man muss sie viermal wiederholen, bis sie ankommt." }
+        ],
+        "explanation": "Jede Nachricht hat vier Seiten: Sache, Selbstoffenbarung, Beziehung und Appell. Der Empfänger hört mit vier „Ohren“. Oft hört ein Ohr lauter als die anderen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Ebene enthält was? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Sachebene"}, "right": {"text": "Daten und Fakten"} },
+          { "left": {"text": "Selbstoffenbarungsebene"}, "right": {"text": "Gefühle, Wünsche und Motive des Senders"} },
+          { "left": {"text": "Beziehungsebene"}, "right": {"text": "Wie Sender und Empfänger zueinander stehen"} },
+          { "left": {"text": "Appellebene"}, "right": {"text": "Eine Aufforderung, etwas zu tun"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich: Worum geht es? Um die Sache, um den Sender selbst, um euer Verhältnis oder um eine Handlung? So findest du die Ebene."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📣 Direkter oder verdeckter Appell? Sortiere.",
+        "buckets": [
+          { "id": "direkt", "label": "Direkter Appell", "icon": "👉" },
+          { "id": "verdeckt", "label": "Verdeckter Appell", "icon": "🕵️" }
+        ],
+        "items": [
+          { "text": "„Reinigen Sie das Gästezimmer!“", "bucket": "direkt" },
+          { "text": "„Putzen Sie bitte die Fenster im Flur!“", "bucket": "direkt" },
+          { "text": "„Bringen Sie die Wäsche in die Wäscherei!“", "bucket": "direkt" },
+          { "text": "„Überprüfen Sie, ob alle Gästezimmer bezugsfertig sind!“", "bucket": "verdeckt" },
+          { "text": "„Auf dem Schrank im Gästezimmer liegt noch Staub.“", "bucket": "verdeckt" },
+          { "text": "„Der Wäschekorb ist schon wieder übervoll.“", "bucket": "verdeckt" }
+        ],
+        "explanation": "Frag dich: Steht die eigentliche Aufgabe genau so im Satz? Dann ist der Appell direkt. Muss der Empfänger die Aufgabe erst selbst erkennen, ist der Appell verdeckt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Welche Aussage betont vor allem die Sachebene?",
+        "options": [
+          { "text": "„Die Kartoffeln müssen 20 Minuten kochen.“", "correct": true },
+          { "text": "„Ich bin stolz, dass ich das so gut kann.“" },
+          { "text": "„Sie als Azubi machen, was ich Ihnen sage.“" }
+        ],
+        "explanation": "Auf der Sachebene stehen Daten und Fakten, zum Beispiel eine Kochzeit. Stolz auf sich selbst ist Selbstoffenbarung. Wer wem etwas sagen darf, gehört zur Beziehungsebene."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🙋 Eine Hauswirtschafterin erzählt der Ausbilderin begeistert von ihrer Idee für den Betrieb. Was zeigt sie auf der Selbstoffenbarungsebene?",
+        "options": [
+          { "text": "Ihr Engagement für den Betrieb.", "correct": true },
+          { "text": "Die genauen Kosten ihrer Idee." },
+          { "text": "Dass sie Anweisungen geben darf." }
+        ],
+        "explanation": "Auf der Selbstoffenbarungsebene zeigt der Sender etwas von sich: seine Gefühle, Wünsche und Motive. Ihre Begeisterung zeigt ihr Engagement. Die Kosten wären eine Sachinformation."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎭 Wie kann eine Selbstoffenbarung passieren?",
+        "options": [
+          { "text": "Unbewusst oder ganz bewusst als Selbstdarstellung.", "correct": true },
+          { "text": "Nur bewusst, denn man kann sie immer genau steuern." },
+          { "text": "Nur bei Menschen, die besonders viel reden." }
+        ],
+        "explanation": "Manchmal zeigst du etwas von dir, ohne es zu merken, zum Beispiel deine Laune. Manchmal stellst du dich bewusst gut dar. Beides ist Selbstoffenbarung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👩‍🏫 Die Ausbilderin gibt der Auszubildenden eine Anweisung. Was zeigt das auf der Beziehungsebene?",
+        "options": [
+          { "text": "Wer die Weisungsbefugnis hat.", "correct": true },
+          { "text": "Wie die Aufgabe genau erledigt wird." },
+          { "text": "Wie sich die Ausbilderin gerade fühlt." }
+        ],
+        "explanation": "Die Beziehungsebene zeigt, wie Sender und Empfänger zueinander stehen. Eine Anweisung macht klar: Die Ausbilderin darf Anweisungen geben. Sie hat die Weisungsbefugnis. Wie die Aufgabe geht, ist die Sache. Wie sie sich fühlt, ist Selbstoffenbarung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💞 Was kann der Sender auf der Beziehungsebene ausdrücken?",
+        "options": [
+          { "text": "Wertschätzung, im schlimmsten Fall Geringschätzung.", "correct": true },
+          { "text": "Nur Daten und Fakten zur täglichen Arbeit im Betrieb." },
+          { "text": "Nur Aufforderungen, etwas sofort und genau zu tun." }
+        ],
+        "explanation": "Auf der Beziehungsebene zeigt der Sender, was er vom Empfänger hält. Das kann Wertschätzung sein. Im schlimmsten Fall ist es Geringschätzung. Daten gehören zur Sachebene, Aufforderungen zur Appellebene."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Wie heißt die Person, die eine Nachricht hört?",
+        "options": [
+          { "text": "Der Empfänger.", "correct": true },
+          { "text": "Der Sender." },
+          { "text": "Der Absender." }
+        ],
+        "explanation": "Der Sender sagt etwas, der Empfänger hört es. Beim Empfänger kommt die Nachricht an, aber nicht immer so, wie sie gemeint war."
+      }
+    }
+  ]
+}

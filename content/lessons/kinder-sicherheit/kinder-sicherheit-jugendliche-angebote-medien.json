@@ -1,0 +1,147 @@
+{
+  "topic_slug": "kinder-sicherheit",
+  "slug": "kinder-sicherheit-jugendliche-angebote-medien",
+  "title": "Jugendliche: Angebote und Medien begleiten",
+  "sort": 520,
+  "intro": "🧑‍🎓 Jugendliche lösen sich von ihrem Elternhaus. Sie gestalten ihr Leben immer mehr selbst und selbstbestimmt. Betreuungsaufgaben sind darum immer weniger nötig. Trotzdem kannst du Angebote machen.\n\nSportliche Angebote sind zum Beispiel: Schwimmen im Schwimmbad oder am Badesee, Wandern, Spazierengehen, Inlineskates fahren, Badminton, Squash und Tennis.\n\nUnterhaltungsangebote sind zum Beispiel: Spielen, Freunde treffen, Tanzen, Lesen, Musikkonzerte, Theater, Oper, Kunstausstellungen, Museumsbesuche, Basteln, Ratespiele und der Tierpark.\n\nMERKE: Der Wunsch nach Freiheit und eigener Lebenserfahrung ist bei Jugendlichen sehr groß. Darum übersehen sie manchmal Gefahren, zum Beispiel am Computer und im Internet. Sei aufmerksam und kläre über Gefahren auf.\n\nDigitale Medien sind heute allgegenwärtig. Das heißt: Sie sind überall. Menschen jeden Alters nutzen sie, um sich zu informieren, um zu kommunizieren oder zur Unterhaltung. Das passiert in der Schule, im Beruf und in der Freizeit.\n\nIn sozialen Medien sind Kinder und Jugendliche meist von Erwachsenen unbeobachtet. Sie können sich ungestört bewegen. Sie lösen sich vom Elternhaus und erweitern ihre Lebensfreiräume. Sie probieren aus, was bei anderen ankommt und was nicht. So entwickeln sie ihre eigene Identität.\n\nEin wichtiges Ziel ist: Kinder und Jugendliche lernen einen sicheren und verantwortungsvollen Umgang mit digitalen Medien. Dafür brauchen sie Begleitung und Unterstützung. Und sie brauchen einen geschützten Rahmen, in dem sie Erfahrungen sammeln und sich ausprobieren können.\n\nMERKE: Zeig Interesse und lass dir die Nutzung zeigen. Führe offene und vertrauensvolle Gespräche über die Gewohnheiten. Ermögliche genussvolle Unterhaltungserlebnisse. Legt gemeinsam Bildschirmzeiten fest, und sorge für eine ausgewogene Freizeit mit Aktivitäten und Sport.\n\nDenk auch an die Regel für den Abend: Vor dem Zubettgehen werden digitale Medien nicht mehr genutzt. Sie stören das Einschlafen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🎟️ Jugendliche brauchen weniger Betreuung. Trotzdem kannst du Angebote machen. Sportliches Angebot oder Unterhaltungsangebot? Sortiere.",
+        "buckets": [
+          { "id": "sport", "label": "Sportliches Angebot", "icon": "🏸" },
+          { "id": "unterhaltung", "label": "Unterhaltungsangebot", "icon": "🎭" }
+        ],
+        "items": [
+          { "text": "Schwimmen am Badesee", "bucket": "sport" },
+          { "text": "Wandern", "bucket": "sport" },
+          { "text": "Inlineskates fahren", "bucket": "sport" },
+          { "text": "Badminton oder Tennis", "bucket": "sport" },
+          { "text": "Ein Musikkonzert", "bucket": "unterhaltung" },
+          { "text": "Theater oder Oper", "bucket": "unterhaltung" },
+          { "text": "Ein Museumsbesuch", "bucket": "unterhaltung" },
+          { "text": "Ratespiele", "bucket": "unterhaltung" }
+        ],
+        "explanation": "Frag dich: Bewegt sich der Körper dabei richtig viel? Dann ist es ein sportliches Angebot. Geht es um Kultur, Spaß, Spiele oder Freunde? Dann ist es ein Unterhaltungsangebot."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕊️ Warum sollst du bei Jugendlichen aufmerksam sein, zum Beispiel beim Internet?",
+        "options": [
+          { "text": "Ihr Wunsch nach Freiheit und eigener Erfahrung ist so groß, dass sie Gefahren manchmal übersehen.", "correct": true },
+          { "text": "Jugendliche dürfen laut Gesetz noch gar keinen Computer und auch kein eigenes Handy allein benutzen." },
+          { "text": "Jugendliche nutzen das Internet fast nie, darum kennen sie sich dort überhaupt nicht aus." }
+        ],
+        "explanation": "Jugendliche wollen frei sein und selbst Erfahrungen machen. Dabei übersehen sie manchmal Gefahren, zum Beispiel im Umgang mit Computer und Internet. Darum bist du aufmerksam und klärst über Gefahren auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📱 Wozu nutzen Menschen jeden Alters laut Buch digitale Medien?",
+        "options": [
+          { "text": "Um sich zu informieren, zu kommunizieren und zur Unterhaltung, in Schule, Beruf und Freizeit.", "correct": true },
+          { "text": "Fast nur zur Unterhaltung. Das machen vor allem Jugendliche in ihrer Freizeit, meistens am Abend." },
+          { "text": "Nur zum Arbeiten. In der Freizeit spielen digitale Medien kaum eine Rolle." }
+        ],
+        "explanation": "Digitale Medien sind allgegenwärtig. Menschen jeden Alters nutzen sie regelmäßig: zum Informieren, zum Kommunizieren und zur Unterhaltung. Und zwar in der Schule, im Beruf und in der Freizeit."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wozu wird das digitale Medium hier genutzt? Verbinde.",
+        "pairs": [
+          { "left": {"text": "📰 Die Nachrichten am Handy lesen"}, "right": {"text": "Sich informieren"} },
+          { "left": {"text": "📞 Mit der Oma per Video telefonieren"}, "right": {"text": "Kommunizieren"} },
+          { "left": {"text": "🎬 Abends eine Serie schauen"}, "right": {"text": "Unterhaltung"} }
+        ],
+        "explanation": "Frag dich: Will ich etwas wissen? Dann informiere ich mich. Will ich mit jemandem reden oder schreiben? Dann kommuniziere ich. Will ich Spaß haben und mich entspannen? Dann geht es um Unterhaltung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👀 Was ist laut Buch besonders, wenn Jugendliche in sozialen Medien unterwegs sind?",
+        "options": [
+          { "text": "Sie sind meist von Erwachsenen unbeobachtet und erweitern ihre Lebensfreiräume.", "correct": true },
+          { "text": "Sie werden dort ständig von ihren Eltern beobachtet und ganz genau kontrolliert." },
+          { "text": "Sie treffen dort nur Menschen, die sie schon aus der Schule gut kennen." }
+        ],
+        "explanation": "In sozialen Medien bewegen sich Jugendliche meist ungestört und unbeobachtet. Sie lösen sich vom Elternhaus und erweitern ihre Lebensfreiräume. Sie probieren aus, was ankommt. So entwickeln sie ihre eigene Identität."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎯 Was ist laut Buch ein wichtiges Ziel beim Umgang mit digitalen Medien?",
+        "options": [
+          { "text": "Kindern und Jugendlichen einen sicheren und verantwortungsvollen Umgang zeigen.", "correct": true },
+          { "text": "Kindern und Jugendlichen digitale Medien bis zum Ende der Schulzeit verbieten." },
+          { "text": "Kinder und Jugendliche mit dem Internet alles ganz allein herausfinden lassen." }
+        ],
+        "explanation": "Verbieten hilft nicht, denn digitale Medien sind überall. Alles allein herausfinden ist gefährlich. Das Ziel ist ein sicherer und verantwortungsvoller Umgang. Den zeigst du den Kindern und Jugendlichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Was brauchen Kinder und Jugendliche laut Buch, um den sicheren Umgang zu lernen?",
+        "options": [
+          { "text": "Begleitung, Unterstützung und einen geschützten Rahmen zum Ausprobieren.", "correct": true },
+          { "text": "Strenge Verbote und eine tägliche Kontrolle aller Nachrichten auf dem Handy." },
+          { "text": "Ein eigenes Handy möglichst früh, damit sie ganz ohne Hilfe lernen." }
+        ],
+        "explanation": "Kinder und Jugendliche brauchen Begleitung und Unterstützung. Und sie brauchen die Möglichkeit, in einem geschützten Rahmen Erfahrungen zu sammeln und sich auszuprobieren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎮 Ein Jugendlicher spielt oft ein Online-Spiel. Wie gehst du laut Buch am besten vor?",
+        "options": [
+          { "text": "Ich zeige Interesse, lasse mir das Spiel zeigen und spreche offen und vertrauensvoll mit ihm.", "correct": true },
+          { "text": "Ich nehme ihm das Handy ohne ein Gespräch einfach weg, damit er gar nicht erst in Versuchung kommt." },
+          { "text": "Ich schaue heimlich in seine Nachrichten, damit ich weiß, mit wem er dort Kontakt hat." }
+        ],
+        "explanation": "Der erste Hinweis im Buch lautet: Interesse zeigen, sich die Nutzung zeigen lassen und offene, vertrauensvolle Gespräche über die Gewohnheiten führen. So bleibt der Jugendliche im Gespräch mit dir. Heimliches Kontrollieren zerstört das Vertrauen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📋 Gehört das zu den Hinweisen im Buch für den Umgang mit digitalen Medien? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Hinweis aus dem Buch", "icon": "✅" },
+          { "id": "nein", "label": "Kein guter Umgang", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Sich die Nutzung zeigen lassen", "bucket": "ja" },
+          { "text": "Genussvolle Unterhaltungserlebnisse ermöglichen", "bucket": "ja" },
+          { "text": "Gemeinsam Bildschirmzeiten festlegen", "bucket": "ja" },
+          { "text": "Für eine ausgewogene Freizeit mit Sport sorgen", "bucket": "ja" },
+          { "text": "Heimlich die Nachrichten lesen", "bucket": "nein" },
+          { "text": "Bildschirmzeiten allein bestimmen, ohne Gespräch", "bucket": "nein" },
+          { "text": "Das Thema Medien ganz ignorieren", "bucket": "nein" },
+          { "text": "Jeden Abend im Bett noch lange am Handy sein lassen", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Begleite ich den Jugendlichen offen und gemeinsam? Dann passt es zu den Hinweisen. Heimlich kontrollieren, allein bestimmen oder wegschauen passen nicht. Und vor dem Schlafen sollen digitale Medien nicht mehr genutzt werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Letzte Frage: Digitale Medien gibt es heute fast überall. Welches Wort benutzt das Buch dafür?",
+        "options": [
+          { "text": "allgegenwärtig", "correct": true },
+          { "text": "altmodisch" },
+          { "text": "verboten" }
+        ],
+        "explanation": "Allgegenwärtig heißt: überall vorhanden. Digitale Medien sind in Schule, Beruf und Freizeit dabei."
+      }
+    }
+  ]
+}

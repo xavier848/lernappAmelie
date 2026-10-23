@@ -1,0 +1,143 @@
+{
+  "topic_slug": "ernaehrung",
+  "slug": "ernaehrung-saeugling-flaschennahrung",
+  "title": "Säugling: Flaschennahrung",
+  "sort": 563,
+  "intro": "🍼 Stillen hat viele Vorteile. Trotzdem kann es Gründe für die Flasche geben. Das wägt man immer im Einzelfall ab. Auch Kinder, die nicht gestillt werden, entwickeln sich normal. Sie haben nicht automatisch zu wenig Körperkontakt.\n\nFür die Flasche gibt es industriell hergestellte Säuglingsnahrung. Verdünnte Kuhmilch reicht für die Nährstoffe nicht aus. Auch Zubereitungen auf Getreide- oder Mandelbasis reichen nicht aus. Bei Säuglingsnahrung auf Sojabasis oder anderer Spezialnahrung muss vorher unbedingt der Kinderarzt raten.\n\nMERKE: Auch Flaschenkinder füttert man nach Bedarf. Die Dosierung auf der Packung hältst du genau ein. Sonst legst du schon jetzt den Grundstein für Übergewicht.\n\nSäuglingsanfangsnahrung erkennst du am Zusatz „Pre“ oder „1“. Sie passt für Säuglinge, die nicht oder nur teilweise gestillt werden. Man kann sie das ganze erste Lebensjahr geben. Pre-Nahrung ist der Muttermilch am ähnlichsten. Ihr einziges Kohlenhydrat ist Milchzucker. Bei 1-Nahrung ist ein Teil vom Milchzucker durch Stärke ersetzt.\n\nFolgenahrung hat den Zusatz „2“. Sie ist für Kinder, die schon Beikost bekommen. Sie darf frühestens ab dem 4. Lebensmonat in den Plan. Sie muss aber nicht sein.\n\nHA-Nahrung heißt hypoallergene Nahrung. „Hypo“ heißt: unter, niedrig. Ihr Eiweiß ist zum Teil abgebaut. Darum löst sie weniger Allergien aus als Standardnahrung. Gibt es in der Familie schon Allergien, ist HA-Nahrung eine Alternative. Aber nur nach Absprache mit dem Kinderarzt.\n\nMERKE: Pre und 1 sind Anfangsnahrung für das ganze erste Jahr. 2 ist Folgenahrung, wenn es schon Beikost gibt. HA-Nahrung löst weniger Allergien aus.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍼 Eine Mutter kann nicht stillen. Ihr Baby bekommt die Flasche. Was stimmt?",
+        "options": [
+          { "text": "Auch Flaschenkinder entwickeln sich normal.", "correct": true },
+          { "text": "Flaschenkinder bleiben in der Entwicklung zurück." },
+          { "text": "Flaschenkinder haben immer zu wenig Körperkontakt." }
+        ],
+        "explanation": "Stillen hat viele Vorteile. Aber auch Kinder, die nicht gestillt werden, entwickeln sich normal. Körperkontakt gibt es auch beim Füttern mit der Flasche."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥛 Was bekommt ein Säugling in die Flasche? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Geeignet", "icon": "✅" },
+          { "id": "arzt", "label": "Nur nach Rat vom Kinderarzt", "icon": "🩺" },
+          { "id": "nein", "label": "Reicht nicht aus", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Pre-Nahrung", "bucket": "ja" },
+          { "text": "1-Nahrung", "bucket": "ja" },
+          { "text": "Säuglingsnahrung auf Sojabasis", "bucket": "arzt" },
+          { "text": "Andere Spezialnahrung", "bucket": "arzt" },
+          { "text": "Verdünnte Kuhmilch", "bucket": "nein" },
+          { "text": "Zubereitung auf Mandelbasis", "bucket": "nein" },
+          { "text": "Zubereitung auf Getreidebasis", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Ist es Säuglingsnahrung aus der Fabrik? Pre und 1 sind dafür gemacht. Soja und Spezialnahrung nur, wenn der Kinderarzt rät. Kuhmilch, Mandel- und Getreidezubereitungen liefern nicht alle Nährstoffe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📦 Du machst die Flasche mit Pulver. Worauf achtest du?",
+        "options": [
+          { "text": "Genau so viel Pulver wie auf der Packung steht.", "correct": true },
+          { "text": "Etwas mehr Pulver, damit das Baby länger satt ist." },
+          { "text": "Etwas weniger Pulver, dann ist es leichter verdaulich." }
+        ],
+        "explanation": "Die Dosierung auf der Packung ist genau berechnet. Zu viel Pulver liefert zu viel Energie. So legst du schon beim Baby den Grundstein für Übergewicht. Zu wenig Pulver liefert zu wenig Nährstoffe."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Was steckt hinter dem Namen? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Pre-Nahrung"}, "right": {"text": "Einziges Kohlenhydrat ist Milchzucker"} },
+          { "left": {"text": "1-Nahrung"}, "right": {"text": "Ein Teil vom Milchzucker ist durch Stärke ersetzt"} },
+          { "left": {"text": "2-Nahrung"}, "right": {"text": "Für Kinder, die schon Beikost bekommen"} }
+        ],
+        "explanation": "Pre ist der Muttermilch am ähnlichsten, darum nur Milchzucker. Bei 1 kommt etwas Stärke dazu. Die 2 steht für Folgenahrung: Sie folgt, wenn schon Brei gegessen wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📆 Säuglingsanfangsnahrung erkennst du am Zusatz „Pre“ oder „1“. Wie lange ist sie geeignet?",
+        "options": [
+          { "text": "Während des ganzen ersten Lebensjahres.", "correct": true },
+          { "text": "Nur in den ersten vier Lebensmonaten." },
+          { "text": "Nur bis zum ersten Brei, danach nicht mehr." },
+          { "text": "Nur in den ersten 14 Tagen nach der Geburt." }
+        ],
+        "explanation": "Pre- und 1-Nahrung passen für Säuglinge, die nicht oder nur teilweise gestillt werden. Man kann sie das ganze erste Lebensjahr geben, auch wenn schon Brei dazukommt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ Was gilt für Folgenahrung?",
+        "options": [
+          { "text": "Frühestens ab dem 4. Lebensmonat, sie muss aber nicht sein.", "correct": true },
+          { "text": "Frühestens ab dem 4. Lebensmonat, dann muss sie auch sein." },
+          { "text": "Direkt ab der Geburt, als Ersatz für die Muttermilch." },
+          { "text": "Erst ab dem 12. Lebensmonat, als Ersatz für Brot." }
+        ],
+        "explanation": "Folgenahrung ist für Kinder, die schon Beikost bekommen. Sie darf frühestens ab dem 4. Lebensmonat in den Plan. Man kann aber auch bei der Anfangsnahrung bleiben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 HA-Nahrung heißt hypoallergene Nahrung. Was bedeutet „hypo“?",
+        "options": [
+          { "text": "unter, niedrig", "correct": true },
+          { "text": "über, hoch" },
+          { "text": "ohne, gar nicht" },
+          { "text": "gegen, anti" }
+        ],
+        "explanation": "„Hypo“ heißt unter oder niedrig. Hypoallergen heißt also: niedrige Allergie-Gefahr. Ganz ohne Allergie-Gefahr ist die Nahrung nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧬 Was ist bei HA-Nahrung anders als bei Standardnahrung?",
+        "options": [
+          { "text": "Das Eiweiß ist zum Teil abgebaut.", "correct": true },
+          { "text": "Das Eiweiß ist ganz entfernt." },
+          { "text": "Der Milchzucker ist durch Stärke ersetzt." },
+          { "text": "Das Fett ist durch Zucker ersetzt." }
+        ],
+        "explanation": "Bei HA-Nahrung ist das Eiweiß teilweise abgebaut. Darum löst sie weniger Allergien aus. Ganz ohne Eiweiß würde das Baby nicht wachsen. Stärke statt Milchzucker gibt es bei 1-Nahrung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👨‍👩‍👧 In einer Familie haben schon mehrere Menschen Allergien. Das Baby wird nicht gestillt. Was ist eine gute Alternative?",
+        "options": [
+          { "text": "HA-Nahrung, nach Absprache mit dem Kinderarzt.", "correct": true },
+          { "text": "Folgenahrung, direkt ab der Geburt." },
+          { "text": "Eine Zubereitung auf Mandelbasis." },
+          { "text": "Verdünnte Kuhmilch ohne Zusätze." }
+        ],
+        "explanation": "Gibt es in der Familie schon Allergien, ist HA-Nahrung eine Alternative. Die Entscheidung trifft man mit dem Kinderarzt. Mandelzubereitungen und verdünnte Kuhmilch reichen nicht für die Nährstoffe."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Wann bekommt ein Flaschenkind seine Flasche?",
+        "options": [
+          { "text": "Nach Bedarf, also wenn es Hunger hat.", "correct": true },
+          { "text": "Nur zu den festen Mahlzeiten der Familie." },
+          { "text": "Streng alle vier Stunden, auch ohne Hunger." }
+        ],
+        "explanation": "Flaschenkinder füttert man genauso nach Bedarf wie Stillkinder. Wichtig ist nur: Die Dosierung auf der Packung genau einhalten."
+      }
+    }
+  ]
+}

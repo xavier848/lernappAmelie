@@ -1,0 +1,126 @@
+{
+  "topic_slug": "warenwirtschaft",
+  "slug": "warenwirtschaft-faire-lebensmittel",
+  "title": "Faire Lebensmittel einsetzen",
+  "sort": 601,
+  "intro": "🤝 Fairer Handel heißt: Die Menschen, die die Waren anbauen und herstellen, bekommen einen gerechten Preis. Produkte mit dem Fairtrade-Siegel tragen laut Fachbuch zu einer positiven Ökobilanz bei.\n\nEs gibt noch weitere Zeichen für fairen Handel, zum Beispiel EL PUENTE, GEPA und FAIRGLOBE.\n\nFaire Produkte gab es früher vor allem im Eine-Welt-Laden. Durch den „Fair-Änderungs-Boom“ gibt es sie heute auch im Supermarkt und beim Discounter. Dort tragen sie das Fairtrade-Siegel oder ein eigenes Zeichen für fair gehandelte Lebensmittel. Außerdem kannst du sie im Internet und im Versandhandel kaufen.\n\nMERKE: Faire Produkte kosten mehr als konventionelle Waren. Konventionell heißt: herkömmlich, ganz normal. Den Einsatz musst du deshalb gut kalkulieren, also vorher durchrechnen.\n\nEine „fair-Änderung“ kannst du gut bewerben. Sie macht das Essen zu einem besonderen Erlebnis, zum Beispiel mit einem fairen Dessert, einem fairen Frühstück oder einem fairen Kuchenbuffet.\n\nSo tauschst du in Rezepten Zutaten gegen faire Produkte aus: Schokobrötchen mit fairer Vollmilchschokolade. Schoko-Mandel-Mürbeteig mit fairer Zartbitterschokolade. Irish-Creme-Eclairs mit fairem Kaffee. Multivitaminsaft-Gelee mit fairem Multivitaminsaft. Currysuppe mit fairem Curry und schwarzem Pfeffer.\n\nMERKE: Für die Zwischenverpflegung gibt es faire Snacks, zum Beispiel Bananen oder Müsliriegel. Auch die Getränke kannst du umstellen: Kaffee, Tee, Kakao, Orangensaft oder Multivitaminsaft mit Fairtrade-Siegel.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Wozu tragen Produkte mit dem Fairtrade-Siegel laut Fachbuch bei?",
+        "options": [
+          { "text": "Zu einer positiven Ökobilanz.", "correct": true },
+          { "text": "Zu einer längeren Haltbarkeit." },
+          { "text": "Zu einem niedrigeren Preis." }
+        ],
+        "explanation": "Das Fachbuch sagt: Produkte mit dem Fairtrade-Siegel tragen zu einer positiven Ökobilanz bei. Billiger sind sie nicht, sie kosten meist mehr."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏷️ Ist das ein Zeichen für fairen Handel? Sortiere.",
+        "buckets": [
+          { "id": "fair", "label": "Fairer Handel", "icon": "🤝" },
+          { "id": "anders", "label": "Anderes Zeichen", "icon": "🔖" }
+        ],
+        "items": [
+          { "text": "Fairtrade-Siegel", "bucket": "fair" },
+          { "text": "GEPA", "bucket": "fair" },
+          { "text": "EL PUENTE", "bucket": "fair" },
+          { "text": "FAIRGLOBE", "bucket": "fair" },
+          { "text": "EU-Bio-Siegel", "bucket": "anders" },
+          { "text": "Blauer Engel", "bucket": "anders" }
+        ],
+        "explanation": "Frag dich: Geht es um gerechten Handel oder um etwas anderes? Das EU-Bio-Siegel steht für ökologische Erzeugung. Der Blaue Engel ist ein Umweltzeichen. Fairtrade, GEPA, EL PUENTE und FAIRGLOBE stehen für fairen Handel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏪 Wo bekommst du faire Produkte heute?",
+        "options": [
+          { "text": "Im Eine-Welt-Laden, im Supermarkt, beim Discounter und online.", "correct": true },
+          { "text": "Nur im Eine-Welt-Laden, in anderen Läden gibt es sie gar nicht." },
+          { "text": "Nur im Internet, denn im Laden sind sie nicht erlaubt." }
+        ],
+        "explanation": "Traditionell gab es faire Produkte im Eine-Welt-Laden. Durch den „Fair-Änderungs-Boom“ führen auch Supermärkte und Discounter faire Waren. Außerdem gibt es sie im Internet und im Versandhandel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Du willst im Betrieb auf faire Produkte umstellen. Was musst du wegen der Kosten beachten?",
+        "options": [
+          { "text": "Sie kosten mehr, darum gut kalkulieren.", "correct": true },
+          { "text": "Sie kosten weniger, darum mehr einkaufen." },
+          { "text": "Sie kosten gleich viel, darum nichts ändern." }
+        ],
+        "explanation": "Faire Produkte sind teurer als konventionelle Waren. Den Einsatz rechnest du deshalb vorher gut durch. So bleibst du im Kostenrahmen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📣 Wie kannst du eine „fair-Änderung“ gut bewerben?",
+        "options": [
+          { "text": "Mit einem fairen Frühstück oder Kuchenbuffet.", "correct": true },
+          { "text": "Mit einem großen Rabatt auf alle Speisen der Woche." },
+          { "text": "Mit einem Aushang über den Hygieneplan." }
+        ],
+        "explanation": "Eine fair-Änderung lässt sich gut bewerben. Ein faires Dessert, ein faires Frühstück oder ein faires Kuchenbuffet machen das Essen zu einem besonderen Erlebnis."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍫 Welche Zutat tauschst du gegen ein faires Produkt aus? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Schokobrötchen und Schoko-Mandel-Mürbeteig"}, "right": {"text": "Schokolade"} },
+          { "left": {"text": "Irish-Creme-Eclairs"}, "right": {"text": "Kaffee"} },
+          { "left": {"text": "Multivitaminsaft-Gelee"}, "right": {"text": "Multivitaminsaft"} },
+          { "left": {"text": "Currysuppe"}, "right": {"text": "Curry und schwarzer Pfeffer"} }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jedem Rezept: Welche Zutat kommt typischerweise aus fernen Ländern? Schokolade, Kaffee, Säfte aus Südfrüchten und Gewürze gibt es aus fairem Handel. Im Fachbuch steht beim Schokobrötchen Vollmilchschokolade und beim Mürbeteig Zartbitterschokolade."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍌 Welche fairen Snacks nennt das Fachbuch für die Zwischenverpflegung?",
+        "options": [
+          { "text": "Bananen oder Müsliriegel.", "correct": true },
+          { "text": "Bratwurst oder Pommes frites." },
+          { "text": "Käsebrot oder Salamibrötchen." }
+        ],
+        "explanation": "Für die Zwischenverpflegung eignen sich faire Snacks wie Bananen oder Müsliriegel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Welche Getränke kannst du laut Fachbuch auf Fairtrade umstellen?",
+        "options": [
+          { "text": "Kaffee, Tee, Kakao und Orangensaft.", "correct": true },
+          { "text": "Leitungswasser und Mineralwasser." },
+          { "text": "Frische Milch direkt vom Bauernhof." }
+        ],
+        "explanation": "Das Getränkeangebot lässt sich umstellen auf Kaffee, Tee, Kakao, Orangensaft oder Multivitaminsaft mit Fairtrade-Siegel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Was heißt konventionell?",
+        "options": [
+          { "text": "Herkömmlich, ganz normal.", "correct": true },
+          { "text": "Fair gehandelt, mit Siegel." },
+          { "text": "Ökologisch erzeugt, also bio." }
+        ],
+        "explanation": "Konventionelle Waren sind herkömmliche Waren, also nicht fair gehandelt und nicht bio. Faire Produkte kosten mehr als konventionelle."
+      }
+    }
+  ]
+}

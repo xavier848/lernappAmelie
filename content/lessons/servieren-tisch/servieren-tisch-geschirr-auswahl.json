@@ -1,0 +1,140 @@
+{
+  "topic_slug": "servieren-tisch",
+  "slug": "servieren-tisch-geschirr-auswahl",
+  "title": "Geschirr: Auswahl und Tafelservice",
+  "sort": 572,
+  "intro": "🍽️ Geschirr gibt es aus verschiedenen Materialien. Am häufigsten sind keramische Erzeugnisse wie Steingut und Porzellan. In der Gemeinschaftsverpflegung, kurz GV, nimmt man oft Arcopal. Arcopal ist Hartglas.\n\nWorauf achtest du bei der Auswahl? Auf eine zeitlose Form und Farbe. Das Geschirr soll spülmaschinengeeignet und stapelbar sein. Und es soll eine Nachkaufgarantie haben. Das heißt: Man kann später einzelne Teile nachkaufen.\n\nBei Tafelgeschirr achtest du auch auf Größe und Gewicht der Teller. Die Tellergröße muss zur Tischgröße passen. Sind die Teller zu schwer, kann das Servicepersonal nicht so viele auf einmal tragen.\n\nMERKE: Vor dem Eindecken prüfst du das Geschirr auf Sauberkeit und reinigst es, wenn nötig. Angeschlagenes Geschirr sortierst du aus.\n\nZur Grundausstattung eines Tafelservices gehören: Platzteller, flacher Teller, Suppenteller, Suppentasse mit Untertasse, ovale Platte, runde Platte, Suppenterrine, Schüssel, Sauciere mit Untersatz und Kompottschale. Ein Service ist zusammenpassendes Geschirr. Eine Sauciere ist ein Gefäß für Soße.\n\nMERKE: Der Platzteller ist ein großer Teller. Er ist der Mittelpunkt des Gedecks.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏺 Aus welchem Material ist Geschirr am häufigsten?",
+        "options": [
+          { "text": "Aus Steingut und Porzellan, in der GV oft aus Arcopal.", "correct": true },
+          { "text": "Aus Edelstahl, in der GV oft aus Holz oder aus Bambus." },
+          { "text": "Aus Kunststoff, in der GV oft aus Papier zum Wegwerfen." },
+          { "text": "Aus Kristallglas, in der GV oft aus verziertem Silber." }
+        ],
+        "explanation": "Am häufigsten sind keramische Erzeugnisse wie Steingut und Porzellan. In der Gemeinschaftsverpflegung nimmt man oft Arcopal. Das ist Hartglas."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛒 Neues Geschirr für die Kantine: Was ist bei der Auswahl wichtig? Sortiere.",
+        "buckets": [
+          { "id": "gut", "label": "Wichtig bei der Auswahl", "icon": "✅" },
+          { "id": "schlecht", "label": "Eher ungünstig", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Zeitlose Form und Farbe", "bucket": "gut" },
+          { "text": "Spülmaschinengeeignet", "bucket": "gut" },
+          { "text": "Stapelbar", "bucket": "gut" },
+          { "text": "Mit Nachkaufgarantie", "bucket": "gut" },
+          { "text": "Eine Trendfarbe, die bald aus der Mode ist", "bucket": "schlecht" },
+          { "text": "Nur von Hand spülbar", "bucket": "schlecht" },
+          { "text": "Besonders schwere Teller", "bucket": "schlecht" }
+        ],
+        "explanation": "Frag dich: Hilft das bei der täglichen Arbeit und auf lange Sicht? Zeitlos, spülmaschinenfest, stapelbar und nachkaufbar hilft. Trendfarben, Handspülen und schwere Teller machen Arbeit oder Probleme."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧾 Was bedeutet Nachkaufgarantie?",
+        "options": [
+          { "text": "Man kann später einzelne Teile nachkaufen.", "correct": true },
+          { "text": "Man kann das Geschirr jederzeit zurückgeben." },
+          { "text": "Das Geschirr hält garantiert für immer." },
+          { "text": "Man bekommt beim Kauf ein Teil gratis dazu." }
+        ],
+        "explanation": "Geht ein Teller kaputt, kannst du genau diesen Teller nachkaufen. So bleibt das Service vollständig und passt zusammen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏋️ Warum sollen die Teller nicht zu schwer sein?",
+        "options": [
+          { "text": "Sonst trägt das Personal nicht so viele auf einmal.", "correct": true },
+          { "text": "Sonst passen sie nicht mehr in die Spülmaschine hinein." },
+          { "text": "Sonst werden die Speisen darauf viel schneller kalt." },
+          { "text": "Sonst rutschen sie auf der Tischdecke hin und her." }
+        ],
+        "explanation": "Beim Servieren trägt das Personal mehrere Teller in einem Gang. Schwere Teller machen das mühsam. Dann muss es öfter laufen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📏 Die neuen Teller sind riesig, die Tische sind klein. Welche Regel wurde nicht beachtet?",
+        "options": [
+          { "text": "Die Tellergröße muss zur Tischgröße passen.", "correct": true },
+          { "text": "Teller müssen immer spülmaschinengeeignet sein." },
+          { "text": "Teller müssen immer eine zeitlose Farbe haben." },
+          { "text": "Teller müssen immer stapelbar sein." }
+        ],
+        "explanation": "Bei Tafelgeschirr achtest du auf Größe und Gewicht. Sind die Teller zu groß, passt das Gedeck nicht auf den Platz. Die Tellergröße muss also zur Tischgröße passen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Beim Eindecken siehst du: Ein Teller hat eine kleine Macke am Rand. Was tust du?",
+        "options": [
+          { "text": "Den Teller aussortieren und einen heilen nehmen.", "correct": true },
+          { "text": "Den Teller so drehen, dass die Macke hinten ist." },
+          { "text": "Den Teller für den Gastgeber nehmen, er kennt ihn." },
+          { "text": "Den Teller nehmen, eine kleine Macke sieht keiner." }
+        ],
+        "explanation": "Angeschlagenes Geschirr sortierst du vor dem Eindecken aus. An einer Macke kann man sich verletzen, und sie sieht ungepflegt aus."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Gehört das zur Grundausstattung eines Tafelservices? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Gehört dazu", "icon": "✅" },
+          { "id": "nein", "label": "Gehört nicht dazu", "icon": "❌" }
+        ],
+        "items": [
+          { "text": "Platzteller", "bucket": "ja" },
+          { "text": "Suppenteller", "bucket": "ja" },
+          { "text": "Sauciere mit Untersatz", "bucket": "ja" },
+          { "text": "Suppenterrine", "bucket": "ja" },
+          { "text": "Kompottschale", "bucket": "ja" },
+          { "text": "Eierbecher", "bucket": "nein" },
+          { "text": "Kaffeekanne", "bucket": "nein" },
+          { "text": "Brotkorb", "bucket": "nein" }
+        ],
+        "explanation": "Ein Tafelservice ist das Geschirr für ein Mittag- oder Abendessen. Dazu gehören Teller, Platten, Schüsseln, Terrine, Sauciere und Kompottschale. Eierbecher und Kaffeekanne gehören zum Frühstück oder Kaffee. Ein Brotkorb ist kein Porzellan."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was ist was im Tafelservice? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Sauciere mit Untersatz"}, "right": {"text": "Gefäß für Soße"} },
+          { "left": {"text": "Platzteller"}, "right": {"text": "Großer Teller, Mittelpunkt des Gedecks"} },
+          { "left": {"text": "Suppenteller"}, "right": {"text": "Tiefer Teller für Suppe"} },
+          { "left": {"text": "Schüssel"}, "right": {"text": "Für Beilagen wie Kartoffeln"} }
+        ],
+        "explanation": "Die Namen helfen: Sauce ist Soße, der Platzteller markiert den Platz, der Suppenteller ist tief für Suppe. In die Schüssel füllst du Beilagen ein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📚 Warum ist stapelbares Geschirr praktisch?",
+        "options": [
+          { "text": "Es braucht im Schrank wenig Platz.", "correct": true },
+          { "text": "Es wird in der Spülmaschine sauberer." },
+          { "text": "Es hält die Speisen länger warm." }
+        ],
+        "explanation": "Stapelbares Geschirr lässt sich platzsparend übereinander lagern. Das ist in jeder Küche und besonders in der Gemeinschaftsverpflegung wichtig."
+      }
+    }
+  ]
+}

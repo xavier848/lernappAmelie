@@ -1,0 +1,154 @@
+{
+  "topic_slug": "abfall-nachhaltigkeit",
+  "slug": "abfall-fisch-fleisch-milch",
+  "title": "Klimafreundlich: Fisch, Fleisch, Milch",
+  "sort": 600,
+  "intro": "🐟 Die Deutsche Gesellschaft für Ernährung, kurz DGE, empfiehlt 1- bis 2-mal pro Woche Fisch. Viele Meere sind überfischt. Überfischung heißt: Es wird mehr Fisch gefangen, als nachwachsen kann. Nimm deshalb Fisch aus bestandserhaltender Fischerei. Das erkennst du zum Beispiel an einem Bio-Siegel oder an den Siegeln MSC und ASC.\n\nMERKE: MSC steht für zertifizierte nachhaltige Fischerei. ASC steht für verantwortungsvolle Fischzucht. Fischerei heißt: Fische werden gefangen. Fischzucht heißt: Fische werden gezüchtet.\n\nWeltweit essen die Menschen mehr Fleisch, besonders in Deutschland. Dadurch entstehen mehr Treibhausgase durch die Ernährung. Fleisch und Fleischerzeugnisse verursachen etwa 70 Prozent des CO₂-Ausstoßes unserer Nahrung.\n\nErnährungsexperten empfehlen 1- bis 2-mal pro Woche kleine Mengen Fleisch. Am besten aus artgerechter Tierhaltung aus der Region. Das Motto heißt: „Klasse statt Masse“.\n\nAlternativen sind vegetarische Produkte, also Fleischersatz. Es gibt Ersatz für Wurstwaren, zum Beispiel vegetarische Fleischwurst, Salami oder Leberwurst. Und Ersatz für Fleisch, zum Beispiel vegetarisches Hackfleisch, Bratwurst, Geschnetzeltes, Gyros oder Schnitzel. Diese Produkte sind aus Tofu, Lupinen oder Seitan gemacht.\n\nAber Vorsicht: Nicht jedes vegetarische Produkt ist gesund. Manche enthalten viel Zucker, Fett und Salz. Lies deshalb die Zutatenliste.\n\nDie Klimabilanz von Milch und Milchprodukten ähnelt der von Fleisch. Denn das Tier braucht für die Milch viel Wasser und Futter. Für fettreiche Milchprodukte braucht man mehr Milch. Fettreich sind zum Beispiel Käse, Butter, Sahne, Schmand, Sahnejoghurt und Sahnequark.\n\nMERKE: Achte auf den Fettgehalt. Fettarme Milchprodukte haben eine bessere Klimabilanz. Ein niedriger Fettgehalt hilft dem Klima und deiner Gesundheit.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was empfehlen die Fachleute für Fisch und Fleisch?",
+        "options": [
+          { "text": "Beides 1- bis 2-mal pro Woche, Fleisch in kleinen Mengen.", "correct": true },
+          { "text": "Fisch jeden Tag, dafür Fleisch nur noch einmal im Monat." },
+          { "text": "Fleisch jeden Tag, dafür Fisch nur noch einmal im Monat." }
+        ],
+        "explanation": "Die DGE empfiehlt 1- bis 2-mal pro Woche Fisch. Ernährungsexperten empfehlen 1- bis 2-mal pro Woche kleine Mengen Fleisch."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet die Abkürzung? Verbinde.",
+        "pairs": [
+          { "left": {"text": "MSC"}, "right": {"text": "Zertifizierte nachhaltige Fischerei"} },
+          { "left": {"text": "ASC"}, "right": {"text": "Verantwortungsvolle Fischzucht"} },
+          { "left": {"text": "DGE"}, "right": {"text": "Deutsche Gesellschaft für Ernährung"} }
+        ],
+        "memory": false,
+        "explanation": "Beim Fisch helfen dir zwei Siegel. Merkhilfe: MSC steht auf Fisch aus nachhaltiger Fischerei, also gefangenem Fisch. ASC steht auf Fisch aus verantwortungsvoller Zucht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌊 Warum nimmst du Fisch aus bestandserhaltender Fischerei?",
+        "options": [
+          { "text": "Zum Schutz der Meere vor Überfischung.", "correct": true },
+          { "text": "Weil er in der Pfanne schneller gar wird." },
+          { "text": "Weil er deutlich weniger Gräten hat." }
+        ],
+        "explanation": "Überfischung heißt: Es wird mehr Fisch gefangen, als nachwachsen kann. Bestandserhaltende Fischerei schützt die Meere. Du erkennst sie am Bio-Siegel oder an MSC und ASC."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥩 Wie viel Prozent des CO₂-Ausstoßes unserer Nahrung verursachen Fleisch und Fleischerzeugnisse laut Fachbuch etwa? Tippe die Zahl.",
+        "answer": 70,
+        "hint": "Es ist mehr als 60 und weniger als 80.",
+        "explanation": "Fleisch und Fleischerzeugnisse verursachen etwa 70 Prozent des CO₂-Ausstoßes unserer Nahrung. Deshalb hilft weniger Fleisch dem Klima am meisten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏅 Was bedeutet das Motto „Klasse statt Masse“ beim Fleisch?",
+        "options": [
+          { "text": "Weniger Fleisch, dafür aus artgerechter Haltung.", "correct": true },
+          { "text": "Viel Fleisch, dafür immer das günstigste Angebot." },
+          { "text": "Nur Fleisch aus großen Mastbetrieben im Ausland." }
+        ],
+        "explanation": "Klasse statt Masse heißt: lieber seltener und kleinere Mengen Fleisch, dafür gute Qualität. Empfehlenswert ist Fleisch aus artgerechter Tierhaltung der Region."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌭 Vegetarischer Ersatz: wofür? Sortiere.",
+        "buckets": [
+          { "id": "wurst", "label": "Ersatz für Wurstwaren", "icon": "🥪" },
+          { "id": "fleisch", "label": "Ersatz für Fleisch", "icon": "🍖" }
+        ],
+        "items": [
+          { "text": "Vegetarische Fleischwurst", "bucket": "wurst" },
+          { "text": "Vegetarische Salami", "bucket": "wurst" },
+          { "text": "Vegetarische Leberwurst", "bucket": "wurst" },
+          { "text": "Vegetarisches Hackfleisch", "bucket": "fleisch" },
+          { "text": "Vegetarisches Geschnetzeltes", "bucket": "fleisch" },
+          { "text": "Vegetarisches Gyros", "bucket": "fleisch" },
+          { "text": "Vegetarisches Schnitzel", "bucket": "fleisch" }
+        ],
+        "explanation": "Frag dich: Isst man das Original als Aufschnitt oder Brotaufstrich, oder brät man es in der Pfanne? Fleischwurst, Salami und Leberwurst sind Wurstwaren. Hackfleisch, Geschnetzeltes, Gyros und Schnitzel sind Fleischgerichte."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫘 Woraus sind vegetarische Ersatzprodukte gemacht?",
+        "options": [
+          { "text": "Aus Tofu, Lupinen oder Seitan.", "correct": true },
+          { "text": "Aus Quark, Sahne oder Butter." },
+          { "text": "Aus Reis, Nudeln oder Weißbrot." }
+        ],
+        "explanation": "Die Basis vieler vegetarischer Ersatzprodukte ist Tofu, Lupinen oder Seitan."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Du kaufst vegetarische Bratwurst. Worauf achtest du?",
+        "options": [
+          { "text": "Auf die Zutatenliste wegen Zucker, Fett und Salz.", "correct": true },
+          { "text": "Auf gar nichts, vegetarisch ist immer gesund." },
+          { "text": "Nur auf den Preis, alles andere ist dabei egal." }
+        ],
+        "explanation": "Nicht jedes vegetarische Produkt ist gesundheitlich unbedenklich. Manche enthalten viel Zucker, Fett und Salz. Deshalb liest du die Zutatenliste."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐄 Warum ähnelt die Klimabilanz von Milch der von Fleisch?",
+        "options": [
+          { "text": "Das Tier braucht viel Wasser und Futter.", "correct": true },
+          { "text": "Milch wird immer sehr weit transportiert." },
+          { "text": "Milch wird immer in Plastik verpackt." }
+        ],
+        "explanation": "Für die Milchproduktion braucht das Tier viel Wasser und Futter. Deshalb ist die Klimabilanz von Milch und Milchprodukten ähnlich wie die von Fleisch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧀 Fettreich oder fettarm? Sortiere.",
+        "buckets": [
+          { "id": "reich", "label": "Fettreich", "icon": "🧈" },
+          { "id": "arm", "label": "Fettarm", "icon": "🥛" }
+        ],
+        "items": [
+          { "text": "Butter", "bucket": "reich" },
+          { "text": "Sahne", "bucket": "reich" },
+          { "text": "Schmand", "bucket": "reich" },
+          { "text": "Sahnequark", "bucket": "reich" },
+          { "text": "Magerquark", "bucket": "arm" },
+          { "text": "Fettarme Milch", "bucket": "arm" }
+        ],
+        "explanation": "Frag dich: Steckt viel Rahm, also viel Fett, darin? Für fettreiche Produkte wie Butter, Sahne, Schmand und Sahnequark braucht man mehr Milch. Fettarme Produkte haben deshalb eine bessere Klimabilanz."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌍 Was hilft bei Milchprodukten dem Klima und deiner Gesundheit?",
+        "options": [
+          { "text": "Ein niedriger Fettgehalt.", "correct": true },
+          { "text": "Ein möglichst hoher Fettgehalt." },
+          { "text": "Viel zugesetzter Zucker." }
+        ],
+        "explanation": "Fettarme Milchprodukte haben eine positive Klimabilanz. Ein niedriger Fettgehalt ist außerdem gut für die Gesundheit."
+      }
+    }
+  ]
+}

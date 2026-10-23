@@ -1,0 +1,118 @@
+{
+  "topic_slug": "zeit-rechnen",
+  "slug": "zeit-rechnen-stufe-1",
+  "title": "Stufe 1: Startzeit und Dauer",
+  "sort": 2,
+  "intro": "In dieser Stufe hast du immer eine Startzeit und eine Dauer. Du rechnest aus, wann etwas fertig ist.\n\nZum Beispiel: Die Pizza kommt um 18:14 Uhr in den Ofen. Sie braucht 27 Minuten. Wann ist sie fertig?\n\nBleibst du in derselben Stunde, rechnest du nur die Minuten: 14 + 27 = 41. Die Pizza ist um 18:41 Uhr fertig.\n\nKommst du über die volle Stunde, nimm die Brücke: erst bis zur vollen Stunde, dann den Rest.\n\nMERKE: Startzeit + Dauer = Endzeit.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍕 Die Pizza kommt um 18:14 Uhr in den Ofen. Sie braucht 27 Minuten. Wann ist sie fertig?",
+        "answer": 1841,
+        "format": "uhrzeit",
+        "hint": "Die Stunde bleibt gleich. Rechne nur die Minuten: 14 + 27 = ?",
+        "explanation": "18:14 Uhr + 27 Minuten = 18:41 Uhr. Die Stunde bleibt gleich, du rechnest nur die Minuten dazu."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Abfahrt: 7:56 Uhr. Fahrzeit: 43 Minuten. Wann kommt der Zug an?",
+        "answer": 839,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 7:56 Uhr → 8:00 Uhr sind 4 Minuten.\n43 − 4 = 39 Minuten bleiben übrig.\n8:00 Uhr + 39 Minuten = ?",
+        "explanation": "7:56 Uhr + 43 Minuten = 8:39 Uhr. Brücke: erst 4 Minuten bis 8:00 Uhr, dann noch 39 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚆 Abfahrt: 8:43 Uhr. Fahrzeit: 58 Minuten. Wann kommt der Zug an?",
+        "answer": 941,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 8:43 Uhr → 9:00 Uhr sind 17 Minuten.\n58 − 17 = 41 Minuten bleiben übrig.\n9:00 Uhr + 41 Minuten = ?",
+        "explanation": "8:43 Uhr + 58 Minuten = 9:41 Uhr. Brücke: erst 17 Minuten bis 9:00 Uhr, dann noch 41 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧁 Der Kuchen kommt um 14:35 Uhr in den Ofen. Er backt 45 Minuten. Wann ist er fertig?",
+        "answer": 1520,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 14:35 Uhr → 15:00 Uhr sind 25 Minuten.\n45 − 25 = 20 Minuten bleiben übrig.\n15:00 Uhr + 20 Minuten = ?",
+        "explanation": "14:35 Uhr + 45 Minuten = 15:20 Uhr. Brücke: erst 25 Minuten bis 15:00 Uhr, dann noch 20 Minuten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Die Waschmaschine startet um 9:47 Uhr. Das Programm dauert 38 Minuten. Wann ist die Wäsche fertig?",
+        "options": [
+          {
+            "text": "10:25 Uhr",
+            "correct": true
+          },
+          {
+            "text": "10:35 Uhr"
+          },
+          {
+            "text": "9:25 Uhr"
+          }
+        ],
+        "explanation": "9:47 Uhr + 38 Minuten = 10:25 Uhr. Brücke: erst 13 Minuten bis 10:00 Uhr, dann noch 25 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🚌 Der Bus fährt um 12:38 Uhr ab. Die Fahrt dauert 29 Minuten. Wann kommst du an?",
+        "answer": 1307,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 12:38 Uhr → 13:00 Uhr sind 22 Minuten.\n29 − 22 = 7 Minuten bleiben übrig.\n13:00 Uhr + 7 Minuten = ?",
+        "explanation": "12:38 Uhr + 29 Minuten = 13:07 Uhr. Brücke: erst 22 Minuten bis 13:00 Uhr, dann noch 7 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🐴 Um 16:52 Uhr fängst du an, dein Pferd zu putzen. Das dauert 25 Minuten. Wann bist du fertig?",
+        "answer": 1717,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 16:52 Uhr → 17:00 Uhr sind 8 Minuten.\n25 − 8 = 17 Minuten bleiben übrig.\n17:00 Uhr + 17 Minuten = ?",
+        "explanation": "16:52 Uhr + 25 Minuten = 17:17 Uhr. Brücke: erst 8 Minuten bis 17:00 Uhr, dann noch 17 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🛏️ Du beginnst um 10:41 Uhr mit dem Gästezimmer. Du brauchst 34 Minuten. Wann bist du fertig?",
+        "answer": 1115,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 10:41 Uhr → 11:00 Uhr sind 19 Minuten.\n34 − 19 = 15 Minuten bleiben übrig.\n11:00 Uhr + 15 Minuten = ?",
+        "explanation": "10:41 Uhr + 34 Minuten = 11:15 Uhr. Brücke: erst 19 Minuten bis 11:00 Uhr, dann noch 15 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥚 Die Eier kommen um 7:53 Uhr ins kochende Wasser. Sie kochen 9 Minuten. Wann sind sie fertig?",
+        "answer": 802,
+        "format": "uhrzeit",
+        "hint": "Bis zur vollen Stunde: 7:53 Uhr → 8:00 Uhr sind 7 Minuten.\n9 − 7 = 2 Minuten bleiben übrig.\n8:00 Uhr + 2 Minuten = ?",
+        "explanation": "7:53 Uhr + 9 Minuten = 8:02 Uhr. Brücke: erst 7 Minuten bis 8:00 Uhr, dann noch 2 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍝 Die Nudeln kommen um 12:20 Uhr ins Wasser. Sie kochen 11 Minuten. Wann sind sie fertig?",
+        "answer": 1231,
+        "format": "uhrzeit",
+        "hint": "Die Stunde bleibt gleich. Rechne nur die Minuten: 20 + 11 = ?",
+        "explanation": "12:20 Uhr + 11 Minuten = 12:31 Uhr. Die Stunde bleibt gleich, du rechnest nur die Minuten dazu."
+      }
+    }
+  ]
+}

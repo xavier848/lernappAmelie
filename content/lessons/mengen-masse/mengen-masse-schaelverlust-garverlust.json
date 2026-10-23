@@ -1,0 +1,130 @@
+{
+  "topic_slug": "mengen-masse",
+  "slug": "mengen-masse-schaelverlust-garverlust",
+  "title": "Schälverlust und Garverlust berechnen",
+  "sort": 623,
+  "intro": "🧮 Beim Putzen, Schälen und Garen wird Ware leichter. Das musst du beim Einkauf und beim Portionieren einrechnen.\n\nMERKE: Die Rohware ist immer 100 %. Ziehst du den Verlust ab, bleibt der Rest. Bei 22 % Schälverlust bleiben 78 %.\n\nSo rechnest du mit Prozent: Erst rechnest du 1 % aus. Dafür teilst du durch 100. Dann nimmst du das mal die Prozentzahl. Beispiel: 1 % von 5000 g sind 50 g. 80 % sind 80 × 50 g = 4000 g.\n\nPortionen rechnest du so: Du teilst die Menge durch die Portionsgröße. Nur volle Portionen zählen. Den Rest kannst du nicht als ganze Portion ausgeben.\n\nAuch beim Garen verliert Ware Gewicht. Im Beispiel aus dem Buch verliert Rindfleisch beim Kochen 17 % und beim Braten 23 %. Tiefgekühlte Ware verliert beim Auftauen Auftauflüssigkeit. Beim Parieren fällt Abfall an. Jeden Verlust rechnest du nacheinander vom neuen Gewicht ab.\n\nManchmal kennst du nur die geputzte Menge und musst die Rohware bestellen. Dann rechnest du rückwärts. Die geputzte Menge ist nicht 100 %, sondern weniger. Bei 18 % Abfall ist sie 82 %. Du teilst also durch 82 und nimmst mal 100.\n\nAus 1 kg Saftorangen bekommst du etwa 750 ml Saft.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📊 Du schälst Spargel. Der Schälverlust ist 22 %. Wie viel Prozent der Rohware bleiben übrig?",
+        "options": [
+          { "text": "78 %", "correct": true },
+          { "text": "122 %" },
+          { "text": "22 %" }
+        ],
+        "explanation": "Die Rohware ist 100 %. Der Schälverlust geht weg. 100 % minus 22 % sind 78 %. Die 22 % sind das, was im Abfall landet."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥬 Du hast 3,7 kg weißen Spargel. Der Schälverlust ist 22 %. Wie viel Gramm geschälter Spargel bleiben?",
+        "answer": 2886,
+        "hint": "3,7 kg = 3700 g.\n1 % von 3700 g = 37 g.\nEs bleiben 78 %: 78 × 37 g = ?",
+        "explanation": "1 % von 3700 g sind 37 g. Es bleiben 78 %. 78 × 37 g = 2886 g geschälter Spargel."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍽️ Aus 2886 g geschältem Spargel machst du Portionen zu je 200 g. Wie viele volle Portionen sind das?",
+        "answer": 14,
+        "hint": "10 Portionen sind 2000 g.\nEs bleiben noch 886 g.\nWie viele volle Portionen zu 200 g passen in 886 g?",
+        "explanation": "2886 g geteilt durch 200 g sind 14,4. Nur volle Portionen zählen: 14 Portionen. 86 g bleiben übrig."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥦 Geliefert werden 5 Köpfe Blumenkohl zu je 1,3 kg. Wie viel Gramm sind das zusammen?",
+        "answer": 6500,
+        "hint": "1,3 kg = 1300 g.\n5 × 1300 g = ?",
+        "explanation": "5 × 1300 g = 6500 g. Das sind 6,5 kg Blumenkohl."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥦 Der Blumenkohl wiegt 6500 g. Beim Putzen fallen 34 % Abfall an. Wie viel Gramm Abfall sind das?",
+        "answer": 2210,
+        "hint": "1 % von 6500 g = 65 g.\n34 × 65 g = ?",
+        "explanation": "1 % von 6500 g sind 65 g. 34 × 65 g = 2210 g Abfall. Das sind 2,21 kg."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍽️ Vom Blumenkohl bleiben 4290 g. Eine Portion hat 250 g. Wie viele volle Portionen sind das?",
+        "answer": 17,
+        "hint": "4 Portionen sind 1000 g.\n16 Portionen sind 4000 g.\nPasst in die restlichen 290 g noch eine Portion?",
+        "explanation": "4290 g geteilt durch 250 g sind 17,16. Nur volle Portionen zählen: 17 Portionen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🥩 8,5 kg Rindfleisch verlieren beim Kochen 17 % Gewicht. Wie viel Gramm Fleisch bleiben?",
+        "answer": 7055,
+        "hint": "8,5 kg = 8500 g.\n1 % von 8500 g = 85 g.\nEs bleiben 83 %: 83 × 85 g = ?",
+        "explanation": "Es bleiben 100 % minus 17 % = 83 %. 1 % von 8500 g sind 85 g. 83 × 85 g = 7055 g."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍖 Je 8,5 kg Rindfleisch: Gekocht bleiben 7055 g, gebraten nur 6545 g. Wie viele volle Portionen zu 120 g gibt das?",
+        "options": [
+          { "text": "Gekocht 58, gebraten 54 Portionen.", "correct": true },
+          { "text": "Gekocht 54, gebraten 58 Portionen." },
+          { "text": "Gekocht 59, gebraten 55 Portionen." }
+        ],
+        "explanation": "7055 g geteilt durch 120 g sind 58,8. 6545 g geteilt durch 120 g sind 54,5. Nur volle Portionen zählen, du rundest also nicht auf. Beim Braten verliert Fleisch mehr Gewicht, darum gibt es weniger Portionen."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🐔 10 tiefgekühlte Suppenhühner werden zu Hühnerfrikassee. In welcher Reihenfolge rechnest du die Verluste ab?",
+        "steps": [
+          { "text": "❄️ 3 % Auftauflüssigkeit abziehen." },
+          { "text": "🍲 16 % Gewichtsverlust beim Kochen abziehen." },
+          { "text": "🔪 31 % Abfall beim Parieren abziehen." },
+          { "text": "🍽️ Das Fleisch in Portionen zu 80 g teilen." }
+        ],
+        "explanation": "Du rechnest in der Reihenfolge der Arbeit. Erst tauen die Hühner auf. Dann werden sie gekocht. Dann löst du das Fleisch von Knochen und Haut. Jeder Verlust wird vom neuen Gewicht abgezogen. Portioniert wird ganz zum Schluss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥬 Du brauchst 750 g geputzten Rosenkohl. Der Abfall ist 18 %. Wie viel Rohware bestellst du ungefähr?",
+        "options": [
+          { "text": "Etwa 915 g.", "correct": true },
+          { "text": "Etwa 885 g." },
+          { "text": "Etwa 615 g." }
+        ],
+        "explanation": "Die 18 % Abfall beziehen sich auf die Rohware. Die geputzten 750 g sind also 82 % der Rohware. 750 g geteilt durch 82 und mal 100 sind etwa 915 g. 885 g wären falsch: Da hast du 18 % von 750 g dazugerechnet."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍊 1 kg Saftorangen gibt etwa 750 ml Saft. Eine Kiste hat 12,5 kg Orangen. Wie viele Milliliter Saft bekommst du?",
+        "answer": 9375,
+        "hint": "10 kg geben 7500 ml.\n2,5 kg geben 2,5 × 750 ml = 1875 ml.\n7500 ml + 1875 ml = ?",
+        "explanation": "12,5 × 750 ml = 9375 ml. Das sind etwa 9,4 Liter Saft. Das reicht für 46 volle Gläser zu 200 ml."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🍊 1 kg Saftorangen gibt etwa 750 ml Saft. Wie viele Milliliter Saft geben 2 kg?",
+        "answer": 1500,
+        "hint": "2 × 750 ml = ?",
+        "explanation": "2 × 750 ml = 1500 ml. Das sind 1,5 Liter Saft."
+      }
+    }
+  ]
+}

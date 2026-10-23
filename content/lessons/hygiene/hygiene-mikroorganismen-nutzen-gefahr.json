@@ -1,0 +1,142 @@
+{
+  "topic_slug": "hygiene",
+  "slug": "hygiene-mikroorganismen-nutzen-gefahr",
+  "title": "Mikroorganismen: Nutzen oder Gefahr?",
+  "sort": 40,
+  "intro": "Mikroorganismen sind winzig kleine Lebewesen. Man sieht sie nur unter dem Mikroskop. Dazu gehören Bakterien, Pilze und Viren.\n\nManche Mikroorganismen sind nützlich, andere sind gefährlich. Frag dich darum bei jedem: Was ist es? Nutzen oder Gefahr?\n\nSalmonellen sind Bakterien. Sie sind gefährlich. Sie können Magen-Darm-Erkrankungen mit Durchfall und Erbrechen verursachen.\n\nHefe ist ein Pilz. Backhefe ist nützlich: Sie hilft, dass der Hefeteig aufgeht und locker wird. Aus Backhefe wird nicht plötzlich Schimmel. Hefe und Schimmel sind unterschiedliche Pilze.\n\nSchimmel ist auch ein Pilz. Grüner Schimmel auf Brot heißt: Das Brot ist verdorben und wird weggeworfen. Den weißen Schimmel auf Camembert setzt man bei der Herstellung absichtlich ein. Das ist Edelschimmel.\n\nEin Beispiel für Viren ist das Corona-Virus.\n\nMERKE: Pilze können nützlich oder schädlich sein. Hefe und Edelschimmel können bei der Herstellung von Lebensmitteln helfen. Ungewollter Schimmel bedeutet: Lebensmittel verdorben.\n\nMERKE: Salmonellen = Bakterien = Gefahr.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Auf einem Lebensmittel sind Salmonellen. Was sind Salmonellen?",
+        "options": [
+          { "text": "Bakterien.", "correct": true },
+          { "text": "Viren." },
+          { "text": "Pilze." }
+        ],
+        "explanation": "Salmonellen sind Bakterien. Merk dir: Salmonellen = Bakterien = Gefahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Sind Salmonellen nützlich oder gefährlich?",
+        "options": [
+          { "text": "Gefährlich. Sie können Durchfall und Erbrechen auslösen.", "correct": true },
+          { "text": "Nützlich. Sie machen rohes Fleisch beim Braten zarter." },
+          { "text": "Harmlos. Sie verändern nur den Geschmack vom Essen." }
+        ],
+        "explanation": "Salmonellen sind gefährlich. Sie können Magen-Darm-Erkrankungen mit Durchfall und Erbrechen verursachen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🔬 Was ist es? Sortiere in Bakterien, Pilze und Viren.",
+        "buckets": [
+          { "id": "bakterien", "label": "Bakterien", "icon": "🦠" },
+          { "id": "pilze", "label": "Pilze", "icon": "🍄" },
+          { "id": "viren", "label": "Viren", "icon": "🧬" }
+        ],
+        "items": [
+          { "text": "Salmonellen", "bucket": "bakterien" },
+          { "text": "Backhefe", "bucket": "pilze" },
+          { "text": "Grüner Schimmel auf Brot", "bucket": "pilze" },
+          { "text": "Edelschimmel auf Camembert", "bucket": "pilze" },
+          { "text": "Corona-Virus", "bucket": "viren" }
+        ],
+        "explanation": "Salmonellen sind Bakterien. Hefe und jeder Schimmel sind Pilze, auch der Edelschimmel. Das Corona-Virus ist ein Virus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥐 Backhefe kommt in einen Hefeteig. Nutzen oder Gefahr?",
+        "options": [
+          { "text": "Nutzen. Die Hefe hilft, dass der Teig aufgeht und locker wird.", "correct": true },
+          { "text": "Gefahr. Die Hefe macht den Teig nach einiger Zeit giftig." },
+          { "text": "Nutzen. Die Hefe macht den Teig süßer und saftiger." }
+        ],
+        "explanation": "Backhefe ist ein nützlicher Pilz. Darum kommt sie in den Hefeteig: Damit der Teig aufgeht und locker wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Wird Backhefe nach ein paar Tagen plötzlich zu einem gefährlichen Schimmelpilz?",
+        "options": [
+          { "text": "Nein. Hefe und Schimmel sind unterschiedliche Pilze.", "correct": true },
+          { "text": "Ja. Nach ein paar Tagen wird aus Hefe immer Schimmel." },
+          { "text": "Ja, aber nur, wenn die Hefe im Kühlschrank liegt." }
+        ],
+        "explanation": "Hefe und Schimmel sind beide Pilze. Aber es sind unterschiedliche Pilze. Aus Hefe wird nicht plötzlich Schimmel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Auf einem Stück Brot wächst grüner Schimmel. Nutzen oder Gefahr?",
+        "options": [
+          { "text": "Gefahr. Das Brot wird weggeworfen.", "correct": true },
+          { "text": "Nutzen. Das ist Edelschimmel, der gibt Geschmack." },
+          { "text": "Gefahr. Du schneidest den Schimmel ab und isst den Rest." }
+        ],
+        "explanation": "Grüner Schimmel auf Brot ist ungewollter Schimmel. Das Brot ist verdorben und kommt weg."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧀 Ein Camembert hat seinen weißen Schimmel. Nun ist dazu grüner Schimmel darauf, und er riecht verdorben. Was machst du?",
+        "options": [
+          { "text": "Wegwerfen. Das ist nicht der gewünschte Edelschimmel.", "correct": true },
+          { "text": "Essen. Camembert hat ja sowieso immer Schimmel darauf." },
+          { "text": "Den grünen Teil großzügig abkratzen und den Rest essen." }
+        ],
+        "explanation": "Der weiße Schimmel auf Camembert ist Edelschimmel. Er wird bei der Herstellung absichtlich eingesetzt. Grüner oder schwarzer Schimmel und ein verdorbener Geruch sind aber ein Warnzeichen. Dann wirfst du den Käse weg."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Nutzen oder Gefahr? Sortiere.",
+        "buckets": [
+          { "id": "nutzen", "label": "Nutzen", "icon": "👍" },
+          { "id": "gefahr", "label": "Gefahr", "icon": "⚠️" }
+        ],
+        "items": [
+          { "text": "Backhefe im Hefeteig", "bucket": "nutzen" },
+          { "text": "Weißer Edelschimmel auf dem Camembert", "bucket": "nutzen" },
+          { "text": "Salmonellen auf einem Lebensmittel", "bucket": "gefahr" },
+          { "text": "Grüner Schimmel auf dem Brot", "bucket": "gefahr" },
+          { "text": "Schwarzer Schimmel auf dem Camembert", "bucket": "gefahr" }
+        ],
+        "explanation": "Hefe und Edelschimmel werden absichtlich eingesetzt. Sie helfen bei der Herstellung von Lebensmitteln. Salmonellen und ungewollter Schimmel sind eine Gefahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Ist jeder Schimmel gefährlich?",
+        "options": [
+          { "text": "Nein. Edelschimmel ist gewünscht, ungewollter Schimmel ist ein Warnzeichen.", "correct": true },
+          { "text": "Ja. Jeder Schimmel auf einem Lebensmittel ist giftig und gefährlich." },
+          { "text": "Nein. Schimmel ist nie gefährlich, man kann ihn einfach abwischen." }
+        ],
+        "explanation": "Edelschimmel ist bei bestimmten Lebensmitteln gewünscht, zum Beispiel beim Camembert. Ungewollter Schimmel auf Lebensmitteln ist aber ein Warnzeichen: Das Lebensmittel ist verdorben."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Ein Kuchen liegt lange warm und feucht herum. Was kann passieren?",
+        "options": [
+          { "text": "Mikroorganismen vermehren sich und der Kuchen verdirbt.", "correct": true },
+          { "text": "Nichts. Warm und feucht hält sich ein Kuchen am längsten." },
+          { "text": "Die Wärme tötet alle Mikroorganismen im Kuchen ab." }
+        ],
+        "explanation": "Wärme und Feuchtigkeit mögen Mikroorganismen gern. Dann vermehren sie sich schnell, und der Kuchen kann verderben."
+      }
+    }
+  ]
+}

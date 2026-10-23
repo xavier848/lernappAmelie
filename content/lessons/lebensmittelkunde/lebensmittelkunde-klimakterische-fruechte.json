@@ -1,0 +1,161 @@
+{
+  "topic_slug": "lebensmittelkunde",
+  "slug": "lebensmittelkunde-klimakterische-fruechte",
+  "title": "Klimakterische Früchte und Ethylen",
+  "sort": 686,
+  "intro": "🥑 Manche Früchte reifen nach der Ernte nach. Man nennt sie klimakterische Früchte. Man erntet sie im Stadium der Pflückreife. Das heißt: Sie sind reif genug zum Ernten, aber noch nicht zum Essen. Reif zum Essen sind sie erst bei der Genussreife. Beispiele sind Avocado, Passionsfrucht und Aprikose.\n\nKlimakterische Früchte geben das Gas Ethylen an die Luft ab. Ethylen ist ein Phytohormon, also ein Hormon von Pflanzen.\n\nMERKE: Schon kleinste Mengen Ethylen lassen die Früchte in der Nähe reifen. Das gilt auch für andere Obstarten und für Gemüse.\n\nDeshalb kühlt man Obstlager. So bleiben der Stoffwechsel und der Ethylen-Ausstoß gering. Außerdem reichert man die Luft in Lagerräumen von Schiffen und in Lagerhallen mit etwas CO₂ an. So geschieht es auf Bananenfrachtern und in Lagerhäusern am Hafen.\n\nUmgekehrt geht es auch: Fragt der Markt plötzlich viele Bananen nach, macht man unreife Bananen mit Ethylen schnell genussreif.\n\nFrüchte bilden unterschiedlich viel Ethylen. Viel Ethylen bilden Apfel, Aprikose, Avocado, Birne, Passionsfrucht und Pfirsich. Mittel viel bilden Banane, Clementine, Feige, Mango, Pflaume und Quitte. Wenig Ethylen bilden Ananas, Erdbeere, Kirsche, Kiwi, Orange und Zitrone.\n\nEin Versuch: Leg eine grüne Banane mit zwei reifen Birnen in einen großen Plastiksack an einen warmen Ort. Leg eine zweite grüne Banane allein daneben. Vergleiche, wie schnell beide reifen.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was bedeutet der Begriff? Verbinde.",
+        "pairs": [
+          { "left": {"text": "Klimakterische Frucht"}, "right": {"text": "Reift nach der Ernte nach"} },
+          { "left": {"text": "Pflückreife"}, "right": {"text": "Reif zum Ernten, noch nicht zum Essen"} },
+          { "left": {"text": "Genussreife"}, "right": {"text": "Reif zum Essen"} }
+        ],
+        "memory": false,
+        "explanation": "Denk an eine Avocado aus dem Supermarkt. Sie wird hart geerntet und reift zu Hause nach. Erst wenn sie weich ist, kannst du sie essen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💨 Was bewirkt Ethylen schon in kleinsten Mengen?",
+        "options": [
+          { "text": "Es lässt auch das Obst und Gemüse in der Nähe reifen.", "correct": true },
+          { "text": "Es macht das Obst und Gemüse daneben länger haltbar." },
+          { "text": "Es wirkt nur auf die Frucht, die es selbst bildet." }
+        ],
+        "explanation": "Ethylen verteilt sich in der Luft. Andere Früchte und sogar Gemüse in der Nähe reifen dadurch schneller. Darum lagert man Obst mit viel Ethylen nicht mit allem zusammen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📊 Bildet die Frucht viel oder wenig Ethylen? Sortiere.",
+        "buckets": [
+          { "id": "viel", "label": "Viel Ethylen", "icon": "💨" },
+          { "id": "wenig", "label": "Wenig Ethylen", "icon": "🍃" }
+        ],
+        "items": [
+          { "text": "Apfel", "bucket": "viel" },
+          { "text": "Birne", "bucket": "viel" },
+          { "text": "Pfirsich", "bucket": "viel" },
+          { "text": "Avocado", "bucket": "viel" },
+          { "text": "Erdbeere", "bucket": "wenig" },
+          { "text": "Kirsche", "bucket": "wenig" },
+          { "text": "Orange", "bucket": "wenig" },
+          { "text": "Zitrone", "bucket": "wenig" }
+        ],
+        "explanation": "Merkhilfe: Viel Ethylen bilden die Kernobst-Klassiker Apfel und Birne, dazu zum Beispiel Pfirsich und Avocado. Wenig bilden zum Beispiel Orange und Zitrone sowie Erdbeere und Kirsche. Lern die Beispiele am besten in diesen Paaren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍌 Welche dieser Früchte bildet eine mittlere Menge Ethylen?",
+        "options": [
+          { "text": "Die Banane.", "correct": true },
+          { "text": "Der Apfel." },
+          { "text": "Die Zitrone." }
+        ],
+        "explanation": "Die Banane bildet mittel viel Ethylen. Der Apfel bildet viel, die Zitrone wenig."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📊 Wie viel Ethylen bilden diese Früchte? Sortiere.",
+        "buckets": [
+          { "id": "hoch", "label": "Viel", "icon": "💨" },
+          { "id": "mittel", "label": "Mittel", "icon": "〰️" },
+          { "id": "niedrig", "label": "Wenig", "icon": "🍃" }
+        ],
+        "items": [
+          { "text": "Aprikose", "bucket": "hoch" },
+          { "text": "Passionsfrucht", "bucket": "hoch" },
+          { "text": "Clementine", "bucket": "mittel" },
+          { "text": "Mango", "bucket": "mittel" },
+          { "text": "Pflaume", "bucket": "mittel" },
+          { "text": "Quitte", "bucket": "mittel" },
+          { "text": "Ananas", "bucket": "niedrig" },
+          { "text": "Kiwi", "bucket": "niedrig" }
+        ],
+        "explanation": "Merkhilfe: Aprikose und Passionsfrucht nennt das Buch zusammen mit der Avocado als Beispiele für klimakterische Früchte. Sie bilden viel Ethylen. Ananas und Kiwi bilden wenig. Die übrigen liegen in der Mitte, genau wie die Banane."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❄️ Warum werden Obstlager gekühlt?",
+        "options": [
+          { "text": "Damit Stoffwechsel und Ethylen-Ausstoß gering bleiben.", "correct": true },
+          { "text": "Damit die Früchte im Lager schneller und gleichmäßig reifen." },
+          { "text": "Damit die Früchte mehr Wasser aufnehmen." }
+        ],
+        "explanation": "Kälte bremst den Stoffwechsel der Früchte. Dann bilden sie auch weniger Ethylen. So reifen sie im Lager nicht zu früh."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚢 Das Obst soll auf dem Schiff nicht zu früh reifen. Was macht man zusätzlich zur Kühlung?",
+        "options": [
+          { "text": "Man reichert die Luft mit etwas CO₂ an.", "correct": true },
+          { "text": "Man gibt extra viel Ethylen in die Luft." },
+          { "text": "Man pumpt reinen Sauerstoff in den Raum." }
+        ],
+        "explanation": "Auf Bananenfrachtern und in Lagerhäusern am Hafen verändert man die Luft gezielt. Etwas mehr CO₂ bremst das Reifen. Ethylen würde das Reifen dagegen beschleunigen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Der Markt braucht plötzlich viele reife Bananen. Was macht man mit unreifen Bananen?",
+        "options": [
+          { "text": "Man lässt sie mit Ethylen schnell nachreifen.", "correct": true },
+          { "text": "Man kühlt sie besonders stark und lange herunter." },
+          { "text": "Man packt sie unter CO₂-Schutzgas." }
+        ],
+        "explanation": "Ethylen beschleunigt das Reifen. So werden unreife Bananen kurzfristig genussreif. Kälte und CO₂ würden das Reifen dagegen bremsen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍐 Eine grüne Banane liegt mit zwei reifen Birnen in einem Plastiksack an einem warmen Ort. Eine zweite grüne Banane liegt allein daneben. Was passiert?",
+        "options": [
+          { "text": "Die Banane bei den Birnen reift schneller.", "correct": true },
+          { "text": "Beide Bananen reifen genau gleich schnell." },
+          { "text": "Die Banane allein reift schneller." }
+        ],
+        "explanation": "Reife Birnen bilden viel Ethylen. Im Sack sammelt sich das Gas um die Banane. Darum reift sie schneller als die Banane allein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍎 Die Bananen in der Obstschale sollen nicht so schnell reif werden. Was legst du lieber nicht dazu?",
+        "options": [
+          { "text": "Äpfel, denn sie bilden viel Ethylen.", "correct": true },
+          { "text": "Zitronen, denn sie bilden viel Ethylen." },
+          { "text": "Gar nichts, Obst beeinflusst sich nie." }
+        ],
+        "explanation": "Äpfel bilden viel Ethylen. Es lässt die Bananen schneller reifen. Zitronen bilden nur wenig Ethylen. Überlege also, welches Obst du zusammen lagerst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zum Schluss: Ethylen ist ein Phytohormon. Was heißt das?",
+        "options": [
+          { "text": "Es ist ein Hormon von Pflanzen.", "correct": true },
+          { "text": "Es ist ein Hormon von Menschen." },
+          { "text": "Es ist ein Stoff aus Plastik." }
+        ],
+        "explanation": "Phyto heißt Pflanze. Ein Phytohormon ist also ein Pflanzenhormon. Früchte bilden Ethylen selbst."
+      }
+    }
+  ]
+}

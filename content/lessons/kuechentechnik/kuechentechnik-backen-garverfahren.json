@@ -1,0 +1,156 @@
+{
+  "topic_slug": "kuechentechnik",
+  "slug": "kuechentechnik-backen-garverfahren",
+  "title": "Backen als Garverfahren",
+  "sort": 639,
+  "intro": "🥧 Backen heißt: Garen unter leichter oder stärkerer Bräunung in heißer, meist trockener Luft. Die Temperatur liegt bei 150 bis 250 °C. Zu Hause backst du im Backofen oder in einer Mikrowelle mit Zusatzausstattung. In der Großküche backst du im Kombidämpfer.\n\nDie Temperatur richtet sich nach dem Gebäck: Teige backst du bei 160 bis 225 °C. Aufläufe aus rohen Zutaten backst du bei 200 bis 225 °C. Aufläufe aus gegarten Zutaten backst du bei 200 bis 250 °C.\n\nJe nach Rezept backst du auf dem Blech, in der Fettpfanne, in Backformen oder in hitzebeständigen Auflaufformen.\n\nMERKE: Mit Umluft backst du etwa 20 °C niedriger als mit Ober- und Unterhitze. Im Kombidämpfer backst du bis zu 30 °C niedriger.\n\nDie Backzeit im Rezept ist nur eine Circa-Angabe. Darum machst du immer die Garprobe mit dem Holzstäbchen. Bleibt kein Teig am Stäbchen hängen, ist das Gebäck gar.\n\nBräune Gebäck nicht zu stark. Wegen der Stärke kann sonst Acrylamid entstehen. Acrylamid ist krebserregend und erbgutschädigend. Es kann bei stärkehaltigen Lebensmitteln beim Braten, Backen, Überbacken, Grillen und Frittieren entstehen.\n\nObstkuchen wie Pflaumen- oder Rhabarberkuchen backst du mit Schiene oder in der Fettpfanne. Sonst kann Obstsaft in den Ofen laufen und anbrennen. So hast du auch weniger Arbeit beim Reinigen.\n\nDu backst zum Beispiel Kuchen, süßes und salziges Kleingebäck, Brote, Brötchen, süße und salzige Aufläufe und Pasteten.\n\nVorteil: Röststoffe und Kruste geben einen besonders aromatischen Geschmack. Nachteile: Hitzeempfindliche Nährstoffe gehen verloren. Und der Energieeinsatz ist hoch, weil der ganze Garraum geheizt wird.\n\nMERKE: Nutze den Garraum aus, zum Beispiel mit Umluft auf mehreren Ebenen. Backe mehrere Kuchen hintereinander. Heize den Ofen nicht für einen einzigen Kuchen auf.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥧 Was ist Backen?",
+        "options": [
+          { "text": "Garen unter leichter oder stärkerer Bräunung in heißer, meist trockener Luft.", "correct": true },
+          { "text": "Garen in viel heißem Fett, das das ganze Gebäck von allen Seiten ganz bedeckt." },
+          { "text": "Garen im strömenden Wasserdampf, ganz ohne jede Bräunung der Oberfläche." }
+        ],
+        "explanation": "Beim Backen gart das Gebäck in heißer, meist trockener Luft. Dabei wird es leicht oder stärker braun. Viel heißes Fett wäre Frittieren. Wasserdampf wäre Dämpfen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌡️ Backen: 150 bis ___ °C. Welche Zahl fehlt?",
+        "answer": 250,
+        "hint": "Es ist 100 Grad mehr als 150.",
+        "explanation": "Gebacken wird bei 150 bis 250 °C. Welche Temperatur genau, hängt vom Gebäck und vom Gerät ab."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🌡️ Welche Backtemperatur passt? Verbinde.",
+        "pairs": [
+          { "left": {"text": "🥐 Teige"}, "right": {"text": "160 bis 225 °C"} },
+          { "left": {"text": "🥔 Auflauf aus rohen Zutaten"}, "right": {"text": "200 bis 225 °C"} },
+          { "left": {"text": "🍝 Auflauf aus gegarten Zutaten"}, "right": {"text": "200 bis 250 °C"} }
+        ],
+        "memory": false,
+        "explanation": "Teige beginnen schon bei 160 °C. Aufläufe backst du heißer, ab 200 °C. Sind die Zutaten schon gegart, darf es bis 250 °C heiß werden. Dann soll der Auflauf vor allem noch bräunen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌀 Im Rezept steht: 180 °C Ober- und Unterhitze. Du backst mit Umluft. Welche Temperatur stellst du ein?",
+        "options": [
+          { "text": "Etwa 160 °C.", "correct": true },
+          { "text": "Etwa 200 °C." },
+          { "text": "Genau 180 °C." }
+        ],
+        "explanation": "Mit Umluft backst du etwa 20 °C niedriger als mit Ober- und Unterhitze. 180 minus 20 sind 160 °C."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏭 Im Kombidämpfer backst du bis zu wie viel Grad niedriger als mit Ober- und Unterhitze?",
+        "answer": 30,
+        "hint": "Bei Umluft sind es 20 Grad weniger. Im Kombidämpfer sind es noch 10 Grad mehr.",
+        "explanation": "Im Kombidämpfer backst du bis zu 30 °C niedriger als mit Ober- und Unterhitze. Bei Umluft sind es etwa 20 °C."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Warum machst du beim Backen immer eine Garprobe?",
+        "options": [
+          { "text": "Die Backzeit im Rezept ist nur eine Circa-Angabe.", "correct": true },
+          { "text": "Die Garprobe macht den Kuchen lockerer und höher." },
+          { "text": "Die Garprobe verhindert, dass Acrylamid entsteht." }
+        ],
+        "explanation": "Jeder Ofen backt etwas anders. Darum ist die Backzeit im Rezept nur ungefähr. Mit dem Holzstäbchen prüfst du: Bleibt kein Teig hängen, ist das Gebäck gar."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚠️ Warum bräunst du Gebäck nicht zu stark?",
+        "options": [
+          { "text": "Wegen der Stärke kann Acrylamid entstehen.", "correct": true },
+          { "text": "Das Gebäck fällt sonst in der Mitte zusammen." },
+          { "text": "Das Gebäck wird sonst viel zu süß und klebrig." }
+        ],
+        "explanation": "Gebäck enthält Stärke. Wird es zu stark gebräunt, kann Acrylamid entstehen. Acrylamid ist krebserregend und erbgutschädigend. Darum backst du nur so braun wie nötig."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥔 Kann bei diesen stärkehaltigen Lebensmitteln Acrylamid entstehen? Sortiere.",
+        "buckets": [
+          { "id": "ja", "label": "Ja, Acrylamid möglich", "icon": "⚠️" },
+          { "id": "nein", "label": "Nein", "icon": "✅" }
+        ],
+        "items": [
+          { "text": "Pommes frittieren", "bucket": "ja" },
+          { "text": "Brot backen", "bucket": "ja" },
+          { "text": "Kartoffelgratin überbacken", "bucket": "ja" },
+          { "text": "Bratkartoffeln braten", "bucket": "ja" },
+          { "text": "Kartoffelscheiben grillen", "bucket": "ja" },
+          { "text": "Kartoffeln kochen", "bucket": "nein" },
+          { "text": "Kartoffeln dämpfen", "bucket": "nein" }
+        ],
+        "explanation": "Frag dich: Wird das Lebensmittel braun? Beim Braten, Backen, Überbacken, Grillen und Frittieren bräunt es. Dann kann bei stärkehaltigen Lebensmitteln Acrylamid entstehen. Beim Kochen und Dämpfen wird nichts braun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍑 Du backst einen saftigen Pflaumenkuchen. Was beachtest du?",
+        "options": [
+          { "text": "In der Fettpfanne backen, damit kein Saft in den Ofen läuft.", "correct": true },
+          { "text": "Direkt auf dem Rost backen, damit mehr Luft an den Boden kommt." },
+          { "text": "Mit der Grillstufe backen, damit der Obstsaft schnell verdampft." }
+        ],
+        "explanation": "Obstkuchen geben Saft ab. Läuft er in den Garraum, brennt er an. Darum backst du Pflaumen- oder Rhabarberkuchen mit Schiene oder in der Fettpfanne. Das spart dir das Reinigen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Backen braucht viel Energie, weil der ganze Garraum geheizt wird. Wie sparst du Energie?",
+        "options": [
+          { "text": "Mehrere Kuchen hintereinander backen und Umluft auf mehreren Ebenen nutzen.", "correct": true },
+          { "text": "Für jeden einzelnen Kuchen den Ofen am Morgen noch einmal neu aufheizen." },
+          { "text": "Die Ofentür beim Backen öfter öffnen, damit sich die Hitze besser verteilen kann." }
+        ],
+        "explanation": "Nutze den Garraum aus. Mit Umluft backst du auf mehreren Ebenen gleichzeitig. Und backe mehrere Kuchen hintereinander, statt den Ofen für einen einzigen Kuchen aufzuheizen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Welche Aussage über das Backen stimmt?",
+        "options": [
+          { "text": "Röststoffe geben Aroma, aber hitzeempfindliche Nährstoffe gehen verloren.", "correct": true },
+          { "text": "Backen spart viel Energie, weil im Ofen nur das Blech heiß werden muss." },
+          { "text": "Backen erhält alle Vitamine, weil die heiße Luft im Ofen ganz trocken ist." }
+        ],
+        "explanation": "Röststoffe und Kruste machen Gebackenes besonders aromatisch. Aber hitzeempfindliche Nährstoffe gehen verloren. Und der Energieeinsatz ist hoch, weil der ganze Garraum geheizt wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥖 Was kannst du backen?",
+        "options": [
+          { "text": "Kuchen, Brote, Brötchen und Pasteten.", "correct": true },
+          { "text": "Suppen, klare Brühen und Apfelkompott." },
+          { "text": "Eier in der Schale und Teigwaren." }
+        ],
+        "explanation": "Du backst Kuchen, süßes und salziges Kleingebäck, Brote, Brötchen, süße und salzige Aufläufe und Pasteten. Suppen, Eier und Teigwaren kochst du."
+      }
+    }
+  ]
+}

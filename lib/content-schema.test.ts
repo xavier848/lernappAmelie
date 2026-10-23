@@ -382,6 +382,31 @@ describe("exerciseSchema: budget", () => {
   });
 });
 
+describe("exerciseSchema: number_input", () => {
+  const zeit = (answer: number) => ({
+    type: "number_input",
+    data: { prompt: "Wann kommt der Zug an?", answer, format: "uhrzeit" },
+  });
+
+  it("akzeptiert eine Zahl-Aufgabe ohne format", () => {
+    const result = exerciseSchema.safeParse({
+      type: "number_input",
+      data: { prompt: "34 + 3 + 7 + 8 = ?", answer: 52 },
+    });
+    expect(result.success).toBe(true);
+  });
+
+  it("akzeptiert eine Uhrzeit als HHMM", () => {
+    expect(exerciseSchema.safeParse(zeit(839)).success).toBe(true);
+    expect(exerciseSchema.safeParse(zeit(2359)).success).toBe(true);
+  });
+
+  it("lehnt Uhrzeiten mit mehr als 59 Minuten oder nach 23:59 ab", () => {
+    expect(exerciseSchema.safeParse(zeit(875)).success).toBe(false);
+    expect(exerciseSchema.safeParse(zeit(2400)).success).toBe(false);
+  });
+});
+
 describe("exerciseSchema: allgemein", () => {
   it("lehnt unbekannten Uebungstyp ab", () => {
     const ex = { type: "drag_and_drop", data: { prompt: "Zieh mich." } };
