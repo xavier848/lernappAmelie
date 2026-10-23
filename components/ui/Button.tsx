@@ -15,10 +15,13 @@ export type ButtonProps = {
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
 const VARIANT_CLASSES: Record<ButtonVariant, string> = {
-  primary: "bg-primary text-white border-primary-dark",
-  secondary: "bg-white text-primary-dark border-2 border-primary",
-  success: "bg-success text-white border-success-dark",
-  warning: "bg-warning text-white border-warning-dark",
+  // Gesperrt: grau wie gesperrte Lektionen statt blass-tuerkis. So sieht
+  // Amelie klar, dass der Knopf noch nicht geht (z. B. "Prüfen" ohne Antwort).
+  primary:
+    "bg-primary text-white border-primary-dark disabled:bg-locked disabled:text-ink/45 disabled:border-slate-300",
+  secondary: "bg-white text-primary-dark border-2 border-primary disabled:opacity-50",
+  success: "bg-success text-white border-success-dark disabled:opacity-50",
+  warning: "bg-warning text-white border-warning-dark disabled:opacity-50",
 };
 
 const SIZE_CLASSES: Record<ButtonSize, string> = {
@@ -41,7 +44,7 @@ export function Button({
       className={cn(
         "inline-flex cursor-pointer items-center justify-center gap-2 rounded-2xl border-b-4 font-bold transition-transform select-none",
         "active:translate-y-1 active:border-b-0",
-        "disabled:cursor-not-allowed disabled:opacity-50 disabled:active:translate-y-0 disabled:active:border-b-4",
+        "disabled:cursor-not-allowed disabled:active:translate-y-0 disabled:active:border-b-4",
         VARIANT_CLASSES[variant],
         SIZE_CLASSES[size],
         full && "w-full",
