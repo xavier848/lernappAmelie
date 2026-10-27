@@ -1,0 +1,297 @@
+{
+  "topic_slug": "pruefung-wahrnehmung",
+  "slug": "pruefung-wahrnehmung-09-was-passt-15-saetze",
+  "title": "Was passt? Subjektiv oder objektiv",
+  "sort": 9,
+  "intro": "Wahrnehmung, also subjektiv, ist eine persönliche Empfindung. Jeder Mensch kann etwas anders wahrnehmen. Typische Wörter sind: ich finde, ich habe das Gefühl, ich denke, wirkt, angenehm, besonders gut, zu laut.\n\nBeobachtung, also objektiv, ist eine sachliche Beschreibung. Wir sagen nur, was wir sehen oder hören. Zum Beispiel: gähnt mehrmals, sitzt allein am Tisch, lächelt.\n\nBei subjektiven Sätzen fragst du auch: Wessen Sicht ist das?\n\nAus eigener Personensicht: Ich selbst sage, wie ich etwas wahrnehme. Zum Beispiel: „Ich finde, es ist hier zu laut.“\n\nAus Sicht der Person: Die betreute Person sagt selbst, wie es ihr geht. Zum Beispiel sagt Frau Müller: „Mir ist kalt.“ Das ist ihre Empfindung.\n\nMERKE: Kann jeder genau das Gleiche sehen oder hören, ist es objektiv. Steckt ein Gefühl, eine Deutung oder eine Bewertung drin, ist es subjektiv.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Subjektiv oder objektiv? Sortiere die Sätze 1 bis 8.",
+        "buckets": [
+          {
+            "id": "subjektiv",
+            "label": "subjektiv: Wahrnehmung",
+            "icon": "💭"
+          },
+          {
+            "id": "objektiv",
+            "label": "objektiv: Beobachtung",
+            "icon": "🔍"
+          }
+        ],
+        "items": [
+          {
+            "text": "Frau Müller wirkt heute müde.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Frau Müller gähnt mehrmals.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Der Raum riecht angenehm.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Das Essen schmeckt heute besonders gut.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Herr Meier sitzt allein am Tisch.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Ich finde, es ist hier zu laut.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Frau Schmidt lächelt und schaut mich an.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Ich habe das Gefühl, Herr Becker ist traurig.",
+            "bucket": "subjektiv"
+          }
+        ],
+        "explanation": "Frag dich bei jedem Satz: Kann jeder genau das Gleiche sehen oder hören? Dann ist er objektiv. Steckt eine Deutung wie „wirkt“ oder eine Bewertung wie „angenehm“ drin? Dann ist er subjektiv."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Subjektiv oder objektiv? Sortiere die Sätze 9 bis 15.",
+        "buckets": [
+          {
+            "id": "subjektiv",
+            "label": "subjektiv: Wahrnehmung",
+            "icon": "💭"
+          },
+          {
+            "id": "objektiv",
+            "label": "objektiv: Beobachtung",
+            "icon": "🔍"
+          }
+        ],
+        "items": [
+          {
+            "text": "Herr Becker sitzt mit hängenden Schultern.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Die Musik ist angenehm.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Ich fühle mich unwohl in der Situation.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Frau Müller sagt: „Mir ist kalt.“",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Die Kleidung von Frau Müller riecht nach Rauch.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Ich denke, Herr Meier ist unzufrieden.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Herr Meier sagt laut: „Das gefällt mir nicht.“",
+            "bucket": "subjektiv"
+          }
+        ],
+        "explanation": "Achte auf Gefühle und Meinungen. „Mir ist kalt“ und „Das gefällt mir nicht“ sind Empfindungen der Person, also subjektiv. Hängende Schultern und Rauchgeruch kann jeder genauso sehen und riechen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Alle Sätze sind subjektiv. Wessen Sicht ist es?",
+        "buckets": [
+          {
+            "id": "person",
+            "label": "aus Sicht der Person",
+            "icon": "👵"
+          },
+          {
+            "id": "eigen",
+            "label": "aus eigener Personensicht",
+            "icon": "🙋‍♀️"
+          }
+        ],
+        "items": [
+          {
+            "text": "Frau Müller sagt: „Mir ist kalt.“",
+            "bucket": "person"
+          },
+          {
+            "text": "Herr Meier sagt laut: „Das gefällt mir nicht.“",
+            "bucket": "person"
+          },
+          {
+            "text": "Frau Schmidt sagt: „Ich finde, es riecht hier unangenehm.“",
+            "bucket": "person"
+          },
+          {
+            "text": "Ich finde, es ist hier zu laut.",
+            "bucket": "eigen"
+          },
+          {
+            "text": "Ich habe das Gefühl, Herr Becker ist traurig.",
+            "bucket": "eigen"
+          },
+          {
+            "text": "Ich fühle mich unwohl in der Situation.",
+            "bucket": "eigen"
+          },
+          {
+            "text": "Ich denke, Herr Meier ist unzufrieden.",
+            "bucket": "eigen"
+          },
+          {
+            "text": "Frau Müller wirkt heute müde.",
+            "bucket": "eigen"
+          }
+        ],
+        "explanation": "Frag dich: Wer spricht über sich selbst? Sagt die betreute Person, wie es ihr geht, ist es aus Sicht der Person. Sage ich, wie ich etwas finde oder deute, ist es aus eigener Personensicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😴 Vergleiche: „Frau Müller wirkt heute müde.“ und „Frau Müller gähnt mehrmals.“ Was stimmt?",
+        "options": [
+          {
+            "text": "Der erste Satz ist subjektiv, der zweite objektiv.",
+            "correct": true
+          },
+          {
+            "text": "Beide Sätze sind objektiv."
+          },
+          {
+            "text": "Der erste Satz ist objektiv, der zweite subjektiv."
+          }
+        ],
+        "explanation": "„Wirkt müde“ ist deine Deutung. „Gähnt mehrmals“ kann jeder sehen. Darum ist der erste Satz subjektiv und der zweite objektiv."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧣 Was passt? Frau Müller sagt: „Mir ist kalt.“",
+        "options": [
+          {
+            "text": "Subjektiv, aus Sicht der Person",
+            "correct": true
+          },
+          {
+            "text": "Objektiv, aus eigener Personensicht"
+          },
+          {
+            "text": "Subjektiv, aus eigener Personensicht"
+          }
+        ],
+        "explanation": "Kalt ist die Empfindung von Frau Müller. Sie sagt es selbst über sich. Darum ist es subjektiv und aus Sicht der Person."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔊 Was passt? „Ich finde, es ist hier zu laut.“",
+        "options": [
+          {
+            "text": "Subjektiv, aus eigener Personensicht",
+            "correct": true
+          },
+          {
+            "text": "Objektiv, aus Sicht der Person"
+          },
+          {
+            "text": "Subjektiv, aus Sicht der Person"
+          }
+        ],
+        "explanation": "„Ich finde“ zeigt: Das ist deine eigene Bewertung. Darum ist es subjektiv und aus eigener Personensicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚬 Was stimmt? „Die Kleidung von Frau Müller riecht nach Rauch.“",
+        "options": [
+          {
+            "text": "Objektiv, denn der Satz bewertet nicht.",
+            "correct": true
+          },
+          {
+            "text": "Subjektiv, denn Gerüche sind immer persönlich."
+          },
+          {
+            "text": "Subjektiv, denn Rauch ist unangenehm."
+          }
+        ],
+        "explanation": "Der Satz sagt nur, was du riechst. Er bewertet nicht. Würdest du sagen „riecht eklig“, wäre es subjektiv."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌸 Welches Wort macht den Satz subjektiv? „Der Raum riecht angenehm.“",
+        "options": [
+          {
+            "text": "angenehm",
+            "correct": true
+          },
+          {
+            "text": "Raum"
+          },
+          {
+            "text": "riecht"
+          }
+        ],
+        "explanation": "„Angenehm“ ist eine Bewertung. Was du angenehm findest, findet jemand anderes vielleicht unangenehm. Ohne dieses Wort wäre der Satz eine sachliche Beschreibung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Was ist das? „Herr Becker sitzt mit hängenden Schultern.“",
+        "options": [
+          {
+            "text": "Eine objektive Beobachtung",
+            "correct": true
+          },
+          {
+            "text": "Eine subjektive Wahrnehmung"
+          },
+          {
+            "text": "Ein Wahrnehmungsfehler"
+          }
+        ],
+        "explanation": "Hängende Schultern kann jeder sehen. Der Satz beschreibt ohne Bewertung. Ob Herr Becker traurig ist, weißt du damit noch nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was stimmt? „Das Essen schmeckt heute besonders gut.“",
+        "options": [
+          {
+            "text": "Subjektiv, denn „besonders gut“ ist eine Bewertung.",
+            "correct": true
+          },
+          {
+            "text": "Objektiv, denn Geschmack ist für alle gleich."
+          },
+          {
+            "text": "Objektiv, denn es ist eine Tatsache über das Essen."
+          }
+        ],
+        "explanation": "Geschmack ist persönlich. Was dir besonders gut schmeckt, mag jemand anderes vielleicht nicht. Darum ist der Satz subjektiv."
+      }
+    }
+  ]
+}

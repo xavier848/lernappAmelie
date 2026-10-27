@@ -1,0 +1,272 @@
+{
+  "topic_slug": "pruefung-wahrnehmung",
+  "slug": "pruefung-wahrnehmung-04-sinne-alltag-koerper-gefuehle",
+  "title": "Sinne im Alltag, Körper und Gefühle",
+  "sort": 4,
+  "intro": "Im Alltag arbeiten oft mehrere Sinne zusammen. Bei einer warmen Suppe schmeckst du die Suppe, du riechst sie und du fühlst die Wärme.\n\nSehen: Wir nehmen Formen, Farben, Größen und Bewegungen wahr. Beispiele: hell und dunkel, Farben, die Umwelt.\n\nRiechen: Wir nehmen verschiedene Gerüche wahr. Beispiele: Parfum, Gewürze, Rauch, Grill, Kuchen.\n\nSchmecken: Wir nehmen verschiedene Geschmacksrichtungen wahr. Beispiele: süß, sauer, salzig.\n\nHören: Wir nehmen Geräusche und Klänge wahr. Beispiele: Musik, laut und leise, Stimmen, Verkehrslärm.\n\nFühlen: Wir nehmen Oberflächen, Temperaturen und Druck wahr. Beispiele: glatt und weich, hart und rau, heiß und kalt.\n\nKörperwahrnehmung: Wir nehmen unseren eigenen Körper wahr. Wir spüren zum Beispiel Spannung, Bewegung, Atmung, Herzschlag und unsere Körperlage.\n\nGefühlswahrnehmung: Wir nehmen unsere Gefühle wahr. Zum Beispiel Freude, Angst, Trauer oder Ärger.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Du isst eine warme Suppe. Welche Sinne sind beteiligt?",
+        "options": [
+          {
+            "text": "Schmecken, Riechen und Fühlen",
+            "correct": true
+          },
+          {
+            "text": "Nur Schmecken mit der Zunge"
+          },
+          {
+            "text": "Nur Riechen mit der Nase"
+          }
+        ],
+        "explanation": "Du schmeckst die Suppe mit der Zunge. Du riechst sie mit der Nase. Und du fühlst die Wärme im Mund. Darum sind mehrere Sinne beteiligt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welcher Sinn ist das? Sortiere die Beispiele.",
+        "buckets": [
+          {
+            "id": "riechen",
+            "label": "Riechen",
+            "icon": "👃"
+          },
+          {
+            "id": "hoeren",
+            "label": "Hören",
+            "icon": "👂"
+          },
+          {
+            "id": "fuehlen",
+            "label": "Fühlen",
+            "icon": "✋"
+          }
+        ],
+        "items": [
+          {
+            "text": "Parfum",
+            "bucket": "riechen"
+          },
+          {
+            "text": "Gewürze",
+            "bucket": "riechen"
+          },
+          {
+            "text": "Kuchenduft",
+            "bucket": "riechen"
+          },
+          {
+            "text": "Verkehrslärm",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "Stimmen",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "Musik",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "Heiß und kalt",
+            "bucket": "fuehlen"
+          },
+          {
+            "text": "Hart und rau",
+            "bucket": "fuehlen"
+          }
+        ],
+        "explanation": "Frag dich bei jedem Beispiel: Nehme ich das mit der Nase, mit den Ohren oder mit der Haut wahr?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧊 Eine Hand berührt einen Eiswürfel. Welcher Sinn spürt die Kälte?",
+        "options": [
+          {
+            "text": "Fühlen und Tasten über die Haut",
+            "correct": true
+          },
+          {
+            "text": "Sehen und Erkennen mit den Augen"
+          },
+          {
+            "text": "Hören und Lauschen mit den Ohren"
+          }
+        ],
+        "explanation": "Kälte und Wärme spürst du mit der Haut. Das ist der Sinn Fühlen und Tasten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫀 Du spürst deinen Herzschlag und deine Atmung. Wie heißt diese Wahrnehmung?",
+        "options": [
+          {
+            "text": "Körperwahrnehmung",
+            "correct": true
+          },
+          {
+            "text": "Gefühlswahrnehmung"
+          },
+          {
+            "text": "Beobachtung"
+          }
+        ],
+        "explanation": "Herzschlag und Atmung passieren in deinem Körper. Wenn du deinen eigenen Körper wahrnimmst, heißt das Körperwahrnehmung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Du merkst: Ich freue mich gerade. Wie heißt diese Wahrnehmung?",
+        "options": [
+          {
+            "text": "Gefühlswahrnehmung",
+            "correct": true
+          },
+          {
+            "text": "Körperwahrnehmung"
+          },
+          {
+            "text": "Reizweiterleitung"
+          }
+        ],
+        "explanation": "Freude ist ein Gefühl. Wenn du deine Gefühle wahrnimmst, heißt das Gefühlswahrnehmung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Körper oder Gefühl? Sortiere.",
+        "buckets": [
+          {
+            "id": "koerper",
+            "label": "Körperwahrnehmung",
+            "icon": "🧍"
+          },
+          {
+            "id": "gefuehl",
+            "label": "Gefühlswahrnehmung",
+            "icon": "😊"
+          }
+        ],
+        "items": [
+          {
+            "text": "Spannung",
+            "bucket": "koerper"
+          },
+          {
+            "text": "Atmung",
+            "bucket": "koerper"
+          },
+          {
+            "text": "Herzschlag",
+            "bucket": "koerper"
+          },
+          {
+            "text": "Körperlage",
+            "bucket": "koerper"
+          },
+          {
+            "text": "Freude",
+            "bucket": "gefuehl"
+          },
+          {
+            "text": "Angst",
+            "bucket": "gefuehl"
+          },
+          {
+            "text": "Trauer",
+            "bucket": "gefuehl"
+          },
+          {
+            "text": "Ärger",
+            "bucket": "gefuehl"
+          }
+        ],
+        "explanation": "Frag dich: Spüre ich etwas in meinem Körper? Dann ist es Körperwahrnehmung. Ist es ein Gefühl wie froh, traurig oder wütend? Dann ist es Gefühlswahrnehmung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧍 Was spürst du bei der Körperwahrnehmung?",
+        "options": [
+          {
+            "text": "Spannung, Bewegung und Körperlage",
+            "correct": true
+          },
+          {
+            "text": "Freude, Angst, Trauer und Ärger"
+          },
+          {
+            "text": "Farben, Formen, Größen und Licht"
+          }
+        ],
+        "explanation": "Bei der Körperwahrnehmung spürst du deinen eigenen Körper: Spannung, Bewegung, Atmung, Herzschlag und deine Körperlage. Freude und Angst sind Gefühle. Farben und Formen siehst du."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌗 Du merkst, ob ein Raum hell oder dunkel ist. Welcher Sinn ist das?",
+        "options": [
+          {
+            "text": "Sehen",
+            "correct": true
+          },
+          {
+            "text": "Fühlen"
+          },
+          {
+            "text": "Hören"
+          }
+        ],
+        "explanation": "Hell und dunkel nimmst du mit den Augen wahr. Mit den Augen siehst du auch Formen, Farben, Größen und Bewegungen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Was nehmen wir mit der Haut wahr?",
+        "options": [
+          {
+            "text": "Oberflächen, Temperaturen und Druck",
+            "correct": true
+          },
+          {
+            "text": "Geräusche, Klänge und Stimmen"
+          },
+          {
+            "text": "Gerüche, Düfte und Gewürze"
+          }
+        ],
+        "explanation": "Mit der Haut fühlst du, ob etwas glatt, rau, heiß oder kalt ist. Und du spürst Druck. Geräusche hörst du, Gerüche riechst du."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍋 Welcher Sinn ist das? „Eine Zitrone schmeckt sauer.“",
+        "options": [
+          {
+            "text": "Schmecken",
+            "correct": true
+          },
+          {
+            "text": "Riechen"
+          },
+          {
+            "text": "Fühlen"
+          }
+        ],
+        "explanation": "Sauer ist eine Geschmacksrichtung. Geschmack nimmst du mit der Zunge wahr. Das ist der Sinn Schmecken."
+      }
+    }
+  ]
+}
