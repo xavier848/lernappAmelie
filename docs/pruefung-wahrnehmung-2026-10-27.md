@@ -2,6 +2,8 @@
 
 Amelie schreibt nach den Herbstferien eine Schulaufgabe über diese Themen. Mama hat dafür 14 Blätter geschickt, die sie mit ChatGPT erstellt hat: 9 Lernplakate und 7 Quizblätter mit zusammen 100 Fragen. Daraus ist das Thema `pruefung-wahrnehmung` entstanden, mit 15 Lektionen und 156 Übungen. Es enthält nur Mamas Stoff und ist nicht mit den Themen „Wahrnehmung verstehen“ und „Beobachten lernen“ gemischt.
 
+Am selben Abend kam ein 15. Blatt dazu: „Hof-Effekt und Logischer Fehler“ mit Lernplakat, 12 Quizfragen und Lösungsblatt. Daraus sind die Lektionen 16 und 17 entstanden. Zusammen sind es jetzt 17 Lektionen mit 173 Übungen.
+
 ## Was Mama sich gewünscht hat und wie die App das umsetzt
 
 | Wunsch | Umsetzung |
@@ -27,11 +29,26 @@ Amelie schreibt nach den Herbstferien eine Schulaufgabe über diese Themen. Mama
 13. Welcher Wahrnehmungsfehler passt?
 14. Der erste Eindruck: Primäreffekt
 15. Halo-Effekt und die Folgen
+16. Hof-Effekt oder logischer Fehler? (15. Blatt)
+17. Arten von logischen Fehlern (15. Blatt)
 
-Die Lektionen sind zweimal unabhängig geprüft worden:
+Die Lektionen 1–15 sind zweimal unabhängig geprüft worden:
 
 - **Fachlich:** gegen die Originalbilder.
 - **Didaktisch und sprachlich:** Leichte Sprache, keine verratenen Lösungen beim zweiten Versuch, keine Antwort, die man nur an ihrer Form erkennt.
+
+Die Lektionen 16 und 17 sind einmal unabhängig geprüft worden, fachlich und didaktisch zusammen. Alle 14 Befunde sind eingearbeitet.
+
+## Lektionen 16 und 17 (15. Blatt)
+
+- Die Lösungen stehen auf dem Blatt. Die App übernimmt sie.
+- Quizfrage 4 heißt in der App „Zweimal hatte mein Bus Verspätung“, wegen der Zeitform.
+- Auf dem Blatt steht „Also“ nur bei den logischen Fehlern. Damit Amelie nicht nach dem Bindewort sortiert, heißt es in der App bei Quizfrage 5 und 7 „Also“ und bei Quizfrage 12 „Deshalb“. Der Sinn bleibt gleich.
+- Für „falscher Vergleich“ hat das Blatt kein Beispiel. Die App nutzt eigene Beispiele: Schwester, Freundin mit Musik, Tabletten bei Herrn Kurz und Frau Weber.
+- Die Arten von logischen Fehlern können sich überschneiden. „Also ist Schokolade gesund“ ist auch eine Verallgemeinerung, das Lösungsblatt nennt es aber falsche Ursache. Die App lehrt deshalb eine feste Reihenfolge beim Prüfen:
+  1. Werden zwei Menschen oder Dinge verglichen? Dann ist es ein falscher Vergleich.
+  2. Soll eine Sache etwas anderes bewirken? Dann ist es eine falsche Ursache.
+  3. Wird aus einmal ein immer oder ein alle? Dann ist es eine Verallgemeinerung.
 
 ## Quizfragen, die auf den Blättern nicht eindeutig sind
 
