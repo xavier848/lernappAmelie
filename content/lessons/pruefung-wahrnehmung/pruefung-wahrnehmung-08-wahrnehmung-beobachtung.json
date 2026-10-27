@@ -66,7 +66,7 @@
             "bucket": "b"
           }
         ],
-        "explanation": "Frag dich: Passiert es von allein und hängt von meinen Gefühlen ab? Dann ist es Wahrnehmung. Achte ich gezielt und sachlich hin, ohne zu bewerten? Dann ist es Beobachtung."
+        "explanation": "Denk an die zwei Beispiele vom Plakat: „Ich habe das Gefühl, Frau Müller ist traurig.“ und „Frau Müller sitzt allein, spricht wenig und weint.“ Zu welchem Beispiel passt das Merkmal?"
       }
     },
     {
@@ -107,7 +107,7 @@
             "bucket": "objektiv"
           }
         ],
-        "explanation": "Frag dich: Kann jeder genau das Gleiche sehen oder hören? Dann ist es objektiv. Steckt ein Gefühl oder eine Bewertung drin, wie „ich habe das Gefühl“ oder „viel zu laut“? Dann ist es subjektiv."
+        "explanation": "Frag dich zuerst: Steckt ein Gefühl, eine Meinung oder eine Deutung drin? Dann ist es subjektiv. Beschreibt der Satz nur, was jeder sehen oder hören kann? Dann ist es objektiv."
       }
     },
     {
@@ -145,13 +145,13 @@
             "text": "Beobachtung ist immer subjektiv und persönlich."
           }
         ],
-        "explanation": "Wahrnehmung ist subjektiv und Beobachtung ist objektiv. Die anderen Sätze haben es genau vertauscht. Und ja: Erfahrungen beeinflussen unsere Wahrnehmung."
+        "explanation": "Wahrnehmung ist nicht immer objektiv. Meist ist sie subjektiv, denn Erfahrungen und Gefühle beeinflussen sie. Beobachtung ist möglichst sachlich, also nicht subjektiv. Darum stimmt nur der Satz über die Erfahrungen."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👵 Frau Schmidt sagt: „Ich finde, es riecht hier unangenehm.“ Welcher Unterschied wird beschrieben?",
+        "prompt": "👵 Welcher Unterschied wird beschrieben? Frau Schmidt sagt: „Ich finde, es riecht hier unangenehm.“",
         "options": [
           {
             "text": "Wahrnehmung, aus Sicht der Person",
@@ -162,9 +162,12 @@
           },
           {
             "text": "Beobachtung, aus eigener Personensicht"
+          },
+          {
+            "text": "Wahrnehmung, aus eigener Personensicht"
           }
         ],
-        "explanation": "„Ich finde“ zeigt: Das ist eine persönliche Empfindung, also Wahrnehmung. Frau Schmidt spricht über sich selbst. Darum ist es aus Sicht der Person."
+        "explanation": "„Ich finde“ zeigt: Das ist eine persönliche Empfindung, also Wahrnehmung. Den Satz sagt Frau Schmidt, nicht du. Darum ist es aus Sicht der Person."
       }
     },
     {
@@ -173,11 +176,11 @@
         "prompt": "🩺 Wozu brauchst du in der Personenbetreuung genaue Beobachtung?",
         "options": [
           {
-            "text": "Damit ich Veränderungen wie Schmerzen oder Angst erkenne.",
+            "text": "Damit ich Veränderungen wie Schmerzen, Unwohlsein oder Angst erkenne.",
             "correct": true
           },
           {
-            "text": "Damit ich schneller mit der Arbeit fertig werde."
+            "text": "Damit ich schneller mit meiner Arbeit fertig werde."
           },
           {
             "text": "Damit ich schnell über die Person urteilen kann."
@@ -192,17 +195,17 @@
         "prompt": "⚠️ Du hast das Gefühl, Herr Becker ist schlecht gelaunt. Was ist richtig?",
         "options": [
           {
-            "text": "Ich halte mein Gefühl nicht automatisch für eine Tatsache und beobachte genau.",
+            "text": "Ich prüfe mein Gefühl und beobachte genau.",
             "correct": true
           },
           {
-            "text": "Mein Gefühl stimmt immer. Ich schreibe auf: Herr Becker ist schlecht gelaunt."
+            "text": "Ich schreibe in die Doku: Herr Becker ist schlecht gelaunt."
           },
           {
             "text": "Ich urteile sofort und frage nicht nach."
           }
         ],
-        "explanation": "Dein Gefühl ist eine Wahrnehmung, also subjektiv. Es kann stimmen, muss aber nicht. Darum beobachtest du genau, was Herr Becker wirklich macht."
+        "explanation": "Dein Gefühl ist eine Wahrnehmung, also subjektiv. Es kann stimmen, muss aber nicht. Darum beobachtest du genau, was Herr Becker wirklich macht. Erst das schreibst du auf."
       }
     },
     {
@@ -222,6 +225,25 @@
           }
         ],
         "explanation": "Eine Beobachtung beschreibt nur, was du siehst oder hörst. Sitzen, wenig sprechen und weinen kann jeder sehen. „Traurig“ und „beleidigt“ sind deine Deutung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Was ist daran nicht gut? Lena schreibt in die Pflege-Doku: „Herr Kurz ist heute schlecht drauf.“",
+        "options": [
+          {
+            "text": "Das ist eine Deutung, keine Beobachtung.",
+            "correct": true
+          },
+          {
+            "text": "Nichts. Das ist eine sachliche Beobachtung."
+          },
+          {
+            "text": "Sie hätte „Ich finde“ davorschreiben müssen."
+          }
+        ],
+        "explanation": "„Schlecht drauf“ ist Lenas Deutung. In die Doku gehört, was sie sieht und hört. Zum Beispiel: Herr Kurz spricht heute wenig und isst nichts. Mit „Ich finde“ davor bleibt es eine Deutung."
       }
     },
     {

@@ -23,7 +23,7 @@
             "text": "Reaktion: Wir reagieren, zum Beispiel drehen wir uns um."
           }
         ],
-        "explanation": "Denk an den Weg des Reizes. Zuerst trifft er auf ein Sinnesorgan. Dann reist die Information über die Nerven. Im Gehirn bekommt sie eine Bedeutung. Erst danach kannst du reagieren."
+        "explanation": "Denk an den Weg des Reizes: von außen nach innen. Frag dich bei jeder Karte: Was muss vorher schon passiert sein? Handeln kannst du erst, wenn du weißt, was los ist."
       }
     },
     {
@@ -48,7 +48,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "👁️ Auf dem Quiz-Bild geht ein Pfeil vom Auge zum Gehirn. Was beschreibt diese Abbildung?",
+        "prompt": "👁️ ➡️ 🧠 Ein Pfeil geht vom Auge zum Gehirn. Was beschreibt dieses Bild?",
         "options": [
           {
             "text": "Reizweiterleitung",
@@ -70,23 +70,23 @@
         "prompt": "🔌 Was passiert bei der Reizweiterleitung?",
         "options": [
           {
-            "text": "Die Informationen werden über Nerven zum Gehirn weitergeleitet.",
+            "text": "Die Nerven bringen die Information zum Gehirn.",
             "correct": true
           },
           {
             "text": "Die Sinne nehmen den Reiz aus der Umwelt auf."
           },
           {
-            "text": "Das Gehirn reagiert sofort auf den Reiz."
+            "text": "Das Gehirn erkennt, was der Reiz bedeutet."
           }
         ],
-        "explanation": "Weiterleiten heißt: Die Information wird von einem Ort zum anderen gebracht. Die Nerven bringen sie vom Sinnesorgan zum Gehirn. Die Sinne nehmen den Reiz vorher auf, bei der Reizaufnahme."
+        "explanation": "Weiterleiten heißt: von einem Ort zum anderen bringen. Die Nerven bringen die Information zum Gehirn. Aufnehmen machen vorher die Sinne. Die Bedeutung erkennt danach das Gehirn."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "➡️ Was passiert nach der Reizaufnahme?",
+        "prompt": "➡️ Was passiert direkt nach der Reizaufnahme?",
         "options": [
           {
             "text": "Die Information wird über Nervenbahnen weitergeleitet.",
@@ -96,16 +96,16 @@
             "text": "Der Reiz wird sofort in eine Handlung umgesetzt."
           },
           {
-            "text": "Der Körper schläft."
+            "text": "Das Gehirn erkennt, was der Reiz bedeutet."
           }
         ],
-        "explanation": "Nach der Reizaufnahme kommt die Reizweiterleitung. Erst muss die Information beim Gehirn ankommen. Gehandelt wird erst ganz am Ende, bei der Reaktion."
+        "explanation": "Direkt nach der Reizaufnahme kommt die Reizweiterleitung. Die Bedeutung erkennt das Gehirn erst, wenn die Information angekommen ist. Du handelst erst ganz am Ende, bei der Reaktion."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧊 Eine Hand berührt einen Eiswürfel. Die Haut spürt die Kälte. Welcher Schritt der Wahrnehmung ist das?",
+        "prompt": "🧊 Eine Hand berührt einen Eiswürfel. Die Kälte trifft auf die Haut. Welcher Schritt der Wahrnehmung ist das?",
         "options": [
           {
             "text": "Reizaufnahme",
@@ -118,7 +118,7 @@
             "text": "Reaktion"
           }
         ],
-        "explanation": "Die Haut ist das Sinnesorgan. Sie nimmt den Reiz Kälte auf. Das ist Schritt 1, die Reizaufnahme. Verarbeitet wird der Reiz erst im Gehirn."
+        "explanation": "Die Haut ist das Sinnesorgan. Sie nimmt den Reiz Kälte auf. Das ist Schritt 1, die Reizaufnahme. Erst das Gehirn verarbeitet den Reiz."
       }
     },
     {
@@ -197,7 +197,56 @@
             }
           }
         ],
-        "explanation": "Achte auf das Wort im Schrittnamen: Aufnahme ist das Auge, Weiterleitung sind die Nerven, Verarbeitung ist das Gehirn. Reaktion heißt: Du tust etwas."
+        "explanation": "Frag dich bei jeder Karte: Wo passiert das gerade? Im Sinnesorgan, auf dem Weg oder im Gehirn? Oder tust du schon etwas? Dann such den passenden Schritt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Reiz oder Reaktion? Sortiere.",
+        "buckets": [
+          {
+            "id": "reiz",
+            "label": "Reiz",
+            "icon": "⚡"
+          },
+          {
+            "id": "reaktion",
+            "label": "Reaktion",
+            "icon": "🏃"
+          }
+        ],
+        "items": [
+          {
+            "text": "Das Telefon klingelt.",
+            "bucket": "reiz"
+          },
+          {
+            "text": "Es riecht nach Rauch.",
+            "bucket": "reiz"
+          },
+          {
+            "text": "Eine kalte Hand berührt dich.",
+            "bucket": "reiz"
+          },
+          {
+            "text": "Du gehst zum Telefon.",
+            "bucket": "reaktion"
+          },
+          {
+            "text": "Du denkst: Brennt es?",
+            "bucket": "reaktion"
+          },
+          {
+            "text": "Du bekommst Angst.",
+            "bucket": "reaktion"
+          },
+          {
+            "text": "Du ziehst die Hand weg.",
+            "bucket": "reaktion"
+          }
+        ],
+        "explanation": "Frag dich: Kommt es von außen auf dich zu? Dann ist es ein Reiz. Tust, denkst oder fühlst du danach selbst etwas? Dann ist es eine Reaktion."
       }
     },
     {
@@ -216,26 +265,7 @@
             "text": "Keine Reaktion, gar nichts"
           }
         ],
-        "explanation": "Auf eine Wahrnehmung reagieren wir. Wir denken etwas, wir fühlen etwas oder wir handeln. Zum Beispiel drehen wir uns um oder sprechen."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🏃 Was ist eine mögliche Reaktion auf einen Reiz?",
-        "options": [
-          {
-            "text": "Ein Gedanke, eine Bewegung oder ein Gefühl",
-            "correct": true
-          },
-          {
-            "text": "Nur eine Bewegung mit dem Körper, sonst nichts"
-          },
-          {
-            "text": "Nur ein Gedanke, aber nie ein Gefühl"
-          }
-        ],
-        "explanation": "Man kann auf verschiedene Arten reagieren. Du kannst etwas denken, etwas fühlen oder dich bewegen. Darum ist alles möglich."
+        "explanation": "Auf eine Wahrnehmung reagieren wir. Wir denken etwas, wir fühlen etwas oder wir handeln. Ein Gedanke, ein Gefühl oder eine Bewegung: alles ist möglich."
       }
     }
   ]

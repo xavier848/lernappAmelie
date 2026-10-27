@@ -3,12 +3,12 @@
   "slug": "pruefung-wahrnehmung-13-welcher-fehler-passt",
   "title": "Welcher Wahrnehmungsfehler passt?",
   "sort": 13,
-  "intro": "So erkennst du die Fehler an Beispielen.\n\nSympathiefehler: „Ich finde sie sympathisch, deshalb …“ Das Urteil kommt aus der Sympathie.\n\nPrimäreffekt: „Beim ersten Treffen …“ Das Urteil kommt aus dem ersten Eindruck.\n\nTendenz zur Mitte: „… meistens eine mittlere Note.“ Nicht zu gut und nicht zu schlecht.\n\nHof-Effekt: „Er ist sportlich, also auch …“ Eine Eigenschaft färbt das ganze Bild.\n\nLogischer Fehler: „Er hat einmal … Er ist bestimmt …“ Aus einer einzelnen Beobachtung wird ein vorschneller Schluss.\n\nWahrnehmungsfehler passieren überall: im Vorstellungsgespräch, beim ersten Treffen, beim Noten geben oder wenn du eine neue Person betreust.\n\nMERKE: So vermeidest du Wahrnehmungsfehler: Mach dir die Fehler bewusst. Beobachte bewusst und offen. Urteile nicht vorschnell.",
+  "intro": "So erkennst du die Fehler an Beispielen.\n\nSympathiefehler: Das Urteil kommt aus der Sympathie. Beispiel: „Ich finde sie sympathisch, deshalb …“\n\nPrimäreffekt: Das Urteil kommt aus dem ersten Eindruck. Beispiel: „Beim ersten Treffen …“\n\nTendenz zur Mitte: Nicht zu gut und nicht zu schlecht. Beispiel: „… meistens eine mittlere Note.“\n\nHof-Effekt: Eine Eigenschaft färbt das ganze Bild. Beispiel: „Er ist sportlich, also auch …“\n\nLogischer Fehler: Aus einer einzelnen Beobachtung wird ein vorschneller Schluss. Beispiel: „Er hat einmal …, also ist er bestimmt …“\n\nWahrnehmungsfehler passieren überall, wo wir Menschen beurteilen: im Vorstellungsgespräch, beim ersten Treffen, beim Notengeben oder wenn du eine neue Person betreust.\n\nMERKE: So vermeidest du Wahrnehmungsfehler: Mach dir die Fehler bewusst. Beobachte bewusst und offen. Urteile nicht vorschnell.",
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💗 Welcher Wahrnehmungsfehler passt zu diesem Beispiel? „Ich finde sie sympathisch, deshalb denke ich, sie ist auch sehr fleißig.“",
+        "prompt": "💬 Welcher Wahrnehmungsfehler passt zu diesem Beispiel? „Ich finde sie sympathisch, deshalb denke ich, sie ist auch sehr fleißig.“",
         "options": [
           {
             "text": "Sympathiefehler",
@@ -113,13 +113,13 @@
             "correct": true
           },
           {
-            "text": "Er kommt zu spät, also ist er unfreundlich."
+            "text": "Er kam einmal zu spät, also ist er unfreundlich."
           },
           {
             "text": "Sie ist sympathisch, also bekommt sie eine bessere Note."
           }
         ],
-        "explanation": "Beim Hof-Effekt färbt eine Eigenschaft, hier sportlich, das ganze Urteil. „Sie ist sympathisch, also eine bessere Note“ ist der Sympathiefehler. „Er kommt zu spät, also unfreundlich“ ist ein vorschneller Schluss aus einer Beobachtung."
+        "explanation": "Beim Hof-Effekt färbt eine Eigenschaft, hier sportlich, das ganze Urteil. „Er kam einmal zu spät, also unfreundlich“ ist ein vorschneller Schluss aus einer einzigen Beobachtung. Das ist ein logischer Fehler. „Sie ist sympathisch, also eine bessere Note“ ist der Sympathiefehler: Es geht um dein Gefühl, du magst die Person."
       }
     },
     {
@@ -149,7 +149,7 @@
             "bucket": "sym"
           },
           {
-            "text": "Er ist mir sympathisch, darum glaube ich ihm alles.",
+            "text": "Mit Tom verstehe ich mich super. Darum gebe ich ihm eine gute Note.",
             "bucket": "sym"
           },
           {
@@ -157,7 +157,7 @@
             "bucket": "pri"
           },
           {
-            "text": "Beim ersten Treffen war sie unfreundlich. Seitdem halte ich sie für unfreundlich, obwohl sie jetzt nett ist.",
+            "text": "Beim Einzug war Herr Ott laut. Für mich bleibt er der Laute.",
             "bucket": "pri"
           },
           {
@@ -165,11 +165,11 @@
             "bucket": "mit"
           },
           {
-            "text": "Ich kreuze immer „mittel“ an.",
+            "text": "Bei allen Bewohnern kreuze ich „geht so“ an.",
             "bucket": "mit"
           }
         ],
-        "explanation": "Achte auf die Schlüsselwörter: mögen oder sympathisch, erster Eindruck oder erstes Treffen, Mitte oder mittel."
+        "explanation": "Frag dich bei jedem Satz: Woher kommt das Urteil? Weil ich die Person mag? Weil es am Anfang so war? Oder weil ich fast immer das Mittlere nehme?"
       }
     },
     {
@@ -190,7 +190,7 @@
         ],
         "items": [
           {
-            "text": "Sie ist hübsch, also ist sie bestimmt auch klug.",
+            "text": "Sie ist hübsch. Darum ist sie bestimmt auch klug.",
             "bucket": "hof"
           },
           {
@@ -198,7 +198,7 @@
             "bucket": "hof"
           },
           {
-            "text": "Herr Berg hat heute nichts gegessen. Er mag das Essen hier bestimmt nicht.",
+            "text": "Weil Herr Berg heute nichts gegessen hat, mag er das Essen hier bestimmt nicht.",
             "bucket": "log"
           },
           {
@@ -215,17 +215,17 @@
         "prompt": "🗓️ In welchen Situationen können Wahrnehmungsfehler auftreten?",
         "options": [
           {
-            "text": "Zum Beispiel im Vorstellungsgespräch und beim Noten geben.",
+            "text": "Zum Beispiel im Vorstellungsgespräch und beim Notengeben.",
             "correct": true
           },
           {
-            "text": "Nur wenn man krank ist."
+            "text": "Zum Beispiel beim Kochen nach Rezept und beim Fensterputzen."
           },
           {
             "text": "Gar nicht, im Alltag beurteilt man immer richtig."
           }
         ],
-        "explanation": "Wahrnehmungsfehler passieren überall, wo wir Menschen beurteilen. Zum Beispiel im Vorstellungsgespräch, beim ersten Treffen, beim Noten geben oder in der Betreuung."
+        "explanation": "Wahrnehmungsfehler passieren dort, wo wir Menschen beurteilen. Beim Kochen und Putzen beurteilst du keinen Menschen. So kannst du es im Test schreiben: 1. im Vorstellungsgespräch 2. beim Notengeben in der Schule."
       }
     },
     {
@@ -238,13 +238,13 @@
             "correct": true
           },
           {
-            "text": "Wir hören dann gar nichts mehr von dem, was andere sagen."
+            "text": "Wir hören schlechter, was andere uns sagen wollen."
           },
           {
             "text": "Sie haben keinen Einfluss auf unsere Gespräche."
           }
         ],
-        "explanation": "Wer einen Menschen falsch einschätzt, spricht auch anders mit ihm. Zum Beispiel ist man zu streng oder zu nett. Darum beeinflussen Wahrnehmungsfehler unsere Kommunikation."
+        "explanation": "Wer einen Menschen falsch einschätzt, spricht auch anders mit ihm. So kannst du es im Test schreiben: Wir schätzen Menschen falsch ein. Dann sprechen wir anders mit ihnen, zum Beispiel zu streng oder zu nett."
       }
     },
     {
@@ -263,7 +263,7 @@
             "text": "Allen Menschen immer eine mittlere Note geben."
           }
         ],
-        "explanation": "Wer die Fehler kennt, kann besser aufpassen. Beobachte bewusst und offen und urteile nicht vorschnell. Nur auf den ersten Eindruck hören ist der Primäreffekt, immer die Mitte ist die Tendenz zur Mitte."
+        "explanation": "Wer die Fehler kennt, kann besser aufpassen. Nur auf den ersten Eindruck hören ist der Primäreffekt. Immer die Mitte ist die Tendenz zur Mitte. So kannst du es im Test schreiben: Ich mache mir die Fehler bewusst. Ich beobachte offen und urteile nicht vorschnell."
       }
     }
   ]

@@ -3,7 +3,7 @@
   "slug": "pruefung-wahrnehmung-15-halo-effekt-folgen",
   "title": "Halo-Effekt und die Folgen",
   "sort": 15,
-  "intro": "Der Halo-Effekt bedeutet: Wir schließen von einer positiven Eigenschaft auf weitere Eigenschaften, auch wenn diese gar nicht zusammenhängen.\n\nEine gute Eigenschaft „überstrahlt“ andere Eigenschaften. Halo heißt Heiligenschein. Ein anderes Wort für den Halo-Effekt ist Hof-Effekt.\n\nWir bewerten die Person dann insgesamt positiver oder negativer, obwohl wir nicht alle Bereiche kennen.\n\nFolgen in der Personenbetreuung: Der erste Eindruck und der Halo-Effekt können dazu führen, dass wir Menschen schneller positiv oder negativ beurteilen als andere. Das sind Wahrnehmungsfehler. Sie können dazu führen, dass wir wichtige Informationen übersehen und die Person nicht richtig einschätzen.\n\nMERKE: Deshalb ist es wichtig, bewusst und offen zu beobachten und nicht vorschnell zu urteilen.",
+  "intro": "Der Halo-Effekt bedeutet: Wir schließen von einer positiven Eigenschaft auf weitere Eigenschaften, auch wenn diese gar nicht zusammenhängen.\n\nEine gute Eigenschaft „überstrahlt“ andere Eigenschaften. Halo heißt Heiligenschein. Ein anderes Wort für den Halo-Effekt ist Hof-Effekt.\n\nDas geht auch mit einer schlechten Eigenschaft. Dann bewerten wir die ganze Person schlechter. Dabei kennen wir gar nicht alle Seiten der Person.\n\nFolgen in der Personenbetreuung: Der erste Eindruck und der Halo-Effekt sind Wahrnehmungsfehler. Wir urteilen dann zu schnell über einen Menschen. Wir finden ihn zu gut oder zu schlecht. Wir übersehen wichtige Informationen. Dann schätzen wir die Person nicht richtig ein.\n\nMERKE: Deshalb ist es wichtig, bewusst und offen zu beobachten und nicht vorschnell zu urteilen.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -40,7 +40,7 @@
             "text": "Eine Person ist freundlich, deshalb ist sie unsympathisch."
           }
         ],
-        "explanation": "Von freundlich schließen wir auf zuverlässig, obwohl das nicht zusammenhängt. Die gute Eigenschaft überstrahlt die anderen. Das ist der Halo-Effekt."
+        "explanation": "Von freundlich schließen wir auf zuverlässig, obwohl das nicht zusammenhängt. Die gute Eigenschaft überstrahlt die anderen. „Freundlich, deshalb unpünktlich“ passt nicht: Beim Halo-Effekt macht die gute Eigenschaft auch die anderen gut."
       }
     },
     {
@@ -91,7 +91,7 @@
             "correct": true
           },
           {
-            "text": "Wir beurteilen alle Menschen genau gleich und gerecht."
+            "text": "Wir beurteilen Menschen langsamer und genauer."
           },
           {
             "text": "Wir müssen dann gar nicht mehr genau beobachten."
@@ -158,6 +158,43 @@
           }
         ],
         "explanation": "Frag dich: Schaue ich genauer hin, oder urteile ich schneller? Alles, was dich genauer hinschauen lässt, hilft."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Sympathiefehler oder Hof-Effekt? Sortiere.",
+        "buckets": [
+          {
+            "id": "sym",
+            "label": "Sympathiefehler",
+            "icon": "💗"
+          },
+          {
+            "id": "hof",
+            "label": "Hof-Effekt",
+            "icon": "☀️"
+          }
+        ],
+        "items": [
+          {
+            "text": "Ich mag ihn. Darum gebe ich ihm eine bessere Note.",
+            "bucket": "sym"
+          },
+          {
+            "text": "Sie ist mir sympathisch. Darum glaube ich ihr alles.",
+            "bucket": "sym"
+          },
+          {
+            "text": "Er ist sportlich. Darum ist er bestimmt auch fleißig.",
+            "bucket": "hof"
+          },
+          {
+            "text": "Sie ist immer schick angezogen. Darum ist sie bestimmt auch klug.",
+            "bucket": "hof"
+          }
+        ],
+        "explanation": "Frag dich: Geht es darum, ob ich die Person mag? Dann ist es der Sympathiefehler. Schließe ich von einer Eigenschaft auf andere Eigenschaften? Dann ist es der Hof-Effekt."
       }
     },
     {

@@ -3,7 +3,7 @@
   "slug": "pruefung-wahrnehmung-09-was-passt-15-saetze",
   "title": "Was passt? Subjektiv oder objektiv",
   "sort": 9,
-  "intro": "Wahrnehmung, also subjektiv, ist eine persönliche Empfindung. Jeder Mensch kann etwas anders wahrnehmen. Typische Wörter sind: ich finde, ich habe das Gefühl, ich denke, wirkt, angenehm, besonders gut, zu laut.\n\nBeobachtung, also objektiv, ist eine sachliche Beschreibung. Wir sagen nur, was wir sehen oder hören. Zum Beispiel: gähnt mehrmals, sitzt allein am Tisch, lächelt.\n\nBei subjektiven Sätzen fragst du auch: Wessen Sicht ist das?\n\nAus eigener Personensicht: Ich selbst sage, wie ich etwas wahrnehme. Zum Beispiel: „Ich finde, es ist hier zu laut.“\n\nAus Sicht der Person: Die betreute Person sagt selbst, wie es ihr geht. Zum Beispiel sagt Frau Müller: „Mir ist kalt.“ Das ist ihre Empfindung.\n\nMERKE: Kann jeder genau das Gleiche sehen oder hören, ist es objektiv. Steckt ein Gefühl, eine Deutung oder eine Bewertung drin, ist es subjektiv.",
+  "intro": "Wahrnehmung, also subjektiv, ist eine persönliche Empfindung. Empfindung heißt hier: wie ein Mensch etwas erlebt. Jeder Mensch kann etwas anders wahrnehmen. Typische Wörter sind: ich finde, ich habe das Gefühl, ich denke, wirkt, angenehm, besonders gut, zu laut.\n\nBeobachtung, also objektiv, ist eine sachliche Beschreibung. Wir sagen nur, was wir sehen oder hören. Zum Beispiel: gähnt mehrmals, sitzt allein am Tisch, lächelt.\n\nBei subjektiven Sätzen fragst du auch: Wessen Sicht ist das?\n\nAus eigener Personensicht: Ich selbst sage, wie ich etwas wahrnehme. Zum Beispiel: „Ich finde, es ist hier zu laut.“\n\nAus Sicht der Person: Die betreute Person sagt selbst, wie es ihr geht. Das ist ihre eigene Empfindung. Du hörst den Satz zwar. Aber er sagt, wie es der Person geht. Darum ist er subjektiv. Zum Beispiel sagt Frau Müller: „Mir ist kalt.“\n\nMERKE: Steckt ein Gefühl, eine Meinung oder eine Deutung drin, ist es subjektiv. Das gilt auch, wenn die betreute Person es selbst sagt. Beschreibt der Satz nur, was jeder sehen oder hören kann, ist es objektiv.",
   "exercises": [
     {
       "type": "sort_buckets",
@@ -55,7 +55,7 @@
             "bucket": "subjektiv"
           }
         ],
-        "explanation": "Frag dich bei jedem Satz: Kann jeder genau das Gleiche sehen oder hören? Dann ist er objektiv. Steckt eine Deutung wie „wirkt“ oder eine Bewertung wie „angenehm“ drin? Dann ist er subjektiv."
+        "explanation": "Frag dich bei jedem Satz zuerst: Steckt ein Gefühl, eine Meinung oder eine Deutung drin? Dann ist er subjektiv. Beschreibt er nur, was jeder sehen oder hören kann? Dann ist er objektiv."
       }
     },
     {
@@ -104,7 +104,7 @@
             "bucket": "subjektiv"
           }
         ],
-        "explanation": "Achte auf Gefühle und Meinungen. „Mir ist kalt“ und „Das gefällt mir nicht“ sind Empfindungen der Person, also subjektiv. Hängende Schultern und Rauchgeruch kann jeder genauso sehen und riechen."
+        "explanation": "Frag dich zuerst: Steckt ein Gefühl, eine Meinung oder eine Deutung drin? Das gilt auch, wenn die betreute Person es selbst sagt. Dann ist es subjektiv. Beschreibt der Satz nur, was jeder sehen, hören oder riechen kann? Dann ist es objektiv."
       }
     },
     {
@@ -151,32 +151,28 @@
           {
             "text": "Ich denke, Herr Meier ist unzufrieden.",
             "bucket": "eigen"
-          },
-          {
-            "text": "Frau Müller wirkt heute müde.",
-            "bucket": "eigen"
           }
         ],
-        "explanation": "Frag dich: Wer spricht über sich selbst? Sagt die betreute Person, wie es ihr geht, ist es aus Sicht der Person. Sage ich, wie ich etwas finde oder deute, ist es aus eigener Personensicht."
+        "explanation": "Frag dich: Wer sagt den Satz? Steht da „Frau … sagt:“ oder „Herr … sagt:“? Dann ist es aus Sicht der Person. Sagst du den Satz selbst? Dann ist es aus eigener Personensicht."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😴 Vergleiche: „Frau Müller wirkt heute müde.“ und „Frau Müller gähnt mehrmals.“ Was stimmt?",
+        "prompt": "😴 Was stimmt? Satz 1 heißt „Frau Müller wirkt heute müde“. Satz 2 heißt „Frau Müller gähnt mehrmals“.",
         "options": [
           {
-            "text": "Der erste Satz ist subjektiv, der zweite objektiv.",
+            "text": "Satz 1 ist subjektiv, Satz 2 ist objektiv.",
             "correct": true
           },
           {
             "text": "Beide Sätze sind objektiv."
           },
           {
-            "text": "Der erste Satz ist objektiv, der zweite subjektiv."
+            "text": "Satz 1 ist objektiv, Satz 2 ist subjektiv."
           }
         ],
-        "explanation": "„Wirkt müde“ ist deine Deutung. „Gähnt mehrmals“ kann jeder sehen. Darum ist der erste Satz subjektiv und der zweite objektiv."
+        "explanation": "„Wirkt müde“ ist deine Deutung. „Gähnt mehrmals“ kann jeder sehen. Darum ist Satz 1 subjektiv und Satz 2 objektiv."
       }
     },
     {
@@ -193,6 +189,9 @@
           },
           {
             "text": "Subjektiv, aus eigener Personensicht"
+          },
+          {
+            "text": "Objektiv, aus Sicht der Person"
           }
         ],
         "explanation": "Kalt ist die Empfindung von Frau Müller. Sie sagt es selbst über sich. Darum ist es subjektiv und aus Sicht der Person."
@@ -212,6 +211,9 @@
           },
           {
             "text": "Subjektiv, aus Sicht der Person"
+          },
+          {
+            "text": "Objektiv, aus eigener Personensicht"
           }
         ],
         "explanation": "„Ich finde“ zeigt: Das ist deine eigene Bewertung. Darum ist es subjektiv und aus eigener Personensicht."
@@ -220,7 +222,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🚬 Was stimmt? „Die Kleidung von Frau Müller riecht nach Rauch.“",
+        "prompt": "💨 Was stimmt? „Die Kleidung von Frau Müller riecht nach Rauch.“",
         "options": [
           {
             "text": "Objektiv, denn der Satz bewertet nicht.",
@@ -233,7 +235,7 @@
             "text": "Subjektiv, denn Rauch ist unangenehm."
           }
         ],
-        "explanation": "Der Satz sagt nur, was du riechst. Er bewertet nicht. Würdest du sagen „riecht eklig“, wäre es subjektiv."
+        "explanation": "Der Satz sagt nur, was du riechst. Er bewertet nicht. Sagst du „riecht eklig“, dann ist es subjektiv."
       }
     },
     {
@@ -253,6 +255,51 @@
           }
         ],
         "explanation": "„Angenehm“ ist eine Bewertung. Was du angenehm findest, findet jemand anderes vielleicht unangenehm. Ohne dieses Wort wäre der Satz eine sachliche Beschreibung."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Neue Sätze aus der Betreuung. Subjektiv oder objektiv?",
+        "buckets": [
+          {
+            "id": "subjektiv",
+            "label": "subjektiv: Wahrnehmung",
+            "icon": "💭"
+          },
+          {
+            "id": "objektiv",
+            "label": "objektiv: Beobachtung",
+            "icon": "🔍"
+          }
+        ],
+        "items": [
+          {
+            "text": "Frau Weber hat die Hälfte der Suppe gegessen.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Herr Kurz hat 38,5 Grad Fieber.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Frau Lang hat die Augen zu.",
+            "bucket": "objektiv"
+          },
+          {
+            "text": "Herr Kurz ist heute schlecht drauf.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Die neue Bewohnerin ist sehr nett.",
+            "bucket": "subjektiv"
+          },
+          {
+            "text": "Ich glaube, Frau Lang hat Angst.",
+            "bucket": "subjektiv"
+          }
+        ],
+        "explanation": "Frag dich zuerst: Steckt ein Gefühl, eine Meinung oder eine Deutung drin? Dann ist es subjektiv. Beschreibt der Satz nur, was jeder sehen, hören oder messen kann? Dann ist es objektiv."
       }
     },
     {
