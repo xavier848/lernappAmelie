@@ -1,0 +1,241 @@
+{
+  "topic_slug": "pruefung-wahrnehmung",
+  "slug": "pruefung-wahrnehmung-19-altersbedingte-stoerungen-hilfen",
+  "title": "Altersbedingte Wahrnehmungsstörungen und Hilfen",
+  "sort": 19,
+  "intro": "Mit zunehmendem Alter können die Sinne schwächer werden. Das nennt man altersbedingte Wahrnehmungsstörungen. Altersbedingt heißt: Es kommt vom Alter.\n\nDas Blatt nennt drei Beispiele: Schwerhörigkeit, Sehschwierigkeiten und eine Veränderung des Geruchs- und/oder Geschmackssinns. Schwerhörigkeit heißt: Man hört schlechter.\n\nSchwerhörigkeit: Hilfe sind ein Hörgerät und eine ruhige Umgebung. Ruhige Umgebung heißt zum Beispiel: Radio und Fernseher aus, nicht alle reden durcheinander.\n\nSehschwierigkeiten: Hilfe sind eine Brille, zum Beispiel eine Lesebrille, und eine gute Beleuchtung. Gute Beleuchtung heißt: genug helles Licht.\n\nVeränderung des Geruchs- und/oder Geschmackssinns: Hilfe ist, die Speisen stärker zu würzen, zum Beispiel mit Kräutern und Gewürzen.\n\nMERKE: Schwerhörigkeit: Hörgerät und ruhige Umgebung. Sehschwierigkeiten: Brille und gute Beleuchtung. Geruch und Geschmack verändert: Speisen stärker würzen.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👵 Was kann mit zunehmendem Alter passieren?",
+        "options": [
+          {
+            "text": "Die Sinne können schwächer werden.",
+            "correct": true
+          },
+          {
+            "text": "Die Sinne bleiben im Alter gleich stark."
+          },
+          {
+            "text": "Die Sinne werden im Alter schärfer."
+          }
+        ],
+        "explanation": "Mit zunehmendem Alter können die Sinne schwächer werden. Man hört oder sieht schlechter. Oder Geruch und Geschmack verändern sich. Das nennt man altersbedingte Wahrnehmungsstörungen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Welche Beispiele für altersbedingte Wahrnehmungsstörungen nennt das Blatt?",
+        "options": [
+          {
+            "text": "Schwerhörigkeit, Sehschwierigkeiten, veränderter Geruch und Geschmack",
+            "correct": true
+          },
+          {
+            "text": "Halluzinationen, Illusionen, Schwerhörigkeit und Sehschwierigkeiten"
+          },
+          {
+            "text": "Müdigkeit, Stress, Ablenkung und veränderter Geruch und Geschmack"
+          }
+        ],
+        "explanation": "Das Blatt nennt drei altersbedingte Störungen: Schwerhörigkeit, Sehschwierigkeiten und die Veränderung des Geruchs- und/oder Geschmackssinns. Halluzinationen und Illusionen sind auch Wahrnehmungsstörungen, aber sie gehören nicht zu den altersbedingten Beispielen. Müdigkeit, Stress und Ablenkung sind keine altersbedingten Störungen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧰 Welche Hilfe gehört wozu? Sortiere.",
+        "buckets": [
+          {
+            "id": "hoeren",
+            "label": "Schwerhörigkeit",
+            "icon": "👂"
+          },
+          {
+            "id": "sehen",
+            "label": "Sehschwierigkeiten",
+            "icon": "👓"
+          },
+          {
+            "id": "schmecken",
+            "label": "Geruch und Geschmack verändert",
+            "icon": "👃"
+          }
+        ],
+        "items": [
+          {
+            "text": "Hörgerät",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "Ruhige Umgebung",
+            "bucket": "hoeren"
+          },
+          {
+            "text": "Brille",
+            "bucket": "sehen"
+          },
+          {
+            "text": "Lesebrille",
+            "bucket": "sehen"
+          },
+          {
+            "text": "Gute Beleuchtung",
+            "bucket": "sehen"
+          },
+          {
+            "text": "Speisen stärker würzen",
+            "bucket": "schmecken"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Karte: Welchem Sinn hilft das? Den Ohren, den Augen oder Nase und Zunge?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👂 Herr Maier hört schlecht. Ihr wollt euch unterhalten. Im Raum läuft laut das Radio. Was machst du?",
+        "options": [
+          {
+            "text": "Ich mache das Radio aus und frage nach seinem Hörgerät.",
+            "correct": true
+          },
+          {
+            "text": "Ich spreche einfach viel lauter als das Radio."
+          },
+          {
+            "text": "Ich drehe das Radio lauter, dann ist es gemütlich."
+          }
+        ],
+        "explanation": "Bei Schwerhörigkeit helfen ein Hörgerät und eine ruhige Umgebung. Laute Geräusche im Hintergrund machen das Verstehen schwerer. Darum hilft es nicht, gegen das Radio anzuschreien oder es lauter zu drehen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📰 Frau Schulz will die Zeitung lesen. Die Buchstaben sind ihr zu klein. Wie hilfst du ihr?",
+        "options": [
+          {
+            "text": "Ich gebe ihr die Lesebrille und mache gutes Licht an.",
+            "correct": true
+          },
+          {
+            "text": "Ich sage, sie soll die Augen mehr anstrengen."
+          },
+          {
+            "text": "Ich mache das Licht aus, damit es nicht blendet."
+          }
+        ],
+        "explanation": "Bei Sehschwierigkeiten helfen eine Brille, zum Beispiel eine Lesebrille, und eine gute Beleuchtung. Im Dunkeln sieht Frau Schulz noch schlechter. Die Augen mehr anstrengen hilft nicht, wenn sie schwächer geworden sind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Herr Yilmaz sagt: „Das Essen schmeckt nach nichts.“ Sein Geschmackssinn hat sich im Alter verändert. Was hilft laut Blatt?",
+        "options": [
+          {
+            "text": "Die Speisen stärker würzen",
+            "correct": true
+          },
+          {
+            "text": "Ihm kleinere Portionen geben"
+          },
+          {
+            "text": "Das Essen kalt servieren"
+          }
+        ],
+        "explanation": "Wenn sich der Geruchs- oder Geschmackssinn verändert, hilft es, die Speisen stärker zu würzen. Zum Beispiel mit Kräutern und Gewürzen. Kleinere Portionen oder kaltes Essen schmecken nicht besser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Gute Beleuchtung ist eine Hilfe. Bei welcher Störung?",
+        "options": [
+          {
+            "text": "Bei Sehschwierigkeiten",
+            "correct": true
+          },
+          {
+            "text": "Bei Schwerhörigkeit"
+          },
+          {
+            "text": "Bei verändertem Geschmackssinn"
+          }
+        ],
+        "explanation": "Mit genug Licht sehen schwache Augen besser. Darum hilft gute Beleuchtung bei Sehschwierigkeiten. Bei Schwerhörigkeit helfen Hörgerät und Ruhe. Bei verändertem Geschmack hilft stärkeres Würzen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Stimmt das? Sortiere.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Stimmt nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Mit zunehmendem Alter können die Sinne schwächer werden.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Eine ruhige Umgebung hilft bei Schwerhörigkeit.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Bei Sehschwierigkeiten hilft gute Beleuchtung.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Eine Lesebrille hilft bei Schwerhörigkeit.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Bei verändertem Geschmackssinn soll man weniger würzen.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Altersbedingte Störungen gibt es nur beim Hören.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Nicht nur das Hören, auch das Sehen kann im Alter schwächer werden.",
+            "bucket": "stimmt"
+          }
+        ],
+        "explanation": "Prüf bei jeder Karte: Welcher Sinn ist gemeint? Passt die Hilfe zu diesem Sinn? Lies jedes Wort genau."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Wobei hilft ein Hörgerät?",
+        "options": [
+          {
+            "text": "Beim Hören",
+            "correct": true
+          },
+          {
+            "text": "Beim Sehen"
+          },
+          {
+            "text": "Beim Schmecken"
+          }
+        ],
+        "explanation": "Ein Hörgerät hilft Menschen, die schwerhörig sind. Mit dem Hörgerät hören sie besser."
+      }
+    }
+  ]
+}

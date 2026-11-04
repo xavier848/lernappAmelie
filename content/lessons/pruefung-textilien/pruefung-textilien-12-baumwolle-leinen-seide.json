@@ -1,0 +1,353 @@
+{
+  "topic_slug": "pruefung-textilien",
+  "slug": "pruefung-textilien-12-baumwolle-leinen-seide",
+  "title": "Baumwolle, Leinen oder Seide?",
+  "sort": 12,
+  "intro": "Baumwolle, Leinen und Seide sind Naturfasern. Aber jede ist anders.\n\nBaumwolle ist eine pflanzliche Naturfaser. Die Fasern sind Samenhaare aus den Kapseln der Baumwollpflanze. Nach der Ernte werden Fasern und Samen getrennt. Das heißt Entkörnen. Baumwolle wächst in warmen, trockenen Gebieten, zum Beispiel in den USA und in Pakistan. Baumwolle trocknet langsam.\n\nLeinen ist eine pflanzliche Naturfaser. Die Fasern liegen im Stängel der Flachs-Pflanze. Sie werden zum Beispiel geschwungen und gehechelt. In Europa ist Leinen besonders wichtig, zum Beispiel in Belgien und Polen. Auch Russland baut Flachs an. Leinen trocknet schnell, ist antibakteriell und wird mit jeder Wäsche weicher.\n\nSeide ist eine tierische Naturfaser. Die Faser kommt aus dem Kokon der Seidenraupe. Die Raupe frisst Maulbeerblätter. Der Seidenleim heißt Sericin. Wichtige Länder sind zum Beispiel Vietnam, Japan und Thailand. Seide ist temperaturausgleichend und empfindlich gegen starke Sonne und Hitze.\n\nAchtung: Manche Eigenschaften gibt es bei mehreren Fasern. Alle drei sind zum Beispiel reißfest. Und China steht auf allen drei Steckbriefen.\n\nMERKE: Baumwolle = Samenhaare. Leinen = Stängel vom Flachs. Seide = Kokon der Raupe.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Baumwolle, Leinen oder Seide: Woher kommt die Faser? Sortiere.",
+        "buckets": [
+          {
+            "id": "bw",
+            "label": "Baumwolle",
+            "icon": "☁️"
+          },
+          {
+            "id": "le",
+            "label": "Leinen",
+            "icon": "🌸"
+          },
+          {
+            "id": "se",
+            "label": "Seide",
+            "icon": "🐛"
+          }
+        ],
+        "items": [
+          {
+            "text": "Samenhaare aus Kapseln",
+            "bucket": "bw"
+          },
+          {
+            "text": "Entkörnen",
+            "bucket": "bw"
+          },
+          {
+            "text": "Baumwollsaatöl aus den Samen",
+            "bucket": "bw"
+          },
+          {
+            "text": "Faserbündel im Stängel",
+            "bucket": "le"
+          },
+          {
+            "text": "Schwingen und Hecheln",
+            "bucket": "le"
+          },
+          {
+            "text": "Kokon",
+            "bucket": "se"
+          },
+          {
+            "text": "Maulbeerblätter",
+            "bucket": "se"
+          },
+          {
+            "text": "Seidenleim (Sericin)",
+            "bucket": "se"
+          }
+        ],
+        "explanation": "Frag dich: Hat es mit Samen und Kapseln zu tun? Mit dem Stängel einer Pflanze? Oder mit einer Raupe?"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Zu welcher Faser passt das Merkmal? Sortiere.",
+        "buckets": [
+          {
+            "id": "bw",
+            "label": "Baumwolle",
+            "icon": "☁️"
+          },
+          {
+            "id": "le",
+            "label": "Leinen",
+            "icon": "🌸"
+          },
+          {
+            "id": "se",
+            "label": "Seide",
+            "icon": "🐛"
+          }
+        ],
+        "items": [
+          {
+            "text": "trocknet langsam",
+            "bucket": "bw"
+          },
+          {
+            "text": "kurze Fasern heißen Linters",
+            "bucket": "bw"
+          },
+          {
+            "text": "trocknet schnell",
+            "bucket": "le"
+          },
+          {
+            "text": "antibakteriell",
+            "bucket": "le"
+          },
+          {
+            "text": "wird mit jeder Wäsche weicher",
+            "bucket": "le"
+          },
+          {
+            "text": "temperaturausgleichend",
+            "bucket": "se"
+          },
+          {
+            "text": "empfindlich gegen starke Sonne und Hitze",
+            "bucket": "se"
+          },
+          {
+            "text": "tierische Naturfaser",
+            "bucket": "se"
+          }
+        ],
+        "explanation": "Lerne von jeder Faser das, was nur sie hat. Achtung beim Trocknen: Die beiden Pflanzenfasern sind hier ganz verschieden."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🌍 Bei welcher Faser steht das Land auf dem Steckbrief? Sortiere.",
+        "buckets": [
+          {
+            "id": "bw",
+            "label": "Baumwolle",
+            "icon": "☁️"
+          },
+          {
+            "id": "le",
+            "label": "Leinen",
+            "icon": "🌸"
+          },
+          {
+            "id": "se",
+            "label": "Seide",
+            "icon": "🐛"
+          }
+        ],
+        "items": [
+          {
+            "text": "USA",
+            "bucket": "bw"
+          },
+          {
+            "text": "Pakistan",
+            "bucket": "bw"
+          },
+          {
+            "text": "Belgien",
+            "bucket": "le"
+          },
+          {
+            "text": "Polen",
+            "bucket": "le"
+          },
+          {
+            "text": "Russland",
+            "bucket": "le"
+          },
+          {
+            "text": "Vietnam",
+            "bucket": "se"
+          },
+          {
+            "text": "Japan",
+            "bucket": "se"
+          },
+          {
+            "text": "Thailand",
+            "bucket": "se"
+          }
+        ],
+        "explanation": "Lerne für jede Faser ein paar typische Länder. Baumwolle braucht warme, trockene Gebiete. Leinen ist vor allem in Europa wichtig. Seide kommt oft aus Asien. China steht bei allen drei, Brasilien bei Baumwolle und Seide – darum fehlen beide hier."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Welche Eigenschaft haben Baumwolle, Leinen und Seide alle drei?",
+        "options": [
+          {
+            "text": "Sie sind reißfest.",
+            "correct": true
+          },
+          {
+            "text": "Sie sind antibakteriell."
+          },
+          {
+            "text": "Sie sind temperaturausgleichend."
+          }
+        ],
+        "explanation": "Alle drei Fasern sind reißfest. Antibakteriell ist laut Schultext nur Leinen. Temperaturausgleichend ist Seide."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌏 Welches Land steht auf allen drei Steckbriefen?",
+        "options": [
+          {
+            "text": "China",
+            "correct": true
+          },
+          {
+            "text": "Belgien"
+          },
+          {
+            "text": "Vietnam"
+          },
+          {
+            "text": "USA"
+          }
+        ],
+        "explanation": "China baut Baumwolle und Flachs an und stellt Seide her. Belgien steht nur beim Leinen, Vietnam nur bei der Seide, die USA nur bei der Baumwolle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⛵ Ein Segelmacher sucht die Pflanzenfaser mit der höchsten Zugfestigkeit. Was empfiehlst du?",
+        "options": [
+          {
+            "text": "Leinen",
+            "correct": true
+          },
+          {
+            "text": "Baumwolle"
+          },
+          {
+            "text": "Jute"
+          }
+        ],
+        "explanation": "Leinen hat laut Schultext die höchste Zugfestigkeit unter den Pflanzenfasern. Darum macht man daraus auch Zelt- und Segelstoffe. Baumwolle und Jute sind auch Pflanzenfasern. Die höchste Zugfestigkeit hat laut Schultext aber Leinen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧣 Ein Schal soll im Winter wärmen und im Sommer kühlen. Welche Faser passt dazu?",
+        "options": [
+          {
+            "text": "Seide",
+            "correct": true
+          },
+          {
+            "text": "Baumwolle"
+          },
+          {
+            "text": "Leinen"
+          }
+        ],
+        "explanation": "Seide ist temperaturausgleichend: Sie wärmt bei Kälte und kühlt bei Wärme. Baumwolle und Leinen kühlen im Sommer, aber vom Wärmen im Winter steht auf ihren Steckbriefen nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Herr Kurz schwitzt nachts stark. Welche Bettwäsche hemmt laut Schultext das Wachstum von Bakterien?",
+        "options": [
+          {
+            "text": "Bettwäsche aus Leinen",
+            "correct": true
+          },
+          {
+            "text": "Bettwäsche aus Baumwolle"
+          },
+          {
+            "text": "Bettwäsche aus Seide"
+          }
+        ],
+        "explanation": "Leinen hat laut Schultext eine natürliche antibakterielle Eigenschaft. Es hemmt das Wachstum von Bakterien. Das steht nur beim Leinen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Stimmt das? Sortiere.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Stimmt nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Seide ist eine tierische Naturfaser.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Leinen kommt aus dem Stängel der Flachs-Pflanze.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Baumwollfasern sind Samenhaare.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Leinen wird mit jeder Wäsche weicher.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Baumwolle kommt aus einem Kokon.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Seide wird aus einem Stängel gewonnen.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Leinen ist eine tierische Faser.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Baumwolle trocknet schneller als Leinen.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüfe jeden Satz mit dem Merksatz: Baumwolle = Samenhaare. Leinen = Stängel vom Flachs. Seide = Kokon der Raupe. Und beim Trocknen ist Leinen schnell."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐛 Welche der drei Fasern kommt von einem Tier?",
+        "options": [
+          {
+            "text": "Seide",
+            "correct": true
+          },
+          {
+            "text": "Baumwolle"
+          },
+          {
+            "text": "Leinen"
+          }
+        ],
+        "explanation": "Seide kommt von der Seidenraupe. Baumwolle und Leinen kommen von Pflanzen."
+      }
+    }
+  ]
+}

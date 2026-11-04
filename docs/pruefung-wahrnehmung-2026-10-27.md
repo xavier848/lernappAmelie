@@ -2,7 +2,11 @@
 
 Amelie schreibt nach den Herbstferien eine Schulaufgabe über diese Themen. Mama hat dafür 14 Blätter geschickt, die sie mit ChatGPT erstellt hat: 9 Lernplakate und 7 Quizblätter mit zusammen 100 Fragen. Daraus ist das Thema `pruefung-wahrnehmung` entstanden, mit 15 Lektionen und 156 Übungen. Es enthält nur Mamas Stoff und ist nicht mit den Themen „Wahrnehmung verstehen“ und „Beobachten lernen“ gemischt.
 
-Am selben Abend kam ein 15. Blatt dazu: „Hof-Effekt und Logischer Fehler“ mit Lernplakat, 12 Quizfragen und Lösungsblatt. Daraus sind die Lektionen 16 und 17 entstanden. Zusammen sind es jetzt 17 Lektionen mit 173 Übungen.
+Am selben Abend kam ein 15. Blatt dazu: „Hof-Effekt und Logischer Fehler“ mit Lernplakat, 12 Quizfragen und Lösungsblatt. Daraus sind die Lektionen 16 und 17 entstanden.
+
+Am 28.10. kam ein 16. Blatt dazu: „Wahrnehmung“ über Wahrnehmungsstörungen. Daraus sind die Lektionen 18 und 19 entstanden (siehe unten). Zusammen sind es jetzt 19 Lektionen mit 192 Übungen.
+
+Seit 04.11. hat jede Prüfung im Prüfungs-Training eine eigene Seite. Mehr dazu und zu den Prüfungen Textilien und Vitamine steht in `docs/pruefung-textilien-vitamine-2026-11-04.md`.
 
 ## Was Mama sich gewünscht hat und wie die App das umsetzt
 
@@ -31,6 +35,8 @@ Am selben Abend kam ein 15. Blatt dazu: „Hof-Effekt und Logischer Fehler“ mi
 15. Halo-Effekt und die Folgen
 16. Hof-Effekt oder logischer Fehler? (15. Blatt)
 17. Arten von logischen Fehlern (15. Blatt)
+18. Wahrnehmungsstörungen: Halluzination und Illusion (16. Blatt)
+19. Altersbedingte Wahrnehmungsstörungen und Hilfen (16. Blatt)
 
 Die Lektionen 1–15 sind zweimal unabhängig geprüft worden:
 
@@ -49,6 +55,18 @@ Die Lektionen 16 und 17 sind einmal unabhängig geprüft worden, fachlich und di
   1. Werden zwei Menschen oder Dinge verglichen? Dann ist es ein falscher Vergleich.
   2. Soll eine Sache etwas anderes bewirken? Dann ist es eine falsche Ursache.
   3. Wird aus einmal ein immer oder ein alle? Dann ist es eine Verallgemeinerung.
+
+## Lektionen 18 und 19 (16. Blatt)
+
+- Das Blatt definiert Wahrnehmung wie Lektion 1. Neu ist der Zusatz „mit Hilfe unserer Sinne“.
+- Wahrnehmungsstörung heißt: Die Wahrnehmung ist eingeschränkt. Die Informationen werden nicht richtig oder unvollständig verarbeitet. Es entsteht ein falsches Abbild der Wirklichkeit. Das passt zu Lektion 7: Die Wahrnehmung ist für den Menschen echt, trotzdem kann man sich täuschen.
+- Das Bild mit Vase und Gesichtern zählt als Illusion, wie auf dem Blatt.
+- Die Einführung von Lektion 18 grenzt Wahrnehmungsstörungen von den Wahrnehmungsfehlern ab (Halo-Effekt, Primäreffekt usw. aus den Lektionen 12–17).
+- Die Lektionen 18 und 19 sind einmal unabhängig geprüft worden, fachlich und didaktisch. Alle Befunde sind eingearbeitet. Dazu gehört auch: Lektion 18 widerspricht nicht mehr dem Satz „Jede Wahrnehmung ist richtig – für den, der sie hat“ aus Lektion 7.
+- Lektion 19 übt die Hilfen mit Fällen aus der Betreuung:
+  - Schwerhörigkeit: Hörgerät, ruhige Umgebung
+  - Sehschwierigkeiten: Brille oder Lesebrille, gute Beleuchtung
+  - Geruch und Geschmack verändert: Speisen stärker würzen
 
 ## Quizfragen, die auf den Blättern nicht eindeutig sind
 
@@ -78,4 +96,4 @@ Die Quizblätter haben keine Lösungen. Die Lösungen sind aus den Lernplakaten 
 
 ## Nach der Schulaufgabe
 
-Das Thema im Admin-Bereich auf „nicht veröffentlicht“ stellen. Dann verschwindet die Kachel „Prüfungs-Training“, wie beim Thema `pruefung-unfall-arbeitsplatz-hygiene`.
+Das Thema im Admin-Bereich auf „nicht veröffentlicht“ stellen. Dann verschwindet seine Karte im Prüfungs-Training, wie beim Thema `pruefung-unfall-arbeitsplatz-hygiene`. Ist keine Prüfung mehr offen, verschwindet auch die Kachel „Prüfungs-Training“ auf der Startseite.

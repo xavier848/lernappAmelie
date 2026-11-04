@@ -3,6 +3,8 @@ import {
   baueVersuchsStatistik,
   istPruefungsThema,
   istSicher,
+  kurzName,
+  pruefungsPfad,
   testPrioritaet,
   trennePruefungsThemen,
   waehleTestUebungen,
@@ -28,6 +30,29 @@ describe("istPruefungsThema", () => {
     expect(istPruefungsThema("arbeitssicherheit")).toBe(false);
     expect(istPruefungsThema(null)).toBe(false);
     expect(istPruefungsThema(undefined)).toBe(false);
+  });
+});
+
+describe("pruefungsPfad", () => {
+  it("fuehrt zur eigenen Seite der Pruefung", () => {
+    expect(pruefungsPfad("pruefung-textilien")).toBe(
+      "/pruefungstraining/pruefung-textilien",
+    );
+  });
+});
+
+describe("kurzName", () => {
+  it("nimmt den Teil vor Doppelpunkt, Komma oder &", () => {
+    expect(kurzName("Textilien: Baumwolle, Leinen & Seide")).toBe("Textilien");
+    expect(kurzName("Wahrnehmung, Beobachtung & Wahrnehmungsfehler")).toBe(
+      "Wahrnehmung",
+    );
+    expect(kurzName("Unfallschutz, Arbeitsplatz & Hygiene")).toBe("Unfallschutz");
+    expect(kurzName("Vitamine")).toBe("Vitamine");
+  });
+
+  it("nimmt den ganzen Titel, wenn vorne nichts steht", () => {
+    expect(kurzName(": Seide")).toBe(": Seide");
   });
 });
 

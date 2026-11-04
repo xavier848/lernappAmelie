@@ -1,0 +1,253 @@
+{
+  "topic_slug": "pruefung-vitamine",
+  "slug": "pruefung-vitamine-08-regeln-vitaminerhaltung",
+  "title": "So bleiben die Vitamine erhalten",
+  "sort": 8,
+  "intro": "Auf dem Arbeitsblatt stehen Regeln für die Vitaminerhaltung. Vitaminerhaltung heißt: Die Vitamine sollen im Essen bleiben.\n\nBeim Erhitzen gehen viele Vitamine verloren. Darum: Obst und Gemüse kühl und dunkel lagern. Frisch kaufen und kurz lagern. Erst unmittelbar vor dem Essen verarbeiten. Unmittelbar heißt: direkt.\n\nMöglichst unverkleinert garen. Unverkleinert heißt: im Ganzen, nicht klein geschnitten. Nur kurz und schonend erhitzen. Schonend heißt: vorsichtig und nicht zu heiß. Wenig Wasser verwenden. Garen im Dampf, zum Beispiel Dämpfen, ist besser als Kochen in viel Wasser.\n\nDurch Zerkleinern kommt der Saft mit Sauerstoff in Kontakt. Dann gehen mehr Vitamine verloren. Darum: Nicht zu lange liegen lassen. In kaltem Wasser waschen. Nach dem Schneiden oder Pürieren bald weiterverarbeiten. Möglichst große Stücke schneiden.\n\nIm Kochwasser geht viel Vitamin C über. Darum: Gemüse nicht in viel Wasser kochen. Mit wenig Wasser garen. Besser dünsten oder dämpfen. Das Kochwasser nicht wegschütten. Man kann es zum Beispiel für Soßen oder Suppen verwenden.\n\nMERKE: Kühl, dunkel, frisch und kurz lagern. Spät und in großen Stücken schneiden. Wenig Wasser, kurz erhitzen, Kochwasser weiterverwenden.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Was kostet Vitamine, was erhält sie? Sortiere.",
+        "buckets": [
+          {
+            "id": "verlust",
+            "label": "Kostet Vitamine",
+            "icon": "📉"
+          },
+          {
+            "id": "erhalt",
+            "label": "Erhält Vitamine",
+            "icon": "✅"
+          }
+        ],
+        "items": [
+          {
+            "text": "Gemüse in viel Wasser kochen",
+            "bucket": "verlust"
+          },
+          {
+            "text": "Geschnittenes Gemüse lange liegen lassen",
+            "bucket": "verlust"
+          },
+          {
+            "text": "Gemüse sehr fein zerkleinern",
+            "bucket": "verlust"
+          },
+          {
+            "text": "Obst warm und hell lagern",
+            "bucket": "verlust"
+          },
+          {
+            "text": "Kühl und dunkel lagern",
+            "bucket": "erhalt"
+          },
+          {
+            "text": "Frisch kaufen und kurz lagern",
+            "bucket": "erhalt"
+          },
+          {
+            "text": "Möglichst große Stücke schneiden",
+            "bucket": "erhalt"
+          },
+          {
+            "text": "Kochwasser für eine Soße verwenden",
+            "bucket": "erhalt"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Karte: Wird das Lebensmittel warm, ganz klein, alt oder in viel Wasser gekocht? Dann gehen Vitamine verloren. Denk daran: Im Kochwasser stecken Vitamine. Wer es weiterverwendet, erhält sie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Du willst Karotten garen. Was ist am besten für die Vitamine?",
+        "options": [
+          {
+            "text": "Die Karotten im Ganzen oder in großen Stücken dämpfen",
+            "correct": true
+          },
+          {
+            "text": "Die Karotten in viel Wasser lange kochen"
+          },
+          {
+            "text": "Die Karotten fein reiben und dann lange kochen"
+          }
+        ],
+        "explanation": "Möglichst unverkleinert garen und besser dämpfen als kochen. So bleiben die meisten Vitamine erhalten. Viel Wasser, langes Kochen und feines Zerkleinern kosten Vitamine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Du hast Brokkoli in Wasser gegart. Was machst du mit dem Kochwasser?",
+        "options": [
+          {
+            "text": "Ich verwende es für eine Soße oder Suppe.",
+            "correct": true
+          },
+          {
+            "text": "Ich schütte es gleich weg."
+          },
+          {
+            "text": "Ich lasse es kalt werden und schütte es dann weg."
+          }
+        ],
+        "explanation": "Im Kochwasser ist viel Vitamin C. Darum das Kochwasser nicht wegschütten. Man kann es zum Beispiel für Soßen oder Suppen verwenden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔪 Warum gehen beim Zerkleinern mehr Vitamine verloren?",
+        "options": [
+          {
+            "text": "Der Saft kommt mit Sauerstoff in Kontakt.",
+            "correct": true
+          },
+          {
+            "text": "Beim Schneiden wird das Gemüse warm."
+          },
+          {
+            "text": "Die Vitamine bleiben am Messer kleben."
+          }
+        ],
+        "explanation": "Das Blatt sagt: Durch Zerkleinern kommt der Saft mit Sauerstoff in Kontakt. Dann gehen mehr Vitamine verloren. Darum große Stücke schneiden und bald weiterverarbeiten. Beim Schneiden wird das Gemüse nicht warm. Und die Vitamine kleben nicht am Messer."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥗 Um 18 Uhr gibt es Obstsalat zum Abendessen. Wann schneidest du das Obst?",
+        "options": [
+          {
+            "text": "Kurz vor dem Essen",
+            "correct": true
+          },
+          {
+            "text": "Schon am Morgen"
+          },
+          {
+            "text": "Am Abend vorher"
+          }
+        ],
+        "explanation": "Erst unmittelbar vor dem Essen verarbeiten. Geschnittenes Obst soll nicht lange liegen. Sonst gehen Vitamine verloren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Wie wäschst du Gemüse richtig?",
+        "options": [
+          {
+            "text": "In kaltem Wasser",
+            "correct": true
+          },
+          {
+            "text": "In heißem Wasser"
+          },
+          {
+            "text": "Lange in warmem Wasser einweichen"
+          }
+        ],
+        "explanation": "Das Blatt sagt: in kaltem Wasser waschen. Wärme und lange Zeit im Wasser kosten Vitamine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Im Kochwasser geht viel Vitamin C über. Was rät das Blatt?",
+        "options": [
+          {
+            "text": "Mit wenig Wasser dünsten",
+            "correct": true
+          },
+          {
+            "text": "In viel Wasser kochen"
+          },
+          {
+            "text": "Lange im Wasser liegen lassen und dann kochen"
+          }
+        ],
+        "explanation": "Das Blatt rät: mit wenig Wasser garen, besser dünsten oder dämpfen. Am wenigsten geht beim Dämpfen ins Wasser, nur 6 %. Viel Wasser und lange Zeit im Wasser kosten Vitamin C."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Regel hilft gegen welches Problem? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Beim Erhitzen gehen viele Vitamine verloren."
+            },
+            "right": {
+              "text": "Nur kurz und schonend garen"
+            }
+          },
+          {
+            "left": {
+              "text": "Durch Zerkleinern kommt der Saft mit Sauerstoff in Kontakt."
+            },
+            "right": {
+              "text": "Möglichst große Stücke schneiden"
+            }
+          },
+          {
+            "left": {
+              "text": "Im Kochwasser geht viel Vitamin C über."
+            },
+            "right": {
+              "text": "Die Garflüssigkeit für Soßen oder Suppen verwenden"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Frag dich bei jeder Regel: Wogegen hilft sie? Gegen die Hitze, gegen den Sauerstoff oder gegen den Verlust im Wasser?"
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🔢 Gemüse vom Einkauf bis zum Teller: Bringe die Schritte in eine gute Reihenfolge.",
+        "steps": [
+          {
+            "text": "Gemüse frisch kaufen"
+          },
+          {
+            "text": "Kühl und dunkel lagern"
+          },
+          {
+            "text": "Kurz vor dem Essen in kaltem Wasser waschen"
+          },
+          {
+            "text": "In große Stücke schneiden"
+          },
+          {
+            "text": "Gleich danach kurz dämpfen"
+          }
+        ],
+        "explanation": "Denk an den Weg vom Laden in die Küche. Wasch das Gemüse, solange es noch ganz ist. Nach dem Schneiden soll es nicht lange liegen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Welche Garart ist laut Blatt besser als Kochen in viel Wasser?",
+        "options": [
+          {
+            "text": "Dämpfen",
+            "correct": true
+          },
+          {
+            "text": "Lange kochen"
+          },
+          {
+            "text": "Stark anbraten"
+          }
+        ],
+        "explanation": "Das Blatt sagt: Garen im Dampf, zum Beispiel Dämpfen, ist besser als Kochen in viel Wasser."
+      }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "topic_slug": "pruefung-textilien",
+  "slug": "pruefung-textilien-05-baumwolle-eigenschaften-pflege",
+  "title": "Baumwolle: Eigenschaften, Pflege, Verwendung",
+  "sort": 5,
+  "intro": "Baumwolle hat viele gute Eigenschaften. Sie ist reißfest und strapazierfähig. Strapazierfähig heißt: Sie hält viel aus. Sie ist saugfähig. Saugfähig heißt: Sie nimmt viel Wasser auf, zum Beispiel Schweiß. Sie ist weich und hautfreundlich. Hautfreundlich heißt: Sie reizt die Haut nicht. Sie kühlt. Und sie lässt sich gut färben.\n\nMit einer besonderen Ausrüstung ist Baumwolle sogar kochfest. Ausrüstung heißt hier: Der Stoff wird in der Fabrik besonders behandelt. Kochfest heißt: Er verträgt eine Wäsche mit sehr heißem Wasser.\n\nBaumwolle hat auch Nachteile: Sie knittert. Knittern heißt: Der Stoff bekommt leicht Falten. Sie trocknet langsam. Sie ist wenig elastisch. Elastisch heißt: Der Stoff dehnt sich und geht wieder in seine Form zurück. Baumwolle muss gebügelt werden.\n\nPflege: Pflegeetikett beachten! Weiße, robuste Baumwolle ist häufig bei 60 °C waschbar. Robust heißt: fest und unempfindlich. Empfindliche und bunte Wäsche wäscht man bei niedrigerer Temperatur. Baumwolle kann einlaufen. Einlaufen heißt: Sie wird beim Waschen kleiner. Sie kann sich beim Waschen auch verziehen. Verziehen heißt: Sie verliert ihre Form. Darum: nicht zu stark schleudern. Baumwolle ist bügelbar.\n\nVerwendung: Kleidung wie T-Shirts, Hemden, Hosen und Jeans. Unterwäsche und Socken. Arbeits- und Berufskleidung. Bettwäsche und Handtücher. Heimtextilien wie Vorhänge und Tischdecken. Stofftaschen und Polsterstoffe. Heimtextilien sind Stoffe für die Wohnung.\n\nMERKE: Baumwolle ist saugfähig, hautfreundlich und reißfest. Aber sie knittert und trocknet langsam.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👍 Baumwolle: Vorteil oder Nachteil? Sortiere die Eigenschaften.",
+        "buckets": [
+          {
+            "id": "vor",
+            "label": "Vorteil",
+            "icon": "👍"
+          },
+          {
+            "id": "nach",
+            "label": "Nachteil",
+            "icon": "👎"
+          }
+        ],
+        "items": [
+          {
+            "text": "saugfähig",
+            "bucket": "vor"
+          },
+          {
+            "text": "hautfreundlich",
+            "bucket": "vor"
+          },
+          {
+            "text": "reißfest",
+            "bucket": "vor"
+          },
+          {
+            "text": "lässt sich gut färben",
+            "bucket": "vor"
+          },
+          {
+            "text": "knittert",
+            "bucket": "nach"
+          },
+          {
+            "text": "trocknet langsam",
+            "bucket": "nach"
+          },
+          {
+            "text": "wenig elastisch",
+            "bucket": "nach"
+          },
+          {
+            "text": "kann einlaufen",
+            "bucket": "nach"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Eigenschaft: Hilft sie beim Tragen und Benutzen? Oder macht sie Arbeit oder Ärger beim Waschen, Trocknen und Bügeln?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Baumwolle ist saugfähig. Was heißt das?",
+        "options": [
+          {
+            "text": "Sie nimmt viel Wasser auf.",
+            "correct": true
+          },
+          {
+            "text": "Sie lässt Wasser abperlen."
+          },
+          {
+            "text": "Sie trocknet sehr schnell."
+          }
+        ],
+        "explanation": "Saugfähig heißt: Der Stoff nimmt viel Wasser auf, zum Beispiel Schweiß. Darum sind Handtücher oft aus Baumwolle. Wasser perlt nur bei wasserdichten Stoffen ab. Und Baumwolle trocknet nicht schnell, sondern langsam."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Wie fühlt sich ein Baumwoll-T-Shirt an einem warmen Tag an?",
+        "options": [
+          {
+            "text": "Weich, hautfreundlich und angenehm kühl",
+            "correct": true
+          },
+          {
+            "text": "Kratzig und warm wie ein dicker Pullover"
+          },
+          {
+            "text": "Glatt und luftdicht wie eine Plastiktüte"
+          }
+        ],
+        "explanation": "Baumwolle ist weich und hautfreundlich. Sie reizt die Haut nicht. Und sie kühlt. Darum ist ein Baumwoll-T-Shirt im Sommer angenehm. Kratzig und warm ist Baumwolle nicht. Und luftdicht wie Plastik ist sie auch nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Welche Baumwolle ist häufig bei 60 °C waschbar?",
+        "options": [
+          {
+            "text": "Weiße, robuste Baumwolle",
+            "correct": true
+          },
+          {
+            "text": "Empfindliche, bunte Baumwolle"
+          },
+          {
+            "text": "Jede Baumwolle, egal was auf dem Etikett steht"
+          }
+        ],
+        "explanation": "Weiße, robuste Baumwolle ist häufig bei 60 °C waschbar. Empfindliche und bunte Wäsche wäscht man kühler. Und immer gilt: Pflegeetikett beachten!"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👕 Dein buntes Baumwoll-T-Shirt ist nach dem Waschen kleiner. Was ist passiert?",
+        "options": [
+          {
+            "text": "Es ist eingelaufen.",
+            "correct": true
+          },
+          {
+            "text": "Es ist ausgeblichen."
+          },
+          {
+            "text": "Es ist elastischer geworden."
+          }
+        ],
+        "explanation": "Baumwolle kann einlaufen. Das heißt: Sie wird beim Waschen kleiner. Ausbleichen heißt: Die Farbe wird heller. Elastischer wird Baumwolle nicht – sie ist wenig elastisch."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Pflege von Baumwolle: Stimmt das? Sortiere.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Stimmt nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Pflegeetikett beachten.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Nicht zu stark schleudern.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Bunte Wäsche bei niedrigerer Temperatur waschen.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Baumwolle kann sich beim Waschen verziehen.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Baumwolle ist bügelbar.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Baumwolle trocknet sehr schnell.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Baumwolle kann nie einlaufen.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Baumwolle muss nie gebügelt werden.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Frag dich bei jedem Satz: Schützt diese Regel die Baumwolle beim Waschen? Und passt die Aussage zu dem, was du über Trocknen, Einlaufen und Bügeln gelernt hast?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔥 Baumwolle ist kochfest bei geeigneter Ausrüstung. Was heißt das?",
+        "options": [
+          {
+            "text": "Nach einer besonderen Behandlung verträgt sie sehr heißes Waschen.",
+            "correct": true
+          },
+          {
+            "text": "Man kann sie in der Küche zum Kochen und Backen benutzen."
+          },
+          {
+            "text": "Sie geht beim Waschen mit heißem Wasser schnell kaputt."
+          }
+        ],
+        "explanation": "Ausrüstung heißt hier: Der Stoff wird in der Fabrik besonders behandelt. Dann ist Baumwolle kochfest. Sie verträgt also eine Wäsche mit sehr heißem Wasser. Mit Kochen in der Küche hat das nichts zu tun."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧵 Wofür nimmt man Baumwolle? Sortiere.",
+        "buckets": [
+          {
+            "id": "kleid",
+            "label": "Kleidung",
+            "icon": "👕"
+          },
+          {
+            "id": "wohnung",
+            "label": "Für die Wohnung",
+            "icon": "🏠"
+          }
+        ],
+        "items": [
+          {
+            "text": "T-Shirts",
+            "bucket": "kleid"
+          },
+          {
+            "text": "Hemden",
+            "bucket": "kleid"
+          },
+          {
+            "text": "Hosen",
+            "bucket": "kleid"
+          },
+          {
+            "text": "Jeans",
+            "bucket": "kleid"
+          },
+          {
+            "text": "Bettwäsche",
+            "bucket": "wohnung"
+          },
+          {
+            "text": "Vorhänge",
+            "bucket": "wohnung"
+          },
+          {
+            "text": "Tischdecken",
+            "bucket": "wohnung"
+          },
+          {
+            "text": "Polsterstoffe",
+            "bucket": "wohnung"
+          }
+        ],
+        "explanation": "Frag dich: Zieht man es an? Dann ist es Kleidung. Liegt oder hängt es in der Wohnung, zum Beispiel auf dem Bett, am Fenster, auf dem Tisch oder auf dem Sofa? Dann ist es für die Wohnung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Warum passt Baumwolle so gut? Verbinde Eigenschaft und Verwendung.",
+        "pairs": [
+          {
+            "left": {
+              "text": "saugfähig"
+            },
+            "right": {
+              "text": "🛁 Handtuch: Es soll nach dem Duschen das Wasser aufnehmen."
+            }
+          },
+          {
+            "left": {
+              "text": "strapazierfähig"
+            },
+            "right": {
+              "text": "🦺 Arbeitskleidung: Sie soll bei harter Arbeit lange halten."
+            }
+          },
+          {
+            "left": {
+              "text": "hautfreundlich"
+            },
+            "right": {
+              "text": "🩲 Unterwäsche: Sie soll die Haut nicht reizen."
+            }
+          },
+          {
+            "left": {
+              "text": "lässt sich gut färben"
+            },
+            "right": {
+              "text": "👜 Stofftasche: Es gibt sie in vielen Farben."
+            }
+          }
+        ],
+        "explanation": "Frag dich: Was soll das Ding besonders gut können? Welche Eigenschaft der Baumwolle hilft genau dabei?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏷️ Was solltest du vor dem Waschen von Baumwolle immer tun?",
+        "options": [
+          {
+            "text": "Das Pflegeetikett beachten",
+            "correct": true
+          },
+          {
+            "text": "Die Kleidung in den Kühlschrank legen"
+          },
+          {
+            "text": "Die Kleidung vorher bügeln"
+          }
+        ],
+        "explanation": "Auf dem Pflegeetikett steht, wie heiß du waschen darfst. Darum: Pflegeetikett immer beachten!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "topic_slug": "pruefung-vitamine",
+  "slug": "pruefung-vitamine-09-vitamin-quiz-wie-im-test",
+  "title": "Vitamin-Quiz wie im Test",
+  "sort": 9,
+  "intro": "Hier kommen alle 10 Fragen vom Vitamin-Quiz. Manche sind ein bisschen anders gestellt. So lernst du den Inhalt und nicht nur die Antwort.\n\nVitamin A ist wichtig für die Sehkraft. Eine gute Quelle sind Karotten. Sie enthalten Beta-Carotin, eine Vorstufe von Vitamin A.\n\nVitamin D ist wichtig für Knochen und Zähne. Eine gute Quelle ist fetter Fisch.\n\nVitamin C unterstützt die Abwehrkräfte. Viel Vitamin C steckt in Paprika, Orangen und Kiwis.\n\nDie B-Vitamine unterstützen Nerven und Stoffwechsel. Laut Quiz steckt Vitamin B1 besonders in Vollkornbrot und Haferflocken. Laut Tabelle hat Getreide Vitamin B1 und B2. Vitamin B2 steckt unter anderem in Milch, Joghurt und Käse.\n\nMERKE: A für die Augen, D für Knochen und Zähne, C für die Abwehr, B für Nerven und Stoffwechsel.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👁️ Welches Vitamin ist besonders wichtig für die Sehkraft?",
+        "options": [
+          {
+            "text": "Vitamin A",
+            "correct": true
+          },
+          {
+            "text": "Vitamin C"
+          },
+          {
+            "text": "Vitamin D"
+          },
+          {
+            "text": "Vitamin B1"
+          }
+        ],
+        "explanation": "Vitamin A ist wichtig für die Sehkraft. Merkhilfe: A wie Augen. Vitamin C stärkt die Abwehrkräfte, Vitamin D ist für Knochen und Zähne. B1 gehört zu den B-Vitaminen für Nerven und Stoffwechsel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦴 Welches Vitamin ist besonders wichtig für Knochen und Zähne?",
+        "options": [
+          {
+            "text": "Vitamin D",
+            "correct": true
+          },
+          {
+            "text": "Vitamin B2"
+          },
+          {
+            "text": "Vitamin A"
+          },
+          {
+            "text": "Vitamin C"
+          }
+        ],
+        "explanation": "Vitamin D ist notwendig für den Aufbau der Knochen und Zähne. Vitamin A ist für die Sehkraft, Vitamin C für die Abwehrkräfte. B2 gehört zu den B-Vitaminen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍊 Welche Lebensmittel enthalten besonders viel Vitamin C? Sortiere.",
+        "buckets": [
+          {
+            "id": "viel",
+            "label": "Viel Vitamin C",
+            "icon": "🍊"
+          },
+          {
+            "id": "wenig",
+            "label": "Kaum Vitamin C",
+            "icon": "➖"
+          }
+        ],
+        "items": [
+          {
+            "text": "Paprika",
+            "bucket": "viel"
+          },
+          {
+            "text": "Orange",
+            "bucket": "viel"
+          },
+          {
+            "text": "Kiwi",
+            "bucket": "viel"
+          },
+          {
+            "text": "Erdbeeren",
+            "bucket": "viel"
+          },
+          {
+            "text": "Butter",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Käse",
+            "bucket": "wenig"
+          },
+          {
+            "text": "Haferflocken",
+            "bucket": "wenig"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Karte: Ist es frisches Obst oder Gemüse? Dann steckt viel Vitamin C darin. Fette, Milchprodukte und Getreide liefern andere Vitamine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Welches Vitamin steckt besonders in Vollkornbrot und Haferflocken?",
+        "options": [
+          {
+            "text": "Vitamin B1",
+            "correct": true
+          },
+          {
+            "text": "Vitamin D"
+          },
+          {
+            "text": "Vitamin C"
+          },
+          {
+            "text": "Vitamin A"
+          }
+        ],
+        "explanation": "Vollkornbrot und Haferflocken sind Getreideprodukte. Laut Tabelle liefern sie Vitamin B1 und B2. Von den Antworten passt nur B1. Vitamin D steckt zum Beispiel in Fisch, Vitamin C in Obst und Vitamin A in Karotten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Richtig oder falsch? Sortiere.",
+        "buckets": [
+          {
+            "id": "richtig",
+            "label": "Richtig",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Falsch",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Vitamin B2 ist unter anderem in Milch, Joghurt und Käse enthalten.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Vitamin C unterstützt die Abwehrkräfte.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Fetter Fisch liefert Vitamin D.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Vitamin D ist hauptsächlich für Knochen und Zähne wichtig.",
+            "bucket": "richtig"
+          },
+          {
+            "text": "Vitamin D ist hauptsächlich für die Sehkraft verantwortlich.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Vitamin A steckt vor allem in Vollkornnudeln.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "B-Vitamine sorgen nur für starke Zähne.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüf bei jedem Satz zwei Dinge: Passt das Vitamin zur Aufgabe? Passt das Lebensmittel zum Vitamin? Wörter wie „nur“ oder „hauptsächlich“ machen einen Satz nicht automatisch falsch. Prüf immer den Inhalt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Welches Vitamin unterstützt besonders die normale Funktion der Abwehrkräfte?",
+        "options": [
+          {
+            "text": "Vitamin C",
+            "correct": true
+          },
+          {
+            "text": "Vitamin D"
+          },
+          {
+            "text": "Vitamin B1"
+          },
+          {
+            "text": "Vitamin B2"
+          }
+        ],
+        "explanation": "Vitamin C stärkt die Abwehrkraft. Abwehrkraft heißt: Der Körper wehrt sich gegen Krankheiten. Vitamin D ist für Knochen und Zähne. B1 und B2 sind für Nerven und Stoffwechsel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔍 Welches Lebensmittel ist eine gute Quelle für Vitamin A in Form von Beta-Carotin?",
+        "options": [
+          {
+            "text": "Karotte",
+            "correct": true
+          },
+          {
+            "text": "Vollkornreis"
+          },
+          {
+            "text": "Haferflocken"
+          },
+          {
+            "text": "Kartoffel"
+          }
+        ],
+        "explanation": "Beta-Carotin ist eine Vorstufe von Vitamin A. Es macht die Karotten orange. Vollkornreis und Haferflocken liefern Vitamin B1. Kartoffeln liefern Vitamin C und B2."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Wofür ist Vitamin D hauptsächlich wichtig?",
+        "options": [
+          {
+            "text": "Für Knochen und Zähne",
+            "correct": true
+          },
+          {
+            "text": "Für die Sehkraft"
+          },
+          {
+            "text": "Für die Abwehrkräfte"
+          }
+        ],
+        "explanation": "Vitamin D ist wichtig für Knochen und Zähne. Für die Sehkraft ist Vitamin A wichtig. Die Abwehrkräfte unterstützt Vitamin C. Darum ist der Satz „Vitamin D ist hauptsächlich für die Sehkraft verantwortlich“ falsch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Welche Aufgabe haben die B-Vitamine laut Arbeitsblatt?",
+        "options": [
+          {
+            "text": "Sie unterstützen Nerven und Stoffwechsel.",
+            "correct": true
+          },
+          {
+            "text": "Sie sorgen nur für starke Zähne."
+          },
+          {
+            "text": "Sie ersetzen die Abwehrkräfte."
+          },
+          {
+            "text": "Sie verbessern nur die Sehkraft."
+          }
+        ],
+        "explanation": "B-Vitamine sind wichtig für die Nerven und den Stoffwechsel der Zellen. Für die Zähne ist Vitamin D wichtig, für die Sehkraft Vitamin A. Vitamine ersetzen die Abwehrkräfte nicht. Vitamin C stärkt sie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐟 Welches Lebensmittel liefert Vitamin D?",
+        "options": [
+          {
+            "text": "Fetter Fisch",
+            "correct": true
+          },
+          {
+            "text": "Orange"
+          },
+          {
+            "text": "Paprika"
+          },
+          {
+            "text": "Vollkornnudeln"
+          }
+        ],
+        "explanation": "Fetter Fisch liefert Vitamin D. Orangen und Paprika liefern Vitamin C. Vollkornnudeln liefern Vitamin B1."
+      }
+    }
+  ]
+}

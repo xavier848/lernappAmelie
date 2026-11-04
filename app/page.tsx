@@ -40,7 +40,7 @@ import {
 } from "@/lib/suggestions";
 import type { ProgressRow, TopicWithLessons } from "@/lib/types";
 import { groupTopicsByCategory } from "@/lib/categories";
-import { trennePruefungsThemen } from "@/lib/pruefung";
+import { kurzName, trennePruefungsThemen } from "@/lib/pruefung";
 import { CategoryCard } from "@/components/path/CategoryCard";
 import { PonyMeadow } from "@/components/ui/PonyMeadow";
 
@@ -205,8 +205,11 @@ function PruefungsKarte({
 }) {
   const lektionen = themen.flatMap((t) => t.lessons);
   const geschafft = lektionen.filter((l) => erledigt.has(l.id)).length;
+  // Mehrere Pruefungen: alle mit Kurznamen ("Wahrnehmung · Textilien").
   const titel =
-    themen.length === 1 ? themen[0].title : `${themen.length} Prüfungen`;
+    themen.length === 1
+      ? themen[0].title
+      : themen.map((t) => kurzName(t.title)).join(" · ");
   return (
     <Link
       href="/pruefungstraining"
