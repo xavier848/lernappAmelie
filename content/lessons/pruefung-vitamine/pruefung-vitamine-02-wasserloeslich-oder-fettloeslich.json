@@ -1,0 +1,243 @@
+{
+  "topic_slug": "pruefung-vitamine",
+  "slug": "pruefung-vitamine-02-wasserloeslich-oder-fettloeslich",
+  "title": "Wasserlöslich oder fettlöslich?",
+  "sort": 2,
+  "intro": "Es gibt zwei Gruppen von Vitaminen: wasserlösliche Vitamine und fettlösliche Vitamine.\n\nWasserlöslich heißt: Das Vitamin löst sich in Wasser. Wasserlöslich sind die B-Vitamine und Vitamin C. Zu den B-Vitaminen gehören B1, B2, B6 und B12. Auch Biotin, Folsäure, Niacin und Pantothensäure gehören dazu.\n\nFettlöslich heißt: Das Vitamin löst sich in Fett. Fettlöslich sind die Vitamine A, D, E und K.\n\nMerkhilfe für die fettlöslichen Vitamine: EDEKA. In diesem Wort stecken die Buchstaben E, D, K und A.\n\nGut zu wissen für die Küche: Vitamin C löst sich in Wasser. Darum geht beim Kochen viel Vitamin C ins Kochwasser über.\n\nMERKE: Wasserlöslich sind die B-Vitamine und Vitamin C. Fettlöslich sind A, D, E und K.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💧 Welche Vitamine sind wasserlöslich?",
+        "options": [
+          {
+            "text": "Die B-Vitamine und Vitamin C",
+            "correct": true
+          },
+          {
+            "text": "Die Vitamine A, D, E und K"
+          },
+          {
+            "text": "Vitamin A, Vitamin C und Vitamin D"
+          }
+        ],
+        "explanation": "Wasserlöslich sind die B-Vitamine und Vitamin C. A, D, E und K lösen sich in Fett. Darum passt auch die Mischung mit A und D nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Welche Vitamine sind fettlöslich?",
+        "options": [
+          {
+            "text": "Vitamin A, D, E und K",
+            "correct": true
+          },
+          {
+            "text": "Vitamin B1, B2, B6 und B12"
+          },
+          {
+            "text": "Vitamin C, D, E und K"
+          }
+        ],
+        "explanation": "Fettlöslich sind A, D, E und K. Merkhilfe: EDEKA. Die B-Vitamine und Vitamin C lösen sich in Wasser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Was heißt fettlöslich?",
+        "options": [
+          {
+            "text": "Das Vitamin löst sich in Fett.",
+            "correct": true
+          },
+          {
+            "text": "Das Vitamin macht dick."
+          },
+          {
+            "text": "Das Vitamin steckt nur in Butter."
+          }
+        ],
+        "explanation": "Fettlöslich heißt: Das Vitamin löst sich in Fett. Mit dick werden hat das nichts zu tun. Fettlösliche Vitamine stecken auch nicht nur in Butter. Vitamin A steckt zum Beispiel auch in Karotten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Wasserlöslich oder fettlöslich? Sortiere die Vitamine.",
+        "buckets": [
+          {
+            "id": "wasser",
+            "label": "Wasserlöslich",
+            "icon": "💧"
+          },
+          {
+            "id": "fett",
+            "label": "Fettlöslich",
+            "icon": "🧈"
+          }
+        ],
+        "items": [
+          {
+            "text": "Vitamin C",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Vitamin B12",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Folsäure",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Niacin",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Vitamin A",
+            "bucket": "fett"
+          },
+          {
+            "text": "Vitamin D",
+            "bucket": "fett"
+          },
+          {
+            "text": "Vitamin E",
+            "bucket": "fett"
+          },
+          {
+            "text": "Vitamin K",
+            "bucket": "fett"
+          }
+        ],
+        "explanation": "Denk an die Merkhilfe EDEKA: Nur die Buchstaben E, D, K und A sind fettlöslich. Alle B-Vitamine und Vitamin C sind wasserlöslich. Folsäure und Niacin gehören zu den B-Vitaminen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍊 Ein Vitamin löst sich in Wasser. Welches kann es sein?",
+        "options": [
+          {
+            "text": "Vitamin B12",
+            "correct": true
+          },
+          {
+            "text": "Vitamin A"
+          },
+          {
+            "text": "Vitamin D"
+          },
+          {
+            "text": "Vitamin E"
+          }
+        ],
+        "explanation": "Wasserlöslich sind die B-Vitamine und Vitamin C. Darum passt Vitamin B12. A, D und E sind fettlöslich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔢 Wie viele fettlösliche Vitamine nennt das Blatt?",
+        "options": [
+          {
+            "text": "Vier: A, D, E und K",
+            "correct": true
+          },
+          {
+            "text": "Zwei: B und C"
+          },
+          {
+            "text": "Drei: A, C und E"
+          }
+        ],
+        "explanation": "Das Blatt nennt vier fettlösliche Vitamine: A, D, E und K. B und C sind wasserlöslich. Darum passt auch die Reihe mit C nicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Stimmt das? Sortiere.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Stimmt nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Alle B-Vitamine sind wasserlöslich.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Vitamin E ist fettlöslich.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Biotin ist wasserlöslich.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Vitamin A ist wasserlöslich.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Vitamin K löst sich in Wasser.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Vitamin C ist fettlöslich.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüf bei jeder Karte den Buchstaben. Steckt er in EDEKA, ist das Vitamin fettlöslich. Alle anderen sind wasserlöslich. Biotin, Folsäure und Niacin gehören zu den B-Vitaminen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥦 Du kochst Gemüse in viel Wasser. Welches Vitamin geht dabei leicht ins Kochwasser über?",
+        "options": [
+          {
+            "text": "Vitamin C, weil es wasserlöslich ist",
+            "correct": true
+          },
+          {
+            "text": "Vitamin D, weil es wasserlöslich ist"
+          },
+          {
+            "text": "Vitamin K, weil es fettlöslich ist"
+          }
+        ],
+        "explanation": "Vitamin C löst sich in Wasser. Darum geht beim Kochen viel Vitamin C ins Kochwasser über. Vitamin D und K sind fettlöslich. Sie lösen sich nicht in Wasser."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Zu welcher Gruppe gehört Vitamin C?",
+        "options": [
+          {
+            "text": "Zu den wasserlöslichen Vitaminen",
+            "correct": true
+          },
+          {
+            "text": "Zu den fettlöslichen Vitaminen"
+          },
+          {
+            "text": "Zu keiner Gruppe"
+          }
+        ],
+        "explanation": "Vitamin C löst sich in Wasser. Es gehört zu den wasserlöslichen Vitaminen, genau wie die B-Vitamine."
+      }
+    }
+  ]
+}

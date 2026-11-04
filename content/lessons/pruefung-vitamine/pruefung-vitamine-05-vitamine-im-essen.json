@@ -1,0 +1,309 @@
+{
+  "topic_slug": "pruefung-vitamine",
+  "slug": "pruefung-vitamine-05-vitamine-im-essen",
+  "title": "Welche Vitamine stecken im Essen?",
+  "sort": 5,
+  "intro": "Vitamine stecken in vielen Lebensmitteln. Das Blatt „Täglich Vitamine“ zeigt ein Bild mit fünf Feldern. In jedem Feld liegen Lebensmittel mit einem bestimmten Vitamin.\n\nFeld Vitamin A: Butter, Margarine, Karotten, Eier, Leberwurst, Grünkohl und Spinat. Karotten enthalten Beta-Carotin. Beta-Carotin ist eine Vorstufe von Vitamin A. Der Körper macht daraus Vitamin A.\n\nFeld Vitamin D: Fisch, Eier, Pilze, Butter, Margarine und Fleisch.\n\nFeld Vitamin C: Zitrone, Orange, Paprika, Erdbeeren, Kiwi, Kartoffeln und Grünkohl.\n\nFeld Vitamin B1: Haferflocken, Vollkornreis, Vollkornnudeln, Erbsen, Bohnen, Nüsse und Fleisch.\n\nFeld Vitamin B2: Milch, Joghurt, Käse, Vollkornbrot, Eier, Fisch und Kartoffeln.\n\nDie Tabelle auf dem Blatt: Getreide und Getreideprodukte haben Vitamin B1 und B2. Gemüse hat Vitamin A und C. Obst hat Vitamin C. Eier haben Vitamin A, D und B2. Fisch hat Vitamin D und B2.\n\nKartoffeln haben Vitamin C und B2. Hülsenfrüchte haben Vitamin B1 und B2. Hülsenfrüchte sind zum Beispiel Erbsen, Bohnen und Linsen. Milch hat Vitamin B2 und auch A. Fleisch hat Vitamin B1, D und A. Fette und Öle haben Vitamin A und D.\n\nMERKE: Obst liefert Vitamin C. Fette liefern A und D. Getreide liefert B1 und B2. Fisch liefert D und B2.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Vitamine stecken laut Tabelle darin? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "🍎 Obst"
+            },
+            "right": {
+              "text": "Vitamin C"
+            }
+          },
+          {
+            "left": {
+              "text": "🥦 Gemüse"
+            },
+            "right": {
+              "text": "Vitamin A und C"
+            }
+          },
+          {
+            "left": {
+              "text": "🧈 Fette und Öle"
+            },
+            "right": {
+              "text": "Vitamin A und D"
+            }
+          },
+          {
+            "left": {
+              "text": "🐟 Fisch"
+            },
+            "right": {
+              "text": "Vitamin D und B2"
+            }
+          },
+          {
+            "left": {
+              "text": "🌾 Getreide und Getreideprodukte"
+            },
+            "right": {
+              "text": "Vitamin B1 und B2"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Denk an das Bild vom Blatt. Such das Lebensmittel in allen Feldern. Jedes Feld, in dem es liegt, ist ein Vitamin. Butter und Margarine sind Fette."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Und diese Lebensmittel? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "🥚 Eier"
+            },
+            "right": {
+              "text": "Vitamin A, D und B2"
+            }
+          },
+          {
+            "left": {
+              "text": "🥔 Kartoffeln"
+            },
+            "right": {
+              "text": "Vitamin C und B2"
+            }
+          },
+          {
+            "left": {
+              "text": "🫘 Hülsenfrüchte"
+            },
+            "right": {
+              "text": "Vitamin B1 und B2"
+            }
+          },
+          {
+            "left": {
+              "text": "🥛 Milch"
+            },
+            "right": {
+              "text": "Vitamin B2 (und A)"
+            }
+          },
+          {
+            "left": {
+              "text": "🥩 Fleisch"
+            },
+            "right": {
+              "text": "Vitamin B1, D und A"
+            }
+          }
+        ],
+        "memory": false,
+        "explanation": "Such das Lebensmittel auf dem Bild in allen Feldern. Jedes Feld zählt. Hülsenfrüchte sind Erbsen, Bohnen und Linsen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥛 Welches Vitamin steckt laut Bild in Milch, Joghurt und Käse?",
+        "options": [
+          {
+            "text": "Vitamin B2",
+            "correct": true
+          },
+          {
+            "text": "Vitamin C"
+          },
+          {
+            "text": "Vitamin K"
+          },
+          {
+            "text": "Vitamin B1"
+          }
+        ],
+        "explanation": "Milch, Joghurt und Käse liegen im Feld von Vitamin B2. Vitamin C steckt vor allem in Obst und Gemüse. Vitamin K steht auf dem Bild gar nicht. Vitamin B1 steckt in Haferflocken, Vollkornreis und Hülsenfrüchten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🖼️ Denk an das Bild vom Blatt: In welchem Feld liegt das Lebensmittel? Sortiere.",
+        "buckets": [
+          {
+            "id": "a",
+            "label": "Vitamin A"
+          },
+          {
+            "id": "c",
+            "label": "Vitamin C"
+          },
+          {
+            "id": "b1",
+            "label": "Vitamin B1"
+          }
+        ],
+        "items": [
+          {
+            "text": "Karotten",
+            "bucket": "a"
+          },
+          {
+            "text": "Leberwurst",
+            "bucket": "a"
+          },
+          {
+            "text": "Zitrone",
+            "bucket": "c"
+          },
+          {
+            "text": "Kiwi",
+            "bucket": "c"
+          },
+          {
+            "text": "Erdbeeren",
+            "bucket": "c"
+          },
+          {
+            "text": "Haferflocken",
+            "bucket": "b1"
+          },
+          {
+            "text": "Vollkornnudeln",
+            "bucket": "b1"
+          },
+          {
+            "text": "Erbsen",
+            "bucket": "b1"
+          }
+        ],
+        "explanation": "Frag dich bei jedem Lebensmittel: Ist es Obst? Ist es Getreide oder eine Hülsenfrucht wie Erbsen? Oder liegt es oben links bei Butter und Margarine?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥕 Karotten enthalten Beta-Carotin. Was ist Beta-Carotin?",
+        "options": [
+          {
+            "text": "Eine Vorstufe von Vitamin A",
+            "correct": true
+          },
+          {
+            "text": "Eine Form von Vitamin C"
+          },
+          {
+            "text": "Ein anderer Name für Vitamin D"
+          }
+        ],
+        "explanation": "Beta-Carotin ist eine Vorstufe von Vitamin A. Der Körper macht daraus Vitamin A. Es macht die Karotten orange. Mit Vitamin C und Vitamin D hat es nichts zu tun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Herr Weber soll mehr Vitamin C essen. Was passt am besten?",
+        "options": [
+          {
+            "text": "Paprika und Kiwi",
+            "correct": true
+          },
+          {
+            "text": "Butter und Margarine"
+          },
+          {
+            "text": "Leberwurst und Käse"
+          },
+          {
+            "text": "Haferflocken und Vollkornreis"
+          }
+        ],
+        "explanation": "Viel Vitamin C steckt in Obst und Gemüse, zum Beispiel in Paprika, Kiwi, Orangen und Erdbeeren. Butter und Margarine liefern A und D. Leberwurst liefert A, Käse B2. Haferflocken und Vollkornreis liefern B-Vitamine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦴 Frau Lang braucht Vitamin D für die Knochen. Welches Lebensmittel liefert laut Bild Vitamin D?",
+        "options": [
+          {
+            "text": "Fisch",
+            "correct": true
+          },
+          {
+            "text": "Erdbeeren"
+          },
+          {
+            "text": "Haferflocken"
+          },
+          {
+            "text": "Kiwi"
+          }
+        ],
+        "explanation": "Vitamin D steckt laut Bild in Fisch, Eiern, Pilzen, Butter, Margarine und Fleisch. Erdbeeren und Kiwi liefern Vitamin C. Haferflocken liefern B-Vitamine."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Welches Lebensmittel liefert laut Tabelle die Vitamine B1 und B2?",
+        "options": [
+          {
+            "text": "Vollkornbrot",
+            "correct": true
+          },
+          {
+            "text": "Orange"
+          },
+          {
+            "text": "Butter"
+          },
+          {
+            "text": "Paprika"
+          }
+        ],
+        "explanation": "Vollkornbrot ist ein Getreideprodukt. Getreide liefert Vitamin B1 und B2. Orangen und Paprika liefern Vitamin C. Butter ist ein Fett, sie liefert Vitamin A und D."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧈 Butter und Margarine sind Fette. Welche Vitamine liefern Fette und Öle laut Tabelle?",
+        "options": [
+          {
+            "text": "Vitamin A und D",
+            "correct": true
+          },
+          {
+            "text": "Vitamin C und B1"
+          },
+          {
+            "text": "Vitamin B2 und C"
+          }
+        ],
+        "explanation": "Butter und Margarine liegen im Feld von Vitamin A und im Feld von Vitamin D. Darum liefern Fette und Öle Vitamin A und D. Vitamin C steckt in Obst und Gemüse, B1 und B2 vor allem in Getreide."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Was steckt in Orangen, Zitronen und Paprika besonders viel?",
+        "options": [
+          {
+            "text": "Vitamin C",
+            "correct": true
+          },
+          {
+            "text": "Vitamin D"
+          },
+          {
+            "text": "Vitamin K"
+          }
+        ],
+        "explanation": "Orangen, Zitronen und Paprika liegen im Feld von Vitamin C. Obst und Gemüse liefern viel Vitamin C."
+      }
+    }
+  ]
+}
