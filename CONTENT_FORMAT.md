@@ -49,13 +49,13 @@ Auswertung und Beispiele: `docs/analyse-2026-09-15-amelie-lernstand.md`.
 
 ## Prüfungs-Training (Stoff für einen Test in der Schule)
 
-Schickt Mama Blätter für einen konkreten Test, kommt der Stoff in ein **eigenes Thema mit dem Slug-Präfix `pruefung-`** (Beispiel: `pruefung-unfall-arbeitsplatz-hygiene`, sort 900+). Solche Themen (Logik in `lib/pruefung.ts`):
+Schickt Mama Blätter für einen konkreten Test, kommt der Stoff in ein **eigenes Thema mit dem Slug-Präfix `pruefung-`** (Beispiel: `pruefung-unfall-arbeitsplatz-hygiene`, sort 900+). **Ein Thema = eine Prüfung.** Es können mehrere Prüfungen gleichzeitig laufen, z. B. `pruefung-wahrnehmung`, `pruefung-textilien` und `pruefung-vitamine`. Stoff aus einem anderen Fach bekommt immer sein eigenes Thema, auch wenn er auf denselben Fotos kam. Solche Themen (Logik in `lib/pruefung.ts`):
 
-- erscheinen **nicht** in den Bereichen und nicht in „Für dich heute“, sondern nur auf `/pruefungstraining` (Kachel „🎯 Prüfungs-Training“ ganz oben auf der Startseite),
+- erscheinen **nicht** in den Bereichen und nicht in „Für dich heute“, sondern nur im Prüfungs-Training (Kachel „🎯 Prüfungs-Training“ ganz oben auf der Startseite). `/pruefungstraining` zeigt jede Prüfung als Karte. `/pruefungstraining/<slug>` zeigt die Lektionen dieser einen Prüfung,
 - sind vom **Lernfluss ausgenommen**: keine Wiederholungspflicht, keine Themen-Pause, keine 🔒-Reihenfolge – Amelie kann sie immer spielen. Sie zählen umgekehrt auch nicht für die Sperren der normalen Lektionen,
-- bekommen dort zusätzlich „Test üben“: 20 gemischte Fragen aus allen Lektionen des Themas, zuerst was noch nie oder zuletzt falsch beantwortet wurde, danach „Fehler üben“.
+- bekommen auf ihrer Seite zusätzlich „Test üben“: 20 gemischte Fragen aus allen Lektionen **dieser** Prüfung, zuerst was noch nie oder zuletzt falsch beantwortet wurde, danach „Fehler üben“. Andere Prüfungen mischen nicht mit.
 
-Regeln für den Inhalt: **Wirklich alles** von den Blättern muss in mindestens einer Übung abgefragt werden (nicht nur in der Einführung). Jede Lektion bekommt eine Einführung als Lernzettel. Lückentexte des Blattes als eigene Lektion „wie im Test“, mit den Lösungsworten des Blattes als Distraktoren. Nach dem Test das Thema im Admin-Bereich auf „nicht veröffentlicht“ stellen – dann verschwindet die Kachel. Eine neue Prüfung braucht keinen Code, nur ein neues `pruefung-…`-Thema.
+Regeln für den Inhalt: **Wirklich alles** von den Blättern muss in mindestens einer Übung abgefragt werden (nicht nur in der Einführung). Jede Lektion bekommt eine Einführung als Lernzettel. Lückentexte des Blattes als eigene Lektion „wie im Test“, mit den Lösungsworten des Blattes als Distraktoren. Nach dem Test das Thema im Admin-Bereich auf „nicht veröffentlicht“ stellen – dann verschwindet seine Karte (und ohne offene Prüfung auch die Kachel). Eine neue Prüfung braucht keinen Code, nur ein neues `pruefung-…`-Thema.
 
 ## Eine Lektion (JSON)
 

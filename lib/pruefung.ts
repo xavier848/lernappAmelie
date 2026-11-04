@@ -5,15 +5,20 @@
 // Pruefungsplattform", die sie IMMER benutzen kann.
 //
 // Regel: Ein Thema, dessen Slug mit "pruefung-" beginnt, ist Pruefungsstoff.
-// Solche Themen
+// Ein Thema ist genau eine Pruefung - es koennen mehrere gleichzeitig anstehen
+// (Xavier, 2026-11-04: Wahrnehmung, Textilien und Vitamine). Solche Themen
 //  - erscheinen nicht in den Bereichen und nicht in "Für dich heute",
-//    sondern nur auf der eigenen Seite /pruefungstraining;
+//    sondern nur im Pruefungs-Training: /pruefungstraining zeigt alle
+//    Pruefungen als Karten, /pruefungstraining/<slug> eine Pruefung mit
+//    ihren Lektionen und ihrem eigenen "Test üben" (nur Fragen dieser
+//    Pruefung);
 //  - sind vom Lernfluss (lib/lernfluss.ts) komplett ausgenommen: nie
 //    gesperrt, keine Themen-Pause, und sie zaehlen auch nicht fuer die
 //    Wiederholungspflicht der normalen Lektionen;
 //  - sind in beliebiger Reihenfolge spielbar (keine 🔒-Kette).
-// Ist die Pruefung vorbei, reicht es, das Thema im Admin-Bereich auf
-// "nicht veroeffentlicht" zu stellen - dann verschwindet die Kachel.
+// Ist eine Pruefung vorbei, reicht es, ihr Thema im Admin-Bereich auf
+// "nicht veroeffentlicht" zu stellen - dann verschwindet ihre Karte (und ohne
+// offene Pruefung die Kachel auf der Startseite).
 // Eine neue Pruefung braucht keinen Code: neues Thema "pruefung-..." anlegen.
 
 export const PRUEFUNG_PREFIX = "pruefung-";
@@ -21,6 +26,21 @@ export const PRUEFUNG_PREFIX = "pruefung-";
 /** Ist dieses Thema Pruefungsstoff (und damit vom Lernfluss ausgenommen)? */
 export function istPruefungsThema(topicSlug: string | null | undefined): boolean {
   return typeof topicSlug === "string" && topicSlug.startsWith(PRUEFUNG_PREFIX);
+}
+
+/** Seite einer einzelnen Pruefung im Pruefungs-Training. */
+export function pruefungsPfad(topicSlug: string): string {
+  return `/pruefungstraining/${topicSlug}`;
+}
+
+/**
+ * Kurzname einer Pruefung fuer die Startseiten-Kachel: alles vor dem ersten
+ * Doppelpunkt, Komma oder "&" ("Textilien: Baumwolle, Leinen & Seide" ->
+ * "Textilien").
+ */
+export function kurzName(titel: string): string {
+  const kurz = titel.split(/[:,&]/)[0].trim();
+  return kurz || titel.trim();
 }
 
 /** Teilt Themen in normale Themen und Pruefungs-Themen (Reihenfolge bleibt). */

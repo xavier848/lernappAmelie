@@ -308,6 +308,23 @@ export async function fetchExercisesForLessons(
   return (res.data ?? []) as ExerciseRow[];
 }
 
+/**
+ * Nur IDs (+ Lektion) der Uebungen - fuer Zaehler wie in der Uebersicht des
+ * Pruefungs-Trainings, wo die Inhalte selbst nicht gebraucht werden.
+ */
+export async function fetchExerciseIdsForLessons(
+  lessonIds: string[]
+): Promise<{ id: string; lesson_id: string }[]> {
+  if (lessonIds.length === 0) return [];
+  const supabase = supabaseBrowser();
+  const res = await supabase
+    .from("exercises")
+    .select("id, lesson_id")
+    .in("lesson_id", lessonIds);
+  if (res.error) throw res.error;
+  return (res.data ?? []) as { id: string; lesson_id: string }[];
+}
+
 /** Uebungen anhand ihrer IDs laden (fuer die faellige Wiederholung). */
 export async function fetchExercisesByIds(
   ids: string[]
@@ -339,8 +356,9 @@ export async function fetchAttemptsRaw(
 /**
  * Versuche eines Geraets NUR fuer bestimmte Uebungen, neueste zuerst -
  * Basis fuer das Pruefungs-Training (lib/pruefung.ts). Die IDs landen in der
- * URL: fuer ein Pruefungs-Thema (gut 100 Uebungen) unkritisch, aber nicht
- * fuer ALLE Uebungen der App verwenden (ab ~675 IDs lehnt der Server ab).
+ * URL: fuer EIN Pruefungs-Thema (100 bis 200 Uebungen) unkritisch, aber nicht
+ * fuer ALLE Uebungen der App verwenden (ab ~675 IDs lehnt der Server ab) -
+ * bei mehreren Pruefungen deshalb je Pruefung einzeln abfragen.
  */
 export async function fetchAttemptsForExercises(
   deviceId: string,

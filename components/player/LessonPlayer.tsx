@@ -11,7 +11,8 @@
 // bumpDailyActivity (Streak zaehlt).
 // Pruefungs-Lektionen (Thema "pruefung-...", lib/pruefung.ts) sind vom
 // Lernfluss ausgenommen: nie gesperrt, kein Eintrag im Lernfluss-Protokoll,
-// und "Weiter"/"Beenden" fuehren zurueck ins Pruefungs-Training.
+// und "Weiter"/"Beenden" fuehren zurueck zu ihrer Pruefung im
+// Pruefungs-Training (/pruefungstraining/<thema>).
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { exerciseSchema, type ExerciseInput } from "@/lib/content-schema";
@@ -35,7 +36,7 @@ import {
   themaGesperrtFuer,
   type LernEreignis,
 } from "@/lib/lernfluss";
-import { istPruefungsThema } from "@/lib/pruefung";
+import { istPruefungsThema, pruefungsPfad } from "@/lib/pruefung";
 import {
   LESSON_BONUS_XP,
   PRACTICE_XP_PER_EXERCISE,
@@ -468,19 +469,20 @@ export function LessonPlayer({
   }
 
   /**
-   * Wohin geht es nach der Lektion? Pruefungs-Lektionen zurueck ins
-   * Pruefungs-Training. Normale Lektionen nach dem Abschluss zurueck ins
-   * Thema, damit man dort gleich die naechste Lektion antippen kann (Mamas
-   * Wunsch, Sprachnachricht vom 2026-07-12). Abbrechen fuehrt wie bisher zur
-   * Startseite. Eingebettet (onExit) entscheidet die aufrufende Seite.
+   * Wohin geht es nach der Lektion? Pruefungs-Lektionen zurueck zu ihrer
+   * Pruefung im Pruefungs-Training. Normale Lektionen nach dem Abschluss
+   * zurueck ins Thema, damit man dort gleich die naechste Lektion antippen
+   * kann (Mamas Wunsch, Sprachnachricht vom 2026-07-12). Abbrechen fuehrt wie
+   * bisher zur Startseite. Eingebettet (onExit) entscheidet die aufrufende
+   * Seite.
    */
   function verlassen(nachAbschluss: boolean) {
     if (onExit) {
       onExit();
       return;
     }
-    if (pruefung) {
-      router.push("/pruefungstraining");
+    if (pruefung && topicSlug) {
+      router.push(pruefungsPfad(topicSlug));
       return;
     }
     if (nachAbschluss && mode === "lesson" && topicSlug) {

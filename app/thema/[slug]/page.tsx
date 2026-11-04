@@ -18,7 +18,7 @@ import { Mascot } from "@/components/ui/Mascot";
 import { pathStates, type LessonPathState } from "@/components/path/path-states";
 import { fetchLernEreignisse, fetchPath, fetchProgress } from "@/lib/data";
 import { getDeviceId, getProfile } from "@/lib/device";
-import { istPruefungsThema } from "@/lib/pruefung";
+import { istPruefungsThema, pruefungsPfad } from "@/lib/pruefung";
 import {
   berechneLernstand,
   naechsterSchrittText,
@@ -176,7 +176,7 @@ export default function ThemaPage() {
   // Pruefungs-Themen (lib/pruefung.ts) haben ihre eigene Seite ohne
   // Lernfluss - hier wuerden sonst Pause und Sperren angezeigt.
   useEffect(() => {
-    if (istPruefungsThema(slug)) router.replace("/pruefungstraining");
+    if (istPruefungsThema(slug)) router.replace(pruefungsPfad(slug));
   }, [slug, router]);
 
   useEffect(() => {
