@@ -64,6 +64,17 @@ Zwei Scans vom 04.11. (spanische Arbeitsblätter) gehören nicht zu Amelie. Xavi
 
 **Wahrnehmung** (`pruefung-wahrnehmung`, neu: 2 Lektionen, 19 Übungen): siehe `docs/pruefung-wahrnehmung-2026-10-27.md`.
 
+## Prüfung der Lektionen
+
+Alle neuen Lektionen sind einmal unabhängig gegen die Originalblätter geprüft worden: fachlich, didaktisch und sprachlich. Es gab keine falschen Fakten. Alle Befunde sind eingearbeitet:
+
+- erratbare Antworten (Länge, Emoji, gleicher Wortstamm, Wörter wie „nur“)
+- doppeldeutige Sortier- und Zuordnungsübungen
+- Erklärungen, die beim zweiten Versuch die Lösung verraten hätten
+- Lücken in der Abdeckung
+
+Der Prüfer der Textilien wollte Seide-Quiz-Frage 8 so üben lassen, wie sie gedruckt ist. Die App bleibt beim Leinen (siehe unten), weil die Zahlen im Schultext beim Leinen stehen.
+
 ## Widersprüche auf den Blättern und wie die App sie löst
 
 **Textilien**

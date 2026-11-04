@@ -62,6 +62,7 @@ Die Lektionen 16 und 17 sind einmal unabhängig geprüft worden, fachlich und di
 - Wahrnehmungsstörung heißt: Die Wahrnehmung ist eingeschränkt. Die Informationen werden nicht richtig oder unvollständig verarbeitet. Es entsteht ein falsches Abbild der Wirklichkeit. Das passt zu Lektion 7: Die Wahrnehmung ist für den Menschen echt, trotzdem kann man sich täuschen.
 - Das Bild mit Vase und Gesichtern zählt als Illusion, wie auf dem Blatt.
 - Die Einführung von Lektion 18 grenzt Wahrnehmungsstörungen von den Wahrnehmungsfehlern ab (Halo-Effekt, Primäreffekt usw. aus den Lektionen 12–17).
+- Die Lektionen 18 und 19 sind einmal unabhängig geprüft worden, fachlich und didaktisch. Alle Befunde sind eingearbeitet. Dazu gehört auch: Lektion 18 widerspricht nicht mehr dem Satz „Jede Wahrnehmung ist richtig – für den, der sie hat“ aus Lektion 7.
 - Lektion 19 übt die Hilfen mit Fällen aus der Betreuung:
   - Schwerhörigkeit: Hörgerät, ruhige Umgebung
   - Sehschwierigkeiten: Brille oder Lesebrille, gute Beleuchtung
