@@ -1,0 +1,338 @@
+{
+  "topic_slug": "pruefung-textilien",
+  "slug": "pruefung-textilien-02-naturfasern",
+  "title": "Naturfasern: tierisch, pflanzlich, mineralisch",
+  "sort": 2,
+  "intro": "Naturfasern kommen direkt aus der Natur. Es gibt drei Arten: tierisch, pflanzlich und mineralisch.\n\nTierische Naturfasern kommen von Tieren: Seide, Schurwolle, Haare (zum Beispiel von Angora, Kamel und Ziege), Kaschmir, Alpaka und Lama. Seide kommt von der Seidenraupe. Schurwolle ist Wolle, die vom Schaf geschoren wird. Scheren heißt: Die Haare werden abgeschnitten. Kaschmir sind feine Tierhaare.\n\nPflanzliche Naturfasern kommen von Pflanzen: Baumwolle, Leinen, Kapok, Hanf, Jute, Sisal, Ramie und Kokos. Leinen kommt von der Flachs-Pflanze. Kokosfasern kommen von der Kokosnuss.\n\nMineralische Naturfasern kommen aus Gestein: Asbest und Basalt. Mineralisch heißt: aus Mineralien oder Gestein.\n\nTipp: Viele Namen kennst du als Tier oder als Pflanze. Lama und Kamel sind Tiere – ihre Haare sind tierische Fasern. Hanf und Kokos sind Pflanzen – ihre Fasern sind pflanzlich.\n\nMERKE: Tierisch: Seide, Wolle und Haare. Pflanzlich: Baumwolle, Leinen, Hanf, Jute & Co. Mineralisch: Asbest und Basalt.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Tierisch, pflanzlich oder mineralisch? Sortiere die Naturfasern.",
+        "buckets": [
+          {
+            "id": "tier",
+            "label": "Tierisch",
+            "icon": "🐑"
+          },
+          {
+            "id": "pflanze",
+            "label": "Pflanzlich",
+            "icon": "🌱"
+          },
+          {
+            "id": "mineral",
+            "label": "Mineralisch",
+            "icon": "🪨"
+          }
+        ],
+        "items": [
+          {
+            "text": "Seide",
+            "bucket": "tier"
+          },
+          {
+            "text": "Schurwolle",
+            "bucket": "tier"
+          },
+          {
+            "text": "Kaschmir",
+            "bucket": "tier"
+          },
+          {
+            "text": "Baumwolle",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Leinen",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Jute",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Asbest",
+            "bucket": "mineral"
+          },
+          {
+            "text": "Basalt",
+            "bucket": "mineral"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Faser: Kommt sie von einem Tier, von einer Pflanze oder aus Gestein? Wolle und feine Haare kommen von Tieren. Auch die Seidenraupe ist ein Tier."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Noch mehr Naturfasern: Vom Tier oder von der Pflanze?",
+        "buckets": [
+          {
+            "id": "tier",
+            "label": "Tierisch",
+            "icon": "🐑"
+          },
+          {
+            "id": "pflanze",
+            "label": "Pflanzlich",
+            "icon": "🌱"
+          }
+        ],
+        "items": [
+          {
+            "text": "Alpaka",
+            "bucket": "tier"
+          },
+          {
+            "text": "Lama",
+            "bucket": "tier"
+          },
+          {
+            "text": "Angora",
+            "bucket": "tier"
+          },
+          {
+            "text": "Kamelhaar",
+            "bucket": "tier"
+          },
+          {
+            "text": "Hanf",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Sisal",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Ramie",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Kapok",
+            "bucket": "pflanze"
+          }
+        ],
+        "explanation": "Frag dich: Ist das ein Tier oder eine Pflanze? Steht ein Tiername da, sind die Haare dieses Tieres gemeint. Auch Angora ist ein Tiername: Es gibt Angora-Kaninchen und Angora-Ziegen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥥 Kokosfasern kommen von der Kokosnuss. Zu welcher Gruppe gehören sie?",
+        "options": [
+          {
+            "text": "Zu den pflanzlichen Naturfasern",
+            "correct": true
+          },
+          {
+            "text": "Zu den tierischen Naturfasern"
+          },
+          {
+            "text": "Zu den mineralischen Naturfasern"
+          }
+        ],
+        "explanation": "Die Kokosnuss wächst an der Kokospalme. Das ist eine Pflanze. Darum sind Kokosfasern pflanzliche Naturfasern. Tierische Fasern kommen von Tieren, mineralische aus Gestein."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐛 Seide gehört zu den tierischen Naturfasern. Warum?",
+        "options": [
+          {
+            "text": "Sie kommt von der Seidenraupe.",
+            "correct": true
+          },
+          {
+            "text": "Sie wird in der Fabrik aus Erdöl gemacht."
+          },
+          {
+            "text": "Sie wächst an einem Strauch auf dem Feld."
+          }
+        ],
+        "explanation": "Seide kommt von der Seidenraupe. Die Raupe ist ein Tier. Darum ist Seide eine tierische Naturfaser. Fasern aus Erdöl sind Chemiefasern. Fasern vom Strauch sind pflanzlich."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪨 Welche Faser ist eine mineralische Naturfaser?",
+        "options": [
+          {
+            "text": "Basalt",
+            "correct": true
+          },
+          {
+            "text": "Kapok"
+          },
+          {
+            "text": "Kaschmir"
+          },
+          {
+            "text": "Viskose"
+          }
+        ],
+        "explanation": "Mineralische Naturfasern kommen aus Gestein: Asbest und Basalt. Kapok ist pflanzlich, Kaschmir ist tierisch. Viskose ist eine Chemiefaser aus veränderter Zellulose."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐑 Was ist Schurwolle?",
+        "options": [
+          {
+            "text": "Wolle, die vom Schaf geschoren wird",
+            "correct": true
+          },
+          {
+            "text": "Wolle, die in der Fabrik aus Erdöl entsteht"
+          },
+          {
+            "text": "Wolle aus den Kapseln der Baumwollpflanze"
+          }
+        ],
+        "explanation": "Scheren heißt: Die Haare werden abgeschnitten. Schurwolle kommt also vom Schaf. Sie ist eine tierische Naturfaser. Achtung: Baumwolle heißt zwar „Wolle“, kommt aber von einer Pflanze."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Welche Faser ist keine pflanzliche Naturfaser?",
+        "options": [
+          {
+            "text": "Kaschmir",
+            "correct": true
+          },
+          {
+            "text": "Jute"
+          },
+          {
+            "text": "Ramie"
+          },
+          {
+            "text": "Sisal"
+          }
+        ],
+        "explanation": "Jute, Ramie und Sisal kommen von Pflanzen. Kaschmir sind feine Haare von einem Tier. Darum ist Kaschmir eine tierische Naturfaser."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Woher kommt die Faser? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Baumwolle"
+            },
+            "right": {
+              "text": "Baumwollpflanze"
+            }
+          },
+          {
+            "left": {
+              "text": "Leinen"
+            },
+            "right": {
+              "text": "Flachs-Pflanze"
+            }
+          },
+          {
+            "left": {
+              "text": "Seide"
+            },
+            "right": {
+              "text": "Seidenraupe"
+            }
+          },
+          {
+            "left": {
+              "text": "Schurwolle"
+            },
+            "right": {
+              "text": "Schaf"
+            }
+          },
+          {
+            "left": {
+              "text": "Kokos"
+            },
+            "right": {
+              "text": "Kokosnuss"
+            }
+          }
+        ],
+        "explanation": "Frag dich bei jeder Faser: Von welcher Pflanze oder von welchem Tier kommt sie? Achtung: Die Pflanze für Leinen heißt nicht „Leinen“ – sie hat einen anderen Namen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Stimmt das? Sortiere die Sätze.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Stimmt nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Naturfasern gibt es in drei Arten.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Asbest ist eine mineralische Naturfaser.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Ziegenhaar ist eine tierische Naturfaser.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Lama-Haare sind tierische Naturfasern.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Basalt ist eine tierische Naturfaser.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Jute ist eine tierische Naturfaser.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Seide ist eine pflanzliche Naturfaser.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüfe bei jedem Satz: Kommt die Faser von einem Tier, von einer Pflanze oder aus Gestein? Passt das zur Art, die im Satz steht?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌸 Leinen kommt von der Flachs-Pflanze. Was für eine Faser ist Leinen?",
+        "options": [
+          {
+            "text": "Eine pflanzliche Naturfaser",
+            "correct": true
+          },
+          {
+            "text": "Eine tierische Naturfaser"
+          },
+          {
+            "text": "Eine synthetische Faser"
+          }
+        ],
+        "explanation": "Flachs ist eine Pflanze. Darum ist Leinen eine pflanzliche Naturfaser – genau wie Baumwolle."
+      }
+    }
+  ]
+}

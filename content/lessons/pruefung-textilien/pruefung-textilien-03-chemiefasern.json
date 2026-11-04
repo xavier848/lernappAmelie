@@ -1,0 +1,352 @@
+{
+  "topic_slug": "pruefung-textilien",
+  "slug": "pruefung-textilien-03-chemiefasern",
+  "title": "Chemiefasern und ihre Markennamen",
+  "sort": 3,
+  "intro": "Chemiefasern macht der Mensch in der Fabrik. Es gibt drei Arten.\n\n1. Abgewandelte Naturstoffe: Das sind die Zellulosefasern. Zellulose ist ein Stoff aus Pflanzen, zum Beispiel aus Holz. In der Fabrik wird die Zellulose verändert. Daraus entstehen Acetat, Viskose, Modal, Cupro und Lyocell. Auf dem Blatt steht dazu: organisch. Organisch heißt hier: Der Rohstoff kommt von Pflanzen.\n\n2. Synthetische Fasern: Sie werden ganz künstlich hergestellt, zum Beispiel aus Erdöl. Dazu gehören Polyamid, Polyester, Polyacryl, Polyacrylnitril und Elastan. Im Geschäft stehen oft Markennamen auf dem Etikett. Ein Markenname ist der Name, den eine Firma ihrem Produkt gibt.\nPolyamid: Nylon und Perlon\nPolyester: Trevira und Diolen\nPolyacryl: Dralon und Orlon\nElastan: Lycra und Dorlastan\n\n3. Anorganische Rohstoffe: Anorganisch heißt: Der Rohstoff kommt nicht von Pflanzen oder Tieren. Dazu gehören Glasfasern, Kohlenstofffasern (auch Karbonfasern genannt), Metallfasern und Keramikfasern.\n\nTipp: Viele synthetische Fasern fangen mit „Poly“ an.\n\nMERKE: Zellulosefasern sind veränderte Naturstoffe, zum Beispiel aus Holz. Synthetische Fasern sind ganz künstlich, zum Beispiel aus Erdöl. Anorganische Fasern sind aus Glas, Kohlenstoff, Metall oder Keramik.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Welche Art Chemiefaser ist das? Sortiere.",
+        "buckets": [
+          {
+            "id": "zell",
+            "label": "Zellulosefasern",
+            "icon": "🪵"
+          },
+          {
+            "id": "synth",
+            "label": "Synthetische Fasern",
+            "icon": "🛢️"
+          },
+          {
+            "id": "anorg",
+            "label": "Anorganische Rohstoffe",
+            "icon": "⚙️"
+          }
+        ],
+        "items": [
+          {
+            "text": "Viskose",
+            "bucket": "zell"
+          },
+          {
+            "text": "Modal",
+            "bucket": "zell"
+          },
+          {
+            "text": "Lyocell",
+            "bucket": "zell"
+          },
+          {
+            "text": "Polyester",
+            "bucket": "synth"
+          },
+          {
+            "text": "Polyamid",
+            "bucket": "synth"
+          },
+          {
+            "text": "Polyacrylnitril",
+            "bucket": "synth"
+          },
+          {
+            "text": "Glasfasern",
+            "bucket": "anorg"
+          },
+          {
+            "text": "Metallfasern",
+            "bucket": "anorg"
+          }
+        ],
+        "explanation": "Frag dich: Ist es veränderte Zellulose, zum Beispiel aus Holz? Ist es ganz künstlich, oft mit „Poly“ am Anfang? Oder steckt Glas, Kohlenstoff, Metall oder Keramik im Namen?"
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Noch einmal sortieren: Zellulosefaser, synthetisch oder anorganisch?",
+        "buckets": [
+          {
+            "id": "zell",
+            "label": "Zellulosefasern",
+            "icon": "🪵"
+          },
+          {
+            "id": "synth",
+            "label": "Synthetische Fasern",
+            "icon": "🛢️"
+          },
+          {
+            "id": "anorg",
+            "label": "Anorganische Rohstoffe",
+            "icon": "⚙️"
+          }
+        ],
+        "items": [
+          {
+            "text": "Acetat",
+            "bucket": "zell"
+          },
+          {
+            "text": "Cupro",
+            "bucket": "zell"
+          },
+          {
+            "text": "Polyacryl",
+            "bucket": "synth"
+          },
+          {
+            "text": "Elastan",
+            "bucket": "synth"
+          },
+          {
+            "text": "Kohlenstofffasern",
+            "bucket": "anorg"
+          },
+          {
+            "text": "Keramikfasern",
+            "bucket": "anorg"
+          }
+        ],
+        "explanation": "Frag dich: Ist es veränderte Zellulose aus Holz, ganz künstlich oder aus Glas, Kohlenstoff, Metall oder Keramik? Achtung: Viele synthetische Fasern fangen mit „Poly“ an – aber nicht alle."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Markenname und Faser: Was gehört zusammen?",
+        "pairs": [
+          {
+            "left": {
+              "text": "Nylon"
+            },
+            "right": {
+              "text": "Polyamid"
+            }
+          },
+          {
+            "left": {
+              "text": "Trevira"
+            },
+            "right": {
+              "text": "Polyester"
+            }
+          },
+          {
+            "left": {
+              "text": "Dralon"
+            },
+            "right": {
+              "text": "Polyacryl"
+            }
+          },
+          {
+            "left": {
+              "text": "Lycra"
+            },
+            "right": {
+              "text": "Elastan"
+            }
+          }
+        ],
+        "explanation": "Im Geschäft steht oft der Markenname auf dem Etikett. Zu jeder dieser synthetischen Fasern gehören auf dem Blatt zwei Markennamen. Lerne sie als Paare."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🏷️ Noch mehr Markennamen: Was gehört zusammen?",
+        "pairs": [
+          {
+            "left": {
+              "text": "Perlon"
+            },
+            "right": {
+              "text": "Polyamid"
+            }
+          },
+          {
+            "left": {
+              "text": "Diolen"
+            },
+            "right": {
+              "text": "Polyester"
+            }
+          },
+          {
+            "left": {
+              "text": "Orlon"
+            },
+            "right": {
+              "text": "Polyacryl"
+            }
+          },
+          {
+            "left": {
+              "text": "Dorlastan"
+            },
+            "right": {
+              "text": "Elastan"
+            }
+          }
+        ],
+        "explanation": "Jede synthetische Faser hat zwei Markennamen. Tipp: Denk an die Paare aus der letzten Übung. Zu jeder Faser gehört genau ein zweiter Name."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛢️ Woraus werden synthetische Fasern zum Beispiel hergestellt?",
+        "options": [
+          {
+            "text": "Aus Erdöl",
+            "correct": true
+          },
+          {
+            "text": "Aus Holz"
+          },
+          {
+            "text": "Aus Schafwolle"
+          },
+          {
+            "text": "Aus Gestein"
+          }
+        ],
+        "explanation": "Synthetisch heißt: ganz künstlich hergestellt, zum Beispiel aus Erdöl. Auf dem Blatt zeigt ein Bohrturm für Erdöl die synthetischen Fasern. Holz ist der Rohstoff für Zellulosefasern. Schafwolle und Gestein liefern Naturfasern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🪵 Viskose ist eine Zellulosefaser. Was bedeutet das?",
+        "options": [
+          {
+            "text": "Sie wird aus veränderter Zellulose gemacht, zum Beispiel aus Holz.",
+            "correct": true
+          },
+          {
+            "text": "Sie wächst fertig an einer Pflanze auf dem Feld."
+          },
+          {
+            "text": "Sie wird ganz künstlich aus Erdöl gemacht."
+          }
+        ],
+        "explanation": "Zellulosefasern sind abgewandelte Naturstoffe. Der Rohstoff kommt aus Pflanzen, zum Beispiel aus Holz. In der Fabrik wird er verändert. Fertig auf dem Feld wachsen nur Naturfasern. Aus Erdöl macht man synthetische Fasern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚙️ Welche Faser gehört zu den anorganischen Rohstoffen?",
+        "options": [
+          {
+            "text": "Karbonfasern",
+            "correct": true
+          },
+          {
+            "text": "Lyocell"
+          },
+          {
+            "text": "Polyester"
+          },
+          {
+            "text": "Modal"
+          }
+        ],
+        "explanation": "Karbonfasern heißen auch Kohlenstofffasern. Sie gehören wie Glas-, Metall- und Keramikfasern zu den anorganischen Rohstoffen. Lyocell und Modal sind Zellulosefasern. Polyester ist synthetisch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Welche Faser ist keine Chemiefaser?",
+        "options": [
+          {
+            "text": "Hanf",
+            "correct": true
+          },
+          {
+            "text": "Modal"
+          },
+          {
+            "text": "Elastan"
+          },
+          {
+            "text": "Glasfasern"
+          }
+        ],
+        "explanation": "Hanf kommt direkt von einer Pflanze. Er ist eine pflanzliche Naturfaser. Modal, Elastan und Glasfasern werden in der Fabrik hergestellt. Sie sind Chemiefasern."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Stimmt das? Sortiere die Sätze über Chemiefasern.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Stimmt nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Nylon ist ein Markenname für Polyamid.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Lyocell ist eine Zellulosefaser.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Zellulosefasern sind organisch.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Metallfasern gehören zu den Chemiefasern.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Elastan ist eine Naturfaser.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Viskose wird aus Erdöl gemacht.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Trevira ist ein Markenname für Elastan.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüfe jeden Satz mit der Tabelle: Zu welcher der drei Spalten gehört die Faser? Und welcher Markenname gehört zu welcher synthetischen Faser?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏭 Wer stellt Chemiefasern her?",
+        "options": [
+          {
+            "text": "Der Mensch in der Fabrik",
+            "correct": true
+          },
+          {
+            "text": "Die Seidenraupe im Kokon"
+          },
+          {
+            "text": "Die Pflanze auf dem Feld"
+          }
+        ],
+        "explanation": "Chemiefasern macht der Mensch in der Fabrik. Seide kommt von der Raupe, Baumwolle und Leinen von Pflanzen. Das sind Naturfasern."
+      }
+    }
+  ]
+}
