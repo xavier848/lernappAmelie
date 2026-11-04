@@ -3,7 +3,7 @@
   "slug": "pruefung-vitamine-09-vitamin-quiz-wie-im-test",
   "title": "Vitamin-Quiz wie im Test",
   "sort": 9,
-  "intro": "Hier kommen alle 10 Fragen vom Vitamin-Quiz. Manche sind ein bisschen anders gestellt. So lernst du den Inhalt und nicht nur die Antwort.\n\nVitamin A ist wichtig für die Sehkraft. Eine gute Quelle sind Karotten. Sie enthalten Beta-Carotin, eine Vorstufe von Vitamin A.\n\nVitamin D ist wichtig für Knochen und Zähne. Eine gute Quelle ist fetter Fisch.\n\nVitamin C unterstützt die Abwehrkräfte. Viel Vitamin C steckt in Paprika, Orangen und Kiwis.\n\nDie B-Vitamine unterstützen Nerven und Stoffwechsel. Vitamin B1 steckt in Vollkornbrot und Haferflocken. Vitamin B2 steckt unter anderem in Milch, Joghurt und Käse.\n\nMERKE: A für die Augen, D für Knochen und Zähne, C für die Abwehr, B für Nerven und Stoffwechsel.",
+  "intro": "Hier kommen alle 10 Fragen vom Vitamin-Quiz. Manche sind ein bisschen anders gestellt. So lernst du den Inhalt und nicht nur die Antwort.\n\nVitamin A ist wichtig für die Sehkraft. Eine gute Quelle sind Karotten. Sie enthalten Beta-Carotin, eine Vorstufe von Vitamin A.\n\nVitamin D ist wichtig für Knochen und Zähne. Eine gute Quelle ist fetter Fisch.\n\nVitamin C unterstützt die Abwehrkräfte. Viel Vitamin C steckt in Paprika, Orangen und Kiwis.\n\nDie B-Vitamine unterstützen Nerven und Stoffwechsel. Laut Quiz steckt Vitamin B1 besonders in Vollkornbrot und Haferflocken. Laut Tabelle hat Getreide Vitamin B1 und B2. Vitamin B2 steckt unter anderem in Milch, Joghurt und Käse.\n\nMERKE: A für die Augen, D für Knochen und Zähne, C für die Abwehr, B für Nerven und Stoffwechsel.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -150,6 +150,10 @@
             "bucket": "richtig"
           },
           {
+            "text": "Vitamin D ist hauptsächlich für Knochen und Zähne wichtig.",
+            "bucket": "richtig"
+          },
+          {
             "text": "Vitamin D ist hauptsächlich für die Sehkraft verantwortlich.",
             "bucket": "falsch"
           },
@@ -162,7 +166,7 @@
             "bucket": "falsch"
           }
         ],
-        "explanation": "Prüf bei jedem Satz zwei Dinge: Passt das Vitamin zur Aufgabe? Passt das Lebensmittel zum Vitamin? Achte auch auf Wörter wie „nur“ und „hauptsächlich“."
+        "explanation": "Prüf bei jedem Satz zwei Dinge: Passt das Vitamin zur Aufgabe? Passt das Lebensmittel zum Vitamin? Wörter wie „nur“ oder „hauptsächlich“ machen einen Satz nicht automatisch falsch. Prüf immer den Inhalt."
       }
     },
     {
@@ -190,7 +194,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🥕 Welches Lebensmittel ist eine gute Quelle für Vitamin A in Form von Beta-Carotin?",
+        "prompt": "🔍 Welches Lebensmittel ist eine gute Quelle für Vitamin A in Form von Beta-Carotin?",
         "options": [
           {
             "text": "Karotte",
@@ -212,7 +216,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🦴 Wofür ist Vitamin D hauptsächlich wichtig?",
+        "prompt": "❓ Wofür ist Vitamin D hauptsächlich wichtig?",
         "options": [
           {
             "text": "Für Knochen und Zähne",
@@ -231,7 +235,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧠 Welche Aufgabe haben die B-Vitamine laut Arbeitsblatt?",
+        "prompt": "📄 Welche Aufgabe haben die B-Vitamine laut Arbeitsblatt?",
         "options": [
           {
             "text": "Sie unterstützen Nerven und Stoffwechsel.",
