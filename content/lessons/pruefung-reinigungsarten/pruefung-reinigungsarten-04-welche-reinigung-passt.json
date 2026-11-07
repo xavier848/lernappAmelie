@@ -1,0 +1,282 @@
+{
+  "topic_slug": "pruefung-reinigungsarten",
+  "slug": "pruefung-reinigungsarten-04-welche-reinigung-passt",
+  "title": "Welche Reinigung passt? Fälle und Putzplan",
+  "sort": 4,
+  "intro": "In dieser Lektion übst du mit Fällen aus dem Alltag. Frag dich bei jedem Fall: Wie gründlich ist die Arbeit? Und wie oft macht man sie?\n\nSichtreinigung: schnell und oberflächlich, damit der Raum gepflegt aussieht. Räume, die jeden Tag benutzt werden, brauchen jeden Tag eine Sichtreinigung. Das sind zum Beispiel Wohnzimmer, Küche, Bad, Speiseraum und Eingangsbereich.\n\nUnterhaltsreinigung: regelmäßig, zum Beispiel täglich oder wöchentlich nach einem festen Plan.\n\nGrundreinigung: sehr gründlich. Zu Hause macht man sie 1- bis 2-mal im Jahr. Im Großhaushalt kann sie öfter sein, zum Beispiel bei einem Patientenwechsel.\n\nZwischenreinigung: einzelne Teile in unregelmäßigen Abständen oder bei Bedarf. So kann die Grundreinigung später kommen.\n\nEin Putzplan hilft dir, die Arbeit gut zu verteilen. So putzt du effizient. Effizient heißt: mit wenig Zeit und Kraft viel schaffen.\n\nFür die Grundreinigung braucht man oft besondere Geräte. Die Einscheibenmaschine reinigt harte Fußböden gründlich. Mit ihr kann man auch alte Pflegefilme entfernen. Das Sprühextraktionsgerät reinigt Teppichböden gründlich. Mit einer Teleskopstange putzt man hohe Fenster. Teleskop heißt: Man kann die Stange länger ziehen. Mit einer Leiter kommt man an Decken und Lampen.\n\nMERKE: Erst überlegen, welche Reinigungsart passt. Dann weißt du, wie oft und wie gründlich du putzt.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗓️ Du machst einen Putzplan für zu Hause. Wohin passt die Arbeit? Sortiere.",
+        "buckets": [
+          {
+            "id": "tag",
+            "label": "Jeden Tag: Sichtreinigung",
+            "icon": "☀️"
+          },
+          {
+            "id": "woche",
+            "label": "Jede Woche: Unterhaltsreinigung",
+            "icon": "📅"
+          },
+          {
+            "id": "jahr",
+            "label": "1- bis 2-mal im Jahr: Grundreinigung",
+            "icon": "🗓️"
+          }
+        ],
+        "items": [
+          {
+            "text": "Lüften",
+            "bucket": "tag"
+          },
+          {
+            "text": "Bett richten",
+            "bucket": "tag"
+          },
+          {
+            "text": "Mülleimer leeren",
+            "bucket": "tag"
+          },
+          {
+            "text": "Staub wischen",
+            "bucket": "woche"
+          },
+          {
+            "text": "Bad nass reinigen",
+            "bucket": "woche"
+          },
+          {
+            "text": "Boden wischen",
+            "bucket": "woche"
+          },
+          {
+            "text": "Schrank entrümpeln",
+            "bucket": "jahr"
+          },
+          {
+            "text": "Lampen und Wände gründlich reinigen",
+            "bucket": "jahr"
+          }
+        ],
+        "explanation": "Frag dich zuerst: Zu welcher Reinigungsart gehört die Arbeit? Dann weißt du, wie oft sie in deinem Putzplan steht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Gleich kommt Besuch. Du räumst die Zeitungen weg, ziehst die Gardinen gerade und wischst einen Kaffeefleck vom Tisch. Welche Reinigung ist das?",
+        "options": [
+          {
+            "text": "Die Sichtreinigung",
+            "correct": true
+          },
+          {
+            "text": "Die Unterhaltsreinigung"
+          },
+          {
+            "text": "Die Zwischenreinigung"
+          }
+        ],
+        "explanation": "Du machst schnell Ordnung und entfernst sichtbaren Schmutz. Der Raum soll gepflegt aussehen. Das ist Sichtreinigung. Bei der Unterhaltsreinigung putzt du regelmäßig richtig. Bei der Zwischenreinigung reinigst du einzelne Teile bei Bedarf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧽 Jeden Montag wischst du im Bewohnerzimmer Staub, reinigst Waschbecken und Toilette nass und wischst den Boden. Welche Reinigung ist das?",
+        "options": [
+          {
+            "text": "Die Unterhaltsreinigung",
+            "correct": true
+          },
+          {
+            "text": "Die Sichtreinigung"
+          },
+          {
+            "text": "Die Grundreinigung"
+          }
+        ],
+        "explanation": "Du putzt regelmäßig nach Plan: Staub wischen, Sanitärbereich nass reinigen, Boden reinigen. Das ist Unterhaltsreinigung. Die Sichtreinigung ist schneller und oberflächlicher. Die Grundreinigung ist viel gründlicher und seltener."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏡 Im Seniorenheim ist ein Bewohner ausgezogen. Bevor die neue Bewohnerin kommt, wird das ganze Zimmer gereinigt und gepflegt: Schränke innen und außen, Lampen, Wände, Fenster, Heizkörper und Boden. Welche Reinigung ist das?",
+        "options": [
+          {
+            "text": "Die Grundreinigung",
+            "correct": true
+          },
+          {
+            "text": "Die Unterhaltsreinigung"
+          },
+          {
+            "text": "Die Zwischenreinigung"
+          }
+        ],
+        "explanation": "Das ganze Zimmer wird gründlich gereinigt und gepflegt, auch innen und an schwer zugänglichen Stellen. Das ist Grundreinigung. Im Großhaushalt macht man sie zum Beispiel bei einem Patientenwechsel oder wenn ein neuer Bewohner einzieht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍂 Im Speiseraum hat der Teppichboden ein paar eingetrocknete Flecken. Außerdem tauschst du die Herbstdeko gegen Winterdeko aus. Welche Reinigung ist das?",
+        "options": [
+          {
+            "text": "Die Zwischenreinigung",
+            "correct": true
+          },
+          {
+            "text": "Die Grundreinigung"
+          },
+          {
+            "text": "Die Sichtreinigung"
+          }
+        ],
+        "explanation": "Flecke auf Teppichböden entfernen und Dekorationen erneuern gehört zur Zwischenreinigung. Man macht das bei Bedarf und nicht nach festem Plan. Die Grundreinigung wäre der ganze Raum, sehr gründlich."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Tätigkeit ist typisch für welche Reinigungsart? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Sichtreinigung"
+            },
+            "right": {
+              "text": "Gardinen ausrichten"
+            }
+          },
+          {
+            "left": {
+              "text": "Unterhaltsreinigung"
+            },
+            "right": {
+              "text": "Spinnweben entfernen"
+            }
+          },
+          {
+            "left": {
+              "text": "Grundreinigung"
+            },
+            "right": {
+              "text": "Schrankraum entrümpeln und ordnen"
+            }
+          },
+          {
+            "left": {
+              "text": "Zwischenreinigung"
+            },
+            "right": {
+              "text": "Dekorationen entfernen und erneuern"
+            }
+          }
+        ],
+        "explanation": "Frag dich bei jeder Tätigkeit: Geht es schnell um Ordnung? Wird regelmäßig richtig geputzt? Wird alles bis ins Innere gründlich gemacht? Oder wird ein einzelnes Teil bei Bedarf erledigt?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕵️ Lena sagt: „Bei der Grundreinigung putze ich die Fenster und die Heizkörper. Dann bin ich fertig.“ Was stimmt?",
+        "options": [
+          {
+            "text": "Das reicht nicht. Der ganze Raum wird gründlich gereinigt und gepflegt.",
+            "correct": true
+          },
+          {
+            "text": "Lena hat recht. Fenster und Heizkörper sind die ganze Grundreinigung."
+          },
+          {
+            "text": "Fast richtig. Sie muss danach noch die Gardinen ausrichten."
+          }
+        ],
+        "explanation": "Bei der Grundreinigung wird der gesamte Raum gründlich gereinigt und gepflegt: Decken, Lampen, Türen, Wände, Schränke innen und außen, Fußböden, Fenster und Heizkörper. Fenster und Heizkörper allein reichen nicht. Die Gardinen ausrichten gehört zur Sichtreinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏠 Welche Räume brauchen jeden Tag eine Sichtreinigung?",
+        "options": [
+          {
+            "text": "Räume, die viel benutzt werden, zum Beispiel die Küche",
+            "correct": true
+          },
+          {
+            "text": "Räume, die fast nie jemand betritt, zum Beispiel der Dachboden"
+          },
+          {
+            "text": "Räume, die gerade leer stehen, zum Beispiel ein Gästezimmer"
+          }
+        ],
+        "explanation": "Wo jeden Tag Menschen sind, wird es jeden Tag unordentlich. Darum brauchen zum Beispiel Wohnzimmer, Küche, Bad, Speiseraum und Eingangsbereich jeden Tag eine Sichtreinigung. Ein Dachboden oder ein leeres Zimmer braucht das nicht jeden Tag."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔧 Welches Gerät hilft bei der Grundreinigung wobei? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Einscheibenmaschine"
+            },
+            "right": {
+              "text": "Harten Fußboden gründlich reinigen"
+            }
+          },
+          {
+            "left": {
+              "text": "Sprühextraktionsgerät"
+            },
+            "right": {
+              "text": "Teppichboden gründlich reinigen"
+            }
+          },
+          {
+            "left": {
+              "text": "Teleskopstange"
+            },
+            "right": {
+              "text": "Hohe Fenster putzen"
+            }
+          },
+          {
+            "left": {
+              "text": "Leiter"
+            },
+            "right": {
+              "text": "Decken und Lampen reinigen"
+            }
+          }
+        ],
+        "explanation": "Denk daran, wie jedes Gerät arbeitet: Was dreht sich mit einer Scheibe auf dem Boden? Was sprüht Reinigungslösung in den Stoff und saugt sie wieder ab? Was kann man länger ziehen? Und worauf steigst du, um weit nach oben zu kommen?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌟 Welche Reinigungsart ist schnell und oberflächlich?",
+        "options": [
+          {
+            "text": "Die Sichtreinigung",
+            "correct": true
+          },
+          {
+            "text": "Die Grundreinigung"
+          },
+          {
+            "text": "Die Zwischenreinigung"
+          }
+        ],
+        "explanation": "Die Sichtreinigung ist schnell und oberflächlich. Danach sieht der Raum gepflegt aus."
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "topic_slug": "pruefung-reinigungsarten",
+  "slug": "pruefung-reinigungsarten-02-sicht-und-unterhaltsreinigung",
+  "title": "Sichtreinigung und Unterhaltsreinigung",
+  "sort": 2,
+  "intro": "Hier lernst du, was bei der Sichtreinigung und bei der Unterhaltsreinigung zu tun ist.\n\nDie Sichtreinigung ist eine schnelle, oberflächliche Reinigung. Alle deutlich sichtbaren Verschmutzungen werden entfernt. Der Raum soll gepflegt aussehen.\n\nAnfallende Tätigkeiten bei der Sichtreinigung sind zum Beispiel: Fenster öffnen und lüften. Herumliegende Gegenstände ordnen. Sichtbaren Schmutz entfernen, zum Beispiel Getränkeflecken. Stühle und Möbel korrekt ausrichten. Aschenbecher und Mülleimer leeren. Das Bett richten. Die Gardinen ausrichten.\n\nAnfallend heißt: Das muss man machen. Ausrichten heißt: gerade hinstellen oder gerade hinhängen. Das Bett richten heißt: Decke und Kissen ordentlich hinlegen.\n\nDie Unterhaltsreinigung ist eine regelmäßige Reinigung. Die Räume und Gegenstände werden laufend gereinigt und gegebenenfalls gepflegt.\n\nAnfallende Tätigkeiten bei der Unterhaltsreinigung sind zum Beispiel: Herumliegende Gegenstände aufräumen. Abfall beseitigen. Staub wischen. Den Sanitärbereich nass reinigen. Den Fußboden reinigen. Spinnweben entfernen. Bei Bedarf frische Textilien auflegen, zum Beispiel eine Tischdecke.\n\nDer Sanitärbereich ist das Bad und die Toilette. Textilien sind Dinge aus Stoff.\n\nDer Unterschied: Bei der Sichtreinigung macht man schnell Ordnung und entfernt, was man deutlich sieht. Bei der Unterhaltsreinigung wird regelmäßig richtig geputzt. Dabei entfernt man Staub und Schmutz auch dort, wo man ihn nicht sofort sieht.\n\nMERKE: Sichtreinigung: lüften, ordnen, ausrichten, leeren, sichtbare Flecken weg. Unterhaltsreinigung: Staub wischen, Bad nass reinigen, Boden reinigen, Spinnweben weg.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🗂️ Sichtreinigung oder Unterhaltsreinigung? Sortiere die Tätigkeiten.",
+        "buckets": [
+          {
+            "id": "sicht",
+            "label": "Sichtreinigung",
+            "icon": "👀"
+          },
+          {
+            "id": "unterhalt",
+            "label": "Unterhaltsreinigung",
+            "icon": "🧽"
+          }
+        ],
+        "items": [
+          {
+            "text": "Fenster öffnen und lüften",
+            "bucket": "sicht"
+          },
+          {
+            "text": "Stühle korrekt ausrichten",
+            "bucket": "sicht"
+          },
+          {
+            "text": "Gardinen ausrichten",
+            "bucket": "sicht"
+          },
+          {
+            "text": "Bett richten",
+            "bucket": "sicht"
+          },
+          {
+            "text": "Staub wischen",
+            "bucket": "unterhalt"
+          },
+          {
+            "text": "Sanitärbereich nass reinigen",
+            "bucket": "unterhalt"
+          },
+          {
+            "text": "Fußboden reinigen",
+            "bucket": "unterhalt"
+          },
+          {
+            "text": "Spinnweben entfernen",
+            "bucket": "unterhalt"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Karte: Wird nur gelüftet, gerichtet oder gerade hingestellt, damit der Raum schnell gepflegt aussieht? Dann ist es Sichtreinigung. Wird richtig geputzt, also gewischt, nass gereinigt oder Schmutz entfernt? Dann ist es Unterhaltsreinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗂️ Gleich beginnt eine Besprechung. Du machst eine Sichtreinigung im Besprechungszimmer. Was tust du?",
+        "options": [
+          {
+            "text": "Lüften, Stühle ausrichten, Flecken wegwischen, Mülleimer leeren",
+            "correct": true
+          },
+          {
+            "text": "Fenster putzen, Heizkörper reinigen, Schränke innen auswischen"
+          },
+          {
+            "text": "Decken und Wände gründlich reinigen, Pflegefilm entfernen"
+          }
+        ],
+        "explanation": "Bei der Sichtreinigung soll der Raum schnell gepflegt aussehen. Darum lüftest du, richtest die Stühle aus, entfernst sichtbare Flecken und leerst den Mülleimer. Fenster, Heizkörper, Schränke, Wände und Pflegefilme gehören zur Grund- oder Zwischenreinigung. Dafür ist vor der Besprechung keine Zeit."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Auf dem Tisch im Aufenthaltsraum ist ein frischer Getränkefleck. Du wischst ihn schnell weg. Welche Reinigungsart ist das?",
+        "options": [
+          {
+            "text": "Die Sichtreinigung",
+            "correct": true
+          },
+          {
+            "text": "Die Grundreinigung"
+          },
+          {
+            "text": "Die Zwischenreinigung"
+          }
+        ],
+        "explanation": "Sichtbaren Schmutz wie Getränkeflecken entfernt man bei der Sichtreinigung. Flecke auf Polstern und Teppichböden entfernt man bei der Zwischenreinigung. Die Grundreinigung ist die große, sehr gründliche Reinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗑️ Welche Tätigkeit gehört laut Blatt zur Sichtreinigung?",
+        "options": [
+          {
+            "text": "Aschenbecher und Mülleimer leeren",
+            "correct": true
+          },
+          {
+            "text": "Sanitärbereich nass reinigen"
+          },
+          {
+            "text": "Alte Pflegefilme entfernen"
+          }
+        ],
+        "explanation": "Aschenbecher und Mülleimer leeren geht schnell. Es gehört zur Sichtreinigung. Den Sanitärbereich nass reinigen gehört zur Unterhaltsreinigung. Alte Pflegefilme entfernt man bei der Grundreinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧸 Herumliegende Gegenstände ordnen oder aufräumen steht auf dem Blatt bei zwei Reinigungsarten. Bei welchen?",
+        "options": [
+          {
+            "text": "Bei der Sichtreinigung und bei der Unterhaltsreinigung",
+            "correct": true
+          },
+          {
+            "text": "Bei der Grundreinigung und bei der Zwischenreinigung"
+          },
+          {
+            "text": "Bei der Sichtreinigung und bei der Zwischenreinigung"
+          }
+        ],
+        "explanation": "Bei der Sichtreinigung steht: herumliegende Gegenstände ordnen. Bei der Unterhaltsreinigung steht: herumliegende Gegenstände aufräumen. Bei der Grundreinigung und bei der Zwischenreinigung steht es nicht. Dort stehen zum Beispiel Fenster und Heizkörper."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕸️ In der Zimmerecke hängen Spinnweben. Zu welcher Reinigungsart gehört das Entfernen laut Blatt?",
+        "options": [
+          {
+            "text": "Zur Unterhaltsreinigung",
+            "correct": true
+          },
+          {
+            "text": "Zur Sichtreinigung"
+          },
+          {
+            "text": "Zur Zwischenreinigung"
+          }
+        ],
+        "explanation": "Spinnweben entfernen steht bei der Unterhaltsreinigung. Sie wird regelmäßig gemacht. Bei der Sichtreinigung entfernt man deutlich sichtbaren Schmutz wie Getränkeflecken. Bei der Zwischenreinigung reinigt man einzelne Teile wie Fenster, Heizkörper oder Polster."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚿 Wie wird der Sanitärbereich bei der Unterhaltsreinigung gereinigt?",
+        "options": [
+          {
+            "text": "Nass",
+            "correct": true
+          },
+          {
+            "text": "Trocken mit einem Staubtuch"
+          },
+          {
+            "text": "Mit dem Staubsauger"
+          }
+        ],
+        "explanation": "Das Blatt sagt: Sanitärbereich nass reinigen. Der Sanitärbereich ist das Bad und die Toilette. Dort reicht ein trockenes Tuch oder der Staubsauger nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Die Tischdecke im Speiseraum hat Flecken. Was gehört laut Blatt zur Unterhaltsreinigung?",
+        "options": [
+          {
+            "text": "Bei Bedarf eine frische Tischdecke auflegen",
+            "correct": true
+          },
+          {
+            "text": "Die Tischdecke bis zur Grundreinigung liegen lassen"
+          },
+          {
+            "text": "Die Tischdecke glatt ziehen, der Fleck bleibt"
+          }
+        ],
+        "explanation": "Bei der Unterhaltsreinigung legt man bei Bedarf frische Textilien auf, zum Beispiel eine Tischdecke. Bei Bedarf heißt: wenn es nötig ist. Bis zur Grundreinigung zu warten dauert viel zu lange. Glatt ziehen allein entfernt den Fleck nicht."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Stimmt das? Sortiere.",
+        "buckets": [
+          {
+            "id": "stimmt",
+            "label": "Stimmt",
+            "icon": "✅"
+          },
+          {
+            "id": "falsch",
+            "label": "Stimmt nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Bei der Sichtreinigung werden die Gardinen ausgerichtet.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Bei der Unterhaltsreinigung wird Staub gewischt.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Bei der Unterhaltsreinigung wird Abfall beseitigt.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Bei der Sichtreinigung werden herumliegende Gegenstände geordnet.",
+            "bucket": "stimmt"
+          },
+          {
+            "text": "Bei der Sichtreinigung werden Decken und Wände gründlich gereinigt.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Bei der Unterhaltsreinigung werden alte Pflegefilme entfernt.",
+            "bucket": "falsch"
+          },
+          {
+            "text": "Bei der Sichtreinigung wird der Sanitärbereich nass gereinigt.",
+            "bucket": "falsch"
+          }
+        ],
+        "explanation": "Prüfe jeden Satz: Passt die Tätigkeit zur Reinigungsart im Satz? Sichtreinigung heißt: schnell Ordnung und sichtbare Flecken weg. Unterhaltsreinigung heißt: regelmäßig richtig putzen. Was sehr gründlich ist, gehört zur Grundreinigung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛏️ Bei welcher Reinigungsart richtest du das Bett?",
+        "options": [
+          {
+            "text": "Bei der Sichtreinigung",
+            "correct": true
+          },
+          {
+            "text": "Bei der Grundreinigung"
+          },
+          {
+            "text": "Bei der Zwischenreinigung"
+          }
+        ],
+        "explanation": "Das Bett richten geht schnell. Danach sieht das Zimmer gepflegt aus. Das gehört zur Sichtreinigung."
+      }
+    }
+  ]
+}
