@@ -1,37 +1,82 @@
 {
   "topic_slug": "pruefung-vitamine",
   "slug": "pruefung-vitamine-03-namen-wasserloesliche-vitamine",
-  "title": "Wasserlösliche Vitamine und ihre Namen",
+  "title": "Wasserlösliche Vitamine und ihre Aufgaben",
   "sort": 3,
-  "intro": "Viele Vitamine haben einen Buchstaben und einen Namen. Im Test kann beides vorkommen. Hier lernst du die wasserlöslichen Vitamine.\n\nVitamin B1 heißt Thiamin. Vitamin B2 heißt Riboflavin. Vitamin B6 heißt Pyridoxin. Vitamin B12 heißt Cobalamin.\n\nBiotin wird auch Vitamin H genannt. Niacin wird auch Vitamin B3 genannt.\n\nFolsäure ist wichtig für die Zellteilung und die Blutbildung. Zellteilung heißt: Aus einer Zelle werden zwei neue Zellen. Pantothensäure ist wichtig für den Energiestoffwechsel.\n\nVitamin C heißt Ascorbinsäure.\n\nTipp: Lern die B-Vitamine in der Reihenfolge vom Blatt. Die Nummern werden immer größer: B1, B2, B6, B12.\n\nMERKE: B1 Thiamin, B2 Riboflavin, B6 Pyridoxin, B12 Cobalamin, C Ascorbinsäure.",
+  "intro": "Auf dem Blatt steht bei jedem wasserlöslichen Vitamin, wofür es wichtig ist. Hier lernst du diese Aufgaben.\n\nFür den Energiestoffwechsel sind Vitamin B1 und Pantothensäure wichtig. Vitamin B6 ist wichtig für den Protein- und Energiestoffwechsel. Energiestoffwechsel heißt: Der Körper gewinnt aus der Nahrung Energie. Protein heißt: Eiweiß. Nur bei B6 steht auch Protein.\n\nVitamin B2 ist wichtig für Haut und Augen. Biotin ist wichtig für Haut, Haare und Nägel.\n\nFür die Blutbildung sind Vitamin B12 und Folsäure wichtig. Vitamin B12 ist außerdem wichtig für das Nervensystem. Folsäure ist außerdem wichtig für die Zellteilung. Blutbildung heißt: Der Körper bildet neues Blut. Zellteilung heißt: Aus einer Zelle werden zwei neue Zellen. Das Nervensystem leitet Nachrichten im Körper weiter, zum Beispiel vom Gehirn zu den Muskeln.\n\nVitamin C stärkt das Immunsystem und die Wundheilung. Das Immunsystem ist die Abwehr des Körpers gegen Krankheiten. Wundheilung heißt: Eine Wunde wächst wieder zu.\n\nTipp: Drei Vitamine sind für den Energiestoffwechsel wichtig. Merk dir die anderen gut. Für die Haut sind B2 und Biotin wichtig. Für das Blut sind B12 und Folsäure wichtig.\n\nMERKE: Energiestoffwechsel: B1, B6 und Pantothensäure. B6 zusätzlich: Protein. Haut und Augen: B2. Haut, Haare und Nägel: Biotin. Blutbildung und Nervensystem: B12. Zellteilung und Blutbildung: Folsäure. Immunsystem und Wundheilung: Vitamin C.",
   "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚡ Ist das Vitamin für den Energiestoffwechsel wichtig? Sortiere.",
+        "buckets": [
+          {
+            "id": "energie",
+            "label": "Energie­stoffwechsel",
+            "icon": "⚡"
+          },
+          {
+            "id": "anderes",
+            "label": "Ohne Energie­stoffwechsel",
+            "icon": "🧩"
+          }
+        ],
+        "items": [
+          {
+            "text": "Vitamin B1",
+            "bucket": "energie"
+          },
+          {
+            "text": "Vitamin B6",
+            "bucket": "energie"
+          },
+          {
+            "text": "Pantothensäure",
+            "bucket": "energie"
+          },
+          {
+            "text": "Vitamin B2",
+            "bucket": "anderes"
+          },
+          {
+            "text": "Vitamin B12",
+            "bucket": "anderes"
+          },
+          {
+            "text": "Biotin",
+            "bucket": "anderes"
+          },
+          {
+            "text": "Folsäure",
+            "bucket": "anderes"
+          },
+          {
+            "text": "Vitamin C",
+            "bucket": "anderes"
+          }
+        ],
+        "explanation": "Frag dich bei jeder Karte: Steht bei diesem Vitamin auf dem Blatt das Wort Energiestoffwechsel? Dann gehört es in den Korb Energiestoffwechsel. Steht es dort nicht, gehört es in den anderen Korb."
+      }
+    },
     {
       "type": "match_pairs",
       "data": {
-        "prompt": "🔗 Welcher Name gehört zu welchem B-Vitamin? Verbinde.",
+        "prompt": "🔗 Wofür ist das Vitamin wichtig? Verbinde.",
         "pairs": [
-          {
-            "left": {
-              "text": "Vitamin B1"
-            },
-            "right": {
-              "text": "Thiamin"
-            }
-          },
           {
             "left": {
               "text": "Vitamin B2"
             },
             "right": {
-              "text": "Riboflavin"
+              "text": "Haut und Augen"
             }
           },
           {
             "left": {
-              "text": "Vitamin B6"
+              "text": "Biotin"
             },
             "right": {
-              "text": "Pyridoxin"
+              "text": "Haut, Haare und Nägel"
             }
           },
           {
@@ -39,143 +84,7 @@
               "text": "Vitamin B12"
             },
             "right": {
-              "text": "Cobalamin"
-            }
-          }
-        ],
-        "memory": false,
-        "explanation": "Denk an die Liste vom Blatt: Die Nummern werden immer größer, 1, 2, 6, 12. Sag dir die Namen in dieser Reihenfolge leise auf. Dann such zu jeder Nummer ihren Namen."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🔤 Wie heißt Vitamin B1 noch?",
-        "options": [
-          {
-            "text": "Thiamin",
-            "correct": true
-          },
-          {
-            "text": "Riboflavin"
-          },
-          {
-            "text": "Retinol"
-          },
-          {
-            "text": "Cobalamin"
-          }
-        ],
-        "explanation": "Vitamin B1 heißt Thiamin. Riboflavin ist B2, Cobalamin ist B12. Retinol ist kein B-Vitamin, sondern Vitamin A."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🔤 Riboflavin ist ein anderer Name für …",
-        "options": [
-          {
-            "text": "Vitamin B2",
-            "correct": true
-          },
-          {
-            "text": "Vitamin B12"
-          },
-          {
-            "text": "Vitamin B6"
-          },
-          {
-            "text": "Vitamin E"
-          }
-        ],
-        "explanation": "Riboflavin ist Vitamin B2. B12 heißt Cobalamin, B6 heißt Pyridoxin. Vitamin E heißt Tocopherol."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🔤 Welches Vitamin heißt Cobalamin?",
-        "options": [
-          {
-            "text": "Vitamin B12",
-            "correct": true
-          },
-          {
-            "text": "Vitamin B6"
-          },
-          {
-            "text": "Vitamin B1"
-          },
-          {
-            "text": "Vitamin K"
-          }
-        ],
-        "explanation": "Cobalamin ist Vitamin B12. Das Blatt nennt B12 auch beim Aufbau von Blut. B6 heißt Pyridoxin, B1 heißt Thiamin. Vitamin K heißt Phyllochinon."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🔤 Wie heißt Vitamin B6 noch?",
-        "options": [
-          {
-            "text": "Pyridoxin",
-            "correct": true
-          },
-          {
-            "text": "Thiamin"
-          },
-          {
-            "text": "Phyllochinon"
-          },
-          {
-            "text": "Riboflavin"
-          }
-        ],
-        "explanation": "Vitamin B6 heißt Pyridoxin. Thiamin ist B1, Riboflavin ist B2. Phyllochinon ist Vitamin K."
-      }
-    },
-    {
-      "type": "multiple_choice",
-      "data": {
-        "prompt": "🍊 Welcher Name gehört zu Vitamin C?",
-        "options": [
-          {
-            "text": "Ascorbinsäure",
-            "correct": true
-          },
-          {
-            "text": "Folsäure"
-          },
-          {
-            "text": "Pantothensäure"
-          },
-          {
-            "text": "Calciferol"
-          }
-        ],
-        "explanation": "Vitamin C heißt Ascorbinsäure. Folsäure und Pantothensäure sind auch wasserlöslich. Aber sie gehören zu den B-Vitaminen. Calciferol ist Vitamin D."
-      }
-    },
-    {
-      "type": "match_pairs",
-      "data": {
-        "prompt": "🔗 Was gehört zusammen? Verbinde.",
-        "pairs": [
-          {
-            "left": {
-              "text": "Biotin"
-            },
-            "right": {
-              "text": "Wird auch Vitamin H genannt"
-            }
-          },
-          {
-            "left": {
-              "text": "Niacin"
-            },
-            "right": {
-              "text": "Wird auch Vitamin B3 genannt"
+              "text": "Blutbildung und Nervensystem"
             }
           },
           {
@@ -183,20 +92,118 @@
               "text": "Folsäure"
             },
             "right": {
-              "text": "Wichtig für Zellteilung und Blutbildung"
+              "text": "Zellteilung und Blutbildung"
             }
           },
           {
             "left": {
-              "text": "Pantothensäure"
+              "text": "Vitamin C"
             },
             "right": {
-              "text": "Wichtig für den Energiestoffwechsel"
+              "text": "Immunsystem und Wundheilung"
             }
           }
         ],
         "memory": false,
-        "explanation": "Frag dich bei jeder Karte: Ist das ein zweiter Name oder eine Aufgabe? Bei den Aufgaben hilft: Folsäure steht auf dem Blatt auch beim Aufbau von Blut."
+        "explanation": "Achte auf jedes Wort. Zwei Vitamine sind für die Haut wichtig, zwei für die Blutbildung. Schau, was noch dabeisteht: Augen oder Haare und Nägel? Nervensystem oder Zellteilung?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Wofür ist Vitamin B6 wichtig?",
+        "options": [
+          {
+            "text": "Für den Protein- und Energiestoffwechsel",
+            "correct": true
+          },
+          {
+            "text": "Für die Blutbildung und das Nervensystem"
+          },
+          {
+            "text": "Für Haut, Haare und Nägel"
+          }
+        ],
+        "explanation": "Vitamin B6 ist wichtig für den Protein- und Energiestoffwechsel. Protein heißt: Eiweiß. Für die Blutbildung und das Nervensystem ist Vitamin B12 wichtig. Für Haut, Haare und Nägel ist Biotin wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💪 Welches Vitamin ist laut Blatt auch für den Proteinstoffwechsel wichtig?",
+        "options": [
+          {
+            "text": "Vitamin B6",
+            "correct": true
+          },
+          {
+            "text": "Vitamin B1"
+          },
+          {
+            "text": "Pantothensäure"
+          },
+          {
+            "text": "Vitamin B12"
+          }
+        ],
+        "explanation": "Für den Energiestoffwechsel sind B1, B6 und Pantothensäure wichtig. Nur bei B6 steht auch Protein. Protein heißt: Eiweiß. B12 ist für die Blutbildung und das Nervensystem wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Wofür ist Vitamin B2 wichtig?",
+        "options": [
+          {
+            "text": "Für Haut und Augen",
+            "correct": true
+          },
+          {
+            "text": "Für das Nervensystem"
+          },
+          {
+            "text": "Für die Zellteilung"
+          }
+        ],
+        "explanation": "Vitamin B2 ist wichtig für Haut und Augen. Für das Nervensystem ist Vitamin B12 wichtig. Für die Zellteilung ist Folsäure wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔤 Wofür ist Biotin wichtig?",
+        "options": [
+          {
+            "text": "Für Haut, Haare und Nägel",
+            "correct": true
+          },
+          {
+            "text": "Für die Blutbildung und das Nervensystem"
+          },
+          {
+            "text": "Für den Protein- und Energiestoffwechsel"
+          }
+        ],
+        "explanation": "Biotin ist wichtig für Haut, Haare und Nägel. Für die Blutbildung und das Nervensystem ist Vitamin B12 wichtig. Für den Protein- und Energiestoffwechsel ist Vitamin B6 wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Welches Vitamin stärkt laut Blatt das Immunsystem und die Wundheilung?",
+        "options": [
+          {
+            "text": "Vitamin C",
+            "correct": true
+          },
+          {
+            "text": "Vitamin B1"
+          },
+          {
+            "text": "Folsäure"
+          }
+        ],
+        "explanation": "Vitamin C stärkt das Immunsystem und die Wundheilung. Das Immunsystem ist die Abwehr des Körpers gegen Krankheiten. Vitamin B1 ist wichtig für den Energiestoffwechsel. Folsäure ist wichtig für die Zellteilung und die Blutbildung."
       }
     },
     {
@@ -228,19 +235,19 @@
             "correct": true
           },
           {
-            "text": "Für die Blutgerinnung"
+            "text": "Für Haut, Haare und Nägel"
           },
           {
-            "text": "Für Knochen und Zähne"
+            "text": "Für das Immunsystem und die Wundheilung"
           }
         ],
-        "explanation": "Pantothensäure ist wichtig für den Energiestoffwechsel. Die Blutgerinnung gehört zu Vitamin K. Knochen und Zähne gehören zu Vitamin D."
+        "explanation": "Pantothensäure ist wichtig für den Energiestoffwechsel. Für Haut, Haare und Nägel ist Biotin wichtig. Das Immunsystem und die Wundheilung stärkt Vitamin C."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🌟 Thiamin ist Vitamin B1. Zu welcher Gruppe gehört es?",
+        "prompt": "🌟 Zu welcher Gruppe gehört Vitamin B12?",
         "options": [
           {
             "text": "Zu den wasserlöslichen Vitaminen",
@@ -253,7 +260,7 @@
             "text": "Zu den Mineralstoffen"
           }
         ],
-        "explanation": "Thiamin ist ein B-Vitamin. Alle B-Vitamine sind wasserlöslich."
+        "explanation": "Vitamin B12 ist ein B-Vitamin. Alle B-Vitamine sind wasserlöslich. Fettlöslich sind nur A, D, E und K. Mineralstoffe sind keine Vitamine."
       }
     }
   ]
