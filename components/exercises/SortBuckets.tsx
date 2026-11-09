@@ -15,6 +15,9 @@ import { shuffleSeeded } from "./shuffle";
 /** Dauer der Falsch-Rueckmeldung (Shake + Korb-Pulsieren), bevor es weitergeht. */
 export const SORT_FEEDBACK_MS = 1400;
 
+/** Laengstes Wort (Zeichen), das bei drei Koerben nebeneinander noch passt. */
+const LANGES_WORT = 12;
+
 type SortBucketsProps = ExerciseComponentProps<SortBucketsData> & {
   /** Optionaler stabiler Seed (nur für Tests). Default: zufällig pro Aufruf. */
   seed?: string | number;
@@ -92,13 +95,26 @@ export function SortBuckets({
     }, SORT_FEEDBACK_MS);
   }
 
+  // Drei Koerbe nebeneinander sind auf dem Handy nur ca. 100 px breit.
+  // Hat ein Korb-Name ein langes Wort (z. B. "Zerkleinerungstechniken"),
+  // stehen die Koerbe untereinander, damit das Wort ganz lesbar bleibt.
+  const untereinander =
+    data.buckets.length === 3 &&
+    data.buckets.some((b) =>
+      b.label.split(/[\s\u00ad-]+/).some((wort) => wort.length > LANGES_WORT),
+    );
+
   return (
     <div className="flex flex-col gap-3">
-      {/* Korb-Buttons oben, kompakt nebeneinander */}
+      {/* Korb-Buttons oben, kompakt nebeneinander (oder untereinander) */}
       <div
         className={cn(
           "grid auto-rows-fr gap-2",
-          data.buckets.length === 3 ? "grid-cols-3" : "grid-cols-2",
+          untereinander
+            ? "grid-cols-1"
+            : data.buckets.length === 3
+              ? "grid-cols-3"
+              : "grid-cols-2",
         )}
       >
         {data.buckets.map((bucket) => {
@@ -110,7 +126,10 @@ export function SortBuckets({
               onClick={() => handleBucketTap(bucket.id)}
               disabled={done || wrongFeedbackBucket !== null}
               className={cn(
-                "flex min-h-14 cursor-pointer flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-b-4 px-1.5 py-1.5 font-bold text-ink transition-colors",
+                "flex cursor-pointer items-center rounded-2xl border-2 border-b-4 font-bold text-ink transition-colors",
+                untereinander
+                  ? "min-h-12 flex-row justify-start gap-3 px-4 py-2 text-left"
+                  : "min-h-14 flex-col justify-center gap-0.5 px-1.5 py-1.5",
                 "active:translate-y-1 active:border-b-2",
                 "disabled:cursor-not-allowed",
                 isCorrectHint
@@ -123,7 +142,14 @@ export function SortBuckets({
                   {bucket.icon}
                 </span>
               )}
-              <span className="text-sm leading-tight">{bucket.label}</span>
+              <span
+                className={cn(
+                  "min-w-0 leading-tight hyphens-auto wrap-anywhere",
+                  untereinander ? "text-base" : "w-full text-center text-sm",
+                )}
+              >
+                {bucket.label}
+              </span>
             </button>
           );
         })}

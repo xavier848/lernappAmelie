@@ -69,6 +69,7 @@ export function MultipleChoice({
             key={index}
             type="button"
             data-testid="choice-card"
+            data-feedback-ziel={showCorrect ? "richtig" : showWrong ? "falsch" : undefined}
             disabled={checked}
             aria-pressed={isSelected}
             onClick={() => setSelected(index)}

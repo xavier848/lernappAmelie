@@ -98,7 +98,7 @@ function LessonRowCard({
     return (
       <div
         aria-label={`${lesson.title} – noch gesperrt`}
-        className="flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-locked bg-white p-3 opacity-60"
+        className="flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-locked bg-white p-3 opacity-80"
       >
         <span
           className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-locked text-xl"
@@ -106,7 +106,7 @@ function LessonRowCard({
         >
           🔒
         </span>
-        <span className="flex-1 font-bold text-ink/50">{lesson.title}</span>
+        <span className="flex-1 font-bold text-ink/60">{lesson.title}</span>
       </div>
     );
   }
@@ -119,7 +119,7 @@ function LessonRowCard({
         className="flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 select-none active:translate-y-0.5 active:border-b-2"
       >
         <span
-          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-extrabold text-white"
+          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-strong text-xl font-extrabold text-white"
           aria-hidden
         >
           ✓
@@ -143,7 +143,7 @@ function LessonRowCard({
       className="flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-b-4 border-primary bg-primary-light p-3 select-none active:translate-y-0.5 active:border-b-2"
     >
       <span
-        className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl text-white"
+        className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-strong text-xl text-white"
         aria-hidden
       >
         ▶

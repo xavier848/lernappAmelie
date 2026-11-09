@@ -12,10 +12,21 @@
   --color-warning-dark: #ea580c;
   --color-warning-light: #fff7ed;
   --color-locked: #e2e8f0;
+  /* Kraeftige Knopf-Farben: weisse Schrift mit mind. 4.5:1 Kontrast (WCAG AA). */
+  --color-primary-strong: #0f766e;
+  --color-primary-strong-edge: #115e59;
+  --color-success-strong: #15803d;
+  --color-success-strong-edge: #166534;
+  --color-warning-strong: #c2410c;
+  --color-warning-strong-edge: #9a3412;
   /* Standard-Schrift: Atkinson Hyperlegible (max. eindeutige Buchstaben,
      gut bei Dyspraxie/Lesbarkeit). Umschaltbar im Profil via data-font. */
   --font-sans: var(--font-atkinson), system-ui, sans-serif;
 }
+
+/* Niedrige Bildschirme (z. B. iPhone SE, 667 px hoch): "kurz:" macht den
+   Feedback-Banner kompakter, damit die richtige Antwort darueber Platz hat. */
+@custom-variant kurz (@media (max-height: 720px));
 
 /* Schrift-Umschalter (Profil setzt data-font am <html>). */
 html[data-font="lexend"] {

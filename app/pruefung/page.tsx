@@ -34,7 +34,7 @@ const EXAM_COUNT = 20;
 const VERDICT_UI: Record<Verdict, { label: string; chip: string; bar: string }> = {
   bereit: { label: "Bereit ✅", chip: "bg-success-light text-success-dark", bar: "bg-success" },
   fast: { label: "Fast bereit", chip: "bg-primary-light text-primary-dark", bar: "bg-primary" },
-  ueben: { label: "Üben lohnt sich", chip: "bg-warning-light text-warning-dark", bar: "bg-warning" },
+  ueben: { label: "Üben lohnt sich", chip: "bg-warning-light text-warning-strong", bar: "bg-warning" },
   wenig: { label: "Noch wenig Daten", chip: "bg-locked text-ink/60", bar: "bg-locked" },
 };
 
@@ -83,19 +83,23 @@ function ReadinessList({ items }: { items: CategoryReadiness[] }) {
             <span className="text-2xl" aria-hidden>
               {r.icon}
             </span>
-            <span className="flex min-w-0 flex-1 flex-col">
-              <span className="font-bold text-ink">{r.title}</span>
-              <span className="mt-1 h-2 w-full overflow-hidden rounded-full bg-locked">
+            {/* Titel bekommt die ganze Breite; Balken und Hinweis darunter,
+                damit lange Namen nie unter dem Hinweis verschwinden. */}
+            <span className="flex min-w-0 flex-1 flex-col gap-1.5">
+              <span className="font-bold break-words hyphens-auto text-ink">{r.title}</span>
+              <span className="flex items-center gap-2">
+                <span className="h-2 min-w-0 flex-1 overflow-hidden rounded-full bg-locked">
+                  <span
+                    className={`block h-full rounded-full ${ui.bar}`}
+                    style={{ width: `${Math.round(r.ratio * 100)}%` }}
+                  />
+                </span>
                 <span
-                  className={`block h-full rounded-full ${ui.bar}`}
-                  style={{ width: `${Math.round(r.ratio * 100)}%` }}
-                />
+                  className={`shrink-0 rounded-full px-2.5 py-1 text-sm font-bold ${ui.chip}`}
+                >
+                  {ui.label}
+                </span>
               </span>
-            </span>
-            <span
-              className={`shrink-0 rounded-full px-2.5 py-1 text-xs font-bold ${ui.chip}`}
-            >
-              {ui.label}
             </span>
           </div>
         );
@@ -216,7 +220,7 @@ export default function PruefungPage() {
     return (
       <div className="mx-auto flex h-full w-full max-w-md flex-col overflow-y-auto overscroll-contain px-4 py-6">
         <Mascot mood="cheer" size={90} message={message} />
-        <p className="mt-4 text-center text-4xl font-extrabold text-primary">
+        <p className="mt-4 text-center text-4xl font-extrabold text-primary-dark">
           {phase.correct} von {phase.total} richtig
         </p>
         <p className="mt-1 text-center text-base font-semibold text-ink/70">

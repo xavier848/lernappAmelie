@@ -121,59 +121,68 @@ export function StepsOrder({
   };
 
   return (
-    <ol
-      aria-label="Tippe die Schritte in der richtigen Reihenfolge an"
-      className="flex flex-col gap-2"
-    >
-      {cards.map((card) => {
-        const position = order.indexOf(card.id);
-        const number = position >= 0 ? position + 1 : null;
-        const state = cardState(card.id);
-        const wrong = checked && state === "wrong";
-        return (
-          <li key={card.id}>
-            <button
-              type="button"
-              data-testid="order-card"
-              disabled={checked}
-              onClick={() => toggleCard(card.id)}
-              aria-label={cardLabel(card.text, {
-                number,
-                checked,
-                correctNumber: card.id + 1,
-                nextNumber: order.length + 1,
-              })}
-              className={cn(
-                "flex min-h-14 w-full cursor-pointer items-center gap-3 rounded-2xl border-2 px-3 py-2 text-left select-none",
-                "transition-transform active:translate-y-0.5",
-                CARD_STATE_CLASSES[state],
-              )}
-            >
-              <NumberBadge
-                number={number}
-                background={BADGE_BG[state]}
-                reducedMotion={reducedMotion ?? false}
-              />
-              {card.image && (
-                <img
-                  src={card.image}
-                  alt=""
-                  className="h-10 w-10 shrink-0 rounded-lg object-contain"
+    <div className="flex flex-col gap-3">
+      <ol
+        aria-label="Tippe die Schritte in der richtigen Reihenfolge an"
+        className="flex flex-col gap-2"
+      >
+        {cards.map((card) => {
+          const position = order.indexOf(card.id);
+          const number = position >= 0 ? position + 1 : null;
+          const state = cardState(card.id);
+          const wrong = checked && state === "wrong";
+          return (
+            <li key={card.id}>
+              <button
+                type="button"
+                data-testid="order-card"
+                disabled={checked}
+                onClick={() => toggleCard(card.id)}
+                aria-label={cardLabel(card.text, {
+                  number,
+                  checked,
+                  correctNumber: card.id + 1,
+                  nextNumber: order.length + 1,
+                })}
+                className={cn(
+                  "flex min-h-14 w-full cursor-pointer items-center gap-3 rounded-2xl border-2 px-3 py-2 text-left select-none",
+                  "transition-transform active:translate-y-0.5",
+                  CARD_STATE_CLASSES[state],
+                )}
+              >
+                <NumberBadge
+                  number={number}
+                  background={BADGE_BG[state]}
+                  reducedMotion={reducedMotion ?? false}
                 />
-              )}
-              <span className="flex-1 text-base font-semibold text-ink">
-                {card.text}
-              </span>
-              {wrong && (
-                <span className="shrink-0 text-sm font-bold text-warning-dark">
-                  richtig: {card.id + 1}.
+                {card.image && (
+                  <img
+                    src={card.image}
+                    alt=""
+                    className="h-10 w-10 shrink-0 rounded-lg object-contain"
+                  />
+                )}
+                <span className="flex-1 text-base font-semibold text-ink">
+                  {card.text}
                 </span>
-              )}
-            </button>
-          </li>
-        );
-      })}
-    </ol>
+                {wrong && (
+                  <span className="shrink-0 text-sm font-bold text-warning-dark">
+                    richtig: {card.id + 1}.
+                  </span>
+                )}
+              </button>
+            </li>
+          );
+        })}
+      </ol>
+      {!checked && order.length < total && (
+        <p className="text-center text-base text-ink/70">
+          {order.length === 0
+            ? "Tippe zuerst die Karte an, die an Platz 1 gehört."
+            : `Gut! Welche Karte kommt an Platz ${order.length + 1}?`}
+        </p>
+      )}
+    </div>
   );
 }
 

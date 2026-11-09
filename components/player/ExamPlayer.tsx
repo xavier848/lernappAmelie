@@ -145,19 +145,32 @@ export function ExamPlayer({
         </span>
       </div>
 
-      <div className="flex items-start gap-3 px-4 pt-6">
-        <h1 className="flex-1 text-xl font-bold text-ink">
-          <PromptText text={current.exercise.data.prompt} />
-        </h1>
-        <TTSButton
-          text={speakableText(current.exercise)}
-          lang={current.exercise.data.tts_lang}
-        />
-      </div>
-
-      <div className="flex-1 overflow-y-auto overscroll-contain px-4 pt-6 pb-40">
+      {/* Aufgabe + Uebung in EINEM Scroll-Bereich (key: jede Frage beginnt
+          oben). Die Aufgabe bleibt beim Scrollen oben stehen; waehrend der
+          Rueckmeldung scrollt sie mit (Platz fuer die richtige Antwort). */}
+      <div
+        key={index}
+        className="flex-1 overflow-y-auto overscroll-contain px-4"
+        style={{
+          // Platz fuer den Pruefen-Knopf bzw. das Feedback-Banner (--feedback-h).
+          paddingBottom: "max(10rem, calc(var(--feedback-h, 0px) + 1.5rem))",
+          scrollPaddingBottom: "calc(var(--feedback-h, 0px) + 1rem)",
+        }}
+      >
+        <div
+          className={`-mx-4 flex items-start gap-3 bg-white px-4 pt-6 pb-6 ${
+            feedback === null ? "sticky top-0 z-10" : ""
+          }`}
+        >
+          <h1 className="flex-1 text-xl font-bold text-ink">
+            <PromptText text={current.exercise.data.prompt} />
+          </h1>
+          <TTSButton
+            text={speakableText(current.exercise)}
+            lang={current.exercise.data.tts_lang}
+          />
+        </div>
         <ExerciseView
-          key={index}
           exercise={current.exercise}
           onResult={handleResult}
           checkRequested={checkRequested}
