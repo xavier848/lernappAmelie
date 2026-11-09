@@ -118,7 +118,7 @@ function LektionsZeile({
         className="flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 select-none active:translate-y-0.5 active:border-b-2"
       >
         <span
-          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-extrabold text-white"
+          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-strong text-xl font-extrabold text-white"
           aria-hidden
         >
           ✓
@@ -143,7 +143,7 @@ function LektionsZeile({
     >
       <span
         className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-xl ${
-          naechste ? "bg-primary text-white" : "bg-primary-light text-primary-dark"
+          naechste ? "bg-primary-strong text-white" : "bg-primary-light text-primary-dark"
         }`}
         aria-hidden
       >
@@ -311,7 +311,7 @@ export default function PruefungPage() {
     return (
       <div className="mx-auto flex h-full w-full max-w-md flex-col overflow-y-auto overscroll-contain px-4 py-6">
         <Mascot mood="cheer" size={90} message={message} />
-        <p className="mt-4 text-center text-4xl font-extrabold text-primary">
+        <p className="mt-4 text-center text-4xl font-extrabold text-primary-dark">
           {richtig} von {gesamt} richtig
         </p>
         <p className="mt-1 text-center text-base font-semibold text-ink/70">

@@ -308,7 +308,7 @@ function MemoryBoard({
             {/* Rückseite (verdeckt): ? */}
             <span
               aria-hidden
-              className="absolute inset-0 flex items-center justify-center rounded-2xl border-2 border-b-4 border-primary-dark bg-primary text-2xl font-extrabold text-white [backface-visibility:hidden]"
+              className="absolute inset-0 flex items-center justify-center rounded-2xl border-2 border-b-4 border-primary-strong-edge bg-primary-strong text-2xl font-extrabold text-white [backface-visibility:hidden]"
             >
               ?
             </span>

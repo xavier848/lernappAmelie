@@ -705,21 +705,34 @@ export function LessonPlayer({
         />
       </div>
 
-      {/* Prompt + Vorlesen */}
-      <div className="flex items-start gap-3 px-4 pt-6">
-        <h1 className="flex-1 text-xl font-bold text-ink">
-          <PromptText text={current.exercise.data.prompt} />
-        </h1>
-        <TTSButton
-          text={speakableText(current.exercise)}
-          lang={current.exercise.data.tts_lang}
-        />
-      </div>
-
-      {/* Uebung – key erzwingt Remount bei Wiederholung derselben Uebung */}
-      <div className="flex-1 overflow-y-auto overscroll-contain px-4 pt-6 pb-40">
+      {/* Aufgabe + Uebung in EINEM Scroll-Bereich. key erzwingt Remount bei
+          jeder (auch wiederholten) Uebung - so beginnt jede Uebung oben. */}
+      <div
+        key={`${currentIndex}-${queueState.retried[currentIndex]}`}
+        className="flex-1 overflow-y-auto overscroll-contain px-4"
+        style={{
+          // Platz fuer den Pruefen-Knopf bzw. das Feedback-Banner (--feedback-h).
+          paddingBottom: "max(10rem, calc(var(--feedback-h, 0px) + 1.5rem))",
+          scrollPaddingBottom: "calc(var(--feedback-h, 0px) + 1rem)",
+        }}
+      >
+        {/* Prompt + Vorlesen: bleibt beim Scrollen oben stehen. Waehrend der
+            Rueckmeldung scrollt er mit, damit auf kleinen Handys die richtige
+            Antwort ueber dem Banner Platz hat. */}
+        <div
+          className={`-mx-4 flex items-start gap-3 bg-white px-4 pt-6 pb-6 ${
+            feedback === null ? "sticky top-0 z-10" : ""
+          }`}
+        >
+          <h1 className="flex-1 text-xl font-bold text-ink">
+            <PromptText text={current.exercise.data.prompt} />
+          </h1>
+          <TTSButton
+            text={speakableText(current.exercise)}
+            lang={current.exercise.data.tts_lang}
+          />
+        </div>
         <ExerciseView
-          key={`${currentIndex}-${queueState.retried[currentIndex]}`}
           exercise={current.exercise}
           onResult={handleResult}
           checkRequested={checkRequested}

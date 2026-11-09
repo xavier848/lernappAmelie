@@ -462,7 +462,7 @@ export default function AdminInhaltePage() {
           <p className="font-semibold">Bitte zuerst anmelden.</p>
           <Link
             href="/admin"
-            className="mt-3 flex min-h-12 w-full items-center justify-center rounded-2xl border-b-4 border-primary-dark bg-primary px-5 font-bold text-white active:translate-y-1 active:border-b-0"
+            className="mt-3 flex min-h-12 w-full items-center justify-center rounded-2xl border-b-4 border-primary-strong-edge bg-primary-strong px-5 font-bold text-white active:translate-y-1 active:border-b-0"
           >
             Zur Anmeldung
           </Link>

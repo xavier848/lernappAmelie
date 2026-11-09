@@ -91,7 +91,7 @@ export function FontChooser() {
               </span>
               {active && (
                 <span
-                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
+                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary-strong text-sm font-bold text-white"
                   aria-hidden
                 >
                   ✓

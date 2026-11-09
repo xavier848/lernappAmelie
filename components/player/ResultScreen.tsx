@@ -88,7 +88,7 @@ export function ResultScreen({
       )}
 
       <div className="flex flex-col items-center text-center">
-        <p className="text-5xl font-extrabold text-primary">+{xp} XP</p>
+        <p className="text-5xl font-extrabold text-primary-dark">+{xp} XP</p>
         <p className="mt-2 text-base font-semibold text-ink">
           Das hast du dir verdient!
         </p>
@@ -97,7 +97,7 @@ export function ResultScreen({
             initial={reducedMotion ? false : { scale: 0.6, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: reducedMotion ? 0 : 0.5, type: "spring" }}
-            className="mt-4 rounded-full bg-primary px-5 py-2 text-lg font-extrabold text-white"
+            className="mt-4 rounded-full bg-primary-strong px-5 py-2 text-lg font-extrabold text-white"
           >
             Level {levelUp} erreicht! 🎉
           </motion.p>

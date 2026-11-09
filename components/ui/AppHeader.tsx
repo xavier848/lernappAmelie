@@ -42,7 +42,7 @@ export function AppHeader({ streak, xp }: { streak: number; xp: number }) {
           <span aria-hidden>⚡</span>
           {xp}
         </span>
-        <span className="rounded-full bg-primary px-4 py-1.5 text-sm font-bold text-white">
+        <span className="rounded-full bg-primary-strong px-4 py-1.5 text-sm font-bold text-white">
           Level {level}
         </span>
       </div>
