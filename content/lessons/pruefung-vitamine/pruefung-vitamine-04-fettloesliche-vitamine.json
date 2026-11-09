@@ -1,50 +1,27 @@
 {
   "topic_slug": "pruefung-vitamine",
   "slug": "pruefung-vitamine-04-fettloesliche-vitamine",
-  "title": "Fettlösliche Vitamine: Namen und Aufgaben",
+  "title": "Fettlösliche Vitamine und ihre Aufgaben",
   "sort": 4,
-  "intro": "Fettlöslich sind die Vitamine A, D, E und K. Jedes hat einen Namen und eine wichtige Aufgabe.\n\nVitamin A heißt Retinol. Es ist wichtig für die Sehkraft, die Haut und die Schleimhäute. Sehkraft heißt: wie gut die Augen sehen.\n\nVitamin D heißt Calciferol. Es ist wichtig für Knochen, Zähne und den Calciumstoffwechsel. Calcium ist ein Mineralstoff. Der Körper baut damit Knochen und Zähne.\n\nVitamin E heißt Tocopherol. Es ist wichtig für den Zellschutz. Es ist ein Antioxidans. Ein Antioxidans schützt die Zellen vor freien Radikalen.\n\nVitamin K heißt Phyllochinon. Es ist wichtig für die Blutgerinnung. Blutgerinnung heißt: Bei einer Wunde wird das Blut fest. Dann hört die Wunde auf zu bluten.\n\nHilfe für die Namen: In Calciferol steckt das Wort Calcium. Calcium brauchen die Knochen. Also gehört Calciferol zu Vitamin D.\n\nMERKE: A Retinol, D Calciferol, E Tocopherol, K Phyllochinon.",
+  "intro": "Fettlöslich sind die Vitamine A, D, E und K. Jedes hat eine wichtige Aufgabe.\n\nVitamin A ist wichtig für die Sehkraft, die Haut und die Schleimhäute. Sehkraft heißt: wie gut die Augen sehen. Schleimhäute sind die feuchte Haut innen, zum Beispiel im Mund und in der Nase.\n\nVitamin D ist wichtig für Knochen und Zähne.\n\nVitamin E schützt die Zellen. Es ist ein Antioxidans. Ein Antioxidans ist ein Schutzstoff gegen freie Radikale. Freie Radikale sind schädliche Teilchen.\n\nVitamin K ist wichtig für die Blutgerinnung. Blutgerinnung heißt: Bei einer Wunde wird das Blut fest. Dann hört die Wunde auf zu bluten.\n\nAchtung: Auch Vitamin B2 ist für die Haut und die Augen wichtig. Aber B2 ist wasserlöslich. Vitamin A ist fettlöslich.\n\nMERKE: A: Sehkraft, Haut und Schleimhäute. D: Knochen und Zähne. E: schützt die Zellen, Antioxidans. K: Blutgerinnung.",
   "exercises": [
     {
-      "type": "match_pairs",
+      "type": "multiple_choice",
       "data": {
-        "prompt": "🔗 Welcher Name gehört zu welchem Vitamin? Verbinde.",
-        "pairs": [
+        "prompt": "🦴 Welches Vitamin ist wichtig für Knochen und Zähne?",
+        "options": [
           {
-            "left": {
-              "text": "Vitamin A"
-            },
-            "right": {
-              "text": "Retinol"
-            }
+            "text": "Vitamin D",
+            "correct": true
           },
           {
-            "left": {
-              "text": "Vitamin D"
-            },
-            "right": {
-              "text": "Calciferol"
-            }
+            "text": "Vitamin A"
           },
           {
-            "left": {
-              "text": "Vitamin E"
-            },
-            "right": {
-              "text": "Tocopherol"
-            }
-          },
-          {
-            "left": {
-              "text": "Vitamin K"
-            },
-            "right": {
-              "text": "Phyllochinon"
-            }
+            "text": "Vitamin K"
           }
         ],
-        "memory": false,
-        "explanation": "Such zuerst ein Wort, das du schon kennst: In Calciferol steckt Calcium, und Calcium brauchen die Knochen. Sag dir dann die Reihe vom Blatt leise auf: A, D, E, K."
+        "explanation": "Vitamin D ist wichtig für Knochen und Zähne. Vitamin A ist wichtig für Sehkraft, Haut und Schleimhäute. Vitamin K ist wichtig für die Blutgerinnung."
       }
     },
     {
@@ -65,7 +42,7 @@
               "text": "Vitamin D"
             },
             "right": {
-              "text": "Knochen, Zähne und Calciumstoffwechsel"
+              "text": "Knochen und Zähne"
             }
           },
           {
@@ -73,7 +50,7 @@
               "text": "Vitamin E"
             },
             "right": {
-              "text": "Zellschutz, Antioxidans"
+              "text": "Schützt die Zellen, Antioxidans"
             }
           },
           {
@@ -92,51 +69,45 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Wie heißt Vitamin K noch?",
+        "prompt": "🔤 Wofür ist Vitamin K wichtig?",
         "options": [
           {
-            "text": "Phyllochinon",
+            "text": "Für die Blutgerinnung",
             "correct": true
           },
           {
-            "text": "Tocopherol"
+            "text": "Für Knochen und Zähne"
           },
           {
-            "text": "Calciferol"
-          },
-          {
-            "text": "Pyridoxin"
+            "text": "Für Sehkraft, Haut und Schleimhäute"
           }
         ],
-        "explanation": "Vitamin K heißt Phyllochinon. Tocopherol ist Vitamin E, Calciferol ist Vitamin D. Pyridoxin ist Vitamin B6."
+        "explanation": "Vitamin K ist wichtig für die Blutgerinnung. Knochen und Zähne brauchen Vitamin D. Sehkraft, Haut und Schleimhäute brauchen Vitamin A."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Tocopherol ist ein anderer Name für …",
+        "prompt": "🔤 Was macht Vitamin E laut Blatt?",
         "options": [
           {
-            "text": "Vitamin E",
+            "text": "Es schützt die Zellen. Es ist ein Antioxidans.",
             "correct": true
           },
           {
-            "text": "Vitamin A"
+            "text": "Es sorgt dafür, dass das Blut bei einer Wunde fest wird."
           },
           {
-            "text": "Vitamin K"
-          },
-          {
-            "text": "Vitamin D"
+            "text": "Es macht die Knochen und die Zähne stark."
           }
         ],
-        "explanation": "Tocopherol ist Vitamin E. Es schützt die Zellen. Vitamin A heißt Retinol, K heißt Phyllochinon und D heißt Calciferol."
+        "explanation": "Vitamin E schützt die Zellen. Es ist ein Antioxidans, also ein Schutzstoff gegen freie Radikale. Dass das Blut bei einer Wunde fest wird, ist die Aufgabe von Vitamin K. Für Knochen und Zähne ist Vitamin D wichtig."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Welches Vitamin heißt Retinol?",
+        "prompt": "👓 Welches fettlösliche Vitamin ist wichtig für die Sehkraft?",
         "options": [
           {
             "text": "Vitamin A",
@@ -146,13 +117,10 @@
             "text": "Vitamin E"
           },
           {
-            "text": "Vitamin B2"
-          },
-          {
             "text": "Vitamin K"
           }
         ],
-        "explanation": "Retinol ist Vitamin A. Es ist wichtig für die Sehkraft, die Haut und die Schleimhäute. E heißt Tocopherol, B2 heißt Riboflavin und K heißt Phyllochinon."
+        "explanation": "Vitamin A ist wichtig für die Sehkraft, die Haut und die Schleimhäute. Vitamin E schützt die Zellen. Vitamin K ist wichtig für die Blutgerinnung. Auch Vitamin B2 ist für die Augen wichtig. Aber B2 ist wasserlöslich."
       }
     },
     {
@@ -177,26 +145,26 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🔤 Wofür ist Calciferol wichtig?",
+        "prompt": "🧴 Vitamin A und Vitamin B2 sind beide für die Haut wichtig. Was ist der Unterschied?",
         "options": [
           {
-            "text": "Für Knochen und Zähne",
+            "text": "A ist fettlöslich, B2 ist wasserlöslich.",
             "correct": true
           },
           {
-            "text": "Für die Blutgerinnung"
+            "text": "A ist wasserlöslich, B2 ist fettlöslich."
           },
           {
-            "text": "Für die Sehkraft und die Schleimhäute"
+            "text": "A und B2 sind beide fettlöslich."
           }
         ],
-        "explanation": "Calciferol ist Vitamin D. Es ist wichtig für Knochen, Zähne und den Calciumstoffwechsel. Für die Blutgerinnung ist Vitamin K wichtig, für die Sehkraft Vitamin A."
+        "explanation": "Vitamin A steckt in der Merkhilfe EDEKA. Es ist fettlöslich. B2 ist ein B-Vitamin. Alle B-Vitamine sind wasserlöslich. Vitamin A ist wichtig für Sehkraft, Haut und Schleimhäute. Vitamin B2 ist wichtig für Haut und Augen."
       }
     },
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🧪 Wasserlöslich oder fettlöslich? Sortiere die Namen.",
+        "prompt": "🗂️ Wasserlöslich oder fettlöslich? Sortiere die Vitamine nach ihrer Aufgabe.",
         "buckets": [
           {
             "id": "wasser",
@@ -211,39 +179,35 @@
         ],
         "items": [
           {
-            "text": "Thiamin",
-            "bucket": "wasser"
-          },
-          {
-            "text": "Riboflavin",
-            "bucket": "wasser"
-          },
-          {
-            "text": "Cobalamin",
-            "bucket": "wasser"
-          },
-          {
-            "text": "Ascorbinsäure",
-            "bucket": "wasser"
-          },
-          {
-            "text": "Retinol",
+            "text": "Wichtig für die Blutgerinnung",
             "bucket": "fett"
           },
           {
-            "text": "Calciferol",
+            "text": "Wichtig für Knochen und Zähne",
             "bucket": "fett"
           },
           {
-            "text": "Tocopherol",
+            "text": "Wichtig für Sehkraft, Haut und Schleimhäute",
             "bucket": "fett"
           },
           {
-            "text": "Phyllochinon",
-            "bucket": "fett"
+            "text": "Wichtig für die Blutbildung und das Nervensystem",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Wichtig für Haut, Haare und Nägel",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Stärkt das Immunsystem und die Wundheilung",
+            "bucket": "wasser"
+          },
+          {
+            "text": "Wichtig für die Zellteilung und die Blutbildung",
+            "bucket": "wasser"
           }
         ],
-        "explanation": "Überleg bei jedem Namen zuerst: Zu welchem Vitamin gehört er? Dann hilft EDEKA: Nur E, D, K und A sind fettlöslich."
+        "explanation": "Überleg bei jeder Karte zuerst: Zu welchem Vitamin gehört diese Aufgabe? Dann hilft EDEKA: Nur E, D, K und A sind fettlöslich."
       }
     },
     {
@@ -262,7 +226,7 @@
             "text": "Vitamin D"
           }
         ],
-        "explanation": "Vitamin E heißt Tocopherol. Es schützt die Zellen und ist ein Antioxidans. Vitamin C ist auch ein Antioxidans, aber es ist wasserlöslich. Vitamin K ist für die Blutgerinnung da, Vitamin D für Knochen und Zähne."
+        "explanation": "Vitamin E schützt die Zellen und ist ein Antioxidans. Vitamin C ist auch ein Antioxidans, aber es ist wasserlöslich. Vitamin K ist für die Blutgerinnung da, Vitamin D für Knochen und Zähne."
       }
     },
     {
@@ -278,10 +242,10 @@
             "text": "Für die Blutgerinnung bei Wunden"
           },
           {
-            "text": "Für Knochen, Zähne und Calcium"
+            "text": "Für Knochen und Zähne"
           }
         ],
-        "explanation": "Vitamin A heißt Retinol. Es ist wichtig für die Sehkraft, die Haut und die Schleimhäute. Die Blutgerinnung gehört zu Vitamin K. Knochen, Zähne und Calcium gehören zu Vitamin D."
+        "explanation": "Vitamin A ist wichtig für die Sehkraft, die Haut und die Schleimhäute. Die Blutgerinnung gehört zu Vitamin K. Knochen und Zähne gehören zu Vitamin D."
       }
     }
   ]

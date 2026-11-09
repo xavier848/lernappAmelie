@@ -54,8 +54,8 @@ Zwei Scans vom 04.11. (spanische Arbeitsblätter) gehören nicht zu Amelie. Xavi
 
 1. Die Aufgaben der Vitamine
 2. Wasserlöslich oder fettlöslich?
-3. Wasserlösliche Vitamine und ihre Namen
-4. Fettlösliche Vitamine: Namen und Aufgaben
+3. Wasserlösliche Vitamine und ihre Aufgaben (bis 08.11.: „… und ihre Namen“)
+4. Fettlösliche Vitamine und ihre Aufgaben (bis 08.11.: „Fettlösliche Vitamine: Namen und Aufgaben“)
 5. Welche Vitamine stecken im Essen?
 6. Lückentext wie im Test: Wofür brauchen wir Vitamine?
 7. Vitamin-C-Verlust: Wärme, Zerkleinern und Kochwasser
@@ -124,6 +124,36 @@ Der Prüfer der Textilien wollte Seide-Quiz-Frage 8 so üben lassen, wie sie ged
 3. Lange Baumwollfasern: Beginnen sie bei 16 oder bei 20 mm?
 4. Kartoffel-Diagramm: Welche Zeiten sind richtig (1, 6, 5 Stunden)?
 5. Kohlrabi-Diagramm: Ist es so gemeint wie oben beschrieben?
+
+## Änderung am 09.11.: neue Fassung des Vitamin-Blatts
+
+Am 08.11. hat Amelie in der WhatsApp-Gruppe eine neue Fassung des Blatts „Aufgaben der Vitamine / Einteilung der Vitamine“ geschickt. Dazu schrieb sie:
+
+> Auf diesem Blatt sind die Aufgaben der Vitamine und die Einteilung in wasserlösliche und fettlösliche Vitamine. Niacin und lateinische Begriffe lassen wir weg.
+
+Unterschiede zur alten Fassung vom 29.10.:
+
+- Die lateinischen Namen sind weg: Thiamin, Riboflavin, Pyridoxin, Cobalamin, Ascorbinsäure, Retinol, Calciferol, Tocopherol, Phyllochinon.
+- Auch „Biotin = Vitamin H“ und „Niacin = Vitamin B3“ sind weg.
+- Dafür hat jedes wasserlösliche Vitamin eine Aufgabe:
+  - B1: Energiestoffwechsel
+  - B2: Haut und Augen
+  - B6: Protein- und Energiestoffwechsel
+  - B12: Blutbildung und Nervensystem
+  - Biotin: Haut, Haare und Nägel
+  - Folsäure: Zellteilung und Blutbildung
+  - Pantothensäure: Energiestoffwechsel
+  - Vitamin C: stärkt das Immunsystem und die Wundheilung
+- Vitamin D: „Knochen und Zähne“, ohne Calciumstoffwechsel.
+- Die vier Aufgaben der Vitamine stehen nur noch als Überschriften da. Lektion 1 lehrt weiter die Stichpunkte der alten Fassung. Sie widersprechen der neuen Fassung nicht.
+
+Was sich in der App geändert hat:
+
+- **Lektion 2:** Niacin ist raus, in der Sortier-Übung steht jetzt Pantothensäure.
+- **Lektion 3:** neu geschrieben, „Wasserlösliche Vitamine und ihre Aufgaben“. Die Übungen zu Folsäure und Pantothensäure sind unverändert.
+- **Lektion 4:** Die lateinischen Namen sind raus. Vitamin D steht da wie auf der neuen Fassung. Dazu kommen eine Sortier-Übung „wasser- oder fettlöslich nach der Aufgabe“ und eine Frage zum Unterschied zwischen Vitamin A und B2. Beide sind für die Haut wichtig.
+- In der Datenbank sind die Übungen an ihren Plätzen aktualisiert. Es wurde nichts gelöscht, Amelies bisherige Antworten bleiben erhalten. Die Lektionen 3 und 4 hatte sie noch nicht geübt.
+- „Beta-Carotin“ bleibt. Es steht im Vitamin-Quiz vom Blatt und ist kein Name eines Vitamins.
 
 ## Nach der Prüfung
 
