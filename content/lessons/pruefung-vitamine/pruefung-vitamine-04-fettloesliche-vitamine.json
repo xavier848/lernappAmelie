@@ -145,7 +145,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🧴 Vitamin A und Vitamin B2 sind beide für die Haut wichtig. Was ist der Unterschied?",
+        "prompt": "🧴 Vitamin A und Vitamin B2 sind beide für die Haut wichtig. Was stimmt?",
         "options": [
           {
             "text": "A ist fettlöslich, B2 ist wasserlöslich.",
@@ -156,6 +156,9 @@
           },
           {
             "text": "A und B2 sind beide fettlöslich."
+          },
+          {
+            "text": "A und B2 sind beide wasserlöslich."
           }
         ],
         "explanation": "Vitamin A steckt in der Merkhilfe EDEKA. Es ist fettlöslich. B2 ist ein B-Vitamin. Alle B-Vitamine sind wasserlöslich. Vitamin A ist wichtig für Sehkraft, Haut und Schleimhäute. Vitamin B2 ist wichtig für Haut und Augen."
@@ -164,7 +167,7 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "🗂️ Wasserlöslich oder fettlöslich? Sortiere die Vitamine nach ihrer Aufgabe.",
+        "prompt": "🗂️ Zu welchem Vitamin gehört die Aufgabe? Ist es wasserlöslich oder fettlöslich? Sortiere.",
         "buckets": [
           {
             "id": "wasser",

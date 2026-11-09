@@ -3,21 +3,21 @@
   "slug": "pruefung-vitamine-03-namen-wasserloesliche-vitamine",
   "title": "Wasserlösliche Vitamine und ihre Aufgaben",
   "sort": 3,
-  "intro": "Auf dem Blatt steht bei jedem wasserlöslichen Vitamin, wofür es wichtig ist. Hier lernst du diese Aufgaben.\n\nFür den Energiestoffwechsel sind Vitamin B1 und Pantothensäure wichtig. Vitamin B6 ist wichtig für den Protein- und Energiestoffwechsel. Energiestoffwechsel heißt: Der Körper gewinnt aus der Nahrung Energie. Protein heißt: Eiweiß.\n\nVitamin B2 ist wichtig für Haut und Augen. Biotin ist wichtig für Haut, Haare und Nägel.\n\nFür die Blutbildung sind Vitamin B12 und Folsäure wichtig. Vitamin B12 ist außerdem wichtig für das Nervensystem. Folsäure ist außerdem wichtig für die Zellteilung. Blutbildung heißt: Der Körper bildet neues Blut. Zellteilung heißt: Aus einer Zelle werden zwei neue Zellen. Das Nervensystem leitet Signale im Körper weiter, zum Beispiel vom Gehirn zu den Muskeln.\n\nVitamin C stärkt das Immunsystem und die Wundheilung. Das Immunsystem ist die Abwehr des Körpers gegen Krankheiten. Wundheilung heißt: Eine Wunde wächst wieder zu.\n\nTipp: Viele B-Vitamine helfen beim Energiestoffwechsel. Merk dir deshalb gut die anderen: B2 für Haut und Augen, B12 für Blut und Nerven, Biotin für Haut, Haare und Nägel, Folsäure für Zellteilung und Blut.\n\nMERKE: Energiestoffwechsel: B1, B6 und Pantothensäure. Haut und Augen: B2. Haut, Haare und Nägel: Biotin. Blutbildung: B12 und Folsäure. Immunsystem und Wundheilung: Vitamin C.",
+  "intro": "Auf dem Blatt steht bei jedem wasserlöslichen Vitamin, wofür es wichtig ist. Hier lernst du diese Aufgaben.\n\nFür den Energiestoffwechsel sind Vitamin B1 und Pantothensäure wichtig. Vitamin B6 ist wichtig für den Protein- und Energiestoffwechsel. Energiestoffwechsel heißt: Der Körper gewinnt aus der Nahrung Energie. Protein heißt: Eiweiß. Nur bei B6 steht auch Protein.\n\nVitamin B2 ist wichtig für Haut und Augen. Biotin ist wichtig für Haut, Haare und Nägel.\n\nFür die Blutbildung sind Vitamin B12 und Folsäure wichtig. Vitamin B12 ist außerdem wichtig für das Nervensystem. Folsäure ist außerdem wichtig für die Zellteilung. Blutbildung heißt: Der Körper bildet neues Blut. Zellteilung heißt: Aus einer Zelle werden zwei neue Zellen. Das Nervensystem leitet Nachrichten im Körper weiter, zum Beispiel vom Gehirn zu den Muskeln.\n\nVitamin C stärkt das Immunsystem und die Wundheilung. Das Immunsystem ist die Abwehr des Körpers gegen Krankheiten. Wundheilung heißt: Eine Wunde wächst wieder zu.\n\nTipp: Drei Vitamine sind für den Energiestoffwechsel wichtig. Merk dir die anderen gut. Für die Haut sind B2 und Biotin wichtig. Für das Blut sind B12 und Folsäure wichtig.\n\nMERKE: Energiestoffwechsel: B1, B6 und Pantothensäure. B6 zusätzlich: Protein. Haut und Augen: B2. Haut, Haare und Nägel: Biotin. Blutbildung und Nervensystem: B12. Zellteilung und Blutbildung: Folsäure. Immunsystem und Wundheilung: Vitamin C.",
   "exercises": [
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "⚡ Für den Energiestoffwechsel oder für etwas anderes? Sortiere die Vitamine.",
+        "prompt": "⚡ Ist das Vitamin für den Energiestoffwechsel wichtig? Sortiere.",
         "buckets": [
           {
             "id": "energie",
-            "label": "Energiestoffwechsel",
+            "label": "Energie­stoffwechsel",
             "icon": "⚡"
           },
           {
             "id": "anderes",
-            "label": "Etwas anderes",
+            "label": "Ohne Energie­stoffwechsel",
             "icon": "🧩"
           }
         ],
@@ -55,7 +55,7 @@
             "bucket": "anderes"
           }
         ],
-        "explanation": "Frag dich bei jeder Karte: Steht bei diesem Vitamin auf dem Blatt das Wort Energiestoffwechsel? Dann gehört es nach links. Die anderen haben eine andere Aufgabe, zum Beispiel für die Haut, das Blut oder die Abwehr."
+        "explanation": "Frag dich bei jeder Karte: Steht bei diesem Vitamin auf dem Blatt das Wort Energiestoffwechsel? Dann gehört es in den Korb Energiestoffwechsel. Steht es dort nicht, gehört es in den anderen Korb."
       }
     },
     {
@@ -89,6 +89,14 @@
           },
           {
             "left": {
+              "text": "Folsäure"
+            },
+            "right": {
+              "text": "Zellteilung und Blutbildung"
+            }
+          },
+          {
+            "left": {
               "text": "Vitamin C"
             },
             "right": {
@@ -97,7 +105,7 @@
           }
         ],
         "memory": false,
-        "explanation": "Achte auf jedes Wort. Zwei Vitamine sind für die Haut wichtig. Schau, was noch dabeisteht: Augen oder Haare und Nägel? Beim Blut hilft das zweite Wort weiter."
+        "explanation": "Achte auf jedes Wort. Zwei Vitamine sind für die Haut wichtig, zwei für die Blutbildung. Schau, was noch dabeisteht: Augen oder Haare und Nägel? Nervensystem oder Zellteilung?"
       }
     },
     {
@@ -122,20 +130,23 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🩸 Welches Vitamin ist wichtig für die Blutbildung und das Nervensystem?",
+        "prompt": "💪 Welches Vitamin ist laut Blatt auch für den Proteinstoffwechsel wichtig?",
         "options": [
           {
-            "text": "Vitamin B12",
+            "text": "Vitamin B6",
             "correct": true
           },
           {
             "text": "Vitamin B1"
           },
           {
-            "text": "Vitamin B6"
+            "text": "Pantothensäure"
+          },
+          {
+            "text": "Vitamin B12"
           }
         ],
-        "explanation": "Vitamin B12 ist wichtig für die Blutbildung und das Nervensystem. Vitamin B1 ist wichtig für den Energiestoffwechsel. Vitamin B6 ist wichtig für den Protein- und Energiestoffwechsel."
+        "explanation": "Für den Energiestoffwechsel sind B1, B6 und Pantothensäure wichtig. Nur bei B6 steht auch Protein. Protein heißt: Eiweiß. B12 ist für die Blutbildung und das Nervensystem wichtig."
       }
     },
     {
@@ -148,13 +159,13 @@
             "correct": true
           },
           {
-            "text": "Für Knochen und Zähne"
+            "text": "Für das Nervensystem"
           },
           {
-            "text": "Für die Blutgerinnung"
+            "text": "Für die Zellteilung"
           }
         ],
-        "explanation": "Vitamin B2 ist wichtig für Haut und Augen. Für Knochen und Zähne ist Vitamin D wichtig. Für die Blutgerinnung ist Vitamin K wichtig."
+        "explanation": "Vitamin B2 ist wichtig für Haut und Augen. Für das Nervensystem ist Vitamin B12 wichtig. Für die Zellteilung ist Folsäure wichtig."
       }
     },
     {
@@ -179,7 +190,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🍊 Welches Vitamin stärkt laut Blatt das Immunsystem und die Wundheilung?",
+        "prompt": "📋 Welches Vitamin stärkt laut Blatt das Immunsystem und die Wundheilung?",
         "options": [
           {
             "text": "Vitamin C",
@@ -224,13 +235,13 @@
             "correct": true
           },
           {
-            "text": "Für die Blutgerinnung"
+            "text": "Für Haut, Haare und Nägel"
           },
           {
-            "text": "Für Knochen und Zähne"
+            "text": "Für das Immunsystem und die Wundheilung"
           }
         ],
-        "explanation": "Pantothensäure ist wichtig für den Energiestoffwechsel. Die Blutgerinnung gehört zu Vitamin K. Knochen und Zähne gehören zu Vitamin D."
+        "explanation": "Pantothensäure ist wichtig für den Energiestoffwechsel. Für Haut, Haare und Nägel ist Biotin wichtig. Das Immunsystem und die Wundheilung stärkt Vitamin C."
       }
     },
     {
@@ -249,7 +260,7 @@
             "text": "Zu den Mineralstoffen"
           }
         ],
-        "explanation": "Vitamin B12 ist ein B-Vitamin. Alle B-Vitamine sind wasserlöslich."
+        "explanation": "Vitamin B12 ist ein B-Vitamin. Alle B-Vitamine sind wasserlöslich. Fettlöslich sind nur A, D, E und K. Mineralstoffe sind keine Vitamine."
       }
     }
   ]

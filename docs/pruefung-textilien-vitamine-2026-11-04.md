@@ -145,13 +145,25 @@ Unterschiede zur alten Fassung vom 29.10.:
   - Pantothensäure: Energiestoffwechsel
   - Vitamin C: stärkt das Immunsystem und die Wundheilung
 - Vitamin D: „Knochen und Zähne“, ohne Calciumstoffwechsel.
-- Die vier Aufgaben der Vitamine stehen nur noch als Überschriften da. Lektion 1 lehrt weiter die Stichpunkte der alten Fassung. Sie widersprechen der neuen Fassung nicht.
+- Die vier Aufgaben der Vitamine stehen nur noch als Überschriften da. Lektion 1 lehrt die Stichpunkte der alten Fassung weiter als Erklärung. Sie beruft sich dabei aber nicht mehr auf „das Blatt“. Das Wort „Antioxidans“ steht auf der neuen Fassung nur bei Vitamin E. Lektion 1 sagt deshalb: „Auch Vitamin C wirkt als Antioxidans.“
 
 Was sich in der App geändert hat:
 
 - **Lektion 2:** Niacin ist raus, in der Sortier-Übung steht jetzt Pantothensäure.
 - **Lektion 3:** neu geschrieben, „Wasserlösliche Vitamine und ihre Aufgaben“. Die Übungen zu Folsäure und Pantothensäure sind unverändert.
-- **Lektion 4:** Die lateinischen Namen sind raus. Vitamin D steht da wie auf der neuen Fassung. Dazu kommen eine Sortier-Übung „wasser- oder fettlöslich nach der Aufgabe“ und eine Frage zum Unterschied zwischen Vitamin A und B2. Beide sind für die Haut wichtig.
+- **Lektion 4:** Die lateinischen Namen sind raus. Vitamin D steht da wie auf der neuen Fassung. Dazu kommen eine Sortier-Übung „wasser- oder fettlöslich nach der Aufgabe“ und eine Frage zu Vitamin A und B2. Beide sind für die Haut wichtig.
+- **Lektion 1:** Die Frage zum Aufbau von Blut lautet jetzt: „Welche zwei Vitamine sind laut Blatt für die Blutbildung wichtig?“ Die Antwort bleibt B12 und Folsäure. Vier Erklärungen berufen sich nicht mehr auf Stichpunkte der alten Fassung. Die Antworten bleiben gleich.
+- **Lektion 9:** Eine Erklärung sagte „B1 und B2 sind für Nerven und Stoffwechsel“. Jetzt heißt es: B1 für den Energiestoffwechsel, B2 für Haut und Augen.
+- **Überschneidungen in Lektion 3:**
+  - Für den Energiestoffwechsel sind B1, B6 und Pantothensäure wichtig. Nur bei B6 steht auch Protein.
+  - Für die Blutbildung sind B12 und Folsäure wichtig. Unterschieden werden sie durch das Nervensystem (B12) und die Zellteilung (Folsäure).
+  - Eigene Übungen fragen genau diese Unterschiede ab.
+- **Unabhängige Prüfung:** Die Lektionen wurden einmal gegen die neue Fassung geprüft. Es gab 12 Befunde, alle sind eingearbeitet:
+  - zwei Widersprüche in den Lektionen 1 und 9, siehe oben
+  - erratbare Antworten: Emoji 🍊 bei Vitamin C, immer dieselben falschen Antworten
+  - eine Sortier-Übung, in der B6 in beide Körbe passte
+  - Erklärungen, die beim zweiten Versuch die Lösung verraten hätten
+  - Leichte Sprache
 - In der Datenbank sind die Übungen an ihren Plätzen aktualisiert. Es wurde nichts gelöscht, Amelies bisherige Antworten bleiben erhalten. Die Lektionen 3 und 4 hatte sie noch nicht geübt.
 - „Beta-Carotin“ bleibt. Es steht im Vitamin-Quiz vom Blatt und ist kein Name eines Vitamins.
 
