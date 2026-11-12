@@ -3,7 +3,7 @@
   "slug": "pruefung-jugendarbeitsschutz-08-faelle-pruefen",
   "title": "Erlaubt oder nicht? Fälle prüfen",
   "sort": 8,
-  "intro": "In der Schulaufgabe sollst du vielleicht prüfen: Darf jemand einen Job annehmen? Und du sollst es begründen. Begründen heißt: sagen, warum. Dafür nennst du die passende Regel aus dem Gesetz.\n\nSo gehst du vor: Zuerst prüfst du das Alter. Ist die Person ein Kind oder eine Jugendliche? Davon hängt ab, welche Regeln gelten. Dann prüfst du die Regeln: Dauer, Uhrzeit, Tage und Ausnahmen. Zum Schluss entscheidest du und begründest mit der Regel.\n\nRegeln für Kinder: Die Beschäftigung ist verboten. Ausnahme: leichte und geeignete Arbeit. Die Eltern willigen ein. Höchstens 2 Stunden am Tag. Nur von 8 bis 18 Uhr. Nicht vor oder während der Schule.\n\nRegeln für Jugendliche: höchstens 8 Stunden am Tag und 40 Stunden in der Woche. Pausen: mehr als 4,5 Stunden 30 Minuten, mehr als 6 Stunden 60 Minuten. 12 Stunden Freizeit zwischen zwei Arbeitstagen. Nur von 6 bis 20 Uhr, in der Gastronomie ab 16 Jahren bis 22 Uhr. 5 Arbeitstage, Samstag und Sonntag frei, Ausnahme zum Beispiel Pflege und Krankenhaus. Urlaub nach dem Alter am 1. Januar.\n\nIn den Fällen sind die Jugendlichen Azubis. Sie müssen also nicht mehr jeden Tag ganz normal zur Schule gehen. Darum gelten für sie die Regeln für Jugendliche.\n\nMERKE: Erst das Alter prüfen. Dann Dauer, Uhrzeit, Tage und Ausnahmen. Dann entscheiden und mit der Regel begründen.",
+  "intro": "In der Schulaufgabe sollst du vielleicht prüfen: Darf jemand einen Job annehmen? Und du sollst es begründen. Begründen heißt: sagen, warum. Dafür nennst du die passende Regel aus dem Gesetz.\n\nSo gehst du vor: Zuerst prüfst du das Alter. Ist die Person ein Kind oder eine Jugendliche? Davon hängt ab, welche Regeln gelten. Bei Jugendlichen prüfst du dann: Sind sie noch vollzeitschulpflichtig? Dann gelten die Regeln für Kinder, außer im Ferienjob. Danach prüfst du die Regeln: Dauer, Uhrzeit, Tage und Ausnahmen. Zum Schluss entscheidest du und begründest mit der Regel.\n\nRegeln für Kinder: Die Beschäftigung ist verboten. Ausnahme: leichte und geeignete Arbeit. Die Eltern willigen ein. Höchstens 2 Stunden am Tag. Nur von 8 bis 18 Uhr. Nicht vor oder während der Schule.\n\nRegeln für Jugendliche: höchstens 8 Stunden am Tag und 40 Stunden in der Woche. Pausen: mehr als 4,5 Stunden 30 Minuten, mehr als 6 Stunden 60 Minuten. 12 Stunden Freizeit zwischen zwei Arbeitstagen. Nur von 6 bis 20 Uhr, in der Gastronomie ab 16 Jahren bis 22 Uhr. 5 Arbeitstage, Samstag und Sonntag frei, Ausnahme zum Beispiel Pflege und Krankenhaus. Urlaub nach dem Alter am 1. Januar.\n\nIn den Fällen sind die Jugendlichen Azubis. Sie sind also nicht mehr vollzeitschulpflichtig. Darum gelten für sie die Regeln für Jugendliche.\n\nMERKE: Erst das Alter prüfen, bei Jugendlichen auch die Vollzeitschulpflicht. Dann Dauer, Uhrzeit, Tage und Ausnahmen. Dann entscheiden und mit der Regel begründen.",
   "exercises": [
     {
       "type": "steps_order",
@@ -11,16 +11,19 @@
         "prompt": "🧭 Wie prüfst du, ob ein Job erlaubt ist? Bringe die Schritte in die richtige Reihenfolge.",
         "steps": [
           {
-            "text": "Zuerst das Alter prüfen: Kind oder Jugendliche/r?"
+            "text": "Alter prüfen: Kind oder Jugendliche/r?"
           },
           {
-            "text": "Dann die Regeln prüfen: Dauer, Uhrzeit, Tage und Ausnahmen"
+            "text": "Bei Jugendlichen: Noch vollzeitschulpflichtig? Dann gelten die Regeln für Kinder."
           },
           {
-            "text": "Zum Schluss entscheiden und mit der Regel begründen"
+            "text": "Die Regeln prüfen: Dauer, Uhrzeit, Tage, Ausnahmen"
+          },
+          {
+            "text": "Entscheiden und mit der Regel begründen"
           }
         ],
-        "explanation": "Das Alter kommt zuerst, weil davon abhängt, welche Regeln gelten. Die Entscheidung kommt zuletzt. Erst wenn du alle Regeln geprüft hast, kannst du sie begründen."
+        "explanation": "Frag dich bei jedem Schritt: Brauche ich dafür das Ergebnis von vorher? Welche Regeln gelten, hängt vom Alter ab. Bei Jugendlichen auch von der Vollzeitschulpflicht. Erst danach kannst du die Regeln prüfen. Entscheiden und begründen kannst du erst am Ende."
       }
     },
     {
@@ -36,10 +39,10 @@
             "text": "Er ist zu jung für einen Job im Büro."
           },
           {
-            "text": "Er arbeitet zu wenig in der Woche."
+            "text": "Als Azubi darf er nur an 4 Tagen arbeiten."
           }
         ],
-        "explanation": "Jugendliche dürfen nur an 5 Tagen pro Woche arbeiten. Am Samstag darf nicht gearbeitet werden. Ein Büro ist keine Ausnahme wie Pflege oder Krankenhaus."
+        "explanation": "Jugendliche dürfen nur an 5 Tagen pro Woche arbeiten. Am Samstag darf nicht gearbeitet werden. Ein Büro ist keine Ausnahme wie Pflege oder Krankenhaus. 4 Tage sind keine Regel: Erlaubt sind 5 Tage."
       }
     },
     {
@@ -52,13 +55,13 @@
             "correct": true
           },
           {
-            "text": "Nein, am Sonntag darf nie gearbeitet werden."
+            "text": "Ja, weil sie schon 17 ist."
           },
           {
-            "text": "Nein, das ist erst ab 18 Jahren erlaubt."
+            "text": "Nein, am Sonntag darf nie gearbeitet werden."
           }
         ],
-        "explanation": "Am Samstag und Sonntag darf normalerweise nicht gearbeitet werden. Ausnahmen sind zum Beispiel Pflege und Krankenhaus. Selin arbeitet im Krankenhaus. Darum darf sie auch am Sonntag arbeiten."
+        "explanation": "Am Samstag und Sonntag darf normalerweise nicht gearbeitet werden. Ausnahmen sind zum Beispiel Pflege und Krankenhaus. Selin arbeitet im Krankenhaus. Darum darf sie auch am Sonntag arbeiten. Ihr Alter ist nicht der Grund: Auch mit 17 gilt die Regel für das Wochenende."
       }
     },
     {
@@ -106,7 +109,7 @@
             "bucket": "ja"
           },
           {
-            "text": "Lea (17): Feierabend 19 Uhr, am nächsten Tag Beginn 7 Uhr",
+            "text": "Lea (17): Feierabend 19 Uhr, am nächsten Tag Beginn 7 Uhr.",
             "bucket": "ja"
           },
           {
@@ -122,7 +125,7 @@
             "bucket": "nein"
           },
           {
-            "text": "Max (16): Feierabend 20 Uhr, am nächsten Tag Beginn 6 Uhr",
+            "text": "Max (16): Feierabend 20 Uhr, am nächsten Tag Beginn 6 Uhr.",
             "bucket": "nein"
           },
           {
@@ -149,7 +152,7 @@
             "text": "Ihre Eltern dürfen das nicht erlauben."
           }
         ],
-        "explanation": "Mia ist 14 und damit ein Kind. Kinder dürfen höchstens 2 Stunden am Tag arbeiten und nur bis 18 Uhr. Von 16 bis 19 Uhr sind 3 Stunden, und es geht über 18 Uhr hinaus."
+        "explanation": "Mia ist 14 und damit ein Kind. Babysitten kann eine leichte Arbeit sein, die für Kinder geeignet ist. Die Eltern sind auch einverstanden. Das Problem ist nur die Zeit: Kinder dürfen höchstens 2 Stunden am Tag arbeiten und nur bis 18 Uhr. Von 16 bis 19 Uhr sind 3 Stunden, und es geht über 18 Uhr hinaus."
       }
     },
     {
@@ -187,17 +190,17 @@
         "prompt": "🔎 Finn (15) ist Azubi. Er arbeitet an einem Tag 8,5 Stunden. Wann ist das erlaubt?",
         "options": [
           {
-            "text": "Wenn er an den übrigen Tagen unter 8 Stunden arbeitet",
+            "text": "Wenn er an den übrigen Tagen weniger als 8 Stunden arbeitet",
             "correct": true
           },
           {
-            "text": "Wenn er danach eine Woche Urlaub hat"
+            "text": "Wenn er an den übrigen Tagen genau 8 Stunden arbeitet"
           },
           {
-            "text": "Nie, mehr als 8 Stunden sind immer verboten"
+            "text": "Wenn er an diesem Tag 60 Minuten Pause macht"
           }
         ],
-        "explanation": "8,5 Stunden am Tag sind eine Ausnahme. Sie sind erlaubt, wenn an den übrigen Tagen weniger als 8 Stunden gearbeitet wird. Mehr als 40 Stunden in der Woche dürfen es trotzdem nicht werden."
+        "explanation": "8,5 Stunden am Tag sind eine Ausnahme. Sie sind erlaubt, wenn an den übrigen Tagen weniger als 8 Stunden gearbeitet wird. Genau 8 Stunden reichen nicht: Dann wären es mehr als 40 Stunden in der Woche. Die Pause ändert an der Arbeitszeit nichts."
       }
     },
     {
@@ -210,13 +213,13 @@
             "correct": true
           },
           {
-            "text": "Ja, er muss 30 Minuten Pause machen."
+            "text": "Nein, weil Pausen erst ab 6 Stunden vorgeschrieben sind."
           },
           {
-            "text": "Ja, er muss 60 Minuten Pause machen."
+            "text": "Ja, er muss 30 Minuten Pause machen."
           }
         ],
-        "explanation": "Leo arbeitet 4 Stunden. Bis 4,5 Stunden Arbeitszeit ist keine Pause vorgeschrieben. Eine Pause von 30 Minuten braucht er erst bei mehr als 4,5 Stunden."
+        "explanation": "Leo arbeitet 4 Stunden. Bis 4,5 Stunden Arbeitszeit ist keine Pause vorgeschrieben. Eine Pause von 30 Minuten braucht er erst bei mehr als 4,5 Stunden, nicht erst ab 6 Stunden."
       }
     }
   ]

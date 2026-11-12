@@ -3,7 +3,7 @@
   "slug": "pruefung-jugendarbeitsschutz-06-urlaub-berufsschule-gesundheit",
   "title": "Urlaub, Berufsschule und Gesundheit",
   "sort": 6,
-  "intro": "Urlaub: Jugendliche haben jedes Jahr Urlaub. Wie viel, hängt vom Alter zu Beginn des Kalenderjahres ab. Beginn des Kalenderjahres heißt: am 1. Januar. Der Geburtstag später im Jahr ändert daran nichts.\n\nNoch nicht 16 Jahre alt: mindestens 30 Werktage. Noch nicht 17 Jahre alt: mindestens 27 Werktage. Noch nicht 18 Jahre alt: mindestens 25 Werktage. Werktage sind die Tage von Montag bis Samstag. Je jünger, desto mehr Urlaub.\n\nBerufsschule: Der Arbeitgeber muss Jugendliche für den Unterrichtsbesuch freistellen. Freistellen heißt: Sie müssen in dieser Zeit nicht arbeiten. Sie gehen in die Berufsschule.\n\nGesundheitsschutz: Vor Beginn der Ausbildung muss sich der Jugendliche ärztlich untersuchen lassen. Das heißt: Ein Arzt oder eine Ärztin prüft, ob man gesund ist. Ein Jahr später folgt die Nachuntersuchung. Das ist die zweite Untersuchung.\n\nMERKE: Urlaub: noch nicht 16 = 30, noch nicht 17 = 27, noch nicht 18 = 25 Werktage. Berufsschule: Der Arbeitgeber muss freistellen. Vor der Ausbildung: ärztliche Untersuchung. Ein Jahr später: Nachuntersuchung.",
+  "intro": "Urlaub: Jugendliche haben jedes Jahr Urlaub. Wie viel Urlaub es gibt, hängt vom Alter zu Beginn des Kalenderjahres ab. Beginn des Kalenderjahres heißt: am 1. Januar. Der Geburtstag später im Jahr ändert daran nichts.\n\nNoch nicht 16 Jahre alt: mindestens 30 Werktage. Noch nicht 17 Jahre alt: mindestens 27 Werktage. Noch nicht 18 Jahre alt: mindestens 25 Werktage. Werktage sind die Tage von Montag bis Samstag, ohne Feiertage. Auch der Samstag zählt mit, obwohl Jugendliche meist samstags frei haben. 30 Werktage sind also 5 Wochen Urlaub. Je jünger, desto mehr Urlaub.\n\nBerufsschule: Der Arbeitgeber muss Jugendliche für den Unterrichtsbesuch freistellen. Freistellen heißt: Sie müssen in dieser Zeit nicht arbeiten. Sie gehen in die Berufsschule.\n\nGesundheitsschutz: Vor Beginn der Ausbildung muss sich der Jugendliche ärztlich untersuchen lassen. Das heißt: Ein Arzt oder eine Ärztin prüft, ob man gesund ist. Ein Jahr später folgt die Nachuntersuchung. Das ist die zweite Untersuchung.\n\nMERKE: Urlaub: noch nicht 16 = 30, noch nicht 17 = 27, noch nicht 18 = 25 Werktage. Berufsschule: Der Arbeitgeber muss freistellen. Vor der Ausbildung: ärztliche Untersuchung. Ein Jahr später: Nachuntersuchung.",
   "exercises": [
     {
       "type": "number_input",
@@ -53,7 +53,7 @@
             }
           }
         ],
-        "explanation": "Je jünger, desto mehr Urlaub. Die Jüngsten bekommen 30 Werktage, dann 27, dann 25. Es zählt immer das Alter zu Beginn des Kalenderjahres."
+        "explanation": "Je jünger, desto mehr Urlaub. Mit jedem Jahr wird es weniger. Es zählt das Alter am 1. Januar."
       }
     },
     {
@@ -104,13 +104,13 @@
             "correct": true
           },
           {
-            "text": "Ja, die Arbeit ist wichtiger als die Schule."
+            "text": "Nein, weil Azubis am Dienstag nie arbeiten dürfen."
           },
           {
             "text": "Ja, wenn Kevin dafür mehr Geld bekommt."
           }
         ],
-        "explanation": "Der Arbeitgeber muss Jugendliche für den Unterrichtsbesuch freistellen. Kevin geht also in die Berufsschule. Mehr Geld ändert daran nichts."
+        "explanation": "Der Arbeitgeber muss Jugendliche für den Unterrichtsbesuch freistellen. Kevin geht also in die Berufsschule. Am Dienstag ist nichts Besonderes, es geht nur um die Schule. Mehr Geld ändert daran nichts."
       }
     },
     {
@@ -129,7 +129,7 @@
             "text": "Ein Blick in den Impfpass"
           }
         ],
-        "explanation": "Vor Beginn der Ausbildung muss sich der Jugendliche ärztlich untersuchen lassen. Ein Arzt oder eine Ärztin prüft, ob er gesund ist und die Arbeit machen kann."
+        "explanation": "Vor Beginn der Ausbildung muss sich der Jugendliche ärztlich untersuchen lassen. Ein Gespräch mit dem Arbeitgeber gibt es oft auch, zum Beispiel bei der Bewerbung. Das Gesetz schreibt aber die ärztliche Untersuchung vor. Ein Blick in den Impfpass ersetzt sie nicht."
       }
     },
     {
@@ -147,13 +147,22 @@
             "text": "Ein Jahr später: Nachuntersuchung"
           }
         ],
-        "explanation": "Die Untersuchung muss vor Beginn der Ausbildung sein. Nach der ersten Untersuchung beginnt die Ausbildung. Ein Jahr später folgt die Nachuntersuchung."
+        "explanation": "Frag dich: Was muss fertig sein, bevor die Ausbildung beginnt? Und was kommt erst, wenn sie schon läuft?"
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏖️ Eva ist am 1. Januar 17 Jahre alt. Wie viele Werktage Urlaub bekommt sie in diesem Jahr mindestens?",
+        "answer": 25,
+        "hint": "Am 1. Januar ist Eva noch nicht 18.\nNoch nicht 16 = 30, noch nicht 17 = 27.\nNoch nicht 18 = ?",
+        "explanation": "Es zählt das Alter am 1. Januar. Eva ist dann 17, also noch nicht 18. Darum bekommt sie mindestens 25 Werktage. Je älter, desto weniger Urlaub."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "😊 Wann findet die Nachuntersuchung statt?",
+        "prompt": "😊 Vor Beginn der Ausbildung gab es die ärztliche Untersuchung. Wann folgt die Nachuntersuchung?",
         "options": [
           {
             "text": "Ein Jahr später",
@@ -166,7 +175,7 @@
             "text": "Erst am Ende der Ausbildung"
           }
         ],
-        "explanation": "Vor Beginn der Ausbildung kommt die erste ärztliche Untersuchung. Ein Jahr später folgt die Nachuntersuchung."
+        "explanation": "Vor Beginn der Ausbildung kommt die erste ärztliche Untersuchung. Ein Jahr später folgt die Nachuntersuchung. Im Quiz auf dem Blatt stehen „nach 1 Jahr“ und „ein Jahr später (Nachuntersuchung)“. Das Lösungsblatt nimmt „ein Jahr später (Nachuntersuchung)“. Kreuze im Test die Antwort mit dem Fachwort an."
       }
     }
   ]

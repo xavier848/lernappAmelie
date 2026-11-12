@@ -3,25 +3,25 @@
   "slug": "pruefung-jugendarbeitsschutz-02-beschaeftigung-von-kindern",
   "title": "Kinder: Arbeit verboten – mit Ausnahme",
   "sort": 2,
-  "intro": "Die Beschäftigung von Kindern ist verboten. Kinder sind alle Personen, die noch nicht 15 Jahre alt sind.\n\nEs gibt eine Ausnahme: Die Beschäftigung ist leicht und für Kinder geeignet. Geeignet heißt: Die Arbeit passt zu Kindern und schadet ihnen nicht. Ein Beispiel vom Blatt ist Zeitungen austragen.\n\nAuch dann gibt es Regeln. Die Eltern müssen einwilligen. Einwilligen heißt: zustimmen, es erlauben. Ein Kind darf höchstens 2 Stunden am Tag arbeiten.\n\nKinder dürfen nicht zwischen 18 und 8 Uhr arbeiten. Erlaubt ist also nur die Zeit von 8 bis 18 Uhr. Und die Arbeit darf nicht vor der Schule und nicht während der Schule stattfinden.\n\nRegale in einem Lebensmittelgeschäft auffüllen ist für Kinder nicht zulässig. Zulässig heißt: erlaubt. Das steht auf dem Blatt „Das eigene Geld verdienen“ bei Tom.\n\nMERKE: Kinderarbeit ist verboten. Ausnahme: leicht und für Kinder geeignet. Dann gilt: Die Eltern willigen ein. Höchstens 2 Stunden am Tag. Nur von 8 bis 18 Uhr. Nicht vor und nicht während der Schule.",
+  "intro": "Die Beschäftigung von Kindern ist verboten. Kinder sind alle Personen, die noch nicht 15 Jahre alt sind.\n\nEs gibt eine Ausnahme: Die Beschäftigung ist leicht und für Kinder geeignet. Geeignet heißt: Die Arbeit passt zu Kindern und schadet ihnen nicht. Ein Beispiel vom Blatt ist Zeitungen austragen. Diese Ausnahme gilt für Kinder ab 13 Jahren. Jüngere Kinder dürfen in der Regel gar nicht arbeiten.\n\nAuch dann gibt es Regeln. Die Eltern müssen einwilligen. Einwilligen heißt: zustimmen, es erlauben. Ein Kind darf höchstens 2 Stunden am Tag arbeiten.\n\nKinder dürfen nicht zwischen 18 und 8 Uhr arbeiten. Erlaubt ist also nur die Zeit von 8 bis 18 Uhr. Und die Arbeit darf nicht vor der Schule und nicht während der Schule stattfinden.\n\nRegale in einem Lebensmittelgeschäft auffüllen ist für Kinder nicht zulässig. Zulässig heißt: erlaubt. Das steht auf dem Blatt „Das eigene Geld verdienen“ bei Tom.\n\nMERKE: Kinderarbeit ist verboten. Ausnahme: leicht und für Kinder geeignet. Dann gilt: Die Eltern willigen ein. Höchstens 2 Stunden am Tag. Nur von 8 bis 18 Uhr. Nicht vor und nicht während der Schule.",
   "exercises": [
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "📝 Wann dürfen Kinder ausnahmsweise arbeiten? Ergänze: Wenn die Beschäftigung … ist und für Kinder … .",
+        "prompt": "🧩 Eine Arbeit muss für Kinder geeignet sein. Was heißt „geeignet“?",
         "options": [
           {
-            "text": "leicht … geeignet",
+            "text": "Die Arbeit passt zu Kindern und schadet ihnen nicht.",
             "correct": true
           },
           {
-            "text": "gut bezahlt … erlaubt"
+            "text": "Das Kind ist stark genug für die Arbeit."
           },
           {
-            "text": "kurz … verboten"
+            "text": "Die Arbeit wird gut bezahlt."
           }
         ],
-        "explanation": "Auf dem Blatt steht: Die Beschäftigung ist leicht und für Kinder geeignet. Leicht heißt: nicht schwer und nicht gefährlich. Geeignet heißt: Die Arbeit passt zu Kindern."
+        "explanation": "Geeignet heißt: Die Arbeit passt zu Kindern. Sie schadet ihrer Gesundheit nicht und stört die Schule nicht. Es geht um die Arbeit, nicht darum, wie stark das Kind ist. Gutes Geld macht eine Arbeit nicht geeignet."
       }
     },
     {
@@ -80,11 +80,11 @@
         ],
         "items": [
           {
-            "text": "📰 Zeitungen austragen von 15 bis 16 Uhr, die Eltern sind einverstanden",
+            "text": "📰 Zeitungen austragen von 15 bis 16 Uhr nach der Schule, die Eltern sind einverstanden",
             "bucket": "ja"
           },
           {
-            "text": "📰 1 Stunde Zeitungen austragen am Nachmittag, mit Erlaubnis der Eltern",
+            "text": "📰 1 Stunde Zeitungen austragen am Nachmittag nach der Schule, mit Erlaubnis der Eltern",
             "bucket": "ja"
           },
           {
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "explanation": "Für Kinder gibt es vier Fragen: Was für eine Arbeit? Wie lange? Wann? Und: Sind die Eltern einverstanden? Nur wenn alles passt, ist die Arbeit erlaubt."
+        "explanation": "Für Kinder gibt es fünf Fragen: Was für eine Arbeit? Wie lange? Wann? Sind die Eltern einverstanden? Und: nicht vor oder während der Schule? Nur wenn alles passt, ist die Arbeit erlaubt."
       }
     },
     {
@@ -158,17 +158,17 @@
         "prompt": "🏫 Darf ein Kind vor der Schule arbeiten, zum Beispiel von 7:00 bis 7:45 Uhr?",
         "options": [
           {
-            "text": "Nein, nicht vor und nicht während der Schule",
+            "text": "Nein. Nicht vor der Schule, und erst ab 8 Uhr.",
             "correct": true
           },
           {
-            "text": "Ja, wenn es pünktlich in der Schule ist"
+            "text": "Nein. Aber nur, weil es länger als 30 Minuten ist."
           },
           {
-            "text": "Ja, wenn die Arbeit leicht ist"
+            "text": "Ja, wenn die Arbeit leicht ist."
           }
         ],
-        "explanation": "Die Arbeit darf nicht vor der Schule und nicht während der Schule stattfinden. Außerdem ist 7 Uhr zu früh. Kinder dürfen erst ab 8 Uhr arbeiten."
+        "explanation": "Die Arbeit darf nicht vor der Schule und nicht während der Schule stattfinden. Außerdem ist 7 Uhr zu früh. Kinder dürfen erst ab 8 Uhr arbeiten. 45 Minuten sind weniger als 2 Stunden. Die Dauer ist also nicht das Problem."
       }
     },
     {
@@ -200,13 +200,13 @@
             "correct": true
           },
           {
-            "text": "Kinderarbeit ist erlaubt, wenn das Kind Geld braucht."
+            "text": "Kinderarbeit ist verboten. Mit Einwilligung der Eltern ist aber jede Arbeit erlaubt."
           },
           {
-            "text": "Kinderarbeit ist erlaubt, wenn sie nach 18 Uhr stattfindet."
+            "text": "Kinderarbeit ist erlaubt, wenn sie höchstens 2 Stunden dauert."
           }
         ],
-        "explanation": "Die Beschäftigung von Kindern ist verboten. Nur leichte Arbeit, die für Kinder geeignet ist, ist eine Ausnahme. Nach 18 Uhr dürfen Kinder gar nicht arbeiten."
+        "explanation": "Die Beschäftigung von Kindern ist verboten. Nur leichte Arbeit, die für Kinder geeignet ist, ist eine Ausnahme. Die Einwilligung der Eltern und höchstens 2 Stunden sind nötig. Aber sie reichen allein nicht."
       }
     },
     {

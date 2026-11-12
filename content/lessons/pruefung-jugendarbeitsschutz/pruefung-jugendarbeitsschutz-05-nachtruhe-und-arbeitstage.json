@@ -3,7 +3,7 @@
   "slug": "pruefung-jugendarbeitsschutz-05-nachtruhe-und-arbeitstage",
   "title": "Nachtruhe und Arbeitstage",
   "sort": 5,
-  "intro": "Nachtruhe heißt: In der Nacht wird nicht gearbeitet. Jugendliche dürfen nur von 6 bis 20 Uhr beschäftigt sein. Von 20 Uhr abends bis 6 Uhr morgens ist für sie Nachtruhe.\n\nEs gibt aber Ausnahmen ab einem Mindestalter, zum Beispiel in der Gastronomie. Gastronomie heißt: Gaststätten, Restaurants und Wirtshäuser. Mindestalter heißt: Man muss mindestens so alt sein. In Gaststätten ist Arbeit bis 22 Uhr erst ab 16 Jahren erlaubt.\n\nArbeitstage: Jugendliche dürfen nur an 5 Tagen pro Woche beschäftigt sein. Am Samstag und Sonntag darf nicht gearbeitet werden. Ausnahmen gibt es zum Beispiel in der Pflege und im Krankenhaus.\n\nMERKE: Jugendliche arbeiten nur von 6 bis 20 Uhr. Ausnahme: Gastronomie ab 16 Jahren bis 22 Uhr. Nur 5 Arbeitstage pro Woche. Samstag und Sonntag frei, Ausnahme zum Beispiel Pflege und Krankenhaus.",
+  "intro": "Nachtruhe heißt: In der Nacht wird nicht gearbeitet. Jugendliche dürfen nur von 6 bis 20 Uhr beschäftigt sein. Von 20 Uhr abends bis 6 Uhr morgens ist für sie Nachtruhe.\n\nDie Nachtruhe gilt zusammen mit den 12 Stunden Freizeit. Beispiel vom Blatt: Feierabend um 17 Uhr. Nach der 12-Stunden-Regel wäre 5 Uhr möglich. Aber bis 6 Uhr ist Nachtruhe. Ein Jugendlicher darf also normalerweise erst um 6 Uhr anfangen. Beide Regeln müssen stimmen.\n\nEs gibt aber Ausnahmen ab einem Mindestalter, zum Beispiel in der Gastronomie. Gastronomie heißt: Gaststätten, Restaurants und Wirtshäuser. Mindestalter heißt: Man muss mindestens so alt sein. In Gaststätten ist Arbeit bis 22 Uhr erst ab 16 Jahren erlaubt.\n\nArbeitstage: Jugendliche dürfen nur an 5 Tagen pro Woche beschäftigt sein. Am Samstag und Sonntag darf nicht gearbeitet werden. Ausnahmen gibt es zum Beispiel in der Pflege und im Krankenhaus. Auf dem Blatt steht „etc.“. Das heißt: Es gibt noch mehr Ausnahmen, zum Beispiel Gaststätten.\n\nMERKE: Jugendliche arbeiten nur von 6 bis 20 Uhr. Ausnahme: Gastronomie ab 16 Jahren bis 22 Uhr. Nur 5 Arbeitstage pro Woche. Samstag und Sonntag frei, Ausnahme zum Beispiel Pflege und Krankenhaus. Nachtruhe und 12 Stunden Freizeit müssen beide passen.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -46,11 +46,11 @@
     {
       "type": "number_input",
       "data": {
-        "prompt": "🛒 Ein Azubi (15) arbeitet im Supermarkt. Bis wann darf er höchstens arbeiten? Tippe die Uhrzeit.",
-        "answer": 2000,
+        "prompt": "🌅 Nils (16) ist Azubi in einem Büro. Er hat um 17:00 Uhr Feierabend. Wann darf er am nächsten Tag frühestens wieder anfangen? Tippe die Uhrzeit.",
+        "answer": 600,
         "format": "uhrzeit",
-        "hint": "Jugendliche dürfen von 6 Uhr bis … Uhr beschäftigt sein.",
-        "explanation": "Jugendliche dürfen nur bis 20:00 Uhr arbeiten. Ein Supermarkt ist keine Gaststätte. Darum gibt es hier keine Ausnahme."
+        "hint": "12-Stunden-Regel: 17:00 Uhr + 12 Stunden = 5:00 Uhr.\nAber: Von 20 bis 6 Uhr ist Nachtruhe.\nWelche Uhrzeit erfüllt beide Regeln?",
+        "explanation": "Nach der 12-Stunden-Regel wäre 5:00 Uhr möglich. Aber Jugendliche dürfen erst ab 6:00 Uhr arbeiten. Beide Regeln müssen stimmen. Darum darf Nils frühestens um 6:00 Uhr anfangen."
       }
     },
     {
@@ -101,22 +101,12 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "number_input",
       "data": {
-        "prompt": "📆 An welchen zwei Tagen haben Jugendliche laut Blatt normalerweise frei?",
-        "options": [
-          {
-            "text": "Samstag und Sonntag",
-            "correct": true
-          },
-          {
-            "text": "Montag und Dienstag"
-          },
-          {
-            "text": "Freitag und Samstag"
-          }
-        ],
-        "explanation": "Am Samstag und Sonntag darf nicht gearbeitet werden. Es gibt nur Ausnahmen, zum Beispiel in der Pflege und im Krankenhaus."
+        "prompt": "🏥 Selin (17) ist Azubi im Krankenhaus. Diese Woche arbeitet sie am Samstag und am Sonntag. An wie vielen Tagen von Montag bis Freitag darf sie noch arbeiten?",
+        "answer": 3,
+        "hint": "Jugendliche dürfen nur an 5 Tagen pro Woche arbeiten.\nSamstag und Sonntag sind schon 2 Tage.\n5 − 2 = ?",
+        "explanation": "Im Krankenhaus darf Selin am Wochenende arbeiten. Das ist eine Ausnahme. Die 5-Tage-Woche gilt aber trotzdem. 5 − 2 = 3. Sie darf also nur noch an 3 Tagen von Montag bis Freitag arbeiten."
       }
     },
     {
@@ -206,7 +196,7 @@
             "bucket": "nein"
           }
         ],
-        "explanation": "Frag dich: Wie alt ist die Person, und wo arbeitet sie? Normal gilt 6 bis 20 Uhr. Nur in der Gastronomie und erst ab 16 Jahren geht es bis 22 Uhr. Später als 22 Uhr geht auch dort nicht."
+        "explanation": "Frag dich: Wie alt ist die Person, und wo arbeitet sie? Normal gilt 6 bis 20 Uhr. Eine Ausnahme ist die Gastronomie: Dort geht es ab 16 Jahren bis 22 Uhr. Später als 22 Uhr geht auch dort nicht. Büro und Supermarkt sind keine Ausnahme."
       }
     },
     {
@@ -247,7 +237,7 @@
             }
           }
         ],
-        "explanation": "Jugendliche arbeiten von 6 bis 20 Uhr. Dann ist Nachtruhe bis 6 Uhr. Sie arbeiten an höchstens 5 Tagen. Samstag und Sonntag sind normalerweise frei."
+        "explanation": "Frag dich: Geht es um die Uhrzeit oder um die Tage? Nachtruhe ist die Zeit, in der nicht gearbeitet wird."
       }
     }
   ]
