@@ -1,0 +1,232 @@
+{
+  "topic_slug": "pruefung-jugendarbeitsschutz",
+  "slug": "pruefung-jugendarbeitsschutz-02-beschaeftigung-von-kindern",
+  "title": "Kinder: Arbeit verboten – mit Ausnahme",
+  "sort": 2,
+  "intro": "Die Beschäftigung von Kindern ist verboten. Kinder sind alle Personen, die noch nicht 15 Jahre alt sind.\n\nEs gibt eine Ausnahme: Die Beschäftigung ist leicht und für Kinder geeignet. Geeignet heißt: Die Arbeit passt zu Kindern und schadet ihnen nicht. Ein Beispiel vom Blatt ist Zeitungen austragen.\n\nAuch dann gibt es Regeln. Die Eltern müssen einwilligen. Einwilligen heißt: zustimmen, es erlauben. Ein Kind darf höchstens 2 Stunden am Tag arbeiten.\n\nKinder dürfen nicht zwischen 18 und 8 Uhr arbeiten. Erlaubt ist also nur die Zeit von 8 bis 18 Uhr. Und die Arbeit darf nicht vor der Schule und nicht während der Schule stattfinden.\n\nRegale in einem Lebensmittelgeschäft auffüllen ist für Kinder nicht zulässig. Zulässig heißt: erlaubt. Das steht auf dem Blatt „Das eigene Geld verdienen“ bei Tom.\n\nMERKE: Kinderarbeit ist verboten. Ausnahme: leicht und für Kinder geeignet. Dann gilt: Die Eltern willigen ein. Höchstens 2 Stunden am Tag. Nur von 8 bis 18 Uhr. Nicht vor und nicht während der Schule.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📝 Wann dürfen Kinder ausnahmsweise arbeiten? Ergänze: Wenn die Beschäftigung … ist und für Kinder … .",
+        "options": [
+          {
+            "text": "leicht … geeignet",
+            "correct": true
+          },
+          {
+            "text": "gut bezahlt … erlaubt"
+          },
+          {
+            "text": "kurz … verboten"
+          }
+        ],
+        "explanation": "Auf dem Blatt steht: Die Beschäftigung ist leicht und für Kinder geeignet. Leicht heißt: nicht schwer und nicht gefährlich. Geeignet heißt: Die Arbeit passt zu Kindern."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏱️ Ein Kind macht eine leichte Arbeit. Wie viele Stunden am Tag darf es höchstens arbeiten?",
+        "answer": 2,
+        "hint": "Auf dem Blatt „Das eigene Geld verdienen“ steht es bei Tom: höchstens … Stunden täglich.",
+        "explanation": "Ein Kind darf höchstens 2 Stunden am Tag arbeiten. Das gilt auch für leichte Arbeit wie Zeitungen austragen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🕗 Zu welcher Uhrzeit darf ein Kind arbeiten?",
+        "options": [
+          {
+            "text": "Zwischen 8 und 18 Uhr",
+            "correct": true
+          },
+          {
+            "text": "Zwischen 6 und 20 Uhr"
+          },
+          {
+            "text": "Zwischen 18 und 8 Uhr"
+          }
+        ],
+        "explanation": "Kinder dürfen nicht zwischen 18 und 8 Uhr arbeiten. Erlaubt ist also nur die Zeit von 8 bis 18 Uhr. Von 6 bis 20 Uhr gilt für Jugendliche, nicht für Kinder."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌅 Ab wie viel Uhr darf ein Kind frühestens arbeiten? Tippe die Uhrzeit.",
+        "answer": 800,
+        "format": "uhrzeit",
+        "hint": "Kinder dürfen nicht zwischen 18 Uhr und … Uhr arbeiten.",
+        "explanation": "Kinder dürfen nicht zwischen 18 und 8 Uhr arbeiten. Frühestens dürfen sie also um 8:00 Uhr anfangen."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧒 Ein Kind ist 14 Jahre alt. Darf es diese Arbeit machen? Sortiere.",
+        "buckets": [
+          {
+            "id": "ja",
+            "label": "Erlaubt",
+            "icon": "✅"
+          },
+          {
+            "id": "nein",
+            "label": "Nicht erlaubt",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "📰 Zeitungen austragen von 15 bis 16 Uhr, die Eltern sind einverstanden",
+            "bucket": "ja"
+          },
+          {
+            "text": "📰 1 Stunde Zeitungen austragen am Nachmittag, mit Erlaubnis der Eltern",
+            "bucket": "ja"
+          },
+          {
+            "text": "📰 Zeitungen austragen von 6 bis 7 Uhr, vor der Schule",
+            "bucket": "nein"
+          },
+          {
+            "text": "🛒 Regale im Lebensmittelgeschäft auffüllen",
+            "bucket": "nein"
+          },
+          {
+            "text": "📰 Jeden Tag 4 Stunden Zeitungen austragen",
+            "bucket": "nein"
+          },
+          {
+            "text": "📰 Zeitungen austragen bis 19 Uhr",
+            "bucket": "nein"
+          },
+          {
+            "text": "📰 Zeitungen austragen, aber die Eltern wissen nichts davon",
+            "bucket": "nein"
+          }
+        ],
+        "explanation": "Prüfe bei jeder Karte die Regeln für Kinder: Leichte, geeignete Arbeit? Eltern einverstanden? Höchstens 2 Stunden? Nur zwischen 8 und 18 Uhr? Nicht vor oder während der Schule? Ist eine Regel verletzt, ist es nicht erlaubt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Regel gilt für Kinder? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Wie lange?"
+            },
+            "right": {
+              "text": "Höchstens 2 Stunden am Tag"
+            }
+          },
+          {
+            "left": {
+              "text": "Wann?"
+            },
+            "right": {
+              "text": "Nur von 8 bis 18 Uhr"
+            }
+          },
+          {
+            "left": {
+              "text": "Wer muss zustimmen?"
+            },
+            "right": {
+              "text": "Die Eltern"
+            }
+          },
+          {
+            "left": {
+              "text": "Welche Arbeit?"
+            },
+            "right": {
+              "text": "Leicht und für Kinder geeignet"
+            }
+          }
+        ],
+        "explanation": "Für Kinder gibt es vier Fragen: Was für eine Arbeit? Wie lange? Wann? Und: Sind die Eltern einverstanden? Nur wenn alles passt, ist die Arbeit erlaubt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏫 Darf ein Kind vor der Schule arbeiten, zum Beispiel von 7:00 bis 7:45 Uhr?",
+        "options": [
+          {
+            "text": "Nein, nicht vor und nicht während der Schule",
+            "correct": true
+          },
+          {
+            "text": "Ja, wenn es pünktlich in der Schule ist"
+          },
+          {
+            "text": "Ja, wenn die Arbeit leicht ist"
+          }
+        ],
+        "explanation": "Die Arbeit darf nicht vor der Schule und nicht während der Schule stattfinden. Außerdem ist 7 Uhr zu früh. Kinder dürfen erst ab 8 Uhr arbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✍️ Ein Kind will Zeitungen austragen. Wer muss einwilligen?",
+        "options": [
+          {
+            "text": "Die Eltern",
+            "correct": true
+          },
+          {
+            "text": "Nur die Lehrerin"
+          },
+          {
+            "text": "Niemand, wenn die Arbeit leicht ist"
+          }
+        ],
+        "explanation": "Einwilligen heißt: zustimmen. Bei einem Kind müssen die Eltern einwilligen. Auch bei leichter Arbeit geht es nicht ohne die Eltern."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Welcher Satz stimmt?",
+        "options": [
+          {
+            "text": "Kinderarbeit ist verboten. Leichte, geeignete Arbeit ist die Ausnahme.",
+            "correct": true
+          },
+          {
+            "text": "Kinderarbeit ist erlaubt, wenn das Kind Geld braucht."
+          },
+          {
+            "text": "Kinderarbeit ist erlaubt, wenn sie nach 18 Uhr stattfindet."
+          }
+        ],
+        "explanation": "Die Beschäftigung von Kindern ist verboten. Nur leichte Arbeit, die für Kinder geeignet ist, ist eine Ausnahme. Nach 18 Uhr dürfen Kinder gar nicht arbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Welche Arbeit ist laut Blatt eine leichte Arbeit für Kinder?",
+        "options": [
+          {
+            "text": "📰 Zeitungen austragen",
+            "correct": true
+          },
+          {
+            "text": "🧱 Auf dem Bau Steine tragen"
+          },
+          {
+            "text": "🌙 Nachts im Lager arbeiten"
+          }
+        ],
+        "explanation": "Zeitungen austragen ist leicht und für Kinder geeignet. Steine tragen ist schwer. Nachts dürfen Kinder nie arbeiten."
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "topic_slug": "pruefung-jugendarbeitsschutz",
+  "slug": "pruefung-jugendarbeitsschutz-03-arbeitszeit",
+  "title": "Arbeitszeit für Jugendliche",
+  "sort": 3,
+  "intro": "Jetzt geht es um Jugendliche. Jugendliche sind 15 bis 18 Jahre alt. Für sie gelten andere Regeln als für Kinder.\n\nTägliche Arbeitszeit heißt: So lange arbeitet man an einem Tag. Jugendliche dürfen nicht länger als 8 Stunden am Tag arbeiten. Und sie dürfen nicht mehr als 40 Stunden in der Woche beschäftigt werden.\n\nRechne so: Jugendliche arbeiten höchstens an 5 Tagen. 5 Tage × 8 Stunden = 40 Stunden.\n\nEs gibt eine Ausnahme: 8,5 Stunden am Tag sind erlaubt, wenn an den übrigen Tagen weniger als 8 Stunden gearbeitet wird. 8,5 Stunden sind 8 Stunden und 30 Minuten. Mehr als 40 Stunden in der Woche bleiben trotzdem verboten.\n\nMERKE: Höchstens 8 Stunden am Tag. Höchstens 40 Stunden in der Woche. Ausnahme: 8,5 Stunden am Tag, wenn an den übrigen Tagen weniger als 8 Stunden gearbeitet wird.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏰ Ein Azubi ist 16. Wie viele Stunden darf er an einem normalen Arbeitstag höchstens arbeiten?",
+        "options": [
+          {
+            "text": "8 Stunden",
+            "correct": true
+          },
+          {
+            "text": "6 Stunden"
+          },
+          {
+            "text": "10 Stunden"
+          }
+        ],
+        "explanation": "Jugendliche dürfen nicht länger als 8 Stunden am Tag arbeiten. Mehr ist nur in einer Ausnahme erlaubt: 8,5 Stunden, wenn sie an den übrigen Tagen weniger als 8 Stunden arbeiten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 Ergänze: Jugendliche dürfen nicht mehr als … Stunden in der Woche beschäftigt werden. Tippe die Zahl.",
+        "answer": 40,
+        "hint": "Rechne: 5 Tage × 8 Stunden = ?",
+        "explanation": "Jugendliche dürfen nicht mehr als 40 Stunden in der Woche arbeiten. Das sind 5 Tage mit je 8 Stunden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧮 Ein Azubi (16) soll an 5 Tagen je 8,5 Stunden arbeiten. Warum ist das nicht erlaubt?",
+        "options": [
+          {
+            "text": "Das sind 42,5 Stunden, also mehr als 40.",
+            "correct": true
+          },
+          {
+            "text": "Weil 8,5 Stunden nie erlaubt sind."
+          },
+          {
+            "text": "Weil er an 5 Tagen gar nicht arbeiten darf."
+          }
+        ],
+        "explanation": "5 × 8,5 Stunden = 42,5 Stunden. In der Woche sind aber höchstens 40 Stunden erlaubt. 8,5 Stunden gehen nur an einzelnen Tagen, wenn er an den übrigen Tagen weniger als 8 Stunden arbeitet."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏱️ Wie viel Zeit sind 8,5 Stunden?",
+        "options": [
+          {
+            "text": "8 Stunden und 30 Minuten",
+            "correct": true
+          },
+          {
+            "text": "8 Stunden und 5 Minuten"
+          },
+          {
+            "text": "8 Stunden und 50 Minuten"
+          }
+        ],
+        "explanation": "0,5 Stunden sind eine halbe Stunde. Eine halbe Stunde hat 30 Minuten. 8,5 Stunden sind also 8 Stunden und 30 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🧮 Ein Azubi (16) arbeitet von Montag bis Donnerstag jeden Tag 8,5 Stunden. Wie viele Stunden darf er am Freitag höchstens noch arbeiten?",
+        "answer": 6,
+        "hint": "Montag bis Donnerstag: 4 × 8,5 = 34 Stunden.\nIn der Woche sind höchstens 40 Stunden erlaubt.\n40 − 34 = ?",
+        "explanation": "4 × 8,5 Stunden = 34 Stunden. Bis 40 Stunden fehlen noch 6 Stunden. Am Freitag darf er also höchstens 6 Stunden arbeiten. Weil er an einem Tag weniger als 8 Stunden arbeitet, sind die 8,5 Stunden an den anderen Tagen erlaubt."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ Ein Azubi ist 16 Jahre alt. Ist diese Arbeitszeit erlaubt? Sortiere.",
+        "buckets": [
+          {
+            "id": "ja",
+            "label": "Erlaubt",
+            "icon": "✅"
+          },
+          {
+            "id": "nein",
+            "label": "Nicht erlaubt",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "7 Stunden am Tag",
+            "bucket": "ja"
+          },
+          {
+            "text": "8 Stunden am Tag",
+            "bucket": "ja"
+          },
+          {
+            "text": "40 Stunden in der Woche",
+            "bucket": "ja"
+          },
+          {
+            "text": "4 Tage je 8,5 Stunden und 1 Tag 6 Stunden",
+            "bucket": "ja"
+          },
+          {
+            "text": "9 Stunden am Tag",
+            "bucket": "nein"
+          },
+          {
+            "text": "10 Stunden am Tag",
+            "bucket": "nein"
+          },
+          {
+            "text": "45 Stunden in der Woche",
+            "bucket": "nein"
+          },
+          {
+            "text": "6 Tage je 8 Stunden",
+            "bucket": "nein"
+          }
+        ],
+        "explanation": "Prüfe zwei Grenzen: höchstens 8 Stunden am Tag und höchstens 40 Stunden in der Woche. 8,5 Stunden gehen nur, wenn an anderen Tagen weniger als 8 Stunden gearbeitet wird. Bei einer ganzen Woche rechnest du alle Stunden zusammen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗓️ Mira (16) ist Azubi. Sie arbeitet von Montag bis Freitag jeden Tag 8 Stunden. Ist das erlaubt?",
+        "options": [
+          {
+            "text": "Ja, das sind genau 40 Stunden.",
+            "correct": true
+          },
+          {
+            "text": "Nein, das sind mehr als 40 Stunden."
+          },
+          {
+            "text": "Nein, Jugendliche dürfen nur 6 Stunden am Tag arbeiten."
+          }
+        ],
+        "explanation": "5 Tage × 8 Stunden = 40 Stunden. Das ist genau die Grenze. 8 Stunden am Tag sind erlaubt. Also ist es erlaubt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was gehört zusammen? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Am Tag höchstens"
+            },
+            "right": {
+              "text": "8 Stunden"
+            }
+          },
+          {
+            "left": {
+              "text": "In der Woche höchstens"
+            },
+            "right": {
+              "text": "40 Stunden"
+            }
+          },
+          {
+            "left": {
+              "text": "Ausnahme am Tag"
+            },
+            "right": {
+              "text": "8,5 Stunden"
+            }
+          },
+          {
+            "left": {
+              "text": "Dann an den übrigen Tagen"
+            },
+            "right": {
+              "text": "Weniger als 8 Stunden"
+            }
+          }
+        ],
+        "explanation": "Die Grundregel ist 8 Stunden am Tag und 40 Stunden in der Woche. Die Ausnahme: 8,5 Stunden an einem Tag, wenn an den übrigen Tagen weniger als 8 Stunden gearbeitet wird."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Wer darf laut Gesetz 8 Stunden am Tag arbeiten?",
+        "options": [
+          {
+            "text": "Jugendliche, zum Beispiel ein Azubi mit 16 Jahren",
+            "correct": true
+          },
+          {
+            "text": "Kinder, zum Beispiel ein Schüler mit 12 Jahren"
+          },
+          {
+            "text": "Niemand, der jünger als 18 Jahre ist"
+          }
+        ],
+        "explanation": "Jugendliche dürfen bis zu 8 Stunden am Tag arbeiten. Kinder dürfen höchstens 2 Stunden am Tag arbeiten, und nur bei leichter Arbeit."
+      }
+    }
+  ]
+}

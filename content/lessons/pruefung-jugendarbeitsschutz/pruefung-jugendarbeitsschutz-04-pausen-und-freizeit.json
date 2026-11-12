@@ -1,0 +1,219 @@
+{
+  "topic_slug": "pruefung-jugendarbeitsschutz",
+  "slug": "pruefung-jugendarbeitsschutz-04-pausen-und-freizeit",
+  "title": "Ruhepausen und Freizeit",
+  "sort": 4,
+  "intro": "Wer lange arbeitet, braucht eine Pause. Eine Ruhepause ist eine Pause während der Arbeit. Wie lang sie sein muss, hängt von der Arbeitszeit ab. Vorgeschrieben heißt: Das Gesetz verlangt es.\n\nBis 4,5 Stunden Arbeitszeit: keine Pause vorgeschrieben. Mehr als 4,5 bis 6 Stunden: 30 Minuten Pause. Mehr als 6 bis 8 Stunden: 60 Minuten Pause.\n\nAchte auf die Wörter „bis“ und „mehr als“. Genau 4,5 Stunden: noch keine Pause. Genau 6 Stunden: 30 Minuten. Erst ab mehr als 6 Stunden sind es 60 Minuten.\n\nFreizeit heißt hier: die Zeit zwischen zwei Arbeitstagen. Auf dem Blatt „Arbeitszeit und Ruhepausen“ heißt sie Ruhezeit. Zwischen zwei Arbeitstagen müssen mindestens 12 Stunden liegen. Mindestens heißt: 12 Stunden oder mehr.\n\nSo rechnest du: Feierabend + 12 Stunden = frühester Arbeitsbeginn. Feierabend heißt: Ende der Arbeit. Frühestens heißt: nicht früher. Beispiel: Feierabend um 18:00 Uhr. 12 Stunden später ist es 6:00 Uhr.\n\nDas Beispiel vom Blatt: Feierabend um 17:00 Uhr, nächster Arbeitsbeginn frühestens um 5:00 Uhr. Das ist richtig nach der 12-Stunden-Regel gerechnet. Denk aber auch an die Nachtruhe: Jugendliche dürfen normalerweise erst ab 6 Uhr arbeiten. Mehr dazu in der nächsten Lektion.\n\nMERKE: Bis 4,5 Stunden: keine Pause. Mehr als 4,5 bis 6 Stunden: 30 Minuten. Mehr als 6 Stunden: 60 Minuten. Zwischen zwei Arbeitstagen: mindestens 12 Stunden Freizeit.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "☕ Ab wie vielen Stunden Arbeitszeit muss eine Pause eingelegt werden?",
+        "options": [
+          {
+            "text": "Ab mehr als 4,5 Stunden",
+            "correct": true
+          },
+          {
+            "text": "Ab mehr als 4 Stunden"
+          },
+          {
+            "text": "Ab mehr als 6 Stunden"
+          }
+        ],
+        "explanation": "Bis 4,5 Stunden ist keine Pause vorgeschrieben. Ab mehr als 4,5 Stunden muss eine Pause sein. Ab mehr als 6 Stunden wird die Pause länger."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⏳ Jasmin (16) ist Azubi. Sie arbeitet heute 5 Stunden. Wie lang muss ihre Pause mindestens sein?",
+        "options": [
+          {
+            "text": "30 Minuten",
+            "correct": true
+          },
+          {
+            "text": "15 Minuten"
+          },
+          {
+            "text": "60 Minuten"
+          }
+        ],
+        "explanation": "5 Stunden sind mehr als 4,5 Stunden, aber nicht mehr als 6 Stunden. Dann sind 30 Minuten Pause vorgeschrieben. 60 Minuten gelten erst bei mehr als 6 Stunden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Ab wann beträgt die Pause 60 Minuten?",
+        "options": [
+          {
+            "text": "Bei mehr als 6 Stunden Arbeitszeit",
+            "correct": true
+          },
+          {
+            "text": "Bei mehr als 4,5 Stunden Arbeitszeit"
+          },
+          {
+            "text": "Bei mehr als 8 Stunden Arbeitszeit"
+          }
+        ],
+        "explanation": "Bei mehr als 6 Stunden Arbeitszeit sind 60 Minuten Pause vorgeschrieben. Bei mehr als 4,5 bis 6 Stunden sind es 30 Minuten. Mehr als 8 Stunden dürfen Jugendliche normalerweise gar nicht arbeiten."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧮 Wie viel Pause ist vorgeschrieben? Sortiere nach der Arbeitszeit.",
+        "buckets": [
+          {
+            "id": "keine",
+            "label": "Keine Pause",
+            "icon": "🚫"
+          },
+          {
+            "id": "dreissig",
+            "label": "30 Minuten",
+            "icon": "☕"
+          },
+          {
+            "id": "sechzig",
+            "label": "60 Minuten",
+            "icon": "🍽️"
+          }
+        ],
+        "items": [
+          {
+            "text": "3 Stunden Arbeit",
+            "bucket": "keine"
+          },
+          {
+            "text": "4 Stunden Arbeit",
+            "bucket": "keine"
+          },
+          {
+            "text": "4,5 Stunden Arbeit",
+            "bucket": "keine"
+          },
+          {
+            "text": "5 Stunden Arbeit",
+            "bucket": "dreissig"
+          },
+          {
+            "text": "6 Stunden Arbeit",
+            "bucket": "dreissig"
+          },
+          {
+            "text": "7 Stunden Arbeit",
+            "bucket": "sechzig"
+          },
+          {
+            "text": "8 Stunden Arbeit",
+            "bucket": "sechzig"
+          }
+        ],
+        "explanation": "Lies die Tabelle genau. Bis 4,5 Stunden: keine Pause. Genau 4,5 Stunden gehören noch dazu. Mehr als 4,5 bis 6 Stunden: 30 Minuten. Genau 6 Stunden sind also noch 30 Minuten. Erst bei mehr als 6 Stunden: 60 Minuten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "⏳ Paul (17) ist Azubi. Er arbeitet heute 7 Stunden. Wie viele Minuten Pause muss er mindestens machen?",
+        "answer": 60,
+        "hint": "7 Stunden sind mehr als 6 Stunden. Wie lang ist dann die Pause?",
+        "explanation": "Paul arbeitet 7 Stunden. Das sind mehr als 6 Stunden. Dann sind 60 Minuten Pause vorgeschrieben."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🌙 Ergänze: Zwischen zwei Arbeitstagen müssen mindestens … Stunden Freizeit liegen. Tippe die Zahl.",
+        "answer": 12,
+        "hint": "Es ist ein halber Tag. Ein ganzer Tag hat 24 Stunden.",
+        "explanation": "Zwischen zwei Arbeitstagen müssen mindestens 12 Stunden Freizeit liegen. Auf dem Blatt „Arbeitszeit und Ruhepausen“ heißt das Ruhezeit."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🕕 Lena (16) ist Azubi. Sie hat um 18:00 Uhr Feierabend. Wann darf sie am nächsten Tag frühestens wieder anfangen?",
+        "answer": 600,
+        "format": "uhrzeit",
+        "hint": "Rechne: 18:00 Uhr + 12 Stunden.\n18 + 12 = 30.\n30 − 24 = ?",
+        "explanation": "18:00 Uhr + 12 Stunden = 6:00 Uhr. Zwischen zwei Arbeitstagen müssen mindestens 12 Stunden Freizeit liegen. Lena darf also frühestens um 6:00 Uhr anfangen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📄 Beispiel vom Blatt: Feierabend um 17:00 Uhr. Wann darf die Arbeit nach der 12-Stunden-Regel frühestens wieder beginnen?",
+        "options": [
+          {
+            "text": "Um 5:00 Uhr",
+            "correct": true
+          },
+          {
+            "text": "Um 3:00 Uhr"
+          },
+          {
+            "text": "Um 7:00 Uhr"
+          }
+        ],
+        "explanation": "17:00 Uhr + 12 Stunden = 5:00 Uhr. So steht es auf dem Blatt. 3:00 Uhr wären nur 10 Stunden. 7:00 Uhr ist erlaubt, aber nicht der früheste Beginn. Denk zusätzlich an die Nachtruhe: Jugendliche dürfen normalerweise erst ab 6 Uhr arbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Ben (16) ist Azubi. Er hat um 20:00 Uhr Feierabend. Am nächsten Tag soll er um 7:00 Uhr anfangen. Ist das erlaubt?",
+        "options": [
+          {
+            "text": "Nein, das sind nur 11 Stunden Freizeit.",
+            "correct": true
+          },
+          {
+            "text": "Ja, das sind mehr als 12 Stunden."
+          },
+          {
+            "text": "Ja, weil 7 Uhr nach 6 Uhr ist."
+          }
+        ],
+        "explanation": "Von 20:00 Uhr bis 7:00 Uhr sind es 11 Stunden. Es müssen aber mindestens 12 Stunden sein. Ben darf frühestens um 8:00 Uhr anfangen. Dass 7 Uhr nach 6 Uhr ist, reicht nicht. Beide Regeln müssen stimmen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "😊 Welche Pause gehört zu welcher Arbeitszeit? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Bis 4,5 Stunden"
+            },
+            "right": {
+              "text": "Keine Pause"
+            }
+          },
+          {
+            "left": {
+              "text": "Mehr als 4,5 bis 6 Stunden"
+            },
+            "right": {
+              "text": "30 Minuten"
+            }
+          },
+          {
+            "left": {
+              "text": "Mehr als 6 bis 8 Stunden"
+            },
+            "right": {
+              "text": "60 Minuten"
+            }
+          }
+        ],
+        "explanation": "Je länger die Arbeitszeit, desto länger die Pause. Bis 4,5 Stunden: keine Pause. Danach 30 Minuten. Bei mehr als 6 Stunden: 60 Minuten."
+      }
+    }
+  ]
+}

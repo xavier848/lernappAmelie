@@ -1,0 +1,254 @@
+{
+  "topic_slug": "pruefung-jugendarbeitsschutz",
+  "slug": "pruefung-jugendarbeitsschutz-05-nachtruhe-und-arbeitstage",
+  "title": "Nachtruhe und Arbeitstage",
+  "sort": 5,
+  "intro": "Nachtruhe heißt: In der Nacht wird nicht gearbeitet. Jugendliche dürfen nur von 6 bis 20 Uhr beschäftigt sein. Von 20 Uhr abends bis 6 Uhr morgens ist für sie Nachtruhe.\n\nEs gibt aber Ausnahmen ab einem Mindestalter, zum Beispiel in der Gastronomie. Gastronomie heißt: Gaststätten, Restaurants und Wirtshäuser. Mindestalter heißt: Man muss mindestens so alt sein. In Gaststätten ist Arbeit bis 22 Uhr erst ab 16 Jahren erlaubt.\n\nArbeitstage: Jugendliche dürfen nur an 5 Tagen pro Woche beschäftigt sein. Am Samstag und Sonntag darf nicht gearbeitet werden. Ausnahmen gibt es zum Beispiel in der Pflege und im Krankenhaus.\n\nMERKE: Jugendliche arbeiten nur von 6 bis 20 Uhr. Ausnahme: Gastronomie ab 16 Jahren bis 22 Uhr. Nur 5 Arbeitstage pro Woche. Samstag und Sonntag frei, Ausnahme zum Beispiel Pflege und Krankenhaus.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌅 In welchem Zeitraum dürfen Jugendliche arbeiten?",
+        "options": [
+          {
+            "text": "Von 6 bis 20 Uhr",
+            "correct": true
+          },
+          {
+            "text": "Von 6 bis 22 Uhr"
+          },
+          {
+            "text": "Von 8 bis 18 Uhr"
+          }
+        ],
+        "explanation": "Jugendliche dürfen nur von 6 bis 20 Uhr beschäftigt sein. Von 8 bis 18 Uhr gilt für Kinder. Bis 22 Uhr geht nur als Ausnahme, zum Beispiel in der Gastronomie ab 16 Jahren."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌙 Wann ist für Jugendliche Nachtruhe? Dann dürfen sie nicht arbeiten.",
+        "options": [
+          {
+            "text": "Von 20 Uhr bis 6 Uhr",
+            "correct": true
+          },
+          {
+            "text": "Von 6 Uhr bis 20 Uhr"
+          },
+          {
+            "text": "Von 22 Uhr bis 8 Uhr"
+          }
+        ],
+        "explanation": "Nachtruhe ist die Zeit, in der nicht gearbeitet wird: von 20 Uhr abends bis 6 Uhr morgens. Von 6 bis 20 Uhr dürfen Jugendliche arbeiten."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🛒 Ein Azubi (15) arbeitet im Supermarkt. Bis wann darf er höchstens arbeiten? Tippe die Uhrzeit.",
+        "answer": 2000,
+        "format": "uhrzeit",
+        "hint": "Jugendliche dürfen von 6 Uhr bis … Uhr beschäftigt sein.",
+        "explanation": "Jugendliche dürfen nur bis 20:00 Uhr arbeiten. Ein Supermarkt ist keine Gaststätte. Darum gibt es hier keine Ausnahme."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Wo gibt es laut Blatt eine Ausnahme von der Nachtruhe?",
+        "options": [
+          {
+            "text": "In der Gastronomie, ab einem Mindestalter",
+            "correct": true
+          },
+          {
+            "text": "Im Büro, für alle Azubis"
+          },
+          {
+            "text": "Im Supermarkt, ab 15 Jahren"
+          }
+        ],
+        "explanation": "Es gibt Ausnahmen ab einem Mindestalter, zum Beispiel in der Gastronomie. In Gaststätten dürfen Jugendliche ab 16 Jahren bis 22 Uhr arbeiten. Im Büro und im Supermarkt gilt die normale Regel: 6 bis 20 Uhr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍺 Ab welchem Alter dürfen Jugendliche in einer Gaststätte bis 22 Uhr arbeiten?",
+        "options": [
+          {
+            "text": "Ab 16 Jahren",
+            "correct": true
+          },
+          {
+            "text": "Ab 15 Jahren"
+          },
+          {
+            "text": "Ab 18 Jahren"
+          }
+        ],
+        "explanation": "In Gaststätten ist eine Arbeit bis 22 Uhr erst ab 16 Jahren erlaubt. Mit 15 Jahren endet die Arbeit spätestens um 20 Uhr."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "📅 An wie vielen Tagen pro Woche dürfen Jugendliche höchstens arbeiten?",
+        "answer": 5,
+        "hint": "Samstag und Sonntag sind frei. Zähle die Tage von Montag bis Freitag.",
+        "explanation": "Jugendliche dürfen nur an 5 Tagen pro Woche beschäftigt sein. Normalerweise sind das Montag bis Freitag."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📆 An welchen zwei Tagen haben Jugendliche laut Blatt normalerweise frei?",
+        "options": [
+          {
+            "text": "Samstag und Sonntag",
+            "correct": true
+          },
+          {
+            "text": "Montag und Dienstag"
+          },
+          {
+            "text": "Freitag und Samstag"
+          }
+        ],
+        "explanation": "Am Samstag und Sonntag darf nicht gearbeitet werden. Es gibt nur Ausnahmen, zum Beispiel in der Pflege und im Krankenhaus."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🏥 Ein Azubi (17) soll am Sonntag arbeiten. Wo ist das laut Blatt erlaubt? Sortiere.",
+        "buckets": [
+          {
+            "id": "ja",
+            "label": "Erlaubt",
+            "icon": "✅"
+          },
+          {
+            "id": "nein",
+            "label": "Nicht erlaubt",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Im Krankenhaus",
+            "bucket": "ja"
+          },
+          {
+            "text": "In der Pflege",
+            "bucket": "ja"
+          },
+          {
+            "text": "In einem Büro",
+            "bucket": "nein"
+          },
+          {
+            "text": "In einer Bank",
+            "bucket": "nein"
+          }
+        ],
+        "explanation": "Am Samstag und Sonntag darf nicht gearbeitet werden. Ausnahmen sind zum Beispiel die Pflege und das Krankenhaus. Kranke Menschen brauchen auch am Wochenende Hilfe. Büro und Bank sind keine Ausnahme."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⏰ Alle sind Azubis. Ist die Uhrzeit erlaubt? Sortiere.",
+        "buckets": [
+          {
+            "id": "ja",
+            "label": "Erlaubt",
+            "icon": "✅"
+          },
+          {
+            "id": "nein",
+            "label": "Nicht erlaubt",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Azubi (15) im Supermarkt bis 19 Uhr",
+            "bucket": "ja"
+          },
+          {
+            "text": "Azubi (16) im Restaurant bis 22 Uhr",
+            "bucket": "ja"
+          },
+          {
+            "text": "Azubi (16) beginnt um 6 Uhr",
+            "bucket": "ja"
+          },
+          {
+            "text": "Azubi (15) im Supermarkt bis 21 Uhr",
+            "bucket": "nein"
+          },
+          {
+            "text": "Azubi (15) im Restaurant bis 22 Uhr",
+            "bucket": "nein"
+          },
+          {
+            "text": "Azubi (17) im Büro bis 21 Uhr",
+            "bucket": "nein"
+          },
+          {
+            "text": "Azubi (17) im Restaurant bis 23 Uhr",
+            "bucket": "nein"
+          },
+          {
+            "text": "Azubi (16) beginnt um 5 Uhr im Büro",
+            "bucket": "nein"
+          }
+        ],
+        "explanation": "Frag dich: Wie alt ist die Person, und wo arbeitet sie? Normal gilt 6 bis 20 Uhr. Nur in der Gastronomie und erst ab 16 Jahren geht es bis 22 Uhr. Später als 22 Uhr geht auch dort nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "😊 Was gilt für Jugendliche? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Arbeiten erlaubt"
+            },
+            "right": {
+              "text": "Von 6 bis 20 Uhr"
+            }
+          },
+          {
+            "left": {
+              "text": "Nachtruhe"
+            },
+            "right": {
+              "text": "Von 20 bis 6 Uhr"
+            }
+          },
+          {
+            "left": {
+              "text": "Arbeitstage pro Woche"
+            },
+            "right": {
+              "text": "5 Tage"
+            }
+          },
+          {
+            "left": {
+              "text": "Wochenende"
+            },
+            "right": {
+              "text": "Samstag und Sonntag frei"
+            }
+          }
+        ],
+        "explanation": "Jugendliche arbeiten von 6 bis 20 Uhr. Dann ist Nachtruhe bis 6 Uhr. Sie arbeiten an höchstens 5 Tagen. Samstag und Sonntag sind normalerweise frei."
+      }
+    }
+  ]
+}

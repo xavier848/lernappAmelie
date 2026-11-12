@@ -1,0 +1,173 @@
+{
+  "topic_slug": "pruefung-jugendarbeitsschutz",
+  "slug": "pruefung-jugendarbeitsschutz-06-urlaub-berufsschule-gesundheit",
+  "title": "Urlaub, Berufsschule und Gesundheit",
+  "sort": 6,
+  "intro": "Urlaub: Jugendliche haben jedes Jahr Urlaub. Wie viel, hängt vom Alter zu Beginn des Kalenderjahres ab. Beginn des Kalenderjahres heißt: am 1. Januar. Der Geburtstag später im Jahr ändert daran nichts.\n\nNoch nicht 16 Jahre alt: mindestens 30 Werktage. Noch nicht 17 Jahre alt: mindestens 27 Werktage. Noch nicht 18 Jahre alt: mindestens 25 Werktage. Werktage sind die Tage von Montag bis Samstag. Je jünger, desto mehr Urlaub.\n\nBerufsschule: Der Arbeitgeber muss Jugendliche für den Unterrichtsbesuch freistellen. Freistellen heißt: Sie müssen in dieser Zeit nicht arbeiten. Sie gehen in die Berufsschule.\n\nGesundheitsschutz: Vor Beginn der Ausbildung muss sich der Jugendliche ärztlich untersuchen lassen. Das heißt: Ein Arzt oder eine Ärztin prüft, ob man gesund ist. Ein Jahr später folgt die Nachuntersuchung. Das ist die zweite Untersuchung.\n\nMERKE: Urlaub: noch nicht 16 = 30, noch nicht 17 = 27, noch nicht 18 = 25 Werktage. Berufsschule: Der Arbeitgeber muss freistellen. Vor der Ausbildung: ärztliche Untersuchung. Ein Jahr später: Nachuntersuchung.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🏖️ Luca ist am 1. Januar 15 Jahre alt. Wie viele Werktage Urlaub bekommt er in diesem Jahr mindestens?",
+        "answer": 30,
+        "hint": "Am 1. Januar ist Luca noch nicht 16 Jahre alt.",
+        "explanation": "Luca ist zu Beginn des Kalenderjahres noch nicht 16 Jahre alt. Dann bekommt er mindestens 30 Werktage Urlaub."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🎂 Hanna wird im März 16 Jahre alt. Am 1. Januar war sie noch 15. Wie viele Werktage Urlaub bekommt sie in diesem Jahr mindestens?",
+        "answer": 30,
+        "hint": "Es zählt das Alter am 1. Januar, nicht der Geburtstag im März.",
+        "explanation": "Es zählt das Alter zu Beginn des Kalenderjahres. Am 1. Januar war Hanna noch nicht 16. Darum bekommt sie mindestens 30 Werktage, auch wenn sie im März 16 wird."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wie viel Urlaub gibt es mindestens? Alter am 1. Januar. Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Noch nicht 16 Jahre"
+            },
+            "right": {
+              "text": "30 Werktage"
+            }
+          },
+          {
+            "left": {
+              "text": "Noch nicht 17 Jahre"
+            },
+            "right": {
+              "text": "27 Werktage"
+            }
+          },
+          {
+            "left": {
+              "text": "Noch nicht 18 Jahre"
+            },
+            "right": {
+              "text": "25 Werktage"
+            }
+          }
+        ],
+        "explanation": "Je jünger, desto mehr Urlaub. Die Jüngsten bekommen 30 Werktage, dann 27, dann 25. Es zählt immer das Alter zu Beginn des Kalenderjahres."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Für den Urlaub zählt das Alter an einem bestimmten Tag. An welchem?",
+        "options": [
+          {
+            "text": "Am 1. Januar",
+            "correct": true
+          },
+          {
+            "text": "Am Geburtstag"
+          },
+          {
+            "text": "Am ersten Tag der Ausbildung"
+          }
+        ],
+        "explanation": "Es zählt das Alter zu Beginn des Kalenderjahres. Das ist der 1. Januar. Der Geburtstag im Laufe des Jahres ändert den Urlaub für dieses Jahr nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏫 Der Arbeitgeber muss Jugendliche für die Berufsschule freistellen. Was heißt das?",
+        "options": [
+          {
+            "text": "Sie müssen in der Zeit nicht arbeiten und gehen zur Schule.",
+            "correct": true
+          },
+          {
+            "text": "Sie bekommen frei und müssen auch nicht zur Schule."
+          },
+          {
+            "text": "Der Arbeitgeber kauft ihnen die Schulbücher."
+          }
+        ],
+        "explanation": "Freistellen heißt: Der Jugendliche muss in der Zeit nicht arbeiten. Er geht stattdessen in die Berufsschule. Frei von der Schule ist er dadurch nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📚 Kevin (16) ist Azubi. Sein Chef sagt: „Am Dienstag arbeitest du, statt in die Berufsschule zu gehen.“ Darf der Chef das?",
+        "options": [
+          {
+            "text": "Nein, er muss Kevin für die Berufsschule freistellen.",
+            "correct": true
+          },
+          {
+            "text": "Ja, die Arbeit ist wichtiger als die Schule."
+          },
+          {
+            "text": "Ja, wenn Kevin dafür mehr Geld bekommt."
+          }
+        ],
+        "explanation": "Der Arbeitgeber muss Jugendliche für den Unterrichtsbesuch freistellen. Kevin geht also in die Berufsschule. Mehr Geld ändert daran nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🩺 Was muss vor Beginn der Ausbildung passieren?",
+        "options": [
+          {
+            "text": "Eine ärztliche Untersuchung",
+            "correct": true
+          },
+          {
+            "text": "Ein Gespräch mit dem Arbeitgeber"
+          },
+          {
+            "text": "Ein Blick in den Impfpass"
+          }
+        ],
+        "explanation": "Vor Beginn der Ausbildung muss sich der Jugendliche ärztlich untersuchen lassen. Ein Arzt oder eine Ärztin prüft, ob er gesund ist und die Arbeit machen kann."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🩺 Bringe den Gesundheitsschutz in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Ärztliche Untersuchung"
+          },
+          {
+            "text": "Die Ausbildung beginnt"
+          },
+          {
+            "text": "Ein Jahr später: Nachuntersuchung"
+          }
+        ],
+        "explanation": "Die Untersuchung muss vor Beginn der Ausbildung sein. Nach der ersten Untersuchung beginnt die Ausbildung. Ein Jahr später folgt die Nachuntersuchung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Wann findet die Nachuntersuchung statt?",
+        "options": [
+          {
+            "text": "Ein Jahr später",
+            "correct": true
+          },
+          {
+            "text": "Schon nach 6 Monaten"
+          },
+          {
+            "text": "Erst am Ende der Ausbildung"
+          }
+        ],
+        "explanation": "Vor Beginn der Ausbildung kommt die erste ärztliche Untersuchung. Ein Jahr später folgt die Nachuntersuchung."
+      }
+    }
+  ]
+}

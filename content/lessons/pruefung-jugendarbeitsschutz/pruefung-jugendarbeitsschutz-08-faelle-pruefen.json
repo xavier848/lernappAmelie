@@ -1,0 +1,223 @@
+{
+  "topic_slug": "pruefung-jugendarbeitsschutz",
+  "slug": "pruefung-jugendarbeitsschutz-08-faelle-pruefen",
+  "title": "Erlaubt oder nicht? Fälle prüfen",
+  "sort": 8,
+  "intro": "In der Schulaufgabe sollst du vielleicht prüfen: Darf jemand einen Job annehmen? Und du sollst es begründen. Begründen heißt: sagen, warum. Dafür nennst du die passende Regel aus dem Gesetz.\n\nSo gehst du vor: Zuerst prüfst du das Alter. Ist die Person ein Kind oder eine Jugendliche? Davon hängt ab, welche Regeln gelten. Dann prüfst du die Regeln: Dauer, Uhrzeit, Tage und Ausnahmen. Zum Schluss entscheidest du und begründest mit der Regel.\n\nRegeln für Kinder: Die Beschäftigung ist verboten. Ausnahme: leichte und geeignete Arbeit. Die Eltern willigen ein. Höchstens 2 Stunden am Tag. Nur von 8 bis 18 Uhr. Nicht vor oder während der Schule.\n\nRegeln für Jugendliche: höchstens 8 Stunden am Tag und 40 Stunden in der Woche. Pausen: mehr als 4,5 Stunden 30 Minuten, mehr als 6 Stunden 60 Minuten. 12 Stunden Freizeit zwischen zwei Arbeitstagen. Nur von 6 bis 20 Uhr, in der Gastronomie ab 16 Jahren bis 22 Uhr. 5 Arbeitstage, Samstag und Sonntag frei, Ausnahme zum Beispiel Pflege und Krankenhaus. Urlaub nach dem Alter am 1. Januar.\n\nIn den Fällen sind die Jugendlichen Azubis. Sie müssen also nicht mehr jeden Tag ganz normal zur Schule gehen. Darum gelten für sie die Regeln für Jugendliche.\n\nMERKE: Erst das Alter prüfen. Dann Dauer, Uhrzeit, Tage und Ausnahmen. Dann entscheiden und mit der Regel begründen.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧭 Wie prüfst du, ob ein Job erlaubt ist? Bringe die Schritte in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Zuerst das Alter prüfen: Kind oder Jugendliche/r?"
+          },
+          {
+            "text": "Dann die Regeln prüfen: Dauer, Uhrzeit, Tage und Ausnahmen"
+          },
+          {
+            "text": "Zum Schluss entscheiden und mit der Regel begründen"
+          }
+        ],
+        "explanation": "Das Alter kommt zuerst, weil davon abhängt, welche Regeln gelten. Die Entscheidung kommt zuletzt. Erst wenn du alle Regeln geprüft hast, kannst du sie begründen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Jonas (16) ist Azubi. Er arbeitet von Montag bis Samstag in einem Büro. Was ist das Problem?",
+        "options": [
+          {
+            "text": "Er arbeitet an 6 Tagen, auch am Samstag.",
+            "correct": true
+          },
+          {
+            "text": "Er ist zu jung für einen Job im Büro."
+          },
+          {
+            "text": "Er arbeitet zu wenig in der Woche."
+          }
+        ],
+        "explanation": "Jugendliche dürfen nur an 5 Tagen pro Woche arbeiten. Am Samstag darf nicht gearbeitet werden. Ein Büro ist keine Ausnahme wie Pflege oder Krankenhaus."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Selin (17) ist Azubi im Krankenhaus. Manchmal arbeitet sie am Sonntag. Ist das erlaubt?",
+        "options": [
+          {
+            "text": "Ja, das Krankenhaus ist eine Ausnahme.",
+            "correct": true
+          },
+          {
+            "text": "Nein, am Sonntag darf nie gearbeitet werden."
+          },
+          {
+            "text": "Nein, das ist erst ab 18 Jahren erlaubt."
+          }
+        ],
+        "explanation": "Am Samstag und Sonntag darf normalerweise nicht gearbeitet werden. Ausnahmen sind zum Beispiel Pflege und Krankenhaus. Selin arbeitet im Krankenhaus. Darum darf sie auch am Sonntag arbeiten."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Ben (16) ist Azubi. Er arbeitet 7 Stunden und macht 30 Minuten Pause. Was stimmt?",
+        "options": [
+          {
+            "text": "Die Pause ist zu kurz. Es müssen 60 Minuten sein.",
+            "correct": true
+          },
+          {
+            "text": "Die Pause reicht. 30 Minuten sind immer genug."
+          },
+          {
+            "text": "Er braucht gar keine Pause."
+          }
+        ],
+        "explanation": "Ben arbeitet 7 Stunden. Das sind mehr als 6 Stunden. Dann sind 60 Minuten Pause vorgeschrieben. 30 Minuten reichen nur bis 6 Stunden Arbeit."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "⚖️ Alle sind Azubis. Erlaubt oder nicht erlaubt? Sortiere jeden Fall.",
+        "buckets": [
+          {
+            "id": "ja",
+            "label": "Erlaubt",
+            "icon": "✅"
+          },
+          {
+            "id": "nein",
+            "label": "Nicht erlaubt",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Oskar (15) arbeitet 4 Stunden ohne Pause.",
+            "bucket": "ja"
+          },
+          {
+            "text": "Nina (17) kellnert im Restaurant bis 22 Uhr.",
+            "bucket": "ja"
+          },
+          {
+            "text": "Lea (17): Feierabend 19 Uhr, am nächsten Tag Beginn 7 Uhr",
+            "bucket": "ja"
+          },
+          {
+            "text": "Lisa (16) arbeitet an 5 Tagen je 8 Stunden.",
+            "bucket": "ja"
+          },
+          {
+            "text": "Emma (16) arbeitet 9 Stunden an einem Tag.",
+            "bucket": "nein"
+          },
+          {
+            "text": "Ayla (15) arbeitet im Supermarkt bis 21 Uhr.",
+            "bucket": "nein"
+          },
+          {
+            "text": "Max (16): Feierabend 20 Uhr, am nächsten Tag Beginn 6 Uhr",
+            "bucket": "nein"
+          },
+          {
+            "text": "Kai (15) arbeitet 45 Stunden in der Woche.",
+            "bucket": "nein"
+          }
+        ],
+        "explanation": "Prüfe bei jedem Fall die passende Regel: Pause erst ab mehr als 4,5 Stunden. Gastronomie bis 22 Uhr ab 16. 12 Stunden Freizeit zwischen zwei Arbeitstagen. Höchstens 8 Stunden am Tag und 40 in der Woche. Sonst nur bis 20 Uhr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Mia (14) will von Montag bis Freitag jeden Tag von 16 bis 19 Uhr babysitten. Ihre Eltern sind einverstanden. Was ist das Problem?",
+        "options": [
+          {
+            "text": "Sie arbeitet 3 Stunden und nach 18 Uhr.",
+            "correct": true
+          },
+          {
+            "text": "Babysitten ist für Kinder immer verboten."
+          },
+          {
+            "text": "Ihre Eltern dürfen das nicht erlauben."
+          }
+        ],
+        "explanation": "Mia ist 14 und damit ein Kind. Kinder dürfen höchstens 2 Stunden am Tag arbeiten und nur bis 18 Uhr. Von 16 bis 19 Uhr sind 3 Stunden, und es geht über 18 Uhr hinaus."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🕖 Tim (17) ist Azubi. Er hat um 19:30 Uhr Feierabend. Wann darf er am nächsten Morgen frühestens wieder arbeiten?",
+        "answer": 730,
+        "format": "uhrzeit",
+        "hint": "Rechne: 19:30 Uhr + 12 Stunden.\n19 + 12 = 31.\n31 − 24 = 7. Die Minuten bleiben gleich.",
+        "explanation": "19:30 Uhr + 12 Stunden = 7:30 Uhr. Zwischen zwei Arbeitstagen müssen mindestens 12 Stunden Freizeit liegen. 7:30 Uhr ist auch nach 6 Uhr. Also darf Tim um 7:30 Uhr anfangen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Sophie ist Azubi. Am 1. Januar war sie 16. Im Juni wird sie 17. Wie viele Werktage Urlaub bekommt sie in diesem Jahr mindestens?",
+        "options": [
+          {
+            "text": "27 Werktage",
+            "correct": true
+          },
+          {
+            "text": "25 Werktage"
+          },
+          {
+            "text": "30 Werktage"
+          }
+        ],
+        "explanation": "Es zählt das Alter am 1. Januar. Da war Sophie 16, also noch nicht 17. Darum bekommt sie mindestens 27 Werktage. Der Geburtstag im Juni ändert daran nichts."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔎 Finn (15) ist Azubi. Er arbeitet an einem Tag 8,5 Stunden. Wann ist das erlaubt?",
+        "options": [
+          {
+            "text": "Wenn er an den übrigen Tagen unter 8 Stunden arbeitet",
+            "correct": true
+          },
+          {
+            "text": "Wenn er danach eine Woche Urlaub hat"
+          },
+          {
+            "text": "Nie, mehr als 8 Stunden sind immer verboten"
+          }
+        ],
+        "explanation": "8,5 Stunden am Tag sind eine Ausnahme. Sie sind erlaubt, wenn an den übrigen Tagen weniger als 8 Stunden gearbeitet wird. Mehr als 40 Stunden in der Woche dürfen es trotzdem nicht werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Leo (16) ist Azubi. Er arbeitet heute von 8 bis 12 Uhr, also 4 Stunden. Braucht er eine Pause?",
+        "options": [
+          {
+            "text": "Nein, bis 4,5 Stunden ist keine Pause vorgeschrieben.",
+            "correct": true
+          },
+          {
+            "text": "Ja, er muss 30 Minuten Pause machen."
+          },
+          {
+            "text": "Ja, er muss 60 Minuten Pause machen."
+          }
+        ],
+        "explanation": "Leo arbeitet 4 Stunden. Bis 4,5 Stunden Arbeitszeit ist keine Pause vorgeschrieben. Eine Pause von 30 Minuten braucht er erst bei mehr als 4,5 Stunden."
+      }
+    }
+  ]
+}
