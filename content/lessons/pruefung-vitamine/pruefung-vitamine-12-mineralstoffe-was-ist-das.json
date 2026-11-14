@@ -3,7 +3,7 @@
   "slug": "pruefung-vitamine-12-mineralstoffe-was-ist-das",
   "title": "Mineralstoffe: Was ist das?",
   "sort": 12,
-  "intro": "Im Test geht es auch um Mineralstoffe. Dazu gibt es einen Lückentext von der Schule (Buch Seite 189).\n\nMineralstoffe sind anorganische Substanzen. Anorganisch heißt: Sie stammen aus dem Boden und aus Gestein, nicht aus Lebewesen.\n\nPflanzen nehmen Mineralstoffe mit dem Wasser aus dem Boden auf. Mineralstoffe kommen in tierischen und in pflanzlichen Lebensmitteln vor.\n\nMineralstoffe sind essenzielle Stoffe. Essenziell heißt: lebenswichtig, sie müssen mit der Nahrung aufgenommen werden.\n\nDer Körper kann Mineralstoffe nicht selbst herstellen. Mineralstoffe liefern dem Körper aber keine Energie.\n\nMineralstoffe werden in Mengenelemente und Spurenelemente eingeteilt. Die Abkürzung mg heißt Milligramm, das ist ein Tausendstel Gramm.\n\nMengenelemente braucht der Körper in größerer Menge: mehr als 50 mg pro kg Körpergewicht. Beispiele sind Calcium, Chlorid, Kalium, Magnesium, Natrium, Phosphor und Schwefel.\n\nSpurenelemente braucht der Körper nur in sehr kleiner Menge: weniger als 50 mg pro kg Körpergewicht. Beispiele sind Chrom, Eisen, Fluorid, Jod, Kupfer, Selen und Zink.\n\nAchtung: Auf dem bunten Blatt „Mineralstoffe“ steht „mehr als 50 mg pro Tag“. Auf dem Blatt von der Schule steht „mehr als 50 mg pro kg KG“.\n\nKG heißt Körpergewicht. Schreib im Test „pro kg Körpergewicht“, so wie auf dem Schulblatt.\n\nGut zu wissen: Alle Mineralstoffe sind wasserlöslich. Beim Kochen gehen sie also auch ins Kochwasser über.\n\nMERKE: Mineralstoffe sind anorganisch, essenziell und liefern keine Energie. Mengenelemente: mehr als 50 mg pro kg Körpergewicht, zum Beispiel Calcium und Magnesium. Spurenelemente: weniger als 50 mg pro kg Körpergewicht, zum Beispiel Eisen und Jod.",
+  "intro": "Im Test geht es auch um Mineralstoffe. Dazu gibt es einen Lückentext von der Schule (Buch Seite 189).\n\nMineralstoffe sind anorganische Substanzen. Anorganisch heißt: Lebewesen können diese Stoffe nicht bilden, sie stammen aus Boden und Gestein.\n\nPflanzen nehmen Mineralstoffe mit dem Wasser aus dem Boden auf. Mineralstoffe kommen in tierischen und in pflanzlichen Lebensmitteln vor.\n\nMineralstoffe sind essenzielle Stoffe. Essenziell heißt: lebenswichtig, sie müssen mit der Nahrung aufgenommen werden.\n\nDer Körper kann Mineralstoffe nicht selbst herstellen. Mineralstoffe liefern dem Körper aber keine Energie.\n\nMineralstoffe werden in Mengenelemente und Spurenelemente eingeteilt. Die Abkürzung mg heißt Milligramm, das ist ein Tausendstel Gramm.\n\nMengenelemente braucht der Körper in größerer Menge: mehr als 50 mg pro kg Körpergewicht. Auf dem Schulblatt stehen Calcium, Chlorid, Kalium, Magnesium, Natrium und Phosphat.\n\nSpurenelemente braucht der Körper nur in sehr kleiner Menge: weniger als 50 mg pro kg Körpergewicht. Auf dem Schulblatt stehen Chrom, Eisen, Fluorid, Jod, Kupfer und Zink.\n\nAuf dem Lernquiz stehen außerdem Schwefel bei den Mengenelementen und Selen bei den Spurenelementen. Statt Phosphat steht dort Phosphor, auf dem Schulblatt steht Phosphat.\n\nAchtung: Auf dem bunten Blatt „Mineralstoffe“ steht „mehr als 50 mg pro Tag“. Auf dem Blatt von der Schule steht „mehr als 50 mg pro kg KG“.\n\nKG heißt Körpergewicht. Schreib im Test „pro kg Körpergewicht“, so wie auf dem Schulblatt.\n\nUnter „Wussten Sie schon?“ steht auf dem bunten Blatt: Alle Mineralstoffe sind wasserlöslich. Zu große Trinkmengen auf einmal werden gleich über den Harn ausgeschieden.\n\nHarn heißt: Urin. Weil Mineralstoffe wasserlöslich sind, gehen sie beim Kochen auch ins Kochwasser über.\n\nMERKE: Mineralstoffe sind anorganisch, essenziell und liefern keine Energie. Mengenelemente, mehr als 50 mg pro kg Körpergewicht: Calcium, Chlorid, Kalium, Magnesium, Natrium, Phosphat. Spurenelemente, weniger als 50 mg pro kg Körpergewicht: Chrom, Eisen, Fluorid, Jod, Kupfer, Zink.",
   "exercises": [
     {
       "type": "multiple_choice",
@@ -21,7 +21,7 @@
             "text": "künstliche"
           }
         ],
-        "explanation": "Mineralstoffe sind anorganische Substanzen. Sie stammen aus dem Boden und aus Gestein. Organisch sind zum Beispiel die Vitamine."
+        "explanation": "Mineralstoffe sind anorganische Substanzen. Sie stammen aus Boden und Gestein. Organisch sind zum Beispiel die Vitamine."
       }
     },
     {
@@ -163,22 +163,56 @@
       }
     },
     {
-      "type": "multiple_choice",
+      "type": "sort_buckets",
       "data": {
-        "prompt": "✨ Was sind Spurenelemente?",
-        "options": [
+        "prompt": "⚖️ Noch mehr Namen vom Schulblatt: Mengenelement oder Spurenelement? Sortiere.",
+        "buckets": [
           {
-            "text": "Mineralstoffe, die der Körper nur in sehr kleiner Menge braucht",
-            "correct": true
+            "id": "menge",
+            "label": "Mengenelement",
+            "icon": "🧱"
           },
           {
-            "text": "Mineralstoffe, die der Körper jeden Tag in großen Mengen braucht"
-          },
-          {
-            "text": "Vitamine, die sich nur in Fett lösen, zum Beispiel Vitamin A"
+            "id": "spur",
+            "label": "Spurenelement",
+            "icon": "✨"
           }
         ],
-        "explanation": "Spurenelemente braucht der Körper nur in sehr kleiner Menge, also nur eine Spur. Beispiele sind Eisen, Jod und Zink. Mineralstoffe in größerer Menge heißen Mengenelemente."
+        "items": [
+          {
+            "text": "Chlorid",
+            "bucket": "menge"
+          },
+          {
+            "text": "Phosphat",
+            "bucket": "menge"
+          },
+          {
+            "text": "Schwefel",
+            "bucket": "menge"
+          },
+          {
+            "text": "Natrium",
+            "bucket": "menge"
+          },
+          {
+            "text": "Chrom",
+            "bucket": "spur"
+          },
+          {
+            "text": "Kupfer",
+            "bucket": "spur"
+          },
+          {
+            "text": "Selen",
+            "bucket": "spur"
+          },
+          {
+            "text": "Eisen",
+            "bucket": "spur"
+          }
+        ],
+        "explanation": "Frag dich: Braucht der Körper viel davon oder nur eine Spur? Merkhilfe: Natrium und Chlorid sind zusammen Kochsalz. Davon braucht der Körper viel."
       }
     },
     {
@@ -197,13 +231,13 @@
             "text": "Zu den fettlöslichen Vitaminen"
           }
         ],
-        "explanation": "Eisen ist ein Spurenelement. Der Körper braucht nur wenig davon. Auf dem Schulblatt steht es zusammen mit Chrom, Fluorid, Kupfer, Jod und Zink."
+        "explanation": "Eisen ist ein Spurenelement. Der Körper braucht nur wenig davon. Auf dem Schulblatt steht es zusammen mit Chrom, Fluorid, Jod, Kupfer und Zink."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "💡 Was steht unter „Wussten Sie schon?“ auf dem Blatt „Mineralstoffe“?",
+        "prompt": "💡 Was steht unter „Wussten Sie schon?“ auf dem bunten Blatt „Mineralstoffe“?",
         "options": [
           {
             "text": "Alle Mineralstoffe sind wasserlöslich",
@@ -213,10 +247,10 @@
             "text": "Alle Mineralstoffe sind fettlöslich"
           },
           {
-            "text": "Mineralstoffe lösen sich nie in Wasser"
+            "text": "Große Trinkmengen auf einmal speichert der Körper für später"
           }
         ],
-        "explanation": "Alle Mineralstoffe sind wasserlöslich. Beim Kochen gehen sie deshalb teilweise ins Kochwasser über, so wie wasserlösliche Vitamine. Darum lohnt es sich, die Garflüssigkeit mitzuverwenden."
+        "explanation": "Unter „Wussten Sie schon?“ stehen zwei Sätze: Alle Mineralstoffe sind wasserlöslich. Und: Zu große Trinkmengen auf einmal werden gleich über den Harn ausgeschieden. Harn heißt: Urin."
       }
     }
   ]

@@ -1,9 +1,9 @@
 {
   "topic_slug": "pruefung-vitamine",
-  "slug": "pruefung-vitamine-16-eisen-bedarf-lebensmittel",
+  "slug": "pruefung-vitamine-17-eisen-bedarf-lebensmittel",
   "title": "Eisen: Bedarf, Lebensmittel und Aufnahme",
-  "sort": 16,
-  "intro": "Wie viel Eisen braucht man am Tag? Die DGE gibt Empfehlungen, DGE heißt Deutsche Gesellschaft für Ernährung.\n\nLaut DGE 2019 brauchen Jugendliche von 15 bis 19 Jahren: Mädchen 15 mg, Jungen 12 mg am Tag. Von 19 bis 51 Jahren brauchen Frauen 15 mg und Männer 10 mg.\n\nVon 51 bis 65 Jahren brauchen Frauen und Männer 10 mg am Tag.\n\nEisenreiche tierische Lebensmittel sind Leber, Fleisch und Fleischprodukte, zum Beispiel vom Rind und vom Schwein, und Fisch. Auf dem Lernblatt stehen außerdem mageres Fleisch und Eigelb.\n\nEisenreiche pflanzliche Lebensmittel sind Vollkornprodukte wie Hafer und Vollkornbrot, Hülsenfrüchte wie Linsen und Bohnen und Gemüse wie Spinat.\n\nVitamin C steigert die Eisenaufnahme, besonders aus pflanzlichen Lebensmitteln. Auch Fleisch und Fisch in derselben Mahlzeit helfen.\n\nKaffee und schwarzer Tee hemmen die Aufnahme. Hemmen heißt: bremsen.\n\nAuf dem Schulblatt sollst du ein eisenreiches Mittagessen für Leonie zusammenstellen und begründen. Das Beispiel: Linseneintopf mit Gemüse, Vollkornbrot, Rohkostsalat aus Paprika und Gurke und als Nachtisch Joghurt mit Beeren.\n\nLinsen sind sehr eisenreich und liefern dazu pflanzliches Eiweiß. Vollkornbrot enthält ebenfalls Eisen.\n\nPaprika bringt viel Vitamin C und verbessert die Eisenaufnahme aus den Linsen. Joghurt und Beeren liefern weitere Vitamine und runden die Mahlzeit ab.\n\nAchtung: Auf dem Lernquiz „Eisen“ steht bei Frage 14: „Maximal 50 mg Eisen pro kg Körpergewicht (= Obergrenze)“. Das stimmt so nicht.\n\n50 mg pro kg Körpergewicht ist die Grenze zwischen Mengenelementen und Spurenelementen. Es ist keine Menge, die man essen darf.\n\nMERKE: Mädchen von 15 bis 19 Jahren brauchen 15 mg Eisen am Tag, Jungen 12 mg. Eisen steckt in Fleisch, Leber, Fisch, Vollkorn, Hülsenfrüchten und Spinat. Vitamin C steigert die Aufnahme. Kaffee und schwarzer Tee hemmen sie.",
+  "sort": 17,
+  "intro": "Wie viel Eisen braucht man am Tag? Die DGE gibt Empfehlungen, DGE heißt Deutsche Gesellschaft für Ernährung.\n\nLaut DGE 2019 brauchen Jugendliche von 15 bis 19 Jahren: Mädchen 15 mg, Jungen 12 mg am Tag. Von 19 bis 51 Jahren brauchen Frauen 15 mg und Männer 10 mg.\n\nVon 51 bis 65 Jahren brauchen Frauen und Männer 10 mg am Tag. Dann haben die meisten Frauen keine Menstruation mehr.\n\nEisenreiche tierische Lebensmittel sind Leber, Fleisch und Fleischprodukte, zum Beispiel vom Rind und vom Schwein, und Fisch. Auf dem Lernquiz stehen außerdem mageres Fleisch, Eigelb, Gemüse und Obst.\n\nEisenreiche pflanzliche Lebensmittel sind Vollkornprodukte wie Hafer und Vollkornbrot, Hülsenfrüchte wie Linsen und Bohnen und Gemüse wie Spinat.\n\nVitamin C steigert die Eisenaufnahme, besonders aus pflanzlichen Lebensmitteln. Auch Fleisch und Fisch in derselben Mahlzeit helfen.\n\nKaffee und schwarzer Tee hemmen die Aufnahme. Hemmen heißt: bremsen.\n\nVorbeugen gegen Eisenmangel: eisenreich und ausgewogen essen, zum Beispiel Fleisch, Fisch, Hülsenfrüchte und Vollkornprodukte. Dazu Vitamin C aufnehmen.\n\nAuf dem Schulblatt sollst du ein eisenreiches Mittagessen für Leonie zusammenstellen und begründen. Das Beispiel: Linseneintopf mit Gemüse, Vollkornbrot, Rohkostsalat aus Paprika und Gurke und als Nachtisch Joghurt mit Beeren.\n\nLinsen sind sehr eisenreich und liefern dazu pflanzliches Eiweiß. Vollkornbrot enthält ebenfalls Eisen und wichtige Nährstoffe.\n\nPaprika bringt viel Vitamin C und verbessert die Eisenaufnahme aus den Linsen. Joghurt und Beeren liefern weitere Vitamine und runden die Mahlzeit ab.\n\nAchtung: Auf dem Lernquiz „Eisen“ steht bei Frage 14: „Maximal 50 mg Eisen pro kg Körpergewicht (= Obergrenze)“. Das stimmt so nicht.\n\n50 mg pro kg Körpergewicht ist die Grenze zwischen Mengenelementen und Spurenelementen. Eine Obergrenze für Eisen ist das nicht.\n\nMERKE: Eisen am Tag laut DGE: Mädchen und Frauen von 15 bis 51 Jahren 15 mg, Jungen von 15 bis 19 Jahren 12 mg, Männer ab 19 und alle ab 51 Jahren 10 mg. Eisen steckt in Fleisch, Leber, Fisch, Vollkorn, Hülsenfrüchten und Spinat. Vitamin C steigert die Aufnahme. Kaffee und schwarzer Tee hemmen sie.",
   "exercises": [
     {
       "type": "number_input",
@@ -24,36 +24,61 @@
       }
     },
     {
-      "type": "match_pairs",
+      "type": "sort_buckets",
       "data": {
-        "prompt": "🔗 Wie viel Eisen am Tag? Verbinde.",
-        "pairs": [
+        "prompt": "🩸 Wie viel Eisen am Tag? Sortiere nach DGE 2019.",
+        "buckets": [
           {
-            "left": {
-              "text": "Mädchen, 15 bis 19 Jahre"
-            },
-            "right": {
-              "text": "15 mg"
-            }
+            "id": "m15",
+            "label": "15 mg",
+            "icon": "⬆️"
           },
           {
-            "left": {
-              "text": "Jungen, 15 bis 19 Jahre"
-            },
-            "right": {
-              "text": "12 mg"
-            }
+            "id": "m12",
+            "label": "12 mg",
+            "icon": "➡️"
           },
           {
-            "left": {
-              "text": "Männer, 19 bis 51 Jahre"
-            },
-            "right": {
-              "text": "10 mg"
-            }
+            "id": "m10",
+            "label": "10 mg",
+            "icon": "⬇️"
           }
         ],
-        "explanation": "Frauen und Mädchen brauchen mehr Eisen als Männer und Jungen. Jungen brauchen mehr als erwachsene Männer."
+        "items": [
+          {
+            "text": "Mädchen, 15 bis 19 Jahre",
+            "bucket": "m15"
+          },
+          {
+            "text": "Frauen, 19 bis 25 Jahre",
+            "bucket": "m15"
+          },
+          {
+            "text": "Frauen, 25 bis 51 Jahre",
+            "bucket": "m15"
+          },
+          {
+            "text": "Jungen, 15 bis 19 Jahre",
+            "bucket": "m12"
+          },
+          {
+            "text": "Männer, 19 bis 25 Jahre",
+            "bucket": "m10"
+          },
+          {
+            "text": "Männer, 25 bis 51 Jahre",
+            "bucket": "m10"
+          },
+          {
+            "text": "Frauen, 51 bis 65 Jahre",
+            "bucket": "m10"
+          },
+          {
+            "text": "Männer, 51 bis 65 Jahre",
+            "bucket": "m10"
+          }
+        ],
+        "explanation": "Frag dich: Verliert die Person jeden Monat Blut bei der Menstruation? Dann braucht sie mehr Eisen. Ab etwa 51 Jahren haben die meisten Frauen keine Menstruation mehr. Jungen wachsen noch, darum brauchen sie etwas mehr als erwachsene Männer."
       }
     },
     {
@@ -141,10 +166,10 @@
             "text": "Paprika und Orangensaft"
           },
           {
-            "text": "Linsen und Bohnen"
+            "text": "Fleisch und Fisch in derselben Mahlzeit"
           }
         ],
-        "explanation": "Kaffee und schwarzer Tee hemmen die Eisenaufnahme. Hemmen heißt: bremsen. Paprika und Orangensaft liefern Vitamin C, das hilft. Linsen und Bohnen liefern selbst Eisen."
+        "explanation": "Kaffee und schwarzer Tee hemmen die Eisenaufnahme. Hemmen heißt: bremsen. Paprika und Orangensaft liefern Vitamin C, das hilft. Fleisch und Fisch in derselben Mahlzeit helfen sogar bei der Aufnahme."
       }
     },
     {
@@ -204,26 +229,26 @@
             }
           }
         ],
-        "explanation": "Frag dich bei jedem Teil des Menüs: Bringt es selbst Eisen, hilft es bei der Aufnahme, oder ergänzt es die Mahlzeit?"
+        "explanation": "Frag dich bei jedem Teil des Menüs: Bringt es selbst Eisen, hilft es bei der Aufnahme, oder ergänzt es die Mahlzeit? Zwei Teile bringen selbst Eisen. Der eine ist sehr eisenreich und liefert auch Eiweiß."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🫑 Warum gehört Paprika zum eisenreichen Menü für Leonie?",
+        "prompt": "🛡️ Wie kann man einem Eisenmangel vorbeugen?",
         "options": [
           {
-            "text": "Paprika hat viel Vitamin C und verbessert die Eisenaufnahme aus den Linsen",
+            "text": "Eisenreich und ausgewogen essen und dazu Vitamin C aufnehmen",
             "correct": true
           },
           {
-            "text": "Paprika hat sehr viel Eisen, sogar mehr als Fleisch und Leber"
+            "text": "Zu jeder Mahlzeit eine große Tasse Kaffee oder schwarzen Tee trinken"
           },
           {
-            "text": "Paprika ersetzt das Eisen aus den Linsen, dann braucht man keine Linsen"
+            "text": "Möglichst wenig Fleisch, Fisch und Vollkorn essen"
           }
         ],
-        "explanation": "Paprika bringt viel Vitamin C. Vitamin C verbessert die Aufnahme von pflanzlichem Eisen, zum Beispiel aus Linsen. Paprika selbst ist kein guter Eisenlieferant."
+        "explanation": "Laut Lernquiz beugt man Eisenmangel so vor: eisenreich und ausgewogen essen, zum Beispiel Fleisch, Fisch, Hülsenfrüchte und Vollkornprodukte. Dazu Vitamin C, dann nimmt der Körper das Eisen besser auf."
       }
     },
     {
@@ -239,7 +264,7 @@
             "text": "Selbst viele Eisentabletten nehmen"
           },
           {
-            "text": "Einfach weniger essen"
+            "text": "Abwarten, das geht von allein wieder weg"
           }
         ],
         "explanation": "Bei Verdacht auf Eisenmangel holt man ärztlichen Rat ein. Ein Arzt kann es mit einem Bluttest prüfen. Zu viel Eisen kann auch schaden. Darum nimmt man Tabletten nur nach Rücksprache mit dem Arzt."
