@@ -135,4 +135,25 @@ describe("NumberInput mit format uhrzeit (Zeit rechnen)", () => {
     tap("9");
     expect(onReadyChange).toHaveBeenLastCalledWith(true);
   });
+
+  it("volle Stunde ohne Minuten (8 → 8:00 Uhr) ist fertig und richtig", () => {
+    const aufgabe: NumberInputData = {
+      prompt: "🌅 Ab wie viel Uhr darf ein Kind frühestens arbeiten? Tippe die Uhrzeit.",
+      answer: 800,
+      format: "uhrzeit",
+    };
+    const { onResult, onReadyChange, check } = setup(aufgabe);
+    tap("8");
+    expect(screen.getByLabelText("Deine Antwort: 8 Uhr")).not.toBeNull();
+    expect(onReadyChange).toHaveBeenLastCalledWith(true);
+    check();
+    expect(onResult).toHaveBeenCalledWith({ correct: true, given: undefined });
+  });
+
+  it("volle Stunde bei Minuten-Antwort → falsch (8 statt 8:39)", () => {
+    const { onResult, check } = setup(zugAufgabe);
+    tap("8");
+    check();
+    expect(onResult).toHaveBeenCalledWith({ correct: false, given: "8" });
+  });
 });

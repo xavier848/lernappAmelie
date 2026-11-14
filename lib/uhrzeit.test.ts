@@ -18,9 +18,17 @@ describe("parseUhrzeit", () => {
     expect(parseUhrzeit("1541")).toBe(1541);
   });
 
+  it("liest volle Stunden ohne Minuten (8 → 8:00 Uhr)", () => {
+    expect(parseUhrzeit("8")).toBe(800);
+    expect(parseUhrzeit("08")).toBe(800);
+    expect(parseUhrzeit("20")).toBe(2000);
+    expect(parseUhrzeit("0")).toBe(0);
+  });
+
   it("lehnt ungueltige Eingaben ab", () => {
     expect(parseUhrzeit("")).toBeNull();
-    expect(parseUhrzeit("8")).toBeNull();
+    expect(parseUhrzeit("24")).toBeNull();
+    expect(parseUhrzeit("8:")).toBeNull();
     expect(parseUhrzeit("8:3")).toBeNull();
     expect(parseUhrzeit("8:75")).toBeNull();
     expect(parseUhrzeit("24:00")).toBeNull();
@@ -50,8 +58,10 @@ describe("uhrzeitTasteErlaubt", () => {
 });
 
 describe("uhrzeitVollstaendig", () => {
-  it("erst mit Minuten fertig", () => {
-    expect(uhrzeitVollstaendig("8")).toBe(false);
+  it("volle Stunde oder mit fertigen Minuten", () => {
+    expect(uhrzeitVollstaendig("")).toBe(false);
+    expect(uhrzeitVollstaendig("8")).toBe(true);
+    expect(uhrzeitVollstaendig("20")).toBe(true);
     expect(uhrzeitVollstaendig("8:")).toBe(false);
     expect(uhrzeitVollstaendig("8:3")).toBe(false);
     expect(uhrzeitVollstaendig("8:39")).toBe(true);
