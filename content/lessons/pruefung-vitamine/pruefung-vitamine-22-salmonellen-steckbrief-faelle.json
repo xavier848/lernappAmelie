@@ -1,0 +1,245 @@
+{
+  "topic_slug": "pruefung-vitamine",
+  "slug": "pruefung-vitamine-22-salmonellen-steckbrief-faelle",
+  "title": "Salmonellen: Steckbrief und Fallbeispiele",
+  "sort": 22,
+  "intro": "Das Lernblatt „Salmonellen“ fasst das Arbeitsblatt und den Steckbrief zusammen. Ein Steckbrief ist eine kurze Übersicht mit den wichtigsten Daten.\n\nSalmonellen sind Bakterien. Sie können eine Lebensmittelinfektion auslösen.\n\nAuf dem Steckbrief steht als Beispiel Salmonella Enteritidis. Vorkommen: zum Beispiel Geflügel, Eier, rohes Fleisch und Fisch.\n\nSalmonellen vermehren sich gut bei etwa 20 bis 37 °C. Abgetötet werden sie durch ausreichendes Erhitzen, auf dem Arbeitsblatt stehen 72 °C.\n\nUrsachen einer Erkrankung: verunreinigte Lebensmittel, falsche Behandlung und Hygienemängel. Falsche Behandlung heißt zum Beispiel: nicht gekühlt oder nicht durchgegart.\n\nSymptome heißt: Anzeichen einer Krankheit. Symptome sind zum Beispiel Durchfall, Erbrechen, Fieber, Übelkeit und Bauchschmerzen.\n\nBehandlung: genug trinken und bei Beschwerden zum Arzt. Die Erkrankung dauert laut Steckbrief etwa einen Tag bis eine Woche.\n\nFallbeispiel 1, Kantine: Ein Koch hatte nach einer Reise starken Durchfall. Jetzt fühlt er sich wieder besser.\n\nTrotzdem kann er noch Erreger mit dem Stuhl ausscheiden. Stuhl heißt hier: das große Geschäft auf der Toilette.\n\nDarum sind bei der Arbeit mit Lebensmitteln strenge Hygiene und die Regeln im Betrieb wichtig.\n\nFallbeispiel 2, Familienfeier: Mehrere Gäste wurden nach einer Feier krank. Die vermutete Quelle war ein selbstgemachtes Tiramisu, es stand etwa fünf Stunden auf dem Buffet.\n\nEmpfindliche Speisen müssen ausreichend gekühlt und hygienisch zubereitet werden.\n\nVorbeugung: Hände gründlich waschen. Rohe und verzehrfertige Lebensmittel getrennt halten.\n\nVerzehrfertig heißt: Man kann es so essen, zum Beispiel Salat oder Kuchen. Lebensmittel ausreichend erhitzen und kühl lagern.\n\nSaubere Arbeitsflächen und Geräte verwenden. Hygieneregeln bei Krankheit beachten.\n\nMERKE: Salmonellen sind Bakterien und lösen eine Lebensmittelinfektion aus. Sie vermehren sich bei 20 bis 37 °C und sterben bei 72 °C. Symptome: Durchfall, Erbrechen, Fieber, Übelkeit. Dauer: etwa ein Tag bis eine Woche.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦠 Was sind Salmonellen laut Steckbrief?",
+        "options": [
+          {
+            "text": "Bakterien, die eine Lebensmittelinfektion auslösen können",
+            "correct": true
+          },
+          {
+            "text": "Viren, die eine Grippe mit Schnupfen und Husten auslösen"
+          },
+          {
+            "text": "Giftstoffe, die in verdorbenem Obst und Gemüse entstehen"
+          }
+        ],
+        "explanation": "Salmonellen sind Bakterien. Sie können eine Lebensmittelinfektion auslösen. Auf dem Steckbrief steht als Beispiel Salmonella Enteritidis."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🌡️ Bei welcher Temperatur vermehren sich Salmonellen laut Arbeitsblatt gut?",
+        "options": [
+          {
+            "text": "Bei etwa 20 bis 37 °C",
+            "correct": true
+          },
+          {
+            "text": "Bei etwa 0 bis 4 °C"
+          },
+          {
+            "text": "Bei über 72 °C"
+          }
+        ],
+        "explanation": "Salmonellen vermehren sich gut bei etwa 20 bis 37 °C. Das ist von Zimmertemperatur bis Körpertemperatur. Im Kühlschrank vermehren sie sich kaum. Bei 72 °C sterben sie."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🔥 Bei wie viel Grad werden Salmonellen laut Arbeitsblatt abgetötet? Tippe die Zahl.",
+        "answer": 72,
+        "hint": "Auch Hähnchenfleisch muss innen so heiß werden.",
+        "explanation": "Laut Arbeitsblatt werden Salmonellen bei 72 °C abgetötet. Darum muss auch Hähnchenfleisch innen mindestens 72 °C haben."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🤒 Ist das ein Symptom einer Salmonellen-Erkrankung? Sortiere.",
+        "buckets": [
+          {
+            "id": "ja",
+            "label": "Symptom",
+            "icon": "🤒"
+          },
+          {
+            "id": "nein",
+            "label": "Kein Symptom",
+            "icon": "➖"
+          }
+        ],
+        "items": [
+          {
+            "text": "Durchfall",
+            "bucket": "ja"
+          },
+          {
+            "text": "Erbrechen",
+            "bucket": "ja"
+          },
+          {
+            "text": "Fieber",
+            "bucket": "ja"
+          },
+          {
+            "text": "Übelkeit",
+            "bucket": "ja"
+          },
+          {
+            "text": "Bauchschmerzen",
+            "bucket": "ja"
+          },
+          {
+            "text": "Haarausfall",
+            "bucket": "nein"
+          },
+          {
+            "text": "Brüchige Nägel",
+            "bucket": "nein"
+          }
+        ],
+        "explanation": "Salmonellen machen den Magen und den Darm krank. Frag dich: Hat das Anzeichen mit dem Bauch oder mit Fieber zu tun?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📅 Wie lange dauert eine Salmonellen-Erkrankung laut Steckbrief?",
+        "options": [
+          {
+            "text": "Etwa einen Tag bis eine Woche",
+            "correct": true
+          },
+          {
+            "text": "Nur wenige Minuten"
+          },
+          {
+            "text": "Mehrere Monate bis ein Jahr"
+          }
+        ],
+        "explanation": "Laut Steckbrief dauert die Erkrankung etwa einen Tag bis eine Woche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Was hilft bei einer Salmonellen-Erkrankung?",
+        "options": [
+          {
+            "text": "Genug trinken und bei Beschwerden zum Arzt gehen",
+            "correct": true
+          },
+          {
+            "text": "Wenig trinken, damit der Durchfall aufhört"
+          },
+          {
+            "text": "Sofort wieder in der Küche arbeiten und Essen zubereiten"
+          }
+        ],
+        "explanation": "Bei Durchfall und Erbrechen verliert der Körper viel Wasser. Darum ist genug Flüssigkeit wichtig. Bei Beschwerden lässt man es ärztlich abklären. In der Küche arbeitet man in dieser Zeit nicht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "👨‍🍳 Fallbeispiel Kantine: Ein Koch hatte nach einer Reise starken Durchfall. Jetzt geht es ihm besser. Warum muss er trotzdem aufpassen?",
+        "options": [
+          {
+            "text": "Er kann noch Erreger mit dem Stuhl ausscheiden",
+            "correct": true
+          },
+          {
+            "text": "Weil er von der langen Reise noch sehr müde ist"
+          },
+          {
+            "text": "Weil Durchfall immer genau ein Jahr dauert"
+          }
+        ],
+        "explanation": "Auch wenn er sich besser fühlt, kann er noch Erreger mit dem Stuhl ausscheiden. Über die Hände kommen sie ins Essen. Darum sind strenge Hygiene und die Regeln im Betrieb wichtig."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍰 Fallbeispiel Familienfeier: Ein selbstgemachtes Tiramisu stand etwa fünf Stunden auf dem Buffet. Danach wurden mehrere Gäste krank. Was war der Fehler?",
+        "options": [
+          {
+            "text": "Die empfindliche Speise stand zu lange ungekühlt",
+            "correct": true
+          },
+          {
+            "text": "Es gab viel zu wenig Tiramisu für alle Gäste"
+          },
+          {
+            "text": "Das Tiramisu war zu kalt, zu süß und zu fest"
+          }
+        ],
+        "explanation": "Tiramisu ist eine empfindliche Speise. Oft enthält es rohe Eier. Fünf Stunden ungekühlt auf dem Buffet ist viel zu lange. Empfindliche Speisen müssen ausreichend gekühlt werden."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Welche Ursachen für eine Erkrankung nennt das Arbeitsblatt?",
+        "options": [
+          {
+            "text": "Verunreinigte Lebensmittel, falsche Behandlung und Hygienemängel",
+            "correct": true
+          },
+          {
+            "text": "Zu viel Gemüse, zu wenig Obst und zu wenig Schlaf in der Nacht"
+          },
+          {
+            "text": "Zu viel Sport, zu wenig Schlaf und kalte Füße im Winter"
+          }
+        ],
+        "explanation": "Laut Arbeitsblatt sind die Ursachen: verunreinigte Lebensmittel, falsche Behandlung und Hygienemängel. Falsche Behandlung heißt zum Beispiel: nicht gekühlt oder nicht durchgegart."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🛡️ Hilft das gegen Salmonellen? Sortiere.",
+        "buckets": [
+          {
+            "id": "ja",
+            "label": "Hilft",
+            "icon": "✅"
+          },
+          {
+            "id": "nein",
+            "label": "Hilft nicht",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "Hände gründlich waschen",
+            "bucket": "ja"
+          },
+          {
+            "text": "Rohes und Verzehrfertiges getrennt halten",
+            "bucket": "ja"
+          },
+          {
+            "text": "Lebensmittel ausreichend erhitzen",
+            "bucket": "ja"
+          },
+          {
+            "text": "Lebensmittel kühl lagern",
+            "bucket": "ja"
+          },
+          {
+            "text": "Tiramisu stundenlang ungekühlt anbieten",
+            "bucket": "nein"
+          },
+          {
+            "text": "Hähnchen und Salat mit einem Brett schneiden",
+            "bucket": "nein"
+          }
+        ],
+        "explanation": "Frag dich: Werden die Keime getötet, gebremst oder ferngehalten? Dann hilft es."
+      }
+    }
+  ]
+}
