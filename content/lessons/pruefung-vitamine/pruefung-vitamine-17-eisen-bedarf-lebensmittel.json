@@ -1,0 +1,274 @@
+{
+  "topic_slug": "pruefung-vitamine",
+  "slug": "pruefung-vitamine-17-eisen-bedarf-lebensmittel",
+  "title": "Eisen: Bedarf, Lebensmittel und Aufnahme",
+  "sort": 17,
+  "intro": "Wie viel Eisen braucht man am Tag? Die DGE gibt Empfehlungen, DGE heißt Deutsche Gesellschaft für Ernährung.\n\nLaut DGE 2019 brauchen Jugendliche von 15 bis 19 Jahren: Mädchen 15 mg, Jungen 12 mg am Tag. Von 19 bis 51 Jahren brauchen Frauen 15 mg und Männer 10 mg.\n\nVon 51 bis 65 Jahren brauchen Frauen und Männer 10 mg am Tag. Dann haben die meisten Frauen keine Menstruation mehr.\n\nEisenreiche tierische Lebensmittel sind Leber, Fleisch und Fleischprodukte, zum Beispiel vom Rind und vom Schwein, und Fisch. Auf dem Lernquiz stehen außerdem mageres Fleisch, Eigelb, Gemüse und Obst.\n\nEisenreiche pflanzliche Lebensmittel sind Vollkornprodukte wie Hafer und Vollkornbrot, Hülsenfrüchte wie Linsen und Bohnen und Gemüse wie Spinat.\n\nVitamin C steigert die Eisenaufnahme, besonders aus pflanzlichen Lebensmitteln. Auch Fleisch und Fisch in derselben Mahlzeit helfen.\n\nKaffee und schwarzer Tee hemmen die Aufnahme. Hemmen heißt: bremsen.\n\nVorbeugen gegen Eisenmangel: eisenreich und ausgewogen essen, zum Beispiel Fleisch, Fisch, Hülsenfrüchte und Vollkornprodukte. Dazu Vitamin C aufnehmen.\n\nAuf dem Schulblatt sollst du ein eisenreiches Mittagessen für Leonie zusammenstellen und begründen. Das Beispiel: Linseneintopf mit Gemüse, Vollkornbrot, Rohkostsalat aus Paprika und Gurke und als Nachtisch Joghurt mit Beeren.\n\nLinsen sind sehr eisenreich und liefern dazu pflanzliches Eiweiß. Vollkornbrot enthält ebenfalls Eisen und wichtige Nährstoffe.\n\nPaprika bringt viel Vitamin C und verbessert die Eisenaufnahme aus den Linsen. Joghurt und Beeren liefern weitere Vitamine und runden die Mahlzeit ab.\n\nAchtung: Auf dem Lernquiz „Eisen“ steht bei Frage 14: „Maximal 50 mg Eisen pro kg Körpergewicht (= Obergrenze)“. Das stimmt so nicht.\n\n50 mg pro kg Körpergewicht ist die Grenze zwischen Mengenelementen und Spurenelementen. Eine Obergrenze für Eisen ist das nicht.\n\nMERKE: Eisen am Tag laut DGE: Mädchen und Frauen von 15 bis 51 Jahren 15 mg, Jungen von 15 bis 19 Jahren 12 mg, Männer ab 19 und alle ab 51 Jahren 10 mg. Eisen steckt in Fleisch, Leber, Fisch, Vollkorn, Hülsenfrüchten und Spinat. Vitamin C steigert die Aufnahme. Kaffee und schwarzer Tee hemmen sie.",
+  "exercises": [
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "👧 Wie viel Eisen brauchen Mädchen von 15 bis 19 Jahren am Tag? Tippe die Zahl in Milligramm.",
+        "answer": 15,
+        "hint": "Mädchen brauchen mehr als Jungen. Jungen brauchen 12 mg.",
+        "explanation": "Mädchen von 15 bis 19 Jahren brauchen laut DGE 15 mg Eisen am Tag. Jungen brauchen 12 mg. Mädchen verlieren bei der Menstruation Blut und damit Eisen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "👦 Wie viel Eisen brauchen Jungen von 15 bis 19 Jahren am Tag? Tippe die Zahl in Milligramm.",
+        "answer": 12,
+        "hint": "Jungen brauchen weniger als Mädchen. Mädchen brauchen 15 mg.",
+        "explanation": "Jungen von 15 bis 19 Jahren brauchen laut DGE 12 mg Eisen am Tag. Mädchen brauchen 15 mg."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🩸 Wie viel Eisen am Tag? Sortiere nach DGE 2019.",
+        "buckets": [
+          {
+            "id": "m15",
+            "label": "15 mg",
+            "icon": "⬆️"
+          },
+          {
+            "id": "m12",
+            "label": "12 mg",
+            "icon": "➡️"
+          },
+          {
+            "id": "m10",
+            "label": "10 mg",
+            "icon": "⬇️"
+          }
+        ],
+        "items": [
+          {
+            "text": "Mädchen, 15 bis 19 Jahre",
+            "bucket": "m15"
+          },
+          {
+            "text": "Frauen, 19 bis 25 Jahre",
+            "bucket": "m15"
+          },
+          {
+            "text": "Frauen, 25 bis 51 Jahre",
+            "bucket": "m15"
+          },
+          {
+            "text": "Jungen, 15 bis 19 Jahre",
+            "bucket": "m12"
+          },
+          {
+            "text": "Männer, 19 bis 25 Jahre",
+            "bucket": "m10"
+          },
+          {
+            "text": "Männer, 25 bis 51 Jahre",
+            "bucket": "m10"
+          },
+          {
+            "text": "Frauen, 51 bis 65 Jahre",
+            "bucket": "m10"
+          },
+          {
+            "text": "Männer, 51 bis 65 Jahre",
+            "bucket": "m10"
+          }
+        ],
+        "explanation": "Frag dich: Verliert die Person jeden Monat Blut bei der Menstruation? Dann braucht sie mehr Eisen. Ab etwa 51 Jahren haben die meisten Frauen keine Menstruation mehr. Jungen wachsen noch, darum brauchen sie etwas mehr als erwachsene Männer."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🥩 Tierisch oder pflanzlich? Sortiere die eisenreichen Lebensmittel.",
+        "buckets": [
+          {
+            "id": "tier",
+            "label": "Tierisch",
+            "icon": "🐄"
+          },
+          {
+            "id": "pflanze",
+            "label": "Pflanzlich",
+            "icon": "🌱"
+          }
+        ],
+        "items": [
+          {
+            "text": "Leber",
+            "bucket": "tier"
+          },
+          {
+            "text": "Rindfleisch",
+            "bucket": "tier"
+          },
+          {
+            "text": "Fisch",
+            "bucket": "tier"
+          },
+          {
+            "text": "Eigelb",
+            "bucket": "tier"
+          },
+          {
+            "text": "Linsen",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Haferflocken",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Spinat",
+            "bucket": "pflanze"
+          },
+          {
+            "text": "Vollkornbrot",
+            "bucket": "pflanze"
+          }
+        ],
+        "explanation": "Frag dich: Kommt das Lebensmittel von einem Tier oder von einer Pflanze?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Was steigert die Eisenaufnahme?",
+        "options": [
+          {
+            "text": "Vitamin C, zum Beispiel aus Paprika oder Orangen",
+            "correct": true
+          },
+          {
+            "text": "Eine große Tasse Kaffee direkt nach dem Essen"
+          },
+          {
+            "text": "Eine Kanne schwarzer Tee zum Mittagessen"
+          }
+        ],
+        "explanation": "Vitamin C steigert die Eisenaufnahme, besonders aus pflanzlichen Lebensmitteln. Kaffee und schwarzer Tee hemmen sie."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Was hemmt die Eisenaufnahme?",
+        "options": [
+          {
+            "text": "Kaffee und schwarzer Tee",
+            "correct": true
+          },
+          {
+            "text": "Paprika und Orangensaft"
+          },
+          {
+            "text": "Fleisch und Fisch in derselben Mahlzeit"
+          }
+        ],
+        "explanation": "Kaffee und schwarzer Tee hemmen die Eisenaufnahme. Hemmen heißt: bremsen. Paprika und Orangensaft liefern Vitamin C, das hilft. Fleisch und Fisch in derselben Mahlzeit helfen sogar bei der Aufnahme."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍲 Leonie isst einen Linseneintopf. Welches Getränk passt am besten dazu?",
+        "options": [
+          {
+            "text": "Ein Glas Orangensaft, wegen Vitamin C",
+            "correct": true
+          },
+          {
+            "text": "Eine Tasse Kaffee, weil er wach macht"
+          },
+          {
+            "text": "Eine Tasse schwarzer Tee, weil er wärmt"
+          }
+        ],
+        "explanation": "Linsen haben viel pflanzliches Eisen. Das Vitamin C aus dem Orangensaft hilft, das Eisen aufzunehmen. Kaffee und schwarzer Tee würden die Aufnahme bremsen."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🍽️ Menü für Leonie: Warum passt das? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Linseneintopf"
+            },
+            "right": {
+              "text": "Sehr eisenreich, dazu pflanzliches Eiweiß"
+            }
+          },
+          {
+            "left": {
+              "text": "Vollkornbrot"
+            },
+            "right": {
+              "text": "Enthält ebenfalls Eisen"
+            }
+          },
+          {
+            "left": {
+              "text": "Paprika im Rohkostsalat"
+            },
+            "right": {
+              "text": "Viel Vitamin C für die Eisenaufnahme"
+            }
+          },
+          {
+            "left": {
+              "text": "Joghurt mit Beeren"
+            },
+            "right": {
+              "text": "Weitere Vitamine, rundet die Mahlzeit ab"
+            }
+          }
+        ],
+        "explanation": "Frag dich bei jedem Teil des Menüs: Bringt es selbst Eisen, hilft es bei der Aufnahme, oder ergänzt es die Mahlzeit? Zwei Teile bringen selbst Eisen. Der eine ist sehr eisenreich und liefert auch Eiweiß."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛡️ Wie kann man einem Eisenmangel vorbeugen?",
+        "options": [
+          {
+            "text": "Eisenreich und ausgewogen essen und dazu Vitamin C aufnehmen",
+            "correct": true
+          },
+          {
+            "text": "Zu jeder Mahlzeit eine große Tasse Kaffee oder schwarzen Tee trinken"
+          },
+          {
+            "text": "Möglichst wenig Fleisch, Fisch und Vollkorn essen"
+          }
+        ],
+        "explanation": "Laut Lernquiz beugt man Eisenmangel so vor: eisenreich und ausgewogen essen, zum Beispiel Fleisch, Fisch, Hülsenfrüchte und Vollkornprodukte. Dazu Vitamin C, dann nimmt der Körper das Eisen besser auf."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🤔 Was tust du bei Verdacht auf Eisenmangel?",
+        "options": [
+          {
+            "text": "Ärztlichen Rat einholen",
+            "correct": true
+          },
+          {
+            "text": "Selbst viele Eisentabletten nehmen"
+          },
+          {
+            "text": "Abwarten, das geht von allein wieder weg"
+          }
+        ],
+        "explanation": "Bei Verdacht auf Eisenmangel holt man ärztlichen Rat ein. Ein Arzt kann es mit einem Bluttest prüfen. Zu viel Eisen kann auch schaden. Darum nimmt man Tabletten nur nach Rücksprache mit dem Arzt."
+      }
+    }
+  ]
+}

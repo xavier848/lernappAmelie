@@ -1,0 +1,218 @@
+{
+  "topic_slug": "pruefung-jugendarbeitsschutz",
+  "slug": "pruefung-jugendarbeitsschutz-01-kinder-und-jugendliche",
+  "title": "Kinder und Jugendliche",
+  "sort": 1,
+  "intro": "Am 17.11.2026 schreibst du eine Schulaufgabe im Fach Politik und Gesellschaft. Das Thema ist das Jugendarbeitsschutzgesetz. Das ist ein Gesetz. Es schützt junge Menschen bei der Arbeit.\n\nDas Gesetz unterscheidet zwei Gruppen: Kinder und Jugendliche. Unterscheiden heißt hier: Für beide Gruppen gibt es eigene Regeln.\n\nKinder sind alle Personen, die noch nicht 15 Jahre alt sind. Jugendliche sind alle Personen von 15 bis 18 Jahren. Genauer: ab dem 15. Geburtstag bis zum 18. Geburtstag. Mit 18 ist man erwachsen.\n\nManche Jugendliche sind noch vollzeitschulpflichtig. Das heißt: Das Gesetz schreibt vor, dass sie jeden Tag zur Schule gehen müssen. In Bayern gilt das für die ersten 9 Schuljahre. Für diese Jugendlichen gelten die Vorschriften für Kinder. Vorschriften sind Regeln. Nur in den Ferien dürfen sie einen Ferienjob machen, höchstens 4 Wochen im Jahr.\n\nBeschäftigung heißt: Jemand arbeitet für einen Arbeitgeber und bekommt dafür Geld. Die Beschäftigung von Kindern ist verboten. Es gibt aber eine Ausnahme. Die lernst du in der nächsten Lektion.\n\nMERKE: Kind = noch nicht 15 Jahre alt. Jugendliche = 15 bis 18 Jahre. Vollzeitschulpflicht = es gelten die Regeln für Kinder. Die Beschäftigung von Kindern ist verboten.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "⚖️ Was ist das Jugendarbeitsschutzgesetz?",
+        "options": [
+          {
+            "text": "Ein Gesetz, das Kinder und Jugendliche bei der Arbeit schützt",
+            "correct": true
+          },
+          {
+            "text": "Ein Gesetz, das Jugendliche vor Alkohol und Rauchen schützt"
+          },
+          {
+            "text": "Ein Gesetz, das alle Arbeitnehmer bei der Arbeit schützt"
+          }
+        ],
+        "explanation": "Das Jugendarbeitsschutzgesetz schützt Kinder und Jugendliche bei der Arbeit. Alkohol und Rauchen regelt ein anderes Gesetz: das Jugendschutzgesetz. Alle Arbeitnehmer sind nicht gemeint, nur junge Menschen."
+      }
+    },
+    {
+      "type": "number_input",
+      "data": {
+        "prompt": "🎂 Ergänze: Kinder sind alle Personen, die noch nicht … Jahre alt sind. Tippe die Zahl.",
+        "answer": 15,
+        "hint": "Mit 14 ist man noch ein Kind. Mit … Jahren ist man Jugendliche oder Jugendlicher.",
+        "explanation": "Kinder sind alle Personen, die noch nicht 15 Jahre alt sind. Ab 15 Jahren ist man kein Kind mehr, sondern Jugendliche oder Jugendlicher."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧑 Jonas ist 16. Was ist er laut Gesetz?",
+        "options": [
+          {
+            "text": "Jugendlicher, weil er zwischen 15 und 18 Jahre alt ist",
+            "correct": true
+          },
+          {
+            "text": "Kind, weil er noch nicht 18 Jahre alt ist"
+          },
+          {
+            "text": "Erwachsener, weil er schon über 15 Jahre alt ist"
+          }
+        ],
+        "explanation": "Jugendliche sind alle Personen von 15 bis 18 Jahren. Jonas ist 16. Er ist also Jugendlicher. Kind ist man nur, solange man noch nicht 15 ist."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "👦 Kind oder Jugendliche/r? Sortiere nach dem Alter.",
+        "buckets": [
+          {
+            "id": "kind",
+            "label": "Kind",
+            "icon": "🧒"
+          },
+          {
+            "id": "jugend",
+            "label": "Jugendliche/r",
+            "icon": "🧑"
+          }
+        ],
+        "items": [
+          {
+            "text": "Noah, 11 Jahre",
+            "bucket": "kind"
+          },
+          {
+            "text": "Tom, 13 Jahre",
+            "bucket": "kind"
+          },
+          {
+            "text": "Mia, 14 Jahre",
+            "bucket": "kind"
+          },
+          {
+            "text": "Leonie, 15 Jahre",
+            "bucket": "jugend"
+          },
+          {
+            "text": "Jonas, 16 Jahre",
+            "bucket": "jugend"
+          },
+          {
+            "text": "Eva, 17 Jahre",
+            "bucket": "jugend"
+          }
+        ],
+        "explanation": "Achte nur auf die Zahl 15. Wer noch nicht 15 Jahre alt ist, ist ein Kind. Wer 15, 16 oder 17 Jahre alt ist, ist Jugendliche oder Jugendlicher. Mit 14 Jahren ist man also noch ein Kind."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🏫 Lara ist 15. Sie ist noch vollzeitschulpflichtig. Es sind keine Ferien. Welche Vorschriften gelten für sie?",
+        "options": [
+          {
+            "text": "Die Vorschriften für Kinder",
+            "correct": true
+          },
+          {
+            "text": "Die Vorschriften für Jugendliche"
+          },
+          {
+            "text": "Die Vorschriften für Erwachsene"
+          }
+        ],
+        "explanation": "Mit 15 ist Lara eigentlich Jugendliche. Aber sie ist noch vollzeitschulpflichtig. Dann gelten für sie die Vorschriften für Kinder. Nur in den Ferien darf sie einen Ferienjob machen, höchstens 4 Wochen im Jahr."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📜 Ist die Beschäftigung von Kindern erlaubt?",
+        "options": [
+          {
+            "text": "Nein, sie ist verboten. Ausnahme: leichte, geeignete Arbeit.",
+            "correct": true
+          },
+          {
+            "text": "Nein. Sie ist verboten, und es gibt keine einzige Ausnahme."
+          },
+          {
+            "text": "Ja, wenn der Chef zustimmt und gut bezahlt."
+          }
+        ],
+        "explanation": "Die Beschäftigung von Kindern ist verboten. Es gibt aber eine Ausnahme: leichte Arbeit, die für Kinder geeignet ist. Darum stimmt „keine einzige Ausnahme“ nicht. Dass der Chef zustimmt und gut bezahlt, reicht nicht."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Was bedeuten die Wörter? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Beschäftigung"
+            },
+            "right": {
+              "text": "Arbeit gegen Geld"
+            }
+          },
+          {
+            "left": {
+              "text": "Vollzeitschulpflicht"
+            },
+            "right": {
+              "text": "Laut Gesetz noch jeden Tag zur Schule müssen"
+            }
+          },
+          {
+            "left": {
+              "text": "Kind"
+            },
+            "right": {
+              "text": "Noch nicht 15 Jahre alt"
+            }
+          },
+          {
+            "left": {
+              "text": "Jugendliche/r"
+            },
+            "right": {
+              "text": "15 bis 18 Jahre alt"
+            }
+          }
+        ],
+        "explanation": "Frag dich bei jedem Wort: Geht es um das Alter, um die Schule oder um Arbeit gegen Geld? Die Altersgrenze zwischen Kind und Jugendlichen ist 15 Jahre."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎉 Lukas hat heute seinen 18. Geburtstag. Was ist er jetzt laut Gesetz?",
+        "options": [
+          {
+            "text": "Erwachsen, kein Jugendlicher mehr",
+            "correct": true
+          },
+          {
+            "text": "Noch Jugendlicher, denn 18 gehört zu „15 bis 18“"
+          },
+          {
+            "text": "Noch Jugendlicher, bis er 19 wird"
+          }
+        ],
+        "explanation": "Jugendliche sind 15, aber noch nicht 18 Jahre alt. „15 bis 18“ heißt also: bis zum 18. Geburtstag. Ab 18 ist man erwachsen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Tom ist 13 Jahre alt. Ist er laut Gesetz ein Kind?",
+        "options": [
+          {
+            "text": "Ja, er ist noch nicht 15.",
+            "correct": true
+          },
+          {
+            "text": "Nein, er ist schon Jugendlicher."
+          },
+          {
+            "text": "Nein, ab 13 ist man erwachsen."
+          }
+        ],
+        "explanation": "Kinder sind alle, die noch nicht 15 Jahre alt sind. Tom ist 13. Er ist also ein Kind."
+      }
+    }
+  ]
+}
