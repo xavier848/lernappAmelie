@@ -179,7 +179,7 @@ export function StepsOrder({
         <p className="text-center text-base text-ink/70">
           {order.length === 0
             ? "Tippe zuerst die Karte an, die an Platz 1 gehört."
-            : `Gut! Welche Karte kommt an Platz ${order.length + 1}?`}
+            : `Welche Karte kommt an Platz ${order.length + 1}?`}
         </p>
       )}
     </div>
