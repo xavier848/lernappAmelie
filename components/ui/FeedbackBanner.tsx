@@ -3,7 +3,7 @@
 // Feedback-Banner unten im Lektions-Player (Spec §4.2):
 // Grün „Richtig! 🎉" / sanftes Orange „Fast! Schau nochmal." – NIE rot.
 // Rutscht von unten herein (Framer), respektiert prefers-reduced-motion.
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { SafeImage } from "./SafeImage";
 import { Button } from "./Button";
@@ -31,7 +31,7 @@ function FeedbackPony({
   if (state === "correct") {
     return (
       <motion.div
-        className="shrink-0"
+        className="size-[76px] shrink-0 kurz:size-14"
         initial={reducedMotion ? false : { scale: 0.3, opacity: 0, rotate: -8 }}
         animate={{ scale: 1, opacity: 1, rotate: 0 }}
         transition={{ type: "spring", stiffness: 260, damping: 13 }}
@@ -41,6 +41,7 @@ function FeedbackPony({
           alt=""
           width={76}
           height={76}
+          className="size-full"
           priority
           fallback="🐴"
           fallbackClassName="text-6xl"
@@ -49,7 +50,7 @@ function FeedbackPony({
     );
   }
   return (
-    <div className="relative h-[76px] w-[76px] shrink-0">
+    <div className="relative size-[76px] shrink-0 kurz:size-14">
       <motion.div
         className="absolute inset-0"
         initial={reducedMotion ? false : { x: -130, opacity: 0 }}
@@ -61,6 +62,7 @@ function FeedbackPony({
           alt=""
           width={76}
           height={76}
+          className="size-full"
           priority
           fallback="🐴"
           fallbackClassName="text-6xl"
@@ -77,6 +79,7 @@ function FeedbackPony({
           alt="Pferdeäpfel"
           width={40}
           height={40}
+          className="size-10 kurz:size-8"
           fallback="💩"
           fallbackClassName="text-3xl"
         />
@@ -136,6 +139,32 @@ export function FeedbackBanner({
     else playWrong();
   }, [state]);
 
+  // Hoehe des Banners als CSS-Variable --feedback-h: Die Uebung darueber
+  // bekommt so viel Platz nach unten, dass keine Antwort hinter dem Banner
+  // verschwindet. Danach die richtige (sonst die gewaehlte) Antwort ins Bild.
+  const bannerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = bannerRef.current;
+    if (!el) return;
+    const root = document.documentElement;
+    const setzen = () =>
+      root.style.setProperty("--feedback-h", `${Math.ceil(el.getBoundingClientRect().height)}px`);
+    setzen();
+    const ro = typeof ResizeObserver === "undefined" ? null : new ResizeObserver(setzen);
+    ro?.observe(el);
+    const t = window.setTimeout(() => {
+      const ziel =
+        document.querySelector<HTMLElement>('[data-feedback-ziel="richtig"]') ??
+        document.querySelector<HTMLElement>("[data-feedback-ziel]");
+      ziel?.scrollIntoView?.({ block: "nearest", behavior: reducedMotion ? "auto" : "smooth" });
+    }, 400);
+    return () => {
+      ro?.disconnect();
+      window.clearTimeout(t);
+      root.style.removeProperty("--feedback-h");
+    };
+  }, [reducedMotion]);
+
   return (
     <motion.div
       role="status"
@@ -145,8 +174,10 @@ export function FeedbackBanner({
       className="fixed inset-x-0 bottom-0 z-50"
     >
       <div
+        ref={bannerRef}
         className={cn(
           "mx-auto flex max-h-[85svh] w-full max-w-md flex-col rounded-t-3xl border-t-4 px-4 pt-4 pb-[max(1.5rem,env(safe-area-inset-bottom))]",
+          "kurz:pt-3 kurz:pb-[max(1rem,env(safe-area-inset-bottom))]",
           c.wrap
         )}
       >
@@ -162,19 +193,19 @@ export function FeedbackBanner({
                 height={76}
                 fallback="🐴"
                 fallbackClassName="text-6xl"
-                className="shrink-0"
+                className="size-[76px] shrink-0 kurz:size-14"
               />
             ) : (
               <FeedbackPony state={state} reducedMotion={reducedMotion} />
             )}
-            <p className={cn("min-w-0 flex-1 text-xl leading-snug font-extrabold", c.text)}>
+            <p className={cn("min-w-0 flex-1 text-xl leading-snug font-extrabold kurz:text-lg", c.text)}>
               {c.emoji} {shownTitle}
             </p>
           </div>
           {/* Erklaerung ueber die ganze Breite: kuerzere Zeilen-Stapel,
               leichter zu lesen als die schmale Spalte neben dem Pony. */}
           {explanation && !ponyModus && (
-            <p className="mt-3 text-base leading-relaxed text-ink">{explanation}</p>
+            <p className="mt-3 text-base leading-relaxed text-ink kurz:mt-2">{explanation}</p>
           )}
           {ponyModus && kiErklaerung && (
             <div className="mt-4">
@@ -182,12 +213,12 @@ export function FeedbackBanner({
             </div>
           )}
           {state === "wrong" && kiErklaerung && !ponyFragt && (
-            <div className="mt-3 empty:hidden">
+            <div className="mt-3 empty:hidden kurz:mt-2">
               <PonyErklaerKnopf onClick={() => setPonyFragt(true)} />
             </div>
           )}
         </div>
-        <div className="mt-4 shrink-0">
+        <div className="mt-4 shrink-0 kurz:mt-3">
           <Button variant={c.variant} size="lg" full onClick={onContinue}>
             {continueLabel ?? "Weiter"}
           </Button>

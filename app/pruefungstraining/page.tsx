@@ -113,7 +113,7 @@ function Karte({ karte }: { karte: PruefungsKarte }) {
             style={{ width: `${prozent}%` }}
           />
         </span>
-        <span className="text-xs font-semibold text-ink/60">
+        <span className="text-sm font-semibold text-ink/70">
           Schon sicher: {sicher} von {fragen} Fragen
         </span>
       </span>

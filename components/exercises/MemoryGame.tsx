@@ -57,7 +57,7 @@ function MemorizePanel({
             <span key={index} className="flex flex-col items-center gap-1">
               <span className={itemTextClass(item.text)}>{item.text}</span>
               {ordered && (
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary-strong text-sm font-bold text-white">
                   {index + 1}
                 </span>
               )}
@@ -69,7 +69,7 @@ function MemorizePanel({
       <button
         type="button"
         onClick={onDone}
-        className="flex min-h-14 w-full cursor-pointer items-center justify-center gap-2 rounded-2xl border-b-4 border-primary-dark bg-primary px-5 font-bold text-white select-none active:translate-y-1 active:border-b-0"
+        className="flex min-h-14 w-full cursor-pointer items-center justify-center gap-2 rounded-2xl border-b-4 border-primary-strong-edge bg-primary-strong px-5 font-bold text-white select-none active:translate-y-1 active:border-b-0"
       >
         Ich hab&apos;s mir gemerkt <span aria-hidden>▶</span>
       </button>
@@ -177,7 +177,7 @@ function SequenceGame({
             >
               <span className={itemTextClass(item.text)}>{item.text}</span>
               {isTapped && (
-                <span className="absolute top-1 right-1 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">
+                <span className="absolute top-1 right-1 flex h-6 w-6 items-center justify-center rounded-full bg-primary-strong text-sm font-bold text-white">
                   {position + 1}
                 </span>
               )}

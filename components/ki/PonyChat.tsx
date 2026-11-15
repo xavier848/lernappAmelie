@@ -149,7 +149,7 @@ export function PonyChat({
               m.role === "user" ? (
                 <p
                   key={i}
-                  className="max-w-[85%] self-end rounded-2xl rounded-br-md bg-primary px-4 py-2 text-base whitespace-pre-line text-white"
+                  className="max-w-[85%] self-end rounded-2xl rounded-br-md bg-primary-strong px-4 py-2 text-base whitespace-pre-line text-white"
                 >
                   {m.content}
                 </p>

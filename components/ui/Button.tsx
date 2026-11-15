@@ -18,10 +18,10 @@ const VARIANT_CLASSES: Record<ButtonVariant, string> = {
   // Gesperrt: grau wie gesperrte Lektionen statt blass-tuerkis. So sieht
   // Amelie klar, dass der Knopf noch nicht geht (z. B. "Prüfen" ohne Antwort).
   primary:
-    "bg-primary text-white border-primary-dark disabled:bg-locked disabled:text-ink/45 disabled:border-slate-300",
+    "bg-primary-strong text-white border-primary-strong-edge disabled:bg-locked disabled:text-ink/45 disabled:border-slate-300",
   secondary: "bg-white text-primary-dark border-2 border-primary disabled:opacity-50",
-  success: "bg-success text-white border-success-dark disabled:opacity-50",
-  warning: "bg-warning text-white border-warning-dark disabled:opacity-50",
+  success: "bg-success-strong text-white border-success-strong-edge disabled:opacity-50",
+  warning: "bg-warning-strong text-white border-warning-strong-edge disabled:opacity-50",
 };
 
 const SIZE_CLASSES: Record<ButtonSize, string> = {

@@ -204,7 +204,7 @@ export function PonyMeadow({
                   className="absolute bottom-full left-1/2 mb-1 w-40 -translate-x-1/2"
                 >
                   <div className="rounded-2xl border-2 border-locked bg-white px-2.5 py-1.5 text-center shadow-sm">
-                    <p className="text-xs font-bold text-ink">{message}</p>
+                    <p className="text-sm font-bold text-ink">{message}</p>
                   </div>
                   <span
                     aria-hidden

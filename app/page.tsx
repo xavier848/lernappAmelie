@@ -224,7 +224,7 @@ function PruefungsKarte({
           Prüfungs-Training
         </span>
         <span className="text-sm font-semibold text-ink/80">{titel}</span>
-        <span className="text-xs font-semibold text-primary-dark">
+        <span className="text-sm font-semibold text-primary-dark">
           {geschafft} von {lektionen.length} Lektionen · immer frei
         </span>
       </span>
@@ -263,7 +263,7 @@ function LernflussKarte({ stand }: { stand: Lernstand }) {
       </p>
       <Link
         href="/faellig"
-        className="mt-3 flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl border-b-4 border-primary-dark bg-primary px-4 text-lg font-bold text-white select-none active:translate-y-1 active:border-b-0"
+        className="mt-3 flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl border-b-4 border-primary-strong-edge bg-primary-strong px-4 text-lg font-bold text-white select-none active:translate-y-1 active:border-b-0"
       >
         <span aria-hidden>🔁</span> Wiederholen
       </Link>
@@ -475,7 +475,7 @@ export default function StartPage() {
                   🧠
                 </span>
                 <span className="text-sm font-bold text-ink">Wiederholen</span>
-                <span className="text-xs font-semibold text-ink/60">
+                <span className="text-sm font-semibold text-ink/70">
                   {state.dueCount > 0
                     ? `${state.dueCount} ${state.dueCount === 1 ? "Übung" : "Übungen"} dran`
                     : "nichts fällig 👍"}
@@ -489,7 +489,7 @@ export default function StartPage() {
                   📝
                 </span>
                 <span className="text-sm font-bold text-ink">Probe-Prüfung</span>
-                <span className="text-xs font-semibold text-ink/60">
+                <span className="text-sm font-semibold text-ink/70">
                   Teste dich
                 </span>
               </Link>
@@ -536,7 +536,7 @@ export default function StartPage() {
                       completedLessonIds={completedLessonIds}
                     />
                     {allePausiert && (
-                      <p className="mt-1 px-1 text-xs font-semibold text-ink/60">
+                      <p className="mt-1 px-1 text-sm font-semibold text-ink/70">
                         Pause – noch {rest}{" "}
                         {rest === 1 ? "Lektion" : "Lektionen"}
                       </p>

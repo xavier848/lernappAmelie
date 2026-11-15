@@ -47,7 +47,7 @@ export function StreakCalendar({
         {WEEKDAYS.map((day) => (
           <span
             key={day}
-            className="flex h-8 items-center justify-center text-xs font-bold text-ink/60"
+            className="flex h-8 items-center justify-center text-sm font-bold text-ink/70"
           >
             {day}
           </span>
@@ -67,7 +67,7 @@ export function StreakCalendar({
               }`}
               className={cn(
                 "mx-auto flex h-10 w-10 items-center justify-center rounded-full text-sm font-semibold",
-                isLearned ? "bg-primary text-white" : "text-ink",
+                isLearned ? "bg-primary-strong text-white" : "text-ink",
                 isToday && "border-2 border-primary-dark"
               )}
             >

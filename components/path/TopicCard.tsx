@@ -38,7 +38,7 @@ export function TopicCard({
       ) : (
         finished && (
           <span
-            className="absolute top-2 right-2 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
+            className="absolute top-2 right-2 flex h-6 w-6 items-center justify-center rounded-full bg-primary-strong text-sm font-bold text-white"
             aria-hidden
           >
             ✓
@@ -51,7 +51,7 @@ export function TopicCard({
       <span className="text-sm leading-tight font-bold text-ink">
         {topic.title}
       </span>
-      <span className="text-xs font-semibold text-ink/60">
+      <span className="text-sm font-semibold text-ink/70">
         {completedCount}/{total}
       </span>
       <span

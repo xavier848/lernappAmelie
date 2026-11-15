@@ -27,7 +27,7 @@ function pct(x: number | null): string {
 /** Farbige Quote-Leiste: grün ab 80 %, türkis ab 60 %, sonst orange. */
 function AccuracyBar({ value }: { value: number | null }) {
   if (value === null) {
-    return <span className="text-sm text-ink/50">noch nichts geübt</span>;
+    return <span className="text-sm text-ink/70">noch nichts geübt</span>;
   }
   const percent = Math.round(value * 100);
   const color =
@@ -40,8 +40,8 @@ function AccuracyBar({ value }: { value: number | null }) {
           style={{ width: `${percent}%` }}
         />
       </span>
-      <span className="w-12 text-right text-sm font-bold text-ink">
-        {percent} %
+      <span className="w-24 text-right text-sm font-bold text-ink">
+        {percent} % richtig
       </span>
     </span>
   );
@@ -88,7 +88,7 @@ function DifficultRow({ ex }: { ex: DifficultExercise }) {
               {ex.givenAnswers.join(", ")}
             </p>
           ) : (
-            <p className="text-sm text-ink/50">
+            <p className="text-sm text-ink/70">
               Was genau angeklickt wurde, wird ab jetzt gespeichert – beim
               nächsten Mal siehst du es hier.
             </p>
@@ -189,24 +189,24 @@ export default function AmelieFortschrittPage() {
           {/* Ueberblick */}
           <div className="grid grid-cols-3 gap-3">
             <Card className="flex flex-col items-center py-4 text-center">
-              <span className="text-2xl font-extrabold text-primary">
+              <span className="text-2xl font-extrabold text-primary-dark">
                 {s.lessonsDone}
               </span>
-              <span className="text-xs text-ink/60">
+              <span className="text-sm text-ink/70">
                 von {s.lessonsTotal} Lektionen
               </span>
             </Card>
             <Card className="flex flex-col items-center py-4 text-center">
-              <span className="text-2xl font-extrabold text-primary">
+              <span className="text-2xl font-extrabold text-primary-dark">
                 {s.totalXp}
               </span>
-              <span className="text-xs text-ink/60">Punkte</span>
+              <span className="text-sm text-ink/70">Punkte</span>
             </Card>
             <Card className="flex flex-col items-center py-4 text-center">
-              <span className="text-2xl font-extrabold text-primary">
+              <span className="text-2xl font-extrabold text-primary-dark">
                 {pct(s.accuracy)}
               </span>
-              <span className="text-xs text-ink/60">richtig</span>
+              <span className="text-sm text-ink/70">richtig</span>
             </Card>
           </div>
 

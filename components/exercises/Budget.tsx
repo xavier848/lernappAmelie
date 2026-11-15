@@ -127,7 +127,7 @@ export function Budget({
               <span className="flex-1 text-sm font-semibold">
                 {category.label}
                 {isFixed && (
-                  <span className="block text-xs font-normal text-ink/60">
+                  <span className="block text-sm font-normal text-ink/70">
                     fester Betrag
                   </span>
                 )}
@@ -150,7 +150,7 @@ export function Budget({
                     type="button"
                     onClick={() => changeAmount(category.id, BUDGET_STEP_CENTS)}
                     aria-label={`Mehr für ${category.label}`}
-                    className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-2xl border-b-4 border-primary-dark bg-primary text-xl font-bold text-white active:translate-y-1 active:border-b-0"
+                    className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-2xl border-b-4 border-primary-strong-edge bg-primary-strong text-xl font-bold text-white active:translate-y-1 active:border-b-0"
                   >
                     +
                   </button>

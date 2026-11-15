@@ -35,11 +35,11 @@ export function CategoryCard({
               style={{ width: `${percent}%` }}
             />
           </span>
-          <span className="text-xs font-semibold text-ink/60">
+          <span className="text-sm font-semibold text-ink/70">
             {done}/{total}
           </span>
         </span>
-        <span className="mt-1 block text-xs text-ink/50">
+        <span className="mt-1 block text-sm text-ink/70">
           {category.topics.length}{" "}
           {category.topics.length === 1 ? "Thema" : "Themen"}
         </span>
