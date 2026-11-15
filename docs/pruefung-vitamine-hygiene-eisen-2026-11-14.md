@@ -97,11 +97,31 @@ Lektion 23 fängt das ab: „Im Alltag sagt man oft für alles „Lebensmittelve
 
 **Haare.** Auf dem Quiz ist „zusammengebunden“ richtig. Die ältere Lektion `hygiene-persoenliche-hygiene` verlangt zusätzlich eine Kopfbedeckung. Lektion 21 sagt beides.
 
-Eine Änderung der älteren Lektionen ist vorgeschlagen, aber noch nicht gemacht.
+Am 15.11. ist `hygiene-lebensmittelvergiftung-vermeiden` angeglichen worden (siehe unten). Die anderen älteren Lektionen bleiben, wie sie sind: Sie widersprechen dem Test nicht, oder ihr Thema ist nicht mehr veröffentlicht.
 
 ## Thema
 
-Vorschlag: Das Thema heißt bisher „Vitamine“. Weil jetzt auch Mineralstoffe und Hygiene dazugehören, könnte es „Vitamine, Mineralstoffe & Hygiene“ heißen. Auf der Startseiten-Kachel steht weiter „Vitamine“ (`kurzName` schneidet am Komma ab).
+Das Thema heißt seit dem 15.11. „Vitamine, Mineralstoffe & Hygiene“ statt „Vitamine“, denn Mineralstoffe und Hygiene gehören jetzt dazu. Der Name passt zu den anderen Prüfungen, zum Beispiel „Textilien: Baumwolle, Leinen & Seide“. Auf der Startseiten-Kachel steht weiter „Vitamine“ (`kurzName` schneidet am Komma ab), also so, wie Mama und Amelie den Test nennen.
+
+## Entscheidungen am 15.11.
+
+Xavier hat geschrieben: „Entscheide du alles“. Entschieden und umgesetzt (Datenbank und Repo, Prüfsummen vorher und nachher verglichen):
+
+**`hygiene/hygiene-lebensmittelvergiftung-vermeiden` an den Test angeglichen.** Der Titel bleibt, weil man im Alltag so sagt.
+- Einführung: Sie unterscheidet jetzt Vergiftung (Gift schon im Essen) und Infektion (Keime wie Salmonellen vermehren sich im Körper). Fleisch muss innen mindestens 72 Grad haben. Neu ist ein MERKE-Satz.
+- Übung 1: Die Antwort heißt „72 Grad“ statt „80 Grad“. Vorher stand in der Erklärung „Erst bei etwa 80 Grad im Kern sterben sie ab“, das stimmte so nicht. Die Erklärung nennt 80 Grad jetzt als Großküchen-Regel für alles, was gegart oder wieder erwärmt wird.
+- Übung 6: Sie fragt „Schützt das vor Keimen im Essen?“ statt „vor einer Vergiftung?“. Die Karte heißt jetzt „Fleisch auf 72 Grad durchgaren“.
+- Übung 7: „Auf 72 Grad durchgaren“. Die Übung hatte keine Erklärung, jetzt hat sie eine.
+- Keine Übung ist gelöscht oder neu angelegt.
+
+**Kohlrabi (Lektion 7).** Auf dem GGSD-Blatt steht beim Kochen „44 % Verlust“ und beim Dünsten „70 % Verlust“, beim Dämpfen aber „98 % bleibt erhalten“. Die App bleibt bei ihrer Lesart „so viel bleibt im Kohlrabi“. Dafür sprechen drei Gründe:
+- Die Säulenhöhen passen dazu.
+- Beim Dämpfen steht ausdrücklich „bleibt erhalten“.
+- Nach der anderen Lesart würde Dünsten mehr Vitamin C kosten als Kochen, und das ist fachlich unplausibel.
+
+Wie bei den anderen Fehlern auf den Blättern sagt die Lektion jetzt auch, was auf dem Blatt steht: in der Einführung und in der Erklärung von Übung 8.
+
+**Geänderte Dateien:** `content/topics.json`, `content/lessons/hygiene/hygiene-lebensmittelvergiftung-vermeiden.json`, `content/lessons/pruefung-vitamine/pruefung-vitamine-07-vitamin-c-verlust.json`.
 
 ## Nach dem Test
 
