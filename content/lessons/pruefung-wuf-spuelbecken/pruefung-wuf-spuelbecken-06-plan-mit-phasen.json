@@ -1,0 +1,291 @@
+{
+  "topic_slug": "pruefung-wuf-spuelbecken",
+  "slug": "pruefung-wuf-spuelbecken-06-plan-mit-phasen",
+  "title": "Spülbecken: Dein Plan mit Phasen",
+  "sort": 6,
+  "intro": "Auf deinem Plan „Wohnbereiche und Funktionsräume reinigen und pflegen“ hast du die Reinigung selbst geplant. Oben steht: Reinigung von Edelstahlspülbecken mit Unterschrank. Der Plan hat drei Spalten: Phase, Beschreibung und Material.\n\nDie Phasen der Reihe nach: Arbeitssicherheit, Arbeitshygiene, Vorbereitung, Durchführung, Nachbereitung. Phase heißt: ein Abschnitt der Arbeit.\n\nArbeitssicherheit heißt: Du schützt dich vor Unfällen und Verletzungen. Auf deinem Plan steht: Handschuhe tragen, Schürze tragen, lange Haare binden. Handschuhe schützen deine Haut vor den Reinigungsmitteln.\n\nArbeitshygiene heißt: Du arbeitest sauber, damit keine Keime übertragen werden. Auf deinem Plan steht: Hände waschen, Haare zusammenbinden, kein Schmuck.\n\nDie Haare stehen zweimal. Das passt: Gebundene Haare schützen dich, weil sie nirgends hängen bleiben. Und sie schützen vor Keimen, weil keine Haare auf die saubere Fläche fallen.\n\nVorbereitung: Arbeitsplatz vorbereiten, Eimer bereitstellen, die Sachen aus dem Unterschrank herausnehmen. Material: Mikrofasertuch, Trockentuch, Schwamm, Reinigungsmittel und Reinigungsstein. Für Kalk und starke Verschmutzungen: Löwen-Stein und Milizid.\n\nDurchführung: Reinigungsstein mit dem Reinigungsschwamm verwenden, die Edelstahlfläche reinigen, mit einem feuchten Mikrofasertuch abwischen, dann abtrocknen. Dann den Unterschrank mit Reinigungsmittel auswischen und trocknen.\n\nNachbereitung: Den Unterschrank einräumen, die Reinigungsmaterialien reinigen und aufräumen. Fertig!\n\nAuf dem Blatt „Grundreinigung“ heißen zwei Phasen anders. Die Vorbereitung heißt dort Vorarbeit. Die Nachbereitung heißt dort Nacharbeiten. Dort ist auch die Reihenfolge genauer: erst der Kalk, dann der Unterschrank, dann das Becken.\n\nMERKE: Arbeitssicherheit, Arbeitshygiene, Vorbereitung, Durchführung, Nachbereitung. Sicherheit schützt dich vor Unfällen. Hygiene schützt vor Keimen.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧩 Bringe die Phasen in die Reihenfolge von deinem Plan.",
+        "steps": [
+          {
+            "text": "Arbeitssicherheit"
+          },
+          {
+            "text": "Arbeitshygiene"
+          },
+          {
+            "text": "Vorbereitung"
+          },
+          {
+            "text": "Durchführung"
+          },
+          {
+            "text": "Nachbereitung"
+          }
+        ],
+        "explanation": "Frag dich: Was muss stimmen, bevor du überhaupt anfängst? Zuerst schützt du dich selbst und sorgst für Hygiene. Dann bereitest du vor, dann putzt du. Aufgeräumt wird ganz am Ende."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📋 Welche drei Spalten hat dein Plan?",
+        "options": [
+          {
+            "text": "Phase, Beschreibung, Material",
+            "correct": true
+          },
+          {
+            "text": "Arbeitsablauf, Begründung, Zeit"
+          },
+          {
+            "text": "Phase, Material, Kosten"
+          }
+        ],
+        "explanation": "Dein Plan hat die Spalten Phase, Beschreibung und Material. Arbeitsablauf und Begründung sind die Spalten vom Blatt „Grundreinigung“. Kosten stehen auf keinem der beiden Blätter."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Wofür steht die Phase? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Arbeitssicherheit"
+            },
+            "right": {
+              "text": "Schutz vor Unfällen und Verletzungen"
+            }
+          },
+          {
+            "left": {
+              "text": "Arbeitshygiene"
+            },
+            "right": {
+              "text": "Schutz vor Keimen"
+            }
+          },
+          {
+            "left": {
+              "text": "Vorbereitung"
+            },
+            "right": {
+              "text": "Alles bereitstellen und ausräumen"
+            }
+          },
+          {
+            "left": {
+              "text": "Durchführung"
+            },
+            "right": {
+              "text": "Die eigentliche Reinigung"
+            }
+          },
+          {
+            "left": {
+              "text": "Nachbereitung"
+            },
+            "right": {
+              "text": "Einräumen und aufräumen"
+            }
+          }
+        ],
+        "explanation": "Frag dich: Wen oder was schützt die Phase, und wann im Ablauf kommt sie? Sicherheit schützt dich, Hygiene schützt vor Keimen. Vor der Reinigung bereitest du vor, danach räumst du auf."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧯 Sicherheit oder Hygiene? Sortiere wie auf deinem Plan.",
+        "buckets": [
+          {
+            "id": "sicher",
+            "label": "Arbeitssicherheit",
+            "icon": "🦺"
+          },
+          {
+            "id": "hyg",
+            "label": "Arbeitshygiene",
+            "icon": "🧼"
+          }
+        ],
+        "items": [
+          {
+            "text": "Handschuhe tragen",
+            "bucket": "sicher"
+          },
+          {
+            "text": "Schürze tragen",
+            "bucket": "sicher"
+          },
+          {
+            "text": "Hände waschen",
+            "bucket": "hyg"
+          },
+          {
+            "text": "Kein Schmuck",
+            "bucket": "hyg"
+          }
+        ],
+        "explanation": "Frag dich: Schützt es dich vor Verletzungen und vor dem Reinigungsmittel? Dann ist es Arbeitssicherheit. Verhindert es, dass Keime übertragen werden? Dann ist es Arbeitshygiene."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💇 Die Haare stehen auf deinem Plan bei Sicherheit und bei Hygiene. Warum?",
+        "options": [
+          {
+            "text": "Gebundene Haare schützen dich und schützen vor Keimen",
+            "correct": true
+          },
+          {
+            "text": "Weil die Haare zur Durchführung gehören"
+          },
+          {
+            "text": "Weil die Schürze sonst schmutzig wird"
+          }
+        ],
+        "explanation": "Beides stimmt: Gebundene Haare bleiben nirgends hängen, das ist Sicherheit. Und es fallen keine Haare auf die saubere Fläche, das ist Hygiene."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📂 Vorbereitung, Durchführung oder Nachbereitung? Sortiere wie auf deinem Plan.",
+        "buckets": [
+          {
+            "id": "vor",
+            "label": "Vor­bereitung",
+            "icon": "📦"
+          },
+          {
+            "id": "durch",
+            "label": "Durch­führung",
+            "icon": "🧽"
+          },
+          {
+            "id": "nach",
+            "label": "Nach­bereitung",
+            "icon": "🧺"
+          }
+        ],
+        "items": [
+          {
+            "text": "Arbeitsplatz vorbereiten",
+            "bucket": "vor"
+          },
+          {
+            "text": "Eimer bereitstellen",
+            "bucket": "vor"
+          },
+          {
+            "text": "Sachen aus dem Unterschrank nehmen",
+            "bucket": "vor"
+          },
+          {
+            "text": "Reinigungsstein mit Schwamm verwenden",
+            "bucket": "durch"
+          },
+          {
+            "text": "Mit feuchtem Mikrofasertuch abwischen",
+            "bucket": "durch"
+          },
+          {
+            "text": "Unterschrank mit Reinigungsmittel auswischen",
+            "bucket": "durch"
+          },
+          {
+            "text": "Unterschrank einräumen",
+            "bucket": "nach"
+          },
+          {
+            "text": "Reinigungsmaterialien reinigen und aufräumen",
+            "bucket": "nach"
+          }
+        ],
+        "explanation": "Frag dich: Wird gerade geputzt? Dann ist es Durchführung. Machst du Platz und holst alles her? Dann ist es Vorbereitung. Räumst du wieder ein und auf? Dann ist es Nachbereitung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧴 Welches Material steht auf deinem Plan?",
+        "options": [
+          {
+            "text": "Mikrofasertuch, Trockentuch, Schwamm, Reinigungsmittel, Reinigungsstein",
+            "correct": true
+          },
+          {
+            "text": "Stahlwolle, Drahtbürste, Glasreiniger, Backofenspray"
+          },
+          {
+            "text": "Besen, Wischmopp, Leiter, Fensterleder, Staubwedel"
+          }
+        ],
+        "explanation": "Auf deinem Plan stehen Mikrofasertuch, Trockentuch, Schwamm, Reinigungsmittel und Reinigungsstein. Stahlwolle und Drahtbürste zerkratzen den Edelstahl. Sie gehören nie an die Spüle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦁 Für Kalk und starke Verschmutzungen stehen zwei Mittel auf deinem Plan. Welche?",
+        "options": [
+          {
+            "text": "Löwen-Stein und Milizid",
+            "correct": true
+          },
+          {
+            "text": "Spülmittel und Glasreiniger"
+          },
+          {
+            "text": "Möbelpolitur und Bodenpflege"
+          }
+        ],
+        "explanation": "Löwen-Stein ist ein Reinigungsstein. Milizid ist ein Kalklöser. Spülmittel ist für leichten Schmutz, Glasreiniger für Fenster und Spiegel."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🔄 Wie heißen Vorbereitung und Nachbereitung auf dem Blatt „Grundreinigung“?",
+        "options": [
+          {
+            "text": "Vorarbeit und Nacharbeiten",
+            "correct": true
+          },
+          {
+            "text": "Arbeitssicherheit und Kontrolle"
+          },
+          {
+            "text": "Durchführung und Begründung"
+          }
+        ],
+        "explanation": "Gleiche Phase, anderer Name: Vorbereitung = Vorarbeit, Nachbereitung = Nacharbeiten. Auf dem Blatt „Grundreinigung“ kommt danach noch die Kontrolle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧤 Wovor schützen dich die Handschuhe beim Reinigen?",
+        "options": [
+          {
+            "text": "Vor den Reinigungsmitteln auf der Haut",
+            "correct": true
+          },
+          {
+            "text": "Vor Kratzern im Edelstahl"
+          },
+          {
+            "text": "Vor kaltem Wasser im Eimer"
+          }
+        ],
+        "explanation": "Reinigungsmittel und Zitronensäure können die Haut reizen. Darum stehen die Handschuhe bei der Arbeitssicherheit. Kratzer im Edelstahl verhinderst du mit einem weichen Pad."
+      }
+    }
+  ]
+}

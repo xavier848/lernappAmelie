@@ -1,0 +1,277 @@
+{
+  "topic_slug": "pruefung-wuf-spuelbecken",
+  "slug": "pruefung-wuf-spuelbecken-01-mittel-und-geraete",
+  "title": "Spülbecken: Mittel und Geräte",
+  "sort": 1,
+  "intro": "Das Blatt ist aus dem Fach WuF. WuF heißt: Wohnbereiche und Funktionsräume. Funktionsräume sind Räume für bestimmte Arbeiten, zum Beispiel die Küche. Aus diesem Fach kommen auch die Blätter zu den Reinigungsarten.\n\nDas Blatt heißt „Reinigung und Pflege eines Edelstahlspülbeckens mit Unterschrank“. Es geht um die Grundreinigung. Grundreinigung heißt: sehr gründliche Reinigung. Ein Edelstahlspülbecken ist eine Spüle aus Edelstahl. Der Unterschrank ist der Schrank unter der Spüle.\n\nAuf dem Blatt stehen drei Reinigungs- und Pflegemittel. Das erste ist Spülmittel oder Allzweckreiniger. Damit machst du die Reinigungslösung. Reinigungslösung heißt: Wasser mit Reinigungsmittel. Auf dem Blatt heißt sie auch RM-Lösung.\n\nDas zweite ist der Entkalker, also Zitronensäure. Damit entfernst du Kalk. Das dritte ist ein Edelstahlreinigungs- und -pflegemittel. Damit reinigst und pflegst du den Edelstahl. Stattdessen kannst du einen Bio-Stein nehmen. Ein Bio-Stein ist ein Reinigungsstein.\n\nAuf deinem Plan stehen für Kalk und starke Verschmutzungen zwei Mittel. Der Löwen-Stein ist ein Reinigungsstein, so wie der Bio-Stein. Milizid ist ein Kalklöser.\n\nBei den Arbeitsgeräten stehen 2 bis 3 Mikrofasertücher. Auf diesem Blatt zeigt die Farbe, wofür du das Tuch nimmst. Gelb ist für grobe Verschmutzungen. Blau ist zum Nachpolieren. Nachpolieren heißt: zum Schluss blank reiben, damit es glänzt.\n\nFür den Bio-Stein nimmst du ein weißes Handpad oder einen gelben Schwamm. Ein Handpad ist ein flaches Reinigungskissen für die Hand. Das weiße Handpad ist sehr fein und zerkratzt den Edelstahl nicht.\n\nFür kleine Stellen gibt es eine Zahnbürste, Holzspieße und Wattestäbchen. Holzspieße und Wattestäbchen sind für die Öffnungen, also für kleine Löcher.\n\nDazu kommen ein Abfalleimer mit Kehrschaufel und Besen, ein Bodentuch und gegebenenfalls ein Knieschutz. Gegebenenfalls heißt: wenn es nötig ist. Bei großen, losen Verschmutzungen im Unterschrank nimmst du den Staubsauger oder einen Pinsel.\n\nFür die Sachen aus dem Unterschrank und für deine Arbeitsmittel kannst du einen Transportwagen nehmen.\n\nMERKE: Mittel: Spülmittel oder Allzweckreiniger, Zitronensäure gegen Kalk, Edelstahlreiniger oder Bio-Stein. Tücher: gelb für groben Schmutz, blau zum Nachpolieren. Für kleine Stellen: Zahnbürste, Holzspieße, Wattestäbchen.",
+  "exercises": [
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📂 Mittel oder Gerät? Sortiere wie auf dem Blatt.",
+        "buckets": [
+          {
+            "id": "mittel",
+            "label": "Reinigungs- und Pflegemittel",
+            "icon": "🧴"
+          },
+          {
+            "id": "geraet",
+            "label": "Arbeitsgeräte",
+            "icon": "🧽"
+          }
+        ],
+        "items": [
+          {
+            "text": "Spülmittel",
+            "bucket": "mittel"
+          },
+          {
+            "text": "Zitronensäure",
+            "bucket": "mittel"
+          },
+          {
+            "text": "Edelstahlpflegemittel",
+            "bucket": "mittel"
+          },
+          {
+            "text": "Bio-Stein",
+            "bucket": "mittel"
+          },
+          {
+            "text": "Mikrofasertuch",
+            "bucket": "geraet"
+          },
+          {
+            "text": "Weißes Handpad",
+            "bucket": "geraet"
+          },
+          {
+            "text": "Abfalleimer mit Kehrschaufel",
+            "bucket": "geraet"
+          },
+          {
+            "text": "Transportwagen",
+            "bucket": "geraet"
+          }
+        ],
+        "explanation": "Frag dich: Ist es ein Stoff, der den Schmutz löst oder pflegt? Dann ist es ein Mittel. Oder ist es etwas, mit dem du arbeitest? Dann ist es ein Gerät. Achtung: Der Bio-Stein ist ein Mittel. Das Handpad, mit dem du ihn aufträgst, ist ein Gerät."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍋 Welches Mittel ist auf dem Blatt der Entkalker?",
+        "options": [
+          {
+            "text": "Zitronensäure",
+            "correct": true
+          },
+          {
+            "text": "Allzweckreiniger"
+          },
+          {
+            "text": "Bio-Stein"
+          }
+        ],
+        "explanation": "Auf dem Blatt steht: Entkalker (Zitronensäure). Zitronensäure ist eine Säure und löst Kalk. Den Allzweckreiniger nimmst du für die Reinigungslösung. Der Bio-Stein reinigt und pflegt den Edelstahl."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welches Mittel nimmst du wofür? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Spülmittel oder Allzweckreiniger"
+            },
+            "right": {
+              "text": "Reinigungslösung im Eimer"
+            }
+          },
+          {
+            "left": {
+              "text": "Zitronensäure"
+            },
+            "right": {
+              "text": "Kalk entfernen"
+            }
+          },
+          {
+            "left": {
+              "text": "Edelstahlreiniger oder Bio-Stein"
+            },
+            "right": {
+              "text": "Edelstahl reinigen und pflegen"
+            }
+          }
+        ],
+        "explanation": "Frag dich: Was soll weg? Für den normalen Schmutz machst du eine Reinigungslösung. Gegen Kalk hilft eine Säure. Für den Edelstahl gibt es ein eigenes Mittel, das auch pflegt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎨 Auf diesem Blatt haben die Mikrofasertücher zwei Farben. Was stimmt?",
+        "options": [
+          {
+            "text": "Gelb für groben Schmutz, blau zum Nachpolieren",
+            "correct": true
+          },
+          {
+            "text": "Blau für groben Schmutz, gelb zum Nachpolieren"
+          },
+          {
+            "text": "Gelb für den Unterschrank, blau für das Becken"
+          }
+        ],
+        "explanation": "Auf dem Blatt steht: gelb für grobe Verschmutzungen, blau zum Nachpolieren. Achtung: Das ist nicht die Farbcodierung aus dem Bad. Bei dieser Aufgabe zeigt die Farbe, wofür du das Tuch nimmst. Das blaue Tuch bleibt sauber für den Glanz am Schluss."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🧰 Welches Gerät nimmst du wofür? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Weißes Handpad oder gelber Schwamm"
+            },
+            "right": {
+              "text": "Bio-Stein auftragen"
+            }
+          },
+          {
+            "left": {
+              "text": "Zahnbürste"
+            },
+            "right": {
+              "text": "Rillen und Kerben"
+            }
+          },
+          {
+            "left": {
+              "text": "Holzspieße und Wattestäbchen"
+            },
+            "right": {
+              "text": "Kleine Öffnungen"
+            }
+          },
+          {
+            "left": {
+              "text": "Staubsauger oder Pinsel"
+            },
+            "right": {
+              "text": "Lose Verschmutzungen im Unterschrank"
+            }
+          },
+          {
+            "left": {
+              "text": "Bodentuch"
+            },
+            "right": {
+              "text": "Fußboden"
+            }
+          }
+        ],
+        "explanation": "Frag dich: Wie groß ist die Stelle? Für Löcher passen nur dünne Holzspieße und Wattestäbchen. In Rillen kommst du mit den Borsten der Zahnbürste. Losen Schmutz holst du trocken heraus, bevor du nass wischst."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦁 Was ist der Löwen-Stein?",
+        "options": [
+          {
+            "text": "Ein Reinigungsstein, so wie der Bio-Stein",
+            "correct": true
+          },
+          {
+            "text": "Ein Kalklöser aus der Flasche"
+          },
+          {
+            "text": "Ein weiches Pad zum Nachpolieren"
+          }
+        ],
+        "explanation": "Auf deinem Plan steht: Löwen-Stein (Reinigungsstein). Er funktioniert wie der Bio-Stein: Du nimmst ihn mit einem feuchten Schwamm oder Handpad auf. Der Kalklöser aus der Flasche ist Milizid."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧪 Was ist Milizid?",
+        "options": [
+          {
+            "text": "Ein Kalklöser",
+            "correct": true
+          },
+          {
+            "text": "Ein Reinigungsstein"
+          },
+          {
+            "text": "Ein Pflegemittel für Holz"
+          }
+        ],
+        "explanation": "Auf deinem Plan steht: Milizid (Kalklöser), für Kalk und starke Verschmutzungen. Der Reinigungsstein ist der Löwen-Stein. Mit Holz hat diese Aufgabe nichts zu tun."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✋ Warum nimmst du für den Bio-Stein ein weißes Handpad?",
+        "options": [
+          {
+            "text": "Es ist sehr fein und zerkratzt den Edelstahl nicht",
+            "correct": true
+          },
+          {
+            "text": "Es ist grob und schleift den Kalk ab"
+          },
+          {
+            "text": "Es ist weiß, damit du den Kalk besser siehst"
+          }
+        ],
+        "explanation": "Edelstahl bekommt leicht Kratzer. Deshalb nimmst du ein feines Pad oder einen Schwamm. Grobe Pads, Stahlwolle oder Drahtbürsten zerkratzen die Oberfläche."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Wofür nimmst du laut Blatt den Transportwagen?",
+        "options": [
+          {
+            "text": "Für die Sachen aus dem Unterschrank und deine Arbeitsmittel",
+            "correct": true
+          },
+          {
+            "text": "Für den Müll aus den Abflusssieben"
+          },
+          {
+            "text": "Als Tritt, damit du oben besser hinkommst"
+          }
+        ],
+        "explanation": "Auf dem Blatt steht: Transportwagen für die Inhalte des Unterschrankes bzw. Reinigungs- und Arbeitsmittel. Für den Müll gibt es den Abfalleimer. Auf einen Wagen mit Rollen stellst du dich nie, er kann wegrollen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🦵 Wann brauchst du gegebenenfalls einen Knieschutz?",
+        "options": [
+          {
+            "text": "Wenn du lange vor dem Unterschrank kniest",
+            "correct": true
+          },
+          {
+            "text": "Wenn du mit Zitronensäure arbeitest"
+          },
+          {
+            "text": "Wenn du den Perlator abschraubst"
+          }
+        ],
+        "explanation": "Auf dem Blatt steht: ggf. Knieschutz. Den Unterschrank reinigst du meist auf den Knien. Der Knieschutz schont dabei deine Knie. Vor der Zitronensäure schützen dich Handschuhe."
+      }
+    }
+  ]
+}
