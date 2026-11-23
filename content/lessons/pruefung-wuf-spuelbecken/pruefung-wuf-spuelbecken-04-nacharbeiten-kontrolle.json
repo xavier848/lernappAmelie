@@ -1,9 +1,9 @@
 {
   "topic_slug": "pruefung-wuf-spuelbecken",
   "slug": "pruefung-wuf-spuelbecken-04-nacharbeiten-kontrolle",
-  "title": "Spülbecken: Nacharbeiten und Kontrolle",
+  "title": "Nacharbeiten und Kontrolle",
   "sort": 4,
-  "intro": "Nach der Durchführung kommen die Nacharbeiten. Den Unterschrank trocknest du gegebenenfalls noch einmal nach. Begründung: Qualitätssicherung. Qualitätssicherung heißt: Du sorgst dafür, dass die Arbeit gut wird.\n\nDen Fußboden reinigst du, wenn es nötig ist, und trocknest ihn nach. Begründung: Unfallvermeidung, damit niemand ausrutscht.\n\nArbeitsgeräte und Arbeitsmittel räumst du auf. Die Tücher gibst du zur Wäsche oder hängst sie auf. Begründung: Hygiene, so entstehen keine Stockflecken. Stockflecken sind Schimmelflecken in feuchtem Stoff.\n\nZum Schluss kommt die Kontrolle. Du fragst dich: Ist alles richtig eingeräumt, ist der Boden trocken, und sind die Tücher aufgehängt oder in der Wäsche?\n\nDie Begründung für die Kontrolle: Kundenorientierung und Qualitätssicherung. Kundenorientierung heißt: Du arbeitest so, dass der Kunde zufrieden ist. Der Kunde ist die Person, für die du putzt.\n\nMERKE: Die vier Teile vom Arbeitsablauf: Vorarbeit, Durchführung, Nacharbeiten, Kontrolle. Nacharbeiten: nachtrocknen, Boden trocken, aufräumen, Tücher zur Wäsche oder aufhängen. Kontrolle: Kundenorientierung und Qualitätssicherung.",
+  "intro": "Nach der Durchführung kommen die Nacharbeiten. Achtung: Das Aus- und Einräumen vom Unterschrank gehört auf dem Blatt noch zur Durchführung. Den Unterschrank trocknest du gegebenenfalls noch einmal nach. Begründung: Qualitätssicherung. Qualitätssicherung heißt: Du sorgst dafür, dass die Arbeit gut wird.\n\nDen Fußboden reinigst du, wenn es nötig ist, und trocknest ihn nach. Begründung: Unfallvermeidung, damit niemand ausrutscht.\n\nArbeitsgeräte und Arbeitsmittel räumst du auf. Die Tücher gibst du zur Wäsche oder hängst sie auf. Begründung: Hygiene, so entstehen keine Stockflecken. Stockflecken sind Schimmelflecken in feuchtem Stoff.\n\nZum Schluss kommt die Kontrolle. Du fragst dich: Ist alles richtig eingeräumt, ist der Boden trocken, und sind die Tücher aufgehängt oder in der Wäsche?\n\nDie Begründung für die Kontrolle: Kundenorientierung und Qualitätssicherung. Kundenorientierung heißt: Du arbeitest so, dass der Kunde zufrieden ist. Der Kunde ist die Person, für die du putzt.\n\nMERKE: Die vier Teile vom Arbeitsablauf: Vorarbeit, Durchführung, Nacharbeiten, Kontrolle. Nacharbeiten: nachtrocknen, Boden trocken, aufräumen, Tücher zur Wäsche oder aufhängen. Kontrolle: Kundenorientierung und Qualitätssicherung.",
   "exercises": [
     {
       "type": "steps_order",
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "explanation": "Frag dich: Was passiert, wenn du es vergisst? Auf einem nassen Boden rutscht jemand aus. Feuchte Tücher werden schimmelig. Ein nasser Schrank ist kein gutes Ergebnis."
+        "explanation": "Frag dich: Was passiert, wenn du den Schritt vergisst? Droht ein Unfall, ist es Unfallvermeidung. Wachsen Schimmel oder Keime, ist es Hygiene. Ist nur das Ergebnis schlechter, ist es Qualitätssicherung."
       }
     },
     {
@@ -81,8 +81,13 @@
     {
       "type": "sort_buckets",
       "data": {
-        "prompt": "📂 Nacharbeit oder Kontrolle? Sortiere.",
+        "prompt": "📂 Durchführung, Nacharbeit oder Kontrolle? Sortiere wie auf dem Blatt.",
         "buckets": [
+          {
+            "id": "durch",
+            "label": "Durchführung",
+            "icon": "🧽"
+          },
           {
             "id": "nach",
             "label": "Nacharbeiten",
@@ -96,15 +101,19 @@
         ],
         "items": [
           {
+            "text": "Unterschrank ausräumen",
+            "bucket": "durch"
+          },
+          {
+            "text": "Unterschrank kontrollieren und einräumen",
+            "bucket": "durch"
+          },
+          {
             "text": "Unterschrank noch einmal nachtrocknen",
             "bucket": "nach"
           },
           {
             "text": "Fußboden reinigen und nachtrocknen",
-            "bucket": "nach"
-          },
-          {
-            "text": "Arbeitsgeräte und Arbeitsmittel aufräumen",
             "bucket": "nach"
           },
           {
@@ -124,7 +133,7 @@
             "bucket": "kontrolle"
           }
         ],
-        "explanation": "Frag dich: Machst du etwas, oder prüfst du nur? Bei den Nacharbeiten tust du etwas. Bei der Kontrolle schaust du nach, ob alles erledigt ist. Darum stehen dort Fragen."
+        "explanation": "Frag dich: Ist das Becken schon fertig? Alles davor ist Durchführung, auch das Aus- und Einräumen vom Unterschrank. Danach kommen die Nacharbeiten. Bei der Kontrolle prüfst du nur, darum stehen dort Fragen."
       }
     },
     {
@@ -187,7 +196,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🛒 Was gehört zur Vorarbeit?",
+        "prompt": "🛒 Was gehört laut Blatt zur Vorarbeit?",
         "options": [
           {
             "text": "Arbeitsmittel bereitstellen und den Transportwagen beschicken",
@@ -197,10 +206,10 @@
             "text": "Den Perlator abschrauben und in Zitronensäure legen"
           },
           {
-            "text": "Die Tücher zur Wäsche geben"
+            "text": "Den Unterschrank ausräumen"
           }
         ],
-        "explanation": "Vorarbeit heißt: Du bereitest alles vor, bevor du putzt. Der Perlator gehört schon zur Durchführung. Die Tücher kommen bei den Nacharbeiten zur Wäsche."
+        "explanation": "Vorarbeit heißt: Du stellst alles bereit, bevor du putzt. Der Perlator gehört schon zur Durchführung. Das Ausräumen vom Unterschrank auch, so steht es auf dem Blatt. Auf deinem Plan steht es bei der Vorbereitung."
       }
     },
     {
@@ -229,7 +238,7 @@
               "text": "Nacharbeiten"
             },
             "right": {
-              "text": "Tücher aufhängen"
+              "text": "Arbeitsgeräte und Arbeitsmittel aufräumen"
             }
           },
           {

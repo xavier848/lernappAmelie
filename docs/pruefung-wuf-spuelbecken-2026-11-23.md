@@ -17,7 +17,7 @@ Mama hat am 23.11. vier Fotos geschickt. Xavier: „Ein neues Prüfungsfach, das
 
 | # | Lektion | Quelle |
 |---|---|---|
-| 1 | Mittel und Geräte | A1: Mittel und Geräte, B2: Löwen-Stein und Milizid |
+| 1 | Mittel und Geräte | A1: Mittel und Geräte, Grundreinigung; B2: Löwen-Stein und Milizid |
 | 2 | Vorarbeit, Kalk und Unterschrank | A1 und A2: Vorarbeit, Perlator, Kalk, Unterschrank |
 | 3 | Das Becken reinigen | A2: Spülbecken |
 | 4 | Nacharbeiten und Kontrolle | A2 |
@@ -35,14 +35,28 @@ Mama hat am 23.11. vier Fotos geschickt. Xavier: „Ein neues Prüfungsfach, das
    - Teile vorreinigen → Qualitätssicherung, Hygiene
    - Mittel auf ein feuchtes Tuch → vermeidet Streifenbildung
    - Unterschrank kontrollieren und einräumen → Abfluss freihalten
+   - Unterschrank von oben nach unten auswischen, nachtrocknen → streifenfreier Glanz, Qualitätssicherung
+   - Reinigungslösung ggf. wechseln → rationelles Arbeiten
    - Nacharbeiten und Kontrolle, dort ist die Zuordnung eindeutig
 
-   „Rationelles Arbeiten“ und „Streifenfreier Glanz“ sind keinem bestimmten Schritt zugeordnet. „Rationell“ übt die App als Wort mit dem Beispiel „Einwirkzeit nutzen“. Das kennt Amelie schon aus den Bad- und Ferienwohnungs-Lektionen.
-2. **Farben der Mikrofasertücher.** Auf Blatt A heißt es: gelb für grobe Verschmutzungen, blau zum Nachpolieren. Die ältere Lektion „Farbcodierung“ (`badezimmer-farbcodierung`) ordnet die Farben dagegen Bereichen zu. Dort bekommt die Küchenspüle ein grünes Tuch. Die neue Lektion sagt deshalb ausdrücklich: „Das ist nicht die Farbcodierung aus dem Bad. Bei dieser Aufgabe zeigt die Farbe, wofür du das Tuch nimmst.“ Die alte Lektion bleibt unverändert.
-3. **Reihenfolge.** Amelies Plan (B) reinigt erst das Becken und dann den Unterschrank. Blatt A macht es anders: erst Perlator und Kalk mit Zitronensäure, dann den Unterschrank, während die Säure einwirkt, dann das Becken. Die Reihenfolge-Übungen folgen Blatt A. Lektion 6 nennt den Unterschied im Lernzettel.
+   „Rationell“ übt die App zusätzlich als Wort, mit dem Beispiel „Einwirkzeit nutzen“. Das kennt Amelie schon aus den Bad- und Ferienwohnungs-Lektionen.
+2. **Farben der Mikrofasertücher.** Auf Blatt A heißt es: gelb für grobe Verschmutzungen, blau zum Nachpolieren. Die älteren Lektionen ordnen die Farben dagegen Bereichen zu: In `badezimmer-farbcodierung` bekommt die Küchenspüle ein grünes Tuch, ebenso in `kueche-sauber-und-sicher`. Die neue Lektion sagt deshalb ausdrücklich: „Sonst zeigt die Tuchfarbe, wo du putzt. Dann wäre die Spüle grün. Auf diesem Blatt zeigt die Farbe, wofür du das Tuch nimmst. Im Test zum Spülbecken gilt das Blatt.“ Eine Übung hat „Grün, weil die Spüle zur Küche gehört“ als falsche Antwort. Die alten Lektionen bleiben unverändert.
+3. **Reihenfolge.** Amelies Plan (B) reinigt erst das Becken und dann den Unterschrank. Blatt A macht es anders: erst Perlator und Kalk mit Zitronensäure, dann den Unterschrank, während die Säure einwirkt, dann das Becken. Die Reihenfolge-Übungen folgen Blatt A. Lektion 6 nennt den Unterschied und den Grund (Einwirkzeit) im Lernzettel und sagt: „Dein Plan ist nicht falsch.“
+3a. **Phasen.** Auf Blatt A gehören „Unterschrank ausräumen“ und „Unterschrank kontrollieren und einräumen“ zur **Durchführung**. Zur Vorarbeit gehören dort nur „alles bereitstellen“ und „Transportwagen beschicken“. Auf Amelies Plan (B) steht das Ausräumen bei der Vorbereitung und das Einräumen bei der Nachbereitung. Die App sagt deshalb nicht einfach „Vorbereitung = Vorarbeit“, sondern nennt den Unterschied (Lektion 2, 4 und 6). Die Sortier-Übung in Lektion 4 übt die Phasen von Blatt A mit drei Körben (Durchführung, Nacharbeiten, Kontrolle). Die Sortier-Übung in Lektion 6 übt Amelies Plan und sagt das auch im Auftrag („wie auf deinem Plan“).
 4. **Haare zusammenbinden** steht auf Amelies Plan bei Arbeitssicherheit („Haare lange binden“) und bei Arbeitshygiene. Lektion 6 erklärt, warum es zu beiden passt. Die Sortier-Übung „Sicherheit oder Hygiene“ nimmt nur Punkte, die auf dem Plan einmal stehen.
 5. **Tippfehler der Blätter** sind in der App verbessert: Holzspieße (Blatt: „Holzstieße“), Scharniere („Schaniere“), Abflusssiebe („Abflußsieben“), nachtrocknen („nachtrocken“), Mikrofasertuch („Mircofasertuch“).
 6. **Weißes Handpad.** Das Blatt sagt nur „weißes Handpad bzw. gelben Schwamm für Biostein“. Die App ergänzt, dass das weiße Pad sehr fein ist und den Edelstahl nicht zerkratzt. Das passt zur Lektion „Materialien und ihre Pflege“: Edelstahl bekommt leicht Kratzer.
+
+## Prüfung der Lektionen
+
+Eine unabhängige Prüfung hat die Lektionen mit den vier Fotos verglichen. Sie hat keinen falschen Fakt gefunden. Gemeldet hat sie 2 echte Fehler und mehrere Verbesserungen. Alles ist eingearbeitet:
+
+- **Phasen von Blatt A** (siehe 3a): Das war ein echter Fehler. Ohne die Änderung hätte die App das Ausräumen als Vorarbeit gelehrt.
+- **Mehrdeutige Reihenfolge** in „Das Becken, Teil 2“: „Teile nachspülen“ und „Wasser ablassen“ gingen logisch auch andersherum. Die Übung fragt jetzt nach der Reihenfolge vom Blatt, und die Erklärung gibt eine Regel dazu.
+- **Fehlende Begründungen** im Lernzettel und als Übung: streifenfreier Glanz und Qualitätssicherung beim Auswischen des Unterschranks, rationelles Arbeiten beim Wechseln der Reinigungslösung.
+- **Erklärungen**: Sie nennen jetzt eine Regel, statt die Lösung aufzuzählen. Dazu kommt eine Regel für die Paare, bei denen man raten musste (Perlator vor Kalk, innen vor außen, Sicherheit vor Hygiene).
+- **Ratbare Antworten**: Die richtige Antwort war oft die längste oder ein Emoji hat sie verraten (🦁 beim Löwen-Stein). Manche falschen Antworten waren absurd und sind jetzt ersetzt.
+- **Abdeckung**: Neu abgefragt werden „RM-Lösung“, Kehrschaufel und Besen sowie Grundreinigung als Reinigungsart. Dafür gibt es eine Brücke zu `pruefung-reinigungsarten`.
 
 ## Nach der Prüfung
 
