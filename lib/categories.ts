@@ -89,6 +89,7 @@ export const CATEGORIES: Category[] = [
     icon: "🦺",
     topicSlugs: [
       "arbeitssicherheit",
+      "jugendarbeitsschutz",
       "abfall-nachhaltigkeit",
       "arbeitsorganisation",
       "kommunikation-beruf",
