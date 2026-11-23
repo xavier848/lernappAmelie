@@ -100,3 +100,13 @@ Die Lektionen sind einmal unabhängig gegen die Blätter und gegen den Gesetzest
 ## Nach der Prüfung
 
 Das Thema im Admin-Bereich auf „nicht veröffentlicht“ stellen. Dann verschwindet seine Karte im Prüfungs-Training.
+
+## Nach der Prüfung: normales Thema (23.11.2026)
+
+Mama am 23.11.: „das Jugendarbeitsschutzgesetz kannst du von der Prüfungslektion rausnehmen und bitte einfach nur in der App lassen.“
+
+- Das Thema heißt jetzt `jugendarbeitsschutz` statt `pruefung-jugendarbeitsschutz`. Es steht im Bereich „Arbeit & Sicherheit“ (`lib/categories.ts`), sort 235.
+- Die 14 Lektionen heißen `jugendarbeitsschutz-01-…` bis `-14-…`. In der Datenbank wurden Thema und Lektionen nur umbenannt. Die IDs bleiben gleich, Amelies Fortschritt, Sterne und Antworten bleiben also erhalten.
+- Ab jetzt gilt der normale Lernfluss: Die Lektionen sind der Reihe nach freigeschaltet, nach 3 Lektionen am Stück macht das Thema Pause, und es gibt kein eigenes „Test üben“ mehr. Die geschafften Prüfungs-Lektionen stehen nicht im Lernfluss-Protokoll, sie lösen also keine Pause und keine Wiederholungen aus.
+- Lektion 1 und 8 sprechen nicht mehr von der Schulaufgabe am 17.11.
+
