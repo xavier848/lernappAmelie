@@ -1,0 +1,276 @@
+{
+  "topic_slug": "pruefung-wuf-spuelbecken",
+  "slug": "pruefung-wuf-spuelbecken-04-nacharbeiten-kontrolle",
+  "title": "Nacharbeiten und Kontrolle",
+  "sort": 4,
+  "intro": "Nach der Durchführung kommen die Nacharbeiten. Achtung: Das Aus- und Einräumen vom Unterschrank gehört auf dem Blatt noch zur Durchführung. Den Unterschrank trocknest du gegebenenfalls noch einmal nach. Begründung: Qualitätssicherung. Qualitätssicherung heißt: Du sorgst dafür, dass die Arbeit gut wird.\n\nDen Fußboden reinigst du, wenn es nötig ist, und trocknest ihn nach. Begründung: Unfallvermeidung, damit niemand ausrutscht.\n\nArbeitsgeräte und Arbeitsmittel räumst du auf. Die Tücher gibst du zur Wäsche oder hängst sie auf. Begründung: Hygiene, so entstehen keine Stockflecken. Stockflecken sind Schimmelflecken in feuchtem Stoff.\n\nZum Schluss kommt die Kontrolle. Du fragst dich: Ist alles richtig eingeräumt, ist der Boden trocken, und sind die Tücher aufgehängt oder in der Wäsche?\n\nDie Begründung für die Kontrolle: Kundenorientierung und Qualitätssicherung. Kundenorientierung heißt: Du arbeitest so, dass der Kunde zufrieden ist. Der Kunde ist die Person, für die du putzt.\n\nMERKE: Die vier Teile vom Arbeitsablauf: Vorarbeit, Durchführung, Nacharbeiten, Kontrolle. Nacharbeiten: nachtrocknen, Boden trocken, aufräumen, Tücher zur Wäsche oder aufhängen. Kontrolle: Kundenorientierung und Qualitätssicherung.",
+  "exercises": [
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🧩 Bringe die vier Teile vom Arbeitsablauf in die richtige Reihenfolge.",
+        "steps": [
+          {
+            "text": "Vorarbeit"
+          },
+          {
+            "text": "Durchführung"
+          },
+          {
+            "text": "Nacharbeiten"
+          },
+          {
+            "text": "Kontrolle"
+          }
+        ],
+        "explanation": "Frag dich: Was kommt vor der Arbeit, was danach? Vor der Arbeit legst du alles bereit. Nach der Arbeit räumst du auf. Ganz am Ende prüfst du, ob alles stimmt."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welche Begründung gehört zu welcher Nacharbeit? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Unterschrank noch einmal nachtrocknen"
+            },
+            "right": {
+              "text": "Qualitätssicherung"
+            }
+          },
+          {
+            "left": {
+              "text": "Fußboden reinigen und nachtrocknen"
+            },
+            "right": {
+              "text": "Unfallvermeidung durch Ausrutschen"
+            }
+          },
+          {
+            "left": {
+              "text": "Tücher zur Wäsche geben oder aufhängen"
+            },
+            "right": {
+              "text": "Hygiene, keine Stockflecken"
+            }
+          }
+        ],
+        "explanation": "Frag dich: Was passiert, wenn du den Schritt vergisst? Droht ein Unfall, ist es Unfallvermeidung. Wachsen Schimmel oder Keime, ist es Hygiene. Ist nur das Ergebnis schlechter, ist es Qualitätssicherung."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧫 Was sind Stockflecken?",
+        "options": [
+          {
+            "text": "Schimmelflecken in feuchtem Stoff",
+            "correct": true
+          },
+          {
+            "text": "Kalkflecken am Wasserhahn"
+          },
+          {
+            "text": "Kratzer im Edelstahl"
+          }
+        ],
+        "explanation": "Bleiben Tücher nass liegen, wächst Schimmel. Das gibt Stockflecken. Deshalb gibst du die Tücher zur Wäsche oder hängst sie zum Trocknen auf."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "📂 Durchführung, Nacharbeit oder Kontrolle? Sortiere wie auf dem Blatt.",
+        "buckets": [
+          {
+            "id": "durch",
+            "label": "Durchführung",
+            "icon": "🧽"
+          },
+          {
+            "id": "nach",
+            "label": "Nacharbeiten",
+            "icon": "🧹"
+          },
+          {
+            "id": "kontrolle",
+            "label": "Kontrolle",
+            "icon": "✅"
+          }
+        ],
+        "items": [
+          {
+            "text": "Unterschrank ausräumen",
+            "bucket": "durch"
+          },
+          {
+            "text": "Unterschrank kontrollieren und einräumen",
+            "bucket": "durch"
+          },
+          {
+            "text": "Unterschrank noch einmal nachtrocknen",
+            "bucket": "nach"
+          },
+          {
+            "text": "Fußboden reinigen und nachtrocknen",
+            "bucket": "nach"
+          },
+          {
+            "text": "Tücher zur Wäsche geben",
+            "bucket": "nach"
+          },
+          {
+            "text": "Alles richtig eingeräumt?",
+            "bucket": "kontrolle"
+          },
+          {
+            "text": "Ist der Boden trocken?",
+            "bucket": "kontrolle"
+          },
+          {
+            "text": "Tücher aufgehängt oder in der Wäsche?",
+            "bucket": "kontrolle"
+          }
+        ],
+        "explanation": "Frag dich: Ist das Becken schon fertig? Alles davor ist Durchführung, auch das Aus- und Einräumen vom Unterschrank. Danach kommen die Nacharbeiten. Bei der Kontrolle prüfst du nur, darum stehen dort Fragen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "✅ Welche Begründungen stehen bei der Kontrolle?",
+        "options": [
+          {
+            "text": "Kundenorientierung und Qualitätssicherung",
+            "correct": true
+          },
+          {
+            "text": "Zeitsparendes und kräfteschonendes Arbeiten"
+          },
+          {
+            "text": "Entkalkung und besserer Wasserdurchfluss"
+          }
+        ],
+        "explanation": "Bei der Kontrolle stehen zwei Begründungen: Kundenorientierung und Qualitätssicherung. Zeitsparend und kräfteschonend gehört zur Vorarbeit. Entkalkung gehört zum Perlator."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "😊 Was heißt Kundenorientierung?",
+        "options": [
+          {
+            "text": "Du arbeitest so, dass der Kunde zufrieden ist",
+            "correct": true
+          },
+          {
+            "text": "Du fragst den Kunden, ob er selbst putzt"
+          },
+          {
+            "text": "Du putzt nur, wenn der Kunde zuschaut"
+          }
+        ],
+        "explanation": "Der Kunde ist die Person, für die du putzt. Bei der Kontrolle schaust du mit seinen Augen: Ist alles sauber, trocken und ordentlich?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💡 Was heißt Qualitätssicherung?",
+        "options": [
+          {
+            "text": "Du sorgst dafür, dass die Arbeit gut wird",
+            "correct": true
+          },
+          {
+            "text": "Du arbeitest möglichst schnell"
+          },
+          {
+            "text": "Du nimmst möglichst teure Mittel"
+          }
+        ],
+        "explanation": "Qualität heißt hier: Die Arbeit ist gut und vollständig. Schnell oder teuer heißt nicht gut. Darum trocknest du nach und kontrollierst am Schluss."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🛒 Was gehört laut Blatt zur Vorarbeit?",
+        "options": [
+          {
+            "text": "Arbeitsmittel bereitstellen und den Transportwagen beschicken",
+            "correct": true
+          },
+          {
+            "text": "Den Perlator abschrauben und in Zitronensäure legen"
+          },
+          {
+            "text": "Den Unterschrank ausräumen"
+          }
+        ],
+        "explanation": "Vorarbeit heißt: Du stellst alles bereit, bevor du putzt. Der Perlator gehört schon zur Durchführung. Das Ausräumen vom Unterschrank auch, so steht es auf dem Blatt. Auf deinem Plan steht es bei der Vorbereitung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔗 Welcher Schritt gehört zu welchem Teil? Verbinde.",
+        "pairs": [
+          {
+            "left": {
+              "text": "Vorarbeit"
+            },
+            "right": {
+              "text": "Transportwagen beschicken"
+            }
+          },
+          {
+            "left": {
+              "text": "Durchführung"
+            },
+            "right": {
+              "text": "Perlator abschrauben"
+            }
+          },
+          {
+            "left": {
+              "text": "Nacharbeiten"
+            },
+            "right": {
+              "text": "Arbeitsgeräte und Arbeitsmittel aufräumen"
+            }
+          },
+          {
+            "left": {
+              "text": "Kontrolle"
+            },
+            "right": {
+              "text": "Ist der Boden trocken?"
+            }
+          }
+        ],
+        "explanation": "Frag dich: Wann im Ablauf passiert das? Vorher bereitest du vor, dann putzt du, danach räumst du auf. Eine Frage steht immer bei der Kontrolle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🧺 Wohin kommen die benutzten Tücher?",
+        "options": [
+          {
+            "text": "Zur Wäsche, oder du hängst sie zum Trocknen auf",
+            "correct": true
+          },
+          {
+            "text": "Nass zurück in den Unterschrank"
+          },
+          {
+            "text": "Zusammengelegt in den leeren Eimer"
+          }
+        ],
+        "explanation": "Auf dem Blatt steht: Tücher zur Wäsche geben oder aufhängen. Nasse Tücher im Schrank oder im Eimer bekommen Stockflecken."
+      }
+    }
+  ]
+}
