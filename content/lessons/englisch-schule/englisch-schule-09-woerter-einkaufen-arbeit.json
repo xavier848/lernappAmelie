@@ -44,7 +44,7 @@
             }
           }
         ],
-        "explanation": "Workplace heißt Arbeitsplatz. Health heißt Gesundheit, safety heißt Sicherheit. Colleagues sind die Kollegen, mit denen du arbeitest."
+        "explanation": "Tipp: In workplace steckt work, also Arbeit. Safe heißt sicher. Ein colleague arbeitet mit dir zusammen."
       }
     },
     {
@@ -165,11 +165,11 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🩹 Ein Kind hat einen kleinen Schnitt im Finger. Was brauchst du?",
+        "prompt": "🤕 Ein Kind hat einen kleinen Schnitt im Finger. Was brauchst du?",
         "tts_lang": "en-GB",
         "options": [
           {
-            "text": "a band-aid",
+            "text": "a plaster",
             "correct": true
           },
           {
@@ -182,7 +182,7 @@
             "text": "a cashier"
           }
         ],
-        "explanation": "Für einen kleinen Schnitt reicht ein Pflaster: band-aid, in England plaster. In die emergency room, die Notaufnahme, gehst du nur bei schweren Verletzungen."
+        "explanation": "Für einen kleinen Schnitt reicht ein Pflaster. In England heißt es plaster, in Amerika band-aid wie auf deinem Blatt. In die emergency room, die Notaufnahme, gehst du nur bei schweren Verletzungen."
       }
     },
     {
@@ -221,7 +221,7 @@
             "bucket": "shop"
           },
           {
-            "text": "hospital",
+            "text": "band-aid",
             "bucket": "health"
           },
           {
@@ -241,7 +241,7 @@
             "bucket": "work"
           }
         ],
-        "explanation": "Frag dich: Hat es mit Kaufen und Bezahlen im Laden zu tun? Dann Shopping. Geht es um Verletzungen und Hilfe? Dann Health & Safety. Geht es um den Ort oder den Lohn bei der Arbeit? Dann Workplace."
+        "explanation": "Frag dich: Hat es mit Kaufen und Bezahlen im Laden zu tun? Dann Shopping. Hilft es bei einer Verletzung? Dann Health & Safety. Geht es um den Arbeitsort oder den Lohn? Dann Workplace."
       }
     },
     {
@@ -283,10 +283,10 @@
           },
           {
             "left": {
-              "text": "career ladder"
+              "text": "cover letter"
             },
             "right": {
-              "text": "Karriereleiter"
+              "text": "Anschreiben"
             }
           },
           {
@@ -314,13 +314,13 @@
             }
           }
         ],
-        "explanation": "CV kommt aus dem Latein und heißt Lebenslauf. In Amerika sagt man auch résumé. Vacation ist amerikanisch, in England sagt man holiday. Fire heißt hier: jemanden rauswerfen. Job loss heißt: die Arbeit verlieren."
+        "explanation": "Tipp: Zu einer Bewerbung gehören zwei Papiere, und letter heißt Brief. In Amerika sagt man für den CV auch résumé. Vacation ist amerikanisch, in England sagt man holiday. Fire heißt hier: jemanden rauswerfen. Job loss heißt: die Arbeit verlieren."
       }
     },
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🤝 Was heißt: I get along with my colleagues?",
+        "prompt": "💬 Was heißt: I get along with my colleagues?",
         "tts_lang": "en-GB",
         "options": [
           {
@@ -343,7 +343,7 @@
     {
       "type": "multiple_choice",
       "data": {
-        "prompt": "🏥 Was ist ein hospital?",
+        "prompt": "❓ Was ist ein hospital?",
         "tts_lang": "en-GB",
         "options": [
           {
