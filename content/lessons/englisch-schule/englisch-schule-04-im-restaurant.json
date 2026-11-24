@@ -1,0 +1,327 @@
+{
+  "topic_slug": "englisch-schule",
+  "slug": "englisch-schule-04-im-restaurant",
+  "title": "Im Restaurant: der gedeckte Tisch",
+  "sort": 4,
+  "intro": "🍽️ Auf dem Blatt „At the Restaurant“ siehst du ein Foto von einem gedeckten Tisch. Du hast alle zehn Dinge richtig beschriftet. Hier sind sie noch einmal:\n\n> table = der Tisch\n\n> chair = der Stuhl\n\n> plate = der Teller\n\n> utensils = das Besteck\n\n> napkin = die Serviette\n\n> water glass = das Wasserglas\n\n> wine glass = das Weinglas\n\n> salt and pepper = Salz und Pfeffer\n\n> vase = die Vase\n\n> flowers = die Blumen\n\nDas Weinglas hat einen langen Stiel. Das Wasserglas ist niedrig und hat keinen Stiel.\n\nMERKE: Utensils ist das ganze Besteck: knife (Messer), fork (Gabel) und spoon (Löffel). In England sagt man dazu meistens cutlery.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was heißt das auf Deutsch?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "table"
+            },
+            "right": {
+              "text": "Tisch"
+            }
+          },
+          {
+            "left": {
+              "text": "chair"
+            },
+            "right": {
+              "text": "Stuhl"
+            }
+          },
+          {
+            "left": {
+              "text": "plate"
+            },
+            "right": {
+              "text": "Teller"
+            }
+          },
+          {
+            "left": {
+              "text": "napkin"
+            },
+            "right": {
+              "text": "Serviette"
+            }
+          },
+          {
+            "left": {
+              "text": "vase"
+            },
+            "right": {
+              "text": "Vase"
+            }
+          }
+        ],
+        "explanation": "Manche Wörter klingen fast wie im Deutschen: vase und Vase. Andere musst du lernen: plate ist der Teller, napkin die Serviette."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Und diese fünf Wörter?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "utensils"
+            },
+            "right": {
+              "text": "Besteck"
+            }
+          },
+          {
+            "left": {
+              "text": "water glass"
+            },
+            "right": {
+              "text": "Wasserglas"
+            }
+          },
+          {
+            "left": {
+              "text": "wine glass"
+            },
+            "right": {
+              "text": "Weinglas"
+            }
+          },
+          {
+            "left": {
+              "text": "salt and pepper"
+            },
+            "right": {
+              "text": "Salz und Pfeffer"
+            }
+          },
+          {
+            "left": {
+              "text": "flowers"
+            },
+            "right": {
+              "text": "Blumen"
+            }
+          }
+        ],
+        "explanation": "Bei den Gläsern sagt das erste Wort, was hineinkommt: water oder wine. Utensils ist das ganze Besteck zusammen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Auf dem Tisch stehen zwei Gläser. Eines hat einen langen Stiel. Wie heißt es?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "wine glass",
+            "correct": true
+          },
+          {
+            "text": "water glass"
+          },
+          {
+            "text": "vase"
+          },
+          {
+            "text": "salt and pepper"
+          }
+        ],
+        "explanation": "Das Weinglas hat einen langen Stiel. Das Wasserglas ist niedrig und ohne Stiel. Eine vase ist für Blumen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍴 Messer, Gabel und Löffel zusammen: Wie heißt das auf deinem Blatt?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "utensils",
+            "correct": true
+          },
+          {
+            "text": "plates"
+          },
+          {
+            "text": "napkins"
+          },
+          {
+            "text": "flowers"
+          }
+        ],
+        "explanation": "Utensils heißt Besteck. Einzeln heißen die Teile knife, fork und spoon. In England sagt man meistens cutlery."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🍽️ Zum Essen und Trinken oder Deko und Möbel? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          {
+            "id": "essen",
+            "label": "Zum Essen und Trinken",
+            "icon": "🍴"
+          },
+          {
+            "id": "deko",
+            "label": "Deko und Möbel",
+            "icon": "🪑"
+          }
+        ],
+        "items": [
+          {
+            "text": "plate",
+            "bucket": "essen"
+          },
+          {
+            "text": "utensils",
+            "bucket": "essen"
+          },
+          {
+            "text": "wine glass",
+            "bucket": "essen"
+          },
+          {
+            "text": "salt and pepper",
+            "bucket": "essen"
+          },
+          {
+            "text": "water glass",
+            "bucket": "essen"
+          },
+          {
+            "text": "vase",
+            "bucket": "deko"
+          },
+          {
+            "text": "flowers",
+            "bucket": "deko"
+          },
+          {
+            "text": "chair",
+            "bucket": "deko"
+          }
+        ],
+        "explanation": "Frag dich: Brauchst du es beim Essen oder Trinken? Dann gehört es zum Essen. Schmückt es den Tisch oder sitzt du darauf? Dann ist es Deko oder ein Möbelstück."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🗣️ Ein Gast sagt: Could you pass me the salt and pepper, please? Was möchte er?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Salz und Pfeffer",
+            "correct": true
+          },
+          {
+            "text": "Eine Serviette"
+          },
+          {
+            "text": "Ein Wasserglas"
+          },
+          {
+            "text": "Die Rechnung"
+          }
+        ],
+        "explanation": "Pass heißt hier reichen oder geben. Salt and pepper heißt Salz und Pfeffer. Eine Serviette wäre a napkin, die Rechnung the bill."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥤 Ein Gast hat Saft verschüttet. Was gibst du ihm?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "a napkin",
+            "correct": true
+          },
+          {
+            "text": "a plate"
+          },
+          {
+            "text": "a vase"
+          },
+          {
+            "text": "a wine glass"
+          }
+        ],
+        "explanation": "Mit einer napkin, also einer Serviette, wischt man den Mund oder etwas Verschüttetes ab."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🌼 Baue den Satz: Die Blumen stehen in der Vase.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "The"
+          },
+          {
+            "text": "flowers"
+          },
+          {
+            "text": "are"
+          },
+          {
+            "text": "in"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "vase"
+          }
+        ],
+        "explanation": "Flowers ist Mehrzahl, darum heißt es are. Stehen sagt man im Englischen hier mit be: The flowers are in the vase."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Was heißt: Please put a water glass next to the plate.",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Stell bitte ein Wasserglas neben den Teller.",
+            "correct": true
+          },
+          {
+            "text": "Stell bitte ein Weinglas neben den Teller."
+          },
+          {
+            "text": "Stell bitte ein Wasserglas auf den Teller."
+          },
+          {
+            "text": "Stell bitte eine Flasche Wasser neben den Teller."
+          }
+        ],
+        "explanation": "Next to heißt neben. Auf hieße on. Water glass ist das Wasserglas, wine glass das Weinglas. Eine Flasche hieße a bottle."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Was ist a chair?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "ein Stuhl",
+            "correct": true
+          },
+          {
+            "text": "ein Tisch"
+          },
+          {
+            "text": "ein Teller"
+          }
+        ],
+        "explanation": "Chair heißt Stuhl. Der Tisch heißt table, der Teller plate."
+      }
+    }
+  ]
+}

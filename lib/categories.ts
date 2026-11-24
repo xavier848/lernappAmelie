@@ -99,7 +99,7 @@ export const CATEGORIES: Category[] = [
     slug: "sprachen",
     title: "Sprachen",
     icon: "🗣️",
-    topicSlugs: ["englisch", "niederlaendisch", "oesterreichisch"],
+    topicSlugs: ["englisch", "englisch-schule", "niederlaendisch", "oesterreichisch"],
   },
 ];
 
