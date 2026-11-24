@@ -1,0 +1,315 @@
+{
+  "topic_slug": "englisch-schule",
+  "slug": "englisch-schule-02-find-someone-who",
+  "title": "Find someone who: Fragen stellen",
+  "sort": 2,
+  "intro": "🔎 In der Schule habt ihr Student Bingo gespielt: Find someone who … Das heißt: Finde jemanden, der …\n\nDu gehst herum und stellst Fragen. Sagt jemand Ja, kommt sein Name in das Feld. Auf Englisch ist das eine Ja-Nein-Frage.\n\nDie meisten Ja-Nein-Fragen beginnen mit Do you …? Danach kommt das Verb in der Grundform.\n\n> Do you have a pet at home? = Hast du ein Haustier zu Hause?\n\nBei can, am, are, is, was und were brauchst du kein do. Diese Wörter rutschen selbst nach vorne.\n\n> Can you name three fruits in English? = Kannst du drei Obstsorten auf Englisch nennen?\n\n> Were you at a Halloween party in October? = Warst du im Oktober auf einer Halloween-Party?\n\nFür die Vergangenheit nimmst du Did you …? Auch nach did steht das Verb in der Grundform.\n\n> Did you come to school by bus today? = Bist du heute mit dem Bus zur Schule gekommen?\n\nMERKE: Eine Ja-Nein-Frage beginnt mit dem Hilfsverb: Do you, Did you, Can you, Are you oder Were you. Danach kommt der Rest.",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🐶 Auf dem Bingo steht: Ich habe ein Haustier zu Hause. Wie fragst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Do you have a pet at home?",
+            "correct": true
+          },
+          {
+            "text": "Does you have a pet at home?"
+          },
+          {
+            "text": "Are you have a pet at home?"
+          },
+          {
+            "text": "You have a pet at home?"
+          }
+        ],
+        "explanation": "Zu you gehört do. Does gehört zu he, she und it. Are you have hat zwei Verben auf einmal. Ganz ohne Hilfsverb ist es ein Aussagesatz mit Fragezeichen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🚌 Auf dem Bingo steht: Ich bin heute mit dem Bus zur Schule gekommen. Welche Frage passt?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Did you come to school by bus today?",
+            "correct": true
+          },
+          {
+            "text": "Did you came to school by bus today?"
+          },
+          {
+            "text": "Do you came to school by bus today?"
+          },
+          {
+            "text": "Came you to school by bus today?"
+          }
+        ],
+        "explanation": "Gekommen ist Vergangenheit. Darum fragst du mit Did you …? Nach did steht das Verb in der Grundform: come, nicht came. Came you … ist deutsche Wortstellung."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔁 Welche englische Frage passt zum Bingo-Feld?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "Ich habe jüngere Geschwister."
+            },
+            "right": {
+              "text": "Do you have younger siblings?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ich wohne außerhalb von Ingolstadt."
+            },
+            "right": {
+              "text": "Do you live outside Ingolstadt?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ich koche oder backe sehr gerne."
+            },
+            "right": {
+              "text": "Do you like cooking or baking?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ich esse total gerne Pizza."
+            },
+            "right": {
+              "text": "Do you love pizza?"
+            }
+          },
+          {
+            "left": {
+              "text": "Ich spreche zwei oder mehr Sprachen."
+            },
+            "right": {
+              "text": "Do you speak two or more languages?"
+            }
+          }
+        ],
+        "explanation": "Alle fünf Fragen beginnen mit Do you. Den Unterschied macht das Verb: have heißt haben, live heißt wohnen, like heißt mögen, love heißt lieben und speak heißt sprechen."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🎂 Auf dem Bingo steht: Ich habe im November Geburtstag. Wie fragst du?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Is your birthday in November?",
+            "correct": true
+          },
+          {
+            "text": "Are your birthday in November?"
+          },
+          {
+            "text": "Does your birthday in November?"
+          },
+          {
+            "text": "Is you birthday in November?"
+          }
+        ],
+        "explanation": "Your birthday ist eine Sache, also is. Bei is brauchst du kein do. Das is kommt selbst nach vorne. Your heißt dein, you heißt du."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🎃 Baue die Frage: Warst du auf einer Halloween-Party?",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "Were"
+          },
+          {
+            "text": "you"
+          },
+          {
+            "text": "at"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "Halloween"
+          },
+          {
+            "text": "party"
+          }
+        ],
+        "explanation": "War und warst heißen auf Englisch was und were. Zu you gehört were. In der Frage rutscht were nach vorne, ganz ohne did. Auf einer Party heißt at a party."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍞 Was heißt: Do you like the smell of fresh yeast dough?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Magst du den Geruch von frischem Hefeteig?",
+            "correct": true
+          },
+          {
+            "text": "Magst du den Geschmack von frischem Brot?"
+          },
+          {
+            "text": "Backst du gern mit frischem Hefeteig?"
+          },
+          {
+            "text": "Riechst du gern an frischen Brötchen?"
+          }
+        ],
+        "explanation": "Smell heißt Geruch, yeast dough heißt Hefeteig. Like heißt mögen, nicht backen. Geschmack hieße taste, Brot hieße bread."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧩 Womit fängt die Frage an? Sortiere die Sätze.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          {
+            "id": "do",
+            "label": "Do you …?",
+            "icon": "🔵"
+          },
+          {
+            "id": "can",
+            "label": "Can you …?",
+            "icon": "💪"
+          },
+          {
+            "id": "were",
+            "label": "Were you …?",
+            "icon": "⏪"
+          }
+        ],
+        "items": [
+          {
+            "text": "Ich habe ein Haustier zu Hause.",
+            "bucket": "do"
+          },
+          {
+            "text": "Ich esse total gerne Pizza.",
+            "bucket": "do"
+          },
+          {
+            "text": "Ich weiß, wie man eine Vinaigrette macht.",
+            "bucket": "do"
+          },
+          {
+            "text": "Ich kann 3 Obstsorten auf Englisch aufzählen.",
+            "bucket": "can"
+          },
+          {
+            "text": "Ich kann gut backen.",
+            "bucket": "can"
+          },
+          {
+            "text": "Ich war auf einer Halloween-Party.",
+            "bucket": "were"
+          },
+          {
+            "text": "Ich war schon mal in England.",
+            "bucket": "were"
+          }
+        ],
+        "explanation": "Frag dich: Steht im deutschen Satz kann? Dann fragst du Can you. Steht war? Dann fragst du Were you. Bei allen anderen Verben brauchst du Do you, auch bei weiß: Do you know …?"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "📚 Auf dem Bingo steht: Ich kenne die Regeln der Küchenhygiene auswendig. Was heißt auswendig?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "by heart",
+            "correct": true
+          },
+          {
+            "text": "by hand"
+          },
+          {
+            "text": "by bus"
+          },
+          {
+            "text": "out of my head"
+          }
+        ],
+        "explanation": "Auswendig heißt auf Englisch by heart, wörtlich: mit dem Herzen. Do you know the rules by heart? By hand heißt mit der Hand, by bus mit dem Bus. Out of my head ist deutsch gedacht."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍽️ Auf dem Bingo steht: Ich decke gerne den Tisch und bediene Gäste. Was heißt Gäste bedienen?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "serve guests",
+            "correct": true
+          },
+          {
+            "text": "set guests"
+          },
+          {
+            "text": "help guests"
+          },
+          {
+            "text": "visit guests"
+          }
+        ],
+        "explanation": "Serve heißt bedienen oder servieren. Set heißt decken: set the table. Help heißt helfen, visit heißt besuchen. Die ganze Frage: Do you like to set the table and serve guests?"
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "✅ Wie antwortest du kurz mit Ja?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "Do you have a pet?"
+            },
+            "right": {
+              "text": "Yes, I do."
+            }
+          },
+          {
+            "left": {
+              "text": "Can you bake?"
+            },
+            "right": {
+              "text": "Yes, I can."
+            }
+          },
+          {
+            "left": {
+              "text": "Were you at the party?"
+            },
+            "right": {
+              "text": "Yes, I was."
+            }
+          }
+        ],
+        "explanation": "In der kurzen Antwort kommt dasselbe Hilfsverb wie in der Frage: Do you … Yes, I do. Can you … Yes, I can. Bei were antwortest du mit was, denn zu I gehört was."
+      }
+    }
+  ]
+}

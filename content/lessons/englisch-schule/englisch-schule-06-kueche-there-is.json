@@ -1,0 +1,366 @@
+{
+  "topic_slug": "englisch-schule",
+  "slug": "englisch-schule-06-kueche-there-is",
+  "title": "In der Küche: There is und There are",
+  "sort": 6,
+  "intro": "🔍 Auf dem Blatt „In the Kitchen“ sollst du mindestens fünf Dinge aufschreiben, die du im Bild siehst. Danach kommt: True or false? Also: Stimmt das oder stimmt das nicht?\n\nDiese Dinge siehst du zum Beispiel in der Küche:\n\n> fridge = der Kühlschrank\n\n> stove = der Herd\n\n> oven = der Backofen\n\n> sink = die Spüle\n\n> counter = die Arbeitsfläche\n\n> pot = der Topf\n\n> pan = die Pfanne\n\n> bowl = die Schüssel\n\nMit There is und There are sagst du, was es irgendwo gibt.\n\n> There is a pan on the stove. = Auf dem Herd steht eine Pfanne.\n\n> There are blueberries on the counter. = Auf der Arbeitsfläche stehen Heidelbeeren.\n\nMERKE: Ein Ding: There is a … Mehrere Dinge: There are … und das Wort hat meist ein s am Ende.",
+  "exercises": [
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Was heißt das auf Deutsch?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "fridge"
+            },
+            "right": {
+              "text": "Kühlschrank"
+            }
+          },
+          {
+            "left": {
+              "text": "stove"
+            },
+            "right": {
+              "text": "Herd"
+            }
+          },
+          {
+            "left": {
+              "text": "oven"
+            },
+            "right": {
+              "text": "Backofen"
+            }
+          },
+          {
+            "left": {
+              "text": "sink"
+            },
+            "right": {
+              "text": "Spüle"
+            }
+          },
+          {
+            "left": {
+              "text": "counter"
+            },
+            "right": {
+              "text": "Arbeitsfläche"
+            }
+          },
+          {
+            "left": {
+              "text": "pan"
+            },
+            "right": {
+              "text": "Pfanne"
+            }
+          }
+        ],
+        "explanation": "Merkhilfe: Auf dem stove kochst du in Töpfen und Pfannen. Im oven backst du. Im sink spülst du. Auf dem counter schneidest du."
+      }
+    },
+    {
+      "type": "match_pairs",
+      "data": {
+        "prompt": "🔤 Noch mehr Dinge aus der Küche: Was gehört zusammen?",
+        "tts_lang": "en-GB",
+        "pairs": [
+          {
+            "left": {
+              "text": "pot"
+            },
+            "right": {
+              "text": "Topf"
+            }
+          },
+          {
+            "left": {
+              "text": "bowl"
+            },
+            "right": {
+              "text": "Schüssel"
+            }
+          },
+          {
+            "left": {
+              "text": "knife"
+            },
+            "right": {
+              "text": "Messer"
+            }
+          },
+          {
+            "left": {
+              "text": "rolling pin"
+            },
+            "right": {
+              "text": "Nudelholz"
+            }
+          },
+          {
+            "left": {
+              "text": "apron"
+            },
+            "right": {
+              "text": "Schürze"
+            }
+          },
+          {
+            "left": {
+              "text": "dish towel"
+            },
+            "right": {
+              "text": "Geschirrtuch"
+            }
+          }
+        ],
+        "explanation": "Ein pot ist hoch, eine pan ist flach. Mit dem rolling pin rollst du Teig aus. Dish heißt Geschirr, towel heißt Tuch."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🍳 Auf dem Herd steht eine Pfanne. Wie sagst du das?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "There is a pan on the stove.",
+            "correct": true
+          },
+          {
+            "text": "There are a pan on the stove."
+          },
+          {
+            "text": "There is a pan in the oven."
+          },
+          {
+            "text": "It is a pan on the stove."
+          }
+        ],
+        "explanation": "Eine Pfanne ist ein Ding, also There is. On the stove heißt auf dem Herd, in the oven heißt im Backofen. It is heißt: Es ist. Damit sagst du nicht, was es gibt."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🫐 Auf der Arbeitsfläche steht eine Schale mit Heidelbeeren. Welcher Satz passt?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "There are blueberries on the counter.",
+            "correct": true
+          },
+          {
+            "text": "There is blueberries on the counter."
+          },
+          {
+            "text": "There are blueberries in the fridge."
+          },
+          {
+            "text": "There are strawberries on the counter."
+          }
+        ],
+        "explanation": "Blueberries sind Heidelbeeren, also mehrere. Darum There are. Counter ist die Arbeitsfläche, fridge der Kühlschrank. Strawberries wären Erdbeeren."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "✅ So sieht die Küche aus: Topf und Pfanne auf dem Herd. Heidelbeeren auf der Arbeitsfläche. Wassergläser auf dem Tisch. Milch und Gemüse im Kühlschrank. True or false?",
+        "tts_lang": "en-GB",
+        "buckets": [
+          {
+            "id": "true",
+            "label": "True",
+            "icon": "✅"
+          },
+          {
+            "id": "false",
+            "label": "False",
+            "icon": "❌"
+          }
+        ],
+        "items": [
+          {
+            "text": "There is a pan on the stove.",
+            "bucket": "true"
+          },
+          {
+            "text": "There are blueberries on the counter.",
+            "bucket": "true"
+          },
+          {
+            "text": "There is milk in the fridge.",
+            "bucket": "true"
+          },
+          {
+            "text": "There are wine glasses on the table.",
+            "bucket": "false"
+          },
+          {
+            "text": "There is meat in the fridge.",
+            "bucket": "false"
+          },
+          {
+            "text": "There are blueberries on the table.",
+            "bucket": "false"
+          }
+        ],
+        "explanation": "Prüfe bei jedem Satz zwei Dinge: Stimmt das Ding? Und stimmt der Ort? On the stove heißt auf dem Herd, on the counter auf der Arbeitsfläche, on the table auf dem Tisch und in the fridge im Kühlschrank."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "🥩 Was heißt: There is meat in the fridge?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Im Kühlschrank ist Fleisch.",
+            "correct": true
+          },
+          {
+            "text": "Im Kühlschrank ist Milch."
+          },
+          {
+            "text": "Auf dem Herd ist Fleisch."
+          },
+          {
+            "text": "Im Backofen ist Fisch."
+          }
+        ],
+        "explanation": "Meat heißt Fleisch, milk heißt Milch. In the fridge heißt im Kühlschrank. Auf dem Herd hieße on the stove."
+      }
+    },
+    {
+      "type": "steps_order",
+      "data": {
+        "prompt": "🥛 Baue den Satz: Auf dem Tisch stehen Gläser.",
+        "tts_lang": "en-GB",
+        "mode": "words",
+        "steps": [
+          {
+            "text": "There"
+          },
+          {
+            "text": "are"
+          },
+          {
+            "text": "glasses"
+          },
+          {
+            "text": "on"
+          },
+          {
+            "text": "the"
+          },
+          {
+            "text": "table"
+          }
+        ],
+        "explanation": "Der Satz beginnt mit There are, weil es mehrere Gläser sind. Der Ort kommt ans Ende: on the table."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "💐 Setze ein: There ___ a vase with flowers on the table.",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "is",
+            "correct": true
+          },
+          {
+            "text": "are"
+          },
+          {
+            "text": "be"
+          },
+          {
+            "text": "am"
+          }
+        ],
+        "explanation": "Es geht um eine Vase: a vase. Das ist ein Ding, also There is. Die Blumen stecken nur darin. An der einen Vase ändern sie nichts."
+      }
+    },
+    {
+      "type": "sort_buckets",
+      "data": {
+        "prompt": "🧺 There is oder There are? Sortiere.",
+        "tts_lang": "en-GB",
+        "buckets": [
+          {
+            "id": "is",
+            "label": "There is …",
+            "icon": "1️⃣"
+          },
+          {
+            "id": "are",
+            "label": "There are …",
+            "icon": "🔢"
+          }
+        ],
+        "items": [
+          {
+            "text": "a pan",
+            "bucket": "is"
+          },
+          {
+            "text": "a knife",
+            "bucket": "is"
+          },
+          {
+            "text": "an apron",
+            "bucket": "is"
+          },
+          {
+            "text": "a bowl",
+            "bucket": "is"
+          },
+          {
+            "text": "carrots",
+            "bucket": "are"
+          },
+          {
+            "text": "plates",
+            "bucket": "are"
+          },
+          {
+            "text": "flowers",
+            "bucket": "are"
+          },
+          {
+            "text": "two pots",
+            "bucket": "are"
+          }
+        ],
+        "explanation": "Frag dich: Steht a oder an davor? Dann ist es ein Ding: There is. Hat das Wort ein s am Ende oder steht eine Zahl davor? Dann sind es mehrere: There are."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "data": {
+        "prompt": "❓ Was heißt True or false?",
+        "tts_lang": "en-GB",
+        "options": [
+          {
+            "text": "Richtig oder falsch?",
+            "correct": true
+          },
+          {
+            "text": "Frage oder Antwort?"
+          },
+          {
+            "text": "Groß oder klein?"
+          }
+        ],
+        "explanation": "True heißt richtig oder wahr. False heißt falsch. Bei True or false? prüfst du, ob ein Satz stimmt."
+      }
+    }
+  ]
+}
