@@ -18,9 +18,30 @@
 //  - Notausgang: Waeren ALLE spielbaren Themen gleichzeitig gesperrt, wird die
 //    Sperre mit dem kuerzesten Rest aufgehoben. Amelie darf nie vor einer
 //    App sitzen, in der gar nichts mehr geht.
+//  - Themen ohne Sperre (THEMEN_OHNE_SPERRE, Xavier 2026-11-25): Schulstoff,
+//    den Amelie jederzeit ueben soll. Wie das Pruefungs-Training: nie
+//    gesperrt, keine Themen-Pause, und neue Lektionen daraus kommen nicht ins
+//    Protokoll. Aeltere Eintraege aus der Zeit davor zaehlen fuer die anderen
+//    Themen weiter wie bisher, damit dort keine Pause zurueckkommt.
 //
 // Reine Funktionen ueber dem Ereignis-Protokoll (Tabelle lesson_events) -
 // kein eigener Zustand, der verrutschen kann. Getestet in lernfluss.test.ts.
+
+/**
+ * Themen, die Amelie immer spielen darf (Xavier, 2026-11-25: "dass sie da das
+ * immer machen kann, Englisch für die Schule"). Pruefungs-Themen sind ueber
+ * lib/pruefung.ts schon ausgenommen und stehen deshalb nicht hier.
+ */
+export const THEMEN_OHNE_SPERRE: ReadonlySet<string> = new Set([
+  "englisch-schule",
+]);
+
+/** Darf dieses Thema nie vom Lernfluss gesperrt werden? */
+export function istThemaOhneSperre(
+  topicSlug: string | null | undefined,
+): boolean {
+  return typeof topicSlug === "string" && THEMEN_OHNE_SPERRE.has(topicSlug);
+}
 
 export type LernEreignis = {
   kind: "lektion" | "wiederholung";
@@ -98,7 +119,9 @@ export function berechneLernstand(
 
         const zaehler = (themaZaehler.get(thema) ?? 0) + 1;
         themaZaehler.set(thema, zaehler);
-        if (zaehler >= config.themaAmStueck) {
+        // Themen ohne Sperre machen nie Pause - auch nicht wegen alter
+        // Eintraege aus der Zeit, bevor sie ausgenommen wurden.
+        if (zaehler >= config.themaAmStueck && !istThemaOhneSperre(thema)) {
           pausierteThemen.set(thema, config.themaPauseLektionen);
         }
       }
