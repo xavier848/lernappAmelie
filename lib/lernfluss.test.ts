@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   berechneLernstand,
+  istThemaOhneSperre,
   loeseSackgasse,
   naechsterSchrittText,
   themaGesperrtFuer,
@@ -217,5 +218,36 @@ describe("Zusammenspiel und Anzeige", () => {
       themaAmStueck: 3,
       themaPauseLektionen: 9,
     });
+  });
+});
+
+describe("Themen ohne Sperre (Englisch in der Schule)", () => {
+  it("kennt nur englisch-schule, nicht das normale Englisch", () => {
+    expect(istThemaOhneSperre("englisch-schule")).toBe(true);
+    expect(istThemaOhneSperre("englisch")).toBe(false);
+    expect(istThemaOhneSperre(null)).toBe(false);
+    expect(istThemaOhneSperre(undefined)).toBe(false);
+  });
+
+  it("macht nach 3 Lektionen am Stueck keine Pause", () => {
+    const stand = berechneLernstand([
+      lektion("englisch-schule"), lektion("englisch-schule"), lektion("englisch-schule"),
+    ]);
+    expect(themaGesperrtFuer(stand, "englisch-schule")).toBe(0);
+    expect(stand.pausierteThemen.has("englisch-schule")).toBe(false);
+  });
+
+  it("laesst alte Eintraege fuer die anderen Themen weiter zaehlen", () => {
+    // Beispiel: Kueche pausiert, danach 3 Lektionen Englisch in der Schule
+    // aus der Zeit vor der Ausnahme. Die bauen die Kueche-Pause weiter ab -
+    // sonst waere die Kueche durch die neue Regel ploetzlich wieder laenger
+    // gesperrt.
+    const stand = berechneLernstand([
+      lektion("kueche"), lektion("kueche"), lektion("kueche"),
+      wiederholung(), wiederholung(),
+      lektion("englisch-schule"), lektion("englisch-schule"), lektion("englisch-schule"),
+    ]);
+    expect(themaGesperrtFuer(stand, "kueche")).toBe(6);
+    expect(themaGesperrtFuer(stand, "englisch-schule")).toBe(0);
   });
 });

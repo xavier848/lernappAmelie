@@ -57,6 +57,8 @@ Schickt Mama Blätter für einen konkreten Test, kommt der Stoff in ein **eigene
 
 Regeln für den Inhalt: **Wirklich alles** von den Blättern muss in mindestens einer Übung abgefragt werden (nicht nur in der Einführung). Jede Lektion bekommt eine Einführung als Lernzettel. Lückentexte des Blattes als eigene Lektion „wie im Test“, mit den Lösungsworten des Blattes als Distraktoren. Nach dem Test das Thema im Admin-Bereich auf „nicht veröffentlicht“ stellen – dann verschwindet seine Karte (und ohne offene Prüfung auch die Kachel). Eine neue Prüfung braucht keinen Code, nur ein neues `pruefung-…`-Thema.
 
+**Schulstoff ohne Prüfung, der immer frei sein soll** (Beispiel: `englisch-schule`, 25.11.2026): normales Thema in einem Bereich, aber Slug in `THEMEN_OHNE_SPERRE` in `lib/lernfluss.ts` eintragen. Dann gibt es keine Themen-Pause und keine Sperre durch fällige Wiederholungen, und die Lektionen zählen nicht für die Sperren der anderen Themen. Die Reihenfolge innerhalb des Themas bleibt.
+
 ## Eine Lektion (JSON)
 
 ```json

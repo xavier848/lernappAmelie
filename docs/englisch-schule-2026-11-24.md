@@ -58,3 +58,15 @@ Eine unabhängige Prüfung hat alle Lektionen mit den sechs Fotos verglichen. Ke
 - **Ratbare Antworten:** Mehrere Emojis haben die Lösung verraten, zum Beispiel 💻 bei Ginas Hobby. Ersetzt sind 💻, 🍷, 🧂, 🪑, 🥩, 🧼, 🤝, 💐, 🩹, 🏥 und bei einer eigenen Nachkontrolle noch 🥡, 🧻 und 💧. Bei Ginas Hobby war die richtige Antwort außerdem die längste.
 - **Erklärungen:** Bei Zuordnen und Sortieren nennen sie jetzt einen Hinweis statt die ganze Lösung.
 - **Ernährungslehre:** Kartoffeln stehen im DGE-Ernährungskreis nicht beim Gemüse. In der Sortier-Übung „fruit or vegetables“ steht jetzt broccoli.
+
+## Nach dem Start: immer frei (25.11.2026)
+
+Amelie hat die ersten 3 Lektionen gemacht. Danach hat die Lernfluss-Regel B das Thema pausiert („Wieder frei nach 9 Lektionen aus anderen Themen“), und Amelie schrieb am 25.11. in die Gruppe, dass es nicht mehr geht. Xavier: „dass es nur bei Englisch nicht diese Blockade gibt, dass sie da das immer machen kann“.
+
+Seitdem steht `englisch-schule` in `THEMEN_OHNE_SPERRE` (`lib/lernfluss.ts`):
+
+- keine Themen-Pause und keine Sperre durch fällige Wiederholungen, weder auf der Themen-Seite noch im Lektions-Player,
+- neue Lektionen daraus kommen nicht ins Lernfluss-Protokoll (wie beim Prüfungs-Training), zählen also nicht für die Sperren der anderen Themen,
+- die 3 Einträge aus der Zeit davor zählen für die anderen Themen weiter wie bisher. So wird dort keine Pause wieder länger,
+- die Reihenfolge innerhalb des Themas bleibt: Die nächste Lektion wird frei, wenn die vorige geschafft ist.
+

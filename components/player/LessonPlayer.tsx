@@ -33,6 +33,7 @@ import {
 import { getDeviceId, getProfile } from "@/lib/device";
 import {
   berechneLernstand,
+  istThemaOhneSperre,
   themaGesperrtFuer,
   type LernEreignis,
 } from "@/lib/lernfluss";
@@ -140,6 +141,9 @@ export function LessonPlayer({
   const [topicSlug, setTopicSlug] = useState<string | null>(null);
   // Pruefungs-Lektion (lib/pruefung.ts): ausserhalb des Lernflusses.
   const pruefung = istPruefungsThema(topicSlug);
+  // Ausserhalb des Lernflusses sind Pruefungen und die Themen ohne Sperre
+  // (lib/lernfluss.ts). Nur Pruefungen haben aber eine eigene Seite.
+  const ohneLernfluss = pruefung || istThemaOhneSperre(topicSlug);
   // Gesetzt, wenn der Lernfluss diese Lektion gerade nicht zulaesst.
   const [sperre, setSperre] = useState<Sperre | null>(null);
   // Einführung: optionaler Vorschalt-Screen vor der ersten Übung.
@@ -213,8 +217,14 @@ export function LessonPlayer({
         return;
       }
 
-      // Pruefungs-Lektionen (lib/pruefung.ts): kein Riegel, nie.
-      if (!istMama && deviceId && !istPruefungsThema(data.topicSlug)) {
+      // Pruefungs-Lektionen (lib/pruefung.ts) und Themen ohne Sperre
+      // (lib/lernfluss.ts): kein Riegel, nie.
+      if (
+        !istMama &&
+        deviceId &&
+        !istPruefungsThema(data.topicSlug) &&
+        !istThemaOhneSperre(data.topicSlug)
+      ) {
         if (ereignisse === null) {
           setPhase("error");
           return;
@@ -431,9 +441,9 @@ export function LessonPlayer({
           // noch einmal (z. B. um von 2 auf 3 Sterne zu kommen), ist das
           // eine Wiederholung. Muss VOR saveLessonResult geprueft werden -
           // danach steht der Fortschritt ja schon drin.
-          // Pruefungs-Lektionen stehen ausserhalb des Lernflusses: Sie
-          // tauchen im Protokoll gar nicht auf.
-          if (!pruefung) {
+          // Pruefungs-Lektionen und Themen ohne Sperre stehen ausserhalb des
+          // Lernflusses: Sie tauchen im Protokoll gar nicht auf.
+          if (!ohneLernfluss) {
             let schonGeschafft = false;
             try {
               schonGeschafft = await istLektionSchonGeschafft(deviceId, lessonId);

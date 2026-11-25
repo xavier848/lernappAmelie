@@ -21,6 +21,7 @@ import { getDeviceId, getProfile } from "@/lib/device";
 import { istPruefungsThema, pruefungsPfad } from "@/lib/pruefung";
 import {
   berechneLernstand,
+  istThemaOhneSperre,
   naechsterSchrittText,
   themaGesperrtFuer,
   type Lernstand,
@@ -255,11 +256,14 @@ export default function ThemaPage() {
 
   // Lernfluss: Mama ist ausgenommen, sonst geht die Themen-Pause vor den
   // faelligen Wiederholungen (eine Meldung reicht, zwei ueberfordern).
+  // Themen ohne Sperre (lib/lernfluss.ts) laufen wie im Mama-Modus: keine
+  // Pause, keine Wiederholungs-Sperre, kein Hinweis darauf.
+  const lernflussAktiv = !isMama && !istThemaOhneSperre(slug);
   const stand = state.status === "ready" ? state.stand : null;
-  const pauseRest = !isMama && stand ? themaGesperrtFuer(stand, slug) : 0;
+  const pauseRest = lernflussAktiv && stand ? themaGesperrtFuer(stand, slug) : 0;
   const themaPausiert = pauseRest > 0;
   const wiederholungFaellig =
-    !isMama && !themaPausiert && stand ? stand.wiederholungFaellig : false;
+    lernflussAktiv && !themaPausiert && stand ? stand.wiederholungFaellig : false;
   const blockiert = themaPausiert
     ? "gerade in Pause"
     : wiederholungFaellig
@@ -267,7 +271,7 @@ export default function ThemaPage() {
       : undefined;
   // Dezenter Vorlauf: eine Lektion vor der Pause Bescheid sagen.
   const letzteVorPause =
-    !isMama && !themaPausiert && !wiederholungFaellig && stand
+    lernflussAktiv && !themaPausiert && !wiederholungFaellig && stand
       ? stand.themaZaehler.get(slug) === 2
       : false;
 
