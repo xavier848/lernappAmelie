@@ -59,6 +59,10 @@ Regeln für den Inhalt: **Wirklich alles** von den Blättern muss in mindestens 
 
 **Schulstoff ohne Prüfung, der immer frei sein soll** (Beispiel: `englisch-schule`, 25.11.2026): normales Thema in einem Bereich, aber Slug in `THEMEN_OHNE_SPERRE` in `lib/lernfluss.ts` eintragen. Dann gibt es keine Themen-Pause und keine Sperre durch fällige Wiederholungen, und die Lektionen zählen nicht für die Sperren der anderen Themen. Die Reihenfolge innerhalb des Themas bleibt.
 
+## Vokabeln (Karteikarten)
+
+Vokabeln für den Trainer unter `/vokabeln` sind **keine Lektionen** und liegen nicht in Supabase. Sie stehen als Datei im Repo unter `content/vokabeln/<thema>.json`, mit Kopf (`thema`, `titel`, `sprache` wie `en-GB`, `spracheName`) und `stapel`. Jeder Stapel hat `slug`, `titel`, `icon` und 4 bis 25 `karten`. Eine Karte ist `{ "fremd": "plate", "deutsch": "der Teller", "hinweis": "optional, steht auf der Rückseite" }`. Ein neues Thema mit Vokabeln zusätzlich in `lib/vokabeln.ts` bei `SAMMLUNGEN` eintragen. Der Trainer schreibt nichts, gibt keine XP und sperrt nichts. Mehr dazu in `docs/vokabeltrainer-2026-11-27.md`.
+
 ## Eine Lektion (JSON)
 
 ```json
