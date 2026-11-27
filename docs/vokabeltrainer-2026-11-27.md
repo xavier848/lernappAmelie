@@ -35,7 +35,7 @@ Xavier hat noch am selben Tag gefragt: „Kannst du auch verschiedene Modi einba
 
 - **🃏 Karteikarten:** der Ablauf oben. Umdrehen und selbst sagen, ob man es wusste.
 - **⌨️ Schreiben:** Oben steht das Wort, darunter ein Eingabefeld.
-  - „Prüfen“ oder Enter prüft die Antwort, „Weiter“ oder nochmal Enter geht zur nächsten Karte. Am Handy bleibt die Tastatur dabei offen.
+  - „Prüfen“ oder Enter prüft die Antwort. Danach geht die Handy-Tastatur zu, damit die ganze Rückmeldung zu sehen ist. „Weiter“ (oder nochmal Enter) geht zur nächsten Karte und öffnet die Tastatur gleich wieder.
   - „Weiß nicht“ zeigt die Lösung, die Karte kommt dann in der nächsten Runde wieder.
   - Die Rückmeldung zeigt immer die volle Form mit Artikel, z. B. „der Teller“, dazu 🔊 und den Hinweis der Karte.
   - Runden, Rundenende und Abschluss sind wie bei den Karteikarten. Nach den Karteikarten bietet der Abschluss zusätzlich „Jetzt schreiben üben“ an.
@@ -108,8 +108,31 @@ Xavier hat noch am selben Tag gefragt: „Kannst du auch verschiedene Modi einba
     - Sauberkeit: keine Fehler auf der Seite, nichts in die Datenbank geschrieben.
   - Schreiben: 41 Prüfungen, alle grün.
     - Antworten: richtig, Tippfehler mit „zählt trotzdem“, falsch, „Weiß nicht“, weitere Antworten wie „the check“.
-    - Bedienung: Enter zweimal geht genau eine Karte weiter, die Tastatur bleibt am Handy offen.
+    - Bedienung: Enter zweimal geht genau eine Karte weiter. Nach dem Prüfen liegt der Fokus auf „Weiter“, danach wieder im Feld.
     - Ablauf: Runden, Abschluss, Modus gemerkt.
 - **Dabei gefunden und behoben:**
   - Enter drehte die Karteikarte zweimal, also gar nicht. Motion löst bei Enter selbst noch einen Tap aus. Der wird jetzt ignoriert, weil die Tastatur schon über `onKeyDown` läuft.
   - „Weiß nicht“ übersprang im Schreib-Modus die Karte. React baute den angeklickten Knopf noch während des Klicks zum „Weiter“-Knopf (type=submit) um, und der Browser schickte das Formular ab. Die beiden Knopfgruppen haben jetzt eigene keys.
+
+## Nach dem Start: Platz für die Handy-Tastatur (27.11.2026)
+
+Xavier hat ein Bildschirmfoto vom iPhone geschickt: „Wenn man tippt kann man das Wort nur schlecht sehen.“ Die iPhone-Tastatur ist samt der Leiste (^ v ✓) gut 440 pt hoch. iOS schiebt die ganze Seite nach oben, bis das Eingabefeld frei liegt. Dabei rutschte das Wort unter die Statusleiste mit Uhrzeit und Akku. Außerdem brach „Weiß nicht“ auf dem iPhone in zwei Zeilen um.
+
+Geändert:
+
+- Über dem Eingabefeld ist alles kompakt.
+  - Der 🔊-Knopf sitzt jetzt in der Wortkarte.
+  - Die Anleitung steht im Feld („Auf Englisch schreiben …“) statt in einer eigenen Zeile.
+  - Die Zeile „Englisch → Deutsch · Schreiben“ fällt im Schreib-Modus weg. Die Karte nennt die Sprache, das Feld die Zielsprache.
+  - Wörter mit mehr als 18 Zeichen sind etwas kleiner, mit Silbentrennung.
+- Nach dem Prüfen springt der Fokus auf „Weiter“. Die Tastatur geht zu, und die ganze Rückmeldung ist zu sehen. „Weiter“ öffnet sie für die nächste Karte wieder.
+- „Weiß nicht“ und „Prüfen“ brechen nicht mehr um.
+
+Nachgemessen mit dem Bildschirm vom Foto (390 × 844 pt, App vom Home-Bildschirm): Über der Tastatur bleiben 356 pt sichtbar.
+
+| Fall | Feld endet bei | Knöpfe enden bei |
+|---|---|---|
+| Normales Wort | 254 pt | 322 pt |
+| Langes, zweizeiliges Wort | 282 pt | 350 pt |
+
+Beides liegt über der Tastatur. iOS muss also nichts mehr verschieben, und das Wort bleibt sichtbar. Gemessen hat das ein Playwright-Durchlauf im Handy-Format für drei Stapel. Der lange Fall war „die Beutel mit Zipp-Verschluss“.

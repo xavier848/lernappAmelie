@@ -220,7 +220,11 @@ export default function VokabelStapelPage() {
   return (
     <Rahmen>
       {kopf}
-      <div className="flex items-baseline justify-between gap-2 pt-2 pb-3">
+      <div
+        className={
+          "flex items-baseline justify-between gap-2 " + (schreiben ? "pt-1 pb-2" : "pt-2 pb-3")
+        }
+      >
         <h1 className="text-lg font-extrabold text-ink">
           <span aria-hidden>{stapel.icon} </span>
           {stapel.titel}
@@ -229,9 +233,14 @@ export default function VokabelStapelPage() {
           Runde {training.runde} · {training.pos + 1}/{training.reihe.length}
         </p>
       </div>
-      <p className="pb-3 text-sm font-bold text-primary-dark">
-        {richtungText(richtung, sammlung)} · {MODUS_TEXT[modus]}
-      </p>
+      {/* Beim Schreiben keine Richtungs-Zeile: Die Wortkarte nennt die
+          Sprache, das Feld die Zielsprache - und jeder Pixel ueber dem
+          Eingabefeld zaehlt, damit die Handy-Tastatur nichts verdeckt. */}
+      {!schreiben && (
+        <p className="pb-3 text-sm font-bold text-primary-dark">
+          {richtungText(richtung, sammlung)} · {MODUS_TEXT[modus]}
+        </p>
+      )}
       {schreiben ? (
         // Kein key: Das Eingabefeld bleibt dasselbe, die Tastatur bleibt offen.
         <Schreibkarte
