@@ -27,6 +27,7 @@ import {
   type Lernstand,
 } from "@/lib/lernfluss";
 import type { PathLessonRow, ProgressRow, TopicWithLessons } from "@/lib/types";
+import { sammlungFuerThema } from "@/lib/vokabeln";
 
 type LoadState =
   | { status: "loading" }
@@ -351,6 +352,30 @@ export default function ThemaPage() {
                 <p className="pb-4 text-sm text-ink/60">
                   Noch 1 Lektion, dann macht dieses Thema Pause.
                 </p>
+              )}
+
+              {/* Vokabeltrainer (lib/vokabeln.ts): nur bei Themen mit
+                  Vokabel-Stapeln, und nie gesperrt. */}
+              {sammlungFuerThema(slug) && (
+                <Link
+                  href="/vokabeln"
+                  className="mb-5 flex min-h-14 w-full items-center gap-3 rounded-2xl border-2 border-b-4 border-primary bg-white px-4 py-2 select-none active:translate-y-0.5 active:border-b-2"
+                >
+                  <span className="text-3xl" aria-hidden>
+                    🃏
+                  </span>
+                  <span className="flex flex-1 flex-col">
+                    <span className="text-base font-bold text-primary-dark">
+                      Vokabeln üben
+                    </span>
+                    <span className="text-sm text-ink/70">
+                      Karteikarten oder Schreiben
+                    </span>
+                  </span>
+                  <span className="text-xl text-primary-dark" aria-hidden>
+                    ▶
+                  </span>
+                </Link>
               )}
 
               {lessons.length === 0 ? (

@@ -497,6 +497,30 @@ export default function StartPage() {
           </section>
         )}
 
+        {/* Vokabeltrainer (Mama, 2026-11-27): Karteikarten, nie gesperrt,
+            schreibt nichts in die Datenbank. Immer sichtbar - auch ohne
+            Fortschritt (z. B. Mamas Pruef-Profil). Mit Fortschritt sitzt die
+            Kachel direkt unter "Wiederholen & Pruefen". */}
+        <div className={state.progress.length > 0 ? "pt-3" : "pt-8"}>
+          <Link
+            href="/vokabeln"
+            className="flex min-h-16 w-full items-center gap-3 rounded-2xl border-2 border-b-4 border-locked bg-white p-3 select-none active:translate-y-0.5 active:border-b-2"
+          >
+            <span className="text-3xl" aria-hidden>
+              🃏
+            </span>
+            <span className="flex flex-1 flex-col text-left">
+              <span className="text-sm font-bold text-ink">Vokabeln üben</span>
+              <span className="text-sm font-semibold text-ink/70">
+                Karteikarten oder Schreiben
+              </span>
+            </span>
+            <span className="text-xl text-primary-dark" aria-hidden>
+              ▶
+            </span>
+          </Link>
+        </div>
+
         {/* Bereiche ("Uebermappen"): buendeln die vielen Themen in wenige
             grosse Gruppen. Antippen fuehrt zu /bereich/[slug] mit den Themen. */}
         <section aria-label="Bereiche" className="pt-8">
