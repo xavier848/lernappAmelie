@@ -126,6 +126,11 @@ Geändert:
   - Die Zeile „Englisch → Deutsch · Schreiben“ fällt im Schreib-Modus weg. Die Karte nennt die Sprache, das Feld die Zielsprache.
   - Wörter mit mehr als 18 Zeichen sind etwas kleiner, mit Silbentrennung.
 - Nach dem Prüfen springt der Fokus auf „Weiter“. Die Tastatur geht zu, und die ganze Rückmeldung ist zu sehen. „Weiter“ öffnet sie für die nächste Karte wieder.
+- **Schreib-Fokus:** Solange am Handy ins Feld getippt wird, blendet die Seite Kopf (✕, Fortschritt) und Titel aus. Dann steht das Wort ganz oben, Feld und Knöpfe direkt darunter.
+  - Die Schreibkarte meldet das über `onTippen` (Fokus im Feld, nur bei Finger-Bedienung, `pointer: coarse`).
+  - Öffnet sich die Tastatur, setzt die Seite die Verschiebung von iOS zurück (`visualViewport`-resize → nach oben).
+  - Am Computer bleibt der Kopf stehen.
+  - Die Knöpfe und 🔊 nehmen dem Feld beim Antippen den Fokus nicht. Sonst käme der Kopf mitten im Tippen zurück, alles rutschte nach unten, und der Finger träfe etwas anderes.
 - „Weiß nicht“ und „Prüfen“ brechen nicht mehr um.
 
 Nachgemessen mit dem Bildschirm vom Foto (390 × 844 pt, App vom Home-Bildschirm): Über der Tastatur bleiben 356 pt sichtbar.
@@ -135,4 +140,15 @@ Nachgemessen mit dem Bildschirm vom Foto (390 × 844 pt, App vom Home-Bildschirm
 | Normales Wort | 254 pt | 322 pt |
 | Langes, zweizeiliges Wort | 282 pt | 350 pt |
 
-Beides liegt über der Tastatur. iOS muss also nichts mehr verschieben, und das Wort bleibt sichtbar. Gemessen hat das ein Playwright-Durchlauf im Handy-Format für drei Stapel. Der lange Fall war „die Beutel mit Zipp-Verschluss“.
+Beides liegt über der Tastatur. iOS muss also nichts mehr verschieben, und das Wort bleibt sichtbar.
+
+Danach kamen Fotos von Mama und Amelie. Auf Mamas iPhone war alles zu sehen, auf Amelies nicht. Mama fragte, ob es am kleineren Display liegt und ob es unabhängig von der Displaygröße geht. Es liegt an der Höhe, die über der Tastatur übrig bleibt, und die ist je nach iPhone (und Anzeige-Zoom) verschieden. Darum gibt es den Schreib-Fokus. Mit ihm brauchen Wort, Feld und Knöpfe nur noch 222 pt, mit langem Wort 250 pt. Geprüft im Handy-Format mit vorsichtig geschätzter Höhe über der Tastatur:
+
+| iPhone | sichtbar über der Tastatur | Knöpfe enden bei |
+|---|---|---|
+| SE | 300 pt | 222 pt (lang 250 pt) |
+| 13 mini | 320 pt | 222 pt (lang 250 pt) |
+| 16 Pro (Foto) | 355 pt | 222 pt (lang 250 pt) |
+| 16 Pro Max | 390 pt | 222 pt (lang 250 pt) |
+
+Dazu geprüft: 🔊, „Weiß nicht“, „Prüfen“ und „Weiter“ treffen beim Antippen, der Kopf kommt nach dem Prüfen zurück, und am Computer bleibt er stehen. Gemessen hat das ein Playwright-Durchlauf im Handy-Format für drei Stapel. Der lange Fall war „die Beutel mit Zipp-Verschluss“.

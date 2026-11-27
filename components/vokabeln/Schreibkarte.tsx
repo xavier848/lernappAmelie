@@ -6,17 +6,25 @@
 // mit der richtigen Schreibweise, und Amelie entscheidet selbst, ob es
 // zaehlt - wie bei den Karteikarten. "Weiß nicht" zeigt die Loesung.
 //
-// Handy-Tastatur (Xavier, 27.11. mit Bildschirmfoto): Die iPhone-Tastatur
+// Handy-Tastatur (Xavier und Mama, 27.11. mit Fotos): Die iPhone-Tastatur
 // ist hoch, und iOS schiebt die Seite nach oben, bis das Eingabefeld frei
-// liegt - dabei rutschte das Wort unter die Statusleiste. Darum ist alles
-// ueber dem Feld kompakt (🔊 in der Wortkarte, die Anleitung steht im
-// Feld). So liegt das Feld so weit oben, dass nichts verschoben wird.
-// Nach dem Pruefen springt der Fokus auf "Weiter": Die Tastatur geht zu,
-// die ganze Rueckmeldung ist zu sehen, Enter geht weiter. "Weiter" setzt
-// den Fokus wieder ins Feld - noch im Tippen, so geht die Tastatur fuer
-// die naechste Karte gleich auf. Das Feld bleibt dabei dasselbe Element
-// (die Seite gibt keinen key).
-import { useEffect, useRef, useState, type FormEvent } from "react";
+// liegt - dabei rutschte das Wort unter die Statusleiste, je nach Display
+// mehr oder weniger. Darum:
+// - Alles ueber dem Feld ist kompakt (🔊 in der Wortkarte, die Anleitung
+//   steht im Feld).
+// - Schreib-Fokus: Bekommt das Feld am Handy den Fokus, meldet die Karte
+//   onTippen(true), und die Seite blendet Kopf und Titel aus. Dann steht
+//   das Wort ganz oben, Feld und Knoepfe direkt darunter - auf jedem
+//   Display ueber der Tastatur.
+// - Knoepfe nehmen dem Feld beim Antippen den Fokus nicht (onMouseDown).
+//   Sonst kaeme der Kopf mitten im Tippen zurueck, alles rutschte nach
+//   unten, und der Finger traefe etwas anderes.
+// - Nach dem Pruefen springt der Fokus auf "Weiter": Die Tastatur geht zu,
+//   die ganze Rueckmeldung ist zu sehen, Enter geht weiter. "Weiter" setzt
+//   den Fokus wieder ins Feld - noch im Tippen, so geht die Tastatur fuer
+//   die naechste Karte gleich auf. Das Feld bleibt dabei dasselbe Element
+//   (die Seite gibt keinen key).
+import { useEffect, useRef, useState, type FormEvent, type MouseEvent } from "react";
 import { Button } from "@/components/ui/Button";
 import { TTSButton } from "@/components/ui/TTSButton";
 import { cn } from "@/lib/cn";
@@ -32,12 +40,23 @@ type Ergebnis =
   | { art: "falsch" }
   | { art: "weissNicht" };
 
+/** Knoepfe sollen dem Eingabefeld beim Antippen den Fokus nicht nehmen. */
+function fokusBehalten(e: MouseEvent) {
+  e.preventDefault();
+}
+
+/** Finger statt Maus: Dann geht beim Tippen eine Bildschirm-Tastatur auf. */
+function istFingerBedienung(): boolean {
+  return window.matchMedia?.("(pointer: coarse)").matches === true;
+}
+
 export function Schreibkarte({
   kartenSchluessel,
   frage,
   loesung,
   hinweis,
   onEntscheidung,
+  onTippen,
 }: {
   /** Wechselt mit jeder Karte - dann beginnt die Eingabe von vorn. */
   kartenSchluessel: string;
@@ -45,6 +64,8 @@ export function Schreibkarte({
   loesung: Loesung;
   hinweis?: string;
   onEntscheidung: (gewusst: boolean) => void;
+  /** true, solange am Handy ins Feld getippt wird (Tastatur offen). */
+  onTippen?: (tippt: boolean) => void;
 }) {
   const formular = useRef<HTMLFormElement>(null);
   const feld = useRef<HTMLInputElement>(null);
@@ -57,6 +78,15 @@ export function Schreibkarte({
     setEingabe("");
     setErgebnis(null);
   }
+
+  // Beim Verschwinden (Rundenende) gibt es kein blur mehr - also hier
+  // melden, dass nicht mehr getippt wird. Ueber eine Ref, damit ein neuer
+  // Callback der Seite nicht jedes Mal "fertig getippt" ausloest.
+  const tippenMelden = useRef(onTippen);
+  useEffect(() => {
+    tippenMelden.current = onTippen;
+  });
+  useEffect(() => () => tippenMelden.current?.(false), []);
 
   // Nach dem Pruefen: Fokus auf "Weiter" (der einzige Absende-Knopf dann).
   // Am Handy geht dabei die Tastatur zu.
@@ -129,7 +159,9 @@ export function Schreibkarte({
             {frage.text}
           </span>
         </div>
-        <TTSButton text={frage.text} lang={frage.lang} />
+        <span onMouseDown={fokusBehalten}>
+          <TTSButton text={frage.text} lang={frage.lang} />
+        </span>
       </div>
 
       <label htmlFor="vokabel-antwort" className="sr-only">
@@ -143,6 +175,10 @@ export function Schreibkarte({
         onChange={(e) => {
           if (!ergebnis) setEingabe(e.target.value);
         }}
+        onFocus={() => {
+          if (istFingerBedienung()) onTippen?.(true);
+        }}
+        onBlur={() => onTippen?.(false)}
         lang={loesung.lang}
         autoComplete="off"
         autoCorrect="off"
@@ -202,10 +238,22 @@ export function Schreibkarte({
           ueberspringen. */}
       {!ergebnis ? (
         <div key="vor-dem-pruefen" className="grid grid-cols-2 gap-3">
-          <Button variant="secondary" size="lg" className="whitespace-nowrap" onClick={weissNicht}>
+          <Button
+            variant="secondary"
+            size="lg"
+            className="whitespace-nowrap"
+            onMouseDown={fokusBehalten}
+            onClick={weissNicht}
+          >
             Weiß nicht
           </Button>
-          <Button type="submit" size="lg" className="whitespace-nowrap" disabled={!getippt}>
+          <Button
+            type="submit"
+            size="lg"
+            className="whitespace-nowrap"
+            onMouseDown={fokusBehalten}
+            disabled={!getippt}
+          >
             Prüfen
           </Button>
         </div>

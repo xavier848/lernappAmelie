@@ -7,7 +7,7 @@
 // Ablauf in lib/vokabeltrainer.ts: Runde fuer Runde, bis alle Karten sitzen.
 // Schreibt nichts in die Datenbank - es gibt keine XP und keinen Eintrag im
 // Lernfluss, Amelie kann also beliebig oft ueben.
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/Button";
@@ -84,6 +84,28 @@ export default function VokabelStapelPage() {
   }
   const richtung = richtungHier ?? gespeicherteRichtung;
   const modus = modusHier ?? gespeicherterModus;
+
+  // Schreib-Fokus (Mama, 27.11.: "unabhaengig von der Displaygroesse"):
+  // Solange am Handy die Tastatur offen ist, blendet die Seite Kopfzeile und
+  // Titel aus. Dann steht das Wort ganz oben, direkt darunter Feld und
+  // Knoepfe - das passt auf jedem Display ueber die Tastatur. Die
+  // Schreibkarte meldet, wann getippt wird (Fokus im Feld, nur bei
+  // Finger-Bedienung).
+  const [tippt, setTippt] = useState(false);
+  const fokusModus = modus === "schreiben" && tippt && training?.phase === "karte";
+  useEffect(() => {
+    if (!fokusModus) return;
+    // iOS schiebt die Seite beim Oeffnen der Tastatur nach oben, bis das
+    // Feld frei liegt. Im Schreib-Fokus passt alles - also zurueck nach oben.
+    const nachOben = () => {
+      window.scrollTo(0, 0);
+      document.getElementById("app-scroll")?.scrollTo(0, 0);
+    };
+    nachOben();
+    const sicht = window.visualViewport;
+    sicht?.addEventListener("resize", nachOben);
+    return () => sicht?.removeEventListener("resize", nachOben);
+  }, [fokusModus]);
 
   if (!treffer) {
     return (
@@ -219,20 +241,23 @@ export default function VokabelStapelPage() {
 
   return (
     <Rahmen>
-      {kopf}
-      <div
-        className={
-          "flex items-baseline justify-between gap-2 " + (schreiben ? "pt-1 pb-2" : "pt-2 pb-3")
-        }
-      >
-        <h1 className="text-lg font-extrabold text-ink">
-          <span aria-hidden>{stapel.icon} </span>
-          {stapel.titel}
-        </h1>
-        <p className="text-sm font-semibold whitespace-nowrap text-ink/70">
-          Runde {training.runde} · {training.pos + 1}/{training.reihe.length}
-        </p>
-      </div>
+      {/* Im Schreib-Fokus (Tastatur offen) ohne Kopf und Titel. */}
+      {!fokusModus && kopf}
+      {!fokusModus && (
+        <div
+          className={
+            "flex items-baseline justify-between gap-2 " + (schreiben ? "pt-1 pb-2" : "pt-2 pb-3")
+          }
+        >
+          <h1 className="text-lg font-extrabold text-ink">
+            <span aria-hidden>{stapel.icon} </span>
+            {stapel.titel}
+          </h1>
+          <p className="text-sm font-semibold whitespace-nowrap text-ink/70">
+            Runde {training.runde} · {training.pos + 1}/{training.reihe.length}
+          </p>
+        </div>
+      )}
       {/* Beim Schreiben keine Richtungs-Zeile: Die Wortkarte nennt die
           Sprache, das Feld die Zielsprache - und jeder Pixel ueber dem
           Eingabefeld zaehlt, damit die Handy-Tastatur nichts verdeckt. */}
@@ -249,6 +274,7 @@ export default function VokabelStapelPage() {
           loesung={loesung}
           hinweis={karte.hinweis}
           onEntscheidung={entscheiden}
+          onTippen={setTippt}
         />
       ) : (
         <Karteikarte
