@@ -3,16 +3,22 @@
 // Die Vokabeln liegen als Stapel in content/vokabeln/<thema>.json. Ein Stapel
 // gehoert zu einer Lektion des Themas und hat 4 bis 25 Karten. Jede Karte hat
 // ein Wort in der Fremdsprache und ein deutsches Wort, dazu optional einen
-// kurzen Hinweis (zum Beispiel das britische Wort). Die Daten gehen mit der
+// kurzen Hinweis (zum Beispiel das britische Wort). fremdAuch/deutschAuch
+// sind weitere richtige Antworten fuer den Modus "Schreiben" (z. B. "cutlery"
+// zu "utensils"); auf der Karte stehen sie nicht. Die Daten gehen mit der
 // App aus - in der Datenbank steht nichts davon, und der Trainer schreibt
 // auch nichts hinein.
 import { z } from "zod";
 import englischSchule from "@/content/vokabeln/englisch-schule.json";
 
+const weitereAntworten = z.array(z.string().min(1)).min(1).optional();
+
 const karteSchema = z.object({
   fremd: z.string().min(1),
   deutsch: z.string().min(1),
   hinweis: z.string().min(1).optional(),
+  fremdAuch: weitereAntworten,
+  deutschAuch: weitereAntworten,
 });
 
 const stapelSchema = z

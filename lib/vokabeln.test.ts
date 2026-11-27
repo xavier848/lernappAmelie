@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { kern, pruefeAntwort, richtigeAntworten } from "./vokabelpruefung";
 import { findeStapel, SAMMLUNGEN, sammlungFuerThema, sammlungSchema } from "./vokabeln";
 
 describe("Vokabel-Sammlungen", () => {
@@ -28,6 +29,65 @@ describe("Vokabel-Sammlungen", () => {
         const deutsch = stapel.karten.map((k) => k.deutsch.toLowerCase());
         expect(new Set(fremd).size).toBe(fremd.length);
         expect(new Set(deutsch).size).toBe(deutsch.length);
+      }
+    }
+  });
+
+  it("nimmt beim Schreiben jede richtige Antwort einer Karte auch als richtig an", () => {
+    for (const sammlung of SAMMLUNGEN) {
+      for (const stapel of sammlung.stapel) {
+        for (const karte of stapel.karten) {
+          for (const [haupt, auch, sprache] of [
+            [karte.fremd, karte.fremdAuch, sammlung.sprache],
+            [karte.deutsch, karte.deutschAuch, "de-DE"],
+          ] as const) {
+            for (const antwort of richtigeAntworten(haupt, auch)) {
+              const ergebnis = pruefeAntwort(antwort.text, haupt, auch, sprache);
+              expect(ergebnis.art, `${stapel.slug}: "${antwort.text}"`).toBe("richtig");
+            }
+          }
+        }
+      }
+    }
+  });
+
+  it("hat keine weitere Antwort, die schon die Hauptform ist oder doppelt steht", () => {
+    for (const sammlung of SAMMLUNGEN) {
+      for (const stapel of sammlung.stapel) {
+        for (const karte of stapel.karten) {
+          for (const [haupt, auch, sprache] of [
+            [karte.fremd, karte.fremdAuch ?? [], sammlung.sprache],
+            [karte.deutsch, karte.deutschAuch ?? [], "de-DE"],
+          ] as const) {
+            const kerne = auch.map((a) => kern(a, sprache));
+            expect(new Set(kerne).size, `${stapel.slug}: ${haupt}`).toBe(kerne.length);
+            const haupt_kerne = richtigeAntworten(haupt).map((a) => kern(a.text, sprache));
+            for (const k of kerne) {
+              expect(haupt_kerne, `${stapel.slug}: ${haupt} / ${k}`).not.toContain(k);
+            }
+          }
+        }
+      }
+    }
+  });
+
+  it("hat in keinem Stapel eine Antwort, die zu zwei Karten passt", () => {
+    for (const sammlung of SAMMLUNGEN) {
+      for (const stapel of sammlung.stapel) {
+        for (const seite of ["fremd", "deutsch"] as const) {
+          const sprache = seite === "fremd" ? sammlung.sprache : "de-DE";
+          const gesehen = new Map<string, string>();
+          for (const karte of stapel.karten) {
+            const haupt = karte[seite];
+            const auch = seite === "fremd" ? karte.fremdAuch : karte.deutschAuch;
+            const kerne = new Set(richtigeAntworten(haupt, auch).map((a) => kern(a.text, sprache)));
+            for (const k of kerne) {
+              const andere = gesehen.get(k);
+              expect(andere, `${stapel.slug}: "${k}" passt zu "${andere}" und "${haupt}"`).toBeUndefined();
+              gesehen.set(k, haupt);
+            }
+          }
+        }
       }
     }
   });

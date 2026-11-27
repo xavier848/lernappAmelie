@@ -369,7 +369,7 @@ export default function ThemaPage() {
                       Vokabeln üben
                     </span>
                     <span className="text-sm text-ink/70">
-                      Karteikarten zu diesem Thema
+                      Karteikarten oder Schreiben
                     </span>
                   </span>
                   <span className="text-xl text-primary-dark" aria-hidden>

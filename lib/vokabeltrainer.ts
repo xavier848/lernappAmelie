@@ -95,22 +95,42 @@ export function andereRichtung(richtung: Richtung): Richtung {
   return richtung === "fremd-deutsch" ? "deutsch-fremd" : "fremd-deutsch";
 }
 
-/** Merkt sich die zuletzt gewaehlte Richtung (nur auf diesem Geraet). */
-export const RICHTUNG_KEY = "lernapp-vokabel-richtung";
+/**
+ * So wird geuebt (Xavier, 2026-11-27):
+ * - "karten": Karteikarte umdrehen und selbst sagen, ob man es wusste
+ * - "schreiben": die Antwort eintippen, die App prueft (lib/vokabelpruefung.ts)
+ */
+export type Modus = "karten" | "schreiben";
 
-export function ladeRichtung(): Richtung {
+export function istRichtung(wert: unknown): wert is Richtung {
+  return wert === "fremd-deutsch" || wert === "deutsch-fremd";
+}
+
+export function istModus(wert: unknown): wert is Modus {
+  return wert === "karten" || wert === "schreiben";
+}
+
+/** Zuletzt gewaehlte Richtung und zuletzt gewaehlter Modus (nur auf diesem Geraet). */
+export const RICHTUNG_KEY = "lernapp-vokabel-richtung";
+export const MODUS_KEY = "lernapp-vokabel-modus";
+
+/** Liest eine gespeicherte Wahl; null, wenn nichts (Gueltiges) gespeichert ist. */
+export function ladeEinstellung<T extends string>(
+  schluessel: string,
+  gueltig: (wert: unknown) => wert is T,
+): T | null {
   try {
-    const wert = window.localStorage.getItem(RICHTUNG_KEY);
-    return wert === "deutsch-fremd" ? "deutsch-fremd" : "fremd-deutsch";
+    const wert = window.localStorage.getItem(schluessel);
+    return gueltig(wert) ? wert : null;
   } catch {
-    return "fremd-deutsch";
+    return null;
   }
 }
 
-export function speichereRichtung(richtung: Richtung): void {
+export function speichereEinstellung(schluessel: string, wert: string): void {
   try {
-    window.localStorage.setItem(RICHTUNG_KEY, richtung);
+    window.localStorage.setItem(schluessel, wert);
   } catch {
-    // Ohne Speicher gilt einfach wieder die Standard-Richtung.
+    // Ohne Speicher gilt die Wahl nur, solange die Seite offen ist.
   }
 }

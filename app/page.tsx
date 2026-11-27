@@ -512,7 +512,7 @@ export default function StartPage() {
             <span className="flex flex-1 flex-col text-left">
               <span className="text-sm font-bold text-ink">Vokabeln üben</span>
               <span className="text-sm font-semibold text-ink/70">
-                Karteikarten für Englisch
+                Karteikarten oder Schreiben
               </span>
             </span>
             <span className="text-xl text-primary-dark" aria-hidden>
